@@ -2556,6 +2556,10 @@
     "formula": "sbuffidtier(4380)"
   },
   {
+    "id": 1720,
+    "formula": "(@Maxlife-@Life)*0.2>@maxlife/@formation*0.5?@maxlife/@formation*0.5:(@Maxlife-@Life)*0.2"
+  },
+  {
     "id": 3001,
     "formula": "170+sbuffidtier(3300)*22"
   },
