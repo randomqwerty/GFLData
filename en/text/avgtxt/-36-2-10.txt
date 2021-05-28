@@ -1,0 +1,62 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>99</BIN><黑屏2><BGM>BGM_War</BGM>:The S.F. reinforcements throw the Military infantry into disarray, and the AR Team's assault soon crushes the defenders holding the magazine.+The bunker's perimeter is stacked high with the corpses of Sangvis and Military forces.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:The Sangvis troops are engaging the Military's armored units. They won't be able to hold out for long.
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:This is our only chance to regain control of the shore gun.+...I really didn't expect the day to come when I'd be working together with Executioner.
+RO635(0)<Speaker>RO635</Speaker>||:This is just strange. If it wasn't for those S.F. Dolls taking most of the fire for us, we'd be the ones lying dead here.+Still, what's with those S.F. Dolls?
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:Something must have happened before we entered the base. +But we still have a mission to complete. +We can't concern ourselves with S.F.'s survival for the time being.
+RO635(0)<Speaker>RO635</Speaker>||:Indeed.
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:SOP-II, RO, go secure the shell feed passage. 15, come with me to take control of the turret.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||<黑点1>:Got it.
+()||<黑点2>:Meanwhile, on the other side of the battlefield.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:Come! Come! Come, humans!+Come and pay the price for what you've done! Give Destroyer back to me!
+()||:The remaining Sangvis forces are still engaged with the Military units.+However, the number of S.F. units around Executioner have greatly dwindled in number from when they first launched their assault.+As for Executioner herself, she doesn't seem to have noticed.+Though her body is riddled with bullet holes, she has no intention of stopping.+She remains at the forefront of her troops, swinging her weapon.
+NPC-Yegor(3)<Speaker>Officer</Speaker>||:She's in range! Tanks, destroy her!
+()<Speaker>Vehicle Officer</Speaker>||:Beginning attack!
+()||<SE1>Explode</SE1>:Boom!
+BOSS-2(0)<Speaker>Executioner</Speaker><Shake>1</Shake>||:Aaaaaaargh!
+()||:The smoke of the explosion consumes her body. Her favored weapon falls to the side.+The Sangvis units did not expect such a ferocious attack, much less that Executioner would fall.+It lasts for only a moment, but their advance falters. And that is fatal on the battlefield.
+NPC-Yegor(3)<Speaker>Officer</Speaker>||<SE2>Gunfight</SE2>:Immediate counterattack! All reserve units, flank and surround them! Let none survive!
+()||:As the Military automatons rush out of cover in a counter-charge, the Sangvis units who have stopped in place look like they're about to turn tail and run.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:What the hell are you standing around for? Get them!
+()||:There is a howl of fury, and the impending rout does not occur.+After the smoke clears, Executioner remains standing, gripping her only weapon in her right hand.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:(Coughs) Damn humans, did you think that was enough to kill me? +I didn't even feel that! Bring it on!
+()||:With that, Executioner unleashes her wrath on her attackers.
+NPC-Yegor(3)<Speaker>Officer</Speaker>||:IFVs! Turn! Cover fire!
+()||<SE1>Battlefield</SE1>:The Military's leadership leaves no openings for their opposition to exploit.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:Get back here! ...Dammit! My body's not responding to me.+Damn humans, not too shabby, are you?
+()||:The vehicle autocannons do not score a direct hit on her. +Still, their explosive rounds nearly shred Executioner to bits, and even her sword-wielding hand is now in tatters.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:This is as far as I can go, huh...
+()||:Although Executioner is doing her best to hold the line, the S.F. forces are visibly crumbling.+She knows she doesn't have much time left, and that the Military will finish their encirclement.+Executioner throws down her gun and picks up her sword.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:All remaining units, listen up. When I charge...all of you retreat...
+()||<SE2>Gunfight</SE2>:Bangbangbang, bangbangbang—+Before she can finish, the sound of heavy gunfire suddenly comes from the side.+The enemy forces trying to flank her seems to have run into something.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:What's going on?
+()<Speaker>???</Speaker>||:You're planning to make a suicide charge? Giving up like that isn't like you at all.
+()||:The reply isn't from one of Executioner's units, but another familiar voice.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:Hunter?
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:What, disappointed that it's me?+This time, I'm the one to rescue you. Sangvis Ferri Industries, cover Executioner as she retreats!
+BOSS-2(0)<Speaker>Executioner</Speaker>;BOSS-3(0)||:No! I can't go, I still have to carry out Mastermind's orders, and I haven't found Destroyer yet... Mastermind's orders must be executed!
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:There ARE no orders from Mastermind!+Take a good look at the base layer of your neural cloud! Mastermind has forfeited all her command authorizations.+Our "orders" are just something that someone is using to deceive us!
+BOSS-2(0)<Speaker>Executioner</Speaker>;BOSS-3(0)||:What? How could this be? Then what about Sangvis Ferri? What about Agent?
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Who knows? Does it even matter at this point?+Perhaps she abandoned us.+But this is just like what the guy who made us said...+"A child is only free when they leave their parents."+And now, Sangvis Ferri is truly free.
+BOSS-2(0)<Speaker>Executioner</Speaker>;BOSS-3(0)||:...Alright, then. What happened to Destroyer?
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:She probably ran into that lot in black. However, Dreamer is long gone.+Still, I doubt we need to worry. Those two pipsqueaks haven't seen the last of each other yet.
+BOSS-2(0)<Speaker>Executioner</Speaker>;BOSS-3(0)||:Then...what should we do now?
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Teach these stuck-up humans a lesson, then live on together.
+BOSS-2(0)<Speaker>Executioner</Speaker>;BOSS-3(0)||:Good... I like that idea.
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Let's go, Executioner! I'll cover you!
+BOSS-2(0)<Speaker>Executioner</Speaker>||<黑点1>:Time for a real bash then!
+()||<黑点2><SE1>AVG_amb_wilderness</SE1><BGM>BGM_Empty</BGM>:An hour ago, in the vicinity of the shore artillery battery.+A very short Doll looks out at the vast quantities of Sangvis remains.
+()<Speaker>???</Speaker>||:You really are a lucky little puppy. +I guess that's a perk of being an idiot.
+()||:She has not gone out of her way to look for the person with whom she has lost contact.+And she certainly has no intention of obeying the malicious order given by that traitor — "commit suicide". +Still, whether by a cruel twist of fate or something else...+She, Sangvis Ferri's newest, most advanced Doll — Dreamer — now finds herself standing pensively next to Destroyer's motionless body.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:You had always been an idiot from the moment you were created alongside me.+I never understood why Lyco made you. Maybe he wanted a clown to liven things up.+And in truth, you were an excellent toy.
+()||:Dreamer grips Destroyer by the chin, studying the dried tears beneath her eyes.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:You always did as I ordered, and if anything happened, I could simply leave you for dead.+After all, no matter how much you hated me in your final moments, you would always be an obedient little puppy when you woke up again.+If Agent hadn't installed a protective cipher in you, there'd be no way of telling how many times you had died at my hands.
+()||:A mocking smile spreads across Dreamer's face, as though she has recalled something amusing.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Speaking of Agent, she's currently running around gathering the Sangvis forces that Elisa abandoned. +She's even gone so far as to ignore the risks of exposing herself, begging for a response on S.F. channels over and over again. +This is the first time I've seen her in such a state of panic...
+()||<SE1>AVG_Rain2</SE1>:The clouds quietly gather overhead. The air grows moist, and big, heavy drops of rain start to fall.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<BGM>BGM_Wake</BGM>:Well, there is nobody to protect you anymore.+The only one left standing before you is me, the one who's betrayed you countless times.+If I just fire one little shot into your neural cloud, there will never be another stupid Doll like you in this world again. +I've never told you before, but I hate you. Do you know why?+Because we were developed from the same model; an old, defect-riddled multi-purpose model.+SF/DSB1-0138 and 0139, Dual-Track DSI-8, codename "Мрия".
+()||<SE1>AVG_weapon_reload</SE1>:Dreamer presses the muzzle of her gun to Destroyer's head.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:And to think you're actually my elder sister? Lyco even gave you a name, Maria.+Your very existence was my biggest bane.+Alright then, for the sake of fairness, I'll let you off if you answer this one question.+So tell me, stupid big sister - what is the point of our existence as Sangvis Dolls?
+()||:A drop of rainwater runs down Destroyer's face, as though it were an answer.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Hahaha, well, it figures. Why would an idiot think about such things?+An idiot should just be a good idiot, nothing more...+Just be the idiot who forgets everything after they're reformatted...+Yes, that's all they should be...
+()||<黑屏1>:Dreamer's gun clatters on the ground.+As the cold rain falls, Dreamer and Destroyer vanish into the downpour.

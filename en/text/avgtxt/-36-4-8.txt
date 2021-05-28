@@ -1,0 +1,152 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:...
+()||<黑屏2><BIN>99</BIN><BGM>BGM_War</BGM>:20 minutes ago, at the military staging area.
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||<SE1>AVG_tele_connect</SE1>:Terra to Hematite. Sitrep. Over.
+NPC-Yegor(4);NPC-Soldier(0)<Speaker>Military Officer</Speaker><通讯框>||:<color=#00CCFF>This is Hematite. We've linked up with the remnants of Quartz's troops. We're currently exchanging fire with Sangvis Ferri and Paradeus forces.</color>+<color=#00CCFF>Unable to break through swiftly, I repeat, unable to break through swiftly. Over.</color>
+NPC-Yegor(4)<Speaker>Yegor</Speaker>;NPC-Soldier(0)||:Terra copies. Report losses. Over.
+NPC-Yegor(4);NPC-Soldier(0)<Speaker>Military Officer</Speaker>||:<color=#00CCFF>Hematite copies. We are still able to carry out the mission. No need to worry, Terra. Over.</color>
+NPC-Yegor(4)<Speaker>Yegor</Speaker>;NPC-Soldier(0)||:Terra copies. Commencing creeping barrage in 20 seconds. Zircon will assist ASAP. Maintain your advance. Over.
+NPC-Soldier(0)<Speaker>Military Officer</Speaker>||:<color=#00CCFF>Acknowledged. Over.</color>
+()||:The transmission ends.
+NPC-Soldier(0)<Speaker>Adjutant</Speaker>||<SE1>AVG_tele_disconnect</SE1>:Captain, Hematite's situation must be dire, and we don't have many infantry and automatons left.
+NPC-Yegor(4)<Speaker>Yegor</Speaker>;NPC-Soldier(0)||:I know. Lieutenant, bring them out. Time to play our ace in the hole.
+NPC-Soldier(0)<Speaker>Adjutant</Speaker>||<黑屏1>:Yes, sir!
+()||<BIN>224</BIN><黑屏2><SE2>Alarm</SE2>:Outside the breach in the barrier gate.+The small opening is piled high with mechanical carcasses, spent ammunition and human corpses.+It hasn't been half an hour since the fighting started, but both sides have already committed all their forces to this final battle.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Bring it on, humans!
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||<SE2>Gunfight</SE2><震屏>:Get down!
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Dammit, they've got a few cannons on their side, huh. What about those white guys?
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:They're all gone. That most recent bombardment probably blew up the last of them.
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Tsk! Do we have any reserve forces?
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:It's just the two of us and our minions. Executioner just carried Scarecrow away. Look, do you see anyone else?
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:So I'm going to die with you? Please, no.
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:If you've got the time to flap your artificial gums, why don't you...
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Why don't I what, I didn't hear you! Or did you not say anything at all?
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:Look, you jinxed it. The human tanks are coming.
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Is there an end to them? Don't humans have to mourn their fallen comrades?
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Considering how they're swarming us like insects, I think it's quite likely that they don't believe in God at all.
+()||:As they share a laugh, the two elite Sangvis Dolls get up and raise their weapons.
+BOSS-3(0)<Speaker>Hunter</Speaker>||<黑屏1>:Sangvis Ferri! CHARGE!
+()||<BIN>85</BIN><黑屏2>||:At the Griffin temporary camp.
+()<Speaker>Commander</Speaker>||:How's the situation?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:The S.F. remnants are still engaged with the Military, but the Paradeus units have all been wiped out.
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:How are our preparations?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:We've almost finished planting the explosives. Are we really not going to assist the Sangvis forces? According to the latest report, the Military tanks are closing in on them...
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:I know, but we don't have the strength to spare now.+We can barely put enough Dolls together to form a line of defense, so we'll have to wear them down with street fighting.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Got it.
+NPC-Kalin(0)<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:Keep a close eye on the Military forces. They under the situation very well themselves. I'm sure they'll try something.
+()||<BIN>224</BIN><黑屏2><BGM>BGM_Sad</BGM>:At the breach in the barrier gate.+Precious few S.F. units have survived the combined onslaught of the tanks and the artillery.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Hunter, how many units do you have left?
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:I thought you were the one counting. Who knows?
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:I was only looking at the ones I was commanding. Besides, it's your hands, not your brains that got damaged.
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Well, if your eyes are so sharp, why don't you go snipe a few of those humans?
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:I can snipe, sure, but I can't guarantee I won't blow your head off along with theirs.
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Ha-ha, very funny.+Still, to think we're going to drown in trash in this waste processing plant... It's gross, I don't want to remember this.
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:Well, if you have a problem with that, go take it up with those humans... Hey, what are you guys doing here? Didn't we tell you to withdraw with Agent?
+BOSS-3(0)<Speaker></Speaker>||:Hunter looks back and catches sight of two figures that she's long grown tired of seeing.
+BOSS-1(0)<Speaker>Scarecrow</Speaker>||:Why didn't you tell me you were doing something fun?
+BOSS-2(0)<Speaker>Executioner</Speaker>||:I don't like owing people favors, so I'm just paying it all back at once.
+BOSS-2(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:You morons! What point is there in you dying here?
+BOSS-2(0)<Speaker>Executioner</Speaker>;BOSS-3(0)||:When I think about how Agent might nag us until we fall to bits, I'd rather you take the blame for it instead.
+BOSS-1(0)<Speaker>Scarecrow</Speaker>;BOSS-3(0)||:I'd feel worse if I just walked off like that.
+BOSS-1(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Why, you...!
+BOSS-5(0)<Speaker>Alchemist</Speaker>;BOSS-3(0)||:Alright, alright, those humans aren't going to wait for you to be ready; they're coming right away. +Besides, it's not too bad for us to die together as one big happy family, right?
+BOSS-5(0);BOSS-3(0)<Speaker>Hunter</Speaker>||:Seriously, you guys! Alright, then. Sangvis Ferri! —
+BOSS-3(0)<Speaker></Speaker>||<SE1>Explode</SE1><BGM>BGM_Empty</BGM>:Before Hunter can finish, an explosion drowns out the rest of her battle cry.+However, it does not come from among the S.F. lines, but opposite them.+The explosion erupts in the midst of the Military soldiers.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<BGM>BGM_Boss</BGM>:Aha, ahahaha! Die, all of you!
+BOSS-6(0)<Speaker></Speaker>||:On a hill to the south of the frontlines, a tiny figure launches a vast quantity of grenades, which detonate and seal off the Military's advance.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Did you miss my fire support, useless seniors?
+BOSS-2(0)<Speaker>Executioner</Speaker>||:Hah! You two shorties made it!
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:I don't mind if you want to chat. +I'll record how you died because of idle chatter and play it to you when we get back.
+BOSS-11(0)<Speaker></Speaker>||<黑点1>:A horde of Sangvis Dolls appear on the top of the hill, and a close look reveals that all of them are in desperate need of repair. +However, these Dolls, who previously escaped the encirclement, have doubled back and rejoined the Sangvis front. +Thanks to the surprise assault from the flank, the Military's advance is halted and the battle-scarred elite Dolls finally get a chance to retreat.
+BOSS-3(0)<Speaker>Hunter</Speaker>||<黑点2>:Thank you, we're all clear.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Don't thank me yet. Soon you'll find out what a terrible thing it is to owe me one. +—Oi, little idiot, we're pulling out. These are the last toys we managed to beg from Agent!
+BOSS-11(0);BOSS-6(0)<Speaker>Destroyer</Speaker>||:Eh?!  Then this is a rare opportunity! Also, who are you calling an idiot?!
+BOSS-11(0)<Speaker>Dreamer</Speaker>;BOSS-6(0)||:If you want to stay here and become fertilizers, be my guest.
+BOSS-11(0);BOSS-6(0)<Speaker>Destroyer</Speaker>||:Urgh... Wait, what's that?
+BOSS-11(0);BOSS-6(0)<Speaker></Speaker>||:Destroyer points to a cloud of dust in the distance, behind the Military lines.
+BOSS-11(0)<Speaker>Dreamer</Speaker>;BOSS-6(0)||<黑屏1>:Who knows? It looks like some kind of mech... +Wait a minute, that's not right. It's something more interesting than that...
+()||<黑屏2><BIN>99</BIN><BGM>BGM_Empty</BGM>:At the forward position of the Military lines.
+NPC-Soldier(0)<Speaker>Armored Unit Officer</Speaker>||<BGM>BGM_War</BGM>:This is Zircon, please adjust fire support coordinates. I repeat, please adjust fire support coordinates. A large S.F. unit has appeared on the left flank, over.
+NPC-Soldier(0)<Speaker>???</Speaker>||:<color=#00CCFF>Roger. Cease fire support, there's no need to get locked in combat. All units, clear Advance Route 13 and follow me in an assault on the breach in the wall, over.</color>
+NPC-Soldier(0)<Speaker>Armored Unit Officer</Speaker>||:This is Zircon, requesting ID. Over.
+NPC-Yegor(4)<Speaker>Yegor</Speaker><通讯框>;NPC-Soldier(0)||:<color=#00CCFF>This is Terra. I'm on the frontlines, in Amber 4. Over.</color>
+NPC-Soldier(0)<Speaker>Armored Unit Officer</Speaker>||:Zircon copies. Over!
+()<Speaker></Speaker>||<黑点1>:Four massive mechs weave through the Military formation, moving at a speed that doesn't seem possible for such vast, towering machines.+In the blink of an eye, they're already at the leading edge of the Military lines. S.F. shells detonate around their feet, but they do not so much as slow the mechs' movements.
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||<黑点2>:The breach is too narrow. Focus fire and blast it open.
+NPC-Yegor(4);NPC-Soldier(0)<Speaker>Adjutant</Speaker>||:Amber 1 copies!
+NPC-Yegor(4);NPC-Soldier(0)<Speaker></Speaker>||<震屏><SE1>Explode</SE1>:BOOM! +After a barrage of plasma pulses, part of the quarantine wall explodes and collapses.
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||<黑屏1>:Well done, comrades. This is Terra. All units, assault the main elevator within the submarine base.
+()||<BIN>85</BIN><黑屏2>||<BGM>BGM_Empty</BGM>:Several minutes ago, at the Griffin temporary defense line.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||<BGM>BGM_Room</BGM>:Commander! The AR Team has linked up with us!
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:This is great. M4, can you hear me?
+M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>;NPC-Kalin(0)||:<color=#00CCFF>Loud and clear. I'm sorry, Commander... I couldn't stop those soldiers from firing the shore guns...</color>
+M4A1Mod(0);NPC-Kalin(0)<Speaker>Commander</Speaker>||:You've done enough. What's your current situation?
+M4A1Mod(0)<Speaker>M4A1</Speaker>;NPC-Kalin(0)||:<color=#00CCFF>Our team has sustained light damage, but we are still combat effective. Dandelion has already regrouped with us.</color>
+M4A1Mod(0);NPC-Kalin(0)<Speaker>Commander</Speaker>||:Good. +What's your present position? Have you made it into the base? +We're preparing to detonate the second entrance. If you haven't come in yet, you'd better hurry.
+M4A1Mod(0)<Speaker>M4A1</Speaker>;NPC-Kalin(0)||:<color=#00CCFF>We've already entered the base and are preparing to follow the demolition echelons. We should be able to help them finish planting the explosives more quickly.</color>
+M4A1Mod(0);NPC-Kalin(0)<Speaker>Commander</Speaker>||:Excellent. Any other news about the Military?
+M4A1Mod(0)<Speaker>M4A1</Speaker>;NPC-Kalin(0)||:<color=#00CCFF>The Military ought to be grappling with S.F. forces right now. They should be able to buy us some time.</color>
+M4A1Mod(0);NPC-Kalin(0)<Speaker>Commander</Speaker>||:Sangvis Ferri?
+M4A1Mod(0)<Speaker>M4A1</Speaker>;NPC-Kalin(0)||:<color=#00CCFF>It's a long story, but in short, Dandelion can control some of their troops to help us delay the Military. We might even be able to keep the Military stuck outside.</color>
+M4A1Mod(0);NPC-Kalin(0)<Speaker>Commander</Speaker>||:That would be extremely helpful... Carry on and finish your work.
+M4A1Mod(0)<Speaker>M4A1</Speaker>;NPC-Kalin(0)||:<color=#00CCFF>Roger. M4 out.</color>
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Commander...is this really a good idea? If we demolish both entrances to the base, doesn't that mean we'll also be trapped in here?
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:I hope Havier wasn't lying to us earlier. If they can't deliver on their promise, it means that we're just making a concrete coffin for ourselves...+But our comms equipment got blown up along with the train, so we can't even ask him about the situation now.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Commander, Mr. K has regained consciousness. Maybe he's got a solution for us!
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:When did he come to?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:It happened while you were busy deploying our forces for the demolition mission. I didn't tell you because it didn't seem important back then.
+NPC-Kalin(0)<Speaker>Commander</Speaker>||<黑点1>:...Let's go meet the guy while we still have the time to spare.
+NPC-Jason(1)<Speaker>K</Speaker>||<黑点2>:Where are we?
+NPC-Jason(1)<Speaker>Commander</Speaker>||:We're inside the sub base. The Military has us surrounded, so we're trying to destroy the entrances to delay their advance.
+NPC-Jason(1)<Speaker>K</Speaker>||:Where's Ange?
+NPC-Jason(1)<Speaker>Commander</Speaker>||:We haven't managed to contact her yet. I've sent a search party in to look for her.
+NPC-Jason(1)<Speaker>K</Speaker>||:That useless woman...
+NPC-Jason(1)<Speaker>Commander</Speaker>||:If there's nothing else, I'll be heading back to the defense line.
+NPC-Jason(1)<Speaker>K</Speaker>||:Don't you have questions for me, Griffin Commander?
+NPC-Jason(1)<Speaker>Commander</Speaker>||:Based on previous experience, I doubt you'll give me any straight answers anyway.+Said experience also tells me that you won't be giving me any so-called support either.
+NPC-Jason(1)<Speaker>K</Speaker>||:...
+NPC-Jason(1)<Speaker>Commander</Speaker>||:So let's not waste each other's time.
+NPC-Jason(1)<Speaker>K</Speaker>||:I can provide fire support that'll be of actual use to both of us.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:Really now?  +And why would the brass provide me with fire support or whatnot? It sounds as ridiculous as Yegor agreeing to shake hands with me and call it off.
+NPC-Jason(1)<Speaker>K</Speaker>||:Don't mock me with such nonsense. +It's true that we're insignificant in their eyes, but things will be different if we have something of value to them.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:What do you mean?
+NPC-Jason(1)<Speaker>K</Speaker>||:I need to know if Ange has completed her mission.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:Her mission?
+NPC-Jason(1)<Speaker>K</Speaker>||:Don't play dumb with me. The name is still confidential, but you must have heard it already.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:You mean "William"?
+NPC-Jason(1)<Speaker>K</Speaker>||:Humph, so you DO know about him after all.+We need to collect all his research data in the base and find clues that will help us verify his location.+If we have that information on hand, I'll be able to convince the observers to help us.+Even the slightest move on their part will be enough for us to survive this crisis.
+NPC-Jason(1);NPC-Kalin(4)<Speaker>Kalina</Speaker>||<BGM>BGM_Empty</BGM>:Commander! There's been a new development!
+NPC-Jason(1);NPC-Kalin(4)<Speaker>Commander</Speaker>||:What is it?
+NPC-Jason(1);NPC-Kalin(4)<Speaker>Kalina</Speaker>||<BGM>BGM_Danger</BGM>:It's an urgent report from the AR Team! +The Military is attacking the second entrance with a type of mech that we've never seen before; they didn't fire on our forces but charged straight into the base! +We can't stop them! I'm sending over the footage now!
+NPC-Jason(1);NPC-Kalin(4)<Speaker></Speaker>||:The display shows giant mechs advancing at top speed, leaving their own tanks far behind them.
+NPC-Jason(1);NPC-Kalin(4)<Speaker>Commander</Speaker>||:What the fucking hell are these things?!
+NPC-Jason(1)<Speaker>K</Speaker>;NPC-Kalin(4)||:Those are Sinners, enhanced Assault Artillery mechs. It looks like the commander of this Military force is leading the assault in person.
+NPC-Jason(1);NPC-Kalin(4)<Speaker>Commander</Speaker>||:Since when did the Military have mechs of this class? I've never heard of them before!
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:The armored units behind them are advancing too! What should we do now?
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:Trigger the explosives!
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:They haven't all been planted yet!
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:It doesn't matter, detonate them right now!
+NPC-Kalin(4)<Speaker></Speaker>||<SE1>Explode</SE1><震屏>:Boom! Boom! +Explosions go off one after the other, shaking the base and jarring dust loose from the ceiling.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Did we stop them?
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:I didn't expect them to have something else up their sleeve... Contact the AR Team!
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||<黑点1>:O...okay!
+M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||<黑点2><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Commander, do you read me?</color>
+M4A1Mod(0)<Speaker>Commander</Speaker>||:What's the situation at the entrance?
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:<color=#00CCFF>We only managed to plant half of the explosives. The entrance gate wasn't completely destroyed.</color>
+M4A1Mod(0)<Speaker>Commander</Speaker>||:Forget the gate. AR Team, take the DEFY members and one HOC to pursue the mechs that entered the base. And bring Dandelion with you!
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:<color=#00CCFF>But the defenses of the main gate...</color>
+M4A1Mod(0)<Speaker>Commander</Speaker>||:Let me worry about that. Make sure you stop those mechs!
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:<color=#00CCFF>Roger, we'll head out right away.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:The moment the transmission ends, another one comes through instantaneously.
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Still alive, Commander?</color>
+NPC-AngeDamage(4);NPC-Kalin(8)<Speaker>Kalina</Speaker>||<BGM>BGM_Sneak</BGM>:Miss...Miss Ange?
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker>;NPC-Kalin(8)||:<color=#00CCFF>Thank goodness, so Griffin hasn't been completely wiped out yet.</color>+<color=#00CCFF>Squad 404 has found us and disabled the lockdown, so we can join the fight now. </color>+<color=#00CCFF>I heard a huge explosion just now. What's going on?</color>
+NPC-AngeDamage(4);NPC-Kalin(8)<Speaker>Commander</Speaker>||:We're holding off the Military forces at the base entrance. A team of mech units have charged into the base. I'm guessing they're Yegor and his bodyguard unit. The AR Team is moving to intercept. Hopefully you can provide some support.+We couldn't completely destroy the entrance, so we'll be engaging the Military's follow-up units.
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker>;NPC-Kalin(8)||:<color=#00CCFF>Is K still alive?</color>
+NPC-AngeDamage(4);NPC-Jason(1)<Speaker>K</Speaker>||:I'm still in one piece, thank you very much.
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker>;NPC-Jason(1)||:<color=#00CCFF>Then do something so we have a chance to survive. You keep flaunting that sparkling record of yours, surely you can put it to use now, right?</color>
+NPC-AngeDamage(4);NPC-Jason(1)<Speaker>K</Speaker>||:How are things in the lab?
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker>;NPC-Jason(1)||:<color=#00CCFF>We've collected all the things you wanted. There are also living specimens present. I promised them that I'd get them out of here alive.</color>
+NPC-AngeDamage(4);NPC-Jason(1)<Speaker>K</Speaker>||:Humph. I'll think of something.
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker>;NPC-Jason(1)||:<color=#00CCFF>Commander, please let me command the AR Team. I'll make sure I finish off that bastard Yegor once and for all.</color>
+NPC-AngeDamage(4)<Speaker>Commander</Speaker>||:Understood. Come back alive.
+NPC-AngeDamage(4)<Speaker>Angelia</Speaker>||<SE1>AVG_tele_disconnect</SE1><黑屏1>:<color=#00CCFF>I'll try. Ange out.</color>

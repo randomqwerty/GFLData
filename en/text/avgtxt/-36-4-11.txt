@@ -1,0 +1,104 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>99</BIN><黑屏2><BGM>BGM_Battle</BGM><SE2>Gunfight</SE2>:On the battlefield.
+()||<SE1>Battlefield</SE1>:The melee in the built-up area near the base entrance has been going on for the past 15 minutes.+Every structure available has been used as cover, and the Dolls have blown up building after building in an attempt to block routes.+As they do their utmost to stop the enemy's advance, they are also searching for a chance to turn everything around.+The objective of this skirmish is the railway passage at the entrance. However, the past two Military offensives did not succeed.+The defending Dolls have quickly learned how to fight the Military during the previous battles. In addition, Dolls do not fear, and they do not tire. Other than their simulated emotions, they do not display any negative reactions. The advantage of being able to carry out orders under any circumstances soon becomes evident.+Meanwhile, morale on the other side is starting to plummet. None of the soldiers expected to pay so dearly for fighting against civilian Dolls from a PMC.
+()<Speaker>Armored Unit Commander</Speaker>||:Haven't we seized the passage yet?!
+()<Speaker>Armored Unit Officer</Speaker>||:We've lost too many of our infantry, and we can't push in with automatons alone.+There's rubble everywhere, so the attacking forces can't deploy their firepower and our vehicles can't get in.
+()<Speaker>Armored Unit Commander</Speaker>||:Pizdets, can't we request another round of shelling?
+()<Speaker>Armored Unit Officer</Speaker>||:It's too close to the base entrance. If we miss and destroy it by accident, we'll be playing into Griffin's hands.+We can't let ourselves be stalled here any longer; we need to catch up to Captain Yegor ASAP.+Let's go for another charge. +This is Zircon to Hematite. Slow your attack on the right flank for the moment and maintain pressure on the front. Over.
+NPC-Soldier(0)<Speaker>Military Officer</Speaker><通讯框>||:<color=#00CCFF>Hematite copies.</color>
+()<Speaker>Armored Unit Commander</Speaker>||:But the path on the left flank is blocked. Are we going to force our way through?
+()||:The officer does not reply. He simply gets back inside the cockpit.
+()<Speaker>Armored Unit Officer</Speaker>||:Second platoon, follow my vehicle. The rest of you, break through on the left flank.
+()<Speaker>Armored Unit Commander</Speaker>||<黑点1>:Yes, sir!
+()||<黑点2>:On Griffin's front. +M1 Garand's team has made use of a half-collapsed building to seal off the frontal approach. They are holding the final defense line along with one of the few remaining HOCs.+This HOC's equipment was long since destroyed, so the members are fighting alongside the others Dolls with small arms whose owners have perished.
+SV98(0)<Speaker>SV-98</Speaker><通讯框>||:<color=#00CCFF>There's a half dozen infantrymen trying to approach us using cover! You can hit them from your position! We're leaving them to you!</color>
+M1918(0)<Speaker>M1918</Speaker>||:Got it! Our teammates are already opening fire!+Garand, the enemy Typhons haven't made a move yet! This is our chance to plant more explosives!
+m1(0)<Speaker>M1 Garand</Speaker><通讯框>||:<color=#00CCFF>Roger!</color>
+()||:A machine gun rattles in the distance, followed by more scattered fire. Garand and her team dart nimbly from cover to cover, trying to plant a simple IED on the road again.
+m1(0)<Speaker>M1 Garand</Speaker>||:What a bunch of cowards! Are you too afraid to come at us head-on?!
+()||<SE2>Gunfight</SE2>:Garand pokes her head out and flips off the enemies while she's at it.+Naturally, this causes bullets to rain down on her position, so she hurriedly ducks back inside.
+m1(0)<Speaker>M1 Garand</Speaker>||:Hey, I was just mouthing off! Don't take everything so seriously!+Type 88, are you done planting the explosives yet?
+88typeMod(0)<Speaker>Type 88</Speaker>||:Almost!
+m1(0)<Speaker>M1 Garand</Speaker>||:If you don't hurry up, we'll have to blow ourselves up along with the enemies!
+88typeMod(0)<Speaker>Type 88</Speaker>||:Quit rushing me! +My usual job is sweeping the floors, not planting high explosive charges!
+m1(0)<Speaker>M1 Garand</Speaker>||:I don't usually go shooting at tanks with a firestick either! +Stop complaining and remember to double the delay on the manual detonator, we want them to get halfway in before we blow them up!
+88typeMod(0)<Speaker>Type 88</Speaker>||:Relax, this is the third time you've said it!
+M1918(0)<Speaker>M1918</Speaker><通讯框>||:<color=#00CCFF>M1 Garand, the enemy's approaching you again, you have to hurry!</color>
+m1(0)<Speaker>M1 Garand</Speaker>||:Got it, we'll be going right away!
+()||<SE1>Explode</SE1>:BOOM! +Just then, an explosion erupts from the plaza. +Smoke billows out from the entrance of a distant workshop.
+M1918(0)<Speaker>M1918</Speaker>||:Are they coming from the right again??! Springfield! What happened? What's the situation?
+M1903(0)<Speaker>Springfield</Speaker><通讯框>||:<color=#00CCFF>The enemy armored units are trying to use the wreckage to circle around us! They're planning to force their way to the entrance from on top of the rubble!</color>
+M1918(0)<Speaker>M1918</Speaker>||:Can you hold out?
+M1903(0)<Speaker>Springfield</Speaker><通讯框>||:<color=#00CCFF>There's too many of them. They might try to break though our suppressive fire!</color>
+M1918(0)<Speaker>M1918</Speaker>||:Got it, Garand's team will come to back you up!+Got that, Garand?+Once you've planted the explosives, get over to Springfield ASAP, they can't hold out much longer!
+m1(0)<Speaker>M1 Garand</Speaker><通讯框>||<黑点1><BGM>BGM_Empty</BGM>:<color=#00CCFF>I know, I know! We'll be heading over right away!</color>
+()||<黑点2><BIN>85</BIN><BGM>BGM_Room</BGM>:Meanwhile. +In the temporary Griffin command post.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Commander, the Military has launched a fourth offensive and Springfield's team has almost been wiped out. +The other teams are doing their best to plug the opening, and they say they can still keep going. +What should we do, Commander?
+()<Speaker>Commander</Speaker>||:Um...
+()||:The Commander isn't sure how to respond. With the battle situation being what it is, there's no point in relaying tactics and commands from the rear anymore. +Even if the Dolls hold out to the last, the Military is still getting closer and closer, and there's no news about the fire support that they're counting on.
+NPC-Jason(1)<Speaker></Speaker>||:The Commander looks up at K, and K looks back at the Commander. +Neither of them says anything. +The Commander knows that other than waiting for Vympel to contact them, there is nothing K can do.
+()<Speaker>Commander</Speaker>||:Have our forces hold out for another 5 minutes.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||<黑点1><BGM>BGM_Empty</BGM>:Yes, Commander!
+()||<黑点2><BIN>99</BIN><BGM>BGM_Battle</BGM>:On the battlefield.
+m1(0)<Speaker>M1 Garand</Speaker>||:Come on over, I'll cover you!
+()||<SE2>Gunfight</SE2>:Bullets sweep the Military automatons that are trying to charge into the Dolls' cover.
+M1903(0)<Speaker>Springfield</Speaker>||:Yup! She's the last one.
+()||:Springfield supports a wounded Lee Enfield as they make their way across the open space back into their defensive position.
+m1(0)<Speaker>M1 Garand</Speaker>||:Suppressive fire! Cover them as they approach us! +Throw all the mortar bombs!
+()||:The HOC Dolls that have lost their mortar launchers throw the shells out from cover like they were hand grenades. Although the fragments can't destroy the Military automatons, the explosions disrupt their assault formation. The suppressive fire which follows halts their advance in its tracks.
+m1(0)<Speaker>M1 Garand</Speaker>||:Dammit, I'm out. Does anyone have any .30-06 ammo left?
+88typeMod(0)<Speaker>Type 88</Speaker>||:I don't! I'm almost out of 8 mm myself!
+m1(0)<Speaker>M1 Garand</Speaker>||:Look out! Incoming!
+()||<SE1>Explode</SE1>:Boom! +As if to validate Garand's words, a cannon shell strikes the building she's in and leaves a large hole in the wall.
+()||<SE2>Gunfight</SE2>:After that, more bullets come in through the hole that's been made.
+m1(0)<Speaker>M1 Garand</Speaker>||:Miss Springfield! Fall back with the wounded personnel! Leave this place to us!
+M1903(0)<Speaker>Springfield</Speaker>||:But your ammo...
+m1(0)<Speaker>M1 Garand</Speaker>||:We'll be waiting to enjoy your coffee when we get back, and even if we don't have ammo, we still have our bayonets. +Everyone! Fix bayonets!
+88typeMod(0)<Speaker>Type 88</Speaker>||:How about a dadao?
+m1(0)<Speaker>M1 Garand</Speaker>||:Use your teeth if you want! Anything works as long as it can stop them!
+()||:Hanyang Type 88 grips her dadao in her hands and ignites the thrusters on her back.
+m1(0)<Speaker>M1 Garand</Speaker>||:You look like you could take on an entire division by yourself.
+88typeMod(0)<Speaker>Type 88</Speaker>||:But of course!
+m1(0)<Speaker>M1 Garand</Speaker>||:Alright, leave this place to us, Miss Springfield! +Besides, the casualties will only get in the way if they stay here. +Wait a minute, emergency comms?
+88typeMod(0)<Speaker>Type 88</Speaker>||:New orders from the Commander?
+m1(0)<Speaker>M1 Garand</Speaker>||:Our defense mission is over. The Commander wants everyone to fall back to the base immediately!
+88typeMod(0)<Speaker>Type 88</Speaker>||:Has help come at last? +I wish I could watch these bastards get blown sky high with my own eyes.
+m1(0)<Speaker>M1 Garand</Speaker>||<黑点1><BGM>BGM_Empty</BGM>:That's enough nonsense out of you. Let's get out of here before we get blasted into scrap!
+()||<黑点2><BIN>85</BIN><BGM>BGM_Room</BGM>:Almost at the same time, at the temporary command post inside the base.
+()||<SE1>AVG_tele_connect</SE1>:The Commander nervously watches the indicators showing the position of each Doll as they maintain the tenuous balance of the defense line.+Kalina assigns resources and adjusts comm frequencies without a pause.+All this is interrupted by a burst of static from the radio in front of K.+For a moment, everyone freezes. All eyes are on the handset that K is holding.+K immediately puts the call through and listens to the voice coming from the handset with bated breath.
+()<Speaker>Cobalt-13</Speaker>||:<color=#00CCFF>This is Cobalt-13. Waterfall, respond. Over.</color>
+NPC-Jason(1)<Speaker>K</Speaker>||:Waterfall copies, go ahead.
+()<Speaker>Cobalt-13</Speaker>||:<color=#00CCFF>Moscow has granted permission for the air strike and the bombers are in attack position. You have five minutes to direct fire. Please send the coordinates as soon as possible. Over.</color>
+NPC-Jason(1)<Speaker>K</Speaker>||:Waterfall copies. Thank you. Please hold. Over.
+()||:K exhales heavily, as though a great weight has been lifted off him. He turns to look at the Commander.
+NPC-Jason(1)<Speaker>K</Speaker>||:Give me the attack coordinates.
+()<Speaker>Commander</Speaker>||:Have them attack a 200-meter radius from the intersection of Highway 183 and the railway station to the base entrance.
+()||:The Commander's reply is instantaneous.
+NPC-Jason(1)<Speaker>K</Speaker>||:That's danger close... Are you sure?
+()<Speaker>Commander</Speaker>||:We have no choice.
+()||:K nods. He understands that this is a very difficult decision to make.
+NPC-Jason(1)<Speaker>K</Speaker>||:Have your Dolls fall back straight away. I'll try to buy you as much time as I can.
+()||:The Commander nods and issues the order to the echelons with Kalina's help.
+NPC-Jason(1)<Speaker>K</Speaker>||:This is Waterfall. Bombing coordinates are all surface targets at 8472 6543. Over.
+()<Speaker>Cobalt-13</Speaker>||:<color=#00CCFF>This is Cobalt-13, we can see Griffin forces within the blast radius. Please verify. Over.</color>
+()||:Kalina nods to the Commander. The Commander pauses, then holds up two fingers to K.
+NPC-Jason(1)<Speaker>K</Speaker>||:Affirmative. We will evacuate the location within two minutes. Requesting danger close bombing. Over.
+()<Speaker>Cobalt-13</Speaker>||<黑点1><BGM>BGM_Empty</BGM>:<color=#00CCFF>Acknowledged. The bombing will commence in 120 seconds. Good luck. Cobalt-13 out.</color>
+()||<黑点2><BIN>99</BIN><BGM>BGM_Battle</BGM>:Far in the distance, on the battlefield.
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:I have to hand it to those Dolls for sticking it out for so long. +I don't know if I should praise their resilience or roast our troops for degenerating into such an unsightly state. +They want to take on the West when they can't even beat a bunch of toys. No wonder the brass wants to be rid of them.
+NPC-Soldier(0)<Speaker>Vympel Commissar</Speaker>||:Is Griffin still holding out? Please let me take a look, Comrade Major.
+()||:The Vympel officer hands the binoculars to his commissar.+Through the binoculars, he sees that the thoroughly wrecked interior of the base and fires everywhere.+Explosions erupt over and over again from the Griffin positions. The smoke grenades that the Dolls have thrown out almost completely obscure all vision, but he can be sure that they are falling back to the entrance at full speed.
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:What do you think, Comrade Commissar?
+NPC-Soldier(0)<Speaker>Vympel Commissar</Speaker>||:It is most impressive. They are tenacious - tenacious enough to alter our mission. +Still, they are nothing more than a civilian PMC. It's only a matter of time before they're all wiped out.
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:Right, turn all the cameras off.
+NPC-Soldier(0)<Speaker>Vympel Commissar</Speaker>||:Didn't they say they wouldn't be providing any support? +Did the Chief change his mind?
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:Moscow already sanctioned the air strike. The objective is to exterminate all the surface forces of the rebel army.
+NPC-Soldier(0)<Speaker>Vympel Commissar</Speaker>||:And they're doing this just to save a single PMC?
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:It seems Statesec has an arrangement with the Germans, and the agent they sent found something that the brass is interested in.
+NPC-Soldier(0)<Speaker>Vympel Commissar</Speaker>||:That's an excellent political reason. +But in that case, won't the evidence we're recording be marred?
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:Thanks to the Dolls' fortitude, we've captured enough footage of their limbs being blasted in all directions. We can let the bigshots in the central authority worry about the rest.
+NPC-Soldier(0)<Speaker>Vympel Commissar</Speaker>||:Understood. I've ordered all squads to switch off the surface and drone cameras.
+()||<SE1>Explode</SE1>:Two minutes later, a point of light rapidly descends, striking the last Military armored train. A massive fireball swells up, consuming the gigantic rail vehicle as if it were nothing but a toy and throwing countless fragments into the sky.+Such is the effect of a surface detonation of the 1,500kg cruise missile originally intended for ripping open the underground structure of the submarine base.+More points of light splinter mid-air into a zillion little motes that finally hit the ground. A series of explosions can be heard from the base, which is completely engulfed by smoke and dust.
+()||:The Vympel officer puts down his binoculars and stuffs them back into his backpack. There's no need to verify the detonation of those terminal-sensitive projectiles.
+NPC-Soldier(0)<Speaker>Vympel Commander</Speaker>||:Let's get ready. It's about time to wrap this up.
+()<Speaker>Vympel Commissar</Speaker>||</黑屏1>:Understood, Comrade Major.

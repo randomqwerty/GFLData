@@ -1,0 +1,40 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_Danger</BGM><SE1>Gunfight</SE1><黑屏2><BIN>98</BIN>:……
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:UMP45！まだダメなの！？+どんどん敵が戻って来てるわ！
+AR15Mod(5);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>今やってるって！急かさないで！</color>+<color=#00CCFF>私たちがただケーブルを巻いてるだけとでも思ってるの？――9、私のあげた新しい範囲でポートの再選別をお願い――あなたたちはもう少し持ちこたえて！</color>
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>;UMP45Mod(0)||<SE1>Select</SE1>:弾薬がもう底を尽きそうだよ！
+M4 SOPMOD IIMod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:<color=#00CCFF>その列車を探せばあるはずよ！</color>
+AR15Mod(5)<Speaker>ST AR-15</Speaker>;UMP45Mod(0)<通讯框>||<白屏1><SE2>Gunfight</SE2>:でもそんなことしてる暇――
+()||<白屏2><SE1>Explode</SE1>:（爆発音）
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:ゲホゲホッ……むせた……正規軍の装甲ユニットの第二波第三波が来るよ！+わたしたちの重装部隊は！？
+RO635(5)<Speaker>RO635</Speaker><通讯框>||:重装部隊は今、攻撃に適したポイントを探してる！//n列車の上でそのまま撃っては格好の的よ！
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:UMP45、これ以上列車が動かなかったら、//n私たちみんなここで死ぬことになるわよ！
+AR15Mod(5);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>10秒よ。</color>
+AR15Mod(5)<Speaker>ST AR-15</Speaker>;UMP45Mod(0)||:なに？
+AR15Mod(5);UMP45Mod(0)<Speaker>UMP45</Speaker>||:<color=#00CCFF>私が一部動かすわ。</color>
+UMP9Mod(3)<Speaker>UMP9</Speaker><通讯框>;UMP45Mod(0)||:<color=#00CCFF>やっぱり45姉の考えてた通りだった！</color>+<color=#00CCFF>こっちは終わったよ！</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<黑屏1>:<color=#00CCFF>オッケー。それじゃ、大砲の威力を試させてもらうとしましょうか！</color>+<color=#00CCFF>大砲は既に、榴弾モードに切り替えて射撃権限をあなたたちAR小隊に託してあるわ。あなたたちの怒りの炎をぶつけてやりなさい。</color>
+()<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><BIN>210</BIN><黑屏2><黑屏1>:やったー！花火だ～！
+()||<震屏><黑屏2>0,5</黑屏2><BIN>209</BIN><SE1>Explode</SE1>:絶えず放たれる装甲列車の砲撃によって、敵陣が火の海と化した。
+()<Speaker></Speaker>||<黑屏1><SE1>Battlefield</SE1>:列車砲の攻撃を受け、装甲列車周辺の正規軍部隊が一時撤退する。+その隙にグリフィン部隊が即座に装甲列車へと移動した。
+()<Speaker></Speaker>||<BIN>202</BIN><BGM>BGM_Brain</BGM><黑屏2>:装甲列車内、臨時司令室にて。
+指挥官()<Speaker>指揮官</Speaker>||:装甲列車の状況は？
+RO635(0)<Speaker>RO635</Speaker>||:列車内全権限への接続、完了です。いつでも発進させられます。+さきほど重装部隊に破壊されたものでなければ、列車砲も全て使えます。
+RO635(0)<Speaker>指揮官</Speaker>||:よし、あとはM4の方を待つだけ……
+RO635(0)<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:通信接受。
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>指揮官！ヤバイよ！</color>
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>指揮官</Speaker>||:どうしたの？
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#00CCFF>見て外！新しい装甲列車が！</color>
+指挥官()<Speaker>指揮官</Speaker>||<BIN>208</BIN><黑屏2><BGM>BGM_Boss</BGM>:やはり二両目が来たか。後ろにもかなりの数が控えているだろうな……+どうやら敵は、相当入念に準備をしていたようだ……
+()<Speaker></Speaker>||<震屏><SE1>Explode</SE1>:（砲撃音）+別の装甲列車が、グリフィンに占領された列車へ向けて砲撃を開始した。
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>指揮官、さっき撤退した装甲部隊がまたこっちに来てる。</color>
+AR15Mod(0)<Speaker>指揮官</Speaker>||<黑屏1>:直ちに残った大砲で反撃を！+残りの部隊は列車砲を頼りに、こちらの射程範囲内に展開！+M4がタリン基地の防御ゲートを開くまで、ここを守り抜くんだ！
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><黑屏1><SE1>Battlefield</SE1><SE2>Gunfight</SE2>:……+…………
+()<Speaker></Speaker>||<BIN>98</BIN><黑屏2>:グリフィンの全部隊が、装甲列車の周囲で敵との戦いを繰り広げている。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:攻撃の勢いが増してきてる！+RO、指揮官の方でなんとか制圧できない？！
+RO635(4)<Speaker>RO635</Speaker>;AR15Mod(0)||:砲塔の数が足りません！//nほぼ後からやってきた敵の装甲列車にかかりっきりです！+防衛ラインを少し下げましょう。//n重装部隊にそちらを支援させると指揮官が言っています。
+RO635(4);AR15Mod(0)<Speaker>ST AR-15</Speaker>||:指揮官の方はどうするの？
+RO635(4)<Speaker>RO635</Speaker>;AR15Mod(0)||:シールドをフル稼働させているので、しばらくはなんとかなります。
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||:そんなことをしたところで長くはもたないわ……
+()<Speaker></Speaker>||:AR15は遠くを眺めた。そびえ立っている分厚い防壁は//n依然として動く気配を見せない。+彼女は唇を噛みしめると、//n注意を目の前の敵に戻し、容赦なく引き金を引いた。
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||<黑屏1>:M4……あなたの帰る場所は、私がなんとしても守る。+だから早くしなさい、一刻も早く……

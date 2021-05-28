@@ -1,0 +1,52 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><BGM>BGM_Room</BGM>:修復室にて。
+G36(0)<Speaker>Gr G36</Speaker>||:状況はいかがでしょうか、カリーナ様？
+G36(0);NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:……メンタルが壊れたわけではなさそうですね。+愛ちゃんのメンタルモデルには暗号化された部分があります。//nそれがずっと演算リソースを消費しているようです。+ストレージも容量の上限に近づいていて、//nデータを一部クリアしないと新しい記録を書き込むこともできません。
+G36(0)<Speaker>Gr G36</Speaker>;NPC-Kalin(4)||:やはりキャッシュの問題だったんですね？
+G36(0);NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:それだけではありません。//nこの暗号化された部分も何とかしないと、また同じことが起こります。+（でも、このまま消すわけにもいきませんし……）+……念のため、内容をチェックしてみますね。+G36さんは先に帰っても大丈夫ですよ？
+G36(0)<Speaker>Gr G36</Speaker>;NPC-Kalin(4)||:かしこまりました。コーヒーをお持ちしましょうか？
+G36(0);NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:後でそっちに顔を出しますよ。
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM><黑屏1>:G36が修復室を出た後、//nカリーナはヘッドフォンを付け、スクリーンに集中した。
+()||<BIN>9</BIN><黑屏1>:<color=#00CCFF>【解析完了】</color>+<color=#00CCFF>【No.2051-01-05 データ読み取り中……】</color>+<color=#00CCFF>【再生開始】</color>+……
+温柔的女声()<Speaker>優しい女性の声</Speaker>||<黑屏2>:これが私のテスト人形ですか？
+冷静的男声()<Speaker>冷静な男性の声</Speaker>||:そうだ、59898が君の代わりに強銃兵に搭乗する。//nテスト中、君は適宜コマンドを下すだけでいい。//n他の細かい操作は彼女が行う。
+温柔的女声()<Speaker>優しい女性の声</Speaker>||:先進的ですね。
+冷静的男声()<Speaker>冷静な男性の声</Speaker>||:説明書にはそう書かれている。//nもしできなかったら販売元を訴えるしかない。+では、荷物はこれにて届けた、私は先に失礼する。
+温柔的女声()<Speaker>優しい女性の声</Speaker>||<黑屏1>:お疲れ様。+かわいい人形さんね。+えーと、説明書だと、起動のコマンドは……+「おはよう、59898」
+TestPilot(0)<Speaker>■■■</Speaker>||<BIN>18</BIN><睁眼><BGM>GF_Memorial</BGM>:金髪碧眼、完全にこっちの好みに合わせているのね……//nまぁこれも悪くないか。+初めまして、私のテスト人形さん。
+TestPilot(0)<Speaker></Speaker>||:<color=#00CCFF>【視覚情報を確認】</color>+<color=#00CCFF>【登録完了】</color>
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:……<c>（触ってみる）<c>……
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:あら、最初の命令はまだなのに……//nほら、私の顔を触るんじゃなくて、まずは握手よ。+さて、一緒にあなたの乗る機体を見に行きましょうか。
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>2</分支>:……やはり感情の無いテスト人形なのね。//nさて、一緒にあなたの乗る機体を見に行きましょうか。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||<黑屏1>:【移動の必要を確認】+【実行 自動で所有者に追従】
+格琳()<Speaker>カリーナ</Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:次はここの戦闘データ……2051年、「強銃兵」機甲のテスト運用記録？+なんか役に立たなさそうなデータですけど、//nとりあえずバックアップしておきましょうか。+えっと、次は……
+()<Speaker></Speaker>||<黑屏1>:<color=#00CCFF>【No.2051-01-06】</color>+<color=#00CCFF>【データ読み取り中……再生開始】</color>
+()<Speaker></Speaker>||<BIN>73</BIN><睁眼>:【所有者の退屈を確認】+【接触しますか？】
+88typePilot(0)<Speaker>59898</Speaker>||<BGM>BGM_Wake</BGM>:……<c>（待機）<c>（触ってみる）
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:……はぁ。+このままだと……私……
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||<分支>1</分支>:【所有者の感情低下を確認。実行 慰めモード】
+88typePilot(0)<Speaker>59898</Speaker>||<分支>2</分支>:【所有者の感情低下を確認。実行 慰めモード】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<震屏>:わっ！+……ビックリしたよ、59898。+ありがとう、でもそんなに頭を触らなくてもいいのよ、私は大丈夫。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【話題の傾向を判断……】+【実行 頷く】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:どうしたのかって？+そんなに大したことじゃないよ。//nただ、この3303基地で私以外に中国人はいないみたい。+……戦争のためにここにいるみんなと違って、私はただの戦争難民で、//n帰る場所がないからここで稼いているだけなの。+中国って、ここからどれぐらい離れてるか知ってる？
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【質問を確認。検索中……データを提示】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:そう、そんなに遠いのよ。//n戦争のせいで、あっちに行く路線が全部止まっているの……+唯一まだ動いているあの路線も、チケットが高すぎて全然買えない。+だから帰るために、今はここで働いて何とかお金を貯めるしかないの。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【質問の応答不能。実行 人間の困惑する表情】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:……私、なにバカなことを言ってるんだろ。+でも、もしあなたもちゃんと言葉を話せたら……//nそうしたら、私もきっと、きっと……+こんなに寂しくならずに済んだのかな。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【所有者の感情好転を確認。実行 観察を継続】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:まぁ、話を聞いてくれるだけでも私は満足よ。+そういえば、あなたのことをずっと番号で呼んできたけど、//nやっぱり何か変ね。+そうだ！私が新しい名前を付けてあげるってのはどう？
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:……<c>（頭を傾げる）<c>（頷く）
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:つまり、人間みたいな名前を付けてあげるの。例えば、私の名前は■■■
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>1</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*データが破損しています。再度読み取るかスキップを選んでください。</color>+<color=#00CCFF>*再度読み取り中*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:つまり、人間みたいな名前を付けてあげるの。例えば、私の名前は■■■
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>1</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*データが破損しています。再度読み取るかスキップを選んでください。</color>+<color=#00CCFF>*スキップ*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:もしあなたにも人間みたいな名前があったら、//nもっと呼びやすくなるでしょ？
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>2</分支>:でしょう！あなたも新しい名前が欲しいのよね！+私の名前が■■■であるように。
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>2</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*データが破損しています。再度読み取るかスキップを選んでください。</color>+<color=#00CCFF>*再度読み取り中*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>2</分支>:でしょう！あなたも新しい名前が欲しいのよね！+私の名前が■■■であるように。
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>2</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*データが破損しています。再度読み取るかスキップを選んでください。</color>+<color=#00CCFF>*スキップ*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:というわけで、そうね……+私の生まれたところは江城って呼ばれることもあるの。//nだから江城愛、っていうのはどう？
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【名称変更 59898→江城愛】+【実行 確認】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:決まりね！+江城愛、愛ちゃん！+ちょうど仕事の時間じゃないし、お着換えもしてみたら？//n私が以前、バイトで着ていたメイド服はどう？//nそれとも私と似た感じの私服の方がいいのかしら？
+TestPilot(0);88typePilot(0)<Speaker>江城愛</Speaker>||<黑屏1>:【実行 人間の笑顔】
+()||<BIN>9</BIN><黑屏2><黑屏1><BGM>BGM_Empty</BGM>:<color=#00CCFF>【No.2051-01-06 記録再生終了】</color>

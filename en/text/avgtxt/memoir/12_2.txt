@@ -1,0 +1,76 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>85</BIN><BGM>BGM_Room</BGM>:In the Griffin command room.
+HK45(0)<Speaker>Gr HK45</Speaker>||:How much do you know about her former master, Commander?
+HK45(0)<Speaker>Commander</Speaker>||:... +<c>I heard he used to be in the Military... <c>Absolutely nothing.
+HK45(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||<分支>1</分支>:You even know about that? Shouldn't have expected anything less from you, Commander.
+HK45(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||<分支>2</分支>:Really? Well, who can blame you...
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(1)||:I'm also completely clueless about the whole thing. +...What kind of friend does that make me? +I was so determined to organize this grand performance, yet I don't even know what my assistant has been through...
+HK45(0);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Don't beat yourself up, Gr HK45! C96's past isn't exactly a secret, so I'll tell you what I know. +Apparently, it was Miss Helian who brought C96 to Griffin.
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(4)||<震屏>:Miss Helian?! The beautiful and level-headed woman who nobody dares chat up – that Miss Helian?!
+HK45(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:I wonder what she would think about such a description... Haha. +Yes, that Miss Helian. She brought C96 to Griffin. +Back then, a group of mercenaries had just disbanded. It was a really big deal as they put a lot of things up for auction - even firearms and weaponry, and C96 was among the auctioned items. +From what I know, her original owner only bought her because of a bet with his friend. She spent most of her time doing chores for the corps and was sometimes sent as bait to hoodwink their enemies.
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(0)||:Hoodwink their enemies? +Oh, I think I heard that guy call C96 “Red 9”.
+HK45(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:I don't really know the specifics, but they probably dressed her up like a harmless little girl to make their enemies lower their guard while they attacked from behind. +I heard she also had field experience since she was ordered to fill in as one of their mercs... That's probably what convinced Miss Helian to bid for her and bring her to Griffin. +Red 9 could be her designation when she was with the mercenaries.
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(0)||:So unlike us regular employees, she was basically sold to Griffin... Is that what you mean?
+HK45(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||<BGM>BGM_Empty</BGM>:More or less... But she's treated no differently than the rest of you, she gets a salary as well as holidays.
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(3)||<BGM>BGM_Brain</BGM><震屏>:So why would that guy come looking for her? Don't tell me... +...He wants her to help get him a job?!
+HK45(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Ugh... I have a bad feeling about this...
+HK45(0);NPC-Kalin(3)<Speaker>Commander</Speaker>||:So do I.
+HK45(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:He couldn't care less back when he sold her off, but now he came crawling back, begging for her help. He sounds like one of those horrible ex-boyfriends in web novels that used to be really popular.
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(3)||:Then...will he force C96 to do something bad?! What if he orders her to sell her body for money...? +Oh no! I can't focus on anything when I think about what she could be going through... +What should we do, Commander?!!!
+HK45(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I doubt he'd go that far. Surely he knows there will be consequences if he makes off with one of our employees? +Though this does sound like a problem, Commander. What do you think?
+HK45(0);NPC-Kalin(3)<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:...
+()<Speaker></Speaker>||<BIN>166</BIN><Night><黑屏2><BGM>m_avg_casual</BGM>:In the busy downtown.
+C96(0)<Speaker>C96</Speaker>||:Ugh...it's so stuffy here in the city. It's really crowded... I want to take off my jacket. Um, how should I address you, sir? Do you still go by “Toad”...?
+NPC-PasserbyM(0)<Speaker>Toad?</Speaker>;C96(0)||<震屏>:Don't call me by that disgusting name! I'm not who I used to be! Call me Gold Toad! +Yep, that makes me sound richer.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Gold Toad? Yes, Mr. Gold Toad.
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Damn it all... Why are there cameras everywhere in the city these days? +Hey, Red 9, keep your damn jacket on.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:But it's hot...
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:I can't have you drawing attention to us. I want this hustle to go smoothly... +Hey, you can locate all the cameras, can't you?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Yes, sir... Uh, why are you looking for the cameras? +And what do you mean, hus...
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Stop asking stupid questions. You're a Doll, so just do your job.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:I can ask all the questions I want at Griffin! They also let me take off my jacket when it's hot.
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Oh, you seem to be doing pretty well over there. Not my business. Finish this job for me and you can go back, so stop complaining.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Griffin is a really nice place! I love working there, and the Commander is really nice. +They have some openings at the moment, so why don't you send in a job application?
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Who'd want to work in a company with so many rules?! Shut up already. Are there any camera blind spots in this area?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Why do you want to know? Those places are dangerous...
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Are you asking for a beating?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:No! I found a few potential blind spots.
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:That's better. Here's a digital map. Point them out for me.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Um... Here, here, and here.
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||<BGM>BGM_Empty</BGM><黑屏1>:This street corner looks decent. That's where we're going.
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>||<BIN>86</BIN><Night><黑屏2>:Hey, still remember what I taught you about fishing?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:I do... What are you planning to do?
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||<BGM>BGM_Danger</BGM>:I'll pick a target. You'll go and ask them for help, then draw them to me.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Okay. What next?
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Then I'll knock them out, of course.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Knock them out, right. Then...?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||<震屏>:Wait, knock them out?!
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Yep, knock them out and take everything valuable on them. Then I'll give their family a call and make them spit out a large sum!
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:That's mugging and blackmail! Is this what you need my help for?
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Duh, this is the simplest and quickest way of netting in good money. One hustle can last me for months.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:But...but that's illegal!
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Oh, Red 9. You didn't think I'd ask you to help me with escorting goods or that kind of nonsense, did ya? +Now do as you're told, or I'll shut you down right now and just dump you in the trash!
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:No... Even if you threaten me, I won't... +I am officially employed. If I get a record of harming innocent humans...
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:What the hell are you talking about? +Griffin? Ha, I've heard all about Griffin & Kryuger. They've made all kinds of shady deals, and who knows how many deaths your lovely Commander is responsible for. +You say you've never attacked a human while you're working for them?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:Never, never, never! Not even once!
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Keep your voice down. +Then this Commander must be quite good at keeping up appearances. I've heard that name before from the black market dealers. +Sending Dolls to stir shit up for no freaking reason, and doing that without you knowing?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:The Commander is a good person! I won't let you slander the Commander!
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:I'm not buying it. Now just do your part. You wouldn't have gotten such a great job if it weren't for me!
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:No...I can't...
+NPC-PasserbyM(0);C96(0)<Speaker></Speaker>||:But even as C96 refuses verbally, her head tips in a rigid nod.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:<color=#A9A9A9>Oh no...</color>
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:I'm human. You can't disobey me, can you?
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:The Commander said I mustn't do anything dangerous...
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:This isn't dangerous. We're just making ourselves some money; it's no different than begging on the streets. +C'mon, don't look at me like that. +I promise, it'll be just this once. I won't kill nobody; I just need some of their money. +After that, I'll take that cash and live out my days in another country. No one will know your part in this.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||:I...
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Do it!
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||<黑点1>:...Yes, sir!
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>||<黑点2><Night><BGM>BGM_Empty</BGM>:Tsk, what a pain in the ass. This could have saved me a lot of breath. +Hm...we're going after that woman. The redhead.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker>||<SE1>AVG_footsteps_cave</SE1>:C96 follows where Gold Toad is pointing and looks towards the main street.
+NPC-PasserbyM(0);C96(0)<Speaker>C96</Speaker><Shake>||:A woman...with red hair... +What?!
+NPC-PasserbyM(0)<Speaker>Gold Toad</Speaker>;C96(0)||:Now go!
+C96(1)<Speaker></Speaker>||<BGM>BGM_Sunshine</BGM>:Shoved roughly in the back, C96 stumbles unsteadily out of the alleyway and falls at the target's feet.
+C96(1)<Speaker>???</Speaker>||:Oh dear! What a cute little girl. +Are you alright?
+C96(1)<Speaker>C96</Speaker>||:I'm fine... You...
+C96(1)<Speaker></Speaker>||:The lavishly dressed woman gives C96 a smile and pulls her up to her feet.
+HK45(2)<Speaker>???</Speaker>;C96(1)||<黑屏1>:Me? I'm just a dancer who happens to be passing by.

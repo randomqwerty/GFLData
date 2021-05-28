@@ -1,0 +1,75 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>55</BIN><BGM>BGM_Room</BGM>:時を同じくして、グリフィン小隊方面。
+Kord(0)<Speaker>Kord</Speaker>||<SE1>AVG_tele_connect</SE1>:こちら偵察班B、戦闘区域を抜け支援に参りました。+給電元が破壊されたので、今なら中心部へ移動できます。+同時に、こちらで軽微な地震を検知しました。//nもしかしたら、防御システムの深度が想定より深く、//n無力化されていない砲台に出くわす可能性があります。+ジャミングも一層強まっていますので、//nツェナープロトコルによる中継を挟んで、//n可能な限り良好な通信状態維持に努めます。
+M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>;Kord(0)||:<color=#00CCFF>了解、引き続き通信の維持と脅威の排除をお願い。</color>+<color=#00CCFF>皆さん、ここで分かれて、それぞれのターゲットへ向かいましょ。</color>
+Kord(0)<Speaker>Kord</Speaker>||<SE1>AVG_tele_disconnect</SE1>:ふぅ……想定はしていましたが、冷たいお方でしたね……+悪印象は与えていないはずですが……
+Kord(0)<Speaker></Speaker>||:（アラート）…………+警報が鳴り響いた。
+Kord(0)<Speaker>Kord</Speaker>||:うーん……+次から次へと、キリがないですね。+「信号塔」も立てましたし、わたくしも後始末の職務に戻りますか。
+Kord(0)<Speaker></Speaker>||:囲むようにして湧いてくる感染生物を前に、//n彼女は優雅にガンロッカーを開けた。
+Kord(0)<Speaker>Kord</Speaker>||<SE1>AVG_weapon_reload</SE1><黑屏1>:感染者の皆さん、一人として通しやしませんよ。
+()<Speaker></Speaker>||<BIN>197</BIN><黑屏2><BGM>BGM_Empty</BGM>:1分30秒後、タリン駅前にて。
+RO635(0)<Speaker>RO635</Speaker>||<BGM>BGM_Sneak</BGM>:ふぅ、やっとここまで……なっ？！+何か突っ込んでくる？！
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<震屏>:M4！駅前に着いたよ！+あ――ROも来たみたい！
+RO635(5)<Speaker>RO635</Speaker><Shake>;M4 SOPMOD IIMod(0)||:来たみたいじゃないわよ、先に着いたのはこっちよ。
+RO635(0)<Speaker>RO635</Speaker>;M4 SOPMOD IIMod(0)||:……まあ、そんなことはいいわ。//n通信もずいぶん回復したようね、これも他部隊のおかげか。
+RO635(0)<Speaker>RO635</Speaker>||:M4A1、先に入ってていいですか？それとも皆さん集まってから？
+M4A1Mod(3)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>まだ感染生物を片付けているわ、こっちが済んでから一緒に行きましょ。</color>
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>;M4A1Mod(3)||:じゃあわたし手伝いに行く！
+M4 SOPMOD IIMod(0);M4A1Mod(3)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>そこで待ってて、SOP II。</color>
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>;M4A1Mod(3)||:え？せっかく楽しそうなのに……
+M4A1Mod(3)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>そこで待ってて。</color>
+RO635(0)<Speaker>RO635</Speaker>||:待ってましょ、AR-15もすぐに来るわ。+……どうしたの、SOP II？不思議そうな顔して。
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:M4は感染生物を片付けてるって言ってたけど、//n銃声が全く聞こえなかった……+おかしいよ。
+RO635(0)<Speaker>RO635</Speaker>;M4 SOPMOD IIMod(0)||:遠くにいたんじゃない？防御システムも片付けたばかりだし。+ただ、感染生物は指揮官が他の人形に任せたんじゃなかった？
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:手助けしたかったとか？+まあいいや、AR-15、あっちに――
+RO635(0)<Speaker>RO635</Speaker>||<黑点1>:……+（いや、何かがおかしい。）+（あれじゃまるで、指揮官から与えられた任務より、//n自分の目的である何かを探しているみたい。）+（……わたしの考えすぎだといいけど。）
+M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||<BIN>202</BIN><黑点2><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>指揮官、AR小隊はタリン駅構内に到着しました。</color>+<color=#00CCFF>目標地点、現在のところ危険はありません。放射レベルは低く、偵察範囲を拡大中です。</color>
+M4A1Mod(0)<Speaker>SOP IIの声</Speaker>||:<color=#00CCFF>指揮官！問題ないから、早く来てよ！</color>
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:<color=#00CCFF>……以上となります、次の指示をください。</color>+<color=#00CCFF>……</color>
+M4A1Mod(0)<Speaker>M4A1</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#00CCFF>分かりました。線路を調整し、列車を駅に入れます。信号をお待ちください。</color>
+()<Speaker></Speaker>||<BIN>55</BIN><黑屏2><SE1>AVG_tele_disconnect</SE1>:一方、パトロール中のグリフィン小隊。
+Kord(0)<Speaker>Kord</Speaker>||:また無意識のうちにとっ散らかしてしまいましたね……+最近ストレスが溜まってるのでしょうか？+戦闘以外にも、解消法を見つけなければ。
+Kord(0)<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:……通信が入った。
+Kord(0)<Speaker>Kord</Speaker>||:ん？新しい命令ですか……+こんにちは、指揮官さん。こちらはKord、どうぞ。+分かりました。これよりSSG3000の部隊と合流し、//nコントロールセンター探索の任務に当たります。+ん？連続で任務をこなすぐらい、なんてことありませんよ。//nあとは休憩の際に……
+Kord(0)<Speaker>Kord</Speaker>||<SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:……+あれ？+聞こえますか、指揮官さん？+おかしいですね、電波がよくないのでしょうか。
+Kord(0)<Speaker></Speaker>||<BIN>55</BIN><Night>:Kordが通信をつなぎ直していると、突如霧が立ち込め始めたことに気付いた。
+Kord(0)<Speaker>Kord</Speaker>||<BGM>m_avg_labyrinth</BGM>:この辺りは霧が濃いですね。
+Kord(0)<Speaker>Kord</Speaker>||<SE1>AVG_tele_connect</SE1>:SSG3000、こちらの声が聞こえますか？+……+通じませんか。
+Kord(0)<Speaker></Speaker>||:バキッ――と。+木の枝が折れるような音が、静寂の中で彼女の聴覚モジュールに響いた。
+Kord(0)<Speaker>Kord</Speaker>||:「鉄血工造」、或いは「パラデウス」ですか？
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:霧は濃くなるばかりだった。輪郭の不明瞭な人影が中から歩み出る。
+AbandonedIsomer(0)<Speaker>？？？</Speaker>||:……+あなたは……誰？+私と同類ではない……敵？
+Kord(0)<Speaker>Kord</Speaker>||:（聞いたところ女性の声。おかしい、//nどうしてはっきり見えないのでしょう……信号も探知できません。）+それ以上近づかないでください。あなたが誰であろうと、//n止まらないのであれば撃ちますよ。
+AbandonedIsomer(0)<Speaker>？？？</Speaker>||:それは……敵ってこと？+私を、殺したい？+それとも、私に殺されたい？
+()<Speaker></Speaker>||:おぼろげな人影が徐々に近づいてくる。Kordは相手の足を狙って//n引き金を引こうとしたが、手足が動かないことに気が付いた。
+Kord(0)<Speaker>Kord</Speaker>||:……どういうこと？+この声、聴覚モジュールから拾ったものじゃない……+しまった、メンタルがハッキングされている？！
+()<Speaker></Speaker>||<黑屏1><SE1>ClothingUp</SE1>:Kordは銃を構えた姿勢のまま、バタリと倒れ込んだ。
+AbandonedIsomer(0)<Speaker>？？？</Speaker>||<BIN>9</BIN><黑屏2><黑屏1>:あなたは私たちの救世主ではない……+ここで……ぐっすり寝てるといい。
+()<Speaker></Speaker>||<黑屏2><BIN>197</BIN><BGM>BGM_Empty</BGM>:……
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||<BGM>BGM_Room</BGM>:M4！M4、聞こえる？
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:……+あ、ぼんやりしてたわ、ごめんなさい。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||:ぼんやりしないで、「隊長」。+私たちはここで駅を防衛し、他の人形は//n隔離壁のコントロールセンター捜索に向かうよう、指揮官が指示を出したわ。
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:分かった。……ついさっき、未知の信号を感じ取ったわ。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||:未知の信号？パラデウスみたいな？
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:分からない、でも今も感じるわ、数が徐々に増えてる。+……そしてこちらに向かってる。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>;M4A1Mod(0)||:なになに！本当の敵がやっと現れるの！
+M4 SOPMOD IIMod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:まだ分からないわ。//nRO、近くに他の生き物か、或いは機械は検知された？
+RO635(0)<Speaker>RO635</Speaker><通讯框>;M4A1Mod(0)||:<color=#00CCFF>……グリフィンの信号だけです。</color>+<color=#00CCFF>ただ、先ほどから霧が立ち、電波状況が悪化しています。わたしもはっきりとは言えないので、偵察に行ってみますか？</color>
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:今はいいわ、元の命令に従うだけで。+……+待って、今なんて言った？霧が立ってるの？
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>そうだよ、今もどんどん濃くなってる。</color>
+()<Speaker></Speaker>||:M4A1は急ぎ足で駅前に出た。+外の世界は至って鮮明で、霧など一切なかった。
+RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>やはり霧が発生してますね。</color>
+RO635(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||<BGM>BGM_Empty</BGM>:……+RO、私の声が聞こえる？
+RO635(0)<Speaker>RO635</Speaker><通讯框>;M4A1Mod(0)||:<color=#00CCFF>聞こえはしますが、少し不安定です。どうしてでしょう、この距離なのに……</color>
+RO635(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:SOP II！私の声がはっきり聞こえる？
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>;M4A1Mod(0)||:<color=#00CCFF><size=50>M4！通信チャンネルに何送ってくれたの、はっきり聞こえないよ！</size></color>
+M4A1Mod(0)<Speaker>M4A1</Speaker>||<BGM>m_avg_tension</BGM>:……AR-15。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||:私も霧は見えないわ。
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:何度も私のメンタルポートを訪問してくるモノがいるわ、//nみんなが見てるのは恐らくそれによる疑似ジャミングね……
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||:私は完全にメンタルポートを閉じてるから、特に影響はないわ。
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:スタンド……アローン……か。+おかしいわね、攻撃性のあるハッキングなら、//n今ごろ全員無力化されてるはずよ。//nなのにただ霧が見えてるだけって、どういうつもり……
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||:もしかしたらハッキングではなく、ただの無差別な……連鎖なのかも。
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:連鎖？
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||:高い頻度の連鎖がツェナープロトコルの正常な動作を妨げ、//n私たち人形のメンタル演算をも妨害してるんじゃない？+人形はツェナープロトコルを通じて通信やメッセージをやり取りする。+つまり、大半の人形が霧を見ていた場合、//nプロトコルがあなたのメンタルに働きかけて補正を行い、//n本当は見えていなかった霧が見えるようになってしまったってこと。
+AR15Mod(0);M4A1Mod(0)<Speaker>M4A1</Speaker>||:どれだけの連鎖があれば、そんなことが……
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;M4A1Mod(0)||<黑屏1>:私は傘ウイルスにしろ人形にしろ、誰の影響も受けたくない。//nだからメンタルポートを閉じることを選んだ。+そしてあんたは彼女たちとは違って、もう一人の「自分」を//n格納することさえできる……だから感知できないのよ。+一刻も早く連鎖の元を見つけなければ、私たちの仲間も危ういわよ。

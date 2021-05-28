@@ -1,0 +1,70 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>82</BIN><BGM>BGM_Hello</BGM>:Dolls' dormitory, Griffin base.
+HK45(0)<Speaker>Gr HK45</Speaker>||:The rehearsal yesterday went very well! +I've completely delivered on what I'm currently capable of, both in terms of the dance sequence and the singing. I'm confident that the performance will be completely flawless in three days!
+HK45(0);C96(0)<Speaker>C96</Speaker>||:This rehearsal went on longer than usual. Is there going to be some kind of important event?
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||:Well, important events aren't the only reason for a happy dance.
+HK45(0);C96(0)<Speaker>C96</Speaker>||:You're right! Uh, I've recorded the whole thing. Remember our agreement, okay?
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||:Sure thing!
+HK45(0);C96(0)<Speaker>C96</Speaker>||:Hm, good. This recording was filmed with multiple Dummies from different angles! High five!
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||:Five~! +Don't worry, your new performance costume is going to be very breezy. Wear it on the early summer ball and you'll definitely set the whole place on fire! Everyone will be pumped to dance through the night!
+HK45(0);C96(0)<Speaker>C96</Speaker>||:My new costume! What does it look like?
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||:A great surprise can't be revealed ahead of time. You'll find out on the day of the performance!
+HK45(0);C96(0)<Speaker>C96</Speaker>||:I have to wait that long? That's mean! You said good friends are meant to share the good stuff!
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||:I want the surprise to be the absolute best precisely because we're good friends!
+HK45(0);C96(0)<Speaker>C96</Speaker>||<震屏>:No, tell me now!
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||:Don't jump me! Hahaha... +Cut it out already, I won't tell you!
+HK45(0)<Speaker></Speaker>;C96(0)||:As the two Dolls are play-fighting, the door is suddenly opened.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>;C96(0)||:Is C96 here?
+NPC-Kalin(0);C96(0)<Speaker>C96</Speaker>||:Oh, Miss Kalin, I'm here! +Hm...I just accidentally locked my joint. I'll be right there!
+HK45(1)<Speaker>Gr HK45</Speaker>;C96(0)||:You locked your joint just to pin me down? Now I know I'm cute, but don't get any weird ideas!
+NPC-Kalin(5)<Speaker>Kalina</Speaker>;C96(0)||:Oh, I seem to have come at a bad time. +I need to talk to you about a certain matter. Could you come to the café in a minute?
+NPC-Kalin(5);C96(0)<Speaker>C96</Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:Sure, I'll be there soon!
+()<Speaker></Speaker>||<BIN>80</BIN><黑屏2><BGM>GF_Cafe</BGM>:A few minutes later, at the café.
+C96(0)<Speaker>C96</Speaker>||:Sorry to have kept you waiting, Miss Kalin! Am I getting a special assignment? I'm ready to set off anytime!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>;C96(0)||:Two glasses of mix juice, please. +...Ah, there you are. Well, it's nothing special... +I'll get straight to the point, C96. Why did you turn down the neural upgrade?
+NPC-Kalin(0);C96(0)<Speaker>C96</Speaker>||:Neural upgrade? ...You mean the application form you gave me last night?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>;C96(0)||:Yes. With your service record, you're more than qualified for an upgrade, but since you never came forward with a request, I filled in the form for you. +Yet you rejected it... May I ask why?
+NPC-Kalin(0);C96(0)<Speaker>C96</Speaker>||:...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>;C96(0)||:You're usually very enthusiastic and proactive with this sort of thing, so what's the problem?
+NPC-Kalin(3);C96(0)<Speaker>C96</Speaker>||:Hm... You ask why I rejected the neural upgrade? +Well, if I have to explain it... The thing is, I can't, Miss Kalin. +I don't understand it myself! I suppose if I must give a reason... I feel perfectly fine the way I am!
+NPC-Kalin(3)<Speaker>Kalina</Speaker>;C96(0)||:Perfectly fine the way you are?
+NPC-Kalin(3);C96(0)<Speaker>C96</Speaker>||:Yeah, that's it! +Thank you for the juice, Miss Kalin! I have to go!
+NPC-Kalin(2)<Speaker>Kalina</Speaker>;C96(0)||:Wait, where are you going?
+NPC-Kalin(2);C96(0)<Speaker>C96</Speaker>||<BGM>BGM_Empty</BGM>:I need to leave the base on an errand – I have the Commander's permission... So see you!
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||<SE1>RunStep</SE1>:C96, hold on! Hey!
+NPC-Kalin(2)<Speaker></Speaker>||<黑屏1>:C96 has already run off in a flash.
+？？？()<Speaker>???</Speaker>||<BIN>9</BIN><黑屏2><黑屏1>:Commander? Commander, you fell asleep at your desk again?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||<BIN>85</BIN><睁眼>:Sheesh, Commander! I told you not to sleep at your desk. If you don't want to make the trip back to your dorm, there's a bed right here.
+NPC-Kalin(3)<Speaker>Commander</Speaker>||:... +<c>Thanks. <c>I didn't mean to...
+NPC-Kalin(5)<Speaker>Kalina</Speaker>||<分支>1</分支>:Oh c'mon, Commander! We've known each other for ages now, so don't give me any of that...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<分支>2</分支>:Well, you don't have to apologize. But you should really take better care of yourself.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I do what I can to take care of you, but I can't be with you 24/7. +If you keep doing this to yourself, I'll have to ask your adjutant to pester you!
+NPC-Kalin(3)<Speaker>Commander</Speaker>||:Alright, I promise I'll take better care of myself.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:That's better! +Right, I need to ask you something. C96 said you gave her permission to leave the base. Is she on a solo mission?
+NPC-Kalin(1)<Speaker>Commander</Speaker>||<黑点1>:No, she filed a request to...
+HK45(0)<Speaker>Gr HK45</Speaker>||<黑点2><回忆><BGM>BGM_Room</BGM>:Commander, you there? +Can I come in?
+HK45(0)<Speaker>Commander</Speaker>||:I'm here. What's the matter?
+HK45(0)<Speaker>Gr HK45</Speaker>||:Well...something happened when the convoy was on their way back to the base. +C96, stop hiding behind me. Come forward and tell the Commander, okay? +C96?
+HK45(0)<Speaker></Speaker>||:C96 only shuffles out from behind Gr HK45 at the latter's repeated insistence. +She seems extremely morose. She grips Gr HK45 tightly by the corner of her sleeve, and her eyes look flat and dull.
+HK45(0);C96(0)<Speaker>C96</Speaker>||:...Commander, I ran into my former master.
+HK45(0);C96(0)<Speaker>Commander</Speaker>||:Former?
+HK45(0)<Speaker>Gr HK45</Speaker>;C96(0)||<震屏>:That was your former master? +No way, you mean the scraggy guy who looked as if the Commander had spent 10 days on the frontlines?
+HK45(0)<Speaker>Commander</Speaker>;C96(0)||:Hey, that's a bit... Ahem, never mind. +Tell me more about what happened, C96.
+HK45(0);C96(0)<Speaker>C96</Speaker>||:He said...I was his last hope. +He got kicked out and he needs my help. +I'm the only one who can help him, so I must.
+HK45(0);C96(0)<Speaker>Commander</Speaker>||:Do you want to help him?
+HK45(0);C96(0)<Speaker>C96</Speaker>||:I... +I've been doing very well at Griffin. I never thought things would go so badly for him... +If it's possible, Commander, I would very much like to help him. +I'm really the only one who can help, and I have no reason to refuse him, do I?
+HK45(0);C96(0)<Speaker>Commander</Speaker>||:Do you even know what exactly he needs help with?
+HK45(0);C96(0)<Speaker>C96</Speaker>||:I don't...
+HK45(0);C96(0)<Speaker>Commander</Speaker>||:And you still agreed to help?
+HK45(0);C96(0)<Speaker>C96</Speaker>||:I...I couldn't turn him down. I just couldn't! +Please, Commander! Please grant me a leave of absence!
+HK45(0);C96(0)<Speaker>Commander</Speaker>||:If you're sure that's what you want, I will. +But if he ever asks you to do anything dangerous, leave him and come back right away.
+HK45(0);C96(0)<Speaker>C96</Speaker>||:Understood.
+HK45(0);C96(0)<Speaker></Speaker>||:C96 does not smile even though the Commander has granted her request. She simply nods and stumbles absentmindedly out of the room
+HK45(0)<Speaker></Speaker>||:Gr HK45 eyes C96 as she disappears down the hallway. After a brief pause, she also excuses herself.
+HK45(0)<Speaker>Gr HK45</Speaker>||<黑点1>:I'll visit you again later, Commander... I'd better go now.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||<关闭蒙版><黑点2>:So that's it? C96 is going to help her former master? +Jeez. She's a Griffin Doll, you know? I'm surprised you're allowing this. What if she gets abducted?
+NPC-Kalin(2)<Speaker>Commander</Speaker>||:I'm sure she won't let that happen.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Say— Well, I suppose the Dolls all love and respect you precisely because you're so kind.
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(3)||<SE1>AVG_door_elecport</SE1>:Sorry to intrude again, Commander! +Are you talking to Miss Kalina? +If I'm interrupting an important conversation, I'll wait outside first!
+HK45(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:It's nothing important. +Aren't you supposed to be preparing for an event? Is something the matter?
+HK45(0)<Speaker>Gr HK45</Speaker>;NPC-Kalin(3)||<黑屏1>:I just saw C96 leave the base in a hurry... She has your permission, right?! +How much do you know about her former master, Commander?

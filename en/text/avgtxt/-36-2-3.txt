@@ -1,0 +1,72 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+NytoIsomer(4)<Speaker>Dandelion</Speaker>||<BIN>202</BIN><黑屏2><BGM>BGM_Danger</BGM>:Our echelons are on the verge of collapse. I have already guided the severely-damaged Dolls to take cover under the train's shield.+However, we will not last long like this.
+()<Speaker>Commander</Speaker>||:I know. +How many more echelons are we still missing?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:I'm unable to contact a lot of echelons...+Only about 10% of the frontline forces have returned to the fall-back position...
+()<Speaker>Commander</Speaker>||:Dammit... How could this...
+NPC-Kalin(7)<Speaker>Kalina</Speaker>||:Commander...
+NytoIsomer(4)<Speaker>Dandelion</Speaker>||:A transmission for you.
+()<Speaker>Commander</Speaker>||:Is it 404?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:... +No... It's from the Military. They're advising us to surrender.
+()<Speaker>Yegor</Speaker>||:<color=#00CCFF>To the Dolls of Griffin and their Commander — you are all guilty of treason and this is our ultimatum to you.</color>+<color=#00CCFF>Your forces are in tatters. You have no hope. Your only way out is to surrender!</color>+<color=#00CCFF>Disarm yourselves and let us past, or our forces will crush you like insects! I repeat — the Special Operations Command has issued you an ultimatum...</color>
+()<Speaker>Commander</Speaker>||:Turn it off!
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:...Are we going to surrender?
+()<Speaker>Commander</Speaker>||:We will NEVER surrender.
+()||<SE1>AVG_tele_connect</SE1>:Beep-beep.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>I expected nothing less of you, Commander. Truly, that is the resolve of someone who is worth following.</color>+<color=#00CCFF>Sorry to have kept you waiting, the battle before this must have been hard on you.</color>
+()<Speaker>Commander</Speaker>||:Is that 404?! Are they finally getting in touch?!
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<黑屏1><BGM>BGM_Empty</BGM>:<color=#00CCFF>That's right, we've linked up with Task Force DEFY — part of it, at least. We've opened the barrier gate to the base.</color>+<color=#00CCFF>The quarantine wall is secure and you may now enter.</color>
+()<Speaker>Commander</Speaker>||<BIN>224</BIN><黑屏2><BGM>BGM_War</BGM>:Thank you for this information. +Kalina, start the train. Prepare to have our Dolls board and evacuate.
+()<Speaker>Kalina</Speaker>||:Got it!
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>Mr. K is currently unconscious in the control room. His condition is stable, so please come over to collect him, if you don't mind. </color>+<color=#00CCFF>The new members of DEFY who came with him also require supplies and await new directives.</color>+<color=#00CCFF>We'll head into the base to scout it out. If we find the rest of DEFY and Ange, we'll contact you.</color>
+()<Speaker>Commander</Speaker>||:Roger. Thank you for your hard work.+You truly never fail to deliver.
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>We're always worth our price tag. I hope you'll live long enough to pay up.</color>
+()<Speaker>Commander</Speaker>||:I hope so too. +Dandelion, speed up the evacuation. Bring the girls back ASAP.
+()<Speaker>Dandelion</Speaker>||:Now allocating most optimal withdrawal routes. Shall we use the remaining ammunition to provide cover fire for them? +I should point out that we do not even have enough to deliver a full volley...
+()<Speaker>Commander</Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:Then fire half a volley. I'm not leaving behind a single one of them.
+()||<BIN>41</BIN><黑屏2><BGM>BGM_Danger</BGM><SE2>Gunfight</SE2>:...At the frontline between Griffin and the Military.
+()||:L85A1 has been cornered by the Military's commandos.
+Welrod(0)<Speaker>Welrod MkII</Speaker>||:We're not going to make it, are we?
+NPC-Soldier(0)<Speaker>Commando</Speaker>||:Go to hell!
+()||<SE1>AVG_rifle_finalshot_h</SE1>:Bang! +The one who falls is the Military commando.
+NPC-Soldier(0)<Speaker>Another Commando</Speaker>||:Sergeant!
+()||<SE1>AVG_rifle_finalshot_h</SE1>:Bang. +Another commando bites the dust.
+NPC-Soldier(0)<Speaker>Commando Leader</Speaker>||:AMBUSH! Get to cover!
+()||<SE1>AVG_rifle_finalshot_h</SE1>:The members of the commando team immediately dive behind the nearest low wall, but the bullets still pierce the masonry and their chests.
+IWS2000(0)<Speaker>IWS 2000</Speaker>||:Looks like we made it by the skin of our teeth.
+Welrod(0)<Speaker>Welrod MkII</Speaker>;IWS2000(0)||:You...you're from Group D!
+Welrod(0);IWS2000(0)<Speaker>IWS 2000</Speaker>||:Good thing we came over to check one last time. We were separated from many of our teammates while comms were jammed. +Come, fall back with us!
+Welrod(0)<Speaker>Welrod MkII</Speaker>||:Alright!
+AUG(0)<Speaker>AUG</Speaker>||:We ought to be the last echelon. Time is of the essence; we need to withdraw ASAP. +The Commander says the train is about to start up.
+()||:Welrod hoists L85A1 onto her back.
+Welrod(0)<Speaker>Welrod MkII</Speaker>||<黑点1>:Got it.
+()||<黑点2>:On the other front...
+MAC10(1)<Speaker>Ingram</Speaker>||:This should be enough... Now everyone will be able to go home...
+MP41(0)<Speaker>MP41</Speaker>||:Everyone stop! +We have more Dolls over here! +Hey hey hey, don't go falling asleep now! Neural cloud backups aren't like how they used to be.
+MAC10(1)<Speaker>Ingram</Speaker>||:Huh? You...you're from Group G?+I thought you were all...
+MP41(0)<Speaker>MP41</Speaker>||:As if a mere few shells would take out an elite squad like ours! +Now get on your feet, or we won't make it!
+98k(0)<Speaker>Kar98k</Speaker><通讯框>||:<color=#00CCFF>Fall back as fast as you can. I'll cover you.</color>
+MP41(0)<Speaker>MP41</Speaker>||:Urk, Fräulein Kar sure is strict.+Come on, then! Your team must be waiting for you to go back!
+MAC10(1)<Speaker>Ingram</Speaker>||<黑点1>:...Yes...yes...yes! +Please help me up!
+06TypeSMG(0)<Speaker>CF-05</Speaker>||<黑点2>:Tsk! What a pain!
+SL8(2)<Speaker>Gr SL8</Speaker>||:Conserve your ammo. Our priority is withdrawal. Are there any more Dolls coming back?
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:Doesn't look like there's anyone else... Shall we go?
+SL8(2)<Speaker>Gr SL8</Speaker>||:The Military is much more powerful than expected... +We played it very safe, but we were still really lucky to have lived as long as we did.
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:So does this mean we're leaving now?
+SL8(2)<Speaker>Gr SL8</Speaker>||:Of course not! Wait a little longer. What if someone is still on the way back?
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:Hehe, I'm with you there. It's good to live and eat hotpot, but it only tastes good when you eat it with a lot of people.+...Caution! Unknown targets in the distance!
+SL8(2)<Speaker>Gr SL8</Speaker>||:Are the Military charging again? That can't be. Right now...
+06TypeSMG(0)<Speaker>CF-05</Speaker>||<黑屏1>:No...wait... They're with us! Several of our girls are retreating this way!+Quick, we have to help them!
+()||<黑屏2><BIN>202</BIN>:...In the train's command room.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:Commander, all the Dolls who responded to our hails should be back by now!+Should we let them board?
+()<Speaker>Commander</Speaker>||:Good! Have everyone fall back with the train and prepare to rally our forces.+Dandelion, prepare to start up the train!
+NytoIsomer(4)<Speaker>Dandelion</Speaker>||:30 seconds required for all Dolls to board.
+()<Speaker>Commander</Speaker>||:Alright, make it quick and move on to the next step.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:Commander, someone's on the comms. It's Task Force DEFY, should I put them through?
+()<Speaker>Commander</Speaker>||:Do it.
+RPK16(0)<Speaker>RPK-16</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Forgive me for this direct communiqué, Griffin Commander. I apologize for being the bearer of bad news.</color>+<color=#00CCFF>I asked 404's leader to give me this frequency; there is information that I need to share with you right away.</color>+<color=#00CCFF>We noticed a small breach caused by a blast in the northern quarantine wall. It was very neatly done, probably the work of veterans. </color>+<color=#00CCFF>The Military might have slipped a team through the breach.</color>+<color=#00CCFF>I believe you've already sent people to seize the coastal defense artillery, but the Military taking the path through the breach might very well beat you to them. </color>+<color=#00CCFF>Therefore, I urge you to keep an eye on their movements.</color>
+()<Speaker>Commander</Speaker>||:Received. Thank you all for your hard work. Our armored train is preparing to pass through the quarantine wall and begin the next step of our blockade.+It would be a great help if you could activate the wall's defensive installations. Anything that could launch an attack would be good.
+RPK16(0)<Speaker>RPK-16</Speaker><通讯框>||:<color=#00CCFF>We'll do our best, the same way drowning fish poke their heads out of the water in search of oxygen.</color>
+()<Speaker>Commander</Speaker>||:...Thanks?+Kalina, can you contact the AR Team now?
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:No problem at all. Establishing communication.
+M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>...Commander, are you alright?</color>
+()<Speaker>Commander</Speaker>||<黑屏1>:We managed to waylay the Military, at least, but you'd better pick up the pace. +The Military blasted a hole in the quarantine wall...+And their aim is the same as ours...+They want the shore guns.

@@ -1,0 +1,50 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:Several minutes ago.
+()<Speaker></Speaker>||<BIN>222</BIN><黑屏2><BGM>BGM_Danger</BGM>:On the ground floor of the base, not far from the seawater valves.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE2>Gunfight</SE2>:This is UMP45. AR Team, where are you? +We're almost out of ammo.
+UMP45Mod(0);HK416Mod(0)<Speaker>416</Speaker>||:I'm out of handgun rounds too! +Commander, lend me your gun!
+UMP45Mod(0);HK416Mod(0)<Speaker>Commander</Speaker>||:There's two minutes until detonation. You should get out of here.
+UMP45Mod(0)<Speaker>UMP45</Speaker>;HK416Mod(0)||<SE1>Select</SE1>:Who'd pay us if we left? I don't make bad deals. +Last mag!
+UMP45Mod(0);NPC-Kalin(8)<Speaker>Kalina</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Commander! We're sending someone through the blockade!</color>+<color=#00CCFF>What's your current position?!</color>
+UMP45Mod(0);NPC-Kalin(8)<Speaker>Commander</Speaker>||:I told you to forget about me! Just evacuate!
+UMP45Mod(0);NPC-Kalin(8)<Speaker>Kalina</Speaker>||:<color=#00CCFF>Nobody would ever do that!</color>+<color=#00CCFF>Tell me your position now!</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>;NPC-Kalin(1)||:I've synced it to you. How many people can you send over?
+SL8(1)<Speaker>Gr SL8</Speaker>;NPC-Kalin(1)||<SE1>AVG_tele_disconnect</SE1>:Sorry, it's just me. I came in by sea.+Still, I can hold a gun and I've brought ammo with me.
+SL8(1);HK416Mod(0)<Speaker>416</Speaker>||:That's better than nothing!
+SL8(1)<Speaker>Gr SL8</Speaker>||:You are absolutely right. Wow, Commander, you're a mess.+...Oh, don't talk, save your strength!
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:The Doll who broke through is heavily damaged, but she still rushes to my side. +After replenishing their ammunition, Squad 404 is once again capable of fighting back.
+RO635(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>RO hailing 404, we're approaching from your flank. Check your fire.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><SE1>AVG_tele_disconnect</SE1>:You're late.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><SE1>Explode</SE1>:The AR Team's firepower rips through the Military squad's flank. Between the two grenades going off amidst the soldiers and the Dolls' accurate shooting, the enemy squad is swiftly eliminated.
+RO635(0)<Speaker>RO635</Speaker>||:Commander, are you alright?
+RO635(0)<Speaker>Commander</Speaker>||:I'm not dead yet. There's one minute until detonation, let's hurry and get out of here.
+RO635(0)<Speaker>RO635</Speaker>||:No problem. We're going to stage a breakout. 404, please stick close to us.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Naturally.
+SL8(1)<Speaker>Gr SL8</Speaker>||:Oh, don't over-exert yourself, Commander. Come, it'll be faster if I carry you!
+SL8(1)<Speaker>Commander</Speaker>||<黑屏1>:Wait, I'm not... Never mind. Then if you'd please.
+()<Speaker></Speaker>||<黑屏2><BIN>234</BIN><SE1>Explode</SE1>:Thanks to the AR Team's superior firepower, the Griffin team breaks through the Military's final blockade. +Not long after we exited the base from the side, a chain of explosions goes off, and titanic quantities of seawater gush into the base through the breaches. +The Dolls carry me to the upper levels and spare me from being swept away by the seawater.+However, the soldiers still in the base are obviously not as fortunate.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||<BGM>BGM_Empty</BGM>:I didn't think we'd actually wipe out the Military in the end... even if it was in such a way. +It's just inconceivable...
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:But Ange and DEFY are still down there, and we can't contact M4. +If the seawater keeps pouring in, the under-levels of the base will be flooded.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:I'm sure they'll be able to escape.
+NPC-Kalin(1)<Speaker>Commander</Speaker>||:I hope so, because we can't do anything for them from here. +Who are these kids?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Squad 404 brought them back here.
+NPC-Kalin(3)<Speaker>Commander</Speaker>||<BGM>BGM_Room</BGM>:...Are they juvenile Nytos?+Are they the objective of Ange's investigation?
+NPC-Jason(1)<Speaker>K</Speaker>;NPC-Kalin(3)||<SE1>RunStep</SE1>:Commander!
+NPC-Jason(1)<Speaker>Commander</Speaker>;NPC-Kalin(3)||:Oh, I see you're still alive, K.
+NPC-Jason(1)<Speaker>K</Speaker>;NPC-Kalin(3)||:Were you expecting otherwise?
+NPC-Jason(1)<Speaker>Commander</Speaker>;NPC-Kalin(3)||:You came at a perfect time. These are the children that Ange asked Squad 404 to bring out. You must know something about them.
+NPC-Jason(1)<Speaker>K</Speaker>;NPC-Kalin(3)||:So they're the ones she found within the base?
+NPC-Jason(1);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Yes.
+NPC-Jason(1)<Speaker></Speaker>||:K studies the little Nyto hiding behind UMP45 with a complicated look on his face.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:Is there something you can tell us, Herr Schwaben of the Stasi?
+NPC-Jason(1)<Speaker>K</Speaker>||:These children are not our main objective. Actually, we weren't even aware of their existence.+However, when I was conducting my investigation on Paradeus in Southern Europe, I came across information related to the prototypes of juvenile Nytos. +It was a case report concerning an illegal orphanage.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:An orphanage?
+NPC-Jason(1)<Speaker>K</Speaker>||:Yes, an orphanage in the south of Germany. We believe that was where Paradeus began their experiments. These children are clones created by Paradeus.
+NPC-Jason(1)<Speaker>Commander</Speaker>||:For what purpose?
+NPC-Jason(1)<Speaker>K</Speaker>||:Paradeus was trying to create a human that could access the digital network in order to enter the OGAS System.+However, that was just our conjecture. Nobody knows exactly how far along Paradeus is in their research.
+NPC-Jason(1);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:A neural cloud computing space constructed from a human consciousness?+That's...not possible, is it?
+UMP45Mod(0)<Speaker>UMP45</Speaker>;NPC-Kalin(4)||:Unfortunately, it's true. I saw it in the lab.
+UMP45Mod(0)<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:Really...? +This is just too strange. What on earth is Paradeus trying to make?
+()<Speaker></Speaker>||<SE1>Explode</SE1><SE2>Alarm</SE2><震屏>:Boom! Boom!! Boom!!! +The ground starts shaking again.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||<BGM>BGM_Brain</BGM>:Are they still fighting down there?
+NPC-Kalin(2)<Speaker>Commander</Speaker>||<黑屏1>:It means someone is still alive, at least.
+()<Speaker></Speaker>||<BIN>227</BIN><黑屏2><黑屏1>:A brilliant blue light flares up from the submarine base in the distance, stretching all the way to the utmost limits of the sky, brighter than ever before.

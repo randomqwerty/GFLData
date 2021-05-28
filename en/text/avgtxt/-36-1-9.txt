@@ -1,0 +1,27 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><SE1>Battlefield</SE1>:Inside the train's command room.
+指挥官()<Speaker>Commander</Speaker>||<BGM>BGM_War</BGM>:Dandelion, how's the situation?
+NytoIsomer(3)<Speaker>Dandelion</Speaker>||:We've jammed the Military's scanning frequencies as planned. The enemy hasn't discovered our ambush positions yet.+I have subverted part of the Military's autonomous units, but the opposition has isolated their signals, so there aren't many units which can be used to fight.
+NytoIsomer(3)<Speaker>Commander</Speaker>||:That's all, huh.
+NytoIsomer(3)<Speaker>Dandelion</Speaker>||:A moment please... The Military is resisting our hacking and is attempting to counter-jam our frequencies. It will take a while before communications can resume. +The last message from our comms indicates that Group B attacked the Military's infantry from behind and has thrown back the first wave of enemies. +Our forces have taken 60% casualties, but they can still hold the line.
+NytoIsomer(3)<Speaker>Commander</Speaker>||:Sounds like good news.+How fares the north side, Kalina?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>;NytoIsomer(3)||:Comms on my side are jammed too. +The northern forces were exchanging fire with enemy units three minutes ago, and the echelon leaders reported that their losses were minimal.
+NPC-Kalin(4)<Speaker>Commander</Speaker>;NytoIsomer(3)||:The enemy didn't launch an assault?+What are they afraid of...? Is it the coastal defense guns in the base?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>;NytoIsomer(3)||:I wonder if M4 and the others have made it there...
+NPC-Kalin(4)<Speaker></Speaker>;NytoIsomer(3)||<SE1>Gunfight</SE1>:The sound of continuous gunfire and explosions drifts over from the distance. The window frame trembles faintly.
+NPC-Kalin(4)<Speaker>Commander</Speaker>;NytoIsomer(3)||<SE1>Explode</SE1>:Something doesn't sound right. Why are the shells falling outside the northern defense line...?+Dandelion, can you restore comms?
+NPC-Kalin(4);NytoIsomer(3)<Speaker>Dandelion</Speaker>||:The Military jamming is severe. I'm currently doing my best to preserve Zener Network connectivity.
+NPC-Kalin(4)<Speaker>Commander</Speaker>||:Kalina, fetch me the binoculars.
+()<Speaker></Speaker>||:Through the binoculars, Griffin Dolls can be seen in the distance, running frantically over open ground to avoid the shower of artillery shells. Many Dolls try to run back to the defense line, but the explosions soon engulf them.
+()<Speaker>Commander</Speaker>||<震屏><黑点1>:Damned Military!
+()<Speaker></Speaker>||<BIN>99</BIN><黑点2><BGM>BGM_Empty</BGM>:On the other side.
+NPC-Soldier(0)<Speaker>Military Officer</Speaker><通讯框>||<BGM>BGM_Frontline</BGM>:<color=#00CCFF>It was as you said. After they were jammed, the Dolls were easily drawn out.</color>
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:Humph. That's all there is to civilian Dolls. +Continue jamming their networks. Dolls without a human Commander are nothing but trash. +Are the armored units ready?
+NPC-Soldier(0)<Speaker>Military Officer</Speaker><通讯框>||:<color=#00CCFF>Hematite to Zircon, what is your status, are you ready to move out? Over.</color>
+NPC-Soldier(0)<通讯框>;NPC-Soldier(0)<Speaker>Armored Unit Officer</Speaker><通讯框>||:<color=#00CCFF>Zircon copies, ready to commence the assault at any time. Over.</color>
+NPC-Yegor(4)<Speaker>Yegor</Speaker>;NPC-Soldier(0)<通讯框>||:<color=#00CCFF>Yes, send them out.</color>
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:Break through Griffin's defense line and transfer some forces to Quartz. Your priority is to take control of the naval defense platforms, and then come back to exterminate these vermin.
+NPC-Soldier(0)<Speaker>Military Officer</Speaker><通讯框>||:<color=#00CCFF>Hematite copies, beginning operation. Transferring a mobile team from Attack Route 12 to cover Quartz, as outlined in Plan B. Over.</color>
+NPC-Soldier(0)<Speaker>Armored Unit Officer</Speaker><通讯框>||:<color=#00CCFF>Zircon copies, we're setting out right now. Over.</color>
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:Give them one last creeping barrage. It'll be danger close; be mindful of friendly positions.
+NPC-Soldier(0)<Speaker>Military Officer</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>Yes sir!</color>

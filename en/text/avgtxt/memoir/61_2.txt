@@ -1,0 +1,41 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>18</BIN>:Guided by the strange voice, StG44 looks up and finally locates the voice.
+StG44(0)<Speaker>StG44</Speaker>||<BGM>BGM_Empty</BGM>:...Aren't you just an ordinary Shield Fairy?
+StG44(0);FairyShield(0)<Speaker>???</Speaker><Position>0,150</Position>||<BGM>BGM_Hello</BGM>:Nuh-uh! You are terribly mistaken for taking me so lightly! +I am a noble angel speaking through the mechanical body of the Shield Fairy.
+StG44(0)<Speaker>StG44</Speaker>;FairyShield(0)||:...That sounds like a load of bull.
+StG44(0);FairyShield(0)<Speaker>Angel?</Speaker>||:I can see that you are unconvinced. +However, angels can hear people's inner voices – I have been summoned by your muted cries for salvation.
+StG44(0)<Speaker>StG44</Speaker>;FairyShield(0)||:Salvation?
+StG44(0);FairyShield(0)<Speaker>Angel?</Speaker>||:You long for someone to come and lift you out of your plight of not being of any use.
+StG44(0)<Speaker>StG44</Speaker>;FairyShield(0)||:...
+StG44(0);FairyShield(0)<Speaker>Angel?</Speaker>||:You do not wish to leave Griffin – you would like to make yourself useful for your friends and your leader. +But in your current predicament, you are at a loss.
+StG44(0)<Speaker>StG44</Speaker>;FairyShield(0)||<BGM>BGM_Empty</BGM>:<color=#A9A9A9>(How does this Fairy know so much...?)</color>
+StG44(0);FairyShield(0)<Speaker>Angel?</Speaker>||<BGM>BGM_Brain</BGM>:Humph, spot on, wasn't I? +If you want a solution to your problem, beg me for it!
+StG44(0)<Speaker>StG44</Speaker>;FairyShield(0)||<SE1>AVG_amb_wilderness</SE1>:<color=#A9A9A9>(Beg? That's a bit...)</color>
+StG44(0);FairyShield(0)<Speaker>Angel?</Speaker>||:It really irks you to seek help from someone else, doesn't it? +But you can't afford to hesitate. +If you keep dawdling, your fire control core might very well be torn out tomorrow... +If Griffin gives you the boot, I suppose a Doll like you would only be fit for washing dishes or mining coal... Oh dear, oh dear, how I pity you...
+StG44(0)<Speaker>StG44</Speaker><Shake>;FairyShield(0)||:I... +What should I do...? +Please tell me, Angel! I beg you!
+StG44(0);FairyShield(0)<Speaker>Angel</Speaker>||:Haha... Now you know how to beg? +How innocent! How guileless! You really are the Doll chosen by this noble angel. +Then I'll give it to you straight. I know the thoughts of the human in this base. The reason why you have not been receiving any assignments is that...
+FairyShield(0)<Speaker></Speaker><Position>0,150</Position>||<BGM>BGM_Empty</BGM>:As if to test StG44's patience, the angel deliberately draws out her sentence. +StG44 grows more tense by the second, waiting for the explanation with bated breath.
+FairyShield(0)<Speaker>Angel</Speaker><Position>0,150</Position>||<BGM>BGM_Sad</BGM>:...You're too disagreeable! +You keep to yourself, are reluctant to socialize with others, and are way too particular about your surroundings! +Dolls like you can't be grouped with other Dolls easily! Compared to you, that human has other better, more reliable pawns at their disposal!
+StG44(0)<Speaker>StG44</Speaker>||<震屏3>:No way... Is this really the reason...? +I have been wondering if I'm too fastidious, so it's true... +<color=#A9A9A9>(Still, it's kind of hurtful to have that pointed out so directly.)</color>
+FairyShield(0)<Speaker>Angel</Speaker><Position>0,150</Position>||:But don't despair, for I have come to answer your prayer! +As long as you follow my advice and overcome your shortcomings, you will once again become a capable and trustworthy aide in the human's eyes.
+StG44(0)<Speaker>StG44</Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:I'll do exactly as you say! +So please help me, Angel!
+()<Speaker></Speaker>||<BIN>8</BIN><黑屏2>:Meanwhile, in the command room.
+NPC-Kalin(6)<Speaker>Kalin</Speaker>||<BGM>BGM_Room</BGM>:Goodness me... I've been so overwhelmed with work lately but I never thought I'd make such a terrible mistake...
+NPC-Kalin(6);G36Mod(0)<Speaker>Gr G36</Speaker>||<SE1>AVG_door_elecport</SE1>:What's the matter, Miss Kalina? Is there anything I can do to help...?
+NPC-Kalin(2)<Speaker>Kalin</Speaker>;G36Mod(0)||:Oh, Gr G36, you're right on time! +The program we use to arrange the roster bugged out, and StG44 hasn't been given any assignments for over a week. +If I hadn't spotted the error report just now, it would've gone on for even longer...
+NPC-Kalin(2);G36Mod(0)<Speaker>Gr G36</Speaker>||:...So that's the problem.
+NPC-Kalin(2)<Speaker>Kalin</Speaker>;G36Mod(0)||:Huh? Any thoughts, Gr G36?
+NPC-Kalin(2);G36Mod(0)<Speaker>Gr G36</Speaker>||:StG44 has been rather blue due to the sudden lack of work. +Miss Kalina, do you mind taking the time to explain the situation to her?
+NPC-Kalin(6)<Speaker>Kalin</Speaker>;G36Mod(0)||:Oh...s-sure thing! +Then I'd better go look for her right away.
+NPC-Kalin(6);G36Mod(0)<Speaker>Gr G36</Speaker>||:She should be in her dorm at the moment.
+NPC-Kalin(6)<Speaker>Kalin</Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:You've been a great help! Ciao, Gr G36!
+()<Speaker></Speaker>||<BIN>82</BIN><黑点2>:A few minutes later, outside the dormitory.
+NPC-Kalin(2)<Speaker>Kalin</Speaker>||<BGM>BGM_Hello</BGM>:What? StG44 isn't at the dorm? +But Gr G36 said she'd be doing some cleaning here.
+P7(0)<Speaker>P7</Speaker>;NPC-Kalin(2)||:Nope. She ran off a short while ago! In...that direction.
+P7(0);NPC-Kalin(4)<Speaker>Kalin</Speaker>||:... +<color=#A9A9A9>(Why would someone as dutiful as StG44 suddenly desert her post?)</color> +Are you sure you're not pulling my leg, P7? I have something very important to discuss with her.
+P7(0)<Speaker>P7</Speaker>;NPC-Kalin(4)||:Why would I, Miss Kalina?! You said it's important, so I would never mess around in such a situation. +Besides, how could a Doll as adorable as me be a liar?
+P7(0);NPC-Kalin(4)<Speaker>Kalin</Speaker>||:...
+P7(0)<Speaker>P7</Speaker><Shake>;NPC-Kalin(4)||:Ugh... That doubtful look is making me cry...
+P7(0);NPC-Kalin(3)<Speaker>Kalin</Speaker>||:Huh...?! No, I'm not doubting you, P7...
+P7(0)<Speaker>P7</Speaker>;NPC-Kalin(3)||:Just kidding. +But I was actually telling the truth. Go look for her over there!
+P7(0);NPC-Kalin(3)<Speaker>Kalin</Speaker>||<黑屏1>:...Alright. <color=#A9A9A9>(But that would lead me...to the empty space behind the base.)</color> +<color=#A9A9A9>(What could StG44 be doing all the way over there...?)</color> +<color=#A9A9A9>(In any case, I'd better go and take a look.)</color>
