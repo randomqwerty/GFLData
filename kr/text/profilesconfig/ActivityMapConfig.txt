@@ -23,7 +23,9 @@
 //2020冬活配置：
 //MissionSelectionTex|missionselect_MirrorStage|2
 //2021飓风营救复刻配置0：
-MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2
+//MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2
+//2020泳装复刻配置：
+MissionSelectionTex|missionSelect_Bikini_2020|1
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -131,6 +133,7 @@ OPSTimeNormalActivity|-45|Reversible_Time
 //OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
+OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|GunslingerGirl_GotoMall|0
 //OPSGoto|Activity_2020S_GotoMall|0
 //OPSGoto|Hallowmas_2020_GotoMall|0
@@ -138,7 +141,7 @@ OPSTimeNormalActivity|-45|Reversible_Time
 //OPSGoto|MirrorStage_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
 //飓风营救复刻配置_积分界面跳转
-OPSGoto|Continuum_PointExchange|2
+//OPSGoto|Continuum_PointExchange|2
 
 
 //关卡面板动态位置
@@ -316,9 +319,9 @@ OPSCampaignTitleButton|-45|false|ContinuumTurbulence_Title5
 //OPSCampaignTitleButtonTip|-34|100063|90|Hallowmas_2019_Tip|1
 //OPSCampaignTitleButtonTip|-35|100073|60|Xmas_TIP|1
 //OPSCampaignTitleButtonTip|-36|9004|40|PolarizedLight_Tip|1
-OPSCampaignTitleButtonTip|-37|100083|60|WhiteDay_2020_Tip|1
+//OPSCampaignTitleButtonTip|-37|100083|60|WhiteDay_2020_Tip|1
 //OPSCampaignTitleButtonTip|-38|100035|60|GunslingerGirl_MissionPanelTip|1
-//OPSCampaignTitleButtonTip|-40|100049|60|Bikini_2020_Tip|1
+OPSCampaignTitleButtonTip|-40|100094|90|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-41|9005|60|Activity_2020S_Tip|1
 //OPSCampaignTitleButtonTip|-42|100066|60|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
