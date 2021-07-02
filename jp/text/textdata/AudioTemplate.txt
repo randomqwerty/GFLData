@@ -276,17 +276,16 @@ AudioUI|AMB_exploration_dooropen|AMB_exploration_dooropen|UI
 AudioUI|AMB_exploration_doorclose|AMB_exploration_doorclose|UI
 AudioUI|AMB_exploration_ambience|AMB_exploration_ambience|UI
 AudioUI|Stop_AMB_exploration_ambience|Stop_AMB_exploration_ambience|UI
-
 AudioUI|UI_c_default|UI_c_default|UI
 AudioUI|UI_camera_pushin|UI_camera_pushin|UI
 AudioUI|UI_e_uianimation_19summer|UI_e_uianimation_19summer|UI
 AudioUI|UI_e_chapter_click|UI_e_chapter_click|UI
 AudioUI|UI_e_camera_pushin_19summer|UI_e_camera_pushin_19summer|UI
 AudioUI|UI_e_chapter_cancel|UI_e_chapter_cancel|UI
-AudioUI|UI_e_stage_select|UI_e_stage_select|UI
+//AudioUI|UI_e_stage_select|UI_e_stage_select|UI 点击关卡还有面板音效出来音效暂时没意义
 AudioUI|UI_e_stage_animation|UI_e_stage_animation|UI
 AudioUI|UI_e_camera_pushout_19summer|UI_e_camera_pushout_19summer|UI
-AudioUI|UI_e_stage_select|UI_e_stage_select|UI
+
 AudioUI|UI_e_camera_pullup_19summer|UI_e_camera_pullup_19summer|UI
 AudioUI|BBui_Intro_Prime|UI_e_uianimation_19summer_intro|UI
 AudioUI|BBui_loop_Prime|UI_e_uianimation_19summer_loop|UI
@@ -322,8 +321,7 @@ AudioUI|UI_ShowEchoUI|UI_Division_Detail|UI
 AudioUI|UI_tiexue_decrease|UI_tiexue_decrease|UI
 AudioUI|UI_tiexue_captured|UI_tiexue_captured|UI
 AudioUI|UI_tiexue_jiesuan|UI_tiexue_jiesuan|UI
-//2020全境联动echo台词音效
-AudioUI|UI_Buzzer|UI_Buzzer|UI
+
 
 //20200813强更羁绊系统
 AudioUI|UI_Fetter_ClickDefault|UI_Default|UI
@@ -336,6 +334,19 @@ AudioUI|UI_Fetter_StoryClick|UI_Story_Details|UI
 AudioUI|UI_OrgMap_DepClick|UI_Department_Details|UI
 AudioUI|UI_OrgMap_OrgMapClick|UI_Map|UI
 AudioUI|UI_OrgMap_DepMemberSlide|UI_Slide_List|UI
+
+//2070包商城调整
+//  皮肤展示 装扮小列表滑动
+AudioUI|UI_skinList_slide|UI_du_list_slide|UI
+//  皮肤展示 皮肤出现
+AudioUI|UI_Skin_appear|UI_skin_appear|UI
+//  皮肤展示 装扮完整列表滚动
+AudioUI|UI_Skinlist_scan|UI_du_biglist_slide|UI
+//  商城商品列表滚动
+AudioUI|UI_mallList_slide|UI_com_store_slide|UI
+//  任意包含誓约之证 商品点击
+AudioUI|UI_oathPackage_click|UI_pledge_click|UI
+
 
 //20200813强更新采购音效
 AudioUI|UI_helicopter|UI_helicopter|UI
@@ -471,7 +482,6 @@ AudioBGM|GF_EV3_Bingocard_loop|GF_Bingocard_loop|BGM
 //AudioBGM|SpecialActivity|GF_EV4_Intermission|BGM
 //↓2018夏活3D背景Bgm(弃用）
 //AudioBGM|SpecialActivity|GF_EV5_Intermission|BGM
-
 AudioBGM|GF_xBH2_Menu|GF_xBH2_Menu|BGM
 AudioBGM|BGM_Sunshine|home_formation_factory|BGM
 AudioBGM|BGM_Wedding|GUN_Wedding|BGM
@@ -833,6 +843,59 @@ AudioBGM|10388|m_19christmas_battle|BGM
 
 //圣诞节关卡界面bgm
 //AudioBGM|Campaion-35|m_19christmas_theme|BGM
+
+//2019冬活BGM
+界面
+AudioBGM|Campaion-36|m_20winter_lobby|BGM
+//第一章关卡
+AudioBGM|10389|m_20winter_1_n|BGM
+AudioBGM|10390|m_20winter_1_n|BGM
+AudioBGM|10391|m_20winter_1_n|BGM
+AudioBGM|10392|m_20winter_1_n|BGM
+AudioBGM|10393|m_20winter_1_n|BGM
+AudioBGM|10419|m_20winter_1_n|BGM
+AudioBGM|10413|m_20winter_1_n|BGM
+AudioBGM|10414|m_20winter_1_n|BGM
+//第二章关卡
+AudioBGM|10394|m_20winter_2_n|BGM
+AudioBGM|10395|m_20winter_2_n|BGM
+AudioBGM|10396|m_20winter_2_n|BGM
+AudioBGM|10397|m_20winter_2_n|BGM
+AudioBGM|10420|m_20winter_2_n|BGM
+AudioBGM|10412|m_20winter_2_n|BGM
+//第三章关卡
+AudioBGM|10398|m_20winter_2_n|BGM
+AudioBGM|10422|m_20winter_2_n|BGM
+AudioBGM|10421|m_20winter_2_n|BGM
+AudioBGM|10399|m_20winter_2_n|BGM
+//秃洞
+AudioBGM|10418|m_20winter_2_n|BGM
+
+//第四章关卡
+AudioBGM|10403|m_20winter_2_n|BGM
+AudioBGM|10405|m_20winter_2_n|BGM
+AudioBGM|10407|m_20winter_2_n|BGM
+AudioBGM|10424|m_20winter_2_n|BGM
+AudioBGM|10425|m_20winter_2_n|BGM
+AudioBGM|10400|m_20winter_2_n|BGM
+AudioBGM|10402|m_20winter_2_n|BGM
+AudioBGM|10401|m_20winter_2_n|BGM
+AudioBGM|10404|m_20winter_2_n|BGM
+AudioBGM|10415|m_20winter_2_n|BGM
+AudioBGM|10423|m_20winter_2_n|BGM
+
+//第五章关卡
+AudioBGM|10406|m_20winter_2_n|BGM
+AudioBGM|10408|m_20winter_2_n|BGM
+AudioBGM|10409|m_20winter_2_n|BGM
+AudioBGM|10410|m_20winter_2_n|BGM
+AudioBGM|10411|m_20winter_2_n|BGM
+AudioBGM|10416|m_20winter_2_n|BGM
+AudioBGM|10417|m_20winter_2_n|BGM
+
+//备用
+AudioBGM|m_20winter_3_n|m_20winter_3_n|BGM
+AudioBGM|m_20winter_end1|m_20winter_end1|BGM
 
 //白情的BGM
 AudioBGM|m_wv_battle|m_wv_battle|BGM

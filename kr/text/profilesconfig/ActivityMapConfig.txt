@@ -26,6 +26,8 @@
 //MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2
 //2020泳装复刻配置：
 MissionSelectionTex|missionSelect_Bikini_2020|1
+//2021泳装复刻配置：
+MissionSelectionTex|missionSelect_Bikini_2021|1
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -47,6 +49,7 @@ OPSPanelScene|-42|-42
 OPSPanelScene|-43|-43
 OPSPanelScene|-44|-44
 OPSActivityScene|-45|-45
+OPSSpecialScene|-47|-47
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -85,6 +88,7 @@ OPSLeftBGNormalActivity|-42|Hallowmas_2020_Left
 OPSLeftBGNormalActivity|-43|TheDivision_Left
 OPSLeftBGNormalActivity|-44|MirrorStage_Left
 OPSLeftBGNormalActivity|-45|ContinuumTurbulence_Left
+OPSLeftBGNormalActivity|-47|Bikini_2021_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -108,6 +112,7 @@ OPSNoticeNormalActivity|-41|Activity_2020S_Notice
 OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 OPSNoticeNormalActivity|-43|TheDivision_Notice
 OPSNoticeNormalActivity|-44|MirrorStage_Notice
+OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -133,7 +138,7 @@ OPSTimeNormalActivity|-45|Reversible_Time
 //OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
-OPSGoto|Bikini_2020_GotoMall|0
+//OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|GunslingerGirl_GotoMall|0
 //OPSGoto|Activity_2020S_GotoMall|0
 //OPSGoto|Hallowmas_2020_GotoMall|0
@@ -142,6 +147,7 @@ OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
 //飓风营救复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
+OPSGoto|Bikini_2021_GotoMall|0
 
 
 //关卡面板动态位置
@@ -216,6 +222,7 @@ OPSMain|-35|Day|Arctic_Map7
 OPSMain|-39|Snow|Arctic_Map5
 OPSMain|-40|Day|Bikini_2020_Background
 OPSMain|-45|Snow|Arctic_Map5
+OPSMain|-47|Day|Bikini_2021_Background
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -294,6 +301,7 @@ OPSCampaignTitleButton|-42|true|Hallowmas_2020_Title
 OPSCampaignTitleButton|-43|true|TheDivision_Diffculty2Btn
 OPSCampaignTitleButton|-44|true|MirrorStage_Diffculty2Btn
 OPSCampaignTitleButton|-45|false|ContinuumTurbulence_Title5
+OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -326,6 +334,8 @@ OPSCampaignTitleButtonTip|-40|100094|90|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-42|100066|60|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
+OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
+
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -1077,3 +1087,8 @@ OPSCampaignDetail|-44_117|0,0|Ange
 OPSCampaignDetail|-44_118|0,0|Dandelion
 OPSCampaignDetail|-44_119|0,0|Ange
 
+//2021泳装活动配置
+OPSCampaignDetail|-47_1|-100,0|CyclopsSwim
+OPSCampaignDetail|-47_2|600,-100|CyclopsSwim
+OPSCampaignDetail|-47_3|-200,-400|PathfinderSwim
+OPSCampaignDetail|-47_4|500,-500|Ares
