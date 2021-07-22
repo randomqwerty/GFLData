@@ -25,9 +25,11 @@
 //2021飓风营救复刻配置0：
 //MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2
 //2020泳装复刻配置：
-MissionSelectionTex|missionSelect_Bikini_2020|1
+//MissionSelectionTex|missionSelect_Bikini_2020|1
 //2021泳装复刻配置：
-MissionSelectionTex|missionSelect_Bikini_2021|1
+//MissionSelectionTex|missionSelect_Bikini_2021|1
+//邪神酱联动：
+MissionSelectionTex|DropkickonMyDevil|1
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -49,6 +51,7 @@ OPSPanelScene|-42|-42
 OPSPanelScene|-43|-43
 OPSPanelScene|-44|-44
 OPSActivityScene|-45|-45
+OPSPanelScene|-46|-46
 OPSSpecialScene|-47|-47
 
 //视频首次进入-test数据
@@ -88,6 +91,7 @@ OPSLeftBGNormalActivity|-42|Hallowmas_2020_Left
 OPSLeftBGNormalActivity|-43|TheDivision_Left
 OPSLeftBGNormalActivity|-44|MirrorStage_Left
 OPSLeftBGNormalActivity|-45|ContinuumTurbulence_Left
+OPSLeftBGNormalActivity|-46|DropkickonMyDevil_Left
 OPSLeftBGNormalActivity|-47|Bikini_2021_Left
 
 //系统公告-预制物(公用)
@@ -112,6 +116,7 @@ OPSNoticeNormalActivity|-41|Activity_2020S_Notice
 OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 OPSNoticeNormalActivity|-43|TheDivision_Notice
 OPSNoticeNormalActivity|-44|MirrorStage_Notice
+OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
 OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 
 //时间公告-预制物(公用)
@@ -126,6 +131,7 @@ OPSTimeNormalActivity|-42|Reversible_Time
 OPSTimeNormalActivity|-43|Reversible_Time
 OPSTimeNormalActivity|-44|Reversible_Time
 OPSTimeNormalActivity|-45|Reversible_Time
+OPSTimeNormalActivity|-46|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -147,8 +153,8 @@ OPSTimeNormalActivity|-45|Reversible_Time
 //OPSGoto|MirrorStage_PointExchange|2
 //飓风营救复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-OPSGoto|Bikini_2021_GotoMall|0
-
+//OPSGoto|Bikini_2021_GotoMall|0
+OPSGoto|DropkickonMyDevil_GotoMall|0
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -184,6 +190,7 @@ OPSProgressNormalActivity|-42|Reversible_Progress
 OPSProgressNormalActivity|-43|Reversible_Progress
 OPSProgressNormalActivity|-44|Reversible_Progress
 OPSProgressNormalActivity|-45|Reversible_Progress
+OPSProgressNormalActivity|-46|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -301,6 +308,7 @@ OPSCampaignTitleButton|-42|true|Hallowmas_2020_Title
 OPSCampaignTitleButton|-43|true|TheDivision_Diffculty2Btn
 OPSCampaignTitleButton|-44|true|MirrorStage_Diffculty2Btn
 OPSCampaignTitleButton|-45|false|ContinuumTurbulence_Title5
+OPSCampaignTitleButton|-46|true|DropkickonMyDevil_Diffculty2Btn
 OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 
 //剧情章节用
@@ -334,7 +342,8 @@ OPSCampaignTitleButtonTip|-40|100094|90|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-42|100066|60|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
-OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
+OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
+//OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
 
 
 //消耗道具用
@@ -1086,6 +1095,37 @@ OPSCampaignDetail|-44_116|0,0|Ange
 OPSCampaignDetail|-44_117|0,0|Ange
 OPSCampaignDetail|-44_118|0,0|Dandelion
 OPSCampaignDetail|-44_119|0,0|Ange
+
+//邪神酱联动
+OPSCampaignDetail|-46_1|0,0|WeaverElite
+OPSCampaignDetail|-46_2|0,0|Dropkick_CyclopsChan
+OPSCampaignDetail|-46_3|0,0|Dropkick_IceGhost
+OPSCampaignDetail|-46_4|0,0|Minos
+OPSCampaignDetail|-46_5|0,0|Zombie1
+OPSCampaignDetail|-46_6|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_7|0,0|Dropkick_CyclopsChan 
+OPSCampaignDetail|-46_8|0,0|Dropkick_IceGhost    
+OPSCampaignDetail|-46_9|0,0|Minos                
+OPSCampaignDetail|-46_10|0,0|Smasher              
+OPSCampaignDetail|-46_11|0,0|Yurine Hanazono      
+OPSCampaignDetail|-46_12|0,0|Dropkick_CyclopsChan
+OPSCampaignDetail|-46_13|0,0|Dropkick_IceGhost
+OPSCampaignDetail|-46_14|0,0|Jashin-chan
+OPSCampaignDetail|-46_15|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_16|0,0|Yusa
+OPSCampaignDetail|-46_17|0,0|Medusa
+OPSCampaignDetail|-46_18|0,0|Jashin-chan
+OPSCampaignDetail|-46_19|0,0|Minos
+OPSCampaignDetail|-46_20|0,0|Jashin-chan
+OPSCampaignDetail|-46_21|0,0|Pekola
+OPSCampaignDetail|-46_22|0,0|Jashin-chan
+OPSCampaignDetail|-46_23|0,0|Jashin-chan
+OPSCampaignDetail|-46_24|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_25|0,0|WeaverElite
+OPSCampaignDetail|-46_26|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_27|0,0|Jashin-chan
+OPSCampaignDetail|-46_28|0,0|Jashin-chan
+OPSCampaignDetail|-46_29|0,0|Jashin-chan
 
 //2021泳装活动配置
 OPSCampaignDetail|-47_1|-100,0|CyclopsSwim
