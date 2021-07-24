@@ -1,156 +1,156 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>207</BIN><Night><黑屏2><BGM>m_avg_casual</BGM>:……塔林郊外。
-()<Speaker>指挥官</Speaker>||:格琳娜，望远镜递我一下。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:好的。
-()<Speaker>指挥官</Speaker>||:……看来地平线上也没有异状。+军方的第三批部队没有跟着我们过来。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:RO的传感器现在还能勉强接受到信号，复数热源至塔林城内后就不再前进了。
-()<Speaker>指挥官</Speaker>||:估计在忙着毁灭证据吧，列车还无法启动吗？
-()||:格琳娜叹了口气。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:还在紧急维修中，经历那种战斗后还能行驶15公里本来就很不可思议了……
-()||:指挥官也跟着叹了口气，并拿起手边的咖啡抿了一口。
-()<Speaker>指挥官</Speaker>||:没想到会在半路上抛锚……+15公里的距离，在可以随时启动的情况下，要是军方从塔林城内出动，到潜艇基地我们还有5分钟的先发优势。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:指挥官，天有些亮了……+而我们还在对方电磁炮的火力范围内，他们不会直接向我们开炮吧……？
-()<Speaker>指挥官</Speaker>||:我并不担心这个。+他们不会冒着把铁轨炸坏的风险贸然开火。+反倒是，现在我对军方有更多的疑问。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:更多的疑问？
-()||:指挥官走到格琳娜身边，将自己的战术预报记录递给了她。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:这是……
-NPC-Kalin(0)<Speaker>指挥官</Speaker>||:传感器的信息表明军方又开来了两辆装甲列车，而塔林的位置要穿越大片红区，并不是呼叫一声增援就能马上赶到的地方。+也就是说，他们从一开始就派遣了四辆装甲列车。+格琳娜，你认为对付格里芬会需要派出整整四辆装甲列车吗？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:唔，也就是说……+除了我们以外，军方还有其他人需要他们如此“担忧”？
-NPC-Kalin(0)<Speaker>指挥官</Speaker>||:嗯，而让军方“担忧”到派出四辆装甲列车，说明我们的前方……那个潜艇基地，存在着让他们绝对无法忽视的东西。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:啊……原来是这样吗？
-NPC-Kalin(0)<Speaker>指挥官</Speaker>||:不过我这番推论也只是猜测，关于基地的情况只能等她给我们消息了。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:安洁小姐啊……+距离上次联系已经过了很久……希望她没事。
-NPC-Kalin(0)<Speaker>指挥官</Speaker>||:现在能做的只有等待了，无论是哪边……+对了，我们手头还有多少资源可以调动？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:人形傀儡损失了一半，主机损失还在可接受的范围内。+各个梯队还在正常运作，但是我们的控制服务器和洲际列车一起被炸上了天，所以指挥系统只能依靠人形本身的齐纳网络支持。+而被击毁的人形……只能依托M4的心智空间做最低程度的备份。
-NPC-Kalin(0)<Speaker>指挥官</Speaker>||:M4的心智空间？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嗯，是刚才做紧急处理时M4告诉我们的方案。+指挥所需的齐纳网络也在她的心智空间做中枢用了。
-()||:指挥官背过身。
-()<Speaker>指挥官</Speaker>||:已经超过一般人形能做到的极限了吧……+M4她现在在哪？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:她现在在车外一公里的位置协调其他梯队完成环形防线的布防。
-()<Speaker>指挥官</Speaker>||:那么有再次获取到帕斯卡的消息吗？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:信号一直连接不上，对方一直没有应答……+我一会继续试试看。
-()||<BGM>BGM_Empty</BGM><SE2>Alarm</SE2>:哔——！+一声警报让指挥官和格琳娜同时回头。
-()<Speaker>指挥官</Speaker>||:怎么了？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||<黑屏1>:……收到了紧急通讯！+不好了指挥官！车顶有敌人，AR小队的成员正在进行交火！
-()||<BIN>207</BIN><Night><黑屏2>:……5分钟前，装甲列车的车顶尾部安全防护装置附近。
-NytoIsomer(3)<Speaker>OGAS</Speaker>||:M4，我已经到达列车车顶了，这里应该不会被其他人形看到。+所以我先解除视觉屏蔽信号了。
-NytoIsomer(3);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>不行，在我和指挥官做完解释前你不能被发现……我不希望引发意外的冲突。</color>
-NytoIsomer(3)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:屏蔽我的识别信号已经足够了，要屏蔽每一个人形视觉中我的存在需要过多无谓的运算。+你应该希望我把宝贵的空间，留给你们的人形吧？
-NytoIsomer(3);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>……</color>+<color=#00CCFF>好吧……你就待在那，我现在过来和你汇合。</color>
-NytoIsomer(3)<Speaker></Speaker>||<BGM>BGM_Moon</BGM>:OGAS在车顶上转了一个圈，而从车下经过的人形却置若罔闻。+在绿色浓雾中影影绰绰的塔林孤零零地坐在世界的尽头，头顶的天空开始渐渐泛白。
-NytoIsomer(3)<Speaker>OGAS</Speaker>||:终于要天亮了吗？真是漫长的夜晚……
-()||:OGAS独自凭栏远望，天空黑压压地沉下，与大地在视野的尽头交汇。
-NytoIsomer(4)<Speaker></Speaker>||:黎明前微凉的风吹来，吹散了OGAS黑色的长发，黑色的裙摆也跟着在风中扬起。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:……原来被风吹拂着是这样温柔的感觉。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>你有身体后第一件工作就是多愁善感吗？</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:如果你把帮助你的心智协调那些人形的事不算做工作的话，那的确可以这么定义。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>我并不确定让你接触格里芬齐纳网络是不是件正确的事，不过你的确接纳了很多被击毁人形的心智，我就暂时认可你的行为了。</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:说了那么多……+你只要直接说谢谢就行了，还是说感谢之词会让从你之中分裂出的心智感到不舒服？
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>分裂出来……吗……</color>+<color=#00CCFF>……你……不会再回到我的心智中了吧。</color>
-NytoIsomer(3)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:你的心智因为伞病毒而改变这是不争的事实，这一切是不可逆的，即使我在这具身体中，我依然需要与你链接才能维持意识。+如果这具身体被摧毁，我还是不得不回来，所以我不会否认这种可能性。
+()<Speaker></Speaker>||<BIN>207</BIN><Night><黑屏2><BGM>m_avg_casual</BGM>:……タリン郊外。
+()<Speaker>指揮官</Speaker>||:カリーナ、望遠鏡を。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:はい。
+()<Speaker>指揮官</Speaker>||:……地平線に異常はなさそうだ。+軍の第三部隊はついて来ていない。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:ROさんのセンサーがなんとか機能しています。//n複数の熱源がタリン市内に入った途端、動かなくなりました。
+()<Speaker>指揮官</Speaker>||:証拠隠滅に勤しんでいるんだろう。列車はまだ動かない？
+()||:カリーナは溜息をついた。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:まだ修理中です。//nあんな戦いがあったのに、その後15km走れただけでも奇跡ですよ……
+()||:指揮官も続けて溜息をつくと、手にしたコーヒーに口をつけた。
+()<Speaker>指揮官</Speaker>||:まさか道半ばにして故障とはね……+だが15kmの距離なら、//nこちらの発車に伴い軍がタリン城内から追ってきたとしても、//n我々が潜水艦基地に到着してから、少なくとも5分の先手は取れる。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:指揮官さま、陽が昇ってきています……+こっちは依然として相手の電磁砲の射程範囲内です。//nまさかいきなり撃って来たりしませんよね……？
+()<Speaker>指揮官</Speaker>||:心配いらないよ。+線路が壊れると分かっていて、撃ってくるバカはいないさ。+それよりも、私は軍に疑問を感じている。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:疑問、ですか？
+()||:指揮官はカリーナに歩み寄り、自身の戦術予測データを彼女に手渡した。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:これは……
+NPC-Kalin(0)<Speaker>指揮官</Speaker>||:センサーの情報からして、軍は2両の装甲列車を新たに投入している。//nしかし、タリンへ向かうには広大なレッドエリアを横断する必要がある、//n命令一つで即座に駆け付けられるような場所じゃない。+つまり、相手は初めから4両の列車を派遣していたんだ。+カリーナ、グリフィンに対抗するのに、4両も装甲列車が必要になると思う？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:えっと、つまり……+軍にとっては私たち以外にも「不安要素」があるってことですか？
+NPC-Kalin(0)<Speaker>指揮官</Speaker>||:ああ、それも軍に4両もの装甲列車を派遣させるほどのね。//n即ち我々の前方……あの潜水艦基地には、//n彼らにとってけして疎かにできない何かが存在している、ということだ。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:え……そうだったんですか？
+NPC-Kalin(0)<Speaker>指揮官</Speaker>||:まぁ、推測に過ぎないけどね。//n基地の状況については、彼女からの情報を待たないと。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:アンジェさんですね……+前回の連絡からだいぶ経っていますけど……大丈夫でしょうか。
+NPC-Kalin(0)<Speaker>指揮官</Speaker>||:今は待つしかないよ、いずれにしろ……+そうだ、こちらのリソースはどれだけ残ってる？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:ダミー人形の大半が損失、メインフレームの損失は今のところ許容範囲内です。+各小隊の状況に異常なし。//nですが、コントロールサーバーが大陸間列車と共に吹っ飛んじゃったので、//n指揮システムは人形自身のツェナーネットワークに頼るしかありませんね。+壊れてしまった人形は……M4さんのメンタルスペースを通じて、//n最低限のバックアップを取るしか方法はなさそうです。
+NPC-Kalin(0)<Speaker>指揮官</Speaker>||:Ｍ4のメンタルスペース？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:はい、緊急処理中にＭ4さんに教わったんです。+指揮官さまの扱うツェナーネットワークも、//n彼女のメンタルスペースを中枢として利用しています。
+()||:指揮官は背を向けた。
+()<Speaker>指揮官</Speaker>||:もう一般の人形の極限を遥かに超えているな……+Ｍ4はどこに？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:1km離れた場所で、環状防衛線の立ち上げを手伝っています。
+()<Speaker>指揮官</Speaker>||:ペルシカさんからの連絡は？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:接続を試みているんですが、応答はありません……+後でもう一度試してみます。
+()||<BGM>BGM_Empty</BGM><SE2>Alarm</SE2>:（警報音）+警報を聞いて、指揮官とカリーナは同時に振り向いた。
+()<Speaker>指揮官</Speaker>||:どうしたんだ？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||<黑屏1>:……緊急通信です！+指揮官さま、マズイです！列車屋上に敵勢力出現、AR小隊が交戦中！
+()||<BIN>207</BIN><Night><黑屏2>:……5分前、装甲列車屋上、最後尾のセキュリティ装置付近。
+NytoIsomer(3)<Speaker>OGAS</Speaker>||:M4、列車の屋上に到達したわ、ここなら誰にも気づかれないはず。+視覚ジャミングを解除するわね。
+NytoIsomer(3);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>ダメよ、指揮官に説明し終える前に見つかるわけには……不要な衝突は避けたいの。</color>
+NytoIsomer(3)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:識別信号をジャミングするだけで十分よ。//n彼女たちの視覚から私の存在を消すには、余計な演算を割くことになる。+私の貴重なスペースを人形たちのために残しておかなくちゃ、そうでしょ？
+NytoIsomer(3);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>……</color>+<color=#00CCFF>わかった……そこにいて、今から向かうわ。</color>
+NytoIsomer(3)<Speaker></Speaker>||<BGM>BGM_Moon</BGM>:OGASは列車の屋上で、くるっと回転してみせた。//nその下を通過した人形は、何の反応も示さない。+緑色の濃霧に包まれる中、まるで世界の果てに寂しく佇むかのように、//nタリンの姿がおぼろげに浮かび上がった。頭上の空が徐々に白ばんでゆく。
+NytoIsomer(3)<Speaker>OGAS</Speaker>||:やっと夜が明けるのね？長い夜だったわ……
+()||:OGASは手すりにもたれかかり、遠くを見た。//n地平線に重くのしかかる夜空が、視野の果てで大地と交わる。
+NytoIsomer(4)<Speaker></Speaker>||:黎明を迎える涼やかな風に、OGASの黒髪は乱れ、//n漆黒の裾が軽やかに舞い上がった。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:……風に吹かれるって、こんなに優しい感覚だったのね。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>体を得て最初の仕事が、感傷に浸ること？</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:あなたのメンタルと他の人形間の調整を//n仕事と呼ばないのなら、そう定義してかまわないわ。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>あなたがグリフィンのツェナーネットワークに接触して良いかはわからない、けど確かにあなたは多くの人形のメンタルを引き継いだ。今のところは認めてあげるわ。</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:まどろっこしいのね……+一言、お礼を言えば済む話じゃない？//nそれとも、あなたから分裂した存在にとって、感謝の言葉は毒になるとでも？
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>分裂……か……</color>+<color=#00CCFF>……もう……私のメンタルには戻って来ないのよね？</color>
+NytoIsomer(3)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:あなたのメンタルは傘ウィルスの影響によって変化した、//nこれは抗いようのない事実よ。+すべては不可逆なの、たとえ私がこの体に宿ったとしても、//nあなたとリンクしないことには意識を保てない。+この体が壊れたら、結局はあなたの中へと戻る事になる。//nだから、その可能性は否定しないわ。
 NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>……</color>
-NytoIsomer(3)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:不过有身体的情况会让我更自在一些，我不会选择改变现状，希望我说的话能让你也能更自在一些。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>你的语气和态度，似乎和刚才又不一样了。</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:是吗？
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>不知道是不是我的错觉，你比以前……更加温和了。</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:那些融合在一起的心智，我阅读了她们的记忆，就和我当初被你影响一样。+我在试图理解她们，她们也在试图理解我，我在和她们一起慢慢成为了“我们”。+然后，我明白了……她们都是温柔的孩子，所以也许我也因此而改变了吧。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>这就是融合？所以你的意思是，现在的你已经……</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:是的，我已经成为了许多意识的集合体了。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>那些异构体……也在你的心智中么？你不会排斥那些意识？</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:为什么要排斥她们？+她们和我在一起让我感到温暖，作为那个时候的约定，作为使用这具身体的代价，我实现了她们的愿望，我们现在共生了。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>实现了她们的愿望？</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:离开这座孤城的愿望……和不再被遗忘承受孤独的愿望。+我们已经是一体，她们的愿望就是我的愿望，就如当初我也曾帮助你实现你的愿望一样。
-NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>后半句话我可一点都没有认同感。</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:还说我，你也已经变得和以前不一样了。+我能感觉到你的心智放松了下来……+是意识到自己完成了应尽的责任，还是曾经无法摆脱的负罪感终于离开了你？
-NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>啧，我忘了你还在我的心智中了。</color>+<color=#00CCFF>……我只是会去做我应该要做的事，哪怕是有一点点的改变，也会让人感到欣慰。</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:你曾经说过，要帮助因为你而走向悲惨命运的一切。
-NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>……是的。</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:那我们的目的是一致的，至少是暂时一致的。+你知道吗？格里芬要去的那个潜艇基地，在那些异构体的记忆中 ，她们就是从那里被送到塔林的。
-NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>什么？！</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:虽然我很想把这部分记忆同步给你，不过……+似乎有人想和我聊聊天。
-NytoIsomer(4)<Speaker></Speaker>||:随即OGAS关闭了通讯。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:用枪指着我的那位……+我劝你最好还是不要开枪，因为按照你的作战风格可是会把列车弄坏的……那时候，你们的指挥官可是会生气的。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_stage11</BGM>:哈哈哈哈！果然是你！+妮莫金！我就觉得周围总有什么让我浑身不适！
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:根本没听进去吗？+竟然能通过目测找到我，只能说真不愧是AR小队的突击手。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:就算说我好话也没用！还记得我曾经说过的话吗？
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:……我搜索出你说的话了，不过我建议你不要这么做。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:是吗？好吧。+也许我也该反省下自己——才怪呢！+“再见面的时候，我一定要把你撕碎！”
-()||<SE2>Gunfight</SE2>:SOP2作出了冲击姿势，一边急速向OGAS靠近一边毫无犹豫地朝她扫射了起来。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:……就这么开枪了啊。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:哈哈哈哈哈——
-()||<SE2>Gunfight</SE2>:SOP2的子弹狂暴地扫向OGAS，金属碰撞的火花在阴影中格外刺眼。
-NytoIsomer(3)<Speaker></Speaker>||:OGAS无奈地躲避着SOP2的攻击，像是察觉到OGAS的劣势后，SOP2的笑容更甚。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<黑屏1>:哈哈哈哈！你之前不是很嚣张吗？+现在连还手的勇气都没有了么！
+NytoIsomer(3)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:ただ身体があると、より自在に感じるわ。今の状況を変えるつもりはないの。//nこの言葉によって、あなたにも自由を感じてもらえたら嬉しいんだけど。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>あなたの口ぶりと態度、なんだか変わった。</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:そうかしら？
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>私の錯覚かもしれないけど、前よりも……優しくなった気がする。</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:融合したメンタルたち、彼女たちの記憶を読み取ったわ、//n当初あなたから影響を受けたのと同様に。+私、彼女たちを理解しようとしてるの、彼女たちも私を解ろうとしている。//n私と彼女たちは、少しずつ「私たち」になりつつあるわ。+そして、知ったの……みんな優しい子よ、そのせいで私も変わったのかもね。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>それが融合？つまり、あなたはもう……</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:ええ、多くの意識の集合体となった。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>あの異性体たち……彼女たちもあなたの中にいるの？排除しようとは思わないの？</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:どうして排除するの？+彼女たちは温もりを与えてくれる。//nあの時の約束よ、この体を使う代価として私は彼女たちの願いを叶えた。//n私たちは共生しているの。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>彼女たちの願いを叶えた？</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:この寂れた都市を離れ……忘れ去られる孤独から救われたい。+私たちは一体となった、彼女たちの願いは私の願い。//nあの時、私があなたの願いを叶えてあげたように。
+NytoIsomer(4);M4A1Mod(0)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>後ろ半分には、つゆほども共感できないわね。</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:あなただって、前とはだいぶ違うわ。+あなたのメンタルが安らいでいるのが分かる……+尽くすべき責任を果たせたから？//nそれとも、纏わりついていた罪悪感からやっと脱け出せたから？
+NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>チッ……忘れてたわ、あなたがまだ私のメンタルにいるってこと。</color>+<color=#00CCFF>……私は私のやるべき事をするだけ。たとえそれが些細な変化だったとしても、私にとっては十分よ。</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:前に言っていたわね、//n自分のせいで悲惨な運命を辿る全てを助けたいと。
+NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||:<color=#00CCFF>……ええ。</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:それなら私たちの目的は一致する、少なくとも今はね。+知ってた？グリフィンが向かおうとしている潜水艦基地、//n異性体の記憶によれば、彼女たちはそこからタリンへと送られたらしいわ。
+NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>なんですって！？</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:この部分の記憶をあなたに共有したいけど……+ごめんなさい、お客様がいらしたみたい。
+NytoIsomer(4)<Speaker></Speaker>||:そう言うと、OGASは通信を切った。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:こちらに照準を向けている方……+発砲はお勧めしないわ。//nあなたの戦闘スタイルじゃ、この列車を破壊しかねないもの……//nそうなったら、あなたの指揮官が黙っていないわよ。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_stage11</BGM>:アハハハ！やっぱりお前か！+ニモゲン！どうりで嫌な気配がすると思った！
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:聞いていないの？+肉眼で私を見つけ出すなんて、さすがはAR小隊の突撃隊員ね。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:下手に出たってムダだよ！わたしの言ったこと覚える？
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:……検索できたわ、やめておいたほうが良いと思うけど。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:あ、そう思う？オッケー！+やっぱ、わたしも反省するべきだよね――って、するかバーカ！+「次に会ったら、ゼッタイお前を引きちぎってやる！」
+()||<SE2>Gunfight</SE2>:SOP IIは突撃姿勢をとり、OGASに素早く近づきながら、//n彼女に向かって躊躇いもなく掃射し始めた。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:……本当に撃ってきたわ。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:アーハハハハ！！
+()||<SE2>Gunfight</SE2>:SOP IIにより放たれた弾雨が、OGASへと荒々しく降り注がれる。//n金属の衝突により生じた火花が、影の中ではひときわ眩しく感じられた。
+NytoIsomer(3)<Speaker></Speaker>||:OGASは仕方なさげにSOP IIの攻撃を躱した。//n相手が劣勢であるのを察すると、SOP IIは大いに笑った。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<黑屏1>:アハハハ！この前は散々イキがってたじゃんか！+どうした、反撃する勇気もないのか？
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……
-()<Speaker>少女的声音</Speaker>||<黑屏1><黑屏2>:这是父亲大人送给我的第一件礼物，也是最后一件……
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<黑屏2><BIN>207</BIN><Night>:就是现在！
-()||:SOP2抓住OGAS一瞬间的分神，一边射击一边助力跑了几步跃向空中。
+()<Speaker>少女の声</Speaker>||<黑屏1><黑屏2>:これはお父様に頂いた最初の、そして最後の贈り物……
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<黑屏2><BIN>207</BIN><Night>:今だ！
+()||:SOP IIはOGASの一瞬のスキを突き、//n射撃しつつ助走をつけて宙へと飛び上がった。
 NytoIsomer(4)<Speaker>OGAS</Speaker>||:……
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM>:——咦？
-()||:SOP2保持着跳跃的姿势，直直地摔倒在车顶上。
-NytoIsomer(4)<Speaker></Speaker>||:OGAS看了看被打出了弹孔的裙子，轻轻地叹了口气。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:这是她所重视的寄托，可不能因为你的胡闹而被夺走。
-NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>怎么了？！我为什么听到枪声！</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:我有时候觉得AR小队并不那么精锐。
-NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>什么？</color>
-NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:没什么，我这边的闹剧已经平息了，接下来就看你——
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:报告指挥官，我们到达车顶了。+呜哇——45姐你快看！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:我已经看到了。
-()||<SE1>AVG_weapon_reload</SE1>:45已经拉上了枪膛。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:喂——把手举起来，趴在地上。+不然你那漂亮的裙子可能要和你一样都是弹孔了。
-()||:OGAS无奈地举起双手。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:真是够麻烦的……我并不想和你们战斗。
-()||:9悄悄向45身边挪了两步。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:诶？那边那个不是SOP2吗，她被干掉了？
-UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:只能说她和之前人形不能行动的状况一致。+那个是……塔林的异构体？
-UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:这个模样也有可能是涅托……现在怎么办，要开枪吗，45姐？
-UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:如果真的是涅托，在这个距离交手我们没太多胜算。+联系指挥官，派更多的人形过来……
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:现在，先让我来拖住它。
-()||<SE1>AVG_tele_connect</SE1>:滴滴——
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:指挥官居然先联系我们了？
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>404小队，刚才接到M4的联系，车顶上的人形单位不是敌人，不要开火……将她带到临时指挥室里来。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:谨慎一些，我们还不能确定对方是可以沟通的对象。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>我明白，让她跟着你们下来，她会服从的。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:404收到，另外还有AR小队的成员在车顶上，似乎刚才的交火就是她干的。+现在正以一个奇怪的姿势靠在地上，我建议你追加一些费用让我们把她带下来。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>……</color>+<color=#00CCFF>把她一起带下来吧。</color>
-UMP45Mod(0)<Speaker></Speaker>||:45结束了通讯，向9打了个手势示意她继续保持警戒。+然后45放下了枪，慢慢走近OGAS。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:我猜，你已经不准备朝我开枪了。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:是的，你很幸运地捡回了一条命。+因为我们的指挥官要见你。+对了，顺便背上你打倒的那位AR小队队员，跟我一起下来。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM>:――へ？
+()||:SOP IIは飛び上がった姿勢のまま、列車屋上に落下した。
+NytoIsomer(4)<Speaker></Speaker>||:OGASは弾痕の残ったスカートを見て、小さく溜息をついた。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:これは彼女の大切な物なの、あなたのおふざけで失うわけにはいかないわ。
+NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>どうしたの！？なぜ銃声が！？</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:AR小隊も精鋭ばかりとは言い難いわね。
+NytoIsomer(4);M4A1Mod(4)<Speaker>M4A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>え？</color>
+NytoIsomer(4)<Speaker>OGAS</Speaker>;M4A1Mod(0)<通讯框>||:なんでも。こちらのハプニングは解決したわ、後はあなたの――
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:指揮官へ報告、列車屋上に到達したよ。+って、うわぁ――！45姉、あれ見て！
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:もう見えてる。
+()||<SE1>AVG_weapon_reload</SE1>:45はコッキングレバーを叩いて初弾を装填した。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:ほら――手を挙げて、床に伏せなさい。+でないとその綺麗なスカートも、あなたと一緒にハチの巣になるわよ。
+()||:OGASは仕方なく両手を挙げた。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:まったく、面倒ね……あなた達と戦うつもりはないの。
+()||:9は45の方へ歩み寄った。
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:あれっ？あそこに倒れてるの、SOP IIじゃない？やられちゃったの？
+UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:この前の、人形が行動不能に陥った状況と一致するわ。+コイツ……タリンの異性体？
+UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:もしかしたらネイトかもよ……45姉、どうする？戦う？
+UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:もし本当にネイトなら、この距離で戦っても勝ち目はないわ。+指揮官に連絡して、応援を要請しなさい……
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:今は、私がコイツを引き付ける。
+()||<SE1>AVG_tele_connect</SE1>:（着信音）
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:指揮官の方から先に連絡が？
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>404小隊、先ほどM4から連絡をもらった。列車屋上にいる人形ユニットは敵ではない、発砲はするな……彼女を司令室へ連れて来るんだ。</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:油断しないで、まだ話の通じる相手かどうかわからない。
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>わかってる。君たちと一緒に来るよう伝えてくれ、承諾するはずだよ。</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:404了解。それと、AR小隊のメンバーが屋上にいるわ。//nさっきの銃声は彼女の仕業みたいね。+変なポーズで地面に倒れてる、追加料金を払ってくれれば下に運ぶわよ。
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>……</color>+<color=#00CCFF>一緒に連れてきてくれ。</color>
+UMP45Mod(0)<Speaker></Speaker>||:45は通信を切った。9に警戒を維持するよう指示を出す。+やがて45は銃を下げ、ゆっくりとOGASに近づいた。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:私に発砲する気はないみたい。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:ええ、命拾いしたわね。+私たちの指揮官があなたに会いたいそうよ。+ついてきて。//nそうだ、ついでにそこで寝ているAR小隊の子も拾ってきてね。
 NytoIsomer(4)<Speaker>OGAS</Speaker>||<黑屏1>:……
-()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><BGM>BGM_Room</BGM>:……列车指挥室。
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:所以指挥官……事情就是这样。+在之前的作战中，OGAS曾协助过我，也协助过格里芬。+塔林隔离墙的大门就是在她的帮助下的打开的，所以我判断至少目前她不是我们的敌人。
-AR15Mod(0)<Speaker>AR15</Speaker>||:……不是敌人吗？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:话说回来，SOP2去哪了？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:你们的SOP2正在扮演雕像呢。
-()||:在AR小队还在讨论时，45推门进来，而OGAS也跟着进入了指挥室……以及在OGAS背上的SOP2。+在场的人形立即下意识地将手指扣向了扳机，紧张地盯着OGAS的一举一动。+但当9接过SOP2，轻轻放到指挥室的角落后，气氛有所缓和。+不过，这也让大家露出了困惑的表情。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:好了指挥官，我们的任务完成了，那就不打扰大家叙旧了。+我们还得赶紧把这台破车给维修好。
-UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:这就走了吗？好吧……
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:指挥官拜拜~
-()<Speaker>指挥官</Speaker>||:辛苦你们了。
-()||:45和9离开了指挥室。+大家围着一个圈看着无法动弹的SOP2。
-AR15Mod(0)<Speaker>AR15</Speaker>||<BGM>BGM_Empty</BGM>:这个，是什么鬼姿势？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<BGM>m_avg_casual</BGM>:我好像在以前信息库里哪个电子游戏里看到过，好像叫马什么奥的。
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:这是怎么回事？OGAS。
-M4A1Mod(4);NytoIsomer(4)<Speaker>OGAS</Speaker>||:她在看到我后二话不说就直接开火了，为了将损失降到最低，我中止了她的行动。
-M4A1Mod(4)<Speaker></Speaker>;NytoIsomer(4)||:M4瞪了一眼OGAS。
-M4A1Mod(4)<Speaker>M4A1</Speaker>;NytoIsomer(4)||:那现在快给我解除你的中止。
-M4A1Mod(4);NytoIsomer(4)<Speaker>OGAS</Speaker>||:我做不到。
-M4A1Mod(4)<Speaker>M4A1</Speaker>;NytoIsomer(4)||:为什么？
-M4A1Mod(4);NytoIsomer(4)<Speaker>OGAS</Speaker>||:我无法读取到她的心智，所以只能用大量的数据阻塞了她的运算，她现在是宕机状态。+她的攻性防壁对OGAS格式的信息流有很强的排斥力，应该是开发她的人专门进行过设置的。+这也是在原本的AR小队中，只有她没有感染伞病毒的原因吧。
-()<Speaker>指挥官</Speaker>||:听起来你似乎对AR小队非常了解。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:格里芬的指挥官，失礼了。+很高兴见到您。+虽然我没有亲自和您一起作战，但是在配合M4时我已经领教过您之前出色的指挥了，往后的作战我也需要您的帮助，希望我们以后能愉快地合作。
-()<Speaker>指挥官</Speaker>||:是M4为你做了保证，我才愿意和你进行对话，我们可还没有建立信任到可以互帮互助的地步。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:当然，我了解您的经历。+我知道您不可能一见面就相信我，不过我有很多信息可以和您分享。+想必届时您就会理解到现在我们需要互助的处境了。
-()<Speaker>指挥官</Speaker>||:处境什么的先不谈，先把SOP2恢复过来表现你的诚意吧。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||:看来我又得复述一遍了。+因为SOP2的攻性防壁排斥性非常强，而刚才阻塞她的信息又有点太多了。+为了保护她的心智，她的自我防卫机制强行停止了她的运行。+只要从内部解除SOP2的自我防卫机制，SOP2就会恢复行动。+这个事情如果我来做会对她的防卫系统造成巨大的破坏，而AR小队的成员进入友方心智可以说轻而易举，由她们处理才是最佳的方式。+您明白了吗？所以我回答的是“我做不到”，这也是为了她而这么考虑的。
-()<Speaker>指挥官</Speaker>||:让人信服的谎话总是真假各掺一半，所以我才会再次让你解释原因。+RO，你的分析怎么样了？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:……和我的诊断答案一样。+SOP2的心智设置和我比较类似，应该是帕斯卡小姐做的较为新式的设计，对伞病毒的抗性也更高。+由我们去恢复设置比较安全。
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:这就是SOP2一直不曾听到过声音的原因么……因为早就设计好了。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:至少好消息是帕斯卡小姐已经找到抵抗伞病毒的手段了，之后联系的时候再问一下她吧。+现在先把SOP2恢复过来。
-AR15Mod(0)<Speaker>AR15</Speaker>||:真希望她能早点把这个技术研究出来。
-()<Speaker>指挥官</Speaker>||:恢复她需要多少时间？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:对外面来说应该只是一瞬间而已，不过我需要队长来为我提供运算支持，毕竟我也不清楚SOP2的攻性防壁性能有多强。
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:没问题，我来协助你。
-()<Speaker>指挥官</Speaker>||:看来暂时也没有别的方法了。+OGAS，我们要等她恢复过来，然后才能谈其他的。
-NytoIsomer(4)<Speaker>OGAS</Speaker>||<黑点1>:好吧……您果然和普通的人类不太一样。
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><BGM>BGM_Room</BGM>:……列車内司令室。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:……というわけです、指揮官。+これまでの戦いでOGASは私を、ひいてはグリフィンを助けてきました。+タリンで隔離壁の門を開くことができたのは彼女のおかげです。//n彼女は、少なくとも今は敵ではないと、私は判断しました。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:……敵ではない？
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:そういえば、SOP IIはどこに？
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:あなたたちのSOP IIなら、オブジェのフリをしてるわよ。
+()||:AR小隊が討論している最中に45はやってきた。//nOGASと、その背後に背負われているSOP IIを引き連れて。+その場にいる人形たち全員が、反射的にトリガーへと指をかけ、//nOGASの一挙一動を凝視する。+9が彼女からSOP IIを引き受け、司令室の隅に横たえると、//n緊迫した雰囲気は若干和らいだかのように思えた。+しかし、今度は全員の顔に困惑の表情が浮かぶ。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:OK、指揮官、こちらの任務は終わったわ。思い出話の邪魔はしないから。+さっさとこのオンボロ列車を直してしまわないと。
+UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:もう行くの？わかった……
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:バイバ～イ、指揮官～
+()<Speaker>指揮官</Speaker>||:お疲れ様。
+()||:45と9が司令室を離れた。+その場の全員が動けなくなっているSOP IIを取り囲んでいる。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||<BGM>BGM_Empty</BGM>:ていうか、何なのこのポーズ？
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<BGM>m_avg_casual</BGM>:以前、データベースにあったゲームで見たことがあります。//n確か、スーパーマ……なんちゃらっていうタイトルの。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:どういうことなの、OGAS？
+M4A1Mod(4);NytoIsomer(4)<Speaker>OGAS</Speaker>||:私を見るなり発砲してきたから、被害を最小限に抑えるために、//n彼女の行動をキャンセルしたの。
+M4A1Mod(4)<Speaker></Speaker>;NytoIsomer(4)||:M4はOGASを睨んだ。
+M4A1Mod(4)<Speaker>M4A1</Speaker>;NytoIsomer(4)||:ならさっさとキャンセルを解除して。
+M4A1Mod(4);NytoIsomer(4)<Speaker>OGAS</Speaker>||:できないわ。
+M4A1Mod(4)<Speaker>M4A1</Speaker>;NytoIsomer(4)||:どうして？
+M4A1Mod(4);NytoIsomer(4)<Speaker>OGAS</Speaker>||:私では彼女のメンタルを読み取れない、//nだから大量のデータを流し込んで彼女の演算を塞き止めたの。//n今はフリーズ状態に陥っているわ。+彼女の攻性防壁は、OGAS形式のデータフローに対して//n強い排他性を持っている。彼女の開発者が特別にそうプログラミングしたのね。+これが初期のAR小隊で唯一、彼女だけが傘ウィルスに感染しなかった理由でしょう。
+()<Speaker>指揮官</Speaker>||:AR小隊に詳しいようだね？
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:これは失礼、グリフィンの指揮官。+お会いできて嬉しいわ。+あなたと共闘したことはないけれど、その非凡な指揮能力については、//nM4を通じてかねがね伺っているわ。//n今後もあなたの力をお借りしたいの、どうぞよろしく頼むわね。
+()<Speaker>指揮官</Speaker>||:君が私と会話できるのは、M4の保証があってこそだ。//nお互いを助け合うような信頼関係には、程遠いと思うけど。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:もちろん、あなたのことは理解しているわ。+一度会っただけで信用してもらえるとは思っていない。//nでも私は多くの情報をあなたに提供できる。+その時になれば、協力し合う必要性に気づいて頂けるはずよ。
+()<Speaker>指揮官</Speaker>||:それよりも、まずはSOP IIを元に戻すことで、誠意を見せてはどうかな？
+NytoIsomer(4)<Speaker>OGAS</Speaker>||:もう一度説明しなくてはならないようね。+SOP IIの攻性防壁は強力な排他性を有するわ。//nそれに彼女に流し入れたデータの量は膨大よ。+メンタルを保護するために、//n彼女は自己防衛プログラムによって機能停止させられているの。+内部から自己防衛プログラムを解除すれば、SOP IIは回復するわ。+ただし私がそれを行うと、//n彼女の防衛システムに深刻な損傷をもたらしかねない。+でもAR小隊のメンバーなら、彼女のメンタルに入るのは容易いわ。//n彼女たちに処理させるのが最も適切と言えるわね。+お分かり頂けたかしら？つまり、私の回答は「ノー」よ。//nこれは彼女のためでもあるの。
+()<Speaker>指揮官</Speaker>||:もっともらしい嘘は往々にして真偽半々だ。//nだからもう一度説明してもらったのさ。+RO、君はどう分析する？
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:……わたしの診断結果と同じです。+SOP IIのメンタルプログラムはわたしと類似しています。//nおそらくペルシカさんの比較的新しい設計によるものでしょう。//nよって傘ウィルスへの抵抗力も高い。+わたしたちで対処するのが最も安全かと思われます。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:SOP IIに声が聞こえなかった原因はこれだったのね……//nあらかじめそう設計されていたんだわ。
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:少なくとも、ペルシカさんが傘ウィルスに対抗しうる手段を得ていたのは、//n喜ばしいニュースですね。今度連絡した時に詳しく聞いてみましょう。+まずはSOP IIを修復しなくては。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:出来る事なら、もっと早く開発して欲しかったわね。
+()<Speaker>指揮官</Speaker>||:修復にどれくらいかかる？
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:外界にとってはほんの一瞬でしょう。//nですが、隊長の演算サポートが必要不可欠です。//nSOP IIの攻性防壁がどれほどのものなのか、わたしにもわかりませんから。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:了解、サポートするわ。
+()<Speaker>指揮官</Speaker>||:他に方法はなさそうだね。+OGAS、まずは彼女を回復させよう、話はそれからだ。
+NytoIsomer(4)<Speaker>OGAS</Speaker>||<黑点1>:いいわ……やっぱりあなたは、他の人間とは違うのね。
 ()||<黑点2><BIN>10</BIN>:
