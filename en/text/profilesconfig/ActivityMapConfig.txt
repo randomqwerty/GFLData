@@ -8,6 +8,8 @@
 //MissionSelectionTex|missionselect_Reversible|2
 //2019冬活配置：
 //MissionSelectionTex|missionselect_PolarizedLight|2
+//2019DJmax复刻配置：
+MissionSelectionTex|missionselect_GloryDay|0
 //2019圣诞配置：
 //MissionSelectionTex|missionselect_Xmas|1
 //2020全境封锁1联动配置：
@@ -15,7 +17,7 @@
 //2020白情配置：
 //MissionSelectionTex|missionselect_WhiteDay2020|2
 //2020泳装复刻配置：
-MissionSelectionTex|missionSelect_Bikini_2020|1
+//MissionSelectionTex|missionSelect_Bikini_2020|1
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -79,7 +81,7 @@ OPSLeftBGNormalActivity|-43|TheDivision_Left
 //OPSNoticeNormalActivity|04|Artic_Notice
 //OPSNoticeNormalActivity|-2|Artic_Notice
 //OPSNoticeNormalActivity|-16|SingNotice
-//OPSNoticeNormalActivity|-19|GloryDay_Notic
+OPSNoticeNormalActivity|-19|GloryDay_Notic
 //OPSNoticeNormalActivity|-24|Continuum_Notice
 //OPSNoticeNormalActivity|-31|Isomer_Notice
 //OPSNoticeNormalActivity|-32|VA11_Notice
@@ -110,14 +112,14 @@ OPSTimeNormalActivity|-43|Reversible_Time
 //OPSMainDeco|MainDeco2
 
 //跳转(0跳转商城1跳转主界面红包公用)
-//OPSGoto|GloryDay_GotoMall|0
+OPSGoto|GloryDay_GotoMall|0
 //OPSGoto|VA11_GotoMall|0
 //OPSGoto|Hallowmas_2019_GotoMall
 //OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
 //OPSGoto|GunslingerGirl_GotoMall|0
-OPSGoto|Bikini_2020_GotoMall|0
+//OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|TheDivisoin_GotoMall|0
 
 //关卡面板动态位置
@@ -276,10 +278,10 @@ OPSCampaignTitleButton|-43|true|TheDivision_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-10|52|20|Dive_Tip|0
 //OPSCampaignTitleButtonTip|-11|53|20|Dive_Tip|0
 //OPSCampaignTitleButtonTip|-12|54|20|Dive_Tip|0
-//OPSCampaignTitleButtonTip|-19|100009|60|Glory_TIP|1
-//OPSCampaignTitleButtonTip|-20|100009|60|Glory_TIP|1
-//OPSCampaignTitleButtonTip|-21|100009|60|Glory_TIP|1
-//OPSCampaignTitleButtonTip|-22|100009|60|Glory_TIP|1
+OPSCampaignTitleButtonTip|-19|900036|60|Glory_TIP|1
+OPSCampaignTitleButtonTip|-20|900036|60|Glory_TIP|1
+OPSCampaignTitleButtonTip|-21|900036|60|Glory_TIP|1
+OPSCampaignTitleButtonTip|-22|900036|60|Glory_TIP|1
 //OPSCampaignTitleButtonTip|-24|153|10|Turbulance_Tip|0
 //OPSCampaignTitleButtonTip|-25|153|10|Turbulance_Tip|0
 //OPSCampaignTitleButtonTip|-26|153|10|Turbulance_Tip|0
@@ -293,8 +295,8 @@ OPSCampaignTitleButton|-43|true|TheDivision_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-36|9004|60|PolarizedLight_Tip|1
 //OPSCampaignTitleButtonTip|-37|100083|60|WhiteDay_2020_Tip|1
 //OPSCampaignTitleButtonTip|-38|100052|60|GunslingerGirl_MissionPanelTip|1
-OPSCampaignTitleButtonTip|-40|100094|60|Bikini_2020_Tip|1
-OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
+//OPSCampaignTitleButtonTip|-40|100094|60|Bikini_2020_Tip|1
+//OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 
 //消耗道具用
 OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
