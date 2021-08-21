@@ -1,46 +1,46 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>219</BIN><黑屏2><BGM>10051</BGM>:……另一边。
-()||:岸防炮的机构正在全速运转着，机械的噪音甚至压过了外面的枪声。
-()||:M4正在焦急地调试着火炮的控制系统，试图用最短的时间控制住岸防炮的运作。+入侵已经成功，她立刻试图和指挥官建立通讯，然而频道里只有噪音回应着她。
-()<Speaker>M4A1</Speaker>||:丹德莱！听得到吗！现在情况如何？
-NytoIsomer(4)<Speaker>丹德莱</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>露尼西亚，指挥官还活着，但是隔离墙已经无法作为防线使用了。</color>+<color=#00CCFF>格里芬现在情况危急，你们做好射击的准备了么？</color>
-()<Speaker>M4A1</Speaker>||:随时可以！装弹情况如何了？
-AR15Mod(0)<Speaker>AR15</Speaker><通讯框>||:<color=#00CCFF>还有15秒完成！</color>
-()<Speaker>M4A1</Speaker>||:指挥官她们现在有什么计划？
-NytoIsomer(4)<Speaker>丹德莱</Speaker><通讯框>||:<color=#00CCFF>格里芬的梯队损失非常惨重，她们现在正在往404小队已经探明的基地内区域撤离。</color>+<color=#00CCFF>非常需要你们的火力掩护。</color>
-())<Speaker>M4A1</Speaker>||:明白了，我们会尽全力掩护她们！
-AR15Mod(0)<Speaker>AR15</Speaker><通讯框>||:<color=#00CCFF>M4！填装完成了！</color>
-()<Speaker>M4A1</Speaker>||:准备射击！坐标还没好么？
-NytoIsomer(4)<Speaker>丹德莱</Speaker><通讯框>||:<color=#00CCFF>我已经将忤逆小队标记的列车位置发送过来了。</color>
-()<Speaker>M4A1</Speaker>||:收到！+开始进行射击！
-()||:巨大的岸防炮慢慢调准角度……
-()||<SE1>Battlefield</SE1><黑屏1>:一声巨大的炮响盖过了所有的声音，炮口的烈风甚至冲击到了正在进攻的士兵身上。
-()||<BIN>9</BIN><黑屏2><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:士兵借着扬起的沙尘又一次发动了冲击，然而冲击一次又一次被守卫的AR小队击退。
-()<Speaker>无线电</Speaker>||<SE2>AVG_whitenoise</SE2>:<color=#00CCFF>石英呼叫大地！</color>+<color=#00CCFF>敌方正在使用岸防炮进行射击，请立即规避！</color>+<color=#00CCFF>重复一遍，请立即规避！</color>
-()<Speaker>叶戈尔</Speaker>||:怎么了！？
-()<Speaker>副官</Speaker>||:敌方控制住了岸防炮，正在朝我们射——
-()||<SE1>Explode</SE1><BGM>10106</BGM><黑屏1>:军官的话音未落，岸防炮发射的炮弹就落到了装甲列车的周围。+炮弹的巨大冲击甚至让装甲列车都左右摇摆起来。+叶戈尔被震动砸到了墙壁上，放在指挥台上的弹药和文件散落了一地。
-NPC-Yegor(4)<Speaker>叶戈尔</Speaker>||<BIN>202</BIN><黑屏2>:该死！+让列车启动起来！这里配置的护盾不可能挡得住这种口径的炮弹！
-NPC-Soldier(0)<Speaker>军官</Speaker>||<黑点1>:是！马上！
-NytoIsomer(4)<Speaker>丹德莱</Speaker><通讯框>||<黑点2><BIN>219</BIN><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>第一发近失，军方的列车开始启动了。</color>
-()<Speaker>M4A1</Speaker>||<黑屏1>:正在进行修正……这样你们就逃不掉了！
-()||<BIN>9</BIN><黑屏2><SE1>Explode</SE1>:军方的装甲列车缓缓启动，很快岸防炮的第二发炮弹呼啸而过，直接击中了最靠后的那辆列车。+列车由于惯性继续朝前行驶着，很快车体内引发了大爆炸，主炮被爆炸掀到了半空，落在地上砸出了一个巨大的泥坑。+车体剧烈地燃烧起来，不断有着火的士兵从列车内挣扎着狂奔而出。
-()<Speaker>副官</Speaker>||:四号车被击毁了！
-()<Speaker>叶戈尔</Speaker>||<黑屏1>:啧！全速朝隔离墙前进，撞开格里芬的那坨废墟，所有部队发动强攻！+不惜一切代价歼灭格里芬！+大地呼叫石英，必须立刻摧毁岸防炮！+重复一遍！必须立刻摧毁岸防炮！
-()<Speaker>M4A1</Speaker>||<BIN>219</BIN><黑屏2>:现在情况怎么样？
-NytoIsomer(4)<Speaker>丹德莱</Speaker><通讯框>||:<color=#00CCFF>第二发命中军方装甲列车。</color>
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>我在这里也能看到！</color>+<color=#00CCFF>就像放烟花一样！啪——上天啦！</color>
-AR15Mod(0)<Speaker>AR15</Speaker><通讯框>||:<color=#00CCFF>备弹数还足够，我们还可以继续射击！</color>
-()<Speaker>M4A1</Speaker>||:好，我们继续支援指挥官！+RO，敌方还在试图进攻么？
-RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>很奇怪，步兵的攻势减弱了……</color>+<color=#00CCFF>我有不好的预感……！</color>
-()||<SE1>Explode</SE1>:RO话音刚落，人形们就感到头顶传来爆炸和震动。
-RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>看来他们觉得无法夺取岸防炮，准备直接摧毁它了！</color>+<color=#00CCFF>我建议我们赶紧离开这里，如果炮身砸落下来说不定这里会一起被摧毁掉！</color>
-()<Speaker>M4A1</Speaker>||:再坚持一会！+我们每多发射一枚炮弹，指挥官那边就多减少一分压力！
-AR15Mod(0)<Speaker>AR15</Speaker><通讯框>||:<color=#00CCFF>我也同意，这座岸防炮看起来就很坚固，还能再撑一会！</color>
-NytoIsomer(4)<Speaker>丹德莱</Speaker><通讯框>||:<color=#00CCFF>军方正在发动强攻。</color>+<color=#00CCFF>先头部队已经越过隔离墙，和格里芬残余的梯队距离越来越近了。</color>
-()<Speaker>M4A1</Speaker>||:调整火炮角度，我们得为指挥官争取撤退的机会！
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>太烦人了！简直就像头发上的口香糖一样，怎么扯都扯不掉啊！</color>
-()<Speaker>M4A1</Speaker>||:RO，你带着SOP2确保进入基地的路线！
-RO635(0)<Speaker>RO635</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>明白，SOP2跟我来！</color>
-()<Speaker>M4A1</Speaker>||<黑屏2><BIN>9</BIN>:15，我们再坚持一下！+再争取发射一轮！
-()<Speaker>AR15</Speaker>||<黑屏1>:<color=#00CCFF>没问题！</color>
+()<Speaker></Speaker>||<BIN>219</BIN><黑屏2><BGM>10051</BGM>:……もう一方では。
+()||:沿岸砲が全速力で稼働している。機械の騒音は外の銃声をも圧倒した。
+()||:M4は最短時間で沿岸砲を制御できるよう、//n急いでコントロールシステムを調整している。+侵入に成功し、指揮官との通信を試みるが、//n返ってくるのは騒音だけだ。
+()<Speaker>M4A1</Speaker>||:ダンデライオン！聞こえる！？状況は？
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>ルニシア、指揮官は生きているわ。でも隔離壁はもはや防衛線としては使えない。</color>+<color=#00CCFF>グリフィンは一刻を争う状態よ。射撃準備は整った？</color>
+()<Speaker>M4A1</Speaker>||:いつでもいけるわ！装弾状況は？
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>あと15秒！</color>
+()<Speaker>M4A1</Speaker>||:指揮官たちに何かプランはあるの？
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker><通讯框>||:<color=#00CCFF>グリフィン部隊の損害は甚大よ。彼女たちは現在、404小隊のルートを辿って基地内部へ撤退してるわ。</color>+<color=#00CCFF>あなたたちの火力支援が必要なの。</color>
+())<Speaker>M4A1</Speaker>||:了解、全力で援護する！
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>M4！充填完了よ！</color>
+()<Speaker>M4A1</Speaker>||:射撃用意！座標はまだ？
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker><通讯框>||:<color=#00CCFF>反逆小隊がマークした列車の座標を送ったわ。</color>
+()<Speaker>M4A1</Speaker>||:了解！+射撃開始！
+()||:巨大な沿岸砲は、ゆっくりと角度を調整し始める……
+()||<SE1>Battlefield</SE1><黑屏1>:大砲の轟音が、全ての音をかき消した。//n砲口の烈風による衝撃は、進攻中の兵士にまで及んだ。
+()||<BIN>9</BIN><黑屏2><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:兵士が巻き上がる砂埃に乗じて突撃を開始するも、//nAR小隊により幾度となく撃退される。
+()<Speaker>無線からの声</Speaker>||<SE2>AVG_whitenoise</SE2>:<color=#00CCFF>アース、こちらクオーツ！</color>+<color=#00CCFF>敵が沿岸砲による攻撃を開始、即刻回避せよ！</color>+<color=#00CCFF>繰り返す！即刻回避せよ！</color>
+()<Speaker>エゴール</Speaker>||:何があった！？
+()<Speaker>副官</Speaker>||:敵が沿岸砲を制圧し、現在こちらへ射――
+()||<SE1>Explode</SE1><BGM>10106</BGM><黑屏1>:副官がそう言い終わらないうちに、沿岸砲から発射された砲弾が、//n装甲車付近に落下した。+着弾の衝撃により、装甲車両が左右に大きく揺れた。+エゴールは振動によって壁に叩きつけられ、//n司令台にあった弾薬や書類が床へと散らばった。
+NPC-Yegor(4)<Speaker>エゴール</Speaker>||<BIN>202</BIN><黑屏2>:畜生！+車両を起動しろ！ここの盾ではあの口径の爆弾を防ぎきれない！
+NPC-Soldier(0)<Speaker>将校</Speaker>||<黑点1>:はい！すぐに！
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker><通讯框>||<黑点2><BIN>219</BIN><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>外れたわ。正規軍の列車が動き始めた。</color>
+()<Speaker>M4A1</Speaker>||<黑屏1>:今調整してる……これでもう逃げられない！
+()||<BIN>9</BIN><黑屏2><SE1>Explode</SE1>:軍の装甲車両がゆっくりと動き出す。//nすぐに沿岸砲から2発目の砲弾が発射され、//nうなりを上げて列車の最後尾に直撃した。+慣性により走行し続ける車両内部で爆発が起きた。//n主砲はそれによって空中に投げ出され、//n地面へと落下し巨大な泥沼を作った。+車体は大きく燃え上がり、次から次へと兵士たちが車内から飛び出した。
+()<Speaker>副官</Speaker>||:4号車が爆破されました！
+()<Speaker>エゴール</Speaker>||<黑屏1>:チッ！全速力で隔離壁へ向かえ、全部隊強攻せよ！//nグリフィンの廃墟を突破しろ！+どんな対価を払ってでもグリフィンを殲滅する！+クオーツ、こちらアース、今すぐ沿岸砲を破壊しろ！+繰り返す！今すぐ沿岸砲を破壊しろ！
+()<Speaker>M4A1</Speaker>||<BIN>219</BIN><黑屏2>:現在の状況は？
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker><通讯框>||:<color=#00CCFF>2発目が軍の装甲車両に命中したわ。</color>
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>ここからも見えるよ！</color>+<color=#00CCFF>まるで花火みたい！バーンって打ち上がった！</color>
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>砲弾はまだ十分あるわ、このまま射撃可能よ！</color>
+()<Speaker>M4A1</Speaker>||:分かった、このまま指揮官を支援する！+RO、敵はまだ攻撃してきてる？
+RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>変です、歩兵の攻勢が弱まりました……</color>+<color=#00CCFF>嫌な予感がします……！</color>
+()||<SE1>Explode</SE1>:ROがそう言い終えると同時に、//n人形たちは頭上から爆発による振動を感じた。
+RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>沿岸砲の奪回は無理と判断し、破壊するつもりです！</color>+<color=#00CCFF>すぐにここを離れましょう、大砲が落ちればここも崩壊します！</color>
+()<Speaker>M4A1</Speaker>||:持ちこたえて！+一発でも多く撃てば、指揮官への脅威はその分弱まる！
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>賛成よ。この沿岸砲はかなり頑丈そうだし、もう少し持ちこたえられるはず！</color>
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker><通讯框>||:<color=#00CCFF>軍は強攻を始めた。</color>+<color=#00CCFF>先頭部隊はすでに隔離壁を越えたわ。グリフィンの部隊に近づいて行ってる。</color>
+()<Speaker>M4A1</Speaker>||:砲弾の角度を調整して、なんとしてでも指揮官の撤退のチャンスを稼ぐのよ！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>ほんっとムカつく！まるで髪にくっついたガムだね、どう引っ張っても落ちないなんて！</color>
+()<Speaker>M4A1</Speaker>||:RO、SOP IIを連れて基地への進入ルートを確保して！
+RO635(0)<Speaker>RO635</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>了解。SOP II一緒に来て！</color>
+()<Speaker>M4A1</Speaker>||<黑屏2><BIN>9</BIN>:15、もう少し持ちこたえましょう！+せめてあと一発だけでも！
+()<Speaker>ST AR-15</Speaker>||<黑屏1>:<color=#00CCFF>了解よ！</color>
