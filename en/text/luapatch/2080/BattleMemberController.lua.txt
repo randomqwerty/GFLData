@@ -1,0 +1,12 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.BattleMemberController)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterController)
+local PlaySkill = function(self,skill)
+	if skill ~= nil and skill.info ~= nil and skill.info.type == 7 and self.character.commonTarget == nil then
+		if self.character.enemyTeamData:GetCount() > 0 then
+			self.character.mCommonTarget = self.character.enemyTeamData:GetCharacters()[0]
+		end
+	end
+	self:PlaySkill(skill)
+end
+util.hotfix_ex(CS.BattleMemberController,'PlaySkill',PlaySkill)

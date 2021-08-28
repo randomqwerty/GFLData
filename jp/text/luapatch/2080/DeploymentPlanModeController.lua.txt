@@ -1,0 +1,31 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.DeploymentPlanModeController)
+
+local UpdateStatus = function(self)
+	if self.ClickSpotEvent == nil then
+		return;
+	end
+	self:UpdateStatus();
+end
+
+local Init = function(self)
+	if CS.GameData.missionResult ~= nil then
+		if CS.GameData.missionAction == nil then
+			CS.GameData.missionResult = nil;
+		end
+	end
+	self:Init();
+end
+
+local _CancelPlan = function(self)
+	if self.status == CS.DeploymentPlanModeController.PlanStatus.pause then
+		if CS.DeploymentController.Instance ~= nil then
+			CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
+		end
+	end
+	self:_CancelPlan();
+end
+util.hotfix_ex(CS.DeploymentPlanModeController,'UpdateStatus',UpdateStatus)
+util.hotfix_ex(CS.DeploymentPlanModeController,'Init',Init)
+util.hotfix_ex(CS.DeploymentPlanModeController,'_CancelPlan',_CancelPlan)
+

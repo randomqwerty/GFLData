@@ -1,0 +1,13 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.OPSPanelMissionHolder)
+
+local CanShow = function(self)
+	if self.containerId ~= CS.OPSPanelBackGround.currentContainerId then
+		 return false;
+	end
+	return self.CanShow;
+end
+
+util.hotfix_ex(CS.OPSPanelMissionHolder,'get_CanShow',CanShow)
+
+

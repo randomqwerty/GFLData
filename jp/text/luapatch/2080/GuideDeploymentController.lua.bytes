@@ -1,0 +1,103 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.GuideDeploymentController)
+
+
+local CheckAbove = function()
+	local above = CS.GuideDeploymentController.Instance.transform:Find("Img_Cover");
+	if above ~= nil then
+		print("关闭cover")
+		above.gameObject:SetActive(false);
+	end	
+end
+
+local PlayCurrentDelay = function()
+	CS.GuideDeploymentController.PlayCurrentDelay();
+	CS.DeploymentController.AddAction(CheckAbove, 0.8);
+end
+
+local PlayCurrentStep = function()
+	local above = CS.GuideDeploymentController.Instance.transform:Find("Img_Cover");
+	if above ~= nil then
+		above.gameObject:SetActive(true);
+	end
+	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
+	CS.GuideDeploymentController.PlayCurrentStep();
+end
+
+local AfterBattlePlay = function(self,handle)
+	self.finishStephandle = handle;
+	if self.finishStephandle ~= nil then
+		self:finishStephandle();
+		self.finishStephandle = nil;
+	end
+	CS.DeploymentController.Instance:AddAndPlayPerformance(PlayCurrentStep);
+end
+
+local CanTriggerGuide = function(self,guideData,condition,a,b)
+	local hascondition = CS.System.Collections.Generic.List(CS.System.Int32)();
+	for i=0,guideData.guideTriggerDataOr.Count-1 do
+		local orData = guideData.guideTriggerDataOr[i];
+		for j=0,orData.guideTriggerDataAnd.Count-1 do
+			local data = orData.guideTriggerDataAnd[j];
+			if data.trigger == condition then
+				if not hascondition:Contains(i) then
+					hascondition:Add(i);
+				end
+			end
+		end
+	end
+	if hascondition.Count>0 then
+		for i=0,hascondition.Count-1 do
+			local result = true;
+			for j=0,guideData.guideTriggerDataOr[hascondition[i]].guideTriggerDataAnd.Count-1 do
+				local data = guideData.guideTriggerDataOr[hascondition[i]].guideTriggerDataAnd[j];
+				if data.trigger == condition then
+					result = result and self:CanTriggerEvent(data, a, b);
+				else
+					result = result and self:CanTriggerState(data);
+				end
+			end
+			if result then
+				return true;
+			end
+		end
+		return false;
+	end
+	return false;
+end
+
+local CheckTime = function(self)
+	self:CheckTime();
+	if not self.picImage.gameObject.activeInHierarchy and not self.imageDialog.gameObject.activeInHierarchy and not self.guideImagePage.gameObject.activeInHierarchy then
+		self:FinishCurrentStep();
+	end
+end
+
+
+local CheckCurrentGuideStep = function(self)
+
+end
+
+local FinishCurrentStep = function()
+	CS.GuideDeploymentController.Instance:FinishCurrentStep();
+end
+local SelectSpot = function(self,spotid)
+	local spot = CS.DeploymentBackgroundController.Instance.listSpot:GetDataById(spotid);
+	if spot ~= nil and spot.currentHostage ~= nil then
+		print("check")
+		spot.currentHostage.onClickGuideHandle = FinishCurrentStep;
+	end
+	return self:SelectSpot(spotid);
+end
+local SkipCurrentGuidegroup = function(self)
+	self:FinishCurrentGuide();
+	self.btnSkip.onClick:RemoveAllListeners();
+end
+util.hotfix_ex(CS.GuideDeploymentController,'CheckCurrentGuideStep',CheckCurrentGuideStep)
+util.hotfix_ex(CS.GuideDeploymentController,'CheckTime',CheckTime)
+util.hotfix_ex(CS.GuideDeploymentController,'AfterBattlePlay',AfterBattlePlay)
+util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentStep',PlayCurrentStep)
+util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentDelay',PlayCurrentDelay)
+util.hotfix_ex(CS.GuideDeploymentController,'CanTriggerGuide',CanTriggerGuide)
+util.hotfix_ex(CS.GuideDeploymentController,'SelectSpot',SelectSpot)
+util.hotfix_ex(CS.GuideDeploymentController,'SkipCurrentGuidegroup',SkipCurrentGuidegroup)
