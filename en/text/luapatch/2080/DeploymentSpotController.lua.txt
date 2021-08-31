@@ -18,6 +18,14 @@ local UpdateColor = function(self,targetBelong,play)
 		end
 	end
 end
+
+local OnPointerUp = function(self,eventData)
+	if CS.DeploymentController.playAniming then
+		return;
+	end
+	self:OnPointerUp(eventData);
+end
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateCurrentInformation',UpdateCurrentInformation)
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateColor',UpdateColor)
+util.hotfix_ex(CS.DeploymentSpotController,'OnPointerUp',OnPointerUp)
 

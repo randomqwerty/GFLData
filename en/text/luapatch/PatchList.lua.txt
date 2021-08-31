@@ -359,36 +359,45 @@ patch2080={
 "2080/DeploymentEnemyTeamController",	
 "2080/DeploymentTeamController",
 "2080/DeploymentPlanModeController",
-"2080/DeploymentCampaignExplain",					
+"2080/DeploymentCampaignExplain",
+"2080/DeploymentUIController",						
 "2080/OPSPanelController",			
 "2080/OPSPanelMissionContainer",
-"2080/OPSPanelMissionHolder",	
+"2080/OPSPanelMissionHolder",
+"2080/OPSPanelMissionBase",		
 "2080/OPSPanelBackGround",
 "2080/SpecialMissionInfoController",
 "2080/ImageRotateControl",	
 "2080/ParticleScaler",
 "2080/MotherBaseController",	
-"2080/MissionSkillData",		
---"2080/OneClickBuyPackage",
+"2080/MissionSkillData",
+"2080/GameData",	
+"2080/GunData",
+"2080/HomeController",			
+"2080/OneClickBuyPackage",
 "2080/BatchDevelopConfirmBoxController",
 "2080/CutinSceneController",	
 "2080/CreationVisionEffect",
+"2080/SangvisLeaderLabelController",	
 "2080/SangvisFormaionController",
 "2080/MissionSelectionSangvisSimDungeonBoxController",
 "2080/BattleMemberController",
 "2080/Requests",
 "2080/CommonAudioController",
 "2080/TargetTrainGameData",
+"2080/SangvisGunStateBaseInfoController",
+"2080/FactoryController",
+"2080/FactoryDevelopLogListLabelController",
 }
 patch2081={}
 -- va11
 print("load Va11");
-table.insert(patch2081, "collaboration/Va11/AVGController");
-table.insert(patch2081, "collaboration/Va11/Badge");
-table.insert(patch2081, "collaboration/Va11/CafeGunMemoirListController");
-table.insert(patch2081, "collaboration/Va11/DormCafeCustomerController");
-table.insert(patch2081, "collaboration/Va11/DormController");
-table.insert(patch2081, "collaboration/Va11/OPSPanelController");
+--table.insert(patch2081, "collaboration/Va11/AVGController");
+--table.insert(patch2081, "collaboration/Va11/Badge");
+--table.insert(patch2081, "collaboration/Va11/CafeGunMemoirListController");
+--table.insert(patch2081, "collaboration/Va11/DormCafeCustomerController");
+--table.insert(patch2081, "collaboration/Va11/DormController");
+--table.insert(patch2081, "collaboration/Va11/OPSPanelController");
 --table.insert(patch2080, "collaboration/Va11/AVGController");
 --table.insert(patch2080, "collaboration/Va11/Badge");
 --table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");

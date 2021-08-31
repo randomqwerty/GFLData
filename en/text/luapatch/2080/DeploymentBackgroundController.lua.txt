@@ -12,16 +12,18 @@ end
 
 local OnLevelLoaded = function(self)
 	self:OnLevelLoaded();
-	CS.CommonAudioController.PlayUI("UI_Stop");
-	CS.CommonAudioController.PlayBattle("Stop_Battle_loop");
-	CS.CommonAudioController.PlayBattle("AVG_AMB_Rain_Stop");
+	--CS.CommonAudioController.PlayUI("UI_Stop");
+	--CS.CommonAudioController.PlayBattle("Stop_Battle_loop");
+	--CS.CommonAudioController.PlayBattle("AVG_AMB_Rain_Stop");
+	CS.CommonAudioController.StopBattleAudioTriggerEvent(CS.AudioSourceType.SoundSource);
 end
 
 local OnDestroy = function(self)
 	self:OnDestroy();
-	CS.CommonAudioController.PlayUI("UI_Stop");
-	CS.CommonAudioController.PlayBattle("Stop_Battle_loop");
-	CS.CommonAudioController.PlayBattle("AVG_AMB_Rain_Stop");
+	--CS.CommonAudioController.PlayUI("UI_Stop");
+	--CS.CommonAudioController.PlayBattle("Stop_Battle_loop");
+	--CS.CommonAudioController.PlayBattle("AVG_AMB_Rain_Stop");
+	CS.CommonAudioController.StopBattleAudioTriggerEvent(CS.AudioSourceType.SoundSource);
 end
 
 util.hotfix_ex(CS.DeploymentBackgroundController,'Init',Init)

@@ -5,7 +5,7 @@ xlua.private_accessible(CS.OPSPanelBackGround)
 
 angleDragmax = 0;
 angleDragmin = 0;
-local missionIdrecord;
+missionIdrecord = 0;
 local selectDiffcluty = false;
 local selectTemp = false;
 local SelectDiffcluty = function(self)
@@ -53,12 +53,14 @@ end
 
 local StopUI = function()
 	CS.CommonAudioController.PlayUI("Stop_UI_loop");
+	CS.OPSPanelBackGround.Instance.CanClick = true;
 end
 
 local PlayTime = function(self,play,forward,hour,min,duration)
 	self:PlayTime(play,forward,hour,min,duration);
-	if play then
-		CS.CommonAudioController.PlayUI("UI_Wheel_Loop");
+	if play and duration>0 then
+		CS.CommonAudioController.PlayUI("UI_Wheel_Loop");		
+		CS.OPSPanelBackGround.Instance.CanClick = false;		
 		CS.CommonController.Invoke(StopUI,duration,CS.OPSPanelController.Instance);
 	end
 end
@@ -237,15 +239,44 @@ local CheckClockMissionSelect = function(self,container)
 end
 
 local InitShowContainer = function(self)
-	if CS.OPSPanelBackGround.currentContainerId ~= 0 and self.currentPanelConfig.ContainerClockInfos:ContainsKey(CS.OPSPanelBackGround.currentContainerId) then
-		CS.OPSPanelBackGround.Instance.CanClick = false;
+	if CS.OPSPanelController.lastTime == 0 then
+		CS.OPSPanelController.lastTime = self.currentPanelConfig.minStart;
+	end
+	local checkTime = self.currentPanelConfig.minStart;
+	for l=1,6 do
+		if self.currentPanelConfig.ContainerClockInfos:ContainsKey(l) then
+			local info = self.currentPanelConfig.ContainerClockInfos[l];
+			for i=0,info.missionIds.Count-1 do
+				if info.times[i] ~= 0 then
+					for j=0,info.missionIds[i].Count-1 do					
+						local missionid = info.missionIds[i][j];
+						local mission = CS.GameData.listMission:GetDataById(missionid);
+						if mission ~= nil and mission.UseWinCounter>0 then
+							--if info.times[i]>checkTime then
+							checkTime = info.times[i];
+							--print(missionid.."/"..checkTime)
+							--end
+						end				
+					end
+				end	
+			end
+		end	
+	end
+	CS.OPSPanelController.currentTime = checkTime;
+	if CS.OPSPanelController.currentTime ~= CS.OPSPanelController.lastTime then
+		CS.OPSPanelBackGround.currentContainerId = 0;
 	end
 	self:InitShowContainer();
 end
 
 local ReturnContainer = function(self)
 	CS.OPSPanelBackGround.Instance.CanClick = true;
+	missionIdrecord = 0;
+	self.lastContainerid = CS.OPSPanelBackGround.currentContainerId;
 	self:ReturnContainer();
+	if self.lastContainerid ~= 0 then
+		self:ReturnContainerPos();
+	end
 end
 
 local MoveMissionHolder = function(self)
@@ -309,6 +340,56 @@ local CheckAnim = function(self)
 	missionIdrecord = 0;
 	self:CheckAnim();
 end
+
+local CheckReturnContainer = function()
+	CS.OPSPanelController.Instance.CanClick = true;
+	CS.OPSPanelController.Instance:ReturnContainer();
+end
+local CheckClockTimeDelay = function(self)
+	if self.currentPanelConfig.ContainerClockInfos.Keys.Count == 0 then
+		return false;
+	end
+	for i = 0,CS.OPSPanelBackGround.Instance.opsMissionContainers.Count-1 do
+		local container = CS.OPSPanelBackGround.Instance.opsMissionContainers[i];
+		if not self.order_angle:ContainsKey(container.id) then
+			self.order_angle:Add(container.id,0);
+		end
+	end	
+	if CS.OPSPanelController.lastTime == 0 then
+		CS.OPSPanelController.lastTime = self.currentPanelConfig.minStart;
+	end
+	local checkTime = self.currentPanelConfig.minStart;
+	for l=1,6 do
+		if self.currentPanelConfig.ContainerClockInfos:ContainsKey(l) then
+			local info = self.currentPanelConfig.ContainerClockInfos[l];
+			for i=0,info.missionIds.Count-1 do
+				if info.times[i] ~= 0 then
+					for j=0,info.missionIds[i].Count-1 do					
+						local missionid = info.missionIds[i][j];
+						local mission = CS.GameData.listMission:GetDataById(missionid);
+						if mission ~= nil and mission.UseWinCounter>0 then
+							--if info.times[i]>checkTime then
+							checkTime = info.times[i];
+							--print(missionid.."/"..checkTime)
+							--end
+						end				
+					end
+				end	
+			end
+		end	
+	end
+	CS.OPSPanelController.currentTime = checkTime;
+	if CS.OPSPanelController.currentTime ~= CS.OPSPanelController.lastTime then
+		print("时间变更")
+		if CS.OPSPanelBackGround.currentContainerId ~= 0 then
+			CS.OPSPanelController.Instance:ReturnContainer();
+			--CS.CommonController.Invoke(CheckReturnContainer,1,CS.OPSPanelController.Instance);
+		end
+		return true;
+	end
+	return false;
+end
+
 util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineMove',CheckSpineMove)
 util.hotfix_ex(CS.OPSPanelController,'CheckContainerAngle',CheckContainerAngle)
@@ -326,3 +407,4 @@ util.hotfix_ex(CS.OPSPanelController,'SelectContainer',SelectContainer)
 util.hotfix_ex(CS.OPSPanelController,'ShowSpecialReturn',ShowSpecialReturn)
 util.hotfix_ex(CS.OPSPanelController,'SelectProcessInfo',SelectProcessInfo)
 util.hotfix_ex(CS.OPSPanelController,'CheckAnim',CheckAnim)
+util.hotfix_ex(CS.OPSPanelController,'CheckClockTimeDelay',CheckClockTimeDelay)
