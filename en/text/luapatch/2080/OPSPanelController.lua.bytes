@@ -274,8 +274,11 @@ local ReturnContainer = function(self)
 	missionIdrecord = 0;
 	self.lastContainerid = CS.OPSPanelBackGround.currentContainerId;
 	self:ReturnContainer();
-	if self.lastContainerid ~= 0 then
-		self:ReturnContainerPos();
+	local read = CS.OPSPanelBackGround.Instance:ReadRecord();
+	if not read then
+		if self.lastContainerid ~= 0 then
+			self:ReturnContainerPos();
+		end
 	end
 end
 

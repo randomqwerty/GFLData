@@ -25,7 +25,13 @@ local OnPointerUp = function(self,eventData)
 	end
 	self:OnPointerUp(eventData);
 end
+
+local PlayCaptureRecord = function(self,record,isLastRecord,play)
+	CS.GameData.missionAction.spotid_TransBelongInfo:Remove(record.spotAction.spotInfo.id);
+	self:PlayCaptureRecord(record,isLastRecord,play);
+end
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateCurrentInformation',UpdateCurrentInformation)
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateColor',UpdateColor)
 util.hotfix_ex(CS.DeploymentSpotController,'OnPointerUp',OnPointerUp)
+util.hotfix_ex(CS.DeploymentSpotController,'PlayCaptureRecord',PlayCaptureRecord)
 
