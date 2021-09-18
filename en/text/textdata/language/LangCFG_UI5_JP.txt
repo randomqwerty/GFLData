@@ -5088,22 +5088,6 @@
     <maxsize>28</maxsize>
     <isOrnamental>False</isOrnamental>
   </item>
-  <item des="Assets/_Scenes/Formation.unity/txHarm/txDetails">
-    <xmlID>Assets/_Scenes/Formation.unity/txHarm/txDetails</xmlID>
-    <rect>(178.2, -32.5),(10.8, 39.7)</rect>
-    <textfont>Mohave</textfont>
-    <fontstyle>Normal</fontstyle>
-    <fontsize>40</fontsize>
-    <linespac>1</linespac>
-    <richtext>True</richtext>
-    <alignment>UpperLeft</alignment>
-    <horover>Wrap</horover>
-    <verover>Truncate</verover>
-    <bestfit>False</bestfit>
-    <minsize>4</minsize>
-    <maxsize>57</maxsize>
-    <isOrnamental>False</isOrnamental>
-  </item>
   <item des="MissionSelection/Normal/Num">
     <xmlID>MissionSelection/Normal/Num</xmlID>
     <rect>(30.2, -25.4),(122.2, 130.0)</rect>
@@ -13733,7 +13717,7 @@
     <rect>(-22.0, 0.0),(355.0, 75.0)</rect>
     <textfont>JDJSTE</textfont>
     <fontstyle>Normal</fontstyle>
-    <fontsize>35</fontsize>
+    <fontsize>33</fontsize>
     <linespac>1</linespac>
     <richtext>True</richtext>
     <alignment>MiddleCenter</alignment>
@@ -13747,7 +13731,7 @@
   <item des="Assets/_Scenes/HotUpdate.unity/Consume/Tex_Consume">
     <xmlID>Assets/_Scenes/HotUpdate.unity/Consume/Tex_Consume</xmlID>
     <rect>(-17.1, 0.5),(98.3, 21.0)</rect>
-    <textfont>NotoSansHans-DemiLight</textfont>
+    <textfont>sans</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>17</fontsize>
     <linespac>1</linespac>
@@ -13755,9 +13739,249 @@
     <alignment>MiddleCenter</alignment>
     <horover>Wrap</horover>
     <verover>Truncate</verover>
-    <bestfit>False</bestfit>
+    <bestfit>True</bestfit>
     <minsize>1</minsize>
-    <maxsize>50</maxsize>
+    <maxsize>17</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Btn_RoomUpgrade/Tex_RoomName">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Btn_RoomUpgrade/Tex_RoomName</xmlID>
+    <rect>(-85.0, 0.0),(-190.0, 76.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>45</fontsize>
+    <linespac>10</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>45</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Formation/Eqiupmentswitch/Text">
+    <xmlID>Formation/Eqiupmentswitch/Text</xmlID>
+    <rect>(47.4, 0.0),(207.0, 95.2)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>32</fontsize>
+    <linespac>10</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/DepMsg/Tex_Title">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/DepMsg/Tex_Title</xmlID>
+    <rect>(-80.0, 113.0),(525.7, 92.0)</rect>
+    <textfont>fzteyasong</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>46</fontsize>
+    <linespac>10</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>46</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Img_NameBg/Tex_DepName">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Img_NameBg/Tex_DepName</xmlID>
+    <rect>(270.1, -29.1),(320.7, 67.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>40</fontsize>
+    <linespac>10</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>40</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/CurrentReward/Tex_Reward">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/CurrentReward/Tex_Reward</xmlID>
+    <rect>(98.0, 4.4),(128.0, 50.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>26</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>26</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Start/Tex_DepName">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Start/Tex_DepName</xmlID>
+    <rect>(33.9, 24.6),(108.3, 139.7)</rect>
+    <textfont>fzteyasong</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>26</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>UpperLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>26</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/NameNode/Tex_Name">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/NameNode/Tex_Name</xmlID>
+    <rect>(196.6, 120.3),(215.2, 58.1)</rect>
+    <textfont>fzteyasong</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>52</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>52</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Name/Tex_Name">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Name/Tex_Name</xmlID>
+    <rect>(5.2, 13.3),(228.4, 56.9)</rect>
+    <textfont>fzteyasong</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>54</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>54</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_SanvisLeft">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_SanvisLeft</xmlID>
+    <rect>(47.7, -10.0),(95.5, 50.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>36</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_TimeLeft">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_TimeLeft</xmlID>
+    <rect>(324.7, -10.0),(151.1, 50.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>36</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_Progress">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_Progress</xmlID>
+    <rect>(172.3, -14.0),(154.7, 50.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>36</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_Countdown">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/CurrentGashaDetail/Tex_Countdown</xmlID>
+    <rect>(540.7, -14.0),(280.8, 50.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>36</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/SangvisAttributeNode/UI_Text">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/SangvisAttributeNode/UI_Text</xmlID>
+    <rect>(125.2, -26.4),(500.0, 55.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>30</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>30</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Attri_0/Tex_Attri">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Attri_0/Tex_Attri</xmlID>
+    <rect>(0.0, 0.0),(86.0, 38.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>31</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>31</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/AttriTag_0/Tex_Attri_4">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/AttriTag_0/Tex_Attri_4</xmlID>
+    <rect>(0.0, 0.0),(86.0, 38.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>29</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>29</maxsize>
     <isOrnamental>False</isOrnamental>
   </item>
 </root>
