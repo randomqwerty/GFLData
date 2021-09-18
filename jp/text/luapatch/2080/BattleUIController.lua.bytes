@@ -1,0 +1,17 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.BattleUIController)
+
+local InitUIElements = function(self)
+	self:InitUIElements();
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+		local topTime = self.transform:Find("UI/Top/Top_Time");
+		topTime:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite = CS.CommonController.LoadPngCreateSprite("AtlasClips2080/战斗UI_上栏_时间");
+		local top = self.transform:Find("UI/Top/Top");
+		top:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite = CS.CommonController.LoadPngCreateSprite("AtlasClips2080/战斗UI_上栏_倒计时");
+		local DM = self.transform:Find("UI/SafeUIRect/DPSSwitch");
+		DM:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite = CS.CommonController.LoadPngCreateSprite("AtlasClips2080/DMGrankingBTN");
+	end
+end
+
+util.hotfix_ex(CS.BattleUIController,'InitUIElements',InitUIElements)
+

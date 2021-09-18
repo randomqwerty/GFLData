@@ -22,7 +22,7 @@ local CheckBattle = function(self)
 	local spotAction = CS.GameData.engagedSpot;
 	if CS.GameData.missionResult == nil and CS.GameData.enemyOtherEngagedSpot == nil and spotAction ~= nil then
 		if spotAction.layer == CS.DeploymentBackgroundController.currentlayer then
-			if spotAction.spot.currentTeamTemp == nil then
+			if spotAction.spot.currentTeamTemp == nil and self._randomEventController ~= nil and self._randomEventController.gameObject.activeSelf then
 				self:GoBattle();
 				return;
 			end
@@ -138,6 +138,11 @@ local TriggerMoveCameraEvent = function(target,move,recordPos,changescale,setsca
 end
 
 local GoToBattleScene = function(self)
+	if not self.engagedSpot.hasEnemyTeam and not self.engagedSpot.hasOtherTeam then
+		self.engagedSpot = nil;
+		self:CheckBattle();
+		return;
+	end
 	if self.engagedSpot.enemyInstanceId ~= 0 then
 		local enemyTeam = CS.GameData.missionAction.listEnemyTeams:GetDataById(self.engagedSpot.enemyInstanceId);
 		if enemyTeam.hpPercent == 0 and enemyTeam.bossHp > 0 then
@@ -197,7 +202,32 @@ local CheckPlayerLayers = function(self)
 	end	
 end
 
+local TriggerSwitchAbovePanelEvent = function(show)
+	if CS.DeploymentController.Instance ~= nil then
+		if CS.DeploymentController.Instance.engagedSpot ~= nil then
+			CS.DeploymentController.TriggerSwitchAbovePanelEvent(true);
+			return;
+		end
+	end
+	CS.DeploymentController.TriggerSwitchAbovePanelEvent(show);
+end
 
+local triggerGuide = function()
+	CS.GuideDeploymentController.Instance:TriggerGuide(CS.TriggerDeploymentCondition.StartMission);
+end
+local RequestStartMissionHandle = function(self,www)
+	self:RequestStartMissionHandle(www);
+	self:AddAndPlayPerformance(triggerGuide);
+end
+
+local CheckTeam = function(self,teamController,delay)
+	self:CheckTeam(teamController,delay);
+	if teamController.currentSpot.currentTeamTemp == teamController then
+		if teamController.allyTeam ~= nil and teamController.allyTeam.isCuiPi then
+			teamController.currentSpot.currentTeamTemp = teamController.currentSpot.currentTeam;
+		end
+	end	
+end
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -211,5 +241,8 @@ util.hotfix_ex(CS.DeploymentController,'CheckTeamCanMove',CheckTeamCanMove)
 util.hotfix_ex(CS.DeploymentController,'PlayGrowSummonEnemy',PlayGrowSummonEnemy)
 util.hotfix_ex(CS.DeploymentController,'PlaySpotTeamCapture',PlaySpotTeamCapture)
 util.hotfix_ex(CS.DeploymentController,'CheckPlayerLayers',CheckPlayerLayers)
+util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwitchAbovePanelEvent)
+util.hotfix_ex(CS.DeploymentController,'CheckTeam',CheckTeam)
+--util.hotfix_ex(CS.DeploymentController,'RequestStartMissionHandle',RequestStartMissionHandle)
 
 

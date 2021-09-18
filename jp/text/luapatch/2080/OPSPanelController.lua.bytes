@@ -58,9 +58,9 @@ end
 
 local PlayTime = function(self,play,forward,hour,min,duration)
 	self:PlayTime(play,forward,hour,min,duration);
-	if play then
-		CS.CommonAudioController.PlayUI("UI_Wheel_Loop");
-		CS.OPSPanelBackGround.Instance.CanClick = false;
+	if play and duration>0 then
+		CS.CommonAudioController.PlayUI("UI_Wheel_Loop");		
+		CS.OPSPanelBackGround.Instance.CanClick = false;		
 		CS.CommonController.Invoke(StopUI,duration,CS.OPSPanelController.Instance);
 	end
 end
@@ -272,7 +272,14 @@ end
 local ReturnContainer = function(self)
 	CS.OPSPanelBackGround.Instance.CanClick = true;
 	missionIdrecord = 0;
+	self.lastContainerid = CS.OPSPanelBackGround.currentContainerId;
 	self:ReturnContainer();
+	local read = CS.OPSPanelBackGround.Instance:ReadRecord();
+	if not read then
+		if self.lastContainerid ~= 0 then
+			self:ReturnContainerPos();
+		end
+	end
 end
 
 local MoveMissionHolder = function(self)
@@ -342,6 +349,9 @@ local CheckReturnContainer = function()
 	CS.OPSPanelController.Instance:ReturnContainer();
 end
 local CheckClockTimeDelay = function(self)
+	if self.currentPanelConfig.ContainerClockInfos.Keys.Count == 0 then
+		return false;
+	end
 	for i = 0,CS.OPSPanelBackGround.Instance.opsMissionContainers.Count-1 do
 		local container = CS.OPSPanelBackGround.Instance.opsMissionContainers[i];
 		if not self.order_angle:ContainsKey(container.id) then

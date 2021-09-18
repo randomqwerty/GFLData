@@ -79,6 +79,12 @@ local UnClock = function(self)
 	end
 	return false;
 end
+
+local Awake = function(self)
+	self:Awake();
+	self.canSelect = true;
+end
+util.hotfix_ex(CS.OPSPanelMissionContainer,'Awake',Awake)
 util.hotfix_ex(CS.OPSPanelMissionContainer,'ShowClock',ShowClock)
 util.hotfix_ex(CS.OPSPanelMissionContainer,'UnClock',UnClock)
 util.hotfix_ex(CS.OPSPanelMissionContainer,'RefreshClockUI',RefreshClockUI)

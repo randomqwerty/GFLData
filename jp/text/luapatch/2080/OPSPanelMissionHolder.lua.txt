@@ -8,6 +8,10 @@ local CanShow = function(self)
 	return self.CanShow;
 end
 
+local PlayMove = function(self)
+	CS.OPSPanelBackGround.Instance:CheckShowMoveOffset();
+	self:PlayMove();
+end
 util.hotfix_ex(CS.OPSPanelMissionHolder,'get_CanShow',CanShow)
-
+util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 
