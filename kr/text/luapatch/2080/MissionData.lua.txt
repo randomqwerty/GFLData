@@ -1,0 +1,32 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.MissionAction)
+
+
+local AnarysicsHurtData = function(self,jsonData)
+	self:AnarysicsHurtData(jsonData);
+	local teamids = CS.System.Collections.Generic.List(CS.System.Int32)();
+	local sangvisteamids = CS.System.Collections.Generic.List(CS.System.Int32)();
+	for i=0,CS.GameData.missionAction.queueTeamMove.Count-1 do
+		local record = CS.GameData.missionAction.queueTeamMove[i];
+		if record.teamId ~= 0 then
+			teamids:Add(record.teamId);
+		end
+		if record.sangvisTeamId ~= 0 then
+			sangvisteamids:Add(record.sangvisTeamId);
+		end
+	end
+	for i=0,jsonData.Count -1 do
+		local data = jsonData[i];
+		local friendTeamId = jsonData[i]:GetValue("team_id").Int;
+		local sangvisTeamId = jsonData[i]:GetValue("sangvis_team_id").Int;
+		local spotId = jsonData[i]:GetValue("spot_id").Int;
+		if friendTeamId >0 and not teamids:Contains(friendTeamId) then
+			self:ReadFriendSkillData(friendTeamId,spotId);
+		end
+		if sangvisTeamId>0 and not sangvisteamids:Contains(sangvisTeamId) then
+			self:ReadSangvisSkillData(sangvisTeamId,spotId);
+		end
+	end 
+end
+
+util.hotfix_ex(CS.MissionAction,'AnarysicsHurtData',AnarysicsHurtData)

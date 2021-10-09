@@ -2820,6 +2820,670 @@
     "formula": "tbuffidtier(4433)<1?4404:0"
   },
   {
+    "id": 1798,
+    "formula": "(@Maxlife-@life)*0.1"
+  },
+  {
+    "id": 1799,
+    "formula": "@pow*0.85"
+  },
+  {
+    "id": 1800,
+    "formula": "@pow*0.88"
+  },
+  {
+    "id": 1801,
+    "formula": "@pow*0.91"
+  },
+  {
+    "id": 1802,
+    "formula": "@pow*0.93"
+  },
+  {
+    "id": 1803,
+    "formula": "@pow*0.96"
+  },
+  {
+    "id": 1804,
+    "formula": "@pow*0.99"
+  },
+  {
+    "id": 1805,
+    "formula": "@pow*1.02"
+  },
+  {
+    "id": 1806,
+    "formula": "@pow*1.04"
+  },
+  {
+    "id": 1807,
+    "formula": "@pow*1.07"
+  },
+  {
+    "id": 1808,
+    "formula": "@pow*1.1"
+  },
+  {
+    "id": 1809,
+    "formula": "@hit*0.85"
+  },
+  {
+    "id": 1810,
+    "formula": "@hit*0.88"
+  },
+  {
+    "id": 1811,
+    "formula": "@hit*0.91"
+  },
+  {
+    "id": 1812,
+    "formula": "@hit*0.93"
+  },
+  {
+    "id": 1813,
+    "formula": "@hit*0.96"
+  },
+  {
+    "id": 1814,
+    "formula": "@hit*0.99"
+  },
+  {
+    "id": 1815,
+    "formula": "@hit*1.02"
+  },
+  {
+    "id": 1816,
+    "formula": "@hit*1.04"
+  },
+  {
+    "id": 1817,
+    "formula": "@hit*1.07"
+  },
+  {
+    "id": 1818,
+    "formula": "@hit*1.1"
+  },
+  {
+    "id": 1819,
+    "formula": "@dodge*0.85"
+  },
+  {
+    "id": 1820,
+    "formula": "@dodge*0.88"
+  },
+  {
+    "id": 1821,
+    "formula": "@dodge*0.91"
+  },
+  {
+    "id": 1822,
+    "formula": "@dodge*0.93"
+  },
+  {
+    "id": 1823,
+    "formula": "@dodge*0.96"
+  },
+  {
+    "id": 1824,
+    "formula": "@dodge*0.99"
+  },
+  {
+    "id": 1825,
+    "formula": "@dodge*1.02"
+  },
+  {
+    "id": 1826,
+    "formula": "@dodge*1.04"
+  },
+  {
+    "id": 1827,
+    "formula": "@dodge*1.07"
+  },
+  {
+    "id": 1828,
+    "formula": "@dodge*1.1"
+  },
+  {
+    "id": 1829,
+    "formula": "@speed*0.85"
+  },
+  {
+    "id": 1830,
+    "formula": "@speed*0.88"
+  },
+  {
+    "id": 1831,
+    "formula": "@speed*0.91"
+  },
+  {
+    "id": 1832,
+    "formula": "@speed*0.93"
+  },
+  {
+    "id": 1833,
+    "formula": "@speed*0.96"
+  },
+  {
+    "id": 1834,
+    "formula": "@speed*0.99"
+  },
+  {
+    "id": 1835,
+    "formula": "@speed*1.02"
+  },
+  {
+    "id": 1836,
+    "formula": "@speed*1.04"
+  },
+  {
+    "id": 1837,
+    "formula": "@speed*1.07"
+  },
+  {
+    "id": 1838,
+    "formula": "@speed*1.1"
+  },
+  {
+    "id": 1839,
+    "formula": "@armor*0.85"
+  },
+  {
+    "id": 1840,
+    "formula": "@armor*0.88"
+  },
+  {
+    "id": 1841,
+    "formula": "@armor*0.91"
+  },
+  {
+    "id": 1842,
+    "formula": "@armor*0.93"
+  },
+  {
+    "id": 1843,
+    "formula": "@armor*0.96"
+  },
+  {
+    "id": 1844,
+    "formula": "@armor*0.99"
+  },
+  {
+    "id": 1845,
+    "formula": "@armor*1.02"
+  },
+  {
+    "id": 1846,
+    "formula": "@armor*1.04"
+  },
+  {
+    "id": 1847,
+    "formula": "@armor*1.07"
+  },
+  {
+    "id": 1848,
+    "formula": "@armor*1.1"
+  },
+  {
+    "id": 1849,
+    "formula": "@Critical*0.85*100"
+  },
+  {
+    "id": 1850,
+    "formula": "@Critical*0.88*100"
+  },
+  {
+    "id": 1851,
+    "formula": "@Critical*0.91*100"
+  },
+  {
+    "id": 1852,
+    "formula": "@Critical*0.93*100"
+  },
+  {
+    "id": 1853,
+    "formula": "@Critical*0.96*100"
+  },
+  {
+    "id": 1854,
+    "formula": "@Critical*0.99*100"
+  },
+  {
+    "id": 1855,
+    "formula": "@Critical*1.02*100"
+  },
+  {
+    "id": 1856,
+    "formula": "@Critical*1.04*100"
+  },
+  {
+    "id": 1857,
+    "formula": "@Critical*1.07*100"
+  },
+  {
+    "id": 1858,
+    "formula": "@Critical*1.1*100"
+  },
+  {
+    "id": 1859,
+    "formula": "@Criticalhurt*0.85"
+  },
+  {
+    "id": 1860,
+    "formula": "@Criticalhurt*0.88"
+  },
+  {
+    "id": 1861,
+    "formula": "@Criticalhurt*0.91"
+  },
+  {
+    "id": 1862,
+    "formula": "@Criticalhurt*0.93"
+  },
+  {
+    "id": 1863,
+    "formula": "@Criticalhurt*0.96"
+  },
+  {
+    "id": 1864,
+    "formula": "@Criticalhurt*0.99"
+  },
+  {
+    "id": 1865,
+    "formula": "@Criticalhurt*1.02"
+  },
+  {
+    "id": 1866,
+    "formula": "@Criticalhurt*1.04"
+  },
+  {
+    "id": 1867,
+    "formula": "@Criticalhurt*1.07"
+  },
+  {
+    "id": 1868,
+    "formula": "@Criticalhurt*1.1"
+  },
+  {
+    "id": 1869,
+    "formula": "@rate*0.85"
+  },
+  {
+    "id": 1870,
+    "formula": "@rate*0.88"
+  },
+  {
+    "id": 1871,
+    "formula": "@rate*0.91"
+  },
+  {
+    "id": 1872,
+    "formula": "@rate*0.93"
+  },
+  {
+    "id": 1873,
+    "formula": "@rate*0.96"
+  },
+  {
+    "id": 1874,
+    "formula": "@rate*0.99"
+  },
+  {
+    "id": 1875,
+    "formula": "@rate*1.02"
+  },
+  {
+    "id": 1876,
+    "formula": "@rate*1.04"
+  },
+  {
+    "id": 1877,
+    "formula": "@rate*1.07"
+  },
+  {
+    "id": 1878,
+    "formula": "@rate*1.1"
+  },
+  {
+    "id": 1879,
+    "formula": "tbuffidtier(4490)>0?(@pow-#pow=0?0:@pow-#pow):0"
+  },
+  {
+    "id": 1880,
+    "formula": "tbuffidtier(4490)>0?(@hit-#hit=0?0:@hit-#hit):0"
+  },
+  {
+    "id": 1881,
+    "formula": "tbuffidtier(4490)>0?(@dodge-#dodge=0?0:@dodge-#dodge):0"
+  },
+  {
+    "id": 1882,
+    "formula": "tbuffidtier(4490)>0?(@speed-#speed=0?0:@speed-#speed):0"
+  },
+  {
+    "id": 1883,
+    "formula": "tbuffidtier(4490)>0?(@armor-#armor=0?0:@armor-#armor):0"
+  },
+  {
+    "id": 1884,
+    "formula": "tbuffidtier(4490)>0?(@Critical*100-#Critical*100=0?0:@Critical*100-#Critical*100):0"
+  },
+  {
+    "id": 1885,
+    "formula": "tbuffidtier(4490)>0?(@Criticalhurt-#Criticalhurt=0?0:@Criticalhurt-#Criticalhurt):0"
+  },
+  {
+    "id": 1886,
+    "formula": "tbuffidtier(4490)>0?(@rate-#rate=0?0:@rate-#rate):0"
+  },
+  {
+    "id": 1887,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.3+100:100"
+  },
+  {
+    "id": 1888,
+    "formula": "#leader=1?1:0"
+  },
+  {
+    "id": 1889,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.32+100:100"
+  },
+  {
+    "id": 1890,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.34+100:100"
+  },
+  {
+    "id": 1891,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.37+100:100"
+  },
+  {
+    "id": 1892,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.39+100:100"
+  },
+  {
+    "id": 1893,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.41+100:100"
+  },
+  {
+    "id": 1894,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.43+100:100"
+  },
+  {
+    "id": 1895,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.46+100:100"
+  },
+  {
+    "id": 1896,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.48+100:100"
+  },
+  {
+    "id": 1897,
+    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.5+100:100"
+  },
+  {
+    "id": 1898,
+    "formula": "@pow*0.1"
+  },
+  {
+    "id": 1899,
+    "formula": "@rate*0.1"
+  },
+  {
+    "id": 1900,
+    "formula": "@hit*0.1"
+  },
+  {
+    "id": 1901,
+    "formula": "@dodge*0.1"
+  },
+  {
+    "id": 1902,
+    "formula": "@armor*0.1"
+  },
+  {
+    "id": 1903,
+    "formula": "@Maxlife*0.05"
+  },
+  {
+    "id": 1904,
+    "formula": "@hit*1"
+  },
+  {
+    "id": 1905,
+    "formula": "@Maxlife*0.01"
+  },
+  {
+    "id": 1906,
+    "formula": "@pow*0.5"
+  },
+  {
+    "id": 1907,
+    "formula": "@hit*0.5"
+  },
+  {
+    "id": 1908,
+    "formula": "@dodge*0.5"
+  },
+  {
+    "id": 1909,
+    "formula": "@rate*1"
+  },
+  {
+    "id": 1910,
+    "formula": "@Maxlife*0.02"
+  },
+  {
+    "id": 1911,
+    "formula": "@pow*0.8"
+  },
+  {
+    "id": 1912,
+    "formula": "@hit*1"
+  },
+  {
+    "id": 1913,
+    "formula": "@dodge*0.6"
+  },
+  {
+    "id": 1914,
+    "formula": "@rate*1"
+  },
+  {
+    "id": 1915,
+    "formula": "@Maxlife*0.03"
+  },
+  {
+    "id": 1916,
+    "formula": "@pow*1"
+  },
+  {
+    "id": 1917,
+    "formula": "@hit*1"
+  },
+  {
+    "id": 1918,
+    "formula": "@dodge*0.5"
+  },
+  {
+    "id": 1919,
+    "formula": "@rate*0.5"
+  },
+  {
+    "id": 1920,
+    "formula": "@Maxlife*0.1"
+  },
+  {
+    "id": 1921,
+    "formula": "@pow*1"
+  },
+  {
+    "id": 1922,
+    "formula": "@hit*1"
+  },
+  {
+    "id": 1923,
+    "formula": "@dodge*1"
+  },
+  {
+    "id": 1924,
+    "formula": "@rate*1"
+  },
+  {
+    "id": 1925,
+    "formula": "@armor*0"
+  },
+  {
+    "id": 1926,
+    "formula": "@armor*0"
+  },
+  {
+    "id": 1927,
+    "formula": "@armor*1"
+  },
+  {
+    "id": 1928,
+    "formula": "@armor*0"
+  },
+  {
+    "id": 1929,
+    "formula": "tbuffidtier(4536)>0?1:0"
+  },
+  {
+    "id": 1930,
+    "formula": "tbuffidtier(4513)<1?4505:0"
+  },
+  {
+    "id": 1931,
+    "formula": "tbuffidtier(4513)<1?4506:0"
+  },
+  {
+    "id": 1932,
+    "formula": "tbuffidtier(4513)<1?4507:0"
+  },
+  {
+    "id": 1933,
+    "formula": "tbuffidtier(4513)<1?4508:0"
+  },
+  {
+    "id": 1934,
+    "formula": "tbuffidtier(4513)<1?4509:0"
+  },
+  {
+    "id": 1935,
+    "formula": "tbuffidtier(4513)<1?4512:0"
+  },
+  {
+    "id": 1936,
+    "formula": "tbuffidtier(4513)<1?4510:0"
+  },
+  {
+    "id": 1937,
+    "formula": "sbuffidtier(4510)>0?1:0"
+  },
+  {
+    "id": 1938,
+    "formula": "@Maxlife*0.1"
+  },
+  {
+    "id": 1939,
+    "formula": "@Maxlife*0.2"
+  },
+  {
+    "id": 1940,
+    "formula": "tbuffidtier(4513)<1?4580:0"
+  },
+  {
+    "id": 1941,
+    "formula": "(sbuffidtier(4581)=sbuffidtier(4572))?1:0"
+  },
+  {
+    "id": 1942,
+    "formula": "@pow*2"
+  },
+  {
+    "id": 1943,
+    "formula": "@battlepoint=1?0:1"
+  },
+  {
+    "id": 1944,
+    "formula": "@battlepoint=1?1:0"
+  },
+  {
+    "id": 1945,
+    "formula": "#distancex"
+  },
+  {
+    "id": 1946,
+    "formula": "#armor>0?1:0"
+  },
+  {
+    "id": 1947,
+    "formula": "120*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1948,
+    "formula": "129*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1949,
+    "formula": "138*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1950,
+    "formula": "147*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1951,
+    "formula": "156*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1952,
+    "formula": "164*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1953,
+    "formula": "173*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1954,
+    "formula": "182*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1955,
+    "formula": "191*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1956,
+    "formula": "200*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1957,
+    "formula": "100-sbuffidtier(4614)"
+  },
+  {
+    "id": 1958,
+    "formula": "sbuffidtier(4624)*3"
+  },
+  {
+    "id": 1959,
+    "formula": "100+sbuffidtier(4616)/10*(15-#distancex>0?15-#distancex:0)"
+  },
+  {
+    "id": 1960,
+    "formula": "$1*(0.8+#formation*0.1)"
+  },
+  {
+    "id": 1961,
+    "formula": "100*(1+sbuffidtier(4616)/1000*(#distancex-1>0?#distancex-1:0))"
+  },
+  {
+    "id": 1962,
+    "formula": "#armor>0?1:0"
+  },
+  {
+    "id": 1963,
+    "formula": "sbuffidtier(4628)*5+100"
+  },
+  {
     "id": 3001,
     "formula": "170+sbuffidtier(3300)*22"
   },
@@ -6252,6 +6916,46 @@
     "formula": "$1>20000?20000:$1"
   },
   {
+    "id": 4038,
+    "formula": "(#maxlife-#life)*0.05>#life?0:(#maxlife-#life)*0.05*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.05*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4039,
+    "formula": "(#maxlife-#life)*0.06>#life?0:(#maxlife-#life)*0.06*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.06*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4040,
+    "formula": "(#maxlife-#life)*0.06>#life?0:(#maxlife-#life)*0.06*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.06*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4041,
+    "formula": "(#maxlife-#life)*0.07>#life?0:(#maxlife-#life)*0.07*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.07*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4042,
+    "formula": "(#maxlife-#life)*0.07>#life?0:(#maxlife-#life)*0.07*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.07*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4043,
+    "formula": "(#maxlife-#life)*0.08>#life?0:(#maxlife-#life)*0.08*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.08*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4044,
+    "formula": "(#maxlife-#life)*0.08>#life?0:(#maxlife-#life)*0.08*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.08*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4045,
+    "formula": "(#maxlife-#life)*0.09>#life?0:(#maxlife-#life)*0.09*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.09*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4046,
+    "formula": "(#maxlife-#life)*0.09>#life?0:(#maxlife-#life)*0.09*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.09*(1-#def/#maxdef)"
+  },
+  {
+    "id": 4047,
+    "formula": "(#maxlife-#life)*0.1>#life?0:(#maxlife-#life)*0.1*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.1*(1-#def/#maxdef)"
+  },
+  {
     "id": 4048,
     "formula": "@formation>sbuffidtier(7528)?1:0"
   },
@@ -6342,6 +7046,386 @@
   {
     "id": 4070,
     "formula": "100-10*sbuffidtier(7544)"
+  },
+  {
+    "id": 4071,
+    "formula": "#leader=1?201:0"
+  },
+  {
+    "id": 4072,
+    "formula": "#leader=1?202:0"
+  },
+  {
+    "id": 4073,
+    "formula": "#leader=1?203:0"
+  },
+  {
+    "id": 4074,
+    "formula": "#leader=1?206:0"
+  },
+  {
+    "id": 4075,
+    "formula": "#leader=1?208:0"
+  },
+  {
+    "id": 4076,
+    "formula": "@pow*4"
+  },
+  {
+    "id": 4077,
+    "formula": "@pow*4.22"
+  },
+  {
+    "id": 4078,
+    "formula": "@pow*4.44"
+  },
+  {
+    "id": 4079,
+    "formula": "@pow*4.66"
+  },
+  {
+    "id": 4080,
+    "formula": "@pow*4.88"
+  },
+  {
+    "id": 4081,
+    "formula": "@pow*5.12"
+  },
+  {
+    "id": 4082,
+    "formula": "@pow*5.34"
+  },
+  {
+    "id": 4083,
+    "formula": "@pow*5.56"
+  },
+  {
+    "id": 4084,
+    "formula": "@pow*5.78"
+  },
+  {
+    "id": 4085,
+    "formula": "@pow*6"
+  },
+  {
+    "id": 4086,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4087,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4088,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4089,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4090,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4091,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4092,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4093,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4094,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4095,
+    "formula": "@rate*0.8"
+  },
+  {
+    "id": 4096,
+    "formula": "@hit*1"
+  },
+  {
+    "id": 4097,
+    "formula": "@hit*1.11"
+  },
+  {
+    "id": 4098,
+    "formula": "@hit*1.22"
+  },
+  {
+    "id": 4099,
+    "formula": "@hit*1.33"
+  },
+  {
+    "id": 4100,
+    "formula": "@hit*1.44"
+  },
+  {
+    "id": 4101,
+    "formula": "@hit*1.56"
+  },
+  {
+    "id": 4102,
+    "formula": "@hit*1.67"
+  },
+  {
+    "id": 4103,
+    "formula": "@hit*1.78"
+  },
+  {
+    "id": 4104,
+    "formula": "@hit*1.89"
+  },
+  {
+    "id": 4105,
+    "formula": "@hit*2"
+  },
+  {
+    "id": 4106,
+    "formula": "@critical*80"
+  },
+  {
+    "id": 4107,
+    "formula": "@critical*82"
+  },
+  {
+    "id": 4108,
+    "formula": "@critical*84"
+  },
+  {
+    "id": 4109,
+    "formula": "@critical*87"
+  },
+  {
+    "id": 4110,
+    "formula": "@critical*89"
+  },
+  {
+    "id": 4111,
+    "formula": "@critical*91"
+  },
+  {
+    "id": 4112,
+    "formula": "@critical*93"
+  },
+  {
+    "id": 4113,
+    "formula": "@critical*96"
+  },
+  {
+    "id": 4114,
+    "formula": "@critical*98"
+  },
+  {
+    "id": 4115,
+    "formula": "@critical*100"
+  },
+  {
+    "id": 4116,
+    "formula": "$1*0.5"
+  },
+  {
+    "id": 4117,
+    "formula": "@criticalhurt*0.80"
+  },
+  {
+    "id": 4118,
+    "formula": "@criticalhurt*0.82"
+  },
+  {
+    "id": 4119,
+    "formula": "@criticalhurt*0.84"
+  },
+  {
+    "id": 4120,
+    "formula": "@criticalhurt*0.87"
+  },
+  {
+    "id": 4121,
+    "formula": "@criticalhurt*0.89"
+  },
+  {
+    "id": 4122,
+    "formula": "@criticalhurt*0.91"
+  },
+  {
+    "id": 4123,
+    "formula": "@criticalhurt*0.93"
+  },
+  {
+    "id": 4124,
+    "formula": "@criticalhurt*0.96"
+  },
+  {
+    "id": 4125,
+    "formula": "@Criticalhurt*0.98"
+  },
+  {
+    "id": 4126,
+    "formula": "@criticalhurt*0.100"
+  },
+  {
+    "id": 4127,
+    "formula": "@maxlife*0.05"
+  },
+  {
+    "id": 4128,
+    "formula": "tbuffidtier(7598)=1?3*@pow:0.1*@pow"
+  },
+  {
+    "id": 4129,
+    "formula": "#pow"
+  },
+  {
+    "id": 4130,
+    "formula": "$1*0.8"
+  },
+  {
+    "id": 4131,
+    "formula": "$1*0.82"
+  },
+  {
+    "id": 4132,
+    "formula": "$1*0.84"
+  },
+  {
+    "id": 4133,
+    "formula": "$1*0.87"
+  },
+  {
+    "id": 4134,
+    "formula": "$1*0.89"
+  },
+  {
+    "id": 4135,
+    "formula": "$1*0.91"
+  },
+  {
+    "id": 4136,
+    "formula": "$1*0.93"
+  },
+  {
+    "id": 4137,
+    "formula": "$1*0.96"
+  },
+  {
+    "id": 4138,
+    "formula": "$1*0.98"
+  },
+  {
+    "id": 4139,
+    "formula": "$1*1"
+  },
+  {
+    "id": 4140,
+    "formula": "(7/#formation-1)*100"
+  },
+  {
+    "id": 4141,
+    "formula": "@Shield>0?1:0"
+  },
+  {
+    "id": 4142,
+    "formula": "@shield=0?1:0"
+  },
+  {
+    "id": 4143,
+    "formula": "@maxlife*0.5"
+  },
+  {
+    "id": 4144,
+    "formula": "#maxlife*0.003*sbuffidtier(7600)"
+  },
+  {
+    "id": 4145,
+    "formula": "#leader=1?101:0"
+  },
+  {
+    "id": 4146,
+    "formula": "#leader=1?102:0"
+  },
+  {
+    "id": 4147,
+    "formula": "#leader=1?103:0"
+  },
+  {
+    "id": 4148,
+    "formula": "#leader=1?106:0"
+  },
+  {
+    "id": 4149,
+    "formula": "#leader=1?108:0"
+  },
+  {
+    "id": 4150,
+    "formula": "#leader=1?1201:0"
+  },
+  {
+    "id": 4151,
+    "formula": "#leader=1?1202:0"
+  },
+  {
+    "id": 4152,
+    "formula": "#leader=1?1203:0"
+  },
+  {
+    "id": 4153,
+    "formula": "#leader=1?1206:0"
+  },
+  {
+    "id": 4154,
+    "formula": "#leader=1?1208:0"
+  },
+  {
+    "id": 4155,
+    "formula": "0.1*#maxlife/tbuffidtier(7528)"
+  },
+  {
+    "id": 4156,
+    "formula": "@formation>sbuffidtier(7623)?1:0"
+  },
+  {
+    "id": 4157,
+    "formula": "@formation<sbuffidtier(7623)?1:0"
+  },
+  {
+    "id": 4158,
+    "formula": "@formation=sbuffidtier(7623)?1:0"
+  },
+  {
+    "id": 4159,
+    "formula": "#maxlife*0.5"
+  },
+  {
+    "id": 4160,
+    "formula": "tbuffidtier(7640)*50+100"
+  },
+  {
+    "id": 4161,
+    "formula": "@Maxlife*0.2"
+  },
+  {
+    "id": 4162,
+    "formula": "(sbuffidtier(7662)+sbuffidtier(7663)+sbuffidtier(7664)+sbuffidtier(7665)+sbuffidtier(7666)+sbuffidtier(7667))*30+100"
+  },
+  {
+    "id": 4164,
+    "formula": "(1-#def/#maxdef)*$1"
+  },
+  {
+    "id": 4165,
+    "formula": "@maxlife"
+  },
+  {
+    "id": 4210,
+    "formula": "(@Maxlife-@life)*0.3"
   },
   {
     "id": 6000,

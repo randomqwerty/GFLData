@@ -21,7 +21,7 @@
     {
       "parameter_name": "activity_rank_end_showtime",
       "parameter_type": "int",
-      "parameter_value": "1593788399",
+      "parameter_value": "1602727200",
       "client_require": "1"
     },
     {
@@ -483,7 +483,7 @@
     {
       "parameter_name": "enemy_effect_defence",
       "parameter_type": "string",
-      "parameter_value": "0.25,35,300,100,1200",
+      "parameter_value": "0.25,35,600,100,1200",
       "client_require": "1"
     },
     {
@@ -1381,9 +1381,21 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "motherbase_bombing_switch",
+      "parameter_type": "int",
+      "parameter_value": "10890",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "naive_build_gun_formula",
       "parameter_type": "string",
       "parameter_value": "",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "naive_damage_switch",
+      "parameter_type": "string",
+      "parameter_value": "1;1",
       "client_require": "1"
     },
     {
@@ -1522,6 +1534,18 @@
       "parameter_name": "property_rate",
       "parameter_type": "string",
       "parameter_value": "0.01,1,1,0.01,1,1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "quick_auto_mission_item",
+      "parameter_type": "int",
+      "parameter_value": "525",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "quick_auto_mission_num",
+      "parameter_type": "string",
+      "parameter_value": "60:1;120:2;9999:3",
       "client_require": "1"
     },
     {
@@ -2119,6 +2143,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "speed_teleport_mission",
+      "parameter_type": "string",
+      "parameter_value": "10823",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "spendpoint_max",
       "parameter_type": "string",
       "parameter_value": "1,5000;2,20000;3,-1",
@@ -2409,13 +2439,25 @@
     {
       "parameter_name": "theater_adaptive_coef",
       "parameter_type": "string",
-      "parameter_value": "500,3",
+      "parameter_value": "0,0",
       "client_require": "1"
     },
     {
       "parameter_name": "theater_adaptive_limit",
       "parameter_type": "int",
-      "parameter_value": "24",
+      "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_advantage_gun_score",
+      "parameter_type": "int",
+      "parameter_value": "120",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_advantage_sangvis_score",
+      "parameter_type": "int",
+      "parameter_value": "120",
       "client_require": "1"
     },
     {
@@ -2428,6 +2470,36 @@
       "parameter_name": "theater_defeated_coef",
       "parameter_type": "int",
       "parameter_value": "60",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_fairy_lv_coef",
+      "parameter_type": "string",
+      "parameter_value": "50,150",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_fairy_quality_coef",
+      "parameter_type": "string",
+      "parameter_value": "5,10,15,20,25",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_free_retry",
+      "parameter_type": "int",
+      "parameter_value": "5",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_limittimetotip",
+      "parameter_type": "int",
+      "parameter_value": "1800",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_rankfreshtime",
+      "parameter_type": "int",
+      "parameter_value": "3600",
       "client_require": "1"
     },
     {
@@ -2500,6 +2572,18 @@
       "parameter_name": "visit_period",
       "parameter_type": "int",
       "parameter_value": "8",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "wish_gun_special_rank_type",
+      "parameter_type": "int",
+      "parameter_value": "1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "wish_gun_unique",
+      "parameter_type": "int",
+      "parameter_value": "1",
       "client_require": "1"
     }
   ]
