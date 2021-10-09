@@ -1,0 +1,37 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.DeploymentSpotController)
+
+
+local UpdateCurrentInformation = function(self)
+	if self.maplistRoute.Count == 0 then
+		return;
+	end
+	self:UpdateCurrentInformation();
+end
+
+local UpdateColor = function(self,targetBelong,play)
+	local alpha = self.currentColor.a;
+	self:UpdateColor(targetBelong,play);
+	if self.currentColor.a ~= alpha then
+		if self.spotAction ~= nil then
+			self.spotAction.hasRouteChange = true;
+		end
+	end
+end
+
+local OnPointerUp = function(self,eventData)
+	if CS.DeploymentController.playAniming then
+		return;
+	end
+	self:OnPointerUp(eventData);
+end
+
+local PlayCaptureRecord = function(self,record,isLastRecord,play)
+	CS.GameData.missionAction.spotid_TransBelongInfo:Remove(record.spotAction.spotInfo.id);
+	self:PlayCaptureRecord(record,isLastRecord,play);
+end
+util.hotfix_ex(CS.DeploymentSpotController,'UpdateCurrentInformation',UpdateCurrentInformation)
+util.hotfix_ex(CS.DeploymentSpotController,'UpdateColor',UpdateColor)
+util.hotfix_ex(CS.DeploymentSpotController,'OnPointerUp',OnPointerUp)
+util.hotfix_ex(CS.DeploymentSpotController,'PlayCaptureRecord',PlayCaptureRecord)
+
