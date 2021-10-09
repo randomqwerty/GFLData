@@ -13,4 +13,26 @@ local MergeTeamIntoDictTeam  = function(self)
     
 end
 
+local ReplaceTeamByTeamId= function(self,teamid)
+	self:ReplaceTeamByTeamId(teamid);
+	if self._isSangvis then
+		for i=1,9 do
+			local gunCopy;
+			if self.mainTeamGun.dictLocation:ContainsKey(i) then
+				gunCopy = self.mainTeamGun.dictLocation[i];
+			end
+			if(gunCopy ~= nil and gunCopy:IsLeader()) then
+				for k,v in pairs(self.dictTeamSquad) do
+					if v~=nil and v.id == gunCopy.id then 
+						self:RemoveMainTeamGun(gunCopy);
+					   break;
+					end
+			   end
+			end
+			
+		end
+	end
+end
+
 util.hotfix_ex(CS.TheaterTeamData,'MergeTeamIntoDictTeam',MergeTeamIntoDictTeam)
+util.hotfix_ex(CS.TheaterTeamData,'ReplaceTeamByTeamId',ReplaceTeamByTeamId)

@@ -3,6 +3,9 @@ xlua.private_accessible(CS.CommonEquipmentListController)
 
 local CreateList  = function(self,...)
 	self:CreateList(...);
+	if CS.TheaterEchelonSelection.Instance ~= nil and CS.UISimulatorFormation.isExist == true then
+		CS.UISimulatorFormation.Instance:SangvisGunPagination(false, false);
+	end
 	if CS.TheaterEchelonSelection.Instance ~= nil and CS.UISimulatorFormation.isExist == false and self.showEquipWithGun then
 		for i=0,self.listFilteredEquip.Count-1 do
 			local equip = self.listFilteredEquip[i];

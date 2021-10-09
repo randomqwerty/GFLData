@@ -385,7 +385,9 @@ patch2080={
 "2080/SangvisFormaionController",
 "2080/MissionSelectionSangvisSimDungeonBoxController",
 "2080/BattleMemberController",
-"2080/BattleUIController",	
+"2080/BattleUIController",
+"2080/BattleController",
+"2080/BattleUITheaterConditionsController",			
 "2080/Requests",
 "2080/CommonAudioController",
 "2080/TargetTrainGameData",
@@ -394,6 +396,7 @@ patch2080={
 "2080/FactoryController",
 "2080/FactoryDevelopLogListLabelController",
 "2080/TheaterEchelonSelection",
+"2080/TheaterEchelonSelectionEnemyUIController",	
 "2080/TheaterGainEffectUIController",
 "2080/TheaterFormationRectItem",
 "2080/MissionSelectionEchelonController",
@@ -405,8 +408,12 @@ patch2080={
 "2080/TheaterCombatSettlementUIController",
 "2080/CommonEquipmentListController",
 "2080/LoginController",
+"2080/WishGunEventBoxController",	
+"2080/CommonGetNewGunController",	
+	
 }
 patch2081={}
+patch2090={}
 -- va11
 print("load Va11");
 --table.insert(patch2081, "collaboration/Va11/AVGController");
@@ -415,12 +422,12 @@ print("load Va11");
 --table.insert(patch2081, "collaboration/Va11/DormCafeCustomerController");
 --table.insert(patch2081, "collaboration/Va11/DormController");
 --table.insert(patch2081, "collaboration/Va11/OPSPanelController");
---table.insert(patch2080, "collaboration/Va11/AVGController");
---table.insert(patch2080, "collaboration/Va11/Badge");
---table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");
---table.insert(patch2080, "collaboration/Va11/DormCafeCustomerController");
---table.insert(patch2080, "collaboration/Va11/DormController");
---table.insert(patch2080, "collaboration/Va11/OPSPanelController");
+table.insert(patch2090, "collaboration/Va11/AVGController");
+table.insert(patch2090, "collaboration/Va11/Badge");
+table.insert(patch2090, "collaboration/Va11/CafeGunMemoirListController");
+table.insert(patch2090, "collaboration/Va11/DormCafeCustomerController");
+table.insert(patch2090, "collaboration/Va11/DormController");
+table.insert(patch2090, "collaboration/Va11/OPSPanelController");
 
 if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
 	CS.NDebug.PrintLog = true;
