@@ -51,5 +51,11 @@ local ShowTeamFormation = function(self)
 		end
 	end
 end
+local _RefreshExtraUI = function(self)
+	self.maxSangvisCost = self.areaInfo.theater_spare_sangvis_cost + CS.Data.GetConstructionGunNumEffect(self.areaInfo.theater_id, CS.TheaterTeamData.isSangvisTeam);
+	CS.TheaterTeamData.instance.spareGunNum = self.areaInfo.theater_spare_gun_num + CS.Data.GetConstructionGunNumEffect(self.areaInfo.theater_id, CS.TheaterTeamData.isSangvisTeam);
+	self:RefreshExtraUI();
+end
 util.hotfix_ex(CS.TheaterEchelonSelection,'Start',Start)
 util.hotfix_ex(CS.TheaterEchelonSelection,'ShowTeamFormation',ShowTeamFormation)
+util.hotfix_ex(CS.TheaterEchelonSelection,'RefreshExtraUI',_RefreshExtraUI)
