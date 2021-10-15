@@ -21,5 +21,15 @@ local OnClickHideUi = function(self)
 		self:OnClickHideUi();
 	end
 end
+local _PlayAudioAVGEffect = function(self,name)
+	if name == 'Stop_AVG_loop' then
+		if CS.ConfigData.playEffect == true then
+			CS.CommonAudioController.StopAVGSEAudio();
+		end
+	else
+		self:PlayAudioAVGEffect(name);
+	end
+end
 --util.hotfix_ex(CS.AVGController,'DestoryAVG',DestoryAVG)
 util.hotfix_ex(CS.AVGController,'OnClickHideUi',OnClickHideUi)
+util.hotfix_ex(CS.AVGController,'PlayAudioAVGEffect',_PlayAudioAVGEffect)
