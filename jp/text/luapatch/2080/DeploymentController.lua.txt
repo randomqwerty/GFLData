@@ -228,6 +228,13 @@ local CheckTeam = function(self,teamController,delay)
 		end
 	end	
 end
+
+local TriggerSelectSpot = function(spot)
+	if spot.currentTeam ~= nil and CS.DeploymentPlanModeController.Instance.status == CS.DeploymentPlanModeController.PlanStatus.pause then
+		CS.DeploymentPlanModeController.Instance.status = CS.DeploymentPlanModeController.PlanStatus.wait;
+	end
+	CS.DeploymentController.TriggerSelectSpot(spot);
+end
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -243,6 +250,7 @@ util.hotfix_ex(CS.DeploymentController,'PlaySpotTeamCapture',PlaySpotTeamCapture
 util.hotfix_ex(CS.DeploymentController,'CheckPlayerLayers',CheckPlayerLayers)
 util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwitchAbovePanelEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckTeam',CheckTeam)
+util.hotfix_ex(CS.DeploymentController,'TriggerSelectSpot',TriggerSelectSpot)
 --util.hotfix_ex(CS.DeploymentController,'RequestStartMissionHandle',RequestStartMissionHandle)
 
 

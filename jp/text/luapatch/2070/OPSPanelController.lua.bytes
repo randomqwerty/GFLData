@@ -182,11 +182,15 @@ local SelectProcessInfo = function(self,processInfo)
 		CS.OPSPanelBackGround.Instance:FocusPanelMove(processInfo.panelspot.transform.localPosition);
 		return;
 	end
-	selectHolderOrder = processInfo.panelspot.missionHolderOrder;
+	if processInfo.panelspot ~= nil then
+		selectHolderOrder = processInfo.panelspot.missionHolderOrder;
+	end
 	CS.OPSPanelController.difficulty = processInfo.diffcluty; 
 	self:SelectProcessInfo(processInfo);
-	CS.OPSPanelBackGround.Instance.movespotscale = CS.OPSPanelBackGround.Instance.scale;
-	CS.OPSPanelBackGround.Instance:FocusSpotMove(processInfo.panelspot.transform.localPosition);
+	if processInfo.panelspot ~= nil then
+		CS.OPSPanelBackGround.Instance.movespotscale = CS.OPSPanelBackGround.Instance.scale;
+		CS.OPSPanelBackGround.Instance:FocusSpotMove(processInfo.panelspot.transform.localPosition);
+	end
 end
 
 function ShowMissionPanel(self,mission)--显示关卡具体界面
