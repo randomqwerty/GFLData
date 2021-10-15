@@ -12,7 +12,7 @@ NPC-Passadou(0)<Speaker>AH400</Speaker>||:“把谎言当做弥补裂痕的胶�
 ()<Speaker>观众1</Speaker>||:哎，什么味儿啊？
 ()<Speaker>观众2</Speaker>||:什么东西糊了？
 NPC-Passadou(0)<Speaker>AH400</Speaker>||:“等到你愿意停下脚步回头看向我”+“我早已伤痕累累不堪重负”
-()||<BGM>BGM_Empty</BGM>:猛然间，火舌沿着厚重的帷幕和地毯，一路顺势而上。<火焰></火焰>
+()||<BGM>BGM_Empty</BGM><common_effect>%%code=CJ_fire%%</common_effect>:猛然间，火舌沿着厚重的帷幕和地毯，一路顺势而上。
 ()||<SE1>AVG_Crowd_Run</SE1>:观众们惊声四起，朝着剧院外惊惶逃窜起来。
 ()<Speaker>观众</Speaker>||:快跑啊！着火了！
 TAC50(0)<Speaker>TAC50</Speaker>||:AH400！
@@ -53,7 +53,7 @@ NPC-Fuduto(0)<Speaker>帕萨杜</Speaker>||:闭嘴！闭嘴！闭嘴啊！
 ()||:AH400没有犹豫，立刻将帕萨杜从道具的残骸中拉了出来。
 NPC-Passadou(0)<Speaker>AH400</Speaker>||:帕萨杜小姐！小姐！
 ()<Speaker>帕萨杜</Speaker>||:……
-()||<黑屏1><BGM>BGM_Empty</BGM>:远远看见一切的TAC50强压住心中的怒火，狂奔到AH400的身边。<火焰销毁></火焰销毁>
+()||<黑屏1><BGM>BGM_Empty</BGM><关闭蒙版>:远远看见一切的TAC50强压住心中的怒火，狂奔到AH400的身边。
 TAC50(0)<Speaker>TAC50</Speaker>||<黑屏2><BIN>282</BIN>:……AH400。
 NPC-Passadou(0)<Speaker>AH400</Speaker>||:太好了！TAC50，我正愁怎么办才好……
 ()||<BGM>10258</BGM>:AH400将帕萨杜抱起来，递给了TAC50。
@@ -166,5 +166,5 @@ NPC-Fuduto(0)<Speaker>帕萨杜</Speaker>||:嗯，我知道。
 NPC-Arla(0)<Speaker>阿尔拉</Speaker>||:唔……我的头有点晕，先去假寐一会……+你别走好吗？陪在我身边……
 NPC-Fuduto(0)<Speaker>帕萨杜</Speaker>||:好，乖乖睡吧，我会一直陪在你的身边……
 ()||:在帕萨杜的轻抚下，阿尔拉进入了香甜的梦乡。+梦里他们回到了乡下老家，在依山傍水远离人烟的地方建了一处小宅。+阿尔拉每天开车前往附近的小镇上班，人形留在家中陪伴帕萨杜。+当他下班的时候，他会先去镇上的花店买一束鲜花，然后再驱车回家。+等他到达家中的时候，人形正好把饭菜都热上，大家一起开开心心地吃饭聊天。+就这样普通平凡地生活，日复一日，直到他们都老去……
-NPC-Arla(0)<Speaker>阿尔拉</Speaker>||:帕萨杜，前几天买的花枯了就扔掉吧，我给你买新的……<火焰></火焰>+还有今天的甜点很不错，人形……
+NPC-Arla(0)<Speaker>阿尔拉</Speaker>||<common_effect>%%code=CJ_fire%%</common_effect>:帕萨杜，前几天买的花枯了就扔掉吧，我给你买新的……+还有今天的甜点很不错，人形……
 ()||<黑屏1>:空荡荡的办公室中没有人能回应他。+被遗弃在地上的玫瑰遭到火焰的屠戮，迅速枯萎消瘦下去。+唯有逐渐逼近的火焰环绕着阿尔拉，静静聆听着他的喃喃梦呓。
