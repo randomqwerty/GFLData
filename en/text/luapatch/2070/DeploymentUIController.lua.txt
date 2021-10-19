@@ -46,12 +46,20 @@ local CheckWinTypeOr = function(logic,showTarget,medal)
 		CS.DeploymentUIController.CheckWinTypeOr(logic,showTarget,medal);
 	end	
 end
+
+local CheckLayer = function(self)
+	self:CheckLayer();
+	if not CS.DeploymentBackgroundController.canClickLayers:Contains(CS.DeploymentBackgroundController.currentlayer) then
+		CS.DeploymentBackgroundController.Instance:SwitchLayer(CS.DeploymentBackgroundController.canClickLayers[0]);
+	end
+end
 util.hotfix_ex(CS.DeploymentUIController,'ShowLeftBuildSkillUI',ShowLeftBuildSkillUI)
 util.hotfix_ex(CS.DeploymentUIController,'ShowRightBuildSkillUI',ShowRightBuildSkillUI)
 util.hotfix_ex(CS.DeploymentUIController,'ShowDeploymentExplain',ShowDeploymentExplain)
 util.hotfix_ex(CS.DeploymentUIController,'CheckTypeComplete',CheckTypeComplete)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.DeploymentUIController,'CheckWinTypeOr',CheckWinTypeOr)
+util.hotfix_ex(CS.DeploymentUIController,'CheckLayer',CheckLayer)
 
 
 
