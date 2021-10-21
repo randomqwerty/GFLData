@@ -350,7 +350,8 @@ patch2080={
 "2080/AVGController",
 "2080/AVGTrigger",	
 "2080/CommonLive2DController",
-"2080/CommonController",			
+"2080/CommonController",
+"2080/CommonPicController",			
 "2080/FollowCamera",
 "2080/GuideDeploymentController",	
 "2080/DeploymentController",
@@ -386,8 +387,7 @@ patch2080={
 "2080/MissionSelectionSangvisSimDungeonBoxController",
 "2080/BattleMemberController",
 "2080/BattleUIController",
-"2080/BattleController",
-"2080/BattleUITheaterConditionsController",			
+"2080/BattleController",		
 "2080/Requests",
 "2080/CommonAudioController",
 "2080/TargetTrainGameData",
@@ -396,7 +396,6 @@ patch2080={
 "2080/FactoryController",
 "2080/FactoryDevelopLogListLabelController",
 "2080/TheaterEchelonSelection",
-"2080/TheaterEchelonSelectionEnemyUIController",	
 "2080/TheaterGainEffectUIController",
 "2080/TheaterFormationRectItem",
 "2080/MissionSelectionEchelonController",
@@ -410,7 +409,7 @@ patch2080={
 "2080/LoginController",
 "2080/WishGunEventBoxController",	
 "2080/CommonGetNewGunController",	
-	
+"2080/GFCriServerWrapper",	
 }
 patch2081={}
 patch2090={}

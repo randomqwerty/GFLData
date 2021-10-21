@@ -60,10 +60,41 @@ local CheckLayer = function()
 		CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
 	end
 end
+function HasCanControlTeam()
+	for i=0,CS.DeploymentController.Instance.playerTeams.Count-1 do
+		if CS.DeploymentController.Instance.playerTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.allyTeams.Count-1 do
+		if CS.DeploymentController.Instance.allyTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.sangvisTeams.Count-1 do
+		if CS.DeploymentController.Instance.sangvisTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.squadTeams.Count-1 do
+		if CS.DeploymentController.Instance.squadTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	return false;  
+end
 local RequestStartTurnHandle = function(self,www)
+	local spot = CS.SpotInfo();
+	spot.id = -1;
+	spot.type = CS.SpotType.headQuarter;
+	spot.belong = CS.Belong.friendly;
+	if HasCanControlTeam() then
+		CS.DeploymentBackgroundController.Instance.listSpotInfo:Add(spot);
+	end
 	self:RequestStartTurnHandle(www);
 	CS.DeploymentController.Instance:AddAndPlayPerformance(CheckEnemyDie);
 	CS.DeploymentController.Instance:AddAndPlayPerformance(CheckLayer);
+	CS.DeploymentBackgroundController.Instance.listSpotInfo:Remove(spot);
 end
 local AnalysisNightSpots = function(self,data,playSpotAnim,currentBelong,isSurrend)
 	self:AnalysisNightSpots(data,playSpotAnim,currentBelong,isSurrend);
