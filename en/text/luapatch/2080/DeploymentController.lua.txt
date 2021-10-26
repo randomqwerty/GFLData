@@ -235,6 +235,60 @@ local TriggerSelectSpot = function(spot)
 	end
 	CS.DeploymentController.TriggerSelectSpot(spot);
 end
+function HasCanControlTeam()
+	for i=0,CS.DeploymentController.Instance.playerTeams.Count-1 do
+		if CS.DeploymentController.Instance.playerTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.allyTeams.Count-1 do
+		if CS.DeploymentController.Instance.allyTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.sangvisTeams.Count-1 do
+		if CS.DeploymentController.Instance.sangvisTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.squadTeams.Count-1 do
+		if CS.DeploymentController.Instance.squadTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	return false;  
+end
+function HasDeploySpot()
+	for i=0,CS.DeploymentBackgroundController.Instance.listSpot.Count-1 do
+		local spot = CS.DeploymentBackgroundController.Instance.listSpot:GetDataByIndex(i);
+		if CS.DeploymentController.CanDeploy(spot) then
+			return true;
+		end
+	end
+	return false;
+end
+local RequestStartTurnHandle = function(self,www)
+	local spot = CS.SpotInfo();
+	spot.id = -1;
+	spot.type = CS.SpotType.headQuarter;
+	spot.belong = CS.Belong.friendly;
+	if HasCanControlTeam() or HasDeploySpot() then
+		CS.DeploymentBackgroundController.Instance.listSpotInfo:Add(spot);
+	end
+	self:RequestStartTurnHandle(www);
+	CS.DeploymentBackgroundController.Instance.listSpotInfo:Remove(spot);
+end
+
+local CanPlayerAction = function(self)
+	if CS.GameData.currentSelectedMissionInfo.useDemoMission then
+		if HasDeploySpot() then
+			return  true;
+		end
+		return false;	
+	end
+	return true;
+end
+
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -251,6 +305,7 @@ util.hotfix_ex(CS.DeploymentController,'CheckPlayerLayers',CheckPlayerLayers)
 util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwitchAbovePanelEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckTeam',CheckTeam)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectSpot',TriggerSelectSpot)
---util.hotfix_ex(CS.DeploymentController,'RequestStartMissionHandle',RequestStartMissionHandle)
+util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
+util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 
 
