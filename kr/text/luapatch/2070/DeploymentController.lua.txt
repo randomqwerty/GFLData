@@ -60,10 +60,50 @@ local CheckLayer = function()
 		CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
 	end
 end
+function HasCanControlTeam()
+	for i=0,CS.DeploymentController.Instance.playerTeams.Count-1 do
+		if CS.DeploymentController.Instance.playerTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.allyTeams.Count-1 do
+		if CS.DeploymentController.Instance.allyTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.sangvisTeams.Count-1 do
+		if CS.DeploymentController.Instance.sangvisTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	for i=0,CS.DeploymentController.Instance.squadTeams.Count-1 do
+		if CS.DeploymentController.Instance.squadTeams[i]:CanPlayerHandControl() then
+			return true;
+		end
+	end
+	return false;  
+end
+function HasDeploySpot()
+	for i=0,CS.DeploymentBackgroundController.Instance.listSpot.Count-1 do
+		local spot = CS.DeploymentBackgroundController.Instance.listSpot:GetDataByIndex(i);
+		if CS.DeploymentController.CanDeploy(spot) then
+			return true;
+		end
+	end
+	return false;
+end
 local RequestStartTurnHandle = function(self,www)
+	local spot = CS.SpotInfo();
+	spot.id = -1;
+	spot.type = CS.SpotType.headQuarter;
+	spot.belong = CS.Belong.friendly;
+	if HasCanControlTeam() or HasDeploySpot() then
+		CS.DeploymentBackgroundController.Instance.listSpotInfo:Add(spot);
+	end
 	self:RequestStartTurnHandle(www);
 	CS.DeploymentController.Instance:AddAndPlayPerformance(CheckEnemyDie);
 	CS.DeploymentController.Instance:AddAndPlayPerformance(CheckLayer);
+	CS.DeploymentBackgroundController.Instance.listSpotInfo:Remove(spot);
 end
 local AnalysisNightSpots = function(self,data,playSpotAnim,currentBelong,isSurrend)
 	self:AnalysisNightSpots(data,playSpotAnim,currentBelong,isSurrend);
@@ -200,6 +240,16 @@ local ConfirmMove = function(self)
 	end	
 	self:ConfirmMove();
 end
+
+local CanPlayerAction = function(self)
+	if CS.GameData.currentSelectedMissionInfo.useDemoMission then
+		if HasDeploySpot() then
+			return  true;
+		end
+		return false;	
+	end
+	return true;
+end
 util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
 util.hotfix_ex(CS.DeploymentController,'HasTeamCanUse',HasTeamCanUse)
 util.hotfix_ex(CS.DeploymentController,'CreateTeam',CreateTeam)
@@ -212,4 +262,5 @@ util.hotfix_ex(CS.DeploymentController,'CheckColor',CheckColor)
 util.hotfix_ex(CS.DeploymentController,'GoBattle',GoBattle)
 util.hotfix_ex(CS.DeploymentController,'SelectSpot',SelectSpot)
 util.hotfix_ex(CS.DeploymentController,'ConfirmMove',ConfirmMove)
+util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 
