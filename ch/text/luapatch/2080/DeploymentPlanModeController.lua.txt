@@ -27,7 +27,16 @@ local _CancelPlan = function(self)
 		CS.DeploymentController.TriggerSwitchAbovePanelEvent(true);
 	end
 end
+local Update = function(self)
+	if CS.DeploymentController.Instance ~= nil then
+		if CS.DeploymentController.Instance._randomEventController ~= nil and CS.DeploymentController.Instance._randomEventController.gameObject.activeSelf then
+			return;
+		end
+	end
+	self:Update();
+end
 util.hotfix_ex(CS.DeploymentPlanModeController,'UpdateStatus',UpdateStatus)
 util.hotfix_ex(CS.DeploymentPlanModeController,'Init',Init)
 util.hotfix_ex(CS.DeploymentPlanModeController,'_CancelPlan',_CancelPlan)
+util.hotfix_ex(CS.DeploymentPlanModeController,'Update',Update)
 
