@@ -6,4 +6,12 @@ local PlayMissionEndWinAVG = function(self)
 	self:PlayMissionEndWinAVG();
 end
 
+local ScriptName = function(self,currentMission,script)
+	if currentMission.winCount == 1 and CS.GameData.missionResult ~= nil then
+		self:ScriptEndName(script);
+		return;
+	end
+	self:ScriptName(currentMission,script);
+end
 util.hotfix_ex(CS.AVGTrigger,'PlayMissionEndWinAVG',PlayMissionEndWinAVG)
+util.hotfix_ex(CS.AVGTrigger,'ScriptName',ScriptName)
