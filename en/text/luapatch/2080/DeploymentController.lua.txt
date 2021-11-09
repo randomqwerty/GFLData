@@ -2,6 +2,7 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentController)
 xlua.private_accessible(CS.GameData)
 
+playSpotTeamCapture = 0;
 local InitTeamSpots = function(self)
 	self:InitTeamSpots();
 	if not CS.DeploymentBackgroundController.currentLayerData == nil then
@@ -179,6 +180,7 @@ local PlayGrowSummonEnemy = function(self)
 end
 
 local PlaySpotTeamCapture = function(self)
+	playSpotTeamCapture = 0;
 	for i=0,self.cannotPlayLayer.Count-1 do
 		for j=CS.GameData.missionAction.queueSpotTeamCapture.Count-1,0,-1 do
 			local record = CS.GameData.missionAction.queueSpotTeamCapture[j];
@@ -188,9 +190,14 @@ local PlaySpotTeamCapture = function(self)
 			end
 		end
 	end
+	playSpotTeamCapture = 1;
 	self:PlaySpotTeamCapture();
 end
 
+local PlaySpotSurroundCapture = function(self)
+	playSpotTeamCapture = 2;
+	self:PlaySpotSurroundCapture();
+end
 local CheckPlayerLayers = function(self)
 	self:CheckPlayerLayers();
 	for j=CS.GameData.missionAction.queueSpotTeamCapture.Count-1,0,-1 do
@@ -289,6 +296,12 @@ local CanPlayerAction = function(self)
 	return true;
 end
 
+local Awake = function(self)
+	if CS.GameData.missionAction == nil then
+		CS.GameData.missionResult = nil;
+	end
+	self:Awake();
+end
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -301,11 +314,12 @@ util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
 util.hotfix_ex(CS.DeploymentController,'CheckTeamCanMove',CheckTeamCanMove)
 util.hotfix_ex(CS.DeploymentController,'PlayGrowSummonEnemy',PlayGrowSummonEnemy)
 util.hotfix_ex(CS.DeploymentController,'PlaySpotTeamCapture',PlaySpotTeamCapture)
+util.hotfix_ex(CS.DeploymentController,'PlaySpotSurroundCapture',PlaySpotSurroundCapture)
 util.hotfix_ex(CS.DeploymentController,'CheckPlayerLayers',CheckPlayerLayers)
 util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwitchAbovePanelEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckTeam',CheckTeam)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectSpot',TriggerSelectSpot)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
-
+util.hotfix_ex(CS.DeploymentController,'Awake',Awake)
 

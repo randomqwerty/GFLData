@@ -1,4 +1,5 @@
 local util = require 'xlua.util'
+local panelController = require("2080/DeploymentController")
 xlua.private_accessible(CS.DeploymentSpotController)
 
 
@@ -30,8 +31,16 @@ local PlayCaptureRecord = function(self,record,isLastRecord,play)
 	CS.GameData.missionAction.spotid_TransBelongInfo:Remove(record.spotAction.spotInfo.id);
 	self:PlayCaptureRecord(record,isLastRecord,play);
 end
+
+local OnFinishAnimationEvent = function(self)
+	if playSpotTeamCapture == 1 then
+		CS.DeploymentController.Instance:PlaySpotTeamCapture();
+	elseif playSpotTeamCapture == 2 then
+		CS.DeploymentController.Instance:PlaySpotSurroundCapture();
+	end
+end  
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateCurrentInformation',UpdateCurrentInformation)
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateColor',UpdateColor)
 util.hotfix_ex(CS.DeploymentSpotController,'OnPointerUp',OnPointerUp)
 util.hotfix_ex(CS.DeploymentSpotController,'PlayCaptureRecord',PlayCaptureRecord)
-
+util.hotfix_ex(CS.DeploymentSpotController,'OnFinishAnimationEvent',OnFinishAnimationEvent)

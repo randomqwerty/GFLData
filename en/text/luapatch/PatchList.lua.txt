@@ -411,17 +411,19 @@ patch2080={
 "2080/CommonGetNewGunController",	
 "2080/GFCriServerWrapper",	
 "2080/SangvisCaptureController",	
+"2080/ShareController",
 }
 patch2081={}
 patch2090={}
 -- va11
 print("load Va11");
---table.insert(patch2081, "collaboration/Va11/AVGController");
---table.insert(patch2081, "collaboration/Va11/Badge");
---table.insert(patch2081, "collaboration/Va11/CafeGunMemoirListController");
---table.insert(patch2081, "collaboration/Va11/DormCafeCustomerController");
---table.insert(patch2081, "collaboration/Va11/DormController");
---table.insert(patch2081, "collaboration/Va11/OPSPanelController");
+table.insert(patch2080, "collaboration/Va11/AVGController");
+table.insert(patch2080, "collaboration/Va11/Badge");
+table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");
+table.insert(patch2080, "collaboration/Va11/DormCafeCustomerController");
+table.insert(patch2080, "collaboration/Va11/DormController");
+table.insert(patch2080, "collaboration/Va11/OPSPanelController");
+table.insert(patch2080, "collaboration/Va11/OPSPanelMissionBase");
 table.insert(patch2090, "collaboration/Va11/AVGController");
 table.insert(patch2090, "collaboration/Va11/Badge");
 table.insert(patch2090, "collaboration/Va11/CafeGunMemoirListController");
