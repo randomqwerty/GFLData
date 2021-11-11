@@ -40,7 +40,7 @@ local isReadyServeHuge = false --调好的酒是否是大杯
 
 local ReadyServeKarmo = 0 --调好的酒里面的酒精量
 
-local showBlendButton = false -- 是否显示调和按钮
+local showBlendButton = true -- 是否显示调和按钮
 
 --晃动手机相关
 local lastshake = 0

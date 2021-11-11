@@ -79,7 +79,7 @@ PlayGunMemoirAVG  =function(self,id,msg)
 		end,1,CS.DormUIController.Instance)
 		
 		CS.CommonController.Invoke(function()
-			CS.DormController.instance:FreezeFrame()
+			CS.DormController.instance:StartCoroutine("FreezeFrame",false)
 		end, 4.5, CS.DormController.instance)
 		
 		CS.CommonController.Invoke(function()

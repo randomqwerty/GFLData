@@ -139,6 +139,9 @@ local FixedUpdate = function(self)
 
 	if VA11Branch  ~= "-1" then
 		self.currentBranchNum = tonumber(VA11Branch)
+		if self.currentBranchNum ~= 0 then
+			self.lastBranchNode = self.currentNode;
+		end
 		self.currentNode.Value.selectNum = tonumber(VA11Branch)
 		CS.UnityEngine.PlayerPrefs.SetString('VA11Branch',"-1")
 		CS.UnityEngine.PlayerPrefs.SetString('VA11Perfect',"-1")

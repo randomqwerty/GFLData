@@ -9,4 +9,3 @@ end
 util.hotfix_ex(CS.SpotAction,'EnemyDataClear',EnemyDataClear)
 
 
-
