@@ -296,6 +296,12 @@ local CanPlayerAction = function(self)
 	return true;
 end
 
+local Awake = function(self)
+	if CS.GameData.missionAction == nil then
+		CS.GameData.missionResult = nil;
+	end
+	self:Awake();
+end
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -315,5 +321,5 @@ util.hotfix_ex(CS.DeploymentController,'CheckTeam',CheckTeam)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectSpot',TriggerSelectSpot)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
-
+util.hotfix_ex(CS.DeploymentController,'Awake',Awake)
 

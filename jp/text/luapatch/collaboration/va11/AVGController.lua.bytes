@@ -85,6 +85,7 @@ local CheckContainsRichText = function(self,str)
     end
     return arr;
 end
+local isOpenVa11 = false
 local DialogueShowContent = function(self)
 	if self.isTypeWriterPlaying == true then
 	
@@ -111,9 +112,10 @@ local DialogueShowContent = function(self)
 				self.transform:Find("Skip").gameObject:SetActive(false)
 				--加载预制体
 				CS.UnityEngine.PlayerPrefs.SetString('VA11Branch',"-1")
+				isOpenVa11 = true
 				local Va11GameObject = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Va11Prefabs/VA11Hall-AMenu"))
 				Va11GameObject.transform:SetParent(self.transform, false)
-
+				
 				return
 			end	
 			self:PlayDialogueBoxDisappear();
@@ -137,8 +139,12 @@ end
 local FixedUpdate = function(self)
 	local VA11Branch = CS.UnityEngine.PlayerPrefs.GetString('VA11Branch',"-1")
 
-	if VA11Branch  ~= "-1" then
+	if isOpenVa11 and VA11Branch  ~= "-1" then
+		isOpenVa11 = false
 		self.currentBranchNum = tonumber(VA11Branch)
+		if self.currentBranchNum ~= 0 then
+			self.lastBranchNode = self.currentNode;
+		end
 		self.currentNode.Value.selectNum = tonumber(VA11Branch)
 		CS.UnityEngine.PlayerPrefs.SetString('VA11Branch',"-1")
 		CS.UnityEngine.PlayerPrefs.SetString('VA11Perfect',"-1")
