@@ -334,6 +334,28 @@ function Close()
 end
 
 local SelectProcessInfo = function(self,processInfo)
+	if self.campaionId == -32 and processInfo.mission ~= nil and processInfo.mission.clocked then
+		local iter = processInfo.mission.missionInfo.PointCose:GetEnumerator()     
+		while iter:MoveNext() do                      
+			local item = iter.Current.Key;
+			local num = iter.Current.Value;
+			local realNum = CS.OPSPanelController.Instance.item_use[item].itemRealNum;
+			if realNum == 0 or realNum < num then
+				CS.CommonController.ConfirmBox(CS.Data.GetLang(230011),function()
+						CS.CommonController.GotoScene("Dorm", 20004)
+					end)
+				return;
+			end                    
+		end	
+		if processInfo.panelHolder ~= nil then
+			if processInfo.panelHolder.currentLabel == nil then
+				CS.OPSPanelBackGround.Instance:Move(processInfo.panelHolder.transform.localPosition, true, 0.5);
+				processInfo.panelHolder:ShowLable();				
+			end
+			CS.OPSPanelController.Instance:ShowUnclockMessageBox(processInfo.panelHolder.currentLabel);
+		end		
+		return;
+	end
 	selectTemp = true;
 	self:SelectProcessInfo(processInfo);
 	CS.CommonController.Invoke(Close,1,CS.OPSPanelController.Instance);
@@ -393,6 +415,27 @@ local CheckClockTimeDelay = function(self)
 	return false;
 end
 
+local RequestUnClockCampaigns = function(self)
+	self:RequestUnClockCampaigns();
+	local mapMission = CS.GameData.listMissionMapInfo:GetDataById(self.panelMissionuse.currentMissionInfo.mapped_mission_id);
+	if mapMission ~= nil then
+		local missionids = mapMission.missionids;
+		for i=0,missionids.Count-1 do
+			local mission = CS.GameData.listMission:GetDataById(missionids[i]);
+			if mission ~= nil then
+				mission.clocked = false;
+			end
+		end
+		for i=0,CS.OPSPanelBackGround.Instance.spotMissionHolders.Count-1 do
+			local holder = CS.OPSPanelBackGround.Instance.spotMissionHolders[i];
+			if missionids:Contains(holder.CurrentMissionId) and holder.CurrentMissionId ~= self.panelMissionuse.CurrentMissionId then
+				if holder.currentLabel ~= nil then
+					holder.currentLabel:ShowUnclock();
+				end
+			end
+		end	
+	end 
+end
 util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineMove',CheckSpineMove)
 util.hotfix_ex(CS.OPSPanelController,'CheckContainerAngle',CheckContainerAngle)
@@ -411,3 +454,4 @@ util.hotfix_ex(CS.OPSPanelController,'ShowSpecialReturn',ShowSpecialReturn)
 util.hotfix_ex(CS.OPSPanelController,'SelectProcessInfo',SelectProcessInfo)
 util.hotfix_ex(CS.OPSPanelController,'CheckAnim',CheckAnim)
 util.hotfix_ex(CS.OPSPanelController,'CheckClockTimeDelay',CheckClockTimeDelay)
+util.hotfix_ex(CS.OPSPanelController,'RequestUnClockCampaigns',RequestUnClockCampaigns)

@@ -20,6 +20,44 @@ local RefresCommonUI = function(self)
 	missionInfo = self.missionInfo; 
 	self:RefresCommonUI();
 end
+
+local ShowNewReward = function(self)
+	local temp1 = CS.Data.GetLang(60048);
+	--local temp2 = CS.Data.GetLang(60049);
+	--local temp3 = CS.Data.GetLang(60050);
+	if self.missionInfo.campaign == -32 then
+		local mapMission = CS.GameData.listMissionMapInfo:GetDataById(self.missionInfo.mapped_mission_id);
+		if mapMission ~= nil then
+			local missionids = mapMission.missionids;
+			local index = missionids:IndexOf(self.missionInfo.id);
+			if index == 0 then
+				CS.GameData.listLanguageInfo[60048].content = CS.Data.GetLang(60291);
+			elseif index == 1 then
+				CS.GameData.listLanguageInfo[60048].content = CS.Data.GetLang(60048);
+			elseif index == 2 then
+				CS.GameData.listLanguageInfo[60048].content = CS.Data.GetLang(60292);
+			end
+		else 
+			CS.GameData.listLanguageInfo[60048].content = CS.Data.GetLang(60291);
+		end
+		--CS.GameData.listLanguageInfo[60049].content = CS.Data.GetLang(60048);
+		--CS.GameData.listLanguageInfo[60050].content = CS.Data.GetLang(60292);
+	end
+	self:ShowNewReward();
+	if self.missionInfo.campaign == -32 then
+		CS.GameData.listLanguageInfo[60048].content = temp1;
+		--CS.GameData.listLanguageInfo[60049].content = temp2;
+		--CS.GameData.listLanguageInfo[60050].content = temp3;
+	end
+end
+
+local ShowDrop = function(self)
+	while self.expectedGunIconHolder.childCount > 0 do
+		CS.UnityEngine.Object.DestroyImmediate(self.expectedGunIconHolder:GetChild(0).gameObject);
+	end
+	self:ShowDrop();
+end
 util.hotfix_ex(CS.SpecialMissionInfoController,'RequestAbortMissionHandle',RequestAbortMissionHandle)
---util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)
+util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
+util.hotfix_ex(CS.SpecialMissionInfoController,'ShowDrop',ShowDrop)
 

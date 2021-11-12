@@ -70,9 +70,13 @@ function CallCustomerAnim(self)
 		self.aiSelf:StartNewState()
 
 	else
+
 		local duplicate = CS.DormCafeController.instance:CreateAndStartCafeCustomer(self.codeWithSkinId, true, true)
 		CS.DormController.instance:UpdateAllAIList()
 		CS.DormController.instance.listAllAIController:Add(duplicate)
+		if CS.DormController.instance.listAllAIController:Contains(self) then
+			CS.DormController.instance.listAllAIController:Remove(self)
+		end
 		self:ExitCafeImmediately()	
 	end
 	pointer = tonumber(CS.UnityEngine.PlayerPrefs.GetString('VA11CafeCounter',"-1"))

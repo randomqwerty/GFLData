@@ -19,9 +19,8 @@ local Va11EventOpen = function()
 	end
 	return false;
 end
-LoadUI = function(self,campaionid)
-
-	self:LoadUI(campaionid)
+ThenLoadLeftBG = function(self,bg)
+	self:ThenLoadLeftBG(bg);
 	if not Va11EventOpen() then
 		return;
 	end
@@ -86,4 +85,4 @@ LoadUI = function(self,campaionid)
 end
 
 
-util.hotfix_ex(CS.OPSPanelController,'LoadUI',LoadUI)
+util.hotfix_ex(CS.OPSPanelController,'ThenLoadLeftBG',ThenLoadLeftBG)
