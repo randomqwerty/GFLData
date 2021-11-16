@@ -10,7 +10,7 @@ local specFlag = false
 local ScanFlag = false
 local scanObject
 local Va11EventOpen = function()
-	if CS.OPSConfig.ContainCampaigns:Contains(-32) then
+	if CS.OPSPanelController.Instance.campaionId == -32 then
 		local stamp = CS.GameData.GetCurrentTimeStamp();
 		if stamp >= CS.OPSConfig.startTime and stamp < CS.OPSConfig.endTime then
 			return true;
@@ -84,5 +84,30 @@ ThenLoadLeftBG = function(self,bg)
 	
 end
 
-
+SelectProcessInfo = function(self,processInfo)
+	if processInfo.mission ~= nil and processInfo.mission.clock then
+		local iter = processInfo.mission.missionInfo.PointCose:GetEnumerator()     
+		while iter:MoveNext() do                      
+			local item = iter.Current.Key;
+			local num = iter.Current.Value;
+			local realNum = CS.OPSPanelController.Instance.item_use[item].itemRealNum;
+			if realNum == 0 or realNum < num then
+				CS.CommonController.ConfirmBox(CS.Data.GetLang(230011),function()
+						CS.CommonController.GotoScene("Dorm", 20004)
+					end)
+				return;
+			end                    
+		end	
+		if processInfo.panelHolder ~= nil then
+			if processInfo.panelHolder.currentLabel == nil then
+				CS.OPSPanelBackGround.Instance:Move(processInfo.panelHolder.transform.localPosition, true, 0.5);
+				processInfo.panelHolder:ShowLable();				
+			end
+			CS.OPSPanelController.Instance:ShowUnclockMessageBox(processInfo.panelHolder.currentLabel);
+		end		
+		return;
+	end
+	self:SelectProcessInfo(processInfo);
+end
 util.hotfix_ex(CS.OPSPanelController,'ThenLoadLeftBG',ThenLoadLeftBG)
+--util.hotfix_ex(CS.OPSPanelController,'SelectProcessInfo',SelectProcessInfo)
