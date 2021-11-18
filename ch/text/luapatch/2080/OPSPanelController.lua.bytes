@@ -357,6 +357,17 @@ local SelectProcessInfo = function(self,processInfo)
 		return;
 	end
 	selectTemp = true;
+	self.currentChoose = nil;
+	self.chooseSpot = nil;
+	if processInfo.panelHolder == nil then
+		self:ShowAllMission();
+	end
+	for i=0,CS.OPSPanelBackGround.Instance.spotMissionHolders.Count-1 do
+		local holder = CS.OPSPanelBackGround.Instance.spotMissionHolders[i];
+		if holder.currentLabel ~= nil then
+			holder.currentLabel.lastmissioninfo = nil;
+		end		
+	end	
 	self:SelectProcessInfo(processInfo);
 	CS.CommonController.Invoke(Close,1,CS.OPSPanelController.Instance);
 end
@@ -436,6 +447,17 @@ local RequestUnClockCampaigns = function(self)
 		end	
 	end 
 end
+local Play3dSpotAnim = function(self,spot)
+	local layer0 = spot.transform:Find("layer0");
+	if layer0 == nil then
+		return;
+	end
+	self:Play3dSpotAnim(spot);
+end
+local CheckSpecialAnim = function(self)
+	CS.OPSPanelController.selectHolderOrder = -1;
+	self:CheckSpecialAnim();
+end
 util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineMove',CheckSpineMove)
 util.hotfix_ex(CS.OPSPanelController,'CheckContainerAngle',CheckContainerAngle)
@@ -455,3 +477,5 @@ util.hotfix_ex(CS.OPSPanelController,'SelectProcessInfo',SelectProcessInfo)
 util.hotfix_ex(CS.OPSPanelController,'CheckAnim',CheckAnim)
 util.hotfix_ex(CS.OPSPanelController,'CheckClockTimeDelay',CheckClockTimeDelay)
 util.hotfix_ex(CS.OPSPanelController,'RequestUnClockCampaigns',RequestUnClockCampaigns)
+util.hotfix_ex(CS.OPSPanelController,'Play3dSpotAnim',Play3dSpotAnim)
+util.hotfix_ex(CS.OPSPanelController,'CheckSpecialAnim',CheckSpecialAnim)
