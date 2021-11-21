@@ -29,8 +29,10 @@ local _CancelPlan = function(self)
 end
 local Update = function(self)
 	if CS.DeploymentController.Instance ~= nil then
-		if CS.DeploymentController.Instance._randomEventController ~= nil and CS.DeploymentController.Instance._randomEventController.gameObject.activeSelf then
-			return;
+		if CS.DeploymentController.Instance._randomEventController ~= nil and not CS.DeploymentController.Instance._randomEventController:isNull() then
+			if CS.DeploymentController.Instance._randomEventController.gameObject.activeSelf then				
+				return;
+			end
 		end
 	end
 	self:Update();

@@ -12,12 +12,26 @@ local RequestAbortMissionHandle = function(self,www)
 		end
 	end
 end
-local missionInfo = nil;
-local RefresCommonUI = function(self)
-	if self.missionInfo == missionInfo then
-		return;
+
+local RefresCommonUI = function(self) 
+	if self.entranceId ~= 0 then
+		local missionid = self.missionInfo.Id;
+		local info = CS.OPSConfig.missionEntranceInfos[self.entranceId];
+		self.btnSelectDiffcluty.gameObject:SetActive(false);
+		for i=0,info.missionids.Count-1 do
+			if info.missionids[i]:Contains(missionid) then
+				local check = 0;
+				for j=0,info.missionids[i].Count-1 do
+					if info.missionids[i][j] == missionid then
+						check = check+1;
+					end
+				end
+				if check == 1 then
+					self.btnSelectDiffcluty.gameObject:SetActive(true);
+				end
+			end
+		end
 	end
-	missionInfo = self.missionInfo; 
 	self:RefresCommonUI();
 end
 
@@ -80,4 +94,4 @@ end
 util.hotfix_ex(CS.SpecialMissionInfoController,'RequestAbortMissionHandle',RequestAbortMissionHandle)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowDrop',ShowDrop)
-
+util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)

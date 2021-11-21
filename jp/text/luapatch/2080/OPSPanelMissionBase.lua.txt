@@ -6,6 +6,13 @@ local PlayShow = function(self)
 	self:PlayShow();
 end
 
-util.hotfix_ex(CS.OPSPanelMissionBase,'PlayShow',PlayShow)
+local CheckDropMissionkeyInfo = function(self,txt)
+	if self.currentMission == nil then
+		return;
+	end
+	self:CheckDropMissionkeyInfo(txt);
+end
 
+util.hotfix_ex(CS.OPSPanelMissionBase,'PlayShow',PlayShow)
+util.hotfix_ex(CS.OPSPanelMissionBase,'CheckDropMissionkeyInfo',CheckDropMissionkeyInfo)
 

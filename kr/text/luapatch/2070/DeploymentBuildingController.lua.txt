@@ -32,7 +32,9 @@ local buildAction = function(self)
 	if CS.GameData.missionAction ~= nil then		
 		local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.spot.spotInfo.id);
 		self.spot.buildingAction = buildAction;
-		self.spot.spotAction.buildingAction = buildAction;
+		if self.spot.spotAction ~= nil then
+			self.spot.spotAction.buildingAction = buildAction;
+		end
 		buildAction._buildController = self;
 		return buildAction;
 	end	

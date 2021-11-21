@@ -3246,6 +3246,9 @@ function InitEventPart()
 end
 function ResolveCurrentEvent(sel)
 	--未完成
+	if currentEvent == nil then
+		return
+	end
 	if sel == -1 then
 		ResolveEventEffect(currentEvent.info.punish)
 		currentEvent = nil
