@@ -53,8 +53,15 @@ local myRequestWishGunDevelHandle = function(self, request)
 		self:RequestWishGunDevelHandle(request);
 	end
 end
+local myInitWish = function(self, type, isWish, gunType)
+	self:InitWish(type, isWish, gunType);
+	if isWish == true and type == CS.DevelopType.SpecialGun then
+		self.textWishGunTipsSp.text = self.textWishGunTips.text;
+	end
+end
 util.hotfix_ex(CS.DevelopController,'OnClickItem',myOnClickItem)
 --util.hotfix_ex(CS.DevelopEquipmentController,'OnClickItem',myEquipOnClickItem)
+util.hotfix_ex(CS.BatchDevelopConfirmBoxController,'InitWish',myInitWish)
 util.hotfix_ex(CS.BatchDevelopConfirmBoxController,'RequestWishGunDevelHandle',myRequestWishGunDevelHandle)
 util.hotfix_ex(CS.BatchDevelopConfirmBoxController,'RequestStartDevelopEquipHandle',myRequestStartDevelopEquipHandle)
 util.hotfix_ex(CS.BatchDevelopConfirmBoxController,'RequestStartEquipProduceDevelopHandle',myRequestStartEquipProduceDevelopHandle)

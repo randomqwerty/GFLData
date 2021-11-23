@@ -243,7 +243,8 @@ patch2070=
 "collaboration/Anniversary/HomeController",
 "2070/FactoryController",
 "2070/TargetTrainGameData",
-"2070/CommonCharacterLabelControler",	
+"2070/CommonCharacterLabelControler",
+"2070/MissionSelectionCampaignSelectButtonController",			
 }
 patch2071={
 "2071/FlightChessGameController",
@@ -348,7 +349,8 @@ patch2072={
 }
 patch2080={
 "2080/AVGController",
-"2080/AVGTrigger",	
+"2080/AVGTrigger",
+"2080/AdjustAdjutantScaleController",		
 "2080/CommonLive2DController",
 "2080/CommonController",
 "2080/CommonPicController",			
