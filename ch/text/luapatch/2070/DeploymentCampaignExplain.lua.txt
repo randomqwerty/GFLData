@@ -103,7 +103,17 @@ end
 local OnToggleValueChangedSettingSangvisSkillCutin_8 = function(self,isOn)
 	CS.ConfigData.SangvisSkillPerformace = isOn;
 end
+
+local InitShowGoldTarget = function(self)
+	self:InitShowGoldTarget();
+	if CS.GameData.currentSelectedMissionInfo.hostageTotalNum > 0  then
+		self.itemsGold[2].winTypeInfo.type = 1404;
+		self.itemsGold[2].winTypeInfo.arguments = CS.GameData.currentSelectedMissionInfo.hostageTotalNum;
+	end
+end
+
 util.hotfix_ex(CS.DeploymentCampaignExplain,'InitOld',InitOld)
 util.hotfix_ex(CS.DeploymentCampaignExplain,'Init',Init)
 util.hotfix_ex(CS.DeploymentCampaignExplain,'ShowTarget',ShowTarget)
 util.hotfix_ex(CS.DeploymentCampaignExplain,'OnToggleValueChangedSettingSangvisSkillCutin_8',OnToggleValueChangedSettingSangvisSkillCutin_8)
+util.hotfix_ex(CS.DeploymentCampaignExplain,'InitShowGoldTarget',InitShowGoldTarget)
