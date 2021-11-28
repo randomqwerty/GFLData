@@ -5,7 +5,7 @@ local OnClickSwitchDamaged = function(self)
 	local damaged = false;	
 	if self.editAdjutantInfo.GetAdjutantType == CS.AdjutantInfo.AdjutantType.GUN then		
 		local picController = CS.HomeController.Instance.adjutantController:GetPicController(self.isLeftAdjutant);
-		if picController ~= nil and picController.live2dHolder ~= nil then
+		if picController ~= nil and picController.live2dHolder ~= nil and picController.transform.childCount > 1 then
 			damaged = not picController.transform:GetChild(1).gameObject.activeSelf;
 			picController:SwitchDamaged(damaged);
 			picController:SetLayer("Live2DBG");

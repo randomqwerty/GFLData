@@ -25,6 +25,10 @@ local SwitchDamaged = function(self,isHurt,image)
 	end
 	local bg = self.transform:Find("Bg");
 	if bg ~= nil then
+		local image = bg:GetComponent(typeof(CS.ExImage));
+		if image.material ~= nil then
+			image.material.renderQueue = 2990;
+		end
 		if isHurt or forceHide then
 			bg.gameObject:SetActive(false);
 		else
@@ -33,6 +37,10 @@ local SwitchDamaged = function(self,isHurt,image)
 	end
 	local bg_D = self.transform:Find("Bg_D");
 	if bg_D ~= nil then
+		local image = bg_D:GetComponent(typeof(CS.ExImage));
+		if image.material ~= nil then
+			image.material.renderQueue = 2990;
+		end
 		if not isHurt or forceHide then
 			bg_D.gameObject:SetActive(false);
 		else

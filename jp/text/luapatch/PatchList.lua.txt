@@ -243,7 +243,8 @@ patch2070=
 "collaboration/Anniversary/HomeController",
 "2070/FactoryController",
 "2070/TargetTrainGameData",
-"2070/CommonCharacterLabelControler",	
+"2070/CommonCharacterLabelControler",
+"2070/MissionSelectionCampaignSelectButtonController",			
 }
 patch2071={
 "2071/FlightChessGameController",
