@@ -54,6 +54,14 @@ local myRequestWishGunDevelHandle = function(self, request)
 	end
 end
 local myInitWish = function(self, type, isWish, gunType)
+	if isWish == true and type == CS.DevelopType.SpecialGun then
+		if self.ResourceNumber.Count == 6 then
+			self.ResourceNumber[4] = CS.Data.GetSpecialDevInputValue(true)[0].core;
+			self.ResourceNumber[5] = CS.Data.GetSpecialDevInputValue(true)[0].contract;
+			self.OldResourceNumber[4] = self.ResourceNumber[4];
+			self.OldResourceNumber[5] = self.ResourceNumber[5];
+		end
+	end
 	self:InitWish(type, isWish, gunType);
 	if isWish == true and type == CS.DevelopType.SpecialGun then
 		self.textWishGunTipsSp.text = self.textWishGunTips.text;
