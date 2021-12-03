@@ -20,6 +20,8 @@ MissionSelectionTex|missionselect_Xmas|1
 //MissionSelectionTex|missionSelect_Bikini_2020|1
 //2021泳装复刻配置：
 //MissionSelectionTex|missionSelect_Bikini_2021|1
+//邪神酱联动：
+MissionSelectionTex|DropkickonMyDevil|1
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -135,7 +137,7 @@ OPSTimeNormalActivity|-46|Reversible_Time
 //OPSGoto|GloryDay_GotoMall|0
 //OPSGoto|VA11_GotoMall|0
 //OPSGoto|Hallowmas_2019_GotoMall
-OPSGoto|Xmas_2019_GotoMall|0
+//OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
 //OPSGoto|GunslingerGirl_GotoMall|0
@@ -143,6 +145,7 @@ OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|Hallowmas_2020_GotoMall|0
 //OPSGoto|TheDivisoin_GotoMall|0
 //OPSGoto|Bikini_2021_GotoMall|0
+OPSGoto|DropkickonMyDevil_GotoMall|0
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -321,7 +324,7 @@ OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 //OPSCampaignTitleButtonTip|-32|9002|60|VA11_Tip|1
 //OPSCampaignTitleButtonTip|-33|9003|60|Reversible_Tip|1
 //OPSCampaignTitleButtonTip|-34|9003|60|Reversible_Tip|1
-OPSCampaignTitleButtonTip|-35|100117|120|Xmas_TIP|1
+//OPSCampaignTitleButtonTip|-35|100117|120|Xmas_TIP|1
 //OPSCampaignTitleButtonTip|-36|9004|60|PolarizedLight_Tip|1
 //OPSCampaignTitleButtonTip|-37|100083|60|WhiteDay_2020_Tip|1
 //OPSCampaignTitleButtonTip|-38|100052|60|GunslingerGirl_MissionPanelTip|1
@@ -330,7 +333,7 @@ OPSCampaignTitleButtonTip|-35|100117|120|Xmas_TIP|1
 //OPSCampaignTitleButtonTip|-42|100066|60|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
-//OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
+OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
 //OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
 
 //消耗道具用
@@ -872,6 +875,38 @@ OPSCampaignDetail|-43_29|0,0|UMP45
 OPSCampaignDetail|-43_30|0,0|UMP45
 OPSCampaignDetail|-43_31|0,0|UMP45
 OPSCampaignDetail|-43_32|0,0|RFB
+
+
+//邪神酱联动
+OPSCampaignDetail|-46_1|0,0|WeaverElite
+OPSCampaignDetail|-46_2|0,0|Dropkick_CyclopsChan
+OPSCampaignDetail|-46_3|0,0|Dropkick_IceGhost
+OPSCampaignDetail|-46_4|0,0|Minos
+OPSCampaignDetail|-46_5|0,0|Zombie1
+OPSCampaignDetail|-46_6|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_7|0,0|Dropkick_CyclopsChan 
+OPSCampaignDetail|-46_8|0,0|Dropkick_IceGhost    
+OPSCampaignDetail|-46_9|0,0|Minos                
+OPSCampaignDetail|-46_10|0,0|Smasher              
+OPSCampaignDetail|-46_11|0,0|Yurine Hanazono      
+OPSCampaignDetail|-46_12|0,0|Dropkick_CyclopsChan
+OPSCampaignDetail|-46_13|0,0|Dropkick_IceGhost
+OPSCampaignDetail|-46_14|0,0|Jashin-chan
+OPSCampaignDetail|-46_15|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_16|0,0|Yusa
+OPSCampaignDetail|-46_17|0,0|Medusa
+OPSCampaignDetail|-46_18|0,0|Jashin-chan
+OPSCampaignDetail|-46_19|0,0|Minos
+OPSCampaignDetail|-46_20|0,0|Jashin-chan
+OPSCampaignDetail|-46_21|0,0|Pekola
+OPSCampaignDetail|-46_22|0,0|Jashin-chan
+OPSCampaignDetail|-46_23|0,0|Jashin-chan
+OPSCampaignDetail|-46_24|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_25|0,0|WeaverElite
+OPSCampaignDetail|-46_26|0,0|Yurine Hanazono
+OPSCampaignDetail|-46_27|0,0|Jashin-chan
+OPSCampaignDetail|-46_28|0,0|Jashin-chan
+OPSCampaignDetail|-46_29|0,0|Jashin-chan
 
 //2021泳装活动配置
 OPSCampaignDetail|-47_1|-100,0|CyclopsSwim

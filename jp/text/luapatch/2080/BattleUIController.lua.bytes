@@ -3,7 +3,7 @@ xlua.private_accessible(CS.BattleUIController)
 
 local InitUIElements = function(self)
 	self:InitUIElements();
-	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
 		local topTime = self.transform:Find("UI/Top/Top_Time");
 		local obj1 = CS.ResManager.GetObjectByPath("AtlasClips2080/战斗UI_时间");
 		if obj1 ~= nil then
