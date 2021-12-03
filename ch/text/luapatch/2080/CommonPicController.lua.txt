@@ -29,7 +29,7 @@ local SwitchDamaged = function(self,isHurt,image)
 		if image.material ~= nil then
 			image.material.renderQueue = 2990;
 		end
-		if isHurt or forceHide then
+		if self.hurt or forceHide then
 			bg.gameObject:SetActive(false);
 		else
 			bg.gameObject:SetActive(true);
@@ -41,7 +41,7 @@ local SwitchDamaged = function(self,isHurt,image)
 		if image.material ~= nil then
 			image.material.renderQueue = 2990;
 		end
-		if not isHurt or forceHide then
+		if not self.hurt or forceHide then
 			bg_D.gameObject:SetActive(false);
 		else
 			bg_D.gameObject:SetActive(true);
