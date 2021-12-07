@@ -38,9 +38,19 @@ local OnFinishAnimationEvent = function(self)
 	elseif playSpotTeamCapture == 2 then
 		CS.DeploymentController.Instance:PlaySpotSurroundCapture();
 	end
+end
+
+local Initialize = function(self)
+	if self.spotAction == nil then
+		if self.spotInfo.type == CS.SpotType.LimitedSupply and self.spotInfo.supplyTime == 0 then
+			self.type = CS.SpotType.CA;
+		end
+	end
+	self:Initialize();
 end  
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateCurrentInformation',UpdateCurrentInformation)
 util.hotfix_ex(CS.DeploymentSpotController,'UpdateColor',UpdateColor)
 util.hotfix_ex(CS.DeploymentSpotController,'OnPointerUp',OnPointerUp)
 util.hotfix_ex(CS.DeploymentSpotController,'PlayCaptureRecord',PlayCaptureRecord)
 util.hotfix_ex(CS.DeploymentSpotController,'OnFinishAnimationEvent',OnFinishAnimationEvent)
+util.hotfix_ex(CS.DeploymentSpotController,'Initialize',Initialize)

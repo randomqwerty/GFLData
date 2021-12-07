@@ -414,7 +414,7 @@ patch2080={
 "2080/LoginController",
 "2080/WishGunEventBoxController",	
 "2080/CommonGetNewGunController",	
-"2080/GFCriServerWrapper",	
+--"2080/GFCriServerWrapper",	
 "2080/SangvisCaptureController",	
 "2080/ShareController",
 "2080/CommonBundleConfirmBoxController",

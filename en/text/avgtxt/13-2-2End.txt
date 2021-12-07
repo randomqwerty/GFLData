@@ -1,88 +1,88 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>22</BIN>:帕斯卡对着咖啡抿了一口。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:好苦啊…… 
-()||:帕斯卡抓起一把方糖扔进了杯子中。+又抿了一口后，她似乎对味道依然不太满意。
-()||<SE1>AVG_doorknock_wood</SE1>:咚、咚、咚！+这时，门外传来一阵极具规律的敲门声。+帕斯卡把所有的方糖都扔进了咖啡中，将包装袋随手抛在了一边。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:终于来了么？
-()||<SE1>AVG_doorknock_wood</SE1>:咚、咚、咚！
-()||<SE1>AVG_keyboardtype_sci</SE1>:帕斯卡叹了口气，对眼前的键盘轻轻敲打了几下，房间的大门自动打开了。
-()||<SE1>AVG_door_elecport</SE1>:哈维尔带着两个身着黑衣保镖模样的男人慢悠悠地走进了房间。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||<BGM>BGM_Sneak</BGM>:早上好啊，帕斯卡。+我还以为你会生气地不肯开门呢。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:就算我不亲自开，这座实验室所有的权限也在你的手里吧。
-NPC-Persica(0);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:那可不一样，女士的房门我可不会一声不吭地自己打开，这可是作为绅士最基本的礼貌。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:绅士的爱好是给房间里装窃听器么？+都做到这一步了那就不用专门跑上门来监视我了吧，你也知道靠我一个人连离开这座实验室都做不到。
-NPC-Persica(0);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:不不，你怎么能说得那么不堪入耳呢？
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我只是为你请了几个清洁工，想帮你把这狗窝一样的房间收拾下而已。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:你确定这两个是清洁工？
-NPC-Bodyguard1(0)<Speaker>黑衣人</Speaker>||:……
-NPC-Bodyguard2(0)<Speaker>黑衣人</Speaker>||:……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:人不可貌相嘛。+就像我眼前这位小姐也并非像她的外貌那样单纯。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:而我带这些安全专家来，可不是为了对付一个手无缚鸡之力的科学家。
-()||<SE1>AVG_lifttable</SE1>:哈维尔摆摆手，黑衣人走到房间内开始摸索起来。
-NPC-Bodyguard1(0)<Speaker>黑衣人</Speaker>||:哈维尔先生，找到了。
-()||:黑衣人从通风口内侧取下一个绿色的晶状物，放进了密封的容器内，交到了哈维尔手中。
-NPC-Persica(1)<Speaker>帕斯卡</Speaker>||:这是……？
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:还没有挥发的神经毒气胶囊，干这事的家伙还没来得及逃出大楼就被抓住了。+断了九根手指后，他交代了毒气晶体的位置。+真是的，就这么随便扔在通风口这种地方，手法实在是做得太过于粗糙了。+想杀你的人真是连招个专业人士的钱都出不起么，我真是恨不得自己来掏这个钱啊。
-NPC-Persica(1)<Speaker>帕斯卡</Speaker><Shake>||:……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:要是成功挥发的话，你很快就会失去意识。+然后在椅子上不断抽搐最终窒息而死，真是温柔的暗杀方式。
-NPC-Persica(1)<Speaker>帕斯卡</Speaker>||:等等，这哪里温柔了……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:相比前几个试图一枪打爆你脑袋或者在房间底下埋200磅炸药的杀手来说已经温柔很多了。+算上这次，试图暗杀你的事件这个月已经有五六回了吧？
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||<震屏>:什么……为什么我不知道这些事。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我可不想我的掌上明珠被吓得生活不能自理。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……
-()||:帕斯卡瞟了一眼哈维尔身后的黑衣人，哈维尔明白了她的意思。+他走到了帕斯卡面前，顺手拖过一把椅子坐了下来，然后朝背后打了个手势，两个黑衣人知趣地离开了房间。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:虽然我从来没有怀疑过你，帕斯卡。+但是很明显，你知道有什么人想致你于死地，而这个故事还没有分享给我听啊。+不如我们换一个安全的地方，然后慢慢促膝长谈？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:我不会离开这里的，我所有的心血都在这个地方。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:嗯嗯，原来如此，我完全懂了。
-()||<SE1>ClothingUp</SE1>:哈维尔冷不丁地从口袋拿出一张照片。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:既然你不想离开，我们就在这里先简单聊聊吧？
-NPC-Persica(1)<Speaker>帕斯卡</Speaker>||:这、这是……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:不得不说90wish的信息闭环做得非常好，不过我费了好大的劲还是找到了点蛛丝马迹。
-()||:照片上印着四个笑着的人，他们亲密地靠在一起。+哈维尔指着照片中的一个年迈的男人和一个高瘦的男人。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:这位是鲁道夫·冯·奥贝斯坦，曾经的马克思·普朗克计算机科学研究所的所长。+现在的话，应该已经升至德意志民主共和国科学技术部部长了吧。+当然，这个人并不是重点，我们确认下他身边的另一个人。+我没猜错的话，他身边的这位年轻人就是莱柯对吧？
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:……没错。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:那时90wish应该成立没多久，他看起来还真是意气风发呢。+90wish的正式的名字叫什么来着……+哦对，“德意志国防军特种技术开发组”，真是了不起的名号啊。+虽然因为保密工作做得太好，基本没几个人知道就是了。+大多数人还以为90wish是个网络社团什么的，你们年轻人的喜好还真是够奇怪的。+放在我们那个年代，私自传播信息可是会被直接按叛国罪枪毙的。
-()||:随后哈维尔的手指滑到了高大男人身边的一个少女，而这名少女搂着另一个幼小的女孩。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:帕斯卡……+当年的你在外貌上和现在的你并没有太大的区别，不过那时的眼神似乎更清澈一些？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:<size=25>我现在的眼神也很清澈……</size>
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:是是，不过我们讨论的重点不是这个，真正的重点在这里。
-()||:哈维尔慢慢将手指移向被搂着的小女孩。+帕斯卡下意识屏住了呼吸。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我记得，她的名字叫露尼西亚，没错吧？+露尼西亚·冯·奥贝斯坦。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:……你都已经查到这个地步了吗？
-NPC-Persica(3);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:没办法，老年人每天没事做，只能去做些翻旧账的事了。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:你还知道些什么？
-NPC-Persica(3);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:这名“露尼西亚”是鲁道夫所长的第一个千金，可惜在三战结束前没多久就过世了。+除了这张照片外我就再也收集不到有关于她的信息了。+不过“露尼西亚”……不觉得这个名字很耳熟么？
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:呃……
-NPC-Persica(3);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:这个名字最近在数据库中出现的频率可是高得吓人啊。+不管是你的M4A1，铁血的主脑，那些克隆杀手还是塔林的异构体，这些人类和人形都和露尼西亚相似到了过分的程度。+那么，帕斯卡小姐，你能告诉我为什么吗？+这些看似没有关系的个体们为何会和一个死去的女孩外貌那么相近呢？
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:……
-NPC-Persica(3);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:现在不想说也没关系，我能理解你保持沉默的原因。+不过我一个老人家随便猜一猜答案你应该不会介意吧？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:就算我介意你也会说出来不是吗？
-NPC-Persica(0);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:嗯，那是当然，我就是来做这件事的。+那么跳过废话的部分，结论就是——
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||<BGM>BGM_Empty</BGM>:抱歉我有点渴了，你有什么能喝的东西么？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……+能喝的只有这杯咖啡了。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:那还是算了，喝了你全是糖的咖啡渴得就更厉害了。
-()||:哈维尔摆了摆手，从口袋里掏出了一个银质的小酒壶，一边拧开喝了起来一边假意做出抱歉的表情，抿了两口后又装模作样地把酒壶塞回了口袋。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:你是故意的吗？
-NPC-Persica(0);NPC-Havel(0)<Speaker>哈维尔</Speaker>||<BGM>BGM_Brain</BGM>:不不，我并没有很享受你紧张的样子。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我这就继续往下说。+我相信从蝴蝶行动开始那一系列的事情并不是由你主导的，你没有能力也没有理由去这么做。+不过这并不意味着你和这一系列的事件一点关系都没有。+如果我没猜错的话，你一直对蝴蝶行动那么耿耿于怀的原因，是在于你认为莱柯的死是你导致的，没错吧？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:……
-NPC-Persica(0);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:而这其中和“90wish”、“露尼西亚”还有你设计的战术人形有着必然的关系。+那次行动中，除了你制造的人形，还有你的朋友“安洁莉娅”也参与了，她们成为了那次行动极少数的幸存者，而她们的存在也被完全隐瞒了。+确切地说是在你的苦苦哀求下，我才勉为其难接下来这个善后的烂活。
-NPC-Persica(1)<Speaker>帕斯卡</Speaker>;NPC-Havel(0)||:咳咳……
-NPC-Persica(1);NPC-Havel(0)<Speaker>哈维尔</Speaker>||:你一直在帮安洁隐瞒着什么，安洁也在帮你隐瞒着什么。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:原本你们这些小女孩之间的过家家游戏我这种老头并没有什么兴趣参与，不过现在的情况已经不一样了。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……为什么？
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:帕斯卡莉亚，接下来的话我希望你认真地听我说。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:怎……怎么了？
-()||:哈维尔习惯性的笑容消失了，帕斯卡能感觉得到哈维尔眼睛里的冷峻。
-NPC-Havel(1)<Speaker>哈维尔</Speaker>||:虽然我不知道原因是什么，但是莱柯的死很有可能与你有着很大的关系。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:……
-NPC-Havel(1)<Speaker>哈维尔</Speaker>||:而现在我们需要拼图的最后一块碎片，这块碎片我相信就在你的手里。+你可以选择继续保持沉默，你也知道对于天才我是如此地珍爱，以至于即使发生了最差的情况我也并不舍得拿你怎么样。+但是你必须知道的是，如果再有关键的信息一直埋在你的心底，那终究会有更多人为了你的这份秘密而丧命。+也许是安洁，也许是你珍爱的人形，也许是一直在出生入死的格里芬指挥官。+如果你想明白了这一点，我会尊重你的决定，我也不会再来找你问这些事了，我会自己想办法搞清楚。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:我……
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我今天想说的话说完了。+好了，你继续享受你的咖啡吧。
-()||:哈维尔轻轻地敲了敲桌面，站起身来朝门外走去。+帕斯卡的思绪已经混乱了起来，她猛地抬起头来，哈维尔已经走出了门去，大门随即关闭了起来。+双手将马克杯端起，杯子棕色的液体随着颤抖而摇晃着。+抿入一口，味道依旧是那么苦涩，就像之前扔下去的方糖是虚假的一般。
-()||:她习惯性地抓过铝制糖罐，急躁的动作却只是让其摔在地上而已。+盖子顺着地毯滚进了研究室杂乱的缝隙中，却没有一颗方糖掉出来。+那个罐子早就见底了。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:莱柯……我该怎么办……
-()||:帕斯卡看着杯中苦涩的液体中倒映着的脸，心情却没有一丝的平静。+当——+杯子落在地上，液体浸透了地毯。
-()||<SE1>Runstep</SE1><黑屏1>:而那个常年居住在这个研究室的女子已经焦急地朝门口跑去。
+()||<黑屏2><BIN>22</BIN>:Persica takes a sip out of her coffee.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:Too bitter...
+()||:She grabs a handful of sugar cubes and tosses them into her cup. +She takes another sip but still looks unhappy with the taste.
+()||<SE1>AVG_doorknock_wood</SE1>:Splosh! Splosh! Splosh! +Just then, there is a series of very even knocks on the door. +She empties the entire pack of sugar cubes into her coffee and flings the packaging aside.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:Finally here then?
+()||<SE1>AVG_doorknock_wood</SE1>:Knock, knock, knock!
+()||<SE1>AVG_keyboardtype_sci</SE1>:Persica sighs. After tapping a few keys on her keyboard, the door slides open automatically.
+()||<SE1>AVG_door_elecport</SE1>:Havier strolls into the room casually with two black-clad men — bodyguards, by the looks of them — trailing behind him.
+NPC-Havel(0)<Speaker>Havier</Speaker>||<BGM>BGM_Sneak</BGM>:Good morning, Persica. +I thought you would be too indignant to open the door.
+NPC-Persica(0)<Speaker>Persica</Speaker>;NPC-Havel(0)||:Even if I hadn't opened the door myself, you have access to every room in the entire lab.
+NPC-Persica(0);NPC-Havel(0)<Speaker>Havier</Speaker>||:That's different – I would never barge into a lady's room uninvited. That's a gentleman's basic etiquette.
+NPC-Persica(0)<Speaker>Persica</Speaker>;NPC-Havel(0)||:Is it also a gentleman's hobby to bug a lady's room? +Since you've already gone that far, why bother coming all this way to monitor me in person? You know I can never escape this lab on my own.
+NPC-Persica(0);NPC-Havel(0)<Speaker>Havier</Speaker>||:Now, now, why would you put it in such a terrible way?
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I've merely brought along some janitors to clean up your dumpster of a room.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:Are you certain these are janitors?
+NPC-Bodyguard1(0)<Speaker>Black-Clad Man</Speaker>||:...
+NPC-Bodyguard2(0)<Speaker>Black-Clad Man</Speaker>||:...
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Never judge a book by its cover. +Even the lady isn't as simple as her appearance would suggest.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:...
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I didn't invite these security experts here to deal with a frail and defenseless scientist.
+()||<SE1>AVG_lifttable</SE1>:Havier gestures with his hand, and the black-clad men start rummaging through the room.
+NPC-Bodyguard1(0)<Speaker>Black-Clad Man</Speaker>||:Here, Mr. Havier.
+()||:One of them takes out a green crystalline object from within the ventilation duct. He places it into a sealed container and hands it over to Havier.
+NPC-Persica(1)<Speaker>Persica</Speaker>||:What's that...?
+NPC-Havel(0)<Speaker>Havier</Speaker>||:A neurotoxin capsule that hasn't taken effect yet. The culprit who planted this was captured before he even made it out of the building. +After having his ninth finger lopped off, he finally divulged the location of the capsule. +Seriously, just leaving it so haphazardly right inside the ventilation duct? How very crude. +The one who wants you dead can't even afford to hire a proper professional? I almost wish I could sponsor them.
+NPC-Persica(1)<Speaker>Persica</Speaker><Shake>||:...
+NPC-Havel(0)<Speaker>Havier</Speaker>||:If this had worked, you would have lost consciousness very soon. +Then you would have convulsed uncontrollably on your chair and eventually choked to death. What a gentle way of assassinating you.
+NPC-Persica(1)<Speaker>Persica</Speaker>||:How is that gentle...?
+NPC-Havel(0)<Speaker>Havier</Speaker>||:It is definitely a lot more gentle compared to the hitman that tried to shoot your brains out or the one that buried 200 pounds of explosives beneath your room. +This was the fifth — no, sixth — attempt on your life in just this month, I believe?
+NPC-Persica(3)<Speaker>Persica</Speaker>||<震屏>:What...? Why didn't I know about this?
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I didn't want the apple of my eye to have the living daylights scared out of her.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:...
+()||:Persica glances at the black-clad men behind Havier, and he catches on immediately. +He walks over to Persica and pulls out a chair to sit down, then he gestures at the men, who leave the room discreetly.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I have always had absolute faith in you, Persica. +But clearly, you are aware that someone is very determined to take your life, yet you never cared to share that story with me. +Why don't we move to a safer location and have a proper chat about this?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:I will not leave this lab. All of my life's work is here.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Hm, I see. Now I understand.
+()||<SE1>ClothingUp</SE1>:Havier takes out a photograph from his pocket all of a sudden.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Since you have no intention of leaving, let's proceed with our conversation right here.
+NPC-Persica(1)<Speaker>Persica</Speaker>||:Th-this...
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I must say, 90wish had a brilliant closed-loop control system when it comes to information storage. It took me a lot of effort, but I did manage to find some clues.
+()||:The photo shows four smiling people huddled closely together. +Havier points first at the elderly man, then at the tall, lean man next to him.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:This is Rudolf von Oberstein, former director of the Max Planck Institute for Computer Science. +By now he has probably been promoted to Head of the German Ministry of Science and Technology. +But he obviously isn't the point here. We need to confirm the identity of the man next to him. +If I'm not mistaken, this young man must be Lyco, correct?
+NPC-Persica(3)<Speaker>Persica</Speaker>||:...That's right.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:90wish was still in its early days back then; just look at him – so enthusiastic and full of pep. +What was 90wish's official name again...? +Oh, right - Bundeswehr Special Technology Development Group. How very impressive. +Though few even knew it existed thanks to its incredible confidentiality. +Most people actually thought 90wish was some sort of online society – you youngsters sure have some weird tastes. +Back in my days, spreading information without permission could get you directly executed for treason.
+()||:Havier's finger then slides toward a young woman standing next to the tall man, a little girl in her arms.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Persica... +You haven't changed much physically over the years, though your eyes seemed a little brighter back then?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:<size=25>My eyes are still perfectly bright, thank you very much...</size>
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Sure, sure. But that's not the point either. The key is here.
+()||:Havier slowly moves his finger to the little girl being held. +Persica stares at the girl with bated breath.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:If memory serves, her name was Lunasia, wasn't it? +Lunasia von Oberstein.
+NPC-Persica(3)<Speaker>Persica</Speaker>;NPC-Havel(0)||:...I didn't know you've managed to unearth this much in your investigation.
+NPC-Persica(3);NPC-Havel(0)<Speaker>Havier</Speaker>||:Can't be helped. I'm an idle old man with too much time on his hands – I waste it on digging up the past.
+NPC-Persica(3)<Speaker>Persica</Speaker>;NPC-Havel(0)||:What else do you know?
+NPC-Persica(3);NPC-Havel(0)<Speaker>Havier</Speaker>||:This Lunasia was Rudolf's eldest daughter who sadly passed away shortly before the end of WWIII. +Other than this photograph, I haven't been able to gather much information about her. +Still, "Lunasia"... Doesn't that name ring a bell?
+NPC-Persica(3)<Speaker>Persica</Speaker>;NPC-Havel(0)||:Uh...
+NPC-Persica(3);NPC-Havel(0)<Speaker>Havier</Speaker>||:This name has been cropping up with alarming frequency in the database these days. +Your M4A1, the Sangvis Mastermind, those clone assassins, and even the Isomers in Tallinn all bear an outrageously striking resemblance to little Lunasia. +Now, Miss Persica, will you tell me why? +Why do these seemingly unrelated individuals all take after a deceased girl?
+NPC-Persica(3)<Speaker>Persica</Speaker>;NPC-Havel(0)||:...
+NPC-Persica(3);NPC-Havel(0)<Speaker>Havier</Speaker>||:It's alright if you don't want to say – I understand why you'd wish to remain silent. +But surely you won't mind an old man taking a random guess?
+NPC-Persica(0)<Speaker>Persica</Speaker>;NPC-Havel(0)||:Even if I do mind, it won't stop you from talking, will it?
+NPC-Persica(0);NPC-Havel(0)<Speaker>Havier</Speaker>||:Hm, of course not. I came here to talk. +So skipping over the nonsense, the conclusion is—
+NPC-Havel(0)<Speaker>Havier</Speaker>||<BGM>BGM_Empty</BGM>:Sorry, I'm getting a bit thirsty. May I have something to drink?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:... +I can only offer this cup of coffee.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Never mind, then. I'll just get even thirstier if I drink your coffee loaded with sugar.
+()||:Havier waves nonchalantly and fishes out a little hip flask from his pocket. He twists open the cap, makes an ostentatiously apologetic face, and takes two sips before finally slipping the flask back into his pocket with a dramatic flourish.
+NPC-Persica(0)<Speaker>Persica</Speaker>;NPC-Havel(0)||:Are you doing this on purpose?
+NPC-Persica(0);NPC-Havel(0)<Speaker>Havier</Speaker>||<BGM>BGM_Brain</BGM>:Not at all, I don't take much pleasure in making your nervous.
+NPC-Persica(0)<Speaker>Persica</Speaker>;NPC-Havel(0)||:...
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Allow me to continue. +I believe that the series of events that began with Operation Butterfly were not your doing – you had neither the capability nor the motive for orchestrating them. +However, that doesn't mean you had nothing to do with these events either. +If I may hazard a guess – the reason why you are so hung up on Operation Butterfly is because you believe you were the cause of Lyco's death, isn't that right?
+NPC-Persica(0)<Speaker>Persica</Speaker>;NPC-Havel(0)||:...
+NPC-Persica(0);NPC-Havel(0)<Speaker>Havier</Speaker>||:There must be a connection between this, 90wish, Lunasia, and the Tactical Dolls that you designed. +Apart from one of your T-Dolls, your friend "Angelia" also took part in that operation. They were among the very few that survived the incident, and their existence was completely erased. +Or to be more precise, I grudgingly agreed to clean up the mess because you begged me so piteously.
+NPC-Persica(1)<Speaker>Persica</Speaker>;NPC-Havel(0)||:Ahem...
+NPC-Persica(1);NPC-Havel(0)<Speaker>Havier</Speaker>||:You've been keeping some kind of secret for Ange, and vice versa.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Old geezers like me aren't usually interested in the games that little girls tend to play, but circumstances have changed.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:...Why?
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Persicaria, I need you to listen very carefully to what I'm about to say.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:W...what is it?
+()||:Havier's usual smirk disappears. Persica can see the cold glint in his eyes.
+NPC-Havel(1)<Speaker>Havier</Speaker>||:I don't know the exact cause, but Lyco's death definitely had something to do with you.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:...
+NPC-Havel(1)<Speaker>Havier</Speaker>||:We need this final piece of the puzzle, and it is my belief that it lies with you. +You can choose to remain silent. You know how much I cherish genius – no matter what you do, I can't ever bring myself to lift a finger against you. +But you should know that if you decide to withhold any more key information, someone will eventually lose their life because of your little secret. +It could be Ange; it could be your precious Dolls; it could be the Griffin Commander who has gone through hell and high water. +If you have already made your peace with that, I will respect your decision and refrain from questioning you any further. I will get to the bottom of this on my own.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:I...
+NPC-Havel(0)<Speaker>Havier</Speaker>||:That's all I have to say today. +Alright, I'll let you enjoy your coffee.
+()||:With a light rap on the table, Havier gets to his feet and makes for the door. +Persica's thoughts are in disarray. She jerks her head up, but the door has already closed behind Havier. +She lifts her mug with trembling hands; the brown liquid sloshing about inside. +She takes a sip – it still tastes unbearably bitter, as if all the sugar she has thrown in before wasn't sugar at all.
+()||:She reaches for the sugar tin by force of habit but knocks it onto the floor in her agitation. +The lid rolls across the carpet into one of the crevices in the cluttered lab, but not a single sugar cube has fallen out. +The tin has long since been emptied.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:Lyco... What should I do...?
+()||:Persica stares at her own reflection on the surface of her bitter coffee, her thoughts still a jumbled mess. +Clang. +The cup falls onto the floor, the liquid soaking the carpet.
+()||<SE1>Runstep</SE1><黑屏1>:The woman who barely ever sets foot outside this lab races toward the door.
