@@ -302,6 +302,13 @@ local Awake = function(self)
 	end
 	self:Awake();
 end
+
+local CreateTeam = function(self,selectedSpot,teamId,teamType,grow,growtype)
+	if selectedSpot.packageIgnore then
+		return;
+	end
+	self:CreateTeam(selectedSpot,teamId,teamType,grow,growtype);
+end
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -322,4 +329,5 @@ util.hotfix_ex(CS.DeploymentController,'TriggerSelectSpot',TriggerSelectSpot)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 util.hotfix_ex(CS.DeploymentController,'Awake',Awake)
+util.hotfix_ex(CS.DeploymentController,'CreateTeam',CreateTeam)
 

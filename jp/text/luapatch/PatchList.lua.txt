@@ -244,7 +244,8 @@ patch2070=
 "2070/FactoryController",
 "2070/TargetTrainGameData",
 "2070/CommonCharacterLabelControler",
-"2070/MissionSelectionCampaignSelectButtonController",			
+"2070/MissionSelectionCampaignSelectButtonController",	
+"2070/GunFetterSkillController",
 }
 patch2071={
 "2071/FlightChessGameController",
@@ -404,6 +405,7 @@ patch2080={
 "2080/TheaterGainEffectUIController",
 "2080/TheaterFormationRectItem",
 "2080/MissionSelectionEchelonController",
+"2080/MissionSelectionController",	
 "2080/GunStateController",
 "2080/BattleBossSkillBackgroundController",
 "2080/CommonCharacterListLabelControler",
@@ -415,13 +417,15 @@ patch2080={
 "2080/WishGunEventBoxController",	
 "2080/CommonGetNewGunController",	
 --"2080/GFCriServerWrapper",	
-"2080/SangvisCaptureController",	
+"2080/SangvisCaptureController",
 "2080/ShareController",
 "2080/CommonBundleConfirmBoxController",
-"2080/ResearchUnlockSlotController"
+"2080/ResearchUnlockSlotController",
+"2080/GuideManagerController",
 }
 patch2081={}
-patch2090={}
+patch2090={
+}
 -- va11
 print("load Va11");
 table.insert(patch2080, "collaboration/Va11/AVGController");
