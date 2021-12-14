@@ -4,63 +4,71 @@
     "name": "chess_scorelevel-10000001",
     "code": "1",
     "score_floor": 0,
-    "score_ceilling": 100,
-    "score_get": "1:4,3,2,1;2:4,1"
+    "score_ceilling": 24,
+    "score_get": "1:10,6,3,0;2:4,1",
+    "prize": 0
   },
   {
     "id": 2,
     "name": "chess_scorelevel-10000002",
     "code": "2",
-    "score_floor": 101,
-    "score_ceilling": 300,
-    "score_get": "1:4,3,2,1;2:4,1"
+    "score_floor": 25,
+    "score_ceilling": 49,
+    "score_get": "1:10,5,1,-1;2:4,1",
+    "prize": 10701
   },
   {
     "id": 3,
     "name": "chess_scorelevel-10000003",
-    "code": "1",
-    "score_floor": 301,
-    "score_ceilling": 700,
-    "score_get": "1:4,3,2,1;2:4,1"
+    "code": "3",
+    "score_floor": 50,
+    "score_ceilling": 79,
+    "score_get": "1:10,4,-1,-2;2:4,1",
+    "prize": 10702
   },
   {
     "id": 4,
     "name": "chess_scorelevel-10000004",
-    "code": "2",
-    "score_floor": 701,
-    "score_ceilling": 1300,
-    "score_get": "1:4,3,-3,-4;2:4,-4"
+    "code": "4",
+    "score_floor": 80,
+    "score_ceilling": 109,
+    "score_get": "1:10,3,-1,-3;2:4,-4",
+    "prize": 10703
   },
   {
     "id": 5,
     "name": "chess_scorelevel-10000005",
-    "code": "1",
-    "score_floor": 1301,
-    "score_ceilling": 2400,
-    "score_get": "1:4,3,-3,-4;2:4,-4"
+    "code": "5",
+    "score_floor": 110,
+    "score_ceilling": 149,
+    "score_get": "1:10,2,-2,-4;2:4,-4",
+    "prize": 10704
   },
   {
     "id": 6,
     "name": "chess_scorelevel-10000006",
-    "code": "2",
-    "score_floor": 2401,
-    "score_ceilling": 4000,
-    "score_get": "1:4,3,-4,-6;2:4,-6"
+    "code": "6",
+    "score_floor": 150,
+    "score_ceilling": 199,
+    "score_get": "1:10,1,-2,-6;2:4,-6",
+    "prize": 10705
   },
   {
     "id": 7,
     "name": "chess_scorelevel-10000007",
-    "code": "1",
-    "score_floor": 4001,
-    "score_ceilling": 6000,
-    "score_get": "1:4,3,-4,-6;2:4,-6"
+    "code": "7",
+    "score_floor": 200,
+    "score_ceilling": 259,
+    "score_get": "1:10,0,-3,-8;2:4,-6",
+    "prize": 10706
   },
   {
     "id": 8,
     "name": "chess_scorelevel-10000008",
-    "code": "2",
-    "score_floor": 6001,
-    "score_ceilling": 10000,
-    "score_get": "1:4,3,-4,-6;2:4,-6"
+    "code": "8",
+    "score_floor": 260,
+    "score_ceilling": -1,
+    "score_get": "1:10,-1,-4,-10;2:4,-6",
+    "prize": 10707
   }
 ]
