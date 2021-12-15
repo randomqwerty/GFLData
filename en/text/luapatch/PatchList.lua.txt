@@ -422,10 +422,10 @@ patch2080={
 "2080/CommonBundleConfirmBoxController",
 "2080/ResearchUnlockSlotController",
 "2080/GuideManagerController",
+"2080/CombineController",
 }
 patch2081={}
-patch2090={
-}
+patch2090={}
 -- va11
 print("load Va11");
 table.insert(patch2080, "collaboration/Va11/AVGController");
