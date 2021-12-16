@@ -8,7 +8,7 @@
 //2019DJmax复刻配置：
 //MissionSelectionTex|missionselect_GloryDay|0
 //2019圣诞配置：
-MissionSelectionTex|missionselect_Xmas|1
+//MissionSelectionTex|missionselect_Xmas|1
 //2019冬活配置：
 //MissionSelectionTex|missionselect_PolarizedLight|2
 //2020白情配置：
@@ -33,6 +33,8 @@ MissionSelectionTex|missionselect_Xmas|1
 //MissionSelectionTex|DropkickonMyDevil|1
 //2021夏活配置：
 //MissionSelectionTex|missionselect_PoincaréRecurrence|2
+//2021圣诞活动配置：
+MissionSelectionTex|missionselect_Xmas2021|2
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -58,6 +60,7 @@ OPSPanelScene|-46|-46
 OPSSpecialScene|-47|-47
 OPSPanelScene|-404|-404
 OPSPanelScene|-48|-48
+OPSPanelScene|-49|-49
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -99,6 +102,7 @@ OPSLeftBGNormalActivity|-45|ContinuumTurbulence_Left
 OPSLeftBGNormalActivity|-46|DropkickonMyDevil_Left
 OPSLeftBGNormalActivity|-47|Bikini_2021_Left
 OPSLeftBGNormalActivity|-48|2021Summer_Left
+OPSLeftBGNormalActivity|-49|2021Xmas_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -112,7 +116,7 @@ OPSLeftBGNormalActivity|-48|2021Summer_Left
 //OPSNoticeNormalActivity|-32|VA11_Notice
 //OPSNoticeNormalActivity|-33|Reversible_Notice
 //OPSNoticeNormalActivity|-34|Hallowmas_2019_Notice
-OPSNoticeNormalActivity|-35|Xmas_2019_Notice
+//OPSNoticeNormalActivity|-35|Xmas_2019_Notice
 //OPSNoticeNormalActivity|-36|PolarizedLight_Notice
 //OPSNoticeNormalActivity|-37|WhiteDay_2020_Notice
 //OPSNoticeNormalActivity|-38|GunslingerGirl_Notice
@@ -125,6 +129,7 @@ OPSNoticeNormalActivity|-35|Xmas_2019_Notice
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
 //OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
+OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -140,6 +145,7 @@ OPSTimeNormalActivity|-44|Reversible_Time
 OPSTimeNormalActivity|-45|Reversible_Time
 OPSTimeNormalActivity|-46|Reversible_Time
 OPSTimeNormalActivity|-48|Reversible_Time
+OPSTimeNormalActivity|-49|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -149,7 +155,7 @@ OPSTimeNormalActivity|-48|Reversible_Time
 //OPSGoto|GloryDay_GotoMall|0
 //OPSGoto|VA11_GotoMall|0
 //OPSGoto|Hallowmas_2019_GotoMall
-OPSGoto|Xmas_2019_GotoMall|0
+//OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
 //OPSGoto|Bikini_2020_GotoMall|0
@@ -165,6 +171,7 @@ OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|DropkickonMyDevil_GotoMall|0
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
+OPSGoto|Xmas_2021_GotoMall|0
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -202,6 +209,7 @@ OPSProgressNormalActivity|-44|Reversible_Progress
 OPSProgressNormalActivity|-45|Reversible_Progress
 OPSProgressNormalActivity|-46|Reversible_Progress
 OPSProgressNormalActivity|-48|Reversible_Progress
+OPSProgressNormalActivity|-49|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1

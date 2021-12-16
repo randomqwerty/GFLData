@@ -159,7 +159,18 @@ local CheckTeamCanMove = function(self,spot)
 	end
 	return self:CheckTeamCanMove(spot);
 end
-
+local CheckTeamBothCanMove = function(self,spot)
+	if self.currentSelectedTeam.currentCanNotMove then
+		return false;
+	end
+	if spot.currentTeam ~= nil and spot.currentTeam.CurrentTeamBelong() == CS.TeamBelong.friendly then			
+		if spot.currentTeam.currentCanNotMove then
+			return false;
+		end
+	end
+				
+	return CheckTeamBothCanMove(spot);
+end
 local PlayGrowSummonEnemy = function(self)
 	for i=0,CS.GameData.missionAction.growSpots.Count-1 do
 		local spotAction = CS.GameData.missionAction.growSpots[i];
@@ -302,6 +313,13 @@ local Awake = function(self)
 	end
 	self:Awake();
 end
+
+local CreateTeam = function(self,selectedSpot,teamId,teamType,grow,growtype)
+	if selectedSpot.packageIgnore then
+		return;
+	end
+	self:CreateTeam(selectedSpot,teamId,teamType,grow,growtype);
+end
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -312,6 +330,7 @@ util.hotfix_ex(CS.DeploymentController,'AnalysisNightEnemy',AnalysisNightEnemy)
 util.hotfix_ex(CS.DeploymentController,'TriggerMoveCameraEvent',TriggerMoveCameraEvent)
 util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
 util.hotfix_ex(CS.DeploymentController,'CheckTeamCanMove',CheckTeamCanMove)
+util.hotfix_ex(CS.DeploymentController,'CheckTeamBothCanMove',CheckTeamBothCanMove)
 util.hotfix_ex(CS.DeploymentController,'PlayGrowSummonEnemy',PlayGrowSummonEnemy)
 util.hotfix_ex(CS.DeploymentController,'PlaySpotTeamCapture',PlaySpotTeamCapture)
 util.hotfix_ex(CS.DeploymentController,'PlaySpotSurroundCapture',PlaySpotSurroundCapture)
@@ -322,4 +341,5 @@ util.hotfix_ex(CS.DeploymentController,'TriggerSelectSpot',TriggerSelectSpot)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 util.hotfix_ex(CS.DeploymentController,'Awake',Awake)
+util.hotfix_ex(CS.DeploymentController,'CreateTeam',CreateTeam)
 

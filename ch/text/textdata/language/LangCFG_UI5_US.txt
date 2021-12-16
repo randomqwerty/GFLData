@@ -5506,13 +5506,13 @@
   </item>
   <item des="IllustratedBook/技能名字底/Text技能1等级">
     <xmlID>IllustratedBook/技能名字底/Text技能1等级</xmlID>
-    <rect>(-113.5, -51.1),(90.7, 33.7)</rect>
+    <rect>(-113.5, -51.1),(80.7, 35)</rect>
     <textfont>moh</textfont>
     <fontstyle>Normal</fontstyle>
-    <fontsize>34</fontsize>
+    <fontsize>31</fontsize>
     <linespac>0.8</linespac>
     <richtext>True</richtext>
-    <alignment>UpperCenter</alignment>
+    <alignment>MiddleCenter</alignment>
     <horover>Wrap</horover>
     <verover>Truncate</verover>
     <bestfit>False</bestfit>
@@ -25455,6 +25455,118 @@
     <bestfit>True</bestfit>
     <minsize>10</minsize>
     <maxsize>45</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/InputField_RoomID/Tex_PlaceHolder">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/InputField_RoomID/Tex_PlaceHolder</xmlID>
+    <rect>(0.0, 0.0),(301.0, 54.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>28</fontsize>
+    <linespac>1</linespac>
+    <richtext>False</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/UI_Button_SelfSever/UI_Text">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/UI_Button_SelfSever/UI_Text</xmlID>
+    <rect>(-10.8, 31.6),(103.8, 74.0)</rect>
+    <textfont>方正特雅宋_GBK</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>42</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>4</minsize>
+    <maxsize>42</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/GameWaitting/UI_Text">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/GameWaitting/UI_Text</xmlID>
+    <rect>(0.0, 0.0),(310.0, 96.7)</rect>
+    <textfont>方正特雅宋_GBK</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/GameStart/UI_Text_Tip">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/GameStart/UI_Text_Tip</xmlID>
+    <rect>(-153.8, -77.6),(642.7, 28.2)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>13</fontsize>
+    <linespac>0.7</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>1</minsize>
+    <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/GameCancleReady/UI_Text">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/GameCancleReady/UI_Text</xmlID>
+    <rect>(0.0, 0.0),(283.4, 105.4)</rect>
+    <textfont>方正特雅宋_GBK</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>42</fontsize>
+    <linespac>0.8</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/GameStart/UI_Text">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/GameStart/UI_Text</xmlID>
+    <rect>(-34.7, 0.0),(173.0, 104.3)</rect>
+    <textfont>方正特雅宋_GBK</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>50</fontsize>
+    <linespac>0.8</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/GameStart/UI_Text_CountDown">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/GameStart/UI_Text_CountDown</xmlID>
+    <rect>(109.1, 0.0),(101.6, 93.7)</rect>
+    <textfont>Novecentowide-Medium</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>40</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>4</minsize>
+    <maxsize>50</maxsize>
     <isOrnamental>False</isOrnamental>
   </item>
 </root>

@@ -11,6 +11,10 @@ end
 local PlayMove = function(self)
 	CS.OPSPanelBackGround.Instance:CheckShowMoveOffset();
 	self:PlayMove();
+	if self.paths.Count == 0 then
+		local pos = CS.UnityEngine.Vector2(self.transform.localPosition.x,self.transform.localPosition.y);
+		CS.OPSPanelBackGround.Instance:Move(pos, true,0.5, 0, true, CS.OPSPanelBackGround.Instance.holderShowMoveScale);
+	end
 end
 
 local ShowLable = function(self)
