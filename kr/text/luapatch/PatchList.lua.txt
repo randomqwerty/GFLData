@@ -246,6 +246,7 @@ patch2070=
 "2070/CommonCharacterLabelControler",
 "2070/MissionSelectionCampaignSelectButtonController",	
 "2070/GunFetterSkillController",
+"2070/DeploymentSangvisSkillPanelController",
 }
 patch2071={
 "2071/FlightChessGameController",
