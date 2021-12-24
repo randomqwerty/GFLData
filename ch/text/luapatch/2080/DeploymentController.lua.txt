@@ -163,13 +163,13 @@ local CheckTeamBothCanMove = function(self,spot)
 	if self.currentSelectedTeam.currentCanNotMove then
 		return false;
 	end
-	if spot.currentTeam ~= nil and spot.currentTeam.CurrentTeamBelong() == CS.TeamBelong.friendly then			
+	if spot.currentTeam ~= nil and spot.currentTeam:CurrentTeamBelong() == CS.TeamBelong.friendly then			
 		if spot.currentTeam.currentCanNotMove then
 			return false;
 		end
 	end
 				
-	return CheckTeamBothCanMove(spot);
+	return self:CheckTeamBothCanMove(spot);
 end
 local PlayGrowSummonEnemy = function(self)
 	for i=0,CS.GameData.missionAction.growSpots.Count-1 do
