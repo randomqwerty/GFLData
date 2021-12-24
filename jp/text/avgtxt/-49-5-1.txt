@@ -1,0 +1,319 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>167</BIN><Night><SE1>AVG_21Winter_Subway</SE1>:12月25日夜8時、基地付近の乗降場。
+()<Speaker>アナウンス</Speaker>||<SE1>AVG_whitenoise</SE1>:<color=#00CCFF>クリスマス特別作戦が、残り30分で終了します。人形の皆さんは、自分の獲得したクリスマスコインをただちにスキャンし、最終集計への登録をお願いします。</color>+<color=#00CCFF>30分後、クリスマスコインの集計が終わり次第、勝者を発表します。その様子はカフェでも生放送しますので、ぜひそちらでご覧ください。</color>
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_mahaline</BGM>:アナウンスが繰り返される。//nそれを聞いた人形たちがぞろぞろと興奮しながらカフェへと向かっていく。+人の行き交いが止まらない乗降場にて、//nTMPはその場に留まり足踏みしながら、//nK2との連絡が繋がるのを待っていた。
+TMP(2)<Speaker>TMP</Speaker>||<SE1>AVG_tele_disconnect</SE1>:K2、どうして繋がらないの……
+()<Speaker></Speaker>||:待っている間に、TMPは自分の通信記録を見た。+M950Aへの通信、Thunderへの通信、K2への通信、AEK999への通信……+ズラリと並ぶ列は全て、通信失敗を示している。
+TMP(2)<Speaker>TMP</Speaker>||:みんな……一体どこに……
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:TMPは意気消沈して階段へ座り込むと、//n通信機はついに音を発した。
+TMP(2)<Speaker>TMP</Speaker>||:K2さん！　やっと繋がりました！
+TMP(2);K2(0)<Speaker>K2</Speaker><通讯框>||:あ、ごめんね。ちょっと忙しくって。
+TMP(2)<Speaker>TMP</Speaker>;K2(0)||:今夜もお仕事が大変なんですか？
+TMP(2);K2(0)<Speaker>K2</Speaker>||:<color=#00CCFF>ん～……まあそんなところかな。あはは。</color>
+TMP(2)<Speaker>TMP</Speaker>||:今夜でクリスマスイベントが終わってしまいます。私、本当は――
+()<Speaker></Speaker>||<SE1>AVG_brake</SE1><震屏3>:耳を刺すようなブレーキ音がK2の方から聞こえてきた。
+K2(0)<Speaker>K2</Speaker><通讯框>||:<color=#00CCFF>どんな運転の仕方してるの――</color>+<color=#00CCFF>TMP、話はひとまずここまで。また後でお話しよ。</color>
+TMP(2)<Speaker>TMP</Speaker>||:はい……
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通信が再び途切れ途切れになる。//n冷たい風に吹かれながら、TMPは通信機を手に噛みしめていた。
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>81</BIN><关闭蒙版>:同刻。盛り上がっているカフェの入り口。+人形たちがカフェの中でぎゅうぎゅう詰めになっていたため、//nスオミとRFBは入り口に並んでいた。+TMPが去っていった方向から視線を戻すと、//nスオミはRFBにもう一度質問をした。
+KP31(2)<Speaker>スオミ</Speaker>||:本当について行かなくてよかったのでしょうか？//n凄くがっかりしてるように見えました。
+RFB(2)<Speaker>Am RFB</Speaker>||:いいの。彼女には自分の時間が必要なんだよ。
+KP31(2)<Speaker>スオミ</Speaker>||:……
+()<Speaker></Speaker>||:両者はそれ以上話そうとしなかった。//nRFBは持っていたゲーム機を取り出し、楽な態勢で遊び始めた。
+KP31(2)<Speaker>スオミ</Speaker>||:RFBさん？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RFBが既に、いつもの目立つイヤホンを付けていることにスオミは気づく。
+KP31(10)<Speaker>スオミ</Speaker>||:……+RFBさん、あなたとお話ししたいことがたくさんあるんです。
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:RFBは慣れた手つきでゲーム機を操作している。
+KP31(9)<Speaker>スオミ</Speaker>||:中でも一番話したかったのは――+私とゲームをしてくれたことへの、感謝の言葉です。
+()<Speaker></Speaker>||:やっとのことで胸の内を打ち明けたが、//n相手から返事が返ってくることはなかった。//nスオミは安堵しつつも悲しみを覚えた。
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><黑点2><BIN>97</BIN><Night>:同刻、カフェ付近の廊下にて。+カフェに予想外の人だかりが出来ているのを見て、//nM21とM14は宿舎で配信を見ることに決めた。
+M14(2)<Speaker>M14</Speaker>||:……今夜はすごい盛り上がりだね。//n本当は指揮官に少しくらい声をかけたかったけど。+みんなってば、指揮官が動けなくなるくらい集まっちゃうんだもん。//n入れっこないや。+もう少し待ってから声をかけようと思うんだけど、//nM21はどう思う？
+M14(2);M21(5)<Speaker>M21</Speaker>||:あ……うん……そうだね……
+M14(2)<Speaker>M14</Speaker>;M21(5)||:どうしたの、M21？　ここ数日、心ここに在らずって感じだよ？
+M14(2);M21(2)<Speaker>M21</Speaker>||:……いや、そんなことないって。
+M14(2)<Speaker>M14</Speaker>;M21(2)||:もし何かあるのなら、あたしたちに言ってよね。
+M21(5)<Speaker>M21</Speaker>||:うん。
+()<Speaker></Speaker>||:M21は気まずそうに足を止めた。
+M21(5)<Speaker>M21</Speaker>||:その……M14……実は……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21が顔を再度上げると、M14によって口を塞がれた。
+M21(5)<Speaker>M21</Speaker><Shake>0.1</Shake>||:私……んんっ……
+M14(2)<Speaker>M14</Speaker>||:シーッ！　見て！+ヘリアンさんが酔っ払ってる……
+M14(2)<Speaker>M14</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:わわ、階段を転げ落ちてるよ！
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:言い終わるのを待たず、M14は階段へと一生懸命走った。
+M21(5)<Speaker>M21</Speaker>||:ちょっと、M14！　私……
+()<Speaker></Speaker>||:力なく叫んだ後、M21は苦笑しながらM14についていく。
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>あの言葉は、一生M14に話せないのかな……</color>
+()||<黑点1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑点2><BIN>18</BIN><BGM>BGM_Brain</BGM><Night>:同刻、基地の廊下にて。+重苦しい空気の薄暗い通路で、一つの影が、//n奇襲によってもう一つの影を圧倒していた。
+hkcaws(5)<Speaker>CAWS</Speaker>||:久しぶり。
+Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:そうだね、久しぶり。+でもだからって、こんなファンキーなやり方じゃなくてもよくない？
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Px4ストームは頭を下げ、自分に固く結ばれたラッピングの紐を見た。//n記憶が確かなら、以前CAWSを縛ったのと全く同じものだった。
+hkcaws(5)<Speaker>CAWS</Speaker>||:こうでもしなきゃ、大人しく話を聞いてくれないから。
+hkcaws(5);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:つまりこれから、わたしが一言も聞きたくないような話をするんだね。
+hkcaws(5)<Speaker>CAWS</Speaker>;Px4Storm(2)||:まず、あのクリスマスコインの在り処を教えて。+あんたのイベント成績に登録されていないことは知ってる。
+hkcaws(5);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:そう、でもあなたに情報提供する気はないよ。
+hkcaws(5)<Speaker>CAWS</Speaker>;Px4Storm(2)||:提供する必要はない。もう知ってるから。
+hkcaws(5);Px4Storm(6)<Speaker>Px4ストーム</Speaker>||:……
+hkcaws(5)<Speaker>CAWS</Speaker>;Px4Storm(6)||:クリスマスコインだけじゃない。//n一か月前、あの任務の時に何が起きたかも。
+hkcaws(5);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:ははっ、もう知っちゃったんだ……
+hkcaws(5)<Speaker>CAWS</Speaker>;Px4Storm(2)||:全部言いふらすよ。
+Px4Storm(5)<Speaker>Px4ストーム</Speaker>||:脅してるの？
+()<Speaker></Speaker>||:暗闇の中で、重苦しい空気がうしおの如く渦巻いた。
+()||<黑点1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑点2><BIN>7</BIN><Night><BGM>BGM_Sneak</BGM>:同刻、基地付近にて。+一〇〇式とFP-6は指揮官の指示通り、//n花火の打ち上げ地点の状況確認に来ていた。
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||<SE1>ClothingUp</SE1>:……疲れたわね。基本検査完了っと。//nもう少しで指揮官と花火妖精に知らせられるわね。+花火発射装置は持ってるのよね？
+FP6(2)<Position>0,180</Position>;Type100(4)<Speaker>一〇〇式</Speaker>||:はい！　発射装置でしたら問題ありません。
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>;Type100(4)||:あたしは、いつ打ち上げるか聞いてみるわ。
+FP6(2)<Position>0,180</Position>;Type100(4)<Speaker>一〇〇式</Speaker>||:私がもう一度上に戻って、確認してきましょうか？
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:それでもいいけど。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一〇〇式は、発射装置が自分の手の中にあることを再度確認すると、//n屋上へ向かって走っていった。+花火の検査は厳重に何回も行ったにも関わらず、//n一〇〇式の中にある不安は残ったままである。+きっと、これがFP-6と二人だけで行う//n最後の任務だと感じ取ってのことなのだろう。
+Type100(4)<Speaker>一〇〇式</Speaker>||:マップの位置と一致。動かされた形跡はありません。+また、花火も雪によって濡れていないため、着火に問題ありません。+FP-6、こちらは――
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:FP-6の方を向く一〇〇式だったが、//n防雪加工のされていない靴が、軒の氷を踏みつけてしまった。
+Type100(4)<Speaker>一〇〇式</Speaker><Shake>0.1</Shake>||:あっ――
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:<size=50>一〇〇式！</size>
+()<Speaker></Speaker>||:一〇〇式が足を滑らせ、落下していく。
+Type100(4)<Speaker>一〇〇式</Speaker>||<SE1>AVG_flag</SE1>:助けてぇ～！
+()<Speaker>FP-6</Speaker>||<SE1>RunStep</SE1>:大丈夫！　あたしが受け止めるわ！
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:（衝突音）+天地がひっくり返る衝撃を受けたかと思うと、//n一〇〇式の目の前は雪だけになるのであった。
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>81</BIN><关闭蒙版><BGM>m_19christmas_avg</BGM><SE1>AVG_AMB_Restaurant</SE1>:12月25日夜8時、賑やかなカフェ。//nクリスマス当日。+カフェに集まっていた誰もが、//n30分後に始まるであろう結果発表を不安げに待っている。
+PDW(2)<Speaker>Honey Badger</Speaker>||:ペト、早くもっとたくさんコインを盗んできてよ！//nもうすぐ集計が終わっちゃうよ……
+Ameli(2)<Speaker>Ameli</Speaker>||:ワタシのクリスマスコインはもう他の人にあげちゃったので……代わりにボタンでもいいですか？
+Lewis(4)<Speaker>ルイス</Speaker>||:美少女がいっぱいだぁ！　もう勝ち負けなんてどうでもいいや……
+()<Speaker></Speaker>||:そばの興奮してやまない人形たちとは異なり、//n指揮官は誰が見ても分かるくらいに困憊し、//nイベントの終了を一刻も早く願っていた。
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:指揮官さま。ここ数日、とても充実していたご様子ですね？
+NPC-Kalin(1)<Speaker>指揮官</Speaker><同时置暗>||:おかげさまでね。毎日が逃亡の日々だったよ。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:皆さん、あなたには感謝しているんですよ。//nあれも指揮官さまへのお気持ちなんです。
+NPC-Kalin(0)<Speaker>指揮官</Speaker><同时置暗>||:……+<size=25>カリーナ、本当にこのイベントが成功したと思っているのか？</size>
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:もちろんです！　私が執り行って失敗したイベントが今までにあったでしょうか？
+()<Speaker>指揮官</Speaker><同时置暗>||:……<c>肯定する<c>否定する
+()<Speaker>指揮官</Speaker><同时置暗>||<分支>1</分支>:そうだったね。君の主催するイベントであれば私も安心できるよ。
+NPC-Kalin(2)<Speaker>カリーナ</Speaker>||<分支>1</分支>:指揮官さま！　そんなに私のことを信頼してくださってたなんて！+てっきり、前回のクリスマスイベントの請求書のことを//n引きずっているものかと……
+NPC-Kalin(2)<Speaker>指揮官</Speaker><同时置暗>||<分支>1</分支>:……過ぎたものは仕方ない。
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||<分支>1</分支>:ありがとうございます、まだ信頼してくださって。
+()<Speaker></Speaker>||<分支>1</分支>:カリーナはポケットから自分のクリスマスコインを取り出した。
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||<分支>1</分支>:指揮官さまのことです。//nきっとクリスマスコインを山ほど持っているんでしょうけど、//n感謝の気持ちとして、私からもコインを送らせてもらいます。
+NPC-Kalin(1)<Speaker>指揮官</Speaker><同时置暗>||<分支>1</分支>:カリン、コイン一枚一枚にはそれぞれ個々の意味が存在している。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||<分支>1</分支>:その通り！　そして今回のイベントにも、//nきっと同じように意味があるはずです！
+()<Speaker>指揮官</Speaker><同时置暗>||<分支>2</分支>:前回は基地に爆発が起きたけど……
+NPC-Kalin(3)<Speaker>カリーナ</Speaker>||<分支>2</分支>:わかってます！　前の請求書のこと、やっぱり気にしていたんですね！
+NPC-Kalin(3)<Speaker>指揮官</Speaker><同时置暗>||<分支>2</分支>:ゴホン……別に責めたわけじゃない。//nただ、やんわりと注意させてもらっただけだ。
+NPC-Kalin(3)<Speaker>カリーナ</Speaker>||<分支>2</分支>:その時の教訓は十分今回に反映しています。//n燃えやすく爆発しやすいダイナーゲートは一体たりとも侵入させていません！
+NPC-Kalin(3)<Speaker>指揮官</Speaker><同时置暗>||<分支>2</分支>:そうか。じゃあ私たちで、今回のイベントの成果を楽しみにさせてもらおう。
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||<分支>2</分支>:ガッカリはさせませんよ！
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:カリーナは時間を確認すると、アナウンスを始めた。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:<color=#00CCFF>グリフィン基地のスタッフの皆さん！　今回はお集まりいただきありがとうございます！　今からこのイベントは次のコーナーへと入ります！</color>
+()<Speaker></Speaker>||<SE1>AVG_Firework</SE1>:（花火のあがる音）+カリーナの合図を待たずに、窓の外で花火が打ちあがった。
+NPC-Kalin(2)<Speaker>カリーナ</Speaker>||:これは一体……まあいいでしょう！
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:コホン。ええ、そうです！　これこそが、今夜のサプライズである――花火大会です！+結果発表を待っている間、綺麗な花火の数々をお楽しみください！
+()<Speaker></Speaker>||:きらめく花火に引き寄せられ、人形たちが窓に集まった。
+()<Speaker>指揮官</Speaker>||:FP-6たち、どうして合図よりも早く花火を？
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:何か勘違いしたのでしょうか？
+NPC-Kalin(4)<Speaker>指揮官</Speaker><同时置暗>||<SE1>AVG_tele_disconnect</SE1>:通信もずっと繋がらない……
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:花火妖精さんに見に行かせます！
+()||<黑点1><SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><BIN>7</BIN><Night>:同刻、基地付近。
+()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:一〇〇式が、煙突のそばで体育座りしている。
+Type100(8)<Speaker>一〇〇式</Speaker>||<SE1>ClothingUp</SE1>:ごめんなさい……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:だからあなたのせいじゃないって言ってるでしょう。
+()<Speaker></Speaker>||:直撃をくらったため、元々煙突の縁に腰かけ休んでいたFP-6は、//n深々と中に挟まってしまった。+二人の通信機は故障し、発射装置も今となっては行方不明となっている。
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:少なくとも、花火を打ち上げることには成功したわね。
+FP6(2)<Position>0,180</Position>;Type100(8)<Speaker>一〇〇式</Speaker>||:でも、指揮官に時間を確認していません……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>;Type100(8)||:平気よ、戻ってから報告すればいいのだし。
+FP6(2)<Position>0,180</Position>;Type100(8)<Speaker>一〇〇式</Speaker>||:ごめんなさい……ずっとご迷惑をおかけして……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>;Type100(8)||:もう……あたしが挟まってるせいで、あなたまでパーティーに行きづらくさせてしまったわね。+ここ数日はいっぱい手伝ってもらったし、気にしないでいいのに……
+FP6(2)<Position>0,180</Position>;Type100(8)<Speaker>一〇〇式</Speaker>||:……+私……
+Type100(8)<Speaker>一〇〇式</Speaker>||:……+Px4ストームさんを見逃してしまいました……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:……
+()<Speaker></Speaker>||:一〇〇式は隠していたことを全てFP-6へ話した。//n全てを告白することで、罪悪感から逃れようとしたが、//nそれでも冷たい空気が彼女の肩の上にずっしりと乗っかるだけだった。
+Type100(8)<Speaker>一〇〇式</Speaker>||:ごめんなさい……私がもう少し頑張っていれば、//nクリスマスコインをもう一枚くらいは取れたかもしれないのに……+あなたは勝てたかもしれなかったのに……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>;Type100(8)||:コインなんてのはもうどうてもいいわ。+Px4ストームがそういうことに長けるのは知ってたけど、//nあたしから隠すためにあなたまで引き入れるとは思わなかったわ。
+FP6(2)<Position>0,180</Position>;Type100(8)<Speaker>一〇〇式</Speaker>||:今からあのフレンドツリーにいけばまだ間に合います。//n座標もここからそう遠くはありませんから……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>;Type100(8)||:もういいの。
+Type100(8)<Speaker>一〇〇式</Speaker>||:そんなっ……私に名誉挽回させてください！
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:FP-6の制止など目もくれず、一〇〇式は軒を滑り降り、//nフレンドツリーまで走った。+柔らかな土を掘り返し、//nクリスマスコインを入れるのに使った紅い靴下を見つける。
+Type100(4)<Speaker>一〇〇式</Speaker>||:FP-6さん！　見てください！
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:一〇〇式は興奮した様子でFP-6に向けて掲げたが、//n靴下の重さに違和感を覚えた。
+Type100(5)<Speaker>一〇〇式</Speaker><Shake>0.1</Shake><Position>0,150</Position>||:<size=50>……い、石になってる！！！</size>
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:……
+Type100(8)<Speaker>一〇〇式</Speaker>||:ごめんなさい……
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:肩を落としながらFP-6のもとへ戻る一〇〇式。
+Type100(8)<Speaker>一〇〇式</Speaker>||<BGM>GF_Memorial</BGM>:なんて間抜けだったのでしょう、私……//nPx4ストームさんの魔法を信じてしまうなんて……+罰があれば甘んじて受けます……
+FP6(2)<Speaker>FP-6</Speaker><Position>0,180</Position>||:……+罰があれば甘んじて受けるのよね？　なら手を出しなさい。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一〇〇式は怯えながら手を差し出し、今からくるであろう罰を待った。+しかし、手のひらに感じたのは、冷たいコインの感触だけだった。+そこには、FP-6のクリスマスコインが握られていた。
+FP6(6)<Speaker>FP-6</Speaker><Position>0,180</Position>||:なら罰として、あたしのコインを受け取りなさい。//nここ数日の、あなたの働きが良すぎた罰よ。
+Type100(8)<Speaker>一〇〇式</Speaker>||:へ……？
+FP6(6)<Speaker>FP-6</Speaker><Position>0,180</Position>||:勝ち負けなんて初めから気にしてなかったの。//nあたしに言わせれば、ただの任務なわけだし。+でもどんな仕事も本気で挑むあなたを見てたら、こっちまで元気が出ちゃった。+一〇〇式、あなたは最高のパートナーよ。//nありがとう。自分の資格を失ってまで、あたしとコインを守ってくれて。
+Type100(8)<Speaker>一〇〇式</Speaker>||:感謝するのは私のほうです……
+()<Speaker></Speaker>||:一〇〇式の目から、涙がこぼれ落ちた。+彼女は、石でいっぱいになった靴下をそばに置くと、//nすでに熱を帯びたストレージをポケットから取り出した。
+Type100(4)<Speaker>一〇〇式</Speaker>||:FP-6さん、一緒に歌いませんか……
+FP6(6)<Speaker>FP-6</Speaker><Position>0,180</Position>||:いいわよ。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:一〇〇式はイヤホンの片方をFP-6に渡すと同時に、//n音量を最大まで引き上げた……
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>18</BIN><Night>:同刻、基地の廊下。
+()<Speaker></Speaker>||<SE1>AVG_Firework</SE1>:（花火のあがる音）+花火がまた一発打ち上げられ、漆黒の夜空が瞬く間に彩られた。+花火の残光が、CAWSの目に映し出される。
+hkcaws(2)<Speaker>CAWS</Speaker>||<BGM>BGM_Brain</BGM>:クリスマスコインを全部売ったな。
+()<Speaker></Speaker>||:倒れるPx4ストームを、CAWSが見下ろしている。
+Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:やるじゃん、そんなとこまで調査済みだなんて。
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(2)||:まさかグリフィン人形のグッズを買い付けるやつがいたなんて。+価格を知った時は私も心動いたよ。
+hkcaws(2);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:それでもあなたには諦めてもらうしかないよ。//nこれは全部わたしのものなんだから。
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(2)||:結構な額になるはずだけど、そのお金はどこに使ったの？
+hkcaws(2);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:口止め料がほしいのなら、申し訳ないけど使い切っちゃったよ。
+hkcaws(2)<Speaker>CAWS</Speaker>||:あんたみたいなケチなやつが、あれだけのお金を使い切った？　信じないね。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:CAWSはしゃがみ込んでPx4ストームの耳元に近づくと、録音を再生した。
+hkcaws(2)<Speaker>CAWS</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>『Px4ストームお姉ちゃん、いっつも来てくれるし、プレゼントもくれるんだよね！』</color>+<color=#00CCFF>『Px4ストームお姉ちゃん大好き！』</color>+<color=#00CCFF>『Px4お姉ちゃん、寝る前にいつも読み聞かせしてくれるの。早くまた会いたいなあ……』</color>
+Px4Storm(6)<Speaker>Px4ストーム</Speaker>||:止めて！　あなたね……
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(6)||<BGM>m_19christmas_avg</BGM>:わたしはあんたをつけて、基地付近の孤児院に行っただけ。+でもまあ、孤児院にいる人間のお友達に//nプレゼントを買ってたとは夢にも思わなかったけど。+こんな面白いことがあるなんてね。尾行してこの目で見てなかったら、//n自分が並行世界に迷い込んだんじゃないかって疑ってたところよ。+生意気で純粋なやつに、ここまで純粋な一面があったなんて。
+hkcaws(2);Px4Storm(5)<Speaker>Px4ストーム</Speaker>||:……
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(5)||:あんたにはあんたなりの理由があるんでしょ、多くは聞かないよ。
+hkcaws(2);Px4Storm(5)<Speaker>Px4ストーム</Speaker>||:ありがとう。
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(5)||:でも他の質問には答えてもらう。
+hkcaws(2);Px4Storm(6)<Speaker>Px4ストーム</Speaker>||:……+何が聞きたいの？　一か月前にあなたたちを//n雪崩から掘り起こしたことなら、もう知ったんでしょ？
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(6)||:うん、でもどうしてみんなに話さないの？
+hkcaws(2);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:言う必要ある？　グリフィンのマニュアルに沿って仕事をしただけだし。+それに、日頃内職をしていたとはいえ、ああいう仕事を逃す手はないって。
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(2)||:……
+hkcaws(2);Px4Storm(2)<Speaker>Px4ストーム</Speaker>||:もう放してもらってもいい？
+hkcaws(2)<Speaker>CAWS</Speaker>;Px4Storm(2)||:あんたなら10分以内に抜け出せるって信じてる。
+Px4Storm(6)<Speaker>Px4ストーム</Speaker>||:ん？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:CAWSの手から、冷たいコインがPx4ストームのポケットへと入る。
+hkcaws(6)<Speaker>CAWS</Speaker>||:メリークリスマス。
+()<Speaker></Speaker>||:それは、CAWSのクリスマスコインだった。
+Px4Storm(6)<Speaker>Px4ストーム</Speaker>||:……
+()<Speaker></Speaker>||:Px4ストームは床に倒れたまま、//n暗闇へ溶けていくCAWSの影を眺めていた。
+()<Speaker>Px4ストーム</Speaker>||:メリークリスマス。
+()||<黑点1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑点2><BIN>82</BIN><Night><BGM>GF_Memorial</BGM>:同刻、グリフィン宿舎にて。
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:M14とM21は、酔っ払ったヘリアンを部屋まで送り、宿舎に戻っていた。
+M14(2)<Speaker>M14</Speaker>||:ヘリアンさん、あんなになるまで酔っ払うなんて……+爆発とか合コンがどうとかってつぶやいてたね……
+M21(2)<Speaker>M21</Speaker>||:きっと、傷つくようなことがあったんだよ。
+M14(2)<Speaker>M14</Speaker>||:起きたら元気になってるといいな。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M14は自分のベッドまで戻ると、引き出しの中を探し始めた。+M21は勇気を振り絞り、彼女のそばまで歩み寄る。
+M21(5)<Speaker>M21</Speaker>||:M14……もし、もしもの話だけど……+クリスマスコインをまだ持ってたら……+<size=25>私にくれたりする？</size>
+M14(2)<Speaker>M14</Speaker>;M21(5)||:うーん……あげないかな……
+M14(2);M21(5)<Speaker>M21</Speaker>||:どうして……
+M14(2)<Speaker>M14</Speaker>;M21(5)||:だって、もっといいプレゼントを用意したんだもん。
+M21(5)<Speaker>M21</Speaker>||<BGM>BGM_Empty</BGM>:私あんなに――え？
+()<Speaker></Speaker>||:M14は引き出しから綺麗にラッピングされたプレゼントを取り出した。
+M14(2)<Speaker>M14</Speaker>||<BGM>m_19christmas_avg</BGM>:クリスマスコインってただのコインでしょ。だから誰にあげてもいい。+でもこのプレゼントは、あたしたちがよ～く選んだものだから。//nM21にしかあげれないものだよ。
+M21(5)<Speaker>M21</Speaker>||:うぅ……ありがとう、M14！
+()<Speaker></Speaker>||:M21はM14を強く抱きしめた。
+M14(4)<Speaker>M14</Speaker>||:クリスマスコインのこと、そんなに気になってたんだ。//nきっとM21にとって、特別な意味があるものだったんだね。
+M14(4);M21(5)<Speaker>M21</Speaker>||:うん……
+M14(2)<Speaker>M14</Speaker>;M21(5)||:じゃあM21のクリスマスコイン、M14にくれない？
+M21(2)<Speaker>M21</Speaker>||:もちろん！
+()<Speaker></Speaker>||:思いに任せて叫ぶも、自分のコインの所在をM21は思い出した……
+M21(5)<Speaker>M21</Speaker>||:ちょ……ちょっとトイレに……
+M14(4)<Speaker>M14</Speaker>||:え、どうしたの――
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:吹きすさぶ寒風の中、M21はコインを放り投げた窓のほうへ//n勢いよく走っていった……
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>81</BIN><关闭蒙版>:同刻、カフェ入口。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RFBがイヤホンを外す。
+RFB(6)<Speaker>Am RFB</Speaker>||:スオミ、音は初めから出してなかったんだ……
+KP31(2)<Speaker>スオミ</Speaker>;RFB(6)||:……
+KP31(2);RFB(2)<Speaker>Am RFB</Speaker>||:でも、ありがとう、スオミ！+今日は楽しかった！
+KP31(2)<Speaker>スオミ</Speaker>;RFB(2)||:……
+KP31(2);RFB(2)<Speaker>Am RFB</Speaker>||:この前一緒にゲームした時も、すごく楽しかった！
+KP31(2)<Speaker>スオミ</Speaker>;RFB(2)||:……ありがとうございます。
+RFB(2)<Speaker>Am RFB</Speaker>||:私のクリスマスコインは、あんたにあげるべきかもね。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:そう思い至ったRFBが、自分のクリスマスコインを取り出し、//nスオミへ渡す。+スオミは感動を何とか抑え込んだ後、コインを優しく受け取った。
+KP31(2)<Speaker>スオミ</Speaker>||:なら、私からもお礼です。
+()<Speaker></Speaker>||:スオミのクリスマスコインが、ついにRFBの手に渡る。
+KP31(2)<Speaker>スオミ</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=10</controll_shake>:<color=#A9A9A9><size=50>ああ、ああっ……私の願いが成就した……</size></color>+<color=#A9A9A9>今年はとってもいいクリスマスね……</color>+コインをありがとう。
+()<Speaker></Speaker>||:高ぶる気持ちを心の中で叫ぶ一方で、スオミはなんでもない顔を装った。
+RFB(2)<Speaker>Am RFB</Speaker>||:<color=#A9A9A9>やったー、スオミのコインだ！　ゲーム機に使えるのかな？</color>+こちらこそ、コインをくれてありがとう。
+()<Speaker></Speaker>||:二人は互いのクリスマスコインをじっくり見ると、//n堪らず揃って笑い出した。
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>167</BIN><Night>:同刻、基地付近の乗降場。+TMPは立ち上がり、カフェへ戻ることを決めた。+しかし、数歩歩いた後にあることに気づく。
+TMP(2)<Speaker>TMP</Speaker>||:さっきのK2さんの通信画面、綺麗に映ってましたよね？+あちらのネットワークがアップブレードされたのでしょうか……//nでもそんな話は聞いたことなかったような？
+()<Speaker>？？？</Speaker>||<SE1>AVG_21Winter_Subway</SE1>:TMP！
+()<Speaker></Speaker>||:最後の列車とともに、遥か後方から叫び声が聞こえてきた。
+TMP(2)<Speaker>TMP</Speaker>||:誰？
+K2(0)<Speaker>K2</Speaker>||:Tーー
+AEK999(0)<Speaker>AEK-999</Speaker>||:Mーー
+M950A(8)<Speaker>M950A</Speaker>||:Pーー
+Thunder50(0)<Speaker>Thunder</Speaker>||:！
+TMP(2)<Speaker>TMP</Speaker><Shake>0.1</Shake>||:わぁ――おかえりなさい！
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:TMPは叫んだ後、ずっと待ちわびていた抱擁へ走っていった。
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>81</BIN><SE1>AVG_AMB_Restaurant</SE1>:12月25日、夜8時30分、カフェ。
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:集計時間が終わりました、結果発表の時間です！
+NPC-Kalin(1)<Speaker>指揮官</Speaker><同时置暗>||:それで、誰が勝ったの？
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:私に分かるわけないじゃないですか。//nただ、人形の皆さんの所持数データはアップロードされたので、//nあとは司令室のコンピュータに計算してもらうだけです。+それが終われば、すぐに分かりますよ。
+NPC-Kalin(0)<Speaker>指揮官</Speaker><同时置暗>||:じゃあもしコンピュータが今フリーズしたら？//nデータ、全部なくならない？
+NPC-Kalin(3)<Speaker>カリーナ</Speaker>||:まっさか～！　ペルシカさんの折り紙付きの//n新型コンピュータなんですよ、頼れるに違いありません！
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:そろそろですね。それではみなさん！　お待ちかねの時が来ました！+両手を上げて、一緒にカウントダウンを行いましょう！
+()<Speaker></Speaker>||:カフェのスクリーンがカウントダウンモードに切り替わった。//n点滅する画面が、人形たちの瞳を光らせている。
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:5――
+()<Speaker>歓声</Speaker>||:4――3――+2――
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:……スクリーンに目を向けて、最後の勝者を刮目しましょう！
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Close</SE1>:スクリーンが高速で点滅を始め、//n人形たちの名前とアイコンが目まぐるしく入れ替わる。+熱烈な歓声は頂点に達しており、//n高々と挙げられたカリーナの人差し指が、最後のカウントダウンを行う――
+()<Speaker></Speaker>||:「１」。+スクリーンが止まろうとしたその時――
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:（爆発音）――（爆発音）――//n絶妙なタイミングで花火が夜空を彩った。
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Open_Light</SE1><BIN>81</BIN><Night>:カフェの明かりが消え、スクリーンも真っ暗になった。
+NPC-Kalin(2)<Speaker>カリーナ</Speaker>||:どういうこと？この花火は一体……
+NPC-Kalin(2)<Speaker>指揮官</Speaker><同时置暗>||:カリーナ、スクリーンが真っ暗に……
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:……
+NPC-Kalin(4)<Speaker>指揮官</Speaker><同时置暗>||:……例のコンピュータがダウンしたってことじゃない？
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:ペルシカさんに連絡します！
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:カリーナは隅へと行くと、ほんの数秒で凄惨な事実を知るに至った。
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:指揮官さま……
+NPC-Kalin(4)<Speaker>指揮官</Speaker><同时置暗>||<BGM>m_wv_scenario</BGM>:言って、覚悟はできてる。
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:司令室が花火で爆破され……コンピュータがダウンしたみたいです……
+()<Speaker>指揮官</Speaker><同时置暗>||:……
+()<Speaker></Speaker>||:何が起こったかまだ知らない人形たちは困惑の中話し合っている。//nクリスマスの楽しい雰囲気はぶち壊し一歩手前へと迫りつつある。
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:どうしましょう、指揮官さま？！
+NPC-Kalin(4)<Speaker>指揮官</Speaker><同时置暗>||:事故現場の処理は妖精に任せて、まずはイベントを円満に終わらせよう。+折角ここまで来たんだ、せめて最後まで楽しんでもらわないと。
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:最後まで楽しんでもらう……分かりました！
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:カリーナは慌てながらもアナウンスを再起動させに向かった。
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:<color=#00CCFF>皆さん、申し訳ありません。統計用のコンピューターに問題が発生したようで、ただいま鋭意修理中です！</color>
+()<Speaker>人形たち</Speaker>||:はぁ……どうしてそうなるんだよ！+白けさせんなよ！
+NPC-Kalin(4)<Speaker>カリーナ</Speaker>||:<color=#00CCFF>あぁ！まだ行かないでください！今夜の一番の関心事は一先ずお預けとなってしまいましたが……</color>
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:<color=#00CCFF>ですが！私たちにはもう一つの関心事があるじゃないですか！</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:カリーナの昂った笑顔を見て、ふいに指揮官の背筋に冷たいものが走る。
+NPC-Kalin(0)<Speaker>カリーナ</Speaker>||:<color=#00CCFF>そう、皆さんが長らく気にしていたであろう――</color>
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||<BGM>m_19christmas_battle</BGM>:<color=#00CCFF>指揮官のコインの行方です！</color>
+()<Speaker>指揮官</Speaker>||:……そう来ると思ったよ！
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:既に身構えていた指揮官は駆けだしたが、既に手遅れだった。
+Mk23(0)<Speaker>Gr Mk23</Speaker>||:ダーリン、選択の時だよ！+わたくし信じてる。きっと迷いなくわたくしを選んでくれるって……
+()||<黑点1>:
+()<Speaker>K-PDW</Speaker>||<BIN>444</BIN><Night><黑点2><震屏3><SE1>AVG_Punch</SE1>:いやいやいや！//nHoneyのコインはもうあたしのものだって決まってるから！
+()<Speaker>Gr Mk23</Speaker>||:適当なこと言わないで！
+()<Speaker>K-PDW</Speaker>||:そうだよね、Honey！
+()<Speaker>指揮官</Speaker>||:えっと……
+()<Speaker>Gr Mk23</Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=10/controll_shake><SE1>Rope</SE1>:ダーリン……わたくしのこと裏切ったりしないよね？
+()<Speaker>K-PDW</Speaker>||<SE1>Rope</SE1>:あたしにコインくれるんだよね、Honey♪
+()||<黑点1>:
+M1911Mod(0)<Speaker>M1911</Speaker>||<黑点2><BIN>81</BIN><Night><SE1>ClothingUp</SE1>:ダーリン、見つけましたわ！コインくれますよね！
+M9(0)<Speaker>M9</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:あっち行ってろなの、このオワコン！指揮官のコインは私のものなの！
+DSR50(0)<Speaker>Gd DSR-50</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:指揮官……少し二人にならない？
+Saiga12(0)<Speaker>Saiga-12</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:水着写真集とコイン交換しません？
+()<Speaker>指揮官</Speaker>||:……
+()<Speaker></Speaker>||:多数の人形に囲まれ、指揮官はじりじりと後ずさる。
+()<Speaker>指揮官</Speaker>||:<size=50>たっ、助けて――ッッ！！！</size>
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><SE1>GF_Halloween_Wind_loop</SE1>:悲痛な叫び声をあげると、//n指揮官は冷たい雪の降る夜に駆け出していった……
+()<Speaker></Speaker>||:当然、指揮官一人だけではないが……
+()<Speaker>人形たち</Speaker>||<SE1>AVG_Crowd_Run</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=10/controll_shake>:<size=50>指揮官/指揮官さま/ダーリン/Honey/飼育員/子羊ちゃん/ボス、待って――！！！</size>
+()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM><SE1>Stop_AVG_loop</SE1><CGDelay>3</CGDelay>:一枚の重みEND.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>7</BIN><Night><BGM>m_19christmas_theme</BGM>:……12月25日、クリスマス当日、基地付近。+花火妖精がようやく現場の花火の設置を終えた。
+NPC_HanabiYousei(2)<Speaker>花火妖精</Speaker><Position>0,340</Position><Shake>0.1</Shake>||:あーーほんと疲れた！
+()<Speaker></Speaker>||<SE1>AVG_coin_put</SE1>:（転がる音）+空の酒瓶が一つ転がってきた。
+NPC_HanabiYousei(2)<Speaker>花火妖精</Speaker><Position>0,340</Position><Shake>||:誰だ？！こんなところでの飲酒が危ないって分からないの？
+()<Speaker>？？？</Speaker>||:私……なんで……合コンの場で……+<size=50>ヘヴィメタルなんか流したんだよ！！！</size>
+()<Speaker></Speaker>||:花火妖精がプンプンしながら酒瓶を拾ってると、//n千鳥足の黒い影が向かってきた。
+NPC_HanabiYousei(2)<Speaker>花火妖精</Speaker><Position>0,340</Position>||:へ、ヘリアンさん？
+NPC-Helian(4)<Speaker>ヘリアン</Speaker>||:合コン！仕事！滅びろ！
+NPC-Helian(4)<Speaker>ヘリアン</Speaker>||<震屏3>:<size=50>クリスマス！イブ！全部滅びろ！</size>
+NPC_HanabiYousei(2)<Speaker>花火妖精</Speaker><Position>0,340</Position>||:……大丈夫ですか？ヘリアンさん、酔っぱらっているようですが。
+NPC-Helian(4)<Speaker>ヘリアン</Speaker>||:へへ……願いが一つあるんだ……
+NPC_HanabiYousei(2)<Speaker>花火妖精</Speaker><Position>0,340</Position>||:<color=#A9A9A9>願い……Px4ストームが言ってた、クリスマスは積極的に人の願いを叶えてあげるべきだって！</color>+ヘリアンさん、どんな願いですか？
+NPC-Helian(4)<Speaker>ヘリアン</Speaker>||:<size=50>私に恥をかかせたあそこを――爆破！全部爆破しろ！ハハハハハ！</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ヘリアンは酒瓶で司令室の方向を指した。
+NPC_HanabiYousei(2)<Speaker>花火妖精</Speaker><Position>0,340</Position>||:……+<color=#A9A9A9>いいんですか？</color>+<color=#A9A9A9>まあ人間の願いなんてそんなものか……</color>+分かりました、頑張ります！
+()<Speaker></Speaker>||<SE1>Rope</SE1>:花火妖精は手中の発射装置を握り締め、ヘリアンの願いを叶えると心の中で誓った。
+()||<黑屏1>:一枚の重みEND！

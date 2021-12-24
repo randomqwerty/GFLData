@@ -33,6 +33,9 @@ local HasTeamCanUse = function(self,spot)
 end
 
 local CreateTeam = function(self,selectedSpot,teamId,teamType,grow,growtype)
+	if selectedSpot.packageIgnore then
+		return;
+	end
 	if teamType == CS.DeploymentController.TeamType.allyTeam then
 		if selectedSpot.spotAction ~= nil  and teamId == 0 then
 			for i=0,selectedSpot.spotAction.allyTeamInstanceIds.Count-1 do

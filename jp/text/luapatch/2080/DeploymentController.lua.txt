@@ -159,7 +159,18 @@ local CheckTeamCanMove = function(self,spot)
 	end
 	return self:CheckTeamCanMove(spot);
 end
-
+local CheckTeamBothCanMove = function(self,spot)
+	if self.currentSelectedTeam.currentCanNotMove then
+		return false;
+	end
+	if spot.currentTeam ~= nil and spot.currentTeam:CurrentTeamBelong() == CS.TeamBelong.friendly then			
+		if spot.currentTeam.currentCanNotMove then
+			return false;
+		end
+	end
+				
+	return self:CheckTeamBothCanMove(spot);
+end
 local PlayGrowSummonEnemy = function(self)
 	for i=0,CS.GameData.missionAction.growSpots.Count-1 do
 		local spotAction = CS.GameData.missionAction.growSpots[i];
@@ -319,6 +330,7 @@ util.hotfix_ex(CS.DeploymentController,'AnalysisNightEnemy',AnalysisNightEnemy)
 util.hotfix_ex(CS.DeploymentController,'TriggerMoveCameraEvent',TriggerMoveCameraEvent)
 util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
 util.hotfix_ex(CS.DeploymentController,'CheckTeamCanMove',CheckTeamCanMove)
+util.hotfix_ex(CS.DeploymentController,'CheckTeamBothCanMove',CheckTeamBothCanMove)
 util.hotfix_ex(CS.DeploymentController,'PlayGrowSummonEnemy',PlayGrowSummonEnemy)
 util.hotfix_ex(CS.DeploymentController,'PlaySpotTeamCapture',PlaySpotTeamCapture)
 util.hotfix_ex(CS.DeploymentController,'PlaySpotSurroundCapture',PlaySpotSurroundCapture)
