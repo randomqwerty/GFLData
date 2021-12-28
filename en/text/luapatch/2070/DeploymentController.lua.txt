@@ -33,6 +33,9 @@ local HasTeamCanUse = function(self,spot)
 end
 
 local CreateTeam = function(self,selectedSpot,teamId,teamType,grow,growtype)
+	if selectedSpot.packageIgnore then
+		return;
+	end
 	if teamType == CS.DeploymentController.TeamType.allyTeam then
 		if selectedSpot.spotAction ~= nil  and teamId == 0 then
 			for i=0,selectedSpot.spotAction.allyTeamInstanceIds.Count-1 do
@@ -250,6 +253,12 @@ local CanPlayerAction = function(self)
 	end
 	return true;
 end
+local CheckTeamCanMove = function(self,spot)
+	if self.currentSelectedTeam ~= nil and self.currentSelectedTeam.currentCanNotMove then
+		return false;
+	end
+	return self:CheckTeamCanMove(spot);
+end
 util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
 util.hotfix_ex(CS.DeploymentController,'HasTeamCanUse',HasTeamCanUse)
 util.hotfix_ex(CS.DeploymentController,'CreateTeam',CreateTeam)
@@ -263,4 +272,5 @@ util.hotfix_ex(CS.DeploymentController,'GoBattle',GoBattle)
 util.hotfix_ex(CS.DeploymentController,'SelectSpot',SelectSpot)
 util.hotfix_ex(CS.DeploymentController,'ConfirmMove',ConfirmMove)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
+util.hotfix_ex(CS.DeploymentController,'CheckTeamCanMove',CheckTeamCanMove)
 
