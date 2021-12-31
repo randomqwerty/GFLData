@@ -426,7 +426,21 @@ patch2080={
 "2080/CombineController",
 }
 patch2081={}
-patch2090={}
+patch2090={
+"2090/AVGTrigger",	
+"2090/SLGMinigame/BattleSLGModeController",
+"2090/CareerQuestController",
+"2090/DeploymentCampaignExplain",
+"2090/DeploymentController",		
+"2090/OPSPanelController",
+"2090/OPSPanelMissionGroup",		
+"2090/OPSConfig",
+"2090/FlightChessLobbyGashaController",
+"2090/MissionData",	
+"2090/NavigationController",	
+"2090/SLGMinigame/BattleEnemyCharacterController",
+}
+
 -- va11
 print("load Va11");
 table.insert(patch2080, "collaboration/Va11/AVGController");

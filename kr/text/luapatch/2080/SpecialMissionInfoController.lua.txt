@@ -91,7 +91,14 @@ local ShowDrop = function(self)
 	end
 	self:ShowDrop();
 end
+
+local InitUIElements = function(self)
+	self:InitUIElements();
+	local txt1 = self.transform:Find("Groove/MultiMission/Tex_Info"):GetComponent(typeof(CS.ExText));
+	txt1.text = CS.Data.GetLang(60097);
+end
 util.hotfix_ex(CS.SpecialMissionInfoController,'RequestAbortMissionHandle',RequestAbortMissionHandle)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowDrop',ShowDrop)
 util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)
+util.hotfix_ex(CS.SpecialMissionInfoController,'InitUIElements',InitUIElements)
