@@ -16,5 +16,13 @@ local ShowCurrentMission = function(self,missionId)
 	ShowMissionPanel(CS.OPSPanelController.Instance,self.mission);
 	CS.CommonAudioController.PlayUI("UI_selete_2");
 end
+
+local InitUIElements = function(self)
+	self:InitUIElements();
+	local txt1 = self.transform:Find("Groove/MultiMission/Tex_Info"):GetComponent(typeof(CS.ExText));
+	txt1.text = CS.Data.GetLang(60097);
+end
+
 util.hotfix_ex(CS.SpecialMissionInfoController,'FinishAVG',FinishAVG)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowCurrentMission',ShowCurrentMission)
+util.hotfix_ex(CS.SpecialMissionInfoController,'InitUIElements',InitUIElements)
