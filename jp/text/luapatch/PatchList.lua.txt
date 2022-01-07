@@ -441,6 +441,10 @@ patch2090={
 "2090/SLGMinigame/BattleEnemyCharacterController",
 "2090/HomeOperationButton",
 "2090/SLGMinigame/BattleInteractionGridController",
+"2090/SLGMinigame/BattleInteractionController",
+"2090/FlightChessRewardPlayerController",
+"2090/CommonCharacterListLabelHolderController",
+"2090/SquadCPUSettingController"
 }
 
 -- va11
