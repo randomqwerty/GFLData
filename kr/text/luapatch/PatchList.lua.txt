@@ -427,18 +427,33 @@ patch2080={
 }
 patch2081={}
 patch2090={
-"2090/AVGTrigger",	
+"2090/FairySorter",
+"2090/ResearchEquipmentStrengthenController",
+"2090/AVGTrigger",
 "2090/SLGMinigame/BattleSLGModeController",
 "2090/CareerQuestController",
 "2090/DeploymentCampaignExplain",
 "2090/DeploymentController",		
 "2090/OPSPanelController",
-"2090/OPSPanelMissionGroup",		
+"2090/OPSPanelMissionGroup",
+"2090/OPSPanelMissionContainer",			
 "2090/OPSConfig",
 "2090/FlightChessLobbyGashaController",
 "2090/MissionData",	
 "2090/NavigationController",	
 "2090/SLGMinigame/BattleEnemyCharacterController",
+"2090/HomeOperationButton",
+"2090/SLGMinigame/BattleInteractionGridController",
+"2090/SLGMinigame/BattleInteractionController",
+"2090/FlightChessRewardPlayerController",
+"2090/CommonCharacterListLabelHolderController",
+"2090/CommonStorageFullConfirmBoxController",	
+"2090/SquadCPUSettingController",
+"2090/SquadChipCalculatorData",
+"2090/SquadStateController",
+"2090/Data",
+"2090/DormEstablishDetailController",
+"2090/BattleUIPauseController",
 }
 
 -- va11
