@@ -244,15 +244,23 @@ local ConfirmMove = function(self)
 	self:ConfirmMove();
 end
 
+local check = false;
 local CanPlayerAction = function(self)
+	if check then
+		return true;
+	end
 	if CS.GameData.currentSelectedMissionInfo.useDemoMission then
-		if HasDeploySpot() then
-			return  true;
-		end
 		return false;	
 	end
 	return true;
 end
+
+local ClickSpot = function(self,spot)
+	check = true;
+	self:ClickSpot(spot);
+	check = false;
+end
+
 local CheckTeamCanMove = function(self,spot)
 	if self.currentSelectedTeam ~= nil and self.currentSelectedTeam.currentCanNotMove then
 		return false;
@@ -273,4 +281,4 @@ util.hotfix_ex(CS.DeploymentController,'SelectSpot',SelectSpot)
 util.hotfix_ex(CS.DeploymentController,'ConfirmMove',ConfirmMove)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 util.hotfix_ex(CS.DeploymentController,'CheckTeamCanMove',CheckTeamCanMove)
-
+util.hotfix_ex(CS.DeploymentController,'ClickSpot',ClickSpot)

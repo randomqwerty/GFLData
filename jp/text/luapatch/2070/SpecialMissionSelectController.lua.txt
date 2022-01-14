@@ -43,6 +43,18 @@ local Init = function(self,showMissions,currentMissionInfo)
 	end	
 end
 local ItemList = function(self)
+	if CS.OPSPanelController.Instance.campaionId == -41 then
+		for i=0,self.textList.Count-1 do		
+			local a = CS.Mathf.Abs(self.textList[i].position.y - self.targetRec.position.y);
+			local lerp = CS.Mathf.Abs(self.curve_color:Evaluate(a / 8));
+			local color = CS.UnityEngine.Color.Lerp(CS.UnityEngine.Color(0,0,0,1),CS.UnityEngine.Color(1,1,1,1),lerp);
+			local txttitle = self.textList[i]:Find("Tex_Title");
+			if txttitle ~= nil then
+				txttitle:GetComponent(typeof(CS.ExText)).color = color; 
+			end
+		end
+		return;
+	end
 	for i=0,self.textList.Count-1 do		
 		local a = CS.Mathf.Abs(self.textList[i].position.y - self.targetRec.position.y);
 		local lerp = CS.Mathf.Abs(self.curve_color:Evaluate(a / 8));
@@ -51,7 +63,7 @@ local ItemList = function(self)
 		self.textList[i]:Find("Img_MissionBattleType"):GetComponent(typeof(CS.ExImage)).color = color;
 	end
 end
-util.hotfix_ex(CS.SpecialMissionSelectController,'Init',Init)
+--util.hotfix_ex(CS.SpecialMissionSelectController,'Init',Init)
 util.hotfix_ex(CS.SpecialMissionSelectController,'Start',Start)
 util.hotfix_ex(CS.SpecialMissionSelectController,'CheckCurrentPos',CheckCurrentPos)
 util.hotfix_ex(CS.SpecialMissionSelectController,'Update',Update)

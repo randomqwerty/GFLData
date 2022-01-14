@@ -7,10 +7,14 @@ local AddDieEnemyCount = function(self,enemyteam,addnum)
 end
 
 local UseWinCounter = function(self)
-	if self.missionInfo.mapped_mission_id ~= 0 then		
-		local missionids = CS.GameData.listMissionMapInfo:GetDataById(self.missionInfo.mapped_mission_id).missionids;
+	if self.missionInfo.mapped_mission_id ~= 0 then
+		local mapInfo = CS.GameData.listMissionMapInfo:GetDataById(self.missionInfo.mapped_mission_id);
+		if 	mapInfo == nil then
+			return self.winCount;
+		end
+		local missionids = mapInfo.missionids;
 		local index = missionids:IndexOf(self.missionInfo.id);
-		if index==1 then
+		if index == 1 or index == 2 then
 			if self.winCount>0 and self.mappedwincounter>0 then
 				return self.mappedwincounter;
 			else
