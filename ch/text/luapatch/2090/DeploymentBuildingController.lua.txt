@@ -1,0 +1,12 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.DeploymentBuildingController)
+
+local CompleteSpineAnim = function(self)
+	if self.skeletonAnimation == nil or self.buildAction == nil then
+		return;
+	end
+	self.orderanim = CS.Mathf.Min(self.skeletonAnimation.skeleton.Data.Animations.Count - 1, self.orderanim);
+	self:CompleteSpineAnim();
+end
+
+util.hotfix_ex(CS.DeploymentBuildingController,'CompleteSpineAnim',CompleteSpineAnim)

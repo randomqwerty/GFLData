@@ -203,11 +203,13 @@ function ShowMissionPanel(self,mission)--显示关卡具体界面
 	self.MissionInfoController:ShowOldReward();
 	CS.CommonAudioController.PlayUI("UI_selete_2");
 	self:PlaySpecialOpenMissionAudio();	
-	local line = missionScroll.transform:Find("Img_Line"):GetComponent(typeof(CS.UnityEngine.RectTransform));
-	line.anchoredPosition = CS.UnityEngine.Vector2(900,250);
-	line.sizeDelta = CS.UnityEngine.Vector2(0,0);
-	self.Line.gameObject:SetActive(true);
-	self.Line:ShowLine(line,self.MissionInfoController.transform:Find("LinePoint"));	
+	if missionScroll ~= nil then
+		local line = missionScroll.transform:Find("Img_Line"):GetComponent(typeof(CS.UnityEngine.RectTransform));
+		line.anchoredPosition = CS.UnityEngine.Vector2(900,250);
+		line.sizeDelta = CS.UnityEngine.Vector2(0,0);
+		self.Line.gameObject:SetActive(true);
+		self.Line:ShowLine(line,self.MissionInfoController.transform:Find("LinePoint"));
+	end	
 end
 		
 local SelectMissionPanel = function(self,panelMission)--选中上面关卡
