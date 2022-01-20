@@ -9080,6 +9080,10 @@
     "formula": "sbuffidtier(8086)=1?90:sbuffidtier(8087)=1?96:sbuffidtier(8088)=1?102:sbuffidtier(8089)=1?111:sbuffidtier(8090)=1?117:sbuffidtier(8091)=1?123:sbuffidtier(8092)=1?129:sbuffidtier(8093)=1?138:sbuffidtier(8094)=1?144:150"
   },
   {
+    "id": 4486,
+    "formula": "#enemytype=1?0:1"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
