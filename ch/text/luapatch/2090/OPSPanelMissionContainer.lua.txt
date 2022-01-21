@@ -35,5 +35,36 @@ local RefreshClockUI = function(self)
 		end
 	end
 end
+
+local ClearCount = function(self)
+	if self.clockinfo ~= nil then
+		local num = 0;
+		for i=0,self.clockinfo.missionIds.Count-1 do
+			local mids = self.clockinfo.missionIds[i];
+			local pass = false;
+			for j=0,mids.Count-1 do
+				local missionid = mids[j];
+				local mission = CS.GameData.listMission:GetDataById(missionid);
+				if mission ~= nil and mission.winCount>0 then
+					pass = true;
+				end
+			end
+			if pass then
+				num = num + 1;
+			end
+		end
+		return  num;
+	end	
+	return 0;	
+end
+local AllCount = function(self)
+	if self.clockinfo ~= nil then
+		local num = self.clockinfo.missionIds.Count;
+		return num;
+	end	
+	return 0;
+end
 util.hotfix_ex(CS.OPSPanelMissionContainer,'get_rotateControl',rotateControl)
 util.hotfix_ex(CS.OPSPanelMissionContainer,'RefreshClockUI',RefreshClockUI)
+util.hotfix_ex(CS.OPSPanelMissionContainer,'ClearCount',ClearCount)
+util.hotfix_ex(CS.OPSPanelMissionContainer,'AllCount',AllCount)

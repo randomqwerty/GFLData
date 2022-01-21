@@ -2,6 +2,17 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
 
 local InitClockSelect = function(self,show,play)
+	if CS.GameData.missionAction ~= nil then
+		self.selectProcess = true;
+		self.missionIdTemp = CS.GameData.missionAction.missionInfo.id;
+	end
+	if self.clockSelectRing ~= nil and not self.clockSelectRing:isNull() then
+		local parentRing = self.clockSelectRing.transform:Find("Ring");
+		for i=0,parentRing.childCount-1 do
+			local image = parentRing:GetChild(i):GetComponent(typeof(CS.ExImage));
+			image:DOKill();
+		end
+	end
 	self:InitClockSelect(show,play);
 	if self.currentPanelConfig.ContainerClockInfos:ContainsKey(CS.OPSPanelBackGround.currentContainerId) then
 		local info = self.currentPanelConfig.ContainerClockInfos[CS.OPSPanelBackGround.currentContainerId];
@@ -26,6 +37,7 @@ local InitClockSelect = function(self,show,play)
 			end
 		end
 	end
+	self.selectProcess = false;
 end
 local CheckCurrentAngle = function(self,order)
 	self:CheckCurrentAngle(order);
@@ -158,6 +170,20 @@ local CheckSpineSpot = function(self)
 	end
 	self:CheckSpineSpot();
 end
+
+local RefreshUI = function(self,onlyrefreshLabel)
+	self:RefreshUI(onlyrefreshLabel);
+	if self.currentContainer ~= nil and not self.currentContainer:isNull() then
+		self.currentContainer:RefreshUI();
+	end
+end
+
+local CancelMission = function(self)
+	self:CancelMission();
+	if self.currentContainer ~= nil and not self.currentContainer:isNull() then
+		self:InitClockSelect(true, false);
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'InitClockSelect',InitClockSelect)
 util.hotfix_ex(CS.OPSPanelController,'ShowContainerReturn',ShowContainerReturn)
 util.hotfix_ex(CS.OPSPanelController,'CheckCurrentAngle',CheckCurrentAngle)
@@ -169,3 +195,5 @@ util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)
 util.hotfix_ex(CS.OPSPanelController,'ShowItemRuler',ShowItemRuler)
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainer',ReturnContainer)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineSpot',CheckSpineSpot)
+util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
+util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
