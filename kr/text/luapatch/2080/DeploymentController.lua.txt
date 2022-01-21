@@ -297,14 +297,21 @@ local RequestStartTurnHandle = function(self,www)
 	CS.DeploymentBackgroundController.Instance.listSpotInfo:Remove(spot);
 end
 
+local check = false;
 local CanPlayerAction = function(self)
+	if check then
+		return true;
+	end
 	if CS.GameData.currentSelectedMissionInfo.useDemoMission then
-		if HasDeploySpot() then
-			return  true;
-		end
 		return false;	
 	end
 	return true;
+end
+
+local ClickSpot = function(self,spot)
+	check = true;
+	self:ClickSpot(spot);
+	check = false;
 end
 
 local Awake = function(self)
@@ -320,6 +327,7 @@ local CreateTeam = function(self,selectedSpot,teamId,teamType,grow,growtype)
 	end
 	self:CreateTeam(selectedSpot,teamId,teamType,grow,growtype);
 end
+
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
@@ -342,4 +350,5 @@ util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurn
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 util.hotfix_ex(CS.DeploymentController,'Awake',Awake)
 util.hotfix_ex(CS.DeploymentController,'CreateTeam',CreateTeam)
+util.hotfix_ex(CS.DeploymentController,'ClickSpot',ClickSpot)
 

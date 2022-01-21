@@ -23,6 +23,40 @@ local InitUIElements = function(self)
 	txt1.text = CS.Data.GetLang(60097);
 end
 
+
+local RefresCommonUI = function(self) 
+	if self.entranceId ~= 0 then
+		local missionid = self.missionInfo.Id;
+		local info = CS.OPSConfig.missionEntranceInfos[self.entranceId];
+		self.btnSelectDiffcluty.gameObject:SetActive(false);
+		for i=0,info.missionids.Count-1 do
+			if info.missionids[i]:Contains(missionid) then
+				local check = 0;
+				for j=0,info.missionids[i].Count-1 do
+					if info.missionids[i][j] == missionid then
+						check = check+1;
+					end
+				end
+				if check == 1 then
+					self.btnSelectDiffcluty.gameObject:SetActive(true);
+				end
+			end
+		end
+	end
+	self:RefresCommonUI();
+end 
+
+local ShowNewReward = function(self)
+	self.ClearTag.gameObject:SetActive(false);
+	self:ShowNewReward();
+end
+local RefreshEntranceUI = function(self)
+	self.showtxt:Find("txtTitle").gameObject:SetActive(self.entranceId==0);
+	self:RefreshEntranceUI();
+end
 util.hotfix_ex(CS.SpecialMissionInfoController,'FinishAVG',FinishAVG)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowCurrentMission',ShowCurrentMission)
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitUIElements',InitUIElements)
+util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)
+util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
+util.hotfix_ex(CS.SpecialMissionInfoController,'RefreshEntranceUI',RefreshEntranceUI)
