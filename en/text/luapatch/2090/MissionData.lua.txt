@@ -57,5 +57,10 @@ local LoadFairySkillPerform = function(self,jsonData,readObject)
 		end
 	end
 end
+local LoadKillNum = function(self,jsonData,readObject)
+	self:LoadKillNum(jsonData,readObject);
+	self:LoadDieEnemy(jsonData,readObject);
+end
 util.hotfix_ex(CS.MissionAction,'LoadBattleEnvironment',LoadBattleEnvironment)
 util.hotfix_ex(CS.MissionAction,'LoadFairySkillPerform',LoadFairySkillPerform)
+util.hotfix_ex(CS.MissionAction,'LoadKillNum',LoadKillNum)

@@ -2,6 +2,17 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
 
 local InitClockSelect = function(self,show,play)
+	if CS.GameData.missionAction ~= nil then
+		self.selectProcess = true;
+		self.missionIdTemp = CS.GameData.missionAction.missionInfo.id;
+	end
+	if self.clockSelectRing ~= nil and not self.clockSelectRing:isNull() then
+		local parentRing = self.clockSelectRing.transform:Find("Ring");
+		for i=0,parentRing.childCount-1 do
+			local image = parentRing:GetChild(i):GetComponent(typeof(CS.ExImage));
+			image:DOKill();
+		end
+	end
 	self:InitClockSelect(show,play);
 	if self.currentPanelConfig.ContainerClockInfos:ContainsKey(CS.OPSPanelBackGround.currentContainerId) then
 		local info = self.currentPanelConfig.ContainerClockInfos[CS.OPSPanelBackGround.currentContainerId];
@@ -26,6 +37,7 @@ local InitClockSelect = function(self,show,play)
 			end
 		end
 	end
+	self.selectProcess = false;
 end
 local CheckCurrentAngle = function(self,order)
 	self:CheckCurrentAngle(order);
@@ -47,7 +59,20 @@ local ShowContainerReturn = function(self,show,play)
 		self.specialItemObj:SetActive(CS.OPSPanelBackGround.currentContainerId == 5);
 	end
 	if self.campaionId == -51 and self.btnTitleTrans ~= nil and not self.btnTitleTrans:isNull() then
-		self.btnTitleTrans.gameObject:SetActive(CS.OPSPanelBackGround.currentContainerId ~= 5 and CS.OPSPanelBackGround.currentContainerId ~= 6);
+		local main = self.leftMain:Find("FixedPoint_Left(Clone)/Main");
+		if CS.OPSPanelBackGround.currentContainerId ~= 5 and CS.OPSPanelBackGround.currentContainerId ~= 6 then
+			self.btnTitleTrans.gameObject:SetActive(true);
+			if main ~= nil then
+				local mainTrans = main:GetComponent(typeof(CS.UnityEngine.RectTransform));
+				main:DOAnchorPosY(420,0.5);
+			end
+		else
+			self.btnTitleTrans.gameObject:SetActive(false);
+			if main ~= nil then
+				local mainTrans = main:GetComponent(typeof(CS.UnityEngine.RectTransform));
+				main:DOAnchorPosY(300,0.5);
+			end
+		end		
 	end
 	if self.campaionId == -51 and self.containerBackground ~= nil and not self.containerBackground:isNull() then
 		self.containerBackground:SetActive(CS.OPSPanelBackGround.currentContainerId == 0);
@@ -126,13 +151,38 @@ local ShowItemRuler = function(self)
 	end
 	self:ShowItemRuler();
 end
-
+checkScale = false;
 local ReturnContainer = function(self)
 	if not self.CanClick then
 		return;
 	end
-	CS.OPSPanelBackGround.Instance:ReadRecord();
+	checkScale = true;
 	self:ReturnContainer();
+	CS.CommonController.Invoke(function()
+		CS.OPSPanelBackGround.Instance:ReadRecord();
+		end,0.7,CS.OPSPanelController.Instance);
+end
+local CheckSpineSpot = function(self)
+	if self.currentContainer ~= nil and not self.currentContainer:isNull() then
+		if self.currentContainer.clockinfo ~= nil then
+			return;
+		end
+	end
+	self:CheckSpineSpot();
+end
+
+local RefreshUI = function(self,onlyrefreshLabel)
+	self:RefreshUI(onlyrefreshLabel);
+	if self.currentContainer ~= nil and not self.currentContainer:isNull() then
+		self.currentContainer:RefreshUI();
+	end
+end
+
+local CancelMission = function(self)
+	self:CancelMission();
+	if self.currentContainer ~= nil and not self.currentContainer:isNull() then
+		self:InitClockSelect(true, false);
+	end
 end
 util.hotfix_ex(CS.OPSPanelController,'InitClockSelect',InitClockSelect)
 util.hotfix_ex(CS.OPSPanelController,'ShowContainerReturn',ShowContainerReturn)
@@ -144,3 +194,6 @@ util.hotfix_ex(CS.OPSPanelController,'ShowTip',ShowTip)
 util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)
 util.hotfix_ex(CS.OPSPanelController,'ShowItemRuler',ShowItemRuler)
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainer',ReturnContainer)
+util.hotfix_ex(CS.OPSPanelController,'CheckSpineSpot',CheckSpineSpot)
+util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
+util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)

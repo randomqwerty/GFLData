@@ -37,5 +37,11 @@ local ShowNewReward = function(self)
 		end
 	end
 end
+
+local RefresCommonUI = function(self)
+	self.theaterTransform:Find("FightType").gameObject:SetActive(false);
+	self:RefresCommonUI();
+end
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitTotalTeamBaseLimit',InitTotalTeamBaseLimit)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
+util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)

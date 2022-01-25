@@ -1,54 +1,54 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>46</BIN><BGM>BGM_Sneak</BGM>:众人又一次来到金属门前。
-M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:大家，都准备好了吗？
-()<Speaker>64式&56-1式&NZ75</Speaker>||:报告班长，准备好了！
-M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:时间紧迫不多说，不然霍克又要经历一个循环……+这个世界里最合理存在的就是五六，请你进行正面支援，其他人见机行事。
-56-1type(0)<Speaker>56-1式</Speaker>||:是！
-()||:除56-1式外，其他人做好隐蔽，静静等待绑匪和人质的第N次到来。
-NPC-PasserbyF(0)<Speaker>年轻女子</Speaker>||:呜呜呜，救救我，谁来救救我啊……
-NPC-Bodyguard1(0)<Speaker>中年男子</Speaker>||:别嚎了，乖乖听话，跟我进去。
-()||:97式霰追踪绑匪留下的血迹来到了金属门前。
-97typeS(0)<Speaker>97式霰</Speaker>||:血迹在门口形成了片状，这里有做停留，看来是藏里边了。
-()||:97式霰使用权限开启金属门，只见绑匪用枪抵住年轻女子头部，一瘸一拐的挪动着。
-NPC-Bodyguard1(0)<Speaker>中年男子</Speaker>||:诶我说那个人形，你可别轻举妄动，你要是乱来，这小妞的性命就保不住了，听的懂不？
-()||:56-1式从97式霰身后忽然出现
-56-1type(0)<Speaker>56-1式</Speaker>||:报告，56-1式前来火力增援。
-97typeS(0)<Speaker>97式霰</Speaker>||:咦？56-1式……你啷个跑到这里头来了？
-56-1type(0)<Speaker>56-1式</Speaker>||:霍克你的普通话……咋这个味呢？
-97typeS(0)<Speaker>97式霰</Speaker>||:咋了，我普通话说的老好老好的了。+你别这里添乱，快闪开。
-NPC-Bodyguard1(0)<Speaker>中年男子</Speaker>||:我说，你们两个人形不把我当回事是不是，信不信我一枪崩了这女人——
-NPC-PasserbyF(0)<Speaker>年轻女子</Speaker>||:呜哇！快救救我啊——+你这个人形——
-()||:年轻女子话音未落，56-1式举枪射击，子弹擦过年轻女子的大腿击中绑匪。
-()||:人质由于疼痛和惊吓蜷缩在地，绑匪中枪后再也无暇顾及人质，落荒而逃。
-56-1type(0)<Speaker>56-1式</Speaker>||:霍克，愣什么神，还不快追。
-97typeS(0)<Speaker>97式霰</Speaker>||:啊？是。
-()||<BGM>BGM_Empty</BGM>:97式霰成功将中年男子制服，带回56-1式面前。
-M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||<BGM>BGM_Hello</BGM>:干的好，霍克！
-97typeS(0)<Speaker>97式霰</Speaker>||:……是班长！ 
-M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:这次五六也是学习了你之前紧急事态下的处理，令绑匪无法控制受伤的人质，才能做到完美救援。
-97typeS(0)<Speaker>97式霰</Speaker>||:谢谢班长认可！+不过，你们这是在整哪一出啊……
-56-1type(0)<Speaker>56-1式</Speaker>||:识……识破了吗……
-97typeS(0)<Speaker>97式霰</Speaker>||:哼，我只是在演练当时那种情况的其他可能而已，什么玩意你们就给我这瞎整。
-56-1type(0)<Speaker>56-1式</Speaker>||:班长是担心你失去信心和勇气才演的这一出，你可不要不领情。
-97typeS(0)<Speaker>97式霰</Speaker>||:那不能够……
-()||<SE1>AVG_tele_connect</SE1>:此时通讯器接到了格琳娜的消息。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>动了，进度条动了，这么做果然有效！你们可以准备返回了。</color>
-NZ75(0)<Speaker>NZ75</Speaker>||:啊，我们要走了诶，可是，霍克这一嘴标准的普通话我还没听够呢。
-97typeS(0)<Speaker>97式霰</Speaker>||<黑屏1>:没听够哇，那赶明儿天天搁你跟前唠，唠烦为止——
-()||<黑屏2><BIN>72</BIN>:进入二级平层的传输模式
-()||<SE1>AVG_tele_connect</SE1>:通讯器又响了起来
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>且慢，进度条又不动了，你们再等等……</color>
-56-1type(0)<Speaker>56-1式</Speaker>||<黑屏2><BIN>46</BIN>:不会吧，又是这里，霍克你到底有多少烦恼都在这一扇门面前啊。
-M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:五六，你听门里有声音，好像在举办什么宴会。
-()||:64式和NZ75把耳朵贴在了门上。
-()||<SE1>RunStep</SE1>:只听见咚咚咚的脚步声向门口逼近。+哗——门突然打开。
-97typeS(0)<Speaker>97式霰</Speaker>||:饶了我吧……放了番茄的锅包肉，那玩意是人吃的吗？
-()||:门内另一个NZ75和另一个64式追了出来。
-64typeMod(0)<Speaker>64式</Speaker>||:霍克！为了庆祝你顺利完成心智升级，这可是我亲自从家乡搞来的咸肉超级盛宴。+我承认腌制的时间可能久了一点点，但是你只要尝一口，就能领略它的绝美风味。
-97typeS(0)<Speaker>97式霰</Speaker>||:一点点？这气味可以直接拿去做生化武器了好吧？
-NZ75(0)<Speaker>NZ75</Speaker>||:唔……好臭，大笨鹰回来，你不吃锅包肉，我还做了地三鲜，猪肉粉条都是你爱吃的——
-97typeS(0)<Speaker>97式霰</Speaker>||:那你也别全放番茄酱啊，告辞——
-()||:站在门外的NZ75和64式有些呆住，久久才回过神
-64typeMod(0)<Speaker>64式</Speaker>||:原来我们做的饭，对霍克这家伙来说，已经到了心灵恐惧的地步了吗！
-56-1type(0)<Speaker>56-1式</Speaker>||:有一说一，番茄酱版的锅包肉，可比腌肉要好吃太多了……
-64typeMod(0)<Speaker>64式</Speaker>||<黑屏1>:你说什么——
+()||<黑屏2><BIN>46</BIN><BGM>BGM_Sneak</BGM>:The group arrives before the metal door again.
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:Alright, everyone ready?
+()<Speaker>Type 64, Type 56-1 & NZ75</Speaker>||:Ready and waiting, Class Rep!
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:Time is tight, so I'll keep this brief, or Hawk will have to go through another loop again...+56's existence is the most plausible in this world, so please provide direct support for her. The rest of us will act as required.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Yes, ma'am!
+()||:With the exception of Type 56-1, the others take cover and quietly await the Nth arrival of the kidnapper and his victim.
+NPC-PasserbyF(0)<Speaker>Young Woman</Speaker>||:(Whimpers) Please save me, someone save me...
+NPC-Bodyguard1(0)<Speaker>Middle-Aged Man</Speaker>||:Quiet. Now behave and get in there with me.
+()||:Type 97S follows the kidnapper's trail of blood to the metal door.
+97typeS(0)<Speaker>Type 97S</Speaker>||:The stains are forming a pool, which means he stopped here. Looks like he's hiding inside.
+()||:Type 97S unlocks the metal door with her access clearance. Inside, she sees the kidnapper holding a gun to the girl's head while he limps away.
+NPC-Bodyguard1(0)<Speaker>Middle-Aged Man</Speaker>||:Listen up, Doll, you'd better not make any hasty moves. Try anything funny and the girl dies, got that?
+()||:Suddenly, Type 56-1 appears from behind Type 97S.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Type 56-1, ready to provide fire support!
+97typeS(0)<Speaker>Type 97S</Speaker>||:Huh? Type 56-1... The heck you doin' here?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Hawk...what's with your accent?
+97typeS(0)<Speaker>Type 97S</Speaker>||:Neva yew mind, Ah speak perfectly normal most days anyhow. +Now stop gettin' in mah way and git!
+NPC-Bodyguard1(0)<Speaker>Middle-Aged Man</Speaker>||:Not taking me seriously, are you? Do you think I won't shoot—
+NPC-PasserbyF(0)<Speaker>Young Woman</Speaker>||:(Wails) Hurry up and save me—+You stupid Doll—
+()||:Before the woman can finish, Type 56-1 raises her gun and a bullet grazes past the woman's thigh and hits the kidnapper.
+()||:The hostage collapses onto the ground out of pain and shock. Shot and in no state to worry about the hostage, the kidnapper flees.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:What are you standing around for, Hawk? Get him.
+97typeS(0)<Speaker>Type 97S</Speaker>||:Huh? Oh, right.
+()||<BGM>BGM_Empty</BGM>:Type 97S manages to subdue the man and drags him back to Type 56-1.
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||<BGM>BGM_Hello</BGM>:Well done, Hawk!
+97typeS(0)<Speaker>Type 97S</Speaker>||:...It's Class Rep!
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:The success of this perfect rescue was all because Type 56-1 learned how to undermine the kidnapper's control over a wounded hostage from the way you handled a crisis situation in the past.
+97typeS(0)<Speaker>Type 97S</Speaker>||:Thank yew fer yer 'proval, Class Rep!+Though ah gotta ask, where didja all come from?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Did...did she see through us...
+97typeS(0)<Speaker>Type 97S</Speaker>||:Humph, I wuz just runnin' through other possibilities for what mighta been back then. What were ya messin' with me fer?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Class Rep staged the whole thing because she was worried that you'd lost your courage and confidence. At least show some appreciation.
+97typeS(0)<Speaker>Type 97S</Speaker>||:But that couldn't...
+()||<SE1>AVG_tele_connect</SE1>:Just then, Kalina's voice comes over the communicator.
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>It's moving, the progress bar is moving, looks like what you're doing actually worked! You can prepare to return now.</color>
+NZ75(0)<Speaker>NZ75</Speaker>||:Well, we're heading back now. But I have to say, I'm just not used to you speaking like this.
+97typeS(0)<Speaker>Type 97S</Speaker>||<黑屏1>:Haven'tcha heard enough? Then ah'll gush on and on in front of ya from tomorrow onwards, till ya git sick of it—
+()||<黑屏2><BIN>72</BIN>:Entering Level II transmission mode.
+()||<SE1>AVG_tele_connect</SE1>:The communicator rings again.
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>Hang on, the progress bar stopped moving again, wait a little longer...</color>
+56-1type(0)<Speaker>Type 56-1</Speaker>||<黑屏2><BIN>46</BIN>:What, again? How much hidden trauma revolving around this damn door do you have anyway, Hawk?
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:Type 56-1, listen to the voices coming from inside. It sounds like some kind of party.
+()||:Type 64 and NZ75 press their ears to the door.
+()||<SE1>RunStep</SE1>:A series of footsteps approach. +Whoosh— The door suddenly opens.
+97typeS(0)<Speaker>Type 97S</Speaker>||:Oh come on, give me a break... sweet-and-sour pork with tomato sauce? That can't be fit for human consumption.
+()||:Another Type 64 and NZ75 follow her out the door.
+64typeMod(0)<Speaker>Type 64</Speaker>||:Hawk! This is the super salty meat spread I brought from my hometown to celebrate your neural upgrade!+I admit that I may have left it to soak in the brine for a little too long, but you'll be able to enjoy the delicious flavor once you try it.
+97typeS(0)<Speaker>Type 97S</Speaker>||:"A little too long"? The smell alone is practically a chemical weapon!
+NZ75(0)<Speaker>NZ75</Speaker>||:Ugh...it stinks. Just come back you big stupid bird, even if you don't want the sweet-and-sour pork, I made the disanxian and roast pork with vermicelli that you like—
+97typeS(0)<Speaker>Type 97S</Speaker>||:Well, you didn't have to slather them all with tomato sauce! Goodbye—
+()||:It takes NZ75 and Type 64, who are standing outside the door, a long time before they come to their senses.
+64typeMod(0)<Speaker>Type 64</Speaker>||:So the food we made was enough to cause Hawk mental trauma!
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Well, she has a point. Sweet-and-sour pork with tomato sauce is way better than salted meat...
+64typeMod(0)<Speaker>Type 64</Speaker>||<黑屏1>:What did you just say—

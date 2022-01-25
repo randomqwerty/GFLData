@@ -465,6 +465,13 @@ local CheckSpecialAnim = function(self)
 	CS.OPSPanelController.selectHolderOrder = -1;
 	self:CheckSpecialAnim();
 end
+
+local Awake = function(self)
+	self:Awake();
+	CS.OPSPanelController.diffcluteNum = self.currentPanelConfig.diffclutyNum;
+	CS.OPSPanelController.diffclutyRecord = CS.Mathf.Min(CS.OPSPanelController.diffclutyRecord, CS.OPSPanelController.diffcluteNum - 1);
+	CS.OPSPanelController.difficulty = CS.OPSPanelController.diffclutyRecord;
+end
 util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineMove',CheckSpineMove)
 util.hotfix_ex(CS.OPSPanelController,'CheckContainerAngle',CheckContainerAngle)
@@ -486,3 +493,4 @@ util.hotfix_ex(CS.OPSPanelController,'CheckClockTimeDelay',CheckClockTimeDelay)
 util.hotfix_ex(CS.OPSPanelController,'RequestUnClockCampaigns',RequestUnClockCampaigns)
 util.hotfix_ex(CS.OPSPanelController,'Play3dSpotAnim',Play3dSpotAnim)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpecialAnim',CheckSpecialAnim)
+util.hotfix_ex(CS.OPSPanelController,'Awake',Awake)

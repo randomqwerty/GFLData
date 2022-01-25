@@ -22,8 +22,10 @@
 //MissionSelectionTex|missionSelect_Bikini_2020|1
 //邪神酱联动：
 //MissionSelectionTex|DropkickonMyDevil|1
+//2020夏活配置：
+MissionSelectionTex|missionselect_Dual Randomness|2
 //2021圣诞活动配置：
-MissionSelectionTex|missionselect_Xmas2021|2
+//MissionSelectionTex|missionselect_Xmas2021|2
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -110,14 +112,14 @@ OPSLeftBGNormalActivity|-49|2021Xmas_Left
 //OPSNoticeNormalActivity|-37|WhiteDay_2020_Notice
 //OPSNoticeNormalActivity|-38|GunslingerGirl_Notice
 //OPSNoticeNormalActivity|-40|Bikini_2020_Notice
-//OPSNoticeNormalActivity|-41|Activity_2020S_Notice
+OPSNoticeNormalActivity|-41|Activity_2020S_Notice
 //OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 //OPSNoticeNormalActivity|-43|TheDivision_Notice
 //OPSNoticeNormalActivity|-44|MirrorStage_Notice
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
 //OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
-OPSNoticeNormalActivity|-49|Xmas_2021_Notice
+//OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -158,7 +160,7 @@ OPSTimeNormalActivity|-49|Reversible_Time
 //OPSGoto|DropkickonMyDevil_GotoMall|0
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
-OPSGoto|Xmas_2021_GotoMall|0
+//OPSGoto|Xmas_2021_GotoMall|0
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -339,11 +341,12 @@ OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-32|9002|60|VA11_Tip|1
 //OPSCampaignTitleButtonTip|-33|9003|60|Reversible_Tip|1
 //OPSCampaignTitleButtonTip|-34|100108|120|Hallowmas_2019_Tip|1
-OPSCampaignTitleButtonTip|-35|100117|120|Xmas_TIP|1
+//OPSCampaignTitleButtonTip|-35|100117|120|Xmas_TIP|1
 //OPSCampaignTitleButtonTip|-36|9004|60|PolarizedLight_Tip|1
 //OPSCampaignTitleButtonTip|-37|100083|60|WhiteDay_2020_Tip|1
 //OPSCampaignTitleButtonTip|-38|100052|60|GunslingerGirl_MissionPanelTip|1
 //OPSCampaignTitleButtonTip|-40|100094|60|Bikini_2020_Tip|1
+OPSCampaignTitleButtonTip|-41|9005|75|Activity_2020S_Tip|1
 //OPSCampaignTitleButtonTip|-42|100066|60|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
@@ -800,6 +803,10 @@ OPSCampaignDetail|-43_31|0,0|UMP45
 OPSCampaignDetail|-43_32|0,0|RFB
 
 
+//2020夏活
+OPSCampaignDetail|-41_1|0,0|Beast
+OPSCampaignDetail|-41_2|0,0|Dactyl
+OPSCampaignDetail|-41_3|0,0|Gustaf_2
 //邪神酱联动
 OPSCampaignDetail|-46_1|0,0|WeaverElite
 OPSCampaignDetail|-46_2|0,0|Dropkick_CyclopsChan
