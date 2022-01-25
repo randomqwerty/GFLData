@@ -1,18 +1,9 @@
 local util = require 'xlua.util'
-xlua.private_accessible(CS.FriendCardNode)
-xlua.private_accessible(CS.FairyInfo)
+xlua.private_accessible(CS.HomeUserInfoNewController)
 
-
-local _InitGender = function(self)
-	self:InitGender();
-	if self.userCard ~=nil then
-		local show= self.userCard.uid == CS.GameData.userInfo.userId;
-		self.storyCollectionText.transform.parent.gameObject:SetActive(show);
-		self.gunCollectionText.transform.parent.gameObject:SetActive(show);
-		self.furnitureCollectionText.transform.parent.gameObject:SetActive(show);
-		self.fairyCollectionText.transform.parent.gameObject:SetActive(show);
-	end
- 
+local _InitEmoji = function(self)
+	self:InitEmoji();
+	
 	if self.fairyCollectionObj.activeSelf then
 		local acquired = CS.GameData.userInfo.listFairyCollect.Count;
         local amount = CS.GameData.listFairyInfo.Count;
@@ -45,9 +36,10 @@ local _InitGender = function(self)
 			else
 				self.fairyCollectionText.text = string.sub(s, 0 , 1).."%";
 			end
-		end 
+		end
 	end
 end
+util.hotfix_ex(CS.HomeUserInfoNewController,'InitEmoji',_InitEmoji) 
 
 
-util.hotfix_ex(CS.FriendCardNode,'InitGender',_InitGender)
+
