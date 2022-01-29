@@ -81,7 +81,9 @@ local CheckContainsRichText = function(self,str)
     str = string.gsub(str, "<i>", "<i=>")
     local arr = self:CheckContainsRichText(str)
     for i=0,arr.Length-1 do
+    	if arr[i]~=nil then
         arr[i] = string.gsub(arr[i], "=>", ">")
+    	end
     end
     return arr;
 end

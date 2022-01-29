@@ -375,6 +375,7 @@ patch2080={
 "2080/OPSPanelMissionBase",
 "2080/OPSPanelMission2",			
 "2080/OPSPanelBackGround",
+"2080/OPSPanelSpot",	
 "2080/SpecialMissionInfoController",
 "2080/SpecialMissionSelectController",
 "2080/ImageRotateControl",	
@@ -428,7 +429,10 @@ patch2080={
 patch2081={}
 patch2090={
 "2090/FairySorter",
+"2090/HomeController",
+"2090/HomeUserInfoNewController",
 "2090/AVGNewCreditsController",
+"2090/IllustratedBookFairyListController",
 "2090/SquadChipListLabelController",
 "2090/FairyStateBuffController",
 "2090/FriendCardNode",
@@ -481,24 +485,25 @@ patch2090={
 "2090/OPSEventPrizeUIController",
 "2090/SevenPurchaseCtrl",
 "2090/BattleDamageTextController",
+"2090/OneClickBuyPackage",
 "2090/MissionSelectionController",					
 }
 
 -- va11
 print("load Va11");
-table.insert(patch2080, "collaboration/Va11/AVGController");
-table.insert(patch2080, "collaboration/Va11/Badge");
-table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");
-table.insert(patch2080, "collaboration/Va11/DormCafeCustomerController");
-table.insert(patch2080, "collaboration/Va11/DormController");
-table.insert(patch2080, "collaboration/Va11/OPSPanelController");
-table.insert(patch2080, "collaboration/Va11/OPSPanelMissionBase");
-table.insert(patch2090, "collaboration/Va11/AVGController");
-table.insert(patch2090, "collaboration/Va11/Badge");
-table.insert(patch2090, "collaboration/Va11/CafeGunMemoirListController");
-table.insert(patch2090, "collaboration/Va11/DormCafeCustomerController");
-table.insert(patch2090, "collaboration/Va11/DormController");
-table.insert(patch2090, "collaboration/Va11/OPSPanelController");
+-- table.insert(patch2080, "collaboration/Va11/AVGController");
+-- table.insert(patch2080, "collaboration/Va11/Badge");
+-- table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");
+-- table.insert(patch2080, "collaboration/Va11/DormCafeCustomerController");
+-- table.insert(patch2080, "collaboration/Va11/DormController");
+-- table.insert(patch2080, "collaboration/Va11/OPSPanelController");
+-- table.insert(patch2080, "collaboration/Va11/OPSPanelMissionBase");
+-- table.insert(patch2090, "collaboration/Va11/AVGController");
+-- table.insert(patch2090, "collaboration/Va11/Badge");
+-- table.insert(patch2090, "collaboration/Va11/CafeGunMemoirListController");
+-- table.insert(patch2090, "collaboration/Va11/DormCafeCustomerController");
+-- table.insert(patch2090, "collaboration/Va11/DormController");
+-- table.insert(patch2090, "collaboration/Va11/OPSPanelController");
 
 if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
 	CS.NDebug.PrintLog = true;

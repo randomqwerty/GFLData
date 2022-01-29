@@ -57,7 +57,7 @@ end
 
 local RequestEndEnemyTurnHandle = function(self,data)
 	self:RequestEndEnemyTurnHandle(data);
-	if CS.GameData.missionAction.queuePerformanceHandler.Count > 0 then
+	if CS.GameData.missionAction.queuePerformanceHandler.Count > 0 and self.isPlayingPerformance then
 		self:AddAndPlayPerformance(nil);
 	end
 end
@@ -74,11 +74,17 @@ local CheckControlUI = function(self,teamcontroller)
 	end
 	return skills;
 end
+
+local EndTurnPlayAllData= function(self)
+	self.isPlayingPerformance = false;
+	self:EndTurnPlayAllData();
+end
 util.hotfix_ex(CS.DeploymentController,'RequestNoBattleAllyHandle',RequestNoBattleAllyHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectTeam',TriggerSelectTeam)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
 util.hotfix_ex(CS.DeploymentController,'ClickSpot',ClickSpot)
 util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamForce)
-util.hotfix_ex(CS.DeploymentController,'RequestEndEnemyTurnHandle',RequestEndEnemyTurnHandle)
+--util.hotfix_ex(CS.DeploymentController,'RequestEndEnemyTurnHandle',RequestEndEnemyTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'CheckControlUI',CheckControlUI)
+util.hotfix_ex(CS.DeploymentController,'EndTurnPlayAllData',EndTurnPlayAllData)
 

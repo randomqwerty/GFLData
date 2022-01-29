@@ -8,6 +8,11 @@ local InitUIElements = function(self)
 		local textE = txt:GetComponent(typeof(CS.ExText));
 		textE.text = CS.Data.GetLang(40406);
 	end
+	local txt1 = self.transform:Find("SimCombat/Introduce/Header/Btn_CurrentPotentialEnergy/Tex_Empty")
+	if txt1 ~= nil then
+		local textE = txt1:GetComponent(typeof(CS.ExText));
+		textE.text = CS.Data.GetLang(40406);
+	end
 end
 
 util.hotfix_ex(CS.MissionSelectionController,'InitUIElements',InitUIElements)
