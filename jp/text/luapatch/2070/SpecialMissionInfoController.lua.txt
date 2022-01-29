@@ -48,6 +48,7 @@ end
 
 local ShowNewReward = function(self)
 	self.ClearTag.gameObject:SetActive(false);
+	self.ClearwhiteTag.gameObject:SetActive(false);
 	self:ShowNewReward();
 end
 local RefreshEntranceUI = function(self)
