@@ -425,6 +425,7 @@ patch2080={
 "2080/ResearchUnlockSlotController",
 "2080/GuideManagerController",
 "2080/CombineController",
+"2080/FlightChessUIController"
 }
 patch2081={}
 patch2090={
