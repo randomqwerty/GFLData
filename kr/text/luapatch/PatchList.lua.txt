@@ -487,6 +487,7 @@ patch2090={
 "2090/SevenPurchaseCtrl",
 "2090/BattleDamageTextController",
 "2090/OneClickBuyPackage",
+"2090/HomeMedalController",
 "2090/MissionSelectionController",					
 }
 
