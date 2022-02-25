@@ -19,6 +19,9 @@ local myStartInit = function(self)
 			
 		end	
 	end
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Japan then
+		CS.ResCenter._SaveNormal(true);
+	end
 end
 local myEnterGame = function()
 	CS.LoginController.EnterGame();
@@ -28,5 +31,6 @@ local myEnterGame = function()
 		end	
 	end
 end
+
 util.hotfix_ex(CS.LoginController,'StartInit',myStartInit)
 util.hotfix_ex(CS.LoginController,'EnterGame',myEnterGame)

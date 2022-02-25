@@ -488,7 +488,8 @@ patch2090={
 "2090/BattleDamageTextController",
 "2090/OneClickBuyPackage",
 "2090/HomeMedalController",
-"2090/MissionSelectionController",					
+"2090/MissionSelectionController",
+"2090/RankingListUIController",						
 }
 
 -- va11

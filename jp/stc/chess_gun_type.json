@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "手枪",
-    "power": 5,
+    "power": 4,
     "range": 2,
     "hp": 10,
     "ap": 2,
@@ -10,25 +10,29 @@
     "armor": 0,
     "armor_piercing": 0,
     "gun_type_skill": "201",
-    "attack_angle": 120
+    "attack_angle": 2,
+    "passive_skill": "",
+    "ai_passive_skill": ""
   },
   {
     "id": 2,
     "name": "冲锋枪",
-    "power": 5,
+    "power": 4,
     "range": 2,
-    "hp": 15,
+    "hp": 12,
     "ap": 1,
     "attack_times": 1,
     "armor": 0,
     "armor_piercing": 0,
     "gun_type_skill": "204",
-    "attack_angle": 120
+    "attack_angle": 2,
+    "passive_skill": "",
+    "ai_passive_skill": "2040102"
   },
   {
     "id": 3,
     "name": "步枪",
-    "power": 10,
+    "power": 8,
     "range": 3,
     "hp": 10,
     "ap": -1,
@@ -36,12 +40,14 @@
     "armor": 0,
     "armor_piercing": 0,
     "gun_type_skill": "202",
-    "attack_angle": 120
+    "attack_angle": 2,
+    "passive_skill": "",
+    "ai_passive_skill": "2020102"
   },
   {
     "id": 4,
     "name": "突击步枪",
-    "power": 8,
+    "power": 6,
     "range": 2,
     "hp": 12,
     "ap": 0,
@@ -49,6 +55,8 @@
     "armor": 0,
     "armor_piercing": 0,
     "gun_type_skill": "203",
-    "attack_angle": 120
+    "attack_angle": 2,
+    "passive_skill": "",
+    "ai_passive_skill": ""
   }
 ]

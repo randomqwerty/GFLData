@@ -14,15 +14,8 @@ local InitUIElements = function(self)
 		textE.text = CS.Data.GetLang(40406);
 	end
 end
-local SwitchToSimBattle  = function(self,btn)
-	self:SwitchToSimBattle(btn)
-	if CS.GameData.userInfo.level < 12 then
-		return
-	else
-		self:OnClickSimCampaign(CS.MissionSelectionController.currentSelectedSimCoinTypeId)
-	end
-end
+
 util.hotfix_ex(CS.MissionSelectionController,'InitUIElements',InitUIElements)
-util.hotfix_ex(CS.MissionSelectionController,'SwitchToSimBattle',SwitchToSimBattle)
+
 
 

@@ -9,7 +9,7 @@
     {
       "parameter_name": "achievement_type_sort",
       "parameter_type": "string",
-      "parameter_value": "1:35023,2:35024,3:1420,4:35025,5:35026,6:35027,7:35028,8:35029,9:1421,10:35030,11:35031,12:35032,13:35049,14:35050,15:35080,16:35107,100:35041",
+      "parameter_value": "1:35023,2:35024,3:1420,4:35025,5:35026,6:35027,7:35028,8:35029,9:1421,10:35030,11:35031,12:35032,13:35049,14:35050,15:35080,16:35107,100:35041,17:35122",
       "client_require": "1"
     },
     {
@@ -184,6 +184,12 @@
       "parameter_name": "battle_spine_mainframe_work",
       "parameter_type": "int",
       "parameter_value": "1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "battle_subtitle_switch",
+      "parameter_type": "int",
+      "parameter_value": "0",
       "client_require": "1"
     },
     {
@@ -1153,6 +1159,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "illustration_skin_switch",
+      "parameter_type": "int",
+      "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "item_recover_info_603",
       "parameter_type": "string",
       "parameter_value": "603:6:2:1",
@@ -1204,6 +1216,12 @@
       "parameter_name": "live_efficien",
       "parameter_type": "float",
       "parameter_value": "0.5",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "mall_special_daily_quota_switch",
+      "parameter_type": "int",
+      "parameter_value": "1",
       "client_require": "1"
     },
     {
@@ -1363,9 +1381,21 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "motherbase_bombing_switch",
+      "parameter_type": "int",
+      "parameter_value": "10890",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "naive_build_gun_formula",
       "parameter_type": "string",
       "parameter_value": "",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "naive_damage_switch",
+      "parameter_type": "string",
+      "parameter_value": "1;1",
       "client_require": "1"
     },
     {
@@ -1504,6 +1534,18 @@
       "parameter_name": "property_rate",
       "parameter_type": "string",
       "parameter_value": "0.01,1,1,0.01,1,1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "quick_auto_mission_item",
+      "parameter_type": "int",
+      "parameter_value": "525",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "quick_auto_mission_num",
+      "parameter_type": "string",
+      "parameter_value": "60:1;120:2;9999:3",
       "client_require": "1"
     },
     {
@@ -2101,6 +2143,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "speed_teleport_mission",
+      "parameter_type": "string",
+      "parameter_value": "10823",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "spendpoint_max",
       "parameter_type": "string",
       "parameter_value": "1,5000;2,20000;3,-1",
@@ -2401,6 +2449,18 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "theater_advantage_gun_score",
+      "parameter_type": "int",
+      "parameter_value": "120",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_advantage_sangvis_score",
+      "parameter_type": "int",
+      "parameter_value": "120",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "theater_boss_pt_rank_coef",
       "parameter_type": "string",
       "parameter_value": "0.4,0.3,0.2,0.1",
@@ -2413,9 +2473,39 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "theater_fairy_lv_coef",
+      "parameter_type": "string",
+      "parameter_value": "50,150",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_fairy_quality_coef",
+      "parameter_type": "string",
+      "parameter_value": "5,10,15,20,25",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_free_retry",
+      "parameter_type": "int",
+      "parameter_value": "5",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_limittimetotip",
+      "parameter_type": "int",
+      "parameter_value": "1800",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "theater_rankfreshtime",
+      "parameter_type": "int",
+      "parameter_value": "3600",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "theater_sangvis_switch",
       "parameter_type": "int",
-      "parameter_value": "0",
+      "parameter_value": "1",
       "client_require": "1"
     },
     {
@@ -2482,6 +2572,18 @@
       "parameter_name": "visit_period",
       "parameter_type": "int",
       "parameter_value": "8",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "wish_gun_special_rank_type",
+      "parameter_type": "int",
+      "parameter_value": "1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "wish_gun_unique",
+      "parameter_type": "int",
+      "parameter_value": "1",
       "client_require": "1"
     }
   ]
