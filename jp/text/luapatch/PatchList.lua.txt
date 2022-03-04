@@ -425,7 +425,8 @@ patch2080={
 "2080/ResearchUnlockSlotController",
 "2080/GuideManagerController",
 "2080/CombineController",
-"2080/FlightChessUIController"
+"2080/FlightChessUIController",
+"2080/BattleFairyController"
 }
 patch2081={}
 patch2090={
@@ -489,7 +490,10 @@ patch2090={
 "2090/OneClickBuyPackage",
 "2090/HomeMedalController",
 "2090/MissionSelectionController",
+"2090/FactoryResourceController",
 "2090/RankingListUIController",						
+"2090/RankingListUIController",			
+"2090/BattleFairyController",					
 }
 
 -- va11
