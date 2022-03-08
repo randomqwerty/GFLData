@@ -426,7 +426,8 @@ patch2080={
 "2080/GuideManagerController",
 "2080/CombineController",
 "2080/FlightChessUIController",
-"2080/BattleFairyController"
+"2080/BattleFairyController",
+"2080/TheaterMissiontSettlement",
 }
 patch2081={}
 patch2090={
