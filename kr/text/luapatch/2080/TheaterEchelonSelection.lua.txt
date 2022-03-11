@@ -54,6 +54,7 @@ end
 local _RefreshExtraUI = function(self)
 	self.maxSangvisCost = self.areaInfo.theater_spare_sangvis_cost + CS.Data.GetConstructionGunNumEffect(self.areaInfo.theater_id, CS.TheaterTeamData.isSangvisTeam);
 	CS.TheaterTeamData.instance.spareGunNum = self.areaInfo.theater_spare_gun_num + CS.Data.GetConstructionGunNumEffect(self.areaInfo.theater_id, CS.TheaterTeamData.isSangvisTeam);
+	CS.TheaterTeamData.instance.spareSangvisNum = (self.areaInfo.theater_spare_sangvis_cost + CS.Data.GetConstructionGunNumEffect(self.areaInfo.theater_id, CS.TheaterTeamData.isSangvisTeam))/2;
 	self:RefreshExtraUI();
 end
 util.hotfix_ex(CS.TheaterEchelonSelection,'Start',Start)

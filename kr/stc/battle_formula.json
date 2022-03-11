@@ -2169,43 +2169,43 @@
   },
   {
     "id": 1623,
-    "formula": "@MaxLife/@formation*0.24"
+    "formula": "@MaxLife/5*0.24"
   },
   {
     "id": 1624,
-    "formula": "@MaxLife/@formation*0.28"
+    "formula": "@MaxLife/5*0.28"
   },
   {
     "id": 1625,
-    "formula": "@MaxLife/@formation*0.32"
+    "formula": "@MaxLife/5*0.32"
   },
   {
     "id": 1626,
-    "formula": "@MaxLife/@formation*0.36"
+    "formula": "@MaxLife/5*0.36"
   },
   {
     "id": 1627,
-    "formula": "@MaxLife/@formation*0.4"
+    "formula": "@MaxLife/5*0.4"
   },
   {
     "id": 1628,
-    "formula": "@MaxLife/@formation*0.44"
+    "formula": "@MaxLife/5*0.44"
   },
   {
     "id": 1629,
-    "formula": "@MaxLife/@formation*0.48"
+    "formula": "@MaxLife/5*0.48"
   },
   {
     "id": 1630,
-    "formula": "@MaxLife/@formation*0.52"
+    "formula": "@MaxLife/5*0.52"
   },
   {
     "id": 1631,
-    "formula": "@MaxLife/@formation*0.56"
+    "formula": "@MaxLife/5*0.56"
   },
   {
     "id": 1632,
-    "formula": "@MaxLife/@formation*0.6"
+    "formula": "@MaxLife/5*0.6"
   },
   {
     "id": 1633,
@@ -7281,11 +7281,11 @@
   },
   {
     "id": 3964,
-    "formula": "@Maxlife/@formation*sbuffidtier(7417)*0.01"
+    "formula": "sbuffidtier(4734)>0?@Maxlife/sbuffidtier(4734)*sbuffidtier(7417)*0.01:@Maxlife/@formation*sbuffidtier(7417)*0.01"
   },
   {
     "id": 3965,
-    "formula": "@Maxlife/@formation*sbuffidtier(7416)*0.01"
+    "formula": "sbuffidtier(4734)>0?@Maxlife/sbuffidtier(4734)*sbuffidtier(7416)*0.01:@Maxlife/@formation*sbuffidtier(7416)*0.01"
   },
   {
     "id": 3966,
@@ -7425,43 +7425,43 @@
   },
   {
     "id": 4028,
-    "formula": "@maxlife/@formation*0.5"
+    "formula": "@maxlife/sbuffidtier(4734)*0.5"
   },
   {
     "id": 4029,
-    "formula": "@maxlife/@formation*0.56"
+    "formula": "@maxlife/sbuffidtier(4734)*0.56"
   },
   {
     "id": 4030,
-    "formula": "@maxlife/@formation*0.61"
+    "formula": "@maxlife/sbuffidtier(4734)*0.61"
   },
   {
     "id": 4031,
-    "formula": "@maxlife/@formation*0.67"
+    "formula": "@maxlife/sbuffidtier(4734)*0.67"
   },
   {
     "id": 4032,
-    "formula": "@maxlife/@formation*0.72"
+    "formula": "@maxlife/sbuffidtier(4734)*0.72"
   },
   {
     "id": 4033,
-    "formula": "@maxlife/@formation*0.78"
+    "formula": "@maxlife/sbuffidtier(4734)*0.78"
   },
   {
     "id": 4034,
-    "formula": "@maxlife/@formation*0.83"
+    "formula": "@maxlife/sbuffidtier(4734)*0.83"
   },
   {
     "id": 4035,
-    "formula": "@maxlife/@formation*0.89"
+    "formula": "@maxlife/sbuffidtier(4734)*0.89"
   },
   {
     "id": 4036,
-    "formula": "@maxlife/@formation*0.94"
+    "formula": "@maxlife/sbuffidtier(4734)*0.94"
   },
   {
     "id": 4037,
-    "formula": "@maxlife/@formation*1"
+    "formula": "@maxlife/sbuffidtier(4734)*1"
   },
   {
     "id": 4038,
