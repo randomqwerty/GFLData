@@ -184,6 +184,13 @@ local CancelMission = function(self)
 		self:InitClockSelect(true, false);
 	end
 end
+
+
+local InitBgm=function(self)
+	self:InitBgm();
+	local request=CS.RequestDrawEvent(CS.OPSPanelController.OpenCompaions);
+	request:Request();
+end
 util.hotfix_ex(CS.OPSPanelController,'InitClockSelect',InitClockSelect)
 util.hotfix_ex(CS.OPSPanelController,'ShowContainerReturn',ShowContainerReturn)
 util.hotfix_ex(CS.OPSPanelController,'CheckCurrentAngle',CheckCurrentAngle)
@@ -197,3 +204,4 @@ util.hotfix_ex(CS.OPSPanelController,'ReturnContainer',ReturnContainer)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineSpot',CheckSpineSpot)
 util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+--util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
