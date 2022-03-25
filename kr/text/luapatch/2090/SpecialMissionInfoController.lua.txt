@@ -40,8 +40,34 @@ end
 
 local RefresCommonUI = function(self)
 	self.theaterTransform:Find("FightType").gameObject:SetActive(false);
+	if self.entranceId ~= 0 then
+		local missionid = self.missionInfo.Id;
+		local info = CS.OPSConfig.missionEntranceInfos[self.entranceId];
+		self.btnSelectDiffcluty.gameObject:SetActive(false);
+		for i=0,info.missionids.Count-1 do
+			if info.missionids[i]:Contains(missionid) then
+				local check = 0;
+				for j=0,info.missionids[i].Count-1 do
+					if info.missionids[i][j] == missionid then
+						check = check+1;
+					end
+				end
+				if check == 1 then
+					self.btnSelectDiffcluty.gameObject:SetActive(true);
+				end
+			end
+		end
+	end
 	self:RefresCommonUI();
+end
+local RequestStartMissionHandle = function(self,www)
+	self:RequestStartMissionHandle(www);
+	if CS.OPSPanelController.Instance~=nil	and	not	CS.OPSPanelController.Instance:isNull() then
+		local request=CS.RequestDrawEvent(CS.OPSPanelController.OpenCompaions);
+		request:Request();
+	end
 end
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitTotalTeamBaseLimit',InitTotalTeamBaseLimit)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
 util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)
+util.hotfix_ex(CS.SpecialMissionInfoController,'RequestStartMissionHandle',RequestStartMissionHandle)

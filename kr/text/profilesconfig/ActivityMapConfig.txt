@@ -39,6 +39,8 @@ MissionSelectionTex|missionselect_WhiteDay2020|2|-37
 //MissionSelectionTex|missionselect_Xmas2021|2|-49
 //2021冬活配置：
 //MissionSelectionTex|missionselect_FixedPoint|2|-51
+//2022白情活动配置：
+MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -65,6 +67,7 @@ OPSSpecialScene|-47|-47
 OPSPanelScene|-404|-404
 OPSPanelScene|-48|-48
 OPSPanelScene|-49|-49
+OPSPanelScene|-50|-50
 OPSPanelScene|-51|-51
 
 //视频首次进入-test数据
@@ -109,6 +112,7 @@ OPSLeftBGNormalActivity|-47|Bikini_2021_Left
 OPSLeftBGNormalActivity|-48|2021Summer_Left
 OPSLeftBGNormalActivity|-49|2021Xmas_Left
 OPSLeftBGNormalActivity|-51|FixedPoint_Left
+OPSLeftBGNormalActivity|-50|WhiteDay_2022_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -136,7 +140,8 @@ OPSNoticeNormalActivity|-37|WhiteDay_2020_Notice
 //OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
-OPSNoticeNormalActivity|-51|FixedPoint_Notice
+//OPSNoticeNormalActivity|-51|FixedPoint_Notice
+OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -154,6 +159,7 @@ OPSTimeNormalActivity|-46|Reversible_Time
 OPSTimeNormalActivity|-48|Reversible_Time
 OPSTimeNormalActivity|-49|Reversible_Time
 OPSTimeNormalActivity|-51|Reversible_Time
+OPSTimeNormalActivity|-50|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -180,7 +186,8 @@ OPSTimeNormalActivity|-51|Reversible_Time
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
 //OPSGoto|Xmas_2021_GotoMall|0
-OPSGoto|FixedPoint_GotoMall|0
+//OPSGoto|FixedPoint_GotoMall|0
+OPSGoto|WhiteDay_2022_GotoMall|0
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -220,6 +227,7 @@ OPSProgressNormalActivity|-46|Reversible_Progress
 OPSProgressNormalActivity|-48|Reversible_Progress
 OPSProgressNormalActivity|-49|Reversible_Progress
 OPSProgressNormalActivity|-51|Reversible_Progress
+OPSProgressNormalActivity|-50|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -261,6 +269,7 @@ OPSMain|-45|Snow|Arctic_Map5
 OPSMain|-47|Day|Bikini_2021_Background
 OPSMain|-48|Day|Bikini_2021_Background
 OPSMain|-51|Day|Arctic_Map5
+OPSMain|-50|Day|Arctic_Map5
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -343,6 +352,7 @@ OPSCampaignTitleButton|-46|true|DropkickonMyDevil_Diffculty2Btn
 OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 OPSCampaignTitleButton|-51|true|FixedPoint_Diffculty2Btn
+//OPSCampaignTitleButton|-50|true|PolarizedLight_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -378,7 +388,8 @@ OPSCampaignTitleButton|-51|true|FixedPoint_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
 //OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
-OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
+//OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
+OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
 
 
 //消耗道具用
@@ -1367,3 +1378,20 @@ OPSCampaignDetail|-51_33|0,0|Narciss
 OPSCampaignDetail|-51_34|0,0|Mrsgray
 OPSCampaignDetail|-51_35|0,0|Nimeylan
 OPSCampaignDetail|-51_36|0,0|Morridow_2
+
+//2022白情活动配置
+OPSCampaignDetail|-50_1|0,0|Brute_Ghost
+OPSCampaignDetail|-50_2|0,0|Dinergate_WhiteDay
+OPSCampaignDetail|-50_3|0,0|Dinergate_WhiteDay1
+OPSCampaignDetail|-50_4|0,0|Cerberus_WhiteDay
+OPSCampaignDetail|-50_5|0,0|Dinergate_WhiteDay1
+OPSCampaignDetail|-50_6|0,0|2022WVLewis
+OPSCampaignDetail|-50_7|0,0|2022WVFalcon
+OPSCampaignDetail|-50_8|0,0|2022WV79type
+OPSCampaignDetail|-50_9|0,0|2022WV97type
+OPSCampaignDetail|-50_10|0,0|2022WVHunter
+OPSCampaignDetail|-50_11|0,0|2022WVLWMMG
+OPSCampaignDetail|-50_12|0,0|2022WVK5
+OPSCampaignDetail|-50_13|0,0|2022WVM1
+OPSCampaignDetail|-50_14|0,0|2022WVP22
+OPSCampaignDetail|-50_15|0,0|2022WVT77
