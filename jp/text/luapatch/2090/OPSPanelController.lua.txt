@@ -184,6 +184,25 @@ local CancelMission = function(self)
 		self:InitClockSelect(true, false);
 	end
 end
+
+
+local InitBgm=function(self)
+	self:InitBgm();
+	local request=CS.RequestDrawEvent(CS.OPSPanelController.OpenCompaions);
+	request:Request();
+end
+
+local CheckIsolateSpots= function(self)
+	self:CheckIsolateSpots();
+	for	i=0,CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
+		local spot=CS.OPSPanelBackGround.Instance.all3dSpots[i];
+		if spot.mission~=nil and not CS.SpecialActivityController.missionid_State:ContainsKey(spot.mission.missionInfo.id)	then
+			if not self.playSpots:Contains(spot) then
+				self.playSpots:Add(spot);
+			end
+		end
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'InitClockSelect',InitClockSelect)
 util.hotfix_ex(CS.OPSPanelController,'ShowContainerReturn',ShowContainerReturn)
 util.hotfix_ex(CS.OPSPanelController,'CheckCurrentAngle',CheckCurrentAngle)
@@ -197,3 +216,5 @@ util.hotfix_ex(CS.OPSPanelController,'ReturnContainer',ReturnContainer)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpineSpot',CheckSpineSpot)
 util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
+--util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
