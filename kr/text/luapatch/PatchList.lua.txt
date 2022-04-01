@@ -429,6 +429,7 @@ patch2080={
 "2080/FlightChessUIController",
 "2080/BattleFairyController",
 "2080/TheaterMissiontSettlement",
+"2080/HomeAdjutantController",	
 }
 patch2081={}
 patch2090={
@@ -452,6 +453,7 @@ patch2090={
 "2090/DeploymentAllyTeamController",
 "2090/DeploymentEnemyFloatingSpotInfo",	
 "2090/DeploymentTeamInfoController",
+"2090/DeploymentTeamController",	
 "2090/DeploymentBuildingInfo",
 "2090/DeploymentPathController",					
 "2090/GuideDeploymentController",			
@@ -496,18 +498,19 @@ patch2090={
 "2090/FactoryResourceController",
 "2090/RankingListUIController",						
 "2090/RankingListUIController",			
+"2080/HomeAdjutantController",					
 "2090/BattleFairyController",					
 }
 
 -- va11
 print("load Va11");
--- table.insert(patch2080, "collaboration/Va11/AVGController");
--- table.insert(patch2080, "collaboration/Va11/Badge");
--- table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");
--- table.insert(patch2080, "collaboration/Va11/DormCafeCustomerController");
--- table.insert(patch2080, "collaboration/Va11/DormController");
--- table.insert(patch2080, "collaboration/Va11/OPSPanelController");
--- table.insert(patch2080, "collaboration/Va11/OPSPanelMissionBase");
+table.insert(patch2080, "collaboration/Va11/AVGController");
+table.insert(patch2080, "collaboration/Va11/Badge");
+table.insert(patch2080, "collaboration/Va11/CafeGunMemoirListController");
+table.insert(patch2080, "collaboration/Va11/DormCafeCustomerController");
+table.insert(patch2080, "collaboration/Va11/DormController");
+table.insert(patch2080, "collaboration/Va11/OPSPanelController");
+table.insert(patch2080, "collaboration/Va11/OPSPanelMissionBase");
 -- table.insert(patch2090, "collaboration/Va11/AVGController");
 -- table.insert(patch2090, "collaboration/Va11/Badge");
 -- table.insert(patch2090, "collaboration/Va11/CafeGunMemoirListController");
