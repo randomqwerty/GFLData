@@ -429,7 +429,7 @@ patch2080={
 "2080/FlightChessUIController",
 "2080/BattleFairyController",
 "2080/TheaterMissiontSettlement",
-"2080/HomeAdjutantController",	
+--"2080/HomeAdjutantController",	
 }
 patch2081={}
 patch2090={
@@ -499,7 +499,8 @@ patch2090={
 "2090/RankingListUIController",						
 "2090/RankingListUIController",			
 "2080/HomeAdjutantController",					
-"2090/BattleFairyController",					
+"2090/BattleFairyController",
+"2090/ItemPackage"					
 }
 
 -- va11
