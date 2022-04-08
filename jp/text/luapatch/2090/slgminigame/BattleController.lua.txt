@@ -12,5 +12,12 @@ local CheckIsSLGMode = function(self)
 	return false
 	
 end
-
+local CreateFairy = function(self)
+	if self.friendlyFairy == nil then
+		self._friendlyFairy = CS.Fairy(CS.Data.GetFakeFairyInfo())
+	end
+	self:CreateFairy()
+	
+end
 util.hotfix_ex(CS.GF.Battle.BattleController,'CheckIsSLGMode',CheckIsSLGMode)
+util.hotfix_ex(CS.GF.Battle.BattleController,'CreateFairy',CreateFairy)
