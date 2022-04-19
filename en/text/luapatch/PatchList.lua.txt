@@ -498,10 +498,12 @@ patch2090={
 "2090/FactoryResourceController",
 "2090/RankingListUIController",						
 "2090/RankingListUIController",			
-"2080/HomeAdjutantController",					
+--"2080/HomeAdjutantController",					
 "2090/BattleFairyController",
 "2090/ItemPackage",		
-"2090/BattleMemberController"			
+"2090/BattleMemberController",	
+"2090/TheaterEchelonSelection",
+"2090/FormationEquipSlotButtonController",
 }
 
 -- va11
