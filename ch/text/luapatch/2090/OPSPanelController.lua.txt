@@ -203,6 +203,32 @@ local CheckIsolateSpots= function(self)
 		end
 	end
 end
+
+local	LoadTime=function(self)
+	if CS.OPSConfig.Instance.OPSTimeNormalActivity:ContainsKey(self.campaionId) then
+		return;
+	end
+	self:LoadTime();
+end
+
+local	LoadProcess=function(self)
+	self:LoadProcess();
+	if	self.timeProcess~=nil	and	not	self.timeProcess:isNull()	then
+		if	self.mLeftTimeCount==nil	then
+			local	trans=self.timeProcess:GetComponent(typeof(CS.UnityEngine.RectTransform));
+			trans.anchoredPosition=CS.UnityEngine.Vector2(-270,-200);
+		end
+	end
+end
+
+local	ShowAllLabel=function(self)
+	for i = 0, CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
+		local	spot=CS.OPSPanelBackGround.Instance.all3dSpots[i];
+		if spot.mission~=nil	and	spot.difficulty ==CS.OPSPanelController.difficulty	then
+			spot:Show(true,0);
+		end
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'InitClockSelect',InitClockSelect)
 util.hotfix_ex(CS.OPSPanelController,'ShowContainerReturn',ShowContainerReturn)
 util.hotfix_ex(CS.OPSPanelController,'CheckCurrentAngle',CheckCurrentAngle)
@@ -217,4 +243,6 @@ util.hotfix_ex(CS.OPSPanelController,'CheckSpineSpot',CheckSpineSpot)
 util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
 util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
---util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
+util.hotfix_ex(CS.OPSPanelController,'LoadTime',LoadTime)
+util.hotfix_ex(CS.OPSPanelController,'LoadProcess',LoadProcess)
+util.hotfix_ex(CS.OPSPanelController,'ShowAllLabel',ShowAllLabel)
