@@ -28,5 +28,38 @@ local AnarysicsHurtData = function(self,jsonData)
 		end
 	end 
 end
-
+local UseWinCounter = function(self)
+	if self.missionInfo.mapped_mission_id ~= 0 then
+		local mapInfo = CS.GameData.listMissionMapInfo:GetDataById(self.missionInfo.mapped_mission_id);
+		if 	mapInfo == nil then
+			return self.winCount;
+		end
+		local missionids = mapInfo.missionids;
+		if missionids.Count==3 then
+			local	mission1=CS.GameData.listMission:GetDataById(missionids[1]);
+			local	mission2=CS.GameData.listMission:GetDataById(missionids[2]);
+			local index = missionids:IndexOf(self.missionInfo.id);
+			if index == 1	then
+				if mission2.mappedwincounter>0 then
+					return self.mappedwincounter;
+				end
+			elseif index == 0 then
+				if mission1.mappedwincounter>0 then
+					return self.mappedwincounter;
+				end
+			end
+		end
+		if missionids.Count==2 then
+			local	mission1=CS.GameData.listMission:GetDataById(missionids[1]);
+			local index = missionids:IndexOf(self.missionInfo.id);
+			if index == 0	then
+				if mission1.mappedwincounter>0 then
+					return self.mappedwincounter;
+				end
+			end
+		end	
+	end
+	return self.winCount;
+end
 util.hotfix_ex(CS.MissionAction,'AnarysicsHurtData',AnarysicsHurtData)
+util.hotfix_ex(CS.Mission,'get_UseWinCounter',UseWinCounter)
