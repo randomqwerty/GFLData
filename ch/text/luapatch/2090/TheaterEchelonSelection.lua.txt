@@ -24,5 +24,11 @@ local OnSelectFairy = function(self,fairy)
 
     self.curEditSlot = nil;
 end
-
+local	InitUI=function(self)
+	self:InitUI();
+	local	txtUI=self.transform:Find("Right/TheaterEchelonSelectionEnemyInfo/Top_Filter/Btn_Normal/UI_Text");
+	local	txt=txtUI:GetComponent(typeof(CS.ExText));
+	txt.text=CS.Data.GetLang(20105);
+end
 util.hotfix_ex(CS.TheaterEchelonSelection,'OnSelectFairy',OnSelectFairy)
+util.hotfix_ex(CS.TheaterEchelonSelection,'InitUI',InitUI)
