@@ -67,7 +67,14 @@ local RequestStartMissionHandle = function(self,www)
 		request:Request();
 	end
 end
+local	InitUIElements=function(self)
+	self:InitUIElements();
+	local	txtUI=self.transform:Find("Groove/MultiMission/Tex_Info");
+	local	txt=txtUI:GetComponent(typeof(CS.ExText));
+	txt.text=CS.Data.GetLang(60097);
+end
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitTotalTeamBaseLimit',InitTotalTeamBaseLimit)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
 util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)
 util.hotfix_ex(CS.SpecialMissionInfoController,'RequestStartMissionHandle',RequestStartMissionHandle)
+util.hotfix_ex(CS.SpecialMissionInfoController,'InitUIElements',InitUIElements)

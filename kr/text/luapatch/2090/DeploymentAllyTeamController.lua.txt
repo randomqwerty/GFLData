@@ -1,19 +1,18 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentAllyTeamController)
 
+
+local allyTeamController = nil;
+function CheckScale()
+	allyTeamController.ScaleX = 100;
+end
 local RefreshTeam = function(self)
-	if self.allyTeam.currentBelong ~= CS.TeamBelong.friendly then
-		local enemyTeamInfo = CS.GameData.listEnemyTeamInfo:GetDataById(self.allyTeam.EnemyTeamId);
-		local typeInfo = CS.GameData.listEnemyCharacterTypeInfo:GetDataById(enemyTeamInfo.enemyLeaderId);
-		if self.leaderCode ~= typeInfo.code then
-			self.mRecordItem:Clear();
-			self:AnalysicsDropData();
-		end
-	end
 	self:RefreshTeam();
+	allyTeamController = self;
+	CS.DeploymentController.AddAction(CheckScale,0.4);
 end
 
---util.hotfix_ex(CS.DeploymentAllyTeamController,'RefreshTeam',RefreshTeam)
+util.hotfix_ex(CS.DeploymentAllyTeamController,'RefreshTeam',RefreshTeam)
 
 
 
