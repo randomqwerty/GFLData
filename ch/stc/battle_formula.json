@@ -9532,6 +9532,14 @@
     "formula": "sbuffidtier(8272)=0?1:sbuffidtier(8273)>0?0:1"
   },
   {
+    "id": 4565,
+    "formula": "sbuffidtier(8301)=1?8302:0"
+  },
+  {
+    "id": 4566,
+    "formula": "sbuffidtier(8301)=1&@pow>#armor&GetChance(60)?0:1"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
