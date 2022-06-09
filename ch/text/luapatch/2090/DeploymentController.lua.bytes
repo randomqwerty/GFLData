@@ -99,9 +99,22 @@ local GoToBattleScene = function(self)
 	end
 	self:GoToBattleScene();
 end
-
+local AnalysicsGrowEnemy = function(self,json)
+	self:AnalysicsGrowEnemy(json);
+	if CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.ThirdTurnStart then
+		self:AnalyzeGrowSpots();
+	end
+end
 local AnalyzeGrowSpots = function(self)
 	self:AnalyzeGrowSpots();
+	for i=0,self.growEnemySpot.Count-1 do
+		local spot = self.growEnemySpot[i];
+		if spot.spotAction.allyTeamInstanceIds.Count == 2 then
+			if spot.spotAction.allyTeamInstanceIds[0]==spot.spotAction.allyTeamInstanceIds[1] then
+				spot.spotAction.allyTeamInstanceIds:RemoveAt(0);
+			end
+		end
+	end
 	while self.growEnemySpot.Count>0 do
 		local spot = self.growEnemySpot[0];
 		self.growEnemySpot:Remove(spot);
@@ -134,5 +147,7 @@ util.hotfix_ex(CS.DeploymentController,'CheckControlUI',CheckControlUI)
 util.hotfix_ex(CS.DeploymentController,'EndTurnPlayAllData',EndTurnPlayAllData)
 util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
 util.hotfix_ex(CS.DeploymentController,'AnalyzeGrowSpots',AnalyzeGrowSpots)
+util.hotfix_ex(CS.DeploymentController,'AnalysicsGrowEnemy',AnalysicsGrowEnemy)
 util.hotfix_ex(CS.DeploymentController,'TriggerMoveCameraEvent',TriggerMoveCameraEvent)
+
 
