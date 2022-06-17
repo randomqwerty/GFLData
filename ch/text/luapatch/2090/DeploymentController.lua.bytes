@@ -99,14 +99,15 @@ local GoToBattleScene = function(self)
 	end
 	self:GoToBattleScene();
 end
-local AnalysicsGrowEnemy = function(self,json)
-	self:AnalysicsGrowEnemy(json);
-	if CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.ThirdTurnStart then
-		self:AnalyzeGrowSpots();
-	end
+local RequestStartThirdAllyTeamTurnHandle = function(self,data)
+	self:RequestStartThirdAllyTeamTurnHandle(data);
+	CheckGrowEnemySpot(self);
 end
-local AnalyzeGrowSpots = function(self)
-	self:AnalyzeGrowSpots();
+local RequestStartEnemyTurnHandle = function(self,data)
+	self:RequestStartEnemyTurnHandle(data);
+	CheckGrowEnemySpot(self);
+end
+function CheckGrowEnemySpot(self)
 	for i=0,self.growEnemySpot.Count-1 do
 		local spot = self.growEnemySpot[i];
 		if spot.spotAction.allyTeamInstanceIds.Count == 2 then
@@ -120,7 +121,9 @@ local AnalyzeGrowSpots = function(self)
 		self.growEnemySpot:Remove(spot);
 		local play = spot.layer == CS.DeploymentBackgroundController.currentlayer;
 		if spot.spotAction.enemyInstanceId ~= 0 then
-		   	self:CreateTeam(spot, 0, CS.DeploymentController.TeamType.enemyTeam, play);
+			local enemy = CS.GameData.missionAction.listEnemyTeams:GetDataById(spot.spotAction.enemyInstanceId);
+			enemy.hpPercent = 1;
+			self:CreateTeam(spot, 0, CS.DeploymentController.TeamType.enemyTeam, play);
 		elseif spot.spotAction.allyTeamInstanceIds.Count > 0 then
 			self:CreateTeam(spot, 0, CS.DeploymentController.TeamType.allyTeam, play);	
 		end
@@ -146,8 +149,7 @@ util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamFor
 util.hotfix_ex(CS.DeploymentController,'CheckControlUI',CheckControlUI)
 util.hotfix_ex(CS.DeploymentController,'EndTurnPlayAllData',EndTurnPlayAllData)
 util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
-util.hotfix_ex(CS.DeploymentController,'AnalyzeGrowSpots',AnalyzeGrowSpots)
-util.hotfix_ex(CS.DeploymentController,'AnalysicsGrowEnemy',AnalysicsGrowEnemy)
-util.hotfix_ex(CS.DeploymentController,'TriggerMoveCameraEvent',TriggerMoveCameraEvent)
+util.hotfix_ex(CS.DeploymentController,'RequestStartThirdAllyTeamTurnHandle',RequestStartThirdAllyTeamTurnHandle)
+util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
 
 
