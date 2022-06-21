@@ -229,38 +229,6 @@ local	ShowAllLabel=function(self)
 		end
 	end
 end
-local SelectProcessInfo = function(self,processInfo)
-	if processInfo.mission ~= nil and processInfo.mission.clocked then
-		local iter = processInfo.mission.missionInfo.PointCose:GetEnumerator()     
-		while iter:MoveNext() do                      
-			local item = iter.Current.Key;
-			local num = iter.Current.Value;
-			local itemInfo = CS.GameData.listItemInfo:GetDataById(item);
-			local realNum = CS.OPSPanelController.Instance.item_use[item].itemRealNum;
-			if realNum == 0 or realNum < num then
-				if self.campaionId == -32 then
-					CS.CommonController.ConfirmBox(CS.Data.GetLang(230011),function()
-							CS.CommonController.GotoScene("Dorm", 20004)
-						end)
-					return;
-				else
-					local txt = CS.System.String.Format(CS.Data.GetLang(60072), itemInfo.name);
-					CS.CommonController.LightMessageTips(txt);
-					return;
-				end
-			end                    
-		end	
-		if processInfo.panelHolder ~= nil then
-			if processInfo.panelHolder.currentLabel == nil then
-				CS.OPSPanelBackGround.Instance:Move(processInfo.panelHolder.transform.localPosition, true, 0.5);
-				processInfo.panelHolder:ShowLable();				
-			end
-			CS.OPSPanelController.Instance:ShowUnclockMessageBox(processInfo.panelHolder.currentLabel);
-		end		
-		return;
-	end
-	self:SelectProcessInfo(processInfo);
-end
 util.hotfix_ex(CS.OPSPanelController,'InitClockSelect',InitClockSelect)
 util.hotfix_ex(CS.OPSPanelController,'ShowContainerReturn',ShowContainerReturn)
 util.hotfix_ex(CS.OPSPanelController,'CheckCurrentAngle',CheckCurrentAngle)
@@ -278,4 +246,3 @@ util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
 util.hotfix_ex(CS.OPSPanelController,'LoadTime',LoadTime)
 util.hotfix_ex(CS.OPSPanelController,'LoadProcess',LoadProcess)
 util.hotfix_ex(CS.OPSPanelController,'ShowAllLabel',ShowAllLabel)
-util.hotfix_ex(CS.OPSPanelController,'SelectProcessInfo',SelectProcessInfo)
