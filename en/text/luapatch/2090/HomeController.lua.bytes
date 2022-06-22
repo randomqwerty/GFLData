@@ -38,9 +38,19 @@ local InitUIElements= function(self)
 		self.btnTheater:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite = obj1:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite;
 	end
 end
+
+local _OnClickHomeAVG = function(self)	
+	if self.adjutantController.adjutantInfo2 == nil then
+		--CS.NDebug.LogError("_OnClickHomeAVG")
+        self.adjutantController:UpdateAdjutant(self.adjutantController.adjutantInfo);
+    end
+
+	self:OnClickHomeAVG();
+end
 util.hotfix_ex(CS.HomeController,'CheckNewShop',_CheckNewShop)
 util.hotfix_ex(CS.HomeController,'OnClickEvent_btn',_OnClickEvent_btn)
 util.hotfix_ex(CS.HomeController,'InitUIElements',InitUIElements)
+util.hotfix_ex(CS.HomeController,'OnClickHomeAVG',_OnClickHomeAVG)
 
 
 

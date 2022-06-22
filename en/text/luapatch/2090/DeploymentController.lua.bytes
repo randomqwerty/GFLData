@@ -99,6 +99,47 @@ local GoToBattleScene = function(self)
 	end
 	self:GoToBattleScene();
 end
+local RequestStartThirdAllyTeamTurnHandle = function(self,data)
+	self:RequestStartThirdAllyTeamTurnHandle(data);
+	CheckGrowEnemySpot(self);
+end
+local RequestStartEnemyTurnHandle = function(self,data)
+	self:RequestStartEnemyTurnHandle(data);
+	CheckGrowEnemySpot(self);
+end
+function CheckGrowEnemySpot(self)
+	for i=0,self.growEnemySpot.Count-1 do
+		local spot = self.growEnemySpot[i];
+		if spot.spotAction.allyTeamInstanceIds.Count == 2 then
+			if spot.spotAction.allyTeamInstanceIds[0]==spot.spotAction.allyTeamInstanceIds[1] then
+				spot.spotAction.allyTeamInstanceIds:RemoveAt(0);
+			end
+		end
+	end
+	while self.growEnemySpot.Count>0 do
+		local spot = self.growEnemySpot[0];
+		self.growEnemySpot:Remove(spot);
+		local play = spot.layer == CS.DeploymentBackgroundController.currentlayer;
+		if spot.spotAction.enemyInstanceId ~= 0 then
+			local enemy = CS.GameData.missionAction.listEnemyTeams:GetDataById(spot.spotAction.enemyInstanceId);
+			enemy.hpPercent = 1;
+			self:CreateTeam(spot, 0, CS.DeploymentController.TeamType.enemyTeam, play);
+		elseif spot.spotAction.allyTeamInstanceIds.Count > 0 then
+			self:CreateTeam(spot, 0, CS.DeploymentController.TeamType.allyTeam, play);	
+		end
+	end
+end
+
+local TriggerMoveCameraEvent = function(target,move,recordPos,changescale,setscale,handle)
+	if CS.DeploymentTeamController.transferSpeed > 1 then
+		if CS.GameData.missionAction ~= nil and CS.GameData.missionAction.transTeamDatas.Count > 0 then
+			local pos = CS.DeploymentBackgroundController.currentLayerData.offset;
+			CS.DeploymentController.TriggerMoveCameraEvent(pos,true,true,true,0.26,nil);
+			return;
+		end
+	end
+	CS.DeploymentController.TriggerMoveCameraEvent(target,move,recordPos,changescale,setscale,handle);
+end
 util.hotfix_ex(CS.DeploymentController,'RequestNoBattleAllyHandle',RequestNoBattleAllyHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectTeam',TriggerSelectTeam)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
@@ -108,4 +149,7 @@ util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamFor
 util.hotfix_ex(CS.DeploymentController,'CheckControlUI',CheckControlUI)
 util.hotfix_ex(CS.DeploymentController,'EndTurnPlayAllData',EndTurnPlayAllData)
 util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
+util.hotfix_ex(CS.DeploymentController,'RequestStartThirdAllyTeamTurnHandle',RequestStartThirdAllyTeamTurnHandle)
+util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
+
 
