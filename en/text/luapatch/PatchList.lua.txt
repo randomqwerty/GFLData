@@ -510,6 +510,8 @@ patch2090={
 "2090/CommonFairyListController",
 --"2090/CommonIconController",		
 "2090/FactoryFormulaPreviewTypeHolder",
+"2090/BattleSangvisResultLabelController",
+	
 }
 patch3010={}
 -- va11

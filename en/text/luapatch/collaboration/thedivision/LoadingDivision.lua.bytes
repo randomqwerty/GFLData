@@ -18,7 +18,14 @@ local DestroyVideo = function()
 	gobj = nil;
 	-- 音效
 	CS.CommonAudioController.PlayUI("Stop_UI_loop");
+	CS.CommonController.Invoke(CheckVideo, 0.3, CS.ResCenter.instance);
 end
+local CheckVideo = function()
+	if CS.OPSConfig.CheckVideo ~= nil then
+		CS.OPSConfig.CheckVideo = false;
+	end
+end
+
 local LoadBG = function()
 	-- 异步CanvasGroup动画，防止被C#鲨了
 	xlua.private_accessible(CS.LoadingScreenController);
@@ -27,6 +34,9 @@ local LoadBG = function()
 	loadInst = nil;
 end
 Awake = function()
+	if CS.OPSConfig.CheckVideo ~= nil then
+		CS.OPSConfig.CheckVideo = true;
+	end
 	if CS.OPSPanelController.OpenCompaions.Count == 0 or CS.OPSPanelController.OpenCompaions[0] ~= -43 then
 		CS.CommonController.Invoke(LoadBG, 0.05, CS.ResCenter.instance);
 		return;
@@ -73,6 +83,10 @@ end
 OnDestroy = function()
 	if CS.CommonVideoPlayer.Instance ~= nil and not CS.CommonVideoPlayer.Instance:isNull() then
 		CS.CommonController.Invoke(DestroyVideo, leastVideoTime - CS.UnityEngine.Time.time + startTime, CS.CommonVideoPlayer.Instance);
+	else
+		if CS.OPSConfig.CheckVideo ~= nil then
+			CS.OPSConfig.CheckVideo = false;
+		end
 	end
 	-- 换回原图
 	xlua.private_accessible(CS.LoadingScreenController);
