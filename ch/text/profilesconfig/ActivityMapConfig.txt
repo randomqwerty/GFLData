@@ -28,7 +28,7 @@
 //2021飓风营救复刻配置0：
 //MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2|-45
 //2020泳装复刻配置：
-//MissionSelectionTex|missionSelect_Bikini_2020|1|-40
+MissionSelectionTex|missionSelect_Bikini_2020|1|-40
 //2021泳装复刻配置：
 //MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //邪神酱联动：
@@ -42,7 +42,7 @@
 //2022白情活动配置：
 //MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //混沌落幕+配置（秃洞复刻）：
-MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
+//MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -73,6 +73,7 @@ OPSPanelScene|-50|-50
 OPSPanelScene|-51|-51
 OPSPanelScene|-52|-52
 OPSPanelScene|-53|-53
+OPSPanelScene|-54|-54
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -84,7 +85,7 @@ OPSPanelScene|-53|-53
 //OPSVideoBlackground|-16|BBui_IntroH264,BBui_LoopH264
 //OPSVideoBlackground|-33|BBui_Intro_Prime,BBui_loop_Prime
 //OPSVideoBlackground|-34|BBui_Intro_Prime,BBui_loop_Prime
-
+OPSVideoBlackground|-54|BBui_Intro_Prime,BBui_loop_Prime
 //OPS跳转Mission-预制物(公用)
 OPSReturn|Return
 
@@ -136,7 +137,7 @@ OPSLeftBGNormalActivity|-53|Isomer_Left
 //OPSNoticeNormalActivity|-37|WhiteDay_2020_Notice
 //OPSNoticeNormalActivity|-38|GunslingerGirl_Notice
 //OPSNoticeNormalActivity|-39|RE_SingNotice
-//OPSNoticeNormalActivity|-40|Bikini_2020_Notice
+OPSNoticeNormalActivity|-40|Bikini_2020_Notice
 //OPSNoticeNormalActivity|-41|Activity_2020S_Notice
 //OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 //OPSNoticeNormalActivity|-43|TheDivision_Notice
@@ -147,7 +148,7 @@ OPSLeftBGNormalActivity|-53|Isomer_Left
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
-OPSNoticeNormalActivity|-53|Isomer_Notice
+//OPSNoticeNormalActivity|-53|Isomer_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -179,7 +180,7 @@ OPSTimeNormalActivity|-53|Reversible_Time
 //OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
-//OPSGoto|Bikini_2020_GotoMall|0
+OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|GunslingerGirl_GotoMall|0
 //OPSGoto|Activity_2020S_GotoMall|0
 //OPSGoto|Hallowmas_2020_GotoMall|0
@@ -196,7 +197,7 @@ OPSTimeNormalActivity|-53|Reversible_Time
 //OPSGoto|FixedPoint_GotoMall|0
 //OPSGoto|WhiteDay_2022_GotoMall|0
 //混沌落幕复刻配置_积分界面跳转
-OPSGoto|Continuum_PointExchange|2
+//OPSGoto|Continuum_PointExchange|2
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -391,7 +392,7 @@ OPSCampaignTitleButton|-52|true|MirrorStage_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-36|9004|40|PolarizedLight_Tip|1
 //OPSCampaignTitleButtonTip|-37|100083|60|WhiteDay_2020_Tip|1
 //OPSCampaignTitleButtonTip|-38|100035|60|GunslingerGirl_MissionPanelTip|1
-//OPSCampaignTitleButtonTip|-40|100049|60|Bikini_2020_Tip|1
+OPSCampaignTitleButtonTip|-40|100143|120|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-41|9005|60|Activity_2020S_Tip|1
 //OPSCampaignTitleButtonTip|-42|100111|120|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1

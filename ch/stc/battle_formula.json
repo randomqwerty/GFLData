@@ -9540,6 +9540,74 @@
     "formula": "sbuffidtier(8301)=1&@pow>#armor&GetChance(60)?0:1"
   },
   {
+    "id": 4567,
+    "formula": "(#maxlife-#life)*100/#maxlife"
+  },
+  {
+    "id": 4568,
+    "formula": "#life*100/#maxlife>20?0:tbuffidtier(8347)=0?0:99999"
+  },
+  {
+    "id": 4569,
+    "formula": "@Maxlife*0.3"
+  },
+  {
+    "id": 4570,
+    "formula": "@Maxlife*0.35"
+  },
+  {
+    "id": 4571,
+    "formula": "@Maxlife*0.4"
+  },
+  {
+    "id": 4572,
+    "formula": "@Maxlife*0.45"
+  },
+  {
+    "id": 4573,
+    "formula": "@Maxlife*0.5"
+  },
+  {
+    "id": 4574,
+    "formula": "getchance(50)?8332:8333"
+  },
+  {
+    "id": 4575,
+    "formula": "((#maxlife-#life)*10000/#maxlife)-#distancex"
+  },
+  {
+    "id": 4576,
+    "formula": "tbuffidtier(8314)=1?8341:8334"
+  },
+  {
+    "id": 4577,
+    "formula": "tbuffidtier(8314)=1?8342:8335"
+  },
+  {
+    "id": 4578,
+    "formula": "@shield>0?0:1"
+  },
+  {
+    "id": 4579,
+    "formula": "sbuffidtier(8338)=1?120:60"
+  },
+  {
+    "id": 4580,
+    "formula": "sbuffidtier(8307)=0?0:1"
+  },
+  {
+    "id": 4581,
+    "formula": "sbuffidtier(8307)=0?0:100"
+  },
+  {
+    "id": 4582,
+    "formula": "#life*100/#maxlife>20?0:30"
+  },
+  {
+    "id": 4583,
+    "formula": "sbuffidtier(8345)=1?100:70"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
