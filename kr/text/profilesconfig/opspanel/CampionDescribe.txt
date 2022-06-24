@@ -1,0 +1,56 @@
+DiffclutyNum|2 //当前难度数目不可缺少
+MissionContainerMapSize|600,540,500,800//当前设置的(拖拽章节时)UI拖拽范围 分别为右左上下的偏移
+MissionSpotMapSize|1150,1500,450,600//当前设置的(拖拽点时)UI拖拽范围 分别为右左上下的偏移
+MissionSecretLabel|prefabName//道具UI预设名
+MissionMapMaxScale|1.5  //当前镜头缩放的最大值
+MissionMapMinScale|0.5  //当前镜头缩放的最小值 （相等=禁止缩放）
+CameraHeight|-60  //当前相机高度
+CameraField|20	//当前相机FOV
+EchoDistance|500 //echo小人触发范围
+MissionMoveAngle|10,10//无逻辑
+MissionCameraAngle|80,0,8//上层UI角度偏转
+MissionCenter|-121,5,0//上层UI中心偏移
+MissionShow3dAngle//无逻辑
+MissionSpotAngle|0,0,0//下层据点自身角度偏转
+ModelPos|-1700,520,2300//模型位置调整
+MissionBackgroundPos//无逻辑
+MovePanelOffset|//panel选择关卡时的偏移
+MovePanelScale|//panel选择关卡时的缩放
+MoveSpotOffset|//panel选择3d关卡时的偏移
+MoveSpotScale|//panel选择3d关卡时的缩放
+MissionNodePos|0|-172,0,34// miassion连线Node 位置
+MissionContainerCode|ReversibleChapter|//容器预设名
+MissionContainerBackgroundCode|ReversibleChapterMap  //容器背景图案预设名
+MissionContainerReturnCode|ContainerReturn//返回容器按钮预设名
+MissionSpotCode|MissionPanelTitle//点预设名
+Mission3dSpotCode|MissionSpot_20S//3d点预设名
+MissionPathCode|MissionPanelCurve//关卡连线使用的预设
+MissionItemId|8001//显示当前活动使用的道具 用于关卡解锁显示
+SelectEffectName|SelectPanelEffect//选中关卡时调用的显示特效预设
+MissionBackgroundCode|VA11_PanelBackground//活动调用的2d背景预设
+MissionBackground3dCode|Map46//活动调用的3d背景预设
+MissionContainer|0|ReversibleChapter0|277,1307,0|0  //对应容器章节调用的预设以及位置|序列|预设code|位置|unClockTime|name
+MissionClockContainer|1|2021Summer_Chapter1|34,-1338,0|1.35|240|84,35|105|5//使用时钟时|序列|预设code|位置|选中时大小|选中时角度|选中时标题位置|初始角度|半径
+MissionClockMissionIds|1|10891-10891,10817-10836|20|12.00,12.00//配置时钟关卡|序列|关卡|均分角度|对应时间
+MissionClockFollow//无逻辑
+MissionClockMinDegrees|1|11.595|7200|10//配置初始参照时钟|序列|起始时间|每分钟转动角度|每分实际时间的秒倍数
+MissionBackgroundMoveSpeed//无逻辑
+MissionSpot|3|11048,11048,11048|-1300,300,0|0||6//配置点|序列|关卡|位置|checkPoint|avgpic|containerId|prefabCode
+MissionGroupSpot|0|5|11002|0,600,0|FixedPoint_MissionPanelTitle1//配置missiongroup的点|序列|containerId|missionids|位置|prefabCode
+MissionPath|0,1|1,0|400,600,0|400,0,0|//配置spot点的相连|startorder，endorder|startnode，endnode|startColPos;endColPos
+MissionPoliPath|0,1|1,1|-2258,1331,-1500;666,1846,-1500//配置相连的线使用折线
+MissionSpot3d|1|2|10529|-1960,300,1100|0||MissionSpot_Com_chip1//配置3d的点涉及小人移动
+MissionSpot3dRoute|9,13|0.15,0.15|6495EDFF,0000FFFF|5080,1640,1700;5178,1657,1600;8133,2177,1600;7963,3142,1600;7963,3142,1200;10940,3668,1200;11039,3686,1300//配置3d的点使用的连线
+MissionSpot3dShow|1|10786-10786,10769-10774//配置3d 的点
+MissionSpotShow|0|60130//配置3d的点显示UI信息
+MissionContainerPath//无逻辑
+ShowRuler|0//是否显示下面刻度
+MissionRuler|0|5|AM5:00|DAYTWO|0//刻度上显示时间
+MissionOpenTime|百十年前，有这么一位小说家，他鼓起勇气，写下一句名言：//右边使用遮罩时间锁定
+MissionAvgTime|10751|1|-60|newstag2//刻度上显示图片以及点击显示剧情
+LightColor|FFFFFFFF,C16E60AC//背景颜色难度控制
+MissionBackgroundCamera|CameraBackground//使用带camera的背景 
+OPSHighScore|5|FixedPoint_HighestScore|FixedPoint_TotalScore//无限关卡模式里使用的UI 进行点击说明
+ModuleSpineMission|spinecode|modulename|mission0-mission1,mission2-mission3,@missionentrance,.....//移动modulespine关卡配置
+ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置
+ModuleBuildMission|modulename|0|mission0-mission1//移动module 家具关卡配置

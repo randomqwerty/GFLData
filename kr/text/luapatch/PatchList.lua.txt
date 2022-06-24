@@ -507,9 +507,13 @@ patch2090={
 "2090/TheaterEchelonSelection",
 "2090/FormationEquipSlotButtonController",
 "2090/BattleFieldTeamHolder",
-"2090/CommonFairyListController",	
+"2090/CommonFairyListController",
+--"2090/CommonIconController",		
+"2090/FactoryFormulaPreviewTypeHolder",
+"2090/BattleSangvisResultLabelController",
+	
 }
-
+patch3010={}
 -- va11
 print("load Va11");
 table.insert(patch2080, "collaboration/Va11/AVGController");
