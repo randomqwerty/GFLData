@@ -39,6 +39,23 @@ local _InitEmoji = function(self)
 		end
 	end
 end
+local _Awake = function(self)
+	self:Awake();
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Japan or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_US then
+		
+		local timeTextObj =  CS.UnityEngine.Object.Instantiate(self.textUserID.gameObject); 
+
+		timeTextObj.transform:SetParent(self.textUserID.transform.parent, false);
+		timeTextObj.transform.localPosition= CS.UnityEngine.Vector3(timeTextObj.transform.localPosition.x+200,timeTextObj.transform.localPosition.y,0);
+	
+		local curStamp = CS.GameData.GetCurrentTimeStamp();
+        local curDateTime = CS.Data.ConvertDataTime(curStamp);
+		local timeText=timeTextObj:GetComponent(typeof(CS.ExText));
+
+        timeText.text = CS.System.String.Format(CS.Data.GetLang(20069), curDateTime);
+	end 
+end
+util.hotfix_ex(CS.HomeUserInfoNewController,'Awake',_Awake) 
 util.hotfix_ex(CS.HomeUserInfoNewController,'InitEmoji',_InitEmoji) 
 
 

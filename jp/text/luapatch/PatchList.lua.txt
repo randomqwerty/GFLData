@@ -464,7 +464,8 @@ patch2090={
 "2090/OPSPanelBackGround",				
 "2090/OPSConfig",
 "2090/FlightChessLobbyGashaController",
-"2090/MissionData",	
+"2090/MissionData",
+"2090/MissionSkillData",		
 "2090/NavigationController",	
 "2090/SLGMinigame/BattleEnemyCharacterController",
 "2090/HomeOperationButton",
@@ -506,9 +507,13 @@ patch2090={
 "2090/TheaterEchelonSelection",
 "2090/FormationEquipSlotButtonController",
 "2090/BattleFieldTeamHolder",
-"2090/CommonFairyListController",	
+"2090/CommonFairyListController",
+--"2090/CommonIconController",		
+"2090/FactoryFormulaPreviewTypeHolder",
+"2090/BattleSangvisResultLabelController",
+	
 }
-
+patch3010={}
 -- va11
 print("load Va11");
 table.insert(patch2080, "collaboration/Va11/AVGController");
