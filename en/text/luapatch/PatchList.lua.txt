@@ -511,9 +511,10 @@ patch2090={
 --"2090/CommonIconController",		
 "2090/FactoryFormulaPreviewTypeHolder",
 "2090/BattleSangvisResultLabelController",
-	
+"2090/FormationEffectItemController",
 }
-patch3010={}
+patch3010={
+}
 -- va11
 print("load Va11");
 table.insert(patch2080, "collaboration/Va11/AVGController");
