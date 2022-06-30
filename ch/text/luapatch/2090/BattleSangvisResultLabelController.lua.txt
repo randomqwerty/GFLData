@@ -7,7 +7,7 @@ local UpdateInfo = function(self)
 	
 	self:UpdateInfo()
 	local scale =self.gun:GetSpineScale()
-	self.SpineAnime.gameObject.transform.localScale = CS.UnityEngine.Vector3(-130 * scale.x, 130 * scale.y,0) 
+	self.SpineAnime.gameObject.transform.localScale = CS.UnityEngine.Vector3(130 * scale.x, 130 * scale.y,0) 
 end
 
 
