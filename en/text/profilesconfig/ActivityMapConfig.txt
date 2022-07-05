@@ -5,7 +5,7 @@
 //MissionSelectionTex|missionselect_Halloween|1
 //MissionSelectionTex|missionselect_Isomer|2
 //2020泳装配置：
-MissionSelectionTex|missionSelect_Bikini_2020|1
+//MissionSelectionTex|missionSelect_Bikini_2020|1
 //2019夏活配置：
 //MissionSelectionTex|missionselect_Reversible|2
 //2019冬活配置：
@@ -28,6 +28,8 @@ MissionSelectionTex|missionSelect_Bikini_2020|1
 //MissionSelectionTex|missionselect_Dual Randomness|2
 //2021圣诞活动配置：
 //MissionSelectionTex|missionselect_Xmas2021|2
+//2021泳装复刻配置：
+MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -119,7 +121,7 @@ OPSNoticeNormalActivity|-40|Bikini_2020_Notice
 //OPSNoticeNormalActivity|-43|TheDivision_Notice
 //OPSNoticeNormalActivity|-44|MirrorStage_Notice
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
-//OPSNoticeNormalActivity|-47|Bikini_2021_Notice
+OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 
@@ -150,6 +152,7 @@ OPSTimeNormalActivity|-49|Reversible_Time
 //OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
+//OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|GunslingerGirl_GotoMall|0
 OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|Hallowmas_2020_GotoMall|0
@@ -158,7 +161,7 @@ OPSGoto|Bikini_2020_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
 //飓风营救复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-//OPSGoto|Bikini_2021_GotoMall|0
+OPSGoto|Bikini_2021_GotoMall|0
 //OPSGoto|DropkickonMyDevil_GotoMall|0
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
@@ -236,8 +239,11 @@ OPSMain|-29|Day|Dive_Map4
 OPSMain|-30|Day|RabbitHunt_Map
 OPSMain|-34|Day|Arctic_Map6
 OPSMain|-35|Day|Arctic_Map7
-
+OPSMain|-39|Snow|Arctic_Map5
 OPSMain|-40|Day|Bikini_2020_Background
+OPSMain|-45|Snow|Arctic_Map5
+OPSMain|-47|Day|Bikini_2021_Background
+
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
 //OPSCampaignDeco|-2|Up|DecoMap
@@ -347,11 +353,12 @@ OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-36|9004|60|PolarizedLight_Tip|1
 //OPSCampaignTitleButtonTip|-37|900042|120|WhiteDay_2020_Tip|1
 //OPSCampaignTitleButtonTip|-38|100052|60|GunslingerGirl_MissionPanelTip|1
-OPSCampaignTitleButtonTip|-40|900045|120|Bikini_2020_Tip|1
+//OPSCampaignTitleButtonTip|-40|900045|120|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-41|9005|75|Activity_2020S_Tip|1
 //OPSCampaignTitleButtonTip|-42|100066|60|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
+OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
 
 //消耗道具用
 OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -848,3 +855,8 @@ OPSCampaignDetail|-46_27|0,0|Jashin-chan
 OPSCampaignDetail|-46_28|0,0|Jashin-chan
 OPSCampaignDetail|-46_29|0,0|Jashin-chan
 
+//2021泳装活动配置
+OPSCampaignDetail|-47_1|-100,0|CyclopsSwim
+OPSCampaignDetail|-47_2|600,-100|CyclopsSwim
+OPSCampaignDetail|-47_3|-200,-400|PathfinderSwim
+OPSCampaignDetail|-47_4|500,-500|Ares

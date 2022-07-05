@@ -1,81 +1,81 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-男人()<Speaker>男人</Speaker>||<BIN>9</BIN>:基妮，这艘船即将开往战火纷飞的地方。+下去吧，你应该戴着珠宝在酒宴上跳舞，而不是混迹在肮脏的子弹与污血当中。
-()<Speaker>基妮</Speaker>||:你错了，我不怕苦也不怕死。+这个国家的女人从不畏惧子弹，她们的父亲死在战场上，她们的丈夫死在战场上，她们的儿子也死在战场上，那凭什么要剥夺她们踏上战场的权利？
-男人()<Speaker>男人</Speaker>||:基妮……你的美丽与脆弱，是无法守护……
-()<Speaker>基妮</Speaker>||:守护，你以为弱者被守护是一种幸运？+不，那是名为无能的耻辱！
-()<Speaker>基妮</Speaker>||:无法选择命运的泪水，浇灌在名为等待的痛苦上。+我宁愿拿起枪，与你一同并肩作战。
-()<Speaker></Speaker>||:……
-()<Speaker></Speaker>||:——电影《捩浪人》——
+男人()<Speaker>Man</Speaker>||<BIN>9</BIN>:Jeanie, this ship is about to sail for a war zone. +Get off. You should be dancing at balls, radiant in your jewelry, not tracking through bullets and blood.
+宝兰斯诺()<Speaker>Paula Snow</Speaker>||:You're wrong. I'm afraid of neither hardship nor death. +The women of this country don't fear bullets. Their fathers died on the battlefield, so did their husbands and their sons. Who are you to strip us of our right to step on the battlefield?
+男人()<Speaker>Man</Speaker>||:Jeanie... You are so beautiful and fragile, you can't protect...
+宝兰斯诺()<Speaker>Paula Snow</Speaker>||:Protect. Do you think the weak consider themselves lucky to be protected? +No, it is a disgrace to be powerless!
+宝兰斯诺()<Speaker>Paula Snow</Speaker>||:Lamenting our inability to take destiny into our own hands, we shed tears in the agony of endless waiting. +I would rather take up arms and fight by your side.
+()<Speaker></Speaker>||:...
+()<Speaker></Speaker>||:—From the motion picture "The Wave Wrangler".
 ()||<黑屏1>:
-八卦记者()<Speaker>八卦记者</Speaker>||<BIN>166</BIN><黑屏2>:这部电影帮您拿下了三座影后，请问您觉得自己和基妮有什么相似之处呢？
-NPC_baolan(4)<Speaker>宝兰斯诺</Speaker>||:如果说相似之处的话——比起等待，我们都是主动出击的人。+命运掌握在自己手里，不是吗？
-八卦记者()<Speaker>八卦记者</Speaker>||:不愧是宝兰斯诺！现在有传闻您和男主角因戏生情，请问是真的吗？
-NPC_baolan(4)<Speaker>宝兰斯诺</Speaker>||:如果让大家误会到这一层，说明我的演技确实得到了认可。
-八卦记者()<Speaker>八卦记者</Speaker>||:下个月在“爱琴海号”上举办慈善晚会，听说主办方邀请了您？
-NPC_baolan(4)<Speaker>宝兰斯诺</Speaker>||:从故事里离开，需要一份合适的假期。+同时能为饱受战乱之苦的儿童出一份力，这是我的荣幸。
-八卦记者()<Speaker>八卦记者</Speaker>||:真是正义的“基妮”！从这个角色里离开应该需要很久吧？
-NPC_baolan(4)<Speaker>宝兰斯诺</Speaker>||:嘘……那不是角色……
+八卦记者()<Speaker>Entertainment Reporter</Speaker>||<BIN>166</BIN><黑屏2>:This movie has won you three Best Actress awards. What similarities do you see between Jeanie and yourself?
+NPC_baolan(4)<Speaker>Paula Snow</Speaker>||:Similarities, hm... I would say that rather than waiting for things to happen, we are both the sort to take the initiative. +Destiny is in our own hands, isn't it?
+八卦记者()<Speaker>Entertainment Reporter</Speaker>||:That's Paula Snow for you! There are rumors that you and the male lead are now in a relationship because of the movie—is that true?
+NPC_baolan(4)<Speaker>Paula Snow</Speaker>||:My acting must have been very convincing to have created such a misunderstanding.
+八卦记者()<Speaker>Entertainment Reporter</Speaker>||:Word has it that you've been invited to attend the charity ball hosted on the Aegean next month?
+NPC_baolan(4)<Speaker>Paula Snow</Speaker>||:I could use a vacation to put this story behind me. +I am also honored to be able to do something for the children affected by the war.
+八卦记者()<Speaker>Entertainment Reporter</Speaker>||:Truly the righteous "Jeanie"! Will it take you long to leave this character behind?
+NPC_baolan(4)<Speaker>Paula Snow</Speaker>||:Hush... It's not a character...
 ()||<黑屏1>:
-刘易斯()<Speaker>刘易斯</Speaker>||<黑屏2><BIN>9</BIN>:——“是活在我心里的人。”+偶像就是偶像，说话超有内涵！
+刘易斯()<Speaker>Lewis</Speaker>||<黑屏2><BIN>9</BIN>:—"But someone who lives inside me." +What an absolute icon! She's so eloquent!
 ()||<黑屏1>:
-Welrod(2)<Speaker>维尔德</Speaker>||<BIN>367</BIN><黑屏2><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><SE1>AVG_ship_horn</SE1><BGM>event_summer_Title</BGM>:刘易斯，这段采访你到底要看多久？
-MDR(4)<Speaker>MDR</Speaker>||:谁叫她的偶像——宝兰斯诺小姐现在也在这艘船上。+可惜头等舱和三等舱之间的鸿沟大概有马里亚纳海沟那么深，连入口都不在一个地方。+要不她就去见真人了，哪里还会捧着终端。
-M200(4)<Speaker>M200</Speaker>||:好啦好啦，毕竟船票是刘易斯从宝兰斯诺后援会抽来的嘛。+说起来到现在我还不敢相信，就每天登录一下然后送点虚拟货币，她就能当影后了？
-M200(4);Welrod(2)<Speaker>维尔德</Speaker>||:影后还是评委选的吧，刘易斯让我们每天登录的那玩意好像是什么人气排行榜，“打榜”第一的奖励——就是我们现在乘坐的这艘“爱琴海号”的船票了。
-M200(4)<Speaker>M200</Speaker>;Welrod(2)||:可是……刘易斯不是找了所有人形来帮忙投票么，为什么只有我们四个跟她一起上船？
-M200(4);Welrod(2)<Speaker>维尔德</Speaker>||:唉，因为只有我们几个老老实实给她每天投票，其他人最多坚持了两三天……+等等，那个家伙怎么看也不像是会帮忙投票的样子吧？
-MDR(4)<Speaker>MDR</Speaker>;Welrod(2)||:？你说我？+喂！我可是尊贵的八卦会员，优越的摄影小能手，十项全能的应援必备人形！
-Welrod(2)<Speaker>维尔德</Speaker>||:……
-Lewis(9)<Speaker>刘易斯</Speaker>||:嘘——！+还有五秒我就又能看见宝兰斯诺大人的脸了！
-Lewis(9);MDR(4)<Speaker>MDR</Speaker>||:别再浪费时间了，把终端给我！
-Lewis(9)<Speaker>刘易斯</Speaker>||:喂喂喂！我的宝兰斯诺——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:MDR一把抢过刘易斯的终端，华丽的扔出抛物线，稳稳地落在维尔德的手里。
-Thunder50(2)<Speaker>雷电</Speaker>||:那么我们现在能去房间了吗？我答应了要给M950A分享下房间的样子。
-MDR(4)<Speaker>MDR</Speaker>||:也是，继续在这里待下去，我怕船上的人当我们是闲散民用人形给赶走了。
-Lewis(8)<Speaker>刘易斯</Speaker>||:不会的不会的，我们有票。+话说真的不能加钱换到头等舱么……求一求指挥官，说不定还能预支明年的薪水……
-Welrod(2)<Speaker>维尔德</Speaker>||:冷静点，头等舱不对外售票。
+Welrod(2)<Speaker>Welrod MkII</Speaker>||<BIN>367</BIN><黑屏2><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><SE1>AVG_ship_horn</SE1><BGM>event_summer_Title</BGM>:Lewis, how much longer are you going to keep watching this interview? 
+MDR(4)<Speaker>MDR</Speaker>||:Well, her idol—Miss Paula Snow—is on this very ship with her. +Sadly, the gulf between the first-class and third-class cabins is as wide as the Mariana Trench is deep—even the entrances are at different places. +Otherwise, she'd be off looking at the real deal instead of staring at her console.
+M200(4)<Speaker>M200</Speaker>||:Cut her some slack. After all, she did win the cruise tickets from the Paula Snow Fan Club. +Speaking of which, I still find it hard to believe—we just logged in every day and paid some virtual money, and she became Best Actress?
+M200(4);Welrod(2)<Speaker>Welrod MkII</Speaker>||:She's Best Actress because the judges chose her, I believe. The thing that Lewis had us log in every day was some sort of popularity ranking board, and the prize for doing the most to push Paula Snow to the top was the tickets for this cruise trip on the Aegean.
+M200(4)<Speaker>M200</Speaker>;Welrod(2)||:But...didn't Lewis have all the Dolls help out with the vote? So why are the four of us the only ones here with her?
+M200(4);Welrod(2)<Speaker>Welrod MkII</Speaker>||:Uh, because we're the only ones who actually voted for her every single day. The others all gave up after two or three days... +Hold on, this troublemaker doesn't strike me as someone who would put in the effort to vote.
+MDR(4)<Speaker>MDR</Speaker>;Welrod(2)||:Hm? Me? +Hey! I'm an esteemed member of the gossip club, an exceptional camerawoman, and a multi-purpose, must-have Doll at any meet-and-greet!
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:...
+Lewis(9)<Speaker>Lewis</Speaker>||:Hush! +I'll get to see Lady Paula's face in another five seconds!
+Lewis(9);MDR(4)<Speaker>MDR</Speaker>||:Stop wasting time! Gimme that console!
+Lewis(9)<Speaker>Lewis</Speaker>||:Hey! My Lady Paula—
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:MDR snatches the console from Lewis and tosses it in a perfect parabola. It lands firmly in Welrod's hands.
+Thunder50(2)<Speaker>Thunder</Speaker>||:Can we go to our rooms now? I promised M950A I'd show her what they look like.
+MDR(4)<Speaker>MDR</Speaker>||:You have a point. If we keep hanging around, the staff on the cruise might shoo us away for loitering.
+Lewis(8)<Speaker>Lewis</Speaker>||:No, they won't. We have tickets. +Seriously, can't we pay extra for an upgrade to the first-class cabin…? Maybe I should ask the Commander for my salary next year to be paid in advance...
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:Hold your horses. First-class tickets aren't even sold to the public.
 ()||<黑屏1>:
-Lewis(6)<Speaker>刘易斯</Speaker>||<黑屏2><BIN>82</BIN>:啊——跟偶像呼吸同一片海域的空气~+四舍五入，就是一起旅行过的关系！
-MDR(4)<Speaker>MDR</Speaker>||:……嘁，要是脑补有用，我现在已经是亿万富翁了。+所以？我们就要在这个小房间里待上整个假期吗？
-Lewis(8)<Speaker>刘易斯</Speaker>||:不会啊，这么豪华的游轮，可是有很多打卡地点的！
-M200(4)<Speaker>M200</Speaker>||:打卡？
+Lewis(6)<Speaker>Lewis</Speaker>||<黑屏2><BIN>82</BIN>:Ahh... I'm breathing the same sea air as my idol~ +Basically, we're on vacation together!
+MDR(4)<Speaker>MDR</Speaker>||:...Pfft, if all wishful thinking came true, I'd be a millionaire right now. +So? Are we spending our entire vacation cooped up in this tiny room?
+Lewis(8)<Speaker>Lewis</Speaker>||:Nope, there are lots of locations on this grand cruise that are perfect for recreating scenes!
+M200(4)<Speaker>M200</Speaker>||:Recreating scenes?
 ()||<黑屏1>:
-()||<BIN>367</BIN><Night><黑屏2><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:……
-M200(4)<Speaker>M200</Speaker>||:基妮，这艘船即将开往战火纷飞的地方。+下去吧，你应该戴着珠宝在酒宴上跳舞，而不是混迹在肮脏的子弹与污血当中。
-Lewis(9)<Speaker>刘易斯</Speaker>;M200(4)||:你错了，我不怕苦也不怕死。+这个国家的女人从不畏惧子弹，她们的父亲死在战场上，她们的丈夫死在战场上，她们的儿子也死在战场上，那凭什么要剥夺她们踏上战场的权利？
-Lewis(9);M200(4)<Speaker>M200</Speaker>||:基妮……你的美丽与脆弱，是无法守护……
-Lewis(9)<Speaker>刘易斯</Speaker>;M200(4)||:守护，你以为弱者被守护是一种幸运？+不，那是名为无能的耻辱！
-Lewis(9)<Speaker>刘易斯</Speaker>||:无法选择命运的泪水，浇灌在名为等待的痛苦上。+我宁愿拿起枪，与你一同并肩作战。
-MDR(4)<Speaker>MDR</Speaker>||:卡卡卡！+刘易斯的眼神太没有感觉了，而且动作就不能再放松一点？这样根本没办法拍到最像的一幕诶！
-Lewis(9)<Speaker>刘易斯</Speaker>||:我，我偶像的角色……怎么放松得起来？+当演员可真难啊——
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:“咔咔咔”连拍十下的声音响起——
-Thunder50(2)<Speaker>雷电</Speaker>||:这张撇嘴的就当做花絮分享给M950A好了。
-Welrod(2)<Speaker>维尔德</Speaker>||:冒昧问一下，我还要在这里站多久？
-Lewis(8)<Speaker>刘易斯</Speaker>||:啊，士兵的话就是要在这里站岗到最后的，维尔德，这个角色很适合你呀！
-Lewis(8);Welrod(2)<Speaker>维尔德</Speaker>||:适不适合另说，这就是打卡？
-Lewis(8)<Speaker>刘易斯</Speaker>;Welrod(2)||:是啊！据说《捩浪人》这部电影就是在“爱琴海号”上取景的！+很多人来这里都是为了模仿几张剧照呢~
-Welrod(2)<Speaker>维尔德</Speaker>||:真狂热啊……
-Thunder50(2)<Speaker>雷电</Speaker>||:还差最后一张剧照了。
-Lewis(9)<Speaker>刘易斯</Speaker>||:咳咳，我们刚刚到哪儿了？
-M200(4)<Speaker>M200</Speaker>||:我看看……接下来是基妮为了让男主角带上她，以跳船做威胁……
-MDR(4)<Speaker>MDR</Speaker>||:好了快点吧！照相机都不耐烦了！+不用往海里跳，往游泳池里有那么个意思就行。
-Lewis(9)<Speaker>刘易斯</Speaker>||:（咳咳咳，我准备好了。）+还在迟疑什么，你所害怕的无非是——我……！
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:咚！
-Lewis(9)<Speaker>刘易斯</Speaker>||:哇——！
-()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:——噗通——
-M200(4)<Speaker>M200</Speaker>||:刘易斯！？
-MDR(4)<Speaker>MDR</Speaker>||:为什么照相机里有个重影？
-Welrod(2)<Speaker>维尔德</Speaker>||:别发呆了，快救人！
-()<Speaker></Speaker>||:幸好游泳池里水不深，维尔德迅速捞起一个人。+抬头的瞬间发现雷电也下水了，而且同样捞起了一个人。
-Welrod(2)<Speaker>维尔德</Speaker>||:……+两个刘易斯？
-Thunder50(2)<Speaker>雷电</Speaker>||:不，是有人从楼上跳下来，砸到刘易斯了。+看装束，是个女人。
-Welrod(2)<Speaker>维尔德</Speaker>||:……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE2>Gunfight</SE2>:——！
-Welrod(2)<Speaker>维尔德</Speaker>||<BGM>BGM_Danger</BGM>:M200，卧倒！
-M200(4)<Speaker>M200</Speaker>||:！
-Lewis(7)<Speaker>刘易斯</Speaker>||<SE1>AVG_splash_water</SE1>:呃，咳咳——+怎、怎么回事！？
-MDR(4)<Speaker>MDR</Speaker>||:别发愣了，快上来！
-Thunder50(2)<Speaker>雷电</Speaker>||:有多个敌对信号正在朝这边靠近——是船上的安保人形。
-Welrod(2)<Speaker>维尔德</Speaker>||:立刻准备迎战！
-()<Speaker>？？？</Speaker>||:……
-()||<黑点1><BIN>10</BIN>:
+()||<BIN>367</BIN><Night><黑屏2><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:...
+M200(4)<Speaker>M200</Speaker>||:Jeanie, this ship is about to sail for a war zone. +Get off. You should be dancing at balls, radiant in your jewelry, not tracking through bullets and blood.
+Lewis(9)<Speaker>Lewis</Speaker>;M200(4)||:You're wrong. I'm afraid of neither hardship nor death. +The women of this country don't fear bullets. Their fathers died on the battlefield, so did their husbands and their sons. Who are you to strip us of our right to step on the battlefield?
+Lewis(9);M200(4)<Speaker>M200</Speaker>||:Jeanie... You are so beautiful and fragile, you can't protect...
+Lewis(9)<Speaker>Lewis</Speaker>;M200(4)||:Protect. Do you think the weak consider themselves lucky to be protected? +No, it is a disgrace to be powerless!
+Lewis(9)<Speaker>Lewis</Speaker>||:Lamenting our inability to take destiny into our own hands, we shed tears in the agony of endless waiting. +I would rather take up arms and fight by your side.
+MDR(4)<Speaker>MDR</Speaker>||:Cut, cut, cut! +Lewis, your eyes aren't expressing enough feelings! And can't you loosen up a bit? This isn't even remotely close to what the scene is supposed to be!
+Lewis(9)<Speaker>Lewis</Speaker>||:I-I'm playing my idol's role... How can I possibly relax? +Being an actor is hard...
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:There is a series of snaps...
+Thunder50(2)<Speaker>Thunder</Speaker>||:I'm sharing this behind-the-scenes pic with M950A. Lewis' mouth looks funny in this one.
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:Pardon me, but how much longer do I have to stand here?
+Lewis(8)<Speaker>Lewis</Speaker>||:Oh, the soldier stands guard over there throughout the scene. This role suits you, Welrod!
+Lewis(8);Welrod(2)<Speaker>Welrod MkII</Speaker>||:That's not the point. Why are we even recreating scenes from the movie?
+Lewis(8)<Speaker>Lewis</Speaker>;Welrod(2)||:Apparently, "The Wave Wrangler" was shot on the Aegean! +Many people come aboard just to recreate scenes from the movie and take pictures~
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:How fanatical...
+Thunder50(2)<Speaker>Thunder</Speaker>||:There's one more scene left.
+Lewis(9)<Speaker>Lewis</Speaker>||:Ahem, where were we?
+M200(4)<Speaker>M200</Speaker>||:Let me see... Jeanie is about to force the male protagonist to bring her along by threatening to jump ship...
+MDR(4)<Speaker>MDR</Speaker>||:C'mon, hurry up! The camera is getting impatient! +And don't jump into the sea for real. We can fudge it with the swimming pool.
+Lewis(9)<Speaker>Lewis</Speaker>||:(Ahem, I'm ready.) +Why do you hesitate? You're just scared that I would...!
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:Thud!
+Lewis(9)<Speaker>Lewis</Speaker>||:Whoa!
+()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:Splash!
+M200(4)<Speaker>M200</Speaker>||:Lewis?!
+MDR(4)<Speaker>MDR</Speaker>||:Why am I seeing doubles on my camera?
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:Don't just stand there! Get them out of the water!
+()<Speaker></Speaker>||:Fortunately, the pool isn't too deep. Welrod drags a person out of the water quickly. +When she looks up, she sees that Thunder has also jumped into the pool and saved the other one.
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:... +Two Lewises?
+Thunder50(2)<Speaker>Thunder</Speaker>||:No, someone jumped from the upper decks and fell on Lewis. +Looks like a woman.
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE2>Gunfight</SE2>:!
+Welrod(2)<Speaker>Welrod MkII</Speaker>||<BGM>BGM_Danger</BGM>:M200, duck!
+M200(4)<Speaker>M200</Speaker>||:!
+Lewis(0)<Speaker>Lewis</Speaker>||<SE1>AVG_splash_water</SE1>:Ugh... (Coughs) +W-What's going on?!
+MDR(4)<Speaker>MDR</Speaker>||:Snap out of it and come up here!
+Thunder50(2)<Speaker>Thunder</Speaker>||:Multiple hostile signals approaching—it's the security droids on the ship.
+Welrod(2)<Speaker>Welrod MkII</Speaker>||:Prepare for battle!
+()<Speaker>???</Speaker>||:...
+()||<黑点1><BIN>10</BIN>:
