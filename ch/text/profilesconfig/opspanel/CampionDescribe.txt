@@ -51,6 +51,9 @@ MissionAvgTime|10751|1|-60|newstag2//刻度上显示图片以及点击显示剧�
 LightColor|FFFFFFFF,C16E60AC//背景颜色难度控制
 MissionBackgroundCamera|CameraBackground//使用带camera的背景 
 OPSHighScore|5|FixedPoint_HighestScore|FixedPoint_TotalScore//无限关卡模式里使用的UI 进行点击说明
+HideTop|0//是否显示最上边top条默认显示
 ModuleSpineMission|spinecode|modulename|mission0-mission1,mission2-mission3,@missionentrance,.....//移动modulespine关卡配置
 ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置
 ModuleBuildMission|modulename|0|mission0-mission1//移动module 家具关卡配置
+ModuleMoveData|prefabcode|ControlTranName|leftPosX,rightPosX|3//配置的module数据
+SpecialToogleTitle|prefabcode  //定制特殊toogleTitle

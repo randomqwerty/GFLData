@@ -72,6 +72,8 @@ local	InitUIElements=function(self)
 	local	txtUI=self.transform:Find("Groove/MultiMission/Tex_Info");
 	local	txt=txtUI:GetComponent(typeof(CS.ExText));
 	txt.text=CS.Data.GetLang(60097);
+	local image = self.transform:Find("MissionSelector/MissionList/Select"):GetComponent(typeof(CS.ExImage));;
+	image.type = CS.UnityEngine.UI.Image.Type.Tiled;
 end
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitTotalTeamBaseLimit',InitTotalTeamBaseLimit)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
