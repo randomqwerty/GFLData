@@ -6,6 +6,7 @@ MissionMapMaxScale|1.5  //当前镜头缩放的最大值
 MissionMapMinScale|0.5  //当前镜头缩放的最小值 （相等=禁止缩放）
 CameraHeight|-60  //当前相机高度
 CameraField|20	//当前相机FOV
+CameraOrthographic|1//当前相机是否正交
 EchoDistance|500 //echo小人触发范围
 MissionMoveAngle|10,10//无逻辑
 MissionCameraAngle|80,0,8//上层UI角度偏转
@@ -54,6 +55,8 @@ OPSHighScore|5|FixedPoint_HighestScore|FixedPoint_TotalScore//无限关卡模式
 HideTop|0//是否显示最上边top条默认显示
 ModuleSpineMission|spinecode|modulename|mission0-mission1,mission2-mission3,@missionentrance,.....//移动modulespine关卡配置
 ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置
+ModuleSpineInfo|spinecode|spineName|1002,1003,...//UIspine显示信息
 ModuleBuildMission|modulename|0|mission0-mission1//移动module 家具关卡配置
 ModuleMoveData|prefabcode|ControlTranName|leftPosX,rightPosX|3//配置的module数据
 SpecialToogleTitle|prefabcode  //定制特殊toogleTitle
+ModuleSpineUI|2022SummerMissionSelector|MissionLayout/Viewport|MissionLayout/Viewport/MissionPoint|800|246//特殊UI显示界面|控制组件路径|item路径|选中位置|相邻间距
