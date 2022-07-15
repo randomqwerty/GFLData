@@ -1,35 +1,35 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:……
-()<Speaker>M200</Speaker>||<BGM>m_avg_casual</BGM><黑屏2><BIN>197</BIN>:我正在整理与“帕拉蒂斯专项模拟作战”相关的数据。+为防止大家因为失误与实力波动产生争论，我将只介绍敌人的数据。
-()<Speaker>M200</Speaker>||:帕拉蒂斯的敌人大多拥有力场盾，因此我们需要重装小队的支持。+如何把握请求支持的时间，以及保护我们的援护者，这是我们初期就要面临的问题。
-()<Speaker>VHS</Speaker>||:和重装小队的配合吗……+这个交给我吧，我会跟G3好好沟通一下这方面的问题。
-NPC-Doppelsoldner(0)<Speaker>M200</Speaker>||:这是重剑士，该单位通常单独巡逻，但拥有高频率大范围伤害技能。+其中无法闪避的榴弹将对我们造成很大伤害，需要重装小队先破除力场盾后，我们再集火击杀。+我们需要考虑损伤，以及未来真正对上该类敌人时的减伤措施……
-NPC-Doppelsoldner(0)<Speaker>AUG PARA</Speaker>||:看上去这么神圣又漂亮的东西竟然是敌人？！
-NPC-Doppelsoldner(0)<Speaker>刘氏</Speaker>||:好遗憾哦……
-NPC-Doppelsoldner(0)<Speaker>M200</Speaker>||:的确，白色的外表很有迷惑性呢。+看起来神圣又漂亮的东西其实是敌人，看起来凶狠不留情的事物却是我们要保护的，这种事我们还会遇到多少次呢？
-NPC-Uhlan(0)<Speaker>M200</Speaker>||:第二个可能遇到的威胁是枪骑兵。+它们的速度较慢，但碾压造成的伤害是力场盾也无法免除的，因此需要特别注意它们发动碾压攻击的征兆。+但是如果我们能设置比较逼真的诱饵吸引火力，就能专注于破坏它……+当然，前提是它不会和其他敌人一起出现。
-NPC-Uhlan(0)<Speaker>VHS</Speaker>||:虽然速度较慢，但威力巨大吗？+我会留意它发起碾压的前摇动作的。
-NPC-Uhlan(0)<Speaker>刘氏</Speaker>||:看着比我们要大好多！
-NPC-Uhlan(0)<Speaker>AUG PARA</Speaker>||:格里芬的工作真是不简单啊。
-NPC-Rodelero(0)<Speaker>M200</Speaker><Position>0,+70</Position>||:剑盾士和射击士是我们在营救路上常常遇到的敌人类型，相对于枪骑兵和重剑士来说比较容易击败。
-NPC-Strelet(0)<Speaker>M200</Speaker>||:但它们常常成组出现，在数量上占据优势，混编的队伍还能互相弥补劣势，因此更难以击败。+听说汤姆森大姐的队伍面对混编情况时一次就推过去了，调色板的各位也很轻松，真是厉害！
-()<Speaker>AUG PARA</Speaker>||:厉害啊，不愧是人形。
-()<Speaker>VHS</Speaker>||:我们也一定没问题的。
-()<Speaker>刘氏</Speaker>||:……嗯！
-()<Speaker>M200</Speaker>||<黑屏2><BIN>9</BIN>:除了普通单位外，还有这些帕拉蒂斯的精英单位们。
-Nyto(1)<Speaker>M200</Speaker>||:黑涅托；
-NytoWhite(0)<Speaker>M200</Speaker>||:白涅托；
-NPC-Nimogen(0)<Speaker>M200</Speaker>||:妮莫金；
-NPC-Mercurows(0)<Speaker>M200</Speaker>||<黑屏1>:以及墨丘萝丝。
-AUGPARA(0)<Speaker>AUG PARA</Speaker>||<BIN>73</BIN><黑屏2>:看上去只是穿着奇怪的小女孩啊……
-GeneralLiu(0)<Speaker>刘氏</Speaker>;AUGPARA(0)||:是啊，没想到竟然是敌方精英单位。
-AUGPARA(0)<Speaker>AUG PARA</Speaker>||:她们不能像铁血一样被收归吗？+我还挺想和她们一起工作呢！
-AUGPARA(0)<Speaker>丹德莱的声音</Speaker>||:暂时没有找到收归帕拉蒂斯的方法，也许未来一天能实现你这个天真的想法也说不定。
-VHS(0)<Speaker>VHS</Speaker>||:M200，继续你的讲解吧。
-M200(0)<Speaker>M200</Speaker>||:啊，好的！+这些敌人大多同时有干扰和伤害的能力，速度极快，闪避也很高，而且还具备极强的电子渗透攻击。+相比起前面的敌人，我认为它们对我们的威胁才是最高的，一旦被渗透，我们将失去对素体的控制权……
-VHS(0)<Speaker>VHS</Speaker>||:对接下来要面对的敌人，你们还有什么问题吗？
-GeneralLiu(0)<Speaker>刘氏</Speaker>||:呜……没有了……
-AUGPARA(0)<Speaker>AUG PARA</Speaker>||:没有问题！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:就在这时，一个银发的人形匆匆跑了进来。
-SL8(0)<Speaker>SL8</Speaker>||:抱歉，我迟到了！+战前讲解进行到哪里啦？
-SL8(0);VHS(0)<Speaker>VHS</Speaker>||:……+已经结束了。+全体起立，出发。
-SL8(3)<Speaker>SL8</Speaker>||<黑屏1>:……哦。
+()<Speaker>M200</Speaker>||<BGM>m_avg_casual</BGM><黑屏2><BIN>197</BIN>:ただいま「対パラデウス模擬作戦」に関するテータを整理します。+皆さんの実力誤認を招かないために、ここではあくまでも敵のデータだけを紹介します。
+()<Speaker>M200</Speaker>||:パラデウスの殆どのユニットは、偏向障壁を展開しています。//nそれに対して、こちらは重装部隊の支援攻撃が必要となります。+支援を呼ぶ時間の確保、そして重装部隊の皆さんをどうやって守るかが、//n最初の課題になります。
+()<Speaker>VHS</Speaker>||:重装部隊との連携ね……+それなら任せて、G3とちゃんと相談しておくから。
+NPC-Doppelsoldner(0)<Speaker>M200</Speaker>||:これがドッペルゾルドナーです。//n基本的には単独で巡回していますが、大範囲の殺傷武器を装備しています。+その中でも特に、回避不能の榴弾攻撃が脅威的で、対処するにはまず重装部隊に敵の障壁を破壊してもらい、そして集中火力で倒すしかありません。+いかにして損傷を出さずに敵を撃破し、そして今後の実戦でいかにして損傷を減らすのかを……
+NPC-Doppelsoldner(0)<Speaker>AUG Para</Speaker>||:こんな美しくて神聖的なものが敵だなんて？！
+NPC-Doppelsoldner(0)<Speaker>劉氏歩槍</Speaker>||:なんだか残念ですね……
+NPC-Doppelsoldner(0)<Speaker>M200</Speaker>||:確かに、この白い外見には惑わされますね。+見た目が綺麗なものが実は敵で、怖そうに見えるものが実は守るべきもの。//n今まで何度もこんなことに遭遇してきました。
+NPC-Uhlan(0)<Speaker>M200</Speaker>||:そして次に出遭う可能性のある脅威はウーランです。+こいつらは移動速度こそ速くないものの、一瞬で加速する突進攻撃は、シールドをもってしてもダメージを完全に防ぎきることはできません。なので、こいつらが突進を発動する前兆を見極める必要があります。+ただもし、こいつらの火力を惹き付けられるデコイを置くことができたら、//nその間に集中攻撃をして倒せるかもしれません……+もちろん、他の敵と一緒に現れないことが前提ですが。
+NPC-Uhlan(0)<Speaker>VHS</Speaker>||:速度がなくとも、破壊力は抜群ということね？+突進の前兆には注意しておく。
+NPC-Uhlan(0)<Speaker>劉氏歩槍</Speaker>||:なんか私たちより何倍も大きい！
+NPC-Uhlan(0)<Speaker>AUG Para</Speaker>||:グリフィンの仕事って難しいね。
+NPC-Rodelero(0)<Speaker>M200</Speaker><Position>0,+70</Position>||:ロデレロとストレリツィはよく出遭う敵ですが、//nウーランやドッペルゾルドナーと比べてかなり倒しやすい方です。
+NPC-Strelet(0)<Speaker>M200</Speaker>||:ですが、こいつらはいつも群れで押し寄せてきますし、しかもお互いに弱点を補って攻撃してきますから、案外手強いかもしれません。+トンプソンの姉さんは、こいつらを初見で蹴散らしたそうです。//n本当にすごいですね！
+()<Speaker>AUG Para</Speaker>||:すご～い、さすがは人形ちゃん！
+()<Speaker>VHS</Speaker>||:ワタシたちもきっといける。
+()<Speaker>劉氏歩槍</Speaker>||:……はい！
+()<Speaker>M200</Speaker>||<黑屏2><BIN>9</BIN>:通常のユニット以外にも、パラデウスの精鋭ユニットが存在します。
+Nyto(1)<Speaker>M200</Speaker>||:黒ネイト、
+NytoWhite(0)<Speaker>M200</Speaker>||:白ネイト、
+NPC-Nimogen(0)<Speaker>M200</Speaker>||:ニモゲン、
+NPC-Mercurows(0)<Speaker>M200</Speaker>||<黑屏1>:そしてマーキュラス。
+AUGPARA(0)<Speaker>AUG Para</Speaker>||<BIN>73</BIN><黑屏2>:ただ服が変な女の子にしか見えないけど……
+GeneralLiu(0)<Speaker>劉氏歩槍</Speaker>;AUGPARA(0)||:そうですね、こんなのが敵の精鋭ユニットなんて。
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:鉄血と同じように捕獲できないの？+案外一緒に働きたいかも！
+AUGPARA(0)<Speaker>ダンデライオンの声</Speaker>||:今のところパラデウスを捕獲する方法はまだないわ。//n今後そのおめでたい考えを実現する日が来るかもしれないけど。
+VHS(0)<Speaker>VHS</Speaker>||:M200、続けて。
+M200(0)<Speaker>M200</Speaker>||:あっ、はい！+こちらの敵はジャミング能力と殺傷能力を同時に持っているケースが多いです。//n高いスピードと回避能力を持っている上に、//nとても強力な電子戦まで仕掛けてきます。+さっき紹介した敵と比べても、これらの敵が一番脅威的だと思います。//n一回でもハッキングされたら、素体への制御権を失うことになりますので……
+VHS(0)<Speaker>VHS</Speaker>||:これらの敵に関して、他に質問は？
+GeneralLiu(0)<Speaker>劉氏歩槍</Speaker>||:うぅ……ありません……
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:問題ないよ！
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:その時、一人の銀髪の人形が慌てて入ってきた。
+SL8(0)<Speaker>Gr SL8</Speaker>||:わるい、遅刻した！+解説はどこまでやった？
+SL8(0);VHS(0)<Speaker>VHS</Speaker>||:……+もう終わったよ。+全員起立、出発。
+SL8(3)<Speaker>Gr SL8</Speaker>||<黑屏1>:……おお。
