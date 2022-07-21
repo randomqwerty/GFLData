@@ -140,6 +140,12 @@ local TriggerMoveCameraEvent = function(target,move,recordPos,changescale,setsca
 	end
 	CS.DeploymentController.TriggerMoveCameraEvent(target,move,recordPos,changescale,setscale,handle);
 end
+
+local CheckUIOneLayer = function(self)
+	self:CheckUIOneLayer();
+	CS.GameData.missionAction.queueSpotTeamCapture:Clear();
+	CS.GameData.missionAction.queueSpotSurroundCapture:Clear();
+end
 util.hotfix_ex(CS.DeploymentController,'RequestNoBattleAllyHandle',RequestNoBattleAllyHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectTeam',TriggerSelectTeam)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
@@ -151,5 +157,6 @@ util.hotfix_ex(CS.DeploymentController,'EndTurnPlayAllData',EndTurnPlayAllData)
 util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
 util.hotfix_ex(CS.DeploymentController,'RequestStartThirdAllyTeamTurnHandle',RequestStartThirdAllyTeamTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
+util.hotfix_ex(CS.DeploymentController,'CheckUIOneLayer',CheckUIOneLayer)
 
 

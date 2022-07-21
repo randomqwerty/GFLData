@@ -37,6 +37,10 @@ local InitUIElements= function(self)
 		print("载入图片");
 		self.btnTheater:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite = obj1:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite;
 	end
+	CheckOPSTime(self);
+	local parent = self.btnTheater.transform.parent;
+	local rectTrans = parent:GetComponent(typeof(CS.UnityEngine.RectTransform));
+	rectTrans.sizeDelta = CS.UnityEngine.Vector2(930,160);
 end
 
 local _OnClickHomeAVG = function(self)	
@@ -46,6 +50,63 @@ local _OnClickHomeAVG = function(self)
     end
 
 	self:OnClickHomeAVG();
+end
+
+opsShowTime = 0;
+opsEnterTime = 0;
+opsDispearTime = 0;
+function CheckOPSTime(self)
+	local temp = CS.Data.GetString("2022_bikini_time");
+	if CS.System.String.IsNullOrEmpty(temp) then
+		return;
+	end
+	local times =Split(temp,",");	
+	opsShowTime = tonumber(times[1]);
+	opsEnterTime = tonumber(times[2]);
+	opsDispearTime = tonumber(times[3]);
+	print("opsShowTime"..opsShowTime);
+	print("opsEnterTime"..opsEnterTime);
+	print("opsDispearTime"..opsDispearTime);
+	local stamp = CS.GameData.GetCurrentTimeStamp();
+	if stamp>opsShowTime and stamp<opsDispearTime then
+		local parent = self.btnTheater.transform.parent;
+		local obj = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/2022BikiniResultEntrance"), parent, false);
+		local unclock = obj.transform:Find("Img_Unlocked");
+		unclock.gameObject:SetActive(stamp>opsEnterTime);
+		local clock = obj.transform:Find("Img_Locked");
+		clock.gameObject:SetActive(stamp<opsEnterTime);
+		local btn = obj:GetComponent(typeof(CS.ExButton));
+		btn:AddOnClick(function()
+				EnterOPS();
+			end)
+	end
+end
+
+function EnterOPS()
+	if opsEnterTime<CS.GameData.GetCurrentTimeStamp() then
+		CS.OPSConfig.Instance:GoToScene(-52);
+	else
+		local time = CS.GameData.UnixToMonthDayString(opsEnterTime);
+		local txt = tostring(CS.System.String.Format(CS.Data.GetLang(60348),time));
+		CS.CommonController.LightMessageTips(txt);		
+	end
+end
+
+function Split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
 end
 util.hotfix_ex(CS.HomeController,'CheckNewShop',_CheckNewShop)
 util.hotfix_ex(CS.HomeController,'OnClickEvent_btn',_OnClickEvent_btn)

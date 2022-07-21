@@ -108,7 +108,31 @@ local UseWinCounter = function(self)
 	end
 	return self.winCount;
 end
+
+local isEndless = function(self)
+	return self.endlessType ~= 0;
+end
+
+local AnarysicsHurtData = function(self,jsonData)
+	self:AnarysicsHurtData(jsonData);
+	for i=0,jsonData.Count -1 do
+		local json = jsonData[i];
+		local enemyInstanceId = json:GetValue("enemy_instance_id").Int;
+		local spotId = json:GetValue("spot_id").Int;
+		local hp = json:GetValue("enemy_hp_percent").Float;
+		if enemyInstanceId ~= 0 then
+			local oldjson = self.enemyTeamData[enemyInstanceId][spotId];
+			local lasthp = oldjson:GetValue("enemy_hp_percent").Float;
+			print("lasthp"..lasthp.."hp"..hp);
+			if lasthp>hp then
+				self.enemyTeamData[enemyInstanceId][spotId] = json;
+			end
+		end
+	end
+end
 util.hotfix_ex(CS.MissionAction,'LoadBattleEnvironment',LoadBattleEnvironment)
 util.hotfix_ex(CS.MissionAction,'LoadFairySkillPerform',LoadFairySkillPerform)
 util.hotfix_ex(CS.MissionAction,'LoadKillNum',LoadKillNum)
 util.hotfix_ex(CS.Mission,'get_UseWinCounter',UseWinCounter)
+util.hotfix_ex(CS.MissionInfo,'get_isEndless',isEndless)
+util.hotfix_ex(CS.MissionAction,'AnarysicsHurtData',AnarysicsHurtData)

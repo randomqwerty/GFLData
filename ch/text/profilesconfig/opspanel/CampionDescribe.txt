@@ -53,10 +53,11 @@ LightColor|FFFFFFFF,C16E60AC//背景颜色难度控制
 MissionBackgroundCamera|CameraBackground//使用带camera的背景 
 OPSHighScore|5|FixedPoint_HighestScore|FixedPoint_TotalScore//无限关卡模式里使用的UI 进行点击说明
 HideTop|0//是否显示最上边top条默认显示
-ModuleSpineMission|spinecode|modulename|mission0-mission1,mission2-mission3,@missionentrance,.....//移动modulespine关卡配置
-ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置
+ModuleSpineMission|spinecode|modulename|mission0-mission1,mission2-mission3,@missionentrance,.....//移动modulespine
+ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置|code|指定aiindex
 ModuleSpineInfo|spinecode|spineName|1002,1003,...//UIspine显示信息
-ModuleBuildMission|modulename|0|mission0-mission1//移动module 家具关卡配置
-ModuleMoveData|prefabcode|ControlTranName|leftPosX,rightPosX|3//配置的module数据
+ModuleBuildMission|modulename|buildIndex|prefabcode|x,y|mission0-mission1//moudle上家具关卡配置
+ModuleMoveData|prefabcode|ControlTranName|leftPosX,rightPosX|num//配置的module数据num指分几段
 SpecialToogleTitle|prefabcode  //定制特殊toogleTitle
-ModuleSpineUI|2022SummerMissionSelector|MissionLayout/Viewport|MissionLayout/Viewport/MissionPoint|800|246//特殊UI显示界面|控制组件路径|item路径|选中位置|相邻间距
+ModuleSpineUI|2022SummerMissionSelector|MissionLayout/Viewport|MissionLayout/Viewport/MissionPoint|Trainholder/TrainUI|800|246//特殊UI显示界面|控制组件路径|item路径|指定UI父组件路径|选中位置|相邻间距
+MoudleMoveBackground|Img_Rail|4|2022SummerBackground-5-350,2022SummerStation-5-0//背景移动机制|铁轨组件|进入出去时间|背景预设-停留时间-铁轨当前速度
