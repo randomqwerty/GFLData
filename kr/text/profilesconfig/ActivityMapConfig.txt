@@ -43,6 +43,9 @@ MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
+//2022烟花祭配置：
+MissionSelectionTex|missionselect_Bikini_2022|1|-52
+
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -121,6 +124,7 @@ OPSLeftBGNormalActivity|-49|2021Xmas_Left
 OPSLeftBGNormalActivity|-51|FixedPoint_Left
 OPSLeftBGNormalActivity|-50|WhiteDay_2022_Left
 OPSLeftBGNormalActivity|-53|Isomer_Left
+OPSLeftBGNormalActivity|-52|Bikini_2022_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -145,13 +149,13 @@ OPSLeftBGNormalActivity|-53|Isomer_Left
 //OPSNoticeNormalActivity|-43|TheDivision_Notice
 //OPSNoticeNormalActivity|-44|MirrorStage_Notice
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
-OPSNoticeNormalActivity|-47|Bikini_2021_Notice
+//OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
-
+OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //时间公告-预制物(公用)
 OPSTime|SingTime
 //OPSTimeNormalActivity|-31|Isomer_Time
@@ -170,7 +174,7 @@ OPSTimeNormalActivity|-49|Reversible_Time
 OPSTimeNormalActivity|-51|Reversible_Time
 OPSTimeNormalActivity|-50|Reversible_Time
 OPSTimeNormalActivity|-53|Reversible_Time
-
+OPSTimeNormalActivity|-52|Bikini_2022_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -191,7 +195,7 @@ OPSTimeNormalActivity|-53|Reversible_Time
 //OPSGoto|MirrorStage_PointExchange|2
 //飓风营救复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-OPSGoto|Bikini_2021_GotoMall|0
+//OPSGoto|Bikini_2021_GotoMall|0
 //OPSGoto|DropkickonMyDevil_GotoMall|0
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
@@ -200,7 +204,7 @@ OPSGoto|Bikini_2021_GotoMall|0
 //OPSGoto|WhiteDay_2022_GotoMall|0
 //混沌落幕复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-
+OPSGoto|Bikini_2022_GotoMall|0|-52
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -241,7 +245,8 @@ OPSProgressNormalActivity|-49|Reversible_Progress
 OPSProgressNormalActivity|-51|Reversible_Progress
 OPSProgressNormalActivity|-50|Reversible_Progress
 OPSProgressNormalActivity|-53|Reversible_Progress
-
+OPSProgressNormalActivity|-52|Bikini_2022_Progress
+OPSProgressNormalActivity|-54|Reversible_Progress
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
 OPSMain|-2|Snow|Map2
@@ -283,6 +288,7 @@ OPSMain|-47|Day|Bikini_2021_Background
 OPSMain|-48|Day|Bikini_2021_Background
 OPSMain|-51|Day|Arctic_Map5
 OPSMain|-50|Day|Arctic_Map5
+OPSMain|-52|Day|Arctic_Map5
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -365,7 +371,7 @@ OPSCampaignTitleButton|-46|true|DropkickonMyDevil_Diffculty2Btn
 OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 OPSCampaignTitleButton|-51|true|FixedPoint_Diffculty2Btn
-OPSCampaignTitleButton|-52|true|MirrorStage_Diffculty2Btn
+OPSCampaignTitleButton|-52|true|Bikini_2022_Difficulty2Btn
 //OPSCampaignTitleButton|-50|true|PolarizedLight_Diffculty2Btn
 
 //剧情章节用
@@ -400,11 +406,11 @@ OPSCampaignTitleButton|-52|true|MirrorStage_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
-OPSCampaignTitleButtonTip|-47|100146|120|Bikini_2021_Tip|1
+//OPSCampaignTitleButtonTip|-47|100146|120|Bikini_2021_Tip|1
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
-
+OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -412,6 +418,7 @@ OPSCampaignTitleButtonTip|-47|100146|120|Bikini_2021_Tip|1
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
+OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07

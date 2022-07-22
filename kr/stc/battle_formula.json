@@ -9532,6 +9532,10 @@
     "formula": "sbuffidtier(8272)=0?1:sbuffidtier(8273)>0?0:1"
   },
   {
+    "id": 4564,
+    "formula": "$1<50?0:$1"
+  },
+  {
     "id": 4565,
     "formula": "sbuffidtier(8301)=1?8302:0"
   },
@@ -10110,6 +10114,18 @@
   {
     "id": 4709,
     "formula": "sbuffidtier(8370)=1?60:1"
+  },
+  {
+    "id": 4712,
+    "formula": "GetChance(50)?201:204"
+  },
+  {
+    "id": 4713,
+    "formula": "GetChance(50)?202:203"
+  },
+  {
+    "id": 4714,
+    "formula": "GetChance(50)?205:208"
   },
   {
     "id": 6000,

@@ -59,6 +59,8 @@ local RefresCommonUI = function(self)
 		end
 	end
 	self:RefresCommonUI();
+	local showEndless = self.missionInfo.isEndless or self.missionInfo.ShowScore;
+	self.EndLess.gameObject:SetActive(showEndless);
 end
 local RequestStartMissionHandle = function(self,www)
 	self:RequestStartMissionHandle(www);
