@@ -1,81 +1,81 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM><SE1>AVG_amb_wilderness</SE1>:树林里，一处矮窄的山洞，挤得F1必须弯下腰蹲着出来。
-F1(0)<Speaker>F1</Speaker>||<BIN>262</BIN><黑屏2>:呼呼~这一带的任务结束，收工！
-()<Speaker></Speaker>||:F1掏出小背包里的诗歌集，缓慢地向补给仓移动……
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:走在无人的树林里，最适合回忆那些感动的诗句——
-F1(0)<Speaker>F1</Speaker>||<GradientShow>2</GradientShow>:每当经过那池塘我们仿佛听到……+他自由的灵魂在天空飞翔。
-F1(0)<Speaker>F1</Speaker>||:他自由的灵魂在天空飞翔……+哎，后面怎么接呢？
-()<Speaker>？？？</Speaker>||<BGM>BGM_Wake2</BGM><SE1>AVG_wind_grass</SE1>:看那美丽的篝火，我要放声歌唱。
-()<Speaker>？？？</Speaker>||:跳华尔兹的玛蒂尔达，快来吧和我去远方。
-F1(0)<Speaker>F1</Speaker>||:？
-NPC-Arla(0)<Speaker></Speaker>||:转头看过去，一位拄拐的老爷爷立在那里，双目无神，似乎是失明了。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:小姑娘，我刚听到一声响动，你是不是有东西掉了？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:啊，我的诗歌集！这身衣服装东西真容易掉啊。谢谢您！这边可是战场呢，您一个人走在这里很危险。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:心里的纷争不停止，哪里都会是战场。+老头子年纪大了，不想动了。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:您也是个诗人吧？老爷爷，看您也很喜欢这首《玛蒂尔达》。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:人人都可以成为诗人，不是吗？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:哇，可是……我的同伴们总是觉得我写的东西很无聊……
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:哈哈哈哈哈，小姑娘，你觉得边上这棵树怎样？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:唔，很普通的样子。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:它对你来说是很普通的树。+但对于生活在这里的某些人来说，这是家乡的枝丫。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:每个人都很难理解别人的心情。+有些事情对一部分人很重要，而对另一部分人很无聊，这很正常。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:科技不管进化了多少代，情感却还是那些。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:但我喜欢的作家他就有很多人喜欢。我，我也想被其他人认可……
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:你觉得他第一个读者是谁呢？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:编辑？
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:不，是他自己……他应该也无法预料自己的东西能感动多少人，只能先感动自己。无聊与否都是世人的评判罢了，为什么要那么在意呢？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:话是这么说……但总会心有不甘……
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:那你对于那位喜欢的诗人，究竟是喜欢他的诗歌还是喜欢他的名气？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:当然是诗歌！
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:那你应该很明白了。
-F1(0)<Speaker>F1</Speaker>||:原来如此，谢谢爷爷——
-()<Speaker></Speaker>||:——咕噜一声。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:哈哈，老头子不中用了，随便聊几句肚子就饿了。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:唔，我可从来没有这样跟人聊过诗歌，能不能请您跟我回去吃饭呀？我还想听您多谈谈——
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||<黑屏1>:哈哈哈，那就原谅我这个不知礼的老头子，来蹭小姑娘一顿饭了。
-()<Speaker></Speaker>||<黑屏2><BIN>55</BIN><BGM>BGM_Empty</BGM>:补给仓经过M1897的打扫，居然还能勉勉强强摆下一张桌子。
-F1(0)<Speaker>F1</Speaker>||:我把包装拆开了，爷爷你吃这个。
-F1(0);NPC-Arla(0)<Speaker>老爷爷</Speaker>||:多谢，哎，自从眼睛被流弹擦伤后，还真是有很多不方便的地方。
-F1(0)<Speaker>F1</Speaker>;NPC-Arla(0)||:<color=#A9A9A9>所以也不会把我当个人形看嘛……</color>
-F1(0);NPC-Arla(0)<Speaker>老爷爷</Speaker>||:什么？
-F1(0)<Speaker>F1</Speaker>;NPC-Arla(0)||:没什么，就是能够跟您一起吃饭，感到很开心，可以向您推荐我喜欢的诗人！我想，你喜欢《玛蒂尔达》的话，应该也会喜欢他的！
-F1(0);NPC-Arla(0)<Speaker>老爷爷</Speaker>||:哦？我很感兴趣。
-F1(0)<Speaker>F1</Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><黑屏1>:呜呜呜呜呜他可是这个时代最伟大的诗人，在我心里没有之一！
-()<Speaker></Speaker>||<BGM>BGM_Hello</BGM><黑屏2>:滔滔不绝的赞美之词溢于言表，那种兴奋和激动似乎永远不会停歇……
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:这么多溢美之词，想来一定要听听他的名字了。
-F1(0)<Speaker>F1</Speaker>||:<size=50>汉斯。</size>
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:……+……原来是他。
-F1(0)<Speaker>F1</Speaker>||:汉·斯·就是他的名字。
-F1(0);NPC-Arla(0)<Speaker>老爷爷</Speaker>||:那你喜欢他哪一首呢？
-F1(0)<Speaker>F1</Speaker>||:就是这本——
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:把手里的诗歌集递给他，上面的封皮写着几个大字《森林里的重逢》。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:哈，没想到这么久了还有人喜欢他，这也许不是他最好的一首诗。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:啊我觉得这首已经是最好的了！
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:对于真正的诗人来说，最好的诗歌永远在下一首吧。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:可他失踪了好多年，之前听说在战场出没，为了能够见上一面，我还请指挥官把我调过去……结果搜寻了好久都没搜到。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>;F1(0)||:是啊，乱世里人的行踪就像秋天掉落的树叶，风吹到哪就是哪里了。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:人类的生命就是很脆弱啦。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||<BGM>BGM_Moon</BGM>:尽管人类的生命就是如此的脆弱，但人类的生命也无比的顽强。
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:啊？顽强？
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:你还记得他，这不也是一种生命的延续么？
-NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:可是……
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:我这里倒有他最近的一首诗，从未公开发表，你有兴趣嘛？
-F1(0)<Speaker>F1</Speaker>||:当然！
-()<Speaker></Speaker>||:他从衣服内衬口袋里拿出钢笔和一本泛黄的笔记本。手指有些颤抖，但落下的笔迹却无比的坚定。
-F1(0)<Speaker>F1</Speaker>||:枪与诗……看似如此矛盾的东西，竟然可以组合在一起……+哇，这，这也太厉害了吧，爷爷你的手写体太好看了，明明眼睛看不见，啊对不起！！！我不是有意提这件事的……
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:没事，写字对于我来说已经养成惯性了，几乎是身体的本能，这也许就是他今生最后一首诗了，能落到喜欢它的人手里，很荣幸。
-NPC-Arla(0)<Speaker>老爷爷</Speaker>||:时间差不多，我也该离开了。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:老人缓缓行礼告别，那张纸被撕了下来，郑重地交给了F1。
-()<Speaker></Speaker>||:F1读完以后，想将它夹在诗歌集里，随后一翻，刚巧翻到了后记——
-F1(0)<Speaker>F1</Speaker>||:<color=#A9A9A9>……我写字很多时候已经不是靠眼睛和手，而是靠直觉，靠感受，如今这样的世道，早已没落的出版行业应该没什么人会看纸质书了吧。</color>+<color=#A9A9A9>但我还是想坚持出版，也许在电子信息都无法到达的地方，能有文字的流传……</color>
-F1(0)<Speaker>F1</Speaker>||:果然我偶像的文字，就算是后记也很有意思！等等——
-F1(0)<Speaker>F1</Speaker>||:这个微微弯曲的字母花体，是汉斯的习惯……他不爱用标准字，签名和后记都是花字印刷，这张纸……这首诗……
-()<Speaker></Speaker>||<震屏>:是他！
-()<Speaker></Speaker>||<震屏>:<size=40>那个老人，是汉斯！</size>
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1><震屏>:<size=50>刚刚和他就坐在一张桌子上！</size>
-F1(0)<Speaker>F1</Speaker>||<BGM>BGM_Truth</BGM>:<color=#A9A9A9>还没有……还没有好好地表达敬仰之情，怎么可以让他这样离开！</color>
-()<Speaker></Speaker>||:再也无法冷静……
-()<Speaker></Speaker>||:再也无法呆坐……
-F1(0)<Speaker>F1</Speaker>||:必须找回他！
-()<Speaker></Speaker>||:<color=#A9A9A9>找回他！</color>
-F1(0)<Speaker>F1</Speaker>||:好不容易有了近在咫尺的机会，我……
-()<Speaker></Speaker>||<黑屏1>:F1匆忙撕下半页纸，给MP5和M1897留下歪七扭八的几个字——我这边据点清理干净了，你们可以先回去。不用等我——F1留。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM><SE1>AVG_amb_wilderness</SE1>:This is a cramped cave in the forest, so small that even F1 has to bend down to emerge from it.
+F1(0)<Speaker>F1</Speaker>||<BIN>262</BIN><黑屏2>:Whew~ This region's sorted. Time to wrap up!
+()<Speaker></Speaker>||:F1 takes her poem anthology out of her pack and slowly heads back toward the supply point...
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:And walking through the deserted forests is the perfect time and place to recall those moving verses—
+F1(0)<Speaker>F1</Speaker>||<GradientShow>2</GradientShow>:"And his ghost may be heard as you pass by that billabong..." +"You'll come a-waltzing Matilda, with me."
+F1(0)<Speaker>F1</Speaker>||:"Waltzing Matilda, waltzing Matilda, you'll come a-waltzing Matilda with me..." +Now how did the next line go?
+()<Speaker>???</Speaker>||<BGM>BGM_Wake2</BGM><SE1>AVG_wind_grass</SE1>:"And he sang as he watched and waited till his "Billy" boiled,"
+()<Speaker>???</Speaker>||:"You'll come a-waltzing Matilda, with me."
+F1(0)<Speaker>F1</Speaker>||:?
+NPC-Arla(0)<Speaker></Speaker>||:She looks back and sees an old man leaning on a stick. His eyes are dull, and he seems to be blind.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:My dear, I heard a thud just now. Did you drop something?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Oh, my poem book! I drop stuff so easily in this outfit. Thank you! But this is a battlefield, and it's dangerous for you to be here alone.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:The whole world is a battlefield as long as the war still rages within the heart of man. +I'm old, and I don't want to move anymore.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Are you a poet too? I see you like "Waltzing Matilda", Gramps.
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:Everybody can be a poet, don't you think?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Yeah, but...my friends always think the stuff I write is boring...
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:Hahahaha, my dear, what do you think of this tree over here?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Hm, it seems very ordinary.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:And maybe it IS an ordinary tree to you. +But to certain people who live near here, the branches are like home.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:It's very hard for people to understand how others feel. +Some things are important to certain people, while others find it pointless, and that's perfectly normal too.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:No matter how much science progresses, our feelings will always stay the same.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:But many other people also like the author that I like. I-I want to be recognized too...
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:Who do you think his first reader was?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:His editor?
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:No, it was himself... My guess is that he didn't expect what he wrote would move so many people. All he wanted to do was to move himself first. Whether something is boring or not is just the world's opinion, so why bother about that?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Even so... Wouldn't you feel a little upset if...
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:So, is it the poet's work you like, or is it just his fame?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:His poetry, of course!
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:Then you should understand.
+F1(0)<Speaker>F1</Speaker>||:I see... Thank you, Gramps—
+()<Speaker></Speaker>||:—There is the sound of a stomach rumbling.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:Hah, I'm getting useless in my old age. Just a few words and I'm hungry.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Hm, I've never talked about poems with someone like this before. Would you like to come back and have a meal with me? I'd like to hear more—
+NPC-Arla(0)<Speaker>Old Man</Speaker>||<黑屏1>:Hahaha, then please forgive this rude old man, my dear. I'll have to trouble you for a bite.
+()<Speaker></Speaker>||<黑屏2><BIN>55</BIN><BGM>BGM_Empty</BGM>:After being tidied up by M1897, the supply point can actually fit a table in the center - albeit just barely.
+F1(0)<Speaker>F1</Speaker>||:I've opened it up. Please, have this, Gramps.
+F1(0);NPC-Arla(0)<Speaker>Old Man</Speaker>||:Thank you very much. Ah, life's been so inconvenient ever since a stray bullet grazed my eyes.
+F1(0)<Speaker>F1</Speaker>;NPC-Arla(0)||:<color=#A9A9A9>Which is why you didn't treat me as a Doll...</color>
+F1(0);NPC-Arla(0)<Speaker>Old Man</Speaker>||:What?
+F1(0)<Speaker>F1</Speaker>;NPC-Arla(0)||:Oh, it's nothing, I'm just happy that I get to eat with you and recommend my favorite poet to you! I think if you like "Waltzing Matilda", you'll like him too!
+F1(0);NPC-Arla(0)<Speaker>Old Man</Speaker>||:Oh? How interesting.
+F1(0)<Speaker>F1</Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><黑屏1>:(Squeals) He's the greatest poet of this age and...
+()<Speaker></Speaker>||<BGM>BGM_Hello</BGM><黑屏2>:The endless stream of excitement and gratitude flows on and on, like it's never going to end...
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:Since you obviously hold him in such high regard, I should ask for his name.
+F1(0)<Speaker>F1</Speaker>||:<size=50>Hans.</size>
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:...+...So it's him.
+F1(0)<Speaker>F1</Speaker>||:Yeah, Hans. That's his name.
+F1(0);NPC-Arla(0)<Speaker>Old Man</Speaker>||:So, which of his pieces do you like the best?
+F1(0)<Speaker>F1</Speaker>||:This one—
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:F1 hands him the anthology. The title etched on the leather cover reads "Reunion in the Forest".
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:Ha, I didn't think there'd be people out there who still liked him after so long. That might not be his best work.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:But I think it's his best one!
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:To a true poet, the best poem is always the next one.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:He's been missing for many years though. I heard he was often seen on the battlefield, and I even asked my Commander for a transfer so I could meet him... But I never found him even after searching for so long.
+NPC-Arla(0)<Speaker>Old Man</Speaker>;F1(0)||:Well, that's only to be expected. The traces of people in this chaotic world are like fallen leaves, going everywhere the wind takes them.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:A human life is just that fragile, I suppose.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||<BGM>BGM_Moon</BGM>:Well, a human life may be fragile, but it can also endure for quite a while.
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:Huh? It can?
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:Well, you still remember him. Doesn't that mean his life still endures, in a way?
+NPC-Arla(0);F1(0)<Speaker>F1</Speaker>||:But...
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:I've got a recent poem of his here. He never published it, but are you interested?
+F1(0)<Speaker>F1</Speaker>||:Of course!
+()<Speaker></Speaker>||:The old man takes out a pen and a yellowed notebook from his pocket. His fingers tremble a little, but the strokes of his pen are more solid than anything.
+F1(0)<Speaker>F1</Speaker>||:Guns and poems... I can't believe you could put such contradictory things together... +W-wow, this is amazing! Your handwriting is great, Gramps! And you can't even see, it's— Ohhhh I'm sorry, I didn't mean to bring that up...
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:That's fine. Writing's a habit to me, it's practically second nature. This might be his very last poem, so it's an honor for it to find its way to someone who can appreciate it.
+NPC-Arla(0)<Speaker>Old Man</Speaker>||:Well, I don't have much time left. I ought to be going.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:The old man slowly bows by way of farewell. He tears the page out of his book and solemnly presents it to F1.
+()<Speaker></Speaker>||:F1 finishes reading it and is about to slip it into her collection of poems, but as she riffles through the pages, the book happens to open up at the afterword—
+F1(0)<Speaker>F1</Speaker>||:<color=#A9A9A9>...Very often, when I write, I do not rely on my eyes and hands, but on my instincts and feelings. In this world, with publishers nearly extinct, it seems nobody wants to read printed words anymore.</color>+<color=#A9A9A9>Even so, I insist on publishing my work this way, perhaps these words can find their way to places where digital data cannot reach...</color>
+F1(0)<Speaker>F1</Speaker>||:That's my idol for you, even his afterwords are interesting! Wait a minute—
+F1(0)<Speaker>F1</Speaker>||:The slight curving in the letters was a habit of his... He never liked using standard fonts, and his signature and afterwords were always printed in cursive, and this paper...  This poem...
+()<Speaker></Speaker>||<震屏>:It's him!
+()<Speaker></Speaker>||<震屏>:<size=40>That old man was Hans!</size>
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><震屏>:<size=50>I was just sitting across a table from him!</size>
+F1(0)<Speaker>F1</Speaker>||<BGM>BGM_Truth</BGM>:<color=#A9A9A9>I haven't...I haven't even properly conveyed my respect for him, how could I let him just leave like that?!</color>
+()<Speaker></Speaker>||:She can't contain herself any longer...
+()<Speaker></Speaker>||:She can't stay seated...
+F1(0)<Speaker>F1</Speaker>||:I need to find him!
+()<Speaker></Speaker>||:<color=#A9A9A9>Find him!</color>
+F1(0)<Speaker>F1</Speaker>||:I finally got so close to him after so long, and I...
+()<Speaker></Speaker>||<黑屏1>:F1 rips off half a page and leaves a few hastily-scribbled words behind for Gr MP5 and M1897 — "I've cleaned out the bases here, go on back without me. — F1"

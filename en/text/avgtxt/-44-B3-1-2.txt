@@ -1,76 +1,76 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>167</BIN><SE1>AVG_21Winter_Subway</SE1>:柏林市旧地铁站地下通道。
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<BGM>BGM_Room</BGM>:<color=#00CCFF>哟，指挥官。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><通讯框>||:45，情况怎么样？
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>真是吓了我一跳。</color>+<color=#00CCFF>没想到都是真的，我和9发现了很多爆炸物，足够把这里全部炸塌。</color>+<color=#00CCFF>地点都记录下来了，待会就发送给你。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><通讯框>||:……知道了。+我和AR小队已经到了，现在就去拆除。
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>小心一点。</color>+<color=#00CCFF>G11和416发现了不少那些白色的士兵。</color>+<color=#00CCFF>看样子他们在这里蹲了不少时间，身上都臭了。</color>
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:在哪里！+帕拉蒂斯在哪里！
-()<Speaker></Speaker>||:SOP龇牙咧嘴地一副跃跃欲试的样子。
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:……
-()<Speaker></Speaker>||:听到45的话，玛赫莲肉眼可见地不安了起来。
-()<Speaker>指挥官</Speaker>||:……不会有事的。
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:……我不知道，我的记忆已经兑现了一半了。+你觉得另一半会存在侥幸吗？
-RO635Mod(0)<Speaker>RO635</Speaker>||<SE1>AVG_tele_disconnect</SE1>:指挥官，404发来的坐标已全部确认。
-()<Speaker>指挥官</Speaker>||:好，15，SOP，你们去和404汇合。+在他们强制引爆之前，把所有爆炸物都拆除掉。
-AR15Mod(0)<Speaker>AR15</Speaker>||:……
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:走啦！15！不要因为玛赫莲说的都是真的而生闷气嘛！
-AR15Mod(4)<Speaker>AR15</Speaker>||:我才没有生闷气！+只是有点……难以置信而已！
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:……
-()<Speaker></Speaker>||:玛赫莲揪紧了自己的衣服，额头上渗出了汗水。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官无言地拍了拍她的肩膀。
-()<Speaker>指挥官</Speaker>||:……我不知道你在担心什么。+但是，相信我们。
-NPC-Machlian(5)<Speaker>玛赫莲</Speaker>||:罗宾……
-()<Speaker>指挥官</Speaker>||:玛赫莲抬起了头，似乎想说什么。
-AR15Mod(5)<Speaker>AR15</Speaker>||:指挥官！别落单了！
-()<Speaker>指挥官</Speaker>||:知道了！+……你刚才想说什么？
-NPC-Machlian(5)<Speaker>玛赫莲</Speaker>||:……+……不，什么都没有。
-()<Speaker></Speaker>||:玛赫莲摇了摇头，又恢复了静默的样子。
+()<Speaker></Speaker>||<黑屏2><BIN>167</BIN><SE1>AVG_21Winter_Subway</SE1>:In an underground passage of an old Berlin U-Bahn station.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<BGM>BGM_Room</BGM>:<color=#00CCFF>Yo, Commander.</color>
+UMP45Mod(0)<Speaker>Commander</Speaker><通讯框>||:45, how are things?
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>Scared the crap out of me.</color> +<color=#00CCFF>Turns out it WAS real. 9 and I found lots of explosives, enough to bring the whole place down.</color> +<color=#00CCFF>I've recorded the locations; I'll send them to you afterwards.</color>
+UMP45Mod(0)<Speaker>Commander</Speaker><通讯框>||:...Got it. +The AR Team and I have arrived, we're going to defuse them right now.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>Be careful.</color> +<color=#00CCFF>Gr G11 and 416 found lots of those White Faction soldiers.</color> +<color=#00CCFF>Looks like they've been waiting there for a long time, because they stink.</color>
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:There they are! +The Paradeus forces are over there!
+()<Speaker></Speaker>||:SOP-II bares her teeth, eager to be let off the leash.
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:...
+()<Speaker></Speaker>||:Machlian looks visibly uneasy hearing UMP45's report.
+()<Speaker>Commander</Speaker>||:...It'll be fine.
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:...I don't know. Half of my memories have already come to pass. +Do you think we'll get lucky with the other half?
+RO635Mod(0)<Speaker>RO635</Speaker>||<SE1>AVG_tele_disconnect</SE1>:Commander, we've verified all the coordinates 404 sent us.
+()<Speaker>Commander</Speaker>||:15, SOP-II, go link up with 404. +Defuse all the explosives before they manually trigger the detonation.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:...
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Come on, 15, let's go! Don't get all mopey because Machlian turned out to be telling the truth!
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||:I am NOT moping! +I'm just...finding it hard to believe all this!
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:...
+()<Speaker></Speaker>||:Machlian grips the corners of her clothes as her forehead grows clammy with perspiration.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander pats her shoulder without saying a word.
+()<Speaker>Commander</Speaker>||:...I don't know what you're worried about. +Still, have some faith in us.
+NPC-Machlian(5)<Speaker>Machlian</Speaker>||:Robin...
+()<Speaker>Commander</Speaker>||:Machlian lifts her head, as though she wants to say something.
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:Commander, don't fall behind!
+()<Speaker>Commander</Speaker>||:Got it! +...You were about to say something?
+NPC-Machlian(5)<Speaker>Machlian</Speaker>||:... +...No, it's nothing.
+()<Speaker></Speaker>||:Machlian shakes her head and goes back to her quiet self.
 ()||<黑点1>:
-UMP9Mod(0)<Speaker>UMP9</Speaker>||<黑点2><BGM>BGM_Empty</BGM><SE1>AVG_keyboardtype_sci</SE1>:哟！这就是最后一个了！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:这样这边就安全了。
-()<Speaker>指挥官</Speaker>||:很好，辛苦了，404的各位。
-G11Mod(0)<Speaker>G11</Speaker>||<震屏3><BGM>BGM_War</BGM>:<Size=55>干什么啊！打起精神来啊！指挥官！</Size>+<Size=55>拖拖沓沓的像什么样子！</Size>
-()<Speaker>指挥官</Speaker>||:……G11是这种人形来着吗？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:416，拔掉。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Error</SE1>:416白了45一眼，抬手拔掉了G11身上的插头。
-G11Mod(0)<Speaker>G11</Speaker>||:呜欸——Zzzzzzzzz。
-HK416Mod(0)<Speaker>HK416</Speaker>||:刚才我们和帕拉蒂斯发生了交火。+剩下的地点如果有类似的情况，那肯定也会有留守的士兵。
-HK416Mod(0)<Speaker>指挥官</Speaker>||:但是狮鹫小队目前还没有联络我。+如果发生了交火，我会第一时间收到通知的。
-HK416Mod(0)<Speaker>HK416</Speaker>||:我只是提醒你一下，如果没有当然是最好了。
-HK416Mod(0)<Speaker>指挥官</Speaker>||:嗯，谢谢你，416。
-HK416Mod(0)<Speaker>HK416</Speaker>||:……
-()<Speaker></Speaker>||:416别过了视线，正好看向了一脸不安的玛赫莲。
-HK416Mod(0)<Speaker>HK416</Speaker>||:你怎么了？
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:……还有一个。
-NPC-Machlian(6)<Speaker>指挥官</Speaker>||<BGM>BGM_Brain</BGM>:什么？
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:还有一个炸弹。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:不可能。+这一块我们都仔细检查过了。+小姐，你是怀疑我们的业务能力吗？
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:在狭窄的管道里。
-()<Speaker></Speaker>||:玛赫莲求助一般地看向了指挥官。
-NPC-Machlian(6)<Speaker>玛赫莲</Speaker>||:相信我！
-()<Speaker>指挥官</Speaker>||:……去看看吧。+抱歉，45，如果没有的话，我会补偿你的。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:……哼，给我做好心理准备吧。+我可是会狮子大开口的。
+UMP9Mod(0)<Speaker>UMP9</Speaker>||<黑点2><BGM>BGM_Empty</BGM><SE1>AVG_keyboardtype_sci</SE1>:Hup! This is the last one!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Now this side is secure.
+()<Speaker>Commander</Speaker>||:Very good. Well done, 404.
+G11Mod(0)<Speaker>Gr G11</Speaker>||<震屏3><BGM>BGM_War</BGM>:<Size=55>What the hell! Pull yourself together, Commander!</Size>+<Size=55>Why are you dragging your feet?!</Size>
+()<Speaker>Commander</Speaker>||:...Has Gr G11 always been like this?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:416, unplug her.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Error</SE1>:416 rolls her eyes at 45 and pulls out the plug connected to Gr G11's body.
+G11Mod(0)<Speaker>Gr G11</Speaker>||:Ehhh... (Snores)
+HK416Mod(0)<Speaker>416</Speaker>||:We just exchanged fire with Paradeus. +If this metro station is any indication, they'll probably have forces guarding the other locations too.
+HK416Mod(0)<Speaker>Commander</Speaker>||:But Squad Griffin hasn't contacted me yet. +If they've engaged Paradeus, I'll be the first to know.
+HK416Mod(0)<Speaker>416</Speaker>||:Just pointing out a possibility. Obviously, it would be best if the other locations aren't defended.
+HK416Mod(0)<Speaker>Commander</Speaker>||:You're right. Thanks, 416.
+HK416Mod(0)<Speaker>416</Speaker>||:...
+()<Speaker></Speaker>||:416 looks away and notices the evident unease on Machlian's face.
+HK416Mod(0)<Speaker>416</Speaker>||:What's with you?
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:...There's one more.
+NPC-Machlian(6)<Speaker>Commander</Speaker>||<BGM>BGM_Brain</BGM>:What?
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:There's one more bomb.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:That's impossible. +We've checked the entire area carefully. +Are you questioning our competence, young lady?
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:It's in the narrow pipe.
+()<Speaker></Speaker>||:Machlian shoots the Commander a pleading look.
+NPC-Machlian(6)<Speaker>Machlian</Speaker>||:Please believe me!
+()<Speaker>Commander</Speaker>||:...Go take a look. +I'm sorry, 45. I'll make it up to you if there's nothing there.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:...Humph, you'd better prepare yourself. I'm going to soak the hell out of you.
 ()||<黑点1>:
-UMP9Mod(4)<Speaker>UMP9</Speaker>||<黑点2>:呜哇……真，真的有欸！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:啧……信号干扰器。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:45捏着手里精致的小型装置，脸色十分难看。+9小心地将爆炸物从狭窄的管道内取出，有惊无险地将引线拆除。
-AR15Mod(0)<Speaker>AR15</Speaker>||:你怎么知道的？
-()<Speaker></Speaker>||:而AR15看着玛赫莲，脸上的敌意都快要溢出来了。
-NPC-Machlian(5)<Speaker>玛赫莲</Speaker>||:我不知道，只是……
-()<Speaker></Speaker>||:玛赫莲咬了咬嘴唇。
-NPC-Machlian(5)<Speaker>玛赫莲</Speaker>||:在你们准备离开的时候，我突然就有这种感觉。
-AR15Mod(4)<Speaker>AR15</Speaker>||:呵，是吗？+感觉啊，这词真好用。
-()<Speaker></Speaker>||:AR15不依不饶地一脸讥讽，但这次却没有人阻止她。+RO和SOP也有些惊讶地看着玛赫莲，这样的事情的确有些让人匪夷所思。
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:或许是见到实际的情景。+让她的记忆复苏了一些吧。+这不就是你想要的结果吗？指挥官？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:但还好这位小姐最后还是选择帮了我们一把啊。+否则我的招牌都得砸了。
-UMP9Mod(3)<Speaker>UMP9</Speaker>||:已经砸了吧……
-UMP9Mod(2)<Speaker>UMP9</Speaker><Shake>0.1</Shake>||<震屏3><SE1>AVG_Punch_Hit</SE1>:痛！
-()<Speaker>指挥官</Speaker>||:别说了，15。+如果这里发生爆炸，会有很多人被卷进事故里。+……玛赫莲不是在帮我们。
-NPC-Machlian(5)<Speaker>玛赫莲</Speaker>||:……
-()<Speaker></Speaker>||:玛赫莲一言不发，指挥官也只得摇了摇头。
-()<Speaker>指挥官</Speaker>||:走吧，我们到隔离墙那边去。+狮鹫小队可能也需要支援。
-RO635Mod(0)<Speaker>RO635</Speaker>||:明白。
-()<Speaker></Speaker>||:……
-()||<黑屏1>:
+UMP9Mod(4)<Speaker>UMP9</Speaker>||<黑点2>:Wow... Th-There really IS something in here!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Tsk... There's a signal jammer.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:45 holds up a small, intricate device glumly. +9 cautiously extracts the explosives from the narrow pipe and manages to disarm it without any difficulty.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:How did you know?
+()<Speaker></Speaker>||:Meanwhile, ST AR-15 eyes Machlian with undisguised hostility.
+NPC-Machlian(5)<Speaker>Machlian</Speaker>||:I don't know, I just...
+()<Speaker></Speaker>||:Machlian bites her lip.
+NPC-Machlian(5)<Speaker>Machlian</Speaker>||:While you were preparing to leave, I had a weird hunch.
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||:Huh, really now? +A hunch. Now that's convenient.
+()<Speaker></Speaker>||:ST AR-15 doesn't hold back on the sarcasm, but this time, nobody stops her. +RO and SOP-II stare at Machlian in surprise. After all, such a thing is quite hard to believe.
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:Maybe it happened because she saw the actual location. +It helped refresh her memory or something. +Isn't this the outcome you wanted, Commander?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Well, good thing this little lady did us a favor in the end. +Otherwise, our reputation would have been ruined.
+UMP9Mod(3)<Speaker>UMP9</Speaker>||:It already is...
+UMP9Mod(2)<Speaker>UMP9</Speaker><Shake>0.1</Shake>||<震屏3><SE1>AVG_Punch_Hit</SE1>:Ow!
+()<Speaker>Commander</Speaker>||:That's enough, 15. +If there really had been an explosion here, many people would have been caught up in it. +...Machlian isn't only helping just us.
+NPC-Machlian(5)<Speaker>Machlian</Speaker>||:...
+()<Speaker></Speaker>||:Machlian says nothing, and the Commander can only shake their head.
+()<Speaker>Commander</Speaker>||:Let's go, we're heading over to the quarantine wall. +Squad Griffin might need backup.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Got it.
+()<Speaker></Speaker>||:...
+()||<黑屏1>:

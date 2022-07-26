@@ -1,75 +1,75 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>315</BIN><BGM>10230</BGM><SE1>Explode</SE1><震屏3>:轰——！
-NPC-Keven(2)<Speaker>J</Speaker>||:要死要死要死……+什么鬼啊！她们可以这么嚣张的吗！+这里可是柏林市区啊！
-()<Speaker></Speaker>||:对方派出的人手已经远远超出了J的预料，依靠疗养院自身的安保力量与斯塔西的人手，也只能堪堪将涅托拦在门外。+他考虑过很多种情况，但不论如何都想不到对方居然真的敢从正面压过来！+只要坚持到援军赶到，剿灭这些家伙根本不费吹灰之力——但是很明显，对方也很清楚这一点。
-()<Speaker></Speaker>||:尽管J已经很努力地强调过危险性，但疗养院依旧拒绝转移包括雷奥妮在内的任何病人。+换言之，此时这栋建筑内还有大量平民和护工存在，自己手头的力量根本没办法顾及到所有人。
-NPC-Keven(2)<Speaker>J</Speaker>||:想想办法……想想办法……
-()<Speaker></Speaker>||:J喃喃自语着，汗水从额头上渗出。+要是莱特在这里的话……
-()<Speaker>莱特</Speaker>||:——全员突击！
-NPC-Keven(2)<Speaker>J</Speaker><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM>:……嗯！？
-()<Speaker></Speaker>||:就在J已经开始自暴自弃的时候，熟悉的声音忽然自帕拉蒂斯的侧翼响起。
-NPC-Ange(4)<Speaker>安洁</Speaker>||<BGM>10118</BGM>:15！
-AK15(2)<Speaker>AK15</Speaker>||:了解！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:J的脑袋刚探出掩体，便看见一道银蛇刺入了帕拉蒂斯小队的中枢。
-Nyto(1)<Speaker>涅托</Speaker>||:……！
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1>:黑与白碰撞的瞬间，一只强而有力的手臂掐住了涅托的喉咙，随即将其猛砸在地上。
-Nyto(1)<Speaker>涅托</Speaker>||:咕——！
-NPC-Light(1)<Speaker>莱特</Speaker>||:前辈！
-NPC-Keven(2)<Speaker>J</Speaker>||:什么……啊！我知道了！
-NPC-Keven(2)<Speaker>J</Speaker>||<SE1>AVG_tele_connect</SE1>:A小组B小组！+给我压上去！
-()<Speaker></Speaker>||:……+……+……
+()<Speaker></Speaker>||<黑屏2><BIN>315</BIN><BGM>10230</BGM><SE1>Explode</SE1><震屏3>:Boom!
+NPC-Keven(2)<Speaker>J</Speaker>||:Dammit dammit dammit... +What the hell?! The audacity! +We're smack in the center of Berlin!
+()<Speaker></Speaker>||:The enemy has deployed a far larger force than J had anticipated. The combined forces of sanatorium's own security team and the Stasi are barely enough to keep the Nyto from breaking through the door. +He had considered many possible scenarios, but he never thought they would just bulldoze their way in! +If reinforcements make it here in time, taking out these intruders will be a piece of cake—but the enemy is obviously also aware of that.
+()<Speaker></Speaker>||:Even though J had tried his utmost to inform the sanatorium of the potential threat, the institution refused to transfer any of their patients, including Leone. +In other words, right now there are a lot of civilians and caretakers inside this building, and he simply does not have the manpower to keep everyone safe.
+NPC-Keven(2)<Speaker>J</Speaker>||:I need to figure out something...anything...
+()<Speaker></Speaker>||:J mutters as his forehead becomes clammy with perspiration. +If only Light were here... 
+()<Speaker>Light</Speaker>||:Full-scale attack!
+NPC-Keven(2)<Speaker>J</Speaker><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM>:...Hm?!
+()<Speaker></Speaker>||:Just as J is on the verge of despair, a familiar voice shouts from Paradeus' flank.
+NPC-Ange(4)<Speaker>Ange</Speaker>||<BGM>10118</BGM>:15!
+AK15(2)<Speaker>AK-15</Speaker>||:Roger!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:J peers out from behind his cover and sees a silvery figure snaking its way into the heart of the Paradeus force.
+Nyto(1)<Speaker>Nyto</Speaker>||:...!
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1>:As black and white collide, a powerful arm grips the Nyto by the throat and smashes her into the ground.
+Nyto(1)<Speaker>Nyto</Speaker>||:Gah!
+NPC-Light(1)<Speaker>Light</Speaker>||:J!
+NPC-Keven(2)<Speaker>J</Speaker>||:What... Oh, got it!
+NPC-Keven(2)<Speaker>J</Speaker>||<SE1>AVG_tele_connect</SE1>:Group A, Group B! +Get in there!
+()<Speaker></Speaker>||:... +... +...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:在安洁与莱特介入战场之后，帕拉蒂斯的攻势被迅速遏制了。+也是这时，J才发现，除却带队的涅托之外，剩余的只是携带了高科技武器的人类士兵。+并且……
-NPC-Keven(1)<Speaker>J</Speaker>||:……全都死了。
-AK15(0)<Speaker>AK15</Speaker>||:涅托也断气了。
-NPC-Ange(7)<Speaker>安洁</Speaker>||:服用了定时生效的毒药。+不论成不成功，他们都会死在这里……可以辨认身份吗？
-AN94(0)<Speaker>AN94</Speaker>||:所有人都被毁容了，指纹也无法提取。+我采了每个人的DNA，数据之后传给莱特先生。
-NPC-Light(0)<Speaker>莱特</Speaker>||:收到，前辈，麻烦您去和局里的数据库进行比对。
-NPC-Light(2)<Speaker>莱特</Speaker>||<BGM>BGM_Empty</BGM>:……前辈？
-NPC-Keven(1)<Speaker>J</Speaker>||:你……你小子……
-NPC-Light(2)<Speaker>莱特</Speaker>||:呃……
-NPC-Keven(2)<Speaker>J</Speaker>||<BGM>m_avg_casual</BGM><SE1>AVG_Punch_Hit</SE1>:“麻烦你去比对？”+你有其他话要跟我解释一下吧！
-NPC-Light(2)<Speaker>莱特</Speaker>;NPC-Keven(2)||:抱，抱歉……我没想瞒着您的……
-NPC-Ange(7)<Speaker>安洁</Speaker>;NPC-Keven(2)||:是我让他保密的。+……效果很不错，不是么？
-NPC-Ange(7);NPC-Keven(2)<Speaker>J</Speaker>||:你最好给我说清楚。
-NPC-Ange(7)<Speaker>安洁</Speaker>;NPC-Keven(2)||:你也看到了，帕拉蒂斯这次是真的急眼了。+对我下手的时候，她们多少还知道要回避被发现的风险。+但是这次，因为我们知道她们的目标，早有准备，所以暗杀那套行不通了。+就只能冒险这样硬来。+他们的人手经过计算，不多不少，刚刚好是能够压制你的水平。
-NPC-Light(3)<Speaker>莱特</Speaker>;NPC-Keven(2)||:而我作为奇兵出现的时候，事情就完全超出他们的预想之外了。
-NPC-Light(3);NPC-Keven(2)<Speaker>J</Speaker>||:等等，所以你那时候是怎么跑出来的？
-NPC-Light(3)<Speaker>莱特</Speaker>;NPC-Keven(2)||:……在安洁小姐安全脱离之后，刺客们就已经在撤退了。+但我当时扭了脚，没法脱身。
-NPC-Light(2)<Speaker>莱特</Speaker>;NPC-Keven(2)||:是AK12小姐……
-NPC-Light(2);NPC-Keven(1)<Speaker>J</Speaker>||:……是吗？是雪狼小姐啊。+等她重载之后，记得提醒我请她喝一杯。
-NPC-Ange(7)<Speaker>安洁</Speaker>;NPC-Keven(1)||:别说废话了，没有那么多时间给你闲聊。+把涅托的尸体拉走，这是很重要的线索。+……雷奥妮呢？
-NPC-Ange(7);NPC-Keven(1)<Speaker>J</Speaker>||:你家的银狐小姐看着她呢。
-NPC-Ange(7)<Speaker>安洁</Speaker>;NPC-Keven(1)||:所以我在问你，她们人呢？
-NPC-Keven(1)<Speaker>J</Speaker>||:……咦？
-()<Speaker></Speaker>||:J回头看了看，又在周围扫视了一圈。
-NPC-Keven(2)<Speaker>J</Speaker>||:怪了，她不是在原地留守着吗？
-AN94(2)<Speaker>AN94</Speaker>||:安，安洁！
-NPC-Ange(7)<Speaker>安洁</Speaker>||:怎么了？
-AN94(2)<Speaker>AN94</Speaker>||:是RPK！
-RPK16(3)<Speaker>RPK16</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>……安洁。</color>
-NPC-Ange(7)<Speaker>安洁</Speaker>;RPK16(3)<通讯框>||:怎么了？你人在哪？雷奥妮呢？
-NPC-Ange(7);RPK16(3)<Speaker>RPK16</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>抱歉。</color>
-NPC-Ange(7)<Speaker>安洁</Speaker>||:……什么？
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<黑点2>:With Ange and Light's intervention, Paradeus' attack is subdued in a matter of seconds. +Only then does J realize that other than the leading Nyto, the assault force is made up entirely of human soldiers armed with high-tech weapons. +Also...
+NPC-Keven(1)<Speaker>J</Speaker>||:...They're all dead.
+AK15(0)<Speaker>AK-15</Speaker>||:The Nyto also stopped breathing.
+NPC-Ange(7)<Speaker>Ange</Speaker>||:They ingested delayed-action poison. +Whether they succeed or not, they'd die here... Can they be identified?
+AN94(0)<Speaker>AN-94</Speaker>||:They have all been disfigured, and I'm not getting any fingerprints. +I've extracted DNA samples from each of them. I'll send the data over to Mr. Light in a moment.
+NPC-Light(0)<Speaker>Light</Speaker>||:I got them. J, please cross-check these with what we have in the Stasi database.
+NPC-Light(2)<Speaker>Light</Speaker>||<BGM>BGM_Empty</BGM>:...J?
+NPC-Keven(1)<Speaker>J</Speaker>||:You...little piece of...
+NPC-Light(2)<Speaker>Light</Speaker>||:Uh...
+NPC-Keven(2)<Speaker>J</Speaker>||<BGM>m_avg_casual</BGM><SE1>AVG_Punch_Hit</SE1>:"Please cross-check the data"?! +You owe me an explanation here!
+NPC-Light(2)<Speaker>Light</Speaker>;NPC-Keven(2)||:S-Sorry... I didn't want to keep you in the dark...
+NPC-Ange(7)<Speaker>Ange</Speaker>;NPC-Keven(2)||:I told him to keep it a secret. +...Worked pretty well, didn't it?
+NPC-Ange(7);NPC-Keven(2)<Speaker>J</Speaker>||:You'd better explain yourself.
+NPC-Ange(7)<Speaker>Ange</Speaker>;NPC-Keven(2)||:As you can see, Paradeus is getting desperate. +When they tried to assassinate me, they knew they had to avoid being discovered. +But this time, because we already knew their target and were well-prepared, assassination wasn't going to work. +So they had to risk it and take a more direct approach. +They sent a force just large enough to overpower you—no more, no less.
+NPC-Light(3)<Speaker>Light</Speaker>;NPC-Keven(2)||:And when I ambushed them out of the blue, things got completely out of hand for them.
+NPC-Light(3);NPC-Keven(2)<Speaker>J</Speaker>||:Wait, so when did you escape from the fire?
+NPC-Light(3)<Speaker>Light</Speaker>;NPC-Keven(2)||:...Once Miss Ange had fled, the assassins retreated. +But I couldn't get out with my twisted ankle.
+NPC-Light(2)<Speaker>Light</Speaker>;NPC-Keven(2)||:It was Miss AK-12...
+NPC-Light(2);NPC-Keven(1)<Speaker>J</Speaker>||:...I see, so it's all thanks to Miss Snow Wolf. +When she gets downloaded into a new body, remind me to buy her a drink.
+NPC-Ange(7)<Speaker>Ange</Speaker>;NPC-Keven(1)||:Enough chit-chat. We're on a tight schedule here. +Take the Nyto's corpse away. It's importance evidence. +...Where's Leone?
+NPC-Ange(7);NPC-Keven(1)<Speaker>J</Speaker>||:Your Silver Fox is watching her.
+NPC-Ange(7)<Speaker>Ange</Speaker>;NPC-Keven(1)||:So where are they?
+NPC-Keven(1)<Speaker>J</Speaker>||:...Huh?
+()<Speaker></Speaker>||:J turns around and scans the surroundings.
+NPC-Keven(2)<Speaker>J</Speaker>||:That's strange, wasn't she guarding the ward?
+AN94(2)<Speaker>AN-94</Speaker>||:A-Ange!
+NPC-Ange(7)<Speaker>Ange</Speaker>||:What is it?
+AN94(2)<Speaker>AN-94</Speaker>||:It's RPK!
+RPK16(3)<Speaker>RPK-16</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>...Ange.</color>
+NPC-Ange(7)<Speaker>Ange</Speaker>;RPK16(3)<通讯框>||:What happened? Where are you? Is Leone safe?
+NPC-Ange(7);RPK16(3)<Speaker>RPK-16</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>I'm sorry.</color>
+NPC-Ange(7)<Speaker>Ange</Speaker>||:...What?
+()<Speaker></Speaker>||:...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>167</BIN>:地下通道。
-()<Speaker></Speaker>||:等到安洁赶到现场的时候，只能看到一片狼藉的现场。+RPK16手扶着枪，蹲在地上，脸上的表情并不好看。
-NPC-Ange(7)<Speaker>安洁</Speaker>||:……！
+()<Speaker></Speaker>||<黑点2><BIN>167</BIN>:In the underground tunnel.
+()<Speaker></Speaker>||:Ange arrives at the scene, only to find it in total shambles. +RPK-16 is sitting stooped on the floor, leaning heavily on her gun and looking very bleak.
+NPC-Ange(7)<Speaker>Ange</Speaker>||:...!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>329</BIN><黑屏2>:雷奥妮的身体毫无生气地靠在墙上，溅射在墙壁上的血迹就像翅膀一样在她的身后张开。+站在楼梯上，安洁看不见雷奥妮低垂的脸，只有几滴落下的血珠能够进入她的视野。
-()<Speaker></Speaker>||:飞蛾在灯光下飞舞，闪烁的光影摇曳着照射在那具美丽的身体上。
-()<Speaker></Speaker>||:雷奥妮死了。
-()<Speaker>AK15</Speaker>||:……发生什么事了？
-()<Speaker>RPK16</Speaker>||:我们被袭击了……是白色的涅托。
-()<Speaker>AN94</Speaker>||:白色涅托？
-()<Speaker></Speaker>||:安洁一言不发地走下了楼梯，凑到雷奥妮的身体旁，蹲下了身子。+雷奥妮总是因畏惧而颤抖的睫毛此时一动不动，眼眸中已然完全丧失了灵魂。+咽喉处狰狞的伤口毫无疑问是白刃所致，安洁的脑中一下浮现出了白色的涅托挥舞着的巨大镰刀。
-()<Speaker>RPK16</Speaker>||:……+……至少现在她不会再为任何事担惊受怕了。
+()<Speaker></Speaker>||<BIN>329</BIN><黑屏2>:Leone's lifeless body is slumped against the wall, splashes of blood unfurl behind her like wings. +From the stairs, Ange cannot see her face except for the beads of blood dripping down from her drooped head.
+()<Speaker></Speaker>||:Moths dance around the light, casting fluttery shadows on the tragically beautiful corpse.
+()<Speaker></Speaker>||:Leone is dead.
+()<Speaker>AK-15</Speaker>||:...How did this happen?
+()<Speaker>RPK-16</Speaker>||:We were ambushed... It was a white Nyto.
+()<Speaker>AN-94</Speaker>||:A white Nyto?
+()<Speaker></Speaker>||:Ange walks down the stairs wordlessly and kneels down next to Leone. +Leone's eyelashes, which were always trembling with fear, have grown still, and her eyes are now completely dull and soulless. +The ghastly wound across her throat was no doubt inflicted by a sharp blade. Ange can't help but picture a white Nyto brandishing a large scythe.
+()<Speaker>RPK-16</Speaker>||:... +...At least she never has to be fearful of anything ever again.
 ()||<黑屏1>:
-()<Speaker>安洁</Speaker>||<黑屏2><BIN>9</BIN>:我答应过……
-()<Speaker>RPK16</Speaker>||:嗯？
-()<Speaker>安洁</Speaker>||<SE1>Heartbeat</SE1><common_effect>%%code=AVG_ink4%%</common_effect>:我答应了……要保护她的安全的。
+()<Speaker>Ange</Speaker>||<黑屏2><BIN>9</BIN>:I promised her...
+()<Speaker>RPK-16</Speaker>||:Hm?
+()<Speaker>Ange</Speaker>||<SE1>Heartbeat</SE1><common_effect>%%code=AVG_ink4%%</common_effect>:I promised...I'd keep her safe.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>167</BIN>:不甘心地握了握拳，安洁伸手替雷奥妮闭上了眼睛。+她这次……也还是什么都没保护住。
-()<Speaker></Speaker>||:……
-()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>167</BIN>:Ange clenches her fists in bitterness. She reaches out to close Leone's eyes. +This time...she didn't manage to protect anyone either.
+()<Speaker></Speaker>||:...
+()||<黑屏1>:

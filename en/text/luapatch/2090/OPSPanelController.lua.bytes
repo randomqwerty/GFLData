@@ -143,7 +143,11 @@ local OpenRuler = function(self)
 end
 local ShowItemRuler = function(self)
 	if self.specialItemObj~= nil and not self.specialItemObj:isNull() then
-		local txt = self.specialItemObj.transform:Find("MissionItems/Btn_Rule/URL"):GetComponent(typeof(CS.ExText));
+		local txtUrl = self.specialItemObj.transform:Find("MissionItems/Btn_Rule/URL");
+		if txtUrl == nil then
+			return;
+		end
+		local txt = txtUrl:GetComponent(typeof(CS.ExText));
 		if not CS.System.String.IsNullOrEmpty(txt.text) then
 			self:OpenAnnouncement(txt.text);
 			return;
@@ -666,6 +670,9 @@ function CloseMissionPanel()
 end
 
 function ShowMissionPanel()--显示关卡界面
+	if OPSPanelMissionBase.CurrentMissionId == 0 then
+		return;
+	end
 	if OPSPanelMissionBase.currentMissionInfo == nil then
 		print("missioninfolist缺少"..OPSPanelMissionBase.CurrentMissionId);
 		CS.CommonController.LightMessageTips(CS.Data.GetLang(100045));
@@ -953,7 +960,7 @@ function RefreshVotoBoxUI()
 	end
 	--print(votoNum);
 	local txt1 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(votoNum);	
-	txtTitle.text=tostring(CS.System.String.Format(CS.Data.GetLang(60312),txt1,txt0));
+	txtTitle.text=tostring(CS.System.String.Format(CS.Data.GetLang(60312),txt0,txt1));
 	local txtShowNum = votobox.transform:Find("Main/InputField/PlaceHolder"):GetComponent(typeof(CS.ExText));
 	txtShowNum.text = tostring(votoNum).."/"..tostring(CS.GameData.GetItem(itemid));
 	local txt2 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(CS.GameData.GetItem(itemid));		
