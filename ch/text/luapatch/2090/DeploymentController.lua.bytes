@@ -146,6 +146,10 @@ local CheckUIOneLayer = function(self)
 	CS.GameData.missionAction.queueSpotTeamCapture:Clear();
 	CS.GameData.missionAction.queueSpotSurroundCapture:Clear();
 end
+local RequestStartMission = function(self)
+	self:RequestStartMission();
+	CS.DeploymentController.hasTeamTraning = false;
+end
 util.hotfix_ex(CS.DeploymentController,'RequestNoBattleAllyHandle',RequestNoBattleAllyHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerSelectTeam',TriggerSelectTeam)
 util.hotfix_ex(CS.DeploymentController,'get_CanPlayerAction',CanPlayerAction)
@@ -158,5 +162,6 @@ util.hotfix_ex(CS.DeploymentController,'GoToBattleScene',GoToBattleScene)
 util.hotfix_ex(CS.DeploymentController,'RequestStartThirdAllyTeamTurnHandle',RequestStartThirdAllyTeamTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'CheckUIOneLayer',CheckUIOneLayer)
+util.hotfix_ex(CS.DeploymentController,'RequestStartMission',RequestStartMission)
 
 
