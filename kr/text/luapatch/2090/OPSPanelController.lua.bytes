@@ -143,7 +143,11 @@ local OpenRuler = function(self)
 end
 local ShowItemRuler = function(self)
 	if self.specialItemObj~= nil and not self.specialItemObj:isNull() then
-		local txt = self.specialItemObj.transform:Find("MissionItems/Btn_Rule/URL"):GetComponent(typeof(CS.ExText));
+		local txtUrl = self.specialItemObj.transform:Find("MissionItems/Btn_Rule/URL");
+		if txtUrl == nil then
+			return;
+		end
+		local txt = txtUrl:GetComponent(typeof(CS.ExText));
 		if not CS.System.String.IsNullOrEmpty(txt.text) then
 			self:OpenAnnouncement(txt.text);
 			return;
@@ -243,23 +247,23 @@ end
 
 
 opsControl=nil;
-local gunCode = {"M1903_36_1107_60314_60315",
-	"WA2000_48_1108_60316_60317",
-	"FN49_51_4709_60318_60319",
-	"NTW20_53_1101_60320_60321",
-	"G41_62_2401_60322_60323",
-	"G36_64_2407_60324_60325",
-	"FNFAL_106_2406_60326_60327",
-	"95type_129_1102_60328_60329",
-	"FN57_142_1109_60330_60331",
-	"G28_146_1104_60332_60333",
-	"AA12_163_2403_60334_60335",
-	"CBJMS_213_3503_60336_60337",
-	"UKM2000_254_6106_60338_60339",
-	"4type_270_3505_60340_60341",
-	"DP12_282_6102_60342_60343",
-	"KAC_286_4706_60344_60345",
-	"PPD40_336_6105_60346_60347"}
+local gunCode = {"M1903_36_1107_60314_60315_60368_1",
+	"WA2000_48_1108_60316_60317_60369_2",
+	"FN49_51_4709_60318_60319_60370_3",
+	"NTW20_53_1101_60320_60321_60371_4",
+	"G41_62_2401_60322_60323_60369_2",
+	"G36_64_2407_60324_60325_60372_5",
+	"FNFAL_106_2406_60326_60327_60373_6",
+	"95type_129_1102_60328_60329_60374_7",
+	"FN57_142_1109_60330_60331_60376_9",
+	"G28_146_1104_60332_60333_60369_2",
+	"AA12_163_2403_60334_60335_60374_7",
+	"CBJMS_213_3503_60336_60337_60375_8",
+	"UKM2000_254_6106_60338_60339_60369_2",
+	"4type_270_3505_60340_60341_60369_2",
+	"DP12_282_6102_60342_60343_60374_7",
+	"KAC_286_4706_60344_60345_60374_7",
+	"PPD40_336_6105_60346_60347_60377_10"}
 voteList = {};
 local votePanel = nil;
 diffcluty = 0;
@@ -339,8 +343,8 @@ function InitData()--数据初始化
 		vodeInfo[7] = tonumber(codes[3]);--skinid	
 		vodeInfo[8] = tonumber(codes[4]);--好人台词id
 		vodeInfo[9] = tonumber(codes[5]);--坏人台词id
-		vodeInfo[10] = "";--身份
-		vodeInfo[11] = 0;--对应图片order
+		vodeInfo[10] = tonumber(codes[6]);--身份
+		vodeInfo[11] = tonumber(codes[7])-1;--对应图片order
 		table.insert(voteList,vodeInfo);
 	end
 end
@@ -762,7 +766,7 @@ function  ShowVotoResult()
 	local pic = CS.CommonController.LoadSmallPic(voteList[1][5],firstpicTrans,CS.UnityEngine.Vector2.zero,voteList[1][7],nil);
 	pic:SwitchDamaged(false);
 	local txtRole = VoteResult.transform:Find("Main/Scroll/List/First/Text_Role"):GetComponent(typeof(CS.ExText));
-	txtRole.text = voteList[1][10];
+	txtRole.text =  CS.Data.GetLang(voteList[1][10]);
 	local imageRole = VoteResult.transform:Find("Main/Scroll/List/First/Img_Role"):GetComponent(typeof(CS.ExImage));
 	local spriteholder = imageRole.transform:GetComponent(typeof(CS.UGUISpriteHolder));
 	imageRole.sprite = spriteholder.listSprite[voteList[1][11]];
@@ -796,9 +800,10 @@ function  ShowVotoResult()
 		txtName1.text = guninfo.name;
 		local good = voteList[i][1];
 		local bad = voteList[i][2];
-
+		local txtRole1 = item:Find("Text_Role"):GetComponent(typeof(CS.ExText));
+		txtRole1.text = CS.Data.GetLang(voteList[i][10]);
 		local imageRole1 = item:Find("Img_Role"):GetComponent(typeof(CS.ExImage));
-		imageRole.sprite = spriteholder.listSprite[voteList[i][11]];
+		imageRole1.sprite = spriteholder.listSprite[voteList[i][11]];
 		local txtTotal =item:Find("Text_TotalVotesNum"):GetComponent(typeof(CS.ExText));
 		txtTotal.text = tostring(good+bad);
 		local txtGood =item:Find("Text_GoodyVotesNum"):GetComponent(typeof(CS.ExText));
@@ -956,7 +961,7 @@ function RefreshVotoBoxUI()
 	end
 	--print(votoNum);
 	local txt1 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(votoNum);	
-	txtTitle.text=tostring(CS.System.String.Format(CS.Data.GetLang(60312),txt1,txt0));
+	txtTitle.text=tostring(CS.System.String.Format(CS.Data.GetLang(60312),txt0,txt1));
 	local txtShowNum = votobox.transform:Find("Main/InputField/PlaceHolder"):GetComponent(typeof(CS.ExText));
 	txtShowNum.text = tostring(votoNum).."/"..tostring(CS.GameData.GetItem(itemid));
 	local txt2 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(CS.GameData.GetItem(itemid));		
