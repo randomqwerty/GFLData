@@ -13,6 +13,14 @@ local sangvisTeam = function(self)
 	return self.sangvisTeam;
 end
 
+local SetHp = function(self,jsonData)
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Japan then
+		self.ally_guns = jsonData:GetValue("ally_guns"):ToJson();
+		self.ally_sangvis = jsonData:GetValue("ally_sangvis"):ToJson();
+	end
+	self:SetHp(jsonData);
+end
 util.hotfix_ex(CS.AllyTeam,'get_sangvisTeam',sangvisTeam)
+util.hotfix_ex(CS.AllyTeam,'SetHp',SetHp)
 
 
