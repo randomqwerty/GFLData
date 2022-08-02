@@ -1032,7 +1032,9 @@ function ShowVoto()--显示立绘列表界面
 		local btnBack = votePanel.transform:Find("Top/Btn_Back"):GetComponent(typeof(CS.ExButton));
 		btnBack:AddOnClick(CloseVoto);	
 		local btnTip = votePanel.transform:Find("GunList/Btn_Tips"):GetComponent(typeof(CS.ExButton));
+		local txtNoteTip = votePanel.transform:Find("GunList/Btn_Tips/Text_Tips"):GetComponent(typeof(CS.ExText));
 		local txtTip = votePanel.transform:Find("GunList/Btn_Tips/URL"):GetComponent(typeof(CS.ExText));
+		txtNoteTip.text = CS.Data.GetLang(60349);
 		btnTip:AddOnClick(function()
 			opsControl:OpenAnnouncement(txtTip.text);
 			--CS.CommonController.ShowRuleBox(CS.Data.GetLang(60368),opsControl.transform);	
