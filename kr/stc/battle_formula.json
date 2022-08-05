@@ -2681,43 +2681,43 @@
   },
   {
     "id": 1761,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.12>@pow*50?@pow*50:#maxlife*0.12+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.12>@pow*50?@pow*50+$1:#maxlife*0.12+$1)"
   },
   {
     "id": 1762,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.13>@pow*50?@pow*50:#maxlife*0.13+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.13>@pow*50?@pow*50+$1:#maxlife*0.13+$1)"
   },
   {
     "id": 1763,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.14>@pow*50?@pow*50:#maxlife*0.14+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.14>@pow*50?@pow*50+$1:#maxlife*0.14+$1)"
   },
   {
     "id": 1764,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.15>@pow*50?@pow*50:#maxlife*0.15+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.15>@pow*50?@pow*50+$1:#maxlife*0.15+$1)"
   },
   {
     "id": 1765,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.16>@pow*50?@pow*50:#maxlife*0.16+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.16>@pow*50?@pow*50+$1:#maxlife*0.16+$1)"
   },
   {
     "id": 1766,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.16>@pow*50?@pow*50:#maxlife*0.16+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.16>@pow*50?@pow*50+$1:#maxlife*0.16+$1)"
   },
   {
     "id": 1767,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.17>@pow*50?@pow*50:#maxlife*0.17+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.17>@pow*50?@pow*50+$1:#maxlife*0.17+$1)"
   },
   {
     "id": 1768,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.18>@pow*50?@pow*50:#maxlife*0.18+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.18>@pow*50?@pow*50+$1:#maxlife*0.18+$1)"
   },
   {
     "id": 1769,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.19>@pow*50?@pow*50:#maxlife*0.19+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.19>@pow*50?@pow*50+$1:#maxlife*0.19+$1)"
   },
   {
     "id": 1770,
-    "formula": "(1-#def/#maxdef)*(#maxlife*0.2>@pow*50?@pow*50:#maxlife*0.2+$1)"
+    "formula": "(1-#def/#maxdef)*(#maxlife*0.2>@pow*50?@pow*50+$1:#maxlife*0.2+$1)"
   },
   {
     "id": 1771,
@@ -10165,11 +10165,11 @@
   },
   {
     "id": 13312,
-    "formula": "85-3*sbuffidtier(3604)"
+    "formula": "85-5*sbuffidtier(3604)"
   },
   {
     "id": 13313,
-    "formula": "85-3*sbuffidtier(3604)"
+    "formula": "92.5-2.5*sbuffidtier(3604)"
   },
   {
     "id": 38731,
