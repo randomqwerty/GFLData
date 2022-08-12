@@ -161,6 +161,8 @@ patch2090={
 "2090/FactoryFormulaPreviewTypeHolder",
 "2090/BattleSangvisResultLabelController",
 "2090/FormationEffectItemController",
+"2090/TheaterMissiontSettlement",
+"2090/TheaterCombatSettlementUIController",
 }
 patch3010={
 }

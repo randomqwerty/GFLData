@@ -7969,7 +7969,7 @@
   },
   {
     "id": 4129,
-    "formula": "#pow"
+    "formula": "#pow*100000+#distancex*1000-#life"
   },
   {
     "id": 4130,
@@ -9532,12 +9532,600 @@
     "formula": "sbuffidtier(8272)=0?1:sbuffidtier(8273)>0?0:1"
   },
   {
+    "id": 4564,
+    "formula": "$1<50?0:$1"
+  },
+  {
     "id": 4565,
     "formula": "sbuffidtier(8301)=1?8302:0"
   },
   {
     "id": 4566,
     "formula": "sbuffidtier(8301)=1&@pow>#armor&GetChance(60)?0:1"
+  },
+  {
+    "id": 4567,
+    "formula": "(#maxlife-#life)*100/#maxlife"
+  },
+  {
+    "id": 4568,
+    "formula": "#life*100/#maxlife>20?0:tbuffidtier(8347)=0?0:99999"
+  },
+  {
+    "id": 4569,
+    "formula": "@Maxlife*0.3"
+  },
+  {
+    "id": 4570,
+    "formula": "@Maxlife*0.35"
+  },
+  {
+    "id": 4571,
+    "formula": "@Maxlife*0.4"
+  },
+  {
+    "id": 4572,
+    "formula": "@Maxlife*0.45"
+  },
+  {
+    "id": 4573,
+    "formula": "@Maxlife*0.5"
+  },
+  {
+    "id": 4574,
+    "formula": "getchance(50)?8332:8333"
+  },
+  {
+    "id": 4575,
+    "formula": "((#maxlife-#life)*10000/#maxlife)-#distancex"
+  },
+  {
+    "id": 4576,
+    "formula": "tbuffidtier(8314)=1?8341:8334"
+  },
+  {
+    "id": 4577,
+    "formula": "tbuffidtier(8314)=1?8342:8335"
+  },
+  {
+    "id": 4578,
+    "formula": "@shield>0?0:1"
+  },
+  {
+    "id": 4579,
+    "formula": "sbuffidtier(8338)=1?120:60"
+  },
+  {
+    "id": 4580,
+    "formula": "sbuffidtier(8307)=0?0:1"
+  },
+  {
+    "id": 4581,
+    "formula": "sbuffidtier(8307)=0?0:100"
+  },
+  {
+    "id": 4582,
+    "formula": "#life*100/#maxlife>20?0:tbuffidtier(8347)=0?0:30"
+  },
+  {
+    "id": 4583,
+    "formula": "sbuffidtier(8345)=1?100:70"
+  },
+  {
+    "id": 4584,
+    "formula": "sbuffidtier(8349)<8&sbuffidtier(8349)>5?1:0"
+  },
+  {
+    "id": 4585,
+    "formula": "100-sbuffidtier(8349)*1"
+  },
+  {
+    "id": 4586,
+    "formula": "100-sbuffidtier(8349)*1"
+  },
+  {
+    "id": 4587,
+    "formula": "100-sbuffidtier(8349)*1"
+  },
+  {
+    "id": 4588,
+    "formula": "100-sbuffidtier(8349)*1"
+  },
+  {
+    "id": 4589,
+    "formula": "100-sbuffidtier(8349)*1"
+  },
+  {
+    "id": 4590,
+    "formula": "100-sbuffidtier(8349)*2"
+  },
+  {
+    "id": 4591,
+    "formula": "100-sbuffidtier(8349)*2"
+  },
+  {
+    "id": 4592,
+    "formula": "100-sbuffidtier(8349)*2"
+  },
+  {
+    "id": 4593,
+    "formula": "100-sbuffidtier(8349)*2"
+  },
+  {
+    "id": 4594,
+    "formula": "100-sbuffidtier(8349)*2"
+  },
+  {
+    "id": 4595,
+    "formula": "@maxlife*0.5"
+  },
+  {
+    "id": 4596,
+    "formula": "@maxlife*0.56"
+  },
+  {
+    "id": 4597,
+    "formula": "@maxlife*0.61"
+  },
+  {
+    "id": 4598,
+    "formula": "@maxlife*0.67"
+  },
+  {
+    "id": 4599,
+    "formula": "@maxlife*0.72"
+  },
+  {
+    "id": 4600,
+    "formula": "@maxlife*0.78"
+  },
+  {
+    "id": 4601,
+    "formula": "@maxlife*0.83"
+  },
+  {
+    "id": 4602,
+    "formula": "@maxlife*0.89"
+  },
+  {
+    "id": 4603,
+    "formula": "@maxlife*0.94"
+  },
+  {
+    "id": 4604,
+    "formula": "@maxlife*1"
+  },
+  {
+    "id": 4605,
+    "formula": "@pow*0.5"
+  },
+  {
+    "id": 4606,
+    "formula": "@pow*0.56"
+  },
+  {
+    "id": 4607,
+    "formula": "@pow*0.61"
+  },
+  {
+    "id": 4608,
+    "formula": "@pow*0.67"
+  },
+  {
+    "id": 4609,
+    "formula": "@pow*0.72"
+  },
+  {
+    "id": 4610,
+    "formula": "@pow*0.78"
+  },
+  {
+    "id": 4611,
+    "formula": "@pow*0.83"
+  },
+  {
+    "id": 4612,
+    "formula": "@pow*0.89"
+  },
+  {
+    "id": 4613,
+    "formula": "@pow*0.94"
+  },
+  {
+    "id": 4614,
+    "formula": "@pow*1"
+  },
+  {
+    "id": 4615,
+    "formula": "@hit*0.5"
+  },
+  {
+    "id": 4616,
+    "formula": "@hit*0.56"
+  },
+  {
+    "id": 4617,
+    "formula": "@hit*0.61"
+  },
+  {
+    "id": 4618,
+    "formula": "@hit*0.67"
+  },
+  {
+    "id": 4619,
+    "formula": "@hit*0.72"
+  },
+  {
+    "id": 4620,
+    "formula": "@hit*0.78"
+  },
+  {
+    "id": 4621,
+    "formula": "@hit*0.83"
+  },
+  {
+    "id": 4622,
+    "formula": "@hit*0.89"
+  },
+  {
+    "id": 4623,
+    "formula": "@hit*0.94"
+  },
+  {
+    "id": 4624,
+    "formula": "@hit*1"
+  },
+  {
+    "id": 4625,
+    "formula": "@dodge*0.5"
+  },
+  {
+    "id": 4626,
+    "formula": "@dodge*0.56"
+  },
+  {
+    "id": 4627,
+    "formula": "@dodge*0.61"
+  },
+  {
+    "id": 4628,
+    "formula": "@dodge*0.67"
+  },
+  {
+    "id": 4629,
+    "formula": "@dodge*0.72"
+  },
+  {
+    "id": 4630,
+    "formula": "@dodge*0.78"
+  },
+  {
+    "id": 4631,
+    "formula": "@dodge*0.83"
+  },
+  {
+    "id": 4632,
+    "formula": "@dodge*0.89"
+  },
+  {
+    "id": 4633,
+    "formula": "@dodge*0.94"
+  },
+  {
+    "id": 4634,
+    "formula": "@dodge*1"
+  },
+  {
+    "id": 4635,
+    "formula": "@armor*0.5"
+  },
+  {
+    "id": 4636,
+    "formula": "@armor*0.56"
+  },
+  {
+    "id": 4637,
+    "formula": "@armor*0.61"
+  },
+  {
+    "id": 4638,
+    "formula": "@armor*0.67"
+  },
+  {
+    "id": 4639,
+    "formula": "@armor*0.72"
+  },
+  {
+    "id": 4640,
+    "formula": "@armor*0.78"
+  },
+  {
+    "id": 4641,
+    "formula": "@armor*0.83"
+  },
+  {
+    "id": 4642,
+    "formula": "@armor*0.89"
+  },
+  {
+    "id": 4643,
+    "formula": "@armor*0.94"
+  },
+  {
+    "id": 4644,
+    "formula": "@armor*1"
+  },
+  {
+    "id": 4645,
+    "formula": "@ap*0.5"
+  },
+  {
+    "id": 4646,
+    "formula": "@ap*0.56"
+  },
+  {
+    "id": 4647,
+    "formula": "@ap*0.61"
+  },
+  {
+    "id": 4648,
+    "formula": "@ap*0.67"
+  },
+  {
+    "id": 4649,
+    "formula": "@ap*0.72"
+  },
+  {
+    "id": 4650,
+    "formula": "@ap*0.78"
+  },
+  {
+    "id": 4651,
+    "formula": "@ap*0.83"
+  },
+  {
+    "id": 4652,
+    "formula": "@ap*0.89"
+  },
+  {
+    "id": 4653,
+    "formula": "@ap*0.94"
+  },
+  {
+    "id": 4654,
+    "formula": "@ap*1"
+  },
+  {
+    "id": 4655,
+    "formula": "@Critical*100*0.5"
+  },
+  {
+    "id": 4656,
+    "formula": "@Critical*100*0.56"
+  },
+  {
+    "id": 4657,
+    "formula": "@Critical*100*0.61"
+  },
+  {
+    "id": 4658,
+    "formula": "@Critical*100*0.67"
+  },
+  {
+    "id": 4659,
+    "formula": "@Critical*100*0.72"
+  },
+  {
+    "id": 4660,
+    "formula": "@Critical*100*0.78"
+  },
+  {
+    "id": 4661,
+    "formula": "@Critical*100*0.83"
+  },
+  {
+    "id": 4662,
+    "formula": "@Critical*100*0.89"
+  },
+  {
+    "id": 4663,
+    "formula": "@Critical*100*0.94"
+  },
+  {
+    "id": 4664,
+    "formula": "@Critical*100*1"
+  },
+  {
+    "id": 4665,
+    "formula": "@rate*0.5"
+  },
+  {
+    "id": 4666,
+    "formula": "@rate*0.56"
+  },
+  {
+    "id": 4667,
+    "formula": "@rate*0.61"
+  },
+  {
+    "id": 4668,
+    "formula": "@rate*0.67"
+  },
+  {
+    "id": 4669,
+    "formula": "@rate*0.72"
+  },
+  {
+    "id": 4670,
+    "formula": "@rate*0.78"
+  },
+  {
+    "id": 4671,
+    "formula": "@rate*0.83"
+  },
+  {
+    "id": 4672,
+    "formula": "@rate*0.89"
+  },
+  {
+    "id": 4673,
+    "formula": "@rate*0.94"
+  },
+  {
+    "id": 4674,
+    "formula": "@rate*1"
+  },
+  {
+    "id": 4675,
+    "formula": "@rate>40?1:0"
+  },
+  {
+    "id": 4676,
+    "formula": "sbuffidtier(8318)=1?100:0"
+  },
+  {
+    "id": 4677,
+    "formula": "sbuffidtier(8318)=1?80*@CriticalHurt/100:80"
+  },
+  {
+    "id": 4678,
+    "formula": "sbuffidtier(8318)=1?120*@CriticalHurt/100:120"
+  },
+  {
+    "id": 4679,
+    "formula": "sbuffidtier(8318)=1?160*@CriticalHurt/100:160"
+  },
+  {
+    "id": 4680,
+    "formula": "sbuffidtier(8318)=1?90*@CriticalHurt/100:90"
+  },
+  {
+    "id": 4681,
+    "formula": "sbuffidtier(8318)=1?130*@CriticalHurt/100:130"
+  },
+  {
+    "id": 4682,
+    "formula": "sbuffidtier(8318)=1?170*@CriticalHurt/100:170"
+  },
+  {
+    "id": 4683,
+    "formula": "sbuffidtier(8318)=1?100*@CriticalHurt/100:100"
+  },
+  {
+    "id": 4684,
+    "formula": "sbuffidtier(8318)=1?150*@CriticalHurt/100:150"
+  },
+  {
+    "id": 4685,
+    "formula": "sbuffidtier(8318)=1?200*@CriticalHurt/100:200"
+  },
+  {
+    "id": 4686,
+    "formula": "sbuffidtier(8318)=1?110*@CriticalHurt/100:110"
+  },
+  {
+    "id": 4687,
+    "formula": "sbuffidtier(8318)=1?160*@CriticalHurt/100:160"
+  },
+  {
+    "id": 4688,
+    "formula": "sbuffidtier(8318)=1?210*@CriticalHurt/100:210"
+  },
+  {
+    "id": 4689,
+    "formula": "sbuffidtier(8318)=1?120*@CriticalHurt/100:120"
+  },
+  {
+    "id": 4690,
+    "formula": "sbuffidtier(8318)=1?180*@CriticalHurt/100:180"
+  },
+  {
+    "id": 4691,
+    "formula": "sbuffidtier(8318)=1?240*@CriticalHurt/100:240"
+  },
+  {
+    "id": 4692,
+    "formula": "sbuffidtier(8318)=1?130*@CriticalHurt/100:130"
+  },
+  {
+    "id": 4693,
+    "formula": "sbuffidtier(8318)=1?190*@CriticalHurt/100:190"
+  },
+  {
+    "id": 4694,
+    "formula": "sbuffidtier(8318)=1?250*@CriticalHurt/100:250"
+  },
+  {
+    "id": 4695,
+    "formula": "sbuffidtier(8318)=1?140*@CriticalHurt/100:140"
+  },
+  {
+    "id": 4696,
+    "formula": "sbuffidtier(8318)=1?210*@CriticalHurt/100:210"
+  },
+  {
+    "id": 4697,
+    "formula": "sbuffidtier(8318)=1?280*@CriticalHurt/100:280"
+  },
+  {
+    "id": 4698,
+    "formula": "sbuffidtier(8318)=1?140*@CriticalHurt/100:140"
+  },
+  {
+    "id": 4699,
+    "formula": "sbuffidtier(8318)=1?220*@CriticalHurt/100:220"
+  },
+  {
+    "id": 4700,
+    "formula": "sbuffidtier(8318)=1?300*@CriticalHurt/100:300"
+  },
+  {
+    "id": 4701,
+    "formula": "sbuffidtier(8318)=1?150*@CriticalHurt/100:150"
+  },
+  {
+    "id": 4702,
+    "formula": "sbuffidtier(8318)=1?240*@CriticalHurt/100:240"
+  },
+  {
+    "id": 4703,
+    "formula": "sbuffidtier(8318)=1?330*@CriticalHurt/100:330"
+  },
+  {
+    "id": 4704,
+    "formula": "sbuffidtier(8318)=1?150*@CriticalHurt/100:150"
+  },
+  {
+    "id": 4705,
+    "formula": "sbuffidtier(8318)=1?250*@CriticalHurt/100:250"
+  },
+  {
+    "id": 4706,
+    "formula": "sbuffidtier(8318)=1?350*@CriticalHurt/100:350"
+  },
+  {
+    "id": 4707,
+    "formula": "sbuffidtier(8349)"
+  },
+  {
+    "id": 4708,
+    "formula": "sbuffidtier(8371)=1?60:1"
+  },
+  {
+    "id": 4709,
+    "formula": "sbuffidtier(8370)=1?60:1"
+  },
+  {
+    "id": 4712,
+    "formula": "GetChance(50)?201:204"
+  },
+  {
+    "id": 4713,
+    "formula": "GetChance(50)?202:203"
+  },
+  {
+    "id": 4714,
+    "formula": "GetChance(50)?205:208"
   },
   {
     "id": 6000,
