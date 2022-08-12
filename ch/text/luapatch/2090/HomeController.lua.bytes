@@ -86,7 +86,8 @@ function EnterOPS()
 	if opsEnterTime<CS.GameData.GetCurrentTimeStamp() then
 		CS.OPSConfig.Instance:GoToScene(-52);
 	else
-		local time = CS.GameData.UnixToMonthDayString(opsEnterTime);
+		local dateTime = CS.GameData.UnixToDateTime(opsEnterTime);
+		local time = tostring(dateTime.Month).."/"..tostring(dateTime.Day);
 		local txt = tostring(CS.System.String.Format(CS.Data.GetLang(60348),time));
 		CS.CommonController.LightMessageTips(txt);		
 	end
