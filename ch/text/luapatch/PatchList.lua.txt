@@ -163,8 +163,15 @@ patch2090={
 "2090/FormationEffectItemController",
 "2090/TheaterMissiontSettlement",
 "2090/TheaterCombatSettlementUIController",
+"2090/DormFurniturePieceController",	
 }
 patch3010={
+"3010/DeploymentTeamController",
+"3010/NDebugReport",
+"3010/MailData",
+"3010/ItemData",
+"3010/HomeController",		
+"3010/GunData",	
 }
 -- va11
 print("load Va11");

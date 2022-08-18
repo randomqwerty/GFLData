@@ -726,13 +726,9 @@ function CheckVoteJson(www)
 		end
 	else	
 		ShowVotoResult();
-		if CS.ConfigData.playReplay then
+		local check = CS.UnityEngine.PlayerPrefs.GetInt("-52-e-1",0);
+		if check == 0 then
 			ShowPlot("-52-e-1");
-		else
-			local check = CS.UnityEngine.PlayerPrefs.GetInt("-52-e-1",0);
-			if check == 0 then
-				ShowPlot("-52-e-1");
-			end
 		end
 	end
 end
@@ -756,29 +752,33 @@ function  ShowVotoResult()
 		end
 	end
 	opsControl.btnTitleTrans.gameObject:SetActive(false);
-	table.sort(voteList,function (a,b)
+	local votelistNew = {};
+	for i=1,#voteList do
+		table.insert(votelistNew,voteList[i]);
+	end
+	table.sort(votelistNew,function (a,b)
 		return (a[1]+a[2])>(b[1]+b[2]);
 	end)
 	local firstpicTrans = VoteResult.transform:Find("Main/Scroll/List/First/GunHolder");
 	if firstpicTrans.childCount>0 then
 		CS.UnityEngine.Object.DestroyImmediate(firstpicTrans:GetChild(0).gameObject);
 	end
-	local pic = CS.CommonController.LoadSmallPic(voteList[1][5],firstpicTrans,CS.UnityEngine.Vector2.zero,voteList[1][7],nil);
+	local pic = CS.CommonController.LoadSmallPic(votelistNew[1][5],firstpicTrans,CS.UnityEngine.Vector2.zero,votelistNew[1][7],nil);
 	pic:SwitchDamaged(false);
 	local txtRole = VoteResult.transform:Find("Main/Scroll/List/First/Text_Role"):GetComponent(typeof(CS.ExText));
-	txtRole.text =  CS.Data.GetLang(voteList[1][10]);
+	txtRole.text =  CS.Data.GetLang(votelistNew[1][10]);
 	local imageRole = VoteResult.transform:Find("Main/Scroll/List/First/Img_Role"):GetComponent(typeof(CS.ExImage));
 	local spriteholder = imageRole.transform:GetComponent(typeof(CS.UGUISpriteHolder));
-	imageRole.sprite = spriteholder.listSprite[voteList[1][11]];
+	imageRole.sprite = spriteholder.listSprite[votelistNew[1][11]];
 	local txtName =VoteResult.transform:Find("Main/Scroll/List/First/Text_Name"):GetComponent(typeof(CS.ExText));
-	txtName.text = CS.GameData.listGunInfo:GetDataById(voteList[1][6]).name;
+	txtName.text = CS.GameData.listGunInfo:GetDataById(votelistNew[1][6]).name;
 	local txtTotal =VoteResult.transform:Find("Main/Scroll/List/First/Text_TotalVotesNum"):GetComponent(typeof(CS.ExText));
-	txtTotal.text = tostring(voteList[1][1]+voteList[1][2]);
+	txtTotal.text = tostring(votelistNew[1][1]+votelistNew[1][2]);
 	local txtGood =VoteResult.transform:Find("Main/Scroll/List/First/Text_GoodyVotesNum"):GetComponent(typeof(CS.ExText));
-	txtGood.text = tostring(voteList[1][1]);
+	txtGood.text = tostring(votelistNew[1][1]);
 	local txtBad =VoteResult.transform:Find("Main/Scroll/List/First/Text_BaddyVotesNum"):GetComponent(typeof(CS.ExText));
-	txtBad.text = tostring(voteList[1][2]);
-	if voteList[1][1] >= voteList[1][2] then
+	txtBad.text = tostring(votelistNew[1][2]);
+	if votelistNew[1][1] >= votelistNew[1][2] then
 		txtGood.color = CS.UnityEngine.Color(222/255,239/255,5/255,1);
 		txtBad.color = CS.UnityEngine.Color(255/255,255/255,255/255,1);
 	else
@@ -786,24 +786,24 @@ function  ShowVotoResult()
 		txtBad.color = CS.UnityEngine.Color(238/255,51/255,0/255,1);		
 	end
 	local itemParent1 = VoteResult.transform:Find("Main/Scroll/List/Grid");
-	for i=2,#voteList do
+	for i=2,#votelistNew do
 		local item = itemParent1:GetChild(i-2);
 		local picTrans = item:Find("GunHolder");
 		if picTrans.childCount>0 then
 			CS.UnityEngine.Object.DestroyImmediate(picTrans:GetChild(0).gameObject);
 		end
-		local pic1 = CS.CommonController.LoadSmallPic(voteList[i][5],picTrans,CS.UnityEngine.Vector2.zero,voteList[i][7],nil);
+		local pic1 = CS.CommonController.LoadSmallPic(votelistNew[i][5],picTrans,CS.UnityEngine.Vector2.zero,votelistNew[i][7],nil);
 		pic1:SwitchDamaged(false);
 		local txtName1 =item:Find("Text_Name"):GetComponent(typeof(CS.ExText));
-		local gunifId = voteList[i][6];
+		local gunifId = votelistNew[i][6];
 		local guninfo = CS.GameData.listGunInfo:GetDataById(gunifId);
 		txtName1.text = guninfo.name;
-		local good = voteList[i][1];
-		local bad = voteList[i][2];
+		local good = votelistNew[i][1];
+		local bad = votelistNew[i][2];
 		local txtRole1 = item:Find("Text_Role"):GetComponent(typeof(CS.ExText));
-		txtRole1.text = CS.Data.GetLang(voteList[i][10]);
+		txtRole1.text = CS.Data.GetLang(votelistNew[i][10]);
 		local imageRole1 = item:Find("Img_Role"):GetComponent(typeof(CS.ExImage));
-		imageRole1.sprite = spriteholder.listSprite[voteList[i][11]];
+		imageRole1.sprite = spriteholder.listSprite[votelistNew[i][11]];
 		local txtTotal =item:Find("Text_TotalVotesNum"):GetComponent(typeof(CS.ExText));
 		txtTotal.text = tostring(good+bad);
 		local txtGood =item:Find("Text_GoodyVotesNum"):GetComponent(typeof(CS.ExText));
@@ -1033,7 +1033,9 @@ function ShowVoto()--显示立绘列表界面
 		local btnBack = votePanel.transform:Find("Top/Btn_Back"):GetComponent(typeof(CS.ExButton));
 		btnBack:AddOnClick(CloseVoto);	
 		local btnTip = votePanel.transform:Find("GunList/Btn_Tips"):GetComponent(typeof(CS.ExButton));
+		local txtNoteTip = votePanel.transform:Find("GunList/Btn_Tips/Text_Tips"):GetComponent(typeof(CS.ExText));
 		local txtTip = votePanel.transform:Find("GunList/Btn_Tips/URL"):GetComponent(typeof(CS.ExText));
+		txtNoteTip.text = CS.Data.GetLang(60349);
 		btnTip:AddOnClick(function()
 			opsControl:OpenAnnouncement(txtTip.text);
 			--CS.CommonController.ShowRuleBox(CS.Data.GetLang(60368),opsControl.transform);	
