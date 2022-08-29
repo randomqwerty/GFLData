@@ -17,7 +17,7 @@ local myOpenSangvisBox = function(self,isOn)
 	end
     if isOn == true then
 		self:CloseOtherList(2);
-		if CS.CommonSangvisCharacterListController.Instance ~= nil and needRefreshSangvisList == false  then
+		if CS.CommonSangvisCharacterListController.Instance ~= nil and self.needRefreshSangvisList == false  then
 			CS.CommonSangvisCharacterListController.Instance.gameObject:SetActive(true);
 			self.needRefreshSangvisList = false;
 		else

@@ -1,21 +1,31 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentTeamController)
 
---修正梯队被替换数据问题
+local team = nil;
+
+local CheckTeam = function()
+	if team.currentSpot.currentTeam == team then
+		if team.currentSpot.currentTeamTemp ~= nil then
+			team.currentSpot.currentTeam = team.currentSpot.currentTeamTemp;
+			team.currentSpot.currentTeamTemp = nil;
+		else
+			team.currentSpot.currentTeam = nil;
+		end
+	end
+	print("清空",team.currentSpot);
+end
+--修正梯队被替换数据问题--直接修改会造成第三方敌方交战报错
 local Fade = function(self)
 	self:Fade();
-	if self.currentSpot.currentTeam == self and self.currentSpot.currentTeamTemp ~= nil then
-		self.currentSpot.currentTeam = self.currentSpot.currentTeamTemp;
-		self.currentSpot.currentTeamTemp = nil;
-	end
+	team = self;
+	CS.DeploymentController.AddAction(CheckTeam,0.01);
 end
 
-local Die = function(self)
-	self:Die();
-	if self.currentSpot.currentTeam == self and self.currentSpot.currentTeamTemp ~= nil then
-		self.currentSpot.currentTeam = self.currentSpot.currentTeamTemp;
-		self.currentSpot.currentTeamTemp = nil;
-	end
+
+local Hide = function(self)
+	self:Hide();
+	team = self;
+	CS.DeploymentController.AddAction(CheckTeam,0.01);
 end
 --修正传送后missionskill面板刷新问题
 local TransferComplete = function(self)
@@ -32,6 +42,6 @@ local Start = function(self)
 	end
 end
 util.hotfix_ex(CS.DeploymentTeamController,'Fade',Fade)
-util.hotfix_ex(CS.DeploymentTeamController,'Die',Die)
+util.hotfix_ex(CS.DeploymentTeamController,'Hide',Hide)
 util.hotfix_ex(CS.DeploymentTeamController,'TransferComplete',TransferComplete)
 --util.hotfix_ex(CS.DeploymentTeamController,'Start',Start)
