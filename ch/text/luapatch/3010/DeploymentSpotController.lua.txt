@@ -41,4 +41,12 @@ local TeamHasHandgun = function(self)
 	return false;
 end
 
+local CheckOther = function(self)
+	self:CheckOther();
+	for i=0,self.winTypeids.Count-1 do
+		self:CloseWinTarget(self.winTypeids[i]);
+	end
+	self.winTypeids:Clear();
+end
 util.hotfix_ex(CS.DeploymentSpotController,'TeamHasHandgun',TeamHasHandgun)
+util.hotfix_ex(CS.DeploymentSpotController,'CheckOther',CheckOther)
