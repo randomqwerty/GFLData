@@ -43,8 +43,15 @@ local PlayShowAllTeamForce = function(self,changeData,play)
 	spotid = changeData.changeData:GetValue("spot_id").Int;
 	CS.DeploymentController.AddAction(CheckSpot,2.2);
 end
-
-
+--修正整体UI层级
+local InitUIElements = function(self)
+	self:InitUIElements();
+	self.holderInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 2;
+	self.uiInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 4;
+	self.spotInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 1;	
+	self.OptionInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 3;	
+end
+util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
 util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamForce)

@@ -10,82 +10,80 @@ CameraOrthographic|1
 HideTop|1
 ShowRuler|0
 SpecialToogleTitle|2022SummerChapterSelector
-ModuleMoveData|summer2022_testMap2|Trainholder|-2300,2250|2
+ModuleMoveData|2022SummerMap|Trainholder|-2300,2250|2
 ModuleSpineUI|2022SummerMissionSelector|MissionLayout/Viewport|MissionLayout/Viewport/MissionPoint|Trainholder/TrainUI|800|246
 //序章
-ModuleBuildMission|Train1Map|0|2022SummerMissionPoint_SideStory|1,1|11166-11166-11166
+ModuleBuildMission|Train1Map|7|2022SummerMissionPoint_SideStory|1,1|11166-11166-11166
 MoudleMoveBackground|Img_Rail|1|2022SummerBackground/15/0
 
-//AR18 主线
+//AR18 主线  1
 ModuleSpineInfo|R_56typeR|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
 ModuleSpineMission|R_56typeR|Train1Map|11167-11167-11167,11119-11119-11119,11168-11168-11168,11169-11169-11169,11170-11170-11170,11120-11123-11126,11171-11171-11171,11121-11124-11127,11172-11172-11172,11173-11173-11173,11174-11174-11174,11175-11175-11175,11122-11125-11128,11176-11176-11176
 ModuleSpineAI|R_56typeR|0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1
 
-//ERMA 主线
+//ERMA 主线 3
 ModuleSpineInfo|QSB91|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
 ModuleSpineMission|QSB91|Train3Map|11186-11186-11186,11142-11142-11142,11187-11187-11187,11188-11188-11188,11189-11189-11189,11143-11148-11153,11190-11190-11190,11144-11149-11154,11191-11191-11191,11145-11150-11155,11192-11192-11192,11193-11193-11193,11146-11151-11156,11194-11194-11194,11147-11152-11157,11195-11195-11195
 ModuleSpineAI|QSB91|0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1
 
-//沃克 主线
+//沃克 主线 2
 ModuleSpineInfo|R93|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
 ModuleSpineMission|R93|Train2Map|11177-11177-11177,11129-11129-11129,11178-11178-11178,11179-11179-11179,11180-11180-11180,11130-11134-11138,11181-11181-11181,11131-11135-11139,11182-11182-11182,11132-11136-11140,11183-11183-11183,11184-11184-11184,11133-11137-11141,11185-11185-11185
 ModuleSpineAI|R93|0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1,0-1
 
-//秃洞 
+//秃洞 2
+OPSHighScore|0|2022Summer_HighestScore|2022Summer_TotalScore|2022Summer_HoleNotice
 ModuleSpineInfo|R_RPK16|2022SummerMissionPoint_SideStory|60000|60021,60021
-ModuleSpineMission|R_RPK16|Train1Map|11117-11117-11117,11118-11118-11118
-ModuleSpineAI|R_RPK16|1-0,1-0
+ModuleSpineMission|R_RPK16|Train2Map|11117-11117-11117,11118-11118-11118
+ModuleSpineAI|R_RPK16|1-2,1-2
 
-//马桶
+//马桶 2
 ModuleSpineInfo|R_6P62|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
 ModuleSpineMission|R_6P62|Train2Map|11158-11159-11160,11161-11162-11163,11164-11164-11164,11165-11165-11165
-ModuleSpineAI|R_6P62|0-1,0-1,0-1,0-1
+ModuleSpineAI|R_6P62|2-3,2-3,2-3,2-3
 
-//尤金医生
+//尤金医生 1
 ModuleSpineInfo|R_06TypeSMG|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
-ModuleSpineMission|R_06TypeSMG|Train2Map|11226-11226-11226,11227-11227-11227,11228-11228-11228,11229-11229-11229
-ModuleSpineAI|R_06TypeSMG|0-1,0-1,0-1,0-1
+ModuleSpineMission|R_06TypeSMG|Train1Map|11226-11226-11226,11227-11227-11227,11228-11228-11228,11229-11229-11229
+ModuleSpineAI|R_06TypeSMG|1-2,1-2,1-2,1-2
 
-//塔亚斯柔
+//塔亚斯柔 3
 ModuleSpineInfo|R_9A91_6204|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
-ModuleSpineMission|R_9A91_6204|Train2Map|11211-11211-11211,11212-11212-11212,11213-11213-11213,11214-11214-11214
-ModuleSpineAI|R_9A91_6204|0-1,0-1,0-1,0-1
+ModuleSpineMission|R_9A91_6204|Train3Map|11211-11211-11211,11212-11212-11212,11213-11213-11213,11214-11214-11214
+ModuleSpineAI|R_9A91_6204|1-2,1-2,1-2,1-2
 
-//铁路人形
+//铁路人形 3
 ModuleSpineInfo|PA15_4202|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
-ModuleSpineMission|PA15_4202|Train2Map|11230-11230-11230,11231-11231-11231,11232-11232-11232
-ModuleSpineAI|PA15_4202|0-1,0-1,0-1
+ModuleSpineMission|PA15_4202|Train3Map|11230-11230-11230,11231-11231-11231,11232-11232-11232
+ModuleSpineAI|PA15_4202|2-3,2-3,2-3
 
-//凯瑟琳
+//凯瑟琳 3
 ModuleSpineInfo|R_4type_3505|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
-ModuleSpineMission|R_4type_3505|Train2Map|11222-11222-11222,11223-11223-11223,11224-11224-11224,11225-11225-11225
-ModuleSpineAI|R_4type_3505|0-1,0-1,0-1,0-1
+ModuleSpineMission|R_4type_3505|Train3Map|11222-11222-11222,11223-11223-11223,11224-11224-11224,11225-11225-11225
+ModuleSpineAI|R_4type_3505|3-0,3-0,3-0,3-0
 
-//尼古拉
+//尼古拉 2
 ModuleSpineInfo|R_ADS_3601|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
 ModuleSpineMission|R_ADS_3601|Train2Map|11219-11219-11219,11220-11220-11220,11221-11221-11221
-ModuleSpineAI|R_ADS_3601|0-1,0-1,0-1
+ModuleSpineAI|R_ADS_3601|3-4,3-4,3-4
 
-//柳芭老妈
+//柳芭老妈 1
 ModuleSpineInfo|R_AK12_3302|2022SummerMissionPoint_Stuff|60000|60021,60021,60021,60021,60021,60021,60021,60021,60021,60021
-ModuleSpineMission|R_AK12_3302|Train2Map|11215-11215-11215,11216-11216-11216,11217-11217-11217,11218-11218-11218
-ModuleSpineAI|R_AK12_3302|0-1,0-1,0-1,0-1
+ModuleSpineMission|R_AK12_3302|Train1Map|11215-11215-11215,11216-11216-11216,11217-11217-11217,11218-11218-11218
+ModuleSpineAI|R_AK12_3302|2-3,2-3,2-3,2-3
 
 //普通货物剧情
-ModuleBuildMission|Train3Map|1|2022SummerMissionPoint_SideStory|1,1|11196-11196-11196
-ModuleBuildMission|Train2Map|2|2022SummerMissionPoint_SideStory|1,1|11197-11197-11197
-ModuleBuildMission|Train2Map|3|2022SummerMissionPoint_SideStory|1,1|11198-11198-11198
-ModuleBuildMission|Train2Map|4|2022SummerMissionPoint_SideStory|1,1|11199-11199-11199
-ModuleBuildMission|Train1Map|5|2022SummerMissionPoint_SideStory|1,1|11200-11200-11200
-ModuleBuildMission|Train1Map|6|2022SummerMissionPoint_SideStory|1,1|11201-11201-11201
-ModuleBuildMission|Train3Map|7|2022SummerMissionPoint_SideStory|1,1|11202-11202-11202
-ModuleBuildMission|Train1Map|8|2022SummerMissionPoint_SideStory|1,1|11203-11203-11203
-ModuleBuildMission|Train1Map|9|2022SummerMissionPoint_SideStory|1,1|11204-11204-11204
-ModuleBuildMission|Train2Map|10|2022SummerMissionPoint_SideStory|1,1|11205-11205-11205
-ModuleBuildMission|Train3Map|11|2022SummerMissionPoint_SideStory|1,1|11206-11206-11206
-ModuleBuildMission|Train3Map|12|2022SummerMissionPoint_SideStory|1,1|11207-11207-11207
-ModuleBuildMission|Train3Map|13|2022SummerMissionPoint_SideStory|1,1|11208-11208-11208
-ModuleBuildMission|Train2Map|14|2022SummerMissionPoint_SideStory|1,1|11209-11209-11209
-
-//彩蛋
-ModuleBuildMission|Train3Map|15|2022SummerMissionPoint_SideStory|1,1|11210-11210-11210
+ModuleBuildMission|Train3Map|18|2022SummerMissionPoint_SideStory|1,1|11196-11196-11196
+ModuleBuildMission|Train2Map|9|2022SummerMissionPoint_SideStory|1,1|11197-11197-11197
+ModuleBuildMission|Train2Map|10|2022SummerMissionPoint_SideStory|1,1|11198-11198-11198
+ModuleBuildMission|Train2Map|11|2022SummerMissionPoint_SideStory|1,1|11199-11199-11199
+ModuleBuildMission|Train1Map|8|2022SummerMissionPoint_SideStory|1,1|11200-11200-11200
+ModuleBuildMission|Train1Map|9|2022SummerMissionPoint_SideStory|1,1|11201-11201-11201
+ModuleBuildMission|Train3Map|19|2022SummerMissionPoint_SideStory|1,1|11202-11202-11202
+ModuleBuildMission|Train1Map|10|2022SummerMissionPoint_SideStory|1,1|11203-11203-11203
+ModuleBuildMission|Train1Map|11|2022SummerMissionPoint_SideStory|1,1|11204-11204-11204
+ModuleBuildMission|Train2Map|12|2022SummerMissionPoint_SideStory|1,1|11205-11205-11205
+ModuleBuildMission|Train3Map|20|2022SummerMissionPoint_SideStory|1,1|11206-11206-11206
+ModuleBuildMission|Train3Map|21|2022SummerMissionPoint_SideStory|1,1|11207-11207-11207
+ModuleBuildMission|Train3Map|22|2022SummerMissionPoint_SideStory|1,1|11208-11208-11208
+ModuleBuildMission|Train2Map|13|2022SummerMissionPoint_SideStory|1,1|11209-11209-11209

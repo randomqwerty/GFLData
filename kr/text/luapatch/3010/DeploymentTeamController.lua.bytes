@@ -30,6 +30,7 @@ end
 --修正传送后missionskill面板刷新问题
 local TransferComplete = function(self)
 	self:TransferComplete();
+	self:CheckSpineOrder();
 	if CS.DeploymentController.Instance.currentSelectedTeam == self then
 		CS.DeploymentController.TriggerSelectTeam(self);
 	end

@@ -164,6 +164,7 @@ patch2090={
 "2090/TheaterMissiontSettlement",
 "2090/TheaterCombatSettlementUIController",
 "2090/DormFurniturePieceController",	
+"2090/FriendCosmeticIconController",
 }
 patch3010={
 "3010/DeploymentTeamController",
@@ -212,6 +213,7 @@ patch3010={
 "3010/SangvisChipDevelopUIController",	
 "3010/CareersLabelController",
 "3010/Request",
+"3010/FlightChessPlayerUser",
 "3010/ResearchFairyStrengthenController",
 "3010/CommonSquadListLabelController",
 "3010/SquadGetPerformance",
@@ -227,6 +229,13 @@ patch3010={
 "3010/MallController",
 "3010/SpecialActivityController",
 "3010/SpecialOPSController",
+"3010/UserInfoData",	
+"3010/PresentInfo",
+"3010/RankingListUIController",	
+"3010/BattleCharacterData",
+"3010/Package",
+"3010/SquadChipStrengthenController",
+"3010/PassOrderBuyLevelController",
 }
 -- va11
 print("load Va11");

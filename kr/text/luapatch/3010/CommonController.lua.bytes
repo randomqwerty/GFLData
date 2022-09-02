@@ -16,8 +16,16 @@ local LoadImageHeadFrameWithSequenceFrame = function(image,cosmeticId)
 		end
 	end
 end
-
+local myPlayAudio = function(button)
+	if button == "Cutin" then
+		print("hook")
+	else
+		print("orgin")
+		CS.CommonController.PlayAudio(button);
+	end
+end
 util.hotfix_ex(CS.CommonController,'LoadImageHeadFrameWithSequenceFrame',LoadImageHeadFrameWithSequenceFrame)
+util.hotfix_ex(CS.CommonController,'PlayAudio',myPlayAudio)
 
 
 
