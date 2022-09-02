@@ -2,7 +2,9 @@ local util = require 'xlua.util'
 
 local team = nil;
 local CheckBuffUI = function()
-	team:RefeshBuffUI();
+	if team ~= nil then
+		team:RefeshBuffUI();
+	end
 end
 --修正梯队刷新只刷新Buff
 local RefeshUI = function(self,delay)
