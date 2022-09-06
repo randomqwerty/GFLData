@@ -240,7 +240,8 @@ patch3010={
 "3010/SquadChipStrengthenController",
 "3010/PassOrderBuyLevelController",
 "3010/ResDownloadProcess",
-"3010/MissionData",		
+"3010/MissionData",
+"3010/AVGPicController",			
 }
 -- va11
 print("load Va11");

@@ -307,7 +307,7 @@ function GetMissionIndex(opsmissions)
 			local missionid = opsmission.missionIds[j];
 			local mission = CS.GameData.listMission.GetDataById(missionid);
 			if mission ~= nil and mission.UseWinCounter>0 then
-				index = i;
+				index = i+1;
 			end
 		end
 	end
