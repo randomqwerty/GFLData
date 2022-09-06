@@ -77,7 +77,7 @@ end
 local noticeElse;
 local CheckEndlessPoint = function(self)
 	if self.campaionId == -54 then
-		if self.moudleSpineUIObj ~= nil and self.moudleSpineUIObj.activeInHierarchy and checkcode == "R_RPK16"then
+		if self.moudleSpineUIObj ~= nil and self.moudleSpineUIObj.activeInHierarchy and checkcode == "NPC-TD_Porter"then
 			self:CheckEndlessPoint();
 			if self.highScoreObj ~= nil then
 				self.highScoreObj:SetActive(true);
@@ -314,6 +314,20 @@ function GetMissionIndex(opsmissions)
 	return index;
 end
 
+local RefreshMoudleUI = function(self,spineMission)
+	local txtName = self.moudleSpineUIObj.transform:Find("NamePlate/Tex_Name"):GetComponent(typeof(CS.ExText));
+	txtName.text = CS.Data.GetLang(spineMission.codeName);
+	local txtTip = self.moudleSpineUIObj.transform:Find("NamePlate/Tex_Name/Tex_Dialogue"):GetComponent(typeof(CS.ExText));
+	local code = spineMission.spineCode;
+	if spineMInfo[code] == nil then
+		print(code.."MoudleSpineAIMission未配置");
+		txtTip.text = "";
+	else
+		local index = GetMissionIndex(spineMInfo[code]);
+		index = CS.Mathf.Clamp(index,0,spineMission.tips.Count - 1);
+		txtTip.text = CS.Data.GetLang(spineMission.tips[index]);
+	end
+end
 function Split(szFullString, szSeparator)
 	local nFindStartIndex = 1
 	local nSplitIndex = 1
@@ -347,3 +361,4 @@ util.hotfix_ex(CS.OPSPanelController,'RefreshCurrentDiffcluty',RefreshCurrentDif
 util.hotfix_ex(CS.OPSPanelController,'PlayMoudleBackgroundMove',PlayMoudleBackgroundMove)
 util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'Load',Load)
+util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleUI',RefreshMoudleUI)
