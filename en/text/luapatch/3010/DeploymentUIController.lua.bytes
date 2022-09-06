@@ -17,8 +17,36 @@ local RefreshText = function(self)
 	end
 end
 
+local ShowLeftBuildSkillUI = function(self)
+	self:ShowLeftBuildSkillUI();
+	if self.leftSkills.Count>0 then
+		local CurveMove = self.buildSkillUI:GetComponent(typeof(CS.CommonListCurveMove));
+		CurveMove.baseorder = 2;
+	end
+end
+
+local ShowRightBuildSkillUI = function(self)
+	self:ShowRightBuildSkillUI();
+	if self.rightSkills.Count>0 then
+		local CurveMove = self.buildSkillUIRight:GetComponent(typeof(CS.CommonListCurveMove));
+		CurveMove.baseorder = 2;
+	end
+end
+
+local OnSelectTeamSkillUI = function(self,team)
+	if team ~= nil then
+		if team.currentSpot.currentTeam ~= team then
+			self:OnSelectTeamSkillUI(nil);
+			return;
+		end
+	end
+	self:OnSelectTeamSkillUI(team);
+end
 util.hotfix_ex(CS.DeploymentUIController,'Awake',Awake)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshText',RefreshText)
+util.hotfix_ex(CS.DeploymentUIController,'ShowLeftBuildSkillUI',ShowLeftBuildSkillUI)
+util.hotfix_ex(CS.DeploymentUIController,'ShowRightBuildSkillUI',ShowRightBuildSkillUI)
+util.hotfix_ex(CS.DeploymentUIController,'OnSelectTeamSkillUI',OnSelectTeamSkillUI)
 
 
 

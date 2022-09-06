@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.QuestsController)
+xlua.private_accessible(CS.DWQuestLableCtrl)
 xlua.private_accessible(CS.DailyWeeklyQuestData)
 xlua.private_accessible(CS.DailyQuestOverallInfo)
 xlua.private_accessible(CS.WeeklyQuestOverallInfo)
@@ -8,7 +9,7 @@ xlua.private_accessible(CS.WeekQuestInfo)
 
 
 local _RefreshRedPoint = function(self)
-	self:RefreshRedPoint(); 
+	self:RefreshRedPoint();
 	if self.currentQuestType ~= "Daily" and self.goDailyNew.activeSelf then
 		local hasMail=false;
 		for i=0,CS.GameData.listMail.Count-1 do
@@ -62,5 +63,17 @@ local _RefreshRedPoint = function(self)
 		end	 
 	end
 end
-util.hotfix_ex(CS.QuestsController,'RefreshRedPoint',_RefreshRedPoint) 
+local hasAddItem=false;
 
+local _GetItemID = function(self,content)
+	self:GetItemID(content);
+	if CS.DailyWeekQuestCtrl.Instance.passPointItemID~=-1 then
+		local pass_id = CS.DailyWeekQuestCtrl.Instance.passPointItemID;
+		if not CS.GameData.dictItem:ContainsKey(pass_id) and hasAddItem==false then 
+			CS.GameData.AddItem(pass_id,0);
+			hasAddItem=true;
+		end
+	end
+end
+util.hotfix_ex(CS.QuestsController,'RefreshRedPoint',_RefreshRedPoint) 
+util.hotfix_ex(CS.DWQuestLableCtrl,'GetItemID',_GetItemID) 

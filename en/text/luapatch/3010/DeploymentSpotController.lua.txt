@@ -1,6 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentSpotController)
-
+xlua.private_accessible(CS.DeploymentController)
 local TeamHasHandgun = function(self)
 	if self.currentTeam ~= nil then
 		if self.currentTeam.listGunInTeam ~= nil then
@@ -41,4 +41,24 @@ local TeamHasHandgun = function(self)
 	return false;
 end
 
+local CheckOther = function(self)
+	self:CheckOther();
+	for i=0,self.winTypeids.Count-1 do
+		self:CloseWinTarget(self.winTypeids[i]);
+	end
+	self.winTypeids:Clear();
+	self.image.raycastTarget = true;
+end
+
+local OnFinishAnimationEvent = function(self)
+	if CS.GameData.missionAction ~= nil then
+		if CS.GameData.missionAction.queueSpotSurroundCapture.Count > 0 then
+			CS.DeploymentController.Instance:PlaySpotSurroundCapture();
+			return;
+		end
+	end
+	self:OnFinishAnimationEvent();
+end
 util.hotfix_ex(CS.DeploymentSpotController,'TeamHasHandgun',TeamHasHandgun)
+util.hotfix_ex(CS.DeploymentSpotController,'CheckOther',CheckOther)
+util.hotfix_ex(CS.DeploymentSpotController,'OnFinishAnimationEvent',OnFinishAnimationEvent)
