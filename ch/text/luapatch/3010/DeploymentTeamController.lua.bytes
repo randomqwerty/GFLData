@@ -12,6 +12,9 @@ local CheckTeam = function()
 			team.currentSpot.currentTeam = nil;
 		end
 	end
+	if CS.DeploymentController.Instance.currentSelectedTeam == team then
+		CS.DeploymentController.TriggerSelectTeam(nil);
+	end
 	print("清空",team.currentSpot);
 end
 --修正梯队被替换数据问题--直接修改会造成第三方敌方交战报错

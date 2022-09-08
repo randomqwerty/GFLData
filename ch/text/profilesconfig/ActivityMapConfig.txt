@@ -44,7 +44,9 @@ MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //2022烟花祭配置：
-MissionSelectionTex|missionselect_Bikini_2022|1|-52
+//MissionSelectionTex|missionselect_Bikini_2022|1|-52
+//2022夏活配置：
+MissionSelectionTex|missionselect_2022Summer|1|-54
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -82,7 +84,7 @@ OPSPanelScene|-54|-54
 //OPSVideoFirst|-16|deepdive_short
 //OPSVideoFirst|-33|deepdive_short
 //OPSVideoFirst|-2|deepdive_short
-OPSVideoFirst|-54|deepdive_short
+//OPSVideoFirst|-54|deepdive_short
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -90,7 +92,7 @@ OPSVideoFirst|-54|deepdive_short
 //OPSVideoBlackground|-33|BBui_Intro_Prime,BBui_loop_Prime
 //OPSVideoBlackground|-34|BBui_Intro_Prime,BBui_loop_Prime
 //OPSVideoBlackground|-47|BBui_Intro_Prime,BBui_loop_Prime
-OPSVideoBlackground|-54|BBui_Intro_Prime,BBui_loop_Prime
+//OPSVideoBlackground|-54|BBui_Intro_Prime,BBui_loop_Prime
 //OPS跳转Mission-预制物(公用)
 //OPSReturn|Return
 OPSReturn|2022SummerReturn|-54
@@ -157,7 +159,8 @@ OPSLeftBGNormalActivity|-54|2022SummerLogo
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
-OPSNoticeNormalActivity|-52|Bikini_2022_Notice
+//OPSNoticeNormalActivity|-52|Bikini_2022_Notice
+OPSNoticeNormalActivity|-54|2022Summer_Notice
 //时间公告-预制物(公用)
 OPSTime|SingTime
 //OPSTimeNormalActivity|-31|Isomer_Time
@@ -177,6 +180,7 @@ OPSTimeNormalActivity|-51|Reversible_Time
 OPSTimeNormalActivity|-50|Reversible_Time
 OPSTimeNormalActivity|-53|Reversible_Time
 OPSTimeNormalActivity|-52|Bikini_2022_Time
+OPSTimeNormalActivity|-54|2022Summer_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -206,7 +210,8 @@ OPSTimeNormalActivity|-52|Bikini_2022_Time
 //OPSGoto|WhiteDay_2022_GotoMall|0
 //混沌落幕复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-OPSGoto|Bikini_2022_GotoMall|0|-52
+//OPSGoto|Bikini_2022_GotoMall|0|-52
+OPSGoto|2022Summer_GotoMall|0|-54
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -291,6 +296,7 @@ OPSMain|-48|Day|Bikini_2021_Background
 OPSMain|-51|Day|Arctic_Map5
 OPSMain|-50|Day|Arctic_Map5
 OPSMain|-52|Day|Arctic_Map5
+OPSMain|-54|Day|Arctic_Map5
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -375,6 +381,7 @@ OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 OPSCampaignTitleButton|-51|true|FixedPoint_Diffculty2Btn
 OPSCampaignTitleButton|-52|true|Bikini_2022_Difficulty2Btn
 //OPSCampaignTitleButton|-50|true|PolarizedLight_Diffculty2Btn
+OPSCampaignTitleButton|-54|true|2022SummerDiffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -412,7 +419,8 @@ OPSCampaignTitleButton|-52|true|Bikini_2022_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
-OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
+//OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
+OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -420,7 +428,7 @@ OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
-OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
+//OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
@@ -1420,4 +1428,122 @@ OPSCampaignDetail|-50_14|0,0|2022WVP22
 OPSCampaignDetail|-50_15|0,0|2022WVT77
 
 //混沌落幕复刻配置
-OPSCampaignDetail|-53_1|0,0|M16A1_Boss
+OPSCampaignDetail|-53_1|0,0|M16A1_Boss
+
+//2022夏活配置
+OPSCampaignDetail|-54_1|0,0|Susanna
+OPSCampaignDetail|-54_2|0,0|Nyto_mecha
+OPSCampaignDetail|-54_3|0,0|Ares
+OPSCampaignDetail|-54_4|0,0|AR18_NPC
+OPSCampaignDetail|-54_5|0,0|AR18_NPC
+OPSCampaignDetail|-54_6|0,0|AR18_NPC
+OPSCampaignDetail|-54_7|0,0|AR18_NPC
+OPSCampaignDetail|-54_8|0,0|AR18_NPC
+OPSCampaignDetail|-54_9|0,0|AR18_NPC
+OPSCampaignDetail|-54_10|0,0|AR18_NPC
+OPSCampaignDetail|-54_11|0,0|AR18_NPC
+OPSCampaignDetail|-54_12|0,0|AR18_NPC
+OPSCampaignDetail|-54_13|0,0|AR18_NPC
+OPSCampaignDetail|-54_14|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_15|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_16|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_17|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_18|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_19|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_20|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_21|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_22|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_23|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_24|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_25|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_26|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_27|0,0|Erma_NPC
+OPSCampaignDetail|-54_28|0,0|Erma_NPC
+OPSCampaignDetail|-54_29|0,0|Erma_NPC
+OPSCampaignDetail|-54_30|0,0|Erma_NPC
+OPSCampaignDetail|-54_31|0,0|Erma_NPC
+OPSCampaignDetail|-54_32|0,0|Erma_NPC
+OPSCampaignDetail|-54_33|0,0|Erma_NPC
+OPSCampaignDetail|-54_34|0,0|Erma_NPC
+OPSCampaignDetail|-54_35|0,0|Erma_NPC
+OPSCampaignDetail|-54_36|0,0|Erma_NPC
+OPSCampaignDetail|-54_37|0,0|Erma_NPC
+OPSCampaignDetail|-54_38|0,0|Erma_NPC
+OPSCampaignDetail|-54_39|0,0|Erma_NPC
+OPSCampaignDetail|-54_40|0,0|Erma_NPC
+OPSCampaignDetail|-54_41|0,0|Erma_NPC
+OPSCampaignDetail|-54_42|0,0|Erma_NPC
+OPSCampaignDetail|-54_43|0,0|Cyclops_MG
+OPSCampaignDetail|-54_44|0,0|Cyclops_MG
+OPSCampaignDetail|-54_45|0,0|Cyclops_MG
+OPSCampaignDetail|-54_46|0,0|Chariot_Military
+OPSCampaignDetail|-54_47|0,0|Chariot_Military
+OPSCampaignDetail|-54_48|0,0|Chariot_Military
+OPSCampaignDetail|-54_49|0,0|NPC_Kryuger
+OPSCampaignDetail|-54_50|0,0|NPC_Kryuger
+OPSCampaignDetail|-54_51|0,0|AR18_NPC
+OPSCampaignDetail|-54_52|0,0|AR18_NPC
+OPSCampaignDetail|-54_53|0,0|AR18_NPC
+OPSCampaignDetail|-54_54|0,0|AR18_NPC
+OPSCampaignDetail|-54_55|0,0|AR18_NPC
+OPSCampaignDetail|-54_56|0,0|AR18_NPC
+OPSCampaignDetail|-54_57|0,0|AR18_NPC
+OPSCampaignDetail|-54_58|0,0|AR18_NPC
+OPSCampaignDetail|-54_59|0,0|AR18_NPC
+OPSCampaignDetail|-54_60|0,0|AR18_NPC
+OPSCampaignDetail|-54_61|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_62|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_63|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_64|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_65|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_66|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_67|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_68|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_69|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_70|0,0|Erma_NPC
+OPSCampaignDetail|-54_71|0,0|Erma_NPC
+OPSCampaignDetail|-54_72|0,0|Erma_NPC
+OPSCampaignDetail|-54_73|0,0|Erma_NPC
+OPSCampaignDetail|-54_74|0,0|Erma_NPC
+OPSCampaignDetail|-54_75|0,0|Erma_NPC
+OPSCampaignDetail|-54_76|0,0|Erma_NPC
+OPSCampaignDetail|-54_77|0,0|Erma_NPC
+OPSCampaignDetail|-54_78|0,0|Erma_NPC
+OPSCampaignDetail|-54_79|0,0|Erma_NPC
+OPSCampaignDetail|-54_80|0,0|Erma_NPC
+OPSCampaignDetail|-54_81|0,0|AR18_NPC
+OPSCampaignDetail|-54_82|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_83|0,0|Oldlady_boss
+OPSCampaignDetail|-54_84|0,0|AR18_NPC
+OPSCampaignDetail|-54_85|0,0|AR18_NPC
+OPSCampaignDetail|-54_86|0,0|Susanna
+OPSCampaignDetail|-54_87|0,0|Oldlady_boss
+OPSCampaignDetail|-54_88|0,0|AR18_NPC
+OPSCampaignDetail|-54_89|0,0|Catherine
+OPSCampaignDetail|-54_90|0,0|AR18_NPC
+OPSCampaignDetail|-54_91|0,0|ColtWalker_NPC
+OPSCampaignDetail|-54_92|0,0|Erma_NPC
+OPSCampaignDetail|-54_93|0,0|Nyto_mecha_2
+OPSCampaignDetail|-54_94|0,0|AR18_NPC
+OPSCampaignDetail|-54_95|0,0|Nyto_mecha_2
+OPSCampaignDetail|-54_96|0,0|Nyto_mecha_2
+OPSCampaignDetail|-54_97|0,0|Nyto_mecha_2
+OPSCampaignDetail|-54_98|0,0|Nyto_mecha_2
+OPSCampaignDetail|-54_99|0,0|Oldlady_boss
+OPSCampaignDetail|-54_100|0,0|Oldlady_boss
+OPSCampaignDetail|-54_101|0,0|Oldlady_boss
+OPSCampaignDetail|-54_102|0,0|Oldlady_boss
+OPSCampaignDetail|-54_103|0,0|Nicolas
+OPSCampaignDetail|-54_104|0,0|Nicolas
+OPSCampaignDetail|-54_105|0,0|Nicolas
+OPSCampaignDetail|-54_106|0,0|Catherine
+OPSCampaignDetail|-54_107|0,0|Catherine
+OPSCampaignDetail|-54_108|0,0|Catherine
+OPSCampaignDetail|-54_109|0,0|Catherine
+OPSCampaignDetail|-54_110|0,0|Dr_Eugene
+OPSCampaignDetail|-54_111|0,0|Dr_Eugene
+OPSCampaignDetail|-54_112|0,0|Dr_Eugene
+OPSCampaignDetail|-54_113|0,0|Dr_Eugene
+OPSCampaignDetail|-54_114|0,0|Railway_figure
+OPSCampaignDetail|-54_115|0,0|Railway_figure
+OPSCampaignDetail|-54_116|0,0|Railway_figure
