@@ -165,6 +165,8 @@ patch2090={
 "2090/TheaterCombatSettlementUIController",
 "2090/DormFurniturePieceController",	
 "2090/FriendCosmeticIconController",
+"2090/TheaterBattleTeamSelectionUIController",
+"2090/LoginController",		
 }
 patch3010={
 "3010/DeploymentTeamController",
@@ -220,7 +222,8 @@ patch3010={
 "3010/SquadProgressBarController",
 "3010/FormationController",
 "3010/FetterStoryController",
-"3010/OPSPanelController",	
+"3010/OPSPanelController",
+"3010/OPSSpineControl",		
 "3010/SpecialMissionInfoController",	
 "3010/MissionSelectionOperationBarController",
 "3010/SkillManager",
@@ -236,6 +239,16 @@ patch3010={
 "3010/Package",
 "3010/SquadChipStrengthenController",
 "3010/PassOrderBuyLevelController",
+"3010/ResDownloadProcess",
+"3010/MissionData",
+"3010/AVGPicController",
+"3010/AVGCommonEffect",	
+"3010/CommonIconController",
+"3010/FairyData",					
+"3010/BattleFriendlyCharacterController",
+"3010/PassBuyPassBoxController",
+"3010/FactoryController",	
+"3010/OPSConfig",	
 }
 -- va11
 print("load Va11");
