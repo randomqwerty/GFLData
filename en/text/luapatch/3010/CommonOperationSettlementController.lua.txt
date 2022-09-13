@@ -15,4 +15,17 @@ local _SetLeaderPic = function(self,index,teamId)
 	end
 end
 
+local Awake = function(self)
+	self:Awake();
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+		local obj1 = CS.ResManager.GetObjectByPath("AtlasClips3010/success");
+		if obj1 ~= nil then
+			local imageTrans = self.transform:Find("NewInfoBox/EchelonList/Echelon/EchelonItem/Img_GreatSuccess"):GetComponent(typeof(CS.UnityEngine.UI.Image));
+			imageTrans.sprite = obj1:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite;
+		end	
+		local txtTrans = self.transform:Find("NewInfoBox/EchelonList/Echelon/Img_OnSally/Tex_OnSally"):GetComponent(typeof(CS.ExText));
+		txtTrans.text = CS.Data.GetLang(40414);
+	end
+end
 util.hotfix_ex(CS.CommonOperationSettlementController,'SetLeaderPic',_SetLeaderPic)
+--util.hotfix_ex(CS.CommonOperationSettlementController,'Awake',Awake)

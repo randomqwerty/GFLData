@@ -36,8 +36,32 @@ end
 
 local ShowShade = function(self,play,duration)
 	self:ShowShade(play,duration);
+	local spothq = nil;
+	local spotDta = nil;
+	local spotteam = nil;
+	for i=0,CS.DeploymentBackgroundController.currentLayerData.spots.Count-1 do
+		local s = CS.DeploymentBackgroundController.currentLayerData.spots[i];
+		if s.belong == CS.Belong.friendly then
+			if s.type == CS.SpotType.headQuarter then
+				spothq = s;
+			end
+			if s.type == CS.SpotType.DTA or s.type == CS.SpotType.HeavyDTA then
+				spotDta = s;
+			end		
+		end
+		if s:HasFriendlyTeam() then
+			spotteam = s;
+		end
+	end
 	local pos = CS.DeploymentBackgroundController.currentLayerData.offset;
-	CS.DeploymentController.TriggerMoveCameraEvent(pos,play);
+	if spothq ~= nil then
+		 pos = CS.UnityEngine.Vector2(spothq.transform.localPosition.x,spothq.transform.localPosition.y);		
+	elseif spotDta ~= nil then
+		pos = CS.UnityEngine.Vector2(spotDta.transform.localPosition.x,spotDta.transform.localPosition.y);		
+	elseif 	spotteam ~= nil then
+		pos = CS.UnityEngine.Vector2(spotteam.transform.localPosition.x,spotteam.transform.localPosition.y);		
+	end
+	CS.DeploymentController.TriggerMoveCameraEvent(pos,play);	
 end
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckSize',CheckSize)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateMap',CreateMap)

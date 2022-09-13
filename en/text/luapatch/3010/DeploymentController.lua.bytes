@@ -15,6 +15,7 @@ local CheckBuild = function()
 			playteams[i]:RefreshTeamInfo();
 		end
 	end
+	CS.DeploymentUIController.Instance:RefreshUI();
 	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
 end
 
