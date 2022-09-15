@@ -8,6 +8,7 @@ local Init = function(self)
 	else
 		self.cameraAngleMax = -20;
 	end
+	CS.DeploymentMapDragController.CurrentCamera.nearClipPlane = 1;
 end
 
 local get_mapSize = function(self)

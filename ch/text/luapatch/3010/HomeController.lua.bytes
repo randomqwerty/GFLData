@@ -37,10 +37,12 @@ local ShowUI = function(self)
 	self:ShowUI();
 	if CS.GameData.missionAction ~= nil then
 		local campaionid = CS.GameData.missionAction.missionInfo.campaign;
-		local ids = CS.System.Collections.Generic.List(CS.System.Int32)();
-		ids:Add(campaionid);
-		local Request = CS.RequestDrawEvent(ids);
-		Request:Request();	
+		if campaionid == -54 then
+			local ids = CS.System.Collections.Generic.List(CS.System.Int32)();
+			ids:Add(campaionid);
+			local Request = CS.RequestDrawEvent(ids);
+			Request:Request();	
+		end
 	end
 end
 

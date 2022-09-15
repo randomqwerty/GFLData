@@ -26,7 +26,7 @@ local SetLeaderPic = function(self,gun)
 	end
 	local rectTrans = self.picLeader:GetComponent(typeof(CS.UnityEngine.RectTransform));
 	rectTrans:DOKill();
-	rectTrans.localScale = CS.UnityEngine.Vector3(1.5,1.5,1);
+	rectTrans.localScale = CS.UnityEngine.Vector3(1,1,1);
 	CS.UITweenManager.PlayFadeTweens(rectTrans, 0, 1, 1);
 	rectTrans.anchoredPosition3D = CS.UnityEngine.Vector3(1000,-100,0);
 	local to = CS.UnityEngine.Vector3(700,-30,0);

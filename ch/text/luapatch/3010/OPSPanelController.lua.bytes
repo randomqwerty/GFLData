@@ -399,6 +399,16 @@ local RequestSetDrawEvent = function(self,data)
 	self:RefreshMoudleBuildUI();
 	self:CheckMoudleUi();	
 end
+local GetAllGroupTotalHighScore = function(self)
+	if self.campaionId == -54 then
+		local mission = CS.GameData.listMission:GetDataById(11118);
+		if mission ~= nil then
+			return mission.type5_score;
+		end
+		return 0;
+	end
+	return self:GetAllGroupTotalHighScore();
+end
 function Split(szFullString, szSeparator)
 	local nFindStartIndex = 1
 	local nSplitIndex = 1
@@ -438,3 +448,4 @@ util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)
 util.hotfix_ex(CS.OPSPanelController,'LoadTitle',LoadTitle)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetCampaigns',RequestSetCampaigns)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.OPSPanelController,'GetAllGroupTotalHighScore',GetAllGroupTotalHighScore)

@@ -127,9 +127,9 @@ local myStart = function(self)
 	end
 	self:Start();
 end
-util.hotfix_ex(CS.PassBuyPassBoxController,'RefreshPriceLabel',myRefreshPriceLabel)
-util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',myOnIAPValidateComplete)
-util.hotfix_ex(CS.PassBuyPassBoxController,'Start',myStart)
 if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 
+	util.hotfix_ex(CS.PassBuyPassBoxController,'RefreshPriceLabel',myRefreshPriceLabel)
+	util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',myOnIAPValidateComplete)
+	util.hotfix_ex(CS.PassBuyPassBoxController,'Start',myStart)
 end

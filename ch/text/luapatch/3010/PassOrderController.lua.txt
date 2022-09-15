@@ -1,10 +1,12 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.PassOrderController)
+xlua.private_accessible(CS.ExText)
+xlua.private_accessible(CS.Data)
 local myScrollCallBack = function(self,index)
     self.specialItem.isSpecialView = false;
     self:ScrollCallBack(index)
 end
-local Start = function(self)
+local myStart = function(self)
 	self:Start();
 	local txt1 = self.transform:Find("BuyPass/NormalPass/Btn_Buy/Img_Bought/Tex_Bought");
 	if txt1 ~= nil then
@@ -18,4 +20,4 @@ local Start = function(self)
 	end	
 end
 util.hotfix_ex(CS.PassOrderController,'ScrollCallBack',myScrollCallBack)
-util.hotfix_ex(CS.PassOrderController,'Start',Start)	
+--util.hotfix_ex(CS.PassOrderController,'Start',myStart)	

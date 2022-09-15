@@ -8,12 +8,16 @@ local OpenBrightArea = function(self,size,time)
 	render.sortingLayerName = "Background";
 	local canvas = self.transform.parent.parent:GetComponent(typeof(CS.UnityEngine.Canvas));
 	if canvas ~= nil then
-		render.sortingOrder = canvas.sortingOrder;
+		render.sortingOrder = canvas.sortingOrder-5;
 	end
 end
 
+local Awake = function(self)
+	self:Awake();
+	self.materialUse.renderQueue = 3000;
+end
 util.hotfix_ex(CS.SpotNightQuad,'OpenBrightArea',OpenBrightArea)
-
+util.hotfix_ex(CS.SpotNightQuad,'Awake',Awake)
 
 
 
