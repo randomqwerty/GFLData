@@ -34,10 +34,17 @@ local PlayCurrentStep = function()
 	end
 end
 
+local FinishCurrentStep = function(self)
+	if CS.GuideDeploymentController.currentGuideStep == nil then
+		return;
+	end
+	self:FinishCurrentStep();
+end
 
 util.hotfix_ex(CS.GuideDeploymentController,'get_Instance',get_Instance)
 util.hotfix_ex(CS.GuideDeploymentController,'AfterBattlePlay',AfterBattlePlay)
 util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentStep',PlayCurrentStep)
 util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentDelay',PlayCurrentDelay)
+util.hotfix_ex(CS.GuideDeploymentController,'FinishCurrentStep',FinishCurrentStep)
 
 

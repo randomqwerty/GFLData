@@ -8,6 +8,7 @@ local Init = function(self)
 	else
 		self.cameraAngleMax = -20;
 	end
+	CS.DeploymentMapDragController.CurrentCamera.nearClipPlane = 1;
 end
 
 local get_mapSize = function(self)
@@ -17,7 +18,11 @@ local get_mapSize = function(self)
 		self.checkMapSize =CS.Mathf.Lerp(self.checkMapSize,6,CS.UnityEngine.Time.deltaTime);
 	end
 	local size = CS.UnityEngine.Vector2(800,800)*self.checkMapSize;
-	return  CS.DeploymentBackgroundController.currentLayerData.mapSize+size;
+	if CS.DeploymentBackgroundController.currentLayerData ~= nil then
+		return  CS.DeploymentBackgroundController.currentLayerData.mapSize+size;
+	else
+		return size;
+	end
 end
 
 util.hotfix_ex(CS.DeploymentMapDragController,'Init',Init)

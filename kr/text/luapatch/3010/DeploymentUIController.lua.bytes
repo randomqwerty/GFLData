@@ -32,10 +32,21 @@ local ShowRightBuildSkillUI = function(self)
 		CurveMove.baseorder = 2;
 	end
 end
+
+local OnSelectTeamSkillUI = function(self,team)
+	if team ~= nil then
+		if team.currentSpot.currentTeam ~= team then
+			self:OnSelectTeamSkillUI(nil);
+			return;
+		end
+	end
+	self:OnSelectTeamSkillUI(team);
+end
 util.hotfix_ex(CS.DeploymentUIController,'Awake',Awake)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshText',RefreshText)
 util.hotfix_ex(CS.DeploymentUIController,'ShowLeftBuildSkillUI',ShowLeftBuildSkillUI)
 util.hotfix_ex(CS.DeploymentUIController,'ShowRightBuildSkillUI',ShowRightBuildSkillUI)
+util.hotfix_ex(CS.DeploymentUIController,'OnSelectTeamSkillUI',OnSelectTeamSkillUI)
 
 
 
