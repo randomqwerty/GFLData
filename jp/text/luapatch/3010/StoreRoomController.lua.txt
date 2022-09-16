@@ -19,6 +19,7 @@ local myOpenSangvisBox = function(self,isOn)
 		self:CloseOtherList(2);
 		if CS.CommonSangvisCharacterListController.Instance ~= nil and self.needRefreshSangvisList == false  then
 			CS.CommonSangvisCharacterListController.Instance.gameObject:SetActive(true);
+			CS.CommonSangvisCharacterListController.Instance:SetCanClick();
 			self.needRefreshSangvisList = false;
 		else
 			local listTrans = self.transform:Find("SangvisCharacterList(Clone)");

@@ -28,4 +28,4 @@ local Awake = function(self)
 	end
 end
 util.hotfix_ex(CS.CommonOperationSettlementController,'SetLeaderPic',_SetLeaderPic)
-util.hotfix_ex(CS.CommonOperationSettlementController,'Awake',Awake)
+--util.hotfix_ex(CS.CommonOperationSettlementController,'Awake',Awake)

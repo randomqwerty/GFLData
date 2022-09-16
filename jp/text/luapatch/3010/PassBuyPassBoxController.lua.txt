@@ -3,8 +3,8 @@ xlua.private_accessible(CS.PassBuyPassBoxController)
 xlua.private_accessible(CS.PassOrderUserData)
 xlua.private_accessible(CS.HotUpdateController)
 xlua.private_accessible(CS.GameData)
+xlua.private_accessible(CS.Data)
 local myRefreshPriceLabel = function(self)
-	print("===")
     self:RefreshPriceLabel()
 	local normal1 = self.normalPassBuyPrice_Obj.transform:GetChild(0);
 	if normal1 ~= nil then
@@ -31,6 +31,7 @@ local myRefreshPriceLabel = function(self)
 	if deluxe3 ~= nil then
 		deluxe3.gameObject:SetActive(false);
 	end
+	
 	if CS.PassOrderUserData.Instance.normalGood ~= nil then
 			if self.currentOrder.enjoyDiscount == true then
 				if CS.PassOrderUserData.Instance:UnlockLevel(self.currentOrder.id) == CS.PassOrderUserData.PassOrderUnLockType.PassOrderUnLockTypeNone then
@@ -38,26 +39,74 @@ local myRefreshPriceLabel = function(self)
 					self.deluxePassBuyPrice_Obj:SetActive(false);
 					self.normalDiscountPrice_Obj:SetActive(true);
 					self.deluxeDiscountPrice_Obj:SetActive(true);
-					self.normalDiscountBuyPrice_Tex.text = self.PassOrderUserData.Instance.normalGood.displayPrice:ToString();
-					self.normalDiscountBuyPriceNow_Tex.text = self.PassOrderUserData.Instance.normalDiscountGood.displayPrice:ToString();
-					self.deluxeDiscountBuyPrice_Tex.text = self.PassOrderUserData.Instance.spGood.displayPrice:ToString();
-					self.deluxeDiscountBuyPriceNow_Tex.text = self.PassOrderUserData.Instance.spDiscountGood.displayPrice:ToString();
+					local normalPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.normalGood.displayPrice)) then
+						normalPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.normalGood.pointPrice;
+					else
+						normalPrice = CS.PassOrderUserData.Instance.normalGood.displayPrice;
+					end
+					self.normalDiscountBuyPrice_Tex.text = normalPrice;
+					local normalDiscountPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.normalDiscountGood.displayPrice)) then
+						normalDiscountPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.normalDiscountGood.pointPrice;
+					else
+						normalDiscountPrice = CS.PassOrderUserData.Instance.normalDiscountGood.displayPrice;
+					end
+					self.normalDiscountBuyPriceNow_Tex.text = normalDiscountPrice;
+					local deluxeDiscountPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.spGood.displayPrice)) then
+						deluxeDiscountPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.spGood.pointPrice;
+					else
+						deluxeDiscountPrice = CS.PassOrderUserData.Instance.spGood.displayPrice;
+					end
+					self.deluxeDiscountBuyPrice_Tex.text = deluxeDiscountPrice;
+					local deluxeDiscountNowPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.spDiscountGood.displayPrice)) then
+						deluxeDiscountNowPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.spDiscountGood.pointPrice;
+					else
+						deluxeDiscountNowPrice = CS.PassOrderUserData.Instance.spDiscountGood.displayPrice;
+					end
+					self.deluxeDiscountBuyPriceNow_Tex.text = deluxeDiscountNowPrice;				
 				elseif CS.PassOrderUserData.Instance:UnlockLevel(self.currentOrder.id) == CS.PassOrderUserData.PassOrderUnLockType.PassOrderUnLockTypeBasic then
 					self.normalPassBuyPrice_Tex.text = "";
 					self.normalPassBuyImgObj:SetActive(true);
-					self.deluxePassBtn_BuyPrice_Tex.text = CS.PassOrderUserData.Instance.spDiscountSupplyGood.displayPrice:ToString();
+					local deluxeDiscountNowPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.spDiscountSupplyGood.displayPrice)) then
+						deluxeDiscountNowPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.spDiscountSupplyGood.pointPrice;
+					else
+						deluxeDiscountNowPrice = CS.PassOrderUserData.Instance.spDiscountSupplyGood.displayPrice;
+					end
+					self.deluxePassBtn_BuyPrice_Tex.text = deluxeDiscountNowPrice;
 				else	
 					self.normalPassBuyImgObj:SetActive(true);
 					self.deluxPassBuyImgObj:SetActive(true);	
 				end
 			else
 				if CS.PassOrderUserData.Instance:UnlockLevel(self.currentOrder.id) == CS.PassOrderUserData.PassOrderUnLockType.PassOrderUnLockTypeNone then
-					self.normalPassBuyPrice_Tex.text = CS.PassOrderUserData.Instance.normalGood.displayPrice:ToString();
-					self.deluxePassBtn_BuyPrice_Tex.text = CS.PassOrderUserData.Instance.spGood.displayPrice:ToString();
+					local normalPassPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.normalGood.displayPrice)) then
+						normalPassPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.normalGood.pointPrice;
+					else
+						normalPassPrice = CS.PassOrderUserData.Instance.normalGood.displayPrice;
+					end
+					self.normalPassBuyPrice_Tex.text = normalPassPrice;
+					local deluxePassPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.spGood.displayPrice)) then
+						deluxePassPrice = CS.Data.GetLang(71011) .. CS.PassOrderUserData.Instance.spGood.pointPrice;
+					else
+						deluxePassPrice = CS.PassOrderUserData.Instance.spGood.displayPrice;
+					end
+					self.deluxePassBtn_BuyPrice_Tex.text = deluxePassPrice;				
 				elseif CS.PassOrderUserData.Instance:UnlockLevel(self.currentOrder.id) == CS.PassOrderUserData.PassOrderUnLockType.PassOrderUnLockTypeBasic then
 					self.normalPassBuyPrice_Tex.text = "";
 					self.normalPassBuyImgObj:SetActive(true);
-					self.deluxePassBtn_BuyPrice_Tex.text = CS.PassOrderUserData.Instance.spSupplyGood.displayPrice:ToString();
+					local deluxePassPrice = "";
+					if (CS.System.String.IsNullOrEmpty(CS.PassOrderUserData.Instance.spSupplyGood.displayPrice)) then
+						deluxePassPrice = CS.Data.GetLang(71011) ..  CS.PassOrderUserData.Instance.spSupplyGood.pointPrice;
+					else
+						deluxePassPrice = CS.PassOrderUserData.Instance.spSupplyGood.displayPrice;
+					end
+					self.deluxePassBtn_BuyPrice_Tex.text = deluxePassPrice;
 				else			
 					self.normalPassBuyImgObj:SetActive(true);
 					self.deluxPassBuyImgObj:SetActive(true);
@@ -78,8 +127,8 @@ local myStart = function(self)
 	end
 	self:Start();
 end
-
 if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+
 	util.hotfix_ex(CS.PassBuyPassBoxController,'RefreshPriceLabel',myRefreshPriceLabel)
 	util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',myOnIAPValidateComplete)
 	util.hotfix_ex(CS.PassBuyPassBoxController,'Start',myStart)

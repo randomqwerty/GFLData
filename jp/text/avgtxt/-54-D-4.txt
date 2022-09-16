@@ -1,5 +1,5 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>529</BIN><SE1>AVG_Station_Bell</SE1><BGM>BGM_Moon</BGM>:莫斯科，白俄罗斯车站。+卢卡斯搀扶着鲁戈萨医生登上列车。
+()<Speaker></Speaker>||<黑屏2><BIN>529</BIN><SE1>AVG_Station_Bell</SE1><BGM>BGM_Moon</BGM>:莫斯科，白俄罗斯车站，“未来号”洲际列车。+卢卡斯搀扶着鲁戈萨医生登上一等车厢。
 NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||<SE1>AVG_BaseDoor_Close</SE1>:先生，义诊还没结束，我们提前回柏林会不会不太好？+迦拉提亚集团知道您没有遵守合约，恐怕会责怪您的……
 NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:亲爱的卢卡斯，你应该会帮我糊弄过去的，对吧？
 NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||:……知道了，先生，我会想办法的。
@@ -11,7 +11,7 @@ NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:有的时候，我忍不住会
 ()<Speaker></Speaker>||:鲁戈萨医生感觉到身旁小助手担忧而深切的目光，轻松地笑了笑。
 NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:我又在说胡话了……
 ()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:哒哒——平稳的脚步声，一位女士出现在了座位边。+在确认车票信息后，女士坐在了鲁戈萨医生的对面。
-AR18(2)<Speaker>柳德米拉</Speaker>||<SE1>Stop_AVG_loop</SE1>:您好，柳德米拉。
+AR18(2)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||<SE1>Stop_AVG_loop</SE1>:您好，柳德米拉。
 NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:尤金•鲁戈萨，您可以叫我鲁戈萨医生。
 ()<Speaker></Speaker>||:在一阵客气的寒暄后，车厢再一次安静了下来。
 ()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:卢卡斯取出了毛毯，搭在了医生的身上，在温暖的包裹中，医生陷入了沉睡……
@@ -22,9 +22,9 @@ NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:尤金•鲁戈萨，您可以
 NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||<边框>2</边框>:先生，今天的实验对象到了。
 NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<边框>2</边框>:嗯，先都过一遍吧。
 NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||<边框>2</边框>:好的。
-()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_Truth</BGM>:卢卡斯打开门，将一个个头矮小的男孩领进来。
-NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||<边框>2</边框><SE1>AVG_20Winter_Book</SE1>:安东尼奥，年龄10，身高120厘米，体重30千克。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<边框>2</边框>:验收合格，将他领到后面去吧。
+()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_Truth</BGM>:卢卡斯打开门，将一个个头矮小的女孩领进来。
+NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||<边框>2</边框><SE1>AVG_20Winter_Book</SE1>:安东尼娜，年龄10，身高120厘米，体重30千克。
+NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<边框>2</边框>:验收合格，将她领到后面去吧。
 NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||<边框>2</边框>:好的。
 NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||<SE1>AVG_20Winter_Book</SE1><边框>2</边框>:下一个……萝希塔，年龄11，身高……
 ()<Speaker></Speaker>||<边框>2</边框>:卢卡斯突然停下了手中的检测，望向了医生。

@@ -238,6 +238,7 @@ local RefreshCurrentDiffcluty = function(self)
 	end
 end
 
+local playtrain = false;
 local PlayMoudleBackgroundMove = function(self,addspeed)
 	local datetime = CS.GameData.UnixToDateTime(CS.GameData.GetCurrentTimeStamp());
 	local day = datetime.Day;
@@ -253,8 +254,14 @@ local PlayMoudleBackgroundMove = function(self,addspeed)
 			CS.OPSPanelController.backgroundOrder = 0;
 			self.currentPanelConfig.moudleMoveBackgroundConfig.configs:RemoveAt(0);
 		end
-		if CS.AVGController.inst == nil or not CS.AVGController.inst:isNull() then
+		if CS.AVGController.inst == nil or CS.AVGController.inst:isNull() then
 			CS.CommonAudioController.PlayUI("UI_Train_Onrail");
+			playtrain = true;
+		else
+			if playtrain then
+				playtrain = false;
+				CS.CommonAudioController.PlayUI("Stop_UI_loop");
+			end
 		end
 		self:PlayMoudleBackgroundMove(addspeed);
 	end
@@ -303,6 +310,16 @@ local Load = function(self,campaion)
 				local temp = Split(lineTxt[i],"|");
 				if temp[1] == "ModuleSpineAIMission" then
 					local code = temp[2];
+					if not self.currentPanelConfig.opsSpineMissions:ContainsKey(code) then
+						local opsspinemission = CS.OPSSpineMission();
+						opsspinemission.spineCode = code;
+						opsspinemission.moudleName = tostring(temp[3]);
+						self.currentPanelConfig.opsSpineMissions:Add(code,opsspinemission);
+					else
+						local opsspinemission = self.currentPanelConfig.opsSpineMissions:get_Item(code);
+						opsspinemission.spineCode = code;
+						opsspinemission.moudleName = tostring(temp[3]);
+					end
 					local missiontxt = Split(temp[4],",");
 					local opsmissions = CS.System.Collections.Generic.List(CS.OPSMission)();
 					for j=1,#missiontxt do
@@ -392,6 +409,16 @@ local RequestSetDrawEvent = function(self,data)
 	self:RefreshMoudleBuildUI();
 	self:CheckMoudleUi();	
 end
+local GetAllGroupTotalHighScore = function(self)
+	if self.campaionId == -54 then
+		local mission = CS.GameData.listMission:GetDataById(11118);
+		if mission ~= nil then
+			return mission.type5_score;
+		end
+		return 0;
+	end
+	return self:GetAllGroupTotalHighScore();
+end
 function Split(szFullString, szSeparator)
 	local nFindStartIndex = 1
 	local nSplitIndex = 1
@@ -431,3 +458,4 @@ util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)
 util.hotfix_ex(CS.OPSPanelController,'LoadTitle',LoadTitle)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetCampaigns',RequestSetCampaigns)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.OPSPanelController,'GetAllGroupTotalHighScore',GetAllGroupTotalHighScore)
