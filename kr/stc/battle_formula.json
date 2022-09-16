@@ -10136,6 +10136,266 @@
     "formula": "@characterstatus=0?1:0"
   },
   {
+    "id": 4717,
+    "formula": "100+(100-@life*100/@Maxlife)*1"
+  },
+  {
+    "id": 4718,
+    "formula": "100+(100-@life*100/@Maxlife)*1"
+  },
+  {
+    "id": 4719,
+    "formula": "100+(100-@life*100/@Maxlife)*1"
+  },
+  {
+    "id": 4720,
+    "formula": "100+(100-@life*100/@Maxlife)*1"
+  },
+  {
+    "id": 4721,
+    "formula": "100+(100-@life*100/@Maxlife)*2"
+  },
+  {
+    "id": 4722,
+    "formula": "100+(100-@life*100/@Maxlife)*2"
+  },
+  {
+    "id": 4723,
+    "formula": "100+(100-@life*100/@Maxlife)*2"
+  },
+  {
+    "id": 4724,
+    "formula": "100+(100-@life*100/@Maxlife)*2"
+  },
+  {
+    "id": 4725,
+    "formula": "100+(100-@life*100/@Maxlife)*2"
+  },
+  {
+    "id": 4726,
+    "formula": "100+(100-@life*100/@Maxlife)*2"
+  },
+  {
+    "id": 4727,
+    "formula": "sbuffidtier(8397)=0?0:1"
+  },
+  {
+    "id": 4728,
+    "formula": "sbuffidtier(8399)=0?0:1"
+  },
+  {
+    "id": 4729,
+    "formula": "getchance(@hit*100/(@hit+#dodge))?$1*(1+sbuffidtier(8399)/100):$1"
+  },
+  {
+    "id": 4730,
+    "formula": "sbuffidtier(8400)"
+  },
+  {
+    "id": 4731,
+    "formula": "svisualbuffcount(101)+svisualbuffcount(102)+svisualbuffcount(103)+svisualbuffcount(104)+svisualbuffcount(105)+svisualbuffcount(106)-sbuffidtier(8381)-sbuffidtier(8382)"
+  },
+  {
+    "id": 4732,
+    "formula": "svisualbuffcount(112)+svisualbuffcount(111)+sbufftypetier(128)+sbufftypetier(129)+svisualbuffcount(109)+svisualbuffcount(108)"
+  },
+  {
+    "id": 4733,
+    "formula": "$1<svisualbuffcount(101)+svisualbuffcount(102)+svisualbuffcount(103)+svisualbuffcount(104)+svisualbuffcount(105)+svisualbuffcount(106)-sbuffidtier(8381)-sbuffidtier(8382)?1:0"
+  },
+  {
+    "id": 4734,
+    "formula": "$1<svisualbuffcount(112)+svisualbuffcount(111)+sbufftypetier(128)+sbufftypetier(129)+svisualbuffcount(109)+svisualbuffcount(108)?1:0"
+  },
+  {
+    "id": 4735,
+    "formula": "$1=svisualbuffcount(101)+svisualbuffcount(102)+svisualbuffcount(103)+svisualbuffcount(104)+svisualbuffcount(105)+svisualbuffcount(106)-sbuffidtier(8381)-sbuffidtier(8382)?0:1"
+  },
+  {
+    "id": 4736,
+    "formula": "$1=svisualbuffcount(112)+svisualbuffcount(111)+sbufftypetier(128)+sbufftypetier(129)+svisualbuffcount(109)+svisualbuffcount(108)?0:1"
+  },
+  {
+    "id": 4737,
+    "formula": "sbuffidtier(8384)=1?8381:sbuffidtier(8384)=2?8385:8387"
+  },
+  {
+    "id": 4738,
+    "formula": "sbuffidtier(8384)=1?8382:sbuffidtier(8384)=2?8386:8388"
+  },
+  {
+    "id": 4739,
+    "formula": "@leader=1?1:0"
+  },
+  {
+    "id": 4740,
+    "formula": "sbuffidtier(8381)<sbuffidtier(8384)?1:0"
+  },
+  {
+    "id": 4741,
+    "formula": "sbuffidtier(8382)<sbuffidtier(8384)?1:0"
+  },
+  {
+    "id": 4742,
+    "formula": "sbuffidtier(8416)=1?1:0"
+  },
+  {
+    "id": 4743,
+    "formula": "sbuffidtier(8416)=1?1:0"
+  },
+  {
+    "id": 4744,
+    "formula": "#enemytype=2?1:#enemytype=4?1:tbuffidtier(8417)=1?1:0"
+  },
+  {
+    "id": 4745,
+    "formula": "@armor*5"
+  },
+  {
+    "id": 4746,
+    "formula": "@pow*5"
+  },
+  {
+    "id": 4747,
+    "formula": "sbuffidtier(8422)=1?1:0"
+  },
+  {
+    "id": 4748,
+    "formula": "tbuffidtier(8445)>0?$1:0"
+  },
+  {
+    "id": 4749,
+    "formula": "tbuffidtier(8445)>0?1:0"
+  },
+  {
+    "id": 4750,
+    "formula": "#def<#maxdef?(tbuffidtier(8446)>0?#maxlife*0.01*sbuffidtier(8450):0):#def=0?(tbuffidtier(8446)>0?#maxlife*0.01*sbuffidtier(8450):0):0"
+  },
+  {
+    "id": 4751,
+    "formula": "sbuffidtier(8451)<sbuffidtier(8452)?1:0"
+  },
+  {
+    "id": 4752,
+    "formula": "@leader=1?1:0"
+  },
+  {
+    "id": 4753,
+    "formula": "sbuffidtier(8454)=100?0:1"
+  },
+  {
+    "id": 4754,
+    "formula": "sbuffidtier(8454)=100?1:0"
+  },
+  {
+    "id": 4755,
+    "formula": "@ap-#armor>0?(@ap-#armor)*sbuffidtier(8459)*0.01:0"
+  },
+  {
+    "id": 4756,
+    "formula": "#career=5?-1:#career=6?-1:0"
+  },
+  {
+    "id": 4757,
+    "formula": "sbufftypetier(201)+sbufftypetier(202)+sbufftypetier(203)+sbufftypetier(204)+sbufftypetier(205)+sbufftypetier(206)+sbufftypetier(208)"
+  },
+  {
+    "id": 4758,
+    "formula": "2*sbuffidtier(8469)"
+  },
+  {
+    "id": 4759,
+    "formula": "#career=5?-99:#career=6?-99:0"
+  },
+  {
+    "id": 4760,
+    "formula": "100+sbuffidtier(8461)*1"
+  },
+  {
+    "id": 4761,
+    "formula": "sbuffidtier(8461)*1"
+  },
+  {
+    "id": 4762,
+    "formula": "$1+(5-#formation)*sbuffidtier(8471)*0.01*$1"
+  },
+  {
+    "id": 4763,
+    "formula": "(5-#formation)*100000-#Life*0.01"
+  },
+  {
+    "id": 4764,
+    "formula": "#leader=1?8474:0"
+  },
+  {
+    "id": 4765,
+    "formula": "svisualbuffcount(101)+svisualbuffcount(102)+svisualbuffcount(103)+svisualbuffcount(104)+svisualbuffcount(105)+svisualbuffcount(106)"
+  },
+  {
+    "id": 4766,
+    "formula": "svisualbuffcount(112)+svisualbuffcount(111)+sbufftypetier(128)+sbufftypetier(129)+svisualbuffcount(109)+svisualbuffcount(108)"
+  },
+  {
+    "id": 4767,
+    "formula": "$1<svisualbuffcount(101)+svisualbuffcount(102)+svisualbuffcount(103)+svisualbuffcount(104)+svisualbuffcount(105)+svisualbuffcount(106)?1:0"
+  },
+  {
+    "id": 4768,
+    "formula": "$1<svisualbuffcount(112)+svisualbuffcount(111)+sbufftypetier(128)+sbufftypetier(129)+svisualbuffcount(109)+svisualbuffcount(108)?1:0"
+  },
+  {
+    "id": 4769,
+    "formula": "sbuffidtier(8490)+8479"
+  },
+  {
+    "id": 4770,
+    "formula": "#leader=1?8491:0"
+  },
+  {
+    "id": 4771,
+    "formula": "$1+$1*(5-@formation)*sbuffidtier(8397)*0.01/4"
+  },
+  {
+    "id": 4772,
+    "formula": "@Maxlife*0.2"
+  },
+  {
+    "id": 4773,
+    "formula": "@shield>0?200:100"
+  },
+  {
+    "id": 4774,
+    "formula": "@life*0.01"
+  },
+  {
+    "id": 4775,
+    "formula": "0"
+  },
+  {
+    "id": 4776,
+    "formula": "sbufftypetier(307)=0?0:1"
+  },
+  {
+    "id": 4777,
+    "formula": "sbuffidtier(8518)"
+  },
+  {
+    "id": 4778,
+    "formula": "sbuffidtier(8518)+5"
+  },
+  {
+    "id": 4779,
+    "formula": "sbuffidtier(8521)*3"
+  },
+  {
+    "id": 4780,
+    "formula": "@leader=1&sbuffidtier(8454)=100?1:0"
+  },
+  {
+    "id": 4781,
+    "formula": "sbufftypetier(201)+sbufftypetier(202)+sbufftypetier(203)+sbufftypetier(204)+sbufftypetier(205)+sbufftypetier(206)+sbufftypetier(208)>0?1:0"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
