@@ -2,6 +2,7 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.PassOrderController)
 xlua.private_accessible(CS.ExText)
 xlua.private_accessible(CS.Data)
+xlua.private_accessible(CS.CommonTopController)
 local myScrollCallBack = function(self,index)
     self.specialItem.isSpecialView = false;
     self:ScrollCallBack(index)
@@ -19,5 +20,10 @@ local myStart = function(self)
 		textshow.text = CS.Data.GetLang(1215);
 	end	
 end
+local myRequestGetAllBonusHandle = function(self,request)
+	self:RequestGetAllBonusHandle(request)
+	CS.CommonTopController.TriggerRefershResourceEvent();
+end
 util.hotfix_ex(CS.PassOrderController,'ScrollCallBack',myScrollCallBack)
---util.hotfix_ex(CS.PassOrderController,'Start',myStart)	
+util.hotfix_ex(CS.PassOrderController,'Start',myStart)	
+util.hotfix_ex(CS.PassOrderController,'RequestGetAllBonusHandle',myRequestGetAllBonusHandle)	

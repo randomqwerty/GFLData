@@ -90,7 +90,7 @@ NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……
 ()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:他转过身，走进车厢，关上了大门。+……
 ()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:“未来号”洲际列车 F01车厢 休息室内
 NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:……先生，我已经按照教官意思安排下去了。
-()<Speaker>柳德米拉</Speaker>||:……多谢。+接下来就请你们照顾这里了，我需要去支援一个人。
+AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……多谢。+接下来就请你们照顾这里了，我需要去支援一个人。
 NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:你放心。
 ()||:在他的身后，休息室的门前，那凛然的身影飘然现身。
 AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:可惜……我没有什么可以回报二位的信任。
@@ -104,13 +104,13 @@ AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
 ()||<SE1>Select</SE1>:半晌，她从腰间的枪套里拔出了自己的手枪，反持着将枪递给医生。
 ()||<SE1>Rope</SE1>:鲁戈萨医生郑重接过手枪。
 NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:……！
-()||:卢卡斯看着医生，脸上浮现出愁容。
-()||:鲁戈萨的脸上映射着窗外的火光。+特等车厢以外的地方，那些军队的触手已经延伸到了列车的周遭。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:如果我没有猜错的话，你就是他们的目标？
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>;NPC-Doctor(0)||:……是。+所以我会亲手解决这一切。
-AR18(6)<Position>0,70</Position>;NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:所以你打算怎么做？
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>;NPC-Doctor(0)||:让黎明照亮黑夜。
-AR18(6)<Position>0,70</Position>;NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:能够在这种时刻与你相识，柳德米拉教官。+我很欣慰。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||<SE1>AVG_footsteps_cave</SE1>:一样，尤金·鲁戈萨医生。
+()||<黑屏1>:卢卡斯看着医生，脸上浮现出愁容。
+()||<黑屏2><BIN>519</BIN>:鲁戈萨的脸上映射着窗外的火光。+特等车厢以外的地方，那些军队的触手已经延伸到了列车的周遭。
+()<Speaker>鲁戈萨医生</Speaker>||:如果我没有猜错的话，你就是他们的目标？
+()<Speaker>柳德米拉</Speaker>||:……是。+所以我会亲手解决这一切。
+()<Speaker>鲁戈萨医生</Speaker>||:所以你打算怎么做？
+()<Speaker>柳德米拉</Speaker>||:让黎明照亮黑夜。
+()<Speaker>鲁戈萨医生</Speaker>||:能够在这种时刻与你相识，柳德米拉教官。+我很欣慰。
+()<Speaker>柳德米拉</Speaker>||:一样，尤金·鲁戈萨医生。
 ()||:柳德米拉闭上眼，难得地笑了笑，迈步踏出了门。
 ()||<黑屏1>:……

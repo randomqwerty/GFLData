@@ -310,6 +310,16 @@ local Load = function(self,campaion)
 				local temp = Split(lineTxt[i],"|");
 				if temp[1] == "ModuleSpineAIMission" then
 					local code = temp[2];
+					if not self.currentPanelConfig.opsSpineMissions:ContainsKey(code) then
+						local opsspinemission = CS.OPSSpineMission();
+						opsspinemission.spineCode = code;
+						opsspinemission.moudleName = tostring(temp[3]);
+						self.currentPanelConfig.opsSpineMissions:Add(code,opsspinemission);
+					else
+						local opsspinemission = self.currentPanelConfig.opsSpineMissions:get_Item(code);
+						opsspinemission.spineCode = code;
+						opsspinemission.moudleName = tostring(temp[3]);
+					end
 					local missiontxt = Split(temp[4],",");
 					local opsmissions = CS.System.Collections.Generic.List(CS.OPSMission)();
 					for j=1,#missiontxt do
