@@ -1,80 +1,80 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>313</BIN>:……萨卡洛夫辖区，酒吧。
-()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:庆祝新人加入的酒会正在热烈进行中，丹尼尔捋了捋西装上的褶皱，走入了喧闹的人群。+明面上，这只是一场以欢迎新人为由头的律贼小型酒会。+但丹尼尔知道，这是给新人的第一个机会——通过这场酒会，快速选择自己追随的律贼目标。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:……
-()||<SE1>Stop_AVG_loop</SE1>:丹尼尔紧张地喝了口杯中的香槟，目光在热烈交谈的人群中逡巡起来。+除了柳芭老妈，律贼的各个小头目几乎都现身了。+丹尼尔的视线在他们身上挨个游走，但仅凭只言片语，难以判断究竟谁才是值得跟随的目标。+正在丹尼尔犹豫不决的时候，一个在人群中显得有些独特的男人吸引了他的目光。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>看上去不是个好接近的人。</color>+<color=#A9A9A9>……要不要上去打个招呼看看？</color>
-()||:那个男人靠在吧台边，慢慢地摇晃着手里的红酒杯，在一片穿着休闲随意的律贼中间，他的西服款式考究，经典又不显得过气，材质在昏暗的灯光下都能看出其昂贵。+最值得注意的是，每一个路人都会主动向他问好，但没有一个人敢驻足和他交谈。+丹尼尔凝神倾听，确认了这个男人被称作“尼古拉”。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:您好，尼古拉先生。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>Stop_AVG_loop</SE1>:我是新加入律贼的丹尼尔，请原谅我的斗胆攀谈。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:……丹尼尔？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:是的，先生。
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:尼古拉放下了手中的酒杯，挑眉望向丹尼尔。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:什么事？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:……
-NPC-Bodyguard1(0);NPC-NervousMan(0)<同时置暗><Speaker></Speaker>||:丹尼尔紧张地咽了咽口水。+尼古拉的气质不同于其他律贼，显然不能用应对其他律贼的方式来和他交谈。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:恕我冒昧，先生，我刚成为律贼，还对我的道路充满迷惘。+如果能得到您的一二指点，我将不胜荣幸。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:……
-()||:尼古拉笑了笑，从西装内侧的口袋中取出雪茄盒，给一支雪茄剪去头。
-()||:丹尼尔恭敬地打开打火机，让雪茄在火苗上缓缓地转动加热。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:你想找点什么活计？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(1)||:任何能为您效劳的事，我都愿意。
-NPC-Bodyguard1(0);NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:很好。+我正在组建新项目。
-NPC-Bodyguard1(0);NPC-NervousMan(1)<同时置暗><Speaker></Speaker>||:尼古拉轻轻反吹两口，享受起雪茄的第一口香气。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:明早来我的办公室报到。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:感谢您，先生。
-()||<SE1>DealCards</SE1>:带着玩味的笑意，尼古拉将名片递给丹尼尔，消失在酒会上。+丹尼尔低头看向名片——+尼古拉·瓦西里耶维奇
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker><Shake>0.1</Shake>||<黑屏1><BGM>BGM_Empty</BGM>:……+我的天，这不就是传说中萨卡洛夫先生的养子……
-()||<BIN>9</BIN><黑屏1>:沉浸在喜悦中的丹尼尔绝不会想到，这将是他这一生中最后悔的决定。
-()||<黑屏2><BIN>168</BIN>:……三个月后，清晨。+律贼的7号仓库。
-()||<SE1>AVG_HeavyVehicle_Stop</SE1><BGM>GF_21winter_avg_pathfinder</BGM>:按照尼古拉的命令，丹尼尔将小型货车停靠在乌利察里瓦公路边。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:……+尼古拉先生，我们真的要这么做吗？
-NPC-Bodyguard1(0);NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:你在质疑我？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:我只是想起其他人提过，这是柳芭老妈留给那位老板的货物……
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:我知道，可是那位大老板早就出国避难了，肯定不会再回来的。+与其坐等这些货物烂在仓库，不如卖给有需要的人。
-()||<SE1>AVG_20Winter_Gate_Close</SE1>:唰——尼古拉打开了仓库门。+丹尼尔犹疑不定地看着仓库中的枪火弹药，又看了看尼古拉的背影。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:愣着干什么？我是请你来看我搬的？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:……
-()||<SE1>AVG_Cloak_Whoosh</SE1>:丹尼尔开始一箱箱将货物搬上了货车车厢。+似乎是察觉到了丹尼尔的兴致不高，尼古拉走到他的身边。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:等干完这一票，我会向柳芭老妈申请，给你提成干部的。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:谢谢您，尼古拉先生。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:再怎么说，你现在也是我的心腹了。
-()||:尼古拉拍了拍丹尼尔，走到一边抽烟去了。+在尼古拉看不到的地方，丹尼尔幽幽地叹了口气。+距离那一场热闹的迎新会才过去三个月有余，当初被尼古拉吸收入组的七个新人就只剩下他了。+三个在多次受伤后决定退出律贼组织，两个死在一场因为尼古拉和其他团伙老大以相当无聊的理由而引起的火并中，一个因为帮尼古拉顶罪而想不开自杀，一个因为尼古拉搞错了接应时间而被警察逮捕。+时至今日，丹尼尔才得知尼古拉在律贼中的称号，“没用的尼古拉”。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>尼古拉先生……我知道你不是真的没用，可是你真的运气太差了……</color>+<color=#A9A9A9>我发自内心地同情你，但是——</color>+<color=#A9A9A9>我也得为自己想想出路了……</color>
-()||<SE1>AVG_engine_speedup</SE1><黑屏1>:搬完最后一箱货物，丹尼尔沉重地发动了货车。
-()||<BIN>97</BIN><黑屏2>:……翌日。+柳芭老妈的办公室外。
-()||:丹尼尔惴惴不安地在门外等待着，激烈的争吵声穿透了厚厚的墙壁和门，他几乎能清晰地听见每一个字。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>果然，这一次也是，刚倒手卖完压在仓库四五年的货物，原来的买家就找上门了。</color>+<color=#A9A9A9>每一次都是这样……</color>
-()||:丹尼尔又一次叹了口气。
-()||<SE1>AVG_Door_Hit</SE1><震屏3>:砰——+尼古拉猛地踹开大门走了出来。
-NPC-NervousMan(3)<Speaker>尼古拉</Speaker>||:我告诉你！不是我没有才能，是老子时运不济！+不是他*的队友不给力，就是倒他*的大霉！+要是给我最精英的人手配置，我也能搞出大事！
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:……
-NPC-NervousMan(3)<Speaker>尼古拉</Speaker><Shake>0.1</Shake>||:你不要用这种鄙夷的眼神看我！我受够了！
-()||<SE1>AVG_Broken_Glass</SE1>:尼古拉发疯一般地砸掉了走廊上精美的陈设品。+柳芭老妈只是坐在轮椅上，冷漠地看着。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:尼古拉先生……
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:不用阻拦，随他发癫。
-NPC-NervousMan(3)<Speaker>尼古拉</Speaker>||:我他*不干了！我今天就走！+你们都给我等着！+我总有一天，会干出成绩回来打烂你们的脸！
-()||<SE1>RunStep</SE1>:尼古拉嘶吼着，身影很快消失在了走廊尽头。+柳芭老妈挥了挥手，示意属下推着自己离开。+稍作权衡后，丹尼尔拦住了柳芭老妈的去路。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:抱歉，柳芭老妈，我有事想要汇报。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>;NPC-Bodyguard1(0)||:说。
-NPC-OldLady(0)<Position>0,180</Position>;NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:关于那批货物……+我没有按照尼古拉先生的指示运送到对方的仓库中。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:……
-()||:柳芭老妈抬起了头，看向丹尼尔。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:我知道这样做有违规则，但我认为不经您的授意私下倒卖货物，才是更加错误的行为……+所以，我斗胆延长了交货的期限，现在那批货物还在13号仓库中。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:很好。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:感谢您的谅解。+稍后我会把货物放回到原来的仓库，交易人那边我也会去解释的。
-()||<SE1>AVG_Wheelchair</SE1><黑屏1>:柳芭老妈点了点头，然后也离开了走廊。+虽然她的反应很平淡，但丹尼尔知道自己已经给她留下了很不错的印象。
-()||<黑屏2><BIN>313</BIN><BGM>BGM_Empty</BGM>:……一年后，萨卡洛夫辖区，酒吧。
-()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:庆祝新人加入的酒会正在热烈进行中，丹尼尔倚靠在吧台边吞吐着烟雾，偶尔心不在焉地扫视一圈兴奋不已的新人，企图从中找出“那个人”。+最近，辖区中开始流传起一个名号为“走私大王”的新人，柳芭老妈特意邀请了这个人来参加今天的酒会。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>Stop_AVG_loop</SE1>:……+<color=#A9A9A9>已经十五分钟了……</color>+<color=#A9A9A9>就算是走私大王，敢这么肆无忌惮地在柳芭老妈的地盘上迟到的，还是头一个……</color>
-()||<SE1>AVG_Door_Open_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:嘎吱——+此刻——即庆典开始的十五分钟后——酒吧的门被推开了。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>挺有胆，迟到了还敢来，柳芭老妈最痛恨不守时的人……</color>
-()||<SE1>ClothingUp</SE1>:丹尼尔换了个姿势，以看戏的心态观察起了来者。
-()||<BGM>BGM_Empty</BGM>:一个西装革履、发型一丝不苟的男人走进酒吧，看见他的律贼无不露出目瞪口呆的表情。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>Stop_AVG_loop</SE1>:什么？！是……
-()||<SE1>AVG_footsteps_cave</SE1>:面对惊讶的众人，来者从容地走下台阶，径直来到柳芭老妈边上的座位。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||<SE1>Stop_AVG_loop</SE1>:……
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:好久不见，柳芭老妈。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:尼古拉潇洒地坐在了柳芭老妈对面，手上鸽子蛋般大小的宝石散发出耀眼的光芒。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:我就是您在等的人。
-()||<黑屏1>:
+()||<黑屏2><BIN>313</BIN>:...사하로프의 관할 구역, 어느 술집.
+()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:신참을 환영하는 파티가 뜨겁게 열리고 있었다. 다니엘은 양복 주름을 펴고서 시끌벅적한 사람들 사이로 걸었다.+겉보기에는 그저 신참을 환영하는 보르 브 자코녜의 작은 파티 같지만, 다니엘은 알고 있었다.+이것은 신참에게 주는 첫 번째 찬스다. 이 파티에서 누구의 라인에 탈지 빨리 골라야 한다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:......
+()||<SE1>Stop_AVG_loop</SE1>:다니엘은 긴장으로 타는 목을 샴페인으로 축이며 담소를 나누는 사람들을 둘러보았다.+류바 할멈 말고도 조직의 간부들이 거의 모두 참석했다.+다니엘의 시선은 그들 사이를 오갔지만, 몇 마디 말만 가지고는 과연 누가 튼튼한 동아줄인지 판단하기 힘들었다.+다니엘이 고민하고 있던 중, 사람들 사이에서 약간 독특해 보이는 남자가 눈길을 끌었다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:<color=#A9A9A9>다가가기 힘든 사람 같은데.</color>+<color=#A9A9A9>...가서 가볍게 인사라도 해볼까?</color>
+()||:그 남자는 바 카운터에 기대서 손에 든 와인잔을 살살 흔들고 있었다.+캐주얼하게 입은 도적단원들 사이에서 그의 정장 차림은 고전적이지만 촌스러운 느낌은 아니었다. 어두운 불빛 아래서도 얼마나 비싼 원단을 썼는지 알 수 있었다.+묘하게도, 지나가는 사람들 모두 그에게 먼저 인사를 건넸지만, 멈춰서서 그와 대화를 나누는 사람은 아무도 없었다.+다니엘은 귀를 쫑긋 세워 사람들이 그를 "니콜라스"라고 부르는 것을 확인했다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:반갑습니다, 니콜라스 씨.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||<SE1>Stop_AVG_loop</SE1>:이번에 새로 입단한 다니엘입니다. 혹시 몇 마디 여쭈어봐도 괜찮을까요?
+NPC-NervousMan(0)<Speaker>니콜라스</Speaker>||:...다니엘이라고?
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:예.
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:니콜라스는 술잔을 내려놓고, 눈썹을 치켜올리며 다니엘을 바라보았다.
+NPC-NervousMan(0)<Speaker>니콜라스</Speaker>||:뭔 일인데?
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>;NPC-NervousMan(0)||:......
+NPC-Bodyguard1(0);NPC-NervousMan(0)<同时置暗><Speaker></Speaker>||:다니엘은 긴장으로 침을 꿀꺽 삼켰다.+니콜라스는 여타 단원들과는 다른 분위기를 풍겼다. 평범한 단원들을 대하는 방식은 통하지 않을 게 분명했다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>;NPC-NervousMan(0)||:제가 입단한 지가 얼마 안 돼서 아직 진로를 망설이고 있습니다.+혹시 니콜라스 씨께서 가르침을 주신다면 참으로 영광이겠습니다.
+NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:......
+()||:니콜라스는 히죽 웃고, 정장 안쪽 주머니에서 시가 케이스를 꺼내 한 개비의 머리를 잘랐다.
+()||:다니엘은 바로 공손하게 라이터를 켜서 시가에 불을 천천히 붙였다.
+NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:어떤 일을 하고 싶은데?
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>;NPC-NervousMan(1)||:니콜라스 씨께 도움이 되는 일이라면 다 좋습니다.
+NPC-Bodyguard1(0);NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:좋아.+마침 내가 새로운 사업을 계획 중이거든.
+NPC-Bodyguard1(0);NPC-NervousMan(1)<同时置暗><Speaker></Speaker>||:니콜라스는 시가의 첫 향기를 천천히 빨아들였다.
+NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:내일 내 사무실에 와라.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:감사합니다.
+()||<SE1>DealCards</SE1>:흥미롭다는 듯 입가에 웃음을 걸치고서, 니콜라스는 다니엘에게 명함을 건네고 파티장에서 사라졌다.+다니엘은 고개 숙여 명함을 보았다.+"니콜라스 바실리예비치"
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker><Shake>0.1</Shake>||<黑屏1><BGM>BGM_Empty</BGM>:......+세상에, 소문으로만 듣던 사하로프 씨의 양아들이잖아...?
+()||<BIN>9</BIN><黑屏1>:희열에 빠진 다니엘은, 설마 이것이 그가 인생에서 가장 후회하는 선택이 될 줄은 아직 꿈에도 몰랐다.
+()||<黑屏2><BIN>168</BIN>:...3개월 후, 이른 아침.+보르 브 자코녜의 7번 창고.
+()||<SE1>AVG_HeavyVehicle_Stop</SE1><BGM>GF_21winter_avg_pathfinder</BGM>:니콜라스의 명령대로 다니엘은 소형 트레일러를 울리카리바 도로변에 세웠다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:......+니콜라스 씨, 정말 이렇게 하실 겁니까?
+NPC-Bodyguard1(0);NPC-NervousMan(0)<Speaker>니콜라스</Speaker>||:지금 나를 의심해?
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>;NPC-NervousMan(0)||:다른 사람에게서 들은 건데, 이건 류바 할멈이 그 사장에게 남겨둔 화물이라고...
+NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:나도 알아, 하지만 그 사장은 이미 딴 나라에 피난 가서 다신 안 올 거라고.+창고에서 썩힐 바엔 그냥 필요한 사람한테 팔아버리자는 거지.
+()||<SE1>AVG_20Winter_Gate_Close</SE1>:드르륵... 니콜라스가 창고 문을 열었다.+다니엘은 망설임 가득한 눈빛으로 창고 안의 총기와 탄약 상자들을 훑고는, 니콜라스의 뒷모습을 바라보았다.
+NPC-NervousMan(0)<Speaker>니콜라스</Speaker>||:뭘 멍 때리고 있어? 짐 옮기러 온 거 아니었냐?
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:......
+()||<SE1>AVG_Cloak_Whoosh</SE1>:다니엘은 화물 상자를 하나씩 트레일러에 실었다.+다니엘이 의욕이 없는 것을 눈치챈 듯, 니콜라스가 곁으로 다가왔다.
+NPC-NervousMan(0)<Speaker>니콜라스</Speaker>||:이번 건 처리하면, 류바 할멈한테 너 간부로 올려달라고 신청할게.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>;NPC-NervousMan(0)||:감사합니다, 니콜라스 씨.
+NPC-NervousMan(0)<Speaker>니콜라스</Speaker>||:누가 뭐라 해도 이제 넌 내 심복이니까.
+()||:니콜라스는 다니엘을 다독이고 담배를 피러 갔다.+니콜라스의 눈이 닿지 않는 곳에서 다니엘은 몰래 한숨을 쉬었다.+그 뜨거운 신참 환영회에서 겨우 3개월 지났건만, 거기서 니콜라스가 영입한 신참 일곱 명 중 남은 건 다니엘뿐이었다.+세 명은 몇 번이나 부상당한 끝에 조직을 나갔고, 두 명은 니콜라스와 다른 패거리의 보스가 하찮은 이유로 벌인 총격전에서 숨졌다.+한 명은 니콜라스 대신 덤터기를 썼다가 결국 못 견디고 자살했고, 마지막 한 명은 니콜라스가 접선 시간을 헷갈려서 경찰에 체포되었다.+최근에야 다니엘은 니콜라스가 조직에서 어떻게 불리는지를 알게 됐다. "애물단지" 니콜라스.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:<color=#A9A9A9>니콜라스 씨... 당신이 진짜 무능한 건지는 모르겠지만, 당신은 무엇보다 운이 너무 없습니다...</color>+<color=#A9A9A9>진심으로 당신을 동정하는 바이지만...</color>+<color=#A9A9A9>저도 좀 출구 전략을 모색해야겠습니다...</color>
+()||<SE1>AVG_engine_speedup</SE1><黑屏1>:마지막 화물까지 실은 뒤 다니엘은 무거운 마음으로 트럭의 시동을 걸었다.
+()||<BIN>97</BIN><黑屏2>:...다음 날.+류바 할멈의 사무실 밖.
+()||:다니엘은 문 밖에서 초조하게 기다리고 있었다. 치열한 다툼 소리가 두꺼운 벽과 문을 뚫고 나와서 그에게도 한 글자 한 글자 또박또박 들렸다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:<color=#A9A9A9>이번에도 역시나, 창고에 4년 넘게 방치됐던 화물을 팔아넘겼더니 바로 원래 물주가 돌아왔어.</color>+<color=#A9A9A9>매번 이런 식이야...</color>
+()||:다니엘은 또 한숨을 푹 쉬었다.
+()||<SE1>AVG_Door_Hit</SE1><震屏3>:쾅——!+니콜라스가 문을 박차고서 나왔다.
+NPC-NervousMan(3)<Speaker>니콜라스</Speaker>||:XX 몇 번을 말하냐고! 내가 재능이 없는 게 아니고 운이 안 따라준다니까?+밑의 애들이 일을 X나 못하거나 XX 뒤통수를 맞거나 둘 중 하나라고!+제발 일 잘하는 애들 좀 붙여줘 봐, 그러기만 하면 나도 대박 칠 수 있다고!
+NPC-OldLady(0)<Speaker>류바 할멈</Speaker><Position>0,180</Position>||:......
+NPC-NervousMan(3)<Speaker>니콜라스</Speaker><Shake>0.1</Shake>||:또또또 그 X같은 눈! 그딴 식으로 꼬라보지 말라고!
+()||<SE1>AVG_Broken_Glass</SE1>:니콜라스는 히스테리를 부리며 복도 위의 멋진 장식품들을 깨부쉈다.+류바 할멈은 휠체어에 앉아 그 광경을 무덤덤하게 지켜볼 뿐이었다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:니콜라스 씨...
+NPC-OldLady(0)<Speaker>류바 할멈</Speaker><Position>0,180</Position>||:내버려 둬.
+NPC-NervousMan(3)<Speaker>니콜라스</Speaker>||:나 안 해 XX! 내가 X같아서 나간다!+똑똑히 지켜봐!+내가 무조건 큰 거 한 건 해서 그 콧대를 아작내 줄 테니까!
+()||<SE1>RunStep</SE1>:니콜라스는 마구 짖어대며 복도 끝으로 사라졌다.+류바 할멈은 손짓으로 부하에게 휠체어를 밀라고 지시했다.+그러다 머뭇거리던 다니엘이 류바 할멈을 멈춰세웠다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:죄송합니다, 류바 할멈. 한 가지 보고드릴 일이 있습니다.
+NPC-OldLady(0)<Speaker>류바 할멈</Speaker><Position>0,180</Position>;NPC-Bodyguard1(0)||:말해.
+NPC-OldLady(0)<Position>0,180</Position>;NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:그 화물 말씀입니다만...+제가 니콜라스 씨의 지시를 무시하고 화물을 상대방 쪽 창고로 옮기지 않았습니다.
+NPC-OldLady(0)<Speaker>류바 할멈</Speaker><Position>0,180</Position>||:......
+()||:류바 할멈이 고개를 들어 다니엘을 보았다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:규칙 위반이라는 것은 알지만, 할멈의 허락 없이 화물을 빼돌리는 게 더 잘못된 짓이라 생각했습니다...+그래서 제가 멋대로 물건 인도 기한을 미뤘습니다. 화물은 아직 13번 창고 안에 있습니다.
+NPC-OldLady(0)<Speaker>류바 할멈</Speaker><Position>0,180</Position>||:잘했구나.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:양해해 주셔서 감사합니다.+화물은 이따가 원래 창고로 되돌려 놓을 거고, 거래측에도 제가 설명하겠습니다.
+()||<SE1>AVG_Wheelchair</SE1><黑屏1>:류바 할멈은 고개를 끄덕이고 복도를 지나서 나갔다.+싱거운 반응이었지만 그녀에게 좋은 인상을 남겼음은 확실했다.
+()||<黑屏2><BIN>313</BIN><BGM>BGM_Empty</BGM>:...1년 후, 사하로프의 관할 구역. 술집.
+()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:신참 환영 파티가 뜨겁게 진행 중이었다. 다니엘은 바 카운터에 기대어 담배 연기를 뱉으며, 이따금씩 주변의 들떠 있는 신참들을 훑어보며 목표물을 탐색했다.+최근 이 구역에는 "밀수왕"이라는 신성이 나타났다는 소문이 파다했다. 그리고 류바 할멈이 그 인물을 이번 파티에 특별 초대한 것이다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||<SE1>Stop_AVG_loop</SE1>:......+<color=#A9A9A9>벌써 15분 지났군...</color>+<color=#A9A9A9>아무리 밀수왕이 끗발 좀 날린다 해도, 이렇게 겁도 없이 류바 할멈의 초대에 지각하는 놈은 처음 본다...</color>
+()||<SE1>AVG_Door_Open_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:끼이익——+파티가 시작되고 15분은 지났을 그때, 술집의 문이 열렸다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||:<color=#A9A9A9>대단한 간덩이군, 지각하고서도 엉덩이를 들이밀다니. 류바 할멈이 시간 안 지키는 사람을 제일 싫어하는 것도 모르는 건가...</color>
+()||<SE1>ClothingUp</SE1>:다니엘은 흥미진진한 구경거리를 놓치지 않으려 자세를 고치고 문 쪽을 주시했다.
+()||<BGM>BGM_Empty</BGM>:정장에 가죽구두, 깔끔한 헤어스타일을 한 남자가 술집으로 들어왔다. 그를 본 다른 도적단원 모두가 입이 딱 벌어졌다.
+NPC-Bodyguard1(0)<Speaker>다니엘</Speaker>||<SE1>Stop_AVG_loop</SE1>:저... 저거!
+()||<SE1>AVG_footsteps_cave</SE1>:경악을 금치 못하는 들러리들을 무시하고, 그 인물은 여유롭게 계단을 내려와 류바 할멈이 앉은 자리로 똑바로 향했다.
+NPC-OldLady(0)<Speaker>류바 할멈</Speaker><Position>0,180</Position>||<SE1>Stop_AVG_loop</SE1>:......
+NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:오랜만에 뵙습니다, 류바 할멈.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:니콜라스가 위풍당당하게 류바 할멈의 맞은편 자리에 앉았다. 손에는 메추리알만한 보석이 눈부시게 반짝이고 있었다.
+NPC-NervousMan(1)<Speaker>니콜라스</Speaker>||:제가 바로 그 "밀수왕" 입니다.
+()||<黑屏1>:

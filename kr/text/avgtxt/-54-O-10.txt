@@ -1,116 +1,116 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>197</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator>:“未来号”洲际列车 损毁的车厢外不远处
-()||<SE1>AVG_amb_thunderrain</SE1>:雨夜里，伊文上尉正在待命。+直到通讯终于响起——
-NPC-Tareus(3)<通讯框><Speaker>塔亚柔斯</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>……开始行动。</color>+<color=#00CCFF>我要这个人形。</color>
-()||<SE1>AVG_tele_connect</SE1>:一串代码发了过来……+伊文上尉输入指令后，出现了一个戴着帽子的严肃面孔。
-AR18(6)<Speaker></Speaker>||<黑点1>:<color=#00CCFF>“Я”教官——隶属第七总局下属特别作战训练队，此人形为该分队唯一在编人形，数据信息不明，极度危险。</color>
-()||<黑点1><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:……
-()||<黑点2><BIN>528</BIN><Night><narrator>:“未来号”洲际列车 车厢内
-()||<SE1>AVG_Water_Drip</SE1><BGM>GF_EV9_Story</BGM>:啪嗒。+夜雨依然没有停歇，雨水在车厢内积成了水泊，水滴的声音衬得压抑的人群显得更加沉默。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:身穿防护服的乘客们在苏珊娜的带领下，缓缓地朝着柳德米拉指示的1号特等车厢前进着。
-NPC-TD_Porter(0)<Speaker>苏珊娜</Speaker>||:请慢一点儿，这里的路不好走。
-()||:扭曲的车厢颠簸起伏，以至于队伍行进的速度也十分缓慢，腿脚不便的老人甚至需要苏珊娜的搀扶才能跨过那些障碍。+突然，一名乘客尖叫起来，瞬间吸引了大家的注意力。
-()<Speaker>普通乘客A </Speaker>||<SE1>Stop_AVG_loop</SE1>:他们动了！+乘务员你看外面！
-()||<SE1>ClothingUp</SE1>:苏珊娜听着声音看向窗外——
-()||<SE1>AVG_Fire_Bonfire</SE1>:灯光开始变得密集……他们似乎朝着车厢走过来了。
-()<Speaker>普通乘客A </Speaker>||<SE1>Stop_AVG_loop</SE1>:他们要动手了……+完了……我不要死在这里！
-()||<SE1>RunStep</SE1>:他迅速往1号车厢奔跑，甚至不顾脚下的泥泞和散落一地的碎片。
-()<Speaker>普通乘客B </Speaker>||:……我们，我们也赶紧跑吧！
-NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>苏珊娜</Speaker>||:……注意脚下！+不要踩踏！！！
-()||<SE1>AVG_Crowd_Run</SE1>:但没有人在意她的话语。+车厢外密集的灯光仿佛驱赶飞蛾的火把，追逐着人们进入命定的牢笼。+众人奔跑了起来，只有一个高大的身影形单影只地与大部队隔着一段距离。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:……萝希塔，你还能坚持吗？
-()||<SE1>ClothingUp</SE1>:萝希塔蜷缩在保尔背后，裸露的皮肤上，硅化的情况似乎越来越严重了。
-NPC-SickGirl(2)<Speaker>萝希塔</Speaker>||:保尔……我想念你做的三明治了。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:等看过医生以后，我就给你做。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||:嗯……
-()||<黑点1>:乱腾腾的人群中，无人在意他们。+在这样的末日下，每个人的余力能够顾及的，只有自己的性命。
-()||<黑点2><BIN>530</BIN><Night><narrator>:“未来号”洲际列车 F01/F02车厢连接处
-()||:这简直是一条漫长得令人焦躁的路程。+终于，他们来到了1号车厢门口。
-()||<SE1>AVG_Knock</SE1>:咚咚咚——！+苏珊娜挤到人群前面，掏出了电子密钥。
-()||<SE1>AVG_21Winter_Error</SE1>:滴滴……+权限不足。
-NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>苏珊娜</Speaker>||:<color=#A9A9A9>……混蛋玛姬！</color>+……里面的乘客……我是乘务员苏珊娜。+现在的幸存者们需要干净的水、食物和休息。+请放我们进去。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:唰——+车门上的窗户上出现了一张富态的脸。
-()<Speaker>富态的男人</Speaker>||:……放你们进来可以。+把防护服都脱掉。
-()<Speaker>普通乘客A </Speaker>||:！？+你，你在说什么啊！+这边的净化装置都已经停摆了！+我们马上就会暴露在红区！
-()<Speaker>富态的男人</Speaker>||:所以才叫你们脱掉！谁知道防护服上带着多少细菌和辐射？
-()<Speaker>普通乘客A </Speaker>||:什……
-()<Speaker>富态的男人</Speaker>||:就暴露个一两分钟死不了的！+要是让你们带着辐射粒子进来，我们不也完蛋了吗！
-()||:门外的乘客们面面相觑。+一想到身后的灯光仍在靠近，他们沉默了一会，最终还是屈辱地开始解开身上的防护服。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:老人，年轻人，男人，女人……
-()<Speaker>普通乘客A </Speaker>||:……现在可以了吧！
-()<Speaker>富态的男人</Speaker>||:哼……
-()||<SE1>ClothingUp</SE1>:男人慢悠悠地转过身，像是准备开门的样子。+但突然，他好像注意到了什么，一下抬起了头。
-()<Speaker>富态的男人</Speaker>||:等等，那女的怎么回事！？
-NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>保尔</Speaker>||:……！
-()||:男人所指的，就是被保尔背在身后的萝希塔。
-()<Speaker>富态的男人</Speaker>||:这不是已经被感染了！+是想害我们全部都被感染吗！
-NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>保尔</Speaker>||:她还没有彻底硅化！+她还有救……车厢里有医生的对吧……+请让她见见医生！
-()<Speaker>富态的男人</Speaker>||:这种条件下医生有什么用！+别，别想进来了！我们可不想死！
-()<Speaker>普通乘客A </Speaker>||<SE1>AVG_Crowd</SE1>:什，什么？我们都按你说的做了啊！+她感染了我们可没感染！放我们进去！
-()<Speaker>富态的男人</Speaker>||:谁知道你们有没有被她传染！
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||<BGM>BGM_Empty</BGM>:保尔……
-()||<SE1>Rope</SE1>:就在众人争执不休的时候，被保尔背在身后的萝希塔抓住了他。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:不要，不要把我送到那些讨厌我的人那里……+我……我已经不想再呆在那种地方了……
-NPC-SickGirl(1)<同时置暗><Speaker></Speaker>||:萝希塔说话的时候，对着保尔仿佛是在笑。+但她那双不能视物的眼睛，却不断在落下泪水。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||:我……我不想再回到一个所有人都讨厌我的地方。+让我留在这……至少在这里，还有你，保尔，有你在就够了。
-()||:萝希塔的声音仿佛存在着某种魔力。+尽管在这争执中，她的声音轻到几乎只有近在咫尺的保尔能够听见，但这一刻，不论是门里，还是门外，吵闹的声音都静止了。+在这压抑的沉默中，保尔顿了良久，才慢慢开口。
-NPC-TD_Worker(2)<Speaker>保尔</Speaker>||:……萝希塔，我只是一个人形，不是你的同伴。+我不能待在你身边，你应该去往人类的世界，你属于那边。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||:……我知道我应该属于哪里，保尔，我不在乎你是人形还是人类。+我在乎的同伴是会关心我的人，而不是讨厌我的人。
-NPC-TD_Worker(2)<Speaker>保尔</Speaker>||:……
-()||:死一般的寂静中，过了很久很久，才从门内传出一个悠悠的声音。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……放他们进来。
-()<Speaker>普通乘客A </Speaker>||:什……听到了吗！快开门！
-()<Speaker>富态的男人</Speaker>||:……医生你，你疯了吗？那边有感染者！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:如你所说，我的职业是医生。+而且，把他们挡在门外，你认为我们有办法独善其身吗？
-()<Speaker>富态的男人</Speaker>||:其他人就算了……那个感染者呢？她会传染我们所有人！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:我来解决，把门打开。
-()<Speaker>富态的男人</Speaker>||:……
-()||<黑点1>:面对鲁戈萨不容置疑的声音，男人的气势被彻底压倒，张大着嘴巴说不出话。
-()||<黑点1><BIN>9</BIN><关闭蒙版>:……
-()||<黑点2><BIN>533</BIN><Night><SE1>AVG_BaseDoor_Open</SE1>:随即，从内部反锁的大门终于缓缓打开。
-NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||:……请进。+麻烦按照次序在我这里登记。
-()||<SE1>AVG_Crowd_Run</SE1>:门外的人类幸存者们慌不择路地瞬间挤入了车厢，就像生怕下一秒里面的人反悔一般。
-()||<SE1>AVG_20Winter_Chains_Break</SE1>:保尔对着鲁戈萨医生鞠了一躬。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:……谢谢您。+萝希塔，就拜托您了。
-()||<SE1>ClothingUp</SE1>:他放下背上的萝希塔，交给了苏珊娜。+卢卡斯发现除了苏珊娜，其余的人形们都没有进入车厢。
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:你们不进来吗？
-()||:保尔摇了摇头。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:我们的责任是保护人类。
-()<Speaker>马戏团人形</Speaker>||:……没错，如果有危险，我们在2号车厢也能帮大家抵挡一波。
-()||:其余人形有的沉默，有的叹气。+说不定大家都想去1号车厢，但是……也许是因为人形聚集在一起就产生了勇气，也许是别的什么，最终，还是没有更多的人形迈出步伐。
-()||<SE1>ClothingUp</SE1>:这次，反而是鲁戈萨医生对着大家鞠了一躬。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:拜托了。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:我去检查列车设备。
-()||:鲁戈萨点点头，目送保尔转身离开，目光又转移到陷入昏睡中的萝希塔身上。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……卢卡斯，去拿我的药箱。
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:是。
-()||:卢卡斯点了点头，转身跟着苏珊娜一同进到了车厢内。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……
-()||:鲁戈萨一人站在门外，若有所思地眺望了一下整列车厢——空荡的长廊彼端，没有半点生气。
-()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:他转过身，走进车厢，关上了大门。+……
-()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:“未来号”洲际列车 F01车厢 休息室内
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:……先生，我已经按照教官意思安排下去了。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……多谢。+接下来就请你们照顾这里了，我需要去支援一个人。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:你放心。
-()||:在他的身后，休息室的门前，那凛然的身影飘然现身。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:可惜……我没有什么可以回报二位的信任。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……+你还有多余的手枪吗？
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
-()||:柳德米拉偏头看了看鲁戈萨医生的背影，他看起来非常平静，没有半分动摇。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:你想做什么？
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:我会和他们战斗到最后一刻，就如同之前你们对律贼一样。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
-()||:柳德米拉盯着鲁戈萨，后者没有任何迟疑或是犹豫。
-()||<SE1>Select</SE1>:半晌，她从腰间的枪套里拔出了自己的手枪，反持着将枪递给医生。
-()||<SE1>Rope</SE1>:鲁戈萨医生郑重接过手枪。
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:……！
-()||<黑屏1>:卢卡斯看着医生，脸上浮现出愁容。
-()||<黑屏2><BIN>519</BIN>:鲁戈萨的脸上映射着窗外的火光。+特等车厢以外的地方，那些军队的触手已经延伸到了列车的周遭。
-()<Speaker>鲁戈萨医生</Speaker>||:如果我没有猜错的话，你就是他们的目标？
-()<Speaker>柳德米拉</Speaker>||:……是。+所以我会亲手解决这一切。
-()<Speaker>鲁戈萨医生</Speaker>||:所以你打算怎么做？
-()<Speaker>柳德米拉</Speaker>||:让黎明照亮黑夜。
-()<Speaker>鲁戈萨医生</Speaker>||:能够在这种时刻与你相识，柳德米拉教官。+我很欣慰。
-()<Speaker>柳德米拉</Speaker>||:一样，尤金·鲁戈萨医生。
-()||:柳德米拉闭上眼，难得地笑了笑，迈步踏出了门。
-()||<黑屏1>:……
+()||<黑屏2><BIN>197</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator>:대륙간 열차 "미래호", 망가진 차량에서 멀지 않은 위치.
+()||<SE1>AVG_amb_thunderrain</SE1>:비 내리는 밤하늘 아래서, 이븐 대위는 지시를 기다렸다.+그리고 마침내, 통신이 들어왔다.
+NPC-Tareus(3)<通讯框><Speaker>타레우스</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>움직여.</color>+<color=#00CCFF>이 인형을 원해.</color>
+()||<SE1>AVG_tele_connect</SE1>:암호화된 코드도 함께 전달되었다.+이븐 대위가 미리 설정된 명령어를 입력하자, 화면에 사이드캡을 쓴 진중한 표정의 여성이 출력됐다.
+AR18(6)<Speaker></Speaker>||<黑点1>:<color=#00CCFF>제7총국 예하 선진 작전 훈련대, "Я" 교관. 해당 분대 내 유일한 사관 인형. 상세 정보 불명. 위험도 극고.</color>
+()||<黑点1><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:......
+()||<黑点2><BIN>528</BIN><Night><narrator>:대륙간 열차, "미래호"의 어느 차량 안.
+()||<SE1>AVG_Water_Drip</SE1><BGM>GF_EV9_Story</BGM>:뚝... 뚝... 뚝...+그칠 기미 없는 비로 인해 열차 안에도 곳곳에 웅덩이가 생겼고, 물방울이 떨어지는 소리는 음울한 분위기의 생존자들을 더욱 착잡하게 만들었다.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:그들은 지금 방호복을 입은 채 수잔나의 인솔을 따라 류드밀라가 지시한 대로 F01호 특등석 객차로 향하는 중이었다.
+NPC-TD_Porter(0)<Speaker>수잔나</Speaker>||:여기 큰 턱이 있습니다, 발밑에 주의하십시오.
+()||:다리가 불편한 노인이 수잔나에게 부축을 받아야 간신히 장애물을 넘을 수 있을 정도로, 비틀리고 찌그러진 차량 안은 험난한 산길처럼 생존자 행렬의 속도를 크게 늦췄다. +그러던 그때, 누군가 비명을 질렀다.
+()<Speaker>일반승객A </Speaker>||<SE1>Stop_AVG_loop</SE1>:노, 놈들이 온다!+승무원 씨 저기 좀 봐요!
+()||<SE1>ClothingUp</SE1>:수잔나가 반사적으로 고개를 돌린 창밖으로...
+()||<SE1>AVG_Fire_Bonfire</SE1>:일정한 간격으로 늘어진 불빛들이 점점 좁혀지기 시작했다. 그들이 열차로 접근하는 것이 분명했다.
+()<Speaker>일반승객A </Speaker>||<SE1>Stop_AVG_loop</SE1>:다 죽이러 오는 거야... 이제 끝이야...+싫어... 난 여기서 죽기 싫어!
+()||<SE1>RunStep</SE1>:겁에 질린 생존자가 F01호 차량을 향해, 발밑의 오물과 날카롭게 깨진 유리 조각도 무시하고 내달렸다.
+()<Speaker>일반승객B </Speaker>||:우... 우리도! 우리도 빨리 가자!
+NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>수잔나</Speaker>||:손님 여러분 발밑을 조심하세요!+앞사람을 밀지 마십시오, 위험합니다!
+()||<SE1>AVG_Crowd_Run</SE1>:나방을 내쫓는 횃불처럼, 창밖의 점점 더 촘촘해지는 불빛이 사람들을 운명이란 우리 속으로 몰아넣는 것만 같았다.+그녀의 말을 따르는 사람은 이제 없었다. 모두가 달리기 시작했다.+단 한 명, 행렬의 끄트머리에 있던 거대한 그림자만 빼고.
+NPC-TD_Worker(1)<Speaker>폴</Speaker>||:로시타, 아직 버틸 수 있겠니?
+()||<SE1>ClothingUp</SE1>:폴의 등에 업혀 웅크린 로시타는, 겉으로 드러난 피부에 규소화 증상이 점점 심해지는 듯 보였다.
+NPC-SickGirl(2)<Speaker>로시타</Speaker>||:폴... 나, 폴이 만든 샌드위치 먹고 싶어...
+NPC-TD_Worker(1)<Speaker>폴</Speaker>||:의사 선생님께 진찰받은 다음에 만들어 줄게.
+NPC-SickGirl(1)<Speaker>로시타</Speaker>||:응...
+()||<黑点1>:저 앞에서 야단법석을 부리는 사람들은 아무도 이들을 신경쓰지 않았다.+생사의 기로에서, 한 사람이 챙길 수 있는 건 언제나 자신의 목숨뿐이었다.
+()||<黑点2><BIN>530</BIN><Night><narrator>:대륙간 열차 "미래호", F01-F02 열차간 연결구.
+()||:길고도 고된 길이었다.+그래도 마침내, 생존자들은 F01호 객차의 문앞까지 도달했다.
+()||<SE1>AVG_Knock</SE1>:쿵쿵쿵!+수잔나가 문을 마구 두드리는 사람들 사이를 간신히 비집고 나와 전자키를 꺼냈다.
+()||<SE1>AVG_21Winter_Error</SE1>:삐빅.+권한이 부족합니다.
+NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>수잔나</Speaker>||:<color=#A9A9A9>매기 이 빌어먹을 년!</color>+아... 안에 계신 손님, 저는 승무원 인형 수잔나입니다.+지금 여기 생존자 손님들께 마실 물과 음식, 그리고 쉴 자리가 필요합니다.+저희를 들여보내 주십시오.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:스윽——+차량 문의 창문에 귀티를 부리는 얼굴이 나타났다.
+()<Speaker>귀티 부리는 남자</Speaker>||:들어오는 건 상관없는데...+그 전에 방호복부터 벗으세요.
+()<Speaker>일반승객A </Speaker>||:뭣?!+그, 그게 무슨 소리야!?+여기 정화 장치 전부 망가졌어!+이걸 벗음 복사에 노출된단 말이야!
+()<Speaker>귀티 부리는 남자</Speaker>||:그러니까 벗으라고! 방호복에 방사능에 세균이 얼마나 묻었을지 누가 알아!
+()<Speaker>일반승객A </Speaker>||:그게 무슨...
+()<Speaker>귀티 부리는 남자</Speaker>||:고작 1, 2분 정도 노출된다고 안 죽어!+당신들이 붕괴 입자 잔뜩 묻은 채로 들어오면 우리 다 죽는다고!
+()||:문 밖의 생존자들은 어안이 벙벙해졌다.+하지만 저 밖의 불빛들이 지금 이 순간에도 다가오고 있다 생각하니, 잠깐의 침묵 후 그들은 말없이 주섬주섬 방호복을 벗기 시작했다.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:남녀노소 가릴 것 없이, 모두 다.
+()<Speaker>일반승객A </Speaker>||:이제 됐어!? 얼른 문 열어!
+()<Speaker>귀티 부리는 남자</Speaker>||:흥...
+()||<SE1>ClothingUp</SE1>:남자는 천천히 몸을 돌려 문을 열려는 듯했다.+그때, 그의 눈에 무언가 들어오자 고개를 번쩍 들었다.
+()<Speaker>귀티 부리는 남자</Speaker>||:잠깐, 그 여자애는 뭐야?
+NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>폴</Speaker>||:......
+()||:남자가 가리킨 것은 다름아닌 폴에게 업힌 로시타였다.
+()<Speaker>귀티 부리는 남자</Speaker>||:걔 이미 감염된 거 아니야?!+어쩌자고 데려왔어!? 몽땅 감염시킬 작정이야?!
+NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>폴</Speaker>||:이 아이의 증상은 아직 가볍습니다!+아직 치료할 수 있습니다, 그 칸에 의사가 있다고 들었습니다!+의사를 보게 해 주십시오!
+()<Speaker>귀티 부리는 남자</Speaker>||:이런 상황에서 의사 보여 준다고 무슨 소용인데!+아, 아무튼 들어올 생각 마! 이대로 개죽음당하기 싫어!
+()<Speaker>일반승객A </Speaker>||<SE1>AVG_Crowd</SE1>:뭐야?! 당신이 시키는 대로 다 했잖아!+저 여자앤 감염됐어도 우린 멀쩡하다고! 빨랑 문 열어!
+()<Speaker>귀티 부리는 남자</Speaker>||:전염됐는지 안 됐는지 어떻게 알아!
+NPC-SickGirl(1)<Speaker>로시타</Speaker>||<BGM>BGM_Empty</BGM>:폴...
+()||<SE1>Rope</SE1>:언성이 점점 높아지자, 폴의 등에 업힌 로시타가 그의 어깨를 꼬옥 쥐었다.
+NPC-SickGirl(1)<Speaker>로시타</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:싫어... 날 싫어하는 사람이 있는 곳으로 보내지 마...+그런 곳... 다신 가기 싫어...
+NPC-SickGirl(1)<同时置暗><Speaker></Speaker>||:로시타는 폴에게 미소를 짓는 것 같았다.+하지만 앞이 보이지 않는 그녀의 두 눈에선 눈물이 흘러내렸다.
+NPC-SickGirl(1)<Speaker>로시타</Speaker>||:모두가 나를 싫어하는 곳엔 가고 싶지 않아...+그냥 여기 있을래... 폴이 있잖아, 폴이랑 함께면 괜찮아...
+()||:로시타의 목소리에 마법의 힘이 담긴 듯했다.+살벌한 언쟁이 벌어지고 있는 지금 여기서 폴에게만 겨우 들릴 정도로 미미한 목소리였음에도, 순간 모두가 침묵했다.+이 무거운 침묵 속에서, 폴은 한참을 망설이다 천천히 입을 열었다.
+NPC-TD_Worker(2)<Speaker>폴</Speaker>||:...로시타, 난 그저 인형일 뿐이야. 나는 네 친구가 아니야.+나는 언제까지고 네 곁에 있어 줄 수 없어. 너는 인간이야, 인간과 함께해야 해. 네가 있을 곳은 저기야.
+NPC-SickGirl(1)<Speaker>로시타</Speaker>||:싫어... 내가 있어야 할 곳이 어딘진 나도 알아. 폴, 난 폴이 인형이든 뭐든 상관없어.+난 날 걱정해 주는 사람이랑 같이 있을래... 폴이 내 친구야, 날 싫어하는 사람이 아니라...
+NPC-TD_Worker(2)<Speaker>폴</Speaker>||:......
+()||:그리고 다시 이어지던 죽음과 같은 정적을, 문 뒤에서 난 인자한 목소리가 깼다.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:들여보내시오.
+()<Speaker>일반승객A </Speaker>||:오...! 봐, 들어오라 하잖아! 빨리 문열어!
+()<Speaker>귀티 부리는 남자</Speaker>||:미쳤어 의사 양반?! 저 앤 감염됐다고!
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:그렇소, 난 의사요.+그리고 저들을 문 밖에 내버려두면 우리가 무사할 줄 아시오?
+()<Speaker>귀티 부리는 남자</Speaker>||:아 그래 저 사람들은 그렇다 쳐도... 저 감염자는? 저 애를 들이면 전부 감염될 거야!
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:그건 내가 알아서 할 테니 어서 문을 여시오.
+()<Speaker>귀티 부리는 남자</Speaker>||:칫...!
+()||<黑点1>:닥터 루고사의 단호한 목소리에, 남자는 점점 기세가 눌려 입만 뻥끗거렸다.
+()||<黑点1><BIN>9</BIN><关闭蒙版>:......
+()||<黑点2><BIN>533</BIN><Night><SE1>AVG_BaseDoor_Open</SE1>:그리고 마침내, 안에서 잠겼던 문이 열렸다.
+NPC-TD_Boy(1)<Speaker>루카스</Speaker>||:어서 들어오십시오, 여러분.+번거롭겠지만, 차례대로 여기다 성함을 적어 주세요.
+()||<SE1>AVG_Crowd_Run</SE1>:문 밖의 생존자들은 앞다투어 객차 안으로 몰려들었다. 당장에라도 안의 사람들이 마음을 바꿀까 무서운 듯이.
+()||<SE1>AVG_20Winter_Chains_Break</SE1>:마지막으로, 폴이 닥터 루고사에게 허리를 꾸벅 숙였다.
+NPC-TD_Worker(1)<Speaker>폴</Speaker>||:감사합니다.+이 아이의 이름은 로시타입니다. 부탁드립니다.
+()||<SE1>ClothingUp</SE1>:폴은 로시타를 등에서 내려, 수잔나에게 맡겼다.+그때, 루카스가 수잔나를 제외한 다른 인형들이 객차 안으로 들어오지 않았음을 깨달았다.
+NPC-TD_Boy(0)<Speaker>루카스</Speaker>||:어...? 왜 여러분은 안 들어오세요?
+()||:폴이 고개를 저으며 답했다.
+NPC-TD_Worker(1)<Speaker>폴</Speaker>||:우리는 인형이야. 우리에겐 인간을 지킬 의무가 있어.
+()<Speaker>서커스 인형</Speaker>||:솔직히 무섭긴 마찬가지지만... 뭐어, 위험해지더라도 우리가 2호차에서 한동안은 막을 수 있을 거야.
+()||:다른 인형들은 말이 없거나 한숨을 내쉬었다. 그들도 F01호차로 들어가고 싶은 마음이 굴뚝같을 터였다.+하지만 한데 모여 용기가 생겼는지 혹은 다른 이유에서 비롯된 것인지, 결국 어느 인형도 발을 떼지 않았다.
+()||<SE1>ClothingUp</SE1>:이에, 이번엔 닥터 루고사가 인형들에게 허리를 숙였다.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:부탁드리오.
+NPC-TD_Worker(1)<Speaker>폴</Speaker>||:저는 열차의 설비를 점검하겠습니다.
+()||:루고사는 고개를 끄덕이고 뒤돌아 떠나는 폴을 눈으로 배웅한 뒤, 시선을 고열에 지쳐 잠든 로시타에게 돌렸다.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:루카스, 내 의료함 가져오거라.
+NPC-TD_Boy(0)<Speaker>루카스</Speaker>||:네.
+()||:루카스는 곧장 수잔나와 함께 객차 안으로 들어갔다.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:............
+()||:닥터 루고사는 잠시 혼자 문밖에 서서, 엉망으로 늘어진 열차를 바라봤다. 썰렁한 복도 저 끝까지 생기란 없었다.
+()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:그렇게 잠시, 그는 눈을 돌리고 다시 객차 안으로 들어가 문을 닫았다.+......
+()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:대륙간 열차 "미래호", F01호 객차의 휴게실.
+NPC-TD_Boy(0)<Speaker>루카스</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:선생님, 교관님이 지시하신 대로 자리를 배정해 두었습니다.
+()<Speaker>류드밀라</Speaker>||:...감사합니다.+이제 여기는 두 분께 부탁드립니다. 저는 한 사람을 지원하러 가야 합니다.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:걱정 마시게.
+()||:그의 등 뒤로, 초연한 모습의 그녀가 휴게실의 문 앞에 모습을 드러냈다.
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:유감스럽게도... 저는 두 분의 신뢰에 보답할 것이 없군요.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:......+혹시 남는 권총 있소?
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:......
+()||:류드밀라가 고개를 돌려 본 닥터 루고사의 뒷모습은, 침착하고 의연했다.
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:...어디에 쓰실 생각입니까?
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:나도 끝까지 놈들에게 맞서 싸울 거요. 그대들이 도적떼에게 맞섰던 것처럼.
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:......
+()||:류드밀라의 눈에, 그의 등에선 망설임이 느껴지지 않았다.
+()||<SE1>Select</SE1>:잠시 후, 류드밀라는 홀스터에서 권총을 꺼내 그의 어깨 위로 손잡이가 향하도록 건넸다.
+()||<SE1>Rope</SE1>:그리고 닥터 루고사는 정중히 두 손으로 권총을 받았다.
+NPC-TD_Boy(0)<Speaker>루카스</Speaker>||:......!
+()||:루카스는 이 광경을 옆에서 걱정 가득한 얼굴로 지켜봤다.
+()||:그때, 닥터 루고사의 얼굴에도 창밖의 불빛이 비쳤다.+군대의 마수가, 열차 가까이까지 다가온 것이었다.
+NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:내 생각이 맞다면... 그대가 놈들의 목표요?
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>;NPC-Doctor(0)||:...예.+그러니 제 손으로 전부 처리할 겁니다.
+AR18(6)<Position>0,70</Position>;NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:무슨 수로?
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>;NPC-Doctor(0)||:여명으로 밤을 밝혀서.
+AR18(6)<Position>0,70</Position>;NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:아아... 이런 자리에서나마 그대와 알게 되어 대단히 기쁘오, 류드밀라 교관.
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||<SE1>AVG_footsteps_cave</SE1>:저야말로, 닥터 유진 루고사.
+()||:류드밀라는 드물게 부드럽게 감은 눈으로 미소를 짓곤, 문을 나섰다.
+()||<黑屏1>:......

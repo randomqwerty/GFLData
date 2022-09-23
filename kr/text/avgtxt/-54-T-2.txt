@@ -1,44 +1,44 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>529</BIN><narrator>:“未来号”洲际列车 F02车厢（一等车厢）
-()||<SE1>AVG_footsteps_woodfloor</SE1><BGM>m_avg_labyrinth</BGM>:跟着声音的主人柳德米拉，塔亚柔斯进入了一等车厢。+这里是那些讨厌的虫豸污染的地方，鲜血在空中酝酿出极其难闻的味道。
-()<Speaker>妇人</Speaker>||<SE1>Stop_AVG_loop</SE1>:伊芙……我的伊芙……
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:伊芙……
-()||:刚刚在餐车见过的女性坐在地上哭嚎着。
-()<Speaker>妇人</Speaker>||:求求你们，救救我的女儿！+她被那些律贼带走……要我给一千盎司萨狄斯金才肯放过她……+我根本没有那么多钱！
-()<Speaker>乘客</Speaker>||:……
-()||:死寂的车厢中只有她的哭声在飘零，但没有人理会，所有人都颇具默契地望向别处，好像看不见，也听不到。
-()<Speaker>妇人</Speaker>||:我只剩下这一个女儿了……求求你们！我的伊芙……+我不能再失去我的女儿了……
-NPC-Doctor(0)<Speaker>医生</Speaker>||:……你先冷静下来，我们一起想想办法。
-()||<SE1>ClothingUp</SE1>:医生将手帕递给哭泣的妇人，然后环视着所有乘客。
-NPC-Doctor(0)<Speaker>医生</Speaker>||:我们唯一的办法，就是自救。+柳德米拉教官，我的提议你觉得如何？
-AR18(2)<Speaker>柳德米拉</Speaker>||:……
-()||<SE1>AVG_20Winter_Door_Car_Open</SE1>:柳德米拉从自己的行李箱内取出了一把AR-18。
-AR18(6)<Speaker>柳德米拉</Speaker>||:我接受。+但前提是，全部人听从我的指挥。+包括人类。
-()||<SE1>AVG_tele_connect</SE1>:嘀——新讯息的提示。+塔亚柔斯查看起新收到的信息。
-()||<narrator>:9点07分，利沃夫靠近红区边缘的位置，发现装甲运送目标，发生交火+9点23分，装甲运输小队确认全歼
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:<color=#A9A9A9>很好，又去掉了一个选项。</color>+<color=#A9A9A9>让我看看，排除掉两个答案后的这辆列车上的目标，是正确选项，还是错误选项。</color>
-()||<SE1>AVG_keyboardtype_sci</SE1>:从吵闹不休的人群中走到角落，塔亚柔斯用密码打开了空白的频道。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:准备截击。
-()||<SE1>AVG_Button_Click</SE1>:信息发送完毕后，塔亚柔斯清除了消息记录，还原了频道。
-()||<SE1>AVG_whitenoise</SE1>:滋滋滋滋——+一条加强信号线路在呼唤整辆列车的人形。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:<color=#A9A9A9>……除了帕拉蒂斯，现在还有谁拥有这种程度的技术？</color>
-()||:顺着链接，塔亚柔斯尝试进入对方的心智——
-()||<SE1>AVG_21Winter_Error</SE1>:Error！+但却无从下手。+像是把游戏卡带塞入了错误的游戏机中。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:<color=#A9A9A9>……</color>+<color=#A9A9A9>没有接触过的系统，不在帕拉蒂斯的数据库中。</color>+<color=#A9A9A9>……记录一下，之后汇报上去。</color>+<color=#A9A9A9>艾尔玛·休谟</color>
-()||<SE1>ClothingUp</SE1>:一只手轻轻拍了拍她的手臂。
-NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||:这位小姐，请跟我们一起前往特等车厢避难吧。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:……
-NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||:人形们马上要打开通往餐车的门了，律贼们会冲到这里来，请跟我们走吧。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:……嗯。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:塔亚柔斯冷漠地点点头，进入了特等车厢。
+()||<黑屏2><BIN>529</BIN><narrator>:대륙간 열차 "미래호", F02호 객차.
+()||<SE1>AVG_footsteps_woodfloor</SE1><BGM>m_avg_labyrinth</BGM>:그 목소리의 주인 류드밀라를 따라, 타레우스는 일등석 객차로 들어갔다.+꼴 보기도 싫은 버러지들이 벌써 잔뜩 더럽혔는지, 객차 안은 역한 피냄새가 풍겼다.
+()<Speaker>부인</Speaker>||<SE1>Stop_AVG_loop</SE1>:아이고 우리 이브... 우리 이브 어떡해...
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:이브...
+()||:아까 식당차에서 보았던 여성이, 바닥에 주저앉아 오열하고 있었다.
+()<Speaker>부인</Speaker>||:제발 부탁이에요, 우리 딸 좀 구해 주세요!+저 강도놈들이 잡아가서는... 몸값으로 사르디스 골드 1천 온스나 내놓으래요...+그렇게 많은 돈을 어떻게... 어떻게...
+()<Speaker>승객</Speaker>||:......
+()||:정적이 감도는 객차에 그녀의 울음소리가 메아리쳤지만, 아무도 신경쓰지 않았다. 다들 눈치를 보며 들리지 않는 척, 보이지 않는 척을 했다.
+()<Speaker>부인</Speaker>||:제 하나 남은 딸입니다... 제발요! 제발 누가 좀 부탁해요!+내 딸 또 잃을 순 없다고요...
+NPC-Doctor(0)<Speaker>의사</Speaker>||:우선 진정하세요 부인. 진정하시고, 함께 방법을 찾아봅시다.
+()||<SE1>ClothingUp</SE1>:의사는 주머니에서 손수건을 꺼내 부인에 건네 주고, 승객들을 둘러보며 말했다.
+NPC-Doctor(0)<Speaker>의사</Speaker>||:지금 우리가 할 수 있는 건 우리의 힘으로 우리를 지키는 것밖에 없소.+류드밀라 교관, 내 부탁을 받아 주겠소?
+AR18(2)<Speaker>류드밀라</Speaker>||:......
+()||<SE1>AVG_20Winter_Door_Car_Open</SE1>:류드밀라는 자신의 짐가방에서 AR-18을 한 정 꺼냈다.
+AR18(6)<Speaker>류드밀라</Speaker>||:...좋습니다.+하지만 조건이 있습니다. 모두가 제 지휘에 따라야만 합니다.+인간도 포함해서.
+()||<SE1>AVG_tele_connect</SE1>:삐빅.+그때, 새로운 메시지가 들어왔다.
+()||<narrator>:"오후 9시 07분, 리비우 부근 레드존 경계선에서 장갑 수송 부대를 발견. 교전 발생."+"오후 9시 23분, 장갑 수송 부대의 전멸을 확인."
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:<color=#A9A9A9>선택지가 하나 더 줄었다.</color>+<color=#A9A9A9>이 열차에 남은 게 정답인지 오답인지, 보겠어.</color>
+()||<SE1>AVG_keyboardtype_sci</SE1>:타레우스는 시끄러운 사람들 틈에서 구석으로 슬쩍 빠져나와, 암호가 걸린 텅 빈 통신 채널을 켰다.
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:저지 준비.
+()||<SE1>AVG_Button_Click</SE1>:메시지를 발송하고 잠깐 기다린 뒤, 메시지 로그를 지우고 채널을 닫았다.
+()||<SE1>AVG_whitenoise</SE1>:지지지직――+그런데 그때, 신호가 강화된 통신 채널이 열차 내의 모든 인형들을 호출했다.
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:<color=#A9A9A9>광범위한 통신 연결... 패러데우스가 아닌 누가 이 정도의 기술력을?</color>
+()||:연결을 타고 올라가, 타레우스는 상대의 마인드맵에 침투해보려 했다.
+()||<SE1>AVG_21Winter_Error</SE1>:Error!+하지만 실패했다. 침투할 틈이 없었다.+마치 게임 카트리지를 잘못된 콘솔에 꽂은 것 같았다.
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:<color=#A9A9A9>......</color>+<color=#A9A9A9>접해본 적 없는 시스템. 패러데우스의 데이터베이스에도 자료가 없어.</color>+<color=#A9A9A9>...기록하고 나중에 보고하자.</color>+<color=#A9A9A9>엘마 흄.</color>
+()||<SE1>ClothingUp</SE1>:그때, 누군가 그녀의 손을 툭툭 건드렸다.
+NPC-TD_Boy(1)<Speaker>루카스</Speaker>||:아가씨? 여긴 위험해요, 얼른 특등석 차로 피난가야 해요.
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:......
+NPC-TD_Boy(1)<Speaker>루카스</Speaker>||:강도들이 여기까지 몰려들 거예요, 인형들이 식당차로 가는 문을 연다니까 어서 가요.
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:...응.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:타레우스는 무심하게 고개를 끄덕이고 특등석 객차로 들어갔다.
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>9</BIN>:……
-()||<SE1>AVG_tele_connect</SE1>:嘀——来自空白频道的新讯息。
-()||<narrator>:截停攻击已发射
-()||:凝视着窗外，塔亚柔斯在心中倒数起来——
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:3……+2……+1……
-()||<SE1>Explode</SE1>:轰——+“未来号”已经成功截停。
-()<Speaker>塔亚柔斯</Speaker>||:……指令■■AS□□已发送。
-()||<SE1>AVG_tele_connect</SE1>:滴——
-()||<narrator>:ELT修改成功
-()||<黑点1>:
+()||<黑屏2><BIN>9</BIN>:......
+()||<SE1>AVG_tele_connect</SE1>:텅 빈 통신 채널에 새 메시지가 들어왔다.
+()||<narrator>:"저지 공격 발사함."
+()||:창밖을 주시하며, 타레우스는 속으로 초를 셌다.
+NPC-Tareus(1)<Speaker>타레우스</Speaker>||:셋...+둘...+하나.
+()||<SE1>Explode</SE1>:콰아아아앙!+"'미래호' 저지 성공."
+()<Speaker>타레우스</Speaker>||:지령 ■■AS□□, 발송.
+()||<SE1>AVG_tele_connect</SE1>:삐이——
+()||<narrator>:"ELT 수정 성공."
+()||<黑点1>:

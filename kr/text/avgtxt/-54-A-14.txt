@@ -1,65 +1,65 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……
-()<Speaker></Speaker>||:十五分钟以前
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴……+通讯接通。
-()<Speaker>？？？？</Speaker>||:<color=#00CCFF>汇报你的坐标，“子夜星”。</color>+<color=#00CCFF>我们需要进行二次确认。</color>
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||<SE1>AVG_keyboardtype_sci</SE1>:纬度: 52.2495, 经度: 19.0118。+坐标已发送。
-()<Speaker>？？？？</Speaker>||:<color=#00CCFF>坐标已确认，我们将在十五分钟内抵达。</color>
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:请做好接收平民的准备。
-()<Speaker>？？？？</Speaker>||:<color=#00CCFF>了解。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+通讯挂断。
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:......
+()<Speaker></Speaker>||:15분 전.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:삐이...+통신 연결.
+()<Speaker>？？？？</Speaker>||:<color=#00CCFF>"밤별", "밤별", 2차 확인이 필요하다.</color>+<color=#00CCFF>귀측의 좌표를 말해라, 이상.</color>
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||<SE1>AVG_keyboardtype_sci</SE1>:위도 52.2495, 경도 19.0118.+좌표 발송했다, 이상.
+()<Speaker>？？？？</Speaker>||:<color=#00CCFF>좌표 받았다, 확인 완료. 15분 내로 도착 예정, 이상.</color>
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:민간인 생존자도 있으니 이송할 준비도 하도록, 이상.
+()<Speaker>？？？？</Speaker>||:<color=#00CCFF>알았다, 이상.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:삑.+통신 종료.
+()<Speaker></Speaker>||:......
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><Night><BGM>10247</BGM><BIN>1</BIN>:焰火眼前的一切都尽数吞噬，连同肮脏的大地，一同焚烧成白茫茫的灰烬。
-()<Speaker>鲁斯兰二世</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>子夜星，这里是鲁斯兰二世。</color>+<color=#00CCFF>校射已完成，等待后续指令。</color>+<color=#00CCFF>我没有空中视野，需要指引，完毕。</color>
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:这里是子夜星。+准备指引无人机，完毕。
-()<Speaker></Speaker>||<SE1>AVG_Jet_Passby</SE1>:一架重型无人机盘桓在柳德米拉的头顶。+宛如老鹰盘旋在猎人附近。+侦查着敌人的痕迹。
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||<SE1>AVG_tele_connect</SE1>:……子夜星，指引第一次，完毕。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><SE1>Explode</SE1><SE1>AVG_Bomber_Napalm</SE1>:空中抛下的白磷弹瞬间将林地点燃，冲天的火光中，被轰上天的坦克瞬间变成了一堆废铁。+夜雨停歇，但乌云还未散去，这正是鲁斯兰的狩猎时刻——
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰！
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:……子夜星，指引第二次，完毕。
-()<Speaker></Speaker>||:……装甲部队的数量绝不可能只有这么一点。+他们肯定还有别的炮击阵地，可问题是，在哪？+盘旋的无人机在夜空中迅速地低空掠过林地。
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:距离第一次校射已经过去了一分三十秒……+如果他们还有别的炮击阵地，为什么没有发起攻击……
-()<Speaker></Speaker>||:柳德米拉的眉头一挑。
-()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:她似乎意识到了什么，将无人机的高度又降低到了更加危险的低空。
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:……子夜星，指引第三——
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Battlefield</SE1>:咻——
-()<Speaker></Speaker>||:来了。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake>:柳德米拉瞬间切换为防御姿势。
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:轰——！！
-()<Speaker></Speaker>||<BGM>10082</BGM><SE1>AVG_lifttable</SE1>:从远处打来的炮弹直直地命中了车头的侧舷，巨大的冲击直接将车头掀翻。+飞起的土浪与血混杂在一起，又卷起了一阵烟尘。+而原本站在车头顶端的柳德米拉被巨大的撞击掀飞，她残破的身躯宛如垂死的雄鹰，重重地砸在泥泞中。
-()<Speaker></Speaker>||<SE1>AVG_tinnitus_0</SE1>:嗡——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:柳德米拉踉踉跄跄地从地上爬起。+她拼死护住的平板上，画面已经丢失，只留下一屏幕雪花。+……用于指引的重型无人机被击毁了。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><SE1>AVG_tele_connect</SE1>:滴。+通讯器内，带着严重的杂音，已经开始二次回旋的鲁斯兰二世发来了讯息。
-()<Speaker>？？？？</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>失去无人机信号。</color>+<color=#00CCFF>子夜星，我需要指引。</color>
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:……收到，保持盘旋。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:在她寻找对方的同时，对方也在寻找她的无人机。+现在，他们彼此都知道了对方的位置。
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:……那应该是最后的重火力了。
-()<Speaker></Speaker>||:支援还没有赶到，她必须将鲁斯兰二世的作用发挥到极限。+没有空中引导，还可以由地面部队进行指引。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:重新整顿身形，柳德米拉从在腰包里摸索，抓出了她剩余的所有IR识别灯。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:左手，右手，肩膀，额头……她将这些在鲁斯兰的眼中最为显眼的标识全都绑在了身上。+近处的步战小队已经溃不成军，她甚至还能看到匆忙撤退的残兵败将。+……她绝不能在这里倒下。
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||<SE1>AVG_tele_connect</SE1>:鲁斯兰二世……我将以移动友方标识为你提供指引。+做好区域打击准备。
-()<Speaker></Speaker>||<SE1>RunStep</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake>:……
+()<Speaker></Speaker>||<黑点2><Night><BGM>10247</BGM><BIN>1</BIN>:폭격의 불길은 지나는 모든 것을 집어삼켜, 지저분한 땅째로 새하얗게 불태웠다.
+()<Speaker>루슬란 2세</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>"밤별", 여기는 "루슬란 2세".</color>+<color=#00CCFF>지정 타격 완료, 다음 지시 대기 중이다.</color>+<color=#00CCFF>다만 공중 시야가 없어 유도가 필요하다, 이상.</color>
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:여기는 "밤별".+유도 드론 가동하겠다, 이상.
+()<Speaker></Speaker>||<SE1>AVG_Jet_Passby</SE1>:그 말과 함께 커다란 무인기가 류드밀라의 머리 위로 떠올랐다.+그리고, 사냥꾼의 머리 위를 맴도는 매처럼 적을 탐색했다.
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||<SE1>AVG_tele_connect</SE1>:"밤별", 1차 유도. 이상.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><SE1>Explode</SE1><SE1>AVG_Bomber_Napalm</SE1>:백린탄이 섬광과 함께 숲을 불태웠고, 치솟는 불길 아래 폭격에 직격한 탱크는 그자리서 고철이 되었다.+비는 그쳤으나 먹구름은 아직 개이지 않은 이때가 루슬란의 사냥 시간이었다.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:콰앙!
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:...2차 유도. 이상.
+()<Speaker></Speaker>||:다만, 기갑 부대의 규모가 겨우 이 정도일 리 없었다.+분명 어딘가에 다른 포격 진지가 있을 터였지만, 현재 위치에서는 보이질 않았다.+호버링하던 류드밀라의 무인기는 저공 비행으로 쏜살같이 숲으로 날아갔다.
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:1차 지정 타격 이후 벌써 90초나 지났는데...+놈들에게 다른 포격 진지가 있다면, 왜 반격하지 않지?
+()<Speaker></Speaker>||:이윽고 엄습해 온 불길함에 류드밀라의 눈꺼풀이 움찔했다.
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:무언가의 낌새가 느껴져 무인기의 고도도 낮췄다. 그리고――
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:3차――
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Battlefield</SE1>:슈우우——
+()<Speaker></Speaker>||:――왔다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake>:류드밀라는 즉시 방어 태세를 취했다.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:콰아앙!!!
+()<Speaker></Speaker>||<BGM>10082</BGM><SE1>AVG_lifttable</SE1>:멀리서 날아온 포탄이 열차의 머리 옆면에 정확하게 꽂혀, 그 충격과 폭발로 뒤집혔다.+튀어오르는 흙더미와 피는 한데 뒤섞여 먼지구름이 되었다.+그리고 열차 머리의 지붕에 서 있던 류드밀라는 이 충격으로 튕겨나가, 날개가 부러진 새처럼 진흙탕 위를 굴렀다.
+()<Speaker></Speaker>||<SE1>AVG_tinnitus_0</SE1>:지이이잉——
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:류드밀라는 비틀대며 몸을 일으켰다.+그녀가 몸으로 감쌌던 전술 태블릿은 망가지진 않았지만 화면에 노이즈만 남았다.+표적 지시용 유도 드론이 추락했단 뜻이었다.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><SE1>AVG_tele_connect</SE1>:삐빅.+잡음이 심해진 통신기로 2차 선회 비행에 들어선 "루슬란 2세"의 통신이 들어왔다.
+()<Speaker>？？？？</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>"밤별", 여기는 루슬란. 유도 드론의 신호가 사라졌다.</color>+<color=#00CCFF>공격을 계속하려면 유도가 필요하다, 이상.</color>
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:...알았다, 선회 비행 유지하라. 이상.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:그녀가 상대를 찾던 것처럼, 상대도 그녀의 무인기를 찾고 있었다.+그리고 지금, 서로가 서로의 위치를 간파했다.
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||:...저게 아마 마지막 중화력이겠지.
+()<Speaker></Speaker>||:지원이 아직 도착하지 않았으니, "루슬란 2세"의 화력을 최대한으로 활용해야 했다.+하지만 공중 유도가 없으니, 지상에서 직접 유도해야만 했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:자세를 바로잡고, 류드밀라는 파우치 안을 뒤져 남은 적외선 지시등을 전부 꺼내 들었다.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:왼손, 오른손, 어깨, 이마... "루슬란"에게 또렷하게 보이게끔, 지시등을 전부 몸에 붙였다.+가까이의 보병 소대는 이미 궤멸했고, 허둥지둥 퇴각하는 잔존병만 보였다.+여기까지 와서 쓰러질 수 없었다.
+AR18(6)<Speaker>류드밀라</Speaker><Position>0,70</Position>||<SE1>AVG_tele_connect</SE1>:"루슬란"... "밤별"이 아군 표식으로 유도하겠다, 지금 이동한다.+범위 타격 준비하라, 이상.
+()<Speaker></Speaker>||<SE1>RunStep</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake>:......
 ()||<黑点1>:
-()<Speaker>飞行员</Speaker>||<黑点2><关闭蒙版><BIN>40</BIN>:……
-()<Speaker>飞行员</Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:……已确认IR识别灯，确认移动目标。+火力控制命令确认，即刻打击。+发射单位 佩伦闪电 四枚，目标号G41507。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Explosion</SE1>:咻——+轰——！
-()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1>:轰——！
-()<Speaker>飞行员</Speaker>||:……二次打击结束。+丢失移动目标，正在向地面确认。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴……
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴……
-()<Speaker>飞行员</Speaker>||:丢失FO信号，即将返航。
+()<Speaker>파일럿</Speaker>||<黑点2><关闭蒙版><BIN>40</BIN>:............
+()<Speaker>파일럿</Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:...적외선 지시등 확인, 이동 목표 확인 완료.+화력 통제 명령 확인, 타격 실시하겠다.+발사 유닛, 페룬 4발. 목표 번호 G41507.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Explosion</SE1>:슈우웅——+<size=50>콰아앙——!!!!</size>
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1>:콰아앙!!!
+()<Speaker>파일럿</Speaker>||:...2차 타격 종료, 이동 목표 관불.+지상에서 확인바란다, 이상.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:삐이이......
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:삐이이......
+()<Speaker>파일럿</Speaker>||:...FO 신호 두절. 복귀하겠다, 이상.
 ()||<黑屏1>:
-()<Speaker>飞行员</Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_Bomber_Flying</SE1>:任务完成。
+()<Speaker>파일럿</Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_Bomber_Flying</SE1>:임무 완료.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><Night><SE1>AVG_20Winter_Burnfire_Loop</SE1>:轰轰……+茫茫的土地上，枪声，爆炸声，都已经息鼓偃旗。+林地间熊熊燃烧的火焰，时不时噼啪作响，成为黯淡夜幕中的零星无聊点缀。+此夜，此地，此时。+终于真正的安静了下来。
+()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><Night><SE1>AVG_20Winter_Burnfire_Loop</SE1>:쿠우우...+드넓은 대지를 뒤흔들던 총성과 폭음이 멎었다.+불길에 타올랐던 숲은 이따금씩 타닥타닥 소리를 내어, 어두운 한밤중의 심심한 장식이 되었다.+오늘, 이곳, 이 순간.+마침내 모든 것이 조용해졌다.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:......
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><narrator>:波兹南以东 红区 “艾莫号”
-MLEMK1Mod(0)<Position>0,150</Position><Speaker>李·恩菲尔德</Speaker><Position>0,70</Position>||<SE1>AVG_keyboardtype_sci</SE1>:……目标方位出现偏差。
-98KMod(0)<Speaker>Kar98K</Speaker>||:子夜星信息无误。
-MLEMK1Mod(0)<Position>0,150</Position><Speaker>李·恩菲尔德</Speaker><Position>0,70</Position>||:ELT持续传输信号中。
-98KMod(0)<Speaker>Kar98K</Speaker>||:……那只剩下一种可能了。+ELT信号被篡改了。
-MLEMK1Mod(0)<Position>0,150</Position><Speaker>李·恩菲尔德</Speaker>||:准备通报指挥官，地图信号有误，对方疑似存在设备干扰。
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><narrator>:포즈난 동부 레드존, "엘모 호".
+MLEMK1Mod(0)<Position>0,150</Position><Speaker>리엔필드</Speaker><Position>0,70</Position>||<SE1>AVG_keyboardtype_sci</SE1>:...목표의 방위에 편차가 있다.
+98KMod(0)<Speaker>Kar98K</Speaker>||:하지만 "밤별"의 정보는 틀림없을 텐데요.
+MLEMK1Mod(0)<Position>0,150</Position><Speaker>리엔필드</Speaker><Position>0,70</Position>||:ELT 신호는 여전해.
+98KMod(0)<Speaker>Kar98K</Speaker>||:...그렇다면 가능성은 하나군요.+ELT 신호가 위조된 거예요.
+MLEMK1Mod(0)<Position>0,150</Position><Speaker>리엔필드</Speaker>||:알았다. 지휘관에게 지도 신호에 오류가 확인됐고, 적의 교란 설비 운용이 의심된다 보고하겠다.
+()||<黑点1>:
