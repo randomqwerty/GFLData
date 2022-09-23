@@ -10,5 +10,11 @@ local RefreshEntranceUI = function(self)
 	end
 end
 
+local RefresCommonUI = function(self)
+	self:RefresCommonUI();
+	if self.missionInfo.ShowScore then
+		self.BossGroove.gameObject:SetActive(false);
+	end
+end
 util.hotfix_ex(CS.SpecialMissionInfoController,'RefreshEntranceUI',RefreshEntranceUI)
-
+util.hotfix_ex(CS.SpecialMissionInfoController,'RefresCommonUI',RefresCommonUI)
