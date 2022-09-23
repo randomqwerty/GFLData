@@ -257,6 +257,7 @@ patch3010={
 "3010/HomeEventController",
 "3010/BattleData",
 "3010/CommonLive2DController",	
+"3010/SquadStateController",
 --"3010/language/FactoryDevelopLogController",	
 }
 -- va11
