@@ -127,6 +127,11 @@ local TriggerRefreshUIEvent = function()
 	end
 	CS.DeploymentController.TriggerRefreshUIEvent();
 end
+
+local CheckBuild = function(self)
+	self:CheckBuild();
+	CS.DeploymentController.TriggerSelectTeam(self.currentSelectedTeam);
+end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -134,5 +139,6 @@ util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamFor
 util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
 util.hotfix_ex(CS.DeploymentController,'ShowSettlement',ShowSettlement)
 util.hotfix_ex(CS.DeploymentController,'TriggerRefreshUIEvent',TriggerRefreshUIEvent)
+util.hotfix_ex(CS.DeploymentController,'CheckBuild',CheckBuild)
 
 

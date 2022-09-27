@@ -75,5 +75,21 @@ local _GetItemID = function(self,content)
 		end
 	end
 end
+local InitUIElements = function(self)
+	self:InitUIElements();
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+		local trans1 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_1/Condition/Tex_Receive/Text");
+		trans1:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
+		local trans2 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_2/Condition/Tex_Receive/Text");
+		trans2:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
+		local trans3 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_3/Condition/Tex_Receive/Text");
+		trans3:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
+		local trans4 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_4/Condition/Tex_Receive/Text");
+		trans4:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
+		local trans5 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_5/Condition/Tex_Receive/Text");
+		trans5:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;	
+	end
+end
 util.hotfix_ex(CS.QuestsController,'RefreshRedPoint',_RefreshRedPoint) 
 util.hotfix_ex(CS.DWQuestLableCtrl,'GetItemID',_GetItemID) 
+util.hotfix_ex(CS.DWQuestLableCtrl,'InitUIElements',InitUIElements) 
