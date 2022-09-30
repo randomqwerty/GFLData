@@ -168,6 +168,7 @@ patch2090={
 "2090/TheaterBattleTeamSelectionUIController",
 --"2090/LoginController",
 "2090/SangvisFilterTypeChooseItemController",
+"2090/IllustratedBookController",	
 }
 patch3010={
 "3010/DeploymentTeamController",
@@ -224,7 +225,8 @@ patch3010={
 "3010/FormationController",
 "3010/FetterStoryController",
 "3010/OPSPanelController",
-"3010/OPSSpineControl",		
+"3010/OPSSpineControl",	
+"3010/OPSPanelMissionHolder",		
 "3010/SpecialMissionInfoController",	
 "3010/MissionSelectionOperationBarController",
 "3010/SkillManager",
@@ -260,6 +262,8 @@ patch3010={
 "3010/SquadStateController",
 "3010/GunStateRelatedStoryController",
 "3010/DeploymentCampaignExplain",		
+"3010/TheaterBattleTeamSelectionUIController",
+--"3010/SettingController",
 --"3010/language/FactoryDevelopLogController",	
 }
 -- va11
