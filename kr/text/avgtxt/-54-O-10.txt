@@ -90,7 +90,7 @@ NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:............
 ()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:그렇게 잠시, 그는 눈을 돌리고 다시 객차 안으로 들어가 문을 닫았다.+......
 ()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:대륙간 열차 "미래호", F01호 객차의 휴게실.
 NPC-TD_Boy(0)<Speaker>루카스</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:선생님, 교관님이 지시하신 대로 자리를 배정해 두었습니다.
-()<Speaker>류드밀라</Speaker>||:...감사합니다.+이제 여기는 두 분께 부탁드립니다. 저는 한 사람을 지원하러 가야 합니다.
+AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:...감사합니다.+이제 여기는 두 분께 부탁드립니다. 저는 한 사람을 지원하러 가야 합니다.
 NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:걱정 마시게.
 ()||:그의 등 뒤로, 초연한 모습의 그녀가 휴게실의 문 앞에 모습을 드러냈다.
 AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:유감스럽게도... 저는 두 분의 신뢰에 보답할 것이 없군요.
@@ -104,13 +104,13 @@ AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||:......
 ()||<SE1>Select</SE1>:잠시 후, 류드밀라는 홀스터에서 권총을 꺼내 그의 어깨 위로 손잡이가 향하도록 건넸다.
 ()||<SE1>Rope</SE1>:그리고 닥터 루고사는 정중히 두 손으로 권총을 받았다.
 NPC-TD_Boy(0)<Speaker>루카스</Speaker>||:......!
-()||:루카스는 이 광경을 옆에서 걱정 가득한 얼굴로 지켜봤다.
-()||:그때, 닥터 루고사의 얼굴에도 창밖의 불빛이 비쳤다.+군대의 마수가, 열차 가까이까지 다가온 것이었다.
-NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:내 생각이 맞다면... 그대가 놈들의 목표요?
-AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>;NPC-Doctor(0)||:...예.+그러니 제 손으로 전부 처리할 겁니다.
-AR18(6)<Position>0,70</Position>;NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:무슨 수로?
-AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>;NPC-Doctor(0)||:여명으로 밤을 밝혀서.
-AR18(6)<Position>0,70</Position>;NPC-Doctor(0)<Speaker>닥터 루고사</Speaker>||:아아... 이런 자리에서나마 그대와 알게 되어 대단히 기쁘오, 류드밀라 교관.
-AR18(6)<Position>0,70</Position><Speaker>류드밀라</Speaker>||<SE1>AVG_footsteps_cave</SE1>:저야말로, 닥터 유진 루고사.
+()||<黑屏1>:루카스는 이 광경을 옆에서 걱정 가득한 얼굴로 지켜봤다.
+()||<黑屏2><BIN>519</BIN>:그때, 닥터 루고사의 얼굴에도 창밖의 불빛이 비쳤다.+군대의 마수가, 열차 가까이까지 다가온 것이었다.
+()<Speaker>닥터 루고사</Speaker>||:내 생각이 맞다면... 그대가 놈들의 목표요?
+()<Speaker>류드밀라</Speaker>||:...예.+그러니 제 손으로 전부 처리할 겁니다.
+()<Speaker>닥터 루고사</Speaker>||:무슨 수로?
+()<Speaker>류드밀라</Speaker>||:여명으로 밤을 밝혀서.
+()<Speaker>닥터 루고사</Speaker>||:아아... 이런 자리에서나마 그대와 알게 되어 대단히 기쁘오, 류드밀라 교관.
+()<Speaker>류드밀라</Speaker>||:저야말로, 닥터 유진 루고사.
 ()||:류드밀라는 드물게 부드럽게 감은 눈으로 미소를 짓곤, 문을 나섰다.
 ()||<黑屏1>:......

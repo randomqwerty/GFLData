@@ -10396,6 +10396,10 @@
     "formula": "sbufftypetier(201)+sbufftypetier(202)+sbufftypetier(203)+sbufftypetier(204)+sbufftypetier(205)+sbufftypetier(206)+sbufftypetier(208)>0?1:0"
   },
   {
+    "id": 4788,
+    "formula": "sbuffidtier(8548)=0?1:getchance(40)?0:1"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
