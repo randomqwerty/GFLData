@@ -169,6 +169,7 @@ patch2090={
 --"2090/LoginController",
 "2090/SangvisFilterTypeChooseItemController",
 "2090/IllustratedBookController",	
+"2090/MallGoodController",
 }
 patch3010={
 "3010/DeploymentTeamController",
