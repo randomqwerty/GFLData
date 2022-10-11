@@ -5,6 +5,7 @@ xlua.private_accessible(CS.PassOrderController)
 --修正home界面下载对话框显示
 local SevenLoginHandler = function(self)
 	self:SevenLoginHandler(); 
+	CS.ResCenter.instance.currentNeedUnCompress = nil;
 	if CS.ResCenter.instance.currentDownloadState ~= CS.ResCenter.DownloadAddState.DownloadAddInHome and 
 		CS.ResCenter.instance.currentDownloadVoiceState ~= CS.ResCenter.DownloadVoiceState.DownloadInHome then
 		return;

@@ -36,6 +36,9 @@ end
 
 local ShowShade = function(self,play,duration)
 	self:ShowShade(play,duration);
+	if CS.DeploymentBackgroundController.canClickLayers.Count < 2 then
+		return;
+	end
 	local spothq = nil;
 	local spotDta = nil;
 	local spotteam = nil;
