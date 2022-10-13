@@ -403,7 +403,7 @@ local LoadTitle = function(self)
 	self:CheckConfigTip();
 end
 local RequestSetDrawEvent = function(self,data)
-	self:RefreshUI(true);
+	self:RefreshUI(false);
 	self:CheckAnim();
 	self:CheckModuleSpine();
 	self:RefreshMoudleBuildUI();
