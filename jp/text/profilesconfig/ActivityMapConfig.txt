@@ -4,7 +4,7 @@
 //2019夏活配置：
 //MissionSelectionTex|missionselect_Isomer|2
 //2019万圣配置：
-//MissionSelectionTex|missionselect_Halloween|1
+MissionSelectionTex|missionselect_Halloween|1|-34
 //2019DJmax复刻配置：
 //MissionSelectionTex|missionselect_GloryDay|0
 //2019圣诞配置：
@@ -30,7 +30,7 @@
 //2020冬活配置：
 //MissionSelectionTex|missionselect_MirrorStage|2|-44
 //马蜂窝复刻配置：
-MissionSelectionTex|missionselect_Sing_RE|2|-39
+//MissionSelectionTex|missionselect_Sing_RE|2|-39
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -114,12 +114,12 @@ OPSLeftBGNormalActivity|-49|2021Xmas_Left
 //OPSNoticeNormalActivity|-31|Isomer_Notice
 //OPSNoticeNormalActivity|-32|VA11_Notice
 //OPSNoticeNormalActivity|-33|Reversible_Notice
-//OPSNoticeNormalActivity|-34|Hallowmas_2019_Notice
+OPSNoticeNormalActivity|-34|Hallowmas_2019_Notice
 //OPSNoticeNormalActivity|-35|Xmas_2019_Notice
 //OPSNoticeNormalActivity|-36|PolarizedLight_Notice
 //OPSNoticeNormalActivity|-37|WhiteDay_2020_Notice
 //OPSNoticeNormalActivity|-38|GunslingerGirl_Notice
-OPSNoticeNormalActivity|-39|RE_SingNotice
+//OPSNoticeNormalActivity|-39|RE_SingNotice
 //OPSNoticeNormalActivity|-40|Bikini_2020_Notice
 //OPSNoticeNormalActivity|-41|Activity_2020S_Notice
 //OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
@@ -154,7 +154,7 @@ OPSTimeNormalActivity|-49|Reversible_Time
 //跳转(0跳转商城1跳转主界面红包公用)
 //OPSGoto|GloryDay_GotoMall|0
 //OPSGoto|VA11_GotoMall|0
-//OPSGoto|Hallowmas_2019_GotoMall
+OPSGoto|Hallowmas_2019_GotoMall
 //OPSGoto|Xmas_2019_GotoMall|0
 //OPSGoto|PolarizedLight_GotoMall|0
 //OPSGoto|WhiteDay_2020_GotoMall|0
@@ -346,7 +346,7 @@ OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 //OPSCampaignTitleButtonTip|-31|9001|60|Isomer_Tip|1
 //OPSCampaignTitleButtonTip|-32|100114|80|VA11_Tip|1
 //OPSCampaignTitleButtonTip|-33|9003|60|Reversible_Tip|1
-//OPSCampaignTitleButtonTip|-34|9003|60|Reversible_Tip|1
+OPSCampaignTitleButtonTip|-34|900048|120|Hallowmas_2019_Tip|1
 //OPSCampaignTitleButtonTip|-35|100117|120|Xmas_TIP|1
 //OPSCampaignTitleButtonTip|-36|9004|60|PolarizedLight_Tip|1
 //OPSCampaignTitleButtonTip|-37|100133|120|WhiteDay_2020_Tip|1

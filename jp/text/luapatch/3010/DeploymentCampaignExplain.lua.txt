@@ -18,5 +18,21 @@ local CreateLoseSplitLine = function(self)
 	end
 	return self:CreateLoseSplitLine();
 end
+
+local InitShowGoldTarget = function(self)
+	if CS.GameData.currentSelectedMissionInfo.expect_enemy_die_num > 98 then
+		CS.GameData.currentSelectedMissionInfo.expect_enemy_die_num = 0;
+	end
+	self:InitShowGoldTarget();
+end
+
+local CheckNightText = function(self,textSCondition)
+	if CS.GameData.currentSelectedMissionInfo.expect_enemy_die_num > 98 then
+		CS.GameData.currentSelectedMissionInfo.expect_enemy_die_num = 0;
+	end
+	self:CheckNightText(textSCondition);
+end
 util.hotfix_ex(CS.DeploymentCampaignExplain,'CreateWinSplitLine',CreateWinSplitLine)
 util.hotfix_ex(CS.DeploymentCampaignExplain,'CreateLoseSplitLine',CreateLoseSplitLine)
+util.hotfix_ex(CS.DeploymentCampaignExplain,'InitShowGoldTarget',InitShowGoldTarget)
+util.hotfix_ex(CS.DeploymentCampaignExplain,'CheckNightText',CheckNightText)
