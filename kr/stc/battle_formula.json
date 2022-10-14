@@ -10116,6 +10116,14 @@
     "formula": "sbuffidtier(8370)=1?60:1"
   },
   {
+    "id": 4710,
+    "formula": "#leader=1?0:201"
+  },
+  {
+    "id": 4711,
+    "formula": "#Maxlife*0.1"
+  },
+  {
     "id": 4712,
     "formula": "GetChance(50)?201:204"
   },
@@ -10396,8 +10404,96 @@
     "formula": "sbufftypetier(201)+sbufftypetier(202)+sbufftypetier(203)+sbufftypetier(204)+sbufftypetier(205)+sbufftypetier(206)+sbufftypetier(208)>0?1:0"
   },
   {
+    "id": 4782,
+    "formula": "$1-$1*tbuffidtier(8529)*sbuffidtier(8528)/100"
+  },
+  {
+    "id": 4783,
+    "formula": "$1>#shield?#shield:$1"
+  },
+  {
+    "id": 4784,
+    "formula": "@defbreak*sbuffidtier(8527)/100"
+  },
+  {
+    "id": 4785,
+    "formula": "#armor>0?$1*0.5:$1"
+  },
+  {
+    "id": 4786,
+    "formula": "$1-10"
+  },
+  {
+    "id": 4787,
+    "formula": "sbuffidtier(8544)=0?(4+200/@Rate)*30-2:89"
+  },
+  {
     "id": 4788,
     "formula": "sbuffidtier(8548)=0?1:getchance(40)?0:1"
+  },
+  {
+    "id": 4789,
+    "formula": "sbuffidtier(8544)=0?(4+200/@Rate)*30:91"
+  },
+  {
+    "id": 4790,
+    "formula": "#def<#maxdef?$1/#formation:#def=0?$1/#formation:0"
+  },
+  {
+    "id": 4791,
+    "formula": "tbuffidtier(8578)=1&tbuffidtier(8577)=0?$1:0"
+  },
+  {
+    "id": 4792,
+    "formula": "tbuffidtier(8578)=0&tbuffidtier(8577)=1?$1:0"
+  },
+  {
+    "id": 4793,
+    "formula": "tbuffidtier(8578)=1&tbuffidtier(8577)=1?$1:0"
+  },
+  {
+    "id": 4794,
+    "formula": "tbuffidtier(8580)=1?$1:$1+sbuffidtier(8566)*0.01*$1"
+  },
+  {
+    "id": 4795,
+    "formula": "100+sbuffidtier(8563)"
+  },
+  {
+    "id": 4796,
+    "formula": "@dodge*0.01*sbuffidtier(8565)"
+  },
+  {
+    "id": 4797,
+    "formula": "sbuffidtier(8564)"
+  },
+  {
+    "id": 4798,
+    "formula": "100-sbuffidtier(8569)*0.1"
+  },
+  {
+    "id": 4799,
+    "formula": "100+sbuffidtier(8568)*0.1"
+  },
+  {
+    "id": 4800,
+    "formula": "sbuffidtier(8570)"
+  },
+  {
+    "id": 4801,
+    "formula": "sbuffidtier(8570)*2*sbuffidtier(8571)"
+  },
+  {
+    "id": 4802,
+    "formula": "@maxlife*0.01*sbuffidtier(8561)+@maxlife*0.02*sbuffidtier(8562)"
+  },
+  {
+    "id": 4803,
+    "formula": "#enemytype=3?1:#enemytype=5?1:#enemytype=1&tbuffidtier(8417)=0?1:0"
+  },
+  {
+    "id": 4804,
+    "formula": "0"
   },
   {
     "id": 6000,

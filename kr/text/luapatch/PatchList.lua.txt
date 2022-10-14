@@ -168,7 +168,9 @@ patch2090={
 "2090/TheaterBattleTeamSelectionUIController",
 --"2090/LoginController",
 "2090/SangvisFilterTypeChooseItemController",
-"2090/IllustratedBookController",	
+"2090/IllustratedBookController",
+"2090/FlightChessLobbyGashaRewardPoolController",		
+"2090/MallGoodController",
 }
 patch3010={
 "3010/DeploymentTeamController",
@@ -263,6 +265,8 @@ patch3010={
 "3010/GunStateRelatedStoryController",
 "3010/DeploymentCampaignExplain",		
 "3010/TheaterBattleTeamSelectionUIController",
+"3010/GCloseController",
+"3010/ResearchUnlockSlotController",
 --"3010/SettingController",
 --"3010/language/FactoryDevelopLogController",	
 }
