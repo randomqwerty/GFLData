@@ -44,8 +44,10 @@ local myOnClickShowMessage = function(self)
 		self:OnClickShowMessage()
 	end
 end
+if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 util.hotfix_ex(CS.HomeUserInfoNewController,'OnClickChangeName',myOnClickChangeName)
 util.hotfix_ex(CS.FriendPersonalCardController,'ChangeIntro',myChangeIntro)
 util.hotfix_ex(CS.DormUIController,'OnClickRename',myOnClickRename)
 util.hotfix_ex(CS.DormUIController,'OnClickLeaveMessage',myOnClickLeaveMessage)
 util.hotfix_ex(CS.FriendListLabelController,'OnClickShowMessage',myOnClickShowMessage)
+end
