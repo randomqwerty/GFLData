@@ -248,7 +248,7 @@ patch3010={
 "3010/MissionData",
 "3010/AVGPicController",
 "3010/AVGCommonEffect",	
-"3010/CommonIconController",
+--"3010/CommonIconController",
 "3010/FairyData",					
 "3010/BattleFriendlyCharacterController",
 "3010/PassBuyPassBoxController",
@@ -267,8 +267,12 @@ patch3010={
 "3010/TheaterBattleTeamSelectionUIController",
 "3010/GCloseController",
 "3010/ResearchUnlockSlotController",
+"3010/DormController",
+"3010/MiniGameFlightChessSelectCardController",
+"3010/SangvisExchangeShopItemController",
 --"3010/SettingController",
---"3010/language/FactoryDevelopLogController",	
+--"3010/language/FactoryDevelopLogController",
+"3010/AdjustAdjutantScaleController",		
 }
 -- va11
 print("load Va11");

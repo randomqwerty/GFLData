@@ -29,7 +29,6 @@ local _Start = function(self)
 			end
 		end
 	end
-	
 end 
 local myOnClick = function(self)
 	if self.good ~= nil and (self.good.rmbId == "60101" or self.good.rmbId == "60102" or self.good.rmbId == "60103"
@@ -39,6 +38,39 @@ local myOnClick = function(self)
 	else
 		self:OnClick();  
 	end
-end 
- 
+end
+local _UpdateGoodUI = function(self,mallGood,pointMall,goodName,description,spriteIcon,count)
+	self:UpdateGoodUI(mallGood,pointMall,goodName,description,spriteIcon,count);
+
+	if spriteIcon ~=nil then
+
+	elseif CS.System.String.IsNullOrEmpty(mallGood.icon)==false then
+
+	else 
+		local package ;
+		if pointMall~= nil then
+				package= pointMall.packag;
+		else
+				package= mallGood.package;
+		end
+		if package ~= nil then
+			if package.listItemPackage.Count > 0 then
+				local itemInfo = package.listItemPackage[0].info;
+				if itemInfo ~= nil and itemInfo.type == 5 then
+					local fc = CS.GameData.listCosmeticMall:GetDataById(itemInfo.itemId - 1000);
+					if fc ~= nil then
+						if fc.type == CS.CosmeticType.headPic then
+							CS.CommonController.LoadImageAvatarWithSequenceFrame(self.imageIcon, fc.id);
+						end
+						if fc.type == CS.CosmeticType.headFrame then
+							CS.CommonController.LoadImageHeadFrameWithSequenceFrame(self.imageIcon, fc.id);
+						end
+					end
+				end
+			end
+		end
+		package=nil;
+	end	
+end
 util.hotfix_ex(CS.MallGoodController,'Start',_Start)
+util.hotfix_ex(CS.MallGoodController,'UpdateGoodUI',_UpdateGoodUI)

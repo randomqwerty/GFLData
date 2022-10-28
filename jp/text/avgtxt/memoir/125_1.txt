@@ -1,53 +1,53 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>97</BIN><BGM>BGM_Hello</BGM>:明媚的阳光开启了格里芬基地寻常的一天。+匆忙的脚步声打破了这份宁静……
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||：嗨~MG4，可算找到你了！
-MG4(0)<Speaker>MG4</Speaker>;NPC-Kalin(1)||:是格林娜小姐啊……有什么事吗？
-MG4(0);NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:不用这么客气，最近在计划新一批改造，名单上有你哟。+可以思考下需求，有什么想要的和指挥官提就行了。
-MG4(0)<Speaker>MG4</Speaker>;NPC-Kalin(1)||:……改造……我没什么需求。+按照指挥官的想法来就行，我都可以的。
-MG4(0);NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:诶？这件事也不着急，你可以慢慢想。+或者跟关系好的人形们商量一下？说不定能得到一些有意思的建议。
-MG4(0)<Speaker>MG4</Speaker>;NPC-Kalin(1)||:关系好的……人形？嗯……我明白了。
-MG4(0)<Speaker>MG4</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#A9A9A9>哎，关系好……没有讨厌我的人形就不错了。</color>
-()||<黑屏2><BIN>82</BIN>:推开宿舍的门，等候在一角的专属小嘟瞬间亮起。
-NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||：小嘟上线！+亲爱的MG4，欢迎回家~
-()||:MG4瘫倒在沙发上，招呼着小嘟到身边来。
-MG4(0)<Speaker>MG4</Speaker>||:小嘟~你觉得大家会喜欢什么样的人形啊？
-MG4(0);NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||:MG4喜欢的话，大家就都会喜欢的！
-MG4(0)<Speaker>MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:那为什么明明我跟大家一样都是按制式设计的，却没有她们那么受欢迎啊？
-MG4(0);NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||:小嘟最喜欢MG4了！
-MG4(0)<Speaker>MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:你觉得我应该怎么跟其他人形相处呢？
-NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||:他们都会主动来跟MG4相处的！
-MG4(0)<Speaker>MG4</Speaker>||<黑屏1>:你现在真是越来越不智能了！我要找客服给你换个AI回复。+算了，还是我自己先搜搜看吧。
-()||<黑屏2><BGM>BGM_Hello</BGM><BIN>82</BIN>:欢迎来到16LAB研究院娱乐版，这里可以交流有关人形的一切。
-()<Speaker>MG4</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:输入——如何与人形相处——+1、2、3……一百多页！原来大家都有类似的烦恼……
-MG4(0)<Speaker>MG4</Speaker>||:要点1、2、3、4……嗯嗯，全部记下来！+注意事项……两百个交际小妙招——
-()<Speaker>MG4</Speaker>||:和朋友们一起去玩危险性游戏——+最好是超强刺激的，能暂时忘却自己身份的活动……
-MG4(0)<Speaker>MG4</Speaker>||:参考案例：过山车、鬼屋、海盗船……好像都是不错的选择。+给……给谁通讯会比较好？
-MG4(0)<Speaker>MG4</Speaker>||:<color=#A9A9A9>我来邀请的话，她对我的印象……会变好吗？</color>+先，先鼓起勇气随机找一个人……
-MG4(0)||:嘟嘟嘟……
-MG4(0)<Speaker>MG4</Speaker>||<BGM>BGM_Empty</BGM>:啊——对方是特别认真的M60，她会不会觉得出去玩浪费她时间啊？
-MG4(0)||:嘟嘟嘟……
-MG4(0)<Speaker>MG4</Speaker>||:怎么还不接……莫、莫非拉黑我了？+不会吧！我，我可什么也没干……
-MG4(0)<Speaker>MG4</Speaker>;M60(0)<Speaker>M60</Speaker><通讯框>||:<color=#00CCFF> 您好，M60正在训练中，有事请留言。</color>
-MG4(0)<Speaker>MG4</Speaker>;M60(0)<通讯框>||:训练啊，那你先忙，我没什么事。
-MG4(0)||:轻轻地挂掉通讯。
-MG4(0)<Speaker>MG4</Speaker>||:呼——感觉松了口气，但是又有点难受……+要不要换个人联系？
-MG4(0)<Speaker>MG4</Speaker>||:<color=#A9A9A9>我，我再随机一个人！</color>
-()||:嘟嘟嘟……
-SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>M……MG4，第一次接到阁下的通讯……是有什么紧急事件吗？我可以马上出门！</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:啊？……没，没有，就是看看你最近那个，过得好不好！+<color=#A9A9A9>可恶，竟然问不出口，啊你最近有没有空啊……</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>我……我挺好的，过着一名格里芬人形应该过的标准生活。</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:哦，哦那是挺好的！我就是随便问问。那，那你最近有没有什么想法？+<color=#A9A9A9>比如出门一起玩之类的。</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>莫非阁下有什么噩耗要告诉我？请大声说出来吧，我都可以接受。</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:没有啊！我就是突然想联络你……
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>绝无可能，以阁下和我的关系，绝不会无事闲聊。</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:……
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>是指挥官还是其他人形对我有所指教，才烦请阁下转告？</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:不是不是真的不是！对不起你千万别多想，我就是随便联络一下感情。+<color=#A9A9A9>啊啊啊啊太羞耻了！！！</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>请阁下放心说明来意吧！</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:我真的没有来意！+<color=#A9A9A9>怎么办怎么办怎么办啊啊啊我要技术性掉线了！</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>什么事情我都能接受的！</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:喂，怎么回事？好像听不见了……
-()<Speaker>MG4</Speaker>;SIG510(0)<Speaker>MG4</Speaker><通讯框>||:信号不好！我，我先挂了！
-()||:……嘟嘟嘟……+SIG-510通讯请求，是否接受？
-MG4(0)<Speaker>MG4</Speaker>||:立刻把通讯挂断！+<color=#A9A9A9>呜呜呜，约人太难了，我还是自己去吧。</color>
+()||<BIN>97</BIN><BGM>BGM_Hello</BGM>:麗しい陽射しの中、グリフィン基地の平凡な一日が始まった。+慌ただしい足音がその静寂を破る……
+NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:おはようございます、MG4さん、やっと見つけましたよ！
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC-Kalin(1)||:カリーナさんでしたか……何か御用ですか？
+MG4(0);NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:そう畏まらないで。次のメンタルアップグレードを計画してるんです、//nリストにあなたの名前が挙がってますよ。+改造の際に何か要望があれば、指揮官に伝えておいてくださいね。
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC-Kalin(1)||:……アップグレード……特に要望はありません。+指揮官の考えに沿って頂ければ、私はこれといって何も。
+MG4(0);NPC-Kalin(1)<Speaker>カリーナ</Speaker>||:そうですか？急ぎじゃないので、ゆっくり考えてみてください。+仲のいい人形たちと相談してみては？//n何か面白いアドバイスがもらえるかもしれませんよ。
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC-Kalin(1)||:仲のいい……人形？//nはい……わかりました。
+MG4(0)<Speaker>Gr MG4</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#A9A9A9>ハァ……仲のいい人形か……嫌われてなければ上出来よ。</color>
+()||<黑屏2><BIN>82</BIN>:宿舎のドアを開けた瞬間、片隅で待っていた「トンちゃん」が点灯した。
+NPC_Cheeringteam(0)<Speaker>MG4の電子ペット</Speaker><Position>0,150</Position>||:トンちゃんがオンラインです！+MG4、おかえりなさ～い♡
+()||:MG4はソファーに倒れ込み、トンちゃんを呼んだ。
+MG4(0)<Speaker>Gr MG4</Speaker>||:ねぇ、みんなに好かれる人形って、どんなだと思う？
+MG4(0);NPC_Cheeringteam(0)<Speaker>MG4の電子ペット</Speaker><Position>0,150</Position>||:MG4が好きなら、みんなも好きだと思うよ！
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:みんな設計図通りに作られた人形なのに、//nどうして私は誰にも好かれないんだろう？
+MG4(0);NPC_Cheeringteam(0)<Speaker>MG4の電子ペット</Speaker><Position>0,150</Position>||:あたちはMG4がだ～いすき♡
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:みんなとどう付き合ったらいいのかなぁ？
+NPC_Cheeringteam(0)<Speaker>MG4の電子ペット</Speaker><Position>0,150</Position>||:みんな、MG4とお話したいって思ってるよ！
+MG4(0)<Speaker>Gr MG4</Speaker>||<黑屏1>:お前ってば、ますますスマートじゃなくなってない！？//nカスタマーサービスに連絡してAI交換してもらおうかな。+まぁいいや、まずは自分で検索してみよう。
+()||<黑屏2><BGM>BGM_Hello</BGM><BIN>82</BIN>:16LAB研究所エンタメ板へようこそ、//n人形に関することならなんでもご相談頂けます。
+()<Speaker>Gr MG4</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:入力――人形との付き合い方――+1、2、3……100ページ以上ある！//nみんな似たようなことで悩んでたんだ……
+MG4(0)<Speaker>Gr MG4</Speaker>||:ポイント１、2、3、4……ふむふむ、全部メモしなきゃ！+注意事項……交際の秘訣200条――
+()<Speaker>Gr MG4</Speaker>||:友だちと一緒に危険なゲームを楽しむ――+最高に刺激的で、お互いの身分を忘れられるようなアトラクション……
+MG4(0)<Speaker>Gr MG4</Speaker>||:例：ジェットコースター、お化け屋敷、バイキング……どれも良さそう。+だ……誰に声をかけたらいいかな？
+MG4(0)<Speaker>Gr MG4</Speaker>||:<color=#A9A9A9>自分から誘えば、印象……良くなるかな？</color>+ま、まずは勇気を出してランダムに……
+MG4(0)||:（通信音）
+MG4(0)<Speaker>Gr MG4</Speaker>||<BGM>BGM_Empty</BGM>:あ――超真面目なM60じゃん。//n遊びに行くなんて時間の無駄だって思うかな？
+MG4(0)||:（通信音）
+MG4(0)<Speaker>Gr MG4</Speaker>||:つながらない……ま、まさか、ブロックされた？+そんなはずない！私、何もしてないのに……
+MG4(0)<Speaker>Gr MG4</Speaker>;M60(0)<Speaker>M60</Speaker><通讯框>||:<color=#00CCFF>こんにちは、M60はただ今訓練中です。ご用の方は、メッセージをどうぞ。</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;M60(0)<通讯框>||:く、訓練だったんですね。//nでしたら大丈夫です、大したことではないので。
+MG4(0)||:そっと通信を切る。
+MG4(0)<Speaker>Gr MG4</Speaker>||:フゥ――ホッとしたけど、なんかガッカリだな……+他をあたる？
+MG4(0)<Speaker>Gr MG4</Speaker>||:<color=#A9A9A9>も、もいっちょランダムで！</color>
+()||:（通信音）
+SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>M……MG4、貴方からご連絡頂くなんて初めてですわ……何かお急ぎの要件でも？私なら、今すぐにでも出られましてよ！</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:えっ？……い、いえ、ただ最近、その、どうなさってるかと！<color=#A9A9A9>やだ、どうして言葉が出ないの……ほら、早く聞きなよ、「あのさ、最近時間ある？」って。</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>お……おかげさまで息災でしてよ。グリフィンの人形らしい生活を送っておりますわ。</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:あ、そ、それは良かった！ちょっと尋ねてみただけですから。//nと、ところで最近、何か、思う所があったりしませんか？<color=#A9A9A9>例えば、一緒に遊びに出かけたいとか。</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>よもや、悪い知らせがおありなのでは？でしたら、ハッキリとおっしゃってくださいまし。心の準備は出来ておりますわ。</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:とんでもない！私はただ、ちょっと連絡したくなっただけで……
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>有り得ませんわ。貴方と私との間柄で、用も無いのに雑談などと。</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:……
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>指揮官あるいは他の方に、私への忠告を頼まれたのではなくて？</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:いえいえいえ、ホントに違うんです！//nごめんなさい、あまり深く考えないでください、//nただ気持ちを伝えようと思っただけですから！+<color=#A9A9A9>ああああ恥ずかしいぃぃぃ！！！</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>何か意図がおありなら、どうぞ何なりと！</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:意図なんてありません！+<color=#A9A9A9>どうしようどうしようどうしようあああ接続を切るっきゃない！</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>覚悟は出来ておりますわ！</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:もしもし、あれ、どうしちゃったんでしょう？聞こえなくなっちゃいました……
+()<Speaker>Gr MG4</Speaker>;SIG510(0)<Speaker>Gr MG4</Speaker><通讯框>||:電波が悪いみたいです！き、切りますね！
+()||:（通信音）+SIG-510からの通信です、応答しますか？
+MG4(0)<Speaker>Gr MG4</Speaker>||:通信切断！+<color=#A9A9A9>ううう……人を誘うなんてムリだよ……やっぱり一人で行こう。</color>
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
