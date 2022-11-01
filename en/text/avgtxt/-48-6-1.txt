@@ -1,90 +1,90 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>9</BIN><黑屏2><narrator><黑屏1>:临时指挥部。
-()||<黑屏2><BIN>85</BIN><BGM>10082</BGM>:卡特驻足在全息地图前听取部下进行战况汇报。+部下已经从西向东报告了针对所有轰炸目标的行动，但卡特的眼睛始终盯着一个地方。
-NPC-Soldier(0)<Speaker>特战队联络员</Speaker>||:……以上就是目前的作战情况。+做一个简单的总结，目前除了格里芬基地S09区，其余所有PMC的作战都已经进入收尾清扫阶段。
-NPC-Carter(1)<Speaker>卡特</Speaker>;NPC-Soldier(0)||:格里芬基地现在的作战计划进行到了哪一步？
-NPC-Carter(1);NPC-Soldier(0)<Speaker>特战队联络员</Speaker>||:由于遭到了激烈反抗，我们目前仍在尝试攻入基地内部，已经晚于原定计划。+同时，我们的作战小队也已经伤亡数人，虽然我们依然占据绝对优势，但是……+将军，我们还要继续这样僵持下去吗？
-NPC-Carter(1)<Speaker>卡特</Speaker>;NPC-Soldier(0)||:格里芬基地不同于其他的PMC，它有着独特的战略意义。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:不管付出多大的代价，都是值得的。
-NPC-Soldier(0)<Speaker>特战队联络员</Speaker>||:是……
-NPC-Carter(1)<Speaker>卡特</Speaker>||:你先下去吧。
-()||:联络员敬了一个标准的礼后，离开了指挥室。+卡特双手撑在全息地图边缘若有所思。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:原本以为那个年轻的指挥官去了柏林，事情就会好办很多。+怎么偏偏忘了你，克鲁格，你还真是宝刀未老啊。
-NPC-Carter(1);NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><通讯框>||:<color=#00CCFF>将军，我来向您进行战况报告。</color>
-NPC-Carter(1)<Speaker>卡特</Speaker>;NPC-Soldier(0)<通讯框>||:作战计划推行到哪一步了？
-NPC-Carter(1);NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><通讯框>||:<color=#00CCFF>我们已经将所有人力投放到攻入基地的任务中。</color>
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><通讯框>||:<color=#00CCFF>目前我们摧毁了格里芬基地全部地面设施，正在攻入地下。</color>
-NPC-Carter(1)<Speaker>卡特</Speaker>||:把你们的作战记录发给我。
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><通讯框>||:<color=#00CCFF>请稍等。</color>
-()||:一份详细记载着针对格里芬基地作战的记录文件传到了卡特面前的投影上。+卡特立刻翻阅起来。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:后路已经全部封锁，但是还没有找到克鲁格和心智服务器的影子？
-NPC-Carter(1);NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><通讯框>||:<color=#00CCFF>是的。</color>
-NPC-Carter(1)<Speaker>卡特</Speaker>;NPC-Soldier(0)<通讯框>||:把其他PMC基地的小队调过来，加大攻击力度。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:在歼灭所有人形的基础上，以克鲁格和赫丽安为优先目标，没有人类的指挥，这群人形是成不了气候的。
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><通讯框>||:<color=#00CCFF>是！</color>
-()||<SE1>AVG_tele_disconnect</SE1>:军人在严肃地敬礼后消失在了通讯框中，卡特的视线重新落回格里芬基地的结构示意图上。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:如果我是你的话——+我一定会躲在最底层，寻找反击的机会……
-()||<黑屏1>:旗子在卡特手中的辗转几番后，笔直地安插在了格里芬基地的地下三层。
-()||<黑屏2><BIN>434</BIN><BGM>BGM_Empty</BGM><黑屏1>:地下三层，工厂。+赫丽安逐一清点着受损人形的情况。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<BGM>GF_21summer_avg_Demon</BGM><BIN>415</BIN><黑屏2>:等待替换部件，这个也是，唔，这个已经丧失了战斗能力，任务改为承载物资……+这个修理一下就能继续行动，GSH18，优先处——+算了，她们忙不过来了，我自己来吧。
-()||:赫丽安蹲在伤员的身边，亲自动手进行修理。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:英格拉姆，帮我拿个扳手过来，要那个——
-()||:一只型号刚好的扳手越过赫丽安的肩膀。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:你怎么知道是这个型号？
-()||:赫丽安讶异地转过身，瞳孔不由放大。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<震屏>:M4！
-M4A1Mod(0)<Speaker>M4A1</Speaker>||:……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:你怎么会在这里……
-NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:啊哈，果然被骗了！
-()||:帕斯卡从M4的身后探出头来，颇有几分得意地炫耀起来。
-NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:这不是M4，这是我之前特意保存下来的AR小队的傀儡。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……我还以为我出现幻觉了。+不过这样，我们的战斗力多少有了些提升。
-NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:是啊，有AR小队的傀儡在，或许我的实验器材什么的也能多保留下来些了……
-()||<黑点1>:在帕斯卡还在盘算着自己的实验物资时，赫丽安已经熟练地将AR小队的傀儡收编进了现有的人形小队中。
-()||<黑点2>:另一边，克鲁格重整人形小队，开始进行下一步战略部署。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:各位已经完成修理的人形，立刻集合！+接下来将进行战斗计划的说明。
-()||:人形们迅速完成了集结，整齐地排成队列，站在克鲁格的面前。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:韦伯利，现在敌人的动向怎么样？
-Webley(0)<Speaker>韦伯利</Speaker>||:敌人的小队正在渗透入基地的各个角落，地下二层即将被突破。
-M1928A1(0)<Speaker>汤姆森</Speaker>||:克鲁格先生，现在我们武器和人力都非常稀缺，已经无法应对和敌人正面交锋了。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:嗯，接下来我们分成两队，一队护送心智服务器继续向下层躲避，等待支援到来。+另一队要尽可能地拖延敌人的攻势，为护送小队争取时间。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……
-()||:赫丽安站在克鲁格的身边，望向稀疏的人形纵列。+她的心里涌起一股凄楚，格里芬基地的人形已经损失过半，在接下来的战役中这些美好的面容还将继续陨落。 
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:在正式开始分配小队前，我先说明一下每个队的任务。+我将带领留下来的小队阻击敌人，我们需要面对艰苦卓绝的战斗。+我们的弹药补给已经告急，素体和傀儡的情况也不乐观，而我们将面对的敌人是拥有精良装备和充足补给的军人。
-()||:人形们的神色严峻起来。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:而负责护送的小队任务也并不轻松，你们将背负着整个格里芬基地的未来一路向下。+如果我们失败了，你们就是格里芬基地存活的唯一希望。+赫丽安，护送小队就交给你指挥了。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:明白。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:已经确认失去战斗力的人形自动归入护送小队，剩下的人形可以自由选择队列。
-()||:没有太多犹豫，人形们很快自动分成了两排队列。
-mp443(0)<Speaker>MP443</Speaker>||:托卡列夫，你认真的吗？
-TT33(0)<Speaker>托卡列夫</Speaker>||:嗯，我要继续战斗。
-mp443(0)<Speaker>MP443</Speaker>||:……不是吧，连利贝罗勒也？
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:我承担不了希望的重量……我宁肯选择在战火中消亡……
-mp443(0)<Speaker>MP443</Speaker>||:……
-PPK(0)<Speaker>PPK</Speaker>||:看我干什么，你能想象我乖乖送货的样子吗？
-mp443(0)<Speaker>MP443</Speaker>||:疯了……你们都疯了……
-()||:朝着护送小队走了一半的MP443硬生生折了回来。
-mp443(0)<Speaker>MP443</Speaker>||:我也一起疯了算了……
-()||:超出克鲁格的意料，阻击小队的人数远远超出了护送小队。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:感谢各位的信任。+时间紧迫，在行动开始前，还有一项重要的整备工作——+将你们身上除了武器和子弹以外的所有非必要物品，扔掉。+我们接下来要面对多场战斗，哪怕只是多一斤的负重，都有可能影响整个战局。
-()<Speaker>人形们</Speaker>||:……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我知道你们身上带着很多意义非凡的东西，能够让你们回想起朋友或者自我。+但现在我需要你们舍弃这些情感，将全部的算力集中在战斗上。+放心，我会给你们时间告别，我在工厂外等候，你们准备好了就自行出来列队。
-()||<黑点1>:克鲁格独自走出工厂。+人形们脸色复杂地交换了下眼神，随后开始按照命令进行装备整理。
-()||<黑点2><黑屏1>:等到最后一个人形走出工厂时，工厂的样子已经和几分钟前大相径庭。+墙上写满了鼓励性的标语——+“格里芬必胜！”“我一定会回来的！”+空地上也摆满了人形们留下的各种物件——+没能和友人喝完的酒，精雕细刻的石头，已经牺牲的人形的随身物品……+赫丽安置身其中，感觉工厂不再是工厂，而是一个小型博物馆。+有关爱，死亡和人形。
-()||<黑屏2><BIN>276</BIN><BGM>BGM_Empty</BGM>:IOP研发中心，哈维尔的办公室内。
-()||<BGM>GF_21winter_avg_pathfinder</BGM>:门窗紧闭的房间内，缭绕的烟雾聚集在天花板附近，紊绕不散。+他已经很久没有抽过烟了，这些别人送来的高级雪茄就只能这么放着，今天终于找到了点燃它们的机会。+……话虽如此，实际上他也没抽几口，只是不断地重复着点燃，然后放至燃尽的过程。
-()||<SE1>AVG_tele_connect</SE1>:通讯的声音只来得及响了半声，哈维尔便接通了。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:您好。
-NPC-Havel(0)<Speaker>“老米莎”</Speaker><同时置暗>||:<color=#00CCFF>……情况如何，哈维尔？</color>
-()||:通讯的另一侧，一个低沉的男声响起。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:他们动手了。
-NPC-Havel(0)<Speaker>“老米莎”</Speaker><同时置暗>||:<color=#00CCFF>嗯……和预想的一样？</color>
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:和我们预想的如出一辙。+卡特果然不会善罢甘休。+等他们再闹大点，我们就可以收网了。
-NPC-Havel(0)<Speaker>“老米莎”</Speaker><同时置暗>||:<color=#00CCFF>……很好。</color>
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:不过，有一件事我想询问您的意见。
-NPC-Havel(0)<Speaker>“老米莎”</Speaker><同时置暗>||:<color=#00CCFF>你是说那些军事承包商？</color>
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:他们的功绩不该被忘记。
-NPC-Havel(0)<Speaker>“老米莎”</Speaker><同时置暗>||:<color=#00CCFF>不会有人忘记。</color>
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我理解您的计划，并忠诚地执行它。+但是，格里芬在我们的事业当中做出了举足轻重的贡献。+还有帕斯卡，她的才华是无可复制的。+我认为没有必要让他们真的都埋进那捧土里……您说呢？
-NPC-Havel(0)<Speaker>“老米莎”</Speaker><同时置暗>||:<color=#00CCFF>只要结果不被影响。</color>+<color=#00CCFF>你大可以做你想做的事……我不会干涉。</color>
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||<黑屏1>:……我知道了。+谢谢您的宽容。
+()||<BIN>9</BIN><黑屏2><narrator><黑屏1>:At the temporary command post.
+()||<黑屏2><BIN>85</BIN><BGM>10082</BGM>:Carter has positioned himself in front of the holographic map, where he is listening to his subordinates' sitreps. +His people have reported their activities on all their targets from west to east, but Carter's eyes have always been fixed on one place.
+NPC-Soldier(0)<Speaker>Spetsnaz Liaison</Speaker>||:...And that's the current state of the operation. +In summary, with the exception of the Griffin base in Area S09, the battles for all the other PMCs are now in the cleanup phase.
+NPC-Carter(1)<Speaker>Carter</Speaker>;NPC-Soldier(0)||:And what stage of the operation plan is the Griffin base at?
+NPC-Carter(1);NPC-Soldier(0)<Speaker>Spetsnaz Liaison</Speaker>||:We've encountered heavy resistance, so we are still trying to break into the base interior, meaning we have fallen behind schedule. +At the same time, we've taken casualties to our combat teams. While we still hold an absolute advantage... +General, should we continue this stalemate?
+NPC-Carter(1)<Speaker>Carter</Speaker>;NPC-Soldier(0)||:The Griffin base is not like other PMCs. There is a unique strategic significance to it.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:It will be worthwhile, no matter how high a price we have to pay.
+NPC-Soldier(0)<Speaker>Spetsnaz Liaison</Speaker>||:Yes, sir... 
+NPC-Carter(1)<Speaker>Carter</Speaker>||:You may leave.
+()||:After executing a textbook salute, the liaison leaves. +Carter plants both arms thoughtfully on the holographic map.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:And here I thought it would be easy with that young Commander in Berlin. +How could I have forgotten about you, Kryuger? Age has not dulled your skills in the least.
+NPC-Carter(1);NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><通讯框>||:<color=#00CCFF>General, I have a report on the battle situation. </color>
+NPC-Carter(1)<Speaker>Carter</Speaker>;NPC-Soldier(0)<通讯框>||:What stage is the plan at now?
+NPC-Carter(1);NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><通讯框>||:<color=#00CCFF>We have committed all our manpower to attacking the base. </color>
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><通讯框>||:<color=#00CCFF>Currently, we have destroyed all surface structures and are attacking their underground facilities. </color>
+NPC-Carter(1)<Speaker>Carter</Speaker>||:Show me your combat logs.
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><通讯框>||:<color=#00CCFF>A moment, please. </color>
+()||:A detailed summary of the operation against the Griffin base appears on the projection in front of Carter. +He immediately starts reading it.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:So you've sealed off all their routes of retreat, but you still haven't found a trace of Kryuger or the neural cloud servers?
+NPC-Carter(1);NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><通讯框>||:<color=#00CCFF>Yes. </color>
+NPC-Carter(1)<Speaker>Carter</Speaker>;NPC-Soldier(0)<通讯框>||:Divert all the combat teams from the other PMC bases to the Griffin base. Bring more force to bear.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:Eliminating Kryuger and Helian is a priority that supersedes the basic objective of wiping out all the Dolls. Without human commanders, that group of Dolls has no chance.
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><通讯框>||:<color=#00CCFF>Yes, sir!</color>
+()||<SE1>AVG_tele_disconnect</SE1>:After giving another solemn salute, the soldier vanishes from the transmission window. Carter's gaze returns to the map of the Griffin base.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:If I were you... +I'd hide on the bottom level and look for a chance to fight back... 
+()||<黑屏1>:After twiddling a flag in his hand for a while, Carter plants it squarely on level B3 of the Griffin base.
+()||<黑屏2><BIN>434</BIN><BGM>BGM_Empty</BGM><黑屏1>:Basement 3, in the Factory. +Helian is taking stock of the Dolls' injuries.
+NPC-Helian(0)<Speaker>Helian</Speaker>||<BGM>GF_21summer_avg_Demon</BGM><BIN>415</BIN><黑屏2>:Waiting for part replacement. This one as well. Hm, this one can't fight anymore, assignment changed to supply carrier... +She'll be able to move once she gets fixed. GSh-18, prioritize— +Nevermind, she's too busy, I'll take care of it myself.
+()||:Helian kneels beside the injured Doll and personally carries out the repairs.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Ingram, get me a wrench, that one—
+()||:A wrench that's just the right size is passed over Helian's shoulder.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:How do you know this is the one I need?
+()||:Surprised, Helian turns around, and her eyes grow wide.
+NPC-Helian(0)<Speaker>Helian</Speaker>||<震屏>:M4!
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:... 
+NPC-Helian(0)<Speaker>Helian</Speaker>||:What are you doing here...?
+NPC-Persica(2)<Speaker>Persica</Speaker>||:Aha, got you!
+()||:Persica pokes her head out from behind M4, looking very proud of herself.
+NPC-Persica(2)<Speaker>Persica</Speaker>||:This isn't M4. This is an AR Team Dummy that I specially left in reserve.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...I thought I was seeing things. +However, it does mean our fighting power will be boosted a little.
+NPC-Persica(2)<Speaker>Persica</Speaker>||:Yeah, with these AR Team Dummies around, I might be able to preserve some of my experimental materials... 
+()||<黑点1>:Just as Persica is musing about her lab supplies, Helian has smoothly incorporated the AR Team Dummies into the current Doll squad deployment.
+()||<黑点2>:On the other side of the room, Kryuger is re-forming the Doll squads and commencing the next round of tactical deployments.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:All Dolls who have completed their repairs, gather round! +I'll be going over the plan for the upcoming battle.
+()||:The Dolls assemble quickly in neat rows in front of Kryuger.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Webley, what news is there of the enemy movements?
+Webley(0)<Speaker>Webley</Speaker>||:The enemy squads have penetrated every corner of the base. Basement 2 is about to be overrun.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Mr. Kryuger, we are extremely low on weapons and manpower now. We can't fight the enemy head-on anymore.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Right. We'll be splitting up into two teams. One team will escort the neural cloud servers and continue to the lower levels to take shelter and wait for help to arrive. +The other team will delay the enemy offensive for as long as possible to buy the escort team time.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:... 
+()||:Helian stands by Kryuger's side and looks at the paltry ranks of Dolls. +An acute sense of sorrow fills her heart. Griffin has lost more than half of its Dolls, and in the upcoming battle, more and more of these lovely faces will continue to perish.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Before I officially start assigning teams, I will make each team's mission clear. +I will lead the Dolls who choose to stay to hold off the enemy. We will be facing a grueling, difficult battle. +Our ammo stockpiles are critically low, all of you have sustained injuries of different severity, and our supply of Dummies is also dwindling. Meanwhile, the enemies we're about to face are well-equipped and well-provisioned soldiers.
+()||:The looks on the Dolls' faces turn grim.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:The escort team's mission is by no means easy either. You will bear the future of Griffin on your shoulders as you head downwards. +If we fail, you will be the only hope for the Griffin base to survive. +Helian, you will be leading the escort team.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Understood.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:The Dolls who cannot fight will be automatically assigned to the escort team. As for everyone else, you are free to decide where you want to go.
+()||:There is little hesitation. The Dolls soon split up into two rows.
+mp443(0)<Speaker>MP-443</Speaker>||:Tokarev, are you serious?
+TT33(0)<Speaker>Tokarev</Speaker>||:Yeah, I want to keep fighting.
+mp443(0)<Speaker>MP-443</Speaker>||:...No way. You too, Ribeyrolles?
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:I can't bear the weight of hope... I'd rather perish in the fires of war... 
+mp443(0)<Speaker>MP-443</Speaker>||:... 
+PPK(0)<Speaker>PPK</Speaker>||:What the heck are you looking at me for, can you imagine me working as a delivery worker?
+mp443(0)<Speaker>MP-443</Speaker>||:You're mad... You're all mad... 
+()||:MP-433, who is about to head over to the escort team, changes her mind and doubles back.
+mp443(0)<Speaker>MP-443</Speaker>||:I might as well go mad with you too... 
+()||:Contrary to Kryuger's expectations, the number of Dolls in the blocking team far outnumbers the escort team.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Thank you all for your trust. +Time is tight, so before the battle begins, there is one last bit of preparation to do— +Get rid of everything on you that isn't your weapon or your ammo. +We will be fighting many battles, and even a single extra kilo of weight could influence the entire outcome.
+()<Speaker>T-Dolls</Speaker>||:... 
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I know you're carrying items which have significant meaning to you, mementos which help you remember your friends or yourselves. +But right now, I need you to abandon these feelings and focus all your processing power on combat. +Don't worry, you'll have time to say your goodbyes. I'll be waiting for you outside the Factory. Form up outside once you're ready.
+()||<黑点1>:Kryuger exits the Factory by himself. +Feeling conflicted, the Dolls exchange looks, but then they rearrange their gear as ordered.
+()||<黑点2><黑屏1>:By the time the last Doll leaves the Factory, it is dramatically different from how it was a few days ago. +The walls are covered with encouraging slogans— +"Victory for Griffin!" "I'll be back!", and the like. +The ground is also littered with all kinds of objects left behind by the Doll— +From drinks that they couldn't finish with their friends, intricately carved rocks, the personal items of fallen Dolls... +Standing in the middle of all this, Helian feels that the Factory is no longer just a factory, but a miniature museum. +One dedicated to love, death and robots.
+()||<黑屏2><BIN>276</BIN><BGM>BGM_Empty</BGM>:Inside Havier's office, in the IOP research center.
+()||<BGM>GF_21winter_avg_pathfinder</BGM>:Spiraling clouds of smoke cling to the ceiling of the tightly-shut office. They coil and writhe, but do not dissipate. +He has not smoked for a very long time. People have given him cigars in the past, but they have been largely set aside. Today, however, he has finally found an opportunity to light them. +...That said, he has only taken a few puffs from them. For the most part he simply lights them over and over again, then leaves them to burn out.
+()||<SE1>AVG_tele_connect</SE1>:The communicator doesn't even manage to complete a full ring before Havier picks it up.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Hello.
+NPC-Havel(0)<Speaker>"Old Misha"</Speaker><同时置暗>||:<color=#00CCFF>...How are things, Havier?</color>
+()||:The bass voice of an old man comes from the other end of the line.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:They've made their move.
+NPC-Havel(0)<Speaker>"Old Misha"</Speaker><同时置暗>||:<color=#00CCFF>Yes... Was it as we expected?</color>
+NPC-Havel(0)<Speaker>Havier</Speaker>||:In all ways. +We were right, Carter just won't give up. +We'll raise the net once they make even more of a mess.
+NPC-Havel(0)<Speaker>"Old Misha"</Speaker><同时置暗>||:<color=#00CCFF>...Very good. </color>
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Still, there is one thing I would like to seek your opinion on.
+NPC-Havel(0)<Speaker>"Old Misha"</Speaker><同时置暗>||:<color=#00CCFF>Are you talking about those PMCs?</color>
+NPC-Havel(0)<Speaker>Havier</Speaker>||:What they have done should not be forgotten.
+NPC-Havel(0)<Speaker>"Old Misha"</Speaker><同时置暗>||:<color=#00CCFF>Nobody will forget them. </color>
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I understand your plan, and I have faithfully executed it. +However, Griffin has made vital contributions to our cause. +In addition, Persica's talents are one-of-a-kind. +I believe there is no need to have them all buried beneath the earth... What say you?
+NPC-Havel(0)<Speaker>"Old Misha"</Speaker><同时置暗>||:<color=#00CCFF>You may do as you see fit. </color> +<color=#00CCFF>I will not interfere...So long as the outcome is not affected. </color>
+NPC-Havel(0)<Speaker>Havier</Speaker>||<黑屏1>:...Understood. +Thank you for your magnanimity.

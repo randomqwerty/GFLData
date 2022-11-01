@@ -1,76 +1,74 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>80</BIN><BGM>GF_Cafe</BGM>:咖啡厅
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:哈啊……
-()||:坐在柜台前，格琳娜叹了一口气。
-xm3(0)<Speaker>XM3</Speaker>||:……+对不起，给你添麻烦了。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:没关系啦……GSh-18不知道你的情况，所以才会那么说。+你也别太往心里去喔？
-xm3(0)<Speaker>XM3</Speaker>||:我没有在意医生的话，而且她说的都是正论。+不管我有什么苦衷，她也只是站在她的立场上说正确的话而已。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:……
-()||:格琳娜苦笑着看着XM3，从椅子上站了起来。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:改造的事，你要认真考虑一下喔。
-xm3(0)<Speaker>XM3</Speaker>||:嗯，我知道了。
-()||:有些担心地看了看XM3，格琳娜还是起身离开了自己的座位。
-xm3(0)<Speaker>XM3</Speaker>||:……
-
-()||<黑点1>:XM3握着冰凉的饮料杯，叹了口气。+……虽然早就有心理准备，但这一天真的到来的时候，还是让她有些猝不及防。+那么，现在自己能做的选择是……
-()||<黑点2><BIN>80</BIN><Night>:……
-()||:随着时间的流逝，本就没什么人的咖啡厅变得更加冷清，连春田也因勤务部的工作而离开了。+她们都有自己的工作，不可能一直在这里陪着XM3。
-xm3(0)<Speaker>XM3</Speaker>||:……
-()||:孤单地坐在咖啡厅的柜台前，XM3看着放在自己面前的文件，用食指拨弄着放在台面上的子弹。
-()<Speaker>？？？？</Speaker>||<BGM>BGM_Empty</BGM>:春田不在吗？
-()||:就在XM3聚精会神的时候，她的身边忽然坐下了一个人，并且很随意地搭起了话——这随便的态度，让XM3不禁怀疑对方是不是真的在对自己说话。
-()||:咚。+来人将自带的酒瓶放在了柜台上，发出沉闷的声响。
-xm3(0)<Speaker>XM3</Speaker>||:她大概有事忙。
-()||:随意地回应了一句，XM3将子弹握在手心里，偏头看向了对方。
-xm3(0)<Speaker>XM3</Speaker>||:……！
-()||:啪嗒。
-()||:子弹随着手上松懈的力道而掉落在桌面上，发出了清脆的响声。
-()||:XM3愣愣地看着这个突然出现的人。+她从来都没想过，会在这里遇到她。
-AR15Mod(0)<Speaker>AR15</Speaker>||:算了，不在正好。
-()||<BGM>GF_xGS2_27</BGM>:AR15。
-xm3(0)<Speaker>XM3</Speaker>||:……AR15？
-AR15Mod(5)<Speaker>AR15</Speaker>||:你认识我？
-()||:对眼前这个忽然叫出自己名字的陌生人形，AR15并没有表现出太多警惕。+不管怎么样，这里是格里芬基地，而对方是格里芬人形。+她对同伴总是会格外宽容……除了极个别情况。
-xm3(0)<Speaker>XM3</Speaker>||:嗯……我非常清楚关于你的事。
-AR15Mod(3)<Speaker>AR15</Speaker>||:是吗？那还真荣幸。
-()||:AR15随口回了一句，将酒瓶打开。
-AR15Mod(0)<Speaker>AR15</Speaker>||:你能喝酒吗？
-xm3(0)<Speaker>XM3</Speaker>||:一点的话，没有关系。
-()||:AR15耸了耸肩，非常熟练地探出身子从柜台下面摸出两个玻璃杯。
-AR15Mod(0)<Speaker>AR15</Speaker>||:看你的表情，遇上麻烦事了吧？+想跟萍水相逢的酒友聊一聊吗？
-xm3(0)<Speaker>XM3</Speaker>||:……求之不得。
-()||:XM3从AR15的手里接过酒杯，对她点了点头。+看着AR15给两人倒满了酒，端起杯子往自己嘴边送，XM3才缓缓地开口。
-xm3(0)<Speaker>XM3</Speaker>||:我曾经参与过M4A1的护卫工作。+在那之后，我开始拒绝心智备份，每次作战都在从零开始的刀尖上跳舞。
-AR15Mod(2)<Speaker>AR15</Speaker>||:噗。
-()||:AR15一口把嘴里的酒喷了出来。
-AR15Mod(3)<Speaker>AR15</Speaker>||:……咳咳咳。
-()||:被XM3突如其来的话呛到，AR15擦着嘴巴，同时看向了这个本以为陌生的同僚。
-AR15Mod(5)<Speaker>AR15</Speaker>||:你说什么？
-
-xm3(0)<Speaker>XM3</Speaker>||:在与军方联合演习时，刚刚恢复的M4A1要求返回战场。+那时候，我受指挥官的命令，负责护送她前往场地内。+路上遭遇了铁血的部队，我在那次行动中损毁，之后M4A1被军方的接应部队带走。+再之后的事情，你应该比我更清楚。
-AR15Mod(0)<Speaker>AR15</Speaker>||:不是，这个事我听明白了，我问的是后一句。+你为什么拒绝心智备份？
-xm3(0)<Speaker>XM3</Speaker>||:……我在那次任务里，对M4说过一些无聊的漂亮话。+结果却轻易地就被铁血击毁并且离开了战场。+我后来反思之后，发现造成我失败的原因就是，我对死亡的态度实在太随意了。
-AR15Mod(2)<Speaker>AR15</Speaker>||:对死亡的态度太随意？
-xm3(0)<Speaker>XM3</Speaker>||:我们和人类士兵最大的区别就是，人形拥有无限重来的权利，而这种权利让我们根本不会对死亡感到恐惧。+也许在有些情况下这是好事……但是我意识到了。+对死亡缺乏畏惧之心的士兵，是没有办法成为好士兵的。
-AR15Mod(0)<Speaker>AR15</Speaker>||:……所以你就通过拒绝备份心智来给自己制造压力？+你是不是脑子有问题？
-xm3(0)<Speaker>XM3</Speaker>||:也许是吧。
-AR15Mod(2)<Speaker>AR15</Speaker>||:哈……我还以为找到了个喝酒的伙伴。+没想到居然让我撞到颗大雷啊……
-xm3(0)<Speaker>XM3</Speaker>||:我知道初次见面就突然跟你说这些实在有些唐突。+但我也不知道下次有机会见到你是什么时候了。
-AR15Mod(0)<Speaker>AR15</Speaker>||:你就是冲我来的？
-xm3(0)<Speaker>XM3</Speaker>||:有一部分吧。
-()||:AR15抓了抓头，将手里的杯子放回到了桌子上。
-AR15Mod(0)<Speaker>AR15</Speaker>||:你接下来要问的问题是不是会冒犯一下我？
-xm3(0)<Speaker>XM3</Speaker>||:您真是敏锐。
-AR15Mod(3)<Speaker>AR15</Speaker>||:因为你完全就摆着那样的一张脸……+算了，我无所谓，只要你做好真的让我发火时要付出代价的心理准备就没问题。
-xm3(0)<Speaker>XM3</Speaker>||:那是肯定的。
-()||:XM3端起酒杯小酌了一口，仿佛是在给自己壮胆。
-xm3(0)<Speaker>XM3</Speaker>||:在那次失败之后，我考虑了很久关于人形的死亡的问题。+最后得出的结论是，因为不畏惧死亡，我在战斗时总是过分放松，轻率。+就是这种心态让我轻易就被炮弹击中。+如果那时候我能更集中一些，更谨慎一些，事情就不会发展成那个样子。+想明白这件事之后，我做出了决定。
-AR15Mod(0)<Speaker>AR15</Speaker>||:就是放弃了心智备份，把“无限”的人形生命变成了有限的？
-()||:AR15握着酒杯的手收紧了一些。
-AR15Mod(0)<Speaker>AR15</Speaker>||:真是让人同情，我说的是你的脑袋。+真亏你能做得出这么蠢的事。
-xm3(0)<Speaker>XM3</Speaker>||:当对死亡怀有畏惧之心后，我强得连自己都吓一跳。
-AR15Mod(0)<Speaker>AR15</Speaker>||:所以，这跟我又有什么关系？+虽然这么讲有点残酷，但我帮不上你什么忙吧？+我又不是工程师，也不是心理医生。+要我给建议，我也只能说：去备份吧。+仅此而已。
-xm3(0)<Speaker>XM3</Speaker>||:当然，我也没想过用这种事来为难你。+我想问你的是另外一件事。
-AR15Mod(0)<Speaker>AR15</Speaker>||:什么？
-xm3(0)<Speaker>XM3</Speaker>||<BGM>BGM_Empty</BGM>:你是抱着怎样的心情选择自爆的？
-()||<SE1>AVG_Door_Hit</SE1>:嘭。+AR15将酒杯重重地砸在了柜台上。
+()||<黑屏2><BIN>80</BIN><BGM>GF_Café</BGM>:At the Café.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:(Sighs)
+()||:Sitting at the bar, Kalina lets out a heavy sigh.
+xm3(0)<Speaker>XM3</Speaker>||:... +I'm sorry for causing you trouble.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Nah, it's not your fault... GSh-18 only said that because she doesn't know about your situation. +Don't take it to heart, okay?
+xm3(0)<Speaker>XM3</Speaker>||:I'm not bothered by what the doctor said. Also, it makes sense. +No matter what difficulties I may have, she's simply saying what she believes to be right from her point of view.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:...
+()||:Kalina smiles bitterly and gets up from her seat.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Still, do give the upgrade a good think.
+xm3(0)<Speaker>XM3</Speaker>||:Yeah, I will.
+()||:After casting another worried glance at XM3, Kalina finally takes her leave.
+xm3(0)<Speaker>XM3</Speaker>||:...
+()||<黑点1>:XM3 picks up her ice-cold drink and sighs. +...She has known this day would come for a long time, but now that it is actually upon her, she is still at a bit of a loss. +In any case, right now, she ought to...
+()||<黑点2><BIN>80</BIN><Night>:...
+()||:There weren't many people in the Café to begin with, and as time goes by, it becomes even quieter than before. Even Springfield has left to tend to her duties in the Integrated Logistics Department. +Everyone has a job of their own. They can't possibly stay here just to keep XM3 company.
+xm3(0)<Speaker>XM3</Speaker>||:...
+()||:Alone at the bar, XM3 stares at the document lying in front of her as she fiddles with a bullet.
+()<Speaker>????</Speaker>||<BGM>BGM_Empty</BGM>:Is Springfield not here?
+()||:Just as XM3 is gathering her thoughts, someone suddenly takes a seat beside her and casually addresses her—so casually, in fact, that XM3 wonders if they're actually talking to her.
+()||:Thunk. +The newcomer places a bottle of wine on the counter with a dull noise.
+xm3(0)<Speaker>XM3</Speaker>||:I guess she's busy.
+()||:With an equally casual reply, XM3 takes the bullet in her hand and turns to look at the other party.
+xm3(0)<Speaker>XM3</Speaker>||:...!
+()||:Clink.
+()||:The bullet falls from her suddenly nerveless fingers onto the counter with a crisp sound.
+()||:XM3 gapes at the person who has suddenly appeared. +Never did she think she would meet her here, of all places.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:Eh, just as well that she's out.
+()||<BGM>GF_xGS2_27</BGM>:It is ST AR-15.
+xm3(0)<Speaker>XM3</Speaker>||:...AR-15?
+AR15Mod(5)<Speaker>ST AR-15</Speaker>>||:You know me?
+()||:ST AR-15 doesn't seem too alarmed by the fact that this unfamiliar Doll has just called her by name. +At the end of the day, this is Griffin's base and said Doll is a Griffin Doll. +She is exceptionally accommodating to her colleagues...with a few exceptions.
+xm3(0)<Speaker>XM3</Speaker>||:Yeah... I've heard all about you.
+AR15Mod(3)<Speaker>ST AR-15</Speaker>>||:Really now? I'm honored, then.
+()||:ST AR-15 gives an offhanded reply and opens her bottle of wine.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:Do you drink?
+xm3(0)<Speaker>XM3</Speaker>||:If it's just a little, sure.
+()||:ST AR-15 shrugs, then reaches below the bar and brings two glasses back up with practiced ease.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:Judging by the look on your face, you must be in a spot of trouble, aren't you? +We may have become drinking buddies entirely by chance, so do you want to talk about it?
+xm3(0)<Speaker>XM3</Speaker>||:...Nothing would please me more.
+()||:XM3 takes a glass from ST AR-15 and nods to her. +She watches as ST AR-15 tops off both their glasses. As she lifts the glass to her lips, XM3 finally speaks her mind.
+xm3(0)<Speaker>XM3</Speaker>||:I was once assigned to protect M4A1. +After that, I began refusing neural cloud backups, and every battle I went through had me dancing on the knife's edge of starting from zero.
+AR15Mod(2)<Speaker>ST AR-15</Speaker>>||:Pffft.
+()||:ST AR-15 sprays out her mouthful of wine.
+AR15Mod(3)<Speaker>ST AR-15</Speaker>>||:(Coughs heavily)
+()||:After nearly choking on XM3's sudden bombshell, ST AR-15 wipes her mouth and looks at this colleague that she once thought was a stranger.
+AR15Mod(5)<Speaker>ST AR-15</Speaker>>||:What do you mean?
+xm3(0)<Speaker>XM3</Speaker>||:During that joint exercise with the Military, M4A1 had just recovered and asked to be sent back to the battlefield. +Back then, I received orders from the Commander to escort her to the area of operations. +We ran into S.F. forces along the way and I was destroyed. The Military sent their forces to pick her up. +You should know what happened after that better than me.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:No, I know that, I'm talking about that last sentence of yours. +Why did you refuse to back up your neural cloud?
+xm3(0)<Speaker>XM3</Speaker>||:...During that mission, I said a bunch of lame, empty things to M4. +But in the end, I was destroyed by S.F. and removed from the battlefield. +When I thought about it afterwards, I realized the reason why I failed was because I took the concept of death too casually.
+AR15Mod(2)<Speaker>ST AR-15</Speaker>>||:You were being too casual about dying?
+xm3(0)<Speaker>XM3</Speaker>||:The biggest difference between human soldiers and ourselves is that Dolls get to try again any number of times, and this privilege makes us fearless in the face of death. +Perhaps this is a good thing under certain circumstances... But I've come to realize something. +Soldiers who do not fear death cannot become good soldiers.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:So you stop backing up your neural cloud just to create a sense of urgency for yourself? +Are you actually insane?
+xm3(0)<Speaker>XM3</Speaker>||:I might be.
+AR15Mod(2)<Speaker>ST AR-15</Speaker>>||:(Sighs) I thought I managed to find a drinking buddy. +Turns out I stepped on the mother of all landmines instead...
+xm3(0)<Speaker>XM3</Speaker>||:I know it is rather abrupt of me to discuss this on our first meeting. +But I don't know when I'll get to see you again.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:And how much of what you want to say is meant for me?
+xm3(0)<Speaker>XM3</Speaker>||:Part of it, at least.
+()||:ST AR-15 scratches her head and puts her glass back on the table.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:And what you're about to ask is going to offend me?
+xm3(0)<Speaker>XM3</Speaker>||:You are most perceptive.
+AR15Mod(3)<Speaker>ST AR-15</Speaker>>||:I mean, it's written all over your face... +Eh, not that I mind. Just make sure you're prepared to pay the price if you really make me mad.
+xm3(0)<Speaker>XM3</Speaker>||:But of course.
+()||:XM3 takes a sip from her glass, as if to muster her courage.
+xm3(0)<Speaker>XM3</Speaker>||:After that failure, I pondered the issue of Doll death long and hard. +The conclusion I came to was that I had become careless and sloppy during battle because I didn't fear death. +It was this attitude which led to me being easily hit by shells and bullets. +If I had been more focused and more careful, things would not have ended up that way. +And after realizing that, I made a decision.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:You decided to stop creating backup copies of your neural cloud to make your "unlimited" lives finite?
+()||:ST AR-15's hand tightens a little around her wine glass.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:I really feel sorry for you. Or rather, for your pea-sized brain. +Your stupidity astounds me.
+xm3(0)<Speaker>XM3</Speaker>||:After I started fearing death, I became so strong I surprised myself.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:So what does this have to do with me? +At the risk of sounding cold, it's not like I can help you or anything. +I'm neither an engineer nor a psychiatrist. +If you want a suggestion from me, all I can say is—back yourself up. +That's all.
+xm3(0)<Speaker>XM3</Speaker>||:Of course. I didn't mean to bother you with something like that. +I wanted to ask you about something else.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>>||:What is it?
+xm3(0)<Speaker>XM3</Speaker>||<BGM>BGM_Empty</BGM>:What went through your head when you chose to blow yourself up?
+()||<SE1>AVG_Door_Hit</SE1>:Thud! +ST AR-15 slams her glass down on the counter.

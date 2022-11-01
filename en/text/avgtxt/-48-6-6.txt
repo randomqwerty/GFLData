@@ -1,42 +1,42 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>159</BIN><黑屏2><BGM>m_avg_hope</BGM>:在泽林斯基调来的援助下，停留在基地外围的叛军遭到了毁灭性打击。+趁着叛军军心动摇之际，克鲁格率领着剩余的人形冲出了基地。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:我们成功了！
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:是啊……
-()||:望着久违的天空，克鲁格的身躯忽然向后倒去。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:克鲁格先生！
-NPC-Helian(0)<Speaker>泽林斯基</Speaker><同时置暗>||:<color=#00CCFF>赫丽安，能听见吗？</color>
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Zielinski(0)<通讯框>||:可以的，泽林斯基部长！
-NPC-Helian(0)<Speaker>泽林斯基</Speaker><同时置暗>||:<color=#00CCFF>援兵已经到了。</color>+<color=#00CCFF>你们安全了。</color>
-NPC-Maid(0)<Speaker>救援人形</Speaker>||:赫丽安小姐，请将克鲁格先生交给我们吧。+心智服务器请放在车上，受伤的人形们也请跟我来。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:谢谢……谢谢你们……
-()||:克鲁格勉强睁开了眼睛。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:没事的，赫丽安……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:嗯……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||<黑屏1>:……帮我接通一下指挥官。
-()||<黑屏2><BIN>97</BIN>:……指挥官在机场等候区坐立难安，身边的人形们默契地不去打扰。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我们真的不管指挥官吗……
-AR15Mod(0)<Speaker>AR15</Speaker>||:让指挥官自己冷静一下吧。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:可是指挥官都快把自己的头发薅没了……
-NytoIsomer(9)<Speaker>丹德莱</Speaker>||:人类的头发是可以再生的。
-RO635Mod(2)<Speaker>RO635</Speaker>||:不知道基地怎么样了……
-BOSS-8(0)<Speaker>代理人</Speaker>||:……
-()||<SE1>AVG_tele_connect</SE1>:嘀嘀嘀——+通讯器响了起来。
-()<Speaker>指挥官</Speaker>||:啊！
-()||<震屏>:看见上面的显示，指挥官几乎握不住通讯器。
-()<Speaker>指挥官</Speaker>||:克鲁格先生！！！+……基地没事吗？大、大家呢？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>没事，只是看上去像是被布罗卜丁奈格国的人踩了一脚。</color>+<color=#00CCFF>……开个玩笑，放心吧，心智服务器还在。</color>+<color=#00CCFF>我们这边赫丽安受了点轻伤，帕斯卡损失了一点实验器材而已。 </color>
-NPC-Persica(1)<Speaker>帕斯卡</Speaker><通讯框>||:<color=#00CCFF>损失了一点实验器材而已？！我、我跟你没完！</color>
-NPC-Persica(1)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:格琳娜呢？她怎么样？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>她前几天被送去医院休养了，目前情况很稳定。</color>+<color=#00CCFF>你呢，在柏林还顺利吗？</color>
-NPC-Kyruger(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我这边非常顺利，帕拉蒂斯看见我就像利立浦特人看见格列佛一样害怕。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>好，我就知道你能应付。</color>+<color=#00CCFF>这边有泽林斯基的援兵，不用担心。</color>+<color=#00CCFF>哈维尔的基地车已经在路上，接下来我们准备直接前往柏林。</color>
-NPC-Kyruger(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:您保重，我会在柏林等你们。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>好，我们柏林见。</color>
-()||<SE1>AVG_tele_disconnect</SE1>:通讯挂断。
-()<Speaker>指挥官</Speaker>||<黑屏1>:我一定把柏林的所有帕拉蒂斯铲平，给你们一个最完美的休养环境……
-()||<黑屏2><BIN>15</BIN><BGM>BGM_Empty</BGM><SE1>Rope</SE1><火花>:叛军特战队队长握紧了手中的枪，调整着姿势接听通讯。
-()<Speaker>特战队指挥长</Speaker>||<BGM>BGM_NightOPS</BGM>:<color=#00CCFF>我们的任务完成了，组织大家一起撤退吧。</color>
-NPC-Soldier(0)<Speaker>特战队队长</Speaker>||:可是克鲁格和赫丽安还没被歼灭，就这样撤退吗？
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><同时置暗>||:<color=#00CCFF>是，但我们还有更重要的任务。</color>
-NPC-Soldier(0)<Speaker>特战队队长</Speaker>||:明白。
-()<Speaker>特战队指挥长</Speaker>||<黑屏1>:<color=#00CCFF>莫斯科冬天的第一场雪正在等待着我们。</color>
+()||<BIN>159</BIN><黑屏2><BGM>m_avg_hope</BGM>:With the help of Zelinsky's reinforcements, the rebel troops outside the base suffer a devastating blow. +As the rebels' morale wavers, Kryuger leads the remaining Dolls in breaking out of the base.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:We did it!
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Yeah... 
+()||:As Kryuger looks up at the long-awaited sky, he suddenly keels over backward.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Mr. Kryuger!
+NPC-Helian(0)<Speaker>Zelinsky</Speaker><同时置暗>||:<color=#00CCFF>Miss Helian, can you hear me?</color>
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Zielinski(0)<通讯框>||:Yes I can, Director Zelinsky!
+NPC-Helian(0)<Speaker>Zelinsky</Speaker><同时置暗>||:<color=#00CCFF>The reinforcements have arrived. </color> +<color=#00CCFF>You are safe. </color>
+NPC-Maid(0)<Speaker>Rescue Doll</Speaker>||:Miss Helian, please let us take care of Mr. Kryuger. +Please load the neural cloud servers onto the vehicle. The wounded Dolls can also come with us.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Thank you... Thank you all... 
+()||:Kryuger forces his eyes open.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I'm fine, Helian... 
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Right... 
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||<黑屏1>:...Help me contact the Commander.
+()||<黑屏2><BIN>97</BIN>:...The Commander paces around restlessly in the airport waiting area. The surrounding Dolls have an unspoken understanding that they are not to disturb them.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Is it really okay to leave the Commander alone...?
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Let the Commander calm down by themselves.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:But the Commander almost pulled out all their hair... 
+NytoIsomer(9)<Speaker>Dandelion</Speaker>||:Human hair can grow back.
+RO635Mod(2)<Speaker>RO635</Speaker>||:I wonder what's happening at the base... 
+BOSS-8(0)<Speaker>Agent</Speaker>||:... 
+()||<SE1>AVG_tele_connect</SE1>:Beep beep beep... +The communicator goes off.
+()<Speaker>Commander</Speaker>||:Ah!
+()||<震屏>:When they see the name on the caller ID, the Commander almost loses their grip on the communicator.
+()<Speaker>Commander</Speaker>||:Mr. Kryuger!!! +...Is the base alright? H-how is everyone?
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>It's fine, although it looks like a Brobdingnagian stepped on it. </color> +<color=#00CCFF>...Just kidding. The neural cloud servers are still intact. </color> +<color=#00CCFF>Helian and I have sustained some light injuries, and Persica has only lost a few lab instruments. </color>
+NPC-Persica(1)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>ONLY a few lab instruments?! Y-you haven't heard the last of this!</color>
+NPC-Persica(1)<Speaker>Commander</Speaker><通讯框><同时置暗>||:What about Kalina, how is she?
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>They sent her to a hospital to recover several days ago. Her condition is very stable. </color> +<color=#00CCFF>How about you? How are things in Germany?</color>
+NPC-Kyruger(0)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Things went very well here. Paradeus is running from me like Lilliputians sighting Gulliver.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>Good, I knew you could handle it. </color> +<color=#00CCFF>Zelinsky's men are here to back us up, so no need to worry on that front. </color> +<color=#00CCFF>Havier's MCV is on its way. I'll be coming personally to Berlin after this. </color>
+NPC-Kyruger(0)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Take care. I'll be waiting for you in Berlin.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>Alright. See you in Berlin. </color>
+()||<SE1>AVG_tele_disconnect</SE1>:The call ends.
+()<Speaker>Commander</Speaker>||<黑屏1>:I'll wipe out every last trace of Paradeus in Berlin so you can have the perfect place to recover... 
+()||<黑屏2><BIN>15</BIN><BGM>BGM_Empty</BGM><SE1>Rope</SE1><火花>:The rebel Spetsnaz squad leader tightens his grip around his gun and adjusts his posture to listen to the transmission.
+()<Speaker>Spetsnaz Officer</Speaker>||<BGM>BGM_NightOPS</BGM>:<color=#00CCFF>Our mission is over. Gather everyone and withdraw. </color>
+NPC-Soldier(0)<Speaker>Spetsnaz Squad Leader</Speaker>||:But Kryuger and Helian have not been eliminated yet. Are we really going to fall back just like that?
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker><同时置暗>||:<color=#00CCFF>Yes, but we still have a more important mission. </color>
+NPC-Soldier(0)<Speaker>Spetsnaz Squad Leader</Speaker>||:Understood.
+()<Speaker>Spetsnaz Officer</Speaker>||<黑屏1>:<color=#00CCFF>The first snow of Moscow awaits us. </color>

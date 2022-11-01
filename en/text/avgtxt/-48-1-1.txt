@@ -1,84 +1,84 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><narrator>:——两周以前。
-()<Speaker></Speaker>||<common_effect>%%code=DoomsdayClock02%%wait=1%%</common_effect>:……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><narrator>:Two weeks ago.
+()<Speaker></Speaker>||<common_effect>%%code=DoomsdayClock02%%wait=1%%</common_effect>:... 
 ()||<黑屏1>:
-()<Speaker>？？？</Speaker>||<黑屏2><SE1>AVG_Water_Drip</SE1><SE1>AVG_Walk</SE1><BGM>BGM_Room</BGM>:……
-NPC-MrsGray(3)<Speaker>格雷女士</Speaker>||:……
+()<Speaker>???</Speaker>||<黑屏2><SE1>AVG_Water_Drip</SE1><SE1>AVG_Walk</SE1><BGM>BGM_Room</BGM>:... 
+NPC-MrsGray(3)<Speaker>Mrs. Gray</Speaker>||:... 
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>ClothingUp</SE1><BIN>324</BIN>:驻足在熟悉的建筑口，格雷女士将手伸入了自己的衣兜，取出了一颗棒棒糖，看着浸泡在粘稠乌黑液体中的废墟。
-NPC-MrsGray(3)<Speaker>格雷女士</Speaker>||:……臭死了。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:是辐射液……已经渗透到这里了。
-()<Speaker></Speaker>||<SE1>AVG_Walk</SE1>:在身后战战兢兢的白涅托的跟随中，格雷迈步踏进了废墟中。+高跟鞋踩在碎裂的砖石上，翻涌的黑泥又险些溅上她的裤脚。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:就算是娜希斯大人……这也太过头了。
-NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:还没走出几步，她的脚下便传来了异样的声响。+是娜希斯的浮游刃……或者说……浮游刃的碎片。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:这是……+娜希斯大人的刀刃，是父亲大人的最高杰作，怎么可能……
-()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:咕噜噜……
-NytoWhite(0)<Speaker>白涅托</Speaker>||:！
-()<Speaker></Speaker>||:格雷的嘴角扬起了一个愉快的弧度，牙齿夹住的糖球却发出了开裂的微响。
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><震屏3>:在白涅托捧起碎片的时候，她面前的污水忽然如同沸腾一般翻涌了起来。+一道黑影突然从污泥中窜出，溅起的泥水泼到白涅托的脸上，她下意识地闭上了眼。
-NytoWhite(0)<Speaker>白涅托</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch_Hit</SE1>:唔呃——！？
-()<Speaker></Speaker>||<SE1>Rope</SE1>:她的喉咙，被半截手臂死死地掐住。沾满了恶臭的黏液，从沼泽中弹起的断臂，无疑是娜希斯的一部分。
-NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:可以把娜希斯撕裂的力量……
-()<Speaker></Speaker>||:格雷丝毫不在乎身旁挣扎的涅托，若有所思地观察起了周围的废墟。
-NytoWhite(0)<Speaker>白涅托</Speaker><Shake>0.1</Shake>||<SE1>Rope</SE1>:呜……呃……啊……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在白涅托痛苦的呓语快要平息之前，格雷终于出手，将断臂扯下。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:呼……哈……哈！
-()<Speaker>娜希斯</Speaker>||<SE1>AVG_Slime_Movement</SE1>:混蛋……混蛋……+去死……去死……
-()<Speaker></Speaker>||:震动之中，伴随着咒骂声，娜希斯残缺的脸从沼泽中艰难地浮起。她的身体，只余下了不完整的上半身。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:娜，娜希斯大人！
-NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:……真可怜。
-()<Speaker>娜希斯</Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:去死……去死……
-NytoWhite(0)<Speaker>白涅托</Speaker>||:……无敌的娜希斯大人，居然会败成这样？+……损毁程度达到百分之八十……必须立刻带回工厂修复。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:……那默……默莉朵大人去了哪里？连……连敌人的尸体也没有……
-NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:老师已经不在这里。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴。+就在此时，白色涅托的通讯恰到好处地响了起来。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:……
-NytoWhite(0)<Speaker>白涅托</Speaker>||:……他们动手了。姐姐大人……
-NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:……
-NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:把她带回去，找人清理现场。+……其他的，全部炸掉。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:是。
-()<Speaker>娜希斯</Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:杀了你们……全都杀掉……
-NytoWhite(0)<Speaker>白涅托</Speaker>||:……
+()<Speaker></Speaker>||<黑屏2><SE1>ClothingUp</SE1><BIN>324</BIN>:After coming to a halt in front of the familiar building, Mrs. Gray reaches into her pocket to produce a lollipop as she looks at the rubble protruding from a pool of sticky black fluid.
+NPC-MrsGray(3)<Speaker>Mrs. Gray</Speaker>||:...This place stinks.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:Radioactive fluid... It has permeated this far.
+()<Speaker></Speaker>||<SE1>AVG_Walk</SE1>:The White Nyto behind her follows nervously as Gray strides into the rubble. +Her high heels tread on the shattered tiles and the splashed mud almost stains the hem of her slacks.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:...This is too much, even for Lady Narciss.
+NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:... 
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Within the next few steps, a strange noise comes from under her feet. +It is one of Narciss' floating blades... or rather, its fragments.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:This is... +This is one of Lady Narciss' floating blades, Father's best work! How could it have... 
+()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:Glug glug glug... 
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:!
+()<Speaker></Speaker>||:The corner of Gray's mouth turns up at a mirthful angle, but the ball of candy between her teeth cracks quietly.
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><震屏3>:As the White Nyto picks up the fragment, the filthy water suddenly churns. +A black shape emerges from the muck, splashing muddy water over the White Nyto's face, and the latter instinctively closes her eyes.
+NytoWhite(0)<Speaker>White Nyto</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch_Hit</SE1>:Urgh—?!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Her throat is in the firm grip of a severed arm. The mangled limb which has sprung up from the muck, covered in reeking, sticky slime, is unmistakably Narciss'.
+NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:A power that could tear Narciss apart... 
+()<Speaker></Speaker>||:Gray pays no heed to the Nyto's struggles as she thoughtfully studies the surrounding rubble.
+NytoWhite(0)<Speaker>White Nyto</Speaker><Shake>0.1</Shake>||<SE1>Rope</SE1>:Urgh... Guh... Argh... 
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Just as the White Nyto's tortured breaths are about to cease for good, Gray finally reaches out and pulls the severed arm off her.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:(Gasps for air)
+()<Speaker>Narciss</Speaker>||<SE1>AVG_Slime_Movement</SE1>:Dammit... Dammit... +Go...To hell... 
+()<Speaker></Speaker>||:Narciss' ruined face rises out of the swamp as she curses incessantly, sending a tremor through the swamp. Only her upper body is left, and it is incomplete at that.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:L-Lady Narciss!
+NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:...Pathetic.
+()<Speaker>Narciss</Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:Go... to hell...
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:...How could the invincible Lady Narciss have been beaten this badly? +...Damage levels are at 80%... We must return her to the plant for repairs immediately.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:...And... Where has Lady Morridow gone? T-There isn't even a trace of the enemy left behind...
+NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:Teacher is no longer here.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Click. +Just then, the White Nyto's communicator chirps.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:... 
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:...They've made their move. So what should we do about Big Sister... 
+NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:... 
+NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:Bring her back and get someone to clean this place up. +...As for the rest, just blow it up.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:Understood.
+()<Speaker>Narciss</Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:Kill you... Kill you all... 
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:... 
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BGM>BGM_Truth</BGM><BIN>239</BIN><Night>:……+来自斯塔西的封锁条将洋房周遭团团包围，即使是柏林警方也无权对现场进行调查。+隐约可见留守的特工们，在此戒备着多事的记者或其他人员可能的非法入侵。
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_Truth</BGM><BIN>239</BIN><Night>:... +The mansion is surrounded by Stasi barricade tape. Not even the Berlin police is authorized to investigate this crime scene. +Stasi agents can be glimpsed standing watch against trespasses by busybody reporters and other individuals.
 ()||<黑屏1>:
-NPC-Keven(4)<Speaker>J</Speaker>||<SE1>AVG_tele_connect</SE1>:——我不能理解。+这个案子一直都是我的，为什么不让我调查？+你这个时候突然跑回来，一声不吭就抢走指挥权。+然后把我排除在外？施瓦本，你脑子是不是坏掉了？
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>……你冷静一点，J。</color>
-()<Speaker></Speaker>||:通讯器对面的K顿了一顿，像是在斟酌用词。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>首先，现在关于这件事，局里的声音并不是统一的，你应该不会不知道。</color>+<color=#00CCFF>虽然你很坚持是帕拉蒂斯的人袭击了莱特和安洁莉娅，但对我们来说，现场的情况并不是那样。</color>+<color=#00CCFF>除了我们的人以外，就只有苏联的人形残骸遗留，所谓帕拉蒂斯的痕迹也一丁点都没有！</color>
-NPC-Keven(4)<Speaker>J</Speaker>;NPC-Jason(2)||:那又怎样！你也信那些蠢货王八蛋吗？啊！？+‘安洁莉娅袭击了莱特，然后逃逸’？啊？+你相信这种蠢话吗！？
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>这不是我相不相信的问题！</color>
-()<Speaker></Speaker>||:面对歇斯底里的J，K也不自觉地拔高了自己的声音来压制他。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>问题不在于安洁莉娅，对苏联人抱有敌意的人从一开始就存在。</color>+<color=#00CCFF>他们又不是突然冒出来，你今天才知道吗！</color>+<color=#00CCFF>而且！现在只是没有定论，任何人都没有给出确切的答案！</color>
-NPC-Keven(4)<Speaker>J</Speaker>;NPC-Jason(2)||:那就让我调查啊！这已经是最后一个晚上！+明天他们就会归还场地，那就真的什么都做不了了！
-NPC-Keven(4);NPC-Jason(4)<Speaker>K</Speaker>||:<color=#00CCFF>不行！</color>
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(4)||:……为什么？
-NPC-Keven(5);NPC-Jason(4)<Speaker>K</Speaker>||:<color=#00CCFF>……这件事，现在已经不重要了。</color>+<color=#00CCFF>你懂吗？这件事的复杂程度，已经超出了我们所能承受的。</color>+<color=#00CCFF>与其投入成本在调查安洁莉娅的事情上，不如去面对那些更迫切，更现实的问题。</color>
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(4)||:你是说，我们要放弃安洁莉娅。+对那些牺牲的年轻人也不闻不问吗？
-NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker>||:<color=#00CCFF>这是，新任主管的意思。</color>
-NPC-Keven(5)<Speaker>J</Speaker>||:呵……新官上任三把火啊。
-()<Speaker></Speaker>||:J毫不掩饰讥讽。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>我不会害你的。</color>+<color=#00CCFF>现在是敏感时期，你不要做傻——</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴——通讯挂断。
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:咚！J握着通讯器，用力地砸了一下方向盘。
-NPC-Keven(5)<Speaker>J</Speaker>||:……别做傻事？+你才是别说傻话了，施瓦本。
-NPC-Keven(4)<Speaker>J</Speaker>||:你怎么能咽得下这口气的……+我今天就是要进去，谁也别想挡我的路。
-()<Speaker></Speaker>||:在最初接到警报消息之后，尽管斯塔西以最快的速度赶到了现场，但仍未来得及将这件事彻底压下。+……所幸，他们保留了所有不能公开的线索，现在公众的目光，都集中在了牺牲者身上，进而对政府发出了责难和质疑的声音。+其中，反响最为强烈的，便是著名的新闻主播，夏朵利兹。
-NPC-Keven(5)<Speaker>J</Speaker>||:夏朵……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J向后仰了下身子，脑袋磕在了座椅的靠枕上。随队而来的属下看着J的模样，不由得有些担忧。
-()<Speaker>斯塔西特工</Speaker>||:……头，你真要干？
-NPC-Keven(5)<Speaker>J</Speaker>||:……我看起来很像在跟你们开玩笑吗？
-()<Speaker>斯塔西特工</Speaker>||:也不是……但这一点都不像你的风格。+斯塔西特工要潜入一所被斯塔西封禁的建筑，这实在太古怪了……+要是被抓到，可不是写检讨就能了结的！
-NPC-Keven(5)<Speaker>J</Speaker>||:我还不比你清楚规矩吗！？
-NPC-Keven(5)<Speaker>J</Speaker>||:天一亮，里面的东西就会被全部清空，连根毛都不会给我剩下。+到时候，你们只能期待哪天去找上帝问真相了！
-()<Speaker>斯塔西特工</Speaker>||:……
-()<Speaker></Speaker>||:J深吸了一口气。毕竟在洋房事件后，前一任主管被光速下课，加上最近国内局势如此紧张，焦头烂额的事情也越来越多……+老实讲，如果是之前的J，他满脑子都只有赶紧从柏林这个火坑跳出去的想法。但是这次……
-()<Speaker>斯塔西特工</Speaker>||:不能到时候再申请查看相关证物吗？
-NPC-Keven(5)<Speaker>J</Speaker>||:……+斯塔西的风格，我再清楚不过了……+如果一开始没有让你加入，那么之后也都不再会了。
-NPC-Keven(5)<Speaker>J</Speaker>||:不会让你们为难的……替我放风就行了，我自己进去。
-()<Speaker>斯塔西特工</Speaker>||:……明白了。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:J点了点头，戴上了用于掩饰面容的鸭舌帽，打开车门走了下去。
+NPC-Keven(4)<Speaker>J</Speaker>||<SE1>AVG_tele_connect</SE1>:—I don't understand. +This case has always been mine, so why can't I investigate it? +You came running back all of sudden and took it over without saying a word. +And now you're freezing me out? What the hell is wrong with you, Schwaben?
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>... Calm down, J. </color>
+()<Speaker></Speaker>||:The image of K in the communicator pauses for a moment to choose his words carefully.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>First of all, opinions in the Ministry are divided on this case, as I'm sure you already know. </color> +<color=#00CCFF>While you're certain that it must have been Paradeus who attacked Light and Angelia, that's not what the scene looks like to us. </color> +<color=#00CCFF>Other than our people, the only remains we found are those of the Soviet Dolls. There isn't even a trace of these Paradeus forces!</color>
+NPC-Keven(4)<Speaker>J</Speaker>;NPC-Jason(2)||:So what?! Do you actually believe those stupid bastards, huh?! +"Angelia attacked Light and ran off," is that it?! +Do you actually believe that bullshit?!
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>It doesn't matter what I believe!</color>
+()<Speaker></Speaker>||:K finds himself unconsciously raising his voice to quell J's hysteria.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>The problem doesn't lie with Angelia. There have always been people harboring hostility to the Soviets. </color> +<color=#00CCFF>It's not like they appeared out of nowhere, so why are you so surprised?</color> +<color=#00CCFF>Also, nothing is conclusive right now! Nobody's got a clear-cut answer!</color>
+NPC-Keven(4)<Speaker>J</Speaker>;NPC-Jason(2)||:Then let me look into it! This is the last night we have! +They'll be handing over the premises tomorrow, and then there really will be nothing we can do!
+NPC-Keven(4);NPC-Jason(4)<Speaker>K</Speaker>||:<color=#00CCFF>No!</color>
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(4)||:...Why not?
+NPC-Keven(5);NPC-Jason(4)<Speaker>K</Speaker>||:<color=#00CCFF>...This doesn't matter anymore. </color> +<color=#00CCFF>Do you understand? Things have become far more complex than we can handle. </color> +<color=#00CCFF>Rather than pouring resources into investigating Angelia, you should deal with more pressing, more concrete problems. </color>
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(4)||:So you're saying we should just give up on Angelia? +And we aren't even going to inquire into the deaths of those rookies?
+NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker>||:<color=#00CCFF>Yes. That is what our new director intends. </color>
+NPC-Keven(5)<Speaker>J</Speaker>||:(Scoffs) Looks like the new boss is throwing his weight around to show he means business.
+()<Speaker></Speaker>||:J doesn't even bother hiding his derision.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>I only want the best for you. </color> +<color=#00CCFF>This is a sensitive period, so don't be foolish—</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click—the call ends.
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:Thud! J squeezes his communicator and pounds the steering wheel.
+NPC-Keven(5)<Speaker>J</Speaker>||:...Don't be foolish? +You're the fool here, Schwaben.
+NPC-Keven(4)<Speaker>J</Speaker>||:How can you even swallow that shit... +I'm going in today, no matter what, and nobody's going to get in my way.
+()<Speaker></Speaker>||:Even though the Stasi had rushed to the scene right after receiving the alert, they could not keep all news of the incident from leaking out. +Fortunately, they managed to keep the clues which could not be publicly revealed a secret, and now the public's attention is focused on the deceased, with accusing and doubtful voices directed at the government. +The loudest of these voices belongs to the renowned news anchor Shadowless.
+NPC-Keven(5)<Speaker>J</Speaker>||:Shadow... 
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J leans back in his seat, knocking the back of his head against the headrest. Witnessing J's frustration, one of his accompanying subordinates can't help but feel worried.
+()<Speaker>Stasi Agent</Speaker>||:...Boss, are you really going to do this?
+NPC-Keven(5)<Speaker>J</Speaker>||:...Do I look like I'm kidding?
+()<Speaker>Stasi Agent</Speaker>||:Well, no... But this isn't your style at all. +A Stasi agent sneaking into a building that was sealed off by the Stasi is just too weird... +And if they catch us, we won't be able to get off with just a simple self-reflection essay!
+NPC-Keven(5)<Speaker>J</Speaker>||:You think I don't know that?!
+NPC-Keven(5)<Speaker>J</Speaker>||:Everything in there is going to be emptied out by tomorrow morning. They won't even leave a single hair for us to find. +Then, all you can do at that point is pray that you can meet God someday and get the answers out of Him!
+()<Speaker>Stasi Agent</Speaker>||:... 
+()<Speaker></Speaker>||:J takes a deep breath. After all, there are more and more things to worry about these days, what with the previous director being removed at lightning speed after the mansion incident and the growing tensions inside the country... +Frankly speaking, the old J would be the first to get out of the hellhole that Berlin has become. But now... 
+()<Speaker>Stasi Agent</Speaker>||:Can't we just request permission to view the relevant evidence when the time comes?
+NPC-Keven(5)<Speaker>J</Speaker>||:... +Nobody knows how the Stasi operate better than I do. +If they didn't let you in at the beginning, they won't ever let you in afterwards.
+NPC-Keven(5)<Speaker>J</Speaker>||:Look, I'm not going to make things difficult for you... Just leave the door open, I'll go in myself.
+()<Speaker>Stasi Agent</Speaker>||:...Got it.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:J nods, then puts on a cap that covers his face before opening the door and stepping outside.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_20Winter_Door_Car_Close</SE1>:……莱特绝不能死得不明不白。
-()||<黑点1><BIN>10</BIN>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_20Winter_Door_Car_Close</SE1>:...The death of Light cannot go unanswered.
+()||<黑点1><BIN>10</BIN>:

@@ -1,63 +1,63 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>229</BIN><BGM>10130</BGM><黑屏2>:……
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:这次就算我输了——下回再来共舞吧，指挥官。+就你，跟我。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:在电子战结束的时候，布拉梅德的身影已经从仓库内消失了。+只有她留下的声音还在狭小的空间内回荡。
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:就这种水平吗……+指挥官，这里的电子锁都被我解除了。+从现在开始，这个地下仓库对你不再有秘密了。
-()<Speaker>指挥官</Speaker>||:……好。
-()<Speaker></Speaker>||:虽然对只能这样放走布拉梅德有些不甘，但收获面前，指挥官也只能无奈地摇摇头。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:滴+通讯接通。
-NPC-Keven(0)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>指挥官，你们那边没事吧？怎么还不来？</color>
-NPC-Keven(0)<Speaker>指挥官</Speaker>||:出了点小事，马上来——不，还是你们过来吧。+我们解除了这里的电子锁，把你们的人也叫上，我们再搜查一遍。+其他的，我们回局里再谈吧。
-NPC-Keven(0)<Speaker>J</Speaker>||:<color=#00CCFF>“我们回局里再谈吧”，老天，你听起来真像个斯塔西。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:完全不知指挥官这边的情况，J打趣了一句，便挂断了通讯。
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<BIN>229</BIN><BGM>10130</BGM><黑屏2>:... 
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:I concede defeat this time. Let's share a dance again next time, Commander. +Just you and me.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:When the EW battle is over, Bramedb has already disappeared from the warehouse. +Only her voice echoes on in the enclosed space.
+NytoIsomer(3)<Speaker>Dandelion</Speaker>||:Is that it...? +Commander, I've broken the electronic seal here. +From now on, this underground warehouse won't keep any secrets from you.
+()<Speaker>Commander</Speaker>||:...Good.
+()<Speaker></Speaker>||:The Commander is unhappy to let Bramedb get away just like that, but at least they aren't coming away completely empty-handed.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:Click. +Call connected.
+NPC-Keven(0)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Commander, is everything alright on your end? What's the holdup?</color>
+NPC-Keven(0)<Speaker>Commander</Speaker>||:We had a minor situation. We're coming right— No, you guys come over. +We've removed the electronic seal down here. Get your people over here too and we'll search the place again. +We'll discuss the rest back at HQ.
+NPC-Keven(0)<Speaker>J</Speaker>||:<color=#00CCFF>"We'll discuss the rest back at HQ." God, you sound like a proper Stasi.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Still oblivious to what happened on the Commander's end, J makes a gibe and terminates the transmission.
+()<Speaker></Speaker>||:... 
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>417</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:国安局内
-NPC-Jason(2)<Speaker>K</Speaker>||:……也就是说，没有找到安洁吗？
-()<Speaker></Speaker>||:国安局办公室内，J，K与指挥官再次聚在了一起。+面对K的问题，指挥官摇了摇头，叹了口气。
-()<Speaker>指挥官</Speaker>||:安洁至少曾经是在那的。+我想可能是她传递给我的信息被格雷注意到了。+所以反过来被她们利用了。
-NPC-Keven(0)<Speaker>J</Speaker>||:……不过也有好消息，仓库里的货我们全都收缴了。+这次算是赚了，我们可从她们手里刮了一层肉下来。
-()<Speaker>指挥官</Speaker>||:的确，而且，基地里的线索也有不少。+不仅量大，而且非常详细……都让人觉得不太寻常了。+真的会有人把档案留得那么详细吗？
-NPC-Jason(3)<Speaker>K</Speaker>||:这或许是他们掌握民生部门的一种手段吧。
-()<Speaker></Speaker>||:与K打趣了一句，指挥官笑了笑。
-()<Speaker>指挥官</Speaker>||:不过，我们的确找到了很重要的线索，要跟你们分享。
-NPC-Jason(2)<Speaker>K</Speaker>||:……什么东西？
-()<Speaker>指挥官</Speaker>||:我刚才不是说了吗？+我们跟那个叫布拉梅德的涅托交了手。+她在跟丹德莱电子战的过程里，被丹德莱挖出了不少东西。+经过破译，我们找到了一些有用的情报。
-()<Speaker>指挥官</Speaker>||:丹德莱。
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:我们找到了一段录音。
-NPC-Keven(0)<Speaker>J</Speaker>||:录音？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:丹德莱点了点头，将一面平板放在了中央的桌子上。
-()<Speaker>？？？</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_whitenoise</SE1>:……
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>……迦拉提亚提供的技术，对德国，对国防部，都非常重要。</color>+<color=#00CCFF>我希望你也能赞同这一点，施魏因施泰格将军。</color>
-NPC-Keven(0)<Speaker>J</Speaker>||<BGM>BGM_Brain</BGM>:——！
-()<Speaker></Speaker>||:J瞪大了眼睛，而其余三人皆面色凝重，一语不发。
-()<Speaker>施魏因施泰格</Speaker>||:<color=#00CCFF>是的，是的，我理解……我赞成你的想法。</color>+<color=#00CCFF>非常感谢您愿意为我们做中介人，我相信这肯定会是一次愉快的合作。</color>
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>是的，我敢肯定。</color>
-NPC-Keven(5)<Speaker>J</Speaker>||:这个声音是……
-NPC-Jason(4)<Speaker>K</Speaker>||:嘘！
-()<Speaker></Speaker>||:K的呼吸都变得急促起来。
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>……我相信。</color>+<color=#00CCFF>今天，对德国而言，是个重要而伟大的日子。</color>
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<BIN>417</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:Stasi HQ.
+NPC-Jason(2)<Speaker>K</Speaker>||:...In other words, we still haven't found Ange?
+()<Speaker></Speaker>||:J, K, and the Commander gather again at the Stasi office. +In response to K's question, the Commander shakes their head and sighs.
+()<Speaker>Commander</Speaker>||:Ange was there, that much we know. +Gray must've picked up on the message that Ange tried to send me. +They used it to manipulate us.
+NPC-Keven(0)<Speaker>J</Speaker>||:...But it's not all bad news. We confiscated all the goods in the warehouse. +We've gained a lot—we took quite a significant chunk out of them.
+()<Speaker>Commander</Speaker>||:Indeed. The base also holds a vast amount of clues. +Not only that, they are incredibly detailed... So detailed it's almost suspicious. +Does anyone actually keep such meticulous records?
+NPC-Jason(3)<Speaker>K</Speaker>||:Perhaps it's their way of keeping a firm hold on their operations.
+()<Speaker></Speaker>||:The Commander snorts at K's remark.
+()<Speaker>Commander</Speaker>||:Still, we have indeed found a very important lead. We'd like to share it with you.
+NPC-Jason(2)<Speaker>K</Speaker>||:...What is it?
+()<Speaker>Commander</Speaker>||:I told you, didn't I? We fought that Nyto named Bramedb. +Dandelion dug out a lot of stuff while engaging her in an EW battle. +With all the data decrypted, we have learned some useful information.
+()<Speaker>Commander</Speaker>||:Dandelion.
+NytoIsomer(3)<Speaker>Dandelion</Speaker>||:We've found an audio recording.
+NPC-Keven(0)<Speaker>J</Speaker>||:An audio recording?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Dandelion nods and places a tablet in the center of the desk.
+()<Speaker>???</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_whitenoise</SE1>:... 
+()<Speaker>???</Speaker>||:<color=#00CCFF>...The technology supplied by Galatea is essential to Germany and to the Ministry of Defense.</color> +<color=#00CCFF>I hope you'll agree, General Schweinsteiger.</color>
+NPC-Keven(0)<Speaker>J</Speaker>||<BGM>BGM_Brain</BGM>:!
+()<Speaker></Speaker>||:J's eyes widen while the other three stare at each other in grim silence.
+()<Speaker>Schweinsteiger</Speaker>||:<color=#00CCFF>Yes, yes, I understand... I do agree.</color> +<color=#00CCFF>Thank you very much for being our intermediary. I'm sure our cooperation will be a fruitful one.</color>
+()<Speaker>???</Speaker>||:<color=#00CCFF>Oh yes, I'm certain of that.</color>
+NPC-Keven(5)<Speaker>J</Speaker>||:That voice... 
+NPC-Jason(4)<Speaker>K</Speaker>||:Hush!
+()<Speaker></Speaker>||:K's breathing quickens.
+()<Speaker>???</Speaker>||:<color=#00CCFF>...I believe... </color> +<color=#00CCFF>...That today is a great and important day for Germany.</color>
+()<Speaker></Speaker>||:... 
 ()||<黑点1>:
-()<Speaker>奥贝斯坦</Speaker>||<黑点2><BIN>313</BIN><SE1>AVG_amb_thunderrain</SE1>:<color=#00CCFF>今天，对德国而言，是个重要而伟大的日子！</color>
-()<Speaker></Speaker>||:电视机内，奥贝斯坦慷慨激昂的演讲声透过屏幕，带着无穷的感染力宣泄着他的理想。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:茶杯与盘子轻轻碰撞出了清脆的声响。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:男人关闭了电视机，站起身来，转身面向了窗户。
-()<Speaker></Speaker>||:阴沉的天空下，淅淅沥沥的雨幕遮蔽着人的视线。
-NPC-Griffin(0)<Speaker>格里芬</Speaker>||:……是的，我确实收到了。+是的，这非常重要，你做得很好。+我相信，这会是一张决胜的王牌。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:随着爵士的声音，通讯再次断开。
-()<Speaker></Speaker>||:他的眼睛藏在镜片后面，深邃的目光远远地看向了遥远的彼方。
+()<Speaker>Oberstein</Speaker>||<黑点2><BIN>313</BIN><SE1>AVG_amb_thunderrain</SE1>:<color=#00CCFF>Today is a great and important day for Germany!</color>
+()<Speaker></Speaker>||:On television, Oberstein illustrates his ideals through his impassioned and rousing speech.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:A teacup is placed on its saucer, producing a delicate clink.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:A man turns off the television. He gets up and turns to face the window.
+()<Speaker></Speaker>||:A steady downpour against the murky sky obscures the man's view.
+NPC-Griffin(0)<Speaker>Griffin</Speaker>||:...Yes, I have it. +Yes, that's very important. You did well. +I believe this will be the ace up our sleeve.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:The transmission is disconnected.
+()<Speaker></Speaker>||:He gazes ponderously into the distance from behind his spectacles.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>182</BIN><黑屏2><Night><common_effect>%%code=CJ_rain%%</common_effect>:在瓢泼的雨中，国会大厦依然伫立着，统一日的光辉直到今天也未能彻底消退。+看着这幅光景，他忍不住往茶杯内又加了一块方糖，勺子搅拌着杯子，发出愉快的叮叮声。
+()<Speaker></Speaker>||<BIN>182</BIN><黑屏2><Night><common_effect>%%code=CJ_rain%%</common_effect>:The Reichstag stands proud even in the heavy rain, its radiance from Unity Day still lingers. +Taking in the sight, he can't help but add another sugar cube into his tea. He stirs it with a spoon, which tinkles merrily in the teacup.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_doorknock_wood</SE1><Night><BIN>84</BIN><BGM>BGM_Empty</BGM>:一间再寻常不过的公寓内，模样艳丽的女子温柔地敲了敲不起眼的某户人家的门。
-()<Speaker>？？？</Speaker>||:进来。
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:布拉梅德似乎非常紧张，在得到首肯后，仍是深呼吸了一口气，才恭敬地转开房门。
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_doorknock_wood</SE1><Night><BIN>84</BIN><BGM>BGM_Empty</BGM>:In a nondescript apartment block, a ravishing woman gently knocks on an equally nondescript door.
+()<Speaker>???</Speaker>||:Come in.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Bramedb seems extremely nervous. Even when given permission to enter, she has to take a deep breath first before opening the door reverently.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>Stop_AVG_loop</SE1><关闭蒙版>:缓步走入房间，她崇拜地看着向房间尽头的黑影，对他躬身致礼。
-NPC-Bramedb(2)<Speaker>布拉梅德</Speaker>||:报告父亲大人。+任务已经顺利完成。
-()<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||:黑影没有对布拉梅德做出任何回应，但布拉梅德非常清楚。+这是因为，事情正在将要迈向新阶段的关键时刻，短暂的胜利对他而言毫无意义。
-NPC-Bramedb(0)<Speaker>布拉梅德</Speaker>||:请您放心……我会继续为您分忧。+我保证，我会完成您的任务，直到您完成您的夙愿。
-()<Speaker></Speaker>||:……是的，是的，这才是对的。+……她才是父亲大人最宠爱的女儿。
-()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>Stop_AVG_loop</SE1><关闭蒙版>:After entering the room, she gazes ardently at the dark figure standing at the other end of the room and bows deeply.
+NPC-Bramedb(2)<Speaker>Bramedb</Speaker>||:Father. +I am here to report the success of the mission.
+()<Speaker>???</Speaker>||:... 
+()<Speaker></Speaker>||:The figure gives no acknowledgement to what Bramedb just said, but she knows. +Since they are at a critical stage where things are about to progress to the next phase, a single small victory means nothing to him.
+NPC-Bramedb(0)<Speaker>Bramedb</Speaker>||:Please rest assured... I will keep sharing your burden. +I will complete every mission you give me until you achieve you goal, this I swear to you.
+()<Speaker></Speaker>||:...Yes, that's right. +...She, not anyone else, is Father's favorite daughter.
+()||<黑屏1>:

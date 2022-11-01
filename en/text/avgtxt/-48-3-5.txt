@@ -1,118 +1,118 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……窸窸窣窣……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:“吱呀”——极轻的开门声，两个人悄悄地走进了房间。
-()<Speaker>奈乐</Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:房间里没人吧？
-()<Speaker>米娅</Speaker>||:放心，都检查过，那些人早就散了。+新闻热度一般就两三天，时间是最好的镇定剂。
-()<Speaker></Speaker>||<BIN>129</BIN><SE1>AVG_tele_disconnect</SE1>:按下开灯键，房间瞬间亮了起来。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:呼~果然家里最舒服！
-APC556(2)<Speaker>米娅</Speaker><Position>0,120</Position>||:你还是决定明天去一趟研究所吗？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:当然！好不容易解禁，虽然是通知大家离职……
-APC556(2)<Speaker>米娅</Speaker><Position>0,120</Position>||:嗯，我去整理下屋子，你要联络那个特工就快一点，明天还要早起。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:好。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:Rustle rustle... 
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Creeeak... The two slip into the apartment, making as little noise as possible.
+()<Speaker>Nele</Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Is there anyone inside?
+()<Speaker>Mia</Speaker>||:Relax, I checked. Those people are long gone. +People only get fired up about the news for a day or two. Time is the best sedative.
+()<Speaker></Speaker>||<BIN>129</BIN><SE1>AVG_tele_disconnect</SE1>:She flips on the light switch and the room immediately brightens up.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Ahhhh~ There's no place like home!
+APC556(2)<Speaker>Mia</Speaker><Position>0,120</Position>||:But you're still going down to the lab tomorrow, right?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Of course! They finally opened the place back up again. Granted, it's just to tell everyone that they're fired... 
+APC556(2)<Speaker>Mia</Speaker><Position>0,120</Position>||:Yeah, I'll go tidy up the house. You'd better hurry up if you want to contact that agent. You need to be up bright and early tomorrow.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Okay.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>129</BIN><黑屏2><BGM>BGM_Room</BGM><SE1>AVG_tele_connect</SE1>:滴——通讯被人接起，一道懒散的声音传来。
-NPC-Keven(0)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>有好消息了？</color>
-NPC-Keven(0);NPC-Nele(0)<Speaker>奈乐</Speaker>||:……消息是有，但好不好得你来判断。+先说运输车，那辆车确实是迦拉提亚集团用车，但这种车有很多辆。而且每一辆会往来很多次，只看运输记录的话光这个月就有几百页。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(0)||:<color=#00CCFF>记录上有哪些信息？</color>
-NPC-Keven(0);NPC-Nele(0)<Speaker>奈乐</Speaker>||:我的权限只能看到名字、仓库、时间等一些比较粗糙的东西。+而且系统没有对我开放搜索权限。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(0)||:<color=#00CCFF>说起名字，我这里可以再给你提供一条信息。</color>+<color=#00CCFF>乌姆鲁斯——这是那个订单的收货人。</color>
-NPC-Keven(0);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……+话说你们有技术部门的吧。+能不能帮我提高下权限？
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(2)||:<color=#00CCFF>能够那样做的话，怎么不干脆黑掉你们内网？</color>+<color=#00CCFF>这种操作会留下痕迹的，我的线人小姐。</color>
-NPC-Keven(0);NPC-Nele(1)<Speaker>奈乐</Speaker>||:好吧，那我再想想办法。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>格雷小学是只收一年级学生吗？</color>+<color=#00CCFF>找几个学长啊奈乐小姐。</color>
-NPC-Keven(0);NPC-Nele(2)<Speaker>奈乐</Speaker>||:你的意思是用别人的……
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(2)||:<color=#00CCFF>我可什么都没说。</color>
-NPC-Keven(0);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……是，你什么都没说。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(3)||:<color=#00CCFF>那洋房呢？</color>
-NPC-Keven(0);NPC-Nele(1)<Speaker>奈乐</Speaker>||:同样的情况，我没有权限。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>……好吧，果然不能全指望你。</color>
-NPC-Keven(0);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……我会尽力的。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>嘴上说说谁都会。</color>+<color=#00CCFF>好了，我这边还有事，回聊。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……
-()<Speaker></Speaker>||:挂掉通讯，奈乐叹了口气。
-APC556(2)<Speaker>米娅</Speaker><Position>0,120</Position>||:奈乐，你是搞药物的，不是搞间谍的。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:这件事是我自己揽下来的啦~+呼~明天我去再查一次。
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<BIN>129</BIN><黑屏2><BGM>BGM_Room</BGM><SE1>AVG_tele_connect</SE1>:Click. The call goes through, and she is answered by a lazy-sounding voice.
+NPC-Keven(0)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Good news?</color>
+NPC-Keven(0);NPC-Nele(0)<Speaker>Nele</Speaker>||:...There's news, but whether or not it's good is up to you. +About the truck—it was definitely from Galatea, but there are many such vehicles. Also each truck makes a lot of trips, so the transport logs alone are several hundred pages long.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(0)||:<color=#00CCFF>What information do those logs contain?</color>
+NPC-Keven(0);NPC-Nele(0)<Speaker>Nele</Speaker>||:My clearance only gives me access to names, warehouses, times and so on—basic stuff. +And the system doesn't let me do open searches.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(0)||:<color=#00CCFF>Speaking of names, I have a piece of info for you. </color>+<color=#00CCFF>The consignee is called "Umruss". </color>
+NPC-Keven(0);NPC-Nele(2)<Speaker>Nele</Speaker>||:... +Come to think of it, you've got a technical department, right? +Can't you do something to boost my access clearance?
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(2)||:<color=#00CCFF>If we could do that, why not just hack your intranet directly?</color> +<color=#00CCFF>That sort of thing leaves traces, Frau Informant. </color>
+NPC-Keven(0);NPC-Nele(1)<Speaker>Nele</Speaker>||:Alright, I'll try to think of something else.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>Does Gray Elementary only take first-grade students?</color>+<color=#00CCFF>Get some of your seniors to help, Frau Nele. </color>
+NPC-Keven(0);NPC-Nele(2)<Speaker>Nele</Speaker>||:Wait, are you suggesting that I use other people's... 
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(2)||:<color=#00CCFF>I didn't say anything. </color>
+NPC-Keven(0);NPC-Nele(3)<Speaker>Nele</Speaker>||:...Yes, you said nothing at all.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(3)||:<color=#00CCFF>What about the mansion?</color>
+NPC-Keven(0);NPC-Nele(1)<Speaker>Nele</Speaker>||:Same thing. I don't have access.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>...Alright then. I can't count on you for everything, after all. </color>
+NPC-Keven(0);NPC-Nele(1)<Speaker>Nele</Speaker>||:...I'll do my best.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>Anyone can say that. </color> +<color=#00CCFF>Right, I've got stuff to do on my end. Talk to you later. </color>
+NPC-Nele(1)<Speaker>Nele</Speaker>||<SE1>AVG_tele_disconnect</SE1>:... 
+()<Speaker></Speaker>||:Nele hangs up and exhales heavily.
+APC556(2)<Speaker>Mia</Speaker><Position>0,120</Position>||:Nele, you're a scientist, not a spy.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:I brought this on myself... +Whew... I'll go check again tomorrow.
+()<Speaker></Speaker>||:... 
 ()||<黑屏1>:
-APC556(5)<Speaker>米娅</Speaker><通讯框>||<BGM>BGM_Empty</BGM><黑屏2><BIN>325</BIN><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>别太勉强了，你只是一个普通的女孩子。</color>
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:放心吧米娅，我心里有数的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在米娅担忧的眼神下，奈乐收起通讯器，将大衣披上身体。
-()<Speaker></Speaker>||<BGM>BGM_Brain</BGM>:……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:嗨~艾克奇前辈。
-()<Speaker>艾克奇</Speaker>||:……奈乐？你怎么来了？
-()<Speaker></Speaker>||:正要离开的研究员看到走进工作室的奈乐，露出了一脸惊讶和不解。
-()<Speaker>艾克奇</Speaker>||:我还以为你早就……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:我来拿点东西，还有些私人物品在这里。
-()<Speaker>艾克奇</Speaker>||:原来如此……+今天艾弗森教授的工作已经交接完毕了，等会儿大家去吃散伙饭，还有萨拉和梅兰妮。你一起吗？
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:啊——好的。
-()<Speaker>艾克奇</Speaker>||:那这里我给你留着灯，你走的时候记得关上。+等会儿茶水间见。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:行。
-()<Speaker></Speaker>||:笑着与艾克奇挥手道别，奈乐来到了自己的电脑前。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:格雷生物研究中心数据库，登录——+“乌姆鲁斯”——检索开始。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:诶，居然只有一条信息！
-()<Speaker></Speaker>||:名字下方的红色底标意味着机密级别相当高。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||<SE1>ClothingUp</SE1>:还好拿的是艾弗森教授的卡……+呼~那么接下来是——
-()<Speaker></Speaker>||:格雷——那位曾照亮自己人生的导师。
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:老师，我在您的身上，感受到过旅人被萤火照亮前路的心情。+如果您是清白的，那么绝对没有任何人可以污蔑。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:13、14、15……+找到了！
-()<Speaker></Speaker>||:人事架构、会议记录相关、行程安排日志——
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:心脏开始砰砰地跳动。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……课题整改会议……5月22日？+好像是我进来之前的信息……
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:咚咚咚。
-NPC-Nele(7)<Speaker>奈乐</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:——！
-()<Speaker>艾克奇</Speaker>||:我发现没拿围巾。+哦对了，有两个人已经到了，你记得快一点啊。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:……好，给我五分钟。
-()<Speaker></Speaker>||:面不改色地将资料库窗口最小化，奈乐站起来微笑着同来人打招呼。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:艾克奇拿走自己的东西，再次带上了门。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:呼……吓死我了。
-()<Speaker></Speaker>||:再次打开服务器，看着个人资料上，格雷那张意气风发的脸。+奈乐的手微微颤抖了起来。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:！老师那天居然不在实验室！+用车记录——她，她去了……新藤珀尔霍夫区……
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:咚咚咚。+——敲门的声音再次传来。
-()<Speaker>艾克奇</Speaker>||:奈乐！人已经齐了，你好了没？
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:好……好了，我这就出来。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:悄无声息地处理掉电脑问题，奈乐微笑着走进茶水间，将“借”来的卡神不知鬼不觉地物归原主。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:我们出发吧！
+APC556(5)<Speaker>Mia</Speaker><通讯框>||<BGM>BGM_Empty</BGM><黑屏2><BIN>325</BIN><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Don't push yourself too hard. You're just an ordinary girl. </color>
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Relax, Mia. I've got this.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele puts her communicator away and pulls her coat over her body as Mia watches on with concern.
+()<Speaker></Speaker>||<BGM>BGM_Brain</BGM>:... 
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Hi~ Herr Eicher.
+()<Speaker>Eicher</Speaker>||:...Nele? What are you doing here?
+()<Speaker></Speaker>||:The researcher who's about to leave is surprised to see Nele as she enters the workroom.
+()<Speaker>Eicher</Speaker>||:I thought you'd already... 
+NPC-Nele(4)<Speaker>Nele</Speaker>||:I just came to get some things. I left some personal items here.
+()<Speaker>Eicher</Speaker>||:I see... +Well, Professor Iverson's finished handing his work over. We'll be having a farewell dinner later with Sara and Melanie. Are you coming?
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Uh... Sure.
+()<Speaker>Eicher</Speaker>||:I'll leave the lights on for you. Make sure you turn them off when you go. +See you at the pantry later.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Okay.
+()<Speaker></Speaker>||:After smiling and waving goodbye to Eicher, Nele goes up to her computer.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:Logging in to the Gray Institute of Biology Database— +"Umruss"—begin search.
+NPC-Nele(6)<Speaker>Nele</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Huh? There's only one entry!
+()<Speaker></Speaker>||:The red underline means that it is highly classified.
+NPC-Nele(4)<Speaker>Nele</Speaker>||<SE1>ClothingUp</SE1>:Good thing I'm using Professor Iverson's card... +Hmm... Now then... 
+()<Speaker></Speaker>||:Gray—the teacher who shone a light on her life.
+NPC-Nele(7)<Speaker>Nele</Speaker>||:Mrs. Gray, to me, you are like a fire that illuminates a traveler's path. +If you ARE innocent, then I won't let anyone besmirch you.
+NPC-Nele(6)<Speaker>Nele</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:13, 14, 15... +Got it!
+()<Speaker></Speaker>||:There are org charts, meeting minutes, schedules and diaries—
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:Her heart begins to pound.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...A project direction change meeting... on May 22nd? +Looks like that was before I came in.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:Knock knock knock.
+NPC-Nele(7)<Speaker>Nele</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:—!
+()<Speaker>Eicher</Speaker>||:I forgot my scarf. +Oh yeah, two people are already here, make sure you hurry.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:...Okay, give me 5 minutes.
+()<Speaker></Speaker>||:Nele minimizes the window with a perfectly even expression and greets the person who came in.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Eicher gets his scarf and closes the door once again.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:Whew... That scared the hell out of me.
+()<Speaker></Speaker>||:She enters the server again and looks at the personnel records again. Gray's vivacious face looks back at her. +Nele's hands tremble.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Mrs. Gray wasn't in the lab that day! +As for her carpool records... Sh-she went to...Neu-Tempelhof... 
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock knock knock. +—There is a knocking on the door once again.
+()<Speaker>Eicher</Speaker>||:Nele! Everyone's here, are you done yet?
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Y-yes, I am, I'm coming right now.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele silently turns off her computer and enters the pantry with a big smile. Then she returns her "borrowed" card to its owner, who is none the wiser.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Let's head out!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>80</BIN><BGM>GF_21winter_avg_nightbar</BGM>:……
-()<Speaker></Speaker>||:香肠拼盘和啤酒一起被侍者端了上来。
-()<Speaker>艾克奇</Speaker>||:艾弗森教授这次是要去不莱梅那家研究中心吗？
-()<Speaker>艾弗森</Speaker>||:是啊，对方也是免疫方面的课题。+还问我愿不愿意带队呢，你们有想法么？
-()<Speaker>梅兰妮</Speaker>||:我全家都在这边，换个城市还是太麻烦了。+哎——这份工作还不满一年，简历上有些不太好看。
-()<Speaker>艾克奇</Speaker>||:这里的工作时长大家都差不多，放心，背调的话可以互相印证。+而且这次遣散费给的足够，休息半年慢慢找工作也行。+不过我确实对不莱梅有点心动，那边比柏林更发达一点吧，能争取到的资金也更多。
-()<Speaker>艾弗森</Speaker>||:钱是给的挺大方。
-()<Speaker>萨拉</Speaker>||:给您开再多的薪水都值得。+谁让现在业内只有我们有独一手资料。
-()<Speaker>艾弗森</Speaker>||:那可不，动物实验跟人体实验差别还是太大了。
-()<Speaker>艾克奇</Speaker>||:那是~最厉害的科学家往往是疯狂科学家。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:独一手“资料”？是指伊登吗？+之前我看业内不少公司都有针对ELID的特别项目。
-()<Speaker>艾弗森</Speaker>||:是啊，说到这个格雷还是很首屈一指的。+业内想做这个项目的成千上百，正在做的也有几十家。+但只有她能推进到这种程度。+起码我们的方向已经完成90%了。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:是啊，就差三期测试了。真想不通为什么还会脑死亡，还好最后检测结果没事。
-()<Speaker>艾弗森</Speaker>||<BGM>BGM_Empty</BGM>:……
-()<Speaker>艾克奇</Speaker>||:……
-()<Speaker>梅兰妮</Speaker>||:……
-()<Speaker>萨拉</Speaker>||:……
-NPC-Nele(2)<Speaker>奈乐</Speaker>||<BGM>BGM_Truth</BGM>:诶？怎……怎么了？
-()<Speaker>艾克奇</Speaker>||:你不知道？+看新闻我还以为你是被人偷了药，你竟然不知道？
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……我该知道什么？
-()<Speaker>艾克奇</Speaker>||:……这个药剂不能在外面使用。
-()<Speaker></Speaker>||:奈乐放下了茶杯，整个人绷紧了。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:为什么？
-()<Speaker>萨拉</Speaker>||:啊这……你居然不知道……那我们是该说还是……不该说？
-()<Speaker>梅兰妮</Speaker>||:但这个是我们进来就定好的方向啊，这个都不知道你怎么进来的？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:（我必须弄清楚这一切……）
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:说起来，是有个保密协议，但我没来得及看。
-()<Speaker></Speaker>||:心跳越来越快……一直在雾里的真相仿佛就要拉开幕布——
-()<Speaker>梅兰妮</Speaker>||:我就说你怎么可能不知道。+下份工作，千万看完保密再签！
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:好的，多谢前辈提醒。+所以那是什么？
-()<Speaker>艾弗森</Speaker>||:就是研究方向的事，我们的研究方向不是治疗，而是挑选。+利用人体的免疫细胞挑选出最合适的抗体。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:这不是在杀人吗？
-()<Speaker></Speaker>||:奈乐的声音不由自主地提升了两个分贝。
-()<Speaker>萨拉</Speaker>||:这是救人。+奈乐，我们是在救人。
-()<Speaker>梅兰妮</Speaker>||:ELID是没有完美治疗手段的，这点常识你应该有啊~
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:所以“伊登”才是人们殷切希望的救星！
-()<Speaker>艾弗森</Speaker>||:你太天真了！+只有大量实验后，找到真正的免疫体。取到对方的血清进行复制，这才是有效治疗手段。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……+难怪政府迟迟不批准，他们知道我们在研究什么吗？
-()<Speaker>艾弗森</Speaker>||:当然，“伊登”的公开目标一开始就是个巴别塔啊，永不可能呈现的东西。+但是当它作为政治口号的时候，我们才能拿到那么多钱。+我以为格雷女士把这些都跟你交代过了。+如果连这个都不能认同，你到底怎么进来的？
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……+现在我也很想知道！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐拿起凳子上的挎包，大步流星地离开了饭店包厢，留下一堆面面相觑的人。
-()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>80</BIN><BGM>GF_21winter_avg_nightbar</BGM>:... 
+()<Speaker></Speaker>||:The waiter brings out a tray laden with sausage platters and beer.
+()<Speaker>Eicher</Speaker>||:So, will you be going to that research institute in Bremen, Professor Iverson?
+()<Speaker>Iverson</Speaker>||:Yeah, they have an immunology project there too. +They're asking if I want to bring my team with me. Any takers?
+()<Speaker>Melanie</Speaker>||:My family lives here, so moving to another city would be too much of a pain. +(Sighs) I haven't even finished a full year here, it's going to look bad on my resume.
+()<Speaker>Eicher</Speaker>||:Well, everyone's spent pretty much the same amount of time here, so don't worry, we can be witnesses for each other's background checks. +Also, they gave us a pretty hefty severance package, so we can take half a year to slowly find new work. +Still, I'm kind of interested in the Bremen position. They're more developed than Berlin, so they'll probably be able to get bigger grants.
+()<Speaker>Iverson</Speaker>||:Yeah, they're quite generous with their salaries.
+()<Speaker>Sara</Speaker>||:It's worth it no matter how much they pay us. +After all, we're the only ones in the industry with exclusive first-hand information.
+()<Speaker>Iverson</Speaker>||:Oh no, animal trials are a far cry from human trials.
+()<Speaker>Eicher</Speaker>||:Yup~ As they say, the best scientists are often the mad ones.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:First-hand "information"? Do you mean Idunn? +I noticed quite a few companies seem to have special anti-ELID projects going on a while back.
+()<Speaker>Iverson</Speaker>||:Yes, and Gray is one of the leaders in the field. +There are hundreds, if not thousands of companies that want to start projects like that, and there are dozens who already have. +But she's the only one that has been able to push a project this far. +For starters, our research is 90% finalized.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Yeah, so all that's left are the Phase III trials. I can't think of why it would have resulted in brain death. Fortunately the final tests showed that they were fine.
+()<Speaker>Iverson</Speaker>||<BGM>BGM_Empty</BGM>:... 
+()<Speaker>Eicher</Speaker>||:... 
+()<Speaker>Melanie</Speaker>||:... 
+()<Speaker>Sara</Speaker>||:... 
+NPC-Nele(2)<Speaker>Nele</Speaker>||<BGM>BGM_Truth</BGM>:Huh? What... What's wrong?
+()<Speaker>Eicher</Speaker>||:You didn't know? +When I saw the news, I thought someone stole your serum. Did you really not know?
+NPC-Nele(2)<Speaker>Nele</Speaker>||:...What should I know?
+()<Speaker>Eicher</Speaker>||:...That serum's not meant to be used outside the lab.
+()<Speaker></Speaker>||:Nele puts down her cup and tenses up.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Why?
+()<Speaker>Sara</Speaker>||:Oh boy... I can't believe you actually don't know... Should we tell her...Or not?
+()<Speaker>Melanie</Speaker>||:But that was the direction they were going with when we came in. How could you NOT have known when you joined?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:... 
+NPC-Nele(3)<Speaker>Nele</Speaker>||:(I need to get to the bottom of this... )
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Come to think of it, there was an NDA, but I didn't have the time to read through the whole thing.
+()<Speaker></Speaker>||:Her heart pounds faster and faster... The truth hidden in the mists all this while is about to be revealed—
+()<Speaker>Melanie</Speaker>||:No wonder you didn't know. +At your next job, make sure you finish reading the NDA before signing your contract!
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Thank you for the reminder. +So, what is it?
+()<Speaker>Iverson</Speaker>||:I'm talking about the direction of our research. We're not working towards treatment, but selection. +We're using the human immune system to select for the most appropriate antibodies.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:Isn't that killing people?
+()<Speaker></Speaker>||:Nele's voice unconsciously rises by a couple of decibels.
+()<Speaker>Sara</Speaker>||:It's SAVING people. +Nele, we're saving people.
+()<Speaker>Melanie</Speaker>||:There's no perfect treatment for ELID. You ought to know that, right?
+NPC-Nele(3)<Speaker>Nele</Speaker>||:Which is why Idunn is the salvation everyone's hoping for!
+()<Speaker>Iverson</Speaker>||:Oh, you're too naive! +We can only find a true immunosome after a great deal of experimentation. The only effective treatment is by obtaining a blood serum sample from them and replicating it.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:... +No wonder the government took so long to approve it. Did they know what we were researching?
+()<Speaker>Iverson</Speaker>||:Of course. The publicly-stated goal of Idunn was a Tower of Babel to begin with, something that could never come true. +But when you use it as a political slogan, you can make a ton of money. +I thought Mrs. Gray explained all this to you. +How did you even make it onto the team if you can't even accept that?
+NPC-Nele(3)<Speaker>Nele</Speaker>||:... +I'd like to know myself!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele scoops up her sling bag on the bench and strides out of the hotel's private dining room, leaving a group of people looking at each other behind her.
+()||<黑屏1>:

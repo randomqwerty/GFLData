@@ -1,121 +1,121 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>2</BIN><Night>:德国 柏林 高速公路旁
-NPC-grig(0)<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||:高挑的身姿伫立在公路的另一侧。+她冷酷的目光与此前较量的任何对手都不同，仿佛从一开始，便将盯上的目标视作了尸体。+仅仅只是打个照面，便能清楚地感知到，她与寻常的白色涅托截然不同。
+()<Speaker></Speaker>||<黑屏2><BIN>2</BIN><Night>:By an Autobahn in Berlin, Germany.
+NPC-grig(0)<Speaker>???</Speaker>||:... 
+()<Speaker></Speaker>||:A tall and slender figure is standing on the other side of the highway. +Her cold eyes are unlike those of anyone the Dolls have fought before. She gazes at her targets as though they were already corpses. +The Dolls can clearly tell just by this brief standoff that she is totally different from the regular white Nytos.
 ()||<黑点1>:
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>2</BIN><Night><SE1>AVG_tele_connect</SE1>:……能判断对方的数量和战斗方式吗？
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>不明涅托只有一个，按行走方式来看，应该是正面作战的类型。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker>||:已经查到了线索和手法，45，你给J通个气。
+()<Speaker>Commander</Speaker>||<黑点2><BIN>2</BIN><Night><SE1>AVG_tele_connect</SE1>:... Can we gauge their numbers and combat style?
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>There is only one unknown Nyto. Judging by the way she moves, she's probably the frontal assault type.</color>
+UMP45Mod(0)<Speaker>Commander</Speaker>||:45, get word to J. Let him know we've got the clues and their M.O figured out.
 ()||<黑点1>:
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>2</BIN><Night><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>AR小队，全力向停车点返回，我们这次不是来正面作战的。</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||:收——！
-()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:嗡——+振动着的长刀发出令人胆寒的嗡鸣声，仅一瞬间，锐利的刀锋便在RO635的眼下亮起了寒芒。
-RO635Mod(4)<Speaker>RO635</Speaker>||<BGM>10130</BGM>:啧！
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>RO！？发生什么事了！？</color>
-RO635Mod(4)<Speaker>RO635</Speaker>||:——她在我这里！15！快带SOP2走！我来断后！
-AR15Mod(5)<Speaker>AR15</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>做不到！</color>+<color=#00CCFF>——她在我这边才对啊！</color>
-RO635Mod(3)<Speaker>RO635</Speaker>||:什——！？
-()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:嗡——+白色的影子犹如鬼魅一般，哪怕已经近在咫尺，却没有任何人能够捕捉到她的面貌。+刀鸣带着破空的声响，刀先至，音后随。
-AR15Mod(5)<Speaker>AR15</Speaker><通讯框>||:<color=#00CCFF>可恶——！</color>
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1>:寒光一闪，RO635原本站立的地方凭空出现了一道深不见底的缝隙。+在那柄长刀下，战术人形的身体就仿佛白纸一般脆弱。
+()<Speaker>Commander</Speaker>||<黑点2><BIN>2</BIN><Night><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>AR Team, we're making our way back to our vehicle. We're not here for a fight.</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:Rog—!
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:Shingggg... +The Nyto brandishes her sabre, and the blade produces a chilling hum. In just an instant, the sharp edge is already glinting coldly under RO635's eyes.
+RO635Mod(4)<Speaker>RO635</Speaker>||<BGM>10130</BGM>:Tsk!
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>RO?! What's happening?!</color>
+RO635Mod(4)<Speaker>RO635</Speaker>||:—She's here! 15, get SOP-II and go! I'll hold her off!
+AR15Mod(5)<Speaker>ST AR-15</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>I can't!</color> +<color=#00CCFF>...She's here with me!</color>
+RO635Mod(3)<Speaker>RO635</Speaker>||:What?!
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:Shingggg... +The white shadow moves like a phantom. Even though she's so close, no one can catch a proper glimpse of her appearance. +The blade slices through the air with a piercing sound.
+AR15Mod(5)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>Dammit!</color>
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1>:With a flash, a deep crevice opened up at RO635's original position. +A Tactical's Doll's body is about as fragile as a piece of paper under that blade.
 ()||<黑点1>:
-AR15Mod(5)<Speaker>AR15</Speaker>||<黑点2><BIN>2</BIN><Night>:掩护指挥官！
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:<size=50>15！</size>
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:SOP2立刻扣下了扳机，向着她根本抓不住的目标开始扫射。
-AR15Mod(0)<Speaker>AR15</Speaker>||:别动！你的身体撑不住这种战斗！
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:那我也不能看着你死！M4好不容易才回来！
-AR15Mod(8)<Speaker>AR15</Speaker>||:谁说要死了！
-()<Speaker></Speaker>||:AR15咬了咬牙——+……会变慢的，那个影子不可能一直保持这么快的速度。+专注……专注……
-AR15Mod(5)<Speaker>AR15</Speaker>||:就是现在！
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1>:呯呯——+将稍瞬即逝的时机紧握在手，AR15抬起枪口一阵扫射，数发子弹急速射出，精准地打在了白色的长刃上。
-NPC-grig(0)<Speaker>？？？</Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:……
-()<Speaker></Speaker>||:刀刃被微微弹开了几分，那残影微微一顿，似是有些讶异。+这时，一声呼喊响起——
-RO635Mod(4)<Speaker>RO635</Speaker>||:让开！
-()<Speaker></Speaker>||:RO635用力一掷，燃烧着的炸药直直地往前方抛来，AR15立刻就地一滚。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<震屏3><SE1>Explode</SE1>:<size=50>啊——！！</size>
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:——爆炸的烟尘中，刀锋破空而出。+听着SOP2的声音，RO635甚至来不及回头。
-AR15Mod(0)<Speaker>AR15</Speaker>||:至少让M4和指挥官——
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||<黑点2><BIN>2</BIN><Night>:Protect the Commander!
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:<size=50>15!</size>
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:SOP-II pulls her trigger immediately and starts strafing at the elusive target.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Stop! Your body is in no state to fight this kind of battle!
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:But I can't just stand here and watch you die! We just got M4 back!
+AR15Mod(8)<Speaker>ST AR-15</Speaker>||:Who's going to die?!
+()<Speaker></Speaker>||:ST AR-15 grits her teeth... +She will have to slow down. That shadow can't keep up this speed forever. +Focus... Focus... 
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:Now!
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1>:Bang bang! +Seizing this fleeting opportunity, ST AR-15 fires off a few consecutive shots, hitting the white blade accurately.
+NPC-grig(0)<Speaker>???</Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:... 
+()<Speaker></Speaker>||:The blade is knocked off-course by a few centimeters. The figure pauses for a fraction of a second in surprise. +Just then, a shout comes from behind... 
+RO635Mod(4)<Speaker>RO635</Speaker>||:Gangway!
+()<Speaker></Speaker>||:With a mighty throw, RO635 launches a lit tube of dynamite forward. ST AR-15 dives straight for the ground.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<震屏3><SE1>Explode</SE1>:<size=50>Argh!!</size>
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:The blade pierces through the smoke of the explosion. +SOP-II lets out a cry, but RO635 doesn't even have the time to look back.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:At least M4 and the Commander can—
 ()||<黑点1>:
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>2</BIN><Night>:……
-()<Speaker></Speaker>||:指挥官目不斜视地看着那斩断烟雾的锋芒。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:呯呯呯——AR15拉起的枪线仅仅只捕捉到了残影，击碎的影子消散在空气之中。
-()<Speaker></Speaker>||:下一秒——+神秘的涅托第一次停下来，终于露出了她清冷的面目。+在与指挥官近在咫尺的地方。
-NPC-grig(0)<Speaker>缇</Speaker>||:……
-AR15Mod(8)<Speaker>AR15</Speaker>||:指挥官！！！小心！！
-()<Speaker></Speaker>||:然而——出乎所有人的预料，白色的涅托握紧长刀，跳过了指挥官，直奔其后的货车。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_lifttable</SE1>:嗡——寒光一闪，整辆车被轻巧地一刀两断！
-NPC-Morridow(9)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:……咳！咳咳……缇？
-()<Speaker></Speaker>||:被巨大的冲击力从豁口内甩出，默莉朵在地上翻滚了几圈，才看清靠近自己的涅托。
-NPC-grig(0)<Speaker>缇</Speaker>||:……姐姐。
-()<Speaker></Speaker>||:长刀悬在默莉朵的头顶，白色的涅托全然不顾身后赶来的人形们，冷冷地看着默莉朵。
-NPC-grig(0)<Speaker>缇</Speaker>||:失败了，就没有存在的必要。+这是您教给我的。
-()<Speaker></Speaker>||:炸弹扬起的灰尘带来滚滚浓烟……
-NPC-Morridow(9)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:……你要杀我？
-()<Speaker></Speaker>||:默莉朵吃惊地看着缇——对方甚至跳过了最重要的目标直奔自己。+谁也没想到会是这样的发展。
-NPC-Morridow(9)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:等等……你，你知道你在做什么吗？
-NPC-grig(0)<Speaker>缇</Speaker>||:……再见了，默莉朵。
-()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:高高举起手中的长刀，锋利的刀刃眼看着就要直接剖开默莉朵的身躯……
-NytoIsomer(11)<Speaker>M4A1</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:——住手！
-NPC-grig(0)<Speaker>缇</Speaker>||:——！？
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:就在这千钧一发的时刻，一股强大的冲击向着缇挺立的身躯直奔而去。+——那是缇完全无法理解的力量，在短短的毫秒内，她做出了明智的判断。
-()<Speaker></Speaker>||<BIN>183</BIN>:咻——
-NPC-Morridow(9)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:什……
+()<Speaker>Commander</Speaker>||<黑点2><BIN>2</BIN><Night>:... 
+()<Speaker></Speaker>||:The Commander stares at the glint flashing amidst the smoke.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Bangbangbang! ST AR-15's shots only manage to slow down the flitting shadow, but she soon disappears again.
+()<Speaker></Speaker>||:The next second... +The mysterious Nyto comes to a stop for the first time and finally reveals her ruthless features. +Right in front of the Commander.
+NPC-grig(0)<Speaker>Grig</Speaker>||:... 
+AR15Mod(8)<Speaker>ST AR-15</Speaker>||:Commander, watch out!!!
+()<Speaker></Speaker>||:However, much to everyone's surprise, she tightens her grip on her sword, leaps over the Commander, and rushes straight toward the truck in the back.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_lifttable</SE1>:Shingggg! With another flash of the blade, the entire truck is sliced cleanly into two!
+NPC-Morridow(9)<Speaker>Morridow</Speaker><Position>0,90</Position>||:(Coughs) ...Grig?
+()<Speaker></Speaker>||:Thrown out by the massive impact, Morridow rolls a few times after hitting the ground. Then she can finally make out the approaching Nyto.
+NPC-grig(0)<Speaker>Grig</Speaker>||:...Sister.
+()<Speaker></Speaker>||:The blade hovers above Morridow's head. The white Nyto gazes coldly down at Morridow, ignoring the T-Dolls catching up from behind.
+NPC-grig(0)<Speaker>Grig</Speaker>||:Those who fail have outlived their purpose. +You taught me that.
+()<Speaker></Speaker>||:Dirt and smoke are still billowing in the air after the explosion... 
+NPC-Morridow(9)<Speaker>Morridow</Speaker><Position>0,90</Position>||:...You're going to kill me?
+()<Speaker></Speaker>||:Morridow gapes at Grig—she came straight for her, skipping over the most important target. +Nobody saw this coming.
+NPC-Morridow(9)<Speaker>Morridow</Speaker><Position>0,90</Position>||:Hold on... D-do you have any idea what you're doing?
+NPC-grig(0)<Speaker>Grig</Speaker>||:...Goodbye, Morridow.
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:Grig lifts her sabre high up in the air. The sharp edge is about to slice Morridow's body open... 
+NytoIsomer(11)<Speaker>M4A1</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:STOP!
+NPC-grig(0)<Speaker>Grig</Speaker>||:...?!
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:But just before it makes contact, a massive force rushes towards Grig. +A force so powerful it defies comprehension. Grig makes a split-second decision.
+()<Speaker></Speaker>||<BIN>183</BIN>:Whoosh!
+NPC-Morridow(9)<Speaker>Morridow</Speaker><Position>0,90</Position>||:What... 
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>2</BIN><Night>:夺命的刀刃没有落下，那迅捷的身影如避瘟神一般迅速撤到了十几米外。
-NytoIsomer(12)<Speaker>M4A1</Speaker>||:……呼，呼。
-()<Speaker></Speaker>||:默莉朵愣愣地看着面向自己的M4。+她喘着粗气，精神肉眼可见地黯淡了许多。
-()<Speaker>指挥官</Speaker>||:别让她得逞！
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb</SE1>:借着这一刻间隙，AR15与RO635迅速向缇投掷了手雷。
-NPC-grig(0)<Speaker>缇</Speaker>||:……啧！
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><BIN>183</BIN>:嘭！
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:嘭！
+()<Speaker></Speaker>||<白屏2><BIN>2</BIN><Night>:The lethal strike never comes. The agile figure darts back several meters apprehensively.
+NytoIsomer(12)<Speaker>M4A1</Speaker>||:(Pants)
+()<Speaker></Speaker>||:Morridow stares at M4 in a daze. +M4 is panting heavily and looks visibly strained.
+()<Speaker>Commander</Speaker>||:Don't let her get what she's after!
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb</SE1>:ST AR-15 and RO635 each throw a grenade at Grig promptly.
+NPC-grig(0)<Speaker>Grig</Speaker>||:...Tsk!
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><BIN>183</BIN>:Bang!
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:Bang!
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>2</BIN><Night><common_effect>%%code=CJX_xm_yan%%</common_effect>:烟雾弹在空中与地面上分别炸开，RO635和AR15同时一愣——
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰！+下一刻，她们丢出的手雷才刚刚炸开。
-()<Speaker>？？？</Speaker>||:请跟我来！
-()<Speaker>指挥官</Speaker>||:什么！？
-()<Speaker></Speaker>||:一个陌生的声音响起，紧跟着在缇的前面，更多的烟雾弹落下——
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:十枚烟雾弹同时炸开……刺激的气味几乎能麻痹全身。
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:二十枚烟雾弹再次炸开……即便是缇，面对这种情况，也下意识地警惕起来，警戒着周围可能出现的敌人。
+()<Speaker></Speaker>||<白屏2><BIN>2</BIN><Night><common_effect>%%code=CJX_xm_yan%%</common_effect>:Smoke grenades erupt both in the air and on the ground. RO635 and ST AR-15 freeze in surprise.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Boom! +The grenades they lobbed only explode in the next second.
+()<Speaker>???</Speaker>||:Please come with me!
+()<Speaker>Commander</Speaker>||:What?!
+()<Speaker></Speaker>||:An unfamiliar voice shouts, then more smoke grenades rain down in front of Grig.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:Ten explode at the same time... The scent is almost strong enough to induce paralysis.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:Twenty more explode simultaneously again... Even Grig is forced to slow down and stay vigilant against possible attacks from her enemies.
 ()||<白屏1>:
-NPC-grig(0)<Speaker>缇</Speaker>||<白屏2><BIN>183</BIN><关闭蒙版>:……
+NPC-grig(0)<Speaker>Grig</Speaker>||<白屏2><BIN>183</BIN><关闭蒙版>:... 
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>2</BIN><Night>:等到她的视野终于恢复正常，眼前已经空无一人。
+()<Speaker></Speaker>||<白屏2><BIN>2</BIN><Night>:When the smoke finally clears, nobody is there anymore.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><Night><SE1>AVG_Car_Skid</SE1>:长时间的飙车后，一群人从车里开门下来，连腿都是软的。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:咳咳咳咳咳咳咳——
-()<Speaker>指挥官</Speaker>||:……多谢。+刚刚要是没有那么多枚烟雾弹和你带来的车，我们可能全交代了。
-KH2002(0)<Speaker>海拜尔</Speaker>||:啊不要客气不要客气。+指挥官你好！我是海拜尔，爵士派来的支援，我没迟到吧？
-KH2002(0)<Speaker>指挥官</Speaker>||:非常及时。
-KH2002(0)<Speaker>海拜尔</Speaker>||:那就好~
-NytoIsomer(12)<Speaker>M4A1</Speaker>||:咳……咳咳。
-()<Speaker></Speaker>||:M4站在人群的外围，不着痕迹地轻轻咳嗽了两下。
-NPC-Morridow(8)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:……
-()<Speaker></Speaker>||:默莉朵看着虚弱的M4，眼睛里满是惊疑不定的憎恨。
-NPC-Morridow(8)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:……你为什么要救我？妮莫金？
-()<Speaker></Speaker>||:她低声询问着，没有让其他的人形注意到自己的声音。
-NytoIsomer(10)<Speaker>M4A1</Speaker>||:……
-()<Speaker></Speaker>||:M4吸了两口气，令自己的呼吸恢复均匀。看了一眼默莉朵，她摇了摇头。
-NytoIsomer(10)<Speaker>M4A1</Speaker>||:帮助别人在你看来是如此不可思议的事吗？
-NPC-Morridow(8)<Speaker>默莉朵</Speaker><Position>0,90</Position>||:……
+()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><Night><SE1>AVG_Car_Skid</SE1>:After speeding for a good while, the group exits the vehicle, their legs still weak and jittery.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:(Coughs)
+()<Speaker>Commander</Speaker>||:...Thanks. +If it hadn't been for your smoke grenade bonanza and ride, we would've all died there.
+KH2002(0)<Speaker>Khaybar</Speaker>||:Oh, don't mention it. +Nice to meet you, Commander! I'm Khaybar, sent by the Earl to aid you. I wasn't late, was I?
+KH2002(0)<Speaker>Commander</Speaker>||:Your arrival was most timely.
+KH2002(0)<Speaker>Khaybar</Speaker>||:Good to hear~
+NytoIsomer(12)<Speaker>M4A1</Speaker>||:(Coughs)
+()<Speaker></Speaker>||:Standing a small distance away from the group, M4 coughs softly to avoid bringing attention to herself.
+NPC-Morridow(8)<Speaker>Morridow</Speaker><Position>0,90</Position>||:... 
+()<Speaker></Speaker>||:Morridow glares at the weakened M4, her eyes filled with disbelief and hate.
+NPC-Morridow(8)<Speaker>Morridow</Speaker><Position>0,90</Position>||:...Why did you save me, Nimogen?
+()<Speaker></Speaker>||:She questions M4 under her breath, also making sure the Dolls don't hear her.
+NytoIsomer(10)<Speaker>M4A1</Speaker>||:... 
+()<Speaker></Speaker>||:M4 takes two deep breaths to slow her breathing. She peers at Morridow and just shakes her head.
+NytoIsomer(10)<Speaker>M4A1</Speaker>||:Is helping others really such an unfathomable concept to you?
+NPC-Morridow(8)<Speaker>Morridow</Speaker><Position>0,90</Position>||:... 
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>229</BIN><BGM>BGM_Brain</BGM><Night><SE1>ClothingUp</SE1>:缇轻轻地走了进来，将刀刃收回身体。+格雷递上一杯红酒。
-NPC-MrsGray(1)<Speaker>格雷女士</Speaker>||:还顺利吗？
-NPC-grig(2)<Speaker>缇</Speaker>||:……东西处理掉了，但人跟丢了。
-NPC-MrsGray(1)<Speaker>格雷女士</Speaker>||:……你辛苦了。
-()<Speaker></Speaker>||:缇摇了摇头，欲言又止。
-NPC-MrsGray(1)<Speaker>格雷女士</Speaker>||:怎么？我们之间不需要隐瞒。
-NPC-grig(1)<Speaker>缇</Speaker>||:其实……刚刚差一点，我就可以杀了她。
-NPC-MrsGray(2)<Speaker>格雷女士</Speaker>||:……什么？
-()<Speaker></Speaker>||:格雷眼睛微微睁大，一贯冷静的面容出现了些微裂痕。
-NPC-MrsGray(3)<Speaker>格雷女士</Speaker>||:……谁让你动老师的？
-NPC-grig(2)<Speaker>缇</Speaker>||:我觉得……帕拉蒂斯在你的手下，会更好。+其实她没必要回来。+和她在的时候相比，我更喜欢现在的你。
-NPC-MrsGray(5)<Speaker>格雷女士</Speaker>||:……你！
-()<Speaker></Speaker>||:格雷第一次对缇显示出了愤怒。
-NPC-MrsGray(5)<Speaker>格雷女士</Speaker>||:默莉朵是我们当中最优秀的个体……我以为你能理解这一点。
-NPC-grig(1)<Speaker>缇</Speaker>||:我……
-NPC-MrsGray(5)<Speaker>格雷女士</Speaker>||:够了。+……不准再出现下一次，否则我就亲手处理你。
-NPC-grig(1)<Speaker>缇</Speaker>||:……
-()<Speaker></Speaker>||:缇眉眼低垂，微微沉吟。
-NPC-grig(1)<Speaker>缇</Speaker>||:……我明白了。
-()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>229</BIN><BGM>BGM_Brain</BGM><Night><SE1>ClothingUp</SE1>:Grig steps in lightly, her blade retracted back into her body. +Gray offers her a glass of red wine.
+NPC-MrsGray(1)<Speaker>Mrs. Gray</Speaker>||:How did it go?
+NPC-grig(2)<Speaker>Grig</Speaker>||:...The cargo has been taken care of, but I lost the target.
+NPC-MrsGray(1)<Speaker>Mrs. Gray</Speaker>||:...Thanks for the hard work.
+()<Speaker></Speaker>||:Grig shakes her head. She opens her mouth as if to speak, but hesitates.
+NPC-MrsGray(1)<Speaker>Mrs. Gray</Speaker>||:What is it? There's no need for secrets between us.
+NPC-grig(1)<Speaker>Grig</Speaker>||:Actually...I almost managed to kill her.
+NPC-MrsGray(2)<Speaker>Mrs. Gray</Speaker>||:...What?
+()<Speaker></Speaker>||:Gray's eyes widen slightly, her usual calmness threatening to crumble.
+NPC-MrsGray(3)<Speaker>Mrs. Gray</Speaker>||:...Who gave you permission to take Teacher's life?
+NPC-grig(2)<Speaker>Grig</Speaker>||:I believe...You will make a better leader for Paradeus. +There is no real need for her to return. +I like you better when she is not around.
+NPC-MrsGray(5)<Speaker>Mrs. Gray</Speaker>||:...You!
+()<Speaker></Speaker>||:Gray lets her anger show for the first time in front of Grig.
+NPC-MrsGray(5)<Speaker>Mrs. Gray</Speaker>||:Morridow is the most exceptional individual out of all of us... I thought you understood that.
+NPC-grig(1)<Speaker>Grig</Speaker>||:I... 
+NPC-MrsGray(5)<Speaker>Mrs. Gray</Speaker>||:That's enough. +...Don't do it again, or I'll execute you myself.
+NPC-grig(1)<Speaker>Grig</Speaker>||:... 
+()<Speaker></Speaker>||:Grig lowers her eyes and murmurs.
+NPC-grig(1)<Speaker>Grig</Speaker>||:...Understood.
+()||<黑屏1>:

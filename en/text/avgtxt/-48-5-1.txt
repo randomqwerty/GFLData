@@ -1,157 +1,157 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>9</BIN><黑屏2><黑屏1><narrator>:十一点，硝烟弥漫的边境。
+()||<BIN>9</BIN><黑屏2><黑屏1><narrator>:11 o'clock, at the smoke-swathed border.
 ()||<BIN>197</BIN><Night><黑屏2><Night><BGM>BGM_NightOPS</BGM>:
-NPC-Soldier(0)<Speaker>特战队联络员</Speaker>||:卡特将军，我们在您指定的号码中收到了新的留言。+留言为——“烟花已发射”。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:好，我知道了。
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker>||:将军，这是什么意思？ 
-NPC-Carter(1)<Speaker>卡特</Speaker>||:这意味着我们的交易进入了下一阶段。
-()||<SE1>AVG_20Winter_Door_Car_Open</SE1>:卡特走进汽车，吩咐司机离开前往下一个目的地——格里芬基地S09区。+特战队指挥长扶着车门，毕恭毕敬地准备关上。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:针对格里芬基地的部署都好了吗？
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker>||:是的，我们已经做好了充分准备。
-NPC-Carter(1)<Speaker>卡特</Speaker>||:不必这么大费周章，我们的同志为我们争取了充裕的时间，现在的格里芬基地就像陷阱里的兔子一样。
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker>||:是！
-NPC-Carter(1)<Speaker>卡特</Speaker>||:不过也不要掉以轻心，被逼入绝境的猎物往往会迸发出惊人的反抗力。
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:我们不会让您失望的。
-()||<黑屏1>:卡特摇上车窗，汽车发动引擎离开了。+透过茫茫夜色，卡特望向了运输机消失的方向。
-()||<黑屏2><BIN>412</BIN><BGM>BGM_Empty</BGM><Night>:……深夜，卢比扬卡大楼，联邦安全局办公室。
-()||<SE1>AVG_Door_Hit</SE1>:砰——+泽林斯基推开门走了进来。
-()<Speaker>秘书</Speaker>||<BGM>GF_21summer_battle_4</BGM>:……部长同志！ 
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:同志，保持冷静。+国防部的战情报告呢？
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:都在这里，已经做好记录了！
-()||<SE1>AVG_20Winter_Book</SE1>:泽林斯基揉着太阳穴走向办公桌，拿起手上的军情通报系统记录。+整个西部军区的通告界面几乎全被红色的防空警报占领了。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:开始汇报吧。
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:今天两点十五分前后，首先是边境哨所回报有不明武装人员袭击，随后编号“库宾卡-2”的边境军事基地突然失联，派出的侦察无人机观测到交火情况。+经过确认，多个军事目标遭到了火力轰炸，由于电子封锁，尚无法知晓具体伤亡情况。+在袭击事件发生后，各个交火点附近的军事基地相继失联，截止目前，这一区域依然处于通讯受阻的状态。+在通讯断开后，西部军区的空警系统检测到多架战斗机信号。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:战斗机？具体航向和机型。
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:14分钟前，西部军区检测到数架不明所属的飞行器。+两架米格出现在克拉科夫空域。+同一时间，一架疑似苏霍伊出现在布拉格上空，目前正在向北飞去。+此外，两架伊尔正在朝着利沃夫的方向前进，预计还有30分钟抵达利沃夫。+不管怎么联络，以上战斗机都没有回应。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:第一空防司令部联络上了吗？
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:额……除了沃罗涅日的空防司令部因为有我们的分部成员恰好在，各部的航空管制中心和飞行队都无法联系上。+沃罗涅日基地正在准备派出战斗机拦截。+还有，联络出现障碍的并不是只有空军基地，陆军基地也无法联系上……+部长，该不会他们都……
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:保持冷静，先告诉我空警信息是哪里最先发出的，不是标注雷达站，是时间顺序。
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:稍等……是西部军区空情通报中心！怎么会？
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:这就对了，立刻通知沃罗涅日基地。+停止起飞，立刻停止起飞，就地等候命令。
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:是，部长……已经告知了，但伊尔的飞行方向离……
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:同志，我知道……到现在为止有防空部队的开火报告吗？
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:西部边境上的防空部队目前遭受到电子压制，无法建立有效通讯，西部军区司令部已经派出直升机直接联络了。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:那雷达上呢？
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:还没有对空导弹发射的报告。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:那就没问题了，他们都在线上吗？
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:是的，西部军区的首长，第一空防司令部的司令员和国防部长都在二号线等您。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:好，首先优先恢复加里宁格勒的预警雷达通讯，我需要知道他们看见了什么。+然后……给空军司令办公室去个电话，看看他起没起。
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:是！部长同志。+但是以什么理由呢？
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||:……就说我们边境上的军事承包商被人袭击了。
-NPC-Zielinski(0)<Speaker>秘书</Speaker><同时置暗>||:明白了。
-()||:秘书离开了他的办公室，泽林斯基伸手要去拿起保密线路的听筒，然后手停在了上面。+他不是没有预想过对方可能会这么做，但是当事情真的发生时，自己还是惊讶于这些背叛者的阴魂不散。
-NPC-Zielinski(0)<Speaker>泽林斯基</Speaker>||<黑屏1>:那就看看你们接下来的动作吧。
-()||<黑屏2><BIN>273</BIN><BGM>BGM_Empty</BGM>:……即将抵达格里芬基地S09区的运输机。
-NPC-Soldier(0)<Speaker>？？？</Speaker>||<BGM>BGM_Sneak</BGM>:……这次斩首行动的目标是格里芬最高执行官——克鲁格，以及他的代理赫丽安。+他们正在位于S09区的格里芬基地，具体位置暂时不详。+在击杀任务目标之后，收尾工作包括毁掉心智服务器和炸毁格里芬基地。+我们今天行动，计划是晚上十一点十七分，在火箭炮轰炸结束后，由第一批特战队攻入建筑物。+十一点二十五分，第二批特战队在建筑物四个角落建立电子封锁阵线，不允许任何人形进出。+十一点四十八分，击毙目标后，第一批特战队退出，跟随第二批特战队一起离开。+支援火力只有架设机枪的武装直升机，不要期待更多的支援，但对于区区一个民营安全承包商来说，足够了。+任务执行代号，马尔都克。+还有什么问题吗？
-()<Speaker>？？</Speaker>||:没有！
-NPC-Soldier(0)<Speaker>？？？</Speaker>||<黑屏1>:祝好运，各位。
-()||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:……时间倒退回十分钟前。
-()||<BGM>m_wv_scenario</BGM>:十点五十分，格里芬基地，克鲁格的办公室。
-()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:在不间断的键盘噼啪声中，时间不声不响地流淌着。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……我刚刚查询的航班快要降落了是吗？+我明白了，谢谢。
-NPC-Helian(0)<Speaker></Speaker>||:赫丽安挂断了电话，看向了时钟。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:再过一会，铁血就能抵达柏林了，希望多少能帮到指挥官吧。+又快到11点了，还是先休息吧。+今天的进度还不错……
-NPC-Helian(0)<Speaker></Speaker>||:赫丽安起身收拾好随身物品，准备离开。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:保持这个进度的话，等格琳娜回来了，她就可以轻松一段时间了。
-NPC-Helian(0)<Speaker></Speaker>||<黑屏1>:赫丽安望向窗外沉沉的夜色，想象着格琳娜此刻的情况。
-()||<BIN>18</BIN><黑屏2><Night>:……克鲁格办公室的对面。
-M1928A1(0)<Speaker>汤姆森</Speaker>||:醒醒，WA，目标开始动了。
-WA2000(0)<Speaker>WA2000</Speaker>||:……唔，什么？！
-()||:昏昏欲睡的WA2000振奋了起来。
-WA2000(0)<Speaker>WA2000</Speaker><Shake>||:注意注意！李姐！卡尔！
-WA2000(0);98k(0)<Speaker>Kar98k</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我在，请讲。</color>
-WA2000(0);MLEMK1(0)<Speaker>李恩菲尔德</Speaker><通讯框>||:<color=#00CCFF>目标情况有变动了吗？</color>
-WA2000(0)<Speaker>WA2000</Speaker>;MLEMK1(0)<通讯框>||:目标开始移动，即将抵达办公室外的走廊，全体注意行动！
-MLEMK1(0)<Speaker>李恩菲尔德</Speaker><通讯框>||:<color=#00CCFF>收到。</color>
-98k(0)<Speaker>Kar98k</Speaker><通讯框>||:<color=#00CCFF>了解。</color>
-M1928A1(0)<Speaker>汤姆森</Speaker>||<SE1>AVG_tele_disconnect</SE1>:今晚的乐子终于要开始了，我去看看那边，你继续盯梢。
-WA2000(0)<Speaker>WA2000</Speaker>||:明白。
-()||<黑屏1>:汤姆森匆匆离开，同时，WA2000编辑好的讯息飞向了各个收件人。
-()||<黑屏2><BIN>1</BIN><Night>:……基地附近的树林，几道身骑机车的身影以无法用肉眼捕捉的速度飙向基地。
-M1928A1(0)<Speaker>汤姆森</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>这里是汤姆森，呼叫闪送小队。</color>
-NTW20Mod(0)<Speaker>NTW20</Speaker>;M1928A1(0)<通讯框>||:这里是闪送小队队长NTW。
-NTW20Mod(0);M1928A1(0)<Speaker>汤姆森</Speaker><通讯框>||:<color=#00CCFF>目标早于计划开始行动了，你们能提前回到基地吗？</color>
-NTW20Mod(0)<Speaker>NTW20</Speaker>;M1928A1(0)<通讯框>||:竟然提前了……明白，我们没有问题。
-NTW20Mod(0);M1928A1(0)<Speaker>汤姆森</Speaker><通讯框>||<SE1>AVG_tele_disconnect</SE1>:<color=#00CCFF>收到。</color>
-NTW20Mod(0)<Speaker>NTW20</Speaker>||:呼叫灰熊，呼叫喷火，计划提前了，我们要加快速度了。
-Grizzly(0)<Speaker>灰熊Mk V</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>收到，我这边七秒后抵达厨房后门。</color>
-Spitfire(0)<Speaker>喷火</Speaker><通讯框>||:<color=#00CCFF>我和75大姐头跟在你们后面的。</color>
-NTW20Mod(0)<Speaker>NTW20</Speaker>||<SE1>AVG_tele_disconnect</SE1>:好，下一次定期联络点见。
-()||<黑屏1>:NTW20挂断了通讯，通过后视镜确认着同伴的位置。
-()||<黑屏2><BIN>88</BIN>:……昏暗的基地仓库中，被屏幕照亮的一张张脸上流露出了痛苦狰狞的神情。
-PPK(0)<Speaker>PPK</Speaker>||:这就是你说的——今晚限定的特别节目？
-mp443(0)<Speaker>MP443</Speaker>||:我可是听说这边有很多奇石收藏品才过来的……
-Ribeyrolles(0)<Speaker></Speaker>||:利贝罗勒疲惫地调慢了输液的速度。
-WelrodMod(0)<Speaker>维尔德MkⅡ</Speaker>||:咳，其他的人形已经被安排满了。+你们不要浪费时间了，赶快开始任务吧。+托卡列夫，这边先交给你了，我马上回来！
-TT33(0)<Speaker>托卡列夫</Speaker>||:收到！
-()||:维尔德匆忙离开仓库，紧跟着，几个人形就开始蠢蠢欲动。
-PPK(0)<Speaker>PPK</Speaker>||:那么，这边就辛苦你了，托卡列夫♪
-TT33(0)<Speaker>托卡列夫</Speaker>||:等等，你们去哪——
-()||<SE1>AVG_20Winter_Door_Open</SE1>:仓库的门被拉开——
-()||<SE2>Gunfight</SE2>:砰砰砰——+冲锋枪近距离朝天喷射出的火光再次照亮了人形们的脸。
-M1928A1(0)<Speaker>汤姆森</Speaker>||:哈，任务做完了？
-()||<SE1>AVG_20Winter_Door_Close</SE1><黑屏1>:仓库的门利落地关上了。
-()||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:指针拨到了十点五十五分。+赫丽安反复确认保存备份完毕后，安心地准备下班。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:明天早上再赶一下进度，差不多就可以跟克鲁格先生汇报了。+等等，今天好像是——
-NPC-Helian(0)<Speaker></Speaker>||<黑屏1>:赫丽安的视线停留在日历上那个大大的红圈上。
-()||<BIN>18</BIN><黑屏2><Night><BGM>m_avg_casual</BGM>:……克鲁格办公室的对面。
-WA2000(0)<Speaker>WA2000</Speaker>||:注意注意，目标开始离开办公室了，你们都到大厅集合了吗？
-MLEMK1(0)<Speaker>李恩菲尔德</Speaker><通讯框>||:<color=#00CCFF>收到。</color>
-98k(0)<Speaker>Kar98k</Speaker><通讯框>||:<color=#00CCFF>大厅这边已经集合完毕。</color>
-WA2000(0)<Speaker>WA2000</Speaker>||:好，我立刻赶过来。
-()||<黑屏1>:WA2000向夜色中奔去。
-Grizzly(0)<Speaker>灰熊Mk V</Speaker><通讯框>||<黑屏2><BIN>1</BIN><Night>:<color=#00CCFF>我先带着小队去大厅门口集合了。</color>
-NTW20Mod(0)<Speaker>NTW20</Speaker>||:收到。+呼叫喷火和CZ，你们还没到吗？
-Spitfire(0)<Speaker>喷火</Speaker><通讯框>||:<color=#00CCFF>我们绕了点路去拿货，马上就到。</color>
-()||<SE1>AVG_brake</SE1>:寂静的树林中响起一阵刺耳的刹车声。
-CZ75(0)<Speaker>CZ75</Speaker>||:我们到了，出发吧！
-NTW20Mod(0)<Speaker>NTW20</Speaker>||:总算是赶上了，你们这满背的罚单是……
-CZ75(0)<Speaker>CZ75</Speaker><Shake>||<黑屏1>:别问了，快走吧！
-()||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:指针拨到了十点五十九分，赫丽安走到办公室门边。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:今天可是个值得庆祝的日子，要不要订个蛋糕什么的庆祝一下……
-()||<SE1>AVG_21Winter_Clock</SE1><黑屏1>:赫丽安微笑着翻看起了蛋糕店的展示。+秒针无情地逼近着……+56、57、58……+59……
-()||<SE1>Explode</SE1><黑屏2><BIN>9</BIN><CGDelay>3</CGDelay>:轰——
-()||:赫丽安睁开了双眼，但眼前只有无尽的黑暗。
-()<Speaker>赫丽安</Speaker>||:怎么回事……停电了吗？+……
-()||<BGM>GF_21summer_avg_Demon</BGM>:赫丽安的手指伸向电脑本应该在的位置，但那里只有一堵粗粝冰冷的墙体。
-()<Speaker>赫丽安</Speaker>||:这是什么……摸上去像是……墙的断截面？
-()||:赫丽安唤起了平板的手电筒——+借着刺眼的光亮，她看见天花板和墙体的横截面犬牙交错地咬在一起。+而自己，正躺在由不同横截面撑起的区域之下。+时不时碎落在脸上的沙砾提醒着自己，这里并不够安全。
-NPC-Helian(3)<Speaker>赫丽安</Speaker>||:……+冷静下来，赫丽安。+还有几百个人形在等待你的指挥……
-()||:赫丽安再次打开指挥平板，碎裂开的屏幕导致大多功能失灵，任赫丽安怎么拍打，也不肯执行指令。
-NPC-Helian(3)<Speaker>赫丽安</Speaker>||:不要惊慌，深呼吸……+不过是基地被轰炸而已，又不是第一次了，没什么好害怕的……
-()||:在狭窄逼仄的空间里，赫丽安勉强撑起身体坐了起来。+随着麻木的身体被唤醒，压抑已久的痛感也一同涌来。
-NPC-Helian(1)<Speaker>赫丽安</Speaker>||:多处擦伤，左小臂骨折，不确定其他部位的损伤程度。+至少，还能行动，情况还不算最糟糕。+……
-()||:赫丽安环视着将自己牢牢囚住的墙体，没有足够自己钻出去的洞口，也没有只凭借自己就能抬起的墙体。+她幽幽叹了口气，平板的手电筒开始闪烁起来……
-NPC-Helian(3)<Speaker>赫丽安</Speaker><Shake>||:不、不要……
-()||:四周再次陷入黑暗。
-()<Speaker>赫丽安</Speaker>||:……
-()||:视觉的丧失带来了听觉的锐化。+不知是不是错觉，赫丽安总感觉清晰地听见了墙体摩擦加剧的声音……
-()<Speaker>赫丽安</Speaker>||:如果今天就是最后一天……+身为成熟的女性，在面对危机的时候，决不能哭哭啼啼……
-()<Speaker>？？？</Speaker>||:赫丽安！
-()<Speaker>赫丽安</Speaker>||:……克鲁格先生？+克鲁格先生！我在这里！我在这里啊！
-()<Speaker>克鲁格</Speaker>||:我听见你的声音了，别害怕，我们来救你了。
-()<Speaker>赫丽安</Speaker>||:好、好的……
-()||<黑屏1>:赫丽安突然意识到，这是自己入职格里芬以来第二次哭。+墙体被小心地拆开，熟悉的人形们的脸庞出现在了眼前。
-M1928A1(0)<Speaker>汤姆森</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>398</BIN><火花>:赫丽安小姐，找到你了。
-MAC10(0)<Speaker>MAC10</Speaker>||:手伸过来啊。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:谢谢你们，汤姆森，英格拉姆。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:没受重伤吧？
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:没事，只有一些轻伤。
-()||<BGM>GF_21summer_battle_3</BGM>:克鲁格将全新的指挥平板递给赫丽安。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:抱歉，赫丽安，没时间让你休息了。+我们的基地突然遭到了重型火力的袭击，信号也被掐断了。+看这个手法，我有种预感，是卡特干的。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Kyruger(0)||:卡特将军……他不是已经……
-NPC-Helian(0);NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:没有时间考虑这些了。+有一批敌人已经逼近入口，我现在带上前线战备队去堵截。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:你留下来启动我们的紧急防卫计划，同时做好撤退的准备，如果我们防卫失败了，立刻启动紧急撤退计划。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Kyruger(0)||:明白，交给我吧。 
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:汤姆森，组织几支小队跟我来。
-M1928A1(0)<Speaker>汤姆森</Speaker>||:收到。英格拉姆，保护好赫丽安小姐。
-MAC10(0)<Speaker>MAC10</Speaker>||:没问题，就算我碎成破铜烂铁，也不会让那些渣滓们碰到赫丽安小姐的一根手指的。
-()||<SE1>Select</SE1>:克鲁格郑重地向赫丽安点了点头，随后拉开了手枪的保险，走向了门外的黑暗。+赫丽安对骨折的左小臂进行了紧急处理后，立刻开始使用平板指挥人形。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:还能行动的人形，听我指挥。+GSH18，立刻组建起救援小队，紧急抢救受创人形，恢复我们的战斗力。+NTW20，部署两支队伍，一支负责突破电子封锁恢复信号，一支尝试绕过敌后将信息送出基地范围。+维尔德，组织几支小队进行重要物资转移和危险物品销毁。+收到任务的人形立刻回复，并每隔十五分钟汇报情况。
-()||:做好前期部署的赫丽安正准备转移到更为安全的地方时，才注意到克鲁格还站在门口。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:克鲁格先生？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:来给你送一把手枪防身。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:谢谢。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我的后背就交给你了。
-()||:赫丽安微笑着原地立定，敬了一个标准的礼。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<黑屏1>:你永远可以信任我，克鲁格先生。
+NPC-Soldier(0)<Speaker>Spetsnaz Liaison</Speaker>||:General Carter, we've received a new voice message at the number you specified. +The message reads, "Fireworks launched."
+NPC-Carter(1)<Speaker>Carter</Speaker>||:Right, I see.
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker>||:General, what does this mean?
+NPC-Carter(1)<Speaker>Carter</Speaker>||:It means our arrangement is proceeding to the next phase.
+()||<SE1>AVG_20Winter_Door_Car_Open</SE1>:Carter gets into his car and orders the driver to set off for their next destination—the Griffin Base in Area S09. +The Spetsnaz officer holds the door open for him and politely prepares to close it.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:Are the forces earmarked for the Griffin base deployed?
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker>||:Yes, sir. We are all fully prepared.
+NPC-Carter(1)<Speaker>Carter</Speaker>||:No need to go to such lengths. Our comrades have bought ample time for us. The Griffin base now is like a rabbit in a snare.
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker>||:Yes, sir!
+NPC-Carter(1)<Speaker>Carter</Speaker>||:Still, you must not be careless. Cornered animals have been known to put up a surprising amount of resistance.
+NPC-Soldier(0)<Speaker>Spetsnaz Officer</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:We will not disappoint you.
+()||<黑屏1>:Carter winds the window shut and the car drives off. +Through the murky night sky, Carter looks in the direction where the transport aircraft has vanished.
+()||<黑屏2><BIN>412</BIN><BGM>BGM_Empty</BGM><Night>:...Late at night, in the Statesec office in the Lubyanka Building.
+()||<SE1>AVG_Door_Hit</SE1>:Bang! +Zelinsky pushes the door open and enters.
+()<Speaker>Secretary</Speaker>||<BGM>GF_21summer_battle_4</BGM>:... Comrade Director!
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Calm down, comrade. +Where is the report from the Ministry of Defense?
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:It's all here, it's been logged!
+()||<SE1>AVG_20Winter_Book</SE1>:Zelinsky rubs his temples as he walks toward his desk and picks up the military intelligence notification system log. +The notification screen for the entire Western Military District is almost completely covered with air defense warnings.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Begin brief.
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:Around 0215 today, a border outpost reported that they were being attacked by unidentified armed personnel, then we suddenly lost contact with the border military base on the border codenamed "Kubinka-2", so we sent our recon drones to investigate the battle conditions. +We have verified that many military targets were subjected to bombardment, and due to electronic lockdown, the current casualty status is unknown. +After the attack, we began losing contact with many military bases near each combat zone. This region is still under a comms blackout at the moment. +After the break in communications, the Western Military District's aerial defense systems detected many fighter signals in the air.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Fighters? I want models and exact headings.
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:The Western Military District picked up several aircraft of unknown affiliation 14 minutes ago. +Two MiGs have appeared in Krakow airspace. +At the same time, what appears to be a Sukhoi has appeared over the skies of Prague and is heading north. +In addition, two Ilyushins are heading for Lvov, ETA 30 minutes. +None of these fighters are responding to any kind of communication.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Have you contacted the 1st Air Defense Corps yet?
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:Er... Other than the 105th Guards Mixed Aviation Division in Voronezh, which happens to be where some of our people are assigned, we have been unable to contact the various air traffic control centers and aviation units. +Voronezh Base is preparing to launch fighters to intercept. +Also, the comms breakdown isn't just affecting the aviation bases. We're also unable to contact our army bases... +Director, could they have been... 
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Keep calm. Start by telling me where the air defense alerts first originated. Ignore the radar stations, go in chronological order.
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:A moment please... It's the Western Military District's Aerial Intelligence Center! How can that be?
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:That'll do it. Notify Voronezh Base immediately. +Cancel all takeoffs. Cancel all takeoffs immediately. Stand by and wait for orders.
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:Yes, Director... I've notified them, but the Ils' heading... 
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Comrade, I know... Have any units of the Air Defense Forces reported opening fire yet?
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:The PVO units on the Western border are currently under electronic suppression and no effective communications can be established. The Western Military District's HQ has sent out a helicopter to establish direct communications.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:What about radar?
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:No reports of SAM launches yet.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:That's good. Are they all online?
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:Yes. The Western Military District's CINC, the command staff of the 1st Air Defense Command, and the Minister of Defense are waiting for you on Line 2.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:Good. First, we need to restore communications to the early-warning radars in Kaliningrad. I want to know what they saw. +After that...Give the Air Force Commander's office a call, see if he's up yet.
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:Yes, Comrade Director. +But what should I tell him?
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||:...Tell him our border PMCs are under attack.
+NPC-Zielinski(0)<Speaker>Secretary</Speaker><同时置暗>||:Understood.
+()||:The secretary leaves his office. Zelinsky reaches out to take the handset to the encrypted line. His hand pauses for a moment. +It is not that he did not anticipate such a thing from the opposition, but now that it has actually happened, he is still surprised that the specter of those traitors is still lingering in the air.
+NPC-Zielinski(0)<Speaker>Zelinsky</Speaker>||<黑屏1>:Well, let's see what you do next.
+()||<黑屏2><BIN>273</BIN><BGM>BGM_Empty</BGM>:...On the transport plane about to arrive at the Griffin base in Area S09.
+NPC-Soldier(0)<Speaker>???</Speaker>||<BGM>BGM_Sneak</BGM>:The targets of this decapitation operation are the chief executive officer of Griffin—Kryuger, and his adjutant Helianthus. +They are currently in the Griffin base in Area S09, precise location unknown. +After eliminating the mission objectives, cleanup work will involve destroying their neural cloud servers and demolishing the base. +The operation will commence tonight, at 2317 hours. Once the rocket bombardment is complete, the 1st Spetsnaz Team will enter the building. +At 2325 hours, the 2nd Spetsnaz Team will establish electronic isolation around the perimeter of the base and prevent the entry and exit of all Dolls. +At 2348 hours, after the targets have been eliminated, 1st Team will retreat with 2nd Team. +Our only support assets are attack helicopters with machine guns. We cannot expect more, but that should be enough for a mere civilian PMC. +The operation codename is Marduk. +Any questions?
+()<Speaker>???</Speaker>||:No sir!
+NPC-Soldier(0)<Speaker>???</Speaker>||<黑屏1>:Godspeed, gentlemen.
+()||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:...Ten minutes ago.
+()||<BGM>m_wv_scenario</BGM>:2250 hours, Kryuger's Office in the Griffin base.
+()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:Time passes inexorably amid the clicks and taps of the keyboard.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...So the flight I just inquired about is going to land? +I see, thank you.
+NPC-Helian(0)<Speaker></Speaker>||:Helian hangs up and looks at the clock.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Sangvis Ferri will be reaching Berlin soon. Hopefully they'll be able to help the Commander out. +It's almost 11, I'd better get some rest. +We made pretty good progress today... 
+NPC-Helian(0)<Speaker></Speaker>||:Helian gets up and puts her things away as she prepares to leave.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:If I can keep this pace up, Kalina will be able to take it easy for a while after she comes back.
+NPC-Helian(0)<Speaker></Speaker>||<黑屏1>:Helian looks outside at the dreary night sky, wondering how Kalina is doing right now.
+()||<BIN>18</BIN><黑屏2><Night>:...In front of Kryuger's office.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Wake up, WA. The target's on the move.
+WA2000(0)<Speaker>WA2000</Speaker>||:Hm... What?!
+()||:The groggy WA2000 immediately bolts awake.
+WA2000(0)<Speaker>WA2000</Speaker><Shake>||:Attention! Lee! Kar!
+WA2000(0);98k(0)<Speaker>Kar98k</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>I'm here, go ahead. </color>
+WA2000(0);MLEMK1(0)<Speaker>Lee Enfield</Speaker><通讯框>||:<color=#00CCFF>Has the target's status changed?</color>
+WA2000(0)<Speaker>WA2000</Speaker>;MLEMK1(0)<通讯框>||:Target is on the move, about to reach the office corridor. Everyone, mind your movements!
+MLEMK1(0)<Speaker>Lee Enfield</Speaker><通讯框>||:<color=#00CCFF>Roger. </color>
+98k(0)<Speaker>Kar98k</Speaker><通讯框>||:<color=#00CCFF>Understood. </color>
+M1928A1(0)<Speaker>Thompson</Speaker>||<SE1>AVG_tele_disconnect</SE1>:Tonight's entertainment is about to begin. I'll go look over there, you keep watch.
+WA2000(0)<Speaker>WA2000</Speaker>||:Got it.
+()||<黑屏1>:Thompson hurries off. At the same time, WA2000's carefully-composed emails are sent out to various recipients.
+()||<黑屏2><BIN>1</BIN><Night>:...In the woods near the base, several figures on motorbikes race back to the base at eye-watering speeds.
+M1928A1(0)<Speaker>Thompson</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Thompson hailing FlashDel Squad. </color>
+NTW20Mod(0)<Speaker>NTW-20</Speaker>;M1928A1(0)<通讯框>||:FlashDel Squad leader NTW here.
+NTW20Mod(0);M1928A1(0)<Speaker>Thompson</Speaker><通讯框>||:<color=#00CCFF>The target started moving ahead of schedule. Can you move up your return to base?</color>
+NTW20Mod(0)<Speaker>NTW-20</Speaker>;M1928A1(0)<通讯框>||:Ahead of schedule...? That's unexpected... Understood. We can do it.
+NTW20Mod(0);M1928A1(0)<Speaker>Thompson</Speaker><通讯框>||<SE1>AVG_tele_disconnect</SE1>:<color=#00CCFF>Roger. </color>
+NTW20Mod(0)<Speaker>NTW-20</Speaker>||:Hailing Grizzly, hailing Spitfire. They're moving the plan up. We're going to pick up the pace.
+Grizzly(0)<Speaker>Grizzly</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Received, I'll be at the kitchen's back door in seven seconds. </color>
+Spitfire(0)<Speaker>Spitfire</Speaker><通讯框>||:<color=#00CCFF>Big Sis 75 and I will be right behind you. </color>
+NTW20Mod(0)<Speaker>NTW-20</Speaker>||<SE1>AVG_tele_disconnect</SE1>:Alright, see you at the next check-in.
+()||<黑屏1>:NTW-20 hangs up and double-checks the positions of her friends in the rear-view mirror.
+()||<黑屏2><BIN>88</BIN>:...In a dark warehouse, a face illuminated by an LED screen reveals a pained yet savage expression.
+PPK(0)<Speaker>PPK</Speaker>||:Is this what you meant by "special entertainment for tonight only"?
+mp443(0)<Speaker>MP-443</Speaker>||:I only came because I heard there was a large collection of interesting rocks here... 
+Ribeyrolles(0)<Speaker></Speaker>||:Ribeyrolles tiredly reduces the flow rate of her infusion bag.
+WelrodMod(0)<Speaker>Welrod MkII</Speaker>||:Ahem, the other Dolls' schedules were full. +Let's not waste any more time and begin the mission. +Tokarev, I'll leave this side to you. I'll be right back!
+TT33(0)<Speaker>Tokarev</Speaker>||:Roger!
+()||:Welrod hurriedly leaves the warehouse. The remaining Dolls start drifting off immediately soon after.
+PPK(0)<Speaker>PPK</Speaker>||:I'll leave this place to you then, Tokarev. ♪
+TT33(0)<Speaker>Tokarev</Speaker>||:Wait a minute, where are you go—
+()||<SE1>AVG_20Winter_Door_Open</SE1>:The warehouse door opens... 
+()||<SE2>Gunfight</SE2>:Bangbangbang! +The tongues of fire from a submachine gun at close range illuminates the Dolls' faces again.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Ha, is the mission over already?
+()||<SE1>AVG_20Winter_Door_Close</SE1><黑屏1>:The warehouse door closes with a crisp sound.
+()||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:The time now is 2255. +After checking that she's saved and backed up her work twice, Helian prepares to leave the office.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:If I can get a little more done tomorrow morning, I'll be able to make a report to Mr. Kryuger. +Wait a minute, isn't today—
+NPC-Helian(0)<Speaker></Speaker>||<黑屏1>:Helian's eyes fall on the big red circled date on the calendar.
+()||<BIN>18</BIN><黑屏2><Night><BGM>m_avg_casual</BGM>:...In front of Kryuger's office.
+WA2000(0)<Speaker>WA2000</Speaker>||:Attention, target is about to leave the office, are you all gathered at the main hall yet?
+MLEMK1(0)<Speaker>Lee Enfield</Speaker><通讯框>||:<color=#00CCFF>Received. </color>
+98k(0)<Speaker>Kar98k</Speaker><通讯框>||:<color=#00CCFF>We're all assembled at the hall. </color>
+WA2000(0)<Speaker>WA2000</Speaker>||:Good, I'll hurry over now.
+()||<黑屏1>:WA2000 runs into the night.
+Grizzly(0)<Speaker>Grizzly</Speaker><通讯框>||<黑屏2><BIN>1</BIN><Night>:<color=#00CCFF>I'm bringing the squad to meet up at the main hall entrance. </color>
+NTW20Mod(0)<Speaker>NTW-20</Speaker>||:Roger. +Hailing Spitfire and CZ, are you there yet?
+Spitfire(0)<Speaker>Spitfire</Speaker><通讯框>||:<color=#00CCFF>We had to make a detour to pick up the goods, we'll be there right away. </color>
+()||<SE1>AVG_brake</SE1>:The screech of braking tires echoes through the silent forest.
+CZ75(0)<Speaker>CZ75</Speaker>||:We're here, let's go!
+NTW20Mod(0)<Speaker>NTW-20</Speaker>||:Took you long enough, and what are all these traffic tickets...?
+CZ75(0)<Speaker>CZ75</Speaker><Shake>||<黑屏1>:Don't ask, let's go!
+()||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:The time now is 2259, and Helian has reached the office door.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Today is a day worth celebrating, should I order a cake or something...?
+()||<SE1>AVG_21Winter_Clock</SE1><黑屏1>:Helian smiles and looks through the cake shop's catalog. +The second hand marches on mercilessly... +56, 57, 58, 59... 
+()||<SE1>Explode</SE1><黑屏2><BIN>9</BIN><CGDelay>3</CGDelay>:Boom—
+()||:Helian blinks, but all she sees is endless darkness.
+()<Speaker>Helian</Speaker>||:What's wrong...? Is there a power outage? +... 
+()||<BGM>GF_21summer_avg_Demon</BGM>:Helian reaches out to where her computer should be, but all she feels is a coarse, cold masonry.
+()<Speaker>Helian</Speaker>||:What's this... It feels like...A broken wall?
+()||:Helian keys up her tablet's flashlight. +In its harsh radiance, she sees the ceiling and the internal cross-section of a wall intersecting with each other like a dog's teeth. +Meanwhile, she is lying in the hollow created by several collapsed walls propping each other up. +Sandy debris falls on her face from time to time, reminding her that this is not a safe place.
+NPC-Helian(3)<Speaker>Helian</Speaker>||:... +Calm down, Helian. +There are several hundred Dolls out there waiting for you to lead them... 
+()||:Helian tries to turn on her command tablet, but the shattered screen has rendered it pretty much useless, and regardless of how Helian smacks it, it refuses to execute her commands.
+NPC-Helian(3)<Speaker>Helian</Speaker>||:Don't panic, take a deep breath... . +The base just got blown up, it's not even the first time, there's nothing to be afraid of... 
+()||:With great difficulty, Helian manages to sit up in the cramped confines of the hollow. +As the senses return to her numb body, a rush of pain washes over her.
+NPC-Helian(1)<Speaker>Helian</Speaker>||:Multiple abrasions and a left forearm fracture. Full extent of other injuries unknown. +I can move, at least, so it could've been worse. +... 
+()||:Helian surveys the walls that are trapping her. There are no holes she can crawl through and no rubble which she can lift by herself. +She takes a deep breath, and the tablet's flashlight starts flickering... 
+NPC-Helian(3)<Speaker>Helian</Speaker><Shake>||:Oh no, please... 
+()||:Once again, she is plunged into darkness.
+()<Speaker>Helian</Speaker>||:... 
+()||:The loss of sight leads to sharpened hearing. +Perhaps she is imagining things, but Helian can clearly make out the sound of scraping on the wall, and it is getting louder.
+()<Speaker>Helian</Speaker>||:If this really is my last day... +No, I'm a mature woman, I can't go all weepy in the face of danger... 
+()<Speaker>???</Speaker>||:Helian!
+()<Speaker>Helian</Speaker>||:...Mr. Kryuger? +Mr. Kryuger! I'm here! I'm over here!
+()<Speaker>Kryuger</Speaker>||:I can hear you. Don't worry, we've come to rescue you.
+()<Speaker>Helian</Speaker>||:O-okay... 
+()||<黑屏1>:Helian suddenly realizes that this is the second time she has cried ever since she entered Griffin. +The wall segment is carefully removed, and the familiar faces of the Dolls appear before her eyes.
+M1928A1(0)<Speaker>Thompson</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>398</BIN><火花>:We got you, Miss Helian.
+MAC10(0)<Speaker>Ingram</Speaker>||:Give me your hand.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Thank you, Thompson, Ingram.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Are you hurt?
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Nothing too serious.
+()||<BGM>GF_21summer_battle_3</BGM>:Kryuger hands a brand new tactical tablet to Helian.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Sorry, Helian, but there's no time for you to rest. +Our base has come under heavy bombardment and comms are down. +Judging by the method, I have the feeling that Carter's behind this.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Kyruger(0)||:General Carter... Wasn't he already... 
+NPC-Helian(0);NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:We don't have time to think about that. +There are enemies approaching the entrance, I'm taking the Frontline Combat Team to plug the opening.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:You need to stay behind and initiate our emergency defense plan and make preparations to withdraw. If our defense can't hold, carry out the emergency retreat plan immediately.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Kyruger(0)||:Understood, leave it to me.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Thompson, put a few squads together and come with me.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Got it. Ingram, take care of Miss Helian.
+MAC10(0)<Speaker>Ingram</Speaker>||:No problem. I won't let those scum harm a hair on Miss Helian's head even if they shoot me to bits.
+()||<SE1>Select</SE1>:Kryuger nods solemnly to Helian, then he flicks his handgun's safety off and walks into the darkness outside. +After performing emergency treatment on her broken forearm, Helian immediately begins commanding the Dolls with her tablet.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:All Dolls who can still move, listen up. +GSh-18, form a rescue team and perform first aid on our damaged Dolls to bolster our numbers. +NTW-20, organize two squads. One will break through the signal blockade and restore comms while the other will attempt to outflank the enemy and get messages outside. +Welrod, organize several squads to transport our vital resources and destroy dangerous items. +Reply immediately once you have your assignments and report your status once every 15 minutes.
+()||:After finishing the preliminary deployments, Helian is about to move to a safer palace when she realizes Kryuger is still standing at the doorway.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Mr. Kryuger?
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I came to give you a gun to protect yourself.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Thank you.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I'll leave my back to you, then.
+()||:Helian smiles and executes a picture-perfect salute.
+NPC-Helian(0)<Speaker>Helian</Speaker>||<黑屏1>:You can always count on me, Mr. Kryuger.

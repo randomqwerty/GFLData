@@ -1,77 +1,77 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2>><BIN>222</BIN><BGM>BGM_Brain</BGM>:……机场仓库，在铁血的援助下，指挥官成功击退了帕拉蒂斯。
-AR15Mod(0)<Speaker>AR15</Speaker>||:啧，果然只是个陷阱，它们甚至连安洁都没有带过来。
-()<Speaker>指挥官</Speaker>||:……
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:别着急，指挥官，安洁可不是那么容易搞定的。
-()<Speaker>指挥官</Speaker>||:我知道，先解决我们目前的困境吧。
-()||<SE1>RunStep</SE1>:海拜尔气喘吁吁地跑来。
-()<Speaker>指挥官</Speaker>||:怎么了？
-KH2002(0)<Speaker>海拜尔</Speaker>||:指挥官……我刚刚收到了很糟糕的消息……
-()<Speaker>指挥官</Speaker>||:发生什么了？
-KH2002(0)<Speaker>海拜尔</Speaker>||:我……不知道该怎么说……+指挥官你还是亲自上网看看吧……
-()||:手指莫名地颤抖起来，指挥官打开了新闻。+“最新消息！苏联的多个军事承包商基地遭到了火箭炮轰炸……”
-()<Speaker>指挥官</Speaker>||<黑屏1>:……
-()||<SE1>AVG_Explo_Close</SE1><黑屏2><BIN>183</BIN>:脑海中凭空炸开了一个惊雷，指挥官只能看见满目惨白刺眼的光。
-()<Speaker>？？？</Speaker>||<黑屏1>:救救我们……
-BOSS-8(0)<Speaker>代理人</Speaker>||<黑屏2>><BIN>222</BIN>:……
-RO635Mod(0)<Speaker>RO635</Speaker>||:指挥官……
-()<Speaker>指挥官</Speaker>||:她们怎么样了？！
-KH2002(0)<Speaker>KH2002</Speaker>||:我翻遍了所有版块，但是因为遭到了电子封锁，谁也联系不上格里芬基地，也无从知晓内部的情况。
-()<Speaker>指挥官</Speaker>||:我现在就要回去！现在！+海拜尔，立刻安排最近的航班！
-KH2002(0)<Speaker>海拜尔</Speaker>||:是！我已经在联系机务了！+但是因为机场刚刚遭到了毁坏，所以需要一点时间协调……
-()||<黑屏1><BGM>BGM_Empty</BGM>:指挥官怔怔地坐在地上。+明明是安静清凉的机场，指挥官的心中却炙烤着熊熊火焰……
-()||<黑屏2><BIN>415</BIN><BGM>GF_21summer_avg_Reunion</BGM>:……格里芬基地，地下三层，心智储存室。+站在纵横交错排列在一起的心智服务器面前，赫丽安的身影显得渺小又脆弱。
-MAC10(0)<Speaker>MAC10</Speaker>||:这么多……全部储存着我们的数据吗？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:对啊，所以我才说不可能。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……+那就想想办法。
-NPC-Helian(0);NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:以我们目前的人力，实施可能性最高的方案就是把所有数据压缩到一起，然后再进行迁移。+但是这样做的风险有两个风险，一是压缩数据再解压有出现损失数据的可能，二是一旦服务器遭到毁灭，人形们的数据就全完了。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(3)||:不能对数据进行备份吗？
-NPC-Helian(0);NPC-Persica(1)<Speaker>帕斯卡</Speaker>||:你在开什么玩笑，这会哪里来的多余硬盘备份！
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(1)||:……+按你说的做吧。
-NPC-Helian(0);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:你想清楚了吗？这可是整个格里芬基地的记忆……不……
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:这对人形来说可是组成她们最重要的部分……+如果有什么损失的话，会对人形的自我认知造成严重的冲击。
-MAC10(0)<Speaker>MAC10</Speaker>||:……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:想清楚了，你开始动手吧。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:你知道，其实还有另一种方案——+将心智服务器留在这里，我有自信不被那些叛军发现的。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:万一他们直接夷平整个格里芬基地呢？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:以他们现在折腾出来的动静，绝不只是小打小闹。+我甚至认为，这只是个开始。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:既然你已经决定了，那我就去做准备工作了。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:交给你了。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:这位……嗯……粗犷的人形小姐，麻烦来帮把手。
-MAC10(0)<Speaker>MAC10</Speaker>||:收到。
-()||<SE1>AVG_tele_connect</SE1>:赫丽安的通讯器响起。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>赫丽安，我正带着人形们过来，等我们到了就护送心智服务器撤走。</color>
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Kyruger(0)<通讯框>||:明白，可是我们该往哪里走？
-NPC-Helian(0);NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>我们无法正面应对敌人的攻势，只能暂时向下避开了。</color>
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Kyruger(0)<通讯框>||:再向下……就没有路了……
-NPC-Helian(0);NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>我们已经没有选择了。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>别担心，赫丽安，就算是绝路，我们也一定能想办法突破的。</color>
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……好，我知道了。
-()||<SE1>AVG_tele_disconnect</SE1>:赫丽安挂断了通讯。+因为接连不断的爆炸，天花板抖动不停，赫丽安用手擦去粘在服务器表面的灰尘。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<黑屏1>:只要大家还在，走到哪里，都是格里芬基地。
-()||<BIN>394</BIN><黑屏2><BGM>BGM_Empty</BGM><火花>:……宿舍，克鲁格将所有幸存人形汇聚在了一起。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||<BGM>10258</BGM>:现在，我们重新清点人数，分配队伍。
-()||:人形们有序地排列起来开始报数。+随着报数的进行，克鲁格的脸色也渐渐肃穆了起来。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:……+后面的人形，继续报数！
-()||:脸色惨淡的人形们互相望了望，都没有再开口。
-M1928A1(0)<Speaker>汤姆森</Speaker>||:只剩我们了，克鲁格先生。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:……
-()||:漫长的沉默。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我知道了。+所有的人形依据受创程度分批去GSH18那里进行紧急维修。+休整二十分钟后，出发。
-M1928A1(0)<Speaker>汤姆森</Speaker>||:收到。
-WA2000(0)<Speaker>WA2000</Speaker>||:之后呢，克鲁格先生，我们接下来的作战计划是什么？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:护送心智服务器到基地最底层等待救援。+这将是一场更为艰难的战斗，大家做好准备。+我不是个擅长用谎话哄骗下属的人，我只会直截了当地告诉你们——+这几乎是个无法完成的任务。
-()||:人形们苍白的脸上增添了几分凄凉。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我们已经遭受了极其惨重的伤亡，接下来，还会有更惨重的等待着我们。+而我们胜利的唯一希望就是将心智服务器完好地送出去。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:成功的话，在座的各位，以及那些已经牺牲的人形们，都能再次回来。+失败的话，格里芬基地将不再存在。
-M14Mod(0)<Speaker>M14</Speaker><Shake>||:我们……不再存在……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我曾经服过多年兵役，坦白来说，这不是我遭遇过的最绝望的战斗，甚至无法跻身前三。+放在以前，我现在应该开始教你们如何应对这种情况了。+但是现在，我知道你们已经经历过比这更为绝望黑暗的时刻了。+而指挥官带着你们，一步一步，踏着同伴和敌人的尸体，从深渊里爬了出来。
-()||:失去色彩的眼睛开始有了微弱的光亮。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:对于真正经历过绝望的你们，我只需要说到这里。
-()||:重新做好整备的人形们纷纷站了起来。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:在出发之前，你们还有什么问题吗？
-()||:寂静的人群中，一只纤细的手臂举了起来。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:托卡列夫，你还有什么不清楚的吗？
-TT33(0)<Speaker>托卡列夫</Speaker>||:我们什么时候才可以不再战斗，不再有流血和牺牲？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||<黑点1>:……+抱歉，托卡列夫。+“只有死者才能看到战争的终结。”
+()||<黑屏2>><BIN>222</BIN><BGM>BGM_Brain</BGM>:...At the airport warehouse, the Commander successfully repels Paradeus' assault with Sangvis Ferri's help.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Tsk, it really was a trap. They didn't even bring Ange.
+()<Speaker>Commander</Speaker>||:... 
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Don't panic, Commander. Ange won't go without putting up a fight.
+()<Speaker>Commander</Speaker>||:I know. Let's get ourselves out of this sticky situation first.
+()||<SE1>RunStep</SE1>:Khaybar runs over while panting heavily.
+()<Speaker>Commander</Speaker>||:What is it?
+KH2002(0)<Speaker>Khaybar</Speaker>||:Commander... I just received some terrible news... 
+()<Speaker>Commander</Speaker>||:What happened?
+KH2002(0)<Speaker>Khaybar</Speaker>||:I...Don't know how to tell you... +You'd better see for yourself... 
+()||:The Commander's hands start trembling inexplicably as they bring up the news. +"Breaking news! Multiple PMC bases came under artillery bombardment in the Neo-Soviet Union..."
+()<Speaker>Commander</Speaker>||<黑屏1>:... 
+()||<SE1>AVG_Explo_Close</SE1><黑屏2><BIN>183</BIN>:The Commander's mind goes blank. All they can see is a blinding white light.
+()<Speaker>???</Speaker>||<黑屏1>:Save us... 
+BOSS-8(0)<Speaker>Agent</Speaker>||<黑屏2>><BIN>222</BIN>:... 
+RO635Mod(0)<Speaker>RO635</Speaker>||:Commander... 
+()<Speaker>Commander</Speaker>||:What happened to the Dolls?!
+KH2002(0)<Speaker>KH2002</Speaker>||:I looked through all the reports, but no one has been able to contact the Griffin base because of an electronic blockade. We don't know what's happening in there.
+()<Speaker>Commander</Speaker>||:I need to go back! Right now! +Khaybar, get me the next flight!
+KH2002(0)<Speaker>Khaybar</Speaker>||:Yes, Commander! I'm already contacting the airport staff! +However, due to the most recent destruction to airport facilities, it will take them some time to make the arrangements... 
+()||<黑屏1><BGM>BGM_Empty</BGM>:The Commander crumples into a sitting position on the ground in a daze. +The airport is actually quite chilly, but a roaring fire is burning in their heart... 
+()||<黑屏2><BIN>415</BIN><BGM>GF_21summer_avg_Reunion</BGM>:...Neural Cloud Storage Room, Basement 3, Griffin Base. +Standing in front of the crisscrossed network that is the neural cloud servers, Helian looks both small and frail.
+MAC10(0)<Speaker>Ingram</Speaker>||:So many... Is our data all stored within them?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:You see? That's why I told you it's impossible.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:... +Then think of a way to make it possible.
+NPC-Helian(0);NPC-Persica(3)<Speaker>Persica</Speaker>||:With our current manpower, the most feasible solution would be to compress all the data into a single storage unit before transport. +However, this comes with two risks. Firstly, there's a possibility that some data will be lost during decompression. Secondly, if the storage unit is destroyed, all our Dolls' data will be lost.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(3)||:Can't we back up the data?
+NPC-Helian(0);NPC-Persica(1)<Speaker>Persica</Speaker>||:You've got to be kidding me. Where am I supposed to find enough spare hard drives to do that?!
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(1)||:... +We'll do it your way.
+NPC-Helian(0);NPC-Persica(0)<Speaker>Persica</Speaker>||:Are you absolutely sure? This is the memory of the entire Griffin base... No... 
+NPC-Persica(3)<Speaker>Persica</Speaker>||:For the Dolls, this is their most essential component... +The slightest damage to the data could have a serious impact on their self-concept.
+MAC10(0)<Speaker>Ingram</Speaker>||:... 
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Yes, I'm sure. Get started.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:You know, there's actually another solution. +We leave the neural cloud server right here. I'm confident that the insurgents won't find them.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:What if they just level the entire Griffin base?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:... 
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Judging by the commotion they've caused so far, this isn't going to be a small-scale attack. +I think...This is just the beginning.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:Since you've already made the decision, I'll start making the preparations.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Then please.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:You... Yes, you, rugged Doll. Come and give me a hand.
+MAC10(0)<Speaker>Ingram</Speaker>||:Sure.
+()||<SE1>AVG_tele_connect</SE1>:Helian's communicator chirps to life.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>Helian, I'm leading the Dolls over to regroup with you. When we're there, we'll escort our neural cloud servers and evacuate.</color>
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Kyruger(0)<通讯框>||:Understood. But where are we supposed to go?
+NPC-Helian(0);NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>We can't confront the enemy's assault head-on, so we must go downward to evade them.</color>
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Kyruger(0)<通讯框>||:Downward... But we'll be fencing ourselves in... 
+NPC-Helian(0);NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>We don't have a choice.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker><通讯框>||:<color=#00CCFF>Don't worry, Helian. Even if it's a dead end, we'll definitely think of a way out.</color>
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...Alright, I understand.
+()||<SE1>AVG_tele_disconnect</SE1>:Helian ends the call. +The ceiling quakes due to the relentless explosions. Helian wipes away the dust stuck to the surface of the neural cloud servers.
+NPC-Helian(0)<Speaker>Helian</Speaker>||<黑屏1>:As long as we still have everyone, we will have a Griffin base no matter where we go.
+()||<BIN>394</BIN><黑屏2><BGM>BGM_Empty</BGM><火花>:...In the dormitory, Kryuger has assembled all the surviving Dolls.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||<BGM>10258</BGM>:Now let's do another headcount and reorganize our teams.
+()||:The T-Dolls line up in an orderly fashion and starts counting off one by one. +Kryuger's face grows increasingly grim as the process continues.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:... +Dolls in the back, keep going!
+()||:The Dolls look at each other in wordless dismay.
+M1928A1(0)<Speaker>Thompson</Speaker>||:That was the last of us, Mr. Kryuger.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:... 
+()||:There is a long silence.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I see. +All of you, take turns to undergo emergency repairs at GSh-18's. Let the more heavily damaged Dolls go first. +Rest and prepare for our operation in the meantime. We're setting off in 20 minutes.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Roger.
+WA2000(0)<Speaker>WA2000</Speaker>||:What next, Mr. Kryuger? What's our operation plan?
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Escort the neural cloud servers to the bottom level and await rescue. +This is going to be a very difficult battle. You must be prepared for that. +I'm not one to give out false reassurances. I'll just give it to you straight— +This mission is practically impossible.
+()||:The Dolls' pale faces look even more dejected.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:We have already suffered terrible casualties, but more suffering awaits us. +Our only hope for victory is to deliver the neural cloud servers to safety.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:If we succeed, then all of you, as well as the Dolls who have perished, will return. +If we fail, the Griffin base will cease to exist.
+M14Mod(0)<Speaker>M14</Speaker><Shake>||:We'll... cease to exist... 
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:In all my years of military service, frankly speaking, this isn't the bleakest battle I've encountered—it's not even the second or third. +In the past, I would've started lecturing you on how to deal with this kind of situation. +But now, I know that you have already experienced even darker moments. +And the Commander has led you all out of the abyss one step at a time, by treading on the corpses of your friends and foes.
+()||:A faint glimmer returns to the dispirited eyes.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:To all of you, who have already experienced true despair, this is all I have to say.
+()||:The Dolls are now ready and getting back to their feet one after the other.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Any more questions before we set off?
+()||:A slender arm is raised amid the silent group.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Tokarev, what can I clarify for you?
+TT33(0)<Speaker>Tokarev</Speaker>||:When will we be able to put all this bloodshed and strife behind us?
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||<黑点1>:... +I'm sorry, Tokarev. +"Only the dead have seen the end of the war."

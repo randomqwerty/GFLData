@@ -1,53 +1,53 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>97</BIN><BGM>BGM_Hello</BGM>:明媚的阳光开启了格里芬基地寻常的一天。+匆忙的脚步声打破了这份宁静……
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||：嗨~MG4，可算找到你了！
-MG4(0)<Speaker>MG4</Speaker>;NPC-Kalin(1)||:是格林娜小姐啊……有什么事吗？
-MG4(0);NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:不用这么客气，最近在计划新一批改造，名单上有你哟。+可以思考下需求，有什么想要的和指挥官提就行了。
-MG4(0)<Speaker>MG4</Speaker>;NPC-Kalin(1)||:……改造……我没什么需求。+按照指挥官的想法来就行，我都可以的。
-MG4(0);NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:诶？这件事也不着急，你可以慢慢想。+或者跟关系好的人形们商量一下？说不定能得到一些有意思的建议。
-MG4(0)<Speaker>MG4</Speaker>;NPC-Kalin(1)||:关系好的……人形？嗯……我明白了。
-MG4(0)<Speaker>MG4</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#A9A9A9>哎，关系好……没有讨厌我的人形就不错了。</color>
-()||<黑屏2><BIN>82</BIN>:推开宿舍的门，等候在一角的专属小嘟瞬间亮起。
-NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||：小嘟上线！+亲爱的MG4，欢迎回家~
-()||:MG4瘫倒在沙发上，招呼着小嘟到身边来。
-MG4(0)<Speaker>MG4</Speaker>||:小嘟~你觉得大家会喜欢什么样的人形啊？
-MG4(0);NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||:MG4喜欢的话，大家就都会喜欢的！
-MG4(0)<Speaker>MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:那为什么明明我跟大家一样都是按制式设计的，却没有她们那么受欢迎啊？
-MG4(0);NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||:小嘟最喜欢MG4了！
-MG4(0)<Speaker>MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:你觉得我应该怎么跟其他人形相处呢？
-NPC_Cheeringteam(0)<Speaker>MG4的专属小嘟</Speaker><Position>0,150</Position>||:他们都会主动来跟MG4相处的！
-MG4(0)<Speaker>MG4</Speaker>||<黑屏1>:你现在真是越来越不智能了！我要找客服给你换个AI回复。+算了，还是我自己先搜搜看吧。
-()||<黑屏2><BGM>BGM_Hello</BGM><BIN>82</BIN>:欢迎来到16LAB研究院娱乐版，这里可以交流有关人形的一切。
-()<Speaker>MG4</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:输入——如何与人形相处——+1、2、3……一百多页！原来大家都有类似的烦恼……
-MG4(0)<Speaker>MG4</Speaker>||:要点1、2、3、4……嗯嗯，全部记下来！+注意事项……两百个交际小妙招——
-()<Speaker>MG4</Speaker>||:和朋友们一起去玩危险性游戏——+最好是超强刺激的，能暂时忘却自己身份的活动……
-MG4(0)<Speaker>MG4</Speaker>||:参考案例：过山车、鬼屋、海盗船……好像都是不错的选择。+给……给谁通讯会比较好？
-MG4(0)<Speaker>MG4</Speaker>||:<color=#A9A9A9>我来邀请的话，她对我的印象……会变好吗？</color>+先，先鼓起勇气随机找一个人……
-MG4(0)||:嘟嘟嘟……
-MG4(0)<Speaker>MG4</Speaker>||<BGM>BGM_Empty</BGM>:啊——对方是特别认真的M60，她会不会觉得出去玩浪费她时间啊？
-MG4(0)||:嘟嘟嘟……
-MG4(0)<Speaker>MG4</Speaker>||:怎么还不接……莫、莫非拉黑我了？+不会吧！我，我可什么也没干……
-MG4(0)<Speaker>MG4</Speaker>;M60(0)<Speaker>M60</Speaker><通讯框>||:<color=#00CCFF> 您好，M60正在训练中，有事请留言。</color>
-MG4(0)<Speaker>MG4</Speaker>;M60(0)<通讯框>||:训练啊，那你先忙，我没什么事。
-MG4(0)||:轻轻地挂掉通讯。
-MG4(0)<Speaker>MG4</Speaker>||:呼——感觉松了口气，但是又有点难受……+要不要换个人联系？
-MG4(0)<Speaker>MG4</Speaker>||:<color=#A9A9A9>我，我再随机一个人！</color>
-()||:嘟嘟嘟……
-SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>M……MG4，第一次接到阁下的通讯……是有什么紧急事件吗？我可以马上出门！</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:啊？……没，没有，就是看看你最近那个，过得好不好！+<color=#A9A9A9>可恶，竟然问不出口，啊你最近有没有空啊……</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>我……我挺好的，过着一名格里芬人形应该过的标准生活。</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:哦，哦那是挺好的！我就是随便问问。那，那你最近有没有什么想法？+<color=#A9A9A9>比如出门一起玩之类的。</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>莫非阁下有什么噩耗要告诉我？请大声说出来吧，我都可以接受。</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:没有啊！我就是突然想联络你……
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>绝无可能，以阁下和我的关系，绝不会无事闲聊。</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:……
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>是指挥官还是其他人形对我有所指教，才烦请阁下转告？</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:不是不是真的不是！对不起你千万别多想，我就是随便联络一下感情。+<color=#A9A9A9>啊啊啊啊太羞耻了！！！</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>请阁下放心说明来意吧！</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:我真的没有来意！+<color=#A9A9A9>怎么办怎么办怎么办啊啊啊我要技术性掉线了！</color>
-MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>什么事情我都能接受的！</color>
-MG4(0)<Speaker>MG4</Speaker>;SIG510(0)<通讯框>||:喂，怎么回事？好像听不见了……
-()<Speaker>MG4</Speaker>;SIG510(0)<Speaker>MG4</Speaker><通讯框>||:信号不好！我，我先挂了！
-()||:……嘟嘟嘟……+SIG-510通讯请求，是否接受？
-MG4(0)<Speaker>MG4</Speaker>||:立刻把通讯挂断！+<color=#A9A9A9>呜呜呜，约人太难了，我还是自己去吧。</color>
-()||<黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>97</BIN><BGM>BGM_Hello</BGM>:It's another normal, sunny day at the Griffin base. +But the tranquility is interrupted by a set of hurried footsteps...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Hey, MG4~ It took me ages to track you down!
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC-Kalin(1)||:Oh, Miss Kalina... How may I help you?
+MG4(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||:You don't have to be so formal with me. Anyway, we're planning a new batch of neural upgrades, and you're on the list! +So if you have any special requests, just bring it up to the Commander.
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC-Kalin(1)||:...Upgrade? ...I have no special requests. +Just let the Commander decide. I'm alright with anything.
+MG4(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Huh? You don't have to rush to a decision. Just give it some thought. +Why don't you discuss this with some Dolls that you're close to? They may be able give you some interesting advice.
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC-Kalin(1)||:Dolls...that I'm close to? Right... I understand.
+MG4(0)<Speaker>Gr MG4</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#A9A9A9>Close...? I'd count my blessings if no Dolls hated me.</color>
+()||<黑屏2><BIN>82</BIN>:She pushes open the door to her dorm, and her personal Beepo, which has been waiting in the corner, lights up instantly.
+NPC_Cheeringteam(0)<Speaker>Gr MG4's Personal Beepo</Speaker><Position>0,150</Position>||:Beepo online! +Welcome back, dear MG4~
+()||:Gr MG4 lies sprawled on the sofa and Beepo saunters over to her side.
+MG4(0)<Speaker>MG4</Speaker>||:Beepo, what kind of Dolls do you think people like?
+MG4(0);NPC_Cheeringteam(0)<Speaker>Gr MG4's Personal Beepo</Speaker><Position>0,150</Position>||:I'm sure people will like whatever you like!
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:I was designed as a general-purpose firearm just like everyone else, so why am I not as popular as the others?
+MG4(0);NPC_Cheeringteam(0)<Speaker>Gr MG4's Personal Beepo</Speaker><Position>0,150</Position>||:Beepo loves MG4!
+MG4(0)<Speaker>Gr MG4</Speaker>;NPC_Cheeringteam(0)<Position>0,150</Position>||:How do you think I should get along with the other Dolls?
+NPC_Cheeringteam(0)<Speaker>Gr MG4's Personal Beepo</Speaker><Position>0,150</Position>||:They will all come and hang out with you!
+MG4(0)<Speaker>Gr MG4</Speaker>||<黑屏1>:You're getting dumber! I'm going to ask customer service for an AI replacement. +Ugh, nevermind. I'll just try to look up the answer myself.
+()||<黑屏2><BGM>BGM_Hello</BGM><BIN>82</BIN>:Welcome to 16LAB Entertainment, where you can talk about all things T-Dolls.
+()<Speaker>Gr MG4</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Search... How to get along with Dolls. +1, 2, 3... There are over 100 pages! So everyone has similar problems...
+MG4(0)<Speaker>Gr MG4</Speaker>||:Point number 1, 2, 3, 4... Right, I've jotted down everything! +Things to watch out for... 200 Socializing Tips...
+()<Speaker>Gr MG4</Speaker>||:Play some dangerous games with friends... +Activities that pump you full of adrenaline and make you forget about yourself tend to work best...
+MG4(0)<Speaker>Gr MG4</Speaker>||:Examples include: roller coasters, haunted houses, pirate ships... They all seem like pretty good ideas. +Who...who should I call?
+MG4(0)<Speaker>Gr MG4</Speaker>||:<color=#A9A9A9>If I take the initiative to invite people, I'll make a good impression...?</color> +Then...then let me just pull myself together and randomly call someone...
+MG4(0)||:(Dial tone)
+MG4(0)<Speaker>Gr MG4</Speaker>||<BGM>BGM_Empty</BGM>:Oh, it's M60. She's a very serious Doll, will she find this a waste of time?
+MG4(0)||:(Dial tone)
+MG4(0)<Speaker>Gr MG4</Speaker>||:Why isn't she picking up...? D-Did she block me? +That can't be right! I-I haven't done anything, have I...?
+MG4(0)<Speaker>Gr MG4</Speaker>;M60(0)<Speaker>M60</Speaker><通讯框>||:<color=#00CCFF> Hello, this is M60. I am currently in the middle of a training session. Please leave a message.</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;M60(0)<通讯框>||:Oh, you're training. Then don't worry about it, it's nothing important.
+MG4(0)||:Gr MG4 hangs up lightly.
+MG4(0)<Speaker>Gr MG4</Speaker>||:Phew... That was a relief, but it's also a bit disappointing... +Should I try someone else?
+MG4(0)<Speaker>Gr MG4</Speaker>||:<color=#A9A9A9>I-I'll give it another go!</color>
+()||:(Dial tone)
+SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>Gr...MG4, I have never received a call from you... Is there an emergency? I can set off right away!</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:Huh? ...N-No, I'm just wondering, uh, if you've been doing alright lately! +<color=#A9A9A9>Dammit, I can't bring myself to ask her if she's free...</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>I...I've been well, living the life of an ordinary Griffin T-Doll.</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:O-Oh, that's nice! Yeah, I was just wondering. Then um, um... Have you had any...thoughts lately? +<color=#A9A9A9>Such as going out to do something fun.</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>Do you have some bad news for me? Please just give it to me straight. I can take it.</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:No! I just suddenly want to talk to you...
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>That's impossible. We aren't on such close terms that you'd call me just to talk out of the blue.</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:...
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>Did the Commander or some other Doll have any complaints about me? Please tell me what I have done wrong.</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:No, no, you've got it all wrong! It really isn't what you think! I just want a casual chat! +<color=#A9A9A9>Aaaaaaaaargh this is so embarrassing!!!</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>You don't have to spare my feelings. Please just get to the point!</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:There's really no point to get to! +<color=#A9A9A9>What should I do what should I do what should I do what should I do aaaaaargh I'm gonna short out!</color>
+MG4(0);SIG510(0)<Speaker>SIG-510</Speaker><通讯框>||:<color=#00CCFF>Just say it! I can take it!</color>
+MG4(0)<Speaker>Gr MG4</Speaker>;SIG510(0)<通讯框>||:Hey, what's going on? I can't hear you...
+()<Speaker>Gr MG4</Speaker>;SIG510(0)<Speaker>Gr MG4</Speaker><通讯框>||:I'm having really bad reception! I-I'm hanging up!
+()||:...Beep, beep, beep... +Incoming comms request from SIG-510. Accept call?
+MG4(0)<Speaker>Gr MG4</Speaker>||:No, disconnect right now! +<color=#A9A9A9>Ughhh, this is too hard. I'll just go on my own.</color>
+()||<黑屏1><BGM>BGM_Empty</BGM>:

@@ -1,112 +1,112 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:德国 柏林 国安局
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:The Ministry of State Security, Berlin, Germany.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>158</BIN><BGM>BGM_Truth</BGM><黑屏2>:身为斯塔西高级特工，J从来没想过，有朝一日自己会坐在被审讯的椅子上。
-NPC-Romy(0)<Speaker>？？？</Speaker>||:那么。+你知道，擅闯斯塔西的封锁代表什么吗？
-NPC-Keven(5)<Speaker>J</Speaker>||:……
-()<Speaker></Speaker>||:——罗密•蕾芬斯塔尔。+斯塔西的新任主管，换言之，是J的现任上司。
-NPC-Keven(5)<Speaker>J</Speaker>||:我没有叛国。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Keven(5)||:判断这件事的人是我，凯文探员。
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:我到柏林来的工作，就是全面配合安洁莉娅的调查。+同时，在那里阵亡的特工莱特是我的后辈，所以我想亲自调查案件真相。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Keven(5)||:你没有调查权限。
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:我是特工，特工的职责是追查真相，维护国家安全。+我判断这件事有可能危害国家安全，所以就行动了。
-NPC-Romy(3)<Speaker>罗密</Speaker>;NPC-Keven(5)||:你觉得你的判断大过一切，而其他人都是白痴？+你以为你是谁？
-NPC-Romy(3);NPC-Keven(5)<Speaker>J</Speaker>||:……
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Keven(5)||:你之前提交过很多次调查申请。+但我应该很清楚地告诉过你，那里已经没有调查价值了。
-NPC-Romy(0);NPC-Keven(4)<Speaker>J</Speaker>||:……七个特工在那里阵亡，你却说现场缺乏调查价值。+就算你是主管，也不过只是个新来的，毫无理由地下这种判断。+谁能信服？根本没人能——
-NPC-Romy(0)<Speaker>罗密</Speaker>||:够了。
-()<Speaker></Speaker>||:罗密打断了J的辩白，从证物箱内取出了J从洋房内带出的药瓶。
-NPC-Romy(0)<Speaker>罗密</Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:这是什么？
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:……你看了还不明白吗？
-NPC-Romy(3)<Speaker>罗密</Speaker>;NPC-Keven(5)||:这是什么？
-NPC-Romy(3);NPC-Keven(5)<Speaker>J</Speaker>||:……我在现场找到的。+药瓶上面的标志应该是迦拉提亚集团的徽记。+但是，目前市面上从未出现过这样的包装。+只能认为是未发行的试验品，这种东西只有内部人员才拿得到。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Keven(5)||:所以呢？
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:这证明当时肯定有迦拉提亚的人员在场。
-NPC-Romy(3)<Speaker>罗密</Speaker>;NPC-Keven(5)||:蠢货。
-NPC-Romy(3);NPC-Keven(5)<Speaker>J</Speaker>||:……什么？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:这什么都证明不了。
-()<Speaker></Speaker>||:罗密兴致缺缺地将药瓶放到了一边。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:只不过是个药瓶，它出现在那里的理由可以有无数个。+你只是一厢情愿地选了你最想要的，但可能性最小的那个。
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:根本不是那样……
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Keven(5)||:这些就是你擅自行动的理由了吗？
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:……我只是完全不能认可，如此轻易地放弃跟进调查的决定而已。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Keven(5)||:还不轮到你来质疑我的决定。
-NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:你的决定就是，枉顾牺牲的同僚。+并对造成这一切的凶手不管不问？
-NPC-Romy(3)<Speaker>罗密</Speaker>;NPC-Keven(5)||:……看样子，你并不珍惜这份工作呢。
-NPC-Keven(5)<Speaker>J</Speaker>||:……！
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:咚咚。
-()<Speaker>K</Speaker>||:不好意思，打搅一下，主管。+……是我，凯恩•施瓦本。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:……进来吧。
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:面无表情地，K推门而入，对罗密微微躬身。
-NPC-Jason(2)<Speaker>K</Speaker>||:关于迦拉提亚药厂关停的工作，我有最新情况要报告。
-()<Speaker></Speaker>||:罗密看了看K，又看了看仍被束缚在椅子上的J，眼里似乎有些深意。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:她摁动了一下遥控器，解开了J的束缚。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:你可以走了。
-NPC-Keven(0)<Speaker>J</Speaker>||:……这就算完了？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:对，享受你在斯塔西的最后几小时吧。
+()<Speaker></Speaker>||<BIN>158</BIN><BGM>BGM_Truth</BGM><黑屏2>:As a high-ranking member of the Stasi, J never expected to find himself sitting in an interrogation chair one day.
+NPC-Romy(0)<Speaker>???</Speaker>||:Now then. +You know what it means to violate a Stasi lockdown, don't you?
+NPC-Keven(5)<Speaker>J</Speaker>||:... 
+()<Speaker></Speaker>||:—This is Romy Riefenstahl. +She is the new director of the Stasi. In other words, she is J's immediate superior.
+NPC-Keven(5)<Speaker>J</Speaker>||:I am not a traitor to the State.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Keven(5)||:I'll be the judge of that, Agent Kevin.
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:My job in Berlin was to cooperate fully with Angelia's investigation in all ways. +Also, Agent Light, who perished there, was my junior, so I wanted to investigate the matter myself.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Keven(5)||:You were not authorized to do so.
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:I'm an agent, and an agent's job is to pursue the truth and protect the nation. +I acted because I judged that there might be a threat to national safety.
+NPC-Romy(3)<Speaker>Romy</Speaker>;NPC-Keven(5)||:So you think your judgment takes precedence and everyone else is an idiot? +Who the hell do you think you are?
+NPC-Romy(3);NPC-Keven(5)<Speaker>J</Speaker>||:... 
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Keven(5)||:You submitted many requests to mount an investigation before this. +However, I believe I made myself clear when I told you that there is no value in investigating the matter any further.
+NPC-Romy(0);NPC-Keven(4)<Speaker>J</Speaker>||:...Seven agents died there and you say there's no value in looking into it? +Even if you are the Director, you were only recently appointed. There was no basis for making that call. +Who are you trying to convince? Nobody would—
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Enough.
+()<Speaker></Speaker>||:Romy interrupts J's attempt to justify himself and produces the medicine bottle J recovered from an evidence case.
+NPC-Romy(0)<Speaker>Romy</Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:What is this?
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:...Can't you tell?
+NPC-Romy(3)<Speaker>Romy</Speaker>;NPC-Keven(5)||:What is this?
+NPC-Romy(3);NPC-Keven(5)<Speaker>J</Speaker>||:...I found it there, on the scene. +The bottle is labeled with the Galatea Corporation's logo. +But there's no existing product with this packaging on the market. +This leads me to conclude that it's a trial product which has yet to be distributed to the public. Only insiders would have access to it.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Keven(5)||:Which means?
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:This proves Galatea personnel were present at the scene.
+NPC-Romy(3)<Speaker>Romy</Speaker>;NPC-Keven(5)||:You idiot.
+NPC-Romy(3);NPC-Keven(5)<Speaker>J</Speaker>||:...Say what?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:It proves nothing.
+()<Speaker></Speaker>||:Romy puts the bottle aside disinterestedly.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:It's just a bottle of medicine. There are countless reasons why it could have ended up there. +You simply chose the one that suits your narrative the best but is the least likely to be true.
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:But that's not it at all... 
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Keven(5)||:Is that the reason why you took matters into your own hands?
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:...I simply could not agree with giving up on the investigation so easily.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Keven(5)||:It is not your place to question my decisions.
+NPC-Romy(0);NPC-Keven(5)<Speaker>J</Speaker>||:And your decision is to let the deaths of our comrades be in vain? +To ignore the culprit behind all this?
+NPC-Romy(3)<Speaker>Romy</Speaker>;NPC-Keven(5)||:...It looks like you don't value your job much.
+NPC-Keven(5)<Speaker>J</Speaker>||:...!
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock knock.
+()<Speaker>K</Speaker>||:Pardon the intrusion, Director. +...It's me, Kain Schwaben.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:...Enter.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:K pushes the door open and enters the room, his face carefully blank. He inclines in a slight bow to Romy.
+NPC-Jason(2)<Speaker>K</Speaker>||:I have new information to report regarding the closure of the Galatea pharmaceutical plants.
+()<Speaker></Speaker>||:Romy looks at K, then at J, who is bound to the chair. Her eyes flash with some kind of understanding.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:She presses a button on a remote control and loosens J's bonds.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:You may go.
+NPC-Keven(0)<Speaker>J</Speaker>||:...That's it?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Yes. Enjoy your last few hours in the Stasi.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>417</BIN><SE1>ClothingUp</SE1>:工位前，J正在收拾自己的东西。
-NPC-Jason(2)<Speaker>K</Speaker>||:凯文，我有话要跟你说……+你在做什么？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:埋头于纸箱的J抬起了脑袋。
-NPC-Keven(0)<Speaker>J</Speaker>||:我在迈出度假计划的第一步——光荣下岗。+这可是那老妖婆说的。
-SP9(0)<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||:听着J粗鄙的话语，K不由得皱了皱眉。+而此时，J才注意到，他的身后跟着一位从未见过的女性。
-NPC-Jason(4)<Speaker>K</Speaker>||:……成熟点。
-NPC-Keven(5)<Speaker>J</Speaker>||:你觉得我在开玩笑？
-()<Speaker></Speaker>||:J放下手里的东西，将目光移回到K的身上。
-NPC-Jason(4)<Speaker>K</Speaker>||:遇到挫折就撂挑子这种行为非常幼稚，一方面要为莱特报仇，一方面选择离职。+该说你是精神分裂吗？
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(4)||:少来！是我想这样？+不查，你说我幼稚；查，被那女人臭骂——哦，差点忘了，是比骂还狠，直接开除。
-NPC-Jason(4)<Speaker>K</Speaker>||:……
-()<Speaker></Speaker>||:K深吸了一口气，向J靠近了一些。
-NPC-Jason(2)<Speaker>K</Speaker>||:你自己看看周围……空了那么多位置，并不是只针对你一个。+想想哪些人离职，他们又是为什么走？凡事动动脑子。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Jason(2)||:……谁顾得上这个？我现在满脑子都是洋房的事。
-NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker>||:别犯浑了，只有留在斯塔西你才能接着查案子。
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Jason(2)||:……我现在去道歉也没用了吧？
-NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker>||:放心。+她给你安排了新的任务，换言之，没有开除。
-NPC-Keven(0)<Speaker>J</Speaker>||:你……你出卖色相了？
-()<Speaker></Speaker>||:K忍不住翻了个白眼，决定不搭理J的话茬。+他向后让出了一个身位，目光落在始终保持沉默的少女身上。
-SP9(0)<Speaker>？？？</Speaker>||:……
-NPC-Jason(2)<Speaker>K</Speaker>||:我来介绍，这位是莫娜小姐，她是前些日子正式加入斯塔西的战术人形。
-SP9(0)<Speaker>莫娜</Speaker>||:……J探员，请多指教。
-NPC-Keven(0)<Speaker>J</Speaker>;SP9(0)||:长得还挺有鼻子有眼的。
-NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker>||:……这是罗密•蕾芬斯塔尔要求引进的，虽然还只是试验批次。+接下来，就由莫娜带着你一起行动。
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(2)||:我刚没听错吧？到底我是人形她是人形？+她来指挥我？
-NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker>||:这是上级的命令。+斯塔西的特工训练里，没教过你什么是服从吗？
-NPC-Keven(0)<Speaker>J</Speaker>;NPC-Jason(2)||:……+我知道了。
-NPC-Jason(2)<Speaker>K</Speaker>||:任务的事情，就由莫娜来说明吧。
-SP9(0)<Speaker>莫娜</Speaker>||:好的，近期由于迦拉提亚药厂的关停，引起了一些治安问题。+已经接到了柏林警方的消息，有游行群众聚集在了药厂前面。+我们需要立即出发，去阻止可能发生的冲击事件。
-NPC-Keven(5)<Speaker>J</Speaker>||:啧……真是特工的分内事呢。+知道了，我做就是了。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:莫娜点了点头，背过身先行拉开了门。
-NPC-Jason(2)<Speaker>K</Speaker>||:凯文。+这个，你拿着。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:他递了一张纸条给J，上面写着一个联系方式……不是德国境内的。+J将号码记在了脑子里，并将纸条揉碎，随即抬起头看着K。
-NPC-Jason(2)<Speaker>K</Speaker>||:……等有空闲的时候，就打打看吧。+说不定帮得上忙。
-NPC-Keven(5)<Speaker>J</Speaker>||:……好。
+()<Speaker></Speaker>||<黑点2><BIN>417</BIN><SE1>ClothingUp</SE1>:J is at his desk packing up his things.
+NPC-Jason(2)<Speaker>K</Speaker>||:Kevin, I have something to tell you... +What are you doing?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J looks up from the cardboard box he is packing.
+NPC-Keven(0)<Speaker>J</Speaker>||:I'm taking the first step in my vacation plan—a glorious retirement. +So says the old bitch.
+SP9(0)<Speaker>???</Speaker>||:... 
+()<Speaker></Speaker>||:K can't help but frown at the crudity of J's speech. +That's when J notices an unfamiliar girl standing behind K.
+NPC-Jason(4)<Speaker>K</Speaker>||:...Don't be so immature.
+NPC-Keven(5)<Speaker>J</Speaker>||:What, you think I'm kidding?
+()<Speaker></Speaker>||:J puts down the things he's holding and focuses his attention on K.
+NPC-Jason(4)<Speaker>K</Speaker>||:You encounter a setback, so you just abandon your duty? That's pretty childish to me. You want to avenge Light, yet you're quitting your job. +Do you have multiple personality disorder or something?
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(4)||:Oh, give me a break! You think I WANT this? You're calling me immature for dropping the investigation. I DID try to pursue it, but that woman reamed me out—oh, I almost forgot, she skipped reaming and fired me on the spot.
+NPC-Jason(4)<Speaker>K</Speaker>||:... 
+()<Speaker></Speaker>||:K takes a deep breath and draws close to J.
+NPC-Jason(2)<Speaker>K</Speaker>||:Take a good look around you... You see all these empty desks? This isn't targeted at you alone. +Think about who left and WHY they left. Use your brain, for God's sake.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Jason(2)||:...Who cares? The only thing in my brain right now is the mansion.
+NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker>||:Don't be rash. The only way you can stay on the case is by staying in the Stasi.
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Jason(2)||:...I suppose it's too late to apologize?
+NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker>||:Relax. +She's put you on a new assignment. In other words, you aren't fired.
+NPC-Keven(0)<Speaker>J</Speaker>||:Wait... Did you sell your body or something?
+()<Speaker></Speaker>||:K can't help but roll his eyes. He does not even bother to dignify J's question with a reply. +Instead, he steps back to make room, and J's gaze falls on the silent girl.
+SP9(0)<Speaker>???</Speaker>||:... 
+NPC-Jason(2)<Speaker>K</Speaker>||:Allow me to introduce Miss Mona. She is a Tactical Doll who has officially joined the Stasi recently.
+SP9(0)<Speaker>Mona</Speaker>||:...Nice to meet you, Agent J.
+NPC-Keven(0)<Speaker>J</Speaker>;SP9(0)||:She looks just like the real thing.
+NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker>||:...She was brought in at the request of Romy Riefenstahl, though this is still a trial posting. +Mona will be bringing you on operations from now on.
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(2)||:Excuse me, but did I mishear something? Who's the Doll here, me or her? +You mean she's going to be leading me?
+NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker>||:These are orders from a superior. +Didn't you learn how to follow orders during Stasi agent training?
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Jason(2)||:... +Got it.
+NPC-Jason(2)<Speaker>K</Speaker>||:I'll let Mona explain the mission to you.
+SP9(0)<Speaker>Mona</Speaker>||:Very well. The recent closures of the Galatea pharmaceutical plants have brought several security issues to light. +We've received news from the Berlin police that crowds of protesters have gathered in front of the pharmaceutical plants. +We need to move out right now to prevent any attempts they might make to storm the premises.
+NPC-Keven(5)<Speaker>J</Speaker>||:Tsk... That's agent work for you. +Got it, I'm on it.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Mona nods, then turns to leave.
+NPC-Jason(2)<Speaker>K</Speaker>||:Kevin. +Hold on to this.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:K hands a slip of paper to J. There is a phone number on it... But it is not a German phone number. +J memorizes the number and crumples it up. He looks up at K.
+NPC-Jason(2)<Speaker>K</Speaker>||:...Call it when you're free. +It might come in handy.
+NPC-Keven(5)<Speaker>J</Speaker>||:...Alright.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>325</BIN><BGM>BGM_Room</BGM>:迦拉提亚集团 格雷生物研究所
-NPC-grig(2)<Speaker>？？？</Speaker>||:你在看什么？
-NPC-MrsGray(1)<Speaker>格雷女士</Speaker>||:订单。
-()<Speaker></Speaker>||:格雷看着放在桌面上的清单，手指不时地敲击桌面，始终蹙着眉头。
-NPC-grig(2)<Speaker>？？？</Speaker>||:……是“她”传来的吗？
-NPC-grig(2);NPC-MrsGray(1)<Speaker>格雷女士</Speaker>||:嗯。+她传来了讯息，但拒绝跟我联络。+……大概除了父亲和老师，她谁都不想搭理吧。
-NPC-grig(1)<Speaker>？？？</Speaker>;NPC-MrsGray(1)||:……格雷。
-NPC-grig(1);NPC-MrsGray(3)<Speaker>格雷女士</Speaker>||:这女人……+这算什么？是宣战还是投诚？
-NPC-grig(1)<Speaker>？？？</Speaker>;NPC-MrsGray(3)||:以她的个性来判断，都不是。
-NPC-grig(1);NPC-MrsGray(4)<Speaker>格雷女士</Speaker>||:呵。+就算她再怎么反感，现在掌握任务流向的人也都是我。
-NPC-grig(1)<Speaker>？？？</Speaker>;NPC-MrsGray(4)||:……她把订单发到你这里，就是一种证明了。
-NPC-grig(1);NPC-MrsGray(0)<Speaker>格雷女士</Speaker>||:没错……+任务总归是要执行的，时间就要到了。
-NPC-grig(0)<Speaker>？？？</Speaker>||:嗯，烟花绽放的日子已经定下，谁也不能更改。
+()<Speaker></Speaker>||<黑屏2><BIN>325</BIN><BGM>BGM_Room</BGM>:Gray Institute of Biotechnology, Galatea Corporation.
+NPC-grig(2)<Speaker>???</Speaker>||:What are you looking at?
+NPC-MrsGray(1)<Speaker>Mrs. Gray</Speaker>||:A requisition form.
+()<Speaker></Speaker>||:Gray looks at the list on the table. Her fingertips drum on the table every now and then, and her brow remains perpetually furrowed.
+NPC-grig(2)<Speaker>???</Speaker>||:...Is it from "her"?
+NPC-grig(2);NPC-MrsGray(1)<Speaker>Mrs. Gray</Speaker>||:Yes. +She sent a message, but refused to speak to me. +...She'll probably ignore everyone except Father or Teacher.
+NPC-grig(1)<Speaker>???</Speaker>;NPC-MrsGray(1)||:...Gray.
+NPC-grig(1);NPC-MrsGray(3)<Speaker>Mrs. Gray</Speaker>||:That woman... +What is this? A declaration of war or a surrender?
+NPC-grig(1)<Speaker>???</Speaker>;NPC-MrsGray(3)||:Given her personality, I would say neither.
+NPC-grig(1);NPC-MrsGray(4)<Speaker>Mrs. Gray</Speaker>||:Heh. +Well, however repulsive she might be, right now I'm the one who controls how the mission proceeds.
+NPC-grig(1)<Speaker>???</Speaker>;NPC-MrsGray(4)||:...Sending the order to you is a sort of assurance.
+NPC-grig(1);NPC-MrsGray(0)<Speaker>Mrs. Gray</Speaker>||:Yes... +In the end, the mission must be carried out, and it is almost time.
+NPC-grig(0)<Speaker>???</Speaker>||:Indeed. The day on which the fireworks bloom has been decided, and none may change it.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>413</BIN><BGM>BGM_Room</BGM>:柏林 市区 关停的迦拉提亚药厂前
-()<Speaker>游行群众</Speaker>||<SE1>AVG_Crowd</SE1>:王八蛋！关了药厂你让我们怎么办！+政府是想要我们死绝吗！
-()<Speaker>游行群众</Speaker>||:我们已经买不到药了！这样下去根本活不下去！+你们到底想干什么！
-()<Speaker></Speaker>||:愤怒的群众聚集在药厂的警戒线前，撕心裂肺地发出怒吼的叫声。+仅依靠警方的力量，已经隐隐有压制不住那些暴徒的迹象。
-SP9(0)<Speaker>莫娜</Speaker>||:罗密女士交代的任务是配合警方进行疏散和安全维护工作。+我来之前收录过一些案例情况的报告，没想到现场比我想得还夸张。+你有什么想法吗？
-NPC-Keven(0)<Speaker>J</Speaker>||:……我能有什么想法？+负责人不是你吗？
-SP9(0)<Speaker>莫娜</Speaker>||:是，但是，J探员作为斯塔西特工的时间比我早很多。+我判断你的经验对完成任务更有帮助，这有什么问题吗？
-()<Speaker></Speaker>||:不管从哪种角度来看，莫娜无疑都是 “罗密的人”。+跟自己的立场截然不同。
-NPC-Keven(0)<Speaker>J</Speaker>||:还能怎么做……她只是叫我们来协助治安的。+先联系一下这里的负责人，然后见机行事，这都想不到你干什么特工？
-SP9(0)<Speaker>莫娜</Speaker>||:……
-()<Speaker></Speaker>||:莫娜沉默着点了点头，看向J的目光有些怪异。
-NPC-Keven(5)<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM>:（打发我做这种闲差，罗密的意思不就是“不要给我惹麻烦”吗？）+（甚至还要派个人形监视我……该死的。）+（我可没时间浪费在这种地方……）
-()<Speaker></Speaker>||:在莫娜看不到的地方，他的眼底仿佛燃起了一束火焰。
-()||<黑点1><BIN>10</BIN>:
+()<Speaker></Speaker>||<黑屏2><BIN>413</BIN><BGM>BGM_Room</BGM>:Outside a closed-down Galatea pharmaceutical plant in Berlin City.
+()<Speaker>Protester</Speaker>||<SE1>AVG_Crowd</SE1>:You sons of bitches! What are we supposed to do if you close down the plant? +Is the government trying to kill us?
+()<Speaker>Protester</Speaker>||:We can't buy medicine anymore! There's no way we can survive like this! +What the hell are you trying to do?!
+()<Speaker></Speaker>||:An angry crowd is gathered in front of the police line at the pharmaceutical plant, shouting and screaming with heartfelt anger. +Things are slowly getting too out of hand for the police to handle alone.
+SP9(0)<Speaker>Mona</Speaker>||:We've been tasked by Madam Romy to assist the police in dispersing the crowd and maintaining order. +I've read through reports concerning similar cases before we arrived, but this is much worse than what I was expecting. +What is your opinion?
+NPC-Keven(0)<Speaker>J</Speaker>||:...As if my opinion is worth a damn. +Aren't you the one in charge here?
+SP9(0)<Speaker>Mona</Speaker>||:Yes, but you have been a Stasi agent much longer than I have, Agent J. +I believe your experience will be helpful in completing this mission. Is there a problem with that?
+()<Speaker></Speaker>||:No matter how he looks at her, there is no doubt that Mona is one of "Romy's people". +They are not on the same side.
+NPC-Keven(0)<Speaker>J</Speaker>||:What else can we do... All she did was ask us to help maintain order. +Start by contacting the person in charge here and just play it by ear. If you can't even figure out that much on your own, then what business have you got being an agent?
+SP9(0)<Speaker>Mona</Speaker>||:... 
+()<Speaker></Speaker>||:Mona nods silently at J with a strange look in her eyes.
+NPC-Keven(5)<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM>:(Why did Romy send me on such a pointless errand? Is this her way of telling me to "stay out of trouble"?) +(She even sent a Doll to keep an eye on me... God dammit.) +(I don't have time to waste in a place like this... )
+()<Speaker></Speaker>||:Somewhere deep inside his eyes where Mona's gaze can't penetrate, a fire blazes up.
+()||<黑点1><BIN>10</BIN>:

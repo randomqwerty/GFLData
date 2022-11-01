@@ -1,143 +1,143 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><BGM>BGM_Brain</BGM>:碎石嶙峋的山崖间布满着匆忙的足迹，硝烟像海底巨兽般翻滚缠绕……+武装到牙齿的人们在迷雾和辐射中奔袭着，悄然无声，又陡然间在一位身披斗篷的神秘人前停住。
-NPC-Soldier(0)<Speaker>武装者</Speaker>||:一切都就绪了。
-()<Speaker>神秘杂讯</Speaker>||<黑屏1>:<color=#00CCFF>终于……</color>+<color=#00CCFF>最后的挽留结束了……</color>+<color=#00CCFF>敲响那些不忿的丧钟吧！</color>+<color=#00CCFF>两把未来的钥匙，终将开启挺进绿区的征程，打断那些锁链。</color>+<color=#00CCFF>无论开启哪一把，胜利必将属于挽钟！</color>
-()||<BIN>9</BIN><黑屏2><黑屏1><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:轰——隆——
-()||<BIN>22</BIN><黑屏2><BGM>BGM_Room</BGM>：格里芬人形心智修复室。+系统开机，逻辑模块响应情况分析……
-()<Speaker>陌生的声音</Speaker>||:请重复你的型号。
-RMB93(7)<Speaker>RMB93</Speaker>||:RMB93……
-RMB93(7)<Speaker>陌生的声音</Speaker><同时置暗>||:请跟我重复：“晨光天使”。
-RMB93(7)<Speaker>RMB93</Speaker>||:晨光天使。
-RMB93(7)<Speaker>陌生的声音</Speaker><同时置暗>||:知道你为什么在这里吗？
-RMB93(7)<Speaker>RMB93</Speaker>||:知道……
-RMB93(7)<Speaker>陌生的声音</Speaker><同时置暗>||:测试前进度完成。+型号RMB93，在警察特别行动部门委托案件当中违抗命令，现在对你进行心智测试。
-RMB93(7)<Speaker>陌生的声音</Speaker><同时置暗>||:充分理解以上，就可以开始了。
-RMB93(7)<Speaker>RMB93</Speaker>||<黑屏1>:……明白。
-()<Speaker>陌生的声音</Speaker>||<BIN>9</BIN><黑屏2><黑屏1>:测试1+个人判断是否高于计划判断——
-()||<黑屏2><BIN>8</BIN>:格里芬作战资料室。
-()<Speaker>格里芬一周早报</Speaker>||:近日，C3区盘踞已久的暴民组织“挽钟”活动频繁，绿区警察特别行动部门已经派出多股力量干预这股势力，但多数行动无功而返。+预计未来将会有高烈度对抗出现在该区域内，各指挥官敬请留意……
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||：最近出现了名为“挽钟”的暴民组织，成员中有很多申请进入绿区却多次遭到拒绝的难民，有关这个组织的情况，刚刚的早报里已经说明了。+根据我们获得的情报，“挽钟”将在三个小时后爆破绿区的一处净化设施，并以此为突破口进入绿区，现在你们要做的就是阻止他们。
-RMB93(0)<Speaker>RMB93</Speaker>||:那群暴徒应该明白自己的诉求是不会被满足的，所以才这样孤注一掷吧。
-RMB93(0);NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:不出意外的话，特别行动部门也在想办法谈判了。
-RMB93(0)<Speaker>RMB93</Speaker>;NPC-Kalin(0)||:不出意外吗？那么出了意外……
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：出了意外就解决意外，93，现在什么情况？
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：啊，还真是习惯了突然出现的这套姿势呢。+要是马卡洛夫在这里，肯定得说道一下你的。
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：你的反射弧真是媲美导弹抛物线了……+所以这群恐怖分子，一定要这么彻底吗？ 
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：地点在绿区某处净化设施，TNT当量却够把10个房子炸上天。
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：看起来有点乐子。
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：但我很怀疑，如果他们想去绿区，为什么要炸掉那里唯一一个净化设施呢？同归于尽？
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：原因留到之后再调查吧，现在最重要的是阻止这场恐袭。
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：先不管这些，格琳娜，倒计时还有多久？
-RMB93(0);NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:2小时49分59秒。
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：有把握吗？
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：你应该把时间倒回3小时，然后收回这个问句。
-RMB93(0);NPC-Kalin(0)<Speaker>格琳娜</Speaker>||：看来大家都很有信心呀。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||<黑屏1>：我会在这里给你们实时通报情况的，出发吧。
-()<Speaker></Speaker>||<BIN>169</BIN><黑屏2><BGM>BGM_Empty</BGM>:距离爆炸发生还有1小时47分。+RMB93和M1887赶到了指定净化设施外，进行了彻底的热量扫描，寻找“挽钟”组织的踪迹。
-RMB93(0)<Speaker>RMB93</Speaker>||<BGM>BGM_Truth</BGM>：扫描完成，没有任何生命体。
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：奇怪……
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：你是好奇宝宝吗？这里马上就爆炸了，怎么还会有人。
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：……被特别行动部门提前疏散走了吗？
-RMB93(0)<同时置暗>;M1887(2)<Speaker>对接负责人</Speaker>||：<color=#00CCFF>格里芬的人形吗？这里是特别行动部门，你们……</color>
-M1887(2)<Speaker>M1887</Speaker>||:我们已经到了。
-M1887(2)<Speaker>对接负责人</Speaker>||：<color=#00CCFF>知道了，话不多说，现在这里由我指挥，进去把炸弹拆了，你们就可以走了。</color>
-M1887(2)<Speaker>M1887</Speaker>||<黑屏1>:明白。 
-()||<黑屏2><BIN>167</BIN>:净化设施内。+距离爆炸发生还有57分钟……+经过一番搜寻后，RMB93和M1887找到了安装好的炸弹，RMB93检查完毕后，脸色难看了起来。
-M1887(2)<Speaker>M1887</Speaker>||:怎么了？
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：“摇篮”装置炸弹……
-M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||：那是什么？
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：简单来说，拆掉这颗。在信号范围内的炸弹就会爆炸。+唔……这是模拟训练里拆过的炸弹，不会错的。
-M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||：这就麻烦了……
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：要加班吗？这样就可以要3倍工资了哎。
-M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||：<color=#A9A9A9>真要把账算到这种程度吗……</color>+那个，对接的负责人，我这里出了点情况。
-M1887(2)<Speaker>对接负责人</Speaker>;RMB93(0)<同时置暗>||：<color=#00CCFF>别告诉我那里已经被炸平了。</color>
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：哈—— 您真是幽默，对我们这么没信心吗？被小看了呢……
-M1887(2)<Speaker>对接负责人</Speaker>;RMB93(0)<同时置暗>||：<color=#00CCFF>什么事就快说，我赶着下班。</color>
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：嗯？你——
-M1887(2)<Speaker>M1887</Speaker>||：这个炸弹有无线“摇篮”装置。如果贸然拆除的话……
-M1887(2)<Speaker>对接负责人</Speaker><同时置暗>||：<color=#00CCFF>你的意思是，拆除了这颗，会直接引爆另外一颗？</color>
-M1887(2)<Speaker>M1887</Speaker>||：现在看起来是这样，还有不到一小时。
-M1887(2)<Speaker>对接负责人</Speaker><同时置暗>||：<color=#00CCFF>另外一颗炸弹在哪里？</color>
-M1887(2)<Speaker>M1887</Speaker>||：这个发射功率，应该不会太远。
-M1887(2)<Speaker>对接负责人</Speaker><同时置暗>||：<color=#00CCFF>立刻停止拆除，等待通报。对了，正好你们在那里，我要你们在三公里范围内建立防线。</color>
-M1887(2)<Speaker>M1887</Speaker>||：防线？防谁？
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：当然是防止难民进入吧……哎，收了钱就要有被炸飞的觉悟呢。
-M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||：先停止拆除建立防线吗？如果这个净化设施被炸毁，绿区也就不复存在了，他们不会不知道这点吧。
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：联系一下格琳娜吧。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>;RMB93(0)||<SE1>AVG_tele_connect</SE1>：<color=#00CCFF>你们那边怎么样？</color>
-NPC-Kalin(0)<通讯框>;RMB93(0)<Speaker>RMB93</Speaker>||：看起来，要加一会班。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>;RMB93(0)||：<color=#00CCFF>收到资料了，唔……“摇篮”装置……特别行动部门也搞不清楚另外一颗炸弹在哪？</color>
-NPC-Kalin(0);RMB93(0)<Speaker>RMB93</Speaker>||：我认为就在附近。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>;RMB93(0)||：<color=#00CCFF>这些恐怖分子，看起来真的没有给自己留……后……</color>+<color=#00CCFF>路呀……</color>
-RMB93(0)<Speaker>RMB93</Speaker>||<SE1>AVG_tele_disconnect</SE1>：嗯？喂？……信号断了？
-RMB93(0)<Speaker>嘈杂的声音</Speaker><同时置暗>||<SE1>AVG_whitenoise</SE1>：<color=#00CCFF>哎呀……这频段还真难搞……咳……嗯……格里芬的贵客们呀，别来无恙。</color>+<color=#00CCFF>相信绿区的制裁者们已经为我们杰出的作品忙到焦头烂额了吧。</color>
-RMB93(0)<Speaker>RMB93</Speaker>||：！+这可是机密频道，你是谁？+你们想要怎么样？
-RMB93(0)<Speaker>嘈杂的声音</Speaker><同时置暗>||：<color=#00CCFF>果然是人形才能提出的问题，哈哈哈，机器也只会独善其身吧。</color>
-RMB93(0)<Speaker>RMB93</Speaker>||：如果你们想进入绿区，就应该放弃这些阴谋。
-RMB93(0)<Speaker>嘈杂的声音</Speaker><同时置暗>||：<color=#00CCFF>这么和你说吧，所有的黄区难民都信奉一点：唯“挽钟”能治愈一切。</color>+<color=#00CCFF>与其在辐射当中渐渐凋零，像乞丐一样不被人接受，不如成为每个挽钟的音符……</color>
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：那么非常抱歉了，你这段废话这和我们预想的一样。
-RMB93(0)<Speaker>嘈杂的声音</Speaker>;M1887(2)<同时置暗>||：<color=#00CCFF>你缺失了一点，我们还没想好晚餐的主角……</color>+<color=#00CCFF>或许应该让大家自己决定座位，但时间可能不允许太多选择了。</color>
-RMB93(0)<Speaker>RMB93</Speaker>;M1887(2)||：听好了，特别行动部门可不会参加你们的宴席。
-RMB93(0)<Speaker>嘈杂的声音</Speaker><同时置暗>||：<color=#00CCFF>不不不，我本来邀请了他们，但你们却成了替代者，这会让这场实验更有价值。</color>
-RMB93(0);M1887(2)<Speaker></Speaker><同时点亮>||：RMB93用眼神示意M1887，却看见她摇了摇头。
-RMB93(0);M1887(2)<Speaker>M1887</Speaker>||：信号源分析错误，真狡猾啊这些人。
-RMB93(0)<Speaker>嘈杂的声音</Speaker><同时置暗>;M1887(2)||：<color=#00CCFF>你们面前的“摇篮”炸弹，只是道餐前甜点。真正的“主菜”，在东北边2点钟方向，特别行动部门的安全屋里。</color>+<color=#00CCFF>但请记住了，这本来是供他们品尝的滋味。</color>
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||<SE1>AVG_whitenoise</SE1>：<color=#00CCFF>啊……</color>
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||<SE1>Stop_AVG_loop</SE1>:<color=#00CCFF>这是怎么回事？</color>
-M1887(2)<Speaker>M1887</Speaker>;NPC-Kalin(0)<通讯框>||：频段不安全，转到备用通道。
-M1887(2);NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||<SE1>Stop_AVG_loop</SE1>:<color=#00CCFF>他们转接了任务频段？竟然有能力破解我们的通讯频段……</color>
-M1887(2)<Speaker>M1887</Speaker>;NPC-Kalin(0)<通讯框>||：声源资料已经发给你了，恐怕我们必须赶紧前往东北边那个安全屋了。+RMB93，准备好了吗？
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：我准备好了。欸？只有我去？
-M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||：按照刚刚那人的说法，里面有可能就是“摇篮”装置的而另一颗炸弹。+我们俩相比，你比我更擅长拆弹。+这边防线由我来建立吧，我会帮你注意附近的情况的。
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：好像还真是反驳不了的道理……
-M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||：万事小心，我感觉这次任务越来越不普通了。
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||<黑屏1>：放心吧，我们也不是普通的人形。
-()||<黑屏2><BIN>70</BIN><BGM>BGM_Empty</BGM>：特别行动部门安全屋。+距离爆炸发生还有28分钟。+RMB93站在安全屋的门前，仔细感受着屋内的动静。
-RMB93(0)<Speaker>RMB93</Speaker>||<BGM>BGM_Danger</BGM>：呼叫M1887，我已经到了安全屋。
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(0)||<SE1>AVG_tele_connect</SE1>：<color=#00CCFF>收到，已经撤离安全区域，净化设施周围也封锁了，但特别行动部门那边还是没有动静。</color>
-M1887(2);RMB93(0)<Speaker>RMB93</Speaker>||：真是个麻烦的雇主……我准备进去了。
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(0)||：<color=#00CCFF>随时通报情况。</color>
-RMB93(0)<Speaker></Speaker>||:RMB93警惕地突入安全屋，确认屋中情况。
-RMB93(0)<Speaker>RMB93</Speaker>||:哎？怎么……
-NPC-PasserbyF(0)<Speaker></Speaker>||:空荡荡的房间里，一个小姑娘坐在木质椅子上，身上缠绕着凌乱的电线。
-NPC-PasserbyF(0)<Speaker>小女孩</Speaker>||:啊……
-NPC-PasserbyF(0);RMB93(0)<Speaker>RMB93</Speaker>||:别紧张小乖乖，我是来救你的。
-NPC-PasserbyF(0)<Speaker>小女孩</Speaker>;RMB93(0)||:呜呜呜哇……
-NPC-PasserbyF(0);RMB93(0)<Speaker>RMB93</Speaker>||:先不要动，也不要挣扎，一会儿姐姐给你解开。
-NPC-PasserbyF(0)<Speaker>小女孩</Speaker>;RMB93(0)||:……欸？
-NPC-PasserbyF(0);RMB93(0)<Speaker>RMB93</Speaker>||:你喜欢这个呀，来，给你。
-NPC-PasserbyF(0);RMB93(0)<Speaker></Speaker>||:RMB93没有犹豫，摘了自己的项链递给小女孩。
-NPC-PasserbyF(0);RMB93(7)<Speaker>RMB93</Speaker>||:<color=#A9A9A9>孩子是稳住了，但接下来得认真一点了。</color>+喜欢吗？
-NPC-PasserbyF(0)<Speaker>小女孩</Speaker>;RMB93(7)||:嗯。
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>这就是“主菜”？</color>
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：同样的“摇篮”装置……
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>什么！</color>
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：不会错的。
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>我联系下特别行动部门，93你先不要乱来。</color>+<color=#00CCFF>呼叫特别行动部门，格里芬小队已经找到了——装置的另一个炸弹安置点，请求下一步指示。</color>
-M1887(2)<Speaker>对接负责人</Speaker><通讯框>;RMB93(7)<同时置暗>||：<color=#00CCFF>格里芬……了……事情……处理……</color>
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：怎么回事？通讯被干扰了？
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：你们到底怎么回事？还有几分钟了！
-M1887(2)<Speaker>对接负责人</Speaker><通讯框>;RMB93(7)<同时置暗>||：<color=#00CCFF>需要我……说……你们……</color>
-M1887(2)<Speaker></Speaker><通讯框>;RMB93(7)<同时置暗>||：断断续续的通讯终于彻底断开。RMB93能听见M1887反复重联通讯的声音。
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：M1887！没时间了！
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>我联系不上那个负责人，指挥官和格琳娜也完全联系不上！</color>+<color=#00CCFF>等一下！我看到……那是……特别行动部门的装甲车？他们派人过来处置炸弹了，我们可以……</color>
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：不管怎么样，我要完成任务！
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>RMB93你听我说！我们的任务是停止拆除炸弹，优先建立防线！</color>+<color=#00CCFF>找到——装置的另一个炸弹以及怎么处置是特别行动部门的事！</color>
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：我不会离开的！我不会丢下这个小女孩的！
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>任务已经结束了，他们只是想借我们的手查清另一颗炸弹在哪里，选择权在他们手上。</color>
-M1887(2)<Speaker></Speaker><通讯框>;RMB93(7)||：距离爆炸发生还有47秒。
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>一旦他们开始动手拆除，你那里的炸弹会立刻引爆的。</color>
-NPC-PasserbyF(0)<Speaker>小女孩</Speaker>;RMB93(7)||:姐姐……这些线好难受啊……
-NPC-PasserbyF(0);RMB93(7)<Speaker>RMB93</Speaker>||:别着急，姐姐马上就来……
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||<SE1>AVG_tele_connect</SE1>：<color=#00CCFF>快离开，这是命令！</color>
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：还有30秒，来不及转移到“摇篮”装置信号外了，只有这一个办法……
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>RMB93，你干什么？</color>
-NPC-PasserbyF(0)<Speaker>小女孩</Speaker>;RMB93(7)||:姐姐！
-M1887(2)<通讯框>;RMB93(7)<Speaker>RMB93</Speaker>||：特别行动部门的人，还没走近吧。
-M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||：<color=#00CCFF>你！</color>
-()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:时钟滴答着坠落时间，回响在所有人的频段当中。只有一个人露出了微笑。+突然间，一切戛然而止……
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>Explode</SE1>:轰……
-()<Speaker></Speaker>||<BIN>9</BIN>：……
-()<Speaker>嘈杂的声音</Speaker>||<BIN>9</BIN>:这就是你们的“选择”？
-()<Speaker>嘈杂的声音</Speaker>||<BIN>9</BIN>:机器始终是机器，如果写了不能伤害人类的代码，就只能看清短浅的眼下吧。
-()<Speaker>嘈杂的声音</Speaker>||<BIN>9</BIN><黑屏1>:哈哈哈，这迷人的伪善。
+()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><BGM>BGM_Brain</BGM>:Hurried footsteps race through the gravel-strewn valley. Wisps of gunsmoke wind through the air like the coils of some undersea monster... +Men run silently through the mist and the radiation, all of them armed to the teeth, and then they come to a sudden halt in front of a mysterious caped figure.
+NPC-Soldier(0)<Speaker>Armed Men</Speaker>||:Everything is ready.
+()<Speaker>Mysterious Transmission</Speaker>||<黑屏1>:<color=#00CCFF>At last...</color> +<color=#00CCFF>The final restraint has ended. </color> +<color=#00CCFF>Let us sound these wrathful death knells!</color> +<color=#00CCFF>The two keys to the future shall shatter the chains and begin our sojourn into the Green Zone.</color> +<color=#00CCFF>So long as one of them turns, victory will belong to the Knell!</color>
+()||<BIN>9</BIN><黑屏2><黑屏1><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:Boom— Rumble—
+()||<BIN>22</BIN><黑屏2><BGM>BGM_Room</BGM>:In the Griffin Neural Cloud Repair Bay. +The system is activated, and logic modules begin their analysis in response to the situation.
+()<Speaker>Unfamiliar Voice</Speaker>||:Please repeat your designation.
+RMB93(7)<Speaker>RMB-93</Speaker>||:RMB-93...
+RMB93(7)<Speaker>Unfamiliar Voice</Speaker><同时置暗>||:Repeat after me, "Morningstar".
+RMB93(7)<Speaker>RMB-93</Speaker>||:Morningstar.
+RMB93(7)<Speaker>Unfamiliar Voice</Speaker><同时置暗>||:Do you know why you're here?
+RMB93(7)<Speaker>RMB-93</Speaker>||:I do...
+RMB93(7)<Speaker>Unfamiliar Voice</Speaker><同时置暗>||:Pre-examination protocol complete. +Unit with the designation RMB-93, you will now be subjected to a neural cloud examination for violating orders during an assignment to the Police Special Operations Department.
+RMB93(7)<Speaker>Unfamiliar Voice</Speaker><同时置暗>||:If you understand, then we can begin.
+RMB93(7)<Speaker>RMB-93</Speaker>||<黑屏1>:...Understood.
+()<Speaker>Unfamiliar Voice</Speaker>||<BIN>9</BIN><黑屏2><黑屏1>:Examination 1. +Do your personal decisions take precedence over the decisions of the operational plan—
+()||<黑屏2><BIN>8</BIN>:In the Griffin Data Room.
+()<Speaker>Griffin Weekly</Speaker>||:The armed militia known as the "Knell" has made Sector C3 their base for a long time now, but recently they have been very active. The Green Zone police force's Special Operations Department has mounted many expeditions to pacify them, but many of those operations have ended in failure. +We predict there will be intense resistance within this sector, so all field Commanders should take heed...
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:The membership of this Knell militia that's sprung up lately includes a lot of refugees who were repeatedly denied permission to enter the Green Zone, and the Griffin Weekly report just now has already explained the situation regarding this organization. +According to our sources, in three hours' time, "Knell" will blow up a purification facility within the Green Zone and use it as a breach to enter the Green Zone. Your mission is to stop them.
+RMB93(0)<Speaker>RMB-93</Speaker>||:I'm sure these insurgents are resorting to such desperate measures because they know their pleas will not be met.
+RMB93(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Assuming nothing goes wrong, the Special Operations Department will try to open negotiations.
+RMB93(0)<Speaker>RMB-93</Speaker>;NPC-Kalin(0)||:If nothing goes wrong? Then, if something goes wrong...
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:If something goes wrong, then we'll take care of it. 93, what's the current situation?
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:Heh, it's just like you to show up without warning. +If Makarov were here, I'm sure she'd give you an earful about it.
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:Well, kudos to your amazing reflexes for not shooting at me... +So, why do we have to be so thorough with these terrorists?
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:The target location is a certain purification facility in the Green Zone, but they're packing enough TNT to blow up ten city blocks.
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:Now this looks interesting.
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:Still, I have my doubts. If they really wanted to enter the Green Zone, why would they blow up the only purification facility over there? Do they plan to take everyone with them?
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:We can look into their reasons later. Right now, the most important thing is to stop this terror attack.
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:You have a point. Kalina, what does our countdown look like?
+RMB93(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:You still have 2 hours, 49 minutes and 59 seconds.
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:Are you confident in pulling this off?
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:You ought to turn the timer back to 3 hours, and you wouldn't need to ask that question.
+RMB93(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Looks like everyone's pretty confident.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||<黑屏1>:I'll be staying here to keep you updated on the situation in real time. You should head out.
+()<Speaker></Speaker>||<BIN>169</BIN><黑屏2><BGM>BGM_Empty</BGM>:There is 1 hour and 47 minutes left until the explosion is due to happen. +RMB-93 and M1887 hurry over to the designated purification facility and begin an extensive thermal scan in the hopes of finding some trace of "Knell".
+RMB93(0)<Speaker>RMB-93</Speaker>||<BGM>BGM_Truth</BGM>:Scan complete. No life signs detected.
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:That's strange...
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:Are you serious? This place is about to explode, why would anyone be here?
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:...Were they dispersed by the SOD beforehand?
+RMB93(0)<同时置暗>;M1887(2)<Speaker>Police Supervisor</Speaker>||:<color=#00CCFF>Are you the Dolls from Griffin? This is the Special Operations Department, you...</color>
+M1887(2)<Speaker>M1887</Speaker>||:We've arrived.
+M1887(2)<Speaker>Police Supervisor</Speaker>||:<color=#00CCFF>Got it. I won't waste time on explanations. In short, I am now in command. Go in, defuse the bomb, and leave.</color>
+M1887(2)<Speaker>M1887</Speaker>||<黑屏1>:Understood.
+()||<黑屏2><BIN>167</BIN>:Inside the purification facility. +57 minutes until the bomb detonates... +After some searching, RMB-93 and M1887 find the planted bomb. RMB-93 checks it, and her face darkens.
+M1887(2)<Speaker>M1887</Speaker>||:What's the matter?
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:This is a "Cradle" type bomb...
+M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||:What does that mean?
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:Simply put, if we disarm this bomb, all other bombs within range will detonate too. +Hm... I've disarmed bombs like this before in simulations, so I'm sure of it.
+M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||:Now that's troublesome...
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:Does this mean overtime? Looks like this will be triple the standard rate.
+M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||:<color=#A9A9A9>Does she really have to be so calculative...</color> +Uh, Mr. Supervisor, we have a bit of a situation here.
+M1887(2)<Speaker>Police Supervisor</Speaker>;RMB93(0)<同时置暗>||:<color=#00CCFF>Don't tell me the place has been blasted into a parking lot already.</color>
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:Ha-ha, very funny. Do you have so little faith in us? Don't underestimate us, eh?
+M1887(2)<Speaker>Police Supervisor</Speaker>;RMB93(0)<同时置暗>||:<color=#00CCFF>Get on with it, I'm in a hurry to knock off.</color>
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:Hm? You—
+M1887(2)<Speaker>M1887</Speaker>||:This bomb has a wireless "Cradle" detonator. If we're careless when disarming it...
+M1887(2)<Speaker>Police Supervisor</Speaker><同时置暗>||:<color=#00CCFF>In other words, if you disarm this one, it'll immediately set off another one?</color>
+M1887(2)<Speaker>M1887</Speaker>||:That seems to be the case, and we have less than an hour left.
+M1887(2)<Speaker>Police Supervisor</Speaker><同时置暗>||:<color=#00CCFF>So where's the other bomb?</color>
+M1887(2)<Speaker>M1887</Speaker>||:Given the transmission efficiency of this device, it's probably not too far away.
+M1887(2)<Speaker>Police Supervisor</Speaker><同时置暗>||:<color=#00CCFF>Immediately cease all attempts to disarm it and wait for further instructions. Ah, yes, since you're there, pull back three kilometers and establish a defensive perimeter.</color>
+M1887(2)<Speaker>M1887</Speaker>||:A defensive perimeter? Against who?
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:Against the incoming refugees, of course... Eh, since we've been paid, we should prepare ourselves to get blown up.
+M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||:So we're going to stop disarming the bomb and set up a perimeter? Surely they know that the Green Zone isn't going to exist without this purification facility, right?
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:Let's contact Kalina first.
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>;RMB93(0)||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>How are things on your end?</color>
+NPC-Kalin(0)<通讯框>;RMB93(0)<Speaker>RMB-93</Speaker>||:Looks like we'll be clocking overtime.
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>;RMB93(0)||:<color=#00CCFF>I've received your intel. Hm... A "Cradle" mechanism... And the SOD has no idea where the other bomb is?</color>
+NPC-Kalin(0);RMB93(0)<Speaker>RMB-93</Speaker>||:I think it should be close by.
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>;RMB93(0)||:<color=#00CCFF>It looks like these terrorists really aren't planning on leaving themselves...a...</color> +<color=#00CCFF>Way out...</color>
+RMB93(0)<Speaker>RMB-93</Speaker>||<SE1>AVG_tele_disconnect</SE1>:Hello? Hello? ...Dammit, did the signal cut out?
+RMB93(0)<Speaker>Distorted Voice</Speaker><同时置暗>||<SE1>AVG_whitenoise</SE1>:<color=#00CCFF>Oh my... It's really hard to get the hang of this frequency... Ahem...um... Dear guests from Griffin, I hope you are well.</color> +<color=#00CCFF>I trust the dictators of the Green Zone are tearing their hair out over our outstanding work, hm?</color>
+RMB93(0)<Speaker>RMB-93</Speaker>||:! +This is a secure channel, who is this? +What do you want?
+RMB93(0)<Speaker>Distorted Voice</Speaker><同时置暗>||:<color=#00CCFF>As I thought, a question that only a Doll could ask. Hahaha, machines only think of themselves after all.</color>
+RMB93(0)<Speaker>RMB-93</Speaker>||:You should cease this scheming if you want to enter the Green Zone.
+RMB93(0)<Speaker>Distorted Voice</Speaker><同时置暗>||:<color=#00CCFF>Let me put it this way. It is the belief of all the residents in the Yellow Zone believe that "Knell" is their only hope.</color> +<color=#00CCFF>Rather than be discarded like beggars and slowly wither away amidst the radiation, why not become a note in the tolling of every bell...</color>
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:Pardon me, but what you're spouting is as nonsensical as we expected.
+RMB93(0)<Speaker>Distorted Voice</Speaker>;M1887(2)<同时置暗>||:<color=#00CCFF>You're missing one thing, in that we still lack a star for tonight's main event...</color> +<color=#00CCFF>Perhaps we ought to let everyone decide on their own seating, but I'm afraid we don't have enough time for that.</color>
+RMB93(0)<Speaker>RMB-93</Speaker>;M1887(2)||:Listen up, the SOD won't be joining your little party.
+RMB93(0)<Speaker>Distorted Voice</Speaker><同时置暗>||:<color=#00CCFF>Nonono, you see, I originally invited them, but you ended up taking their place instead. That makes this experiment more valuable.</color>
+RMB93(0);M1887(2)<Speaker></Speaker><同时点亮>||:RMB-93 glances over to M1887, but the latter shakes her head.
+RMB93(0);M1887(2)<Speaker>M1887</Speaker>||:The signal trace failed. These guys are pretty tricky.
+RMB93(0)<Speaker>Distorted Voice</Speaker><同时置暗>;M1887(2)||:<color=#00CCFF>The "Cradle" bomb before you is simply an appetizer. The main course is in an SOD safe house due northeast from your current position.</color> +<color=#00CCFF>But remember, this dish was originally served for them.</color>
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||<SE1>AVG_whitenoise</SE1>:<color=#00CCFF>Uh...</color>
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||<SE1>Stop_AVG_loop</SE1>:<color=#00CCFF>What's going on?</color>
+M1887(2)<Speaker>M1887</Speaker>;NPC-Kalin(0)<通讯框>||:This channel isn't secure. Switch to the backup line.
+M1887(2);NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||<SE1>Stop_AVG_loop</SE1>:<color=#00CCFF>They hijacked the mission channel? They actually managed to crack our signal encryption...</color>
+M1887(2)<Speaker>M1887</Speaker>;NPC-Kalin(0)<通讯框>||:I'm sending you some audio data. Looks like we'll need to hurry over to the northeast safe house. +RMB-93, are you ready?
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:I am. Huh? I'll be going alone?
+M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||:According to what that man said, the other "Cradle" bomb might be over there. +Between the two of us, you're better at defusing bombs. +I'll establish a perimeter here and help keep an eye on the surroundings for you.
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:I guess I can't argue with that...
+M1887(2)<Speaker>M1887</Speaker>;RMB93(0)||:Be careful. I have a feeling that this mission isn't going to be an ordinary one.
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||<黑屏1>:Relax, we aren't ordinary Dolls either.
+()||<黑屏2><BIN>70</BIN><BGM>BGM_Empty</BGM>:Inside the SOD safe house. +28 minutes until the bomb goes off. +RMB-93 is standing in front of the safe house, trying to sense what's going on inside.
+RMB93(0)<Speaker>RMB-93</Speaker>||<BGM>BGM_Danger</BGM>:Hailing M1887, I'm at the safe house.
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(0)||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Roger. I've already retreated to a safe zone and the purification facility has been locked down, but there haven't been any movements from the SOD yet.</color>
+M1887(2);RMB93(0)<Speaker>RMB-93</Speaker>||:What a troublesome client... I'm going in.
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(0)||:<color=#00CCFF>Keep me posted on the situation.</color>
+RMB93(0)<Speaker></Speaker>||:RMB-93 carefully enters the safe house and surveys the interior.
+RMB93(0)<Speaker>RMB-93</Speaker>||:Huh? What...
+NPC-PasserbyF(0)<Speaker></Speaker>||:The room is empty, save for a little girl sitting on a wooden chair. Wires are tangled all over her.
+NPC-PasserbyF(0)<Speaker>Girl</Speaker>||:(Whimpers)
+NPC-PasserbyF(0);RMB93(0)<Speaker>RMB-93</Speaker>||:Relax, dear, I'm here to save you.
+NPC-PasserbyF(0)<Speaker>Girl</Speaker>;RMB93(0)||:(Cries)
+NPC-PasserbyF(0);RMB93(0)<Speaker>RMB-93</Speaker>||:Stay still and don't struggle, okay?
+NPC-PasserbyF(0)<Speaker>Girl</Speaker>;RMB93(0)||:...Huh?
+NPC-PasserbyF(0);RMB93(0)<Speaker>RMB-93</Speaker>||:Do you like this? Then here, you can have it.
+NPC-PasserbyF(0);RMB93(0)<Speaker></Speaker>||:RMB-93 takes off her necklace without any hesitation and gives it to the girl.
+NPC-PasserbyF(0);RMB93(7)<Speaker>RMB-93</Speaker>||:<color=#A9A9A9>The girl's stable for now, but I'll have to be really careful with what comes next.</color> +Pretty, isn't it?
+NPC-PasserbyF(0)<Speaker>Girl</Speaker>;RMB93(7)||:Mm.
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>So this is the "main course"?</color>
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:It's a "Cradle" setup, just like the other one...
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>What?!</color>
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:No doubt about it.
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>I'll contact the SOD. Don't do anything rash, 93.</color> +<color=#00CCFF>Hailing SOD, the Griffin squad has found the other bomb site, requesting further instructions.</color>
+M1887(2)<Speaker>Police Supervisor</Speaker><通讯框>;RMB93(7)<同时置暗>||:<color=#00CCFF>Griffin...handle...matter...</color>
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:What's going on? Is the transmission being jammed?
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:What happened to you? How many more minutes do we have?!
+M1887(2)<Speaker>Police Supervisor</Speaker><通讯框>;RMB93(7)<同时置暗>||:<color=#00CCFF>How many...you need...tell you...</color>
+M1887(2)<Speaker></Speaker><通讯框>;RMB93(7)<同时置暗>||:The intermittent transmission finally cuts out altogether. RMB-93 hears M1887 trying to get through again and again.
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:M1887! We're out of time!
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>I can't contact that supervisor, Kalina, or the Commander!</color> +<color=#00CCFF>Wait a minute... Is that... an SOD armored vehicle? They've sent someone over to defuse the bomb, we can...</color>
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:I need to finish the mission, no matter what!
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>Listen to me, RMB-93! Our mission is to stop disarming the bomb and establish a defensive cordon!</color> +<color=#00CCFF>Finding the other bomb and disarming it is the SOD's business!</color>
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:I'm not leaving! I won't abandon this little girl!
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>The mission is over. All they wanted was for us to find where the other bomb was. The final decision is in their hands.</color>
+M1887(2)<Speaker></Speaker><通讯框>;RMB93(7)||:47 seconds to detonation.
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>Once they start disarming it, the bomb on your end will immediately explode. </color>
+NPC-PasserbyF(0)<Speaker>Girl</Speaker>;RMB93(7)||:Miss... These wires are hurting me...
+NPC-PasserbyF(0);RMB93(7)<Speaker>RMB-93</Speaker>||:Don't worry, I'll sort that out right away...
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Get out of there, that's an order!</color>
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:Only 30 seconds left, there's no time to move her out of range of the "Cradle". There's only one thing I can do...
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>RMB-93, what the hell are you doing?</color>
+NPC-PasserbyF(0)<Speaker>Girl</Speaker>;RMB93(7)||:Miss!
+M1887(2)<通讯框>;RMB93(7)<Speaker>RMB-93</Speaker>||:The SOD people haven't moved in yet, right?
+M1887(2)<Speaker>M1887</Speaker><通讯框>;RMB93(7)||:<color=#00CCFF>You!</color>
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:The beep of the timer reaching zero echoes through all the active frequencies. A single person grins. +Suddenly, everything comes to an abrupt halt...
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>Explode</SE1>:Boom...
+()<Speaker></Speaker>||<BIN>9</BIN>:...
+()<Speaker>Distorted Transmission</Speaker>||<BIN>9</BIN>:So this is your choice?
+()<Speaker>Distorted Transmission</Speaker>||<BIN>9</BIN>:Machines are machines in the end. If their coding forbids them from harming human beings, their actions are bound to be short-sighted.
+()<Speaker>Distorted Transmission</Speaker>||<BIN>9</BIN><黑屏1>:Hahaha, what fascinating hypocrisy.

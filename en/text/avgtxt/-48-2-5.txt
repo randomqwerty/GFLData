@@ -1,76 +1,76 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker>夏朵利兹</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>343</BIN><common_effect>%%code=NPC_TV_11%%</common_effect>:迦拉提亚药剂事故目前已有重大突破。+相关嫌疑人员被刑拘，警方已立案调查。
-()<Speaker>夏朵利兹</Speaker>||:此前本台联络涉事方迦拉提亚集团，对方声称不方便回应，一切请等调查结果。+据悉，“伊登”药剂相关的研究实验室依旧处于关停状态，负责人格雷女士仍然失联中，药监部门至今未就相关事宜发表明确态度。
+()<Speaker>Shadowless</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>343</BIN><common_effect>%%code=NPC_TV_11%%</common_effect>:There's been a major breakthrough with the Galatea serum incident. +The suspect has been taken into custody and the police are now building a case.
+()<Speaker>Shadowless</Speaker>||:Some time earlier, our station contacted the Galatea Corporation for a statement. They declined to respond until the investigations were over. +According to our sources, the lab researching the Idunn serum remains closed, and the project leader Mrs. Gray remains incommunicado. The NDRA has yet to make their stance clear regarding the matter.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Truth</BGM><BIN>158</BIN><黑屏2><关闭蒙版>:国安局审讯厅
-()<Speaker></Speaker>||:金属材质的椅子被空调吹得极冷，等待的煎熬和未知的恐惧交织在一起，令奈乐忍不住搓了搓手。+脚步声的到来，像是要宣告最终的审判。
-NPC-Keven(0)<Speaker>J</Speaker>||:嗨~这不是奈乐小姐吗？好巧啊，我们又见面了。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(0)<Speaker>J</Speaker>||:有感觉到惊喜吗？
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……一点也不。
-NPC-Keven(0)<Speaker>J</Speaker>||:那有感觉到惊吓吗？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……有、有点。
-NPC-Keven(0)<Speaker>J</Speaker>||:很好~目的达到了。+寒暄到此结束，我们长话短说。
-()<Speaker></Speaker>||:J将手里的笔记本“啪”一声甩到桌上，接着抽出椅子坐下，双手交叠支撑起头部。+在奈乐的眼里，这位从不正经的特工脸上第一次呈现出认真和严肃。令人莫名感到恐慌……
-NPC-Keven(5)<Speaker>J</Speaker>||:你知道药剂有问题？
-NPC-Keven(5);NPC-Nele(2)<Speaker>奈乐</Speaker>||:我知道，不、我不知道！+……我的意思是——这个药剂虽然没有经过三期实验，但之前的实验里都没出现过这类问题，所以我不知道为什么那个人用了以后会出事……
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:明明刚开始的时候他看起来好多了……而且我已经把剩下的药都交给你们了！+现在检测结果有了吗？
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:谁给你的药？格雷？
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……没人给我，我自己去实验室里拿的，就是上次见到你的时候。
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:为什么这么做？
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:我上次就说了啊——政府突然叫停实验，新一批的实验品好不容易才生产出来……
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:我担心损坏才拿了一点……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:多少人能够接触这种药剂？
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……不知道。
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:不知道还是不想说？
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:不知道！真的……我真的不知道！+实验室里每个人的权限都不相同，我不知道多少人能够直接接触药剂……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:换个问题，谁把你招入格雷实验室的？
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……格雷老师……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:她本人？那你算是格雷的“裙带关系户”？
-NPC-Keven(5);NPC-Nele(2)<Speaker>奈乐</Speaker>||:不不不不！我大学时代就听过格雷老师的讲座，后来毕业我投了很多次简历。
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:是正规渠道面试进来的！
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:那你知道格雷涉嫌最近的恐袭事件吗？
-NPC-Keven(5);NPC-Nele(2)<Speaker>奈乐</Speaker>||:什么？？？+不，不可能！老师只是个医药专家，跟恐袭事件有什么关系……你们搞错了吧？
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(2)||:你只需要回答问题。+她最近两周都去过哪些地方？
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……我不知道啊，我只是个助手，又不是她的秘书或者司机……+说起来，老师好像没有秘书……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:你上次见到她本人是什么时候？
-NPC-Keven(5);NPC-Nele(2)<Speaker>奈乐</Speaker>||:上个月10号左右？不，那次也是通讯联系……+好像这半年都不怎么出现在实验室里，哦对了！之前接受采访的时候有来过公司！
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(2)||:你觉得这合理吗？+一位医药专家长期不参与实验室研究……
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……你怀疑老师？+给那个人注射药剂是我一个人的决定！跟老师没有关系！
-()<Speaker></Speaker>||:J偏头瞟了眼墙上的钟，眼睛里是满满的不耐烦。+分针“滴答滴答”地挪动，让他皱着的眉头锁得更紧。
-NPC-Keven(5)<Speaker>J</Speaker>||:你想清楚了？+每一个回答都关系到你接下来的日子在哪里度过。
-NPC-Keven(5)<Speaker>J</Speaker>||:格雷能把“伊登”交给你，明显对你很重视，你却说你什么都不知道……+奈乐小姐，我的耐心到头了。
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:！我真的……我真的什么都不知道啊……+我平常多想跟老师一起工作，但我并没有机会……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:涉嫌药物违规，你和格雷都脱不了干系。+只有说实话才能减轻处罚结果，明白吗？
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……我真的不知道！+我都不知道你到底要我说什么……
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:该说的能说的不能说的我都说了，不对，我没有不能说的！+我知道的东西已经全部交代了！+你要是非得抓我去坐牢，那我也只能去坐牢了！
-NPC-Keven(5)<Speaker>J</Speaker>||:……
-NPC-Keven(5);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……我这种情况法律最多判几年？+三年？五年？不是吧我怎么这么倒霉……我工作还不到一年呢……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:……不到一年？不到一年格雷就这么信任你把伊登给你负责了？
-NPC-Keven(5);NPC-Nele(3)<Speaker>奈乐</Speaker>||:哈？我不是伊登的项目牵头人和主要负责人啊……+我就是个处理实验数据的打杂新员工……
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:……那保护伊登需要你去？+你拿多少股份你这么主动负责？
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:哒哒哒……脚步声突然响起，随后大门被一个男人拉开。
-()<Speaker>年轻的男人</Speaker>||:J前辈？我……我走错了，不好意思。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:门被迅速合上，两秒钟后，门再度被打开。
-()<Speaker>年轻的男人</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Door_Open</SE1>:J前辈，高奈莉娅·舍夫尔？……这，这场好像是我负责的笔录？
-NPC-Keven(0)<Speaker>J</Speaker>||:嗯，这位小姐我之前认识。+特地过来安抚一下她的情绪，免得被我们斯塔西的拷问吓破了胆。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……你不是来做笔录的吗？
-NPC-Keven(0)<Speaker>J</Speaker>||:我什么时候说过我是来做笔录的？
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……
-()<Speaker>年轻的男人</Speaker>||:原来如此，前辈辛苦了。
-NPC-Keven(0)<Speaker>J</Speaker>||:嗯，奈乐小姐，不用太紧张哈。+我先出去了，回见！
-()<Speaker>年轻的男人</Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:你居然认识我们这里的高级特工……不简单啊，小姐。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……
+()<Speaker></Speaker>||<BGM>BGM_Truth</BGM><BIN>158</BIN><黑屏2><关闭蒙版>:Inside a Stasi interrogation room.
+()<Speaker></Speaker>||:The chair is metal, made freezing cold by the air conditioning. The agony of waiting and the fear of the unknown blend into one, and Nele can't help but rub her hands together. +The sound of footsteps approaches, as though to pronounce her final judgment.
+NPC-Keven(0)<Speaker>J</Speaker>||:Oh hey~ If it isn't Frau Nele. What a coincidence, we meet again.
+NPC-Nele(2)<Speaker>Nele</Speaker>||:... 
+NPC-Keven(0)<Speaker>J</Speaker>||:Do you feel surprised?
+NPC-Nele(3)<Speaker>Nele</Speaker>||:...Not in the least.
+NPC-Keven(0)<Speaker>J</Speaker>||:Then do you feel scared?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:...Yes, a little.
+NPC-Keven(0)<Speaker>J</Speaker>||:Good~ Our objective is achieved. +Well, that's all for the pleasantries. Let's cut to the chase.
+()<Speaker></Speaker>||:J slaps the notebook in his hand onto the table with a "thwap", then pulls out a chair and sits down. He places his elbows on the table and leans his chin on interlaced fingers. +In Nele's eyes, this is the first time this undisciplined field agent has ever appeared stern and serious. It fills her with a strange sense of terror... 
+NPC-Keven(5)<Speaker>J</Speaker>||:Did you know there was a problem with the serum?
+NPC-Keven(5);NPC-Nele(2)<Speaker>Nele</Speaker>||:I knew, no, I didn't! +...What I mean is... Although the serum hadn't passed the Phase III trials yet, this problem had never come up before in earlier experiments, so I don't know why that happened to the man I administered it to... 
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:He was looking so much better at the time... Also, I've given you the rest of the serum! +What did the tests say?
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:Who gave you the medicine? Gray?
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:...Nobody gave it to me. I went back to my lab to get it, you know, when I ran into you.
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:Why did you do it?
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:I told you last time, didn't I? It's because the government suddenly ordered a halt to the experiments, and we'd only just managed to produce the new batch of test product after a lot of hard work... 
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:I was worried that it would be compromised, so I took some of it... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:How many people had access to this serum?
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:...I don't know.
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:You don't know or you don't want to say?
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:I don't know! Really... I really don't know! +Everyone in the lab had different clearance levels, I don't know how many people had direct access to the serum... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:Let's change the question then. Who brought you into Gray's lab?
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:...It was Mrs. Gray... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:She personally recruited you? So you had a nepotistic connection to Gray, then?
+NPC-Keven(5);NPC-Nele(2)<Speaker>Nele</Speaker>||:Nonononono! I attended one of Mrs. Gray's seminars while I was an undergrad and I submitted lots of resumes to them after I graduated.
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:I got in through legitimate channels and a proper interview!
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:Then did you know that Gray has been involved in the recent terrorist attacks?
+NPC-Keven(5);NPC-Nele(2)<Speaker>Nele</Speaker>||:WHAT??? +No, that can't be! Mrs. Gray is just a pharmacological expert, how could she be involved in terrorism...? There must be some mistake.
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(2)||:Just answer the question. +Do you know where she's been over the past couple of weeks?
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:...I don't know, I'm just an assistant, I'm not her secretary or driver... +Come to think of it, I don't think Mrs. Gray had a secretary at all... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:So when was the last time you saw her in the flesh?
+NPC-Keven(5);NPC-Nele(2)<Speaker>Nele</Speaker>||:Around the 10th of last month? No, that was through a video call... +I don't think she was in the lab for the past six months. Oh, yes! She came to the company earlier, to take an interview!
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(2)||:Do you think it makes sense? +A pharmacological expert not taking part in research at her lab for extended periods of time... 
+NPC-Nele(3)<Speaker>Nele</Speaker>||:...Are you suspecting Mrs. Gray? +It was my decision to inject that man with the serum! It has nothing to do with her!
+()<Speaker></Speaker>||:J glaces at the clock on the wall, his eyes full of impatience. +The minute hand ticks in its progression, causing his forehead to furrow even more.
+NPC-Keven(5)<Speaker>J</Speaker>||:Have you thought things through? +Every answer you give will affect where you will spend the rest of your days.
+NPC-Keven(5)<Speaker>J</Speaker>||:The fact that Gray entrusted Idunn to you is a clear sign that she holds you in high regard, yet you're claiming ignorance... +Frau Nele, I have run out of patience with you.
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:But it's true! I really... I really don't know anything... +I wanted to work with Mrs. Gray more, but I never had the chance... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:You are suspected of drug law violations, and you are inextricably linked to Gray. +Your only hope for a lighter sentence is to speak the truth. Do you understand me?
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:...But I really don't know anything! +I don't even know what you want me to say... 
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:I've said what I should say, can say and can't say. No, wait, I don't mean there's anything I can't say! +I've told you everything I know! +If you want to lock me up, then all I can do is go to jail!
+NPC-Keven(5)<Speaker>J</Speaker>||:... 
+NPC-Keven(5);NPC-Nele(1)<Speaker>Nele</Speaker>||:...What's the maximum sentence I'm looking at? +Three years? Five years? It can't be, right? Surely I can't be that unlucky... It hasn't even been a year since I started working there... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(1)||:...You've been working there for less than a year? Gray trusted you so much that she let you handle Idunn in less than a year?
+NPC-Keven(5);NPC-Nele(3)<Speaker>Nele</Speaker>||:Huh? I wasn't the project lead or head supervisor for the Idunn project... +I'm just a newcomer who did data processing and odd jobs around the lab... 
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Nele(3)||:...Then why did you have to protect the Idunn samples yourself? +How many shares of the company are you holding? Must be quite a lot for you to be so eager to take personal responsibility?
+NPC-Nele(3)<Speaker>Nele</Speaker>||:... 
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Tap tap tap... The sound of rapid footsteps approached abruptly, then the door is pulled open by a man.
+()<Speaker>Young Man</Speaker>||:Herr J? I... Sorry, I'm in the wrong room, my apologies.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:The door quickly closes. Two seconds later, it opens again.
+()<Speaker>Young Man</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Door_Open</SE1>:Herr J? Frau Cornelia Schaefer? ...I believe I'm supposed to be taking her statement?
+NPC-Keven(0)<Speaker>J</Speaker>||:Yeah, I know Cornelia from a previous encounter. +I specially came over to soothe her, lest she be scared out of her wits by Stasi interrogation.
+NPC-Nele(2)<Speaker>Nele</Speaker>||:...You mean you're not here to take my statement?
+NPC-Keven(0)<Speaker>J</Speaker>||:When did I ever say I was here to take your statement?
+NPC-Nele(2)<Speaker>Nele</Speaker>||:... 
+()<Speaker>Young Man</Speaker>||:I see, thank you for your hard work, Herr J.
+NPC-Keven(0)<Speaker>J</Speaker>||:Yep. Don't be too nervous, Frau Nele. +I'll be off now. Tschüss~
+()<Speaker>Young Man</Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:So you actually know one of our top agents... You're something else, ma'am.
+NPC-Nele(2)<Speaker>Nele</Speaker>||:... 
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>315</BIN>:垂头丧气的奈乐走了出来，等候在门口的米娅赶忙迎了上去。
-APC556(5)<Speaker>米娅</Speaker><Position>0,120</Position>||:没事吧？奈乐。
-APC556(5)<Position>0,120</Position>;NPC-Nele(1)<Speaker>奈乐</Speaker>||:……检测是通过了，但东西还是全部没收了，而且这段时间我必须随传随到，不能离开柏林。
-APC556(5)<Speaker>米娅</Speaker><Position>0,120</Position>;NPC-Nele(1)||:带走你的居然不是警察而是斯塔西，真是吓人。
-APC556(5)<Position>0,120</Position>;NPC-Nele(3)<Speaker>奈乐</Speaker>||:……说是非法使用药剂涉嫌制造恐慌，就移交到这里了。+那个讨厌的特工还过来恐吓我！
-APC556(4)<Speaker>米娅</Speaker><Position>0,120</Position>;NPC-Nele(3)||:是那个叫J的？
-APC556(4)<Position>0,120</Position>;NPC-Nele(3)<Speaker>奈乐</Speaker>||:对！说老师跟恐袭事件有关，吓死我了！
-APC556(4)<Speaker>米娅</Speaker><Position>0,120</Position>;NPC-Nele(3)||:那最后怎么样？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……+暂时，还没有得出结论……
-()<Speaker></Speaker>||:宽敞的街道上，阳光有些刺目。+一时之间，二人陷入沉默。
-()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>315</BIN>:A dejected Nele leaves the building. Mia is waiting at the doorway and runs up to meet her.
+APC556(5)<Speaker>Mia</Speaker><Position>0,120</Position>||:Are you alright, Nele?
+APC556(5)<Position>0,120</Position>;NPC-Nele(1)<Speaker>Nele</Speaker>||:...It passed their test, but they confiscated everything and I'm basically on house arrest for the time being, so I can't leave Berlin.
+APC556(5)<Speaker>Mia</Speaker><Position>0,120</Position>;NPC-Nele(1)||:I can't believe it was the Stasi that took you away instead of the cops, that was scary.
+APC556(5)<Position>0,120</Position>;NPC-Nele(3)<Speaker>Nele</Speaker>||:...They said I was suspected of causing public panic with illegal drugs and transferred me here. +That stupid agent even came over to intimidate me!
+APC556(4)<Speaker>Mia</Speaker><Position>0,120</Position>;NPC-Nele(3)||:You mean that J?
+APC556(4)<Position>0,120</Position>;NPC-Nele(3)<Speaker>Nele</Speaker>||:Yes, him! He said Mrs. Gray was involved in terrorism and whatnot, it scared me to death!
+APC556(4)<Speaker>Mia</Speaker><Position>0,120</Position>;NPC-Nele(3)||:So what happened in the end?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:... +They haven't reached a conclusion yet... 
+()<Speaker></Speaker>||:The sunlight on the broad streets is a little glaring. +The two of them fall silent for a while.
+()||<黑屏1>:

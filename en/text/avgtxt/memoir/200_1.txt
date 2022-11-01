@@ -1,79 +1,79 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>187</BIN><BGM>BGM_Danger</BGM>:战地。
-()||<SE1>Explode</SE1>:轰！
-M1895Mod(0)<Speaker>纳甘左轮</Speaker>||:老莫！想想办法啊！这群混蛋的火力太猛了！
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:哈哈，我本来还以为只是简单的逮捕任务呢。+没想到这群人居然还有在走私军火……现在向基地求援来不来得及啊？
-M1895Mod(0)<Speaker>纳甘左轮</Speaker>||:你开什么玩笑！等基地的援军赶过来黄花菜都凉了！+只能靠我们自己解决，要不然就赶紧撤退！
-06TypeSMG(0)<Speaker>CF05</Speaker>||:啥子？撤退？那我们这次不是白瞎了吗？
-xm3(0)<Speaker>XM3</Speaker>||:……撤退是行不通的。+如果我们现在离开，之后就很难再追踪到他们了。+基本上就等同于宣告任务失败。
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:XM3说得没错，除非你愿意咽下这口气。
-M1895Mod(0)<Speaker>纳甘左轮</Speaker>||:啧！那你说怎么办？
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:嗯……
-()||:莫辛纳甘拿起小型的望远镜，探出掩体小心地观察了一下火力猛烈的对手。
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:如果能炸掉他们那两辆皮卡的火药，说不准还有机会。+但是，大家也都不是新兵菜鸟，各自心里都清楚吧？这是自杀行动。
-M1895Mod(0)<Speaker>纳甘左轮</Speaker>||:用一个人损毁的代价换任务成功吗……也挺划算的。+看来也只能这样了，谁去？
-06TypeSMG(0)<Speaker>CF05</Speaker>||:那当然我去咯！我才是突击手啊！
-xm3(0)<Speaker>XM3</Speaker>||:不行。
-06TypeSMG(0)<Speaker>CF05</Speaker>||:欸？为啥子？
-xm3(0)<Speaker>XM3</Speaker>||:正因为你是突击手，所以才不能让你执行这种任务……+后续的战斗中，你是必不可少的。
-06TypeSMG(0)<Speaker>CF05</Speaker>||:你说的也不是没有道理……但除了我，你们还有人去得了吗？+莫辛纳甘是队长，总不能让她去吧？
-xm3(0)<Speaker>XM3</Speaker>||:对……所以，我去就行了。
-()||<SE1>Select</SE1>:XM3拿起了手里的枪。
-06TypeSMG(0)<Speaker>CF05</Speaker>||:你……你行吗？
-xm3(0)<Speaker>XM3</Speaker>||:当然。+我会完成任务——而且，我不是去送死的，我会活着回来。+别那么理所当然地就把阵亡当成家常便饭，就算有心智备份也要珍惜生命。
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:能拜托你吗？XM3？
-xm3(0)<Speaker>XM3</Speaker>||:交给我吧。
-()||:XM3拿起自己的武器，一副冷静的样子，丝毫也看不出她刚才的话是在作伪。+她一个翻身便从掩体后蹿了出去，敏捷的动作让她没一会便从众人的视野内消失了。
-()||<SE2>Gunfight</SE2>:剩下的三人赶忙端起枪口进行火力压制，在为XM3提供掩护的同时，CF05也忍不住开口。
-06TypeSMG(0)<Speaker>CF05</Speaker>||:……她认真的吗？执行这种任务还打算活着回来？
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:你还是第一次跟XM3出任务吧。+相信她吧，她可是“不死的XM3”喔。
-06TypeSMG(0)<Speaker>CF05</Speaker>||:啥咧！那外号也太蠢了吧！
-M1895Mod(0)<Speaker>纳甘左轮</Speaker>||:玩笑归玩笑……XM3可是很强的。+我听说她已经不是第一次从这种战场上全身而退了。
-06TypeSMG(0)<Speaker>CF05</Speaker>||:真的假的……
-()||<SE1>Explode</SE1>:轰！！！
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:炸了！
-M1895Mod(0)<Speaker>纳甘左轮</Speaker>||:趁现在！压制他们！
-06TypeSMG(0)<Speaker>CF05</Speaker>||:快，快，快看！！是小老妹儿！！她居然真的活着欸！！
-M1891Mod(0)<Speaker>莫辛纳甘</Speaker>||:哈哈哈！干得漂亮！+冲锋！
-()||<黑屏1><BGM>BGM_Empty</BGM>:……
-()||<黑屏2><BIN>160</BIN><BGM>BGM_Hello</BGM>:格里芬 医务室
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:……怎么样？
-gsh18(2)<Speaker>GSh-18</Speaker>||:唔……嗯……
-xm3(2)<Speaker>XM3</Speaker>||:你直接说吧，不用考虑我的心情。
-gsh18(2)<Speaker>GSh-18</Speaker>||:啊？啊……也没那么夸张啦。+你最近受伤的程度越来越小了，这次应该只需要换掉20%的零件就可以。
-xm3(2)<Speaker>XM3</Speaker>||:呼……
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:2，20%？这也算受伤程度很小吗？+不，虽然看过任务报告之后是觉得在那种情况下能活下来就很了不起了。+但这不是相当的重伤吗？
-gsh18(2)<Speaker>GSh-18</Speaker>||:都事到如今了，格琳娜小姐你还没有习惯吗？+XM3又不是第一次这个样子。
-xm3(3)<Speaker>XM3</Speaker>||:……
-()||:看着坐在一旁的格琳娜，XM3抱歉地点了点头。
-xm3(2)<Speaker>XM3</Speaker>||:是的，我已经习惯了，请不用为我担心。
-gsh18(2)<Speaker>GSh-18</Speaker>||:不过，虽然一直以来都是这样，但是恐怕这种事今后是没办法再继续下去了。
-xm3(2)<Speaker>XM3</Speaker>||:欸？
-gsh18(2)<Speaker>GSh-18</Speaker>||:今天我特意把格琳娜小姐也找来的原因就是这个，XM3。+有很重要的事要告诉你。
-xm3(2)<Speaker>XM3</Speaker>||:很重要的事？
-()||:GSh-18点了点头，拉开了办公桌的抽屉，从里面取出两份文件。
-gsh18(2)<Speaker>GSh-18</Speaker>||:一直以来，你为格里芬做出了很多卓越的贡献。+并且自军方演习动乱之后，你再也没有过报废记录。+仅依靠修理走到今天，实在很了不起。+但是……
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:但是，XM3，你的素体停产了。
-xm3(1)<Speaker>XM3</Speaker>||:……什，什么？
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:不止是素体，就连你身上使用的那些型号的零件，我现在也很难买到。+这样下去，下次任务如果你再受损，甚至报废的话，格里芬的库存已经很难支撑让你再次重返战场的需要了。
-gsh18(2)<Speaker>GSh-18</Speaker>||:所以，我们的建议是，你可能必须要退役了。
-xm3(1)<Speaker>XM3</Speaker>||:……退役？
-()||:XM3看着Gsh-18，脸上的表情看不出是怎样的情绪。+但格琳娜却敏锐地发觉她放在膝盖上的手在微微颤抖。
-gsh18(2)<Speaker>GSh-18</Speaker>||:长期没有报废记录，实在是非常华丽的履历。+但反过来说，你现在这具素体，已经很久没有换过了。+恕我直言，它的寿命已经被你折腾到底了，就算退役转去做民用人形，我都说不好你还能撑多久。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:更不用说高强度的战术人形工作了。
-xm3(2)<Speaker>XM3</Speaker>||:还有别的选择吗？+就算很麻烦或者很痛苦也没关系。+我还是想继续做战术人形。
-gsh18(2)<Speaker>GSh-18</Speaker>||:……
-()||:GSh-18沉默地看着XM3，把退役文件放回抽屉，留下了另一份文件。
-gsh18(2)<Speaker>GSh-18</Speaker>||:你的确还有第二个选择——接受改造。
-xm3(3)<Speaker>XM3</Speaker>||:……
-()||:XM3接过了GSh-18递过来的文件，文件的边角已经泛黄起皱，不知道被摆在档案室里虚度了多少时间。
-gsh18(2)<Speaker>GSh-18</Speaker>||:我听说你回绝了很多次？+虽然不知道你有什么理由，但是这次，如果你依然拒绝的话。+那我只能请指挥官批准你的退役通知单了。
-()||:XM3捏着文件，目光微微有些游离。
-xm3(2)<Speaker>XM3</Speaker>||:让我再考虑一下吧。
-gsh18(2)<Speaker>GSh-18</Speaker>||:事到如今了还有什么好考虑的……算啦，这也是你的自由。+我只能说这么多了，剩下的就交给你了，格琳娜小姐。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嗯，放心吧。
-()||:格琳娜对着GSh-18无奈地笑了笑，扭头看向了XM3。+后者盯着手里的文件看了好一会，最后将它放回到了医务室的办公桌上，随即站了起来。
-xm3(2)<Speaker>XM3</Speaker>||:我最迟要什么时候给出答复？
-gsh18(2)<Speaker>GSh-18</Speaker>||:这周前。
-xm3(3)<Speaker>XM3</Speaker>||:……我知道了。
-()||<黑屏1>:XM3点了点头，转身走向了医务室的大门。
+()||<黑屏2><BIN>187</BIN><BGM>BGM_Danger</BGM>:On the battlefield.
+()||<SE1>Explode</SE1>:Boom!
+M1895Mod(0)<Speaker>M1895</Speaker>||:Hey Mo! Think of something already! Those bastards are laying down too much fire!
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:Haha, I thought this was going to be a simple capture assignment. +Who would have thought they're also smuggling military firearms... If we radio the base for help, will they make it in time?
+M1895Mod(0)<Speaker>M1895</Speaker>||:You're kidding, right? Our ashes will have gone cold by the time reinforcements from the base arrive! +Either we handle this ourselves or we hurry up and fall back!
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:Say what? Retreat? Then this would all be a waste of time!
+xm3(0)<Speaker>XM3</Speaker>||:...We can't fall back. +If we leave now, we'll have a very hard time finding them again. +Essentially, the mission will end in failure.
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:XM3's right, unless you're willing to just accept that.
+M1895Mod(0)<Speaker>M1895</Speaker>||:Tsk. Then what should we do?
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:Erm...
+()||:Mosin-Nagant takes out a miniature telescope and pokes her head out from behind her cover to carefully examine the adversaries who are raining all this intense firepower down on them.
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:We might have a chance if we can blow up the ammo in those two pickup trucks of theirs. +But none of us are rookies and we all know the score, right? That would be a suicide mission.
+M1895Mod(0)<Speaker>M1895</Speaker>||:So we're trading one life for the success of the mission... Sounds like a good deal. +I don't think we have no choice. Who's up?
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:That'd be me. I'm a shocktrooper, after all!
+xm3(0)<Speaker>XM3</Speaker>||:No can do.
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:Eh? Why not?
+xm3(0)<Speaker>XM3</Speaker>||:It is because you're a shocktrooper that we can't let you do this... +You'll be essential in the upcoming battles.
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:Well, you do have a point there... But who else can go other than me? +Mosin-Nagant is the team leader, so we can't let her go, right?
+xm3(0)<Speaker>XM3</Speaker>||:Correct... Which is why I'll be going.
+()||<SE1>Select</SE1>:XM3 takes up her gun.
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:You... Are you sure you can do this?
+xm3(0)<Speaker>XM3</Speaker>||:Of course. +I will complete the mission. Besides, I'm not going out there to die. I'm fully intent on coming back alive. +Don't make a casual habit out of being KIA. You need to cherish your life even if you have neural cloud backups.
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:Can we count on you then, XM3?
+xm3(0)<Speaker>XM3</Speaker>||:Leave it to me.
+()||:XM3 grabs her gun. She looks calm and collected; it's impossible to tell that everything she just said was all bravado. +She vaults over the cover and dashes out, her nimble movements taking her out of sight in an instant.
+()||<SE2>Gunfight</SE2>:The other three Dolls hurriedly pick up their guns and lay down suppressive fire, but as they cover XM3, CF-05 can't help but speak up.
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:...Is she serious? Does she really plan to come back alive from a mission like that?
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:This is your first time going on a mission with XM3, right? +Have faith in her. She's the "Immortal XM3".
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:The heck? What a super dorky nickname!
+M1895Mod(0)<Speaker>M1895</Speaker>||:Jokes aside... XM3 really is very strong. +I've heard that she's survived battles like this several times in the past.
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:You're kidding, right...?
+()||<SE1>Explode</SE1>:BOOM!!!
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:There they go!
+M1895Mod(0)<Speaker>M1895</Speaker>||:Suppressive fire, now!
+06TypeSMG(0)<Speaker>CF-05</Speaker>||:H-Holy crap! Girls, look! It's her! She actually made it!
+M1891Mod(0)<Speaker>Mosin-Nagant</Speaker>||:Hahaha! Well done! +Now CHARGE!
+()||<黑屏1><BGM>BGM_Empty</BGM>:...
+()||<黑屏2><BIN>160</BIN><BGM>BGM_Hello</BGM>:In the Griffin medical bay.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:...So, how is it?
+gsh18(2)<Speaker>GSh-18</Speaker>||:Um...
+xm3(2)<Speaker>XM3</Speaker>||:Just tell me, no need to spare my feelings.
+gsh18(2)<Speaker>GSh-18</Speaker>||:Huh? Uh... Well, it's not that bad. +You've only been taking relatively light damage recently, so we only need to replace 20% of your parts.
+xm3(2)<Speaker>XM3</Speaker>||:Whew...
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:2-20%? Is that what you call light damage? +No, I read that combat report. Just surviving under those conditions was impressive enough. +Still, your injury is still rather extensive.
+gsh18(2)<Speaker>GSh-18</Speaker>||:Haven't you gotten used to it by now, Miss Kalina? +This is hardly the first time Miss XM3 has ended up in such a state.
+xm3(3)<Speaker>XM3</Speaker>||:...
+()||:XM3 nods apologetically as she looks at Kalina, who's seated off to the side.
+xm3(2)<Speaker>XM3</Speaker>||:It's true, I'm already used to it. Please don't worry yourself on my account.
+gsh18(2)<Speaker>GSh-18</Speaker>||:That said, while you might have gotten by like this up till now, you probably won't be able to keep it up for long.
+xm3(2)<Speaker>XM3</Speaker>||:Huh?
+gsh18(2)<Speaker>GSh-18</Speaker>||:It's the reason why I went out of my way to bring Miss Kalina here. +XM3, I have something very important to tell you.
+xm3(2)<Speaker>XM3</Speaker>||:Something important?
+()||:GSh-18 nods and opens her desk drawer to take out two documents.
+gsh18(2)<Speaker>GSh-18</Speaker>||:You have a long and distinguished service record with Griffin. +And ever since that incident during the joint military exercise, you haven't written off any of your bodies. +Coming this far by repairs alone is a very impressive thing. +However...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:XM3, your body type has gone out of production.
+xm3(1)<Speaker>XM3</Speaker>||:...Wait, what?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:It's not just your body, I'm also having a hard time just buying the parts for your chassis model. +At this rate, if you end up getting damaged or if your body gets written off entirely, it'll be very hard for Griffin to send you back to the battlefield.
+gsh18(2)<Speaker>GSh-18</Speaker>||:Which is why we believe that it may be time for you to retire.
+xm3(1)<Speaker>XM3</Speaker>||:...Retire?
+()||:XM3 stares at GSh-18, her face unreadable. +However, the trembling hands resting on her knees do not escape Kalina's keen notice.
+gsh18(2)<Speaker>GSh-18</Speaker>||:You haven't had to replace your body for a long time, which is a very remarkable accomplishment. But on the flip side, it also means you haven't changed out your body in a long time. +Frankly speaking, you've used the hell out of it, and there's no telling how much longer you'll last even if you retire and go into a civilian job.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Let alone continuing the high-intensity work involved in being a Tactical Doll.
+xm3(2)<Speaker>XM3</Speaker>||:Is there some other option? +I don't mind even if it's painful or troublesome. +I still want to keep working as a Tactical Doll.
+gsh18(2)<Speaker>GSh-18</Speaker>||:...
+()||:GSh-18 looks quietly at XM3, then puts the retirement form back in the drawer, leaving the other one.
+gsh18(2)<Speaker>GSh-18</Speaker>||:You DO have a second option—undergo a neural upgrade.
+xm3(3)<Speaker>XM3</Speaker>||:...
+()||:XM3 takes the form from GSh-18. The corners are a little yellow and rumpled. It's impossible to tell how long it has languished in the data room.
+gsh18(2)<Speaker>GSh-18</Speaker>||:I heard you've refused it many times before. +I don't know what your reasons were, but if you continue to refuse... +Then I'll have no choice but to ask the Commander to sign off on your retirement slip.
+()||:XM3 tightens her grip on the document. Her eyes seem a little unfocused.
+xm3(2)<Speaker>XM3</Speaker>||:Give me some time to think about this.
+gsh18(2)<Speaker>GSh-18</Speaker>||:What's there to even think about... Eh, forget it, you're free to do that. +That's all I have to say. The rest is up to you, Miss Kalina.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Yeah, don't worry.
+()||:Kalina flashes GSh-18 a helpless smile before turning back to XM3. +The latter stares at the document in her hands for a long time. The she lays it back down on the desk and gets to her feet.
+xm3(2)<Speaker>XM3</Speaker>||:How long do I have to give an answer?
+gsh18(2)<Speaker>GSh-18</Speaker>||:We need to know by this week.
+xm3(3)<Speaker>XM3</Speaker>||:...Got it.
+()||<黑屏1>:XM3 nods. She turns and heads for the exit.
