@@ -260,7 +260,8 @@ patch3010={
 "3010/FormationEquipLabelController",
 "3010/HomeEventController",
 "3010/BattleData",
-"3010/CommonLive2DController",	
+"3010/CommonLive2DController",
+"3010/CommonPicController",		
 "3010/SquadStateController",
 "3010/GunStateRelatedStoryController",
 "3010/DeploymentCampaignExplain",		
@@ -273,6 +274,7 @@ patch3010={
 --"3010/SettingController",
 --"3010/language/FactoryDevelopLogController",
 "3010/AdjustAdjutantScaleController",		
+"3010/BattleController",		
 }
 -- va11
 print("load Va11");
