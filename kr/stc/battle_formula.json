@@ -157,19 +157,19 @@
   },
   {
     "id": 1040,
-    "formula": "(4+200/@Rate)*30*(1-@buff899*0.3)-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff899*0.3)-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff899*0.3)-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1041,
-    "formula": "(4+200/@Rate)*30*(1-@buff899*0.3)-2-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff899*0.3)-2-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff899*0.3)-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1042,
-    "formula": "(4+200/@Rate)*30*(1-@buff900*0.15)-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff900*0.15)-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff900*0.15)-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1043,
-    "formula": "(4+200/@Rate)*30*(1-@buff900*0.15)-2-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff900*0.15)-2-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff900*0.15)-2-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1044,
@@ -233,11 +233,11 @@
   },
   {
     "id": 1061,
-    "formula": "((4+200/@Rate)*30)*(1-@buff1407*0.3)-2-sbuffidtier(8585)*15"
+    "formula": "((4+200/@Rate)*30)*(1-@buff1407*0.2)-2-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff1407*0.2)-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1062,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.2)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.2)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1063,
@@ -257,11 +257,11 @@
   },
   {
     "id": 1067,
-    "formula": "(4+200/@Rate)*30*(1-@buff1420*0.25)-2-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff1420*0.25)-2-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff1420*0.25)-2-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1068,
-    "formula": "(4+200/@Rate)*30*(1-@buff1420*0.25)-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff1420*0.25)-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff1420*0.25)-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1069,
@@ -277,39 +277,39 @@
   },
   {
     "id": 1072,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.1)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.1)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1073,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.11)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.11)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1074,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.12)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.12)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1075,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.13)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.13)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1076,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.14)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.14)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1077,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.16)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.16)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1078,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.17)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.17)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1079,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.18)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.18)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1080,
-    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.19)?0:1"
+    "formula": "@buff1366<((4+200/@Rate)*30)*(1-@buff1407*0.19)-sbuffidtier(8585)*15?0:1"
   },
   {
     "id": 1081,
@@ -1793,11 +1793,11 @@
   },
   {
     "id": 1519,
-    "formula": "(4+200/@Rate)*30*(1-@buff4165*0.2)-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff4165*0.2)-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff4165*0.2)-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1520,
-    "formula": "(4+200/@Rate)*30*(1-@buff4165*0.2)-2-sbuffidtier(8585)*15"
+    "formula": "(4+200/@Rate)*30*(1-@buff4165*0.2)-2-sbuffidtier(8585)*15>5?(4+200/@Rate)*30*(1-@buff4165*0.2)-2-sbuffidtier(8585)*15:5"
   },
   {
     "id": 1524,
