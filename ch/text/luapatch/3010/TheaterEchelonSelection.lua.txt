@@ -8,6 +8,8 @@ local InitUIElements = function(self)
 		txt1:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(210105);
 		local txt2 = self.transform:Find("Right/TheaterEchelonSelectionEnemyInfo/Top_Filter/Btn_ACE/Title/UI_Text");
 		txt2:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(210104);
+		local txt3 = self.transform:Find("Left/Holder/TheaterFormationTile/Panel/ChangeCaptain/On/Tex_Information");
+		txt3:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(210300);
 	end
 end
 

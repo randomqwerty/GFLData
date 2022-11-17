@@ -47,6 +47,8 @@ MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //MissionSelectionTex|missionselect_Bikini_2022|1|-52
 //2022夏活配置：
 MissionSelectionTex|missionselect_2022Summer|1|-54
+//终焉花海复刻配置：
+MissionSelectionTex|missionselect_Reversible_RE|2|-55
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -79,6 +81,7 @@ OPSPanelScene|-51|-51
 OPSPanelScene|-52|-52
 OPSPanelScene|-53|-53
 OPSPanelScene|-54|-54
+OPSPanelScene|-55|-55
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -129,6 +132,7 @@ OPSLeftBGNormalActivity|-50|WhiteDay_2022_Left
 OPSLeftBGNormalActivity|-53|Isomer_Left
 OPSLeftBGNormalActivity|-52|Bikini_2022_Left
 OPSLeftBGNormalActivity|-54|2022SummerLogo
+OPSLeftBGNormalActivity|-55|Reversible_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -160,7 +164,9 @@ OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
 //OPSNoticeNormalActivity|-52|Bikini_2022_Notice
-OPSNoticeNormalActivity|-54|2022Summer_Notice
+//OPSNoticeNormalActivity|-54|2022Summer_Notice
+OPSNoticeNormalActivity|-55|Reversible_Notice
+
 //时间公告-预制物(公用)
 OPSTime|SingTime
 //OPSTimeNormalActivity|-31|Isomer_Time
@@ -181,6 +187,7 @@ OPSTimeNormalActivity|-50|Reversible_Time
 OPSTimeNormalActivity|-53|Reversible_Time
 OPSTimeNormalActivity|-52|Bikini_2022_Time
 OPSTimeNormalActivity|-54|2022Summer_Time
+OPSTimeNormalActivity|-55|Reversible_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -212,6 +219,11 @@ OPSGoto|Hallowmas_2020_GotoMall|0
 //OPSGoto|Continuum_PointExchange|2
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 OPSGoto|2022Summer_GotoMall|0|-54
+//终焉花海复刻配置_积分界面跳转
+//OPSGoto|Continuum_PointExchange|2
+//OPSGoto|Bikini_2022_GotoMall|0|-52
+OPSGoto|2022Summer_GotoMall|0|-55
+
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -1547,3 +1559,6 @@ OPSCampaignDetail|-54_113|0,0|Dr_Eugene
 OPSCampaignDetail|-54_114|0,0|Railway_figure
 OPSCampaignDetail|-54_115|0,0|Railway_figure
 OPSCampaignDetail|-54_116|0,0|Railway_figure
+
+//终焉花海复刻配置
+OPSCampaignDetail|-55_1|0,0|Gustaf_2
