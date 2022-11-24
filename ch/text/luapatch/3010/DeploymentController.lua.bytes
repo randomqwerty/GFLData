@@ -136,7 +136,9 @@ local ViewSummary = function()
 end
 local RequestMoveTeamHandle = function(self,request)
 	self:RequestMoveTeamHandle(request);
-	self:AddAndPlayPerformance(ViewSummary);
+	if self._randomEventController == nil then
+		self:AddAndPlayPerformance(ViewSummary);
+	end
 end
 
 local CheckBuildActionSkill = function(self,team,buildskill)
