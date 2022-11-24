@@ -99,16 +99,15 @@ local InitUIElements = function(self)
 	self.OptionInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 3;	
 end
 
-local SelectTeam = function(self,team)
+local TriggerSelectTeam = function(team)
 	if team ~= nil then
 		if team.currentSpot.currentTeam ~= team then
-			self:SelectTeam(nil);
+			CS.DeploymentController.TriggerSelectTeam(nil);
 			return;
 		end
 	end
-	self:SelectTeam(team);
+	CS.DeploymentController.TriggerSelectTeam(team);
 end
-
 function ShowSettlement()
 	if CS.GameData.currentSelectedMissionInfo.missionType ~= CS.MissionType.simulation then
 		CS.DeploymentController.Instance:ShowCommonBattleSettlement();
@@ -128,17 +127,37 @@ local TriggerRefreshUIEvent = function()
 	CS.DeploymentController.TriggerRefreshUIEvent();
 end
 
-local CheckBuild = function(self)
-	self:CheckBuild();
-	CS.DeploymentController.TriggerSelectTeam(self.currentSelectedTeam);
+local SelectTeamSelf = function()
+	CS.DeploymentController.TriggerSelectTeam(CS.DeploymentController.Instance.currentSelectedTeam);
+end
+local ViewSummary = function()
+	CS.DeploymentController.Instance:PlayViewSummary();
+	CS.DeploymentController.AddAction(SelectTeamSelf,0.2);
+end
+local RequestMoveTeamHandle = function(self,request)
+	self:RequestMoveTeamHandle(request);
+	self:AddAndPlayPerformance(ViewSummary);
+end
+
+local CheckBuildActionSkill = function(self,team,buildskill)
+	self:CheckBuildActionSkill(team,buildskill);
+	for i=0,buildskill.Count-1 do
+		for j=buildskill[i].targetSpotAction.Count-1,0,-1 do
+			local spot = buildskill[i].targetSpotAction[j].spot;
+			if not spot.Show then
+				buildskill[i].targetSpotAction:RemoveAt(j);
+			end
+		end
+	end
 end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
 util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamForce)
-util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
+util.hotfix_ex(CS.DeploymentController,'TriggerSelectTeam',TriggerSelectTeam)
 util.hotfix_ex(CS.DeploymentController,'ShowSettlement',ShowSettlement)
 util.hotfix_ex(CS.DeploymentController,'TriggerRefreshUIEvent',TriggerRefreshUIEvent)
-util.hotfix_ex(CS.DeploymentController,'CheckBuild',CheckBuild)
+util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
+util.hotfix_ex(CS.DeploymentController,'CheckBuildActionSkill',CheckBuildActionSkill)
 
 

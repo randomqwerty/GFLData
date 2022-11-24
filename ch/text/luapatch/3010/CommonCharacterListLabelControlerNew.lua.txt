@@ -13,7 +13,12 @@ xlua.private_accessible(CS.CommonCharacterListLabelControlerNew)
 local UpdateInfo = function(self)
 	self:UpdateInfo();
 	if self.listType == CS.ListType.theater or self.listType == CS.ListType.theateAlterFormation then
-		self.canSelect = "";
+		if self.canSelect == CS.Data.GetLang(100028) or self.canSelect == CS.Data.GetLang(100031)
+			or self.canSelect == CS.Data.GetLang(100029) or self.canSelect == CS.Data.GetLang(100030) 
+			or self.canSelect == CS.Data.GetLang(31849) then
+			self.canSelect = "";
+		end
+		
 	end
 end
 util.hotfix_ex(CS.CommonCharacterListLabelControlerNew,'UpdateInfo',UpdateInfo)

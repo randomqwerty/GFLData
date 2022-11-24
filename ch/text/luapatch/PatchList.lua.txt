@@ -189,7 +189,8 @@ patch3010={
 "3010/DeploymentBuildSkillItem",
 "3010/DeploymentSpotController",
 "3010/DeploymentPlanModeController",
-"3010/DeploymentBackgroundController",	
+"3010/DeploymentBackgroundController",
+"3010/DeploymentAllyTeamController",		
 "3010/DeploymentLine",
 "3010/DeploymentTeamInfoController",	
 "3010/SpotNightQuad",							
@@ -286,6 +287,8 @@ patch3010={
 "3010/ConfigData",
 "3010/BattleChangeBackgroundPerformanceController",
 "3010/CommonEquipmentListLabelControllerNew",
+"3010/FriendMallGoodController",
+"3010/FriendCosmeticDetailController",		
 }
 -- va11
 print("load Va11");
