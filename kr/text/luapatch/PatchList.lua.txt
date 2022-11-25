@@ -287,6 +287,8 @@ patch3010={
 "3010/ConfigData",
 "3010/BattleChangeBackgroundPerformanceController",
 "3010/CommonEquipmentListLabelControllerNew",
+"3010/FriendMallGoodController",
+"3010/FriendCosmeticDetailController",		
 }
 -- va11
 print("load Va11");

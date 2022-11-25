@@ -417,6 +417,13 @@ local GetAllGroupTotalHighScore = function(self)
 		end
 		return 0;
 	end
+	if self.campaionId == -55 then
+		local mission = CS.GameData.listMission:GetDataById(11320);
+		if mission ~= nil then
+			return mission.type5_score;
+		end
+		return 0;
+	end
 	return self:GetAllGroupTotalHighScore();
 end
 function Split(szFullString, szSeparator)
