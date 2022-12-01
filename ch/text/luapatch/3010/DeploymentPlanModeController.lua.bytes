@@ -10,8 +10,20 @@ local CheckData = function(self)
 	canvas.sortingOrder = spotCanvas.sortingOrder;
 end
 
-util.hotfix_ex(CS.DeploymentPlanModeController,'CheckData',CheckData)
+local OnClickFastSelect = function(self,on)
+	
+end
 
+local StartPlan = function(self)
+	if CS.DeploymentBuildSkillItem.currentSkillItem ~= nil then
+		CS.DeploymentBuildSkillItem.currentSkillItem:CloseAllSelectTarget();
+	end
+	self:StartPlan();
+end
+
+util.hotfix_ex(CS.DeploymentPlanModeController,'CheckData',CheckData)
+util.hotfix_ex(CS.DeploymentPlanModeController,'OnClickFastSelect',OnClickFastSelect)
+util.hotfix_ex(CS.DeploymentPlanModeController,'StartPlan',StartPlan)
 
 
 

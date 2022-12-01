@@ -1,9 +1,5 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.FriendMallGoodController)
-local testInit = xlua.get_generic_method(CS.FriendMallGoodController,"InitData");
-local testFunUse = testInit(CS.FriendMallGood);
-local testFun1Use = testInit(CS.FriendCosmetic);
-
 local Reset = function(self)
 	self.good = nil;
 	self.cosmetic = nil;
@@ -18,13 +14,12 @@ local Reset = function(self)
 		self.image.transform:GetChild(i).gameObject:SetActive(false);
 	end
 end
+--local testInit = xlua.get_generic_method(CS.FriendMallGoodController,'Init')
+--local testFunUse = testInit(CS.FriendMallGood)
+--local testFun1Use = testInit(CS.FriendCosmetic)
 --暂时关闭头像框标签
-local InitData = function(self,data)
-	if data.quota ~= nil then
-		testFunUse(self,data);
-	else
-		testFun1Use(self,data);
-	end
+local Init = function(self,data)
+	self:Init(data);
 	if self.cosmetic ~= nil then	
 		if self.cosmetic.type == CS.CosmeticType.headPic then
 			CS.CommonController.LoadImageAvatarWithSequenceFrame(self.image, self.cosmetic.id);
@@ -35,4 +30,4 @@ local InitData = function(self,data)
 end
 
 util.hotfix_ex(CS.FriendMallGoodController,'Reset',Reset)
-util.hotfix_ex(CS.FriendMallGoodController,'InitData',InitData)
+util.hotfix_ex(CS.FriendMallGoodController,'Init',Init)
