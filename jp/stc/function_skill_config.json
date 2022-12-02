@@ -8,7 +8,9 @@
     "description": "function_skill_config-20000101",
     "arguments": 3,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "extra_drop_rate_up"
   },
   {
     "id": 102,
@@ -19,7 +21,9 @@
     "description": "function_skill_config-20000102",
     "arguments": 1,
     "max_level": 5,
-    "is_show": 0
+    "is_show": 0,
+    "type": 1,
+    "function_skill": "battle_speed_up"
   },
   {
     "id": 103,
@@ -30,7 +34,9 @@
     "description": "function_skill_config-20000103",
     "arguments": 3,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "battle_favor_up"
   },
   {
     "id": 104,
@@ -41,7 +47,9 @@
     "description": "function_skill_config-20000104",
     "arguments": 3,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "battle_gun_exp_up"
   },
   {
     "id": 105,
@@ -52,7 +60,9 @@
     "description": "function_skill_config-20000105",
     "arguments": 5,
     "max_level": 3,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "battle_commander_exp_up"
   },
   {
     "id": 106,
@@ -63,7 +73,9 @@
     "description": "function_skill_config-20000106",
     "arguments": 3,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "battle_fairy_exp_up"
   },
   {
     "id": 107,
@@ -74,7 +86,9 @@
     "description": "function_skill_config-20000107",
     "arguments": 3,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "battle_squad_exp_up"
   },
   {
     "id": 108,
@@ -85,7 +99,9 @@
     "description": "function_skill_config-20000108",
     "arguments": 10,
     "max_level": 3,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "repair_time_reduce"
   },
   {
     "id": 109,
@@ -96,7 +112,9 @@
     "description": "function_skill_config-20000109",
     "arguments": 1,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "report_time_reduce"
   },
   {
     "id": 110,
@@ -107,7 +125,9 @@
     "description": "function_skill_config-20000110",
     "arguments": 5,
     "max_level": 3,
-    "is_show": 0
+    "is_show": 0,
+    "type": 1,
+    "function_skill": "exploration_reward_up"
   },
   {
     "id": 111,
@@ -118,7 +138,9 @@
     "description": "function_skill_config-20000111",
     "arguments": 1,
     "max_level": 5,
-    "is_show": 0
+    "is_show": 0,
+    "type": 1,
+    "function_skill": "exploration_mid_rate_up"
   },
   {
     "id": 112,
@@ -129,7 +151,9 @@
     "description": "function_skill_config-20000112",
     "arguments": 3,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "skill_time_reduce"
   },
   {
     "id": 113,
@@ -140,7 +164,9 @@
     "description": "function_skill_config-20000113",
     "arguments": 1,
     "max_level": 5,
-    "is_show": 1
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "equip_upgrade_up"
   },
   {
     "id": 114,
@@ -151,7 +177,9 @@
     "description": "function_skill_config-20000114",
     "arguments": 1,
     "max_level": 5,
-    "is_show": 0
+    "is_show": 0,
+    "type": 1,
+    "function_skill": "fairy_upgrade_up"
   },
   {
     "id": 115,
@@ -162,28 +190,268 @@
     "description": "function_skill_config-20000115",
     "arguments": 1,
     "max_level": 5,
-    "is_show": 0
+    "is_show": 1,
+    "type": 1,
+    "function_skill": "battery_recovery_up"
   },
   {
-    "id": 116,
-    "name": "function_skill_config-10000116",
+    "id": 118,
+    "name": "function_skill_config-10000118",
     "level": 1,
     "group_id": 0,
-    "code": "function_skill_icon_116",
-    "description": "function_skill_config-20000116",
+    "code": "function_skill_icon_118",
+    "description": "function_skill_config-20000118",
     "arguments": 1,
-    "max_level": 5,
-    "is_show": 0
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "auto_combat_resource_reduce"
   },
   {
-    "id": 117,
-    "name": "function_skill_config-10000117",
+    "id": 119,
+    "name": "function_skill_config-10000119",
     "level": 1,
     "group_id": 0,
-    "code": "function_skill_icon_117",
-    "description": "function_skill_config-20000117",
+    "code": "function_skill_icon_119",
+    "description": "function_skill_config-20000119",
     "arguments": 1,
-    "max_level": 5,
-    "is_show": 0
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "fairy_command_recovery_time_reduce"
+  },
+  {
+    "id": 120,
+    "name": "function_skill_config-10000120",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_120",
+    "description": "function_skill_config-20000120",
+    "arguments": 1,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "data_recovery_time_reduce"
+  },
+  {
+    "id": 124,
+    "name": "function_skill_config-10000124",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_124",
+    "description": "function_skill_config-20000124",
+    "arguments": 1,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "logistics_reward_up"
+  },
+  {
+    "id": 125,
+    "name": "function_skill_config-10000125",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_125",
+    "description": "function_skill_config-20000125",
+    "arguments": 1,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "coalitiondrill_reward_up"
+  },
+  {
+    "id": 126,
+    "name": "function_skill_config-10000126",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_112",
+    "description": "function_skill_config-20000126",
+    "arguments": 1,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "skill_time_reduce"
+  },
+  {
+    "id": 127,
+    "name": "function_skill_config-10000127",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_115",
+    "description": "function_skill_config-20000127",
+    "arguments": 1,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "battery_recovery_up"
+  },
+  {
+    "id": 128,
+    "name": "function_skill_config-10000128",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_105",
+    "description": "function_skill_config-20000128",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "battle_commander_exp_up"
+  },
+  {
+    "id": 129,
+    "name": "function_skill_config-10000129",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_110",
+    "description": "function_skill_config-20000129",
+    "arguments": 1,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "exploration_reward_up"
+  },
+  {
+    "id": 130,
+    "name": "function_skill_config-10000130",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_118",
+    "description": "function_skill_config-20000130",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "auto_combat_resource_reduce"
+  },
+  {
+    "id": 131,
+    "name": "function_skill_config-10000131",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_119",
+    "description": "function_skill_config-20000131",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "fairy_command_recovery_time_reduce"
+  },
+  {
+    "id": 132,
+    "name": "function_skill_config-10000132",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_120",
+    "description": "function_skill_config-20000132",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "data_recovery_time_reduce"
+  },
+  {
+    "id": 133,
+    "name": "function_skill_config-10000133",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_124",
+    "description": "function_skill_config-20000133",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "logistics_reward_up"
+  },
+  {
+    "id": 134,
+    "name": "function_skill_config-10000134",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_125",
+    "description": "function_skill_config-20000134",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "coalitiondrill_reward_up"
+  },
+  {
+    "id": 135,
+    "name": "function_skill_config-10000135",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_112",
+    "description": "function_skill_config-20000135",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "skill_time_reduce"
+  },
+  {
+    "id": 136,
+    "name": "function_skill_config-10000136",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_115",
+    "description": "function_skill_config-20000136",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "battery_recovery_up"
+  },
+  {
+    "id": 137,
+    "name": "function_skill_config-10000137",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_105",
+    "description": "function_skill_config-20000137",
+    "arguments": 3,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "battle_commander_exp_up"
+  },
+  {
+    "id": 138,
+    "name": "function_skill_config-10000138",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_110",
+    "description": "function_skill_config-20000138",
+    "arguments": 2,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "exploration_reward_up"
+  },
+  {
+    "id": 139,
+    "name": "function_skill_config-10000139",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_119",
+    "description": "function_skill_config-20000139",
+    "arguments": 3,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "fairy_command_recovery_time_reduce"
+  },
+  {
+    "id": 140,
+    "name": "function_skill_config-10000140",
+    "level": 1,
+    "group_id": 0,
+    "code": "function_skill_icon_115",
+    "description": "function_skill_config-20000140",
+    "arguments": 3,
+    "max_level": 10,
+    "is_show": 0,
+    "type": 2,
+    "function_skill": "battery_recovery_up"
   }
 ]

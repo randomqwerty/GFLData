@@ -13,5 +13,14 @@ local GetDayNight = function(self)
 	return self:GetDayNight()
 
 end
-
+local CreateBackground = function(self,name)
+	if self.enemyTeamidUse == 6560401 or self.enemyTeamidUse == 6561401 then
+		self:CreateBackground("scarbossbattle")
+		CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Effect/2022ScarBattle"))
+	else
+		self:CreateBackground(name)
+	end
+	
+end
 util.hotfix_ex(CS.GF.Battle.BattleController,'GetDayNight',GetDayNight)
+util.hotfix_ex(CS.GF.Battle.BattleController,'CreateBackground',CreateBackground)

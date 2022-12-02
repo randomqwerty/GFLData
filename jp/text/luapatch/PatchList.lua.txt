@@ -188,7 +188,7 @@ patch3010={
 "3010/DeploymentUIController",
 "3010/DeploymentBuildSkillItem",
 "3010/DeploymentSpotController",
-"3010/DeploymentPlanModeController",
+--"3010/DeploymentPlanModeController",
 "3010/DeploymentBackgroundController",
 "3010/DeploymentAllyTeamController",		
 "3010/DeploymentLine",
@@ -287,6 +287,11 @@ patch3010={
 "3010/ConfigData",
 "3010/BattleChangeBackgroundPerformanceController",
 "3010/CommonEquipmentListLabelControllerNew",
+--"3010/FriendMallGoodController",
+"3010/FriendCosmeticDetailController",	
+"3010/MissionSelectionEchelonController",
+"3010/MissionSelectionMissionBarController",	
+"3010/AppstoreLog",	
 }
 -- va11
 print("load Va11");
