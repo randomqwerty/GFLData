@@ -132,25 +132,24 @@ local SelectTeamSelf = function()
 end
 local ViewSummary = function()
 	CS.DeploymentController.Instance:PlayViewSummary();
-	CS.DeploymentController.AddAction(SelectTeamSelf,0.2);
 end
 local RequestMoveTeamHandle = function(self,request)
 	self:RequestMoveTeamHandle(request);
 	if self._randomEventController == nil then
 		self:AddAndPlayPerformance(ViewSummary);
+		self:AddAndPlayPerformance(0.2,SelectTeamSelf,true);
 	end
 end
 
-local CheckBuildActionSkill = function(self,team,buildskill)
-	self:CheckBuildActionSkill(team,buildskill);
-	for i=0,buildskill.Count-1 do
-		for j=buildskill[i].targetSpotAction.Count-1,0,-1 do
-			local spot = buildskill[i].targetSpotAction[j].spot;
-			if not spot.Show then
-				buildskill[i].targetSpotAction:RemoveAt(j);
-			end
-		end
+local SelectTeam = function(self,team)
+	if team ~= nil then
+		CS.CommonAudioController.PlayUI(CS.AudioUI.UI_selete);
+		CS.DeploymentController.lastSelectedTeamID = team.teamId;
+		CS.DeploymentController.TriggerCrossMoveEvent(team.currentSpot.gameObject);
+	else
+		CS.DeploymentController.TriggerCrossMoveEvent(nil);
 	end
+	self.currentSelectedTeam = team;
 end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
@@ -160,6 +159,7 @@ util.hotfix_ex(CS.DeploymentController,'TriggerSelectTeam',TriggerSelectTeam)
 util.hotfix_ex(CS.DeploymentController,'ShowSettlement',ShowSettlement)
 util.hotfix_ex(CS.DeploymentController,'TriggerRefreshUIEvent',TriggerRefreshUIEvent)
 util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
-util.hotfix_ex(CS.DeploymentController,'CheckBuildActionSkill',CheckBuildActionSkill)
+util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
+
 
 

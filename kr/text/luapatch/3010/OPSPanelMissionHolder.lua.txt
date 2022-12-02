@@ -11,7 +11,12 @@ local AllCount = function(self)
 	return 0;
 end
 
-util.hotfix_ex(CS.OPSPanelMissionHolder,'AllCount',AllCount)
+local Awake = function(self)
+	self:Awake();
+	self.xPos = CS.UnityEngine.Vector2(300,-300);
+end
+
+util.hotfix_ex(CS.OPSPanelMissionHolder,'Awake',Awake)
 
 
 
