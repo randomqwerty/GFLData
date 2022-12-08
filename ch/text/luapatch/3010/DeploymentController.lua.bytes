@@ -61,6 +61,16 @@ local RequestStartTurnHandle = function(self,json)
 	checkUI = false;
 	self:AddAndPlayPerformance(CheckBuild);
 end
+
+local PlayView = function()
+	CS.DeploymentController.Instance:PlayViewSummary();
+end
+
+local CheckLayerFinal = function()
+	local layer = CS.DeploymentBackgroundController.Instance.currentUILayer;
+	CS.DeploymentBackgroundController.currentlayer = layer;
+	CS.DeploymentBackgroundController.Instance:SwitchLayer(layer, PlayView, false);
+end
 --修正设施延迟刷新
 local AddAllCanPlayPerformanceLayer = function(self)
 	local builds = {};
@@ -73,6 +83,14 @@ local AddAllCanPlayPerformanceLayer = function(self)
 	for i=1,#builds do
 		CS.DeploymentBackgroundController.Instance.listBuildingController:Add(builds[i]);
 	end
+	while CS.GameData.missionAction.queuePerformanceHandler.Count > 1 do
+		CS.DeploymentController.savePlayQueue:Enqueue(CS.GameData.missionAction.queuePerformanceHandler:Dequeue())
+	end
+	CS.GameData.missionAction.queuePerformanceHandler:Clear();
+	while CS.DeploymentController.savePlayQueue.Count > 0 do
+		CS.GameData.missionAction.queuePerformanceHandler:Enqueue(CS.DeploymentController.savePlayQueue:Dequeue())
+	end
+	self:AddAndPlayPerformance(CheckLayerFinal);
 end
 
 local spotid = 0;
@@ -151,6 +169,10 @@ local SelectTeam = function(self,team)
 	end
 	self.currentSelectedTeam = team;
 end
+local InitField = function(self)
+	self:InitField();
+	CS.DeploymentUIController.Instance.showall = true;
+end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -160,6 +182,7 @@ util.hotfix_ex(CS.DeploymentController,'ShowSettlement',ShowSettlement)
 util.hotfix_ex(CS.DeploymentController,'TriggerRefreshUIEvent',TriggerRefreshUIEvent)
 util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
 util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
+util.hotfix_ex(CS.DeploymentController,'InitField',InitField)
 
 
 
