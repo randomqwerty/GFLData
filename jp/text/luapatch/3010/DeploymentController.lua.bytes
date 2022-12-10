@@ -169,6 +169,10 @@ local SelectTeam = function(self,team)
 	end
 	self.currentSelectedTeam = team;
 end
+local InitField = function(self)
+	self:InitField();
+	CS.DeploymentUIController.Instance.showall = true;
+end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -178,6 +182,7 @@ util.hotfix_ex(CS.DeploymentController,'ShowSettlement',ShowSettlement)
 util.hotfix_ex(CS.DeploymentController,'TriggerRefreshUIEvent',TriggerRefreshUIEvent)
 util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
 util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
+util.hotfix_ex(CS.DeploymentController,'InitField',InitField)
 
 
 

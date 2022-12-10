@@ -14,7 +14,8 @@ local GetDayNight = function(self)
 
 end
 local CreateBackground = function(self,name)
-	if self.enemyTeamidUse == 6560401 or self.enemyTeamidUse == 6561401 then
+	
+	if self.EntranceType == CS.BattleEntranceType.Normal and (self.enemyTeamidUse == 6560401 or self.enemyTeamidUse == 6561401) then
 		self:CreateBackground("scarbossbattle")
 		CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Effect/2022ScarBattle"))
 	else
