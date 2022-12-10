@@ -16,7 +16,9 @@ local Awake = function(self)
 	self.xPos = CS.UnityEngine.Vector2(300,-300);
 end
 
+
 util.hotfix_ex(CS.OPSPanelMissionHolder,'Awake',Awake)
+util.hotfix_ex(CS.OPSPanelMissionHolder,'AllCount',AllCount)
 
 
 

@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.AVGCommonEffect)
 
+xlua.private_accessible(CS.AVGController)
 local InstantiateEffect = function(self,effectPrefab)
 	self:InstantiateEffect(effectPrefab);
 	local obj = CS.AVGController.Instance.backgroundController.gobjCommonEffect;
@@ -18,5 +19,15 @@ local InstantiateEffect = function(self,effectPrefab)
 		meshRenderers[i].sortingLayerName = "UI";
 	end
 end
-
+local _InvokeSpark = function(self)
+	self:InvokeSpark();
+	if self.goParticleSpark ~=nil then
+		local systems = self.goParticleSpark:GetComponent(typeof(CS.UnityEngine.ParticleSystem));
+		if systems ~=nil then
+			local render = systems:GetComponent(typeof(CS.UnityEngine.Renderer));
+			render.sortingLayerName = "UI";
+		end
+	end 
+end
 util.hotfix_ex(CS.AVGCommonEffect,'InstantiateEffect',InstantiateEffect)
+util.hotfix_ex(CS.AVGController,'InvokeSpark',_InvokeSpark)

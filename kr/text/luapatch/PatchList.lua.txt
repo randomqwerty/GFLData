@@ -288,7 +288,12 @@ patch3010={
 "3010/BattleChangeBackgroundPerformanceController",
 "3010/CommonEquipmentListLabelControllerNew",
 --"3010/FriendMallGoodController",
-"3010/FriendCosmeticDetailController",		
+"3010/FriendCosmeticDetailController",	
+"3010/MissionSelectionEchelonController",
+"3010/MissionSelectionMissionBarController",	
+"3010/AppstoreLog",	
+"3010/PresentWindowController",
+"3010/FurniturePerformanceNewSkinShowController",	
 }
 -- va11
 print("load Va11");
