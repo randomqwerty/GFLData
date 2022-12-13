@@ -3938,7 +3938,7 @@
   </item>
   <item des="Friend/UI_Button_AddBlackList/Text_AddBlackList">
     <xmlID>Friend/UI_Button_AddBlackList/Text_AddBlackList</xmlID>
-    <rect>(25.0, 6.0),(253.9, 55.0)</rect>
+    <rect>(43, 6.0),(227.9, 55)</rect>
     <textfont>JDJSTE</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>50</fontsize>
@@ -4930,7 +4930,7 @@
   </item>
   <item des="Assets/_Scenes/HotUpdate.unity/Static/Text">
     <xmlID>Assets/_Scenes/HotUpdate.unity/Static/Text</xmlID>
-    <rect>(-805.5, 507.5),(160.0, 80.0)</rect>
+    <rect>(-305.5, -31.7),(160.0, 80.0)</rect>
     <textfont>JDJSTE</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>45</fontsize>
@@ -4946,7 +4946,7 @@
   </item>
   <item des="Assets/_Scenes/HotUpdate.unity/Static/Text (2)">
     <xmlID>Assets/_Scenes/HotUpdate.unity/Static/Text (2)</xmlID>
-    <rect>(-363.2, 507.5),(185.7, 80.0)</rect>
+    <rect>(113, -34.25),(185.7, 80.0)</rect>
     <textfont>JDJSTE</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>45</fontsize>
@@ -7170,7 +7170,7 @@
   </item>
   <item des="Assets/_Scenes/Mail.unity/内容自动排版/RestTime">
     <xmlID>Assets/_Scenes/Mail.unity/内容自动排版/RestTime</xmlID>
-    <rect>(262.0, -134.6),(466.0, 92.0)</rect>
+    <rect>(-228.5, -56),(466.0, 92.0)</rect>
     <textfont>rodin</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>38</fontsize>
@@ -7282,7 +7282,7 @@
   </item>
   <item des="MissionSelection/RecordTime/RecordText">
     <xmlID>MissionSelection/RecordTime/RecordText</xmlID>
-    <rect>(-172.6, 0.0),(182.3, 35.0)</rect>
+    <rect>(-200.7, 0.0),(182.3, 35.0)</rect>
     <textfont>JDJSCU</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>28</fontsize>
@@ -8434,7 +8434,7 @@
   </item>
   <item des="Dorm/contents/content2">
     <xmlID>Dorm/contents/content2</xmlID>
-    <rect>(0.0, 84.0),(1396.0, 200.0)</rect>
+    <rect>(768.55, -227),(1396.0, 200.0)</rect>
     <textfont>sans</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>48</fontsize>
@@ -8450,7 +8450,7 @@
   </item>
   <item des="Dorm/contents/content3">
     <xmlID>Dorm/contents/content3</xmlID>
-    <rect>(0.0, -28.0),(1396.0, 200.0)</rect>
+    <rect>(768.55, -317),(1396.0, 200.0)</rect>
     <textfont>sans</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>48</fontsize>
@@ -15854,6 +15854,86 @@
     <bestfit>True</bestfit>
     <minsize>3</minsize>
     <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Left/Tex_PackageDescription_22">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Left/Tex_PackageDescription_22</xmlID>
+    <rect>(163.88,-274.34),(418.3,96.63)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>26</fontsize>
+    <linespac>0.8</linespac>
+    <richtext>True</richtext>
+    <alignment>UpperLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>2</minsize>
+    <maxsize>26</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Dorm/contents/content4">
+    <xmlID>Dorm/contents/content4</xmlID>
+    <rect>(768.55, -466),(1396.0, 200.0)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>48</fontsize>
+    <linespac>0.8</linespac>
+    <richtext>True</richtext>
+    <alignment>UpperLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>10</minsize>
+    <maxsize>48</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/btnRanking/Tex_Rank">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/btnRanking/Tex_Rank</xmlID>
+    <rect>(9.175, 32.9),(140.7, 58.65)</rect>
+    <textfont>fzteyasong</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>42</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>LowerLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Top/Tex_Name">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Top/Tex_Name</xmlID>
+    <rect>(376.32, -140.4),(324.4, 55.7)</rect>
+    <textfont>fzteyasong</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>48</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>LowerLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>48</maxsize>
+    <isOrnamental>False</isOrnamental>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/OptionalPackage/Tex_OptionalPackage_23">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/OptionalPackage/Tex_OptionalPackage_23</xmlID>
+    <rect>(267.1, -329.2),(149.67, 21.46)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>21</fontsize>
+    <linespac>0.8</linespac>
+    <richtext>True</richtext>
+    <alignment>LowerLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>2</minsize>
+    <maxsize>21</maxsize>
     <isOrnamental>False</isOrnamental>
   </item>
 </root>

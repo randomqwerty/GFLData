@@ -72,6 +72,8 @@ local CheckDelay = function()
 			pos = CS.UnityEngine.Vector2(spot.transform.localPosition.x,spot.transform.localPosition.y);
 		end
 		CS.DeploymentController.TriggerMoveCameraEvent(pos,true);
+		showteam = nil;
+		showbuild = nil;
 	end
 	effectdelaytime = 0;
 end

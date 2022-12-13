@@ -41,10 +41,20 @@ local FinishCurrentStep = function(self)
 	self:FinishCurrentStep();
 end
 
+local ClearGuideData = function()
+	CS.GuideDeploymentController.ClearGuideData();
+	CS.GuideDeploymentController.canClickOther = true;
+end
+
+local SkipCompleteCurrentGuide = function(self)
+	self:SkipCompleteCurrentGuide();
+	CS.GuideDeploymentController.canClickOther = true;
+end
 util.hotfix_ex(CS.GuideDeploymentController,'get_Instance',get_Instance)
 util.hotfix_ex(CS.GuideDeploymentController,'AfterBattlePlay',AfterBattlePlay)
 util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentStep',PlayCurrentStep)
 util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentDelay',PlayCurrentDelay)
 util.hotfix_ex(CS.GuideDeploymentController,'FinishCurrentStep',FinishCurrentStep)
-
+util.hotfix_ex(CS.GuideDeploymentController,'ClearGuideData',ClearGuideData)
+util.hotfix_ex(CS.GuideDeploymentController,'SkipCompleteCurrentGuide',SkipCompleteCurrentGuide)
 
