@@ -26,8 +26,15 @@ local _InvokeSpark = function(self)
 		if systems ~=nil then
 			local render = systems:GetComponent(typeof(CS.UnityEngine.Renderer));
 			render.sortingLayerName = "UI";
+        	render.sortingOrder=45;
 		end
 	end 
 end
+
+local InitializeInternal = function(self,ms)
+	self.linkedListData:Clear();
+	self:InitializeInternal(ms);
+end
 util.hotfix_ex(CS.AVGCommonEffect,'InstantiateEffect',InstantiateEffect)
 util.hotfix_ex(CS.AVGController,'InvokeSpark',_InvokeSpark)
+util.hotfix_ex(CS.AVGController,'InitializeInternal',InitializeInternal)

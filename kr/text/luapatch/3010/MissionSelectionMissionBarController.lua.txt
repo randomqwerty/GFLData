@@ -8,11 +8,13 @@ end
 
 local UpdateData = function(self,mission,currentMissionType,MSC,missioninfo)
 	self:UpdateData(mission,currentMissionType,MSC,missioninfo);
-	if self.mission ~= nil and self.mission.autoMissionAction ~= nil then
-		if self.mission.missionInfo.missionType == CS.MissionType.NormalActivity then
-			missionbar = self;
-			self.mission.missionInfo.missionType = CS.MissionType.Activity;
-			CS.CommonController.Invoke(CheckMission,0.4,CS.OPSPanelController.Instance);
+	if CS.OPSPanelController.Instance ~= nil then
+		if self.mission ~= nil and self.mission.autoMissionAction ~= nil then
+			if self.mission.missionInfo.missionType == CS.MissionType.NormalActivity then
+				missionbar = self;
+				self.mission.missionInfo.missionType = CS.MissionType.Activity;
+				CS.CommonController.Invoke(CheckMission,0.4,CS.OPSPanelController.Instance);
+			end
 		end
 	end	
 end

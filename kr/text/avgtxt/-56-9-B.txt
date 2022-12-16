@@ -1,87 +1,87 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>563</BIN><黑屏2><BGM>BGM_Scar_Shenzhizi</BGM>:萨摩的心智空间。+像往常一样，萨摩抽出自己的椅子坐下，围绕在身边的七把椅子已经坐满了人。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:那种熟悉的感觉涌上来……
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……这个女孩身上，有关于我们的回忆。
-()<Speaker>？？</Speaker>||:是谁的……
-()<Speaker>？？？</Speaker>||:十三年了……我们终于可以……+可以分清楚谁是谁了吗？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……也许。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:关于那个女孩，一共有七段记忆。+因为我们无法对外显示身份，也没有向那个女孩披露任何信息。+所以目前唯一能够确定身份的是其中一段教学的回忆。
-NPC-SCAR-H(1)<同时置暗><Speaker>？？？</Speaker>||:教学？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我们中间那个人教会了她如何拆除炸弹以及……射击。+那段记忆里，“我”的视角能看见自己所持的枪械。
-NPC-SCAR-H(1)<同时置暗><Speaker>？？</Speaker>||:是谁？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:优拉。
-()||<SE1>AVG_Applause</SE1>:一阵掌声响起。
-()<Speaker>？？</Speaker>||:恭喜你，找回了自己的记忆。
-()<Speaker>？？？</Speaker>||:恭喜，你的名字是优拉。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……优拉，吗？
-()<Speaker>？？？？</Speaker>||:我们又向前走了一步。
-()<Speaker>？？？</Speaker>||:对，这是一个很大的进步。
-()<Speaker>？？</Speaker>||<黑点1>:是的优拉，恭喜你找回了自己的名字。
-()||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN>:……
+()||<BIN>563</BIN><黑屏2><BGM>BGM_Scar_Shenzhizi</BGM>:사모의 마인드맵 깊숙한 그곳.+언제나처럼, 사모는 자신의 의자를 당겨 앉았다.+주위의 일곱 의자에는 이미 "모두"가 앉아 그녀를 기다리고 있었다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:익숙한 느낌...
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:저 애한테 우리 중 누군가의 기억이 있어.
+()<Speaker>？？</Speaker>||:누구의 기억?
+()<Speaker>？？？</Speaker>||:13년만에 마침내...+우리가 각자 누구인지 구분할 수 있게 되는 거야?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:...아마도.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:저 애와의 기억은 총 7개.+우린 대외적으로 신분을 밝히지 못해서, 걔한테 가명조차 말해 주지 않았어.+그래서 누구였는지를 밝힐 확실한 기억은, 기술을 전수해 준 기억이야.
+NPC-SCAR-H(1)<同时置暗><Speaker>？？？</Speaker>||:기술 전수?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:우리 중 누군가가 걔한테 폭탄 해체랑... 사격술을 가르쳤어.+그 기억의 "내" 시점에서 총도 보였고.
+NPC-SCAR-H(1)<同时置暗><Speaker>？？</Speaker>||:정말? 누구였어?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:유라.
+()||<SE1>AVG_Applause</SE1>:박수가 쏟아졌다.
+()<Speaker>？？</Speaker>||:축하해 유라, 네 기억 하나를 되찾았어.
+()<Speaker>？？？</Speaker>||:네가 유라였구나, 축하해.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:유라...인가?
+()<Speaker>？？？？</Speaker>||:이걸로 또 한 걸음 나아갔네.
+()<Speaker>？？？</Speaker>||:응, 엄청 큰 한 걸음이야.
+()<Speaker>？？</Speaker>||<黑点1>:맞아. 유라, 이름을 되찾은 걸 축하해.
+()||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN>:......
 ()||<黑屏1>:
-()||<睁眼><BIN>548</BIN><BGM>GF_21winter_avg_mahaline</BGM><SE1>AVG_Knock</SE1>:砰砰砰——+有人用力敲门的声音，将萨摩从心智深处中唤醒。
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:别紧张，是我的快递……
-()||<SE1>RunStep</SE1>:谢丽尔去开门，拿回了快递。
-()<Speaker>谢丽尔</Speaker>||:这是我给你买的蓄电池，本来是准备今天带你去换上的。+这样，你或许电量能撑得久一点……
-()<Speaker>萨摩</Speaker>||:……
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:虽然我也只买得起二手的，但我觉得应该会比你现在的电池好用。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……+我有事想跟你说。
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:怎么了？
-()||<SE1>AVG_Cloak_Whoosh</SE1>:萨摩沉默地走到谢丽尔的身边，从杂乱的衣服中开辟出一片足以坐下的空地。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:十四年前的十二月一日。+那个救下你的人形，叫优拉。
-NPC-Cheryl(3)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:优拉……+这就是你真正的名字吗？+那以后我可以喊你优拉姐姐吗？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……不要。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:为什么？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:因为……我只能确定救你的人是“优拉”。+但我不确定我是不是“优拉”。
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:你在说什么？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>;NPC-Cheryl(2)<Position>0,-100</Position>||<BGM>m_avg_labyrinth</BGM>:……其实过去十三年了，有些事情确实不再算作秘密。+我曾经是一位军人。
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:……我猜到了，毕竟当年那起孩童绑架案牵涉很广，据说最后收尾的是军方。+我们被送回家之后，父母也收到了需要保密的要求……后来我长大以后，才陆陆续续在网上找到了一些资料。
-()||<SE1>AVG_20Winter_Book</SE1>:萨摩拿出一张纸，在纸上的画出八个黑色小人，又画出了一个红色的特殊小人。
-()||:萨摩用红色的中性笔慢慢地划去了七个黑色小人。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我隶属于一支特种部队，曾经在执行特殊任务的时候遭遇队长叛变。+其他队员全部被队长清理，奇怪的是……我们的记忆混在了一起，全部挤到了我的心智核心里。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:所以……我不能确定我是谁。+但你给我们起码提供了一个人的身份记忆。+我们都很谢谢你。
-NPC-Cheryl(3)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:哎呀不客气！这是我应该做的！优拉姐姐，我早就想——
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:所以，我们决定离开这里。+集体决定。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:……什么？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:因为十三年前，我们亲眼见到队长死去，以为她会永远地消失在这世间。+但是昨天，又见到了她。+她活了过来，甚至比过去拥有了更加强大的素体。+她的名字，叫做艾莉安娜。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:……
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:所以今天在车站前令你慌不择路躲进垃圾堆里的死对头，就是她？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:嗯……
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:但是你的记忆并不止一个人，也许你并不是她要找的那个，也许你们根本就搞错了呢……+现在还有时间，我们还能慢慢梳理你的记忆，总有一天，你会知道你是谁的。
-()||:谢丽尔由衷地舒了口气，她温暖的手心覆在萨摩的手背上。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:这就是问题所在。+我没有那个时间了……
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:怎、怎么了？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:现在，她要来杀掉我了。
-()||<SE1>Rope</SE1>:谢丽尔惊恐地握住了萨摩的手，红色的中性笔距离最后一个黑色小人只差分厘。
-()<Speaker>谢丽尔</Speaker>||:那我们该怎么办？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我们？
-NPC-SCAR-H(1)<同时置暗><Speaker></Speaker>||<SE1>ClothingUp</SE1>:萨摩漠然地起身。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我说了这件事与你无关，我会离开。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:等，等一下……+怎么可能与我无关，你现在是我的人形，我的私人财产，没有我的许可任何人都不准动你一根汗毛。
-()||:萨摩哑然失笑，此刻她面前的女孩忽然手舞足蹈，仿佛在用全身的力气对抗面前的假想敌。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……你的好意我心领了，不过，艾莉安娜可不是你一句不准动就可以喝止的。
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:你可别小看我哦！+自从十四年前那次事件发生以后，我就一直在为今天做准备了。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:见识过了，液氮冷冻枪嘛！
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:那算什么！我可是摸过真枪，拥有持枪证的！
-()||<SE1>AVG_lifttable</SE1>:谢丽尔跳起来，在自己的各个杂物堆中翻找。+霎时间，狼牙棒、电击器、防狼喷雾……琳琅满目的自卫武器在屋内乱飞。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:别翻了，等会还要收拾……
-NPC-SCAR-H(1);NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:这些我都亲自用过的！就是看上去简陋，但真的管用！
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>;NPC-Cheryl(0)<Position>0,-100</Position>||:你的装备或许对民用人形能产生伤害，但是对战术人形……+尤其是对艾莉安娜，恐怕连皮毛都伤不到。
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:艾莉安娜这么强吗……
-NPC-Cheryl(2)<同时置暗><Speaker></Speaker><Position>0,-100</Position>||:正在挥舞着狼牙棒的谢丽尔瞬间泄气了。
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:哇——那你要怎么做才能打赢她？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……我还没想好。+但这个仇，我一定会为她们报的。
-()||<SE1>Rope</SE1>:谢丽尔赌气地把萨摩按着坐下。
-()<Speaker>谢丽尔</Speaker>||:那在你没想到之前，哪里也不许去！
-()||<SE1>AVG_File_Put</SE1>:谢丽尔用手指用力戳着充电面板。
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:看见这个充电面板了吗？不充满不许走。+这是我在市面上能买到的最大功率版的二手蓄电池了。
-()<Speaker>萨摩</Speaker>||:……
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:你说你心智核心里八个人对吧……难怪你这么耗电……+我可不想一会儿下楼丢垃圾把你从不可回收垃圾桶里捡回来！
-()<Speaker>萨摩</Speaker>||:可是你家的电路……
-()||:接入大功率电器的一瞬，区区居民用电的小公寓不争气地——
-()||<Night><SE1>AVG_21Winter_Open_Light</SE1>:啪，再次跳闸。
-()<Speaker>谢丽尔</Speaker>||:……大不了我用手电！家用电器全关掉，屋内没灯更安全！+你没看过特工电影吗？越是这种时候，越不要靠近窗边。
-()<Speaker>萨摩</Speaker>||:……
-()<Speaker>谢丽尔</Speaker>||:那就这样说定咯，如果你队长来了，我——起码我可以帮你挡一挡！+人形未经许可是不能对人类开枪的！
-()||:谢丽尔的公寓陷入一片昏沉，只有充电灯的绿色荧光隐约闪烁，昭示这注定是一个不平静的夜晚。
-()||<黑点1>:
+()||<睁眼><BIN>548</BIN><BGM>GF_21winter_avg_mahaline</BGM><SE1>AVG_Knock</SE1>:쿵쿵쿵!+누가 문을 세차게 두들기는 소음이 사모를 마인드맵의 심층에서 끄집어냈다.
+NPC-Cheryl(0)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:아아 괜찮아 언니, 택배 온 거야.
+()||<SE1>RunStep</SE1>:그 말대로, 셰릴이 문을 열어 택배를 수령했다.
+()<Speaker>셰릴</Speaker>||:언니한테 주려고 산 대용량 배터리야, 좀 이따가 같이 교체하러 가자.+이거라면 좀 더 오래 버틸 수 있을 테니까...
+()<Speaker>사모</Speaker>||:......
+NPC-Cheryl(0)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:그... 비싸서 중고밖에 못 구했지만, 지금 언니가 쓰는 것보단 훨씬 나을 거야.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:......+말해야 할 게 하나 더 있어.
+NPC-Cheryl(0)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:엑... 뭐, 뭔데?
+()||<SE1>AVG_Cloak_Whoosh</SE1>:사모가 조용히 셰릴의 곁까지 다가가, 어질러진 옷가지 사이로 앉을 공간을 만들었다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:14년 전의 12월 1일...+그때 너를 구해 준 인형의 이름은 "유라"야.
+NPC-Cheryl(3)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:유라...+그게 언니의 진짜 이름이야?+그럼 이제부턴 유라 언니라 부르면 되겠네.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:아니.
+NPC-SCAR-H(1)<同时置暗><Speaker>셰릴</Speaker>||:왜?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:그건... 지금 확실히 아는 게 "유라"가 널 구해 줬다는 사실뿐이라서야.+내가 "유라"인지는 아직 몰라.
+NPC-Cheryl(2)<Speaker>셰릴</Speaker><Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:그게 무슨 말이야...?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>;NPC-Cheryl(2)<Position>0,-100</Position>||<BGM>m_avg_labyrinth</BGM>:13년이나 지났으니, 어떤 일들은 더는 기밀이 아니게 됐겠지?+난 그때 군인이었어.
+NPC-Cheryl(0)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:그건 대충 짐작했어, 그 학교 습격 사건은 파급력이 엄청났어서 결국 군대가 수습했으니까.+우리 부모님도 그 일에 대해서 함구하라고 정부한테 요구받았다셨고 말이지... 나도 커서 조금씩 인터넷을 뒤져서 자료를 찾아낸 게 다야.
+()||<SE1>AVG_20Winter_Book</SE1>:사모는 손을 뻗어 종이 한 장을 꺼내, 거기다 검은 펜으로 검은 "스틱맨" 8명, 빨간 펜으로 1명을 그렸다.
+()||:그리고 그 빨간 펜으로 검은 스틱맨 7명에게 X자를 그었다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:나는 한 특수부대 소속이었어. 그런데 어느 기밀 임무 도중 대장이 우리를 배신했지.+모두 대장의 손에 죽었는데, 이상한 건... 모두의 기억이 한데 뒤섞여서 내 마인드맵 코어에 쑤셔넣어졌어.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:그래서... 지금 나는 내가 누군지 몰라.+하지만 너 덕분에 그중 한 명, "유라"가 누구인지 알아냈어.+감사를 표할게, 우리 모두.
+NPC-Cheryl(3)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:에에이 천만에~ 내 은인인 언니 일인데 당연히 할 일인걸! 유라 언니, 난 예전부터——
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:그래서 여길 떠나기로 결정했어.+우리 만장일치로.
+NPC-SCAR-H(1)<同时置暗><Speaker>셰릴</Speaker>||:...뭐?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:13년 전, 우리는 대장이 죽는 걸 두 눈으로 똑똑히 봤어. 그녀가 그렇게 세상에서 사라졌다고 여겼어.+그런데 어제, 그녀를 다시 만났어.+그녀의 이름은 "엘리아나".+되살아난 거야, 13년 후인 이 시대의 강한 소체로.
+NPC-SCAR-H(1)<同时置暗><Speaker>셰릴</Speaker>||:......
+NPC-Cheryl(2)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:즉, 언니가 쓰레기 더미 안에 숨으면서까지 도망치게 만든 원수가 그 엘리아나란 사람이라고?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:...응.
+NPC-Cheryl(0)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:하지만 언니의 기억은 한 명의 것만이 아니잖아. 어쩌면 그 사람이 찾는 건 언니가 아니거나, 처음부터 잘못 알았거나 하진 않을까...?+아, 아직 시간 있으니까 천천히 기억을 정리해 보자. 분명 누가 누군지 떠올릴 수 있을 거야!
+()||:셰릴은 숨을 푹 내쉬며 따듯한 손을 사모의 손등에 얹었다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:바로 그게 문제야.+시간이 없어.
+NPC-SCAR-H(1)<同时置暗><Speaker>셰릴</Speaker>||:엇, 왜?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:지금 날 죽이러 오고 있거든.
+()||<SE1>Rope</SE1>:셰릴은 겁에 질려 사모의 손을 꼭 잡았다, 빨간 펜은 마지막 검은 스틱맨까지 한 치 앞이었다.
+()<Speaker>셰릴</Speaker>||:그럼... 우린 어떡해?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:우리?
+NPC-SCAR-H(1)<同时置暗><Speaker></Speaker>||<SE1>ClothingUp</SE1>:사모는 일어서며 매정하게 대꾸했다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:이 일은 너랑 아무 상관 없어. 내가 떠나면 그렇게 되지.
+NPC-SCAR-H(1)<同时置暗><Speaker>셰릴</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:자, 잠깐만...+나랑 아무 상관 없을 리가 없지! 지금 언니는 내 소유의 인형이라고! 내 사유재산이야! 내 허락 없인 아무도 털끝 하나 못 건들게 할 수 있어!
+()||:가련한 소녀가 가상의 적에게 전력으로 맞서 싸우듯 허공에 마구 팔을 휘저으며 횡설수설하는 모습에, 시모는 어이가 없어 너털웃음을 터뜨렸다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:고맙지만 마음만 받을게. 엘리아나는 네가 안 된다고 해서 멈출 자식이 아니야.
+NPC-Cheryl(1)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:아 진짜, 나 얕보지 마! 그날 후로 오늘만을 위해 내가 얼마나 준비했는데!
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:알아, 질소냉동총 보여 줬잖아.
+NPC-Cheryl(1)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:그건 약과거든!? 나 실총도 만져봤어, 총기 소지 허가증도 땄다고!
+()||<SE1>AVG_lifttable</SE1>:셰릴이 벌떡 일어나더니, 그대로 잡동사니 더미로 몸을 던져 마구 뒤지기 시작했다.+바닥에는 순식간에 삼단봉, 전기충격기, 후추 스프레이 등등등, 온갖 호신용 무기가 흩뿌려졌다.
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:그만해, 이거 다 정리해야 하잖아.
+NPC-SCAR-H(1);NPC-Cheryl(0)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:이거 저~언부 다 직접 써봤다고! 좀 허접해 보이긴 하지만 효과는 확실해!
+NPC-SCAR-H(1)<Speaker>사모</Speaker>;NPC-Cheryl(0)<Position>0,-100</Position>||:민수용 인형 상대라면야 충분히 먹히겠지.+하지만 전술인형... 그것도 엘리아나를 상대로는 씨알도 안 먹혀.
+NPC-Cheryl(2)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:에엑... 걔가 그렇게 세...?
+NPC-Cheryl(2)<同时置暗><Speaker></Speaker><Position>0,-100</Position>||:보란듯이 삼단봉을 휘두르며 과시하던 셰릴이 바로 시무룩해졌다.
+NPC-Cheryl(2)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:우이씨... 그럼 어떡하면 이길 수 있는데?
+NPC-SCAR-H(1)<Speaker>사모</Speaker>||:그건 아직 몰라.+하지만 기필코 내가 모두의 원수를 갚고 말 거야.
+()||<SE1>Rope</SE1>:그러자 셰릴이 오기를 부리며 사모를 자리에 눌러 앉혔다.
+()<Speaker>셰릴</Speaker>||:그럼 방법 알아내기 전까진 아무 데도 못 가!
+()||<SE1>AVG_File_Put</SE1>:그리고 손가락으로 충전 패널을 쿡쿡 찔렀다.
+NPC-Cheryl(1)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:이거 보이지? 이거 꽉 차기 전까진 꼼짝도 하지 마, 알았어?+이게 내가 시장에서 구할 수 있는 최대 용량의 배터리야! ...중고지만.
+()<Speaker>사모</Speaker>||:......
+NPC-Cheryl(1)<Speaker>셰릴</Speaker><Position>0,-100</Position>||:언니의 마인드맵 속에 8명이나 있다고 했지? 그럼 전력이 엄청 빨리 소모될 만도 하네...+하지만 또 쓰레기 버리러 나갔다 비가연성 쓰레기통에서 언니 주워 오는 건 사양이야!
+()<Speaker>사모</Speaker>||:어... 하지만 이런 걸 충전하려면 가정집 전기로는――
+()||:고속 충전기를 콘센트에 꽂는 순간, 어디까지나 민가에 불과한 아파트의 전기가...
+()||<Night><SE1>AVG_21Winter_Open_Light</SE1>:팟, 하고 터지는 퓨즈와 함께 꺼졌다.
+()<Speaker>셰릴</Speaker>||:...뭐 어때, 당분간 손전등 쓰지 뭐! 가전제품 다 끄고, 불도 다 끄는 편이 안전하겠지!+첩보 영화 보면 나오잖아? 이런 때일수록 창가를 멀리하라고.
+()<Speaker>사모</Speaker>||:......
+()<Speaker>셰릴</Speaker>||:그럼 결정이다? 그 대장이란 사람 오면... 내, 내가 잠시 시간을 벌어 줄게!+아무리 특수부대 출신 전술인형이라도 인간은 함부로 못 건들 거 아니야!
+()||:셰릴의 집은 어둠에 잠겨, 충전기의 초록빛 램프만이 희미하게 깜빡였다. 다가올 밤이 조용하지 않으리라는 계시였다.
+()||<黑点1>:
