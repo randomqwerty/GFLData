@@ -294,6 +294,8 @@ patch3010={
 "3010/AppstoreLog",	
 "3010/PresentWindowController",
 "3010/FurniturePerformanceNewSkinShowController",	
+"3010/BattleCharacterController",
+"3010/FlightChessMapInfoItemCtrl",	
 }
 -- va11
 print("load Va11");

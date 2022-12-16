@@ -30,5 +30,11 @@ local _InvokeSpark = function(self)
 		end
 	end 
 end
+
+local InitializeInternal = function(self,ms)
+	self.linkedListData:Clear();
+	self:InitializeInternal(ms);
+end
 util.hotfix_ex(CS.AVGCommonEffect,'InstantiateEffect',InstantiateEffect)
 util.hotfix_ex(CS.AVGController,'InvokeSpark',_InvokeSpark)
+util.hotfix_ex(CS.AVGController,'InitializeInternal',InitializeInternal)
