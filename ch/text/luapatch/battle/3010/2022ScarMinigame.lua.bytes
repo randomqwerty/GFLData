@@ -250,6 +250,7 @@ Awake = function()
 	end
 	local Init = function(self,gun,cb,show)
 		self:Init(gun,cb,show)
+		self.characterData.isOutOfAMMO = true
 		self.transform.localPosition = CS.UnityEngine.Vector3(-1000,0,0)
 	end
 	local DisableRangeLine = function(self)
@@ -483,7 +484,7 @@ Update = function()
 			waitAVG = true
 		end
 	end
-	if  waitAVG and CS.UnityEngine.Time.timeScale ~= 0 and (not isPlayingEndingAnim) then
+	if  ((waitAVG and CS.UnityEngine.Time.timeScale ~= 0) or ((character.conditionListSelf:GetTierByID(layerBuffID) >= endingBuffTier) and(not playAVG()))) and (not isPlayingEndingAnim) then
 		isPlayingEndingAnim = true
 		return
 	end
@@ -517,6 +518,9 @@ Update = function()
 			EndGame()
 		end
 	end
+end
+playAVG = function ()
+	return CS.ConfigData.playReplay or CS.GameData.missionAction == null or CS.GameData.missionAction.mission == null or CS.GameData.missionAction.mission.medal1 == false
 end
 EndGame = function()
 	isGameEnd = true
