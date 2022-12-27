@@ -13,6 +13,9 @@ local CreateMap = function(self)
 	CheckChildEnable(self.lines);	
 	CheckChildEnable(self.teamParent);
 	CheckChildEnable(self.background);
+	if CS.DeploymentBackgroundController.currentLayerData ~= nil then
+		CS.DeploymentBackgroundController.currentLayerData:CloseEffect();
+	end
 	self:CreateMap();	
 	local mapcanvas = self.transform:Find("CanvasMap"):GetComponent(typeof(CS.UnityEngine.Canvas));
 	mapcanvas.sortingOrder = -1000;
@@ -66,9 +69,28 @@ local ShowShade = function(self,play,duration)
 	end
 	CS.DeploymentController.TriggerMoveCameraEvent(pos,play);	
 end
+
+local ShowEffect = function(self)
+	if self.effect ~= nil and not self.effect:isNull() then
+		CS.UnityEngine.Object.DestroyImmediate(self.effect);
+	end
+	self.effect = nil;
+	self:ShowEffect();
+	CS.DeploymentBackgroundController.Instance.snowRate = 100;
+	if self.effect ~= nil and not self.effect:isNull() then
+		CS.DeploymentBackgroundController.Instance.snowSystem = self.effect:GetComponent(typeof(CS.UnityEngine.ParticleSystem));
+	end
+end
+local CloseEffect = function(self)
+	if self.effect ~= nil and not self.effect:isNull() then
+		CS.UnityEngine.Object.DestroyImmediate(self.effect);
+	end
+end
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckSize',CheckSize)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateMap',CreateMap)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateSpots',CreateSpots)
 util.hotfix_ex(CS.DeploymentBackgroundController,'ShowShade',ShowShade)
+util.hotfix_ex(CS.DeploymentBackgroundController.MapLayerData,'ShowEffect',ShowEffect)
+util.hotfix_ex(CS.DeploymentBackgroundController.MapLayerData,'CloseEffect',CloseEffect)
 
 

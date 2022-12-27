@@ -28,7 +28,7 @@ Start = function()
 	--禁止人物拖动
 	--CS.BattleScaler.maxNumber = 5
 	BattleController = CS.GF.Battle.BattleController.Instance
-	BattleController.transform:Find("Canvas/UI/Top/Top_Time").gameObject:SetActive(false)
+	--BattleController.transform:Find("Canvas/UI/Top/Top_Time").gameObject:SetActive(false)
 	BattleController.transform:Find("Canvas/DynamicCanvas/TimerText").gameObject:SetActive(false)
 	self.transform:SetParent(CS.BattleUIController.Instance.transform:Find('UI'),false)
 	timerText = txtTime:GetComponent(typeof(CS.ExText))
