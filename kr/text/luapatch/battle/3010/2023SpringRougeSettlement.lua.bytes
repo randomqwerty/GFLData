@@ -90,6 +90,8 @@ function ShowInfo()
 	local countdownRemain = countdownTimer - (countdownMinute * 60) - (countdownSec)
 	_textTime.text = string.format("%02d",(countdownMinute))..":"..string.format("%02d",(countdownSec))..":"..string.format("%02d",(math.modf(countdownRemain*100)))
 	_textDate.text = CS.GameData.UnixToDateTime(CS.GameData.GetCurrentTimeStamp()):ToString("yyyy/MM/dd HH:mm:ss");
+	local showgun = CS.DeploymentController.lastBattleLeaderGun
+	CS.CommonController.LoadBigPic(showgun, transPicHolder:GetComponent(typeof(CS.UnityEngine.Transform)), showgun.currentSkinId)
 end  
 function Exit()
 	isShown = true
