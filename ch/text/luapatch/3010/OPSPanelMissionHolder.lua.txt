@@ -16,9 +16,23 @@ local Awake = function(self)
 	self.xPos = CS.UnityEngine.Vector2(300,-300);
 end
 
+local CanShow = function(self)
+	if self.prefabCode == "2023RougeSpring_BossMissionPanelTitle" then
+		return true;
+	end
+	return self.CanShow;
+end
 
+local PlayLabel = function(self)
+	self:PlayLabel();
+	if self.prefabCode == "2023RougeSpring_BossMissionPanelTitle" then
+		self.currentLabel.transform:Find("GQ_bl_rongjie").gameObject:SetActive(true);
+	end
+end
 util.hotfix_ex(CS.OPSPanelMissionHolder,'Awake',Awake)
 util.hotfix_ex(CS.OPSPanelMissionHolder,'AllCount',AllCount)
+util.hotfix_ex(CS.OPSPanelMissionHolder,'get_CanShow',CanShow)
+util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayLabel',PlayLabel)
 
 
 

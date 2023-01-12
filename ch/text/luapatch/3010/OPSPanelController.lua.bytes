@@ -8,6 +8,11 @@ xlua.private_accessible(CS.ExButton)
 xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.OPSPanelConfig)
 xlua.private_accessible(CS.OPSSpineMission)
+local SelectContainer = function(self,container,playanim)
+	self:RefreshContainerUI();
+	self.canvasContainerGroup.alpha = 1;
+	self:SelectContainer(container,playanim);
+end
 local SelectModuleSpine = function(self,spinecontrol)
 	print("选中小人"..spinecontrol.spinecode);
 	self:CancelSelectMoudleSpine();
@@ -442,6 +447,7 @@ function Split(szFullString, szSeparator)
 	end
 	return nSplitArray
 end
+util.hotfix_ex(CS.OPSPanelController,'SelectContainer',SelectContainer)
 util.hotfix_ex(CS.OPSPanelController,'SelectModuleSpine',SelectModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'ShowOPSSpineMissionUI',ShowOPSSpineMissionUI)
 util.hotfix_ex(CS.OPSPanelController,'HideOPSSpineMissionUI',HideOPSSpineMissionUI)
