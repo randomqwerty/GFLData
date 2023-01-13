@@ -18,6 +18,7 @@ brickScore = 50 -- 每块砖分数
 
 energyMax = 50
 energyDuration = 5
+scoreRanking = {0,100,200,300} --到达C,B,A,S评价的分数要求
 local configFunction = {}
 function configFunction:InitData()
 	--print(stageid)

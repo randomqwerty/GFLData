@@ -1,42 +1,42 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>159</BIN><黑屏2><BGM>m_avg_hope</BGM>:在泽林斯基调来的援助下，停留在基地外围的叛军遭到了毁灭性打击。+趁着叛军军心动摇之际，克鲁格率领着剩余的人形冲出了基地。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:我们成功了！
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:是啊……
-()||:望着久违的天空，克鲁格的身躯忽然向后倒去。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:克鲁格先生！
-NPC-Helian(0)<Speaker>泽林斯基</Speaker><同时置暗>||:<color=#00CCFF>赫丽安，能听见吗？</color>
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Zielinski(0)<通讯框>||:可以的，泽林斯基部长！
-NPC-Helian(0)<Speaker>泽林斯基</Speaker><同时置暗>||:<color=#00CCFF>援兵已经到了。</color>+<color=#00CCFF>你们安全了。</color>
-NPC-Maid(0)<Speaker>救援人形</Speaker>||:赫丽安小姐，请将克鲁格先生交给我们吧。+心智服务器请放在车上，受伤的人形们也请跟我来。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:谢谢……谢谢你们……
-()||:克鲁格勉强睁开了眼睛。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:没事的，赫丽安……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:嗯……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||<黑屏1>:……帮我接通一下指挥官。
-()||<黑屏2><BIN>97</BIN>:……指挥官在机场等候区坐立难安，身边的人形们默契地不去打扰。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我们真的不管指挥官吗……
-AR15Mod(0)<Speaker>AR15</Speaker>||:让指挥官自己冷静一下吧。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:可是指挥官都快把自己的头发薅没了……
-NytoIsomer(9)<Speaker>丹德莱</Speaker>||:人类的头发是可以再生的。
-RO635Mod(2)<Speaker>RO635</Speaker>||:不知道基地怎么样了……
-BOSS-8(0)<Speaker>代理人</Speaker>||:……
-()||<SE1>AVG_tele_connect</SE1>:嘀嘀嘀——+通讯器响了起来。
-()<Speaker>指挥官</Speaker>||:啊！
-()||<震屏>:看见上面的显示，指挥官几乎握不住通讯器。
-()<Speaker>指挥官</Speaker>||:克鲁格先生！！！+……基地没事吗？大、大家呢？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>没事，只是看上去像是被布罗卜丁奈格国的人踩了一脚。</color>+<color=#00CCFF>……开个玩笑，放心吧，心智服务器还在。</color>+<color=#00CCFF>我们这边赫丽安受了点轻伤，帕斯卡损失了一点实验器材而已。 </color>
-NPC-Persica(1)<Speaker>帕斯卡</Speaker><通讯框>||:<color=#00CCFF>损失了一点实验器材而已？！我、我跟你没完！</color>
-NPC-Persica(1)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:格琳娜呢？她怎么样？
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>她前几天被送去医院休养了，目前情况很稳定。</color>+<color=#00CCFF>你呢，在柏林还顺利吗？</color>
-NPC-Kyruger(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我这边非常顺利，帕拉蒂斯看见我就像利立浦特人看见格列佛一样害怕。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>好，我就知道你能应付。</color>+<color=#00CCFF>这边有泽林斯基的援兵，不用担心。</color>+<color=#00CCFF>哈维尔的基地车已经在路上，接下来我们准备直接前往柏林。</color>
-NPC-Kyruger(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:您保重，我会在柏林等你们。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker><通讯框>||:<color=#00CCFF>好，我们柏林见。</color>
-()||<SE1>AVG_tele_disconnect</SE1>:通讯挂断。
-()<Speaker>指挥官</Speaker>||<黑屏1>:我一定把柏林的所有帕拉蒂斯铲平，给你们一个最完美的休养环境……
-()||<黑屏2><BIN>15</BIN><BGM>BGM_Empty</BGM><SE1>Rope</SE1><火花>:叛军特战队队长握紧了手中的枪，调整着姿势接听通讯。
-()<Speaker>特战队指挥长</Speaker>||<BGM>BGM_NightOPS</BGM>:<color=#00CCFF>我们的任务完成了，组织大家一起撤退吧。</color>
-NPC-Soldier(0)<Speaker>特战队队长</Speaker>||:可是克鲁格和赫丽安还没被歼灭，就这样撤退吗？
-NPC-Soldier(0)<Speaker>特战队指挥长</Speaker><同时置暗>||:<color=#00CCFF>是，但我们还有更重要的任务。</color>
-NPC-Soldier(0)<Speaker>特战队队长</Speaker>||:明白。
-()<Speaker>特战队指挥长</Speaker>||<黑屏1>:<color=#00CCFF>莫斯科冬天的第一场雪正在等待着我们。</color>
+()||<BIN>159</BIN><黑屏2><BGM>m_avg_hope</BGM>:ゼリンスキーの増援により、基地の外にいた反乱軍たちは//n壊滅的な被害を受けた。+基地内の反乱軍たちが動揺した隙を突いて、//nクルーガーは残りの人形たちを率いて、突破に成功した。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:やりました！
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker>||:ああ……
+()||:久しぶりの空を見て、クルーガーは全身から力が抜け、後ろへ倒れ込んだ。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:クルーガーさん！
+NPC-Helian(0)<Speaker>ゼリンスキー</Speaker><同时置暗>||:<color=#00CCFF>ヘリアン、聞こえてるか？</color>
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>;NPC-Zielinski(0)<通讯框>||:はい、ゼリンスキー局長！
+NPC-Helian(0)<Speaker>ゼリンスキー</Speaker><同时置暗>||:<color=#00CCFF>援軍はもう着いたはずだ。</color>+<color=#00CCFF>ひとまず安全だ。</color>
+NPC-Maid(0)<Speaker>救援人形</Speaker>||:ヘリアンさん、クルーガーさんはこちらにお願いします。+メンタルサーバーは車両に載せてください。//n負傷した人形も、こちらにて修復できます。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:ありがとう……本当にありがとう……
+()||:うっすらと、クルーガーは目を開く。
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker>||:大丈夫だ、ヘリアン……
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:はい……
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker>||<黑屏1>:……指揮官に繋いでくれ。
+()||<黑屏2><BIN>97</BIN>:……空港の待合室で、指揮官は居ても立っても居られない様子だった。//n人形たちもあえて余計な口を挟まず、黙って指揮官を見守っていた。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:本当に指揮官をこのままにしていいの……？
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:こういう時は自分で落ち着くのを待つしかないわよ。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:でも指揮官、さっきからずっと頭をかいてて、なんかハゲちゃいそう……
+NytoIsomer(9)<Speaker>ダンデライオン</Speaker>||:人間なら髪を再生できるわ。
+RO635Mod(2)<Speaker>RO635</Speaker>||:基地の方、今頃どうなっているのかしら……
+BOSS-8(0)<Speaker>エージェント</Speaker>||:……
+()||<SE1>AVG_tele_connect</SE1>:（ピピピッ）+通信機が鳴った。
+()<Speaker>指揮官</Speaker>||:あ！
+()||<震屏>:通知を見て、指揮官は震えて、通信機を落としそうになった。
+()<Speaker>指揮官</Speaker>||:クルーガーさん！！！+……基地は無事ですか？　み、みんなは？
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker><通讯框>||:<color=#00CCFF>問題ない、せいぜいブロブディンナグの住民に一足踏まれたようなものさ。</color>+<color=#00CCFF>……冗談だ。まぁ、メンタルサーバーは無事だから安心しろ。</color>+<color=#00CCFF>ヘリアンは軽傷で、ペルシカは実験機材をなくした程度で済んだ。 </color>
+NPC-Persica(1)<Speaker>ペルシカ</Speaker><通讯框>||:<color=#00CCFF>実験機材をなくした程度で？！　ちょっ、あとで話があるわよ！</color>
+NPC-Persica(1)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:カリーナは？　カリーナも無事なのか？
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker><通讯框>||:<color=#00CCFF>カリーナなら先日、病院に移ったばかりだ。今は容体が安定している。</color>+<color=#00CCFF>そっちはどうだ、ベルリンでうまくやってるか？</color>
+NPC-Kyruger(0)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:順調ですよ。パラデウスなんて、リリパットの小人のようなものです。
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker><通讯框>||:<color=#00CCFF>フッ、お前なら問題ないと踏んでいたからな。</color>+<color=#00CCFF>こっちにはゼリンスキーの援軍もある、心配は無用だ。</color>+<color=#00CCFF>ハ―ヴェルの機動基地が着き次第、我々もベルリンに向かう。</color>
+NPC-Kyruger(0)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:分かりました、ベルリンで待っています。
+NPC-Kyruger(0)<Speaker>クルーガー</Speaker><通讯框>||:<color=#00CCFF>ああ、ベルリンで会おう。</color>
+()||<SE1>AVG_tele_disconnect</SE1>:通信終了。
+()<Speaker>指揮官</Speaker>||<黑屏1>:ベルリンのパラデウスを一人残らず消してみせますよ。//nクルーガーさんたちが安心して休めるように……
+()||<黑屏2><BIN>15</BIN><BGM>BGM_Empty</BGM><SE1>Rope</SE1><火花>:反乱軍特殊部隊の小隊長は、通信機で指揮隊長からの指示を受けた。
+()<Speaker>特殊部隊指揮隊長</Speaker>||<BGM>BGM_NightOPS</BGM>:<color=#00CCFF>任務は完了した、皆を連れて撤退しろ。</color>
+NPC-Soldier(0)<Speaker>特殊部隊隊長</Speaker>||:クルーガーとヘリアンはまだ健在なのですが、撤退してよろしいのでしょうか？
+NPC-Soldier(0)<Speaker>特殊部隊指揮隊長</Speaker><同时置暗>||:<color=#00CCFF>そうだ、それよりも重要な任務がある。</color>
+NPC-Soldier(0)<Speaker>特殊部隊隊長</Speaker>||:分かりました。
+()<Speaker>特殊部隊指揮隊長</Speaker>||<黑屏1>:<color=#00CCFF>モスクワの初雪が、オレたちを待っている。</color>

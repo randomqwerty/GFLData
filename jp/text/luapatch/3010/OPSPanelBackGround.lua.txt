@@ -15,5 +15,15 @@ local Reaset = function(self)
 	end
 	self:Reaset();
 end
+
+local OpenBackgroundClick = function(self)
+	self.CanClick = false;
+end
+local ResetClockContainer = function(self,play)
+	self:ResetClockContainer(play);
+	self.CanClick = true;
+end
 util.hotfix_ex(CS.OPSPanelBackGround,'OnDrag',OnDrag)
 util.hotfix_ex(CS.OPSPanelBackGround,'Reaset',Reaset)
+util.hotfix_ex(CS.OPSPanelBackGround,'OpenBackgroundClick',OpenBackgroundClick)
+util.hotfix_ex(CS.OPSPanelBackGround,'ResetClockContainer',ResetClockContainer)
