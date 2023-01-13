@@ -9,8 +9,8 @@ local get_Instance = function()
 end
 local check = false;
 --修正下一步提前触发导致的问题
-local AfterBattlePlay = function(handle)
-	CS.GuideDeploymentController.AfterBattlePlay(handle);
+local AfterBattlePlay = function(self,handle)
+	self:AfterBattlePlay(handle);
 	check = true;
 end
 
