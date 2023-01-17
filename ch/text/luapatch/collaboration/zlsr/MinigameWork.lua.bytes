@@ -16,10 +16,12 @@ local character
 local playerFeverValue = -1
 local feverGuageMax
 local totalTimer = 0
+local totalFailNum = 0
 local isUIPausing = false
 local haloObj
+local isShown = false
 
-local _imgTime1,_imgTime2,_imgTime3,_imgTime4,_imgFeverGauge
+local _imgTime1,_imgTime2,_imgTime3,_imgTime4,_imgFeverGauge,spriteListResultScore
 local txtFever,txtScore
 local spriteListTime
 local BattleController
@@ -38,6 +40,9 @@ local stunAnimSecondFrame = 45
 local isMoving = false
 local isStun = false
 local lifebarFlag = false
+local currentEnergyCount
+local isFever = false
+local feverTimer = 0
 Awake = function()
 	
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
@@ -57,7 +62,18 @@ Awake = function()
 	local DisableRangeLine = function(self)
 		return true
 	end
+	local CheckBaseLine = function(self)
+		if (self:CheckAllIsPhased(self.enemyTeamHolder.listCharacter)) then
+			self:TriggerBattleFinishEvent()
+			return
+		end
+		if (self:CheckAllIsPhased(self.friendlyTeamHolder.listCharacter)) then
+			self:TriggerBattleFinishEvent()
+			return
+		end
+	end
 	util.hotfix_ex(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',RefreshFriendlyTargetList)
+	util.hotfix_ex(CS.GF.Battle.BattleController,'CheckBaseLine',CheckBaseLine)
 	util.hotfix_ex(CS.BattleInteractionController,'DisableRangeLine',DisableRangeLine)
 end
 Start = function()
@@ -83,7 +99,9 @@ Start = function()
 	self.transform:SetParent(CS.BattleUIController.Instance.transform:Find('UI'),false)
 	if character == nil then
 		character = CS.BattleLuaUtility.GetCharacterByCode(spineCode)
+		character.gameObject.transform.localScale = CS.UnityEngine.Vector3(1.2,1.2,1)
 	end
+	spriteListResultScore = goResultScoreItem:GetComponent(typeof(CS.UGUISpriteHolder))
 	feverGuageMax = energyMax
 	totalTimer = totalTime
 	_imgTime1 = imgTimeNum1:GetComponent(typeof(CS.ExImage))
@@ -99,6 +117,11 @@ Start = function()
 	JoyStrick:GetComponent(typeof(CS.Joystick)).JoystickBeginHandle = JoyStickBegin
 	UpdateFever(0)
 	UpdateScore()
+	brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
+	goShow.transform:Find("Img_BlurBG").gameObject:AddComponent(typeof(CS.ExButton)).onClick:AddListener(
+		function()
+			EndGame()
+		end)
 	btnPause:GetComponent(typeof(CS.ExButton)).onClick:AddListener(
 		function()
 			PauseGame(true)
@@ -183,6 +206,7 @@ end
 OnDestroy = function()
 	xlua.hotfix(CS.BattleInteractionController,'DisableRangeLine',nil)
 	xlua.hotfix(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',nil)
+	xlua.hotfix(CS.GF.Battle.BattleController,'CheckBaseLine',nil)
 end
 Update = function()
 	if haloObj ~= nil and haloObj.activeSelf then
@@ -204,9 +228,28 @@ function MainLoop()
 	
 	if not isStun then
 		UpdateBuff()
+		--判断是否fever
+		if not isFever then
+			UpdateFever(math.ceil(currentEnergyCount * energyBuffCoef))
+			CheckFever()
+		end
+		if playerFeverValue >= feverGuageMax then
+			
+		end
 		--判断是否摔倒
 		if stunBuffNum ~= 0 then
 			DoStun()
+		end
+		if isFever then
+			feverTimer = feverTimer + CS.UnityEngine.Time.deltaTime
+			if feverTimer >= energyDuration then
+				isFever = false
+				character.conditionListSelf:RemoveNum(stunBuffIDLeft,999)
+				character.conditionListSelf:RemoveNum(stunBuffIDRight,999)
+				
+				character.conditionListSelf:RemoveNum(energyBuffID,999)
+				UpdateFever(0)
+			end
 		end
 		if lastFrameHoldingBrickNum ~= currentHoldingBrickNum then
 			if isMoving then
@@ -216,8 +259,13 @@ function MainLoop()
 			end
 			if lastFrameHoldingBrickNum > currentHoldingBrickNum then
 				--记录得分
-				totalBrickNum = totalBrickNum + (lastFrameHoldingBrickNum - currentHoldingBrickNum)
-				playerScore = totalBrickNum * brickScore
+				local addBrickNum = (lastFrameHoldingBrickNum - currentHoldingBrickNum)
+				totalBrickNum = totalBrickNum + addBrickNum
+				if addBrickNum > 5 then
+					addBrickNum = 5
+				end
+				playerScore = playerScore + (addBrickNum * brickScore) +extraBrickScore[addBrickNum]
+				brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
 				UpdateScore()
 			end
 		end
@@ -230,13 +278,21 @@ function MainLoop()
 			StunFinish()
 		end
 	end
+	if math.floor(totalTimer) <= 0 then
+		ShowResult()
+	end
 end
 function UpdateBuff()
 	currentHoldingBrickNum = character.conditionListSelf:GetTierByID(brickBuffID)
+	if currentHoldingBrickNum > lastFrameHoldingBrickNum then
+		PlaySFX("pickBrick")
+	end
+
 	stunBuffNum = character.conditionListSelf:GetTierByID(stunBuffIDLeft)
 	if stunBuffNum == 0 then
 		stunBuffNum = -character.conditionListSelf:GetTierByID(stunBuffIDRight)	
 	end	
+	currentEnergyCount = character.conditionListSelf:GetTierByID(energyBuffID)
 end
 function GetMoveCode()
 	if currentHoldingBrickNum == 0 then
@@ -300,6 +356,9 @@ function GetWaitCode()
 end
 function DoStun()
 	--播放倒地动作
+	if isFever then
+		return
+	end
 	if stunBuffNum < 0 then
 		dir = 1		
 	else
@@ -309,6 +368,8 @@ function DoStun()
 	isStun = true
 	isMoving = false
 	stunTimer = 0
+	PlaySFX("truckHit")
+	totalFailNum = totalFailNum +1
 end
 function StunFinish()
 	--清掉砖块和眩晕的标记buff
@@ -327,6 +388,9 @@ function UpdateFever(feverCount)
 	if playerFeverValue == feverCount then
 		return
 	end
+	if feverCount >0 and feverCount > playerFeverValue then
+		PlaySFX("pickPower") 
+	end
 	playerFeverValue = feverCount
 	if playerFeverValue > feverGuageMax then
 		playerFeverValue = feverGuageMax
@@ -337,6 +401,7 @@ function UpdateFever(feverCount)
 	local feverpercent = playerFeverValue / feverGuageMax
 	_imgFeverGauge:DOFillAmount(feverpercent,0.01) 
 	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMax
+	
 end
 
 function PauseGame(isPause)
@@ -367,22 +432,25 @@ function ExitGame()
 end
 
 function ShowResult()
+	if isShown then return end
+	isShown = true
 	goResultScoreItem:SetActive(false)
 	goShow:SetActive(true)
 	if CS.GameData.userInfo ~= nil then
 		textResultName:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.name
 		textResultID:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.userId
 	end
-	textResultCombo:GetComponent(typeof(CS.ExText)).text = math.floor(bestMaintain)
-	textResultTime:GetComponent(typeof(CS.ExText)).text = totalTime
+	textResultCombo:GetComponent(typeof(CS.ExText)).text = totalBrickNum
+	textResultTime:GetComponent(typeof(CS.ExText)).text = totalFailNum
 	local strScore = tostring(playerScore) 
 	for i=1,string.len(strScore) do
 		local num = tonumber(string.sub(strScore,i,i)) 
 		local scoreitem =CS.UnityEngine.Object.Instantiate(goResultScoreItem) 
-		scoreitem.transform:SetParent(transResultScore.transform,false)
+		scoreitem.transform:SetParent(goResultScoreItem.transform.parent,false)
 		scoreitem:SetActive(true)
 		scoreitem:GetComponent(typeof(CS.ExImage)).sprite = spriteListResultScore.listSprite[num]
 	end
+	CS.BattleFrameManager.StopTime(true,9999999)
 end
 function EndGame()
 	local ScoreRank = scoreRanking[4]
@@ -420,4 +488,52 @@ function UpdateRemainTime()
 end
 function UpdateScore()
 	txtScore.text = string.format("%05d",playerScore) 
+end
+function CheckFever()
+	if not isFever and playerFeverValue >= feverGuageMax then
+		isFever = true
+		PlaySFX("enterFever")
+		feverTimer = 0
+		--CS.CommonAudioController.Instance.bgmSource:Pause(true)
+		
+		--goFeverEffect:SetActive(true)
+		--goFeverEffect2:SetActive(true)
+		--goFeverHint:SetActive(true)
+		_imgFeverGauge:DOFillAmount(0,energyDuration) 
+	end
+end
+function PlaySFX(FXname)
+	--print(FXname)
+	if FXname == "right_click" then
+		CS.CommonAudioController.PlayBattle("Click_Correct")
+	end
+	if FXname == "wrong_click" then
+		CS.CommonAudioController.PlayBattle("Click_Incorrect")
+	end
+	if FXname == "fever_click" then
+		CS.CommonAudioController.PlayBattle("Click_Fever")
+	end
+	if FXname == "music_click" then
+		CS.CommonAudioController.PlayBattle("Click_MusicGame")
+	end
+	if FXname == "enterFever" then
+		CS.CommonAudioController.PlayBattle("UI_Fever")
+	end
+	if FXname == "moveSlow" then
+		CS.CommonAudioController.PlayBattle("FS_Slow_Loop")
+	end
+	if FXname == "moveQuick" then
+		CS.CommonAudioController.PlayBattle("FS_Fast_Loop")
+	end
+	if FXname == "pickBrick" then
+		CS.CommonAudioController.PlayBattle("UI_PickBrick")
+	end
+	if FXname == "truckHit" then
+		CS.CommonAudioController.PlayBattle("UI_TruckHit")
+	end
+	if FXname == "pickPower" then
+		CS.CommonAudioController.PlayBattle("UI_PickPower")
+	end
+	
+	
 end

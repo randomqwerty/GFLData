@@ -44,5 +44,18 @@ function is_include(value, t)
 	end
 	return false;
 end
+
+local ShowSkinPreview = function(self,skinInfo)
+	if skinInfo == nil then
+		return;
+	end
+	self.objLeft:SetActive(false);
+	self.objRight:SetActive(false);
+	self.objPackageBg:SetActive(false);
+	local gunInfo = CS.GameData.listGunInfo:GetDataById(skinInfo.fitGun);
+	local pic = CS.CommonController.LoadBigPic(gunInfo.code, self.btnBlackBg.transform, skinInfo.id, false);
+	pic:SwitchDamaged(false);
+end
 util.hotfix_ex(CS.PresentWindowController,'ShowPresentTip',myShowPresentTip)
 util.hotfix_ex(CS.PresentWindowController,'Start',myStart)
+util.hotfix_ex(CS.PresentWindowController,'ShowSkinPreview',ShowSkinPreview)

@@ -29,10 +29,24 @@ local PlayLabel = function(self)
 		self.currentLabel.transform:Find("GQ_bl_rongjie").gameObject:SetActive(true);
 	end
 end
+
+local RefreshUI = function(self)
+	if CS.OPSPanelBackGround.currentContainerId == self.containerId and self.CanShow then
+		if self.groupInfo ~= nil then
+			self.gameObject:SetActive(true);
+			if self.currentLabel ~= nil then
+				self.currentLabel:PlayShow();
+			end
+			return;
+		end
+	end
+	self:RefreshUI();
+end
 util.hotfix_ex(CS.OPSPanelMissionHolder,'Awake',Awake)
 util.hotfix_ex(CS.OPSPanelMissionHolder,'AllCount',AllCount)
 util.hotfix_ex(CS.OPSPanelMissionHolder,'get_CanShow',CanShow)
 util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayLabel',PlayLabel)
+util.hotfix_ex(CS.OPSPanelMissionHolder,'RefreshUI',RefreshUI)
 
 
 
