@@ -16,6 +16,7 @@ local barLength = 836
 local leaderSpine
 local txtScore,txtFever
 local spriteListResultScore,spriteListTime
+local imgGrade,spriteListGrade
 local _imgTime1,_imgTime2,_imgTime3,_imgTime4
 local _imgFeverGauge,_imgWarningBG
 local elementBestAreaWidth,elementBestAreaCenter
@@ -63,6 +64,7 @@ local totalTimer = 0
 local isAscend = false
 local isDescend = false
 local descendTimer = 0
+local feverClickTime =0
 Awake = function()
 	
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
@@ -150,6 +152,8 @@ Start = function()
 	imgAvatar:GetComponent(typeof(CS.ExImage)).sprite = imgAvatar:GetComponent(typeof(CS.UGUISpriteHolder)).listSprite[randomMember-1]
 	textAvatarName:GetComponent(typeof(CS.ExText)).text = GetName(nameList[randomMember]) 
 	totalTimer = totalTime
+	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
+	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
 end
 
 OnDestroy = function()
@@ -423,11 +427,15 @@ function OnFeverClickButton()
 		playerScore = playerScore + feverScore
 		UpdateScore(playerScore)
 		PlaySFX("fever_click")
+		feverClickTime = feverClickTime + 1
 	else
 		
 	end
 end
 function ExitGame()
+	if isUIPausing then
+		CS.CommonAudioController.Instance.bgmSource:Pause(false)
+	end
 	CS.UnityEngine.Time.timeScale = 1
 	CS.BattleFrameManager.ResumeTime()
 	CS.GF.Battle.BattleController.Instance:TriggerBattleFinishEvent(true)
@@ -437,12 +445,19 @@ end
 function ShowResult()
 	goResultScoreItem:SetActive(false)
 	goShow:SetActive(true)
+	local curGrade = 1
+	for i=1,4 do
+		if playerScore >= scoreRanking[i] then
+			curGrade = i
+		end
+	end
+	imgGrade.sprite = spriteListGrade.listSprite[curGrade-1]
 	if CS.GameData.userInfo ~= nil then
 		textResultName:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.name
 		textResultID:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.userId
 	end
 	textResultCombo:GetComponent(typeof(CS.ExText)).text = math.floor(bestMaintain)
-	textResultTime:GetComponent(typeof(CS.ExText)).text = totalTime
+	textResultTime:GetComponent(typeof(CS.ExText)).text = feverClickTime
 	local strScore = tostring(playerScore) 
 	for i=1,string.len(strScore) do
 		local num = tonumber(string.sub(strScore,i,i)) 
