@@ -462,7 +462,7 @@ function ShowResult()
 	for i=1,string.len(strScore) do
 		local num = tonumber(string.sub(strScore,i,i)) 
 		local scoreitem =CS.UnityEngine.Object.Instantiate(goResultScoreItem) 
-		scoreitem.transform:SetParent(transResultScore.transform,false)
+		scoreitem.transform:SetParent(goResultScoreItem.transform.parent,false)
 		scoreitem:SetActive(true)
 		scoreitem:GetComponent(typeof(CS.ExImage)).sprite = spriteListResultScore.listSprite[num]
 	end

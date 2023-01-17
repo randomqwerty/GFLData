@@ -13,6 +13,7 @@ xlua.private_accessible(CS.GF.Battle.BattleConditionList)
 xlua.private_accessible(CS.GF.Battle.CharacterCondition)
 
 local character
+local characterData
 local playerFeverValue = -1
 local feverGuageMax
 local totalTimer = 0
@@ -102,6 +103,7 @@ Start = function()
 	if character == nil then
 		character = CS.BattleLuaUtility.GetCharacterByCode(spineCode)
 		character.gameObject.transform.localScale = CS.UnityEngine.Vector3(1.2,1.2,1)
+		characterData = CS.BattleLuaUtility.GetDataByCode(spineCode)
 	end
 	spriteListResultScore = goResultScoreItem:GetComponent(typeof(CS.UGUISpriteHolder))
 	feverGuageMax = energyMax
@@ -217,7 +219,7 @@ Update = function()
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
-
+	
 	--MainLoop()
 	
 end
@@ -541,6 +543,7 @@ function CheckFever()
 		--goFeverEffect2:SetActive(true)
 		--goFeverHint:SetActive(true)
 		_imgFeverGauge:DOFillAmount(0,energyDuration-0.1) 
+		CS.GF.Battle.SkillUtils.GenBuffViaSkillConfig(characterData,11952601)
 	end
 end
 function PlaySFX(FXname)
