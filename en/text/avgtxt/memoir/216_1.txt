@@ -1,61 +1,61 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>m_avg_casual</BGM><BIN>89</BIN><黑屏2>:……格里芬基地，物流仓库内。+原本宽敞的仓库被凌乱货架分割成狭窄通道。+吊顶白炽灯下只有一名少女带着运输妖精们忙碌徘徊。+她边自言自语边在手中文件板夹上比划着，眼神空洞姿态疲倦，好像熬了个通宵。
-NPC-Kalin(12)<Speaker>格琳娜</Speaker>||<SE1>ClothingUp</SE1>:127、128……终于，整理到最后一个了。+怎么还剩下一百多个？我们公司真的有这么多人形吗？！
-()<Speaker></Speaker>||:格琳娜转身望着清一色印刷购物节标志的快递箱发出宛如实质的怨念。+整理已经进行了三轮但仍然滞留着上百份邮件无人认领。+而它们上面除了格里芬这个邮寄地址外只剩下了名为“别连科”的ID。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:哎……趁着新快递没到还是赶紧收工吧。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||<BIN>89</BIN><黑点1>:希望能多跟指挥官要到些加班费。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><BIN>83</BIN><黑点2>:格琳娜逃跑似的蹿出仓库大门。+不过室外迎接她的除了和煦阳光还有辆黑色高级卡车。
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏>:以及一声回荡良久的闷响。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:噫！炮……炮击？帕拉蒂斯终于打过来了吗！
-()<Speaker>快递小哥</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:您好，我们接到加急通知并将订单送至贵部仓库。+共计33.1立方米食品与服装，用集装箱给您打包了。+我是129号专员，祝您身体健康购物节愉快！
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:快递小哥熟练地用外置音响喊话，接着立刻踩下重卡油门绝尘离去。+只留下两条车辙和被集装箱巨大阴影笼罩的格琳娜。+她难以置信，脸色发白，最后变红，同时恶狠狠地播出一则通讯。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||<SE1>AVG_tele_connect</SE1>:所有格里芬人形！立刻到仓库认领邮件！到底是谁扔了一百多件ID为别连科的快递！
-NPC-Kalin(4)<Speaker>格琳娜</Speaker><Shake>0.5</Shake>||<黑屏1>:如果再没人接收我可要把它们丢出去腾地方了！
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><BIN>9</BIN><黑屏2>:怒气冲冲的格琳娜很快让基地热闹起来，但络绎不绝的人形里仍然没有这些神秘邮件的收取人。+就在她准备履行诺言时一个银色身影挤了过来。
+()<Speaker></Speaker>||<BGM>m_avg_casual</BGM><BIN>89</BIN><黑屏2>:...Logistics Warehouse, Griffin Base.+The once spacious warehouse has been divided up into cramped passages by messily scattered goods shelves.+Under the fluorescent bulbs, a lone girl leads the transport Fairies around in their work.+She writes on the document on her clipboard as she mutters to herself. Her eyes are vacant and she looks tired—she has likely pulled an all-nighter.
+NPC-Kalin(12)<Speaker>Kalina</Speaker>||<SE1>ClothingUp</SE1>:127, 128... Finally, we've cleared the last one.+Why do we still have a hundred-plus left over? Does our company really have that many Dolls?!
+()<Speaker></Speaker>||:Kalina turns to look at the neat rows of labeled delivery boxes and gripes.+They've gone through the inventory three times already, but there are still over a hundred unclaimed items.+And apart from the address of the Griffin base, the only other thing on them is the ID "Belenko".
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:(Sighs) Let's hurry and finish up before more deliveries arrive.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||<BIN>89</BIN><黑点1>:I hope I can claim extra overtime from the Commander.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><BIN>83</BIN><黑点2>:Kalina practically flees through the warehouse door.+However, the warm sunlight is not the only thing that greets her—there is also a fancy black truck...
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏>:...As well as a dull thud that echoes for a good long while.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Eeek! Is it... Is it a bombardment? Has Paradeus finally decided to attack us?!
+()<Speaker>Deliveryman</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:Hi, we've received an urgent request to send this order to your warehouse.+There's a total of 33.1 cubic meters of food and clothing. Please sign for the shipping container.+I'm Staffer No. 129. Wishing you good health and happy shopping!
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:The deliveryman speaks through the external speakers—clearly he's done this often—then floors the gas and speeds off in a cloud of dust.+In his wake are two tire tracks and the gigantic shadow of a shipping container.+She stares incredulously at it. Her face goes pale, then red, and she sends out a furious transmission.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||<SE1>AVG_tele_connect</SE1>:All Griffin Dolls! Report to the warehouse to collect your mail immediately! Who the hell ordered over 100 packages under the name of Belenko?!
+NPC-Kalin(4)<Speaker>Kalina</Speaker><Shake>0.5</Shake>||<黑屏1>:If nobody signs for them, I'll throw them all out to make space!
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><BIN>9</BIN><黑屏2>:Kalina's angry call soon has the base abuzz, but nobody from the endless stream of Dolls who pour in is the recipient for these mysterious articles.+Just as she's about to follow through on her promise, a silvery figure squeezes her way over.
 ()||<黑点1>:
-XM8(0)<Speaker>XM8</Speaker>||<黑点2><BIN>83</BIN>:别连科，对这个名字好像有些印象呢。
-XM8(0);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:那就是你的快递咯，为什么不早些取走呢？
-XM8(0)<Speaker>XM8</Speaker>;NPC-Kalin(4)||:可能是因为这些东西只留了寄件地址和一个不清不楚的ID？
-XM8(0);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:呃……好像是这样。
-XM8(0)<Speaker>XM8</Speaker>;NPC-Kalin(4)||:那会让人很难办啊。+如果所有快递都玩脑筋急转弯那购物就要变成益智类游戏了。+啧，总之寄件人一定是个侦探小说入脑又故作高深的三脚猫！
-XM8(0);NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:别这样说啦，愿意给你寄这么多快递的人一定关系很好吧？
-XM8(0)<Speaker>XM8</Speaker>||:那也要先看看里面有什么东西再说……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:XM8迅速装载快递，然后急匆匆地消失在仓库前，差点撞到从门缝挤进来的TS12。
-TavorTS12(0)<Speaker>TS12</Speaker><Shake>0.5</Shake>||:真是的，怎么这么冒失……+咦？格琳娜小姐，我搬东西前放在这里的试验箱呢？+那可是我攒了半年的工资才买到的限量款！
-TavorTS12(0);NPC-Kalin(5)<Speaker>格琳娜</Speaker>||:原来那个橘黄色的箱子是你的东西啊。+因为实在太像快递刚刚好像交给XM8了。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:总之不好意思啦……去宿舍找她要回来吧。
-()<Speaker></Speaker>||<黑屏1>:脸色发青的TS12还没有等格琳娜讲完便挥手冲出仓库……+这也许是她今天听到最大的噩耗。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><黑屏2>:……XM8宿舍外。
+XM8(0)<Speaker>XM8</Speaker>||<黑点2><BIN>83</BIN>:The name Belenko sounds familiar.
+XM8(0);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Then they must be your packages. Why didn't you claim them earlier?
+XM8(0)<Speaker>XM8</Speaker>;NPC-Kalin(4)||:Maybe it's because they just had a delivery address and a vague recipient?
+XM8(0);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Er... That seems to be the case.
+XM8(0)<Speaker>XM8</Speaker>;NPC-Kalin(4)||:That would be a problem, then.+If all deliveries were brain teasers, then shopping would become edutainment.+Tsk, in any case, the sender must be a pretentious loser who's got detective stories on the brain!
+XM8(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Don't say that. Surely someone who's willing to mail all these packages must be on really good terms with you, right?
+XM8(0)<Speaker>XM8</Speaker>||:Save that for until we see what's inside them...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:XM8 quickly loads up the packages, then vanishes from the warehouse, nearly bumping into TS12 at the doorway.
+TavorTS12(0)<Speaker>TS12</Speaker><Shake>0.5</Shake>||:Honestly, why is she so careless...+Hm? Miss Kalina, did you see the test chamber that I'd put here before I went to move stuff?+It's a limited-edition model, and I had to save up half a year's wages to buy it!
+TavorTS12(0);NPC-Kalin(5)<Speaker>Kalina</Speaker>||:So that orange box was yours? +It looked so much like a delivery package, I handed it to XM8.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Sorry about that... Maybe try getting it back from her at the dorm?
+()<Speaker></Speaker>||<黑屏1>:TS12's face blanches immediately and before Kalina can finish, she's already run out of the warehouse with a wave...+This is probably the worst news she's heard all day.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><黑屏2>:...Outside XM8's dorm.
 ()||<黑点1>:
-TavorTS12(0)<Speaker>TS12</Speaker>||<BIN>97</BIN><黑点2>:XM8！+XM8在哪里！
-TavorTS12(0)<Speaker>TS12</Speaker>||<震屏>:<size=50>XM8！！！！</size>
-()<Speaker></Speaker>||:风风火火的声音在门外响起，接着是一阵快要把墙面拆掉的敲门声。
-TavorTS12(0)<Speaker>TS12</Speaker>||<SE1>AVG_Door_Hit</SE1><震屏>:快开门！我知道你在里面，别不吭声！
-()<Speaker>XM8</Speaker>||<黑点1>:噫！吵死了吵死了！门没锁。
-()<Speaker></Speaker>||<BIN>82</BIN><黑点2><SE1>AVG_Door_Open_Close</SE1>:TS12立刻夺门入室。+而XM8坐在高高摞起的大叠纸箱上，身下则正巧垫着其中最有分量的塑料盒。+那上面除了被拆成横七竖八的卡扣，好像还隐约可见黄底的危险告示……
-TavorTS12(0)<Speaker>TS12</Speaker>||<BGM>BGM_Hello</BGM>:我的试验箱！果然在这！你竟然还打开了！
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:别多想，里面每个手电筒都贴着你的名字，我也仅仅是拆快递时顺手看了一眼而已。
-TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:手！电！筒！？那是我的高能激光切割机，聚焦之后可是能像裁纸一样分离装甲板的！
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:仔细想想那不还是个大功率手电筒吗？
-TavorTS12(0)<Speaker>TS12</Speaker>||:呃，太……太过分了！你怎么可以如此轻蔑富有创造力的发明！+要知道一台上世纪的红宝石激光器射向月球的照度依然比目前最先进的脉冲灯强！更不要提……+喂！XM8你在听吗？为什么傻傻地盯着枚棋子？这个状态可不像你。
-()<Speaker></Speaker>||:被点名的XM8一言不发，只是放下棋子后打量了TS12一番，接着重重叹气。
-TavorTS12(0)<Speaker>TS12</Speaker>||:你这家伙！态度能不能好一点啊，我是在关心你！
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:一个笨蛋的关心除了徒增困扰又能有什么用呢？
-TavorTS12(0)<Speaker>TS12</Speaker>||:在我看来憋着难处不说的人才是真正的笨蛋！
-()<Speaker></Speaker>||:空气突然陷入沉默，两人互相看着彼此。+最终XM8实在无法忍受尴尬，她指了指身边堆放的棋盘，准备摊牌。
-XM8(0)<Speaker>XM8</Speaker>||:好吧……我确实有很多话想说，如果只是跟你谈谈心那倒也不错。+看到这儿了吗？
-TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:嗯……你手指挺漂亮的。
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:我是说，我指的这棋盘上有两个超级显眼的字母……
-TavorTS12(0)<Speaker>TS12</Speaker><Shake>0.5</Shake>||:原来如此！
-()<Speaker></Speaker>||:TS12发出了恍然大悟的声音。+而XM8只得再次重重的叹了一口气。
-XM8(0)<Speaker>XM8</Speaker>||:这份棋盘属于我多年前的一位朋友，而你看到的字母是他名字的缩写。+我绝对不可能记错这些东西！+不过这位朋友实际上早已杳无音讯，我很惊讶竟然能在今天收到他的快递。
-TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:失踪的友人、熟悉的信物、被唤醒的回忆！我懂了！
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:你懂了什么？
-TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:这一定是那种情节吧！XM8你其实是来自平行宇宙的人形。+经过未知原因穿越到格里芬并且失去记忆。+但你的友人一直没有放弃并费尽千辛万苦寄来了能够唤醒记忆的信物。+如今你已经意识到了自己不属于这里对不对！
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:这是什么三流科幻小说情节，TS12原来你喜欢看这种东西吗？
-TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:开玩笑啦，放心，我会帮忙的，一定帮你查明这位友人的信息！
-TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:你这笨蛋的态度怎么这么积极，我没说过要调查对方吧？
-TavorTS12(0)<Speaker>TS12</Speaker>||:得了吧XM8，你的表情和状态已经出卖了你。+如果不查清楚这件事情你根本不会安心的不是么？+我也姑且是你的朋友，不会坐看同伴困扰的。
-()<Speaker></Speaker>||:XM8思索了良久，看着对方身后的霰弹枪总算下定了决心。
-XM8(0)<Speaker>XM8</Speaker>||:好吧，但我们的动作要快，休息日的时间可不多了……
-()||<黑屏1>:
+TavorTS12(0)<Speaker>TS12</Speaker>||<BIN>97</BIN><黑点2>:XM8!+Where are you, XM8?!
+TavorTS12(0)<Speaker>TS12</Speaker>||<震屏>:<size=50>XM8!!!!</size>
+()<Speaker></Speaker>||:Frantic shouting fills the air, followed by a bout of knocking that's vigorous enough to break down the door.
+TavorTS12(0)<Speaker>TS12</Speaker>||<SE1>AVG_Door_Hit</SE1><震屏>:Open up! I know you're in there. Don't play dumb with me!
+()<Speaker>XM8</Speaker>||<黑点1>:Arghhh, be quiet. You're so noisy! The door's not locked.
+()<Speaker></Speaker>||<BIN>82</BIN><黑点2><SE1>AVG_Door_Open_Close</SE1>:TS12 immediately barges in.+Meanwhile, XM8 is sitting on a big stack of cardboard boxes, and right below her is a big plastic box.+Apart from the packing straps which have mostly been removed, a yellow warning sticker is vaguely visible...
+TavorTS12(0)<Speaker>TS12</Speaker>||<BGM>BGM_Hello</BGM>:My test chamber! So it's really here! And you even opened it!
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:Relax, all the flashlights in there had your name on them, I just looked through them quickly while opening up my packages.
+TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:Flashlights?! Flashlights, you say? Those are my high-energy laser cutters. They can slice armor plating like paper once you focus them!
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:But when you think about it, aren't they basically just overpowered flashlights?
+TavorTS12(0)<Speaker>TS12</Speaker>||:Urgh, this... this is too much! How can you look down on such brilliant inventions?!+I'll have you know that even a ruby laser from the previous century is more visible from the moon than the most advanced modern pulse lamps, to say nothing of...+Hey! Are you listening, XM8? Why are you spacing out and staring at that chess piece? This isn't like you.
+()<Speaker></Speaker>||:Despite being called by name, XM8 says nothing. She simply puts down the chess piece and sizes TS12 up before sighing heavily.
+TavorTS12(0)<Speaker>TS12</Speaker>||:Why you! What's with that attitude?! I'm concerned about you here!
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:What can a moron's concern do besides add to my troubles?
+TavorTS12(0)<Speaker>TS12</Speaker>||:If you ask me, the one who bottles up their troubles and doesn't talk about them is the real moron!
+()<Speaker></Speaker>||:Silence fills the air and the two of them stare at each other.+In the end, XM8 can't stand the awkwardness anymore and points to the chess set next to her, preparing to tell all.
+XM8(0)<Speaker>XM8</Speaker>||:Fine... You're right, I actually have a lot I want to say, and sharing it with you might not be a bad idea.+Do you see this?
+TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:Yup... Your fingers are pretty.
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:I mean, do you see how this chess set has two incredibly obvious letters on it?
+TavorTS12(0)<Speaker>TS12</Speaker><Shake>0.5</Shake>||:I see!
+()<Speaker></Speaker>||:TS12 exclaims in enlightenment.+Meanwhile, XM8 just lets out another heavy sigh.
+XM8(0)<Speaker>XM8</Speaker>||:This chess set belongs to a friend from many years ago, and the letters you see are their initials.+I'm certain I didn't misremember that!+But the truth is, I haven't seen or heard from this friend in a long time, so I'm surprised I received a package from them today.
+TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:Missing friend, familiar mementos and awakened memories! Got it!
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:What do you get?
+TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:This is totally a trope! You're actually a Doll from a parallel universe.+You traveled to this universe through mysterious means, ended up in Griffin and lost your memories.+But your friend never gave up and kept trying to send mementos to awaken your memories.+And now, you've finally realized that something's not right!
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:What kind of trashy sci-fi novel plot is that? Do you actually like these things, TS12?
+TavorTS12(0)<Speaker>TS12</Speaker>;XM8(0)||:Relax, I'm just kidding. I'll help you find out about this friend of yours who sent all this stuff!
+TavorTS12(0);XM8(0)<Speaker>XM8</Speaker>||:Why are you being so eager about this, you idiot? I never said I was going to look into them, did I?
+TavorTS12(0)<Speaker>TS12</Speaker>||:Come off it, XM8, your expression has already betrayed you.+There's no way you can be at peace if you don't get to the bottom of this, right?+I AM a friend of yours too, you know. I won't sit back and do nothing when my friends are in distress.
+()<Speaker></Speaker>||:XM8 thinks for a while, and she finally makes up her mind after eyeing the shotgun slung on TS12's back.
+XM8(0)<Speaker>XM8</Speaker>||:Alright, but we need to be fast, we don't have too many days off left...
+()||<黑屏1>:

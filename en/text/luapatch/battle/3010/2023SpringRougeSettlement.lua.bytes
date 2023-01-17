@@ -44,10 +44,15 @@ Awake = function()
 		if isShown then
 			self:RequestBattleFinish(forcelose)
 		else
-
-
-			CS.BattleFrameManager.StopTime(true,9999999)
-			ShowInfo()
+			CS.GF.Battle.BattleController.Instance:CheckBattleFinish(forcelose)
+			if CS.GF.Battle.BattleController.Instance.ifEnemyDie then
+				CS.BattleFrameManager.StopTime(true,9999999)
+				ShowInfo()
+			else
+				self:RequestBattleFinish(forcelose)
+			end
+			
+			
 		end
 	end
 	util.hotfix_ex(CS.GF.Battle.BattleController,'RequestBattleFinish',RequestBattleFinish)
@@ -70,12 +75,14 @@ Update = function()
 end
 function ShowInfo()
 	print("ShowInfo")
-	gameObject:SetActive(true)
+	
 	if not showinfo then
 		showinfo = true
 	else
 		return
 	end
+	
+	gameObject:SetActive(true)
 	if CS.GameData.userInfo ~= nil then
 		_textName.text = CS.GameData.userInfo.name
 		_textID.text = CS.GameData.userInfo.userId
@@ -97,6 +104,16 @@ function Exit()
 	isShown = true
 	CS.UnityEngine.Time.timeScale = 1
 	CS.BattleFrameManager.ResumeTime()
+	if CS.GF.Battle.BattleController.Instance.ifEnemyDie then
+		--print("recordTime")
+		local shortTime = CS.UnityEngine.PlayerPrefs.GetFloat("2023_Rouge_Time",-1)
+		local currentTime = CS.BattleFrameManager.Instance:GetCurBattleTime()
+		--print(shortTime)
+		--print(currentTime)
+		if shortTime < 0 or currentTime < shortTime then
+			CS.UnityEngine.PlayerPrefs.SetFloat("2023_Rouge_Time",currentTime)
+		end
+	end
 	CS.GF.Battle.BattleController.Instance:TriggerBattleFinishEvent()
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 end

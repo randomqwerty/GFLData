@@ -8,6 +8,52 @@ xlua.private_accessible(CS.ExButton)
 xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.OPSPanelConfig)
 xlua.private_accessible(CS.OPSSpineMission)
+
+local FindPanelMission = function(self)
+	if CS.GameData.missionAction ~= nil then
+		local missionid = CS.GameData.missionAction.missionInfo.id;
+		for i=0,CS.OPSPanelBackGround.Instance.spotMissionHolders.Count-1 do
+			local holder = CS.OPSPanelBackGround.Instance.spotMissionHolders[i];
+			if holder.groupInfo ~= nil then
+				if holder.groupInfo.missionids:Contains(missionid) then
+					return holder;
+				end
+			elseif holder.opsMission ~= nil then
+				local entranceId = holder.opsMission.entranceId;
+				if entranceId ~= 0 then
+					if CS.OPSConfig.missionEntranceInfos:ContainsKey(entranceId) then
+						local info = CS.OPSConfig.missionEntranceInfos[entranceId];
+						for j=0,info.missionids.Count-1 do
+							for l=0,info.missionids[j].Count-1 do
+								local id = info.missionids[j][l];
+								if missionid == id then
+									CS.OPSConfig.missionEntranceSelectOrder[entranceId] = j;
+									CS.OPSConfig.missionEntranceSelectDiffcluty[entranceId] = l;
+									return holder;
+								end
+							end		
+						end
+					end	
+				else
+					for j=0,holder.opsMission.missionIds.Count-1 do
+						local id =holder.opsMission.missionIds[j];
+						if missionid == id then
+							CS.OPSPanelController.diffclutyRecord = j;
+							CS.OPSPanelController.difficulty = j;
+							return holder;
+						end
+					end
+				end
+			end
+		end
+	end
+	return nil;
+end
+local SelectContainer = function(self,container,playanim)
+	self:RefreshContainerUI();
+	self.canvasContainerGroup.alpha = 1;
+	self:SelectContainer(container,playanim);
+end
 local SelectModuleSpine = function(self,spinecontrol)
 	print("选中小人"..spinecontrol.spinecode);
 	self:CancelSelectMoudleSpine();
@@ -142,7 +188,10 @@ local RefreshMoudleBuildUI = function(self)
 end
 
 local CancelMission = function(self)
+	local temp = self.currentContainer;
+	self.currentContainer = nil;
 	self:CancelMission();
+	self.currentContainer = temp;
 	self:RefreshMoudleBuildUI();
 end
 local order = -1;
@@ -442,6 +491,8 @@ function Split(szFullString, szSeparator)
 	end
 	return nSplitArray
 end
+util.hotfix_ex(CS.OPSPanelController,'FindPanelMission',FindPanelMission)
+util.hotfix_ex(CS.OPSPanelController,'SelectContainer',SelectContainer)
 util.hotfix_ex(CS.OPSPanelController,'SelectModuleSpine',SelectModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'ShowOPSSpineMissionUI',ShowOPSSpineMissionUI)
 util.hotfix_ex(CS.OPSPanelController,'HideOPSSpineMissionUI',HideOPSSpineMissionUI)

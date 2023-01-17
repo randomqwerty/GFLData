@@ -1,87 +1,87 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM><BIN>412</BIN><黑屏2>:柏林，斯塔西本部。
-NPC-Romy(3)<Speaker>罗密</Speaker>||:不能通行？
-NPC-Romy(3)<Speaker>秘书</Speaker><同时置暗>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>是的，蕾芬斯塔尔主管，这是将军的意思。</color>
-NPC-Romy(3)<Speaker>罗密</Speaker>||:……但将军先前说，等他抵达法兰克福，还要与我联络。+我这边也的确有事情需要向他汇报。
-NPC-Romy(3)<Speaker>秘书</Speaker><同时置暗>||:<color=#00CCFF>很抱歉，但是将军向您传达他的意见。</color>+<color=#00CCFF>……暂时无法回应您的通讯，并希望您暂时留在柏林。</color>+<color=#00CCFF>等到时机成熟，会再安排您返回法兰克福的事务。</color>
-NPC-Romy(3)<Speaker>罗密</Speaker>||:……我知道了。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+通讯结束。
-NPC-Romy(3)<Speaker>罗密</Speaker>||:……
-()<Speaker></Speaker>||:……飞机上发生了什么？+为什么将军突然改口，还要她暂时留在柏林？
-NPC-Romy(0)<Speaker>罗密</Speaker>||<SE1>AVG_tele_connect</SE1>:……把凯文叫过来。
+()<Speaker></Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM><BIN>412</BIN><黑屏2>:Stasi HQ, Berlin.
+NPC-Romy(3)<Speaker>Romy</Speaker>||:So they can't cross?
+NPC-Romy(3)<Speaker>Secretary</Speaker><同时置暗>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Yes, Director Riefenstahl. That was what the General said.</color>
+NPC-Romy(3)<Speaker>Romy</Speaker>||:...But the General said earlier that he would contact me once he reached Frankfurt. +And I have things here that I need to report to him.
+NPC-Romy(3)<Speaker>Secretary</Speaker><同时置暗>||:<color=#00CCFF>My apologies, but the General has made his opinion clear.</color> +<color=#00CCFF>...He is unable to respond to your calls at the moment and he hopes that you will stay in Berlin for the time being.</color> +<color=#00CCFF>When the time is right, he will arrange for you to return to your business in Frankfurt.</color>
+NPC-Romy(3)<Speaker>Romy</Speaker>||:...Understood.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +The transmission ends.
+NPC-Romy(3)<Speaker>Romy</Speaker>||:...
+()<Speaker></Speaker>||:...What happened on the plane? +Why did the General suddenly change his mind and have her remain in Berlin for the time being?
+NPC-Romy(0)<Speaker>Romy</Speaker>||<SE1>AVG_tele_connect</SE1>:...Get Kevin in here.
 ()||<黑点1>:
-NPC-Keven(0)<Speaker>J</Speaker>||<黑点2><SE1>AVG_Door_Open_Close</SE1>:……您找我？主管？
-NPC-Romy(0)<Speaker>罗密</Speaker>||<SE1>AVG_File_Put</SE1>:我有新工作要交给你。
-()<Speaker></Speaker>||:罗密将刚刚草拟的名单放在桌子上，向J的方向推了过去。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:J一脸狐疑地接过名单，简单地浏览了一番。
-NPC-Keven(5)<Speaker>J</Speaker>||:……这都是国防部的要员？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:调查他们的背景，要秘密行事。
-NPC-Keven(5)<Speaker>J</Speaker>||:我知道了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J点点头，将名单收了起来，然后看着罗密，有些欲言又止。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:怎么了？
-NPC-Keven(0)<Speaker>J</Speaker>||:……“死海”的事情，那边好像出了什么岔子。+我们是不是应该提供一下支援？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:……那件事已经结束了。
-NPC-Keven(5)<Speaker>J</Speaker>||:你说什么？
-()<Speaker></Speaker>||:J露出一脸难以置信的表情。
-NPC-Romy(3)<Speaker>罗密</Speaker>||:你要我再重复一遍吗？+我们的任务已经结束了。
-NPC-Keven(5)<Speaker>J</Speaker>||:……结束？这算得上什么结束？
-NPC-Keven(4)<Speaker>J</Speaker>||:我们才刚刚摸到“死海”的边！+<size=50>战斗才正要开始啊！</size>
-NPC-Romy(0)<Speaker>罗密</Speaker>||:对“我们”来说已经结束了。
-()<Speaker></Speaker>||:罗密平静地看着眼前的下属。
-NPC-Keven(5)<Speaker>J</Speaker>||:……原来如此。+从一开始我们就只需要做到这个地步就够了吗？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:罗密没有回答J的问题，只是默默地靠在了椅子的靠背上。
-NPC-Keven(5)<Speaker>J</Speaker>||:如果没有我们的支援，指挥官的这支小队不可能全身而退。
-NPC-Romy(3)<Speaker>罗密</Speaker>||:那是指挥官的问题。
-NPC-Keven(4)<Speaker>J</Speaker>||:<size=50>我们是盟友！这难道不算是一种背叛吗！？</size>
-NPC-Romy(2)<Speaker>罗密</Speaker>||:你不能背叛的对象只有一个，凯文探员。+那就是斯塔西。
-NPC-Keven(5)<Speaker>J</Speaker>||:……
-NPC-Romy(0)<Speaker>罗密</Speaker>||:我们和指挥官只是各取所需罢了，现在，到了收网的时候。+别像个小孩一样吵吵闹闹的。
-NPC-Keven(5)<Speaker>J</Speaker>||:……我告辞了。
+NPC-Keven(0)<Speaker>J</Speaker>||<黑点2><SE1>AVG_Door_Open_Close</SE1>:...Director? You called?
+NPC-Romy(0)<Speaker>Romy</Speaker>||<SE1>AVG_File_Put</SE1>:I have a new job for you.
+()<Speaker></Speaker>||:Romy puts a list of names she has just finished scribbling on the table and pushes it over to J.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:J takes it, a look of suspicion on his face, and gives it a quick once-over.
+NPC-Keven(5)<Speaker>J</Speaker>||:...Aren't these all key personnel at the Ministry of Defense?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Look into their background. Work in secrecy.
+NPC-Keven(5)<Speaker>J</Speaker>||:Got it...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:With a nod, he puts the list away. Then he looks up at Romy again, debating silently if he should speak.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:What's the matter?
+NPC-Keven(0)<Speaker>J</Speaker>||:...It's about the "Dead Sea". It seems something has gone wrong over there. +Should we send some support?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:...That matter has already been concluded.
+NPC-Keven(5)<Speaker>J</Speaker>||:Say what?
+()<Speaker></Speaker>||:J looks incredulous.
+NPC-Romy(3)<Speaker>Romy</Speaker>||:Do you need me to repeat myself? +Our mission is already over.
+NPC-Keven(5)<Speaker>J</Speaker>||:...Over? How can it be over?
+NPC-Keven(4)<Speaker>J</Speaker>||:We just started feeling around the edges of the "Dead Sea"! +<size=50>The battle has only just begun!</size>
+NPC-Romy(0)<Speaker>Romy</Speaker>||:For "us", it is over.
+()<Speaker></Speaker>||:Romy calmly returns her subordinate's stare.
+NPC-Keven(5)<Speaker>J</Speaker>||:...I see. +So from the beginning, this is as far as we needed to go, is that it?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Romy does not answer J's question. She simply leans back into her chair.
+NPC-Keven(5)<Speaker>J</Speaker>||:There's no way the Commander's squad will be able to leave in one piece without our help.
+NPC-Romy(3)<Speaker>Romy</Speaker>||:That's the Commander's problem.
+NPC-Keven(4)<Speaker>J</Speaker>||:<size=50>We're ALLIES! Isn't this a form of betrayal?!</size>
+NPC-Romy(2)<Speaker>Romy</Speaker>||:There is only one thing you can't betray, Agent J. +That would be the Stasi.
+NPC-Keven(5)<Speaker>J</Speaker>||:...
+NPC-Romy(0)<Speaker>Romy</Speaker>||:We and the Commander were simply using each other. And now, the time has come to draw in our nets. +Don't throw tantrums like a child.
+NPC-Keven(5)<Speaker>J</Speaker>||:...Good day.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1><BIN>9</BIN><黑屏2>:J克制住摔门的冲动，尽量礼貌地退出了办公室。
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3><BIN>417</BIN>:离开罗密的视线范围后，J恶狠狠地将文件砸在了桌上，惊动到了一边的K。
-NPC-Jason(2)<Speaker>K</Speaker>||<BGM>GF_21summer_avg_SecretAgent</BGM>:你吃枪药了？指挥官那边的支援什么情况？
-NPC-Keven(5)<Speaker>J</Speaker>||:那个老妖婆，拒绝提供支援！+说什么我们只是各取所需罢了，使唤别人怎么不——
-NPC-Jason(2)<Speaker>K</Speaker>||:她要求我们停止行动了吗？
-NPC-Keven(5)<Speaker>J</Speaker>||:……啊，什么？
-NPC-Jason(2)<Speaker>K</Speaker>||:或者说要求指挥官停止行动了吗？
-NPC-Keven(0)<Speaker>J</Speaker>||:那倒是都没有……
-NPC-Jason(3)<Speaker>K</Speaker>||:那就还好。
-()<Speaker></Speaker>||:K紧绷的表情稍微松懈了点。
-NPC-Keven(5)<Speaker>J</Speaker>||:不是，什么意思啊？
-NPC-Jason(2)<Speaker>K</Speaker>||:官方支援被禁止了，但来历不明的民间支援可没有受到限制……
-NPC-Keven(0)<Speaker>J</Speaker>||:等下，你的意思是——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_Door_Open_Close</SE1>:K微笑着收拾了下文件夹，然后大步走出了办公室。
-NPC-Keven(0)<Speaker>J</Speaker>||:喂，等等！
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1><BIN>9</BIN><黑屏2>:J resists the urge to slam the door and leaves the office with as much politeness as he can muster.
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3><BIN>417</BIN>:After leaving Romy's line of sight, J viciously throws the documents down on the table, startling K, who's sitting beside him.
+NPC-Jason(2)<Speaker>K</Speaker>||<BGM>GF_21summer_avg_SecretAgent</BGM>:What's gotten into you? How about backup for the Commander?
+NPC-Keven(5)<Speaker>J</Speaker>||:That old hag denied it! +She was going on about how we were both using each other. If she's going to order people around then why doesn't—
+NPC-Jason(2)<Speaker>K</Speaker>||:Did she ask us to terminate the operation?
+NPC-Keven(5)<Speaker>J</Speaker>||:...Huh? What?
+NPC-Jason(2)<Speaker>K</Speaker>||:Or did she ask the Commander to terminate the operation?
+NPC-Keven(0)<Speaker>J</Speaker>||:No, actually...
+NPC-Jason(3)<Speaker>K</Speaker>||:Good.
+()<Speaker></Speaker>||:K lets some of the tension flow out of him.
+NPC-Keven(5)<Speaker>J</Speaker>||:Wait, what do you mean?
+NPC-Jason(2)<Speaker>K</Speaker>||:Officially, support has been denied, but civilian backup from unknown origins is not similarly restricted...
+NPC-Keven(0)<Speaker>J</Speaker>||:Wait a minute, so you're saying—
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_Door_Open_Close</SE1>:K smiles and picks up his folder, then strides out of the office.
+NPC-Keven(0)<Speaker>J</Speaker>||:Hey, wait!
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>357</BIN><BGM>GF_21winter_avg_pathfinder</BGM>:临时安全屋内。
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Baggage_bomb_Activation</SE1>:滴滴。
-AR15Mod(0)<Speaker>AR15</Speaker>||:……指挥官！
-()<Speaker>指挥官</Speaker>||:克鲁格先生那边恢复通讯了吗？
-AR15Mod(0)<Speaker>AR15</Speaker>||:不是……是特工K。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR15将指挥平板递给指挥官。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_tele_disconnect</SE1>:我希望这次是一个好消息。
-NPC-Jason(3)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>我们的工作推行地很顺利。</color>+<color=#00CCFF>克鲁格先生他们很快就可以被释放……</color>
-NPC-Jason(3)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:很感谢你通知我这个消息。
-NPC-Jason(3)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>没什么……这是我应该做的。</color>
-()<Speaker></Speaker>||:K看着指挥官的脸，沉默了一会。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>如果你还需要什么帮助，联络我。</color>
-()<Speaker>指挥官</Speaker>||:嗯，谢谢。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+通讯断开。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官看着手里的平板，皱了皱眉。+但想到已经既定的结果，又松了口气。
+()<Speaker></Speaker>||<黑屏2><BIN>357</BIN><BGM>GF_21winter_avg_pathfinder</BGM>:Inside the temporary safe house.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Baggage_bomb_Activation</SE1>:Beep, beep.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:...Commander!
+()<Speaker>Commander</Speaker>||:Have comms been restored on Mr. Kryuger's side?
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:No... It's Agent K.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ST AR-15 hands the command tablet to the Commander.
+()<Speaker>Commander</Speaker>||<SE1>AVG_tele_disconnect</SE1>:I hope this is good news.
+NPC-Jason(3)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Our work has gone very well.</color> +<color=#00CCFF>Mr. Kryuger will be released soon...</color>
+NPC-Jason(3)<Speaker>Commander</Speaker><同时置暗><通讯框>||:Thank you for letting me know.
+NPC-Jason(3)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Don't sweat it... It's the least I could do.</color>
+()<Speaker></Speaker>||:K gazes at the Commander and falls silent for a while.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Contact me if you need further assistance.</color>
+()<Speaker>Commander</Speaker>||:Yeah, thanks.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +The call ends.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander looks at the tablet in their hands and frowns. +But then they think about the outcome that has already been decided, and they breathe a sigh of relief.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>470</BIN><SE1>AVG_20Winter_Drink_Tea</SE1>:……爵士的房间。+端坐在椅子上的爵士，沉默地喝着杯中的红茶。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴——+新邮件的提醒打破了寂静。
-NPC-Griffin(0)<Speaker>爵士</Speaker>||:……看来，总算是有点进展了。
-()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:注意到发件人的地址，爵士放下茶杯，查阅起了邮件。
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>“蜘蛛回来了。”</color>+<color=#00CCFF>“但她活着走出了‘那个人’的房间，还得到了升格的机会。”</color>
-NPC-Griffin(0)<Speaker>爵士</Speaker>||:原来失败在帕拉蒂斯也能逃脱死刑啊。
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>“具体原因和一个叫露尼西亚的女孩有关。”</color>
-NPC-Griffin(1)<Speaker>爵士</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:爵士扬了扬眉毛，迅速拖动着页面，但这封邮件再无新的内容。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:清理掉邮件痕迹后，爵士再次拿起茶杯，眯缝着眼，像是回味起了遥远的过去。
+()<Speaker></Speaker>||<黑屏2><BIN>470</BIN><SE1>AVG_20Winter_Drink_Tea</SE1>:...Inside the Earl's room. +The Earl is sitting on his chair, quietly drinking the cup of tea he is holding.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep. +The new email alert breaks the silence.
+NPC-Griffin(0)<Speaker>Earl</Speaker>||:...Looks like they've made a bit of progress at last..
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:The Earl puts down his teacup and reads the email, paying attention to the sender's address.
+()<Speaker>???</Speaker>||:<color=#00CCFF>"The spider has returned."</color> +<color=#00CCFF>"But she walked out of "his" room alive, and gained an opportunity for promotion."</color>
+NPC-Griffin(0)<Speaker>Earl</Speaker>||:So those who fail in Paradeus can also avoid the death sentence, hm.
+()<Speaker>???</Speaker>||:<color=#00CCFF>"The exact reason is related to a girl named Lunasia."</color>
+NPC-Griffin(1)<Speaker>Earl</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:The Earl's eyebrows rise. He scrolls down the page eagerly, but there is no more content in the email.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:After removing all traces of it, the Earl picks his cup up again. His eyes narrow as he thinks back on the distant past.
 ()||<黑屏1>:
-()<Speaker>爵士</Speaker>||<BIN>9</BIN><黑屏2>:露尼西亚……
-()||<黑点1>:
+()<Speaker>Earl</Speaker>||<BIN>9</BIN><黑屏2>:Lunasia...
+()||<黑点1>:

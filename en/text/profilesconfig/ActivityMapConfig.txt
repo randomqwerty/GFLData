@@ -36,6 +36,8 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //MissionSelectionTex|missionselect_Sing_RE|2|-39
 //2021夏活配置：
 //MissionSelectionTex|missionselect_PoincareRecurrence|2|-48
+//2021冬活配置：
+MissionSelectionTex|missionselect_FixedPoint|2|-51
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -62,6 +64,7 @@ OPSSpecialScene|-47|-47
 OPSPanelScene|-404|-404
 OPSPanelScene|-48|-48
 OPSPanelScene|-49|-49
+OPSPanelScene|-51|-51
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -104,6 +107,7 @@ OPSLeftBGNormalActivity|-46|DropkickonMyDevil_Left
 OPSLeftBGNormalActivity|-47|Bikini_2021_Left
 OPSLeftBGNormalActivity|-48|2021Summer_Left
 OPSLeftBGNormalActivity|-49|2021Xmas_Left
+OPSLeftBGNormalActivity|-51|FixedPoint_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -130,14 +134,15 @@ OPSLeftBGNormalActivity|-49|2021Xmas_Left
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
 //OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
-OPSNoticeNormalActivity|-49|Xmas_2021_Notice
+//OPSNoticeNormalActivity|-49|Xmas_2021_Notice
+OPSNoticeNormalActivity|-51|FixedPoint_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
 //OPSTimeNormalActivity|-31|Isomer_Time
-OPSTimeNormalActivity|-32|VA11_Time
+//OPSTimeNormalActivity|-32|VA11_Time
 //OPSTimeNormalActivity|-33|Reversible_Time
-OPSTimeNormalActivity|-36|Reversible_Time
+//OPSTimeNormalActivity|-36|Reversible_Time
 OPSTimeNormalActivity|-37|Reversible_Time
 OPSTimeNormalActivity|-41|Reversible_Time
 OPSTimeNormalActivity|-42|Reversible_Time
@@ -147,6 +152,7 @@ OPSTimeNormalActivity|-45|Reversible_Time
 OPSTimeNormalActivity|-46|Reversible_Time
 OPSTimeNormalActivity|-48|Reversible_Time
 OPSTimeNormalActivity|-49|Reversible_Time
+OPSTimeNormalActivity|-51|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -172,9 +178,10 @@ OPSTimeNormalActivity|-49|Reversible_Time
 //OPSGoto|DropkickonMyDevil_GotoMall|0
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
-OPSGoto|Xmas_2021_GotoMall|0|-49
+//OPSGoto|Xmas_2021_GotoMall|0|-49
 //OPSGoto|MirrorStage_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
+OPSGoto|FixedPoint_GotoMall|0|-51
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -213,6 +220,7 @@ OPSProgressNormalActivity|-45|Reversible_Progress
 OPSProgressNormalActivity|-46|Reversible_Progress
 OPSProgressNormalActivity|-48|Reversible_Progress
 OPSProgressNormalActivity|-49|Reversible_Progress
+OPSProgressNormalActivity|-51|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -253,6 +261,7 @@ OPSMain|-40|Day|Bikini_2020_Background
 OPSMain|-45|Snow|Arctic_Map5
 OPSMain|-47|Day|Bikini_2021_Background
 OPSMain|-48|Day|Bikini_2021_Background
+OPSMain|-51|Day|Arctic_Map5
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -334,6 +343,7 @@ OPSCampaignTitleButton|-45|false|ContinuumTurbulence_Title5
 OPSCampaignTitleButton|-46|true|DropkickonMyDevil_Diffculty2Btn
 OPSCampaignTitleButton|-47|true|Bikini_2021_Title
 OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
+OPSCampaignTitleButton|-51|true|FixedPoint_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -370,11 +380,15 @@ OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
 //OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
-OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
+//OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
+OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
-OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
+//OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
+OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
+OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
+OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
@@ -1101,3 +1115,86 @@ OPSCampaignDetail|-48_100|0,0|2021SummerStory1
 OPSCampaignDetail|-48_101|0,0|2021SummerStory1
 OPSCampaignDetail|-48_102|0,0|2021SummerStory1
 OPSCampaignDetail|-48_103|0,0|2021SummerStory1
+
+//2021冬活活动配置
+OPSCampaignDetail|-51_1|0,0|Nimeylan
+OPSCampaignDetail|-51_2|0,0|Nimeylan
+OPSCampaignDetail|-51_3|0,0|Nimeylan
+OPSCampaignDetail|-51_4|0,0|Hydra
+OPSCampaignDetail|-51_5|0,0|Mastersergeant
+OPSCampaignDetail|-51_6|0,0|Strelet
+OPSCampaignDetail|-51_7|0,0|Mrsgray
+OPSCampaignDetail|-51_8|0,0|Mastersergeant
+OPSCampaignDetail|-51_9|0,0|Mastersergeant
+OPSCampaignDetail|-51_10|0,0|Teal
+OPSCampaignDetail|-51_11|0,0|Narciss
+OPSCampaignDetail|-51_17|0,0|Strelet
+OPSCampaignDetail|-51_18|0,0|Mrsgray
+OPSCampaignDetail|-51_19|0,0|Mastersergeant
+OPSCampaignDetail|-51_20|0,0|Mastersergeant
+OPSCampaignDetail|-51_21|0,0|Teal
+OPSCampaignDetail|-51_22|0,0|Narciss
+OPSCampaignDetail|-51_27|0,0|Strelet
+OPSCampaignDetail|-51_28|0,0|Mrsgray
+OPSCampaignDetail|-51_29|0,0|Mastersergeant
+OPSCampaignDetail|-51_30|0,0|Mastersergeant
+OPSCampaignDetail|-51_31|0,0|Teal
+OPSCampaignDetail|-51_32|0,0|Narciss
+OPSCampaignDetail|-51_37|0,0|SIGMCX
+OPSCampaignDetail|-51_47|0,0|Strelet
+OPSCampaignDetail|-51_48|0,0|Executioner
+OPSCampaignDetail|-51_49|0,0|Metalmax
+OPSCampaignDetail|-51_50|0,0|Roarer_New
+OPSCampaignDetail|-51_51|0,0|NPC_Kryuger
+OPSCampaignDetail|-51_52|0,0|NPC_Kryuger
+OPSCampaignDetail|-51_53|0,0|VSK
+OPSCampaignDetail|-51_54|0,0|MG4
+OPSCampaignDetail|-51_55|0,0|DesertEagle
+OPSCampaignDetail|-51_56|0,0|M16A1_Boss
+OPSCampaignDetail|-51_57|0,0|NPC_Romy
+OPSCampaignDetail|-51_58|0,0|Nimeylan
+OPSCampaignDetail|-51_59|0,0|M16A1_Boss
+OPSCampaignDetail|-51_60|0,0|Ange
+OPSCampaignDetail|-51_61|0,0|Dupijin
+OPSCampaignDetail|-51_62|0,0|NPC_Romy
+OPSCampaignDetail|-51_63|0,0|NPC_Romy
+OPSCampaignDetail|-51_64|0,0|RO635
+OPSCampaignDetail|-51_65|0,0|Schweinsteiger
+OPSCampaignDetail|-51_66|0,0|RO635
+OPSCampaignDetail|-51_67|0,0|UMP45_2
+OPSCampaignDetail|-51_68|0,0|SP9
+OPSCampaignDetail|-51_69|0,0|XM8
+OPSCampaignDetail|-51_70|0,0|RO635
+OPSCampaignDetail|-51_71|0,0|BossGager
+OPSCampaignDetail|-51_72|0,0|RO635
+OPSCampaignDetail|-51_73|0,0|RO635
+OPSCampaignDetail|-51_74|0,0|NPC_Romy
+OPSCampaignDetail|-51_75|0,0|BossGager
+OPSCampaignDetail|-51_76|0,0|XM8
+OPSCampaignDetail|-51_77|0,0|SP9
+OPSCampaignDetail|-51_78|0,0|UMP45_2
+OPSCampaignDetail|-51_79|0,0|AN94
+OPSCampaignDetail|-51_80|0,0|Ange
+OPSCampaignDetail|-51_81|0,0|NPC_Kryuger
+OPSCampaignDetail|-51_38|0,0|Metalmax
+OPSCampaignDetail|-51_39|0,0|Uhlan
+OPSCampaignDetail|-51_40|0,0|Uhlan
+OPSCampaignDetail|-51_41|0,0|Morridow_2
+OPSCampaignDetail|-51_42|0,0|Morridow_2
+OPSCampaignDetail|-51_43|0,0|Morridow_2
+OPSCampaignDetail|-51_44|0,0|Morridow_2
+OPSCampaignDetail|-51_45|0,0|Morridow_2
+OPSCampaignDetail|-51_46|0,0|Morridow_2
+OPSCampaignDetail|-51_12|0,0|Narciss
+OPSCampaignDetail|-51_13|0,0|Mrsgray
+OPSCampaignDetail|-51_14|0,0|Nimeylan
+OPSCampaignDetail|-51_15|0,0|M16A1_Boss
+OPSCampaignDetail|-51_16|0,0|Morridow_2
+OPSCampaignDetail|-51_23|0,0|Narciss
+OPSCampaignDetail|-51_24|0,0|Mrsgray
+OPSCampaignDetail|-51_25|0,0|Nimeylan
+OPSCampaignDetail|-51_26|0,0|Morridow_2
+OPSCampaignDetail|-51_33|0,0|Narciss
+OPSCampaignDetail|-51_34|0,0|Mrsgray
+OPSCampaignDetail|-51_35|0,0|Nimeylan
+OPSCampaignDetail|-51_36|0,0|Morridow_2

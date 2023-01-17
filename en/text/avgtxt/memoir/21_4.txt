@@ -1,93 +1,93 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>BGM_Boss2</BGM><BIN>270</BIN><SE1>Battlefield</SE1><Night>:一台重型兵器闯进了公寓楼，还能够行动起来的民兵们立刻向它发起了攻击。+然而，这台杀戮机器已经远远超越了之前的军用人形，它以强大的火力横扫一切，仿佛饥饿的凶兽一样，无情吞噬着民兵的生命。
-()<Speaker></Speaker>||:巴甫洛夫跟在波波沙后面，迅速地进入防御工事。+而仅仅是从掩体之间经过的瞬间，黑洞洞的枪口就已经将他锁定了。
-PPSh41(0)<Speaker>波波沙</Speaker>||:小心！！！
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:在留守民兵们的掩护下，波波沙掩护着巴甫洛夫躲过了爆炸，并迅速进入到掩体内。
-()<Speaker>留守民兵</Speaker>||<SE2>Gunfight</SE2>:巴甫洛夫先生，这鬼东西的火力也太猛了！而且装甲还很坚硬，普通的子弹根本打不穿啊！
-PPSh41(0)<Speaker>波波沙</Speaker>||:让我试试看……！
-PPSh41(0)<Speaker>波波沙</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:……
-()<Speaker>重型兵器</Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:——！
-()<Speaker>留守民兵</Speaker>||:咦？它的榴弹炮是不是哑火了……！？
-PPSh41(0)<Speaker>波波沙</Speaker>||:我压制了它的重型武器操控系统，但……这也是我能做到的极限了。
-()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:然而，即便被黑掉了榴弹炮，这台重型兵器所搭载的自动机枪仍然喷吐着凶猛的火舌。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:可恶的叛军，居然拿出这种武器……+我们还有什么能用的家伙？
-()<Speaker>留守民兵</Speaker>||:只、只有一些炸药了！
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:炸药……+……波波沙，你说过我们有可能会赢的吧？
-PPSh41(0)<Speaker>波波沙</Speaker>||:哎？
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:到底该怎么做！？
-PPSh41(0)<Speaker>波波沙</Speaker>||:我们……+可以用这些炸药集中爆破这台重型兵器最脆弱的地方，但前提是必须有人去引爆炸药……
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏3>:轰——！
-()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1>:重型兵器的扫射摧毁了防御工事，民兵们不得不后撤，而仅仅在这么短的时间里，又有许多人倒下了。
-PPSh41(0)<Speaker>波波沙</Speaker>||:<color=#A9A9A9>唔……继续拖延下去也只会徒增伤亡……</color>+<color=#A9A9A9>只能这样了吗……</color>
-PPSh41(0)<Speaker>波波沙</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:……+巴甫洛夫先生，我扫描了这台重型兵器，它的中枢系统就在底盘内侧，如果能对那里造成破坏的话……
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:破坏底盘内侧吗？
-()<Speaker></Speaker>||:趁着攻击间隙，巴甫洛夫瞄了一眼重型兵器。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:波波沙，麻烦你继续压制那家伙的榴弹炮，其他的交给我们。
-PPSh41(0)<Speaker>波波沙</Speaker>||:……我、我知道了……！
-()<Speaker></Speaker>||:巴甫洛夫立刻冲不远处的留守民兵打手势，把情况交代清楚后，其中一个人就近拿出了早已准备好的炸药。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:所有人一齐开枪掩护，趁这个机会，拿上炸药的民兵迅速冲出了掩体。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Gatling_gun</SE1>:然而，还没来得及靠近目标，机枪的火线就已穿透了民兵的身体，他甚至没来得及发出声响，便倒在了血泊之中。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:这、这到底是什么怪物！？
-PPSh41(0)<Speaker>波波沙</Speaker>||:果然还是太勉强了，这样的敌人至少需要一支三人的战术人形小队才能对付，可是现在……
-()<Speaker></Speaker>||:前面的人倒下后，又有人尝试着冲上去，然而结果还是一样。+第三个人……第四个人……
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:该死的！该死的！！！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3>:看到战友们不断倒下，巴甫洛夫再难抑制自己的愤怒，他也拿起炸药冲出了掩体。
-PPSh41(0)<Speaker>波波沙</Speaker>||<SE1>ClothingUp</SE1>:什……巴甫洛夫先生，快回来！
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:波波沙想要上前阻止对方，可电子压制却失去了作用。
-()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:注意到巴甫洛夫后，重型兵器立刻将他锁定，然后开火——
-()<Speaker></Speaker>||<SE1>Rope</SE1>:而在这一瞬间，波波沙箭步冲上去扑倒了巴甫洛夫。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Explode</SE1><BIN>9</BIN>:轰——！！！
-()<Speaker></Speaker>||:一声巨响后，波波沙只觉得天旋地转。
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1>:随着激烈的碰撞，她感觉到自己从半空中摔落在了地上。
+()<Speaker></Speaker>||<BGM>BGM_Boss2</BGM><BIN>270</BIN><SE1>Battlefield</SE1><Night>:A heavy weapons platform has barged into the apartment block, and all the militiamen who can still move immediately start attacking it.+However, this killing machine is far more lethal than the military automatons from before. Its powerful weapons scythe down everything like a starving beast, ruthlessly claiming the lives of the militiamen.
+()<Speaker></Speaker>||:Pavlov follows behind Papasha as they swiftly dart behind their fortifications.+However, in the time it takes for them to move from one piece of cover to another, its inky-black gun barrels have already locked onto them.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Look out!!!
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Covered by the defending militiamen, Papasha shelters Pavlov from an explosion and they both quickly get behind cover.
+()<Speaker>Defending Militiaman</Speaker>||<SE2>Gunfight</SE2>:Mr. Pavlov, this damn thing has too much firepower! And its armor is very thick! Normal bullets can't get through it at all!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Let me try!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:...
+()<Speaker>Heavy Weapons Platform</Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:—!
+()<Speaker>Defending Militiaman</Speaker>||:Huh? Did its grenade launcher stop firing...?!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:I suppressed its heavy weapon control system, but... that's all I can do.
+()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:However, even though its grenade launcher has been hacked, this heavy weapons platform's automatic machine guns are still spewing tongues of deadly flame.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Those rebel scum, I can't believe they actually brought out a weapon like this...+What else do we have to use?
+()<Speaker>Defending Militiaman</Speaker>||:W-we only have a few explosives left!
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Explosives...+...Papasha, you said we had a chance to win, right?
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Huh?
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:How can we do it?!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:We...+We can use these explosives to blow up the weak point on this HWP's armor, but somebody's going to have to detonate the explosives...
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏3>:Boom—!
+()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1>:The HWP rakes the fortifications with its guns and destroys them. The militia are forced to retreat, and within this short space of time many people fall again.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>(Groans) If we keep dragging our feet, it's only going to get more people killed for nothing...</color>+<color=#A9A9A9>Is this the only way...?</color>
+PPSh41(0)<Speaker>PPSh-41</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:...+Mr. Pavlov, I scanned the HWP. Its central control hub is on the inside of its lower chassis. If we could destroy it...
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:The interior of the lower chassis, yeah?
+()<Speaker></Speaker>||:Pavlov glances at the HWP during a lull in its attack.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Papasha, please continue suppressing its grenade launcher. Leave the rest to us.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...G-got it...!
+()<Speaker></Speaker>||:Pavlov signals to a nearby militiaman, and after explaining the situation, one of them brings out an explosive charge that was prepared beforehand.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Everyone lays down cover fire, and using this opportunity, the militiaman carrying the charge rushes out of cover.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Gatling_gun</SE1>:However, before the man can even get close to his target, the machine guns' tracers have already perforated his body. The man doesn't even have time to make a sound before he is face down in a puddle of blood.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:W-what kind of monster is this?!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:It's just too strong. An enemy like this would need at least a three-man T-Doll squad to handle, but now...
+()<Speaker></Speaker>||:After the man in front goes down, someone else tries rushing up, but the same thing happens to him.+Then a third... Then a fourth...
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Dammit! Dammit!!!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3>:After seeing his comrades fall one after the other, Pavlov can no longer hold back his anger and he, too, rushes out of cover, holding an explosive charge.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||<SE1>ClothingUp</SE1>:What... Mr. Pavlov, come back here!
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Papasha tries to move up to stop him, but the electronic suppression wears off.
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:Upon noticing Pavlov, the HWP immediately locks onto him and opens fire—
+()<Speaker></Speaker>||<SE1>Rope</SE1>:And at this moment, Papasha dashes up to tackle Pavlov to the ground.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Explode</SE1><BIN>9</BIN>:Boom—!!!
+()<Speaker></Speaker>||:After a mighty explosion, Papasha feels the world spinning round.
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1>:She is flung through the air by a massive shockwave before hitting the ground.
 ()||<黑屏1>:
-PPSh41(1)<Speaker>波波沙</Speaker><Shake>0.1</Shake>||<SE1>AVG_whitenoise</SE1><睁眼><BIN>270</BIN><Night>:唔……唔……！
-()<Speaker></Speaker>||:素体大部受损，波波沙甚至可以听到心智紊乱的电流声。+透过闪烁着雪花以及乱码的视觉，她看到巴甫洛夫被飞溅的破片打伤了腿，而重型兵器已经冲向了地下室。
-PPSh41(1)<Speaker>波波沙</Speaker>||:不、不行……！
-()<Speaker></Speaker>||<SE1>Select</SE1>:波波沙想要开枪阻止重型兵器，可空空的弹匣却没能喷吐火舌。
-PPSh41(1)<Speaker>波波沙</Speaker>||:……+<color=#A9A9A9>只能……到此为止了吗？</color>
-()<Speaker>巴甫洛夫的声音</Speaker>||<SE1>Rope</SE1><BGM>10258</BGM>:休想……得逞……！
-PPSh41(1)<Speaker>波波沙</Speaker>||:巴甫洛夫先生！？
-()<Speaker></Speaker>||:波波沙转过头，发现巴甫洛夫强忍着剧痛，拼命爬向重型兵器。+而他的身后，是早已从胸前掉落的勋章。
-PPSh41(1)<Speaker>波波沙</Speaker>||:……
+PPSh41(1)<Speaker>PPSh-41</Speaker><Shake>0.1</Shake>||<SE1>AVG_whitenoise</SE1><睁眼><BIN>270</BIN><Night>:(Groans heavily)
+()<Speaker></Speaker>||:Her body is heavily damaged. She can even hear the electrical currents frizzling in her neural cloud. +Through the static and error messages in her vision, she sees that Pavlov's leg has been wounded by shrapnel and the HWP is heading toward the basement.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:No, you don't...!
+()<Speaker></Speaker>||<SE1>Select</SE1>:Papasha tries to open fire to stop the HWP, but her empty magazine will not let her shoot.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:...<color=#A9A9A9>Is this... the end?</color>
+()<Speaker>Pavlov's Voice</Speaker>||<SE1>Rope</SE1><BGM>10258</BGM>:Don't think... you'll get away with this...!
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:Mr. Pavlov?!
+()<Speaker></Speaker>||:Papasha looks back and sees Pavlov is gritting his teeth against the pain as he crawls toward the HWP.+Behind him is a medal that has fallen from his chest.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:波波沙就要过载的心智再次运转起来。+只是，她没有再预想接下来的行动会带来什么样的结果，而是回想起了那些牺牲了的民兵。
-PPSh41(1)<Speaker>波波沙</Speaker>||:牺牲……+只要能够保护那些民众，牺牲的代价，是可以被接受的吗？
-()<Speaker>巴甫洛夫</Speaker>||:我知道你是战术人形，我们之间有所不同，但我希望你能明白我说的这些话。
-PPSh41(1)<Speaker>波波沙</Speaker>||:……明白，我们明白的。
-PPSh41(1)<Speaker>波波沙</Speaker>||:只要身后还有家园，还有那么多民众……不管面对多么强大的敌人，不管付出多少牺牲，都会站起来去抵抗……+但，说起对守护重要之物的渴望，人类也好，战术人形也好……+我们没有什么不同！
-()<Speaker></Speaker>||<SE1>AVG_Pause</SE1><BIN>270</BIN><Night>:波波沙猛抬起头，将民兵们没能引爆的炸药重新捡了起来。+此时的她感觉不到任何的顾虑和迟疑，模糊的视线里只有一个目标——重型兵器底盘上的弱点。
-PPSh41(1)<Speaker>波波沙</Speaker>||<SE1>RunStep</SE1>:<size=50>啊啊啊啊啊啊啊啊——！！！</size>
-()<Speaker></Speaker>||:在所有人的注视下，波波沙抱着炸药冲向了敌人。
-()<Speaker></Speaker>||<BIN>183</BIN><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:轰——！！！
-()<Speaker></Speaker>||:随着一声巨响，她的身体被光芒彻底吞没。
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:On the brink of overload, Papasha's neural cloud kicks into gear once more.+However, she does not try to predict what consequences her actions will bring. Instead, she recalls the militiamen who died.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:Death...+If I can protect those people... Then is the price of death worth paying?
+()<Speaker>Pavlov</Speaker>||:I know you are a Tactical Doll, and that we have our differences, but I hope you understand what I'm saying.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:...Yes, I do.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||:As long as our homes are behind us, as well as the people... Then no matter how great our enemy, no matter how much we must sacrifice, we will rise up to fight them...+But when it comes to the desire to protect the things that matter to us, whether you're a human or a Tactical Doll...+We're all the same!
+()<Speaker></Speaker>||<SE1>AVG_Pause</SE1><BIN>270</BIN><Night>:Papasha jerks up her head, then picks up an explosive charge that the militiamen didn't manage to detonate.+At this moment, her mind is clear of all doubt and hesitation. Through her blurred vision, she sees only one target—the weak spot on the bottom of the HWP's chassis.
+PPSh41(1)<Speaker>PPSh-41</Speaker>||<SE1>RunStep</SE1>:<size=50>AAAARHHHHHHHHHH—!!!</size>
+()<Speaker></Speaker>||:As everyone watches, Papasha charges the enemy, holding an explosive charge.
+()<Speaker></Speaker>||<BIN>183</BIN><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:BOOM—!!!
+()<Speaker></Speaker>||:There is a mighty explosion, and her body is consumed by light.
+()<Speaker></Speaker>||:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:……+……
-()<Speaker>巴甫洛夫的声音</Speaker>||:……波……沙……
-()<Speaker>巴甫洛夫的声音</Speaker>||:波波沙……！
-()<Speaker></Speaker>||:……
-()<Speaker>波波沙</Speaker>||<SE1>AVG_whitenoise</SE1>:咳咳……咳咳咳咳……！+巴、巴甫洛夫……先生？+敌人……敌人呢？
-()<Speaker>巴甫洛夫的声音</Speaker>||:那家伙，已经被你干掉了……民众都没事，我们赢了!
-()<Speaker>波波沙</Speaker>||:是吗……那就好……咳咳咳……
-()<Speaker>巴甫洛夫的声音</Speaker>||:波波沙……！+别担心，我这就想办法帮你修复！
-()<Speaker>波波沙</Speaker>||:这样……这样就够了……巴甫洛夫先生……
-()<Speaker>波波沙</Speaker>||:……
-()<Speaker>巴甫洛夫的声音</Speaker>||:波波沙……？+波波沙！！！
-()<Speaker></Speaker>||:……+……
-()<Speaker></Speaker>||:两个月后……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:...+...
+()<Speaker>Pavlov's Voice</Speaker>||:...Pa... sha...
+()<Speaker>Pavlov's Voice</Speaker>||:Papasha...!
+()<Speaker></Speaker>||:...
+()<Speaker>PPSh-41</Speaker>||<SE1>AVG_whitenoise</SE1>:(Coughs heavily)+M-Mr... Pavlov? +The enemy... Where's the enemy?
+()<Speaker>Pavlov's Voice</Speaker>||:You took him out... The people are fine. We won!
+()<Speaker>PPSh-41</Speaker>||:We did...? That's good then... (Coughs)
+()<Speaker>Pavlov's Voice</Speaker>||:Papasha...!+Don't worry, I'll figure out how to fix you!
+()<Speaker>PPSh-41</Speaker>||:This... This is enough... Mr. Pavlov...
+()<Speaker>PPSh-41</Speaker>||:...
+()<Speaker>Pavlov's Voice</Speaker>||:Papasha...?+Papasha!!!
+()<Speaker></Speaker>||:...+...
+()<Speaker></Speaker>||:Two months later...
 ()||<黑屏1>:
-()<Speakr></Speaker>||<黑屏2><BIN>159</BIN><BGM>m_avg_hope</BGM>:春天即将到来，叛军的进攻已是强弩之末，各处被占领的区域都吹响了反击的号角。+重返家园的巴甫洛夫来到已是废墟的公寓楼前，为牺牲的战士们献花。
-()<Speaker></Speaker>||:紧随其后的，是那些被拯救了的民众，他们列好队伍，等待将手中的鲜花放在已经倒塌的公寓墙下边。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:……+最难熬的日子已经过去了，我们会让敌人付出应有的代价，所以，请安息吧。
-()<Speaker></Speaker>||:所有人都站定，为牺牲的烈士默哀。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:擦了擦眼角，巴甫洛夫将胸前的两枚勋章摘了下来。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:这一仗，大家用生命换来了胜利，就像那时候我的祖辈一样……+他们也是在这座城市，用血肉的身躯抵挡住了强大的敌人，保护了家园。+也许今后我们依然会面临这样的困境，但我相信，到那个时候，人们还是会站出来，去和入侵的敌人战斗。
-()<Speaker></Speaker>||:巴甫洛夫走上前，将勋章佩戴在了一旁的波波沙的斗篷上。
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:谢谢你为我们，为所有人作出的牺牲，波波沙。+就请你带着这两枚勋章，继续将这份信念传承下去吧。
-PPsh41MOD(0)<Speaker>波波沙</Speaker>||:……哎，这样真的可以吗？
-NPC-Arla(0)<Speaker>巴甫洛夫</Speaker>||:没有你的帮助，大家也就没办法像今天这样重返家园了。+如果说一定要有什么答谢，我想，这应该就是最好的选择。
-()<Speaker></Speaker>||:波波沙有些紧张地看了看同样前来参加祭奠的指挥官，而后者微笑着点了点头。
-PPsh41MOD(0)<Speaker>波波沙</Speaker>||:……我明白了。+谢谢您，巴甫洛夫先生，这对我来说真的是无上的荣誉！+为了不辜负大家的期待，今后，我会继续努力的！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在一片掌声中，波波沙举起右手，向在场的所有人敬礼。+而她斗篷上的两枚勋章，在穿透阴云的阳光下反射出了耀眼的光芒。
-()||<黑点1>:
+()<Speakr></Speaker>||<黑屏2><BIN>159</BIN><BGM>m_avg_hope</BGM>:Spring is almost here. The rebel offensive is faltering, and uprisings are popping up throughout the various conquered regions.+Pavlov has returned to his home, and at the apartment building which is now in ruins, he lays down flowers as tribute to the fallen warriors.
+()<Speaker></Speaker>||:Behind him are the people he saved back then, all lined up as they wait their turn to lay their flowers beside the already-collapsed apartment block.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:...+The hardest days have passed, and we will make the enemy pay for what they have done, so rest in peace.
+()<Speaker></Speaker>||:Everyone stands still, observing a minute of silence for the deceased.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:After wiping the corner of his eyes, Pavlov takes off the two medals on his chest.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:In this battle, you all traded your lives for victory, just like my ancestors did...+They too held back a mighty enemy with their blood and lives in this very city, and they protected their homes.+We may have to keep facing such difficulties in the future, but I believe that when the time comes, our people will rise up to fight the invading enemy.
+()<Speaker></Speaker>||:Pavlov walks up to Papasha, who is standing off to the side, and attaches the medals to her cape.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Thank you for sacrificing yourself for all of us, Papasha.+Please wear these two medals and carry on the faith that they embody.
+PPsh41MOD(0)<Speaker>PPSh-41</Speaker>||:...Uh, is this really okay?
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Without your help, we wouldn't be able to return to our homes like we did today.+I believe this is there is no better way for me to express my gratitude.
+()<Speaker></Speaker>||:Papasha looks a little nervously at the Commander, who's come to attend the ceremony as well. The latter smiles and nods.
+PPsh41MOD(0)<Speaker>PPSh-41</Speaker>||:...I understand.+Thank you, Mr. Pavlov. This is a true honor for me.+From now on, I will keep doing my best so as not to disappoint everyone!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Papasha raises her right hand in salute as a round of applause fills the air.+The two medals on her cape sparkle in the sunlight that shines through the dark clouds.
+()||<黑点1>:

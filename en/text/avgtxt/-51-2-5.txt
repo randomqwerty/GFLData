@@ -1,83 +1,83 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><BIN>9</BIN><BGM>10051</BGM><黑屏2>:呯！
-NPC-Romy(10)<Speaker>罗密</Speaker>||<SE1>AVG_Button_Click</SE1>:——！
-()<Speaker></Speaker>||:子弹打空了。+罗密掂了掂手里的枪，她甚至不需要确认，凭借重量便可以确认这浅显的事实。+额头渗出的血逐渐模糊了她的视野——那一下撞击给她带来的冲击似乎比想象中要更加严重。
-NPC-Romy(7)<Speaker>罗密</Speaker>||:呼……
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><BIN>9</BIN><BGM>10051</BGM><黑屏2>:Bang!
+NPC-Romy(10)<Speaker>Romy</Speaker>||<SE1>AVG_Button_Click</SE1>:—!
+()<Speaker></Speaker>||:Her magazine is empty. +Romy hefts her gun in her hand. She doesn't even need to check; its weight already makes that fact abundantly clear. +The blood gushing from a cut on her forehead is slowly obscuring her vision—the crash must've been more severe than she expected.
+NPC-Romy(7)<Speaker>Romy</Speaker>||:(Pants)
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>86</BIN><黑点2><SE1>RunStep</SE1>:跌跌撞撞中，她从小巷中脱离出来，走到了一片空旷的建筑用地上。
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><震屏3>:呯！
-()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1>:毫无掩体的空旷处，一发子弹打在了她的脚边上。
+()<Speaker></Speaker>||<BIN>86</BIN><黑点2><SE1>RunStep</SE1>:She stumbles out of the alley and staggers into an open construction site.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><震屏3>:Bang!
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1>:With no cover to shelter her, a bullet hits the ground beside her leg.
 ()||<黑点1>:
-()<Speaker>杀手</Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:……
-()<Speaker></Speaker>||:从最开始的十几人，到现在，仍锲而不舍地追在她身后的杀手只剩下了四人。+他们的状况也不比罗密好到哪去，同样是狼狈的样子，浅显易懂地展示着追逐斯塔西特工主管所需付出的代价。+但是现在，他们手里仍然有子弹，罗密却没有。
+()<Speaker>Assassin</Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:...
+()<Speaker></Speaker>||:There were over a dozen assassins at the outset, but now only four of them remain, doggedly pursuing her. +They aren't much better off than Romy, and their wretched state is a clear sign of the price one would have to pay to pursue a Stasi agent. +But right now, they have bullets, and Romy does not.
 ()||<黑点1>:
-NPC-Romy(6)<Speaker>罗密</Speaker>||<黑点2><SE1>AVG_tele_connect</SE1>:<size=50>我那传说中的支援呢？</size>
-Sterling(0)<Speaker>斯特林</Speaker><Position>0,150</Position><通讯框>||:<color=#00CCFF>……</color>
-PPQ(0)<Speaker>布里吉特</Speaker><通讯框>||:<color=#00CCFF>朝前走，别回头。</color>
-NPC-Romy(7)<Speaker>罗密</Speaker>||:你们到底靠不靠得……
-()<Speaker></Speaker>||:听到同伴的声音，罗密松了口气，而就在她正要朝前走的时候……
-()<Speaker></Speaker>||<SE1>Select</SE1>:……一支冰冷的枪口抵在了她的后脑上。+那陌生又冷酷的男声，带着直截了当的杀意。
-()<Speaker>杀手</Speaker>||:不准动。
-NPC-Romy(6)<Speaker>罗密</Speaker>||:……不是吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:罗密下意识地便举起了手。+但她立刻便意识到这是没有意义的——对方的目的又不是活抓她。
+NPC-Romy(6)<Speaker>Romy</Speaker>||<黑点2><SE1>AVG_tele_connect</SE1>:<size=50>Where's that backup I keep hearing all these stories about?!</size>
+Sterling(0)<Speaker>Sterling</Speaker><Position>0,150</Position><通讯框>||:<color=#00CCFF>...</color>
+PPQ(0)<Speaker>Brigitte</Speaker><通讯框>||:<color=#00CCFF>Head forward and don't look back. </color>
+NPC-Romy(7)<Speaker>Romy</Speaker>||:Can I even trust you...
+()<Speaker></Speaker>||:Romy breathes a sigh of relief as she hears her comrades, but just as she's about to head forward...
+()<Speaker></Speaker>||<SE1>Select</SE1>:...A cold gun muzzle is pressed against the back of her head. +An unfamiliar yet cold male voice addresses her, accompanied by palpable bloodlust.
+()<Speaker>Assassin</Speaker>||:Freeze.
+NPC-Romy(6)<Speaker>Romy</Speaker>||:...You've got to be kidding me.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Romy reflexively puts her hands in the air. +However, she immediately realizes that it's pointless—the opposition isn't trying to take her alive.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BIN>9</BIN><黑屏2>:她闭上了眼，紧张地呼吸着，仿佛听见了杀手缓缓扣动扳机的声音。+等到枪声响起的时候……
-()<Speaker>杀手</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><BGM>BGM_Empty</BGM>:呯——！！
-()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1>:随着枪声响起，滚烫的热血溅在了罗密的脖颈上，那抵住后脑的金属触感也随之消失。+巨大的冲击力下，男人握着枪的手从中间断开，溅射出的鲜血连着手枪一起飞了出去。
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BIN>9</BIN><黑屏2>:She closes her eyes and holds her breath. She can almost hear the assassin slowly pulling the trigger. +Just as she hears the gunshot...
+()<Speaker>Assassin</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><BGM>BGM_Empty</BGM>:Bang—!!
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1>:As the shot rings out, hot blood drenches the back of Romy's neck. The metallic sensation at the back of her head is also gone. +A mighty impact has disintegrated the man's gun hand. Fresh blood and the pistol both fly into the air.
 ()||<黑屏1>:
-()<Speaker>杀手</Speaker>||<黑点2><BIN>86</BIN>:啊……？
-()<Speaker>杀手</Speaker>||<震屏3>:<size=50>啊……啊？啊啊啊啊啊啊啊！！！！</size>
-()<Speaker></Speaker>||:第一时间，男人甚至没有意识到发生了什么。+然后立刻，他便意识到了自己失去了惯用手的事实，凄厉的惨叫不需要任何铺垫便撕心裂肺地响了起来。
-()<Speaker>杀手</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>是、是埋伏！我们中埋……！？</size>
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1><震屏3>:<size=50>呯！呯！呯——！！！</size>+他身后的三人，立刻意识到发生了什么，纷纷举起手里的枪。+罗密没有再留给他们任何机会，转身捡起地下的枪迅速扣下扳机。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:在同伴的吼叫声中，他们甚至没能做出半点反抗，便在连续的枪声中倒在地上，变成一具具失去声息的死尸。
-NPC-Romy(8)<Speaker>罗密</Speaker>||<SE1>ClothingUp</SE1>:下次……
-()<Speaker></Speaker>||:她轻轻呼出一口气。
-NPC-Romy(10)<Speaker>罗密</Speaker>||:……动作再麻利点好吗？
-Sterling(0)<Speaker>斯特林</Speaker><Position>0,150</Position>||<SE1>Select</SE1><SE1>AVG_footsteps_cave</SE1>:目标已沉默。+任务完成。
-()<Speaker></Speaker>||<BGM>GF_21winter_avg_nightbar</BGM><SE1>Stop_AVG_loop</SE1>:带着小队的成员，斯特林等人从暗中钻了出来，手中的武器还在发热。
-NPC-Romy(6)<Speaker>罗密</Speaker>||:我差点就死了。
-PPQ(0)<Speaker>布里吉特</Speaker>||:你不是还活着吗？
-NPC-Romy(7)<Speaker>罗密</Speaker>||:就你们两个？其他人呢？+我现在无比地怀念莫娜……+曾经有一个真正靠谱的队友摆在我的面前。+我没有去珍惜，现在却追悔莫及。
-LS26(0)<Speaker>伊迪斯</Speaker><Position>0,-60</Position><通讯框>||:<color=#00CCFF>我们在远处，马上赶过来跟你们汇合。</color>+<color=#00CCFF>别那么啰嗦啦，莫娜小姐也是很忙的！</color>
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>现在国安局的人手很紧张，希望您理解。</color>
-LS26(0)<Speaker>伊迪斯</Speaker><Position>0,-60</Position><通讯框>||:<color=#00CCFF>他就是嫌弃我们而已啦。</color>+<color=#00CCFF>明明自己就是那副挫样……</color>
-NPC-Romy(6)<Speaker>罗密</Speaker><Shake>0.1</Shake>||:<size=50>这就是你们对待同事的态度吗？！</size>
-LS26(0)<Speaker>伊迪斯</Speaker><Position>0,-60</Position><通讯框>||:<color=#00CCFF>干嘛啦？我们听命于罗密女士，又不听命于你。</color>+<color=#00CCFF>喂，你不会假扮她上瘾了吧？</color>+<color=#00CCFF>J特工。</color>
-NPC-Romy(7)<Speaker>J</Speaker>||:……演戏请演全套。
-Sterling(0)<Speaker>斯特林</Speaker><Position>0,150</Position>||:……别吵了，任务还没有完成呢。+不出意外的话，接下来最起码还有五六次刺杀。
-NPC-Romy(6)<Speaker>J</Speaker>||:……这绝对是我执行过的最讨厌的任务。+<size=50>没有之一！</size>
+()<Speaker>Assassin</Speaker>||<黑点2><BIN>86</BIN>:Huh...?
+()<Speaker>Assassin</Speaker>||<震屏3>:<size=50>Huh...ah? AHHHHHH!!!!</size>
+()<Speaker></Speaker>||:The man doesn't even realize what has happened right away. +Then he realizes that his dominant hand is missing, and he needs no further encouragement to scream piteously.
+()<Speaker>Assassin</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>It's an ambush! We've been amb...?!</size>
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1><震屏3>:<size=50>Bang! Bang! Bang!</size> +The three people behind him immediately realize what's going on and raise their guns. +Romy doesn't give them a chance; she picks up the gun on the ground and swiftly pulls the trigger.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:As their colleague screams, they don't even have the chance to put up any resistance before going down amidst a series of gunshots, becoming silent corpses on the ground.
+NPC-Romy(8)<Speaker>Romy</Speaker>||<SE1>ClothingUp</SE1>:Next time...
+()<Speaker></Speaker>||:She quietly exhales.
+NPC-Romy(10)<Speaker>Romy</Speaker>||:...Would you mind being a bit quicker about it?
+Sterling(0)<Speaker>Sterling</Speaker><Position>0,150</Position>||<SE1>Select</SE1><SE1>AVG_footsteps_cave</SE1>:Targets silenced. +Mission accomplished.
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_nightbar</BGM><SE1>Stop_AVG_loop</SE1>:Sterling and Brigitte emerge from the shadows. Their weapons are still hot.
+NPC-Romy(6)<Speaker>Romy</Speaker>||:I almost died back there.
+PPQ(0)<Speaker>Brigitte</Speaker>||:But you're still alive, aren't you?
+NPC-Romy(7)<Speaker>Romy</Speaker>||:So it's just the two of you? Where are the others? +God, I miss Mona so much... +I once had a truly reliable teammate in front of me. +I didn't cherish her enough, and now I'm regretting it.
+LS26(0)<Speaker>Edith</Speaker><Position>0,-60</Position><通讯框>||:<color=#00CCFF>We're some distance off, we'll regroup with you ASAP.</color> +<color=#00CCFF>And quit complaining, Miss Mona's busy too!</color>
+TFQ(0)<Speaker>Dagmar</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>Manpower is tight at Statesec, we hope you understand.</color>
+LS26(0)<Speaker>Edith</Speaker><Position>0,-60</Position><通讯框>||:<color=#00CCFF>He's just annoyed that it's us.</color>+<color=#00CCFF>Even though he's so pathetic-looking himself...</color>
+NPC-Romy(6)<Speaker>Romy</Speaker><Shake>0.1</Shake>||:<size=50>Is this how you treat a colleague?!</size>
+LS26(0)<Speaker>Edith</Speaker><Position>0,-60</Position><通讯框>||:<color=#00CCFF>The heck? We take orders from Miss Romy, not you.</color> +<color=#00CCFF>Wait, don't tell me you're hooked on impersonating her...</color> +<color=#00CCFF>Agent J?</color>
+NPC-Romy(7)<Speaker>J</Speaker>||:...Well, I must stay in character until the end of the performance.
+Sterling(0)<Speaker>Sterling</Speaker><Position>0,150</Position>||:...That's enough, the mission isn't over yet. +If there are no surprises, there should be at least another half dozen murder attempts coming up.
+NPC-Romy(6)<Speaker>J</Speaker>||:...This has to be the worst mission I've ever been given. +<size=50>BAR NONE!</size>
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>408</BIN><BGM>GF_EV9_Story</BGM>:停机坪附近，指挥官联络了K。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>你已经到机场了？路上还顺利吗？</color>
-NPC-Jason(2)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:有些动乱，但问题不大。+比起这个，克鲁格先生那边如何了？
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>已经查过了，这不是国防部下的文件。</color>+<color=#00CCFF>可能是上次大闹一场的后遗症，主要问题是针对你，一旦你按照计划假装“离开柏林”，我想他们应该不会遭到为难。</color>
-NPC-Jason(2)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:明白了，我这边会按照计划护送将军前往法兰克福。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>特别行动小队，你组建完了？</color>
-NPC-Jason(2)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……对方还没有动静，但我很担心时间不够。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>……要是她们不行动，你也会忍不住的。</color>
-()<Speaker>指挥官</Speaker>||:是。
-()<Speaker></Speaker>||:指挥官握着通讯，声音里略有些烦躁。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>别太急躁，我们总会有机会的。</color>
-()<Speaker>指挥官</Speaker>||:我知道。
-()<Speaker></Speaker>||:指挥官叹了口气。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>你应该明白罗密女士为什么把护送将军的任务交给你吧？</color>
-NPC-Jason(2)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我明白，我不会辜负这份信任的。+以我的身份完成这项任务，那么意味着格里芬基地已经得到了将军的庇护。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>嗯，等下我给你“氮”小队的指挥权限。</color>+<color=#00CCFF>希望你一切顺利。</color>
-NPC-Jason(2)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……？！+……直接把斯塔西人形小队的指挥权限移交给我？+这会不会太夸张了？
-NPC-Jason(3)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>放心吧，这也是罗密女士的意思。</color>+<color=#00CCFF>我们的合作是有诚意的，这就是我们诚意的一部分。</color>
-()<Speaker>指挥官</Speaker>||:……替我对罗密女士表示感谢。+另外……
-AR15Mod(0)<Speaker>AR15</Speaker>||:指挥官。
-()<Speaker>指挥官</Speaker>||:嗯？
-()<Speaker></Speaker>||:就在这时，AR15忽然开口打断了指挥官的通讯。
-AR15Mod(0)<Speaker>AR15</Speaker>||:她们来了。
-()<Speaker>指挥官</Speaker>||:……我要挂断了。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>交给你了。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+通讯断开。
-()<Speaker></Speaker>||:指挥官放下通讯器。
-()<Speaker>指挥官</Speaker>||:准备迎战。
-AR15Mod(0)<Speaker>AR15</Speaker>||<SE1>Select</SE1>:是！
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>408</BIN><BGM>GF_EV9_Story</BGM>:The Commander contacts K near the landing strip.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>You're at the airport already? How was your trip?</color>
+NPC-Jason(2)<Speaker>Commander</Speaker><通讯框><同时置暗>||:A little bumpy, but alright. +More importantly, how are Mr. Kryuger and the others doing?
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>I checked, those weren't MOD documents.</color> +<color=#00CCFF>My guess is that they were still traumatized by that big disturbance last time and they're going after you specifically. Once you pretend to "leave Berlin" as planned, my guess is that they won't encounter any trouble.</color>
+NPC-Jason(2)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Got it. I'll escort the General to Frankfurt, as planned.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Have you finished putting together your spec ops team?</color>
+NPC-Jason(2)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...The opposition hasn't made a move yet, but I'm worried we won't have enough time.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>...If they didn't do anything, you wouldn't be able to bear it.</color>
+()<Speaker>Commander</Speaker>||:Yeah.
+()<Speaker></Speaker>||:The Commander sounds a little restless through the comm.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Relax, we'll have a chance.</color>
+()<Speaker>Commander</Speaker>||:I know.
+()<Speaker></Speaker>||:The Commander sighs.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>You DO know why Miss Romy entrusted the task of escorting the General to you, right? </color>
+NPC-Jason(2)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Yes, and I won't let her down. +Given my status, completing this mission implies that the Griffin base will come under the General's protection.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>Yeah. Hang on, I'll give you command authority over Squad Nitrogen.</color> +<color=#00CCFF>Good luck.</color>
+NPC-Jason(2)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...?! +...You're going to directly transfer a Stasi Doll squad's command permissions to me? +Isn't this a bit much?
+NPC-Jason(3)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Relax, this is also what Miss Romy wanted.</color> +<color=#00CCFF>We're sincere about this collaboration, and this is a portion of our sincerity.</color>
+()<Speaker>Commander</Speaker>||:...Please give Miss Romy my thanks. +And also...
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Commander.
+()<Speaker>Commander</Speaker>||:Hm?
+()<Speaker></Speaker>||:Just then, ST AR-15 suddenly interrupts the Commander's transmission.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:They're here.
+()<Speaker>Commander</Speaker>||:...I have to go.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>I'm counting on you.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +The call ends.
+()<Speaker></Speaker>||:The Commander puts down the communicator.
+()<Speaker>Commander</Speaker>||:Prepare for battle.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||<SE1>Select</SE1>:Roger!
+()||<黑点1>:

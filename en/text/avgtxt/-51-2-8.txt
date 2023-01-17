@@ -1,63 +1,63 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_Jet_Passby</SE1><BGM>GF_21summer_intro_DemonVariation</BGM>:……
-()<Speaker></Speaker>||:柏林领空，施魏因施泰格的专机内。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_Jet_Passby</SE1><BGM>GF_21summer_intro_DemonVariation</BGM>:...
+()<Speaker></Speaker>||:On board Schweinsteiger's private jet, Berlin airspace.
 ()||<黑屏1>:
-()<Speaker>斯塔西联络人员</Speaker>||<BIN>273</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>……紧急播报。今日上午时分，普鲁士街区与威丁区发生重大冲突事件。</color>+<color=#00CCFF>目前确认伤者二十余名。</color>
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+他关掉了通讯，脸色微不可查地有些变化。
-NPC-Bodyguard1(0)<Speaker>保镖</Speaker>||:将军，专机会在一小时后抵达首都。
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:……
-NPC-Bodyguard1(0)<Speaker>保镖</Speaker>||:将军？
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:我知道了，你们出去吧，给我点私人空间。
-NPC-Bodyguard1(0)<Speaker>保镖</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:保镖们闻言恭敬地关上了机舱的门，将施魏因施泰格独自留在了他的豪华机舱内。
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:竟然如此冲动……+奥贝斯坦，你果然老了。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:有些啼笑皆非地，施魏因施泰格摇了摇头，拨通了罗密的通讯。
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:都处理好了吗？
-NPC-Romy(0)<Speaker>罗密</Speaker><通讯框>;NPC-Arla(0)||:<color=#00CCFF>一切都在计划之中。</color>+<color=#00CCFF>柏林的痕迹我们正在逐步清除。</color>
-NPC-Romy(0);NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:不仅仅是内部的。+你知道我的意思。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Arla(0)||:<color=#00CCFF>是的，外面的触手我们也在逐步剪断。</color>
-NPC-Romy(0);NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:做得好……不过，我有时候在想，先前是不是有些太激进？+“烟花”绽放之后，莫斯科的紧张氛围都已经蔓延到法兰克福了。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Arla(0)||:<color=#00CCFF>请您安心，无论您作何决定，我们都能确保绝对的优势。</color>+<color=#00CCFF>在这场战争里，谁能掌握情报，谁就能掌握权力。</color>
-NPC-Romy(1)<Speaker>罗密</Speaker>;NPC-Arla(0)||:<color=#00CCFF>而现在，这一切全部都在支持您。</color>
-NPC-Romy(1);NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:等解决掉柏林的事情，你也尽快返回首都吧。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-Arla(0)||:<color=#00CCFF>是。</color>
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:再狂热的怒火也会有冷却的那一天……+如果他不愿意体面地离开，那就让我们帮他体面。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:施魏因施泰格正了正帽子，清咳两声，慢吞吞地走到沙发前，伸手拿起茶几上的玫瑰。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:几朵玫瑰的颜色各异，黑色、红色、黄色，端正地插在花瓶里，花瓣上还沾着水滴。+鲜艳的颜色，就如同高高飘扬的国旗一般。
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:嗯？
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:施魏因施泰格微微顿了顿，发觉在香槟杯的前面，还摆放着一个精致的录音笔。
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:他拿起了那个录音笔，摁下了播放键。
-()<Speaker>奥贝斯坦</Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:<color=#00CCFF>早晨好，施魏因施泰格将军。</color>+<color=#00CCFF>希望我没有打搅到你用早餐。</color>
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:施魏因施泰格耸了耸肩，放下录音笔，坐回到了沙发上。+面对录音笔内传出的声音，施魏因施泰格没有一点惊讶。
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>很遗憾我不能亲自与你交谈。</color>+<color=#00CCFF>但这丝毫不会影响我们的友谊。</color>
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>我相信，你一定会喜欢我送给你的礼物。</color>+<color=#00CCFF>以此作为我们和好的契机，我相信绝不是件坏事。</color>
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:……
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>有些时候，仅仅是有些时候，朋友之间的意见会有出入，就算吵架也是稀松平常的。</color>+<color=#00CCFF>但不代表吵架之后就一定不能和好……维持我们的友谊，不论对谁都更有好处。</color>
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:……
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>相比起那些外来者，我们才是真正能互相信赖的伙伴。</color>
-NPC-Arla(0)<Speaker>施魏因施泰格</Speaker>||:你到底想要什么呢……奥贝斯坦部长？
-()<Speaker></Speaker>||:凝视着眼前的录音笔，施魏因施泰格喃喃自语着。
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>我不喜欢见到我们的花园里有外来物种。</color>+<color=#00CCFF>一切行为，到此为止。</color>
-()<Speaker></Speaker>||:仿佛预想到了施魏因施泰格的问题一般，奥贝斯坦给出了他的回答。
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>相信我，将军。</color>+<color=#00CCFF>最终能够帮助你的人，只有我们自己人。</color>
-()<Speaker></Speaker>||:奥贝斯坦的声音微微顿了一顿，变得和缓起来。
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>我保证，在一切都结束后，我会为我们的友谊烧上最烈的一把火。</color>+<color=#00CCFF>也许，是时候让斯塔西恢复到百年前那般光辉的模样了，我相信，你是我们的花园不可或缺的园丁。</color>
-()<Speaker>奥贝斯坦</Speaker>||:<color=#00CCFF>一如既往。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+录音笔停止了运作。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:施魏因施泰格也同时摘下了帽子，长出了一口气。
-()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:这时，门外响起了敲门声。
-NPC-Schweinsteiger(0)<Speaker>施魏因施泰格</Speaker>||:我说过我想一个人待一会。
-()<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:然而，门外的人仿佛充耳不闻一般，推开了房门。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:身穿白衣的侍者手捧着一瓶香槟酒，面无表情地走了进来。+施魏因施泰格很确信自己并没有见过这个人。
-()<Speaker>侍者</Speaker>||<SE1>Stop_AVG_loop</SE1>:请用。
-()<Speaker></Speaker>||:香槟的瓶身上，用鲜艳的红色字体写着“敬友谊”。+施魏因施泰格坐在沙发上，目光不经意地瞥向虚掩的门缝——他的保镖依旧在正常执勤，但却对这里发生的一切都视若无睹。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:而眼前的侍者则好似没有注意到施魏因施泰格的目光一样，只是打开了酒瓶，然后恭敬地为他满上了酒杯。+香槟的气泡瞬间在杯中发出了悦耳的声音。
-NPC-Schweinsteiger(0)<Speaker>施魏因施泰格</Speaker>||:……
-NPC-Schweinsteiger(0)<Speaker>侍者</Speaker><同时置暗>||:……
-NPC-Schweinsteiger(0)<Speaker>施魏因施泰格</Speaker>||:……敬友谊。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:无言地拿起香槟，施魏因施泰格碰了碰空杯，随即一饮而尽。
-()||<黑点1>:
+()<Speaker>Stasi Liaison</Speaker>||<BIN>273</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>...Emergency report. There are major outbreaks of violence on Preußische Straße and the locality of Wedding.</color> +<color=#00CCFF>So far, the number of injured is confirmed to be at around 20.</color>
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +He turns off the transmission, and there is an imperceptible shift in his expression.
+NPC-Bodyguard1(0)<Speaker>Bodyguard</Speaker>||:General, we will arrive at the capital within an hour.
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:...
+NPC-Bodyguard1(0)<Speaker>Bodyguard</Speaker>||:General?
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:I heard you. Leave me, I need some personal space.
+NPC-Bodyguard1(0)<Speaker>Bodyguard</Speaker>||:Yes, sir.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:The bodyguard respectfully closes the cabin door, leaving Schweinsteiger alone inside his luxurious cabin.
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:To think you'd be so impulsive... +You've gotten old, Oberstein.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Schweinsteiger shakes his head and chuckles sardonically before calling up Romy.
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:Has it been taken care of?
+NPC-Romy(0)<Speaker>Romy</Speaker><通讯框>;NPC-Arla(0)||:<color=#00CCFF>Everything is going according to plan.</color> +<color=#00CCFF>We are steadily erasing the traces in Berlin.</color>
+NPC-Romy(0);NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:I'm not just talking about internal business. +You know what I mean.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Arla(0)||:<color=#00CCFF>Yes. We're also trimming back the tentacles from the outside.</color>
+NPC-Romy(0);NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:Well done... However, I sometimes wonder, were we too radical before? +After the "Fireworks" blossomed, the tension in Moscow seems to have spread to Frankfurt.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Arla(0)||:<color=#00CCFF>Rest assured, no matter what decision you make, we will always have the advantage.</color> +<color=#00CCFF>In a war like this, information is power.</color>
+NPC-Romy(1)<Speaker>Romy</Speaker>;NPC-Arla(0)||:<color=#00CCFF>And now, all this information is at your disposal.</color>
+NPC-Romy(1);NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:You should head back to the capital once you've dealt with Berlin.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-Arla(0)||:<color=#00CCFF>Yes, sir.</color>
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:No matter how brightly the flames of anger burn, they will cool one day... +If he is unwilling to make a dignified exit, then we shall spare his dignity for him.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Schweinsteiger adjusts his hat, coughs twice, then slowly walks up to his sofa and reaches out to pick up several roses from the coffee table.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:They are all of different colors—black, red and yellow, all stuck into a vase, their petals still coated with drops of water. +Their vibrant colors are like a flag fluttering high in the air.
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:Hm?
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Schweinsteiger pauses briefly as he notices an exquisite recording pen in front of his champagne flute.
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:He picks up the pen and presses the play button.
+()<Speaker>Oberstein</Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:<color=#00CCFF>Good morning, General Schweinsteiger.</color> +<color=#00CCFF>I hope I have not interrupted your breakfast.</color>
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Schweinsteiger shrugs, then puts the pen down before sitting back on the sofa. +He does not seem the least bit surprised by the voice coming from the pen.
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>I regret I could not speak to you in person.</color> +<color=#00CCFF>But this will not affect our friendship.</color>
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>I believe you will like the present I have given you.</color> +<color=#00CCFF>I am certain that I cannot go wrong using it as an opportunity for us to make up with each other.</color>
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:...
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>At times, but only at times, it is natural for friends to have conflicting opinions, and arguments, while rare, are still normal.</color> +<color=#00CCFF>But that does not mean they cannot make peace after the argument... </color> +<color=#00CCFF>Maintaining our friendship will do us both good.</color>
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:...
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>Compared to those outsiders, we are friends who can truly trust each other.</color>
+NPC-Arla(0)<Speaker>Schweinsteiger</Speaker>||:What exactly do you want... Minister Oberstein?
+()<Speaker></Speaker>||:Schweinsteiger mutters to himself as he stares at the recording pen.
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>I do not want to see invasive species in our garden.</color> +<color=#00CCFF>Everything I have done has been dedicated to this end.</color>
+()<Speaker></Speaker>||:As though he was anticipating Schweinsteiger's question, Oberstein supplies his answer.
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>Trust me, General.</color> +<color=#00CCFF>In the end, only we can help ourselves.</color>
+()<Speaker></Speaker>||:Oberstein's voice pauses before continuing warmly.
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>I guarantee that when everything is over, I will kindle our friendship brighter than it's ever become.</color> +<color=#00CCFF>Perhaps it is time to restore the Stasi to its full glory, last seen a century ago. I trust that you will prove to be an indispensable gardener within our garden.</color>
+()<Speaker>Oberstein</Speaker>||:<color=#00CCFF>As you always have.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +The recording comes to an end.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Schweinsteiger removes his hat and sighs heavily.
+()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:Just then, there is a knock on the door.
+NPC-Schweinsteiger(0)<Speaker>Schweinsteiger</Speaker>||:I said, I wanted to be alone.
+()<Speaker>???</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:However, the person outside doesn't seem to have heard and opens the door.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:A waiter dressed in white enters. His face is blank as he presents a bottle of champagne. +Schweinsteiger is certain that he's never seen this man before.
+()<Speaker>Waiter</Speaker>||<SE1>Stop_AVG_loop</SE1>:Please enjoy.
+()<Speaker></Speaker>||:The champagne bottle has "To friendship" written on it in bright red letters. +As Schweinsteiger sits on the sofa, his eyes unconsciously drift to the hidden doorway—his bodyguards are still on duty, yet they are paying no attention to what is happening in here.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:Meanwhile, the waiter before him doesn't seem to have noticed Schweinsteiger's glance. He simply opens the bottle and politely fills his glass. +The fizzing bubbles from the champagne make a pleasant sound in the glass.
+NPC-Schweinsteiger(0)<Speaker>Schweinsteiger</Speaker>||:...
+NPC-Schweinsteiger(0)<Speaker>Waiter</Speaker><同时置暗>||:...
+NPC-Schweinsteiger(0)<Speaker>Schweinsteiger</Speaker>||:...To friendship.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:With that, Schweinsteiger picks up the champagne, clinks it against an empty glass, and downs it in one gulp.
+()||<黑点1>:

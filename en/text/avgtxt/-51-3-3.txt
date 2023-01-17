@@ -1,159 +1,159 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><BGM>10203</BGM><震屏3><BIN>480</BIN>:呯呯呯——
-()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:无论子弹是来自怎样刁钻的角度，格雷都能轻巧地用尾巴格挡住。+高速穿破空气的子弹在格雷的尾巴上迸溅出激烈的火花。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:还是省省子弹吧。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:看招！
-()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:SOP2紧贴格雷，封锁她的行动，同时给出一招更比一招凶狠的攻击。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_20Winter_Knife_Whoosh</SE1>:格雷也没有吝惜自己的刀刃，但总是恰好劈在了空气中。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:……啧。
-()<Speaker></Speaker>||:格雷察觉到，SOP2似乎是吸取了之前的经验，她的袭击比起之前更为凌厉且灵活了。+格雷稍微收敛了自己的悠然闲散。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:居然记住了我的招式？
-RO635Mod(4)<Speaker>RO635</Speaker>||:SOP2！
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||:<size=50>嘎嗷——！</size>
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:注意到格雷一霎的错愕，RO635打出了信号。+SOP2立刻飞身上去，狠厉地朝着格雷的手臂撕扯上去。
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:铿——+格雷险险地抵挡开SOP2的近身猛袭，但手臂上仍然残留下了SOP2的抓痕，她气息也紊乱了几分。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:进步很快啊。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:你这张嘴留着我撕碎你的时候再狂喊吧！
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:哈哈哈……
-RO635Mod(0)<Speaker>RO635</Speaker>||:SOP2，稍微拉开点距离。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:好！
-()<Speaker></Speaker>||:RO635知道，在SOP2的拆招下，格雷没有之前的游刃有余了。+但比起格雷，SOP2的消耗明显更大，这样的战略不是长久之计。
-RO635Mod(0)<Speaker>RO635</Speaker>||:节约点体力。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:我没有问题的！
-()<Speaker></Speaker>||:格雷眯眼看了看喘息不停的SOP2和紧绷的RO635。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:和你们玩得很开心，但我的时间快到了。+下次再见吧，可爱的小狗狗。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>RunStep</SE1><震屏3>:<size=50>别跑！受死啊！！！</size>
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_Cloak_Whoosh</SE1>:格雷蓦地一闪，避开了SOP2凌厉的攻击，同时翻上了废墟上层。
-RO635Mod(4)<Speaker>RO635</Speaker>||:别冲动！SOP2！
-()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake><BGM>BGM_Empty</BGM>:<size=50>轰！！！</size>
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:在一声爆响之中，废墟再次坍塌。+SOP2的身影被掩埋。
-RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1><SE1>AVG_tele_connect</SE1>:独角兽！需要援助！
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>收到！</color>
-RO635Mod(4)<Speaker>RO635</Speaker>||:确认SOP2的情况！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_stage1</BGM>:RO635立刻开始挖掘废墟，寻找SOP2。
-()<Speaker></Speaker>||:UMP45和UMP9也及时赶来加入挖掘。+所幸废墟常年遭到辐射侵蚀，质地早已朽烂不堪，并不足以伤到SOP2。
-RO635Mod(0)<Speaker>RO635</Speaker>||:没事吧，SOP2？
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||<SE1>AVG_XXS_kick</SE1>:<size=50>呸——呸呸呸——</size>+卑鄙无耻的混蛋！害我吃了一嘴泥！
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:起码你刚刚扑过去的姿势真的很帅！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:RO，格雷的痕迹消失了。
-RO635Mod(0)<Speaker>RO635</Speaker>||:嗯，我知道。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:嘀——+来自埃涅阿斯行动会议室频道的通讯。
-()<Speaker>莫娜</Speaker>||:<color=#00CCFF>这里是氮，已到达原定目标附近。</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||:有什么发现吗？
-RO635Mod(0)<Speaker>莫娜</Speaker><同时置暗>||:<color=#00CCFF>我们刚刚锁定了默莉朵的痕迹，正在进行追踪。</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||:收到，我会让铁元素赶去支援你们。+雨伞和独角兽这边刚和目标之一的格雷发生战斗，但被她跑了。
-()<Speaker>莫娜</Speaker>||:<color=#00CCFF>明白，氮会一并留意的。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通讯利落地结束。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:斯塔西的特工人形很厉害嘛，比起之前那个J来说……
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:希望之后的合作也能这么顺利。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:一定会的，对吧，RO！
-RO635Mod(0)<Speaker>RO635</Speaker>||:……+嗯，一定会的。
-()<Speaker></Speaker>||:RO635长出了一口气。
-RO635Mod(0)<Speaker>RO635</Speaker>||:<color=#A9A9A9>指挥官，我不会辜负你的信任的。</color>
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><BGM>10203</BGM><震屏3><BIN>480</BIN>:Bangbangbang—
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:No matter how unexpected the angle the bullets come from, Gray deflects them easily with her tail. +The bullets ripping through the air throw up an intense shower of sparks on the surface of Gray's tail.
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||<SE1>AVG_Gray_Hand_Mech</SE1>:You should save your bullets.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:Take this!
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:SOP-II sticks close to Gray and locks her movements down while delivering one savage attack after another.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Gray doesn't skimp on the application of her blades either, but she always ends up cutting nothing but air.
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:...Tsk.
+()<Speaker></Speaker>||:Gray can sense that SOP-II seems to have learned from her previous experiences, and her assault is more dynamic and deadly than before. +Gray abandons her relaxed attitude.
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:You actually memorized my moves?
+RO635Mod(4)<Speaker>RO635</Speaker>||:SOP-II!
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||:<size=50>GRAWR—!</size>
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:RO635 notices Gray's moment of shock and signals to SOP-II. +SOP-II immediately leaps at her and ferociously rips and tears at Gray's arm.
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:Clang—+Gray barely manages to block SOP-II's vicious assault, but her arm is maimed by SOP-II's claws and she's breathing hard.
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:You learn fast.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:I'll leave that mouth of yours for last so you can scream while I shred you!
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:Hahaha...
+RO635Mod(0)<Speaker>RO635</Speaker>||:SOP-II, back off a little.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:Right!
+()<Speaker></Speaker>||:RO635 knows that Gray no longer has the luxury of playing around now that SOP-II has seen through her moves. +However, it's obvious that SOP-II is tiring out faster than Gray. This is not a tactic that is sustainable in the long term.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Save your strength.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:I'm okay!
+()<Speaker></Speaker>||:Gray narrows her eyes as she looks at the panting SOP-II and the tense RO635.
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:I had fun playing with you, but my time's almost up. +See you later, cute little doggy.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>RunStep</SE1><震屏3>:<size=50>Get back here! I'll kill you!!!</size>
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_Cloak_Whoosh</SE1>:Gray suddenly darts aside, evading SOP-II's fierce attack while somersaulting to the upper level of the ruins.
+RO635Mod(4)<Speaker>RO635</Speaker>||:SOP-II! Don't be rash!
+()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake><BGM>BGM_Empty</BGM>:<size=50>BOOM!!!</size>
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:With a mighty explosion, the ruins collapse again. +SOP-II is lost amidst the rubble.
+RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1><SE1>AVG_tele_connect</SE1>:Unicorn! We need backup!
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>Roger!</color>
+RO635Mod(4)<Speaker>RO635</Speaker>||:Verifying SOP-II's condition!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_stage1</BGM>:RO635 immediately starts digging through the rubble in search of SOP-II.
+()<Speaker></Speaker>||:UMP45 and UMP9 come over to join in the excavation. +Fortunately the ruins have been degraded by long years of radiation exposure and the material is basically rotten, so it didn't hurt SOP-II.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Are you okay, SOP-II?
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||<SE1>AVG_XXS_kick</SE1>:<size=50>Peh— Pehpehpeh—</size> +That dirty shameless bitch! I got a mouthful of mud!
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:Well, at least you looked really cool when you pounced on her!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:RO, we've lost track of Gray.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Yeah, I know.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Click—+A transmission comes through the Aeneas conference room channel.
+()<Speaker>Mona</Speaker>||:<color=#00CCFF>Nitrogen here. We've reached the vicinity of the original target.</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:Did you find anything?
+RO635Mod(0)<Speaker>Mona</Speaker><同时置暗>||:<color=#00CCFF>We've just locked onto Morridow's trail. We're now in pursuit.</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:Roger. I'll have Squad Ferrum move up to support you. +Umbrella and Unicorn just engaged one of the targets, Gray, but she gave us the slip.
+()<Speaker>Mona</Speaker>||:<color=#00CCFF>Got it. Nitrogen will be careful.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:The transmission cuts off cleanly.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:Those Stasi agent Dolls sure are amazing, at least compared to that J from before...
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Hopefully our future cooperation will go just as well.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:It will, right, RO?
+RO635Mod(0)<Speaker>RO635</Speaker>||:... +Yeah, I'm sure it will.
+()<Speaker></Speaker>||:RO sighs heavily.
+RO635Mod(0)<Speaker>RO635</Speaker>||:<color=#A9A9A9>I won't let you down, Commander.</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2>:跟随坐标的指示，RO635一行向着黑暗而去……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Water_Drip</SE1>:……+……+……黑暗。
-()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:无尽的深邃黑暗中，安洁浸泡在污浊的泥泞里，不知睡去了多久。+此刻，那紊绕在她神经末梢的嘈杂的惨叫与枪火声终于停歇，却陷入另一种死一般的寂静。+她根本不知道，自己在这黑暗中沉浸了多久……
-()<Speaker>安洁莉娅</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:沙沙……+空洞的黑暗中，细碎的声响从周遭传来，打破了这份宁静。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:她挣扎着想要睁开眼睛，活动四肢，却好像被什么重物压倒一般动弹不得。
-()<Speaker>？？？</Speaker>||:交给你了，克莱妲。+好好照顾她，现在，她是你们的了。
-()<Speaker></Speaker>||:……RPK16？+她在跟谁说话？
-()<Speaker>？？</Speaker>||:……收到。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:纱裙摩挲的声音细碎而刺耳。
-()<Speaker>RPK16</Speaker>||:……这样，你们就可以安心了吧？
-()<Speaker>？？</Speaker>||:你……认为……+这就……可以被原谅吗？
-()<Speaker>RPK16</Speaker>||:……+幸运的是，我不需要被原谅。
-()<Speaker></Speaker>||:……这声音？
-()<Speaker>RPK16</Speaker>||:……
-()<Speaker>？？</Speaker>||:安洁。
-()<Speaker></Speaker>||:那个陌生的声音轻轻呼唤着她的名字，在她意识的黑暗中撕开了一道裂口。
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:剧痛的神经像是被针扎芒刺，在呻吟的梦呓中，安洁用尽所有的力气，将注意力集中在了眼睑上。
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2>:As they follow the target coordinates, RO635 and the others enter the darkness...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Water_Drip</SE1>:... +... +...Darkness.
+()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:Within the endless darkness, Angelia is left covered in the grimy muck. There's no telling how long she's been asleep. +The sounds of screaming and gunfire looping in her psyche have finally stopped, but they are replaced by a deathly silence. +She has no idea how long she has been immersed in this darkness...
+()<Speaker>Angelia</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:(Rustle) +Fragmented whispers filter through the vacuous blackness, breaking the silence.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:She struggles to open her eyes and move her limbs, but she is immobile, as though something heavy is crushing down on her.
+()<Speaker>???</Speaker>||:I'm counting on you, Koleda. +Take good care of her. She's yours now.
+()<Speaker></Speaker>||:...Is that RPK-16? +Who is she talking to?
+()<Speaker>???</Speaker>||:...Roger.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The sound of rustling fabric is quiet, yet grating.
+()<Speaker>RPK-16</Speaker>||:...There, that should put you at ease, right?
+()<Speaker>???</Speaker>||:You... you think... +Do you think... you'll be forgiven for this?
+()<Speaker>RPK-16</Speaker>||:... +Fortunately, I don't seek forgiveness.
+()<Speaker></Speaker>||:...Whose voice is this?
+()<Speaker>RPK-16</Speaker>||:...
+()<Speaker>???</Speaker>||:Ange.
+()<Speaker></Speaker>||:An unfamiliar voice quietly calls her name, and a rip appears within the darkness of her mind.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:Her nerves hurt like they've been stabbed by a needle. Amidst her groaning, Ange uses all her strength to focus on her eyelids.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<睁眼><BIN>510</BIN>:……久违的光明入眼，她看到的是熟悉的透明墙壁——+一个衣着破烂，看上去就像是废弃异构体样的涅托静静地站在壁外，就这么看着她。+她散发的气质，带着陌生的熟悉感，与这个环境格格不入。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:……
-NPC-Koleda(0)<Speaker>？？</Speaker>||:你好，我是克莱妲，从今天开始就由我来照看你的起居了。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:之前那个暴力狂涅托呢？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……+她有了其他的工作安排。
-()<Speaker></Speaker>||:面前的涅托不自然地别开了视线。+安洁垂下青肿的眼皮，嘴角浮起一丝若隐若现的轻蔑的笑意。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:无所谓。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……
-()<Speaker></Speaker>||:自从被囚禁在这里之后，安洁失去了时间的概念。+她也不知道，像这样，左臂被别到脑后，右臂被别在腰后，吊在空中的日子究竟过了多久。+长时间身着特制约束衣加上脚踝系着的重物让她感觉身体已经变成了雕像……+如果不是之前负责的涅托经常对自己拳打脚踢的话，她恐怕真的要丧失对身体的感知了。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||<SE1>AVG_door_elecport</SE1>:我先来帮你换药吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:名叫“克莱妲”的涅托缓慢走进房间中，开始将冰凉的药物涂抹在安洁裸露在外的伤口上。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在一片僵硬的沉默中，克莱妲轻柔地处理完了安洁的伤口。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:那么，我就先退下了。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:等一下。
-()<Speaker></Speaker>||:安洁注意到，克莱妲处理自己引爆脏弹时留下的伤口时明显更为小心谨慎。+而它们现在正混在一片血肉模糊的伤痕中，并不具备什么容易分辨的特征。+要想准确找出它们，只有一种可能性——
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:你到底是谁？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……+安洁……
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:……
-()<Speaker></Speaker>||:注意到这声细微的呼唤，安洁皱着眉头，看向了眼前这个她刚才完全没有在意的涅托。+看着她的眼睛，安洁似乎觉察到了什么，微微张了张嘴。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:你是……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:我是克莱妲，安洁。
-()<Speaker></Speaker>||:隔着厚重的钢化玻璃，安洁看见自己愕然的脸映在克莱妲清晰的瞳孔中。
+()<Speaker></Speaker>||<睁眼><BIN>510</BIN>:...The long-awaited light floods into her eyes, and she sees a familiar transparent wall— +A Nyto dressed in tatters, like one of those abandoned Isomers, stands quietly beyond it, watching her. +She has an air of unfamiliar familiarity about her, entirely out of place in this setting.
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:...
+NPC-Koleda(0)<Speaker>???</Speaker>||:Hello, I am Koleda. From now on, I will be in charge of your daily care.
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:What about that crazy Nyto from before?
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:... +She has other work lined up for her.
+()<Speaker></Speaker>||:The Nyto averts her gaze a bit unnaturally. +Ange closes her bruised eyelids and a faint, mocking smile appears on her lips.
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:That's alright.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:...
+()<Speaker></Speaker>||:Ange has lost track of time ever since she was imprisoned here. +She doesn't know how long she's spent like this, her left arm behind her head, her right arm behind her waist, and suspended in mid-air. +Extended periods in a custom-made straitjacket and the heavy weights around her ankles have left her body feeling like a statue... +If the Nyto assigned to her from earlier hadn't routinely kicked and punched her, she might have lost all sense of feeling in her body.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||<SE1>AVG_door_elecport</SE1>:Let me help you change your dressings.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Nyto called "Koleda" slowly enters the room and starts applying a cool medication to Ange's exposed wounds.
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:...
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amidst the stiff silence, Koleda finishes treating Ange's wounds with gentle hands.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:I'll be leaving, then.
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:Wait.
+()<Speaker></Speaker>||:Ange notices that Koleda was more careful while treating the wounds left behind from when she triggered that dirty bomb. +Right now, they're lost in a mess of blood and bruises and they're not particularly easy to distinguish. +There's only one way someone would be able to tell them apart—
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:Who ARE you?
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:... +Ange...
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:...
+()<Speaker></Speaker>||:At the quiet utterance, Ange frowns and studies this Nyto more carefully. +Looking into her eyes, Ange seems to notice something. She gapes a little.
+NPC-AngeDamage(0)<Speaker>Angelia</Speaker>||:You're...
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:I am Koleda, Ange.
+()<Speaker></Speaker>||:Through the heavy, reinforced glass, Ange sees her shocked face reflected in Koleda's clear eyes.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:...
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>460</BIN><BGM>GF_22W_SFX_chant</BGM><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:……坐在长椅上的涅托们虔诚地低声吟唱着，歌声仿佛顺着雕塑手指的方向跃向了光。+而在涅托们的前方，一位身着白色礼裙的女人孑然立在雕像前。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RPK16静悄悄地走向女人，停留在了她身后两三步左右的距离。+两人似乎都有意保持着沉默。
-RPK16(5)<Speaker>RPK16</Speaker>||:……
-()<Speaker></Speaker>||:在吟唱声中，那个女人对身旁的涅托使了个眼色，后者便乖巧地退出了这幅似乎圣洁的画面，来到了RPK16的面前。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:我是艾希礼，请跟我来。
-RPK16(0)<Speaker>RPK16</Speaker>||:好的。
-()<Speaker></Speaker>||:RPK16微笑着，跟随眼前的涅托退出了大厅，很快，就只剩下两人单独相处。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:安洁莉娅已经安顿好了？
-NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK16</Speaker>||:是的。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>;RPK16(5)||:尼梅兰姐姐对你很赏识。+她说你比格雷姐姐做事利落。
-NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK16</Speaker>||:真是夸张，我只是尽了应尽的责任而已哦。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>;RPK16(5)||:我们对优秀者给予恰当的奖赏……你的梦想。+帕拉蒂斯会为你兑现的。
-NytoWhite(0)<Position>0,50</Position>;RPK16(6)<Speaker>RPK16</Speaker>||:……那真是非常感谢。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:跟我来吧。
+()<Speaker></Speaker>||<白屏2><BIN>460</BIN><BGM>GF_22W_SFX_chant</BGM><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:...The Nytos sitting on the pews intone their verse with reverence, and their voices seem to leap toward the light in the direction where the statue's hands are pointing. +Between the Nytos and the statue stands a woman in a white dress.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RPK-16 quietly approaches the woman, stopping two or three steps behind her. +The two seem to be maintaining an intentional silence.
+RPK16(5)<Speaker>RPK-16</Speaker>||:...
+()<Speaker></Speaker>||:The woman glances at a Nyto beside her as she sings, and the latter obediently vacates this picturesquely pristine scene and walks up to RPK-16.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:I am Ashley. Please come with me.
+RPK16(0)<Speaker>RPK-16</Speaker>||:Alright.
+()<Speaker></Speaker>||:RPK-16 smiles and follows the Nyto out of the hall. Soon, the two of them are alone.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Has Angelia been settled in?
+NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK-16</Speaker>||:Yes.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>;RPK16(5)||:Big Sister Nemhran thinks very highly of you. +She says you're more efficient than Big Sister Gray.
+NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK-16</Speaker>||:That would be going too far. I'm just doing my duty.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>;RPK16(5)||:We reward capable individuals appropriately... +Paradeus will make your dream come true.
+NytoWhite(0)<Position>0,50</Position>;RPK16(6)<Speaker>RPK-16</Speaker>||:And I am very grateful for that.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Come with me.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:微笑着，RPK16跟在了涅托的后面。
-()<Speaker></Speaker>||:她的笑容带着某种深意，目光凝视着涅托的背影。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:RPK-16 follows the Nyto with a smile.
+()<Speaker></Speaker>||:There seems to be a deeper meaning to her smile, and her gaze is fixed on the Nyto's back.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>480</BIN><BGM>BGM_Sneak</BGM>:……柏林郊区，寂静的废墟。+三名少女无言地蹲守在废墟的阴影中，锐利的目光锁定着痕迹消失的地方。
-()<Speaker></Speaker>||:屏息聆听着目标的动静，莫娜对着身后的队友打了个手势——+“前进”。
-QBZ191(0)<Speaker>九号</Speaker>||<SE1>ClothingUp</SE1>:……
-Rhino(0)<Speaker>芮诺</Speaker>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||:借助掩体，接受到信号的两个人形有序地朝着目标靠近了一段距离。+莫娜开启了小范围的队内语音。
-SP9(0)<Speaker>莫娜</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>注意隐蔽讯号。</color>
-Rhino(0)<Speaker>芮诺</Speaker>||:<color=#00CCFF>收到。</color>
-QBZ191(0)<Speaker>九号</Speaker>||:<color=#00CCFF>敌人就在这栋建筑里。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:<color=#00CCFF>没错，我刚刚扫描了一圈，即使是杂兵，这样的数量也不是我们能匹敌的。</color>+<color=#00CCFF>而且，我们的任务是跟踪目标，切忌打草惊蛇。</color>
-()<Speaker></Speaker>||:藏在残垣断壁的阴影中，三名少女一动不动，就像是融入其中的石像。
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>注意，目标出现。</color>
-Rhino(0)<Speaker>芮诺</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>已经锁定目标默莉朵，确认跟踪设备的讯号吻合情报。</color>
-QBZ191(0)<Speaker>九号</Speaker>||:<color=#00CCFF>她的身边还有一个看起来很厉害的角色……</color>
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>缇，剑术高超，千万不要被近身——来自AR小队的情报。</color>
-Rhino(0)<Speaker>芮诺</Speaker>||:<color=#00CCFF>看身型应该是敏捷型吧，这种类型挺棘手的。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:<color=#00CCFF>……</color>
+()<Speaker></Speaker>||<黑屏2><BIN>480</BIN><BGM>BGM_Sneak</BGM>:...In the quiet ruins on the outskirts of Berlin. +Three girls crouch silently in the shadows of the ruins, their keen eyes looking in the direction where the trail has vanished.
+()<Speaker></Speaker>||:After holding her breath and straining her ears to pick up the target's movements, Mona signals to her teammates behind her—+"Move in."
+QBZ191(0)<Speaker>No. 9</Speaker>||<SE1>ClothingUp</SE1>:...
+Rhino(0)<Speaker>Rhino</Speaker>||<SE1>ClothingUp</SE1>:...
+()<Speaker></Speaker>||:Upon receiving the signal, the two Dolls stick to cover and proceed toward the target in an orderly fashion. +Mona opens a short-range intra-squad comms channel.
+SP9(0)<Speaker>Mona</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Remember to conceal your signals.</color>
+Rhino(0)<Speaker>Rhino</Speaker>||:<color=#00CCFF>Got it.</color>
+QBZ191(0)<Speaker>No. 9</Speaker>||:<color=#00CCFF>The enemy is inside this building.</color>
+SP9(0)<Speaker>Mona</Speaker>||:<color=#00CCFF>Correct. I just scanned around us. Even if they're all mobs, we can't take on their numbers.</color> +<color=#00CCFF>Also, we're supposed to be following the target, so we need to avoid spooking her.</color>
+()<Speaker></Speaker>||:Concealed in the shadows of the ruined masonry, the three girls remain motionless, like stone statues blending in with the environment.
+SP9(3)<Speaker>Mona</Speaker>||:<color=#00CCFF>Take note. The target has appeared.</color>
+Rhino(0)<Speaker>Rhino</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>Target Morridow locked. Signal from the tracking device matches our information.</color>
+QBZ191(0)<Speaker>No. 9</Speaker>||:<color=#00CCFF>The person next to her looks pretty impressive...</color>
+SP9(3)<Speaker>Mona</Speaker>||:<color=#00CCFF>That's Grig. Her swordsmanship is incredible, so make sure you don't let her get close—that's what the AR Team reported.</color>
+Rhino(0)<Speaker>Rhino</Speaker>||:<color=#00CCFF>She looks like the agile type. Those are hard to handle.</color>
+SP9(0)<Speaker>Mona</Speaker>||:<color=#00CCFF>...</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2>:在三人的注视下，在几个帕拉蒂斯单位的簇拥下，一身白衣的缇架着默莉朵走向前方的废墟建筑。+眼看就要离开她们的视线范围……+莫娜再次比划手势，示意她们也跟上。
+()<Speaker></Speaker>||<黑屏2>:Under the trio's watchful gaze, the white-clad Grig helps support Morridow to a ruined building ahead of them, with several Paradeus units as escorts. +They're just about to leave their range of vision... +When Mona gestures again, indicating that they should follow.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:距离再次缩短，之前还躲在她们视野死角的光景展现开来——
-QBZ191(0)<Speaker>九号</Speaker>||:<color=#00CCFF>……那里停着一辆运输车？！</color>
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>该死，她们要用交通工具逃走！</color>
-Rhino(0)<Speaker>芮诺</Speaker>||:<color=#00CCFF>要我去打爆车胎吗？</color>
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>不要冒险暴露。</color>
-()<Speaker></Speaker>||:碍于周边没有更近的掩体，三名少女无法再接近。+只能眼睁睁看着默莉朵被塞上车……+莫娜开启了埃涅阿斯会议室频道。
-SP9(0)<Speaker>莫娜</Speaker>||<SE1>AVG_tele_connect</SE1>:呼叫雨伞，这里是氮，我们追上了目标默莉朵。+但她现在即将乘上帕拉蒂斯的运输车离开，我们无法继续追捕。
-SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>雨伞收到，无需勉强，锁定跟踪设备的讯号即可。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:收到。
-SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>铁元素正赶去支援你们。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:明白，有了重火力，我们也——
-()<Speaker></Speaker>||:莫娜的声音戛然而止。+只是一个分神对话的瞬间，少女忽然发现……刚刚站在不远处的白衣涅托，眨眼便消失地无影无踪。
-SP9(0)<Speaker>莫娜</Speaker>||:……缇呢？
-QBZ191(0)<Speaker>九号</Speaker>||:嗯？不、不知道……+一瞬间就蒸发——？！
-()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:嗡——
-()<Speaker></Speaker>||<BGM>10130</BGM><common_effect>%%code=CJ_zidan%%</common_effect><SE1>AVG_20Winter_Knife_Whoosh</SE1>:嗡鸣的长剑震动着闪烁起一道凛冽的寒芒，刺目的白光在刹那间便已落至眼前——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:<size=50>铮——！</size>+名为九号的少女护着同伴险险接下了这招。
-QBZ191(0)<Speaker>九号</Speaker>||:好快的剑！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:身着白衣的敌人早已孤傲地落在高处，不以为然地擦了擦剑。+在她面前，没有惊慌失措，三名人形已经默契地找好位置准备开工。
-SP9(3)<Speaker>莫娜</Speaker>||<SE1>AVG_weapon_reload</SE1>:氮小队，准备迎战！
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:They close the gap between them once again, and then they see what was originally hidden in their blind spot—
+QBZ191(0)<Speaker>No. 9</Speaker>||:<color=#00CCFF>...Is that a truck?!</color>
+SP9(3)<Speaker>Mona</Speaker>||:<color=#00CCFF>Dammit, they're planning to escape in a vehicle!</color>
+Rhino(0)<Speaker>Rhino</Speaker>||:<color=#00CCFF>Want me to bust their tires?</color>
+SP9(3)<Speaker>Mona</Speaker>||:<color=#00CCFF>Don't do anything which would risk exposing yourself.</color>
+()<Speaker></Speaker>||:The three Dolls are unable to get any closer due to a lack of cover nearby. +All they can do is watch as Morridow is stuffed into the vehicle... +Mona opens the Aeneas conference room channel.
+SP9(0)<Speaker>Mona</Speaker>||<SE1>AVG_tele_connect</SE1>:Hailing Umbrella, this is Nitrogen. We've encountered the target, Morridow. +However, it looks like she's boarded a Paradeus truck and left. We cannot pursue further.
+SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>Umbrella copies. Don't push yourself. You just need to lock onto the tracking device.</color>
+SP9(0)<Speaker>Mona</Speaker>||:Roger.
+SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>Squad Ferrum is heading over to back you up.</color>
+SP9(0)<Speaker>Mona</Speaker>||:Roger, with heavy firepower we'll be able to—
+()<Speaker></Speaker>||:Mona suddenly stops speaking. Though she was only distracted for a moment by her conversation, she comes to an abrupt realization... The Nyto in white who was standing not too far ahead has just vanished in the blink of an eye.
+SP9(0)<Speaker>Mona</Speaker>||:...Where's Grig?
+QBZ191(0)<Speaker>No. 9</Speaker>||:Huh? I-I don't know... +Did she just vanish into thin—?!
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:Whum—
+()<Speaker></Speaker>||<BGM>10130</BGM><common_effect>%%code=CJ_zidan%%</common_effect><SE1>AVG_20Winter_Knife_Whoosh</SE1>:The humming sabre gleams coldly as it vibrates, and its piercing white radiance is already before them in an instant—
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:<size=50>Shing—!</size> +The Doll called No. 9 barely manages to protect her companions by parrying the blow.
+QBZ191(0)<Speaker>No. 9</Speaker>||:That sword's fast!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Their white-clad opponent now stands proud and alone in a high place, casually wiping her blade. +Instead of panicking, the Dolls have moved to cover with silent coordination, preparing to ply their trade.
+SP9(3)<Speaker>Mona</Speaker>||<SE1>AVG_weapon_reload</SE1>:Squad Nitrogen, prepare for battle!
+()||<黑点1>:
