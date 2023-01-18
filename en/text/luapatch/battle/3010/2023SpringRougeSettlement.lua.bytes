@@ -103,7 +103,7 @@ end
 function Exit()
 	isShown = true
 	CS.UnityEngine.Time.timeScale = 1
-	CS.BattleFrameManager.ResumeTime()
+
 	if CS.GF.Battle.BattleController.Instance.ifEnemyDie then
 		--print("recordTime")
 		local shortTime = CS.UnityEngine.PlayerPrefs.GetFloat("2023_Rouge_Time",-1)
@@ -114,7 +114,12 @@ function Exit()
 			CS.UnityEngine.PlayerPrefs.SetFloat("2023_Rouge_Time",currentTime)
 		end
 	end
-	CS.GF.Battle.BattleController.Instance:TriggerBattleFinishEvent()
+	--CS.GF.Battle.BattleController.Instance:TriggerBattleFinishEvent()
+	for i=CS.GF.Battle.BattleController.Instance.enemyTeamHolder.listCharacter.Count-1,0,-1 do
+		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
+		CS.GF.Battle.BattleController.Instance.enemyTeamHolder.listCharacter[i]:UpdateLife(DamageInfo, -999999)
+	end
+	CS.BattleFrameManager.ResumeTime()
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 end
 OnDestroy = function()
