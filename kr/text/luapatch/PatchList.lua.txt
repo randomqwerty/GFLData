@@ -231,7 +231,7 @@ patch3010={
 "3010/OPSSpineControl",	
 "3010/OPSPanelMissionHolder",
 "3010/OPSPanelMissionBase",	
-"3010/OPSPanelSpot",
+--"3010/OPSPanelSpot",
 "3010/OPSPanelBackGround",				
 "3010/SpecialMissionInfoController",	
 "3010/MissionSelectionOperationBarController",
@@ -298,7 +298,7 @@ patch3010={
 "3010/BattleCharacterController",
 "3010/FlightChessMapInfoItemCtrl",	
 "3010/BingoTaskController",
-"3010/RewardBoxController",		
+--"3010/RewardBoxController",		
 "3010/FetterStoryMilestone",
 }
 -- va11

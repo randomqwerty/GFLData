@@ -16,6 +16,7 @@ local barLength = 836
 local leaderSpine
 local txtScore,txtFever
 local spriteListResultScore,spriteListTime
+local imgGrade,spriteListGrade
 local _imgTime1,_imgTime2,_imgTime3,_imgTime4
 local _imgFeverGauge,_imgWarningBG
 local elementBestAreaWidth,elementBestAreaCenter
@@ -63,15 +64,16 @@ local totalTimer = 0
 local isAscend = false
 local isDescend = false
 local descendTimer = 0
+local feverClickTime =0
 Awake = function()
 	
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
 	config:InitData()
-
+	
 end
 Start = function()
 	local randomMember = math.random(1,7)
-
+	
 	self.transform:SetParent(CS.BattleUIController.Instance.transform:Find('UI'),false)
 	--初始化spine
 	leaderSpine = CS.UnityEngine.Object.Instantiate(CS.CommonController.GetSpinePrefab(spineCodeList[randomMember]))
@@ -89,9 +91,9 @@ Start = function()
 	spriteListTime = holderTimeNum:GetComponent(typeof(CS.UGUISpriteHolder))
 	
 	--初始化UI
-
+	
 	_imgFeverGauge = imgFeverBar:GetComponent(typeof(CS.ExImage))
-    _imgWarningBG = goWarningBG:GetComponent(typeof(CS.ExImage))
+	_imgWarningBG = goWarningBG:GetComponent(typeof(CS.ExImage))
 	spriteListResultScore = goResultScoreItem:GetComponent(typeof(CS.UGUISpriteHolder))
 	txtScore = textScore:GetComponent(typeof(CS.ExText))
 	txtFever = textFever:GetComponent(typeof(CS.ExText))
@@ -103,7 +105,7 @@ Start = function()
 		function()
 			OnFeverClickButton()
 		end)
-
+	
 	btnMusic:SetButtonPointerDownUpAction(
 		function(isUp,pos)
 			goMusicButtonPressed:SetActive(not isUp)
@@ -115,6 +117,9 @@ Start = function()
 				currentAscendSpeed = cursorAscendStartingSpd
 			else
 				currentDescendSpeed = cursorDescendStartingSpd
+			end
+			if isHoldingButton then
+				PlaySFX("music_click")
 			end
 			isAscend = isHoldingButton
 		end
@@ -147,6 +152,8 @@ Start = function()
 	imgAvatar:GetComponent(typeof(CS.ExImage)).sprite = imgAvatar:GetComponent(typeof(CS.UGUISpriteHolder)).listSprite[randomMember-1]
 	textAvatarName:GetComponent(typeof(CS.ExText)).text = GetName(nameList[randomMember]) 
 	totalTimer = totalTime
+	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
+	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
 end
 
 OnDestroy = function()
@@ -158,7 +165,7 @@ Update = function()
 	
 end
 function MainLoop()
-
+	
 	if not isFever then
 		currentFrame = currentFrame +CS.UnityEngine.Time.deltaTime
 		HandleCursorMove()
@@ -176,7 +183,7 @@ function MainLoop()
 	else
 		CountFeverTime()
 	end
-	if totalTimer > 0 then
+	if totalTimer > 0 and not isFever then
 		totalTimer = totalTimer - CS.UnityEngine.Time.deltaTime
 	end
 	UpdateRemainTime()
@@ -255,7 +262,7 @@ function CheckScore()
 	end
 end
 function MoveZone()
-
+	
 	
 	if #dictRangeInfo >= currentDictPos and currentDictPos >= 1 and  currentFrame > dictRangeInfo[currentDictPos].time then
 		currentDictPos =currentDictPos + 1		
@@ -276,7 +283,7 @@ function MoveZone()
 				currentZonePos = CS.Mathf.Lerp(lastZonePos,nextZonePos, currentTimer / currentTimeGap)
 			end
 		end
-
+		
 	end
 	if lastZoneWidth  ~= nextZoneWidth  then
 		if currentTimeGap <= 0 then
@@ -295,12 +302,14 @@ end
 function CheckFever()
 	if playerFeverValue >= feverGuageMax then
 		isFever = true
-		
+		PlaySFX("enterFever")
 		feverTimer = 0
-		_imgFeverGauge:DOFillAmount(0,feverDuration) 
+		CS.CommonAudioController.Instance.bgmSource:Pause(true)
+		
 		goFeverEffect:SetActive(true)
 		goFeverEffect2:SetActive(true)
 		goFeverHint:SetActive(true)
+		_imgFeverGauge:DOFillAmount(0,feverDuration) 
 	end
 end
 function CountFeverTime()
@@ -308,6 +317,7 @@ function CountFeverTime()
 		feverTimer = feverTimer + CS.UnityEngine.Time.deltaTime
 		if feverTimer >= feverDuration then
 			isFever = false
+			CS.CommonAudioController.Instance.bgmSource:Pause(false)
 			goFeverEffect:SetActive(false)
 			goFeverEffect2:SetActive(false)
 			goFeverHint:SetActive(false)
@@ -344,7 +354,7 @@ function GetPosValue(parameter,type)
 	else
 		return GetRecordValue(type)
 	end	
-
+	
 end
 function RecordValue(value,type)
 	if type == 1 then
@@ -405,19 +415,27 @@ function PauseGame(isPause)
 	if isUIPausing then
 		goPauseMenu:SetActive(true)
 		CS.UnityEngine.Time.timeScale = 0
+		CS.CommonAudioController.Instance.bgmSource:Pause(true)
 	else
 		goPauseMenu:SetActive(false)
 		CS.UnityEngine.Time.timeScale = 1
+		CS.CommonAudioController.Instance.bgmSource:Pause(false)
 	end
 end
 function OnFeverClickButton()
 	if isFever then
 		playerScore = playerScore + feverScore
 		UpdateScore(playerScore)
-
+		PlaySFX("fever_click")
+		feverClickTime = feverClickTime + 1
+	else
+		
 	end
 end
 function ExitGame()
+	if isUIPausing then
+		CS.CommonAudioController.Instance.bgmSource:Pause(false)
+	end
 	CS.UnityEngine.Time.timeScale = 1
 	CS.BattleFrameManager.ResumeTime()
 	CS.GF.Battle.BattleController.Instance:TriggerBattleFinishEvent(true)
@@ -427,17 +445,24 @@ end
 function ShowResult()
 	goResultScoreItem:SetActive(false)
 	goShow:SetActive(true)
+	local curGrade = 1
+	for i=1,4 do
+		if playerScore >= scoreRanking[i] then
+			curGrade = i
+		end
+	end
+	imgGrade.sprite = spriteListGrade.listSprite[curGrade-1]
 	if CS.GameData.userInfo ~= nil then
 		textResultName:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.name
 		textResultID:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.userId
 	end
 	textResultCombo:GetComponent(typeof(CS.ExText)).text = math.floor(bestMaintain)
-	textResultTime:GetComponent(typeof(CS.ExText)).text = totalTime
+	textResultTime:GetComponent(typeof(CS.ExText)).text = feverClickTime
 	local strScore = tostring(playerScore) 
 	for i=1,string.len(strScore) do
 		local num = tonumber(string.sub(strScore,i,i)) 
 		local scoreitem =CS.UnityEngine.Object.Instantiate(goResultScoreItem) 
-		scoreitem.transform:SetParent(transResultScore.transform,false)
+		scoreitem.transform:SetParent(goResultScoreItem.transform.parent,false)
 		scoreitem:SetActive(true)
 		scoreitem:GetComponent(typeof(CS.ExImage)).sprite = spriteListResultScore.listSprite[num]
 	end
@@ -479,4 +504,39 @@ function UpdateRemainTime()
 end
 function GetName(NameID)
 	return CS.Data.GetLang((NameID))
+end
+function PlaySFX(FXname)
+	--print(FXname)
+	if FXname == "right_click" then
+		CS.CommonAudioController.PlayBattle("Click_Correct")
+	end
+	if FXname == "wrong_click" then
+		CS.CommonAudioController.PlayBattle("Click_Incorrect")
+	end
+	if FXname == "fever_click" then
+		CS.CommonAudioController.PlayBattle("Click_Fever")
+	end
+	if FXname == "music_click" then
+		CS.CommonAudioController.PlayBattle("Click_MusicGame")
+	end
+	if FXname == "enterFever" then
+		CS.CommonAudioController.PlayBattle("UI_Fever")
+	end
+	if FXname == "moveSlow" then
+		CS.CommonAudioController.PlayBattle("FS_Slow_Loop")
+	end
+	if FXname == "moveQuick" then
+		CS.CommonAudioController.PlayBattle("FS_Fast_Loop")
+	end
+	if FXname == "pickBrick" then
+		CS.CommonAudioController.PlayBattle("UI_PickBrick")
+	end
+	if FXname == "truckHit" then
+		CS.CommonAudioController.PlayBattle("UI_TruckHit")
+	end
+	if FXname == "pickPower" then
+		CS.CommonAudioController.PlayBattle("UI_PickPower")
+	end
+	
+	
 end
