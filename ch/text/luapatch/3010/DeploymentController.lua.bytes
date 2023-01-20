@@ -173,6 +173,17 @@ local InitField = function(self)
 	self:InitField();
 	CS.DeploymentUIController.Instance.showall = true;
 end
+
+local CheckAbove = function()
+	CS.DeploymentController.TriggerSwitchAbovePanelEvent(false);
+end
+
+local CheckNext = function(self)
+	self:CheckNext();
+	if CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.SelfTurn then
+		CS.DeploymentController.AddAction(CheckAbove,4);
+	end
+end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -183,6 +194,7 @@ util.hotfix_ex(CS.DeploymentController,'TriggerRefreshUIEvent',TriggerRefreshUIE
 util.hotfix_ex(CS.DeploymentController,'RequestMoveTeamHandle',RequestMoveTeamHandle)
 util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
 util.hotfix_ex(CS.DeploymentController,'InitField',InitField)
+util.hotfix_ex(CS.DeploymentController,'CheckNext',CheckNext)
 
 
 

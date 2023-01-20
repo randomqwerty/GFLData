@@ -13,6 +13,7 @@ xlua.private_accessible(CS.GF.Battle.BattleConditionList)
 xlua.private_accessible(CS.GF.Battle.CharacterCondition)
 
 local character
+local characterData
 local playerFeverValue = -1
 local feverGuageMax
 local totalTimer = 0
@@ -20,8 +21,10 @@ local totalFailNum = 0
 local isUIPausing = false
 local haloObj
 local isShown = false
+local currentMovingSpd = 0
 
 local _imgTime1,_imgTime2,_imgTime3,_imgTime4,_imgFeverGauge,spriteListResultScore
+local imgGrade,spriteListGrade
 local txtFever,txtScore
 local spriteListTime
 local BattleController
@@ -100,6 +103,7 @@ Start = function()
 	if character == nil then
 		character = CS.BattleLuaUtility.GetCharacterByCode(spineCode)
 		character.gameObject.transform.localScale = CS.UnityEngine.Vector3(1.2,1.2,1)
+		characterData = CS.BattleLuaUtility.GetDataByCode(spineCode)
 	end
 	spriteListResultScore = goResultScoreItem:GetComponent(typeof(CS.UGUISpriteHolder))
 	feverGuageMax = energyMax
@@ -109,6 +113,7 @@ Start = function()
 	_imgTime3 = imgTimeNum3:GetComponent(typeof(CS.ExImage))
 	_imgTime4 = imgTimeNum4:GetComponent(typeof(CS.ExImage))
 	_imgFeverGauge = feverGuage:GetComponent(typeof(CS.ExImage))
+	
 	txtFever = feverNum:GetComponent(typeof(CS.ExText))
 	txtScore = scoreNum:GetComponent(typeof(CS.ExText))
 	spriteListTime = holderTimeNum:GetComponent(typeof(CS.UGUISpriteHolder))
@@ -140,7 +145,8 @@ Start = function()
 		end)
 	--CS.BattleScaler.InitScalerByMaxNum(0)
 	spine = character.listMember[0]
-	
+	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
+	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
 	CS.BattleFrameManager.Register(
 		function() 
 			MainLoop()
@@ -172,14 +178,14 @@ JoyStickMove = function(input)
 			dir = -1
 			spine:SetDirection(-1)
 		end		
-
+		
 	else
 		if dir <0 then
 			dir = 1
 			spine:SetDirection(1)
 		end
 	end
-
+	
 	
 	--print("原始速度:"..character.realtimeSpeed .." ".."最终速度:"..character.gun.speed * XPara * input.value)
 	local offset = CS.UnityEngine.Vector3(x, 0, y)
@@ -191,11 +197,12 @@ JoyStickBegin = function(input)
 	isMoving  = true
 	if not isStun then
 		spine:SetSpine(GetMoveCode(),dir)
+		
 	end	
 end
 
 JoyStickEnd = function(input)
-
+	
 	--print("End")
 	isMoving  = false
 	if not isStun then
@@ -212,8 +219,8 @@ Update = function()
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
-	totalTimer = totalTimer - CS.UnityEngine.Time.deltaTime
-	MainLoop()
+	
+	--MainLoop()
 	
 end
 function MainLoop()
@@ -241,7 +248,7 @@ function MainLoop()
 			DoStun()
 		end
 		if isFever then
-			feverTimer = feverTimer + CS.UnityEngine.Time.deltaTime
+			feverTimer = feverTimer + 0.033333
 			if feverTimer >= energyDuration then
 				isFever = false
 				character.conditionListSelf:RemoveNum(stunBuffIDLeft,999)
@@ -277,6 +284,13 @@ function MainLoop()
 		if stunTimer >= stunAnimFirstFrame + stunAnimSecondFrame then
 			StunFinish()
 		end
+		stunTimer = stunTimer + 1
+		if stunTimer == stunAnimFirstFrame then
+			spine:SetSpine("up", dir)
+		end
+		if stunTimer >= stunAnimFirstFrame + stunAnimSecondFrame then
+			StunFinish()
+		end
 	end
 	if math.floor(totalTimer) <= 0 then
 		ShowResult()
@@ -287,7 +301,7 @@ function UpdateBuff()
 	if currentHoldingBrickNum > lastFrameHoldingBrickNum then
 		PlaySFX("pickBrick")
 	end
-
+	
 	stunBuffNum = character.conditionListSelf:GetTierByID(stunBuffIDLeft)
 	if stunBuffNum == 0 then
 		stunBuffNum = -character.conditionListSelf:GetTierByID(stunBuffIDRight)	
@@ -295,6 +309,23 @@ function UpdateBuff()
 	currentEnergyCount = character.conditionListSelf:GetTierByID(energyBuffID)
 end
 function GetMoveCode()
+	
+	local lastSpd = currentMovingSpd
+	if currentHoldingBrickNum > 3 then
+		currentMovingSpd = 2
+	else
+		currentMovingSpd = 1
+	end
+	if lastSpd ~= currentMovingSpd then
+		if currentMovingSpd ==  2 then
+			--PlaySFX("stopcook")
+			PlaySFX("moveSlow")
+		else
+			--PlaySFX("stopcook")
+			PlaySFX("moveQuick")
+		end
+		
+	end
 	if currentHoldingBrickNum == 0 then
 		return "move"
 	end
@@ -316,43 +347,47 @@ function GetMoveCode()
 	return""
 end
 function GetStunCode()
-		if currentHoldingBrickNum == 1 then
-			return "Down1"
-		end
-		if currentHoldingBrickNum == 2 then
-			return "Down2"
-		end
-		if currentHoldingBrickNum == 3 then
-			return "Down3"
-		end
-		if currentHoldingBrickNum == 4 then
-			return "Down4"
-		end
-		if currentHoldingBrickNum == 5 then
-			return "Down5"
-		end
-		return"Down0"
+	PlaySFX("stopcook")
+	currentMovingSpd = 0
+	if currentHoldingBrickNum == 1 then
+		return "Down1"
+	end
+	if currentHoldingBrickNum == 2 then
+		return "Down2"
+	end
+	if currentHoldingBrickNum == 3 then
+		return "Down3"
+	end
+	if currentHoldingBrickNum == 4 then
+		return "Down4"
+	end
+	if currentHoldingBrickNum == 5 then
+		return "Down5"
+	end
+	return"Down0"
 end
 function GetWaitCode()
-		if currentHoldingBrickNum == 0 then
-			return "spwait0"
-		end
-		if currentHoldingBrickNum == 1 then
-			return "spwait1"
-		end
-		if currentHoldingBrickNum == 2 then
-			return "spwait2"
-		end
-		if currentHoldingBrickNum == 3 then
-			return "spwait3"
-		end
-		if currentHoldingBrickNum == 4 then
-			return "spwait4"
-		end
-		if currentHoldingBrickNum == 5 then
-			return "spwait5"
-		end
-		return""
+	PlaySFX("stopcook")
+	currentMovingSpd = 0
+	if currentHoldingBrickNum == 0 then
+		return "spwait0"
+	end
+	if currentHoldingBrickNum == 1 then
+		return "spwait1"
+	end
+	if currentHoldingBrickNum == 2 then
+		return "spwait2"
+	end
+	if currentHoldingBrickNum == 3 then
+		return "spwait3"
+	end
+	if currentHoldingBrickNum == 4 then
+		return "spwait4"
+	end
+	if currentHoldingBrickNum == 5 then
+		return "spwait5"
+	end
+	return""
 end
 function DoStun()
 	--播放倒地动作
@@ -436,6 +471,13 @@ function ShowResult()
 	isShown = true
 	goResultScoreItem:SetActive(false)
 	goShow:SetActive(true)
+	local curGrade = 1
+	for i=1,4 do
+		if playerScore >= scoreRanking[i] then
+			curGrade = i
+		end
+	end
+	imgGrade.sprite = spriteListGrade.listSprite[curGrade-1]
 	if CS.GameData.userInfo ~= nil then
 		textResultName:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.name
 		textResultID:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.userId
@@ -464,10 +506,11 @@ function EndGame()
 		CS.GF.Battle.BattleController.Instance:RequestBattleFinish(true)
 	end
 	CS.BattleFrameManager.ResumeTime()
-	CS.UnityEngine.Object.Destroy(GoResult)
+	CS.UnityEngine.Object.Destroy(goShow)
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 end
 function UpdateRemainTime()
+	totalTimer = totalTime - CS.BattleFrameManager.Instance:GetCurBattleTime()
 	local timeValue = math.floor(totalTimer)
 	if timeValue <0 then
 		timeValue = 0
@@ -499,7 +542,8 @@ function CheckFever()
 		--goFeverEffect:SetActive(true)
 		--goFeverEffect2:SetActive(true)
 		--goFeverHint:SetActive(true)
-		_imgFeverGauge:DOFillAmount(0,energyDuration) 
+		_imgFeverGauge:DOFillAmount(0,energyDuration-0.1) 
+		CS.GF.Battle.SkillUtils.GenBuffViaSkillConfig(characterData,11952601)
 	end
 end
 function PlaySFX(FXname)
@@ -534,6 +578,8 @@ function PlaySFX(FXname)
 	if FXname == "pickPower" then
 		CS.CommonAudioController.PlayBattle("UI_PickPower")
 	end
-	
+	if FXname == "stopcook" then
+		CS.CommonAudioController.PlayBattle("Stop_Battle_loop")
+	end
 	
 end
