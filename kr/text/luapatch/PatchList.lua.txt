@@ -270,7 +270,7 @@ patch3010={
 "3010/GunStateRelatedStoryController",
 "3010/DeploymentCampaignExplain",		
 "3010/TheaterBattleTeamSelectionUIController",
-"3010/GCloseController",
+--"3010/GCloseController",
 "3010/ResearchUnlockSlotController",
 "3010/DormController",
 "3010/MiniGameFlightChessSelectCardController",
@@ -300,6 +300,9 @@ patch3010={
 "3010/BingoTaskController",
 --"3010/RewardBoxController",		
 "3010/FetterStoryMilestone",
+"3010/MissionSelectionOperationTeamInfoController",
+"3010/BattleUIDefenseTrialResultController",
+"3010/BattleSLGModeController",
 }
 -- va11
 print("load Va11");

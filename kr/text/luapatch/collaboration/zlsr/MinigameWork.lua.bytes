@@ -506,7 +506,7 @@ function EndGame()
 		CS.GF.Battle.BattleController.Instance:RequestBattleFinish(true)
 	end
 	CS.BattleFrameManager.ResumeTime()
-	CS.UnityEngine.Object.Destroy(GoResult)
+	CS.UnityEngine.Object.Destroy(goShow)
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 end
 function UpdateRemainTime()
