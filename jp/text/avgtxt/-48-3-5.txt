@@ -1,77 +1,77 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:（ササッ……ササッ……）
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:（ギィ）――ひっそりとドアが開かれ、二人はこそこそと部屋に入った。
-()<Speaker>ナイラ</Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:誰もいないよね？
+()<Speaker>ネーレ</Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:誰もいないよね？
 ()<Speaker>ミア</Speaker>||:安心して、連中はもういないって確認したから。+こういうニュースは何日かすればほとぼりが冷める。
 ()<Speaker></Speaker>||<BIN>129</BIN><SE1>AVG_tele_disconnect</SE1>:スイッチを押すと、部屋に明かりがついた。
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:ふぅ～、やっぱり自分の家が一番いい！
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:ふぅ～、やっぱり自分の家が一番いい！
 APC556(2)<Speaker>ミア</Speaker><Position>0,120</Position>||:明日、やっぱり研究所に行くの？
-NPC-Nele(1)<Speaker>ナイラ</Speaker>||:当然よ！　せっかくまた行けるようになったんだから！//nまぁみんな退職の手続きしているだけだろうけど……
+NPC-Nele(1)<Speaker>ネーレ</Speaker>||:当然よ！　せっかくまた行けるようになったんだから！//nまぁみんな退職の手続きしているだけだろうけど……
 APC556(2)<Speaker>ミア</Speaker><Position>0,120</Position>||:分かった、部屋の中を片付けてくる。あのエージェントに連絡するんなら、//nさっさと済ませて。明日も朝早いから。
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:はーい。
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:はーい。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>129</BIN><黑屏2><BGM>BGM_Room</BGM><SE1>AVG_tele_connect</SE1>:（ピッ）――通信を繋ぐと、向こうから気怠い声が聞こえてきた。
 NPC-Keven(0)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>なんかいい知らせか？</color>
-NPC-Keven(0);NPC-Nele(0)<Speaker>ナイラ</Speaker>||:……お知らせはあるんですけど、いいかどうかはあなたが判断してください。+まずは貨物車のことだけど、あの車は確かにガラテアグループのものでした。//nでもそういう車はいっぱいあるし、毎回たくさん来るから、//n今月の記録だけでも、数百ページあります。
+NPC-Keven(0);NPC-Nele(0)<Speaker>ネーレ</Speaker>||:……お知らせはあるんですけど、いいかどうかはあなたが判断してください。+まずは貨物車のことだけど、あの車は確かにガラテアグループのものでした。//nでもそういう車はいっぱいあるし、毎回たくさん来るから、//n今月の記録だけでも、数百ページあります。
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(0)||:<color=#00CCFF>その記録で確認できる情報は？</color>
-NPC-Keven(0);NPC-Nele(0)<Speaker>ナイラ</Speaker>||:私の権限で見れるのは、名前とか、どの倉庫に行ったのかとか、//n日付とかの大まかな情報だけ。+それに私の権限では、検索機能が使えません。
+NPC-Keven(0);NPC-Nele(0)<Speaker>ネーレ</Speaker>||:私の権限で見れるのは、名前とか、どの倉庫に行ったのかとか、//n日付とかの大まかな情報だけ。+それに私の権限では、検索機能が使えません。
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(0)||:<color=#00CCFF>名前と言えば、こっちからも追加の情報がある。</color>+<color=#00CCFF>ウムルス、って依頼人がいるはずだ。</color>
-NPC-Keven(0);NPC-Nele(2)<Speaker>ナイラ</Speaker>||:……+あなたたちには技術部もありますよね？+私の権限を引き上げてくれないかしら？
+NPC-Keven(0);NPC-Nele(2)<Speaker>ネーレ</Speaker>||:……+あなたたちには技術部もありますよね？+私の権限を引き上げてくれないかしら？
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(2)||:<color=#00CCFF>そんなことできたら、もうとっくにおたくらのデータベースを//nハッキングしてるぜ。</color>+<color=#00CCFF>そういうのはどうしても痕跡が残るからやらないんだよ、お嬢ちゃん。</color>
-NPC-Keven(0);NPC-Nele(1)<Speaker>ナイラ</Speaker>||:分かりました、じゃあまた何とかしてみる。
+NPC-Keven(0);NPC-Nele(1)<Speaker>ネーレ</Speaker>||:分かりました、じゃあまた何とかしてみる。
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>グレイ小学校には一年生しかいないのか？</color>+<color=#00CCFF>もっとほら、他に先輩とかいるんじゃないの？</color>
-NPC-Keven(0);NPC-Nele(2)<Speaker>ナイラ</Speaker>||:えっと、他人の権限でやれ、ってこと……？
+NPC-Keven(0);NPC-Nele(2)<Speaker>ネーレ</Speaker>||:えっと、他人の権限でやれ、ってこと……？
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(2)||:<color=#00CCFF>いや、オレはそんなこと言ってないぞ。</color>
-NPC-Keven(0);NPC-Nele(3)<Speaker>ナイラ</Speaker>||:……まぁ、そうね、あなたは何も言っていない。
+NPC-Keven(0);NPC-Nele(3)<Speaker>ネーレ</Speaker>||:……まぁ、そうね、あなたは何も言っていない。
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(3)||:<color=#00CCFF>例の洋館は？</color>
-NPC-Keven(0);NPC-Nele(1)<Speaker>ナイラ</Speaker>||:同じく、私に権限はありません。
+NPC-Keven(0);NPC-Nele(1)<Speaker>ネーレ</Speaker>||:同じく、私に権限はありません。
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>……そっか。さすがに何でもかんでも頼るわけにはいかねぇな。</color>
-NPC-Keven(0);NPC-Nele(1)<Speaker>ナイラ</Speaker>||:……それでも何とかしますよ。
+NPC-Keven(0);NPC-Nele(1)<Speaker>ネーレ</Speaker>||:……それでも何とかしますよ。
 NPC-Keven(0)<Speaker>J</Speaker>;NPC-Nele(1)||:<color=#00CCFF>口では何とでも言える。</color>+<color=#00CCFF>さて、こっちにはまだ用事がある。また今度な。</color>
-NPC-Nele(1)<Speaker>ナイラ</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……
+NPC-Nele(1)<Speaker>ネーレ</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……
 ()<Speaker></Speaker>||:通信を切ると、ネーレはため息をついた。
 APC556(2)<Speaker>ミア</Speaker><Position>0,120</Position>||:ネーレ、あなたは研究員であって、スパイじゃない。
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:これは自分でやるって決めたことなの！+はぁ……明日また調べに行ってみるわ。
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:これは自分でやるって決めたことなの！+はぁ……明日また調べに行ってみるわ。
 ()<Speaker></Speaker>||:……
 ()||<黑屏1>:
 APC556(5)<Speaker>ミア</Speaker><通讯框>||<BGM>BGM_Empty</BGM><黑屏2><BIN>325</BIN><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>無理しないで、あなたは普通の女の子だから。</color>
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:大丈夫よミア、ちゃんと分かってるから。
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:大丈夫よミア、ちゃんと分かってるから。
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ミアに心配そうに見られながら、ネーレは通信機をしまって、コートを着た。
 ()<Speaker></Speaker>||<BGM>BGM_Brain</BGM>:……
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||:やっほ～、エケジー先輩。
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||:やっほ～、エケジー先輩。
 ()<Speaker>エケジー</Speaker>||:……ネーレ？　なんで来たの？
 ()<Speaker></Speaker>||:ちょうど出てきた研究員が、研究室に入ろうとするネーレを見て、//n不思議な表情を浮かべた。
 ()<Speaker>エケジー</Speaker>||:てっきり君はもう……
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||:ちょっと私物を取りに来ただけです。
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||:ちょっと私物を取りに来ただけです。
 ()<Speaker>エケジー</Speaker>||:そうか……+今日エイフソン教授の引継ぎが終わった。//n後でみんなで退職祝いパーティーをするつもりだ。//nサラやメラニーも来る、君も来るか？
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||:あ――はい、行きますよ。
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||:あ――はい、行きますよ。
 ()<Speaker>エケジー</Speaker>||:じゃ、明かりがまだついてるから、最後の戸締りを頼むよ。+休憩室で待ってる。
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||:分かりました。
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||:分かりました。
 ()<Speaker></Speaker>||:笑ってエケジーを見送ると、ネーレは自分のパソコンの前に座った。
 ()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:グレイバイオテクノロジー研究所データベース、ログイン――+「ウムルス」――検索……
-NPC-Nele(6)<Speaker>ナイラ</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:えっ、一個だけ記録がある！
+NPC-Nele(6)<Speaker>ネーレ</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:えっ、一個だけ記録がある！
 ()<Speaker></Speaker>||:その名前の下にある赤いマークは、極めて高い機密であることを意味している。
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||<SE1>ClothingUp</SE1>:エイフソン教授のカードでよかった……+ふぅ、次は――
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||<SE1>ClothingUp</SE1>:エイフソン教授のカードでよかった……+ふぅ、次は――
 ()<Speaker></Speaker>||:グレイ――かつて自分の人生を照らしてくれた先生の名前。
-NPC-Nele(7)<Speaker>ナイラ</Speaker>||:先生、あなたは私にとって、道の先を照らしてくれた光そのものです。+もしあなたが潔白なら、誰もあなたのことを貶めることはできません。
-NPC-Nele(6)<Speaker>ナイラ</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:13、14、15……+見つけた！
+NPC-Nele(7)<Speaker>ネーレ</Speaker>||:先生、あなたは私にとって、道の先を照らしてくれた光そのものです。+もしあなたが潔白なら、誰もあなたのことを貶めることはできません。
+NPC-Nele(6)<Speaker>ネーレ</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:13、14、15……+見つけた！
 ()<Speaker></Speaker>||:人事異動、会議記録、スケジュール――
 ()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:ネーレの心臓がバクバクと跳ね始めた。
-NPC-Nele(6)<Speaker>ナイラ</Speaker>||:……課題整頓会議……5月22日？+私が入る前の記録みたい……
+NPC-Nele(6)<Speaker>ネーレ</Speaker>||:……課題整頓会議……5月22日？+私が入る前の記録みたい……
 ()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:（ドンドンドン）
-NPC-Nele(7)<Speaker>ナイラ</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:――！
+NPC-Nele(7)<Speaker>ネーレ</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:――！
 ()<Speaker>エケジー</Speaker>||:マフラーを忘れてたよ。+ああそうだ、あの二人がもう着いたみたいから、早くしてよ。
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||:……はーい！　あと5分で。
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||:……はーい！　あと5分で。
 ()<Speaker></Speaker>||:何事もなかったように、ネーレはデータベースのウィンドウを最小化し、//n立ち上がって、笑って返事をした。
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:エケジーは自分の忘れ物を取り、また研究室を出た。
-NPC-Nele(5)<Speaker>ナイラ</Speaker>||:ふぅ……ビックリした。
+NPC-Nele(5)<Speaker>ネーレ</Speaker>||:ふぅ……ビックリした。
 ()<Speaker></Speaker>||:再びウィンドウを開くと、グレイの意気揚々とした顔写真があった。+そしてネーレの手が再び震え出す。
-NPC-Nele(6)<Speaker>ナイラ</Speaker>||:あっ！　先生はあの日研究室にいなかった！+車両の使用記録――い、行先は……新テンペルホーフ区……
+NPC-Nele(6)<Speaker>ネーレ</Speaker>||:あっ！　先生はあの日研究室にいなかった！+車両の使用記録――い、行先は……新テンペルホーフ区……
 ()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:（ドンドンドン）+――またドアをノックする音が聞こえてきた。
 ()<Speaker>エケジー</Speaker>||:ネーレ！　まだか？　みんな来たぞ！
-NPC-Nele(6)<Speaker>ナイラ</Speaker>||:は、はーい！　今行きます！
+NPC-Nele(6)<Speaker>ネーレ</Speaker>||:は、はーい！　今行きます！
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ひっそりとパソコンの記録を消し、ネーレは「借りてきた」カードを//n元の持ち主に返し、休憩室の方に足を運んだ。
-NPC-Nele(4)<Speaker>ナイラ</Speaker>||:行きましょう！
+NPC-Nele(4)<Speaker>ネーレ</Speaker>||:行きましょう！
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>80</BIN><BGM>GF_21winter_avg_nightbar</BGM>:……
 ()<Speaker></Speaker>||:店のウェイターが、ソーセージの盛り合わせとビールを持ってきた。
@@ -83,36 +83,36 @@ NPC-Nele(4)<Speaker>ナイラ</Speaker>||:行きましょう！
 ()<Speaker>サラ</Speaker>||:それは、教授にいくら払っても、おつりがくるようなものですから。+今業界で研究資料を持っているのは、我々だけですし。
 ()<Speaker>エイフソン</Speaker>||:まぁ、動物実験と人体実験では、かなりの差が出るからな。
 ()<Speaker>エケジー</Speaker>||:やっぱり、一番すごい科学者はいつもマッドサイエンティスト、//nってやつですか。
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:研究資料って、イズンのですか？+E.L.I.D関連のプロジェクトは、色んな会社がやっているって聞きましたけど。
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:研究資料って、イズンのですか？+E.L.I.D関連のプロジェクトは、色んな会社がやっているって聞きましたけど。
 ()<Speaker>エイフソン</Speaker>||:それでも、グレイの研究は群を抜いてるよ。+似たようなプロジェクトをやりたいやつはいくらでもいるし、//nすでに研究を進めているところもたくさんある。+しかし、ここまで進められたのはグレイだけだ。+少なくとも、我々はすでに研究の90%をクリアしている。
-NPC-Nele(1)<Speaker>ナイラ</Speaker>||:そうですね、もう残りは臨床実験だけなのに……//nなんで脳死なんかが起きたんだろう？//n薬の検査には問題がなくてよかったけど。
+NPC-Nele(1)<Speaker>ネーレ</Speaker>||:そうですね、もう残りは臨床実験だけなのに……//nなんで脳死なんかが起きたんだろう？//n薬の検査には問題がなくてよかったけど。
 ()<Speaker>エイフソン</Speaker>||<BGM>BGM_Empty</BGM>:……
 ()<Speaker>エケジー</Speaker>||:……
 ()<Speaker>メラニー</Speaker>||:……
 ()<Speaker>サラ</Speaker>||:……
-NPC-Nele(2)<Speaker>ナイラ</Speaker>||<BGM>BGM_Truth</BGM>:え？　な、なに……みんなどうしたんですか？
+NPC-Nele(2)<Speaker>ネーレ</Speaker>||<BGM>BGM_Truth</BGM>:え？　な、なに……みんなどうしたんですか？
 ()<Speaker>エケジー</Speaker>||:知らなかったのか？+ニュース見て、てっきり君が誰かに薬を盗まれたんだって思ってたけど。まさか知らなかったのか？
-NPC-Nele(2)<Speaker>ナイラ</Speaker>||:……な、なにを知っていなければいけなかったんですか？
+NPC-Nele(2)<Speaker>ネーレ</Speaker>||:……な、なにを知っていなければいけなかったんですか？
 ()<Speaker>エケジー</Speaker>||:……あの薬は外で使っちゃダメなんだよ。
 ()<Speaker></Speaker>||:ネーレはグラスを置き、思わず緊張し始めた。
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:なぜですか？
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:なぜですか？
 ()<Speaker>サラ</Speaker>||:え……？　知らなかったのか……//nえっと、ここは教えるべきですか……？
 ()<Speaker>メラニー</Speaker>||:でもこれは入社前から決まってたことだし。//nそんなことも知らずに、どうやって入ったの？
-NPC-Nele(1)<Speaker>ナイラ</Speaker>||:……
-NPC-Nele(3)<Speaker>ナイラ</Speaker>||:（ちゃんと訊かないと……）
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:そういえば、何か守秘義務みたいな契約があったけど、//nあんまり詳しく読んでなくて。
+NPC-Nele(1)<Speaker>ネーレ</Speaker>||:……
+NPC-Nele(3)<Speaker>ネーレ</Speaker>||:（ちゃんと訊かないと……）
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:そういえば、何か守秘義務みたいな契約があったけど、//nあんまり詳しく読んでなくて。
 ()<Speaker></Speaker>||:心臓の鼓動がどんどん速くなる……おそらく、ここですべての真相が分かる――
 ()<Speaker>メラニー</Speaker>||:ほら、だから知らない方がおかしいって言ったのに。+今度からはちゃんと契約書を読んでからサインするのよ！
-NPC-Nele(0)<Speaker>ナイラ</Speaker>||:えっと、申し訳ありません……+で、その中身はどういう内容でしたか？
+NPC-Nele(0)<Speaker>ネーレ</Speaker>||:えっと、申し訳ありません……+で、その中身はどういう内容でしたか？
 ()<Speaker>エイフソン</Speaker>||:研究の方向性のことさ。我々の研究は治療ではなく、選別することなんだ。+人体の免疫細胞を利用して、最適な抗体を選び出すことを目的としている。
-NPC-Nele(3)<Speaker>ナイラ</Speaker>||:そんなの殺人じゃないですか！？
+NPC-Nele(3)<Speaker>ネーレ</Speaker>||:そんなの殺人じゃないですか！？
 ()<Speaker></Speaker>||:ネーレはつい大声を上げてしまった。
 ()<Speaker>サラ</Speaker>||:人助けだよ。+ネーレ、これは人助けだ。
 ()<Speaker>メラニー</Speaker>||:そもそもE.L.I.Dに完璧な治療手段はないの、//nそれぐらいあなたも知ってるでしょ？
-NPC-Nele(3)<Speaker>ナイラ</Speaker>||:だから「イズン」はみんなにとっての希望なんじゃないですか！
+NPC-Nele(3)<Speaker>ネーレ</Speaker>||:だから「イズン」はみんなにとっての希望なんじゃないですか！
 ()<Speaker>エイフソン</Speaker>||:あまいな。+大量の実験を経て免疫体を見つけ出し、//nその血清を複製することしか、有効な治療手段はない。
-NPC-Nele(1)<Speaker>ナイラ</Speaker>||:……+どうりで政府から許可が下りないわけ……//nこの研究のこと、政府は知ってるんですよね？
+NPC-Nele(1)<Speaker>ネーレ</Speaker>||:……+どうりで政府から許可が下りないわけ……//nこの研究のこと、政府は知ってるんですよね？
 ()<Speaker>エイフソン</Speaker>||:もちろんだよ。「イズン」の発表なんて、最初から金集めのためだけなんだ、//n本当に発売されることなんてない。+でもそれを公表したからこそ、研究資金を集められた。+グレイから聞いていなかったのか……+まさかなにも知らないなんて、//n君は一体、どうやってこの研究室に入ってきたんだ？
-NPC-Nele(3)<Speaker>ナイラ</Speaker>||:……+そんなの私が一番知りたいです！
+NPC-Nele(3)<Speaker>ネーレ</Speaker>||:……+そんなの私が一番知りたいです！
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:バッグを取ると、ネーレはレストランの貸し切りスペースから飛び出した。//n中に、怪訝な表情をする者たちを残して。
 ()||<黑屏1>:

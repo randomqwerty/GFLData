@@ -29,6 +29,12 @@ local CreateBackground = function(self,name)
 	end
 	
 end
-
+local CheckIsSLGMode = function(self)
+	if CS.GameData.engagedSpot ~= nil and CS.GameData.engagedSpot.enemyTeamId >= 513701 and CS.GameData.engagedSpot.enemyTeamId <= 513704 then	
+		return true
+	end
+	return false
+end
 util.hotfix_ex(CS.GF.Battle.BattleController,'GetDayNight',GetDayNight)
 util.hotfix_ex(CS.GF.Battle.BattleController,'CreateBackground',CreateBackground)
+util.hotfix_ex(CS.GF.Battle.BattleController,'CheckIsSLGMode',CheckIsSLGMode)
