@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentPlanModeController)
+xlua.private_accessible(CS.DeploymentPlanModeController.Plan)
 --修正计划移动线层级
 local CheckData = function(self)
 	self:CheckData();
@@ -34,12 +35,34 @@ local _CancelPlan = function(self)
 			self:_CancelPlan();
 		end
 	end
+	self:StopAllCoroutines();
 end
 
+
+local DequeueAndPlay = function(self)
+	if CS.DeploymentController.Instance ~= nil then
+		if CS.DeploymentController.Instance._randomEventController ~= nil then
+			self:DequeueAndPlay();
+			return;
+		end
+	end
+	if CS.GameData.engagedSpot ~= nil then
+		return;
+	end
+	self:DequeueAndPlay();
+end
+local Play = function(self)
+	if CS.GameData.engagedSpot ~= nil then
+		return;
+	end
+	self:Play();
+end
 --util.hotfix_ex(CS.DeploymentPlanModeController,'CheckData',CheckData)
 --util.hotfix_ex(CS.DeploymentPlanModeController,'OnClickFastSelect',OnClickFastSelect)
 --util.hotfix_ex(CS.DeploymentPlanModeController,'StartPlan',StartPlan)
 util.hotfix_ex(CS.DeploymentPlanModeController,'_CancelPlan',_CancelPlan)
-
+util.hotfix_ex(CS.DeploymentPlanModeController,'DequeueAndPlay',DequeueAndPlay)
+util.hotfix_ex(CS.DeploymentPlanModeController,'Play',Play)
+--util.hotfix_ex(CS.DeploymentPlanModeController.Plan,'Play',Play)
 
 

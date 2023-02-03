@@ -177,6 +177,27 @@ local CheckCanUseBuild = function(self,team)
 		end
 	end
 end
+
+local RefreshItemUI = function(self)
+	self:RefreshItemUI();
+	if self.config == nil then
+		return;
+	end
+	if self.itemObj ~= nil then
+		for i=0,self.config.showItemIds.Count -1 do
+			local itemid = self.config.showItemIds[i];
+			local num = CS.GameData.GetItem(itemid);
+			local child = self.itemObj.transform:GetChild(0):GetChild(i);
+			local numText = child:Find("Tex_Num"):GetComponent(typeof(CS.ExText));
+			if num > 99 then
+				numText.text = "<color=#000000FF>"..num.."</color>";
+				if num > 99999 then
+					numText.text = "<color=#000000FF>99999+</color>";
+				end
+			end
+		end
+	end
+end
 util.hotfix_ex(CS.DeploymentUIController,'Awake',Awake)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshText',RefreshText)
 util.hotfix_ex(CS.DeploymentUIController,'ShowLeftBuildSkillUI',ShowLeftBuildSkillUI)
@@ -185,6 +206,6 @@ util.hotfix_ex(CS.DeploymentUIController,'OnSelectTeamSkillUI',OnSelectTeamSkill
 util.hotfix_ex(CS.DeploymentUIController,'ShowBuildSkill',ShowBuildSkill)
 util.hotfix_ex(CS.DeploymentController,'TriggerMoveTeamEvent',TriggerMoveTeamEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckCanUseBuild',CheckCanUseBuild)
-
+util.hotfix_ex(CS.DeploymentUIController,'RefreshItemUI',RefreshItemUI)
 
 
