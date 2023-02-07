@@ -65,6 +65,7 @@ local isAscend = false
 local isDescend = false
 local descendTimer = 0
 local feverClickTime =0
+local effectShow = false
 Awake = function()
 	
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
@@ -119,7 +120,7 @@ Start = function()
 				currentDescendSpeed = cursorDescendStartingSpd
 			end
 			if isHoldingButton then
-				PlaySFX("music_click")
+				PlaySFX("music_click")				
 			end
 			isAscend = isHoldingButton
 		end
@@ -147,7 +148,7 @@ Start = function()
 	CS.BattleFrameManager.StopTime(true,9999999)
 	CS.BattleUIController.Instance.transform:Find('DynamicCanvas').gameObject:SetActive(false)
 	SetCursorPosition(cursorStartingPos)
-	SetZonePosition(GetPosValue(startingRangePos,1),GetPosValue(startingRangeWidth,1))
+	SetZonePosition(GetPosValue(startingRangePos,1),GetPosValue(startingRangeWidth,0))
 	--StartRound()
 	imgAvatar:GetComponent(typeof(CS.ExImage)).sprite = imgAvatar:GetComponent(typeof(CS.UGUISpriteHolder)).listSprite[randomMember-1]
 	textAvatarName:GetComponent(typeof(CS.ExText)).text = GetName(nameList[randomMember]) 
@@ -167,6 +168,7 @@ end
 function MainLoop()
 	
 	if not isFever then
+		
 		currentFrame = currentFrame +CS.UnityEngine.Time.deltaTime
 		HandleCursorMove()
 		CheckScore()
@@ -302,6 +304,7 @@ end
 function CheckFever()
 	if playerFeverValue >= feverGuageMax then
 		isFever = true
+		effectShow = false
 		PlaySFX("enterFever")
 		feverTimer = 0
 		CS.CommonAudioController.Instance.bgmSource:Pause(true)
@@ -330,8 +333,14 @@ function SetMoveZoneParameter()
 		lastZonePos = currentZonePos
 		lastZoneWidth = currentZoneWidth
 		currentTimer = 0
-		nextZonePos = GetPosValue(dictRangeInfo[currentDictPos].pos) 
-		nextZoneWidth = GetPosValue(dictRangeInfo[currentDictPos].width) 
+		nextZoneWidth = GetPosValue(dictRangeInfo[currentDictPos].width,0) 
+		nextZonePos = GetPosValue(dictRangeInfo[currentDictPos].pos,1) 
+		if nextZonePos < nextZoneWidth /2 then
+			nextZonePos = nextZoneWidth /2
+		end
+		if nextZonePos > 1 - nextZoneWidth /2 then
+			nextZonePos = 1 - nextZoneWidth /2
+		end
 		EasingFunction = CS.GF.Battle.SkillUtils.GetEasingFunction(dictRangeInfo[currentDictPos].easeType)
 		currentTimeGap = dictRangeInfo[currentDictPos].time - currentFrame
 	else
@@ -345,6 +354,7 @@ function GetPosValue(parameter,type)
 		value = parameter[1] 
 	end
 	if #parameter == 2 then
+		
 		value = math.random(parameter[1]*1000,parameter[2]*1000)/1000
 	end
 	
@@ -428,6 +438,11 @@ function OnFeverClickButton()
 		UpdateScore(playerScore)
 		PlaySFX("fever_click")
 		feverClickTime = feverClickTime + 1
+		effectShow = not effectShow 
+		if effectShow then
+			local feverPerfectEffect = CS.UnityEngine.Object.Instantiate(effectPerfect,effectPerfect.transform.parent)
+			feverPerfectEffect:SetActive(true)
+		end
 	else
 		
 	end

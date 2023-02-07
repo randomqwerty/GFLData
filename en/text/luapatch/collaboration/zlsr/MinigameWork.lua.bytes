@@ -219,7 +219,7 @@ Update = function()
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
-	
+
 	--MainLoop()
 	
 end
@@ -273,7 +273,7 @@ function MainLoop()
 				end
 				playerScore = playerScore + (addBrickNum * brickScore) +extraBrickScore[addBrickNum]
 				brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
-				UpdateScore()
+				UpdateScoreAnim()
 			end
 		end
 	else -- 
@@ -434,7 +434,7 @@ function UpdateFever(feverCount)
 		playerFeverValue = 0
 	end
 	local feverpercent = playerFeverValue / feverGuageMax
-	_imgFeverGauge:DOFillAmount(feverpercent,0.01) 
+	_imgFeverGauge:DOFillAmount(feverpercent,0.15) 
 	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMax
 	
 end
@@ -531,6 +531,9 @@ function UpdateRemainTime()
 end
 function UpdateScore()
 	txtScore.text = string.format("%05d",playerScore) 
+end
+function UpdateScoreAnim()
+	txtScore:DOText(string.format("%05d",playerScore)  ,0.5,true,CS.DG.Tweening.ScrambleMode.Numerals)
 end
 function CheckFever()
 	if not isFever and playerFeverValue >= feverGuageMax then

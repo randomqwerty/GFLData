@@ -180,6 +180,9 @@ end
 
 local RefreshItemUI = function(self)
 	self:RefreshItemUI();
+	if self.config == nil then
+		return;
+	end
 	if self.itemObj ~= nil then
 		for i=0,self.config.showItemIds.Count -1 do
 			local itemid = self.config.showItemIds[i];
@@ -203,6 +206,6 @@ util.hotfix_ex(CS.DeploymentUIController,'OnSelectTeamSkillUI',OnSelectTeamSkill
 util.hotfix_ex(CS.DeploymentUIController,'ShowBuildSkill',ShowBuildSkill)
 util.hotfix_ex(CS.DeploymentController,'TriggerMoveTeamEvent',TriggerMoveTeamEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckCanUseBuild',CheckCanUseBuild)
-util.hotfix_ex(CS.DeploymentController,'RefreshItemUI',RefreshItemUI)
+util.hotfix_ex(CS.DeploymentUIController,'RefreshItemUI',RefreshItemUI)
 
 
