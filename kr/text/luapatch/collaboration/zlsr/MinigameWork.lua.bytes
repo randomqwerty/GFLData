@@ -232,7 +232,6 @@ function MainLoop()
 		spine:SetSpine("spwait0",1)
 	end
 	lastFrameHoldingBrickNum = currentHoldingBrickNum
-	
 	if not isStun then
 		UpdateBuff()
 		--判断是否fever
@@ -248,6 +247,7 @@ function MainLoop()
 			DoStun()
 		end
 		if isFever then
+			
 			feverTimer = feverTimer + 0.033333
 			if feverTimer >= energyDuration then
 				isFever = false
@@ -273,7 +273,7 @@ function MainLoop()
 				end
 				playerScore = playerScore + (addBrickNum * brickScore) +extraBrickScore[addBrickNum]
 				brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
-				UpdateScore()
+				UpdateScoreAnim()
 			end
 		end
 	else -- 
@@ -434,7 +434,7 @@ function UpdateFever(feverCount)
 		playerFeverValue = 0
 	end
 	local feverpercent = playerFeverValue / feverGuageMax
-	_imgFeverGauge:DOFillAmount(feverpercent,0.01) 
+	_imgFeverGauge:DOFillAmount(feverpercent,0.15) 
 	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMax
 	
 end
@@ -532,6 +532,9 @@ end
 function UpdateScore()
 	txtScore.text = string.format("%05d",playerScore) 
 end
+function UpdateScoreAnim()
+	txtScore:DOText(string.format("%05d",playerScore)  ,0.5,true,CS.DG.Tweening.ScrambleMode.Numerals)
+end
 function CheckFever()
 	if not isFever and playerFeverValue >= feverGuageMax then
 		isFever = true
@@ -542,7 +545,8 @@ function CheckFever()
 		--goFeverEffect:SetActive(true)
 		--goFeverEffect2:SetActive(true)
 		--goFeverHint:SetActive(true)
-		_imgFeverGauge:DOFillAmount(0,energyDuration-0.1) 
+		_imgFeverGauge:DOFillAmount(0,energyDuration-0.05):SetEase(CS.DG.Tweening.Ease.Linear)
+		--print("Start "..CS.BattleFrameManager.Instance:GetCurBattleTime())
 		CS.GF.Battle.SkillUtils.GenBuffViaSkillConfig(characterData,11952601)
 	end
 end
