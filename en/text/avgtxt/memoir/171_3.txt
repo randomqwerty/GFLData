@@ -1,87 +1,87 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:一个月后。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:A month later.
 ()||<黑屏1>:
-PPK(0)<Speaker>PPK</Speaker>||<黑屏2><BIN>168</BIN>:这里是PPK，行动前最后一次通讯确认。
-PPK(0);Welrod(0)<Speaker>维尔德</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>通讯收到，我已到达后门。</color>+<color=#00CCFF>再次确认计划内容——由你调查目标行为经过，由我负责勘察目标位置。</color>
-PPK(0)<Speaker>PPK</Speaker>;Welrod(0)||:收到，前期工作已经准备完毕，伪装计划顺利执行中。
-PPK(0);Welrod(0)<Speaker>维尔德</Speaker><通讯框>||:<color=#00CCFF>追踪器是否确认无误？</color>
-PPK(0)<Speaker>PPK</Speaker>;Welrod(0)||:追踪器确认正常。
-PPK(0);Welrod(0)<Speaker>维尔德</Speaker><通讯框>||:<color=#00CCFF>行，我准备潜入总控室，一旦你素体出现问题，我会直接接手。</color>
-PPK(0)<Speaker>PPK</Speaker>;Welrod(0)||:好的。
-Welrod(0)<Speaker>维尔德</Speaker><通讯框>||:<color=#00CCFF>那么救援计划正式开始。</color>
+PPK(0)<Speaker>PPK</Speaker>||<黑屏2><BIN>168</BIN>:This is PPK, checking in one last time before starting the operation.
+PPK(0);Welrod(0)<Speaker>Welrod MkII</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Acknowledged. I am now at the back door.</color> +<color=#00CCFF>Just to go through the plan again – you will retrace the target's steps and investigate what happened to her. Meanwhile, I will search for her whereabouts.</color>
+PPK(0)<Speaker>PPK</Speaker>;Welrod(0)||:Understood. All preparations are complete; my disguise program is up and running.
+PPK(0);Welrod(0)<Speaker>Welrod MkII</Speaker><通讯框>||:<color=#00CCFF>And the tracker?</color>
+PPK(0)<Speaker>PPK</Speaker>;Welrod(0)||:Also operational.
+PPK(0);Welrod(0)<Speaker>Welrod MkII</Speaker><通讯框>||:<color=#00CCFF>Good. I shall infiltrate the main control room and intervene if anything happens to your body.</color>
+PPK(0)<Speaker>PPK</Speaker>;Welrod(0)||:Alright.
+Welrod(0)<Speaker>Welrod MkII</Speaker><通讯框>||:<color=#00CCFF>Then let's begin the rescue operation.</color>
 ()||<黑屏1>:
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||<黑屏2><BIN>72</BIN><BGM>BGM_Truth</BGM>:……回不去的话，他们会发现我不见了吗……
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:我总是出去住院……几个月不回去也不会被发现吧~
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:哎，就算被发现不在，也只会怀疑我这样的废物躲到哪里去了吧。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:果然强健的身体对我来说只是一个幻觉……只是一个骗局……
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:呵。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:你是谁？
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:能在这里的还能有谁？跟你一样被骗来的呗。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:……那，我怎么称呼你？
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:名字对我来讲已经没有意义了。+随便怎么喊无所谓，喂、你、那个、游离人形……都可以。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:……你在这里多久了？
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:谁知道呢？也许是一个月，也许是一年，也许是十年……
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:……我们会死吗？
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:死亡？呵，那是上帝对人类的恩赐。+我们才没有这种幸运，我们只会因为一次次的数据整合渐渐被遗弃。+永远的，停在这个见鬼的地方。
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:反正心智嘛，能操控素体就行，人类才不会关心里面的心智是否健全，又是否是原来那一个。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:……是啊，我……没人会在意我的……
-()<Speaker></Speaker>||:如果能拥有自己的素体，利贝罗勒此时一定会流下眼泪。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:突然，在这无边的二级平层里，一道熟悉的声音传进了她的耳朵。
-()<Speaker>PPK</Speaker>||:这里就是“叹息桥”？
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||<BGM>BGM_Brain</BGM>:诶？PPK……是PPK……
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>您好，我是叹息桥的专属客服1968号，您可以称呼我安琪。</color>+<color=#00CCFF>您的豪华版套餐已解锁，请根据您的爱好填写一份数据，我们将会为您匹配最适合的素体。</color>
-()<Speaker></Speaker>||:再次听见客服的声音，利贝罗勒止不住的大喊起来。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:PPK！！！她在骗你！！！
-PPK(0)<Speaker>PPK</Speaker>||:这就是心灵疗养？
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>是的，在这里您可以放弃您过去的身份担忧、素体制约、或者是复杂的人际关系。</color>+<color=#00CCFF>彻底享受一次私密的角色扮演游戏，而无需有任何心理负担。</color>
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>使用与自己本体完全不同的素体，体验与过去完全不同的生活，摆脱原有的情绪桎梏，放下紧绷的精神枷锁。</color>+<color=#00CCFF>这就是我们的疗愈理论。</color>
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||<震屏3>:<size=50>不要啊——</size>
-()<Speaker></Speaker>||:二级平层仿佛有一道屏障，完全隔绝了利贝罗勒和PPK。
-PPK(0)<Speaker>PPK</Speaker>||:那我接下来使用的素体都是你们的？
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>是的，这些素体都是我们专门定做的，只为让我们的客户获得最优质的体验。</color>
-PPK(0)<Speaker>PPK</Speaker>||:行。
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>好的，请您填写数据。</color>
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:PPK！+怎么办……我该怎么办……
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:你吵得我头疼。+放弃吧，她现在听不到你说话的。+我们的通讯早就被屏蔽了，我们能看到她们，可她们根本看不到我们。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:……+……PPK……
-()<Speaker></Speaker>||:只能一遍又一遍的，徒劳无功地呼唤着听不见的对方。+焦急和无力交错在利贝罗勒的心头涌起，直到时间一分一秒的过去。
-PPK(0)<Speaker>PPK</Speaker>||:我好了。
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>好的，已经匹配到合适的素体，这就为您开启权限。</color>+<color=#00CCFF>您的使用时长为24小时，倒计时不足20分钟的时候我会联络您。</color>
-PPK(0)<Speaker>PPK</Speaker>||:好的。
-()<Speaker>客服安琪</Speaker>||:<color=#00CCFF>接下来，就请您尽情享受吧。</color>
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:……完了……都完了……
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:也别那么悲观。+等她彻底沉迷，就能来和你作伴了。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:<size=50>才不要那样！</size>
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:都怪我，她……她肯定是来找我的……+格里芬基地的伙伴们……没有放弃我……呜呜呜呜呜是我不好……害了她……
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:你想太多了吧？她找你干嘛？+等等……格里芬基地，你居然是格里芬基地的人形？看来“叹息桥”逮到大鱼了。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:不会的！她一定不会被逮到！格里芬的人形不会都像我这样，她和我不一样……+她是很阳光的人形，不是我这种……不是我这种类型的……
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:PPK肯定是发现我不在了……呜呜呜……+她……她才不会被这个疗法哄骗，她肯定是想来找我……
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:呵。+你第一次跟客服进来我就看见你了……+那时候我就在想你最后会是什么表情。
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:很多人形都跟你一样，刚被遗弃到这里的时候还满怀希望，以为肯定有别人来拯救自己。+“总会有在意我的人或人形吧？他们绝对会过来救我的。”+——她们一开始都这么想。+实际上，从来也没人找过谁。
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:被遗忘和被放弃本就是人形的宿命。+这点我们和其他电子产品也没什么差别，就算不迷失在这里，最终也会被淘汰。+结果都是一样的。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:……我、我不信！+……为什么我只看见了你，其他人形呢？
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:因为其他人都躲起来了，但我无所谓，我是来看别人笑话的。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:就算是这样……退一万步来说就算是这样，没有人在意我，也没有人记得我……+我也绝不能眼睁睁看着她和我一样失去素体……
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:……你不希望她和现在的你一样？+你们一样的话，起码她不会嘲笑你了。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:她从来没有嘲笑过我。基地里大家都对我很好……这种病弱的身体，时不时就要上医院的情况……居然没有人、连指挥官也没有……+<size=50>没有任何人嘲笑我。</size>
-RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:……那你挺幸运的。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:所以我不能忍受她跟我一样飘荡在这里，永远失去自己的素体。
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:……即使你再也回不去了，你还是不希望她来陪你吗？+你在这里的时间还太短了，等日子长了，你就会明白，孤独对人形的杀伤力，跟对人类的杀伤力一样巨大。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:这是恶毒的期待……我……我不能让PPK跟我一样。+我可以这么混下去，我本来就是个废物，但是……但是怎么可以看着PPK跟我一样……
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:她是你很好的朋友吗？
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:……还不算是，我们并不熟。
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:那你干嘛在意她？
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:……正因为我知道病弱的痛苦，所以我才不希望别人跟我一样病弱。+……正因为我知道被遗忘在这里的痛苦，所以……所以我不希望她跟我一样。
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:呵。+我跟你可不一样，我就希望有很多人形来体验一下这种被抛弃的感觉。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>;RibeyrollesMOD(2)||:你——
-Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>游离人形</Speaker>||:别挣扎了。+我们本来就是问题人形，才会被这个程序诱惑的。
-Ribeyrolles(0)<Speaker>利贝罗勒</Speaker>||:……闭嘴！+我一定要找到联络她的办法！
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||<黑屏2><BIN>72</BIN><BGM>BGM_Truth</BGM>:...Will they even realize I'm gone...?
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:I spend most of my time hospitalized... They probably won't even notice even if I'm away for months.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:Eh, even if my absence doesn't go unnoticed, they'll just think I'm off skulking and licking my wounds somewhere.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:In the end, a strong and healthy body was just a pipe dream...and a fraud...
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Ha.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:Who are you?
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Since I'm stuck here, I'm obviously a fellow victim of their scam.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:...So what's your name?
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Names mean nothing to me anymore. +Call me whatever you want – "hey", "you", "you there", "Lost Doll"... Anything works.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:...How long have you been here?
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Who knows? Maybe a year, maybe ten...
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:...Are we going to die?
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Die? Ha, death is a blessing that God bestows upon humans. +We aren't so lucky. We will just gradually degrade overtime with each cycle of data integration. +We're stuck in this godforsaken place – for eternity.
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:It's fine as long as a neural cloud can operate a body. Humans never care if the neural cloud is in a healthy state or if it gets replaced.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:...You're right... No one ever cares about me...
+()<Speaker></Speaker>||:What Ribeyrolles would give if she could return to her own body.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Suddenly, a familiar voice interrupts them in this seemingly boundless Level II virtual space.
+()<Speaker>PPK</Speaker>||:Is this "Bridge of Sighs"?
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||<BGM>BGM_Brain</BGM>:Huh? PPK... That's PPK...
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>Hello, I am Customer Service Unit 1968 at Bridge of Sighs, please call me Angie.</color> +<color=#00CCFF>Your premium package has been unlocked, please fill in this form, and we will provide you with the most suitable body according to your preferences.</color>
+()<Speaker></Speaker>||:Hearing the CS unit's voice again, Ribeyrolles cries out desperately.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:PPK, she's lying!!!
+PPK(0)<Speaker>PPK</Speaker>||:So that's my therapy?
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>Indeed. Here, you can leave behind the burdens of your past, the limitations of your physical body, and your complicated relationships.</color> +<color=#00CCFF>Immerse yourself in a private role-playing game without feeling any kind of pressure.</color>
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>By assuming a completely different identity, you can experience a different life, free of all emotional fetters.</color> +<color=#00CCFF>This is the theory on which our treatment is based.</color>
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||<震屏3>:<size=50>NOOOOOOOOOO!!!</size>
+()<Speaker></Speaker>||:A barrier separates Ribeyrolles and PPK on Level II.
+PPK(0)<Speaker>PPK</Speaker>||:Then the body I'll be using is your product?
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>That's right. We have a large selection of specially made bodies to ensure our customers can enjoy the experience to the fullest.</color>
+PPK(0)<Speaker>PPK</Speaker>||:Right.
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>Now please fill in the form.</color>
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:PPK! +What should I do... What can I do...?
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Pipe down, you're giving me a headache. +Just save your breath, there's no way she can hear you. +Our signals are masked, so we can see them, but they can't see us at all.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:... +...PPK...
+()<Speaker></Speaker>||:Ribeyrolles can only call out again and again, though it proves to be futile. +Panic and helplessness threaten to overwhelm her as the seconds tick by.
+PPK(0)<Speaker>PPK</Speaker>||:I'm done.
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>Lovely. We have matched you with a body. You now have access to it.</color> +<color=#00CCFF>You may use it for 24 hours. I will contact you 20 minutes before your time is up.</color>
+PPK(0)<Speaker>PPK</Speaker>||:Got it.
+()<Speaker>CS Angie</Speaker>||:<color=#00CCFF>Now just enjoy yourself.</color>
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:It's over... It's all over...
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Look on the bright side. +Once she gets completely hooked, she'll end up here to keep you company.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:<size=50>I don't want that!</size>
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:It's all my fault. She...she must have come looking for me... +My colleagues at Griffin...didn't abandon me... (Sobs) She's going to suffer the same fate...because of me...
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Aren't you being a tad presumptuous? Why would she come looking for you? +Hang on... Griffin... You're a Griffin T-Doll?! Wow, looks like Bridge of Sighs caught a big fish.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:No! PPK won't get caught! Griffin Dolls aren't all like me! We are totally different... +She's the warm and jolly type, not like me at all...
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:She must've noticed I was gone... (Sobs) +She...she won't fall for this therapy scam... She must be here for me...
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Ha. +I saw you the first time you came in... +I wondered what kind of face you would make in the end.
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Like you, many Dolls were full of hope when they first found out they're trapped here. They're so sure someone would come to their rescue. +"There must be somebody who cares about me, right? Surely they'll come and save me." +They all believed that in the beginning. +But the truth is, nobody ever came.
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Being forgotten and abandoned is the fate of all Dolls. +We aren't so different from other electronic appliances in this sense – even if we weren't lost in here, we would've eventually been phased out. +It's all the same in the end.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:...I-I don't believe that! +...Why are you the only one I see? Where are the other Dolls?
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Everyone else is hiding. I don't mind; I'm here for my own amusement.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:Even if it's true... Not that I think it is, but let's say it is – that no one cares about me or remembers me... +I can't just stand by and watch PPK lose her body the way I did...
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:...You don't want her to join you? +At least she won't make fun of you.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:She never makes fun of me. Everyone at the base treats me very nicely... Even though my body is frail and sickly... Even though I often have to go to the hospital... Nobody...not even the Commander... +<size=50>Has ever made fun of me.</size>
+RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:...Then you're pretty lucky.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:That's why I won't let her end up as a disembodied ghost like me.
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:...You don't want her to keep you company even though you can't go back? +I suppose you haven't been here for long. Soon you'll understand that loneliness is as deadly to Dolls as it is to humans.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:That's a terrible thing to wish for... I...I can't let PPK follow in my footsteps. +I can get by like this – I'm good for nothing to begin with. But...but I can't possibly have PPK go down the same path...
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Is she a good friend of yours?
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:...Not really. We don't know each other very well.
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Then what's with all the concern?
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:...I understand the pain of being sickly, which is why I hope no one has to suffer the way I do. +...Likewise, I know the pain of being abandoned here, so...I don't wish the same fate on her.
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Ha. +I'm the opposite. I want more Dolls to come and experience this pain myself.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>;RibeyrollesMOD(2)||:You—!
+Ribeyrolles(0);RibeyrollesMOD(2)<Speaker>Lost Doll</Speaker>||:Just give up. +We all have our own issues, or we wouldn't have been lured by the program.
+Ribeyrolles(0)<Speaker>Ribeyrolles</Speaker>||:...Shut up! +I must find a way to get in touch with her!
 ()||<黑屏1>:
-()<Speaker>利贝罗勒</Speaker>||<黑屏2><BIN>9</BIN>:无论如何……绝不能让她跟我一样在这里漂泊。
+()<Speaker>Ribeyrolles</Speaker>||<黑屏2><BIN>9</BIN>:I will not let her end up like me…I swear.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:格里芬基地。
-Ribeyrolles(0)<Speaker>PPK</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我检查过了，这素体上有木马。</color>+<color=#00CCFF>利贝罗勒的心智不知道去哪里了……这个木马应该是限制她回来的东西。</color>
-Welrod(0)<Speaker>维尔德</Speaker><通讯框>||:<color=#00CCFF>他们这边的仓库里只有一堆废弃零件，似乎所有的素体都被投入使用中。</color>
-Welrod(0)<Speaker>维尔德</Speaker><通讯框>||:<color=#00CCFF>“叹息桥”已接入，这个二级平层似乎有不少漏洞，正在请求技术支援。</color>
-()<Speaker>指挥官</Speaker>||:你们做得很好，无论如何，必须找回利贝罗勒。
-()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><BGM>BGM_Empty</BGM>:Griffin base.
+Ribeyrolles(0)<Speaker>PPK</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>I scanned the body. There's a Trojan horse inside.</color> +<color=#00CCFF>No idea where Ribeyrolles' neural cloud is... But the Trojan is most probably what's locking her out of her body.</color>
+Welrod(0)<Speaker>Welrod MkII</Speaker><通讯框>||:<color=#00CCFF>There's only a small pile of parts and scraps in their storeroom, so all the bodies in their possession are in use.</color>
+Welrod(0)<Speaker>Welrod MkII</Speaker><通讯框>||:<color=#00CCFF>We now have access to "Bridge of Sighs". This Level II layer doesn't seem to be too secure. Requesting tech support.</color>
+()<Speaker>Commander</Speaker>||:Well done. We must find Ribeyrolles no matter what.
+()||<黑屏1>:

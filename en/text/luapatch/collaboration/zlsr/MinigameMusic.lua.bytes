@@ -152,9 +152,10 @@ Start = function()
 	--StartRound()
 	imgAvatar:GetComponent(typeof(CS.ExImage)).sprite = imgAvatar:GetComponent(typeof(CS.UGUISpriteHolder)).listSprite[randomMember-1]
 	textAvatarName:GetComponent(typeof(CS.ExText)).text = GetName(nameList[randomMember]) 
-	totalTimer = totalTime
+	totalTimer = totalTimeMusic
 	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
 	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
+	PlaySFX("BGM")
 end
 
 OnDestroy = function()
@@ -166,7 +167,9 @@ Update = function()
 	
 end
 function MainLoop()
-	
+	if totalTimer <= 0 then
+		return
+	end
 	if not isFever then
 		
 		currentFrame = currentFrame +CS.UnityEngine.Time.deltaTime
@@ -211,6 +214,7 @@ function HandleCursorMove()
 	end
 end
 function CheckScore()
+	
 	--检查浮标是否在范围内
 	local upperLimit = currentZonePos + currentZoneWidth / 2 
 	local lowerLimit = currentZonePos - currentZoneWidth / 2 
@@ -222,7 +226,7 @@ function CheckScore()
 	end
 	--print(currentCursorPos.." "..lowerLimit.." "..upperLimit.." "..currentZonePos.." "..currentZoneWidth)
 	if currentCursorPos >= lowerLimit  and currentCursorPos <= upperLimit then
-		playerScore = playerScore + baseScore 
+		playerScore = playerScore + baseScoreMusic
 		UpdateScore(playerScore)
 		UpdateFever(playerFeverValue + fevergain)
 		outAreaFlag = false
@@ -302,7 +306,7 @@ function MoveZone()
 	SetZonePosition(currentZonePos,currentZoneWidth)
 end
 function CheckFever()
-	if playerFeverValue >= feverGuageMax then
+	if playerFeverValue >= feverGuageMaxMusic then
 		isFever = true
 		effectShow = false
 		PlaySFX("enterFever")
@@ -312,13 +316,13 @@ function CheckFever()
 		goFeverEffect:SetActive(true)
 		goFeverEffect2:SetActive(true)
 		goFeverHint:SetActive(true)
-		_imgFeverGauge:DOFillAmount(0,feverDuration) 
+		_imgFeverGauge:DOFillAmount(0,feverDurationMusic) 
 	end
 end
 function CountFeverTime()
 	if isFever then
 		feverTimer = feverTimer + CS.UnityEngine.Time.deltaTime
-		if feverTimer >= feverDuration then
+		if feverTimer >= feverDurationMusic then
 			isFever = false
 			CS.CommonAudioController.Instance.bgmSource:Pause(false)
 			goFeverEffect:SetActive(false)
@@ -401,15 +405,15 @@ function UpdateFever(feverCount)
 		return
 	end
 	playerFeverValue = feverCount
-	if playerFeverValue > feverGuageMax then
-		playerFeverValue = feverGuageMax
+	if playerFeverValue > feverGuageMaxMusic then
+		playerFeverValue = feverGuageMaxMusic
 	end
 	if playerFeverValue < 0 then
 		playerFeverValue = 0
 	end
-	local feverpercent = playerFeverValue / feverGuageMax
+	local feverpercent = playerFeverValue / feverGuageMaxMusic
 	_imgFeverGauge:DOFillAmount(feverpercent,0.01) 
-	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMax
+	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMaxMusic
 end
 function UpdateScore()
 	txtScore.text = string.format("%05d",playerScore) 
@@ -462,7 +466,7 @@ function ShowResult()
 	goShow:SetActive(true)
 	local curGrade = 1
 	for i=1,4 do
-		if playerScore >= scoreRanking[i] then
+		if playerScore >= scoreRankingMusic[i] then
 			curGrade = i
 		end
 	end
@@ -484,9 +488,11 @@ function ShowResult()
 end
 function EndGame()
 	
-	local ScoreRank = scoreRanking[4]
+	local ScoreRank = scoreRankingMusic[4]
 	if playerScore >= ScoreRank then
-		
+		print("EndGame")
+		print(playerScore)
+		print(ScoreRank)
 		for i=CS.GF.Battle.BattleController.Instance.enemyTeamHolder.listCharacter.Count-1,0,-1 do
 			local DamageInfo = CS.GF.Battle.BattleDamageInfo()
 			CS.GF.Battle.BattleController.Instance.enemyTeamHolder.listCharacter[i]:UpdateLife(DamageInfo, -999999)
@@ -505,7 +511,7 @@ function UpdateRemainTime()
 	end
 	local minute = math.floor(timeValue / 60)
 	local second = timeValue - minute * 60
-	if totalTime >= 60 then
+	if totalTimeMusic >= 60 then
 		local minute1 = math.floor(minute / 10)
 		local minute2 = minute - minute1 * 10
 		_imgTime1.sprite = spriteListTime.listSprite[minute1]
@@ -552,6 +558,8 @@ function PlaySFX(FXname)
 	if FXname == "pickPower" then
 		CS.CommonAudioController.PlayBattle("UI_PickPower")
 	end
-	
+	if FXname == "BGM" then
+		CS.CommonAudioController.PlayBGM("BGM_Saga_Song_1_Short_Marker")
+	end
 	
 end

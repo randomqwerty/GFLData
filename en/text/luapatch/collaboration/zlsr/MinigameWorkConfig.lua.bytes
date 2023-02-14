@@ -21,7 +21,7 @@ energyBuffID = 5052
 energyBuffCoef = 10 --buff乘以倍数计算成为条
 energyMax = 50
 energyDuration = 10
-scoreRanking = {0,800,1500,2000} --到达C,B,A,S评价的分数要求
+scoreRankingWork = {0,800,1500,2000} --到达C,B,A,S评价的分数要求
 local configFunction = {}
 function configFunction:InitData()
 	--print(stageid)

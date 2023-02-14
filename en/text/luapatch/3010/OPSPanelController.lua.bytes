@@ -347,6 +347,10 @@ end
 spineMInfo = {};
 local Load = function(self,campaion)
 	self:Load(campaion);
+	if self.currentPanelConfig ~= nil then
+		CS.OPSPanelController.diffclutyRecord = CS.Mathf.Clamp(CS.OPSPanelController.diffclutyRecord,0,self.currentPanelConfig.diffclutyNum-1);
+		CS.OPSPanelController.difficulty = CS.OPSPanelController.diffclutyRecord;
+	end
 	if campaion == -54 then
 		local textAsset = CS.ResManager.GetObjectByPath("ProfilesConfig/OPSPanel/Campion"..tostring(campaion), ".txt");
 		if textAsset == nil then
