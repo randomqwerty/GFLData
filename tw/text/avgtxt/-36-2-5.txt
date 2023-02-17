@@ -1,0 +1,41 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>225</BIN><黑屏2><BGM>10051</BGM>:……
+()<Speaker>葉戈爾</Speaker>||:什？！+……你的確把我驚訝到了，格里芬的指揮官。
+()<Speaker>傳令兵</Speaker>||:上尉，我們接下來怎麼做？
+()||<SE1>AVG_tele_connect</SE1>:滴滴——傳來了一個加密通訊。+葉戈爾的嘴角有些微微上揚了。
+()<Speaker>葉戈爾</Speaker>||<黑屏1>:我得承認你有些手段，但是牌桌上勝者通吃，最後抽到了JOKER的還是我。+讓正面部隊後退到安全距離。+石英，有消息了。
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><BGM>BGM_Room</BGM>:……列車指揮室。
+NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:咳咳……指揮官，你沒事吧……
+()<Speaker>指揮官</Speaker>||:好像沒有缺胳膊斷腿……丹德萊呢？
+NytoIsomer(4)<Speaker>丹德萊</Speaker>||:我沒有問題。
+()<Speaker>指揮官</Speaker>||:看起來我們運氣都不錯……+丹德萊，讓人形都進入隔離牆。+然後往列車的底盤埋設炸藥，我們要讓這座列車成為徹底的路障。
+NytoIsomer(4)<Speaker>丹德萊</Speaker>||:看來您徹底不準備從這裡離開了。
+()<Speaker>指揮官</Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:完成了任務的話有的是機會離開……+外面那些傢伙還盯著我們呢。+只要AR小隊能夠搶下岸防炮，我們就有機會擊潰軍方的部隊。+然後我們再回過頭來解決基地內的問題。
+()||<BIN>99</BIN><黑屏2><BGM>BGM_Danger</BGM>:另一邊……五分鐘前。
+()||:AR小隊正向邊岸前進。
+AR15Mod(0)<Speaker>AR15</Speaker>||:我們離目的地還有多遠？
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:以現在的速度，大概還需要2分鐘吧！
+M4A1Mod(4)<Speaker>M4A1</Speaker>||<SE2>Gunfight</SE2>:小心！提豐又在朝我們射擊了！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我的榴彈根本打不穿他們啊！怎麼離得那麼遠他們還打得這麼准啊。
+AR15Mod(0)<Speaker>AR15</Speaker>||:那也要把你的榴彈都打出去！+說不定減輕點重量，車還能開得快一些！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:喂，走這條道真的沒問題嗎？
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE2>Gunfight</SE2>:這一大片平原什麼掩護都沒有，只能借助這些風力發電機來躲避射擊了啊！
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:沒時間了，他們有車趕在我們前面了！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:小心小心！扇葉要砸到我們頭上了！
+AR15Mod(0)<Speaker>AR15</Speaker>||:你快從車頂下來吧！+太危險了——！
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:加速！+只要進入永固掩體他們的裝甲火力就打不到我們了！
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_engine_speedup</SE1>:我明白！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:快看，右邊！+又一輛提豐。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:他們也一定非常想搶下岸防炮，RO我們得更快一些！
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_engine_speedup</SE1>:啊啊啊啊，不管了，你們自己抓好！+被甩下去可不要怪我啊！
+()||:載著AR小隊的吉普車以最高的時速衝向岸防炮下的永固掩體。+吉普不斷地躲避提豐的射擊，而SOP2不斷地朝靠近她們的軍方載具發射榴彈，逼迫他們不得不減緩速度。+吉普終於趕在軍方之前在永固掩體前急刹停住，幾個人形迅速地從車上跳下來。+而剛才躲避榴彈的軍方吉普也在另外的入口停下車來，跳下車的士兵朝遠處的人形對望了一眼，雙方都遲疑了片刻，隨後立即毫不猶豫地衝進了掩體中。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:該死，我們得搶在他們前面！+你們進入入口後阻止其他士兵進來，我去奪取控制中心！+丹德萊！幫我建立路線！找到已經進來的軍方！
+NytoIsomer(4)<Speaker>丹德萊</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:已經確定位置。
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:對方人數不多，現在開始分頭行動，在狹小空間內人形更佔優勢！+SOP2、RO堅守，AR15清剿下層。+一定不能放更多軍方的士兵進來了！
+()||:M4說完頭也不回地衝進了地下掩體中。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:好！我早想痛扁他們一次了！
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:不管什麼時候我都很羡慕你那無窮的信心呢……
+AR15Mod(0)<Speaker>AR15</Speaker>||:有這樣的自信才能有勝算啊。
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:我當然知道，不管怎麼說都不能讓我們的隊長失望，沒錯吧。
+AR15Mod(0)<Speaker>AR15</Speaker>||:那是自然的，我去了，守好這裡。
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<黑屏1>:明白。

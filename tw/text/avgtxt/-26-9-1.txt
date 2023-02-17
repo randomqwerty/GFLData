@@ -1,0 +1,35 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
+()||<BIN>157</BIN><BGM>BGM_Danger</BGM><黑屏2>:……撤離小隊的隱秘撤離行動被軍方發現！
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker><通讯框>||:<color=#00CCFF>你們果然選擇了偷偷溜走，一群可恥的老鼠！</color>+<color=#00CCFF>重火力部隊，對目的地區域進行火力覆蓋！</color>+<color=#00CCFF>其他部隊迅速封鎖逃脫區域的全部路線，一旦發現漏網之魚，格殺勿論！</color>
+HK416(3)<Speaker>HK416</Speaker>||:我們暴露了，軍方追上來了！
+RO635(6)<Speaker>RO635</Speaker>||:他們沒有追，他們要用炮火轟擊我們！
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:那不是更糟嗎！
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker><通讯框>||:<color=#00CCFF>我們已經完全包圍了你們！你們的結局不是在炮火中灰飛煙滅，就是被我親手槍斃！</color>
+AK12(2)<Speaker>AK12</Speaker>||:快跑，快！不要回頭！
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:94，背好安潔！我們來保護你！
+AN94(2)<Speaker>AN94</Speaker>||:我們該往哪個方向行動，安潔？+……安潔？喂，安潔——！
+RO635(6)<Speaker>RO635</Speaker>||:安潔昏迷過去了！我們必須快點離開這裡！
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:少說話，RO！你拖慢了我的反應速度！
+RO635(6)<Speaker>RO635</Speaker>||:我正在掃描地圖！這比你現在做的事重要！+葉戈爾在虛張聲勢，軍方的部隊沒能完全包圍這片區域，我們前方就有個缺口！+到達前面的掩體後往東跑，4點方向！不要撞上敵人的攔截部隊！
+AK12(2)<Speaker>AK12</Speaker>||<黑屏1>:聽RO的！我們就要逃出去了！
+()||<黑屏2><BGM>BGM_Empty</BGM>:……十分鐘後。
+NPC-Yegor(3)<Speaker>軍方下士</Speaker>||<BGM>BGM_NightOPS</BGM>:長官，安潔的部隊逃出了包圍網。
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||:我五分鐘前就看到了，難道你們連幾個人形都追不上嗎？
+NPC-YegorDamage(0);NPC-Yegor(3)<Speaker>軍方下士</Speaker>||:我們的追擊效率比預想中略低，重火力單位一直對我們進行干擾。
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||:那種火力形成不了太大威脅，讓高機動單位先行，及時定位她們的行蹤——偵察無人機還沒有修好嗎？
+NPC-YegorDamage(0);NPC-Yegor(3)<Speaker>軍方下士</Speaker>||:還在維修中，現在我們只能通過信號掃描進行追蹤，暫時無法通過影像去確認情況，但她們的移動痕跡完全在我們的偵測之下。+另外長官，安潔逃竄的方向上有一座廢棄大樓，不排除她們會進入躲藏的可能。
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||<黑屏1>:這裡還是戰場腹地，她們孤立無援，逮到她們只是個時間問題！+進入那個大樓她們就是自絕後路，我會欣賞到她絕望的表情，然後親手解決她！
+()||<黑屏2>:……同一時間，撤離小隊正在逃竄中。
+RO635(6)<Speaker>RO635</Speaker>||:AK12，我看到前方有一個廢棄大樓，有牆體阻擋，輻射肯定比較低。+我們可以躲到裡面，為安潔治療，同時聯繫指揮官。
+AN94(0)<Speaker>AN94</Speaker>||:軍方會發現的，然後包圍我們。
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:或者……直接用坦克把大樓轟掉……
+HK416(0)<Speaker>HK416</Speaker>||:他們的坦克不會這麼快抵達現場，進入大樓的敵人應該都是人形或者人類士兵。+而且葉戈爾剛才說了，他要親自找安潔復仇。+所以，我們需要全員進去建立防禦措施嗎？
+AN94(4)<Speaker>AN94</Speaker>||:這樣會比較保險，但是我們的信號疊加在一起就太強了。+如果只有我和AK12藏在大樓裡，還可能通過偽裝信號來躲過搜查。
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:我和HK416只能偽裝成鐵血的識別信號，對軍方來說沒什麼用……
+AK12(2)<Speaker>AK12</Speaker>||:如果這樣做，我們可以分道揚鑣，你們可以想辦法引開軍方部隊，為我們喚醒安潔爭取時間。+但是就算對我而言……這也太冒險了點吧……
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:軍方可能偵測到安潔的生命體征，一旦他們進入大樓，就靠你們幾個真的很危險！
+AN94(4)<Speaker>AN94</Speaker>||:但是光靠我們幾個在大樓中和軍方正面作戰，確實毫無勝算。
+HK416(0)<Speaker>HK416</Speaker>||<黑屏1>:AK12，你現在是隊長，你來決定怎麼辦。+全員進入大樓，還是只有你們帶安潔進去，由我們去引開敵人？+我們馬上就要到達大樓了，儘快做出決定吧！
+()||<黑屏2>:<color=#fff775>任務提示</color>
+()||<黑屏1>:<color=#fff775>如果選擇【全員進入大樓】，請將戰場上的AK12和AN94在我方機場進行回收。</color>+<color=#fff775>如果選擇【只有忤逆小隊和安潔進入大樓】，則請嘗試建立補給線，引開敵人。</color>+<color=#fff775>完成該戰役的不同任務目標可進入不同路線，當完成任務目標後，這周目將無法進入其他未通過的路線，只有通過回溯才可以重新選擇。</color>
+()||<黑点2><BIN>10</BIN>:

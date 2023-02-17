@@ -1,0 +1,48 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>157</BIN><黑屏2><BGM>BGM_Sneak</BGM>:……葉戈爾的通訊器裡傳來了吵鬧和尖叫。
+人類女性的聲音()<Speaker>人類女性的聲音</Speaker>||:<color=#00CCFF>我是自己人！不要殺我——！</color>+<color=#00CCFF>咳咳……求求你們！我是被迫的！我什麼都沒做！天啊——！</color>
+NPC-Yegor(3)<Speaker>軍方士兵</Speaker><通讯框>||:<color=#00CCFF>長官，我們抓到了疑似安潔的目標，確認對方是我們的醫療人員，被簡單化妝成了安潔的樣子。</color>
+人類女性的聲音()<Speaker>人類女性的聲音</Speaker>||:<color=#00CCFF>是那個人形把我打昏丟在這裡的，咳咳——我需要……咳咳咳！求求你們……</color>
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||:……
+NPC-YegorDamage(0);NPC-Yegor(3)<Speaker>軍方士兵</Speaker><通讯框>||:<color=#00CCFF>她受到了感染，需要治療……長官？</color>
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||:把她帶回來，在路上給她治療。
+NPC-YegorDamage(0)<Speaker></Speaker>||:……葉戈爾靠在一輛坦克上，用手指狠狠揉了揉眼眶。
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>||:安潔在大樓裡……+她只是在拖延時間，給自己治療！媽的——！
+()||:……葉戈爾狠狠砸向坦克，然後起身走向指揮室。
+NPC-Yegor(3)<Speaker>軍方士兵</Speaker><通讯框>||:<color=#00CCFF>長官！格里芬小隊正在往大樓的方向逃竄！</color>
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||:她們在回防！為了保護安潔而做最後的掙扎！+偵察部隊呢？能趕在格里芬之前進入大樓嗎？
+NPC-YegorDamage(0);NPC-Yegor(3)<Speaker>軍方士兵</Speaker>||:<color=#00CCFF>可以，但是格里芬的重火力單位的火力現在能覆蓋到大樓，貿然接近可能會遭到攻擊！</color>
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>;NPC-Yegor(3)||:那就原地待命，所有戰鬥人員聽令，立即前往目標大樓，將其包圍！
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker>||<黑屏1>0,0.7</黑屏1>:安潔！你耍了多少花招都是白費功夫，你們就算回到大樓，也只是送死！+這一次，你絕對不可能逃走了！
+()||<黑屏2><BIN>46</BIN><BGM>BGM_Empty</BGM>:……10分鐘後，撤離小隊返回了大樓，416給安潔注射了一劑腎上腺素。
+NPC-AngeDamage(0)<Speaker>安潔莉婭</Speaker>||<BGM>BGM_Brain</BGM>:呼……謝謝，我現在好多了。
+HK416(0)<Speaker>HK416</Speaker>||:我應該把一針紮下去時你發出的吼叫錄下來的。
+NPC-AngeDamage(0)<Speaker>安潔莉婭</Speaker>||:別在我的葬禮上播放，謝謝。+我現在終於可以做一些簡單的思考了。
+AK12(0)<Speaker>AK12</Speaker>||:指揮官，格里芬撤離小隊已經返回大樓，開始組建最後的防線。+炸藥提前被改造完畢，我和AN94正在抓緊時間設置，還有引爆裝置！
+NPC-AngeDamage(0)<Speaker>安潔莉婭</Speaker>;AK12(0)||:真的要這麼搞嗎？我真的不確定能不能……
+NPC-AngeDamage(0);AN94(0)<Speaker>AN94</Speaker>||:最壞的結果，就是大家都死在這裡，但這是我們做好準備的。
+NPC-AngeDamage(0)<Speaker>安潔莉婭</Speaker>||:SOP2和HK416還沒有……+她們還有任務，指揮官……指揮官還沒有脫險，你們不能倒在這裡。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:抱歉，這是指揮官的命令，就算讓我撤退，我也不能違反我的命令吧？
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||:指揮官，我不明白你為什麼一定要冒險來營救我？
+()||:……<c>對於危險，我早就習慣了，這只是個尋常任務而已。<c>先把眼前的事情做好，後面的事總有辦法。<c>你留給了我很多東西，是時候讓我來做點什麼了。
+指揮官()<Speaker>指揮官</Speaker>||<分支>1</分支>:對於危險，我早就習慣了，這只是個尋常任務而已。
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||<分支>1</分支>:所以你從來都不知道你自己有多重要，對嗎？
+AK12(0)<Speaker>AK12</Speaker>||<分支>1</分支>:所以指揮官才顯得重要，不是嗎？沒有冒險就沒有勝利哦。
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||<分支>2</分支>:格里芬需要的是充滿戰略眼光的指揮官，而不是和我一樣的傻瓜。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||<分支>2</分支>:抱歉，我想我們都不太合格，所以我們這群傢伙才一直被捆住一起吧？
+NPC-AngeDamage(3)<Speaker>安潔莉婭</Speaker>||<分支>3</分支>:這是戰場，不是人情債！指揮官，我們互相不欠什麼東西！
+HK416(0)<Speaker>HK416</Speaker>||<分支>3</分支>:現在是你欠這位指揮官的了，安潔，想想得救後的感謝信吧。
+AN94(0)<Speaker>AN94</Speaker>||:既然已經決定了，安潔，想想接下來的對策吧。
+NPC-AngeDamage(0)<Speaker>安潔莉婭</Speaker>||:……好吧。+我們現在的任務是拖住敵人，撐到那些土炸彈設置完畢。+軍方會不惜一切代價進攻大樓的，一定要爭取更多時間！
+RO635(6)<Speaker>RO635</Speaker>||<BGM>BGM_Empty</BGM>:SOP2，416，軍方從四個方向包圍過來了！
+HK416(0)<Speaker>HK416</Speaker>||<BGM>BGM_Reverse</BGM>:真的是……把全部的主力都集結過來了。
+HK416(0)<Speaker>HK416</Speaker>||:他們已經反應過來了，確認安潔就在大樓裡面！
+RO635(6)<Speaker>RO635</Speaker>||:回想起來，這是第一次吧……和軍方的主力正面迎擊。+真是遺憾……很想用人形素體來參加戰鬥呢。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>;RO635(6)||:先好好睡一覺吧，RO。+等你醒來，我們就帶著安潔離開這裡了！
+SOPIIDamage(0);RO635(6)<Speaker>RO635</Speaker>||:反正現在我也幫不上什麼忙，交給你嘍。
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>;RO635(6)||:不……還是醒著吧，RO？
+SOPIIDamage(2);RO635(6)<Speaker>RO635</Speaker>||:誒？為什麼？
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>;RO635(6)||:我們兩個加在一起，才是AR小隊啊。
+RO635(6)<Speaker>RO635</Speaker>||:……隨便你啦。+我會幫你記錄下這一切，AR小隊對抗軍方主力的一幕。
+HK416(3)<Speaker>HK416</Speaker>||<黑屏1>:敵人要來了！重火力準備迎擊！+指揮官，這裡是最後的防線，一定要抵擋住他們的襲擊，為忤逆小隊爭取時間吧！
+()||<BIN>10</BIN><黑点2>:

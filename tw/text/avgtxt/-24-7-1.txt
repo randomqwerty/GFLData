@@ -1,0 +1,14 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
+()||<BIN>47</BIN><BGM>BGM_Empty</BGM><黑屏2>:……SOP2選擇潛入鐵血的儲備據點，先竊取備用電源。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:找到了！這樣一來……RO就可以——
+()||<闪屏><duration>5</duration></闪屏>:
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏>:……轟——！
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_stage10</BGM>:……！那個聲音！
+SOPIIDamage(2)<Speaker>？？？</Speaker>||:<color=#00CCFF>很好，剩下的一批格里芬的垃圾被清理掉了。</color>+<color=#00CCFF>除了……最後一點碎屑。</color>
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:……稻草人！
+SOPIIDamage(3);BOSS-1(0)<Speaker>稻草人</Speaker><通讯框>||:<color=#00CCFF>為什麼要躲到我們的倉庫裡去呢？</color>+<color=#00CCFF>難道相信最危險的地方就最安全嗎？</color>+<color=#00CCFF>確實呢，你將你的死期延後了不少，通過犧牲那些同伴。</color>
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>;BOSS-1(0)||:閉嘴！你這個混蛋！+我會幹掉你，用你計算不出來的方式！
+SOPIIDamage(3);BOSS-1(0)<Speaker>稻草人</Speaker>||:<color=#00CCFF>請便，反正我們都只是在……執行工作而已。</color>+<color=#00CCFF>處理掉剛才那些垃圾，還是處理掉你，沒有區別。</color>
+SOPIIDamage(3)<Speaker></Speaker>||:……
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||<黑屏1>:經過剛才的戰鬥，稻草人的部下已經不多了……+我還有打敗它的機會……+為了給大家報仇，也為了活著離開這裡……+我……必須打敗它！
+()||<黑点2><BIN>10</BIN>:

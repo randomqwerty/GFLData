@@ -1,0 +1,116 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>197</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator>:「未來號」洲際列車 損毀的車廂外不遠處
+()||<SE1>AVG_amb_thunderrain</SE1>:雨夜裡，伊文上尉正在待命。+直到通訊終於響起——
+NPC-Tareus(3)<通讯框><Speaker>塔亞柔斯</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>……開始行動。</color>+<color=#00CCFF>我要這個人形。</color>
+()||<SE1>AVG_tele_connect</SE1>:一串代碼發了過來……+伊文上尉輸入指令後，出現了一個戴著帽子的嚴肅面孔。
+AR18(6)<Speaker></Speaker>||<黑点1>:<color=#00CCFF>「Я」教官——隸屬第七總局下屬特別作戰訓練隊，此人形為該分隊唯一在編人形，數據資料不明，極度危險。</color>
+()||<黑点1><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:……
+()||<黑点2><BIN>528</BIN><Night><narrator>:「未來號」洲際列車 車廂內
+()||<SE1>AVG_Water_Drip</SE1><BGM>GF_EV9_Story</BGM>:啪嗒。+夜雨依然沒有停歇，雨水在車廂內積成了水泊，水滴的聲音襯得壓抑的人群顯得更加沉默。
+()||<SE1>AVG_footsteps_woodfloor</SE1>:身穿防護服的乘客們在蘇珊娜的帶領下，緩緩地朝著柳德米拉指示的1號特等車廂前進著。
+NPC-TD_Porter(0)<Speaker>蘇珊娜</Speaker>||:請慢一點兒，這裡的路不好走。
+()||:扭曲的車廂顛簸起伏，以至於隊伍行進的速度也十分緩慢，腿腳不便的老人甚至需要蘇珊娜的攙扶才能跨過那些障礙。+突然，一名乘客尖叫起來，瞬間吸引了大家的注意力。
+()<Speaker>普通乘客A </Speaker>||<SE1>Stop_AVG_loop</SE1>:他們動了！+乘務員你看外面！
+()||<SE1>ClothingUp</SE1>:蘇珊娜聽著聲音看向窗外——
+()||<SE1>AVG_Fire_Bonfire</SE1>:燈光開始變得密集……他們似乎朝著車廂走過來了。
+()<Speaker>普通乘客A </Speaker>||<SE1>Stop_AVG_loop</SE1>:他們要動手了……+完了……我不要死在這裡！
+()||<SE1>RunStep</SE1>:他迅速往1號車廂奔跑，甚至不顧腳下的泥濘和散落一地的碎片。
+()<Speaker>普通乘客B </Speaker>||:……我們，我們也趕緊跑吧！
+NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>蘇珊娜</Speaker>||:……注意腳下！+不要踩踏！！！
+()||<SE1>AVG_Crowd_Run</SE1>:但沒有人在意她的話語。+車廂外密集的燈光彷彿驅趕飛蛾的火把，追逐著人們進入命定的牢籠。+眾人奔跑了起來，只有一個高大的身影形單影只地與大部隊隔著一段距離。
+NPC-TD_Worker(1)<Speaker>保爾</Speaker>||:……蘿希塔，你還能堅持嗎？
+()||<SE1>ClothingUp</SE1>:蘿希塔蜷縮在保爾背後，裸露的皮膚上，硅化的情況似乎越來越嚴重了。
+NPC-SickGirl(2)<Speaker>蘿希塔</Speaker>||:保爾……我想念你做的三明治了。
+NPC-TD_Worker(1)<Speaker>保爾</Speaker>||:等看過醫生以後，我就給你做。
+NPC-SickGirl(1)<Speaker>蘿希塔</Speaker>||:嗯……
+()||<黑点1>:亂騰騰的人群中，無人在意他們。+在這樣的末日下，每個人的餘力能夠顧及的，只有自己的性命。
+()||<黑点2><BIN>530</BIN><Night><narrator>:「未來號」洲際列車 F01/F02車廂連接處
+()||:這簡直是一條漫長得令人焦躁的路程。+終於，他們來到了1號車廂門口。
+()||<SE1>AVG_Knock</SE1>:咚咚咚——！+蘇珊娜擠到人群前面，掏出了電子密鑰。
+()||<SE1>AVG_21Winter_Error</SE1>:滴滴……+權限不足。
+NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>蘇珊娜</Speaker>||:<color=#A9A9A9>……混蛋瑪姬！</color>+……裡面的乘客……我是乘務員蘇珊娜。+現在的倖存者們需要乾淨的水、食物和休息。+請放我們進去。
+()||<SE1>AVG_Cloak_Whoosh</SE1>:唰——+車門上的窗戶上出現了一張富態的臉。
+()<Speaker>富態的男人</Speaker>||:……放你們進來可以。+把防護服都脫掉。
+()<Speaker>普通乘客A </Speaker>||:！？+你，你在說什麼啊！+這邊的淨化裝置都已經停擺了！+我們馬上就會暴露在紅區！
+()<Speaker>富態的男人</Speaker>||:所以才叫你們脫掉！誰知道防護服上帶著多少細菌和輻射？
+()<Speaker>普通乘客A </Speaker>||:什……
+()<Speaker>富態的男人</Speaker>||:就暴露個一兩分鐘死不了的！+要是讓你們帶著輻射粒子進來，我們不也完蛋了嗎！
+()||:門外的乘客們面面相覷。+一想到身後的燈光仍在靠近，他們沉默了一會，最終還是屈辱地開始解開身上的防護服。
+()||<SE1>AVG_Cloak_Whoosh</SE1>:老人，年輕人，男人，女人……
+()<Speaker>普通乘客A </Speaker>||:……現在可以了吧！
+()<Speaker>富態的男人</Speaker>||:哼……
+()||<SE1>ClothingUp</SE1>:男人慢悠悠地轉過身，像是準備開門的樣子。+但突然，他好像注意到了什麼，一下抬起了頭。
+()<Speaker>富態的男人</Speaker>||:等等，那女的怎麼回事！？
+NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>保爾</Speaker>||:……！
+()||:男人所指的，就是被保爾背在身後的蘿希塔。
+()<Speaker>富態的男人</Speaker>||:這不是已經被感染了！+是想害我們全部都被感染嗎！
+NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>保爾</Speaker>||:她還沒有徹底硅化！+她還有救……車廂裡有醫生的對吧……+請讓她見見醫生！
+()<Speaker>富態的男人</Speaker>||:這種條件下醫生有什麼用！+別，別想進來了！我們可不想死！
+()<Speaker>普通乘客A </Speaker>||<SE1>AVG_Crowd</SE1>:什，什麼？我們都按你說的做了啊！+她感染了我們可沒感染！放我們進去！
+()<Speaker>富態的男人</Speaker>||:誰知道你們有沒有被她傳染！
+NPC-SickGirl(1)<Speaker>蘿希塔</Speaker>||<BGM>BGM_Empty</BGM>:保爾……
+()||<SE1>Rope</SE1>:就在眾人爭執不休的時候，被保爾背在身後的蘿希塔抓住了他。
+NPC-SickGirl(1)<Speaker>蘿希塔</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:不要，不要把我送到那些討厭我的人那裡……+我……我已經不想再待在那種地方了……
+NPC-SickGirl(1)<同时置暗><Speaker></Speaker>||:蘿希塔說話的時候，對著保爾彷彿是在笑。+但她那雙不能視物的眼睛，卻不斷在落下淚水。
+NPC-SickGirl(1)<Speaker>蘿希塔</Speaker>||:我……我不想再回到一個所有人都討厭我的地方。+讓我留在這……至少在這裡，還有你，保爾，有你在就夠了。
+()||:蘿希塔的聲音彷彿存在著某種魔力。+儘管在這爭執中，她的聲音輕到幾乎只有近在咫尺的保爾能夠聽見，但這一刻，不論是門裡，還是門外，吵鬧的聲音都靜止了。+在這壓抑的沉默中，保爾頓了良久，才慢慢開口。
+NPC-TD_Worker(2)<Speaker>保爾</Speaker>||:……蘿希塔，我只是一個人形，不是你的同伴。+我不能待在你身邊，你應該去往人類的世界，你屬於那邊。
+NPC-SickGirl(1)<Speaker>蘿希塔</Speaker>||:……我知道我應該屬於哪裡，保爾，我不在乎你是人形還是人類。+我在乎的同伴是會關心我的人，而不是討厭我的人。
+NPC-TD_Worker(2)<Speaker>保爾</Speaker>||:……
+()||:死一般的寂靜中，過了很久很久，才從門內傳出一個悠悠的聲音。
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:……放他們進來。
+()<Speaker>普通乘客A </Speaker>||:什……聽到了嗎！快開門！
+()<Speaker>富態的男人</Speaker>||:……醫生你，你瘋了嗎？那邊有感染者！
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:如你所說，我的職業是醫生。+而且，把他們擋在門外，你認為我們有辦法獨善其身嗎？
+()<Speaker>富態的男人</Speaker>||:其他人就算了……那個感染者呢？她會傳染我們所有人！
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:我來解決，把門打開。
+()<Speaker>富態的男人</Speaker>||:……
+()||<黑点1>:面對魯戈薩不容置疑的聲音，男人的氣勢被徹底壓倒，張大著嘴巴說不出話。
+()||<黑点1><BIN>9</BIN><关闭蒙版>:……
+()||<黑点2><BIN>533</BIN><Night><SE1>AVG_BaseDoor_Open</SE1>:隨即，從內部反鎖的大門終於緩緩打開。
+NPC-TD_Boy(1)<Speaker>盧卡斯</Speaker>||:……請進。+麻煩按照次序在我這裡登記。
+()||<SE1>AVG_Crowd_Run</SE1>:門外的人類倖存者們慌不擇路地瞬間擠入了車廂，就像生怕下一秒裡面的人反悔一般。
+()||<SE1>AVG_20Winter_Chains_Break</SE1>:保爾對著魯戈薩醫生鞠了一躬。
+NPC-TD_Worker(1)<Speaker>保爾</Speaker>||:……謝謝您。+蘿希塔，就拜託您了。
+()||<SE1>ClothingUp</SE1>:他放下背上的蘿希塔，交給了蘇珊娜。+盧卡斯發現除了蘇珊娜，其餘的人形們都沒有進入車廂。
+NPC-TD_Boy(0)<Speaker>盧卡斯</Speaker>||:你們不進來嗎？
+()||:保爾搖了搖頭。
+NPC-TD_Worker(1)<Speaker>保爾</Speaker>||:我們的責任是保護人類。
+()<Speaker>馬戲團人形</Speaker>||:……沒錯，如果有危險，我們在2號車廂也能幫大家抵擋一波。
+()||:其餘人形有的沉默，有的嘆氣。+說不定大家都想去1號車廂，但是……也許是因為人形聚集在一起就產生了勇氣，也許是別的什麼，最終，還是沒有更多的人形邁出步伐。
+()||<SE1>ClothingUp</SE1>:這次，反而是魯戈薩醫生對著大家鞠了一躬。
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:拜託了。
+NPC-TD_Worker(1)<Speaker>保爾</Speaker>||:我去檢查列車設備。
+()||:魯戈薩點點頭，目送保爾轉身離開，目光又轉移到陷入昏睡中的蘿希塔身上。
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:……盧卡斯，去拿我的藥箱。
+NPC-TD_Boy(0)<Speaker>盧卡斯</Speaker>||:是。
+()||:盧卡斯點了點頭，轉身跟著蘇珊娜一同進到了車廂內。
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:……
+()||:魯戈薩一人站在門外，若有所思地眺望了一下整列車廂——空盪的長廊彼端，沒有半點生氣。
+()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:他轉過身，走進車廂，關上了大門。+……
+()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:「未來號」洲際列車 F01車廂 休息室內
+NPC-TD_Boy(0)<Speaker>盧卡斯</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:……先生，我已經按照教官意思安排下去了。
+AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……多謝。+接下來就請你們照顧這裡了，我需要去支援一個人。
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:你放心。
+()||:在他的身後，休息室的門前，那凜然的身影飄然現身。
+AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:可惜……我沒有什麼可以回報二位的信任。
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:……+你還有多餘的手槍嗎？
+AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
+()||:柳德米拉偏頭看了看魯戈薩醫生的背影，他看起來非常平靜，沒有半分動搖。
+AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:你想做什麼？
+NPC-Doctor(0)<Speaker>魯戈薩醫生</Speaker>||:我會和他們戰鬥到最後一刻，就如同之前你們對律賊一樣。
+AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
+()||:柳德米拉盯著魯戈薩，後者沒有任何遲疑或是猶豫。
+()||<SE1>Select</SE1>:半晌，她從腰間的槍套裡拔出了自己的手槍，反持著將槍遞給醫生。
+()||<SE1>Rope</SE1>:魯戈薩醫生鄭重接過手槍。
+NPC-TD_Boy(0)<Speaker>盧卡斯</Speaker>||:……！
+()||<黑屏1>:盧卡斯看著醫生，臉上浮現出愁容。
+()||<黑屏2><BIN>519</BIN>:魯戈薩的臉上映射著窗外的火光。+特等車廂以外的地方，那些軍隊的觸手已經延伸到了列車的周遭。
+()<Speaker>魯戈薩醫生</Speaker>||:如果我沒有猜錯的話，你就是他們的目標？
+()<Speaker>柳德米拉</Speaker>||:……是。+所以我會親手解決這一切。
+()<Speaker>魯戈薩醫生</Speaker>||:所以你打算怎麼做？
+()<Speaker>柳德米拉</Speaker>||:讓黎明照亮黑夜。
+()<Speaker>魯戈薩醫生</Speaker>||:能夠在這種時刻與你相識，柳德米拉教官。+我很欣慰。
+()<Speaker>柳德米拉</Speaker>||:一樣，尤金·魯戈薩醫生。
+()||:柳德米拉閉上眼，難得地笑了笑，邁步踏出了門。
+()||<黑屏1>:……

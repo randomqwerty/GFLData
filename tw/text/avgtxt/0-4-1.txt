@@ -1,0 +1,26 @@
+代理人()<Speaker>代理人</Speaker>||<BGM>BGM_Empty</BGM><SE1>Heartbeat</SE1><BIN>9</BIN><黑屏1>:……我把你的死亡送到了。+現在，睜開眼……
+代理人()<Speaker>代理人</Speaker>||<睁眼><SE1>m4a1_015</SE1><火花>1.7</火花><BIN>11</BIN>:……看著我，戰術人形M4A1，看著我。
+代理人()<Speaker>代理人</Speaker>||<BGM>BGM_Sad</BGM>:謝幕時間到了，我要你全程在場。
+M4A1()<Speaker>M4A1</Speaker>||<震屏><SE1>Rope</SE1><SE2>m4a1_013a</SE2><黑屏1>:咳…… + 代理……人……
+代理人()<Speaker>代理人</Speaker>||<拉伸><BIN>12</BIN>:真有趣。你連臨死時的眼神，都和她們不一樣。+不過，就是這種眼神。再驚訝一點，再不甘心一點，再痛恨我一點！
+M4A1()<Speaker>M4A1</Speaker>||<震屏><SE1>Rope</SE1><SE2>m4a1_013b</SE2><黑屏1><关闭火花>:咳……咳……
+代理人()<Speaker>代理人</Speaker>||<黑屏2><黑屏1><平移><SE1>Battlefield</SE1><刮花><边框>2</边框><BIN>20</BIN>:你們偷走了主人那麼重要的東西，還以為能一走了之？+先是你，然後是你的AR小組，還有那些還在為你賣命的格里芬人形。+很快，她們就會像失去雙親的嬰兒一樣不知所措。+她們會在戰場上盲目地掙扎，然後成為我們的獵物……
+代理人()<Speaker>代理人</Speaker>||<SE1>Rope</SE1><黑屏2><BIN>12</BIN><火花>:只要你死了……只要再過幾秒鐘，你死在這裡！
+M16A1()<Speaker>M16A1</Speaker>||<BGM>BGM_Empty</BGM><SE1>Select</SE1><打海猫2>:……抱歉，她可不會死在這裡。
+代理人()<Speaker>代理人</Speaker>||:…………！
+()||<关闭火花><快跑><SE1>RunStep</SE1>:
+M16A1()<Speaker>M16A1</Speaker>||<黑屏2>0,4</黑屏2><SE1>MachineGunBurst</SE1><BIN>14</BIN><BGM>BGM_Danger</BGM><开火>:也沒什麼幾秒鐘了，現在就下地獄吧—— + 鐵血的渣滓！
+()||<开火><SE1>MachineGunBurst</SE1><SE2>TiexueDie</SE2><黑点1>:
+M4A1(1)<Speaker>M4A1</Speaker>||<黑点2><BIN>15</BIN>:咳……咳……
+M16(0)<Speaker>M16A1</Speaker>;M4A1(1)||:感謝我吧，你又一次和死神擦肩而過。
+M16(0);M4A1(1)<Speaker>M4A1</Speaker>||:呼……M16，外面怎麼樣了？AR-15她們還在——
+AR15(0)<Speaker>AR15</Speaker>;M4A1(1)||:我們回來了，鐵血的增援到了，我們必須快點撤退。
+AR15(0);SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:支援小隊的人形還能幫我們擋一會兒，我們快走吧！
+M16(3)<Speaker>M16A1</Speaker>;SOPII(0)||:M4，你還能指揮嗎？好像傷得不輕。
+M16(3);M4A1(1)<Speaker>M4A1</Speaker>||<黑屏1>:沒有大礙，咳……M16，請幫我修復一下，我先看看指揮系統。
+M4A1(0)<Speaker>M4A1</Speaker>||<黑屏2><BIN>10</BIN>:還好，戰術地圖沒事，那麼通訊系統呢？
+VZ61(0)<Speaker>VZ61</Speaker><通讯框>||:通訊完全正常！這邊聽得很清楚！
+M4A1(2)<Speaker>M4A1</Speaker>||:（……她們就是留守在這裡的人形梯隊。）+……抱歉，要麻煩你們殿後了。
+PPSh41(0)<Speaker>PPSh-41</Speaker><通讯框>||:別客氣，同志，這是我們應該做的。
+M4A1(0)<Speaker>M4A1</Speaker>||:（……她們……還不知道自己被拋棄了嗎。）+……瞭解，我們會儘快完成撤離。
+AR15(2)<Speaker>AR-15</Speaker>||:支援小隊堅持不了多久，我們得快點前進！

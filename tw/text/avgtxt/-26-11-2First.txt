@@ -1,0 +1,60 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>46</BIN><黑屏2><BGM>BGM_Room</BGM>:……在重火力梯隊的協助下，HK416的部隊迅速攻下了軍方的偵察據點。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:敵人已經全部消滅了，416，你還在找什麼，快點和指揮官報告啊？
+HK416(0)<Speaker>HK416</Speaker>;SOPIIDamage(0)||:還沒有，掃描顯示還有幾個活著的人類信號。
+HK416(0);SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:那應該是感染者吧，活人都是些沒有武裝的後勤人員啊，剩下的不是被感染者幹掉了就是逃跑了。
+HK416(0)<Speaker>HK416</Speaker>||<黑点1>:不要掉以輕心，確保一個敵人都不能留下，不管那是誰……+……就在這個門後面。
+()||<BIN>9</BIN><黑点2>:……大家靠近醫療室前，裡面傳來低吟和爬動的聲音。
+RO635(6)<Speaker>RO635</Speaker>||:（低聲）房間裡確實有人，但是根據站位元判斷，不像是警戒中的敵人……
+HK416(0)<Speaker>HK416</Speaker>;RO635(6)||:（低聲）也有可能是感染者。
+HK416(0);SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||: （低聲）總之，我們不能進攻手無寸鐵的人類！
+HK416(0)<Speaker>HK416</Speaker>||:那不是你能決定的，祈禱我們的視覺反射比扣扳機的指頭要快吧。+準備好，三個數後開始進攻，3……+2……+1……
+()||:……砰！HK416一腳踹開門。
+感染者()<Speaker>感染者</Speaker>||<BIN>160</BIN><Night><震屏>:呃啊啊啊啊啊！
+HK416(0)<Speaker>HK416</Speaker>||:是感染者——！
+()||<SE2>Gunkill</SE2>:……砰砰！+……HK416和SOP2消滅了感染者。
+HK416(0)<Speaker>HK416</Speaker>||:我就知道……
+RO635(6)<Speaker>RO635</Speaker>||:416，角落裡……
+()||:……HK416看向房間的角落，幾個人類正蜷縮著身體，滿臉恐懼。
+()<Speaker>人類女性</Speaker>||:求求你……我只是個醫生……求求你們……咳咳……
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||:416，那個人被感染了，不過比較輕。
+()<Speaker>人類男性</Speaker>||:我……咳咳……只是在救他們……咳……
+HK416(0)<Speaker>HK416</Speaker>||:你們誰也救不了，SOP2，把他們綁起來，然後我們撤退。
+HK416(0)<Speaker></Speaker>||:……HK416聯絡指揮官。
+HK416(0)<Speaker>HK416</Speaker>||:指揮官，我們已經拿下了這個據點，接下來的行動……
+HK416(3)<Speaker>HK416</Speaker>||<震屏>:……什麼？安潔可能被發現了？
+HK416(3);SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||:喂，這怎麼可能……
+HK416(0)<Speaker>HK416</Speaker>;SOPIIDamage(2)||:指揮官說，葉戈爾的部隊……可能沒有看到安潔和我們在一起。
+HK416(0);SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||:我們該怎麼辦？如果軍方進了大樓，那我們就白跑一趟了，而且還趕不回去……
+HK416(0)<Speaker>HK416</Speaker>;SOPIIDamage(2)||:軍方的偵察隊還沒有進入大樓，他們在追擊的同時，大概還在遠端觀察我們，想通過目擊來確認安潔是不是在他們的追擊目標中。
+HK416(0)<Speaker>HK416</Speaker>||<黑点1>:指揮官，我們該怎麼辦？難道現在就撤回大樓幫助安潔嗎？
+()||<BIN>9</BIN><黑点2>:……通訊影像中HK416的身後，SOP2正在捆綁那幾個軍方的戰地醫生。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>416，我找到一些腎上腺素！也許對安潔有用！</color>
+HK416(0)<Speaker>HK416</Speaker><通讯框>;SOPIIDamage(0)||:<color=#00CCFF>把它們帶走，如果沒有辦法我們就只能撤退了，指揮官。</color>
+HK416(0)<Grey>;SOPIIDamage(0)<Grey>||:
+指揮官()<Speaker>指揮官</Speaker>||:唔……<c>如果有原材料呢？<c>只是個模糊的身影，可以騙到軍方嗎？<c>醫療室裡找得到能染色的東西嗎？
+HK416(0)<Speaker>HK416</Speaker>||<分支>1</分支>:<color=#00CCFF>原材料？</color>+<color=#00CCFF>指揮官……你在看什麼？那些人類？我想這超出了人形的思考範圍。</color>
+HK416(0)<Speaker>HK416</Speaker>||<分支>2</分支>:<color=#00CCFF>應該可以，只要我們離得夠遠，這個距離我能把握好。</color>+<color=#00CCFF>指揮官，你想到什麼了嗎？</color>
+HK416(0)<Speaker>HK416</Speaker>||<分支>3</分支>:<color=#00CCFF>染色……？（轉頭）人類，這裡有染色劑嗎？</color>
+人類女性()<Speaker>人類女性</Speaker>||<分支>3</分支>:有……用來塗抹戰妝的道具……
+HK416(0)<Speaker>HK416</Speaker><通讯框>||<分支>3</分支>:<color=#00CCFF>你聽到了，指揮官，不過那有什麼用？</color>
+()||<黑点1>:……指揮官說出了一個方案。
+RO635(6)<Speaker>RO635</Speaker>||<BIN>160</BIN><Night><黑点2>:416，你們有辦法了嗎？軍方就快追過來了！現在怎麼辦，我們又沒法變出一個安潔來啊！
+HK416(0)<Speaker>HK416</Speaker>;RO635(6)||:RO……+……我們為什麼變不出來？
+HK416(0);RO635(6)<Speaker>RO635</Speaker>||:416？指揮官對你說了什麼？我們該怎麼辦？
+HK416(0)<Speaker>HK416</Speaker>||<黑点1>:我在404只學到一件事，沒有風險就沒有回報，只要能完成任務，我什麼都會去做。+現在，那我們玩個遊戲吧。
+()||<BIN>46</BIN><黑点2>:……這時，安潔聯絡了指揮官。
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||:指揮官，我……+抱歉，我想不到辦法……+葉戈爾的目標只有我，只要我離開了大樓，就一定會引來他們的注意，尤其他們現在已經注意到大樓有問題。
+NPC-AngeDamage(2);AN94(4)<Speaker>AN94</Speaker>||:安潔，別太灰心，他們的偵察隊還沒有進一步行動。
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||:這次我真的沒辦法了……如果一切都是為了我一個人，我實在不知道如何讓所有人活下來……+指揮官，你已經盡力了，而且我想說的都已經說完了，我想這個時候……
+指揮官()<Speaker>指揮官</Speaker>||:安潔……<c>我是來救你的，你想讓我的任務失敗嗎？<c>想想忤逆小隊，你要放棄她們嗎？<c>現在就投降了嗎？我們還有時間去考慮吧！
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||<分支>1</分支>:我們都經歷過很多失敗，很多時候不是自身的原因。你已經做得很好了，只是我……
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||<分支>2</分支>:她們可以逃出去的，葉戈爾是不會把人形當作獵物的，而我……
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>||<分支>3</分支>:你們沒法和軍方糾纏太久，我想一切就到此為止了，是時候讓我……
+NPC-AngeDamage(2);AK12(2)<Speaker>AK12</Speaker>||<震屏>:你到底在說什麼，安潔？+如果你放棄了，我們該怎麼辦？
+NPC-AngeDamage(1)<Speaker>安潔莉婭</Speaker>;AK12(2)||:指揮官會照顧你們的，你們會有更合適的戰場去發揮實力。
+NPC-AngeDamage(1);AN94(4)<Speaker>AN94</Speaker>||:但是，你是我們這次保護的目標，如果失敗了，那我們……
+NPC-AngeDamage(2)<Speaker>安潔莉婭</Speaker>;AN94(4)||:我知道你們會很難過，但是只要把雲圖刪掉——
+NPC-AngeDamage(2);AK12(2)<Speaker>AK12</Speaker>||:像你對AR小隊做的那樣嗎？你想再次刪掉SOP2的記憶嗎？+為了讓大家都忘掉你，你到底還想死多少次！
+NPC-AngeDamage(1)<Speaker>安潔莉婭</Speaker>||:……+沒時間了，快點離開吧。+帶著這次戰鬥的資料，還有重火力支援小隊，帶著這些回去，為我復仇……
+NPC-AngeDamage(3)<Speaker>安潔莉婭</Speaker>||<黑屏1>:……什麼？指揮官？你說……什麼……？+……有個辦法？

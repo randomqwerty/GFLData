@@ -1,0 +1,39 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
+()||<BIN>157</BIN><BGM>BGM_Room</BGM><黑屏2>:
+()||:……忤逆小隊最終找到了救援小隊留下的記號！
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:驚喜——！+啊哈哈哈！終於找到你們啦，忤逆小隊！
+AN94(2)<Speaker>AN94</Speaker>||:你要是動作比語言再快一點，我就會把你判定成敵人發動進攻了。
+HK416(0)<Speaker>HK416</Speaker>||:抱歉，這是AR小隊的M4SOPMODII，這邊是忤逆小隊的AK12和AN94，我是HK416，你們兩邊都見過我。
+AN94(0)<Speaker>AN94</Speaker>||:可以的話倒不是特別想見到你，不過現在也沒有辦法。
+HK416(0)<Speaker>HK416</Speaker>||:沒錯，我們可沒時間增進感情了，說正題吧——安潔在哪兒，她怎麼樣了？
+HK416(0)<Speaker></Speaker>||:……AN94望向身後，發現安潔躺在AK12的背上。
+AN94(2)<Speaker>AN94</Speaker>||:安潔……安潔她——
+AK12(2)<Speaker>AK12</Speaker>||:幾分鐘前……她受到了嚴重的輻射，暫時昏過去了。+都是因為我們搜索時多花了些時間，不過沒有生命危險，只是後面的戰鬥暫時只能靠我們了。
+HK416(0)<Speaker>HK416</Speaker>||:真可惜，只能下一次打招呼了。+不過這裡不只有我們，還有指揮官和重火力人形。
+AN94(5)<Speaker>AN94</Speaker>||:重火力……什麼？
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:我們的新玩具！她們正在遠端支援我們，是對抗坦克的專家哦，大家絕對會喜歡的！
+AK12(0)<Speaker>AK12</Speaker>||:那我們暫時還有救，想想接下來該怎麼辦吧。
+AN94(0)<Speaker>AN94</Speaker>||:這裡的污染指數大幅降低，雖然無法完全脫險，但是暫時不會對安潔形成致命威脅。
+RO635(6)<Speaker>RO635</Speaker>||:那就繼續往污染更輕的區域移動吧，安潔這個狀態可能要撐不住了。
+AK12(3)<Speaker>AK12</Speaker>||:咦？誰在說話？
+RO635(6)<Speaker>RO635</Speaker>||:啊別在意我，我只是提個建議——
+AN94(2)<Speaker>AN94</Speaker>||<SE1>Reload</SE1><BGM>BGM_Empty</BGM>:等等，有聲音！
+AK12(2)<Speaker>AK12</Speaker>||<BGM>BGM_Danger</BGM><SE1>Gunfight</SE1><SE2>MachineGunBurst</SE2>:是軍方的人形！沖我們來的！
+AN94(2)<Speaker>AN94</Speaker>||<黑屏1><SE1>RunStep</SE1>:前面有一條棄用的防線，帶著安潔先躲進去！
+()||<BIN>9</BIN><SE1>Explode</SE1><SE2>Gunfight</SE2><闪屏><duration>5</duration></闪屏>:……轟！轟！
+AK12(2)<Speaker>AK12</Speaker>||:大家，快點！我們到了！
+HK416(3)<Speaker>HK416</Speaker>||<黑屏1>:重火力小隊，掩護我們！
+()||<BIN>157</BIN><黑屏2>:……在重火力的掩護下，忤逆小隊順利沖進了掩體。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:我們還有很多王牌，別擔心，這幾個坦克一定能對付的！
+()||:<color=#00CCFF>……呲，呲。</color>
+()<Speaker>？？</Speaker>||:<color=#00CCFF>安潔莉婭……</color>+<color=#00CCFF>你果然沒讓我失望。</color>
+()||<SE2>Gunfight</SE2>:……槍聲和干擾噪音的波折下，一個男人的聲音漸漸清晰地浮現在通訊器的公共頻道中。
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker><通讯框>||:<color=#00CCFF>你從那場爆炸中活了下來，只為了給我一個能親手殺掉你的機會。</color>
+AK12(2)<Speaker>AK12</Speaker>;NPC-YegorDamage(0)||:安潔已經死了，放棄行動吧！
+AK12(2);NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker><通讯框>||:<color=#00CCFF>我不這麼認為，我知道她只是昏過去而已，就像我知道你們會來到這裡一樣。</color>
+HK416(0)<Speaker>HK416</Speaker>;NPC-YegorDamage(0)||:他知道我們回來……他算好了通往綠區的路線只有這裡！
+NPC-YegorDamage(0)<Speaker>葉戈爾</Speaker><通讯框>||:<color=#00CCFF>我會確保你不會死在炮火中，安潔莉婭。</color>+<color=#00CCFF>這樣我就能親手揪出你，為我的部下報仇！</color>
+()||:……葉戈爾關閉了通訊。
+AK12(2)<Speaker>AK12</Speaker>||<SE2>Battlefield</SE2>:我聽到坦克了，它們來了！
+HK416(3)<Speaker></Speaker>||<黑屏1>:指揮官，快用重火力小隊守住防線！+有她們在，我們就絕對沒問題的！
+()||<黑屏2><BIN>10</BIN>:

@@ -1,0 +1,40 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_Danger</BGM><SE1>Gunfight</SE1><黑屏2><BIN>98</BIN>:……
+AR15Mod(5)<Speaker>AR15</Speaker>||:UMP45！你們還沒好嗎！+返回這裡的敵人越來越多了！
+AR15Mod(5);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>在做了，別催了！</color>+<color=#00CCFF>你以為我們要做的事只是收收網線那種程度嗎？——9，用我給你的新範圍重新篩選端口——你們再堅持一下！</color>
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>;UMP45Mod(0)||<SE1>Select</SE1>:彈藥也快見底了！
+M4 SOPMOD IIMod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:<color=#00CCFF>你們在這個車上找找，一定有備用的！</color>
+AR15Mod(5)<Speaker>AR15</Speaker>;UMP45Mod(0)<通讯框>||<白屏1><SE2>Gunfight</SE2>:但是現在哪有這個空——
+()||<白屏2><SE1>Explode</SE1>:……轟！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:咳……好嗆……我說，軍方的第二第三波裝甲部隊正在朝我們突擊！+我們的重裝小隊呢？！
+RO635(5)<Speaker>RO635</Speaker><通讯框>||:重裝小隊正在找合適的攻擊位置，直接站在車頂上會成為敵人的靶子的！
+AR15Mod(5)<Speaker>AR15</Speaker>||:UMP45，這車再動不了的話，我們都會死在這的！
+AR15Mod(5);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>10秒鐘。</color>
+AR15Mod(5)<Speaker>AR15</Speaker>;UMP45Mod(0)||:什麼？
+AR15Mod(5);UMP45Mod(0)<Speaker>UMP45</Speaker>||:<color=#00CCFF>我能先讓它動一部分。</color>
+UMP9Mod(3)<Speaker>UMP9</Speaker><通讯框>;UMP45Mod(0)||:<color=#00CCFF>45姐，果然和你判斷的一樣！</color>+<color=#00CCFF>我搞定了！</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<黑屏1>:<color=#00CCFF>OK。那麼，讓我們來試試這些大炮的威力吧！</color>+<color=#00CCFF>我已經將火炮切換成榴彈模式，射擊的權限交給你們AR小隊了，盡情地釋放你們的怒火吧。</color>
+()<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><BIN>210</BIN><黑屏2><黑屏1>:太好了，給我變成煙火吧！
+()||<震屏><黑屏2>0,5</黑屏2><BIN>209</BIN><SE1>Explode</SE1>:裝甲列車的主炮不斷地開火，將敵人的陣地覆蓋成了一片火海。
+()<Speaker></Speaker>||<黑屏1><SE1>Battlefield</SE1>:在列車炮的攻擊下，裝甲列車周邊的軍方部隊暫時撤退了。+在此期間，格里芬的梯隊快速轉移至裝甲車內。
+()<Speaker></Speaker>||<BIN>202</BIN><BGM>BGM_Brain</BGM><黑屏2>:裝甲車內臨時指揮室。
+指揮官()<Speaker>指揮官</Speaker>||:現在裝甲車的狀況怎麼樣？
+RO635(0)<Speaker>RO635</Speaker>||:我們已經接管了列車全部的權限，隨時都能行駛。+列車炮的話，除了之前被重裝小隊破壞的，其他都能使用。
+RO635(0)<Speaker>指揮官</Speaker>||:嗯，接下來就等M4那邊……
+RO635(0)<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:通訊接入。
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>指揮官！不好啦！</color>
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>指揮官</Speaker>||:怎麼？
+RO635(0);M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:<color=#00CCFF>你看外面，有新的裝甲列車！</color>
+指揮官()<Speaker>指揮官</Speaker>||<BIN>208</BIN><黑屏2><BGM>BGM_Boss</BGM>:果然有第二輛嗎，後面應該會越來越多……+看來對方的準備相當充足啊……
+()<Speaker></Speaker>||<震屏><SE1>Explode</SE1>:……轟！！+另一列裝甲列車炮開始向被格里芬占領的列車發起攻擊。
+AR15Mod(0)<Speaker>AR15</Speaker><通讯框>||:<color=#00CCFF>指揮官，剛剛退避的裝甲部隊再次向我們這邊移動了。</color>
+AR15Mod(0)<Speaker>指揮官</Speaker>||<黑屏1>:立刻使用剩餘炮門還擊！+剩餘的梯隊以裝甲列車炮為依託，在我們的射程範圍內展開！+守住這裡，等待M4解除塔林基地的防禦門！
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><黑屏1><SE1>Battlefield</SE1><SE2>Gunfight</SE2>:……+…………
+()<Speaker></Speaker>||<BIN>98</BIN><黑屏2>:格里芬的全部梯隊在裝甲列車周邊與敵人交戰。
+AR15Mod(0)<Speaker>AR15</Speaker>||:敵人的攻擊越來越猛烈了！+RO，指揮官那邊有辦法壓制嗎！
+RO635(4)<Speaker>RO635</Speaker>;AR15Mod(0)||:我們的火炮數量不足，幾乎都用在另一台裝甲列車上了！+向後收縮一下防線吧，指揮官說會讓重裝小隊全力支持我們這一側。
+RO635(4);AR15Mod(0)<Speaker>AR15</Speaker>||:那指揮官那邊呢？
+RO635(4)<Speaker>RO635</Speaker>;AR15Mod(0)||:現在護盾全功率運轉，應該還撐得住。
+AR15Mod(4)<Speaker>AR15</Speaker>||:即使能撐住這一時半刻，也不是長久之計……
+()<Speaker></Speaker>||:AR15向遠處望去，高聳的厚重防護壁依舊紋絲不動。+她抿了抿脣，將注意力轉回眼前的敵人上，果斷地扣下了扳機。
+AR15Mod(4)<Speaker>AR15</Speaker>||<黑屏1>:M4……我會拼上全力守住你的歸處的。+所以，你一定要快一點啊……

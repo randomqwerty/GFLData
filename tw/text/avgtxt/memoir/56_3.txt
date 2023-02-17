@@ -1,0 +1,50 @@
+()||<BGM>BGM_Empty</BGM><BIN>9</BIN><黑屏1>0,10</黑屏1>:
+SOP2()<Speaker>SOP2</Speaker>||<黑屏1>:這裡是……什麼地方？
+()||<黑屏2><BIN>72</BIN><BGM>BGM_Room</BGM>:在虛無的空間裡，SOP2向四處張望著。
+RO635(0)<Speaker>RO635</Speaker>||:這裡是某個大型的資料庫。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:咦，RO你恢復原狀了？！+不對……我現在是在二級平層裡？
+SOPIIDamage(0);RO635(0)<Speaker>RO635</Speaker>||:是啊，我們剛剛被帕斯卡丟進來的。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>;RO635(0)||:哦哦，想起來了……
+RO635(4)<Speaker>RO635</Speaker>||:總覺得有些不妙啊……這個地方。
+()||:……通訊接入。
+NPC-Persica(2)<Speaker>帕斯卡</Speaker><通讯框>||:看來你們已經成功地連接上我的心智儲存庫了。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>;NPC-Persica(2)||:帕斯卡小姐，我們接下來要做什麼？
+SOPIIDamage(0);NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:RO要留在這裡等待她的新身體。+SOP2在分離完成之後就可以回去了。
+RO635(0)<Speaker>RO635</Speaker>;NPC-Persica(2)||:嘖……這次是完全沒有身體了嗎，算啦，總比在兵蟻裡要好……
+RO635(0);NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:告別的時刻到了，想說什麼就快點說吧。+距離分離程式啟動還有5分鐘，在那之後的一小段時間裡，你們要暫時見不了面了。
+RO635(0)<Speaker>RO635</Speaker>||:一小段時間……有多長？
+NPC-Persica(2)<Speaker>帕斯卡</Speaker>||<通讯框>:看你們能撐多久了。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:誒？你說什麼……
+Weaver(1)<Speaker>？？？</Speaker>||:察覺到有些動靜就過來看看，沒想到是你們啊……
+RO635(0)<Speaker>RO635</Speaker>||:什麼……你、你是……
+Weaver(1)<Speaker>銜尾蛇</Speaker>||:AR小組的蟲子們……+我可是……很想念你們啊。
+BOSS-9(0)<Speaker>建築師</Speaker>||:嗨——還有我，我也在哦！
+RO635(4)<Speaker>RO635</Speaker>||:喂！這是什麼情況！
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:為什麼鐵血的笨蛋會在這裡啊！
+NPC-Persica(2)<Speaker>帕斯卡</Speaker><通讯框>||:為了讓她們能派上更好的用場，格里芬把他們的雲圖轉交給我了。+現在，你們要好好相處哦——
+RO635(5)<Speaker>RO635</Speaker>||:誒？等等，這開什麼玩笑！
+Weaver(1)<Speaker>銜尾蛇</Speaker>||:哼……只有你一個人的話那就沒問題了。+RO635，讓我把你的雲圖拆成碎片吧！
+SOPIIDamage(3)<Speaker>M4 SOPMOD II</Speaker>||:我才不會讓你們欺負RO！+要變成碎片的是你們兩個傢伙才對！
+NPC-Persica(0)<Speaker>帕斯卡</Speaker><通讯框>||:誰都不可以變成碎片的哦，那樣會給我帶來麻煩的。+好啦SOP2，該和RO說再見了。
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>;NPC-Persica(0)||:可是這兩個鐵血……
+NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:沒關係的，在我的心智庫裡她們最多也就是小打小鬧。+而且你不相信RO的實力嗎？
+RO635(5)<Speaker>RO635</Speaker>;NPC-Persica(2)||:這和實力沒關係啊！+喂！帕斯卡！你就要這麼走掉嗎？
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>;NPC-Persica(2)||:RO……
+SOPIIDamage(2);NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:就算不相信RO，你也要相信我吧。+RO在這裡會很安全，我保證。
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||:那，那好吧。+既然帕斯卡小姐這麼說……
+RO635(5)<Speaker>RO635</Speaker>||:咦？什麼？等等！別啊！你們不能就這樣走掉！
+Weaver(1)<Speaker>銜尾蛇</Speaker>||:受死吧！格里芬的渣滓！+你也一起來攻擊她！建築師！
+BOSS-9(0)<Speaker>建築師</Speaker>||:啊？唉……好吧好吧，二對一的話這次應該不會輸了吧？
+RO635(4)<Speaker>RO635</Speaker>||:別、別走啊！SOP2！+先幫我搞定她們……
+RO635(5)<Speaker>RO635</Speaker>||:啊啊！鐵血的混蛋，別過來啊——！！！
+SOPIIDamage(0)<Speaker>M4 SOPMOD II</Speaker>||<黑屏1>:我先走啦，RO，等我的身體修好後會回來看你的！
+()||<BIN>9</BIN><黑屏1><BGM>BGM_Empty</BGM>:……+<color=#00CCFF>【系統】……資料庫連接中斷。</color>+<color=#00CCFF>【系統】……返回一級平層。</color>
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||<黑屏2><BGM>BGM_Hello</BGM><BIN>22</BIN>:RO……聽上去好辛苦呢。
+NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:你還有閒心擔心別人嗎？
+()||:帕斯卡拖出了一張移動置物架，上面放滿了五花八門的器械。
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||:……帕斯卡小姐，這些東西看起來好危險啊？
+NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:事不宜遲，讓我們開始動工吧！
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||:帕斯卡小姐……+你真的要給我升級，而不是拆解嗎？
+NPC-Persica(2)<Speaker>帕斯卡</Speaker>||:拆開是升級的一環啊。+放心，我已經做過了處理，不會痛的，相信我吧——
+NPC-Persica(2)<Speaker></Speaker>||:……帕斯卡露出了危險的笑容。
+SOPIIDamage(2)<Speaker>M4 SOPMOD II</Speaker>||<黑屏1>:嗚嗚……這個表情讓人很難安心啊……+現在的帕斯卡小姐比軍方還可怕啊。+唉……之後我會變成什麼樣子呢……

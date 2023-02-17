@@ -1,0 +1,42 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>159</BIN><黑屏2><BGM>m_avg_hope</BGM>:在澤林斯基調來的援助下，停留在基地外圍的叛軍遭到了毀滅性打擊。+趁著叛軍軍心動搖之際，克魯格率領著剩餘的人形衝出了基地。
+NPC-Helian(0)<Speaker>赫麗安</Speaker>||:我們成功了！
+NPC-Kyruger(0)<Speaker>克魯格</Speaker>||:是啊……
+()||:望著久違的天空，克魯格的身軀忽然向後倒去。
+NPC-Helian(0)<Speaker>赫麗安</Speaker>||:克魯格先生！
+NPC-Helian(0)<Speaker>澤林斯基</Speaker><同时置暗>||:<color=#00CCFF>赫麗安，能聽見嗎？</color>
+NPC-Helian(0)<Speaker>赫麗安</Speaker>;NPC-Zielinski(0)<通讯框>||:可以的，澤林斯基部長！
+NPC-Helian(0)<Speaker>澤林斯基</Speaker><同时置暗>||:<color=#00CCFF>援兵已經到了。</color>+<color=#00CCFF>你們安全了。</color>
+NPC-Maid(0)<Speaker>救援人形</Speaker>||:赫麗安小姐，請將克魯格先生交給我們吧。+心智伺服器請放在車上，受傷的人形們也請跟我來。
+NPC-Helian(0)<Speaker>赫麗安</Speaker>||:謝謝……謝謝你們……
+()||:克魯格勉強睜開了眼睛。
+NPC-Kyruger(0)<Speaker>克魯格</Speaker>||:沒事的，赫麗安……
+NPC-Helian(0)<Speaker>赫麗安</Speaker>||:嗯……
+NPC-Kyruger(0)<Speaker>克魯格</Speaker>||<黑屏1>:……幫我接通一下指揮官。
+()||<黑屏2><BIN>97</BIN>:……指揮官在機場等候區坐立難安，身邊的人形們默契地不去打擾。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我們真的不管指揮官嗎……
+AR15Mod(0)<Speaker>AR15</Speaker>||:讓指揮官自己冷靜一下吧。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:可是指揮官都快把自己的頭髮拔沒了……
+NytoIsomer(9)<Speaker>丹德萊</Speaker>||:人類的頭髮是可以再生的。
+RO635Mod(2)<Speaker>RO635</Speaker>||:不知道基地怎麼樣了……
+BOSS-8(0)<Speaker>代理人</Speaker>||:……
+()||<SE1>AVG_tele_connect</SE1>:嘀嘀嘀——+通訊器響了起來。
+()<Speaker>指揮官</Speaker>||:啊！
+()||<震屏>:看見上面的顯示，指揮官幾乎握不住通訊器。
+()<Speaker>指揮官</Speaker>||:克魯格先生！！！+……基地沒事嗎？大、大家呢？
+NPC-Kyruger(0)<Speaker>克魯格</Speaker><通讯框>||:<color=#00CCFF>沒事，只是看上去像是被布羅卜丁奈格國的人踩了一腳。</color>+<color=#00CCFF>……開個玩笑，放心吧，心智伺服器還在。</color>+<color=#00CCFF>我們這邊赫麗安受了點輕傷，帕斯卡損失了一點實驗器材而已。 </color>
+NPC-Persica(1)<Speaker>帕斯卡</Speaker><通讯框>||:<color=#00CCFF>損失了一點實驗器材而已？！我、我跟你沒完！</color>
+NPC-Persica(1)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:格琳娜呢？她怎麼樣？
+NPC-Kyruger(0)<Speaker>克魯格</Speaker><通讯框>||:<color=#00CCFF>她前幾天被送去醫院休養了，目前情況很穩定。</color>+<color=#00CCFF>你呢，在柏林還順利嗎？</color>
+NPC-Kyruger(0)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:我這邊非常順利，帕拉蒂斯看見我就像利立浦特人看見格列佛一樣害怕。
+NPC-Kyruger(0)<Speaker>克魯格</Speaker><通讯框>||:<color=#00CCFF>好，我就知道你能應付。</color>+<color=#00CCFF>這邊有澤林斯基的援兵，不用擔心。</color>+<color=#00CCFF>哈維爾的基地車已經在路上，接下來我們準備直接前往柏林。</color>
+NPC-Kyruger(0)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:您保重，我會在柏林等你們。
+NPC-Kyruger(0)<Speaker>克魯格</Speaker><通讯框>||:<color=#00CCFF>好，我們柏林見。</color>
+()||<SE1>AVG_tele_disconnect</SE1>:通訊掛斷。
+()<Speaker>指揮官</Speaker>||<黑屏1>:我一定把柏林的所有帕拉蒂斯鏟平，給你們一個最完美的休養環境……
+()||<黑屏2><BIN>15</BIN><BGM>BGM_Empty</BGM><SE1>Rope</SE1><火花>:叛軍特戰隊隊長握緊了手中的槍，調整著姿勢接聽通訊。
+()<Speaker>特戰隊指揮長</Speaker>||<BGM>BGM_NightOPS</BGM>:<color=#00CCFF>我們的任務完成了，組織大家一起撤退吧。</color>
+NPC-Soldier(0)<Speaker>特戰隊隊長</Speaker>||:可是克魯格和赫麗安還沒被殲滅，就這樣撤退嗎？
+NPC-Soldier(0)<Speaker>特戰隊指揮長</Speaker><同时置暗>||:<color=#00CCFF>是，但我們還有更重要的任務。</color>
+NPC-Soldier(0)<Speaker>特戰隊隊長</Speaker>||:明白。
+()<Speaker>特戰隊指揮長</Speaker>||<黑屏1>:<color=#00CCFF>莫斯科冬天的第一場雪正在等待著我們。</color>

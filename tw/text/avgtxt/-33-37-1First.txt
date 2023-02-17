@@ -1,0 +1,79 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>55</BIN><黑屏2>:塔林郊外。+AR小隊進入佈防點，等待發起進攻的時機。
+RO635(0)<Speaker>RO635</Speaker>||<BGM>BGM_Sneak</BGM>:明白了指揮官，我們會協調其他梯隊的，攻堅的任務就交給我們吧。+是，等待您的命令。
+AR15Mod(0)<Speaker>AR15</Speaker>||:任務都下達完畢了嗎？
+RO635(0)<Speaker>RO635</Speaker>||:嗯，我們這邊沒問題的。+AR15，讓M4單獨行動真的好嗎？
+AR15Mod(3)<Speaker>AR15</Speaker>||:這是她自己的判斷，我們應該相信我們的隊長。+而且，依照現在的情況，這是最佳化。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我也有點擔心……+萬一又出現她說的那樣的情況……M4不就很危險了嗎？
+AR15Mod(0)<Speaker>AR15Mod</Speaker>||:放心吧，現在的她不會像以前那樣迷茫了。
+RO635(0)<Speaker>RO635</Speaker>||:說起這個，你和M4連線之後發生了什麼事？
+AR15Mod(0)<Speaker>AR15</Speaker>||:你很好奇？
+RO635(0)<Speaker>RO635</Speaker>||:嗯。總覺得你們出來之後……感覺又有點不太一樣了。
+AR15Mod(3)<Speaker>AR15</Speaker>||:其實沒什麼。+我們只是拒絕了一些糟糕的邀請，看到了一些令人不快的故事。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:AR15……+現在你說的話，我也有點聽不懂了……
+AR15Mod(4)<Speaker>AR15</Speaker>||:……還是不懂比較好。+很多事情一旦知道了，就不會感到快樂了。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:好吧……不過我本來就不在乎那些事啦。+只要能和大家在一起就足夠了！
+()<Speaker></Speaker>||<黑点1>:這時，從遠處傳來了槍聲。+與此同時，AR小隊全員接到了通訊請求。
+RO635(4)<Speaker>RO635</Speaker>||<黑点2>:……交火比預期的時間早了，情況不太對。
+AR15Mod(2)<Speaker>AR15</Speaker>||:沒想到指揮官真能想出要搶走裝甲列車的計劃……
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:不好嗎？我還挺喜歡這個計劃的，如果能成功，我們就可以放更大的煙火了！
+RO635(0)<Speaker>RO635</Speaker>||:虧你能這麼樂觀……在奪取列車之前，我們沒成為煙火就已經不錯了……
+AR15Mod(0)<Speaker>AR15</Speaker>||:看來404那邊遭遇了一些變故，做好戰鬥準備吧。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:通訊接入。
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<BGM>BGM_Pervaded</BGM>:<color=#00CCFF>部署在裝甲車周邊的崗哨比預想的多。</color>+<color=#00CCFF>我們的滲透被發現了，而且我們沒有地方可以撤退。</color>
+AR15Mod(0)<Speaker>AR15</Speaker>;UMP45Mod(0)||:某個人形不小心踢到了石子被聽到了嗎？
+AR15Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>如果是這樣，倒還好辦一點。</color>+<color=#00CCFF>敵人的列車在外圍警戒，看起來不敢輕易地進入市區內。</color>+<color=#00CCFF>指揮官的列車被炸成碎片後，他們似乎也找不到下一個炮擊目標了。</color>+<color=#00CCFF>不過他們的地面部隊從列車上下來了，沒有見到人類士兵，但是有很多單位是我們從來沒見過的型號……</color>+<color=#00CCFF>總之，如果指揮官的計劃要實施，那就想辦法支援我們。</color>
+RO635(0)<Speaker>RO635</Speaker>;UMP45Mod(0)||:看來指揮官原來的計劃要做一些改變了。
+RO635(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>哎呀，畢竟要我們這種纖細瘦弱只擅長幹髒活的人形去奪取一大坨鋼鐵機器，實在是不太相稱呢。</color>
+RO635(2);HK416Mod(0)<Speaker>HK416</Speaker><通讯框>||:<color=#00CCFF><size=30>虧你知道還答應這個計劃……</size></color>
+RO635(2)<Speaker>RO635</Speaker>;HK416Mod(0)||:就算你抱怨也來不及了。
+RO635(0)<Speaker>RO635</Speaker>||:指揮官，這裡是AR小隊，格里芬梯隊和我們這邊的部署已經完成，404小隊已經到達了指定位置但需要支援，現在要怎麼辦？<c>優先營救404小隊。<c>集中火力突破裝甲車防衛線。
+()<Speaker>指揮官</Speaker>||<分支>1</分支>:優先營救404小隊。+如果沒有她們，我們很難奪取裝甲車的控制系統。
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<分支>1</分支>:<color=#00CCFF>看來你還是明白我們的價值的，指揮官。</color>
+()<Speaker>指揮官</Speaker>||<分支>2</分支>:集中火力突破裝甲車防衛線。+我們現在從另一側快速進攻，打他們個措手不及。+這樣也能順帶減輕404小隊那邊的壓力。
+AR15Mod(0)<Speaker>AR15</Speaker>||<分支>2</分支>:真是符合您風格的判斷，指揮官。
+RO635(0)<Speaker>RO635</Speaker>||<黑屏1>:明白了。那麼我現在向大家傳達命令。+執行“金羊毛”行動。+開始突擊！
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:……+…………
+()<Speaker></Speaker>||<SE1>Explode</SE1><黑屏1>:……轟！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Reverse</BGM><BIN>208</BIN><黑屏2>:咳咳，這玩意……比鐵血的那個炮還厲害啊……
+AR15Mod(0)<Speaker>AR15</Speaker>||:小心點。這個威力……如果被直接命中，估計連心智核心的殘骸都找不到。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我明白的啦！才不會那麼容易就被轟飛的！
+RO635(0)<Speaker>RO635</Speaker>||:UMP45，你們那邊怎麼樣了！
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>我們離列車還有六百公尺！</color>+<color=#00CCFF>雖然步兵大部分都去了你們那邊，但是大炮還在，我們很難推進！</color>
+AR15Mod(0)<Speaker>AR15</Speaker>||:看來只有我們這邊推進了。+SOP2，我們走。
+RO635(4)<Speaker>RO635</Speaker>||:等等，你們兩個要去幹什麼？
+AR15Mod(0)<Speaker>AR15</Speaker>||:現在我們是這裡性能最好的人形。+所以，我們要去做一些符合我們定位的事情。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:要突擊了嗎！
+AR15Mod(0)<Speaker>AR15</Speaker>||:沒錯。SOP2，用你全身的感官去躲避那些炮彈吧。+當然，我也會和你一起。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:聽起來真危險啊……不過也是個不錯的挑戰！
+RO635(4)<Speaker>RO635</Speaker>||:你們兩個……我也要去！
+AR15Mod(0)<Speaker>AR15</Speaker>||:你留在這裡。M4現在不在，只有你能協調這麼多梯隊了。+我想你的性能也沒好到能一邊為重裝小隊和其他梯隊提供支援，一邊躲避這些炮彈吧？
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:放心吧，RO！+我們一定會沒事的！
+RO635(0)<Speaker>RO635</Speaker>||:……好吧。+那麼在你們行動的時候，我會盡量讓重裝小隊幫你們減輕壓力。
+AR15Mod(0)<Speaker>AR15</Speaker>||:那樣就夠了。+走了，SOP2。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<黑点1>:明白——！
+()<Speaker></Speaker>||<SE1>Explode</SE1><SE2>Gunfight</SE2><黑点2><BGM>BGM_Empty</BGM>:……
+AR15Mod(0)<Speaker>AR15</Speaker>||:下一發預計裝填時間10秒，SOP2，注意迴避！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我明白的啦！但是炮不止一門啊！
+AR15Mod(0)<Speaker>AR15</Speaker>||:那就靠你的本能吧！
+RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>再堅持一下，重裝小隊很快就能進入攻擊位置了！</color>
+()<Speaker></Speaker>||<SE1>Explode</SE1>:……轟！！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:嗚哇——！！！
+AR15Mod(5)<Speaker>AR15</Speaker>||:SOP2！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我還好！但是沒幾個傀儡可以被炸了啊！+RO，你們快點啊！
+RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>再給我15秒！！</color>
+AR15Mod(4)<Speaker>AR15</Speaker>||:咳……弄這麼一個怪物對付我們，還真是看得起我們啊。
+RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>重裝小隊，開始攻擊！</color>
+()<Speaker></Speaker>||<SE1>Explode</SE1>:……+格里芬的重裝小隊準確命中了列車炮上的數個炮塔。
+AR15Mod(0)<Speaker>AR15</Speaker>||:就是現在，SOP2！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:嗚啊啊啊啊——！！+這下沒有炮擊支援了，看我把你們全都撕碎——！！！
+AR15Mod(0)<Speaker>AR15</Speaker>||:SOP2，優先登上列車！
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:我這不是正在開路嘛！
+AR15Mod(0)<Speaker>AR15</Speaker>||<黑点1>:……好吧，別做的太過頭了。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><BIN>202</BIN>:數分鐘後。+AR小隊成功登上了裝甲列車。
+AR15Mod(0)<Speaker>AR15</Speaker>||<BGM>BGM_Room</BGM>:RO，我們上車了，控制室在什麼位置？
+RO635(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>在列車的中段……</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>我們已經在控制室了，正在奪取列車操作權限。</color>+<color=#00CCFF>麻煩你們把守一下周圍，別讓人來妨礙我們。</color>
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:咦……你們什麼時候上來的？
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>在你剛剛嚎叫的時候。</color>+<color=#00CCFF>總之，周圍就交給你們了。</color>
+RO635(0)<Speaker>RO635</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>AR15，SOP2，我和指揮官的其他梯隊正在向你們靠攏，預計4分鐘後與你們會合。</color>+<color=#00CCFF>在這段時間，請你們務必幫404小隊守住列車控制室！</color>

@@ -1,0 +1,52 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><BGM>BGM_Room</BGM>:維修室。
+G36(0)<Speaker>G36</Speaker>||:情況怎麼樣，格琳娜小姐？
+G36(0);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:……看起來不是燒壞。+小愛的心智雲圖裡有很大一部分是加密的，一直在占用運算空間。+她的內存已經快滿了，要是不清理的話就根本寫不下新的記錄了。
+G36(0)<Speaker>G36</Speaker>;NPC-Kalin(4)||:果然是緩存問題嗎？
+G36(0);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:不止。這部分加密內容不刪掉的話，同樣的情況還是會發生。+（但是，直接刪掉好像也不妥當……）+……以防萬一，還是看看好了。+G36，你先回去吧？
+G36(0)<Speaker>G36</Speaker>;NPC-Kalin(4)||:明白了。您的咖啡要送來嗎？
+G36(0);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:待會兒我再過去吧。
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM><黑屏1>:目送G36離開檢修室後，格琳娜戴好耳機，全神貫注於維修室的投影屏幕上。
+()||<BIN>9</BIN><黑屏1>:<color=#00CCFF>【解密完成。】</color>+<color=#00CCFF>【編號2051-01-05 數據讀取中……】</color>+<color=#00CCFF>【開始播放。】</color>+……
+溫柔的女聲()<Speaker>溫柔的女聲</Speaker>||<黑屏2>:這就是我的測試人形嗎？
+冷靜的男聲()<Speaker>冷靜的男聲</Speaker>||:是，59898將代表你登上強銃兵。在測試的過程中，你只要下達相應的指令，她就能處理好其他的操作細節。
+溫柔的女聲()<Speaker>溫柔的女聲</Speaker>||:好先進啊。
+冷靜的男聲()<Speaker>冷靜的男聲</Speaker>||:說明書是這麼寫的，做不到的話我們就要投訴供應商了。+那麼，貨物已經送到，我先走了。
+溫柔的女聲()<Speaker>溫柔的女聲</Speaker>||<黑屏1>:再見。+長得真可愛。+讓我看看，說明書上寫著的啟動口令是……+“早安，59898。”
+TestPilot(0)<Speaker>■■■</Speaker>||<BIN>18</BIN><睁眼><BGM>GF_Memorial</BGM>:金髮藍眼啊，真是符合這邊的審美……不過，也挺不錯的。+屬於我的測試人形，你好。
+TestPilot(0)<Speaker></Speaker>||:<color=#00CCFF>【視覺訊息錄入】</color>+<color=#00CCFF>【登記完成】</color>
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:……<c>（觸碰）<c>……
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:早安哦。第一個命令嘛……來，比起摸我的臉，應該和我握手。+事不宜遲，我們一起去看看你之後要坐的機甲吧。
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>2</分支>:……果然是冷冰冰的測試人形。事不宜遲，我們一起去看看你之後要坐的機甲吧。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||<黑屏1>:【檢測到移動需要】+【開始實行 自動跟隨持有者】
+格琳娜()<Speaker>格琳娜</Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:接下來的這部分戰鬥數據……2051年，“強銃兵”機甲實測記錄？+看起來沒什麼用，先備份吧。+嗯，然後是……
+()<Speaker></Speaker>||<黑屏1>:<color=#00CCFF>【編號2051-01-06】</color>+<color=#00CCFF>【數據讀取中……開始播放】</color>
+()<Speaker></Speaker>||<BIN>73</BIN><睁眼>:【檢測到持有者在空閒狀態】+【是否接觸？】
+88typePilot(0)<Speaker>59898</Speaker>||<BGM>BGM_Wake</BGM>:……<c>（待機）<c>（觸摸）
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:……唉。+這樣下去……我……
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||<分支>1</分支>:【檢測到持有者的情緒低落，執行安撫模式。】
+88typePilot(0)<Speaker>59898</Speaker>||<分支>2</分支>:【檢測到持有者的情緒低落，執行安撫模式。】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<震屏>:哇啊！+……嚇我一跳啊，59898。+雖然你的手很軟，但不用這樣摸我的頭也可以，我沒事的。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【對話題傾向判斷中……】+【執行 點頭。】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:為什麼嗎？+也沒什麼大事啦。只是看了一圈，3303基地除了我之外完全沒有中國人啊。+……比起我這樣的戰爭難民，大家看起來都是為了戰爭而站在這裡的，只有我是因為沒法回去而在這裡賺錢。+你知道這裡離中國有多遠嗎？
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【收到提問。搜索中……提供數據。】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:是啊，就是這麼久。因為戰爭，所有通往那邊的線路都停掉了……+唯一沒有停掉的那條線，也貴到根本買不起票。+等在這邊賺夠了錢，我就回去。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【無法回答該問題，執行 模仿人類的疑惑表情。】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:……我在說什麼傻話呢。+但是，要是你會說話就好了……至少那樣的話，我一定，一定……+不會像現在這樣寂寞了吧。
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【檢測到持有者的心情正在轉好。執行 繼續觀察。】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:就算是這樣只是聽我說，我也應該滿足了。+一直叫你的編號，總覺得很奇怪。+哎，這樣好了！我給你取個新名字怎麼樣？
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:……<c>（歪頭）<c>（點頭）
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:就是，像人類一樣的名字。就像我，我的名字是■■■
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>1</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*數據損壞，請選擇重新讀取或者跳過*</color>+<color=#00CCFF>*重新讀取中*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:就是，像人類一樣的名字。就像我，我的名字是■■■
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>1</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*數據損壞，請選擇重新讀取或者跳過*</color>+<color=#00CCFF>*跳過*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>1</分支>:所以你也有一個人類的名字的話，就會更好稱呼了。
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>2</分支>:是嗎？你也想有個新名字對吧！+就像我的名字是■■■
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>2</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*數據損壞，請選擇重新讀取或者跳過*</color>+<color=#00CCFF>*重新讀取中*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||<分支>2</分支>:是嗎？你也想有個新名字對吧！+就像我的名字是■■■
+TestPilot(0)<Speaker></Speaker>;88typePilot(0)||<分支>2</分支><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>*警告*數據損壞，請選擇重新讀取或者跳過*</color>+<color=#00CCFF>*跳過*</color>
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:那就讓我來想想……+我的出生地有個別名叫做江城。你就叫江城愛，好不好？
+TestPilot(0);88typePilot(0)<Speaker>59898</Speaker>||:【姓名變更 59898→江城愛】+【執行 確認。】
+TestPilot(0)<Speaker>■■■</Speaker>;88typePilot(0)||:就這麼決定了！+江城愛，小愛！+反正也不是工作時間，就乾脆也來換一套衣服吧？我之前打工的女僕裝如何？或者你會更喜歡和我差不多的常服？
+TestPilot(0);88typePilot(0)<Speaker>江城愛</Speaker>||<黑屏1>:【執行 模仿人類笑容的舉動】
+()||<BIN>9</BIN><黑屏2><黑屏1><BGM>BGM_Empty</BGM>:<color=#00CCFF>【編號2023-01-06 記錄播放完畢】</color>
