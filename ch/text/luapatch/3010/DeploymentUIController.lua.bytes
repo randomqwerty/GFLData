@@ -198,6 +198,16 @@ local RefreshItemUI = function(self)
 		end
 	end
 end
+
+local OnClickEndTurn = function(self)
+	self:OnClickEndTurn();
+	if CS.GuideDeploymentController.currentGuideStep ~= nil then
+		local endturnBtn = self.btnEndTurn.gameObject;
+		if CS.GuideDeploymentController.currentGuideStep.buttonTrans == endturnBtn then
+			CS.GuideDeploymentController.Instance:FinishCurrentStep();
+		end
+	end
+end
 util.hotfix_ex(CS.DeploymentUIController,'Awake',Awake)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshText',RefreshText)
 util.hotfix_ex(CS.DeploymentUIController,'ShowLeftBuildSkillUI',ShowLeftBuildSkillUI)
@@ -207,5 +217,6 @@ util.hotfix_ex(CS.DeploymentUIController,'ShowBuildSkill',ShowBuildSkill)
 util.hotfix_ex(CS.DeploymentController,'TriggerMoveTeamEvent',TriggerMoveTeamEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckCanUseBuild',CheckCanUseBuild)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshItemUI',RefreshItemUI)
+util.hotfix_ex(CS.DeploymentUIController,'OnClickEndTurn',OnClickEndTurn)
 
 

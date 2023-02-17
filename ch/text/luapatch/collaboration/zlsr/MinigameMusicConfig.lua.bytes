@@ -1,5 +1,5 @@
 
-totalTime = 90 --秒
+totalTimeMusic = 90 --秒
 cursorStartingPos = 0.2 -- 游标初始位置
 cursorAscendCoef = 1.25 --游标上升时的最大速度（百分比/秒）
 cursorDescendCoef = 1.5 --游标下降时的最大速度（百分比/秒）
@@ -10,17 +10,17 @@ cursorDescendAcc = 1 --游标下降时的加速度
 cursorAscendStartingSpd = 0.6 --游标上升时的起始速度
 cursorDescendStartingSpd = 0.35 --游标下降时的起始速度
 
-baseScore = 10 --在范围内时，每次获得的分数数额
+baseScoreMusic = 10 --在范围内时，每次获得的分数数额
 
 loseScoreLingerTime = 1 --离开范围多久后开始失分（秒）
 
 loseScore = 10 --离开范围后，每次失去的分数数额
 
-feverGuageMax = 100--fever满额要求
+feverGuageMaxMusic = 100--fever满额要求
 fevergain = 0.06--得分时获得fever
 feverlose = 0.0--失分时失去fever
 
-feverDuration = 5 --fever持续时间（秒）
+feverDurationMusic = 5 --fever持续时间（秒）
 feverScore = 250 --fever连点得分
 
 startingRangePos = {0.2}
@@ -33,7 +33,7 @@ tableStruct = {}
 configFunction = {}
 nameList = {}
 spineCodeList = {} --1-7
-scoreRanking = {5000,10000,15000,20000} --到达C,B,A,S评价的分数要求
+scoreRankingMusic = {5000,10000,15000,20000} --到达C,B,A,S评价的分数要求
 function configFunction:InitData()
 	--print(stageid)
 	--前一关键帧会朝着后面的关键帧补间变化，所以给定需要维持位置的话要写2次一样的内容，但关键帧不同，相当于持续x秒

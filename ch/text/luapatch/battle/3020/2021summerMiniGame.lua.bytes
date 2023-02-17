@@ -3,16 +3,27 @@ xlua.private_accessible(CS.CommonAudioController)
 xlua.private_accessible(CS.CommonController)
 xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.BattleManualSkillController)
-xlua.private_accessible(CS.BattleMemberController)
-xlua.private_accessible(CS.BattleFieldTeamHolder)
-xlua.private_accessible(CS.BattleUILifeBarController)
+xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterControllerNew)
+xlua.private_accessible(CS.GF.Battle.BattleMemberControllerNew)
+xlua.private_accessible(CS.GF.Battle.BattleFieldTeamHolderNew)
+xlua.private_accessible(CS.GF.Battle.BattleController)
+xlua.private_accessible(CS.GF.Battle.BattleManager)
 xlua.private_accessible(CS.GF.Battle.BattleStatistics)
+xlua.private_accessible(CS.GF.Battle.BattleFrameTimer)
+xlua.private_accessible(CS.BattleUIPauseController)
+xlua.private_accessible(CS.GF.Battle.BattleConditionList)
+xlua.private_accessible(CS.GF.Battle.CharacterCondition)
 xlua.private_accessible(CS.GF.Battle.EffectManager)
+xlua.private_accessible(CS.GF.Battle.BattleFairyData)
+xlua.private_accessible(CS.GF.Battle.BattleFriendlyCharacterManager)
 xlua.private_accessible(CS.GF.Battle.gsEffect)
+xlua.private_accessible(CS.GF.Battle.BattleSkillData)
 
 local character = nil
+local characterData
 local mCurSkill ={}
-local maxX = 5
+local maxX = 5000
 local minX = -1
 local maxY = 4
 local minY = -5.6
@@ -82,59 +93,9 @@ local blackBGMoveLowerBound = -800
 local startAnimSkillAction = 11762101
 local moveSoundInterval = 0.6
 local moveSoundFrameTimer = 4
+local FP = CS.TrueSync.FP
 
-InitSkill1 = function(SkillLabel,mCurSkill,pos)
-	local skillLabelController
-	skillLabelController = SkillLabel:GetComponent(typeof(CS.BattleManualSkillController))
-	--注册技能和人物
-	skillLabelController.mCurChar = character
-	skillLabelController.mCurSkill = mCurSkill
-	--初始化
-	if pos == 1 then
-		skillLabelController.imgBgActive.sprite = skillLabelController.arrSprBg[0]
-		skillLabelController.imgBgActive.transform.localScale = CS.UnityEngine.Vector3(-1, 1, 1)
-		skillLabelController.imgBgDisable.sprite = skillLabelController.arrSprBg[0]
-		skillLabelController.imgBgDisable.transform.localScale = CS.UnityEngine.Vector3(-1, 1, 1)
-		skillLabelController.imgBgPassive.sprite = skillLabelController.arrSprBg[0]
-		skillLabelController.imgBgPassive.transform.localScale = CS.UnityEngine.Vector3(-1, 1, 1)
-		skillLabelController.imageHintBg.transform.localScale = CS.UnityEngine.Vector3(-1, 1, 1)
-	end
-	if pos == 2 then
-		skillLabelController.imgBgActive.sprite = skillLabelController.arrSprBg[0]
-		skillLabelController.imgBgActive.transform.localScale = CS.UnityEngine.Vector3(1, 1, 1)
-		skillLabelController.imgBgDisable.sprite = skillLabelController.arrSprBg[0]
-		skillLabelController.imgBgDisable.transform.localScale = CS.UnityEngine.Vector3(1, 1, 1)
-		skillLabelController.imgBgPassive.sprite = skillLabelController.arrSprBg[0]
-		skillLabelController.imgBgPassive.transform.localScale = CS.UnityEngine.Vector3(1, 1, 1)
-		skillLabelController.imageHintBg.transform.localScale = CS.UnityEngine.Vector3(1, 1, 1)
-	end
-	skillLabelController.imageRank.sprite = skillLabelController.spriteRarity[character.gun.info.rank]
-	skillLabelController.imageIcon.enabled = false
-	skillLabelController.imageIcon:GetComponent(typeof(CS.UnityEngine.RectTransform)).sizeDelta = CS.UnityEngine.Vector2(120, 120)
-	skillLabelController.imageIcon:GetComponent(typeof(CS.UnityEngine.UI.RectMask2D)).enabled = true
-	local pic = CS.CommonController.LoadSmallPic(character.gun, skillLabelController.imageIcon.transform, CS.UnityEngine.Vector2.zero)
-	if pic ~= nil then
-		pic:ShowTuJian(nil, 0.4, 0.6)
-		local transPic = pic:GetComponent(typeof(CS.UnityEngine.RectTransform))
-		transPic.localScale = CS.UnityEngine.Vector3(0.75, 0.3, 1)
-		transPic.anchoredPosition = CS.UnityEngine.Vector2(0, 18)
-	end
-	skillLabelController.imageIcon.gameObject:SetActive(true)
-	skillLabelController.goSkill2Perf:SetActive(false)
-	skillLabelController.animCDDone.gameObject:SetActive(false)
-	skillLabelController.animActive.gameObject:SetActive(false)
-	skillLabelController.imageHintBg.gameObject:SetActive(false)
-	if mCurSkill ~= nil then
-		--print("-----------"..pos)
-		local skillIcon = CS.CommonController.InstantiateSkillIcon(mCurSkill.info:GetIconCodeBySkin(character.gun.currentSkinId))
-		local rectIcon = skillIcon:GetComponent(typeof(CS.UnityEngine.RectTransform))
-		rectIcon:SetParent(skillLabelController.objSkill.transform,false)
-		rectIcon:SetSiblingIndex(0)
-		rectIcon:SetSizeWithCurrentAnchors(CS.UnityEngine.RectTransform.Axis.Horizontal, 100)
-		rectIcon:SetSizeWithCurrentAnchors(CS.UnityEngine.RectTransform.Axis.Vertical, 100)
-	end
-	skillLabelController:_Active(true)
-end
+
 JoyStickMove = function(input)
 	thisFrameValue = input
 
@@ -160,32 +121,36 @@ end
 UpdateArmySpeed = function()
 		
 end
+local BattleDynamicData
 --Awake：初始化数据
 Awake = function()
 	-- 关闭自动释放技能
 	--textTime = TextTime:GetComponent(typeof(CS.ExText))
-	local RefreshFriendlyTargetList = function(self)
-		self.listFriendlyTarget:Clear()
-		for i=0,self.enemyTeamHolder.listCharacter.Count -1 do
-			local target = self.enemyTeamHolder.listCharacter[i]
-			if not target.isPhased then
-				self.listFriendlyTarget:Add(target)
-			end
-		end
-		if self.listFriendlyTarget.Count == 0 then
-			self:CheckFormation()
-		end
-	end		
+	BattleDynamicData = CS.GF.Battle.BattleDynamicData
+	BattleDynamicData.infiScoutDistance = true	
 	local CheckBaseLine = function(self)
-		if (self:CheckAllIsPhased(self.friendlyTeamHolder.listCharacter)) then
-			self:TriggerBattleFinishEvent()
+		if (self:CheckAllIsPhased(BattleDynamicData.enemyTeamHolder.listCharacter)) then
+			self:BattleFinishAction(false)
+			return
+		end
+		if (self:CheckAllIsPhased(BattleDynamicData.friendlyTeamHolder.listCharacter)) then
+			self:BattleFinishAction(false)
 			return
 		end
 	end
-	util.hotfix_ex(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',RefreshFriendlyTargetList)
-	util.hotfix_ex(CS.GF.Battle.BattleController,'CheckBaseLine',CheckBaseLine)
+	local SetVisible = function(self,visible)
+		if self.mEffectObj ~= nil then
+			self.mEffectObj:SetActive(visible)
+		end
+	end
+	util.hotfix_ex(CS.GF.Battle.gsEffect,'SetVisible',SetVisible)
+	util.hotfix_ex(CS.GF.Battle.BattleManager,'CheckBaseLine',CheckBaseLine)
 	if CS.CommonAudioController.Instance.bgmSource ~= nil then
 		CS.CommonAudioController.Instance.bgmSource:Stop()
+	end
+	if character == nil then
+		character = CS.BattleLuaUtility.GetCharacterControllerNewByCode('Dandelion_M4')
+		characterData = CS.BattleLuaUtility.GetDataByCode('Dandelion_M4')
 	end
 end
 local haloObj
@@ -206,27 +171,22 @@ Start = function()
 	haloObj = BattleController.transform:Find("Canvas/Halo").gameObject
 	haloObj:SetActive(false)
 	BattleController.transform:Find("Canvas/UI/SafeUIRect/DPSSwitch").gameObject:SetActive(false)
-	BattleController.transform:Find("Canvas/SafeRect/DPS").gameObject:SetActive(false)
+	BattleController.transform:Find("Canvas/DynamicCanvas/DPS").gameObject:SetActive(false)
+	BattleController.transform:Find("Canvas/DynamicCanvas/TimerText").gameObject:SetActive(false)
 	BattleController.transform:Find("Canvas/UI/Top/Top_Time").gameObject:SetActive(false)
 	--注册相机
 	self.transform:SetParent(CS.BattleUIController.Instance.transform:Find('UI'),false)
 	--self:GetComponent('Canvas').worldCamera = CS.UnityEngine.Camera.main
 	--注册人物
-	if character == nil then
-		character = CS.BattleLuaUtility.GetCharacterByCode('Dandelion_M4')
-	end
-	if friendlyArea == nil then
-		friendlyArea = BattleController.friendlyArea
-		friendlyAreaInitalPos = friendlyArea.localPosition.x
-	end
-	local charPos = character.transform
-	lifebarOffset = character.listMember[0].transform.localPosition
-	character.listMember[0].transform.localPosition = CS.UnityEngine.Vector3.zero
-	character.listMember[0].mesh.sortingOrder = 3
+	
+
+	character.reverseSync = true
+	character.listMembers[0].mesh.sortingOrder = 3
 	--character:SetMemberAnimation("wait", 1)
 	--注册人物技能
-	mCurSkill[1] = character.gun:GetSkillByGroupId(117602)
-	mCurSkill[2] = character.gun:GetSkillByGroupId(117621)
+	mCurSkill[1] = characterData:GetSkillByID(117602,true)
+	mCurSkill[2] = characterData:GetSkillByID(117621,true)
+
 	--mCurSkill[2] = character.gun:GetSkillByGroupId(406611)
 	-- 人物扶正
 	--character.listMember[0].transform.localEulerAngles = CS.UnityEngine.Vector3(0, 0, 0)
@@ -237,7 +197,7 @@ Start = function()
 	--BtnTest:GetComponent('Button').onClick:AddListener(TestFunc)
 	
 	CS.BattleLuaUtility.SwitchUIManualPannel(false) -- 关闭手动技能面板
-	CS.BattleFrameManager.Register(UpdateJoyStick)
+	CS.GF.Battle.BattleFrameManager.Register(UpdateJoyStick)
 	JoyStick:GetComponent(typeof(CS.Joystick)).JoystickMoveHandle = JoyStickMove
 	JoyStick:GetComponent(typeof(CS.Joystick)).JoystickEndHandle = JoyStickEnd
 	JoyStick:GetComponent(typeof(CS.Joystick)).JoystickBeginHandle = JoyStickBegin
@@ -288,10 +248,13 @@ UpdateJoyStick = function()
 end
 Update = function()
 	
-	if friendlyArea ~= nil then
-		local offset = friendlyArea.localPosition.x - friendlyAreaInitalPos
-		CS.GF.Battle.BattleController.Instance.friendlyArmyOffset = offset
-	end
+	--if friendlyArea ~= nil then
+	--	local offset = friendlyArea.localPosition.x - friendlyAreaInitalPos
+	--	local offsetFP = FP.FromFloat(offset)
+	--	CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = offsetFP
+		--print(offset)
+		--print(CS.GF.Battle.BattleDynamicData.friendlyArmyOffset)
+	--end
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
@@ -304,7 +267,7 @@ Update = function()
 		character.lifeBar.gameObject:SetActive(false)
 		lifebarFlag = true
 	end
-	if not gameStartAnimFlag and character.conditionListSelf:GetTierByID(gameStartBuffID) > 0 then
+	if not gameStartAnimFlag and characterData.conditionListSelf:GetTierByID(gameStartBuffID) > 0 then
 		gameStartAnimFlag = true
 		JoyStick:SetActive(true)
 		JoyStick:GetComponent(typeof(CS.UnityEngine.CanvasGroup)).alpha = 0
@@ -325,7 +288,7 @@ Update = function()
 		moveSoundFrameTimer = 4
 		--print("gameStartAnimFlag")
 	end
-	if not gameEndAnimFlag and character.conditionListSelf:GetTierByID(gameEndBuffID) > 0 then
+	if not gameEndAnimFlag and characterData.conditionListSelf:GetTierByID(gameEndBuffID) > 0 then
 		gameEndAnimFlag = true
 		JoyStick:GetComponent(typeof(CS.UnityEngine.CanvasGroup)):DOFade(0,0.5):OnComplete(function()
 				JoyStick:SetActive(false)
@@ -338,7 +301,7 @@ Update = function()
 			end):Play()
 		--print("gameEndAnimFlag")
 	end
-	if character.conditionListSelf:GetTierByID(cannotMoveBuffID) > 0 then
+	if characterData.conditionListSelf:GetTierByID(cannotMoveBuffID) > 0 then
 		if not cannotMoveFlag then
 			cannotMoveFlag = true
 			--print("cannotMove")
@@ -370,11 +333,11 @@ OnDestroy =function()
 	CS.CommonAudioController.PlayBattle("21Summer_Field_Wind_Stop")
 	CS.CommonAudioController.PlayBattle("GF_Halloween_Wind_loop_Stop")
 	CS.CommonAudioController.PlayBattle("GF_Halloween_Femal_Cry_loop_Stop")
-	CS.BattleFrameManager.DeRegister(UpdateJoyStick)
+	CS.GF.Battle.BattleFrameManager.DeRegister(UpdateJoyStick)
 	character = nil
 	mCurSkill ={}
-	xlua.hotfix(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',nil)
-	xlua.hotfix(CS.GF.Battle.BattleController,'CheckBaseLine',nil)
+	xlua.hotfix(CS.GF.Battle.BattleManager,'CheckBaseLine',nil)
+	xlua.hotfix(CS.GF.Battle.gsEffect,'SetVisible',nil)
 end
 GetTimeFormat = function(value)
 	local value2 = math.floor((value - math.floor(value)) * 10)
@@ -408,21 +371,22 @@ HandleJoyStickMove = function(input)
 	local XPara = speedXPara
 	local x =
 	CS.Mathf.Clamp(
-		character.transform.localPosition.x - math.sin(GetInputValue(input.eulerAngle)) * character.realtimeSpeed * XPara * 1,
+		character.transform.localPosition.x - math.sin(input.eulerAngle) * characterData.realtimeSpeed:AsFloat() * XPara * input.value,
 		minX,
 		maxX
 	)
 	local y =
 	CS.Mathf.Clamp(
-		character.transform.localPosition.z + math.cos(GetInputValue(input.eulerAngle)) * character.realtimeSpeed * speedYPara * 1,
+		character.transform.localPosition.z + math.cos(input.eulerAngle) * characterData.realtimeSpeed:AsFloat() * speedYPara * input.value,
 		minY,
 		maxY
 	)
-	--print(math.sin(input.eulerAngle))
-	--print(math.cos(input.eulerAngle))
-	--print("原始速度:"..character.realtimeSpeed .." ".."最终速度:"..character.gun.speed * XPara * input.value)
-	
-	local offset = CS.UnityEngine.Vector3(0, 0, y)
+	--print("原始速度:"..characterData.realtimeSpeed:AsFloat() .." ".."最终速度:"..characterData.realtimeSpeed:AsFloat() * XPara * input.value)
+	local offset = CS.UnityEngine.Vector3(x, 0, y)
+	local offset2 = x - character.transform.localPosition.x
+	local offsetFP = FP.FromFloat(offset2)
+	CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = CS.GF.Battle.BattleDynamicData.friendlyArmyOffset +  offsetFP
+	character.transform.localPosition = offset
 	if y == character.transform.localPosition.y then
 		if isMoving then
 			isMoving = false
@@ -442,26 +406,27 @@ HandleJoyStickMove = function(input)
 			CS.CommonAudioController.PlayBattle("21Summer_Player_Move")
 		end
 	end
-	character.transform.localPosition = offset
-	if friendlyArea ~= nil then
-		local startpos = friendlyArea.localPosition.x
-		local movedistance = x
-		if movedistance < 0  then  
-			movedistance = 0 
-		end
-		local finalPos = startpos + movedistance
-		friendlyArea.localPosition = CS.UnityEngine.Vector3(finalPos,friendlyArea.localPosition.y,friendlyArea.localPosition.z)
-	end
+	
 end
 MoveFront= function()
+
+	if friendlyArea == nil then
+		friendlyArea = BattleController.friendlyArea
+		friendlyAreaInitalPos = friendlyArea.localPosition.x
+	end
 	if friendlyArea ~= nil then
 		local startpos = friendlyArea.localPosition.x
-		local movedistance = character.realtimeSpeed * speedXPara * 1
+		local movedistance = characterData.realtimeSpeed:AsFloat() * speedXPara * 1
 		if movedistance < 0  then  
 			movedistance = 0 
 		end
 		local finalPos = startpos + movedistance
-		friendlyArea.localPosition = CS.UnityEngine.Vector3(finalPos,friendlyArea.localPosition.y,friendlyArea.localPosition.z)
+		--friendlyArea.localPosition = CS.UnityEngine.Vector3(finalPos,friendlyArea.localPosition.y,friendlyArea.localPosition.z)
+		local offset = movedistance
+		local offsetFP = FP.FromFloat(offset)
+		CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = CS.GF.Battle.BattleDynamicData.friendlyArmyOffset +  offsetFP
+		character.transform.localPosition = character.transform.localPosition + CS.UnityEngine.Vector3(movedistance,0,0)
+
 	end
 	if isMoving == false then
 		isMoving = true
@@ -469,7 +434,7 @@ MoveFront= function()
 		--print(mCurSkill[2].info.id)
 		--character:SetMemberAnimation("spmove", 1);
 	end
-	if character.realtimeSpeed > 0 then
+	if characterData.realtimeSpeed:AsFloat() > 0 then
 		moveSoundFrameTimer = moveSoundFrameTimer + 1
 		if moveSoundFrameTimer >= 30 * moveSoundInterval then
 			moveSoundFrameTimer = 0
@@ -478,13 +443,13 @@ MoveFront= function()
 	end
 end
 CanSkillActive = function(skill)
-	if character == nil or character:IsDead() or character:IsWithDraw() then
+	if characterData == nil then
 		return false
 	end
-	if skill.cdFrame > 0 then
+	if skill.cdFrame:AsFloat() > 0 then
 		return false
 	end
-	if not SkillUtils.GetManaulSkill(character.gun) == nil then
+	if not SkillUtils.GetManaulSkill(characterData.gun) == nil then
 		return false
 	end
 	if skillActiveTimes >= maxSkillActiveTimes then
@@ -494,8 +459,8 @@ CanSkillActive = function(skill)
 end
 ManualActiveSkill = function(skill)
 	if CanSkillActive(skill) then
-		SkillUtils.AddManaulSkill(character.gun,skill)
-		CS.BattleRecorderController.Instance:AddManualSkill(character.gun)
+		SkillUtils.AddManaulSkill(characterData.gun,skill)
+		CS.BattleRecorderController.Instance:AddManualSkill(characterData.gun)
 		skillActiveTimes = skillActiveTimes + 1
 		UpdateSkillActiveTimeUI(skillActiveTimes)
 		animTimer = -animDelay - 0.1
@@ -548,7 +513,7 @@ end
 
 local resetFlag = false
 UpdateSkillUI = function(skill)
-
+	
 	if animTimer >= animDuration then
 		animTimer = animDuration
 	else
@@ -564,9 +529,9 @@ UpdateSkillUI = function(skill)
 		cooldownImage.fillAmount = 0
 		return
 	end
-	if skill.cdFrame > 0 then
+	if skill.cdFrame:AsFloat() > 0 then
 		cooldownTween:DoKill()
-		cooldownImage.fillAmount = 1-(skill.cdFrame / skill.info.cdTime) 
+		cooldownImage.fillAmount = 1-(skill.cdFrame:AsFloat() / skill.info.cdTime) 
 		resetFlag = true
 	else
 		cooldownImage.fillAmount = 1
@@ -600,40 +565,45 @@ local enterFarDuration = 0
 local enterNearDuration = 0
 local TreeList = {}
 UpdateEnemyState = function()
-	local enemyList = BattleController.enemyTeamHolder.listCharacter
+	--print(GetVisionFar())
+	local enemyList = BattleController.listEnemyCharacterControllers
 	for i=0,enemyList.Count-1 do
 		local enemyCharacter = enemyList[i]
-		local posSelf = character.listMember[0].transform.position
-		local posEnemy = enemyCharacter.listMember[0].transform.position
-		local distance = (posEnemy.x - posSelf.x)*(posEnemy.x - posSelf.x) + visionVerticalConf * visionVerticalConf * (posEnemy.z - posSelf.z)* (posEnemy.z - posSelf.z)
-		for j=0,enemyCharacter.listMember.Count-1 do
-			local meshRenderer = enemyCharacter.listMember[j].gameObject:GetComponent(typeof(CS.UnityEngine.MeshRenderer))
-			if distance > GetVisionFar() * GetVisionFar() then
-				meshRenderer.enabled = false
-				meshRenderer.sortingOrder = 1
-				enterFarDuration = 0
-				enterNearDuration = 0
-			else
-				if enterFarDuration >= spineVisionFarDelay then
-					meshRenderer.enabled = true
+		if enemyCharacter ~= nil and enemyCharacter.listMembers.Count >0 then
+			local posSelf = character.listMembers[0].transform.position
+			
+			local posEnemy = enemyCharacter.listMembers[0].transform.position
+			local distance = (posEnemy.x - posSelf.x)*(posEnemy.x - posSelf.x) + visionVerticalConf * visionVerticalConf * (posEnemy.z - posSelf.z)* (posEnemy.z - posSelf.z)
+			for j=0,enemyCharacter.listMembers.Count-1 do
+				local meshRenderer = enemyCharacter.listMembers[j].gameObject:GetComponent(typeof(CS.UnityEngine.MeshRenderer))
+				if distance > GetVisionFar() * GetVisionFar() then
+					meshRenderer.enabled = false
+					meshRenderer.sortingOrder = 1
+					enterFarDuration = 0
+					enterNearDuration = 0
 				else
-					enterFarDuration = enterFarDuration + CS.UnityEngine.Time.deltaTime
-				end
-				if enemyCharacter.gun.info.code ~= 'unknown_minigame' and distance <= visionNear * visionNear then
-
-					if enterNearDuration >= spineVisionNearDelay then
-						meshRenderer.sortingOrder = 3
+					if enterFarDuration >= spineVisionFarDelay then
+						meshRenderer.enabled = true
 					else
-						enterNearDuration = enterNearDuration + CS.UnityEngine.Time.deltaTime
+						enterFarDuration = enterFarDuration + CS.UnityEngine.Time.deltaTime
+					end
+					if enemyCharacter.data.gun.info.code ~= 'unknown_minigame' and distance <= visionNear * visionNear then
+						
+						if enterNearDuration >= spineVisionNearDelay then
+							meshRenderer.sortingOrder = 3
+						else
+							enterNearDuration = enterNearDuration + CS.UnityEngine.Time.deltaTime
+							meshRenderer.sortingOrder = 1
+						end
+					else
+						enterNearDuration = 0
 						meshRenderer.sortingOrder = 1
 					end
-				else
-					enterNearDuration = 0
-					meshRenderer.sortingOrder = 1
 				end
+				
 			end
-			
 		end
+		
 
 	end
 end
@@ -686,7 +656,7 @@ UpdateCreationState = function()
 		GetCreationList()
 	end
 	for i=1, #TreeList do
-		local posSelf = character.listMember[0].transform.position
+		local posSelf = character.listMembers[0].transform.position
 		local posEnemy = TreeList[i].gameObject.transform.position
 		local distance = (posEnemy.x - posSelf.x)*(posEnemy.x - posSelf.x) + visionVerticalConf * visionVerticalConf * (posEnemy.z - posSelf.z)* (posEnemy.z - posSelf.z)
 		if distance > GetTreeDis() * GetTreeDis() then
