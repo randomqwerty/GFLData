@@ -25,7 +25,20 @@ local HasUnBattleMission = function(self)
 		end
 	end
 end
+
+local CurrentMissionId = function(self)
+	if self.entranceId == 0 then
+		if self.missionIds.Count > 0 then
+			local diff = CS.Mathf.Clamp(CS.OPSPanelController.difficulty,0,self.missionIds.Count-1);
+			return self.missionIds[diff];
+		end
+		return 0;
+	else
+		return CS.OPSPanelController.Instance:GetCurrentMissionId(self.entranceId);
+	end	
+end
 util.hotfix_ex(CS.OPSMission,'HasUnBattleMission',HasUnBattleMission)
+util.hotfix_ex(CS.OPSMission,'get_CurrentMissionId',CurrentMissionId)
 
 
 

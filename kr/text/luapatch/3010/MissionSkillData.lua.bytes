@@ -31,5 +31,27 @@ local CheckTeamMovePlayEffect = function(self)
 	 end
 	print("延迟时间"..effectdelaytime);
 end
+
+local PlayEffect = function(self)
+	local play = self.birth;
+	local playAvg = false;
+	local index = string.find(self.currentSpecialSpotInfo.name,"[avg]");
+	if index ~= nil then
+		if not CS.Data.GetPlayerPrefStringsExists("SpecialSpotAVG",tostring(self.currentSpecialSpotInfo.id)) then
+			playAvg = true;
+		end
+	end
+	self:PlayEffect();
+	if play then		
+		if self.lastTime>0 and playAvg then
+			print("添加延时事件"..self.lastTime.."特殊点"..self.specialSpotInfoId);
+			CS.DeploymentController.Instance:InsertSomePlayPerformances(function()
+					CS.DeploymentController.Instance:AddAndPlayPerformance(self.lastTime);
+				end)
+		end
+	end
+end
+
 util.hotfix_ex(CS.BuffAction,'RefeshUI',RefeshUI)
 util.hotfix_ex(CS.HurtAction,'CheckTeamMovePlayEffect',CheckTeamMovePlayEffect)
+util.hotfix_ex(CS.SpecialSpotAction,'PlayEffect',PlayEffect)

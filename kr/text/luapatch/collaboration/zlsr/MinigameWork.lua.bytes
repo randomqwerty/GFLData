@@ -11,6 +11,7 @@ xlua.private_accessible(CS.GF.Battle.BattleStatistics)
 xlua.private_accessible(CS.GF.Battle.EffectManager)
 xlua.private_accessible(CS.GF.Battle.BattleConditionList)
 xlua.private_accessible(CS.GF.Battle.CharacterCondition)
+xlua.private_accessible(CS.GF.Battle.gsEffect)
 
 local character
 local characterData
@@ -22,6 +23,7 @@ local isUIPausing = false
 local haloObj
 local isShown = false
 local currentMovingSpd = 0
+local characterBuffEffect
 
 local _imgTime1,_imgTime2,_imgTime3,_imgTime4,_imgFeverGauge,spriteListResultScore
 local imgGrade,spriteListGrade
@@ -43,6 +45,7 @@ local stunAnimSecondFrame = 45
 local isMoving = false
 local isStun = false
 local lifebarFlag = false
+local lastEnergyCount
 local currentEnergyCount
 local isFever = false
 local feverTimer = 0
@@ -75,9 +78,20 @@ Awake = function()
 			return
 		end
 	end
+	local OnEffectGenAoeBuffSuccess = function(self)
+		--print(currentHoldingBrickNum)
+		if isFever and self.mEffectCfg.id == 10449 then
+			return
+		end
+		if currentHoldingBrickNum == 5 and self.mEffectCfg.id ~= 10449 then
+			return
+		end
+		self:OnEffectGenAoeBuffSuccess()
+	end
 	util.hotfix_ex(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',RefreshFriendlyTargetList)
 	util.hotfix_ex(CS.GF.Battle.BattleController,'CheckBaseLine',CheckBaseLine)
 	util.hotfix_ex(CS.BattleInteractionController,'DisableRangeLine',DisableRangeLine)
+	util.hotfix_ex(CS.GF.Battle.gsEffect,'OnEffectGenAoeBuffSuccess',OnEffectGenAoeBuffSuccess)
 end
 Start = function()
 	
@@ -214,6 +228,7 @@ OnDestroy = function()
 	xlua.hotfix(CS.BattleInteractionController,'DisableRangeLine',nil)
 	xlua.hotfix(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',nil)
 	xlua.hotfix(CS.GF.Battle.BattleController,'CheckBaseLine',nil)
+	xlua.hotfix(CS.GF.Battle.gsEffect,'OnEffectGenAoeBuffSuccess',nil)
 end
 Update = function()
 	if haloObj ~= nil and haloObj.activeSelf then
@@ -232,6 +247,7 @@ function MainLoop()
 		spine:SetSpine("spwait0",1)
 	end
 	lastFrameHoldingBrickNum = currentHoldingBrickNum
+	lastEnergyCount = currentEnergyCount
 	if not isStun then
 		UpdateBuff()
 		--判断是否fever
@@ -255,6 +271,7 @@ function MainLoop()
 				character.conditionListSelf:RemoveNum(stunBuffIDRight,999)
 				
 				character.conditionListSelf:RemoveNum(energyBuffID,999)
+				currentEnergyCount = 0
 				UpdateFever(0)
 			end
 		end
@@ -267,13 +284,17 @@ function MainLoop()
 			if lastFrameHoldingBrickNum > currentHoldingBrickNum then
 				--记录得分
 				local addBrickNum = (lastFrameHoldingBrickNum - currentHoldingBrickNum)
-				totalBrickNum = totalBrickNum + addBrickNum
 				if addBrickNum > 5 then
 					addBrickNum = 5
 				end
+				UpdateBrickScore(totalBrickNum,addBrickNum)
+				totalBrickNum = totalBrickNum + addBrickNum
+				
 				playerScore = playerScore + (addBrickNum * brickScore) +extraBrickScore[addBrickNum]
-				brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
+				
+				
 				UpdateScoreAnim()
+				
 			end
 		end
 	else -- 
@@ -306,7 +327,16 @@ function UpdateBuff()
 	if stunBuffNum == 0 then
 		stunBuffNum = -character.conditionListSelf:GetTierByID(stunBuffIDRight)	
 	end	
+	
 	currentEnergyCount = character.conditionListSelf:GetTierByID(energyBuffID)
+	if currentEnergyCount  > lastEnergyCount then
+		if characterBuffEffect == nil then
+			characterBuffEffect = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Effect/Buff_ss_zt"),character:GetFirstMember().gameObject.transform,false)
+		else
+			characterBuffEffect:SetActive(false)
+			characterBuffEffect:SetActive(true)
+		end
+	end
 end
 function GetMoveCode()
 	
@@ -434,7 +464,7 @@ function UpdateFever(feverCount)
 		playerFeverValue = 0
 	end
 	local feverpercent = playerFeverValue / feverGuageMax
-	_imgFeverGauge:DOFillAmount(feverpercent,0.15) 
+	_imgFeverGauge:DOFillAmount(feverpercent,0.3) 
 	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMax
 	
 end
@@ -473,7 +503,7 @@ function ShowResult()
 	goShow:SetActive(true)
 	local curGrade = 1
 	for i=1,4 do
-		if playerScore >= scoreRanking[i] then
+		if playerScore >= scoreRankingWork[i] then
 			curGrade = i
 		end
 	end
@@ -495,7 +525,7 @@ function ShowResult()
 	CS.BattleFrameManager.StopTime(true,9999999)
 end
 function EndGame()
-	local ScoreRank = scoreRanking[4]
+	local ScoreRank = scoreRankingWork[4]
 	if playerScore >= ScoreRank then
 		
 		for i=CS.GF.Battle.BattleController.Instance.enemyTeamHolder.listCharacter.Count-1,0,-1 do
@@ -528,6 +558,22 @@ function UpdateRemainTime()
 	local sec2 = second - sec1 * 10
 	_imgTime3.sprite = spriteListTime.listSprite[sec1]
 	_imgTime4.sprite = spriteListTime.listSprite[sec2]
+end
+function UpdateBrickScore(total,adding)
+	self:StopAllCoroutines()
+	self:StartCoroutine(CoroutineUpdateBrickScore(total,adding))
+end
+function CoroutineUpdateBrickScore(total,adding)
+	return util.cs_generator(function ()
+			for i = 1,adding do
+				brickNum:GetComponent(typeof(CS.ExText)).text = total + i
+				local scoreEffect = CS.UnityEngine.Object.Instantiate(goScoreEffect,goScoreEffect.transform.parent)
+				scoreEffect:SetActive(true)
+				coroutine.yield(CS.UnityEngine.WaitForSeconds(0.1))
+			end
+			brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
+		end)
+	
 end
 function UpdateScore()
 	txtScore.text = string.format("%05d",playerScore) 

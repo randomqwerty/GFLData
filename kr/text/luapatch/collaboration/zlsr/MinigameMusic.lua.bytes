@@ -66,6 +66,8 @@ local isDescend = false
 local descendTimer = 0
 local feverClickTime =0
 local effectShow = false
+local lastBGM
+local playedBGM = false
 Awake = function()
 	
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
@@ -152,10 +154,11 @@ Start = function()
 	--StartRound()
 	imgAvatar:GetComponent(typeof(CS.ExImage)).sprite = imgAvatar:GetComponent(typeof(CS.UGUISpriteHolder)).listSprite[randomMember-1]
 	textAvatarName:GetComponent(typeof(CS.ExText)).text = GetName(nameList[randomMember]) 
-	totalTimer = totalTime
+	totalTimer = totalTimeMusic
 	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
 	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
-	PlaySFX("BGM")
+	lastBGM = CS.CommonAudioController.CurrentBGM
+	
 end
 
 OnDestroy = function()
@@ -163,12 +166,20 @@ OnDestroy = function()
 	
 end
 Update = function()
+	
 	MainLoop()
 	
 end
 function MainLoop()
 	if totalTimer <= 0 then
 		return
+	end
+	if CS.UnityEngine.Time.deltaTime <= 0 then
+		return
+	end
+	if not playedBGM then
+		PlaySFX("BGM")
+		playedBGM = true
 	end
 	if not isFever then
 		
@@ -226,7 +237,7 @@ function CheckScore()
 	end
 	--print(currentCursorPos.." "..lowerLimit.." "..upperLimit.." "..currentZonePos.." "..currentZoneWidth)
 	if currentCursorPos >= lowerLimit  and currentCursorPos <= upperLimit then
-		playerScore = playerScore + baseScore 
+		playerScore = playerScore + baseScoreMusic
 		UpdateScore(playerScore)
 		UpdateFever(playerFeverValue + fevergain)
 		outAreaFlag = false
@@ -306,7 +317,7 @@ function MoveZone()
 	SetZonePosition(currentZonePos,currentZoneWidth)
 end
 function CheckFever()
-	if playerFeverValue >= feverGuageMax then
+	if playerFeverValue >= feverGuageMaxMusic then
 		isFever = true
 		effectShow = false
 		PlaySFX("enterFever")
@@ -316,13 +327,13 @@ function CheckFever()
 		goFeverEffect:SetActive(true)
 		goFeverEffect2:SetActive(true)
 		goFeverHint:SetActive(true)
-		_imgFeverGauge:DOFillAmount(0,feverDuration) 
+		_imgFeverGauge:DOFillAmount(0,feverDurationMusic) 
 	end
 end
 function CountFeverTime()
 	if isFever then
 		feverTimer = feverTimer + CS.UnityEngine.Time.deltaTime
-		if feverTimer >= feverDuration then
+		if feverTimer >= feverDurationMusic then
 			isFever = false
 			CS.CommonAudioController.Instance.bgmSource:Pause(false)
 			goFeverEffect:SetActive(false)
@@ -405,15 +416,15 @@ function UpdateFever(feverCount)
 		return
 	end
 	playerFeverValue = feverCount
-	if playerFeverValue > feverGuageMax then
-		playerFeverValue = feverGuageMax
+	if playerFeverValue > feverGuageMaxMusic then
+		playerFeverValue = feverGuageMaxMusic
 	end
 	if playerFeverValue < 0 then
 		playerFeverValue = 0
 	end
-	local feverpercent = playerFeverValue / feverGuageMax
+	local feverpercent = playerFeverValue / feverGuageMaxMusic
 	_imgFeverGauge:DOFillAmount(feverpercent,0.01) 
-	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMax
+	txtFever.text = string.format("%d",math.ceil(playerFeverValue)) ..'/'..feverGuageMaxMusic
 end
 function UpdateScore()
 	txtScore.text = string.format("%05d",playerScore) 
@@ -466,7 +477,7 @@ function ShowResult()
 	goShow:SetActive(true)
 	local curGrade = 1
 	for i=1,4 do
-		if playerScore >= scoreRanking[i] then
+		if playerScore >= scoreRankingMusic[i] then
 			curGrade = i
 		end
 	end
@@ -485,10 +496,11 @@ function ShowResult()
 		scoreitem:SetActive(true)
 		scoreitem:GetComponent(typeof(CS.ExImage)).sprite = spriteListResultScore.listSprite[num]
 	end
+	CS.CommonAudioController.PlayBGM(lastBGM)
 end
 function EndGame()
 	
-	local ScoreRank = scoreRanking[4]
+	local ScoreRank = scoreRankingMusic[4]
 	if playerScore >= ScoreRank then
 		print("EndGame")
 		print(playerScore)
@@ -511,7 +523,7 @@ function UpdateRemainTime()
 	end
 	local minute = math.floor(timeValue / 60)
 	local second = timeValue - minute * 60
-	if totalTime >= 60 then
+	if totalTimeMusic >= 60 then
 		local minute1 = math.floor(minute / 10)
 		local minute2 = minute - minute1 * 10
 		_imgTime1.sprite = spriteListTime.listSprite[minute1]

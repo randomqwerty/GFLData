@@ -23,7 +23,7 @@ xlua.private_accessible(CS.GF.Battle.BattleSkillData)
 local character = nil
 local characterData
 local mCurSkill ={}
-local maxX = 5
+local maxX = 5000
 local minX = -1
 local maxY = 4
 local minY = -5.6
@@ -180,10 +180,6 @@ Start = function()
 	--注册人物
 	
 
-	if friendlyArea == nil then
-		friendlyArea = BattleController.friendlyArea
-		friendlyAreaInitalPos = friendlyArea.localPosition.x
-	end
 	character.reverseSync = true
 	character.listMembers[0].mesh.sortingOrder = 3
 	--character:SetMemberAnimation("wait", 1)
@@ -252,13 +248,13 @@ UpdateJoyStick = function()
 end
 Update = function()
 	
-	if friendlyArea ~= nil then
-		local offset = friendlyArea.localPosition.x - friendlyAreaInitalPos
-		local offsetFP = FP.FromFloat(offset)
-		CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = offsetFP
+	--if friendlyArea ~= nil then
+	--	local offset = friendlyArea.localPosition.x - friendlyAreaInitalPos
+	--	local offsetFP = FP.FromFloat(offset)
+	--	CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = offsetFP
 		--print(offset)
 		--print(CS.GF.Battle.BattleDynamicData.friendlyArmyOffset)
-	end
+	--end
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
@@ -375,21 +371,22 @@ HandleJoyStickMove = function(input)
 	local XPara = speedXPara
 	local x =
 	CS.Mathf.Clamp(
-		character.transform.localPosition.x - math.sin(GetInputValue(input.eulerAngle)) * characterData.realtimeSpeed:AsFloat() * XPara * 1,
+		character.transform.localPosition.x - math.sin(input.eulerAngle) * characterData.realtimeSpeed:AsFloat() * XPara * input.value,
 		minX,
 		maxX
 	)
 	local y =
 	CS.Mathf.Clamp(
-		character.transform.localPosition.z + math.cos(GetInputValue(input.eulerAngle)) * characterData.realtimeSpeed:AsFloat() * speedYPara * 1,
+		character.transform.localPosition.z + math.cos(input.eulerAngle) * characterData.realtimeSpeed:AsFloat() * speedYPara * input.value,
 		minY,
 		maxY
 	)
-	--print(math.sin(input.eulerAngle))
-	--print(math.cos(input.eulerAngle))
-	--print("原始速度:"..character.realtimeSpeed .." ".."最终速度:"..character.gun.speed * XPara * input.value)
-	
-	local offset = CS.UnityEngine.Vector3(0, 0, y)
+	--print("原始速度:"..characterData.realtimeSpeed:AsFloat() .." ".."最终速度:"..characterData.realtimeSpeed:AsFloat() * XPara * input.value)
+	local offset = CS.UnityEngine.Vector3(x, 0, y)
+	local offset2 = x - character.transform.localPosition.x
+	local offsetFP = FP.FromFloat(offset2)
+	CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = CS.GF.Battle.BattleDynamicData.friendlyArmyOffset +  offsetFP
+	character.transform.localPosition = offset
 	if y == character.transform.localPosition.y then
 		if isMoving then
 			isMoving = false
@@ -410,18 +407,13 @@ HandleJoyStickMove = function(input)
 		end
 	end
 	
-	character.transform.localPosition = offset
-	if friendlyArea ~= nil then
-		local startpos = friendlyArea.localPosition.x
-		local movedistance = x
-		if movedistance < 0  then  
-			movedistance = 0 
-		end
-		local finalPos = startpos + movedistance
-		friendlyArea.localPosition = CS.UnityEngine.Vector3(finalPos,friendlyArea.localPosition.y,friendlyArea.localPosition.z)
-	end
 end
 MoveFront= function()
+
+	if friendlyArea == nil then
+		friendlyArea = BattleController.friendlyArea
+		friendlyAreaInitalPos = friendlyArea.localPosition.x
+	end
 	if friendlyArea ~= nil then
 		local startpos = friendlyArea.localPosition.x
 		local movedistance = characterData.realtimeSpeed:AsFloat() * speedXPara * 1
@@ -429,7 +421,12 @@ MoveFront= function()
 			movedistance = 0 
 		end
 		local finalPos = startpos + movedistance
-		friendlyArea.localPosition = CS.UnityEngine.Vector3(finalPos,friendlyArea.localPosition.y,friendlyArea.localPosition.z)
+		--friendlyArea.localPosition = CS.UnityEngine.Vector3(finalPos,friendlyArea.localPosition.y,friendlyArea.localPosition.z)
+		local offset = movedistance
+		local offsetFP = FP.FromFloat(offset)
+		CS.GF.Battle.BattleDynamicData.friendlyArmyOffset = CS.GF.Battle.BattleDynamicData.friendlyArmyOffset +  offsetFP
+		character.transform.localPosition = character.transform.localPosition + CS.UnityEngine.Vector3(movedistance,0,0)
+
 	end
 	if isMoving == false then
 		isMoving = true
@@ -446,13 +443,13 @@ MoveFront= function()
 	end
 end
 CanSkillActive = function(skill)
-	if character == nil or character:IsDead() or character:IsWithDraw() then
+	if characterData == nil then
 		return false
 	end
-	if skill.cdFrame > 0 then
+	if skill.cdFrame:AsFloat() > 0 then
 		return false
 	end
-	if not SkillUtils.GetManaulSkill(character.gun) == nil then
+	if not SkillUtils.GetManaulSkill(characterData.gun) == nil then
 		return false
 	end
 	if skillActiveTimes >= maxSkillActiveTimes then
@@ -462,8 +459,8 @@ CanSkillActive = function(skill)
 end
 ManualActiveSkill = function(skill)
 	if CanSkillActive(skill) then
-		SkillUtils.AddManaulSkill(character.gun,skill)
-		CS.BattleRecorderController.Instance:AddManualSkill(character.gun)
+		SkillUtils.AddManaulSkill(characterData.gun,skill)
+		CS.BattleRecorderController.Instance:AddManualSkill(characterData.gun)
 		skillActiveTimes = skillActiveTimes + 1
 		UpdateSkillActiveTimeUI(skillActiveTimes)
 		animTimer = -animDelay - 0.1
@@ -534,7 +531,7 @@ UpdateSkillUI = function(skill)
 	end
 	if skill.cdFrame:AsFloat() > 0 then
 		cooldownTween:DoKill()
-		cooldownImage.fillAmount = 1-(skill.cdFrame / skill.info.cdTime) 
+		cooldownImage.fillAmount = 1-(skill.cdFrame:AsFloat() / skill.info.cdTime) 
 		resetFlag = true
 	else
 		cooldownImage.fillAmount = 1
@@ -568,40 +565,45 @@ local enterFarDuration = 0
 local enterNearDuration = 0
 local TreeList = {}
 UpdateEnemyState = function()
+	--print(GetVisionFar())
 	local enemyList = BattleController.listEnemyCharacterControllers
 	for i=0,enemyList.Count-1 do
 		local enemyCharacter = enemyList[i]
-		local posSelf = character.listMembers[0].transform.position
-		local posEnemy = enemyCharacter.listMembers[0].transform.position
-		local distance = (posEnemy.x - posSelf.x)*(posEnemy.x - posSelf.x) + visionVerticalConf * visionVerticalConf * (posEnemy.z - posSelf.z)* (posEnemy.z - posSelf.z)
-		for j=0,enemyCharacter.listMembers.Count-1 do
-			local meshRenderer = enemyCharacter.listMembers[j].gameObject:GetComponent(typeof(CS.UnityEngine.MeshRenderer))
-			if distance > GetVisionFar() * GetVisionFar() then
-				meshRenderer.enabled = false
-				meshRenderer.sortingOrder = 1
-				enterFarDuration = 0
-				enterNearDuration = 0
-			else
-				if enterFarDuration >= spineVisionFarDelay then
-					meshRenderer.enabled = true
+		if enemyCharacter ~= nil and enemyCharacter.listMembers.Count >0 then
+			local posSelf = character.listMembers[0].transform.position
+			
+			local posEnemy = enemyCharacter.listMembers[0].transform.position
+			local distance = (posEnemy.x - posSelf.x)*(posEnemy.x - posSelf.x) + visionVerticalConf * visionVerticalConf * (posEnemy.z - posSelf.z)* (posEnemy.z - posSelf.z)
+			for j=0,enemyCharacter.listMembers.Count-1 do
+				local meshRenderer = enemyCharacter.listMembers[j].gameObject:GetComponent(typeof(CS.UnityEngine.MeshRenderer))
+				if distance > GetVisionFar() * GetVisionFar() then
+					meshRenderer.enabled = false
+					meshRenderer.sortingOrder = 1
+					enterFarDuration = 0
+					enterNearDuration = 0
 				else
-					enterFarDuration = enterFarDuration + CS.UnityEngine.Time.deltaTime
-				end
-				if enemyCharacter.gun.info.code ~= 'unknown_minigame' and distance <= visionNear * visionNear then
-
-					if enterNearDuration >= spineVisionNearDelay then
-						meshRenderer.sortingOrder = 3
+					if enterFarDuration >= spineVisionFarDelay then
+						meshRenderer.enabled = true
 					else
-						enterNearDuration = enterNearDuration + CS.UnityEngine.Time.deltaTime
+						enterFarDuration = enterFarDuration + CS.UnityEngine.Time.deltaTime
+					end
+					if enemyCharacter.data.gun.info.code ~= 'unknown_minigame' and distance <= visionNear * visionNear then
+						
+						if enterNearDuration >= spineVisionNearDelay then
+							meshRenderer.sortingOrder = 3
+						else
+							enterNearDuration = enterNearDuration + CS.UnityEngine.Time.deltaTime
+							meshRenderer.sortingOrder = 1
+						end
+					else
+						enterNearDuration = 0
 						meshRenderer.sortingOrder = 1
 					end
-				else
-					enterNearDuration = 0
-					meshRenderer.sortingOrder = 1
 				end
+				
 			end
-			
 		end
+		
 
 	end
 end
