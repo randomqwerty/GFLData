@@ -55,7 +55,7 @@ local currentMissionInfo = function(self)
 end
 util.hotfix_ex(CS.OPSPanelMissionBase,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.OPSPanelMissionBase,'InitData',InitData)
-util.hotfix_ex(CS.OPSPanelMissionBase,'get_currentMissionInfo',currentMissionInfo)
+--util.hotfix_ex(CS.OPSPanelMissionBase,'get_currentMissionInfo',currentMissionInfo)
 
 
 

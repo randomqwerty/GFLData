@@ -23,6 +23,7 @@ local isUIPausing = false
 local haloObj
 local isShown = false
 local currentMovingSpd = 0
+local characterBuffEffect
 
 local _imgTime1,_imgTime2,_imgTime3,_imgTime4,_imgFeverGauge,spriteListResultScore
 local imgGrade,spriteListGrade
@@ -44,6 +45,7 @@ local stunAnimSecondFrame = 45
 local isMoving = false
 local isStun = false
 local lifebarFlag = false
+local lastEnergyCount
 local currentEnergyCount
 local isFever = false
 local feverTimer = 0
@@ -245,6 +247,7 @@ function MainLoop()
 		spine:SetSpine("spwait0",1)
 	end
 	lastFrameHoldingBrickNum = currentHoldingBrickNum
+	lastEnergyCount = currentEnergyCount
 	if not isStun then
 		UpdateBuff()
 		--判断是否fever
@@ -268,6 +271,7 @@ function MainLoop()
 				character.conditionListSelf:RemoveNum(stunBuffIDRight,999)
 				
 				character.conditionListSelf:RemoveNum(energyBuffID,999)
+				currentEnergyCount = 0
 				UpdateFever(0)
 			end
 		end
@@ -285,10 +289,10 @@ function MainLoop()
 				end
 				UpdateBrickScore(totalBrickNum,addBrickNum)
 				totalBrickNum = totalBrickNum + addBrickNum
-
+				
 				playerScore = playerScore + (addBrickNum * brickScore) +extraBrickScore[addBrickNum]
 				
-
+				
 				UpdateScoreAnim()
 				
 			end
@@ -323,7 +327,16 @@ function UpdateBuff()
 	if stunBuffNum == 0 then
 		stunBuffNum = -character.conditionListSelf:GetTierByID(stunBuffIDRight)	
 	end	
+	
 	currentEnergyCount = character.conditionListSelf:GetTierByID(energyBuffID)
+	if currentEnergyCount  > lastEnergyCount then
+		if characterBuffEffect == nil then
+			characterBuffEffect = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Effect/Buff_ss_zt"),character:GetFirstMember().gameObject.transform,false)
+		else
+			characterBuffEffect:SetActive(false)
+			characterBuffEffect:SetActive(true)
+		end
+	end
 end
 function GetMoveCode()
 	
@@ -490,7 +503,7 @@ function ShowResult()
 	goShow:SetActive(true)
 	local curGrade = 1
 	for i=1,4 do
-		if playerScore >=scoreRankingWork[i] then
+		if playerScore >= scoreRankingWork[i] then
 			curGrade = i
 		end
 	end
@@ -547,18 +560,19 @@ function UpdateRemainTime()
 	_imgTime4.sprite = spriteListTime.listSprite[sec2]
 end
 function UpdateBrickScore(total,adding)
-	BattleController:StartCoroutine(CoroutineUpdateBrickScore(total,adding))
+	self:StopAllCoroutines()
+	self:StartCoroutine(CoroutineUpdateBrickScore(total,adding))
 end
 function CoroutineUpdateBrickScore(total,adding)
 	return util.cs_generator(function ()
-			local t = 1
 			for i = 1,adding do
 				brickNum:GetComponent(typeof(CS.ExText)).text = total + i
 				local scoreEffect = CS.UnityEngine.Object.Instantiate(goScoreEffect,goScoreEffect.transform.parent)
 				scoreEffect:SetActive(true)
 				coroutine.yield(CS.UnityEngine.WaitForSeconds(0.1))
 			end
-			end)
+			brickNum:GetComponent(typeof(CS.ExText)).text = totalBrickNum
+		end)
 	
 end
 function UpdateScore()

@@ -187,6 +187,7 @@ patch3010={
 "3010/DeploymentController",
 "3010/DeploymentUIController",
 "3010/DeploymentBuildSkillItem",
+"3010/DeploymentBuildingController",	
 "3010/DeploymentSpotController",
 "3010/DeploymentPlanModeController",
 "3010/DeploymentBackgroundController",
@@ -231,7 +232,7 @@ patch3010={
 "3010/OPSSpineControl",	
 "3010/OPSPanelMissionHolder",
 "3010/OPSPanelMissionBase",	
---"3010/OPSPanelSpot",
+"3010/OPSPanelSpot",
 "3010/OPSPanelBackGround",				
 "3010/SpecialMissionInfoController",	
 "3010/MissionSelectionOperationBarController",
@@ -298,11 +299,12 @@ patch3010={
 "3010/BattleCharacterController",
 "3010/FlightChessMapInfoItemCtrl",	
 "3010/BingoTaskController",
---"3010/RewardBoxController",		
+"3010/RewardBoxController",		
 "3010/FetterStoryMilestone",
 "3010/MissionSelectionOperationTeamInfoController",
 "3010/BattleUIDefenseTrialResultController",
 "3010/BattleSLGModeController",
+"3010/WeddingPlay",
 }
 -- va11
 print("load Va11");

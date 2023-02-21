@@ -66,6 +66,8 @@ local isDescend = false
 local descendTimer = 0
 local feverClickTime =0
 local effectShow = false
+local lastBGM
+local playedBGM = false
 Awake = function()
 	
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
@@ -155,7 +157,8 @@ Start = function()
 	totalTimer = totalTimeMusic
 	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
 	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
-	PlaySFX("BGM")
+	lastBGM = CS.CommonAudioController.CurrentBGM
+	
 end
 
 OnDestroy = function()
@@ -163,12 +166,20 @@ OnDestroy = function()
 	
 end
 Update = function()
+	
 	MainLoop()
 	
 end
 function MainLoop()
 	if totalTimer <= 0 then
 		return
+	end
+	if CS.UnityEngine.Time.deltaTime <= 0 then
+		return
+	end
+	if not playedBGM then
+		PlaySFX("BGM")
+		playedBGM = true
 	end
 	if not isFever then
 		
@@ -437,7 +448,7 @@ function PauseGame(isPause)
 	end
 end
 function OnFeverClickButton()
-	if isFever then
+	if isFever and CS.UnityEngine.Time.deltaTime > 0 then
 		playerScore = playerScore + feverScore
 		UpdateScore(playerScore)
 		PlaySFX("fever_click")
@@ -485,6 +496,7 @@ function ShowResult()
 		scoreitem:SetActive(true)
 		scoreitem:GetComponent(typeof(CS.ExImage)).sprite = spriteListResultScore.listSprite[num]
 	end
+	CS.CommonAudioController.PlayBGM(lastBGM)
 end
 function EndGame()
 	
