@@ -448,7 +448,7 @@ function PauseGame(isPause)
 	end
 end
 function OnFeverClickButton()
-	if isFever then
+	if isFever and CS.UnityEngine.Time.deltaTime > 0 then
 		playerScore = playerScore + feverScore
 		UpdateScore(playerScore)
 		PlaySFX("fever_click")

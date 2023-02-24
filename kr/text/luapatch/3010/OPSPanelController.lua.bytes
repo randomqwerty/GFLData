@@ -804,9 +804,11 @@ end
 function ShowRestBtn()
 	for i=0,endMissionIds.Count-1 do
 		local missionid = endMissionIds[i];
-		local mission = CS.GameData.listMission:GetDataById(missionid);
-		if mission ~= nil and mission.winCount>0 then
-			return true;
+		if missionid ~= 11269 then
+			local mission = CS.GameData.listMission:GetDataById(missionid);
+			if mission ~= nil and mission.winCount>0 then
+				return true;
+			end
 		end
 	end
 	return false;
@@ -2079,8 +2081,10 @@ function RefreshRankUI(jsonData)
 		elseif userrank == 10 then
 			txtRankPercent.text = tostring(userrank)..".";
 		else
-			local precet = userrank/rankcount*100;
-			txtRankPercent.text = precet.."%";
+			local percent = (userrank/rankcount)*100;
+		    CS.NDebug.Log("percent",percent,"userrank",userrank,"rankcount",rankcount);
+			percent = CS.Mathf.CeilToInt(percent);
+			txtRankPercent.text = percent.."%";
 		end
 	else
 		txtRankPercent.text = CS.Data.GetLang(39032);
