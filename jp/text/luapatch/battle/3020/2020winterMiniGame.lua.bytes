@@ -4,6 +4,7 @@ xlua.private_accessible(CS.CommonController)
 xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.BattleManualSkillController)
 xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterControllerNew)
 xlua.private_accessible(CS.GF.Battle.BattleMemberControllerNew)
 xlua.private_accessible(CS.GF.Battle.BattleFieldTeamHolderNew)
@@ -215,6 +216,8 @@ Update = function()
 	else
 		HideTimeStop()
 	end
+	--print(characterData.isDead:ToString())
+	--print(characterData.status:ToString())
 	if characterData.isDead or characterData.status == CS.GF.Battle.CharacterStatus.withdraw then
 		ShowSettlementFromDie()
 	end
@@ -593,7 +596,7 @@ function EndSettlement()
 		enemyList[i]:UpdateLife(DamageInfo, -999999)
 	end
 	CS.GF.Battle.BattleFrameTimer.Instance:ResumeStopTime()
-	BattleController:RequestBattleFinish()
+	CS.GF.Battle.BattleManager.Instance:BattleFinishAction(false,true)
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 	--end
 	
