@@ -3,7 +3,21 @@ xlua.private_accessible(CS.CommonAudioController)
 xlua.private_accessible(CS.CommonController)
 xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.BattleManualSkillController)
-
+xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterControllerNew)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
+xlua.private_accessible(CS.GF.Battle.BattleMemberControllerNew)
+xlua.private_accessible(CS.GF.Battle.BattleFieldTeamHolderNew)
+xlua.private_accessible(CS.GF.Battle.BattleController)
+xlua.private_accessible(CS.GF.Battle.BattleManager)
+xlua.private_accessible(CS.GF.Battle.BattleStatistics)
+xlua.private_accessible(CS.GF.Battle.BattleFrameTimer)
+xlua.private_accessible(CS.BattleUIPauseController)
+xlua.private_accessible(CS.GF.Battle.BattleConditionList)
+xlua.private_accessible(CS.GF.Battle.CharacterCondition)
+xlua.private_accessible(CS.GF.Battle.EffectManager)
+xlua.private_accessible(CS.GF.Battle.BattleFriendlyCharacterManager)
+local FP = CS.TrueSync.FP
 local character = nil
 local characterData = nil
 local mCurSkill ={}
@@ -22,6 +36,7 @@ local moveFowardID = 40540701
 local moveBackID = 40540801
 local cfgMoveFoward = nil
 local cfgMoveBack = nil
+local JoystickOffset
 InitSkill1 = function(SkillLabel,mCurSkill,pos)
 	local skillLabelController
     skillLabelController = SkillLabel:GetComponent(typeof(CS.BattleManualSkillController))
@@ -44,9 +59,10 @@ JoyStickMove = function(input)
 		CS.GF.Battle.SkillUtils.GenBuffViaSkillConfig(characterData,moveBackID,{-1})
 
 	end
+	local friendPosX = CS.GF.Battle.BattleDynamicData.friendlyTeamHolder:GetLocalPos().x:AsFloat()
     local x =
         CS.Mathf.Clamp(
-        character.transform.localPosition.x - math.sin(input.eulerAngle) * characterData.realtimeSpeed:AsFloat() * XPara * input.value,
+        character.data.characterPosition.x:AsFloat() - math.sin(input.eulerAngle) * characterData.realtimeSpeed:AsFloat() * XPara * input.value,
         minX,
         maxX
     )
@@ -56,9 +72,9 @@ JoyStickMove = function(input)
         minY,
         maxY
     )
-	--print("原始速度:"..character.realtimeSpeed .." ".."最终速度:"..character.gun.speed * XPara * input.value)
-    local offset = CS.UnityEngine.Vector3(x, 0, y)
-    character.transform.localPosition = offset
+	--print("友方区域位移:"..friendPosX )
+	--JoystickOffset = CS.UnityEngine.Vector3(x , 0, y)
+	character.data.characterPosition = CS.TrueSync.TSVector(FP.FromFloat(x) , FP.Zero, FP.FromFloat(y))
 end
 
 JoyStickBegin = function(input)
@@ -106,7 +122,7 @@ Start = function()
 	mCurSkill[2] = characterData:GetSkillByID(405402,true)
 	mCurSkill[3] = characterData:GetSkillByID(405405,true)
     -- 人物扶正
-	character.reverseSync = true
+	--character.reverseSync = true
     character:ResetCharacterAngle(character.transform.localPosition)
     -- 修改碰撞盒
 	character:InitCollider()
@@ -124,6 +140,7 @@ Start = function()
 	
 end
 Update = function()
+
 end
 --depose
 OnDestroy =function()

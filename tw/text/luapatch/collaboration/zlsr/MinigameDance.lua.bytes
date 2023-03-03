@@ -938,13 +938,15 @@ function EndGame()
 end
 function ClickFeverButton()
 	--fever点击得分，加combo
-	playerScore = playerScore + feverScoreCoef
-	UpdateScore()
-	UpdateCombo(playerCombo + 1)
-	PlaySFX("fever_click")
-	feverClickTime = feverClickTime +1
-	local feverPerfectEffect = CS.UnityEngine.Object.Instantiate(effectPerfect,effectPerfect.transform.parent)
-	feverPerfectEffect:SetActive(true)
+	if CS.UnityEngine.Time.deltaTime > 0 then
+		playerScore = playerScore + feverScoreCoef
+		UpdateScore()
+		UpdateCombo(playerCombo + 1)
+		PlaySFX("fever_click")
+		feverClickTime = feverClickTime +1
+		local feverPerfectEffect = CS.UnityEngine.Object.Instantiate(effectPerfect,effectPerfect.transform.parent)
+		feverPerfectEffect:SetActive(true)
+	end
 end
 function PlaySFX(FXname)
 	--print(FXname)
