@@ -65,9 +65,11 @@ ModuleData|prefabcode|Order|DataPath|UIPath//moudle数据配置
 //MissionTower结构|预设名|章节id|scrollrect路径,item父物体名,itemcode|最低高度,item高度,最高高度|关卡1-关卡2,或entrance配置,或SELECTOR结构|各个点vector2偏移
 MissionTower|prefabcode|Order|scrollrectPath,itemparentName,itemcode|heightbase,heightitem,heightlimit|mission0-mission1,mission2-mission3,@missionentrance,SELECTOR-0,SELECTOR-1,,|0,-5;0,0;0,0...
 //MissionSelector数据结构|序列order|关卡1-关卡2,或entrance配置
-MissionSelector|0|mission0-mission1,mission2-mission3,@missionentrance//序列|具体关卡
+MissionSelector|0|prefabcode|itemPath|mission0-mission1,mission2-mission3,@missionentrance//序列|具体关卡
 //OPSMissionEffect|预设名|missionid-num配置|effect0 1 2 对应的数目区间|非选中时激活的特效组件|选中时激活的1章时各区间effectPath;2章时的effectPath，1，2;
 OPSMissionEffect|prefabcode|missionid1,num;missionid2,num;...|50_140,40_50;140_160,20_40;160_200|effectpath0,effectpath1,effectpath2|0effectPath0,0effectPath1,0effectPath2;1effectPath0,1effectPath1,1effectPath2;....|
-//(mapconfig里配置部署用）
+//(mapactivityconfig里配置部署用）
 CampaignMissionDeployEffect|itemid|prefabcode|missionid1,missionid2...|50_140,40_50;140_160,20_40;160_200|0effectPath0,0effectPath1,0effectPath2
-CampaignMissionDeployEffect|itemid|prefabcode|missionid3,missionid4...|50_140,40_50;140_160,20_40;160_200|1effectPath0,1effectPath1,1effectPath2
+PassUnShowMissionid|missionid1,missionid2//通用UI里通关后不再显示的点
+SpecialMissionInfoPos|-550,-550//关卡界面位置
+MapDragLimit|-100,100|-100，100//Map拖拽限制
