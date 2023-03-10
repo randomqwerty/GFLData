@@ -28,45 +28,55 @@ local TargetSkillID_C = 40621901
 local TargetSkillID_Switch = 40622001
 local character
 local characterData
+local trigger = false
 --找到带Buff的人 然后把它举起来= =
 Start = function()
 
 	--local character = nil
-	local findFlag = false
-	local Scale = Info.transform.localScale
-	if Scale.x == 1 then
-		TargetBuffID = TargetBuffID_A
-	end
-	if Scale.x == 2 then
-		TargetBuffID = TargetBuffID_B
-	end
-	if Scale.x == 3 then
-		TargetBuffID = TargetBuffID_C
-	end
-	if Scale.x == 4 then
-		TargetBuffID = TargetBuffID_D
-	end
-	--print(Scale.x)
-	local team = CS.GF.Battle.BattleController.Instance.listFriendlyCharacterControllers
-	if team ~= nil then
-		for i=0,team.Count-1 do
-			character = team[i]
-			local currentTier = nil
-			local dutarion = nil
-			currentTier,dutarion = character.data.conditionListSelf:GetTierByID(TargetBuffID)
-			if currentTier ~= 0 then
-				if character.data.isSummon == false and (character.data.status == CS.GF.Battle.CharacterStatus.fighting or character.data.status == CS.GF.Battle.CharacterStatus.standby) then
-					if character.holder.localPosition.y == 0 then
-						character.lifeBar.source = character.holder
-						HandleFloat(character.holder)
-						TriggerDestroy(character.data)
+	
+end
+Update = function()
+	if not trigger  and Info.transform.position.x < 500 then
+		local findFlag = false
+		local Scale = Info.transform.localScale
+		if Scale.x == 1 then
+			TargetBuffID = TargetBuffID_A
+		end
+		if Scale.x == 2 then
+			TargetBuffID = TargetBuffID_B
+		end
+		if Scale.x == 3 then
+			TargetBuffID = TargetBuffID_C
+		end
+		if Scale.x == 4 then
+			TargetBuffID = TargetBuffID_D
+		end
+		--print(Scale.x)
+		local team = CS.GF.Battle.BattleController.Instance.listFriendlyCharacterControllers
+		if team ~= nil then
+			for i=0,team.Count-1 do
+				character = team[i]
+				local currentTier = nil
+				local dutarion = nil
+				currentTier,dutarion = character.data.conditionListSelf:GetTierByID(TargetBuffID)
+				--print(character.gameObject.name.." "..TargetBuffID.." "..currentTier.." "..character.data.status:ToString())
+				if currentTier ~= 0 then
+					if character.data.isSummon == false and (character.data.status == CS.GF.Battle.CharacterStatus.fighting or character.data.status == CS.GF.Battle.CharacterStatus.standby) then
+						if character.holder.localPosition.y == 0 then
+							character.lifeBar.source = character.holder
+							HandleFloat(character.holder)
+							TriggerDestroy(character.data)
+						end
 					end
 				end
 			end
 		end
+		trigger = true
+	end
+	if Info.transform.position.x > 500 then
+		trigger = false
 	end
 end
-
 HandleFloat = function(trans)
 	
 	local seq = CS.DG.Tweening.DOTween.Sequence()
@@ -82,7 +92,7 @@ end
 
 TriggerDestroy= function(character)
 	local eulerAngles = Info.transform.localScale
-	--print(eulerAngles.x)
+
 	if eulerAngles.x == 1 then
 		local cfg = CS.GameData.listBTSkillCfg:GetDataById(TargetSkillID_A)
 		if cfg ~= nil and character~=nil and character.isDead == false then
