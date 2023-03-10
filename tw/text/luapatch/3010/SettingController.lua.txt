@@ -15,4 +15,17 @@ local OnClickDownloadVoice = function(self)
 	self:OnClickDownloadVoice();
 end
 
+
+local OnClickDownloadAdd = function(self)
+	CS.ResCenter.instance:DecideDownloadFileBefore();
+	CS.ResCenter.instance:CompareOldNewData();
+	CS.ResCenter.instance:CaculateDownSize();
+	if CS.ResCenter.allFileDownTotalSize > 0 then
+		CS.ResCenter.instance.compressAddAllSize = CS.ResCenter.allFileDownTotalSize;
+		CS.ResCenter.instance.addAllSize = CS.ResCenter.allFileDownTotalSize;
+		CS.ResCenter.instance.currentDownloadState = CS.ResCenter.DownloadAddState.DontDownload;
+	end
+	self:OnClickDownloadAdd();
+end
 util.hotfix_ex(CS.SettingController,'OnClickDownloadVoice',OnClickDownloadVoice)
+util.hotfix_ex(CS.SettingController,'OnClickDownloadAdd',OnClickDownloadAdd)
