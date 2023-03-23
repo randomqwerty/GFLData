@@ -2139,10 +2139,13 @@ local RequestDrawEvent = function(self)
 end
 local Start = function(self)
 	self:Start();
+	checkRequestDrawEvent = true;
+	CS.CommonController.Invoke(function()
+		self:RequestDrawEvent();	
+	end,0.2,CS.OPSPanelController.Instance);
+	findSpot = true;
 	local requestPrize = CS.RequestActivityEventPrize();
 	requestPrize:Request();
-	self:RequestDrawEvent();
-	findSpot = true;
 end
 
 local ShowCommonBattleSettlement = function(self)
