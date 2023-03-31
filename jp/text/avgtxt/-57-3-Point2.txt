@@ -1,36 +1,36 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>597</BIN><BGM>GF_21winter_avg_nightbar</BGM>:你来到了快餐店门口，这里已经排得水泄不通。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:你努力凑上前，拨开前方热情的咖啡粉的脑袋，看见了前方远远小小的HK21。
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||<震屏3><SE1>ClothingUp</SE1>:<size=50>姐姐大人！</size>
-()<Speaker>咖啡粉</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=9</controll_shake><SE1>AVG_Crowd</SE1>:<size=60>猫咪，吸尘器，灰色染剂！</size>
-()<Speaker>指挥官</Speaker>||:HK21！
-()<Speaker></Speaker>||:你的呐喊被淹没在咖啡粉的热情尖叫中。+为了让HK21看见你，你只好拼命挤到前面的排队行列中。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:队伍像是一条蚯蚓，盘旋前行，还会被强行插队的人斩断，长出新的一截。+你愤懑地瞪着前面插队的人，正准备骂没素质的时候，看见了熟悉的背影。
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<震屏3><SE1>ClothingUp</SE1>:<size=50>猫咪，吸尘器，灰色染剂！</size>
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:她高声喊着应援语，假装路过一般完成了插队。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Ninja(2)<Speaker>外卖小哥</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<震屏3><SE1>ClothingUp</SE1>:<size=50>猫咪，吸尘器，灰色染剂！</size>
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:又一个眼熟的人完成了插队。+眼见大家都如此没有素质，你决定——+乖乖地继续排队。
+()<Speaker></Speaker>||<黑屏2><BIN>597</BIN><BGM>GF_21winter_avg_nightbar</BGM>:君はファーストフード店の前にやってきた。//n店の前は、すでにナイトカフェのファンでいっぱいだった。
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:君がなんとかファンの群れをかき分け、身を乗り出すと、//n奥にいるHMG21の姿が見えた。
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||<震屏3><SE1>ClothingUp</SE1>:<size=50>お姉さま！</size>
+()<Speaker>カフェっ子</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=9</controll_shake><SE1>AVG_Crowd</SE1>:<size=60>ネコ、掃除機、灰色の染色剤！</size>
+()<Speaker>指揮官</Speaker>||:HMG21！
+()<Speaker></Speaker>||:君の叫びは、完全にカフェっ子たちのコールに埋もれてしまった。+HMG21に自分を認識させるためには、列に並ぶしかなかった。
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:それは店を囲んで、長蛇の列になっており、//nさらに途中から割り込もうとする者もいた。+君は、自分の前に割り込んできた者を憤然とにらみつけたが、//nそこにいたのは見知った顔だった。
+NPC-Fans(0)<Speaker>熱狂的ファン</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<震屏3><SE1>ClothingUp</SE1>:<size=50>ネコ、掃除機、灰色の染色剤！</size>
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:彼女はまるで何もなかったかのように、コールを繰り返しながら、//n君の前に入ってきた。
+()<Speaker>指揮官</Speaker>||:……
+NPC-Ninja(2)<Speaker>配達員のお兄さん</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<震屏3><SE1>ClothingUp</SE1>:<size=50>ネコ、掃除機、灰色の染色剤！</size>
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:また一人割り込んできた。+さすがにここまでやられると、君も黙ってはいられない。だから君は――+このまま大人しく列に並ぶことにした。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_Stiff</SE1>:不知道过了多久，你的腿已经失去知觉，终于快要轮到你了。+前面的外卖小哥激动地握住HK21的手。
-NPC-Ninja(2)<Speaker>外卖小哥</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:<size=50>老婆！你是我唯一的老婆！</size>+<size=50>我好喜欢你，请在这里给我签个名吧！</size>
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:感谢你的喜欢！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK21保持着完美的微笑，在外卖小哥的T恤上签下了名字。+外卖小哥带着幸福到模糊的笑容，离开了现场。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:你立刻跨步上前，站在了HK21面前。
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:你好~
-HK21(4)<Speaker>指挥官</Speaker><Position>0,-150</Position><Scale>1.15</Scale><同时置暗>||:HK21，是我！
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:怎么称呼？
-HK21(4)<Speaker>指挥官</Speaker><Position>0,-150</Position><Scale>1.15</Scale><同时置暗>||:我是你的指挥官啊！
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:好的，指挥官，请问这边是需要握手、签名还是合影呢？
-HK21(4)<Speaker>指挥官</Speaker><Position>0,-150</Position><Scale>1.15</Scale><同时置暗>||:<size=50>救我啊！快带我回格里芬基地！</size>
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:诶……
-()<Speaker></Speaker>||:HK21露出了片刻的惊愕，但转而就被完美的招牌笑容代替。
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:我明白了，角色扮演是吗？
-()<Speaker>指挥官</Speaker>||:啊？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK21走到你身边，举起手机，做出惊恐的表情，然后按下了拍照。
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Camera</SE1>:咔嚓——
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:拍好了，之后会在我的应援官网上发出喔，请记得下载。
-()<Speaker>指挥官</Speaker>||:什么？等一下，你不明白！
-HK21(4)<Speaker>HK21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:下一位~
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:你还想说什么，但已经被后面的咖啡粉肘击出了队伍。+看在越来越遥远的HK21，你哑然无语。
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_Stiff</SE1>:どれほど時間が経ったのかも分からない。//n足の感覚がとっくになくなった頃、ようやく君の番が回ってきた。+前にいる配達員のお兄さんは、興奮しながらHMG21の手を握った。
+NPC-Ninja(2)<Speaker>配達員のお兄さん</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:<size=50>HMG21ちゃん！　ああ、やっぱり本物が一番かわいい！</size>+<size=50>もう大好き！　ここにサインしてください！</size>
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:応援ありがとうございます！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HMG21は完璧なスマイルを保ったまま、//n配達員のお兄さんのシャツにサインを書いた。+そして配達員のお兄さんは、とろけるほど幸せそうな表情で、//nふらふらとその場を立ち去った。
+()<Speaker></Speaker>||<SE1>Rope</SE1>:それに続いてすぐ、君はHMG21の前に立った。
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:こんにちは！
+HK21(4)<Speaker>指揮官</Speaker><Position>0,-150</Position><Scale>1.15</Scale><同时置暗>||:HMG21、私だ！
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:えっと、お名前は何でしょうか？
+HK21(4)<Speaker>指揮官</Speaker><Position>0,-150</Position><Scale>1.15</Scale><同时置暗>||:私だ！　指揮官だよ！
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:はい、指揮官さん。握手ですか？　サインですか？//nそれともツーショット写真を撮りますか？
+HK21(4)<Speaker>指揮官</Speaker><Position>0,-150</Position><Scale>1.15</Scale><同时置暗>||:<size=50>違う！　助けて！　私をグリフィンに連れ戻してくれ！</size>
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:え……
+()<Speaker></Speaker>||:HMG21は一瞬驚いた表情を見せたが、//nすぐにまた完璧なスマイルに切り替わった。
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:分かりました、そういう設定ですね！
+()<Speaker>指揮官</Speaker>||:あ？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HMG21は君の隣に並ぶと、スマホをかざし、//nそして驚いた表情を作ってシャッターを押した。
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Camera</SE1>:（カシャッ――）
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:できました！　写真は後で公式サイトでダウンロードできる//nようになりますので、忘れずに保存してくださいね！
+()<Speaker>指揮官</Speaker>||:え、なに？　待って、どういうことなんだ！
+HK21(4)<Speaker>HMG21</Speaker><Position>0,-150</Position><Scale>1.15</Scale>||:次の方どうぞ！
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:君はまだ何か言おうとしたが、すぐ後ろから来たカフェっ子に突き飛ばされた。+どんどん離れていくHMG21を目にしながら、君は言葉を失った。
 ()||<黑点1>:

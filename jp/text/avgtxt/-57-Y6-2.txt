@@ -1,42 +1,42 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>578</BIN>:夜色降临，你和源樱一起回到了洋房。
-()||<BGM>Campaion-34</BGM><SE1>AVG_footsteps_woodfloor</SE1>:她露出神秘的笑容，前所未有地表现出强硬的态度，拉着你来到了浴缸前。
-()||<SE1>Stop_AVG_loop</SE1>:你望着浴缸……上面垂吊着七八条黑乎乎的海带样物品。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:怎么样怎么样？很壮观吧？
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……+你这是，在养海带吗？
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:海……海带？
-()||:源樱愣愣地看了一眼，脸色变得通红。
-NPC-Sakura(3)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官！这是胶片！
-()||<SE1>AVG_footsteps_woodfloor</SE1>:你走近了一点，伸出手摸住那些黑色长条状物品，上面隐隐约约有一些图案。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:啊……这是你拍的？
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:嗯！我想留下大家的回忆。+所以就偷偷借来了相机。
-()||<SE1>ClothingUp</SE1>:你接过源樱递给你的一条胶片，忍不住把它长长地展开，透过浴室的白炽灯光，似乎能看见上面有很多人。
-()<Speaker>指挥官</Speaker>||:……等等，这不是我在洋房第一次醒来见到你们的惊恐样子吗？
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:嗯嗯，很可爱吧？
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:可……爱？好吧居然有人这么形容我……+这里是练歌房，你和莉莉一起和声的时候。+哈哈哈，这是罗梅罗抢多慧鱿鱼丝的画面，咦，居然还有灰树……
-()||:你看着一张又一张的回忆，心里某个地方似乎鼓了起来。
-()<Speaker>指挥官</Speaker>||:樱，你这些是送给我的吗？+我……我很激动，也很喜欢，真的！
-NPC-Sakura(5)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:哈？
-NPC-Sakura(4)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……不是。
-NPC-Sakura(4)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<BGM>BGM_Empty</BGM>:啊？+但是你拍了很多我的照片啊！+这张是我拉着你们训练的时候，这张是我们一起吃饭的时候……+居然不是送给我的吗？
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Dusk</BGM>:这是想留给我们自己……
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:你相信我们的演出会成功吗？
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:当然！我对你们很有信心。
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:我也这么想，每一次训练我都比过去更加确定了一点。+——我们的演出一定会成功。+就像，你也一定会回到自己的世界一样。
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……是，是啊。
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:所以我觉得我们应该一起留下一些东西。+这样以后就算你跟我们暂时分别了，我们也有东西可以证明。
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:证明什么？
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:证明曾有一个人，跟我们一起打造这场盛大的演出。+证明法兰秀秀的背后，有位来自异世界的指挥官。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:万一你再一次过来，却找不到我们了。+那也可以指着这套照片对别人说：“你看，我就是法兰秀秀的经纪人哦。”
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:<color=#A9A9A9>原来你对我们每一天的相处都挂在心上，而我只把这当成了一场旅行，我……</color>
-()||:你试图做点什么来解决内心突然升起的愧疚感。<c>询问源樱喜欢的食物<c>往浴缸放水
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:你……你喜欢吃什么？炸鸡还是鱿鱼丝？
-NPC-Sakura(4)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:……大晚上的不管吃什么都容易积食吧。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:啊，不过僵尸的话就没问题吧。
-()||<SE1>AVG_Spanner</SE1><分支>2</分支>:你打开了浴缸的水龙头。+但一滴水都没有流出来。+于是你更加尴尬了。
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:啊我为了晾晒胶卷，将水龙头的总开关给关上了。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:哦差点忘了，其实今天叫你来是想要你一起来帮忙挑选一下照片。+看看哪些是你觉得比较好的照片，回头我想把它印出来给大家一起看。
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:不能全部印出来吗？
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:啊可是……有十几卷诶……+我们现在难道不是每一分钱都要省着花吗？
-NPC-Sakura(2)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<黑点1>:印，都印出来！就算砸锅卖铁我也要把它们全部印出来！
+()||<黑屏2><BIN>578</BIN>:夜、君はさくらと一緒に洋館に戻った。
+()||<BGM>Campaion-34</BGM><SE1>AVG_footsteps_woodfloor</SE1>:洋館に着くと、さくらは神妙な笑顔を見せ、君を浴室まで引っ張ってきた。
+()||<SE1>Stop_AVG_loop</SE1>:浴槽の上には……昆布みたいな黒い何かがぶら下がっていた。
+NPC-Sakura(0)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:どう？　どう？　がばよかでしょ？
+NPC-Sakura(0)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……+昆布の養殖でもしてたのか？
+NPC-Sakura(2)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:こ、昆布！？
+()||:さくらは一瞬固まって、そしてすぐ顔が真っ赤になった。
+NPC-Sakura(3)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指揮官さん！　これはフィルムです！
+()||<SE1>AVG_footsteps_woodfloor</SE1>:君はその黒い物体に近づいて目を凝らした。確かに何か画像が見える。
+()<Speaker>指揮官</Speaker>||<SE1>Stop_AVG_loop</SE1>:あ……これはさくらが撮ったのか？
+NPC-Sakura(0)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:そうです！　みんなの思い出ば残したくなって。+部屋にあったカメラばこっそり借りたんです。
+()||<SE1>ClothingUp</SE1>:君はさくらからフィルムを受け取り、浴室の明かりにかざした。//nみんなの姿がそこにあった。
+()<Speaker>指揮官</Speaker>||:……まって、これ私が初めて目を覚まして、慌てふためいた時のやつじゃない？
+NPC-Sakura(0)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:うん、かわいく撮れとるでしょ？
+NPC-Sakura(0)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:かわ……いい？　そんな風に言われたのは初めてだ……+これはスタジオで、リリィと一緒にボイトレした時か。+はは、これはロメロとたえがスルメイカを取り合ってた時だな。//nあれ、グレーツリーも……
+()||:思い出の一コマ一コマに、君の心がまたざわつき始める。
+()<Speaker>指揮官</Speaker>||:さくら、これはもしかして私への？+気に入ったよ、とても。
+NPC-Sakura(5)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:え？
+NPC-Sakura(4)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……違います、けど？
+NPC-Sakura(4)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<BGM>BGM_Empty</BGM>:あれ？+でも私がいっぱい写ってるじゃないか！+レッスンの時や、ご飯を食べてる時も……+私へのプレゼントじゃないというのか？
+NPC-Sakura(1)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Dusk</BGM>:自分たちで残しておこうかなって……
+NPC-Sakura(1)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……
+NPC-Sakura(1)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:ライブ、成功すると思いますか？
+NPC-Sakura(1)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:もちろんだよ！　君たちならきっとできる。
+NPC-Sakura(1)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:わたしもレッスンする度に、そう思うようになりました。+――ライブは必ず成功するって。+やっけんきっと、指揮官さんも元の世界に戻れると思います。
+NPC-Sakura(1)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……そ、そうだな。
+NPC-Sakura(1)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:なのでやっぱり、折角なんで何かば残すべきかなって思って……+そうすれば、別れても、証明できる何かが残ります。
+NPC-Sakura(1)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:証明って？
+NPC-Sakura(1)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:かつて、わたしたちと一緒にこのライブば成功させた人がおる。+フランシュシュには、異世界から来た指揮官さん//nという人がおったっていう証明です。
+NPC-Sakura(0)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:これさえあれば、もう二度と会えんごてなったとしても、+指揮官さんは「自分はフランシュシュのプロデューサーだったんだ」って、//n言うことができますしね。
+NPC-Sakura(0)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:<color=#A9A9A9>まさかそんなに気にかけてくれていたとは……//n自分はただちょっと旅行したくらいにしか思っていなかったのに……</color>
+()||:君は後ろめたさに耐え切れず、何か言おうとした。<c>A さくらの好きな食べ物を訊く<c>B 浴槽に水を入れる
+()<Speaker>指揮官</Speaker>||<分支>1</分支>:す、好きな食べ物はなに？　唐揚げ？　スルメイカとか？
+NPC-Sakura(4)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:……夜そやんかと食べたら胃もたれしますよ。
+NPC-Sakura(0)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:って、ゾンビやけん大丈夫か。
+()||<SE1>AVG_Spanner</SE1><分支>2</分支>:君は風呂場の蛇口をひねった。+しかし水は出てこなかった。+場の空気がさらに気まずくなった。
+NPC-Sakura(2)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:ああえっと、フィルム干すために、元栓ば締めてます。
+NPC-Sakura(0)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:今日はね、本当はただ写真ば選んで欲しいだけなんです。+指揮官さんの気に入ったやつば、プリントしようて思って。
+NPC-Sakura(0)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:全部プリントすることはできないのか？
+NPC-Sakura(2)<Speaker>源さくら</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:え……でもこやんあるし……+今はお金ば節約せないかんし……
+NPC-Sakura(2)<Speaker>指揮官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<黑点1>:全部プリントしよう！　たとえ有り金を全部溶かすことになっても！

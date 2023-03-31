@@ -1,45 +1,45 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>578</BIN><BGM>BGM_Saga_AVG_Dusk</BGM>:人的一生，必然要经历许多次离别，也总要学会坦然地接受离别。+历数过往种种，你以为那些不得不面对的离别，早已让你有了一颗钢浇铁铸的心。+可是，为什么上次在树林里，莉莉可以那么洒脱地看待将至的离别，而你却开始忍不住难过啊！
-()<Speaker>指挥官</Speaker>||:啊——
-()||<SE1>ClothingUp</SE1>:你又哀嚎着薅下了一撮头发。+不管怎么样，还是想找个机会，和莉莉好好地告别啊……+然而，最近几次找莉莉，她都忙着练习，腾不出时间。
-()<Speaker>指挥官</Speaker>||<黑屏1>:无论如何，今天都要逮住她！
-()||<黑屏2><BIN>587</BIN><SE1>AVG_20Winter_Door_Open</SE1>:“嘭”——你气势汹汹地推开房门。
-()<Speaker>指挥官</Speaker>||:莉莉，我有话和你说……
-NPC-Lily(4)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:哎呀！
-()||<SE1>AVG_20Winter_Chains_Break</SE1>:清脆的碰撞声响起，十几枚星星发夹从莉莉怀中散落，在地板上搭出了一条小小的银河。
-()<Speaker>指挥官</Speaker>||:抱歉！我不知道莉莉你在门后……
-NPC-Lily(1)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:没事，莉莉也正打算去找你！
-NPC-Lily(1)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:诶？+<color=#A9A9A9>果然还是有点舍不得我走吧……？</color>
-()||<SE1>AVG_Bullet_Drop</SE1>:莉莉蹲下身子，戳着地上的发夹。
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:莉莉想让指挥官挑一挑，哪枚发夹最好看？
-NPC-Lily(0)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:<color=#A9A9A9>咳，看来是我想多了……</color>
-()||:你眯着眼睛，仔细打量这些发夹，以你敏锐的洞察力，这个想必不在话下。
-()<Speaker>指挥官</Speaker>||:嗯……+嗯……+呃，它们不是一模一样的吗？
-NPC-Lily(3)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:……+完全不一样！
-NPC-Lily(3)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:有什么区别吗？
-()||<SE1>ClothingUp</SE1>:莉莉捡起脚边的两枚发夹，举到你的眼前。
-NPC-Lily(6)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:左边这一枚的色调更冷，适合搭配冷色系的表演服，会显得更酷一些。+右边的呢，光泽度是最好的，在舞台灯光下bling bling的，特别可爱！
-NPC-Lily(6)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:还真是有大学问……
-NPC-Lily(1)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:嗯！法兰秀秀的每场演出，莉莉都花了很多心思的。
-NPC-Lily(1)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:我知道……+<color=#A9A9A9>可惜以后就看不到你们的演出了。</color>
-()||:你嘴里莫名有些发苦。
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:所以，指挥官更喜欢哪一枚发夹呢？<c>你认为好的那一枚<c>你平时戴的那一枚
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:莉莉比我了解得多，按你的想法来就好了。
-()||<分支>1</分支>:莉莉鼓着腮帮子，似乎有些苦恼。
-NPC-Lily(9)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:唔，真的可以由莉莉决定吗？+毕竟是送给指挥官的礼物……
-NPC-Lily(9)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||<分支>1</分支>:诶？！给我的？
-NPC-Lily(1)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:是呀。+要是让莉莉来选的话……还是莉莉戴的这枚最可爱吧？
-()||<SE1>ClothingUp</SE1><分支>2</分支>:你俯下身，注视着莉莉的额头。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:莉莉每天戴的这一枚，就很好看啊。
-NPC-Lily(2)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>2</分支>:指挥官也这么觉得吗？和莉莉想的一样呢！
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>2</分支>:那就这么决定了，把它送给你吧。
-NPC-Lily(0)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||<分支>2</分支>:诶？！给我？
-NPC-Lily(1)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>2</分支>:是呀。
-()||:莉莉说着便要取下发夹，你还有点不敢相信。
-()<Speaker>指挥官</Speaker>||:真的要把它送给我吗？
-NPC-Lily(1)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:嗯嗯！+虽然指挥官说，未来不能再和莉莉联系，但是也许还有机会来看法兰秀秀的演出吧？
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:到时候，就算你伪装成了别的模样，只要戴着这枚发夹，莉莉就一定能看到观众席上最闪耀的那颗星星！
-NPC-Lily(0)<Speaker>指挥官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:莉莉……+如果，如果有机会来，我一定会戴着它的。
-NPC-Lily(2)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:嗯！那星星就是我们的暗号了……一言为定哦。
-()<Speaker></Speaker>||<common_effect>%%code=Saga_Lily_item%%</common_effect>:莉莉伸出小拇指勾住了你的，另一只手掌上躺着那颗光彩熠熠的黄色星星。
-()<Speaker>指挥官</Speaker>||<黑点1>:好，一言为定。
+()||<黑屏2><BIN>578</BIN><BGM>BGM_Saga_AVG_Dusk</BGM>:人の一生には、多くの別れがある。//nだから、人はいつか平然と別れを受け入れるようになる。+数々の経験を経てきた君も、いつか必ず訪れる別れに対し、//n動じない心を持っている。そんな風に、君は思っていた。+リリィがああも平然と別れを受け入れるとは。君はなぜか心苦しくなる。
+()<Speaker>指揮官</Speaker>||:ああ――
+()||<SE1>ClothingUp</SE1>:低い悲鳴を上げながら、君は頭を抱えた。+やはりちゃんと時間を作って、お別れが言いたい……+しかしリリィはレッスンで忙しく、時間がない。
+()<Speaker>指揮官</Speaker>||<黑屏1>:今日こそ、絶対捕まえてやる！
+()||<黑屏2><BIN>587</BIN><SE1>AVG_20Winter_Door_Open</SE1>:（ドン――）//nと君は勢いよく部屋のドアを開けた。
+()<Speaker>指揮官</Speaker>||:リリィ、話があ……
+NPC-Lily(4)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:キャッ！
+()||<SE1>AVG_20Winter_Chains_Break</SE1>:パラパラと、リリィの手からたくさんの星型のヘアピンが落ち、//n床で小さな銀河を作った。
+()<Speaker>指揮官</Speaker>||:すまない！　後ろにいるの気づかなくて……
+NPC-Lily(1)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:大丈夫、リリィもちょうど指揮官を探しに行こうとしてたから！
+NPC-Lily(1)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:え？+<color=#A9A9A9>やはり心残りがあるのか……</color>
+()||<SE1>AVG_Bullet_Drop</SE1>:リリィはしゃがんで、落ちたヘアピンをいくつか拾い上げて君に見せた。
+NPC-Lily(0)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:どれが一番似合う？　指揮官に選んで欲しいな？
+NPC-Lily(0)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:<color=#A9A9A9>うーん、考えすぎか……？</color>
+()||:君は目を凝らしてヘアピンを一つずつ観察した。
+()<Speaker>指揮官</Speaker>||:うん……+うん……？+あー、全部同じやつじゃないの？
+NPC-Lily(3)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:……+全然違うよ！
+NPC-Lily(3)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:何か違いがあるのか？
+()||<SE1>ClothingUp</SE1>:リリィはヘアピンを2つ掴むと、君の目の前に差し出した。
+NPC-Lily(6)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:左のは寒色系で、同じ寒色系の衣装と合わせると、クールに見えるんだよ。+右のはつやがあって、ステージライトを反射してキラキラするから、//nとってもかわいいの！
+NPC-Lily(6)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:そういう違いがあるのか……
+NPC-Lily(1)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:うん！　ライブではいつも、色々考えてるんだ。
+NPC-Lily(1)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:そうか……+<color=#A9A9A9>でも、それももう見ることは出来ない</color>
+()||:口の中から妙に苦い味がした。
+NPC-Lily(0)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:だからね、指揮官はどのヘアピンが一番いいと思う？<c>A リリィがいいと思ったやつでいいよ<c>B リリィが普段つけているやつでいいよ
+()<Speaker>指揮官</Speaker>||<分支>1</分支>:私よりもリリィの方が詳しいから、リリィがいいと思ったやつでいいよ。
+()||<分支>1</分支>:しかしリリィはほっぺを少し膨らませ、悩んでいる様子だった。
+NPC-Lily(9)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:うーん、本当にリリィが決めていいの？+指揮官へのプレゼントなのに……
+NPC-Lily(9)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||<分支>1</分支>:え？　私に？
+NPC-Lily(1)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:そうだよ。+リリィが選ぶとしたら……//nやっぱりリリィが普段つけてるこれが一番かわいいよね？
+()||<SE1>ClothingUp</SE1><分支>2</分支>:君の視線が、リリィの額に止まった。
+()<Speaker>指揮官</Speaker>||<分支>2</分支>:リリィが普段つけてるそれが一番いいよ。
+NPC-Lily(2)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>2</分支>:指揮官もそう思う？　リリィと同じだね！
+NPC-Lily(0)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>2</分支>:それじゃあ、これを指揮官にあげる！
+NPC-Lily(0)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||<分支>2</分支>:え？　私に？
+NPC-Lily(1)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>2</分支>:うん！
+()||:そう言いながら、リリィは自分のヘアピンを取り外した。
+()<Speaker>指揮官</Speaker>||:本当にいいの？
+NPC-Lily(1)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:うん！+もうリリィたちには連絡できないって指揮官は言ってたけど、//nもしかしたらまたどこかでフランシュシュのライブを//n観ることがあるかもしれないでしょ？
+NPC-Lily(0)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:その時はこのヘアピンをつけて。たとえ指揮官が別の姿に変装していた//nとしても、リリィがすぐに見つけ出すから！
+NPC-Lily(0)<Speaker>指揮官</Speaker><Position>70,-170</Position><Scale>1.21</Scale><同时置暗>||:リリィ……+もし機会があったら、必ずこれをつけていく。
+NPC-Lily(2)<Speaker>星川リリィ</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:うん！　それじゃ、トゥインクル・スターが合言葉だよ……約束。
+()<Speaker></Speaker>||<common_effect>%%code=Saga_Lily_item%%</common_effect>:リリィは小指を差し出した。//nもう片方の手にはキラキラの黄色い星を握っている。
+()<Speaker>指揮官</Speaker>||<黑点1>:ああ、約束する。

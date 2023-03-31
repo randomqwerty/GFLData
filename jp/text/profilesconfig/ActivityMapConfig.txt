@@ -34,9 +34,11 @@
 //2021夏活配置：
 //MissionSelectionTex|missionselect_PoincareRecurrence|2|-48
 //2022白情活动配置：
-MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
+//MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //SCAR角色活动：
-MissionSelectionTex|missionselect_2022Scar|2|-56
+//MissionSelectionTex|missionselect_2022Scar|2|-56
+//佐贺联动：
+MissionSelectionTex|missionselect_ZLSR|1|-57
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -77,15 +79,18 @@ OPSPanelScene|-57|-57
 //OPSVideoFirst|-16|deepdive_short
 //OPSVideoFirst|-33|deepdive_short
 //OPSVideoFirst|-2|deepdive_short
+//OPSVideoFirst|-54|deepdive_short
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
 //OPSVideoBlackground|-16|BBui_IntroH264,BBui_LoopH264
 //OPSVideoBlackground|-33|BBui_Intro_Prime,BBui_loop_Prime
 //OPSVideoBlackground|-34|BBui_Intro_Prime,BBui_loop_Prime
-
+//OPSVideoBlackground|-47|BBui_Intro_Prime,BBui_loop_Prime
+//OPSVideoBlackground|-54|BBui_Intro_Prime,BBui_loop_Prime
 //OPS跳转Mission-预制物(公用)
-OPSReturn|Return
+//OPSReturn|Return
+//OPSReturn|2022SummerReturn|-54
 OPSReturn|ZLSR_Return|-57
 
 //OPS场景左侧贴图-预制物(公用)
@@ -153,12 +158,12 @@ OPSLeftBGNormalActivity|-57|ZLSR_Left
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
-OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
+//OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
 //OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
-OPSNoticeNormalActivity|-56|2022Scar_Notice
+//OPSNoticeNormalActivity|-56|2022Scar_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -204,9 +209,9 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 //OPSGoto|Xmas_2021_GotoMall|0|-49
 //OPSGoto|MirrorStage_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
-OPSGoto|WhiteDay_2022_GotoMall|0|-50
-OPSGoto|2022Scar_GotoMall|0|-56
-
+//OPSGoto|WhiteDay_2022_GotoMall|0|-50
+//OPSGoto|2022Scar_GotoMall|0|-56
+OPSGoto|ZLSR_GotoMall|0|-57
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -421,15 +426,16 @@ OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
 //OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 //OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
-OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
+//OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
 //OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
-OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
-OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
-OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
+//OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
+//OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
+//OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
+//OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
@@ -1549,6 +1555,8 @@ OPSCampaignDetail|-54_113|0,0|Dr_Eugene
 OPSCampaignDetail|-54_114|0,0|Railway_figure
 OPSCampaignDetail|-54_115|0,0|Railway_figure
 OPSCampaignDetail|-54_116|0,0|Railway_figure
+
+OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
 
 //终焉花海复刻配置
 OPSCampaignDetail|-55_1|0,0|Gustaf_2
