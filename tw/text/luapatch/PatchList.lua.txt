@@ -306,6 +306,7 @@ patch3010={
 "3010/BattleSLGModeController",
 "3010/WeddingPlay",
 "3010/FairyStateController",
+"3010/HomeUserInfoNewController",
 }
 -- va11
 print("load Va11");

@@ -56,7 +56,7 @@ MissionOpenTime|百十年前，有这么一位小说家，他鼓起勇气，写�
 MissionAvgTime|10751|1|-60|newstag2//刻度上显示图片以及点击显示剧情
 LightColor|FFFFFFFF,C16E60AC//背景颜色难度控制
 MissionBackgroundCamera|CameraBackground//使用带camera的背景 
-OPSHighScore|5|FixedPoint_HighestScore|FixedPoint_TotalScore//无限关卡模式里使用的UI 进行点击说明
+OPSHighScore|0|FixedPoint_HighestScore|FixedPoint_TotalScore|1001-1002-1003//无限关卡模式里使用的UI|containerid|最高分组件|总积分组件|对应兔洞id 
 HideTop|0//是否显示最上边top条默认显示
 ModuleSpineMission|spinecode|modulename|mission0-mission1,mission2-mission3,@missionentrance,.....//移动modulespine
 ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置|code|指定aiindex
@@ -68,7 +68,7 @@ ModuleSpineUI|2022SummerMissionSelector|MissionLayout/Viewport|MissionLayout/Vie
 MoudleMoveBackground|Img_Rail|4|2022SummerBackground-5-350,2022SummerStation-5-0//背景移动机制|铁轨组件|进入出去时间|背景预设-停留时间-铁轨当前速度
 ModuleData|prefabcode|Order|DataPath|UIPath//moudle数据配置
 //MissionTower结构|预设名|章节id|scrollrect路径,item父物体名,itemcode|最低高度,item高度,最高高度|关卡1-关卡2,或entrance配置,或SELECTOR结构|各个点vector2偏移
-MissionTower|prefabcode|Order|scrollrectPath,itemparentName,itemcode|heightbase,heightitem,heightlimit|mission0-mission1,mission2-mission3,@missionentrance,SELECTOR-0,SELECTOR-1,,|0,-5;0,0;0,0...
+MissionTower|prefabcode|Order|scrollrectPath,itemparentName,itemcode|heightbase,heightitem,heightlimit|mission0-mission1,mission2-mission3_prefabnewcode,@missionentrance,SELECTOR-0,SELECTOR-1,,|0,-5;0,0;0,0...
 //MissionSelector数据结构|序列order|关卡1-关卡2,或entrance配置
 MissionSelector|0|prefabcode|itemPath|mission0-mission1,mission2-mission3,@missionentrance//序列|具体关卡
 //OPSMissionEffect|预设名|missionid-num配置|effect0 1 2 对应的数目区间|非选中时激活的特效组件|选中时激活的1章时各区间effectPath;2章时的effectPath，1，2;
