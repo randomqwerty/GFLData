@@ -308,6 +308,11 @@ patch3010={
 "3010/FairyStateController",
 "3010/HomeUserInfoNewController",
 }
+patch3020=
+{
+"3010/HomeUserInfoNewController",
+"3020/MissionSkillData",	
+}
 -- va11
 print("load Va11");
 --table.insert(patch2080, "collaboration/Va11/AVGController");
