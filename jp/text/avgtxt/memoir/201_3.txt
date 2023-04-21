@@ -1,93 +1,93 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Sneak</BGM>:……
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:……哈……哈。
-NPC-Soldier(0)<Speaker>军方士兵</Speaker>||:就在这附近，都把眼睛放亮点！别让她们跑了！
-()<Speaker></Speaker>||:躲藏在掩体的后面，猎豹喘着粗气，怀中抱着自己的枪。+她的弹药很充足，她甚至从李那里拿到了大量的爆炸物。
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:怎么办……该怎么办……
-()<Speaker></Speaker>||:如果能度过眼前的这一关，她或许真的能够活着回去。
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:……
-()<Speaker></Speaker>||:军方小队的脚步声就在附近萦绕不散。+他们一路追着她的足迹，早已锁定了她的位置。+她无处可逃。
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:……这就是我擅自行动的报应吗？
-()<Speaker></Speaker>||:她只是想活下去而已。
-NPC-Soldier(0)<Speaker>军方士兵</Speaker>||<BGM>BGM_Empty</BGM><BIN>99</BIN><SE1>AVG_lifttable</SE1>:……！！
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position><Shake>0.1</Shake>||:……！！
-()<Speaker></Speaker>||:就在猎豹叹息的瞬间，她所躲藏的掩体被人一下拉开。
-()<Speaker></Speaker>||<SE1>Select</SE1>:一瞬间，她的思考仿佛断线了般，下一秒，近在咫尺的士兵抬起了手中的枪。
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:不……！！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:呯呯呯！
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:一发子弹打在了猎豹的腿上，她猛地向前一扑，用手里的刀子割开了士兵的喉咙。
-NPC-Soldier(0)<Speaker>军方士兵</Speaker>||<BGM>BGM_Danger</BGM>:在这边！找到了！是格里芬的人形！
-NPC-Soldier(0)<Speaker>军方士兵</Speaker>||:别放过她！把她干掉！+她的同伴呢！？
-NPC-Soldier(0)<Speaker>军方士兵</Speaker>||:只有她一个！重复！只有一个！
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:对不起……对不起……李……对不起……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:连捡起枪的余裕都没有，猎豹杀死眼前的士兵后，便不管不顾地向前逃。
-()<Speaker></Speaker>||:她只是个人形，在这样的战场上，她几乎没有活下去的可能。+即便如此，她也怀着生存下去的欲望，这根本不应属于人形的欲望。+人形，难道就该死吗？
-GepardM1(0)<Speaker>猎豹M1</Speaker><Position>0,150</Position>||:再跑远点……再一点点就可以——！！
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><SE1>AVG_rifle_finalshot_h</SE1>:呯！
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:……ハア……ハア
+NPC-Soldier(0)<Speaker>軍の兵士</Speaker>||:この近くにいるはずだ。//n目を凝らせ！　絶対に奴らを逃がすな！
+()<Speaker></Speaker>||:シェルターの奥に隠れて、ゲパードは荒い息に喘ぎながら胸中の銃をきつく抱きしめた。+彼女の弾薬は十分だ。リーの所にあった大量の爆発物もある。
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:どうしよう……どうすれば……
+()<Speaker></Speaker>||:もし目の前の障害を乗り越えられれば、生還にも一縷の望みが見えてくる。
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:……
+()<Speaker></Speaker>||:敵軍が走り回る足音が絶えず聞こえてくる。+彼らは足跡を辿って、とっくにゲパードのいる位置を割り出しているのだ。+彼女に逃げ場はない。
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:……これがワタシの単独行動の報いなのね？
+()<Speaker></Speaker>||:ゲパードはただ生きていたかっただけなのだ。
+NPC-Soldier(0)<Speaker>軍の兵士</Speaker>||<BGM>BGM_Empty</BGM><BIN>99</BIN><SE1>AVG_lifttable</SE1>:……！！
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position><Shake>0.1</Shake>||:……！！
+()<Speaker></Speaker>||:ゲパードが息を吐いたその時、シェルターが開けられた。
+()<Speaker></Speaker>||<SE1>Select</SE1>:一瞬、彼女の思考回路は途切れ、//n次の瞬間、目の前の敵に対して手中の銃を構えていた。
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:いや……！！
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:（銃声）
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:銃弾の一つがゲパードの脚に当たる。彼女は死物狂いで前進すると、手元のナイフで兵士の喉笛を引き裂いた。
+NPC-Soldier(0)<Speaker>軍の兵士</Speaker>||<BGM>BGM_Danger</BGM>:こっちだ！　見つけたぞ！　グリフィンの人形だ！
+NPC-Soldier(0)<Speaker>軍の兵士</Speaker>||:絶対に逃すなよ！　やっちまえ！+おい、そいつの連れはどこだ！？
+NPC-Soldier(0)<Speaker>軍の兵士</Speaker>||:こいつ一人しかいない！　繰り返す！　ここには一人しかいないぞ！
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:ごめんなさい……ごめんなさい……リーさん……ごめんなさい……
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:銃を拾い上げる余裕すらないまま、ゲパードは目の前の兵士を殺すと、一心不乱に前方へと逃げた。
+()<Speaker></Speaker>||:彼女は人形でしかない。//nこのような戦場で生き延びる可能性などゼロに等しい。+それでも、生き続けたいと願った。//nこれはそもそも人形にはあるはずのない欲望であった。+だからといって、人形ならば簡単に死んでもいいのだろうか？
+GepardM1(0)<Speaker>ゲパード M1</Speaker><Position>0,150</Position>||:もう少し遠くまで……あと少しだけ――！！
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><SE1>AVG_rifle_finalshot_h</SE1>:（銃声）
 ()<Speaker></Speaker>||:……
 ()||<黑屏1>:
-M1903(10)<Speaker>春田</Speaker>||<BIN>97</BIN><黑屏2><BGM>BGM_Dorm</BGM>:哎呀……打搅到你们了吗？李？
-98k(0)<Speaker>Kar98k</Speaker>||:无妨，目标正在整理报告，现在我们还很清闲。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:……
-()<Speaker></Speaker>||:两人一路行进，似乎不知不觉时已经进入李与卡尔的监视区，再加上说话的声音太大，一下就被她们注意到了。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:猎豹小姐？
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:李……你们在监视赫丽安小姐？
-98k(0)<Speaker>Kar98k</Speaker>||:称呼她为“目标”，菜鸟。+不要这么不专业。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:呃，好的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:有些不安地，猎豹将手里的红茶包递了过去。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:……谢谢？但是我们现在没办法用上它。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:你们需要休息。+旁边的办公室里就有茶杯和热水。
-M1903(10)<Speaker>春田</Speaker>||:猎豹小姐说得没错，不能让你们一直做这种计划外的任务。+正好现在赫丽安小姐在专心工作，好好休息一下如何？
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:但是……如果赫丽安小姐在这中间外出了的话。+我们的行动很容易就会暴露的。
-98k(0)<Speaker>Kar98k</Speaker>||:你们是对我有什么不满吗……
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:没关系，我可以暂时替代你们两位。
-M1903(10)<Speaker>春田</Speaker>||:猎豹小姐？
-()<Speaker></Speaker>||:春田有些惊讶地看着猎豹，随即她想到，猎豹或许是不想继续刚才的话题。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:……猎豹小姐吗？+如果是您的话，倒是很让人放心。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:就算是两位也总是需要休息的。+执勤任务之外还要肩负这种重任。+如果被遗留的疲劳影响，就得不偿失了。+一点也好，让我也做些什么吧。
-98k(0)<Speaker>Kar98k</Speaker>||:她说得有道理，李。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:嗯……我知道了。+那，春田小姐，可以请你帮我们泡一下茶吗？
-M1903(10)<Speaker>春田</Speaker>||:乐意之至。
-()<Speaker></Speaker>||:在简单的商议之后，李与卡尔点点头，决定随着春田到旁边的办公室去稍作休憩。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:李小姐。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:嗯？
-()<Speaker></Speaker>||:这时，猎豹轻轻叫住了李。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:你还记得……在那个战场上，最后发生了什么吗？+我听其他人说，最后我们两人是在一起行动的。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:……
-()<Speaker></Speaker>||:驻足的李看着猎豹，脸上露出一丝困惑。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:……抱歉，我也才刚刚醒过来。+战场上发生的事，没有记录在我的数据内。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:是吗……抱歉叫住你。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><Position>0,50</Position>||:不，没有关系。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:看着李转过身去，猎豹略略深呼吸了一下，伸入衣兜，攥住了她的退役申请书。+她也转过身，看向了赫丽安的办公室大门。+……只要将这个交出去，她就可以离开这个如今让她觉得格格不入的地方了。
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:——
-()<Speaker>赫丽安</Speaker>||:进来。
+M1903(10)<Speaker>スプリングフィールド</Speaker>||<BIN>97</BIN><黑屏2><BGM>BGM_Dorm</BGM>:あら……お邪魔でしたか？　リーさん？
+98k(0)<Speaker>Kar98k</Speaker>||:問題ないわ。ターゲットは今、報告書の整理中です。//n我々もさしたる仕事はありません。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:……
+()<Speaker></Speaker>||:二人は歩いているうちに、リーとKar98kの監視区に進入していたようだ。さらに大きすぎる話し声も加わって、彼女たちの注意を引きつけていた。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:ゲパードさん？
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:リーさん……あなたたちはここで、ヘリアンさんを監視しているの？
+98k(0)<Speaker>Kar98k</Speaker>||:「ターゲット」とお呼びなさい、おちびちゃん。+素人じゃあるまいし。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:うん、わかった。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:少し不安げに、ゲパードは手に持ったティーバッグを手渡そうとした。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:……お心遣いには感謝いたしますが。//n今しばらく我々は、頂けないかと思われます。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:あなたたちも休んだ方がいい。+隣の部屋に、ちょうどティーカップとお湯がある。
+M1903(10)<Speaker>スプリングフィールド</Speaker>||:ゲパードさんのおっしゃるとおりです。//n貴方たちにずっと業務外の任務を強いるわけにはいきません。+ちょうどヘリアンさんもお仕事をされてることですし、お二人もゆっくりお休みになられてはいかがですか？
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:しかしながら……万が一ヘリアンさんが出かけようとされた場合には。+我々の行動は簡単に露呈してしまいます。
+98k(0)<Speaker>Kar98k</Speaker>||:それとも、わたくしに何かご不満がお有りなのかしら……
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:心配しないで。ワタシが代わりに見張っておく。
+M1903(10)<Speaker>スプリングフィールド</Speaker>||:ゲパードさん？
+()<Speaker></Speaker>||:スプリングフィールドは少しばかり驚いた様子でゲパードを見て、//nすぐに気づいた。//nゲパードはこの話題をもうこれ以上、続けたくないのだと。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:……ゲパードさんが代わってくださるというのなら。+安心してお任せできますね。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:いくら二人でも休息は取った方がいい。+通常の任務に加えて、こんな大役まで担ってるんだから。+もしも疲れが溜まって、仕事に支障をきたしちゃったらいけないし。+少しでもいいから、ワタシにも何かさせて。
+98k(0)<Speaker>Kar98k</Speaker>||:この子の言うことにも一理あるわね、リーさん。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:そうですね……わかりました。+では、スプリングフィールドさん、お茶を淹れていただいてもよろしいでしょうか？
+M1903(10)<Speaker>スプリングフィールド</Speaker>||:喜んで。
+()<Speaker></Speaker>||:簡単な話し合いの後、リーとKar98kは頷いて、スプリングフィールドに従って隣の部屋で休憩を取ることにした。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:リーさん。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:はい？
+()<Speaker></Speaker>||:ゲパードは小さな声で、リーを呼び止めた。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:あの戦場で最後に何があったのか……あなたはまだ覚えてる？+他の人から、最後にワタシたちが一緒にいたって聞いたの。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:……
+()<Speaker></Speaker>||:呼び止められたリーはゲパードを見て、困惑の表情を露わにした。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:……申し訳ありません。私も先程、目が覚めたばかりでして。+戦場で発生したことに関しては、私のデータ上には記録がないようです。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:そう……呼び止めちゃってごめん。
+MLEMK1(0)<Speaker>リー・エンフィールド</Speaker><Position>0,50</Position>||:いいえ、お気になさらず。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:リーが振り返って、去っていくのを見て、ゲパードは深呼吸しながら手を伸ばし、ポケットの中の退役申請書をぎゅっと掴んだ。+ゲパードはまっすぐヘリアンの部屋のドアに向き合った。+……これを提出さえすれば、この違和感ある場所から離れられるのだ。
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:――
+()<Speaker>ヘリアン</Speaker>||:どうぞ
 ()||<黑点1>:
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||<BIN>8</BIN><黑点2><SE1>AVG_door_elecport</SE1>:……打搅了。
-()<Speaker></Speaker>||:走入办公室内，猎豹的手紧紧攥着那份退职信。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<BGM>BGM_Moon</BGM>:……猎豹？有什么事吗？
-()<Speaker></Speaker>||:坐在办公椅上，赫丽安转了过来，看向猎豹，手里仍拿着钢笔和文件。+尽管有眼镜作为遮挡，但她脸上的疲惫，就跟她的黑眼圈一样显而易见。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:我……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:对了，改造后的素体还习惯吗？
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:……啊。
-()<Speaker></Speaker>||:正要说的话被打断，猎豹张了张嘴，用手捏着退职信，手却仿佛被冻住了一样动弹不得。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:抱歉，这段时间基地一直很忙，我可能没注意到你们的情况。+格琳娜不在，我也多少有些慌乱。
-()<Speaker></Speaker>||:赫丽安就这样看着她，尽管看起来非常疲惫，眼睛里的温和却一点也没有减弱。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:您……您辛苦了，我没有任何问题。+素体的情况很好，训练的分数也比以前高了很多。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:那就好。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:猎豹抓紧了那封信。+赫丽安揉了揉眼睛，露出一个微笑，慢慢地从椅子上站了起来。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:我想——
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:你的假期已经安排好了。
-()<Speaker></Speaker>||:猎豹正要掏出那份信的手微微一滞。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:……什么？
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:格琳娜给我详细地说起过你们每个人的事。+我知道你，你很担心加班和调休的问题吧。+放心吧……我会安排妥当的。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:……明明基地百废俱兴，却格外照顾我。+现在还有这样的余力吗？
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:并不是格外照顾你。+基地现在的情况不太好，这是事实。+但不论是指挥官还是格琳娜，都很坚持要尊重你们每个人。+而我也赞同这一点……就跟他们说得一样，人形也需要张弛有度。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||:……
-()<Speaker></Speaker>||:猎豹静静地看着赫丽安。+显然，春田的计划非常成功，她明显没有注意到她们暗地里的行动。+她的十周年庆典。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:猎豹？
-()<Speaker></Speaker>||:十年……+猎豹吸了一口气。
-GepardM1(8)<Speaker>猎豹M1</Speaker><Position>0,-60</Position>||<SE1>ClothingUp</SE1>:……这些红茶包是送给您的，请您注意休息。
-()<Speaker></Speaker>||:将退职信塞了回去，猎豹取出多余的红茶包，忙不迭地为赫丽安沏起了茶。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:呃……谢谢？
-()<Speaker></Speaker>||:面对猎豹不自然的行动，赫丽安一头雾水，但依然接受了她的好意。+在将泡好的茶端到赫丽安的面前后，猎豹仓皇地逃出了办公室。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||<BIN>8</BIN><黑点2><SE1>AVG_door_elecport</SE1>:……失礼します。
+()<Speaker></Speaker>||:部屋に入っても、ゲパードの手はきつく辞表を握りしめていた。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||<BGM>BGM_Moon</BGM>:……ゲパード？　どうかしたか？
+()<Speaker></Speaker>||:オフィスチェアに座っていたヘリアンは、ゲパードに向き合おうと振り返った。手元には万年筆と書類がある。+眼鏡で少し隠されていたが、顔に刻まれた疲労の跡は、目の周りのクマと同様に、誰の目から見ても明らかであった。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:ワタシ……
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:そうだ、改造後の素体には慣れたか？
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:……うん。
+()<Speaker></Speaker>||:まさに口を開こうとしたその瞬間に話を遮られ、ゲパードはもごもごと言い淀んだ。辞表を持ったその手は、まるで凍傷したかの如く動かない。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:すまんな、この頃、基地がどうも慌ただしくて、お前たちに気を配ってやれていない。+カリーナがおらず、私も多少なりと取り乱している。
+()<Speaker></Speaker>||:ヘリアンはずっとゲパードを見つめていた。たとえ疲労が滲み出ていようとも、その眼差しの優しさは一遍たりとも欠けていない。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:お……お疲れ様です。ワタシは何の問題もないよ。+素体の状況もとても良いし、訓練の点数も前と比べてすごく上がってる。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:それならよかった。
+()<Speaker></Speaker>||<SE1>Rope</SE1>:ゲパードは退役申請書をきつく握りしめた。+ヘリアンは目をこすりながら微笑みを浮かべて、おもむろに椅子から立ち上がった。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:あのう実は――
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:お前の休暇なら、すでに手配済みだ。
+()<Speaker></Speaker>||:ゲパードが今まさに退役申請書を取り出そうとした瞬間、手が止まった。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:……え？
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:カリーナからお前たち全員について、詳細に説明を受けている。+お前が残業と代休を気にしてることも知っている。+安心しろ……私が的確に手配する。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:……基地がこれから再建しなければならない時期に、そんなにワタシの面倒を見てくれるなんて。+そんな余裕あるの？
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:お前だけを特別扱いしているわけではないぞ。+基地の現状は確かに芳しくない。それは事実だ。+けれどもそれが、指揮官であろうとカリーナであろうと、お前たち一人ひとりを尊重していることに変わりはない。+その点には私も賛同している……あいつらが言うように、人形にだって休息が必要だ。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||:……
+()<Speaker></Speaker>||:ゲパードは黙ってヘリアンを見つめた。+明らかに、スプリングフィールドの計画は成功している。//nヘリアンは彼女たちの秘密裏の行動に、一切気づく気配がない。+自分の10周年記念だというのに。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:ゲパード？
+()<Speaker></Speaker>||:10年……+ゲパードは息を吸った。
+GepardM1(8)<Speaker>ゲパード M1</Speaker><Position>0,-60</Position>||<SE1>ClothingUp</SE1>:……このティーバッグはあなた用。//nあなたもきちんとお休みを取ってね。
+()<Speaker></Speaker>||:退役申請書をポケットに押し込むと、ゲパードは残りのティーバッグで、ヘリアンのためにお茶を淹れ始めた。
+NPC-Helian(0)<Speaker>ヘリアン</Speaker>||:おう……助かる。
+()<Speaker></Speaker>||:不自然なゲパードの行動を目の当たりにして、ヘリアンは混乱しながらも、彼女の好意を受け取った。+淹れたてのお茶をヘリアンの目の前に置くと、ゲパードはそそくさとその部屋を出た。
 ()||<黑屏1>:
