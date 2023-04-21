@@ -1,0 +1,99 @@
+{
+    "missionId": 1,
+    "autoBattleAllSteps": [
+        {
+            "index": 0,
+            "beginStepCondition": [
+                {
+                    "stepConditionType": 1,
+                    "has": true,
+                    "a": 1,
+                    "b": 2,
+                    "instanceid": 0
+                },
+                {
+                    "stepConditionType": 9,
+                    "has": true,
+                    "a": 1,
+                    "b": 2,
+                    "instanceid": 3
+                }
+            ],
+            "selectTeam": {
+                "selectTeamType": 0,
+                "a": 0
+            },
+            "stepActionType": 5,
+            "followEnemyInfoId": 33333,
+            "followAllyInfoId": 0,
+            "moveToSpecialSpot": 0,
+            "moveToSpot": 111,
+            "moveToBuffTeam": 0,
+            "missionskill": 0,
+            "missionskillSelectType": 1,
+            "missionskillSelectInfoId": "111111",
+            "onlyOnce": true,
+            "useAllAp": false,
+            "moveConfig": {
+                "enemyEffect": -20,
+                "hasfullForceEnemyEffect": 50,
+                "showHardDefeatEffect": 100,
+                "captureEffect": 99,
+                "spotDTAEffect": -10,
+                "selfTeamEffect": -5,
+                "spotCanSupplyEffect": -6,
+                "spotCanFixDeploymentEffect": -7,
+                "buildEffect": -8,
+                "raderNightEffect": -50
+            },
+            "endStepCondition": [
+                {
+                    "stepConditionType": 5,
+                    "has": false,
+                    "a": 1,
+                    "b": 2,
+                    "instanceid": 3
+                },
+                {
+                    "stepConditionType": 10,
+                    "has": true,
+                    "a": 1,
+                    "b": 2,
+                    "instanceid": 0
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "beginStepCondition": [],
+            "selectTeam": {
+                "selectTeamType": 0,
+                "a": 0
+            },
+            "stepActionType": 0,
+            "followEnemyInfoId": 321,
+            "followAllyInfoId": 0,
+            "moveToSpecialSpot": 0,
+            "moveToSpot": 0,
+            "moveToBuffTeam": 0,
+            "missionskill": 0,
+            "missionskillSelectType": 0,
+            "missionskillSelectInfoId": "",
+            "onlyOnce": true,
+            "useAllAp": false,
+            "moveConfig": {
+                "enemyEffect": -20,
+                "hasfullForceEnemyEffect": 50,
+                "showHardDefeatEffect": 100,
+                "captureEffect": 0,
+                "spotDTAEffect": -10,
+                "selfTeamEffect": 0,
+                "spotCanSupplyEffect": 0,
+                "spotCanFixDeploymentEffect": 0,
+                "buildEffect": 0,
+                "raderNightEffect": -50
+            },
+            "endStepCondition": []
+        }
+    ]
+}
