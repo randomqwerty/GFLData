@@ -1,0 +1,100 @@
+{
+    "apCheckConfig": {
+        "SangviesTeamApCostRound": 1,
+        "FriendTeamApCostRound": 1,
+        "AllyFriendTeamApCostRound": 1,
+        "SquadTeamApCostRound": 1
+    },
+    "killEnemyConfig": {
+        "enemyEffect": -20,
+        "hasfullForceEnemyEffect": 50,
+        "showHardDefeatEffect": 1000,
+        "captureEffect": 10,
+        "spotDTAEffect": -20,
+        "selfTeamEffect": -10,
+        "spotCanSupplyEffect": -20,
+        "spotCanFixDeploymentEffect": -10,
+        "buildEffect": 0,
+        "raderNightEffect": -50
+    },
+    "captureSpotConfig": {
+        "enemyEffect": 50,
+        "hasfullForceEnemyEffect": 100,
+        "showHardDefeatEffect": 1000,
+        "captureEffect": 10,
+        "spotDTAEffect": -20,
+        "selfTeamEffect": -10,
+        "spotCanSupplyEffect": -15,
+        "spotCanFixDeploymentEffect": -10,
+        "buildEffect": 0,
+        "raderNightEffect": -50
+    },
+    "supplyAmmoThreshold": 1,
+    "supplyMreThreshold": 1,
+    "searchSupplyConfig": {
+        "enemyEffect": 10,
+        "hasfullForceEnemyEffect": 50,
+        "showHardDefeatEffect": 1000,
+        "captureEffect": 10,
+        "spotDTAEffect": -35,
+        "selfTeamEffect": -10,
+        "spotCanSupplyEffect": -20,
+        "spotCanFixDeploymentEffect": -10,
+        "buildEffect": 0,
+        "raderNightEffect": -50
+    },
+    "fixThreshold": 1,
+    "autoFindFixThreshold": 0.30000001192092898,
+    "searchFixConfig": {
+        "enemyEffect": 10,
+        "hasfullForceEnemyEffect": 50,
+        "showHardDefeatEffect": 1000,
+        "captureEffect": 10,
+        "spotDTAEffect": 10,
+        "selfTeamEffect": -10,
+        "spotCanSupplyEffect": -10,
+        "spotCanFixDeploymentEffect": -20,
+        "buildEffect": 0,
+        "raderNightEffect": -50
+    },
+    "followTeamConfig": {
+        "enemyEffect": 10,
+        "hasfullForceEnemyEffect": 50,
+        "showHardDefeatEffect": 1000,
+        "captureEffect": 10,
+        "spotDTAEffect": -20,
+        "selfTeamEffect": -10,
+        "spotCanSupplyEffect": -10,
+        "spotCanFixDeploymentEffect": 0,
+        "buildEffect": 0,
+        "raderNightEffect": -50
+    },
+    "squadTeamConfig": {
+        "enemyEffect": 100,
+        "hasfullForceEnemyEffect": 50,
+        "showHardDefeatEffect": 1000,
+        "captureEffect": 0,
+        "spotDTAEffect": -20,
+        "selfTeamEffect": -20,
+        "spotCanSupplyEffect": -35,
+        "spotCanFixDeploymentEffect": 0,
+        "buildEffect": 0,
+        "raderNightEffect": -50
+    },
+    "teamLimitGlobel": 3,
+    "canIgnoreAmmoMre": false,
+    "missionTeamLimitConfig": [
+        {
+            "missionid": 11133,
+            "num": 5
+        },
+        {
+            "missionid": 5,
+            "num": 1
+        },
+        {
+            "missionid": 11146,
+            "num": 0
+        }
+    ]
+}
