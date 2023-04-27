@@ -2,6 +2,9 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
 
 local CheckMapAnimator = function(self)
+	if self.lastSelectOrder ~= CS.OPSPanelController.currentSelectOrder then
+		self.CanClick = false;
+	end
 	local playGroup = self.leftMain.gameObject:GetComponent(typeof(CS.TweenPlayGroup));
 	if playGroup == nil or playGroup:isNull() then
 		playGroup = self.leftMain.gameObject:AddComponent(typeof(CS.TweenPlayGroup));
@@ -18,5 +21,14 @@ local CheckMapAnimator = function(self)
 	self:CheckMapAnimator();
 end
 
+local EndMapAnimator = function(self)
+	self:EndMapAnimator();
+	self.CanClick = true;
+end
+local SelectMapAnimatorDefault = function(self)
+	self:SelectMapAnimatorDefault();
+	self.CanClick = true;
+end
 util.hotfix_ex(CS.OPSPanelController,'CheckMapAnimator',CheckMapAnimator)
-
+util.hotfix_ex(CS.OPSPanelController,'EndMapAnimator',EndMapAnimator)
+util.hotfix_ex(CS.OPSPanelController,'SelectMapAnimatorDefault',SelectMapAnimatorDefault)

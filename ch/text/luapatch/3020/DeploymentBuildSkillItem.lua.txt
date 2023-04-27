@@ -11,5 +11,9 @@ local RequestBuffControlBuild = function(self,data)
 	self:RequestBuffControlBuild(data);
 end
 
+local RefreshUI = function(self)
+	self:CheckItemCost();
+end
 util.hotfix_ex(CS.BuildSkillDetail,'RequestControlBuild',RequestControlBuild)
 util.hotfix_ex(CS.BuildSkillDetail,'RequestBuffControlBuild',RequestBuffControlBuild)
+util.hotfix_ex(CS.DeploymentBuildSkillItem,'RefreshUI',RefreshUI)
