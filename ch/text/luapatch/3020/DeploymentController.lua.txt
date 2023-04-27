@@ -81,6 +81,15 @@ local cantransfer = function(skill,spot)
 	end
 	return true;
 end
+
+local ClickAllyTeam = function(self,allyteamController)
+	if CS.DeploymentController.isDeplyment then
+		if not allyteamController.isFriend then
+			return;
+		end
+	end
+	self:ClickAllyTeam(allyteamController);
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -89,3 +98,4 @@ util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwi
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'TriggerFriendAllyTeamTurnEvent',TriggerFriendAllyTeamTurnEvent)
 util.hotfix_ex(CS.DeploymentController,'cantransfer',cantransfer)
+util.hotfix_ex(CS.DeploymentController,'ClickAllyTeam',ClickAllyTeam)

@@ -1,0 +1,98 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>657</BIN><BGM>BGM_Room</BGM>:……阿佛那斯，安洁的房间外。
+RO635Mod(0)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1>:……安洁？
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:RO635跌跌撞撞地往回跑去，一个朦胧的身影撞向了她——
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……RO！
+RO635Mod(3)<Speaker>RO635</Speaker>||:SOP2！你……
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><SE1>AVG_XXS_kick</SE1>:SOP2倒在RO635的面前，她的素体已经是崩溃的状态，能够走到现在完全是个奇迹。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:我来找你会合了……
+M4 SOPMOD IIMod(1);RO635Mod(2)<Speaker>RO635</Speaker>||:……+对不起，明明说好了会回去救你……
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>;RO635Mod(2)||:嘿嘿……我也不知道是怎么从恶毒女人的手里跑出来的……+醒过来的时候，我就坐在外面，15在通讯里对我大吼大叫的……
+M4 SOPMOD IIMod(1);RO635Mod(3)<Speaker>RO635</Speaker>||:15对你说什么了？我的注意力全部用在和安洁的联络上了，没有顾上15的通讯……
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>;RO635Mod(3)||:她说要开始轰炸了，让我赶紧找到你，撤退出去。
+M4 SOPMOD IIMod(1);RO635Mod(5)<Speaker>RO635</Speaker>||:嗯，我去把安洁——
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:RO……
+()<Speaker></Speaker>||:SOP2抓住想把自己放下的RO635。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Wake</BGM>:安洁走了……
+M4 SOPMOD IIMod(1);RO635Mod(3)<Speaker>RO635</Speaker>||:……+不可能……她十几分钟前还在跟我……
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>;RO635Mod(3)||:RO……15说铁腕的信号消失了……
+RO635Mod(2)<Speaker>RO635</Speaker>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RO635将SOP2轻轻放在地上。
+RO635Mod(4)<Speaker>RO635</Speaker>||:我要亲眼去确认。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:RO……
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>510</BIN><SE1>RunStep</SE1><SE1>AVG_BaseDoor_Open</SE1>:RO635跌跌撞撞地跑向安洁的房间——+逼仄的房间中，只剩一个银色的装置静静躺在地板上。+沉默汹涌地袭来。
+RO635Mod(3)<Speaker>RO635</Speaker>||:安洁……
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||:我有点困了……RO，我睡会……
+RO635Mod(3)<Speaker>RO635</Speaker>||:SOP2！
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:坐在地上的SOP2露出一个睡眼惺忪的笑容，然后就一头栽倒下去。
+()<Speaker></Speaker>||<SE1>Rope</SE1>:RO635匆匆回到她的身边，将她架起。
+RO635Mod(2)<Speaker>RO635</Speaker>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她最后一次望向安洁的房间，回应她灼热目光的，只有地上冰冷的铁腕。
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:深深呼吸一次，RO635架着SOP2走向了房间外……
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>446</BIN>:……阿佛那斯，东塔，顶层附近。
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>这里是曙光，我们在遗迹模拟区找到艾莉安娜的素体……</color>+<color=#00CCFF>她的心智被熔毁了，我们会将她的素体带回。</color>
+BossJustice(0)<Speaker>法官</Speaker><通讯框>||:<color=#00CCFF>那么，你现在就是作战总指挥了。</color>
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>||:<color=#00CCFF>我会完成艾莉安娜留下的任务。</color>+<color=#00CCFF>现在，所有分队，全部撤退。</color>+<color=#00CCFF>Fe56协助蒲公英优先撤退，曙光会断后，确保全体撤离后再离开。</color>
+NPC-SCR(2);AR15Mod(5)<Speaker>AR15</Speaker>||:等等，RO和SOP2还没有联络上。
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>;AR15Mod(5)||:<color=#00CCFF>她们已经接收到了撤退的指令。</color>
+NPC-SCR(2);AR15Mod(5)<Speaker>AR15</Speaker>||:我要去跟她们会合。
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>;AR15Mod(5)||:<color=#00CCFF>否决，你需要留在蒲公英，保护丹德莱撤退，决不能让她落入帕拉蒂斯手中。</color>
+AR15Mod(4)<Speaker>AR15</Speaker>||:……
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>||:<color=#00CCFF>所有成员，立刻执行命令，撤出阿佛那斯。</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通讯结束。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR15探身出去，望着仿佛通向地狱般无限回旋的走廊，她的胸中沉沉闷着一股怒火。
+AR15Mod(5)<Speaker>AR15</Speaker>||:接通讯啊！SOP2！刚刚明明还能接通，为什么现在无法接听了？！
+HK416Mod(0)<Speaker>HK416</Speaker>||:别愣着了！我们快撤退！
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:15，你要相信你的队友，不管什么时候，她们一定会朝着你的方向跑来的。
+AR15Mod(4)<Speaker>AR15</Speaker>||:……
+HK416Mod(0)<Speaker>HK416</Speaker>||:都给我动起来！时间不多了！
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:HK416推着UMP45带路，同时拽着不情愿移动的AR15和移动缓慢的G11，朝着阿佛那斯外冲去……
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>202</BIN><BGM>BGM_Empty</BGM>:……“死海”附近，艾莫号。
+()<Speaker></Speaker>||<BGM>BGM_stage11</BGM><SE1>AVG_keyboardtype_sci</SE1>:通过艾尔玛和SCR的转接，面前的模拟战术沙盘上正实时更新着穆罗梅茨各小队的移动轨迹。+指挥官的目光紧紧锁在每一个光点上，相比于阿佛那斯，这些闪烁光点都显得那么渺小。
+AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:指挥官，蒲公英已经撤离了阿佛那斯，抵达安全区域，预计将在20分钟后回到艾莫号。+Fe56预计将在5分钟后撤离阿佛那斯。
+()<Speaker>指挥官</Speaker>||:好，让她们再快点。
+()<Speaker></Speaker>||:指挥官焦灼地望向一边的倒计时，距离轰炸开始，已经十分逼近了。
+AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:是。+还有，AR15要求留在安全区域，等待SOP2和RO撤出后一起返回艾莫号。
+AR18(2)<Speaker>指挥官</Speaker><Position>0,120</Position><同时置暗>||:……+RO还没有消息吗？
+AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:SCR确认她们收到了撤退指令。
+()<Speaker>指挥官</Speaker>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官的目光又落回了模拟沙盘，在这些沙盘上闪烁的光点背后，还有更多本应闪烁着的光点黯淡无光。
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>485</BIN>:……“死海”边缘。+AR15固执地望着阿佛那斯的方向，Fe56、曙光都已撤离，只剩下——
+()<Speaker></Speaker>||<SE1>AVG_Jet_Passby</SE1>:嗡嗡——发动机轰鸣的声音从她头顶一掠而过，是鲁斯兰二世。
+AR15Mod(2)<Speaker>AR15</Speaker>||:不……
+()<Speaker></Speaker>||:在她绝望的呢喃中，时间变成了粘稠的胶体，缓慢地蠕动着。+鲁斯兰二世投下的毁灭的种子，仿佛永远屹立不倒的阿佛那斯，她眼睁睁看着两者的距离越来越小……
+()||<黑屏1>:
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=6</controll_shake><common_effect>%%code=AVG_hui%%</common_effect><BIN>645</BIN><黑屏2><SE1>Explode</SE1>:轰隆隆——
+()<Speaker></Speaker>||:毁灭在阿佛那斯上绽放出耀眼的火光，像是火山喷发，阿佛那斯在这火光中耗尽了躯体，渐渐沉落。
+()<Speaker></Speaker>||:冲着这惊骇世人的盛景，AR15声嘶力竭地呐喊着，但她听不清自己的声音，也听不见有没有回应。
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:UMP45将她按倒在地，避免她冲动地加入这毁灭的舞蹈。
+()<Speaker>UMP45</Speaker>||:……
+()<Speaker>AR15</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:<size=50>SOP2！RO！</size>
+()<Speaker>HK416</Speaker>||:冷静点！
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:毁灭还在继续，如火山灰一般高高扬起的火光将阿佛那斯的主体吞噬殆尽。+AR15目眦欲裂，她最后的希望也在这火中燃尽……
+()<Speaker>？？？</Speaker>||:<size=25>15……</size>
+()<Speaker>AR15</Speaker>||:……RO？！
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>646</BIN>:在火光中不断剥落的阿佛那斯前，两个熟悉的身影出现在了AR15的视线中。
+()<Speaker>RO635</Speaker>||:……赶上了。
+()<Speaker>AR15</Speaker>||:RO！SOP2！
+()||<黑屏1>:
+()<Speaker>RO635</Speaker>||<黑屏2><BIN>647</BIN>:SOP2进入了自动休眠，她的素体损耗太厉害了。+不过心智没有问题。
+()<Speaker>AR15</Speaker>||:好……
+()<Speaker>RO635</Speaker>||:……
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_23S_ED</BGM><SE1>Stop_AVG_loop</SE1><SE1>AVG_Creep</SE1>:在AR15的帮忙下，RO635将SOP2抬上了返回艾莫号的吉普车。+望着身后火光冲天的阿佛那斯残骸，RO635半晌没有说出话来。
+()<Speaker>AR15</Speaker>||:……+安洁走了。
+()<Speaker>RO635</Speaker>||:嗯，我还是没能救下她。
+()<Speaker>AR15</Speaker>||:你已经尽全力了。
+()<Speaker>RO635</Speaker>||:……
+()<Speaker>UMP45</Speaker>||:走吧，该回去了。
+()||<黑屏1><SE1>AVG_engine_speedup</SE1>:
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_engine_speedup</SE1><BIN>9</BIN>:吉普车驶离了“死海”，燃烧着的阿佛那斯在后视镜中越来越小。+死里逃生的一行人挤在温暖的吉普车里，却齐齐陷入了默契的沉默。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RO635一直盯着后视镜，在阿佛那斯彻底消失的那一瞬间，她的眼泪才终于漫过干涸的脸颊。
+()||<黑屏1>:【慢休克 END】
+()||<名单2>2023Spring_Credit</名单2>:
