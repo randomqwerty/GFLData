@@ -50,10 +50,52 @@ local InitTeamSpots = function(self)
 	end
 	self:InitTeamSpots();
 end
+
+local CheckFriendAllyTeamTurnEvent = function()
+	if CS.DeploymentController.Instance ~= nil then
+		CS.DeploymentController.Instance:RequestFriendAllyTeamTurn();
+	end
+end 
+local TriggerFriendAllyTeamTurnEvent = function()
+	CS.DeploymentPlanModeController.Instance.enabled = true;
+	CS.DeploymentController.AddAction(CheckFriendAllyTeamTurnEvent,0.1);
+end
+
+local cantransfer = function(skill,spot)
+	if spot.spotAction.HasTeam then
+		return false;
+	end
+	if spot.spotAction.isRandom then
+		return false;
+	end
+	if spot.CanNotEnter then
+		return false;
+	end
+	if skill.is_airborne == 2 then
+		for i=0,spot.spotAction.listSpecialAction.Count-1 do
+			local specialAction = spot.spotAction.listSpecialAction[i];
+			if specialAction.spotBuffInfo ~= nil and specialAction.spotBuffInfo.noairborne then
+				return false;
+			end
+		end
+	end
+	return true;
+end
+
+local ClickAllyTeam = function(self,allyteamController)
+	if CS.DeploymentController.isDeplyment then
+		if not allyteamController.isFriend then
+			return;
+		end
+	end
+	self:ClickAllyTeam(allyteamController);
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
 util.hotfix_ex(CS.DeploymentController,'RequestStartMissionHandle',RequestStartMissionHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwitchAbovePanelEvent)
 util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
---util.hotfix_ex(CS.DeploymentController,'CheckAction',myCheckAction)
+util.hotfix_ex(CS.DeploymentController,'TriggerFriendAllyTeamTurnEvent',TriggerFriendAllyTeamTurnEvent)
+util.hotfix_ex(CS.DeploymentController,'cantransfer',cantransfer)
+util.hotfix_ex(CS.DeploymentController,'ClickAllyTeam',ClickAllyTeam)
