@@ -2169,43 +2169,43 @@
   },
   {
     "id": 1623,
-    "formula": "@MaxLife/5*0.24"
+    "formula": "@Maxlife/5*0.3"
   },
   {
     "id": 1624,
-    "formula": "@MaxLife/5*0.28"
+    "formula": "@Maxlife/5*0.35"
   },
   {
     "id": 1625,
-    "formula": "@MaxLife/5*0.32"
+    "formula": "@Maxlife/5*0.4"
   },
   {
     "id": 1626,
-    "formula": "@MaxLife/5*0.36"
+    "formula": "@Maxlife/5*0.45"
   },
   {
     "id": 1627,
-    "formula": "@MaxLife/5*0.4"
+    "formula": "@Maxlife/5*0.5"
   },
   {
     "id": 1628,
-    "formula": "@MaxLife/5*0.44"
+    "formula": "@Maxlife/5*0.55"
   },
   {
     "id": 1629,
-    "formula": "@MaxLife/5*0.48"
+    "formula": "@Maxlife/5*0.6"
   },
   {
     "id": 1630,
-    "formula": "@MaxLife/5*0.52"
+    "formula": "@Maxlife/5*0.65"
   },
   {
     "id": 1631,
-    "formula": "@MaxLife/5*0.56"
+    "formula": "@Maxlife/5*0.7"
   },
   {
     "id": 1632,
-    "formula": "@MaxLife/5*0.6"
+    "formula": "@Maxlife/5*0.75"
   },
   {
     "id": 1633,
@@ -4376,6 +4376,26 @@
     "formula": "sbuffidtier(4904)*0.5"
   },
   {
+    "id": 2187,
+    "formula": "#shield>0?40:400"
+  },
+  {
+    "id": 2188,
+    "formula": "@Maxlife*0.01"
+  },
+  {
+    "id": 2189,
+    "formula": "@life*0.01"
+  },
+  {
+    "id": 2190,
+    "formula": "$1*(1+tbuffidtier(5046）*0.15）"
+  },
+  {
+    "id": 2191,
+    "formula": "100+(sbufftype(201)>0?20:0)+(sbufftype(202)>0?20:0)+(sbufftype(203)>0?20:0)+(sbufftype(204)>0?20:0)+(sbufftype(206)>0?20:0)+(sbufftype(208)>0?20:0)+(sbufftype(205)>0?20:0)"
+  },
+  {
     "id": 2192,
     "formula": "#life*(1-#def/#maxdef)*0.05>10000?10000:#life*(1-#def/#maxdef)*0.05"
   },
@@ -5765,23 +5785,23 @@
   },
   {
     "id": 3322,
-    "formula": "@MaxLife*0.09"
-  },
-  {
-    "id": 3323,
-    "formula": "@MaxLife*0.105"
-  },
-  {
-    "id": 3324,
     "formula": "@MaxLife*0.12"
   },
   {
+    "id": 3323,
+    "formula": "@MaxLife*0.14"
+  },
+  {
+    "id": 3324,
+    "formula": "@MaxLife*0.16"
+  },
+  {
     "id": 3325,
-    "formula": "@MaxLife*0.135"
+    "formula": "@MaxLife*0.18"
   },
   {
     "id": 3326,
-    "formula": "@MaxLife*0.15"
+    "formula": "@Maxlife*0.20"
   },
   {
     "id": 3327,
@@ -6549,19 +6569,19 @@
   },
   {
     "id": 3540,
-    "formula": "@MaxLife*0.025"
-  },
-  {
-    "id": 3541,
     "formula": "@MaxLife*0.03"
   },
   {
+    "id": 3541,
+    "formula": "@MaxLife*0.04"
+  },
+  {
     "id": 3542,
-    "formula": "@MaxLife*0.035"
+    "formula": "@MaxLife*0.05"
   },
   {
     "id": 3543,
-    "formula": "@MaxLife*0.04"
+    "formula": "@MaxLife*0.06"
   },
   {
     "id": 3544,
@@ -6805,23 +6825,23 @@
   },
   {
     "id": 3620,
-    "formula": "@MaxLife/sbuffidtier(3765)*0.6"
-  },
-  {
-    "id": 3621,
     "formula": "@MaxLife/sbuffidtier(3765)*0.7"
   },
   {
-    "id": 3622,
+    "id": 3621,
     "formula": "@MaxLife/sbuffidtier(3765)*0.8"
   },
   {
-    "id": 3623,
+    "id": 3622,
     "formula": "@MaxLife/sbuffidtier(3765)*0.9"
   },
   {
-    "id": 3624,
+    "id": 3623,
     "formula": "@MaxLife/sbuffidtier(3765)*1"
+  },
+  {
+    "id": 3624,
+    "formula": "@MaxLife/sbuffidtier(3765)*1.1"
   },
   {
     "id": 3630,
@@ -7041,23 +7061,23 @@
   },
   {
     "id": 3685,
-    "formula": "((@Maxlife-@Life)/@Maxlife)*24"
-  },
-  {
-    "id": 3686,
-    "formula": "((@Maxlife-@Life)/@Maxlife)*30"
-  },
-  {
-    "id": 3687,
     "formula": "((@Maxlife-@Life)/@Maxlife)*36"
   },
   {
-    "id": 3688,
+    "id": 3686,
     "formula": "((@Maxlife-@Life)/@Maxlife)*42"
   },
   {
-    "id": 3689,
+    "id": 3687,
     "formula": "((@Maxlife-@Life)/@Maxlife)*48"
+  },
+  {
+    "id": 3688,
+    "formula": "((@Maxlife-@Life)/@Maxlife)*54"
+  },
+  {
+    "id": 3689,
+    "formula": "((@Maxlife-@Life)/@Maxlife)*60"
   },
   {
     "id": 3690,
@@ -7141,11 +7161,11 @@
   },
   {
     "id": 3711,
-    "formula": "@MaxLife*0.15"
+    "formula": "@Maxlife*0.20"
   },
   {
     "id": 3712,
-    "formula": "@MaxLife*0.1"
+    "formula": "@MaxLife*0.12"
   },
   {
     "id": 3713,
@@ -9481,7 +9501,7 @@
   },
   {
     "id": 4447,
-    "formula": "@rate>119?1:0"
+    "formula": "@rate>149?1:0"
   },
   {
     "id": 4448,
@@ -11664,6 +11684,30 @@
     "formula": "$1-1"
   },
   {
+    "id": 5060,
+    "formula": "sbuffidtier(8793)=1?0:1"
+  },
+  {
+    "id": 5064,
+    "formula": "sbuffidtier(8808)=1&sbuffidtier(8809)=1&sbuffidtier(8810)=1?1:0"
+  },
+  {
+    "id": 5076,
+    "formula": "sbuffidtier(8813)=1&sbuffidtier(8814)=1&sbuffidtier(8815)=1?1:0"
+  },
+  {
+    "id": 5077,
+    "formula": "tbuffidtier(459)=0&sbuffidtier(8812)=1?$1*2:$1"
+  },
+  {
+    "id": 5078,
+    "formula": "sbuffidtier(8812)=1?8816:742"
+  },
+  {
+    "id": 5079,
+    "formula": "sbuffidtier(8812)=1?8817:743"
+  },
+  {
     "id": 5080,
     "formula": "sbuffidtier(8601)=1&@life<@maxlife/@gunnumber*(@formation-1)+2?1:0"
   },
@@ -11714,6 +11758,14 @@
   {
     "id": 5092,
     "formula": "0"
+  },
+  {
+    "id": 5093,
+    "formula": "sbuffidtier(8812)=1?0:1"
+  },
+  {
+    "id": 5094,
+    "formula": "sbuffidtier(8812)=1?1010:0"
   },
   {
     "id": 5095,
@@ -12437,35 +12489,35 @@
   },
   {
     "id": 371101,
-    "formula": "@MaxLife*0.09"
-  },
-  {
-    "id": 371102,
-    "formula": "@MaxLife*0.105"
-  },
-  {
-    "id": 371103,
     "formula": "@MaxLife*0.12"
   },
   {
+    "id": 371102,
+    "formula": "@MaxLife*0.14"
+  },
+  {
+    "id": 371103,
+    "formula": "@MaxLife*0.16"
+  },
+  {
     "id": 371104,
-    "formula": "@MaxLife*0.135"
+    "formula": "@MaxLife*0.18"
   },
   {
     "id": 371201,
-    "formula": "@MaxLife*0.05"
+    "formula": "@MaxLife*0.08"
   },
   {
     "id": 371202,
-    "formula": "@MaxLife*0.06"
+    "formula": "@MaxLife*0.09"
   },
   {
     "id": 371203,
-    "formula": "@MaxLife*0.07"
+    "formula": "@MaxLife*0.10"
   },
   {
     "id": 371204,
-    "formula": "@MaxLife*0.08"
+    "formula": "@MaxLife*0.11"
   },
   {
     "id": 372802,

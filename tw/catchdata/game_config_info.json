@@ -163,6 +163,18 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "auto_battle_protect",
+      "parameter_type": "string",
+      "parameter_value": "50",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "auto_formation_sangvis_default_cost",
+      "parameter_type": "string",
+      "parameter_value": "10,14",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "auto_formation_sangvis_effect_M",
       "parameter_type": "string",
       "parameter_value": "2300,61,1661,253,126,7,4,2,2",
@@ -206,6 +218,12 @@
     },
     {
       "parameter_name": "battlepass_lv_upperlimit",
+      "parameter_type": "int",
+      "parameter_value": "45",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "battlepass_reshelfopen_level",
       "parameter_type": "int",
       "parameter_value": "45",
       "client_require": "1"
@@ -367,15 +385,117 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "crashUpload_switch",
+      "parameter_type": "int",
+      "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "crashUpload_switch_time",
+      "parameter_type": "string",
+      "parameter_value": "2022-12-08 10:00:00;2022-12-15 12:30:00",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "dailypass_sppt",
+      "parameter_type": "string",
+      "parameter_value": ",2000,4000,6000,",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_difficulty_recommend",
+      "parameter_type": "string",
+      "parameter_value": "1000,2000,3000",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_event_option_num",
+      "parameter_type": "int",
+      "parameter_value": "3",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "daily_extract",
       "parameter_type": "string",
       "parameter_value": "1:2,2:1,3:1,4:1,5:1,6:2",
       "client_require": "1"
     },
     {
+      "parameter_name": "daily_finish_prize",
+      "parameter_type": "string",
+      "parameter_value": "1:30,2:45,3:60",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_gunequip_obtain_id",
+      "parameter_type": "int",
+      "parameter_value": "3096",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_hotupdate_switch",
+      "parameter_type": "string",
+      "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_map_state",
+      "parameter_type": "int",
+      "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_mission_pt",
+      "parameter_type": "string",
+      "parameter_value": "1:2490,2:3735,3:4980",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_perfect_prize",
+      "parameter_type": "string",
+      "parameter_value": "1:300,2:400,3:500",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "daily_progress",
       "parameter_type": "string",
       "parameter_value": "6:8317",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_spot_range",
+      "parameter_type": "int",
+      "parameter_value": "10",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_spot_scale",
+      "parameter_type": "string",
+      "parameter_value": "1:0,6|2:3,5|3:3,5|4:3,3|5:0,0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_state_change_round",
+      "parameter_type": "int",
+      "parameter_value": "3",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_ticket",
+      "parameter_type": "string",
+      "parameter_value": "1:6,2:9,3:12,4:15,5:18,6:18",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "daily_ticket_cost",
+      "parameter_type": "string",
+      "parameter_value": "1:60,60,60,60|2:90,90,90,90|3:120,120,120,120|4:150,150,150,150|5:180,180,180,180|6:180,180,180,180",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "damaged_life_percentage",
+      "parameter_type": "int",
+      "parameter_value": "10",
       "client_require": "1"
     },
     {
@@ -415,6 +535,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "default_profileFrame_ids",
+      "parameter_type": "string",
+      "parameter_value": "0;200012;200001;200002;200005",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "DefenseDrill_JumpPoint",
       "parameter_type": "int",
       "parameter_value": "90",
@@ -423,7 +549,7 @@
     {
       "parameter_name": "deffence_effect",
       "parameter_type": "string",
-      "parameter_value": "1,35,4.2,100,3.2,1",
+      "parameter_value": "0.9,35,4.2,100,3.2,1,0.5",
       "client_require": "1"
     },
     {
@@ -579,7 +705,7 @@
     {
       "parameter_name": "enemy_effect_defence",
       "parameter_type": "string",
-      "parameter_value": "0.25,35,600,100,1200",
+      "parameter_value": "0.25,35,600,100,1200,0.6",
       "client_require": "1"
     },
     {
@@ -1065,7 +1191,7 @@
     {
       "parameter_name": "force_open_mission",
       "parameter_type": "string",
-      "parameter_value": "10160",
+      "parameter_value": "10160,10921,10933",
       "client_require": "1"
     },
     {
@@ -1106,8 +1232,8 @@
     },
     {
       "parameter_name": "friend_support_prize",
-      "parameter_type": "int",
-      "parameter_value": "70",
+      "parameter_type": "string",
+      "parameter_value": "1:30046,2:30047,3:30048,4:30049,5:30050",
       "client_require": "1"
     },
     {
@@ -1267,6 +1393,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "gun_rec_basic",
+      "parameter_type": "string",
+      "parameter_value": "5,0.05,100",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "gun_tag_like_color",
       "parameter_type": "int",
       "parameter_value": "2",
@@ -1395,7 +1527,7 @@
     {
       "parameter_name": "max_attack_rate",
       "parameter_type": "int",
-      "parameter_value": "120",
+      "parameter_value": "150",
       "client_require": "1"
     },
     {
@@ -1615,6 +1747,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "npc_skin_repeat",
+      "parameter_type": "string",
+      "parameter_value": "501-500;502-500;503-500;504-500",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "offset_fairy_id",
       "parameter_type": "int",
       "parameter_value": "1000",
@@ -1729,6 +1867,18 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "prfceUpload_switch",
+      "parameter_type": "int",
+      "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "prfceUpload_switch_time",
+      "parameter_type": "string",
+      "parameter_value": "2022-12-08 10:00:00;2022-12-15 12:30:00",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "property_rate",
       "parameter_type": "string",
       "parameter_value": "0.01,1,1,0.01,1,1",
@@ -1803,7 +1953,7 @@
     {
       "parameter_name": "rate_limit",
       "parameter_type": "string",
-      "parameter_value": "120,120,120,120,1000,60",
+      "parameter_value": "150,150,150,150,1000,60",
       "client_require": "1"
     },
     {
@@ -1849,6 +1999,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "resource_mission_times",
+      "parameter_type": "int",
+      "parameter_value": "6",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "res_table_switch",
       "parameter_type": "int",
       "parameter_value": "0",
@@ -1858,6 +2014,42 @@
       "parameter_name": "res_verify_switch",
       "parameter_type": "int",
       "parameter_value": "0",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "return_player_activityitem",
+      "parameter_type": "int",
+      "parameter_value": "1600002",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "return_player_hotspot",
+      "parameter_type": "string",
+      "parameter_value": "f135c1ad05d5ab62_draw_230423005.png,34a26d652378227a_draw_230424002.png",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "return_player_invite",
+      "parameter_type": "int",
+      "parameter_value": "3",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "return_player_plot",
+      "parameter_type": "string",
+      "parameter_value": "60:5:140005;50:4:140004;40:3:140003;30:2:140002;20:1:140001",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "return_player_switch",
+      "parameter_type": "int",
+      "parameter_value": "1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "return_time",
+      "parameter_type": "string",
+      "parameter_value": "45,20,14",
       "client_require": "1"
     },
     {
@@ -2019,7 +2211,7 @@
     {
       "parameter_name": "sangvis_deffence_effect",
       "parameter_type": "string",
-      "parameter_value": "1,35,2.6,200,1.6,1",
+      "parameter_value": "1.1,35,2.6,200,1.6,1,0.4",
       "client_require": "1"
     },
     {
@@ -2679,7 +2871,7 @@
     {
       "parameter_name": "support_reward_limit",
       "parameter_type": "int",
-      "parameter_value": "10",
+      "parameter_value": "5",
       "client_require": "1"
     },
     {
@@ -2829,7 +3021,7 @@
     {
       "parameter_name": "use_friend_team_cd",
       "parameter_type": "int",
-      "parameter_value": "21600",
+      "parameter_value": "7200",
       "client_require": "1"
     },
     {
