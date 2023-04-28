@@ -143,7 +143,7 @@
     {
       "id": "33",
       "type": "gun_level_up_count",
-      "goto_page": "MissionSelection-0"
+      "goto_page": "StoreRoom-0"
     },
     {
       "id": "34",
@@ -1729,6 +1729,16 @@
       "id": "383",
       "type": "like",
       "goto_page": "Dorm-0"
+    },
+    {
+      "id": "384",
+      "type": "daily_game_ready",
+      "goto_page": "MissionSelection-4"
+    },
+    {
+      "id": "385",
+      "type": "daily_game",
+      "goto_page": "dailyGame-0"
     }
   ]
 }
