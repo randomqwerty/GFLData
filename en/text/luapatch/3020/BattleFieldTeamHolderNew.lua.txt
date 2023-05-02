@@ -35,7 +35,7 @@ local UpdateTargetsInRange = function(self,pos,skillCfg,createCfg)
 				(flag or VectorEquals(baseAngle,targetPos - myPos) or CS.TrueSync.TSVector2.Angle(baseAngle, targetPos - myPos) <= angle) then
 				
 				self.mResInRange:Add(target)
-
+				
 			else
 				for j=0 ,target.listMember.Count-1 do
 					local targetMemberPos = CS.TrueSync.TSVector2(target.listMember[j]:GetSelfPos(true).x, target.listMember[j]:GetSelfPos(true).z)
@@ -55,7 +55,7 @@ local UpdateTargetsInRange = function(self,pos,skillCfg,createCfg)
 	end
 end
 VectorEquals = function(myPos,targetPos)
-
+	
 	local myPosNormal = myPos.normalized 
 	local targetPosNormal = targetPos.normalized 
 	local equalflag = (CS.TrueSync.FP.EqualFP(myPosNormal.x,targetPosNormal.x) and CS.TrueSync.FP.EqualFP(myPosNormal.y,targetPosNormal.y))

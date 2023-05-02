@@ -19,6 +19,10 @@ local Start = function(self)
 		if txtTrans4~= nil then
 			txtTrans4:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(11004);
 		end
+		local txtTrans5 = self.transform:Find("DailyGame/Bottom/Img_BottomBg/Tex_MissionInfo");
+		if txtTrans5~= nil then
+			txtTrans5:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(40461);
+		end
 	end
 end
 util.hotfix_ex(CS.MissionSelectionController,'Start',Start)
