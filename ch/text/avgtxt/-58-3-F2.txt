@@ -1,9 +1,9 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>485</BIN><BGM>BGM_stage9</BGM>:……“死海”边缘。
+()<Speaker></Speaker>||<SE1>AVG_amb_thunderrain</SE1><common_effect>%%code=CJ_rain%%</common_effect><黑屏2><BIN>485</BIN><BGM>BGM_stage9</BGM>:……“死海”边缘。
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=6</controll_shake><SE1>AVG_engine_speedup</SE1><SE1>AVG_Robots_Floor</SE1>:几辆吉普从艾莫号落地，朝着阿佛那斯的方向飞驰而去。
-PM(0)<Speaker>马卡洛夫</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>这里是调色板小队，拼图小队请回应。</color>
+PMMod(0)<Speaker>马卡洛夫</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>这里是调色板小队，拼图小队请回应。</color>
 VHS(0)<Speaker>VHS</Speaker>||:这里是拼图小队。
-PM(0)<Speaker>马卡洛夫</Speaker><通讯框>||:<color=#00CCFF>调色板小队将于1分钟后对敌人的右翼进行火力引导。</color>
+PMMod(0)<Speaker>马卡洛夫</Speaker><通讯框>||:<color=#00CCFF>调色板小队将于1分钟后对敌人的右翼进行火力引导。</color>
 VHS(0)<Speaker>VHS</Speaker>||:拼图小队收到，我们会在你们之后对左翼进行火力引导。
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:结束队内通讯后，坐在副驾的VHS转向司机。
 VHS(0)<Speaker>VHS</Speaker>||:AUG PARA，再靠近敌人区域一点，现在的引导坐标存在较大误差。
@@ -14,8 +14,8 @@ PM1910(0)<Speaker>PM1910</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>杀戮
 GeneralLiu(0)<Speaker>刘氏</Speaker>||:队长，发现大量敌人聚集！不少敌人从右翼撤往左翼！
 VHS(0)<Speaker>VHS</Speaker>||:收到。
 ()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:VHS冷静地接通火力引导，输入了敌人坐标和范围——
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>483</BIN><SE1>Explode</SE1><震屏3><SE2>Alarm</SE2>:……阿佛那斯，西塔，塔外平台区域。
+()||<黑点1><关闭蒙版>:
+()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><黑点2><BIN>483</BIN><SE1>Explode</SE1><震屏3><SE2>Alarm</SE2>:……阿佛那斯，西塔，塔外平台区域。
 ()<Speaker></Speaker>||:突如其来的炮轰打断了涅托们的巡逻，前哨阵地几乎被完全夷为平地。
 NytoWhite(0)<Speaker>白涅托</Speaker>||:<size=50>警戒！全体警戒！</size>+<size=50>停止巡逻，准备迎战！</size>
 Nyto(1)<Speaker>黑涅托</Speaker>||<SE1>RunStep</SE1>:又有袭击吗！
@@ -44,8 +44,8 @@ BOSS-6(0)<Speaker>破坏者</Speaker>||:哈，很适合她们！
 BOSS-5(0)<Speaker>炼金术士</Speaker>||:我去回收她们，破坏者，掩护我。
 BOSS-6(0)<Speaker>破坏者</Speaker>||:你只管上！
 ()<Speaker></Speaker>||<SE1>RunStep</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><SE1>Explode</SE1>:在破坏者炮火的掩盖下，炼金术士冲向了讯号所在的库房……
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>72</BIN><黑屏2><回忆><BGM>BGM_Empty</BGM><边框>2</边框>:……穆罗梅茨网络系统。+UMP45将埃涅阿斯会议室的资源转移到了这里。
+()||<黑屏1><关闭蒙版>:
+()<Speaker></Speaker>||<BIN>72</BIN><黑屏2><SE1>Stop_AVG_loop</SE1><回忆><BGM>BGM_Empty</BGM><边框>2</边框>:……穆罗梅茨网络系统。+UMP45将埃涅阿斯会议室的资源转移到了这里。
 UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框><BGM>GF_EV9_Story</BGM>:这是铁元素之前和娜希斯交手时留下的。
 BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:……+播放吧。
 BOSS-9(0)<Speaker>建筑师</Speaker><通讯框>||<边框>2</边框><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>快想想办法啊！这家伙的浮游刃是无穷无尽的吗？！</color>
@@ -67,8 +67,8 @@ UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:你还有话想说。
 BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:那两个家伙……+她们没有丢铁血的脸，好好地战斗到了最后，对吧？
 UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:是的，仅靠两个人一直战斗到了最后一刻。
 BossJustice(0)<Speaker>法官</Speaker>||:那就足够了。
-()||<黑屏1>:
-()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>482</BIN>:……阿佛那斯，西塔，塔外平台。
+()||<黑屏1><关闭蒙版>:
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_amb_thunderrain</SE1><BIN>482</BIN><common_effect>%%code=CJ_rain%%</common_effect>:……阿佛那斯，西塔，塔外平台。
 ()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:轰隆隆——接连不断的爆炸震得地板隐隐发颤。
 BOSS-4(0)<Speaker>干扰者</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>喂，总部，这里是D组。</color>
 BossJustice(0)<Speaker>法官</Speaker>||:直接汇报情况。
@@ -83,10 +83,12 @@ BOSS-11(0)<Speaker>梦想家</Speaker>||:知道啦。
 BossJustice(0)<Speaker>法官</Speaker>||:别忘记代理人的嘱咐，我们要回收建筑师和计量官。+还有——
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:梦想家拉伸了下身体，露出一个危险的笑容。
 BOSS-11(0)<Speaker>梦想家</Speaker>||<BGM>BGM_Empty</BGM>:血债血偿。
+()||<黑屏1>:
+()<Speaker></Speaker>||<关闭蒙版><BIN>9</BIN>:……
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>483</BIN><黑点2><震屏3><BGM>GF_22W_BGM_4</BGM>:嘭——一！
-()<Speaker></Speaker>||:……阿佛那斯，西塔，塔外平台区域。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_lifttable</SE1>:声巨响后，砖石飞溅，被破坏者爆破的入口经历了二次爆破。+离入口不远的炼金术士也被卷入了爆炸，被冲击在地，离库房的距离又远了几分。
+()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><BIN>483</BIN><黑点2><BGM>GF_22W_BGM_4</BGM>:……阿佛那斯，西塔，塔外平台区域。
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:嘭——！
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_lifttable</SE1>:一声巨响后，砖石飞溅，被破坏者爆破的入口经历了二次爆破。+离入口不远的炼金术士也被卷入了爆炸，被冲击在地，离库房的距离又远了几分。
 Narciss(1)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:我还以为是谁呢？+出门一看，老三样啊，偷袭、爆破大门、正面和我打近战……+不得不说，真是一家人啊，连愚蠢的模样都这么相似。
 BOSS-6(0)<Speaker>破坏者</Speaker>||:你谁啊！你就是那个娜希斯吗？！
 Narciss(1)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:是我，好好记住这个名字！
@@ -121,8 +123,8 @@ Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:又是你！
 BOSS-11(0)<Speaker>梦想家</Speaker>||:“废物”这种称号，我也会用来叫那几个家伙。+但是——
 ()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:咔哒——梦想家抬高了激光枪。
 BOSS-11(0)<Speaker>梦想家</Speaker>||:只有我才可以这么叫她们。
-Narciss(0)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:……
-()<Speaker></Speaker>||:被逼入绝境，娜希斯的表情突然变得怪异起来，像是被恐惧占领，又像是迎来了某种狂欢。
+Narciss(0)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:……
+()<Speaker></Speaker>||<BGM>10244</BGM>:被逼入绝境，娜希斯的表情突然变得怪异起来，像是被恐惧占领，又像是迎来了某种狂欢。
 ()<Speaker></Speaker>||<SE1>Rope</SE1>:最终，她弯下腰，爆发出一阵骇人诡异的大笑。
 Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||:哈哈哈哈哈……+废物？连叫别人废物都不被允许？！
 Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:<size=50>凭什么！就因为我不是完美的那一个吗！</size>

@@ -1,6 +1,6 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑点2><BIN>448</BIN>:……阿佛那斯，西塔，塔外平台区域。
-()||<BGM>GF_21summer_avg_Demon</BGM>:炮火声渐渐消退，露出满目疮痍的战场和累累尸骸。
+()||<黑点2><BIN>448</BIN><common_effect>%%code=CJ_rain%%</common_effect><SE1>AVG_Amb_Rain_0</SE1>:……阿佛那斯，西塔，塔外平台区域。
+()||<BGM>GF_21summer_avg_Demon</BGM><SE1>Stop_AVG_loop</SE1>:炮火声渐渐消退，露出满目疮痍的战场和累累尸骸。
 ()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:嗖——嗖嗖——被拆掉双腿的娜希斯还在徒劳地尝试发射着浮游刃。+尽管她的储备早已见底。
 Narciss(2)<Shake>0.1</Shake><Speaker>娜希斯</Speaker>||:杀了你们！把你们像虫子一样掐死！捏碎！
 BOSS-11(0)<Speaker>梦想家</Speaker>||:……
@@ -34,7 +34,7 @@ BossJustice(0)<Speaker>法官</Speaker>||:……+别忘了我们的任务。
 BossJustice(0)<Speaker>法官</Speaker>||:这里是Fe56，目前D组已经卸除西塔全部对外火力点，C组即将开始平台位置的残余部队清扫。+平台风向偏南，7点种方向辐射粒子浓度最高，雨雾有利于隐蔽，可根据演习计划B靠近东塔。
 NPC-SCAR-L(0)<通讯框><Speaker>艾莉安娜</Speaker>||:<color=#00CCFF>曙光收到，开始行动。</color>
 ()||<黑点1>:
-()||<黑点2><BIN>459</BIN>:……阿佛那斯，东塔，大厅。
+()||<黑点2><关闭蒙版><BIN>459</BIN>:……阿佛那斯，东塔，大厅。
 ()||<SE1>AVG_Gunfire</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰隆——+暴雨依旧持续着，雨声与炮声交织在一起，奏出急促的鼓点。
 ()<Speaker>SCR</Speaker>||<SE1>Stop_AVG_loop</SE1>:B组报告，北门已被爆破成功。
 ()<Speaker>艾莉安娜</Speaker>||:A组继续前进，B组掩护行动。

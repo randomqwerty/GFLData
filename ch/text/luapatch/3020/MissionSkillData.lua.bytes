@@ -38,17 +38,19 @@ end
 local CheckTeamMoveClear = function(self)
 	if self.sourceType == CS.SourceType.building then
 		if self.Alive then
-			local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
-			if buildAction ~= nil and buildAction.CanUseMissionSkill then
-				if not buildAction.CanUseActiveMissionSkill then
-					if CS.DeploymentController.Instance ~= nil then			
-						self:CheckTeamMovePlayEffect();
-					end
-					return;
-				end
-			end
+			return;
+			--local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
+			--if buildAction ~= nil and buildAction.CanUseMissionSkill then
+			--	if not buildAction.CanUseActiveMissionSkill then
+			--		if CS.DeploymentController.Instance ~= nil then			
+			--			self:CheckTeamMovePlayEffect();
+			--		end
+			--		return;
+			--	end
+			--end
 		end
 	end
+	
 	self:CheckTeamMoveClear();
 end
 

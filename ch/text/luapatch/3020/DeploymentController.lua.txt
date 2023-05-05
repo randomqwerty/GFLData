@@ -90,6 +90,42 @@ local ClickAllyTeam = function(self,allyteamController)
 	end
 	self:ClickAllyTeam(allyteamController);
 end
+
+local CheckNext = function(self)
+	local check = CS.DeploymentController.firestCheck;
+	if CS.GameData.currentSelectedMissionInfo.specialType == CS.MapSpecialType.Night then
+		CS.DeploymentController.firestCheck = false;
+	end
+	self:CheckNext();
+	if check and CS.GameData.currentSelectedMissionInfo.specialType == CS.MapSpecialType.Night then
+		if CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.FriendTurn then
+			self:AddAndPlayPerformance(function()
+				CS.DeploymentController.TriggerFriendTurnEvent();
+			end)
+		elseif CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.FriendAllyTurn then
+			self:AddAndPlayPerformance(function()
+					CS.DeploymentController.TriggerFriendAllyTeamTurnEvent();
+				end)
+		elseif CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.EnemyTurnStart then
+			self:AddAndPlayPerformance(function()
+					CS.DeploymentController.TriggerEnemyTurnMoveEvent();
+				end)
+		elseif CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.EnemyTurnEnd then
+			self:AddAndPlayPerformance(function()
+					CS.DeploymentController.TriggerStartThirdTurnEvent();
+				end)
+		elseif CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.ThirdTurnStart then
+			self:AddAndPlayPerformance(function()
+					CS.DeploymentController.TriggerOthersideTurnMoveEvent();
+				end)
+		elseif CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.ThirdTurnEnd then
+			self:AddAndPlayPerformance(function()
+					CS.DeploymentController.TriggerStartTurnEvent();
+				end)
+		end
+	end
+end
+
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -99,3 +135,4 @@ util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
 util.hotfix_ex(CS.DeploymentController,'TriggerFriendAllyTeamTurnEvent',TriggerFriendAllyTeamTurnEvent)
 util.hotfix_ex(CS.DeploymentController,'cantransfer',cantransfer)
 util.hotfix_ex(CS.DeploymentController,'ClickAllyTeam',ClickAllyTeam)
+util.hotfix_ex(CS.DeploymentController,'CheckNext',CheckNext)
