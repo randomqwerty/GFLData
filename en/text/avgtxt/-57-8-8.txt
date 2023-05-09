@@ -1,118 +1,118 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<震屏3><BIN>613</BIN><BGM>BGM_Sneak</BGM><SE1>AVG_Door_Hit</SE1>:砰——你慌乱地冲进洋房大厅，开始毫无章法地四处翻找起来。
-()<Speaker>指挥官</Speaker>||:咲，帮我一起找！
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:好！
-()<Speaker></Speaker>||:距离演出开场只剩两小时，你却因为忘记携带重要证件而被迫坐在二阶堂咲的后座返回洋房。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:你完全不记得上一次把证件放在了哪里，只能在大厅中所有可能的地方疯狂翻找。+时间一分一秒地过去，你焦虑的情绪也在猛涨。
-()<Speaker>指挥官</Speaker>||:快出来啊，我们的证件！再不出来，我们要迟到了！
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:急什么！有我在呢，放心吧，肯定不会让我们迟到的！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:二阶堂咲从一片狼藉的杂物中探出头来，信心满满地拍了拍胸脯。+你的焦虑稍微得到了些安抚，于是继续埋首于搜寻。
-()<Speaker>指挥官</Speaker>||:快快快！快出来啊！
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:到底在哪里啊？！
-()<Speaker></Speaker>||<SE1>AVG_flag</SE1><SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake>:稀里哗啦——狂暴的翻找声响彻大厅的每个角落。+终于，在你们进行破坏行动十五分钟后——
-NPC-Saki(0)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<SE1>ClothingUp</SE1>:<size=50>指挥官，我找到了！</size>
-NPC-Saki(0)<Speaker>指挥官</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:太好了！+我们快出发！
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:<size=50>出发！！！</size>
+()<Speaker></Speaker>||<震屏3><BIN>613</BIN><BGM>BGM_Sneak</BGM><SE1>AVG_Door_Hit</SE1>:Bang! You rush into the living room of the mansion and start rummaging around in a panic.
+()<Speaker>Commander</Speaker>||:Saki, help me find it!
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Okay!
+()<Speaker></Speaker>||:The performance is only two hours away, but you are forced to return to the mansion riding behind Saki on her motorbike because you've forgotten to bring some important IDs.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:You have absolutely no memory of where you've left the IDs, so you are searching through every possible place in the living room frantically. +Your anxiety level increases with every minute.
+()<Speaker>Commander</Speaker>||:C'mon, IDs! We're gonna be late if you don't show yourselves soon!
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:What's the rush? Don't worry, I'll make sure we get back in time!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Saki pokes her head out from the messy clutter and thumps her chest confidently. +Your anxiety lets up a little, and you continue with the search.
+()<Speaker>Commander</Speaker>||:Hurry, hurry, hurry... Come out already!
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Where the hell are they?!
+()<Speaker></Speaker>||<SE1>AVG_flag</SE1><SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake>:Clatter... The sound of furious rummaging resounds through every corner of the living room. +At long last, 15 minutes after you started your "demolition"...
+NPC-Saki(0)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<SE1>ClothingUp</SE1>:<size=50>Commander, I got them!</size>
+NPC-Saki(0)<Speaker>Commander</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:Great! +Now let's be on our way!
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:<size=50>Let's go!!!</size>
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>597</BIN>:十分钟后。+你看着手中的地图，又看了看面前的街道。
-()<Speaker>指挥官</Speaker>||:咲，我感觉这条路不对啊……
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:别磨叽，我这是选了条小路！+这样我们就能早点到演出地了！
-()<Speaker>指挥官</Speaker>||:哦……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:你乖乖放下了地图，选择了相信。
+()<Speaker></Speaker>||<黑点2><BIN>597</BIN>:Ten minutes later. +You look at the map in your hands, then at the street in front of you.
+()<Speaker>Commander</Speaker>||:Saki, I don't think we're on the right path...
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Stop fussing! I'm just taking a shortcut! +We'll get to the venue with time to spare!
+()<Speaker>Commander</Speaker>||:Okay...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:You put down the map dutifully and decide to trust Saki.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>Rope</SE1><BIN>593</BIN><BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><SE1>AVG_Car_Skid</SE1>:一段时间后。+昏昏欲睡的你被一脚刹车摇醒。
-()<Speaker>指挥官</Speaker>||:怎么了？我们到了？
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:……
-NPC-Saki(2)<Speaker>指挥官</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:咲？
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:我好像……迷路了……
-()<Speaker>指挥官</Speaker>||<BGM>Campaion-34</BGM>:<size=50>哈啊？你不是说这是你认识的小路吗！</size>
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>你吼什么！这小路走着走着就变样了啊！</size>
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:陌生的风景，陌生的街道，你徒劳地翻看着地图，企图找出你们的所在地。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:叮铃铃——你的手机响起。
-()<Speaker>指挥官</Speaker>||:喂？
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>你在干什么？！还有一个小时就要开始了！</color>+<color=#00CCFF>你身为制作人兼经纪人，怎么还不来提交证件？！</color>
-NPC-Ninja(5)<Speaker>指挥官</Speaker><同时置暗>||:我找到证件了，正在赶来的路上……
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>还有多远？</color>
-()<Speaker>指挥官</Speaker>||:呃……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你无助地环视着荒凉的街区，想要找出能说明当前坐标的蛛丝马迹。
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>你不会迷路了吧？</color>
-NPC-Ninja(5)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>你，在佐贺，迷路了？！</color>
-NPC-Ninja(5)<Speaker>指挥官</Speaker><同时置暗>||<震屏3><SE1>Rope</SE1>:<size=50>我是外地人！迷路怎么了？！</size>
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>你不是带了2号一起回去吗？</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你看向了蹲在路边的二阶堂咲，她恶狠狠地别开了视线。
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>……</color>+<color=#00CCFF>这样吧，你告诉我你附近有什么明显的路标，我来找你。</color>
-()<Speaker>指挥官</Speaker>||:好，这附近有——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你认真地寻觅了一圈身边稀疏的建筑。
-()<Speaker>指挥官</Speaker>||:几棵树叶开始发黄的大树，还有一条小河从我边上过去，我对面有一个便利店。
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>……</color>+<color=#00CCFF>你知道佐贺有多少地方符合这样的描述吗？</color>
-NPC-Ninja(5)<Speaker>指挥官</Speaker><同时置暗>||:呃……不知道……
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||<震屏3>:<size=50><color=#00CCFF>你给我等着！</color></size>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:电话被怒气冲冲地挂断了。
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:喂，我们该怎么办？
-NPC-Saki(2)<Speaker>指挥官</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:等场记小哥来找到我们？
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:那得等到什么时候……
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:嗡嗡——几辆机车的轰鸣打断了你们的对话。+荒僻的郊外，多出了十几名暴走族打扮的年轻人，他们将车停靠在路边，激烈交流着什么。+你和二阶堂咲下意识地望去——
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:我去问问。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:二阶堂咲站了起来，明显准备过去调停这场矛盾，回想起过去种种，你立刻拉住了她。
-()<Speaker>指挥官</Speaker>||<SE1>Rope</SE1>:不行，快上车！我们换个地方呆着。
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:怎么了？
-()<Speaker>指挥官</Speaker>||:走就是了，你别多问！
-()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>AVG_Cloak_Whoosh</SE1>:你匆匆跳上二阶堂咲的后座，跟随她一起离开了原地。
+()<Speaker></Speaker>||<黑点2><SE1>Rope</SE1><BIN>593</BIN><BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><SE1>AVG_Car_Skid</SE1>:A while later. +You are shaken awake when the motorbike comes to an abrupt halt.
+()<Speaker>Commander</Speaker>||:What happened? Are we there yet?
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:...
+NPC-Saki(2)<Speaker>Commander</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:Saki?
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:I think... I might be lost...
+()<Speaker>Commander</Speaker>||<BGM>Campaion-34</BGM>:<size=50>Huhhh? Didn't you say you knew this shortcut?!</size>
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>Why are you yelling at me?! The shortcut somehow led me here!</size>
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:The landscape is unfamiliar. The streets are unfamiliar. You flip through the map in a futile attempt to find out where you are.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Ring-ring-ring... Your cell phone rings.
+()<Speaker>Commander</Speaker>||:Hello?
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>What the hell are you up to?! The show is set to begin in an hour!</color>+<color=#00CCFF>As the producer and manager, how come you still haven't submitted your papers?!</color>
+NPC-Ninja(5)<Speaker>Commander</Speaker><同时置暗>||:I've found them, and I'm on my way...
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>How far away are you?</color>
+()<Speaker>Commander</Speaker>||:Uh...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You look around the deserted neighborhood helplessly, trying to find something that can clue you in on your current location.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>...You're not lost, are you?</color>
+NPC-Ninja(5)<Speaker>Commander</Speaker><同时置暗>||:...
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>You... got lost... in Saga?!</color>
+NPC-Ninja(5)<Speaker>Commander</Speaker><同时置暗>||<震屏3><SE1>Rope</SE1>:<size=50>I'm not from around these parts! So what if I got lost?!</size>
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>Didn't you bring No. 2 with you?</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You glance at Saki, who is crouching by the road. She looks away glumly.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>...</color>+<color=#00CCFF>Alright, tell me what obvious signposts you can see around you. I'll come and get you.</color>
+()<Speaker>Commander</Speaker>||:Okay, I'm seeing...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You scan the sparse buildings around you carefully.
+()<Speaker>Commander</Speaker>||:A few tall trees with yellowing leaves, and a small river flows right by me. There's a convenience store across the street from me.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>...</color>+<color=#00CCFF>You got any idea how many places in Saga match this description?</color>
+NPC-Ninja(5)<Speaker>Commander</Speaker><同时置暗>||:Uh... Not really...
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||<震屏3>:<size=50><color=#00CCFF>Just stay where you are and wait for me!</color></size>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:He hangs up angrily.
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Hey, what are we gonna do?
+NPC-Saki(2)<Speaker>Commander</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:Wait for the production assistant to come and get us?
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:How long will that take...?
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:Rumble... The revving engines of several motorbikes interrupt your conversation. +A dozen young people dressed like biking gangsters appear in these remote suburbs. They pull over to the side of the road while having a heated argument. +You and Saki look at them reflexively.
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:I'll see what their deal is.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Saki gets to her feet with the intention to mediate this argument. Remembering what happened before, you pull her back immediately.
+()<Speaker>Commander</Speaker>||<SE1>Rope</SE1>:No, get on the bike! We'll hang around somewhere else.
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Why?
+()<Speaker>Commander</Speaker>||:Just get moving! Stop asking questions!
+()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>AVG_Cloak_Whoosh</SE1>:You jump onto the backseat behind Saki and the two of you drive away.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>262</BIN><BGM>BGM_Empty</BGM>:……一段时间后。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>m_wv_scenario</BGM><SE1>AVG_tele_connect</SE1>:你蹲在路边，将电话贴近耳边。
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>……也就是说，你们在我找路的时候，又变换了坐标？</color>
-NPC-Ninja(5)<Speaker>指挥官</Speaker><同时置暗>||:嗯……
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><通讯框>||:<color=#00CCFF>你们真厉害啊！</color>+<color=#00CCFF>1号，你来跟你们指挥官讲吧！</color>
-NPC-Sakura(2)<Speaker>源樱</Speaker><通讯框>||:<color=#00CCFF>指挥官，是我！</color>+<color=#00CCFF>你们身边有什么明显的地标吗？我们得立刻回到演出场地了！</color>
-NPC-Saki(2)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:这里好像是森林公园的附近……
-()<Speaker>指挥官</Speaker>||:我们边上有一片湖，湖边立着块“禁止垂钓”的牌子。
-NPC-Sakura(1)<Speaker>源樱</Speaker><通讯框>||:<color=#00CCFF>森林公园的附近，立着“禁止垂钓”牌子的湖边……</color>+<color=#00CCFF>我明白了，我们会尽快找到你们的！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:源樱挂断了电话。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你坐在二阶堂咲的身边，默契地和她发起了呆。
-NPC-Saki(7)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:……是我不好。
-NPC-Saki(7)<Speaker>指挥官</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:啊？
-NPC-Saki(7)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:我不该耍小聪明，抄什么小路的！
-NPC-Saki(7)<Speaker>指挥官</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:别这么说，你也是为了尽快赶回演出地。+而且，多亏了你，才能及时找到证件啊。
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:嘿嘿，也对！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:僵硬的气氛松弛了几分，你和二阶堂咲谈笑着，拿出了收纳证件的小包。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Zipper</SE1>:滋啦——你拉开拉链，发现里面是空的。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_Awkward</SE1>:……
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:……
-()<Speaker></Speaker>||<BGM>m_wv_title</BGM>:刚缓和下来的氛围又一次紧绷起来。
-()<Speaker></Speaker>||<SE1>AVG_Stiff</SE1>:二阶堂咲僵硬地扭过头看向你，她的嘴唇颤抖着张开，似乎打算说些什么——
-()<Speaker></Speaker>||<SE1>AVG_brake</SE1>:嗡——一记利落的刹车声在你们身边响起。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<SE1>AVG_20Winter_Door_Open</SE1>:指挥官！咲！终于找到你们了！
-()<Speaker></Speaker>||:源樱快乐地跳下车奔向你们。
-NPC-MizunoAi(3)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:真是的，没想到为了几张证件要经历这样的波折。
-NPC-Junko(1)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:总之能找到就好，我们快出发吧。
-NPC-Ninja(5)<Speaker>场记小哥</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:<size=50>你们俩还愣着干什么！上车啊！</size>+<size=50>还有十五分钟演出就要开始了！</size>
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3>:叭叭——场记小哥暴躁地按着车喇叭。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Saki(7)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:……
-NPC-Yugiri(0)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:怎么了，你们俩的脸色好难看啊？
-NPC-Lily(8)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:是不是吃坏肚子了？
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你痛苦地将手中的收纳包举起，将和你的心一样空空荡荡的内里展示给大家。
-NPC-Junko(0)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:这是什么意思？
-NPC-MizunoAi(3)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:没记错的话，这是指挥官用来收纳证件的包……
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM><SE1>AVG_Wonder</SE1><BGM>BGM_Empty</BGM>:<size=50>诶？！</size>
-()<Speaker>场记小哥</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><SE1>AVG_Thunder_Dry</SE1>:<size=50>啊啊啊啊啊——！！！</size>
-()<Speaker></Speaker>||:寂静的湖边回荡着场记小哥的惨嚎声……
+()<Speaker></Speaker>||<黑点2><BIN>262</BIN><BGM>BGM_Empty</BGM>:...Some time later.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>m_wv_scenario</BGM><SE1>AVG_tele_connect</SE1>:You're crouching on the side of the road with your phone pressed against your ear.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>...So you're telling me... While I'm out looking for you, you've moved somewhere else?</color>
+NPC-Ninja(5)<Speaker>Commander</Speaker><同时置暗>||:Yeah...
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><通讯框>||:<color=#00CCFF>I don't even know what to say.</color>+<color=#00CCFF>No. 1, I'll let you talk to your Commander.</color>
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><通讯框>||:<color=#00CCFF>Commander, it's me!</color>+<color=#00CCFF>Are there any eye-catching landmarks around you? We've got to return to the venue soon!</color>
+NPC-Saki(2)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:I think we're not far from the Forest Park...
+()<Speaker>Commander</Speaker>||:We're by a lake. There's a sign that says "No Fishing".
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><通讯框>||:<color=#00CCFF>A lake with a "No Fishing" sign near the Forest Park...</color>+<color=#00CCFF>I understand. We'll find you as soon as we can!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Sakura hangs up.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You sit down next to Saki and join her in spacing out.
+NPC-Saki(7)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:...It was my fault.
+NPC-Saki(7)<Speaker>Commander</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:Huh?
+NPC-Saki(7)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:I shouldn't have tried to be clever and taken any shortcuts!
+NPC-Saki(7)<Speaker>Commander</Speaker><Position>0,-190</Position><Scale>1.4</Scale><同时置暗>||:Don't say that. You just wanted to get us back to the venue quickly. +Besides, it's all thanks to you that we found the IDs in time.
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Heheh, you're right!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The grim mood lets up a little. You take out the pouch in which the IDs are stored as you chatter with Saki.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Zipper</SE1>:Vwoop... You unzip the pouch... to find it completely empty.
+()<Speaker>Commander</Speaker>||<SE1>AVG_Awkward</SE1>:...
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:...
+()<Speaker></Speaker>||<BGM>m_wv_title</BGM>:The tension that has just eased up returns instantly.
+()<Speaker></Speaker>||<SE1>AVG_Stiff</SE1>:Saki turns her head stiffly to stare at you. She opens her quivering lips, as if to say something...
+()<Speaker></Speaker>||<SE1>AVG_brake</SE1>:Squeeeak! A sharp braking sound rings out next to you.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<SE1>AVG_20Winter_Door_Open</SE1>:Commander! Saki! We got you, finally!
+()<Speaker></Speaker>||:Sakura jumps out of the car cheerfully and runs toward you.
+NPC-MizunoAi(3)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:Gosh, I wasn't expecting so much drama over some IDs.
+NPC-Junko(1)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:Anyway, good thing we've got them back. Now let's get going.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:<size=50>What are you two still waiting for?! Get in the car!</size>+<size=50>The show begins in just 15 minutes!</size>
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3>:Honk, honk! The production assistant honks his car horn impatiently.
+()<Speaker>Commander</Speaker>||:...
+NPC-Saki(7)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:...
+NPC-Yugiri(0)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:What's the matter? Why do you look so deathly pale?
+NPC-Lily(8)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:Do you have an upset stomach?
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Commander?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You raise the pouch painfully and show everyone its empty contents.
+NPC-Junko(0)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:What is the meaning of this?
+NPC-MizunoAi(3)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:If I remember correctly, this is the pouch in which the Commander stores our IDs...
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM><SE1>AVG_Wonder</SE1><BGM>BGM_Empty</BGM>:<size=50>Huh?!</size>
+()<Speaker>Production Assistant</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><SE1>AVG_Thunder_Dry</SE1>:<size=50>WHAAAAAT?!!!</size>
+()<Speaker></Speaker>||:The production assistant's wretched howl echoes through the quiet lakeside...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<震屏3><BIN>596</BIN><SE1>AVG_Pause</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:最终，因为迟到时间太久，等你们抵达演出场地时，观众已经尽数离开。+演出举办方愤怒地将法兰秀秀拉入黑名单。+你们只能离开演出地，回到洋房。
+()<Speaker></Speaker>||<震屏3><BIN>596</BIN><SE1>AVG_Pause</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:In the end, you are delayed so much all the audience has left by the time you finally arrive at the venue. +The organizers have angrily blacklisted Franchouchou. +You have no choice but to leave the venue and return to the mansion.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>606</BIN><黑屏2>:法兰秀秀在洋房大厅中完成了本该在舞台上进行的演出。+你作为唯一的观众，坐在大厅沙发上观看完了她们精心准备的节目。+不得不承认，演出的质量有待提高，但法兰秀秀的真诚无疑是闪闪发光的。+她们在台上竭尽全力地保持闪耀的笑容，你独自在台下泣不成声。+如果……当初……+你忍不住在心里这样想着。
+()<Speaker></Speaker>||<BIN>606</BIN><黑屏2>:Franchouchou put on the show in the living room of the mansion. +As their only audience, you watch their performance for which they have put in a lot of effort to prepare on the sofa. +You've got to admit that the quality of their performance has room for improvement, but their sincerity and earnestness certainly shine through. +They keep up their dazzling smiles on the stage as you dissolve into a sobbing mess. +If only... you had... +You can't stop beating yourself up for what happened.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM>:……+像是突然断电一样，你的眼前只剩下黑暗。
-()<Speaker>指挥官</Speaker>||:停电了吗？
-()<Speaker></Speaker>||:没有人回应你。
-()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:哗啦啦——+浪花拍打在船底的声音，海边特有的咸味空气中飘来一丝若有似无的花香。
-()<Speaker>指挥官</Speaker>||:怎么回事？
-()<Speaker>？？？</Speaker>||:命运的轮盘重新开始转动了。+你或许有机会阻止让你后悔的事情发生。
-()<Speaker>指挥官</Speaker>||:什么意思？
-()<Speaker>？？？</Speaker>||:一切早已开始，此刻也不曾停下。
-()<Speaker></Speaker>||:船只高速飞驰起来，耳边能听见海面被划破的声音……+冥冥之中，你感知到，你将迎来一次全新的机会。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM>:... +Then like a sudden power outage, everything goes dark around you.
+()<Speaker>Commander</Speaker>||:A power cut?
+()<Speaker></Speaker>||:Nobody answers you.
+()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:Splash... +The waves strike the hull of the boat rhythmically. The salty sea air is laced with a barely noticeable tinge of floral fragrance.
+()<Speaker>Commander</Speaker>||:What's going on?
+()<Speaker>???</Speaker>||:The wheel of fate has started to turn again. +You may have a chance to put things right.
+()<Speaker>Commander</Speaker>||:What do you mean?
+()<Speaker>???</Speaker>||:It has been set in motion since long ago. It will not stop now.
+()<Speaker></Speaker>||:The boat suddenly surges forward at high speed. You can hear the sound of its bow cutting through the surface of the sea... +Somehow you have a feeling... you are about to be given a second chance.
+()||<黑点1>:

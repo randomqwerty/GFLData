@@ -1,121 +1,121 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>586</BIN>:距离演出开始还有五分钟，法兰秀秀已经前去舞台后方等候。
-()||<SE1>RunStep</SE1>:你送走她们之后，独自来到后台，直奔夜间咖啡馆的VVVIP准备室——
+()<Speaker></Speaker>||<黑屏2><BIN>586</BIN>:The performance will start in five minutes. Franchouchou is already waiting at the wings.
+()||<SE1>RunStep</SE1>:After sending them off, you wander into the backstage area on your own and make a beeline for Late Night Café's VVVIP dressing room.
 ()||<白屏1><SE1>AVG_20Winter_Door_Open</SE1>:
-()<Speaker></Speaker>||<白屏2><BIN>470</BIN><SE1>AVG_20Winter_Door_Close</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:房间里并没有夜间咖啡馆的身影，只有一个人坐在桌边蹙着眉办公。+你早就酝酿好的台词生硬地卡在了喉咙中，你看着那张无比熟悉的脸，什么也说不出来。+恍惚间，你以为自己回到了格里芬基地，就如平常一样，走进指挥室的门，对着每天都会见面的她说——
-()<Speaker>指挥官</Speaker>||:格琳娜……
-NPC-Kalin(2)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:嗯？
-()<Speaker></Speaker>||:格琳娜迷惑地停下了敲击键盘，本就蹙着的眉头皱得更深。
-()<Speaker>指挥官</Speaker>||:我终于见到你了……+抱歉，这几天，你一定找我找得很辛苦吧……
-NPC-Kalin(4)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你走到格琳娜的身边，握住她的双手。
-()<Speaker>指挥官</Speaker>||:你们是怎么找到这里的？快带我回格里芬基地吧！+我保证，以后再也不装病把工作都推给你了。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜意味深长地盯着你，然后从你的手中抽走自己的手。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:请问你是哪位？
-NPC-Kalin(3)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:你不记得我了吗？我是指挥官啊……
-NPC-Kalin(2)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:指挥官？
-()<Speaker>指挥官</Speaker>||:你想起来了！
-()<Speaker></Speaker>||:格琳娜的眼中迸发出了熟悉的金光。
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<SE1>AVG_Cheerful</SE1>:难道……您是军方的代表？！
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:……
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:请问是有什么演出的机会想要给到我们吗？+未来几个月，夜间咖啡馆和灰树都是有档期的~
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:我是格里芬基地的指挥官，和军方没有关系。+你可是我的副官啊，你什么都不记得了吗？
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:格里芬基地？听上去就散发着贫穷的气息啊……
-()<Speaker>指挥官</Speaker>||:……+<color=#A9A9A9>该死的，竟无法反驳。</color>
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:亲爱的，如果你的演出预算低于1000万日元，就不要再浪费我的时间了。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Click_Keyboard</SE1>:格琳娜的手回到了忙碌的键盘上，你得说些什么把她的注意力吸引回来。
-()<Speaker>指挥官</Speaker>||:……<c>A 我有1个小目标<c>B 我可以为你提供收入更高的工作<c>C 我们之间有深厚的感情基础
-()<Speaker>指挥官</Speaker>||<分支>2</分支><BGM>BGM_23SF_Battle_2</BGM>:没有记错的话，市面上大多数情况，偶像们的收入主要是归偶像和公司所有，你作为经纪人是分不了多少钱的。
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:市面上的偶像团队基本是这样配置的。
-NPC-Kalin(0)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>2</分支>:来为我工作吧，内容轻松，薪酬高昂，一年还有几次带薪假期。
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:具体的工作内容呢？
-NPC-Kalin(0)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>2</分支>:配合我偶尔驱逐下误入的铁血小队就行。+至于薪酬，你将得到整个格里芬基地的财政大权。
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:哈哈哈，你真是个有趣的人。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:为什么这么说？
-()<Speaker></Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:格琳娜将自己的电脑屏幕转向你。
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:你可能有所不知，我和其他偶像团队的经济人不同——+我不仅是夜间咖啡馆和灰树的经纪人，还是格琳娜娱乐有限公司的CEO。
-NPC-Kalin(0)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>2</分支><震屏3>:什么？！你……当老板了？
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:她们赚的每一分钱，都属于我。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:你太黑心了！当劳动法不存在吗？！
-()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_Button_Click</SE1><SE1>AVG_ElecSpace</SE1><BGM>BGM_Empty</BGM>:格琳娜发出了狂妄的笑声，她的手同时摸向了桌边的报警器——
-()<Speaker>指挥官</Speaker>||<分支>1</分支><BGM>BGM_23SF_Battle_2</BGM>:关于我们之间的合作计划，我早就想好了阶段目标。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:阶段目标？
-NPC-Kalin(3)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支>:首先，为我们的初期合作定一个小目标。
-NPC-Kalin(2)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:什么小目标？占领日本市场什么的，我们可是早就做到了。
-NPC-Kalin(2)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支><SE1>AVG_Cash_register</SE1>:先挣它一个亿。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:……
-()<Speaker></Speaker>||<分支>1</分支>:格琳娜眼中的金光只闪烁了一瞬就熄灭了。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:我怀疑你在诈骗我。
-NPC-Kalin(3)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支>:你不先问问我如何实现这个小目标吗？
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:愿闻其详。
-NPC-Kalin(3)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支>:你先带我回格里芬基地，然后我就告诉你。
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:原来如此……
-()<Speaker></Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM><SE1>AVG_Button_Click</SE1><SE1>AVG_ElecSpace</SE1>:格琳娜露出了释然的微笑，她的手以迅雷之速摸向桌边的报警器——
-()<Speaker>指挥官</Speaker>||<分支>3</分支><BGM>BGM_Empty</BGM>:你不记得了吗，格琳……
-()<Speaker>指挥官</Speaker>||<分支>3</分支><BGM>GF_Memorial</BGM>:我刚入职格里芬基地时，你也刚成为副官，我们一起学习如何处理基地的事务，应付每天都在难度上升的任务。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:……
-NPC-Kalin(3)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:我记不清，我们一起加班过多少次，为人形们担忧焦虑过多少次……+当我失去信念、快要崩溃时，都是你在我身边，陪伴我，帮我走出阴霾。
-NPC-Kalin(3)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:……
-NPC-Kalin(3)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:还记得在帕尔迪斯基潜艇基地前那次死里逃生吗？+你明明那么绝望难过，却还要——
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支><BGM>BGM_Empty</BGM><SE1>AVG_Spanner</SE1>:打断一下。
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:格琳娜，你想起来了？！
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:请问，在你说的这段剧情里，我的加班费到账了吗？
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:呃……格里芬基地没有设置加班费的……
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:那在作为你副官的这段时间里，我有升职加薪过吗？
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:……没有。
-()<Speaker></Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支><SE1>AVG_ElecSpace</SE1><SE1>AVG_Button_Click</SE1><BGM>BGM_Empty</BGM>:格琳娜深深地呼吸了一口，然后以肉眼难以捕捉的速度狂暴地连击起了桌边的报警器——
-NPC-Kalin(8)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:保镖，把这位客人请出去吧！
-()<Speaker>指挥官</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:<size=50>等等！</size>
-()<Speaker></Speaker>||<SE1>Rope</SE1>:两位黑衣壮汉无声无息地出现在你身后，客气地将你架了起来。
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<BGM>BGM_stage12</BGM>:我刚刚稍微调查了下。+你是做暖场演出的法兰秀秀的临时经纪人吧？
-()<Speaker>指挥官</Speaker>||:……
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:你最好还是先关心下你自己的团队吧，她们在台上的处境很不妙啊。
+()<Speaker></Speaker>||<白屏2><BIN>470</BIN><SE1>AVG_20Winter_Door_Close</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:The members of Late Night Café are not in the room. Instead, you find a lone woman working at a desk with a frown. +All the lines you have been rehearsing are instantly stuck in the back of your throat as the sight of that familiar face renders you speechless. +For a second, it's almost as if you were back at the Griffin base, walking into the command center and greeting her like you always do every morning—
+()<Speaker>Commander</Speaker>||:Kalina...
+NPC-Kalin(2)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Hm?
+()<Speaker></Speaker>||:Kalina's fingers stop tapping on the keyboard. Her frown deepens.
+()<Speaker>Commander</Speaker>||:I finally get to see you... +I'm so sorry. You must have worked very hard to find me these last few days...
+NPC-Kalin(4)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You walk up to Kalina and take her hands.
+()<Speaker>Commander</Speaker>||:How did you track me down? Please get me back to the Griffin base! +I promise I will never pretend to be sick and dump all the work on you again.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina gives you a long hard look, then she frees her hands from your grip.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Excuse me, who are you?
+NPC-Kalin(3)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:Don't you remember me? I'm the Commander...
+NPC-Kalin(2)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Commander?
+()<Speaker>Commander</Speaker>||:You remember!
+()<Speaker></Speaker>||:Kalina's eyes flash with a familiar glint.
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<SE1>AVG_Cheerful</SE1>:Don't tell me... you're from the military?!
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:...
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Do you have gigs for us? +Both Late Night Café and Gray Tree have available slots in their schedules for the next few months~
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:I'm a Griffin Commander; I have nothing to do with the military. +You're my adjutant! Do you really not remember anything?
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Griffin? Sounds like a penniless place...
+()<Speaker>Commander</Speaker>||:...+<color=#A9A9A9>Dammit, I can't argue with that.</color>
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Sweetie, if your booking budget is less than 10 million yen, then don't waste my time.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Click_Keyboard</SE1>:Kalina resumes her busy typing. You have to say something to get her attention again.
+()<Speaker>Commander</Speaker>||:...<c>A. I have a little proposition.<c>B. I can give you a job with better pay.<c>C. We're very close.
+()<Speaker>Commander</Speaker>||<分支>2</分支><BGM>BGM_23SF_Battle_2</BGM>:As far as I know, the profit generated by idol groups mostly goes to the idols and their labels in this industry. As a manager, you don't get a very big slice of the pie.
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:That is how the idol group business model generally works, yes.
+NPC-Kalin(0)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>2</分支>:Come work for me instead. Easy work, high salary, plus several paid holidays per year.
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:What exactly does the job entail?
+NPC-Kalin(0)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>2</分支>:Just work with me to repel the occasional Sangvis Ferri intruders. +As for your salary, it's entirely up to you as you will be given full control over the finances of the Griffin base.
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:Hahaha, you're funny.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:What makes you say that?
+()<Speaker></Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:Kalina turns her laptop around to show you the screen.
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:You're probably not aware, but I'm nothing like the managers working for other idol groups. +Not only am I the manager of Late Night Café and Gray Tree, I am also the CEO of Kalina Entertainment Ltd.
+NPC-Kalin(0)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>2</分支><震屏3>:What?! You... you now own a company?
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>2</分支>:Every cent they make goes to me.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:How can you be so devious?! Does labor law mean nothing to you?!
+()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_Button_Click</SE1><SE1>AVG_ElecSpace</SE1><BGM>BGM_Empty</BGM>:Kalina guffaws maniacally and reaches out to press the security alarm by the table...
+()<Speaker>Commander</Speaker>||<分支>1</分支><BGM>BGM_23SF_Battle_2</BGM>:I've already come up with some target phases for our joint venture.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:Target phases?
+NPC-Kalin(3)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支>:To start with, I've set a modest goal for the first phase of our collaboration.
+NPC-Kalin(2)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:And what would that be? If you mean dominating the Japanese market, then been there, done that.
+NPC-Kalin(2)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支><SE1>AVG_Cash_register</SE1>:Make a profit of 100 million.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:...
+()<Speaker></Speaker>||<分支>1</分支>:Kalina's eyes light up for a second before darkening again.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:I have a mounting suspicion that you're trying to scam me.
+NPC-Kalin(3)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支>:Aren't you going to ask me how I intend to achieve this goal?
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:I'm all ears.
+NPC-Kalin(3)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>1</分支>:Return me to the Griffin base and I'll tell you.
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>1</分支>:I see...
+()<Speaker></Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM><SE1>AVG_Button_Click</SE1><SE1>AVG_ElecSpace</SE1>:Kalina grins in understanding as her hand shoots toward the security alarm by the desk—
+()<Speaker>Commander</Speaker>||<分支>3</分支><BGM>BGM_Empty</BGM>:Don't you remember, Kalin...?
+()<Speaker>Commander</Speaker>||<分支>3</分支><BGM>GF_Memorial</BGM>:When I first reported for duty at the Griffin base, you were also a freshly-appointed adjutant. We learned together how to keep the base up and running as we dealt with more and more challenging missions.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:...
+NPC-Kalin(3)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:I've lost count of how many times we've worked overtime together, how many times we've fretted over our Dolls... +When I lost all hope and was on the verge of collapse, it was always you who stayed by my side and pulled me away from despair.
+NPC-Kalin(3)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:...
+NPC-Kalin(3)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:Do you remember that time we narrowly escaped death at the Paldiski Submarine Base? +Everything seemed so hopeless, but you still—
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支><BGM>BGM_Empty</BGM><SE1>AVG_Spanner</SE1>:Hold on.
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:Kalina, do you finally remember?!
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:Excuse me, in this story you're telling me, did I get paid for working overtime?
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:Uh... There's no overtime pay at the Griffin base...
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支>:Then in all the while I've been working as your adjutant, have I ever received a promotion or pay rise?
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||<分支>3</分支>:...No.
+()<Speaker></Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<分支>3</分支><SE1>AVG_ElecSpace</SE1><SE1>AVG_Button_Click</SE1><BGM>BGM_Empty</BGM>:Kalina takes a deep breath, then she smashes the security alarm by the desk repeatedly—
+NPC-Kalin(8)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Security, escort this visitor out of my room!
+()<Speaker>Commander</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:<size=50>Wait!</size>
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Two burly men dressed all in black appear quietly from behind and seize you by the arms politely.
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<BGM>BGM_stage12</BGM>:I just looked you up quickly. +You're the temporary manager of Franchouchou, the opening act tonight, aren't you?
+()<Speaker>Commander</Speaker>||:...
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:You'd better worry about your group. They're not doing very well on stage.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_tele_connect</SE1><SE1>AVG_Howling</SE1>:格琳娜打开了舞台上的监控器屏幕，法兰秀秀正在台上僵硬地起舞。
-()<Speaker></Speaker>||<SE1>AVG_Crowd</SE1>:你从她们脸上的表情能看出绝望煎熬的心情，而台下观众愤怒的咆哮几乎淹没了她们的声音。
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_tele_connect</SE1><SE1>AVG_Howling</SE1>:Kalina shows you the live monitor—Franchouchou is currently dancing stiffly on the stage.
+()<Speaker></Speaker>||<SE1>AVG_Crowd</SE1>:You can see the suffering and despair on their faces as the audience's angry boos almost drown out their singing.
 ()||<黑屏1>:
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>470</BIN>:怎么会这样……
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:不管你是来打探夜间咖啡馆的秘密，还是谋求合作机会……+都请在法兰秀秀拥有足够和我们站在同一个舞台的实力，再来找我谈吧。
-()<Speaker>指挥官</Speaker>||<震屏3>:<size=50>格琳娜！</size>
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:请走吧，这位指挥官大人，你留在这里只会耽误我赚钱的速度！
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:格琳娜没有理睬你的狂吼乱叫，任保镖将你带出了房间。
-()<Speaker></Speaker>||:你只能眼睁睁看着格琳娜认真数钱的脸庞离你越来越远……
-()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_20Winter_Door_Close</SE1>:……
+()<Speaker>Commander</Speaker>||<黑点2><BIN>470</BIN>:How can this be...
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:I don't care if you've come to uncover secrets of Late Night Café or to seek a collaboration... +But don't bother to come back until Franchouchou has what it takes to share a stage with my group.
+()<Speaker>Commander</Speaker>||<震屏3>:<size=50>Kalina!</size>
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Please leave, dear Commander. You're just getting in my way of making money!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Kalina ignores your desperate protest and lets the bodyguards remove you from the room.
+()<Speaker></Speaker>||:You can only watch as the serious face that Kalina makes when she counts money grows farther and farther away from you...
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_20Winter_Door_Close</SE1>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>587</BIN><BGM>BGM_Empty</BGM>:……深夜，洋房。+法兰秀秀呆呆地坐在大厅中，卸掉妆容后的脸上写满了疲惫。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:你已经愤懑不平地在大厅里暴走了半个小时，拳头在路过的沙发上均匀地留下了一排坑。
-()<Speaker>指挥官</Speaker>||<震屏3><SE1>AVG_Punch</SE1>:<size=50>凭什么？！大家都是偶像团体，待遇差距怎么那么大！！！</size>
-()<Speaker>指挥官</Speaker>||<震屏3><SE1>AVG_Punch</SE1>:<size=50>还有那个格琳娜！怎么能这样对我？！</size>
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官……消消气吧……
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:……
-()<Speaker></Speaker>||:你后知后觉地回过神来，意识到现在最需要安慰的并不是你，而是演出失利的法兰秀秀。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你停下脚步，看向一直跟在身后安慰你的源樱。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:我们……失败了呢……
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:源樱……
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:如果巽幸太郎在的话，应该已经跳起来骂我们是笨蛋了吧……
-()<Speaker></Speaker>||:源樱努力保持着微笑，但内心的苦涩压垮了她的嘴角。
-()<Speaker>指挥官</Speaker>||:不用勉强自己的，想哭的话就哭吧。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官……你比我哭得还厉害啊……
-()<Speaker></Speaker>||<震屏3><SE1>AVG_File_Put</SE1>:一把用过的纸巾被山田多惠按在了你的脸上，你无奈地接过，看见大家都围拢过来。
-NPC-Tae(8)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:嗷呜……（不要哭……）
-NPC-MizunoAi(7)<Speaker>水野爱</Speaker><Position>60,-190</Position><Scale>1.27</Scale>||:没有什么好哭的，夜间咖啡馆的实力确实很强劲，这就是事实。+尽管很残酷，但我们必须去面对，并继续加油。
-NPC-Junko(10)<Speaker>绀野纯子</Speaker><Position>60,-90</Position><Scale>1.27</Scale>||:我们没有完全输，还有机会。+就在四天后……
-NPC-Sakura(9)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:嗯！总能找到什么办法的……+那么多次考验，我们都走过来了。
-()<Speaker></Speaker>||:水野爱和绀野纯子走到源樱的身边，两个女孩的脸上笼罩着忧愁，但在那之下的是不曾熄灭的决心和勇气。
-()<Speaker>指挥官</Speaker>||:我们之前的训练计划都太过保守了。+为了应对七天后的演出，我们需要做出改变……
-NPC-MizunoAi(6)<Speaker>水野爱</Speaker><Position>60,-190</Position><Scale>1.27</Scale>||:和我的想法相同，指挥官，你已经完全适应偶像制作人的身份了。
-()<Speaker>指挥官</Speaker>||:……是吗？
-()<Speaker></Speaker>||:想到今天的经历，你干涩地苦笑了几声。+你以为你拿到了回到过去的钥匙，丢下一切、歇斯底里地跑到门口才发现，不过是个泡影。+那扇门的另一端，只有完全不认识你的格里芬人形和格琳娜。+对现在的你而言，你所拥有的，就是和法兰秀秀的这段羁绊。
-NPC-Saki(11)<Speaker>二阶堂咲</Speaker><Position>0,-150</Position><Scale>1.34</Scale>||:你苦着个脸干什么！+我们可以唉声叹气，但你不行，你还要指挥我们向前走啊！
-NPC-Saki(11)<Speaker>二阶堂咲</Speaker><Position>0,-150</Position><Scale>1.34</Scale>||<震屏3><SE1>AVG_Punch</SE1>:不准垮掉！
-()<Speaker></Speaker>||:二阶堂咲在你的背上拍了拍，不知是不是错觉，你总感觉她似乎收了几分力。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:而另一只温柔的手攀上你的肩膀。
-NPC-Yugiri(6)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.9</Scale>||:别担心，我们也不是第一次面对这种情况了。+以前刚开始以法兰秀秀的身份活动时，就遭遇过很多冷言冷语，我们早就学会如何面对了。+更何况，这一次，还有指挥官陪着我们一起想办法，我们一定能行的。
-NPC-Lily(11)<Speaker>星川莉莉</Speaker><Position>70,-160</Position><Scale>1.24</Scale>||:打起精神来！不开心的话，歌声也会变得难听的！
-()<Speaker></Speaker>||:你看了看放在你身上的温柔的一双双手，你也不知道为什么，忍不住笑了起来。+明明该被安慰的是法兰秀秀，最后还是变成了你被安慰。+但这份安慰确实让你疲惫麻木的心重新跃动起来。
-()<Speaker>指挥官</Speaker>||:那让我们一起加油吧！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你伸出了自己的手，让法兰秀秀把自己的手交托在你的手背之上。+这是你许下的庄严的誓言，你将托起法兰秀秀，直到她们抵达云巅。
-()<Speaker>指挥官</Speaker>||:我们一定会赢回来的！！！
-()<Speaker>指挥官</Speaker>||<震屏3>:<size=50>一定要让格琳娜对我们刮目相看！！！</size>
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>587</BIN><BGM>BGM_Empty</BGM>:...Late at night, back at the mansion. +The Franchouchou girls are sitting impassively in the sitting room, fatigue is written all over their makeup-free faces.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:You have already been ranting in the living room for half an hour. The sofa now sports a row of indentations from where you've punched it.
+()<Speaker>Commander</Speaker>||<震屏3><SE1>AVG_Punch</SE1>:<size=50>What gives?! You are both idol groups, so why is there such a big difference in how you're treated?!!!</size>
+()<Speaker>Commander</Speaker>||<震屏3><SE1>AVG_Punch</SE1>:<size=50>And that Kalina! How could she do that to me?!</size>
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Commander... Don't be angry...
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:...
+()<Speaker></Speaker>||:You suddenly come to your senses and realize that the one who needs comforting right now isn't you, but Franchouchou, whose performance was a flop.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You stop pacing and look at Sakura, who has been trying to make you feel better.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:We... we failed...
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Sakura...
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:If Kotaro were here, he'd probably have jumped to his feet and called us useless idiots...
+()<Speaker></Speaker>||:Sakura is trying to keep up her smile, but her anguish is weighing down the corners of her lips.
+()<Speaker>Commander</Speaker>||:Don't be so hard on yourselves. If you want to cry, just let it all out.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Commander... you're crying even harder than I am...
+()<Speaker></Speaker>||<震屏3><SE1>AVG_File_Put</SE1>:Tae presses a used tissue onto your face. You accept it with some trepidation. By now, everyone has gathered all around you.
+NPC-Tae(8)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Awoo... (Don't cry...)
+NPC-MizunoAi(7)<Speaker>Ai Mizuno</Speaker><Position>60,-190</Position><Scale>1.27</Scale>||:It's nothing worth crying over. Late Night Café is extremely talented and skilled, it is the truth. +It may sound harsh, but we must face it and keep working hard to improve. 
+NPC-Junko(10)<Speaker>Junko Konno</Speaker><Position>60,-90</Position><Scale>1.27</Scale>||:Not all is lost, we still have a chance. +In four days...
+NPC-Sakura(9)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Yeah! We will find a way... +We've made it through a lot of setbacks before, and we can do the same again this time.
+()<Speaker></Speaker>||:Ai and Junko walk up to Sakura to comfort her. The two girls both look miserable, but their unyielding courage and determination are still shining through.
+()<Speaker>Commander</Speaker>||:We've been playing it too safe with the training plan. +To prepare for the performance in four days, we must change things up...
+NPC-MizunoAi(6)<Speaker>Ai Mizuno</Speaker><Position>60,-190</Position><Scale>1.27</Scale>||:I agree, Commander. You've become a proper idol manager.
+()<Speaker>Commander</Speaker>||:...You think so?
+()<Speaker></Speaker>||:You let out a bitter chuckle as you recall the events that transpired today. +You thought you had found the key to your own world. You dropped everything and ran up to the door, only to realize it was all a lie. +On the other side of the door, you were met with a Kalina who didn't know you at all. +Right now, all you have is your bond with Franchouchou.
+NPC-Saki(11)<Speaker>Saki Nikaido</Speaker><Position>0,-150</Position><Scale>1.34</Scale>||:Why are you sulking?! +We have every right to moan, but you don't! You have to show us the way forward!
+NPC-Saki(11)<Speaker>Saki Nikaido</Speaker><Position>0,-150</Position><Scale>1.34</Scale>||<震屏3><SE1>AVG_Punch</SE1>:Pull yourself together!
+()<Speaker></Speaker>||:Saki whacks you on the back. It is probably just your imagination, but you suspect she was already holding back.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Another hand rests gently on your shoulder.
+NPC-Yugiri(6)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.9</Scale>||:Don't worry, this wasn't the first time we'd experienced such things. +People were also jeering and making mean comments about us when Franchouchou first started out. We've all learned to take it in stride. +Besides, this time, we'll have you with us. As long as we work together, I'm sure we will find a way.
+NPC-Lily(11)<Speaker>Lily Hoshikawa</Speaker><Position>70,-160</Position><Scale>1.24</Scale>||:Perk up! If we're sad, even our singing will sound bad!
+()<Speaker></Speaker>||:You look down at all the gentle hands trying to console you. You don't know why but you can't help but smile. +The Franchouchou girls are the ones who need comforting, but they end up comforting you instead. +Still, their encouragement has indeed reinvigorated your numb and tired heart.
+()<Speaker>Commander</Speaker>||:Then let's all do our best together!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You hold out your hand, and the Franchouchou girls all place theirs on top of it. +This is the solemn promise you have made to them. You will lift Franchouchou up to the very top.
+()<Speaker>Commander</Speaker>||:We will redeem ourselves next time!!!
+()<Speaker>Commander</Speaker>||<震屏3>:<size=50>We must make Kalina see us in a whole new light!!!</size>
+()||<黑点1>:

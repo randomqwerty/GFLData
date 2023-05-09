@@ -1,150 +1,149 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><BIN>587</BIN><黑屏2>:又是一个空闲的夜晚。+你独自在房间中整理着这些天的笔记，你记录下了山田多惠的种种令人费解的表达方式，但有关它们的解答，仍然是个谜题。+你就像是一个语言学家，孤身一人投入到一门失落已久的语言的研究中去。
-()<Speaker>指挥官</Speaker>||:哎……
-()||:面对你复杂的笔记，你忍不住叹了口气。+这些天，你不仅没有搞懂她的“语言”，连你企图教会她的简单手势，她也没有学会。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:怎么就学不会呢？明明只是竖起大拇指和垂下大拇指的区别……
-()||:你上下颠倒着手势，还是不明白到底复杂在了哪里。
-()||<SE1>AVG_doorknock_wood</SE1>:砰砰砰——激烈的敲门声响起。
-()<Speaker>源樱</Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:指挥官！指挥官！你在吗？
-()<Speaker>指挥官</Speaker>||:怎么了，樱？
-()||<SE1>AVG_20Winter_Door_Open</SE1>:你打开门，看见满脸焦急的源樱。
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:多惠……她不见了！
-NPC-Sakura(2)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<震屏>:什么？！
-()||:你也回想起，自从下午和多惠分别之后，就再也没见过她。+连惯例的晚饭时间，她也没有出现。+这确实很反常。
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:我问了她们，没人知道多惠去哪了……
-NPC-Sakura(2)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:出去找找她吧，我也去帮忙。
-()||<黑点1>:你匆匆穿上外套，跟着一起出门分头寻找多惠。
-()||<黑点2><BIN>597</BIN><Night>:因为你不熟悉地形，源樱特意交代了罗梅罗陪你一起寻找。+深夜的街道，只有你和罗梅罗的影子在路灯下交替前进着。
-()<Speaker>指挥官</Speaker>||:<size=50>多惠——</size>
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪汪汪——
-()<Speaker>指挥官</Speaker>||:你在哪里啊？
-()||:你一边大声呼唤着多惠的名字，一边用力揉搓着手里的鱿鱼丝包装袋。+往常这样做，就能看见多惠朝你飞奔而来，但今天却始终没有动静。
-()<Speaker>指挥官</Speaker>||:不在这附近吗……
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:呜汪……
-()||:罗梅罗的声音也耷拉了下来，它低头在地面嗅闻着，寻找多惠的痕迹。+你望着冷清的街道，从中觉察出了几分熟悉。+这好像是你曾经和多惠一起走过的路。
-()<Speaker>指挥官</Speaker>||<黑点1>:那条小径！
-()||<黑点2><BIN>1</BIN><Night><BGM>BGM_Empty</BGM><SE1>AVG_wind_grass</SE1>:没有多惠的带路，你很快在盘根错节、枝叶茂密的小径中迷失了方向。
-()||<BGM>BGM_NightOPS</BGM>:罗梅罗也停下了狂奔的脚步，开始在原地徘徊，寻找着多惠的踪迹。
-()<Speaker>指挥官</Speaker>||:罗梅罗，能闻到多惠的味道吗？
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪汪汪！
-()||:罗梅罗焦急地在原地徘徊，看来多惠的气味从这里开始断掉了。
-()<Speaker>指挥官</Speaker>||:多惠——！山田多惠——！+吃饭了——！
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:嗷呜——
-()||:渺无人烟的旷野中回荡着你们的喊叫。+你的声音一层层荡开，最后像水中的涟漪般彻底消散，孤寂和冷清涌来。+随之而来的，还有蒙着黑色阴影的不安。
-()<Speaker>指挥官</Speaker>||:难道不在这里……
-()<Speaker>？？？</Speaker>||<SE1>AVG_Into_stone</SE1>:嘎……嗷……
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪呜？
-NPC-Romero(0)<Speaker>指挥官</Speaker><Position>0,240</Position><Scale>1.25</Scale><同时置暗>||:多惠？是你吗？
-()||:黯哑怪异的嗓音只存在了短短一瞬，你几乎要怀疑是不是你的幻觉。+唰——滋啦滋啦——+像是重物被拖拽在地上一路摩擦的声音响起。
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪——汪汪——
-NPC-Romero(0)<Speaker>指挥官</Speaker><Position>0,240</Position><Scale>1.25</Scale><同时置暗>||:……
-()||:你本能地后退了一步，罗梅罗也摆出了防御姿态。+你记得，佐贺附近是没有什么野兽的才对……
-()<Speaker>？？？</Speaker>||:啊……呃啊啊……
-()<Speaker>指挥官</Speaker>||:多、多惠？
-()||:声音的距离比起刚才近了很多，你的心脏紧张地狂跳着。
-()||<SE1>AVG_wind_grass</SE1>:窸窣——刷拉——
-()||<SE1>AVG_Slime_Movement</SE1>:枝叶不安地抖动着，重物被拖拽的声音像黏糊糊的鼻涕虫行走在你的耳道中，你的理智告诉你对面只可能是多惠，但你的想象力已经在各个恐怖片中驰骋了……
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale><Shake>||:呜……呜汪……
-NPC-Tae(0)<Speaker>？？？</Speaker><Position>0,-290</Position><Scale>1.3</Scale><GradientShow>2</GradientShow>||<BGM>BGM_Empty</BGM>:呃呃……啊啊啊……！
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:多惠……
-()||<BGM>10381</BGM>:你的心脏回到了它该存在的位置。
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪汪汪！
-NPC-Romero(0)<Speaker>指挥官</Speaker><Position>0,240</Position><Scale>1.25</Scale><同时置暗>||:你跑到这里来干什么？大家都在找你，她们很担心你。
-NPC-Tae(6)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊呃……唔啊啊啊……（好像在说明什么）
-NPC-Tae(6)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:算了……+找到你就好，我们快回家吧。
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:唔啊……（表示同意）
-()||:唰——滋啦滋啦——+拖拽重物的声音再度响起。
-()<Speaker>指挥官</Speaker>||:……
-()||:你欲言又止地看向山田多惠正在拖拽的东西——+一截需要两人合抱的枯树干。
-()<Speaker>指挥官</Speaker>||:多惠，你拖这个是要干什么？
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃呃……唔呃……（指了指下山的方向，可能是在表示洋房）
-NPC-Tae(3)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:你要把它带回家？
-()||:山田多惠的行为总是出乎你的意料，但多少能明白几分其中的原因，可这一次你盯着这根沉重的树干，却是怎么也想不明白。
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃……啊啊呃……（在比划着什么三角形的东西）
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:唔……+难道是——
-()||<黑屏1>:你的记忆回到了今天早些时候。
-NPC-Lily(7)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<黑屏2><BIN>574</BIN><回忆>:……莉莉听说，等圣诞节到了的时候，广场那边会有活动呢！
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:圣诞节……说起来，我们还没有好好过一次圣诞节呢。
-NPC-MizunoAi(2)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:什么叫好好过一次圣诞节？
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:嗯……比如装饰圣诞树，一起拆礼物，围在桌边吃顿好的之类的……
-NPC-Junko(1)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:或许下一个圣诞节我们可以好好庆祝一下。
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:莉莉同意！
-NPC-Yugiri(4)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:那我们得提前计划下呢……
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:圣诞节！好耶！
-()<Speaker>指挥官</Speaker>||:你们还出不出门了？真是的，怎么现在就开始想起圣诞节了……
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<黑屏1>:唔……啊呃……（含糊地发出了类似“圣诞节”的音节）
+()||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><BIN>587</BIN><黑屏2>:It's yet another night off.+You're sorting out the day's notes by yourself in your room. Among them are many of Tae's baffling ways of expressing herself, but what she means by them remains a mystery.+You are like a linguist trying to decipher a long-lost language by yourself.
+()<Speaker>Commander</Speaker>||:(Sighs)
+()||:You can't help but sigh as you look at your complicated notes. +Not only have you not been able to understand her "language" over the past few days, she can't even pick up the simple hand gestures you tried to teach her.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Why doesn't she get it? It's just pointing your thumb up and down...
+()||:You make the gestures in question, still unsure where the difficulty lies.
+()||<SE1>AVG_doorknock_wood</SE1>:Bangbangbang— Someone knocks vigorously on the door.
+()<Speaker>Sakura Minamoto</Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:Commander! Commander! Are you there?
+()<Speaker>Commander</Speaker>||:What's the matter, Sakura?
+()||<SE1>AVG_20Winter_Door_Open</SE1>:You open the door and see a panicked Sakura.
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Tae... She's gone!
+NPC-Sakura(2)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<震屏>:What?!
+()||:You remember that you haven't seen Tae again after parting ways with her this afternoon.+She didn't even show up for dinner.+This is very unusual.
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:I ask the others, but nobody knows where Tae has gone...
+NPC-Sakura(2)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Let's go look for her. I'll help too.
+()||<黑点1>:You quickly put on your jacket and head outside, where you split up with the others in search of Tae.
+()||<黑点2><BIN>597</BIN><Night>:Since you're unfamiliar with the local terrain, Sakura specifically assigns Romero to help you with the search.+You and Romero are the only two things moving under the lamps on the late-night streets.
+()<Speaker>Commander</Speaker>||:<size=50>TAE—</size>
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Arf-arf-arf—
+()<Speaker>Commander</Speaker>||:Where are you?
+()||:You rustle the packet of dried shredded squid in your hand as you shout her name.+Normally, Tae would be pouncing on you by now, but that hasn't happened today.
+()<Speaker>Commander</Speaker>||:Is she not in the area...?
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Awoo...
+()||:Romero quietens down and lowers his head to sniff the ground for traces of Tae.+You look down the quiet streets, which seem familiar.+You believe you've walked this way with Tae before.
+()<Speaker>Commander</Speaker>||<黑点1>:It's that path!
+()||<黑点2><BIN>1</BIN><Night><BGM>BGM_Empty</BGM><SE1>AVG_wind_grass</SE1>:Without Tae to lead you, you wind up losing your way while trying to follow the overgrown, root-covered path.
+()||<BGM>BGM_NightOPS</BGM>:Romero also slows down his frantic pace and begins looking for Tae's trail.
+()<Speaker>Commander</Speaker>||:Romero, do you have Tae's scent?
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Arf-arf-arf!
+()||:Romero frantically turns around in circles. It seems Tae's trail ends here.
+()<Speaker>Commander</Speaker>||:Tae—! Tae Yamada—!+ It's dinnertime!
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Awoooo—
+()||:Your cries echo in the deserted, sprawling wilderness.+The echoes bounce back, softer and softer each time, until at last they vanish into the air like ripples in water, replaced by solitude and silence.+With them comes the shadow of uneasiness.
+()<Speaker>Commander</Speaker>||:Is she not here...
+()<Speaker>???</Speaker>||<SE1>AVG_Into_stone</SE1>:Graar... awooo...
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Awoo?
+NPC-Romero(0)<Speaker>Commander</Speaker><Position>0,240</Position><Scale>1.25</Scale><同时置暗>||:Tae? Is that you?
+()||:That strange voice lasts for a mere moment; you even wonder if you were hearing things.+Whoosh... Scrape...+You hear what sounds like something heavy being dragged along the ground.
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Arf! Arf-arf!
+NPC-Romero(0)<Speaker>Commander</Speaker><Position>0,240</Position><Scale>1.25</Scale><同时置暗>||:...
+()||:You instinctively take a step back, and Romero also growls and gets his hackles up.+You remember that there shouldn't be any wild animals in the vicinity of Saga...
+()<Speaker>???</Speaker>||:Ah.. Urghhhargh...
+()<Speaker>Commander</Speaker>||:T-Tae?
+()||:The noise is much closer now, and your heart is pounding in your chest. 
+()||<SE1>AVG_wind_grass</SE1>:Rustle... Drag...
+()||<SE1>AVG_Slime_Movement</SE1>:The leaves tremble, and the sound of the heavy object being dragged along the ground crawls into your ears like oozing snot. Your reason tries to tell you that it's just Tae, but your imagination is already throwing up scenes that would be at home in a horror movie.
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale><Shake>||:Woo... Awoo...
+NPC-Tae(0)<Speaker>???</Speaker><Position>0,-290</Position><Scale>1.3</Scale><GradientShow>2</GradientShow>||<BGM>BGM_Empty</BGM>:Ughurgh... Ahhhh...!
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Tae...
+()||<BGM>10381</BGM>:Your heart settles back into your ribcage.
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Arf-arf-arf!
+NPC-Romero(0)<Speaker>Commander</Speaker><Position>0,240</Position><Scale>1.25</Scale><同时置暗>||:Why did you run all the way out here? Everyone was looking for you. They were all so worried.
+NPC-Tae(6)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Arghurgh... Urghahhhhh... (She seems to be saying something.)
+NPC-Tae(6)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Never mind... +I'm just glad we managed to find you. Come on, let's go home.
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Urghaahh... (She agrees.)
+()||:Whoosh... Scrape...+The dragging sound returns.
+()<Speaker>Commander</Speaker>||:...
+()||:Your jaw drops as you see what Tae is dragging behind her. +It is a massive dried-out tree trunk with a circumference around two people's arm spans.
+()<Speaker>Commander</Speaker>||:Tae, why are you dragging this around?
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Errrurgh... Oo-urgh... (She points downhill, possibly at the mansion.)
+NPC-Tae(3)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:You want to bring it home?
+()||:Everything Tae does comes as a surprise, but for the most part, you can tell what she has in mind. +This time, however, your mind is a blank as you look at the heavy trunk.
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Er... Ahhhurgh... (She seems to be miming the shape of some triangular object.)
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Um...+Don't tell me this is—
+()||<黑屏1>:Your memories return to an earlier moment today.
+NPC-Lily(7)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<黑屏2><BIN>574</BIN><回忆>:...Lily heard that there's going to be an event at the plaza around Christmastime!
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Christmas... Speaking of which, we haven't celebrated a proper Christmas together yet.
+NPC-MizunoAi(2)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:What would you call a proper Christmas?
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Hmm... For instance, it would involve decorating a Christmas tree, opening presents together, gathering around a table and eating good food, that sort of thing.
+NPC-Junko(1)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:Perhaps we could do that for next Christmas.
+NPC-Lily(0)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:Lily approves!
+NPC-Yugiri(4)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:Then we should probably plan it ahead of time...
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Awright, Christmas!
+()<Speaker>Commander</Speaker>||:Aren't you guys supposed to be heading out? Honestly, why'd you all suddenly think of Christmas...
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<黑屏1>:Fhurr... Krurmur... (She's mangling the syllables for "Christmas".)
 ()||<黑屏2><关闭蒙版><BIN>1</BIN>:
-()<Speaker>指挥官</Speaker>||<Night>:多惠……你该不会是想用这根树干来做圣诞树吧？
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃啊啊啊……（在认真解释着什么）
-NPC-Tae(4)<Speaker>指挥官</Speaker><同时置暗><Position>0,-290</Position><Scale>1.3</Scale>||:……+果然还是什么也听不懂。
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪！
-()||:根据这些天的相处，你明白，多惠的行为逻辑绝不是你能预想到的。+反过来讲，你能设想到的行为逻辑都可以被直接排除掉，而答案就在剩下的范畴里。+可除了做圣诞树，这根光秃秃的枯树干还能干什么呢？
-()<Speaker>指挥官</Speaker>||:想那么多也没什么用，走一步算一步吧。
-NPC-Tae(6)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:唔呃……？（疑惑地望向你）
-NPC-Tae(6)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:我来帮你吧。
-()||<黑点1>:你捋起袖子，帮助多惠一起抬起了树干。
-()||<黑点2><BIN>605</BIN><BGM>BGM_Empty</BGM>:在你的体力即将耗尽之时，你终于和多惠一起将枯树干搬回了洋房前的空地。
-()<Speaker>指挥官</Speaker>||:累死我了……
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Day</BGM>:你们终于回来了！
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:这是……
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊啊！呃啊啊！（很兴奋地比划着树干的尖端部分，又比划着源樱）
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:多惠……你难道是想把它送给我？
-()<Speaker>指挥官</Speaker>||:哈啊？难道还真的是打算做圣诞树……
-()||:你为自己猜中了山田多惠的行为而感到震惊。+但这时，她又拽来了二阶堂咲，朝她比划着树干的中间部分。
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:嘟嘟……轰隆隆……（好像在模仿机车发动的声音）
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:嗯？哦！
-NPC-Saki(0)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:我懂了，你还记得上次我跟你说的，想找个木板练习机车平衡啊！
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:谢谢你啊，多惠！
-()<Speaker>指挥官</Speaker>||:……
-()||:你还没来得及从震惊中走出，就看见多惠依次把小爱、纯子、莉莉、夕雾拽来比划，甚至连罗梅罗也有份。
-()<Speaker>指挥官</Speaker>||:多惠……竟然有这么清晰的思路……
-()||:但剩下的女孩们显然就没有这样的思路了。
-NPC-Sakura(5)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:咲，你在干什么！为什么要骑着机车往我的圣诞树上撞！
-NPC-Saki(5)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:哈啊？这是多惠送我的平衡木啊！
-NPC-Lily(3)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:胡说！这明明是莉莉的木制星星材料！
-NPC-Yugiri(2)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:哎呀……你们别吵了，稍微让给我一点做个木簪子吧。
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪汪汪！（挺身而出，为自己的木头小房子而战）
-()<Speaker>指挥官</Speaker>||:……
-()||:激烈的混战声吵得你的头都要炸开了，你被迫挺身而出，将争夺树干的女孩们拉开。
-()<Speaker>指挥官</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=13</controll_shake>:<size=50>别吵了，大家都安静一下！</size>
-NPC-Sakura(4)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……
-NPC-Saki(5)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:哼。
-()||:空气中的硝烟味总算稀薄了些，你看着围绕树干的法兰秀秀和罗梅罗，开始思索如何解决这场闹剧。
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>只满足一个人的愿望的话，其他人也会不满……</color>+<color=#A9A9A9>可是用这根树干能做点什么，才能让大家都同意呢？</color><c>储备木材<c>还给大山<c>什么也不做
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:不如将这根树干劈成木材存起来吧，冬天可以拿来烧火取暖，其他时候也可以用来制作家具，或者填补房屋的漏洞。
-NPC-Yugiri(4)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||<分支>1</分支>:很实在的选择呢。
-NPC-Sakura(4)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:可是……我的圣诞树就没了……
-NPC-Lily(6)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:莉莉不要！
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:既然我们都无法说服彼此，还是把树干还给大山吧。
-NPC-MizunoAi(0)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>2</分支>:我其实都可以。
-NPC-Junko(3)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||<分支>2</分支>:可是该让谁把树干送回去呢……
-NPC-Saki(5)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>2</分支>:哼，我反正才不要把我的平衡木送走！
-()<Speaker>指挥官</Speaker>||<分支>3</分支>:不然先放在这里，等我们都想好了，再做决定吧。
-NPC-Yugiri(2)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||<分支>3</分支>:天气预报说，今晚会有一场大雨，要是放在这里不管的话，这块木材或许就废掉了。
-NPC-Sakura(7)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>3</分支>:它原本可以成为一棵漂亮的圣诞树的……
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||<分支>3</分支>:汪汪汪汪！！！（似乎是在为自己的木头小房子发声）
-()||:你的想法依然无法解决争端，眼看着大家又要争吵起来——
-()||<SE1>AVG_Saw_Door</SE1><BGM>BGM_Empty</BGM>:嗡——嗡嗡嗡——+充满杀气的电锯在你的背后划破了空气。
-()<Speaker>指挥官</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=15</controll_shake>:多、多惠？
-()||<SE1>AVG_Wonder</SE1>:你惊恐地看向手持正在高速运转的电锯的多惠，下意识地后退了几步。
-NPC-Tae(5)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale><GradientShow>2</GradientShow>||:啊啊啊……呃唔……噶啊啊啊……（可能是在讲述自己的计划）
-NPC-Tae(5)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:你要做什么？！
-()||<SE1>RunStep</SE1>:山田多惠高举电锯冲向了你们——
-()<Speaker>指挥官</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=18</controll_shake><黑点1>:<size=50>不要啊——</size>
-()||<黑点2><BGM>BGM_Saga_AVG_Day</BGM>:十几分钟后，每个人都领到了属于自己的那一块木材。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:好开心，我明天准备去超市买些装饰品！你们有同去的吗？
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:莉莉想去买些颜料涂在木头星星上！
-NPC-Yugiri(3)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:唔……我也去买些散珠做木簪的吊坠好了。
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:耶——终于有平衡木了！
-NPC-Romero(0)<Speaker>罗梅罗</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:汪唔汪嗷！
-()||:大家都很开心，连罗梅罗也高兴地在草地里打滚了。+除了你。+你呆呆地坐在木屑堆中，为自己又一次破译多惠的语言失败而感到迷茫。
-NPC-Tae(1)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:唔啊……呃呃……（期待地跟你比划着什么）
-NPC-Tae(1)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:怎么了，多惠？
-()||:她递给了你一块厚实的木材，在上面比划着圆形，疑似盛放鱿鱼丝的动作，然后是吃饭的动作……+经过一分钟的慎重思考，你试探性地开口。
-()<Speaker>指挥官</Speaker>||:你想把这块木材送给我，做盛鱿鱼丝的盘子吗？
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊嗯……唔……（用力地点了几下头）
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:……谢谢你，多惠。
-()||:你收下了边缘还残留着多惠咬痕的木头。+原本迷惘无奈的心情突然涌起了几分甜蜜，奇怪的甜蜜。
-()<Speaker>指挥官</Speaker>||:没想到我也有收到块木头都能开心的时候啊……
-()||<黑屏1>:你加入了欢乐的人群，开始在大家的帮助下，打磨起了这里第一个只属于你的盘子。
-
+()<Speaker>Commander</Speaker>||<Night>:Tae... Don't tell me you're going to use this trunk as a Christmas tree?
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Uhraaahrrgh... (She seems to be doing her best to explain something.)
+NPC-Tae(4)<Speaker>Commander</Speaker><同时置暗><Position>0,-290</Position><Scale>1.3</Scale>||:...+Right, still can't make sense of any of that.
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Arf!
+()||:From the time you've spent with her these past few days, you understand that it's impossible to predict what Tae will do next.+On the contrary, any predictions you make can be immediately ruled out, and the answer lies in the possibilities that remain.+What else could you do with this bare tree trunk other than make a Christmas tree with it?
+()<Speaker>Commander</Speaker>||:Well, there's no point thinking so much about it. We'll make it up as we go along.
+NPC-Tae(6)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Mnhurgh...? (She looks at you in confusion.)
+NPC-Tae(6)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Let me give you a hand.
+()||<黑点1>:You roll up your sleeves and help Tae pick up the tree trunk.
+()||<黑点2><BIN>605</BIN><BGM>BGM_Empty</BGM>:Just as your strength is about to give out, you manage to get the tree to the open space in front of the mansion.
+()<Speaker>Commander</Speaker>||:I'm so tired...
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Day</BGM>:You're back at last!
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:This is...
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ahhhh! Nghhhaahh! (She excitedly gestures to the tip of the tree trunk and then gesticulates towards Sakura.)
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Tae... Is this for me?
+()<Speaker>Commander</Speaker>||:Huh? Are you really going to make a Christmas tree out of this...
+()||:You're shocked that you actually managed to guess Tae's intentions.+However, she then proceeds to grab Saki and gestures to the middle section of the tree.
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Toot toot... Broomroomroom... (She seems to be imitating the sound of a motorbike starting up.)
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Hm? Oh!
+NPC-Saki(0)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:I see, you still remember what I told you last time about getting a plank to practice bike balancing!
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Thank you, Tae!
+()<Speaker>Commander</Speaker>||:...
+()||:Before you can recover from your shock, you see Tae grab Ai, Junko, Lily, and Yugiri one after another. Even Romero is included.
+()<Speaker>Commander</Speaker>||:Tae... I can't believe you had such a clear plan in mind...
+()||:However, the other girls are nowhere as clear-minded as she is.
+NPC-Sakura(5)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Saki-chan, what the heck are you doing? Why are you riding your bike on my Christmas tree!
+NPC-Saki(5)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Haha? This is a balance beam that Tae gave me!
+NPC-Lily(3)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:Nonsense! This is material for Lily to make wooden stars with!
+NPC-Yugiri(2)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:Goodness... That's enough arguing out of you. Allow me to finish making hairpins out of it.
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Arf-arf-arf! (He bravely stands up to fight for his future doghouse.)
+()<Speaker>Commander</Speaker>||:...
+()||:The argument grows so intense that it's making your head split. You are forced to step in and break up the girls' fight over the tree.
+()<Speaker>Commander</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=13</controll_shake>:<size=50>That's enough! Quiet, all of you!</size>
+NPC-Sakura(4)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:...
+NPC-Saki(5)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Humph.
+()||:The conflict in the air has cleared a little, at least. You look at Franchouchou and Romero standing around the tree and start racking your brains for how to solve this.
+()<Speaker>Commander</Speaker>||:<color=#A9A9A9>The others will be unhappy if only one person's request is met...</color>+<color=#A9A9A9>But what can I do with this tree that will satisfy everyone?</color><c>Turn it into timber.<c>Bring it back to the mountain.<c>Do nothing.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:Why don't we chop this tree up into timber? That way we can burn it for warmth in the winter and use it for furniture or patching holes in the house at other times.
+NPC-Yugiri(4)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||<分支>1</分支>:A most practical solution.
+NPC-Sakura(4)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:But... that means I won't have a Christmas tree...
+NPC-Lily(6)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:Lily's against this!
+()<Speaker>Commander</Speaker>||<分支>2</分支>:Since we can't convince each other on how to use this tree, we should return it to the mountains.
+NPC-MizunoAi(0)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>2</分支>:Actually, I'm okay with anything.
+NPC-Junko(3)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||<分支>2</分支>:But who's going to bring the tree back...
+NPC-Saki(5)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>2</分支>:Humph, like hell I'll let anyone take my balance beam away!
+()<Speaker>Commander</Speaker>||<分支>3</分支>:Why don't we just leave it here until we all decide what we want to do with it?
+NPC-Yugiri(2)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||<分支>3</分支>:According to the meteorologist, there will be heavy rain tonight. This piece of lumber will be a write-off if we leave it here unattended.
+NPC-Sakura(7)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>3</分支>:It could have been a lovely Christmas tree...
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||<分支>3</分支>:Arf-arf-arf-arf! (He seems to be speaking up for his doghouse.)
+()||:Your solution is nowhere closer to resolving the dispute. Just as it seems everyone is going to start fighting again—
+()||<SE1>AVG_Saw_Door</SE1><BGM>BGM_Empty</BGM>:Vrm—+Vrrrmmvrrmmm—+The menacing sound of a chainsaw revving up comes from behind your back.
+()<Speaker>Commander</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=15</controll_shake>:T-Tae?
+()||<SE1>AVG_Wonder</SE1>:Startled, you turn to see Tae holding a chainsaw whose teeth are spinning at high speed, and you subconsciously back up a few steps.
+NPC-Tae(5)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale><GradientShow>2</GradientShow>||:Ahhhh... Urghhh... Gaahhh... (She's probably explaining her plan.)
+NPC-Tae(5)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:What are you doing?!
+()||<SE1>RunStep</SE1>:Tae raises her chainsaw and heads straight for you—
+()<Speaker>Commander</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=18</controll_shake><黑点1>:<size=50>NOOOOOOOOOO—</size>
+()||<黑点2><BGM>BGM_Saga_AVG_Day</BGM>:Ten-plus minutes later, everyone gets a piece of wood that belongs to them.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:This is great! I'll be going down to the supermarket tomorrow to buy decorations! Who's coming with me?
+NPC-Lily(0)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:Lily wants to buy some paint for my wooden stars!
+NPC-Yugiri(3)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:Mm... I suppose I should buy some pearls as ornaments for the hairpins.
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:Woohoo! At last, a balance beam!
+NPC-Romero(0)<Speaker>Romero</Speaker><Position>0,240</Position><Scale>1.25</Scale>||:Awoooowooo! 
+()||:Everyone seems satisfied with the outcome. Even Romero is rolling around happily on the grass.+Everyone, that is, except you.+You sit amidst a pile of wood shavings and sawdust, dazed by your failure to once again decipher Tae-speak.
+NPC-Tae(1)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Uhrahh... Urrghur... (She gesticulates toward you with an expectant look on her face.)
+NPC-Tae(1)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:What's the matter, Tae?
+()||:She hands you a solid block of wood and traces a circle on it, makes a sprinkling motion with her hand as if she's scattering dried shredded squid on it, and then she mimes eating.+After a minute of careful consideration, you venture a guess at what she might mean.
+()<Speaker>Commander</Speaker>||:Are you giving me this wood to turn into a plate for dried shredded squid?
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ahhurm... Mm... (She nods vigorously.)
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:...Thank you, Tae.
+()||:You accept the block of wood that's covered in Tae's bite marks.+Where once you felt confused and at a loss, your feelings suddenly turn strangely tender.
+()<Speaker>Commander</Speaker>||:Who would have thought I would ever be so happy to receive a block of wood...
+()||<黑屏1>:You join the happy group, and with everyone's help, you begin shaping the very first plate that belongs to you and you alone.

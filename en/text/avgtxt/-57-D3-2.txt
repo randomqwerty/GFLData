@@ -1,99 +1,97 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>587</BIN><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:空闲的夜，你靠在窗边的躺椅，感受着深夜的凉风习习吹在脸上。+你慵懒地伸展着僵硬的身体，睡意跟着一点点蔓延上来。
-()<Speaker>指挥官</Speaker>||:今晚早点休息好了。
-()||<SE1>AVG_Bite</SE1>:嘎吱嘎吱——+尖锐的噪音打断了你的惬意时光，似乎是从门外传来的。
-()<Speaker>指挥官</Speaker>||:谁？
-()||:……+没有人回应，是幻听了吗？+你站在门前，又凝神细听了一会。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:好像真的听错了……
-()||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏2>0,5</黑屏2><SE1>AVG_Door_Hit</SE1>:砰——+上一秒还纹丝不动的门猛地砸到你的脸上，痛击了你的鼻梁和额头。
-()<Speaker>指挥官</Speaker>||:呃啊——
-NPC-Tae(0)<Speaker>山田多惠</Speaker><GradientShow>2</GradientShow><Position>0,-290</Position><Scale>1.3</Scale>||<BGM>m_wv_title</BGM>:吼……啊……（疑似在问好）
-()||:你痛苦不堪地倒在地上，一只手捂住额头，一只手捂住了鼻梁。
-()||<SE1>Rope</SE1><黑点1>:而肇事者若无其事地走到你的面前，揪起了你后背的衣服，开始拽着你向门外走去。
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>578</BIN>:多惠……你、你要带我去哪？
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:唔……啊……（含含糊糊地说了什么）
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:你在说什么？
-()||:来了佐贺几日，你依然无法正常和山田多惠进行沟通交流，只能全靠猜测。+你看着漆黑的走廊和敞开的大门外危机四伏的夜色，心里骤然涌起一股不安。
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>月黑风高夜……</color>+<color=#A9A9A9>她该不会是要把我……</color>
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊啊……呃……（好像在提醒你注意什么）
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:什么？
-()||<黑点1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=13</controll_shake>:你话音未落，就已经明白了她想说什么。+咚咚咚——接连不断的楼梯硌得你眼前阵阵发黑，只能任由山田多惠将你拖向未知的前方。
-()||<黑点2><BIN>605</BIN>:夜晚的街道是寂静无声的，只有路灯睁着昏沉的眼睛，迷惘地注视着来往的过客。+你不知道多惠拖着你走了多远，但你决定在你的裤子被彻底磨破之前，站起来。
-()<Speaker>指挥官</Speaker>||:我自己走吧……
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊……
-()||:山田多惠终于松开了你，你狼狈地从地上爬起来，拍了拍身上的泥土砂砾。
-()<Speaker>指挥官</Speaker>||:多惠，这深更半夜的，你带着我在外面转悠什么？
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃……啊啊啊……唔啊……（语气着急地说了很多）
-NPC-Tae(3)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:……
-()||:还是一个字也听不懂。+不过，你认为她会选择在这个时间将你强行拖拽出来，一定是有重要的原因。+你想要弄清背后的缘由。
-()<Speaker>指挥官</Speaker>||:……嗯，我大概明白了，你带路吧。
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<黑点1>:啊……唔啊！（高兴地朝前小跑了几步）
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>597</BIN><Night>:……
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊啊……哦啊……（亢奋地跟你说着什么）
-NPC-Tae(3)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:这样啊……
-()||:你一头雾水地跟在叽叽喳喳的山田多惠的后面，为了不让场面尴尬，你时不时附和几句。+尽管你完全不知道她在说什么。+现在你开始后悔在洋房的时候没有向其他法兰秀秀成员求助，至少她们能理解一点山田多惠的意思……
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:哦哦……呃啊！（疑似在指路）
-()||:山田多惠停下了脚步，指着路边的小径对你喊着。+那是一条没有路灯的小道，道路两边是茂盛的野草和灌木，看不清小道通向何处。+你还在犹豫要不要钻进去时，山田多惠已经消失在了小径中。
-()<Speaker>指挥官</Speaker>||:多惠，等等我啊！
-()||<SE1>AVG_wind_grass</SE1><黑点1><BGM>BGM_Empty</BGM>:没办法，你只好也一头钻了进去。
-()||<黑点2><BIN>1</BIN><Night><BGM>BGM_Saga_AVG_Dusk</BGM>:走过一段蜿蜒曲折的小路，被地上的树根绊倒几次，又被不肯让路的巨大叶片打脸几次后，你们终于来到了一片开阔的地带。+山田多惠熟门熟路地行走在没有明显路线痕迹的旷野中，你跌跌撞撞地跟在后面。
-()<Speaker>指挥官</Speaker>||:这是哪里啊？
-()||:刚问出口，你就意识到你的问题毫无意义，反正你也听不懂答案。
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:咕……呃啊啊……（可能在很认真地回答问题）
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:……
-()||:你叹了口气，继续跟上山田多惠。+原本惬意的夜晚被打断，还被拽来荒僻的野外爬山，你的忍耐已经所剩不多。
-()<Speaker>指挥官</Speaker>||:多惠，我们差不多该回去了。
-NPC-Tae(6)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:唔呃……（能听出是拒绝的意思）
-()||:你苦笑了一下，想不到今晚你唯一能听懂的竟然是拒绝。
-NPC-Tae(6)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊……啊……唔啊！（着急地指了指前面）
-NPC-Tae(6)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:怎么了？
-()||:你顺着她指的方向看去，几块灰白色的石头凸显在了夜色中。+石头的外形非常规整，整齐有序地摆放成了几排。+你突然明白了这些石头是什么。
-()<Speaker>指挥官</Speaker>||:……多惠，为什么要带我来这里？
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊……啊啊！（无法理解意义的词汇）
-()||:山田多惠站在其中一块灰白的石头前，用力地戳了起来。
-()<Speaker>指挥官</Speaker>||:多惠，别这样，这对逝者——
-()||:你上前阻拦，同时也看清了石头上的刻字。+“山田家族之墓”。
-()<Speaker>指挥官</Speaker>||:这是……
-NPC-Tae(0)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊……呜啊……+啊呜啊啊……唔呃……（说了很多，但一句都听不懂）
-NPC-Tae(0)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:你想告诉我什么？
-()||:这是多惠家族的墓碑。+一块孤零零的灰白石头，寥寥数字，就概括了几代人的一生。+墓碑前空空荡荡，相比起附近，可以说寂寥得有些惨淡。+山田多惠也安静了下来，她空旷的目光落在了墓碑上，不知道在思索着什么。
-()<Speaker>指挥官</Speaker>||<BGM>BGM_Empty</BGM>:多惠……
-()||<SE1>ClothingUp</SE1>:你心里一酸，赶紧掏出身上的所有食物摆放在了碑前。+然后，你虔诚地合十，为多惠祈福。+等你祈福完毕后，山田多惠已经不在你的身边。
-()<Speaker>指挥官</Speaker>||:多惠？你跑哪里去了？
-()||<SE1>AVG_Bite</SE1>:嘎吱——嘎吱——+熟悉的咀嚼声。+山田多惠正蹲在别人的墓碑前，认真地吃着贡品。
-()<Speaker>指挥官</Speaker>||<BGM>GF_20HW_Battle1_BPM102_Loop</BGM>:多惠！那个……不能吃！
-NPC-Tae(6)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale><Shake>||:啊呃——！（很生气地护食）
-()||:见你想要夺走食物，多惠直接整个吞掉了。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Tae(1)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:嗷呜……嗷呜……（吃得津津有味）
-()||:你只能无奈地看着山田多惠扫清别人的贡品，最后来到自己的墓碑前，吃起了你刚刚放下的食物。+你忍不住好奇，于普通人类而言，这里是一个祭奠凭吊的悲伤之地，那对于多惠而言，这里是什么样得到地方？+一个大型自由觅食地？还是一个会不定期刷出食物的游戏据点？
-NPC-Tae(1)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊……呜啊……（心满意足地看着你）
-NPC-Tae(1)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:……+吃饱了？我们回家吧。
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<黑点1>:啊呃……啊……（能听出是同意的意思）
-()||<黑点2><BIN>597</BIN><Night>:像来时一样，山田多惠熟练地带着你走向了回洋房的路。+你看着多惠瘦瘦的背影，继续回味着刚刚的疑问。+那么，她为什么要在这个时候带你来到她的自由觅食地或者说游戏据点呢？+她是想要告诉你她的故事，还是单纯想要骗取你的食物？
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:吼……唔啊啊……（兴高采烈地哼着什么）
-NPC-Tae(3)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:……
-()||:以你目前对她的了解，你是无法得出答案了。+但或许有朝一日，你能够知晓有关她的一切。
-()||<SE1>AVG_20Winter_Book</SE1>:你取出了随身携带的本子，开始记录下今天观察到的她的肢体动作和语言。
-()<Speaker>指挥官</Speaker>||:有没有可能……我不只能够记录，还可以教会她一些表达呢？
-NPC-Tae(6)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃……呃呃？（疑惑地看着你）
-NPC-Tae(6)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:多惠，以后你想要表示肯定的时候，就对我竖起一个大拇指吧。+同样的，表示否定的话，就把大拇指朝下。
-()||:你向多惠示范了两个简单的手势，多惠歪着脑袋呆呆看着你的手。
-()<Speaker>指挥官</Speaker>||:你应该明白了吧？
-NPC-Tae(7)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:……
-NPC-Tae(7)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:我们现在来试试吧。+我是不是一个还算不错的制作人？
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃……啊啊呃……（胡乱地嚎着什么）
-NPC-Tae(3)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:不对，这个时候应该比大拇指。
-()||:你重新比划出一个大拇指朝上的手势，山田多惠看着你的手，若有所思的样子。
-()<Speaker>指挥官</Speaker>||:这次明白了吧，那我们再试一次。
-NPC-Tae(5)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<SE1>AVG_Bite</SE1>:嗷呜——
-()||:她一口咬在了你的手上。
-()<Speaker>指挥官</Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=17</controll_shake>:啊啊啊啊——
-NPC-Tae(3)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:啊啊……呜啊……（疑似在模仿你鬼哭狼嚎的样子）
-NPC-Tae(3)<Speaker>指挥官</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||<黑点1>:……+算了，任重道远，慢慢来吧。
-()||<黑点2><BIN>593</BIN><Night>:你捂着仍在隐隐作痛的手，跟随山田多惠走在回家的路上。+夜色慢慢被暮光稀释，东边的天空已经染上了鱼肚白。
-()<Speaker>指挥官</Speaker>||:真是个疲惫的夜晚啊。
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:呃……啊……（似乎在表示同意）
-()||<黑屏1>:和山田多惠的第一次奇妙之旅就这样结束了，你不知道还会不会有下一次。+但你希望，如果有的话，你能够听懂哪怕一点点多惠想要告诉你的事。
-
-
+()||<黑屏2><BIN>587</BIN><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:You're free tonight. You lean against the windowsill, feeling the night breeze on your face.+You stretch your stiff body and a wave of sleepiness creeps up on you.
+()<Speaker>Commander</Speaker>||:I should turn in early tonight.
+()||<SE1>AVG_Bite</SE1>:Creeeeeak— +A shrill noise interrupts this comfortable leisure time. It seems to be coming from outside the door.
+()<Speaker>Commander</Speaker>||:Who's that?
+()||:...+There's no response. Could it be your imagination?+You stand in front of the door and listen intently for a while.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Maybe I really was hearing things...
+()||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏2>0,5</黑屏2><SE1>AVG_Door_Hit</SE1>:Bang— +The door suddenly slams into your face, painfully striking the bridge of your nose and your forehead.
+()<Speaker>Commander</Speaker>||:Owwwww—
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><GradientShow>2</GradientShow><Position>0,-290</Position><Scale>1.3</Scale>||<BGM>m_wv_title</BGM>:Hrrr... Ahhh... (She seems to be greeting you.)
+()||:You collapse to the ground, incapacitated by the pain, one hand grabbing your forehead while the other cradles your nose.
+()||<SE1>Rope</SE1><黑点1>:Meanwhile, the culprit nonchalantly walks up to you and starts dragging you outside by the back of your collar.
+()<Speaker>Commander</Speaker>||<黑点2><BIN>578</BIN>:Tae... Are you taking me somewhere?
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Nghh... Ahhh... (She seems to be saying something indistinctly.)
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:What did you say?
+()||:It's been several days since you came to Saga, but you still can't communicate with Tae, leaving you with no choice but to guess at what she's trying to say.+As you look at the pitch-black corridor and the menacing nocturnal scenery beyond the main door, a wave of panic suddenly rises up inside you.
+()<Speaker>Commander</Speaker>||:<color=#A9A9A9>It is a dark and moonless night...</color>+<color=#A9A9A9>Don't tell me she's going to...</color>
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ahhh... Urgh... (She seems to be reminding you to pay attention to something.)
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:What was that?
+()||<黑点1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=13</controll_shake>:Before you finish speaking, you already understand what she's trying to say.+Thunk-thunk-thunk—every bump down the stairs makes your vision black out. All you can do is let Tae drag you to your unknown destination.
+()||<黑点2><BIN>605</BIN>:The night-time streets are silent, the dim streetlights barely giving you enough illumination to glimpse the passers-by on the street.+You have no idea how far Tae has been dragging you, but you decide to get to your feet before she completely wears your pants out.
+()<Speaker>Commander</Speaker>||:I think I'll walk by myself...
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ah...
+()||:Tae lets go of you, and you scramble to your feet in a wretched state as you pat the dust off yourself.
+()<Speaker>Commander</Speaker>||:Tae, why did you take me out for a walk so late at night?
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Urgh... Ahhhh... Nghhaahh... (She seems to be frantically trying to explain a lot of things.)
+NPC-Tae(3)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:...
+()||:You still can't make sense of what she's saying.+However, you feel that there must be an important reason for her to drag you out here at this time of night.+You attempt to figure it out.
+()<Speaker>Commander</Speaker>||:...Hm, I get it. Lead on.
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<黑点1>:Ah... Nghaah! (She excitedly skips a few steps forward.)
+()<Speaker>Commander</Speaker>||<黑点2><BIN>597</BIN><Night>:...
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ahhhh... Ohhhhahh... (She seems to be eagerly trying to tell you something.)
+NPC-Tae(3)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:I see...
+()||:Utterly confused, you end up following Tae, occasionally replying to her with the odd acknowledgement and response to keep it from becoming too awkward.+That said, you still have no idea what she's trying to say.+You're starting to regret not asking the other members of Franchouchou for help while you were still in the mansion. At the very least, they'd be able to understand her...
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Orrhhhh... Nghah! (She seems to be giving directions.)
+()||:Tae comes to a halt and yells at you while pointing at a small path by the roadside.+It is not illuminated by streetlights and its sides are heavily overgrown with trees and vegetation so you can't see where it leads. While you're still hesitating over whether or not to follow it, Tae has already disappeared down the path.
+()<Speaker>Commander</Speaker>||:Tae, wait for me!
+()||<SE1>AVG_wind_grass</SE1><黑点1><BGM>BGM_Empty</BGM>:It can't be helped. You have to go in after her.
+()||<黑点2><BIN>1</BIN><Night><BGM>BGM_Saga_AVG_Dusk</BGM>:After going down a twisty stretch of road, tripping over tree roots several times and being smacked in the face by huge leaves, you finally arrive at a clearing.+Tae skillfully navigates this trackless wilderness while you stumble to keep up behind her.
+()<Speaker>Commander</Speaker>||:Where is this place?
+()||:You realize how pointless your question is the moment you ask it; after all, you won't be able to understand the answer.
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Guh... Errrahhh... (She seems to be giving you a serious answer.)
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:...
+()||:You sigh and continue following Tae.+This was supposed to be a leisurely night off, but that's been ruined and now you've been dragged out into the wilderness on some cross-country hike. You're running out of patience, and fast.
+()<Speaker>Commander</Speaker>||:Tae, it's about time we went back.
+NPC-Tae(6)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Errrguhhh... (You can tell she's saying no.)
+()||:You snort. To think all of the things she has said the entire night, the only bit that you understood is a "no".
+NPC-Tae(6)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ah... ah... gurrrahh! (She frantically points forward.)
+NPC-Tae(6)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:What's wrong?
+()||:You look in the direction where she's pointing. The light gray stones there stand out in the darkness of the night.+The stones have very regular shapes and they are neatly lined up in rows.+You suddenly realize what these stones are.
+()<Speaker>Commander</Speaker>||:...Why did you bring me here, Tae?
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ah... Ahhhhh-argh! (You can't make sense of what she's trying to say.)
+()||:Tae stands in front of one of the light-gray stones and pokes it vigorously.
+()<Speaker>Commander</Speaker>||:Tae, don't be like that, it's rude to the—
+()||:Just as you move up to stop her, you notice the inscription on the stone.+It reads, "Yamada Family Grave".
+()<Speaker>Commander</Speaker>||:This is...
+NPC-Tae(0)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ah... Uwahh...+Ahuwaaahh... Urghurrr... (She says a lot, but you don't understand a word of it.)
+NPC-Tae(0)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Are you trying to tell me something?
+()||:This is Tae's family grave.+It's a lonely slab of gray rock with just a few words and numbers scratched onto it. It encompasses the lives of several generations of people.+The area before the tombstone is bare, and compared to its surroundings, it looks depressingly bleak.+Tae quiets down as her empty gaze falls on the tombstone, but you have no idea what she might be thinking.
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:Tae...
+()||<SE1>ClothingUp</SE1>:Your heart aches and you quickly pull out all the food you have on you and lay it before the tombstone. +After that, you put your hands together piously and pray for Tae.+By the time you finish, Tae is no longer by your side.
+()<Speaker>Commander</Speaker>||:Tae? Where did you run off to now?
+()||<SE1>AVG_Bite</SE1>:Omnom... omnom...+The sound of chewing is familiar.+Tae is currently squatting in front of someone else's tombstone and eating the offerings there.
+()<Speaker>Commander</Speaker>||<BGM>GF_20HW_Battle1_BPM102_Loop</BGM>:Tae! You... You can't eat those!
+NPC-Tae(6)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale><Shake>||:Ahhhurrrrhgh—! (Angrily defending her food.)
+()||:Upon seeing that you're about to take the food away, she promptly gulps everything down.
+()<Speaker>Commander</Speaker>||:...
+NPC-Tae(1)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Omnom... omnom... (She's clearly enjoying her meal.)
+()||:All you can do is watch helplessly as Tae cleans out everyone else's offerings before finally coming back to her own tombstone and eating the food you just placed there.+You can't help but wonder; if this is a sad, solemn place of mourning for normal people, then what kind of place is this for Tae?+Is it a big all-you-can-eat buffet? Or a videogame homebase that spawns food every now and then?
+NPC-Tae(1)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ahh... Uwaaahhh... (She looks at you in satisfaction.)
+NPC-Tae(1)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:...+Are you full? Let's head back.
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<黑点1>:Ahhhuuurgh... Ah... (You can tell she's saying yes.)
+()||<黑点2><BIN>597</BIN><Night>:Tae skillfully leads you back to the mansion, just like how she led you here.+As you look at her scrawny back, you continue your previous musing.+In that case, why did she pick this time to bring you to her hunting preserve or homebase? Was she trying to tell you about herself, or was she just trying to trick you out of food?
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Groooar... Ughaaahhahhh... (She seems to be humming happily.)
+NPC-Tae(3)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:...
+()||:You don't know what the answer is, given what little you know about her right now.+But perhaps, some day, you'll know everything about her.
+()||<SE1>AVG_20Winter_Book</SE1>:You take out the notebook that you always carry and begin recording what you've observed of her gestures and verbal articulations today.
+()<Speaker>Commander</Speaker>||:Is it possible that... I can go beyond merely recording what she does and actually teach her how to express herself?
+NPC-Tae(6)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Uh... urghugh? (She's looking dubiously at you.)
+NPC-Tae(6)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Tae, from now on, when you want to say yes, give me a thumbs-up.+Similarly, if you want to say no, give me a thumbs-down.
+()||:You demonstrate these two simple gestures to Tae, and she tilts her head before staring dumbly at your hands.
+()<Speaker>Commander</Speaker>||:You get it, right?
+NPC-Tae(7)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:...
+NPC-Tae(7)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:Let's try it out.+Am I a decent producer?
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Er... Ahhhuuuurgh... (She howls nonsensically.)
+NPC-Tae(3)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||:No, you should be giving me a thumbs-up.
+()||:Once again, you show her the thumbs-up gesture. Tae looks at your hands almost thoughtfully.
+()<Speaker>Commander</Speaker>||:You get it now, don't you? Let's try it again.
+NPC-Tae(5)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||<SE1>AVG_Bite</SE1>:Awooooooo...
+()||:She proceeds to close her jaws around your hand.
+()<Speaker>Commander</Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=17</controll_shake>:Ahhhhhhhhh—
+NPC-Tae(3)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ahhh... Uwaahh... (She seems to be imitating your pitiful wails.)
+NPC-Tae(3)<Speaker>Commander</Speaker><Position>0,-290</Position><Scale>1.3</Scale><同时置暗>||<黑点1>:...+Never mind. We've got a long way to go, so let's take it easy.
+()||<黑点2><BIN>593</BIN><Night>:You grab your aching hand and follow Tae down the road home.+The night slowly brightens up and the eastern horizon is already a fish-belly white.
+()<Speaker>Commander</Speaker>||:That was a tiring night.
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-290</Position><Scale>1.3</Scale>||:Ugh... Ah... (She seems to agree.)
+()||<黑屏1>:And that is the end of your first bizarre adventure with Tae. You don't know if there'll be another. +But you hope that if there is, you'll be able to understand a bit of what Tae is trying to tell you.

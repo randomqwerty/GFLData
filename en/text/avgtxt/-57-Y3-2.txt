@@ -1,59 +1,59 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>578</BIN>:忙碌了一天之后，你回到了洋房。+虽然只是小住了几天，但这里已经是这个陌生世界中最接近于“家”的存在。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:你卸下一身的疲倦，打算去泡个温暖的澡，舒缓一下身体……+你走到洗漱间，正准备拉开门。
-()||<SE1>Stop_AVG_loop</SE1><SE2>AVG_20Winter_Door_Open</SE2>:突然，门自动开了——
-NPC-Sakura(8)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale><GradientShow>1</GradientShow>||<BGM>m_wv_title</BGM>:啊啊啊指挥官官官官官——
-NPC-Sakura(8)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale><GradientHide>1</GradientHide>||:不不不不你什么也没看到到——
-()<Speaker>指挥官</Speaker>||:？
-()||<SE1>AVG_20Winter_Door_Close</SE1>:“砰”的一声，门又被合上。一道黑影迅速消失在眼前……+等等，那是源樱吧？+见到自己怎么会是这种反应？难道法兰秀秀出了什么意外？还是自己不知道的那种……+不行，一定得跟过去看看！
+()||<黑屏2><BIN>578</BIN>:You return to the mansion after a busy day.+Although you've only been living here for a few days, this place is now the closest thing you have to a "home" in this strange world.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:After unburdening yourself of your fatigue, you decide to go take a nice long bath to relax.+You head over to the shower room and are about to open the door.
+()||<SE1>Stop_AVG_loop</SE1><SE2>AVG_20Winter_Door_Open</SE2>:Suddenly, the door opens by itself—
+NPC-Sakura(8)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale><GradientShow>1</GradientShow>||<BGM>m_wv_title</BGM>:Ahhhhhhh! Commander—
+NPC-Sakura(8)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale><GradientHide>1</GradientHide>||:No-no-no-no, it's nothing worth looking at—
+()<Speaker>Commander</Speaker>||:?
+()||<SE1>AVG_20Winter_Door_Close</SE1>:The door closes again with a "bang" and a dark silhouette runs away before your eyes...+Wait, was that Sakura?+Why did she react that way upon seeing you? Did something happen to Franchouchou? Or is it an accident that you don't know about...+No, you HAVE to go and see what's going on!
 ()||<黑屏1>:
-()<Speaker>指挥官</Speaker>||<黑屏2><BIN>9</BIN>:喂……源樱！+源樱！源樱——
-()||:大声的呼喊似乎一点效果都没有。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:行走的地方全是黑漆漆的一片，周围安静得只能听见自己的呼吸声和脚步声。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:格琳虽然有时候在金钱上计较了一点，但也不至于连电费都如此抠门……+诶？
-()||:脚上的感觉怪怪的，好像踢到了什么坚硬的东西。再踢一下试试？
-()<Speaker>？？</Speaker>||<SE1>AVG_XXS_kick</SE1>:唔——
-()<Speaker>指挥官</Speaker>||:……
-()||<SE1>ClothingUp</SE1>:你摸黑蹲了下来，摸到地上那个毛茸茸的，坚硬的圆形物品。+隐约猜到是什么，你缓缓地开口——
-()<Speaker>指挥官</Speaker>||:源樱啊……虽然我已经知道你们是僵尸，但毕竟我还是个人类……+能不能不要动不动一颗脑袋断在地上，开灯或者不开灯，我都挺害怕的……
-()<Speaker>源樱</Speaker>||:我不是源樱……
-()<Speaker>指挥官</Speaker>||:……那我去开灯看看。
-()<Speaker>源樱</Speaker>||:停停停！等我，等我身体找过来！+总之，总之你别管我！
-()<Speaker>指挥官</Speaker>||:不行，你今天不把话说清楚，我就抱着你的头一起走。
-()<Speaker>源樱</Speaker>||:那……我们，我们保持一定距离讲话！
-()<Speaker>指挥官</Speaker>||:为什么？
-()<Speaker>源樱</Speaker>||:……+我……我是为了你好！
-()<Speaker>指挥官</Speaker>||:嗯？
-()||<SE1>AVG_Creep</SE1>:源樱的身体缓缓地摸索过来，从你的手里接过了头。
-()||<SE1>Stop_AVG_loop</SE1><SE2>AVG_20Winter_Open_Light</SE2><黑屏1>:顺便打开了灯。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Empty</BGM><黑屏2><BIN>578</BIN>:咳咳咳……你，你不觉得最近这一两天总是很倒霉吗？
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……真要说的话，从我见到你们那一天开始，就挺倒霉的。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Dusk</BGM>:所以，不能再倒霉下去了！
-()||:源樱苦笑了一下。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:你……你很想回到原来的世界吧。
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:当然。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:所以，这是不能失败的演出啊。
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:嗯，我知道，所以我会努力。
-NPC-Sakura(11)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:不！你不知道！+如果，如果总是跟我待在一块儿，可能结果会让你难过。
-NPC-Sakura(11)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:为什么这么说？
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:我……我总是很倒霉。+越努力，反而结果越糟糕。+不知道这种情况，会不会影响你。+我……我不想破坏这件对你来说非常重要的事情。+所以，请，请离我远一点。
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……那你跟其他人呢？
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……因为我总是出状况，大家已经见怪不怪了。+而且她们……都死过了啊，可能也许大概习惯了。+但你不一样，你不要被我传染霉运就好。
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……可我从来不是一个赌运气的人啊。
-NPC-Sakura(8)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:诶？
-NPC-Sakura(8)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:因为我跟樱一样，也是很倒霉的人呢。+或者这么说，出生在乱世的人类，都很倒霉。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:所以我从不相信运气这种东西。+如果我的运气很好，我就不会经历这样的人生。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官……我……
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:但我从不轻言放弃。+因为我知道，如果运气为零的话，只能去依靠百分之百的努力。+就像樱一样，不管别人对我什么态度，不管别人对演出什么态度。+你永远在训练……永远是最努力的那一个。
-NPC-Sakura(8)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:啊……被你看到了吗？
-NPC-Sakura(8)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:嗯，从一开始，我就一直注意着你。
-NPC-Sakura(10)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:我……我也一直注意着你，希望你可以回到原来的世界。
-NPC-Sakura(10)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:我也希望法兰秀秀能获得成功的演出。+但你不准再说什么远离我的话，毕竟我们都很倒霉，也许，我的倒霉还会传染给你呢。
-()||:“噗呲”，源樱笑出了声。
-NPC-Sakura(9)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:那，就让我们一起倒霉吧。
-NPC-Sakura(9)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:嗯。
-NPC-Sakura(9)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:也让我们一起努力！
-NPC-Sakura(9)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:当然！
-()||<黑点1>:源樱的笑容似乎感染到了你，让你的嘴角也不由自主地上扬了起来。
+()<Speaker>Commander</Speaker>||<黑屏2><BIN>9</BIN>:Hey... Sakura!+Sakura! Sakura—
+()||:Shouting doesn't seem to help.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:The corridor is pitch black and the only sounds come from your own breathing and your footsteps.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Although Kalin's always been a bit of a penny pincher, surely even she wouldn't be so miserly as to not pay the electric bill...+Eh?
+()||:There's a weird sensation on your leg, like you've kicked something hard. Perhaps you could try kicking it again?
+()<Speaker>？？</Speaker>||<SE1>AVG_XXS_kick</SE1>:Ugh—
+()<Speaker>Commander</Speaker>||:...
+()||<SE1>ClothingUp</SE1>:You crouch down in the darkness and feel something fluffy yet hard on the ground.+You have a rough idea of what it is and slowly begin to speak—
+()<Speaker>Commander</Speaker>||:Sakura... I know you're a zombie, but I'm still a human being...+Could you not keep dropping your head onto the ground? It's scary whether or not the lights are on...
+()<Speaker>Sakura Minamoto</Speaker>||:I'm not Sakura...
+()<Speaker>Commander</Speaker>||:...Then I'd better go turn on the lights to see who you are.
+()<Speaker>Sakura Minamoto</Speaker>||:Stop-stop-stop! Wait, wait for me to find my body!+In any case, just leave me alone for now!
+()<Speaker>Commander</Speaker>||:Nope. I'm going to keep holding your head like this until you explain things clearly.
+()<Speaker>Sakura Minamoto</Speaker>||:Then... Then let's keep a distance as we talk!
+()<Speaker>Commander</Speaker>||:Why is that?
+()<Speaker>Sakura Minamoto</Speaker>||:...+It... It's for your own good!
+()<Speaker>Commander</Speaker>||:Hm?
+()||<SE1>AVG_Creep</SE1>:Sakura's body feels its way toward me and takes the head from your hands.
+()||<SE1>Stop_AVG_loop</SE1><SE2>AVG_20Winter_Open_Light</SE2><黑屏1>:You turn on the lights while you're at it.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Empty</BGM><黑屏2><BIN>578</BIN>:(Coughs heavily) Don't... Don't you think you've been really unlucky these last couple of days?
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:...Frankly speaking, I'd say I've been pretty unlucky since the moment I saw you guys.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:...
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Dusk</BGM>:Which is why I can't keep ruining your luck!
+()||:Sakura smiles bitterly.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:You... You must want to go back to your world very much, right?
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Of course.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:So we can't mess up this show.
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Yeah, I know. I'll do my best.
+NPC-Sakura(11)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:No! You don't understand!+If-if you keeep hanging around with me, you might regret the outcome.
+NPC-Sakura(11)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Why do you say that?
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:I... I've always been really unlucky. +The harder I try, the worse the result.+I don't know if that's going to affect you.+I... I know this is very important to you, so I don't want to spoil it. +So please., please stay away from me.
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:...What about you and the others?
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:...Well, everyone's used to all the problems I cause.+And they... They've all died before, so I guess they're familiar with that sort of thing.+But you're different. I don't want you to get infected by my bad luck.
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:...I've never been the betting sort, though.
+NPC-Sakura(8)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Hm?
+NPC-Sakura(8)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Because I'm like you too, Sakura. I'm a very unlucky person. +Or rather, anyone who's born during my time must be pretty unlucky.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:...
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:So I don't believe in luck.+If I really was a lucky person, I wouldn't have a life like this.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Commander... I...
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Still, I'm not the sort who gives up easily.+That's because I know that if luck is zero percent of anything you do, then you have no choice but to put 100% of yourself into your endeavors.+It's just like you, Sakura. No matter how other people treat you, or how seriously others treat the performance...+You're always practicing. You'll always be the one who practices the hardest.
+NPC-Sakura(8)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Ah... So you noticed?
+NPC-Sakura(8)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Yup. I've been paying attention to you from the beginning.
+NPC-Sakura(10)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:And I... I've also been paying attention to you. I've been hoping that you could go back to your original world.
+NPC-Sakura(10)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:I'd like Franchouchou to put on a successful show too.+But I forbid you to say you're keeping your distance from me or whatever. After all, we're both really unlucky and I might end up spreading my unluckiness to you.
+()||:Sakura laughs with a "pffft".
+NPC-Sakura(9)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Then, let's be unlucky together.
+NPC-Sakura(9)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Yup. 
+NPC-Sakura(9)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:And let's do our best together too!
+NPC-Sakura(9)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Of course!
+()||<黑点1>:Sakura's happiness seems to have spread to you, because your lips can't help but curl into a smile.

@@ -1,42 +1,42 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>578</BIN>:夜色降临，你和源樱一起回到了洋房。
-()||<BGM>Campaion-34</BGM><SE1>AVG_footsteps_woodfloor</SE1>:她露出神秘的笑容，前所未有地表现出强硬的态度，拉着你来到了浴缸前。
-()||<SE1>Stop_AVG_loop</SE1>:你望着浴缸……上面垂吊着七八条黑乎乎的海带样物品。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:怎么样怎么样？很壮观吧？
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……+你这是，在养海带吗？
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:海……海带？
-()||:源樱愣愣地看了一眼，脸色变得通红。
-NPC-Sakura(3)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官！这是胶片！
-()||<SE1>AVG_footsteps_woodfloor</SE1>:你走近了一点，伸出手摸住那些黑色长条状物品，上面隐隐约约有一些图案。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:啊……这是你拍的？
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:嗯！我想留下大家的回忆。+所以就偷偷借来了相机。
-()||<SE1>ClothingUp</SE1>:你接过源樱递给你的一条胶片，忍不住把它长长地展开，透过浴室的白炽灯光，似乎能看见上面有很多人。
-()<Speaker>指挥官</Speaker>||:……等等，这不是我在洋房第一次醒来见到你们的惊恐样子吗？
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:嗯嗯，很可爱吧？
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:可……爱？好吧居然有人这么形容我……+这里是练歌房，你和莉莉一起和声的时候。+哈哈哈，这是罗梅罗抢多慧鱿鱼丝的画面，咦，居然还有灰树……
-()||:你看着一张又一张的回忆，心里某个地方似乎鼓了起来。
-()<Speaker>指挥官</Speaker>||:樱，你这些是送给我的吗？+我……我很激动，也很喜欢，真的！
-NPC-Sakura(5)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:哈？
-NPC-Sakura(4)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:……不是。
-NPC-Sakura(4)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<BGM>BGM_Empty</BGM>:啊？+但是你拍了很多我的照片啊！+这张是我拉着你们训练的时候，这张是我们一起吃饭的时候……+居然不是送给我的吗？
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Dusk</BGM>:这是想留给我们自己……
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:你相信我们的演出会成功吗？
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:当然！我对你们很有信心。
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:我也这么想，每一次训练我都比过去更加确定了一点。+——我们的演出一定会成功。+就像，你也一定会回到自己的世界一样。
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:……是，是啊。
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:所以我觉得我们应该一起留下一些东西。+这样以后就算你跟我们暂时分别了，我们也有东西可以证明。
-NPC-Sakura(1)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:证明什么？
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:证明曾有一个人，跟我们一起打造这场盛大的演出。+证明法兰秀秀的背后，有位来自异世界的指挥官。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:万一你再一次过来，却找不到我们了。+那也可以指着这套照片对别人说：“你看，我就是法兰秀秀的经纪人哦。”
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:<color=#A9A9A9>原来你对我们每一天的相处都挂在心上，而我只把这当成了一场旅行，我……</color>
-()||:你试图做点什么来解决内心突然升起的愧疚感。<c>询问源樱喜欢的食物<c>往浴缸放水
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:你……你喜欢吃什么？炸鸡还是鱿鱼丝？
-NPC-Sakura(4)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:……大晚上的不管吃什么都容易积食吧。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:啊，不过僵尸的话就没问题吧。
-()||<SE1>AVG_Spanner</SE1><分支>2</分支>:你打开了浴缸的水龙头。+但一滴水都没有流出来。+于是你更加尴尬了。
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:啊我为了晾晒胶卷，将水龙头的总开关给关上了。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:哦差点忘了，其实今天叫你来是想要你一起来帮忙挑选一下照片。+看看哪些是你觉得比较好的照片，回头我想把它印出来给大家一起看。
-NPC-Sakura(0)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:不能全部印出来吗？
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:啊可是……有十几卷诶……+我们现在难道不是每一分钱都要省着花吗？
-NPC-Sakura(2)<Speaker>指挥官</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<黑点1>:印，都印出来！就算砸锅卖铁我也要把它们全部印出来！
+()||<黑屏2><BIN>578</BIN>:Night falls, and you and Sakura return to the mansion.
+()||<BGM>Campaion-34</BGM><SE1>AVG_footsteps_woodfloor</SE1>:She has an enigmatic smile on her face and an insistent side to her you've never seen before as she drags you up to the bathtub.
+()||<SE1>Stop_AVG_loop</SE1>:You look at the bathtub, which is adorned with a handful of ornaments which look like strands of kelp.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:How is it, how is it? Does it look cool?
+NPC-Sakura(0)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:...+Are you raising kelp strands?
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Kelp... strands?
+()||:Sakura stares blankly at you for a moment, and then her face turns red.
+NPC-Sakura(3)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Commander! These are film strips!
+()||<SE1>AVG_footsteps_woodfloor</SE1>:You walk closer and reach out to touch the black, strip-like objects. There are pictures on them.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Ah... Did you make these?
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Yup! I wanted to make memories of everyone.+So I secretly borrowed a a camera and took these pictures.
+()||<SE1>ClothingUp</SE1>:You accept a strip of film that Sakura hands you and you can't help but unroll it. You can see many people on the strip through the white fluorescent light in the bathroom.
+()<Speaker>Commander</Speaker>||:...Wait a minute. Isn't this my frightened face when I first woke up at the mansion?
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Yup, yup. Isn't it cute?
+NPC-Sakura(0)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Cute...? Okay then, I can't believe someone would actually use that word to describe me...+This is the karaoke box, where you and Lily were singing in harmony.+Hahaha, Romero's stealing Tae's squid in this one. Huh, there are even pictures of Gray Tree...
+()||:You relive your memories as you look at each picture, and your heart seems to swell up as you do.
+()<Speaker>Commander</Speaker>||:Sakura, are these for me?+I... I'm touched, and I like them very much! Really!
+NPC-Sakura(5)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Huh?
+NPC-Sakura(4)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:...No.
+NPC-Sakura(4)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<BGM>BGM_Empty</BGM>:Eh?+But you took so many pictures of me!+This one is from when I dragged you off to practice, this one is from when we were eating together...+So they're not for me?
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<BGM>BGM_Saga_AVG_Dusk</BGM>:I wanted to save them for myself...
+NPC-Sakura(1)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:...
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Do you believe our show will be a success?
+NPC-Sakura(1)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Of course! I have faith in all of you.
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Me too. I've been more and more certain of that with each practice session.+—Our show is going to be a success.+Just like how you'll be able to return to your own world.
+NPC-Sakura(1)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:...Yeah, yeah, that's right.
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:That's why I thought we should leave some memories behind.+That way, even if we end up parting for a while, there'll be some proof.
+NPC-Sakura(1)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:What kind of proof?
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Proof that once, there was a person who worked with us to craft such a grand performance.+Proof that there was once a commander from another world behind Franchouchou.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:And... If you should come again but can't find us...+You can point to these photos and say, "Look, I was once Franchouchou's manager."
+NPC-Sakura(0)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:<color=#A9A9A9>So you took each day together seriously, while I only regarded it as a journey. I...</color>
+()||:You try to do something to soothe the guilt that suddenly fills your heart. <c>Ask about Sakura's favorite food. <c>Pour water into the bathtub.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:So... Uh, what do you like to eat? Fried chicken or dried shredded squid?
+NPC-Sakura(4)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:...Well, it doesn't matter what I eat at night, it still packs on the pounds.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:...Ah, but it's okay since I'm a zombie.
+()||<SE1>AVG_Spanner</SE1><分支>2</分支>:You try to turn on the tap.+However, no water flows out.+That only makes you feel even more awakward.
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:Ah, I shut off the water to this tap because I was exposing this film.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Ah, I almost forgot. Actually, I wanted you to help pick out some pictures.+Maybe choose the ones which look good and I could make prints of them for everyone.
+NPC-Sakura(0)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||:Can't you print them all?
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Ah, but... There are almost 20 of them...+Shouldn't we be trying to save money now?
+NPC-Sakura(2)<Speaker>Commander</Speaker><Position>0,-270</Position><Scale>1.27</Scale><同时置暗>||<黑点1>:You should print them, print them all! Even if it means having to pawn everything we have for it!

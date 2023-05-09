@@ -1,170 +1,170 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>613</BIN><BGM>BGM_Saga_AVG_Day</BGM>:……洋房大厅。+昨晚下了一整夜的暴雨，刚刚雨势终于转小了。+你在心里断定，这一定是个好兆头。
-()<Speaker>指挥官</Speaker>||:大家都准备好了吗！要出发去演出场地了！
-NPC-Lily(0)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<SE1>AVG_Rromantic</SE1>:莉莉准备好了！
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<SE1>ClothingUp</SE1>:<size=50>法兰秀秀，出发！！！</size>
-NPC-Tae(4)<Speaker>山田多惠</Speaker><Position>0,-340</Position><Scale>1.4</Scale><Shake>0.1</Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:哇……啊……！（一边旋转一边很兴奋地吼叫）
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:二阶堂咲已经迫不及待地扛起行李箱做好冲刺的姿势，只等你一声令下。
-NPC-Sakura(0)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:指挥官，我们都准备好了。
-()<Speaker>指挥官</Speaker>||:好！法兰秀秀，全体出发！
+()<Speaker></Speaker>||<黑屏2><BIN>613</BIN><BGM>BGM_Saga_AVG_Day</BGM>:...In the living room of the mansion. +It has been storming through the night, and the rain is finally letting up. +You take that as a good sign.
+()<Speaker>Commander</Speaker>||:Is everyone ready? We're setting off for the venue!
+NPC-Lily(0)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<SE1>AVG_Rromantic</SE1>:Lily is ready!
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<SE1>ClothingUp</SE1>:<size=50>Franchouchou, moving out!!!</size>
+NPC-Tae(4)<Speaker>Tae Yamada</Speaker><Position>0,-340</Position><Scale>1.4</Scale><Shake>0.1</Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:Wargh... Argh...! (She is growling and spinning around in excitement.)
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Saki hoists up her luggage and is ready to sprint off at your signal.
+NPC-Sakura(0)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Commander, we're all set.
+()<Speaker>Commander</Speaker>||:Splendid! Franchouchou, all hands on deck!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_20Winter_Door_Open</SE1>:你走到大门边，颇具仪式感地拉开了门，迎接你们的是——
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_20Winter_Door_Open</SE1>:You walk up to the door and pull it open ceremoniously, only to see...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><BIN>569</BIN><黑点2><SE1>AVG_AMB_Rain</SE1>:滚滚河流向东涌去。
-()<Speaker>指挥官</Speaker>||<BGM>BGM_Truth</BGM>:……+诶，洋房外面原来是河来着吗？
-NPC-Sakura(5)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:啊！怎么会这样？！+我们被……冲到河里了吗？！
-NPC-Yugiri(2)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:我记得我们原来和河之间有一段距离来着……
-NPC-Lily(8)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:我们会不会被传送到了其他地方？！
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake><BIN>569</BIN><黑点2><SE1>AVG_AMB_Rain</SE1>:A river flowing to the east.
+()<Speaker>Commander</Speaker>||<BGM>BGM_Truth</BGM>:... +Huh? Has there always been a river outside the mansion?
+NPC-Sakura(5)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Huh?! What is happening?! +Did the mansion... get washed into the river?!
+NPC-Yugiri(2)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:There should be quite some distance between the mansion and the river...
+NPC-Lily(8)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||:Did we get teleported?!
 ()||<黑点1>:
-NPC-MizunoAi(1)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<BIN>613</BIN><黑点2><SE1>Stop_AVG_loop</SE1>:大家，冷静一下！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:水野爱小心地把住门探头向外看去。
-NPC-MizunoAi(3)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:我们没有被冲走，只是附近的道路全部被河水淹没了。
-NPC-Junko(6)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:下了一晚上的雨而已……怎么会这样？
-()<Speaker>指挥官</Speaker>||:看看新闻吧。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:你心神不定地打开了电视机，屏幕上只有一片闪烁的雪花。
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:啪嗒——什么东西从屋顶掉落到了河中。+只是仓促一瞥，你已经基本确定那就是电视的天线。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Sakura(7)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale><Shake>0.1</Shake>||:咋办啊！咋办啊！那我们的演唱会咋办啊！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_tele_connect</SE1>:你如梦初醒，慌乱地扑到了电话机边，拨打了演出举办方的电话。+而电话机同样没有讯号。
-NPC-MizunoAi(3)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:……+指挥官，看外面的情况，恐怕整个佐贺都遭殃了。
-NPC-Junko(3)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:我们的演唱会……
-NPC-Yugiri(2)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:大概也要随着这场大雨付诸东流了。
-NPC-Lily(4)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale><Shake>0.1</Shake>||:呜哇……莉莉不要！
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:莉莉别哭……
-()<Speaker></Speaker>||:方才还热闹欢腾的气氛瞬间落入冰点，你手足无措地站在门口，看着什么也感受不到的河水奔向远方。
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<震屏3><SE1>AVG_Punch_Hit</SE1>:<size=50>我不同意！我们准备了那么久，付出了那么多努力！</size>
-NPC-Sakura(7)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:咲，我们已经改变不了什么了……
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:我命由我不由天！就算是游，我也要游到演出场地看看！
-NPC-Yugiri(1)<Speaker>夕雾</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:不要做傻事啊，这样湍急的河水……
-NPC-MizunoAi(1)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:笨蛋，别乱来！
-NPC-Junko(6)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:指挥官，快劝劝她吧！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:二阶堂咲固执地推开了前来阻拦的队友，你看着她坚定的眼神，心情也开始动摇起来。<c>A 赞同<c>B 制止
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:咲，别冲动行事，这么猛的水流太危险了。
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>2</分支><SE1>Rope</SE1>:指挥官，怎么连你也这么怂啊！
-NPC-MizunoAi(1)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>2</分支>:现在就应该冷静下来才行，别去做冒险的事。
-NPC-Junko(3)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||<分支>2</分支>:是啊，我们再一起想想办法吧。
-NPC-Sakura(1)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:咲，别去了……
-()<Speaker></Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:大家重新围拢在二阶堂咲的身边，但她依然坚定自己的想法。
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||BGM>BGM_Empty</BGM><分支>2</分支>:就算只有我一个人，我也会去的！
-NPC-Saki(0)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>2</分支>:你们就在这里等着我的好消息吧！
+NPC-MizunoAi(1)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<BIN>613</BIN><黑点2><SE1>Stop_AVG_loop</SE1>:Please remain calm!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ai carefully pokes her head out and looks around.
+NPC-MizunoAi(3)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:We haven't been washed away, but the roads are all flooded in the neighborhood.
+NPC-Junko(6)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:It has only been raining for a night... How did this happen?
+()<Speaker>Commander</Speaker>||:Let's watch the news.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Still shellshocked, you turn on the television, but all you see is static on the screen.
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:Plop! Something just fell from the roof and into the river. +You only catch a fleeting glance, but you're pretty sure it was the TV antenna.
+()<Speaker>Commander</Speaker>||:...
+NPC-Sakura(7)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale><Shake>0.1</Shake>||:What do we do? What do we do?! What about our concert?!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_tele_connect</SE1>:That's when the realization hits you. You rush over to the telephone and dial the organizer's number. +The telephone is also dead.
+NPC-MizunoAi(3)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:... +Commander, judging by the situation outside, I'm afraid the entire Saga is affected.
+NPC-Junko(3)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:Our concert...
+NPC-Yugiri(2)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:It's probably going down the drain along with all this rain.
+NPC-Lily(4)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale><Shake>0.1</Shake>||:Boohoo... Lily doesn't want that!
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Lily, don't cry...
+()<Speaker></Speaker>||:The mood, which was still so cheerful and lively just a minute ago, is now utterly grim. You hover uncertainly by the door, watching the unfeeling river flow into the distance.
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<震屏3><SE1>AVG_Punch_Hit</SE1>:<size=50>I refuse to accept that! We've been preparing for the concert for so long! We've put in so much effort!</size>
+NPC-Sakura(7)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||:Saki, there's nothing we can do about this...
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||:I am the master of my own fate! I'm going to the venue even if I have to swim!
+NPC-Yugiri(1)<Speaker>Yugiri</Speaker><Position>120,-150</Position><Scale>1.85</Scale>||:Don't be foolish. The currents are too swift...
+NPC-MizunoAi(1)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||:Idiot, don't be rash!
+NPC-Junko(6)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||:Commander, talk some sense into her!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Saki stubbornly shoves past the teammates trying to stop her. Seeing the determination in her eyes, you start to waver.<c>A. Agree with her.<c>B. Stop her.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:Saki, don't do anything impulsive. It is too dangerous with this deluge.
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>2</分支><SE1>Rope</SE1>:Commander, how can you be such a wimp?!
+NPC-MizunoAi(1)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>2</分支>:Right now, we must keep calm. Don't go taking any unnecessary risks.
+NPC-Junko(3)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||<分支>2</分支>:That's right, we'll think of something together.
+NPC-Sakura(1)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:Saki, don't go...
+()<Speaker></Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:Everyone gathers around Saki, but she is adamant.
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||BGM>BGM_Empty</BGM><分支>2</分支>:I'm going even if I must go alone!
+NPC-Saki(0)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>2</分支>:Just wait here for my good news!
 ()||<黑点1><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><黑点2><BIN>569</BIN><震屏3><SE1>AVG_fall_into_water</SE1><BGM>10394</BGM>:扑通——二阶堂咲胡乱地穿上救生衣就跳入了河水中。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:咲——
-()<Speaker></Speaker>||<分支>2</分支>:你只能眼睁睁看着她娇小的身影在凶猛的波涛间沉浮。
-NPC-Sakura(5)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale><Shake>0.1</Shake>||<分支>2</分支>:咋办啊咋办啊咋办啊……
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:……
-()<Speaker></Speaker>||<分支>2</分支>:你暗自在心里捏了把汗。+二阶堂咲一路矫健地破开风浪，平稳地朝着岸边推进。+突然，她停下了游泳，然后转身面向了你们——
-()<Speaker>二阶堂咲</Speaker>||<分支>2</分支>:看见没！我没问题的！
-NPC-MizunoAi(1)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>2</分支>:笨蛋，好好游啊！
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:你松了口气，正准备回应她——
-()<Speaker></Speaker>||<分支>2</分支><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=6</controll_shake><SE1>AVG_splash_water</SE1>:哗啦——
-()<Speaker></Speaker>||<分支>2</分支><震屏3><SE1>AVG_Punch_Hit</SE1><BGM>BGM_Empty</BGM>:一根粗壮的树干突然被暗流冲刷到了二阶堂咲的面前，来不及躲闪，二阶堂咲被树干结结实实地撞击，陷入了昏迷。
-()<Speaker>指挥官</Speaker>||<分支>2</分支><BGM>BGM_Danger</BGM>:<size=50>咲！</size>
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:快醒醒啊，咲！
-()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_fall_into_water</SE1>:没有犹豫的时间，你立刻穿上了救生衣跃入河中，奋力朝着二阶堂咲的方向划去。
-()<Speaker></Speaker>||<分支>2</分支>:浑浊的河水，潜藏在暗流中的障碍物，无不干扰着你的前进。
-()<Speaker></Speaker>||<分支>2</分支><震屏3>:但你顾不上这些，也顾不上你的体力条，你拼命划到二阶堂咲的身边。
+()<Speaker></Speaker>||<分支>2</分支><黑点2><BIN>569</BIN><震屏3><SE1>AVG_fall_into_water</SE1><BGM>10394</BGM>:Plop! Saki puts on a life jacket haphazardly and jumps straight into the river.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:Saki!
+()<Speaker></Speaker>||<分支>2</分支>:You can only watch as her petite figure bobbles amid the ferocious waves.
+NPC-Sakura(5)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale><Shake>0.1</Shake>||<分支>2</分支>:Ohmygod, ohmygod, what do we do, what do we do...
+()<Speaker>Commander</Speaker>||<分支>2</分支>:...
+()<Speaker></Speaker>||<分支>2</分支>:You are secretly quaking in your boots. +Saki keeps slicing her way through the choppy waves and advancing steadily towards the other side of the river. +Suddenly, she stops swimming and turns around to look at you—
+()<Speaker>Saki Nikaido</Speaker>||<分支>2</分支>:See? I'll be fine!
+NPC-MizunoAi(1)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>2</分支>:Idiot, keep swimming!
+()<Speaker>Commander</Speaker>||<分支>2</分支>:You're relieved to see that she is okay, but just as you are about to respond—
+()<Speaker></Speaker>||<分支>2</分支><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=6</controll_shake><SE1>AVG_splash_water</SE1>:Splash!
+()<Speaker></Speaker>||<分支>2</分支><震屏3><SE1>AVG_Punch_Hit</SE1><BGM>BGM_Empty</BGM>:A thick branch is suddenly swept up by the undercurrent and appears right in front of Saki. Unable to dodge it in time, she takes a solid hit and loses consciousness.
+()<Speaker>Commander</Speaker>||<分支>2</分支><BGM>BGM_Danger</BGM>:<size=50>SAKI!</size>
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>2</分支>:Wake up, Saki!
+()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_fall_into_water</SE1>:Without hesitation, you immediately put on a life jacket and dive into the river, paddling hard in Saki's direction.
+()<Speaker></Speaker>||<分支>2</分支>:The murky water and obstacles lurking in the undercurrents all hinder your attempt to reach Saki.
+()<Speaker></Speaker>||<分支>2</分支><震屏3>:But you have no time to worry about that or your own stamina bar as you paddle as hard as you can to get to Saki.
 ()||<黑屏1><分支>2</分支>:
-()<Speaker>指挥官</Speaker>||<分支>2</分支><黑屏2><BIN>9</BIN>:咲……
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><分支>2</分支><BGM>BGM_Empty</BGM>:你的眼前被黑色的波涛冲刷着。
-()<Speaker>指挥官</Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM>:咲，我跟你一起去。
-NPC-Saki(4)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支><BGM>10394</BGM>:指挥官！我就知道你一定会站在我的身边！
-NPC-Sakura(2)<Speaker>源樱</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:诶，指挥官？！
-NPC-MizunoAi(1)<Speaker>水野爱</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>1</分支>:怎么连你也变笨蛋了！
-()<Speaker></Speaker>||<分支>1</分支>:洋房大厅瞬间炸开了锅，但你依然坚持选择。
-NPC-Saki(1)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支>:你们就在这等着我们的好消息吧！
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:今晚的演唱会一定要举行！
-NPC-Junko(6)<Speaker>绀野纯子</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||<分支>1</分支>:指挥官，再想想吧……
-NPC-Lily(5)<Speaker>星川莉莉</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:这也太冒险了！
-()<Speaker></Speaker>||<分支>1</分支>:你和二阶堂咲对视了一眼，彼此都从眼神中找到了勇气。
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Creep</SE1>:套上洋房中翻找出来的救生衣后，你们站在了门前，直面汹涌的河流。
-NPC-Saki(3)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支>:<size=50>出发！</size>
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:<size=50>冲啊！</size>
+()<Speaker>Commander</Speaker>||<分支>2</分支><黑屏2><BIN>9</BIN>:Saki...
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><分支>2</分支><BGM>BGM_Empty</BGM>:You take in the black, raging waves before you.
+()<Speaker>Commander</Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM>:Saki, I'm coming with you.
+NPC-Saki(4)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支><BGM>10394</BGM>:Commander! I knew you'd stand with me!
+NPC-Sakura(2)<Speaker>Sakura Minamoto</Speaker><Position>0,-270</Position><Scale>1.27</Scale>||<分支>1</分支>:Huh?! Commander?!
+NPC-MizunoAi(1)<Speaker>Ai Mizuno</Speaker><Position>60,-250</Position><Scale>1.27</Scale>||<分支>1</分支>:Why are you also being such an idiot?!
+()<Speaker></Speaker>||<分支>1</分支>:The girls start yammering in surprise, but you stand by your decision.
+NPC-Saki(1)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支>:Just wait here for us to return with good news!
+()<Speaker>Commander</Speaker>||<分支>1</分支>:The concert must go ahead tonight!
+NPC-Junko(6)<Speaker>Junko Konno</Speaker><Position>60,-230</Position><Scale>1.27</Scale>||<分支>1</分支>:Commander, maybe you should reconsider...
+NPC-Lily(5)<Speaker>Lily Hoshikawa</Speaker><Position>70,-170</Position><Scale>1.21</Scale>||<分支>1</分支>:This is too risky!
+()<Speaker></Speaker>||<分支>1</分支>:You and Saki look at each other and find courage in each other's eyes.
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Creep</SE1>:After putting on the life jackets that you've dug out from the mansion, the two of you stand at the door and behold the raging river.
+NPC-Saki(3)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支>:<size=50>Off we go!</size>
+()<Speaker>Commander</Speaker>||<分支>1</分支>:<size=50>Chaaaarge!</size>
 ()||<黑点1><分支>1</分支><SE1>AVG_fall_into_water</SE1>:
-()<Speaker></Speaker>||<分支>1</分支><黑点2><震屏3><BIN>569</BIN>:扑通——+整齐划一的落水声后，你跟在二阶堂咲奋力游动的身影后面，朝着看上去近在眼前的岸边划去。
-NPC-Saki(0)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支>:指挥官，可别落后我太多！
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:放心吧，我就跟在你后面！
-()<Speaker></Speaker>||<分支>1</分支>:你看着前方二阶堂咲矫健地破开河面，为你开辟出航线，感到一阵心安。
-()<Speaker></Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM>:但就在此刻，那个矫健的身影突然一滞。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:怎么了？
-NPC-Saki(6)<Speaker>二阶堂咲</Speaker><Position>0,-190</Position><Scale>1.4</Scale><Shake>0.1</Shake>||<SE1>AVG_splash_water</SE1><分支>1</分支><BGM>BGM_Danger</BGM>:<size=50>救命啊！我抽筋了！</size>
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:啊？！
-()<Speaker></Speaker>||<分支>1</分支>:你赶紧加快划速，朝着二阶堂咲的方向而去，但她被河水冲走的速度远快于你……
-()<Speaker>指挥官</Speaker>||<分支>1</分支><震屏3>:<size=50>咲！</size>
-()<Speaker>二阶堂咲</Speaker>||<分支>1</分支><SE1>AVG_splash_water</SE1>:咕嘟嘟嘟……
-()<Speaker></Speaker>||<分支>1</分支>:你不顾一切地划向她，看不见水中的障碍物，也看不见自己的体力条——
-()<Speaker></Speaker>||<BIN>9</BIN><分支>1</分支><SE1>AVG_Punch_Hit</SE1>:咚——+你感觉后脑勺闷闷的，像是被什么敲击了。
-()<Speaker></Speaker>||<SE1>AVG_Tinnitus</SE1>:黑暗中，似乎有什么东西紧抓你不放。
-()<Speaker>？？？</Speaker>||<SE1>Rope</SE1>:<size=30>指挥官！</size>
-()<Speaker></Speaker>||:混沌的被稀释模糊的声音在你耳边荡漾。
-()<Speaker>？？？</Speaker>||<SE1>AVG_Creep</SE1>:快救救指挥官啊！
-()<Speaker></Speaker>||:你分辨不出是谁，你只能感觉到声音中的悲怆……
+()<Speaker></Speaker>||<分支>1</分支><黑点2><震屏3><BIN>569</BIN>:Splash! +The two of you dive into the water in unison, and you start paddling after Saki towards the other side of the river.
+NPC-Saki(0)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale>||<分支>1</分支>:Commander, try to keep up!
+()<Speaker>Commander</Speaker>||<分支>1</分支>:Don't worry, I'm right behind you!
+()<Speaker></Speaker>||<分支>1</分支>:You feel quite reassured as you watch Saki slicing through the waves ahead of you and leading the way.
+()<Speaker></Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM>:But at that very moment, the athletic figure suddenly stalls.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:What's wrong?
+NPC-Saki(6)<Speaker>Saki Nikaido</Speaker><Position>0,-190</Position><Scale>1.4</Scale><Shake>0.1</Shake>||<SE1>AVG_splash_water</SE1><分支>1</分支><BGM>BGM_Danger</BGM>:<size=50>HELP! I'VE GOT A CRAMP!</size>
+()<Speaker>Commander</Speaker>||<分支>1</分支>:Huh?!
+()<Speaker></Speaker>||<分支>1</分支>:You pick up the pace and paddle quickly towards Saki, but she is being swept away by the river faster than you can swim...
+()<Speaker>Commander</Speaker>||<分支>1</分支><震屏3>:<size=50>SAKI!</size>
+()<Speaker>Saki Nikaido</Speaker>||<分支>1</分支><SE1>AVG_splash_water</SE1>:(Gargles)
+()<Speaker></Speaker>||<分支>1</分支>:You paddle towards her with reckless abandon, paying no heed to the obstacles in the water and your own stamina bar...
+()<Speaker></Speaker>||<BIN>9</BIN><分支>1</分支><SE1>AVG_Punch_Hit</SE1>:Thunk! +You feel a dull soreness on the back of your head, like you've been struck by something.
+()<Speaker></Speaker>||<SE1>AVG_Tinnitus</SE1>:Something seems to be clutching you in the dark.
+()<Speaker>???</Speaker>||<SE1>Rope</SE1>:<size=30>Commander!</size>
+()<Speaker></Speaker>||:Faint and muffled voices swirl around your ears.
+()<Speaker>???</Speaker>||<SE1>AVG_Creep</SE1>:Quick, save the Commander!
+()<Speaker></Speaker>||:You can't tell who it is, but you can hear the despair in her voice...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><Night><睁眼><BIN>578</BIN><SE1>Stop_AVG_loop</SE1>:……+你睁开双眼，面前是熟悉的卧室。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:……+我回来了？
-()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:你走到窗边拉开窗帘，外面已是沉沉的夜。
-()<Speaker>指挥官</Speaker>||:糟了！演唱会！
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><Night><睁眼><BIN>578</BIN><SE1>Stop_AVG_loop</SE1>:... +You open your eyes and find yourself in a familiar bedroom.
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:... +I'm back?
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:You stumble up to the window and draw the curtains. It is already night time.
+()<Speaker>Commander</Speaker>||:Crap! The concert!
 ()||<黑点1>:
-()<Speaker></Speaker>||<SE1>AVG_Door_Open</SE1><SE1>RunStep</SE1><黑点2><BIN>9</BIN>:连鞋也顾不上穿，你匆匆跑向大厅……
+()<Speaker></Speaker>||<SE1>AVG_Door_Open</SE1><SE1>RunStep</SE1><黑点2><BIN>9</BIN>:Not even bothering to put on your shoes, you dash into the living room...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>588</BIN><Night><SE1>AVG_Door_Close</SE1>:大厅中一片漆黑，没有开灯。+你感到一股孤寂和冰冷从脚底升起。
-()<Speaker>指挥官</Speaker>||:樱？小爱？纯子？+……咲？夕雾？莉莉？多惠？+……+罗梅罗？
-()<Speaker></Speaker>||:没有任何回应。+你的心开始慌乱起来。
-()<Speaker>？？？</Speaker>||:3！
-()<Speaker>指挥官</Speaker>||:谁？
-()<Speaker>？？</Speaker>||:2！
-()<Speaker>指挥官</Speaker>||:樱？
-()<Speaker>？</Speaker>||:1！
+()<Speaker></Speaker>||<黑点2><BIN>588</BIN><Night><SE1>AVG_Door_Close</SE1>:The living room is completely dark; the lights are all off. +A sinking feeling of loneliness wells up inside you as the cold seeps into your feet.
+()<Speaker>Commander</Speaker>||:Sakura? Ai? Junko? +...Saki? Yugiri? Lily? Tae? +... +Romero?
+()<Speaker></Speaker>||:No answer. +You are starting to panic.
+()<Speaker>???</Speaker>||:3!
+()<Speaker>Commander</Speaker>||:Who's that?
+()<Speaker>???</Speaker>||:2!
+()<Speaker>Commander</Speaker>||:Sakura?
+()<Speaker>???</Speaker>||:1!
 ()||<白屏1><关闭蒙版><SE1>AVG_Rromantic</SE1>:
-()<Speaker></Speaker>||<白屏2><BIN>606</BIN><BGM>BGM_Saga_AVG_Live_Good</BGM>:灯光重新燃起，你的眼前一片明亮。+法兰秀秀在你的面前排开了队形，脸上带着灿烂的笑容。
-()<Speaker>源樱</Speaker>||:大家好，我们是——
-()<Speaker>二阶堂咲</Speaker>||<震屏3>:<size=50>法兰秀秀！！！</size>
-()<Speaker>源樱</Speaker>||:接下来，请欣赏我们的演出！
-()<Speaker>二阶堂咲</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>请多指教！！！</size>
-()<Speaker></Speaker>||:音乐响起的瞬间，你感觉眼泪也快要跟着落下。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她们在你眼前跳起了熟悉的舞蹈，你曾帮助排练过上百次，但再一次亲眼看见，你仍然觉得万分感动。
-()<Speaker>指挥官</Speaker>||:法兰秀秀……
-()<Speaker></Speaker>||<SE1>Rope</SE1>:你捡起地上的荧光棒挥舞起来。+此刻，你就是法兰秀秀演唱会的唯一观众，你要竭尽全力为她们应援。+你吞下了哽咽，扬起比她们更加灿烂的笑容。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=8</controll_shake>:<size=50>法兰秀秀——！！！</size>
-()<Speaker>罗梅罗</Speaker>||:<size=50>汪呜——！！！</size>
-()<Speaker></Speaker>||:你声嘶力竭的应援划破了这沉重的夜晚。+法兰秀秀失去了演出场地，但她们没有失去继续前进的勇气和信念。
+()<Speaker></Speaker>||<白屏2><BIN>606</BIN><BGM>BGM_Saga_AVG_Live_Good</BGM>:The lights go on, and your vision brightens up. +Franchouchou are standing in formation in front of you with big smiles.
+()<Speaker>Sakura Minamoto</Speaker>||:Hello, everyone! We are...
+()<Speaker>Saki Nikaido</Speaker>||<震屏3>:<size=50>FRANCHOUCHOU!!!</size>
+()<Speaker>Sakura Minamoto</Speaker>||:Now please sit back and enjoy the show!
+()<Speaker>Saki Nikaido</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>We hope you'll like what you see!!!</size>
+()<Speaker></Speaker>||:The moment the music starts playing, you feel your eyes brimming with tears.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:They start dancing a familiar routine that you've helped them rehearse over a hundred times, but you still feel extremely moved watching it with your own eyes once more.
+()<Speaker>Commander</Speaker>||:Franchouchou...
+()<Speaker></Speaker>||<SE1>Rope</SE1>:You pick up the glow sticks on the floor and start waving them. +At this moment, you are the only audience at Franchouchou's concert; you must do your best to support them. +You choke back a sob and return their smiles with an even brighter grin.
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=8</controll_shake>:<size=50>FRANCHOUCHOUUUU!!!</size>
+()<Speaker>Romero</Speaker>||:<size=50>AWOOOOO!!!</size>
+()<Speaker></Speaker>||:Your intense shouts pierce through the stifling gloom. +Franchouchou may have lost their performance venue, but they have not lost the courage and faith to keep going.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:你一边泪流满面，一边大喊大叫，直到体力消耗殆尽……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:……
-()<Speaker>指挥官</Speaker>||:我又昏过去了吗？
-()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:哗啦啦——+浪花拍打在船底的声音，海边特有的咸味空气中飘来一丝若有似无的花香。
-()<Speaker>？？？</Speaker>||:你醒了。
-()<Speaker>指挥官</Speaker>||:我怎么在这里？你是谁？
-()<Speaker>？？？</Speaker>||:你又问了同样的问题。
-()<Speaker>指挥官</Speaker>||:我们是不是见过？
-()<Speaker>？？？</Speaker>||:见与不见都已经不再重要。+因为，命运的轮盘重新开始转动了。
-()<Speaker>指挥官</Speaker>||:什么意思？
-()<Speaker>？？？</Speaker>||:一切早已开始，此刻也不曾停下。
-()<Speaker></Speaker>||:船只高速飞驰起来，耳边能听见海面被划破的声音……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:With tears streaming down your face, you shout and scream until you completely wear yourself out...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:...
+()<Speaker>Commander</Speaker>||:Did I pass out again?
+()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:Splash... +The waves strike the hull of the boat rhythmically. The salty sea air is laced with a barely noticeable tinge of floral fragrance.
+()<Speaker>???</Speaker>||:You're awake.
+()<Speaker>Commander</Speaker>||:How did I get here? Who are you?
+()<Speaker>???</Speaker>||:You're asking the same questions again.
+()<Speaker>Commander</Speaker>||:Have we met?
+()<Speaker>???</Speaker>||:That doesn't matter anymore... +For the wheel of fate has started to turn again.
+()<Speaker>Commander</Speaker>||:What do you mean?
+()<Speaker>???</Speaker>||:It has been set in motion since long ago. It will not stop now.
+()<Speaker></Speaker>||:The boat suddenly surges forward at high speed. You can hear the sound of its bow cutting through the surface of the sea...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>7</BIN><睁眼><SE1>Stop_AVG_loop</SE1>:……+你睁开双眼，此刻的你，似乎正躺在冰面上被谁拖拽着，身上是湿淋淋的冰冷内衣。
-()<Speaker>指挥官</Speaker>||:我……
-()<Speaker>指挥官</Speaker>||<震屏3><SE1>ClothingUp</SE1><BGM>Campaion-34</BGM>:<size=50>阿嚏——！</size>
-NPC-Kalin(7)<Speaker>格琳娜</Speaker>||:指挥官！你终于醒了！
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><SE1>AVG_XXS_kick</SE1>:脸蛋被冻得红红的格琳娜扑到你的身上。
-()<Speaker>指挥官</Speaker>||:……我怎么了？
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:我不知道……+我正准备找你对工作进度，就看见你从卧室里冲了出去……
-NPC-Kalin(4)<Speaker>指挥官</Speaker><同时置暗>||:我？
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:我以为出什么急事了，就赶紧跟了上来，没想到——+你嘴里狂吼乱叫着什么“笑”的，就跳进了冰湖里！
-()<Speaker>指挥官</Speaker>||:……
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:我好不容易才用树枝把你叉上来，吓死我了！
-NPC-Kalin(3)<Speaker>指挥官</Speaker><同时置暗>||:我怎么会干这种事？
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:我怎么知道！以后不准做这种蠢事了！
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:抱歉……阿嚏……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:格琳娜将自己的大衣披在你的身上，你哆嗦着跟她一起朝基地的方向走去。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:对了，你的平板落在湖边，刚刚一直在发出提示声。
-()<Speaker>指挥官</Speaker>||:又有什么紧急联络了吗？
-()<Speaker></Speaker>||:你打开平板，上面出现了一个奇怪的游戏界面。
-()<Speaker></Speaker>||:<color=#FFFF00>“请从以下几个元素中选择您喜欢的选项。”</color><c>A温柔可爱一天能劈三吨柴的女仆偶像<c>B冷艳高贵一脚能踏穿胸口的人形偶像<c>C唱跳RAP篮球全方位发展的僵尸偶像
-()<Speaker>指挥官</Speaker>||:这是中病毒了吗？
-()<Speaker></Speaker>||:你胡乱戳了戳，但界面没有任何反应。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:烦躁的你将平板收起，继续哆嗦着朝基地走去。
-()<Speaker></Speaker>||:你没有注意到，选项C自己悄悄亮了起来。
+()<Speaker></Speaker>||<BIN>7</BIN><睁眼><SE1>Stop_AVG_loop</SE1>:... +You open your eyes and find yourself being dragged along an icy surface, wearing nothing but some soaking-wet underwear.
+()<Speaker>Commander</Speaker>||:I...
+()<Speaker>Commander</Speaker>||<震屏3><SE1>ClothingUp</SE1><BGM>Campaion-34</BGM>:<size=50>ATCHOO!</size>
+NPC-Kalin(7)<Speaker>Kalina</Speaker>||:Commander, you're finally awake!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><SE1>AVG_XXS_kick</SE1>:Kalina, whose cheeks are red from the cold, falls to her knees and hugs you.
+()<Speaker>Commander</Speaker>||:...What happened to me?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:I don't know... +I was just about to check in with you to see how far you've come with your work when I saw you rushing out of your bedroom...
+NPC-Kalin(4)<Speaker>Commander</Speaker><同时置暗>||:I did?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:I thought something urgent had happened, so I followed you. But then... +You kept yelling something that sounded like "SHOO" and jumped right into the icy lake!
+()<Speaker>Commander</Speaker>||:...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I finally managed to fork you up with a branch. You almost scared me to death!
+NPC-Kalin(3)<Speaker>Commander</Speaker><同时置暗>||:Why would I do such a thing?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:How would I know?! Just promise you'll never, ever do something so stupid again!
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:Sorry... ATCHOO!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Kalina wraps you up in her own coat. You walk with her back to the base, shivering all the while.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:By the way, your dropped your tablet by the lake. It kept pushing notifications.
+()<Speaker>Commander</Speaker>||:Was someone trying to contact me on some urgent business?
+()<Speaker></Speaker>||:You turn on the tablet, and a strange game interface appears on the screen.
+()<Speaker></Speaker>||:<color=#FFFF00>"Please select your preference from the following options."</color><c>A. A cute and gentle maid idol who can chop up three tons of firewood in a day.<c>B. A cold and elegant Doll idol who can kick a hole right through your chest.<c>C. A versatile zombie idol who can sing, dance, rap, and play basketball.
+()<Speaker>Commander</Speaker>||:Is this a virus?
+()<Speaker></Speaker>||:You poke and prod at the screen, but get no response from the interface.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Annoyed, you put the tablet away and continue on your way back to the base, still shivering.
+()<Speaker></Speaker>||:You do not notice that option C has quietly lit up on its own.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_Card_Reader</SE1>:咔哒——+脚下冰雪裂开的声音和命运的转轮声重叠在一起，一切再一次重新开始了。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_Card_Reader</SE1>:Click. +The frost crunches beneath your feet as the wheel of fate starts spinning, and it all begins again.
+()||<黑点1>:

@@ -1,51 +1,51 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>577</BIN><黑屏2><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:绵柔的海浪，一次次眷恋地涌向你，又克制地退去，只余细沙在脚趾缝间磋磨，作为缠绵的证明。+细细的痒，微微的痛，不难忍受却也无法忽视……一如你此时的心情。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:这是……送给我的吗？
-()<Speaker></Speaker>||<common_effect>%%code=Saga_Junko_item%%</common_effect>:一枚尾崎人偶，躺在纯子的手里。+她将之小心翼翼地递给你。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<关闭蒙版>:本来早就应该给你了。+但好几次落笔总是不够专注，所以才耽误了一些时间。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||:纯子居然也有不专注的时候……真难得。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:心里有其他的事情，就会不够专注。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||:所以是什么事呢？
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:假如我也可以像指挥官一样回到自己的时代。+是留在法兰秀秀做偶像，还是回到过去做偶像比较好？
-()||:……<c>A 留在法兰秀秀<c>B 回到自己的时代
-()||<分支>1</分支>:你看向纯子，知道她真正的犹豫之处。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:当然是留在法兰秀秀。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>1</分支>:为什么？
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>1</分支>:因为你深爱着法兰秀秀。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>1</分支>:……
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>1</分支>:过去单独闪耀的你是昭和时代的明月。+那现在在法兰秀秀的你，是身处群星之中。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:一个人的时候，不论是被认可还是被质疑。+都会很寂寞吧。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>1</分支>:……是啊。+而且我在这里，找到了更加珍贵的东西。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>1</分支>:你问我这个问题，只是为了肯定自己的想法吧。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>1</分支>:是，也不是。+那你为什么不留下来呢？
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>1</分支>:……我，在那边还有无法割舍下的人。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>1</分支>:原来如此。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:如果你觉得在这里真的不开心的话，那就应该回到自己的时代。
-NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>2</分支>:……
-NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>2</分支>:我醒来的时候，最害怕的不是来到其他的时代。+而是，她们失去我的话……会怎么样……
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>2</分支>:如果是她们和我一起来到这里……+可能我不会那么想回去。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:比起不习惯的语言、习俗、或是身份。+我更在意的是陪在身边的人。+而且如果是在这个时代，对我来说，说不定达成了给她们一个和平年代的梦想。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:所以，如果你觉得可以把法兰秀秀的大家和回去做成两个选择的话，那就去选择回去好了。
-NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>2</分支>:……
-NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>2</分支>:毕竟，你看到大家的时候，会不自觉地想，要是能自己一个人回去就好了。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:比起无穷无尽的后悔，还是应该自私一点，坚持自我。
-NPC-Junko(5)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>2</分支>:……不是这样的。
-NPC-Junko(5)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||<分支>2</分支>:嗯？
-NPC-Junko(5)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>2</分支>:在我心里，大家是更重要的存在。+成为僵尸的我，当然也可以选择再次死亡。+如果我真的讨厌大家的话。+但是我没有。
-NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>2</分支>:原来比起永远停留在过去，我还是畅想着和大家一起拼搏的未来。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||<分支>2</分支>:谢谢你，帮我去掉了一个答案。
-()||<分支>2</分支>:原来我的选择，从来只有一个选项啊。
-()<Speaker>指挥官</Speaker>||:恭喜你，旧时代的旅人，终于在新的船上扬帆起航。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:也恭喜你，来自未来的旅人，将来能够回到自己的船上。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:能够将尾崎人偶送给你，我很高兴。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||:话说回来，为什么要送我这个人偶呢？
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:你不觉得，它很像你吗？
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||:……我，我在你心里，是这个形象吗？
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:很可爱啊。
-()<Speaker>指挥官</Speaker>||:可……可爱？+好吧，如果这是你的喜好，那，那我勉强可以接受。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:这样，以后每次下笔，我都会觉得开心。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||:诶？
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>绀野纯子</Speaker>||:因为我给一位同样来自异世界的旅人，亲手制作了一枚人偶。+那是我们曾经同行的证明。
-NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>指挥官</Speaker>||:嗯，我们曾经同行过。+不论将来如何，这件事情永远不会改变。
-()||:你用着笃定的语气——+你一定会无数次与那个在夕阳下弹着吉他的少女重逢。+或许是午后在办公室的小憩，亦或是深夜独自酣饮的时分……
-()||<黑点1>:
+()||<BIN>577</BIN><黑屏2><SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><BGM>BGM_Saga_AVG_Dusk</BGM>:The gentle waves surge longingly toward you again and again, only to curb their enthusiasm and flow back out, leaving only the fine sand between your toes as the proof that they had once lapped at your feet.+The subtle itch and the faint pain they cause is easy to bear yet impossible to ignore... much like your present feelings.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Is this... for me?
+()<Speaker></Speaker>||<common_effect>%%code=Saga_Junko_item%%</common_effect>:There is an ozaki figurine in Junko's hands.+She gingerly offers it to you.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<关闭蒙版>:I should have given this to you long ago.+But I kept losing focus when I applied the finishing strokes, so it took longer than it should.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||:I'm surprised... to think you'd actually lose focus, Junko.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:Well, it's hard to concentrate when you're thinking of other things.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||:And what kind of things would those be?
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:If I could return to my own time like you, Commander...+Should I stay with Franchouchou and be an idol, or should I go back to the past and be an idol there?
+()||:...<c>Stay with Franchouchou.<c>Go back to your own time.
+()||<分支>1</分支>:You look at Junko and you know what is the real cause of her hesitation.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:You should stay with Franchouchou, of course.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>1</分支>:Why?
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>1</分支>:Because you love Franchouchou.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>1</分支>:...
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>1</分支>:When you shone by yourself in the past, you were the bright moon of the Showa era.+Now that you're in Franchouchou, you are among the stars.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:When you were by yourself, whether others liked or disliked you...+I'm sure it must have been rather lonesome, right?
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>1</分支>:...You're right.+And besides, I've found something more precious here.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>1</分支>:You asked me that question to clear your doubts, didn't you?
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>1</分支>:Yes... and no.+Why can't you stay, then?
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>1</分支>:...I still have people there that I can't just bear to give up.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>1</分支>:I see.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:If you're truly unhappy here, then you should go back to your own time.
+NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>2</分支>:...
+NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>2</分支>:When I woke up, the scariest thing wasn't that I'd come to another time period.+Rather, what frightened me most was... what they would do without me...
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>2</分支>:If they had come here with me... +Then maybe I wouldn't be so eager to go back.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:More than not being used to the language, the local customs, or my identity... +What really weighs on my heart is how the people around me would fare.+Perhaps I could fulfil my dream of giving them peaceful days in an era like this.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:That's why I think that if you think you have two clear-cut choices—"Franchouchou" or "going back", you should choose the latter.
+NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>2</分支>:...
+NPC-Junko(3)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>2</分支>:After all, when you see them, you'll end up thinking, "If only I could go back by myself."
+()<Speaker>Commander</Speaker>||<分支>2</分支>:So rather than regretting your choice forever, you should choose to be a little selfish and insist on having things your way.
+NPC-Junko(5)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>2</分支>:...it's not like that.
+NPC-Junko(5)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||<分支>2</分支>:Hm?
+NPC-Junko(5)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>2</分支>:To me, the others are more important than going back. +As a zombie, I could obviously choose to die again.+That is, if I really hated everyone.+But I don't.
+NPC-Junko(0)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>2</分支>:So rather than staying stuck in the past forever, I'd rather have a future where I'm fighting alongside everyone else.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||<分支>2</分支>:Thank you for helping me rule out an answer.
+()||<分支>2</分支>:It would seem I only ever had one choice to begin with.
+()<Speaker>Commander</Speaker>||:Congratulations, blast from the past. You've finally set sail upon a new boat.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:And congratulations to you on going back to the future. You'll soon be able to return to your own ship.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:I'm glad I could give you this ozaki figurine.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||:Speaking of which, why are you giving me this figurine?
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:Don't you think it looks a lot like you?
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||:...Wait, so this is how I appear in your heart?
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:It's adorable.
+()<Speaker>Commander</Speaker>||:A... adorable?+Alright then, if that's what you think, I... I suppose I could accept it.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:This way, I'll feel happy every time I paint them.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||:Huh?
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><Speaker>Junko Konno</Speaker>||:That's because I gave a fellow traveler from another world a handmade doll.+It's proof that we once shared our journey.
+NPC-Junko(1)<Position>60,-230</Position><Scale>1.27</Scale><同时置暗><Speaker>Commander</Speaker>||:That we did.+And it will never change, no matter what happens.
+()||:You answer with great certainty.+You will reunite with that girl who plays her guitar under the setting sun over and over again.+Whether it's during an afternoon break in the office, or late at night when you're drinking alone...
+()||<黑点1>:

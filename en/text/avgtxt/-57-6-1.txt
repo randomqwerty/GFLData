@@ -1,80 +1,80 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>599</BIN><BGM>BGM_Saga_AVG_Day</BGM>:你坐在电视台的演播厅里，心里有些忐忑不安。+在昨晚确定了法兰秀秀演唱会形式后，你就下定决心要为她们宣传，让更多的人看见她们的闪耀之处。+这也是你坐在这里的原因。+你已经做好了一切准备，你相信法兰秀秀也一样有了觉悟。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:准备好了，就告诉我。
-()<Speaker>指挥官</Speaker>||:……嗯。
-()<Speaker></Speaker>||:你感觉法兰秀秀将她们的命运交托到了你的手中。+虽然这不是你第一次执掌他人的命运，但这一次很不一样，放在你手中的，是一群少女的梦想。+而你将为她们的梦想奋战到底。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:我准备好了。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:那么，我们就开始了。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:嘀——+你抬头望向摄像机，调整出最为诚恳亲和的笑容。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:等一下！
-NPC-Ninja(5)<Speaker>指挥官</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||:啊？
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:你先跟我说说，你打算怎么讲……<c>A 温情感人，大打感情牌<c>B 克制理智，展现专业感<c>C 幽默风趣，以亲和示人
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:我想走专业高端的路线，显示出法兰秀秀极强的业务能力，吸引观众们前来买票欣赏。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>2</分支>:你试讲几句？
-()<Speaker>指挥官</Speaker>||<分支>2</分支><BGM>BGM_Empty</BGM>:法兰秀秀。
-()<Speaker></Speaker>||<分支>2</分支><BGM>GF_Swim_Marnie</BGM>:你用低沉、富有磁性的嗓音娓娓道来。
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:我们是一支低调的偶像团体，曲风灵活多变，摇滚、嘻哈、说唱、爵士、R＆B、雷鬼……无所不能。+团体内，有舞蹈天赋爆棚的3号，不管是难度多高的舞，只需要看上一遍就能学会。+而创造天赋极高的4号更是一天就能创作出50首原创曲目，0号的高音域更是超越维塔——
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>2</分支><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:停。
-()<Speaker></Speaker>||<分支>2</分支>:场记面无表情地示意你停下。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>2</分支>:这是什么怪物啊？这还是法兰秀秀吗！
-NPC-Ninja(5)<Speaker>指挥官</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||<分支>2</分支>:我觉得这样听上去很厉害的样子……+如果我是观众的话，一定会很想买票的。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale><Shake>0.1</Shake>||<SE1>AVG_Into_stone</SE1><分支>2</分支>:……
-()<Speaker></Speaker>||<分支>2</分支>:可能是错觉，但你好像看见场记的太阳穴青筋暴起。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:我想走温情感人的路线，打感情牌，重点讲述法兰秀秀一路走来经历了多少风雨，克服了多少困难……
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>1</分支>:你试讲几句？
-()<Speaker>指挥官</Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM>:法兰秀秀……
-()<Speaker></Speaker>||<分支>1</分支><BGM>BGM_Sad</BGM>:光是说出这四个字，你的喉头就是一阵哽咽。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:一开始，我们只是一支籍籍无名、在路边免费演出都没人看的团体。+吃不起饭，睡不着觉，哪怕在演出中被冷落也不敢发声……+尽管受尽冷眼、尝遍嘲讽，但我们也从未放弃过梦想！+那就是将佐贺——
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>1</分支><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:停。
-()<Speaker></Speaker>||<分支>1</分支>:场记面无表情地示意你停下。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>1</分支>:你这串场到什么片场去了？这还是法兰秀秀吗！
-NPC-Ninja(5)<Speaker>指挥官</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||<分支>1</分支>:这不是娱乐圈的潜规则吗？合理的夸张，再进行一点点艺术加工？
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale><Shake>0.1</Shake>||<SE1>AVG_Into_stone</SE1><分支>1</分支>:……
-()<Speaker></Speaker>||<分支>1</分支>:可能是错觉，但你好像看见场记的太阳穴青筋暴起。
-()<Speaker>指挥官</Speaker>||<分支>3</分支>:我想走亲和力拉满的路线，用幽默风趣的语言拉近和观众的距离，让他们对法兰秀秀产生好感，主动来看我们的演唱会。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>3</分支>:你试讲几句？
-()<Speaker>指挥官</Speaker>||<分支>3</分支><BGM>BGM_Empty</BGM>:法兰秀秀。
-()<Speaker></Speaker>||<分支>3</分支><BGM>GF_2022_Summer_AVG_1</BGM>:你面带慈祥的笑容，用最温和诙谐的声音讲解起来。
-()<Speaker>指挥官</Speaker>||<分支>3</分支>:我们的七位少女都是从普通人中选拔而出，她们在舞台上光芒四射，而回到生活中，又是和你身边人相差无几的普通少女。+她们能歌善舞，但也有着普通人的缺点，比如总是粗心大意，不小心把头搞丢，或者还把自己当个小孩，喜欢啃别人的头……+可是，一旦走上舞台，穿上偶像的服装，她们就——
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>3</分支><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:停。
-()<Speaker></Speaker>||<分支>3</分支>:场记面无表情地示意你停下。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>3</分支>:你是不是觉得自己很幽默？
-()<Speaker>指挥官</Speaker>||<分支>3</分支><SE1>ClothingUp</SE1>:嗯！
-()<Speaker></Speaker>||<分支>3</分支>:你自信地点了点头。
-()<Speaker>指挥官</Speaker>||<分支>3</分支>:我觉得这么说的话，观众一定会觉得和法兰秀秀没有什么距离感，会像回家一样自然地来到演唱会。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale><Shake>0.1</Shake>||<SE1>AVG_Into_stone</SE1><分支>3</分支>:……
-()<Speaker></Speaker>||<分支>3</分支>:可能是错觉，但你好像看见场记的太阳穴青筋暴起。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:我知道了，你先去一边玩吧，我来给你写稿。
-NPC-Ninja(5)<Speaker>指挥官</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||:那真是辛苦你了。
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:等一下，我怎么觉得我中计了……
-NPC-Ninja(5)<Speaker>指挥官</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||:那不然还是我再想想？
-NPC-Ninja(5)<Speaker>场记</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:不必了，你先出去等着吧！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:场记痛苦地埋首于赶稿中，你带着神秘的微笑走出了演播室。
+()<Speaker></Speaker>||<黑屏2><BIN>599</BIN><BGM>BGM_Saga_AVG_Day</BGM>:You are sitting inside the television studio, feeling a little anxious. +Once Franchouchou's concert was confirmed last night, you resolved to help them promote it so that more people can see their radiance. +This is why you're here. +You have made every preparation, and you believe that Franchouchou has also steeled themselves for what's to come.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:Let me know when you're ready.
+()<Speaker>Commander</Speaker>||:...Right.
+()<Speaker></Speaker>||:You can sense that Franchouchou has placed their fate in your hand. +This isn't the first time you've held sway over others' fate, but this is very different. What you have in your hand is the girls' dreams. +And you will fight for these dreams to the bitter end.
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:I'm ready.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:Then let's begin.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep! +You look up at the camera and put on your most sincere smile.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:Hold on!
+NPC-Ninja(5)<Speaker>Commander</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||:Huh?
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:Give me a rough idea of how you're planning to sell this...<c>A. Make it wholesome and sentimental.<c>B. Keep it cool and professional.<c>C. Show off your sense of humor and be approachable.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:I want to go the professional, classy route to highlight Franchouchou's outstanding skills and attract people to purchase tickets to the concert.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>2</分支>:Let's hear you rehearse it.
+()<Speaker>Commander</Speaker>||<分支>2</分支><BGM>BGM_Empty</BGM>:Franchouchou.
+()<Speaker></Speaker>||<分支>2</分支><BGM>GF_Swim_Marnie</BGM>:You start speaking with a low and alluring voice.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:We are a low-key idol group with a diverse and versatile repertoire. Rock, hip-hop, rap, jazz, R&B, reggae... we can do it all. +Our group comprises No. 3, an extremely talented dancer who can learn a dance routine after watching it once, no matter the difficulty; +No. 4, a prodigious song writer who can compose 50 original songs in a single day; No. 0, whose falsetto is even higher than Vitas'—
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>2</分支><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:Stop.
+()<Speaker></Speaker>||<分支>2</分支>:The production assistant interrupts you expressionlessly.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>2</分支>:What kind of monsters are these? Are you even talking about Franchouchou?!
+NPC-Ninja(5)<Speaker>Commander</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||<分支>2</分支>:I think that would sound very impressive... +If I heard that, I'd definitely want to buy a ticket to see them.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale><Shake>0.1</Shake>||<SE1>AVG_Into_stone</SE1><分支>2</分支>:...
+()<Speaker></Speaker>||<分支>2</分支>:It might be your imagination, but you think you just saw a vein throbbing on the production assistant's temple.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:I want to go the wholesome and sentimental route and focus on the hardships that Franchouchou has experienced, the setbacks that they have overcome along the way...
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>1</分支>:Let's hear you rehearse it.
+()<Speaker>Commander</Speaker>||<分支>1</分支><BGM>BGM_Empty</BGM>:Franchouchou...
+()<Speaker></Speaker>||<分支>1</分支><BGM>BGM_Sad</BGM>:You feel a lump in your throat just saying this word.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:In the beginning, we were just an unknown group. People wouldn't even spare us a glance even when we were busking for free in the streets. +We often had to go hungry, we couldn't sleep, and we dared not complain even when we were treated badly at performances... +But despite all the scorn, all the derision, we never gave up our dream! +Our dream is to bring Saga—
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>1</分支><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:Stop.
+()<Speaker></Speaker>||<分支>1</分支>:The production assistant interrupts you expressionlessly.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>1</分支>:What do you think this is? Oliver Twist? Are you even talking about Franchouchou?!
+NPC-Ninja(5)<Speaker>Commander</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||<分支>1</分支>:Isn't this the unspoken rule in the entertainment industry? Reasonable exaggeration plus a little bit of artistic embellishment?
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale><Shake>0.1</Shake>||<SE1>AVG_Into_stone</SE1><分支>1</分支>:...
+()<Speaker></Speaker>||<分支>1</分支>:It might be your imagination, but you think you just saw a vein throbbing on the production assistant's temple.
+()<Speaker>Commander</Speaker>||<分支>3</分支>:I want to go the friendly and approachable route and make Franchouchou seem more down-to-earth. I want Franchouchou to leave a good impression on the audience, so that they will come and support us at the concert.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>3</分支>:Let's hear you rehearse it.
+()<Speaker>Commander</Speaker>||<分支>3</分支><BGM>BGM_Empty</BGM>:Franchouchou.
+()<Speaker></Speaker>||<分支>3</分支><BGM>GF_2022_Summer_AVG_1</BGM>:You put on a benevolent smile and start introducing the group in a friendly and jocular tone.
+()<Speaker>Commander</Speaker>||<分支>3</分支>:All seven members were selected from girls with ordinary backgrounds. They are positively radiant on stage, but they are no different from the ordinary girls around you in daily life. +They are very skilled singers and dancers, but they are also flawed like ordinary people. They are clumsy; they sometimes quite literally lose their heads. They can also be very childish and have a habit of gnawing on others' heads... +But the moment they put on their idol outfits and step on stage, they—
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>3</分支><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:Stop.
+()<Speaker></Speaker>||<分支>3</分支>:The production assistant interrupts you expressionlessly.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||<分支>3</分支>:You think you're very funny, don't you?
+()<Speaker>Commander</Speaker>||<分支>3</分支><SE1>ClothingUp</SE1>:Yep!
+()<Speaker></Speaker>||<分支>3</分支>:You nod with confidence.
+()<Speaker>Commander</Speaker>||<分支>3</分支>:I believe such an introduction will make the audience find Franchouchou very approachable. Coming to our concert will feel as natural as coming home to them.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale><Shake>0.1</Shake>||<SE1>AVG_Into_stone</SE1><分支>3</分支>:...
+()<Speaker></Speaker>||<分支>3</分支>:It might be your imagination, but you think you just saw a vein throbbing on the production assistant's temple.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:Right. Go and relax for a bit. I'll write you a script.
+NPC-Ninja(5)<Speaker>Commander</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||:Thank you very much.
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:Hold on, why do I feel like I've been tricked...
+NPC-Ninja(5)<Speaker>Commander</Speaker><Position>0,-420</Position><Scale>1.6</Scale><同时置暗>||:Should I come up with another idea, then?
+NPC-Ninja(5)<Speaker>Production Assistant</Speaker><Position>0,-420</Position><Scale>1.6</Scale>||:No, thank you! Just wait outside!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:The production assistant starts rushing to put together your script as you leave the studio with an enigmatic smile.
 ()||<黑点1><SE1>AVG_20Winter_Door_Close</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>470</BIN>:你走进安排给你的VVVIP等候室。+你一进门，就看见一个熟悉的身影站在窗边等你。
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale><GradientShow>3</GradientShow>||<BGM>BGM_Room</BGM>:好久不见，指挥官，短短几日，没想到法兰秀秀就已经成长了这么多呢。
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:有什么事吗？
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:不要这么冷淡嘛。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:眼中闪烁着金光的格琳娜热情地邀请你坐下。
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:我们来谈一谈互利共赢的生意吧~
-()<Speaker>指挥官</Speaker>||:我现在没空，改日再聊吧。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:你欲起身送客，但格琳娜抢先把你拉住。
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:你那天说的格里芬基地，我很感兴趣！
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<BGM>BGM_Empty</BGM>:后来，我去查找了一下相关资料，但我只找到了——
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<BGM>BGM_Home</BGM>:《少女前线》是款二次元养成战术手游，战棋系统与即时战斗并行，引人入胜的剧情展现了宏大的末世世界！+由众多知名画师绘制的百余位人形少女集结！末世浪潮下，玩家扮演的格里芬指挥官将与人形少女迎来怎样的命运？
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-360</Position><Scale>1.6</Scale>||<SE1>AVG_Rromantic</SE1>:指挥官，请下达任务指令吧!
-NPC-Kalin(0)<Speaker>指挥官</Speaker><Position>0,-360</Position><Scale>1.6</Scale><同时置暗>||<BGM>BGM_Empty</BGM>:……
-NPC-Kalin(1)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<SE1>ClothingUp</SE1>:你就是这里所说的格里芬指挥官吧？+听说你的手下有几百位人形，如果全部都能包装成偶像……甚至干脆搞个偶像练习营，那可是个巨大的商机啊！
-NPC-Kalin(1)<Speaker>指挥官</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:……
-NPC-Kalin(0)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:你怎么不说话？是不是觉得我说的有几分道理？+请带我去参观一下吧，我也不是不可以去任职你说的什么副官的……
+()<Speaker></Speaker>||<黑点2><BIN>470</BIN>:You enter the VVVIP waiting room that the production unit has reserved for you. +The moment you walk through the door, you spot a familiar figure waiting for you by the window.
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale><GradientShow>3</GradientShow>||<BGM>BGM_Room</BGM>:It's been a while, Commander. Who'd have thought Franchouchou would improve by leaps and bounds in just a few days?
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:What do you want with me?
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Oh, don't be so cold.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina enthusiastically invites you to take a seat. You can see the dollar signs gleaming in her eyes.
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Let's talk business that will benefit both of us~
+()<Speaker>Commander</Speaker>||:I'm busy right now. Maybe some other day.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:You're about to get up and ask her to leave, but she grabs you by the arm before you can say anything.
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:I'm very interested in the Griffin base that you mentioned the other day!
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<BGM>BGM_Empty</BGM>:I did some research after our conversation, but all I could find about that was...
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<BGM>BGM_Home</BGM>:"Girls' Frontline" is a gacha and real-time strategy mobile game that features a fascinating story in an expansive post-apocalyptic world! +Hundreds of T-Dolls, illustrated by many renowned artists, assemble at Griffin! In these dark times, what will fate have in store for the Griffin Commander and the T-Dolls?
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-360</Position><Scale>1.6</Scale>||<SE1>AVG_Rromantic</SE1>:Commander, please give the order!
+NPC-Kalin(0)<Speaker>Commander</Speaker><Position>0,-360</Position><Scale>1.6</Scale><同时置暗>||<BGM>BGM_Empty</BGM>:...
+NPC-Kalin(1)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||<SE1>ClothingUp</SE1>:You are the Griffin Commander mentioned here, yeah? +Word has it, you have hundreds of T-Doll subordinates. If we can turn them all into idols... Actually, we can just organize an idol bootcamp! It will be an insanely lucrative business opportunity!
+NPC-Kalin(1)<Speaker>Commander</Speaker><Position>0,-180</Position><Scale>1.3</Scale><同时置暗>||:...
+NPC-Kalin(0)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Why aren't you saying anything? Don't you agree I have a point? +Please give me a tour of this Griffin base. I might even agree to working as your so-called adjutant...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Saga_AVG_Dusk</BGM><BIN>9</BIN><黑屏2>:你的脑海中浮现出了这些天的种种，与法兰秀秀的欢笑和泪水，与格里芬人形重聚的迷惘和失落……+最后一个画面，是昨晚演出结束后笑着笑着又落泪的法兰秀秀。+她们紧紧地抱着你，将你围绕在中心，发自内心地感激你一直以来的支持……
+()<Speaker></Speaker>||<BGM>BGM_Saga_AVG_Dusk</BGM><BIN>9</BIN><黑屏2>:All the things you have experienced in the last few days flash before your eyes—all the laughter and tears you have shared with Franchouchou, the sense of confusion and loss when you tried to reconnect with the Griffin Dolls... +Franchouchou laughing through tears after their performance last night. +They gathered around and embraced you to express their genuine gratitude for your support...
 ()||<黑屏1>:
-()<Speaker>指挥官</Speaker>||<BIN>470</BIN><黑屏2>:格里芬的指挥官？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:你冷笑着站了起来，像是在傲然抗争压在你肩上的命运。
-()<Speaker>指挥官</Speaker>||:我现在，是法兰秀秀的指挥官！
-NPC-Kalin(2)<Speaker>？格琳娜</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:指挥官……
-()<Speaker>指挥官</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:我该去演播厅，为法兰秀秀拉票了。
+()<Speaker>Commander</Speaker>||<BIN>470</BIN><黑屏2>:Griffin Commander?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:You snicker as you rise to your feet, as if in defiance of the destiny forced unto you.
+()<Speaker>Commander</Speaker>||:Right now, I am Franchouchou's Commander!
+NPC-Kalin(2)<Speaker>Kalina?</Speaker><Position>0,-180</Position><Scale>1.3</Scale>||:Commander...
+()<Speaker>Commander</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:I should head back to the studio and start campaigning for Franchouchou.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>553</BIN><SE1>AVG_20Winter_Door_Close</SE1>:你告别了格琳娜，朝着演播厅的方向走去。+虽然你知道这不是你所认识的那位格琳娜，但你的心中油然升起一股将过往抛之脑后的复杂情绪。+你突然意识到，在现在这一刻，你才真正毫无保留地和法兰秀秀站在一起。+同进同退，同甘共苦。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>553</BIN><SE1>AVG_20Winter_Door_Close</SE1>:You bid Kalina farewell and return to the television studio. +You are fully aware this isn't the Kalina that you know, but you still suddenly feel conflicted about leaving everything behind. +You suddenly realize that at this moment, you have truly become a part of Franchouchou. +You stick together, through thick and thin.
+()||<黑点1>:

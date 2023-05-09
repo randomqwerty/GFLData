@@ -1,64 +1,64 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>588</BIN><BGM>BGM_Saga_AVG_Dusk</BGM>:一切结束之后，你在自己的房间里收拾起了行李。+短短一周时间，从最开始孑然一身地来，到现在，你需要带走的东西都塞满了一个包。+……你会怎么回去？这些东西还需要吗？
-()<Speaker>指挥官</Speaker>||:……当时来的时候，怎么想得到现在居然有点舍不得呢。
-()||:你不禁为自己的心情而苦笑起来，这时，你忽然发现，在你的桌子上，有一张你从未见过的纸条。
-()<Speaker>指挥官</Speaker>||:这是……？
-()<Speaker>纸条</Speaker>||:给我到森林公园来。+迟到的话就宰了你。
-()<Speaker>指挥官</Speaker>||<黑点1>:……连个时间都不写是要怎么算迟到啊！！+话说连署名都没有！虽然一眼就知道是谁写的了！
-()||<黑点2><BIN>593</BIN>:……
-()||:依照纸条的指引，你来到了森林公园，却不见二阶堂的影子。
-()<Speaker>指挥官</Speaker>||:……都不知道她是等不及走了还是根本就还没来。
-()||:你挠了挠头，一时之间不知该如何是好。+而就在你犹豫的时候，突然——
-()<Speaker>二阶堂咲</Speaker>||:<size=50>立——正！</size>
-()<Speaker>指挥官</Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:咕哇！？
-()||:身着特攻服的二阶堂突然出现在你的身后，并且以她洪亮的嗓门吓得你差点下意识去摸配枪。
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:破绽到处都是！你这样回去之后是要怎样继续扛起法兰秀秀的大旗啊！
-()<Speaker>指挥官</Speaker>||:呃……抱歉。
-()||:虽然不知道发生了什么，但你老实地道歉了。
-()||<SE1>AVG_footsteps_cave</SE1>:而一脸严肃的二阶堂看着你，交叉着抱在胸口的双手忽然松开，随即慢慢向你走来。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:那个，咲，这是要干什……
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:站好了！不许窃窃私语！
-()<Speaker>指挥官</Speaker>||:……
-()||:二阶堂对你的态度仿佛又回到了最初遇到的时候，甚至有些变本加厉地凶恶。+但你却从她的态度里感受到了一些别的东西，所以还是随着她的要求照做了。
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:你加入我们法兰秀秀，其实也才一个星期的时间。+不管怎么说，都彻头彻尾地是最小的后辈和新人。
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>指挥官</Speaker>||:……
-()||:……嗯？+眼前的这幅景象，二阶堂说话的口气，还有你们的这个站位……+……不会吧？
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:如果是在暴走族里，别说赛车了，你这样的家伙最多也就负责跑跑腿买买便当。+不过……咳。
-()||:二阶堂轻轻咳嗽了一声。
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:指挥官！
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>指挥官</Speaker>||:在。
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:我以法兰秀秀2号，法兰秀秀领队的身份，在这里正式向你宣布。+我，将永远承认你法兰秀秀制作人的身份，并许可你在任何时间和场合以法兰秀秀的名义自称。
-()||<SE1>ClothingUp</SE1>:说着，二阶堂咲一脸严肃，从特攻服里取出了你早已见惯的某个物品。
-()<Speaker>指挥官</Speaker>||:等等，咲，这个是……
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:安静。
-()<Speaker></Speaker>||<common_effect>%%code=Saga_Saki_item%%</common_effect>:她拿着那个明显清洗过，微微有些褪色的袖标，走到你的面前，然后开始亲手为你套到胳膊上。
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||<关闭蒙版>:本来不打算来找你，叽叽歪歪的道别不符合我的风格。+但想了想，果然还是要把这个交给你才行。
-()||:在给你戴好之后，她满意地抱着手，咧嘴笑着点了点头。
-NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:不赖！跟你还挺配的嘛。
-NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>指挥官</Speaker>||:……谢谢你，咲。
-NPC-Saki(14)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:哈？你懂不懂规矩啊？+这里比起谢谢，该说的是其他的话吧！
-NPC-Saki(14)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>指挥官</Speaker>||:……
-()||:你挺了挺胸。
-()<Speaker>指挥官</Speaker>||:法兰秀秀的旗帜——我收下了！
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:很好——不论你回到什么地方，不管你要面对谁。+只要亮出这个袖标，你就是法兰秀秀的制作人，是我二阶堂咲罩的人！+一定要记好了！
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>指挥官</Speaker>||:……我不会忘的。
-NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:……
-()||:在最后的呐喊之后，二阶堂好像卸掉了力气，连那股莫名严肃的气氛也跟着消失。
-NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:……把我们的旗帜带到更远的地方去吧，搭档。
-()||:她笑着，用最好的方式向你道别。
-()<Speaker>指挥官</Speaker>||:……你也一样，咲。+把法兰秀秀变得更加了不起。+直到我在我那边也能听到你们的歌声吧。
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:说什么理所当然的废话呢，白痴！+先是九州第一，而后是称霸天下！
-NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:迟早有一天——法兰秀秀的名字会贴满这个世界的每个角落。
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:你就作为先遣军，老老实实地在那边给我做好庆祝的集会的准备吧！
-()<Speaker>指挥官</Speaker>||:没问题，队长。+交给我吧。
-()||<SE1>Rope</SE1>:你用戴着袖标的那只手伸出了拳头，二阶堂心领神会地与你对拳。
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:虽然时间很短，但认识你这家伙还挺让人开心的。+回去之后，也不许让人看不起啊。
-NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>指挥官</Speaker>||:……啊，我会的。+那些“看不起”我的人，我会有办法对付他们的。
-NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:就是这种骨气！
-()||:她拍了拍你的肩膀，随后转身走进了树林，这时候你才发觉，她的摩托就停在那里。
-()||<SE1>AVG_Moto_Start</SE1>:轰——+随着摩托的轰鸣声再次响起，她冲你招了招手。
-NPC-Saki(12)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>二阶堂咲</Speaker>||:傻站着干什么？上车，我送你回去。
-()<Speaker>指挥官</Speaker>||:……来了。
-()||<SE1>AVG_Moto_Run</SE1>:你乘上摩托，二阶堂扭动把手，一阵风瞬间在你的两侧吹起。+法兰秀秀的袖标挂在你的胳膊上，随着凛冽的风在猎猎作响。
-()||:……不会忘的。+不管过多久，你都不会忘记这段时间经历的事。+以及。+千真万确，你就是法兰秀秀的一员。
-()||<黑点1>:
+()||<黑屏2><BIN>588</BIN><BGM>BGM_Saga_AVG_Dusk</BGM>:After everything is over, you're packing your luggage by yourself in your room.+It's only been a week, and you've gone from showing up with nothing on you to having a bunch of stuff you want to take back with you being shoved into your bag.+...But how will you go back? Do you even need these things?
+()<Speaker>Commander</Speaker>||:...And why is it that you're starting to feel a little reluctant about going?
+()||:You can't help but smile bitterly about your feelings. It's then that you spot a note on the table that you've never seen before.
+()<Speaker>Commander</Speaker>||:This is...?
+()<Speaker>Note</Speaker>||:Get your ass to the Forest Park.+I'll kill you if you're late.
+()<Speaker>Commander</Speaker>||<黑点1>:...How the hell am I supposed to know if I'm late if you don't even state the time?!+And you didn't even sign it! Although I already know who wrote it!
+()||<黑点2><BIN>593</BIN>:...
+()||:You follow the note's directions and arrive at the Forest Park, but there's no sign of Saki.
+()<Speaker>Commander</Speaker>||: ...I wonder if she got tired of waiting and left or if she didn't show up in the first place.
+()||:You scratch your head, briefly at a loss for what to do next.+And then, just as you're lost in your thoughts—
+()<Speaker>Saki Nikaido</Speaker>||:<size=50>TEN—HUT!</size>
+()<Speaker>Commander</Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:Guwargh?!
+()||:Saki suddenly appears behind you, dressed in her biker outfit. Her strident voice startles you so much that you almost go for your sidearm.
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:The hell is this? You've left yourself wide open! How are you supposed to hold up the name of Franchouchou when you go back?!
+()<Speaker>Commander</Speaker>||:Urm... Sorry.
+()||:Although you don't know what you did wrong, you sincerely apologize anyway.
+()||<SE1>AVG_footsteps_cave</SE1>:Meanwhile, Saki glares at you with a stern face before unfolding the arms that she's crossed in front of her chest and stalking menacingly towards you.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Ah, Saki, what are you...
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:Stand up straight! No muttering!
+()<Speaker>Commander</Speaker>||:...
+()||:Saki feels like she's gone back to how she was when you first met. In fact, she seems even fiercer than that.+However, you sense something else in her attitude, so you do as she says.
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:It's only been a week since you joined Franchouchou.+So no matter what, you're our rookie and our bottom man!
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>Commander</Speaker>||:...
+()||:...Hm?+What you're witnessing now, Saki's tone and the way the two of you are standing...+...No way?
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:If you were in the gang, you wouldn't even do any racing; you'd be a runner to get bento at best.+Still... Ahem.
+()||:Saki clears her throat.
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:Commander!
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>Commander</Speaker>||:Present.
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:By the power vested in me as Franchouchou Member No. 2 and their leader, I henceforth officially declare this.+Now and forever, I acknowledge you as Franchouchou's producer and allow you to use Franchouchou's name at any time or place.
+()||<SE1>ClothingUp</SE1>:With that, Saki sternly produces something from her biker outfit that you've long since grown used to.
+()<Speaker>Commander</Speaker>||:Wait a minute, Saki, this is...
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:Quiet.
+()<Speaker></Speaker>||<common_effect>%%code=Saga_Saki_item%%</common_effect>:She walks up to you, holding the armband that's been washed until its color has faded, and proceeds to attach it to your arm in person.
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||<关闭蒙版>:I didn't want to come looking for you at first, because I'm not a fan of long whiny goodbyes.+But after thinking about it, I realized I had to give this to you after all.
+()||:After putting the armband on you, she smiles and crosses her arms before nodding in satisfaction.
+NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:Not bad! It suits you pretty well!
+NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>Commander</Speaker>||:...Thank you, Saki.
+NPC-Saki(14)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:Hah? Do you even know how these things work?+There's something else you ought to be saying besides "thank you", right!
+NPC-Saki(14)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>Commander</Speaker>||:...
+()||:You stand up straight.
+()<Speaker>Commander</Speaker>||:I'll accept Franchouchou's banner!
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:Very good! No matter where you return to, no matter who you face...+As long as you flash this armband, you'll be Franchouchou's producer and the person that I, Saki Nikaido, have acknowledged!+Remember that!
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>Commander</Speaker>||:...I won't forget.
+NPC-Saki(16)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:...
+()||:And with that last shout, it feels like Saki's bled off all her strength. Even that mysterious aura around her has vanished too.
+NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:...Take our flag out into the world, partner.
+()||:She smiles, and bids you farewell in the best possible way.
+()<Speaker>Commander</Speaker>||:...You too, Saki.+Make Franchouchou even better.+Until even I can hear your song from my side.
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:What kind of nonsense are you talking, of COURSE I'm going to do that, dumbass!+First Kyushu, then all of Japan!
+NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:And someday, Franchouchou's name will ring in every corner of the world.
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:So as our vanguard, you'd better prepare to greet us with a celebration when we meet again!
+()<Speaker>Commander</Speaker>||:No problem, Boss.+Leave it to me.
+()||<SE1>Rope</SE1>:You extend the arm that has the armband on it and Saki fist bumps you.
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:We've only been around each other for a short while, but it was fun meeting you.+Don't you dare let anyone look down on you when you get back.
+NPC-Saki(15)<Position>-300,-260</Position><Scale>1.93</Scale><同时置暗><Speaker>Commander</Speaker>||:...I won't.+I've got a way to deal with people who "look down on me".
+NPC-Saki(13)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:That's the spirit!
+()||:She slaps you on your shoulder, then turns and heads into the forest. It is then that you realize that her bike is parked there.
+()||<SE1>AVG_Moto_Start</SE1>:Vroom—+After gunning the bike's engine, she waves to you.
+NPC-Saki(12)<Position>-300,-260</Position><Scale>1.93</Scale><Speaker>Saki Nikaido</Speaker>||:The hell are you standing around for? Mount up, I'll send you back.
+()<Speaker>Commander</Speaker>||:...Coming.
+()||<SE1>AVG_Moto_Run</SE1>:You get on the bike and Saki revs the throttle. A gust of wind immediately races past you. +On your arm, Franchouchou's armband flaps loudly in the chilly breeze.
+()||:...You won't forget it.+You will never forget everything you've experienced during this time.+And also...+That you are a bona fide member of Franchouchou.
+()||<黑点1>:

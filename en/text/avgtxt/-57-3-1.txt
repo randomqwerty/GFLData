@@ -1,38 +1,38 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>84</BIN><黑屏2><BGM>GF_21winter_avg_nightbar</BGM>:一上午满满的日程已经让你疲惫，但你还是没有选择休息，而是来到了今晚要进行暖场演出的livehouse门外。+你告诉法兰秀秀，你是来提前侦查敌情，但你很清楚你真实的想法是什么。
+()<Speaker></Speaker>||<BIN>84</BIN><黑屏2><BGM>GF_21winter_avg_nightbar</BGM>:A morning packed full of errands has left you exhausted, but instead of getting some rest, you have decided to come to the Live House where Franchouchou will be performing as the opening act tonight. +You've told Franchouchou that you're here to gather information on their opponents, but you know full well what your real motives are.
 ()||<黑点1>:
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>586</BIN><SE1>AVG_20Winter_Door_Open</SE1>:……
-()<Speaker></Speaker>||:现场已经摆满了粉丝送来的鲜花、宣传牌，夜间咖啡馆的人气可见一斑。+你在其中发现了一个熟悉的人。
-()<Speaker>指挥官</Speaker>||:又见面了。
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:你果然也来了，是来看夜间咖啡馆的演唱会吗？
-()<Speaker>指挥官</Speaker>||:……<c>A 为了夜间咖啡馆<c>B 为了法兰秀秀
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:其实我粉的偶像团体今晚在这里也有演出的。
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>2</分支>:不会是那个……什么法兰秀秀吧？
-NPC-Fans(0)<Speaker>指挥官</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||<分支>2</分支>:正是。
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>2</分支>:那你们真是麻烦了。+希望你们不会被夜间咖啡馆甩太远喔，虽然我觉得是不可能的！
-()<Speaker>指挥官</Speaker>||<分支>2</分支>:……那可不一定呢。
-()<Speaker></Speaker>||<分支>2</分支>:你看向夜间咖啡馆的演唱会招牌，法兰秀秀的名字甚至没有出现在上面。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:是啊，我很期待夜间咖啡馆的演出。
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>1</分支>:太好了！她们绝对不会让你失望的！
-NPC-Fans(0)<Speaker>指挥官</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||<分支>1</分支>:嗯！
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>1</分支>:说起来，今晚似乎有个名不见经传的偶像团体要为她们做暖场演出呢。+好像叫什么……
-NPC-Fans(0)<Speaker>指挥官</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||<分支>1</分支>:法兰秀秀？
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>1</分支>:好像是这个名字，真惨啊，排在夜间咖啡馆前面，一定会被比下去的。
-()<Speaker>指挥官</Speaker>||<分支>1</分支>:……
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:我先走了，听说夜间咖啡馆已经抵达佐贺，正在四处闲逛喔。+我也要加入偶遇她们的队伍！
-NPC-Fans(0)<Speaker>指挥官</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||:什么？！+在哪里能见到她们？
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:看来你也已经是咖啡粉的一员了嘛，我听说，夜间咖啡馆的成员每到一个地方，都会去当地有名的快餐店和练歌房看看。
-NPC-Fans(0)<Speaker>指挥官</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||:快餐店和练歌房吗？谢谢你。
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:客气了，咖啡粉之间互帮互助嘛，晚上见。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:还有件事——
-()<Speaker></Speaker>||:你抓住了这个戴着面具的少女，其实从第一次见面，你就觉得她非常眼熟……
-()<Speaker>指挥官</Speaker>||:可以摘下你的面具看看吗？
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale><Shake>0.1</Shake>||:<size=50>你要做什么？！</size>+放开我，我的面具，只有我的爱豆才能揭下！
-()<Speaker>指挥官</Speaker>||:你长得很像我认识的一个人……
-()<Speaker></Speaker>||<SE1>Rope</SE1>:你的手按在了她的面具上，但下一秒——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><白屏2>:你就遭到了一个结结实实的正面头槌。
-()<Speaker>指挥官</Speaker>||:呜啊——
-NPC-Fans(0)<Speaker>狂热粉丝</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:<size=50>真是看错你了！</size>+<size=50>没想到咖啡粉里还有你这样的变态！</size>
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:面具少女头也不回地跑走了，留下你在原地捂着额头缓了很久。
-()<Speaker>指挥官</Speaker>||:至少有了点收获……+下午去练歌房或者快餐店看看吧。
-()||<黑点1>:
+()<Speaker>Commander</Speaker>||<黑点2><BIN>586</BIN><SE1>AVG_20Winter_Door_Open</SE1>:...
+()<Speaker></Speaker>||:The venue is already brimming with fresh flowers and signs sent by Late Night Café's fans. The popularity of the group is evident. +You spot a familiar figure at the venue.
+()<Speaker>Commander</Speaker>||:We meet again.
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:I knew you'd come. Here to attend Late Night Café's concert?
+()<Speaker>Commander</Speaker>||:...<c>A. I'm here for Late Night Café.<c>B. I'm here for Franchouchou.
+()<Speaker>Commander</Speaker>||<分支>2</分支>:Actually, the idol group that I'm a fan of will also be performing here tonight.
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>2</分支>:You don't mean... what are they called again? Franchouchou?
+NPC-Fans(0)<Speaker>Commander</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||<分支>2</分支>:Indeed.
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>2</分支>:Then you're in big trouble. +You'd better pray that Late Night Café won't leave Franchouchou in the dust, though I doubt they'd even stand a chance!
+()<Speaker>Commander</Speaker>||<分支>2</分支>:...We'll see about that.
+()<Speaker></Speaker>||<分支>2</分支>:You glance at the signboard promoting Late Night Café's concert. Franchouchou's name isn't even on it.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:Yeah, I'm really looking forward to their performance.
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>1</分支>:That's great! They'll definitely live up to your expectation!
+NPC-Fans(0)<Speaker>Commander</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||<分支>1</分支>:Cool!
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>1</分支>:Oh right, I think some small-time idol group will be the opening act today. +What are they called again...?
+NPC-Fans(0)<Speaker>Commander</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||<分支>1</分支>:Franchouchou?
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||<分支>1</分支>:That's probably the one. I feel sorry for them. Performing right before Late Night Café will make them look so bad in comparison.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:...
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:Well, I'd better go. Late Night Café has apparently already arrived in Saga and are checking out the city. +I'm going to follow them!
+NPC-Fans(0)<Speaker>Commander</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||:What?! +Where can I see them?
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:I see you're also a Coffee Lover! I hear that Late Night Café always visit a famous fast food restaurant and karaoke place wherever they go on tour.
+NPC-Fans(0)<Speaker>Commander</Speaker><Position>0,-250</Position><Scale>1.7</Scale><同时置暗>||:A fast food restaurant and karaoke? Thanks.
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:Don't mention it. We Coffee Lovers are always here for each other. See you tonight.
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:One more thing—
+()<Speaker></Speaker>||:You grab the masked girl. Ever since you first met her, she's reminded you very much of someone...
+()<Speaker>Commander</Speaker>||:Can I see your face under your mask?
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale><Shake>0.1</Shake>||:<size=50>What are you doing?!</size>+Let go of me! Only my aidoru gets to take off my mask!
+()<Speaker>Commander</Speaker>||:You look like someone I know...
+()<Speaker></Speaker>||<SE1>Rope</SE1>:You manage to grab hold of her mask, but the next second—
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><白屏2>:You get headbutted squarely in the face.
+()<Speaker>Commander</Speaker>||:Owwww!
+NPC-Fans(0)<Speaker>Die-Hard Fan</Speaker><Position>0,-250</Position><Scale>1.7</Scale>||:<size=50>I was so wrong about you!</size>+<size=50>I never thought a pervert like you could be a Coffee Lover!</size>
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:The masked girl runs off without a backward glance, leaving you alone to cradle your throbbing forehead.
+()<Speaker>Commander</Speaker>||:At least you haven't come away empty-handed... +You might want to try the karaoke box or fast food restaurant in the afternoon.
+()||<黑点1>:
