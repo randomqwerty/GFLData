@@ -194,7 +194,8 @@ patch3020=
 "3020/DailyExploreBattleWindow",
 "3020/SangvisLabelController",
 "3020/PlayerReturnEventCtrl",
-"3020/OPSWebWindows",		
+"3020/OPSWebWindows",
+"3020/GunStateGunLikeController",			
 }
 -- va11
 print("load Va11");
