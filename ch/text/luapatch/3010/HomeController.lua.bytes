@@ -83,10 +83,21 @@ local InitEmoji = function(self)
 		end
 	end
 end
+local UpdateCurrLive2DAdjutant = function(self)
+	
+end
+local OnAVGEnd = function(self)
+	CS.CommonController.Invoke(function()
+			self.transformLive2dRoot.gameObject:SetActive(true);
+			CS.CommonAudioController.PlayBGM("BGM_Home");
+		end,0.2,self);
+end
 util.hotfix_ex(CS.HomeController,'SevenLoginHandler',SevenLoginHandler)
 --util.hotfix_ex(CS.HomeController,'OnApplicationFocus',myOnApplicationFocus)
 util.hotfix_ex(CS.HomeController,'CheckPassOrderScaleUI',myCheckPassOrderScaleUI)
 util.hotfix_ex(CS.HomeController,'ShowUI',ShowUI)
+--util.hotfix_ex(CS.HomeController,'UpdateCurrLive2DAdjutant',UpdateCurrLive2DAdjutant)
+util.hotfix_ex(CS.HomeController,'OnAVGEnd',OnAVGEnd)
 util.hotfix_ex(CS.HomeUserInfoNewController,'InitEmoji',InitEmoji)
 
 
