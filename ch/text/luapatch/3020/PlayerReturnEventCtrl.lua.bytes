@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.PlayerReturnEventCtrl)
 xlua.private_accessible(CS.PlayerReturnFundCtrl)
+xlua.private_accessible(CS.PassBuyPassBoxController)
 
 local Awake = function(self)
 	self:Awake();
@@ -34,7 +35,14 @@ local _OnIAPValidateComplete = function(self)
 		Tex_Count:GetComponent(typeof(CS.ExText)).text = "";
 	end
 end
+local _PassIAPComplete = function(self)
+	self:OnIAPValidateComplete();
+	if CS.PassOrderUserData.Instance.normalGood ~= nil then
+		self:RefreshPriceLabel();
+	end
+end
 if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
  util.hotfix_ex(CS.PlayerReturnFundCtrl,'OnIAPValidateComplete',_OnIAPValidateComplete)
+ util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',_PassIAPComplete)
 end
 --util.hotfix_ex(CS.PlayerReturnEventCtrl,'Awake',Awake)
