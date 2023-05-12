@@ -250,6 +250,11 @@ AudioBT|stop_AVG_applause_indoor|stop_AVG_applause_indoor|AVG
 AudioBT|Stop_AVG_loop|Stop_AVG_loop|AVG
 AudioBT|Stop_RunStep_loop|Stop_RunStep_loop|AVG
 AudioBT|Stop_Battle_loop|Stop_Battle_loop|Battle
+AudioBT|UI_Audit_Defeat|UI_Audit_Defeat|Battle
+AudioBT|UI_scanner|UI_scanner|Battle
+AudioBT|AVG_Breathing|AVG_Breathing|Battle
+
+
 
 
 AudioUI|UI_FurniturePerformance_11|UI_FurniturePerformance_11|UI
@@ -483,9 +488,12 @@ AudioUI|UI_DailyEvent_Jump|UI_DailyEvent_Jump|UI
 AudioUI|UI_DailyEvent_DaynNight|UI_DailyEvent_DaynNight|UI
 AudioUI|UI_DailyEvent_Click|UI_DailyEvent_Click|UI
 AudioUI|UI_DailyEvent_Message|UI_DailyEvent_Message|UI
+AudioUI|UI_ DailyEvent_DaynNight|UI_ DailyEvent_DaynNight|UI
+AudioUI|UI_ DailyEvent_NightnDay|UI_ DailyEvent_NightnDay|UI
 
 //3020日常玩法老音效
-//AudioUI|UI_Fetter_MilestoneClick|UI_Mileston|UI
+AudioUI|UI_Mileston|UI_Mileston|UI
+AudioUI|UI_Mileston|UI_Mileston|UI
 //AudioUI|UI_camera_pushin|UI_camera_pushin|UI
 //AudioUI|UI_Appraise_Dissatisfied|UI_Appraise_Dissatisfied|UI
 
@@ -950,7 +958,7 @@ AudioBGM|BGM_stage9|GF_MAP9_BGM|BGM
 AudioBGM|BGM_stage10|GF_MAP10_BGM|BGM
 AudioBGM|BGM_stage11|GF_MAP11_BGM|BGM
 AudioBGM|BGM_stage12|GF_MAP12_BGM|BGM
-AudioBGM|BGM_stage13|GF_Map13_BGM|BGM
+AudioBGM|BGM_stage13|GF_MAP13_1_BGM|BGM
 
 //宿舍探索玩法
 AudioBGM|AMB_tvmusic_random|AMB_tvmusic_random|BGM
@@ -1594,7 +1602,7 @@ AudioBGM|BGM_22Swim_Main|BGM_22Swim_Main|BGM
 AudioUI|UI_BP_skin|UI_BP_skin|UI
 
 //2022夏活关卡BGM
-AudioBGM|Campaion-54|GF_2022_Summer_Main_1|BGM
+//AudioBGM|Campaion-54|GF_2022_Summer_Main_1|BGM
 AudioBGM|11117|GF_2022_Summer_Battle_1|BGM
 AudioBGM|11118|GF_2022_Summer_Battle_3|BGM
 AudioBGM|11119|GF_2022_Summer_Battle_1|BGM
@@ -3039,13 +3047,74 @@ AudioBGM|530203|BGM_23SF_Battle_1|BGM
 AudioBGM|530204|BGM_23SF_Battle_1|BGM
 AudioBGM|530205|BGM_23SF_Battle_1|BGM
 AudioBGM|530206|BGM_23SF_Battle_1|BGM
-AudioBGM|580001|2022_white_valentine_BGM1|BGM
-AudioBGM|580002|2022_white_valentine_BGM1|BGM
-AudioBGM|580003|2022_white_valentine_BGM1|BGM
-AudioBGM|580004|2022_white_valentine_BGM1|BGM
-AudioBGM|580005|2022_white_valentine_BGM1|BGM
-AudioBGM|580006|2022_white_valentine_BGM1|BGM
 
 //3020日常玩法BGM
-AudioBGM|BGM_DailyEvent_Day|BGM_DailyEvent_Day|BGM
-AudioBGM|BGM_DailyEvent_Night|BGM_DailyEvent_Night|BGM
+//AudioBGM|BGM_DailyEvent_Day|BGM_DailyEvent_Day|BGM
+//AudioBGM|BGM_DailyEvent_Night|BGM_DailyEvent_Night|BGM
+AudioBGM|BGM_Dailymap_Main_1|BGM_Dailymap_Main_1|BGM
+
+//2023春活界面BGM
+AudioBGM|Campaion-58-1|BGM_23S_Winter_Night_Slow_2|BGM
+AudioBGM|Campaion-58-2|BGM_23S_Winter_Night_Slow_2|BGM
+AudioBGM|Campaion-58-3|2023_springact_tower_battle|BGM
+AudioUI|Campaion-58-12|UI_23S_ChapterSwitch1|UI|
+AudioUI|Campaion-58-21|UI_23S_ChapterSwitch1|UI|
+AudioUI|Campaion-58-23|UI_23S_ChapterSwitch2|UI|
+AudioUI|Campaion-58-32|UI_23S_ChapterSwitch2|UI|
+AudioUI|Campaion-58-13|UI_23S_ChapterSwitch2|UI|
+AudioUI|Campaion-58-31|UI_23S_ChapterSwitch2|UI|
+AudioUI|UI_23S_ChapterDetail|UI_23S_ChapterDetail|UI|
+
+
+//2023春活关卡BGM
+AudioBGM|11335|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11337|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11341|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11343|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11347|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11349|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11353|GF_21winter_battle_3|BGM
+AudioBGM|11355|GF_21winter_battle_3|BGM
+AudioBGM|11359|GF_21winter_avg_betray|BGM
+AudioBGM|11364|BGM_Scar_Battle|BGM
+AudioBGM|11366|GF_21summer_battle_3|BGM
+AudioBGM|11368|GF_22W_BGM_1_NM|BGM
+AudioBGM|11370|GF_22W_BGM_4|BGM
+AudioBGM|11372|GF_22W_BGM_2_NM|BGM
+AudioBGM|11374|GF_21summer_battle_4|BGM
+AudioBGM|11377|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11378|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11379|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11380|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11381|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11382|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11383|GF_21winter_battle_3|BGM
+AudioBGM|11384|GF_21winter_battle_3|BGM
+AudioBGM|11385|GF_21winter_avg_betray|BGM
+AudioBGM|11386|BGM_Scar_Battle|BGM
+AudioBGM|11387|GF_21summer_battle_3|BGM
+AudioBGM|11388|GF_22W_BGM_1_NM|BGM
+AudioBGM|11389|GF_22W_BGM_4|BGM
+AudioBGM|11390|GF_22W_BGM_2_NM|BGM
+AudioBGM|11391|GF_21summer_battle_4|BGM
+AudioBGM|11392|BGM_Scar_Battle|BGM
+AudioBGM|11393|GF_21summer_battle_3|BGM
+AudioBGM|11394|GF_22W_BGM_1_NM|BGM
+AudioBGM|11395|GF_22W_BGM_4|BGM
+AudioBGM|11396|GF_22W_BGM_2_NM|BGM
+AudioBGM|11397|GF_21summer_battle_4|BGM
+AudioBGM|11398|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11399|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11400|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11401|BGM_23S_Winter_Night_Highcut|BGM
+AudioBGM|11402|GF_22W_BGM_2_NM|BGM
+AudioBGM|11403|GF_22W_BGM_2_NM|BGM
+AudioBGM|11404|BGM_23S_ED|BGM
+
+//2023春活慢休克剧情BGM
+AudioBGM|BGM_23S_Crossroads_Warrior|BGM_23S_Crossroads_Warrior|BGM
+AudioBGM|BGM_23S_Expedition_Story|BGM_23S_Expedition_Story|BGM
+AudioBGM|BGM_23S_War_Sacrifice|BGM_23S_War_Sacrifice|BGM
+AudioBGM|BGM_23S_Winter_Night|BGM_23S_Winter_Night|BGM
+AudioBGM|BGM_23S_Winter_Night_Bayan_Version|BGM_23S_Winter_Night_Bayan_Version|BGM
+AudioBGM|BGM_23S_ED|BGM_23S_ED|BGM
