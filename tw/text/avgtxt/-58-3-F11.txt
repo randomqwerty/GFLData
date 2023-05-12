@@ -1,0 +1,50 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BGM>GF_EV9_Story</BGM><BIN>446</BIN>:……阿佛那斯，東塔，迴旋樓梯。
+AN94MOD(0)<Speaker>AN94</Speaker>||:……你確定要這麼做嗎？
+AN94MOD(0);NPC-Koleda(0)<Speaker>克萊妲</Speaker><通讯框>||:<color=#00CCFF>我已經決定了。</color>+<color=#00CCFF>還有很多工作等待完成，你們沒有猶豫的時間。</color>
+AN94MOD(0)<Speaker>AN94</Speaker>;NPC-Koleda(0)<通讯框>||:……
+AN94MOD(0);NPC-Koleda(0)<Speaker>克萊妲</Speaker><通讯框>||:<color=#00CCFF>我們還需要對這棟建築內部做出更大程度的破壞，才能幫穆羅梅茨鋪開徹底掃除帕拉蒂斯的道路。</color>+<color=#00CCFF>不要忘記，無論是安潔還是指揮官，我們的目的都只有一個，抓到罪魁禍首。</color>
+AN94MOD(0)<Speaker>AN94</Speaker>;NPC-Koleda(0)<通讯框>||:是。
+NPC-Koleda(0)<Speaker>克萊妲</Speaker><通讯框>||:<color=#00CCFF>注意隱蔽，保持聯絡。</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通訊掛斷了。
+AN94MOD(0)<Speaker>AN94</Speaker>||:走吧，15。
+AK15MOD(0)<Speaker>AK15</Speaker>||:……
+()<Speaker></Speaker>||:AK15警覺地盯著前方走廊拐角，她靜靜抬起了槍。+AN94沒有多問，也同樣戒備起了前方。
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:噠、噠、噠——不甚規律的腳步聲虛浮地響起，兩人的手指都扣上了扳機。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……RO，我來了。
+AK15MOD(0)<Speaker>AK15</Speaker>||:……
+AN94MOD(0)<Speaker>AN94</Speaker>||:SOP2！？
+()<Speaker></Speaker>||:素體無限逼近報廢的SOP2緩緩挪動著，卻對湊近前來的AK15和AN94視若無睹。
+AK15MOD(0)<Speaker>AK15</Speaker>||:她為什麼不理我們？這不符合她的行為邏輯。
+AN94MOD(0)<Speaker>AN94</Speaker>||:SOP2？請回應我。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……
+()<Speaker></Speaker>||:SOP2無神地向前跛行著，即便撞上了AK15也只是懵然繞開。
+AN94MOD(0)<Speaker>AN94</Speaker>||:她的狀態不太對勁……
+AK15MOD(0)<Speaker>AK15</Speaker>;AN94MOD(0)||:她失去了對環境的感知。
+AK15MOD(0);AN94MOD(0)<Speaker>AN94</Speaker>||:她看不見我們，也感覺不到我們的存在。
+AK15MOD(0)<Speaker>AK15</Speaker>||:你有什麼辦法能讓她恢復知覺嗎？
+()<Speaker></Speaker>||:AN94靜靜看著SOP2冰封般的臉龐。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……
+AN94MOD(0)<Speaker>AN94</Speaker>||:給我三分鐘。
+AK15MOD(0)<Speaker>AK15</Speaker>||:好，這裡交給我。
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:AN94駭入了SOP2的心智。
+()<Speaker></Speaker>||<BGM>BGM_Wake</BGM><黑屏2><BIN>9</BIN>:……+無垠的黑暗。+AN94找到了瑟縮在角落的SOP2。
+AN94MOD(0)<Speaker>AN94</Speaker>||:……
+()<Speaker>M4 SOPMOD II</Speaker>||:……
+AN94MOD(0)<Speaker>AN94</Speaker>||:……SOP2？
+()<Speaker></Speaker>||:SOP2緊緊地閉上雙眼，雙手也死死地捂住耳朵。
+AN94MOD(0)<Speaker>AN94</Speaker>||:是我，SOP2。
+()<Speaker>M4 SOPMOD II</Speaker>||:假的，都是假的……+就算你肢體亂飛死在我面前，也是假的！
+AN94MOD(0)<Speaker>AN94</Speaker>||:……是心智攻擊嗎？+已經結束了，SOP2，你已經安全了。
+()<Speaker>M4 SOPMOD II</Speaker>||:我什麼都看不見！聽不見！你拿我沒轍的！
+AN94MOD(0)<Speaker>AN94</Speaker>||:……+你的心智紊亂太厲害，我只能強行介入了，抱歉。
+()<Speaker></Speaker>||:AN94的手伸向了SOP2頭戴的天線……
+()<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:……
+AK15MOD(0)<Speaker>AK15</Speaker>||<黑屏2><BIN>446</BIN><BGM>GF_EV9_Story</BGM>:解決了？
+AK15MOD(0);AN94MOD(0)<Speaker>AN94</Speaker>||:嗯，她的心智恢復平靜了。
+AK15MOD(0)<Speaker>AK15</Speaker>;AN94MOD(0)||:她在找RO嗎？
+AK15MOD(0);AN94MOD(0)<Speaker>AN94</Speaker>||:是的，按計劃，她們應該匯合去救安潔。
+AK15MOD(0)<Speaker>AK15</Speaker>;AN94MOD(0)||:……
+AN94MOD(0)<Speaker>AN94</Speaker>||:我們把她送回RO那邊，再繼續任務吧。
+()<Speaker></Speaker>||:AK15默默地將暫時昏迷的SOP2扛了起來，兩個白色的身影猶如黑夜中的魅影，消失在迴旋的空間之中……
+()||<黑屏1>:

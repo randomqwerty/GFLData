@@ -1,0 +1,105 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>655</BIN><narrator>:親愛的布萊克薇爾，我不覺得這是重啟「聖杯」的好時機，但我別無選擇。+我曾想過等待一切準備完畢，但是……現況並不容許，我無比痛恨過去的自己，如果當時的我能圓滑一點，妥協一點，就不會被遺跡署那幫混蛋針對……+我無法回到美國，而外籍人士在當地醫院，連一針地塞米松都要排隊三天。+也許，是過去的我太過懦弱，明明技術上已經具備可實施性，只是我一直膽怯。是我不敢重新站起來……+這一刻，我不得不下定決心，我決定不再使用過去的名字，而是更名為【海拉】。+在我懷中閉上雙眼的紗那，或許還有再重新站起來的一天。+2051年，邁特納寫於莫斯科。
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1><黑屏2><BIN>99</BIN><narrator>:2051年春，第三次世界大戰爆發第七年。+坍塌輻射污染了大片土地，高烈度的常規戰爭讓世界人口銳減。+人們肉眼可見的只剩戰爭過後的焦土，代表希望的嫩綠色，不知何時才能重新降臨這片大地。
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>480</BIN>:太平洋西南側 黃區群島
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:稠密黏膩的風刮過，帶起星星點點的綠色晶石碎屑，被一雙軍靴碾在腳下。+身穿防護服的亞歷山大踩著濕潤的泥土，通訊器訊號燈時綠時紅。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:潘，游騎兵的運輸車有動靜嗎？
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我看看——見鬼的能見度，比普希金的詩還朦朧。</color>+<color=#00CCFF>運輸車停著呢，一點兒沒動。</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Pan(0)||:盯緊點，有情況第一時間上報。
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||:<color=#00CCFF>知道了！</color>+<color=#00CCFF>哦，真想趕快打完這該死的鳥仗，回莫斯科親吻我的繆斯們。</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:如果讓排長聽見你的偉大理想，相信我，她的鞋底會狠狠親吻你的鼻子。
+()<Speaker></Speaker>||:通訊頻道裡傳來觀察哨點其他士兵的哄笑聲。
+NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||:<color=#00CCFF><size=50>笑什麼笑！</size></color>+<color=#00CCFF>沒上過戰場就是排長，嘿！指揮官學校畢業的就是不一樣。</color>+<color=#00CCFF>哪像我們，高純度炮灰。</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Pan(0)||:重點是這個嗎？
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||:<color=#00CCFF>當然，不是每個指揮官學院畢業的都有這待遇，主要人家投胎投得好。</color>+<color=#00CCFF>哥哥是上尉，而她就差把「我要當元帥」刻在腦門上了！</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:看好你的2號哨點。+排長頭一回帶隊出任務，鐵了心要漂漂亮亮完成，要是你搞砸了——
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴，潘罵罵咧咧關閉了語音。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:亞歷山大搖搖頭，這時另一條通訊傳進來，一個愁苦憊懶的聲音響起。
+NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>亞歷山大，1號哨點可能有發現。</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:游騎兵的增援到了？等等，你跟排長說了嗎？
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||:<color=#00CCFF>跟那小丫頭說啥，你才是我心裡的排長。</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:……戰場上，要聽指揮。
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||:<color=#00CCFF>游騎兵增援沒到，是1號哨點發現了一個無線電訊號，又消失了，我懷疑——</color> 
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:游騎兵的通訊頻道？+你能破譯嗎？
+NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||:<color=#00CCFF>不行，輻射濃度太高了，咱們帶的老設備年紀比我都大，有個屁用。</color>
+()<Speaker></Speaker>||:此時亞歷山大已經走到了臨時集合點，島上一座破落的廠房。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:留守的三名運輸車駕駛員之一正在門口放哨，亞歷山大揮手示意。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:比你年紀小的設備，要嘛在修理廠，要嘛在垃圾堆。+別抱怨了，看好你的1號哨點。 
+NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||:<color=#00CCFF>意思意思得了，咱們只負責偵察，又不管作戰。</color>
+()<Speaker></Speaker>||:亞歷山大走到廠房門口，正要掛斷通訊，忽然聽到了維克多聲音的二重唱。
+NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我跟你說，幸虧這回只是偵察，不然新兵蛋子當指揮，我心裡不踏實啊。</color>+<color=#00CCFF>學院派出來的人，課本咋說他們咋打，全聽書上的！</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:……別說了。
+()||<黑点1><SE1>AVG_door_elecport</SE1>:
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:空曠的廠房裡，新排長安娜坐在放有通訊設備的拼接方桌後面，靠著椅背，一雙長腿搭在桌邊，劃著手裡的平板。+收發器裡，維克多的聲音分外清晰。
+NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||:<color=#00CCFF>書呆子就是靠不住！</color>
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:……排長，我回來補充抗輻射藥！
+NPC-Wiktor(0)<Speaker>維克多</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>……！！</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴——1號哨點切斷通訊。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜指了指一旁的運輸車，眼睛沒有離開平板。
+NPC-Ange(28)<Speaker>安娜</Speaker>||:車裡，補給箱，自己拿。
+()<Speaker></Speaker>||<SE1>Rope</SE1>:運輸車裡待命的駕駛員探出半個腦袋，對著亞歷山大一翹大拇指，擠眉弄眼。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||<BGM>GF_EV9_Story</BGM>:……你全都聽到了？
+NPC-Ange(28)<Speaker>安娜</Speaker>||:嗯，指揮部那邊順來的新設備，收音效果不錯。
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1><BIN>9</BIN><黑点2>:……
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:亞歷山大補充完抗輻射藥劑，走出來的時候，正看到安娜盯著螢幕沉思。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:你在看什麼？
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:思考游騎兵的目的。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Ange(28)||:……我們只需要偵查動向吧？+以目前的兵力，根本不可能跟他們正面衝突。
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:當然，這些島，荒無人煙的，又不是戰略重地。+游騎兵過來做什麼？+多用你脖子上那個玩意想想，功勞可不會在路邊等著你撿。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Ange(28)||:你不會想進那個紅區島嶼偵察吧？那裡——
+NPC-Ange(28)<Speaker>安娜</Speaker>||:那裡輻射濃度超過了人體承受極限，我當然知道。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:安娜用雷射筆指著全息投影，地形圖上，2處哨點就像兩粒芝麻撒落其中。+一座島嶼區域是大片空白，輻射粒子雲隔絕了大部分窺探。
+NPC-Ange(28)<Speaker>安娜</Speaker>||:不過，值得游騎兵跨國執行任務。+說不定，這個「任務目標」能讓我們連升三級，或者更多？
+()<Speaker></Speaker>||:亞歷山大卻沒有被功勞衝昏頭腦，他審視著安娜。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:排長，三排現在只有2個班，一半是年初強徵入伍的新兵，只比普通人多拿把槍。
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:值得試一試。+如果運作得當，不是沒有成功的可能。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>;NPC-Ange(28)||:……我還以為你會和前任排長不一樣。
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:那種用部下性命填炮口的東西？不不，我和他絕對不一樣。+他讓你們送死，但我會帶你們活，活到結束戰爭，帶著榮耀回家鄉。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:如果你經歷過真正的戰場，就會明白人是一種多麼脆弱渺小的東西，像西伯利亞的雪花。+雪花落在戰火裡，一點痕跡都留不下。
+()<Speaker></Speaker>||:安娜垂下眼。
+NPC-Ange(28)<Speaker>安娜</Speaker>||:是嗎？我早就知道了。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:通訊器忽然響起，安娜起身接起。
+NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>報告排長，2號哨點發現異常，輻射測量儀讀數大幅上漲。</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pan(0)||:上漲多少？持續多久？給我具體數據。 
+NPC-Ange(29);NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||:<color=#00CCFF>我看看……呃，讀數怎麼又落回去了？</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pan(0)||:……你沒讀過《偵察手冊》？
+NPC-Ange(29);NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||:<color=#00CCFF>那是什麼？</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pan(0)||:《步兵基本戰術》？
+NPC-Ange(29);NPC-Pan(0)<Speaker>二班長 潘</Speaker><通讯框>||:<color=#00CCFF>呃……</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>||:……回駐地後，我會讓你知道的。+注意防護，繼續保持監測。
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+無視潘的哀嚎，安娜切斷了通訊。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:……你真的打算培養他們？
+NPC-Ange(28)<Speaker>安娜</Speaker>||:不然呢？
+()<Speaker></Speaker>||:安娜目光澄明，與亞歷山大對視。
+NPC-Ange(28)<Speaker>安娜</Speaker>||:一兩片雪花遇火即融，如果是一場西伯利亞暴風雪呢？
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:……你到底想幹什麼？
+NPC-Ange(28)<Speaker>安娜</Speaker>||:不是刻在我腦門上了嗎——「我想當元帥」。
+()<Speaker></Speaker>||:亞歷山大被逗笑了，隨即他收起笑容。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:讓我想想。
+NPC-Ange(28)<Speaker>安娜</Speaker>||:你們成為了我的部下，我就會教你們成為優秀的軍人。+你還在猶豫，這很正常，但我相信，「時間會證明一切」。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:安娜伸出手，帶著期許的笑意。
+()<Speaker></Speaker>||:亞歷山大失笑，迎上去，和安娜碰拳。
+NPC-Alexander(0)<Speaker>亞歷山大</Speaker><Position>0,60</Position>||:要是三排戰士都變成你哥哥拉姆贊那樣的兵王，也許你能一統世界？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>10213</BGM>:安娜的神情忽然冷下來，她收回手。
+NPC-Ange(29)<Speaker>安娜</Speaker>||:我只有一個哥哥，艾赫明。+而他已經死了。
+()<Speaker></Speaker>||:亞歷山大藉口送藥慌忙離開，留守的運輸車駕駛員縮在車裡一聲不吭。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:安娜繼續對著地形圖出神。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:不久，通訊器再次響起，安娜隨手按下接聽。
+NPC-Ange(28)<Speaker>安娜</Speaker>||:這裡是近衛第57師駐P島部隊，步兵排長安娜•崔。
+NPC-Pamzan(4)<Speaker>？？？</Speaker><通讯框>||:<color=#00CCFF>我是上尉拉姆贊。</color>
+()<Speaker></Speaker>||:安娜臉色一變，而面的人看起來平淡而冷靜。
+NPC-Pamzan(4)<Speaker>拉姆贊</Speaker><通讯框>||:<color=#00CCFF>游騎兵增援一支常規陸戰部隊，軍方已經派出部隊攔截。</color>+<color=#00CCFF>但目前有一個連隊穿過了攔截網，我要求你部立刻阻擊對方，不能讓他們與游騎兵匯合。</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)<通讯框>||:你沒有權力調動我部兵力。
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆贊</Speaker><通讯框>||:<color=#00CCFF>我已獲得上級軍部授權，這裡的先期軍事行動由我指揮。</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)<通讯框>||:上尉，我必須提醒你，三排只有兩個班的兵力，只攜帶偵察設備和少量火力，目前分散在兩處哨點中偵察敵情。
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆贊</Speaker><通讯框>||:<color=#00CCFF>召集所有班組，布置防線，放棄偵察設備。我會立刻帶隊趕來支援。</color>+<color=#00CCFF>這是命令。</color>
+NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)<通讯框>||:最後一個問題，游騎兵進紅區到底要幹什麼？+至少，我要知道三排為什麼而戰！
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆贊</Speaker><通讯框>||:<color=#00CCFF>……他們要抓捕一名犯人，代號「死罪」，此人可能掌握著某項絕密遺跡技術。</color>+<color=#00CCFF>其它信息未知，情報部門還在調查。</color>+<color=#00CCFF>大部隊到來還需要3小時以上，現在外圍能攔截支援部隊的，只有你和我。</color>
+NPC-Ange(31)<Speaker>安娜</Speaker>||:……
+NPC-Ange(29)<Speaker>安娜</Speaker>||:我接受命令，上尉。
+()||<黑点1>:
