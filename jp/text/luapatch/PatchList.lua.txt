@@ -132,13 +132,15 @@ patch3010={
 "3010/BattleSLGModeController",
 "3010/WeddingPlay",
 "3010/FairyStateController",
-"3010/HomeUserInfoNewController",
+"3010/HomeUserInfoNewController",	
 "3020/QuestsController",
 "3020/FairyStateSkillController",
+"3010/HomeAdjutantController",	
 }
 patch3020=
 {
 "3010/HomeUserInfoNewController",
+"3010/HomeAdjutantController",	
 "3020/MissionSkillData",
 "3020/DeploymentController",
 "3020/QuestsController",
@@ -158,7 +160,8 @@ patch3020=
 "3020/DeploymentAllyTeamFloatingInfo",
 "3020/DeploymentAllyTeamController",	
 "3020/DeploymentTeamInfoController",
-"3020/DeploymentMapDragController",						
+"3020/DeploymentMapDragController",
+"3020/DeploymentEnemyTeamController",							
 "3020/ReinforcementFixAllConfirmBoxController",
 "3020/SquadListController",	
 "3020/CommonSquadListLabelController",	
@@ -191,7 +194,9 @@ patch3020=
 "3020/DailyExploreBattleWindow",
 "3020/SangvisLabelController",
 "3020/PlayerReturnEventCtrl",
-"3020/OPSWebWindows",		
+"3020/OPSWebWindows",
+"3020/GunStateGunLikeController",	
+"3020/BattleCharacterManager",			
 }
 -- va11
 print("load Va11");

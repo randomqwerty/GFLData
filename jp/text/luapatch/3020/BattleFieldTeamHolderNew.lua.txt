@@ -2,11 +2,6 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.GF.Battle.BattleFieldTeamHolderNew)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterManager)
 xlua.private_accessible(CS.GF.Battle.BattleMemberManager)
-xlua.private_accessible(CS.GF.Battle.BattleManager)
-xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
-
-
-
 
 local UpdateTargetsInRange = function(self,pos,skillCfg,createCfg)
 	local flag = false
@@ -66,20 +61,4 @@ VectorEquals = function(myPos,targetPos)
 	local equalflag = (CS.TrueSync.FP.EqualFP(myPosNormal.x,targetPosNormal.x) and CS.TrueSync.FP.EqualFP(myPosNormal.y,targetPosNormal.y))
 	return equalflag
 end
-
-local InitEnemyGroupInfo = function(self)
-	self:InitEnemyGroupInfo()
-	--print(CS.GF.Battle.BattleDynamicData.enemyTeamidUse)
-	local enemyTeamidUse = CS.GF.Battle.BattleDynamicData.enemyTeamidUse
-	if enemyTeamidUse == 942 or enemyTeamidUse == 1076 or enemyTeamidUse == 975
-		or enemyTeamidUse == 1109 or enemyTeamidUse == 1405 or enemyTeamidUse == 1011
-		or enemyTeamidUse == 700008 or enemyTeamidUse == 320901 or enemyTeamidUse == 930006
-		or enemyTeamidUse == 1162 or enemyTeamidUse == 92157 or enemyTeamidUse == 1173
-		or enemyTeamidUse == 590362 then
-		
-		util.hotfix_ex(CS.GF.Battle.BattleFieldTeamHolderNew,'UpdateTargetsInRange',UpdateTargetsInRange)
-	else
-		xlua.hotfix(CS.GF.Battle.BattleFieldTeamHolderNew,'UpdateTargetsInRange',nil)
-	end
-end
-util.hotfix_ex(CS.GF.Battle.BattleManager,'InitEnemyGroupInfo',InitEnemyGroupInfo)
+util.hotfix_ex(CS.GF.Battle.BattleFieldTeamHolderNew,'UpdateTargetsInRange',UpdateTargetsInRange)
