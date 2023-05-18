@@ -15,7 +15,7 @@ end
 
 local ClearCount = function(self)
 	if self.entranceId ~= 0 then
-		if CS.OPSConfig.missionEntranceInfos:ContainsKey(self.entranceId) then
+		if not CS.OPSConfig.missionEntranceInfos:ContainsKey(self.entranceId) then
 			return 0;
 		else
 			local info = CS.OPSConfig.missionEntranceInfos[self.entranceId];
