@@ -177,7 +177,7 @@ Start = function()
 	BtnPauseResolveBattle:GetComponent(typeof(CS.ExButton)).onClick:AddListener(function ()
 		ShowSettlementFromPause()
 	end)
-	isCountingTime = true
+
 	BtnCloseSettlement:GetComponent(typeof(CS.ExButton)).onClick:AddListener(function ()
 		EndSettlement()
 	end)
@@ -190,6 +190,7 @@ Start = function()
 	BtnStopSwitch:GetComponent(typeof(CS.ExButton)).onClick:AddListener(function ()
 		SwitchTimeStopShowSkill()	
 	end)
+	isCountingTime = true
 end
 
 Update = function()
@@ -583,16 +584,17 @@ function ShowSettlement()
 	end
 end
 function EndSettlement()
+	print("EndSettlement")
 	--if SettlementLose then
 	--	CS.BattleFrameManager.ResumeTime()
 	--	BattleController:TriggerBattleFinishEvent(true)
 	--else
 	local enemyList = {}
-	for k,v in pairs(BattleController.enemyTeamHolder:GetCharacters()) do
-		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
+	for k,v in pairs(BattleController.enemyTeamHolder:GetCharacters()) do	
 		enemyList[#enemyList+1] = v
 	end
 	for i = 1, #enemyList do
+		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
 		enemyList[i]:UpdateLife(DamageInfo, -999999)
 	end
 	CS.GF.Battle.BattleFrameTimer.Instance:ResumeStopTime()
