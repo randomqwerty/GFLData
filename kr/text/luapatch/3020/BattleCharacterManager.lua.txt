@@ -13,8 +13,18 @@ local VectorEquals = function(self,a,b,min)
 	return distance >= 1
 	
 end
-
+local OnReceiveAdvanceEvent = function(self,obj,e)
+	if self.isDeadOrRetreat then
+		return 
+	end
+	if self.data.isSquad then
+		return 
+	end
+	self:SetCharacterStatus(CS.GF.Battle.CharacterStatus.advancing)
+	self:Scout()
+end
 
 
 
 xlua.hotfix(CS.GF.Battle.BattleFriendlyCharacterManager,'VectorEquals',VectorEquals)
+xlua.hotfix(CS.GF.Battle.BattleFriendlyCharacterManager,'OnReceiveAdvanceEvent',OnReceiveAdvanceEvent)

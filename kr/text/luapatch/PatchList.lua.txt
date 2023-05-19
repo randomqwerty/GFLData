@@ -197,7 +197,7 @@ patch3020=
 "3020/PlayerReturnEventCtrl",
 "3020/OPSWebWindows",
 "3020/GunStateGunLikeController",	
-"3020/BattleCharacterManager",			
+--"3020/BattleCharacterManager",			
 }
 -- va11
 print("load Va11");

@@ -21,7 +21,7 @@ LAMG(0)<Position>0,100</Position>;NPC-Helian(0)<Speaker>헬리안</Speaker><通�
 NPC-Helian(0)<Speaker>헬리안</Speaker><通讯框>||:<color=#00CCFF>일단 온건하게 시도해 봐.</color>
 LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:네!
 ()||<黑点1>:LAMG는 공손히 통신을 종료한 후 지금부터 어떡할지 계획을 구상했다.
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<黑点2><边框>2</边框><SE1>AVG_doorknock_wood</SE1>:실례합니다, 안나 빅토르브나 최 씨 계시나요?+그리폰&크루거 안전계약사에서 나온 LAMG라고 합니다. 귀하를 저희 그리폰 사의 지휘관으로 모시고자 찾아뵈었습니다.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<黑点2><边框>2</边框><SE1>AVG_doorknock_wood</SE1>:실례합니다, 안나 빅토로브나 최 씨 계시나요?+그리폰&크루거 안전계약사에서 나온 LAMG라고 합니다. 귀하를 저희 그리폰 사의 지휘관으로 모시고자 찾아뵈었습니다.
 NPC-Ange(24)<Speaker>안나</Speaker>||<边框>2</边框>:...싫은데.
 ()||<边框>2</边框>:냉혹한 얼굴의 이 여성은 사람을 멀리하는 타입 같았다.+대대적인 군비 축소로 인해 명예 전역 "당한" 군인임을 감안하면, 이런 반응은 이해할 수 있는 범주였다.+"당황 말자, LAMG. 카리나 씨가 전수해 준 멘트로 대응하면 돼."
 LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<边框>2</边框>:매정하게 그러지 마시고 내용을 자세히 보고 고려해 주시면 안 될까요? 저희 그리폰은 비록 신생 기업이지만 매력적인 임금 급여 체계와 복지 제도도 이미 마련되어 있답니다.+저희 그리폰의 전술지휘관분들은 탄력근무제에 매달 요구량 이상의 의뢰를 달성하기만 하시면 돼요.+여기, 저희 기지의 내부 사진도 있으니 한번 봐 보세요.
@@ -34,7 +34,7 @@ NPC-Ange(23)<Speaker>안나</Speaker>||<边框>2</边框>:...오늘은 됐고, �
 LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<边框>2</边框>:에이 사양 마시고요~
 ()||<边框>2</边框><黑点1>:끝까지 거절 내지는 저항한다면, 마지막 수단으로 그냥 들어 업어서 차로 직행한다.+그리고 안에 던져 넣고 문을 잠그면 상대도 도망칠 길이 없고, 그대로 기지로 돌아가면 임무 완료.
 ()||<黑点2><SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:여기까지가 LAMG의 "완벽한" 시뮬레이션이었다.+문 앞에 선 LAMG는 옷깃과 머리를 정리한 다음, 절도 있고 예절 바른 리듬으로 문을 노크했다.
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:실례합니다, 안나 빅토르브나 최 씨 계시나요?+그리폰 안전계약사――
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:실례합니다, 안나 빅토로브나 최 씨 계시나요?+그리폰 안전계약사――
 ()||<SE1>AVG_Door_Hit</SE1><震屏><BGM>10394</BGM>:콰아앙!!+시뮬레이션한 첫 대사를 다 읊기도 전에 문짝이 안면을 들이받으려 해, LAMG는 가까스로 몸을 뒤로 굴리며 피했다.
 LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:헉... 헉... 저기, 안나 씨? 혹시 무슨 오해라도――
 NPC-Ange(24)<Speaker>안나</Speaker>||:아앙...?
@@ -105,7 +105,7 @@ NPC-Ange(12)<Position>0,25</Position>;NPC-Kyruger(0)<Speaker>크루거</Speaker>
 NPC-Ange(10)<Speaker>안나</Speaker><Position>0,25</Position>;NPC-Kyruger(0)||:오히려 당신의 생각부터 좀 듣고 싶네, 크루거 씨.+PMC라면 숱하게 봤어. 그런데 인형을 주력으로 운용하는 덴 이 회사가 처음이야.+저 쇳덩어리들의 어디가 그리 마음에 들었길래 이렇게 많은 투자를 한 거지?
 NPC-Ange(10)<Position>0,25</Position>;NPC-Kyruger(0)<Speaker>크루거</Speaker>||:...재미있는 질문이군.+안나, 자네의 경험으로 미루어 볼 때, 갓 군사 훈련을 받는 인간 병사가 적을 사살할 수 있을 수준으로 AK-12 사용에 숙달되는 데 얼마나 걸리겠나?
 NPC-Ange(10)<Speaker>안나</Speaker><Position>0,25</Position>;NPC-Kyruger(0)||:병사의 재능에 따라 다르겠지, 일반적으론 3개월에서 6개월 정도 걸리지만.
-NPC-Ange(10)<Position>0,25</Position>;NPC-Kyruger(0)<Speaker>크루거</Speaker>||:인형을 얼마나 걸리는지 아나?
+NPC-Ange(10)<Position>0,25</Position>;NPC-Kyruger(0)<Speaker>크루거</Speaker>||:인형은 얼마나 걸리는지 아나?
 NPC-Ange(10)<Speaker>안나</Speaker><Position>0,25</Position>;NPC-Kyruger(0)||:그런 기술 쪽은 잘 몰라서.
 NPC-Ange(10)<Position>0,25</Position>;NPC-Kyruger(0)<Speaker>크루거</Speaker>||:날 때부터.
 NPC-Ange(12)<Speaker>안나</Speaker><Position>0,25</Position>;NPC-Kyruger(0)||:......
