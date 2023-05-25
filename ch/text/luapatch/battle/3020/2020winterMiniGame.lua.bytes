@@ -44,6 +44,7 @@ local countdownTimer
 local BattleUIPauseController
 local isSelected = false
 local characterData
+local eventSystem 
 InitSkill1 = function(SkillLabel,mCurSkill,pos)
 	local skillLabelController
 	skillLabelController = SkillLabel:GetComponent(typeof(CS.BattleManualSkillController))
@@ -75,7 +76,10 @@ end
 
 --Start: 加载组件
 Start = function()
+	--eventSystem = CS.UnityEngine.GameObject.Find("EventSystem"):GetComponent(typeof(CS.UnityEngine.EventSystems.EventSystem));
 	local suretxt = self.transform:Find("PickCard/Btn_Confirm/UI_Text"):GetComponent(typeof(CS.ExText));
+	--CS.NDebug.PrintLog = true
+	--CS.UnityEngine.Debug.unityLogger.logEnabled = true
 	suretxt.text = CS.Data.GetLang(260036);
 	--禁止人物拖动并锁定镜头
 	--CS.BattleInteractionController.isGuideInteractable = false
@@ -177,7 +181,7 @@ Start = function()
 	BtnPauseResolveBattle:GetComponent(typeof(CS.ExButton)).onClick:AddListener(function ()
 		ShowSettlementFromPause()
 	end)
-	isCountingTime = true
+
 	BtnCloseSettlement:GetComponent(typeof(CS.ExButton)).onClick:AddListener(function ()
 		EndSettlement()
 	end)
@@ -190,6 +194,7 @@ Start = function()
 	BtnStopSwitch:GetComponent(typeof(CS.ExButton)).onClick:AddListener(function ()
 		SwitchTimeStopShowSkill()	
 	end)
+	isCountingTime = true
 end
 
 Update = function()
@@ -221,6 +226,7 @@ Update = function()
 	if characterData.isDead or characterData.status == CS.GF.Battle.CharacterStatus.withdraw then
 		ShowSettlementFromDie()
 	end
+	--print(eventSystem:ToString())
 end
 
 function ShowSelect()
@@ -583,16 +589,17 @@ function ShowSettlement()
 	end
 end
 function EndSettlement()
+	print("EndSettlement")
 	--if SettlementLose then
 	--	CS.BattleFrameManager.ResumeTime()
 	--	BattleController:TriggerBattleFinishEvent(true)
 	--else
 	local enemyList = {}
-	for k,v in pairs(BattleController.enemyTeamHolder:GetCharacters()) do
-		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
+	for k,v in pairs(BattleController.enemyTeamHolder.listCharacter) do	
 		enemyList[#enemyList+1] = v
 	end
 	for i = 1, #enemyList do
+		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
 		enemyList[i]:UpdateLife(DamageInfo, -999999)
 	end
 	CS.GF.Battle.BattleFrameTimer.Instance:ResumeStopTime()
