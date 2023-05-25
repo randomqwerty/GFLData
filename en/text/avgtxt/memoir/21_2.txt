@@ -1,74 +1,74 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>276</BIN><BGM>BGM_Room</BGM>:先程の戦闘で負傷した民兵達を安全な場所に移動させるのを手伝ってから、//nパブロフはPPSh-41を連れて、建物内にある管理室に入っていった。
-()<Speaker>民兵</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:パブロフさん、お帰りなさい！
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:あぁ、後方支援ありがとう。負傷者が出たので、よろしく頼む。
-()<Speaker>民兵</Speaker>||:かしこまりました。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:民兵は頷くと、部屋から出て行った。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……+皆さん、お仲間ですか？
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:彼らは行軍の途中この建物に辿りついた。+しんがりを務めていた隊長が犠牲になり、少しだけ軍事経験のあった私が、//n今は指揮権を任されているというわけだ。
-()<Speaker></Speaker>||:パブロフは椅子に座り、PPSh-41に答えながら、２つの勲章をじっと見た。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:勲章の表面に汚れを発見し、それを外すと、丁寧に拭きはじめた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……+それは……？
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:ああ、すまない。単なる習慣だ……
-()<Speaker></Speaker>||:きれいに勲章を拭き終えると、パブロフはそれを掌にのせた。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:これは我が祖父の代から伝わるものだ。彼らは侵入者を打ち負かし、//n最後はこの2つの勲章だけが戻って来た。+だから再び反乱軍が来たこの時、私はこの勲章を身に着けることにした。//n同じく勇敢でありたいと。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:そうだったんですか……
-()<Speaker></Speaker>||:勲章の由来を知り、PPSh-41は心の中で敬意を払った。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:そうだ、パブロフさん。+依頼人は、あなたが今回の救援計画を知っていると言っていました。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:すまない。敵がずっと我々の外部への通信ネットワークを妨害しており、//nずっと連絡を取ることが出来なかった……+戻ったら依頼人に伝えて欲しい。//n私は今ここにいる多くの者の安全を守らなければならない。//nだから今回の計画は取り消して欲しいと。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:でも——
-()<Speaker>民兵</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>パブロフさん、こちらは外線陣地です。</color>+<color=#00CCFF>敵がまた来ました。我々も抵抗を試みていますが、//n可能でしたら支援をお願い出来ませんでしょうか。</color>
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:分かった、すぐ行く。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||<SE1>AVG_tele_connect</SE1>:こちらパブロフ、駐屯軍に告ぐ、外線支援の準備をせよ。
-()<Speaker>民兵</Speaker>||:<color=#00CCFF>分かりました、パブロフさん！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:パブロフがすぐ出発しようとするところを見て、PPSh-41は止めようとした。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:パブロフさん、まさかまた前線に向かうんですか？
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:敵が来たから反撃する。ただそれだけだ。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:軍用人形は、人類にとってとても危険な存在です。//n先程の交戦結果から、必ずもっと多くの兵力を派遣してくるはず。+現在このような状況で、この建物から離れて、//n敵を阻止しに行くのは大変危険な行為です。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:ご忠告ありがとう。//nでも、誰かが助けを必要としているなら、私は行かねばならない。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:パブロフさん、あなたは軍需産業の専門家です。//n依頼人もあなたの身の安全を心配しています。//nですから、あの……もうそのような危険な行為は……
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:さっきも言ったように、救援計画は取り消しだ、もう必要ない！
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:申し訳ありません……//nでもこれは私の任務です、パブロフさん、ご協力お願いいたします。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:君は……！
-()<Speaker></Speaker>||<SE1>AVG_Broken_Glass</SE1><BGM>BGM_Empty</BGM>:（フラ——）
-()<Speaker></Speaker>||:突然窓ガラスが割れて、2人の会話を遮った。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……待って……+敵がっ！
-()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1><震屏3><BGM>BGM_Danger</BGM>:（銃声）
-()<Speaker></Speaker>||:PPSh-41とパブロフは同時に部屋の隅に隠れた。銃声が大きくなる。
-()<Speaker></Speaker>||:銃弾が窓ガラスを突き抜け、部屋の壁に穴を開けた。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:混乱の中、PPSh-41は速やかにスキャンを行った。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:軍用人形です、数はおおよそ５体！
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:くそったれ、どうしてここが分かったんだ。
-()<Speaker></Speaker>||:そう話している間にも、1体の軍用人形が窓を割って管理室の中に入って来た。+相手が銃を上げる前に、PPSh-41はトリガーを引いた。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_The_Division_Machine_Gun_Tower_Shooting</SE1>:激しい火柱が軍用人形のコントロールシステムを破壊し、//n軍用人形はその場に倒れ込んだ。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:一緒に来て下さい！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><SE1>AVG_Gunfire</SE1><BIN>270</BIN>:PPSh-41はパブロフを管理室から連れ出した。
-()<Speaker></Speaker>||:後方支援の民兵達がロビーで軍用人形と戦っていた。//n建物内には身を隠す場所が少なく、多くの者が銃弾に倒れていく。//nその中を軍用人形は軽々と前進して行く。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:しまった、皆が危険だ！
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:パブロフさん、軽率な行動は止めて下さい！
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:敵はすでに侵入している。自分だけ逃げられると思うか！？
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:私はあなたの身の安全を確保しなければなりません！+えい……ここは私がっ！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:パブロフを押しとどめると、PPSh-41は敵の攻撃の隙間をぬって、//nロビーの中の身を隠せそうな場所に移動した。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:（銃声）+一体の軍用人形が銃声と共に倒れた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:やった、1体倒した、次は……
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:（銃声）
-()<Speaker></Speaker>||:PPSh-41の存在を認識した軍用人形が反撃を開始する。//nしかしまた、PPSh-41の銃弾に倒れた。2体……3体と……
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ロビーにいる軍用人形が残り1体になった時、PPSh-41の銃弾は空になり「カチッカチッ」という音を立てた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:こんな時に……！
-()<Speaker></Speaker>||<SE1>Select</SE1>:軍用人形が次の行動に移る前、PPSh-41はハンドガンを取り出した。+ただそれは自分にエッチングされた武器ではないため、//nできる限り距離を縮めてから発砲するしかなかった。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_3h</SE1>:（銃声）
-()<Speaker></Speaker>||:銃声が鳴り響いた……+最後の1体が地上に倒れた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:ふぅ……+<color=#A9A9A9>これで最後……違うっ！</color>
-()<Speaker></Speaker>||:PPSh-41は頭を上げた。地下室に大きなエネルギーを感じる。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:待て、そっちは——！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><BIN>88</BIN>:パンッ！
-()<Speaker></Speaker>||:PPSh-41は銃を構えながら、地下室のドアを開けた。//nそこにいたのは軍用人形ではなく——
-()<Speaker>女の子</Speaker>||<BGM>BGM_Empty</BGM>:おばあちゃん、そんなに興奮しないで。外の敵はとても危険よ！
-()<Speaker>おばあさん</Speaker>||:危険？奴らはもう中に入って来たんだろう。私も戦うよ！
-()<Speaker></Speaker>||:白髪の老婆は少女が止めるのも聞かず、//n杖を片手に軍用人形と闘おうとしていた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……+老人と……子供？
-()<Speaker>おばあさん</Speaker>||:あら？
-()<Speaker></Speaker>||:PPSh-41とパブロフが入って来たのを見て、彼らは争うのをやめた。+PPSh-41は地下室にいるのが、老人や女子供達だけだと気づいた。
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>276</BIN><BGM>BGM_Room</BGM>:After helping the militiamen quarter the personnel who were injured in the recent battle, Papasha follows Pavlov to the manager's office of the apartment block.
+()<Speaker>Militiaman</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Mr. Pavlov, you're back!
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Yes, thanks for holding the fort. Some people have been hurt, so please go take care of them.
+()<Speaker>Militiaman</Speaker>||:Alright.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:The militiaman nods and closes the door behind him as he leaves.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...+Are all these people your friends?
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:They were housed in this apartment block while being transferred.+Their team leader died while covering their retreat, and since I had some military experience, they handed command over to me.
+()<Speaker></Speaker>||:Pavlov takes a seat and looks down at his two medals as he answers Papasha.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Seeing that they've been smudged, he immediately removes them and starts carefully polishing them.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...+Are these...?
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Oh, sorry, I've always had a habit of doing this...
+()<Speaker></Speaker>||:After cleaning off the medals, Pavlov holds them up in his hand.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:My ancestors passed them down to me. They once defeated invaders, but in the end only these two medals made it home.+And now, the rebels are attacking again, so I've decided to wear them in the hope that they could give me some courage.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:I see...
+()<Speaker></Speaker>||:Having learned the origins of the medals, Papasha is filled with respect.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Oh yes, Mr. Pavlov.+The client said that you ought to have known about this rescue operation.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Sorry, but the enemy has been constantly jamming our communications with the outside world, so I couldn't contact them...+Please go back and tell your client that I need to stay as the safety of many here depends on me, so they should call off the op.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:But—
+()<Speaker>Perimeter Militiaman</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Mr. Pavlov, this is the perimeter defensive position.</color>+<color=#00CCFF>The enemy is attacking again and we're trying to stop them. Please send backup if you can.</color>
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Understood. I'll be right there.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||<SE1>AVG_tele_connect</SE1>:This is Pavlov. Notify our reserves, we'll be heading out to reinforce the perimeter.
+()<Speaker>Militiaman</Speaker>||:<color=#00CCFF>Yes, Mr. Pavlov!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:As she watches Pavlov rise after hanging up, Papasha reaches out to stop him.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Mr. Pavlov, are you heading out onto the frontline again?
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:The enemy attacks and we counterattack. So it goes.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:But I should point out that military automatons are extremely dangerous to human beings. After the previous engagement, the enemy will surely send more forces to attack this place.+Under the circumstances, leaving the apartment block to halt the enemy advance will be very dangerous.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Thank you for the reminder, but we are low on manpower, so I must do this.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Mr. Pavlov, you're a military engineer and my client is very concerned about your personal safety. If possible, could you please refrain from taking such risks...
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:I told you, the rescue is off. You don't need to keep insisting on it!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:I'm very sorry... But I have to carry out this order. Please cooperate with me, Mr. Pavlov.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:You...!
+()<Speaker></Speaker>||<SE1>AVG_Broken_Glass</SE1><BGM>BGM_Empty</BGM>:Crash—!
+()<Speaker></Speaker>||:The window suddenly shatters, interrupting their conversation.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...Wait a minute...+It's the enemy!
+()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1><震屏3><BGM>BGM_Danger</BGM>:Bangbangbang—!
+()<Speaker></Speaker>||:Papasha and Pavlov both dive for cover in unison, chased by a roar of gunfire.
+()<Speaker></Speaker>||:Several bullets break the glass and smash up the various items and fixtures in the room.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Amidst the confusion, Papasha quickly scans the enemy.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Military automatons, about 5 of them!
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Dammit, they actually snuck up here.
+()<Speaker></Speaker>||:Just then, a military automaton smashes a window open and jumps into the manager's office.+Before her opponent can raise its gun, Papasha has already pulled her trigger.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_The_Division_Machine_Gun_Tower_Shooting</SE1>:Vicious tongues of flame tear through the military automaton's control systems and it collapses heavily to the ground.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Please come with me!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><SE1>AVG_Gunfire</SE1><BIN>270</BIN>:Papasha seizes this opportunity to drag Pavlov out of the manager's office.
+()<Speaker></Speaker>||:The militiamen on guard duty are trying to fend off the military automatons in the lobby, but there is little effective cover inside an apartment building and people keep going down, while the military automatons easily close the distance.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Oh no, everyone's in danger!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Mr. Pavlov, please don't be rash!
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:The enemy is already inside! Do you expect me to hide?!
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:I need to ensure your safety!+Um... Let me handle this place.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:After settling Pavlov, Papasha takes advantage of a lull in the enemy attack and darts to a good flanking position in the lobby.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Bangbangbang—+A military automaton goes down after a burst of gunfire.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Alright, one down, next...
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Bangbangbang—!
+()<Speaker></Speaker>||:After spotting Papasha, the military automatons begin their counterattack. However, Papasha takes them down quickly enough, and the first is joined by a second, then a third...
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Until there is only one military automaton left inside the lobby... and Papasha's drum magazine suddenly goes clack-clack as it runs out of rounds.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Why now, of all times...!
+()<Speaker></Speaker>||<SE1>Select</SE1>:Before the military automaton can strike a killing blow, Papasha pulls out a handgun.+Since she is not Imprinted to it, all she can do is charge forward and close the distance.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_3h</SE1>:Bangbangbang—
+()<Speaker></Speaker>||:After a series of gunshots...+The last automaton finally goes down too.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Whew...+<color=#A9A9A9>That should be the last one... No!</color>
+()<Speaker></Speaker>||:Papasha looks up as she detects a large thermal source coming from the basement.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Wait, that's—!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><BIN>88</BIN>:Wham!
+()<Speaker></Speaker>||:Papasha raises her gun and rams open the door leading to the basement, but what she sees are not military automatons—
+()<Speaker>Girl</Speaker>||<BGM>BGM_Empty</BGM>:Babushka, don't be rash, the enemies outside are very dangerous!
+()<Speaker>Babushka</Speaker>||:Dangerous? Are you telling me not to fight back when the enemy is at our doorstep?!
+()<Speaker></Speaker>||:The white-haired granny ignores the girl's exhortations and raises her cane, looking like she wants to have it out with the military automatons from before.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...+Old folks... and children?
+()<Speaker>Babushka</Speaker>||:Hm?
+()<Speaker></Speaker>||:The two stop arguing at the sight of Papasha and Pavlov.+Behind them, Papasha sees that the basement is full of children, the infirm, and the elderly.
+()||<黑点1>:

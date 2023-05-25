@@ -1,61 +1,61 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>41</BIN><黑屏2>:……冬
-()<Speaker></Speaker>||:迫りくる戦火が、辺境の街を地獄に変えた。+軍用人形が目標物を探しながら、燃え盛る街道を進んでいく。+彼らが去ったのを見届け、PPSh-41が廃墟の中から姿を現した。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||<SE1>ClothingUp</SE1>:ふぅ……+<color=#A9A9A9>きっと、この先にいるはず。</color>
-()<Speaker></Speaker>||:PPSh-41は廃墟の中から、自分が進むべき方向を模索する。
-()<Speaker></Speaker>||<SE1>Battlefield</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:街の至る所に爆弾が落ち、大地を震わせている。+火の粉はまるで涙のように瓦礫の隙間に降りかかり、//n冷たい風が悲鳴をあげる。+目の前の光景を見ながら、PPSh-41は2日前の出来事を思い出していた。
+()<Speaker></Speaker>||<BIN>41</BIN><黑屏2>:...Winter.
+()<Speaker></Speaker>||:This war-ravaged border town is now a hell on earth.+Military automatons walk through the burning streets as they search for moving targets.+Only when they have all left does Papasha poke her head out from behind a pile of rubble.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||<SE1>ClothingUp</SE1>:Whew...+<color=#A9A9A9>It should be just up ahead.</color>
+()<Speaker></Speaker>||:Papasha orients herself within the ruins.
+()<Speaker></Speaker>||<SE1>Battlefield</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:Explosions occasionally erupt in the city, shaking the very earth.+Dust billows through the gaps between the smashed bricks as the chilly wind howls mournfully.+Papasha takes in this scene of desolation, and her thoughts return to two days ago.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><回忆><BGM>BGM_Room</BGM>:グリフィンの指揮室 +PPSh-41の目に任務依頼の映像が映っている。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……救援計画？
-PPSh41(0)<Speaker>指揮官</Speaker><同时置暗>||:パブロフは依頼人が緊急要請している軍需産業の専門家だ。任務概要にあるように、彼は今とても危険な状態にある。+辺境で反乱が起きてからずっと、反乱軍は公道沿いの街を焼き尽くしており、//n駐屯軍は反撃するだけで手一杯だ。そこで我々に依頼が来たというわけだ。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:なるほど。
-PPSh41(0)<Speaker>指揮官</Speaker><同时置暗>||:パブロフはこの救援計画を知っている。そこで君には、約束の建物で彼と落ち合って、//n彼を安全な場所に連れ出して欲しい。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:はっ、はい……ええと +指揮官、それだけですか？
-PPSh41(0)<Speaker>指揮官</Speaker><同时置暗>||:それだけだ。でもこれは簡単な任務ではないぞ、PPSh-41。+反乱軍は既に正規軍と同等の兵力を持ち、この地域を占領している。//nどんな些末な出来事も見逃しはしないはずだ。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:そうなんですね……
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:PPSh-41のメンタルは一気に回り始めた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:信号を消し、無線封止状態を維持できるのなら問題ないと思います。+敵の目を避け、正面衝突しないよう気をつけます。+万が一不測の事態が起きたとしても、//n私でもその場に応じて対処出来るはずです。
-PPSh41(0)<Speaker>指揮官</Speaker><同时置暗>||:よく言った。くれぐれも気を付けて。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:はい！
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><回忆><BGM>BGM_Room</BGM>:In the Griffin Ops Room.+The mission request comes up in Papasha's field of vision.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:...A rescue operation?
+PPSh41(0)<Speaker>Commander</Speaker><同时置暗>||:Pavlov is a military engineer whose services our client desperately requires. Much like the mission brief says, he is currently stuck in the belly of the beast.+After an armed rebellion broke out on the border, the rebel troops brought the fighting to the cities along the highway. Since the defense forces are busy organizing a counterattack, they gave the assignment to us.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:I see.
+PPSh41(0)<Speaker>Commander</Speaker><同时置暗>||:Pavlov is aware of this operation. In other words, all you need to do is meet him at the designated apartment building and then bring him safely back to the rear.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Da... Erm.+Commander, is that all?
+PPSh41(0)<Speaker>Commander</Speaker><同时置暗>||:That is all, but completing this mission will not be easy, Papasha.+The rebel forces are as strong as the regular army and they've instituted a strict lockdown in the area. If even a blade of grass moves in the wind, they'll know it.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:In that case...
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Papasha's neural cloud kicks into high gear.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:It should be fine if I conceal my signal and operate under radio silence. +I'll do my best to avoid the enemy's eyes and ears and refrain from direct confrontations with the enemy.+If anything out of the ordinary happens, I'll improvise depending on the circumstances.
+PPSh41(0)<Speaker>Commander</Speaker><同时置暗>||:Excellent. Make sure to be careful.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Roger!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:（銃声）
+()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:Bangbangbang!
 ()||<黑屏1>:
-PPSh41(0)<Speaker>PPSh-41</Speaker>||<黑屏2><BIN>159</BIN><BGM>BGM_Danger</BGM>:……！
-()<Speaker></Speaker>||:混乱の廃墟をくぐり抜け、PPSh-41は遠方に約束の建物を見つけた。+建物の方角から、絶え間なく銃声が響いてくる。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>交戦している……</color>+<color=#A9A9A9>信号探知によると、一方は敵方の軍用人形、もう一方は……人間？</color>+<color=#A9A9A9>全部で十数名、ん、パブロフさんもその中の一人かも。</color>+<color=#A9A9A9>すぐに確認しよう。</color>
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:PPSh-41の歩みが早くなった。
+PPSh41(0)<Speaker>PPSh-41</Speaker>||<黑屏2><BIN>159</BIN><BGM>BGM_Danger</BGM>:...!
+()<Speaker></Speaker>||:After darting through piles of rubble, Papasha can see the outline of the apartment block in the distance. +But now, the sound of non-stop gunfire is coming from it.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>Looks like there's a firefight going on...</color>+<color=#A9A9A9>I'm picking up two military automaton signals on one side and... humans on the other?</color>+<color=#A9A9A9>There's over a dozen of them in total. Hm, I can't rule out the possibility that Mr. Pavlov is among them.</color>+<color=#A9A9A9>I need to verify that ASAP.</color>
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Papasha picks up the pace at that thought.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>98</BIN><震屏3><SE1>AVG_Gunfire</SE1>:建物が近づくにつれ、銃撃の音は大きくなる。+PPSh-41は近くの廃墟に隠れ、//n瓦礫の隙間から敵方の信号発信地をスキャンした。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>軍用人形が2体。</color>+<color=#A9A9A9>戦っているのは……人間の民兵？</colo
-()<Speaker></Speaker>||:民兵達の必死の反撃が見えた。+ただ、その実力の違いは明らかで、//n軍用人形の凄まじい威力により、民兵達の被害は拡大していく。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>このままでは民兵さん達が危険だわ……</color>+<color=#A9A9A9>パブロフさんがここに居なかったとしても、//n今は先に民兵さん達を救出しなくちゃ……！</color>
-()<Speaker></Speaker>||:劣勢に民兵達はやむを得ず後ずさりしていく。//nそれに対し、軍用人形が更なる進撃を開始した。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>今よ！</color>
-()<Speaker></Speaker>||<震屏3><SE1>AVG_The_Division_Machine_Gun_Tower_Shooting</SE1><<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake>:PPSh-41は軍用人形がバリケードを離れた隙を狙って、//n彼らの後方側面に狙いを定め、トリガーを引いた。
-()<Speaker>軍用人形</Speaker>||:——！
-()<Speaker></Speaker>||:隣の軍用人形が後方からの攻撃に倒れたのを見て、//nもう1体の軍用人形は即座に振り返り、反撃の態勢に入ろうとした。//nしかしすでに、PPSh-41がその足元めがけて、手榴弾を投げつけていた……
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:（爆撃音）
-()<Speaker></Speaker>||:この爆発によって、さっきまで優勢だった軍用人形が、//n一瞬でただの鉄屑へと変わってしまった。
-()<Speaker></Speaker>||:民兵達は、なぜ敵が突然消えてしまったのか分からないまま、//n恐る恐る頭を上げて周囲を見渡すと、//n遠くからPPSh-41が手を振っているのが見えた。+PPSh-41は彼らの中から、依頼人から渡された写真の人物を見つけた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:本当にここにいたのですね……+パブロフさん
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<黑点2><BIN>98</BIN><震屏3><SE1>AVG_Gunfire</SE1>:The closer she gets to the apartment block, the more intense the sound of the gunfire becomes.+Papasha ducks into a stretch of ruins and through the gaps between the bricks, she pinpoints the source of the enemy signals.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>There are two military automatons.</color>+<color=#A9A9A9>And they're fighting... human militiamen?</color>
+()<Speaker></Speaker>||:From where she's looking, the militia are launching a desperate counterattack from their fortified position.+However, the disparity in their battle strength is tremendous, and the military automatons' ferocious firepower has done a lot of damage to the militiamen.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>At this rate, the militiamen will be in danger...</color>+<color=#A9A9A9>I ought to help, whether or not Pavlov is among them...!</color>
+()<Speaker></Speaker>||:Given the dire circumstances, the militiamen are forced to constantly pull their lines back, and the military automatons swiftly push forward.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:<color=#A9A9A9>Now!</color>
+()<Speaker></Speaker>||<震屏3><SE1>AVG_The_Division_Machine_Gun_Tower_Shooting</SE1><<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake>:Papasha waits for the moment when the military automatons leave their cover, takes aim at their rear flanks, and then pulls the trigger.
+()<Speaker>Military Automaton</Speaker>||:—!
+()<Speaker></Speaker>||:Upon seeing its teammate taken down by an ambush from the rear, the other military automaton immediately turns to counterattack, but Papasha has already thrown a grenade that lands neatly at its feet...
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:Boom!
+()<Speaker></Speaker>||:After the explosion, the military automatons that originally held the advantage have been reduced to piles of scrap.
+()<Speaker></Speaker>||:She looks again at the militiamen. The fact that their enemies have been suddenly wiped out leaves them a little confused. As they raise their heads to look around, Papasha waves to them from a distance.+She spots a person among them who matches the photo supplied by her client.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:He's actually here...+Mr. Pavlov.
+()<Speaker></Speaker>||:...
 ()||<黑点1>:
-PPSh41(0)<Speaker>PPSh-41</Speaker>||<黑点2><BGM>m_avg_casual</BGM>:初めまして。私はグリフィンの戦術人形——PPSh-41です。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:PPSh-41は民兵に向かって挨拶の手を伸ばした。
-()<Speaker>民兵</Speaker>||:感謝の言葉もありません！//nもしあなたが助けてくださらなかったら、我々はここでお終いだった。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:そんなかしこまらないで下さい。ほんのチョット助けただけで。
-()<Speaker>民兵</Speaker>||:あなたは駐屯軍から派遣されてきた援軍の方ですね？
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:ごめんなさい。私は援軍じゃなくて、人探しに来ました。
-()<Speaker>民兵</Speaker>||:人探し？
-()<Speaker></Speaker>||:PPSh-41は、傷ついた民兵に包帯を巻くパブロフを指さした。
-()<Speaker></Speaker>||:視線を感じてパブロフが振り返った。+彼もまた、他の兵士と同様の武器を持っている。+ただ違うのは、彼の胸に2つの旧式勲章が着けられていることだった。
-()<Speaker>民兵</Speaker>||:パブロフさん、こちらの人形のお嬢さんがあなたを探しているようです。
-()<Speaker></Speaker>||:民兵の手当てを終え、パブロフがPPSh-41の元にやってきた。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:初めまして、パブロフさん。+私はグリフィンの戦術人形——PPSh-41です。//nご依頼を受けて、あなたを迎えに参りました。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:ペーペーシャか、先程は本当にありがとう。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:感謝にはおよびません……//n先程の戦闘で、ここがとても危険な場所である事が分かりました。//nでも、安心して下さい。+依頼人から、あなたを戦区から、駐屯軍のいる安全な場所に//nお連れするよう申しつかっております！
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:……
-()<Speaker></Speaker>||:通常の救援計画と違い、パブロフは少しも嬉しい表情を見せなかった。+彼は周囲の民兵達を見回すと、再びPPSh-41に向き直った。
-NPC-Arla(0)<Speaker>パブロフ</Speaker>||:すまない……私は今ここを離れることは出来ない。
-PPSh41(0)<Speaker>PPSh-41</Speaker>||:……+えっ！？
-()||<黑点1>:
+PPSh41(0)<Speaker>PPSh-41</Speaker>||<黑点2><BGM>m_avg_casual</BGM>:Hello, I'm Papasha, a Griffin Tactical Doll.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:After meeting with the militiamen, Papasha extends a hand in friendship.
+()<Speaker>Militiaman</Speaker>||:Many thanks! If not for your help, we'd probably all have met our maker here.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:No need to thank me, it was no trouble at all.
+()<Speaker>Militiaman</Speaker>||:Let me guess, are you reinforcements from the defense forces?
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:I'm sorry, but I'm not your reinforcements. I'm here to look for someone.
+()<Speaker>Militiaman</Speaker>||:You're looking for someone?
+()<Speaker></Speaker>||:Papasha points to Pavlov, who is bandaging the wounded.
+()<Speaker></Speaker>||:Feeling her gaze on himself, Pavlov looks up in her direction.+He is armed, like the other militiamen.+What sets him apart is the two old medals pinned on his chest.
+()<Speaker>Militiaman</Speaker>||:Mr. Pavlov, it appears that this Doll lady is here looking for you.
+()<Speaker></Speaker>||:After bandaging the wounded, Pavlov walks up to Papasha.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:Hello, Mr. Pavlov.+I am the Griffin Tactical Doll Papasha, and I've been assigned to collect you.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:Thank you for your assistance, Papasha.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:No need to thank me... The battle just now proves how dangerous the situation is, but there's no need to worry.+My client has requested that I take you away from the battlefield and bring you to safety, while the defense forces cover the rear.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:...
+()<Speaker></Speaker>||:Unlike normal rescue operations,  Pavlov doesn't seem too happy about it. +He glances at the militiamen around him, then turns back to Papasha.
+NPC-Arla(0)<Speaker>Pavlov</Speaker>||:I'm very sorry... but I don't want to leave right now.
+PPSh41(0)<Speaker>PPSh-41</Speaker>||:... +Huhhhhh?!
+()||<黑点1>:
