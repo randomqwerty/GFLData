@@ -12144,6 +12144,78 @@
     "formula": "#pow*100000+#distancex*1000-#life"
   },
   {
+    "id": 5175,
+    "formula": "100+sbuffidtier(8976)"
+  },
+  {
+    "id": 5176,
+    "formula": "50"
+  },
+  {
+    "id": 5177,
+    "formula": "@battlepoint=1?0:1"
+  },
+  {
+    "id": 5178,
+    "formula": "@battlepoint=1?1:0"
+  },
+  {
+    "id": 5179,
+    "formula": "$1*(1+sbuffidtier(8981)*tbuffidtier(8975)*0.01)"
+  },
+  {
+    "id": 5180,
+    "formula": "(10000+#armor*10000-#distancex*100+#life*0.01)*tbuffidtier(8990)"
+  },
+  {
+    "id": 5181,
+    "formula": "#armor-50<0?-#armor:-50"
+  },
+  {
+    "id": 5182,
+    "formula": "#armor-56<0?-#armor:-56"
+  },
+  {
+    "id": 5183,
+    "formula": "#armor-61<0?-#armor:-61"
+  },
+  {
+    "id": 5184,
+    "formula": "#armor-67<0?-#armor:-67"
+  },
+  {
+    "id": 5185,
+    "formula": "#armor-72<0?-#armor:-72"
+  },
+  {
+    "id": 5186,
+    "formula": "#armor-78<0?-#armor:-78"
+  },
+  {
+    "id": 5187,
+    "formula": "#armor-83<0?-#armor:-83"
+  },
+  {
+    "id": 5188,
+    "formula": "#armor-89<0?-#armor:-89"
+  },
+  {
+    "id": 5189,
+    "formula": "#armor-94<0?-#armor:-94"
+  },
+  {
+    "id": 5190,
+    "formula": "#armor-100<0?-#armor:-100"
+  },
+  {
+    "id": 5191,
+    "formula": "#armor>0&tbuffidtier(8990)=1?1:0"
+  },
+  {
+    "id": 5192,
+    "formula": "tbuffidtier(8982)=0&#armor>0&tbuffidtier(8990)=1?50:1"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
