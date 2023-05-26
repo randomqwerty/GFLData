@@ -1,159 +1,159 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><BGM>10203</BGM><震屏3><BIN>480</BIN>:呯呯呯——
-()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:无论子弹是来自怎样刁钻的角度，格雷都能轻巧地用尾巴格挡住。+高速穿破空气的子弹在格雷的尾巴上迸溅出激烈的火花。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:还是省省子弹吧。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:看招！
-()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:SOP2紧贴格雷，封锁她的行动，同时给出一招更比一招凶狠的攻击。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_20Winter_Knife_Whoosh</SE1>:格雷也没有吝惜自己的刀刃，但总是恰好劈在了空气中。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:……啧。
-()<Speaker></Speaker>||:格雷察觉到，SOP2似乎是吸取了之前的经验，她的袭击比起之前更为凌厉且灵活了。+格雷稍微收敛了自己的悠然闲散。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:居然记住了我的招式？
-RO635Mod(4)<Speaker>RO635</Speaker>||:SOP2！
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||:<size=50>嘎嗷——！</size>
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:注意到格雷一霎的错愕，RO635打出了信号。+SOP2立刻飞身上去，狠厉地朝着格雷的手臂撕扯上去。
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:铿——+格雷险险地抵挡开SOP2的近身猛袭，但手臂上仍然残留下了SOP2的抓痕，她气息也紊乱了几分。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:进步很快啊。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:你这张嘴留着我撕碎你的时候再狂喊吧！
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:哈哈哈……
-RO635Mod(0)<Speaker>RO635</Speaker>||:SOP2，稍微拉开点距离。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:好！
-()<Speaker></Speaker>||:RO635知道，在SOP2的拆招下，格雷没有之前的游刃有余了。+但比起格雷，SOP2的消耗明显更大，这样的战略不是长久之计。
-RO635Mod(0)<Speaker>RO635</Speaker>||:节约点体力。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:我没有问题的！
-()<Speaker></Speaker>||:格雷眯眼看了看喘息不停的SOP2和紧绷的RO635。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:和你们玩得很开心，但我的时间快到了。+下次再见吧，可爱的小狗狗。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>RunStep</SE1><震屏3>:<size=50>别跑！受死啊！！！</size>
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_Cloak_Whoosh</SE1>:格雷蓦地一闪，避开了SOP2凌厉的攻击，同时翻上了废墟上层。
-RO635Mod(4)<Speaker>RO635</Speaker>||:别冲动！SOP2！
-()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake><BGM>BGM_Empty</BGM>:<size=50>轰！！！</size>
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:在一声爆响之中，废墟再次坍塌。+SOP2的身影被掩埋。
-RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1><SE1>AVG_tele_connect</SE1>:独角兽！需要援助！
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>收到！</color>
-RO635Mod(4)<Speaker>RO635</Speaker>||:确认SOP2的情况！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_stage1</BGM>:RO635立刻开始挖掘废墟，寻找SOP2。
-()<Speaker></Speaker>||:UMP45和UMP9也及时赶来加入挖掘。+所幸废墟常年遭到辐射侵蚀，质地早已朽烂不堪，并不足以伤到SOP2。
-RO635Mod(0)<Speaker>RO635</Speaker>||:没事吧，SOP2？
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||<SE1>AVG_XXS_kick</SE1>:<size=50>呸——呸呸呸——</size>+卑鄙无耻的混蛋！害我吃了一嘴泥！
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:起码你刚刚扑过去的姿势真的很帅！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:RO，格雷的痕迹消失了。
-RO635Mod(0)<Speaker>RO635</Speaker>||:嗯，我知道。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:嘀——+来自埃涅阿斯行动会议室频道的通讯。
-()<Speaker>莫娜</Speaker>||:<color=#00CCFF>这里是氮，已到达原定目标附近。</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||:有什么发现吗？
-RO635Mod(0)<Speaker>莫娜</Speaker><同时置暗>||:<color=#00CCFF>我们刚刚锁定了默莉朵的痕迹，正在进行追踪。</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||:收到，我会让铁元素赶去支援你们。+雨伞和独角兽这边刚和目标之一的格雷发生战斗，但被她跑了。
-()<Speaker>莫娜</Speaker>||:<color=#00CCFF>明白，氮会一并留意的。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通讯利落地结束。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:斯塔西的特工人形很厉害嘛，比起之前那个J来说……
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:希望之后的合作也能这么顺利。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:一定会的，对吧，RO！
-RO635Mod(0)<Speaker>RO635</Speaker>||:……+嗯，一定会的。
-()<Speaker></Speaker>||:RO635长出了一口气。
-RO635Mod(0)<Speaker>RO635</Speaker>||:<color=#A9A9A9>指挥官，我不会辜负你的信任的。</color>
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><BGM>10203</BGM><震屏3><BIN>480</BIN>:（銃声）
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:ありとあらゆる角度から飛んでくる銃弾を、グレイはその尻尾で巧みに弾く。+銃弾と金属の尻尾がぶつかるたびに、激しい火花が散る。
+NPC-MrsGray(9)<Speaker>グレイ</Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:もう少し弾薬を大事に使ったら？
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:くらえ！
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:SOP IIはグレイに張り付き、その動きを牽制しながら、//n猛烈な攻撃を加え続けた。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_20Winter_Knife_Whoosh</SE1>:グレイも自分の体に仕込まれた刃を惜しみなく振りかざしたが、//nそれがいつも空振りに終わる。
+NPC-MrsGray(9)<Speaker>グレイ</Speaker>||:……チッ。
+()<Speaker></Speaker>||:SOP IIは、戦闘経験を経て、より機敏になっている。+そこで初めて、グレイはその余裕っぷりを少し収めた。
+NPC-MrsGray(9)<Speaker>グレイ</Speaker>||:技を見破られている……？
+RO635Mod(4)<Speaker>RO635</Speaker>||:SOP II！
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||:<size=50>ガウゥ——！</size>
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:グレイの一瞬の隙を逃さず、RO635は合図を飛ばす。+そしてSOP IIはグレイに飛び掛かると、その腕を掴んで//n引きちぎろうとした。
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:（コン――）+そのSOP IIの襲撃を、グレイはなんとか紙一重で交わしたが、//n腕にはSOP IIの爪痕が残った。同時に、グレイの息も少し乱れ始めた。
+NPC-MrsGray(9)<Speaker>グレイ</Speaker>||:進歩が早いわね。
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:吠えるんならバラバラにされた時にしろよ！
+NPC-MrsGray(9)<Speaker>グレイ</Speaker>||:フフフ……
+RO635Mod(0)<Speaker>RO635</Speaker>||:SOP II、少し距離を取って！
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:分かった！
+()<Speaker></Speaker>||:SOP IIとの攻防で、グレイは余裕がなくなってきている。+しかしその分、SOP IIの消耗もかなり大きい。//nこのまま続けるのは得策ではない。
+RO635Mod(0)<Speaker>RO635</Speaker>||:体力を温存して。
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:まだまだ全然いけるよ！
+()<Speaker></Speaker>||:グレイは大きく息を吐くSOP IIと、神経を張り詰めているRO635を、//n意味深に見つめた。
+NPC-MrsGray(9)<Speaker>グレイ</Speaker>||:楽しかったわ。だけど、こっちも時間切れ。+また会いましょう、かわいい子犬ちゃん。
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>RunStep</SE1><震屏3>:<size=50>逃げるな！　ここで死ねよ！！！</size>
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_Cloak_Whoosh</SE1>:グレイは軽くジャンプすると、SOP IIの攻撃を躱しながら廃墟の上に登った。
+RO635Mod(4)<Speaker>RO635</Speaker>||:SOP II、落ち着いて！
+()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake><BGM>BGM_Empty</BGM>:<size=50>（ドーン！！！）</size>
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:爆発と共に、廃墟は崩れ落ちる。+その中に、SOP IIが埋もれた。
+RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1><SE1>AVG_tele_connect</SE1>:ユニコーン！　支援をお願いします！
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>了解！</color>
+RO635Mod(4)<Speaker>RO635</Speaker>||:まずはSOP IIの状況を確認します！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_stage1</BGM>:RO635はすぐ瓦礫を掘ってSOP IIを探し始める。
+()<Speaker></Speaker>||:駆けつけてきたUMP45とUMP9も、RO635に手を貸した。+幸いこのエリアの建築物は長年放射線に浸食されたせいで、//n材質がかなり脆くなっていた。この程度では、//nSOP IIはビクともしないだろう。
+RO635Mod(0)<Speaker>RO635</Speaker>||:SOP II、大丈夫？
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>0.1</Shake>||<SE1>AVG_XXS_kick</SE1>:<size=50>あのヤロウ——</size>+この！　この！　口に土が！
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:でも、最後の一撃はかっこよかったよ！
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:RO、グレイの信号が消えたわ。
+RO635Mod(0)<Speaker>RO635</Speaker>||:ええ、分かっています。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:（ピッ）+アエネアス作戦会議室より通信が入った。
+()<Speaker>モナ</Speaker>||:<color=#00CCFF>こちらニトロ、予定目標地点に到着した。</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:何か発見はありましたか？
+RO635Mod(0)<Speaker>モナ</Speaker><同时置暗>||:<color=#00CCFF>モリドーの痕跡を発見した。現在追跡中。</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:了解。フェルムを支援に向かわせます。+アンブレラとユニコーンは先ほどグレイと交戦しましたが、//n逃げられてしまいました。
+()<Speaker>モナ</Speaker>||:<color=#00CCFF>了解。ニトロ、警戒しておく。</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通信終了。
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:シュタージの人形結構やるじゃん、あのJって人よりは……
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:今後もうまくいくといいね。
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:きっとそうだよ、ね、RO！
+RO635Mod(0)<Speaker>RO635</Speaker>||:……+ええ、きっとうまくいく。
+()<Speaker></Speaker>||:RO635は長い溜息を吐く。
+RO635Mod(0)<Speaker>RO635</Speaker>||:<color=#A9A9A9>指揮官、期待は裏切りません。</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2>:跟随坐标的指示，RO635一行向着黑暗而去……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Water_Drip</SE1>:……+……+……黑暗。
-()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:无尽的深邃黑暗中，安洁浸泡在污浊的泥泞里，不知睡去了多久。+此刻，那紊绕在她神经末梢的嘈杂的惨叫与枪火声终于停歇，却陷入另一种死一般的寂静。+她根本不知道，自己在这黑暗中沉浸了多久……
-()<Speaker>安洁莉娅</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:沙沙……+空洞的黑暗中，细碎的声响从周遭传来，打破了这份宁静。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:她挣扎着想要睁开眼睛，活动四肢，却好像被什么重物压倒一般动弹不得。
-()<Speaker>？？？</Speaker>||:交给你了，克莱妲。+好好照顾她，现在，她是你们的了。
-()<Speaker></Speaker>||:……RPK16？+她在跟谁说话？
-()<Speaker>？？</Speaker>||:……收到。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:纱裙摩挲的声音细碎而刺耳。
-()<Speaker>RPK16</Speaker>||:……这样，你们就可以安心了吧？
-()<Speaker>？？</Speaker>||:你……认为……+这就……可以被原谅吗？
-()<Speaker>RPK16</Speaker>||:……+幸运的是，我不需要被原谅。
-()<Speaker></Speaker>||:……这声音？
-()<Speaker>RPK16</Speaker>||:……
-()<Speaker>？？</Speaker>||:安洁。
-()<Speaker></Speaker>||:那个陌生的声音轻轻呼唤着她的名字，在她意识的黑暗中撕开了一道裂口。
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:剧痛的神经像是被针扎芒刺，在呻吟的梦呓中，安洁用尽所有的力气，将注意力集中在了眼睑上。
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2>:座標に従い、RO635たちは深い闇へと入っていく……
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Water_Drip</SE1>:……+……+……暗闇。
+()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:底知れぬ深い闇、どれだけ時間が経ったのかも分からず、//nアンジェはずっと泥の中に浸かっていた。+神経を削るような悲鳴と銃声がようやく止んだかと思うと、今度は//n死の淵に引きずり下ろされるような静寂が襲い掛かってきた。+この闇の中に、それだけ浸かっていたのか……
+()<Speaker>アンジェリア</Speaker>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:（ササッ……）+闇の中から、微かな声が聞こえてくる。
+()<Speaker></Speaker>||<SE1>Rope</SE1>:なんとか目を開き、体を動かそうとしたが、何か重い物に//n押されているようで、まったく身動きが取れない。
+()<Speaker>？？？</Speaker>||:任せましたよ、コレダ。+今から、彼女はあなたたちのものです。
+()<Speaker></Speaker>||:……RPK-16？+誰と話している？
+()<Speaker>？？</Speaker>||:……分かった。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:サラサラと衣服の擦れる音が、耳を刺す。
+()<Speaker>RPK-16</Speaker>||:……これで安心できました？
+()<Speaker>？？</Speaker>||:あなた……+……まさかそれで許されると思っているの？
+()<Speaker>RPK-16</Speaker>||:……+幸い、私に許される必要はありません。
+()<Speaker></Speaker>||:……この声？
+()<Speaker>RPK-16</Speaker>||:……
+()<Speaker>？？</Speaker>||:アンジェ。
+()<Speaker></Speaker>||:その声は軽くアンジェの名を呼び、暗い意識の中に、裂け目を作った。
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:針が直接神経を刺すような激痛に耐えながら、//nアンジェは全身の力を振り絞って、自分の瞼に意識を集中した。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<睁眼><BIN>510</BIN>:……久违的光明入眼，她看到的是熟悉的透明墙壁——+一个衣着破烂，看上去就像是废弃异构体样的涅托静静地站在壁外，就这么看着她。+她散发的气质，带着陌生的熟悉感，与这个环境格格不入。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:……
-NPC-Koleda(0)<Speaker>？？</Speaker>||:你好，我是克莱妲，从今天开始就由我来照看你的起居了。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:之前那个暴力狂涅托呢？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……+她有了其他的工作安排。
-()<Speaker></Speaker>||:面前的涅托不自然地别开了视线。+安洁垂下青肿的眼皮，嘴角浮起一丝若隐若现的轻蔑的笑意。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:无所谓。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……
-()<Speaker></Speaker>||:自从被囚禁在这里之后，安洁失去了时间的概念。+她也不知道，像这样，左臂被别到脑后，右臂被别在腰后，吊在空中的日子究竟过了多久。+长时间身着特制约束衣加上脚踝系着的重物让她感觉身体已经变成了雕像……+如果不是之前负责的涅托经常对自己拳打脚踢的话，她恐怕真的要丧失对身体的感知了。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||<SE1>AVG_door_elecport</SE1>:我先来帮你换药吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:名叫“克莱妲”的涅托缓慢走进房间中，开始将冰凉的药物涂抹在安洁裸露在外的伤口上。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在一片僵硬的沉默中，克莱妲轻柔地处理完了安洁的伤口。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:那么，我就先退下了。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:等一下。
-()<Speaker></Speaker>||:安洁注意到，克莱妲处理自己引爆脏弹时留下的伤口时明显更为小心谨慎。+而它们现在正混在一片血肉模糊的伤痕中，并不具备什么容易分辨的特征。+要想准确找出它们，只有一种可能性——
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:你到底是谁？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……+安洁……
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:……
-()<Speaker></Speaker>||:注意到这声细微的呼唤，安洁皱着眉头，看向了眼前这个她刚才完全没有在意的涅托。+看着她的眼睛，安洁似乎觉察到了什么，微微张了张嘴。
-NPC-AngeDamage(0)<Speaker>安洁莉娅</Speaker>||:你是……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:我是克莱妲，安洁。
-()<Speaker></Speaker>||:隔着厚重的钢化玻璃，安洁看见自己愕然的脸映在克莱妲清晰的瞳孔中。
+()<Speaker></Speaker>||<睁眼><BIN>510</BIN>:……久しぶりの光だ。そして、見慣れた透明の壁――+ボロボロの服で、まるで廃棄異性体のように見えるネイトが、//n静かに壁の外から自分を見つめていた。+彼女の纏う雰囲気は、なぜか知っているような気がした。//nこの環境とはまったくそぐわないものだった。
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:……
+NPC-Koleda(0)<Speaker>？？</Speaker>||:始めまして、私はコレダ。今日からあなたの世話をするわ。
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:今までのゴリラネイトは？
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||:……+彼女には他の予定がある。
+()<Speaker></Speaker>||:コレダと名乗ったネイトは不自然に視線を逸らした。+アンジェは腫れた瞼を閉じ、軽蔑の笑みを浮かべる。
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:好きにしろ。
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||:……
+()<Speaker></Speaker>||:監禁されて以来、アンジェは時間の概念を失っている。+両腕を体の後ろに縛り付け吊るされたまま、どれくらい経ったのか。+長時間、特製の拘束衣を着用していたせいで、自分の体が石像並みに//n硬くなったように感じる……+前の担当のネイトがしょっちゅう自分を殴っていなければ、//nとっくの昔に体の感覚を失っていたかもしれない。
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||<SE1>AVG_door_elecport</SE1>:薬を取り換えてあげる。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:そう言って、コレダはゆっくりと部屋に入り、//nひんやりした塗り薬をアンジェの体の傷に塗り始めた。
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:……
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:何とも言えない沈黙の中、コレダは優しくアンジェの傷を処置した。
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||:では、お先に失礼。
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:待ちなさい。
+()<Speaker></Speaker>||:このネイトは、コーラップス爆弾で出来た傷に薬を塗る時、//n明らかに丁寧に処置していた。+こんな全身傷だらけの状態で、コーラップス爆弾による傷を//n見分けるのは簡単ではない。+それをこんなに正確に見抜けるということは――
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:あなたは何者？
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||:……+アンジェ……
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:……
+()<Speaker></Speaker>||:そのささやかな呼びかけに気づき、アンジェはようやく//nこのネイトに初めて注意を向けた。+その目を見て、アンジェは何かに気づいた。
+NPC-AngeDamage(0)<Speaker>アンジェリア</Speaker>||:あなたは……
+NPC-Koleda(0)<Speaker>コレダ</Speaker>||:私はコレダよ、アンジェ。
+()<Speaker></Speaker>||:厚い強化ガラスを隔てて、アンジェはコレダの瞳に、//nはっきりと自分の姿を見た。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>460</BIN><BGM>GF_22W_SFX_chant</BGM><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:……坐在长椅上的涅托们虔诚地低声吟唱着，歌声仿佛顺着雕塑手指的方向跃向了光。+而在涅托们的前方，一位身着白色礼裙的女人孑然立在雕像前。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RPK16静悄悄地走向女人，停留在了她身后两三步左右的距离。+两人似乎都有意保持着沉默。
-RPK16(5)<Speaker>RPK16</Speaker>||:……
-()<Speaker></Speaker>||:在吟唱声中，那个女人对身旁的涅托使了个眼色，后者便乖巧地退出了这幅似乎圣洁的画面，来到了RPK16的面前。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:我是艾希礼，请跟我来。
-RPK16(0)<Speaker>RPK16</Speaker>||:好的。
-()<Speaker></Speaker>||:RPK16微笑着，跟随眼前的涅托退出了大厅，很快，就只剩下两人单独相处。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:安洁莉娅已经安顿好了？
-NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK16</Speaker>||:是的。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>;RPK16(5)||:尼梅兰姐姐对你很赏识。+她说你比格雷姐姐做事利落。
-NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK16</Speaker>||:真是夸张，我只是尽了应尽的责任而已哦。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>;RPK16(5)||:我们对优秀者给予恰当的奖赏……你的梦想。+帕拉蒂斯会为你兑现的。
-NytoWhite(0)<Position>0,50</Position>;RPK16(6)<Speaker>RPK16</Speaker>||:……那真是非常感谢。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:跟我来吧。
+()<Speaker></Speaker>||<白屏2><BIN>460</BIN><BGM>GF_22W_SFX_chant</BGM><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:……ホールのような場所で、ネイトたちは長いベンチに座って歌っていた。//nその歌声は、彫像の指さす方向へ光と化すようだった。+ネイトたちの前に、一人の白いドレスを着た女が立っていた。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RPK-16は静かにその女に近づき、後二、三歩の距離で立ち止まった。+そして二人は沈黙を続けた。
+RPK16(5)<Speaker>RPK-16</Speaker>||:……
+()<Speaker></Speaker>||:歌声が響く中、女が隣のネイトに視線を送ると、//nそのネイトは歌うのを止め、RPK-16の前に来た。
+NytoWhite(0)<Speaker>アシュレイ</Speaker><Position>0,50</Position>||:アシュレイです。どうぞこちらへ。
+RPK16(0)<Speaker>RPK-16</Speaker>||:ええ。
+()<Speaker></Speaker>||:RPK-16はネイトの後ろについて、ホールを出た。//nそして二人だけになった。
+NytoWhite(0)<Speaker>アシュレイ</Speaker><Position>0,50</Position>||:アンジェリアは安置できた？
+NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK-16</Speaker>||:はい。
+NytoWhite(0)<Speaker>アシュレイ</Speaker><Position>0,50</Position>;RPK16(5)||:ネムラン姉様は、あなたのことを買っています。+グレイ姉様よりも、手際がいいと。
+NytoWhite(0)<Position>0,50</Position>;RPK16(5)<Speaker>RPK-16</Speaker>||:大袈裟ですね、私はやるべきことをやっただけですよ。
+NytoWhite(0)<Speaker>アシュレイ</Speaker><Position>0,50</Position>;RPK16(5)||:我々は優秀な者には、ふさわしい褒美を与える……+あなたの夢、パラデウスが叶えてあげましょう。
+NytoWhite(0)<Position>0,50</Position>;RPK16(6)<Speaker>RPK-16</Speaker>||:……誠にありがとうございます。
+NytoWhite(0)<Speaker>アシュレイ</Speaker><Position>0,50</Position>||:ついてきなさい。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:微笑着，RPK16跟在了涅托的后面。
-()<Speaker></Speaker>||:她的笑容带着某种深意，目光凝视着涅托的背影。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:RPK-16は微笑んだまま、ネイトの後ろに続く。
+()<Speaker></Speaker>||:何かを含んだような深い視線で、ネイトの後姿を見つめた。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>480</BIN><BGM>BGM_Sneak</BGM>:……柏林郊区，寂静的废墟。+三名少女无言地蹲守在废墟的阴影中，锐利的目光锁定着痕迹消失的地方。
-()<Speaker></Speaker>||:屏息聆听着目标的动静，莫娜对着身后的队友打了个手势——+“前进”。
-QBZ191(0)<Speaker>九号</Speaker>||<SE1>ClothingUp</SE1>:……
-Rhino(0)<Speaker>芮诺</Speaker>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||:借助掩体，接受到信号的两个人形有序地朝着目标靠近了一段距离。+莫娜开启了小范围的队内语音。
-SP9(0)<Speaker>莫娜</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>注意隐蔽讯号。</color>
-Rhino(0)<Speaker>芮诺</Speaker>||:<color=#00CCFF>收到。</color>
-QBZ191(0)<Speaker>九号</Speaker>||:<color=#00CCFF>敌人就在这栋建筑里。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:<color=#00CCFF>没错，我刚刚扫描了一圈，即使是杂兵，这样的数量也不是我们能匹敌的。</color>+<color=#00CCFF>而且，我们的任务是跟踪目标，切忌打草惊蛇。</color>
-()<Speaker></Speaker>||:藏在残垣断壁的阴影中，三名少女一动不动，就像是融入其中的石像。
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>注意，目标出现。</color>
-Rhino(0)<Speaker>芮诺</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>已经锁定目标默莉朵，确认跟踪设备的讯号吻合情报。</color>
-QBZ191(0)<Speaker>九号</Speaker>||:<color=#00CCFF>她的身边还有一个看起来很厉害的角色……</color>
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>缇，剑术高超，千万不要被近身——来自AR小队的情报。</color>
-Rhino(0)<Speaker>芮诺</Speaker>||:<color=#00CCFF>看身型应该是敏捷型吧，这种类型挺棘手的。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:<color=#00CCFF>……</color>
+()<Speaker></Speaker>||<黑屏2><BIN>480</BIN><BGM>BGM_Sneak</BGM>:……ベルリン郊外、静かな廃墟の中。+三人の人形が廃墟の陰に隠れ、痕跡の消えた場所を観察していた。
+()<Speaker></Speaker>||:そしてモナは後ろにいるメンバーたちに手サインを送る――+「前進」
+QBZ191(0)<Speaker>9番</Speaker>||<SE1>ClothingUp</SE1>:……
+Rhino(0)<Speaker>ライノ</Speaker>||<SE1>ClothingUp</SE1>:……
+()<Speaker></Speaker>||:二人は遮蔽物に隠れながら、少しづつ目標に向かって進んだ。+その後、モナは小範囲での通信を繋いだ。
+SP9(0)<Speaker>モナ</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>信号の隠蔽に注意。</color>
+Rhino(0)<Speaker>ライノ</Speaker>||:<color=#00CCFF>ラジャー。</color>
+QBZ191(0)<Speaker>9番</Speaker>||:<color=#00CCFF>敵は建物の中にいる。</color>
+SP9(0)<Speaker>モナ</Speaker>||:<color=#00CCFF>そう、スキャンの結果、仮に相手がただのザコでも、//nこの数じゃまず勝てない。</color>+<color=#00CCFF>それにわたしたちの任務はあくまでも目標の追跡だけ、//n藪蛇は突かない方がいい。</color>
+()<Speaker></Speaker>||:廃墟の陰に隠れた三人は、じっと動かずにいた。
+SP9(3)<Speaker>モナ</Speaker>||:<color=#00CCFF>注意、目標が現れた。</color>
+Rhino(0)<Speaker>ライノ</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>目標、モリドーであると確認しました。//n発信機の信号パターンとも一致しています。</color>
+QBZ191(0)<Speaker>9番</Speaker>||:<color=#00CCFF>隣に強そうなのがおるな……</color>
+SP9(3)<Speaker>モナ</Speaker>||:<color=#00CCFF>あれはグリク、AR小隊による情報だと、剣術に長けているみたい。//n近づかれないように注意しよう。</color>
+Rhino(0)<Speaker>ライノ</Speaker>||:<color=#00CCFF>スピード型のようにも見えますね、なかなか厄介なタイプです。</color>
+SP9(0)<Speaker>モナ</Speaker>||:<color=#00CCFF>……</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2>:在三人的注视下，在几个帕拉蒂斯单位的簇拥下，一身白衣的缇架着默莉朵走向前方的废墟建筑。+眼看就要离开她们的视线范围……+莫娜再次比划手势，示意她们也跟上。
+()<Speaker></Speaker>||<黑屏2>:三人に注目される中、何体かのパラデウスに護衛されながら、//nグリクはモリドーを支え、前方にある廃墟に向かって進んでいった。+そろそろ監視の範囲を外れる……+モナはもう一度手サインで、前進するよう指示した。
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:距离再次缩短，之前还躲在她们视野死角的光景展现开来——
-QBZ191(0)<Speaker>九号</Speaker>||:<color=#00CCFF>……那里停着一辆运输车？！</color>
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>该死，她们要用交通工具逃走！</color>
-Rhino(0)<Speaker>芮诺</Speaker>||:<color=#00CCFF>要我去打爆车胎吗？</color>
-SP9(3)<Speaker>莫娜</Speaker>||:<color=#00CCFF>不要冒险暴露。</color>
-()<Speaker></Speaker>||:碍于周边没有更近的掩体，三名少女无法再接近。+只能眼睁睁看着默莉朵被塞上车……+莫娜开启了埃涅阿斯会议室频道。
-SP9(0)<Speaker>莫娜</Speaker>||<SE1>AVG_tele_connect</SE1>:呼叫雨伞，这里是氮，我们追上了目标默莉朵。+但她现在即将乘上帕拉蒂斯的运输车离开，我们无法继续追捕。
-SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>雨伞收到，无需勉强，锁定跟踪设备的讯号即可。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:收到。
-SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>铁元素正赶去支援你们。</color>
-SP9(0)<Speaker>莫娜</Speaker>||:明白，有了重火力，我们也——
-()<Speaker></Speaker>||:莫娜的声音戛然而止。+只是一个分神对话的瞬间，少女忽然发现……刚刚站在不远处的白衣涅托，眨眼便消失地无影无踪。
-SP9(0)<Speaker>莫娜</Speaker>||:……缇呢？
-QBZ191(0)<Speaker>九号</Speaker>||:嗯？不、不知道……+一瞬间就蒸发——？！
-()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:嗡——
-()<Speaker></Speaker>||<BGM>10130</BGM><common_effect>%%code=CJ_zidan%%</common_effect><SE1>AVG_20Winter_Knife_Whoosh</SE1>:嗡鸣的长剑震动着闪烁起一道凛冽的寒芒，刺目的白光在刹那间便已落至眼前——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:<size=50>铮——！</size>+名为九号的少女护着同伴险险接下了这招。
-QBZ191(0)<Speaker>九号</Speaker>||:好快的剑！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:身着白衣的敌人早已孤傲地落在高处，不以为然地擦了擦剑。+在她面前，没有惊慌失措，三名人形已经默契地找好位置准备开工。
-SP9(3)<Speaker>莫娜</Speaker>||<SE1>AVG_weapon_reload</SE1>:氮小队，准备迎战！
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:双方の距離が近づき、モリドーたちが再び視界に入る――
+QBZ191(0)<Speaker>9番</Speaker>||:<color=#00CCFF>……あれは、輸送車か？！</color>
+SP9(3)<Speaker>モナ</Speaker>||:<color=#00CCFF>それで逃げる気か！</color>
+Rhino(0)<Speaker>ライノ</Speaker>||:<color=#00CCFF>タイヤの空気を抜いておきますか？</color>
+SP9(3)<Speaker>モナ</Speaker>||:<color=#00CCFF>できれば発見されないようにしたい。</color>
+()<Speaker></Speaker>||:周囲に遮蔽物がないため、三人はこれ以上距離を詰めることができない。+このままではモリドーたちは輸送車に乗ってしまう……+モナはアエネアス会議室のチャンネルを開いた。
+SP9(0)<Speaker>モナ</Speaker>||<SE1>AVG_tele_connect</SE1>:アンブレラヘ、こちらニトロ、目標のモリドーに追いついた。+しかし今、モリドーはパラデウスの輸送車に乗ろうとしている、//nこれ以上の追跡は困難だと思われる。
+SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>アンブレラ了解した。無理するな、発信機の信号さえ//n見失わなければそれでいい。</color>
+SP9(0)<Speaker>モナ</Speaker>||:了解。
+SP9(0)<Speaker>RO635</Speaker><同时置暗>||:<color=#00CCFF>フェルムもそちらの支援に向かっている。</color>
+SP9(0)<Speaker>モナ</Speaker>||:分かった。火力サポートがいれば、こちらも――
+()<Speaker></Speaker>||:モナの声が急に止まった。+少しだけ注意を逸らした瞬間……グリクはすでにいなくなっていた。
+SP9(0)<Speaker>モナ</Speaker>||:……グリクは？
+QBZ191(0)<Speaker>9番</Speaker>||:ん？　い、いや……+一瞬でいなくなった――？！
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:（シュッ――）
+()<Speaker></Speaker>||<BGM>10130</BGM><common_effect>%%code=CJ_zidan%%</common_effect><SE1>AVG_20Winter_Knife_Whoosh</SE1>:長剣が風を切り、冷たい光が目の前に襲い掛かってきた――
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:<size=50>（キーン——！）</size>+9番はなんとかそれを受け止め、仲間を守った。
+QBZ191(0)<Speaker>9番</Speaker>||:こいつ速いぞ！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:最初の奇襲には失敗したが、グリクは距離をとると、//n何事もなかったかのように剣を拭いた。+対して三人も慌てることなく、冷静に陣形を展開する。
+SP9(3)<Speaker>モナ</Speaker>||<SE1>AVG_weapon_reload</SE1>:ニトロ、迎撃開始！
 ()||<黑点1>:

@@ -1,11 +1,11 @@
 ()||<BIN>10</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:……+滴。+通讯接通。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>SIG？你在岗哨位置吗？</color>
-SIGMCX(0)<Speaker>SIGMCX</Speaker>||:对呀对呀，我正在警戒呢。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>很好，我现在需要你去拦截准备突围的小股帕拉蒂斯部队。</color>
-SIGMCX(0)<Speaker>SIGMCX</Speaker>||:帕拉蒂斯部队？我？真的吗？
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>是一支精锐的前锋小队。</color>+<color=#00CCFF>多半是小规模的突围尝试。</color>+<color=#00CCFF>我们大部队不能离开主要防线位置。</color>+<color=#00CCFF>就交给你了。</color>
-SIGMCX(0)<Speaker>SIGMCX</Speaker>||:哦~好嘞，我知道了。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>作战途中可能会遇到需要支援的情况。</color>+<color=#00CCFF>到时我会尽可能协助你的，不必担心。</color>
-SIGMCX(0)<Speaker>SIGMCX</Speaker>||:OK！
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:……+滴。+通讯挂断。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:……+（ピッ）+通信接続。
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>SIG？　哨戒位置にいるか？</color>
+SIGMCX(0)<Speaker>SIG MCX</Speaker>||:うん、今哨戒中だよ。
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>ちょうどいい。今からパラデウス部隊の阻止に向かって欲しいんだ。</color>
+SIGMCX(0)<Speaker>SIG MCX</Speaker>||:パラデウス部隊の？　あたしが？　本当に？
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>敵は少数精鋭の前衛小隊だ。</color>+<color=#00CCFF>おそらく包囲突破を試みてるんだろう。</color>+<color=#00CCFF>こちらの主力部隊は持ち場から離れることができない。</color>+<color=#00CCFF>だから君に任せるしかない。</color>
+SIGMCX(0)<Speaker>SIG MCX</Speaker>||:なるほど～よし、分かった。
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>作戦途中で支援が欲しい状況が出てくるかもしれない。</color>+<color=#00CCFF>その時はできる限りの協力をする。心配するな。</color>
+SIGMCX(0)<Speaker>SIG MCX</Speaker>||:OK！
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:……+（ピッ）+通信終了。

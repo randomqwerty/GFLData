@@ -161,7 +161,8 @@ patch3020=
 "3020/DeploymentAllyTeamController",	
 "3020/DeploymentTeamInfoController",
 "3020/DeploymentMapDragController",
-"3020/DeploymentEnemyTeamController",							
+"3020/DeploymentEnemyTeamController",
+"3020/DeploymentSpotController",								
 "3020/ReinforcementFixAllConfirmBoxController",
 "3020/SquadListController",	
 "3020/CommonSquadListLabelController",	
@@ -196,7 +197,8 @@ patch3020=
 "3020/PlayerReturnEventCtrl",
 "3020/OPSWebWindows",
 "3020/GunStateGunLikeController",	
-"3020/BattleCharacterManager",			
+"3020/BattleCharacterManager",
+"3020/CommonGetNewSangvisGunController",			
 }
 -- va11
 print("load Va11");
