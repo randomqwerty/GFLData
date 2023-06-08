@@ -14432,6 +14432,22 @@
     "formula": "sbuffidtier(8615)"
   },
   {
+    "id": 519301,
+    "formula": "#enemytype=3?1:0"
+  },
+  {
+    "id": 519401,
+    "formula": "#enemytype=2?1:#enemytype=5?1:0"
+  },
+  {
+    "id": 519501,
+    "formula": "#enemytype=1?1:#enemytype=4?1:0"
+  },
+  {
+    "id": 521601,
+    "formula": "tbuffidtier(3766)=1?1:0"
+  },
+  {
     "id": 750001,
     "formula": "$3>$1?1:0"
   },
