@@ -12216,6 +12216,102 @@
     "formula": "tbuffidtier(8982)=0&#armor>0&tbuffidtier(8990)=1?50:1"
   },
   {
+    "id": 5193,
+    "formula": "#enemytype=3?$1:0"
+  },
+  {
+    "id": 5194,
+    "formula": "#enemytype=2?$1:#enemytype=5?$1:0"
+  },
+  {
+    "id": 5195,
+    "formula": "#enemytype=1?$1:#enemytype=4?$1:0"
+  },
+  {
+    "id": 5196,
+    "formula": "#enemytype=3?1:0"
+  },
+  {
+    "id": 5197,
+    "formula": "#enemytype=2?1:#enemytype=5?1:0"
+  },
+  {
+    "id": 5198,
+    "formula": "sbuffidtier(9002)=1?140:150"
+  },
+  {
+    "id": 5199,
+    "formula": "sbuffidtier(9002)=1?143:156"
+  },
+  {
+    "id": 5200,
+    "formula": "sbuffidtier(9002)=1?147:161"
+  },
+  {
+    "id": 5201,
+    "formula": "sbuffidtier(9002)=1?150:167"
+  },
+  {
+    "id": 5202,
+    "formula": "sbuffidtier(9002)=1?153:172"
+  },
+  {
+    "id": 5203,
+    "formula": "sbuffidtier(9002)=1?157:178"
+  },
+  {
+    "id": 5204,
+    "formula": "sbuffidtier(9002)=1?160:183"
+  },
+  {
+    "id": 5205,
+    "formula": "sbuffidtier(9002)=1?163:189"
+  },
+  {
+    "id": 5206,
+    "formula": "sbuffidtier(9002)=1?167:194"
+  },
+  {
+    "id": 5207,
+    "formula": "sbuffidtier(9002)=1?170:200"
+  },
+  {
+    "id": 5208,
+    "formula": "@life/@maxlife<0.5?1:0"
+  },
+  {
+    "id": 5209,
+    "formula": "sbuffidtier(459)=0&(sbuffidtier(9005)+sbuffidtier(9006))=0?1:0"
+  },
+  {
+    "id": 5210,
+    "formula": "sbuffidtier(9011)"
+  },
+  {
+    "id": 5211,
+    "formula": "sbuffidtier(9010)/10"
+  },
+  {
+    "id": 5212,
+    "formula": "#enemytype=1?0:#maxlife*0.2"
+  },
+  {
+    "id": 5213,
+    "formula": "@enemytype=1?1:0"
+  },
+  {
+    "id": 5214,
+    "formula": "tbuffidtier(9015)=1&tbuffidtier(3766)=0?9016:0"
+  },
+  {
+    "id": 5215,
+    "formula": "sbuffidtier(9018)"
+  },
+  {
+    "id": 5216,
+    "formula": "tbuffidtier(3766)=1?$1:0"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
