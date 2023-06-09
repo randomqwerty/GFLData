@@ -117,6 +117,14 @@ end
 local myOnIAPValidateComplete = function(self)
 	self:OnIAPValidateComplete();
 	myRefreshPriceLabel(self);
+	self.normalPassBuy_Btn.onClick:RemoveAllListeners();
+	self.normalPassBuy_Btn:AddOnClick(function()
+		self:BuyPassOrder(true);
+		end);
+	self.deluxePassBtn_Buy_Btn.onClick:RemoveAllListeners();
+    self.deluxePassBtn_Buy_Btn:AddOnClick(function()
+		self:BuyPassOrder(false);
+		end);
 end
 local myStart = function(self)
 	for i=CS.GameData.listMallGood.Count - 1, 0, -1 do
@@ -125,7 +133,8 @@ local myStart = function(self)
 			CS.GameData.listMallGood:RemoveAt(i);
 		end
 	end
-	self:Start();
+	--self:Start();
+	self:RequestMallGood();
 end
 if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 
