@@ -62,9 +62,6 @@ local TriggerFriendAllyTeamTurnEvent = function()
 end
 
 local cantransfer = function(skill,spot)
-	if spot.spotAction.HasTeam then
-		return false;
-	end
 	if spot.spotAction.isRandom then
 		return false;
 	end

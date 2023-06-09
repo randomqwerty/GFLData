@@ -198,7 +198,8 @@ patch3020=
 "3020/OPSWebWindows",
 "3020/GunStateGunLikeController",	
 "3020/BattleCharacterManager",
-"3020/CommonGetNewSangvisGunController",			
+"3020/CommonGetNewSangvisGunController",
+"3020/FormationShowEquipInfoController",			
 }
 -- va11
 print("load Va11");
