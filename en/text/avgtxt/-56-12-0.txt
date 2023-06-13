@@ -1,86 +1,86 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>548</BIN><黑屏2><BGM>m_wv_title</BGM><Night>:柏林，居民区，谢丽尔公寓。
-()<Speaker></Speaker>||<震屏3><SE1>ClothingUp</SE1>:客厅里一地狼藉，竞争者从几乎看不出原样的废墟里提出了一个人类。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||<SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=8</controll_shake>:<size=50>混蛋，放开我！</size>
-()<Speaker></Speaker>||:黑暗中，谢丽尔用力挣扎，但人类女孩的力气就像蚊子试图抬起大象。
-Contender(0)<Speaker>竞争者</Speaker>||:别动小姑娘，你这样会伤到自己。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||<SE1>Stop_AVG_loop</SE1>:你们，你们这是非法入侵民宅！
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:那个，怎么说呢。+我们是为了让我们队长过来跟亲人团聚的。+我们队长就是为了跟你说句话，所以才千辛万苦爬上来。+就是你吧，艾莉安娜的妹妹？
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||<震屏>:<size=50>……呸！谁是她妹妹！</size>
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:啊我知道我知道，她那个臭脾气就是这样。+小妹妹，虽然把你家弄乱了不好意思，但你先跟她说说话嘛。
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1><关闭蒙版>:M249啪的一声打开全部灯光。
-M60(0)<Speaker>M60</Speaker><Position>0,-50</Position>||:……艾莉安娜人呢？
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:嗯？之前不还跟我们在这里一起对抗扫地机器人吗？
-Contender(0)<Speaker>竞争者</Speaker>||:……SCR也不见了！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:在众人形的呆愣中谢丽尔挣扎了出来，然后把门死死抵住。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:你们等着吃牢饭吧！我已经报警了！
-Contender(0)<Speaker>竞争者</Speaker>||:呃，那你堵着门干嘛？
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:……当然是不准你们走了！
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:……喂喂喂，我们充其量只算是从犯。+现在带头大哥不见了啊。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:我管你们，统统去向警察解释吧！
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:一家人别这样吧。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||<震屏>:<size=50>谁跟你们一家人！</size>
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:你不是艾莉安娜的妹妹吗？
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:我呸呸呸我才不要当她妹妹！+谁当她妹妹谁就要被她杀死，谁稀罕当她妹妹啊！
-Contender(0)<Speaker>竞争者</Speaker>||:……
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:……
-M60(0)<Speaker>M60</Speaker><Position>0,-50</Position>||:……
+()<Speaker></Speaker>||<BIN>548</BIN><黑屏2><BGM>m_wv_title</BGM><Night>:In a Berlin residential district, at Cheryl's apartment.
+()<Speaker></Speaker>||<震屏3><SE1>ClothingUp</SE1>:The living room is a mess. Contender fishes a human being out of an unrecognizable pile of stuff.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||<SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=8</controll_shake>:<size=50>You bitch, let go of me!</size>
+()<Speaker></Speaker>||:Cheryl struggles in the darkness, but a human girl's strength against Contender's is like a mosquito trying to lift an elephant.
+Contender(0)<Speaker>Contender</Speaker>||:Stay still, Miss. You'll hurt yourself like this.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||<SE1>Stop_AVG_loop</SE1>:You—This is illegal trespassing onto private property!
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:Ah, how shall I put this.+We're here to arrange a family reunion for our leader.+Our leader climbed all the way up here just to talk to you.+You're Aliana's little sister, right?
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||<震屏>:<size=50>...Ptooey! Who the hell are you calling her sister!?</size>
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:Ah, I know, I know, she has a really screwed-up attitude. +Sorry about the mess we made of your house, but at least say a few words to her.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1><关闭蒙版>:There is a snap as FF M249SAW turns on all the lights in the house.
+M60(0)<Speaker>M60</Speaker><Position>0,-50</Position>||:...Where's Aliana?
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:Hm? Wasn't she fighting the roombas with us just now?
+Contender(0)<Speaker>Contender</Speaker>||:...SCR's gone too!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:As the Dolls look around in confusion, Cheryl wriggles free and then blocks the door.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:You can look forward to having your three square meals in jail! I've already called the cops!
+Contender(0)<Speaker>Contender</Speaker>||:Er, why are you blocking the door?
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:...To keep you from leaving, of course!
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:...Wait a minute. We're accessories at most. +Our boss is gone now.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Like I care. Go tell it to the judge.
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:Aw, come on, you're family, aren't you?
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||<震屏>:<size=50>Who the hell are you calling family!?</size>
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:Wait, so you're NOT Aliana's little sister?
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:(Spits repeatedly) Like hell I am!+She killed all her little sisters! Who the hell would want to be that!
+Contender(0)<Speaker>Contender</Speaker>||:...
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:...
+M60(0)<Speaker>M60</Speaker><Position>0,-50</Position>||:...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:……
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑点2><BIN>357</BIN><BGM>BGM_Empty</BGM><SE1>AVG_door_elecport</SE1>:格里芬基地，指挥室。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:赫丽安将一沓计划表递给指挥官。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:这些是明天的安排，今天先休息吧。
-()<Speaker>指挥官</Speaker>||:嗯好，你也早点休息吧。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:指挥官关上平板，揉了揉太阳穴，正准备伸个懒腰松松筋骨。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴滴——通讯器忽然急促响起。
-()<Speaker>治安官</Speaker>||:<color=#00CCFF>你好，请问是格里芬披萨餐饮有限公司吗？</color>
-()<Speaker>指挥官</Speaker>||:呃……是。
-()<Speaker>治安官</Speaker>||:<color=#00CCFF>贵公司名下登记的人形，涉嫌非法入侵民宅，侵犯合法私产，目前已被我局拘留。请在6小时内前来办理相关手续，否则后果自负。</color>
-()<Speaker>指挥官</Speaker>||<震屏3>:<size=50>……什么情况？！</size>
+()<Speaker></Speaker>||<黑点2><BIN>357</BIN><BGM>BGM_Empty</BGM><SE1>AVG_door_elecport</SE1>:At the Griffin Base, in the Ops Room.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Helian hands a stack of papers to the Commander.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:This is tomorrow's schedule. You should get some rest.
+()<Speaker>Commander</Speaker>||:Alright. You should turn in early too.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:The Commander turns off their tablet, rubs their temples, and prepares to stretch out their cramped shoulders and waist.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep, beep—Their communicator suddenly rings.
+()<Speaker>Policeman</Speaker>||:<color=#00CCFF>Hello, is this Sir Griffin's Pizza Pte. Ltd?</color>
+()<Speaker>Commander</Speaker>||:Er... Yes?
+()<Speaker>Policeman</Speaker>||:<color=#00CCFF>Some Dolls registered under your company name have committed illegal trespassing on a private residence and destruction of private property. They are currently in police custody. Please report within 6 hours to perform the necessary procedures, or further action will be taken.</color>
+()<Speaker>Commander</Speaker>||<震屏3>:<size=50>...What the heck did you just say!?</size>
 ()||<黑点1>:
-()<Speaker></Speaker>||<Night><黑点2><BGM>m_avg_casual</BGM><BIN>84</BIN><SE1>AVG_Alarm_Distance</SE1>:柏林，警局门口。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:几名人形忐忑地站在路边，看着办理完手续的指挥官和赫丽安黑着脸从警局内走了出来。
-M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position>||:我们被坑得好惨，指挥官一定要给我们换个队长！
-Contender(0)<Speaker>竞争者</Speaker>||:这分明是圈套，是她为了甩掉我们才这么做的，这种人怎么配留在我们格里芬。
-()<Speaker></Speaker>||:遭此耻辱的人形们瞬间围了上去，叽叽喳喳地开始控诉艾莉安娜。
-()<Speaker>指挥官</Speaker>||:回基地再说吧，这件事我会处理。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:就这样放任艾莉安娜不管，可不行啊。
-()<Speaker></Speaker>||:赫丽安扭头看向指挥官，对艾莉安娜的行为，即便是她也感到相当的失望。
-()<Speaker>指挥官</Speaker>||:我会听她的解释，这是我和她达成的信任。+她要同过去做一个诀别，只有这样，才能安心面对未来。+而为了能够更妥善地运用她的力量——我必须给她与过去告别的机会。
-()<Speaker></Speaker>||:指挥官叹了口气。
-()<Speaker>指挥官</Speaker>||:当下……只能尽快发动人力把她找回来吧。
+()<Speaker></Speaker>||<Night><黑点2><BGM>m_avg_casual</BGM><BIN>84</BIN><SE1>AVG_Alarm_Distance</SE1>:In Berlin, at the entrance to the police department.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:Several Dolls stand uncomfortably by the side of the road, watching as the Commander and Helian emerge from the police station after filling in the appropriate paperwork, with grim looks on their faces.
+M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position>||:Dammit, she screwed us good, Commander. You need to give us a new leader!
+Contender(0)<Speaker>Contender</Speaker>||:This was clearly a trap. She did it to ditch us. How can you allow someone like that to stay in Griffin?
+()<Speaker></Speaker>||:The disgraced Dolls immediately rush up to unload their complaints about Aliana.
+()<Speaker>Commander</Speaker>||:We'll talk about it in the base. I'll take care of this.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:But we can't just leave Aliana unattended.
+()<Speaker></Speaker>||:Helian looks back at the Commander. Even she feels quite disappointed about what Aliana has done.
+()<Speaker>Commander</Speaker>||:I'll hear her out. She's earned that much.+She needs to make a break with the past in order to face the future without any doubts. And in order to better use her strength—I need to give her a chance to bid the past farewell.
+()<Speaker></Speaker>||:The Commander sighs.
+()<Speaker>Commander</Speaker>||:Right now... All we can do is deploy our people to find her.
 ()||<黑点1>:
-()<Speaker></Speaker>||<Night><BIN>86</BIN><黑点2><BGM>BGM_Empty</BGM>:……某处街道的一角。
-()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:一辆停泊于此处的黑色汽车内，负责监视的男人等到了他们期盼已久的消息。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴。+通讯接通。
-NPC-Keven(0)<Speaker>J</Speaker>||:最好是有好消息，不然我车都要没油了！
-NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>……找到她了。</color>+<color=#00CCFF>警方的报警记录中出现了匹配信息。</color>
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(2)||:警察？
-NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>我们还在同警方沟通，有任何消息都会同步给你。</color>+<color=#00CCFF>但现在，我们已经初步锁定到了目标位置。</color>
-NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(2)||:……地点？
-NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>已经同步到你的导航仪上了。</color>+<color=#00CCFF>你是离得最近的人——不用我告诉你她有多难找吧？</color>
-NPC-Keven(5)<Speaker>J</Speaker>||:收到了，我这就出发。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>快点！主管下了死命令。</color>+<color=#00CCFF>必须抢在所有人之前找到她！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+通讯挂断。
-()<Speaker></Speaker>||:J挂断了通讯，看向标注在他导航仪上的地点。
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:不再迟疑，他一脚踩下油门，车子瞬间启动，扬长而去。
+()<Speaker></Speaker>||<Night><BIN>86</BIN><黑点2><BGM>BGM_Empty</BGM>:...On a certain street corner.
+()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:The men conducting surveillance from inside a parked black car finally receive the news they've been hoping for.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Click.+A call connects.
+NPC-Keven(0)<Speaker>J</Speaker>||:It had better be good news. My gas tank is almost empty!
+NPC-Keven(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>...We've found her.</color>+<color=#00CCFF>There was a police report about someone matching her description.</color>
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(2)||:The police?
+NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>We're still talking to the police. I'll share anything we find with you.</color>+<color=#00CCFF>But right now, at least, we've got a rough fix on her position.</color>
+NPC-Keven(5)<Speaker>J</Speaker>;NPC-Jason(2)||:...Location?
+NPC-Keven(5);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>I've sent it to your GPS.</color>+<color=#00CCFF>You're the closest to her location—I trust I don't need to tell you how hard she was to find?</color>
+NPC-Keven(5)<Speaker>J</Speaker>||:Got it. I'm heading out now.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Hurry! The director's handed down an order.</color>+<color=#00CCFF>You need to find her before everyone else does!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click.+The transmission ends.
+()<Speaker></Speaker>||:J hangs up and checks the location on his GPS system.
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:He floors the pedal without hesitation and his car immediately kicks into gear, roaring off into the night.
 ()||<黑点1>:
-()<Speaker></Speaker>||<关闭蒙版><黑点2><BGM>BGM_Empty</BGM><BIN>548</BIN><SE1>AVG_20Winter_Door_Close</SE1>:在警察带走所有人形后，热闹的舞台也沉寂了，唯独剩下一地狼藉。
-()<Speaker></Speaker>||<BGM>2022_white_valentine_BGM2</BGM><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=4</controll_shake><SE1>ClothingUp</SE1>:谢丽尔长舒一口气，瘫软在她的杂物堆里。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:总算送走了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:像是突然想起什么，谢丽尔又跳了起来，冲到窗边眼巴巴向外望去。+窗外的街道除了围观的人群、正在离去的警察一行……再没有那个熟悉的影子。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:应该顺利跑掉了吧……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:谢丽尔叹了口气，习惯性摸向口袋中的……什么也没有。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:不对！明明在这里……+啊——她把弹壳带走了！
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:我珍藏了那么多年的，姐姐纪念品——
-()<Speaker></Speaker>||:被视作护身符的宝物不见踪影，谢丽尔急得好像热锅上的蚂蚁，手脚乱舞就快把自己绑了个结实。
-NPC-Cheryl(4)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:啊……难道我放在卧室里了！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:谢丽尔回到卧室，看着床头柜上的相片，长舒一口气。
+()<Speaker></Speaker>||<关闭蒙版><黑点2><BGM>BGM_Empty</BGM><BIN>548</BIN><SE1>AVG_20Winter_Door_Close</SE1>:After the police have taken the Dolls away, the once lively scene is now silent. Only a mess remains.
+()<Speaker></Speaker>||<BGM>2022_white_valentine_BGM2</BGM><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=4</controll_shake><SE1>ClothingUp</SE1>:Cheryl sighs heavily in relief before slumping down onto a pile of junk.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:They're gone at last...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Then, Cheryl jumps up, as though she's suddenly remembered something, and then she rushes to the window before looking around and searching the scenery with her eyes.+Apart from the crowd that's watching and the group being escorted to the police station... That familiar figure is nowhere in sight.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:I hope she managed to escape successfully...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Cheryl sighs once more as she unconsciously follows her old habit and reaches into her pocket for... nothing at all.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:No! It was right here...+Ahhhh—She took the bullet casing!
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:That precious memory of Big Sis that I held onto for so long—
+()<Speaker></Speaker>||:Cheryl panics when she realizes her lucky charm is gone, and she flails around wildly as she tries to figure out what is happening.
+NPC-Cheryl(4)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Ah... Did I put it in the bedroom!?
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Cheryl heads back in there and relaxes visibly as she sees the picture at the head of the bed.
 ()||<黑点1>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><黑点2><BIN>544</BIN>:……这是一张有些年头的合影，皱巴巴的折痕和掉色磨毛的边缘，大概经常被人拿出来观看摩挲的缘故。+照片上能辨认清楚样子的只有3个人，萨摩说它已经失去保密价值了。
-()<Speaker>谢丽尔</Speaker>||:……+优拉姐姐也在上面吗……
-()<Speaker></Speaker>||:谢丽尔轻抚着照片上的每一张面孔。+照片的背面，潦草地用马克笔写着——+交换你的弹壳，以后别用那么脏兮兮的东西做护身符了。
-()<Speaker>谢丽尔</Speaker>||:萨摩，你一定要活着回来，告诉我哪个才是优拉姐姐……不然我一定追杀你到天涯海角！
-()<Speaker></Speaker>||:少女的眼中盈满泪水，扑簌簌地从面颊滚落，落进地毯消失不见。
-()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><黑点2><BIN>544</BIN>:...It is a tattered old group picture, crumpled and worn-out in places, probably because someone frequently took it out to look at and touch it.+Only the faces of 3 people can be made out. Samo said there was no point keeping it secret any longer.
+()<Speaker>Cheryl</Speaker>||:...+Is Big Sis Eula in there too...
+()<Speaker></Speaker>||:Cheryl gently strokes every face in the picture.+Someone has scribbled on the back in marker pen—+I'll trade this for your shell casing. Don't use that dirty old thing as your lucky charm any more.
+()<Speaker>Cheryl</Speaker>||:Samo, you'd better come back alive and tell me which of them is Big Sis Eula... Or I swear I'll hunt you to the ends of the earth!
+()<Speaker></Speaker>||:The tears brimming in the girl's eyes overflow and roll down her cheeks, before vanishing into the carpet.
+()||<黑点1>:

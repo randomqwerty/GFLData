@@ -111,6 +111,17 @@ local Start = function(self)
 	CS.ResManager.GetObjectByPath("UGUIPrefabs/SpecialOPS/OPSMissionInfo");
 	self:Start();
 end
+
+local CheckEndlessPoint = function(self)
+	if self.currentPanelConfig.highScoreInfo ~= nil then
+		if self.currentPanelConfig.highScoreInfo.opsmission ~= nil then
+			if self.currentPanelConfig.highScoreInfo.opsmission.currentMissionInfo == nil then
+				self.currentPanelConfig.highScoreInfo.opsmission = nil;
+			end
+		end
+	end
+	self:CheckEndlessPoint();
+end
 util.hotfix_ex(CS.OPSPanelController,'CheckMapAnimator',CheckMapAnimator)
 util.hotfix_ex(CS.OPSPanelController,'EndMapAnimator',EndMapAnimator)
 util.hotfix_ex(CS.OPSPanelController,'SelectMapAnimatorDefault',SelectMapAnimatorDefault)
@@ -118,3 +129,4 @@ util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
 util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
 util.hotfix_ex(CS.OPSPanelController,'Start',Start)
+util.hotfix_ex(CS.OPSPanelController,'CheckEndlessPoint',CheckEndlessPoint)

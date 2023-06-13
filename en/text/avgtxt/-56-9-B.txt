@@ -1,87 +1,87 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>563</BIN><黑屏2><BGM>BGM_Scar_Shenzhizi</BGM>:萨摩的心智空间。+像往常一样，萨摩抽出自己的椅子坐下，围绕在身边的七把椅子已经坐满了人。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:那种熟悉的感觉涌上来……
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……这个女孩身上，有关于我们的回忆。
-()<Speaker>？？</Speaker>||:是谁的……
-()<Speaker>？？？</Speaker>||:十三年了……我们终于可以……+可以分清楚谁是谁了吗？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……也许。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:关于那个女孩，一共有七段记忆。+因为我们无法对外显示身份，也没有向那个女孩披露任何信息。+所以目前唯一能够确定身份的是其中一段教学的回忆。
-NPC-SCAR-H(1)<同时置暗><Speaker>？？？</Speaker>||:教学？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我们中间那个人教会了她如何拆除炸弹以及……射击。+那段记忆里，“我”的视角能看见自己所持的枪械。
-NPC-SCAR-H(1)<同时置暗><Speaker>？？</Speaker>||:是谁？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:优拉。
-()||<SE1>AVG_Applause</SE1>:一阵掌声响起。
-()<Speaker>？？</Speaker>||:恭喜你，找回了自己的记忆。
-()<Speaker>？？？</Speaker>||:恭喜，你的名字是优拉。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……优拉，吗？
-()<Speaker>？？？？</Speaker>||:我们又向前走了一步。
-()<Speaker>？？？</Speaker>||:对，这是一个很大的进步。
-()<Speaker>？？</Speaker>||<黑点1>:是的优拉，恭喜你找回了自己的名字。
-()||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN>:……
+()||<BIN>563</BIN><黑屏2><BGM>BGM_Scar_Shenzhizi</BGM>:Inside Samo's neural cloud.+As usual, Samo finds her seat and takes it. The seven chairs around her are already filled.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:This all feels familiar...
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...That girl has memories concerning us.
+()<Speaker>??</Speaker>||:Whose memories are they...
+()<Speaker>???</Speaker>||:Could it be... After 13 years...+Can we finally tell which of us is whom now?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...Perhaps.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:There are a total of seven stretches of memory concerning that girl.+Since we can't reveal our identity to the outside world and neither have we revealed anything to that girl...+The only thing that we can use to verify our identities is a section of memories of teaching others.
+NPC-SCAR-H(1)<同时置暗><Speaker>???</Speaker>||:Teaching others?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:One of us taught her how to disarm bombs... as well as shooting.+In that memory, I could see my gun from "my" perspective.
+NPC-SCAR-H(1)<同时置暗><Speaker>??</Speaker>||:Who was it?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:Eula.
+()||<SE1>AVG_Applause</SE1>:A round of applause fills the air.
+()<Speaker>??</Speaker>||:Congratulations on finding your memories.
+()<Speaker>???</Speaker>||:Congratulations. Your name is now Eula.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...I'm Eula, then?
+()<Speaker>????</Speaker>||:We've taken another step forward.
+()<Speaker>???</Speaker>||:Yes, this is a huge improvement.
+()<Speaker>??</Speaker>||<黑点1>:Yes, Eula. Congratulations on rediscovering your own name.
+()||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN>:...
 ()||<黑屏1>:
-()||<睁眼><BIN>548</BIN><BGM>GF_21winter_avg_mahaline</BGM><SE1>AVG_Knock</SE1>:砰砰砰——+有人用力敲门的声音，将萨摩从心智深处中唤醒。
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:别紧张，是我的快递……
-()||<SE1>RunStep</SE1>:谢丽尔去开门，拿回了快递。
-()<Speaker>谢丽尔</Speaker>||:这是我给你买的蓄电池，本来是准备今天带你去换上的。+这样，你或许电量能撑得久一点……
-()<Speaker>萨摩</Speaker>||:……
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:虽然我也只买得起二手的，但我觉得应该会比你现在的电池好用。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……+我有事想跟你说。
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:怎么了？
-()||<SE1>AVG_Cloak_Whoosh</SE1>:萨摩沉默地走到谢丽尔的身边，从杂乱的衣服中开辟出一片足以坐下的空地。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:十四年前的十二月一日。+那个救下你的人形，叫优拉。
-NPC-Cheryl(3)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:优拉……+这就是你真正的名字吗？+那以后我可以喊你优拉姐姐吗？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……不要。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:为什么？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:因为……我只能确定救你的人是“优拉”。+但我不确定我是不是“优拉”。
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:你在说什么？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>;NPC-Cheryl(2)<Position>0,-100</Position>||<BGM>m_avg_labyrinth</BGM>:……其实过去十三年了，有些事情确实不再算作秘密。+我曾经是一位军人。
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:……我猜到了，毕竟当年那起孩童绑架案牵涉很广，据说最后收尾的是军方。+我们被送回家之后，父母也收到了需要保密的要求……后来我长大以后，才陆陆续续在网上找到了一些资料。
-()||<SE1>AVG_20Winter_Book</SE1>:萨摩拿出一张纸，在纸上的画出八个黑色小人，又画出了一个红色的特殊小人。
-()||:萨摩用红色的中性笔慢慢地划去了七个黑色小人。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我隶属于一支特种部队，曾经在执行特殊任务的时候遭遇队长叛变。+其他队员全部被队长清理，奇怪的是……我们的记忆混在了一起，全部挤到了我的心智核心里。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:所以……我不能确定我是谁。+但你给我们起码提供了一个人的身份记忆。+我们都很谢谢你。
-NPC-Cheryl(3)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:哎呀不客气！这是我应该做的！优拉姐姐，我早就想——
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:所以，我们决定离开这里。+集体决定。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:……什么？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:因为十三年前，我们亲眼见到队长死去，以为她会永远地消失在这世间。+但是昨天，又见到了她。+她活了过来，甚至比过去拥有了更加强大的素体。+她的名字，叫做艾莉安娜。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:……
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:所以今天在车站前令你慌不择路躲进垃圾堆里的死对头，就是她？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:嗯……
-NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:但是你的记忆并不止一个人，也许你并不是她要找的那个，也许你们根本就搞错了呢……+现在还有时间，我们还能慢慢梳理你的记忆，总有一天，你会知道你是谁的。
-()||:谢丽尔由衷地舒了口气，她温暖的手心覆在萨摩的手背上。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:这就是问题所在。+我没有那个时间了……
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||:怎、怎么了？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:现在，她要来杀掉我了。
-()||<SE1>Rope</SE1>:谢丽尔惊恐地握住了萨摩的手，红色的中性笔距离最后一个黑色小人只差分厘。
-()<Speaker>谢丽尔</Speaker>||:那我们该怎么办？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我们？
-NPC-SCAR-H(1)<同时置暗><Speaker></Speaker>||<SE1>ClothingUp</SE1>:萨摩漠然地起身。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:我说了这件事与你无关，我会离开。
-NPC-SCAR-H(1)<同时置暗><Speaker>谢丽尔</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:等，等一下……+怎么可能与我无关，你现在是我的人形，我的私人财产，没有我的许可任何人都不准动你一根汗毛。
-()||:萨摩哑然失笑，此刻她面前的女孩忽然手舞足蹈，仿佛在用全身的力气对抗面前的假想敌。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……你的好意我心领了，不过，艾莉安娜可不是你一句不准动就可以喝止的。
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:你可别小看我哦！+自从十四年前那次事件发生以后，我就一直在为今天做准备了。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:见识过了，液氮冷冻枪嘛！
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:那算什么！我可是摸过真枪，拥有持枪证的！
-()||<SE1>AVG_lifttable</SE1>:谢丽尔跳起来，在自己的各个杂物堆中翻找。+霎时间，狼牙棒、电击器、防狼喷雾……琳琅满目的自卫武器在屋内乱飞。
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:别翻了，等会还要收拾……
-NPC-SCAR-H(1);NPC-Cheryl(0)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:这些我都亲自用过的！就是看上去简陋，但真的管用！
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>;NPC-Cheryl(0)<Position>0,-100</Position>||:你的装备或许对民用人形能产生伤害，但是对战术人形……+尤其是对艾莉安娜，恐怕连皮毛都伤不到。
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:艾莉安娜这么强吗……
-NPC-Cheryl(2)<同时置暗><Speaker></Speaker><Position>0,-100</Position>||:正在挥舞着狼牙棒的谢丽尔瞬间泄气了。
-NPC-Cheryl(2)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:哇——那你要怎么做才能打赢她？
-NPC-SCAR-H(1)<Speaker>萨摩</Speaker>||:……我还没想好。+但这个仇，我一定会为她们报的。
-()||<SE1>Rope</SE1>:谢丽尔赌气地把萨摩按着坐下。
-()<Speaker>谢丽尔</Speaker>||:那在你没想到之前，哪里也不许去！
-()||<SE1>AVG_File_Put</SE1>:谢丽尔用手指用力戳着充电面板。
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:看见这个充电面板了吗？不充满不许走。+这是我在市面上能买到的最大功率版的二手蓄电池了。
-()<Speaker>萨摩</Speaker>||:……
-NPC-Cheryl(1)<Speaker>谢丽尔</Speaker><Position>0,-100</Position>||:你说你心智核心里八个人对吧……难怪你这么耗电……+我可不想一会儿下楼丢垃圾把你从不可回收垃圾桶里捡回来！
-()<Speaker>萨摩</Speaker>||:可是你家的电路……
-()||:接入大功率电器的一瞬，区区居民用电的小公寓不争气地——
-()||<Night><SE1>AVG_21Winter_Open_Light</SE1>:啪，再次跳闸。
-()<Speaker>谢丽尔</Speaker>||:……大不了我用手电！家用电器全关掉，屋内没灯更安全！+你没看过特工电影吗？越是这种时候，越不要靠近窗边。
-()<Speaker>萨摩</Speaker>||:……
-()<Speaker>谢丽尔</Speaker>||:那就这样说定咯，如果你队长来了，我——起码我可以帮你挡一挡！+人形未经许可是不能对人类开枪的！
-()||:谢丽尔的公寓陷入一片昏沉，只有充电灯的绿色荧光隐约闪烁，昭示这注定是一个不平静的夜晚。
-()||<黑点1>:
+()||<睁眼><BIN>548</BIN><BGM>GF_21winter_avg_mahaline</BGM><SE1>AVG_Knock</SE1>:Bang, bang, bang—+The forceful knocking on the door awakens Samo from the depths of her neural cloud.
+NPC-Cheryl(0)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Don't worry, it's a delivery for me...
+()||<SE1>RunStep</SE1>:Cheryl opens the door and takes the package.
+()<Speaker>Cheryl</Speaker>||:This is a capacitor I bought for you. I was going to install it into you today.+That way, your charge might last a little longer...
+()<Speaker>Samo</Speaker>||:...
+NPC-Cheryl(0)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:It's only secondhand, but I think it should be better than your current battery.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...+There's something I want to tell you.
+NPC-Cheryl(0)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:What's wrong?
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Samo walks over to Cheryl's side without saying a word and clears a space big enough to sit in from among the clothes.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:On the 1st of December, 14 years ago... +The Doll who saved you was called Eula.
+NPC-Cheryl(3)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Eula... +Is that your real name?+Can I call you Big Sis Eula from now on?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...Please don't.
+NPC-SCAR-H(1)<同时置暗><Speaker>Cheryl</Speaker>||:Why?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:That's because... I can only confirm that the person who saved you was "Eula". +But I can't be sure that I am "Eula".
+NPC-Cheryl(2)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:What are you talking about?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>;NPC-Cheryl(2)<Position>0,-100</Position>||<BGM>m_avg_labyrinth</BGM>:...13 years have passed, and I guess some things don't need to be secret anymore.+I used to be a soldier.
+NPC-Cheryl(0)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:...I guessed as much. After all, that kidnapping case back then had a far-reaching impact, and I heard the military had to wrap things up in the end.+After we were sent home, our parents were told to keep quiet about it... I only managed to find some information much later on the internet, after I grew older.
+()||<SE1>AVG_20Winter_Book</SE1>:Samo takes out a piece of paper and draws 8 little black stick figures, and then a special little red stick figure.
+()||:She then uses a red gel pen to cancel out seven of the black stick figures.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:I belonged to a special forces unit, and our leader went rogue while we were carrying out a mission. +My other team members were wiped out by our leader, but the strange thing is... our memories are all mixed together and jammed into my neural cloud core.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:And that's why... I'm not sure who I am.+But you gave us enough information to remember one person's identity.+For that, we are all very grateful.
+NPC-Cheryl(3)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Aw, don't mention it! All in a day's work! Big Sis Eula, I've always wanted to—
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:Therefore, we've decided to leave this place.+All of us have decided.
+NPC-SCAR-H(1)<同时置暗><Speaker>Cheryl</Speaker>||:...Why?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:Because 13 years ago, we watched our leader die, and we thought that it was the end of her.+But yesterday, we saw her again.+She's come back to life, and she has an even more powerful body than before.+Her name is Aliana.
+NPC-SCAR-H(1)<同时置暗><Speaker>Cheryl</Speaker>||:...
+NPC-Cheryl(2)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:So she was that rival of yours who forced you to dive into a dumpster?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:Yeah...
+NPC-Cheryl(0)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:But your memories don't just belong to one person. Perhaps you're not the one she's looking for, or perhaps you've gotten it all wrong...+It isn't time yet. We can still sort through your memories. Someday, you'll know who is who.
+()||:Cheryl sighs and places her warm palm on the back of Samo's hand.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:Well, that's the problem. +I don't have that time...
+NPC-SCAR-H(1)<同时置暗><Speaker>Cheryl</Speaker>||:W-What do you mean?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:She's coming to kill me. Right now.
+()||<SE1>Rope</SE1>:Cheryl clutches Samo's hand in fear. The red pen is just a millimeter away from crossing out that last black figure.
+()<Speaker>Cheryl</Speaker>||:Then what should we do?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:We?
+NPC-SCAR-H(1)<同时置暗><Speaker></Speaker>||<SE1>ClothingUp</SE1>:Samo stands up indifferently.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:I told you, this matter doesn't concern you. I'm leaving.
+NPC-SCAR-H(1)<同时置暗><Speaker>Cheryl</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:Wait, wait a minute...+How can this be none of my business. You're my Doll now, my personal property. Nobody can touch you without my permission.
+()||:Samo can't help but laugh as she looks at the girl gesticulating wildly in front of her, as though trying to fight off imaginary enemies with all her might.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...I appreciate your good intentions, but Aliana isn't the kind of person who'll stop just because you tell her to freeze.
+NPC-Cheryl(1)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Don't look down on me!+I've been preparing for this day ever since that incident from 14 years ago.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:I saw your liquid nitrogen freeze gun already!
+NPC-Cheryl(1)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:That's nothing! I've gotten my hands on a real firearm; I even have a proper gun license now!
+()||<SE1>AVG_lifttable</SE1>:Cheryl jumps up and rummages through the piles of junk around her.+In an instant, a smorgasbord of self-defense weapons ranging from spiked tetsubos to tasers and even pepper spray go flying through the room.
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:That's enough. You'll have to put it all back afterwards...
+NPC-SCAR-H(1);NPC-Cheryl(0)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:I've used them all before! They might look crude, but they really are useful!
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>;NPC-Cheryl(0)<Position>0,-100</Position>||:Your gear might be able to damage a civilian Doll, but against a Tactical Doll...+You probably wouldn't be able to scratch one, especially if it was Aliana.
+NPC-Cheryl(2)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Is Aliana really that strong...
+NPC-Cheryl(2)<同时置暗><Speaker></Speaker><Position>0,-100</Position>||:Cheryl, who is halfway through swinging one of her spiky tetsubos, instantly deflates.
+NPC-Cheryl(2)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:Wow— How are you going to beat her, then?
+NPC-SCAR-H(1)<Speaker>Samo</Speaker>||:...I haven't thought about that yet. +But I'm going to avenge them.
+()||<SE1>Rope</SE1>:Cheryl places her hands on Samo's shoulders and forces the latter to sit back down.
+()<Speaker>Cheryl</Speaker>||:You aren't going anywhere until you've figured it out!
+()||<SE1>AVG_File_Put</SE1>:Cheryl forcefully pokes her charging panel with her finger.
+NPC-Cheryl(1)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:You see this charging panel? You're not leaving until it's full. +This is the most powerful secondhand capacitor I could find on the market.
+()<Speaker>Samo</Speaker>||:...
+NPC-Cheryl(1)<Speaker>Cheryl</Speaker><Position>0,-100</Position>||:You said you've got eight people in your neural cloud, right? No wonder you're gulping power...+I don't want to have to dig you out of a downstairs rubbish bin afterwards!
+()<Speaker>Samo</Speaker>||:But your house circuits...
+()||:The moment they connect to the high-power capacitor, the pitiful residential apartment's circuit breakers promptly—
+()||<Night><SE1>AVG_21Winter_Open_Light</SE1>:Snap. They trip.
+()<Speaker>Cheryl</Speaker>||:...Ahhh, at most I'll just use a torchlight! I'll turn off all my electrical appliances; it's safer without the lights on anyway!+Haven't you seen spy movies before? The further you are from windows at times like this, the better.
+()<Speaker>Samo</Speaker>||:...
+()<Speaker>Cheryl</Speaker>||:That's it, then. If your team leader arrives, I'll—I'll be able to cover for you a little, at least!+Dolls can't shoot humans without permission!
+()||:Cheryl's apartment goes dark. Only the subdued flashing of the green charging panel indicates that this night is anything but ordinary.
+()||<黑点1>:

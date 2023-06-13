@@ -1,69 +1,69 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>86</BIN><Night>:柏林，居民区，后巷。
-()||<BGM>BGM_Room</BGM><SE1>AVG_Team_Running</SE1>:远离谢丽尔的公寓，闪进一个幽暗无人的小巷，艾莉安娜才收住疾驰的脚步，恢复正常的行走速度。+SCR一路急速狂奔，见艾莉安娜慢下来了，方才跟着她进入小巷，气喘吁吁地靠着墙壁休息。
-NPC-SCR(2)<Speaker>SCR</Speaker>||<SE1>Stop_AVG_loop</SE1>:……咳咳……你站住。
-NPC-SCR(2);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:你跟着我干什么？
-NPC-SCR(2)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:……我要一个解释。
-NPC-SCR(2);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:……你们格里芬的人形，都这么喜欢死缠烂打吗？
-NPC-SCR(2)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:你早就知道那个民宅里没有你要找的人，把大家甩开才是你真正的目的吧。
-NPC-SCR(2);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:既然你知道，为什么还跟上来。
-NPC-SCR(2)<Speaker>SCR</Speaker>||:这是什么？
+()||<黑屏2><BIN>86</BIN><Night>:In the back alleys of a Berlin residential distinct.
+()||<BGM>BGM_Room</BGM><SE1>AVG_Team_Running</SE1>:It is only when she is far from Cheryl's apartment and after ducking into a dark, secluded alley that Aliana slows down to a normal walking pace.+SCR has been running at top speed all this while, and upon seeing Aliana lower her speed, she follows her into the alley where she leans against a wall, panting heavily.
+NPC-SCR(2)<Speaker>SCR</Speaker>||<SE1>Stop_AVG_loop</SE1>:(Coughs) You hold it right there.
+NPC-SCR(2);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Why are you following me?
+NPC-SCR(2)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:...I want an explanation.
+NPC-SCR(2);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:...Are all you Griffin Dolls so clingy?
+NPC-SCR(2)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:You already knew that apartment didn't have the person you were looking for. Your aim was to lose everyone, right?
+NPC-SCR(2);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:If you knew, then why did you follow?
+NPC-SCR(2)<Speaker>SCR</Speaker>||:What is this?
 ()||<黑屏1>:
-()<Speaker>艾莉安娜</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>544</BIN>:……这照片你从哪里看到的？
-()<Speaker>SCR</Speaker>||:在那个女孩的卧室里看到的，是你说要找人，却连对方的卧室都不搜查，倒是趁着客厅混乱的时候，悄悄逃走。
-()<Speaker>艾莉安娜</Speaker>||:是又怎样。
-()<Speaker>SCR</Speaker>||<BGM>BGM_Scar_Shenzhizi</BGM>:咳……给我一个解释，为什么照片上的人形和我一模一样？
-()<Speaker>艾莉安娜</Speaker>||:……大概你这具素体是厂商爱用的大众脸吧。
-()<Speaker>SCR</Speaker>||:……你知道我问的不是这个。+为什么选我做队友？
-()<Speaker>艾莉安娜</Speaker>||:……没什么。
-()<Speaker>SCR</Speaker>||:你是在怀念过去的队友吗？
-()<Speaker>艾莉安娜</Speaker>||:我没有！
-()<Speaker>SCR</Speaker>||:否认太快，你心虚！
-()<Speaker>艾莉安娜</Speaker>||:……
-()<Speaker>SCR</Speaker>||:你要找的妹妹，是这个和我长得一样的人形吗？
-()<Speaker>艾莉安娜</Speaker>||:……找不到了。
-()<Speaker>SCR</Speaker>||:什么意思？那她去哪里了？
-()<Speaker>艾莉安娜</Speaker>||:我亲手杀了她。
-()<Speaker>SCR</Speaker>||:……
-()<Speaker>艾莉安娜</Speaker>||:然后被照片上的另一个恨之入骨。
-()<Speaker>SCR</Speaker>||:……
+()<Speaker>Aliana</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>544</BIN>:...Where did you see this picture?
+()<Speaker>SCR</Speaker>||:Inside the bedroom of that girl. You said you were looking for people, but you didn't even check the bedroom. Instead you snuck away while the living room was in chaos.
+()<Speaker>Aliana</Speaker>||:So what?
+()<Speaker>SCR</Speaker>||<BGM>BGM_Scar_Shenzhizi</BGM>:(Cough) Because I want an explanation. Why does the Doll in that picture look exactly like me?
+()<Speaker>Aliana</Speaker>||:...I guess it's because your body has mass-market appeal.
+()<Speaker>SCR</Speaker>||:...You know that's not what I'm asking.+Why did you choose me as a teammate?
+()<Speaker>Aliana</Speaker>||:...No reason?
+()<Speaker>SCR</Speaker>||:Do you miss your former teammates?
+()<Speaker>Aliana</Speaker>||:I don't!
+()<Speaker>SCR</Speaker>||:Really? You were pretty quick to deny that!
+()<Speaker>Aliana</Speaker>||:...
+()<Speaker>SCR</Speaker>||:Is that little sister of yours the Doll who looks like me?
+()<Speaker>Aliana</Speaker>||:...I can't find her.
+()<Speaker>SCR</Speaker>||:What do you mean? Where did she go?
+()<Speaker>Aliana</Speaker>||:I killed her with my own hands.
+()<Speaker>SCR</Speaker>||:...
+()<Speaker>Aliana</Speaker>||:And the other Doll in the picture hates me for it.
+()<Speaker>SCR</Speaker>||:...
 ()||<黑屏1>:
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||<黑屏2><BIN>86</BIN><Night>:这下你满意了吧？+可以离开了吗？
-NPC-SCR(2)<Speaker>SCR</Speaker>||:指挥官知道吗？
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:你可以去告诉指挥官。
-NPC-SCR(2)<Speaker>SCR</Speaker>||:……总之不能耽误你今晚的行动对吗？
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:……
-()||:SCR背对艾莉安娜，打算离开。
-()||<SE1>AVG_footsteps_cave</SE1>:又忍不住退过来几步。
-NPC-SCR(4)<Speaker>SCR</Speaker>||<SE1>Stop_AVG_loop</SE1>:喂，艾莉安娜，你认为什么是同伴？
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:你是指队友？
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:……
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:我不知道，我只有过一队队友。+加上你们，算两队吧。
-NPC-SCR(4)<Speaker>SCR</Speaker>||:我只是个普通的民用人形。+来格里芬之前没有过队友，来格里芬之时也总是干一些没什么用的任务。+总是帮不上大家，特别是在这种欠缺战力的时候，我很抱歉。+所以你能选我做队友，不管出于什么目的。+我都很开心，也都很想和你一起战斗。+但你好像不这么认为。
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:作为我的同伴，都没有什么好下场。
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:……+你真的杀了她吗？
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:……
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:她叫什么？
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:优拉。
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:我不信你杀了她。+你没有这种理由。
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:你就当我是为了变强吧。
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:……
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:反正最终结果的确是这样。
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:不可能……+如果，如果你只是为了自己变强，你……你应该会恐惧我……讨厌我……绝对不会选我做队友。
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:原因从来不是最重要的东西。
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:你……要不要尝试一下？
-NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:尝试什么？
-NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:尝试一下，拥有新的队友，和新的相处方式？+我不知道你们的过去是怎么对待彼此的，要不要试试融入格里芬的氛围？
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:……我不想要这么烦人的关系。
-NPC-SCR(4)<Speaker>SCR</Speaker>||:不尝试一下的话……你就永远只有过去那段关系。+未来也永远只有一个人。+没有队员的队长，算什么队长？
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:……好吧。+如果我能活着回来，那我同意重新尝试一下。
-NPC-SCR(4)<Speaker>SCR</Speaker>||:……
-()||<BGM>BGM_Empty</BGM><SE1>AVG_footsteps_cave</SE1>:艾莉安娜缓缓离开。
-()||<SE1>Stop_AVG_loop</SE1><SE2>AVG_tele_connect</SE2>:走了两步，一个久违的通讯响起。
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||<BGM>BGM_Scar_Battle</BGM>:……
-()<Speaker>？？？？</Speaker>||:<color=#99CC33>……这是你与我们的恩怨。</color>+<color=#99CC33>不应该带上其他人。</color>
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:好巧，我也这么想。+阿玛瑞丝。+我还以为你要逃跑。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker><通讯框>||:<color=#99CC33>……你想多了……</color>+<color=#99CC33>选个地点作为解决一切的地方吧。</color>+<color=#99CC33>……我会为萨曼莎、莫瑞亚、奥莉维亚、优拉、妮可、珂瑞斯朵、萝瑞尔以及我——阿玛瑞丝，共同向你复仇。</color>
-NPC-SCAR-H(0)<通讯框>;NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:好……地址发你了。+明天这个时候见，阿玛瑞丝。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker><通讯框>||:<color=#99CC33>明天这个时候见，艾莉安娜。</color>
-()||<黑点1><BGM>BGM_Empty</BGM>:
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||<黑屏2><BIN>86</BIN><Night>:Are you happy now? +Can you go now?
+NPC-SCR(2)<Speaker>SCR</Speaker>||:Does the Commander know about this?
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:You can tell them.
+NPC-SCR(2)<Speaker>SCR</Speaker>||:...As long as I don't delay your mission tonight, right?
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:...
+()||:SCR turns her back on Aliana and prepares to leave...
+()||<SE1>AVG_footsteps_cave</SE1>:...But in the end she can't resist turning around after taking a few steps.
+NPC-SCR(4)<Speaker>SCR</Speaker>||<SE1>Stop_AVG_loop</SE1>:Hey, Aliana, what do you think friends are?
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:You mean teammates?
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:...
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:I don't know. I've only ever been on one team.+Well, two, counting you guys.
+NPC-SCR(4)<Speaker>SCR</Speaker>||:I'm just an ordinary civilian Doll.+I didn't have teammates before joining Griffin, and all I did in Griffin was useless tasks.+I could never help anyone out, especially in times like these when we desperately need fighting power, and I always felt bad about that.+So when you chose me to be a teammate, I was really happy.+I just wanted to fight by your side no matter what the reason was.+But you don't seem to feel the same way.
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Nothing good will come from being my friend.
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:...+Did you really kill her?
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:...
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:What was her name?
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Eula.
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:I don't believe you killed her.+You had no reason to.
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Just think of it as me doing it to become stronger.
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:...
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Besides, that's what happened in the end.
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:That's impossible...+If you just wanted to get stronger, then you... you ought to have feared me... or hated me... but you'd never have chosen me as a teammate.
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:The reasons have never been important.
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:Then... Do you want to try something?
+NPC-SCR(4);NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Try what?
+NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:Try a new way of getting along with others, now that you have a new team?+I don't know how you guys treated each other in the past, but do you want to try to blend in with Griffin?
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:...I don't want such annoying relationships.
+NPC-SCR(4)<Speaker>SCR</Speaker>||:Well, if you don't give it a try... then all you'll have will be that relationship in the past.+You'll be alone forever.+What kind of team leader has no teammates?
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:...Alright, then.+If I come back alive, I'll give this whole thing another go.
+NPC-SCR(4)<Speaker>SCR</Speaker>||:...
+()||<BGM>BGM_Empty</BGM><SE1>AVG_footsteps_cave</SE1>:Aliana slowly leaves.
+()||<SE1>Stop_AVG_loop</SE1><SE2>AVG_tele_connect</SE2>:After taking two steps away, she hears a voice that she hasn't heard in a long time.
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||<BGM>BGM_Scar_Battle</BGM>:...
+()<Speaker>????</Speaker>||:<color=#99CC33>...This is between you and me.</color>+<color=#99CC33>You shouldn't have involved others.</color>
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:What a coincidence, I was thinking the same thing.+Amaris.+I thought you'd have run off by now.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker><通讯框>||:<color=#99CC33>...You think too much...</color>+<color=#99CC33>Pick a place. We'll settle everything there.</color>+<color=#99CC33>...I'll take revenge on you for everyone's sake—Samantha, Morea, Olivia, Eula, Nicole, Callisto, Laura, and myself, Amaris.</color>
+NPC-SCAR-H(0)<通讯框>;NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||:Very well... I've sent you the location.+See you there tomorrow, Amaris.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker><通讯框>||:<color=#99CC33>See you tomorrow, Aliana.</color>
+()||<黑点1><BGM>BGM_Empty</BGM>:
