@@ -12312,6 +12312,42 @@
     "formula": "tbuffidtier(3766)=1?$1:0"
   },
   {
+    "id": 5219,
+    "formula": "sbuffidtier(9036)=1?9037:1400"
+  },
+  {
+    "id": 5220,
+    "formula": "sbuffidtier(9036)=1?9038:0"
+  },
+  {
+    "id": 5221,
+    "formula": "sbuffidtier(9033)=1&sbuffidtier(9034)=1&sbuffidtier(9035)=1?1:0"
+  },
+  {
+    "id": 5222,
+    "formula": "sbuffidtier(9039)=1&sbuffidtier(9040)=1&sbuffidtier(9041)=1?1:0"
+  },
+  {
+    "id": 5223,
+    "formula": "sbuffidtier(9042)=1?9048:4358"
+  },
+  {
+    "id": 5224,
+    "formula": "tbuffidtier(9048)<1?9049:0"
+  },
+  {
+    "id": 5225,
+    "formula": "tbuffidtier(9049)<1?9050:0"
+  },
+  {
+    "id": 5226,
+    "formula": "sbuffidtier(9036)=1?1007:1010"
+  },
+  {
+    "id": 5227,
+    "formula": "sbuffidtier(9042)=1?0:1000"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
@@ -12578,6 +12614,38 @@
   {
     "id": 103901,
     "formula": "(4+200/@Rate)*30-2+120*sbuffidtier(844401)"
+  },
+  {
+    "id": 169301,
+    "formula": "tbuffidtier(9048)>0?0:$1"
+  },
+  {
+    "id": 169501,
+    "formula": "tbuffidtier(9049)>0?0:$1"
+  },
+  {
+    "id": 169601,
+    "formula": "tbuffidtier(9050)>0?0:$1"
+  },
+  {
+    "id": 170301,
+    "formula": "tbuffidtier(9048)<1?4367:0"
+  },
+  {
+    "id": 170401,
+    "formula": "tbuffidtier(9049)<1?4367:0"
+  },
+  {
+    "id": 170501,
+    "formula": "tbuffidtier(9048)<1?4368:0"
+  },
+  {
+    "id": 170601,
+    "formula": "tbuffidtier(9049)<1?4368:0"
+  },
+  {
+    "id": 170701,
+    "formula": "tbuffidtier(4366)<1?4368:0"
   },
   {
     "id": 331901,
@@ -14430,6 +14498,22 @@
   {
     "id": 494701,
     "formula": "sbuffidtier(8615)"
+  },
+  {
+    "id": 519301,
+    "formula": "#enemytype=3?1:0"
+  },
+  {
+    "id": 519401,
+    "formula": "#enemytype=2?1:#enemytype=5?1:0"
+  },
+  {
+    "id": 519501,
+    "formula": "#enemytype=1?1:#enemytype=4?1:0"
+  },
+  {
+    "id": 521601,
+    "formula": "tbuffidtier(3766)=1?1:0"
   },
   {
     "id": 750001,
