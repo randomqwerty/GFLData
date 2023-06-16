@@ -114,8 +114,13 @@ local myRefreshPriceLabel = function(self)
 			end
 	end											
 end
+local myCheckAndCreateGood = function(self)
+	CS.ConnectionController.CloseConsole();
+	myRefreshPriceLabel(self);
+end
 local myOnIAPValidateComplete = function(self)
-	self:OnIAPValidateComplete();
+	--self:OnIAPValidateComplete();
+	CS.ConnectionController.CloseConsole();
 	myRefreshPriceLabel(self);
 	self.normalPassBuy_Btn.onClick:RemoveAllListeners();
 	self.normalPassBuy_Btn:AddOnClick(function()
@@ -127,18 +132,33 @@ local myOnIAPValidateComplete = function(self)
 		end);
 end
 local myStart = function(self)
+	--print("myStart");
+	-- for i=CS.GameData.listMallGood.Count - 1, 0, -1 do
+	-- 	if CS.GameData.listMallGood[i].type == CS.GoodType.payToPassOrder then
+	-- 		print("Remove one");
+	-- 		CS.GameData.listMallGood:RemoveAt(i);
+	-- 	end
+	-- end
+	local order = CS.PassOrderUserData.Instance:HasActivePassOrder();
+	local rmbid0 = order.productArr[0].."";
+	local rmbid1 = order.productArr[1].."";
+	local rmbid2 = order.productArr[2].."";
+	--local list_int= CS.System.Collections.Generic.List(CS.System.Int32)();
 	for i=CS.GameData.listMallGood.Count - 1, 0, -1 do
-		if CS.GameData.listMallGood[i].type == CS.GoodType.payToPassOrder then
-			print("one");
+		if CS.GameData.listMallGood[i].rmbId== rmbid0 or CS.GameData.listMallGood[i].rmbId== rmbid1 or CS.GameData.listMallGood[i].rmbId== rmbid2 then
+			print("rmb Remove one");
 			CS.GameData.listMallGood:RemoveAt(i);
 		end
 	end
-	--self:Start();
-	self:RequestMallGood();
+	self:Start();
+	self.normalPassBuy_Btn.onClick:RemoveAllListeners();
+	self.deluxePassBtn_Buy_Btn.onClick:RemoveAllListeners();
+	--self:RequestMallGood();
 end
 if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 
 	util.hotfix_ex(CS.PassBuyPassBoxController,'RefreshPriceLabel',myRefreshPriceLabel)
+	util.hotfix_ex(CS.PassBuyPassBoxController,'CheckAndCreateGood',myCheckAndCreateGood)
 	util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',myOnIAPValidateComplete)
 	util.hotfix_ex(CS.PassBuyPassBoxController,'Start',myStart)
 end
