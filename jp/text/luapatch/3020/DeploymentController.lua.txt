@@ -123,6 +123,24 @@ local CheckNext = function(self)
 	end
 end
 
+local SangvisTeamsCount = function(self)
+	local num = 0;
+	for i=0,self.sangvisTeams.Count-1 do
+		local team = self.sangvisTeams[i];
+		if team ~= nil and team.teamId > 0 then
+			num = num + 1;
+		end
+	end
+	return num;
+end
+local TriggerAbortMissionEvent = function()
+	if CS.GameData.missionAction == nil then
+		return;
+	end
+	if CS.DeploymentController.Instance ~= nil then
+		CS.DeploymentController.Instance:RequestAbortMission();
+	end
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -133,3 +151,5 @@ util.hotfix_ex(CS.DeploymentController,'TriggerFriendAllyTeamTurnEvent',TriggerF
 util.hotfix_ex(CS.DeploymentController,'cantransfer',cantransfer)
 util.hotfix_ex(CS.DeploymentController,'ClickAllyTeam',ClickAllyTeam)
 util.hotfix_ex(CS.DeploymentController,'CheckNext',CheckNext)
+util.hotfix_ex(CS.DeploymentController,'get_SangvisTeamsCount',SangvisTeamsCount)
+util.hotfix_ex(CS.DeploymentController,'TriggerAbortMissionEvent',TriggerAbortMissionEvent)

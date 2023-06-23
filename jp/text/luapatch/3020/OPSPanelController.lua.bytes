@@ -72,6 +72,7 @@ local CheckModuleSpine = function(self)
 end
 
 local ShowProcess = function(self)
+	print("测试ShowProcess");
 	if self.processTxt == nil then
 		return;
 	end
@@ -122,11 +123,77 @@ local CheckEndlessPoint = function(self)
 	end
 	self:CheckEndlessPoint();
 end
-util.hotfix_ex(CS.OPSPanelController,'CheckMapAnimator',CheckMapAnimator)
-util.hotfix_ex(CS.OPSPanelController,'EndMapAnimator',EndMapAnimator)
-util.hotfix_ex(CS.OPSPanelController,'SelectMapAnimatorDefault',SelectMapAnimatorDefault)
-util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
-util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
-util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
-util.hotfix_ex(CS.OPSPanelController,'Start',Start)
-util.hotfix_ex(CS.OPSPanelController,'CheckEndlessPoint',CheckEndlessPoint)
+
+opsShowTime = 0;
+opsEnterTime = 0;
+opsDispearTime = 0;
+function CheckOPSTime(self)
+	local temp = CS.Data.GetString("2022_bikini_time");
+	if CS.System.String.IsNullOrEmpty(temp) then
+		return;
+	end
+	local times =Split(temp,",");
+	opsShowTime = tonumber(times[1]);
+	opsEnterTime = tonumber(times[2]);
+	opsDispearTime = tonumber(times[3]);
+	print("opsShowTime"..opsShowTime);
+	print("opsEnterTime"..opsEnterTime);
+	print("opsDispearTime"..opsDispearTime);
+	local stamp = CS.GameData.GetCurrentTimeStamp();
+	if stamp>opsShowTime and stamp<opsDispearTime then
+		local parent = self.btnTheater.transform.parent;
+		local obj = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/2022BikiniResultEntrance"), parent, false);
+		local unclock = obj.transform:Find("Img_Unlocked");
+		unclock.gameObject:SetActive(stamp>opsEnterTime);
+		local clock = obj.transform:Find("Img_Locked");
+		clock.gameObject:SetActive(stamp<opsEnterTime);
+		local btn = obj:GetComponent(typeof(CS.ExButton));
+		btn:AddOnClick(function()
+				EnterOPS();
+			end)
+	end
+end
+
+function EnterOPS()
+	if opsEnterTime<CS.GameData.GetCurrentTimeStamp() then
+		CS.OPSConfig.Instance:GoToScene(-52);
+	else
+		local dateTime = CS.GameData.UnixToDateTime(opsEnterTime);
+		local time = tostring(dateTime.Month).."/"..tostring(dateTime.Day);
+		local txt = tostring(CS.System.String.Format(CS.Data.GetLang(60348),time));
+		CS.CommonController.LightMessageTips(txt);
+	end
+end
+function Split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
+local InitUIElements= function(self)
+	self:InitUIElements();
+	CheckOPSTime(self);
+end
+local Awake = function(self)
+	util.hotfix_ex(CS.OPSPanelController,'CheckMapAnimator',CheckMapAnimator)
+	util.hotfix_ex(CS.OPSPanelController,'EndMapAnimator',EndMapAnimator)
+	util.hotfix_ex(CS.OPSPanelController,'SelectMapAnimatorDefault',SelectMapAnimatorDefault)
+	util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
+	util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
+	util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
+	util.hotfix_ex(CS.OPSPanelController,'Start',Start)
+	util.hotfix_ex(CS.OPSPanelController,'CheckEndlessPoint',CheckEndlessPoint)
+	self:Awake();
+end
+util.hotfix_ex(CS.OPSPanelController,'Awake',Awake)
+util.hotfix_ex(CS.HomeController,'InitUIElements',InitUIElements)
