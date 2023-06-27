@@ -2126,12 +2126,7 @@ local ShowAllMission = function(self)
 	self:ShowAllMission();
 end
 local checkRequestDrawEvent = false;
-local Awake = function(self)
-	CS.OPSPanelController.diffclutyRecord = CS.Mathf.Max(0,CS.OPSPanelController.diffclutyRecord);
-	checkRequestDrawEvent = false;	
-	self:Awake();
-	checkRequestDrawEvent = true;
-end
+
 local RequestDrawEvent = function(self)
 	if checkRequestDrawEvent then
 		self:RequestDrawEvent();
@@ -2198,6 +2193,74 @@ local ReadRecord = function(self)
 	end
 	return self:ReadRecord();
 end
+opsShowTime = 0;
+opsEnterTime = 0;
+opsDispearTime = 0;
+function CheckOPSTime(self)
+	local temp = CS.Data.GetString("2022_bikini_time");
+	if CS.System.String.IsNullOrEmpty(temp) then
+		return;
+	end
+	local times =Split(temp,",");
+	opsShowTime = tonumber(times[1]);
+	opsEnterTime = tonumber(times[2]);
+	opsDispearTime = tonumber(times[3]);
+	print("opsShowTime"..opsShowTime);
+	print("opsEnterTime"..opsEnterTime);
+	print("opsDispearTime"..opsDispearTime);
+	local stamp = CS.GameData.GetCurrentTimeStamp();
+	if stamp>opsShowTime and stamp<opsDispearTime then
+		local parent = self.btnTheater.transform.parent;
+		local obj = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/2022BikiniResultEntrance"), parent, false);
+		local unclock = obj.transform:Find("Img_Unlocked");
+		unclock.gameObject:SetActive(stamp>opsEnterTime);
+		local clock = obj.transform:Find("Img_Locked");
+		clock.gameObject:SetActive(stamp<opsEnterTime);
+		local btn = obj:GetComponent(typeof(CS.ExButton));
+		btn:AddOnClick(function()
+				EnterOPS();
+			end)
+	end
+end
+
+function EnterOPS()
+	if opsEnterTime<CS.GameData.GetCurrentTimeStamp() then
+		CS.OPSConfig.Instance:GoToScene(-52);
+	else
+		local dateTime = CS.GameData.UnixToDateTime(opsEnterTime);
+		local time = tostring(dateTime.Month).."/"..tostring(dateTime.Day);
+		local txt = tostring(CS.System.String.Format(CS.Data.GetLang(60348),time));
+		CS.CommonController.LightMessageTips(txt);
+	end
+end
+function Split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
+local InitUIElements= function(self)
+	self:InitUIElements();
+	CheckOPSTime(self);
+end
+local Awake = function(self)
+	util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
+	util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+	CS.OPSPanelController.diffclutyRecord = CS.Mathf.Max(0,CS.OPSPanelController.diffclutyRecord);
+	checkRequestDrawEvent = false;
+	self:Awake();
+	checkRequestDrawEvent = true;
+end
 util.hotfix_ex(CS.OPSPanelController,'FindPanelMission',FindPanelMission)
 util.hotfix_ex(CS.OPSPanelController,'SelectContainer',SelectContainer)
 util.hotfix_ex(CS.OPSPanelController,'SelectModuleSpine',SelectModuleSpine)
@@ -2209,7 +2272,6 @@ util.hotfix_ex(CS.OPSPanelController,'CheckEndlessPoint',CheckEndlessPoint)
 util.hotfix_ex(CS.OPSPanelController,'CancelSelectMoudleSpine',CancelSelectMoudleSpine)
 util.hotfix_ex(CS.OPSPanelController,'CheckMoudleUiTween',CheckMoudleUiTween)
 util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleBuildUI',RefreshMoudleBuildUI)
-util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
 util.hotfix_ex(CS.OPSPanelController,'CheckMoudleUi',CheckMoudleUi)
 util.hotfix_ex(CS.OPSPanelController,'CheckMoudleMissionTip',CheckMoudleMissionTip)
 util.hotfix_ex(CS.OPSPanelController,'PlayMoudleBackgroundRailMove',PlayMoudleBackgroundRailMove)
@@ -2226,7 +2288,6 @@ util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelController,'GetAllGroupTotalHighScore',GetAllGroupTotalHighScore)
 util.hotfix_ex(CS.OPSPanelController,'InitCameraBackground',InitCameraBackground)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
-util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.OPSPanelController,'CheckSpecialAnim',CheckSpecialAnim)
 util.hotfix_ex(CS.OPSPanelController,'Play3dSpotAnim',Play3dSpotAnim)
 util.hotfix_ex(CS.OPSPanelController,'CheckMissionProcessData',CheckMissionProcessData)
@@ -2238,3 +2299,4 @@ util.hotfix_ex(CS.RequestDrawEvent,'SuccessJsonHandleData',SuccessJsonHandleData
 util.hotfix_ex(CS.DeploymentController,'ShowCommonBattleSettlement',ShowCommonBattleSettlement)
 util.hotfix_ex(CS.OPSEventPrizeController,'RequestActivityEventPrizeHandle',RequestActivityEventPrizeHandle)
 util.hotfix_ex(CS.OPSPanelBackGround,'ReadRecord',ReadRecord)
+util.hotfix_ex(CS.HomeController,'InitUIElements',InitUIElements)
