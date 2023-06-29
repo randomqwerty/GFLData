@@ -330,6 +330,7 @@ HideBlackBG = function()
 end
 --depose
 OnDestroy =function()
+	BattleDynamicData.infiScoutDistance = false
 	CS.CommonAudioController.PlayBattle("21Summer_Field_Wind_Stop")
 	CS.CommonAudioController.PlayBattle("GF_Halloween_Wind_loop_Stop")
 	CS.CommonAudioController.PlayBattle("GF_Halloween_Femal_Cry_loop_Stop")
