@@ -545,6 +545,7 @@ end
 OnDestroy =function()
 	PlaySFX("stop")
 	--CS.BattleFrameManager.DeRegister(UpdateJoyStick)
+	BattleDynamicData.infiScoutDistance = false
 	character = nil
 	mCurSkill ={}
 	xlua.hotfix(CS.GF.Battle.BattleManager,'CheckBaseLine',nil)
