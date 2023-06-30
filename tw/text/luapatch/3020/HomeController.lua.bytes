@@ -5,6 +5,7 @@ xlua.private_accessible(CS.GameData)
 xlua.private_accessible(CS.UserRecord)
 --xlua.private_accessible(CS.CommonGuideController)
 xlua.private_accessible(CS.HomeOperationButton)
+xlua.private_accessible(CS.NavigationController)
 local mySevenLoginCheck = function(self)
 	--print(CS.GameData.userRecord._bpBuyCount)
 	if CS.GameData.userRecord ~= nil and CS.GameData.userRecord._bpBuyCount==0 then
@@ -22,6 +23,10 @@ local mySevenLoginCheck = function(self)
 		-- 	CS.CommonGuideController.Instance.arrGuideStatus[184]=true;
 		-- 	CS.CommonGuideController.Instance.arrGuideStatus[185]=true;
 		-- end
+		if CS.NavigationController.ExistInstance then
+			CS.NavigationController.isInistanceItem=false;
+			CS.Utility.Destroy(CS.NavigationController.Instance.gameObject);
+		end
 	end
     self:SevenLoginCheck()
 end

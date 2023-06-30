@@ -471,6 +471,7 @@ end
 --depose
 OnDestroy =function()
 	--xlua.hotfix(CS.GF.Battle.BattleManager,'RefreshFriendlyTargetList',nil)
+	CS.GF.Battle.BattleDynamicData.infiScoutDistance = false
 	xlua.hotfix(CS.BattleManualSkillController,'OnPointerUp',nil)
 	xlua.hotfix(CS.BattleManualSkillController,'OnPointerDown',nil)
 	xlua.hotfix(CS.BattleManualSkillController,'_UpdateUIByStatus',nil)
