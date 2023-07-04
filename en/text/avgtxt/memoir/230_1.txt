@@ -1,116 +1,116 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><SE1>AVG_door_elecport</SE1><BGM>m_wv_title</BGM>:某日，格里芬指挥室。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||<SE1>AVG_20Winter_Book</SE1>:早啊，指挥官！这是最新一批心智升级的人形名单，请过目。
-NPC-Kalin(1)<Speaker>指挥官</Speaker><同时置暗>||:好的，麻烦你了。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嘻嘻……+话说回来，自从开放心智升级，申请的人形多得都能从这儿排到基地门口了！+可是每次只开放极少量名额，大家为此向我抱怨了好久呢……
-NPC-Kalin(0)<Speaker>指挥官</Speaker><同时置暗>||:没办法，实验室资源有限，只能请她们耐心等一会儿了。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:之前我向克鲁格先生提了一句设备扩容，可他居然一直躲着我……
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:嘿嘿……指挥官，您不是存了不少积蓄吗？考不考虑捐给格里芬，增加几台修理槽呀？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜蓝色的双眸发出财迷特有的金光。指挥官下意识捂紧口袋，扯开话题。
-()<Speaker>指挥官</Speaker>||:咳咳……让我看看这份升级名单。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:指挥官匆匆检阅着名单上的人形编号，精准地避开格琳娜那双星星眼中发射的闪烁光芒。+忽然，一个人形的名字引起了指挥官的注意。
-()<Speaker>指挥官</Speaker>||:OBR……？+我记得她已经完成心智升级了，怎么还会出现在名单上？
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:怎么可能？这明明是她第一次——+……咦？+上次还真有她的名字……上上次也有……上上上次……+天哪，这是怎么回事？！钉子户吗？！
-NPC-Kalin(2)<Speaker>指挥官</Speaker><同时置暗>||:你联系OBR了吗？
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:唔……没有。照理来说，安排了心智升级，剩下的就是人形自己跟进进度了。+但像OBR这样拖延恐怕不行呢……+指挥官，我立刻调查！
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><SE1>AVG_door_elecport</SE1><BGM>m_wv_title</BGM>:On a certain day, in the Griffin Ops Room.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<SE1>AVG_20Winter_Book</SE1>:Morning, Commander! This is the list of Dolls taking part in the latest round of neural upgrades. Please have a look.
+NPC-Kalin(1)<Speaker>Commander</Speaker><同时置暗>||:Alright, thanks.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Teehee... +Speaking of which, ever since we announced neural cloud upgrades, we've gotten so many applicants that they could form a line from here to the base entrance! +But everyone keeps complaining to me about how only a few slots open up each time...
+NPC-Kalin(0)<Speaker>Commander</Speaker><同时置暗>||:Well, it can't be helped. The lab's resources are limited, so all we can do is ask them to be patient and wait.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I asked Mr. Kryuger about expanding our facilities, but he ended up running away from me...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Hehe... Commander, don't you have a lot saved up? Why not consider donating them to Griffin so we can add a few more repair tanks?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina's blue eyes gleam with a golden hue unique to gold-diggers. The Commander subconsciously covers up his pockets and changes the subject.
+()<Speaker>Commander</Speaker>||:Ahem... Let's take a look at this name list.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:The Commander quickly scans through the Doll serial numbers on the list, carefully avoiding the glow from Kalina's sparkly eyes. +Suddenly, a Doll's name draws the Commander's attention.
+()<Speaker>Commander</Speaker>||:OBR...? +Didn't she complete her neural upgrade already? Why is she still on the list?
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:How could that be? This ought to be her first time— +...Huh? +Her name was in the previous list... And the one before that... And the one before that too! +Good heavens, what's going on?! Is she like a nail house or something?!
+NPC-Kalin(2)<Speaker>Commander</Speaker><同时置暗>||:Have you contacted OBR yet?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Um... Not yet. Logically speaking, once the neural upgrade is lined up, all that remains is for the Doll to go along with the program. +But we can't have people dragging their feet like OBR... +I'll look into it at once, Commander!
 ()||<BGM>BGM_Empty</BGM><黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_tele_connect</SE1>:三十分钟后，指挥屏上急促闪动着格琳娜的通讯请求。
-NPC-Kalin(8)<Speaker>格琳娜</Speaker><通讯框>||<BGM>BGM_Sneak</BGM>:<color=#00CCFF><size=50>大事不好了，指挥官！OBR失踪了！</size></color>
-NPC-Kalin(8)<Speaker>指挥官</Speaker><同时置暗>||:怎么可能？
-NPC-Kalin(4)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>呜呜呜……是真的！</color>+<color=#00CCFF>实验室负责人信誓旦旦地向我保证，他们从未收到OBR的主动联络，也没见过OBR。</color>+<color=#00CCFF>我问遍了所有的人形，她们也都说没见过OBR。</color>+<color=#00CCFF>而且OBR的通讯打到现在，一点反应都没有！</color>+<color=#00CCFF>呜呜呜……怎么办？她该不会被人形贩子绑架了吧？！</color>
-NPC-Kalin(4)<Speaker>指挥官</Speaker><同时置暗>||:先别急，你用我的权限调取数据库和基地监控，先看看里面有没有OBR的行踪记录。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>唔……谢谢指挥官！</color>+<color=#00CCFF>OBR，你可千万别吓我呀……</color>
+()<Speaker></Speaker>||<黑点2><SE1>AVG_tele_connect</SE1>:30 minutes later, the Commander finds a comm request from Kalina flashing urgently on his monitor.
+NPC-Kalin(8)<Speaker>Kalina</Speaker><通讯框>||<BGM>BGM_Sneak</BGM>:<color=#00CCFF><size=50>Terrible news, Commander! OBR's gone missing!</size></color>
+NPC-Kalin(8)<Speaker>Commander</Speaker><同时置暗>||:How could that be?
+NPC-Kalin(4)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>(Sobs) It's true!</color> +<color=#00CCFF>The lab staff swore they never saw OBR nor received any communications from her. I asked all the Dolls, and they said they hadn't seen OBR either.</color> +<color=#00CCFF>And OBR hasn't responded to her calls until now!</color> +<color=#00CCFF>(Sob) What should we do? Could she have been Dollnapped?!</color>
+NPC-Kalin(4)<Speaker>Commander</Speaker><同时置暗>||:Calm down. Use my security permissions to access the base cameras and databases and see if there are any signs of OBR's movements in them.
+NPC-Kalin(4)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Phew... Thank you, Commander!</color> +<color=#00CCFF>Don't scare me, OBR...</color>
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>RunStep</SE1><SE1>AVG_BaseDoor_Open</SE1>:十分钟后，格琳娜风风火火地闯进指挥室。
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:指挥官，有线索了！+记录显示OBR前天刚出了一次外勤任务，而她平时的作息一直是早出晚归，和大多数人形完美错开……难怪大家都说没见过她！+呼……吓死我了。如果她真的失踪，我恐怕就要磕头谢罪了！
-NPC-Kalin(8)<Speaker>指挥官</Speaker><同时置暗>||:她还在就好。+但即使作息古怪，她也没理由不去心智升级啊……这次一定得让她完成才行。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:可是OBR早出晚归，联系不上怎么办？
-NPC-Kalin(4)<Speaker>指挥官</Speaker><同时置暗>||<BGM>BGM_Empty</BGM>:她下次外勤任务是什么时候？我们可以趁机……
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:指挥官，友情提示：外勤任务从来不是固定排班的哦。+标准程序是人形主动联络报名，先到先得，然后才——
-()<Speaker></Speaker>||<BGM>BGM_stage2</BGM>:格琳娜忽然住口，双眼瞪得如铜铃一般。+她的蓝色双眸在眼眶中滴溜溜地打转，嘴角渐渐扬起一抹不怀好意的笑容。
-()<Speaker>指挥官</Speaker>||:……格琳娜？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:哎嘿嘿……指挥官，我有办法逮到OBR了！
+()<Speaker></Speaker>||<黑点2><SE1>RunStep</SE1><SE1>AVG_BaseDoor_Open</SE1>:10 minutes later, Kalina storms into the Ops Room.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:Commander, I've got a lead! +The logs show that OBR went out on dispatch the day before. She typically leaves early and comes back late, which puts her out of contact with most Dolls... No wonder everyone said they didn't see her... +Whew... That scared the crap out of me. If she'd really gone missing, I'd be in hot water!
+NPC-Kalin(8)<Speaker>Commander</Speaker><同时置暗>||:It's fine as long as she's around. +Still, even if she has strange habits, there's no reason for her not to go in for a neural upgrade... I need to make sure she completes it this time.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:But OBR always leaves early and comes back late. What if you can't contact her?
+NPC-Kalin(4)<Speaker>Commander</Speaker><同时置暗>||<BGM>BGM_Empty</BGM>:When's her next dispatch assignment? We can try to use that opportunity...
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:A gentle reminder, Commander: our dispatch assignments have never operated on a fixed schedule. +The basic procedure is that the Dolls contact us and sign up for them on a first-come-first-serve basis, and then—
+()<Speaker></Speaker>||<BGM>BGM_stage2</BGM>:Kalina suddenly falls silent, and her eyes go as wide as saucers. +Her blue eyes twitch, and a wicked smile spreads across her face.
+()<Speaker>Commander</Speaker>||:...Kalina?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Ehehehe... Commander, I know how to catch OBR now!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:两分钟后。+指挥官双手托腮，迷惑地望着大屏幕上滚动的格里芬频道通讯。+原本花花绿绿的界面正在被一则丑得艳俗的大红色外勤广告疯狂刷屏——
-()<Speaker>广告</Speaker>||<震屏3>:<color=#FF0000><size=50>【格琳娜】重磅消息！重磅消息！史无前例的天价外勤任务发布啦！</size></color>+<color=#FF0000><size=50>【格琳娜】超高收入、万元奖金！还有更多惊喜好礼等你来领！！！</size></color>+<color=#FF0000><size=50>【格琳娜】重磅消息！重磅消息……</size></color>
-()<Speaker>指挥官</Speaker>||:你确定散布虚假信息不违反格里芬条例吗？
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:哼~我还不是在帮您钓OBR这条小笨鱼嘛？
-NPC-Kalin(3)<Speaker>指挥官</Speaker><同时置暗>||:小笨鱼？这么拙劣的鱼饵，她怎么会上钩？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嘻嘻……那可不一定！现在倒数三个数！
-NPC-Kalin(0)<Speaker>指挥官</Speaker><同时置暗>||:？？？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:3——+……+2——+……
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:——滴滴！
-()<Speaker></Speaker>||:通讯响起的一瞬，指挥官差点从椅子上跌落下来。+OBR的头像正在屏幕上剧烈闪动。+格琳娜一脸坏笑，得意地扮了扮鬼脸，接起通讯。
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>||:<color=#00CCFF>格琳娜小姐！格琳娜小姐在吗？</color>
-OBR(0)<Position>0,190</Position>;NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:你好呀，OBR小姐！找我有什么事吗？
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>;NPC-Kalin(1)||:<color=#00CCFF>格琳娜小姐……请问您刚刚发布的外勤任务还有效吗？我、我非常想参加呢！</color>
-OBR(0)<Position>0,190</Position>;NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:还有效哦，而且OBR小姐是第一个联络我的人呢！
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>;NPC-Kalin(1)||:<color=#00CCFF>太好了！终于抢到了！</color>+<color=#00CCFF>格琳娜小姐，请把任务详情发给我吧！</color>
-OBR(0)<Position>0,190</Position><通讯框>;NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:等一下。这次外勤任务有点复杂，需要配备专属道具。+你现在来指挥室领取一下吧。
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>;NPC-Kalin(0)||:<color=#00CCFF>现在？抱歉，我抽不开身呢……</color>
-OBR(0)<Position>0,190</Position><通讯框>;NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:这样啊……那我只好考虑别的人形……
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>||:<color=#00CCFF>不行不行！我真的很需要这笔奖——哦不，这个外勤任务！</color>+<color=#00CCFF>那个……我明天凌晨三点准时来指挥室领任务道具可以吗？</color>+<color=#00CCFF>真的拜托你啦~~~格琳娜小姐……</color>
-()<Speaker></Speaker>||:凌晨三点？+指挥官和格琳娜盘算着时间，面面相觑。+可是要逮到OBR，这似乎是最快的办法……+指挥官无奈地点头，格琳娜也叹了口气。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:好吧，OBR小姐。凌晨三点指挥室，过时不候哦！
+()<Speaker></Speaker>||<黑点2>:Two minutes later. +The Commander rests their chin on their hands, staring in confusion at the Griffin Channel. +The once flowery and green backdrop is now replaced with a tacky, bright red logistics ad that fills the screen—
+()<Speaker>Ad</Speaker>||<震屏3>:<color=#FF0000><size=50>[Kalina] BREAKING NEWS! BREAKING NEWS! NOW ANNOUNCING THE HIGHEST-PAYING LOGISTICS ASSIGNMENT EVER!</size></color> +<color=#FF0000><size=50>[Kalina] GENEROUS PAYMENT WITH A $10,000 SIGNING BONUS! ALSO INCLUDES SURPRISE GIFTS FOR YOU!!!</size></color> +<color=#FF0000><size=50>[Kalina] BREAKING NEWS! BREAKING NEWS...</size></color>
+()<Speaker>Commander</Speaker>||:Are you sure spreading false information isn't against the Griffin regulations?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Hehe~ But I'm helping you reel in OBR, aren't I?
+NPC-Kalin(3)<Speaker>Commander</Speaker><同时置暗>||:Reel her in? Do you think she'd actually take such clumsy bait?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Teehee~ Who knows? Let's count down from 3!
+NPC-Kalin(0)<Speaker>Commander</Speaker><同时置暗>||:???
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:3— +... +2— +...
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:—Beep!
+()<Speaker></Speaker>||:The Commander nearly falls out of their chair the moment the comm alert comes on. +OBR's face flashes violently on screen. +Kalina smiles wickedly, then puts on a playful expression before picking up the comms.
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>||:<color=#00CCFF>Miss Kalina! Miss Kalina, are you there?</color>
+OBR(0)<Position>0,190</Position>;NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Hello, Miss OBR! Is something the matter?
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>;NPC-Kalin(1)||:<color=#00CCFF>Miss Kalina... Is that dispatch assignment you announced just now still available? I-I'd like to take part in it very much!</color>
+OBR(0)<Position>0,190</Position>;NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Yup, we still have places open, and you were the first to contact me, Miss OBR!
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>;NPC-Kalin(1)||:<color=#00CCFF>Oh thank goodness! I got it at last!</color> +<color=#00CCFF>Miss Kalina, please send me the mission details!</color>
+OBR(0)<Position>0,190</Position><通讯框>;NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Hang on. This mission is a little complicated, so you'll need special equipment for it. +Head over to the Ops Room now to pick it up.
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>;NPC-Kalin(0)||:<color=#00CCFF>Right now? I'm sorry, but I can't spare the time...</color>
+OBR(0)<Position>0,190</Position><通讯框>;NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I see... We'll just have to consider another Doll for the position, then...
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><通讯框>||:<color=#00CCFF>Nonononono! I really need the mon—I mean, this dispatch assignment! </color> +<color=#00CCFF>Ah... Could I come over to the Ops Room at 3 AM to collect the mission items?</color> +<color=#00CCFF>Please, please, I'm begging you~ Miss Kalina...</color>
+()<Speaker></Speaker>||:3 AM? +The Commander and Kalina consider the timeframe and then exchange looks. +However, this is the quickest way to catch OBR... +The Commander nods in resignation, and Kalina sighs.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Alright, Miss OBR. 3 AM in the Ops Room. Don't be late!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><Night><BGM>m_avg_casual</BGM>:凌晨，喧闹了一日的格里芬基地终于在温柔的夜色中陷入沉眠。+伸手不见五指的指挥室里，却还有两个可怜的人类在无助等待。+时间指向3:32，格琳娜躲在门后，睡眼迷蒙。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官递过一只咖啡杯，格琳娜摆了摆手，幽怨地看向天花板。
-NPC-Kalin(12)<Speaker>格琳娜</Speaker>||:救命啊指挥官……OBR怎么还不来……我好想睡觉啊……
-NPC-Kalin(12)<Speaker>指挥官</Speaker><同时置暗>||:别泄气，格琳娜。今晚如果逮到OBR，明天我就给你打报告，申请三倍的加班津贴！
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:加班津贴……三倍？！那不就是好多小钱钱？！
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:天啊……我要幸福得昏过去了！+指挥官，您现在吩咐我做什么都可以，加多少班都可以！我一点都不困啦！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Metal_Break</SE1><BGM>BGM_Empty</BGM>:叮叮当当——+走廊尽头奇怪的动静打断了两人的对话。+分明是金属机械行走的声音，可每一步都那么迟滞、缓慢，伴随着转轴的摩擦和零件轻微的碰撞，叮咚作响。+最终，脚步声停在指挥室门外。
-()<Speaker>？？？</Speaker>||<SE1>AVG_Knock</SE1>:格琳娜小姐，你在吗？
-()<Speaker></Speaker>||:来人胆怯地敲了敲门。+格琳娜与指挥官心有灵犀地对视一眼，屏住呼吸。
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:<size=35>是OBR！</size>
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:话音未落，指挥室的门迅速开启。
-()<Speaker>指挥官</Speaker>||<BGM>m_wv_battle</BGM><震屏3>:<size=50>——格琳娜！</size>
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><SE1>AVG_BaseDoor_Close</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:不待来人反应过来，格琳娜忽然跳起，一把将快要散架的瘦小人形拽入房间，“嘭”的一声锁上大门。
-()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_21Winter_Open_Light</SE1>:啪嗒——
-()<Speaker></Speaker>||:刺眼的灯光亮起，跌坐于地的OBR惊异地抬头，仰视着眼前面露凶相的两人。
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:<size=50>终于逮到你了，OBR！！！</size>+你知不知道我和指挥官在基地里找了你一整天？！
-()<Speaker>指挥官</Speaker>||:没错！一整天！
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:说！你为什么还没有完成心智升级？！ 
-()<Speaker>指挥官</Speaker>||:说！为什么？！
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:咦？！那个……我、我不是接了外勤任务，来领道具的吗……
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:呵，想都别想！没完成心智升级，你什么任务都休想接到！
-()<Speaker>指挥官</Speaker>||:没错！明天你就去实验室报道，务必把它完成！
-()<Speaker></Speaker>||:OBR迷迷糊糊地左顾右盼，许久才缓过神，似乎终于搞懂了指挥官和格琳娜的真正目的。+刺目的灯光下，OBR的脸红了又白，流露出为难而尴尬的神色。
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||<SE1>ClothingUp</SE1>:对……对不起，指挥官！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Metal_Break</SE1>:OBR猛地站起，以标准的90度垂直姿态鞠了一躬。
-()<Speaker></Speaker>||:随着剧烈的动作起伏，她身上的金属零件叮当作响，乱成一团。+指挥官与格琳娜不约而同地皱眉。
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:指挥官，格琳娜小姐，对不起！我不能完成升级！
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:理由呢？
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:诶？理由……？我、我不能说！
-()<Speaker>指挥官</Speaker>||:你是不是有什么为难的地方？要不要我……
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:指挥官，别和她啰嗦！您之前不是和我商量好了吗？如果OBR这次还不做心智升级，我们就采取特殊手段！
-()<Speaker>指挥官</Speaker>||:诶？我什么时候和你商——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜朝指挥官紧急递来一个眼色。
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:特……特殊手段？！什么特殊手段？！
-()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_Empty</BGM>:指挥官心领神会，立刻将脸上的肌肉绷得紧紧的，严肃地转向战战兢兢的OBR。
-()<Speaker>指挥官</Speaker>||:咳咳，格琳娜说得没错。+OBR，你的机体已经老化，严重影响到日常作战和生活。如果再不进行心智升级，恐怕我们就只能卸除你的火控核心。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:然后扔去黑工厂做苦力！
-()<Speaker></Speaker>||<SE1>AVG_Thunder_Dry</SE1>:OBR愣在原地，心智因震惊而过载一秒。+忽然，她身上的零件开始不安地抖动起来。
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><Shake>0.1</Shake>||<SE1>AVG_20Winter_Metal_Break</SE1>:诶？！那不就等于报废了吗？！我、我……怎么……我不能……我……+指、指挥官，别丢下我啊……呜哇——
-()<Speaker></Speaker>||:OBR涕泗横流，一把抱住指挥官的大腿，哭得稀里哗啦。+格琳娜狡黠地朝指挥官竖起大拇指，示意任务“圆满完成”。
-()<Speaker>指挥官</Speaker>||<BGM>GF_Memorial</BGM>:OBR你先别哭……有什么事慢慢说，我一定会帮你的！
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:呜呜呜……对、对不起，指挥官！其实我一直在躲债啦……+不知道为什么，就算再怎么努力工作，我欠下的外债还是越来越多……+为了还债，我只好先问其他人形借钱，可就算这样也还是填不上缺口……我怕她们找我要钱，所以就东躲西藏、天天在外面游荡，不敢回家……+我已经负债累累了，如果再做心智升级，恐怕以后维护机体的费用就会直线上升……可是我真的不能再向别人借钱，我再也借不起了……+呜呜呜……指挥官，这样的日子实在太难熬了！如果连您也抛弃我，我就真的不知道该怎么活下去了……
-()<Speaker></Speaker>||:OBR声泪俱下的诉苦深深触动了格琳娜和指挥官的心。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:唔……我有点理解OBR的苦衷了。+心智升级后，机体的维修费用确实比之前上升不少。也许对别人来说这点钱是小事，但对OBR而言，恐怕就是天大的灾难……
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:是的，格琳娜小姐。我真的快无力负担了……
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:唉……格里芬忠实的员工竟然会因为欠债而沦落至此……+指挥官，你看这——
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:咦？！
-()<Speaker></Speaker>||:格琳娜一抬头，却发现指挥官的眼角早已盈满泪水。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:指、指挥官……？
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:指挥官，您、您别哭啊……
-OBR(0)<Speaker>指挥官</Speaker><Position>0,190</Position><同时置暗>||:没事，OBR……都怪我平时忙于工作，没有尽到关怀你们的责任……+这是我的过失，我一定要弥补！相信我，OBR，我一定会让你从苦难的债务中解脱出来的！
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:指挥官大人……
-()<Speaker>指挥官</Speaker>||:格琳娜！
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:在。
-NPC-Kalin(1)<Speaker>指挥官</Speaker><同时置暗>||:明天你就带着OBR去实验室做心智升级。顺便告诉研发中心，OBR所有的零件费用，包括以后的维修费，都由我来承担！+还有，OBR欠其他人形的钱和所有未完成的外债，我都替她包了！
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:指、指挥官，您该不会真的……
-()<Speaker>指挥官</Speaker>||:当然是真的！我怎么能允许我的士兵凄惨度日？+OBR，以后有什么困难尽管来找我，放心地交给我……毕竟，我可是你们深深信任着的指挥官啊！
-OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:呜呜呜……指挥官，你真好……
-()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><Night><BGM>m_avg_casual</BGM>:It's well past midnight, and the base that has been bustling and noisy all day has finally fallen asleep in the silent night. +The Ops Room is so dark that one can't see their fingers outstretched in front of themselves, but two poor, pathetic human beings have no choice but to wait here. +The time now is 3:32, and Kalina is hiding behind the door, eyes heavy-lidded from sleepiness.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander hands her a cup of coffee. Kalina shrugs and then looks annoyedly at the ceiling.
+NPC-Kalin(12)<Speaker>Kalina</Speaker>||:Help me, Commander... Why hasn't OBR come yet... I want to sleep...
+NPC-Kalin(12)<Speaker>Commander</Speaker><同时置暗>||:Don't give up, Kalina. If we catch OBR tonight, I'll submit a report tomorrow so you can claim triple overtime pay for this!
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:Triple... overtime?! Doesn't that mean lots and lots of money?
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Good heavens... I'm so happy I could faint! +Commander, feel free to order me to do anything! Any amount of overtime is fine! I'm not sleepy at all!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Metal_Break</SE1><BGM>BGM_Empty</BGM>:Clink, clank— +The strange movements at the end of the corridor interrupt their conversation. +It's clearly the sound of mechanical feet moving, but each step is slow and plodding, accompanied by the sound of axle bearings grinding and components bumping noisily against each other. +Finally, the footsteps stop outside the Ops Room.
+()<Speaker>???</Speaker>||<SE1>AVG_Knock</SE1>:Miss Kalina, are you there?
+()<Speaker></Speaker>||:Someone nervously knocks on the door. +Kalina and the Commander exchange a wordless glance and hold their breath.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:<size=35>It's OBR!</size>
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:Before she can finish, the Ops Room door swiftly opens.
+()<Speaker>Commander</Speaker>||<BGM>m_wv_battle</BGM><震屏3>:<size=50>–Kalina!</size>
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><SE1>AVG_BaseDoor_Close</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:Before the person outside can react, Kalina suddenly jumps up, drags the frail Doll that's about to fall apart into the room, and slams the door shut with a thud.
+()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_21Winter_Open_Light</SE1>:Click—
+()<Speaker></Speaker>||:The ceiling lights come on, and OBR looks up from where she's fallen on her butt, finding two people with fierce looks on their faces.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:<size=50>Got you at last, OBR!!!</size> +Did you know the Commander and I spent all day searching the base for you?!
+()<Speaker>Commander</Speaker>||:That's right! All day long!
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:Tell us! Why didn't you complete your neural upgrade?!
+()<Speaker>Commander</Speaker>||:Tell us! Why?!
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Ehhh?! Ah... I, was I not supposed to come here to collect equipment for a dispatch assignment...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Heh, don't even think about it! You won't be getting any missions until you finish your neural upgrade!
+()<Speaker>Commander</Speaker>||:That's right! Report to the lab tomorrow and get it done right away!
+()<Speaker></Speaker>||:OBR looks left and right in confusion before she finally realizes what Kalina and the Commander are up to. +Under the blinding lights, OBR's face goes red, then pale, and an awkward and embarrassed look crosses her face.
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||<SE1>ClothingUp</SE1>:I... I'm sorry, Commander!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Metal_Break</SE1>:OBR suddenly stands up and executes a textbook 90-degree bow.
+()<Speaker></Speaker>||:Her intense movements cause the metal parts on her to rattle chaotically. +The Commander and Kalina frown in unison.
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Commander, Miss Kalina, I'm sorry! I can't complete the upgrade!
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:And why is that?
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Huh? Why...? I—I can't say!
+()<Speaker>Commander</Speaker>||:Are you having some kind of difficulty? Should I...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Commander, don't waste time on her! We discussed this earlier, didn't we? If OBR still doesn't go for her neural upgrade, we'll have to take extraordinary measures!
+()<Speaker>Commander</Speaker>||:Huh? Since when did I—
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina flashes the Commander an urgent look.
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Ex... extraordinary measures? What do you mean by extraordinary measures?!
+()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_Empty</BGM>:The Commander gets the hint, and his face immediately tenses up as he looks sternly at the nervous OBR.
+()<Speaker>Commander</Speaker>||:Ahem. Kalina is right. +OBR, your body is getting old, and it is severely affecting your daily life and operations. If you do not perform a neural upgrade, we will have no choice but to remove your fire control core.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:And then toss you into the sweatshop for hard labor!
+()<Speaker></Speaker>||<SE1>AVG_Thunder_Dry</SE1>:OBR freezes in place as her neural cloud overloads from shock. +Suddenly, the parts on her begin trembling with unease.
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position><Shake>0.1</Shake>||<SE1>AVG_20Winter_Metal_Break</SE1>:Ehhh?! But won't that mean writing me off?! I, I... How... I can't... I... +C-Commander, please don't throw me away... Uwaaahhhh—
+()<Speaker></Speaker>||:OBR clings to the Commander's thigh and wails loudly as snot runs down her face. +Kalina gives the Commander a thumbs up, implying "mission successful".
+()<Speaker>Commander</Speaker>||<BGM>GF_Memorial</BGM>:Don't cry, OBR... Let us know if you have any problems. I'll definitely help you!
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:(Sob) I'm, I'm sorry, Commander! The truth is, I've been ducking my creditors all this time... +I don't know why, but no matter how hard I work, I always end up owing more and more money... +So in order to pay my debts I have to borrow money from other Dolls, but even that's not enough to fill the gap... I'm always afraid that they'll come asking me for their money back, so I have to hide here and there and wander around outside because I don't dare to go home... +I'm debt-ridden as it is, and if I go for a neural upgrade I'm afraid my maintenance expenses will go up... But I can't borrow money from others anymore, and I just can't take out any more loans... +(Sob) I can't live like this anymore, Commander! If you abandon me too, I don't know how I can carry on...
+()<Speaker></Speaker>||:OBR's tearful confession of her woes deeply moves Kalina and the Commander.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Um... I think I understand your difficulties now, OBR. +Maintenance expenses tend to go up quite a lot after a neural upgrade. This amount might not be much to others, but for OBR, it's probably disastrous...
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Yes, Miss Kalina. I can't keep doing this anymore...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:(Sigh) To think a loyal employee of Griffin would have fallen to this state because of debts... +Commander—
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:Ehhh?!
+()<Speaker></Speaker>||:Kalina looks up and finds the Commander's eyes are already full of tears.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Com-Commander...?
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Commander, please, don't cry...
+OBR(0)<Speaker>Commander</Speaker><Position>0,190</Position><同时置暗>||:It's alright, OBR... It's all my fault for being too busy and not doing my duty of showing you the proper care... +This is my fault, and I will make up for it! Trust me, OBR! I will free you from your crushing debt!
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:Commander...
+()<Speaker>Commander</Speaker>||:Kalina!
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:I'm here.
+NPC-Kalin(1)<Speaker>Commander</Speaker><同时置暗>||:Take OBR to the lab for a neural upgrade tomorrow. Also, tell the development center that OBR's part costs and future maintenance expenses are on me! +Also, I'll be taking on all the debts OBR owes other Dolls and her unpaid loans!
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Com-Commander, do you really intend to...
+()<Speaker>Commander</Speaker>||:Of course! How can I let one of my girls live in misery? +OBR, make sure you come to me for any difficulties you have in the future. Don't worry about it, and let me handle them... After all, I AM the Commander that you all trust!
+OBR(0)<Speaker>OBR</Speaker><Position>0,190</Position>||:(Sob) Commander, you're so nice...
+()||<黑屏1>:

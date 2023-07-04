@@ -200,7 +200,9 @@ patch3020=
 "3020/BattleCharacterManager",
 "3020/CommonGetNewSangvisGunController",
 "3020/FormationShowEquipInfoController",		
-"3020/BattleCharacterData",		
+"3020/BattleCharacterData",
+"3020/CommonPicController",			
+"3020/FlightChessLobbyMapSettingCtrl",
 }
 -- va11
 print("load Va11");

@@ -1,137 +1,137 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><BGM>GF_EV9_Story</BGM>:酒店前台。
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:啪嗒一声，OBR将四枚戒指和宣传单用力地拍在台上。+服务员满不在乎地站起来，斜眄着眼前气势汹汹的顾客。
-OBRMOD(0)<Speaker>OBR</Speaker>||:<size=50>我们要退房！而且要求贵酒店进行赔偿！</size>
-()<Speaker>服务员</Speaker>||:退房可以呢，请先支付您的欠款。
-OBRMOD(0)<Speaker>OBR</Speaker>||:我们的消费都包含在定金里了呀，哪儿来的欠款？！
-()<Speaker>服务员</Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:三人海滨浴场服务费，海滨浴场饮料费，酒店吧台饮料费，还有房间日用品消耗费……+除去定金，您还需支付66.6万，这是账单详情。现金还是刷卡？
-OBRMOD(0)<Speaker>OBR</Speaker>||:不对吧？！你们不是赠送一次海滨浴场使用权的吗？！
-()<Speaker>服务员</Speaker>||:赠送的额度仅限一人。您的其他三位同伴需要自费。
-OBRMOD(0)<Speaker>OBR</Speaker>||:那这个饮料呢？！你们供应的是白水，还拿戒指欺骗我们的心智！凭什么收费？！
-()<Speaker>服务员</Speaker>||:虽然您喝的是白水，但是您毕竟获得了各种饮料的美妙体验呀，当然要收费的。
-OBRMOD(0)<Speaker>OBR</Speaker>||:那我现在申请全额退回！你们的宣传单上明确清楚地写着的条款，这下总不能再拒绝了吧？
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:服务员冷笑一声，将宣传单翻到反面，指着空白的边缘。
-()<Speaker>服务员</Speaker>||:亲爱的客人，这则宣传单上已经标注了哦——+“本条例的解释权归酒店所有，酒店有权随时更改条例，望周知。”+这么明显的字迹，您看不到吗？
-()<Speaker></Speaker>||:OBR瞪大眼睛，这才勉强看出那一行隐藏在白色背景上的浅白色说明文字。
-OBRMOD(2)<Speaker>OBR</Speaker>||:这……？！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:OBR还欲分辩，却发现几十个彪悍的保安不知何时出现，从背后将她们团团围住。
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||<BGM>BGM_Brain</BGM>:你……你们要干什么？！
-GeneralLiu(2)<Speaker>刘氏</Speaker>||:呜呜呜……别过来啊！
-NPC-Bodyguard1(0)<Speaker>保安</Speaker>||:……
-()<Speaker>服务员</Speaker>||:抱歉，本酒店有权随意处置欠款的顾客。+您的66.6万消费要怎么支付呢？现金还是刷卡？
-OBRMOD(2)<Speaker>OBR</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:OBR犹豫着探入外套口袋，指尖摸索许久，终于触到一张坚硬的信用卡。
+()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><BGM>GF_EV9_Story</BGM>:At the hotel front desk.
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:OBR slams all four rings and the ad brochure down on the counter. +The concierge stands up and looks out the corner of her eyes at the angry customers.
+OBRMOD(0)<Speaker>OBR</Speaker>||:<size=50>We're checking out! And we would like a refund from your hotel!</size>
+()<Speaker>Concierge</Speaker>||:Certainly. However, please pay the balance of your bill first.
+OBRMOD(0)<Speaker>OBR</Speaker>||:All our expenses are covered by our deposit! What balance is there?
+()<Speaker>Concierge</Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:Let's see, beach facility service fees, drink charges, hotel bar beverages and room expendables for three... +After deducting the deposit, the amount outstanding is 666,000. This is the bill. Cash or credit?
+OBRMOD(0)<Speaker>OBR</Speaker>||:That's not right, is it?! Didn't you offer free use of the beach facilities?!
+()<Speaker>Concierge</Speaker>||:One free use for one person. Your three companions will have to pay for themselves.
+OBRMOD(0)<Speaker>OBR</Speaker>||:Then how about the drinks?! You served plain water and even used these rings to trick our neural clouds! How can you even charge us for that?
+()<Speaker>Concierge</Speaker>||:You may have drank plain water, but you did gain many wonderful experiences from it. Of course, you'll be charged for that.
+OBRMOD(0)<Speaker>OBR</Speaker>||:Then I want a full refund right now! Your brochure clearly states that! You can't possibly refuse now, can you?
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:The staffer smiles coldly and then points to the back of the brochure, at the white border around it.
+()<Speaker>Concierge</Speaker>||:Dear customer, this brochure clearly states that— +This clause is subject to the interpretation of the hotel, and the hotel reserves the right to change it at any time. +How did you miss that when it was so obviously written?
+()<Speaker></Speaker>||:OBR's eyes go wide, and it is only then that she can start to make out the off-white text on the white background.
+OBRMOD(2)<Speaker>OBR</Speaker>||:This is...?!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:OBR is about to try and argue further, but then she finds that several dozen guards have appeared behind them at some point and surrounded them.
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||<BGM>BGM_Brain</BGM>:You... What are you up to?!
+GeneralLiu(2)<Speaker>General Liu</Speaker>||:(Sniffle) Stay away from me!
+NPC-Bodyguard1(0)<Speaker>Security Guard</Speaker>||:...
+()<Speaker>Concierge</Speaker>||:Unfortunately, our establishment has the right to deal with customers with bills in arrears as we choose. +How will you pay your 666,000? Cash or credit?
+OBRMOD(2)<Speaker>OBR</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:OBR rummages through her coat pockets for a long time before finding a hard credit card.
 ()||<黑屏1>:
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||<BIN>82</BIN><黑屏2><回忆><边框>2</边框>:你们在海岛上好好玩，钱的事交给指挥官就好啦！
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||<边框>2</边框>:嘻嘻，别担心！这张信用卡怎么刷都可以……指挥官肯定不会怪你们的！
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<BIN>82</BIN><黑屏2><回忆><边框>2</边框>:You guys have fun on the island and let the Commander worry about the money!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||<边框>2</边框>:Teehee, don't worry! You can use this card any way you like... I'm sure the Commander won't blame you for it!
 ()||<黑屏1><边框>2</边框>:
-OBRMOD(2)<Speaker>OBR</Speaker>||<黑屏2><BIN>80</BIN><关闭蒙版>:<color=#A9A9A9>……这样做真的没问题吗？指挥官如果看到，一定对我很失望吧……</color>
-()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:服务员的指尖不耐烦地轻敲着柜台。+保安的眼神似乎比前一秒更加凶恶，脚步向前挪动些许，将她们逼入穷途。
-OBRMOD(2)<Speaker>OBR</Speaker>||:<color=#A9A9A9>为了大家的安全，我、我只能交钱了……</color>+<color=#A9A9A9>呜呜呜……指挥官，对不起！这笔钱我到了基地一定还给您！我、我一定……</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:OBR颤抖着，从口袋中缓缓掏出指挥官的信用卡。
-()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:——滴！消费成功。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:保安们终于解除了对她们的禁锢，四散开来。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Room</BGM>:OBR颓废地耷拉着脑袋，收回卡片。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:既然钱都付了，这笔烂账就算清了！+我问你，你们酒店最近一班接驳车什么时候到？我们要去机场！
-()<Speaker>服务员</Speaker>||:抱歉，非本店超级VIP无权搭乘酒店接驳车。
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:诶？那我们来的时候怎么能乘车呢？！
-()<Speaker>服务员</Speaker>||:那是本酒店免费赠送的一次接送体验服务。+如要再次享受服务，请付费购买。当然，前提是在本店消费满999.99万成为超级VIP。+鉴于您已经消费了66.6万，是不是还要继续……
-OBRMOD(2)<Speaker>OBR</Speaker>||<震屏3>:<size=50>不！谁都别想从我这里多拿一分钱！</size>
-()<Speaker>众人</Speaker>||:……
-GeneralLiu(3)<Speaker>刘氏</Speaker>||:可、可是我们的行李那么多……
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:不如向指挥官求助吧？
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:别指望了，我刚才一直在联系岛外，结果发现这鬼地方把我们的信号全屏蔽了！
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:要不要叫个车？说不定有司机愿意接我们去机场呢……
-OBRMOD(0)<Speaker>OBR</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:搜索附近车辆……有结果了！大家快来看！
-()<Speaker></Speaker>||:众人围住OBR手里的终端，屏幕上闪烁着充满希望的绿色信号点。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:咦？这个提示信息……
-OBRMOD(0)<Speaker>OBR</Speaker>||:“……本车作为豪华海景别墅酒店集团旗下出租车，仅为尊贵的酒店超级VIP提供服务。非超级VIP禁止乘坐。+“诚挚欢迎各位尊贵的超级VIP会员呼叫本车，开启一段愉快的旅途……+“闲人勿扰！”
-GeneralLiu(3)<Speaker>刘氏</Speaker>||:这、这不就是说……
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:我们得先花999万变成这个破酒店的VIP，然后才能叫车。
-OBRMOD(2)<Speaker>OBR</Speaker>||:怎么会这样？！
-GeneralLiu(2)<Speaker>刘氏</Speaker>||:那、那我们现在怎么办？
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Error</SE1>:叮——+服务员毫无预兆地按响铜铃。
-()<Speaker>服务员</Speaker>||:诸位，请注意时间。你们已经结束与本酒店的交易，现属于外来人员。+酒店规定：外来人员在大厅停留满十五分钟后，将按1元/秒进行计费。现在你们已经停留了14分整，接下来……
-()<Speaker></Speaker>||<SE1>AVG_Thunder_Dry</SE1>:一听到“计费”二字，OBR敏锐的神经忽然如弓弦一般牢牢绷紧。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:她猛地提起行李，一个箭步朝大门飞奔！
-()<Speaker>众人</Speaker>||:……？！
+OBRMOD(2)<Speaker>OBR</Speaker>||<黑屏2><BIN>80</BIN><关闭蒙版>:<color=#A9A9A9>...Is it really okay to do this? Surely the Commander would be very disappointed if they saw the...</color>
+()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:The staffer taps her finger impatiently on the counter. +The security guards look more vicious than before, and they shift forward a little, cornering them.
+OBRMOD(2)<Speaker>OBR</Speaker>||:<color=#A9A9A9>I-I have no choice but to pay up in order to ensure everyone's safety...</color> +<color=#A9A9A9>(Sob) I'm sorry, Commander! I'll make sure I pay all this back to you once I get back to base! I, I'll definitely...</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:OBR's hand trembles as she slowly pulls out the Commander's credit card from her pocket.
+()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:—Ding! Transaction complete.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:The security guards finally ease off and disperse.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Room</BGM>:OBR hangs her head weakly and takes the card back.
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:Now that we've paid up, all our accounts are settled! +When's the next limo from your hotel heading out? I want to go to the airport!
+()<Speaker>Concierge</Speaker>||:So sorry, but non super-VIPs cannot hire hotel limousines.
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:Huh? Then why could we take a limo here?
+()<Speaker>Concierge</Speaker>||:That was a free sample of our hotel's welcoming services. +If you would like to use them again, then you will have to pay for it. Of course, you will have to spend 990,000 here to become a super VIP first. Since you've already paid 666,000, would you like to continue...
+OBRMOD(2)<Speaker>OBR</Speaker>||<震屏3>:<size=50>No! You are NOT getting another cent from me!</size>
+()<Speaker>Everyone</Speaker>||:...
+GeneralLiu(3)<Speaker>General Liu</Speaker>||:But, but we have so much luggage...
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:Why don't we ask the Commander for help?
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:Forget about it, I've been trying to call outside the island all this time, but then I found out that this damn place is jamming our signals!
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:Should we call a cab? There might be a driver who would be willing to take us to the airport...
+OBRMOD(0)<Speaker>OBR</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Searching for nearby cabs... I found something! Guys, come look!
+()<Speaker></Speaker>||:The group surrounds OBR's terminal. The screen is filled with green signal icons of hope.
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:Huh? This message says...
+OBRMOD(0)<Speaker>OBR</Speaker>||:...This cab is a rental vehicle from the Luxury Seaview Villa Corporation and it only provides services for our hotel's Super VIPs. Non-Super VIPs are prohibited from riding. +"Our Super VIP members are warmly invited to hire this vehicle and go on an enjoyable journey..." +"Keep out!"
+GeneralLiu(3)<Speaker>General Liu</Speaker>||:Wait, doesn't this mean...
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:We'll need to spend 9,990,000 to become VIPs of this crappy hotel before we can call a cab.
+OBRMOD(2)<Speaker>OBR</Speaker>||:How could this be?!
+GeneralLiu(2)<Speaker>General Liu</Speaker>||:Then, what should we do now?
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Error</SE1>:Ding— +The staffer suddenly hits the countertop bell.
+()<Speaker>Concierge</Speaker>||:Ladies, I would like to direct your attention to the time. Now that you have concluded your business with this hotel, you are now outsiders. +Hotel regulations state that after spending 15 minutes in the hotel lobby, they will be charged a running total of 1 credit for every second they continue to stay here after that. Considering you've already spent 14 minutes here...
+()<Speaker></Speaker>||<SE1>AVG_Thunder_Dry</SE1>:Upon hearing "will be charged a running total," OBR's already-tensed nerves suddenly go as taut as a bowstring.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:She suddenly takes up her luggage and sprints out of the main door!
+()<Speaker>Everyone</Speaker>||:...?!
 ()||<黑点1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN><SE1>AVG_20Winter_Gate_Close</SE1>:酒店大门终于在她们身后缓缓合上。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN><SE1>AVG_20Winter_Gate_Close</SE1>:The hotel's doors close slowly behind them.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>m_avg_casual</BGM><黑点2><BIN>163</BIN>:阵阵和煦的晚风刮过，带着温暖、潮湿的气息轻抚人形们疲惫的脸庞。
-GeneralLiu(2)<Speaker>刘氏</Speaker>||:呼……呼……那么多行李全搬出来，实在太费劲了！
-ADS(4)<Speaker>ADS</Speaker><Position>0,200</Position>||:好在终于和黑店划清界限了！OBR，接下来怎么办？
-OBRMOD(2)<Speaker>OBR</Speaker>||:唔……先想办法去机场吧。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:没有接驳车也没有出租车……怎么去机场？
-OBRMOD(0)<Speaker>OBR</Speaker>||:走着去。
-()<Speaker></Speaker>||:走着去？？？+众人形面面相觑。
-OBRMOD(0)<Speaker>OBR</Speaker>||:我想了一下……虽然没有交通工具，可我们至少还有腿呀！再说我们是战术人形，这点运动量不算什么！靠自己的双腿，安全、可靠又省钱……大家觉得呢？
-GeneralLiu(2)<Speaker>刘氏</Speaker>||:唔……可是行李……
-ADS(4)<Speaker>ADS</Speaker><Position>0,200</Position>||:呼……虽然有点麻烦，但至少比继续待在这儿好。我再也不想看到这家垃圾酒店了！
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:没有异议。
-OBRMOD(0)<Speaker>OBR</Speaker>||:我帮你一起提行李吧，刘氏！
-GeneralLiu(3)<Speaker>刘氏</Speaker>||:那、那好吧……我听大家的。
-OBRMOD(0)<Speaker>OBR</Speaker>||:事不宜迟，出发！
-()<Speaker></Speaker>||:众人形重新振作信念，深深地吸了口气，朝四方眺望。
-()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:大海的波涛声传来，起起伏伏，宛若澎湃的呼吸。远处灯塔涌动着温暖的光，冲淡了她们心中的不安与慌乱。
-ADS(4)<Speaker>ADS</Speaker><Position>0,200</Position>||:大海的感觉真好……只可惜这次度假搞砸了。
-GeneralLiu(0)<Speaker>刘氏</Speaker>||:没事啦，沿着海边走走也不错呢。+等一下，我得找找夜视装备……被我放在哪个行李箱里了来着？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:众人纷纷想起什么，一齐低头翻找起来。+PPD-40轻哼一声，从随身小包中掏出夜视仪。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||<SE1>AVG_NightVision_Start</SE1>:哼，这么重要的装备当然是要提前准备啦。下次我可不会慢吞吞地等你们。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:PPD双手叉腰，悠闲地眺望远处。+澄净透明的月光把清辉洒在不规则的海面上，连缀成一条条银白色的细线。+忽然，某个奇异的景象吸引了她的注意。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||<BGM>BGM_Empty</BGM>:那是……？+大家快看！
-()<Speaker></Speaker>||<BGM>BGM_Sneak</BGM><SE1>AVG_NightVision_Start</SE1>:众人形佩戴好夜视仪，抬头，顺着PPD手指的方向望去——+目之所及，一片汪洋。+海水自地平线荡漾而来，毫无阻拦地蔓延至酒店高高的坐台之下，连车道、人行道和路边的绿化带也被海水彻底淹没……+一排椰子树在海风中轻轻摇晃，用它们的身体标志着海岛中央高地与沙滩的分割线。
-GeneralLiu(3)<Speaker>刘氏</Speaker>||:咦？！明明来的时候不是这样的呀。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:肯定是海水涨潮，把这些低地都浸没了。
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:我的机体倒是可以入海，可你们三个……
-()<Speaker></Speaker>||:ADS忧虑地望着身边的同伴。
-GeneralLiu(3)<Speaker>刘氏</Speaker>||:虽然我的素体有基本的防水性能，可是并不能抵抗海水的腐蚀性……+如果我们蹚水去机场，这副素体就要报废了……
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:……难不成要回那个黑店吗？
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:不要吧？！
-OBRMOD(2)<Speaker>OBR</Speaker>||:……
-GeneralLiu(2)<Speaker>刘氏</Speaker>||:大不了多付点钱，在大厅里坐一晚，明天出发……总比拖着行李困在海里好啊！
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:OBR，你说呢？
-()<Speaker></Speaker>||:OBR握紧拳头，暗暗抿了抿嘴唇……
+()<Speaker></Speaker>||<BGM>m_avg_casual</BGM><黑点2><BIN>163</BIN>:The night wind blows past them, its warm, moist currents gently massaging the Dolls' tired faces.
+GeneralLiu(2)<Speaker>General Liu</Speaker>||:(Pants heavily) Moving all that heavy luggage really wore me out!
+ADS(4)<Speaker>ADS</Speaker><Position>0,200</Position>||:At least we're finally free of that rip-off hotel! What do we do next, OBR?
+OBRMOD(2)<Speaker>OBR</Speaker>||:Um... Let's think of a way to get to the airport.
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:There are no limos or cabs... How should we get there?
+OBRMOD(0)<Speaker>OBR</Speaker>||:By walking.
+()<Speaker></Speaker>||:By walking??? +The Dolls look at each other.
+OBRMOD(0)<Speaker>OBR</Speaker>||:I've been thinking... Although we don't have transportation, we still have our feet! And besides, we're Tactical Dolls, so a bit of exercise like this is nothing much! Using our legs is safe, reliable, and saves money... What do you think, guys?
+GeneralLiu(2)<Speaker>General Liu</Speaker>||:Um... But what about our luggage...
+ADS(4)<Speaker>ADS</Speaker><Position>0,200</Position>||:Hm... Well, it's a bit of a pain, but it's better than staying here. I don't ever want to see this trashy hotel again!
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:I agree.
+OBRMOD(0)<Speaker>OBR</Speaker>||:I'll help you carry your luggage, General Liu!
+GeneralLiu(3)<Speaker>General Liu</Speaker>||:Al-alright then... I'll listen to what you say.
+OBRMOD(0)<Speaker>OBR</Speaker>||:Then, without further ado, let's head out!
+()<Speaker></Speaker>||:With their spirits rekindled, the Dolls take a deep breath and look into the distance.
+()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:They are met with the sound of ocean waves as they rise and fall, like a giant's breathing. A lighthouse shines its warm radiance in the distance, washing away the confusion and unease in their hearts.
+ADS(4)<Speaker>ADS</Speaker><Position>0,200</Position>||:It feels great to come to the seaside... Too bad we messed up this vacation.
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:That's alright, walking along the beach is nice too. +Hang on, I need to find my night vision goggles... Now which of my bags did I put it in?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The group suddenly seems to realize something, and they all look down to search through their luggage. +PPD-40 humphs quietly and takes her night vision optics out of her handbag.
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||<SE1>AVG_NightVision_Start</SE1>:Hmph, obviously I'd prepare such important equipment beforehand. I won't wait for you next time.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:PPD-40 plants her hands on her waist and leisurely looks out into the distance. +The clear moonlight reflects off the unordered waves in silvery arcs. +Suddenly, a strange sight draws her attention.
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||<BGM>BGM_Empty</BGM>:What's that...? +Guys, come look!
+()<Speaker></Speaker>||<BGM>BGM_Sneak</BGM><SE1>AVG_NightVision_Start</SE1>:The group puts on their night vision goggles and looks up in the direction where PPD-40's hand is pointing. +There are nothing but lapping waves as far as the eye can see. +The sea rolls in from the horizon, right up to the hotel's lofty perch, engulfing the roads, pedestrian walkways and the greenery beside it... +A row of coconut trees sways gently in the ocean wind, their bodies marking the boundary between the beach and the island proper.
+GeneralLiu(3)<Speaker>General Liu</Speaker>||:Huh?! It wasn't like this when we came...
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:The tide must have come in and submerged all the low-lying regions.
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:My body can go into the sea, but you three...
+()<Speaker></Speaker>||:ADS looks worriedly at her three companions beside her.
+GeneralLiu(3)<Speaker>General Liu</Speaker>||:While my body has basic waterproofing, it can't resist seawater corrosion... +If we have to wade through the water to reach the airport, this body will be a write-off...
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:...Are we going to have to return to that rip-off hotel?
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:No way!
+OBRMOD(2)<Speaker>OBR</Speaker>||:...
+GeneralLiu(2)<Speaker>General Liu</Speaker>||:At the most, we'll just pay a little more and sit in the lobby all night before heading out tomorrow... It's better than getting stuck in the ocean while dragging our luggage around!
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:What say you, OBR?
+()<Speaker></Speaker>||:OBR clenches her fist and draws her lips into a line...
 ()||<黑屏1>:
-()<Speaker>指挥官</Speaker>||<BIN>8</BIN><黑屏2><回忆><边框>2</边框>:……我相信只要有心，你一定可以靠自己的努力过上永不欠债的光明生活！
-OBRMOD(2)<Speaker>OBR</Speaker>||<边框>2</边框>:我……真的可以吗？
-OBRMOD(2)<Speaker>指挥官</Speaker><同时置暗>||<边框>2</边框>:当然！
+()<Speaker>Commander</Speaker>||<BIN>8</BIN><黑屏2><回忆><边框>2</边框>:...I believe that as long as you put your heart into it, you'll be able to live a debt-free future through your hard work and effort!
+OBRMOD(2)<Speaker>OBR</Speaker>||<边框>2</边框>:Can I... really do that?
+OBRMOD(2)<Speaker>Commander</Speaker><同时置暗>||<边框>2</边框>:Of course!
 ()||<黑屏1><边框>2</边框>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:指挥官温柔的笑意清晰地浮现在OBR的心智中。+那是多么殷切期许的目光，和蔼可亲的神情……+她那么努力地想替指挥官分忧，却又一次落入陷阱，成为了欠债的冤大头……+怎么办……大家都还需要她，指挥官也还需要她……她决不能在这里半途而废。+一定、一定会有办法的！
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:The Commander's warm smile rises up in OBR's neural cloud. +It's a look of earnest expectation, of kindness, and familiarity... +She tried so hard to help share the Commander's burdens but ended up getting trapped instead and running up a debt for them... +What should she do... Everyone still needs her, and the Commander still needs her... She can't just give up halfway. +There's got to be something she can do!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>163</BIN><BGM>BGM_Empty</BGM>:大海……+水……+船？！+OBR忽然顿悟，眼前一亮。
-OBRMOD(0)<Speaker>OBR</Speaker>||:诸位，我们还不能放弃！
-()<Speaker></Speaker>||:OBR望着远处婆娑摇摆的影子，心生一计。
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:喂，你不会真的要游到机场吧？
-OBRMOD(0)<Speaker>OBR</Speaker>||:不，我们的出路就在那边，看——
-()<Speaker></Speaker>||:OBR踌躇满志，指向不远处的那排椰子树。
-OBRMOD(0)<Speaker>OBR</Speaker>||<震屏3><BGM>BGM_War</BGM>:我们可以砍下这些椰子树，做成木筏，然后顺着海水漂流到机场！
-()<Speaker></Speaker>||:众人形一脸震惊地盯着OBR。
-ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:OBR，你的心智是不是过载了呀？
-GeneralLiu(3)<Speaker>刘氏</Speaker>||:虽然我很想支持你啦，可是……
-PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:这决策真是难以置信。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在众人的质疑中，OBR自信地拍了拍胸膛。
-OBRMOD(0)<Speaker>OBR</Speaker>||:大家别担心，在制船方面我可是个行家！+以前为了躲避债主，走投无路到海边，我就经常做简易木筏逃走哦！看我还不是好好地活下来了吗？
-()<Speaker>众人形</Speaker>||:……
-OBRMOD(0)<Speaker>OBR</Speaker>||:听我说，黑店我们一定不能回去。每多花一分钱，指挥官的生活就会艰难一分……+事到如今，我们必须靠自己，必须学会自救！+既然我要对这次旅行负责，就必须站出来想办法……无论如何，我一定把你们安全送到格里芬，请大家务必相信我……+好啦，大家快帮忙砍椰子树吧！我们很快就能启程了！
+()<Speaker></Speaker>||<黑屏2><BIN>163</BIN><BGM>BGM_Empty</BGM>:The sea... +Water... A boat?! +OBR suddenly realizes something, and her eyes light up.
+OBRMOD(0)<Speaker>OBR</Speaker>||:Ladies, we can't give up yet!
+()<Speaker></Speaker>||:OBR looks at the swaying forms in the distance, and she hatches a plan.
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:Wait, are you seriously going to swim over to the airport?
+OBRMOD(0)<Speaker>OBR</Speaker>||:No, that's our way out of here. Look—
+()<Speaker></Speaker>||:OBR's heart surges as she points to the stand of coconut trees in the distance.
+OBRMOD(0)<Speaker>OBR</Speaker>||<震屏3><BGM>BGM_War</BGM>:We can cut these trees down to make a raft and then sail on it to the airport!
+()<Speaker></Speaker>||:The Dolls look at OBR in shock.
+ADS(0)<Speaker>ADS</Speaker><Position>0,200</Position>||:OBR, did your neural cloud overload or something?
+GeneralLiu(3)<Speaker>General Liu</Speaker>||:Much as I want to support you...
+PPD40(0)<Speaker>PPD-40</Speaker><Position>0,90</Position>||:That's a pretty unbelievable plan.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:As the others look at her with doubtful gazes, OBR proudly thumps her chest.
+OBRMOD(0)<Speaker>OBR</Speaker>||:Don't worry, everyone! I'm a pro when it comes to boatmaking! +In the past, when my creditors hounded me into a corner, I often made simple rafts to escape! I mean, I've survived all this time, haven't I?
+()<Speaker>Everyone</Speaker>||:...
+OBRMOD(0)<Speaker>OBR</Speaker>||:Look, we mustn't go back to that rip-off hotel. Every cent we spend there will only make the Commander's life that much harder... +Things being what they are now, we need to rely on ourselves and figure out a way to save ourselves! +Since I'm in charge of this holiday, I need to think of something... No matter what, I need to send you all back to Griffin, so please believe in me... +Alright, let's get chopping, everyone! We'll be on our way soon!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
-()<Speaker></Speaker>||:三天后，格里芬基地。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:...
+()<Speaker></Speaker>||:Three days later, in the Griffin base.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><SE1>AVG_BaseDoor_Open</SE1>:指挥官打开指挥室大门的瞬间——
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>m_wv_title</BGM>:哗啦啦——哗啦啦——+纷飞的账单从终端内不间断地吐出，堆满了指挥室的地面。+格琳娜笑眯眯地站在纸堆里，一边捧着刚刚理好的账单，一边向指挥官亲切地打招呼。
-()<Speaker>指挥官</Speaker>||:这是怎么回事？！
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:早啊，指挥官！OBR理财之旅的全部账单都在这里咯……+可惜数量太多，我目前也只整理了一部分呢！
-NPC-Kalin(1)<Speaker>指挥官</Speaker><同时置暗>||:指挥官看着面前的天价数字，绝望地发出一声呜咽。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:修复室刚刚传来报告，她们的素体由于长时间浸泡在海水中，腐蚀严重，需要全部更换。+事故的具体影像现在还无法复原。据推测，应该是她们在海上乘船的时候发生了意外，小船解体，全员落入海中……+因此，她们的心智也受了很大打击，恐怕要经过好久的调试才能恢复……+说起来真是可怜呢……
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:不过指挥官既然是她们的长官，恐怕只能牺牲一点小钱钱，多多关照她们了，对吧？
-NPC-Kalin(1)<Speaker>指挥官</Speaker><同时置暗>||:可这样一来，我真的要变成穷光蛋了……+天啊……她们怎么会变成这样？！还有这些欠款……我要打工到何时才能还清啊！
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嘻嘻……可能得等到下辈子了吧。
-()<Speaker></Speaker>||:指挥官绝望地垂下了脑袋。+忽然，一种不太对劲的感觉涌上心头。
-()<Speaker>指挥官</Speaker>||:等一下！格琳娜！
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:嗯？什么事呀，指挥官？
-NPC-Kalin(1)<Speaker>指挥官</Speaker><同时置暗>||:你、你是不是早就算计好了？！+从一开始替OBR找参照人形起，这一切就都在你的预料之内，对不对？！
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嘻嘻……
-()<Speaker></Speaker>||:格琳娜的笑容天真无邪，可她那双蓝色的眼睛却隐隐冒出金光。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:怎么会呢，我亲爱的指挥官！
-()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><SE1>AVG_BaseDoor_Open</SE1>:The moment the Commander opens the door to the Ops Room—
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>m_wv_title</BGM>:Whoosh—Flutter— +A cloud of bills fills the air and carpets the inside of the Ops Room. +Kalina stands amidst the pile of paper, holding a stack of sorted bills as she warmly welcomes the Commander.
+()<Speaker>Commander</Speaker>||:What is all this?!
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Good morning, Commander! The bills from OBR's journey of financial management are all here... +Although there were too many of them, so I've only sorted a part of them so far!
+NPC-Kalin(1)<Speaker>Commander</Speaker><同时置暗>||:The Commander gulps in despair as he looks at the astronomical figures before him.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Also, the repair bay just sent over a report; their bodies are all severely corroded from soaking in seawater for a long time. +We haven't been able to reconstruct the exact footage yet, but we believe that they were involved in a boating accident on the sea. Their vessel broke apart and dumped them all into the ocean... +As a result, their neural clouds have been seriously traumatized, and it may take a long period of therapy before they can recover... +The poor dears...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Still, you're their Commander, so I guess all you can do is pay a little and take care of them, right?
+NPC-Kalin(1)<Speaker>Commander</Speaker><同时置暗>||:At this rate, I'm going to become a pauper... +Good heavens... How did they end up like that?! And these expenses... How long will I have to work to pay them all back?!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Hehe... Until your next life, maybe.
+()<Speaker></Speaker>||:The Commander hangs their head in despair. +Suddenly, a sense that something is wrong comes to mind.
+()<Speaker>Commander</Speaker>||:Wait a minute! Kalina!
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Hm? What is it, Commander?
+NPC-Kalin(1)<Speaker>Commander</Speaker><同时置暗>||:You! Did you have this all planned out?! +You worked it all out from the moment you began looking for role models for OBR! You planned this all along, didn't you?!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Heehee...
+()<Speaker></Speaker>||:Kalina's laugh is innocent, but there's a golden glow deep within her blue eyes.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Perish the thought, my dear Commander!
+()||<黑屏1>:

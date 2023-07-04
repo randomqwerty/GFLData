@@ -1,78 +1,78 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>BGM_Hello</BGM><BIN>82</BIN><黑屏2>:……格里芬宿舍。+惬意的午后，大片暖阳顺着窗沿洒进室内。+而MG3则趴在桌子上，昏沉地刷着手机。
-MG3(0)<Speaker>MG3</Speaker>||:哇啊啊……+好大的一个哈欠……照这样下去根本没办法清醒嘛。+等会还有卫生检查，我必须要……打扫……呼……呼。
-()<Speaker></Speaker>||:在几句低声呢喃过后，轻微的鼾声渐渐传来。+不过还没等她睡个安稳，几阵刺耳的铃声却打破了周围的寂静。
-MG3(6)<Speaker>MG3</Speaker>||<SE1>AVG_ElecSpace</SE1>:噫？！我……我可完全没有睡着！刚刚只是闭目养神！
-MG3(6)<Speaker>MG3</Speaker>||<SE1>Stop_AVG_loop</SE1>:清扫工作什么的已经在……嗯？原来只是封电子邮件啊，真是吓我一跳。
-()<Speaker></Speaker>||:虚惊一场后，MG3重新点亮自己的手机屏幕，一封格式严谨的通知似乎格外引人注意。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#FFFF00>【MG3小姐，我们已通过了您的改造申请。】</color>+<color=#FFFF00>【请您即刻前往人形工厂接收新型素体与装备。】</color>+<color=#FFFF00>【具体信息及相关事宜请与后勤官格琳娜联络……】</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:MG3挺身坐直，反复确认了几遍信件中的内容。+随着她缓缓按下了文字末尾的确认按钮，一股久违的狂喜逐渐冲散了刚才的慵懒。
-MG3(0)<Speaker>MG3</Speaker>||<震屏>:<size=50>改造……通过！！！</size>
-MG3(0)<Speaker>MG3</Speaker>||:难道说，我终于可以得到梦寐以求的素体啦！？+精巧的外形，敏捷的速度，甚至就连胸前的累赘也可以同时丢掉……+这样的好日子总算是降临了吗！呀吼！
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>RunStep</SE1>:激动的MG3无法抑制地发出欢呼，她不顾一切地奔向工厂，似乎抛下了全部烦恼……
+()<Speaker></Speaker>||<BGM>BGM_Hello</BGM><BIN>82</BIN><黑屏2>:...In the Griffin dorms. +It is a lazy afternoon, and the warm sunlight streams into the room. +Meanwhile, Gr MG3 is sprawled on a desk, sleepily looking at her cell phone.
+MG3(0)<Speaker>Gr MG3</Speaker>||:Huwaaaahhhh... +Wow, that was a big yawn... I can't possibly stay awake like this. +There's going to be a cleanliness inspection later, so I need to... sweep up... zzzzzz.
+()<Speaker></Speaker>||:After muttering a few words to herself, the sound of her voice is soon replaced with that of quiet snoring. +However, before she can fully enter dreamland, she is awakened by the harsh noise of an alert.
+MG3(6)<Speaker>Gr MG3</Speaker>||<SE1>AVG_ElecSpace</SE1>:Aieeeyeagh?! I... I totally wasn't sleeping just now! I was just resting my eyelids!
+MG3(6)<Speaker>Gr MG3</Speaker>||<SE1>Stop_AVG_loop</SE1>:I'm already working on the cleaning, and... Hm? So it was just an email. Man, that scared the crap out of me.
+()<Speaker></Speaker>||:After that false alarm, Gr MG3 keys up her cell phone's screen again, and a strict-looking notification grabs her attention.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#FFFF00>[Miss Gr MG3, your neural upgrade request has been approved.]</color> +<color=#FFFF00>[Please proceed to the Doll Factory immediately to receive your new body and equipment.]</color> +<color=#FFFF00>[For further inquiries and details, please contact Logistics Officer Kalina...]</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Gr MG3 sits up straight, reading and confirming the letter's contents several times. +As she clicks the ACKNOWLEDGE button at the bottom of the notice, a surge of glee washes away her prior laziness.
+MG3(0)<Speaker>Gr MG3</Speaker>||<震屏>:<size=50>MOD APPROVED!!!</size>
+MG3(0)<Speaker>Gr MG3</Speaker>||:Could it be that I'm finally getting the body of my dreams? +Featuring an exquisite exterior and lightning speed, I can even get rid of that dead weight on my chest too... +Happy days are here at last! Woohoo!
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>RunStep</SE1>:Gr MG3 can't help but whoop in excitement. She immediately makes a beeline for the Factory, as though she has shed all her troubles and worries in her wake...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>22</BIN><BGM>m_avg_casual</BGM>:……格里芬工厂。
-MG3(0)<Speaker>MG3</Speaker>||:格琳娜小姐！
-MG3(0)<Speaker>MG3</Speaker><Shake>0.1</Shake>||:格琳娜小姐您听见了吗？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:我在这里哦，你有点太激动了吧……
-NPC-Kalin(0);MG3(0)<Speaker>MG3</Speaker>||:当然啦！我已经期待今天很久了！
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:说来也是，对于人形来说这确实算作大事呢……那么我也不卖关子了！+你的新素体就在这具保养槽中……
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:面前的保养槽缓缓打开，一位沉睡的少女安静地躺在其中。+但令人意外的是，MG3的热情似乎瞬间僵住了。+这具素体四肢匀称结实，看起来力量不菲，高大的身板也格外可靠，但最引人注目的……还是那敦实的胸部……
-MG3(6)<Speaker>MG3</Speaker><Shake>0.5</Shake>||:这是……什么东西啊！！！
-()<Speaker></Speaker>||:MG3手舞足蹈地比划了起来，看上去有点抓狂。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:欸？！
-MG3(6)<Speaker>MG3</Speaker>||:这跟我向技术部递交的个人说明完全不一样啊！明明我已经详细提供了关于改造方面的个人思路……+我要的是扁平！轻盈！灵活！但是面前这个家伙——
-()<Speaker></Speaker>||:MG3愤怒地指了指槽中沉睡少女的胸部。
-MG3(6)<Speaker>MG3</Speaker>||:跟我想要的完全不一样！
-MG3(6);NPC-Kalin(5)<Speaker>格琳娜</Speaker>||:人形提交的个人说明只会作为一个参考哦，看来是技术部没有通过你的方案吧……+毕竟要使用沉重机枪的话，就必须要安置比普通人形更多的强化模块。
-MG3(6)<Speaker>MG3</Speaker>||:更多的强化模块没关系！那这个呢？！这个又是为什么！
-()<Speaker></Speaker>||:MG3指着槽中沉睡少女的胸部，已经快要暴跳如雷了。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:这正是你的改造素体方案中最重要的部分啊！+你想，装配了多个强化组件，如果没有提高生存性能，那不就是白搭嘛。+而这个加固的胸部正好能护住你素体的核心区域！
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:格琳娜操作机器打开了人形的胸膛，露出了防弹凝胶与动力单元。
-MG3(6)<Speaker>MG3</Speaker>||:……+不能像军方单位那样做外挂装备吗？+这样不需要的时候，我还能卸下来……
-MG3(6);NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:这可不行，胡乱使用挂载方案反而会削弱行动力，到时候性能评分搞不好要不增反降呢。
-MG3(6)<Speaker>MG3</Speaker>||:但我真的很讨厌现在的素体……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:MG3像漏气的大米口袋一样瘫软在了保养槽边上。格琳娜叹了口气，准备离开给她留出一些冷静的空间。+却不料在走开时，MG3一把抱住了自己的腿。
-MG3(6)<Speaker>MG3</Speaker>||<SE1>ClothingUp</SE1>:格琳娜小姐……
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:怎、怎么了……
-()<Speaker></Speaker>||:格琳娜一低头，正好对上MG3委屈可怜的眼神。
-MG3(6)<Speaker>MG3</Speaker>||:真的没有别的办法了吗？
-MG3(6);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:……
-MG3(6)<Speaker>MG3</Speaker>;NPC-Kalin(4)||:您绝对是大家最最要好的朋友吧！
-MG3(6);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:当、当然啦……+可是素体改造流程有它的硬性规定，所以……
-MG3(6)<Speaker>MG3</Speaker>||:抛掉胸前的累赘可是我毕生的梦想……您难道忍心看我继续背负下去？+您可知道……每天挂着这玩意儿是多么难受的体验吗！
-()<Speaker></Speaker>||:MG3拽着格琳娜的手掂了掂自己的包袱，防弹凝胶和动力单元确实占据了相当的重量。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:我会再帮你去申请下，但这是需要时间的……
-MG3(6)<Speaker>MG3</Speaker>||:如果可以的话……
-()<Speaker></Speaker>||:MG3比划出四根手指贴在格琳娜的眼前。
-MG3(6)<Speaker>MG3</Speaker>||:我愿意捐出四个月的补贴作为格里芬团建经费，全部交由您管理！
-MG3(6)<Speaker>格琳娜</Speaker>;NPC-Kalin(3)||:你这样我很难办的……
-MG3(6)<Speaker>MG3</Speaker>;NPC-Kalin(3)||:六个月！
-MG3(6);NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:你要知道，对素体不满意的人形也不是少数……
-MG3(6)<Speaker>MG3</Speaker>||:一年！！！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:MG3豪气地伸出一根手指，而格琳娜的眼神却逐渐迷离了起来，似乎有什么东西勾走了她的灵魂……
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:要记住，这些捐款可都是你自愿的哦！
-()<Speaker></Speaker>||:她鬼鬼祟祟地贴近了MG3的耳朵，低声地嘟囔了几句。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:其实仓库里正巧有些合你要求的闲置素体，先换上去感受一番如何？+如果换上之后，你还坚持这就是你要的，我再想办法帮你争取下……
-MG3(0)<Speaker>MG3</Speaker>||:真的吗？！+谢谢你，格琳娜小姐！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:MG3的热情被重新点燃，她送出了一个结实的拥抱。+随后，MG3躺上了改造台，望着头顶明晃晃的手术灯，她的意识沉入二级平层。
-()<Speaker></Speaker>||<BGM>BGM_Truth</BGM>:在恍惚中，那些闪亮的光源如同枪口的火焰，重新揭开了MG3心中一段被尘封许久的往事……
+()<Speaker></Speaker>||<黑点2><BIN>22</BIN><BGM>m_avg_casual</BGM>:...In the Griffin Factory.
+MG3(0)<Speaker>Gr MG3</Speaker>||:Miss Kalina!
+MG3(0)<Speaker>Gr MG3</Speaker><Shake>0.1</Shake>||:Miss Kalina, have you heard?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:I'm here. Don't you think you're being a little too worked up...
+NPC-Kalin(0);MG3(0)<Speaker>Gr MG3</Speaker>||:Of COURSE I am! I've been waiting so long for this day!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Well, that's true. This IS a big event for a Doll... In that case, I'll skip the sales pitch! +Your new body is in this storage tank...
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:The storage tank before her slowly opens, revealing a girl sleeping within it. +Surprisingly enough, Gr MG3's excitement promptly freezes over. +The body's limbs are stout, and she looks very strong. Her towering physique inspires confidence in onlookers, but the most eye-catching part of her is still... that firm, plump chest...
+MG3(6)<Speaker>Gr MG3</Speaker><Shake>0.5</Shake>||:What... What the hell is this!!!
+()<Speaker></Speaker>||:Gr MG3 begins gesticulating wildly. She has clearly lost her composure.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Ehhhh?!
+MG3(6)<Speaker>Gr MG3</Speaker>||:This is NOTHING like what I wrote in my personal letter to the Technical Department! I went into so much detail about my plans and ideas for my upgrade... +I wanted flatness! Agility! Dexterity! But this—
+()<Speaker></Speaker>||:Gr MG3 points angrily at the chest of the girl sleeping in the tank before her.
+MG3(6)<Speaker>Gr MG3</Speaker>||:This is completely different from what I wanted!
+MG3(6);NPC-Kalin(5)<Speaker>Kalina</Speaker>||:Well, they only use the personal letter as a guideline. It looks like the Technical Department didn't approve your request... +After all, you're using a heavy machine gun, so you'll need more enhancement modules than the average T-Doll.
+MG3(6)<Speaker>Gr MG3</Speaker>||:More enhancement modules are fine! But what about this, hm?! Why did they have to put THIS in?!
+()<Speaker></Speaker>||:Gr MG3 jabs a finger at the breasts of the girl sleeping in the tank. She's on the verge of exploding.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:But that's the most important part of your body modification plan! +Think about it: all those upgrade parts we installed would go to waste if we didn't improve your survivability too. +And this reinforced chest can protect your body's core too!
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:Kalina presses a few buttons on a machine and opens up the Doll's chest, revealing anti-ballistic gel and power units.
+MG3(6)<Speaker>Gr MG3</Speaker>||:... +Can't you make them into external attachments like military units? +That way, I can remove them if I don't need them...
+MG3(6);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Oh, no, using mounted components indiscriminately will weaken your mobility instead, and it might lead to your performance rating dropping instead.
+MG3(6)<Speaker>Gr MG3</Speaker>||:But I really hate my current body...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Gr MG3 collapses against the outside of the tank like a deflated rice sack. Kalina sighs and prepares to leave to give her some time to cool down. +Just as she is about to go, she is surprised to see Gr MG3 grabbing her leg.
+MG3(6)<Speaker>Gr MG3</Speaker>||<SE1>ClothingUp</SE1>:Miss Kalinaaaaa...
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:W-What's going on...
+()<Speaker></Speaker>||:Kalina looks down and sees Gr MG3 looking at her with teary puppy-dog eyes.
+MG3(6)<Speaker>Gr MG3</Speaker>||:Is there really no other way?
+MG3(6);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:...
+MG3(6)<Speaker>Gr MG3</Speaker>;NPC-Kalin(4)||:You're everyone's bestest friend, aren't you?!
+MG3(6);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Of, of course I am... +But the body remodeling process has ironclad rules of its own, so...
+MG3(6)<Speaker>Gr MG3</Speaker>||:Getting rid of that dead weight on my chest has been my lifelong dream... Can you really bear to see me continue carrying them? +Do you know how horrible it is to have to go through life with these things stuck to me?
+()<Speaker></Speaker>||:Gr MG3 tugs on the bags Kalina is carrying in her hand. Indeed, the anti-ballistic gel and power units weigh about as much as them.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I'll try to put in another application, but it'll take time...
+MG3(6)<Speaker>Gr MG3</Speaker>||:If you can...
+()<Speaker></Speaker>||:Gr MG3 holds up four fingers in front of Kalina.
+MG3(6)<Speaker>Gr MG3</Speaker>||:I'll gladly contribute four months of my salary to the Griffin building fund and place it at your disposal!
+MG3(6)<Speaker>Kalina</Speaker>;NPC-Kalin(3)||:You're making things really hard for me...
+MG3(6)<Speaker>Gr MG3</Speaker>;NPC-Kalin(3)||:Six months!
+MG3(6);NPC-Kalin(4)<Speaker>Kalina</Speaker>||:You know, quite a lot of Dolls aren't happy with their bodies...
+MG3(6)<Speaker>Gr MG3</Speaker>||:One year!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Gr MG3 proudly holds up a finger, and Kalina's eyes glaze over, as though something is stealing her soul away...
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Remember, you asked for it!
+()<Speaker></Speaker>||:She looks around warily before bringing her face close to Gr MG3's ears and whispering into it.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:The truth is, we have some spare bodies in the warehouse that fit your requirements, so why don't you try one of them on and see how it feels? +If you end up liking it, I'll find a way to help you obtain it for good...
+MG3(0)<Speaker>Gr MG3</Speaker>||:Really? +Thank you, Miss Kalina!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:Gr MG3's passion ignites once more and she draws Kalina into a snug hug. +After that, Gr MG3 lies down on the modification slab and her consciousness sinks into her secondary layer as she looks up at the operating lights swaying overhead.
+()<Speaker></Speaker>||<BGM>BGM_Truth</BGM>:In this trance-like state, those moving lights look like the muzzle flashes from a gun, and they reawaken long-dormant memories in Gr MG3's heart...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><回忆>:……战场一角。
-队友()<Speaker>队友</Speaker>||<回忆>:各位加快速度，敌人追过来了！
-MG3(1)<Speaker>MG3</Speaker>||<回忆>:收到！
-()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1><回忆>:漫天炮火声中，筋疲力竭的MG3正在尚未完工的狭窄战壕中艰难前进着。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><回忆>:尽管已使出全身的力气，但MG3的身体仍然无法通过面前的拐角。+体态娇小的队友们一个接一个灵活地穿行在战壕间，徒留她痛苦挣扎，素体上也多了不少惨烈的伤痕……
-队友()<Speaker>队友</Speaker>||<回忆>:都到了吗？等等，MG3！你在干什么啊？！+快跟上！援军就在前面！
-MG3(1)<Speaker>MG3</Speaker>||<回忆>:我……我卡住了！+不要管我了，你们快走吧！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><回忆>:MG3最后奋力一跃，发现自己仍然被死死卡住，她认命般地叹气，放弃了挣扎。
-()<Speaker></Speaker>||<SE1>RunStep</SE1><回忆>:远处的战壕间响起了几声急促的脚步。
-MG3(1)<Speaker>MG3</Speaker>||<回忆>:<color=#A9A9A9></color>敌人吗？
-()<Speaker></Speaker>||<回忆>:MG3立刻准备给机枪上好弹药，这时才发现弹药早已消耗殆尽。+急促的脚步声近了……+熟悉的面孔出现在了面前。
-队友()<Speaker>队友</Speaker>||<回忆>:你们俩，掩护我们。+MG3，把手抬起来，我们帮你把这里掘开！
-MG3(1)<Speaker>MG3</Speaker>||<回忆>:什么……你们快走啊！
-()<Speaker></Speaker>||<回忆>:已经脱离险境的同伴们回到了她的身边，她们全力阻击着敌人，同时挖掘着周围的废墟，毫无怨言地展开营救。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><黑屏1><回忆>:随着敌人的逼近，密集的弹雨在四周攒射，队友们接二连三地负伤倒下，MG3心急如焚地苦苦挣扎着……
-()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><BGM>BGM_Empty</BGM><关闭蒙版>:MG3咬紧牙关，强压下了继续回忆的冲动。
-MG3(6)<Speaker>MG3</Speaker>||:再等等……就快结束了。+只要摆脱了那具笨拙的素体，这些事情就再也不会发生了！
-()<Speaker></Speaker>||<黑屏1>:她想象着自己将要换装的全新形态，在坚定的表情中彻底进入了休眠……
+()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><回忆>:...On the battlefield.
+队友()<Speaker>Teammate</Speaker>||<回忆>:Pick up the pace, ladies, the enemy's catching up!
+MG3(1)<Speaker>Gr MG3</Speaker>||<回忆>:Roger!
+()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1><回忆>:As the sound of explosions fills the air, an utterly exhausted Gr MG3 is trudging through a stretch of narrow, unfinished trenches.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><回忆>:Although she's used all her strength, Gr MG3 still can't turn the corner ahead of her. +Her petite teammates dart swiftly through the trenches. She is the only one struggling her way through, and there are many terrible wounds on her body...
+队友()<Speaker>Teammate</Speaker>||<回忆>:Is everyone here? Wait a minute, Gr MG3! What are you doing?! +Come on, keep up! Our reinforcements are just up ahead!
+MG3(1)<Speaker>Gr MG3</Speaker>||<回忆>:I... I'm stuck! +Forget me, just go!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><回忆>:Gr MG3 uses the last dregs of her strength and throws herself forward, but finds that she is well and truly lodged in place. She sighs and abandons her struggles, accepting her fate.
+()<Speaker></Speaker>||<SE1>RunStep</SE1><回忆>:The sound of hurried footsteps fills the trench.
+MG3(1)<Speaker>Gr MG3</Speaker>||<回忆>:<color=#A9A9A9>Is it the enemy?</color>
+()<Speaker></Speaker>||<回忆>:Gr MG3 prepares to load her gun, but then she realizes she's out of ammo. +The hurried footsteps draw close... +And a familiar face appears before her.
+队友()<Speaker>Teammate</Speaker>||<回忆>:You two, cover us. +Gr MG3, raise your arms; we'll dig you out of here!
+MG3(1)<Speaker>Gr MG3</Speaker>||<回忆>:What... Just go already, you guys!
+()<Speaker></Speaker>||<回忆>:Her friends, who had already escaped danger, have returned to her side. They held off the enemy with all their might while excavating the rubble around her, effecting a rescue without any complaint.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><黑屏1><回忆>:As the enemy draws close and hails of gunfire fill the air, her teammates collapse one after the other, and Gr MG3 struggles harder, her heart anxious and miserable...
+()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><BGM>BGM_Empty</BGM><关闭蒙版>:Gr MG3 clenches her teeth and forcibly suppresses the urge to continue playing back the memory.
+MG3(6)<Speaker>Gr MG3</Speaker>||:Just a little longer... It'll be over soon. +Once I get rid of that clumsy old body, things like that will never happen again!
+()<Speaker></Speaker>||<黑屏1>:As she imagines her brand new form, she slips into total slumber with a determined look on her face.

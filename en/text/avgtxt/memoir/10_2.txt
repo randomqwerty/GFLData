@@ -1,117 +1,117 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>22</BIN>:……工厂，心智升级车间。+格琳娜将视线从屏幕上抽离，有些失落地叹了口气。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:还是不行啊，指挥官……
-NPC-Kalin(4)<Speaker>指挥官</Speaker><同时置暗>||:我看见了。
-NPC-Kalin(7)<Speaker>格琳娜</Speaker>||:这可怎么办啊？之前相似案例能用的办法已经全部用过了……+没有一点作用……
-NPC-Kalin(7)<Speaker>指挥官</Speaker><同时置暗>||:……
-()||:指挥官蹙起眉沉默了半晌，连在换气孔间欢快穿梭的空气也沉滞了。
-()<Speaker>指挥官</Speaker>||<黑屏1>:果然……还是只能找她帮忙了。
-()||<黑屏2><BIN>476</BIN><BGM>GF_EV9_Story</BGM>:PPK慵懒地背靠着冰凉的墙体残骸，手指轻轻滑过剩下的子弹。+因为刚刚的战斗造成的声响，又吸引来了几小波ELID游荡群体。+被迫战斗几场的PPK如今只剩下了这些弹药。
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>真是酣畅淋漓的战斗！珊娜雅今天也让世界变得更美好了呢！</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:……+你上小学了吗？沉迷垃圾读物可是会考不上初中的。
-()||:PPK的冷嘲热讽并没有换来珊娜雅的回应。+似乎只有在面对战斗时，珊娜雅才会出现。
-()||<SE1>AVG_tele_connect</SE1>:嘀——队内通讯响起。
-Python(0)<Speaker>蟒蛇</Speaker><通讯框>||:<color=#00CCFF>PPK，指挥官说你那边的问题暂时还没找到合适的解决方案？</color>
-PPKMod(0)<Speaker>PPK</Speaker>;Python(0)<通讯框>||:嗯哼，看来我的毛病不一般。
-PPKMod(0);Python(0)<Speaker>蟒蛇</Speaker><通讯框>||:<color=#00CCFF>MP443提前完成搜索了，我让她去你那边帮你。</color>
-PPKMod(0)<Speaker>PPK</Speaker>;Python(0)<通讯框>||:……
-PPKMod(0)<Speaker>PPK</Speaker>||:你确定这不是要我的命？
-MP443_MOD(0)<Speaker>MP443</Speaker><通讯框>||:<color=#00CCFF>这频道我也在！</color>+<color=#00CCFF>还有我已经在路上了，预计还有十五分钟。</color>
-Python(0)<Speaker>蟒蛇</Speaker><通讯框>||:<color=#00CCFF>PPK你先和MP443汇合，然后赶紧把任务给我完成了回去检查维修！</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:知道啦。
-()||<SE1>AVG_tele_disconnect</SE1>:嘀——队内通讯结束。+PPK重新整理了装备，等待MP443抵达汇合。
-()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:在等待的期间，她开始整理目前为止的任务进度来填写任务汇报。+任务时间、地点、类型……
-()||<BGM>BGM_Empty</BGM>:PPK熟稔地填写着，但在滑到详情的空白页面时，她的心智中突然涌现出一个可怕的疑问。
-PPKMod(0)<Speaker>PPK</Speaker>||:唔，等等，之前蟒蛇说的保姆人形的型号和姓名是什么来着？+小女孩的名字又叫——
-()||<SE1>AVG_21Winter_Error</SE1>:PPK强压着慌乱翻找起了蟒蛇发放的任务通知，那刺眼白底上深深镌刻着黑色的文字，但PPK无法识别文字内容。
-PPKMod(0)<Speaker>PPK</Speaker>||<SE1>AVG_21Winter_Error</SE1>:到底是什么……
-()||<SE1>AVG_whitenoise</SE1>:兹——兹兹——+喧嚣的噪音扰乱了她的思绪，刚刚还清晰的信息扭曲成了黑白的马赛克，在她的心智里盘亘旋绕……
-PPKMod(0)<Speaker>PPK</Speaker>||:又怎么了……
-()<Speaker>艾丽卡</Speaker>||<SE1>Stop_AVG_loop</SE1>:<color=#00CCFF>有没有人……快来……救救我们……</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:艾丽卡？给我你的坐标！
-()<Speaker>艾丽卡</Speaker>||:<color=#00CCFF>她快要不行了……</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:是小女孩吗？她——
-()<Speaker>艾丽卡</Speaker>||:<color=#00CCFF>救救我……</color>
-()||:滚烫粘稠的温度紧贴着她的皮肤，让她莫名感觉心酸得喉头发紧……
-()||<SE1>AVG_Explo_Distance</SE1><BIN>9</BIN><黑屏1>:砰——沉重的黑暗轰然压下，PPK的意识再一次坠落。+朝着看不清的目的地，无尽坠落。
-()||<黑屏2><BIN>9</BIN>:……未知空间。
-PPKMod(0)<Speaker>PPK</Speaker>||:……不是吧，又来？
-()||:PPK警觉地回头，那个蒙在阴影中的少女已经不见了。+偌大的漆黑空间，依然只有地上的记忆碎片幽怨地散发着微光。
-PPKMod(0)<Speaker>PPK</Speaker>||:艾丽卡？
-()<Speaker>？？？</Speaker>||<SE1>AVG_Piano_Ambience</SE1>:<color=#F08080>嘻嘻！</color>
-()||<BGM>2022_white_valentine_BGM2</BGM>:一声俏皮的轻笑像一颗掷入镜湖的石子，泛起一圈圈波浪。+PPK环视四周，却没有看见发出声音的人。
-PPKMod(0)<Speaker>PPK</Speaker>||:这个声音……是出现在我心智里的……+珊娜雅？出来！
-()||<SE1>ClothingUp</SE1>:PPK下意识想拿起手枪，才注意到手枪不知所踪。
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>别闹啦，大小姐，已经是睡觉的时间了。</color>
-()||:面前凭空出现了一道毛边玻璃般雾蒙蒙的屏障，一个少女的影子映现在了玻璃之后。
-()||<SE1>AVG_Punch</SE1>:PPK立刻冲上前去，但玻璃在她的重击下毫发无损，她绕到玻璃的背面，什么都没有。
-PPKMod(0)<Speaker>PPK</Speaker>||:这到底是……难道又是艾丽卡的记忆吗？
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>我不睡！除非……</color>+<color=#F08080>你把上次的故事讲完！</color>
-()||:刚才发出嬉笑声的主人也出现在了玻璃中，PPK凝视着两道影子，希望能描摹出声音主人的轮廓。
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>这……可是不管我怎么编，你都不满意啊……</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>从头开始！</color>
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>哎，好吧。</color>
-()||:少女的阴影谦恭地欠了欠身，走到了玻璃的左侧，而嬉笑声的主人稳稳坐在右侧。
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>从前从前，有一位美艳的女杀手，她叫——</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>珊娜雅！她就叫珊娜雅！</color>
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>好好好……</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:珊娜雅，这个该死的珊娜雅！+什么女杀手，原来只是人形编出来的儿童读物！
-()||<SE1>AVG_Punch</SE1>:PPK狠狠捶了下玻璃，但并未对玻璃中的两人产生任何影响。
-PPKMod(0)<Speaker>PPK</Speaker>||:喂！你，就是你，你编故事编得太糟糕了！
-()||:似乎是艾丽卡的阴影顿了顿，缓缓开启了讲述。
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>珊娜雅有一头漂亮顺滑的长发，深邃的眼睛像夜晚的星空般闪耀，无论走到何处，都牢牢吸引着人群的注视。</color>+<color=#7B68EE>没有人知道她的来历，人们只知道她不爱钱财珠宝，不为名利所困，是个一心追求刺激冒险的狠角色。</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>对对对！我就喜欢这种爽快的！</color>
-()||<SE1>Rope</SE1>:PPK听见这个已经快烂熟于心的故事，不由得痛苦地闭上了双眼。
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>然后珊娜雅还要很受欢迎！人见人爱那种！</color>+<color=#F08080>帅气高冷的霸道总裁喜欢她，连坏人都觉得她很有魅力！</color>
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>明白……</color>+<color=#7B68EE>霸道总裁跪下向她求婚，她冷酷一笑不予理睬？</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>对对对对对！！！</color>
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>穷凶极恶的坏人挥刀劈向她，她——</color>+<color=#7B68EE>她逃跑的背影也超帅气潇洒？</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>不可以！</color>+<color=#F08080>珊娜雅这样的女杀手绝不会从战场上逃走！</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:……
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>那……谈笑生风间就让对方人头落地？</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>没错！珊娜雅就是这样勇猛无畏，不管遇见谁挡道，都会杀个痛快！</color>
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>即便是在被抓获后遭到严刑拷打，她也只是大笑着说——</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>再来啊！让我再多品味这种痛苦！</color>
-()||:在两人嬉笑着编织“珊娜雅”的故事时，PPK也在想尽一切办法破坏掉这块玻璃。
-()||<SE1>AVG_Punch</SE1>:在连续不断的猛烈进攻中，玻璃的表面终于出现了一道细小的裂缝，PPK没有放过机会，狠狠地给上了最后一击——
-()||<SE1>AVG_Broken_Glass</SE1><BGM>BGM_Empty</BGM><白屏1>:那一霎，她的意识落入了万花筒，光怪陆离的画面涌来……
-()||<白屏2><BIN>249</BIN><SE1>AVG_whitenoise</SE1>:在一阵眩晕后，她终于走进了玻璃中的世界。+躲藏在玻璃后的两个身影正站在自己面前，但具体的容貌都被模糊的色块遮掩，依然无法确定两人的真实身份。
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>她勇敢无畏，不管前路存在着什么样的痛苦，她都不会退缩。</color>+<color=#7B68EE>哪怕是——</color>
-PPKMod(0)<Speaker>PPK</Speaker>||:你……
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>喔，有客人来啦！</color>
-()<Speaker>艾丽卡</Speaker>||:<color=#7B68EE>啊，是客人吗？</color>+<color=#7B68EE>您好，艾丽卡为您服务，请问我有什么能为您做的吗？</color>
-()<Speaker>珊娜雅</Speaker>||:<color=#F08080>快把我的零食拿出来！今天就拿那个——</color>
-()||<SE1>AVG_Piano_Ambience</SE1>:摇曳的身姿骤然顿住，偌大的空间像被风化多年后渐渐碎裂。+PPK颤抖着踩过龟裂塌陷的地板，朝着消散的身影伸出手去。+滚烫粘稠的温度紧贴着她的皮肤，让她莫名感觉心酸得喉头发紧……
-()||<SE1>AVG_Explo_Distance</SE1><BIN>9</BIN><黑屏1>:轰——PPK再次跌入黑暗，被烈风般裹挟着奔向地心。
-()<Speaker>？？？</Speaker>||<BIN>9</BIN><SE1>Stop_AVG_loop</SE1>:艾丽卡……
-()||<SE1>GF_Halloween_Wind_loop</SE1>:在跌入黑暗前，PPK听见有人贴在耳边呼唤着。
-()<Speaker>？？？</Speaker>||:艾丽卡！快醒醒！
-PPKMod(0)<Speaker>PPK</Speaker>||:艾丽卡……
-()<Speaker>？？？</Speaker>||<黑屏1><SE1>Stop_AVG_loop</SE1>:艾丽卡！！！
-()||<睁眼><BIN>480</BIN><边框>2</边框><BGM>m_avg_labyrinth</BGM>:PPK睁开双眼，身边多了些原本不属于这里的东西——
-NPC-Sanaya(0)<Speaker>？？？</Speaker>||<边框>2</边框>:你终于醒了！
-()||<边框>2</边框>:一个人类小女孩，突兀地坐在身边，粉嫩的小手正焦急地摇晃着自己。+是任务目标吧，PPK的心智依然乱做一团，但这样危险的区域，除了任务目标，也不可能有别的人类小女孩出现了。
-()<Speaker>PPK</Speaker>||<边框>2</边框>:这个声音是……珊娜雅？你就是——
-NPC-Sanaya(1)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:艾丽卡，你不会睡蒙了吧！
-NPC-Sanaya(1)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:艾丽卡……为什么要叫我艾丽卡？是我还在艾丽卡的记忆里吗？
-NPC-Sanaya(1)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:我很好啊，没有一点不舒服！
-NPC-Sanaya(1)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:啧，这生硬割裂的对话，看来我果然还在艾丽卡的记忆里。+不过看这附近，已经很接近我找到的地方了……
-NPC-Sanaya(0)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:嘻嘻……醒了就来陪我玩吧！
-NPC-Sanaya(0)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:我们来玩谁先到——那块大石头！
-()||<边框>2</边框><SE1>RunStep</SE1>:小女孩笑嘻嘻地指了指远处的巨石，话音未落就冲了过去。
-()<Speaker>PPK</Speaker>||<边框>2</边框>:等等！
-()||<边框>2</边框>:PPK立刻跟上小女孩，她感觉身体孱弱无力，连自己的手枪都变得有几分沉重……
-NPC-Sanaya(0)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:快来啊，艾丽卡！你跑得太慢啦！
-NPC-Sanaya(0)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:我现在是在艾丽卡的素体里吗？保姆人形的素体参数也太弱了……
-NPC-Sanaya(0)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:我就快要到了喔！
-NPC-Sanaya(0)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:……
-()||<边框>2</边框>:拖着虚浮的素体，PPK警惕着四周ELID的动静，同时拼命追向小女孩的方向。
-()<Speaker>PPK</Speaker>||<边框>2</边框>:别跑了！等等我！
-NPC-Sanaya(0)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:哈哈哈哈……我都到了！
-()||<边框>2</边框><SE1>ClothingUp</SE1>:PPK气喘吁吁地来到小女孩面前，紧紧地抱住了她，不知为何地，她拥抱得如此紧密。
-NPC-Sanaya(1)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:那些坏蛋……追上来了吗？
-NPC-Sanaya(1)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:别害怕，我会带你离开这里的。
-NPC-Sanaya(0)<Speaker>珊娜雅</Speaker>||<边框>2</边框>:嗯！
-()||<边框>2</边框>:小女孩仰起头对她灿然一笑——
-()||<SE1>AVG_Explo_Close</SE1><BIN>9</BIN><黑屏1><BGM>BGM_Empty</BGM><火花>:轰——+分不清是热浪还是巨响先到来，PPK裹着怀里的小女孩被身后突然的爆炸狠狠推向黑暗……
-()<Speaker>珊娜雅</Speaker>||<黑屏2><BIN>9</BIN><黑屏1>:艾丽卡……
+()||<黑屏2><BIN>22</BIN>:...In the Factory, at the Neural Upgrade workshop. +Kalina looks away from her screen and sighs in disappointment.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:It's still no good, Commander...
+NPC-Kalin(4)<Speaker>Commander</Speaker><同时置暗>||:I saw it.
+NPC-Kalin(7)<Speaker>Kalina</Speaker>||:But what should we do? We've used all the methods from similar cases before... +But none of them worked...
+NPC-Kalin(7)<Speaker>Commander</Speaker><同时置暗>||:...
+()||:The commander frowns. Even the air rushing through the vents seems to be slowing down.
+()<Speaker>Commander</Speaker>||<黑屏1>:As I thought... We'll have to ask her to help.
+()||<黑屏2><BIN>476</BIN><BGM>GF_EV9_Story</BGM>:PPK leans lazily against the ruins of a wall as her fingers graze lightly over her remaining bullets. +The noise from the battle just now attracted several wandering ELID packs. +After being forced into fighting them, these bullets are all PPK has left.
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>What a lovely battle! Sanaya has once again made the world a better place!</color>
+PPKMod(0)<Speaker>PPK</Speaker>||:... +Are you an elementary schooler? You won't get into middle school if you keep reading all those trashy stories.
+()||:PPK's sarcasm doesn't get a response from Sanaya. +It seems she only appears when battle is imminent.
+()||<SE1>AVG_tele_connect</SE1>:Beep—Her squad comms go off.
+Python(0)<Speaker>Python</Speaker><通讯框>||:<color=#00CCFF>PPK, the Commander said that there's no solution for your problem for the time being. Is that true?</color>
+PPKMod(0)<Speaker>PPK</Speaker>;Python(0)<通讯框>||:Mhm, looks like my problem is something else.
+PPKMod(0);Python(0)<Speaker>Python</Speaker><通讯框>||:<color=#00CCFF>MP-443's finished her sweep. I'll send her over to help you out.</color>
+PPKMod(0)<Speaker>PPK</Speaker>;Python(0)<通讯框>||:...
+PPKMod(0)<Speaker>PPK</Speaker>||:To help me out or take me out?
+MP443_MOD(0)<Speaker>MP-443</Speaker><通讯框>||:<color=#00CCFF>Hey! I'm on this channel too, you know!</color> +<color=#00CCFF>Also, I'm on the way, ETA 15 minutes.</color>
+Python(0)<Speaker>Python</Speaker><通讯框>||:<color=#00CCFF>PPK, go meet up with MP-443, then hurry up and complete the mission so you can go back for servicing!</color>
+PPKMod(0)<Speaker>PPK</Speaker>||:Yes, yes, I know.
+()||<SE1>AVG_tele_disconnect</SE1>:Click—The team call ends. +PPK does another gear check again and waits for MP-443 to arrive so she can rendezvous with her.
+()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:While she waits, she goes over the events and progress of the mission thus far and begins filling in a mission report. +There's the time, the location, the mission type...
+()||<BGM>BGM_Empty</BGM>:PPK writes with practiced familiarity, but when she scrolls over to the blank "Details" page, a terrifying question suddenly arises in her mind.
+PPKMod(0)<Speaker>PPK</Speaker>||:Um, wait a minute, what did Python say the name and model of that nanny Doll was? +And that little girl was called—
+()||<SE1>AVG_21Winter_Error</SE1>:PPK quashes her panic and looks through the mission notification that Python sent. Black characters are branded on the searing whiteness of the backdrop but PPK can't make sense of them.
+PPKMod(0)<Speaker>PPK</Speaker>||<SE1>AVG_21Winter_Error</SE1>:What on earth...
+()||<SE1>AVG_whitenoise</SE1>:Hiss—Crackle— +The sudden noise disrupts her train of thought, and the once-clear information suddenly becomes a black-and-white mosaic pattern, spiraling around in her neural cloud...
+PPKMod(0)<Speaker>PPK</Speaker>||:Now what...
+()<Speaker>Erika</Speaker>||<SE1>Stop_AVG_loop</SE1>:<color=#00CCFF>Somebody... Please... Help us...</color>
+PPKMod(0)<Speaker>PPK</Speaker>||:Erika? Give me your coordinates!
+()<Speaker>Erika</Speaker>||:<color=#00CCFF>She can't hold out much longer...</color>
+PPKMod(0)<Speaker>PPK</Speaker>||:You mean the girl? She—
+()<Speaker>Erika</Speaker>||:<color=#00CCFF>Help us...</color>
+()||:Sticky heat clings to her skin, filling her with an inexplicable sadness and making her throat tighten...
+()||<SE1>AVG_Explo_Distance</SE1><BIN>9</BIN><黑屏1>:Bang—A weighty darkness suddenly crashes down on her and PPK's consciousness once again plummets into the void. +She falls for what seems like forever, toward an indistinct destination.
+()||<黑屏2><BIN>9</BIN>:...In an unknown realm.
+PPKMod(0)<Speaker>PPK</Speaker>||:...Oh come on, this again?
+()||:PPK looks back. The girl veiled in shadows is gone. +The only things left in this vast, dark space are the memory fragments on the ground, glowing softly with a mournful light.
+PPKMod(0)<Speaker>PPK</Speaker>||:Erika?
+()<Speaker>???</Speaker>||<SE1>AVG_Piano_Ambience</SE1>:<color=#7B68EE>Heehee!</color>
+()||<BGM>2022_white_valentine_BGM2</BGM>:A playful laugh ripples out like a stone tossed into a placid lake. +PPK looks around, but she can't see the person who made that sound.
+PPKMod(0)<Speaker>PPK</Speaker>||:That voice... It's the one from my neural cloud... +Sanaya? Come out!
+()||<SE1>ClothingUp</SE1>:PPK subconsciously raises her handgun, but then she realizes her gun has vanished without a trace.
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Come now, young miss, it's time to sleep.</color>
+()||:A hazy barrier suddenly appears before her. It's like a pane of flashed glass, and the indistinct image of a girl appears behind it.
+()||<SE1>AVG_Punch</SE1>:PPK immediately rushes forward, but the glass is untouched by her heavy hit. She walks around it, but finds there is nothing there.
+PPKMod(0)<Speaker>PPK</Speaker>||:Is this... Could it be Erika's memories again?
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Don't wanna! Unless...</color> +<color=#F08080>Unless you finish telling the story from last time!</color>
+()||:The owner of that laughing voice appears in the glass as well. PPK stares at the two figures in the glass, hoping to discern the outline of the voice's owner.
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>But... You're never happy with anything I come up with...</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Start from the beginning!</color>
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>(Sigh) Alright.</color>
+()||:The girl's shadow bows respectfully and heads over to the left of the glass, while the laughing voice's owner sits primly on the right side.
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>A long time ago, there was a beautiful lady assassin, and her name was—</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Sanaya! Her name was Sanaya!</color>
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Yes, yes, yes...</color>
+PPKMod(0)<Speaker>PPK</Speaker>||:Sanaya, Sanaya, that goddamn Sanaya! +Some assassin she turned out to be, turns out she was just a child's bedtime story!
+()||<SE1>AVG_Punch</SE1>:PPK savagely punches the glass, but it does nothing to the two figures within it.
+PPKMod(0)<Speaker>PPK</Speaker>||:Hey! You! Yes, you! You suck at telling stories!
+()||:The shadow that appears to be Erika pauses for a moment, and then slowly begins her narration.
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>She had long, flowing hair and deep eyes that sparkled like the stars at night. She drew the attention of people wherever she went.</color> +<color=#7B68EE>She had no love for wealth or riches and was not concerned about her reputation. She was a ruthless woman who craved exciting adventures...</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Yup, yup, yup! I like cool people like that!</color>
+()||<SE1>Rope</SE1>:PPK closes her eyes in misery as she hears this unbearably familiar story yet again.
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Also, Sanaya was really popular! The kind everyone fell in love with!</color> +<color=#F08080>All those handsome and aloof CEOs liked her and even bad guys thought she was super charming!</color>
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Understood... </color> +<color=#7B68EE>Domineering CEOs would kneel before her to seek her hand in marriage, but she would ignore them with a cold smile on her face?</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Yes, yes, yes, yes, YES!!!</color>
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Villains would swing their blades at her, and—</color> +<color=#7B68EE>She would flee in a cool and stylish way?</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>No!</color> +<color=#F08080>A killer like Sanaya would never flee from the battlefield! </color>
+PPKMod(0)<Speaker>PPK</Speaker>||:...
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Then... She would part their heads from their shoulders with casual nonchalance...</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>That's right! Sanaya is brave and fearless! She kills everyone in her way!</color>
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Even after being captured and beaten, she would simply laugh and say–</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>"Harder! Let me taste more of this pain!"</color>
+()||:As the two of them giggle and pen the saga of Sanaya, PPK is doing her best to break the glass panel.
+()||<SE1>AVG_Punch</SE1>:After a series of nonstop punches, a small crack finally appears on its surface. PPK seizes that opening and delivers the final blow—
+()||<SE1>AVG_Broken_Glass</SE1><BGM>BGM_Empty</BGM><白屏1>:And in that moment, her consciousness plunges into a kaleidoscope, and all manner of bizarre sights assail her...
+()||<白屏2><BIN>249</BIN><SE1>AVG_whitenoise</SE1>:After a bout of dizziness, she finally enters the world in the glass. +The two figures hiding behind the glass are now in front of her, but their facial features are blurred, so there's no way to be sure of who the two of them are.
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>She was fearless and daring, never backing down from any kind of pain she encountered.</color> +<color=#7B68EE>Even when—</color>
+PPKMod(0)<Speaker>PPK</Speaker>||:You...
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Oh, we've got a guest!</color>
+()<Speaker>Erika</Speaker>||:<color=#7B68EE>Ah, is it a visitor?</color> +<color=#7B68EE>Hello, my name is Erika. How may I serve you?</color>
+()<Speaker>Sanaya</Speaker>||:<color=#F08080>Hurry and get my snacks! For today, bring out—</color>
+()||<SE1>AVG_Piano_Ambience</SE1>:The wavering figure suddenly freezes, and the vast space suddenly fragments and comes apart, as though it has aged many years in an instant. +PPK trembles as she steps over the cracked ground and reaches out to the vanishing figure. +Sticky heat clings to her skin, filling her with an inexplicable sadness and making her throat tighten...
+()||<SE1>AVG_Explo_Distance</SE1><BIN>9</BIN><黑屏1>:Boom—PPK falls into the darkness once again, carried toward the center of the earth.
+()<Speaker>???</Speaker>||<BIN>9</BIN><SE1>Stop_AVG_loop</SE1>:Erika...
+()||<SE1>GF_Halloween_Wind_loop</SE1>:Before she falls into the darkness, PPK hears someone calling out from beside her.
+()<Speaker>???</Speaker>||:Erika! Wake up!
+PPKMod(0)<Speaker>PPK</Speaker>||:Erika...
+()<Speaker>???</Speaker>||<黑屏1><SE1>Stop_AVG_loop</SE1>:Erika!!!
+()||<睁眼><BIN>480</BIN><边框>2</边框><BGM>m_avg_labyrinth</BGM>:PPK opens her eyes, and she finds that there are some extra things around her which shouldn't be there—
+NPC-Sanaya(0)<Speaker>???</Speaker>||<边框>2</边框>:At last, you're awake!
+()||<边框>2</边框>:A human girl has suddenly appeared beside her, delicate hands frantically shaking her body. +She must be the mission objective, PPK thinks. Even though her neural cloud is a mess, there's no way any other human girl would show up in such a dangerous place.
+()<Speaker>PPK</Speaker>||<边框>2</边框>:That voice is... Sanaya? Are you—
+NPC-Sanaya(1)<Speaker>Sanaya</Speaker>||<边框>2</边框>:Erika, you won't fall asleep again, will you?
+NPC-Sanaya(1)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:Erika... Why are you calling me Erika? Am I still in Erika's memories?
+NPC-Sanaya(1)<Speaker>Sanaya</Speaker>||<边框>2</边框>:I'm fine! I feel perfect!
+NPC-Sanaya(1)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:Tsk, judging by the raw, gripping dialogue, I really am still inside Erika's memories. +Still, judging by the surroundings, I should be very close to them...
+NPC-Sanaya(0)<Speaker>Sanaya</Speaker>||<边框>2</边框>:Hehe... Now that you've woken up, come play with me!
+NPC-Sanaya(0)<Speaker>Sanaya</Speaker>||<边框>2</边框>:First one to that rock's the winner!
+()||<边框>2</边框><SE1>RunStep</SE1>:The girl laughs and points to a huge rock in the distance, and she begins running over before she even finishes.
+()<Speaker>PPK</Speaker>||<边框>2</边框>:Hey, wait!
+()||<边框>2</边框>:PPK immediately chases after the girl, but her body feels weak and powerless. Even her pistol is starting to feel a little heavy.
+NPC-Sanaya(0)<Speaker>Sanaya</Speaker>||<边框>2</边框>:Come on, Erika! You're too slow!
+NPC-Sanaya(0)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:Am I in Erika's body now? A nanny Doll's specs are way too low...
+NPC-Sanaya(0)<Speaker>Sanaya</Speaker>||<边框>2</边框>:I'm almost there!
+NPC-Sanaya(0)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:...
+()||<边框>2</边框>:As she drags her frail body along, PPK keeps an eye out for ELID movements around her while trying her best to head in the girl's direction.
+()<Speaker>PPK</Speaker>||<边框>2</边框>:Don't run off! Wait for me!
+NPC-Sanaya(0)<Speaker>Sanaya</Speaker>||<边框>2</边框>:Hahahaha... I'm there!
+()||<边框>2</边框><SE1>ClothingUp</SE1>:PPK pants heavily as she arrives in front of the girl and pulls her into an embrace. She doesn't know why she's hugging her so tightly.
+NPC-Sanaya(1)<Speaker>Sanaya</Speaker>||<边框>2</边框>:Those bad guys... Did they catch up?
+NPC-Sanaya(1)<Speaker>PPK</Speaker><同时置暗>||<边框>2</边框>:Don't be scared, I'll get you out of here.
+NPC-Sanaya(0)<Speaker>Sanaya</Speaker>||<边框>2</边框>:Okay!
+()||<边框>2</边框>:The girl looks up and smiles brightly at her—
+()||<SE1>AVG_Explo_Close</SE1><BIN>9</BIN><黑屏1><BGM>BGM_Empty</BGM><火花>:Boom— +PPK doesn't know whether the heat or the shockwave hits her first, but she is suddenly plunged into darkness from behind, still with the girl in her arms.
+()<Speaker>Sanaya</Speaker>||<黑屏2><BIN>9</BIN><黑屏1>:Erika...

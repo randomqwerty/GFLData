@@ -1,11 +1,12 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.QuestsController)
 xlua.private_accessible(CS.DWQuestLableCtrl)
+xlua.private_accessible(CS.DailyWeekQuestCtrl)
 xlua.private_accessible(CS.DailyWeeklyQuestData)
-xlua.private_accessible(CS.DailyQuestOverallInfo)
-xlua.private_accessible(CS.WeeklyQuestOverallInfo)
-xlua.private_accessible(CS.DailyQuestInfo)
-xlua.private_accessible(CS.WeekQuestInfo)
+--xlua.private_accessible(CS.DailyQuestOverallInfo)
+--xlua.private_accessible(CS.WeeklyQuestOverallInfo)
+--xlua.private_accessible(CS.DailyQuestInfo)
+--xlua.private_accessible(CS.WeekQuestInfo)
 
 
 local _RefreshRedPoint = function(self)
@@ -19,7 +20,7 @@ local _RefreshRedPoint = function(self)
 			end
 		end
 		if hasMail==false then
-			--print("has no mail");
+			print("has no mail");
  			local hasQuest=false;
  			local daily_count = CS.DailyWeeklyQuestData.Instance.dailyQuestAllInfo.DailyArr.Length
 
@@ -36,7 +37,7 @@ local _RefreshRedPoint = function(self)
 			end
 			if hasQuest==false then
 
-				--print("has no daily");
+				print("has no daily");
 				local week_count = CS.DailyWeeklyQuestData.Instance.weeklyQuestAllInfo.WeekArr.Length;
 				
  				for i=0,week_count-1 do
@@ -46,7 +47,7 @@ local _RefreshRedPoint = function(self)
 						
 						if CS.DailyWeeklyQuestData.Instance.weeklyQuestAllInfo:CheckQuestAccomplish(w_id)==false then
 							if CS.DailyWeeklyQuestData.Instance.weeklyQuestAllInfo:IsLockQuest(w_id) and CS.DailyWeekQuestCtrl.Instance.hasOpenPassOrder==false then
-								--print("lock");
+								print("lock");
 							else	
 								hasQuest=true;
 							end
@@ -54,10 +55,10 @@ local _RefreshRedPoint = function(self)
 					end
 				end
 				if hasQuest==false then
-					--print("has no week");
+					print("has no week");
 					self.goDailyNew:SetActive(false);
 				else
-					--print("has week");
+					print("has week");
 				end
 			end
 		end	 
@@ -78,18 +79,18 @@ end
 local InitUIElements = function(self)
 	self:InitUIElements();
 	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
-		local trans1 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_1/Condition/Tex_Receive/Text");
+		local trans1 = self.transform:Find("WeeklyProgress/ProgressBar/Rewards_1/Condition/Tex_Receive/Text");
 		trans1:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
-		local trans2 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_2/Condition/Tex_Receive/Text");
+		local trans2 = self.transform:Find("WeeklyProgress/ProgressBar/Rewards_2/Condition/Tex_Receive/Text");
 		trans2:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
-		local trans3 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_3/Condition/Tex_Receive/Text");
+		local trans3 = self.transform:Find("WeeklyProgress/ProgressBar/Rewards_3/Condition/Tex_Receive/Text");
 		trans3:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
-		local trans4 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_4/Condition/Tex_Receive/Text");
+		local trans4 = self.transform:Find("WeeklyProgress/ProgressBar/Rewards_4/Condition/Tex_Receive/Text");
 		trans4:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
-		local trans5 = self.transform:Find("Main/QuestNew/WeeklyProgress/ProgressBar/Rewards_5/Condition/Tex_Receive/Text");
+		local trans5 = self.transform:Find("WeeklyProgress/ProgressBar/Rewards_5/Condition/Tex_Receive/Text");
 		trans5:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;	
 	end
 end
 util.hotfix_ex(CS.QuestsController,'RefreshRedPoint',_RefreshRedPoint) 
 util.hotfix_ex(CS.DWQuestLableCtrl,'GetItemID',_GetItemID) 
-util.hotfix_ex(CS.DWQuestLableCtrl,'InitUIElements',InitUIElements) 
+util.hotfix_ex(CS.DailyWeekQuestCtrl,'InitUIElements',InitUIElements) 

@@ -4,7 +4,7 @@ xlua.private_accessible(CS.SpecialMissionInfoController)
 local ShowNewReward = function(self)
 	self:ShowNewReward();
 	if CS.OPSPanelController.difficulty == 1 then
-		if self.opsMission~=nil then
+		if self.opsMission~=nil and self.opsMission.missionIds.Count>0 then
 			if self.missionInfo.id == self.opsMission.missionIds[0] then
 				self.showtxtNew:Find("AutoLayoutNode/Ex").gameObject:SetActive(false);
 			end
