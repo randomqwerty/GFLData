@@ -1,4 +1,6 @@
 local util = require 'xlua.util'
+xlua.private_accessible(CS.SpecialMissionInfoController)
+
 local CheckEndlessPoint = function(self)
 	if self.currentPanelConfig.highScoreInfo ~= nil then
 		if self.currentPanelConfig.highScoreInfo.opsmission ~= nil then
@@ -34,6 +36,8 @@ local OPSPanelMissionBase = nil;
 local mat = nil;
 opsControl = nil;
 voteMap = nil;
+goodItemId = 9039;
+badItemId = 9040;
 function Init()
 	CS.OPSPanelBackGround.Instance.gameObject:SetActive(false);
 	if OPSPanelMissionBase == nil or OPSPanelMissionBase:isNull() then
@@ -89,18 +93,30 @@ function  ShowBackground()--活动背景
 		local startMission=voteMap.transform:Find("MissionSpecial/MissionList/MissionPrologue");
 		local startMissionBtn = startMission:GetComponent(typeof(CS.ExButton));
 		startMissionBtn:AddOnClick(function()
-				OPSPanelMissionBase.entranceId = 0;
-				OPSPanelMissionBase.missionIds[0] = 11098;
-				OPSPanelMissionBase.missionIds[1] = 11098;
+				if OPSPanelMissionBase.entranceId ~= nil then
+					OPSPanelMissionBase.entranceId = 0;
+					OPSPanelMissionBase.missionIds[0] = 11098;
+					OPSPanelMissionBase.missionIds[1] = 11098;
+				else
+					OPSPanelMissionBase.opsMission = CS.OPSMission();
+					OPSPanelMissionBase.opsMission.missionIds:Add(11098);
+					OPSPanelMissionBase.opsMission.missionIds:Add(11098);
+				end
 				ShowMissionPanel();
 				ShowSpecialUI(false);
 			end)
 		local endMission=voteMap.transform:Find("MissionSpecial/MissionList/MissionEpilogue");
 		local endMissionBtn = endMission:GetComponent(typeof(CS.ExButton));
 		endMissionBtn:AddOnClick(function()
-				OPSPanelMissionBase.entranceId = 0;
-				OPSPanelMissionBase.missionIds[0] = 11112;
-				OPSPanelMissionBase.missionIds[1] = 11112;
+				if OPSPanelMissionBase.entranceId ~= nil then
+					OPSPanelMissionBase.entranceId = 0;
+					OPSPanelMissionBase.missionIds[0] = 11112;
+					OPSPanelMissionBase.missionIds[1] = 11112;
+				else
+					OPSPanelMissionBase.opsMission = CS.OPSMission();
+					OPSPanelMissionBase.opsMission.missionIds:Add(11112);
+					OPSPanelMissionBase.opsMission.missionIds:Add(11112);			
+				end
 				ShowMissionPanel();
 				ShowSpecialUI(false);
 			end)
@@ -146,29 +162,54 @@ function ClickMission(name)
 		ShowSpecialUI(true);
 		return;
 	end
-	OPSPanelMissionBase.entranceId = 0;
-	if name == "Mission1" then
-		OPSPanelMissionBase.missionIds[0] = 11115;
-		OPSPanelMissionBase.missionIds[1] = 11115;
-	elseif name == "Mission2" then
-		OPSPanelMissionBase.missionIds[0] = 0;
-		OPSPanelMissionBase.missionIds[1] = 0;
-		OPSPanelMissionBase.entranceId = 1110700;
-	elseif name == "Mission3" then
-		OPSPanelMissionBase.missionIds[0] = 11103;
-		OPSPanelMissionBase.missionIds[1] = 11104;
-	elseif name == "Mission4" then
-		OPSPanelMissionBase.missionIds[0] = 11105;
-		OPSPanelMissionBase.missionIds[1] = 11106;
-	elseif name == "Mission5" then
-		OPSPanelMissionBase.missionIds[0] = 11101;
-		OPSPanelMissionBase.missionIds[1] = 11102;
-	elseif name == "Mission6" then
-		OPSPanelMissionBase.missionIds[0] = 11099;
-		OPSPanelMissionBase.missionIds[1] = 11100;
-	elseif name == "MissionInfinite" then
-		OPSPanelMissionBase.missionIds[0] = 11113;
-		OPSPanelMissionBase.missionIds[1] = 11114;
+	if OPSPanelMissionBase.entranceId ~= nil then
+		OPSPanelMissionBase.entranceId = 0;
+		if name == "Mission1" then
+			OPSPanelMissionBase.missionIds[0] = 11115;
+			OPSPanelMissionBase.missionIds[1] = 11115;
+		elseif name == "Mission2" then
+			OPSPanelMissionBase.missionIds[0] = 0;
+			OPSPanelMissionBase.missionIds[1] = 0;
+			OPSPanelMissionBase.entranceId = 1110700;
+		elseif name == "Mission3" then
+			OPSPanelMissionBase.missionIds[0] = 11103;
+			OPSPanelMissionBase.missionIds[1] = 11104;
+		elseif name == "Mission4" then
+			OPSPanelMissionBase.missionIds[0] = 11105;
+			OPSPanelMissionBase.missionIds[1] = 11106;
+		elseif name == "Mission5" then
+			OPSPanelMissionBase.missionIds[0] = 11101;
+			OPSPanelMissionBase.missionIds[1] = 11102;
+		elseif name == "Mission6" then
+			OPSPanelMissionBase.missionIds[0] = 11099;
+			OPSPanelMissionBase.missionIds[1] = 11100;
+		elseif name == "MissionInfinite" then
+			OPSPanelMissionBase.missionIds[0] = 11113;
+			OPSPanelMissionBase.missionIds[1] = 11114;
+		end
+	else
+		OPSPanelMissionBase.opsMission = CS.OPSMission();
+		if name == "Mission1" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11115);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11115);
+		elseif name == "Mission2" then
+			OPSPanelMissionBase.opsMission.entranceId = 1110700;
+		elseif name == "Mission3" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11103);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11104);
+		elseif name == "Mission4" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11105);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11106);
+		elseif name == "Mission5" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11101);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11102);
+		elseif name == "Mission6" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11099);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11100);
+		elseif name == "MissionInfinite" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11113);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11114);
+		end
 	end
 	ShowSpecialUI(false);
 	ShowMissionPanel();
@@ -390,6 +431,7 @@ function ShowMissionPanel()--显示关卡界面
 	background.gameObject:SetActive(true);
 	opsControl.MissionInfoController.gameObject:SetActive(true);
 	opsControl.MissionInfoController:InitData(OPSPanelMissionBase);
+	opsControl.MissionInfoController.btnSelectDiffcluty.gameObject:SetActive(false);
 	--opsControl.MissionInfoController.
 end
 function RequestVoteData()--获取投票数据
@@ -574,9 +616,9 @@ function RefreshVotoDetailUI(order,showdialog)
 	local txtVoteBadNum = VoteDeail.transform:Find("Btn_Baddy/Text_VoteNum"):GetComponent(typeof(CS.ExText));
 	txtVoteBadNum.text = voteList[order][2];
 	local txtGoodNum = VoteDeail.transform:Find("Top/GoodyItem/Text_GoodyItemNum"):GetComponent(typeof(CS.ExText));
-	txtGoodNum.text = CS.GameData.GetItem(9013);
+	txtGoodNum.text = CS.GameData.GetItem(goodItemId);
 	local txtBadNum = VoteDeail.transform:Find("Top/BaddyItem/Text_BaddyItemNum"):GetComponent(typeof(CS.ExText));
-	txtBadNum.text =CS.GameData.GetItem(9014);
+	txtBadNum.text =CS.GameData.GetItem(badItemId);
 	local dialague = VoteDeail.transform:Find("Dialogue");
 	dialague.gameObject:SetActive(showdialog);
 	if voteList[order][3] >0 then
@@ -595,8 +637,8 @@ function RefreshVotoDetailUI(order,showdialog)
 	end
 end
 function OnClickVoteGood()
-	if CS.GameData.GetItem(9013) == 0 then
-		local name = CS.GameData.listItemInfo:GetDataById(9013).name;
+	if CS.GameData.GetItem(goodItemId) == 0 then
+		local name = CS.GameData.listItemInfo:GetDataById(goodItemId).name;
 		local text = CS.System.String.Format(CS.Data.GetLang(60072),name)
 		CS.CommonController.LightMessageTips(text);
 		return;
@@ -604,8 +646,8 @@ function OnClickVoteGood()
 	ShowVotoBox(true);
 end
 function OnClickVoteBad()
-	if CS.GameData.GetItem(9014) == 0 then
-		local name = CS.GameData.listItemInfo:GetDataById(9014).name;
+	if CS.GameData.GetItem(badItemId) == 0 then
+		local name = CS.GameData.listItemInfo:GetDataById(badItemId).name;
 		local text = CS.System.String.Format(CS.Data.GetLang(60072),name)
 		CS.CommonController.LightMessageTips(text);
 		return;
@@ -632,9 +674,9 @@ function ShowVotoBox(good)
 		btnAdd:AddOnClick(function()
 				votoNum =votoNum +1;
 				if currentgood then
-					votoNum = CS.Mathf.Min(votoNum,CS.GameData.GetItem(9013));
+					votoNum = CS.Mathf.Min(votoNum,CS.GameData.GetItem(goodItemId));
 				else
-					votoNum = CS.Mathf.Min(votoNum,CS.GameData.GetItem(9014));
+					votoNum = CS.Mathf.Min(votoNum,CS.GameData.GetItem(badItemId));
 				end
 				RefreshVotoBoxUI();
 			end);
@@ -643,9 +685,9 @@ function ShowVotoBox(good)
 				votoNum =votoNum -1;
 				if votoNum == 0 then
 					if currentgood then
-						votoNum = CS.GameData.GetItem(9013);
+						votoNum = CS.GameData.GetItem(goodItemId);
 					else
-						votoNum = CS.GameData.GetItem(9014);
+						votoNum = CS.GameData.GetItem(badItemId);
 					end
 				end
 				RefreshVotoBoxUI();
@@ -658,9 +700,9 @@ function RefreshVotoBoxUI()
 	local txtTitle = votobox.transform:Find("Main/Text_Introduction"):GetComponent(typeof(CS.ExText));
 	local gunifId = voteList[currentOrder][6];
 	local txt0 = CS.GameData.listGunInfo:GetDataById(gunifId).name;
-	local itemid = 9013;
+	local itemid = goodItemId;
 	if not currentgood then
-		itemid = 9014;
+		itemid = badItemId;
 	end
 	--print(votoNum);
 	local txt1 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(votoNum);
@@ -696,16 +738,16 @@ function ResuestResult(www,num)--投票结果
 	--print(jsonData:ToJson());
 	votobox:SetActive(false);
 	if currentgood then
-		local resnum = CS.GameData.GetItem(9013)-num;
-		CS.GameData.SetItem(9013, resnum);
+		local resnum = CS.GameData.GetItem(goodItemId)-num;
+		CS.GameData.SetItem(goodItemId, resnum);
 	else
-		local resnum = CS.GameData.GetItem(9014)-num;
-		CS.GameData.SetItem(9014, resnum);
+		local resnum = CS.GameData.GetItem(badItemId)-num;
+		CS.GameData.SetItem(badItemId, resnum);
 	end
 	local txtVoteGoodNum = VoteDeail.transform:Find("Top/GoodyItem/Text_GoodyItemNum"):GetComponent(typeof(CS.ExText));
-	txtVoteGoodNum.text = CS.GameData.GetItem(9013);
+	txtVoteGoodNum.text = CS.GameData.GetItem(goodItemId);
 	local txtVoteBadNum = VoteDeail.transform:Find("Top/BaddyItem/Text_BaddyItemNum"):GetComponent(typeof(CS.ExText));
-	txtVoteBadNum.text = CS.GameData.GetItem(9014);
+	txtVoteBadNum.text = CS.GameData.GetItem(badItemId);
 	local dialague = VoteDeail.transform:Find("Dialogue");
 	local txtdialague = VoteDeail.transform:Find("Dialogue/Text_Dialogue"):GetComponent(typeof(CS.ExText));
 	if currentgood then
@@ -719,9 +761,9 @@ function ResuestResult(www,num)--投票结果
 	end
 	RefreshVotoDetailUI(currentOrder,true);
 	local txtGoodNum = votePanel.transform:Find("Top/GoodyItem/Text_GoodyItemNum"):GetComponent(typeof(CS.ExText));
-	txtGoodNum.text = CS.GameData.GetItem(9013);
+	txtGoodNum.text = CS.GameData.GetItem(goodItemId);
 	local txtBadNum = votePanel.transform:Find("Top/BaddyItem/Text_BaddyItemNum"):GetComponent(typeof(CS.ExText));
-	txtBadNum.text =CS.GameData.GetItem(9014);
+	txtBadNum.text =CS.GameData.GetItem(badItemId);
 end
 function CloseVoto()--关闭立绘列表界面
 	votePanel:SetActive(false);
@@ -858,9 +900,9 @@ function ShowVoto()--显示立绘列表界面
 		end
 	end
 	local txtGoodNum = votePanel.transform:Find("Top/GoodyItem/Text_GoodyItemNum"):GetComponent(typeof(CS.ExText));
-	txtGoodNum.text = CS.GameData.GetItem(9013);
+	txtGoodNum.text = CS.GameData.GetItem(goodItemId);
 	local txtBadNum = votePanel.transform:Find("Top/BaddyItem/Text_BaddyItemNum"):GetComponent(typeof(CS.ExText));
-	txtBadNum.text =CS.GameData.GetItem(9014);
+	txtBadNum.text =CS.GameData.GetItem(badItemId);
 end
 
 local clearCount = 0;
@@ -901,7 +943,7 @@ end
 opsShowTime = 0;
 opsEnterTime = 0;
 opsDispearTime = 0;
-function CheckOPSTime(self)
+function CheckOPSTime()
 	local temp = CS.Data.GetString("2022_bikini_time");
 	if CS.System.String.IsNullOrEmpty(temp) then
 		return;
@@ -913,19 +955,6 @@ function CheckOPSTime(self)
 	print("opsShowTime"..opsShowTime);
 	print("opsEnterTime"..opsEnterTime);
 	print("opsDispearTime"..opsDispearTime);
-	local stamp = CS.GameData.GetCurrentTimeStamp();
-	if stamp>opsShowTime and stamp<opsDispearTime then
-		local parent = self.btnTheater.transform.parent;
-		local obj = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/2022BikiniResultEntrance"), parent, false);
-		local unclock = obj.transform:Find("Img_Unlocked");
-		unclock.gameObject:SetActive(stamp>opsEnterTime);
-		local clock = obj.transform:Find("Img_Locked");
-		clock.gameObject:SetActive(stamp<opsEnterTime);
-		local btn = obj:GetComponent(typeof(CS.ExButton));
-		btn:AddOnClick(function()
-				EnterOPS();
-			end)
-	end
 end
 
 function EnterOPS()
@@ -967,10 +996,7 @@ local SelectDiffcluty = function(self)
 		ShowMissionPanel();
 	end
 end
-local InitUIElements= function(self)
-	self:InitUIElements();
-	CheckOPSTime(self);
-end
+
 local CancelMission = function(self)
 	self:CancelMission();
 	if voteMap ~= nil then
@@ -978,8 +1004,11 @@ local CancelMission = function(self)
 		background.gameObject:SetActive(false);
 	end
 end
+local RefreshOther = function(self)
+	
+end
 Awake = function()
-
+	CheckOPSTime();
 end
 Start = function()
 	opsControl = CS.OPSPanelController.Instance;
@@ -991,6 +1020,7 @@ Start = function()
 		util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 		util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
 		util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
+		util.hotfix_ex(CS.SpecialMissionInfoController,'RefreshOther',RefreshOther)
 	end
 end
 
@@ -999,4 +1029,5 @@ OnDestroy =function()
 	xlua.hotfix(CS.OPSPanelController,'SelectDiffcluty',nil)
 	xlua.hotfix(CS.OPSPanelController,'CancelMission',nil)
 	xlua.hotfix(CS.OPSPanelController,'ShowProcess',nil)
+	xlua.hotfix(CS.SpecialMissionInfoController,'RefreshOther',nil)
 end

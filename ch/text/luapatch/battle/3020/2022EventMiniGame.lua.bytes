@@ -12,6 +12,17 @@ xlua.private_accessible(CS.GF.Battle.BattleManager)
 xlua.private_accessible(CS.GF.Battle.BattleStatistics)
 xlua.private_accessible(CS.GF.Battle.BattleFrameTimer)
 xlua.private_accessible(CS.BattleUIPauseController)
+xlua.private_accessible(CS.GF.Battle.BattleConditionList)
+xlua.private_accessible(CS.GF.Battle.CharacterCondition)
+xlua.private_accessible(CS.GF.Battle.EffectManager)
+xlua.private_accessible(CS.GF.Battle.BattleFairyData)
+xlua.private_accessible(CS.GF.Battle.BattleFriendlyCharacterManager)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
+xlua.private_accessible(CS.GF.Battle.BattleMemberManager)
+xlua.private_accessible(CS.GF.Battle.gsEffect)
+xlua.private_accessible(CS.GF.Battle.BattleSkillData)
+xlua.private_accessible(CS.BattleSkillCfg)
+xlua.private_accessible(CS.ExButton)
 
 SkillActive = function(active,showCD)
 	
@@ -39,7 +50,7 @@ local isPlayingMoveAction = false
 local moveTimer = 0 
 local moveActionTimer = 0
 local attackActionTimer = 0
-local buttonUp,buttonDown,buttonLeft,buttonRight
+local buttonUp,buttonDown,buttonLeft,buttonRight,buttonSkill
 local ImgUp,ImgDown,ImgLeft,ImgRight
 local imgCombo,imgComboNum1,imgComboNum2,imgComboNum3
 local imgComboCoef,imgComboCoefNum1,imgComboCoefNum2,imgComboCoefDot
@@ -74,42 +85,35 @@ local comboEffectObj3
 local useHold = true
 local creatorCharacter
 
+local character = nil
+local characterData
+
+local BattleController
 --Awake：初始化数据
 Awake = function()
 	
-	local RefreshFriendlyTargetList = function(self)
-		self.listFriendlyTarget:Clear()
-		for i=0,self.enemyTeamHolder.listCharacter.Count -1 do
-			local target = self.enemyTeamHolder.listCharacter[i]
-			if not target.isPhased then
-				self.listFriendlyTarget:Add(target)
-			end
-		end
-		if self.listFriendlyTarget.Count == 0 then
-			self:CheckFormation()
-		end
-	end
-	local Die = function(self)
-		if self:IsSummon() then
-			local t,c = self.conditionListSelf:GetTierByID(summonAutoDieBuffID)
+	CS.GF.Battle.BattleDynamicData.infiScoutDistance = true
+	local DiePerformance = function(self)
+		if self.data.isSummon then
+			local t,c = self.data.conditionListSelf:GetTierByID(summonAutoDieBuffID)
 			if t == 0 then
-				OnSummonDie(self.gun.summonInfo.id,self.gameObject.transform.position)
+				OnSummonDie(self.data.gun.summonInfo.id,self.gameObject.transform.position)
 			else
-				OnOutBound(self.gun.summonInfo.id)
+				OnOutBound(self.data.gun.summonInfo.id)
 			end
 		end
 		
 		
-		self:Die()
+		self:DiePerformance()
 	end
-	local PlaySkill = function(self,skill)
+	local PlaySkill = function(self,skill,forcetarget)
 		if skill.info:IsDeathRattle() then
-			local t,c = self.character.conditionListSelf:GetTierByID(summonAutoDieBuffID)
+			local t,c = self.parent.conditionListSelf:GetTierByID(summonAutoDieBuffID)
 			if t ~= 0 and skill.info.skillGroupId == 119469 then
 				return
 			end
 		end
-		self:PlaySkill(skill)
+		self:PlaySkill(skill,forcetarget)
 	end
 	local _HandleMovementtEvent = function(self,pEvent)
 		self:_HandleMovementtEvent(pEvent)
@@ -122,10 +126,10 @@ Awake = function()
 			end
 		end
 	end
-	util.hotfix_ex(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',RefreshFriendlyTargetList)
+	--util.hotfix_ex(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',RefreshFriendlyTargetList)
 	util.hotfix_ex(CS.GF.Battle.CSkillInstance,'_HandleMovementtEvent',_HandleMovementtEvent)
-	util.hotfix_ex(CS.GF.Battle.BattleCharacterController,'Die',Die)
-	util.hotfix_ex(CS.BattleMemberController,'PlaySkill',PlaySkill)
+	util.hotfix_ex(CS.GF.Battle.BattleCharacterControllerNew,'DiePerformance',DiePerformance)
+	util.hotfix_ex(CS.GF.Battle.BattleMemberManager,'PlaySkill',PlaySkill)
 	--初始化随机数
 	math.randomseed(tostring(os.time()):reverse():sub(1, 7))
 	
@@ -146,20 +150,22 @@ Start = function()
 	CS.GF.Battle.SkillUtils.AutoSkill = false	
 	CS.GF.Battle.BattleController.Instance.resetAutoSkill = true
 	CS.GF.Battle.BattleController.Instance.resetCameraLock = true
-	
+
 	--注册相机
 	self.transform:SetParent(CS.BattleUIController.Instance.transform:Find('UI'),false)
 	--self:GetComponent('Canvas').worldCamera = CS.UnityEngine.Camera.main
 	--注册人物
 	if character == nil then
-		character = CS.BattleLuaUtility.GetCharacterByCode(charactercode)
+		character = CS.BattleLuaUtility.GetCharacterControllerNewByCode(charactercode)
+		characterData = CS.BattleLuaUtility.GetDataByCode(charactercode)
 	end
+	character.reverseSync = true
 	--注册人物技能
 	--mCurSkill[0] = character.gun:GetSkillByGroupId(406901)
 	-- 人物扶正
 	charPos = character.transform
 	--charPos.localPosition = CS.UnityEngine.Vector3(charPos.localPosition.x, characterY, charPos.localPosition.z)
-	member = character.listMember[0]
+	member = character.listMembers[0]
 	skillbase = CS.GameData.listBTSkillCfg:GetDataById(11940201)
 	member.transform.localPosition = CS.UnityEngine.Vector3(playerOffset[1],playerOffset[2],playerOffset[3])
 	--character.listMember[0].mesh.sortingOrder = 1
@@ -172,13 +178,13 @@ Start = function()
 	--InitSkill1(SkillLabel2,mCurSkill[1],1)
 	--InitSkill1(SkillLabel3,mCurSkill[2],2)
 	--InitSkill1(SkillLabel4,mCurSkill[3],4)
-	mCurSkill[1] = character.gun:GetSkillByGroupId(119402)
-	mCurSkill[2] = character.gun:GetSkillByGroupId(119403)
-	mCurSkill[3] = character.gun:GetSkillByGroupId(119404)
-	mCurSkill[4] = character.gun:GetSkillByGroupId(119415)
-	mCurSkill[5] = character.gun:GetSkillByGroupId(119416)
-	mCurSkill[6] = character.gun:GetSkillByGroupId(119417)
-	mCurSkill[7] = character.gun:GetSkillByGroupId(119417)
+	mCurSkill[1] = characterData:GetSkillByID(119402,true)
+	mCurSkill[2] = characterData:GetSkillByID(119403,true)
+	mCurSkill[3] = characterData:GetSkillByID(119404,true)
+	mCurSkill[4] = characterData:GetSkillByID(119415,true)
+	mCurSkill[5] = characterData:GetSkillByID(119416,true)
+	mCurSkill[6] = characterData:GetSkillByID(119417,true)
+	mCurSkill[7] = characterData:GetSkillByID(119417,true)
 	BattleController = CS.GF.Battle.BattleController.Instance
 	buttonUp = BtnUp:GetComponent(typeof(CS.ExButton))
 	buttonDown = BtnDown:GetComponent(typeof(CS.ExButton))
@@ -190,10 +196,9 @@ Start = function()
 	ImgLeft = BtnLeft:GetComponent(typeof(CS.ExImage))
 	ImgRight = BtnRight:GetComponent(typeof(CS.ExImage))
 	BattleController.transform:Find("Canvas/UI/SafeUIRect/DPSSwitch").gameObject:SetActive(false)
-	BattleController.transform:Find("Canvas/SafeRect/DPS").gameObject:SetActive(false)
-	--local cameratrans = BattleController.transform:Find("BattleField/CameraPositionDynamic/CameraPositionStatic")
-	--cameratrans.position = CS.UnityEngine.Vector3(-2.35,cameratrans.position.y,cameratrans.position.z)
-	buttonSkill = BtSKill:GetComponent(typeof(CS.ExButton))
+	BattleController.transform:Find("Canvas/DynamicCanvas/DPS").gameObject:SetActive(false)
+	--BattleController.transform:Find("Canvas/UI/Top/Top_Time").gameObject:SetActive(false)
+
 	ImgUp.alphaHitTestMinimumThreshold = alphaTestThreshold
 	ImgDown.alphaHitTestMinimumThreshold = alphaTestThreshold
 	ImgLeft.alphaHitTestMinimumThreshold = alphaTestThreshold
@@ -221,10 +226,8 @@ Start = function()
 	UpdateCombo(0)
 	UpdateFever(0)
 	UpdateScore(playerScore)
-	CS.BattleFrameManager.Register(
-		function() 
-			MainLoop()
-		end)
+	CS.GF.Battle.BattleFrameManager.Register(MainLoop)
+
 	--GameFinish()
 end
 
@@ -268,6 +271,7 @@ function InitButtons()
 end
 function TryMove(dir)
 	--当前在wait状态才能够移动
+	--print(characterStatus.." "..dir.." "..characterGridPosX.." "..characterGridPosY)
 	if characterStatus == 0 then
 		--检查移动的方向是否合法
 		if dir == 1 and characterGridPosY >= maxGrid  then
@@ -298,10 +302,7 @@ function TryMove(dir)
 		end
 		characterStatus = 1
 		isPlayingMoveAction = true
-		if not isFever then
-			character:SetMemberAnimationSolo("move2", false)
-			PlaySFX("Move")
-		end
+		
 		if dir == 1 then
 			characterGridPosY = characterGridPosY + 1
 		end
@@ -310,13 +311,21 @@ function TryMove(dir)
 		end
 		if dir == 3 then
 			characterGridPosX = characterGridPosX - 1
-			character:SetFaceToward(false)
+			--character:SetFaceToward(false)
 			characterFacetoward = false
+			characterData.selfDir = false
 		end
 		if dir == 4 then
 			characterGridPosX = characterGridPosX + 1
-			character:SetFaceToward(true)
+			--character:SetFaceToward(true)
 			characterFacetoward = true
+			characterData.selfDir = true
+		end
+		if not isFever then
+			local facing = 1
+			if not characterFacetoward then facing = -1 end
+				character:SetMemberAnimation("move2", facing,false)
+				PlaySFX("Move")
 		end
 	end
 end
@@ -330,15 +339,18 @@ function PlayAttack()
 	if characterStatus == 0 and not isFever and CanSkillActive(skill) then
 		isDieEvent = false
 		isCheckEvent = false
-		SkillUtils.AddManaulSkill(character.gun,skill)
-		CS.BattleRecorderController.Instance:AddManualSkill(character.gun)
+		SkillUtils.AddManaulSkill(characterData.gun,skill)
+		CS.BattleRecorderController.Instance:AddManualSkill(characterData.gun)
 		characterStatus  = 2
 		attack_duration = skill.info._duration
 		FinishPlayMoveAction()
 		
 	end
 end
-function MainLoop()
+MainLoop = function()
+	if isGameFinish then
+		return
+	end
 	if characterStatus == 1 then
 		moveTimer = moveTimer + 1
 		charPos.localPosition = charPos.localPosition + moveVector
@@ -354,7 +366,9 @@ function MainLoop()
 			characterStatus = 0
 			attackActionTimer = 0
 			if not isFever then
-				character:SetMemberAnimationSolo("wait")
+				local dir = 1
+				if not characterFacetoward then dir = -1 end
+				character:SetMemberAnimation("wait",dir )
 			end
 			if not isCheckEvent and not isDieEvent then
 				BreakCombo()
@@ -373,7 +387,9 @@ function MainLoop()
 		if moveActionTimer >= move_action_duration then
 			FinishPlayMoveAction()
 			if not isFever then
-				character:SetMemberAnimationSolo("wait")
+				local dir = 1
+				if not characterFacetoward then dir = -1 end
+				character:SetMemberAnimation("wait",dir)
 			end
 		end
 	end
@@ -541,7 +557,7 @@ function StartFever()
 	end
 end
 function CheckFeverBuff()
-	local t,c = character.conditionListSelf:GetTierByID(4825)
+	local t,c = characterData.conditionListSelf:GetTierByID(4825)
 	return t <= 0
 end
 function FeverAnim()
@@ -561,18 +577,21 @@ function EndFever()
 	if feverEffectObj ~= nil then
 		feverEffectObj:SetActive(false)
 	end
-	character:SetMemberAnimationSolo("wait")
+	local facing = 1
+	if not characterFacetoward then facing = -1 end
+	character:SetMemberAnimation("wait",facing)
 end
 CanSkillActive = function(skill)
-	if character == nil or character:IsDead() or character:IsWithDraw() then
+	if characterData == nil then
 		return false
 	end
-	if skill.cdFrame > 0 then
+	if skill.cdFrame:AsFloat() > 0 then
 		return false
 	end
-	if not SkillUtils.GetManaulSkill(character.gun) == nil then
+	if not SkillUtils.GetManaulSkill(characterData.gun) == nil then
 		return false
 	end
+
 	return true
 end
 function FinishPlayMoveAction()
@@ -688,29 +707,30 @@ function UpdateScore()
 	textScore.text = tostring(playerScore) 
 end
 function AddBuff(buffid)
-	CS.GF.Battle.SkillUtils.GenBuff(
+	CS.GF.Battle.SkillUtils.GenBuffOnCharacter(
 		CS.GF.Battle.BattleSkillCfgEx(skillbase, false, nil, nil),
-		character.listMember[0],
+		characterData,
 		{buffid},
 		{1},
 		1
 	)
+
 end
 function AddCreatorBuff(buffid)
 	if creatorCharacter == nil then
-		local friendlyTeamList = BattleController.friendlyTeamHolder.listCharacter
+		local friendlyTeamList = BattleController.friendlyTeamHolder.listCharacterData
 		for i=0, friendlyTeamList.Count-1 do
 			local char = friendlyTeamList[i]
-			if char:IsSummon() and char.gun.summonInfo.id == 1631 then
+			if char.isSummon and char.gun.summonInfo.id == 1631 then
 				creatorCharacter = char
 				break
 			end
 		end
 	end
 	if creatorCharacter ~= nil then
-		CS.GF.Battle.SkillUtils.GenBuff(
+		CS.GF.Battle.SkillUtils.GenBuffOnCharacter(
 			CS.GF.Battle.BattleSkillCfgEx(skillbase, false, nil, nil),
-			creatorCharacter.listMember[0],
+			creatorCharacter,
 			{buffid},
 			{1},
 			1
@@ -719,19 +739,24 @@ function AddCreatorBuff(buffid)
 end
 function GameFinish()
 	print("GameSet!")
-	CS.BattleFrameManager.StopTime(true,99999)
+	CS.GF.Battle.BattleFrameTimer.Instance:StopTime(99999)
 	--showPanel
 	isGameFinish = true
 	ShowResult()
 end
 function EndGame()
 	
-	xlua.hotfix(CS.GF.Battle.BattleCharacterController,'Die',nil)
-	for i=BattleController.enemyTeamHolder.listCharacter.Count-1,0,-1 do
-		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
-		BattleController.enemyTeamHolder.listCharacter[i]:UpdateLife(DamageInfo, -999999)
+	xlua.hotfix(CS.GF.Battle.BattleCharacterControllerNew,'DiePerformance',nil)
+	local enemyList = {}
+	for k,v in pairs(BattleController.enemyTeamHolder.listCharacter) do
+		enemyList[#enemyList+1] = v
 	end
-	CS.BattleFrameManager.ResumeTime()
+	for i = 1, #enemyList do
+		local DamageInfo = CS.GF.Battle.BattleDamageInfo()
+		enemyList[i]:UpdateLife(DamageInfo, -999999)
+	end
+	CS.GF.Battle.BattleFrameTimer.Instance:ResumeStopTime()
+	BattleController:TriggerBattleFinishEvent()
 	CS.UnityEngine.Object.Destroy(GoResult)
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 end
@@ -843,10 +868,11 @@ function PlaySFX(FXname)
 end
 --depose
 OnDestroy =function()
-	xlua.hotfix(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',nil)
-	xlua.hotfix(CS.GF.Battle.BattleCharacterController,'Die',nil)
+	CS.GF.Battle.BattleDynamicData.infiScoutDistance = false
+	--xlua.hotfix(CS.GF.Battle.BattleController,'RefreshFriendlyTargetList',nil)
+	xlua.hotfix(CS.GF.Battle.BattleCharacterControllerNew,'DiePerformance',nil)
 	xlua.hotfix(CS.GF.Battle.CSkillInstance,'_HandleMovementtEvent',nil)
-	xlua.hotfix(CS.BattleMemberController,'PlaySkill',nil)
+	xlua.hotfix(CS.GF.Battle.BattleMemberManager,'PlaySkill',nil)
 	character = nil
 	mCurSkill ={}
 end
