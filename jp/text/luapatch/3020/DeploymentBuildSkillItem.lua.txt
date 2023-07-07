@@ -1,15 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.BuildSkillDetail)
 
-local RequestControlBuild = function(self,data)
-	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
-	self:RequestControlBuild(data);
-end
-
-local RequestBuffControlBuild = function(self,data)
-	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
-	self:RequestBuffControlBuild(data);
-end
 local CheckCost = function(self)
 	if self.skill.apCost>0 then
 		CS.GameData.missionAction.ap = CS.GameData.missionAction.ap-self.skill.apCost;
@@ -38,15 +29,15 @@ local RefreshLeftUI = function(self)
 	self.btnSkill.gameObject:SetActive(true);
 	self.btnSkillCancelLeft.gameObject:SetActive(false);
 end
-
+local buildSkill = nil;
 local ControlBuild = function(self)
 	if self.buildSkill.skill.id == 610001 then
-		ShowRougeSummerUI(self);
+		buildSkill = self.buildSkill;
+		ShowRougeSummerUI();
 		return;
 	end
 	self:ControlBuild();
 end
-
 local RougeSummerObj = nil; 
 local selectItems = nil;
 Item1id = 9041;
@@ -89,7 +80,7 @@ function item2Selectnnum()
 	end
 	return num;
 end
-function ShowRougeSummerUI(self)
+function ShowRougeSummerUI()
 	if selectItems == nil then
 		selectItems = CS.System.Collections.Generic.List(CS.System.Int32)();
 	end
@@ -107,7 +98,7 @@ function ShowRougeSummerUI(self)
 				return;	
 			end
 			selectItems:Add(Item1id);
-			ShowRougeSummerUI(self);
+			ShowRougeSummerUI();
 		end);
 		local btnItem2 = RougeSummerObj.transform:Find("MainFrame/CardList/ItemCard_2/TouchArea");
 		btnItem2:GetComponent(typeof(CS.ExButton)):AddOnClick(function()
@@ -120,28 +111,28 @@ function ShowRougeSummerUI(self)
 				return;
 			end
 			selectItems:Add(Item2id);
-			ShowRougeSummerUI(self);
+			ShowRougeSummerUI();
 		end);
 		local mixParent = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Container/ItemLayout");
 		mixParent:Find("Item1_L"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
 				selectItems:Remove(Item1id);
-				ShowRougeSummerUI(self);	
+				ShowRougeSummerUI();	
 			end);
 		mixParent:Find("Item1_R"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
 				selectItems:Remove(Item1id);
-				ShowRougeSummerUI(self);
+				ShowRougeSummerUI();
 			end);
 		mixParent:Find("Item2_L"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
 				selectItems:Remove(Item2id);
-				ShowRougeSummerUI(self);
+				ShowRougeSummerUI();
 			end);
 		mixParent:Find("Item2_R"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
 				selectItems:Remove(Item2id);
-				ShowRougeSummerUI(self);
+				ShowRougeSummerUI();
 			end);
 		local btnskill = RougeSummerObj.transform:Find("MainFrame/Btn_Confirm");
 		btnskill:GetComponent(typeof(CS.ExButton)):AddOnClick(function()
-				CastSkill(self);
+				CastSkill();
 			end);
 		local bg = RougeSummerObj.transform:Find("MainFrame/Img_Bg");
 		bg.gameObject:AddComponent(typeof(CS.ExButton)):AddOnClick(function()
@@ -249,21 +240,30 @@ function ShowRougeSummerUI(self)
 	end
 	local txtName = RougeSummerObj.transform:Find("MainFrame/Output/Tex_Name"):GetComponent(typeof(CS.ExText));
 	local txtdec = RougeSummerObj.transform:Find("MainFrame/Output/Tex_Desc"):GetComponent(typeof(CS.ExText));
+	local image = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Product"):GetComponent(typeof(CS.ExImage));
 	if missionskillid == 0 then
 		txtName.text = "";
 		txtdec.text = "";
+		image.gameObject:SetActive(false);
 	else
 		local skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
 		txtName.text = skill.name;
 		txtdec.text = skill.description;
-		
+		image.gameObject:SetActive(false);
+		image.sprite = CS.CommonController.LoadPngCreateSprite("Pics/Icons/Skill/Deployment/"..skill.code);
 	end
+	local dj = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt_djdh/JBQ_jbt_dj");
+	dj.gameObject:SetActive(true);
 end
-
-function CastSkill(self)
+local playanim = false;
+function CastSkill()
 	if selectItems.Count == 0 then
 		return;
 	end
+	if playanim then
+		return;
+	end
+	playanim = true;
 	local missionskillid = 0;
 	if selectItems.Count == 1 then
 		local item1 = selectItems[0];
@@ -289,10 +289,47 @@ function CastSkill(self)
 			end
 		end
 	end
-	self.buildSkill.skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
-	self.buildSkill.otherskills:Clear();
-	self.buildSkill:RequestCastSkill();
-	CS.UnityEngine.Object.Destroy(RougeSummerObj);
+	buildSkill.skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
+	buildSkill.otherskills:Clear();
+	PlayAnim(true);
+	CS.CommonController.Invoke(function()
+			buildSkill:RequestCastSkill();
+		end,5,CS.DeploymentController.Instance);
+end
+function PlayAnim(play)
+	local image = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Product"):GetComponent(typeof(CS.ExImage));
+	local dj = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt_djdh/JBQ_jbt_dj");
+	local djplay = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt");
+	local fix = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Container/JBQ_fx");
+	local guo = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Container/JBQ_guo");
+	if play then
+		image.gameObject:SetActive(true);
+		dj.gameObject:SetActive(false);
+		djplay.gameObject:SetActive(true);
+		guo.gameObject:SetActive(true);
+		fix.gameObject:SetActive(true);
+	else
+		image.gameObject:SetActive(false);
+		dj.gameObject:SetActive(true);
+		djplay.gameObject:SetActive(false);
+		guo.gameObject:SetActive(false);
+		fix.gameObject:SetActive(false);
+	end
+end
+local RequestControlBuild = function(self,data)
+	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
+	self:RequestControlBuild(data);
+	if RougeSummerObj ~= nil and not RougeSummerObj:isNull() then
+		selectItems:Clear();
+		PlayAnim(false);
+		ShowRougeSummerUI();
+		playanim = false;
+	end
+end
+
+local RequestBuffControlBuild = function(self,data)
+	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
+	self:RequestBuffControlBuild(data);
 end
 util.hotfix_ex(CS.BuildSkillDetail,'RequestControlBuild',RequestControlBuild)
 util.hotfix_ex(CS.BuildSkillDetail,'RequestBuffControlBuild',RequestBuffControlBuild)
