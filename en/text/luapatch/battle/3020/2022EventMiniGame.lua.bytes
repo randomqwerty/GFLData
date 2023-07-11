@@ -748,7 +748,7 @@ function EndGame()
 	
 	xlua.hotfix(CS.GF.Battle.BattleCharacterControllerNew,'DiePerformance',nil)
 	local enemyList = {}
-	for k,v in pairs(BattleController.enemyTeamHolder:GetCharacters()) do
+	for k,v in pairs(BattleController.enemyTeamHolder.listCharacter) do
 		enemyList[#enemyList+1] = v
 	end
 	for i = 1, #enemyList do
