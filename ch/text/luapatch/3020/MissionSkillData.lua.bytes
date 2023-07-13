@@ -37,17 +37,19 @@ local RefreshUI = function(self,refreshBuffNow)
 end
 local CheckTeamMoveClear = function(self)
 	if self.sourceType == CS.SourceType.building then
-		if self.Alive then
-			return;
-			--local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
-			--if buildAction ~= nil and buildAction.CanUseMissionSkill then
-			--	if not buildAction.CanUseActiveMissionSkill then
-			--		if CS.DeploymentController.Instance ~= nil then			
-			--			self:CheckTeamMovePlayEffect();
-			--		end
-			--		return;
-			--	end
-			--end
+		if self.Alive then			
+			local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
+			if buildAction == nil then
+				return;
+			end
+			if buildAction ~= nil and buildAction.CanUseMissionSkill then
+				if not buildAction.CanUseActiveMissionSkill then
+					if CS.DeploymentController.Instance ~= nil then			
+						self:CheckTeamMovePlayEffect();
+					end
+					return;
+				end
+			end
 		end
 	end
 	
@@ -76,7 +78,30 @@ local ShowEffect = function(target,effectInfo,autoDestroy,effectObj,lastdelayTim
 	effectObj = CS.SpecialSpotAction.ShowEffect(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound);
 	return effectObj;
 end
+local LoadHurtData = function(self)
+	--print("LoadHurtData")
+	local sangvisteamid = self.sangvisTeamId;
+	self.sangvisTeamId = 0;
+	self:LoadHurtData();
+	self.sangvisTeamId = sangvisteamid;
+	if sangvisteamid ~= 0 then
+		local gunJson = self.jsonData:GetValue("sangvises_life");
+		for i=0,gunJson.Count-1 do
+			local gunid = gunJson[i]:GetValue("sangvis_with_user_id").Long;
+			local life = gunJson[i]:GetValue("life").Int;
+			local gun = CS.GameData.listSangvisGun:GetDataById(gunid);
+			if life>gun.life then
+				self.playHurt = false;
+			end
+			gun.life = life;
+		end
+		if self.Team ~= nil then
+			self.Team:RefreshTeamInfo();
+		end
+	end
+end
 util.hotfix_ex(CS.SpecialSpotAction,'PlayEffect',PlayEffect)
 util.hotfix_ex(CS.SpecialSpotAction,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.SpecialSpotAction,'ShowEffect',ShowEffect)
 util.hotfix_ex(CS.BuffAction,'CheckTeamMoveClear',CheckTeamMoveClear)
+util.hotfix_ex(CS.HurtAction,'LoadHurtData',LoadHurtData)

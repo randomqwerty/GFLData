@@ -132,6 +132,7 @@ function  ShowBackground()--活动背景
 		returnobj= CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Pics/ActivityMap/Bikini_2022_Return"), opsControl.leftMain, false);
 		local btnReturn = returnobj:GetComponent(typeof(CS.ExButton));
 		btnReturn:AddOnClick(function()
+				CS.CommonSceneManagerController.instance:PopController();
 				CS.CommonController.GotoScene("MissionSelection");
 			end);
 	end
@@ -144,6 +145,7 @@ function  ShowBackground()--活动背景
 	ShowSpine("MissionSpecial");
 	ShowSpine("MissionInfinite");
 	CheckShowVoteResult();
+	ShowProcess();
 end
 function AddMissionBtn(name)
 	local Mission = voteMap.transform:Find(name);
@@ -914,8 +916,7 @@ function CheckMission(missionId)
 	end
 end
 
-local ShowProcess = function(self)
-	self:ShowProcess();
+function ShowProcess()
 	local processTxt = CS.OPSPanelController.Instance.processTxt;
 	if processTxt ~= nil then
 		clearCount = 0;
@@ -1019,7 +1020,6 @@ Start = function()
 		util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 		util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 		util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
-		util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
 		util.hotfix_ex(CS.SpecialMissionInfoController,'RefreshOther',RefreshOther)
 	end
 end
@@ -1028,6 +1028,5 @@ OnDestroy =function()
 	xlua.hotfix(CS.OPSPanelController,'RefreshUI',nil)
 	xlua.hotfix(CS.OPSPanelController,'SelectDiffcluty',nil)
 	xlua.hotfix(CS.OPSPanelController,'CancelMission',nil)
-	xlua.hotfix(CS.OPSPanelController,'ShowProcess',nil)
 	xlua.hotfix(CS.SpecialMissionInfoController,'RefreshOther',nil)
 end

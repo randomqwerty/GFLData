@@ -1,6 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.SquadListController)
-
+xlua.private_accessible(CS.SquadStateRightSideDetailsPanelPresenter)
 function Split(szFullString, szSeparator)
 	local nFindStartIndex = 1
 	local nSplitIndex = 1
@@ -58,5 +58,12 @@ local CheckMissionCanUseSquad = function(self,squads)
 	end
 	return squads;
 end
+local _LevelUp = function(self)
+	if  self.squad.fake then
 
+	else
+		self:LevelUp();
+	end
+end
 util.hotfix_ex(CS.SquadListController,'CheckMissionCanUseSquad',CheckMissionCanUseSquad)
+util.hotfix_ex(CS.SquadStateRightSideDetailsPanelPresenter,'LevelUp',_LevelUp)

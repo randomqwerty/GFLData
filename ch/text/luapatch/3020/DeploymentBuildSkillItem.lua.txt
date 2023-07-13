@@ -29,15 +29,15 @@ local RefreshLeftUI = function(self)
 	self.btnSkill.gameObject:SetActive(true);
 	self.btnSkillCancelLeft.gameObject:SetActive(false);
 end
-
+local buildSkill = nil;
 local ControlBuild = function(self)
 	if self.buildSkill.skill.id == 610001 then
-		ShowRougeSummerUI(self);
+		buildSkill = self.buildSkill;
+		ShowRougeSummerUI();
 		return;
 	end
 	self:ControlBuild();
 end
-
 local RougeSummerObj = nil; 
 local selectItems = nil;
 Item1id = 9041;
@@ -80,62 +80,87 @@ function item2Selectnnum()
 	end
 	return num;
 end
-function ShowRougeSummerUI(self)
+local willclose = false;
+local playanim = false;
+function ShowRougeSummerUI()
 	if selectItems == nil then
 		selectItems = CS.System.Collections.Generic.List(CS.System.Int32)();
 	end
 	if RougeSummerObj == nil or RougeSummerObj:isNull() then
 		selectItems:Clear();		
 		RougeSummerObj = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Pics/ActivityRes/2023RougeSummer_BuffMixer"));
-		local btnItem1 = RougeSummerObj.transform:Find("MainFrame/CardList/ItemCard_1/TouchArea");
+		local btnItem1 = RougeSummerObj.transform:Find("MainFrame/CardList/ItemCard_1/Img_Bg");
 		btnItem1:GetComponent(typeof(CS.ExButton)):AddOnClick(function()
 			if selectItems.Count>1 then
 				return;
 			end
+			if playanim then
+				return;	
+			end	
 			local itemnum = CS.GameData.GetItem(Item1id);
 			itemnum = itemnum - item1Selectnnum();	
 			if itemnum == 0 then
+				CS.CommonController.LightMessageTips(CS.Data.GetLang(120038));
 				return;	
 			end
 			selectItems:Add(Item1id);
-			ShowRougeSummerUI(self);
+			ShowRougeSummerUI();
 		end);
-		local btnItem2 = RougeSummerObj.transform:Find("MainFrame/CardList/ItemCard_2/TouchArea");
+		local btnItem2 = RougeSummerObj.transform:Find("MainFrame/CardList/ItemCard_2/Img_Bg");
 		btnItem2:GetComponent(typeof(CS.ExButton)):AddOnClick(function()
 			if selectItems.Count>1 then
+				return;
+			end
+			if playanim then
 				return;
 			end
 			local itemnum = CS.GameData.GetItem(Item2id);
 			itemnum = itemnum - item2Selectnnum();
 			if itemnum == 0 then
+				CS.CommonController.LightMessageTips(CS.Data.GetLang(120038));
 				return;
 			end
 			selectItems:Add(Item2id);
-			ShowRougeSummerUI(self);
+			ShowRougeSummerUI();
 		end);
 		local mixParent = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Container/ItemLayout");
 		mixParent:Find("Item1_L"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
+				if playanim then
+					return;
+				end
 				selectItems:Remove(Item1id);
-				ShowRougeSummerUI(self);	
+				ShowRougeSummerUI();	
 			end);
 		mixParent:Find("Item1_R"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
+				if playanim then
+					return;
+				end
 				selectItems:Remove(Item1id);
-				ShowRougeSummerUI(self);
+				ShowRougeSummerUI();
 			end);
 		mixParent:Find("Item2_L"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
+				if playanim then
+					return;
+				end
 				selectItems:Remove(Item2id);
-				ShowRougeSummerUI(self);
+				ShowRougeSummerUI();
 			end);
 		mixParent:Find("Item2_R"):GetComponent(typeof(CS.ExButton)):AddOnClick(function()
+				if playanim then
+					return;
+				end
 				selectItems:Remove(Item2id);
-				ShowRougeSummerUI(self);
+				ShowRougeSummerUI();
 			end);
 		local btnskill = RougeSummerObj.transform:Find("MainFrame/Btn_Confirm");
 		btnskill:GetComponent(typeof(CS.ExButton)):AddOnClick(function()
-				CastSkill(self);
+				CastSkill();
 			end);
 		local bg = RougeSummerObj.transform:Find("MainFrame/Img_Bg");
 		bg.gameObject:AddComponent(typeof(CS.ExButton)):AddOnClick(function()
+				if playanim then
+					return;
+				end
 				CS.UnityEngine.Object.Destroy(RougeSummerObj);
 			end);
 		local btnInfo = RougeSummerObj.transform:Find("MainFrame/Output/Img_Info");
@@ -254,9 +279,14 @@ function ShowRougeSummerUI(self)
 	end
 	local dj = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt_djdh/JBQ_jbt_dj");
 	dj.gameObject:SetActive(true);
+	if CS.GuideDeploymentController.currentHasTriggeringGuide() then
+		willclose = true;
+	else
+		willclose = false;
+	end
 end
-local playanim = false;
-function CastSkill(self)
+
+function CastSkill()
 	if selectItems.Count == 0 then
 		return;
 	end
@@ -289,12 +319,12 @@ function CastSkill(self)
 			end
 		end
 	end
-	self.buildSkill.skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
-	self.buildSkill.otherskills:Clear();
+	buildSkill.skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
+	buildSkill.otherskills:Clear();
 	PlayAnim(true);
 	CS.CommonController.Invoke(function()
-			self.buildSkill:RequestCastSkill();
-		end,5,self);
+			buildSkill:RequestCastSkill();
+		end,5,CS.DeploymentController.Instance);
 end
 function PlayAnim(play)
 	local image = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Product"):GetComponent(typeof(CS.ExImage));
@@ -322,8 +352,12 @@ local RequestControlBuild = function(self,data)
 	if RougeSummerObj ~= nil and not RougeSummerObj:isNull() then
 		selectItems:Clear();
 		PlayAnim(false);
-		ShowRougeSummerUI(self.skillItem);
 		playanim = false;
+		if willclose then
+			CS.UnityEngine.Object.Destroy(RougeSummerObj);
+		else
+			ShowRougeSummerUI();	
+		end
 	end
 end
 

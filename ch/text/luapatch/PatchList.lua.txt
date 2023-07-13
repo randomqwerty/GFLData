@@ -171,6 +171,8 @@ patch3020=
 "3020/FormationController",
 "3020/OPSPanelController",
 "3020/OPSSpineControl",
+"3020/OPSPanelMissionBase",
+"3020/OPSPanelMissionHolder",		
 "3020/OPSConfig",			
 "3020/TheaterTeamData",
 "3020/MissionData",
