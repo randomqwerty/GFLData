@@ -141,6 +141,12 @@ local TriggerAbortMissionEvent = function()
 		CS.DeploymentController.Instance:RequestAbortMission();
 	end
 end
+local CheckOnePoint = function(self)
+	if CS.GameData.engagedSpot ~= nil then
+		return;
+	end
+	self:CheckOnePoint();
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -153,3 +159,4 @@ util.hotfix_ex(CS.DeploymentController,'ClickAllyTeam',ClickAllyTeam)
 util.hotfix_ex(CS.DeploymentController,'CheckNext',CheckNext)
 util.hotfix_ex(CS.DeploymentController,'get_SangvisTeamsCount',SangvisTeamsCount)
 util.hotfix_ex(CS.DeploymentController,'TriggerAbortMissionEvent',TriggerAbortMissionEvent)
+util.hotfix_ex(CS.DeploymentController,'CheckOnePoint',CheckOnePoint)

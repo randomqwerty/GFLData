@@ -29,7 +29,7 @@
 //2021圣诞活动配置：
 MissionSelectionTex|missionselect_Xmas2021|2|-49
 //2021泳装复刻配置：
-//MissionSelectionTex|missionSelect_Bikini_2021|1|-47
+MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //2020冬活配置：
 //MissionSelectionTex|missionselect_MirrorStage|2|-44
 //马蜂窝复刻配置：
@@ -45,7 +45,7 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //佐贺联动：
 //MissionSelectionTex|missionselect_ZLSR|1|-57
 //SCAR角色活动：
-MissionSelectionTex|missionselect_2022Scar|2|-56
+//MissionSelectionTex|missionselect_2022Scar|2|-56
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -156,7 +156,7 @@ OPSLeftBGNormalActivity|-57|ZLSR_Left
 //OPSNoticeNormalActivity|-43|TheDivision_Notice
 //OPSNoticeNormalActivity|-44|MirrorStage_Notice
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
-//OPSNoticeNormalActivity|-47|Bikini_2021_Notice
+OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
@@ -210,7 +210,7 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 //OPSGoto|MirrorStage_PointExchange|2
 //飓风营救复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-//OPSGoto|Bikini_2021_GotoMall|0
+OPSGoto|Bikini_2021_GotoMall|0|-47
 //OPSGoto|DropkickonMyDevil_GotoMall|0
 //OPSGoto|2021Summer_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
@@ -219,7 +219,7 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 //OPSGoto|MirrorStage_PointExchange|2
 //OPSGoto|FixedPoint_GotoMall|0|-51
 //OPSGoto|WhiteDay_2022_GotoMall|0|-50
-OPSGoto|2022Scar_GotoMall|0|-56
+//OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|ZLSR_GotoMall|0|-57
 
 //关卡面板动态位置
@@ -432,13 +432,13 @@ OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
-//OPSCampaignTitleButtonTip|-47|100097|60|Bikini_2021_Tip|1
+OPSCampaignTitleButtonTip|-47|100146|60|Bikini_2021_Tip|1
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
 //OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 //OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
-OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
+//OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 
 //消耗道具用
