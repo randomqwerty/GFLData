@@ -184,6 +184,18 @@ local InitUIElements= function(self)
 	self:InitUIElements();
 	CheckOPSTime(self);
 end
+
+local checkRequestDrawEvent = false;
+local RequestDrawEvent = function(self)
+	if checkRequestDrawEvent then
+		self:RequestDrawEvent();
+	end
+end
+local LoadBackgroundVideo = function(self)
+	self:LoadBackgroundVideo();
+	checkRequestDrawEvent = true;
+	self:RequestDrawEvent();
+end
 local Awake = function(self)
 	util.hotfix_ex(CS.OPSPanelController,'CheckMapAnimator',CheckMapAnimator)
 	util.hotfix_ex(CS.OPSPanelController,'EndMapAnimator',EndMapAnimator)
@@ -193,6 +205,9 @@ local Awake = function(self)
 	util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
 	util.hotfix_ex(CS.OPSPanelController,'Start',Start)
 	util.hotfix_ex(CS.OPSPanelController,'CheckEndlessPoint',CheckEndlessPoint)
+	util.hotfix_ex(CS.OPSPanelController,'RequestDrawEvent',RequestDrawEvent)
+	util.hotfix_ex(CS.OPSPanelController,'LoadBackgroundVideo',LoadBackgroundVideo)
+	checkRequestDrawEvent = false;
 	self:Awake();
 end
 util.hotfix_ex(CS.OPSPanelController,'Awake',Awake)
