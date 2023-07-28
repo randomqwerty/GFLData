@@ -39,6 +39,10 @@ voteMap = nil;
 goodItemId = 9039;
 badItemId = 9040;
 function Init()
+	if CS.ResCenter.instance.clientVersionCurrent == 3010 then
+		goodItemId = 9013;
+		badItemId = 9014;
+	end
 	CS.OPSPanelBackGround.Instance.gameObject:SetActive(false);
 	if OPSPanelMissionBase == nil or OPSPanelMissionBase:isNull() then
 		OPSPanelMissionBase = opsControl.transform:Find("Map").gameObject:AddComponent(typeof(CS.OPSPanelMissionBase));

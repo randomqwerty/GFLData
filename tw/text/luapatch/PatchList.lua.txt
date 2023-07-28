@@ -158,7 +158,9 @@ patch3020=
 "3020/DeploymentEnemyInfoNew",
 "3020/DeploymentTeamController",
 "3020/DeploymentAllyTeamFloatingInfo",
-"3020/DeploymentAllyTeamController",	
+"3020/DeploymentAllyTeamController",
+"3020/DeploymentFriendlyTeamController",	
+"3020/DeploymentSangvisTeamController",		
 "3020/DeploymentTeamInfoController",
 "3020/DeploymentMapDragController",
 "3020/DeploymentEnemyTeamController",
@@ -171,6 +173,8 @@ patch3020=
 "3020/FormationController",
 "3020/OPSPanelController",
 "3020/OPSSpineControl",
+"3020/OPSPanelMissionBase",
+"3020/OPSPanelMissionHolder",		
 "3020/OPSConfig",			
 "3020/TheaterTeamData",
 "3020/MissionData",
@@ -203,6 +207,8 @@ patch3020=
 "3020/BattleCharacterData",
 "3020/CommonPicController",			
 "3020/FlightChessLobbyMapSettingCtrl",
+"3020/CharacterCondition",
+"3020/Live2DModelController",
 }
 -- va11
 print("load Va11");
