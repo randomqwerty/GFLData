@@ -44,7 +44,7 @@
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //2022烟花祭配置：
-MissionSelectionTex|missionselect_Bikini_2022|1|-52
+//MissionSelectionTex|missionselect_Bikini_2022|1|-52
 //2022夏活配置：
 //MissionSelectionTex|missionselect_2022Summer|1|-54
 //终焉花海复刻配置：
@@ -59,6 +59,8 @@ MissionSelectionTex|missionselect_Bikini_2022|1|-52
 //MissionSelectionTex|missionselect_2022Summer|1|-59
 //谜境守卫复刻
 //MissionSelectionTex|missionselect_Labyrinthine Defense_RE|2|-60
+//237月试炼
+MissionSelectionTex|missionselect_2023RougeSummer|1|-61
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -97,6 +99,7 @@ OPSPanelScene|-57|-57
 OPSPanelScene|-58|-58
 OPSPanelScene|-59|-59
 OPSPanelScene|-60|-60
+OPSPanelScene|-61|-61
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -155,6 +158,7 @@ OPSLeftBGNormalActivity|-57|ZLSR_Left
 OPSLeftBGNormalActivity|-58|2023Spring_Left
 OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 OPSLeftBGNormalActivity|-60|PolarizedLight_Left
+OPSLeftBGNormalActivity|-61|2023RougeSummer_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -185,12 +189,14 @@ OPSLeftBGNormalActivity|-60|PolarizedLight_Left
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
-OPSNoticeNormalActivity|-52|Bikini_2022_Notice
+//OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
 //OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
+OPSNoticeNormalActivity|-61|2023RougeSummer_Notice
+
 //时间公告-预制物(公用)
 OPSTime|SingTime
 //OPSTimeNormalActivity|-31|Isomer_Time
@@ -215,6 +221,7 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 OPSTimeNormalActivity|-58|2023Spring_Time
 OPSTimeNormalActivity|-59|Reversible_Time
 OPSTimeNormalActivity|-60|Reversible_Time
+OPSTimeNormalActivity|-61|Reversible_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -241,10 +248,10 @@ OPSGoto|Hallowmas_2020_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
 //OPSGoto|Xmas_2021_GotoMall|0
 //OPSGoto|FixedPoint_GotoMall|0
-OPSGoto|WhiteDay_2022_GotoMall|0|-50
+//OPSGoto|WhiteDay_2022_GotoMall|0|-50
 //混沌落幕复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-OPSGoto|Bikini_2022_GotoMall|0|-52
+//OPSGoto|Bikini_2022_GotoMall|0|-52
 //OPSGoto|2022Summer_GotoMall|0|-54
 //OPSGoto|2022Summer_GotoMall|0|-55
 //OPSGoto|2022Scar_GotoMall|0|-56
@@ -253,7 +260,9 @@ OPSGoto|Bikini_2022_GotoMall|0|-52
 //OPSGoto|2023RougeSpring_GotoMall|0|-59
 //OPSGoto|2023RougeSpring_PointExchange|2|-59
 //谜境守卫复刻配置_积分界面跳转
-OPSGoto|Continuum_PointExchange|2
+//OPSGoto|Continuum_PointExchange|2
+OPSGoto|2023RougeSummer_GotoMall|0|-61
+OPSGoto|2023RougeSpring_PointExchange|2|-61
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -301,6 +310,7 @@ OPSProgressNormalActivity|-57|ZLSR_Progress
 OPSProgressNormalActivity|-58|2023Spring_Progress
 OPSProgressNormalActivity|-59|Reversible_Progress
 OPSProgressNormalActivity|-60|Reversible_Progress
+OPSProgressNormalActivity|-61|Reversible_Progress
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
 OPSMain|-2|Snow|Map2
@@ -435,6 +445,7 @@ OPSCampaignTitleButton|-56|true|2022Scar_Diffculty2Btn
 OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 OPSCampaignTitleButton|-58|true|2023Spring_Diffculty2Btn
 OPSCampaignTitleButton|-59|true|Empty_Title2
+OPSCampaignTitleButton|-61|true|2023RougeSummer_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -472,11 +483,12 @@ OPSCampaignTitleButton|-59|true|Empty_Title2
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
-OPSCampaignTitleButtonTip|-52|100190|60|Bikini_2022_Tip|1
+//OPSCampaignTitleButtonTip|-52|100190|60|Bikini_2022_Tip|1
 //OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
 //OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 //OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
+OPSCampaignTitleButtonTip|-61|100193|60|2023RougeSummer_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -484,10 +496,11 @@ OPSCampaignTitleButtonTip|-52|100190|60|Bikini_2022_Tip|1
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
-OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
+//OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 //OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
 //CampaignMissionDeployEffect|528|2023Spring_ShowItem12|11335,11337,11341,11343,11347,11349,11353,11355,11359,11377,11378,11379,11380,11381,11382,11383,11384,11385|0_30;30_60;60_130;130_260;260_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
 //CampaignMissionDeployEffect|530|2023Spring_ShowItem3|11364,11366,11368,11370,11372,11374,11386,11387,11388,11389,11390,11391,11392,11393,11394,11395,11396,11397|0_25;25_55;55_85;85_115;115_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
+OPSShowItemDeployment|9042,9041|2023RogueSummer_DeploymentItems|11437,11438,11439,11440,11441,11442,11443,11444,11445,11451,11452,11453,11454,11455,11456,11457,11458
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
@@ -1762,3 +1775,30 @@ OPSCampaignDetail|-58_111|0,0|RPK16
 
 //飓风营救复刻配置
 OPSCampaignDetail|-60_1|0,0|Ares
+
+//7月试炼关卡头像
+OPSCampaignDetail|-61_1|0,0|Persica_Work
+OPSCampaignDetail|-61_2|0,0|M4A1
+OPSCampaignDetail|-61_3|0,0|LightBossB06
+OPSCampaignDetail|-61_4|0,0|Jaeger
+OPSCampaignDetail|-61_5|0,0|Aegis_GA
+OPSCampaignDetail|-61_6|0,0|Golyat
+OPSCampaignDetail|-61_7|0,0|LightBossB07
+OPSCampaignDetail|-61_8|0,0|LightBossB06
+OPSCampaignDetail|-61_9|0,0|Manticore
+OPSCampaignDetail|-61_10|0,0|Persica_Work
+OPSCampaignDetail|-61_11|0,0|Hydra
+OPSCampaignDetail|-61_12|0,0|Agent
+OPSCampaignDetail|-61_13|0,0|AR15
+OPSCampaignDetail|-61_14|0,0|SOP2_Original
+OPSCampaignDetail|-61_15|0,0|Persica_Work
+OPSCampaignDetail|-61_16|0,0|TeslaTrooper
+OPSCampaignDetail|-61_17|0,0|Hydra
+OPSCampaignDetail|-61_18|0,0|Aegis_GA
+OPSCampaignDetail|-61_19|0,0|Coeus
+OPSCampaignDetail|-61_20|0,0|Beast
+OPSCampaignDetail|-61_21|0,0|Hydra
+OPSCampaignDetail|-61_22|0,0|Agent
+OPSCampaignDetail|-61_23|0,0|Persica_Work
+OPSCampaignDetail|-61_24|0,0|Kratos
+OPSCampaignDetail|-61_25|0,0|TeslaTrooper
