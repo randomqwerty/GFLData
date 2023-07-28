@@ -1,106 +1,106 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>515</BIN><BGM>2022_white_valentine_BGM1</BGM>:乌泱泱的人群围住了KAC-PDW的摊位，吵闹声不绝于耳。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:此时，PPD的眼神盯了过来，充满了委屈。+她拨开了人群，挤到了身边。
-PPD40(4)<Speaker>PPD-40</Speaker>||:指挥官，KAC在游戏里使用诡计，害我们抽不出上上签，还硬说我们是倒霉蛋……+在场的都是刚刚被骗的小伙伴。+现在只有您能替我们揭开真相，主持公道！
-()<Speaker>指挥官</Speaker>||:嗯？这么多人看着应该不会吧。
-PPD40(4)<Speaker>PPD-40</Speaker>||:KAC可狡猾了，指挥官你来看看！
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||<震屏3><SE1>RunStep</SE1>:<size=50>哇啊啊——honey您终于大驾光临了！！！</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC呼啸着跑到长桌前，紧紧握住指挥官的手，用力摇晃。+喧嚣的人群忽然安静下来。+指挥官感到十几双目光正牢牢地盯着自己……
-()<Speaker>指挥官</Speaker>||:……怎么回事？
-PPD40(4)<Speaker>PPD-40</Speaker>||:那只签筒一定有问题！我怎么摇都是下下签！
-PPD40(4);KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:喂，运气差不能怪我啊。
-PPD40(4)<Speaker>PPD-40</Speaker>;KAC(4)<Position>0,135</Position>||:哪有人连续100抽都是下下签的！这概率不科学！
-PPD40(4);KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:倒霉的人是这样，喝凉水都塞牙。+说明你的样本还不够大，万一是运气守恒定律呢，honey你快来试试！
-PPD40(4)<Speaker>PPD-40</Speaker>||:指挥官，快摇签！
-()<Speaker>指挥官</Speaker>||:好吧……直接摇就可以了吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官拿起签筒，仔细观察。+签筒是标准的圆筒状，只有顶盖上留了一个圆圆的小缺口，底面及四周全部用金属盖封住。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻……游戏很简单：一共20支签，包含1支上上签和19支下下签。+摇出上上签者，获得100张守善之证；摇出下下签者，需要倒贴5张群狼之牌。
-()<Speaker>指挥官</Speaker>||:看来就是赌概率而已……只要20次以内摇中上上签，好像都不亏？
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:指、指挥官，我最初也是这么想的，可是……
-()<Speaker>指挥官</Speaker>||:我明白……
-()<Speaker></Speaker>||:指挥官端起签筒，有些生疏而僵硬地前后摇晃……
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:哗啦——
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:哗啦——
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:啪嗒。+一支签掉落在桌面上。+众人急忙凑近。
-PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||:上……上上签？+怎么可能？！
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:PPD-40不信邪，抢过签筒自己摇了一次。+——下下签。
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:果然是我们运气太差了吧，呜呜呜……
-()<Speaker></Speaker>||:众人面面相觑，交谈声不绝于耳。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻……我早就说过Honey肯定是最幸运的！+来，请收下！这是您的奖品——100张群狼之牌！
-()<Speaker></Speaker>||:在众人或嫉妒或疑惑的目光中，接过KAC-PDW手里一叠厚厚的卡牌。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻……Honey这么幸运，一定要记得为我多投几票哦！
-KAC(4)<Speaker>指挥官</Speaker><Position>0,135</Position><同时置暗>||:唔……好。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:太棒了！我就知道Honey是世上最——好的Honey！+只要有我守护着您，您的运气也一定是无敌的！+不像某些倒霉蛋，一次都抽不中……
-()<Speaker></Speaker>||:众人用咬牙切齿的目光注视着KAC。
-()<Speaker>？？？</Speaker>||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:晚上好，长官。
-()<Speaker></Speaker>||<BGM>GF_Cafe</BGM>:人群忽然让开一条道，G36端着托盘落落大方地走了进来。
-G36(8)<Speaker>G36</Speaker>||<SE1>Stop_AVG_loop</SE1>:抱歉打扰了。+这是今晚后厨为大家准备的饮品……请随意取用。
-()<Speaker></Speaker>||:人群默默舒了口气，方才剑拔弩张的气氛也因G36善意的打断而消散了一些。+大家有序地排着队，依次从G36的托盘中取走饮品。
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:啊，上面的托盘空了！我帮G36小姐拿下来吧！
-G36(18)<Speaker>G36</Speaker>||:谢谢。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:G41顺手将一只金属材质的空托盘放在长桌上。
-()<Speaker></Speaker>||:咕噜噜噜……
-()<Speaker>众人</Speaker>||:？？？
-()<Speaker></Speaker>||:咕噜噜噜……
-()<Speaker></Speaker>||:众目睽睽之下，金属签筒竟然滚动起来，加速着朝托盘冲去！+直到……
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1><BGM>BGM_Empty</BGM><震屏3>:——啪！
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:咦？！吸……吸住了？！
-()<Speaker></Speaker>||:一片奇怪的寂静笼罩了摊位，众人盯着牢牢吸附在一起的签筒和托盘，面面相觑。
-G36(8)<Speaker>G36</Speaker>||:抱歉，后厨的玻璃托盘不够用。+我临时拿了合金托盘，可能里面含有稀有元素一类的……
-PPD40(2)<Speaker>PPD-40</Speaker>||:哈……哈哈……
-PPD40(2)<Speaker>PPD-40</Speaker>||<BGM>GF_20HW_Battle1_BPM102_Loop</BGM><震屏3>:<size=60>哈哈哈哈……！</size>
-()<Speaker></Speaker>||:PPD忽然大声笑了起来。
-PPD40(2)<Speaker>PPD-40</Speaker>||:G36小姐真是我们的救星！我已经知道是怎么回事了！！！
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:PPD-40挂起得意的笑容，一把拿起签筒，猛地拆开。
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:喂！！！你怎么可以乱动我的东西？！
-PPD40(2)<Speaker>PPD-40</Speaker>||:认输吧，KAC！这就是你作弊的铁证！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在众人的目光中，PPD-40一把拿出20支签，平摆于桌面上。+随后，她将签筒的底盖拆下，审视一番，微笑着点了点头。+她轻轻地、慢慢地……握着底盖，朝签条靠近……
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:啪嗒！
-()<Speaker></Speaker>||:“上上签”突然从一排签条中突兀地跳起，牢牢吸附在底盖表面！
-()<Speaker>众人</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake><SE1>AVG_Thunder_Dry</SE1>:<size=50>？？！！</size>
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:唔……那是什么魔法？！
-PPD40(2)<Speaker>PPD-40</Speaker>||:G41，我和你一共抽了四十多次都不出上上签……+这就是真正的秘密！+简单来说，这只签筒的底盖对上上签有一定的吸附力。+我们在摇签筒的时候，里面看似是20支签，可上上签吸附在底盖上，根本动不了！+所以实际上，我们只能摇出下下签。+KAC正是借此骗走了我们手上的卡牌！
-()<Speaker>指挥官</Speaker>||:既然如此……为什么我能摇到上上签？
-PPD40(2)<Speaker>PPD-40</Speaker>||:那是因为——
+()<Speaker></Speaker>||<黑屏2><BIN>515</BIN><BGM>2022_white_valentine_BGM1</BGM>:K-PDWのブースの周りに人形たちが集まり、ざわざわと騒いでいた。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ブースの中には、悔しそうな顔のPPD-40がいた。+指揮官が来たのを見るなり、PPD-40は中から出てきた。
+PPD40(4)<Speaker>PPD-40</Speaker>||:指揮官、KACのやつ絶対イカサマだ！　誰が何回引いてもアタリのくじが//n出ない上に、私たちの運が悪いだけの一点張りで……+ここにいる全員が、そのイカサマに遭っている。+悔しいが、今はもう指揮官に頼るしかない！
+()<Speaker>指揮官</Speaker>||:えっと、ここにいる全員？
+PPD40(4)<Speaker>PPD-40</Speaker>||:KACのやつ、絶対何か仕込んでいるに違いない！
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<震屏3><SE1>RunStep</SE1>:<size=50>わあ——やっとHoneyが来てくれた！！！</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC-PDWは大声を上げながらブースから出て来ると、指揮官の手を掴んで//n力一杯揺らした。+ざわつく人形たちは忽ち静かになった。+十数人もの目が自分を見つめているのを感じる……
+()<Speaker>指揮官</Speaker>||:……なにが起きたんだ？
+PPD40(4)<Speaker>PPD-40</Speaker>||:あのくじの筒、絶対何かおかしい！　何度引いても当たりが出ないんだ！
+PPD40(4);KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:そんなの、運が悪いだけでしょ？
+PPD40(4)<Speaker>PPD-40</Speaker>;KAC(4)<Position>0,135</Position>||:100回引いて、全部ハズレなんてありえないだろ！
+PPD40(4);KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:運がないやつはそうなんだよ。+そもそも試行回数が足りないだけじゃないの？　確率ってのは//nそういうものなんだし。そうだ、Honeyもやってみてよ！
+PPD40(4)<Speaker>PPD-40</Speaker>||:指揮官！ここは頼んだ！
+()<Speaker>指揮官</Speaker>||:そうか……このまま振ればいいんだな？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指揮官はくじの入った筒を持ち上げて、細かく観察した。+円形状の筒は、蓋に一つだけ小さな穴が空けられており、他の面は全て//n金属で覆われていた。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:フフッ……ルールは簡単よ、くじは全部で20本。その内1本が//nアタリで、残りの19本がハズレなの。+アタリを引いた者には、善良の証を100枚あげる、その代わり、//nハズレを引いた者は群狼カードを5枚提供してもらうよ。
+()<Speaker>指揮官</Speaker>||:確率はトントンだね……むしろ20回以内にアタリさえ引ければ得する仕組みだ。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:ご、ご主人様、私たちも最初そう思っていたんですけど……
+()<Speaker>指揮官</Speaker>||:大丈夫さ……
+()<Speaker></Speaker>||:指揮官は少しぎこちない動きで、筒を振り始めた……
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:（カラッ――）
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:（カラッ――）
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:（パタッ）+一本のくじが落ちてきた。+そのくじに全員の視線が集まる。
+PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||:ア、アタリ！？+そんな！？
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:目を疑ったPPD-40はくじの筒を奪い、もう一度自分で振った。+――ハズレ。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:やっぱり私たちの運が悪かっただけかも……
+()<Speaker></Speaker>||:この結果を前に、人形たちはひそひそと言葉を交わす。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:へへ……ほら、やっぱりHoneyが一番幸運の人ね！+はい、どうぞ！　賞品の善良の証100枚分ね！
+()<Speaker></Speaker>||:指揮官は若干戸惑いながらも、KAC-PDWからカードの束を貰った。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:ヒヒッ……それじゃHoney、あとで絶対あたしに投票してよね！
+KAC(4)<Speaker>指揮官</Speaker><Position>0,135</Position><同时置暗>||:あ、ああ。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:やった！　やさしいHoneyだ～い好き！+当然これからも、Honeyは無敵の運を持つ人ね！+一回もアタリを引けない、運がない誰かさんたちと違って……
+()<Speaker></Speaker>||:全員がKAC-PDWに嫉妬の目を向ける。
+()<Speaker>？？？</Speaker>||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:こんばんは、ご主人様。
+()<Speaker></Speaker>||<BGM>GF_Cafe</BGM>:G36がトレーを持って、ブースにドリンクを運んできた。
+G36(8)<Speaker>Gr G36</Speaker>||<SE1>Stop_AVG_loop</SE1>:失礼します。+キッチンから、皆さんにご用意したドリンクです……どうぞご自由に。
+()<Speaker></Speaker>||:G36がタイミングよく入って来たことによって、場の緊張した空気も//n少し和らいだ。+みんなは列に並んで、G36からドリンクを貰った。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:あっ、トレーは後でグラスと一緒に返しに行きますね！
+G36(18)<Speaker>Gr G36</Speaker>||:お手数をおかけします。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:最後のドリンクを取ると、G41は空になったトレーをテーブルの上に置いた。//nすると――
+()<Speaker></Speaker>||:（ゴロゴロ……）
+()<Speaker>大衆</Speaker>||:？？？
+()<Speaker></Speaker>||:（ゴロゴロ……）
+()<Speaker></Speaker>||:みんなの視線が集まる中、金属の筒が、トレーの方に向かって、//n一気に加速して転がり始めた！+そして……
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1><BGM>BGM_Empty</BGM><震屏3>:（――パッ！）
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:え？！　く、くっ付いちゃった？！
+()<Speaker></Speaker>||:気まずい静けさが、ブースを包む。ピッタリくっついた筒と//nトレーを見て、みんなは怪訝な顔をした。
+G36(8)<Speaker>Gr G36</Speaker>||:申し訳ございません。+プラスチック製のトレーの数が足りなかった故、金属製のトレーを//n使っておりまして……
+PPD40(2)<Speaker>PPD-40</Speaker>||:ハ、ハハ……
+PPD40(2)<Speaker>PPD-40</Speaker>||<BGM>GF_20HW_Battle1_BPM102_Loop</BGM><震屏3>:<size=60>ハハハハハ……！</size>
+()<Speaker></Speaker>||:PPD-40が急に大声で笑いだした。
+PPD40(2)<Speaker>PPD-40</Speaker>||:分かった！　これで分かったぞ！！！
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:そして得意げにくじの筒をトレーから離すと、それを解体し始めた。
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:ちょっと！！！　あたしの物になんてことするのよ！！！
+PPD40(2)<Speaker>PPD-40</Speaker>||:いい加減認めろ、KAC！　これがイカサマの証拠だ！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:全員に注目される中、PPD-40は取り出した20本のくじを//nテーブルの上に並べた。+そして筒の底を取り外し、ゆっくりとくじの上をなぞっていく。+一本ずつ、一本ずつなぞっていくと……
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:（ピタッ！）
+()<Speaker></Speaker>||:アタリのくじだけが、一気に飛び跳ねて筒の底にくっ付いた！
+()<Speaker>大衆</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake><SE1>AVG_Thunder_Dry</SE1>:<size=50>？？！！</size>
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:えっ……？　それどういう魔法？
+PPD40(2)<Speaker>PPD-40</Speaker>||:G41、私と君だけでも40回以上くじを引いて、アタリは1回も出なかった……+その原因はこれだ！+この筒の底はアタリくじだけを吸引する磁石になっている。+私たちがいくら筒を振ろうが、このアタリくじだけは落ちてこない！+だから私たちはハズレのくじしか引けなかったんだ！+そうやってKACは、私たちからカードを騙し取った！
+()<Speaker>指揮官</Speaker>||:じゃあ……なんで私はアタリを引いたんだ？
+PPD40(2)<Speaker>PPD-40</Speaker>||:それは――
 PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:……？！
-()<Speaker></Speaker>||:突然，一阵紫色的旋风无端刮起，如小野兽一般朝人堆里撞去！
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:？！+<size=50>快拦住她！！！</size>
-KAC(3)<Speaker>KAC-PDW</Speaker><Shake>0.1</Shake><Position>0,135</Position>||<SE1>Rope</SE1>:唔……+唔啊啊啊……+<size=50>放开我！放我出去！！你们这群可恶的倒霉蛋！！！</size>
-()<Speaker></Speaker>||:KAC甚至还没冲破包围，便被G41和围观的众人活生生绑了回来。+PPD带着冷酷而高傲的笑容，大摇大摆地走到KAC面前，单手举着G36的那只金属托盘。
-PPD40(3)<Speaker>PPD-40</Speaker>||:指挥官，这就是您能抽到上上签的原因。
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:<size=50>——砰！</size>
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||:<size=50>呜啊啊啊——</size>
-()<Speaker></Speaker>||:随着金属托盘猛然捶打在KAC-PDW的右手上，指挥官的躯体微微战栗了一下。
-PPD40(3)<Speaker>PPD-40</Speaker>||:既然底盖的吸附作用不可消除……+那么让“上上签”落出来的唯一方法就是在身上藏一块比底座的吸附力更强的物件。+只要用那个物件靠近签筒，上上签就会摆脱底座，甚至还会自动跳出来。+而这个神奇的物件，就藏在这家伙的右手手套里……+我说的没错吧，KAC？
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:我……我不知道你在说什么！
-PPD40(3)<Speaker>PPD-40</Speaker>||:指挥官，既然真相已经查清，我们就必须为上当的玩家讨回公道！
-()<Speaker>众人</Speaker>||:<size=50>没错！</size>
-()<Speaker>指挥官</Speaker>||:唔……你们有什么想法，可以提出来。
-PPD40(4)<Speaker>PPD-40</Speaker>||:KAC必须归还她从我们手中骗走的卡牌，并郑重道歉！+还有，我请求取消KAC的摊主资格，彻底封闭摊位！
-()<Speaker></Speaker>||:面对气势汹汹讨要说法的众人，指挥官不免有些慌乱。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tableware</SE1>:忽然，一声清脆的撞击声从桌边传来。+那是G36收拾玻璃碗碟的声响。
-G36(8)<Speaker>G36</Speaker>||<BGM>m_wv_title</BGM>:今晚是摆摊之夜……指挥官初心是大家能够玩得开心，毕竟这才是我们出来度假的目的嘛。+但KAC的作弊行为已经犯下，必须为此付出代价……
-G36(8)<Speaker>G36</Speaker>||:摊主之位是她好不容易争取来的，还是别取消了，不如今晚所有人消费的饮品，都从KAC的工资中扣除。+大家想喝多少，今晚都由KAC请客。+这就算是给她的一点小小的惩罚……指挥官觉得怎么样？
-PPD40(4)<Speaker>PPD-40</Speaker>||:可是……
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:主人……这是真的吗？！
-()<Speaker></Speaker>||:G41兴奋地咽了咽口水。+众人的心也如G41的尾巴一般，剧烈地摇晃着。
-()<Speaker>指挥官</Speaker>||:这样也行，主要还是希望大家都过一个愉快的夜晚。+只是这样一来辛苦G36和其他后厨的小伙伴了。
-G36(18)<Speaker>G36</Speaker>||:能为大家服务，是我的荣幸。
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:<size=50>好耶！！！</size>+G36小姐，我再要一份芒果冰沙！！！
-()<Speaker>围观人形A</Speaker>||:我要一份冰镇葡萄汁！！！
-()<Speaker>围观人形B</Speaker>||:呜呜呜……谢谢G36小姐！！+<size=50>请给我来十杯西瓜汁！！！</size>
+()<Speaker></Speaker>||:突然、紫色の影が一閃し、人込みに紛れて逃げようとした！
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:？！+<size=50>あいつを捕まえて！！！</size>
+KAC(3)<Speaker>K-PDW</Speaker><Shake>0.1</Shake><Position>0,135</Position>||<SE1>Rope</SE1>:くっ……+ああああ……+<size=50>放せ放せ！！！　この！運のない連中どもめ！！！</size>
+()<Speaker></Speaker>||:しかし逃げ切る前に、KAC-PDWは、G41と他の人形に捕まえられた。+PPD-40は自信満々にKAC-PDWの前に立つと、金属のトレーを掲げた。
+PPD40(3)<Speaker>PPD-40</Speaker>||:指揮官、これが君がアタリを引けた理由だ。
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:<size=50>（——パン！）</size>
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||:<size=50>うがあああぁぁぁ——</size>
+()<Speaker></Speaker>||:金属のトレーはほぼ撃ち付けられたかのように、勢いよくKAC-PDWの//n右手にくっ付いた。その音を聞いた指揮官は、思わず体がビクッと震えた。
+PPD40(3)<Speaker>PPD-40</Speaker>||:筒の底の磁力で、アタリくじを吸いつけているのなら……+それよりも強い磁力をぶつければいい。+そうすればアタリくじは、反発の力で落ちてくるようになる。なんなら、//n手品のようにうまくやれば、アタリくじだけを出すことも可能だ。+そしてその仕掛けの要となる磁石は今、こいつの右手の手袋の中……+そうだろ、KAC？
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:な、なんの話かな～？
+PPD40(3)<Speaker>PPD-40</Speaker>||:指揮官、イカサマが明るみになった以上、それに騙されたみんなに//n補填をするべきなのでは？
+()<Speaker>大衆</Speaker>||:<size=50>そうだそうだ！</size>
+()<Speaker>指揮官</Speaker>||:うーん……じゃあみんなどうしたいのかを聞かせて。
+PPD40(4)<Speaker>PPD-40</Speaker>||:まず、KACは私たちから騙し取ったカードを返し、謝罪をしなければならない！+そして、KACを失格とし、このブースも撤去してもらう！
+()<Speaker></Speaker>||:憤る人形たちを前に、指揮官は少し慌て出す。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tableware</SE1>:その時、傍らからガタガタと音が聞こえてきた。+G36が、飲み終わったドリンクのグラスを片付け始めている。
+G36(8)<Speaker>Gr G36</Speaker>||<BGM>m_wv_title</BGM>:今日はお祭りの夜です……皆さんに楽しんでもらうのが、今回の目的です。+ただ、KACのイカサマ行為も、決して許されるものではありません……
+G36(8)<Speaker>Gr G36</Speaker>||:ブースを撤去したいお気持ちは分かりますが、それだとお祭りの雰囲気を壊してしまいます。なので、今夜の皆さんのドリンク代は全部KACが支払う、というのはどうでしょうか？+現金で払えない分は、来月の給料から天引きする形で。+罰として、これぐらいでちょうどいいと思いますが……//nご主人様いかがでしょうか？
+PPD40(4)<Speaker>PPD-40</Speaker>||:しかし……
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:ご主人様……本当に好きに飲んでいいんですか？！
+()<Speaker></Speaker>||:G41はウキウキと尻尾を振る。+他のみんなも、どうやらかなりそれに期待しているようだ。
+()<Speaker>指揮官</Speaker>||:いいんじゃないか？　みんなが楽しく今夜を過ごせれば、それでいい。+ただ、G36やキッチンのみんなには負担をかけるかもね。
+G36(18)<Speaker>Gr G36</Speaker>||:皆さんにご奉仕できること自体、光栄でございます。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:<size=50>やった！！！</size>+それじゃG36さん、マンゴーのかき氷をお願いします！！！
+()<Speaker>人形A</Speaker>||:アイスのブドウジュースで！
+()<Speaker>人形B</Speaker>||:ううう……G36さんありがとう！+<size=50>スイカジュース10杯ください！！！</size>
 ()<Speaker></Speaker>||:……
-PPD40(4)<Speaker>PPD-40</Speaker>||:诶？！大家怎么都……+可恶！等、等我一下啊……
-()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:看着PPD-40和众人吵吵嚷嚷离去的背影，指挥官苦笑着耸了耸肩。
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||<SE1>Rope</SE1>:Honey……你、你居然不帮我？！
-()<Speaker></Speaker>||:被五花大绑的KAC哭丧着脸，气鼓鼓地瞪着指挥官。+指挥官轻轻叹了口气，耐心而严肃地劝慰道。
-()<Speaker>指挥官</Speaker>||:大家都是队友，以后还要并肩作战的。
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:我……我只要Honey就够了！+而且，我本来就不多的工资……
-KAC(3)<Speaker>指挥官</Speaker><Position>0,135</Position><同时置暗>||:……我私下补贴你一部分吧。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:呜呜呜呜果然Honey最好了！
-()<Speaker></Speaker>||:KAC-PDW忽而抬头，神情涌动着莫名的兴奋。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻，与其补贴我工资，不如……+多给我几张票？
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>脸变得还真快！</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC用力握了握指挥官的手，蹦蹦跳跳回到摊位。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:Honey，摊主KAC-PDW宣布，靶向陷阱为您开启！
+PPD40(4)<Speaker>PPD-40</Speaker>||:なっ？！　みんな何故……+くっ、なら私も……
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:賑やかにキッチンの方へ注文しに行くPPD-40たちを見て、//n指揮官は少しほっとした。
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||<SE1>Rope</SE1>:Honey……なんであたしを助けてくれなかったの……
+()<Speaker></Speaker>||:ずっと隣で縛られていたKAC-PDWは、泣きべそ顔で指揮官を見つめた。+少しため息をついて、指揮官はゆっくりとKAC-PDWに声をかける。
+()<Speaker>指揮官</Speaker>||:みんな一緒に戦ってる仲間なんだ。
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:あ、あたしはHoneyだけで十分だよ！+それにそんなに給料ないよ……
+KAC(3)<Speaker>指揮官</Speaker><Position>0,135</Position><同时置暗>||:……少し手当を出すからさ。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:うううううう～！　やっぱりHoneyだ～い好き！
+()<Speaker></Speaker>||:一瞬で、KAC-PDWは嬉しい表情に変わった。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:あっ、でも～、手当なんかよりも～+やっぱり票が欲しいな？
+()<Speaker>指揮官</Speaker>||:<color=#A9A9A9>切り替え速いな……</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指揮官に縄を解いてもらうと、KAC-PDWはひょいとブースに戻った。
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:それじゃ、Honey！　「射的の罠」、ただいま開始だよ！
 ()||<黑点1>:

@@ -208,6 +208,7 @@ patch3020=
 "3020/CommonPicController",			
 "3020/FlightChessLobbyMapSettingCtrl",
 "3020/CharacterCondition",
+"3020/Live2DModelController",
 }
 -- va11
 print("load Va11");

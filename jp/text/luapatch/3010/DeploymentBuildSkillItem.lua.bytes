@@ -68,17 +68,6 @@ local CheckCost = function(self)
 			CS.GameData.SetItem(itemid, resnum);
 		end
 	end
-	if self.skill.itemDrop.Keys.Count>0 then
-		local items = CS.System.Collections.Generic.List(CS.System.Int32)(self.skill.itemDrop.Keys);
-		for i=0,items.Count-1 do
-			local itemid = items[i];
-			local getnum = self.skill.itemDrop[itemid];
-			local totalnum = CS.GameData.GetItem(itemid);
-			local resnum = totalnum + getnum;
-			print("获取"..itemid.."数目"..getnum);
-			CS.GameData.SetItem(itemid, resnum);
-		end
-	end
 end
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'RefreshLeftUI',RefreshLeftUI)
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectSkillSpot',SelectSkillSpot)
