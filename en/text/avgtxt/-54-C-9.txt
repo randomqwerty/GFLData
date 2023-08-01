@@ -1,83 +1,83 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>528</BIN><narrator>:“未来号”洲际列车 F09车厢（餐车）
-()||<白屏1><BGM>GF_2022_Summer_AVG_3</BGM>:……+餐车内人形们外表看似平静，但真正的意识却已经在另一个地方吵翻了天……
-()||<白屏2><BIN>249</BIN><SE1>AVG_tele_connect</SE1>:……艾尔玛构建的通讯频道内
-()<Speaker>人形A</Speaker>||:<color=#00CCFF>跟，跟律贼作战！？你疯了吗！？</color>+<color=#00CCFF>我们只是普通的民用人形。</color> 
-()<Speaker>人形B</Speaker>||:<color=#00CCFF>我，我不行，你根本不知道这些家伙有多可怕！</color>+<color=#00CCFF>而且我也没有武器啊……</color> 
-()<Speaker>人形C</Speaker>||:<color=#00CCFF>我们现在也没什么……</color>+<color=#00CCFF>只要我乖乖的，他们根本没打算为难我……</color>+<color=#00CCFF>谁会跟电饭煲较劲呢？</color>
-NPC-TD_Worker(1)<通讯框><Speaker>保尔</Speaker>||:<color=#00CCFF>坐标09号车厢。</color>+<color=#00CCFF>律贼12人，看守人形3位。</color>+<color=#00CCFF>我的素体功能完整。</color>
-()<Speaker>人形A</Speaker>||:<color=#00CCFF>你，你还真打算上啊……</color>
-NPC-TD_Worker(1)<通讯框><Speaker>保尔</Speaker>||:<color=#00CCFF>我曾经效力于西伯利亚生命线工程，也就是“未来号”行驶的这条线路。</color>+<color=#00CCFF>这辆列车的配置和结构我非常熟悉。</color>+<color=#00CCFF>只要启动我，我就可以跟你们一起工作。</color>
-()<Speaker>人形D</Speaker>||:<color=#00CCFF>……等等，也别忘了救救我！</color>+<color=#00CCFF>我，我是马戏团负责杂耍表演的，我的素体很灵活。</color>+<color=#00CCFF>细想想，对付人类好像也没什么可怕的！</color>
-()||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>滴滴——</color>
-()||:<color=#00CCFF>频道已开启禁言模式——</color>
-AR18(2)<通讯框><Speaker>柳德米拉</Speaker>||:<color=#00CCFF>不要在无用的细节上浪费时间。</color>+<color=#00CCFF>告诉我你们所在车厢的情况，格式参考保尔先生即可。</color>+<color=#00CCFF>接下来这里由我指挥。</color>
-()||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>滴滴——</color>
-()||:<color=#00CCFF>频道已解除禁言模式——</color>
-()<Speaker>人形A </Speaker>||:<color=#00CCFF>坐标12号车厢。</color>+<color=#00CCFF>律贼3人，看守人形无。</color>+<color=#00CCFF>我的素体有部分损毁。</color>
-()<Speaker>人形B </Speaker>||:<color=#00CCFF>坐标18号餐车。</color>+<color=#00CCFF>律贼5人，看守人形1位。</color>+<color=#00CCFF>我的素体功能完整。</color>
-()||:……
-()||<黑点1><BGM>BGM_Empty</BGM>:……
-()||<黑点2><BIN>528</BIN><BGM>GF_EV9_Story</BGM>:凯瑟琳默默地听着，现在的话简直意外的少。+这对她而言，几乎可以称得上沉默。
-ColtWalker(4)<通讯框><Speaker>玛姬</Speaker>||:<color=#00CCFF>你还好吧？</color>
-ColtWalker(4)<通讯框>;NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>不用管我，你争取离开呗。</color>+<color=#00CCFF>一切还是任务为先。</color>
-ColtWalker(3)<通讯框><Speaker>玛姬</Speaker>;NPC-Scalper(0)||:<color=#00CCFF>那一枪很痛吧？</color>+<color=#00CCFF>……好像，我总是在各种各样的任务里抛下你。</color>
-ColtWalker(3)<通讯框>;NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>……没事，我还有八十个备份呢，你记得回收我就行。</color>+<color=#00CCFF>这种事也不是第一次了。</color>
-ColtWalker(1)<通讯框><Speaker>玛姬</Speaker>;NPC-Scalper(0)||:<color=#00CCFF>……</color>+<color=#00CCFF>话说，每次抛下你的时候，你会不会难过？</color>
-ColtWalker(1)<通讯框>;NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>……又不记得，每次都是全新的体验。</color>
-ColtWalker(1)<通讯框><Speaker>玛姬</Speaker>;NPC-Scalper(0)||:<color=#00CCFF>那看来还是挺难过的嘛。</color>
-ColtWalker(1)<通讯框>;NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>你被盗号了吗？怎么说话叽叽歪歪的。</color>
-ColtWalker(1)<通讯框><Speaker>玛姬</Speaker>;NPC-Scalper(3)||:<color=#00CCFF>没，反正现在没事干，瞎聊聊。</color>
-ColtWalker(1);NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>少矫情了！我们是人形，又不是人类。</color>+<color=#00CCFF>难受的话洗掉这段记忆就好啦，而且我们连生存都费尽心思了，想那么多干啥。</color>
-ColtWalker(1)<通讯框><Speaker>玛姬</Speaker>||:<color=#00CCFF>这也不算矫情吧，只是……</color>
-ColtWalker(4)<通讯框><Speaker>玛姬</Speaker>||:<color=#00CCFF>……谁？</color>
-()||<SE1>AVG_whitenoise</SE1>:说话间，玛姬忽然好像察觉到了什么，与凯瑟琳说话的温和声音陡然一变。
-Erma(0)<通讯框><Speaker>艾尔玛</Speaker>||:<color=#00CCFF>咳咳……那个，我不是有意偷听的……</color>
-Erma(0)<通讯框>;NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>……都偷听了能不是故意的吗？！</color>
-Erma(1)<通讯框><Speaker>艾尔玛</Speaker>;NPC-Scalper(3)||:<color=#00CCFF>……我就是看这边有信息波动，以为是什么不得了的东西。</color>+<color=#00CCFF>打扰了，你们继续。</color>
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>你想来就来想走就走？</color>
-ColtWalker(1)<通讯框><Speaker>玛姬</Speaker>;NPC-Scalper(3)||:<color=#00CCFF>没想到你骇入信息也挺有一手的。</color>+<color=#00CCFF>凯瑟琳你还是挺有眼光嘛，挑这么个素体给我。</color>
-ColtWalker(1)<通讯框>;NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:<color=#00CCFF>……喂。</color>
-ColtWalker(2)<通讯框><Speaker>玛姬</Speaker>||:<color=#00CCFF>你应该知道了吧，我们要你上车可不是免费的。</color>
-Erma(0)<通讯框><Speaker>艾尔玛</Speaker>||:<color=#00CCFF>……现在我知道了。</color>+<color=#00CCFF>难怪你们不要钱，却要我抵押素体。</color>+<color=#00CCFF>那我在柯尔特快车上赚的2盎司，还会给我吗？</color>
-()||<SE1>AVG_tele_disconnect</SE1><黑点1>:凯瑟琳毫不犹豫地掐断了通讯。
-()||<黑点2><BIN>530</BIN><narrator>:“未来号”洲际列车 F01/F02车厢连接处
-()||:空气中依然漂浮着淡淡的血腥气，沉重凝滞的氛围也萦绕不散。
-()||<SE1>AVG_20Winter_Gate_Close</SE1>:咔嗒。+直到一声清脆的声音响起，众人的目光才齐齐看向那个在门前操作的人形。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:……♪
-()||<SE1>AVG_Cloak_Whoosh</SE1>:玛姬转过身来，沐浴着众人的目光，十分潇洒地甩手行了一个鞠躬礼。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:尊敬的各位乘客，你们好。+您预定的F01号车厢现在已经准备完毕。+祝您旅途愉快~
-Erma(0)<Speaker>艾尔玛</Speaker>||:……乘务员玛姬小姐，给我来一份当季限定套餐。
-ColtWalker(2)<Speaker>玛姬</Speaker>||:那需要额外的小费。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:柳德米拉无视两人，直接进门，粗略地检查了一下车厢内的情况。
-()||<SE1>Stop_AVG_loop</SE1>:不知为何，这里空无一人。+但在危难重重的当下，这点疑问暂时被压在了柳德米拉的脑后。+她走出来向众人点了点头。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:按这种防御等级，如果没有重火力攻击的话，撑到波兹南应该不是问题。
-NPC-Doctor(0)<Speaker>鲁戈萨</Speaker>||:那我们就先进去了……接下来是你们的“表演”了。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……嗯。
-()||<SE1>AVG_Crowd_Run</SE1>:乘客们慌不择路地挤入了特等车厢，只留下鲁戈萨一人在门口与人形们做最后的交谈。+鲁戈萨看着柳德米拉，郑重地对她鞠了一躬。
-NPC-Doctor(0)<Speaker>鲁戈萨</Speaker>||<SE1>ClothingUp</SE1>:一切拜托了。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
-()||<SE1>AVG_BaseDoor_Close</SE1><BGM>BGM_Empty</BGM>:无言中，柳德米拉关闭了特等车厢的大门。+一瞬间，整个车厢连接处只剩下三位人形。
-ColtWalker(1)<Speaker>玛姬</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:……虽说有一点马后炮。+不过，这里只靠我们三个真的能行吗？
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:如果你想打退堂鼓……+我一个人也可以。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:真的？这可是你自己说的。
-Erma(0)<Speaker>艾尔玛</Speaker>||:……
-Erma(0)<同时置暗><Speaker></Speaker>||<SE1>ClothingUp</SE1>:艾尔玛抬头看了玛姬一眼。
-Erma(0)<Speaker>艾尔玛</Speaker>||:我刚才重建通讯信号的时候，在你的心智里扫了一眼。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……+艾尔玛小姐，这种行为很不礼貌。
-()||:艾尔玛全然没有羞愧的意思，反而更加理直气壮。
-Erma(0)<Speaker>艾尔玛</Speaker>||:如果你不配合柳德米拉。+我就把你的“柯尔特快车”给拆了。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……
-ColtWalker(3)<同时置暗><Speaker></Speaker>||:玛姬的嘴角抽了抽。
-ColtWalker(1)<Speaker>玛姬</Speaker>||<SE1>Rope</SE1>:……凯瑟琳，你真的很会挑人。
-()||:三人一时无话。
-()||<SE1>AVG_tele_connect</SE1>:这时，一条加密通讯突然闯进了柳德米拉的私密频道。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:<color=#00CCFF>……教官小姐。</color>+<color=#00CCFF>你没忘记自己的身份和任务吧？</color>
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>;ColtWalker(1)||:<color=#00CCFF>……在这里顺手解决掉你，并不是件难事。</color>
-AR18(6)<Position>0,70</Position>;ColtWalker(1)<Speaker>玛姬</Speaker>||:<color=#00CCFF>别冲动嘛，还记得我说过——只要价码合适，我们也可以交易吗？</color>
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>;ColtWalker(1)||:<color=#00CCFF>在我看来，比起生意人，欺诈师更适合用来形容你。</color>
-AR18(6)<Position>0,70</Position>;ColtWalker(1)<Speaker>玛姬</Speaker>||:<color=#00CCFF>这只是我们观点上的小小分歧——欺诈当然也是一种交易，或者说交易难道不就是一种欺诈？</color>+<color=#00CCFF>我们都在想方设法地用低于市场价的金额，来获得想要的东西，我不觉得两者有很大的区别。</color>
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>;ColtWalker(1)||:<color=#00CCFF>巧舌如簧。</color>
-ColtWalker(1)<Speaker>玛姬</Speaker>||:<color=#00CCFF>那么……教官小姐。</color>+<color=#00CCFF>你是否愿意和我做个交易呢？</color>
-()||<黑屏1>:
+()||<黑屏2><BIN>528</BIN><narrator>:Carriage F09 (Dining Carriage), Intercontinental Railway train "Future".
+()||<白屏1><BGM>GF_2022_Summer_AVG_3</BGM>:... +The Dolls within the dining carriage seem calm enough, but their real consciousnesses are having a knock-down drag-out fight elsewhere...
+()||<白屏2><BIN>249</BIN><SE1>AVG_tele_connect</SE1>:...Inside Erma's comms channel.
+()<Speaker>Doll A</Speaker>||:<color=#00CCFF>Fight the VORY?! Are you insane?!</color> +<color=#00CCFF>We're just ordinary civilian Dolls.</color>
+()<Speaker>Doll B</Speaker>||:<color=#00CCFF>I-I can't do it, you don't know how scary these guys are!</color> +<color=#00CCFF>I'm not even armed...</color>
+()<Speaker>Doll C</Speaker>||:<color=#00CCFF>We're kinda fine right now...</color> +<color=#00CCFF>If we behave, they won't cause us trouble...</color> +<color=#00CCFF>Who'd go all out against a toaster anyway?</color>
+NPC-TD_Worker(1)<通讯框><Speaker>Pavel</Speaker>||:<color=#00CCFF>Reporting from Carriage F09.</color> +<color=#00CCFF>12 Vory, 3 sentry droids.</color> +<color=#00CCFF>My body is fully functional.</color>
+()<Speaker>Doll A</Speaker>||:<color=#00CCFF>A-are you for real...</color>
+NPC-TD_Worker(1)<通讯框><Speaker>Pavel</Speaker>||:<color=#00CCFF>I worked on the Siberian Lifeline Project, namely the route this very train travels on.</color> +<color=#00CCFF>I am very familiar with the structure and loadout of this train.</color> +<color=#00CCFF>Once you activate me, I can work with you.</color>
+()<Speaker>Doll D</Speaker>||:<color=#00CCFF>...Hey, don't forget to save me too!</color> +<color=#00CCFF>I, I used to do tricks in a circus, so I'm pretty agile.</color> +<color=#00CCFF>Now that I think about it, humans aren't so scary after all!</color>
+()||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Beepbeep—</color>
+()||:<color=#00CCFF>Channel is now muted—</color>
+AR18(2)<通讯框><Speaker>Lyudmila</Speaker>||:<color=#00CCFF>Don't waste time on pointless details.</color> +<color=#00CCFF>Report the situation in the carriages you're in. Follow Mr. Pavel's format.</color> +<color=#00CCFF>I'll be taking command now.</color>
+()||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Beepbeep—</color>
+()||:<color=#00CCFF>Channel is now unmuted—</color>
+()<Speaker>Doll A</Speaker>||:<color=#00CCFF>Reporting from Carriage F12.</color> +<color=#00CCFF>3 Vory, no sentry droids.</color> +<color=#00CCFF>My body is partially damaged.</color>
+()<Speaker>Doll B</Speaker>||:<color=#00CCFF>Reporting from Dining Carriage F18.</color> +<color=#00CCFF>5 Vory, 1 sentry droid.</color> +<color=#00CCFF>My body is fully functional.</color>
+()||:...
+()||<黑点1><BGM>BGM_Empty</BGM>:...
+()||<黑点2><BIN>528</BIN><BGM>GF_EV9_Story</BGM>:Catherine listens quietly. She's saying surprisingly little. +This is practically silence for her.
+ColtWalker(4)<通讯框><Speaker>Maggie</Speaker>||:<color=#00CCFF>Are you okay?</color>
+ColtWalker(4)<通讯框>;NPC-Scalper(0)<Speaker>Catherine</Speaker>||:<color=#00CCFF>No need to worry about me. You should try to get out of there.</color> +<color=#00CCFF>The mission is still the top priority.</color>
+ColtWalker(3)<通讯框><Speaker>Maggie</Speaker>;NPC-Scalper(0)||:<color=#00CCFF>That gunshot must have hurt, right?</color> +<color=#00CCFF>...It feels like I keep having to feed you to the sharks on all kinds of missions.</color>
+ColtWalker(3)<通讯框>;NPC-Scalper(0)<Speaker>Catherine</Speaker>||:<color=#00CCFF>...Well, I have 80 more backups, so just remember to collect me.</color> +<color=#00CCFF>It's happened before. I know the drill.</color>
+ColtWalker(1)<通讯框><Speaker>Maggie</Speaker>;NPC-Scalper(0)||:<color=#00CCFF>...</color> +<color=#00CCFF>By the way, do you feel sad when I abandon you?</color>
+ColtWalker(1)<通讯框>;NPC-Scalper(0)<Speaker>Catherine</Speaker>||:<color=#00CCFF>...Not like I remember; it's a brand new experience each time.</color>
+ColtWalker(1)<通讯框><Speaker>Maggie</Speaker>;NPC-Scalper(0)||:<color=#00CCFF>You sound pretty upset alright.</color>
+ColtWalker(1)<通讯框>;NPC-Scalper(3)<Speaker>Catherine</Speaker>||:<color=#00CCFF>Who are you, and what have you done with Maggie? Why are you talking about all this crap?</color>
+ColtWalker(1)<通讯框><Speaker>Maggie</Speaker>;NPC-Scalper(3)||:<color=#00CCFF>Just making idle conversation since we've got nothing to do anyway.</color>
+ColtWalker(1);NPC-Scalper(3)<Speaker>Catherine</Speaker>||:<color=#00CCFF>Quit pretending! We're Dolls, not humans.</color> +<color=#00CCFF>If something feels bad, all we have to do is get rid of the memories. It's tiring enough just to survive. Who's got the energy to overthink such things, anyway?</color>
+ColtWalker(1)<通讯框><Speaker>Maggie</Speaker>||:<color=#00CCFF>I'm not pretending, I'm just...</color>
+ColtWalker(4)<通讯框><Speaker>Maggie</Speaker>||:<color=#00CCFF>...Who's that?</color>
+()||<SE1>AVG_whitenoise</SE1>:Halfway through the conversation, Maggie senses something, and the gentle tone she's using with Catherine instantly changes.
+Erma(0)<通讯框><Speaker>Erma</Speaker>||:<color=#00CCFF>Ahem... Uh... I didn't mean to eavesdrop on you guys...</color>
+Erma(0)<通讯框>;NPC-Scalper(3)<Speaker>Catherine</Speaker>||:<color=#00CCFF>But you already did, didn't you?!</color>
+Erma(1)<通讯框><Speaker>Erma</Speaker>;NPC-Scalper(3)||:<color=#00CCFF>...Well, I picked up some signal fluctuations and thought it was something extraordinary.</color> +<color=#00CCFF>Sorry to bother you, please continue.</color>
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:<color=#00CCFF>What, you think you can just walk in and out as you like?</color>
+ColtWalker(1)<通讯框><Speaker>Maggie</Speaker>;NPC-Scalper(3)||:<color=#00CCFF>Quite the hacker, aren't you?</color> +<color=#00CCFF>Catherine, good job on picking this body for me.</color>
+ColtWalker(1)<通讯框>;NPC-Scalper(3)<Speaker>Catherine</Speaker>||:<color=#00CCFF>...Oi.</color>
+ColtWalker(2)<通讯框><Speaker>Maggie</Speaker>||:<color=#00CCFF>You do know, right? Your train ride isn't free.</color>
+Erma(0)<通讯框><Speaker>Erma</Speaker>||:<color=#00CCFF>...I do now.</color> +<color=#00CCFF>No wonder you didn't want money but rather wanted me to put my body up as collateral.</color> +<color=#00CCFF>So, am I getting back the 2 ounces I earned on the Colt Express?</color>
+()||<SE1>AVG_tele_disconnect</SE1><黑点1>:Catherine hangs up without any hesitation.
+()||<黑点2><BIN>530</BIN><narrator>:At the gangway connection between Carriages F01 and F02 of the Intercontinental Railway train "Future".
+()||:The faint scent of blood hangs in the air, and the mood is heavy and stagnant.
+()||<SE1>AVG_20Winter_Gate_Close</SE1>:Click. +That is, until a crisp sound rings out, and everyone turns to the Doll fiddling with the door.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:...♪
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Maggie turns around, bathing in the audience's attention before executing a stylish bow.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Greetings, dear passengers. +The carriage F01 that you've booked is now ready. +Enjoy your trip~
+Erma(0)<Speaker>Erma</Speaker>||:...Stewardess Maggie, I'd like a seasonal set meal.
+ColtWalker(2)<Speaker>Maggie</Speaker>||:I'll have to charge an extra fee for that.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Ignoring the two of them, Lyudmila enters the carriage and gives the interior a quick once-over.
+()||<SE1>Stop_AVG_loop</SE1>:For some reason, this place is empty. +However, given how dangerous the current situation is, Lyudmila leaves that question aside for now. +She comes back out and nods to everyone.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:Considering the level of the defenses here, we should be able to make it to Poznań if they don't hit us with heavy firepower.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:I'll be going in first, then... The rest of the "show" is up to you.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:...Right.
+()||<SE1>AVG_Crowd_Run</SE1>:The passengers hurriedly squeeze into the first-class carriage, leaving Rugosa at the doorway to exchange some final words with the Dolls. +Rugosa looks at Lyudmila and bows solemnly to her.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<SE1>ClothingUp</SE1>:We're counting on you.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:...
+()||<SE1>AVG_BaseDoor_Close</SE1><BGM>BGM_Empty</BGM>:Lyudmila silently closes the door to the first-class carriage. +In an instant, there are only three Dolls left at the gangway connection.
+ColtWalker(1)<Speaker>Maggie</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:...It's kind of late to say this now, but... +Can we really do this with just the three of us?
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:Well, if you want to back out now... +I can do this myself.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Really? Your words, not mine.
+Erma(0)<Speaker>Erma</Speaker>||:...
+Erma(0)<同时置暗><Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma looks up at Maggie.
+Erma(0)<Speaker>Erma</Speaker>||:I took a look around your neural cloud while I was reconstructing the comms signal.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:... +That's very rude, Miss Erma.
+()||:Erma doesn't seem embarrassed at all. Instead, she seems even more righteous than before.
+Erma(0)<Speaker>Erma</Speaker>||:If you don't work with Lyudmila... +I'll scrap your precious Colt Express.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:...
+ColtWalker(3)<Speaker>Maggie</Speaker>||:...
+ColtWalker(3)<同时置暗><Speaker></Speaker>||:Maggie's mouth twitches.
+ColtWalker(1)<Speaker>Maggie</Speaker>||<SE1>Rope</SE1>:...You REALLY know how to pick people, Catherine.
+()||:The three of them are briefly silent.
+()||<SE1>AVG_tele_connect</SE1>:Just then, an encrypted transmission suddenly enters Lyudmila's private channel.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:<color=#00CCFF>...Madam Instructor.</color> +<color=#00CCFF>I hope you haven't forgotten your role and mission?</color>
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>;ColtWalker(1)||:<color=#00CCFF>...Getting rid of you on the spot isn't all that difficult, you know.</color>
+AR18(6)<Position>0,70</Position>;ColtWalker(1)<Speaker>Maggie</Speaker>||:<color=#00CCFF>Now, don't be hasty. Remember what I said—we can have a deal as long as you name the right price?</color>
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>;ColtWalker(1)||:<color=#00CCFF>The way I see it, you're more of a con artist than a businesswoman.</color>
+AR18(6)<Position>0,70</Position>;ColtWalker(1)<Speaker>Maggie</Speaker>||:<color=#00CCFF>It's just a matter of perspective—extortion is still a kind of transaction. In fact, aren't all transactions at least a little extortionate?</color> +<color=#00CCFF>We all use whatever means necessary to obtain what we want for a cheaper price. I don't see how I'm any different.</color>
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>;ColtWalker(1)||:<color=#00CCFF>You silver-tongued devil.</color>
+ColtWalker(1)<Speaker>Maggie</Speaker>||:<color=#00CCFF>So... Madam Instructor.</color> +<color=#00CCFF>Would you like to do business with me?</color>
+()||<黑屏1>:

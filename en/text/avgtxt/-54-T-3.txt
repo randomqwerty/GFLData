@@ -1,68 +1,68 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>533</BIN><Night><narrator>:“未来号”洲际列车 F01车厢（特等车厢）
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||<BGM>GF_2022_Summer_Battle_1</BGM>:<color=#A9A9A9>任务优先级，找到目标，确认艾尔玛的心智问题。</color>
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:先生，先生！+有人能帮帮我吗？我挪不动这些……
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:……
-()||<SE1>AVG_footsteps_woodfloor</SE1>:塔亚柔斯无视了卢卡斯的求助，跨过地上的尸体和还在呻吟的人类，走向了下一个车厢。
+()||<黑屏2><BIN>533</BIN><Night><narrator>:Carriage F01 (VIP-Class Carriage), Intercontinental Railway train "Future".
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||<BGM>GF_2022_Summer_Battle_1</BGM>:<color=#A9A9A9>Priority mission—find the target and verify Erma Hume's neural cloud issues.</color>
+NPC-TD_Boy(0)<Speaker>Lucas</Speaker>||:Doctor, doctor! +Can someone help me? I can't move these...
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||:...
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Ignoring Lucas' pleas, Tareus steps over the corpses and moaning humans into the next carriage.
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1>:
-()||<黑屏2><BIN>531</BIN><Night><narrator>:“未来号”洲际列车 F03车厢（二等车厢）
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:……
-()||:在一片狼藉中，她首先注意到了那个蓝色的小书包，即便是在这样的动乱下，那个小小的铃铛也安然地挂在侧袋上。+只是它的主人就没有那么幸运了。+被那个哭嚎着的妇人称作“伊芙”的小女孩，此刻就毫无生气地躺在过道上，清澈的双眼直勾勾地看向天花板。+塔亚柔斯没有找到目标，准备转身离开。
-()||<SE1>AVG_Chimes</SE1>:叮铃——+脚勾到了书包的袋子，引起铃铛的一阵轻响。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:唔……
-()||:小小的粉色的斜挎包，上面挂着的铃铛摇曳不停——
-()||<SE1>AVG_Chimes</SE1>:叮铃——叮铃——
-()<Speaker>？？？</Speaker>||:放学了！该回家了。
+()||<黑屏2><BIN>531</BIN><Night><narrator>:Carriage F03 (Second-Class Carriage), Intercontinental Railway train "Future".
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||:...
+()||:The first thing she notices amidst the chaos is that bright blue school bag from before. The bell ornament is still attached to its side. +Its owner, however, is not as fortunate. +The girl that the weeping woman called "Eve" lies lifelessly in the aisle, her clear eyes staring at the ceiling. +Not finding her objective here, Tareus turns to continue in her search.
+()||<SE1>AVG_Chimes</SE1>:Ring— +Her foot hooks the corner of the bag and the bell rings quietly.
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||:Ngh...
+()||:A pink sling bag... with a bell ringing nonstop—
+()||<SE1>AVG_Chimes</SE1>:Ring—Ring—
+()<Speaker>???</Speaker>||:School's out! Time to head home.
 ()||<黑屏1>:
-()||<黑屏2><BIN>9</BIN><SE1>AVG_21Winter_Error</SE1>:Error！！！
-()||<SE1>AVG_whitenoise</SE1>:强劲的电流在脑海中炸开，这一次的惩罚格外强烈。+塔亚柔斯的整个虚识图景都被涂黑，她感觉自己的意识被掷入了深渊……
+()||<黑屏2><BIN>9</BIN><SE1>AVG_21Winter_Error</SE1>:Error!!!
+()||<SE1>AVG_whitenoise</SE1>:Another powerful electric current erupts inside her head. The penalty this time is exceptionally severe. +Tareus' entire virtual cognition image goes dark and it feels as if she's been cast into an abyss...
 ()||<黑屏1>:
-()||<睁眼><BIN>531</BIN><Night>:……
-()||<SE1>AVG_tele_connect</SE1>:嘀——+塔亚柔斯睁开了双眼，她站在一片狼藉的二等车厢中。+她打开了刚刚收到的新消息——
-()||<narrator>:10点15分，克拉科夫要塞亚欧班列货运列车疑似出现目标
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:……+……情报回溯完毕。+当前最优先任务，确认目标信息。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:塔亚柔斯抬脚跨过了蓝色的小书包，消失在了二等车厢中。
+()||<睁眼><BIN>531</BIN><Night>:...
+()||<SE1>AVG_tele_connect</SE1>:Beep— +Tareus opens her eyes. She is standing in the mess that is the second-class carriage. +She opens the new message that she just received—
+()||<narrator>:22:15. Target possibly sighted on the Eurasian transport train at Kraków Fortress.
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||:... +...Information review complete. +Current top priority—verify target information.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Tareus steps over the blue bag and vanishes into the second-class carriage.
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1>:
-()||<黑屏2><BIN>530</BIN><Night><narrator>:“未来号”洲际列车 F01/F02车厢连接处
-()||<SE1>AVG_rifle_finalshot_h</SE1>:砰——
-()||<SE1>AVG_rifle_finalshot_3h</SE1>:砰砰砰——
-()||:列车外传来了一阵枪声，透过车窗，塔亚柔斯看见军队朝着面前的人群开枪。
-()||<SE1>AVG_Team_Running</SE1>:在简单整备队伍后，几支小队朝着列车前进。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:……+现在还不是时候。+他们到得太早。
-()||:塔亚柔斯再次打开了空白的频道。
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||:保持封锁状态，等待指令。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:数秒后，军队的行动停止了，塔亚柔斯再次清空了频道，走向下一个车厢。
+()||<黑屏2><BIN>530</BIN><Night><narrator>:Gangway connection between Carriages F01 and F02, Intercontinental Railway train "Future".
+()||<SE1>AVG_rifle_finalshot_h</SE1>:Bang—
+()||<SE1>AVG_rifle_finalshot_3h</SE1>:Bangbangbang—
+()||:The sounds of gunfire fill the air outside the train. Through the windows, Tareus can see military forces opening fire at the crowd in front of them.
+()||<SE1>AVG_Team_Running</SE1>:After quickly reorganizing themselves, several squads approach the train.
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||:... +Not yet. +They came too early.
+()||:Tareus opens the blank channel again.
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||:Maintain the lockdown. Stand by for instructions.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Several seconds later, the troops stop moving. Tareus clears the channel again and moves on to the next carriage.
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>529</BIN><Night><narrator>:“未来号”洲际列车 F02车厢（一等车厢）
-NPC-Tareus(1)<Speaker>塔亚柔斯</Speaker>||<BGM>GF_22W_BGM_4</BGM>:找到你了……
+()||<黑屏2><BIN>529</BIN><Night><narrator>:Carriage F02 (First-Class Carriage), Intercontinental Railway train "Future".
+NPC-Tareus(1)<Speaker>Tareus</Speaker>||<BGM>GF_22W_BGM_4</BGM>:Found you...
 ()||<黑屏1>:
-()||<黑屏2><BIN>526</BIN>:三个人形爆发了无聊的争吵。+听得无趣，塔亚柔斯不耐烦地冷哼了一声。
-()<Speaker>玛姬</Speaker>||:……怎么了，塔亚柔斯小姐？
-()<Speaker>塔亚柔斯</Speaker>||:……你负责矮个子，心智，两个都要。+碍事。
-()<Speaker>玛姬</Speaker>||:一切如您所愿。
-()||<SE1>AVG_Shield_Startup</SE1>:塔亚柔斯抬起手，再一次聚集起了浮游炮的火力——+但方才还奄奄一息的柳德米拉突然抬起了头。
-()<Speaker>塔亚柔斯</Speaker>||:……嗯？+<color=#A9A9A9>不对劲。</color>
-()||:怪异的感觉让塔亚柔斯停顿了一瞬。
-()||<SE1>AVG_The_Division_Flare_Gun</SE1>:轰！
+()||<黑屏2><BIN>526</BIN>:A pointless dispute has broken out among the three Dolls. +It doesn't interest her, and Tareus grunts in annoyance.
+()<Speaker>Maggie</Speaker>||:...What's the matter, Miss Tareus?
+()<Speaker>Tareus</Speaker>||:...You take care of the short one. I want both neural clouds. +She's in the way.
+()<Speaker>Maggie</Speaker>||:As you wish.
+()||<SE1>AVG_Shield_Startup</SE1>:Tareus raises her hand and musters the firepower of her floating cannons— +But Lyudmila suddenly jerks her head up.
+()<Speaker>Tareus</Speaker>||:...Hm? +<color=#A9A9A9>Something's not right.</color>
+()||:The strange sensation makes Tareus freeze for a moment.
+()||<SE1>AVG_The_Division_Flare_Gun</SE1>:Boom!
 ()||<白屏1>:
-()||<白屏2><BIN>529</BIN><Night>:威力甚至远胜刚才的光束瞬间自塔亚柔斯头顶射出，将路径上经过的所有物品尽数融化。+——然而，最重要的目标，却在攻击之前，就已经失去了踪影。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……
-()||:艾尔玛，柳德米拉……甚至是她身后的玛姬。+全在她攻击的那一刻，消失得无影无踪。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……
-()||<SE1>AVG_tele_connect</SE1>:滴滴——
-()||<SE1>AVG_keyboardtype_sci</SE1>:信号检索：柳德米拉，信号检索中……+……检索失败。
-()||<SE1>AVG_keyboardtype_sci</SE1>:信号检索：玛姬·庞兹，信号检索中……+……检索失败。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:混账……
-()||<SE1>AVG_Fire_Bonfire</SE1>:滋啦——一种难以言说的情绪在内心中灼烧起来，她晃了晃脑袋，企图将这种恼人的东西清除掉。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:请求执行还原指令。
-()||:一个冷冰冰的声音在她的虚识图景中出现。+“请求驳回。”
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……
-()||<SE1>Rope</SE1>:灼烧感愈加强烈，塔亚柔斯抓住自己头上的抑制器，狠狠撕扯起来。
-()||<SE1>AVG_Breathing</SE1>:在痛苦的喘息声中，她跪倒在地上，用头撞击地面。
-()||<SE1>AVG_Door_Hit</SE1>:咚——咚——
-()||<SE1>AVG_Door_Hit</SE1>:在漫长难熬的撞击声中，塔亚柔斯的喘息渐渐平复……
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……+目标已失踪。+申请继续执行任务，调整当前任务优先级，优先锁定人形玛姬·庞兹。
-()||:她第三次打开了空白频道。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……开始行动。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:关闭手中的通讯器后，塔亚柔斯走向了下一个车厢。
-()||<黑点1><SE1>Stop_AVG_loop</SE1>:
+()||<白屏2><BIN>529</BIN><Night>:A laser beam that is even more powerful than the ones before shoots out from Tareus' head, melting everything in its way. +—However, its chief target has already disappeared before the attack even started.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...
+()||:Erma, Lyudmila... and even Maggie behind her. +They have all vanished without a trace before she attacked.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...
+()||<SE1>AVG_tele_connect</SE1>:Beepbeep—
+()||<SE1>AVG_keyboardtype_sci</SE1>:Signal search—Lyudmila. Searching... +...Search failed.
+()||<SE1>AVG_keyboardtype_sci</SE1>:Signal search—Maggie Ponzi. Searching... +...Search failed.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:Dammit...
+()||<SE1>AVG_Fire_Bonfire</SE1>:(Crackle) A feeling that she can't quite articulate burns in her heart. She shakes her head, trying to expel this frustrating feeling.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:Requesting execution of restore command.
+()||:A cold voice speaks in her virtual cognition image. +"Request denied."
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...
+()||<SE1>Rope</SE1>:The burning sensation grows. Tareus grabs the inhibitor on her head and savagely yanks it off.
+()||<SE1>AVG_Breathing</SE1>:She falls to her knees, grunting in pain, and bangs her head against the ground.
+()||<SE1>AVG_Door_Hit</SE1>:Thump—Thump—
+()||<SE1>AVG_Door_Hit</SE1>:After a long, excruciating series of impacts, Tareus' panting gradually recedes...
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:... +Target lost. +Requesting permission to continue the mission. Adjusting current mission priorities; priority is locating the target Doll Maggie Ponzi.
+()||:She keys up the blank channel a third time.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Commencing operation.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:After turning off the communicator in her hand, Tareus moves on to the next carriage.
+()||<黑点1><SE1>Stop_AVG_loop</SE1>:

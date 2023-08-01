@@ -1,221 +1,221 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:数十年前，德国。+黄区某中心城市。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:Several decades ago, in Germany. +Inside a certain central city in the Yellow Zone.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>168</BIN><BGM>GF_EV9_Story</BGM><黑屏2><SE1>AVG_20Winter_Door_Open</SE1>:贫民区小巷尽头。陈旧的木门“吱呀”一声打开，将温暖的光辉洒向昏沉的黑夜。+裹着破斗篷的妇女怀抱孩子从诊所内走出，不停地回首致谢。
-()<Speaker>难民母亲</Speaker>||:谢谢您，鲁戈萨医生……您的恩德我们永远也不会忘记。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:客气了……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:鲁戈萨医生轻轻叹了口气，合上诊所的门。
+()<Speaker></Speaker>||<BIN>168</BIN><BGM>GF_EV9_Story</BGM><黑屏2><SE1>AVG_20Winter_Door_Open</SE1>:At the end of an alley in the slums, an old door creaks loudly as it opens, shedding warm light onto the dark night outside. +A woman in a ragged cloak hugs a child as she leaves the clinic, turning back frequently to give thanks.
+()<Speaker>Refugee Mother</Speaker>||:Thank you, Dr. Rugosa... We will never forget your kindness.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:You're welcome...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Dr. Rugosa sighs quietly and closes the door to the clinic.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>270</BIN><黑屏2>:诊所内。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:鲁戈萨医生颓然倒在扶手椅中。他伸手端起咖啡杯，却发现杯底的水渍早已干涸。+鲁戈萨夫人从内门走出，捧着一叠清洗干净的纱布。
-()<Speaker>鲁戈萨夫人</Speaker>||:病人的状况怎么样？
-()<Speaker></Speaker>||:鲁戈萨夫人照例问起丈夫的工作，语气却有些程式般的疲惫。+尤金•鲁戈萨挠了挠头，双手交叉托起下巴。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:勉强保住了性命，但接下来如果不继续药物治疗，还是难逃恶化的结局。+明天我就抽空再去找一找……
-()<Speaker>鲁戈萨夫人</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:鲁戈萨夫人放下纱布，沉默地接过鲁戈萨医生手中的咖啡杯，用围裙擦了擦表面。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:怎么了？
-()<Speaker>鲁戈萨夫人</Speaker>||:我们的积蓄已经所剩无几了。+剩下的钱如果用来给患者买药，我们下周连面包都买不起了。
-()<Speaker></Speaker>||:妻子的这番话忽然令尤金•鲁戈萨陷入深深的愁绪。+几年前，他怀着“彻底治愈坍塌辐射”的想法，义无反顾地离开绿区来到这里，几乎自掏腰包地为黄区居民治病。+他将自己全部的精力与热忱都奉献给了这片焦土，但却也因此拖垮了自己的家庭……
-()<Speaker>鲁戈萨夫人</Speaker>||:……至少也该为卢卡斯考虑一下吧？+他的身体本来就不好，为了支持你的诊所，他现在的状况更糟糕了……+哪怕就这一次——请你慎重地考虑我们的未来，好吗？
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:烛光微微晃动着，恰如鲁戈萨医生摇摆不定的心绪。在沉默良久后，鲁戈萨医生终于下定决心——<c>购买治病的关键药剂。<c>将诊所搬至富人区附近。<c>投资理财，赚取利润。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支><BIN>270</BIN>:好吧，亲爱的……也许你说得对。+为了卢卡斯，我们应该先好好生活……
-()<Speaker></Speaker>||<分支>2</分支>:……
+()<Speaker></Speaker>||<BIN>270</BIN><黑屏2>:Inside the clinic.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Dr. Rugosa collapses into his armchair. He reaches out to his mug but finds that the water at the bottom has long since dried up. +Mrs. Rugosa emerges from an inside door with a stack of cleaned bandages.
+()<Speaker>Mrs. Rugosa</Speaker>||:How's your patient?
+()<Speaker></Speaker>||:Mrs. Rugosa asks her husband the usual question about his patients, but her tone suggests a kind of formulaic tiredness. +Eugene Rugosa scratches his head and steeples his fingers under his chin.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:His life is spared for now, but if he can't get his medication, his condition will inevitably deteriorate. +I'll take some time out tomorrow to look for some...
+()<Speaker>Mrs. Rugosa</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mrs. Rugosa puts down the bandages and silently takes the coffee mug from Dr. Rugosa before cleaning it with her apron.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:What's wrong?
+()<Speaker>Mrs. Rugosa</Speaker>||:Our savings have almost dried up completely. +If we spend the rest of our money on medicine for our patients, we won't have enough to afford bread next week.
+()<Speaker></Speaker>||:His wife's words suddenly send Eugene Rugosa into a deep depression. +Several years ago, he left the Green Zone with the aspiration of "thoroughly eradicating ELID infection" and came here to treat the people of the Yellow Zone practically at his own expense. +He has poured his energy and passion into this parched land, but his own household has collapsed as a result...
+()<Speaker>Mrs. Rugosa</Speaker>||:...Shouldn't you spare a thought for Lucas, at least? +His health was never good, but supporting your practice has made his condition worse... +Just for once—please consider our future, alright?
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:The candle flame flickers like Dr. Rugosa's wavering heart. After a long silence, Dr. Rugosa makes up his mind—<c>To buy the essential medication to treat his patients.<c>To move his clinic near the wealthy district.<c>To invest his finances and turn a profit.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支><BIN>270</BIN>:Alright, dear... Perhaps you're right. +We must live well, for Lucas' sake...
+()<Speaker></Speaker>||<分支>2</分支>:...
 ()||<黑屏1><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><黑屏2><BIN>160</BIN><BGM>BGM_Moon</BGM>:数月后，富人区附近的新诊所。+离开贫民区的鲁戈萨医生凭借精湛的医术，迅速在这里闯出了一番天地，声望与财富与日俱增。+在接连得到众位富豪名流的慕名邀请后，鲁戈萨医生一家决定搬回绿区。
-()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_20Winter_Book</SE1>:鲁戈萨夫人激动地打包行李，忽然停下脚步，从口袋里翻出邀请函，喃喃地念着。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>2</分支>:尤金，你敢相信吗？这一切都像做梦一样……我们居然要回绿区了！
-()<Speaker></Speaker>||<分支>2</分支>:尽管屋内充斥着妻子兴奋的念叨，鲁戈萨医生却依然心事重重。
-NPC-TD_Boy(2)<Speaker>卢卡斯</Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:爸爸，你在想什么？
-()<Speaker></Speaker>||<分支>2</分支>:卢卡斯摇了摇鲁戈萨医生的胳膊，一双明亮的眼睛好奇地张望。+鲁戈萨医生微笑着，轻轻揉着卢卡斯的头。他的个子比数月前高了一些，气色也好了起来。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:在离开这里以前，爸爸还想出去看看……
-NPC-TD_Boy(2)<Speaker>卢卡斯</Speaker>||<分支>2</分支>:去哪儿？
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:去爸爸之前开过诊所的地方，那个很窄很旧的小巷……卢卡斯，你去吗？
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>2</分支>:那又破又危险的地方有什么值得看的？你自己怀旧就算了，别带上可怜的卢卡斯。
-()<Speaker></Speaker>||<分支>2</分支>:妻子有些冰冷的话语打断了父子间小小的温馨场面。卢卡斯吐了吐舌头，敏捷地跑回母亲身边。+尤金能理解妻子的感受——如果一颗脆弱的心灵在痛苦与煎熬中度过漫长的岁月，那么一旦挣脱那里，她便再也不会萌生回去的念头……
-()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_20Winter_Door_Open</SE1><SE1>ClothingUp</SE1>:鲁戈萨医生从椅子上站起，沉默地披上风衣，推开家门。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>2</分支>:早点回来，别耽误了下午的火车！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:知道了。
+()<Speaker></Speaker>||<分支>2</分支><黑屏2><BIN>160</BIN><BGM>BGM_Moon</BGM>:Several months later, at the new clinic near the wealthy district. +After leaving the slums, Dr. Rugosa quickly makes a name for himself with his exceptional medical practice, and his fortunes and reputation grow by the day. +After receiving invitations from one rich and famous individual to another, the Rugosa family decides to move back to the Green Zone.
+()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_20Winter_Book</SE1>:Mrs. Rugosa is packing her bags with great excitement. She suddenly stops to take the invitation out of her pocket and mutters to herself.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>2</分支>:Can you believe it, Eugene? It all feels like a dream... We're actually returning to the Green Zone!
+()<Speaker></Speaker>||<分支>2</分支>:Though the room is filled with his wife's elated exclamations, Dr. Rugosa's heart is still heavy.
+NPC-TD_Boy(2)<Speaker>Lucas</Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:Dad, what are you thinking about?
+()<Speaker></Speaker>||<分支>2</分支>:Lucas tugs on Dr. Rugosa's arm, his bright eyes looking up at him in curiosity. +Dr. Rugosa smiles and gently ruffles Lucas' hair. He's grown taller in the past few months, and he looks healthier too.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:Before we leave, Papa wants to go out and take a look...
+NPC-TD_Boy(2)<Speaker>Lucas</Speaker>||<分支>2</分支>:Where are you going?
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:To the site of Papa's former clinic in that old, narrow alley... Want to come along, Lucas?
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>2</分支>:What's there to see in that run-down, dangerous place? You can wax nostalgic if you want but don't drag poor Lucas down there with you.
+()<Speaker></Speaker>||<分支>2</分支>:His wife's icy words interrupt the heartwarming scene between father and son. Lucas sticks out his tongue and nimbly runs back to his mother's side. +Eugene can understand how his wife feels—if a weak, fragile soul spends a long time in pain and suffering, then once she struggles free of it, she won't want to go back...
+()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_20Winter_Door_Open</SE1><SE1>ClothingUp</SE1>:Dr. Rugosa rises from his chair and silently puts on his trenchcoat before pushing open the door to his home.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>2</分支>:Come back soon, and don't miss the afternoon train!
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:I know.
 ()||<黑点1><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2><SE1>AVG_20Winter_Door_Close</SE1>:晨光中，鲁戈萨医生理了理行囊，一路向记忆中熟悉的贫民区方向走去……
+()<Speaker></Speaker>||<分支>2</分支><BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2><SE1>AVG_20Winter_Door_Close</SE1>:In the morning sun, Dr. Rugosa sorts out his things and heads back to the familiar slums from his memories...
 ()||<黑屏1><分支>2</分支>:
-()<Speaker></Speaker>||<黑点2><分支>2</分支><BIN>168</BIN><BGM>GF_EV9_Story</BGM>:周边的风景随着脚步的变幻在不知不觉残破起来——
-()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_Spanner</SE1><SE1>AVG_whitenoise</SE1>:荒芜的花坛，脱节的电线、摇摇欲坠的广告牌……+当熟悉的街道再次出现在鲁戈萨医生眼前，往事也如烟云一般，亦幻亦真……
+()<Speaker></Speaker>||<黑点2><分支>2</分支><BIN>168</BIN><BGM>GF_EV9_Story</BGM>:The landscape around him grows more rugged and ruined with every step that he takes—
+()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_Spanner</SE1><SE1>AVG_whitenoise</SE1>:Barren flower patches, loose power cables, signboards on the verge of collapse... +These familiar streets once again appear before Dr. Rugosa's eyes, and memories of the past resurface in the doctor's mind, as fleeting as clouds of smoke, seemingly real and illusory at the same time...
 ()||<黑屏1><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><BIN>96</BIN><黑屏2><回忆><边框>2</边框>:数年前，医学院毕业典礼。
-()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:学生们一排排走到台前，虔诚地低头，接受老师们授予的拨穗仪式。+聚光灯照在一张张年轻锐意的脸上，台下响起雷鸣般的掌声。其中也包含刚刚下台，坐在第一排的毕业生代表尤金•鲁戈萨。
-()<Speaker>同学A</Speaker>||<分支>2</分支><边框>2</边框>:尤金，听说贝尔格莱德和莫斯科那边的医学实验室都对你抛出了橄榄枝……你想去哪个？
-()<Speaker>同学B</Speaker>||<分支>2</分支><边框>2</边框>:尤金到现在还没选，肯定是有了更好的去处啦！别藏着掖着，快和我们说说！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支><边框>2</边框>:我的确想好了。
-()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:鲁戈萨医生的眼中闪烁着激动的光芒，那宏大的、充满光明的图景正徐徐展开于他的面前……
-()<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支><边框>2</边框>:我要去黄区，去患者们最需要的地方。
-()<Speaker>同学A</Speaker>||<分支>2</分支><边框>2</边框>:黄区？！尤金，你没疯吧？！
-()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:邻座同学的惊叹很快引来了其他人的关注。
-()<Speaker>同学B</Speaker>||<分支>2</分支><边框>2</边框>:冷静点，尤金。理想主义那一套早就不适用于现在这个年代了！
-()<Speaker>同学C</Speaker>||<分支>2</分支><边框>2</边框>:没错。如果你是个大富翁，有散不尽的家财，去污染区做慈善也无不可。+可是以你现在的经济情况去给那些穷乡僻壤的刁民治病，不仅挣不了多少钱，甚至还要倒贴！+你一定要想清楚啊！
-()<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支><边框>2</边框>:谢谢诸位。+但是，“在我被吸收为医学事业中的一员时，我便已决心奉献于为人类服务的事业……极尽所能保持医学的荣誉与可贵的传统……”+这是我从医的初心，也是我人生的意义。+我不会放弃的。
-()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:……
+()<Speaker></Speaker>||<分支>2</分支><BIN>96</BIN><黑屏2><回忆><边框>2</边框>:Several years ago, at his medical school graduation ceremony.
+()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:The students form row after row as they approach the stage, sincerely bowing to their teachers and accepting their certificates from them. +The spotlights focus on one young, determined face after another, and thunderous applause erupts from the audience. Among them is the graduate representative Eugene Rugosa, who has just left the stage and is sitting in the first row.
+()<Speaker>Student A</Speaker>||<分支>2</分支><边框>2</边框>:Eugene, I heard you've got invitations from medical labs in both Belgrade and Moscow... Which one are you going for?
+()<Speaker>Student B</Speaker>||<分支>2</分支><边框>2</边框>:Since he still hasn't made his choice, I'm certain he's got an even better place to be! Come on, don't be all secretive; tell us!
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支><边框>2</边框>:Indeed, I've made up my mind.
+()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:Dr. Rugosa's eyes sparkle with emotion. That grand, glorious future is unfurling before him...
+()<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支><边框>2</边框>:I'm going to the Yellow Zone, where the sick need me most.
+()<Speaker>Student A</Speaker>||<分支>2</分支><边框>2</边框>:The Yellow Zone?! Eugene, are you mad?!
+()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:The gasps from the students beside him soon draw notice from the others.
+()<Speaker>Student B</Speaker>||<分支>2</分支><边框>2</边框>:Don't be rash, Eugene. That idealism stuff doesn't work in this day and age!
+()<Speaker>Student C</Speaker>||<分支>2</分支><边框>2</边框>:He's right. If you were loaded and had unlimited funds, it wouldn't be out of the question to do charity work in the contaminated zones. +But given your present financial situation, if you go and treat the poor in the slums, not only will you be paid peanuts, you may end up having to foot the bill yourself! +You must think this through!
+()<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支><边框>2</边框>:Thank you, everyone. +But the truth is, "Before I was chosen to become part of the medical profession, I had already made up my mind to devote my life to serving mankind... To do my best to preserve the glorious and noble tradition of medical practice..." +That is my reason for becoming a doctor, and the purpose of my life. +And I won't abandon it.
+()<Speaker></Speaker>||<分支>2</分支><边框>2</边框>:...
 ()||<黑屏1><边框>2</边框><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><黑屏2><BIN>168</BIN><关闭蒙版>:鲁戈萨医生眉头紧锁。眼前的街区与数年前刚来这里时并没有半分区别。+他还记得那时的自己是怎样怀着拯救人类的伟大理想来到这里，立志凭自己的医术改变人们的身体乃至精神……+可如今想来，竟都成了风中的残烟。
-()<Speaker>？？？</Speaker>||<分支>2</分支>:唉……
-()<Speaker></Speaker>||<分支>2</分支>:一声无奈的叹息将鲁戈萨医生的思绪拉回。
-()<Speaker></Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:年近耄耋的难民老人正哀愁地坐在台阶边，用苍老粗糙的手不断揉着自己的右腿。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:安东先生，请问需要帮助吗？
-()<Speaker></Speaker>||<分支>2</分支>:老人困惑地抬起头，许久才认出了尤金•鲁戈萨的脸。
-()<Speaker>难民老人</Speaker>||<分支>2</分支>:哦……这不是鲁戈萨医生吗？好久不见啦，您还好吗？
-()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_Zipper</SE1>:鲁戈萨医生蹲下身，熟练地打开背包，替难民老人仔细检查伤口。+数月前为老人缠上的纱布至今都没有更换。他的腿也因错过治疗，硅化症状愈加严重。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:你的伤势加剧了……
-()<Speaker>难民老人</Speaker>||<分支>2</分支>:我已经老了，治不治得好也就这样了……
-()<Speaker></Speaker>||<分支>2</分支>:难民老人笑了笑，旋即又叹了口气。
-()<Speaker>难民老人</Speaker>||<分支>2</分支>:只是可怜的尤利娅……她为了自己的孩子，一直在四处找您呢。
-()<Speaker></Speaker>||<分支>2</分支>:尤金•鲁戈萨想起，尤利娅正是在他做出抉择的那一晚前来拜访的难民母子。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:他们怎么样了？那孩子还好吗？
-()<Speaker>难民老人</Speaker>||<分支>2</分支>:唉……尽管尤利娅精心照料，可就在前几天，小里昂还是死了……+不过这样也好，死了也就解脱了，不用再受罪了……
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:……
-()<Speaker></Speaker>||<分支>2</分支><黑点2><BIN>168</BIN>:鲁戈萨医生的眼眸中笼罩着难以驱散的阴霾——昔日破败的风景如旧，短暂的光亮终究难抵无孔不入的黑暗……+在照顾完难民老人后，他又在附近徘徊了一阵。但越是流连，他便越是心痛。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:<color=#A9A9A9>他们还需要我……</color>
-()<Speaker></Speaker>||<分支>2</分支>:鲁戈萨医生失魂落魄地沿原路走回。
+()<Speaker></Speaker>||<分支>2</分支><黑屏2><BIN>168</BIN><关闭蒙版>:Dr. Rugosa frowns. The streets before him are no different from when he had first come here several years ago. +He still remembers the lofty aspiration of saving mankind he had when he had set foot here, the dream of being a healer of both the body and the spirit... +But when he thinks about it now, it is all dust in the wind.
+()<Speaker>???</Speaker>||<分支>2</分支>:(Sighs)
+()<Speaker></Speaker>||<分支>2</分支>:A despondent sigh snaps Dr. Rugosa out of his reverie.
+()<Speaker></Speaker>||<分支>2</分支><SE1>ClothingUp</SE1>:An older refugee is sitting on the stairs and kneading his right leg with his pale, coarse hands.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:Anton, can I help you?
+()<Speaker></Speaker>||<分支>2</分支>:The old man raises his head. It takes him a long time to recognize Dr. Eugene Rugosa's face.
+()<Speaker>Elderly Refugee</Speaker>||<分支>2</分支>:Oh... If it isn't Dr. Rugosa? It's been a long time. Are you well?
+()<Speaker></Speaker>||<分支>2</分支><SE1>AVG_Zipper</SE1>:Dr. Rugosa bends down and opens up his backpack with expert movements. He checks the elderly refugee's wounds carefully. +The bandages he had applied for the old man several months ago haven't been changed at all, and the silicification on his leg has been exacerbated due to a lack of treatment.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:Your wounds have gotten worse...
+()<Speaker>Elderly Refugee</Speaker>||<分支>2</分支>:Well, I'm old, and this would have happened anyway whether I was treated or not...
+()<Speaker></Speaker>||<分支>2</分支>:The old refugee chuckles, but then he sighs again.
+()<Speaker>Elderly Refugee</Speaker>||<分支>2</分支>:I feel sorry for Yulia, though... She was looking all over for you because of her child.
+()<Speaker></Speaker>||<分支>2</分支>:It takes Eugene a moment to remember—Yulia was the refugee mother who visited him the night he made his choice.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:How are they now? Is the boy well?
+()<Speaker>Elderly Refugee</Speaker>||<分支>2</分支>:(Sighs) Yulia did her best to take care of him, but little Leon died anyway, several days ago.. +Still, it's for the best. He's free now; he won't have to suffer anymore...
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:...
+()<Speaker></Speaker>||<分支>2</分支><黑点2><BIN>168</BIN>:A gloominess fills Dr. Rugosa's eyes—the run-down buildings around him haven't changed at all; the brief daylight still struggles to illuminate this place of endless darkness. +He wanders around for a while longer after treating the old man, but the longer he stays, the more his heart aches.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:<color=#A9A9A9>They still need me...</color>
+()<Speaker></Speaker>||<分支>2</分支>:Dejected, Dr. Rugosa heads back the way he came.
 ()||<黑屏1><分支>2</分支>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><分支>2</分支>:……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><分支>2</分支>:...
 ()||<黑屏1><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><黑屏2><BIN>160</BIN><SE1>AVG_20Winter_Door_Open</SE1><BGM>BGM_Empty</BGM>:推开家门的瞬间，一声惨烈的尖叫刺痛了医生的耳朵。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:……？！
-()<Speaker></Speaker>||<分支>2</分支>:原本整洁的屋内一片狼藉。鲜血如湖泊般静静地凝住，而在湖泊的中央，卢卡斯脆弱的身躯面部朝下，一动不动……
-()<Speaker>？？？</Speaker>||<分支>2</分支>:你终于回来了，鲁戈萨医生。
-()<Speaker></Speaker>||<分支>2</分支><BGM>BGM_Brain</BGM>:屋内黑暗的角落，一位衣衫褴褛的难民妇女手持锋利的匕首架在妻子颈边，悲惨而愤恨地盯着自己。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>2</分支>:尤、尤金……+她杀了……卢卡斯……这个疯女人……
-()<Speaker></Speaker>||<分支>2</分支>:鲁戈萨夫人早已泪流满面，无力地颤抖着。而持刀的难民妇女眼神愈发幽暗疯狂。
-()<Speaker>难民妇女</Speaker>||<分支>2</分支>:鲁戈萨医生，好久不见……我等你回来已经很久了。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:放下刀……尤利娅……
-()<Speaker>尤利娅</Speaker>||<分支>2</分支>:你还记得那天你对我说过的话吧？+你说……你会对里昂接下来的病情负责，你会为他注射药剂、救活他……
-()<Speaker>尤利娅</Speaker>||<分支>2</分支>:<size=50>可是你去了哪儿？！</size>+你像一条灰溜溜的狗一样逃开了，彻底抛弃了我们，抛弃了你的承诺！
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:不是这样的……
-()<Speaker>尤利娅</Speaker>||<分支>2</分支>:如果救不了，为什么一开始还要夸下海口？！+可怜我的小里昂，直到最后一秒都还念叨着你，说你是他的天使，不会弃他于不顾的……+你知道吗？他就那样躺在我的怀里，静静地忍受折磨，像怪物一样毫无尊严地死去……
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>2</分支>:……
-()<Speaker>尤利娅</Speaker>||<分支>2</分支>:<size=50>你害死了我的儿子！！！</size>+你许下了诺言，又因为你贪图享乐而弃我们于不顾……+像你这样来自上流社会的伪君子，根本就从心底里瞧不起我们，盼望着我们消失！+我的孩子已经死了，我要你也付出同样的代价——
-()<Speaker></Speaker>||<分支>2</分支><SE1>Rope</SE1>:尤利娅狂笑着，把刀架在自己脖子上。
-()<Speaker>尤利娅</Speaker>||<分支>2</分支>:现在我已经没有留念了！哈哈哈哈哈……+<size=50>我要你看着我，死在你面前！</size>
-()<Speaker></Speaker>||<震屏3><分支>2</分支><BGM>BGM_Empty</BGM><SE1>AVG_Cut_Watermelon</SE1>:尤利娅划开了自己的大动脉。+鲜血从创口喷涌而出，她的双目忽而失神，嘴里像搁浅的金鱼般吐出血泡……
-()<Speaker></Speaker>||<分支>2</分支><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=6</controll_shake><SE1>AVG_XXS_kick</SE1>:鲁戈萨医生颤抖着跌坐在原地……
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker><Shake>0.1</Shake>||<分支>2</分支><SE1>AVG_tinnitus_0</SE1>:不……不……
-()<Speaker></Speaker>||<分支>2</分支>:在剧烈的耳鸣中，鲁戈萨医生什么也听不见、什么也看不见了。
+()<Speaker></Speaker>||<分支>2</分支><黑屏2><BIN>160</BIN><SE1>AVG_20Winter_Door_Open</SE1><BGM>BGM_Empty</BGM>:The moment he pushes open the door to his home, a shrill scream fills his ears.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:...?!
+()<Speaker></Speaker>||<分支>2</分支>:The once-clean interior of the house is now a mess. Blood has pooled quietly on the ground, and in the center is Lucas' fragile body, lying face-down and motionless...
+()<Speaker>???</Speaker>||<分支>2</分支>:You're back at last, Dr. Rugosa.
+()<Speaker></Speaker>||<分支>2</分支><BGM>BGM_Brain</BGM>:In a dark corner of the room, a refugee woman dressed in rags is holding a sharp knife to his wife's throat and glaring at him with a mix of despair and rage.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>2</分支>:Eu-Eugene... +She killed... Lucas... This madwoman...
+()<Speaker></Speaker>||<分支>2</分支>:Mrs. Rugosa's face is streaked with tears as she trembles powerlessly. The refugee woman with the knife has a look of growing insanity in her eyes.
+()<Speaker>Female Refugee</Speaker>||<分支>2</分支>:It's been a while, Dr. Rugosa... I've waited a long time for you to come back.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:Put the knife down... Yulia...
+()<Speaker>Yulia</Speaker>||<分支>2</分支>:Do you remember what you told me that day? +You said... you would take responsibility for Leon's condition... You promised you would give him his injections and save him...
+()<Speaker>Yulia</Speaker>||<分支>2</分支>:<size=50>But where did you go?!</size> +You fled like a cowardly dog! You abandoned us and went back on your word!
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:It's not like that...
+()<Speaker>Yulia</Speaker>||<分支>2</分支>:If you couldn't save him, then why did you claim you could in the first place?! +My poor Leon was still calling for you until the very last moment. He said you were his angel, that you wouldn't abandon him... +Did you know? He was lying in my arms, quietly bearing his suffering, and he died without a shred of dignity, like a freak...
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>2</分支>:...
+()<Speaker>Yulia</Speaker>||<分支>2</分支>:<size=50>MY SON DIED BECAUSE OF YOU!!!</size> +You made a promise, and then you abandoned us because you were greedy and only cared about your own comfort... +Hypocrites like you from the upper class have always looked down on us and wished we would just disappear! +My boy is dead, so I'll make sure you pay the same price—
+()<Speaker></Speaker>||<分支>2</分支><SE1>Rope</SE1>:Yulia bursts into deranged laughter as she brings the knife to her own neck.
+()<Speaker>Yulia</Speaker>||<分支>2</分支>:Now I've got nothing left to live for! Hahahahaha... +<size=50>I want you to watch me as I die in front of you!</size>
+()<Speaker></Speaker>||<震屏3><分支>2</分支><BGM>BGM_Empty</BGM><SE1>AVG_Cut_Watermelon</SE1>:Yulia cuts her carotid artery open. +Blood sprays out and her eyes go blank. Her mouth opens and closes as she gurgles and chokes up frothy blood like a goldfish...
+()<Speaker></Speaker>||<分支>2</分支><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=6</controll_shake><SE1>AVG_XXS_kick</SE1>:Dr. Rugosa trembles as he collapses to the ground...
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker><Shake>0.1</Shake>||<分支>2</分支><SE1>AVG_tinnitus_0</SE1>:No... no...
+()<Speaker></Speaker>||<分支>2</分支>:The vehement ringing in his ears completely overwhelms his sight and hearing.
 ()||<黑屏1><分支>2</分支>:
-()<Speaker></Speaker>||<分支>2</分支><BIN>9</BIN><黑屏2>:他痛苦地抽搐着，彻底倒在冰冷的地上……
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支><BIN>270</BIN>:治病救人是我毕生的志愿……我想卢卡斯会谅解的。
-()<Speaker></Speaker>||<分支>1</分支>:……
+()<Speaker></Speaker>||<分支>2</分支><BIN>9</BIN><黑屏2>:He writhes in agony, then slumps to the cold floor...
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支><BIN>270</BIN>:Healing the sick is my life's ambition... I'm sure Lucas would understand.
+()<Speaker></Speaker>||<分支>1</分支>:...
 ()||<黑屏1><分支>1</分支>:
-()<Speaker></Speaker>||<分支>1</分支><BIN>9</BIN><黑屏2><BGM>BGM_Truth</BGM>:两周后，医生的诊所。+在将最后一笔钱全部投入医治病人的伟大事业后，鲁戈萨医生的家庭终于陷入了彻底的困顿。
+()<Speaker></Speaker>||<分支>1</分支><BIN>9</BIN><黑屏2><BGM>BGM_Truth</BGM>:Two weeks later, at the clinic. +After sinking the last of his funds into his noble enterprise of healing, Dr. Rugosa's family has reached the end of its rope.
 ()||<黑屏1><分支>1</分支>:
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<BIN>270</BIN><黑屏2><分支>1</分支>:……你真的非走不可吗？
-()<Speaker></Speaker>||<分支>1</分支>:鲁戈萨医生两手空空，呆滞地看着心意已决的妻子——后者双目低垂，提着行李站在门边。+而幼小的卢卡斯被母亲牵着右手，茫然而不舍地望着鲁戈萨医生。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>1</分支>:厨房里还有最后一片面包，今天早上刚做的……今后多保重自己，尤金。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:……
-()<Speaker></Speaker>||<分支>1</分支>:鲁戈萨医生用沉默作为自己的诀别。
-()<Speaker></Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:卢卡斯轻轻牵了牵他的手，鲁戈萨医生这才注意到，卢卡斯的衣服早已破旧不堪——+明明是最天真茁壮的年纪，但他的脸却被营养不良的阴霾所笼罩……
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:卢卡斯……以后好好听你妈妈的话……
-()<Speaker></Speaker>||<分支>1</分支>:鲁戈萨医生勉强挤出一个笑容，粗糙的手掌轻轻抚过卢卡斯的脸颊。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>1</分支>:走吧，卢卡斯。
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:咚咚咚！+一阵急促的敲门声忽然响起。
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_20Winter_Door_Open</SE1>:鲁戈萨夫人叹了口气，像平常那样拉开大门——
-()<Speaker></Speaker>||<分支>1</分支>:几位衣衫褴褛的难民站在门口，脸色因为激动而微微泛红。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>1</分支>:你们是来找尤金的吧，他就在里面……
-()<Speaker>难民A</Speaker>||<分支>1</分支>:不是的，鲁戈萨夫人……我、我们是来给您和鲁戈萨医生送东西的！
-()<Speaker>难民B</Speaker>||<分支>1</分支>:鲁戈萨医生分文不取、救了我的孩子和丈夫，我们无以为报！虽然暂时付不起全部的医药费，但这些食物请您和医生一定要收下！
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Creep</SE1><BGM>GF_Memorial</BGM>:难民们从身后拿出各家的篮子，篮中装满了各种食物——土豆、蔬菜、牛奶……每一篮都代表着沉甸甸的心意，闪烁着比金子更可贵的光芒。
-()<Speaker>难民C</Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:夫人，您看小卢卡斯脸色那么憔悴，一定是营养不良！得多给他吃点肉补补才行……
-()<Speaker>难民D</Speaker>||<分支>1</分支>:我这里有风干的腊肠！您千万不要客气！
-()<Speaker></Speaker>||<分支>1</分支>:鲁戈萨夫人惊讶地看着难民们争先恐后地将自家的食物堆满诊室的餐桌……+那些曾经在手术台上痛苦呻吟的面庞，如今都健康朝气地活跃在眼前。+鲁戈萨夫人忽然热泪盈眶。
-()<Speaker></Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:鲁戈萨医生将手轻轻放在她的肩膀上，四目相接中，两人找回了对彼此的信任……
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<BIN>270</BIN><黑屏2><分支>1</分支>:...Do you have to go?
+()<Speaker></Speaker>||<分支>1</分支>:Dr. Rugosa watches his wife in a daze as she moves her luggage to the door—her eyes are downcast, but her mind is made up. +She holds young Lucas by the hand as the latter looks back at Dr. Rugosa with sadness and incomprehension.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>1</分支>:There's one last piece of bread in the kitchen. I just made it this morning... Take care of yourself, Eugene.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:...
+()<Speaker></Speaker>||<分支>1</分支>:Dr. Rugosa bids her farewell in silence.
+()<Speaker></Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:Lucas tugs gently on his hand, and only then does Dr. Rugosa notice just how tattered Lucas' clothes are— +The boy should be thriving in the prime of his boyhood, yet his cheeks are sunken due to malnutrition.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:Lucas... be good and listen to your mother...
+()<Speaker></Speaker>||<分支>1</分支>:Dr. Rugosa forces out a smile, and his coarse hand gently grazes over Lucas' cheek.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>1</分支>:Let's go, Lucas.
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:Knock, knock, knock! +A series of hasty knocks suddenly fills the air.
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_20Winter_Door_Open</SE1>:Mrs. Rugosa sighs and opens the door as usual—
+()<Speaker></Speaker>||<分支>1</分支>:Several ragged-looking refugees stand at the doorway, their faces slightly flushed from excitement.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>1</分支>:You must be looking for Eugene. He's inside...
+()<Speaker>Refugee A</Speaker>||<分支>1</分支>:No, Mrs. Rugosa... W-we're here to give you and Dr. Rugosa something!
+()<Speaker>Refugee B</Speaker>||<分支>1</分支>:Dr. Rugosa saved my husband and child and refused to take a cent in exchange, but we have nothing to pay him back with! Although we can't pay the full bill for now, please accept this food!
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Creep</SE1><BGM>GF_Memorial</BGM>:The refugees take out baskets from behind them, all filled to the brim with various kinds of food—potatoes, vegetables, milk... The sentiment they contain is weightier than gold itself.
+()<Speaker>Refugee C</Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:Oh, Mrs. Rugosa, poor Lucas is looking so weak! Has he been eating well? He needs more meat...
+()<Speaker>Refugee D</Speaker>||<分支>1</分支>:I've got some dried sausages here! Please, don't be shy!
+()<Speaker></Speaker>||<分支>1</分支>:Mrs. Rugosa watches in surprise as the refugees rush to heap food on the clinic's dining table... +These people, who were once groaning on the operating table, now stand before her, healthy and full of life. +Mrs. Rugosa's eyes suddenly fill with warm tears.
+()<Speaker></Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:Dr. Rugosa places a hand on her shoulder. As their eyes meet, their faith in each other is rekindled...
 ()||<黑屏1><分支>1</分支>:
-()<Speaker></Speaker>||<分支>1</分支><BIN>9</BIN><黑屏2>:……
+()<Speaker></Speaker>||<分支>1</分支><BIN>9</BIN><黑屏2>:...
 ()||<黑屏1><分支>1</分支>:
-()<Speaker></Speaker>||<分支>1</分支><BIN>270</BIN><黑屏2><BGM>BGM_Empty</BGM>:数月后，又是一个劳累而愉悦的清晨。
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Knock</SE1>:狂暴的敲门声将鲁戈萨医生从扶手椅上惊醒。他匆匆披上外套，打开诊室的大门。+一个强壮的男人抵住了门框，居高临下地打量着鲁戈萨医生。
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:你就是尤金•鲁戈萨？
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:是我……请问有什么可以帮到您——
-()<Speaker></Speaker>||<分支>1</分支><震屏3><SE1>AVG_Punch_Hit</SE1>:砰！+话音未落，高大的男人便朝鲁戈萨医生挥去一拳，将医生结结实实地打倒在地。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker><Shake>0.1</Shake>||<BGM>GF_EV9_Intermission</BGM><分支>1</分支>:咳咳……
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:医生，你在这一带行医很久了吧？可是好像连一声招呼都没有向我的委托人打过呢。+为了补偿你犯下的过错，我的委托人希望你尽快离开这里，不然的话……
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Broken_Glass</SE1><SE1>AVG_pistol_finalshot_n</SE1><controll_shake>%%type_id=2%%duration=0.5%%delay=0.1%%range=6</controll_shake>:砰！+陌生男人突然掏出枪，打碎了桌上的烧杯。+鲁戈萨医生惊讶地回头，整个身躯因为震惊而轻轻颤抖。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:我不认识你口中的委托人……+况且我有自己的使命，我根本没有理由离开这里。
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:啧，难道我说得还不够清楚吗？有人希望你离开，事情就是这样。
-()<Speaker></Speaker>||<分支>1</分支>:混沌中，尤金•鲁戈萨忽然明白了什么。
-()<Speaker></Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:他咬了咬牙，艰难地从地上爬起。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:我知道了……是医学会的那帮老混蛋吧？
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:……无可奉告。
-()<Speaker></Speaker>||<分支>1</分支>:鲁戈萨医生的脸因为愤怒而变得扭曲。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:这里的人需要我，在完成使命之前，我是不会走的！
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:这么说……您心意已决咯？
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_footsteps_woodfloor</SE1>:陌生男人随意地吹着口哨，迈开脚步，走进屋内。
-NPC-TD_Boy(2)<Speaker>？？？</Speaker>||<分支>1</分支>:爸爸……出什么事了？
-()<Speaker></Speaker>||<分支>1</分支>:忽然，卢卡斯顺着扶梯走了下来，用白皙娇嫩的小手揉了揉睡眼惺忪的眼睛。
-()<Speaker></Speaker>||<分支>1</分支><SE1>Stop_AVG_loop</SE1>:陌生男人用玩味的目光打量着这个与鲁戈萨医生有着相似面庞的小小身影。
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:这是您的儿子吗？真是可爱啊……
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>1</分支>:卢卡斯，这里没你的事！快上楼——
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_rifle_finalshot_h</SE1><controll_shake>%%type_id=2%%duration=0.5%%delay=0.1%%range=6</controll_shake><BGM>BGM_Empty</BGM><SE1>AVG_Bullet_Drop</SE1>:砰！又一记枪声响起。+鲁戈萨医生下意识地扑向卢卡斯——+……却还是晚了一步。
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Water_Drip</SE1><BGM>BGM_Sad</BGM>:温热的液体从卢卡斯小小的胸膛内涌出，将鲁戈萨医生的白色外套染成鲜艳的红。
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1><分支>1</分支>:生命的气息一点一点从卢卡斯身上流失，可天真善良的孩子依然微笑着，伸手碰了碰父亲的脸，宛如天使……
-()<Speaker></Speaker>||<分支>1</分支><SE1>Select</SE1>:咔哒。+陌生男人的枪口抵住了鲁戈萨医生的后脑勺。
-()<Speaker>陌生男人</Speaker>||<分支>1</分支>:这是一点小小的警告，鲁戈萨医生。+停止行医，立刻滚出这里。不然，我可不敢保证下一个丧命的人会是谁……听懂了吗？
-()<Speaker></Speaker>||<分支>1</分支>:在剧烈的耳鸣中，鲁戈萨医生什么也听不见、什么也看不见了。
-()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_XXS_kick</SE1><震屏3>:他痛苦地抱着卢卡斯渐渐冰冷的尸体，晕厥在地……
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支><BIN>270</BIN>:不，亲爱的，我们还没到走投无路的地步。+相信我，明天我就会用这笔钱给你们、也给病人带来新的希望……
+()<Speaker></Speaker>||<分支>1</分支><BIN>270</BIN><黑屏2><BGM>BGM_Empty</BGM>:Several months later, on a tiring yet pleasant morning.
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Knock</SE1>:The frenzied knocking on the door jolts Dr. Rugosa awake from where he had dozed off in his armchair. He puts on his coat and opens the clinic's door. +A strong man stands there, towering over Dr. Rugosa.
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:Are you Eugene Rugosa?
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:Yes, it's me... How can I help—
+()<Speaker></Speaker>||<分支>1</分支><震屏3><SE1>AVG_Punch_Hit</SE1>:Wham! +Before he can finish, the big man gives Dr. Rugosa a solid punch and sends him crumpling to the ground.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker><Shake>0.1</Shake>||<BGM>GF_EV9_Intermission</BGM><分支>1</分支>:(Splutters heavily)
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:Doctor, you've been practicing here for a long time, haven't you? Yet you haven't bothered to pay your respects to my employer. +In order to make up for your mistake, my employer would like you to leave as soon as possible. Otherwise...
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Broken_Glass</SE1><SE1>AVG_pistol_finalshot_n</SE1><controll_shake>%%type_id=2%%duration=0.5%%delay=0.1%%range=6</controll_shake>:Bang! +The stranger suddenly pulls out a gun and shoots a beaker on the table. +Dr Rugosa looks back in surprise, his entire body trembling from the shock.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:I don't know the employer you're talking about... +And I have a mission of my own, so I have no reason to leave.
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:Tsk, haven't I made myself clear? Someone wants you to leave. That's how it is.
+()<Speaker></Speaker>||<分支>1</分支>:Amidst his confusion, Eugene Rugosa suddenly comes to a realization.
+()<Speaker></Speaker>||<分支>1</分支><SE1>ClothingUp</SE1>:He grits his teeth and clambers to his feet.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:Oh, I get it now... It's those bastards from the Medical Association, isn't it?
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:...No comment.
+()<Speaker></Speaker>||<分支>1</分支>:Dr. Rugosa's face contorts in anger.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:The people here need me, and I won't leave until my mission is complete!
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:Is that... your final decision?
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_footsteps_woodfloor</SE1>:The man whistles casually as he barges into the house.
+NPC-TD_Boy(2)<Speaker>???</Speaker>||<分支>1</分支>:Papa... What's going on?
+()<Speaker></Speaker>||<分支>1</分支>:Lucas suddenly comes down the stairs, rubbing the sleep from his eyes with his small, pale hands.
+()<Speaker></Speaker>||<分支>1</分支><SE1>Stop_AVG_loop</SE1>:The strange man eyes the small boy thoughtfully, who obviously takes after Dr. Rugosa.
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:Is that your son? What an endearing child...
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>1</分支>:Lucas, this is none of your business! Go back up—
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_rifle_finalshot_h</SE1><controll_shake>%%type_id=2%%duration=0.5%%delay=0.1%%range=6</controll_shake><BGM>BGM_Empty</BGM><SE1>AVG_Bullet_Drop</SE1>:Bang! Another shot fills the air. +Rugosa instinctively lunges at Lucas— +But he's still too late.
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_Water_Drip</SE1><BGM>BGM_Sad</BGM>:Hot liquid gushes out of Lucas' little chest and dyes Dr. Rugosa's white coat a bright red.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><分支>1</分支>:The life slowly seeps out of Lucas' body. The kind and innocent boy, still smiling, reaches out to touch his father's face, like an angel...
+()<Speaker></Speaker>||<分支>1</分支><SE1>Select</SE1>:Click. +The man presses his gun to the back of Dr. Rugosa's head.
+()<Speaker>Strange Man</Speaker>||<分支>1</分支>:That was a little warning, Dr. Rugosa. +Stop your practice and get the hell out of here. +Otherwise, I can't be sure who's going to die next... Got that?
+()<Speaker></Speaker>||<分支>1</分支>:The vehement ringing in his ears completely overwhelms his sight and hearing.
+()<Speaker></Speaker>||<分支>1</分支><SE1>AVG_XXS_kick</SE1><震屏3>:He desperately holds onto Lucas' corpse even as it grows cold and finally passes out on the floor...
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支><BIN>270</BIN>:No, my dear, we aren't at the end of our rope yet. +Trust me, I'll use this money to bring hope to you and my patients.
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<BIN>270</BIN><黑屏2><分支>3</分支>:三天后，诊所。
-()<Speaker></Speaker>||<分支>3</分支><震屏3><SE1>AVG_Door_Hit</SE1>:咚！+鲁戈萨医生抱着一只破旧的竹篮，激动地撞开家门。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:亲爱的，我们有救了！第一笔利息到手了！+我买了肉和牛奶，快过来看看！
-()<Speaker></Speaker>||<分支>3</分支><BGM>BGM_Moon</BGM><SE1>RunStep</SE1>:鲁戈萨夫人闻声从后厨匆匆跑出。面对桌上久违的食材，她憔悴的面庞终于绽放出了光彩。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>3</分支>:这瓶牛奶不够新鲜，肉也还凑合……但谢天谢地，卢卡斯终于有吃的了！
-()<Speaker></Speaker>||<分支>3</分支><SE1>AVG_tableware</SE1>:鲁戈萨夫人一边抱怨着，一边将食物收进后厨。+卢卡斯乖巧地帮母亲切分面包，偷偷朝父亲扮了一个善意的鬼脸。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:……第一次的利息并不算多，但我必须挪出一部分救治病人。+以后等我们攒了更多的钱，一切都会好的……
-()<Speaker></Speaker>||<分支>3</分支><SE1>AVG_Knock</SE1>:咚咚咚——+急促的敲门声打断了夫妇二人的谈话。+就在医生开门的瞬间，抱着孩子的难民母亲急切地闯进来。
-()<Speaker>难民母亲</Speaker>||<分支>3</分支>:鲁戈萨医生，孩子的情况好像恶化了，请您——
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:别担心，夫人。我已经准备好了。
-()<Speaker></Speaker>||<分支>3</分支>:鲁戈萨医生从容的语气仿佛有抚慰人心的魔力，令焦虑的母亲安定不少。
-()<Speaker></Speaker>||<分支>3</分支><SE1>ClothingUp</SE1>:他从包里抽出一管试剂，快速而准确地扎入孩子的肌肤中。+很快，平躺在手术台上的孩子停止了痛苦的呻吟，急促的呼吸也逐渐平缓下来……
-()<Speaker>难民母亲</Speaker>||<分支>3</分支>:谢谢您，医生！
-()<Speaker></Speaker>||<分支>3</分支>:难民母亲朝鲁戈萨医生连连鞠躬，余光却在一瞬间捕捉到了门边的卢卡斯——他啃着刚买回来的面包，天真无邪地打量着诊室房间内发生的一切。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>3</分支>:进来，卢卡斯！帮我端一下盘子！
-NPC-TD_Boy(2)<Speaker>卢卡斯</Speaker>||<分支>3</分支>:唔……来了！
-()<Speaker></Speaker>||<分支>3</分支>:难民母亲凝视着卢卡斯远去的背影，又扭头看了看自己的孩子——面黄肌瘦，痛苦无力。+一种说不出的复杂感受忽然在她的心头蔓延开来……
+()<Speaker></Speaker>||<BIN>270</BIN><黑屏2><分支>3</分支>:Three days later, at the clinic.
+()<Speaker></Speaker>||<分支>3</分支><震屏3><SE1>AVG_Door_Hit</SE1>:Thunk! +Dr. Rugosa excitedly flings the door open, holding a beat-up basket.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:Darling, we're saved! I've gotten the first interest payment! +Look, I bought some meat and milk!
+()<Speaker></Speaker>||<分支>3</分支><BGM>BGM_Moon</BGM><SE1>RunStep</SE1>:Mrs. Rugosa rushes out from the kitchen right away. Her frail face lights up at last as she sees the food on the dining table, which has been empty for far too long.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>3</分支>:This bottle of milk isn't too fresh, and the meat is barely enough... But thank heavens, Lucas finally has something to eat!
+()<Speaker></Speaker>||<分支>3</分支><SE1>AVG_tableware</SE1>:Mrs. Rugosa takes the food into the kitchen despite her complaints. +While helping his mother slice the bread, Lucas makes a face playfully at his father.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:...The first payment isn't much, but I have to spend some of it on treating my patients. +Once we manage to save up more money, everything will be better...
+()<Speaker></Speaker>||<分支>3</分支><SE1>AVG_Knock</SE1>:Knock, knock, knock— +The sound of hasty knocking interrupts their conversation. A mother rushes in, holding her child.
+()<Speaker>Refugee Mother</Speaker>||<分支>3</分支>:Dr. Rugosa, my son's condition has gotten worse. Please—
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:Don't worry, madam. I have prepared his medication.
+()<Speaker></Speaker>||<分支>3</分支>:Dr. Rugosa's even tone seems to have the magical power to soothe people. The anxious mother calms down almost immediately.
+()<Speaker></Speaker>||<分支>3</分支><SE1>ClothingUp</SE1>:He takes a tube of serum out of his medical bag and quickly injects it into the child. +The child lying on the operating table soon stops groaning in pain, and his ragged breathing gradually slows down...
+()<Speaker>Refugee Mother</Speaker>||<分支>3</分支>:Thank you, doctor!
+()<Speaker></Speaker>||<分支>3</分支>:The refugee mother repeatedly bows to Dr. Rugosa, but then she catches sight of Lucas in her peripheral vision—he is munching on the bread that Dr. Rugosa has just brought back while innocently watching the scene unfolding inside the clinic.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>3</分支>:Come in, Lucas! Help me with this plate!
+NPC-TD_Boy(2)<Speaker>Lucas</Speaker>||<分支>3</分支>:Oh... Coming!
+()<Speaker></Speaker>||<分支>3</分支>:The refugee mother watches Lucas as he leaves, then looks back down at her own son, who is sallow, frail, and in pain. +A complex feeling that she can't put into words suddenly spreads through her heart...
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><分支>3</分支>:……+随着鲁戈萨医生从投资中获得利润，一家人的生活有了保障。与此同时，前来求助鲁戈萨医生的病患也越来越多。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><分支>3</分支>:... +With the profits from Dr. Rugosa's investment, the family's survival is assured. At the same time, more and more patients come to seek Dr. Rugosa's help.
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<分支>3</分支><BIN>168</BIN><黑屏2><BGM>BGM_Empty</BGM>:某日，贫民区深处。
-()<Speaker></Speaker>||<分支>3</分支><BGM>GF_EV9_Story</BGM><SE1>AVG_Zipper</SE1>:鲁戈萨医生替病人处理完伤口，转身整理自己的背包，准备返回诊室。
-()<Speaker>难民A</Speaker>||<分支>3</分支>:医生，你包里有那么多注射药剂……能不能给我来一管啊！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:这个药只适用重症病人，你这样的轻症病人目前还用不上……
-()<Speaker>难民B</Speaker>||<分支>3</分支>:您难道还缺药吗？我可听说您现在靠高利贷收入不菲、家财万贯呢。+不愧是绿区出身，赚钱的水平真是一流……
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:……
-()<Speaker></Speaker>||<分支>3</分支>:鲁戈萨医生没有再搭话，沉默地疾步向家中赶去。
-()<Speaker>？？？</Speaker>||<分支>3</分支>:您还是小心一些吧。
-()<Speaker></Speaker>||<分支>3</分支>:一位老人坐在小巷口，端着烟管，颤颤悠悠地说。
-()<Speaker>难民老人</Speaker>||<分支>3</分支>:听说那个生意的名声很糟糕，还有过好几次卷款跑路的恶劣行迹。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:应该不会吧……
-()<Speaker></Speaker>||<分支>3</分支>:鲁戈萨医生面色从容，但内心却忍不住打颤。+难民老人幽幽地吸了一口烟，不再言语。
+()<Speaker></Speaker>||<分支>3</分支><BIN>168</BIN><黑屏2><BGM>BGM_Empty</BGM>:One day, somewhere deep in the slums.
+()<Speaker></Speaker>||<分支>3</分支><BGM>GF_EV9_Story</BGM><SE1>AVG_Zipper</SE1>:Dr. Rugosa finishes bandaging a patient's wound. He tidies up his medical bag and is just about to head back to his clinic.
+()<Speaker>Refugee A</Speaker>||<分支>3</分支>:Doctor, you've got so many tubes of serum in your bag... Can't you give me one too?
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:That medicine is only for patients with severe symptoms. Your symptoms are light, so it's not suitable for you...
+()<Speaker>Refugee B</Speaker>||<分支>3</分支>:Are you still hard up on medicine? I heard you made a lot of money through high-interest loans, and your family is loaded now. +Well, what would you expect of someone born in the Green Zone? You really are great at making money...
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:...
+()<Speaker></Speaker>||<分支>3</分支>:Dr. Rugosa says nothing in response and hurries back home in silence.
+()<Speaker>???</Speaker>||<分支>3</分支>:You should be careful.
+()<Speaker></Speaker>||<分支>3</分支>:An old man holding a pipe remarks offhandedly from his perch at the mouth of the alleyway.
+()<Speaker>Elderly Refugee</Speaker>||<分支>3</分支>:That business has a very bad reputation. They have a track record of running off and leaving their creditors holding the bag.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:Surely not...
+()<Speaker></Speaker>||<分支>3</分支>:Dr. Rugosa tries to look unfazed, but fear is gnawing at his heart. +The old refugee takes a leisurely puff of smoke and says no more.
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<分支>3</分支><黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:……
+()<Speaker></Speaker>||<分支>3</分支><黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:...
 ()||<黑屏1><分支>3</分支>:
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<黑屏2><分支>3</分支><BIN>168</BIN><BGM>BGM_Truth</BGM>:<size=50>什么？！搬走了？！</size>
-()<Speaker></Speaker>||<分支>3</分支>:望着人去楼空的破旧住所，鲁戈萨医生惊诧地瞪大双眼，面色惨白。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:怎么可能，他之前还约定好让我今天来取利息……+对了，巴泽尔先生有没有留下什么新的地址或者联系方式？或者他有没有说什么时候会回来？
-()<Speaker>难民D</Speaker>||<分支>3</分支>:什么巴泽尔？他不是叫杜登吗？+我还以为您和他是生意伙伴呢……
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:怎么会……
-()<Speaker></Speaker>||<分支>3</分支><SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:鲁戈萨医生眼前一黑，跌坐在地上。
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:完了……一切全完了……
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<黑屏2><分支>3</分支><BIN>168</BIN><BGM>BGM_Truth</BGM>:...<size=50>What?! He moved away?!</size>
+()<Speaker></Speaker>||<分支>3</分支>:The blood drains from Dr. Rugosa's face as he stares at the empty, run-down building in shock.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:This can't be true! He even arranged for me to come by and collect the interest payment today... +Has Mr. Barzel left any new address or contact information? Or did he say when he'd be back?
+()<Speaker>Refugee D</Speaker>||<分支>3</分支>:Barzel who? Wasn't his name Duden? +I thought you two were business partners...
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:But how...
+()<Speaker></Speaker>||<分支>3</分支><SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:Dr. Rugosa's vision goes black, and he collapses to the ground.
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:I'm finished... It's all over...
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<分支>3</分支><BIN>9</BIN><黑屏2>:鲁戈萨医生昏昏沉沉地朝家的方向走去……+仿佛一切都回到了起点。只是这一次，他再也没有了投资的资本，也没有了缓冲的余地……
+()<Speaker></Speaker>||<分支>3</分支><BIN>9</BIN><黑屏2>:Dr. Rugosa returns home in a daze... +It's back to square one. However, he doesn't have the funds to invest again this time, and no way to cushion the impact...
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<分支>3</分支><BGM>BGM_Empty</BGM><黑屏2><BIN>270</BIN>:一个月后，困窘的医生呆滞地站在诊所中央，四下环顾——+除了基本的医疗器材，几乎所有的家具物件都被典当完了。可即便如此，这点钱财依然无法支持家中的开销……
-()<Speaker>鲁戈萨夫人</Speaker>||<震屏3><SE1>AVG_21Winter_OperatingDisc_Drop</SE1><分支>3</分支>:<size=50>卢卡斯？！卢卡斯！</size>
-()<Speaker></Speaker>||<分支>3</分支><BGM>2022_white_valentine_BGM2</BGM>:妻子的惊呼触动了鲁戈萨医生脆弱的神经。+卢卡斯从昨夜开始便因高烧陷入昏迷，即便将家中最后仅剩的药物喂给他，还是于事无补……
-()<Speaker></Speaker>||<分支>3</分支><SE1>RunStep</SE1>:鲁戈萨医生朝内室奔去，却迎面撞上抱着卢卡斯、泪流满面的妻子。
-()<Speaker>鲁戈萨夫人</Speaker>||<分支>3</分支>:卢卡斯他……他好像……
-()<Speaker></Speaker>||<分支>3</分支>:妻子泣不成声。鲁戈萨医生颤抖着，迅速接过卢卡斯的身体，平放在手术台上。
+()<Speaker></Speaker>||<分支>3</分支><BGM>BGM_Empty</BGM><黑屏2><BIN>270</BIN>:A month later, the distressed doctor looks around his clinic— +He's pawned off just about everything except the most basic medical equipment and supplies. Even so, he still can't support his family's expenses...
+()<Speaker>Mrs. Rugosa</Speaker>||<震屏3><SE1>AVG_21Winter_OperatingDisc_Drop</SE1><分支>3</分支>:<size=50>Lucas?! Lucas!</size>
+()<Speaker></Speaker>||<分支>3</分支><BGM>2022_white_valentine_BGM2</BGM>:His wife's cries snap him out of his trance. +The boy had fallen unconscious from a relentless fever last night, and although Dr. Rugosa gave the last of the family's medicine to him, it hasn't helped...
+()<Speaker></Speaker>||<分支>3</分支><SE1>RunStep</SE1>:Dr. Rugosa rushes inside, only to see his wife clutching Lucas, tears streaming down her face.
+()<Speaker>Mrs. Rugosa</Speaker>||<分支>3</分支>:Lucas... I think he...
+()<Speaker></Speaker>||<分支>3</分支>:She is incoherent in her weeping. Dr. Rugosa takes Lucas from her with trembling hands and lays him on the operating table.
 ()||<黑屏1><分支>3</分支>:
-()<Speaker></Speaker>||<分支>3</分支><黑屏2><BIN>9</BIN>:顺着听诊器冰冷的触感，卢卡斯的心跳快得像鼓点，仿佛下一秒就要跃出胸膛，剧烈地爆开……
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:<size=50>上帝啊，求求你放过卢卡斯吧！</size>
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><BIN>168</BIN><SE1>AVG_AMB_Wind</SE1><震屏3><分支>3</分支><SE1>AVG_AMB_Wind</SE1>:鲁戈萨医生痛苦地哀嚎着，猛地拉开诊所的大门，朝寂静冷漠的街区张开双臂，痛苦地呼喊——
-NPC-Doctor(2)<Speaker>鲁戈萨医生</Speaker>||<分支>3</分支>:<size=50>求求你们……请各位施舍一点食物吧！我的孩子快要死了，我的卢卡斯快要死了！</size>+求求你们，求求你们……
-()<Speaker></Speaker>||<分支>3</分支>:寒风中，一扇扇简陋的木门紧闭着。+没有一个人回应他的呼喊。
-()<Speaker></Speaker>||:……
-()||<黑点1>:
+()<Speaker></Speaker>||<分支>3</分支><黑屏2><BIN>9</BIN>:Through the cold metal of the stethoscope, he can hear Lucas' heart beating like a drum, as though it's going to burst out of his chest and explode...
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:<size=50>God Almighty, please spare Lucas!</size>
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><BIN>168</BIN><SE1>AVG_AMB_Wind</SE1><震屏3><分支>3</分支><SE1>AVG_AMB_Wind</SE1>:Dr. Rugosa wails in agony. He flings the clinic's doors open, then throws his arms wide and shouts beseechingly out into the cold, deserted streets—
+NPC-Doctor(2)<Speaker>Doctor Rugosa</Speaker>||<分支>3</分支>:<size=50>I beg you... Please spare us a bit of food! My child is dying! My Lucas is dying!</size> +Please, I'm begging you...
+()<Speaker></Speaker>||<分支>3</分支>:The other doors remain tightly shut in the cold wind. +Nobody answers his cry.
+()<Speaker></Speaker>||:...
+()||<黑点1>:

@@ -1,149 +1,149 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><回忆>:2050年X月X日 第六十七军部+中央马克思特讯报 乔治•J•约翰逊笔录
-()<Speaker>乔治•J•约翰逊</Speaker>||<SE1>AVG_Button_Click</SE1>:……音频测试。+……+……2050年11月13日下午六点，我是乔治•J•约翰逊。+现在于第六十七军部第三军事检察院进行记录。
-()<Speaker></Speaker>||乔治•J•约翰逊:五分钟前，举国关注的“黑森林行动”一案，正式落下了帷幕。+……结果不出预料。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:沙沙
-()<Speaker>乔治•J•约翰逊</Speaker>||:我认为结果是错误的。+事实的真相并非如此。+……对“CSD-119A”的调查和审判，并不公正。
-()<Speaker>乔治•J•约翰逊</Speaker>||:我是乔治•J•约翰逊。+我会继续调查，直到真相大白。+记录完毕。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><回忆>:Xth of X 2050, No. 67 Military HQ. +Central Marx News, from the diary of Jorge J. Johnson.
+()<Speaker>Jorge J. Johnson</Speaker>||<SE1>AVG_Button_Click</SE1>:...Mic test. +... +...The time is now November 13th 2050, 6:00 pm. I am Jorge J. Johnson. +This log is being recorded at the 3rd Procuratorate of the No. 67 Military HQ.
+()<Speaker>Jorge J. Johnson</Speaker>||:Operation Black Forest, the one that received national scrutiny, has officially concluded five minutes ago. +...The results were as expected.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:(Crackle)
+()<Speaker>Jorge J. Johnson</Speaker>||:I believe the outcome was in error. +The results do not necessarily reflect the facts of the case. +...The investigations into and the trial of the "CSD-119A" was not a fair one.
+()<Speaker>Jorge J. Johnson</Speaker>||:This is Jorge J. Johnson. +I will keep investigating until I find the truth. +Log ends.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>80</BIN><黑屏2><关闭蒙版><SE1>AVG_door_elecport</SE1>:2064年 S09区 格里芬基地 咖啡厅
-()<Speaker></Speaker>||<BGM>m_avg_casual</BGM>:当格琳娜来到咖啡厅的时候，她远远地就听见了里面传来的骚动的声音。+跟往常一样，今天的咖啡厅里，也聚集了大量的人形，而与往日不同的是，她们今天都格外兴奋。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:各位下午……
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:好？
-MDR(0)<Speaker>MDR</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>喔喔喔喔喔喔喔——！！！</size>
-Delisle(0)<Speaker>德利尔</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>吵死了——！！</size>
-MDR(0)<Speaker>MDR</Speaker>||:这么厉害的事居然——不是我揭露的！！
-RFB(0)<Speaker>RFB</Speaker>||:你又不是记者……
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:哈……哈哈。
-()<Speaker></Speaker>||:发生什么事了？
-()<Speaker></Speaker>||:格琳娜环视了一圈咖啡厅，然后迅速坐到了柜台前面。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:春田小姐！
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:呀，下午好，格琳娜小姐。+想要咖啡，还是红茶呢？今天的话，也可以供应奶茶喔。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:连春田小姐的情绪都这么高涨……到底发生什么事了？
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:哎呀？您没有看新闻吗？
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:春田笑盈盈地，给格琳娜端上了一杯热茶。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:新闻？
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:嗯——这样说起来，格琳娜小姐可能确实不大了解。+但对我们人形来说，这可是件大事呢。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:所，所以是什么事啊？别卖关子了！
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:格琳娜小姐……+你听说过“黑森林行动”吗？
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:那是什么？
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:那是写在教科书上的。+已知最早的，因为人形的异常行为而导致的失败之一。+因为是战争期间发生的事，所以相当有名。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:这么一说……我好像确实听说过。
-()<Speaker></Speaker>||:格琳娜皱了皱眉头。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:我听克鲁格先生说起过。+三战中后期，各个国家都开始大量引入战术人形加入部队。+直到某件事发生之后，就对仿生程度较高的人形开始限制入伍了……
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:是的，如今说来已经是不值得避讳的事了。+但在当时，尤其对我们人形而言，是连提都不敢提的忌讳。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:在当时……咦？春田小姐那么早就出厂了吗？
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:毕竟，军队出现人形违抗长官命令，结果导致一整支部队牺牲的恶性事件。+实在很难让人继续保留对战术人形的信赖嘛。
-()<Speaker></Speaker>||:无视了格琳娜的感慨，春田笑眯眯地顺着话头往下说。
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||<BGM>BGM_Empty</BGM>:但是，就是这么久远的事。+突然翻案了哟。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:春田小姐你笑得好恐怖……翻案？
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker>||<BGM>BGM_Brain</BGM>:……
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:呃……李小姐。
-()<Speaker></Speaker>||:在格琳娜说出自己的疑问时，一股异样的低气压忽然从吧台的角落里扩散开来，此时，她才注意到，有一位人形正独自坐在那里。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:与周遭的环境格格不入，她的表情冷漠而低沉，手中把玩着一枚生锈的勋章。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker>||:……
-()<Speaker></Speaker>||:放置于柜台上的茶杯中，清澈的红茶汤不时因周围人的巨大动静而荡起涟漪。+而李•恩菲尔德的目光全聚集在掌中的小小饰品上，拇指不时擦拭那光辉的石头。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:……
-()<Speaker></Speaker>||:格琳娜对春田露出了求救的表情，同时用口型询问“发生什么事了？”+春田苦笑了一下，摇了摇头，什么都没有回答，只是默默地走向了李的方向。
-()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:叮当。+默不作声地，春田为她更换了面前的茶杯。
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:茶的口味不合您的心意吗？李小姐？
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker>||<SE1>Rope</SE1>:不，没有这回事。
-()<Speaker></Speaker>||:李将饰品握入手心，摇了摇头。+看到她这幅样子，春田无奈地笑笑，看了一眼格琳娜。+格琳娜一脸茫然，好像仍然没有接收到春田的信号。+见状，春田不得已朝着李的方向轻轻开口。
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:改造的事，您考虑得如何了？
-()<Speaker></Speaker>||:格琳娜恍然大悟。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:……啊！+我想起来了！李小姐……你拒绝了改造的事吧？+为什么？
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker>||:……我没有拒绝。+只是希望“再给我一点思考的时间”。
-M1903Cafe(0)<Position>0,150</Position><Speaker>春田</Speaker>||:跟这个有关吗？
-()<Speaker></Speaker>||:春田的目光落在了李手心的勋章上。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:李沉默着松开了手，那枚熠熠生辉，躺在她手心的明亮宝石带着强大的引力，仿佛要将她的目光吸到遥远的深处。+这一刻，她的思绪又回到了那一天，当她第一次踏入汉弗朗克庄园的下午。+那时候，她还不知道，眼前的一切都将成为她漫长生命中仅次于格里芬生涯的重要一笔。
+()<Speaker></Speaker>||<BIN>80</BIN><黑屏2><关闭蒙版><SE1>AVG_door_elecport</SE1>:2064, Sector S09, in the cafe of the Griffin Base.
+()<Speaker></Speaker>||<BGM>m_avg_casual</BGM>:Kalina can hear the commotion from inside the cafe long before actually setting foot inside it. +Like any other day, the cafe is filled with many Dolls, but unlike most days, they're all very excited.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Good...
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:...Afternoon?
+MDR(0)<Speaker>MDR</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>UOOOOOHHHHHH—!!!</size>
+Delisle(0)<Speaker>De Lisle</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>SHUT UP!!</size>
+MDR(0)<Speaker>MDR</Speaker>||:I don't believe it—How could I have NOT been the one to break a scoop like this!!
+RFB(0)<Speaker>RFB</Speaker>||:It's not like you're a reporter...
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Ha... haha.
+()<Speaker></Speaker>||:What's going on?
+()<Speaker></Speaker>||:Kalina looks around the cafe and then quickly sits down in front of the counter.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Miss Springfield!
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Oh, good afternoon, Miss Kalina. +Would you like coffee or tea? We also have milk tea today.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Even you're in high spirits, Miss Springfield... What happened?
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Oh? Didn't you see the news?
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:Springfield serves Kalina a cup of hot tea with a cheery smile on her face.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:The news?
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Hmm—You might not quite get it, but it's big news for us Dolls.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Well, what is it? Quit winding me up!
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Miss Kalina... +Have you heard of "Operation Black Forest"?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:What's that?
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:It's in the history textbooks. +It's the earliest known failed operation caused by irregularities in Doll behavior. +It was quite famous because it happened during wartime.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Now that you mention it, I think I have heard of it.
+()<Speaker></Speaker>||:Kalina frowns.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Mr. Kryuger mentioned it before. +Near the end of WW3, many countries were incorporating large numbers of Tactical Dolls into their forces. +But after a certain incident, they started limiting the number of humanlike Dolls in their combat units...
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Yes, it's not much of a taboo subject now. +But you couldn't even talk about it back then, especially for us Dolls.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Back then... Hm? Were you rolled out that early, Miss Springfield?
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:After all, it was an ugly incident where a Doll disobeyed a superior officer's orders, resulting in an entire unit being lost. +It made it very difficult for people to continue having faith in Tactical Dolls after that.
+()<Speaker></Speaker>||:Springfield ignores Kalina's musings and continues speaking with a cheery smile on her face.
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||<BGM>BGM_Empty</BGM>:Still, all that is long in the past. +But all of a sudden, those findings were overturned.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:The way you're smiling is really scary, Miss Springfield... Also, overturned?
+MLEMK1(0)<Speaker>Lee Enfield</Speaker>||<BGM>BGM_Brain</BGM>:...
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Er... Miss Lee.
+()<Speaker></Speaker>||:As Kalina is voicing her doubts, a chill suddenly emanates from the corner of the bar. Just then, she notices that there's someone sitting alone there.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She looks completely out of place with her surroundings. Her face is indifferent and sullen as she plays with a rusty medal in her hand.
+MLEMK1(0)<Speaker>Lee Enfield</Speaker>||:...
+()<Speaker></Speaker>||:The contents of the teacup on the counter ripple from the movements of the people around it. +Meanwhile, Lee Enfield's attention seems entirely focused on the little ornament in her hand, occasionally stroking it with her thumb.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:...
+()<Speaker></Speaker>||:Kalina directs a pleading gaze at Springfield, while mouthing the question "What happened?" +Springfield smiles bitterly and then shakes her head without saying anything, only walking silently towards Lee.
+()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:Clink. +Springfield silently changes the cup of tea before her.
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Is the tea not to your taste?
+MLEMK1(0)<Speaker>Lee Enfield</Speaker>||<SE1>Rope</SE1>:No, it's not like that.
+()<Speaker></Speaker>||:Lee returns the ornament to her palm and shakes her head. +Upon seeing the look on her face, Springfield smiles in resignation and glances at Kalina. +Kalina's face goes blank, as is she hasn't received Springfield's signal. +Upon seeing this, Springfield has no choice but to speak softly in Lee's direction.
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Have you finished thinking about the neural upgrade yet?
+()<Speaker></Speaker>||:Suddenly, it dawns on Kalina.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:...Ah! +I get it now! Miss Lee... you refused the upgrade, right? +What happened?
+MLEMK1(0)<Speaker>Lee Enfield</Speaker>||:I didn't refuse it. +I simply asked for "more time to think about it".
+M1903Cafe(0)<Position>0,150</Position><Speaker>Springfield</Speaker>||:Does it have something to do with this?
+()<Speaker></Speaker>||:Springfield's gaze falls on the medal in Lee's hand.
+MLEMK1(0)<Speaker>Lee Enfield</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Lee silently opens her hand. The gleaming medal that lies in the palm of her hand possess a powerful attraction, as though it's going to draw her gaze deep into its depths. +Just then, her thoughts return to that day, on that afternoon when she first stepped into the Humphrank Estate. +Back then, she did not know that everything before her would become a chapter in her life only second in importance to her career in Griffin.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>269</BIN><黑屏2><BGM>m_19christmas_battle</BGM><SE1>Rope</SE1><回忆>:2051年 X月X日 东英格兰郡 汉弗朗克庄园+在大人们都忙于农活的季节，无所事事的少年们就会聚集在一起。+大多数时候，他们会出现在田野中的任何地方，用恶作剧和无尽的活力彰显年轻人的存在感。
+()<Speaker></Speaker>||<BIN>269</BIN><黑屏2><BGM>m_19christmas_battle</BGM><SE1>Rope</SE1><回忆>:Xth of X 2051, East Anglia, at the Humphrank Estate. +It is a season when the idle youth gather together while the adults are busy with farm work. +Oftentimes, they may show up anywhere in the fields, highlighting their presence as young people with pranks and their boundless energy.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:而今天，则有些许的不同……
-()<Speaker>瘦小的少年</Speaker>||:……来了吗？
-()<Speaker>有些粗鲁的少年</Speaker>||:喔……给他好看！
-()<Speaker>机灵的少女</Speaker>||:嘘！嘘！
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:Today, however, things are slightly different...
+()<Speaker>Skinny Youth</Speaker>||:...Is she here yet?
+()<Speaker>Somewhat Rude Lad</Speaker>||:Yeah... Give it to her good!
+()<Speaker>Smart Girl</Speaker>||:Shhhh! Shhhhh!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><SE1>AVG_footsteps_woodfloor</SE1>:哒。+幽长的走廊上，一个高挑的人影缓步朝里行走着。+在阴影里的窃窃私语包围下，那个人影慢慢地走向走廊尽头的房间。+而在她继续前进之前——
-()<Speaker>机灵的少女</Speaker>||<SE1>Stop_AVG_loop</SE1>:吃，吃我这招——！
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:哗啦！+忽然从拐角冲出的少女用力将手中的水桶冲着人影泼了出去。
-()<Speaker>机灵的少女</Speaker>||:快，快点滚回去！+……咦？
-()<Speaker></Speaker>||:目瞪口呆的少女看着眼前空无一人的走廊，拎着水桶愣愣地站在原地。
-()<Speaker>？？？</Speaker>||:不要在走廊玩水。
-()<Speaker>机灵的少女</Speaker>||:咿——！？
-()<Speaker></Speaker>||:直到陌生的声音从背后响起，少女才意识到发生了什么。+但不等她做出任何反应，她的胳膊就被铁箍一般的手紧紧抓住。
-()<Speaker>瘦小的少年</Speaker>||:别碰瑟琳娜！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:呯呯呯呯呯！
-()<Speaker>？？？</Speaker>||:——！
-()<Speaker></Speaker>||:就在人影控制住少女的同时，走廊的窗外突然冒出了另一个少年。+他的手里端着一把冲锋枪，对着敞开的窗户——也即是人影的方向疯狂扫射。
-()<Speaker>？？？</Speaker>||:……水弹？
-()<Speaker></Speaker>||:人影轻轻地从嘴唇吐声，伸手一拉，将少女揽入怀中，夹在腋下。+随即——
-()<Speaker>瘦小的少年</Speaker>||:咦……咦！？
-()<Speaker></Speaker>||:眼前发生的景象令少年震惊到忘记了扣动扳机。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:在连他射出的第一发子弹都还没有命中目标，那人影就像装上了弹簧一样，身躯高高弹起，连续在天花板和墙壁上蹬了几下，眨眼间，就跃出了窗，直接落到了少年的面前。
-()<Speaker>？？？</Speaker>||<SE1>ClothingUp</SE1>:禁止开火。
-()<Speaker>瘦小的少年</Speaker>||:等——！+水枪而已啊！
-()<Speaker></Speaker>||<SE1>Select</SE1>:面对面前的人影相当“军事”的发言，瘦小的少年忙不迭地抬起枪口，但立刻就被缴获了武器。
-()<Speaker>有些粗鲁的少年</Speaker>||<SE1>RunStep</SE1>:喝啊——！！
-()<Speaker></Speaker>||:就在这时，一直藏在树后的高大少年趁着人影疏忽，直冲出来，用力挥舞手中的长棍！
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:啪嚓！
-()<Speaker>？？？</Speaker>||:你被留堂了，约翰尼先生。+介于你可能造成的实际伤害，我可能需要跟你的父母谈一谈。
-()<Speaker></Speaker>||:高大的少年僵直着身体站在原地，他根本不知道刚才发生了什么，手中的木棍便已经断作三截。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:高大的人影面露不愉，将缴获的水弹枪瞬间拆散成一堆零件。
-()<Speaker>？？？</Speaker>||:回到你们的教室。
-()<Speaker>有些粗鲁的少年</Speaker>||:呃……呃……
-()<Speaker></Speaker>||:三人似乎还想说些什么，但迫于压力，最终半句话也没有出口。+注意到他们异常的视线，人影偏头看向了虚掩着的教室大门。
-()<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||:人影摇了摇头，轻松地翻越窗台，回到走廊。+在三人瞠目结舌的注视下，她慢慢地走近教室的大门。
-()<Speaker></Speaker>||:吱呀……
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:嘭。+沾满了粉笔灰的黑板擦从门上落下，却被黑影肉眼难辨的巴掌一下拍飞。
-NPC-Charlie(3)<Speaker>？？</Speaker>||<SE1>ClothingUp</SE1>:哇！
-()<Speaker></Speaker>||:黑板擦直飞向坐在课桌上的男孩，他惊呼了一声，侧身避开。
-NPC-Charlie(2)<Speaker>？？</Speaker>||:喂！很危险啊！
-()<Speaker>？？？</Speaker>||:……查理少爷。
-()<Speaker></Speaker>||:人影轻轻出声。
-MLEMK1(4)<Speaker>？？？</Speaker><Position>0,90</Position>||:我是新来的家庭教师。
-NPC-Charlie(0)<Speaker>查理</Speaker>||:我知道，我们不是盛大地欢迎你了吗？+真叫人吃惊，你跟之前的那些饭桶很不一样。
-MLEMK1(4)<Speaker>？？？</Speaker><Position>0,90</Position>||:……
-()<Speaker>瘦小的少年</Speaker>||:查理！
-()<Speaker></Speaker>||:随着一声惊呼，两人身后的门外钻进了三个圆乎乎的脑袋。
-()<Speaker>有些粗鲁的少年</Speaker>||:你，你没事吧！
-()<Speaker>机灵的少女</Speaker>||:她，她好厉害……+跟之前的老师都不一样。
-NPC-Charlie(0)<Speaker>查理</Speaker>||:是吗？我看不出来。
-()<Speaker></Speaker>||:查理挑衅地看着眼前高挑的女性。
-NPC-Charlie(0)<Speaker>查理</Speaker>||:你可能有点本事，但我们不需要老师。+你知道我父亲找来过多少老师吗？十七个。+没有一个能坚持超过半个月，你觉得你比他们厉害？
-MLEMK1(4)<Speaker>？？？</Speaker><Position>0,90</Position>||:……为什么你们要这么做？
-NPC-Charlie(2)<Speaker>查理</Speaker>||:这跟你无关吧？
-()<Speaker></Speaker>||:查理有些不耐烦地摆了摆手。
-NPC-Charlie(0)<Speaker>查理</Speaker>||:你从哪来？牛津？剑桥？+我爸给你多少钱？你要接这种麻烦事？
-MLEMK1(4)<Speaker>？？？</Speaker><Position>0,90</Position>||<BGM>BGM_Empty</BGM>:实际上……
-NPC-Powell(0)<Speaker>卢修斯</Speaker>||:实际上，李并不收取任何报酬。
-NPC-Charlie(0)<Speaker>查理</Speaker>||:……父亲。
-()<Speaker></Speaker>||<BGM>m_avg_labyrinth</BGM>:随着沉稳的声音，一个男人出现在了三位少年的身后。
-NPC-Powell(0)<Speaker>卢修斯</Speaker>||:约翰尼，瑟琳娜，乔丹。+别总跟着查理胡闹。+我来跟你们介绍……这位是你们新的家庭教师。+战术人形，李•恩菲尔德小姐。
-MLEMK1(4)<Speaker>李·恩菲尔德</Speaker><Position>0,90</Position>||:是。
-NPC-Charlie(3)<Speaker>查理</Speaker>||:……！
-()<Speaker></Speaker>||:查理瞪大了眼睛，在众人没有注意到的地方，他握紧了拳头。
-NPC-Powell(0)<Speaker>卢修斯</Speaker>||:她是皇家第六龙骑卫兵团的成员，一位光荣的士兵。+我很希望能看到你们相处和平。
-()<Speaker></Speaker>||:而与查理的反应截然相反，听到卢修斯的话，其余三人眼睛里的崇拜和激动迅速膨胀。
-()<Speaker>有些粗暴的少年</Speaker>||:士兵！战术人形！
-()<Speaker>瘦小的少年</Speaker>||:我听说那个军队。+你，你是一名龙骑兵！？
-()<Speaker>机灵的少女</Speaker>||:哇哦！
-MLEMK1(4)<Speaker>李·恩菲尔德</Speaker><Position>0,90</Position>||:……我们可以之后再谈论这个话题。+现在，我希望你们在上课之前，将走廊处理好。
-()<Speaker>三人</Speaker>||:好的！老师！
-NPC-Charlie(2)<Speaker>查理</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:眯着眼看着争先恐后地从教室跑出去的伙伴，查理的目光移到了李的身上。+他握紧的拳头直到现在也没有松开，无处宣泄的握力带动胳膊不停地哆嗦。+没有人注意到他的模样，甚至没有人意识到他连说话的声音都变了。
-NPC-Charlie(2)<Speaker>查理</Speaker>||:……战术人形？
-()<Speaker></Speaker>||:一阵沉默的死寂中，查理的声音微微颤抖，带着难以言喻的愤怒和仇恨。+李看着他，除了困惑以外，做不出任何反应。+……她不理解，查理为何反应如此过激。
-NPC-Powell(0)<Speaker>卢修斯</Speaker>||:咳。+那么，剩下的就交给你了。+李老师。
-()<Speaker></Speaker>||:意识到气氛的变化，卢修斯轻咳了一声，摇了摇头，佯装没有看到查理的眼神。
-MLEMK1(4)<Speaker>李·恩菲尔德</Speaker><Position>0,90</Position>||:……是。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:毫不退缩地与查理那恐怖的目光对视着，李微微点头。
-MLEMK1(4)<Speaker>李·恩菲尔德</Speaker><Position>0,90</Position>||:请交给我吧。
-()<Speaker></Speaker>||:……
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><SE1>AVG_footsteps_woodfloor</SE1>:Tap. +A tall figure strolls down the long corridor. +Surrounded by the whispers in the shadows, the figure slowly walks to the room at the end of the corridor. +But before she can enter—
+()<Speaker>Smart Girl</Speaker>||<SE1>Stop_AVG_loop</SE1>:T-take this—!
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:Splash! +A girl suddenly rushes out from around the corner and dumps the contents of the bucket in her hand over the figure.
+()<Speaker>Smart Girl</Speaker>||:G-get back to where you came from! +...Huh?
+()<Speaker></Speaker>||:The girl stares with her mouth open at the empty corridor before her, still holding her bucket.
+()<Speaker>???</Speaker>||:Don't play with water in the corridor.
+()<Speaker>Smart Girl</Speaker>||:Aiieeee—!?
+()<Speaker></Speaker>||:It is only when the unfamiliar voice speaks from behind her that the girl realizes what has happened. +But before she can react, a hand closes around her arm like a steel vise.
+()<Speaker>Skinny Youth</Speaker>||:Don't touch Selina!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Pewpewpewpewpew!
+()<Speaker>???</Speaker>||:—!
+()<Speaker></Speaker>||:Just as the figure seizes the girl, another kid suddenly appears outside the corridor window. +He's holding a submachine gun, and he sprays wildly into the open window—in other words, in the direction of the figure.
+()<Speaker>???</Speaker>||:...A water gun?
+()<Speaker></Speaker>||:As the figure speaks quietly, she reaches down and tucks the girl under her armpit. +After that—
+()<Speaker>Skinny Youth</Speaker>||:Eh... Ehhhhhh!?
+()<Speaker></Speaker>||:What the boy sees startles him so badly that he forgets to pull the trigger.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:While the boy has yet to land even a single shot from his initial burst, the figure has already jumped up like a spring, stepping off between the wall and the ceiling several times before leaping out the window in the blink of an eye and landing in front of the boy.
+()<Speaker>???</Speaker>||<SE1>ClothingUp</SE1>:Shooting is prohibited.
+()<Speaker>Skinny Youth</Speaker>||:Wait—! +It's just a water gun!
+()<Speaker></Speaker>||<SE1>Select</SE1>:In the face of the figure's rather "militaristic" pronunciation, the skinny kid hurriedly raises his water gun but it is quickly seized from him.
+()<Speaker>Somewhat Rude Lad</Speaker>||<SE1>RunStep</SE1>:Yeearrgh—!!
+()<Speaker></Speaker>||:Just then, a big kid takes advantage of the figure's distraction and rushes out, swinging the big stick in his hands!
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:Crack!
+()<Speaker>???</Speaker>||:You're staying back after school, Mr. Johnson. +I will be having words with your parents about the potential harm you could have caused.
+()<Speaker></Speaker>||:The big kid stands in place, completely unaware of what has just happened. The stick he is holding has been snapped into three pieces.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:The tall figure seems rather unhappy and proceeds to reduce the water gun into a mass of parts.
+()<Speaker>???</Speaker>||:Go back to your classroom.
+()<Speaker>Somewhat Rude Lad</Speaker>||:Um... Er...
+()<Speaker></Speaker>||:The three of them seem to have something to say, but the pressure they face is so powerful that none of them manages to say a word in the end. +After noticing the strange looks in their eyes, the figure turns to look at the slightly open classroom door.
+()<Speaker>???</Speaker>||:...
+()<Speaker></Speaker>||:The figure shakes their head and easily jumps through the window and returns to the corridor. +While the three of children watch with their mouths agape, she slowly approaches the classroom's main door.
+()<Speaker></Speaker>||:Creak...
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Pomf. +A blackboard eraser covered in chalk dust falls from above the door, but the figure swats it away with a speed that is hard to follow with the naked eye.
+NPC-Charlie(3)<Speaker>??</Speaker>||<SE1>ClothingUp</SE1>:Uwah!
+()<Speaker></Speaker>||:The blackboard eraser flies toward the boy seated at his table. He exclaims and turns to evade.
+NPC-Charlie(2)<Speaker>??</Speaker>||:Hey! That's dangerous!
+()<Speaker>???</Speaker>||:...Master Charlie.
+()<Speaker></Speaker>||:The figure speaks quietly.
+MLEMK1(4)<Speaker>???</Speaker><Position>0,90</Position>||:I am your new tutor.
+NPC-Charlie(0)<Speaker>Charlie</Speaker>||:I know. Didn't we extend you a warm welcome? +Still, it's quite surprising, you're nothing like those clowns from before.
+MLEMK1(4)<Speaker>???</Speaker><Position>0,90</Position>||:...
+()<Speaker>Skinny Youth</Speaker>||:Charlie!
+()<Speaker></Speaker>||:Following that cry, three round heads pop out from the doorway behind the two of them.
+()<Speaker>Somewhat Rude Lad</Speaker>||:Are, are you alright?
+()<Speaker>Smart Girl</Speaker>||:She, she's amazing... +She's nothing like the teachers from before.
+NPC-Charlie(0)<Speaker>Charlie</Speaker>||:Is she? I couldn't tell.
+()<Speaker></Speaker>||:Charlie looks at the tall woman before him with a provocative look in his eyes.
+NPC-Charlie(0)<Speaker>Charlie</Speaker>||:You may have some skills, but we don't need teachers. +Do you know how many teachers my father has brought over so far? 17. +None of them have lasted more than half a year. You think you're better than them?
+MLEMK1(4)<Speaker>???</Speaker><Position>0,90</Position>||:...Why are you doing this?
+NPC-Charlie(2)<Speaker>Charlie</Speaker>||:It's none of your business, is it?
+()<Speaker></Speaker>||:Charlie waves his hand dismissively.
+NPC-Charlie(0)<Speaker>Charlie</Speaker>||:Where did you come from? Oxford? Cambridge? +How much is my dad paying you to handle an annoying case like this?
+MLEMK1(4)<Speaker>???</Speaker><Position>0,90</Position>||<BGM>BGM_Empty</BGM>:Actually...
+NPC-Powell(0)<Speaker>Lucius</Speaker>||:Actually, Lee isn't being paid.
+NPC-Charlie(0)<Speaker>Charlie</Speaker>||:...Father.
+()<Speaker></Speaker>||<BGM>m_avg_labyrinth</BGM>:After the calm voice speaks, a man appears behind the three kids.
+NPC-Powell(0)<Speaker>Lucius</Speaker>||:Johnny, Selina, Jordan. +Stop fooling around with Charlie all the time. +Allow me to introduce you to your new tutor. +She is Miss Lee Enfield, a Tactical Doll.
+MLEMK1(4)<Speaker>Lee Enfield</Speaker><Position>0,90</Position>||:Yes.
+NPC-Charlie(3)<Speaker>Charlie</Speaker>||:...!
+()<Speaker></Speaker>||:Charlie's eyes go wide, and he clenches his fists where nobody can see.
+NPC-Powell(0)<Speaker>Lucius</Speaker>||:She was from the 6th Royal Dragoons and a glorious soldier. +I would very much like for you to get along.
+()<Speaker></Speaker>||:In the opposite of Charlie's reaction, the other three kids' eyes go wide with admiration upon hearing Lucius' words.
+()<Speaker>Somewhat Rude Lad</Speaker>||:A soldier! A Tactical Doll!
+()<Speaker>Skinny Youth</Speaker>||:I heard of that unit. +You, you're a dragoon!?
+()<Speaker>Smart Girl</Speaker>||:Wow!
+MLEMK1(4)<Speaker>Lee Enfield</Speaker><Position>0,90</Position>||:...We can discuss this topic later. +Right now, I hope you will clean up the hallway before class begins.
+()<Speaker>All Three</Speaker>||:Yes, Ma'am!
+NPC-Charlie(2)<Speaker>Charlie</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Narrowing his eyes as he watches his friends hurry to rush out of the classroom, Charlie's gaze shifts to Lee. +His fists remain clenched, and his arms tremble with nowhere to release their force. +Nobody notices that, and nobody notices how even the way he's spoken has changed.
+NPC-Charlie(2)<Speaker>Charlie</Speaker>||:...A Tactical Doll?
+()<Speaker></Speaker>||:Charlie's voice trembles in the weighty dead silence, filled with anger and hatred that cannot be put into words. +Lee watches him, but she does not react in any way other than confusion. +...She does not understand why Charlie's reaction is so extreme.
+NPC-Powell(0)<Speaker>Lucius</Speaker>||:Ahem. +Then, I'll leave you to it. +Miss Lee.
+()<Speaker></Speaker>||:Upon sensing the change in the air, Lucius coughs quietly and shakes his head, pretending he doesn't notice the look in Charlie's eyes.
+MLEMK1(4)<Speaker>Lee Enfield</Speaker><Position>0,90</Position>||:...Very well.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Lee nods, resolutely meeting Charlie's gaze.
+MLEMK1(4)<Speaker>Lee Enfield</Speaker><Position>0,90</Position>||:Please leave it to me.
+()<Speaker></Speaker>||:...
+()||<黑点1>:

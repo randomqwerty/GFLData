@@ -1,116 +1,116 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>197</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator>:“未来号”洲际列车 损毁的车厢外不远处
-()||<SE1>AVG_amb_thunderrain</SE1>:雨夜里，伊文上尉正在待命。+直到通讯终于响起——
-NPC-Tareus(3)<通讯框><Speaker>塔亚柔斯</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>……开始行动。</color>+<color=#00CCFF>我要这个人形。</color>
-()||<SE1>AVG_tele_connect</SE1>:一串代码发了过来……+伊文上尉输入指令后，出现了一个戴着帽子的严肃面孔。
-AR18(6)<Speaker></Speaker>||<黑点1>:<color=#00CCFF>“Я”教官——隶属第七总局下属特别作战训练队，此人形为该分队唯一在编人形，数据信息不明，极度危险。</color>
-()||<黑点1><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:……
-()||<黑点2><BIN>528</BIN><Night><narrator>:“未来号”洲际列车 车厢内
-()||<SE1>AVG_Water_Drip</SE1><BGM>GF_EV9_Story</BGM>:啪嗒。+夜雨依然没有停歇，雨水在车厢内积成了水泊，水滴的声音衬得压抑的人群显得更加沉默。
-()||<SE1>AVG_footsteps_woodfloor</SE1>:身穿防护服的乘客们在苏珊娜的带领下，缓缓地朝着柳德米拉指示的1号特等车厢前进着。
-NPC-TD_Porter(0)<Speaker>苏珊娜</Speaker>||:请慢一点儿，这里的路不好走。
-()||:扭曲的车厢颠簸起伏，以至于队伍行进的速度也十分缓慢，腿脚不便的老人甚至需要苏珊娜的搀扶才能跨过那些障碍。+突然，一名乘客尖叫起来，瞬间吸引了大家的注意力。
-()<Speaker>普通乘客A </Speaker>||<SE1>Stop_AVG_loop</SE1>:他们动了！+乘务员你看外面！
-()||<SE1>ClothingUp</SE1>:苏珊娜听着声音看向窗外——
-()||<SE1>AVG_Fire_Bonfire</SE1>:灯光开始变得密集……他们似乎朝着车厢走过来了。
-()<Speaker>普通乘客A </Speaker>||<SE1>Stop_AVG_loop</SE1>:他们要动手了……+完了……我不要死在这里！
-()||<SE1>RunStep</SE1>:他迅速往1号车厢奔跑，甚至不顾脚下的泥泞和散落一地的碎片。
-()<Speaker>普通乘客B </Speaker>||:……我们，我们也赶紧跑吧！
-NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>苏珊娜</Speaker>||:……注意脚下！+不要踩踏！！！
-()||<SE1>AVG_Crowd_Run</SE1>:但没有人在意她的话语。+车厢外密集的灯光仿佛驱赶飞蛾的火把，追逐着人们进入命定的牢笼。+众人奔跑了起来，只有一个高大的身影形单影只地与大部队隔着一段距离。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:……萝希塔，你还能坚持吗？
-()||<SE1>ClothingUp</SE1>:萝希塔蜷缩在保尔背后，裸露的皮肤上，硅化的情况似乎越来越严重了。
-NPC-SickGirl(2)<Speaker>萝希塔</Speaker>||:保尔……我想念你做的三明治了。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:等看过医生以后，我就给你做。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||:嗯……
-()||<黑点1>:乱腾腾的人群中，无人在意他们。+在这样的末日下，每个人的余力能够顾及的，只有自己的性命。
-()||<黑点2><BIN>530</BIN><Night><narrator>:“未来号”洲际列车 F01/F02车厢连接处
-()||:这简直是一条漫长得令人焦躁的路程。+终于，他们来到了1号车厢门口。
-()||<SE1>AVG_Knock</SE1>:咚咚咚——！+苏珊娜挤到人群前面，掏出了电子密钥。
-()||<SE1>AVG_21Winter_Error</SE1>:滴滴……+权限不足。
-NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>苏珊娜</Speaker>||:<color=#A9A9A9>……混蛋玛姬！</color>+……里面的乘客……我是乘务员苏珊娜。+现在的幸存者们需要干净的水、食物和休息。+请放我们进去。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:唰——+车门上的窗户上出现了一张富态的脸。
-()<Speaker>富态的男人</Speaker>||:……放你们进来可以。+把防护服都脱掉。
-()<Speaker>普通乘客A </Speaker>||:！？+你，你在说什么啊！+这边的净化装置都已经停摆了！+我们马上就会暴露在红区！
-()<Speaker>富态的男人</Speaker>||:所以才叫你们脱掉！谁知道防护服上带着多少细菌和辐射？
-()<Speaker>普通乘客A </Speaker>||:什……
-()<Speaker>富态的男人</Speaker>||:就暴露个一两分钟死不了的！+要是让你们带着辐射粒子进来，我们不也完蛋了吗！
-()||:门外的乘客们面面相觑。+一想到身后的灯光仍在靠近，他们沉默了一会，最终还是屈辱地开始解开身上的防护服。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:老人，年轻人，男人，女人……
-()<Speaker>普通乘客A </Speaker>||:……现在可以了吧！
-()<Speaker>富态的男人</Speaker>||:哼……
-()||<SE1>ClothingUp</SE1>:男人慢悠悠地转过身，像是准备开门的样子。+但突然，他好像注意到了什么，一下抬起了头。
-()<Speaker>富态的男人</Speaker>||:等等，那女的怎么回事！？
-NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>保尔</Speaker>||:……！
-()||:男人所指的，就是被保尔背在身后的萝希塔。
-()<Speaker>富态的男人</Speaker>||:这不是已经被感染了！+是想害我们全部都被感染吗！
-NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>保尔</Speaker>||:她还没有彻底硅化！+她还有救……车厢里有医生的对吧……+请让她见见医生！
-()<Speaker>富态的男人</Speaker>||:这种条件下医生有什么用！+别，别想进来了！我们可不想死！
-()<Speaker>普通乘客A </Speaker>||<SE1>AVG_Crowd</SE1>:什，什么？我们都按你说的做了啊！+她感染了我们可没感染！放我们进去！
-()<Speaker>富态的男人</Speaker>||:谁知道你们有没有被她传染！
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||<BGM>BGM_Empty</BGM>:保尔……
-()||<SE1>Rope</SE1>:就在众人争执不休的时候，被保尔背在身后的萝希塔抓住了他。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:不要，不要把我送到那些讨厌我的人那里……+我……我已经不想再呆在那种地方了……
-NPC-SickGirl(1)<同时置暗><Speaker></Speaker>||:萝希塔说话的时候，对着保尔仿佛是在笑。+但她那双不能视物的眼睛，却不断在落下泪水。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||:我……我不想再回到一个所有人都讨厌我的地方。+让我留在这……至少在这里，还有你，保尔，有你在就够了。
-()||:萝希塔的声音仿佛存在着某种魔力。+尽管在这争执中，她的声音轻到几乎只有近在咫尺的保尔能够听见，但这一刻，不论是门里，还是门外，吵闹的声音都静止了。+在这压抑的沉默中，保尔顿了良久，才慢慢开口。
-NPC-TD_Worker(2)<Speaker>保尔</Speaker>||:……萝希塔，我只是一个人形，不是你的同伴。+我不能待在你身边，你应该去往人类的世界，你属于那边。
-NPC-SickGirl(1)<Speaker>萝希塔</Speaker>||:……我知道我应该属于哪里，保尔，我不在乎你是人形还是人类。+我在乎的同伴是会关心我的人，而不是讨厌我的人。
-NPC-TD_Worker(2)<Speaker>保尔</Speaker>||:……
-()||:死一般的寂静中，过了很久很久，才从门内传出一个悠悠的声音。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……放他们进来。
-()<Speaker>普通乘客A </Speaker>||:什……听到了吗！快开门！
-()<Speaker>富态的男人</Speaker>||:……医生你，你疯了吗？那边有感染者！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:如你所说，我的职业是医生。+而且，把他们挡在门外，你认为我们有办法独善其身吗？
-()<Speaker>富态的男人</Speaker>||:其他人就算了……那个感染者呢？她会传染我们所有人！
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:我来解决，把门打开。
-()<Speaker>富态的男人</Speaker>||:……
-()||<黑点1>:面对鲁戈萨不容置疑的声音，男人的气势被彻底压倒，张大着嘴巴说不出话。
-()||<黑点1><BIN>9</BIN><关闭蒙版>:……
-()||<黑点2><BIN>533</BIN><Night><SE1>AVG_BaseDoor_Open</SE1>:随即，从内部反锁的大门终于缓缓打开。
-NPC-TD_Boy(1)<Speaker>卢卡斯</Speaker>||:……请进。+麻烦按照次序在我这里登记。
-()||<SE1>AVG_Crowd_Run</SE1>:门外的人类幸存者们慌不择路地瞬间挤入了车厢，就像生怕下一秒里面的人反悔一般。
-()||<SE1>AVG_20Winter_Chains_Break</SE1>:保尔对着鲁戈萨医生鞠了一躬。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:……谢谢您。+萝希塔，就拜托您了。
-()||<SE1>ClothingUp</SE1>:他放下背上的萝希塔，交给了苏珊娜。+卢卡斯发现除了苏珊娜，其余的人形们都没有进入车厢。
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:你们不进来吗？
-()||:保尔摇了摇头。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:我们的责任是保护人类。
-()<Speaker>马戏团人形</Speaker>||:……没错，如果有危险，我们在2号车厢也能帮大家抵挡一波。
-()||:其余人形有的沉默，有的叹气。+说不定大家都想去1号车厢，但是……也许是因为人形聚集在一起就产生了勇气，也许是别的什么，最终，还是没有更多的人形迈出步伐。
-()||<SE1>ClothingUp</SE1>:这次，反而是鲁戈萨医生对着大家鞠了一躬。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:拜托了。
-NPC-TD_Worker(1)<Speaker>保尔</Speaker>||:我去检查列车设备。
-()||:鲁戈萨点点头，目送保尔转身离开，目光又转移到陷入昏睡中的萝希塔身上。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……卢卡斯，去拿我的药箱。
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:是。
-()||:卢卡斯点了点头，转身跟着苏珊娜一同进到了车厢内。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……
-()||:鲁戈萨一人站在门外，若有所思地眺望了一下整列车厢——空荡的长廊彼端，没有半点生气。
-()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:他转过身，走进车厢，关上了大门。+……
-()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:“未来号”洲际列车 F01车厢 休息室内
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:……先生，我已经按照教官意思安排下去了。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……多谢。+接下来就请你们照顾这里了，我需要去支援一个人。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:你放心。
-()||:在他的身后，休息室的门前，那凛然的身影飘然现身。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:可惜……我没有什么可以回报二位的信任。
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:……+你还有多余的手枪吗？
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
-()||:柳德米拉偏头看了看鲁戈萨医生的背影，他看起来非常平静，没有半分动摇。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:你想做什么？
-NPC-Doctor(0)<Speaker>鲁戈萨医生</Speaker>||:我会和他们战斗到最后一刻，就如同之前你们对律贼一样。
-AR18(6)<Position>0,70</Position><Speaker>柳德米拉</Speaker>||:……
-()||:柳德米拉盯着鲁戈萨，后者没有任何迟疑或是犹豫。
-()||<SE1>Select</SE1>:半晌，她从腰间的枪套里拔出了自己的手枪，反持着将枪递给医生。
-()||<SE1>Rope</SE1>:鲁戈萨医生郑重接过手枪。
-NPC-TD_Boy(0)<Speaker>卢卡斯</Speaker>||:……！
-()||<黑屏1>:卢卡斯看着医生，脸上浮现出愁容。
-()||<黑屏2><BIN>519</BIN>:鲁戈萨的脸上映射着窗外的火光。+特等车厢以外的地方，那些军队的触手已经延伸到了列车的周遭。
-()<Speaker>鲁戈萨医生</Speaker>||:如果我没有猜错的话，你就是他们的目标？
-()<Speaker>柳德米拉</Speaker>||:……是。+所以我会亲手解决这一切。
-()<Speaker>鲁戈萨医生</Speaker>||:所以你打算怎么做？
-()<Speaker>柳德米拉</Speaker>||:让黎明照亮黑夜。
-()<Speaker>鲁戈萨医生</Speaker>||:能够在这种时刻与你相识，柳德米拉教官。+我很欣慰。
-()<Speaker>柳德米拉</Speaker>||:一样，尤金·鲁戈萨医生。
-()||:柳德米拉闭上眼，难得地笑了笑，迈步踏出了门。
-()||<黑屏1>:……
+()||<黑屏2><BIN>197</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator>:At the Intercontinental Railway train "Future", not far from the destroyed carriages.
+()||<SE1>AVG_amb_thunderrain</SE1>:Captain Ivan is standing by on this rainy night. +That is, until a transmission finally comes through—
+NPC-Tareus(3)<通讯框><Speaker>Tareus</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>...Move in.</color> +<color=#00CCFF>I want this Doll.</color>
+()||<SE1>AVG_tele_connect</SE1>:A stream of code comes through... +Captain Ivan enters his orders, and a stern-looking face wearing a hat appears.
+AR18(6)<Speaker></Speaker>||<黑点1>:<color=#00CCFF>Instructor "Я"—from the 7th General Directorate Advanced Combat Training Team. She is the only Doll in her unit. Little is known about her; considered extremely dangerous.</color>
+()||<黑点1><BIN>9</BIN><关闭蒙版><SE1>Stop_AVG_loop</SE1>:...
+()||<黑点2><BIN>528</BIN><Night><narrator>:Inside the Intercontinental Railway train "Future".
+()||<SE1>AVG_Water_Drip</SE1><BGM>GF_EV9_Story</BGM>:Drip. +The night rain has not let up at all, accumulating into puddles inside the train. The sound of splashing water only makes the crowd more depressed.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:The passengers in their protective gear are slowly moving toward Carriage 1 under Susanna's direction.
+NPC-TD_Porter(0)<Speaker>Susanna</Speaker>||:Please don't rush. The footing ahead is poor.
+()||:The twisted interior of the carriage is uneven, so the group's forward speed is very slow. Susanna needs to help the elderly across the more challenging obstacles. +Suddenly, a passenger screams, instantly drawing everyone's attention.
+()<Speaker>Passenger A</Speaker>||<SE1>Stop_AVG_loop</SE1>:They're moving! +Look outside, Miss Stewardess!
+()||<SE1>ClothingUp</SE1>:Susanna looks out the window—
+()||<SE1>AVG_Fire_Bonfire</SE1>:The lights are growing denser... They seem to be heading toward the train.
+()<Speaker>Passenger A</Speaker>||<SE1>Stop_AVG_loop</SE1>:They're making their move... +We're doomed... I don't want to die here!
+()||<SE1>RunStep</SE1>:The passenger runs toward Carriage 1, not even caring about the mud puddles and the debris below him.
+()<Speaker>Passenger B</Speaker>||:...W-we need to hurry up too!
+NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>Susanna</Speaker>||:...Mind your feet! +Don't trample each other!!!
+()||<SE1>AVG_Crowd_Run</SE1>:However, nobody pays her any attention. +The densely clustered lights outside the train are like blazing torches banishing moths, harrying the people into their destined cage. +Everyone begins to run, but only a single, tall figure keeps a distance from most of the others.
+NPC-TD_Worker(1)<Speaker>Pavel</Speaker>||:...Rosita, can you hold on a little longer?
+()||<SE1>ClothingUp</SE1>:Rosita is curled up on Pavel's back. The silicification of her exposed skin seems to be getting worse.
+NPC-SickGirl(2)<Speaker>Rosita</Speaker>||:Pavel... I miss the sandwiches you made.
+NPC-TD_Worker(1)<Speaker>Pavel</Speaker>||:Once we see the doctor, I'll make them for you.
+NPC-SickGirl(1)<Speaker>Rosita</Speaker>||:Okay...
+()||<黑点1>:Nobody in the frantic crowd pays them any mind. +With their reckoning at hand, nobody has the energy to spend on worrying about anything besides their own lives.
+()||<黑点2><BIN>530</BIN><Night><narrator>:Aboard the Intercontinental Railway train "Future", at the gangway connection between Carriages F01 and F02.
+()||:It is a long, nerve-wrecking journey. At last, they arrive at the door to Carriage 1.
+()||<SE1>AVG_Knock</SE1>:Knock, knock, knock—! +Susanna squeezes up to the front of the group and takes out her electronic key.
+()||<SE1>AVG_21Winter_Error</SE1>:Beepbeep... +Access level insufficient.
+NPC-TD_Porter(0)<Shake>0.1</Shake><Speaker>Susanna</Speaker>||:<color=#A9A9A9>...Maggie, you bitch!</color> +...To the passengers inside... I am Stewardess Susanna. +Our survivors need clean water, food, and rest. +Please let us in.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Whoosh— +The face of a wealthy-looking man appears at the window.
+()<Speaker>Rich-Looking Man</Speaker>||:...We can let you in. +But you have to take off your suits first.
+()<Speaker>Passenger A</Speaker>||:?! +W-what the hell are you saying? The purification systems here have stopped working! +We'll be exposed to the Red Zone!
+()<Speaker>Rich-Looking Man</Speaker>||:That's why I'm telling you to take them off! Who knows what kind of germs and radiation your suits have on them!
+()<Speaker>Passenger A</Speaker>||:What...
+()<Speaker>Rich-Looking Man</Speaker>||:You won't die if you're exposed for just one or two minutes! +If you bring radioactive particles in here, we'll all be dead!
+()||:The passengers outside exchange looks. +As they think about the lights approaching them, they fall silent for a while but eventually, they start unzipping their suits.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:The elderly, the young, men, women...
+()<Speaker>Passenger A</Speaker>||:...This should be fine now, right?
+()<Speaker>Rich-Looking Man</Speaker>||:Humph...
+()||<SE1>ClothingUp</SE1>:The man slowly turns around to open the door. +However, his head jerks up as he suddenly notices something.
+()<Speaker>Rich-Looking Man</Speaker>||:Wait a minute, what's with that girl over there?!
+NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>Pavel</Speaker>||:...!
+()||:The man is pointing at Rosita on Pavel's back.
+()<Speaker>Rich-Looking Man</Speaker>||:She's been infected, hasn't she?! +Are you trying to infect us all?!
+NPC-TD_Worker(2)<Shake>0.1</Shake><Speaker>Pavel</Speaker>||:The silicification isn't complete! She can still be saved... There's a doctor inside the carriage, right... +Please let her see the doctor!
+()<Speaker>Rich-Looking Man</Speaker>||:What good is a doctor at a time like this?! +D-don't come in! We don't want to die!
+()<Speaker>Passenger A</Speaker>||<SE1>AVG_Crowd</SE1>:W-what?! We did what you told us to! +Just because she's infected doesn't mean we are! Let us in!
+()<Speaker>Rich-Looking Man</Speaker>||:Who knows if she's infected you!
+NPC-SickGirl(1)<Speaker>Rosita</Speaker>||<BGM>BGM_Empty</BGM>:Pavel...
+()||<SE1>Rope</SE1>:As the dispute rages on, Rosita pulls on Pavel from behind him.
+NPC-SickGirl(1)<Speaker>Rosita</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:D-don't hand me over to these people. They hate me... I... I don't want to stay in a place like that anymore...
+NPC-SickGirl(1)<同时置暗><Speaker></Speaker>||:Rosita almost seems to be smiling as she says this. +But her sightless eyes are oozing tears.
+NPC-SickGirl(1)<Speaker>Rosita</Speaker>||:I... I don't want to go back to a place where everyone hates me. +Just leave me here... At least you're here, Pavel. Having you with me is good enough.
+()||:Rosita's voice seems to have some kind of magic to it. +With the passengers still arguing hotly, her soft voice is barely audible to Pavel, who is right next to her, but it has somehow silenced the commotion both inside and outside the door. +In this stifling quietness, Pavel thinks for a good long while before he finally answers.
+NPC-TD_Worker(2)<Speaker>Pavel</Speaker>||:...Rosita, I am just a droid. I am not your companion. +I cannot stay by your side. You should be in the world of the humans. You belong there.
+NPC-SickGirl(1)<Speaker>Rosita</Speaker>||:...I know where I belong, Pavel. I don't care if you're a droid or a human. +The companion I care for is someone who cares for me, and not someone who hates me.
+NPC-TD_Worker(2)<Speaker>Pavel</Speaker>||:...
+()||:This deathly silence is left hanging for a long, long time, until a drawn-out voice speaks from inside the carriage.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:...Let them in.
+()<Speaker>Passenger A</Speaker>||:What... Did you hear that?! Open the door!
+()<Speaker>Rich-Looking Man</Speaker>||:...Doctor, are you insane? They've got an Infected out there.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:As you said, I am a doctor. +Also, do you really think that we can keep ourselves safe simply by locking them out?
+()<Speaker>Rich-Looking Man</Speaker>||:The others are one thing... But what about that infected girl? She'll infect us all!
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:I'll take care of it. Open the door.
+()<Speaker>Rich-Looking Man</Speaker>||:...
+()||<黑点1>:Dr. Rugosa's voice brooks no disobedience and utterly defeats the man, who can't think of anything to say.
+()||<黑点1><BIN>9</BIN><关闭蒙版>:...
+()||<黑点2><BIN>533</BIN><Night><SE1>AVG_BaseDoor_Open</SE1>:The door that is locked from inside slowly opens.
+NPC-TD_Boy(1)<Speaker>Lucas</Speaker>||:...Please come in. +Register yourselves here in an orderly fashion.
+()||<SE1>AVG_Crowd_Run</SE1>:The people outside flood into the train carriage, as though afraid the people inside will change their mind about letting them in.
+()||<SE1>AVG_20Winter_Chains_Break</SE1>:Pavel bows to Dr. Rugosa.
+NPC-TD_Worker(1)<Speaker>Pavel</Speaker>||:...Thank you. +I'll leave Rosita to you.
+()||<SE1>ClothingUp</SE1>:He puts Rosita down and hands her to Susanna. +Lucas notices that other than Susanna, the other Dolls have not entered the carriage.
+NPC-TD_Boy(0)<Speaker>Lucas</Speaker>||:Aren't you coming in?
+()||:Pavel shakes his head.
+NPC-TD_Worker(1)<Speaker>Pavel</Speaker>||:Our mission is to protect humans.
+()<Speaker>Circus Doll</Speaker>||:...That's right. If there's danger, we can help hold it off in Carriage 2.
+()||:Some of the Dolls are silent, while others sigh. +Perhaps they all want to go inside Carriage 1, but... maybe because Dolls find strength and courage in numbers, or maybe it's something else entirely... In the end, no matter what the real reason is, none of the other Dolls step forward.
+()||<SE1>ClothingUp</SE1>:This time, it is Doctor Rugosa who bows to them.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:We'll be counting on you.
+NPC-TD_Worker(1)<Speaker>Pavel</Speaker>||:I'll go check on the train.
+()||:Dr. Rugosa nods and after watching Pavel leave, he turns back to Rosita, who has lost consciousness again.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:...Lucas, get me my doctor's bag.
+NPC-TD_Boy(0)<Speaker>Lucas</Speaker>||:Yes, doctor.
+()||:Lucas nods, then turns to head back inside with Susanna.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:...
+()||:Rugosa stands outside for a while, looking thoughtfully down the length of the entire carriage—there is no sign of life at the other end of the long, empty corridor.
+()||<SE1>AVG_BaseDoor_Close</SE1><黑点1>:He turns, enters the cabin, and closes the door. +...
+()||<关闭蒙版><黑点2><BIN>506</BIN><narrator><BGM>BGM_Empty</BGM>:Inside the lounge in Carriage F01, Intercontinental Railway train "Future".
+NPC-TD_Boy(0)<Speaker>Lucas</Speaker>||<BGM>GF_2022_Summer_AVG_3</BGM>:...Doctor, I've done as the Instructor requested.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:...Thank you very much. +I'll be counting on you to take care of this place now. I need to go help someone.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:Don't worry.
+()||:Behind him, the dashing figure appears again in front of the door to the lounge.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:It's a shame... I have nothing that I can use to repay your trust.
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:... +Do you have any extra handguns?
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:...
+()||:Lyudmila tilts her head to the side as she looks at Dr. Rugosa from behind. He seems very calm and resolute.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:What do you have in mind?
+NPC-Doctor(0)<Speaker>Doctor Rugosa</Speaker>||:I'll fight them to the bitter end, just like you did with the Vory.
+AR18(6)<Position>0,70</Position><Speaker>Lyudmila</Speaker>||:...
+()||:Lyudmila keeps gazing at Rugosa, who shows no sign of hesitation or uncertainty.
+()||<SE1>Select</SE1>:A moment later, she takes her pistol out from her hip holster and hands it to him, butt first.
+()||<SE1>Rope</SE1>:Dr. Rugosa solemnly accepts the gun.
+NPC-TD_Boy(0)<Speaker>Lucas</Speaker>||:...!
+()||<黑屏1>:A look of sadness appears on Lucas' face as he sees this.
+()||<黑屏2><BIN>519</BIN>:The firelight from outside illuminates Rugosa's face. The tentacles of the Military have spread to every part of the train apart from the VIP-class carriage.
+()<Speaker>Doctor Rugosa</Speaker>||:If I'm not mistaken, you are their objective?
+()<Speaker>Lyudmila</Speaker>||:...Yes. +Which is why I will settle all of this by myself.
+()<Speaker>Doctor Rugosa</Speaker>||:So what do you plan to do?
+()<Speaker>Lyudmila</Speaker>||:Let the dawn light up the night.
+()<Speaker>Doctor Rugosa</Speaker>||:Instructor Lyudmila. It has been an honor... +Meeting you here and now.
+()<Speaker>Lyudmila</Speaker>||:I feel the same, Doctor Eugene Rugosa.
+()||:Lyudmila closes her eyes in a rare smile before she strides out the door.
+()||<黑屏1>:...

@@ -1,69 +1,69 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>356</BIN><narrator>:莫斯科 黑市中的隐秘小屋。
-()||<BGM>GF_Swim_Marnie</BGM>:凯瑟琳慵懒地躺在沙发上，指挥昆比帮她收拾东西，准备心智备份。
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:……差不多就这些东西吧。
-NPC-Scalper(0);NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:累死我了，你之前上柯尔特快车明明不需要这么多东西的！
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:你懂什么，这次可是有重要任务在身。
-NPC-Scalper(0);NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:那你还约新的买家来？忙得过来吗？
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:花一样的时间成本，能赚两份钱，而且——
-NPC-Scalper(0);NPC-Quimby(0)<Position>0,300</Position><同时置暗><Speaker></Speaker>||:凯瑟琳露出贪婪的笑容。
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:据我的观察，那家伙的素体相当不错……
-()||<SE1>AVG_Knock</SE1>:叩——叩叩——叩——+是约定的敲门方式。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:喔，买家到了。
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:很好，昆比，执行B方案。
-()||<SE1>AVG_BaseDoor_Close</SE1>:凯瑟琳走到墙边，开启了按钮，墙体缓缓转动180度，将她带到了另一边的房间中。+确认凯瑟琳离开后，昆比打开了门。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||<SE1>AVG_Door_Open_Close</SE1>:欢迎光临(*^▽^*)尊贵的老板！+我是龙舌兰小酒馆的昆比，竭诚为您提供优质可靠的交易！
-NPC-Quimby(0)<Position>0,300</Position>;Erma(6)<Speaker>艾尔玛</Speaker>||:……按照约定，我要一张柯尔特快车的票。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>;Erma(6)||:好的老板，请您在这里留一下信息。
-Erma(6)<Speaker>艾尔玛</Speaker>||:……
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:趁着对方沏茶端水的间隙，艾尔玛端详着不大的房间。+大概二十来平米的房间，墙角处堆了很多杂物，将原本不大的空间挤占得更为狭小。+一部分是常见的人形替换部件，以冷却装置为主，另一部分基本上为交易记录文档，经过了加密。
-Erma(4)<Speaker>艾尔玛</Speaker>||:<color=#A9A9A9>做黑市生意需要这么高的心智运算力吗？这么多冷却装置够我用三百年了……</color>
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:来，老板(*^▽^*)请喝茶！+单子签好了我看看，这是您的车票。
-()||<SE1>AVG_File_Put</SE1>:昆比拿出一封包好的信封，推给了艾尔玛。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:您可以交付尾款了。
-Erma(6)<Speaker>艾尔玛</Speaker>||:……
-()||<SE1>AVG_20Winter_Book</SE1>:艾尔玛打开信封，查看了车票上的信息。
-Erma(5)<Speaker>艾尔玛</Speaker>||:尾款……需要等我确定能凭这张票进入柯尔特快车后，才可以支付。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:这可行不通啊，客人……
-()||<SE1>ClothingUp</SE1>:艾尔玛将车票装回信封，放在了桌上。
-Erma(6)<Speaker>艾尔玛</Speaker>||:要是不行的话，我就去其他地方看看了。+毕竟售卖车票的店家不止你们……
-()||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:咚咚咚——+昆比听见了凯瑟琳的暗示，她继续笑着说。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:尊贵的客人，这部分情况由我们副店长为您解答。
-()||<SE1>AVG_BaseDoor_Close</SE1><BGM>GF_EV9_Story</BGM>:昆比开启了墙上的开关，一面光洁的墙壁向后翻转了180度，同时，艾尔玛的面前出现了新的角色。
-Erma(7)<Speaker>艾尔玛</Speaker>||:……嗯？！
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:凯瑟琳。
-()||:表情冷漠的女人从椅子上站起，上下打量着艾尔玛。
-Erma(6)<Speaker>艾尔玛</Speaker>||:你好……
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>;Erma(6)||:首先，我必须告诉你。+柯尔特快车的票仅此一家。
-NPC-Scalper(3);Erma(6)<Speaker>艾尔玛</Speaker>||:……
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>;Erma(6)||:其次，柯尔特快车的票单独售卖，并不包含顾客自购的未来号车票。+但你要求的是套票，如果你有点常识，去官网上看看就知道未来号的票有多难抢。
-NPC-Scalper(3);Erma(6)<Speaker>艾尔玛</Speaker>||:……
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>;Erma(6)||:最后，本店概不赊账。
-NPC-Scalper(3);Erma(6)<同时置暗><Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:凯瑟琳冷冷地撂下一串说明后，又回到了舒服的沙发上。
-NPC-Scalper(3);Erma(4)<Speaker>艾尔玛</Speaker>||:我有几个疑问……
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>;Erma(4)||:讲。
-NPC-Scalper(3);Erma(4)<Speaker>艾尔玛</Speaker>||:登上柯尔特快车为什么需要两张票？
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:这么低级的问题……昆比。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:是这样的，客人~+柯尔特快车并不是指列车的名字，而是只对人形开放的黑市名称。+但它只在洲际列车“未来号”上开放，因此，需要先登上“未来号”，才有机会进入柯尔特快车。
-Erma(6)<Speaker>艾尔玛</Speaker>||:明白了……+我还有个问题。
-()||<SE1>AVG_File_Put</SE1>:艾尔玛点了点信封。
-Erma(4)<Speaker>艾尔玛</Speaker>||:这里面的东西并不是一张车票——+这是一个干扰器。+把干扰器伪装成车票的样子，你们到底是在卖什么？
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:……
-NPC-Scalper(3)<同时置暗><Speaker></Speaker>||:凯瑟琳眯起了眼睛。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:我讨厌聪明的客人。+但我更讨厌自以为聪明的客人。
-Erma(4)<Speaker>艾尔玛</Speaker>||:看来你是不打算回答我的问题了。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:凯瑟琳从沙发上站起来，重新拾起桌上的信封。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:我可以接受尾款等上车再付，但我也有条件。+我需要1.5倍价格的尾款。+而且，我会亲自带你上车。
-Erma(5)<Speaker>艾尔玛</Speaker>||:……成交。
-()||<SE1>ClothingUp</SE1>:凯瑟琳将信封交给了艾尔玛，艾尔玛即刻离开了这个地方。
-()||<SE1>AVG_20Winter_Door_Close</SE1><BGM>BGM_Empty</BGM>:咔哒——+小屋中又只剩下了昆比和凯瑟琳。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||<BGM>GF_Swim_Marnie</BGM>:凯瑟琳副店长，改走冷酷路线了？
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:不同的顾客，得用不同的处理办法。+那位一看就是个愣头青，啥也不懂，得用权威的姿态来对应。
-NPC-Scalper(3);NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:副店长说得有理。
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:她的素体，你觉得适合玛姬不？
-()||:昆比脑补了一下。
-Erma(5)<Speaker>玛姬</Speaker>||<边框>2</边框>:本店概不赊账。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:不得不说，挺有反差的。
-NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:玛姬的素体早就到极限了，我都怕这次不一定下得来。+再说，每天仰头看她我脖子的关节磨损都加剧了。+整个小不点素体，要是宕机了，背着也没那么费劲。
-()||:在凯瑟琳低沉的笑声中，有关未来的完美畅想已经肆无忌惮地铺陈开……
-()||<黑屏1>:
+()||<黑屏2><BIN>356</BIN><narrator>:Inside a hidden room in the black market, Moscow.
+()||<BGM>GF_Swim_Marnie</BGM>:Catherine is sprawled on a sofa, directing Quimby to help pack her belongings and prepare to back up her neural cloud.
+NPC-Scalper(0)<Speaker>Catherine</Speaker>||:...That should be it, right?
+NPC-Scalper(0);NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:I'm so tired. You never packed so much stuff when you boarded the Colt Express before!
+NPC-Scalper(0)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:What do you know? We've got an important mission this time.
+NPC-Scalper(0);NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:So why are you bringing the new buyer over? You think you can handle it?
+NPC-Scalper(0)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:Hey, double is being paid for the same amount of time spent. Besides—
+NPC-Scalper(0);NPC-Quimby(0)<Position>0,300</Position><同时置暗><Speaker></Speaker>||:A greedy look crosses Catherine's face.
+NPC-Scalper(0)<Speaker>Catherine</Speaker>||:She's got a pretty good body too...
+()||<SE1>AVG_Knock</SE1>:Knock—knock, knock—knock— +This is the prearranged doorknock.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:Yep, the buyer's here.
+NPC-Scalper(0)<Speaker>Catherine</Speaker>||:Good. Quimby, initiate Plan B.
+()||<SE1>AVG_BaseDoor_Close</SE1>:Catherine walks to the wall and presses a button. The wall slowly rotates and takes her to the room on the other side. +Once certain that Catherine has left, Quimby opens the door.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Welcome (*^▽^*), Esteemed boss! +I'm Quimby of the Tequila Bar, dedicated to providing you with a quality and reliable deal!
+NPC-Quimby(0)<Position>0,300</Position>;Erma(6)<Speaker>Erma</Speaker>||:...As per our arrangement, I want a ticket on the Colt Express.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>;Erma(6)||:Sure thing, boss. Please leave your details here.
+Erma(6)<Speaker>Erma</Speaker>||:...
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:While Quimby is serving refreshments, Erma surveys the cozy room. +It's roughly 20 square meters in size, with lots of random stuff hanging off the walls, making the already packed room even more cramped. +Some of them are common Doll parts, mainly cooling mechanisms, while others are trade ledgers which have been encrypted for security.
+Erma(4)<Speaker>Erma</Speaker>||:<color=#A9A9A9>Does black market business really need so much neural cloud processing power? The cooling devices here could last me for 300 years...</color>
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:Here, Boss! (*^▽^*) Have some tea! +Just sign off on these forms, and I'll take a look. This is your ticket.
+()||<SE1>AVG_File_Put</SE1>:Quimby hands a sealed envelope to Erma.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:You can pay your outstanding balance now.
+Erma(6)<Speaker>Erma</Speaker>||:...
+()||<SE1>AVG_20Winter_Book</SE1>:Erma opens the envelope and checks the information on the ticket.
+Erma(5)<Speaker>Erma</Speaker>||:The outstanding balance... I'll only pay after I can be sure that I can board the Colt Express with this ticket.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:That won't do, dear customer...
+()||<SE1>ClothingUp</SE1>:Erma puts the ticket back in the envelope and lays it on the table.
+Erma(6)<Speaker>Erma</Speaker>||:If it won't do, then I'll go look at other places. +After all, you're not the only ticket-sellers...
+()||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:Knock, knock, knock— +Hearing Catherine's signal, Quimby smiles.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:Dear customer, our assistant manager will explain the situation to you.
+()||<SE1>AVG_BaseDoor_Close</SE1><BGM>GF_EV9_Story</BGM>:Quimby presses a switch on the wall, and a clean, shiny stretch of wall rotates 180 degrees, presenting Erma with a new character.
+Erma(7)<Speaker>Erma</Speaker>||:...What?!
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:The name is Catherine.
+()||:The cool-faced woman stands up from her chair and sizes Erma up.
+Erma(6)<Speaker>Erma</Speaker>||:Hi...
+NPC-Scalper(3)<Speaker>Catherine</Speaker>;Erma(6)||:First, let me make this clear. +Only one place sells tickets for the Colt Express, and this is it.
+NPC-Scalper(3);Erma(6)<Speaker>Erma</Speaker>||:...
+NPC-Scalper(3)<Speaker>Catherine</Speaker>;Erma(6)||:Second, Colt Express tickets are standalone and do not include any tickets for the Future that you might have bought. +But since you want a set ticket, you'll see from their official website just how hard it is to get tickets for the Future. That is, if you have any common sense.
+NPC-Scalper(3);Erma(6)<Speaker>Erma</Speaker>||:...
+NPC-Scalper(3)<Speaker>Catherine</Speaker>;Erma(6)||:Finally, we don't extend credit.
+NPC-Scalper(3);Erma(6)<同时置暗><Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:After that series of explanations, Catherine returns to her comfy sofa.
+NPC-Scalper(3);Erma(4)<Speaker>Erma</Speaker>||:I have a few questions...
+NPC-Scalper(3)<Speaker>Catherine</Speaker>;Erma(4)||:Shoot.
+NPC-Scalper(3);Erma(4)<Speaker>Erma</Speaker>||:Why do I need two tickets to board the Colt Express?
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:What an elementary question... Quimby.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:Here's the thing, dear customer~ +The Colt Express doesn't refer to the name of a train, but a black market that is only open to Dolls. +However, it is only accessible from the Intercontinental Railway train "Future". Therefore, you must board the Future to board the "Colt Express".
+Erma(6)<Speaker>Erma</Speaker>||:I see... +I have another question.
+()||<SE1>AVG_File_Put</SE1>:Erma taps the envelope.
+Erma(4)<Speaker>Erma</Speaker>||:This isn't a ticket— +It's a jammer. +What exactly are you trying to sell by disguising a jammer as a train ticket?
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:...
+NPC-Scalper(3)<同时置暗><Speaker></Speaker>||:Catherine narrows her eyes.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:I hate smart customers. +But I hate customers who think they're smart even more.
+Erma(4)<Speaker>Erma</Speaker>||:Looks like you don't intend to answer my question.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Catherine jumps up from the sofa and picks up the envelope on the table.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:I can take your outstanding balance on the train, but there are conditions. +I'll be charging 1.5 times the usual amount. +And I will take you aboard myself.
+Erma(5)<Speaker>Erma</Speaker>||:...Deal.
+()||<SE1>ClothingUp</SE1>:Catherine hands Erma the envelope and Erma leaves immediately.
+()||<SE1>AVG_20Winter_Door_Close</SE1><BGM>BGM_Empty</BGM>:Click— +Once again, only Quimby and Catherine are left in the room.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||<BGM>GF_Swim_Marnie</BGM>:Assistant Boss Catherine, are you going down the path of becoming a heartless merchant now?
+NPC-Scalper(3)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:You have to handle different customers in different ways. +She came off as a brusque individual, so I had to threaten her from a position of authority.
+NPC-Scalper(3);NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:You've got a point, assistant boss.
+NPC-Scalper(0)<Speaker>Catherine</Speaker>||:Do you think her body would suit Maggie?
+()||:Quimby thinks.
+Erma(5)<Speaker>Maggie</Speaker>||<边框>2</边框>:We don't extend credit.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:I have to say, the contrast would be quite interesting.
+NPC-Scalper(0)<Speaker>Catherine</Speaker>||:Maggie's body is at its limit. I'm worried she might not make it past this run. +Having to constantly look up at her is also putting a lot of strain on my neck joints. +Plus, a smaller body is easier to carry if she crashes.
+()||:As Catherine chuckles quietly, a plan for a beautiful future slowly unfolds in her mind...
+()||<黑屏1>:

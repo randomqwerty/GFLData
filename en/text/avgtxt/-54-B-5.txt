@@ -1,102 +1,102 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>272</BIN><narrator>:翌日 柏林 格雷生物科技研究所
-()||<BGM>BGM_Room</BGM><SE1>AVG_footsteps_cave</SE1>:拿着邀请函，玛姬和凯瑟琳准时进入了研究所。+洁白的大理石，洁白的墙壁，在明亮光线的反射下，散发出有些炫目的光泽。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||<SE1>Stop_AVG_loop</SE1>:真是充满人类气息的高级研究所。+和我们是多么格格不入啊……
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……不需要融入，这又不是我们将来的工作场所。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:嗯？我还以为接下来会大部分时间在这边。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:人形该有人形的去处。
-()||<SE1>AVG_footsteps_cave</SE1>:研究所的前台没有人，两人相视一眼，自然地走了进去。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||<SE1>Stop_AVG_loop</SE1>:“伊登”……后面的是什么？
-ColtWalker(3)<Speaker>玛姬</Speaker>||:这里应该是研发辐射症药物的区域。
-NPC-Nele(4)<Speaker>？？？</Speaker>||:……两位是？
-()||<SE1>AVG_Walk</SE1>:一位身着制服的女性疑惑地走向玛姬和凯瑟琳，机警的视线在两人身上仔细搜寻着。
-()||<SE1>Stop_AVG_loop</SE1>:玛姬出示了邀请函。
-NPC-Nele(4)<Speaker>？？？</Speaker>||:啊是老师的客人，你们好，我叫奈乐。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:前台又不见了吗？+那么，“玛姬”女士，请随我来，我带你去老师的办公室。+另一位需要在外面等候哦。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:好的。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:奈乐小姐的老师？
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:嗯？你们没有仔细看吗？
-()||<SE1>ClothingUp</SE1>:奈乐扶了扶眼镜框，指了下邀请函的落款。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:“灰夫人”，就是我的老师——格雷女士。
-()||:玛姬玩味地笑了笑。
+()||<黑屏2><BIN>272</BIN><narrator>:The next day, at the Gray Institute of Biotechnology in Berlin.
+()||<BGM>BGM_Room</BGM><SE1>AVG_footsteps_cave</SE1>:Maggie and Catherine enter the research institute with their invitation in hand. +The marble floor and the clean white walls are almost dazzling as they reflect the internal lights.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||<SE1>Stop_AVG_loop</SE1>:This place certainly has a very human feel to it. +We're totally out of place here...
+ColtWalker(3)<Speaker>Maggie</Speaker>||:...We don't need to blend in. It's not like we'll be working here anyway.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:Oh? I thought we'd be spending a lot of time here.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:Dolls have places where Dolls ought to be.
+()||<SE1>AVG_footsteps_cave</SE1>:There is nobody at the front desk of the research center. The two of them exchange looks and then walk in like it was the most natural thing in the world.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||<SE1>Stop_AVG_loop</SE1>:"Idunn"... What's that behind it?
+ColtWalker(3)<Speaker>Maggie</Speaker>||:I think we're in the ELID medicine development area.
+NPC-Nele(4)<Speaker>???</Speaker>||:...Excuse me, who might you be?
+()||<SE1>AVG_Walk</SE1>:A woman in a lab coat approaches Maggie and Catherine with a curious look on her face, her wary gaze carefully examining them.
+()||<SE1>Stop_AVG_loop</SE1>:Maggie produces her invitation.
+NPC-Nele(4)<Speaker>???</Speaker>||:Ah, you're Teacher's guests. Hello, my name is Nele.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Did the receptionist run off again? +In that case, please come with me, Miss Maggie. I'll take you to Teacher's room. +I'm afraid your companion will have to wait outside.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:Very well.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:You have a teacher, Miss Nele?
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Hm? Didn't you read it carefully?
+()||<SE1>ClothingUp</SE1>:Nele adjusts her glasses and points at the sender's name on the invitation.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:"Lady of Ashes", or Mrs. Gray—my teacher.
+()||:Maggie smiles in amusement.
 ()||<黑点1>:
-()||<黑点2><BIN>470</BIN><SE1>AVG_20Winter_Drink_Tea</SE1>||:格雷坐在办公桌后，正在享用一杯香气四溢的咖啡。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>||:又见面了，玛姬小姐。
-NPC-MrsGray(0);ColtWalker(1)<Speaker>玛姬</Speaker>||:你好，灰夫人。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>;ColtWalker(1)||:柏林的天气，还适应吗？
-NPC-MrsGray(0);ColtWalker(1)<Speaker>玛姬</Speaker>||:以后总是要适应的。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>;ColtWalker(1)||:你想要喝什么？
-NPC-MrsGray(0);ColtWalker(1)<Speaker>玛姬</Speaker>||:我喜欢威士忌和龙舌兰。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>||:可惜这里是办公室，为了保持大家的清醒，一般只有茶或者咖啡这类富含咖啡因的饮品。
-()||:玛姬笑了笑。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:格雷女士喜欢什么酒？
-NPC-MrsGray(0)<Speaker>格雷</Speaker>||:一杯干马天尼，摇匀，不要搅拌。
-()||<SE1>ClothingUp</SE1>:玛姬点了点头，行了个优雅的邀请礼，将自己的手心朝上，伸到格雷的面前。+那里放着一枚小小的硬币，格雷自然而然地握住了它。
-()||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:现实与虚幻之间，从灯光变成了白雾。
+()||<黑点2><BIN>470</BIN><SE1>AVG_20Winter_Drink_Tea</SE1>||:Gray is seated behind a desk, enjoying a fragrant cup of coffee.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>||:We meet again, Miss Maggie.
+NPC-MrsGray(0);ColtWalker(1)<Speaker>Maggie</Speaker>||:Hello, Mrs. Gray.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>;ColtWalker(1)||:Are you getting used to Berlin's weather?
+NPC-MrsGray(0);ColtWalker(1)<Speaker>Maggie</Speaker>||:I'll have to get used to it sooner or later.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>;ColtWalker(1)||:Would you like something to drink?
+NPC-MrsGray(0);ColtWalker(1)<Speaker>Maggie</Speaker>||:I like whiskey and tequila myself.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>||:Unfortunately, this is a lab, and to ensure everyone is clear of mind, we typically only stock caffeinated beverages like tea and coffee.
+()||:Maggie smiles.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:And what drinks do you like, Mrs. Gray?
+NPC-MrsGray(0)<Speaker>Gray</Speaker>||:A dry martini, shaken, not stirred.
+()||<SE1>ClothingUp</SE1>:Maggie nods, then gracefully extends her hand in invitation. +There is a little coin there, and Gray naturally grabs it.
+()||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:The line between reality and fantasy blurs, and the lights grow misty.
 ()||<黑点1>:
-()||<黑点2><BIN>527</BIN><SE1>AVG_Eurocity</SE1>:轰——哐哐哐——
-()||<BGM>GF_2022_Summer_AVG_4</BGM>:喧嚣的列车奔驰声涌来。
-()||<SE1>Stop_AVG_loop</SE1>:格雷坐在复古车厢里，微微挑眉。
-()||<SE1>AVG_va_addingredient</SE1>:玛姬已经熟练地操作起来，片刻之后，面前的高脚杯中已经斟上了清澈透亮的液体。
-()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:一颗饱满的橄榄紧随其后地落入杯中。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:请享用，专属于您的马天尼。
-()||<SE1>ClothingUp</SE1>:格雷露出些笑意，端起了面前的酒杯，递到唇边浅抿一口。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:刚刚好。
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:话音未落，格雷就将整杯干马天尼一饮而尽。+在这杯干马天尼最好的状态，一滴不落地喝光，正是对调酒师最好的嘉奖。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:感谢格雷女士的赏脸。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:这份见面礼，我很喜欢。
-()||<SE1>ClothingUp</SE1>:烈酒微微染红了格雷的双颊，她放下酒杯，再度望向玛姬。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>||:这也是福克斯姐妹会的遗产？
-NPC-MrsGray(0);ColtWalker(3)<Speaker>玛姬</Speaker>||:是的，是难得能维持全貌到今天的东西了。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>;ColtWalker(3)||:可惜有些陈旧了，和你的干扰器一样。+把干扰器隐藏在硬币中的古老戏法，已经很少见了。
-NPC-MrsGray(0);ColtWalker(1)<Speaker>玛姬</Speaker>||:确实有些跟不上时代了，但要升级迭代新的系统，离不开昂贵的资金和设备。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>;ColtWalker(1)||:你这是拐弯抹角地在跟我申请资金和设备吗？
-NPC-MrsGray(0);ColtWalker(1)<Speaker>玛姬</Speaker>||:嗯哼。+这是应当付出的项目成本。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>;ColtWalker(1)||:我说过，我对待有价值的人一向是很慷慨的。+再来一杯马天尼吧。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:没问题。
-()||<SE1>AVG_va_addingredient</SE1>:片刻间，玛姬又做好了一杯干马天尼。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:请用。
-()||:格雷的唇角染上一抹笑，她向着酒杯伸出手，但手却直直和酒杯错开——
-()||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:纤细修长的手指轻轻点了点玛姬的头发。
-ColtWalker(4)<Speaker>玛姬</Speaker>||<BGM>GF_22W_BGM_3</BGM>:……
-()||:玛姬下意识想要躲开，顿了一秒，还是保持了不动的状态。
-NPC-MrsGray(2)<Speaker>格雷</Speaker>||:你很害怕？
-NPC-MrsGray(2);ColtWalker(3)<Speaker>玛姬</Speaker>||:……仆人不应当直视神明。
-NPC-MrsGray(4)<Speaker>格雷</Speaker>;ColtWalker(3)||:福克斯姐妹会的人形都像你一样会说话吗？
-NPC-MrsGray(4);ColtWalker(3)<Speaker>玛姬</Speaker>||:这是社会工程师的自我修养。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>;ColtWalker(3)||:别紧张，只是看看你的素体。+不过你这具素体还真是乱来，这就是现在民用人形的改装水平吗？
-NPC-MrsGray(4);ColtWalker(3)<Speaker>玛姬</Speaker>||:所以才需要您的支持。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:有道理。
-()||:格雷的手掌打开，抵住了玛姬心脏的位置。
-()||<SE1>Rope</SE1>:一寸一寸地没入，直到整个手掌都进入了玛姬的胸膛。
-NPC-MrsGray(4)<Speaker>格雷</Speaker>||:心智空间，也该好好清理了。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……+多谢。
-()||:清晰的痛感，玛姬意识到格雷已经开始控制她的心智……
+()||<黑点2><BIN>527</BIN><SE1>AVG_Eurocity</SE1>:An engine roars and wheels churn noisily over metal tracks.
+()||<BGM>GF_2022_Summer_AVG_4</BGM>:The sound of a clamorous train washes over her.
+()||<SE1>Stop_AVG_loop</SE1>:Gray is seated inside a retro-style train carriage. She quirks up an eyebrow.
+()||<SE1>AVG_va_addingredient</SE1>:Maggie is already working with practiced skill. A moment later, the high-stemmed glass before her is filled with a translucent liquid.
+()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:A plump olive then plops into the glass.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Your martini. Please enjoy.
+()||<SE1>ClothingUp</SE1>:With a smile, Gray brings the wineglass to her lips and takes a sip.
+NPC-MrsGray(1)<Speaker>Gray</Speaker>||:Just right.
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:Gray downs the entire martini in one gulp. +To have an entire drink finished in a single swig with nothing left over is the highest accolade a bartender can receive.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Thank you for your largesse, Mrs. Gray.
+NPC-MrsGray(1)<Speaker>Gray</Speaker>||:I like this welcome gift very much.
+()||<SE1>ClothingUp</SE1>:The stiff drink brings a flush of pink to Gray's cheeks. She puts the glass down and looks at Maggie again.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>||:Is this also a legacy of the Fox Sisterhood?
+NPC-MrsGray(0);ColtWalker(3)<Speaker>Maggie</Speaker>||:Oh yes. Things like this rarely survive to the present day in such good condition.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>;ColtWalker(3)||:Still, it's a bit old, much like your jammer. +Hiding one in a coin is an old trick that isn't too commonly seen nowadays.
+NPC-MrsGray(0);ColtWalker(1)<Speaker>Maggie</Speaker>||:It is a little behind the times, but a new iteration of the system would require a lot of money and equipment.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>;ColtWalker(1)||:Is this an indirect request for funding and technical support?
+NPC-MrsGray(0);ColtWalker(1)<Speaker>Maggie</Speaker>||:Mhm. +This is a necessary expenditure for the project.
+NPC-MrsGray(0)<Speaker>Gray</Speaker>;ColtWalker(1)||:I told you, I've always been very generous to people of worth. +Another martini, please.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:No problem.
+()||<SE1>AVG_va_addingredient</SE1>:In an instant, Maggie has made another dry martini.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Enjoy.
+()||:Gray smiles and reaches out toward the glass, but her hand makes no effort to take it—
+()||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:Instead, her slender fingers gently brush the strands of Maggie's hair.
+ColtWalker(4)<Speaker>Maggie</Speaker>||<BGM>GF_22W_BGM_3</BGM>:...
+()||:Maggie reflexively tries to avoid her, but after a brief pause, she decides to stay put.
+NPC-MrsGray(2)<Speaker>Gray</Speaker>||:Are you afraid?
+NPC-MrsGray(2);ColtWalker(3)<Speaker>Maggie</Speaker>||:...A servant should not look a goddess in the eye.
+NPC-MrsGray(4)<Speaker>Gray</Speaker>;ColtWalker(3)||:Are all the Dolls from the Fox Sisterhood smooth talkers like you?
+NPC-MrsGray(4);ColtWalker(3)<Speaker>Maggie</Speaker>||:It's basic upbringing for a social engineer.
+NPC-MrsGray(1)<Speaker>Gray</Speaker>;ColtWalker(3)||:Relax, I'm just examining your body. +It really is quite a mess. Is this the level of modified civilian Dolls nowadays?
+NPC-MrsGray(4);ColtWalker(3)<Speaker>Maggie</Speaker>||:That's why I need your support.
+NPC-MrsGray(1)<Speaker>Gray</Speaker>||:That makes sense.
+()||:Gray's presses her palm against where Maggie's heart would be.
+()||<SE1>Rope</SE1>:It sinks into her chest, inch by inch, until her entire hand is within Maggie's ribcage.
+NPC-MrsGray(4)<Speaker>Gray</Speaker>||:You ought to clear out your neural cloud, you know.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:... +Thank you.
+()||:The keen sensation of pain makes Maggie realize that Gray has already taken control of her neural cloud...
 ()||<黑屏1>:
-()||<黑屏2><BIN>527</BIN>:回过神来，柔软的座椅，窗外的风景依旧如常。+但是对面的格雷不见了。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……
-()||<SE1>AVG_whitenoise</SE1>:兹——车窗上映现出了一张毫无生气的脸庞。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:请待在车厢内，直到改造完成。
-NytoWhite(0);ColtWalker(3)<Speaker>玛姬</Speaker>||:至少让我知道，你们要对我的心智做些什么吧？
-NytoWhite(0)<Speaker>白涅托</Speaker>;ColtWalker(3)||:……+升级你老旧的系统，对你暂时开放了情报系统的接口。
-NytoWhite(0);ColtWalker(3)<Speaker>玛姬</Speaker>||:……情报系统？
-NytoWhite(0)<Speaker>白涅托</Speaker>||:“蜂针”，无孔不入。+最后重复一遍，待在车厢，不要出来，否则会被当做废品一起清理掉。
-()||:少女的面庞从车窗上消失了。
-()||<SE1>AVG_va_addingredient</SE1>:玛姬伸手唤出一杯柠檬水，但依然安抚不了躁动不安的情绪。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:等等……
-()||<SE1>AVG_20Winter_Door_Open</SE1>:她唰地站起来，拉开了车厢的门，走廊外果然出现了一些不寻常的变化。
+()||<黑屏2><BIN>527</BIN>:When she comes to, she finds herself still sitting on the same soft seat and looking at the same view out the window. +However, Gray has vanished from her place opposite her.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:...
+()||<SE1>AVG_whitenoise</SE1>:Pzzt... A lifeless face appears in the train window.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:Please wait inside the cabin until the upgrade is complete.
+NytoWhite(0);ColtWalker(3)<Speaker>Maggie</Speaker>||:Could you at least tell me what you're doing to my neural cloud?
+NytoWhite(0)<Speaker>White Nyto</Speaker>;ColtWalker(3)||:... +We will be upgrading your antiquated systems and temporarily opening an information system interface.
+NytoWhite(0);ColtWalker(3)<Speaker>Maggie</Speaker>||:...An information system?
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:"The Bee Sting". It goes everywhere. +I will repeat it for the last time, stay inside the cabin and do not leave, or you will be considered trash and eliminated.
+()||:The girl's face vanishes from the window.
+()||<SE1>AVG_va_addingredient</SE1>:Maggie conjures a glass of lemonade, but it does nothing to soothe her unease.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:Wait a minute...
+()||<SE1>AVG_20Winter_Door_Open</SE1>:She suddenly jumps to her feet and pulls open the cabin door. As expected, there are unusual changes in the corridor outside.
 ()||<黑点1>:
-()||<黑点2><BIN>240</BIN>:往日狭长的走廊消失了，取而代之的，是一个阴暗宽阔的大厅。
-ColtWalker(4)<Speaker>玛姬</Speaker>||:……
-()||<SE1>AVG_footsteps_woodfloor</SE1>:几个白衣少女手持蜡烛，在其中游走，犹如苍白的幽灵，前往死者的床榻前。
-()||<SE1>AVG_Creep</SE1><SE2>AVG_20Winter_Book</SE2>:桌上的通灵板胡乱地转动着，漫天的扑克牌飞舞不休。
-ColtWalker(3)<Speaker>玛姬</Speaker>||<SE1>Stop_AVG_loop</SE1>:……原来是这样的改造啊。
+()||<黑点2><BIN>240</BIN>:The long, narrow corridor that would usually be there is gone, replaced by a dark, spacious hall.
+ColtWalker(4)<Speaker>Maggie</Speaker>||:...
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Several girls in white carry candles as they wander through it, like pale specters gathering before the bed of the deceased.
+()||<SE1>AVG_Creep</SE1><SE2>AVG_20Winter_Book</SE2>:The Ouija board on the table spins wildly, and the air is filled with fluttering poker cards.
+ColtWalker(3)<Speaker>Maggie</Speaker>||<SE1>Stop_AVG_loop</SE1>:...So these are the modifications she's making.
 ()||<黑点1>:
-()||<黑点2><BIN>467</BIN>:几乎没有光源的地下室，空旷的房间中，只有一个少女站在角落。
-()||<SE1>ShuffleCards</SE1>:唰——+像灵动的蝴蝶般，扑克牌在她的手中翻飞着。
-()<Speaker>？？？</Speaker>||:练习开始。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……
-()||<SE1>DealCards</SE1>:咻——咻——+扑克牌精准地飞出，落在了标定的地点。
-()||:玛姬仔细听了听，那些白色少女完全没有发现这间地下室。+微微露出一点安心的笑容。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:格雷女士，你还是不够了解我啊……+我可不是……会坐以待毙的人！
-()||<黑点1>:
+()||<黑点2><BIN>467</BIN>:In a spacious and nearly-lightless basement, a single girl stands in the corner.
+()||<SE1>ShuffleCards</SE1>:Whoosh— +Poker cards fly out from her hands like spirit butterflies.
+()<Speaker>???</Speaker>||:The practice begins.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:...
+()||<SE1>DealCards</SE1>:Whoosh—Whoosh— +The poker cards fly out with flawless precision, landing at their indicated locations.
+()||:Maggie listens carefully. These girls in white are completely unaware of this basement. +She smiles faintly in relief.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:You just don't understand me well enough, Mrs. Gray... +I'm not going to just sit here and await my fate!
+()||<黑点1>:

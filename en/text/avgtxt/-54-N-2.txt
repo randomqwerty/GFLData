@@ -1,62 +1,62 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>139</BIN><BGM>GF_Swim_Marnie</BGM>:……距现在十个月前，慈善晚会。+身着华贵礼服的人们游走在酒席间，觥筹交错，好不热闹。+尼古拉混迹其中，如鱼得水。
-()<Speaker>晚会主持人</Speaker>||:……感谢各位来宾的捧场，我很荣幸地在此宣布，慈善拍卖环节正式开始！
-()||<SE1>AVG_applause_indoor</SE1>:潮水般的掌声响起，尼古拉敷衍地鼓着掌，同时在人群中搜索着值得下手的目标。
-()<Speaker>晚会主持人</Speaker>||<SE1>Stop_AVG_loop</SE1>:我们的第一件藏品是由塔奇拉美术馆提供的阿尔希普·伊凡诺维奇·库因芝所绘的《第聂伯河上的月夜》。+负责人玛姬小姐是这样介绍这幅名画的——+这幅画采用了留白的构图方式，深蓝色的夜空下，河水在月光的照耀下发出幽幽的蓝光，连圆月周围的云彩也是静谧的蓝，而恰到好处的留白更是渲染出了空间的寂静……
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:……
-()||:主持人还在台上滔滔不绝，而尼古拉手中的香槟杯早已停滞多时。+沉思了半晌后，尼古拉脸上凝滞的表情渐渐化开，露出了隐藏其下的狡黠的微笑。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||<黑屏1>:这可真是我离开律贼以后的最好的消息。
-()||<黑屏2><Night><BIN>97</BIN><SE1>AVG_20Winter_People_Discussion_Loop</SE1>:……慈善晚会外，人流拥挤的走廊。+塔奇拉美术馆的负责人玛姬正和感兴趣的宾客热络地聊着天。
-()||<SE1>Stop_AVG_loop</SE1>:尼古拉摇晃着手中的香槟杯，看似漫不经心地来到了玛姬的身边。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:《第聂伯河上的月夜》，这失传已久的名画，真是好久没有听见它的消息了。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:是的，我们塔奇拉美术馆也是多方打听、费了好一番功夫才找到的。+这位先生怎么称呼？
-ColtWalker(1);NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||<BGM>BGM_Empty</BGM>:尼古拉·瓦西里耶维奇，叫我尼古拉就好。
-ColtWalker(2)<Speaker>玛姬</Speaker>;NPC-NervousMan(0)||:您好，尼古拉先生。里面正在进行画作的拍卖，感兴趣的话，可不要错过。
-ColtWalker(2);NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||<BGM>BGM_stage11</BGM>:我对这幅画作确实很感兴趣，但很遗憾，我并不想拍下它。+因为这只是一幅赝品。
-ColtWalker(4)<Speaker>玛姬</Speaker>;NPC-NervousMan(0)||:……
-ColtWalker(4);NPC-NervousMan(0)<同时置暗><Speaker></Speaker>||:围绕在玛姬身边的喧嚣骤停，玛姬脸上保持着从容的笑容。
-ColtWalker(2)<Speaker>玛姬</Speaker>;NPC-NervousMan(0)||:尼古拉先生真会说笑，这幅画作可是经过了专业人士的层层鉴定，绝不可能是赝品。
-ColtWalker(2);NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:可是我有确凿的证据，能够证明我所说属实。
-ColtWalker(2)<Speaker>玛姬</Speaker>||:哈哈，各位恕我失陪，尼古拉先生，还请您带我去看看您所说的证据。
-()||<黑屏1>:玛姬看似从容地邀请尼古拉借一步谈话，尼古拉也没有拆穿，跟着离开了。
-()||<黑屏2><BIN>18</BIN><Night>:……会场外。+确认没有第三个人在场后，玛姬停下了脚步。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:尼古拉先生，虽然不知道是谁邀请您来的晚宴，但还请别再说出那样让人误会的话了。+我们塔奇拉画廊向来是不碰赝品的。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:啊哈，是吗？
-()||:尼古拉讽刺地笑了笑。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:我见过这幅画的真品。它之前曾出现在我父亲的书房中，后来老爷子看腻了，转手卖给了一个海外私人收藏家。+据我所知，那副画应该还挂在收藏家的客厅里。
-ColtWalker(3)<Speaker>玛姬</Speaker>||:……+竟然是这样。
-()||:玛姬沉默了半晌，换上了友好的笑容。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:没想到请了专家来为我们层层把关，还是会出这样的纰漏……
-ColtWalker(1);NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:怕是层层买通的专家吧。
-ColtWalker(1)<Speaker>玛姬</Speaker>;NPC-NervousMan(1)||:……+我应该感谢您的慧眼，要不是您在，这幅画就把我也骗过去了。
-ColtWalker(1);NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:所以？
-ColtWalker(2)<Speaker>玛姬</Speaker>;NPC-NervousMan(1)||:专家们鉴定，这幅画和真作可谓是别无二致，买下来的人也绝对不会吃亏啊。+不如这样吧，尼古拉先生，我将这幅画作成交金额的两成付给您，作为您的鉴赏费。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:两成？
-()||:尼古拉微笑着摇了摇头。+玛姬维持着笑容，狠狠咬了咬后槽牙。
-ColtWalker(2)<Speaker>玛姬</Speaker>||:……也是，区区两成，完全不够表达对尼古拉先生的感谢。+五成吧，不能再多了，我们画廊也等着回血呢。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:不，不，不。
-NPC-NervousMan(1)<同时置暗><Speaker></Speaker>||:尼古拉依然摇头。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:恕我直言，你的目光还是太短浅了，玛姬小姐。
-ColtWalker(2)<Speaker>玛姬</Speaker>||:还请尼古拉先生分享下您的高见。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:塔奇拉画廊之后的所有画作，我都愿意帮忙鉴赏，为你们出面摆平一些人类社会的规矩。+我可以利用我父亲的人脉，为塔奇拉画廊画作的真实性保驾护航。+而作为报偿，我只要每一笔画作交易金的五成。
-()||:尼古拉靠在墙边，点燃了一支香烟。+在袅袅烟雾中，玛姬微笑起来。
-ColtWalker(2)<Speaker>玛姬</Speaker>||<黑屏1>:……+那么，欢迎您的加入，尼古拉先生。
-()||<黑屏2><BIN>9</BIN><黑屏1>:玛姬绝不会想到，这将是她这一生中最后悔的决定。
-()||<关闭蒙版><黑屏2><BIN>356</BIN><BGM>BGM_Empty</BGM>:……距现在两个月前，安全屋。
-()||<BGM>BGM_Truth</BGM>:玛姬和凯瑟琳无力地瘫倒在地板上，昆比在一旁焦灼地算账。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:主人！那家伙凭什么啊？！+干什么搞砸什么，怎么还能分走一半的收入呢？！
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:……没办法，谁让我们有把柄在他手上。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:不能把那家伙甩掉吗？
-ColtWalker(3)<Speaker>玛姬</Speaker>||:你以为我没试过吗？这家伙一直阴魂不散……
-()||<SE1>AVG_Cloak_Whoosh</SE1>:玛姬突然坐了起来。
-NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:怎么了，玛姬？
-ColtWalker(1)<Speaker>玛姬</Speaker>||:我突然意识到了一个问题。
-NPC-Quimby(0)<Position>0,300</Position><Speaker>昆比</Speaker>||:什么？
-ColtWalker(1)<Speaker>玛姬</Speaker>||:他虽然现在流浪在外，但他背靠一个富裕的家族……
-ColtWalker(1);NPC-Scalper(3)<Speaker>凯瑟琳</Speaker>||:所以呢？
-ColtWalker(1);NPC-Scalper(3)<同时置暗><Speaker></Speaker>||:玛姬绽开一个危险的笑容。
-ColtWalker(2)<Speaker>玛姬</Speaker>;NPC-Scalper(3)||:竭泽而渔只能富裕一时，可持续性发展才是长久的道路。
-ColtWalker(2);NPC-Scalper(0)<Speaker>凯瑟琳</Speaker>||:你难道是想……
-ColtWalker(2)<Speaker>玛姬</Speaker>||:这或许是我们打开上流社会缺口的机会……
-()||:沉闷已久的安全屋再次洋溢起了快活的笑声。
-()||<黑屏1>:
+()||<黑屏2><BIN>139</BIN><BGM>GF_Swim_Marnie</BGM>:...At a charity ball ten months ago. +Extravagantly dressed guests mill around the venue. Wine glasses clink and glisten in the light, forming a lively and bustling scene. +Nikolai takes to mingling with the crowd like a duck to water.
+()<Speaker>Party Host</Speaker>||:...Thank you everyone for coming! It is my honor to announce that the charity auction will now officially begin!
+()||<SE1>AVG_applause_indoor</SE1>:A wave of applause erupts. Nikolai claps his hand nonchalantly as he scans the crowd for a potential target.
+()<Speaker>Party Host</Speaker>||<SE1>Stop_AVG_loop</SE1>:Our first item is Arkhip Kuindzhi's "Moonlit Night on the Dnipro", supplied by the Tequila Gallery. +The handler, Miss Maggie Ponzi, has provided the following introduction— +Under the darkness of the night sky, the river glows eerily in the moonlight. Even the clouds around the full moon are tinged with delicate light, and the masterful use of negative space is extremely effective in depicting the tranquility of the scene...
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:...
+()||:Nikolai's champagne flute freezes even as the auctioneer prattles on. +After a moment of thought, his features gradually shift from an expression of shock to a nefarious grin.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||<黑屏1>:Well, well, well. This is the best thing that has happened to me since I left the Vory.
+()||<黑屏2><Night><BIN>97</BIN><SE1>AVG_20Winter_People_Discussion_Loop</SE1>:...In the crowded hallway outside the venue of the ball. +The representative from the Tequila Gallery, Maggie, is conversing with prospective buyers enthusiastically.
+()||<SE1>Stop_AVG_loop</SE1>:Swirling the champagne in his flute, Nikolai strolls up to Maggie casually.
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:"Moonlit Night on the Dnipro"... This famous painting has been lost for a very long time.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Indeed. We only managed to find it after a great deal of investigation and with no small amount of effort. +How may I address you, sir?
+ColtWalker(1);NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||<BGM>BGM_Empty</BGM>:The name is Nikolai Vasilyevich. Just call me Nikolai.
+ColtWalker(2)<Speaker>Maggie</Speaker>;NPC-NervousMan(0)||:Nice to meet you, Mr. Nikolai. There will be an auction for this painting inside. If you are interested, make sure you don't miss it.
+ColtWalker(2);NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||<BGM>BGM_stage11</BGM>:I am certainly intrigued by the painting, but unfortunately, I have no intention of bidding for it. +This is just a forgery.
+ColtWalker(4)<Speaker>Maggie</Speaker>;NPC-NervousMan(0)||:...
+ColtWalker(4);NPC-NervousMan(0)<同时置暗><Speaker></Speaker>||:The enthusiastic chatter around Maggie instantly dies down. Maggie fights to maintain her composed smile.
+ColtWalker(2)<Speaker>Maggie</Speaker>;NPC-NervousMan(0)||:You've got a sense of humor, Mr. Nikolai. This painting has been authenticated by multiple experts. There is absolutely no way it could be a forgery.
+ColtWalker(2);NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:But I have concrete evidence that proves otherwise.
+ColtWalker(2)<Speaker>Maggie</Speaker>||:Haha, excuse me, ladies and gentlemen. Mr. Nikolai, do please show me your evidence.
+()||<黑屏1>:Maggie casually invites Nikolai to step aside for a private conversation. Nikolai goes along with it and follows her.
+()||<黑屏2><BIN>18</BIN><Night>:...Somewhere outside the venue. +After making sure that no one else is around, Maggie comes to a stop.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Mr. Nikolai, I don't know who invited you to the ball, but please refrain from making claims that could lead to misunderstandings. +The Tequila Gallery would never invest in forgeries.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:Ha, really?
+()||:Nikolai chuckles sardonically.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:I have seen the original of this painting. It was once hung in my father's study, but after the old man got bored with it, he resold it to a private collector from overseas. +From what I know, that painting is still on display in the collector's living room.
+ColtWalker(3)<Speaker>Maggie</Speaker>||:... +How unfortunate.
+()||:After a brief moment of silence, Maggie flashes a friendly smile.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:To think that this forgery managed to slip through all the authentication experts...
+ColtWalker(1);NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:Your experts may be in on the deal.
+ColtWalker(1)<Speaker>Maggie</Speaker>;NPC-NervousMan(1)||:... +Then I must thank you for your shrewdness. If it weren't for you, the painting would've fooled me too.
+ColtWalker(1);NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:So?
+ColtWalker(2)<Speaker>Maggie</Speaker>;NPC-NervousMan(1)||:According to the experts, this painting is practically identical to the original in every way. Whoever ends up purchasing it will still be getting their money's worth. +How about this, Mr. Nikolai... I will pay you 20% of the painting's sold price as authentication fee.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:20%?
+()||:Nikolai shakes his head with a smile. +Maggie returns his smile through clenched teeth.
+ColtWalker(2)<Speaker>Maggie</Speaker>||:...You're right, a measly 20% is nowhere near enough to express our gratitude for you. +50%—I can't go any higher. Our gallery needs to turn a profit too.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:No, no, no.
+NPC-NervousMan(1)<同时置暗><Speaker></Speaker>||:Nikolai shakes his head again.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:Forgive me for being blunt, but you are too short-sighted, Miss Maggie.
+ColtWalker(2)<Speaker>Maggie</Speaker>||:Please do share your thoughts, Mr. Nikolai.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:I am happy to provide my authentication service for all the paintings sold through the Tequila Gallery and to help you navigate human society. +With my father's network, nobody will have any reason to doubt the authenticity of the Tequila Gallery's paintings. +In return, all I ask is 50% of the sold price of every transaction.
+()||:Nikolai leans against the wall and lights a cigarette. +Through the coiling smoke, Maggie smiles.
+ColtWalker(2)<Speaker>Maggie</Speaker>||<黑屏1>:... +Then welcome aboard, Mr. Nikolai.
+()||<黑屏2><BIN>9</BIN><黑屏1>:Little does Maggie know, this will be the most regrettable decision she has ever made.
+()||<关闭蒙版><黑屏2><BIN>356</BIN><BGM>BGM_Empty</BGM>:...Two months ago, at a safe house.
+()||<BGM>BGM_Truth</BGM>:Maggie and Catherine are slumped on the floor, utterly exhausted, while Quimby is going through their accounts anxiously.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:Mistress! The audacity of this scumbag! +He messes up everything, but he still gets half the cut?!
+NPC-Scalper(3)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:...Can't be helped. He's got dirt on us.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:Can't we just get rid of him?
+ColtWalker(3)<Speaker>Maggie</Speaker>||:You think I haven't tried? He's a ghost that refuses to be exorcized...
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Maggie suddenly bolts up.
+NPC-Scalper(3)<Speaker>Catherine</Speaker>||:What is it, Maggie?
+ColtWalker(1)<Speaker>Maggie</Speaker>||:I suddenly thought of something.
+NPC-Quimby(0)<Position>0,300</Position><Speaker>Quimby</Speaker>||:What?
+ColtWalker(1)<Speaker>Maggie</Speaker>||:He may be galavanting on his own, but he's backed by a rich family...
+ColtWalker(1);NPC-Scalper(3)<Speaker>Catherine</Speaker>||:So?
+ColtWalker(1);NPC-Scalper(3)<同时置暗><Speaker></Speaker>||:Maggie flashes a dangerous grin.
+ColtWalker(2)<Speaker>Maggie</Speaker>;NPC-Scalper(3)||:Killing the goose only yields temporary profit. Sustainable development is the way to go.
+ColtWalker(2);NPC-Scalper(0)<Speaker>Catherine</Speaker>||:Don't tell me you...
+ColtWalker(2)<Speaker>Maggie</Speaker>||:This could be our chance to snake our way into the upper echelons of society...
+()||:The gloomy safe house is once again filled with cheerful laughter.
+()||<黑屏1>:

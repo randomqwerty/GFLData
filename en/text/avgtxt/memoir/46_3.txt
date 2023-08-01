@@ -1,211 +1,211 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>468</BIN><narrator><回忆>:一年前，马赛纪斯，敌方据点内部。
-()||<BGM>BGM_Sneak</BGM>:从支流中潜入敌方阵地后，我们很快寻找到了合适的切入点。+在对巡逻的士兵采取逐个包围突破的策略后，我们突入了敌方位于河边的一处哨岗。+莱伊表面虽然勉力装得和之前一样认真执行任务，但我能感受到她多次望向我，欲言又止，最终都没有说出口。
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>确认安全！</color>
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>这边也确认安全！</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:看来这里清理干净了，你们稍微休整下，补充战备吧。
-()<Speaker>军用人形众</Speaker>||:是！
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:……
-()<Speaker></Speaker>||:军用人形们各自散开，寻找安全的接口进行能源补充。+我的身边又一次只剩下了莱伊，她转向了我，我静静等待着她问出那个问题。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:……上尉。
-NPC-Reynard(0)<Speaker>我</Speaker>||:怎么了？
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:等这一切都结束了，你会做什么？
-()||:结果她还是没有问出口。
-NPC-Reynard(0)<Speaker>我</Speaker>||:回家。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:家吗……
-()||:莱伊的头枕着布满弹痕的墙面，目光又一次变得虚无缥缈。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:我已经没有能够回去的地方了……
-NPC-Reynard(0)<Speaker>我</Speaker>||:那你想把安娜特的怀表带到哪里去？
-()||:刚问出口，我就已经明白了答案。+莱伊不是为了回到已经不存在的家乡，安娜特的怀表本身就是和家乡的链接，握着这块怀表就好像手里还残存着通向家乡的线。+哪怕线的另一端什么都没有。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:那你呢？+这么拼命地活下来，是因为有人在家等你吗？
-NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:严格来说，我没有家乡，也没有谁会等我回去。
-NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||:那我们一样啊。
-NPC-Reynard(0)<Speaker>我</Speaker>||:是啊。
-()||:莱伊偏过头，视线认真地想钻过头盔上寻找我的眼睛。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:你不会真的认为，犯了这样的罪孽，还能重新开始吧？
-NPC-Reynard(0)<Speaker>我</Speaker>||:……
-NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||<BGM>BGM_NightOPS</BGM>:再继续走下去，这个秘密是藏不住的。+趁现在那几个碍事的大块头不在，你快脱掉上尉的制服走吧。
-NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:那你呢？
-NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||:我留下来，拖延它们，直到你跑得足够远。+我很擅长甩开追踪的，不用担心我。
-NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:然后呢，你打算去哪里？
-NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||:……
-NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:你并不打算活下去重新开始，对吗？+一旦埋葬好安娜特的怀表，你就将选择自我毁灭……
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:我的事与你无关，你快走！
-()<Speaker></Speaker>||:无视了莱伊的催促，我重新站起来。
-NPC-Reynard(0)<Speaker>我</Speaker>||<BGM>BGM_Empty</BGM>:我不会逃跑的，莱伊，我会战斗到最后。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:……
-()||<SE1>AVG_Team_Running</SE1>:军用人形们整齐的步伐越来越近，莱伊的眼睛再一次蒙上阴翳。
-NPC-Reynard(0)<Speaker>我</Speaker>||<黑点1>:出发吧，敌人的指挥处近在咫尺了。
-()||<BIN>99</BIN><黑点2><SE1>Explode</SE1>:轰隆——+依靠声势浩大的爆炸做掩盖，我们接连突破了敌军的防线。
-()||<BGM>10082</BGM>:敌人的主要兵力被分散在了林区埋伏和交通主干道看守，前者来不及赶回，后者已经被人形小队击溃。+但即便如此，我们也依然付出了沉重的代价。
-NPC-Reynard(0)<Speaker>我</Speaker>||<SE1>Stop_AVG_loop</SE1>:……
-()||:我凝视着几具军用人形的素体，火焰附在残骸上灼灼燃烧着，仿佛整个世界只剩下鲜艳的橙红色。
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>上尉，很抱歉我们已经无法继续完成任务了。</color>+<color=#99cc33>请您继续前行，完成我们的使命。</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:我一定会的。
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>列那上尉……</color>
-NPC-Soldier(0);NPC-Reynard(0)<Speaker>我</Speaker>||:我在。
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>;NPC-Reynard(0)||:<color=#99cc33>如果可能的话……请用您的权限……</color>+<color=#99cc33>批准我们通过新的素体恢复……</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:没等军用人形说完自己的愿望，莱伊就抠出了它们的核心交给了我。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:反正都是些无法实现的幻想，听完了只会徒增伤感。
-()||:莱伊在废墟间搜集着弹药补给，头也不回地朝着前方走去。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑点1>:走吧，上尉，前面就是指挥处了。
-()||<黑点2><BIN>9</BIN><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:呯呯呯——+随着我和莱伊的有序推进，空余满腔孤勇的抵抗军士兵在枪声中倒下。
-()||<黑点1><BGM>10213</BGM>:+战争的失败并不是一个漫长过程，一个短短的瞬间足以让接下来的一切都如山崩海啸般势不可挡地走向毁灭。+跨过那些不愿离去、宁肯战死的士兵的身躯，我终于抵达了数月来一直渴望走进的门。
-()||<黑点2><BIN>15</BIN>:寥寥数个早已自尽的敌人瘫倒在废墟一般的指挥据点中，不难看出，敌人早已是强弩之末。
-NPC-Reynard(0)<Speaker>我</Speaker>||:莱伊，找找看有没有什么有价值的情报。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:是。
-()||<SE1>AVG_tele_connect</SE1>:我将占领据点的情报发送给了指挥部。+敌人的最后一个据点被拔除了，剩下的就是谈判桌上的尔虞我诈了。+对我而言，一切终于结束了。
-NPC-Reynard(0)<Speaker>我</Speaker>||:据点已经成功占领，任务完成了。+现在，我们都可以回家了。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:……哈。+是吗？
-()||<SE1>AVG_21Winter_Phone_Crash</SE1>:莱伊发出干干的苦笑，然后从衣领里摘下自己的怀表狠狠磕向石壁。
-()||<BGM>10254</BGM>:时间在这一刻停下。
-NPC-Reynard(0)<Speaker>我</Speaker>||:为什么要这么做？
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:列那上尉……
-()||<SE1>Select</SE1>:莱伊迅捷地抬起枪瞄准了我。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:把枪放下，双手举起来。
-NPC-Reynard(0)<Speaker>我</Speaker>||:……
-()||:这一刻终究还是来了。+我按照她的指令，缓缓放下了手中的枪。
-NPC-Reynard(0)<Speaker>我</Speaker>||:你知道你在做什么吗？
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:……
-()||<黑屏1>:她没有回答我的问题，而是慢慢扣动了扳机。+像是慢镜头一样，她刻意放缓了速度，我知道她是想给我留出充足的反击时间。+微微颤抖的黑洞洞的枪口在犹豫半晌之后终于迸发出了那一闪火光。
-()||<BIN>9</BIN><SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM><CGDelay>3</CGDelay>:砰——
-()||<黑屏2><BIN>15</BIN>:子弹从我的头盔边擦过，带着一去不复回的决心击碎了墙上的电子屏。
-NPC-Reynard(0)<Speaker>我</Speaker>||:……
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:你确定不还击吗？好不容易走到这里，难道想死在我的枪下？+第二枪，我可不会再手下留情了。
-()||:莱伊依然保持着瞄准姿势，手指扣在扳机上。
-NPC-Reynard(0)<Speaker>我</Speaker>||:在你开枪之前，至少让我问几个问题吧。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:你想知道什么？
-NPC-Reynard(0)<Speaker>我</Speaker>||:你为什么要杀了列那上尉？列那上尉和安娜特的死亡有关吗？
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:……
-()||<SE1>AVG_Rain2</SE1><黑屏1>:轰隆——一声惊雷在天边炸开，紧接着是一场大雨袭来。+在雨中的小屋里，莱伊的表情隐在黑暗中难以看清。
-()||<黑屏2><SE1>GF_Halloween_Wind_loop</SE1><关闭蒙版><BIN>478</BIN><边框>2</边框><narrator>:数月前，通向马赛纪斯据点的道边。
-()||<BGM>GF_21summer_avg_Demon</BGM><边框>2</边框>:雪融之后，山路变得斑驳泥泞，前方满载着士兵的运输车陷入了泥淖之中动弹不得。+莱伊和安娜特只好跳下车在道旁等候。
-()<Speaker>安娜特</Speaker>||<SE1>Stop_AVG_loop</SE1><SE1>AVG_20Winter_Book</SE1><边框>2</边框>:莱伊，别看战场速报了！偶尔也要放松心情啊。
-NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:马赛纪斯的战场速报让人非常愉悦啊，因为我们在这里可是绝对的优势。+良好的军备，训练有素的士兵，对抗一个被包围数日、切断补给的敌方据点。+怎么想都是分分钟拿下的事啊。
-NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:看来终于要结束了！
-NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:是啊……
-NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:还有啊，莱伊，你看那里，我们是不是快到家了！
-()||<边框>2</边框>:指着山下远处的一片灰蒙蒙的区域，安娜特兴奋地叫嚷起来。
-NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:嗯，马赛纪斯离福茨海姆镇很近呢，可惜听说镇里已经被烧得干干净净了……
-NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:没事的！只要人还在，家园一定能回来的！+反正这场战争很快就要结束了，说不定我们还能回家过圣诞节呢。
-NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:嗯，这是敌人的最后一个据点，只要能拔掉它，我们就可以……
-NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:回家！可以回家了！
-NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:嗯！
-()||<黑屏1><边框>2</边框>:心中仍然残存着迷惘，但莱伊还是回应了安娜特的热情。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑屏2><BIN>15</BIN><回忆>:但遗憾的是，列那上尉并不能承担起她所被寄予的期望。+不过是靠着家族关系爬上来的贵族小姐，草菅人命，狂暴冲动……+硬生生延长了马赛纪斯战役的持续时长，将我方的优势拖成劣势。
-NPC-Reynard(0)<Speaker>我</Speaker>||:……
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:你应该也接触过她吧，不需要长时间的揣摩，稍有几句对话就能明白。
-NPC-Reynard(0)<Speaker>我</Speaker>||:嗯，在我原来的指挥者阵亡后，是列那上尉接管了我们。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑屏1>:那么，你一定很清楚两天前的事。
-()||<BIN>1</BIN><黑屏2><Night><narrator><关闭蒙版><BGM>BGM_Empty</BGM>:两天前，敌方据点东边的密林区。
-()||<SE2>Gunfight</SE2><边框>2</边框><BGM>GF_21winter_avg_betray</BGM>:在收到上级的最后期限通知后，急红眼的列那上尉坚持让一支单薄的人形小队去吸引敌方交通主干道上的火力，自己则带领着由剩余残兵组成的小队，从局势并不明朗的林区中突袭敌方指挥处。
-()||<边框>2</边框>:果不其然，敌方除了在主要交通干道上布置了火力，还在离指挥处距离不远的林区中埋下了伏兵。+在几乎完全不清楚林区地形的情况下，原本就因为节节败退而士气大破的小队更是被打得七零八散。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:都不准逃！给我上啊！
-()||<SE2>Gunfight</SE2><边框>2</边框>:呯呯呯——+敌人的身影依然隐藏在昏暗静谧的密林中，乌泱泱的子弹却如离巢的鸟群般冲出。
-()||<SE1>AVG_Bullet_Hit_Body</SE1><边框>2</边框>:直把列那上尉带领的稀疏列队狠狠击溃，一朵朵死亡气息的暗红之花肆意绽放。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:撤退，上尉，我们得撤退到掩体后！
-()<Speaker>士兵众</Speaker>||<边框>2</边框>:撤退！撤退！
-()||<SE1>AVG_Crowd_Run</SE1><边框>2</边框>:处于密林之外的士兵们没有躲藏的掩体，只能纷纷朝附近的树林里跑去。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:谁在逃跑？！不准逃跑！
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:……
-()||<边框>2</边框>:在四散逃跑寻找掩体的士兵和来自敌人的猛烈火力中间，并不能理解情况的列那上尉犹如激流中纹丝不动的磐石。+她掏出了手枪。
-()||<边框>2</边框><SE1>AVG_pistol_finalshot_n</SE1>:砰——+一名正在奔跑的士兵倒下，更多的士兵从她的身边逃跑。+一个熟悉的身影逆流突破阻力，来到了倒下士兵的身边。
-NPC-Lae(0)<Speaker>莱伊</Speaker><Shake>0.1</Shake>||<边框>2</边框>:安娜特！
-NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:不准跑！不准跑！
-()||<SE2>Gunfight</SE2><边框>2</边框>:被敌我双方的火力夹击，有序的撤离也乱无章法起来。+呯呯呯——
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:为什么……这个时候还要开枪？！
-()||<SE1>RunStep</SE1><边框>2</边框>:莱伊目眦尽裂，本想奔向安娜特的脚步被生生阻止，她只能一边躲闪着敌人子弹，一边滑下缓坡，朝最近的树林中冲去。
-()||<SE1>Explode</SE1><边框>2</边框><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰隆——炮火在身后升起。
-()||<SE1>Explode</SE1><边框>2</边框><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1><CGDelay>2</CGDelay>:轰隆、轰隆——像是被列那上尉的疯狂感染，敌人倾尽了全部火力……
-()||<黑屏2><BIN>99</BIN><关闭蒙版><BGM>BGM_Empty</BGM><边框>2</边框>:片刻后，战场上的硝烟逐渐散去。+莱伊四处寻找幸存者的身影显现在了烟雾之中。
-()<Speaker>莱伊</Speaker>||<边框>2</边框>:安娜特！你在哪里？
-()||<边框>2</边框><BGM>GF_21summer_avg_Demon</BGM>:在面目全非的平原上，莱伊终于找到了她。
-()<Speaker>安娜特</Speaker>||<边框>2</边框>:我……被绊倒了……
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:……
-()||<边框>2</边框>:安娜特躺在那个被击毙的伤兵身边，脸上带着恍惚的笑，像是想要安慰莱伊。+血液从她的腹部中汩汩涌出，莱伊沉默地用手按住纱布，但安娜特却抓过她的手，将自己的怀表交给了她。
-()<Speaker>安娜特</Speaker>||<边框>2</边框><SE1>Rope</SE1>:我已经……
-NPC-Lae(2)<Speaker>莱伊</Speaker>||<边框>2</边框>:没事的……+我带你去找医疗兵，医疗兵会治好你，你会好起来的，我们会一起回家过圣诞，围在暖烘烘的火炉边，吃着你外婆炸出来的薯条，慢悠悠聊天，等待所有客人到来，我们会收到很多礼物……
-()||<边框>2</边框>:在莱伊的喃喃自语中，一个人影出现在了她的身后。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:她已经没救了，士兵，现在就离开她，前线需要你。
-NPC-Lae(4)<Speaker>莱伊</Speaker>||<边框>2</边框><SE1>Rope</SE1>:不……不……
-NPC-Lae(4)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:喂……莱伊……
-()||<SE1>Select</SE1><边框>2</边框>:咔哒——子弹上膛的声音。+明明已经无比熟悉，这一刻听见却还是让人心寒不已。
-()<Speaker>安娜特</Speaker>||<边框>2</边框><BGM>BGM_Empty</BGM>:好想回家啊……
-NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框><SE1>AVG_Punch</SE1>:让开！
-()||<SE1>AVG_rifle_finalshot_h</SE1><边框>2</边框>:砰——+温热的血液溅在了莱伊的脸上，她的心彻底冰冷了。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:……
-()||<边框>2</边框><BGM>GF_22W_BGM_1</BGM>:莱伊原以为自己会暴怒，会跳起来发疯般开枪，会按住列那上尉狠狠地揍一顿……+但实际上，在这一刻来临时，莱伊只是如冰雕一般瘫坐在安娜特的身边。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框><SE1>AVG_Cloak_Whoosh</SE1>:起来！士兵，给我站起来！
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:……
-()||<边框>2</边框><SE1>Rope</SE1>:列那上尉狠狠揪着她的领子拖拽，但她的视线却始终死死黏在安娜特的身上。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:狗屎扶不上墙！
-()||<边框>2</边框>:向莱伊啐了一口后，列那上尉走向了其他正在抢救伤员的士兵。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:不要管伤员了，士兵，去冲锋陷阵吧！前面的敌人已经没有弹药了！
-()<Speaker>士兵</Speaker>||<边框>2</边框>:……
-NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:滚开！不要再浪费时间在这些没用的伤员身上了！冲锋，都给我发起冲锋！
-()||<SE1>AVG_pistol_finalshot_n</SE1><边框>2</边框>:砰——+残酷的子弹又带走了一个年轻的生命。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:……
-NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:还活着吗？！活着就给我去战斗！+站不起来？那你已经毫无价值了！
-()||<SE1>AVG_pistol_finalshot_n</SE1><边框>2</边框>:砰——
-()||<SE1>Heartbeat</SE1><边框>2</边框>:滚烫的高温沿着心脏上细密的裂痕爆裂开来，随着血管用力地泵动，血液如岩浆般灼烈地蔓延……+等她回过神来，她已经站到了列那上尉身后，她这才注意到，这个曾经令她畏惧的身影原来如此瘦弱。
-()||<SE1>AVG_Cloak_Whoosh</SE1><边框>2</边框>:她冷静地拿出了手枪，摘掉了列那上尉的头盔，一张迷惑的脸转了过来。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:你是谁？！什么军衔竟然敢摘下我的头盔，我现在就——
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:……+莱伊，莱伊·弗利奇。
-NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:滚开！
-()||<SE1>Select</SE1><边框>2</边框><黑点1>:莱伊对准列那上尉的额头扣动了扳机……
-()||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM><SE1>AVG_rifle_finalshot_h</SE1>:砰——
-()||<SE1>AVG_rifle_finalshot_3h</SE1>:砰砰砰——+在逃离战场的路上，明明那把手枪早已扔掉，但莱伊仍然感觉自己的手指还在扣动扳机。
-()||<SE1>Select</SE1><黑屏1>:咔哒——咔哒——+绝望的声音响个不停。+她无望地沿着路向前走着，不知道自己的终点在哪，更不知道该去哪里找到家。+直到……
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑屏2><BIN>15</BIN><回忆>:直到你拦住了我。
-()||<BGM>GF_21summer_avg_Demon</BGM>:莱伊毫无波澜地讲完一切，我知道她省略了很多细节，那些痛苦无望、黑暗如旋涡般吞噬她的细节。+她再次抬起枪。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<SE1>Stop_AVG_loop</SE1>:临死之前，让我看看你真实的样子吧。
-NPC-Reynard(0)<Speaker>我</Speaker>||:……
-()||<SE1>AVG_Cloak_Whoosh</SE1>:我缓缓摘掉了头盔，脱下了制服，笨拙地从包裹我的皮囊中脱壳而出。
-98k(3)<Speaker>我</Speaker><GradientShow>2</GradientShow>||:这样就够了吗？
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:等等，我没有见过你，你到底是谁？！
-98k(3)<Speaker>我</Speaker>||:我是第7人形步兵班的班长350109号。
-NPC-Lae(0)<Speaker>莱伊</Speaker><Shake>||:你是人形……为什么……+你又不是军用人形，不是比人类更好逃脱吗？！
-()||:面对莱伊颤抖不停的枪口，我只能回以轻轻一笑。
-NPC-Lae(1)<Speaker>莱伊</Speaker>||:……哈。+人形也好，人类也好，在死亡面前我们都是平等的。+来吧，让命运决定我们谁将投入死亡的怀抱吧。
-98k(3)<Speaker>我</Speaker>||:你想做什么？
-NPC-Lae(1)<Speaker>莱伊</Speaker>||:我数321，我们互相朝对方开枪，活下来的可以离开。
-98k(3)<Speaker>我</Speaker>||:……+为什么只能有一个人走出去？我们可以——
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:我们共享了一个致命的秘密，不管是谁暴露了，都会导致另一个人的灭亡。+安全起见，我们只能有一个人活着。
-98k(3)<Speaker>我</Speaker>||:……+你真的是因为这个，才要求互相开枪的吗？+如果你真的想活着，我们单独相处的机会很多，你明明可以——
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<SE1>Select</SE1>:拿着。
-()||:莱伊将一把手枪扔给了我。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:我要开始倒数了。
-98k(3)<Speaker>我</Speaker>||:……+我要求使用自己的武器。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:那更好。
-()||<SE1>Select</SE1>:莱伊放下了手里的步枪，给手枪上好弹，打开了保险。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:准备好了吗？
-98k(3)<Speaker>我</Speaker>||:嗯。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:3——
-()||<SE1>ClothingUp</SE1>:我的手伸向了大衣内袋，触碰到了我私藏已久的武器，脆弱的触感让我的思绪飘到了很久以前，和战友训练的时光……
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:2——
-()||:而这件武器，也是在训练时从一位早已牺牲的战友那里收到的礼物。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑点1>:1——
-()||<黑点2><BIN>9</BIN>:在声音跃入空气的一瞬，两人的手同时抬了起来。
-()||<SE1>AVG_pistol_finalshot_n</SE1><黑点1>:砰——+枪响却只有一声。
-NPC-Lae(0)<Speaker>莱伊</Speaker><Shake>0.1</Shake>||<黑点2><BIN>15</BIN>:你……+你在耍我吗？！
-98k(3)<Speaker>我</Speaker>||<BGM>GF_22W_BGM_2</BGM>:……
-()||:莱伊的子弹歪歪地打到了我的手臂，而面对莱伊的枪口，我掏出的却是——+一枚黄铜色的口径7.92x57mm步枪弹。+表面有些划痕，但应该还能用。
-98k(3)<Speaker>我</Speaker>||:这才是我想送给你的东西。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:……
-98k(3)<Speaker>我</Speaker>||:这是我和我的队友在接受一次训练时，我的队友将她剩下的最后一枚子弹送给了我。+普通的子弹而已，但每次看见，都能让我想起那一刻绝境逢生的心情。+它提醒我，哪怕只剩以后一枚子弹，也不要放弃希望。
-()||<SE1>ClothingUp</SE1>:我走向莱伊，轻轻摘下她的手枪，将子弹放在她颤抖不已的掌心。
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:为什么……+为什么要这么做？
-98k(3)<Speaker>我</Speaker>||<黑屏1>:为什么？这就是个稍有些长的话题了……
-()||<黑屏2><BIN>313</BIN><narrator><关闭蒙版>:今天，福茨海姆镇，酒吧。
-()||:在寂寥的雨声中，指挥官有些沉重地放下了酒杯。
-()<Speaker>指挥官</Speaker>||:所以那些传闻都是真的，因为列那上尉的无能才导致一个小小的据点久攻不下。+而最后发挥关键作用的，竟然是你……
-98k(3)<Speaker>我</Speaker>||<SE1>Stop_AVG_loop</SE1>:并不只是我，那些牺牲的、不被铭记的士兵都为最后的成功贡献了全部力量。
-98k(3)<Speaker>指挥官</Speaker><同时置暗>||:……+我不知道该说些什么好。
-98k(3)<Speaker>我</Speaker>||:什么也不必说，指挥官，我能明白。
-98k(3)<Speaker>指挥官</Speaker><同时置暗>||:真希望我能早点跟你聊起这段过往，至少能帮你分担一些。
-98k(3)<Speaker>我</Speaker>||:有您这句话，比什么都重要……
-()||<SE1>AVG_20Winter_Cheers</SE1>:我和指挥官再度碰杯，饮下依然冰凉的啤酒。
-()<Speaker>指挥官</Speaker>||:现在，是不是该切换视角、换个时间来讲述故事了？
-98k(3)<Speaker>我</Speaker>||:嗯，现在，该开始讲述我的故事了。+不是作为列那上尉的我，而是作为350109号的我。
-()||<BGM>BGM_Empty</BGM><黑屏1>:
+()||<黑屏2><BIN>468</BIN><narrator><回忆>:A year ago, Massegis, behind enemy lines.
+()||<BGM>BGM_Sneak</BGM>:Moving through the enemy position through the stream, we quickly find a suitable insertion point. +After taking down the patrolling soldiers one by one, we invite ourselves into an enemy outpost close to the river.+Lae put great effort in acting as if she was simply carrying on with the mission like before, but I could sense her gaze on me time and time again, swallowing the words she wanted to speak.
+NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>Area is secure!</color>
+NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Clear over here as well!</color>
+NPC-Reynard(0)<Speaker>我</Speaker>||:Looks all clear here. You go rest, make preparations for what's to come.
+()<Speaker>军用人形众</Speaker>||:Yes!
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+()<Speaker></Speaker>||:The Dolls disperse, looking for a safe port to use for recharging.+Lae is left with me by her lonesome again. She turns towards me as I wait in silence, expectant of that question she would ask.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:...Captain.
+NPC-Reynard(0)<Speaker>我</Speaker>||:What is it?
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:When this all ends, what will you do?
+()||:She never found it in her, after all.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Go home.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Home, huh...
+()||:Lae rests her head on the munition-scarred wall, her eyes glazing over with nothingness once more.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:I already have nowhere to go...
+NPC-Reynard(0)<Speaker>我</Speaker>||:Then where do you plan to take Annett's watch?
+()||:As I ask the question, I immediately came to understand.+Lae had never sought to return to a nonexistent home. Annett's watch is in an of itself her link to her home, and she holds it in her hand, like the final copper that can buy her passage back home. +Even if on the other end, there was nothing to be found.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:And you?+Do you struggle this hard to live on because you have someone waiting for you at home?
+NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:Strictly speaking, I have no home and no one waiting for me.
+NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||:We're the same, then.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Yeah.
+()||:Lae inclines her head, her eyes prancing around the edges of my helmet, pursuing my eyes.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:You can't possibly think that you can simply start over after all of this wrongdoing, right?
+NPC-Reynard(0)<Speaker>我</Speaker>||:...
+NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||<BGM>BGM_NightOPS</BGM>:If you continue like this, this secret won't be one for long. +While those pieces of work are out of the way, you'd do best to take off that uniform and leave.
+NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:And you?
+NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||:I'll stay behind, hold them back, until you've gone far enough. +I'm good at shaking people off, don't worry about me.
+NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:Where are you going to go after that?
+NPC-Lae(0)<Speaker>莱伊</Speaker>;NPC-Reynard(0)||:...
+NPC-Lae(0);NPC-Reynard(0)<Speaker>我</Speaker>||:You don't intend to live on and start over, do you?+The moment you bury Annett's watch, you'll choose...
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:None of this is relevant to you. Just leave!
+()<Speaker></Speaker>||:Ignoring her insistence, I stand up.
+NPC-Reynard(0)<Speaker>我</Speaker>||<BGM>BGM_Empty</BGM>:I will not run away, Lae. I'll fight until the very end.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+()||<SE1>AVG_Team_Running</SE1>:The methodical marching of the Dolls grows closer as the shade returns to Lae's eyes.
+NPC-Reynard(0)<Speaker>我</Speaker>||<黑点1>:Let's go. The enemy command is not far from here.
+()||<BIN>99</BIN><黑点2><SE1>Explode</SE1>:BOOM—+Under the concealment of thundering explosions, we break through one line of defense after another.
+()||<BGM>10082</BGM>:The majority of the enemy's forces were distributed between laying in ambush in the forest and guarding the main junction. The former will not make it here in time, and the latter has been largely destroyed by the Doll squad. +Even so, we paid a steep price.
+NPC-Reynard(0)<Speaker>我</Speaker>||<SE1>Stop_AVG_loop</SE1>:...
+()||:I behold the bodies of several military T-Dolls as flame clambers upon what remained of them, and the world appears wholly flagrant, red-orange hues engulfing my vision.
+NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Apologies, Captain. We won't be able to proceed with the mission any further.</color>+<color=#99cc33>Please continue onwards, and complete our duty.</color>
+NPC-Reynard(0)<Speaker>我</Speaker>||:Of course.
+NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Captain Reynard...</color>
+NPC-Soldier(0);NPC-Reynard(0)<Speaker>我</Speaker>||:I am here.
+NPC-Soldier(0)<Speaker>军用人形2</Speaker>;NPC-Reynard(0)||:<color=#99cc33>If it is possible, please... with your authority...</color>+<color=#99cc33>Allow us to return through new...</color>
+NPC-Reynard(0)<Speaker>我</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:Before the Doll was finished voicing its desires, Lae had removed their cores with a click, handing them to me.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Nothing but unrealistic delusions. Listening will only add to the baggage.
+()||:She scavenges the ruins nearby for ammo and supplies, not once looking back as she paces onwards.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑点1>:Come, Captain. The place is just up ahead.
+()||<黑点2><BIN>9</BIN><SE2>Gunfight</SE2><BGM>BGM_Empty</BGM>:As we pushed together steadily, what remained of the defense, subsisting on nothing but courage, fell one by one amidst the gunshots.
+()||<黑点1><BGM>10213</BGM>:Losing a war is no protracted process. A tiny moment is enough to make it all come crumbling down like a force of nature.+Crossing over the bodies of the soldiers who chose death over retreat. I finally stopped before the door I had longed to reach for months.
+()||<黑点2><BIN>15</BIN>:We saw little save for the remnants of a scattered few who put an end to themselves in the wreck formerly called the command center. It would not be amiss to say that the enemy was broken long ago.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Lae, look around for any valuable intel.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Yes.
+()||<SE1>AVG_tele_connect</SE1>:I've sent notice to command that the enemy position has been captured. +The enemy's last holdout is gone, and all that's left is the back and forth at the diplomat's table. +For me, it was over.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Position successfully captured, mission complete.+We can all go home now.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:Ha... +Is that so?
+()||<SE1>AVG_21Winter_Phone_Crash</SE1>:Laughing bitterly with mockery in her voice, she slammed the watch towards the solid wall.
+()||<BGM>10254</BGM>:Time would stop at this very moment.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Why do this?
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Captain Reynard...
+()||<SE1>Select</SE1>:She takes aim at Captain Reynard.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Put down the gun. Hands up.
+NPC-Reynard(0)<Speaker>我</Speaker>||:...
+()||:This moment came, after all.+As she ordered, I slowly relaxed the grip on my gun.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Do you know what you are doing?
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+()||<黑屏1>:She did not answer my question, instead slowly pulling the trigger. +As if in slow motion, she purposely slows down her movements, wanting to give me enough time to respond. +After a split second of uncertainty, the ever-so-slightly trembling void that was the barrel flashes with a brilliance.
+()||<BIN>9</BIN><SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM><CGDelay>3</CGDelay>:Bang—
+()||<黑屏2><BIN>15</BIN>:The bullet glances off my helmet, shattering the electronic screen behind me with a certain resolve.
+NPC-Reynard(0)<Speaker>我</Speaker>||:...
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Are you sure you don't want to fight back? Have you gotten all the way here to die to my hand? +I won't be so merciful this time around.
+()||:Lae stays in her shooting stance, finger on the trigger.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Before you shoot, let me ask a few questions.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:What do you want to know?
+NPC-Reynard(0)<Speaker>我</Speaker>||:Why did you kill Captain Reynard? Is Reynard related to Annett's death?
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+()||<SE1>AVG_Rain2</SE1><黑屏1>:Crackle—thunder comes crashing down admist the skies, and a great downpour immediately follows.+In the shattered chamber, the expression on Lae's face grows indistinct as the rain arrives.
+()||<黑屏2><SE1>GF_Halloween_Wind_loop</SE1><关闭蒙版><BIN>478</BIN><边框>2</边框><narrator>:Some months ago, the roadside on the path to the Massegis Pass.
+()||<BGM>GF_21summer_avg_Demon</BGM><边框>2</边框>:After the snow thaws, the mountain road became akin to a marsh, and the troop transport ahead became bogged down, unable to move. +Lae and Annett could only disembark and wait by the side.
+()<Speaker>安娜特</Speaker>||<SE1>Stop_AVG_loop</SE1><SE1>AVG_20Winter_Book</SE1><边框>2</边框>:Lae, stop looking at the battlefield reports! You've gotta relax once in a while.
+NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:The Massegis reports are reassuring, though, because we have the absolute advantage here. +Fine equipment, well-trained soldiers, up against an enemy position that's been surrounded for days and has their supplies cut off.+No matter how you look at it, it should be a simple task.
+NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:Looks like it'll be finally over!
+NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:Yeah...
+NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:Oh, Lae, look over there. We're almost home!
+()||<边框>2</边框>:Pointing downwards at a grey patch far off in the distance, Annett began to clamor excitedly.
+NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:Yeah, Massegis is pretty close to Falzheim, but I hear that the town's been burnt to bits already...
+NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:It's alright! So long as the people are still here, we'll find home eventually! +This war's nearly over anyway. Maybe we'll even make it back for Christmas.
+NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:Yeah, this is the enemy's last position. If it's gone, we can finally...
+NPC-Lae(1)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:Go home! We can go home!
+NPC-Lae(1)<Speaker>莱伊</Speaker>||<边框>2</边框>:Yeah!
+()||<黑屏1><边框>2</边框>:Even if she still harbored doubts within, Lae reciprocated Annett's passion.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑屏2><BIN>15</BIN><回忆>:Unfortunately, Captain Reynard could not live up to the expectations she shouldered. +She was nothing but the daughter of a nobleman, placed in her station through the influences of nepotism. Injudicious with the lives of others, rash and headstrong... +She managed to prolong the Massegis campaign massively, turning advantage into disadvantage.
+NPC-Reynard(0)<Speaker>我</Speaker>||:...
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:You've been in contact with her, no? Shouldn't be any need for a lengthy exchange. A few words would've been enough for you to get it.
+NPC-Reynard(0)<Speaker>我</Speaker>||:Yes, after my previous commander's death, Captain Reynard took over.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑屏1>:Then you must know what happened two days ago.
+()||<BIN>1</BIN><黑屏2><Night><narrator><关闭蒙版><BGM>BGM_Empty</BGM>:Two days ago, the forest, east of the enemy position.
+()||<SE2>Gunfight</SE2><边框>2</边框><BGM>GF_21winter_avg_betray</BGM>:After receiving a final deadline from upper command, Captain Reynard, mad with urgency, insisted that a flimsy Doll squad would be responsible for attracting enemy forces protecting the main junction. She would lead a squad composed of the remnants of other detachments to attack the enemy command center from the forested area, where the situation was unclear.
+()||<边框>2</边框>:Unsurprisingly, not only did the enemy place firepower coverage over the main junction, they placed troops in ambush in the forest not far from their command center. +On uncertain ground, the squad, already dismayed and broken from previous defeats, were scattered like leaves in the wind.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:No retreat! Charge!
+()||<SE2>Gunfight</SE2><边框>2</边框>:Bangbangbang—+The enemy's silhouettes were nowhere to be seen in the forest's funereal quietude, yet the cascade of bullets continued, like birds fleeing their nest.
+()||<SE1>AVG_Bullet_Hit_Body</SE1><边框>2</边框>:The Captain's fragile squadron was dashed against the rocks, carmine flowers whispering sweet death blooming one after the other.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:Retreat! Captain, we need to get to cover!
+()<Speaker>士兵众</Speaker>||<边框>2</边框>:Retreat! Retreat!
+()||<SE1>AVG_Crowd_Run</SE1><边框>2</边框>:The soldiers positioned outside the woods had no cover to hide behind and could only flee toward the nearby trees.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:Who's running?! No retreat!
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:...
+()||<边框>2</边框>:Positioned between soldiers seeking cover and the fierce firepower of the enemy, Captain Reynard stood like a steadfast rock in the middle of the raging rapids, unaware of the situation.+She drew her pistol.
+()||<边框>2</边框><SE1>AVG_pistol_finalshot_n</SE1>:Bang—+A running soldier fell beside her as more and more fled.+A familiar figure fought against the stream, coming to the fallen soldier's side.
+NPC-Lae(0)<Speaker>莱伊</Speaker><Shake>0.1</Shake>||<边框>2</边框>:Annett!
+NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:No, Retreat! Retreat!
+()||<SE2>Gunfight</SE2><边框>2</边框>:Caught between the fire of both sides, the ordered retreat gradually became more and more chaotic. +Bangbangbang—
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:Why... are you still firing now?!
+()||<SE1>RunStep</SE1><边框>2</边框>:Lae's eyes were seared with hatred, her path towards Annett sealed. She could only evade the enemy's shots as she slid down the slope, bolting towards a nearby thicket.
+()||<SE1>Explode</SE1><边框>2</边框><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:BOOM—Great batteries of war rang out behind her.
+()||<SE1>Explode</SE1><边框>2</边框><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1><CGDelay>2</CGDelay>:As if infected by the Captain's madness, the enemy poured forth all they had...
+()||<黑屏2><BIN>99</BIN><关闭蒙版><BGM>BGM_Empty</BGM><边框>2</边框>:Soon after, the smoke on the battlefield unhurriedly dissipated.+Lae's silhouette, searching for survivors, could soon be seen.
+()<Speaker>莱伊</Speaker>||<边框>2</边框>:Annett! Where are you?
+()||<边框>2</边框><BGM>GF_21summer_avg_Demon</BGM>:On the marred and ruptured battlefield, Lae finally found her.
+()<Speaker>安娜特</Speaker>||<边框>2</边框>:I... fell...
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:...
+()||<边框>2</边框>:Annett lied beside the formerly wounded soldier, wearing an airheaded smile on her face as if to comfort Lae.+Blood rushed forth from her abdomen. Lae silently placed pressure on the bandage, but Annett took Lae's hand in hers, bestowing upon her her own watch.
+()<Speaker>安娜特</Speaker>||<边框>2</边框><SE1>Rope</SE1>:I'm already...
+NPC-Lae(2)<Speaker>莱伊</Speaker>||<边框>2</边框>:You're fine...+I'll take you to the medics, they'll patch you up, you'll be alright, we'll be back together for Christmas, around the cozy fireplace, eating your grandma's fries, we'll talk about stuff, and once the guests get there we'll have all the presents in the world...
+()||<边框>2</边框>:As Lae muttered to herself, a figure appeared behind her.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:She's beyond help, soldier. Leave her, now. The frontline needs you.
+NPC-Lae(4)<Speaker>莱伊</Speaker>||<边框>2</边框><SE1>Rope</SE1>:No.... No...
+NPC-Lae(4)<Speaker>安娜特</Speaker><同时置暗>||<边框>2</边框>:Hey, Lae...
+()||<SE1>Select</SE1><边框>2</边框>:Clack—the sound of a bullet being chambered. +A sound unmatched in its intimacy to their line of work, but bone-chilling nevertheless in this moment.
+()<Speaker>安娜特</Speaker>||<边框>2</边框><BGM>BGM_Empty</BGM>:I want to go home...
+NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框><SE1>AVG_Punch</SE1>:Out of the way!
+()||<SE1>AVG_rifle_finalshot_h</SE1><边框>2</边框>:Bang—+Still-warm blood made its way onto Lae's face. Her heart fell to absolute zero.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:...
+()||<边框>2</边框><BGM>GF_22W_BGM_1</BGM>:Lae thought that she would fly into a rage, jump to her feet and start firing like a madman, or grapple the Captain, speaking with her fits...+But when the time came, in reality, she only sat by Annett's side, like a sculpture frozen in time.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框><SE1>AVG_Cloak_Whoosh</SE1>:Stand up! Soldier, stand up!
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:...
+()||<边框>2</边框><SE1>Rope</SE1>:Captain Reynard grabbed Lae by her collar and heaved, but her sight remained dead fixed on Annett.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:No cure for incompetence!
+()||<边框>2</边框>:Spitting at Lae, Captain Reynard moved toward the other soldiers rescuing the wounded.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:Do not care for the wounded, soldier, go and fight! The enemy before you has no ammo!
+()<Speaker>士兵</Speaker>||<边框>2</边框>:...
+NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:Away with you! Waste no more time for these useless wounded! Charge, all of you!
+()||<SE1>AVG_pistol_finalshot_n</SE1><边框>2</边框>:Bang—+Another young life, taken away.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:...
+NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:Still alive?! Then fight!+You can't stand? Then you are of no use!
+()||<SE1>AVG_pistol_finalshot_n</SE1><边框>2</边框>:Bang—
+()||<SE1>Heartbeat</SE1><边框>2</边框>:An incinerating heat sprang forth from the schisms of her heart, driving its way up her veins, her blood flowing like magma...+By the time she returned to her senses, she was already standing behind Captain Reynard. It was then that she noticed just how fragile this figure she once feared was.
+()||<SE1>AVG_Cloak_Whoosh</SE1><边框>2</边框>:She calmly drew her pistol, taking off the Captain's helmet, a confused countenance turning to meet her.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker>||<边框>2</边框>:Who are you?! What rank are you to take off my helmet?! I'm going to—
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<边框>2</边框>:...+Lae, Lae Fritsch.
+NPC-Reynard(0)<Speaker>列那上尉</Speaker><Shake>0.1</Shake>||<边框>2</边框>:Get out of my way!
+()||<SE1>Select</SE1><边框>2</边框><黑点1>:Lae aimed at the Captain's forehead, pulling the trigger...
+()||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM><SE1>AVG_rifle_finalshot_h</SE1>:Bang—
+()||<SE1>AVG_rifle_finalshot_3h</SE1>:Bangbangbang—+On the way away from the battlefield, even if the pistol had been long out of her hands, Lae could still feel her finger pulling the trigger.
+()||<SE1>Select</SE1><黑屏1>:Klak—klak—+The sounds of despair resounded.+She walked aimlessly, no endpoint in sight, no home to seek.+Until...
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑屏2><BIN>15</BIN><回忆>:Until you stopped me.
+()||<BGM>GF_21summer_avg_Demon</BGM>:Lae nonchalantly told me. I knew that she had omitted many details, that vortex of pain and misery sucking up those that slipped her mind. +She raised her gun once more.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<SE1>Stop_AVG_loop</SE1>:Before you die, let me see what you really are.
+NPC-Reynard(0)<Speaker>我</Speaker>||:...
+()||<SE1>AVG_Cloak_Whoosh</SE1>:I slowly remove my helmet, doffing my uniform, gawkily stripping myself of the skin shell that encased me.
+98k(3)<Speaker>我</Speaker><GradientShow>2</GradientShow>||:Will that do?
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Wait, I've never seen you. Who the hell are you?!
+98k(3)<Speaker>我</Speaker>||:I'm No.350109, leader of the 7th Doll Infantry Division.
+NPC-Lae(0)<Speaker>莱伊</Speaker><Shake>||:You're a Doll... why...+You're not even a military Doll, wouldn't you get away far easier than a human?!
+()||:To answer Lae's shaking barrel, all I could do was smile.
+NPC-Lae(1)<Speaker>莱伊</Speaker>||:...Hah.+Be it Doll or human, in death, we are equal.+Come, let's have destiny decide who finds death's embrace.
+98k(3)<Speaker>我</Speaker>||:What are you doing?
+NPC-Lae(1)<Speaker>莱伊</Speaker>||:I'll count down from 3. We shoot at each other, and the alive one leaves.
+98k(3)<Speaker>我</Speaker>||:...+Why can only one leave? We can—
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:We share a deadly secret. No matter who lets it out, the other is doomed.+For safety's sake, only one of us can live.
+98k(3)<Speaker>我</Speaker>||:...+Is that really the reason you're doing this?+If you really want to leave, we have a lot of chances to be by our lonesome, you can simply—
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<SE1>Select</SE1>:Catch.
+()||:Lae tosses a pistol toward me.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:I'm about to start counting.
+98k(3)<Speaker>我</Speaker>||:...+I'd like to use my own weapon.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:All the better.
+()||<SE1>Select</SE1>:Lae put down the rifle in her hand, loading a pistol and activating the safety.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Ready?
+98k(3)<Speaker>我</Speaker>||:Yeah.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:3—
+()||<SE1>ClothingUp</SE1>:My hand reaches for my coat's inner pocket, feeling the weapon I had hidden for so long once more. Its faintest touch brings my mind back to long ago, when I trained with my compatriots...
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:2—
+()||:And this weapon was gifted to me while training, from a friend that had sacrificed themselves long before.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑点1>:1—
+()||<黑点2><BIN>9</BIN>:As the sound settled in the air, two pairs of arms were raised.
+()||<SE1>AVG_pistol_finalshot_n</SE1><黑点1>:Bang—+But only one gunshot was heard.
+NPC-Lae(0)<Speaker>莱伊</Speaker><Shake>0.1</Shake>||<黑点2><BIN>15</BIN>:You... +Are you kidding me?!
+98k(3)<Speaker>我</Speaker>||<BGM>GF_22W_BGM_2</BGM>:...
+()||:Lae's bullet hit my arm at an off angle, and I instead drew—+A 7.92x57mm rifle bullet, copper in colour.+Scratched on the surface, but likely still usable.
+98k(3)<Speaker>我</Speaker>||:This is what I wanted to give you.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+98k(3)<Speaker>我</Speaker>||:This is something a squadmate gifted to me during training. Her last bullet.+Nothing special, but every time I see it, it brings me hope even in the most adverse of places.+It reminds me, even if only one bullet remains, do not give up hope.
+()||<SE1>ClothingUp</SE1>:I walk towards Lae, lightly removing her gun from her hand, placing the bullet in her trembling palm.
+NPC-Lae(0)<Speaker>莱伊</Speaker>||:Why...+Why do this?
+98k(3)<Speaker>我</Speaker>||<黑屏1>:Why? That's something of a long story...
+()||<黑屏2><BIN>313</BIN><narrator><关闭蒙版>:Today, Falzheim, the bar.
+()||:Backdropped by the solemn rain, the Commander put down their cup somewhat heavily.
+()<Speaker>指挥官</Speaker>||:So those rumors were right; that little position stood for so long because of Captain Reynard's incompetence.+And the one to make the push was you all along...
+98k(3)<Speaker>我</Speaker>||<SE1>Stop_AVG_loop</SE1>:Not just me. Those unnamed soldiers who paid the price provided the power that we needed for that final push.
+98k(3)<Speaker>指挥官</Speaker><同时置暗>||:...+I'm not sure what to say.
+98k(3)<Speaker>我</Speaker>||:There is no need for words, Commander. I understand.
+98k(3)<Speaker>指挥官</Speaker><同时置暗>||:If only I'd have had the chance to talk about this part of your past a bit earlier to help you shoulder it if nothing else.
+98k(3)<Speaker>我</Speaker>||:You saying that is more important than anything else...
+()||<SE1>AVG_20Winter_Cheers</SE1>:I touched glasses with the Commander again, tasting the still cold beer.
+()<Speaker>指挥官</Speaker>||:Now, is it time for another perspective and time in the story?
+98k(3)<Speaker>我</Speaker>||:Yeah, now is the time for... my story.+Not me as Captain Reynard, but as No.350109.
+()||<BGM>BGM_Empty</BGM><黑屏1>:

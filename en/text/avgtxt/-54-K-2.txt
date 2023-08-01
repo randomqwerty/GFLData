@@ -1,233 +1,233 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>240</BIN><BGM>GF_EV9_Story</BGM><Night>:……通灵鬼屋。+还没有到营业的时间，空荡荡的大厅中，烛火也寂寂熄灭着。
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:鬼屋小姐盘腿坐在地板上，摇晃着杯中的劣质酒精。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:……我刚刚跟你说的，都记住了吗？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:嗯，需要再跟你确认一遍吗？
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:不必啦。
-()||:鬼屋小姐闷了一口酒，辛辣的酒味肆意散开。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:鬼屋嘛，有点小意外，才更危险迷人……
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:明白了，我会注意你的动向，做好配合的。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:好的，那就拜托你了，扑克小姐。
-()||<SE1>AVG_footsteps_cave</SE1><关闭蒙版>:鬼屋小姐将酒杯藏好，摇摇晃晃地走向大门，顺手点亮了烛火。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||<SE1>Stop_AVG_loop</SE1>:对了。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:还有什么需要注意的吗？
-()||:鬼屋小姐回头俏皮地扮了个鬼脸。
-ColtWalker(2)<Speaker>鬼屋小姐</Speaker>||:可别把我喝酒的事告诉主人啊。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+明白。
-()||<SE1>AVG_Door_Open_Close</SE1>:嘎——+鬼屋小姐去进行妆造了，扑克小姐走入黑暗中，将自己的身影隐匿起来，静静地等待着今天的客人。
+()||<黑屏2><BIN>240</BIN><BGM>GF_EV9_Story</BGM><Night>:...The Séance Room. +It is currently out of business hours. The candles are unlit in the vast and empty room.
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:Sitting cross-legged on the floor, Miss Séance swirls the cheap liquor in her glass.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:...You remember everything I just told you?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Yes, would you like me to repeat it?
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Nah.
+()||:Miss Séance takes a sip from her glass and savors the spiciness of the liquor.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Little surprises are what makes séances so eerie and enthralling...
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I understand. I will watch your cues and act accordingly.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Splendid. Then I'll be counting on you, Miss Poker.
+()||<SE1>AVG_footsteps_cave</SE1><关闭蒙版>:Miss Séance stows her wine glass away and swaggers up to the door. She lights the candles along the way.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||<SE1>Stop_AVG_loop</SE1>:Oh, right.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Do you have any further instructions for me?
+()||:Miss Séance turns around and winks at her mischievously.
+ColtWalker(2)<Speaker>Miss Séance</Speaker>||:Don't tell the Mistresses about my drinking.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +Understood.
+()||<SE1>AVG_Door_Open_Close</SE1>:Creak... +While Miss Séance is away getting dressed and applying her makeup, Miss Poker conceals herself in the dark and waits silently for their customers of the day.
 ()||<黑点1>:
-()||<黑点2><SE1>AVG_20Winter_Door_Open</SE1>:数分钟后，大门再一次被推开。+在鬼屋小姐的带领下，一位伤心的女士走进了烛光摇曳的大厅。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:女士，请坐。
-()<Speaker>伤心的女士</Speaker>||:……
-()||:鬼屋小姐给扑克小姐打了个眼色，示意她做好准备。
-()<Speaker>伤心的女士</Speaker>||:这里……真的可以和死去的人对话吗？
-ColtWalker(2)<Speaker>鬼屋小姐</Speaker>||:千真万确。
-()<Speaker>伤心的女士</Speaker>||:我该怎么做？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:请将食指放在这块乩板上。
-()||<SE1>ClothingUp</SE1>:女士顺从地将手指放在了泪珠状的乩板上，鬼屋小姐也将手指放在了上面。+鬼屋小姐将乩板的位置调整到中间，露出了通灵板上的所有数字和字母。
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:你准备好了吗？
-()<Speaker>伤心的女士</Speaker>||:开始吧……
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:现在，我要开始占卜了。
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||<BGM>BGM_Empty</BGM>:徘徊在屋中的亡灵们，请聆听我的心声，接受我的召唤……
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||<SE1>DealCards</SE1>:听见指示，扑克小姐将手中的牌发出——
-()||<Night><BGM>BGM_stage10</BGM>:咻——摇曳的微弱烛火被熄灭了。
-()<Speaker>伤心的女士</Speaker>||:啊！
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:别害怕，我需要你专心跟我一起祈求。+只有虔诚地祈求，才能得到答案。
-()<Speaker>伤心的女士</Speaker>||:我……知道了……
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:徘徊在屋中的亡灵们，这位女士的心爱之人失去了踪迹，请听一听她的问题……+请问吧，女士。
-()<Speaker>伤心的女士</Speaker>||:请问，我的爱人，他究竟去了哪里？
-()||<SE1>AVG_Creep</SE1>:吱——吱——+乩板在通灵板上缓慢地移动起来，随着一个一个字母的组合，答案已经显而易见。
-()<Speaker>伤心的女士</Speaker>||:“还没有走远”？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:意思是您的爱人还在您的附近。
-()<Speaker>伤心的女士</Speaker>||:那我怎么才能找到他？！
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:请您虔诚地向通灵板提问，注意，我的灵力最多只可以支撑您问三个问题。
-()<Speaker>伤心的女士</Speaker>||:好……+请问，我该怎样才能找到我的爱人？
-()||<SE1>AVG_Creep</SE1>:吱——吱——+乩板再度在通灵板上缓慢地移动起来——+“等待”。
-()<Speaker>伤心的女士</Speaker>||:我已经等得心灰意冷了……+他真的还会回来吗？+我甚至不知道他的心里还有没有我……
-()||<SE1>AVG_Creep</SE1>:吱——吱——+乩板在通灵板上缓慢地指向——+“是”。+肯定的答复。
-()<Speaker>伤心的女士</Speaker>||:是吗……
-()||:虽然得到了肯定的回答，但这位女士并没有任何获得宽慰的表现，还是如进来时那样低沉失落。+鬼屋小姐看向了扑克小姐的方向。
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:女士，我感应到，这屋中的亡灵还有什么话想传达给你。
-()<Speaker>伤心的女士</Speaker>||:……什么？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||:接到了指示，扑克小姐知道又到了自己出场的时候。+鬼屋小姐将这个环节的决定权完全交给了自己，也就是说，由她来决定给出什么样的回复。+扑克小姐盯着女士黯然垂泪的侧脸，目光又落到了手边的扑克牌……
-()||<SE1>DealCards</SE1>:咻——
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:喔，亡灵们给出了最后一个指引。
-()||:一张扑克牌稳健地飞向空中，速度逐渐衰减，最后在女士的头顶上开始缓慢飘落。
-()||<SE1>AVG_20Winter_Book</SE1>:如一只翩跹的蝴蝶，落在了女士的面前。
-()<Speaker>伤心的女士</Speaker>||:方块Q？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:……+女士，您知道方块Q的故事吗？
-()<Speaker>伤心的女士</Speaker>||:我不知道，一张扑克牌有什么样的故事？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:这张方块Q上的女性代表的是拉结，那是一位年轻勤劳的美丽女士。
-()<Speaker>伤心的女士</Speaker>||:亡灵是想让我……像拉结一样？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:请听我讲完。+拉结有一位忠贞的恋人，但拉结的父亲要求她的恋人做工七年才能迎娶拉结。+七年后，拉结的父亲再度反悔，说七日后可以迎娶拉结，但必须再为他做工七年。+拉结的恋人答应了，迎娶拉结后，又为拉结的父亲做工七年。
-()<Speaker>伤心的女士</Speaker>||:……+真幸福啊，这位拉结女士，可以遇上如此忠贞不渝的恋人。
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:传说中，这位拉结的恋人始终如一，但我想实际上，也一定是有迷茫的时刻。+拉结选择了信任她的恋人，等待他做出自己的决定。
-()<Speaker>伤心的女士</Speaker>||:嗯……
-()||:女士黯淡的眼眸中有了星星点点的光亮。
-()<Speaker>伤心的女士</Speaker>||:我知道了，我会再试着等等看，给他一些时间。
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:好，那么我们一起来结束今天的占卜吧。+感谢亡灵们为我们解答疑惑，请回到你们的世界吧……
-()||<SE1>AVG_Creep</SE1>:吱——吱——+乩板在通灵板上缓慢地移向了“再见”。
+()||<黑点2><SE1>AVG_20Winter_Door_Open</SE1>:Several minutes later, the door opens again. +Miss Séance leads a sad woman into the candlelit room.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Please take a seat, madam.
+()<Speaker>Sad Woman</Speaker>||:...
+()||:Miss Séance shoots Miss Poker a look, telling her to get ready.
+()<Speaker>Sad Woman</Speaker>||:Is it... really possible to converse with the dead here?
+ColtWalker(2)<Speaker>Miss Séance</Speaker>||:Very much so.
+()<Speaker>Sad Woman</Speaker>||:What do I have to do?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Please place your index finger on this planchette.
+()||<SE1>ClothingUp</SE1>:The woman does as she is told and puts her finger on the planchette shaped like a teardrop. Miss Séance does the same. +She moves the planchette to the center of the ouija board away from all the numbers and letters on the ouija board.
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Are you ready?
+()<Speaker>Sad Woman</Speaker>||:Do it...
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:I shall begin the séance then.
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||<BGM>BGM_Empty</BGM>:O wandering spirits, heed my heart and answer my summon...
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||<SE1>DealCards</SE1>:Hearing her cue, Miss Poker throws a card—
+()||<Night><BGM>BGM_stage10</BGM>:Whoosh—the dim and flickering candlelight is extinguished.
+()<Speaker>Sad Woman</Speaker>||:Ah!
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Don't be afraid. I need you to focus on saying the prayer with me. +You will only receive an answer if you pray with sincerity.
+()<Speaker>Sad Woman</Speaker>||:I... understand...
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:O wandering spirits, this lady's beloved has gone missing. Please heed her question... +Pose your question, Madam.
+()<Speaker>Sad Woman</Speaker>||:Please tell me, where is my beloved?
+()||<SE1>AVG_Creep</SE1>:Squeak... squeak... +The planchette starts sliding slowly across the ouija board. As it moves from letter to letter, the answer soon becomes apparent.
+()<Speaker>Sad Woman</Speaker>||:"Not far"?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:So your beloved is still close by.
+()<Speaker>Sad Woman</Speaker>||:Then how do I find him?!
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Please direct your question reverently to the ouija board. Just so you know, I only have enough spiritual power for three questions.
+()<Speaker>Sad Woman</Speaker>||:Right... +Could you please tell me how I can find my beloved?
+()||<SE1>AVG_Creep</SE1>:Squeak... squeak... +The planchette moves slowly across the ouija board again— +"Wait".
+()<Speaker>Sad Woman</Speaker>||:I've been waiting for so long, I'm starting to lose hope... +Will he really come back to me? +I don't even know if he still loves me...
+()||<SE1>AVG_Creep</SE1>:Squeak... squeak... +The planchette slowly glides towards— +"Yes". +An answer in the affirmative.
+()<Speaker>Sad Woman</Speaker>||:Really...?
+()||:Despite the positive answer, the lady does not seem particularly comforted. She looks just as dejected as she did when she first entered the room. +Miss Séance glances at Miss Poker.
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Madam, I can sense that the spirits in this room still have a message for you.
+()<Speaker>Sad Woman</Speaker>||:...What is it?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||:Miss Poker knows that she's up again. +Miss Séance has given her free rein over what to do in this part of the session, which means she gets to decide what response to give. +Miss Poker gazes at the woman's melancholic profile and looks down at her deck of cards...
+()||<SE1>DealCards</SE1>:Whoosh—
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Oh, the spirits have offered a final hint.
+()||:A playing card shoots through the air and starts drifting slowly down from above the woman's head.
+()||<SE1>AVG_20Winter_Book</SE1>:It lands in front of her like a nimble butterfly.
+()<Speaker>Sad Woman</Speaker>||:Queen of diamonds?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:... +Madam, do you know the story of the queen of diamonds?
+()<Speaker>Sad Woman</Speaker>||:No. What story can a playing card have?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:The woman depicted on the queen of diamonds is Rachel, a beautiful and hardworking young lady.
+()<Speaker>Sad Woman</Speaker>||:The spirits want me to... be like Rachel?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Please allow me to finish. +Rachel had a faithful lover, but her father would only allow him to marry her if he worked for him for seven years. +Seven years later, Rachel's father changed his mind again. He told Rachel's lover that he could marry Rachel in seven days, but only if he worked for him for another seven years. +Rachel's lover agreed and worked for Rachel's father for seven more years after marrying Rachel.
+()<Speaker>Sad Woman</Speaker>||:... +This Rachel was very lucky to have such a faithful lover.
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Legend has it, Rachel and her lover remained in love throughout their lives, but I believe there must have been moments when they felt lost and hopeless. +Rachel chose to have faith in her lover and waited for him to make his choice.
+()<Speaker>Sad Woman</Speaker>||:Hm...
+()||:A glimmer of hope has been kindled in the woman's sad eyes.
+()<Speaker>Sad Woman</Speaker>||:I see. I will keep waiting and give him some more time.
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:Very well. Then let us conclude this séance. +We thank the spirits for giving us the answers we seek. Please return to your realm...
+()||<SE1>AVG_Creep</SE1>:Squeak... squeak... +The planchette slowly glides towards "Goodbye".
 ()||<黑点1><BGM>BGM_Empty</BGM>:
-()||<黑点2><关闭蒙版>:……数分钟后，鬼屋小姐送走了客人，回到鬼屋中休息。
-()||<BGM>GF_22W_BGM_1</BGM><SE1>ClothingUp</SE1>:扑克小姐也从黑暗中现身，学鬼屋小姐的样子坐在了冰冷的地板上。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:哎呀，又搞定了一单。+你很有天赋嘛，刚刚做得很好，那位女士出去后很是爽快地消费了一通。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||<SE1>AVG_va_addingredient</SE1>:鬼屋小姐取出自己藏好的酒杯，愉悦地闷上了一口。
-ColtWalker(2)<Speaker>鬼屋小姐</Speaker>||:啊——舒服！
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>||:……+你怎么不说话？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:你刚刚，为什么不把拉结的故事讲完？
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:哈……没什么必要啊，人类嘛，只想听自己想听见的东西。+毕竟是来这里消费的顾客，当然是要让他们高兴一下。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+明白了，我会记住这点。
-()||<SE1>ClothingUp</SE1>:扑克小姐认真地做起了笔记。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:放轻松，没必要这么认真严肃的。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:关于这一点，我不明白。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:嗯哼？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我们是主人的人形，随时面临着被淘汰的风险，鬼屋小姐不害怕吗？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:没有人形会不害怕被抛弃喔。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:那为什么你还要……
-()||:扑克小姐的目光落在了鬼屋小姐手中的酒杯。
-ColtWalker(2)<Speaker>鬼屋小姐</Speaker>||:喔，你说这个啊，想知道的话，不如先试着喝一口？
-()||:鬼屋小姐的笑容映在劣质的酒精中，显得危险又迷人。+鬼使神差地，扑克小姐的手伸向了酒杯……
-()||<黑屏1>:……
-()||<黑屏2><BIN>469</BIN><Night>:扑克小姐再醒来的时候，已经是深夜了。+她躺在维修槽中，心智中像是有上百个大铁锤抡来抡去。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:哟，你醒啦？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我……休眠了多久？
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:也就五六七八个小时吧。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:安啦，鬼屋小姐跟主人报备过了，说是你为了完成任务不小心从楼梯上摔下去磕到头了。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:主人没有说什么吧？
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:对啊，不然你醒来已经被送去卖了吧。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||<SE1>AVG_File_Put</SE1>:正在卸妆的柏青哥小姐突然停下了手中的动作，然后坐到了扑克小姐的修理槽边上。
-()<Speaker>柏青哥小姐</Speaker>||:嘿，看在我们室友这些天的情分上，给你一个温馨提示吧。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:怎么了？
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:不要太相信鬼屋小姐。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+为什么？
-()||:扑克小姐有些无措地盯着柏青哥小姐卸到一半的眉毛。
-()<Speaker>柏青哥小姐</Speaker>||:为什么？当然是因为那家伙不值得信任啊。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:从一起工作的经历来看，鬼屋小姐的能力还是值得信赖的。
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:那你怎么倒在这里的？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:那是我自己……
-()||:扑克小姐想起鬼屋小姐的叮嘱，刹住了话头。
-()||<SE1>ClothingUp</SE1>:柏青哥小姐四处看了看宿舍中的其他人形，悄悄附向扑克小姐的耳边。
-()<Speaker>柏青哥小姐</Speaker>||:你知道……鬼屋小姐的秘密吗？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:什么秘密？
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:你看看这个屋子，目前还在为主人服务的人形，基本都在这里了。+但是鬼屋小姐，从来没有出现在这里过。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:她似乎……住在通灵鬼屋那边，这样更方便工作吧。
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:你看导游小姐，每天要来回三小时呢，照样住在这里。+凭什么鬼屋小姐就可以独自住在距离这里十五分钟路程的鬼屋呢？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||:见扑克小姐不说话，柏青哥小姐扑闪着还挂在眼皮上的沉重假睫毛，压低了声音。
-()<Speaker>柏青哥小姐</Speaker>||:你也知道，这个屋子里的人形经常更迭，我们随时面临着淘汰的风险……
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我知道的。+<color=#A9A9A9>我再清楚不过了。</color>
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:可是鬼屋小姐完全没有这方面的担忧的样子，她相当受主人们的信任……+你仔细想想，她是靠什么赢得这样的重用的？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:因为她给主人们带来了远超我们的收益？
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:噗嗤。
-()||:扬着卸了一半妆面的脸，柏青哥小姐夸张地笑了起来。
-()<Speaker>柏青哥小姐</Speaker>||:你好天真啊，扑克小姐。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我……
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:这就是鬼屋小姐的秘密啊，隐藏在她的房间中。+她究竟是靠着什么来博得主人们的信任……从而获得如此特别的待遇呢？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-NPC-Scalper(3)<Speaker>柏青哥小姐</Speaker><同时置暗>||:难道你不想知道吗？不被主人抛弃的秘诀……
+()||<黑点2><关闭蒙版>:...A few minutes later, Miss Séance returns to the Séance Room for a break after escorting the customer on her way out.
+()||<BGM>GF_22W_BGM_1</BGM><SE1>ClothingUp</SE1>:Miss Poker also comes out from the shadows and sits down on the cold floor like Miss Séance.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Oh my, another job well done. +You've really got talent. You did such a fantastic job the woman ended up spending quite a lot afterwards.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||<SE1>AVG_va_addingredient</SE1>:Miss Séance takes out her hidden wine glass and takes a cheerful sip.
+ColtWalker(2)<Speaker>Miss Séance</Speaker>||:Ah—that hit the spot!
+ColtWalker(4)<Speaker>Miss Séance</Speaker>||:... +Why are you being so quiet?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Why didn't you finish Rachel's story just now?
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Ha... There was no need. Humans only ever want to hear what they want to hear. +These are customers looking to spend with us, so it is naturally our job to make them happy.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +I understand. I'll remember that.
+()||<SE1>ClothingUp</SE1>:Miss Poker starts jotting it down solemnly.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Relax. You don't have to take everything so seriously.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I don't understand.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Hm?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:As the Mistresses' Dolls, we are always at risk of being discarded. Are you not afraid, Miss Séance?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:All Dolls are afraid of being abandoned.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Then why do you...
+()||:Miss Poker's gaze falls on the wine glass in Miss Séance's hand.
+ColtWalker(2)<Speaker>Miss Séance</Speaker>||:Oh, this? If you want to know, why don't you try it yourself?
+()||:Reflected in the low-quality liquor, Miss Séance's smile seems both dangerous and alluring. +Compelled by some unknown forces, Miss Poker reaches out to take the glass...
+()||<黑屏1>:...
+()||<黑屏2><BIN>469</BIN><Night>:By the time Miss Poker comes to, it is already way past midnight. +She is lying in a repair pod; her neural cloud feels like it's been pulverized by a hundred hammers.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Hey, you're awake?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:How... how long have I been sleeping?
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:About five hours? Or six? Maybe seven? Or eight?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Don't worry. Miss Séance told the Mistresses that you fell down the stairs and hit your head in your eagerness to do your job.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:And they didn't say anything?
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Obviously, or you'd have been sold off before you even woke up.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||<SE1>AVG_File_Put</SE1>:Miss Pachinko, who is in the middle of removing her makeup, suddenly stops what she's doing and sits down by Miss Poker's repair pod.
+()<Speaker>Miss Pachinko</Speaker>||:Hey, seeing that we're roommates, let me give you some friendly advice.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Yes?
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Don't trust Miss Séance.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +Why?
+()||:Miss Poker stares uncomprehendingly at Miss Pachinko's half-removed drawn-on eyebrow.
+()<Speaker>Miss Pachinko</Speaker>||:Why? Because she can't be trusted, duh!
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:From my experience of working with her, she seems quite dependable.
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Then how did you end up in the repair pod?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:It's my own f...
+()||:Miss Poker suddenly remembers what Miss Séance asked of her and stops talking mid-sentence.
+()||<SE1>ClothingUp</SE1>:After making sure none of the other Dolls in the dorm are listening in, Miss Pachinko leans forward and whispers conspiratorially into Miss Poker's ear.
+()<Speaker>Miss Pachinko</Speaker>||:Do you know about... Miss Séance's secret?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:What secret?
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Look around this house. All the Dolls in the Mistresses' employment are here. +But Miss Séance has never set foot in here.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I believe... she lives in the Séance Room. It is probably more convenient for her work.
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Look at Miss Tourguide. She lives here even though her daily commute is three hours. +So what gives Miss Séance the right to live all by herself in the Séance Room, which is only a 15-minute walk from here?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||:Seeing that Miss Poker has nothing to say, Miss Pachinko bats the fake lashes still glued to her eyelids and lowers her voice.
+()<Speaker>Miss Pachinko</Speaker>||:As you know, the Dolls in this house have a really high turnover. We're always in danger of being thrown out...
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I know. +<color=#A9A9A9>I know that only too well.</color>
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:But Miss Séance doesn't seem at all concerned about this. She has the Mistresses' trust... +Just think about it—why is she so favored?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Because she brings in a lot more profit than the rest of us?
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Pfft.
+()||:Miss Pachinko scoffs in an exaggerated manner.
+()<Speaker>Miss Pachinko</Speaker>||:You're so naïve, Miss Poker.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I...
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:This is Miss Séance's secret! It's hidden in her room. +How did she manage to win the Mistresses' trust... and get this kind of special treatment?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+NPC-Scalper(3)<Speaker>Miss Pachinko</Speaker><同时置暗>||:Don't you want to know? The secret trick that will save you from getting the boot...?
 ()||<黑屏1>:
-()<Speaker>扑克小姐</Speaker>||<黑屏2><BIN>9</BIN>:我们是主人的人形，随时面临着被淘汰的风险，鬼屋小姐不害怕吗？
-()<Speaker>鬼屋小姐</Speaker>||:没有人形会不害怕被抛弃喔。
-()<Speaker>扑克小姐</Speaker>||:那为什么你还要……
-()<Speaker>鬼屋小姐</Speaker>||:喔，你说这个啊，想知道的话，不如先试着喝一口？
+()<Speaker>Miss Poker</Speaker>||<黑屏2><BIN>9</BIN>:As the Mistresses' Dolls, we are always at risk of being discarded. Are you not afraid, Miss Séance?
+()<Speaker>Miss Séance</Speaker>||:All Dolls are afraid of being abandoned.
+()<Speaker>Miss Poker</Speaker>||:Then why do you...
+()<Speaker>Miss Séance</Speaker>||:Oh, this? If you want to know, why don't you try it yourself?
 ()||<黑屏1>:
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||<黑屏2><BIN>469</BIN><Night>:……我想知道。
-()||:盯着柏青哥小姐斑驳不堪的妆面，扑克小姐小声地重复着。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我想知道……+我不想被抛弃……
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||<黑屏2><BIN>469</BIN><Night>:...I do want to know.
+()||:Gazing at Miss Pachinko's patchy makeup, Miss Poker replies softly.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I want to know... +I don't want to be discarded...
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>240</BIN><Night><BGM>BGM_Sneak</BGM>:……几日后，通灵鬼屋。+结束了今天的营业，鬼屋小姐和扑克小姐收拾完了大厅。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:今天也辛苦了！+明天见，扑克小姐。
-()||<SE1>AVG_20Winter_Door_Open</SE1>:鬼屋小姐照例拉开了大门，送扑克小姐出去。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+好的，鬼屋小姐，明天见。
+()||<黑屏2><BIN>240</BIN><Night><BGM>BGM_Sneak</BGM>:...A few days later, in the Séance Room. +After closing up for the day, Miss Séance and Miss Poker tidy up the room.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Good work as always! +See you tomorrow, Miss Poker.
+()||<SE1>AVG_20Winter_Door_Open</SE1>:As usual, Miss Séance walks Miss Poker out the door.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +Yes, Miss Séance. See you tomorrow.
 ()||<黑点1>:
-()||<黑点2><SE1>AVG_Cloak_Whoosh</SE1>:……片刻后，蹲伏在门外观察的扑克小姐从窗户翻了进来。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+<size=25>鬼屋小姐？</size>
-()||:寂静的大厅没有一点声息。
-()||<SE1>ClothingUp</SE1>:确认鬼屋小姐不在后，扑克小姐蹑手蹑脚地走上了扶梯，前往二楼的房间。+……鬼屋小姐的卧室。
+()||<黑点2><SE1>AVG_Cloak_Whoosh</SE1>:...A moment later, Miss Poker, who has been crouching outside and observing the room, climbs inside through the window.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +<size=25>Miss Séance?</size>
+()||:The silent room is utterly still.
+()||<SE1>ClothingUp</SE1>:After making sure that Miss Séance isn't around, Miss Poker sneaks up the stairs and into a room on the second floor. +...Miss Séance's bedroom.
 ()||<黑点1>:
-()||<黑点2><BIN>276</BIN><Night><SE1>AVG_20Winter_Door_Open</SE1>:门锁的安全等级很低，扑克小姐甚至只用了一张扑克牌就轻松撬开了。+房屋内只有几件简单必要的家具，一张不大的床，一把木椅，一个小冰箱，一张矮桌。+除此以外，就只剩下一地酒瓶……
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||:扑克小姐望向鬼屋小姐，她正大大咧咧地仰躺在床上，似乎在休眠中。
-()||<SE1>AVG_File_Put</SE1>:思来想去，扑克小姐还是鼓起勇气推开了门，坐在了鬼屋小姐的床边。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:鬼屋小姐……很抱歉未经你同意，就闯进你的房间……+但我实在有太多疑问想要问你，如果不解决的话，我担心会影响到我们的工作。
-()<Speaker>鬼屋小姐</Speaker>||:……
-()||:鬼屋小姐依然在平稳地休眠。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:鬼屋小姐？请醒一醒……
-()||<SE1>ClothingUp</SE1>:扑克小姐拍了拍她的脸，还是没有任何反应。+鬼屋小姐的反应一向非常灵敏，这样迟钝的鬼屋小姐让扑克小姐有了些不好的预感。+她试探着检测了对方的心智状态，发现鬼屋小姐竟然宕机了。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:怎么会这样……鬼屋小姐！振作一点！+我这就带你去维修槽……
-()||<SE1>AVG_footsteps_cave</SE1>:扑克小姐费力地将毫无反应的鬼屋小姐架上肩膀，艰难地朝着门外走去。
+()||<黑点2><BIN>276</BIN><Night><SE1>AVG_20Winter_Door_Open</SE1>:The lock is not at all secure; Miss Poker manages to dislodge it with just a playing card. +The room is only minimally furnished with a modest bed, a wooden chair, a small fridge, and a coffee table. +The floor is littered with liquor bottles.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||:Miss Poker peers over at Miss Séance, who is lying spread eagle on the bed, seemingly asleep.
+()||<SE1>AVG_File_Put</SE1>:After some thought, Miss Poker musters her courage and pushes open the door. She sits down by Miss Séance's bed.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Miss Séance... I'm very sorry for entering your room without your permission... +But I simply have too many questions. If I don't get any answers, I'm afraid they will affect our working relationship.
+()<Speaker>Miss Séance</Speaker>||:...
+()||:Miss Séance is still sound asleep.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Miss Séance? Please wake up...
+()||<SE1>ClothingUp</SE1>:Miss Poker taps Miss Séance lightly on the face, but she gives no reaction. +Miss Séance is usually very responsive, so this uncharacteristic lack of response is giving Miss Poker a very bad feeling. +She probingly inspects the status of her neural cloud and is surprised to find that Miss Séance has actually crashed.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:What happened... Miss Séance?! Hang in there! +I'm taking you to the repair bay...
+()||<SE1>AVG_footsteps_cave</SE1>:Miss Poker hoists the unconscious Miss Séance over her shoulders and trudges out the door with great difficulty.
 ()||<黑点1><SE1>Stop_AVG_loop</SE1>:
-()||<黑点2><BIN>240</BIN><Night>:……面对漫长的扶梯，扑克小姐有些头疼地掂量了下鬼屋小姐的重量。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:抱歉了，鬼屋小姐，我实在是扛不住你……+想要把你带回维修槽，只能这样了……
-()||:扑克小姐小心地将鬼屋小姐放在楼梯上，然后护住对方的要害部位，缓缓地将鬼屋小姐沿着楼梯拉了下去……
-()||<SE1>AVG_footsteps_woodfloor</SE1>:咚、咚、咚——
-()||<SE1>Stop_AVG_loop</SE1>:每下一节台阶，鬼屋小姐的素体都会发出一声清脆的响声。
-()<Speaker>鬼屋小姐</Speaker>||:……
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>||:……唔？+你在干什么？！
-NPC-Scalper(2)<Speaker>扑克小姐</Speaker>||:你醒了！太好了，鬼屋小姐，我还担心你再也醒不过来了……
-()||:扑克小姐宽慰地松开了手，鬼屋小姐顺滑地从最后几节台阶滚到了一楼地板。
-()||<SE1>AVG_lifttable</SE1><BGM>BGM_Empty</BGM>:咚——+一声巨响后，鬼屋小姐终于是刹住了。
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>||:……
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:我看是你想让我再也醒不过来了吧……
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:不是的！你刚刚心智宕机了……我以为你出了什么故障，想带你去维修槽……
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:那你是怎么发现我心智宕机的呢？
-()||<SE1>ClothingUp</SE1>:鬼屋小姐就地盘起了腿，揉了揉还有些疼痛的后脑勺，饶有兴味地看向了慌张的扑克小姐。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+我擅自进入了你的房间，抱歉。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:下班时间，你跑到我的房间来干什么？
-()||:扑克小姐沉默地坐到了鬼屋小姐身边。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我有些问题想问你……
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:让我猜猜，你是不是听别人说了什么？
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……嗯。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:先帮我拿杯酒来吧，被你从楼梯上拽下来，浑身都疼。
-()||<SE1>RunStep</SE1>:扑克小姐愧疚地跑去端了杯酒来。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:问吧，你想知道什么。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……+我之前也问过鬼屋小姐，不害怕被主人抛弃吗？+我想知道，鬼屋小姐不被主人抛弃的秘密……
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:哈，那你已经见过了啊。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:什么时候？
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:刚刚啊，我不是心智宕机了吗？+那个时候我就是在处理主人的任务，因为需要的运算量太大，所以宕机了一会。+如果你要问具体是什么任务，我只能无可奉告了。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我明白了……
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:鬼屋小姐一口闷掉了杯中的酒，随即爽快地呼出了一口气，空气中瞬间弥漫着辛辣的酒精味。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:这就是所谓的“我的秘密”。+你是不是很失望？
-ColtWalker(1);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:鬼屋小姐。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:嗯哼？
-ColtWalker(1);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:做个交易吧。
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:哈啊？你什么时候学会的这招？
-ColtWalker(4);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:观察对方，找到痛点，用性价比最高的方案击中对方。+这不是你教给我的吗？
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:……你继续说。
-ColtWalker(3);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:主人之所以愿意给你提供单独的宿舍，是为了保护你的素体吧。+因为你执行任务的时候，无暇顾及素体……
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:对啊。
-ColtWalker(3);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:即便有单独的房间，如果遇上像我这样的家伙闯进你的房间，你依然会陷入非常危险的处境……
-ColtWalker(3)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:所以？
-ColtWalker(3);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:所以……
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:雇佣我来看守你的素体吧。
-()||<SE1>ClothingUp</SE1>:摇晃着手里的空杯，鬼屋小姐露出了耐人寻味的笑容。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:我为什么要相信你？+也许你也是想来干掉我的呢？
-ColtWalker(1);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:因为我需要你，你不在的话，我会被主人淘汰。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:我还以为你要说，是为了报答我救你的恩呢……
-ColtWalker(1);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我们和那位来寻求安慰的人类女士不同。+为了不被淘汰而苦苦挣扎的人形，是没办法相信那些充满美妙幻想的言语的，我们总会看穿那些隐藏在薄如蝉翼的美好背后的，丑陋扭曲的现实。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>;NPC-Scalper(3)||:所以你直接扔掉了糖衣，赤裸裸地给我看你的炸弹？
-ColtWalker(1);NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我认为这对鬼屋小姐来说，是非常划算的买卖。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:你只需要保持现状，不需要给我什么额外的支出，就能获得安全。
-ColtWalker(1)<Speaker>鬼屋小姐</Speaker>||:确实如此呢。
-()||<BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Drink_Tea</SE1>:鬼屋小姐笑着摸出酒瓶和另一只酒杯，然后给两只酒杯都满上。
-ColtWalker(2)<Speaker>鬼屋小姐</Speaker>||<BGM>GF_22W_BGM_2</BGM>:我很欣赏你，为了庆祝我们的交易达成，一起来喝一杯吧。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:……
-()||<SE1>AVG_va_addingredient</SE1>:扑克小姐将两杯酒一起端走，然后打开窗毫不留情地倒掉。
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>||:喂！你在干什么？！
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:我刚刚顺便检测了下，你的酒精耐受度很低，高频过度的饮酒对你的素体非常不利。
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>||:我……我是靠这个东西快速进入工作状态的啊！
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:嗯，我猜到了，所以之后只允许在完成任务的时候喝酒。
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>||:你是魔鬼吗？！
-()||<SE1>AVG_va_addingredient</SE1>:扑克小姐面无表情地倒上两杯姜汁汽水，并将其中一杯递给鬼屋小姐。
-NPC-Scalper(3)<Speaker>扑克小姐</Speaker>||:这个比你的酒好喝多了，用这个来庆祝吧。
-ColtWalker(4)<Speaker>鬼屋小姐</Speaker>||:……+我现在想反悔我们之间的交易。
-NPC-Scalper(0)<Speaker>扑克小姐</Speaker>||:已经晚了。
-()||<SE1>AVG_20Winter_Cheers</SE1>:扑克小姐碰了下鬼屋小姐的杯，一口闷掉了杯中的姜汁汽水。
-NPC-Scalper(0)<Speaker>扑克小姐</Speaker>||:啊——舒服！
-()||<黑点1>:
+()||<黑点2><BIN>240</BIN><Night>:...Standing at the top of the long flight of stairs, Miss Poker jostles Miss Séance's weight helplessly, not quite sure what to do.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I'm sorry, Miss Séance, I really can't carry you... +The only way I can bring you to the repair bay is this...
+()||:She carefully sets Miss Séance down on the stairs, then padding out her most vulnerable parts, she slowly drags her down the stairs...
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Thunk, thunk, thunk...
+()||<SE1>Stop_AVG_loop</SE1>:Miss Séance's body produces a sharp clang as she lands on every stairstep.
+()<Speaker>Miss Séance</Speaker>||:...
+ColtWalker(4)<Speaker>Miss Séance</Speaker>||:...Hm? +What are you doing?!
+NPC-Scalper(2)<Speaker>Miss Poker</Speaker>||:You're finally awake! That's such a relief, Miss Séance! I was so worried you wouldn't wake up again...
+()||:In her relief, Miss Poker loosens her grip, and Miss Séance rolls down the last few steps and hits the floor.
+()||<SE1>AVG_lifttable</SE1><BGM>BGM_Empty</BGM>:Thunk! +Miss Séance finally comes to a stop with a crash.
+ColtWalker(3)<Speaker>Miss Séance</Speaker>||:...
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:It seems to me you're actively trying to make sure I never wake up again...
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:No! Your neural cloud crashed just now... I thought you had some kind of malfunction, so I wanted to take you to the repair bay...
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||<BGM>GF_21summer_avg_Demon</BGM>:How did you know my neural cloud crashed?
+()||<SE1>ClothingUp</SE1>:Miss Séance sits up cross-legged. Rubbing her sore crown, she peers at the flustered Miss Poker with some amusement.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +I trespassed into your room. I'm sorry.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:What were you doing in my room after hours?
+()||:Miss Poker sits down next to Miss Séance in silence.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I wanted to ask you some questions...
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Let me guess... Someone's been talking?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...Yes.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Fetch me something to drink first. I'm all sore after you dragged me down the stairs.
+()||<SE1>RunStep</SE1>:Miss Poker runs off and comes back with a glass of liquor apologetically.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Ask away. What do you want to know?
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:... +I once asked you whether or not you're afraid of being abandoned by the Mistresses. +I want to know the reason why the Mistresses would not get rid of you...
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Ha, you just saw it.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:When?
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Literally just now. My neural cloud crashed, right? +I was taking care of some business for the Mistresses, but I crashed for a bit because the processing load was too much. +If you're wondering what kind of business it was, then I'm afraid I can't tell you.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I see...
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:Miss Séance downs the liquor in one go and exhales in satisfaction. The spicy scent of alcohol instantly fills the air. 
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:This is my so-called "secret". +Disappointed?
+ColtWalker(1);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Miss Séance.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:Hm?
+ColtWalker(1);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Let's make a deal.
+ColtWalker(4)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:Oh? When did you pick up this trick?
+ColtWalker(4);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Observe someone, find their weakness, then exploit it using the most cost-effective method. +You taught me that, didn't you?
+ColtWalker(3)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:...Go on.
+ColtWalker(3);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:The Mistresses are willing to give you separate lodging to protect your body, right? +Because you're not capable of keeping your body safe while you're carrying out your tasks...
+ColtWalker(3)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:Correct.
+ColtWalker(3);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:But even in a separate room, if someone like me barges in, you'll still be in grave danger...
+ColtWalker(3)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:So?
+ColtWalker(3);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:So...
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Hire me to guard your body.
+()||<SE1>ClothingUp</SE1>:Miss Séance fiddles with the empty glass and smiles thoughtfully.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Why should I trust you? +How do I know you're not trying to get rid of me?
+ColtWalker(1);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I need you. Without you, the Mistresses won't think twice about tossing me away.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:I thought you were gonna say you're doing this to repay me for saving your life...
+ColtWalker(1);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:We're not like that human woman who came seeking reassurance. +Dolls who are constantly struggling to survive will never be fooled by fanciful words. We can always see the ugly, twisted truth behind the thin façade of illusory goodness.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>;NPC-Scalper(3)||:So you'd rather just tear off this façade and dump a bombshell on me?
+ColtWalker(1);NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:I think the transaction will work very much to your benefit, Miss Séance.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Nothing has to change. You don't have to pay me extra, but you will gain more personal safety.
+ColtWalker(1)<Speaker>Miss Séance</Speaker>||:Indeed.
+()||<BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Drink_Tea</SE1>:With a grin, Miss Séance fishes out another bottle and glass, then pours some liquor into the two glasses.
+ColtWalker(2)<Speaker>Miss Séance</Speaker>||<BGM>GF_22W_BGM_2</BGM>:I like you. Let's drink to our deal.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:...
+()||<SE1>AVG_va_addingredient</SE1>:Miss Poker picks up both glasses. She opens the window and pours away the liquid mercilessly.
+ColtWalker(4)<Speaker>Miss Séance</Speaker>||:Hey! What the hell?!
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:While I was inspecting you earlier, I found out that you actually have very low alcohol tolerance. Consuming too much alcohol is very bad for your body.
+ColtWalker(4)<Speaker>Miss Séance</Speaker>||:I... I need this stuff to get into the right headspace for work!
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:Yeah, I figured as much. From now on, you are only allowed to drink after you're done with a job.
+ColtWalker(4)<Speaker>Miss Séance</Speaker>||:Are you the devil?!
+()||<SE1>AVG_va_addingredient</SE1>:Miss Poker pours two glasses of ginger ale stoically and passes one to Miss Séance.
+NPC-Scalper(3)<Speaker>Miss Poker</Speaker>||:This is much tastier than your booze. Let's toast with this instead.
+ColtWalker(4)<Speaker>Miss Séance</Speaker>||:... +I'm already regretting this deal.
+NPC-Scalper(0)<Speaker>Miss Poker</Speaker>||:Too late.
+()||<SE1>AVG_20Winter_Cheers</SE1>:Miss Poker clinks her glass against Miss Séance's and knocks back her ginger ale.
+NPC-Scalper(0)<Speaker>Miss Poker</Speaker>||:Ah—that hit the spot!
+()||<黑点1>:

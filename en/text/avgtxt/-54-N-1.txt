@@ -1,80 +1,80 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>313</BIN>:……萨卡洛夫辖区，酒吧。
-()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:庆祝新人加入的酒会正在热烈进行中，丹尼尔捋了捋西装上的褶皱，走入了喧闹的人群。+明面上，这只是一场以欢迎新人为由头的律贼小型酒会。+但丹尼尔知道，这是给新人的第一个机会——通过这场酒会，快速选择自己追随的律贼目标。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:……
-()||<SE1>Stop_AVG_loop</SE1>:丹尼尔紧张地喝了口杯中的香槟，目光在热烈交谈的人群中逡巡起来。+除了柳芭老妈，律贼的各个小头目几乎都现身了。+丹尼尔的视线在他们身上挨个游走，但仅凭只言片语，难以判断究竟谁才是值得跟随的目标。+正在丹尼尔犹豫不决的时候，一个在人群中显得有些独特的男人吸引了他的目光。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>看上去不是个好接近的人。</color>+<color=#A9A9A9>……要不要上去打个招呼看看？</color>
-()||:那个男人靠在吧台边，慢慢地摇晃着手里的红酒杯，在一片穿着休闲随意的律贼中间，他的西服款式考究，经典又不显得过气，材质在昏暗的灯光下都能看出其昂贵。+最值得注意的是，每一个路人都会主动向他问好，但没有一个人敢驻足和他交谈。+丹尼尔凝神倾听，确认了这个男人被称作“尼古拉”。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:您好，尼古拉先生。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>Stop_AVG_loop</SE1>:我是新加入律贼的丹尼尔，请原谅我的斗胆攀谈。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:……丹尼尔？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:是的，先生。
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:尼古拉放下了手中的酒杯，挑眉望向丹尼尔。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:什么事？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:……
-NPC-Bodyguard1(0);NPC-NervousMan(0)<同时置暗><Speaker></Speaker>||:丹尼尔紧张地咽了咽口水。+尼古拉的气质不同于其他律贼，显然不能用应对其他律贼的方式来和他交谈。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:恕我冒昧，先生，我刚成为律贼，还对我的道路充满迷惘。+如果能得到您的一二指点，我将不胜荣幸。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:……
-()||:尼古拉笑了笑，从西装内侧的口袋中取出雪茄盒，给一支雪茄剪去头。
-()||:丹尼尔恭敬地打开打火机，让雪茄在火苗上缓缓地转动加热。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:你想找点什么活计？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(1)||:任何能为您效劳的事，我都愿意。
-NPC-Bodyguard1(0);NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:很好。+我正在组建新项目。
-NPC-Bodyguard1(0);NPC-NervousMan(1)<同时置暗><Speaker></Speaker>||:尼古拉轻轻反吹两口，享受起雪茄的第一口香气。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:明早来我的办公室报到。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:感谢您，先生。
-()||<SE1>DealCards</SE1>:带着玩味的笑意，尼古拉将名片递给丹尼尔，消失在酒会上。+丹尼尔低头看向名片——+尼古拉·瓦西里耶维奇
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker><Shake>0.1</Shake>||<黑屏1><BGM>BGM_Empty</BGM>:……+我的天，这不就是传说中萨卡洛夫先生的养子……
-()||<BIN>9</BIN><黑屏1>:沉浸在喜悦中的丹尼尔绝不会想到，这将是他这一生中最后悔的决定。
-()||<黑屏2><BIN>168</BIN>:……三个月后，清晨。+律贼的7号仓库。
-()||<SE1>AVG_HeavyVehicle_Stop</SE1><BGM>GF_21winter_avg_pathfinder</BGM>:按照尼古拉的命令，丹尼尔将小型货车停靠在乌利察里瓦公路边。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:……+尼古拉先生，我们真的要这么做吗？
-NPC-Bodyguard1(0);NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:你在质疑我？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:我只是想起其他人提过，这是柳芭老妈留给那位老板的货物……
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:我知道，可是那位大老板早就出国避难了，肯定不会再回来的。+与其坐等这些货物烂在仓库，不如卖给有需要的人。
-()||<SE1>AVG_20Winter_Gate_Close</SE1>:唰——尼古拉打开了仓库门。+丹尼尔犹疑不定地看着仓库中的枪火弹药，又看了看尼古拉的背影。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:愣着干什么？我是请你来看我搬的？
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:……
-()||<SE1>AVG_Cloak_Whoosh</SE1>:丹尼尔开始一箱箱将货物搬上了货车车厢。+似乎是察觉到了丹尼尔的兴致不高，尼古拉走到他的身边。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:等干完这一票，我会向柳芭老妈申请，给你提成干部的。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>;NPC-NervousMan(0)||:谢谢您，尼古拉先生。
-NPC-NervousMan(0)<Speaker>尼古拉</Speaker>||:再怎么说，你现在也是我的心腹了。
-()||:尼古拉拍了拍丹尼尔，走到一边抽烟去了。+在尼古拉看不到的地方，丹尼尔幽幽地叹了口气。+距离那一场热闹的迎新会才过去三个月有余，当初被尼古拉吸收入组的七个新人就只剩下他了。+三个在多次受伤后决定退出律贼组织，两个死在一场因为尼古拉和其他团伙老大以相当无聊的理由而引起的火并中，一个因为帮尼古拉顶罪而想不开自杀，一个因为尼古拉搞错了接应时间而被警察逮捕。+时至今日，丹尼尔才得知尼古拉在律贼中的称号，“没用的尼古拉”。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>尼古拉先生……我知道你不是真的没用，可是你真的运气太差了……</color>+<color=#A9A9A9>我发自内心地同情你，但是——</color>+<color=#A9A9A9>我也得为自己想想出路了……</color>
-()||<SE1>AVG_engine_speedup</SE1><黑屏1>:搬完最后一箱货物，丹尼尔沉重地发动了货车。
-()||<BIN>97</BIN><黑屏2>:……翌日。+柳芭老妈的办公室外。
-()||:丹尼尔惴惴不安地在门外等待着，激烈的争吵声穿透了厚厚的墙壁和门，他几乎能清晰地听见每一个字。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>果然，这一次也是，刚倒手卖完压在仓库四五年的货物，原来的买家就找上门了。</color>+<color=#A9A9A9>每一次都是这样……</color>
-()||:丹尼尔又一次叹了口气。
-()||<SE1>AVG_Door_Hit</SE1><震屏3>:砰——+尼古拉猛地踹开大门走了出来。
-NPC-NervousMan(3)<Speaker>尼古拉</Speaker>||:我告诉你！不是我没有才能，是老子时运不济！+不是他*的队友不给力，就是倒他*的大霉！+要是给我最精英的人手配置，我也能搞出大事！
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:……
-NPC-NervousMan(3)<Speaker>尼古拉</Speaker><Shake>0.1</Shake>||:你不要用这种鄙夷的眼神看我！我受够了！
-()||<SE1>AVG_Broken_Glass</SE1>:尼古拉发疯一般地砸掉了走廊上精美的陈设品。+柳芭老妈只是坐在轮椅上，冷漠地看着。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:尼古拉先生……
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:不用阻拦，随他发癫。
-NPC-NervousMan(3)<Speaker>尼古拉</Speaker>||:我他*不干了！我今天就走！+你们都给我等着！+我总有一天，会干出成绩回来打烂你们的脸！
-()||<SE1>RunStep</SE1>:尼古拉嘶吼着，身影很快消失在了走廊尽头。+柳芭老妈挥了挥手，示意属下推着自己离开。+稍作权衡后，丹尼尔拦住了柳芭老妈的去路。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:抱歉，柳芭老妈，我有事想要汇报。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>;NPC-Bodyguard1(0)||:说。
-NPC-OldLady(0)<Position>0,180</Position>;NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:关于那批货物……+我没有按照尼古拉先生的指示运送到对方的仓库中。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:……
-()||:柳芭老妈抬起了头，看向丹尼尔。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:我知道这样做有违规则，但我认为不经您的授意私下倒卖货物，才是更加错误的行为……+所以，我斗胆延长了交货的期限，现在那批货物还在13号仓库中。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||:很好。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:感谢您的谅解。+稍后我会把货物放回到原来的仓库，交易人那边我也会去解释的。
-()||<SE1>AVG_Wheelchair</SE1><黑屏1>:柳芭老妈点了点头，然后也离开了走廊。+虽然她的反应很平淡，但丹尼尔知道自己已经给她留下了很不错的印象。
-()||<黑屏2><BIN>313</BIN><BGM>BGM_Empty</BGM>:……一年后，萨卡洛夫辖区，酒吧。
-()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:庆祝新人加入的酒会正在热烈进行中，丹尼尔倚靠在吧台边吞吐着烟雾，偶尔心不在焉地扫视一圈兴奋不已的新人，企图从中找出“那个人”。+最近，辖区中开始流传起一个名号为“走私大王”的新人，柳芭老妈特意邀请了这个人来参加今天的酒会。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>Stop_AVG_loop</SE1>:……+<color=#A9A9A9>已经十五分钟了……</color>+<color=#A9A9A9>就算是走私大王，敢这么肆无忌惮地在柳芭老妈的地盘上迟到的，还是头一个……</color>
-()||<SE1>AVG_Door_Open_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:嘎吱——+此刻——即庆典开始的十五分钟后——酒吧的门被推开了。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||:<color=#A9A9A9>挺有胆，迟到了还敢来，柳芭老妈最痛恨不守时的人……</color>
-()||<SE1>ClothingUp</SE1>:丹尼尔换了个姿势，以看戏的心态观察起了来者。
-()||<BGM>BGM_Empty</BGM>:一个西装革履、发型一丝不苟的男人走进酒吧，看见他的律贼无不露出目瞪口呆的表情。
-NPC-Bodyguard1(0)<Speaker>丹尼尔</Speaker>||<SE1>Stop_AVG_loop</SE1>:什么？！是……
-()||<SE1>AVG_footsteps_cave</SE1>:面对惊讶的众人，来者从容地走下台阶，径直来到柳芭老妈边上的座位。
-NPC-OldLady(0)<Speaker>柳芭老妈</Speaker><Position>0,180</Position>||<SE1>Stop_AVG_loop</SE1>:……
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:好久不见，柳芭老妈。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:尼古拉潇洒地坐在了柳芭老妈对面，手上鸽子蛋般大小的宝石散发出耀眼的光芒。
-NPC-NervousMan(1)<Speaker>尼古拉</Speaker>||:我就是您在等的人。
-()||<黑屏1>:
+()||<黑屏2><BIN>313</BIN>:...In a bar in the Sakharov Administrative Region.
+()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:A party to celebrate the newcomers' initiation is currently in full swing. Danil straightens the creases on his suit and joins the bustling crowd. +On the surface, this is just a simple Vory v Zakone cocktail party for welcoming new members. +But Danil knows that it is also an opportunity for the new members to approach the senior Vor that they want to follow.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:...
+()||<SE1>Stop_AVG_loop</SE1>:Danil sips his champagne nervously as he scans the crowd of chattering party-goers. +Other than Baba Lyuba, all the capos are present. +Danil's gaze wanders from one capo to another, but it is hard to tell who will make a worthy mentor just from overhearing a word or two. +While he is hovering hesitantly, his attention is drawn to a peculiar man who stands out in the crowd.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:<color=#A9A9A9>He doesn't look very approachable.</color> +<color=#A9A9A9>...Should I try to introduce myself?</color>
+()||:The man is leaning against the bar counter, slowly swirling his glass of red wine. In a sea of casually dressed Vory, his immaculate suit stands out. It is classic but not passé; the materials look obviously lush and expensive even in the dim light. +More importantly, everyone who passes by takes the initiative to greet him, but no one dares stop and make conversation with him. +Danil listens carefully and manages to find out that the man is called Nikolai.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:Hello, Mr. Nikolai.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||<SE1>Stop_AVG_loop</SE1>:I am Danil, a new Vor. Please forgive me for intruding on you.
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:...Danil?
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:Yes, sir.
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:Nikolai puts down his glass and looks at Danil with a raised eyebrow.
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:How can I help you?
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>;NPC-NervousMan(0)||:...
+NPC-Bodyguard1(0);NPC-NervousMan(0)<同时置暗><Speaker></Speaker>||:Danil swallows nervously. +Nikolai's bearing is completely unlike the other Vory, so it is obvious that he cannot talk to him in the same manner as he talks to the others.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>;NPC-NervousMan(0)||:Pardon my impudence, sir. I have just been initiated as a Vor, and I'm feeling a little lost about my future. +I would be incredibly grateful if you could give me some pointers.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:...
+()||:Nikolai smiles. He takes out a cigar case from his inner breast pocket and cuts away the tip of a cigar.
+()||:Danil offers his lighter and reverently lights the cigar.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:What kind of errands would you be up for?
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>;NPC-NervousMan(1)||:I am happy to complete any tasks for you.
+NPC-Bodyguard1(0);NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:Very well. +I am currently putting together a new project.
+NPC-Bodyguard1(0);NPC-NervousMan(1)<同时置暗><Speaker></Speaker>||:Nikolai takes a light puff from his cigar, savoring its fresh aroma.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:Report to my office tomorrow morning.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:Thank you, sir.
+()||<SE1>DealCards</SE1>:Nikolai gives Danil his card with a smirk, then disappears from the party. +Danil reads the card— +Nikolai Vasilyevich.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker><Shake>0.1</Shake>||<黑屏1><BGM>BGM_Empty</BGM>:... +Dear Lord, isn't he the legendary Mr. Sakharov's adopted son...?
+()||<BIN>9</BIN><黑屏1>:Danil is giddy with joy, but little does he know, this will the most regrettable decision he has ever made in his life.
+()||<黑屏2><BIN>168</BIN>:...One morning three months later. +In Warehouse 7 of the Vory v Zakone.
+()||<SE1>AVG_HeavyVehicle_Stop</SE1><BGM>GF_21winter_avg_pathfinder</BGM>:Following Nikolai's instructions, Danil parks his cargo van just off the Ulitsava Highway.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:... +Mr. Nikolai, are we really doing this?
+NPC-Bodyguard1(0);NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:Are you questioning me?
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>;NPC-NervousMan(0)||:I just remember hearing from the others that Baba Lyuba is saving these goods for a client...
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:I know, but that client has already fled the country and is unlikely to ever come back. +Rather than letting the goods rot inside a warehouse, we should sell them off to people who have better use for them.
+()||<SE1>AVG_20Winter_Gate_Close</SE1>:Whoosh—Nikolai opens the warehouse door. +Danil looks at the weapons and ammunitions stored within, then at Nikolai.
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:What are you looking at me for? I didn't ask you to come and watch me haul this stuff, you know?
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:...
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Danil starts loading the crates into the back of the van. +Nikolai can probably tell that Danil isn't too happy. He walks up to his side.
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:When we're done with this job, I'll ask Baba Lyuba to promote you to the cadre.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>;NPC-NervousMan(0)||:Thank you, Mr. Nikolai.
+NPC-NervousMan(0)<Speaker>Nikolai</Speaker>||:After all, you are now my most trusted henchman.
+()||:After giving Danil a quick pat on the shoulder, Nikolai strolls off to smoke. +Once Nikolai is out of sight, Danil lets out a gloomy sigh. +It has only been three months since the initiation party, but out of the seven new members that Nikolai has taken under his wing, he is the only one left. +Three decided to quit after multiple injuries, two died in a fire that Nikolai and a few other capos started because of some very stupid reason, one committed suicide after he was made to take the blame for Nikolai's crimes, and one got arrested by the police because Nikolai got the pickup time wrong. +Danil only found out recently that his mentor is known as "Good-For-Nothing Nikolai" among the Vory.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:<color=#A9A9A9>Mr. Nikolai... I don't know if you are actually good-for-nothing, but your luck really is rotten...</color> +<color=#A9A9A9>I feel sorry for you from the bottom of my heart, but...</color> +<color=#A9A9A9>I've got to think ahead for my own future...</color>
+()||<SE1>AVG_engine_speedup</SE1><黑屏1>:After loading the final crate, Danil starts the truck's engine with a heavy heart.
+()||<BIN>97</BIN><黑屏2>:...The next day. +Outside Baba Lyuba's office.
+()||:As Danil waits anxiously outside the door, he can clearly hear every single word of the fierce argument even through the thick walls and door.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:<color=#A9A9A9>I knew it. We just sold off the goods that had been sitting in the warehouse for five years, then the original buyer came looking for them.</color> +<color=#A9A9A9>Every single time...</color>
+()||:Danil sighs again.
+()||<SE1>AVG_Door_Hit</SE1><震屏3>:Bam! +Nikolai kicks the door open and storms out.
+NPC-NervousMan(3)<Speaker>Nikolai</Speaker>||:I'm telling you! I'm not useless; I'm just f*cking unlucky! +I'm always dragged down by incompetent subordinates or f*cking bad timing! +I could do great things if I were just given some good men!
+NPC-OldLady(0)<Speaker>Baba Lyuba</Speaker><Position>0,180</Position>||:...
+NPC-NervousMan(3)<Speaker>Nikolai</Speaker><Shake>0.1</Shake>||:Stop looking at me like I'm dirt! I've had enough!
+()||<SE1>AVG_Broken_Glass</SE1>:Nikolai smashes an exquisite decor piece in the hallway like a madman. +Baba Lyuba simply watches him coldly from her wheelchair.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:Mr. Nikolai...
+NPC-OldLady(0)<Speaker>Baba Lyuba</Speaker><Position>0,180</Position>||:Don't stop him. Let him have his tantrum.
+NPC-NervousMan(3)<Speaker>Nikolai</Speaker>||:I'm f*cking done! I'm walking out right now! +Just you wait! +One of these days, I'll do something great! That'll show you!
+()||<SE1>RunStep</SE1>:Nikolai keeps shouting as he disappears down the hallway. +Baba Lyuba waves her hand and signals to her subordinate to push her away. +After weighing up his options, Danil steps into Baba Lyuba's path.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:Apologies, Baba Lyuba. There's something that I'd like to report.
+NPC-OldLady(0)<Speaker>Baba Lyuba</Speaker><Position>0,180</Position>;NPC-Bodyguard1(0)||:Go on.
+NPC-OldLady(0)<Position>0,180</Position>;NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:About that consignment... +I didn't follow Mr. Nikolai's instructions to deliver them to the new buyer.
+NPC-OldLady(0)<Speaker>Baba Lyuba</Speaker><Position>0,180</Position>||:...
+()||:Baba Lyuba looks up at Danil.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:I know insubordination is against the rules, but I believe selling the goods without your permission is even worse... +So I took the initiative and extended the consignment period. The goods are currently still in Warehouse 13.
+NPC-OldLady(0)<Speaker>Baba Lyuba</Speaker><Position>0,180</Position>||:Very well.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:Thank you for your understanding. +I will transport the goods back to the original warehouse shortly. I will also explain the situation to the new buyer.
+()||<SE1>AVG_Wheelchair</SE1><黑屏1>:With a nod, Baba Lyuba also leaves the hallway. +Her response may seem indifferent, but Danil knows that he has made a pretty good impression.
+()||<黑屏2><BIN>313</BIN><BGM>BGM_Empty</BGM>:...A year later, in a bar in the Sakharov Administrative Region.
+()||<SE1>AVG_AMB_Restaurant</SE1><BGM>GF_Swim_Marnie</BGM>:A party to celebrate the newcomers' initiation is currently in full swing. Leaning against the bar counter, Danil puffs out a mouthful of smoke. He scans the group of excited new members absentmindedly, trying to find HIM. +A newcomer known as the "King of Smuggling" has recently become the talk of the town, and Baba Lyuba has made a point of inviting this man to the party tonight.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||<SE1>Stop_AVG_loop</SE1>:... +<color=#A9A9A9>It's already been 15 minutes...</color> +<color=#A9A9A9>A king of smuggling or not, no one has ever dared to show up late for an appointment on Baba Lyuba's turf...</color>
+()||<SE1>AVG_Door_Open_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Creak... +Just then—15 minutes into the celebration, the door to the bar opens.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||:<color=#A9A9A9>He's got some gall to show up at all. There's nothing Baba Lyuba hates more than people who don't show up on time...</color>
+()||<SE1>ClothingUp</SE1>:Danil shifts his weight and starts watching the latecomer with his figurative popcorn out.
+()||<BGM>BGM_Empty</BGM>:A suited man with not a single hair out of place strides into the bar. All the Vory gape at the sight of him.
+NPC-Bodyguard1(0)<Speaker>Danil</Speaker>||<SE1>Stop_AVG_loop</SE1>:What?! That's...
+()||<SE1>AVG_footsteps_cave</SE1>:Ignoring the gobsmacked crowd, he casually strolls down the stairs and makes a beeline for Baba Lyuba.
+NPC-OldLady(0)<Speaker>Baba Lyuba</Speaker><Position>0,180</Position>||<SE1>Stop_AVG_loop</SE1>:...
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:It's been a while, Baba Lyuba.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Nikolai sits down jauntily opposite Baba Lyuba, gemstones the size of pigeon eggs glimmering on his fingers.
+NPC-NervousMan(1)<Speaker>Nikolai</Speaker>||:I'm the one you've been waiting for.
+()||<黑屏1>:

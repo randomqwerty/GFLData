@@ -1,89 +1,89 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>9</BIN>:黑夜的尽头是什么？+有人说是死亡，有人说是深渊。+但塔亚柔斯不这么想。+因为她已经获得了不死，也见证了奇迹。+但此时此刻，一种熟悉又诡异的安静将她紧紧包围。
-()||<SE1>AVG_Chimes</SE1>:叮铃——+清脆的摇铃声在黑暗中响起，浓雾将塔亚柔斯彻底湮没。
-ColtWalker(1)<Speaker>玛姬</Speaker>||<SE2>AVG_Scene_Transfer</SE2><common_effect>%%code=AVG_chuxian_yan%%</common_effect><黑屏1>:欢迎来到通灵鬼屋。
-()||<黑屏2><narrator><BGM>GF_22W_BGM_1</BGM><黑屏1>:远望天堂 地狱在上+水晶酒杯里盛满龙舌兰+倒映出灵魂原本的模样+晶莹的液体将血管洗涤+幸运留在这里+不幸留在这里+痛苦留在这里+遗忘留在这里……
-()||<黑屏2><BIN>282</BIN><SE1>AVG_Chimes</SE1>:叮铃——+清脆的摇铃声响起，塔亚柔斯睁开了双眼。
-()<Speaker>塔亚柔斯</Speaker>||:又是重复的戏码，上个世纪的审美早该被淘汰了。+就和某些人形一样，玛姬。
-()||:稍微有一些不同的地方是，这次塔亚柔斯并不坐在剧院的观众席。+而是舞台上。+她身着克里斯蒂娜的华美长裙，手里握着黑衣男子的手。+黑衣男子深情地唱道——
-NPC_girill(0)<Speaker>黑衣男子</Speaker>||:纵然你离我而去+留下惊鸿一瞥+歌剧魅影就在那里+在你心中……
-()||<SE1>AVG_Shield_Startup</SE1>:塔亚柔斯冷笑一声，她想使用浮游炮。
-()||:……+但她似乎用不出来……
-()||<SE1>AVG_whitenoise</SE1>:塔亚柔斯不断地告诫自己——必须冷静，而对方只是一个被帕拉蒂斯改造过的垃圾。+所有的答案就写在了自己的虚识图景里。
-()<Speaker>塔亚柔斯</Speaker>||:找到了……
-()||:她找到了通灵鬼屋的通关密码——破解真正的谜题。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……凡见过你面容的人+蜷缩于恐惧之中……
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:我是你所戴的面具
-NytoWhite(0)<Speaker>塔亚柔斯</Speaker>||:我是你所戴的面具
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……闭嘴。
-Nyto(1)<Speaker>塔亚柔斯</Speaker>||:我是你所戴的面具
-NPC-Tareus(3)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||:……你们给我闭嘴！！！
-NytoWhite(0)<Speaker>塔亚柔斯</Speaker>||:凡见过你面容的人
-Nyto(1)<Speaker>塔亚柔斯</Speaker>||:蜷缩于恐惧之中
-()<Speaker>黑/白涅托</Speaker>||:我是你所戴的面具。
-()||<白屏2><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_Explosion</SE1>:轰——
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:……没有人可以命令我！+我也绝不恐惧！
-()||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰——
-()||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:浮游炮如同冰雹，轰然砸向整座舞台。
-()||<SE1>AVG_Chimes</SE1>:叮铃——
-()||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><黑屏1>:清脆的摇铃声再度响起。
-()||<黑屏2><BIN>9</BIN><narrator><黑屏1>:福克斯端起了这杯龙舌兰+心肺似被烈火点燃+谎言与欲望交响+恶魔现出天使般的伪善
-NPC-Tareus(4)<Speaker>塔亚柔斯</Speaker>||<黑屏2><BIN>139</BIN><SE1>AVG_20Winter_Bar_Cheering_V2</SE1>:……又是这种东西！
-()||:巨大的笑声从四面八方传来——+一样的场景，一样的氛围。+一样的无数张面孔从身边擦过，浓郁的古龙水、呛鼻的雪茄味、还有赌场的专属香氛……
-NPC_baolan(4)<Speaker>客人</Speaker>||:塔亚柔斯小姐，给我几张扑克牌。+我想玩傀儡皇后。
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:……去你的傀儡皇后！！！
-()||<SE1>AVG_Explosion</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰！
-()||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰轰轰——
-()||<Night><SE1>AVG_Broken_Glass</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:啪——
-()||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:巨大的顶灯砸向塔亚柔斯。
-()||<SE1>AVG_Broken_Glass</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:刺啦——+塔亚柔斯的机甲穿过那堆顶灯。+顶灯化成一张巨大的扑克牌——+黑桃K。
-()||<SE1>AVG_Chimes</SE1>:叮铃——
-()||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><黑屏1>:清脆的摇铃声又一次响起。
-()||<黑屏2><BIN>9</BIN><narrator><黑屏1>:这里有两杯龙舌兰+一杯赠与撒旦+一杯献祭自己
-()||<黑屏2><关闭蒙版><BIN>321</BIN>:塔亚柔斯已经不耐烦到连一分钟的容忍都不愿意伪装。
-()||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:轰——
-()||<黑屏2><BIN>325</BIN><SE1>AVG_Scene_Transfer</SE1>:……
-()||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:轰——
-()||<黑屏2><BIN>272</BIN><SE1>AVG_Scene_Transfer</SE1>:……
-()||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:轰——
-()||<黑屏2><BIN>229</BIN><SE1>AVG_Scene_Transfer</SE1>:……
-()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1><BGM>BGM_Empty</BGM>:轰——
-()||<黑屏2><BIN>9</BIN><SE1>AVG_Scene_Transfer</SE1>:……
-()||:轰——
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:老鼠！给我滚出来！！！
-()||<SE1>AVG_File_Put</SE1>:啪——
-()||<黑屏1>:所有浮游刃仿佛打入棉花的子弹，连爆炸声都变得安静。
-()||<黑屏2><BIN>460</BIN>:……
-Nyto(2)<Speaker>黑涅托</Speaker>||<SE1>AVG_21Winter_Girls_Chorus</SE1>:两个太阳，分别照明两条路径。
-NytoWhite(1)<Speaker>白涅托</Speaker>||:尘世的路径，和慈父的路径。
-()<Speaker>黑/白涅托</Speaker>||:圣殿变成了魔窟，天秤也变为盛满罪恶鲜血的祭台。+复仇女神用宝剑划开自己的胸口，击打着自己的心脏然后尖声喊叫。
-NPC-MrsGray(8)<Speaker>格雷</Speaker>||:我走过我们人生的一半旅程。+被引导着从天堂走向地狱。
-NPC-Tareus(4)<Speaker>塔亚柔斯</Speaker>||:……格雷。+格雷姐姐……
-NPC-MrsGray(8)<Speaker>格雷</Speaker>||:你出生的时候我还没有去世。
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:不！你不是格雷姐姐！
-NPC-MrsGray(8)<Speaker>格雷</Speaker>||:你所受到的痛苦，已经从我的记忆中消除。+我们会在一起，既不是天堂也不是地狱，既不是被诅咒也不是被拯救，我没有死，我也没有活着。
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:垃圾，你居然敢变出这种场景……
-()||:塔亚柔斯第一次展现出恨意。
-NPC-MrsGray(8)<Speaker>格雷</Speaker>||:这就是你心中最害怕的场景吗？+塔亚柔斯小姐？
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:垃圾！垃圾！
-NPC-MrsGray(8)<Speaker>格雷</Speaker>||:我真恨不得对镜子照一照自己现在的模样。+看看令你恐惧与害怕的人和场景到底长什么样……
-()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰——
-NPC-Tareus(4)<Speaker>塔亚柔斯</Speaker>||:<size=50>滚！！</size>
-NPC-MrsGray(8)<Speaker>玛姬</Speaker>||:真恶心啊……
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:……
-NPC-MrsGray(8)<Speaker>玛姬</Speaker>||:原来你是这种东西。+既不是完整的人类，也不是完整的人形。+而是……+杂种。
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:……
-()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:轰——
-()||<黑屏2><BIN>9</BIN>：塔亚柔斯长吁一口气——
-()||<黑屏1>:还好，更多的秘密还没有被发现。
-()||<黑屏2><SE1>AVG_Scene_Transfer</SE1><BIN>460</BIN>:啪——
-Nyto(2)<Speaker>黑涅托</Speaker>||<SE1>AVG_21Winter_Girls_Chorus</SE1>:两个太阳，分别照明两条路径。
-NytoWhite(1)<Speaker>白涅托</Speaker>||:尘世的路径，和慈父的路径。
-()<Speaker>黑/白涅托</Speaker>||:圣殿变成了魔窟，天秤也变为盛满罪恶鲜血的祭台。+复仇女神用宝剑划开自己的胸口，击打着自己的心脏然后尖声喊叫。
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:……
-()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:轰——
-()||<黑屏2><BIN>9</BIN><黑屏1><SE1>Stop_AVG_loop</SE1>:啪——
-Nyto(2)<Speaker>黑涅托</Speaker>||<黑屏2><BIN>460</BIN><SE1>AVG_Scene_Transfer</SE1><SE1>AVG_21Winter_Girls_Chorus</SE1>:两个太阳，分别照明两条路径。
-NPC-Tareus(4)<Shake>0.1</Shake><Speaker>塔亚柔斯</Speaker>||<SE1>Rope</SE1>:<size=50>我！要！杀！了！你！</size>
-()<Speaker>玛姬</Speaker>||:——喂，你们不会还不知道吧，其实我的心智里还有一些东西是完完全全属于我自己吧？+是，干扰器老土，但还是最有效。+就算再怎么被你们改造，我还是热爱自己本身啊。+对吧，凯瑟琳？+放心，我会连你的份一起，讨回来。
-()||<黑屏1>:
+()||<黑屏2><BIN>9</BIN>:What lies at the end of the night? +Some say it is death. Some say it is the abyss. +But Tareus disagrees. +That is because she has gained immortality and witnessed a miracle. +But at this moment, a familiar yet sinister silence surrounds her.
+()||<SE1>AVG_Chimes</SE1>:Ring— +The crisp sound of bells fills the air, and the heavy fog consumes Tareus entirely.
+ColtWalker(1)<Speaker>Maggie</Speaker>||<SE2>AVG_Scene_Transfer</SE2><common_effect>%%code=AVG_chuxian_yan%%</common_effect><黑屏1>:Welcome to the Séance Room.
+()||<黑屏2><narrator><BGM>GF_22W_BGM_1</BGM><黑屏1>:From beneath Hell, I gaze up at Heaven +A crystal glass of Tequila Slammer +Reflects a soul in its truest form +The liquor cleanses the blood vessels +Leaving happiness behind +Leaving sorrow behind +Leaving madness behind +Leaving silence behind...
+()||<黑屏2><BIN>282</BIN><SE1>AVG_Chimes</SE1>:Ring— +The clear chime of bells sounds again, and Tareus opens her eyes.
+()<Speaker>Tareus</Speaker>||:The same old play again. Such antiquated sense of aesthetics has no place in the modern world. +Much like some Dolls, Maggie.
+()||:However, there is a slight difference. This time, Tareus is not sitting in the audience. +Instead, she is on stage. +She is wearing Christine's lavish gown and holding the hand of a man in black. +The man sings soulfully—
+NPC_girill(0)<Speaker>Man in Black</Speaker>||:And though you turn from me +To glance behind +The Phantom of the Opera is there +Inside your mind...
+()||<SE1>AVG_Shield_Startup</SE1>:Tareus scoffs and makes to deploy her floating cannons.
+()||:... +However, she can't seem to do it.
+()||<SE1>AVG_whitenoise</SE1>:Tareus cautions herself over and over again—she needs to keep calm; her opponent is nothing more than a piece of trash modified by Paradeus. +All the answers are written in her own virtual cognition image.
+()<Speaker>Tareus</Speaker>||:Found it...
+()||:She finds the clear code for the Séance Room—the solution to the true riddle.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Those who have seen your face, +Draw back in fear...
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:I am the mask you wear.
+NytoWhite(0)<Speaker>Tareus</Speaker>||:I am the mask you wear.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Shut up.
+Nyto(1)<Speaker>Tareus</Speaker>||:I am the mask you wear.
+NPC-Tareus(3)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||:...SHUT UP, ALL OF YOU!!!
+NytoWhite(0)<Speaker>Tareus</Speaker>||:Those who have seen your face,
+Nyto(1)<Speaker>Tareus</Speaker>||:Draw back in fear.
+()<Speaker>Black & White Nytos</Speaker>||:I am the mask you wear.
+()||<白屏2><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_Explosion</SE1>:Boom—
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:...Nobody can command me! +And I'm not afraid!
+()||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Boom—
+()||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:The hovering cannons fall like hailstones and smash the entire stage.
+()||<SE1>AVG_Chimes</SE1>:Ring—
+()||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><黑屏1>:Once again, the sound of bells chimes forth.
+()||<黑屏2><BIN>9</BIN><narrator><黑屏1>:Fox raises this glass of Tequila Slammer. +Her heart and lungs are set aflame. +Desires and deception intertwine. +The devil exposes the angel's hypocrisy.
+NPC-Tareus(4)<Speaker>Tareus</Speaker>||<黑屏2><BIN>139</BIN><SE1>AVG_20Winter_Bar_Cheering_V2</SE1>:...This again!
+()||:Loud laughter comes from all around her— +The mood is the same, and so is the scene. +Countless faces file past her like before, filling the air with the thick scent of cologne, sneeze-inducing cigar smoke, and the unique fragrance of a casino...
+NPC_baolan(4)<Speaker>Customer</Speaker>||:Miss Tareus, deal me a hand. +I want to play Follow the Queen.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:...TO HELL WITH YOUR FOLLOW THE QUEEN!!!
+()||<SE1>AVG_Explosion</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Boom!
+()||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Boom-boom-boom—
+()||<Night><SE1>AVG_Broken_Glass</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Snap—
+()||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:The massive overhead lights fall toward Tareus.
+()||<SE1>AVG_Broken_Glass</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Crack— +Tareus' mech runs past the pile of lights. +The lights transform into a gigantic poke card— +The king of spades.
+()||<SE1>AVG_Chimes</SE1>:Ring—
+()||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><黑屏1>:The crisp, clear sound of a bell fills the air once more.
+()||<黑屏2><BIN>9</BIN><narrator><黑屏1>:Here are two Tequila Slammers. +One for Satan. +And one for myself.
+()||<黑屏2><关闭蒙版><BIN>321</BIN>:Tareus is so fed up with this that she doesn't even bother to play along with the disguise for a moment.
+()||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:Boom—
+()||<黑屏2><BIN>325</BIN><SE1>AVG_Scene_Transfer</SE1>:...
+()||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:Boom—
+()||<黑屏2><BIN>272</BIN><SE1>AVG_Scene_Transfer</SE1>:...
+()||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:Boom—
+()||<黑屏2><BIN>229</BIN><SE1>AVG_Scene_Transfer</SE1>:...
+()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1><BGM>BGM_Empty</BGM>:Boom—
+()||<黑屏2><BIN>9</BIN><SE1>AVG_Scene_Transfer</SE1>:...
+()||:Boom—
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:YOU RAT! GET THE HELL OUT HERE!!!
+()||<SE1>AVG_File_Put</SE1>:Snap—
+()||<黑屏1>:The floating blades are like bullets striking cotton. Even the sound of explosions is muted.
+()||<黑屏2><BIN>460</BIN>:...
+Nyto(2)<Speaker>Black Nyto</Speaker>||<SE1>AVG_21Winter_Girls_Chorus</SE1>:Two suns, each illuminating a path.
+NytoWhite(1)<Speaker>White Nyto</Speaker>||:The path of the mundane world, and the path of the merciful Father.
+()<Speaker>Black & White Nytos</Speaker>||:Sanctum turned into the Devil's pit, the scales into an altar, drenched in sinners' blood. +Each Fury with her nails was tearing at her breast; they smote them with their palms, and shrieked so loud.
+NPC-MrsGray(8)<Speaker>Gray</Speaker>||:When halfway through the journey of our life, +Through this Heaven and Hell art we led,
+NPC-Tareus(4)<Speaker>Tareus</Speaker>||:...Gray +Big Sister Gray...
+NPC-MrsGray(8)<Speaker>Gray</Speaker>||:Thou wast made before I unmade.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:No! You're not Big Sister Gray!
+NPC-MrsGray(8)<Speaker>Gray</Speaker>||:The anguish thou art in perchance withdraws thee from my memory. +We shall be together, in neither Heaven nor Hell, neither cursed nor redeemed. I did not die, nor yet remained alive.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:You trash, how dare you mock up something like this...
+()||:For the first time, Tareus shows genuine hatred.
+NPC-MrsGray(8)<Speaker>Gray</Speaker>||:Is this what you most fear? +Miss Tareus?
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:Trash! Trash!
+NPC-MrsGray(8)<Speaker>Gray</Speaker>||:I wish I could look at myself in the mirror right now. +I want to see what kind of person and situation would fill you with fear and dread...
+()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Boom—
+NPC-Tareus(4)<Speaker>Tareus</Speaker>||:<size=50>GET LOST!!!</size>
+NPC-MrsGray(8)<Speaker>Maggie</Speaker>||:How disgusting.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:...
+NPC-MrsGray(8)<Speaker>Maggie</Speaker>||:So that's what you are. +Neither completely human nor completely Doll. +Instead... +A half-breed.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:...
+()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:Boom—
+()||<黑屏2><BIN>9</BIN>:Tareus exhales heavily—
+()||<黑屏1>:Fortunately, there are more secrets left to be uncovered.
+()||<黑屏2><SE1>AVG_Scene_Transfer</SE1><BIN>460</BIN>:Snap—
+Nyto(2)<Speaker>Black Nyto</Speaker>||<SE1>AVG_21Winter_Girls_Chorus</SE1>:Two suns, each illuminating a path.
+NytoWhite(1)<Speaker>White Nyto</Speaker>||:The path of the mundane world, and the path of the merciful Father.
+()<Speaker>Black & White Nytos</Speaker>||:Sanctum turned into the Devil's pit, the scales into an altar, drenched in sinners' blood. +Each Fury with her nails was tearing at her breast; they smote them with their palms, and shrieked so loud.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:...
+()||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><黑屏1>:Boom—
+()||<黑屏2><BIN>9</BIN><黑屏1><SE1>Stop_AVG_loop</SE1>:Snap—
+Nyto(2)<Speaker>Black Nyto</Speaker>||<黑屏2><BIN>460</BIN><SE1>AVG_Scene_Transfer</SE1><SE1>AVG_21Winter_Girls_Chorus</SE1>:Two suns, each illuminating a path.
+NPC-Tareus(4)<Shake>0.1</Shake><Speaker>Tareus</Speaker>||<SE1>Rope</SE1>:<size=50>I'M! GOING! TO! KILL! YOU!</size>
+()<Speaker>Maggie</Speaker>||:—Hey, did you know? There are actually things in my neural cloud that are still completely mine. +Yes, the jammers are old hat, but they're still the most effective. +And regardless of how you modify me, I still love myself best. +Right, Catherine? +Don't worry, I'll make sure I pay her out for you as well.
+()||<黑屏1>:

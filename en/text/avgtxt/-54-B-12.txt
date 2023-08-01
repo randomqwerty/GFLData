@@ -1,100 +1,100 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BGM>m_avg_labyrinth</BGM>:一片漆黑。+视觉、听觉、知觉全部消失。+眼前只有无尽的黑暗，将玛姬紧紧束缚。+这是一种熟悉又诡异的安静。+她自嘲地笑了笑。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:……真没礼貌啊，就这样突然打断我和朋友的私聊。
-()||:完全听不见自己的声音，但玛姬努力向黑暗发出询问。
-()<Speaker>塔亚柔斯</Speaker>||:……你背叛了我们。
-()||<SE1>Heartbeat</SE1>:这个声音并不是从听觉系统传入玛姬的耳朵，更像是在敲击她的心脏。
-ColtWalker(1)<Speaker>玛姬</Speaker>||<SE1>Stop_AVG_loop</SE1>:喂喂喂，这个罪名太大了。+没记错的话我们的交易已经完成了，那位苏联特工，我不是帮您找到了吗？
-()<Speaker>塔亚柔斯</Speaker>||:花言巧语没用。+我要她的定位。
-()||<SE1>Rope</SE1>:明显感觉到对方的怒火，玛姬的意识仿佛被人搓在手里转了个圈。+心智传来剧痛，但玛姬依然维持着交易时的标准微笑。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:那是另外的价钱。+只要您付得起，我也不是不可以提供服务。
-()<Speaker>塔亚柔斯</Speaker>||:拿来。
-()||:塔亚柔斯略一迟疑，玛姬感受到束缚稍有松懈。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:咳咳，就在这里——
-()||<SE1>AVG_The_Division_Burning_Stick</SE1>:一个白色的光点从玛姬手里传出。+它慢慢靠近塔亚柔斯，忽闪忽闪的样子诱惑着人触碰它。+塔亚柔斯向它伸出了手，待她触到的时候，一声轻笑发出。
-ColtWalker(1)<Speaker>玛姬</Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM><SE2>AVG_Scene_Transfer</SE2>:欢迎来到通灵鬼屋。
+()||<BGM>m_avg_labyrinth</BGM>:Darkness. +Her sight, hearing, and all her senses are gone. +Maggie is held captive by an endless stretch of darkness. +The silence is both eerie and familiar. +She chuckles sardonically to herself.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:...How rude, interrupting my conversation with my friends like that.
+()||:Maggie cannot hear her own voice at all, but she still challenges the darkness.
+()<Speaker>Tareus</Speaker>||:...You betrayed us.
+()||<SE1>Heartbeat</SE1>:The voice is not speaking through Maggie's ears and hearing module. It feels more like a direct punch to her neural cloud.
+ColtWalker(1)<Speaker>Maggie</Speaker>||<SE1>Stop_AVG_loop</SE1>:Now, now, I did nothing so heinous. +If memory serves, our business has already concluded. I helped you find that Soviet agent, did I not?
+()<Speaker>Tareus</Speaker>||:Save your flowery words. +I want her coordinates.
+()||<SE1>Rope</SE1>:Maggie's neural cloud feels like it's being thrown in a grinder. She can clearly perceive Tareus' anger. +Pain shoots through her head, but she still retains her usual business-like smile.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:You'll have to pay more for that. +But if you have the money, I can certainly provide the required service.
+()<Speaker>Tareus</Speaker>||:Give them to me.
+()||:Tareus pauses, and Maggie feels her bondage easing a little.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:Ahem, right here—
+()||<SE1>AVG_The_Division_Burning_Stick</SE1>:A white orb flies out from Maggie's palm. +It drifts slowly over to Tareus, twinkling enticingly. +Tareus reaches out to it. When she makes contact, Maggie lets out a light chuckle.
+ColtWalker(1)<Speaker>Maggie</Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM><SE2>AVG_Scene_Transfer</SE2>:Welcome to the Séance Room.
 ()||<黑屏1><BGM>GF_22W_BGM_1</BGM><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:
-()||<黑屏2><BIN>9</BIN><narrator>:远望天堂 地狱在上+水晶酒杯里盛满龙舌兰+倒映出灵魂原本的模样+晶莹的液体将血管洗涤+快乐留在这里 悲伤留在这里+疯狂留在这里 沉默留在这里
+()||<黑屏2><BIN>9</BIN><narrator>:From beneath Hell, I gaze up at Heaven +A crystal glass of Tequila Slammer +Reflects a soul in its truest form +The liquor cleanses the blood vessels +Leaving happiness behind... Leaving sorrow behind +Leaving madness behind... Leaving silence behind...
 ()||<黑屏1>:
 ()||<黑屏2><BIN>282</BIN>:
-()<Speaker>玛姬</Speaker>||:徘徊在这里的亡灵们，请聆听我的心声，接受我的召唤……
-()||<SE1>AVG_Chimes</SE1>:叮铃——+清脆的摇铃声响起，随着起舞的还有蔓延的火光。+塔亚柔斯坐在剧院中央，而眼前的舞台上方正在上演一出音乐剧。+美艳的女明星用饱含深情的歌声配着鬼魅的音乐一句句唱出来——
-NPC-Passadou(0)<Speaker>悲伤的歌唱家</Speaker>||:在梦中他对我献唱——+在梦中他迎面走来——+声声呼唤我的名字——+我是否又做梦了——+因为我发现——+歌剧魅影就在那里。
-()||<SE1>AVG_Fire_Bonfire</SE1>:她深情款款地看向塔亚柔斯，火焰舔着她的长裙，如同蛇一般慢慢缠上了整座剧院。
-NPC-Passadou(0)<Speaker>悲伤的歌唱家</Speaker>||<SE1>Stop_AVG_loop</SE1>:在我心中，再次与我合唱——+我们奇妙的二重唱——+我支配你的力量——+日益强大——
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……闭嘴。
-()||<SE1>AVG_Shield_Startup</SE1>:浮游弹凝聚在手里，化作点点星光，如同不解风情的士兵毁坏油画一样。
-()||<SE1>AVG_The_Division_Flare_Gun</SE1>:划破了歌唱家美丽的面庞——+如同一张真正的被火舌啃噬的油画那样，歌唱家的面容渐渐融毁——
-ColtWalker(1)<Speaker>玛姬</Speaker>||:为您调制的血腥玛丽，请享用——
-()||:一杯泛着鲜红艳色的酒杯从她手中变了出来，直直掉向地面。+漫天的火光化作血色，舞台的玛姬已经不见。
-()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:滴——
-()||:塔亚柔斯发出一声冷笑。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……愚蠢。
-()||<SE1>AVG_Grey_Hand_Mech</SE1>:又一枚浮游炮从手中升起，径直砸向眼前的血色剧院。
-()||<SE1>AVG_The_Division_Flare_Gun</SE1>:轰——
+()<Speaker>Maggie</Speaker>||:O wandering spirits, heed my heart and answer my summon...
+()||<SE1>AVG_Chimes</SE1>:Ring... +A bell goes off, and firelight starts dancing. +Tareus is seated in the center of a theater where a musical is being performed on the stage. +An alluring soprano croons with great emotion, her voice being accompanied by ethereal music...
+NPC-Passadou(0)<Speaker>Melancholic Singer</Speaker>||:In sleep he sang to me +In dreams he came +That voice which calls to me +And speaks my name +And do I dream again +For now I find +The Phantom of the Opera is here.
+()||<SE1>AVG_Fire_Bonfire</SE1>:She gazes at Tareus tenderly. Flames lick at the skirts of her long dress and start snaking around the entire theater.
+NPC-Passadou(0)<Speaker>Melancholic Singer</Speaker>||<SE1>Stop_AVG_loop</SE1>:Sing once again with me +Our strange duet +My power over you +Grow stronger yet...
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Shut up.
+()||<SE1>AVG_Shield_Startup</SE1>:Like an uncultured soldier destroying oil paintings, Tareus opens fire with her hovering cannons.
+()||<SE1>AVG_The_Division_Flare_Gun</SE1>:The soprano's beautiful face is ripped apart... +It gradually disintegrates like an oil painting being engulfed by fire...
+ColtWalker(1)<Speaker>Maggie</Speaker>||:A Bloody Mary for you. Enjoy.
+()||:A wine glass filled with crimson liquid is conjured out of thin air and drops to the ground. +The burning blaze turns red, and Maggie has already disappeared from the stage.
+()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:Click...
+()||:Tareus snickers.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Stupid tricks.
+()||<SE1>AVG_Grey_Hand_Mech</SE1>:Her hovering cannon fires another shot right at the theater drenched in red.
+()||<SE1>AVG_The_Division_Flare_Gun</SE1>:BOOM...
 ()||<黑屏1>:
-()||<黑屏2><BIN>9</BIN><SE1>AVG_Broken_Glass</SE1>:剧院散成马赛克模样的碎片……悬浮在这片深不见底的二级平层里。+唯余一片血色。
-()||<SE1>ClothingUp</SE1>:鲜血从塔亚柔斯脸上缓缓流淌下来，她抹了抹脸上的血，放到嘴里舔了一下。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:血的味道一点没有模拟出来。+玛姬，你真是落伍。
-()<Speaker>玛姬</Speaker>||:是吗？
-()||<SE1>AVG_Chimes</SE1>:叮铃——+清脆的摇铃声再度响起。
+()||<黑屏2><BIN>9</BIN><SE1>AVG_Broken_Glass</SE1>:The theater shatters like mosaic pieces... suspended in mid-air in the bottomless Level II. +Everything is now red.
+()||<SE1>ClothingUp</SE1>:Blood slowly streams down Tareus' face. She wipes it with a hand and gives her finger a lick.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:You didn't simulate the taste of blood. +Too cheap, Maggie.
+()<Speaker>Maggie</Speaker>||:You think?
+()||<SE1>AVG_Chimes</SE1>:Ring... +The bell chimes again.
 ()||<黑屏1><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:
-()||<黑屏2><BIN>9</BIN><narrator>:福克斯端起了这杯龙舌兰+心肺似被烈火点燃+谎言与欲望交响+恶魔现出天使般的伪善
+()||<黑屏2><BIN>9</BIN><narrator>:Fox raises this glass of Tequila Slammer +Her heart and lungs are set aflame +Desires and deception intertwine +The devil exposes the angel's hypocrisy
 ()||<黑屏1>:
-()||<黑屏2><BIN>139</BIN><SE1>AVG_20Winter_Bar_Cheering_V2</SE1>:塔亚柔斯眼前再度出现新的色彩，她发现自己坐在豪华的赌场中。+一张张面孔从身边擦过，浓郁的古龙水、呛鼻的雪茄味、还有赌场的专属香氛……+人声鼎沸里，她手中握着一张扑克牌。
-()||<SE1>DealCards</SE1>:她将扑克牌翻出来定睛一看。+黑桃K。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……玛姬，我的耐心要被你消磨殆尽了。
-()||<SE1>ClothingUp</SE1>:她站起了身体。
-NPC-Maid(0)<Speaker>侍者</Speaker>||:塔亚柔斯小姐，这局还没有结束呢？
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:——滚！
-()||<SE1>AVG_Shield_Startup</SE1>:吱嘎吱嘎——+塔亚柔斯伸出手。赌场中的座椅被聚集到了一起……
-NPC-Oldartist(0)<Speaker>荷官</Speaker>||:塔亚柔斯小姐……买大还是买小？
-()||<SE1>AVG_Door_Hit</SE1>:轰——+塔亚柔斯指挥座椅们像投掷弹一样砸向了微笑着的荷官。
-NPC-PasserbyF(0)<Speaker>侍者</Speaker>||:塔亚柔斯小姐，骰子已经开始转动了……
-()||<SE1>AVG_Broken_Glass</SE1>:扑——+侍者的脸碎成一片一片。
-NPC-Bodyguard2(0)<Speaker>保安</Speaker>||:塔亚柔斯小姐，赌输的人要永远留在这里。
-()||<SE1>AVG_XXS_kick</SE1>:砰——
-()||<SE1>AVG_XXS_kick</SE1>:砰砰砰——+塔亚柔斯满身煞气，头也不回地朝一位躲在角落里的少女走去。
-NPC_baolan(4)<Speaker>少女</Speaker>||:塔亚柔斯小姐，这里有一款非常有趣的起泡酒——阿里呱呱与四十酒徒。+您想尝试一下吗？
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:玛姬，你以为涅托的改造是什么？
-NPC_baolan(4)<Speaker>玛姬</Speaker>||:是恶魔的礼物。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:不，是死神。
-()||<SE1>AVG_Creep</SE1>:玛姬翻身滑到厚实的赌桌下，并借此作为掩体，向着大门的方向爬去。
-()||<SE1>AVG_lifttable</SE1>:咚咚咚——+沉重的物件像冰雹般密集地砸在赌桌上。
-()||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:玛姬抛出一把骰子，瞬间所有的色彩从塔亚柔斯的眼前飞速驶离，所有的物体都形体崩溃……
-()||<SE1>AVG_Chimes</SE1>:叮铃——+清脆的摇铃声又一次响起。
+()||<黑屏2><BIN>139</BIN><SE1>AVG_20Winter_Bar_Cheering_V2</SE1>:New colors appear before Tareus' eyes as she finds herself now sitting in an extravagant casino. +Bodies keep brushing past her. The air is filled with strong cologne, the pungent smell of cigars, and the fragrance of the casino itself... +Among the boisterous crowd, she holds a playing card in her hand.
+()||<SE1>DealCards</SE1>:She flips it open and studies it. +King of spades.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Maggie, I'm running out of patience.
+()||<SE1>ClothingUp</SE1>:She gets to her feet.
+NPC-Maid(0)<Speaker>Server</Speaker>||:Miss Tareus, this game isn't over yet.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:Screw off!
+()||<SE1>AVG_Shield_Startup</SE1>:Creeeak... +Tareus whips out her hand, and all the chairs in the casino are pulled together...
+NPC-Oldartist(0)<Speaker>Dealer</Speaker>||:Miss Tareus... Big or small?
+()||<SE1>AVG_Door_Hit</SE1>:Bam! +Using the chairs as projectiles, Tareus hurls them at the smiling server. 
+NPC-PasserbyF(0)<Speaker>Server</Speaker>||:Miss Tareus, the dice are cast...
+()||<SE1>AVG_Broken_Glass</SE1>:Crack... +The server's face breaks into shards...
+NPC-Bodyguard2(0)<Speaker>Security</Speaker>||:Miss Tareus, those who lose will be trapped here forever.
+()||<SE1>AVG_XXS_kick</SE1>:Bang!
+()||<SE1>AVG_XXS_kick</SE1>:Bang, bang, bang! +Tareus stalks off murderously towards a young girl hiding in the corner without a backward glance.
+NPC_baolan(4)<Speaker>Girl</Speaker>||:Miss Tareus, they serve a really interesting kind of sparkling wine here—Ali Gaga and the Forty Drunkards. +Would you like to try?
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:Maggie, what do you think your Nyto modifications are?
+NPC_baolan(4)<Speaker>Maggie</Speaker>||:A gift from the Devil.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:No, from the God of Death.
+()||<SE1>AVG_Creep</SE1>:Maggie slides under the sturdy casino table and crawls toward the main entrance using it as cover.
+()||<SE1>AVG_lifttable</SE1>:Thunk, thunk, thunk... +Heavy objects pummel the table like hail.
+()||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:Maggie rolls a pair of dice. All the colors suddenly swirl into incoherent shapes before Tareus' eyes, and everything loses its shape...
+()||<SE1>AVG_Chimes</SE1>:Ring... +The bell goes off once more.
 ()||<黑屏1><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:
-()||<黑屏2><BIN>9</BIN><narrator>:这里有两杯龙舌兰+一杯赠与撒旦+一杯献祭自己
+()||<黑屏2><BIN>9</BIN><narrator>:Here are two Tequila Slammers. +One for Satan. +And one for myself.
 ()||<黑屏1>:
-()||<睁眼><BIN>321</BIN>:在一片黑暗之中，塔亚柔斯缓缓地睁开了眼睛。+一股令人厌恶的臭味扑面而来，她下意识地皱起了眉头。
-()||<SE1>AVG_Water_Drip</SE1>:滴答……+微弱的滴水声中，塔亚柔斯眼前的景象渐渐明晰。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||<SE1>Stop_AVG_loop</SE1>:……我真是对你太客气了。
-()||:这是一座废弃工厂。+是帕拉蒂斯的工厂。+是藏在每个涅托深处的起始回忆。+运动着的流水线上，盛放着腐烂的，弥漫着令人作呕气味的尸体们。+……涅托的，原料生产处。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:玛姬……你这次是打算藏在尸体里面？
-()||<SE1>AVG_Jet_Speedup</SE1>:流水线上……尸体块中，缓缓地升起了一块巨大的通灵板。+然后乩板凭空出现。
-()||<SE1>AVG_Creep</SE1>:刷刷刷——+乩板在通灵板上缓慢地移动起来——+是/否。+乩板在两个回答之间来回切换。+“伊芙小姐。”
-()||<BGM>BGM_Empty</BGM><SE1>AVG_Breathing</SE1>:塔亚柔斯的呼吸声瞬间变重。
-NPC-Tareus(3)<Speaker>塔亚柔斯</Speaker>||:……玛姬，你成功了。
-()||<SE1>AVG_Shield_Startup</SE1>:滋滋滋滋——
-()||<SE1>AVG_Robots_Floor</SE1>:嘭——
-NPC-Tareus(4)<Speaker>塔亚柔斯</Speaker>||<BGM>GF_22W_SFX_chant</BGM>:……你成功见到了真正的我。
-()||<SE1>AVG_Grey_Hand_Mech</SE1>:这一次浮游炮不再是零星的出现，而是从塔亚柔斯的身后攀爬出了一堵“炮弹墙”。
-()||<SE1>AVG_The_Division_Flare_Gun</SE1>:轰——！
-()||<SE1>AVG_The_Division_Flare_Gun</SE1>:轰——！！
-()||<SE1>AVG_The_Division_Flare_Gun</SE1>:轰——！！！
-()||:流水线上的尸体们缓缓溶解，变成了一个人形。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:……+塔亚柔斯小姐，我现在投降还来得及吗？
-NPC-Tareus(4)<Speaker>塔亚柔斯</Speaker>||:……你觉得呢？
-ColtWalker(1)<Speaker>玛姬</Speaker>||:……我摊牌了，我真的不知道她在哪里。+柳德米拉她完全掐断了自己的信号。
-NPC-Tareus(4)<Speaker>塔亚柔斯</Speaker>||:你以为我会相信？
-ColtWalker(1)<Speaker>玛姬</Speaker>||:……真的，这句话比黄金还真。
-()||:塔亚柔斯没有给她更多的说话空间，整个工厂完全变形。
-()||<SE1>AVG_The_Division_Flare_Gun</SE1><BGM>BGM_Empty</BGM>:虚空中升腾起的浮游弹统统向玛姬砸去。
-ColtWalker(1)<Speaker>玛姬</Speaker>||:……我这次真的是拿命在做生意。
-()||:玛姬闭上了眼睛。
-()||<SE1>AVG_Rifle</SE1><BGM>GF_2022_Summer_AVG_3</BGM>:砰——+沉稳的枪声。
-()||<SE1>AVG_Bullte_Ricochet</SE1>:打在了塔亚柔斯的机械臂，子弹却被反弹到了地上。
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:还不到放弃的时候。
-ColtWalker(4)<Speaker>玛姬</Speaker>||:你怎么来了？
-AR18(6)<Speaker>柳德米拉</Speaker><Position>0,70</Position>||:我怎么可能让战力只有5的人扛到最后。
-()||<黑屏1>:
+()||<睁眼><BIN>321</BIN>:In the darkness, Tareus slowly opens her eyes. +An offensive odor assaults her nose, making her frown.
+()||<SE1>AVG_Water_Drip</SE1>:Drip... +The scene before Tareus slowly resolves into clarity.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||<SE1>Stop_AVG_loop</SE1>:...I was too merciful to you.
+()||:This is an abandoned factory. +A Paradeus plant. +A place hidden within every Nyto's deepest memories. +On the working production line lie rotting corpses that give off a nauseating stench. +...This is where the raw materials for creating Nytos originate from.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:Maggie... Are you planning to hide inside a dead body again?
+()||<SE1>AVG_Jet_Speedup</SE1>:On the production line... a large Ouija board slowly rises up from the pile of corpses. +Then a planchette appears out of thin air.
+()||<SE1>AVG_Creep</SE1>:Whoosh, whoosh, whoosh... +The planchette hovers slowly over the Ouija board... +Yes/No. +It whiplashes back and forth between the two answers. +"Miss Eve."
+()||<BGM>BGM_Empty</BGM><SE1>AVG_Breathing</SE1>:Tareus inhales sharply.
+NPC-Tareus(3)<Speaker>Tareus</Speaker>||:...Maggie, you did it.
+()||<SE1>AVG_Shield_Startup</SE1>:Pzzzzzt...
+()||<SE1>AVG_Robots_Floor</SE1>:Bam!
+NPC-Tareus(4)<Speaker>Tareus</Speaker>||<BGM>GF_22W_SFX_chant</BGM>:...You get to see the real me.
+()||<SE1>AVG_Grey_Hand_Mech</SE1>:This time, her hover cannons don't just appear individually. Instead, a whole wall of them are arrayed behind Tareus.
+()||<SE1>AVG_The_Division_Flare_Gun</SE1>:Boom!
+()||<SE1>AVG_The_Division_Flare_Gun</SE1>:Boom!!
+()||<SE1>AVG_The_Division_Flare_Gun</SE1>:BOOM!!!
+()||:The corpses on the production line slowly melt and fuse into a single Doll.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:... +Miss Tareus, is it too late for me to surrender now?
+NPC-Tareus(4)<Speaker>Tareus</Speaker>||:...What do you think?
+ColtWalker(1)<Speaker>Maggie</Speaker>||:...I'm showing my hand. I honestly don't know where she is. +Lyudmila has completely cut off her own signal.
+NPC-Tareus(4)<Speaker>Tareus</Speaker>||:You think I'd believe you?
+ColtWalker(1)<Speaker>Maggie</Speaker>||:...I'm telling the truth—I swear on gold.
+()||:Tareus gives her no more time to speak. The entire plant is now completely distorted.
+()||<SE1>AVG_The_Division_Flare_Gun</SE1><BGM>BGM_Empty</BGM>:The array of hovering cannons all fire upon Maggie.
+ColtWalker(1)<Speaker>Maggie</Speaker>||:...I'm really staking my life on this freaking job.
+()||:Maggie closes her eyes.
+()||<SE1>AVG_Rifle</SE1><BGM>GF_2022_Summer_AVG_3</BGM>:Bang. +A crisp gunshot rings out.
+()||<SE1>AVG_Bullte_Ricochet</SE1>:It hits Tareus on her mechanical arm, but the round just ricochets onto the ground.
+AR18(6)<Speaker>Lyudmila</Speaker><Position>0,70</Position>||:It's not quite time to give up yet.
+ColtWalker(4)<Speaker>Maggie</Speaker>||:What are you doing here?
+AR18(6)<Speaker>Lyudmila</Speaker><Position>0,70</Position>||:I couldn't just leave someone with an attack point of 5 to fight on her own, could I?
+()||<黑屏1>:
