@@ -126,22 +126,18 @@ NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>Apolo
 NPC-Soldier(0)<Speaker>Kar98k</Speaker><通讯框><同时置暗>||:I struggle to think of another matter more important than capturing the enemy position at this point in time.
 NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>Just then, I discovered a hastily hidden female corpse by the river bank.</color>
 NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>Lae</Speaker>||:Is that something noteworthy?
-NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>This person died under suspicious circumstances.</color>+<color=#00CCFF>Except for on the head, there are almost no fresh wounds anywhere else on the body. From the site of trauma on the head, it was caused by a pistol at close range. It could be said that the first shot was a lethal blow, but the killer continued to fire multiple rounds.
-</color>+<color=#00CCFF>Everything identifying the body has also been stripped. ID, uniform, and facial features...</color>
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>This person died under suspicious circumstances.</color>+<color=#00CCFF>Except for on the head, there are almost no fresh wounds anywhere else on the body. From the site of trauma on the head, it was caused by a pistol at close range. It could be said that the first shot was a lethal blow, but the killer continued to fire multiple rounds.</color>+<color=#00CCFF>Everything identifying the body has also been stripped. ID, uniform, and facial features...</color>
 NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>Lae</Speaker>||:...
-NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>Additionally, this female individual had short brown hair, was approximately 173 cm tall, and had aged surgery scars on their left calf...
-</color>+<color=#00CCFF>These still identifiable traits match one individual particularly well, being—</color>
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>Additionally, this female individual had short brown hair, was approximately 173 cm tall, and had aged surgery scars on their left calf...</color>+<color=#00CCFF>These still identifiable traits match one individual particularly well, being—</color>
 NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>You, Captain Reynard.</color>
 NPC-Lae(4)<Speaker>Lae</Speaker>||<震屏>:?!
 ()||:Lae's attempts to keep her surprised voice down fail, and waves undulate in those eyes she looks at me with. +I can largely guess what caused this shock, but there is no explanation I can give.
 NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:So you think that body is the real Captain Reynard and that I am just a pretender?
-NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>We do not have the memories of the Dolls that previously followed Captain Reynard, according to the memory segments that they stored within the database...</color>
-+<color=#00CCFF>You are a completely different person from Captain Reynard.</color>
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>We do not have the memories of the Dolls that previously followed Captain Reynard, according to the memory segments that they stored within the database...</color>+<color=#00CCFF>You are a completely different person from Captain Reynard.</color>
 NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>Lae</Speaker>||:...
 NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>At the very least, Captain Reynard would not be one to show clemency to a deserter.</color>
 NPC-Soldier(0)<通讯框>;NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:You would proclaim me a fake based on that alone?
-NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>I would not dare to claim that for certain. I will gather a blood sample from this body and corroborate the data to ascertain this body's identity.</color>
-+<color=#00CCFF>If my assumptions are to be incorrect, I will willingly accept punishment.</color>
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>I would not dare to claim that for certain. I will gather a blood sample from this body and corroborate the data to ascertain this body's identity.</color>+<color=#00CCFF>If my assumptions are to be incorrect, I will willingly accept punishment.</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:The Doll cut the line. Military Dolls in and of themselves do not possess the right to reject a superintendent's orders.+For it to reject my orders could only mean that its actual commandant was not me.+And at this moment, its real controller's decision is that investigating this corpse and capturing the enemy position was equal in priority.
 NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:<color=#A9A9A9>Is this where it ends?</color>
 NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>Captain, what should we do?</color>
@@ -205,8 +201,7 @@ NPC-Lae(0)<Speaker>Lae</Speaker>||:Ok.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>168</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator><关闭蒙版>:At the same time, Falzheim, Alma-Jacqueline Street.
 ()||:MP41 nefariously tails a woman down an alleyway, the delirious joy on her face flourishing as she cross-checks the monitoring footage stored within her neural cloud.
-MP41(0)<Speaker>MP41</Speaker>||:<color=#A9A9A9>The woman who sent that postcard to Miss Kar, so easily within my reach...</color>
-+<color=#A9A9A9>You must have a ton of stories about Miss Kar's past, right? If I could dig some of that stuff up...</color>
+MP41(0)<Speaker>MP41</Speaker>||:<color=#A9A9A9>The woman who sent that postcard to Miss Kar, so easily within my reach...</color>+<color=#A9A9A9>You must have a ton of stories about Miss Kar's past, right? If I could dig some of that stuff up...</color>
 ()||:MP41's lips subconsciously curl with glee, a deep cackle emitting from her throat.
 MP41(0)<Speaker>MP41</Speaker>||:<color=#A9A9A9>No matter who you are, you're terribly unfortunate to have run into me, MP41, today!</color>+<color=#A9A9A9>I'm going to take you to the Commander and Miss Kar myself. Commander, please keep Miss Kar right here she is!</color>
 ()||:Saying a silent prayer, MP41 continues her pursuit, but—
