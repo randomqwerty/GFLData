@@ -1,206 +1,206 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>1</BIN><Night><narrator><回忆><BGM>GF_EV9_Intermission</BGM>:A year ago, Massegis Pass, en route to enemy command center.
 ()||:After picking up Lae, I placed her in the middle of the cohort, allowing the T-Dolls on either side to scrutinize her every move. +I could feel her gaze concentrated on me, far more often than not.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Report.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Report.
 ()||:Her footsteps suddenly stop.
-NPC-Lae(2)<Speaker>莱伊</Speaker>||:At least tell me what our next assignment is.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>The deserter dares to make demands?</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:We're all part of the same squad now; there's no need for the hostility.
+NPC-Lae(2)<Speaker>Lae</Speaker>||:At least tell me what our next assignment is.
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker>||:<color=#20B2AA>The deserter dares to make demands?</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:We're all part of the same squad now; there's no need for the hostility.
 ()||:I halt the T-Doll about to raise the stock of their gun once more, turning towards Lae.
-()<Speaker>我</Speaker>||:I'll reiterate the operation plan. +The enemy's firepower covering the main junction into their positions has been engaged by the Doll squads. Our mission is to use this opportunity to move through the forest East of their command center and take out the enemy command.
-NPC-Lae(2)<Speaker>莱伊</Speaker>||:Just us? There's no lack of previous attempts through that—
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:I know. +But with our current available manpower, we aren't capable of taking the enemy forces head-on. Infiltration is the plan with the greatest chance of success.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+()<Speaker>Kar98k</Speaker>||:I'll reiterate the operation plan. +The enemy's firepower covering the main junction into their positions has been engaged by the Doll squads. Our mission is to use this opportunity to move through the forest East of their command center and take out the enemy command.
+NPC-Lae(2)<Speaker>Lae</Speaker>||:Just us? There's no lack of previous attempts through that—
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:I know. +But with our current available manpower, we aren't capable of taking the enemy forces head-on. Infiltration is the plan with the greatest chance of success.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
 ()||:A shadowy veil came over Lae's eyes. I understood her concerns—under the command of Captain Reynard, those who came before us had almost all found their end in that dense forest. +And our group, by all accounts a flimsy one, would now follow in their steps.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:My squadmates were all sacrificed in the process of infiltration.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:My condolences.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<BGM>BGM_Empty</BGM>:We will be the same.
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>You...!</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:Ruin will find us all one day. But that is not now, and not today.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<SE1>GF_Halloween_Wind_loop</SE1>:...
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:Let's go.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:My squadmates were all sacrificed in the process of infiltration.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:My condolences.
+NPC-Lae(0)<Speaker>Lae</Speaker>||<BGM>BGM_Empty</BGM>:We will be the same.
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>You...!</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:Ruin will find us all one day. But that is not now, and not today.
+NPC-Lae(0)<Speaker>Lae</Speaker>||<SE1>GF_Halloween_Wind_loop</SE1>:...
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:Let's go.
 ()||:Pulling myself away from Lae's murky eyes, I turn around and continue. +We were to traverse that densely forested hillside as it sways in the wind, walking the path that our compatriots once did, towards that extremity in our heart of hearts. +Looking on from afar, the forest is not unlike a great heaping of pitch-black haze, suffocating in its intensity, radiating a deathly aura.
 ()||<黑点1><SE1>Stop_AVG_loop</SE1>:
 ()||<黑点2><BIN>1</BIN><Night><BGM>BGM_Sneak</BGM>:Mere moments after entering the forested area, I truly realised how fine a choice Lae is for an infiltration mission such as this. She silently conceals herself within the shadows, and by the time you caught on, her presence is long gone. +If you were to be the party being infiltrated, then she would be a most troublesome opponent.
-NPC-Soldier(0)<Speaker>军用人形5</Speaker>||<SE1>AVG_Punch</SE1>:<color=#808000>Come on, give me a hand!</color>
-NPC-Soldier(0)<Speaker>军用人形3</Speaker>||<SE1>Rope</SE1>:<color=#ffcc00>I've got her!</color>
+NPC-Soldier(0)<Speaker>Sentry Droid5</Speaker>||<SE1>AVG_Punch</SE1>:<color=#808000>Come on, give me a hand!</color>
+NPC-Soldier(0)<Speaker>Sentry Droid3</Speaker>||<SE1>Rope</SE1>:<color=#ffcc00>I've got her!</color>
 ()||:Even after seeing it twice, observing her escape from under strict supervision a third time is no less impressive. +Still struggling with all her might, two military Dolls hold her down as the remainder secure possible exits nearby. One more stands beside me, looking down at Lae with a piercing coldness.
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Captain, no matter how good she is, a deserter is still a deserter. I say put her in the ground.</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:...
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>Captain, no matter how good she is, a deserter is still a deserter. I say put her in the ground.</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:...
 ()||:I did not answer immediately, instead reaching for my coat's pockets, finding that the watch inside was indeed gone. +When had she done the deed? When she handed me that can, or when she grabbed that gun? +Kneeling down beside her again, I remove the watch from her person. Even as her face was being pressed into the dirt, I could feel the indignities thrown my way.
-()<Speaker>我</Speaker>||:Tie her up, and take some time to reorganize. +You two scout ahead, and you over there be on the lookout.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>Are you sure? To be alone with a deserter...</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:Must I repeat my orders?
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>...Understood.</color>
-NPC-Soldier(0)<Speaker>军用人形3</Speaker>||:<color=#ffcc00>Captain, please keep a safe distance from her. Safety first.</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:I know.
+()<Speaker>Kar98k</Speaker>||:Tie her up, and take some time to reorganize. +You two scout ahead, and you over there be on the lookout.
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker>||:<color=#20B2AA>Are you sure? To be alone with a deserter...</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:Must I repeat my orders?
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker>||:<color=#20B2AA>...Understood.</color>
+NPC-Soldier(0)<Speaker>Sentry Droid3</Speaker>||:<color=#ffcc00>Captain, please keep a safe distance from her. Safety first.</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:I know.
 ()||<BGM>BGM_Empty</BGM><SE1>AVG_wind_grass</SE1>:After fastening the dirtied Lae to a tree, the figures of the Dolls disappear amongst the trees, leaving only me and her. +Lae raises her head, condemnation in her eyes.
-NPC-Lae(2)<Speaker>莱伊</Speaker>||:Why not kill me?
-NPC-Lae(2)<Speaker>我</Speaker><同时置暗>||:You have use to me alive.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:You think I'll sit here and listen to you?
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:I thought your goal was to flee with this watch, not to seek your demise.
+NPC-Lae(2)<Speaker>Lae</Speaker>||:Why not kill me?
+NPC-Lae(2)<Speaker>Kar98k</Speaker><同时置暗>||:You have use to me alive.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:You think I'll sit here and listen to you?
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:I thought your goal was to flee with this watch, not to seek your demise.
 ()||<BGM>10258</BGM><SE1>ClothingUp</SE1>:I take out the watch she so prized, running my fingers slowly over its scratched surface and shattered dial. It bears an inscribed name—+ANNETT.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:This watch's owner was named Annett?
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...Yes.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:Someone important to you?
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Yes, my comrade-in-arms. +She died in that forest, in that operation led by Captain Reynard. +Her body drifted away on the Nagornsz, and this watch is all that's left.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:So even that operation had survivors.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:I'm all that's left. Not a single soul on the way I took to flee.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:This watch's owner was named Annett?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...Yes.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:Someone important to you?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Yes, my comrade-in-arms. +She died in that forest, in that operation led by Captain Reynard. +Her body drifted away on the Nagornsz, and this watch is all that's left.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:So even that operation had survivors.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:I'm all that's left. Not a single soul on the way I took to flee.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:...
 ()||:I lower my head again, mulling over the name "ANNETT". +Of the traces that Annett, unknown to myself, left behind in this mortal coil, only this little watch remains.
-()<Speaker>我</Speaker>||:What kind of person was Annett?
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:The dead are gone. There's nothing to say.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:To speak of days past is a way to honor the dead.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+()<Speaker>Kar98k</Speaker>||:What kind of person was Annett?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:The dead are gone. There's nothing to say.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:To speak of days past is a way to honor the dead.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
 ()||:After a lengthy silence, Lae spoke.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:She was just a normal girl. Simple, naive. A few mottos from the teachers in the town, and she was off to the battlefield as a medic with a passion.+She insisted on following my squad around, and refused to stay where it was safe.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:Voluntary, huh? Brave...
-NPC-Lae(3)<Speaker>莱伊</Speaker>||:No, she was always a wimp. +When we were little, she'd be the one to be scared witless when she watched us catch cicadas, and she'd spend the better part of an hour standing around at the entrance to a haunted house.+Don't even mention when we'd fight the other kids. Wasn't good for anything and would only come and call the adults over while crying. +Not only would we lose the fight and the dignity that comes with it, we'd get beat when we went home.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:She was just a normal girl. Simple, naive. A few mottos from the teachers in the town, and she was off to the battlefield as a medic with a passion.+She insisted on following my squad around, and refused to stay where it was safe.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:Voluntary, huh? Brave...
+NPC-Lae(3)<Speaker>Lae</Speaker>||:No, she was always a wimp. +When we were little, she'd be the one to be scared witless when she watched us catch cicadas, and she'd spend the better part of an hour standing around at the entrance to a haunted house.+Don't even mention when we'd fight the other kids. Wasn't good for anything and would only come and call the adults over while crying. +Not only would we lose the fight and the dignity that comes with it, we'd get beat when we went home.
 ()||:As if recalling a joyful memory, a smile made its way onto Lae's face for the first time.
-NPC-Lae(3)<Speaker>莱伊</Speaker>||:She was so obviously the biggest crybaby out of everyone but she ended up following us onto the battlefield
-NPC-Lae(3)<Speaker>我</Speaker><同时置暗>||:You... Except for Annett, is anyone else from your hometown here?
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Yeah, Charlotte, Greta, Miriam, Dorn, Victor...+Though they were gone long before we made it to Massegis.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:...
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Greta and Miriam were blown to bits, and I couldn't find their watches. +Charlotte and the rest I've managed to send home... no, that's a strange place to me now, too...
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:Annett... did she know?
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:She did. When it was just us two left, we took some time off together and went back to Falzheim. She wanted to bury her watch where we played when we were little, but there... we looked, and we looked...+Couldn't find a single familiar place. The big tree with all the cicadas, the abandoned haunted house, the little square we'd fight on.... all gone.
+NPC-Lae(3)<Speaker>Lae</Speaker>||:She was so obviously the biggest crybaby out of everyone but she ended up following us onto the battlefield
+NPC-Lae(3)<Speaker>Kar98k</Speaker><同时置暗>||:You... Except for Annett, is anyone else from your hometown here?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Yeah, Charlotte, Greta, Miriam, Dorn, Victor...+Though they were gone long before we made it to Massegis.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Greta and Miriam were blown to bits, and I couldn't find their watches. +Charlotte and the rest I've managed to send home... no, that's a strange place to me now, too...
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:Annett... did she know?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:She did. When it was just us two left, we took some time off together and went back to Falzheim. She wanted to bury her watch where we played when we were little, but there... we looked, and we looked...+Couldn't find a single familiar place. The big tree with all the cicadas, the abandoned haunted house, the little square we'd fight on.... all gone.
 ()||:As a Doll that frequently changed locations on assignments, I could not evaluate back then how exactly it felt to have one's home destroyed. +From the coalescing darkness in Lae's eyes, though, I could tell that this was a wound of man would never heal.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:We could only bury it in front of the ruins of our school. +That night, she cried til the sun came up, and not once did she cry after that. +It was like that night, the past Annett died.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:We could only bury it in front of the ruins of our school. +That night, she cried til the sun came up, and not once did she cry after that. +It was like that night, the past Annett died.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:...
 ()||<BGM>BGM_Empty</BGM><SE1>Rope</SE1>:In my hand, the watch suddenly felt like it had real weight and warmth. No longer a mere object, but a memory, an entrustment, a link to a long bygone home. +Lae laughs, bitterness and derision in her tone. She casts her sight towards the trees ahead of her, complex emotions shining through in her eyes.
-NPC-Lae(1)<Speaker>莱伊</Speaker>||:See, Annett's just over there, waving at us. +She's still that simple dolt, not a single care in the world for who she's dealing with, just smiling like an idiot.
+NPC-Lae(1)<Speaker>Lae</Speaker>||:See, Annett's just over there, waving at us. +She's still that simple dolt, not a single care in the world for who she's dealing with, just smiling like an idiot.
 ()||<SE1>GF_Halloween_Wind_loop</SE1>:I follow the direction she is looking. No human figure can be seen, only the seemingly endless verdure and shifting silhouettes of Dolls.
-()<Speaker>我</Speaker><同时置暗>||:I didn't see—
+()<Speaker>Kar98k</Speaker><同时置暗>||:I didn't see—
 ()||<SE1>Stop_AVG_loop</SE1>:Swish—at some point, she freed herself of her bindings, lunging for the lower half of my body. +I had missed the chance to evade or respond, and in but a moment, she had her arms around my waist.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Don't worry. I won't kill you. You're not like that woman...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Don't worry. I won't kill you. You're not like that woman...
 ()||<SE1>RunStep</SE1>:She accelerated towards a tree trunk, shoving me towards it by the waist, seemingly attempting to knock me out.
 ()||<SE1>AVG_Punch</SE1>:Thump—and as she wished, I slammed squarely into the tree.
 ()||<BGM>10220</BGM>:Against a normal human, this would perhaps be effective, but unfortunately...
-()<Speaker>我</Speaker><同时置暗>||:...
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Hm?
+()<Speaker>Kar98k</Speaker><同时置暗>||:...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Hm?
 ()||:Lae alertly remains in position, restricting my waist, but this also took from her the ability to defend herself with her arms.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:You...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:You...
 ()||<SE1>Rope</SE1>:I create some distance. To stop her from resisting further and drawing the Dolls' attention, I have to—
 ()||<SE1>AVG_Punch</SE1>:Thud—reservedly thrusting my knee into her chin, I deliver a restrained punch to her abdomen.
 ()||:She crumples to the ground immediately. +Messed up the moderate force part again.
-()<Speaker>我</Speaker><同时置暗>||:Sorry, but this is so you don't do anything else dangerous.
+()<Speaker>Kar98k</Speaker><同时置暗>||:Sorry, but this is so you don't do anything else dangerous.
 ()||:As if nothing had happened, I nonchalantly stoop down beside her again, continuing our conversation.
-()<Speaker>我</Speaker><同时置暗>||:As we were saying, is sending the watch back home some sort of custom?+I've heard that some of the towns near Massegis are renowned for their craftsmen's fine timepieces, but not if that's related.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...+It's a custom of Falzheim. We're the home of watches and the sort, and everyone carries one with them. +If one's body cannot return home, then the watch will take its place, to be buried in the place they belong.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:What a saddening tradition, but to at least leave something behind in the world...
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:I'll hold onto Annett's watch well. When this ends, you can take Annett's watch back with you.
+()<Speaker>Kar98k</Speaker><同时置暗>||:As we were saying, is sending the watch back home some sort of custom?+I've heard that some of the towns near Massegis are renowned for their craftsmen's fine timepieces, but not if that's related.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...+It's a custom of Falzheim. We're the home of watches and the sort, and everyone carries one with them. +If one's body cannot return home, then the watch will take its place, to be buried in the place they belong.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:What a saddening tradition, but to at least leave something behind in the world...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:I'll hold onto Annett's watch well. When this ends, you can take Annett's watch back with you.
 ()||<SE1>RunStep</SE1>:The frantic sound of footsteps arose, and a few military Dolls that were nearby soon appeared.
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Captain! What happened?</color>
-NPC-Soldier(0)<Speaker>军用人形5</Speaker>||:<color=#808000>We heard strange sounds and immediately came.</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:Nothing, I just heard a sound in the trees and ordered Lae to climb up. 
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Yeah...
-NPC-Soldier(0)<Speaker>军用人形5</Speaker>||:<color=#808000>S-so long as everything is alright.</color>
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>Captain! What happened?</color>
+NPC-Soldier(0)<Speaker>Sentry Droid5</Speaker>||:<color=#808000>We heard strange sounds and immediately came.</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:Nothing, I just heard a sound in the trees and ordered Lae to climb up. 
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Yeah...
+NPC-Soldier(0)<Speaker>Sentry Droid5</Speaker>||:<color=#808000>S-so long as everything is alright.</color>
 ()||:I pull Lae up from the ground. Her legs continue to shake as she walks. She will not be able to make another attempt, at least not anytime soon.+Through the gaps between tree to tree I looked onwards as we approached our first checkpoint.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>262</BIN><Night>:We came upon the nameless branch of the Nagornsz Lae spoke of earlier. Due to the mountainous topography, the volume of water floating within was not great, but it was flowing with notable speed. +We followed the direction of the stream, looking downwards from the mountainside. +A few dozen soldiers are trapped in a calm inlet, bobbing and drifting along with the streams, as if they were trifling about in a time of respite. +As Lae looked past, I looked, and her eyes only grew darker.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
 ()||:I turn around to face Lae and the Dolls.
-()<Speaker>我</Speaker>||:Next, we will infiltrate the enemy position through this waterway, moving directly towards enemy command.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>Waterway? But judging from the map, this stream goes directly through the center of enemy territory. Is the risk of failure not far too great?</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:The risk exists, but compared to the original route through the forested area, it is both safer and more hidden.+We do not need to areas where enemies are waiting in ambush, instead moving directly into their center.
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>I agree with the notion that the enemy's forces are concentrated in the forest, but we have no cover in the stream. If we are discovered, not only will it be difficult to evade, but it will also be nigh impossible to fire back.</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||:So, we will use the bodies of the deceased as cover. The sight of bodies floating downstream will be doubtlessly a common sight for them.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Using the bodies as cover...
+()<Speaker>Kar98k</Speaker>||:Next, we will infiltrate the enemy position through this waterway, moving directly towards enemy command.
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker>||:<color=#20B2AA>Waterway? But judging from the map, this stream goes directly through the center of enemy territory. Is the risk of failure not far too great?</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:The risk exists, but compared to the original route through the forested area, it is both safer and more hidden.+We do not need to areas where enemies are waiting in ambush, instead moving directly into their center.
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>I agree with the notion that the enemy's forces are concentrated in the forest, but we have no cover in the stream. If we are discovered, not only will it be difficult to evade, but it will also be nigh impossible to fire back.</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||:So, we will use the bodies of the deceased as cover. The sight of bodies floating downstream will be doubtlessly a common sight for them.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Using the bodies as cover...
 ()||:I catch a few hints of surprise in the depths of Lae's eyes, but they are soon swallowed by that ever-present shade.
-()<Speaker>我</Speaker><同时置暗>||:Make sure to be discreet from now onwards and to treat our comrades' bodies with respect. +They may have passed, but their souls remain with us.
-NPC-Soldier(0)<Speaker>军用人形众</Speaker>||:Yes!
+()<Speaker>Kar98k</Speaker><同时置暗>||:Make sure to be discreet from now onwards and to treat our comrades' bodies with respect. +They may have passed, but their souls remain with us.
+NPC-Soldier(0)<Speaker>Sentry Droids</Speaker>||:Yes!
 ()||<黑点1>:
 ()||<黑点2><BIN>262</BIN><Night>:After a brief wait, we completed our preparations for moving through the waterway.
 ()||<BGM>BGM_Empty</BGM>:Save for a military T-Doll who had gone missing.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:I'm not the only one playing hide and seek, it seems.
-NPC-Lae(0)<Speaker>我</Speaker><同时置暗>||:...+Where'd it go?
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>I don't know...</color>
-NPC-Soldier(0)<Speaker>我</Speaker><同时置暗>||<BGM>GF_21summer_intro_DemonVariation</BGM>:Don't know, or can't say?
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>I'll help you establish a connection...</color>
+NPC-Lae(0)<Speaker>Lae</Speaker>||:I'm not the only one playing hide and seek, it seems.
+NPC-Lae(0)<Speaker>Kar98k</Speaker><同时置暗>||:...+Where'd it go?
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>I don't know...</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><同时置暗>||<BGM>GF_21summer_intro_DemonVariation</BGM>:Don't know, or can't say?
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>I'll help you establish a connection...</color>
 ()||:The Doll before me hastily connects me with the missing Doll.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Go ahead.</color>
-NPC-Soldier(0)<Speaker>我</Speaker><通讯框><同时置暗>||:Immediately return to your position.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||:<color=#00CCFF>Apologies, Captain, I have a mission of greater priority to carry out.</color>
-NPC-Soldier(0)<Speaker>我</Speaker><通讯框><同时置暗>||:I struggle to think of another matter more important than capturing the enemy position at this point in time.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||:<color=#00CCFF>Just then, I discovered a hastily hidden female corpse by the river bank.</color>
-NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>莱伊</Speaker>||:Is that something noteworthy?
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>This person died under suspicious circumstances.</color>+<color=#00CCFF>Except for on the head, there are almost no fresh wounds anywhere else on the body. From the site of trauma on the head, it was caused by a pistol at close range. It could be said that the first shot was a lethal blow, but the killer continued to fire multiple rounds.
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Go ahead.</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><通讯框><同时置暗>||:Immediately return to your position.
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>Apologies, Captain, I have a mission of greater priority to carry out.</color>
+NPC-Soldier(0)<Speaker>Kar98k</Speaker><通讯框><同时置暗>||:I struggle to think of another matter more important than capturing the enemy position at this point in time.
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>Just then, I discovered a hastily hidden female corpse by the river bank.</color>
+NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>Lae</Speaker>||:Is that something noteworthy?
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>This person died under suspicious circumstances.</color>+<color=#00CCFF>Except for on the head, there are almost no fresh wounds anywhere else on the body. From the site of trauma on the head, it was caused by a pistol at close range. It could be said that the first shot was a lethal blow, but the killer continued to fire multiple rounds.
 </color>+<color=#00CCFF>Everything identifying the body has also been stripped. ID, uniform, and facial features...</color>
-NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>Additionally, this female individual had short brown hair, was approximately 173 cm tall, and had aged surgery scars on their left calf...
+NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>Lae</Speaker>||:...
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>;NPC-Lae(0)||:<color=#00CCFF>Additionally, this female individual had short brown hair, was approximately 173 cm tall, and had aged surgery scars on their left calf...
 </color>+<color=#00CCFF>These still identifiable traits match one individual particularly well, being—</color>
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||:<color=#00CCFF>You, Captain Reynard.</color>
-NPC-Lae(4)<Speaker>莱伊</Speaker>||<震屏>:?!
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>You, Captain Reynard.</color>
+NPC-Lae(4)<Speaker>Lae</Speaker>||<震屏>:?!
 ()||:Lae's attempts to keep her surprised voice down fail, and waves undulate in those eyes she looks at me with. +I can largely guess what caused this shock, but there is no explanation I can give.
-NPC-Reynard(0)<Speaker>我</Speaker>||:So you think that body is the real Captain Reynard and that I am just a pretender?
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||:<color=#00CCFF>We do not have the memories of the Dolls that previously followed Captain Reynard, according to the memory segments that they stored within the database...</color>
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:So you think that body is the real Captain Reynard and that I am just a pretender?
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>We do not have the memories of the Dolls that previously followed Captain Reynard, according to the memory segments that they stored within the database...</color>
 +<color=#00CCFF>You are a completely different person from Captain Reynard.</color>
-NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||:<color=#00CCFF>At the very least, Captain Reynard would not be one to show clemency to a deserter.</color>
-NPC-Soldier(0)<通讯框>;NPC-Reynard(0)<Speaker>我</Speaker>||:You would proclaim me a fake based on that alone?
-NPC-Soldier(0)<Speaker>军用人形1</Speaker><通讯框>||:<color=#00CCFF>I would not dare to claim that for certain. I will gather a blood sample from this body and corroborate the data to ascertain this body's identity.</color>
+NPC-Soldier(0)<通讯框>;NPC-Lae(0)<Speaker>Lae</Speaker>||:...
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>At the very least, Captain Reynard would not be one to show clemency to a deserter.</color>
+NPC-Soldier(0)<通讯框>;NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:You would proclaim me a fake based on that alone?
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker><通讯框>||:<color=#00CCFF>I would not dare to claim that for certain. I will gather a blood sample from this body and corroborate the data to ascertain this body's identity.</color>
 +<color=#00CCFF>If my assumptions are to be incorrect, I will willingly accept punishment.</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:The Doll cut the line. Military Dolls in and of themselves do not possess the right to reject a superintendent's orders.+For it to reject my orders could only mean that its actual commandant was not me.+And at this moment, its real controller's decision is that investigating this corpse and capturing the enemy position was equal in priority.
-NPC-Reynard(0)<Speaker>我</Speaker>||:<color=#A9A9A9>Is this where it ends?</color>
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Captain, what should we do?</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:<color=#A9A9A9>One Doll leaving the squad is not sufficient to jeopardize the mission.</color>+<color=#A9A9A9>Allow it to investigate. I am only concerned with victory.</color>+Continue with the mission.
-NPC-Soldier(0)<Speaker>军用人形众</Speaker>||:Yes!
-NPC-Lae(0)<Speaker>莱伊</Speaker>||<黑点1>:...
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:<color=#A9A9A9>Is this where it ends?</color>
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>Captain, what should we do?</color>
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:<color=#A9A9A9>One Doll leaving the squad is not sufficient to jeopardize the mission.</color>+<color=#A9A9A9>Allow it to investigate. I am only concerned with victory.</color>+Continue with the mission.
+NPC-Soldier(0)<Speaker>Sentry Droids</Speaker>||:Yes!
+NPC-Lae(0)<Speaker>Lae</Speaker>||<黑点1>:...
 ()||<BGM>BGM_Empty</BGM><SE1>AVG_splash_water</SE1><黑点2>:In accordance with the original plan, we stepped into the stream.
 ()||<BGM>GF_21summer_avg_Demon</BGM>:Lae takes her place next to me, silent ever since she came into knowledge of my identity.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:You know who that corpse is?
-NPC-Reynard(0)<Speaker>我</Speaker>||:Yes, more or less.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Then why did you...
+NPC-Lae(0)<Speaker>Lae</Speaker>||:You know who that corpse is?
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:Yes, more or less.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Then why did you...
 ()||:Lae looks tentatively towards the Dolls, whispering into my ear.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Aren't you gonna do anything about that piece of junk? Its master obviously isn't you...
-NPC-Reynard(0)<Speaker>我</Speaker>||:Let it go. It won't stop me from claiming victory in this campaign.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Just who are you?
-NPC-Reynard(0)<Speaker>我</Speaker>||:I have no name.
-NPC-Lae(3)<Speaker>莱伊</Speaker>||:Nameless lady, eh? Hah, how droll. +That Captain Reynard, with all of her status, has turned into a nameless corpse, and the nameless one has become Captain Reynard...
-NPC-Reynard(0)<Speaker>我</Speaker>||:No matter who I am, the agreement between us is still in effect.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
-NPC-Reynard(0)<Speaker>我</Speaker>||:And you, why are you so certain that's Captain Reynard? Why help me?
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Yeah, I wonder why...
-NPC-Reynard(0)<Speaker>我</Speaker>||:Lae?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Aren't you gonna do anything about that piece of junk? Its master obviously isn't you...
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:Let it go. It won't stop me from claiming victory in this campaign.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Just who are you?
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:I have no name.
+NPC-Lae(3)<Speaker>Lae</Speaker>||:Nameless lady, eh? Hah, how droll. +That Captain Reynard, with all of her status, has turned into a nameless corpse, and the nameless one has become Captain Reynard...
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:No matter who I am, the agreement between us is still in effect.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:And you, why are you so certain that's Captain Reynard? Why help me?
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Yeah, I wonder why...
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:Lae?
 ()||:While I contemplate my next step, Lae disappears from my side once more.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>1</BIN><Night>:I gather the remaining military Dolls to search. After a brief moment—
 ()||<SE2>Gunfight</SE2>:Bang—bangbangbang—+From the forest came a series of shots.
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>Captain, its signal is right there!</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:Stay alert.
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>Captain, its signal is right there!</color>
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:Stay alert.
 ()<Speaker>？？？</Speaker>||<震屏>:<color=#20B2AA>Gah—you, you dare!?</color>
 ()||:The Doll's indignant cries interrupted me. We follow the source of the screeching, finding its owner knocked to the ground next to a pale body, its weapon in Lae's hands. +The corpse only bore the most intimate of garments, but most alarmingly, the entirety of her face had been destroyed, seemingly caused by the close-range pistol shots a few days ago.
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>This guy came out of nowhere, broke my sampling tools, and now wants to finish me off!</color>+<color=#20B2AA>She's clearly got a nagging conscience and thinks that my investigation's going to do her in!</color>
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
-NPC-Soldier(0)<Speaker>军用人形3</Speaker>||<BGM>BGM_Empty</BGM>:<color=#ffcc00>Captain, what should we do?</color>
-NPC-Soldier(0)<Speaker>军用人形1</Speaker>||:<color=#20B2AA>Kill—</color>
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker>||:<color=#20B2AA>This guy came out of nowhere, broke my sampling tools, and now wants to finish me off!</color>+<color=#20B2AA>She's clearly got a nagging conscience and thinks that my investigation's going to do her in!</color>
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
+NPC-Soldier(0)<Speaker>Sentry Droid3</Speaker>||<BGM>BGM_Empty</BGM>:<color=#ffcc00>Captain, what should we do?</color>
+NPC-Soldier(0)<Speaker>Sentry Droid1</Speaker>||:<color=#20B2AA>Kill—</color>
 ()||<SE1>AVG_rifle_finalshot_n</SE1>:Bang—+Before I speak an answer, Lae pulls the trigger, silencing the Doll next to the corpse for good.
 ()||<BGM>GF_22W_BGM_1</BGM>:She looks right at me, a shrewd smile on her face. +I understood well what she meant. With what just played out in front of me, it would be a perfectly logical and unquestionable decision on my part to summarily execute her.+Not only would it repair my standing amongst the military Dolls, but it would also remove the last person who knew of the secret.
-NPC-Reynard(0)<Speaker>我</Speaker>||:...
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||<SE1>Select</SE1>:<color=#99cc33>You!</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:Enough. Let's have no more unnecessary sacrifices.
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:...
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||<SE1>Select</SE1>:<color=#99cc33>You!</color>
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:Enough. Let's have no more unnecessary sacrifices.
 ()||:I stop the Doll about to fire.
-NPC-Reynard(0)<Speaker>我</Speaker>||:No.1 is offline. Who will take its place in communicating with command?
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>I will.</color>
-NPC-Reynard(0)<Speaker>我</Speaker>||:Listen up, tell this to command. +In the name of Reynard Renfield, this operation shall be finished, but if command insists on wasting their time on these little farces behind my back...+Do not be surprised when this name is found amongst that mountain of rotting corpses.
-NPC-Soldier(0)<Speaker>军用人形2</Speaker>||:<color=#99cc33>...Yes!</color>
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:...
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:No.1 is offline. Who will take its place in communicating with command?
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>I will.</color>
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:Listen up, tell this to command. +In the name of Reynard Renfield, this operation shall be finished, but if command insists on wasting their time on these little farces behind my back...+Do not be surprised when this name is found amongst that mountain of rotting corpses.
+NPC-Soldier(0)<Speaker>Sentry Droid2</Speaker>||:<color=#99cc33>...Yes!</color>
+NPC-Lae(0)<Speaker>Lae</Speaker>||:...
 ()||:Lae put down the gun, disappointment on her countenance. I contemplate my reflection in her eyes, wiping away the grime on my helmet.
-NPC-Reynard(0)<Speaker>我</Speaker>||:That gun's yours now.
-NPC-Lae(0)<Speaker>莱伊</Speaker>||:Ok.
+NPC-Reynard(0)<Speaker>Kar98k</Speaker>||:That gun's yours now.
+NPC-Lae(0)<Speaker>Lae</Speaker>||:Ok.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>313</BIN><narrator><关闭蒙版><Night>:Today, the town of Falzheim, town bar.
-()<Speaker>指挥官</Speaker>||:Pfft—+Hold on!
+()<Speaker>Commander</Speaker>||:Pfft—+Hold on!
 ()||<BGM>GF_EV9_Intermission</BGM>:The Commander, in all their surprise, spat out their drink. Thankfully I was prepared and moved out of the way.
-()<Speaker>指挥官</Speaker>||:You... you were in contact with Lae under the identity of that Captain?
-98k(3)<Speaker>我</Speaker>||:Yes.
-98k(3)<Speaker>指挥官</Speaker><同时置暗>||:When did you become Captain Reynard?+Did you...
-98k(3)<Speaker>我</Speaker>||:Don't worry. I never harmed Captain Reynard, only borrowed her uniform.
-98k(3)<Speaker>指挥官</Speaker><同时置暗>||:I'm a bit fuzzy. Why did you... when did it... +Hang on, why weren't you surprised at all to see the Captain's body?
-98k(3)<Speaker>我</Speaker>||:Be patient, Commander. Everything will be explained in time. +After all, there are many ways to tell a story. From a different character's perspective or even from a different point in time, things might seem a bit different. +But at least, for now, please wait for me to finish.
-98k(3)<Speaker>指挥官</Speaker><同时置暗>||:...Alright.
+()<Speaker>Commander</Speaker>||:You... you were in contact with Lae under the identity of that Captain?
+98k(3)<Speaker>Kar98k</Speaker>||:Yes.
+98k(3)<Speaker>Commander</Speaker><同时置暗>||:When did you become Captain Reynard?+Did you...
+98k(3)<Speaker>Kar98k</Speaker>||:Don't worry. I never harmed Captain Reynard, only borrowed her uniform.
+98k(3)<Speaker>Commander</Speaker><同时置暗>||:I'm a bit fuzzy. Why did you... when did it... +Hang on, why weren't you surprised at all to see the Captain's body?
+98k(3)<Speaker>Kar98k</Speaker>||:Be patient, Commander. Everything will be explained in time. +After all, there are many ways to tell a story. From a different character's perspective or even from a different point in time, things might seem a bit different. +But at least, for now, please wait for me to finish.
+98k(3)<Speaker>Commander</Speaker><同时置暗>||:...Alright.
 ()||<SE1>AVG_Rain2</SE1>:The cacophony of thunder rang out outside the bar, closely followed by the pitter-patter of rain. +It is to be another rainy day, one equally as fierce as the one back then. +I look out the window, that person's silhouette seemingly there behind the deluge's curtains.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>168</BIN><common_effect>%%code=CJ_rain%%</common_effect><narrator><关闭蒙版>:At the same time, Falzheim, Alma-Jacqueline Street.
