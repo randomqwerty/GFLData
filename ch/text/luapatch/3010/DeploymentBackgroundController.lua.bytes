@@ -91,6 +91,13 @@ local SwitchLayer = function(self,layer,handle,nextPlayPerformance)
 	CS.DeploymentBackgroundController.currentLayerData = CS.DeploymentBackgroundController.layerDatas[CS.DeploymentBackgroundController.currentlayer];
 	self:SwitchLayer(layer,handle,nextPlayPerformance);
 end
+local CheckMapCombination = function(self)
+	if CS.DeploymentBackgroundController.currentLayerData == nil then
+		local layer = CS.DeploymentBackgroundController.currentlayer;
+		CS.DeploymentBackgroundController.currentLayerData = CS.DeploymentBackgroundController.layerDatas[layer];
+	end
+	self:CheckMapCombination();
+end
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckSize',CheckSize)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateMap',CreateMap)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateSpots',CreateSpots)
@@ -98,5 +105,6 @@ util.hotfix_ex(CS.DeploymentBackgroundController,'ShowShade',ShowShade)
 util.hotfix_ex(CS.DeploymentBackgroundController,'SwitchLayer',SwitchLayer)
 util.hotfix_ex(CS.DeploymentBackgroundController.MapLayerData,'ShowEffect',ShowEffect)
 util.hotfix_ex(CS.DeploymentBackgroundController.MapLayerData,'CloseEffect',CloseEffect)
+util.hotfix_ex(CS.DeploymentBackgroundController,'CheckMapCombination',CheckMapCombination)
 
 

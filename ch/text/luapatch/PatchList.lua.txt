@@ -209,6 +209,7 @@ patch3020=
 "3020/FlightChessLobbyMapSettingCtrl",
 "3020/CharacterCondition",
 "3020/Live2DModelController",
+"3020/FriendShopGoodController",	
 }
 -- va11
 print("load Va11");
