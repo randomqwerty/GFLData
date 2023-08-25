@@ -17,6 +17,9 @@ local RefreshUI = function(self,refreshBuffNow)
 	if self.currentSpotAction.belong == CS.Belong.ingore or self.currentSpotAction.belong == CS.Belong.hide then
 		return;
 	end
+	if not self.currentSpotAction.listSpecialAction:Contains(self) then
+		self.currentSpotAction.listSpecialAction:Add(self);
+	end
 	if self.sourceType == CS.SourceType.building and self.sourceValue ~= 0 then
 		if self.Alive then
 			local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
