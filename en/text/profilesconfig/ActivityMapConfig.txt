@@ -47,7 +47,9 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //SCAR角色活动：
 //MissionSelectionTex|missionselect_2022Scar|2|-56
 //2022夏活配置：
-MissionSelectionTex|missionselect_2022Summer|1|-54
+//MissionSelectionTex|missionselect_2022Summer|1|-54
+//2022烟花祭配置：
+MissionSelectionTex|missionselect_Bikini_2022|1|-52
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -166,8 +168,8 @@ OPSLeftBGNormalActivity|-57|ZLSR_Left
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
-//OPSNoticeNormalActivity|-52|Bikini_2022_Notice
-OPSNoticeNormalActivity|-54|2022Summer_Notice
+OPSNoticeNormalActivity|-52|Bikini_2022_Notice
+//OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
 
@@ -225,7 +227,8 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 //OPSGoto|WhiteDay_2022_GotoMall|0|-50
 //OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|ZLSR_GotoMall|0|-57
-OPSGoto|2022Summer_GotoMall|0|-54
+//OPSGoto|2022Summer_GotoMall|0|-54
+OPSGoto|Bikini_2022_GotoMall|0|-52
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -441,8 +444,8 @@ OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
-//OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
-OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
+OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
+//OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
 //OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 
@@ -452,7 +455,7 @@ OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
-//OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
+OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07

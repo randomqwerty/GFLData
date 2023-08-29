@@ -1,123 +1,154 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:夜色笼罩下的海滩，投票环节终于落下帷幕。+WA2000依靠群狼之牌的优势，荣登MVP宝座。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>: 
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:On the seashore where the night sky has long settled, the voting session finally comes to an end. +Springfield, having received the most [Certificates of the Virtuous], is crowned MVP of the night.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<Night><黑屏2><BIN>137</BIN><BGM>m_wv_scenario</BGM>:颁奖台附近，人形们在台下焦急地等待着，议论纷纷。+明明典礼已经开始10分钟了，但本该来领奖的WA2000还是没有出现。
-NPC-KalinSwim(1)<Speaker>格琳娜</Speaker>||:指挥官，再这样等下去恐怕就要引起新一轮哗变了……
-()<Speaker></Speaker>||:格琳娜面色忧郁，焦急地凑近台上的指挥官，小声说道。
-()<Speaker>指挥官</Speaker>||:那怎么办？
-NPC-KalinSwim(1)<Speaker>格琳娜</Speaker>||:要不然您先代替WA2000小姐领走这块奖牌，等一下再亲手转交给她吧！
-()<Speaker>指挥官</Speaker>||:那……好吧。
-()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1><SE1>ClothingUp</SE1>:在聚光灯汇集的中心，指挥官尴尬地笑着，接过格琳娜特意为WA2000制作的纪念奖牌……+明明是“村民”MVP，但题头却因为票型的分布而印上了“狼人”的图案。
-()<Speaker>指挥官</Speaker>||:呼……该说庆幸吗？如果WA2000是当着大家的面亲自从我手里领走这块纪念牌，她一定会气得再也不理我了吧……+不过说起来，这孩子到底跑到哪儿去了呢……
-()||<黑屏1><SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><关闭蒙版><BIN>163</BIN><黑屏2>:同一时间，夜晚。+海面在月光和群星的照射下波光粼粼，WA2000和ZB-26舒舒服服地泡在海水中，一边欣赏美景，一边游弋。
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:说起来，我们不通知一声就出来夜游真的没关系吗？大家都在玩那个狼人游戏，我们看起来不太合群呢……
-WA2000(6)<Speaker>WA2000</Speaker>||:哼，只有幸存的家伙才会在乎最后的输赢吧？+反正我第一轮就出局了，怎么看指挥官都不会把票投给我这个倒霉鬼……还不如出来游游泳，好好享受一下呢。
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:……下午的游戏，你玩得不太开心？
-WA2000(6)<Speaker>WA2000</Speaker>||:夹在两个聒噪的狼人中间，我能玩得开心才怪呢……
+()<Speaker></Speaker>||<BGM>event_summer_Title</BGM><黑点2><BIN>515</BIN><SE1>ShuffleCards</SE1>:After efficiently tallying all the votes, Kalina sits down next to the Commander. +Perhaps due to finally being relieved from the burden of voting, the Commander appears exceptionally relaxed and cozy.
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||:Do you like this game, Commander?
+NPC-KalinSwim(0)<Speaker>Commander</Speaker><同时置暗>||:Huh? Oh, you mean "Lycan Sanctuary"? +While I still don't know much about it, it was fun seeing how engaged everyone was. +However, if I recall correctly, the game should have something along the lines of nine to twelve players, right? I've never seen a seventeen-player game before.
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||:Oh, so the Commander actually knows? Well, actually, there are three types of roles in "Lycan Sanctuary": the normal Villagers, the Clergy, and the Werewolves. This usually makes the number of players a multiple of three to keep the game fair—say, twelve, fifteen, or eighteen players like today.
+NPC-KalinSwim(0)<Speaker>Commander</Speaker><同时置暗>||:Wait, eighteen players? But I only remember counting seventeen? It was six Villagers, six Clergy, and five Werewolves...
+NPC-KalinSwim(1)<Speaker>Kalina</Speaker>||<BGM>BGM_Empty</BGM>:About that... Ahem. Actually, I've made a small mishap today.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>162</BIN><回忆><边框>2</边框>:In the afternoon, when the game of "Lycan Sanctuary" was in progress...
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||<BGM>BGM_22Swim_langrensha</BGM><SE1>DealCards</SE1><边框>2</边框>:Now that the role cards have been distributed. Everyone, please be seated. It's about to get dark!
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><边框>2</边框>:Beep—Kalina's tablet receives a call. 
+()<Speaker>???</Speaker>||<边框>2</边框>:<color=#00CCFF>Dear Miss Kalina, I have received a sudden sortie order from my superiors, hence I will be backing out of this game of "Lycan Sanctuary". </color> +<color=#00CCFF>My [King Lycan] role card has been left at the scene. Please remember to collect it. </color>
+()||<黑点1><边框>2</边框>:
+()<Speaker>Commander</Speaker>||<关闭蒙版><黑点2><BIN>515</BIN>:Huh? So you lost a player before the game started? Then why didn't you pause and start over?
+NPC-KalinSwim(1)<Speaker>Kalina</Speaker>||:Ahem... Well, it's complicated. It's mainly because not many Dolls wanted to play in the first place. +It took quite a lot of convincing and all of my mental fortitude to gather a full crew of eighteen players.
+NPC-KalinSwim(1)<Speaker>Commander</Speaker><同时置暗>||:Right. It's also quite hot today. +Working in this heat at full processing power comes with the risk of crashing.
+NPC-KalinSwim(1)<Speaker>Kalina</Speaker>||:Yep, and just missing one player isn't that big of a deal, so we can handle that. +If I ended up wasting everyone's time, however, I will probably need to mute my own neural cloud before it's drowned in all sorts of complains. Wait, I can't even do that, I'm not a T-Doll.
+NPC-KalinSwim(1)<Speaker>Commander</Speaker><同时置暗>||:That doesn't sound like a big issue.
+NPC-KalinSwim(1)<Speaker>Kalina</Speaker>||:I spent ages trying to find that [King Lycan] role card! Given the game was about to start, I couldn't risk everyone walking around and accidentally exposing their identity, so...
+NPC-KalinSwim(1)<Speaker>Commander</Speaker><同时置暗>||:Who was the player that quit? Why didn't you double-check with her?
+NPC-KalinSwim(1)<Speaker>Kalina</Speaker>||:Actually, I don't know who that player was either. She signed up for the game via an anonymous private message. While distributing the role cards, I simply didn't pay attention to the number of Dolls present... +Everything would've been fine if we used a normal card set, but it just so happens that for today, I borrowed Miss Springfield's Global Diamond VIP Griffin "Lycan Sanctuary" exclusive set! +As you can see... I have yet to find it, and it's probably lost. Looks like I have no choice but to give Miss Springfield a sincere apology.
+()<Speaker></Speaker>||:Kalina frowns anxiously and lets out a long-lingering sigh, echoing inside the cramped voting stall.
+()<Speaker>Commander</Speaker>||:Don't worry, Kalin. This isn't your fault. With how chaotic this afternoon was, maybe King Lycan is simply hidden in some unknown corner, waiting to be discovered. +There's still some time left before the ceremony, why don't you leave it to me? I'll find it for you.
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||:Hmm... Commander, thank you so much!
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:... +...
 ()||<黑屏1>:
-()<Speaker>格琳娜</Speaker>||<回忆><边框>2</边框><BGM>BGM_Empty</BGM><SE1>Stop_AVG_loop</SE1><黑屏2><BIN>9</BIN>:天黑请闭眼……狼人请睁眼，请互相确认身份。
-()<Speaker></Speaker>||<边框>2</边框><BGM>GF_20HW_Scene_BPM82_loop</BGM><SE1>AVG_Punch_Hit</SE1>:砰！坐在右边的家伙不耐烦地动了一下胳膊，结结实实地撞上了某个硬硬的包裹。
-()<Speaker>WA2000</Speaker>||<边框>2</边框><SE1>Rope</SE1>:<color=#A9A9A9>可恶！别碰我的枪械收纳袋！！！</color>
-()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:WA2000牢牢护住了自己的背包。
-()<Speaker>左边的声音</Speaker>||<边框>2</边框>:嘻嘻……
-()<Speaker></Speaker>||<边框>2</边框>:一阵狡黠的笑声从WA2000左边传来。
-()<Speaker>WA2000</Speaker>||<边框>2</边框>:<color=#A9A9A9>……傻笑什么啊？！能不能好好玩游戏啊！</color>
-()<Speaker>格琳娜的声音</Speaker>||<边框>2</边框>:狼人请杀人。
-()<Speaker>左边的声音</Speaker>||<边框>2</边框>:<size=25>你们为什么都用通讯讲话？嘴唇一动不动，太吓人啦！</size>
-()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:窸窸窣窣……窸窸窣窣……+衣料摩擦的声音、咳嗽的声音、打哈欠的声音、拖鞋摩挲沙滩的声音……+各种奇怪的动静从四周传来，令敏锐的WA2000厌恶地皱紧眉头。
-()<Speaker>右边的声音</Speaker>||<边框>2</边框>:先弄走一个会做甜食的家伙，让她去给我们搞点吃的。
-()<Speaker>左边的声音</Speaker>||<边框>2</边框>:哇！好主意！让我看看……
-()<Speaker>右边的声音</Speaker>||<边框>2</边框>:唔……那就G36吧！刀G36，让她去做甜食……
-()<Speaker>左边的声音</Speaker>||<边框>2</边框>:说起来，人家忽然想吃葡萄味的冰淇淋了……那我也选G36！
-()<Speaker>WA2000</Speaker>||<边框>2</边框>:……
-()||<黑屏1><边框>2</边框>:
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||<关闭蒙版><BIN>163</BIN><黑屏2>:所以……后来G36小姐真的被“杀”死了吗？
-WA2000(6)<Speaker>WA2000</Speaker>||:嗯，她在第一轮就出局了。+但说实话哦，在听说狼人要杀死G36的时候，我的心里其实有一点点高兴。+因为天气真的好热，而G36小姐做的甜点又那么美味……我忍不住诱惑，所以……
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:没关系的，这是人之常情。+不过狼人的动静那么大，她们就不怕你在发言环节揭发她们的身份吗？+只要详细描述自己在黑暗中听到的一切，好人阵营就能根据你的情报锁定两个狼人……这可是相当了不起的战绩呢！
-WA2000(6)<Speaker>WA2000</Speaker>||:的确如此，但事情并没有那么简单……
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>162</BIN><回忆><黑屏2><边框>2</边框><BGM>BGM_Empty</BGM><SE1>AVG_tele_connect</SE1>:滴——+就在狼人结束行动后，WA2000忽然接到了一条秘密通讯请求。
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:95式？
-95type(2)<Speaker>95式</Speaker><通讯框>||<BGM>BGM_22Swim_langrensha</BGM><边框>2</边框>:<color=#00CCFF>WA2000小姐，冒昧打扰了！你刚才一定也听见奇怪的声音了吧？真是不可思议呢！</color>
-WA2000(6)<Speaker>WA2000</Speaker>;95type(2)||<边框>2</边框>:……你怎么知道？
-WA2000(6);95type(2)<Speaker>95式</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>因为我的座位就在附近呀！</color>+<color=#00CCFF>她们的“密谋”实在太明显了，在存在着严重场外干扰的情况下，格琳娜小姐应该暂停比赛才对。</color>
-WA2000(6)<Speaker>WA2000</Speaker>;95type(2)||<边框>2</边框>:算了……既然格琳娜小姐觉得可以凑合，那我们也勉强玩一玩吧……
-WA2000(6);95type(2)<Speaker>95式</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>那WA2000小姐等一下会把自己的所见所闻告诉大家吗？</color>+<color=#00CCFF>虽说这是很有利的证词，但像这样带有场外因素的发言，恐怕多多少少都会引起一点争议呢……</color>
-WA2000(6)<Speaker>WA2000</Speaker>;95type(2)||<边框>2</边框>:放心好了。我才不屑于用场外因素攻击她们呢！我一定会从她们的发言中找到她们是狼人的铁证！
-95type(2)<Speaker>95式</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>原来如此……那我就期待WA2000小姐的精彩推理啦！</color>
-()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_tele_disconnect</SE1>:滴。通讯结束。
-()||<黑屏1><边框>2</边框>:
-()<Speaker></Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1><关闭蒙版><BIN>163</BIN><黑屏2>:ZB-26轻轻托腮，露出一脸困惑的神情。
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:95式小姐的通讯来得很及时……但这样的“场外”交流也是违规行为。+明明自己触犯了底线，却还要鼓励其他人遵守规则……这是不是有些不太合理呢？
-WA2000(6)<Speaker>WA2000</Speaker>||:没错，这正是我感到不爽的地方！+可是我转念一想，忽然觉得95式的通讯简直妙不可言……你知道为什么吗？
-()<Speaker></Speaker>||:ZB-26似乎被WA2000骄傲的笑容所感染，嘴角轻轻地扬起，做好了倾听的准备。
-WA2000(6)<Speaker>WA2000</Speaker>||:因为我们当时的座位是一个圈，我正好夹在两个狼人中间，而且不多不少，就我一个……+这就意味着，全场只有我能够精确地锁定两匹狼的位置，其他人最多只能像春田那样大致判断声音的方位。+如果是闭眼玩家，她怎么会知道AA-12、我、KAC-PDW中，谁是好人、谁是坏人呢？+而95式竟然如此精准地选择和我通讯，一开口就认定我是好人……这不就说明，她在晚上睁眼了吗？+所以说，95式就是我眼中的第3匹狼人，而且还是送上门的那种！
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:真没想到你手里竟然握着这么重要的线索！+那后来怎么样了，你白天发言的时候通通都告诉她们了吗？
-WA2000(6)<Speaker>WA2000</Speaker>||:……
-WA2000(6)<Speaker>WA2000</Speaker>||<SE1>AVG_splash_water</SE1><震屏3>:<size=50>不提还好，一提起这个我就生气！</size>
-()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Stop_AVG_loop</SE1><BIN>162</BIN><回忆><边框>2</边框><黑屏2>:警长竞选，发言环节。
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框><BGM>m_wv_title</BGM>:<color=#A9A9A9>可恶……我的发言顺序竟然是倒数第二，太不利了……</color>+<color=#A9A9A9>算了，先冷静……让我观察一下场上的形势，找找她们的破绽再说……</color>
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||<边框>2</边框>:请竞选警长的选手依次发言。
-95type(2)<Speaker>95式</Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:日常上警，我是好人。下一位。
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:<color=#A9A9A9>……骗子！</color>
-CBJMS(4)<Speaker>C-MS</Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:我是神职，我必须当警长！大家快给我投票！
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:<color=#A9A9A9>……这不是暴露目标了吗？！</color>
-NTW20(6)<Speaker>NTW-20</Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:我是来凑数的……请忽视我。
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:………………+<color=#A9A9A9><size=50>救命！到底有没有正常人啊？！</size></color>
-FN57(6)<Speaker>FN-57</Speaker>||<边框>2</边框>:大家好，我是预言家。
-()<Speaker></Speaker>||<边框>2</边框>:FN-57从容地站起。只一瞬，便抓住了全场所有人的目光。
-FN57(6)<Speaker>FN-57</Speaker>||<边框>2</边框>:昨晚，我验证了我的右手边NTW小姐的身份——她是一个好人。+前面几位的发言，我暂时没有听出什么，也无法判定她们的身份好坏……+我希望大家能相信我这位唯一的预言家，为我投票，推选我为警长，谢谢。
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:<color=#A9A9A9>唔……FN-57的话好像没什么破绽，但在白狼王的局里也可能是钓鱼执法……</color>+<color=#A9A9A9>等等！马上就轮到我了，我得好好想想她们三个是狼人的理由！</color>+<color=#A9A9A9>对，没错……不能动用场外因素……快分析一下她们的表现有没有异常……</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:在WA2000苦恼地思索之际，FAL倏忽站起，气势汹汹。
-FAL(4)<Speaker>FAL</Speaker>||<震屏3><边框>2</边框>:<size=50>大家不要相信FN-57，她在说谎！我才是全场唯一的预言家！！！</size>
-()<Speaker></Speaker>||<边框>2</边框>:众人刚刚放下的心再次被提了起来，一双双探寻的目光在FAL和FN-57之间犹豫地徘徊着……
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:<color=#A9A9A9>唔……怎么才能用逻辑的方式推论她们是狼人呢？</color>+<color=#A9A9A9>假设她们是狼人……不不不，假设她们不是狼人……</color>+<color=#A9A9A9>……</color>+<color=#A9A9A9>可恶！！可是她们真的在黑暗中讲话了啊！她们一定是狼人！！！</color>
-FN57(6)<Speaker>FN-57</Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:<size=50>白狼王，自爆！我要带走FAL！</size>
-WA2000(6)<Speaker>WA2000</Speaker>||<边框>2</边框>:诶？！
-()<Speaker></Speaker>||<边框>2</边框>:沉浸在思考中的WA2000被FN-57突如其来的转折猛地拉回现实。
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:收到！+咳咳，本法官现在宣布：警长竞选环节结束，警徽流失。FN-57、FAL、FN-49三人出局！
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||<BGM>BGM_Empty</BGM>:接下来，第一晚的两位死者——G36、WA2000——一起出局，没有遗言！
-WA2000(6)<Speaker>WA2000</Speaker><Shake>0.1</Shake>||<边框>2</边框><震屏3>:<size=50>哈啊？！</size>
-()<Speaker></Speaker>||<边框>2</边框>:WA2000惊异地站起，却只看见95式得意而温柔的微笑……
-()||<黑屏1><边框>2</边框>:
-()<Speaker></Speaker>||<关闭蒙版><BGM>GF_20HW_Scene_BPM82_loop</BGM><BIN>163</BIN><黑屏2><SE1>AVG_splash_water</SE1><震屏3>:哗啦啦——
-()<Speaker></Speaker>||:WA2000愤怒地捶向水面，掀起一大片浪花。
-WA2000(6)<Speaker>WA2000</Speaker>||:现在想想还是好生气啊！明明知道一切，明明离真相那么近，明明就差一点点……+FAL那个家伙为什么要激怒白狼王，非惹她自爆不可呢？！+还有身为女巫的春田，不用解药救G36，反而盲目地毒死我！+<size=50>她根本就不知道我能说出多么重要的发言！！！</size>
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:命运有时就是这样无常，但这也是游戏的魅力所在啊。+现在听了你的经历，我真担心好人阵营能不能赢下今晚的比赛呢……
-WA2000(6)<Speaker>WA2000</Speaker>||:这有什么难的？打个通讯随便问一下就好了嘛。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:WA2000和ZB-26缓缓划到岸边，打开了先前为了防止海水腐蚀而关闭的通讯模块。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><震屏3>:滴滴——滴滴——+疯狂的短信如爆炸般湮没了WA2000的通讯系统。
-WA2000(6)<Speaker>WA2000</Speaker>||:<size=50>咦？！200多条未读信息？！！！怎么回事？！</size>
-()<Speaker></Speaker>||:还没等WA2000打开详情，指挥官的通讯便打了过来。
-WA2000(6)<Speaker>WA2000</Speaker>||:喂……指、指挥官？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ZB-26将一块毛巾轻轻覆在WA2000的头发上，替她擦干秀发。+突然，一声惊讶的尖叫划破夜空——
-WA2000(6)<Speaker>WA2000</Speaker><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Thunder_Dry</SE1>:<size=50>哈？？！你、你说什么？！</size>+<size=50>我、我是MVP？？？！</size>
-()<Speaker></Speaker>||:WA2000吓得差点把枪械收纳包掉在地上。
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:WA，你先别激动，小心——
-WA2000(6)<Speaker>WA2000</Speaker>||:不是的，这是……那是……哇啊啊啊啊……
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:WA2000尖叫着挂断了通讯。
-WA2000(6)<Speaker>WA2000</Speaker>||:那、那个，我有点急事，先走了！……很快回来！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:望着WA2000如旋风般狂奔而去的身影，ZB-26微笑着摇了摇头。
-ZB26(2)<Speaker>ZB-26</Speaker><Position>0,120</Position>||:看来也不是只有幸存者才会在乎输赢嘛……
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>515</BIN><黑屏2><BGM>event_summer_Title</BGM>:格琳娜的投票摊附近。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:WA2000理了理衣襟，红着脸，走进摊位。
-()<Speaker>指挥官</Speaker>||:啊，WA2000你终于来了……刚才颁奖典礼没能及时通知你，现在只能以这种简陋的方式把奖牌送给你了，真是对不起。
-WA2000(6)<Speaker>WA2000</Speaker>||:没、没关系……是我自己关闭了通讯模块，这也没办法嘛……+<size=25>再说我也没想到你居然会投票给我……</size>
-()<Speaker>指挥官</Speaker>||:什么？
-WA2000(6)<Speaker>WA2000</Speaker>||:没、没什么！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:WA2000红着脸，从指挥官手里接过奖牌。+MVP三个字在灯火通明的摊位内闪闪发光。+然而，在将奖牌翻来覆去看了几遍后，WA2000的神色却从欣喜渐渐转为困惑。
-WA2000(6)<Speaker>WA2000</Speaker>||<BGM>BGM_Empty</BGM>:等一下……这个狼人的标志是怎么回事？我是村民牌才对吧？
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||:嘻嘻……WA2000小姐的票型非常奇特呢！+指挥官为你投了好多“群狼之牌”，所以我们最后决定用“狼人”的图案来庆祝你的胜利啦！
-()<Speaker></Speaker>||:WA2000的脸色越来越黑，一股不祥的气息从指挥官的后背升起……
-()<Speaker>指挥官</Speaker>||:那个，WA2000，我绝对没有戏弄你的意思！在投票的时候，我只是不小心——
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||:啊呀，不用计较这么多啦！+“群狼之牌”和“守善之证”具有同样的计票效力！投哪种票不是投啊？+只要最后WA2000和好人阵营获胜就可以啦！我说的没错吧，指挥官？
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:砰！+坚硬的奖牌猛然撞向指挥官的脸，将指挥官一把掀翻在地……
-WA2000(6)<Speaker>WA2000</Speaker><Shake>0.1</Shake>||<BGM>GF_EV3_Bingocard_loop</BGM><SE1>Rope</SE1>:<size=50>“守善之证”和“群狼之牌”怎么可能一样？！！！</size>+你知不知道我今天玩得有多痛苦？！你知不知道有话憋在心里却说不出的感受？！+你、你投票给我就算了，为什么还要用狼人的票来整我？！你是不是故意的，是不是早就想要看我的笑话？！
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:<size=50>对不起！！！我没有！我真的没有那个意思！！</size>+<size=50>快帮我解释啊，格琳娜——啊不对，你别解释！！！</size>
-()<Speaker></Speaker>||:WA2000愤怒的指责声在狭小的摊位内震荡。+伴随着指挥官孜孜不倦的卑微求饶和格琳娜的暗笑，共同交织成夏夜的独特风景……
-()<Speaker></Speaker>||:……
-()<Speaker></Speaker>||:里坎禁猎区【END】
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>515</BIN><BGM>m_wv_title</BGM>:Near the stalls.
+FAL(4)<Speaker>FAL</Speaker>||:The [King Lycan]? Isn't that Five-seven?
+PPD40(2)<Speaker>PPD-40</Speaker>||:<size=25>No, [White King Lycan] and [King Lycan] are two different roles.</size> +Commander, neither FAL or I ever got that role. I believe only those in the Werewolf faction would be interested in that card.
+()<Speaker></Speaker>||:...
+()||<黑点1>:
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<黑点2><BIN>515</BIN>:Wait, did I hear that right? Kalina lost track of [King Lycan] during today's game? +Honey! That's unfair!!! How could we possibly beat the Villagers if we only had 5 players against their 12 votes!!
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<震屏3>:<size=50>I request a rematch!!</size>
+()<Speaker>Commander</Speaker>||:That's not likely to...
+95type(6)<Speaker>Type95</Speaker>||:Leave it be, K-PDW. What's done is done. It will only cause more trouble for the Commander if you insist. +As you can see, Commander, we weren't even aware that the [King Lycan] was missing, so it can't possibly be us... +Maybe you should ask Miss Gr G36? She's been running around all night. Maybe she knows something we don't.
+()<Speaker></Speaker>||:...
+()||<黑点1>:
+G36(8)<Speaker>Gr G36</Speaker>||<黑点2><BIN>515</BIN>:Pardon me, Master, I've never seen that card before. If necessary, I'll do a thorough search of this area later...
+()<Speaker>Commander</Speaker>||:Thank you, let me ask the other Dolls first.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep—A call starts ringing.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander pardons Gr G36, then picks up the terminal.
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Commander! The award ceremony starts in five minutes! Please head for the backstage now!</color>
+NPC-KalinSwim(0)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...Sorry, Kalin... I didn't find the [King Lycan].
+NPC-KalinSwim(1)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Hmm... Don't worry! In the worst case I'll just apologize to Miss Springfield later...</color> +<color=#00CCFF>Anyway, please hurry up! I have other preparation work to handle, bye!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Beep. The call ends.
+()<Speaker></Speaker>||:...
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>163</BIN>:The seaside, temporary backstage. +The Dolls are running around hastily, nervously making the final preparations for the awards ceremony.
+()<Speaker>???</Speaker>||:Good evening, Commander.
+()<Speaker></Speaker>||<BGM>BGM_22Swim_langrensha</BGM>:A familiar voice greets the Commander. Looking up, Springfield hands the Commander a cup of iced coffee with a smile on her face. +The Commander blinks as the icy temperature seeps through the paper cup into their palm.
+M1903(8)<Speaker>Springfield</Speaker>||:Please accept my gratitude, Commander.
+M1903(8)<Speaker>Commander</Speaker><同时置暗>||:Gratitude? For what? +I don't think I've done anything deserving of your gratitude.
+M1903(8)<Speaker>Springfield</Speaker>||:Miss Kalina told me everything. Thank you for still supporting me in the end. +Despite having caused so much trouble as the Witch... +You still picked me.
+M1903(8)<Speaker>Springfield</Speaker>||:In fact, just a cup of coffee is nowhere near enough to express my how grateful I am.
+()<Speaker></Speaker>||:The Commander's cheeks suddenly redden in the face of Springfield's humbling smile.
+()<Speaker>Commander</Speaker>||:You're being too polite.
+M1903(8)<Speaker>Springfield</Speaker>||:It's not politeness, but rather solemnity. +I've always thought that, compared to everything you've done for us, I've done very little to reciprocate that kindness.
+()<Speaker></Speaker>||:The Commander is shocked. It's rare to see Springfield act in this manner.
+M1903(8)<Speaker>Springfield</Speaker>||:From the perspective of a Villager, there's no way you should have voted for me.
+M1903(8)<Speaker>Commander</Speaker><同时置暗>||:No! That's not the case... +No matter what others may think, I simply hope you have as much faith in my choices as I do in you! +Because to me, none other could have handled a situation like that as confidently and composed as you, nor could anyone else so marvelously appease everyone and care for each of us... +While skill and strategy are crucial in this game, your mentality is the most precious thing! Therefore, I hope you'll stay as the Lycan Club's president... It's a selfish request, so...
+M1903(8)<Speaker>Springfield</Speaker>||:...I'm surprised you've given it that much thought. +It's quite flattering... +Thank you, Commander.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Springfield pulls out a handkerchief, and gently wipes the sweat from the Commander's forehead.
+()<Speaker>Commander</Speaker>||:By the way... Springfield...
+M1903(8)<Speaker>Springfield</Speaker>||:Yes?
+M1903(8)<Speaker>Commander</Speaker><同时置暗>||:Actually... I've got a bad news for you... Kalin just told me, that [King Lycan] of yours has disappeared.
+M1903(8)<Speaker>Springfield</Speaker>||:"My" [King Lycan]?
+()<Speaker>Commander</Speaker>||:Kalin borrowed your card set for this afternoon's game, right? I've heard that it was a highly valuable, one-of-a-kind limited edition... +Due to an accident between Kalin and another player, that role card is nowhere to be found now... But Kalin and I will certainly continue looking for it! I promise!
+()<Speaker></Speaker>||:Springfield lowers her head, her pair of beautiful green eyes concealed under the shadow of the brim of her hat, making it impossible to make sense of her emotions. +The Commander's heart is in their throat, and right as the Commander is about to say something to break the unbearable silence, Springfield slowly raises the brim of her hat, her face reoccupied by that elegant smile.
+M1903(8)<Speaker>Springfield</Speaker>||:No, it's alright, so please don't worry about it. +Lost items must be somewhere you least expect. +Besides, even if it is truly lost, it doesn't matter... I've already received something more precious tonight. +Don't lose sleep over such a trivial thing, Commander. Remember to enjoy the upcoming festivities~
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Springfield smiles and she holds Commander's hand gently. +The Commander sighs in relief, and the atmosphere suddenly becomes soothing...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>137</BIN><Night><BGM>BGM_Empty</BGM>:Live at the MVP award ceremony.
+()<Speaker></Speaker>||<BGM>event_summer_Title</BGM><SE1>AVG_applause_indoor</SE1>:The Dolls have long since gathered by the stage. Loud cheers and applause accompany Springfield as she gracefully emerges from the shadow of backstage, and slowly walks to the podium.
+()<Speaker></Speaker>||:The Commander also smiles and cheers for her. +…Not entirely sure if it was a mere illusion, the Commander seems to have caught a glimpse of mockery in her eyes for but a brief moment.
+()<Speaker>Commander</Speaker>||:...?
+()<Speaker></Speaker>||:While the Commander is still confused, Springfield retracts her gaze and begins her speech.
+M1903(8)<Speaker>Springfield</Speaker>||<SE1>Stop_AVG_loop</SE1>:Thank you all for your support, as well as the Commander's affection... +Before I give my speech, allow me to ask everyone this question—did all of you have a great time tonight? 
+()<Speaker></Speaker>||:The crowd stutters for a second, then begins to whisper.
+M1903(8)<Speaker>Springfield</Speaker>||:A sudden question like that must be confusing for everyone. +However, at least for me, that is the thing of utmost importance—even more so than winning or losing the game. +To enjoy the moment and leave behind wonderful memories—that's why the Commander brought us to a seaside vacation in the first place.
+()<Speaker></Speaker>||:The clamor gradually ceases. Some Dolls even start nodding in approval after hearing Springfield's grandiose remarks.
+M1903(8)<Speaker>Springfield</Speaker>||:I'm certain that Miss Kalina had the same thought in mind when she invited everyone to play "Lycan Sanctuary". +At first, I was also having fun and wished everyone at Griffin could've joined us. +However, halfway through I realized that, not only the others, but even I got too carried away by our identities within the game myself. +No matter what role we play, we shouldn't forget the premise of a game and how it affects real life. +It's only with an open, playful, and tolerant mindset that we as a whole can strive for the true "gaming experience".
+
+()<Speaker></Speaker>||:...Is it just mistaken instinct? +Springfield's speech is just your average "don't take the game too seriously". +She doesn't sound different from usual either... Then what was that unnatural feeling just now? +Standing within the shadows of backstage, the Commander shakes his head. While trying to get rid of those strange thoughts, they smile at Springfield.
+
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep— +The communicator suddenly rings out, startling the Commander.
+()<Speaker>???</Speaker>||:<color=#00CCFF>Dear Commander, out of good will, allow me to give you some crucial advice right now—</color> +<color=#00CCFF>Do not go on the stage of the award ceremony, or bad luck will befall you.</color> +<color=#00CCFF>...</color> +<color=#00CCFF>Sincerely, Snow Lycan.</color>
+()<Speaker>Commander</Speaker>||:<color=#A9A9A9>A Lycan... it means Werewolf, right?</color> +<color=#A9A9A9>Springfield just said don't take the game too seriously, yet there's still someone sending out these pranks... They really need to read the room.</color>
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:The Commander deletes the message in silence.
+()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1>:Loud applauses resume once again as Springfield smoothly concludes her speech.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:With help from Kalina, the Commander steps up to the podium and picks up Springfield's role card, displaying it proudly to the crowd.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:Ahem, I'm pleased to announce—
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:<size=50>Tonight's MVP is Springfield the [Witch], and consequently, the winners are the Villagers.</size>
+()<Speaker></Speaker>||:All the sudden, a deadly silence enshrouds the crowd. The onlooking Dolls' eyes widen as they stand there, dumbstruck.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander looks around in confusion, then turns toward Springfield.
+CBJMS(4)<Speaker>C-MS</Speaker>||:Hey! Look at what you're holding! That's not Springfield's [Witch] card, is it?
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:The Commander turns the card over and—
+()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM>:Two words are clearly etched into its surface: King Lycan.
+()<Speaker>Commander</Speaker>||:Wasn't the [King Lycan] still missing? How did it end up here, Springfield?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Springfield smiles coyly, then walks to the edge of the stage. She slowly opens her palm while facing the crowd.
+()<Speaker></Speaker>||:It's the [Witch], now standing shoulder to shoulder with the [King Lycan] in the Commander's hand, its presence contradictory yet harmonious. 
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||:Heh?! So Miss Springfield took the [King Lycan]? What is even going on?!
+M1903(8)<Speaker>Springfield</Speaker>||:I'm sorry... Commander, Miss Kalina, and every honored player present... +Truth be told, I was given two role cards at the beginning of the game: the [Witch] and the [King Lycan]. In other words, I am both the Witch and the King Lycan.
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||:How's that possible?? I clearly remember only handing out one card per person...
+M1903(8)<Speaker>Springfield</Speaker>||:I know. When the Commander brought up that Miss Kalina was also looking for this card... I realized she was not the mastermind of this whole ordeal. +However, at the time, the game had already started, and I didn't have the luxury of attempting to rationalize the situation. +Looking back, it was quite silly for thinking that Miss Kalina was trying out some double-crossing agent type of twist. Allowing me to switch back and forth between the two factions, and control the entire game from there... Guess I got carried away!
+WA2000(6)<Speaker>WA2000</Speaker>||:No wonder Springfield poisoned me right away! You did that not as the Witch, but as the King Lycan instead, didn't you?!
+M1903(8)<Speaker>Springfield</Speaker>||:WA2000 is right, and that's something I need to confess. +Since I've helped the Werewolves despite being the Witch during the game... I decided to utilize the very same Witch identity to draw support for the Villagers during the stalls. A way of "balancing" both my identities. +Seeing as the players on the Werewolves' side were all veterans, I'm afraid it would've been a very one-sided game if I had done nothing for the Villagers.
+
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||:I see... but no matter what you did, you are still both the Witch and the King Lycan... +Now... I must ask Miss Springfield a crucial question—
+NPC-KalinSwim(0)<Speaker>Kalina</Speaker>||<BGM>BGM_Empty</BGM>:Are you taking on the title of tonight's Lycan Sanctuary MVP as the Witch, or as the King Lycan?
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:In the dead silence, dozens of pairs of eyes nervously stare at Springfield. A single word ushered from her mouth would spell the conclusion of tonight's fiercest rivalries...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Springfield smiles and approaches the Commander, holding up both their hands leisurely.
+M1903(8)<Speaker>Springfield</Speaker>||:Hasn't the Commander already made the decision for me? As everyone can see, [Certificates of the Virtuous] far outnumber [Seals of the Wolfpack]... +In that case, I am willing to follow the Commander's wish and bring victory to the Villagers as the Witch!
+()<Speaker></Speaker>||<BGM>m_19christmas_battle</BGM>:In that brief moment, cheers from the Villagers violently shatter the silent night sky.
+CBJMS(7)<Speaker>C-MS</Speaker>||<震屏3>:<size=50>Hooray—! We won!! The Villagers are the best!</size>
+WA2000(6)<Speaker>WA2000</Speaker>||:Despite all the twists and turns, justice prevails! Well done, Springfield!
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:All thanks to Master's choice!
+FAL(8)<Speaker>FAL</Speaker>||:Five-seven, now it's time for you to really admit defeat, isn't it?
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Under the dark sky, Five-seven's face grows even grimmer. It wasn't just her either; all of the Dolls on the Werewolves' side are now indignant and seething.
+FN57(8)<Speaker>Five-seven</Speaker>||:Miss Springfield, the [King Lycan] was a powerful role, second only to the [White King Lycan] among the Werewolves! Your act of betrayal utterly disappoints me!
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:That's right! You chose to be on our side during the game, then betrayed us at the end! I despise flip-floppers like you!!!
+()<Speaker></Speaker>||<SE1>Select</SE1>:While saying so, K-PDW raises her super soaker and points it squarely at Springfield's face. The Commander hastily opens their arms and shields Springfield behind them.
+()<Speaker>Commander</Speaker>||:Take it easy, everyone! It's just a game. Don't get too serious—
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><震屏3>:Splash—! +Before being able to finish the sentence, K-PDW douses the defenseless Commander soaking wet.
+()<Speaker></Speaker>||:The crowd soon explodes, their suppressed agitation now uncontrollably released by K-PDW's sudden, radical move...
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||<SE1>Select</SE1>:<size=50>Damn Werewolves! How dare you treat Master like that! I won't hold back anymore!</size>
+PPD40(4)<Speaker>PPD-40</Speaker>||<SE1>AVG_lifttable</SE1>:<size=50>Charge! Take down these barbarians who kicked off the trouble!</size>
+G36(17)<Speaker>Gr G36</Speaker>||<SE1>Select</SE1>:<size=50>Protect Master!</size>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=8</controll_shake><SE1>AVG_Combat_Hits</SE1>:Bang! Slap! Clang! +Sounds of punches and kicks meeting their target grow louder and louder, accompanied by deafening shouts and clamors, echoing endlessly in the night sky of the island…
+()<Speaker>Commander</Speaker>||<震屏3><SE1>Rope</SE1>:<size=50>Help...! Don't crush me underneath you all!!! Ouch! It hurts!!!</size>
+()<Speaker></Speaker>||:...
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:...
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>163</BIN><黑点2><BGM>BGM_Empty</BGM>:On the opposing seashore.
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1><BGM>m_wv_title</BGM>:A tall, silver-haired girl lowers her binoculars, then lets out a lengthy sigh.
+AN94(6)<Speaker>AN94</Speaker>||:How's it going?
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK12</Speaker><Position>-170,130</Position>||:Disastrously... I even warned them about not attending the awards ceremony, if only they listened.
+AN94(6)<Speaker>AN94</Speaker><Position>-150,0</Position>;AK12(7)<Position>-170,130</Position>||:...By the time you sent them the message, it was already too late for the Commander to do anything.
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK12</Speaker><Position>-170,130</Position>||:Oh my, are you implying that I am the bad guy for delaying the message?
+AN94(6)<Speaker>AN94</Speaker><Position>-150,0</Position>;AK12(7)<Position>-170,130</Position>||:Was it on purpose?
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK12</Speaker><Position>-170,130</Position>||:Of course not. +I simply forgot by accident.
+AN94(6)<Speaker>AN94</Speaker><Position>-150,0</Position>;AK12(7)<Position>-170,130</Position>||:Actually... At the time when you quit, I could've easily taken up your spot and avoided this whole ordeal. +Why did you stop me? And why frame Springfield?
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK12</Speaker><Position>-170,130</Position>||:Because... don't you think it's more interesting this way? +It's my payback for that game of poker. +—I simply wanted to see what her reactions would be under these circumstances.
+AN94(6)<Speaker>AN94</Speaker>||:... +...We should take our leave now.
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:AK-12 smiles pleasantly, raising her binoculars one last time to gaze at the tangled blob of chaos.
+AK12(7)<Speaker>AK12</Speaker><Position>-170,130</Position>||<SE1>ClothingUp</SE1>:Best of luck to you, Commander.
+()<Speaker></Speaker>||:...
+()<Speaker></Speaker>||:Lycan Sanctuary [END]
+()||<黑点1>:

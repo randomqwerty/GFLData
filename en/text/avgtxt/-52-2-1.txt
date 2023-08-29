@@ -1,106 +1,106 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>515</BIN><BGM>2022_white_valentine_BGM1</BGM>:乌泱泱的人群围住了KAC-PDW的摊位，吵闹声不绝于耳。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:此时，PPD的眼神盯了过来，充满了委屈。+她拨开了人群，挤到了身边。
-PPD40(4)<Speaker>PPD-40</Speaker>||:指挥官，KAC在游戏里使用诡计，害我们抽不出上上签，还硬说我们是倒霉蛋……+在场的都是刚刚被骗的小伙伴。+现在只有您能替我们揭开真相，主持公道！
-()<Speaker>指挥官</Speaker>||:嗯？这么多人看着应该不会吧。
-PPD40(4)<Speaker>PPD-40</Speaker>||:KAC可狡猾了，指挥官你来看看！
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||<震屏3><SE1>RunStep</SE1>:<size=50>哇啊啊——honey您终于大驾光临了！！！</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC呼啸着跑到长桌前，紧紧握住指挥官的手，用力摇晃。+喧嚣的人群忽然安静下来。+指挥官感到十几双目光正牢牢地盯着自己……
-()<Speaker>指挥官</Speaker>||:……怎么回事？
-PPD40(4)<Speaker>PPD-40</Speaker>||:那只签筒一定有问题！我怎么摇都是下下签！
-PPD40(4);KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:喂，运气差不能怪我啊。
-PPD40(4)<Speaker>PPD-40</Speaker>;KAC(4)<Position>0,135</Position>||:哪有人连续100抽都是下下签的！这概率不科学！
-PPD40(4);KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:倒霉的人是这样，喝凉水都塞牙。+说明你的样本还不够大，万一是运气守恒定律呢，honey你快来试试！
-PPD40(4)<Speaker>PPD-40</Speaker>||:指挥官，快摇签！
-()<Speaker>指挥官</Speaker>||:好吧……直接摇就可以了吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官拿起签筒，仔细观察。+签筒是标准的圆筒状，只有顶盖上留了一个圆圆的小缺口，底面及四周全部用金属盖封住。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻……游戏很简单：一共20支签，包含1支上上签和19支下下签。+摇出上上签者，获得100张守善之证；摇出下下签者，需要倒贴5张群狼之牌。
-()<Speaker>指挥官</Speaker>||:看来就是赌概率而已……只要20次以内摇中上上签，好像都不亏？
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:指、指挥官，我最初也是这么想的，可是……
-()<Speaker>指挥官</Speaker>||:我明白……
-()<Speaker></Speaker>||:指挥官端起签筒，有些生疏而僵硬地前后摇晃……
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:哗啦——
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:哗啦——
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:啪嗒。+一支签掉落在桌面上。+众人急忙凑近。
-PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||:上……上上签？+怎么可能？！
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:PPD-40不信邪，抢过签筒自己摇了一次。+——下下签。
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:果然是我们运气太差了吧，呜呜呜……
-()<Speaker></Speaker>||:众人面面相觑，交谈声不绝于耳。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻……我早就说过Honey肯定是最幸运的！+来，请收下！这是您的奖品——100张群狼之牌！
-()<Speaker></Speaker>||:在众人或嫉妒或疑惑的目光中，接过KAC-PDW手里一叠厚厚的卡牌。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻……Honey这么幸运，一定要记得为我多投几票哦！
-KAC(4)<Speaker>指挥官</Speaker><Position>0,135</Position><同时置暗>||:唔……好。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:太棒了！我就知道Honey是世上最——好的Honey！+只要有我守护着您，您的运气也一定是无敌的！+不像某些倒霉蛋，一次都抽不中……
-()<Speaker></Speaker>||:众人用咬牙切齿的目光注视着KAC。
-()<Speaker>？？？</Speaker>||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:晚上好，长官。
-()<Speaker></Speaker>||<BGM>GF_Cafe</BGM>:人群忽然让开一条道，G36端着托盘落落大方地走了进来。
-G36(8)<Speaker>G36</Speaker>||<SE1>Stop_AVG_loop</SE1>:抱歉打扰了。+这是今晚后厨为大家准备的饮品……请随意取用。
-()<Speaker></Speaker>||:人群默默舒了口气，方才剑拔弩张的气氛也因G36善意的打断而消散了一些。+大家有序地排着队，依次从G36的托盘中取走饮品。
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:啊，上面的托盘空了！我帮G36小姐拿下来吧！
-G36(18)<Speaker>G36</Speaker>||:谢谢。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:G41顺手将一只金属材质的空托盘放在长桌上。
-()<Speaker></Speaker>||:咕噜噜噜……
-()<Speaker>众人</Speaker>||:？？？
-()<Speaker></Speaker>||:咕噜噜噜……
-()<Speaker></Speaker>||:众目睽睽之下，金属签筒竟然滚动起来，加速着朝托盘冲去！+直到……
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1><BGM>BGM_Empty</BGM><震屏3>:——啪！
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:咦？！吸……吸住了？！
-()<Speaker></Speaker>||:一片奇怪的寂静笼罩了摊位，众人盯着牢牢吸附在一起的签筒和托盘，面面相觑。
-G36(8)<Speaker>G36</Speaker>||:抱歉，后厨的玻璃托盘不够用。+我临时拿了合金托盘，可能里面含有稀有元素一类的……
-PPD40(2)<Speaker>PPD-40</Speaker>||:哈……哈哈……
-PPD40(2)<Speaker>PPD-40</Speaker>||<BGM>GF_20HW_Battle1_BPM102_Loop</BGM><震屏3>:<size=60>哈哈哈哈……！</size>
-()<Speaker></Speaker>||:PPD忽然大声笑了起来。
-PPD40(2)<Speaker>PPD-40</Speaker>||:G36小姐真是我们的救星！我已经知道是怎么回事了！！！
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:PPD-40挂起得意的笑容，一把拿起签筒，猛地拆开。
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:喂！！！你怎么可以乱动我的东西？！
-PPD40(2)<Speaker>PPD-40</Speaker>||:认输吧，KAC！这就是你作弊的铁证！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在众人的目光中，PPD-40一把拿出20支签，平摆于桌面上。+随后，她将签筒的底盖拆下，审视一番，微笑着点了点头。+她轻轻地、慢慢地……握着底盖，朝签条靠近……
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:啪嗒！
-()<Speaker></Speaker>||:“上上签”突然从一排签条中突兀地跳起，牢牢吸附在底盖表面！
-()<Speaker>众人</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake><SE1>AVG_Thunder_Dry</SE1>:<size=50>？？！！</size>
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:唔……那是什么魔法？！
-PPD40(2)<Speaker>PPD-40</Speaker>||:G41，我和你一共抽了四十多次都不出上上签……+这就是真正的秘密！+简单来说，这只签筒的底盖对上上签有一定的吸附力。+我们在摇签筒的时候，里面看似是20支签，可上上签吸附在底盖上，根本动不了！+所以实际上，我们只能摇出下下签。+KAC正是借此骗走了我们手上的卡牌！
-()<Speaker>指挥官</Speaker>||:既然如此……为什么我能摇到上上签？
-PPD40(2)<Speaker>PPD-40</Speaker>||:那是因为——
-PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:……？！
-()<Speaker></Speaker>||:突然，一阵紫色的旋风无端刮起，如小野兽一般朝人堆里撞去！
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:？！+<size=50>快拦住她！！！</size>
-KAC(3)<Speaker>KAC-PDW</Speaker><Shake>0.1</Shake><Position>0,135</Position>||<SE1>Rope</SE1>:唔……+唔啊啊啊……+<size=50>放开我！放我出去！！你们这群可恶的倒霉蛋！！！</size>
-()<Speaker></Speaker>||:KAC甚至还没冲破包围，便被G41和围观的众人活生生绑了回来。+PPD带着冷酷而高傲的笑容，大摇大摆地走到KAC面前，单手举着G36的那只金属托盘。
-PPD40(3)<Speaker>PPD-40</Speaker>||:指挥官，这就是您能抽到上上签的原因。
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:<size=50>——砰！</size>
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||:<size=50>呜啊啊啊——</size>
-()<Speaker></Speaker>||:随着金属托盘猛然捶打在KAC-PDW的右手上，指挥官的躯体微微战栗了一下。
-PPD40(3)<Speaker>PPD-40</Speaker>||:既然底盖的吸附作用不可消除……+那么让“上上签”落出来的唯一方法就是在身上藏一块比底座的吸附力更强的物件。+只要用那个物件靠近签筒，上上签就会摆脱底座，甚至还会自动跳出来。+而这个神奇的物件，就藏在这家伙的右手手套里……+我说的没错吧，KAC？
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:我……我不知道你在说什么！
-PPD40(3)<Speaker>PPD-40</Speaker>||:指挥官，既然真相已经查清，我们就必须为上当的玩家讨回公道！
-()<Speaker>众人</Speaker>||:<size=50>没错！</size>
-()<Speaker>指挥官</Speaker>||:唔……你们有什么想法，可以提出来。
-PPD40(4)<Speaker>PPD-40</Speaker>||:KAC必须归还她从我们手中骗走的卡牌，并郑重道歉！+还有，我请求取消KAC的摊主资格，彻底封闭摊位！
-()<Speaker></Speaker>||:面对气势汹汹讨要说法的众人，指挥官不免有些慌乱。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tableware</SE1>:忽然，一声清脆的撞击声从桌边传来。+那是G36收拾玻璃碗碟的声响。
-G36(8)<Speaker>G36</Speaker>||<BGM>m_wv_title</BGM>:今晚是摆摊之夜……指挥官初心是大家能够玩得开心，毕竟这才是我们出来度假的目的嘛。+但KAC的作弊行为已经犯下，必须为此付出代价……
-G36(8)<Speaker>G36</Speaker>||:摊主之位是她好不容易争取来的，还是别取消了，不如今晚所有人消费的饮品，都从KAC的工资中扣除。+大家想喝多少，今晚都由KAC请客。+这就算是给她的一点小小的惩罚……指挥官觉得怎么样？
-PPD40(4)<Speaker>PPD-40</Speaker>||:可是……
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:主人……这是真的吗？！
-()<Speaker></Speaker>||:G41兴奋地咽了咽口水。+众人的心也如G41的尾巴一般，剧烈地摇晃着。
-()<Speaker>指挥官</Speaker>||:这样也行，主要还是希望大家都过一个愉快的夜晚。+只是这样一来辛苦G36和其他后厨的小伙伴了。
-G36(18)<Speaker>G36</Speaker>||:能为大家服务，是我的荣幸。
-G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:<size=50>好耶！！！</size>+G36小姐，我再要一份芒果冰沙！！！
-()<Speaker>围观人形A</Speaker>||:我要一份冰镇葡萄汁！！！
-()<Speaker>围观人形B</Speaker>||:呜呜呜……谢谢G36小姐！！+<size=50>请给我来十杯西瓜汁！！！</size>
-()<Speaker></Speaker>||:……
-PPD40(4)<Speaker>PPD-40</Speaker>||:诶？！大家怎么都……+可恶！等、等我一下啊……
-()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:看着PPD-40和众人吵吵嚷嚷离去的背影，指挥官苦笑着耸了耸肩。
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||<SE1>Rope</SE1>:Honey……你、你居然不帮我？！
-()<Speaker></Speaker>||:被五花大绑的KAC哭丧着脸，气鼓鼓地瞪着指挥官。+指挥官轻轻叹了口气，耐心而严肃地劝慰道。
-()<Speaker>指挥官</Speaker>||:大家都是队友，以后还要并肩作战的。
-KAC(3)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:我……我只要Honey就够了！+而且，我本来就不多的工资……
-KAC(3)<Speaker>指挥官</Speaker><Position>0,135</Position><同时置暗>||:……我私下补贴你一部分吧。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:呜呜呜呜果然Honey最好了！
-()<Speaker></Speaker>||:KAC-PDW忽而抬头，神情涌动着莫名的兴奋。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:嘻嘻，与其补贴我工资，不如……+多给我几张票？
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>脸变得还真快！</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC用力握了握指挥官的手，蹦蹦跳跳回到摊位。
-KAC(4)<Speaker>KAC-PDW</Speaker><Position>0,135</Position>||:Honey，摊主KAC-PDW宣布，靶向陷阱为您开启！
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>515</BIN><BGM>2022_white_valentine_BGM1</BGM>:A large crowd surrounds K-PDW's stall, and along with it, endless bickering.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:PPD lays her teary eyes on the Commander. +She pushes her way through the crowd and gets close towards them.
+PPD40(4)<Speaker>PPD-40</Speaker>||:Commander, KAC played dirty in her game! None of us could get the prize, yet she insists we're just unlucky... +Everyone here just got scammed. +Only you can do justice for us!
+()<Speaker>Commander</Speaker>||:Huh? How's that possible with all of you watching?
+PPD40(4)<Speaker>PPD-40</Speaker>||:KAC is just that cunning. You need to check up on her!
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<震屏3><SE1>RunStep</SE1>:<size=50>Wow—! You've finally come to visit, Honey~!</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC runs to the front of the table, holds the Commander's hand firmly and shakes it vigorously. +The noisy crowd suddenly fall silent. The Commander can feel a dozen pairs of eyes staring them down.
+()<Speaker>Commander</Speaker>||:...What's all this fuss about?
+PPD40(4)<Speaker>PPD-40</Speaker>||:The lot container she used for the draw must be rigged! No matter how I shake it, I always get the bad lot.
+PPD40(4);KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Hey, you can't just blame me for your own misfortune.
+PPD40(4)<Speaker>PPD-40</Speaker>;KAC(4)<Position>0,135</Position>||:How could 100 consecutive draws all end up with a bad lot? It doesn't make any sense!
+PPD40(4);KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:That's just how ill-fated people are. +It means your sample size is not big enough. What if there's a law of conservation of luck? Honey, come try it too!
+PPD40(4)<Speaker>PPD-40</Speaker>||:Commander, you've got to do it!
+()<Speaker>Commander</Speaker>||:Well... Do I just shake it?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander picks up the container and carefully examines it. +The tubular canister has only a single tiny hole located on the top lid, and everything else is completely sealed in a smooth metal sheet.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Hehe... The rules are simple: out of the 20 lots inside the container, there are 19 bad lots and only 1 top lot. +Anyone who draws the top lot gets 100 [Certificates of the Virtuous], otherwise they need to hand me 5 [Seals of the Wolfpack].
+()<Speaker>Commander</Speaker>||:It's just a game of probability then... As long as you can get the grand prize within 20 draws, it seems worth it?
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:Co-Commander, that's also what I thought, yet...
+()<Speaker>Commander</Speaker>||:I see...
+()<Speaker></Speaker>||:The Commander picks up the container and shakes it back and forth stiffly.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:Rattle—
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:Rattle—
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:Thud. +A single lot falls to the ground. +The crowd rushes over to see the result.
+PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||:It-it's the top lot! +How's that possible?!
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:Not convinced, PPD-40 grabs the container and shakes it herself. +—A bad lot
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:I guess we really are just unlucky. Sob…
+()<Speaker></Speaker>||:Everyone stares at each other in disbelief and the bickering continues.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Hehe, I told you that Honey must be the luckiest! +Here! Take your prize—100 [Seals of the Wolfpack].
+()<Speaker></Speaker>||:Under the jealous and puzzled gazes of the crowd, K-PDW hands over a thick stack of cards to the Commander.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Hehe... With how lucky you are, Honey, don't forget to cast me a few votes!
+KAC(4)<Speaker>Commander</Speaker><Position>0,135</Position><同时置暗>||:Um... Alright.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Wonderful! I knew Honey was the greatest Honey in the world! +As long as I keep watch over you, your luck shall remain unparalleled! +Unlike some poor soul who can't get a single good draw…
+()<Speaker></Speaker>||:Everyone stares at KAC with their teeth clenched.
+()<Speaker>???</Speaker>||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:Good evening, Master.
+()<Speaker></Speaker>||<BGM>GF_Cafe</BGM>:The crowd suddenly moves out of the way as Gr G36 walks in assertively with trays in her hand.
+G36(8)<Speaker>Gr G36</Speaker>||<SE1>Stop_AVG_loop</SE1>:Sorry to interrupt. +These are the drinks the kitchen prepared for everyone tonight... Please enjoy.
+()<Speaker></Speaker>||:The crowd breaths out a sigh of relief as the tense atmosphere is completely shattered by Gr G36's charitable interruption. +Everyone lines up in an orderly fashion to pick up their drink from her.
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:Ah, the tray on the top is empty! Let me help Miss Gr G36 to take it off! 
+G36(18)<Speaker>Gr G36</Speaker>||:Danke.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Gr G41 promptly places the metallic tray on the table.
+()<Speaker></Speaker>||:Rrrr—
+()<Speaker>Everyone</Speaker>||:???
+()<Speaker></Speaker>||:Rrrr—
+()<Speaker></Speaker>||:Under everyone's watch, the metallic lot container starts rolling towards the tray! +Until...
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1><BGM>BGM_Empty</BGM><震屏3>:—Tap!
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:Huh?! Th-they stuck together?!
+()<Speaker></Speaker>||:A strange silence enshrouds the crowd. Everyone stares in confusion at the container and the tray, now firmly clinging to each other.
+G36(8)<Speaker>Gr G36</Speaker>||:Pardon me, the kitchen ran out of glass trays. +So I had to make do with these metallic ones. They may have contained some rare-earth elements...
+PPD40(2)<Speaker>PPD-40</Speaker>||:Ha... Haha...
+PPD40(2)<Speaker>PPD-40</Speaker>||<BGM>GF_20HW_Battle1_BPM102_Loop</BGM><震屏3>:<size=60>Hahahaha...!</size>
+()<Speaker></Speaker>||:PPD bursts out laughing.
+PPD40(2)<Speaker>PPD-40</Speaker>||:Miss Gr G36 is our savior! I just figured out what's going on!!!
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:PPD-40 puts on a smug grin as she picks up the container and violently rips it apart.
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Hey!!! How dare you mess with my stuff?!
+PPD40(2)<Speaker>PPD-40</Speaker>||:Just admit it, KAC! This is the proof of your dirty tricks!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Under everyone's gaze, PPD-40 takes out all 20 lots and sets them flat on the table. +Then, she removes the bottom lid, and after inspecting it, nods with a smile on her face. +As she gently moves the lid toward the lots...
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:Snap!
+()<Speaker></Speaker>||:The top lot suddenly jumps up and sticks to the tray!
+()<Speaker>Everyone</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake><SE1>AVG_Thunder_Dry</SE1>:<size=50>??!!</size>
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:Um... What kind of magic was that?!
+PPD40(2)<Speaker>PPD-40</Speaker>||:Gr G41, you and I have attempted more than a total of 40 times without getting the top lot... +And this is exactly why! +Simply put, the top lid has a specific magnetic pull for the top lot. +When we shake the container, it seems like there are 20 lots inside, but the top lot is actually stuck to the bottom and cannot move at all! +This is why we could only get the bad lots. KAC exploited this to deceive us and take away the cards we held!
+()<Speaker>Commander</Speaker>||:If that's the case... how did I get the top lot?
+PPD40(2)<Speaker>PPD-40</Speaker>||:That's because—
+PPD40(4)<Speaker>PPD-40</Speaker><Shake>0.1</Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:...?!
+()<Speaker></Speaker>||:Suddenly, a purple whirlwind arises and charges into the crowd like a beast!
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:?! +<size=50>Stop her!!!</size>
+KAC(3)<Speaker>K-PDW</Speaker><Shake>0.1</Shake><Position>0,135</Position>||<SE1>Rope</SE1>:Huh! +Ahhhh... +<size=50>Let go of me! You luckless bastards!!!</size>
+()<Speaker></Speaker>||:Before KAC can break through the encirclement, she is caught by Gr G41 and the crowd of onlookers. +PPD strides up to her while smiling condescendingly, holding up Gr G36's metallic tray in one hand.
+PPD40(3)<Speaker>PPD-40</Speaker>||:Commander, this is how you got your top lot.
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:<size=50>—Bam!</size>
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||:<size=50>Ouch—</size>
+()<Speaker></Speaker>||:The Commander's shock is evident as the metallic tray forcefully strikes KAC's right hand with a resounding thud.
+PPD40(3)<Speaker>PPD-40</Speaker>||:Since the magnetic force of the bottom lid cannot be erased... +The only way of letting the top lot fall out is to hide an object with an even stronger magnetic force elsewhere. +Upon bringing this object near the container, the top lot will automatically disconnect or even jump out by itself. +And this magical object... is concealed within your right glove... +Isn't that correct, KAC?
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:I-I don't know what you're talking about!
+PPD40(3)<Speaker>PPD-40</Speaker>||:Commander, since we've now figured out the truth, justice must be dealt out for those who were fooled.
+()<Speaker>Everyone</Speaker>||:<size=50>That's right!</size>
+()<Speaker>Commander</Speaker>||:Well... tell me what your proposals are.
+PPD40(4)<Speaker>PPD-40</Speaker>||:KAC must return all the cards she stole from us and sincerely apologize! +On top of that, I request that the stall be shut down and KAC dismissed as the stall master!
+()<Speaker></Speaker>||:Faced with an aggressive crowd demanding a resolution, the Commander is apprehensive.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tableware</SE1>:Suddenly, a crisp clink can be heard from the end of the table. +It is the sound of Gr G36 cleaning up the tableware.
+G36(8)<Speaker>Gr G36</Speaker>||<BGM>m_wv_title</BGM>:Tonight is dedicated to the night stalls... and the Commander's intention is for all of us to thoroughly enjoy ourselves. After all, that was the goal of this vacation. +But KAC also has to face the consequences for deceiving others...
+G36(8)<Speaker>Gr G36</Speaker>||:Since it wasn't easy for her to obtain her position as a stall master, it's best not to cancel her. How about having KAC pay for everyone's drink tonight out of her own pocket instead. +Everyone, order as much as you want, because it's all on KAC now. +That's my idea of a small punishment for her... What do you think, Commander?
+PPD40(4)<Speaker>PPD-40</Speaker>||:But...
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:Master... is that okay?!
+()<Speaker></Speaker>||:Gr G41 gulps excitedly. +Everyone else is equally exhilarated, their heart pounding as rapidly as Gr G41 wags her tail.
+()<Speaker>Commander</Speaker>||:I guess that works too, since I want everyone to enjoy tonight. +It's just that there'll be more work for Miss Gr G36 and the kitchen crew.
+G36(18)<Speaker>Gr G36</Speaker>||:It is my pleasure to serve everyone.
+G41(2)<Speaker>G41</Speaker><Position>0,150</Position>||:<size=50>Hooray!!!</size> +Miss Gr G36, I'll have another mango smoothie!!!
+()<Speaker>Onlooker A</Speaker>||:I want an iced grape juice!!!
+()<Speaker>Onlooker B</Speaker>||:Woohoo! Thank you, Miss Gr G36! +<size=50>10 watermelon juices please!!!</size>
+()<Speaker></Speaker>||:...
+PPD40(4)<Speaker>PPD-40</Speaker>||:Eh?! Why is everyone... +Darn it! W-Wait for me...
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:Looking at PPD-40 and everyone else's silhouette disappear into the distance, the Commander shrugs and smiles.
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||<SE1>Rope</SE1>:Honey... Y-you didn't help me?!
+()<Speaker></Speaker>||:KAC, tightly fastened, cries out in frustration at the Commander. +The Commander sighs, and consoles her in a patient yet serious manner.
+()<Speaker>Commander</Speaker>||:We're all teammates here remember. We will be fighting side by side in the future.
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:I... All I needed was Honey! +Besides, I don't have much money to begin with...
+KAC(3)<Speaker>Commander</Speaker><Position>0,135</Position><同时置暗>||:...I'll cover a part of it in private.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Woohoo, you really are the best, Honey!
+()<Speaker></Speaker>||:K-PDW suddenly lifts her head. She appears weirdly excited.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Hehe, instead of paying... +Can Honey just... cast me a few votes instead?
+()<Speaker>Commander</Speaker>||:<color=#A9A9A9>Your mood swung in an instant!</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:KAC shakes the Commander's hand and cheerfully hops back into her seat.
+KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:Honey, K-PDW, the stall master opens the Targeted Pitfall to you!
+()||<黑点1>:

@@ -1,86 +1,86 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>515</BIN><黑屏2><BGM>BGM_Hello</BGM>:摆摊之夜。+指挥官走走停停，流连于各种有趣的摊位间。+在指挥官不曾注意的角落，一个黑影悄悄追随着指挥官的步伐……
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:呼……好紧张！+要创造合适的时机……要真假参半……+要从容镇定……+还要……+哇啊……我的心智怎么在发烫？！+不行，要冷静、冷静！！
-()<Speaker></Speaker>||:指挥官从容走到某个摊位前，抬头欣赏帐篷顶部挂着的七彩饰物。
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:好……好机会！+加油，UKM！你一定可以的！
-UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>RunStep</SE1>:冲啊啊啊啊——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:扑通！
-()<Speaker>指挥官</Speaker>||:<size=50>唔呃……？！</size>+什么东西……
-()<Speaker></Speaker>||:指挥官低头，困惑地注视着因为摔倒而大咧咧地匍匐在地的人形。
-()<Speaker>指挥官</Speaker>||:这是……+天哪！UKM，你没事吧……
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<SE1>ClothingUp</SE1>:没、没事……
-()<Speaker></Speaker>||:UKM扶了扶脑袋上的猫耳帽，慌慌张张地爬了起来。
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:指、指挥官……我有一个重要——+不对，非常非常重要的信息要告诉你！你一定不可以怀疑我哦！
-()<Speaker>指挥官</Speaker>||:你说说看？
-()<Speaker></Speaker>||:UKM-2000深深地吸了一口气，脸庞憋得通红。
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>村民95式小姐和白狼王FN-57正在摊位里打架！她们打得非常激烈难解难分而且正打算拧断对方的脖子！！！</size>
-()<Speaker>指挥官</Speaker>||:你下次说话别着急，慢慢来……+不就是打架这点事——+……
-()<Speaker>指挥官</Speaker>||<震屏3><SE1>AVG_Scene_Transfer</SE1>:<size=50>什么？！</size>+<size=60>打架？！！！</size>
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:指挥官您先别急，她们俩其实……
-UKM2000(2)<Speaker>指挥官</Speaker><同时置暗>||:她们在哪儿？快带我过去！
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:唔……好！
+()<Speaker></Speaker>||<BIN>515</BIN><黑屏2><BGM>BGM_Hello</BGM>:The night of stalls. Commander walks around, lingering at various stalls that pique their interest. +Unbeknownst to them, a shadow lurks in the corner, quietly following the Commander's footsteps...
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:Whew... So nervous! +I need to create the perfect circumstances… I have to speak half-truths... +and I have stay composed... +and… Whoa! Why is my neural cloud overheating?! +No, I need to remain calm, stay calm!
+()<Speaker></Speaker>||:Commander walks up to a stall, staring up at the colorful ornaments covering the roof.
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:Gr-great chance! +Come on UKM! You can do it!
+UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>RunStep</SE1>:Ahhh—
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:Puff!
+()<Speaker>Commander</Speaker>||:<size=50>Huh...?!</size> +What's…
+()<Speaker></Speaker>||:Commander looks down and stares in confusion at the Doll that just fell flat before them.
+()<Speaker>Commander</Speaker>||:It's... Oh god! UKM, are you all right?
+UKM2000(2)<Speaker>UKM-2000</Speaker>||<SE1>ClothingUp</SE1>:I-I'm fine...
+()<Speaker></Speaker>||:UKM holds her cat-eared hat upright, and scrambles to get up.
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:C-Commander... I have an important— +No, a very, very, very important message for you! You must not doubt me!
+()<Speaker>Commander</Speaker>||:Go ahead?
+()<Speaker></Speaker>||:UKM breaths in, until her cheeks are all red.
+UKM2000(2)<Speaker>UKM-2000</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>Miss Type95, the Villager, and Five-seven, the White King Lycan, are fighting in a stall! They're beating each other right now and plan to break each other's neck!</size>
+()<Speaker>Commander</Speaker>||:Don't worry. You can talk slowly next time... It's just a fight after— +…
+()<Speaker>Commander</Speaker>||<震屏3><SE1>AVG_Scene_Transfer</SE1>:<size=50>WHAT?!</size> +<size=60>A fight?!!</size>
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:Don't worry Commander, they're actually...
+UKM2000(2)<Speaker>Commander</Speaker><同时置暗>||:Where are they? Bring me to them now!
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:Ehm... Yes sir!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:五分钟后，95式的摊位。
-()<Speaker>指挥官</Speaker>||<SE1>RunStep</SE1>:<size=50>你们怎么打起来了？！</size>+我不是说过两个阵营今晚休战，要用投票来一决胜负——
-95type(2)<Speaker>95式</Speaker>||:嗯……？
-FN57(6)<Speaker>FN-57</Speaker>||:嘻嘻……
-()<Speaker></Speaker>||:指挥官风风火火地闯进摊位，却只看到95式和FN-57在帐篷内对坐品茗的安静场面。
-FN57(6)<Speaker>FN-57</Speaker>||:95式小姐，看来是我赢了。
-95type(2)<Speaker>95式</Speaker>||:可是这样做并不公平。我依然对你的观点持怀疑态度。
-()<Speaker>指挥官</Speaker>||:等一下……你们在干什么？+请不要告诉我我被耍了。
-FN57(6)<Speaker>FN-57</Speaker>||<SE1>ClothingUp</SE1>:嘻嘻……指挥官请坐，先消消气嘛……+您不是被耍了，而是卷入了我和95式小姐的赌约之中。
-()<Speaker>指挥官</Speaker>||:赌约？
-95type(2)<Speaker>95式</Speaker>||:长官，非常抱歉呢。+其实……
+()<Speaker></Speaker>||<黑点2>:Five minutes later, at Type95's stall.
+()<Speaker>Commander</Speaker>||<SE1>RunStep</SE1>:<size=50>What are you girls doing?! </size> +Didn't I specify that your factions call a truce for tonight and resolve the dispute with votes—
+95type(2)<Speaker>Type95</Speaker>||:Huh...?
+FN57(6)<Speaker>Five-seven</Speaker>||:Hehe...
+()<Speaker></Speaker>||:The Commander bursts into the stall, only to be greeted by Type95 and Five-seven sitting face-to-face peacefully, quietly sipping tea inside the tent.
+FN57(6)<Speaker>Five-seven</Speaker>||:Looks like I've won, Miss Type95.
+95type(2)<Speaker>Type95</Speaker>||:But doing it this way is quite unfair. I remain skeptical of your point of view.
+()<Speaker>Commander</Speaker>||:Hold on... What are you all doing? +Please don't tell me I got fooled.
+FN57(6)<Speaker>Five-seven</Speaker>||<SE1>ClothingUp</SE1>:Teehee... Please sit, Commander, and don't be mad at us... +You weren't fooled, but instead got involved in a bet between me and Miss Type95.
+()<Speaker>Commander</Speaker>||:A bet?
+95type(2)<Speaker>Type95</Speaker>||:I am sorry, Commander. +As a matter of fact...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:二十分钟前。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:Twenty minutes earlier.
 ()||<黑屏1>:
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<黑屏2><BIN>515</BIN><回忆><边框>2</边框><BGM>m_wv_title</BGM>:95式小姐，听说您是【里坎禁猎区】的游戏高手……
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<边框>2</边框><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>请教教我该怎么像您一样玩好游戏！拜托了！！！</size>
-95type(2)<Speaker>95式</Speaker>||<边框>2</边框>:哎呀……不用这么隆重啦！+你如果有什么问题想问，我都很乐意解答。
-()<Speaker>FN-57</Speaker>||<边框>2</边框>:哎……真是令人不爽呢……
-()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:一声略带酸味的叹息打断了两人的谈话。+摊位的角落，一个修长的身影缓缓立起。
-FN57(6)<Speaker>？？？</Speaker>||<边框>2</边框>:UKM，我可是【里坎俱乐部】的副部长，真正的游戏高手呢。+你怎么只向95式请教，不来问我呢？
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<边框>2</边框>:因为95式小姐是好人，你是可恶的白狼王嘛！+道不同不相为谋，我怎么可能来拜托你呢？
-FN57(8)<Speaker>FN-57</Speaker>||<边框>2</边框>:哈？谁告诉你——
-()<Speaker></Speaker>||<边框>2</边框>:FN-57忽然想起什么，轻轻抿起嘴唇，向95式投去一个意味深长的微笑。
-FN57(6)<Speaker>FN-57</Speaker>||<边框>2</边框>:95式小姐，我非常质疑你能否胜任这孩子的教授任务……+不如我们比一比，看看谁的教书方式更管用吧？
-95type(2)<Speaker>95式</Speaker>||<边框>2</边框>:57小姐有什么想法，我都可以奉陪。
-95type(2);FN57(6)<Speaker>FN-57</Speaker>||<边框>2</边框>:嘻嘻……我们来教这孩子如何撒谎吧？+只有学会处变不惊、永不脸红，这孩子才算入门了【里坎禁猎区】呢。
-95type(2)<Speaker>95式</Speaker>;FN57(6)||<边框>2</边框>:不。我认为作为好人阵营的一员，我们应当分析判断，提供正确的信息。+这样才能拨开迷雾，通向胜利。
-95type(2);FN57(6)<Speaker>FN-57</Speaker>||<边框>2</边框>:敢不敢赌一把？+我现在就教这孩子如何撒谎。十分钟之后，她必定能够通过谎言将指挥官带来这里。+如果指挥官真的出现了，那说明我的撒谎策略是有效的。
-95type(2)<Speaker>95式</Speaker>||<边框>2</边框>:我拭目以待。
-()<Speaker></Speaker>||<边框>2</边框>:……
+UKM2000(2)<Speaker>UKM-2000</Speaker>||<黑屏2><BIN>515</BIN><回忆><边框>2</边框><BGM>m_wv_title</BGM>:Miss Type95, I heard that you are a master of "Lycan Sanctuary"…
+UKM2000(2)<Speaker>UKM-2000</Speaker>||<边框>2</边框><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>Please teach me how to be as good as you! Pretty please!!!</size>
+95type(2)<Speaker>Type95</Speaker>||<边框>2</边框>:Aha... You don't need to be this formal! +If you have any questions, I'm happy to help you out.
+()<Speaker>Five-seven</Speaker>||<边框>2</边框>:Tsk… What a bummer.
+()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:A spiteful remark interrupts the conversation. +From the corner of the stall, a slender figure slowly stands up.
+FN57(6)<Speaker>？？？</Speaker>||<边框>2</边框>:UKM, I'm the vice president of the Lycan Club, a real game master. +So why'd you go ask Type95 for guidance and not me?
+UKM2000(2)<Speaker>UKM-2000</Speaker>||<边框>2</边框>:Because Miss Type95 is a good person, and you are the despicable White King Lycan. +How can I seek help from you when we're so far apart from each other?
+FN57(8)<Speaker>Five-seven</Speaker>||<边框>2</边框>:Huh? Who told you—
+()<Speaker></Speaker>||<边框>2</边框>:Five-seven suddenly remembers something. She gently raises the corner of her lips and stares at Type95 with a cryptic smile.
+FN57(6)<Speaker>Five-seven</Speaker>||<边框>2</边框>:Miss Type95, I highly doubt your capabilities to educate this girl... +How about we both go about our lessons and see who's the better teacher?
+95type(2)<Speaker>Type95</Speaker>||<边框>2</边框>:Since Miss Five-seven thinks this way, then I'm all for it.
+95type(2);FN57(6)<Speaker>Five-seven</Speaker>||<边框>2</边框>:Hehehe... Let's start with teaching this girl how to lie, shall we? +It's only when you can deceive without batting an eye that you've truly gotten into "Lycan Sanctuary".
+95type(2)<Speaker>Type95</Speaker>;FN57(6)||<边框>2</边框>:No. I think that to become a member of the Villagers, we should be able to analyze, to judge, and to provide the right information. +That's how we will clear the fog of mystery and pave our way toward victory.
+95type(2);FN57(6)<Speaker>Five-seven</Speaker>||<边框>2</边框>:A bet it is then? +I will teach this girl how to lie right now. Within ten minutes she will be able to bring Commander here with the help of a lie. +If the Commander shows up, that means my tactics are effective.
+95type(2)<Speaker>Type95</Speaker>||<边框>2</边框>:I'll wait and see.
+()<Speaker></Speaker>||<边框>2</边框>:...
 ()||<黑屏1><边框>2</边框>:
-()<Speaker></Speaker>||<黑屏2><关闭蒙版><BGM>BGM_Empty</BGM>:摊位内。
-FN57(6)<Speaker>FN-57</Speaker>||<BGM>m_avg_casual</BGM>:嘻嘻……UKM，还记得我教你的撒谎秘诀吗？让我们再来给指挥官展示一遍吧？
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:唔……我记得……+第一，要创造合适的时机，让对方觉得撒谎合情合理！+第二，要真假参半，先用真实的信息博取信任，再透露假消息迷惑对方！+第三，要从容镇定，保持逻辑清晰和言辞准确……+还有……
-FN57(6)<Speaker>FN-57</Speaker>||:谢谢你，这样就可以了。+指挥官，刚才UKM的表现一定令您信以为真了吧？
-()<Speaker>指挥官</Speaker>||:……+除了第一条还勉强凑合之外，其他两条的执行都很灾难啊。
-95type(2)<Speaker>95式</Speaker>||:我想得果然没错。+FN-57小姐，您并没有在短时间传授完美的说谎技巧，只是利用了指挥官关心大家的弱点而已。+我敢说，如果我让UKM学习真诚的说话之道，指挥官也会被打动，来到这里的。
-95type(2);FN57(6)<Speaker>FN-57</Speaker>||:哼，95式，你想得太单纯了！+如果每个人都真诚地表露自己，【里坎禁猎区】这个游戏就不存在了！+就算是好人阵营，你们也必须学会撒谎。+就比如女巫和守卫应当伪装成平民，骑士和猎人则应当冲出来抗压……
-95type(2)<Speaker>95式</Speaker>;FN57(6)||:我并没有否定说谎的必要性。+但是作为新手，你不能一开始就教她说谎！+你应当先让她熟悉规则，将不同身份的制胜策略全部摸索清楚之后，再循序渐进。+只有打好了基础，不管这孩子处在哪一方，都能够做到知己知彼。+到了那时，她自然就该知道怎么说谎，怎么伪装身份……
-95type(2);FN57(6)<Speaker>FN-57</Speaker>||:没有强大的心理素质，她永远也成不了大气候！+比如今天下午莽撞的FAL，一出头就像个笨蛋一样被我带走了！
-95type(2)<Speaker>95式</Speaker>||:<size=50>那是因为她不熟悉游戏规则！</size>+如果她明白【白狼王】配置的正确打法的话，不会一上来就暴露身份！+所以这孩子应该跟着我巩固基础，而不是学习FN-57小姐的旁门左道呢！
-()<Speaker>指挥官</Speaker>||:好了好了，不要再吵了。+你们说的都有几分道理，但你们没必要这样折腾UKM。+你们看，她的脸都红了！
-UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:唔……我的头好晕……心智运算容量跟不上了……
-()<Speaker></Speaker>||<SE1>Rope</SE1>:FN-57忽然站起，不由分说地搂住UKM-2000。
-FN57(6)<Speaker>FN-57</Speaker>||:算了，和你说不通！+<size=50>你们这些老好人就等着陷落在固执的思维泥潭里吧！</size>
-()<Speaker>指挥官</Speaker>||:……你要带UKM去哪里？
-FN57(6)<Speaker>FN-57</Speaker>||:当然先想办法让她的心智降降温了……+不过我保证：下次见面的时候，你们一定会对UKM的游戏技术大吃一惊的。
-()<Speaker>指挥官</Speaker>||:喂……
-()<Speaker></Speaker>||:FN-57没有理会指挥官的呼唤，兀自扶着UKM-2000离开摊位。
-()<Speaker>指挥官</Speaker>||:她这样真的没关系吗？
-95type(2)<Speaker>95式</Speaker>||:我想FN-57一定是因为和FAL闹了矛盾，所以心里不畅快吧。+毕竟57小姐是个骄傲的人形呢……+也许她只是想通过收学徒的方式，证明自己的实力吧。
-95type(2)<Speaker>95式</Speaker>||:指挥官。
-95type(2)<Speaker>指挥官</Speaker><同时置暗>||:嗯？
-95type(2)<Speaker>95式</Speaker>||:您要不要试着为FN-57投票呢？+也许您赐予的胜利会减少她心中的戾气。+这样一来，也许她就不会那么强硬地迫使别人接受她的观点了……
-95type(2)<Speaker>指挥官</Speaker><同时置暗>||:那你们好人阵营怎么办呢？+难道就这样眼睁睁地看着狼人赢下比赛吗？
-95type(2)<Speaker>95式</Speaker>||:嘻嘻……
-()<Speaker></Speaker>||:95式温柔而神秘的笑容忽然化作一团解不开的疑云，笼罩在指挥官心头。
-()<Speaker>指挥官</Speaker>||:我记得应该是女巫、猎人、白痴……一共3个摊位……+等等……好像不太对劲？
-()<Speaker></Speaker>||:指挥官心中默数了几遍，眉头微蹙。+95式的笑意愈加深邃，含情脉脉地看着指挥官。
-()<Speaker>指挥官</Speaker>||<BGM>BGM_Empty</BGM>:95式……你好像不是好人阵营的吧？+不对，你和FN-57刚才的矛盾，看起来也不像是……+天啊，我的脑子乱套了……+这究竟是怎么回事？
-95type(2)<Speaker>95式</Speaker>||:嘻嘻……指挥官如果愿意给我投票的话，我就告诉您全部的真相哦~
-()<Speaker>指挥官</Speaker>||:……
-95type(2)<Speaker>95式</Speaker>||:摊主95式宣布，心魔池沼为您开启！
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BGM>BGM_Empty</BGM>:Inside the stall.
+FN57(6)<Speaker>Five-seven</Speaker>||<BGM>m_avg_casual</BGM>:Hehe... UKM, remember the tricks I taught you step-by-step?
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:Well... from what I can recollect... +First, create the right circumstance so the other person feels like the lies are reasonable! +Then, utilize half-truths; gain the others' trust with partially true information, then confuse them with falsehood. +Lastly, stay calm and collected, keep your line of thought clear and your words accurate... +And then...
+FN57(6)<Speaker>Five-seven</Speaker>||:Thank you, that will suffice. +Commander, UKM's performance must've tricked you, huh?
+()<Speaker>Commander</Speaker>||:... +Other than the first one, everything else was executed horribly.
+95type(2)<Speaker>Type95</Speaker>||:Just as I thought. Miss Five-seven, it seems like you failed to teach how to lie perfectly within a matter of minutes, but instead simply took advantage of Commander's compassion for everyone. Dare I say, if UKM followed my teachings of sincerity, the Commander would also be moved and came to see us.
+95type(2);FN57(6)<Speaker>Five-seven</Speaker>||:Hmph, Type95, you're way too naive! +If everyone spoke honestly, then there's no point in playing "Lycan Sanctuary"! +Even as a Villager, you must learn to lie. For example, consider when the Witch and the Bodyguard need to disguise themselves as mere Villagers, and the Knight and the Hunter need to make themselves known...
+95type(2)<Speaker>Type95</Speaker>;FN57(6)||:I'm not dismissing the necessity of lies. +But as a new player, you can't just tell her to lie right off the bat! +You should let her familiarize herself with the rules first, let her learn all the roles and their best strategies, and progress from there. +Only with a solid understanding of the game can she make the right judgment no matter which side she's on. +By then, lying and how to disguise her identity should come as naturally as breathing.
+95type(2);FN57(6)<Speaker>Five-seven</Speaker>||:She'll never make it that far without a strong mental game! +Just like that reckless FAL from this afternoon, the moment she stood out like a sore thumb, I took her out right away!
+95type(2)<Speaker>Type95</Speaker>||:<size=50>Because she's unfamiliar with the rules!</size> +If she knew what the [White King Lycan] does, then she wouldn't have revealed herself! +That just further proves UKM should come with me and consolidate her fundamentals instead of being sidetracked by those puny tricks of yours.
+()<Speaker>Commander</Speaker>||:Alright, alright, that's enough. +Both of you have a point, but you don't need to torment UKM like this. +See, she's gone all red now!
+UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:Ehh... I feel dizzy... My processing speed can't keep up…
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Five-seven stands up and catches UKM-2000 with her arms.
+FN57(6)<Speaker>Five-seven</Speaker>||:Forget about it. You just won't get it! +<size=50>Keep being honest good girls, and don't come crying when you're stuck in your stubborn thinking!</size>
+()<Speaker>Commander</Speaker>||:...Where are you bringing UKM?
+FN57(6)<Speaker>Five-seven</Speaker>||:Of course it's to find a place to cool her down first... +But I promise, the next time we meet, she'll surprise you all with her newly acquired gaming skills!
+()<Speaker>Commander</Speaker>||:Hey...
+()<Speaker></Speaker>||:Five-seven ignores the Commander's call and continues carrying UKM-2000 away from the stall.
+()<Speaker>Commander</Speaker>||:Will she really be fine like that?
+95type(2)<Speaker>Type95</Speaker>||:I feel like Miss Five-seven is just upset due to her quarrel with FAL. +After all, she's a proud T-Doll... +Maybe taking on an apprentice is just how she wants to prove her worth.
+95type(2)<Speaker>Type95</Speaker>||:Commander.
+95type(2)<Speaker>Commander</Speaker><同时置暗>||:Yes?
+95type(2)<Speaker>Type95</Speaker>||:Do you think voting for Five-seven will be a good idea? +Maybe a victory bestowed by you could qualm her bitterness. +That way, she won't be forcing her views upon others this harshly all the time.
+95type(2)<Speaker>Commander</Speaker><同时置暗>||:What about you Villagers? +Are you just going to sit around and let the Werewolves win?
+95type(2)<Speaker>Type95</Speaker>||:Hehe... 
+()<Speaker></Speaker>||:Type95's gentle and mysterious smile is turned into a dark haze shrouding the Commander's mind.
+()<Speaker>Commander</Speaker>||:I remember there being one stall for the Witch, one for the Hunter, and one for the Fool... three in total. +Wait… something doesn't add up.
+()<Speaker></Speaker>||:The Commander counts, frowning at every recount. +The grin on Type95's face grows as she affectionately gazes at the Commander.
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:Type95... You're not on a Villager, are you? +But that exchange with Five-seven sounded quite genuine and didn't feel like a... +Gosh, my brain can't keep up... What is going on here?
+95type(2)<Speaker>Type95</Speaker>||:Hehe... If the Commander is willing to vote for me, I'll tell you the whole truth~
+()<Speaker>Commander</Speaker>||:...
+95type(2)<Speaker>Type95</Speaker>||:Stall master Type95 hereby declares, the Devil's Pond is now open for you!
+()||<黑点1>:
