@@ -92,17 +92,28 @@ local SwitchLayer = function(self,layer,handle,nextPlayPerformance)
 	self:SwitchLayer(layer,handle,nextPlayPerformance);
 end
 local CheckMapCombination = function(self)
-	if CS.DeploymentBackgroundController.currentLayerData == nil then
+	--if CS.DeploymentBackgroundController.currentLayerData == nil then
+		CS.DeploymentBackgroundController.currentlayer = self:PlayerWantlayer();
 		local layer = CS.DeploymentBackgroundController.currentlayer;
 		CS.DeploymentBackgroundController.currentLayerData = CS.DeploymentBackgroundController.layerDatas[layer];
-	end
+	--end
 	self:CheckMapCombination();
+end
+local PlayerWantlayer = function(self)
+	if CS.DeploymentController.lastEngageSpotId ~= 0 and CS.GameData.missionAction ~= nil then
+		local spotaction = CS.GameData.listSpotAction:GetDataById(CS.DeploymentController.lastEngageSpotId);
+		if spotaction ~= nil then
+			return spotaction.spotInfo.layer;
+		end
+	end
+	return self:PlayerWantlayer();
 end
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckSize',CheckSize)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateMap',CreateMap)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateSpots',CreateSpots)
 util.hotfix_ex(CS.DeploymentBackgroundController,'ShowShade',ShowShade)
 util.hotfix_ex(CS.DeploymentBackgroundController,'SwitchLayer',SwitchLayer)
+util.hotfix_ex(CS.DeploymentBackgroundController,'PlayerWantlayer',PlayerWantlayer)
 util.hotfix_ex(CS.DeploymentBackgroundController.MapLayerData,'ShowEffect',ShowEffect)
 util.hotfix_ex(CS.DeploymentBackgroundController.MapLayerData,'CloseEffect',CloseEffect)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckMapCombination',CheckMapCombination)

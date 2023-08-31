@@ -4,7 +4,9 @@ local OnVideoPlayEnd = function()
 	CS.AVGController.Instance.gameObject:GetComponent(typeof(CS.UnityEngine.UI.GraphicRaycaster)).enabled = true;
 	if endBG > 0 then
 		local bgCon = CS.AVGController.Instance.backgroundController;
-		bgCon:ChangeBackgroundImage(bgCon.imageBackground,endBG);
+		if bgCon.backgroundInfo ~= nil then
+			bgCon:ChangeBackgroundImage(bgCon.imageBackground,endBG);
+		end
 	end
 end
 
