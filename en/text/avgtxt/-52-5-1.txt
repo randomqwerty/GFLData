@@ -1,11 +1,11 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>515</BIN><黑屏2><BGM>BGM_Hello</BGM>:The night of stalls. Commander walks around, lingering at various stalls that pique their interest. +Unbeknownst to them, a shadow lurks in the corner, quietly following the Commander's footsteps...
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:Whew... So nervous! +I need to create the perfect circumstances… I have to speak half-truths... +and I have stay composed... +and… Whoa! Why is my neural cloud overheating?! +No, I need to remain calm, stay calm!
+UKM2000(2)<Speaker>UKM-2000</Speaker>||:Whew... So nervous! +I need to create the perfect circumstances... I have to speak half-truths... +and I have stay composed... +and... Whoa! Why is my neural cloud overheating?! +No, I need to remain calm, stay calm!
 ()<Speaker></Speaker>||:Commander walks up to a stall, staring up at the colorful ornaments covering the roof.
 UKM2000(2)<Speaker>UKM-2000</Speaker>||:Gr-great chance! +Come on UKM! You can do it!
 UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>RunStep</SE1>:Ahhh—
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:Puff!
-()<Speaker>Commander</Speaker>||:<size=50>Huh...?!</size> +What's…
+()<Speaker>Commander</Speaker>||:<size=50>Huh...?!</size> +What's...
 ()<Speaker></Speaker>||:Commander looks down and stares in confusion at the Doll that just fell flat before them.
 ()<Speaker>Commander</Speaker>||:It's... Oh god! UKM, are you all right?
 UKM2000(2)<Speaker>UKM-2000</Speaker>||<SE1>ClothingUp</SE1>:I-I'm fine...
@@ -14,7 +14,7 @@ UKM2000(2)<Speaker>UKM-2000</Speaker>||:C-Commander... I have an important— +N
 ()<Speaker>Commander</Speaker>||:Go ahead?
 ()<Speaker></Speaker>||:UKM breaths in, until her cheeks are all red.
 UKM2000(2)<Speaker>UKM-2000</Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>Miss Type95, the Villager, and Five-seven, the White King Lycan, are fighting in a stall! They're beating each other right now and plan to break each other's neck!</size>
-()<Speaker>Commander</Speaker>||:Don't worry. You can talk slowly next time... It's just a fight after— +…
+()<Speaker>Commander</Speaker>||:Don't worry. You can talk slowly next time... It's just a fight after— +...
 ()<Speaker>Commander</Speaker>||<震屏3><SE1>AVG_Scene_Transfer</SE1>:<size=50>WHAT?!</size> +<size=60>A fight?!!</size>
 UKM2000(2)<Speaker>UKM-2000</Speaker>||:Don't worry Commander, they're actually...
 UKM2000(2)<Speaker>Commander</Speaker><同时置暗>||:Where are they? Bring me to them now!
@@ -34,10 +34,10 @@ FN57(6)<Speaker>Five-seven</Speaker>||<SE1>ClothingUp</SE1>:Teehee... Please sit
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:Twenty minutes earlier.
 ()||<黑屏1>:
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<黑屏2><BIN>515</BIN><回忆><边框>2</边框><BGM>m_wv_title</BGM>:Miss Type95, I heard that you are a master of "Lycan Sanctuary"…
+UKM2000(2)<Speaker>UKM-2000</Speaker>||<黑屏2><BIN>515</BIN><回忆><边框>2</边框><BGM>m_wv_title</BGM>:Miss Type95, I heard that you are a master of "Lycan Sanctuary"...
 UKM2000(2)<Speaker>UKM-2000</Speaker>||<边框>2</边框><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:<size=50>Please teach me how to be as good as you! Pretty please!!!</size>
 95type(2)<Speaker>Type95</Speaker>||<边框>2</边框>:Aha... You don't need to be this formal! +If you have any questions, I'm happy to help you out.
-()<Speaker>Five-seven</Speaker>||<边框>2</边框>:Tsk… What a bummer.
+()<Speaker>Five-seven</Speaker>||<边框>2</边框>:Tsk... What a bummer.
 ()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:A spiteful remark interrupts the conversation. +From the corner of the stall, a slender figure slowly stands up.
 FN57(6)<Speaker>？？？</Speaker>||<边框>2</边框>:UKM, I'm the vice president of the Lycan Club, a real game master. +So why'd you go ask Type95 for guidance and not me?
 UKM2000(2)<Speaker>UKM-2000</Speaker>||<边框>2</边框>:Because Miss Type95 is a good person, and you are the despicable White King Lycan. +How can I seek help from you when we're so far apart from each other?
@@ -62,7 +62,7 @@ FN57(6)<Speaker>Five-seven</Speaker>||:Thank you, that will suffice. +Commander,
 95type(2);FN57(6)<Speaker>Five-seven</Speaker>||:She'll never make it that far without a strong mental game! +Just like that reckless FAL from this afternoon, the moment she stood out like a sore thumb, I took her out right away!
 95type(2)<Speaker>Type95</Speaker>||:<size=50>Because she's unfamiliar with the rules!</size> +If she knew what the [White King Lycan] does, then she wouldn't have revealed herself! +That just further proves UKM should come with me and consolidate her fundamentals instead of being sidetracked by those puny tricks of yours.
 ()<Speaker>Commander</Speaker>||:Alright, alright, that's enough. +Both of you have a point, but you don't need to torment UKM like this. +See, she's gone all red now!
-UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:Ehh... I feel dizzy... My processing speed can't keep up…
+UKM2000(2)<Speaker>UKM-2000</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:Ehh... I feel dizzy... My processing speed can't keep up...
 ()<Speaker></Speaker>||<SE1>Rope</SE1>:Five-seven stands up and catches UKM-2000 with her arms.
 FN57(6)<Speaker>Five-seven</Speaker>||:Forget about it. You just won't get it! +<size=50>Keep being honest good girls, and don't come crying when you're stuck in your stubborn thinking!</size>
 ()<Speaker>Commander</Speaker>||:...Where are you bringing UKM?
@@ -77,7 +77,7 @@ FN57(6)<Speaker>Five-seven</Speaker>||:Of course it's to find a place to cool he
 95type(2)<Speaker>Commander</Speaker><同时置暗>||:What about you Villagers? +Are you just going to sit around and let the Werewolves win?
 95type(2)<Speaker>Type95</Speaker>||:Hehe... 
 ()<Speaker></Speaker>||:Type95's gentle and mysterious smile is turned into a dark haze shrouding the Commander's mind.
-()<Speaker>Commander</Speaker>||:I remember there being one stall for the Witch, one for the Hunter, and one for the Fool... three in total. +Wait… something doesn't add up.
+()<Speaker>Commander</Speaker>||:I remember there being one stall for the Witch, one for the Hunter, and one for the Fool... three in total. +Wait... something doesn't add up.
 ()<Speaker></Speaker>||:The Commander counts, frowning at every recount. +The grin on Type95's face grows as she affectionately gazes at the Commander.
 ()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:Type95... You're not on a Villager, are you? +But that exchange with Five-seven sounded quite genuine and didn't feel like a... +Gosh, my brain can't keep up... What is going on here?
 95type(2)<Speaker>Type95</Speaker>||:Hehe... If the Commander is willing to vote for me, I'll tell you the whole truth~
