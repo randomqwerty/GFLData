@@ -210,7 +210,15 @@ patch3020=
 "3020/CharacterCondition",
 "3020/Live2DModelController",
 "3020/FriendShopGoodController",
-"3020/DormFurniturePieceController",		
+"3020/DormFurniturePieceController",
+"3020/SangvisLeaderLabelController",			
+}
+patch3030=
+{
+"3020/SangvisLeaderLabelController",	
+"3030/DeploymentUIController",
+"3030/CommonGetNewGunController",
+"3030/GetEquipItem",
 }
 -- va11
 print("load Va11");
