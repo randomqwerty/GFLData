@@ -245,7 +245,12 @@ patch3030=
 "3030/DailyExploreDifficultyPreview",
 "3030/BattleVehicleResultController",
 "3030/VehicleTechTree",
+"3030/DormFurnitureController",
 "3030/BattleController",
+"3030/IllustratedBookController",	
+"3030/VehicleStoreCtrl",
+"3030/DailyExploreUIController",
+"3030/CommonSquadListLabelController",		
 }
 -- va11
 print("load Va11");
