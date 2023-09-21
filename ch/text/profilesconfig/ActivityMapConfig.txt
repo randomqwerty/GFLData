@@ -1,4 +1,6 @@
 //Mission场景标签贴图
+//坠入兔洞+常驻配置-修复版
+MissionSelectionTex|missionselect_Arctic2|2|-23
 //瓦尔哈拉联动配置：
 //MissionSelectionTex|missionselect_VA11|2|-32
 //2019夏活配置：
@@ -20,7 +22,7 @@
 //2020夏活配置：
 //MissionSelectionTex|missionselect_Dual Randomness|2|-41
 //2020万圣配置：
-//MissionSelectionTex|missionselect_Halloween2020|2|-42
+MissionSelectionTex|missionselect_Halloween2020|2|-42
 //2020全境封锁1联动配置：
 //MissionSelectionTex|missionselect_TheDivision|2|-43
 //2020冬活配置：
@@ -30,7 +32,7 @@
 //2020泳装复刻配置：
 //MissionSelectionTex|missionSelect_Bikini_2020|1|-40
 //2021泳装复刻配置：
-//MissionSelectionTex|missionSelect_Bikini_2021|1|-47
+MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //邪神酱联动：
 //MissionSelectionTex|DropkickonMyDevil|1|-46
 //2021夏活配置：
@@ -40,25 +42,25 @@
 //2021冬活配置：
 //MissionSelectionTex|missionselect_FixedPoint|2|-51
 //2022白情活动配置：
-//MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
+MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //2022烟花祭配置：
 //MissionSelectionTex|missionselect_Bikini_2022|1|-52
 //2022夏活配置：
-//MissionSelectionTex|missionselect_2022Summer|1|-54
+MissionSelectionTex|missionselect_2022Summer|1|-54
 //终焉花海复刻配置：
-//MissionSelectionTex|missionselect_Reversible_RE|2|-55
+MissionSelectionTex|missionselect_Reversible_RE|2|-55
 //SCAR角色活动：
-//MissionSelectionTex|missionselect_2022Scar|2|-56
+MissionSelectionTex|missionselect_2022Scar|2|-56
 //佐贺联动：
 //MissionSelectionTex|missionselect_ZLSR|1|-57
 //2023春活配置：
-//MissionSelectionTex|missionselect_Slowshock|1|-58
+MissionSelectionTex|missionselect_Slowshock|1|-58
 //23春季肉鸽
 //MissionSelectionTex|missionselect_2022Summer|1|-59
 //谜境守卫复刻
-//MissionSelectionTex|missionselect_Labyrinthine Defense_RE|2|-60
+MissionSelectionTex|missionselect_Labyrinthine Defense_RE|2|-60
 //237月试炼
 MissionSelectionTex|missionselect_2023RougeSummer|1|-61
 
@@ -67,6 +69,7 @@ MissionSelectionTex|missionselect_2023RougeSummer|1|-61
 OPSSpecialScene|-2|-2,-3,-4
 OPSActivityScene|-16|-16,-17,-18
 OPSSpecialScene|-19|-19,-20,-21,-22
+OPSPanelScene|-23|-23
 OPSActivityScene|-24|-24,-25,-26,-28
 OPSPanelScene|-31|-31
 OPSPanelScene|-32|-32
@@ -127,6 +130,7 @@ OPSLeftBGNormalActivity|04|Sing_Left
 OPSLeftBGNormalActivity|-2|Sing_Left
 OPSLeftBGNormalActivity|-16|Sing_Left
 OPSLeftBGNormalActivity|-19|GloryDay_Left
+OPSLeftBGNormalActivity|-23|Left
 OPSLeftBGNormalActivity|-24|ContinuumTurbulence_Left
 OPSLeftBGNormalActivity|-31|Isomer_Left
 OPSLeftBGNormalActivity|-32|VA11_Left
@@ -199,6 +203,7 @@ OPSNoticeNormalActivity|-61|2023RougeSummer_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
+OPSTimeNormalActivity|-23|Reversible_Time
 //OPSTimeNormalActivity|-31|Isomer_Time
 //OPSTimeNormalActivity|-32|VA11_Time
 //OPSTimeNormalActivity|-33|Reversible_Time
@@ -248,7 +253,7 @@ OPSGoto|Hallowmas_2020_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
 //OPSGoto|Xmas_2021_GotoMall|0
 //OPSGoto|FixedPoint_GotoMall|0
-//OPSGoto|WhiteDay_2022_GotoMall|0|-50
+OPSGoto|WhiteDay_2022_GotoMall|0|-50
 //混沌落幕复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
 //OPSGoto|Bikini_2022_GotoMall|0|-52
@@ -256,7 +261,7 @@ OPSGoto|Hallowmas_2020_GotoMall|0
 //OPSGoto|2022Summer_GotoMall|0|-55
 //OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|ZLSR_GotoMall|0|-57
-//OPSGoto|2023Spring_GotoMall|0|-58
+OPSGoto|2023Spring_GotoMall|0|-58
 //OPSGoto|2023RougeSpring_GotoMall|0|-59
 //OPSGoto|2023RougeSpring_PointExchange|2|-59
 //谜境守卫复刻配置_积分界面跳转
@@ -286,6 +291,7 @@ OPSReastNormalActivity|-26|Sing_Reset
 //OPSProgress|Isomer_Progress
 OPSProgressNormalActivity|04|Sing_Progress
 OPSProgressNormalActivity|-16|Sing_Progress
+//OPSProgressNormalActivity|-23|Reversible_Progress
 OPSProgressNormalActivity|-24|Reversible_Progress
 OPSProgressNormalActivity|-31|Isomer_Progress
 OPSProgressNormalActivity|-32|VA11_Progress
@@ -475,7 +481,7 @@ OPSCampaignTitleButton|-61|true|2023RougeSummer_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-38|100035|60|GunslingerGirl_MissionPanelTip|1
 //OPSCampaignTitleButtonTip|-40|100143|120|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-41|9005|60|Activity_2020S_Tip|1
-//OPSCampaignTitleButtonTip|-42|100160|120|Hallowmas_2020_Tip|1
+OPSCampaignTitleButtonTip|-42|100160|120|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
@@ -498,8 +504,8 @@ OPSCampaignTitleButtonTip|-61|100193|60|2023RougeSummer_Tip|1
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
 //OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 //OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
-//CampaignMissionDeployEffect|528|2023Spring_ShowItem12|11335,11337,11341,11343,11347,11349,11353,11355,11359,11377,11378,11379,11380,11381,11382,11383,11384,11385|0_30;30_60;60_130;130_260;260_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
-//CampaignMissionDeployEffect|530|2023Spring_ShowItem3|11364,11366,11368,11370,11372,11374,11386,11387,11388,11389,11390,11391,11392,11393,11394,11395,11396,11397|0_25;25_55;55_85;85_115;115_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
+CampaignMissionDeployEffect|528|2023Spring_ShowItem12|11335,11337,11341,11343,11347,11349,11353,11355,11359,11377,11378,11379,11380,11381,11382,11383,11384,11385|0_30;30_60;60_130;130_260;260_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
+CampaignMissionDeployEffect|530|2023Spring_ShowItem3|11364,11366,11368,11370,11372,11374,11386,11387,11388,11389,11390,11391,11392,11393,11394,11395,11396,11397|0_25;25_55;55_85;85_115;115_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
 OPSShowItemDeployment|9042,9041|2023RogueSummer_DeploymentItems|11437,11438,11439,11440,11441,11442,11443,11444,11445,11451,11452,11453,11454,11455,11456,11457,11458
 
 //具体章节里的头像贴图设置-位置坐标-贴图
@@ -613,7 +619,11 @@ OPSCampaignDetail|-21_3|472,-472|LightBossB06
 OPSCampaignDetail|-22_1|-182,-299|unknown
 OPSCampaignDetail|-22_2|629,-44|LightBossB06
 OPSCampaignDetail|-22_3|472,-472|FAIL_boss
-OPSCampaignDetail|-23_1|100,-200|SangvisFerri
+
+//坠入兔洞+常驻 修复版
+OPSCampaignDetail|-23_1|0,0|SangvisFerri
+//OPSCampaignDetail|-23_1|100,-200|SangvisFerri
+
 OPSCampaignDetail|-24_1|100,-200|Melee
 OPSCampaignDetail|-24_2|100,-200|Ripper
 OPSCampaignDetail|-24_3|100,-200|Melee
@@ -1802,3 +1812,9 @@ OPSCampaignDetail|-61_22|0,0|Agent
 OPSCampaignDetail|-61_23|0,0|Persica_Work
 OPSCampaignDetail|-61_24|0,0|Kratos
 OPSCampaignDetail|-61_25|0,0|TeslaTrooper
+
+//载具解锁相关关卡
+OPSCampaignDetail|-10006_1|0,0|vehicle_guide1
+OPSCampaignDetail|-10006_2|0,0|vehicle_guide1
+OPSCampaignDetail|-10006_3|0,0|vehicle_guide2
+OPSCampaignDetail|-10006_4|0,0|vehicle_guide3
