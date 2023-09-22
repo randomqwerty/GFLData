@@ -1,0 +1,65 @@
+{
+    "guideDatas": [
+        {
+            "guideId": 0,
+            "forceReplay": false,
+            "canReplayLikeAVG": true,
+            "guideTriggerDataOr": [
+                {
+                    "guideTriggerDataAnd": [
+                        {
+                            "trigger": 11,
+                            "a": 0,
+                            "b": 0
+                        }
+                    ]
+                }
+            ],
+            "guideStepDatas": [
+                {
+                    "step": 0,
+                    "stepTriggerType": {
+                        "stepTrigger": 0,
+                        "uiPath": "MessageboxCanvas/DeploymentExplainNew(Clone)",
+                        "infoid": 0
+                    },
+                    "stepStateTriggerDatas": [],
+                    "clickType": 1,
+                    "path": "MessageboxCanvas/DeploymentExplainNew(Clone)/Frame/BackGround/buttonReturn",
+                    "spotId": 67205,
+                    "langueid": "guide_deployment-11138001",
+                    "avg": "",
+                    "pictureNames": [],
+                    "dialogType": 0,
+                    "sizeData": {
+                        "x": 1100.0,
+                        "y": 230.0
+                    },
+                    "txtpos": {
+                        "x": -85.0,
+                        "y": -350.0
+                    },
+                    "picName": "",
+                    "picOrder": 0,
+                    "picscale": 1.0,
+                    "picpos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "completeGroup": false,
+                    "forceClick": true,
+                    "uiShowPrefab": "GuideDeployment_Spot2",
+                    "buttonTrans": {
+                        "instanceID": 0
+                    },
+                    "uiPrefab": {
+                        "instanceID": 0
+                    }
+                }
+            ],
+            "completeType": 0,
+            "guideCompleteId": 0,
+            "guideCompleteStepId": 0
+        }
+    ]
+}

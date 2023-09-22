@@ -1,24 +1,20 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentTeamController)
 
-local ShowHaloSkill = function(self,Iconfriendly,num)
-	self:ShowHaloSkill(Iconfriendly,num);
-	if self.holeShow ~= nil then
-		local canvas = self.holeShow:GetComponent(typeof(CS.UnityEngine.Canvas));
-		if canvas == nil or canvas:isNull() then
-			self.holeShow:AddComponent(typeof(CS.UnityEngine.Canvas));
-		end
+local BuffSpecialSpotAddViewEffect = function(self)
+	local effect = 0;
+	for i=0,self.currentListBuffAction.Count-1 do
+		local nightView = self.currentListBuffAction[i].nightView;
+		effect = CS.Mathf.Max(effect,nightView);
 	end
+	return effect;
 end
 
-local ShowBattleSkill = function(self,Iconfriendly,num)
-	self:ShowBattleSkill(Iconfriendly,num);
-	if self.SkillShow ~= nil then
-		local canvas = self.SkillShow:GetComponent(typeof(CS.UnityEngine.Canvas));
-		if canvas == nil or canvas:isNull() then
-			self.SkillShow:AddComponent(typeof(CS.UnityEngine.Canvas));
-		end
+local CheckTeamBothCanMove = function(self,spot)
+	if spot.currentHostage ~= nil then
+		return self:CheckTeamCanMove(spot) and spot.currentHostage:CheckTeamCanMove(self.currentSpot);
 	end
+	return self:CheckTeamBothCanMove(spot);
 end
-util.hotfix_ex(CS.DeploymentTeamController,'ShowHaloSkill',ShowHaloSkill)
-util.hotfix_ex(CS.DeploymentTeamController,'ShowBattleSkill',ShowBattleSkill)
+util.hotfix_ex(CS.DeploymentTeamController,'BuffSpecialSpotAddViewEffect',BuffSpecialSpotAddViewEffect)
+util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamBothCanMove',CheckTeamBothCanMove)

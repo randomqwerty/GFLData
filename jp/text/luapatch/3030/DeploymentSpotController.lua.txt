@@ -1,11 +1,17 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentSpotController)
 
-local Checkroute = function(self)
-	if self.spotInfo == nil then
-		return;
+local RadarEffect = function(self)
+	local effect = self:RadarEffect();
+	if self.spotAction ~= nil then
+		local view = -1;
+		for i=0,self.spotAction.listSpecialAction.Count-1 do
+			local nightView = self.spotAction.listSpecialAction[i].nightView;
+			view = CS.Mathf.Max(view,nightView);
+		end
+		effect = CS.Mathf.Max(view,effect);
 	end
-	self:Checkroute();
+	return effect;
 end
 
-util.hotfix_ex(CS.DeploymentSpotController,'Checkroute',Checkroute)
+util.hotfix_ex(CS.DeploymentSpotController,'RadarEffect',RadarEffect)

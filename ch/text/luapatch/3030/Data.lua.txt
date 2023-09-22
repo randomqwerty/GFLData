@@ -19,6 +19,25 @@ local GetComponentPropertyName_New = function(typeName)
     return attrName
 end
 
+local GetComponentAffixName_New = function(bounsType)
+    local attrName = CS.Data.GetComponentAffixName(bounsType)
+
+    if bounsType == CS.VehicleAttrType.heavyArmorPierce then
+        attrName = CS.Data.GetLang(1808);
+    end
+
+    if bounsType == CS.VehicleAttrType.lightArmorPierce then
+        attrName = CS.Data.GetLang(1809);
+    end
+
+    if bounsType == CS.VehicleAttrType.atkSpeed then
+        attrName = CS.Data.GetLang(160016);
+    end
+
+    return attrName
+end
+
 
 util.hotfix_ex(CS.Data,'GetComponentPropertyName',GetComponentPropertyName_New)
+util.hotfix_ex(CS.Data,'GetComponentAffixName',GetComponentAffixName_New)
 

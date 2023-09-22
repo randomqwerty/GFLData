@@ -1,0 +1,177 @@
+{
+    "guideDatas": [
+        {
+            "guideId": 0,
+            "forceReplay": true,
+            "canReplayLikeAVG": false,
+            "autoFindNextStep": false,
+            "guideTriggerDataOr": [
+                {
+                    "guideTriggerDataAnd": [
+                        {
+                            "trigger": 0,
+                            "a": 0,
+                            "b": 0
+                        }
+                    ]
+                }
+            ],
+            "guideStepDatas": [
+                {
+                    "step": 0,
+                    "stepTriggerType": {
+                        "stepTrigger": 2,
+                        "uiPath": "MessageboxCanvas/DeploymentExplainNew(Clone)/Frame",
+                        "infoid": 0
+                    },
+                    "stepStateTriggerDatas": [],
+                    "clickType": 2,
+                    "path": "MessageboxCanvas/DeploymentExplainNew(Clone)/Frame/BackGround/buttonReturn",
+                    "spotId": 68847,
+                    "langueid": "guide_deployment-10906001",
+                    "avg": "",
+                    "pictureNames": [],
+                    "dialogType": 0,
+                    "sizeData": {
+                        "x": 1100.0,
+                        "y": 230.0
+                    },
+                    "txtpos": {
+                        "x": -85.0,
+                        "y": -400.0
+                    },
+                    "picName": "",
+                    "picOrder": 0,
+                    "picscale": 1.0,
+                    "picpos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "completeGroup": false,
+                    "forceClick": true,
+                    "uiShowPrefab": "GuideDeployment_Btn1",
+                    "buttonTrans": {
+                        "instanceID": -6856768
+                    },
+                    "uiPrefab": {
+                        "instanceID": 0
+                    }
+                }
+            ],
+            "completeType": 0,
+            "guideCompleteId": 0,
+            "guideCompleteStepId": 0
+        },
+        {
+            "guideId": 1,
+            "forceReplay": true,
+            "canReplayLikeAVG": false,
+            "autoFindNextStep": false,
+            "guideTriggerDataOr": [
+                {
+                    "guideTriggerDataAnd": [
+                        {
+                            "trigger": 0,
+                            "a": 0,
+                            "b": 0
+                        }
+                    ]
+                },
+                {
+                    "guideTriggerDataAnd": [
+                        {
+                            "trigger": 10,
+                            "a": 0,
+                            "b": 0
+                        }
+                    ]
+                }
+            ],
+            "guideStepDatas": [
+                {
+                    "step": 0,
+                    "stepTriggerType": {
+                        "stepTrigger": 0,
+                        "uiPath": "",
+                        "infoid": 0
+                    },
+                    "stepStateTriggerDatas": [],
+                    "clickType": 1,
+                    "path": "",
+                    "spotId": 68170,
+                    "langueid": "guide_deployment-11481001",
+                    "avg": "",
+                    "pictureNames": [],
+                    "dialogType": 0,
+                    "sizeData": {
+                        "x": 1100.0,
+                        "y": 230.0
+                    },
+                    "txtpos": {
+                        "x": -85.0,
+                        "y": -400.0
+                    },
+                    "picName": "",
+                    "picOrder": 0,
+                    "picscale": 1.0,
+                    "picpos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "completeGroup": false,
+                    "forceClick": true,
+                    "uiShowPrefab": "GuideDeployment_Spot2",
+                    "buttonTrans": {
+                        "instanceID": 0
+                    },
+                    "uiPrefab": {
+                        "instanceID": -7035726
+                    }
+                },
+                {
+                    "step": 1,
+                    "stepTriggerType": {
+                        "stepTrigger": 0,
+                        "uiPath": "",
+                        "infoid": 0
+                    },
+                    "stepStateTriggerDatas": [],
+                    "clickType": 1,
+                    "path": "",
+                    "spotId": 68166,
+                    "langueid": "guide_deployment-11481002",
+                    "avg": "",
+                    "pictureNames": [],
+                    "dialogType": 0,
+                    "sizeData": {
+                        "x": 1100.0,
+                        "y": 230.0
+                    },
+                    "txtpos": {
+                        "x": -85.0,
+                        "y": -400.0
+                    },
+                    "picName": "",
+                    "picOrder": 0,
+                    "picscale": 1.0,
+                    "picpos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "completeGroup": false,
+                    "forceClick": true,
+                    "uiShowPrefab": "GuideDeployment_Spot2",
+                    "buttonTrans": {
+                        "instanceID": 0
+                    },
+                    "uiPrefab": {
+                        "instanceID": 0
+                    }
+                }
+            ],
+            "completeType": 0,
+            "guideCompleteId": 0,
+            "guideCompleteStepId": 0
+        }
+    ]
+}
