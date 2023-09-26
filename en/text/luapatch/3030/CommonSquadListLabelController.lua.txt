@@ -1,26 +1,61 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.CommonSquadListLabelController)
-xlua.private_accessible(CS.CommonAudioController)
-xlua.private_accessible(CS.DeploymentSquadListInfoController)
-xlua.private_accessible(CS.TheaterSquadListContainer)
-xlua.private_accessible(CS.TargetTrainSquadListContainer)
 
-local myChoose = function(self,choose)
-	if CS.DeploymentTeamInfoController.Instance ~= nil then
-		self:Choose(choose)
+local ShowEfficiencyUI = function(self)
+	if CS.DeploymentUIController.Instance ~= nil then
+		CS.DeploymentEffectivenessController.OpenSquadUI(self.squad, CS.DeploymentUIController.Instance.transform);
 	else
-		self.select = choose;
-		self:ChangeSelectStatus(choose);
-		CS.CommonAudioController.PlayUI(CS.AudioUI.UI_selete);
-		if (CS.DeploymentSquadListInfoController.Instance ~= nil) then
-			CS.DeploymentSquadListInfoController.Instance.currentSelectSquad = self;
-		end
-		if CS.TheaterSquadListContainer.Instance ~= nil then
-			CS.TheaterSquadListContainer.Instance:SelectSquad(self.squad);
-		end
-		if CS.TargetTrainSquadListContainer.Instance ~= nil then
-			CS.TargetTrainSquadListContainer.Instance:SelectSquad(self.squad);
-		end
+		local parent = CS.CommonController.MainCanvas.transform;
+		CS.DeploymentEffectivenessController.OpenSquadUI(self.squad, parent);
 	end
 end
-util.hotfix_ex(CS.CommonSquadListLabelController,'Choose',myChoose)
+
+local Awake = function(self)
+	self:Awake();
+	local list = self.transform:Find("List");
+	list:SetAsLastSibling();
+end
+
+function RequstSquadQuickFinish(squad,label)
+	local action = nil;
+	for i=0,CS.GameData.listSquadFixAction.Count-1 do
+		if CS.GameData.listSquadFixAction[i].squadId == squad.id then
+			action = CS.GameData.listSquadFixAction[i];
+		end
+	end
+	if action ~= nil then
+		local createConnection = xlua.get_generic_method(CS.ConnectionController, 'CreateConnection');
+		local createRequest = createConnection(CS.RequestVehicleFinishFix);
+		createRequest(CS.RequestVehicleFinishFix(action, 1),function(data)
+				label:RefreshUI();
+			end);
+	end
+end
+
+function RequestSquadQuick(squad,label)
+	local costQuickNum = squad.info.costQuickFixNum;
+	if CS.GameData.userInfo.quickReinforce < costQuickNum then
+		local count = costQuickNum - CS.GameData.userInfo.quickReinforce;
+		local package = CS.OneClickBuyPackage(CS.GoodType.gemToItem,4,count,1,10);
+		CS.CommonController.ConfirmBox(CS.Data.GetLang(50014),function()
+				RequstSquadQuickFinish(squad,label);
+			end,package);
+		return;
+	end
+	local text = CS.System.String.Format(CS.Data.GetLang(50015), costQuickNum);
+	CS.CommonController.ConfirmBox(text,function()
+			RequstSquadQuickFinish(squad,label);
+		end);
+end
+
+local QucikFix = function(self)
+	if self.squad.status == CS.SquadStatus.fix then
+		RequestSquadQuick(self.squad,self);
+		return;
+	end
+	self:QucikFix();
+end
+
+util.hotfix_ex(CS.CommonSquadListLabelController,'ShowEfficiencyUI',ShowEfficiencyUI)
+util.hotfix_ex(CS.CommonSquadListLabelController,'Awake',Awake)
+util.hotfix_ex(CS.CommonSquadListLabelController,'QucikFix',QucikFix)
