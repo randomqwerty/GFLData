@@ -44,6 +44,13 @@ local NeedShowVehicleForwardBtn = function(self)
 	return ans
 end
 
+local CloseDeploymentMoni = function()
+	if CS.GF.Battle.BattleController.renderTexture ~= nil then
+		CS.GF.Battle.BattleController.renderTexture:Release();
+	end
+	CS.GF.Battle.BattleController.CloseDeploymentMoni();
+end
 
 util.hotfix_ex(CS.GF.Battle.BattleController,'CreateFriendlyCharacter',CreateFriendlyCharacter)
 util.hotfix_ex(CS.GF.Battle.BattleController,'NeedShowVehicleForwardBtn',NeedShowVehicleForwardBtn)
+util.hotfix_ex(CS.GF.Battle.BattleController,'CloseDeploymentMoni',CloseDeploymentMoni)

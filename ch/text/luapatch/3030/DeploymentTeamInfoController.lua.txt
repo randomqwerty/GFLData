@@ -10,7 +10,66 @@ local CanDeployVehicle = function(vehicle,showTip)
 			end
 		end
 	end
-	return CS.DeploymentTeamInfoController.CanDeployVehicle(vehicle,showTip);
+	if CS.GameData.currentSelectedMissionInfo.vehicleLimitTeam == -1 then
+		return false;
+	end
+	if CS.GameData.currentSelectedMissionInfo.vehicleLimitTeam ~= 0 and CS.DeploymentController.Instance.VehicleTeamCount >= CS.GameData.currentSelectedMissionInfo.vehicleLimitTeam then
+		return false;
+	end
+	if CS.GameData.currentSelectedMissionInfo.totalTeamLimit>0 and CS.GameData.currentSelectedMissionInfo.basesquadCanTotalTeam then
+		if CS.DeploymentController.Instance.TotalTeamsCount >= CS.GameData.currentSelectedMissionInfo.totalTeamLimit then
+			return false;
+		end
+	end
+	if vehicle.fake then
+		if showTip then
+			CS.CommonController.LightMessageTips(CS.Data.GetLang(33048));
+		end
+		return false;
+	end
+	if not vehicle:CheckCrewStateNormal() then
+		if showTip then
+			CS.CommonController.LightMessageTips(CS.Data.GetLang(290103));
+		end
+		return false;
+	end
+	if CS.DeploymentController.Instance.squadVehiclePopCost + vehicle.vehicleInfo.population > CS.DeploymentController.Instance.SquadVehicleCanGetPop then
+		if showTip then
+			CS.CommonController.LightMessageTips(CS.Data.GetLang(33049));
+		end
+		return false;
+	end
+	if vehicle.isDamaged then
+		if showTip then
+			CS.CommonController.LightMessageTips(CS.Data.GetLang(30553));
+		end
+		return false;
+	end
+	if vehicle.status ~= CS.VehicleStatus.normal then
+		if showTip then
+			CS.CommonController.LightMessageTips(CS.Data.GetLang(33048));
+		end
+		return false;
+	end
+	if CS.GameData.missionAction ~= nil then
+		for i=0,CS.DeploymentController.Instance.vehicleTeams.Count-1 do
+			local team = CS.DeploymentController.Instance.vehicleTeams[i];
+			if team.vehicleTeam.vehicle == vehicle then
+				if showTip then
+					CS.CommonController.LightMessageTips(CS.Data.GetLang(33051));
+				end
+				return false;
+			end
+		end
+		local ap = CS.DeploymentController.Instance:squadTypeApCost(CS.SquadInfoCategory.carrier);
+		if CS.GameData.missionAction.ap<ap then
+			if showTip then
+				CS.CommonController.LightMessageTips(CS.Data.GetLang(33048));
+			end
+			return false;
+		end
+	end
+	return true;
 end
 
 local CanDeploySquad = function(squad)
@@ -23,7 +82,42 @@ local CanDeploySquad = function(squad)
 	if squad.vehicleId ~= 0 then
 		return false;
 	end
-	return CS.DeploymentTeamInfoController.CanDeploySquad(squad);
+	if CS.GameData.currentSelectedMissionInfo.onlyCanUseVehice then
+		return false;
+	end
+	if CS.GameData.currentSelectedMissionInfo.squadLimitTeam == -1 then
+		return false;
+	end
+	if CS.GameData.currentSelectedMissionInfo.squadLimitTeam ~= 0 and CS.DeploymentController.Instance.SquadTeamsCount >= CS.GameData.currentSelectedMissionInfo.squadLimitTeam then
+		return false;
+	end
+	if CS.GameData.currentSelectedMissionInfo.totalTeamLimit>0 and CS.GameData.currentSelectedMissionInfo.basesquadCanTotalTeam then
+		if CS.DeploymentController.Instance.TotalTeamsCount >= CS.GameData.currentSelectedMissionInfo.totalTeamLimit then
+			return false;
+		end
+	end	
+	if CS.DeploymentController.Instance.squadVehiclePopCost + squad.info.popcost > CS.DeploymentController.Instance.SquadVehicleCanGetPop then
+		return false;
+	end
+	if squad.life == 0 then
+		return false;
+	end
+	if squad.status ~= CS.SquadStatus.normal then
+		return false;
+	end
+	if CS.GameData.missionAction ~= nil then
+		local ap = CS.DeploymentController.Instance:squadTypeApCost(squad.info.infoType);
+		if CS.GameData.missionAction.ap<ap then
+			return false;
+		end
+		for i=0,CS.DeploymentController.Instance.squadTeams.Count-1 do
+			local team = CS.DeploymentController.Instance.squadTeams[i];
+			if team.squadTeam.squadData == squad then
+				return false;
+			end
+		end
+	end
+	return true;
 end
 local CheckTeamMissionRecommand = function(team,allpoint)
 	allpoint = 0;

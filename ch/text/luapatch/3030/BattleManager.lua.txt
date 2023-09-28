@@ -3,11 +3,25 @@ xlua.private_accessible(CS.GF.Battle.BattleController)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
 xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
 xlua.private_accessible(CS.GF.Battle.BattleManager)
-
+local FP = CS.TrueSync.FP
 
 
 local CalcRemoteBattleEnemyRemainPercent= function(self)
+	local listEnemyCharacterData = CS.GF.Battle.BattleDynamicData.listEnemyCharacterData
+	for i = 0,listEnemyCharacterData.Count - 1 do
+		local data = listEnemyCharacterData[i]
+		data.bulletChainNum = data.startingLife
+		data.startingLife = data.maxLife
+		
+	end
+	
 	self:CalcRemoteBattleEnemyRemainPercent()
+	
+	for i = 0,listEnemyCharacterData.Count - 1 do
+		local data = listEnemyCharacterData[i]
+		data.startingLife = data.bulletChainNum
+		
+	end
 	local BattleDynamicData = CS.GF.Battle.BattleDynamicData
 	if BattleDynamicData.enemyAllyTeam ~= nil then
 		if BattleDynamicData.enemyAllyTeam.hpPercent <= 0 then
@@ -20,7 +34,7 @@ local CalcRemoteBattleEnemyRemainPercent= function(self)
 			end
 		end
 	end
-		
+	
 end
 
 

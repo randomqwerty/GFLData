@@ -2,16 +2,42 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.HomeController)
 xlua.private_accessible(CS.GF.Common.ObjectPool)
 xlua.private_accessible(CS.ResDownloadProcess)
+xlua.private_accessible(CS.SkeletonDataAsset)
+xlua.private_accessible(CS.DynamicDataCache)
+xlua.private_accessible(CS.ResManager)
 
 local ResClean = function(deep)
 	if CS.Utility.loadedLevelName ~= "Deployment" and CS.Utility.loadedLevelName ~= "Cutin" and CS.Utility.loadedLevelName ~= "Battle" then
 		CS.DynamicDataCache.Instance.cacheDataMap:Clear();
 		CS.SkeletonDataAsset.saveSkeletonDataTemp:Clear();
 		CS.GF.Common.ObjectPool.tempList:Clear();
-		CS.UnityEngine.Object.DestroyImmediate(CS.GF.Common.ObjectPool.Instance.gameObject);
-		print("ClearRes");
+		CS.UnityEngine.Object.DestroyImmediate(CS.GF.Common.ObjectPool.Instance.gameObject);		
 	end
-	CS.ResManager.ResClean(deep);
+	CS.ResManager.path_Obj:Clear();
+	CS.ResManager.resourceObj:Clear();
+	CS.ResManager.allcomponents:Clear();
+	CS.ResManager.path_Sprite:Clear();
+	CS.ResManager.path_SpriteAplha:Clear();
+	local iter = CS.ResManager.spineInstanceObj:GetEnumerator();
+	while iter:MoveNext() do
+		local res = iter.Current.Value;
+		if res.prefabInstante ~= nil and not res.prefabInstante:isNull() then
+			CS.UnityEngine.Object.DestroyImmediate(res.prefabInstante);
+		end
+		res.originalPrefab = nil;
+	end
+	CS.ResManager.spineInstanceObj:Clear();
+	local iter1 = CS.ResManager.url_instancePrefab:GetEnumerator();
+	while iter1:MoveNext() do
+		local res = iter1.Current.Value;
+		if res.prefabInstante ~= nil and not res.prefabInstante:isNull() then
+			CS.UnityEngine.Object.DestroyImmediate(res.prefabInstante);
+		end
+		res.originalPrefab = nil;
+	end
+	CS.ResManager.url_instancePrefab:Clear();
+	CS.UnityEngine.AssetBundle.UnloadAllAssetBundles(false);
+	print("ClearRes");
 end
 
 local Awake = function(self)

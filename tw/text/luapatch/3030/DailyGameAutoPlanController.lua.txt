@@ -18,6 +18,26 @@ local GoToDeployment = function(hexData)
 	end
 	CS.DailyGameAutoPlanController.GoToDeployment(hexData);
 end
+
+local CheckShowSelectAllHex = function()
+	CS.DailyGameAutoPlanController.AutoSelectAllHex();
+	if CS.DailyGameAutoPlanController.onlyuseticket then
+		local canSelectCount = 0;
+		for i=0,CS.DailyExploreGameManager.Instance.mapController.listHex.Count-1 do
+			local hex = CS.DailyExploreGameManager.Instance.mapController.listHex[i];
+			if hex.hexData:isMeetSelect() then
+				canSelectCount = canSelectCount + 1;
+			end
+		end
+		if canSelectCount > CS.DailyGameAutoPlanController.selectPlanhexs.Count then
+			CS.CommonController.ConfirmBox(CS.Data.GetLang(280550),function()
+					CS.DailyGameAutoPlanController.onlyuseticket = false;
+					CS.DailyGameAutoPlanController.AutoSelectAllHex();
+			end)
+		end
+	end
+end
 util.hotfix_ex(CS.DailyGameAutoPlanController,'MissionState',MissionState)
 util.hotfix_ex(CS.DailyGameAutoPlanController,'CheckAutoPlanInDailyGame',CheckAutoPlanInDailyGame)
 util.hotfix_ex(CS.DailyGameAutoPlanController,'GoToDeployment',GoToDeployment)
+util.hotfix_ex(CS.DailyGameAutoPlanController,'CheckShowSelectAllHex',CheckShowSelectAllHex)

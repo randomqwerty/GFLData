@@ -7,6 +7,9 @@ local _Jump = function(self)
 	if self.taskInfo.isFunctionOpen == true then
 		if CS.ResCenter.instance.currentSceneName == "Dorm" then
 			if CS.DormController.currentRoom == CS.EstablishRoom.VehicleRoom then
+				if string.find(self.mGotoPageInfo.mGotoSceneInfo,"StoreRoom") then
+					CS.StoreRoomController.lastScene = "Home";
+				end
 				CS.CommonSceneManagerController.instance:Clear();
 			end
 		end
