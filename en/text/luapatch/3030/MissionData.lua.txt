@@ -91,5 +91,21 @@ function Split(szFullString, szSeparator)
 	return nSplitArray
 end
 
+local LoadSpotaction = function(self,jsonSpotAction)
+	local ids = CS.System.Collections.Generic.List(CS.System.Int32)();
+	for i=0,jsonSpotAction.Count-1 do
+		local id = jsonSpotAction[i]:GetValue("spot_id").Int;
+		ids:Add(id);
+	end
+	for i=0,CS.GameData.listSpotAction.Count-1 do
+		local spotaction = CS.GameData.listSpotAction:GetDataByIndex(i);
+		if not ids:Contains(spotaction.spotInfo.id) then
+			spotaction:EnemyDataClear();
+			spotaction.allyTeamInstanceIds:Clear();
+		end
+	end
+	self:LoadSpotaction(jsonSpotAction);
+end
 util.hotfix_ex(CS.MissionInfo,'InitData',InitData)
 util.hotfix_ex(CS.MissionAction,'LoadMoveStepData',LoadMoveStepData)
+util.hotfix_ex(CS.MissionAction,'LoadSpotaction',LoadSpotaction)
