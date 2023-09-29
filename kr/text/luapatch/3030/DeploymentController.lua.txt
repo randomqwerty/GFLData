@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentController)
+xlua.private_accessible(CS.GameData)
 
 local RequestEndAllFriendTurnHandle = function(self,data)
 	if data.jsonData:Contains("spot_trans") then
@@ -22,6 +23,25 @@ local TriggerStartMissionEvent = function()
 	end
 	CS.DeploymentController.TriggerStartMissionEvent();
 end
+
+local RequestStartEnemyTurnHandle = function(self,data)
+	self:RequestStartEnemyTurnHandle(data);
+	if CS.GameData.AnalysisMissionResult(self.startEnemyTurnJsonData,true) then
+		print("win");
+	end
+end
+local TriggerFinishMissionEvent = function()
+	CS.DeploymentController.TriggerFinishMissionEvent();
+end
+local RequestEndEnemyTurn = function(self)
+	if CS.GameData.missionResult ~= nil then
+		self:AddAndPlayPerformance(nil);
+		self:AddAndPlayPerformance(TriggerFinishMissionEvent);
+		return;
+	end
+	self:RequestEndEnemyTurn();
+end
 util.hotfix_ex(CS.DeploymentController,'RequestEndAllFriendTurnHandle',RequestEndAllFriendTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerStartMissionEvent',TriggerStartMissionEvent)
-
+util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
+util.hotfix_ex(CS.DeploymentController,'RequestEndEnemyTurn',RequestEndEnemyTurn)
