@@ -11,32 +11,59 @@ local ResClean = function(deep)
 		CS.DynamicDataCache.Instance.cacheDataMap:Clear();
 		CS.SkeletonDataAsset.saveSkeletonDataTemp:Clear();
 		CS.GF.Common.ObjectPool.tempList:Clear();
-		CS.UnityEngine.Object.DestroyImmediate(CS.GF.Common.ObjectPool.Instance.gameObject);		
+		CS.GF.Common.ObjectPool.Instance.sence2Prefab:Clear();
+		CS.GF.Common.ObjectPool.Instance.pathPrefabs:Clear();
+		CS.GF.Common.ObjectPool.Instance.spawnedObjects:Clear();
+		CS.GF.Common.ObjectPool.Instance.pooledObjects:Clear();
+		CS.UnityEngine.Object.DestroyImmediate(CS.GF.Common.ObjectPool.Instance.gameObject);
+		local iter = CS.ResManager.spineInstanceObj:GetEnumerator();
+		while iter:MoveNext() do
+			local res = iter.Current.Value;
+			if res.prefabInstante ~= nil and not res.prefabInstante:isNull() then
+				CS.UnityEngine.Object.DestroyImmediate(res.prefabInstante);
+			end
+			res.originalPrefab = nil;
+		end
+		CS.ResManager.spineInstanceObj:Clear();
+		local iter1 = CS.ResManager.url_instancePrefab:GetEnumerator();
+		while iter1:MoveNext() do
+			local res = iter1.Current.Value;
+			if res.prefabInstante ~= nil and not res.prefabInstante:isNull() then
+				CS.UnityEngine.Object.DestroyImmediate(res.prefabInstante);
+			end
+			res.originalPrefab = nil;
+		end
+		CS.ResManager.url_instancePrefab:Clear();		
 	end
+	CS.ResManager.currentSprites:Clear();
 	CS.ResManager.path_Obj:Clear();
 	CS.ResManager.resourceObj:Clear();
 	CS.ResManager.allcomponents:Clear();
 	CS.ResManager.path_Sprite:Clear();
 	CS.ResManager.path_SpriteAplha:Clear();
-	local iter = CS.ResManager.spineInstanceObj:GetEnumerator();
-	while iter:MoveNext() do
-		local res = iter.Current.Value;
-		if res.prefabInstante ~= nil and not res.prefabInstante:isNull() then
-			CS.UnityEngine.Object.DestroyImmediate(res.prefabInstante);
+	if deep then
+		local abres = CS.ResManager.abpath_AB:GetEnumerator();
+		while abres:MoveNext() do
+			local ab = abres.Current.Value;
+			if ab ~= nil and not ab:isNull() then
+				ab:Unload(false);
+			end
+			if deep then			
+				ab = nil;
+			end
 		end
-		res.originalPrefab = nil;
-	end
-	CS.ResManager.spineInstanceObj:Clear();
-	local iter1 = CS.ResManager.url_instancePrefab:GetEnumerator();
-	while iter1:MoveNext() do
-		local res = iter1.Current.Value;
-		if res.prefabInstante ~= nil and not res.prefabInstante:isNull() then
-			CS.UnityEngine.Object.DestroyImmediate(res.prefabInstante);
+		local streamabres = CS.ResManager.streamingabpath_AB:GetEnumerator();
+		while streamabres:MoveNext() do
+			local ab = streamabres.Current.Value;
+			if ab ~= nil and not ab:isNull() then
+				ab:Unload(false);
+			end
+			if deep then
+				ab = nil;
+			end
 		end
-		res.originalPrefab = nil;
 	end
-	CS.ResManager.url_instancePrefab:Clear();
-	CS.UnityEngine.AssetBundle.UnloadAllAssetBundles(false);
+	--CS.UnityEngine.AssetBundle.UnloadAllAssetBundles(false);
 	print("ClearRes");
 end
 

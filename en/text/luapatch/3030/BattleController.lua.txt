@@ -33,6 +33,8 @@ local CreateFriendlyCharacter = function(self)
 	else
 		xlua.hotfix(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',nil)
 	end
+	
+	self.transform:Find("Canvas/DynamicCanvas/DPS").localPosition = CS.UnityEngine.Vector3(807,296.6,60)
 	return v
 end
 
