@@ -1,6 +1,8 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentController)
 xlua.private_accessible(CS.GameData)
+xlua.private_accessible(CS.DeploymentEnemyTeamController)
+xlua.private_accessible(CS.DeploymentAllyTeamController)
 
 local RequestEndAllFriendTurnHandle = function(self,data)
 	if data.jsonData:Contains("spot_trans") then
@@ -41,7 +43,17 @@ local RequestEndEnemyTurn = function(self)
 	end
 	self:RequestEndEnemyTurn();
 end
+local RequestStartTurn = function(self)
+	self:RequestStartTurn();
+	for i=0,self.enemyTeams.Count-1 do
+		self.enemyTeams[i].lastbelong = CS.Belong.hide;
+	end
+	for i=0,self.allyTeams.Count-1 do
+		self.allyTeams[i].lastbelong = CS.Belong.hide;
+	end
+end
 util.hotfix_ex(CS.DeploymentController,'RequestEndAllFriendTurnHandle',RequestEndAllFriendTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerStartMissionEvent',TriggerStartMissionEvent)
 util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'RequestEndEnemyTurn',RequestEndEnemyTurn)
+util.hotfix_ex(CS.DeploymentController,'RequestStartTurn',RequestStartTurn)
