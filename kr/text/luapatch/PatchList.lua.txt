@@ -211,7 +211,8 @@ patch3020=
 "3020/Live2DModelController",
 "3020/FriendShopGoodController",
 "3020/DormFurniturePieceController",
-"3020/SangvisLeaderLabelController",			
+"3020/SangvisLeaderLabelController",
+"3020/SkinDisplayController",			
 }
 patch3030=
 {
@@ -228,10 +229,12 @@ patch3030=
 "3030/DeploymentAutoBattleController",
 "3030/DeploymentBackgroundController",
 "3030/DeploymentSquadListInfoController",
+"3030/DeploymentEnemyInfoNew",	
 "3030/GuideDeploymentController",					
 "3030/CommonGetNewGunController",
 "3030/MissionSkillData",
-"3030/MissionData",		
+"3030/MissionData",
+"3030/MissionOtherData",			
 "3030/GetEquipItem",
 "3030/SpotNightQuad",	
 "3030/BattleCharacterControllerNew",	
@@ -245,7 +248,8 @@ patch3030=
 "3030/VehicleComponent",
 "3030/AdjutantChooseSangvisLabel",	
 "3030/BattleUILifeBarController",
-"3030/DailyGameAutoPlanController",	
+"3030/DailyGameAutoPlanController",
+"3030/DailyGameAutoPlanSettlement",		
 "3030/Vehicle",
 "3030/CommonColorItemController",
 "3030/DailyExploreDifficultyPreview",
@@ -275,11 +279,15 @@ patch3030=
 "3030/IllusBookVehicleComponentListController",
 "3030/BattleFieldTeamHolderNew",
 "3030/SkillUtils",
-"3030/LoginController",
+--"3030/LoginController",
 "3030/ReinforcementController",
 "3030/CommonEquipmentListGunInfoController",
 "3030/DailyExploreGameManager",
-"3030/AutoFormationData",	
+"3030/AutoFormationData",
+"3030/SquadStateController",
+"3030/SkinDisplayController",
+"3030/MissionSelectionMissionDetailController",
+"3030/AdjustAdjutantScaleController",				
 }
 -- va11
 print("load Va11");
