@@ -13,6 +13,11 @@ local _SpineChangeOneComponent = function(self,slot_id,skin)
 		self.fakeComponents[slot_id - 1] = comTmp;
 	end
 	self:SpineChangeOneComponent(slot_id,skin);
+	if self.vehicleSpineBuilder ~=nil and self.vehicleSpineBuilder.transform.childCount == 2 then
+		if self.vehicleSpineBuilder.transform:GetChild(0) ~=nil then
+			CS.Utility.Destroy(self.vehicleSpineBuilder.transform:GetChild(0).gameObject);		
+		end
+	end
 end
 
 local _SpineTakeOffOneSkin = function(self,slot_id)
@@ -49,6 +54,34 @@ local _ChooseOneSkin = function(self,good,skin)
 		end
 	end
 end
+
+local _LoadVehicleSpine = function(self)
+	if self.vehicleHasChange then
+		self.buildComEffectPool:Clear()
+	end
+	self:LoadVehicleSpine()
+end
+
+local _SpineChangeBodySkin = function(self, skin)
+	self.buildComEffectPool:Clear()
+	self:SpineChangeBodySkin(skin)	
+end
+
+local _SpineTakeoffBodySkin = function(self)
+	self.buildComEffectPool:Clear()
+	self:SpineTakeoffBodySkin()	
+end
+
+local _SpineChangeOriginBodySkin = function(self)
+	self.buildComEffectPool:Clear()
+	self:SpineChangeOriginBodySkin()	
+end
+
 util.hotfix_ex(CS.VehicleStoreCtrl,'SpineChangeOneComponent',_SpineChangeOneComponent)
 util.hotfix_ex(CS.VehicleStoreCtrl,'SpineTakeOffOneSkin',_SpineTakeOffOneSkin)
 util.hotfix_ex(CS.VehicleStoreCtrl,'ChooseOneSkin',_ChooseOneSkin)
+util.hotfix_ex(CS.VehicleStoreCtrl,'LoadVehicleSpine',_LoadVehicleSpine)
+util.hotfix_ex(CS.VehicleStoreCtrl,'SpineChangeBodySkin',_SpineChangeBodySkin)
+util.hotfix_ex(CS.VehicleStoreCtrl,'SpineTakeoffBodySkin',_SpineTakeoffBodySkin)
+util.hotfix_ex(CS.VehicleStoreCtrl,'SpineChangeOriginBodySkin',_SpineChangeOriginBodySkin)
+
