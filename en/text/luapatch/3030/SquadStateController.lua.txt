@@ -14,6 +14,8 @@ local Start = function(self)
 		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(190086);
 		txtPoint = self.transform:Find("SquadChip/Right/NeedResources/Up/RessourcesUp2/Tex_ResName");
 		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(190087);
+		txtPoint = self.transform:Find("SquadChip/Right/NeedResources/Lock/RessourcesLock2/Tex_ResName");
+		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(190307);
 	end
 end
 

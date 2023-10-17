@@ -211,7 +211,8 @@ patch3020=
 "3020/Live2DModelController",
 "3020/FriendShopGoodController",
 "3020/DormFurniturePieceController",
-"3020/SangvisLeaderLabelController",			
+"3020/SangvisLeaderLabelController",
+"3020/SkinDisplayController",			
 }
 patch3030=
 {
@@ -283,7 +284,9 @@ patch3030=
 "3030/DailyExploreGameManager",
 "3030/AutoFormationData",
 "3030/SquadStateController",
-"3030/MissionSelectionMissionDetailController",			
+"3030/SkinDisplayController",
+"3030/MissionSelectionMissionDetailController",
+"3030/AdjustAdjutantScaleController",				
 }
 -- va11
 print("load Va11");
