@@ -1,49 +1,49 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>8</BIN><BGM>BGM_22Swim_langrensha</BGM>:深夜，格里芬指挥室。
-()||:桌面上的黑咖啡已经冷却。+指挥官焦虑地扶额深思，指尖不时敲击桌面，激起杯中的一圈圈涟漪。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||<SE1>AVG_tele_disconnect</SE1>:不行，还是打不通……
-()||:格琳娜看着大屏幕上毫无应答的通讯提示，满脸忧虑。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:都这个点了，对方该不会下班了吧？+要不然，我们拜托帕斯卡小姐——
-NPC-Kalin(4)<同时置暗><Speaker>指挥官</Speaker>||: 她正在折腾新的研究，如果你愿意给她冲一辈子咖啡……
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:……我觉得这个事情也没有如此紧急。
-()<Speaker>指挥官</Speaker>||: ……
-()||<SE1>AVG_tele_connect</SE1>:滴。+通讯应答！
-()||<SE1>AVG_Cloak_Whoosh</SE1>:倏忽间，指挥官激动地从座椅上跳了起来。
-()<Speaker>指挥官</Speaker>||:谢天谢地！+德尔，万分紧急！ 
-()||:德尔一脸困意地打开灯，通讯画面里映出一张顶着凌乱头发的年轻面庞。
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>呵……（呵欠）……原来是指挥官啊。</color>+<color=#00CCFF>又想在失眠的夜晚找我打游戏吗？今晚可不行……</color>
-NPC-Deele(0)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:不是的！之前拜托你制作的补考程序，现在出了点故障……
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>哈啊？</color>
-()||:德尔眉头一皱，困意全无。
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>我亲手做出来的程序怎么会有故障？！</color>+<color=#00CCFF>这绝对不可能！</color>+<color=#00CCFF>你们格里芬的人是不是动了什么不该动的东西？要不就是没按说明书操作！</color>
-()<Speaker>指挥官</Speaker>||:格琳，同步一下作战记录给他！
-()||<SE1>AVG_whitenoise</SE1>:格琳娜立刻调取程序内的录像信息，传送了过去。
+()||<黑屏2><BIN>8</BIN><BGM>BGM_22Swim_langrensha</BGM>:심야, 그리폰 지휘실.
+()||:탁자 위의 블랙 커피는 이미 식어버린 지 오래.+잔의 주인인 지휘관은 이마를 짚은 채, 손가락으로 탁상을 초조하게 두드려대 커피잔의 수면에 물결을 일으켰다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||<SE1>AVG_tele_disconnect</SE1>:안 돼요, 여전히 연락을 안 받아요...
+()||:대형 스크린에 띄워진 묵묵부답인 통신 요청을 보며, 카리나도 옆에서 발을 동동 굴렀다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:시간이 시간이니 이미 퇴근한 거 아닐까요?+정 안 되면 페르시카 씨한테 부탁드리는 게...
+NPC-Kalin(4)<同时置暗><Speaker>지휘관</Speaker>||:지금 새로운 연구로 바쁘시더라. 네가 평생 박사님 커피 타 드릴 생각이라면야...
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:그으... 정도로 급한 일은 아닌 것 같네요!
+()<Speaker>지휘관</Speaker>||:하하하...
+()||<SE1>AVG_tele_connect</SE1>:삐익.+그때, 통신에 응답이 왔다.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:그 순간 지휘관은 의자에서 펄쩍 뛰어올랐다.
+()<Speaker>지휘관</Speaker>||:살았다!+데레! 미안하지만 비상 사태야!
+()||:소년은 지금 등불을 켜며 아주 피곤해 죽겠단 얼굴을 화면에 들이밀었다.
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>후으아암... 뭐어야, 지휘관이었어...?</color>+<color=#00CCFF>또 잠 안 오니까 게임하잔 거야? 미안하지만 오늘은――</color>
+NPC-Deele(0)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:그게 아니야! 저번에 네게 부탁했던 보충 시험 프로그램이 고장난 것 같아서 연락했어.
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>――하?</color>
+()||:그 말을 듣자마자, 데레는 졸음이 사라진 얼굴로 눈살을 찌푸렸다.
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>내가 직접 만든 프로그램이 무슨 고장이야!?</color>+<color=#00CCFF>말도 안 돼! 뻥 까지 마!</color>+<color=#00CCFF>그쪽에서 뭐 건드린 거 아니야? 설명서 똑바로 보고 조작했어?</color>
+()<Speaker>지휘관</Speaker>||:카리나, 영상 기록 보내 줘.
+()||<SE1>AVG_whitenoise</SE1>:카리나는 냉큼 영상 파일을 전송했다.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>563</BIN><回忆>:
-UMP45Mod(1)<Speaker>UMP45?</Speaker>||:……+这种程度，也算是精英人形吗？
+UMP45Mod(1)<Speaker>UMP45?</Speaker>||:이런 이런...+겨우 이 정도밖에 못 하면서 엘리트 전술인형이라 할 수 있겠어?
 ()||<黑屏1>:
 ()||<黑屏2><BIN>8</BIN><关闭蒙版>:
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>诶？这、这……</color>+<color=#00CCFF>你稍等一下！</color>
-()||<SE1>AVG_Camera_Focus</SE1>:德尔慌乱地戴上设备。
-()||<SE1>AVG_2022Saros_Keyboard</SE1>:屏幕那端立刻传来一阵噼里啪啦的键盘声和机器运作声……
-()||:……
-()||:仿佛等待了一个世纪的漫长时间后，德尔终于再度出现在镜头前。
-()<Speaker>指挥官</Speaker>||:怎么样？
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>嘶……该怎么解释呢……</color>+<color=#00CCFF>我好像把404魔鬼训练程序的代码嵌进去了……</color>
-()<Speaker>指挥官</Speaker>||:魔鬼训练程序？
-()||:德尔挠了挠头。
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>事情是这样……</color>+<color=#00CCFF>为了提升404的作战性能，45特地找我开发了一套模拟作战程序。</color>+<color=#00CCFF>这个程序的核心是通过不断的循环作战，最大限度激发人形的潜能。</color>+<color=#00CCFF>循环以三次作战为一个周期，每经历一个周期，战役的难度就会翻倍。</color>+<color=#00CCFF>更糟糕的是，哪怕人形在战役中表现得再好，45的AI还是会跳出来说“不行啊，不够完美”，然后进入下一次循环……</color>
-NPC-Deele(0)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:那怎么样才能跳出循环？
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>这个嘛……只要全部人形都丧失作战能力，系统就会自动退出了。</color>
-NPC-Deele(0)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:……这么魔鬼的吗？！！
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>你别急啊，指挥官。</color>+<color=#00CCFF>我刚才说的只是正常流程，除此之外我们还可以想办法开后门嘛。</color>+<color=#00CCFF>比如说……我可以给你写一个系统补丁，让她们在这一次的循环之后不必再循环了，这样就……</color>
-NPC-Deele(0)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:那你倒是快点啊！
-NPC-Deele(0)<通讯框><Speaker>德尔</Speaker>||:<color=#00CCFF>行行行！给我5分钟，这就发你！</color>
-()||<SE1>AVG_tele_disconnect</SE1>:德尔的身影再次闪出了通讯框。+指挥官叹了口气。
-()<Speaker>指挥官</Speaker>||:格琳，你先去考场那边等着，我一拿到补丁立刻发你，你以最快的速度把它安装进去！+晚一秒，她们都有可能开启全新的循环，接着遭罪……
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:明白！+不过，我还有个小小的疑问，等她们出来，我们该怎么解释这一切？
-()||:回想起刚才在作战记录中看到的画面，补考小队四人义愤填膺的表情……指挥官忽而后背一凉。+喉头艰难地吞咽一下，指挥官吸了口气，稳住心神。
-()<Speaker>指挥官</Speaker>||:……别怕，格琳。+交给我吧，我等会儿亲自向她们解释！+看在我的面子上，只要真诚地道歉，也许她们会既往不咎——+不，她们一定会的！
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:唔……好像也只能这样了。+那我先过去了！指挥官，你要坚强！
-()||:指挥官点了点头，凝视着格琳娜的身影消失在指挥室门外……
-()||<黑点1>:
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>어...? 이, 이건...?!</color>+<color=#00CCFF>잠깐만 기다려 봐!</color>
+()||<SE1>AVG_Camera_Focus</SE1>:목소리를 들은 데레가 화들짝 놀라더니, 황급히 헤드셋을 쓰며 화면 밖으로 사라졌다.
+()||<SE1>AVG_2022Saros_Keyboard</SE1>:그렇게 잠시 키보드를 마구 두들기는 소리와 기계가 돌아가는 소리만 들렸다.
+()||:......
+()||:거의 한 세기처럼 느껴진 기다림 끝에, 데레가 다시 화면에 나타났다.
+()<Speaker>지휘관</Speaker>||:어때?
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>쓰읍... 이걸 어떻게 설명하지...</color>+<color=#00CCFF>그러니까, 아무래도 내가 "404 지옥 훈련" 프로그램의 코드를 실수로 넣어버렸나 봐...</color>
+()<Speaker>지휘관</Speaker>||:"지옥 훈련"...?
+()||:데레는 머리를 긁적이며 설명했다.
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>그게 뭐냐면... 예전에 45가 404 소대의 작전 효율을 높이겠답시고 날 들들 볶아서 만들게 한 모의전 프로그램이거든?</color>+<color=#00CCFF>모의 작전을 3번 완료할 때마다 1회 루프하는 식의.</color>+<color=#00CCFF>끊임없이 반복 수행으로 전술인형의 잠재력을 최대한 이끌어낸다는, 나름 취지 자체는 괜찮은 건데...</color>+<color=#00CCFF>문제는, 매 루프마다 난이도가 2배로 껑충 상승한단 말이지...</color>+<color=#00CCFF>게다가 끔찍하게스리 아무리 잘하더라도 무조건 45 모습의 AI가 나와서 "안 돼, 안 보내줘, 돌아가"라면서 다음 루프로 보내버리고...</color>
+NPC-Deele(0)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:그럼 루프에서 빠져나올 방법은?
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>...모든 참가자가 작전 지속 능력을 상실하면 자동 로그아웃되게 되어 있어.</color>
+NPC-Deele(0)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:그냥 지옥이잖아?!!
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>아, 아무튼 진정해 지휘관!</color>+<color=#00CCFF>그건 그냥 놔뒀을 때의 얘기고, 백도어를 심는다든지 하면 되잖아?</color>+<color=#00CCFF>내가 이번 루프 끝나는 대로 바로 나올 수 있도록 시스템 패치 만들 테니까... 그러니까...</color>
+NPC-Deele(0)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:그럼 빨리 해!
+NPC-Deele(0)<通讯框><Speaker>데레</Speaker>||:<color=#00CCFF>OKOKOK 5분만 기다려! 금방 만들게!</color>
+()||<SE1>AVG_tele_disconnect</SE1>:데레는 다시 화면 밖으로 휙 사라졌다.+이를 본 지휘관은 아주 복잡한 심경이 담긴 한숨을 내쉬었다.
+()<Speaker>지휘관</Speaker>||:카리나, 먼저 시험장에 가서 기다려 줄래? 내가 패치 받는대로 보낼 테니 받아서 바로 설치해.+지금 이 순간에도 그 애들은 고통받고 있을 거야...
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:알겠습니다!+그런데요 지휘관님... 애들이 나오면 어떻게 설명해 주죠...?
+()||:그 말에 아까 영상 기록에서 본, 보충 시험 소대의 악에 받친 표정들이 떠올랐다.+지휘관은 등골이 오싹해져 마른 침을 꿀꺽 삼키고, 심호흡하며 침착함을 유지하려 애썼다.
+()<Speaker>지휘관</Speaker>||:......괜찮아, 괜찮을 거야, 카리나.+나한테 맡겨, 이따 애들 나오면 내가 직접 설명할게.+진심으로 사과하면 걔네도 이해해 줄지도...+...아니, 분명 이해해 줄 거야!
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:으음... 일단은 그럴 수밖에 없겠네요.+그럼 가서 기다리고 있을게요! 지휘관님 화이팅!
+()||:지휘관은 고개를 끄덕이고, 지휘실을 나서는 카리나의 뒷모습을 지켜봤다.
+()||<黑点1>:

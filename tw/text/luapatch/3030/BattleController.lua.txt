@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.GF.Battle.BattleController)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterManager)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
 xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
 xlua.private_accessible(CS.GF.Battle.BattleMemberData)
@@ -20,6 +21,10 @@ local Scout = function(self)
 	end
 	self:Scout()
 end
+local DeathClear = function(self)
+	
+	self:DeathClear()
+end
 local CreateFriendlyCharacter = function(self)
 	
 	local v = self:CreateFriendlyCharacter()
@@ -32,6 +37,11 @@ local CreateFriendlyCharacter = function(self)
 		util.hotfix_ex(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',Scout)
 	else
 		xlua.hotfix(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',nil)
+	end
+	if self.EntranceType == CS.BattleEntranceType.Theater then
+		util.hotfix_ex(CS.GF.Battle.BattleCharacterManager,'DeathClear',DeathClear)
+	else
+		xlua.hotfix(CS.GF.Battle.BattleCharacterManager,'DeathClear',nil)
 	end
 	
 	self.transform:Find("Canvas/DynamicCanvas/DPS").localPosition = CS.UnityEngine.Vector3(807,296.6,60)
@@ -53,6 +63,11 @@ local CloseDeploymentMoni = function()
 	CS.GF.Battle.BattleController.CloseDeploymentMoni();
 end
 
+local CheckTheaterEnemyTypeNum = function(self)
+	self.DictEnemyTypeDieTimeStatistic = CS.GF.Battle.BattleDynamicData.DictEnemyTypeDieTimeStatistic
+end
+
 util.hotfix_ex(CS.GF.Battle.BattleController,'CreateFriendlyCharacter',CreateFriendlyCharacter)
 util.hotfix_ex(CS.GF.Battle.BattleController,'NeedShowVehicleForwardBtn',NeedShowVehicleForwardBtn)
 util.hotfix_ex(CS.GF.Battle.BattleController,'CloseDeploymentMoni',CloseDeploymentMoni)
+util.hotfix_ex(CS.GF.Battle.BattleController,'CheckTheaterEnemyTypeNum',CheckTheaterEnemyTypeNum)

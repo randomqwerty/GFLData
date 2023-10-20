@@ -1,38 +1,38 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>85</BIN><BGM>BGM_22Swim_langrensha</BGM>:傍晚，格里芬办公室
-()||<SE1>AVG_tele_connect</SE1>:滴。+信息提示音将睡眼惺忪的格琳娜唤醒。
-()||<SE1>ClothingUp</SE1>:她打着呵欠从堆积如山的作战报告书中支起脑袋。+连日不分昼夜的加班令她极度疲惫，竟不知不觉趴在桌上睡了过去。
-NPC-Kalin(12)<Speaker>格琳娜</Speaker>||:唔……+到点……下班了吗？
-()||:格琳娜点开平板，却只发现指挥官刚发来的1条未读讯息。
-()<Speaker>指挥官的讯息</Speaker>||:<color=#00CCFF>格琳，补考出成绩了吗？</color>
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:噗，还真是关心这次补考啊。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:放轻松啦，难度已经调到最低，何况还加入了汤姆森，就算其他三个人拖后腿十五分钟都能搞定。+……
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:咦？等一下！
-()||:格琳娜瞪大眼睛，反复确认着屏幕上的时间。
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:不会吧？！补考居然过去……两个小时了？！+什么情况？！
-()||<SE1>RunStep</SE1><黑屏1>:格琳娜迅速揣着指挥平板，风一般冲出办公室……
+()||<黑屏2><BIN>85</BIN><BGM>BGM_22Swim_langrensha</BGM>:저녁, 그리폰 사무실.
+()||<SE1>AVG_tele_connect</SE1>:삐익.+메시지 착신음이 카리나를 졸음에서 깨웠다.
+()||<SE1>ClothingUp</SE1>:책상 위에 산처럼 쌓인 작전보고서 더미 사이로 고개를 든 카리나는 나른하게 하품했다.+연일된 야근으로 너무나도 피로해서, 어느샌가 그녀 자신도 모르게 잠들어 버린 모양이었다.
+NPC-Kalin(12)<Speaker>카리나</Speaker>||:끄응...+퇴근... 시간인가?
+()||:소리가 난 태블릿을 확인하니, 방금 지휘관이 보낸 메시지가 깜빡이고 있었다.
+()<Speaker>지휘관의 메시지</Speaker>||:<color=#00CCFF>카리나, 보충 시험 성적 나왔니?</color>
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:으휴, 이번 보충 시험 걱정 엄청 하시네.
+NPC-Kalin(1)<Speaker>카리나</Speaker>||:안심하세요~ 난이도 최하로 맞춰 놨고 톰슨까지 있으니까, 다른 셋이 아예 드러눕더라도 길어봤자 15분이면...+......?
+NPC-Kalin(2)<Speaker>카리나</Speaker>||:얼레?!
+()||:태블릿 화면 한켠의 현재 시각을 확인할수록, 카리나의 눈이 점점 커졌다.
+NPC-Kalin(8)<Speaker>카리나</Speaker>||:그, 그럴 리가! 보충 시험 시작하고... 벌써 2시간이나 지났다고?!+어떻게 된 일이지!?
+()||<SE1>RunStep</SE1><黑屏1>:카리나는 황급히 태블릿을 챙기고 벌떡 일어나, 쏜살같이 사무실을 나섰다.
 ()||<黑屏2><BIN>388</BIN>:
-()||<SE1>AVG_Door_Hit</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:砰！+格琳娜猛地推开大门。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:呼……呼……！+大家久等了！我来回收考卷啦！
-()||:然而，回答她的却是一片沉寂。+汤姆森、希诺、80式和CMR-30静静地趴在桌面上，和两个小时前一模一样。+主机顶部急促地闪烁着红灯，仿佛预示着战况的激烈。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:……
-()||<SE1>AVG_Camera_Focus</SE1>:格琳娜不安地抿了抿唇，旋即想到什么，迅速抄起连接线，将指挥平板与主机进行链接。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:监考通道……后台数据……+有了！+……+当前考试进度——21%。+敌方战力值……
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:哈啊？！六位数？！
-NPC-Kalin(2)<同时置暗><Speaker></Speaker>||:格琳娜反复确认着有没有遗漏小数点，可努力了几遍，都是徒劳。
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:怎、怎么会这样……+等等，冷静！作战录像在哪里……
-()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:格琳娜伸出颤抖的手，点开了作战记录。+一片黑色的虚空中，被人形们指认为“陌生少女”的神秘人渐渐浮现。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:这不是——+天啊！
-()||<SE1>AVG_tele_connect</SE1>:滴。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>喂？</color>
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:指挥官！十万火急！！！+快看我发您的监控画面！
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>……？</color>
-()||<SE1>AVG_File_Put</SE1>:通讯那端传来指尖敲击屏幕的声响，旋即陷入一瞬的沉寂。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>……敌人和难度都远超补考的要求……</color>+<color=#00CCFF>能不能直接停下来？</color>
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:不太行啊，指挥官！贸然登出可能导致系统运行异常，心智受损……
-()||:指挥官叹了口气。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>事到如今……只能联系制作关卡的工程师了。</color>
-NPC-Kalin(4)<Speaker>格琳娜</Speaker>||:那我来指挥室和您会合！+希望一切还来得及……
-()||<SE1>AVG_tele_disconnect</SE1>:滴。通讯挂断。
-()||<SE1>AVG_20Winter_Door_Close</SE1>:格琳娜焦急地关上门，朝指挥室飞奔而去……
-()||<黑点1>:
+()||<SE1>AVG_Door_Hit</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:쾅!+보충 시험장의 문이 벌컥 열렸다.
+NPC-Kalin(1)<Speaker>카리나</Speaker>||:헥... 헥...+늦어서 미안해 얘들아! 시험 결과 확인하러 왔어!
+()||:허나 돌아온 것은 대답이 아닌 정적이었다.+CMR-30, 80식, 시노는 물론 톰슨까지, 2시간 전처럼 여전히, 조용히 책상 위에 엎드린 그대로였다.+단지 시험용으로 가져왔던 휴대용 서버의 램프가 붉게 깜빡이는 것이, 안에서 벌어지는 전투의 치열함을 말해 주는 것 같았다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:......
+()||<SE1>AVG_Camera_Focus</SE1>:카리나는 불안감에 입술을 핥고는, 케이블을 꺼내 휴대용 서버에 태블릿을 연결했다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:감독관 채널, 백그라운드 데이터...+찾았다!+으음...+현재 시험 진도... 21%?+그럴 리가, 적 작전능력은...
+NPC-Kalin(2)<Speaker>카리나</Speaker>||:여섯 자리?!
+NPC-Kalin(2)<同时置暗><Speaker></Speaker>||:설마 소수점을 잘못 본 것은 아닌가, 카리나는 몇 번이고 확인해 봤지만 수치는 정확했다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:이, 이럴 리가 없는데...!+치치치, 침착하자! 영상 기록이 남도록 설정했으니 확인을...!
+()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:카리나는 떨리는 손으로 작전 영상 기록을 열어보았다.+그리고 본 것은, 시커먼 어둠 속에서 모습을 드러낸, 인형들이 "낯선 소녀"라 부른 인물이었다.
+NPC-Kalin(2)<Speaker>카리나</Speaker>||:아니 얘는... 세상에.+...큰일났다.
+()||<SE1>AVG_tele_connect</SE1>:삐익.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>여보세요?</color>
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:지휘관님! 긴급 상황이에요!+지금 제가 보낸 영상 파일 빨리 확인해 보세요!
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>...?</color>
+()||<SE1>AVG_File_Put</SE1>:통신 너머로 손가락으로 스크린을 두드리는 소리가 나고, 잠시 침묵이 감돌았다.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>적의 수준도 난이도도 전부 보충 시험의 수준을 한참 초과했잖아...?</color>+<color=#00CCFF>이거 중단 못 시키니?</color>
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:안 돼요, 무턱대고 강제 로그아웃시켰다간 시스템 오류로 마인드맵에 손상이 발생할 수도 있어요.
+()||:지휘관은 한숨을 내쉬었다.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>쓰읍... 그렇다면, 시험용 스테이지를 제작한 기술자한테 직접 물어볼 수밖에.</color>
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:그럼 지휘실에서 뵐게요!+제발 늦지 않아야 될 텐데...
+()||<SE1>AVG_tele_disconnect</SE1>:통신 종료.
+()||<SE1>AVG_20Winter_Door_Close</SE1>:카리나는 초조한 마음으로 문을 닫고, 지휘실로 달려갔다.
+()||<黑点1>:
