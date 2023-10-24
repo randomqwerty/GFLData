@@ -37,5 +37,17 @@ local CalcRemoteBattleEnemyRemainPercent= function(self)
 	
 end
 
-
+local InitStartingPos = function(self)
+	if self.isFriendly and (not self.isSummon) and (not self.isSquad) then
+		local BattleDynamicData = CS.GF.Battle.BattleDynamicData
+		for i=0,BattleDynamicData.listFriendlyGun.Count-1 do
+			if self.gun == BattleDynamicData.listFriendlyGun[i] then
+				self.index = i
+				break
+			end
+		end	
+	end
+	self:InitStartingPos()
+end
 util.hotfix_ex(CS.GF.Battle.BattleManager,'CalcRemoteBattleEnemyRemainPercent',CalcRemoteBattleEnemyRemainPercent)
+util.hotfix_ex(CS.GF.Battle.BattleCharacterData,'InitStartingPos',InitStartingPos)

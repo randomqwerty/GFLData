@@ -233,7 +233,8 @@ patch3030=
 "3030/GuideDeploymentController",					
 "3030/CommonGetNewGunController",
 "3030/MissionSkillData",
-"3030/MissionData",		
+"3030/MissionData",
+"3030/MissionOtherData",			
 "3030/GetEquipItem",
 "3030/SpotNightQuad",	
 "3030/BattleCharacterControllerNew",	
@@ -278,7 +279,7 @@ patch3030=
 "3030/IllusBookVehicleComponentListController",
 "3030/BattleFieldTeamHolderNew",
 "3030/SkillUtils",
---"3030/LoginController",
+"3030/LoginController",
 "3030/ReinforcementController",
 "3030/CommonEquipmentListGunInfoController",
 "3030/DailyExploreGameManager",
@@ -287,6 +288,8 @@ patch3030=
 "3030/SkinDisplayController",
 "3030/MissionSelectionMissionDetailController",
 "3030/AdjustAdjutantScaleController",				
+"3030/CommonSangvisCharacterListLabelControllerNew",
+"3030/SquadBatchChipController",
 }
 -- va11
 print("load Va11");
