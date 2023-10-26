@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.SquadStateController)
+xlua.private_accessible(CS.DormVehicleVisitLogController)
 
 local Start = function(self)
 	self:Start();
@@ -30,5 +31,7 @@ local InitUIElements = function(self)
 		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(31981);
 	end
 end
+
+
 util.hotfix_ex(CS.SquadStateController,'Start',Start)
 util.hotfix_ex(CS.DormVehicleVisitLogController,'InitUIElements',InitUIElements)

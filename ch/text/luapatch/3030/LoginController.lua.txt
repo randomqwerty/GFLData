@@ -39,7 +39,7 @@ end
 if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal then 
     --util.hotfix_ex(CS.LoginController,'Start',mReportUpload)
     if CS.ApplicationConfigData.PlatformChannelId == "ios" or CS.ApplicationConfigData.PlatformChannelId == "TapTap" or CS.ApplicationConfigData.PlatformChannelId == "GWGW" or CS.ApplicationConfigData.PlatformChannelId == "GWHF" then
-		util.hotfix_ex(CS.LoginController,'Start',mReportUpload)
+		--util.hotfix_ex(CS.LoginController,'Start',mReportUpload)
 		util.hotfix_ex(CS.AIhelpService,'Initialize',mInitialize)
 	end
 end
