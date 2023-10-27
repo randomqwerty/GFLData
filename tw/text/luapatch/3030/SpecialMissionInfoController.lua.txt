@@ -1,15 +1,14 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.SpecialMissionInfoController)
 
-local ShowNewReward = function(self)
-	self:ShowNewReward();
-	if CS.OPSPanelController.difficulty == 1 then
-		if self.opsMission~=nil and self.opsMission.missionIds.Count>0 then
-			if self.missionInfo.id == self.opsMission.missionIds[0] then
-				self.showtxtNew:Find("AutoLayoutNode/Ex").gameObject:SetActive(false);
-			end
-		end
+
+local UpdateAutoMissionTimer = function(self)
+	if self.mission == nil then
+		self.nodeDownBtn:SetActive(true);
+		self.nodeAutoActivity:SetActive(false);
+		return;
 	end
+	self:UpdateAutoMissionTimer();
 end
 
-util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
+util.hotfix_ex(CS.SpecialMissionInfoController,'UpdateAutoMissionTimer',UpdateAutoMissionTimer)

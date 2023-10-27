@@ -49,5 +49,21 @@ local InitStartingPos = function(self)
 	end
 	self:InitStartingPos()
 end
+local NeedUploadAntiData = function(self)
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then 
+		return false
+	else
+		return self:NeedUploadAntiData()
+	end
+end
+local OutputAntiData = function(self,type)
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then 
+		return
+	else
+		self:OutputAntiData(type)
+	end
+end
 util.hotfix_ex(CS.GF.Battle.BattleManager,'CalcRemoteBattleEnemyRemainPercent',CalcRemoteBattleEnemyRemainPercent)
 util.hotfix_ex(CS.GF.Battle.BattleCharacterData,'InitStartingPos',InitStartingPos)
+util.hotfix_ex(CS.GF.Battle.BattleManager,'NeedUploadAntiData',NeedUploadAntiData)
+util.hotfix_ex(CS.GF.Battle.BattleController,'OutputAntiData',OutputAntiData)

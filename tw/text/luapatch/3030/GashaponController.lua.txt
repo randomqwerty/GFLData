@@ -6,7 +6,12 @@ local _CheckSkinHaveGun = function(self,gashaPrize)
 	if gashaPrize.isSkin and gashaPrize.giftInfo ~= nil then
 		local _skinInfo = CS.GameData.listSkinInfo:GetDataById(gashaPrize.giftInfo.skin);
 		if _skinInfo ~= nil then
-			showNoGunTip = ~(CS.GameData.listGun:Exists((function(g) return g.info.id == _skinInfo.fitGun or (g.info.isMindupdate and _skinInfo.fitGun == g.info.gunInfoOtherMod.id); end)));
+			local tt = CS.GameData.listGun:Exists(
+					(
+						function(g) return g.info.id == _skinInfo.fitGun or (g.info.isMindupdate and _skinInfo.fitGun == g.info.gunInfoOtherMod.id); 
+						end)
+				);
+			showNoGunTip = tt == false;
 		end
 	end
 	return showNoGunTip;

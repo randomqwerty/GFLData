@@ -6,7 +6,7 @@ NPC-Passadou(0)<Speaker>帕薩杜</Speaker>||:「從未說過我們的愛如松�
 Spitfire(2)<Speaker>Spitfire</Speaker>||:都結束了。
 SuperSASS(2)<Speaker>SuperSASS</Speaker>||:前輩，可以從椅子下出來了……
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:……帕薩杜小姐離開了？
-SuperSASS(2)<Speaker>SuperSASS</Speaker>||:嗯，噴火前輩已經關閉了劇院控制系統。+97式霰前輩！快醒醒！
+SuperSASS(2)<Speaker>SuperSASS</Speaker>||:嗯，Spitfire前輩已經關閉了劇院控制系統。+97式霰前輩！快醒醒！
 ()||:97式霰從地上跳起，一臉驚魂未定。
 SuperSASS(2)<Speaker>SuperSASS</Speaker>||:前輩……已經都結束了。
 97typeS(2)<Speaker>97式霰</Speaker><Position>0,100</Position>||:帕薩杜小姐呢？！
@@ -40,7 +40,7 @@ SuperSASS(2)<Speaker>SuperSASS</Speaker><Shake>||:誒……
 SuperSASS(2)<Speaker>SuperSASS</Speaker>||:MDR前輩……對不起了！
 ()||<SE1>RunStep</SE1><黑屏1>:SASS一路小跑跟上了Spitfire和97式霰。
 ()||<黑屏2><BIN>18</BIN><Night><BGM>BGM_Empty</BGM>:……劇院後台。+Spitfire打開了MDR的直播，伴隨著MDR絮絮叨叨的講解，三人開始探索起了劇院。
-97typeS(2)<Speaker>97式霰</Speaker><Position>0,100</Position>||<BGM>BGM_Sneak</BGM>:噴火，你是不是覺得那個人形還在這裡？
+97typeS(2)<Speaker>97式霰</Speaker><Position>0,100</Position>||<BGM>BGM_Sneak</BGM>:Spitfire，你是不是覺得那個人形還在這裡？
 SuperSASS(2)<Speaker>SuperSASS</Speaker>||:啊！那個人形還活著嗎……
 Spitfire(2)<Speaker>Spitfire</Speaker>||:不確定，只是當時的新聞報導完全沒有提到過在劇院中發現了家用人形。+而根據劇院當時的火勢，二十分鐘左右正是火勢最旺盛的時候。+我不認為一台家用人形在這時闖入劇院能全身而退。
 Spitfire(2);97typeS(2)<Speaker>97式霰</Speaker><Position>0,100</Position>||:我還以為你發現了啥呢，人類媒體哪裡會關心家用人形的死活啊。+也就格里芬匿名版時不時出現家用人形的相關資訊了吧。
@@ -60,7 +60,7 @@ MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:咳咳，總之，阿�
 ()<Speaker>彈幕</Speaker>||:<color=#B8860B>阿爾拉看著挺憨厚的，不像是會做這種事的人啊！</color>
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:帕薩杜小姐知道了阿爾拉先生和簡·冬小姐之間的事。+但是她也有了自己的計劃……
 ()||<SE1>GF_Halloween_Femal_Cry_loop</SE1><BGM>BGM_Empty</BGM>:一陣突如其來的風將MDR的斗篷吹起。
-MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:有誰在說話嗎？+SASS？+噴火？+97式霰？
+MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:有誰在說話嗎？+SASS？+Spitfire？+97式霰？
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||<SE1>Stop_AVG_loop</SE1><黑屏1><Shake>:等等！你們人呢？！
 Spitfire(2)<Speaker>Spitfire</Speaker>||<黑屏2><BIN>18</BIN><Night><BGM>BGM_Sneak</BGM>:我猜測，這個在火災期間闖入劇院的人形是來救帕薩杜小姐的。+可能是帕薩杜小姐和阿爾拉先生成婚後購買的家用人形。
 SuperSASS(2)<Speaker>SuperSASS</Speaker>||:可是AH400是很多年前的型號了吧……+帕薩杜小姐和阿爾拉先生結婚的時間也並不長。
@@ -76,7 +76,7 @@ SuperSASS(2)<Speaker>SuperSASS</Speaker>||:連帕薩杜小姐的房間也只剩�
 Spitfire(2)<Speaker>Spitfire</Speaker>||:確實什麼線索都不剩了，我們找找道具收納的房間吧。
 ()||<黑点1>:三位人形朝著後台深處走去。
 ()||<黑点2><BGM>BGM_Empty</BGM>:幾分鐘後，MDR驚恐地跑進後台。
-MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||<BGM>m_avg_labyrinth</BGM>:SASS！噴火！97式霰！+你們在哪裡啊？別躲起來嚇我了……
+MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||<BGM>m_avg_labyrinth</BGM>:SASS！Spitfire！97式霰！+你們在哪裡啊？別躲起來嚇我了……
 ()||:沒有回應。
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:不會是在我剛剛直播的時候，一個一個不見的吧？+那麼下一個就該輪到我了……+不要啊……快接受我的通訊請求啊！
 ()||<SE1>GF_Halloween_Wind_loop</SE1>:在一片寂靜中，有誰嘆了口氣。
@@ -105,7 +105,7 @@ MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:……我聽見了！�
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:啊哈，你們藏得還挺深啊！在這個櫃子後面是不是！
 ()||<SE1>Stop_AVG_loop</SE1><黑屏1>:MDR用力推開了櫃子。
 ()||<黑屏2><BIN>9</BIN>:櫃子的後面竟然還隱藏著一個房間。+藉著微弱的光線，她看見一個人形躺在角落。
-MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:97式霰？是你吧！躲在這裡睡覺？+SASS和噴火呢？
+MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:97式霰？是你吧！躲在這裡睡覺？+SASS和Spitfire呢？
 ()||:MDR放鬆下來，她來到人形身邊，搖晃起了人形。+人形沒有回應。
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:不是吧，睡得這麼沉？
 ()||<SE1>AVG_Rain2</SE1><白屏1>:轟隆——+藉著一瞬而過的閃電，MDR看清了身邊的人形。
@@ -133,7 +133,7 @@ SuperSASS(2)<Speaker>SuperSASS</Speaker>||:……
 ()||:Spitfire走向人形殘骸，開始認真檢查起來。
 Spitfire(2)<Speaker>Spitfire</Speaker>||:AH400型號的家用人形，看來我們找到簡·冬小姐了。
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:什、什麼？這具人形是簡·冬小姐？
-SuperSASS(2)<Speaker>SuperSASS</Speaker>||:噴火前輩猜測簡·冬小姐是屬於帕薩杜小姐的人形。+因為帕薩杜小姐患病後無法登台演出，就將人形進行非法改造，代替自己演出。+但是為什麼簡·冬小姐會出現在這裡？
+SuperSASS(2)<Speaker>SuperSASS</Speaker>||:Spitfire前輩猜測簡·冬小姐是屬於帕薩杜小姐的人形。+因為帕薩杜小姐患病後無法登台演出，就將人形進行非法改造，代替自己演出。+但是為什麼簡·冬小姐會出現在這裡？
 Spitfire(2)<Speaker>Spitfire</Speaker>||:如果火災當天，登台表演的就是簡·冬小姐呢？
 97typeS(2)<Speaker>97式霰</Speaker><Position>0,100</Position>||:喂喂喂——這樣整個事情都不對勁了啊！
 MDR(2)<Speaker>MDR</Speaker><Position>0,100</Position>||:那帕薩杜小姐去哪了？！等等，我的心智好亂……
