@@ -290,6 +290,16 @@ patch3030=
 "3030/AdjustAdjutantScaleController",				
 "3030/CommonSangvisCharacterListLabelControllerNew",
 "3030/SquadBatchChipController",
+"3030/DormExplorationFormationController",
+"3030/SpecialMissionInfoController",	
+"3030/BattleUIManualSkillController",
+"3030/TheaterMissiontSettlementController",		
+"3030/VehicleSpineBuilder",
+"3030/FairyStateClothingController",
+}
+patch3040=
+{
+	 
 }
 -- va11
 print("load Va11");

@@ -63,7 +63,7 @@ ModuleSpineAI|spinecode|0,0-1,1-2,1-2-3...//移动modulespineAI配置|code|指�
 ModuleSpineInfo|spinecode|spineName|1002,1003,...//UIspine显示信息
 ModuleBuildMission|modulename|buildIndex|prefabcode|x,y|mission0-mission1//moudle上家具关卡配置
 ModuleMoveData|prefabcode|ControlTranName|leftPosX,rightPosX|num//配置的module数据num指分几段
-SpecialToogleTitle|prefabcode  //定制特殊toogleTitle
+SpecialToogleTitle|prefabcode|0  //定制特殊通用章节切换功能toogleTitle(ActivityMap文件)0代表未解锁显示当前章节1代表不显示
 ModuleSpineUI|2022SummerMissionSelector|MissionLayout/Viewport|MissionLayout/Viewport/MissionPoint|Trainholder/TrainUI|800|246//特殊UI显示界面|控制组件路径|item路径|指定UI父组件路径|选中位置|相邻间距
 MoudleMoveBackground|Img_Rail|4|2022SummerBackground-5-350,2022SummerStation-5-0//背景移动机制|铁轨组件|进入出去时间|背景预设-停留时间-铁轨当前速度
 ModuleData|prefabcode|Order|DataPath|UIPath//moudle数据配置
@@ -78,4 +78,8 @@ SpecialMissionInfoPos|-550,-550//关卡界面位置
 MapDragLimit|-100,100|-100，100//Map拖拽限制
 ItemGetLimit|itemid|prefabcode|textcountpath,textlimitpath//显示有每日道具上限的UI
 OPSRank|prefabcode|rankid
-MissionPassEffect|missionid|effectcode
+MissionPassEffect|missionid|effectcode//通关显示特效
+MissionStoryReview|prefabcode|passmissionid|Url//剧情回顾预设(第一个组件btn,第二个组件打开关闭的窗口(ActivityMap文件)
+MissionPositionContainer|0,1000,2000,3000|箭头UI里的坐标区间|//通过位置区分章节信息
+MissionPositionVedio|1000,2000,3000,4000|BBui_IntroH264,BBui_LoopH264,BBui_Intro_Prime,BBui_loop_Prime(位置播放对应视频组件允许空)
+MissionPositionNews|500,2500,3500,4500|missionid-prefabcode,missionid-prefabcode//(位置播放对应新闻组件允许空)(ActivityMap文件)
