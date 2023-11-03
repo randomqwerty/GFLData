@@ -7,16 +7,14 @@ local _InitBodySpineSlotData = function(self,clothObj,subClothObjs,vehicleNode)
 	for i=0,subClothObjs.Count-1 do
 		local subAnimation = subClothObjs[i]:GetComponent(typeof(CS.SkeletonAnimation));
 		self:InitAnimationSlotData(subAnimation, vehicleNode);
-		local _name = subClothObjs[i].name;
+		local _name = tostring(subClothObjs[i].name);
 		local nameArray = Split(_name,"_");
-		local orderStr = nameArray[#nameArray - 1];
+		local orderStr = nameArray[#nameArray];
 		local order = tonumber(orderStr);
 		if self.orderMap:ContainsKey(_name) then
-			self.orderMap[_name] = order;
-		else
-			self.orderMap:Add(_name,order);
+			self.orderMap:Remove(_name);
 		end
-		
+		self.orderMap:Add(_name,order);
 	end
 	
 	self.orderMap = self:NiXu(self.orderMap);
