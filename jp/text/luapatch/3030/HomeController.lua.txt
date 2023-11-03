@@ -5,7 +5,7 @@ xlua.private_accessible(CS.ResDownloadProcess)
 xlua.private_accessible(CS.SkeletonDataAsset)
 xlua.private_accessible(CS.DynamicDataCache)
 xlua.private_accessible(CS.ResManager)
-
+xlua.private_accessible(CS.HomeTeamListBarController)
 local ResClean = function(deep)
 	if CS.Utility.loadedLevelName ~= "Deployment" and CS.Utility.loadedLevelName ~= "Cutin" and CS.Utility.loadedLevelName ~= "Battle" then
 		CS.DynamicDataCache.Instance.cacheDataMap:Clear();
@@ -118,6 +118,13 @@ local _OnLevelWasLoaded = function(self)
 		self.transform.parent:GetComponent(typeof(CS.UnityEngine.Canvas)).enabled = false;
 	end
 end
+
+local ShowCurrentMission = function(self)
+	if CS.GameData.missionAction == nil then
+		return;
+	end
+	self:ShowCurrentMission();
+end
 util.hotfix_ex(CS.HomeController,'Awake',Awake)
 util.hotfix_ex(CS.ResCenter,'ShowDownLoadJPVoice',ShowDownLoadJPVoice)
 util.hotfix_ex(CS.ResCenter,'ShowDownLoadAddData',ShowDownLoadAddData)
@@ -125,3 +132,4 @@ util.hotfix_ex(CS.ResCenter,'CheckDownloadInHome',CheckDownloadInHome)
 util.hotfix_ex(CS.ResCenter,'BeginDownLoadAdd',BeginDownLoadAdd)
 util.hotfix_ex(CS.ResCenter,'BeginDownLoadVoice',BeginDownLoadVoice)
 util.hotfix_ex(CS.ResDownloadProcess,'_OnLevelWasLoaded',_OnLevelWasLoaded)
+util.hotfix_ex(CS.HomeTeamListBarController,'ShowCurrentMission',ShowCurrentMission)

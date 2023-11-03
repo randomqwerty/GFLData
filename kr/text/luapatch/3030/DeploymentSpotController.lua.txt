@@ -14,4 +14,15 @@ local RadarEffect = function(self)
 	return effect;
 end
 
+local GetNightCurrentShowSpots = function(self)
+	local spots = self:GetNightCurrentShowSpots();
+	for i=spots.Count - 1, 0, -1 do
+		local spot = spots[i];
+		if spot.CannotSee then
+			spots:RemoveAt(i);
+		end
+	end
+	return spots;
+end
 util.hotfix_ex(CS.DeploymentSpotController,'RadarEffect',RadarEffect)
+util.hotfix_ex(CS.DeploymentSpotController,'GetNightCurrentShowSpots',GetNightCurrentShowSpots)

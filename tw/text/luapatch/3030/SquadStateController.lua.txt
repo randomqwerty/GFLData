@@ -32,6 +32,29 @@ local InitUIElements = function(self)
 	end
 end
 
-
+local FriendShopGoodController_Start = function(self)
+	self:Start();
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		local txtPoint = self.transform:Find("HaveMask/Img_HaveBg/Tex_Have");
+		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(110012);
+	end
+end
+local ShowPlayerEnergy = function(self)
+	self:ShowPlayerEnergy();
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		local txtPoint = self.energyObj.transform:Find("Main/Text_Info");
+		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(290159);
+	end
+end
+local Awake = function(self)
+	self:Awake();
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		local txtPoint = self.transform:Find("Detail/AttriLayout/txRateMax/txName");
+		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(10204);
+	end
+end
 util.hotfix_ex(CS.SquadStateController,'Start',Start)
 util.hotfix_ex(CS.DormVehicleVisitLogController,'InitUIElements',InitUIElements)
+util.hotfix_ex(CS.FriendShopGoodController,'Start',FriendShopGoodController_Start)
+util.hotfix_ex(CS.DeploymentUIController,'ShowPlayerEnergy',ShowPlayerEnergy)
+util.hotfix_ex(CS.FormationShowEquipInfoController,'Awake',Awake)

@@ -164,7 +164,8 @@ patch3020=
 "3020/DeploymentTeamInfoController",
 "3020/DeploymentMapDragController",
 "3020/DeploymentEnemyTeamController",
-"3020/DeploymentSpotController",								
+"3020/DeploymentSpotController",
+"3020/DeploymentPlanModeController",									
 "3020/ReinforcementFixAllConfirmBoxController",
 "3020/SquadListController",	
 "3020/CommonSquadListLabelController",	
@@ -229,7 +230,8 @@ patch3030=
 "3030/DeploymentAutoBattleController",
 "3030/DeploymentBackgroundController",
 "3030/DeploymentSquadListInfoController",
-"3030/DeploymentEnemyInfoNew",	
+"3030/DeploymentEnemyInfoNew",
+"3030/DeploymentTeamBuffItem",		
 "3030/GuideDeploymentController",					
 "3030/CommonGetNewGunController",
 "3030/MissionSkillData",
@@ -296,10 +298,13 @@ patch3030=
 "3030/TheaterMissiontSettlementController",		
 "3030/VehicleSpineBuilder",
 "3030/FairyStateClothingController",
+"3030/TheaterTeamData",
+"3030/FriendChatBoxController",
+"3030/OPSPanelController",		
 }
 patch3040=
 {
-	 
+
 }
 -- va11
 print("load Va11");
