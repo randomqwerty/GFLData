@@ -46,7 +46,15 @@ local ShowPlayerEnergy = function(self)
 		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(290159);
 	end
 end
+local Init = function(self,gun,isShowEquipInfo)
+	self:Init(gun,isShowEquipInfo);
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		local txtPoint = self.transform:Find("Detail/AttriLayout/txRateMax/txName");
+		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(10204);
+	end
+end
 util.hotfix_ex(CS.SquadStateController,'Start',Start)
 util.hotfix_ex(CS.DormVehicleVisitLogController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.FriendShopGoodController,'Start',FriendShopGoodController_Start)
 util.hotfix_ex(CS.DeploymentUIController,'ShowPlayerEnergy',ShowPlayerEnergy)
+util.hotfix_ex(CS.FormationShowEquipInfoController,'Init',Init)
