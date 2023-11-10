@@ -2,6 +2,7 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.GF.Battle.BattleController)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterManager)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
+xlua.private_accessible(CS.GF.Battle.BattleMemberData)
 xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
 xlua.private_accessible(CS.GF.Battle.BattleMemberData)
 local FP = CS.TrueSync.FP
@@ -25,6 +26,16 @@ local DeathClear = function(self)
 	
 	self:DeathClear()
 end
+local GetBoneLocalPos = function(self,curFrame, boneName)
+	local tempdir = self.curDir 
+	if self.parentData.dir then
+		self.curDir = not self.curDir
+	end
+	local result = self:GetBoneLocalPos(curFrame, boneName)
+	self.curDir = tempdir
+	return result
+	
+end
 local CreateFriendlyCharacter = function(self)
 	
 	local v = self:CreateFriendlyCharacter()
@@ -43,7 +54,11 @@ local CreateFriendlyCharacter = function(self)
 	else
 		xlua.hotfix(CS.GF.Battle.BattleCharacterManager,'DeathClear',nil)
 	end
-	
+	if CS.GF.Battle.BattleDynamicData.isSangvisBattle then
+		util.hotfix_ex(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',GetBoneLocalPos)
+	else
+		xlua.hotfix(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',nil)
+	end
 	self.transform:Find("Canvas/DynamicCanvas/DPS").localPosition = CS.UnityEngine.Vector3(807,296.6,60)
 	return v
 end

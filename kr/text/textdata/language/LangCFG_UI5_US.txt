@@ -631,7 +631,7 @@
   </item>
   <item des="MissionSelection/MissionBarInAutoActive/Text_01">
     <xmlID>MissionSelection/MissionBarInAutoActive/Text_01</xmlID>
-    <rect>(86.7, 20.86),(542.3, 68)</rect>
+    <rect>(390, 34),(542.3, 68)</rect>
     <textfont>sansm</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>45</fontsize>
@@ -3827,7 +3827,7 @@
   </item>
   <item des="Factory/契约条/Text_Txt04">
     <xmlID>Factory/契约条/Text_Txt04</xmlID>
-    <rect>(140.6, 2.2),(165.4, 67.7)</rect>
+    <rect>(1119.16, 2.6),(186.84, 77.2)</rect>
     <textfont>Novecentowide-Medium</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>34</fontsize>
@@ -13331,7 +13331,7 @@
   </item>
   <item des="Assets/_Scenes/HotUpdate.unity/Cancel/Text_Cancel">
     <xmlID>Assets/_Scenes/HotUpdate.unity/Cancel/Text_Cancel</xmlID>
-    <rect>(39.4 6.82),(140 71.53)</rect>
+    <rect>(39.4,6.82),(140 71.53)</rect>
     <textfont>JDJSTE</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>40</fontsize>
@@ -13790,7 +13790,7 @@
   </item>
   <item des="Assets/_Scenes/Factory.unity/建造日志/UI_Text_19">
     <xmlID>Assets/_Scenes/Factory.unity/建造日志/UI_Text_19</xmlID>
-    <rect>(-0.5, -23.4),(156.7, 89.0)</rect>
+    <rect>(-7.31, 24.15),(123.09, 113.55)</rect>
     <textfont>moh</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>29</fontsize>
@@ -29549,18 +29549,18 @@
   </item>
   <item des="Assets/_Scenes/HotUpdate.unity/BossInfo/Tex_BossName_1">
     <xmlID>Assets/_Scenes/HotUpdate.unity/BossInfo/Tex_BossName_1</xmlID>
-    <rect>(378.2, -7.8),(1096.8, 171.3)</rect>
+    <rect>(473.09, -21.9),(1306.7, 169.6)</rect>
     <textfont>fzteyasong</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>50</fontsize>
-    <linespac>0.9</linespac>
+    <linespac>3</linespac>
     <richtext>True</richtext>
     <alignment>MiddleRight</alignment>
     <horover>Wrap</horover>
     <verover>Truncate</verover>
     <bestfit>True</bestfit>
-    <minsize>87</minsize>
-    <maxsize>97</maxsize>
+    <minsize>73</minsize>
+    <maxsize>123</maxsize>
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>
@@ -29655,7 +29655,7 @@
     <textfont>tesong</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>3</fontsize>
-    <linespac>10</linespac>
+    <linespac>1</linespac>
     <richtext>True</richtext>
     <alignment>RightCenter</alignment>
     <horover>Wrap</horover>
@@ -29668,11 +29668,11 @@
   </item>
   <item des="Assets/_Scenes/HotUpdate.unity/State1/Tex_Name_7">
     <xmlID>Assets/_Scenes/HotUpdate.unity/State1/Tex_Name_7</xmlID>
-    <rect>(-216.2, 66.8),(338.1, 67.9)</rect>
+    <rect>(-216.2, 66.8),(338.1, 76.34)</rect>
     <textfont>tesong</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>4</fontsize>
-    <linespac>5</linespac>
+    <linespac>1</linespac>
     <richtext>True</richtext>
     <alignment>RightCenter</alignment>
     <horover>Wrap</horover>
@@ -29719,11 +29719,11 @@
   </item>
   <item des="Assets/_Scenes/DailyGame.unity/Score/Tex_Point_6">
     <xmlID>Assets/_Scenes/DailyGame.unity/Score/Tex_Point_6</xmlID>
-    <rect>(224.6, 6.5),(67.1, 43.8)</rect>
+    <rect>(221.26, 4.09),(66.07, 40.22)</rect>
     <textfont>NotoSansHans-DemiLight</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>2</fontsize>
-    <linespac>1</linespac>
+    <linespac>3</linespac>
     <richtext>True</richtext>
     <alignment>MiddleCenter</alignment>
     <horover>Wrap</horover>
@@ -29734,20 +29734,37 @@
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>
-  <item des="Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_27">
-    <xmlID>Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_27</xmlID>
-    <rect>(0.0, -32.8),(104.7, 42.5)</rect>
-    <textfont>sans</textfont>
+  <item des="Assets/_Scenes/DailyGame.unity/Score/Tex_Point_7">
+    <xmlID>Assets/_Scenes/DailyGame.unity/Score/Tex_Point_7</xmlID>
+    <rect>(221.26, 4.09),(66.07, 40.22)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
     <fontstyle>Normal</fontstyle>
-    <fontsize>10</fontsize>
-    <linespac>0.8</linespac>
+    <fontsize>2</fontsize>
+    <linespac>3</linespac>
     <richtext>True</richtext>
-    <alignment>MiddleRight</alignment>
+    <alignment>MiddleCenter</alignment>
     <horover>Wrap</horover>
     <verover>Truncate</verover>
     <bestfit>True</bestfit>
-    <minsize>1</minsize>
-    <maxsize>32</maxsize>
+    <minsize>2</minsize>
+    <maxsize>28</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/DailyGame.unity/Score/Tex_Point_44">
+    <xmlID>Assets/_Scenes/DailyGame.unity/Score/Tex_Point_44</xmlID>
+    <rect>(221.26, 4.09),(66.07, 40.22)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>2</fontsize>
+    <linespac>3</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>2</minsize>
+    <maxsize>28</maxsize>
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>
@@ -29872,7 +29889,7 @@
   </item>
   <item des="Assets/_Scenes/Friend.unity/QuickButtonItem/Tex_Ready">
     <xmlID>Assets/_Scenes/Friend.unity/QuickButtonItem/Tex_Ready</xmlID>
-    <rect>(-170.4, 29.7),(120.0, 34.0)</rect>
+    <rect>(-171.34,29.7),(122, 35)</rect>
     <textfont>sans</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>33</fontsize>
@@ -29884,23 +29901,6 @@
     <bestfit>True</bestfit>
     <minsize>0</minsize>
     <maxsize>36</maxsize>
-    <isOrnamental>False</isOrnamental>
-    <ignoreOrnament>False</ignoreOrnament>
-  </item>
-    <item des="Assets/_Scenes/Friend.unity/QuickButtonItem/Tex_Ready">
-    <xmlID>Assets/_Scenes/Friend.unity/QuickButtonItem/Tex_Ready</xmlID>
-    <rect>(628.2, 537.9),(219.4, 42.7)</rect>
-    <textfont>sans</textfont>
-    <fontstyle>Normal</fontstyle>
-    <fontsize>33</fontsize>
-    <linespac>0.65</linespac>
-    <richtext>True</richtext>
-    <alignment>UpperLeft</alignment>
-    <horover>Wrap</horover>
-    <verover>Truncate</verover>
-    <bestfit>True</bestfit>
-    <minsize>3</minsize>
-    <maxsize>25</maxsize>
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>
@@ -29952,6 +29952,142 @@
     <bestfit>True</bestfit>
     <minsize>3</minsize>
     <maxsize>50</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/FormationLabel/Text">
+  <xmlID>Assets/_Scenes/HotUpdate.unity/FormationLabel/Text</xmlID>
+    <rect>(1.52, 1.9),(269.63 ,50.5)</rect>
+    <textfont>sansregular</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>32</fontsize>
+    <linespac>0.75</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/Quests.unity/Tex_Receive/Text_1">
+  <xmlID>Assets/_Scenes/Quests.unity/Tex_Receive/Text_1</xmlID>
+    <rect>(-0.03, -0.1),(140.15 ,60.55)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>32</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>43</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/DailyGame.unity/Img_Icon/Tex_Icon">
+  <xmlID>Assets/_Scenes/DailyGame.unity/Img_Icon/Tex_Icon</xmlID>
+    <rect>(18,0.62),(135 ,51.72)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>3</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>40</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+    <item des="Assets/_Scenes/HotUpdate.unity/CurrSquadScale/UI_Text">
+  <xmlID>Assets/_Scenes/HotUpdate.unity/CurrSquadScale/UI_Text</xmlID>
+    <rect>(27.6,1.84),(366.6,36.81)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>33</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>UpperLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>33</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_34">
+  <xmlID>Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_34</xmlID>
+    <rect>(-0.24,-34.75),(101.76,37.52)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>10</fontsize>
+    <linespac>0.75</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_27">
+  <xmlID>Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_27</xmlID>
+    <rect>(-0.24,-34.75),(101.76,37.52)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>10</fontsize>
+    <linespac>0.75</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_71">
+  <xmlID>Assets/_Scenes/DailyGame.unity/Btn_Deployment/Tex_Deployment_71</xmlID>
+    <rect>(-0.24,-34.75),(101.76,37.52)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>10</fontsize>
+    <linespac>0.75</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleRight</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/DailyGame.unity/Btn_Start/Tex_Start">
+  <xmlID>Assets/_Scenes/DailyGame.unity/Btn_Start/Tex_Start</xmlID>
+    <rect>(16.522,-8.05),(137.95,74.7)</rect>
+    <textfont>sans</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>3</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>42</maxsize>
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>

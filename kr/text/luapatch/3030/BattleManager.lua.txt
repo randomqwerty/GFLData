@@ -5,6 +5,7 @@ xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
 xlua.private_accessible(CS.GF.Battle.BattleManager)
 xlua.private_accessible(CS.GF.Battle.gsEffect)
 xlua.private_accessible(CS.GF.Battle.BattleCharacterManager)
+xlua.private_accessible(CS.GF.Battle.BattleFieldTeamHolderNew)
 local FP = CS.TrueSync.FP
 
 
@@ -87,7 +88,7 @@ local InitSpotActionByEntrance = function(self)
 	local flag = true
 	self:InitSpotActionByEntrance()
 	if BattleDynamicData.EntranceType == CS.BattleEntranceType.Normal then
-		if BattleDynamicData.currentSpotAction.spotInfo.id == 11468 then
+		if BattleDynamicData.currentSpotAction.spotInfo.id == 11468 or BattleDynamicData.currentSpotAction.spotInfo.id == 12504 then
 			util.hotfix_ex(CS.GF.Battle.gsEffect,'CreateInst',CreateInst)
 			util.hotfix_ex(CS.GF.Battle.BattleCharacterManager,'InitMemberOffset',InitMemberOffset)
 			flag = false
@@ -98,8 +99,32 @@ local InitSpotActionByEntrance = function(self)
 		xlua.hotfix(CS.GF.Battle.BattleCharacterManager,'InitMemberOffset',nil)
 	end
 end
+local CreateFriendlyCharacterManager = function()
+	local BattleDynamicData = CS.GF.Battle.BattleDynamicData
+	if BattleDynamicData.EntranceType == CS.BattleEntranceType.SangvisCapture then
+		for i=0,BattleDynamicData.listFriendlyGun.Count-1 do
+			local gun = BattleDynamicData.listFriendlyGun[i]
+			if gun ~= nil and gun.life > 0 then
+				if BattleDynamicData.isSingleBattleMode then
+					gun:ConvertToSingleMode()
+				end
+				local characterManager
+				if gun:GetType() == typeof(CS.SangvisGun) then
+					characterManager = CS.GF.Battle.BattleSangvisCharacterManager()
+				else
+					characterManager = CS.GF.Battle.BattleFriendlyCharacterManager()
+				end
+				characterManager:Init(gun, CS.GF.Battle.Camp.friendly, i)
+				BattleDynamicData.friendlyTeamHolder:AddCharacter(characterManager)
+			end
+		end
+	else
+		BattleDynamicData.CreateFriendlyCharacterManager()
+	end
+end
 util.hotfix_ex(CS.GF.Battle.BattleManager,'CalcRemoteBattleEnemyRemainPercent',CalcRemoteBattleEnemyRemainPercent)
 util.hotfix_ex(CS.GF.Battle.BattleManager,'InitSpotActionByEntrance',InitSpotActionByEntrance)
 util.hotfix_ex(CS.GF.Battle.BattleCharacterData,'InitStartingPos',InitStartingPos)
 util.hotfix_ex(CS.GF.Battle.BattleManager,'NeedUploadAntiData',NeedUploadAntiData)
 util.hotfix_ex(CS.GF.Battle.BattleController,'OutputAntiData',OutputAntiData)
+util.hotfix_ex(CS.GF.Battle.BattleDynamicData,'CreateFriendlyCharacterManager',CreateFriendlyCharacterManager)

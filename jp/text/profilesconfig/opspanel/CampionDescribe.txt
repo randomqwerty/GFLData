@@ -2,6 +2,7 @@
 //(部署界面配置UI特效用）
 CampaignMissionDeployEffect|itemid|prefabcode|missionid1,missionid2...|50_140,40_50;140_160,20_40;160_200|0effectPath0,0effectPath1,0effectPath2
 OPSGoto|prefabcode|0|campaionid|id//跳转或打开活动奖励|预设名|0-商城/1-主基地/2-积分奖励|campaionid|商城跳转位置/eventprizeid
+OPSReturn|2023Spring_Return|-64  //额外配置返回按钮UI
 --Campaion内部配置说明
 DiffclutyNum|2 //当前难度数目不可缺少
 MissionContainerMapSize|600,540,500,800//当前设置的(拖拽章节时)UI拖拽范围 分别为右左上下的偏移
@@ -41,7 +42,7 @@ MissionClockMissionIds|1|10891-10891,10817-10836|20|12.00,12.00//配置时钟关
 MissionClockFollow//无逻辑
 MissionClockMinDegrees|1|11.595|7200|10//配置初始参照时钟|序列|起始时间|每分钟转动角度|每分实际时间的秒倍数
 MissionBackgroundMoveSpeed//无逻辑
-MissionSpot|3|11048,11048,11048|-1300,300,0|0||6//配置点|序列|关卡|位置|checkPoint|avgpic|containerId|prefabCode
+MissionSpot|order|missionid0,missionid1,missionid2/entranceId|pos(-1300,300,0)|checkPoint(0/1)|avgpic|containerId|prefabCode|//配置点|序列|关卡|位置|checkPoint|avgpic|containerId|prefabCode
 MissionGroupSpot|0|5|11002|0,600,0|FixedPoint_MissionPanelTitle1//配置missiongroup的点|序列|containerId|missionids|位置|prefabCode
 MissionPath|0,1|1,0|400,600,0|400,0,0|//配置spot点的相连|startorder，endorder|startnode，endnode|startColPos;endColPos
 MissionPoliPath|0,1|1,1|-2258,1331,-1500;666,1846,-1500//配置相连的线使用折线
