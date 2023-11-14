@@ -299,11 +299,14 @@ patch3030=
 "3030/VehicleSpineBuilder",
 "3030/FairyStateClothingController",
 "3030/TheaterTeamData",
-"3030/OPSPanelController",		
+"3030/FriendChatBoxController",
+"3030/OPSPanelController",
+"3030/EquipGourpEquipListController",
+"3030/GriffinEntryMessageBoxController",		
 }
 patch3040=
 {
-	 
+	
 }
 -- va11
 print("load Va11");

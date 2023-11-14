@@ -23,9 +23,5 @@ local HideMap = function(self,clearteam)
 	end
 end
 
-local CheckLayerTeams = function(self,play)
-	self:CheckLayerTeams(false);
-end
 
 util.hotfix_ex(CS.DeploymentBackgroundController,'HideMap',HideMap)
-util.hotfix_ex(CS.DeploymentBackgroundController,'CheckLayerTeams',CheckLayerTeams)
