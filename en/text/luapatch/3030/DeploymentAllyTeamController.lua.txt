@@ -10,5 +10,17 @@ local Complete = function(self)
 	end
 end
 
+local CanFreeApMove = function(self)
+	if self:isVehicleTeam() then
+		return true;
+	end
+	for i=0,self.currentListBuffAction.Count-1 do
+		if self.currentListBuffAction[i].freeApMove then
+			return true;
+		end
+	end
+	return false;
+end
 
 util.hotfix_ex(CS.DeploymentAllyTeamController,'Complete',Complete)
+util.hotfix_ex(CS.DeploymentAllyTeamController,'CanFreeApMove',CanFreeApMove)

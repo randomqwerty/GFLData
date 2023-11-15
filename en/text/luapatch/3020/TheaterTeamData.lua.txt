@@ -14,4 +14,29 @@ local _CheckSquadValid = function(self)
 		end
 	end
 end
+
+local ChangeLifeToOrigin = function(self)
+	if not self.isSangvisTeam then
+		local iter = self.dictOriginalLifeWithGwuId:GetEnumerator();
+		while iter:MoveNext() do
+			local id = iter.Current.Key;
+			local hp = iter.Current.Value;
+			local gun = CS.GameData.listGun:GetDataById(id);
+			if gun ~= nil then
+				gun.life = hp;
+			end
+		end
+	else
+		local iter = self.dictOriginalLifeWithGwuId:GetEnumerator();
+		while iter:MoveNext() do
+			local id = iter.Current.Key;
+			local hp = iter.Current.Value;
+			local gun = CS.GameData.listSangvisGun:GetDataById(id);
+			if gun ~= nil then
+				gun.life = hp;
+			end
+		end
+	end
+end
 util.hotfix_ex(CS.TheaterTeamData,'CheckSquadValid',_CheckSquadValid)
+util.hotfix_ex(CS.TheaterTeamData,'ChangeLifeToOrigin',ChangeLifeToOrigin)
