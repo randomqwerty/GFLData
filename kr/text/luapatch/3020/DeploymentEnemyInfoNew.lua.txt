@@ -30,5 +30,14 @@ local ShowFriendTeamGun = function(self,friend)
 		self:ShowSelfGuns(friend.useGuns.listGun,CS.UnityEngine.Color32(179,208,37,255));
 	end
 end
+
+local InitUIElements = function(self)
+	self:InitUIElements();
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_US then
+		local txtP = self.transform:Find("Right/Btn_CancelTarget/Tex_CancelTarget");
+		txtP:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(220107);
+	end
+end
 util.hotfix_ex(CS.DeploymentEnemyInfoNew,'ShowBuildInfo',ShowBuildInfo)
 util.hotfix_ex(CS.DeploymentEnemyInfoNew,'ShowFriendTeamGun',ShowFriendTeamGun)
+util.hotfix_ex(CS.DeploymentEnemyInfoNew,'InitUIElements',InitUIElements)
