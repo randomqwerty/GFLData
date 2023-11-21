@@ -15,7 +15,7 @@
 //2019圣诞配置：
 //MissionSelectionTex|missionselect_Xmas|1
 2020万圣配置：
-MissionSelectionTex|missionselect_Halloween2020|2|-42
+//MissionSelectionTex|missionselect_Halloween2020|2|-42
 //2020全境封锁1联动配置：
 //MissionSelectionTex|missionselect_TheDivision|2
 //2020白情配置：
@@ -50,6 +50,8 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //MissionSelectionTex|missionselect_2022Summer|1|-54
 //2022烟花祭配置：
 //MissionSelectionTex|missionselect_Bikini_2022|1|-52
+//混沌落幕+配置（秃洞复刻）：
+MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -158,7 +160,7 @@ OPSLeftBGNormalActivity|-57|ZLSR_Left
 //OPSNoticeNormalActivity|-39|RE_SingNotice
 //OPSNoticeNormalActivity|-40|Bikini_2020_Notice
 //OPSNoticeNormalActivity|-41|Activity_2020S_Notice
-OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
+//OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 //OPSNoticeNormalActivity|-43|TheDivision_Notice
 //OPSNoticeNormalActivity|-44|MirrorStage_Notice
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
@@ -167,7 +169,7 @@ OPSNoticeNormalActivity|-42|Hallowmas_2020_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
-//OPSNoticeNormalActivity|-53|Isomer_Notice
+OPSNoticeNormalActivity|-53|Isomer_Notice
 //OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
@@ -228,7 +230,7 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 //OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|ZLSR_GotoMall|0|-57
 //OPSGoto|2022Summer_GotoMall|0|-54
-OPSGoto|Bikini_2022_GotoMall|0|-52
+//OPSGoto|Bikini_2022_GotoMall|0|-52
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -436,7 +438,7 @@ OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-38|100052|60|GunslingerGirl_MissionPanelTip|1
 //OPSCampaignTitleButtonTip|-40|900045|120|Bikini_2020_Tip|1
 //OPSCampaignTitleButtonTip|-41|9005|75|Activity_2020S_Tip|1
-OPSCampaignTitleButtonTip|-42|100111|120|Hallowmas_2020_Tip|1
+//OPSCampaignTitleButtonTip|-42|100111|120|Hallowmas_2020_Tip|1
 //OPSCampaignTitleButtonTip|-43|100070|60|TheDivision_Tip|1
 //OPSCampaignTitleButtonTip|-44|100077|60|MirrorStage_Tip|1
 //OPSCampaignTitleButtonTip|-46|100100|60|DropkickonMyDevil_Tip|1
