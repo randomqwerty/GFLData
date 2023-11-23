@@ -3,6 +3,7 @@ xlua.private_accessible(CS.HomeController)
 xlua.private_accessible(CS.ServerInfo)
 xlua.private_accessible(CS.GameData)
 xlua.private_accessible(CS.UserRecord)
+xlua.private_accessible(CS.ResManager)
 --xlua.private_accessible(CS.CommonGuideController)
 xlua.private_accessible(CS.HomeOperationButton)
 xlua.private_accessible(CS.NavigationController)
@@ -42,5 +43,31 @@ local _Start = function(self)
 		end
 	end
 end
+local ResClean = function(deep)
+	if deep then
+		local abres = CS.ResManager.abpath_AB:GetEnumerator();
+		while abres:MoveNext() do
+			local ab = abres.Current.Value;
+			if ab ~= nil and not ab:isNull() then
+				ab:Unload(false);
+			end
+		end
+		local streamabres = CS.ResManager.streamingabpath_AB:GetEnumerator();
+		while streamabres:MoveNext() do
+			local ab = streamabres.Current.Value;
+			if ab ~= nil and not ab:isNull() then
+				ab:Unload(false);
+			end
+		end
+		CS.ResManager.abpath_AB:Clear();
+		CS.ResManager.streamingabpath_AB:Clear();
+	end
+	CS.ResManager.ResClean(deep);
+end
+local Awake = function(self)
+	self:Awake()
+	util.hotfix_ex(CS.ResManager,'ResClean',ResClean)
+end
 util.hotfix_ex(CS.HomeOperationButton,'Start',_Start)
 util.hotfix_ex(CS.HomeController,'SevenLoginCheck',mySevenLoginCheck)
+util.hotfix_ex(CS.HomeController,'Awake',Awake)

@@ -3,7 +3,7 @@ xlua.private_accessible(CS.DeploymentController)
 xlua.private_accessible(CS.GameData)
 xlua.private_accessible(CS.DeploymentEnemyTeamController)
 xlua.private_accessible(CS.DeploymentAllyTeamController)
-
+xlua.private_accessible(CS.DeploymentBackgroundController)
 local RequestEndAllFriendTurnHandle = function(self,data)
 	if data.jsonData:Contains("spot_trans") then
 		local json = data.jsonData:GetValue("spot_trans");
@@ -52,8 +52,18 @@ local RequestStartTurn = function(self)
 		self.allyTeams[i].lastbelong = CS.Belong.hide;
 	end
 end
+local CheckSkillOnDeath = function()
+	CS.DeploymentController.Instance:CheckBuildCastSkillOnDeath();
+end
+local PlayCheckField = function(self)
+	if CS.DeploymentBackgroundController.playlayers.Count == 0 then
+		self:AddAndPlayPerformance(CheckSkillOnDeath);
+	end
+	self:PlayCheckField();	
+end
 util.hotfix_ex(CS.DeploymentController,'RequestEndAllFriendTurnHandle',RequestEndAllFriendTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerStartMissionEvent',TriggerStartMissionEvent)
 util.hotfix_ex(CS.DeploymentController,'RequestStartEnemyTurnHandle',RequestStartEnemyTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'RequestEndEnemyTurn',RequestEndEnemyTurn)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurn',RequestStartTurn)
+--util.hotfix_ex(CS.DeploymentController,'PlayCheckField',PlayCheckField)

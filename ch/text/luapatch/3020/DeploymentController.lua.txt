@@ -147,6 +147,10 @@ local CheckOnePoint = function(self)
 	end
 	self:CheckOnePoint();
 end
+local CheckDeploymentNotice = function(self)
+	self:CheckDeploymentNotice();
+	self:ViewSummary();
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -160,3 +164,4 @@ util.hotfix_ex(CS.DeploymentController,'CheckNext',CheckNext)
 util.hotfix_ex(CS.DeploymentController,'get_SangvisTeamsCount',SangvisTeamsCount)
 util.hotfix_ex(CS.DeploymentController,'TriggerAbortMissionEvent',TriggerAbortMissionEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckOnePoint',CheckOnePoint)
+util.hotfix_ex(CS.DeploymentController,'CheckDeploymentNotice',CheckDeploymentNotice)

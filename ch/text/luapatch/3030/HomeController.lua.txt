@@ -48,9 +48,6 @@ local ResClean = function(deep)
 			if ab ~= nil and not ab:isNull() then
 				ab:Unload(false);
 			end
-			if deep then			
-				ab = nil;
-			end
 		end
 		local streamabres = CS.ResManager.streamingabpath_AB:GetEnumerator();
 		while streamabres:MoveNext() do
@@ -58,10 +55,9 @@ local ResClean = function(deep)
 			if ab ~= nil and not ab:isNull() then
 				ab:Unload(false);
 			end
-			if deep then
-				ab = nil;
-			end
 		end
+		CS.ResManager.abpath_AB:Clear();
+		CS.ResManager.streamingabpath_AB:Clear();
 	end
 	--CS.UnityEngine.AssetBundle.UnloadAllAssetBundles(false);
 	print("ClearRes");

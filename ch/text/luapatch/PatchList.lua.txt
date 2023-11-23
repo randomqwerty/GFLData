@@ -213,7 +213,8 @@ patch3020=
 "3020/FriendShopGoodController",
 "3020/DormFurniturePieceController",
 "3020/SangvisLeaderLabelController",
-"3020/SkinDisplayController",			
+"3020/SkinDisplayController",		
+"3020/BattleController",	
 }
 patch3030=
 {
@@ -303,7 +304,7 @@ patch3030=
 "3030/OPSPanelController",
 "3030/EquipGourpEquipListController",
 "3030/HomeAdjutantController",
-"3030/GriffinEntryMessageBoxController",		
+"3030/GriffinEntryMessageBoxController",	
 }
 patch3040=
 {
