@@ -10,4 +10,10 @@ local ReBackView = function(self,action)
 	self:ReBackView(nil);
 	CS.DeploymentController.AddAction(CheckNext,1.5);
 end
+
+local Awake = function(self)
+	self:Awake();
+	self.setScaleMin = 10;
+end
 util.hotfix_ex(CS.DeploymentMapDragController,'ReBackView',ReBackView)
+util.hotfix_ex(CS.DeploymentMapDragController,'Awake',Awake)

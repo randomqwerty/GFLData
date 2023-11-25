@@ -2,6 +2,8 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.MallController)
 xlua.private_accessible(CS.VehicleGoodItemCtrl)
 xlua.private_accessible(CS.MallSkinDisplayItemListController)
+xlua.private_accessible(CS.ClothesStoreController)
+xlua.private_accessible(CS.WareHouseListController)
 
 local _JumpToTab = function(self,jumpType)
 	if jumpType == 3 then
@@ -52,7 +54,18 @@ local _InitData = function(self)
 	end
 	self:InitData();
 end
+local clothInitUIElements = function(self)
+	 self.effectsLayout.needRestPivotY=true;
+end
+local clothSynchronizeData = function(self,type)
+	if self.effectDataSource == nil then 
+		self.effectDataSource = CS.GameData.userCommanderEffectList;
+	end 
+	self.SynchronizeData(type);
+end
 util.hotfix_ex(CS.MallController,'JumpToTab',_JumpToTab)
 util.hotfix_ex(CS.VehicleGoodItemCtrl,'InitSkinID',_InitSkinID)
 util.hotfix_ex(CS.VehicleGoodItemCtrl,'SetName',_SetName)
 util.hotfix_ex(CS.MallSkinDisplayItemListController,'InitData',_InitData)
+util.hotfix_ex(CS.ClothesStoreController,'InitUIElements',clothInitUIElements)
+util.hotfix_ex(CS.WareHouseListController,'SynchronizeData',clothSynchronizeData)

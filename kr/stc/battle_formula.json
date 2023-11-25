@@ -13689,7 +13689,7 @@
   },
   {
     "id": 5387,
-    "formula": "$1+50"
+    "formula": "@maxdef=0?$1+50:$1+50*(1-@def/@maxdef)"
   },
   {
     "id": 5388,
@@ -13706,6 +13706,30 @@
   {
     "id": 5391,
     "formula": "1-tbuffidtier(9262)"
+  },
+  {
+    "id": 5392,
+    "formula": "sbuffidtier(9272)=1&sbuffidtier(9273)=1&sbuffidtier(9274)=1?1:0"
+  },
+  {
+    "id": 5393,
+    "formula": "sbuffidtier(9276)=1&sbuffidtier(9277)=1&sbuffidtier(9278)=1?1:0"
+  },
+  {
+    "id": 5394,
+    "formula": "sbuffidtier(9271)=1?1:0"
+  },
+  {
+    "id": 5395,
+    "formula": "sbuffidtier(9275)=1?1:0"
+  },
+  {
+    "id": 5396,
+    "formula": "(@maxlife-@life)*0.2"
+  },
+  {
+    "id": 5397,
+    "formula": "(@maxlife-@life)*0.2>0?1:0"
   },
   {
     "id": 6000,
