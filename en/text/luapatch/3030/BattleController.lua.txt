@@ -41,9 +41,14 @@ end
 local Play = function(self,bTurnToDes)
 	self:Play(bTurnToDes)
 	if not self.mFinish then
-		if self.mTargets.Count > 0 then
-			self.mTargets[0].defPos = self.mTargets[0]:GetPos()
+		if self.mSelf:GetCharacterData() ~= nil then
+			if self.mSelf:GetCharacterData().gunCode == "BossGager" then
+				if self.mTargets.Count > 0 then
+					self.mTargets[0].defPos = self.mTargets[0]:GetPos()
+				end
+			end
 		end
+		
 	end
 end
 local _HandleScrEffectEvent = function(self,pEvent)
@@ -66,6 +71,7 @@ local CreateFriendlyCharacter = function(self)
 	--else
 	--	xlua.hotfix(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',nil)
 	--end
+	print("")
 	if CS.GF.Battle.BattleDynamicData.isRemoteBattle then
 		util.hotfix_ex(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',Scout)
 	else
@@ -120,8 +126,17 @@ end
 local CheckTheaterEnemyTypeNum = function(self)
 	self.DictEnemyTypeDieTimeStatistic = CS.GF.Battle.BattleDynamicData.DictEnemyTypeDieTimeStatistic
 end
-
+local ShowSkillPerformance= function(self,obj,e)
+	self:ShowSkillPerformance(obj,e)
+	if e.data.isFriendly then
+		local character = self:GetControllerByData(e.data)
+		if character ~= nil then
+			character:PlaySkillVoice()
+		end
+	end
+end
 util.hotfix_ex(CS.GF.Battle.BattleController,'CreateFriendlyCharacter',CreateFriendlyCharacter)
 util.hotfix_ex(CS.GF.Battle.BattleController,'NeedShowVehicleForwardBtn',NeedShowVehicleForwardBtn)
 util.hotfix_ex(CS.GF.Battle.BattleController,'CloseDeploymentMoni',CloseDeploymentMoni)
 util.hotfix_ex(CS.GF.Battle.BattleController,'CheckTheaterEnemyTypeNum',CheckTheaterEnemyTypeNum)
+util.hotfix_ex(CS.GF.Battle.BattleController,'ShowSkillPerformance',ShowSkillPerformance)
