@@ -215,6 +215,7 @@ patch3020=
 "3020/SangvisLeaderLabelController",
 "3020/SkinDisplayController",		
 "3020/BattleController",	
+"3020/QuickJumpBtnController",	
 }
 patch3030=
 {
@@ -305,10 +306,11 @@ patch3030=
 "3030/EquipGourpEquipListController",
 "3030/HomeAdjutantController",
 "3030/GriffinEntryMessageBoxController",	
+"3020/QuickJumpBtnController",
 }
 patch3040=
 {
-	
+	 
 }
 -- va11
 print("load Va11");

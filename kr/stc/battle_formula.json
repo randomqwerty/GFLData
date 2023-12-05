@@ -13732,6 +13732,10 @@
     "formula": "(@maxlife-@life)*0.2>0?1:0"
   },
   {
+    "id": 5398,
+    "formula": "sbuffidtier(9269)=1?100:0"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
