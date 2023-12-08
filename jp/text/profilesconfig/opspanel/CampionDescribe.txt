@@ -81,8 +81,9 @@ ItemGetLimit|itemid|prefabcode|textcountpath,textlimitpath//显示有每日道�
 OPSRank|prefabcode|rankid
 MissionPassEffect|missionid|effectcode//通关显示特效
 MissionStoryReview|prefabcode|passmissionid|Url//剧情回顾预设(第一个组件btn,第二个组件打开关闭的窗口(ActivityMap文件)
-MissionPositionContainer|0,1000,2000,3000|箭头UI里的坐标区间|//通过位置区分章节信息
+MissionPositionContainer|0,1000,2000,3000|箭头UI里的坐标区间(暂时没用)|//通过X位置区分章节信息
 MissionPositionVedio|1000,2000,3000,4000|BBui_IntroH264,BBui_LoopH264,BBui_Intro_Prime,BBui_loop_Prime(位置播放对应视频组件允许空)
+MissionPositionBGM|1000,2000,3000,4000|bgmcode1,bgmcode2,bgmcode3//配置BGMcode
 MissionPositionNews|500,2500,3500,4500|missionid-prefabcode,missionid-prefabcode//(位置播放对应新闻组件允许空)(ActivityMap文件)
 BackgroundUseUpDown|2|200|1//整个背景上下均分数目|重叠区域大小|定义是否可拖拽
 MissionHolderSelectMode|0//选中关卡的表现形式 0旋转1平移
