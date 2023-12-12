@@ -37,7 +37,11 @@ local CheckShowSelectAllHex = function()
 		end
 	end
 end
+local CheckLastMissionNotLose = function(hexData)
+	return true;
+end
 util.hotfix_ex(CS.DailyGameAutoPlanController,'MissionState',MissionState)
 util.hotfix_ex(CS.DailyGameAutoPlanController,'CheckAutoPlanInDailyGame',CheckAutoPlanInDailyGame)
 util.hotfix_ex(CS.DailyGameAutoPlanController,'GoToDeployment',GoToDeployment)
 util.hotfix_ex(CS.DailyGameAutoPlanController,'CheckShowSelectAllHex',CheckShowSelectAllHex)
+util.hotfix_ex(CS.DailyGameAutoPlanController,'CheckLastMissionNotLose',CheckLastMissionNotLose)
