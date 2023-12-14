@@ -307,10 +307,12 @@ patch3030=
 "3030/HomeAdjutantController",
 "3030/GriffinEntryMessageBoxController",	
 "3020/QuickJumpBtnController",
+"3030/CanvasEquipGroupInfoFrame",
+"3030/WishGunEventBoxController",
 }
 patch3040=
 {
-	 
+	
 }
 -- va11
 print("load Va11");
