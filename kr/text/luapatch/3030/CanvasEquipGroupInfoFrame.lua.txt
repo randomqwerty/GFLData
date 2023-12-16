@@ -5,11 +5,10 @@ xlua.private_accessible(CS.EquipGourpEquipListController)
 local mInitUIElements = function(self)
 	self:InitUIElements();
 	print("InitUIElements")
-	local img1 =self:equipGourpEquipList(1).noHave:GetComponent(typeof(CS.ExImage));
+	--local img1 =self:equipGourpEquipList(1).noHave:GetComponent(typeof(CS.ExImage));
 	local img2 =self:equipGourpEquipList(2).noHave:GetComponent(typeof(CS.ExImage));
-	img2.sprite = img1.sprite;
-	img1=nil;
-	img2=nil;
+	--img2.sprite = img1.sprite;
+	img2.enabled=false;
 end
 
 util.hotfix_ex(CS.CanvasEquipGroupInfoFrameController,'InitUIElements',mInitUIElements)

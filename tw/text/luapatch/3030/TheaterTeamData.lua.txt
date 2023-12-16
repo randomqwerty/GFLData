@@ -10,6 +10,7 @@ local ChangeLifeToOrigin = function(self)
 			local gun = CS.GameData.listGun:GetDataById(id);
 			if gun ~= nil then
 				gun.life = hp;
+				gun:UpdateStatus();
 			end
 		end
 	else
@@ -20,6 +21,7 @@ local ChangeLifeToOrigin = function(self)
 			local gun = CS.GameData.listSangvisGun:GetDataById(id);
 			if gun ~= nil then
 				gun.life = hp;
+				gun:UpdateStatus();
 			end
 		end
 	end
