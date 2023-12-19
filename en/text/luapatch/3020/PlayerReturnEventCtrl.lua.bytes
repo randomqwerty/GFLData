@@ -5,13 +5,15 @@ xlua.private_accessible(CS.PassBuyPassBoxController)
 xlua.private_accessible(CS.Data)
 local Awake = function(self)
 	self:Awake();
-	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
-		local imageTrans1 = self.transform:Find("FundsContent/ActivateCard/Img_Bg");
-		if imageTrans1~= nil then
-			local obj1 = CS.ResManager.GetObjectByPath("AtlasClips3010/回归基金");
-			imageTrans1:GetComponent(typeof(CS.ExImage)).sprite = obj1:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite;
-		end
-	end
+	--if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		--local imageTrans1 = self.transform:Find("FundsContent/ActivateCard/Img_Bg");
+		--if imageTrans1~= nil then
+			--local obj1 = CS.ResManager.GetObjectByPath("AtlasClips3010/回归基金");
+			--imageTrans1:GetComponent(typeof(CS.ExImage)).sprite = obj1:GetComponent(typeof(CS.UnityEngine.UI.Image)).sprite;
+		--end
+	--end
+	local txt = self.transform:Find("MissionContent/Left/TipScroll/TipList/Tip/Lock/Tex_Completed");
+	txt:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(20104);
 end
 local _OnIAPValidateComplete = function(self)
 	self:OnIAPValidateComplete();
@@ -79,9 +81,9 @@ end
 
 --util.hotfix_ex(CS.PlayerReturnEventCtrl,'InitUIElements',_InitUIElements)
 --util.hotfix_ex(CS.PlayerReturnEventCtrl,'CloseView',_CloseView)
+util.hotfix_ex(CS.PlayerReturnEventCtrl,'Awake',Awake)
 util.hotfix_ex(CS.Data,'GetPayToGiftbagBuyCount',_GetRestNum)
 if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
  util.hotfix_ex(CS.PlayerReturnFundCtrl,'OnIAPValidateComplete',_OnIAPValidateComplete)
  util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',_PassIAPComplete)
 end
---util.hotfix_ex(CS.PlayerReturnEventCtrl,'Awake',Awake)
