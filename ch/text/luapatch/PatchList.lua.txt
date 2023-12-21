@@ -215,7 +215,8 @@ patch3020=
 "3020/SangvisLeaderLabelController",
 "3020/SkinDisplayController",		
 "3020/BattleController",	
-"3020/QuickJumpBtnController",	
+"3020/QuickJumpBtnController",
+"3020/WishGunEventBoxController",		
 }
 patch3030=
 {
