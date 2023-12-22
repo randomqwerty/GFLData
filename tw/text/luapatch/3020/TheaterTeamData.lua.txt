@@ -16,7 +16,7 @@ local _CheckSquadValid = function(self)
 end
 
 local ChangeLifeToOrigin = function(self)
-	if not self.isSangvisTeam then
+	if not CS.TheaterTeamData.isSangvisTeam then
 		local iter = self.dictOriginalLifeWithGwuId:GetEnumerator();
 		while iter:MoveNext() do
 			local id = iter.Current.Key;

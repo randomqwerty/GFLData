@@ -14,4 +14,12 @@ local mBatchDevelop = function(self)
 	--print(CS.FactoryResourceController.type)
 	self:BatchDevelop();
 end
+local InitUIElements = function(self)
+	self:InitUIElements();
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		local txtPoint = self.transform:Find("FrameWishGunEvent/EventBundle/DetailsGroup/EventReturnGroup/Tex_Return");
+		txtPoint:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(32341);
+	end
+end
 util.hotfix_ex(CS.WishGunEventBoxController,'BatchDevelop',mBatchDevelop)
+util.hotfix_ex(CS.WishGunEventBoxController,'InitUIElements',InitUIElements)
