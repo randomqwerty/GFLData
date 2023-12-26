@@ -1,83 +1,83 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||<白屏1>:“地狱的守门人”——启动。
-()<Speaker></Speaker>||<白屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:……阿佛那斯，东塔，大厅。
-()<Speaker></Speaker>||<SE1>AVG_Door_Open</SE1>:缇打开东塔的大门，缓缓走进了女神像。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:……除了娜希斯和尼梅兰，都到了。+开始吧。
-()<Speaker></Speaker>||<BGM>GF_22W_SFX_chant</BGM>:仪式正式开始，悠长的祷告声织出一片回响。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:由我进入愁苦之城，+由我进入极乐之塔,+由我进入万劫不复的人群中。
-NPC-grig(4)<Speaker>缇</Speaker>||:正义推动了崇高的造物主，+以神圣的力量、最高的智慧、发自本原的爱，+在此间创造了我。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:在我以前未有造物，+而我也将永世长存。
-Nyto(2)<Speaker>黑涅托</Speaker><Position>0,50</Position>||:这里必须抛开一切希望，
-NytoWhite(1)<Speaker>白涅托</Speaker><Position>0,50</Position>||:这里必须丢掉一切疑惧，
-NytoWhite(1)<Speaker>黑/白涅托</Speaker><Position>0,50</Position>;Nyto(2)<Position>0,50</Position><同时点亮>||:这里必须清除一切畏怯——
-NytoWhite(1)<Speaker></Speaker><Position>0,50</Position>||<BGM>BGM_Empty</BGM><SE1>Explode</SE1>:轰——
-()<Speaker></Speaker>||<SE1>Explode</SE1>:轰——
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰——
-()<Speaker></Speaker>||:一阵巨大的声音从头顶传来。+仿佛有什么东西——苏醒了。+涅托们不由噤声。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:停下来做什么？+继续。
-Nyto(2)<Speaker>黑涅托</Speaker><Position>0,50</Position>||:是……是……
-Nyto(2)<Speaker>黑涅托</Speaker><Position>0,50</Position><Shake>0.1</Shake>||<BGM>GF_22W_SFX_chant</BGM>:这里必须抛开一切希望，
-NytoWhite(1)<Speaker>白涅托</Speaker><Position>0,50</Position><Shake>0.1</Shake>||:这里必须丢掉一切疑惧，
-()<Speaker></Speaker>||<关闭蒙版><黑屏1>:……
-()<Speaker></Speaker>||<黑屏2><Night><BIN>229</BIN>:西塔，19层生产线。+能源线路切断后，还在样本箱里等待改造的少女们不安地坐起身来。
-()<Speaker>哭泣的声音</Speaker>||:为什么……天黑了……
-()<Speaker>颤抖的声音</Speaker>||:好冷啊，浑身都好痛……
-()<Speaker>惊喜的声音</Speaker>||:管道里还有一点残留的温度——是我的！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>BGM_Empty</BGM>:同一个批次长得一模一样的少女们纷纷扑向能源线路，贪婪地吸取最后一点余温。
-()<Speaker>愤怒的声音</Speaker>||<SE1>AVG_Combat_Hits</SE1>:不要跟我抢，这么一点东西连我都不够用，你们去死吧！
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1>:明显更为强壮的黑衣少女扑上来，手掌穿透了同伴的心脏。
-()<Speaker>悲伤的声音</Speaker>||:不要……谁来救救我……
-()<Speaker></Speaker>||<黑屏1><SE1>AVG_20Winter_Knife_Whoosh</SE1>:另一名更敏捷的黑衣少女的指尖划开了她的脖子。+能源接口处黑衣少女的尸体层层叠叠，血漫过地板……+更多能源涌向35层……
-()<Speaker></Speaker>||<黑屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect><BGM>GF_22W_SFX_chant</BGM>:东塔大厅+天光照耀在神像上，如此圣洁。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:圣殿变成了魔窟，天平也变为盛满罪恶鲜血的祭台。
-NPC-Bramedb(6)<Speaker>布拉梅德</Speaker>||:复仇女神用宝剑划开自己的胸口，击打着自己的心脏然后尖声喊叫。
-()<Speaker></Speaker>||<关闭蒙版><黑屏1>:……
-()<Speaker></Speaker>||<黑屏2><Night><BIN>229</BIN>:西塔，31层生产线。+光线晦暗。
-()<Speaker>懵懂的小女孩</Speaker>||<SE1>AVG_Water_Drip</SE1>:姐姐，我被选中了吗？
-Nyto(1)<Speaker>黑涅托</Speaker>||:……不要睁开眼睛。
-()<Speaker>懵懂的小女孩</Speaker>||:如果这是父亲大人的吩咐……
-Nyto(1)<Speaker>黑涅托</Speaker>||:……不要提问。
-()<Speaker>懵懂的小女孩</Speaker>||<BGM>BGM_Empty</BGM>:诶，我踢到什么了吗？软软的……
-Nyto(1)<Speaker>黑涅托</Speaker>||:……一个布娃娃而已。+不要说话。
-()<Speaker></Speaker>||<黑屏1>:样本解离舱里，十多个“布娃娃”倒在角落。+无边黑暗中，解离舱的能源线路里，点点绿光顺着管道汇向35层……
-()<Speaker></Speaker>||<黑屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect><BGM>GF_22W_SFX_chant</BGM>:东塔大厅
-()<Speaker></Speaker>||:吟唱声越宏大。+穹顶传来的嚎叫声也越恐怖。
-()<Speaker></Speaker>||<SE1>Explode</SE1>:轰——
-()<Speaker></Speaker>||:和祷告声组合在一起，形成诡异的效果，仿佛天使活在地狱。
-NPC-grig(4)<Speaker>缇</Speaker>||:我走过我们人生的一半旅程。+被引导着从天堂走向地狱。+你出世的时候我还没有去世。+你所受到的痛苦，已经从我的记忆中消除。
-()<Speaker></Speaker>||<关闭蒙版><黑屏1>:……
-()<Speaker></Speaker>||<黑屏2><BIN>320</BIN>:西塔，2层，材料筛选中心。
-()<Speaker></Speaker>||:四十多名少女闭着眼睛，完全浸泡在水池中。+进水口，微量的坍塌粒子缓慢散溢，缓缓进入少女们体内。+不时有人发出痛苦的呻吟，但强行忍耐着——如果不能通过筛选，等待她们的，将是平台之下深不见底的裂隙。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Open_Light</SE1><BIN>321</BIN>:啪！能源线路断了。
-()<Speaker></Speaker>||:少女们惊疑地抬起头，四处张望。
-()<Speaker>少女</Speaker>||:发生了什么？
-()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1><BGM>BGM_Empty</BGM>:忽然，进水口里涌出肉眼可见的辐射粒子流，整片水池瞬间沸腾！
-()<Speaker>蓝眼少女</Speaker>||:快过来！抓住我的手！
-()<Speaker>少女</Speaker>||:啊啊啊啊啊！
-()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:少女们尖叫嚎哭着，向着水池边攀爬——+被挤到一边的少女反而被推向水池更深处，她很快漂浮了起来。+高浓度的辐射粒子让少女们的皮肤迅速硅化，越来越多的少女失去了生机，随着翻涌的水池上下起伏。+幸存的少女再也顾不上伙伴，绝望地拍打着大门。
-()<Speaker>蓝眼少女</Speaker>||<SE1>AVG_Door_Hit</SE1>:救救我，打开门！救救我——
-()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:带有巨量辐射粒子的水雾弥漫整个车间。+蓝眼少女捂着自己的喉咙和口鼻，一点点滑落下去……+哗啦——水池翻起，沸水和室内所有人被冲刷至下水口。+咔擦——下水口打开，她们坠入更下层的分拣中心。+材料经过自动筛选分拣，被提纯的能量汇入管线，升向35层……
-()<Speaker></Speaker>||<黑屏1>:……
-()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM><黑屏2><BIN>566</BIN>:35层，机密实验室。
-()<Speaker></Speaker>||<SE1>AVG_bigglassbreak</SE1>:巨大的能源充入，让这里的一切仪器都爆裂开来。+大片水箱玻璃散落在地上，浑身湿透的白发少女闭着眼睛，赤足站在黑暗里。
-NPC-Sana(7)<Speaker>？？</Speaker><Position>0,-40</Position><GradientShow>3</GradientShow>||:……
-()<Speaker></Speaker>||<黑屏1>:她呆了片刻，踏着湿漉漉的玻璃碎片，一步步走向更深处的黑暗中。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><黑屏2><BIN>657</BIN><黑屏1>:少女走过36层，所有实验样本全部干瘪下去。
-()<Speaker></Speaker>||<黑屏2><BIN>229</BIN><黑屏1>:少女走过37层，白色涅托接连倒下。
-()<Speaker></Speaker>||<黑屏2><BIN>221</BIN><黑屏1>:少女走过38层，存储着高密度能量的珍惜材料统统归零……
-()<Speaker></Speaker>||<黑屏2><BIN>563</BIN>:……
-()<Speaker></Speaker>||:直到，她站在了尼梅兰的面前。
-NPC-Sana(7)<Speaker>？？</Speaker><Position>0,-40</Position>||:尼梅兰，为什么在这个时候叫醒我？+我应该还没有最终完成……+是妈妈找我？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>0,100</Position>||<BGM>BGM_Empty</BGM>:……是阿佛那斯需要你。+欢迎回来，纱那。
-NPC-Sana(7)<Speaker>纱那</Speaker><Position>0,-40</Position>||<黑屏1>:……
-()<Speaker></Speaker>||<黑屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect><BGM>GF_22W_SFX_chant</BGM>:东塔大厅
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:我们会在一起，既不是天堂也不是地狱，既不是被诅咒也不是被拯救。+我没有死，我也没有活着。
-()<Speaker></Speaker>||:天光之下，神像之前，所有涅托虔诚地低着头。+一种难以言喻的威压感从所有涅托的虚识图景中升起。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:咚、咚、咚——不知何处传来的脚步声，彷佛踩在了众人耳边。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:爱引导我们同生。+爱引导我们同死。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:咚，脚步声停下。+涅托们忍不住抬头看去，那种畏惧又想靠近的感觉……+是尼梅兰，牵着一位新的姐妹。+这种恐怖的威压——正来自那位从未见过的少女。
-NPC-MorridowNew(2)<Speaker>默莉朵</Speaker>||:今天的祷告，你来迟了。+尼梅兰。
-()<Speaker></Speaker>||:尼梅兰用眼神环视了一圈。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>0,100</Position>||<BGM>BGM_Empty</BGM>:她，即“地狱的守门人”。+你们必须尊重她，称呼她为——纱那小姐。
-()<Speaker></Speaker>||:涅托无不色变。+这是从未见过的强者，也是从未听过的名字。
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||<白屏1>:"Gatekeeper of Hell" – activate.
+()<Speaker></Speaker>||<白屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:...Eastern Tower Main Hall, Avernus.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open</SE1>:Grig opens the Eastern Tower door and slowly makes her way toward the statue of the goddess.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:...Everyone's here except Narciss and Nemhran. +Right, let's begin.
+()<Speaker></Speaker>||<BGM>GF_22W_SFX_chant</BGM>:The ceremony begins, and the sonorous prayers resound through the hall.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:...Through me you pass into the city of woe, +Through me you pass into eternal pain, +Through me among the people lost for aye.
+NPC-grig(4)<Speaker>Grig</Speaker>||:...Justice the founder of my fabric mov'd, +To rear me was the task of power divine, +Supremest wisdom, and primeval love.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:Before me things create were none, save things eternal, +And eternal I endure.
+Nyto(2)<Speaker>Black Nyto</Speaker><Position>0,50</Position>||:Abandon all hope ye who enter here,
+NytoWhite(1)<Speaker>White Nyto</Speaker><Position>0,50</Position>||:Abandon all doubt ye who enter here,
+NytoWhite(1)<Speaker>Black/White Nyto</Speaker><Position>0,50</Position>;Nyto(2)<Position>0,50</Position><同时点亮>||:Abandon all fear ye who enter here...
+NytoWhite(1)<Speaker></Speaker><Position>0,50</Position>||<BGM>BGM_Empty</BGM><SE1>Explode</SE1>:Boom—
+()<Speaker></Speaker>||<SE1>Explode</SE1>:Boom—
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Boom—
+()<Speaker></Speaker>||:A loud crash resounds from above their heads. +Something seems to have... awakened. +The Nytos fall silent in apprehension.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:Why did you stop? +Continue.
+Nyto(2)<Speaker>Black Nyto</Speaker><Position>0,50</Position>||:Um... Okay...
+Nyto(2)<Speaker>Black Nyto</Speaker><Position>0,50</Position><Shake>0.1</Shake>||<BGM>GF_22W_SFX_chant</BGM>:Abandon all hope ye who enter here,
+NytoWhite(1)<Speaker>White Nyto</Speaker><Position>0,50</Position><Shake>0.1</Shake>||:Abandon all doubt ye who enter here,
+()<Speaker></Speaker>||<关闭蒙版><黑屏1>:...
+()<Speaker></Speaker>||<黑屏2><Night><BIN>229</BIN>:Production line on level 19, Western Tower. +After the power conduits cut out, the girls still in the specimen tank awaiting their modifications sit up uneasily.
+()<Speaker>Sobbing Voice</Speaker>||:Why... has the sky gone dark...?
+()<Speaker>Trembling Voice</Speaker>||:I'm so cold... My whole body hurts...
+()<Speaker>Surprised Voice</Speaker>||:There's still a little warmth in there... It's mine!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>BGM_Empty</BGM>:The identical-looking girls in the batch all leap at the power conduit, greedily trying to suck up the last bit of warmth inside.
+()<Speaker>Angry Voice</Speaker>||<SE1>AVG_Combat_Hits</SE1>:Quit fighting with me! There isn't enough even for me! Just die already!
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1>:One of the stronger girls in black stabs her hand through her peer's heart.
+()<Speaker>Sad Voice</Speaker>||:No... Someone, save me...
+()<Speaker></Speaker>||<黑屏1><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Another, more agile girl in black slices her neck open with her fingertips. +The corpses of black-clad girls pile up near the power conduit's interface, and blood washes across the ground... +More power flows toward level 35...
+()<Speaker></Speaker>||<黑屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect><BGM>GF_22W_SFX_chant</BGM>:Main Hall, Eastern Tower. +Light from the sky shines upon the statue, making it appear radiant and holy.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:Sanctum turned into the Devil's pit, the scales into an altar, drenched in sinners' blood.
+NPC-Bramedb(6)<Speaker>Bramedb</Speaker>||:Each Fury with her nails was tearing at her breast; they smote them with their hands and cried so loud.
+()<Speaker></Speaker>||<关闭蒙版><黑屏1>:...
+()<Speaker></Speaker>||<黑屏2><Night><BIN>229</BIN>:Production line on level 31, Western Tower. +It is dark.
+()<Speaker>Clueless Girl</Speaker>||<SE1>AVG_Water_Drip</SE1>:Sister, have I been chosen?
+Nyto(1)<Speaker>Black Nyto</Speaker>||:...Don't open your eyes.
+()<Speaker>Clueless Girl</Speaker>||:If this is Father's will...
+Nyto(1)<Speaker>Black Nyto</Speaker>||:...Don't ask.
+()<Speaker>Clueless Girl</Speaker>||<BGM>BGM_Empty</BGM>:Huh? What did my foot just run into? It's soft...
+Nyto(1)<Speaker>Black Nyto</Speaker>||:...It's just a rag doll. +Don't talk.
+()<Speaker></Speaker>||<黑屏1>:Over a dozen such "rag dolls" lie in the corner of the specimen disintegration pod. +Within this boundless darkness, motes of green light flow along the pod's power conduits to level 35...
+()<Speaker></Speaker>||<黑屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect><BGM>GF_22W_SFX_chant</BGM>:Main Hall, Eastern Tower.
+()<Speaker></Speaker>||:The chanting grows louder. +The noises from above grow more dreadful.
+()<Speaker></Speaker>||<SE1>Explode</SE1>:Rumble...
+()<Speaker></Speaker>||:The rumbling and chanting create an uncanny combination, as though angels were singing in Hell.
+NPC-grig(4)<Speaker>Grig</Speaker>||:When halfway through the journey of our life, +Through this Heaven and Hell art we led, +Thou wast made before I unmade. +The anguish thou art in perchance withdraws thee from my memory. 
+()<Speaker></Speaker>||<关闭蒙版><黑屏1>:...
+()<Speaker></Speaker>||<黑屏2><BIN>320</BIN>:Material Screening Center, Level 2, Western Tower.
+()<Speaker></Speaker>||:Over 40 girls are floating in a pool with their eyes closed. +A small quantity of Collapse particles enter through the water inlet, slowly spreading through the fluid and entering the girls' bodies. +There is an occasional grunt of pain, but for the most part everyone bears with it. If they can't pass the selection, their fate will be to rot in the bottomless pit beneath the platform.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Open_Light</SE1><BIN>321</BIN>:Snap! The power cuts out.
+()<Speaker></Speaker>||:The girls raise their heads incredulously and look around.
+()<Speaker>Girl</Speaker>||:What happened?
+()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1><BGM>BGM_Empty</BGM>:Suddenly, there is a visible influx of Collapse particles which makes the entire pool boil and churn.
+()<Speaker>Blue-Eyed Girl</Speaker>||:Over here! Take my hand!
+()<Speaker>Girl</Speaker>||:Ahhhhhhhhh!
+()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:The girls scream and flounder toward the edge of the pool. +One girl who is shoved aside ends up deeper in the pool, but she soon comes up again. +The high concentration of Collapse particles swiftly causes the girls' skin to silicify. More and more girls die, their bodies bobbing up and down in the pool's water. +The surviving girl has no choice but to leave her friend. She pounds on the door in despair.
+()<Speaker>Blue-Eyed Girl</Speaker>||<SE1>AVG_Door_Hit</SE1>:Help! Open up! Please help!
+()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1>:A mist infused with a massive amount of Collapse particles fills the workshop. +The blue-eyed girl scratches at her throat and mouth before slowly slumping to the ground... +Splash! The boiling water churns in the pool, washing everyone toward the disposal chute. +Clack—the disposal chute opens, dumping them into the sorting facility below. +The automated process sorts and selects the materials, and the purified energy is channeled into the conduit, where it is sent to level 35...
+()<Speaker></Speaker>||<黑屏1>:...
+()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM><黑屏2><BIN>566</BIN>:Inside a top-secret lab, level 35.
+()<Speaker></Speaker>||<SE1>AVG_bigglassbreak</SE1>:The gigantic influx of energy causes all the instruments in here to explode. +Huge panes of glass from a suspension tank litter the ground, and a thoroughly drenched girl with white hair stands barefoot in the darkness, her eyes closed.
+NPC-Sana(7)<Speaker>??</Speaker><Position>0,-40</Position><GradientShow>3</GradientShow>||:...
+()<Speaker></Speaker>||<黑屏1>:She remains dazed for a moment, then treading over the wet glass fragments, walks deeper into the darkness.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><黑屏2><BIN>657</BIN><黑屏1>:As she passes through level 36, all the experimental specimens shrivel up.
+()<Speaker></Speaker>||<黑屏2><BIN>229</BIN><黑屏1>:As she passes through level 37, the white Nytos collapse one after another.
+()<Speaker></Speaker>||<黑屏2><BIN>221</BIN><黑屏1>:As she passes through level 38, the precious samples with high energy content are all depleted...
+()<Speaker></Speaker>||<黑屏2><BIN>563</BIN>:...
+()<Speaker></Speaker>||:At last, she comes to a stop in front of Nemhran.
+NPC-Sana(7)<Speaker>??</Speaker><Position>0,-40</Position>||:Why did you awaken me now, Nemhran? +I should not have been completed yet... +Does Mama need me?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>0,100</Position>||<BGM>BGM_Empty</BGM>:...Avernus needs you. +Welcome back, Sana.
+NPC-Sana(7)<Speaker>Sana</Speaker><Position>0,-40</Position>||<黑屏1>:...
+()<Speaker></Speaker>||<黑屏2><BIN>460</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect><BGM>GF_22W_SFX_chant</BGM>:Main Hall, Eastern Tower.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:We shall be together, in neither Heaven nor Hell, neither cursed nor redeemed. I did not die, nor yet remained alive.
+()<Speaker></Speaker>||:All the Nytos bow piously before the statue bathed in light. +They can all sense an indescribably oppressive presence in their VCIs.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:Tap, tap, tap... The sound of footsteps seems to echo right by their ears.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:Love led us to one life. +Love led us to one death.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:Tap. The footsteps stop. +The Nytos, feeling both fearful and captivated, can't help but look up... +It is Nemhran, holding the hand of a new sister. +The terrifying and oppressive presence is emanating from this sister they have never seen before.
+NPC-MorridowNew(2)<Speaker>Morridow</Speaker>||:You're late for the prayer today... +Nemhran.
+()<Speaker></Speaker>||:Nemhran's gaze sweeps across the hall.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>0,100</Position>||<BGM>BGM_Empty</BGM>:This is the "Gatekeeper of Hell". +You will respect her and address her as Lady Sana.
+()<Speaker></Speaker>||:The Nytos are all taken aback. +They have never seen or heard of her, but they all know that she is a force to be reckoned with.
 ()||<黑屏1>:

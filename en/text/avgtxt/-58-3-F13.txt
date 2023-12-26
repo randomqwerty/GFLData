@@ -1,88 +1,88 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑点2><BIN>447</BIN><BGM>m_avg_labyrinth</BGM>:西塔。
-()||<SE1>AVG_Wheelchair</SE1><SE1>AVG_Team_Running</SE1>:走廊里充斥着各种推车滚动声、脚步声、各种材料的碰撞声。+一队队涅托往来，不断清运着库房里的原料。
-()||:艾希礼面无表情走入电梯，逐渐闭合的电梯门让世界重归清静。
-Nyto(1)<Speaker>黑涅托</Speaker>||:艾希礼姐姐，那么多材料，都要被倒掉吗？
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:普通耗材而已，没什么可惜的。
-()||<SE1>AVG_BaseDoor_Open</SE1>:叮——电梯门打开，艾希礼大步走向最后一间库房。
+()||<黑点2><BIN>447</BIN><BGM>m_avg_labyrinth</BGM>:In the Western Tower.
+()||<SE1>AVG_Wheelchair</SE1><SE1>AVG_Team_Running</SE1>:The corridor is filled with the sound of footsteps, rolling pushcart wheels, and various objects clanging against each other. +An endless stream of Nytos come and go, steadily clearing out the materials in the storeroom.
+()||:Ashley enters the elevator expressionlessly. As the doors slowly close, the world returns to silence.
+Nyto(1)<Speaker>Black Nyto</Speaker>||:Big Sister Ashley, are we really going to dump all these supplies?
+NytoWhite(0)<Speaker>Ashley</Speaker>||:They're just ordinary materials. Getting rid of them is no big loss.
+()||<SE1>AVG_BaseDoor_Open</SE1>:Ding. The elevator doors open, and Ashley strides into the last storage room.
 ()||<黑点1>:
-()||<黑点2><BIN>229</BIN><SE1>AVG_BaseDoor_Open</SE1>:负压舱门开启，艾希礼环视货架上堆着的昂贵物资，播出通讯。
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:尼梅兰姐姐，西塔1-18层库房已销毁完毕。+我进入了19层库房，物资清单已同步，请示下。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><通讯框>||:<color=#00CCFF>向前走，第四个货架，打开第一层的保险箱。</color>
-()||<SE1>AVG_tele_connect</SE1>:滴，密钥已同步。+艾希礼很快锁定目标，走过去，小心翼翼打开了保险箱。+保险箱里，是另一个精巧的密码箱，艾希礼拎出来，箱子很轻。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><通讯框>||:<color=#00CCFF>把那个箱子带回来，小心点。</color>
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:其它材料——
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><通讯框>||:<color=#00CCFF>所有东西，送入能源站8号焚化炉。</color>
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:是！
-()||:艾希礼一挥手，身后的一众涅托立刻撤出了仓库。
+()||<黑点2><BIN>229</BIN><SE1>AVG_BaseDoor_Open</SE1>:The negative-pressure door opens. Ashley scans the expensive supplies around her before making a call.
+NytoWhite(0)<Speaker>Ashley</Speaker>||:Big Sister Nemhran, we've finished destroying the contents of the supply rooms on levels 1 through 18 of the Western Tower. +I've just entered the storeroom on level 19 and sent you the inventory list.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><通讯框>||:<color=#00CCFF>Go straight down. Fourth rack, first shelf. Open the safe you find there.</color>
+()||<SE1>AVG_tele_connect</SE1>:Beep—keycode received. +Ashley soon locates the safe and opens it carefully. +The safe contains another lockbox. Ashley takes it out; it feels very light in her hands.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><通讯框>||:<color=#00CCFF>Bring that box back—be careful with it.</color>
+NytoWhite(0)<Speaker>Ashley</Speaker>||:What about the other mat—
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><通讯框>||:<color=#00CCFF>Throw them all into Incinerator No. 8 in the power plant.</color>
+NytoWhite(0)<Speaker>Ashley</Speaker>||:Understood!
+()||:Ashley gestures at the Nytos behind her, and they start clearing the storeroom.
 ()||<黑点1>:
-()||<黑点2><BIN>417</BIN>:东塔，蜂针控制中心。
-()||:DR冗余数据销毁中……+MAP 临时地图数据销毁中……+TS 机密档案销毁中……
-()||:大屏幕上，无数进度条滚动着出现、推进、消失。+最底部的红色进度条推进到35.3%，以及其微小的幅度前进着。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:……
-()||:尼梅兰站在窗边，透过单向透视窗，俯瞰整个阿佛那斯。+数百米的高度差，让塔下的一切都变得渺小。+涅托们如蚂蚁般穿行，豌豆荚大的运输车在底层平台上来回移动。
-()<Speaker>系统</Speaker>||<SE1>AVG_21Winter_Error</SE1>:<color=#FFFF00>ERROR！P237哨所无响应，数据删除失败。</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:E3小组，前往P237哨所，带回操作终端和存储器，送入能源站7号焚化炉。
-()<Speaker>软糯的声音</Speaker>||:<color=#00CCFF>是，尼梅兰姐姐。</color>
-()<Speaker>系统</Speaker>||<SE1>AVG_21Winter_Error</SE1>:<color=#FFFF00>ERROR！东塔W22能源线路异常！</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:E5，东塔怎么回事？
-()<Speaker>清脆的声音</Speaker>||:<color=#00CCFF>我马上去查！</color>
-()||:片刻后。
-()<Speaker>清脆的声音</Speaker>||:<color=#00CCFF>刚才默莉朵姐姐销毁实验室样本，样本跑出了密封舱，动静大了一点点……</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:……安排人去修复，东塔的能源线不容有失。
-()<Speaker>清脆的声音</Speaker>||:<color=#00CCFF>是，尼梅兰姐姐。</color>
-()||:尼梅兰有条不紊地发布着命令，无论出现什么状况，她总是能恰到好处地给出解决方案。+一如在阿佛那斯的每一天，只不过今天格外繁忙。+时间一分一秒过去。+红色进度条还在缓慢推进……
+()||<黑点2><BIN>417</BIN>:Bee Sting Control Center, Eastern Tower.
+()||:Deleting redundant data... +Deleting temporary map data... +Deleting top secret files...
+()||:On the big screen, countless progress bars appear, fill up and vanish one after the other. +The red progress bar on the bottom is at 35.3% and advancing in small increments.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:...
+()||:Nemhran is standing by the window and looking down on all of Avernus through the glass. +Everything below her looks tiny from her vantage point that is over several hundred meters in the air. +The Nytos move like ants, and bean-sized trucks travel back and forth on the platform at the bottom.
+()<Speaker>System</Speaker>||<SE1>AVG_21Winter_Error</SE1>:<color=#FFFF00>ERROR! Outpost P237 is not responding. Data deletion failed.</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Squad E3, head to post P237. Retrieve the operation terminal and storage devices and throw them into Incinerator No. 7.
+()<Speaker>Mellow Voice</Speaker>||:<color=#00CCFF>Yes, Big Sister Nemhran.</color>
+()<Speaker>System</Speaker>||<SE1>AVG_21Winter_Error</SE1>:<color=#FFFF00>ERROR! Abnormality detected in Eastern Tower power circuit W22!</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:E5, what's going on in the Eastern Tower?
+()<Speaker>Crisp Voice</Speaker>||:<color=#00CCFF>I'll check on it right away!</color>
+()||:Shortly afterwards.
+()<Speaker>Crisp Voice</Speaker>||:<color=#00CCFF>Big Sister Morridow was destroying the lab specimens. One of them escaped their containment capsule and caused a bit of a disturbance...</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:...Send someone over to repair the circuit. The power supply in the Eastern Tower must be secured.
+()<Speaker>Crisp Voice</Speaker>||:<color=#00CCFF>Yes, Big Sister Nemhran.</color>
+()||:Nemhran continues giving orders without missing a beat. No matter what happens, she deals with it calmly and efficiently. +It's just like every other day in Avernus, although this one is busier than most. +The clock ticks on. +The red progress bar is slowly advancing...
 ()||<黑点1>:
-()||<黑点2>:蜂针控制中心
-()||<SE1>AVG_File_Put</SE1>:艾希礼恭谨地将箱子放在长桌上，旋转了180度，推到尼梅兰面前。
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:尼梅兰姐姐。
-()||:纤长的手指抚摸过箱体，尼梅兰的脸上难得露出了一丝慈爱。
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:西塔1-20层库房已清理完毕，所有耗材已经销毁，存储数据的661台终端已投入焚化炉。
-()||:尼梅兰漫不经心将箱子往身后一放。+此时大屏幕底部的进度条走到了67.1%。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:设备转运进度。
-NPC-Nemhran(0)<Position>0,30</Position>;NytoWhite(0)<Speaker>艾希礼</Speaker>||:……第二批设备刚刚完成拆装，正在装车，第三批核心部件马上开始拆卸。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>;NytoWhite(0)||:太慢了。
-NPC-Nemhran(0)<Position>0,30</Position>;NytoWhite(0)<Speaker>艾希礼</Speaker>||:大部分人手被调去了东塔，所以——
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>;NytoWhite(0)||:不需要解释，给我结果。
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:我立刻去办。
-()||:就在艾希礼默数时间，准备离开的时候，尼梅兰的声音再次轻轻响起。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:对了，生产线上那些半成品——+扔了吧。
-()||:艾希礼恭敬地低着头，掩饰着心中的恐惧。
-NytoWhite(0)<Speaker>艾希礼</Speaker>||:是，尼梅兰姐姐。
-()||:艾希礼缓缓退下。
-()||:尼梅兰揉了揉额角，神情稍有舒缓。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:纱那。
-NPC-Nemhran(0)<Position>0,30</Position>;NPC-Sana(7)<通讯框><Speaker>纱那</Speaker>||:<color=#00CCFF>……有事？</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>;NPC-Sana(7)||:从莫斯科回来给你带了点礼物。+放老地方。
-NPC-Nemhran(0)<Position>0,30</Position>;NPC-Sana(7)<通讯框><Speaker>纱那</Speaker>||:<color=#00CCFF>会再次连累你吗？</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>;NPC-Sana(7)||:不会，只是一些死了的植物标本。
-NPC-Nemhran(0)<Position>0,30</Position>;NPC-Sana(7)<通讯框><Speaker>纱那</Speaker>||:<color=#00CCFF>……那就好。</color>+<color=#00CCFF>这次醒来，是不是不会再沉睡了？</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:……别害怕，我陪你一起。
+()||<黑点2>:Inside the Bee Sting Control Center.
+()||<SE1>AVG_File_Put</SE1>:Ashley carefully places the box on the table, rotates it 180 degrees, and slides it over to Nemhran.
+NytoWhite(0)<Speaker>Ashley</Speaker>||:Big Sister Nemhran.
+()||:There is a rare look of tenderness on Nemhran's face as her slender fingers caress the box.
+NytoWhite(0)<Speaker>Ashley</Speaker>||:The storerooms on levels 1 through 20 of the Western Tower have been cleared. All expendable items have been destroyed, and 661 terminals containing data have been incinerated.
+()||:Nemhran moves the box behind her without a second thought. +The progress bar on the main screen is now at 67.1%.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:What is the progress on the equipment transfer?
+NPC-Nemhran(0)<Position>0,30</Position>;NytoWhite(0)<Speaker>Ashley</Speaker>||:...We've finished taking down the second batch and are loading it onto the trucks now. We are about to begin dismantling the core components for the third batch.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>;NytoWhite(0)||:It's taking too long.
+NPC-Nemhran(0)<Position>0,30</Position>;NytoWhite(0)<Speaker>Ashley</Speaker>||:Most of our people have been transferred to the Eastern Tower, so—
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>;NytoWhite(0)||:I don't want excuses. I want results.
+NytoWhite(0)<Speaker>Ashley</Speaker>||:I will take care of it immediately.
+()||:Just as Ashley bows and prepares to leave, Nemhran speaks again.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Oh yes, as for the half-finished items on the production lines... +Dispose of them.
+()||:Ashley bows deeply, trying not to let her fear show.
+NytoWhite(0)<Speaker>Ashley</Speaker>||:Yes, Big Sister Nemhran.
+()||:Ashley slowly departs.
+()||:Nemhran massages her temple and relaxes a little.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Sana.
+NPC-Nemhran(0)<Position>0,30</Position>;NPC-Sana(7)<通讯框><Speaker>Sana</Speaker>||:<color=#00CCFF>...What is it?</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>;NPC-Sana(7)||:I have a gift for you, from Moscow. +It'll be in the usual place.
+NPC-Nemhran(0)<Position>0,30</Position>;NPC-Sana(7)<通讯框><Speaker>Sana</Speaker>||:<color=#00CCFF>Is this going to cause problems for you again?</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>;NPC-Sana(7)||:No, they're just some dead plant specimens.
+NPC-Nemhran(0)<Position>0,30</Position>;NPC-Sana(7)<通讯框><Speaker>Sana</Speaker>||:<color=#00CCFF>...That's good.</color> +<color=#00CCFF>After waking up this time, will I have to go to sleep again?</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:...Don't be scared. I'll be with you.
 ()||<黑点1>:
-()||<黑点2><BIN>467</BIN><SE1>AVG_BaseDoor_Open</SE1>:哗啦啦——平台底部的管道口一阵作响。
-()||<SE1>AVG_2023Slow_Came_to_surface</SE1>:绿色液体废料混着无数人形造物，坠入地底的裂缝中。
-()||<SE1>AVG_AMB_Wind</SE1><黑点1>:风声呼啸，无尽坠落……
-()||<黑点2><BIN>463</BIN><SE1>ClothingUp</SE1>:啪嗒。浑身湿漉漉的少女们终于落地，失去神采的眼睛依然向着天光的方向。+这暗无天日的深渊里，她们的身下，堆叠着无数异构体与涅托的身体，越向下腐化程度越高，底部已是累累白骨。
-()||:……
+()||<黑点2><BIN>467</BIN><SE1>AVG_BaseDoor_Open</SE1>:Splash. There is movement in the pipes below the platform.
+()||<SE1>AVG_2023Slow_Came_to_surface</SE1>:Green-colored waste fluids, mixed with countless artificial humanoids, pour into an underground crevice.
+()||<SE1>AVG_AMB_Wind</SE1><黑点1>:The wind howls, and they fall for what seems like forever...
+()||<黑点2><BIN>463</BIN><SE1>ClothingUp</SE1>:Thud. The drenched girls finally hit the bottom and look up toward the sky with dull eyes. +Below them in this dark abyss is a pile of countless Isomers and Nyto corpses. The further down one looks, the more decayed they are. The ones at the very bottom are nothing but bleached white bones.
+()||:...
 ()||<黑点1><SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM>:
-()||<黑点2><BIN>247</BIN><BGM>GF_22W_BGM_3</BGM>:……
-NPC-MorridowNew(0)<通讯框><Speaker>默莉朵</Speaker>||:<color=#00CCFF>材料室所有危险样本已处理。</color>
-NPC-grig(0)<通讯框><Speaker>缇</Speaker>||:<color=#00CCFF>东塔各层布防人力已就位，随时待命。</color>
-NPC-Bramedb(3)<通讯框><Speaker>布拉梅德</Speaker>||:<color=#00CCFF>训练室所有耗材已清理。</color>
-NytoWhite(0)<通讯框><Speaker>艾希礼</Speaker>||:<color=#00CCFF>东西塔核心设备部件已拆卸，除了您吩咐的那些东西，其它物资已转运。</color>
-NytoWhite(0)<通讯框><Speaker>白涅托</Speaker>||:<color=#00CCFF>东塔能源线路检修完毕，两条备用线路已开启。</color>
-Nyto(1)<通讯框><Speaker>黑涅托</Speaker>||:<color=#00CCFF>东塔力场盾检修完毕，随时可以开启。</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:立刻开启力场盾。
-Nyto(1)<通讯框><Speaker>黑涅托</Speaker>||:<color=#00CCFF>是。</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||<SE1>AVG_whitenoise</SE1>:所有涅托的虚识图景链接过来。+我要输入统一指令。
-NytoWhite(0)<通讯框><Speaker>艾希礼</Speaker>||:<color=#00CCFF>是，立刻开始构建</color>。
-NPC-Bramedb(3)<通讯框><Speaker>布拉梅德</Speaker>||:<color=#00CCFF>我不行哦，你知道我的攻击类型。</color>
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:你和默莉朵、缇守好相应的位置和时间即可。
-NPC-Bramedb(3)<通讯框><Speaker>布拉梅德</Speaker>||:<color=#00CCFF>没问题。</color>
+()||<黑点2><BIN>247</BIN><BGM>GF_22W_BGM_3</BGM>:...
+NPC-MorridowNew(0)<通讯框><Speaker>Morridow</Speaker>||:<color=#00CCFF>All the hazardous samples in the specimen rooms have been dealt with.</color>
+NPC-grig(0)<通讯框><Speaker>Grig</Speaker>||:<color=#00CCFF>Defensive forces in the Eastern Tower have been deployed. Awaiting instructions.</color>
+NPC-Bramedb(3)<通讯框><Speaker>Bramedb</Speaker>||:<color=#00CCFF>All expendables in the training rooms have been taken care of.</color>
+NytoWhite(0)<通讯框><Speaker>Ashley</Speaker>||:<color=#00CCFF>The core equipment for the Eastern Tower has been dismantled. All supplies apart from the ones you highlighted are being transported.</color>
+NytoWhite(0)<通讯框><Speaker>White Nyto</Speaker>||:<color=#00CCFF>The power circuit in the Eastern Tower has been repaired. Two backup circuits are now activated.</color>
+Nyto(1)<通讯框><Speaker>Black Nyto</Speaker>||:<color=#00CCFF>The Eastern Tower force field has been examined. Ready for activation at any time.</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Activate it now.
+Nyto(1)<通讯框><Speaker>Black Nyto</Speaker>||:<color=#00CCFF>Copy that.</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||<SE1>AVG_whitenoise</SE1>:All Nytos, link your VCIs to mine. +I'm giving a general order.
+NytoWhite(0)<通讯框><Speaker>Ashley</Speaker>||:<color=#00CCFF>At once. Establishing connection.</color>
+NPC-Bramedb(3)<通讯框><Speaker>Bramedb</Speaker>||:<color=#00CCFF>You know I can't, given my attack methods.</color>
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:You, Morridow, and Grig just have to stick to your allocated positions and timings.
+NPC-Bramedb(3)<通讯框><Speaker>Bramedb</Speaker>||:<color=#00CCFF>No problem.</color>
 ()||<黑点1>:
 ()||<黑点2><BIN>417</BIN>:
-()||:蜂针控制中心，屏幕上的信息流如瀑布倾泻般刷新着。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:该发挥你们最后的作用了，残次品。
+()||:Inside the Bee Sting Control Center, messages pour in and fill the screen like an endless flood.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Time to make yourself useful for the last time, rejects.
 ()||<黑屏1>:
-()||<黑屏2><BIN>487</BIN><SE1>AVG_Tinnitus</SE1>:能源站加大了功率，管线的嗡鸣声从塔底逐渐蔓延向上。+高耸入云的东塔塔身，亮光一现而收。+一张张无形的盾从塔身各个点位浮现，张开，最后如同香蕉皮一般严丝合缝地裹住了“果肉”。+东塔防御力场盾，开启。
-()||<黑点1>:
+()||<黑屏2><BIN>487</BIN><SE1>AVG_Tinnitus</SE1>:The power plant's output soars, and the humming of cables slowly spreads up from the bottom of the tower. +Lights flickers all over the looming Eastern Tower. +Invisible shields appear and expand all over its surface, joining together seamlessly until they envelope it completely, like the skin of a banana protecting its "flesh". +The Eastern Tower's force field is now operational.
+()||<黑点1>:

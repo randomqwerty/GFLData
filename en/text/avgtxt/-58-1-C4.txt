@@ -1,179 +1,179 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>417</BIN><BGM>BGM_Sneak</BGM>:……
-()<Speaker>实验体</Speaker>||:甘拉狄上尉，目标没有出现在原定计划的坐标，我们的伏兵在询问下一步的计划。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:她去哪了？
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:不清楚……这个时间她本应该重新回到审讯室的，可是现在审讯室的监控里，她和审讯员都不在。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:……
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:是不是今天审讯的时间推迟了？她还在宿舍等待？
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:她可从来都不是这么老实好对付的家伙……+现在这种被动的处境，是她最讨厌的情况，她一定会想方设法地重新掌握主动权。
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:那么，我们该？
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:我猜，她多半是反抗了负责押送她的警卫，现在在尝试突围格里芬基地。+让原本埋伏在那里的小队改变目的地，去安洁指挥官的宿舍外寻找她突破的轨迹。
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:是！+甘拉狄上尉，还好您熟悉我们的目标，不然我们就要丢失方向了。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:……
-()||:实验体离开了房间，留他独自沉思起来。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||<黑屏1>:熟悉……为什么？
-()||<黑屏2><BIN>18</BIN>:……格里芬基地，僻静的走廊。+LAMG端着一杯咖啡匆匆走向安洁的宿舍。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:没想到被限制出入这么麻烦，连外出去超市买瓶伏特加都不行……+幸好基地的咖啡厅里能搞到一点……
-()||:LAMG低头看了看手中的咖啡，丝丝缕缕的伏特加裹在浓郁咖啡香气中逸散而出。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:希望能让指挥官好受一点。
-()||:LAMG担忧地加快了脚步，她的眼前仿佛已经出现了此刻的安洁——+曾经不可一世的格里芬王牌指挥官，因为莫名其妙的天降横罪而被剥夺了权限，困在小小一方天地……+只能哀叹时运不济，命途多舛。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……
-()||:安洁的宿舍就在拐角，LAMG加快了脚步，大步走向那个熟悉的房间。+随着距离的缩短，LAMG很快发现，安洁的房间大门是虚掩着的，屋内一片昏暗。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<BGM>BGM_Empty</BGM>:指挥官？
-()||<SE1>Select</SE1>:咔哒——直觉让她立刻给武器上好膛，但紧接着，她就想起了现在的自己不被允许配给弹药。
-()||<黑屏1><SE1>AVG_Door_Open</SE1>:她只好一手握住咖啡，一手拿出匕首，小心地推门，走进房间……
-()||<黑屏2><BIN>82</BIN><BGM>10230</BGM>:几名昨天见过的警卫倒在玄关，已经暂时失去了意识。+LAMG诧异地环视房间，在客厅看见了正踩在一名警卫身上搜身的安洁。
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:LAMG？你来了。
-NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……+指挥官，这是什么情况？
-NPC-Ange(11)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:这不是一目了然吗？+我把他们全部撂倒了，现在准备收集称手的武器闯出去。
-NPC-Ange(11)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:来吧，轮到你了。
-()||:安洁将从警卫身上搜刮到手枪和电击棍收好后，望向了呆立在门口的LAMG。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:什么？轮到我了？
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:别害怕，我只是走个形式，不然他们会因为你放走我而为难你的。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position><Shake>||:等一下！
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:怎么？
-NPC-Ange(12)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:你走了，那我怎么办？！
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:会有新的指挥官来的。
-NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:不要，我跟着你走。
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:安洁来到了LAMG的面前，即使在她眼神的威压下，LAMG也没有让开半步。
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:你知道这样跟我离开格里芬基地的下场是什么吗？
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:成为非法人形？被通缉追捕？我不在乎。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:LAMG全神贯注地观察着安洁的举动，准备应付她发起的任何突袭。+她已经下定决心，就算是死皮赖脸，也要跟着安洁走。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:好吧，我知道了。+跟我走可以，不过，你得先把格里芬人形的讯号识别关掉，不然我们太容易被发现了。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:你同意了！好，没问题，我该怎么做？
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:你先进入二级平层，动作快点。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<黑屏1>:好。
-()||<黑屏2><BIN>72</BIN><BGM>BGM_Empty</BGM>:LAMG即刻下潜意识，来到了二级平层。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:然后呢？
-LAMG(0)<Speaker>安洁</Speaker><Position>0,100</Position><同时置暗>||<BGM>GF_21summer_avg_Demon</BGM>:<color=#00CCFF>打开你的心智云图，开放所有权限给我。</color>
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:完成了！不过我没有看见讯号部分……
-()||:嘀——
-()||<BIN>332</BIN><黑屏2><SE1>Heartbeat</SE1><SE1>AVG_21Winter_Error</SE1>:没等LAMG的疑问落地，她的心智空间就骤然变为了警戒的红色。
-()<Speaker>安洁</Speaker>||:<color=#00CCFF>启动高级搜索引擎，筛选出所有与“安洁指挥官”相关的数据。</color>
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:等一下！不是关闭讯号吗？！为什么……
-()||:LAMG慌乱地想要中断操作，但权限已被安洁接管，她只能眼睁睁看着安洁调出了所有的相关记忆碎片。
-()<Speaker>安洁</Speaker>||:<color=#00CCFF>全部选中，粉碎删除。</color>
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:不！
-()||:看着过往的一幕幕回忆飞速消失，LAMG发出了相当凄惨的尖叫。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:为什么！？安洁！！！
-LAMG(0)<Speaker>安洁</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>你是个优秀正义的战术人形，理应拥有美好光明的未来，而不是跟着我踏上这条黑暗的道路。</color>
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:你快中止操作！快啊！
-LAMG(0)<Speaker>安洁</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>……</color>
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:明明……就这样无所事事地在格里芬基地消磨一段时间，就可以让一切风平浪静地结束……+你为什么不愿意这样做？
-LAMG(0)<Speaker>安洁</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>……</color>+<color=#00CCFF>如果人生注定是一场徒劳，那么挣扎的意义究竟是什么？</color>
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:什么？
-LAMG(0)<Speaker>安洁</Speaker><Position>0,100</Position><同时置暗>||<黑屏1>:<color=#00CCFF>LAMG，欠你的酒，下辈子还你。</color>
-()||<黑屏2><BIN>9</BIN><SE1>AVG_bigglassbreak</SE1><黑屏1><BGM>BGM_Empty</BGM>:哗啦——最后几块记忆碎片陨落，LAMG的心智空间开启了自动重启。+LAMG的意识也跌入了黑暗……
-()||<黑屏2><BIN>1</BIN>:……格里芬基地附近，训练场地。
-()||<SE1>ClothingUp</SE1>:安洁脱下了指挥官的制服，从宿舍楼层中翻出，凭借记忆避开了监控，潜入到了隐蔽的树林中。+按照计划，她将从树林密布的训练场地中绕出，逃离基地。
-NPC-Ange(19)<Speaker>安洁</Speaker>||<BGM>10254</BGM>:……+12，脱离交战了吗？
-NPC-Ange(19);AK12(4)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>是对方完全没有想跟我们打呢。</color>
-NPC-Ange(19);AN94(0)<Position>0,50</Position><Speaker>AN94</Speaker><通讯框>||:<color=#00CCFF>它们匆匆扔下了什么东西就离开了。</color>
-NPC-Ange(19)<Speaker>安洁</Speaker>||:给我个坐标，等我汇合。
-AN94(0)<Position>0,50</Position><Speaker>AN94</Speaker><通讯框>||:<color=#00CCFF>是。</color>
-()||:像金属钠落入血液中，兴奋嘶嘶地狂叫着，发出刺眼的光芒沿着血管暴走。+安洁不得不深呼吸几口，才能维持住平稳的呼吸。+她等待这一刻太久了，那艘追逐多年的幽灵船终于在她面前展现了轨迹，她终于可以划起已经生锈的船桨——
-M4A1(0)<Speaker>M4A1</Speaker>||:……指挥官？
-NPC-Ange(19)<Speaker>安洁</Speaker>||:……
-SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:哇，还真是指挥官！+我还以为要过好一阵才能再见到你！
-()||:前进的路上出现了意想不到的阻碍。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:你们怎么在这里？
-NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:……我们在重新模拟那天的任务。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:……
-M16(5)<Speaker>M16A1</Speaker>||:任务失败之后，M4低落了好久，所以我们决定重新模拟下那天的情况，想找找看或许有别的解决办法。
-M4A1(0)<Speaker>M4A1</Speaker>||:嗯，在不牺牲格里芬人形的前提下，完成任务。
-AR15(0)<Speaker>AR15</Speaker>||:顺便一提，已经模拟5次了。
-SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:用来充当格里芬人形的傀儡每次都被我撕得粉碎哦！
-NPC-Ange(19)<Speaker>安洁</Speaker>||:我知道了，停止模拟，现在立刻回到基地。
-NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:是！那个……你要去哪里，指挥官？
-NPC-Ange(19)<Speaker>安洁</Speaker>;M4A1(0)||:这件事和你们没有关系。
-NPC-Ange(19);M16(5)<Speaker>M16A1</Speaker>||:指挥官，你的制服呢？+还有你的那个副官人形怎么也不在，M4还想找她借一下她们小队上次作战的记录。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:你自己找她。
-()||<黑屏1><BGM>BGM_Empty</BGM>:安洁冷冷地撂下话就离开了现场，M16皱了皱眉，给LAMG发去了信息。
-()||<睁眼><BIN>18</BIN><BGM>GF_22W_BGM_1</BGM>:……+叮——新消息的提示音。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……
-()||:有点懵然，LAMG从冰冷的大理石地板坐起，自己似乎刚刚离线了？能源不够了吗？+对了，刚刚似乎来了一条新的消息……
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:是条匿名消息……+“你知道安洁指挥官去哪了吗？”+……+安洁指挥官……是谁……？
-()||:LAMG迷惑地回复了消息，却无意碰翻了手边的咖啡杯。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:糟了！
-()||:咖啡已经凉了，苦涩的味道混合着刺鼻的酒味浸透了LAMG的衣服。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……这是什么？为什么咖啡里有股酒味？
-()||:LAMG疑惑又好奇地尝了一口。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<黑屏1>:好怪……但有种怀念的味道……
-()||<黑屏2><BIN>1</BIN>:M16收起了通讯器，低声对M4说。
-M16(7)<Speaker>M16A1</Speaker>||:M4，指挥官不太对劲，她应该是强行闯出基地的。
-M4A1(0)<Speaker>M4A1</Speaker>||:什么……那我们该怎么办？
-M16(7)<Speaker>M16A1</Speaker>||:我们必须拦住她，如果让她就这样离开，一切都会覆水难收。
-M4A1(0)<Speaker>M4A1</Speaker>||:……嗯。+SOP2，你先去拦住指挥官，15和我押后，封锁指挥官后路就交给16姐了。
-SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:没有问题！
-AR15(0)<Speaker>AR15</Speaker>||<黑点1>:……
-()||<SE1>RunStep</SE1><黑点2>:SOP2敏捷地在林间狂奔，很快赶到并一把抱住了安洁。
-SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:指挥官，你去哪里啊？带我一起嘛！
-NPC-Ange(19)<Speaker>安洁</Speaker>||:这是我的私事，与你无关，快回基地。
-SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:哇，指挥官发火了！
-M4A1(0)<Speaker>M4A1</Speaker>||:指挥官，我们现在应该都处于限制行动的状态吧。
-()||:M4满脸担忧地拦在了安洁的前面。
-M4A1(0)<Speaker>M4A1</Speaker>||:你如果现在离开基地的话，会被追责的。
-NPC-Ange(21)<Speaker>安洁</Speaker>||<BGM>BGM_Empty</BGM>:……
-()||:安洁深深地看了一眼拦在前方的M4和AR15。
-NPC-Ange(19)<Speaker>安洁</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:那么，来做个选择吧。
-NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:……什么选择？
-NPC-Ange(19)<Speaker>安洁</Speaker>;M4A1(0)||:启动你的讯号识别，告诉我你看见了什么。
-NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:唔……格里芬基地那边的讯号很活跃，有几支小队出动了，似乎朝着基地的不同方向？
-NPC-Ange(19)<Speaker>安洁</Speaker>;M4A1(0)||:距离我们最近的有多少人形？
-NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:有1支5人小队将在5分钟后抵达这里……
-NPC-Ange(19)<Speaker>安洁</Speaker>;M4A1(0)||:很好，锁定她们，将她们歼灭在路上。
-NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:诶？！但她们只是……
-NPC-Ange(19)<Speaker>安洁</Speaker>;M4A1(0)||:做出你的选择，M4。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:跟随我，或是反抗我。
-M4A1(0)<Speaker>M4A1</Speaker>||:为什么？我不明白……
-NPC-Ange(21)<Speaker>安洁</Speaker>||:我只需要你的选择。
-M4A1(0)<Speaker>M4A1</Speaker>||:……
-SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:喔，M4，她们近了！
-()||<SE1>AVG_wind_grass</SE1>:山坡下的树林已经响起了枝叶摩擦的窸窣声。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:M4？
-M4A1(0)<Speaker>M4A1</Speaker>||:对不起，指挥官，我做不到……
-()||:听见M4清晰的拒绝，安洁反倒如释重负地笑了。
-NPC-Ange(20)<Speaker>安洁</Speaker>||:很好，你坚持了自己的选择。
-M4A1(0)<Speaker>M4A1</Speaker>||:……指挥官？
-NPC-Ange(20)<Speaker>安洁</Speaker>||:不用再叫我指挥官了，从现在起，我不再是AR小队的指挥官。+之后会有更适合你们的指挥官带你们走向光明坦途，而我，要走自己的路。
-SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:什么意思啊？！我不要你走！
-AR15(2)<Speaker>AR15</Speaker>||:指挥官……
-M16(7)<Speaker>M16A1</Speaker>||:……
-M4A1(3)<Speaker>M4A1</Speaker>||:我还是不明白……为什么？
-()||<SE2>Gunfight</SE2>:呯呯呯——+突兀的枪声响起，干脆利落。
-M4A1(0)<Speaker>M4A1</Speaker>||:格里芬的讯号消失了……
-NPC-Ange(19)<Speaker>安洁</Speaker>||:时间到了，启动强制指令。
-M4A1(0)<Speaker>M4A1</Speaker>||:诶……
-NPC-Ange(19)<Speaker>安洁</Speaker>||<黑屏1>:全员进入休眠状态。
-()||<黑屏2><BIN>417</BIN>:……
-()<Speaker>实验体</Speaker>||:甘拉狄上尉，我们根据安洁指挥官留下的痕迹找到了她的行踪，目前正在追踪。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:嗯，她带了多少人形？
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:目前还不清楚，但刚刚有一支格里芬的人形小队在几秒内遭到伏击，毫无还手之力就被歼灭了。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:……+看来她带了一支精英小队。
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:我们该怎么做？
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:继续保持距离追踪，等我的命令。
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||<黑屏1>:是。
-NPC-Ange(19)<Speaker>安洁</Speaker>||<黑屏2><BIN>1</BIN>:……
-()||:按照自己的指令，AR小队就地休眠了，除了——+M16还站在面前，目光炯炯地和她对视。
-NPC-Ange(21)<Speaker>安洁</Speaker>||:原来你就是他们安插的最后一张王牌啊。
-M16(5)<Speaker>M16A1</Speaker>||:抱歉了，指挥官，请跟我回去吧。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:……
-()||<SE1>Select</SE1>:咔哒——M16打开武器保险，瞄准了安洁。
-()||<SE2>Gunfight</SE2>:但紧接着，呯呯呯——一连串扫射打断了她，逼得她被迫翻滚到树木背后。
-AK12(0)<Position>0,50</Position><Speaker>AK12</Speaker>||:战场的情形真是瞬息万变啊，上一秒还在痛击格里芬人形，下一秒就要来营救指挥官了。
-NPC-Ange(19)<Speaker>安洁</Speaker>||:少废话。
-AN94(0)<Position>0,50</Position><Speaker>AN94</Speaker>||:指挥官，这边撤退，我掩护你。
-()||<SE2>Gunfight</SE2>:呯呯呯——在双方交火的间隙，安洁和狼群小队汇合，朝着树林的边缘撤退。
-M16(5)<Speaker>M16A1</Speaker>||:抓住指挥官！尽量不要伤到她！
-M16(5)<Speaker>格里芬人形</Speaker><同时置暗>||:是！
-()||<SE2>Gunfight</SE2>:呯呯呯——格里芬援兵的加入，让对面的火力更猛了。+在M16的指挥下，不断有人形突破狼群小队的火力逼近安洁。
-AN94(0)<Position>0,50</Position><Speaker>AN94</Speaker>||:我们无法和格里芬小队拉开距离，是想办法抄近路甩掉还是？
-NPC-Ange(19)<Speaker>安洁</Speaker>||:你俩分散开，用我做诱饵，把她们逐个击破。
-AN94(0)<Position>0,50</Position><Speaker>AN94</Speaker>||:是。
-AK12(0)<Position>0,50</Position><Speaker>AK12</Speaker>||:对待前下属，还真是心狠手辣呢。
-()||<黑屏1><SE1>AVG_Team_Running</SE1>:AK12悠闲的声音渐渐远去，安洁在不断的奔跑中能听见格里芬人形的惨叫。+但她一次也没有回头，只是不停地奔跑着，踏着这条仿佛无止境的小路狂奔不停。
+()||<黑屏2><BIN>417</BIN><BGM>BGM_Sneak</BGM>:...
+()<Speaker>Test Subject</Speaker>||:Captain Ganglati, the target has not appeared at the predicted coordinates. Our units lying in ambush wish to know how to proceed.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Where did she go?
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:Unclear... She should have returned to the interrogation room by now, but from the CCTV live footage, neither she nor the interrogator are currently in the interrogation room.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:...
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:Have they postponed her interrogation today? Is she still waiting at the dorm?
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:She has never been one to give up so easily... +There's nothing she hates more than being put on the back foot, so she will certainly do whatever she can to regain her initiative.
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:Then what should we do?
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:My guess is that she overpowered the guard who was supposed to escort her, and she's now trying to break out of the Griffin base. +Tell the ambush team to search for signs of a breakout around Commander Angelia's dormitory.
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:Yes, sir! +Good thing you are familiar with the target, Captain Ganglati, or we would be utterly lost.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:...
+()||:The test subject exits the room, leaving him alone with his thoughts.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||<黑屏1>:Familiar... Why?
+()||<黑屏2><BIN>18</BIN>:...In a deserted corridor at the Griffin base. +LAMG hurries toward Ange's dormitory with a cup of coffee in hand.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Having my movement restricted is such a pain. I can't even go to the grocery store for some vodka... +Good thing I managed to sort something out at the café here...
+()||:LAMG looks down at the coffee she is holding. A whiff of vodka can be detected amidst the rich aroma of the coffee.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:I hope this will make the Commander feel better.
+()||:Anxiety drives LAMG to quicken her pace. She can almost picture Ange right now... +The once high-and-mighty ace Griffin commander has her rights taken away because of some strange, unfounded accusation and is now confined in a small apartment... +LAMG can only lament her superior's misfortune.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...
+()||:Ange's dorm is just around the corner. LAMG lengthens her stride and marches toward the familiar apartment. +As she gets closer, she soon realizes that the door to Ange's dorm is not shut tight, and it is completely dark inside.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<BGM>BGM_Empty</BGM>:Commander?
+()||<SE1>Select</SE1>:Ka-chack. Her instincts compel her to load her weapon, but she then remembers she is no longer authorized to carry ammunition.
+()||<黑屏1><SE1>AVG_Door_Open</SE1>:She has no choice but to hold onto the coffee with one hand and her combat knife with the other as she carefully pushes the door open and enters the room...
+()||<黑屏2><BIN>82</BIN><BGM>10230</BGM>:A handful of the guards she saw yesterday are sprawled around the doorway, unconscious for the time being. +LAMG looks around the apartment in shock and finds Ange in the living room, pinning one of the guards to the floor with a knee and searching him.
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:LAMG? You came.
+NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:... +Commander, what happened here?
+NPC-Ange(11)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:Isn't it obvious? +I knocked them all out and am now picking up some decent weapons to stage a prison break.
+NPC-Ange(11)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:Come here. Your turn.
+()||:Ange stows away the pistols and stun batons she finds on the guards and gazes at LAMG, who is standing at the door, still dumbfounded.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:What do you mean it's my turn?
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:Don't be scared, it's just for show. Otherwise, they'd think you helped me escape and make things really difficult for you.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position><Shake>||:Hold on!
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:What?
+NPC-Ange(12)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:What am I supposed to do once you're gone?!
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:A new commander will come along.
+NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:No, I'm staying with you.
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:Ange walks up to LAMG and glares at her balefully, but LAMG refuses to back down.
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:Do you know what will happen to you if you leave the Griffin base with me?
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Become an outlaw who's constantly wanted and pursued? I don't care.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:LAMG observes Ange's every move carefully, ready to counter any attack Ange initiates. +She has already resolved to go with Ange, even if she has to beg shamelessly.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:Alright then. +You can come with me, but you must first disable your Griffin Doll identification signal, or we'll be spotted a mile away.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:You actually agreed! Sure, no problem. How do I do that?
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Enter Level II. Hurry.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<黑屏1>:Okay.
+()||<黑屏2><BIN>72</BIN><BGM>BGM_Empty</BGM>:LAMG immediately dives into her subconscious and enters Level II.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Then what?
+LAMG(0)<Speaker>Ange</Speaker><Position>0,100</Position><同时置暗>||<BGM>GF_21summer_avg_Demon</BGM>:<color=#00CCFF>Access your neural cloud and turn over all authorizations to me.</color>
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Done! But I'm not seeing anything about the signal...
+()||:Beep.
+()||<BIN>332</BIN><黑屏2><SE1>Heartbeat</SE1><SE1>AVG_21Winter_Error</SE1>:Before LAMG can finish her sentence, her neural space starts flashing a red alert.
+()<Speaker>Ange</Speaker>||:<color=#00CCFF>Activate advanced search engine and find all data related to "Commander Angelia".</color>
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Wait! Aren't we supposed to be turning off the identification signal?! Why...
+()||:LAMG desperately tries to terminate the operation, but Ange has already taken control of her neural cloud. She can only watch helplessly as Ange digs up all the relevant memories.
+()<Speaker>Ange</Speaker>||:<color=#00CCFF>Select all. Delete.</color>
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:No!
+()||:LAMG lets out a piteous scream as her memories of the past disappear rapidly, one after the other.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Why?! Ange!!!
+LAMG(0)<Speaker>Ange</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>You are an exceptional and righteous T-Doll who deserves a bright future. You should not go down this dark path with me.</color>
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Cancel the wipe! Stop it!
+LAMG(0)<Speaker>Ange</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>...</color>
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:If you would just... sit tight and kill some time at the base, this would blow over sooner or later... +Why wouldn't you do that?
+LAMG(0)<Speaker>Ange</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>...</color> +<color=#00CCFF>If everything in life is futile, then what is the point in struggling?</color>
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:What?
+LAMG(0)<Speaker>Ange</Speaker><Position>0,100</Position><同时置暗>||<黑屏1>:<color=#00CCFF>LAMG, I'll buy you the drink I owe you in my next life.</color>
+()||<黑屏2><BIN>9</BIN><SE1>AVG_bigglassbreak</SE1><黑屏1><BGM>BGM_Empty</BGM>:Crack... The final memory fragments are shattered, and LAMG's neural cloud initiates a reboot. +Her consciousness slowly slips away into darkness...
+()||<黑屏2><BIN>1</BIN>:...On the training ground near the Griffin base.
+()||<SE1>ClothingUp</SE1>:Ange takes off her commander's uniform and vaults out of the window of the dormitory building. She avoids the surveillance cameras and slips into the woods. +If all goes according to plan, she will circle around the forested training ground and eventually make it out of the base.
+NPC-Ange(19)<Speaker>Ange</Speaker>||<BGM>10254</BGM>:... +12, are you out of combat?
+NPC-Ange(19);AK12(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>They had absolutely no desire to fight us.</color>
+NPC-Ange(19);AN94(0)<Position>0,50</Position><Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>They left something behind and left in a hurry.</color>
+NPC-Ange(19)<Speaker>Ange</Speaker>||:Give me the coordinates and wait for me.
+AN94(0)<Position>0,50</Position><Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Yes, ma'am.</color>
+()||:Ange can feel the blood pumping through her veins. +She breathes deeply to keep herself from hyperventilating. +She has been waiting for this for far too long. +The ghost ship that she has been chasing after all these years has finally appeared before her, and she can finally row with its rusted oars...
+M4A1(0)<Speaker>M4A1</Speaker>||:...Commander?
+NPC-Ange(19)<Speaker>Ange</Speaker>||:...
+SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:Wow, it really is the Commander! +I thought I wouldn't get to see you in a while!
+()||:Unexpected obstacles have appeared in her way.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:What are you doing here?
+NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:...We are recreating the mission from the other day.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:...
+M16(5)<Speaker>M16A1</Speaker>||:M4 has been really down since we messed up the mission, so we decided to recreate the scenario and see if we can find another solution.
+M4A1(0)<Speaker>M4A1</Speaker>||:Yes, I am trying to figure out how we could have completed the mission without sacrificing any Griffin Dolls.
+AR15(0)<Speaker>ST AR-15</Speaker>||:In case you're wondering, this is simulation no. 5.
+SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:I shredded the Dummy stand-in every single time!
+NPC-Ange(19)<Speaker>Ange</Speaker>||:Alright, I get it. Terminate the simulation and return to the base at once.
+NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:Roger! Um... where are you going, Commander?
+NPC-Ange(19)<Speaker>Ange</Speaker>;M4A1(0)||:That's none of your business.
+NPC-Ange(19);M16(5)<Speaker>M16A1</Speaker>||:Commander, where's your uniform? +And your Doll adjutant? M4 wants to borrow her squad's combat log from the mission.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:Go find her yourselves.
+()||<黑屏1><BGM>BGM_Empty</BGM>:Ange marches off after answering the questions gruffly. M16 frowns and sends a message to LAMG.
+()||<睁眼><BIN>18</BIN><BGM>GF_22W_BGM_1</BGM>:... +Ding! The notification sound of a new message.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...
+()||:LAMG sits up on the marble floor, a little disoriented. Did she just disconnect? Did she run out of battery? +Oh right, she just received a new message...
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:From an anonymous sender... +"Do you know where Commander Angelia has gone?" +... +Commander Angelia... Who's that...?
+()||:Confused, LAMG replies to the message, but accidentally knocks over the cup of coffee next to her hand.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Oh no!
+()||:The coffee has gone cold. Its bitter smell, laced with the pungent stench of alcohol, soaks LAMG's clothes.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...What's this? Why does the coffee smell vaguely of alcohol?
+()||:LAMG takes a sip out of curiosity and bemusement.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<黑屏1>:Tastes really weird... but nostalgic somehow...
+()||<黑屏2><BIN>1</BIN>:M16 puts away her communicator and whispers to M4.
+M16(7)<Speaker>M16A1</Speaker>||:M4, something's off with the Commander. She's probably forcing her way out of the base.
+M4A1(0)<Speaker>M4A1</Speaker>||:What...? Then what should we do?
+M16(7)<Speaker>M16A1</Speaker>||:We must intercept her. The consequences would be unthinkable if we let her leave.
+M4A1(0)<Speaker>M4A1</Speaker>||:...Okay. +SOP-II, intercept the Commander. 15 and I will try to slow her down, and I'll leave it to you to seal off her escape route, 16.
+SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:No problem!
+AR15(0)<Speaker>ST AR-15</Speaker>||<黑点1>:...
+()||<SE1>RunStep</SE1><黑点2>:SOP-II sprints through the woods and soon catches up with Ange. She throws herself at Ange and wraps her in an enthusiastic embrace.
+SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:Commander, where are you going? Take me with you!
+NPC-Ange(19)<Speaker>Ange</Speaker>||:It's a personal matter and none of your business. Get back to the base.
+SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:Oof, you're so cranky!
+M4A1(0)<Speaker>M4A1</Speaker>||:Commander, I believe we are all confined to the base.
+()||:M4 plants herself in front of Ange, concern written all over her face.
+M4A1(0)<Speaker>M4A1</Speaker>||:You will be punished if you leave now.
+NPC-Ange(21)<Speaker>Ange</Speaker>||<BGM>BGM_Empty</BGM>:...
+()||:Ange gazes fiercely at M4 and ST AR-15, who are blocking her path.
+NPC-Ange(19)<Speaker>Ange</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:Then make a choice.
+NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:...What choice?
+NPC-Ange(19)<Speaker>Ange</Speaker>;M4A1(0)||:Activate your signal sensor and tell me what you see.
+NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:Hm... There are a lot of active signals over at the base. Several squads have mobilized and seem to be moving in different directions around the base?
+NPC-Ange(19)<Speaker>Ange</Speaker>;M4A1(0)||:How many Dolls are there on the closest squad?
+NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:A five-Doll squad will reach us in five minutes...
+NPC-Ange(19)<Speaker>Ange</Speaker>;M4A1(0)||:Very well. Target them and eliminate them on the spot.
+NPC-Ange(19);M4A1(0)<Speaker>M4A1</Speaker>||:Huh?! But they're just...
+NPC-Ange(19)<Speaker>Ange</Speaker>;M4A1(0)||:Make your choice, M4.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:Follow me... or defy me.
+M4A1(0)<Speaker>M4A1</Speaker>||:Why? I don't understand...
+NPC-Ange(21)<Speaker>Ange</Speaker>||:Just make your choice.
+M4A1(0)<Speaker>M4A1</Speaker>||:...
+SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:Hey, M4! They're getting close!
+()||<SE1>AVG_wind_grass</SE1>:They can already hear the leaves rustling in the wood at the foot of the hill.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:M4?
+M4A1(0)<Speaker>M4A1</Speaker>||:Sorry, Commander. I can't do it...
+()||:Ange smiles in relief at M4's clear rejection.
+NPC-Ange(20)<Speaker>Ange</Speaker>||:Well done. You stood by your choice.
+M4A1(0)<Speaker>M4A1</Speaker>||:...Commander?
+NPC-Ange(20)<Speaker>Ange</Speaker>||:You don't have to call me Commander anymore. From this moment, I'm no longer the commander of the AR Team. +Someday, a more suitable commander will lead you into a bright future. As for me, I have my own path to tread.
+SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:What do you mean? I don't want you to go!
+AR15(2)<Speaker>ST AR-15</Speaker>||:Commander...
+M16(7)<Speaker>M16A1</Speaker>||:...
+M4A1(3)<Speaker>M4A1</Speaker>||:I still don't understand... Why?
+()||<SE2>Gunfight</SE2>:Bang-bang-bang! +The abrupt gunshots ring out.
+M4A1(0)<Speaker>M4A1</Speaker>||:The Griffin signals are gone...
+NPC-Ange(19)<Speaker>Ange</Speaker>||:Time's up. Execute mandatory command.
+M4A1(0)<Speaker>M4A1</Speaker>||:Huh...?
+NPC-Ange(19)<Speaker>Ange</Speaker>||<黑屏1>:All members, enter sleep mode.
+()||<黑屏2><BIN>417</BIN>:...
+()<Speaker>Test Subject</Speaker>||:Captain Ganglati, we have located Commander Angelia by following her tracks. We are currently in pursuit.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Right. How many Dolls does she have with her?
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:It's unclear, but a Griffin squad was ambushed just now. They were eliminated in just a few seconds and didn't even have the chance to put up a fight.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:... +Looks like she's brought along an elite squad.
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:How should we proceed?
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Keep your distance but stay with her and await my orders.
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||<黑屏1>:Yes, Captain.
+NPC-Ange(19)<Speaker>Ange</Speaker>||<黑屏2><BIN>1</BIN>:...
+()||:Following her command, everyone on the AR Team enters sleep mode on the spot, except... +M16. She is still standing before her, gazing at her with piercing eyes.
+NPC-Ange(21)<Speaker>Ange</Speaker>||:So you're the last ace up their sleeve.
+M16(5)<Speaker>M16A1</Speaker>||:Sorry, Commander. Please come with me back to the base.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:...
+()||<SE1>Select</SE1>:Clack—M16 turns off the safety on her weapon and aims it at Ange.
+()||<SE2>Gunfight</SE2>:But then... Bang-bang-bang! A spray of bullets interrupts her, forcing her to take cover behind a tree.
+AK12(0)<Position>0,50</Position><Speaker>AK-12</Speaker>||:Such rapid and dramatic changes on the battlefield. One second, we were beating up Griffin Dolls, then we're rescuing the Commander the next.
+NPC-Ange(19)<Speaker>Ange</Speaker>||:Cut the crap.
+AN94(0)<Position>0,50</Position><Speaker>AN-94</Speaker>||:Commander, this way. I'll cover you.
+()||<SE2>Gunfight</SE2>:Bang-bang-bang! Seizing an opening during the crossfire, Ange links up with the Wolf Pack and retreats toward the edge of the woods.
+M16(5)<Speaker>M16A1</Speaker>||:Capture the Commander! Try not to harm her!
+M16(5)<Speaker>Griffin Doll</Speaker><同时置暗>||:Understood!
+()||<SE2>Gunfight</SE2>:Bang-bang-bang... As Griffin reinforcements enter the fray, their firepower increases in strength. +Under M16's leadership, the Dolls start breaking through the Wolf Pack's defenses and close in on Ange.
+AN94(0)<Position>0,50</Position><Speaker>AN-94</Speaker>||:We can't widen the distance between us and the Griffin squad. Should we take a shortcut and try to shake them off or...?
+NPC-Ange(19)<Speaker>Ange</Speaker>||:You two split up. Use me as bait and take them out one by one.
+AN94(0)<Position>0,50</Position><Speaker>AN-94</Speaker>||:Roger.
+AK12(0)<Position>0,50</Position><Speaker>AK-12</Speaker>||:So heartless to your former subordinates.
+()||<黑屏1><SE1>AVG_Team_Running</SE1>:AK-12's flippant voice fades into the distance. Ange can hear the Griffin Dolls' screams as she runs away. +But not once does she look back. She just keeps running, on and on, down this seemingly endless path.

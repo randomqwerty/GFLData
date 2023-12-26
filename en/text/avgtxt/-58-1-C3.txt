@@ -1,174 +1,174 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>417</BIN><回忆><BGM>GF_22W_BGM_3</BGM>:……
-()<Speaker>实验体</Speaker>||:<color=#00CCFF>甘拉狄上尉，他已经没有生命体征了……</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:他还是什么也没有说吗？
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:<color=#00CCFF>我们按照您的要求进行了审问，他交待的信息全部是我们已经掌握的。</color>
-()||:屏幕上传来的即时画面中，一名实验体正从诺维科夫指挥官的尸体上站起来。+诺维科夫指挥官鼻青脸肿地趴伏在仓库的地面上，鲜血正从颈部的大动脉上插着的匕首喷涌而出。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:……
-()<Speaker>实验体</Speaker>||:<color=#00CCFF>我只是想恐吓他，没想到他被吓得一头撞上了匕首……</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:算了，既然人已经死了，就利用下他最后的余温吧。
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||:<color=#00CCFF>您的意思是？</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:打扫干净，处理成单人激情谋杀的现场。
-NPC-Pamzan(10)<Speaker>实验体</Speaker><Position>0,-70</Position><同时置暗>||<黑点1>:<color=#00CCFF></color>……做成安洁指挥官的谋杀现场吗？我们明白了。
-()||<黑点2><关闭蒙版>:久违地露出了笑意，他站在屏幕前，驻足观看着格里芬基地审讯室的画面。+因为是通过非法途径骇入，画面显得有些模糊摇曳，但他依然能辨认出安洁指挥官和她脸上的愤怒。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:乖乖呆在这里吧……+我马上就会来找到你，安洁……
-()||:他的手指抚上屏幕那张模糊的脸庞——
-()||<SE1>AVG_whitenoise</SE1>:兹——突如其来的剧痛闪电般地从他的右侧太阳穴窜过脑部。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position><Shake>||:啧……
-()||<黑屏1>:他捂住嗡嗡作响的脑部，感受到掩盖在发丝下的右侧太阳穴的神经稳定器又松动了。
-NPC-Ange(38)<Speaker>？</Speaker>||<BIN>7</BIN><黑屏2><回忆><黑屏1>:……
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||<黑屏2><关闭蒙版><BIN>417</BIN>:又来了……+老师……我需要您的治疗……
-()||:他慌乱地喘息着，拨通了某个通讯。
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:老师……！
-NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>白涅托</Speaker><通讯框>||:<color=#00CCFF>纱那姐姐正在更新配置，你如果有紧急的事情，我可以等更新结束了帮你转告。</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>;NytoWhite(0)<通讯框>||:纱那……+我的神经稳定器出问题了，我需要老师。
-NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>白涅托</Speaker><通讯框>||:<color=#00CCFF>结束实验后我会第一时间转告她。</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>;NytoWhite(0)<通讯框>||:嗯……
-NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>白涅托</Speaker><通讯框>||:<color=#00CCFF>还有什么事吗？</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>;NytoWhite(0)<通讯框>||:妹妹……纱那她怎么样了？
-NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>白涅托</Speaker><通讯框>||:<color=#00CCFF>目前状况稳定，老师说如果你问起的话，让你不要担心。</color>
-NytoWhite(0)<Speaker>白涅托</Speaker><通讯框>||:<color=#00CCFF>好好完成你的任务，不要忘记过去你所经历的一切。</color>
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||:是，我明白。
-()||<黑屏1><BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1>:放下通讯，他缓缓坐回铁皮椅上。+眼前的画面不再是格里芬基地的审讯室，他也不在污染严重的废弃区。
-()||<黑屏2><边框>2</边框><BIN>7</BIN><SE1>GF_Halloween_Wind_loop</SE1>:他回到了故乡的白桦树林，纱那正在树下等着他。+他们约定好了今天要去寻找林中的鸟群。
-()<Speaker>？？？</Speaker>||<边框>2</边框>:纱那，走吧。
-NPC-Sana(0)<Speaker>纱那</Speaker><Position>0,210</Position>||<边框>2</边框>:嗯！
-()||<黑屏1><边框>2</边框>:他拍了拍纱那冻得通红的小脸，然后牵起她裹在厚厚手套下的手，在齐膝的雪地中，两人深一脚浅一脚地远去了……
-NPC-Pamzan(10)<Speaker>？？？</Speaker><Position>0,-70</Position>||<黑屏2><BIN>417</BIN><SE1>Stop_AVG_loop</SE1>:纱那……我一定会为你和大哥报仇的……+那个在别斯兰对你们开枪的杀手……我会把她千刀万剐……+听见了吗，安洁指挥官？
-()||<黑屏1>:忍着脑中四处乱窜的电流般的疼痛，他死死凝视着屏幕中一脸漠然的安洁。
-()||<黑屏2><BIN>158</BIN><BGM>10295</BGM>:……深夜，格里芬基地，审讯室。+面对桌另一端正襟危坐的审讯员，安洁毫不掩饰地打了个哈欠。
-()<Speaker>审讯员</Speaker>||:安洁指挥官，请你配合我们的工作。
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:我都说了，昨天我压根不在基地。
-NPC-Ange(13)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:不在场证明也是需要经过证实才能成立的。+请从头开始，交代一下你昨天的行程。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……+我早上七点就离开了基地，按照和IOP的协议，去那边的实验室帮忙测试人形。+具体的工作内容因为有保密协议规定，无可奉告。
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:这点我们核实过，根据格里芬基地和IOP大楼的监控，可以对得上。
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:那边的工作结束后，我就回格里芬基地了，大概是晚上10点左右。
-NPC-Ange(13)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:我复述一遍，安洁指挥官于昨日上午7点离开格里芬基地，前往IOP完成测试工作。+结束测试工作后，于晚上10点左右返回格里芬基地。对吗？
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:嗯。
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:想必你已经知道案发时间了？
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:听说是下午4点左右被发现的？
-NPC-Ange(12)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:昨天下午4点，隶属于格里芬安全承包商的战术人形于后勤物资仓库中，发现了已经死去的诺维科夫指挥官。
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:那我根本没有作案时间，不是吗？
-NPC-Ange(13)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:事实上，我对你的不在场证明还有一些疑问。
-()||:审讯员将他面前的平板转向安洁，屏幕上是一段监控视频。
-()<Speaker>审讯员</Speaker>||:安洁指挥官，你之前说，你昨天从早上7点到晚上10点都在IOP的实验室或者往返的路上。+那么，这段拍摄于昨天下午2点的监控视频，你该如何解释？
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:审讯员点下了播放，监控画面中的安洁独自从IOP的后门离开，骑上一辆没有牌照的摩托车扬长而去。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:这是我的私人事务。
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:之后，因为你前往的区域监控探头覆盖面积小，我们只能得到断断续续的画面。+但可以确定的是——
-()||:审讯员点开了下一段监控视频。
-()<Speaker>审讯员</Speaker>||:一直到下午4点30左右，你才回到IOP，并于晚上9点左右离开。+这意味着，下午的2点到4点30分这个时间段，你并不如你所说的在IOP工作。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:我说了，这是我的私人事务，我有权保护我的个人隐私。
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:根据其他指挥官的供述，你曾经和诺维科夫指挥官发生过多次激烈争吵。+有证言显示，你曾扬言要杀了他。
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:他一直在使用窃听器窥探我的隐私，被我发现后还恬不知耻地装无辜。+我已经发现他在我身边安装窃听器五六次了。
-NPC-Ange(12)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:但你并没有证据，所以格里芬也并没有对他做出处罚决定。
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:他的手脚很干净，不是业余那一套。
-NPC-Ange(12)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:看来诺维科夫指挥官知道了一些足以让他丧命的东西，是你刚刚说的私人事务吗？
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:……+你们已经认定我是凶手，开始千方百计套我的话了？
-NPC-Ange(13)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:不要敏感，安洁指挥官，这只是合理的假设和常规的询问。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:诺维科夫的死和我没有关系，他的存在对我来说只是一只恼人的苍蝇。+我有更重要的工作要完成，没有空去理会苍蝇的骚扰。
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:看来你的“私人事务”优先级很高。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:再重复一遍。
-()||:安洁的忍耐已然到达了极限。
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:我的私人事务和这起案件没有任何关联，并且，我有不在场证明。
-NPC-Ange(13)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:你的不在场证明并不能被完全核实，除非你主动交代缺失的环节。
-()||<SE1>Rope</SE1>:安洁的拳头攥紧了，她拼命压抑着揍扁眼前这张讨厌的脸的冲动。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:……
-()||:见安洁沉默不语，审讯员将桌上的台灯直接拧向安洁——+刺眼的灯光让她不由眯缝了眼。
-()<Speaker>审讯员</Speaker>||:看来你并不愿意配合。
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-NPC-Ange(13)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||:也许你有什么不能说的苦衷，也许你在做最后的垂死挣扎。+但不论是哪一个，我只能很遗憾地通知你，在你被确认清白之前，需要停职并留在格里芬基地等待。+在这期间，你不可以离开格里芬基地，否则将被视为畏罪潜逃。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-NPC-Ange(14)<Speaker>审讯员</Speaker><Position>0,25</Position><同时置暗>||<黑屏1>:如果你没有什么疑问的话，今天的审讯就到这里结束了。
-()||<黑屏2><BIN>18</BIN><Night><BGM>BGM_Empty</BGM>:LAMG不安地在寂静的走廊上来回踱步，尽头的审讯室的门窗透着刺眼的白光。+距离安洁进入审讯室已经过去了8个小时，她还没有出来的迹象。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:明明其他的指挥官都是走一下形式……+为什么要为难安洁指挥官？
-()||<SE1>AVG_Door_Open_Close</SE1>:咔哒——审讯室的门开了。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<BGM>10258</BGM>:指挥官！
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:……LAMG？+我不是让你回宿舍待命吗？
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:我……很担心你……
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-NPC-Ange(11)<Speaker>安洁</Speaker><Position>0,25</Position>||:我没事。
-()||:安洁表现出一派轻松的样子，但LAMG注意到她一直紧握着拳头，像是在压抑着极大的愤怒。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:他们为难你了吗？
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:没有。+别瞎想，走吧。
-NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:刚刚赫丽安小姐来过，她让我告诉你。+这次的指挥官谋杀事件，上面非常重视，专门从首都抽来了调查小组，还让所有有嫌疑的指挥官都停职接受调查。+大概是担心和一年前那起针对格里芬雇员的连环谋杀有关。
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:她让我多忍耐忍耐？
-NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:嗯……大概意思是这个。
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:哈，LAMG，能帮我做件事吗？
-NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:只要是我能做到的！
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:帮我把这个东西带去16LAB，交给帕斯卡教授。
-NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:指挥官……
-()||:LAMG语气中的落寞快要凝结落地了。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:在你进审讯室后没多久，我就被禁止离开格里芬基地了。+连我的通讯权限也被限制在格里芬内部了……
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:连你也是吗？我知道了。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:……
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:你先回去休息吧。
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:指挥官……
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:怎么？
-LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:如果……像这样无所事事地在格里芬基地消磨一段时间，就可以让一切风平浪静地结束……+你会愿意这样做吗？
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:……+鬼知道呢。
-()||<黑点1>:安洁像往常一样对LAMG挥挥手就离开了。+徒留LAMG久久守在门前，她反复检查了周边的环境，确认没有安全隐患之后，才一步三回头地离开。+她还是第一次看见安洁露出那样萧瑟的神情。
-()||<黑点2><Night><BIN>82</BIN>:一门之隔。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:安洁靠着门，望向窗外夏天安静的夜晚，只能听见窗外连绵不绝的虫鸣，就像是夜晚的呼吸。+她唤醒通讯器和战术平板，所有的权限都被冻结了。+现在她能做的，就是为自己叫一杯咖啡外送。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:该死的，明明只差一步了……
-()||:安洁虚脱般倒在地板上。+寂静的室内，更衬得蝉鸣的声音响亮。+安洁躺在地板上聆听了一会，突然意识到这个噪音并不是蝉鸣，而是某种震动声。
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||<BGM>BGM_Empty</BGM>:是什么……
-()||:安洁烦躁地从地板上站起，踏过冷汗留下的印渍，寻找起震动的来源。+很快，门边的群狼雕像引起了她的注意，那是肖之前送给她的礼物。+她捕捉到了雕像中头狼的眼睛有些怪异，于是伸出手——
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||<SE1>AVG_PPT_Switch</SE1>:……
-NPC-shaw(5)<Speaker>肖</Speaker><通讯框>||<BGM>10051</BGM>:<color=#00CCFF>安洁，又见面了。</color>
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>;NPC-shaw(5)<通讯框>||:这是什么时候……
-NPC-Ange(12)<Position>0,25</Position>;NPC-shaw(3)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>实际上，这是12的主意。</color>
-NPC-Ange(12)<Position>0,25</Position>;AK12(4)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>嗨，安洁指挥官，好久不见，惊喜吗？</color>
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>;AK12(4)<通讯框>||:……
-NPC-Ange(13)<Position>0,25</Position>;AK12(4)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>是你教我的，就算是最亲密的队友，也要留一只眼睛去观察。</color>
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:我没让你……算了，多亏你这样做了，我还能联系上外面。
-NPC-Ange(14)<Position>0,25</Position>;NPC-shaw(0)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>听说你麻烦大了。</color>
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:也不算什么麻烦，只是偏偏挑在这么关键的时候……
-NPC-Ange(12)<Position>0,25</Position>;NPC-shaw(0)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>顺便一提，我的交易条件依然成立。</color>
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:……
-NPC-shaw(5)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>你现在急需打破这个困境，继续做你的事吧？</color>
-()||:安洁自觉被人揪住了软肋，额角有些恼怒地浮起了青筋。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……+我考虑考虑。
-NPC-Ange(14)<Position>0,25</Position>;NPC-shaw(0)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>真遗憾，那么，这个交易就结束了。</color>
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:你一定要在我脾气最差的时候来找茬？
-NPC-Ange(12)<Position>0,25</Position>;NPC-shaw(0)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>那你狠狠地骂我啊，就像平常那样。</color>
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:……
-NPC-Ange(14)<Position>0,25</Position>;NPC-shaw(5)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>哈，你做不到，因为你现在急需我来帮你解决问题。</color>
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>;NPC-shaw(5)<通讯框>||:你真**的**。
-NPC-Ange(13)<Position>0,25</Position>;NPC-shaw(1)<Speaker>肖</Speaker><通讯框>||:<color=#00CCFF>不愧是你啊，连求人的方式都这么特别。</color>
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:安洁揉了揉狂跳不已的太阳穴，在扼制住毁灭世界的冲动后，她看向通讯器中可憎的面孔。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||<黑屏1>:我接受。
-()||<黑屏2><关闭蒙版>:翌日清晨。
-()||<SE1>AVG_Door_Hit</SE1>:咚咚咚——+粗暴的敲门声吵醒了刚刚才入睡的安洁。
-()<Speaker>警卫</Speaker>||:安洁指挥官，打扰了，请跟我们去接受讯问。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:知道了，我一会就出来。
-()||:安洁忍着怒火，迅速完成了洗漱。
-AK12(0)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>睡眠总时长3小时12分，深度睡眠时间15分钟，安洁指挥官，你现在严重缺觉啊。</color>
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:不需要你来告诉我。
-AN94(0)<Speaker>AN94</Speaker><通讯框>||:<color=#00CCFF>指挥官，我们已经抵达目标地点，请给出下一步指示。</color>
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:那里是格里芬基地的安防弱点区域，事发前几天监控还坏过一次，我怀疑凶手是从那里进入的基地。
-AK12(0)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>看地图，这个位置离诺维科夫指挥官的死亡地点也很近啊。</color>
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:你们找找看有没有凶手留下的痕迹。
-AN94(0)<Speaker>AN94</Speaker><通讯框>||:<color=#00CCFF>是。</color>
-AK12(0)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>安洁指挥官，为什么不把你的发现告诉调查团队呢？这不是还能顺便洗清你的嫌疑？</color>
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:我不相信他们。+而且，诺维科夫的死状有些……
-()||<SE1>AVG_Door_Hit</SE1>:砰砰砰——+敲门声变得更粗暴了。
-()<Speaker>警卫</Speaker>||:安洁指挥官，你现在正处于停职期间，请暂停手中的一切工作配合调查。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||:知道了。
-()||:门外的喊声还在拍打着安洁的鼓膜，她正准备将微型通讯器藏起，就听见AN94有些紧张的声音。
-AN94(0)<Speaker>AN94</Speaker><通讯框>||:<color=#00CCFF>指挥官，我们发现了新鲜的闯入痕迹。</color>+<color=#00CCFF>和之前时间更为久远的对比，确认是同一批人。</color>
-NPC-Ange(10)<Speaker>安洁</Speaker><Position>0,25</Position>||:很好，继续追踪。
-AK12(3)<Speaker>AK12</Speaker><通讯框>||:<color=#00CCFF>94，掩护我，它们就在——</color>
-()||<SE1>AVG_Explo_Close</SE1>:轰——
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:突如其来的巨响，让安洁也为之一振。
-NPC-Ange(12)<Speaker>安洁</Speaker><Position>0,25</Position>||:12？94？
-()||<SE1>AVG_whitenoise</SE1>:兹兹——+通讯器发出一些杂讯，狼群小队没有回应。+与此同时——
-()<Speaker>警卫</Speaker>||<SE1>AVG_Door_Hit</SE1>:喂，你给我老实点！+你现在可是重大嫌疑人，最好别耍什么花招，好好服从安排！
-NPC-Ange(13)<Speaker>安洁</Speaker><Position>0,25</Position>||:……
-()||:安洁盯着手中的微型通讯器，耳边汹涌的砸门声让她仿佛又回到几年前那个夏天。
-NPC-Ange(14)<Speaker>安洁</Speaker><Position>0,25</Position>||<黑屏1>:*的，我就知道会有这一天。
+()||<黑屏2><BIN>417</BIN><回忆><BGM>GF_22W_BGM_3</BGM>:...
+()<Speaker>Test Subject</Speaker>||:<color=#00CCFF>Captain Ganglati, his vital signs are gone...</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:And he still gave nothing away?
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:<color=#00CCFF>We interrogated him as per your order, but we could not obtain any new information from him that we did not already possess.</color>
+()||:In the live feed on the screen, a test subject stands up next to Novikov's corpse. +Novikov is sprawled on the floor of the warehouse. His face is bruised and swollen, and blood is spurting out from the dagger still lodged in the main artery in his neck.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:...
+()<Speaker>Test Subject</Speaker>||:<color=#00CCFF>I just wanted to scare him into talking, but he was so terrified he stumbled into the dagger himself...</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Doesn't matter. Since he's dead already, make the most out of the body.
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||:<color=#00CCFF>What do you mean?</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Clean it up and turn it into the scene of a crime of passion.
+NPC-Pamzan(10)<Speaker>Test Subject</Speaker><Position>0,-70</Position><同时置暗>||<黑点1>:<color=#00CCFF>...Fabricate a murder scene to incriminate Commander Angelia? Understood.</color>
+()||<黑点2><关闭蒙版>:The man smiles for the first time in a long time. Standing in front of the screen, he watches the live feed from inside the interrogation room at the Griffin base. +Since access to the surveillance system is gained via hacking, the picture is a little blurry and flickery, but he can still make out Commander Angelia and the anger on her face.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Just stay there like a good girl... +I'm coming for you, Angelia...
+()||:He caresses the blurry face on the screen with his fingertips...
+()||<SE1>AVG_whitenoise</SE1>:Pzzzt! A sharp and abrupt pain flashes from his right temple to his brain.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position><Shake>||:Tsk...
+()||<黑屏1>:He presses his buzzing head against his hand. The neuro-stabilizer on his right temple, which is covered by his hair, has come loose again.
+NPC-Ange(38)<Speaker>?</Speaker>||<BIN>7</BIN><黑屏2><回忆><黑屏1>:...
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||<黑屏2><关闭蒙版><BIN>417</BIN>:Not again... +Teacher... I require treatment...
+()||:He makes a call on his communicator as he hyperventilates.
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Teacher...!
+NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>White Nyto</Speaker><通讯框>||:<color=#00CCFF>Sister Sana is currently undergoing reconfiguration. If you have anything urgent to report, I will relay it once the procedure is completed.</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>;NytoWhite(0)<通讯框>||:Sana... +My neuro-stabilizer is malfunctioning again. I need the Teacher.
+NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>White Nyto</Speaker><通讯框>||:<color=#00CCFF>I will notify her as soon as the experiment is over.</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>;NytoWhite(0)<通讯框>||:Right...
+NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>White Nyto</Speaker><通讯框>||:<color=#00CCFF>Is there anything else I could help you with?</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>;NytoWhite(0)<通讯框>||:How... how is Sana doing?
+NPC-Pamzan(10)<Position>0,-70</Position>;NytoWhite(0)<Speaker>White Nyto</Speaker><通讯框>||:<color=#00CCFF>Her condition is stable. Teacher said to reassure you if you inquire about this.</color>
+NytoWhite(0)<Speaker>White Nyto</Speaker><通讯框>||:<color=#00CCFF>Focus on completing your mission. Do not forget what you have been through.</color>
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||:Understood.
+()||<黑屏1><BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1>:He puts down the communicator and slowly sits down on the metal chair. +He no longer sees the interrogation room at the Griffin base, and he is no longer in a heavily contaminated wasteland.
+()||<黑屏2><边框>2</边框><BIN>7</BIN><SE1>GF_Halloween_Wind_loop</SE1>:He has returned to the birch woodland back home, and Sana is waiting for him under a tree. +They agreed to go looking for birds in the woods today.
+()<Speaker>???</Speaker>||<边框>2</边框>:Let's go, Sana.
+NPC-Sana(0)<Speaker>Sana</Speaker><Position>0,210</Position>||<边框>2</边框>:Okay!
+()||<黑屏1><边框>2</边框>:He smacks his own red and freezing cheeks then takes her hand, which is wrapped in a thick mitten. Together, they wade through the knee-deep snow into the distance...
+NPC-Pamzan(10)<Speaker>???</Speaker><Position>0,-70</Position>||<黑屏2><BIN>417</BIN><SE1>Stop_AVG_loop</SE1>:Sana... I will avenge you and my brother... +The murderer who shot you in Beslan... will be cut to pieces... +You hear that, Commander Angelia?
+()||<黑屏1>:Enduring the pain that is shooting through his head like an electric current, he glares vehemently at the indifferent Angelia on the screen.
+()||<黑屏2><BIN>158</BIN><BGM>10295</BGM>:...Late at night, in the interrogation room at the Griffin base. +Sitting across the interrogator who sits at attention on the other side of the table, Ange yawns unabashedly.
+()<Speaker>Interrogator</Speaker>||:Commander Angelia, please be cooperative.
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:I told you—I wasn't even at the base yesterday.
+NPC-Ange(13)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Alibis need to be verified for them to be considered. +Please start from the beginning and explain your itinerary yesterday.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:... +I left the base at seven in the morning, and as per my arrangement with IOP, went to the lab over there to help test the Dolls. +I cannot reveal anything specific about my work due to a confidentiality agreement.
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:This has been verified. Your statement matches the surveillance records in the Griffin base and IOP's building.
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:Once I was done with my work, I went back to the Griffin base. That was about ten in the evening.
+NPC-Ange(13)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Let me go over this again. You left the Griffin base at 7 a.m. yesterday to run tests for IOP. +Then you returned to the Griffin base at around 10 p.m. after completing your work. Is that correct?
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Yes.
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Presumably, you already know the time of the crime?
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:I hear the body was found at around 4 p.m.?
+NPC-Ange(12)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:At 4 o'clock yesterday afternoon, a T-Doll in the employment of Griffin and Kryuger PMC discovered the deceased Commander Novikov in the logistics warehouse.
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:That proves I didn't have the time to commit the crime, no?
+NPC-Ange(13)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Actually, I have a few questions regarding your alibi.
+()||:The interrogator turns his tablet around and shows it to Ange. It is a CCTV footage.
+()<Speaker>Interrogator</Speaker>||:Commander Angelia, according to your statement, from 7 a.m. to 10 p.m. yesterday, you were either commuting to and from the IOP lab or working in the lab. +Then how do you explain this CCTV footage recorded at 2 p.m. yesterday?
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:The interrogator presses the play button. In the surveillance footage, Ange leaves the IOP building through the backdoor and drives off on a motorcycle with no license plate.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:I had to attend to some personal matter.
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Surveillance coverage was small and sparse in the area you traveled to, so we could only find intermittent footage of you. +But one thing is certain—
+()||:The interrogator plays the next surveillance clip.
+()<Speaker>Interrogator</Speaker>||:You only returned to IOP at 4.30 p.m., then you left at 9 p.m. +This means that contrary to what you said earlier, you were not working at IOP from 2 to 4.30 p.m.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:As I said, that's my own personal matter. I have the right to protect my own privacy.
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:According to the statements given by other commanders, you have had multiple heated arguments with Commander Novikov. +Testimony shows that you have threatened to kill him before.
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:He had bugged and spied on me repeatedly in the past and shamelessly feigned innocence when I found out. +I have found listening devices installed around me on at least five occasions.
+NPC-Ange(12)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:But you didn't have proof that he was the one behind the bugs, so Griffin decided not to pass judgment on him.
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:He always did a clean job. He was no amateur.
+NPC-Ange(12)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:It would seem that Commander Novikov had knowledge that could cost him his life. Does it have anything to do with your "personal matter"?
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:... +You already consider me the culprit, so you're trying to trick me into letting something slip?
+NPC-Ange(13)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Don't be testy, Commander Angelia. I am just making reasonable assumptions and routine inquiries.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Novikov's death has nothing to do with me. He was no more than an irritating fly to me. +I have more important things to do than worry about being harassed by a fly.
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Your "personal matter" seems to be quite the priority for you.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Let me say this again.
+()||:Ange's patience has reached its limit.
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:My personal matter is completely irrelevant to this case. Besides, I have an alibi.
+NPC-Ange(13)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Your alibi cannot be entirely verified unless you are willing to explain the missing link.
+()||<SE1>Rope</SE1>:Ange clenches her fists and fights the urge to punch this man's aggravating face.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:...
+()||:Taking in Ange's silence, the interrogator turns the desk lamp and shines its light directly into Ange's face. +The piercing light makes her narrow her eyes.
+()<Speaker>Interrogator</Speaker>||:I see that you're determined to make this difficult.
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+NPC-Ange(13)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||:Perhaps you have your own reasons that you cannot speak of, or perhaps you're just putting up some last-ditch resistance. +But whichever the case, I'm sorry to inform you that until your innocence can be proven, you will be stripped of your duties and confined to the Griffin base. +Any attempt to leave the base will be considered abscondment.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+NPC-Ange(14)<Speaker>Interrogator</Speaker><Position>0,25</Position><同时置暗>||<黑屏1>:If you have no further questions, that is all for the interrogation today.
+()||<黑屏2><BIN>18</BIN><Night><BGM>BGM_Empty</BGM>:LAMG paces uneasily along the quiet corridor. A piercing white light is shining through the window on the door of the interrogation room at the end. +It has been eight hours since Ange went inside, and it does not look like she is coming out any time soon.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:The other commanders only had to go through some perfunctory questioning... +Why are they turning up the heat on Commander Angelia?
+()||<SE1>AVG_Door_Open_Close</SE1>:Click. The interrogation room door opens.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||<BGM>10258</BGM>:Commander!
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:...LAMG? +Didn't I tell you to stand by at your dorm?
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:I... was worried about you...
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+NPC-Ange(11)<Speaker>Ange</Speaker><Position>0,25</Position>||:I'm fine.
+()||:Ange appears nonchalant, but LAMG notices her tightly clenched fists which gives away her suppressed rage.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Were they hard on you?
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:No. +Don't worry about it. Let's go.
+NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Miss Helian came by earlier and told me to let you know... +That the brass is taking the murder of this commander very seriously and has dispatched an investigation team from the capital. All suspected commanders have to be suspended from duty and undergo investigation. +They're probably worried that this may be related to the serial murder of Griffin employees that happened a year ago.
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:She's telling me to bear with it?
+NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Yeah... I believe that's what she's getting at.
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:Huh. Can you run an errand for me, LAMG?
+NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:I'll do whatever I can!
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>;LAMG(0)<Position>0,100</Position>||:Take this to 16LAB for me and hand it to Professor Persica.
+NPC-Ange(10)<Position>0,25</Position>;LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Commander...
+()||:LAMG sounds utterly defeated.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:I was banned from leaving the Griffin base not long after you entered the interrogation room. +Even my comms permissions are restricted to only internal calls within Griffin...
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Even you? I see.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:...
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:Then go get some rest for now.
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:Commander...
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:What is it?
+LAMG(0)<Speaker>LAMG</Speaker><Position>0,100</Position>||:If... you just sit tight and kill some time at the Griffin base, things will just blow over... +Would you consider doing that?
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:... +We'll see.
+()||<黑点1>:Ange waves at LAMG as usual and walks off. +LAMG is left standing outside the door. She checks and double-checks the surroundings and only leaves after making absolutely sure that nothing is amiss. +This is the first time she's seen Ange looking so grim.
+()||<黑点2><Night><BIN>82</BIN>:On the other side of the door.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:Leaning against the door, Ange looks outside the window at the quiet summer night. She can only hear the continuous chirps of insects, rising and falling like the breath of the night.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Dammit. I'm so close...
+()||:Ange slumps on the floor weakly. +The cries of the cicadas sound especially loud in the silent room. +Ange listens to it while lying on the floor, but she suddenly realizes that the noise isn't made by cicadas but some sort of vibration.
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||<BGM>BGM_Empty</BGM>:What's this...
+()||:She gets up from the floor irritably, steps over the stains left by her cold sweat, and looks for the source of the vibration. +Soon, the statue of wolves by the door catches her attention. The statue was a gift from Shaw. +She spots the strange glint in the eyes of one of the wolves, so she reaches out a hand—
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||<SE1>AVG_PPT_Switch</SE1>:...
+NPC-shaw(5)<Speaker>Shaw</Speaker><通讯框>||<BGM>10051</BGM>:<color=#00CCFF>Ange, we meet again.</color>
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>;NPC-shaw(5)<通讯框>||:When did this...
+NPC-Ange(12)<Position>0,25</Position>;NPC-shaw(3)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>Actually, it's 12's idea.</color>
+NPC-Ange(12)<Position>0,25</Position>;AK12(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Hi, Commander Angelia. Long time no see. Surprised?</color>
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>;AK12(4)<通讯框>||:...
+NPC-Ange(13)<Position>0,25</Position>;AK12(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Always keep an eye on even one's closest ally—you taught me that.</color>
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:I didn't tell you to... Nevermind. Thanks to you, I can still communicate with the outside world.
+NPC-Ange(14)<Position>0,25</Position>;NPC-shaw(0)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>I hear you're in big trouble.</color>
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:Not really, but the timing is truly terrible...
+NPC-Ange(12)<Position>0,25</Position>;NPC-shaw(0)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>By the by, my offer still stands.</color>
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:...
+NPC-shaw(5)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>You desperately need to get out of your current predicament and continue your quest, don't you?</color>
+()||:Ange is struck in her Achilles' heel. Veins appear on her forehead as she suppresses her anger.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:... +I'll consider it.
+NPC-Ange(14)<Position>0,25</Position>;NPC-shaw(0)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>How unfortunate. Then, I suppose this is the end of our little arrangement.</color>
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:Do you have to come mess with me when my temper is at its worst?
+NPC-Ange(12)<Position>0,25</Position>;NPC-shaw(0)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>Then start hurling abuse, like you usually do.</color>
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>;NPC-shaw(0)<通讯框>||:...
+NPC-Ange(14)<Position>0,25</Position>;NPC-shaw(5)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>Ha, you can't do that because you need me to get you out of this mess.</color>
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>;NPC-shaw(5)<通讯框>||:Ёбаная ты сука.
+NPC-Ange(13)<Position>0,25</Position>;NPC-shaw(1)<Speaker>Shaw</Speaker><通讯框>||:<color=#00CCFF>How very like you. Such a unique way of begging for a favor.</color>
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:Ange rubs her throbbing temples. Holding back the urge to annihilate the world, she looks at the hateful face in the communicator.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||<黑屏1>:Fine, I accept your offer.
+()||<黑屏2><关闭蒙版>:The next morning.
+()||<SE1>AVG_Door_Hit</SE1>:Thunk-thunk-thunk! +The forceful rap on the door wakes Ange, who feels like she had only just fallen asleep.
+()<Speaker>Guard</Speaker>||:Sorry to disturb you, Commander Angelia. Please come with us for further questioning.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:Alright, I'll be out in a minute.
+()||:Ange contains her anger and cleans herself up promptly.
+AK12(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>You slept for 3 hours 12 minutes and had only 15 minutes of REM sleep. You're suffering from severe sleep deprivation, Commander Angelia.</color>
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:I don't need you to tell me that.
+AN94(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Commander, we have reached the target location. Please provide further directives.</color>
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:That is the weak point in the security of the Griffin base. The CCTV here broke down a few days before the incident. I suspect that the murderer entered the base from there.
+AK12(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>It does look pretty close to where Commander Novikov was found dead on this map.</color>
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:See if you can find any traces left behind by the culprit.
+AN94(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Yes, ma'am.</color>
+AK12(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Commander Angelia, why didn't you bring this to the investigation team's attention? Wouldn't this clear you of any suspicion?</color>
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:I don't trust them. +Besides, the state Novikov's body was in is a little...
+()||<SE1>AVG_Door_Hit</SE1>:Thunk-thunk-thunk! +The knocking grows even more forceful.
+()<Speaker>Guard</Speaker>||:Commander Angelia, you are currently on suspension. Please cease everything you're doing and cooperate with the investigation.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||:I'm coming.
+()||:The shouting from outside the door continues to grate on Ange's ears. She is just about to put away the micro-communicator when AN-94 pipes up a bit anxiously.
+AN94(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Commander, we just discovered new traces of another break-in.</color> +<color=#00CCFF>They seem to be older than the other traces, but definitely left by the same people.</color>
+NPC-Ange(10)<Speaker>Ange</Speaker><Position>0,25</Position>||:Good. Keep looking.
+AK12(3)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>94, cover me. They're right—</color>
+()||<SE1>AVG_Explo_Close</SE1>:Boom!
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:Ange does a double-take at the sudden loud noise.
+NPC-Ange(12)<Speaker>Ange</Speaker><Position>0,25</Position>||:12? 94?
+()||<SE1>AVG_whitenoise</SE1>:Pzzt... +There is nothing but static from the communicator. No response from the Wolf Pack. +Just then...
+()<Speaker>Guard</Speaker>||<SE1>AVG_Door_Hit</SE1>:Hey, don't try anything funny! +You're a major suspect, so don't make trouble and do as you're told!
+NPC-Ange(13)<Speaker>Ange</Speaker><Position>0,25</Position>||:...
+()||:Ange stares at the micro-communicator in her hand. The furious knocking on the door transports her back to that summer day from several years ago.
+NPC-Ange(14)<Speaker>Ange</Speaker><Position>0,25</Position>||<黑屏1>:Пиздец! I knew this day would come.

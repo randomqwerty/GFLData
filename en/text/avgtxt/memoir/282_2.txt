@@ -1,83 +1,83 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<Night><BIN>534</BIN><黑屏2><narrator>:十年前 卢卡斯家的花园
-NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框><BGM>m_avg_labyrinth</BGM>:……有什么能为您做的吗？
-()||<SE1>ClothingUp</SE1><边框>2</边框>:熟悉的声音从背后响起，保持着不近不远的距离，一如往常的温柔。+可冰冷的机器终究无法温暖人心的孤独，越是亲切，越令人憎恶。
-NPC-Troy(2)<Position>0,30</Position><Speaker>特洛伊</Speaker>||<边框>2</边框>:喂，知道你为什么叫海伦吗？
-NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:……
-()||<边框>2</边框>:特洛伊冷笑一声，回头打量这张恭顺的脸。
-NPC-Troy(2)<Position>0,30</Position><Speaker>特洛伊</Speaker>||<边框>2</边框>:在古希腊传说里，一个叫“海伦”的女人招来了“特洛伊”城的覆灭。+所以，你是我的灾星。+我讨厌你。
-NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:……+我会永远对您忠诚的。
-()||<黑屏1><边框>2</边框>:小男孩没有回答，只是冷冷地瞥了海伦一眼，不再言语……
-()||<关闭蒙版><BIN>470</BIN><睁眼>:……
-NPC-Troy(0)<Position>0,-40</Position><Speaker>特洛伊</Speaker>||:……+<color=#A9A9A9>又是这个梦……</color>
-()||<SE1>AVG_Cloak_Whoosh</SE1>:特洛伊长长地舒了口气，从沙发上起身。+透过落地玻璃窗，星光密布的城市夜景与他的脚尖并齐，如一粒粒闪烁的尘埃。+他俯瞰着家族不可撼动的领地，感受着满屋空荡荡的寂寥，抬头猛灌了一口烈酒。
-()||<SE1>AVG_tele_connect</SE1>:滴。+通讯忽然响起。
-NPC-Troy(0)<Position>0,-40</Position><Speaker>特洛伊</Speaker>||:什么事？
-()||:特洛伊不耐烦地按下接听键，眼睛无意间扫过摆满精致关节人偶的橱窗。
-()<Speaker>秘书</Speaker>||:<color=#00CCFF>卢卡斯先生，有一位来自格里芬的人形小姐“斯捷奇金”向您致以问候。</color>+<color=#00CCFF>她声称……自己找到了“海伦”小姐。</color>
-()||<SE1>AVG_21Winter_Phone_Crash</SE1>:哐当——+玻璃杯从特洛伊的指尖倏然滑落。
-()<Speaker>秘书</Speaker>||:<color=#00CCFF>卢卡斯先生，请问您需要帮助吗？</color>
-NPC-Troy(1)<Position>0,-40</Position><Speaker>特洛伊</Speaker>||:不。+把通讯接进来。立刻。
-()<Speaker>秘书</Speaker>||:<color=#00CCFF>好的。</color>
-()||<SE1>AVG_whitenoise</SE1>:白噪音在扬声器中不安地扰动，仿佛大海深处暗潮汹涌。+特洛伊缓缓回头，阴鸷的目光紧盯着橱窗最顶层，那个被单独安置出来的人偶，“海伦”。
-NPC-Troy(1)<Position>0,-40</Position><Speaker>特洛伊</Speaker>||:<color=#A9A9A9>十年……</color>+<color=#A9A9A9>终于……要来了吗？</color>
-()||<黑屏1><BGM>BGM_Empty</BGM>:……
-()||<黑屏2><BIN>8</BIN><BGM>BGM_22Swim_langrensha</BGM>:……+翌日，格里芬资料室。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:早上好，格琳娜小姐……+嗯？
-()||:出人意料，在作战报告书堆叠如山的办公桌前，早有两个人形等候在此。
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:……
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:嘻嘻……好巧啊，DP-12小姐！
-()||:不同于昨日分别时的愤恨神色，斯捷奇金此刻显得热情开朗，有些古怪。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:太好了，我们的人终于到齐了！
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:请问……这是怎么回事？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嘿嘿！是好消息啦！+今天一早，有个名叫特洛伊·卢卡斯的财阀给格里芬派来一份紧急外勤订单。+说是下午需要举办一场特别的宴会，请格里芬前去协助安保工作……
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:您说……特洛伊·卢卡斯？
-DP12(0)<Position>0,-150</Position><同时置暗><Speaker>DP-12</Speaker>||:DP-12眯起眼，反复咀嚼着这个名字。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:对啊，据说是个超——级有钱的老板！出手相当阔绰呢！
-()||:DP-12感到自己的脸正在经历斯捷奇金肆无忌惮的扫视。+哪怕是最微小的表情变化，也逃不开对手的目光。+她无奈地弯了弯嘴角，视若无睹。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:虽然很荣幸被选上……可是格琳娜小姐，我下午已经安排了作战任务——
-DP12(0)<Position>0,-150</Position>;NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:啊，我知道我知道！+可是最近基地的维修费缺口太大，这笔大订单来得正是时候！+既然卢卡斯先生亲自点名让你们三个执行任务，大家一定要趁此良机，为基地贡献自己的力量嘛！
-DP12(6)<Position>0,-150</Position><Speaker>DP-12</Speaker>;NPC-Kalin(0)||:等等……+是特洛伊·卢卡斯“亲自点名”的？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:对啊。
-NPC-Kalin(3)<Speaker>格琳娜</Speaker>||:不过说起来总觉得哪里怪怪的……+好像他事先调查过我们基地一样，连我们有哪些人形都一清二楚……
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:嘿嘿，管他呢！+现在当然是赚钱比较重要啦！+DP-12小姐，你该不会不愿意吧？
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:DP-12小姐，虽然这样说有点冒犯。+但还是请你正大光明地跟我们执行任务。直面质疑，证明自己。
-NPC-Kalin(2)<Speaker>格琳娜</Speaker>||:哦？+看来你们之间有些我不知道的小秘密啊……
-()||:格琳娜看了看一脸坏笑的斯捷奇金，又看了看深不可测的DP-12。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:嘻嘻……没关系没关系！+只要大家搞定任务就行，很简单的啦！
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:没错，那么简单的任务，我们一定没问题的……+对吧，海……DP-12小姐？
-DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:……
-()||<黑点1>:DP-12沉默片刻，忽而抬眸，凝视着虚无的远方。+她的目光深邃如海，涌动着暗不见底的细密心事……
-()||<黑点2><BIN>166</BIN><BGM>BGM_Empty</BGM>:……
-()||<SE1>AVG_HeavyVehicle_Stop</SE1><BGM>BGM_stage13</BGM>:午后，繁华的商业广场。+阳光苍白地泻下。+高耸的写字楼将阴影投射在彼此身上，玻璃墙面闪烁着灰白色的冷峻光芒。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:DP-12小姐，您不觉得这里很眼熟吗？
-DP12(6)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:我从未到过这里，怎么会眼熟呢……
-()||:环顾四下，广场中心一个人也没有，安静得反常。+显而易见的陷阱。DP-12意识到。+但是，她没有退缩的权利。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:您的心理素质真不是一般的强啊，海伦小姐……+可惜，无论你如何狡辩也无济于事了！+告诉你吧，这里就是你当年劫持特洛伊·卢卡斯的地方。+而今天，这里也将见证你这逃犯最后的结局！
-()||<SE1>AVG_Applause</SE1>:啪、啪……+掌声自半空中激荡开来。
-DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:……+原来如此。
-()||<SE1>AVG_Team_Running</SE1><SE1>AVG_Crowd_Run</SE1>:只一瞬，犹如黑色的浪潮滚滚而来。+墙角的拐点，浓荫的树后……四面八方的隐蔽处源源不断地涌出全副武装的黑衣保镖，将DP-12团团围住。
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||<SE1>Stop_AVG_loop</SE1>:一切按计划执行，最高安保警戒开启。+她跑不掉了。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:干得漂亮，VSK。+大财阀的赏金到手了！
-()||:被饿狼般充满敌意的目光团团包围，DP-12无奈地叹了口气。
-DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:斯捷奇金小姐，你做的这一切……只是为了赏金吗？
-()||:斯捷奇金轻快地走近。抬头，骄傲地凝视DP-12的双眼。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:海伦啊海伦……如果你肯在格里芬就老老实实承认的话，或许我还会对你网开一面……+可是你偏偏选择了最糟糕的态度。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:恭喜你，成功点燃了我的胜负欲。+所以这一切并不只为了赏金，更为了我至高无上的尊严和智商！+是时候接受你应有的制裁了！！！
-()||<SE1>AVG_Team_Running</SE1>:哗啦啦……+顺应着斯捷奇金庄重的宣告，牢不可破的黑色人墙朝两边退去。+一条大路缓缓铺展，从DP-12的脚下向前无限延伸、延伸……
-()||<黑点1>:直到停在一身白色西装的男人脚边。
-()||<黑点2><BIN>627</BIN><SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:吧嗒……吧嗒……+鸦雀无声的广场，只有清脆的脚步声逐渐逼近。+最终，停在DP-12面前。
-()<Speaker>特洛伊</Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Wake</BGM>:……+……海伦？
-()<Speaker>DP-12</Speaker>||:……
-()<Speaker>斯捷奇金</Speaker>||:<color=#00CCFF>哈哈！你听到他刚刚说什么了吗，VSK？！</color>+<color=#00CCFF>我们赢了耶！！！</color>
-()<Speaker>VSK-94</Speaker>||:……
-()||<SE1>AVG_AMB_Wind</SE1>:呼啸的风中，天际乌云缓缓挪动。+最后一丝惨白的阳光也被迫消亡在浅灰色阴影中，毫无挣扎之力。
-()||<SE1>Stop_AVG_loop</SE1>:特洛伊注视着这双似曾相识的眼眸。+像被施了魔法一般，银刃般的目光竟开始一点点撬开记忆的硬壳。+仿佛被裹挟着，他随记忆的洪流一圈圈卷入时间黑洞，有些眩晕……
-()||<narrator>:“……你是新来的机器人？叫什么名字？”+某个晴朗的下午，她第一次站在花园里，微笑着颔首致意。+“尊敬的小主人，我还没有名字……”+“您愿意为我取一个独一无二的名字吗？”+“为什么？”+她浅浅地鞠了一躬，笑容依旧沉静。
-()||:……
-()||<narrator>:“因为我是专门负责照顾您的人形。”+“您的赐名，将成为我们之间独一无二的羁绊。”+她的美丽从容令小男孩放下了戒备。+他撇开目光，认真想了想。+“那，你就叫海伦吧。”小男孩说。+“海伦……”+“很美的名字，我很喜欢……”
-()||:……
-()<Speaker>特洛伊</Speaker>||:……+你是谁？+仔细看的话，你和她的眼神差距很大。
-()<Speaker>DP-12</Speaker>||:也许是您认错了，我现在是DP-12。
-()||:……+是海伦？还是DP-12？
-()||<黑点1>:
+()||<Night><BIN>534</BIN><黑屏2><narrator>:10 years ago, Lucas family garden.
+NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框><BGM>m_avg_labyrinth</BGM>:...Is there anything I can do for you?
+()||<SE1>ClothingUp</SE1><边框>2</边框>:A familiar voice rings out from behind, neither too distant nor too near, as gentle as ever. +Yet, the coldness of this machine could never warm a lonely heart; the closer it gets, the more loathsome it becomes.
+NPC-Troy(2)<Position>0,30</Position><Speaker>Troy</Speaker>||<边框>2</边框>:Hey, do you know why they call you Helen?
+NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:...
+()||<边框>2</边框>:Troy sneers as he turns around, staring back at the courteous face.
+NPC-Troy(2)<Position>0,30</Position><Speaker>Troy</Speaker>||<边框>2</边框>:In Greek mythology, a woman by the name of "Helen" brought destruction to the city of "Troy". +You are, thus, my bane. +I hate you.
+NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:...+I will always be loyal to you.
+()||<黑屏1><边框>2</边框>:The boy remains silent, only casting a cold glance towards Helen without uttering a single word.
+()||<关闭蒙版><BIN>470</BIN><睁眼>:...
+NPC-Troy(0)<Position>0,-40</Position><Speaker>Troy</Speaker>||:...+<color=#A9A9A9>This damn dream again...</color>
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Troy takes a long breath of relief as he stands up from the couch. +Like shimmering specks of dust, the city lights of a starry night sky gleam at his feet through the large glass wall. +As he overlooks the unshakable domain of the Lucas family, isolation fills his mind, and strong alcohol his stomach.
+()||<SE1>AVG_tele_connect</SE1>:Beep.+A call comes in.
+NPC-Troy(0)<Position>0,-40</Position><Speaker>Troy</Speaker>||:What's the matter?
+()||:Troy answers impatiently, his eyes glancing over a display window filled with Dolls with meticulously crafted joints.
+()<Speaker>Secretary</Speaker>||:<color=#00CCFF>Mr. Lucas, a certain T-Doll from Griffin, "Miss Stechkin", has a message for you.</color>+<color=#00CCFF>She claims that... she has found Miss Helen.</color>
+()||<SE1>AVG_21Winter_Phone_Crash</SE1>:Crack—+The glass of wine slips from Troy's fingertips.
+()<Speaker>Secretary</Speaker>||:<color=#00CCFF>Mr. Lucas, do you need any assistance?</color>
+NPC-Troy(1)<Position>0,-40</Position><Speaker>Troy</Speaker>||:No. +Patch her through. Right now.
+()<Speaker>Secretary</Speaker>||:<color=#00CCFF>Understood.</color>
+()||<SE1>AVG_whitenoise</SE1>:White noise buzzes nervously through the speaker, like uncaring currents of the ocean. +Troy slowly turns his head, maliciously staring at the singled-out Doll on the top row of the display window—Helen.
+NPC-Troy(1)<Position>0,-40</Position><Speaker>Troy</Speaker>||:<color=#A9A9A9>10 years...</color>+<color=#A9A9A9>Has the time... finally come?</color>
+()||<黑屏1><BGM>BGM_Empty</BGM>:...
+()||<黑屏2><BIN>8</BIN><BGM>BGM_22Swim_langrensha</BGM>:...+The next day, Griffin data room.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Good morning, Miss Kalina...+Huh?
+()||:Surprisingly, two T-Dolls were already waiting by the mountains of combat reports.
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:...
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Hehe... What a coincidence, Miss DP-12!
+()||:Unlike her cynical expressions of yesterday, Stechkin now appears strangely cheerful and welcoming.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Alright, everyone's present now.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:May I ask... What is going on?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Listen up, I have great news!+Earlier this morning, a tycoon named Troy Lucas sent Griffin an urgent request.+It states that a special party will be held this afternoon, and he would like Griffin to send a few T-Dolls to assist with security duty.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Did you say... Troy Lucas?
+DP12(0)<Position>0,-150</Position><同时置暗><Speaker>DP-12</Speaker>||:DP-12 narrows her eyes as she mulls over the name repeatedly.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Yep! Apparently, he's SUPER wealthy and wouldn't even bat an eye when spending money!
+()||:DP-12 can feel her expressions being carefully monitored by Stechkin's watchful gaze.+Even the smallest of twitches are noticed by her opponent.+She reluctantly curls the corner of her lips in an attempt to ignore her.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:While I'm honored... Miss Kalina, I'm already scheduled for a combat mission this afternoon—
+DP12(0)<Position>0,-150</Position>;NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Oh yeah, I know! +But since we've been barely covering the repair costs of the base lately, we cannot let a once-in-a-lifetime request go to waste! +On top of that, Mr. Lucas personally appointed you three to carry out the mission, so you girls might as well capitalize on this opportunity and contribute something for everyone at Griffin! 
+DP12(6)<Position>0,-150</Position><Speaker>DP-12</Speaker>;NPC-Kalin(0)||:Wait...+Troy Lucas appointed us personally?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Yep!
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Now that you mention it, it is quite odd...+As if he investigated our base beforehand and even knows exactly which T-Dolls we have stationed here...
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Hehe, whatever his deal is! +Making the big bucks is more important right now! +You wouldn't mind, right, Miss DP-12?
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:Miss DP-12, please don't take it as an offense. +But please, join us in carrying out the mission and facing the allegations head-on so you can prove your innocence in broad daylight.
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Huh? +Looks like there's some secret going on between the both of you.
+()||:Kalina glances at the mischievous Stechkin and then at the unfathomable DP-12.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Heh... It's not that big of a deal! +Just focus on the mission; it'll be a walk in the park for you girls!
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:A walk in the park, indeed. No biggie...+Right? Miss Hel... DP-12?
+DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:...
+()||<黑点1>:DP-12 stands in silence. Suddenly, she raises her eyes and stares into the distant void.+Her gaze is as deep as the ocean, surging with unseen currents of delicate thoughts...
+()||<黑点2><BIN>166</BIN><BGM>BGM_Empty</BGM>:...
+()||<SE1>AVG_HeavyVehicle_Stop</SE1><BGM>BGM_stage13</BGM>:Late afternoon in a prosperous shopping plaza. +The sun bathes everything in pale rays of light. +Towering office buildings cast down shadows on each other, their glass walls glinting with a cold, bright shine.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Miss DP-12, doesn't this place look familiar to you?
+DP12(6)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:How could that be? I've never been here before...
+()||:Looking around, there's not a single person in sight. The silence is uncanny. +An obvious trap, DP-12 realizes. +However, she has no right to back down.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:You certainly have the nerve, Miss Helen... +Unfortunately, there isn't much you can do to weasel your way out of this one! +This is the place where you abducted Troy Lucas years ago. +And today, it too will witness the end of this fugitive of ours!
+()||<SE1>AVG_Applause</SE1>:Clap, clap...+Applause surges from the air.
+DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:...+So that's how it is.
+()||<SE1>AVG_Team_Running</SE1><SE1>AVG_Crowd_Run</SE1>:In but an instant, a black wave gushes in. +Around every wall and behind every bush... Every corner of this plaza is now filled with heavily armed bodyguards clothed in black, surrounding DP-12 in the middle.
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||<SE1>Stop_AVG_loop</SE1>:Everything is proceeding as planned. A true testament to maximum security. +She isn't going anywhere.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Good job, VSK! +The tycoon's bounty is ours now!
+()||:Surrounded by the wolf-like hostile gazes of the bodyguards, DP-12 sighs.
+DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Miss Stetchkin, was all this... just for the bounty?
+()||:Stechkin approaches briskly. Looking up, she stares proudly into DP-12's eyes.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Oh, poor Helen... If only you were willing to admit it honestly back at Griffin, perhaps I would have shown you some courtesy... +Alas, you chose to take the worst possible stance.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Congratulations, you've managed to stoke my competitive ego. +It wasn't all just for the bounty but also for my supreme dignity and intellect! +Now, the time has come for you to receive the sanctions you deserve!!!
+()||<SE1>AVG_Team_Running</SE1>:Stomp...+With Stechkin's proclamation, the unbreakable wall of bodyguards withdraws to the sides. +A path soon appears at the feet of DP-12, stretching on for what seems to be an infinity...
+()||<黑点1>:Until it stops at the feet of a man in a white suit.
+()||<黑点2><BIN>627</BIN><SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:Pat... Pat...+The deafening silence of the plaza is only disturbed by the sound of crisp footsteps, inching closer and closer. +Finally, they halt in front of DP-12.
+()<Speaker>Troy</Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Wake</BGM>:...+...Helen?
+()<Speaker>DP-12</Speaker>||:...
+()<Speaker>Stechkin</Speaker>||:<color=#00CCFF>Haha! You heard that right, VSK?!</color>+<color=#00CCFF>We got her!!!</color>
+()<Speaker>VSK-94</Speaker>||:...
+()||<SE1>AVG_AMB_Wind</SE1>:In the wailing wind, the dark clouds roam. +The last traces of bleak sunlight were forced to perish among the grey shadows without a chance to linger on.
+()||<SE1>Stop_AVG_loop</SE1>:Troy stares into these oddly reminiscent eyes. +As if being enchanted, her knife-sharp gaze starts prying open the rigid shells of his memories bit by bit. +He is slowly coerced into the black hole of time by the flood of dazzling memories.
+()||<narrator>:"...So you're the new android? What's your name?"+On a sunny afternoon, she stood in the garden for the first time, smiling and nodding.+"Dear young master, I don't have a name yet... "+"Would you like to give me a very special name?"+"Why?"+She bowed shallowly, her smile remaining composed.
+()||:...
+()||<narrator>:"Because I am the Doll dedicated to your care." +"You bestowing me a name will make the bond between us even more special."+Her beauty caused the young boy to drop his guard. +He averted his gaze, thinking long and hard. +"Well, then, your name will be Helen." The little boy said. +"Helen..."+ "A beautiful name, I love it..."
+()||:...
+()<Speaker>Troy</Speaker>||:...+Who are you? +Your gaze is indeed different than hers after looking closely.
+()<Speaker>DP-12</Speaker>||:Perhaps you are mistaken. I am now DP-12.
+()||:...+Helen? Or DP-12?
+()||<黑点1>:

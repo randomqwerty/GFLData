@@ -1,82 +1,84 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<回忆><黑屏2><BIN>166</BIN><narrator>:十年前，某繁华地段。
-()||<边框>2</边框><BGM>BGM_Room</BGM>:……+阳光苍白地泻下。+偌大的商业广场鸦雀无声，如危机四伏的丛林，回荡着敌我双方低沉的喘息。
-()<Speaker>警察</Speaker>||<SE1>Select</SE1><边框>2</边框>:犯罪人形“海伦”，你已经被包围了！+这是最后一次警告！放开人质！
-()||<边框>2</边框>:明黄色警戒线后，漆黑的枪口升腾着欲出未出的硝烟。+一把锋利的匕首折射着阳光，抵住小男孩脆弱的脖颈。
-NPC-DP12-Helen(0)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:您还有什么遗言吗，特洛伊小少爷？+大家都在盯着你看呢~
-()||<边框>2</边框>:温柔的声音贴着耳边响起，仿若魔鬼的低语，带着些许怨怼的恨意。
-NPC-Troy(3)<Position>0,30</Position><Speaker>特洛伊</Speaker>||<边框>2</边框>:海伦……求求你，把我送回爸爸妈妈身边好不好？+我保证，他、他们一定不会伤害你的……+我、我不想死……我会给你自由……求求你……
-NPC-DP12-Helen(3)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:真可悲啊，特洛伊少爷……
-NPC-DP12-Helen(3)<Position>0,-40</Position><同时置暗><Speaker></Speaker>||<边框>2</边框>:回复这令人心碎的求告的，却只有背后轻蔑的冷笑。
-NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:为什么我一心一意地爱您、照顾您……您却只惦记着那两位从不曾探望您的无情人类呢？+想想上个月的开学典礼，再想想上周的生日派对……
-NPC-Troy(3)<Position>0,30</Position><Speaker>特洛伊</Speaker>||<边框>2</边框>:……他、他们只是忙忘了！
-NPC-Troy(3)<Position>0,30</Position><Shake>0.1</Shake><Speaker>特洛伊</Speaker>||<SE1>Rope</SE1><边框>2</边框>:唔呃！
-()||<边框>2</边框>:捆住特洛伊的臂膀无端地紧缩，两行清澈的眼泪顺着男孩的面颊流淌下来。
-NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:善良天真的灵魂……为何要坠入污浊的人间，掉进纠缠的巨网？
-NPC-Troy(3)<Position>0,30</Position><Speaker>特洛伊</Speaker>||<边框>2</边框>:呜呜呜……+我、我还要……和爸爸妈妈……一起……+今天……去游乐园……他们……约好了……
-NPC-DP12-Helen(0)<Position>0,-40</Position><Speaker>海伦</Speaker>||<边框>2</边框>:嘘……亲爱的小主人，别再惦记游乐园和那两位辜负您的人了。+既然他们无法关怀你，不如和我一起走吧……+让我们永远在一起，进入极乐天堂，迎接永恒的幸福……+我保证，会比你的父母更关心你、疼爱你……好不好？
-()||<黑屏1><边框>2</边框>:锋利的匕首愈加逼近特洛伊的喉咙，似乎有隐隐的血色渗出……
-()||<黑屏2><关闭蒙版><BIN>80</BIN><SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:滴。
-()||<BGM>GF_Swim_Marnie</BGM>:平板上的影像停止播放。+VSK-94和斯捷奇金彼此对望一眼，再度将目光投向坐在不远处的某个沉静身影——
-()||:DP-12。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:喂，你睁大眼睛好好看看！+她们俩说话的语气、眼神，还有这张悬赏令上的细节相似度对比……+我敢说百分之百就是她！
-()||:……
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:……
-()||<SE1>AVG_20Winter_Book</SE1>:一本古老的民间神话故事集沿着DP-12的手指轻柔地翻动。+被两双锐利目光锁定的“当事人”正沉浸于想象世界中，安静从容。
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:就我所了解……DP-12小姐虽然有些古怪，但应该不至于犯罪吧。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:笨蛋，知人知面不知心！+你没看见她正在读“疯狂的美狄亚”的故事吗？
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:那是什么？
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:……你自己上网查查就知道了。+总之，越是看起来人畜无害温柔善良的家伙，越有可能是穷凶极恶的杀人狂……+实不相瞒，凭借多年格里芬头号“赏金猎人“的经验，我已经闻到了人间最美妙的气息！+啊！卢卡斯财阀的巨额赏金！啊！我的美好生活！
-()||:徜徉于金子般闪耀的想象中，斯捷奇金的嘴角不自觉地疯狂上扬。
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:你什么时候成“赏金猎人”了？格里芬有这个职业吗？
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:我说有就有！+你坐在这儿等着，注意看我接下来的操作！
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:……
-()||<SE1>AVG_Cloak_Whoosh</SE1><黑点1>:呼啦——+斯捷奇金潇洒地站起，大摇大摆地朝DP-12走去。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||<黑点2>:……+传说中高贵无比的美狄亚公主，不幸陷入对王子的迷恋，抛弃一切追随他而去……+可是王子的无情令她坠入疯狂，不惜杀死自己的幼子来向其复仇……+这则扭曲黑暗的故事的确和您的过去很匹配呢——+您说是吗，“海伦”小姐？
-DP12(6)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:……？
-()||:直呼其名的瞬间，DP-12的脸上划过一丝惊愕。+反复确认斯捷奇金的目光指向自己，DP-12才眨了眨眼，扬起一抹不解的微笑。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:美狄亚的故事确实很震撼……+不过斯捷奇金小姐刚才称呼我什么？我怎么听不明白？
-()||<SE1>ClothingUp</SE1>:斯捷奇金冷笑一声，故作亲昵地靠近DP-12坐下。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:明人不说暗话。+海伦小姐，十年前，身为财阀家高端女仆的你为了独占小主人特洛伊·卢卡斯，不惜对其进行残忍的威胁……+你劫持他在豪宅区的商业广场和警察对峙，引发大面积恐慌……没错吧？
-()||:DP-12困惑地歪了歪脑袋，面色依然亲和。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:这是您新编的恐怖故事吗？听起来很有意思……+后来呢？
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:后来，海伦虽然被制服，人质也平安获释……+但过了不久她就越狱了，至今都没有找到——整整十年哦！+……如果我没记错的话，DP-12小姐的这身素体恰好是十年前换上的吧？
-DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:……
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:我看过您的入职档案——您曾服务于豪宅区，但是那段履职经历完全空白……对吗？
-DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:……
-()||:在尖锐的逼视下，DP-12松懈了目光。+完美的伪装开始动摇，垂眸的视线积攒着越来越浓厚的阴郁。
-()||:感到胜利的天平朝自己缓缓偏移，斯捷奇金兴奋地涨红了脸……
-()||<SE1>AVG_Sword_Scope</SE1><BGM>GF_21summer_avg_SecretAgent</BGM>:突然，一股冰凉的触感从颈后传来！
-()<Speaker>斯捷奇金</Speaker>||:！！！！！！
-()||<SE1>Rope</SE1>:不知何时，DP-12的手臂已温柔地拢住斯捷奇金的肩膀。+冰凉的指尖轻轻摩挲着斯捷奇金的要害。
-APSMod(0)<Position>0,35</Position><Shake>0.1</Shake><Speaker>斯捷奇金</Speaker>||:<size=25>你、你干什么？！</size>
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:你说的劫持……+是指这样吗？
-()||<SE1>AVG_whitenoise</SE1>:滋啦……滋啦……+明明想要尖声求救，可发声系统却在对方强势的骇入下，不争气地躺平认栽。
-()||:咖啡厅内，人形们来来往往、说说笑笑。+没有人注意到，看似在角落亲昵交谈的她们，实际正上演着一出危险的戏码。
-()<Speaker>斯捷奇金</Speaker>||:果然……是你！！！+你要……杀人……灭口……吗？！
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:嘘……
-()||<SE1>Rope</SE1>:禁锢叠加。
-()||<SE1>ClothingUp</SE1>:斯捷奇金全身僵硬，任凭DP-12的手指顺着她的头发，如冰冷的蛇一般攀上头顶。
-()<Speaker>斯捷奇金</Speaker>||:海伦……！你就是……海……伦！+咕唔……！
-()||:一阵轻笑掀起温柔的气息，吹拂在人质耳边。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:亲爱的斯捷奇金小姐，您的想象力真的很丰富……+不过，您拿得出令人信服的证据吗？
-()<Speaker>斯捷奇金</Speaker>||:……
-()||:又一阵轻笑从身后传来。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:放心……今天发生的一切都只是小小的玩笑而已。+我不会对斯捷奇金小姐怎么样的。
-DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:因为……+您永远也找不到确切的证据。我保证。
-()||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:忽而，温柔的禁锢松懈了。+轻笑如银铃般荡开。DP-12合上书，转身离去。
-()||<SE1>AVG_Walk</SE1>:优雅镇定的脚步声，踏着某种神秘莫测的节拍，渐渐消失在咖啡厅外。
-()||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Brain</BGM>:……
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:斯捷奇金……前辈？
-VSK(0)<Position>0,-40</Position><同时置暗><Speaker></Speaker>||:VSK-94端着咖啡，后知后觉地走近。+短短几步路，在斯捷奇金眼中却仿佛开了0.2倍速一般漫长。
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:你不是要大展身手吗？怎么还和人家搂上了……+她果然不是海伦吧？
-APSMod(0)<Position>0,35</Position><Shake>0.1</Shake><Speaker>斯捷奇金</Speaker>||:……你懂个屁！+你个迟钝的家伙！！！
-()||<SE1>AVG_va_addingredient</SE1>:激醒的斯捷奇金没好气地夺过咖啡，咕咚咕咚饮了下去。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:呼啊……呼啊……+居然被耍了……！+没想到我“赏金猎人”斯捷奇金纵横半生，竟会栽在“海伦”手里！
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:……海伦？
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:没错，她就是海伦！
-APSMod(0)<Position>0,35</Position><Shake>0.1</Shake><Speaker>斯捷奇金</Speaker>||:<size=50>DP-12就是海伦！！！</size>
-VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:那你刚才怎么……？
-()||<SE1>AVG_21Winter_Phone_Crash</SE1><震屏3>:啪！+没等VSK-94说完，斯捷奇金便愤愤地站起来，积攒的怒火在眼眸中熊熊燃烧。
-APSMod(0)<Position>0,35</Position><Speaker>斯捷奇金</Speaker>||:呵，狡猾的海伦，我们走着瞧……+我——格里芬最伟大的赏金猎人斯捷奇金！+赌上此生的名誉，必定要揭开你罪恶的真面目！！！
-()||<黑点1>:
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:  
+()||<回忆><黑屏2><BIN>166</BIN><narrator>:Ten years ago, in a certain wealthy district.
+()||<边框>2</边框><BGM>BGM_Room</BGM>:...+The sun baths everything in rays of pale light.+An uncanny silence befalls the vast shopping plaza. Like a jungle of hidden danger, muffled gasps of friend and foe alike echo endlessly.
+()<Speaker>Police</Speaker>||<SE1>Select</SE1><边框>2</边框>:The criminal Doll "Helen", we have you surrounded! +This is an ultimatum! Let go of the hostage!
+()||<边框>2</边框>:Behind bright yellow cordons, faint puffs of smoke rise from the dark muzzles of firearms. +A sharp dagger gleams in the blinding sunlight, held against the frail neck of a young boy.
+NPC-DP12-Helen(0)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:Any last words, young master Troy? +Everyone's looking at you~
+()||<边框>2</边框>:The gentle voice rings around his ears like whispers of the devil, with a tint of spiteful hatred.
+NPC-Troy(3)<Position>0,30</Position><Speaker>Troy</Speaker>||<边框>2</边框>:Helen... Please, can you just let me go back to my mom and dad? +I promise, th-they won't hurt you.. +I-I don't want to die... I will give you freedom... Please...
+NPC-DP12-Helen(3)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:How pathetic, young master Troy...
+NPC-DP12-Helen(3)<Position>0,-40</Position><同时置暗><Speaker></Speaker>||<边框>2</边框>:In the face of such a heartbreaking plea, only a contemptuous sneer can be heard behind the boy.
+NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:Why, despite all my wholehearted love and care for you... You only think of those two heartless humans who never came to see you? +Remember last month's school entrance ceremony? Or last week's birthday party...?
+NPC-Troy(3)<Position>0,30</Position><Speaker>Troy</Speaker>||<边框>2</边框>:...Th-they simply forgot!
+NPC-Troy(3)<Position>0,30</Position><Shake>0.1</Shake><Speaker>Helen</Speaker>||<SE1>Rope</SE1><边框>2</边框>:Euh!
+()||<边框>2</边框>:The arm squeezing Troy tightened further as tears visibly traced their way down the boy's cheeks.
+NPC-DP12-Helen(2)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:A naive and innocent soul... Why did you fall into this tainted world, into this giant web of entanglement?
+NPC-Troy(3)<Position>0,30</Position><Speaker>Troy</Speaker>||<边框>2</边框>:Sob... +I-I still... need to go... with mom and dad... to the amusement park... +Today... they promised me today... They promised...
+NPC-DP12-Helen(0)<Position>0,-40</Position><Speaker>Helen</Speaker>||<边框>2</边框>:Hush... my dear young master, quit hanging on to the two who let you down and the amusement park they'll never take you to.+Why don't you come with me if they won't care about you...+Let us enter the afterlife together and embrace our eternal happiness...+I promise to love you and care for you more than your parents ever could... alright?
+()||<黑屏1><边框>2</边框>:The sharp dagger inches closer and closer to Troy's throat. Smudges of blood begin to slowly seep out.
+()||<黑屏2><关闭蒙版><BIN>80</BIN><SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:Beep.
+()||<BGM>GF_Swim_Marnie</BGM>:
+The footage on the tablet comes to a stop.+VSK-94 and Stechkin stare at each other, both then lay their gazes onto a certain figure sitting not far away from them—
+
+()||:DP-12.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Hey, open your eyes and take a good look! +Her ways of speech, her gaze, and the other similarities that match up with her bounty... 
+()||:...
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:...
+()||<SE1>AVG_20Winter_Book</SE1>:Pages of a book on old folklore gently flutter between DP-12's fingertips. +The "subject", despite being stared at by two pairs of sharp eyes, remains immersed in her world of imagination, displaying nothing more but her usual tranquility.
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:To my knowledge... While Miss DP-12 can be a little eccentric, it's a stretch to say she's a criminal...
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:You dork! No one writes their true identity on their face!+Don't you see she's reading the tale of the "Mad Medea"?
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:What's that about?
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:...Just look it up on the internet yourself. +In short, the more someone appears gentle and harmless, the more likely they're some sort of vicious murderer... +Truth be told, with years of experience as Griffin's top "bounty hunter", I've already caught wind of the most wonderful scent on earth!+That's right! A huge bounty from the Lucas Group! A wonderful life awaits me!
+()||:Stechkin can't help but unconsciously raise the corner of her lips as she fantasizes about the golden glimmer of her imaginary wealth.
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:A "bounty hunter"? Since when? Do we even have that position here?
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Yeah we do, because I said so! +You, sit tight and watch. I'll show you how it's done!
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:...
+()||<SE1>AVG_Cloak_Whoosh</SE1><黑点1>:Woosh— +Stechkin stands up stylishly and strides towards DP-12.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||<黑点2>:...+The noble Princess Medea of the legends. She fell in love with a prince and abandoned everything to be with him... +Yet, she was unfortunately met with the prince's heartless indifference in return, which drove her into madness, resulting in the killing of her own offspring as her way of revenge... +A bleak and twisted tale certainly matches your past. +Wouldn't you say, Miss "Helen"?
+DP12(6)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:...?
+()||:The instant her name is called out, a shocked expression flashes across DP-12 face. +After repeatedly confirming that Stechkin's gaze is indeed directed at her, DP-12 blinks and puts on a perplexed smile.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:While Medea's tale is indeed stunning...+What did Miss Stechkin just refer to me as? I have no clue as to what you're talking about.
+()||<SE1>ClothingUp</SE1>:Stechkin sneers as she sits right next to DP-12 with a faux intimacy.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Let's cut to the chase. +Miss Helen, ten years ago, as a high-end maid Doll of a wealthy family, you attempted to kidnap the young master, Troy Lucas, even resorting to violent threats... +You abducted him and confronted the police in the midst of a commercial plaza in an affluent residential area, causing widespread panic... Correct?
+()||:DP-12 shakes her head, confused. But an affable smile still lingers on her face.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Is this a new horror story that you just came up with? It sounds pretty intriguing...+What happened afterwards?
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Later, although Helen was subdued, and the hostage was saved...+She managed to escape from prison and has yet to be found to this day, a full ten years later! +...If I remember correctly, Miss DP-12 just happened to upgrade into this body ten years ago, right?
+DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:...
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:I've browsed through your files. You have worked in wealthy districts, yet somehow, service logs from that period are completely blank... isn't that right?
+DP12(5)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:...
+()||:Under the watch of a sharp, pressing gaze, DP-12 relents. +Her perfect disguise begins to falter, and a growing gloom accumulates in her own gaze.
+()||:Feeling the balance of victory slowly tipping in her favor, Stechkin reddens with excitement...
+()||<SE1>AVG_Sword_Scope</SE1><BGM>GF_21summer_avg_SecretAgent</BGM>:Suddenly, a chilling sensation spreads out from the back of her neck.
+()<Speaker>Stechkin</Speaker>||:!!!
+()||<SE1>Rope</SE1>:Stechkin did not know when it had happened, but DP-12's arm is gently wrapping around her shoulder. +Her cold fingertip slowly strokes Stechkin's vital components.
+APSMod(0)<Position>0,35</Position><Shake>0.1</Shake><Speaker>Stechkin</Speaker>||:<size=25>Wh-what are you doing?!</size>
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Speaking of abduction... +Do you mean something like this?
+()||<SE1>AVG_whitenoise</SE1>:Hiss...Hiss...+Despite her desperate desire to call out for help, Stechkin's vocal module pitifully buckles under DP-12's unrelenting cyber intrusion.
+()||:Inside the cafe, T-Dolls go about their day, talking and laughing as usual.+No one notices that these two, although they appear to be having a fun chat in the corner, are actually engaged in a dangerous gamble.
+()<Speaker>Stechkin</Speaker>||:I knew it... it's you!!! +Are you trying to... silence me... here?!
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Hush...
+()||<SE1>Rope</SE1>:The shackle tightens.
+()||<SE1>ClothingUp</SE1>:Stechkin's entire body stiffens, allowing DP-12's fingers to carefully caress her hair, much like serpents climbing up her head.
+()<Speaker>Stechkin</Speaker>||:Helen...! You are...Helen!+Huh...!
+()||:Like a brief gust of wind, a soft laughter gently brushes against the hostage's ear.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:Dear Miss Stechkin, you are truly full of imagination... +Might I ask... do you have any concrete evidence?
+()<Speaker>Stechkin</Speaker>||:...
+()||:Another soft chuckle rises from behind her.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:No need to worry... Consider everything today just a small joke. +I won't harm you, Miss Stechkin.
+DP12(0)<Position>0,-150</Position><Speaker>DP-12</Speaker>||:That is because... +You'll never find any evidence, I promise.
+()||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:Suddenly, her gentle restraints loosen. +DP-12's soft laughter lingers, much like the ringing of a silver bell, as she closes her book and leaves.
+()||<SE1>AVG_Walk</SE1>:Her elegant, composed footsteps appear to follow some mysterious, inexplicable cadence, slowly fading beyond the cafe's door.
+()||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Brain</BGM>:...
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:Stechkin?
+VSK(0)<Position>0,-40</Position><同时置暗><Speaker></Speaker>||:VSK-94 walks to her with coffee in hand, still unaware of the situation. +Somehow, for Stechkin, these few short steps feel like they lasted for an eternity.
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:Didn't you say you'll show me "how it's done"? What's with you going and cuddling with her... +She's not Helen after all, is she?
+APSMod(0)<Position>0,35</Position><Shake>0.1</Shake><Speaker>Stechkin</Speaker>||:...You know jack all! +God, why are you so slow?
+()||<SE1>AVG_va_addingredient</SE1>:The agitated Stetchkin snatches the coffee from VSK-94 ungraciously and gulps it down.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Phew... Phew... +She made a fool out of me! I never thought that my career as the great "bounty hunter" Stechkin for all these years would falter in the hands of "Helen"!
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:...Helen?
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:That's right, she is Helen!
+APSMod(0)<Position>0,35</Position><Shake>0.1</Shake><Speaker>Stechkin</Speaker>||:<size=50>DP-12 IS HELEN!!!</size>
+VSK(0)<Position>0,-40</Position><Speaker>VSK-94</Speaker>||:Then why did you...?
+()||<SE1>AVG_21Winter_Phone_Crash</SE1><震屏3>:Snap! +Before VSK-94 can finish, Stechkin stands up abruptly, and the flames of anger burn wildly in her eyes.
+APSMod(0)<Position>0,35</Position><Speaker>Stechkin</Speaker>||:Heh, slippery Helen, we will see who gets the last laugh... +As Griffin's greatest bounty hunter, Stechkin! +I shall bet on behalf of my honor, and I will surely expose the truth of your sins!!!
+()||<黑点1>:

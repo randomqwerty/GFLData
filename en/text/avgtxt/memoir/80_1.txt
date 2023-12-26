@@ -1,106 +1,106 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BGM>BGM_Sad</BGM>:………………
-NPC-Maid(0)<Speaker>索菲亚</Speaker>||<BIN>9</BIN>:面试结果什么时候出来呢？+我……我非常需要一份工作……能不能……
-NPC-Kalin(1)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>感谢你参加线上面试，三天后我会通知您面试结果。</color>
-NPC-Maid(0)<Speaker>索菲亚</Speaker>||:三天？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>非常抱歉——</color>
-()||<SE1>AVG_doorknock_wood</SE1>:通讯彼端传来敲门声，格琳娜对着屏幕之外应了一声。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>别催了，马上来——索菲亚小姐，走流程需要一点点时间，请您理解。</color>
-NPC-Maid(0)<Speaker>索菲亚</Speaker>||:我知道了……再见。
-()||<SE1>AVG_tele_disconnect</SE1>:……
-()||:………………
-()<Speaker>索菲亚</Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_rifle_finalshot_n</SE1>:……
+()||<BGM>BGM_Sad</BGM>:...
+NPC-Maid(0)<Speaker>Sofiya</Speaker>||<BIN>9</BIN>:When can I get the result of the interview? +I... I really need a job...
+NPC-Kalin(1)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Thank you for attending our online interview. I will notify you of the results in three days.</color>
+NPC-Maid(0)<Speaker>Sofiya</Speaker>||:Three days?
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>I'm very sorry—</color>	
+()||<SE1>AVG_doorknock_wood</SE1>:Knocks can be heard from the other side of the call. Kalina turns to answer someone off-screen.
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Hold on, I'm coming—Miss Sofia, the procedure will take some time, please understand.</color>
+NPC-Maid(0)<Speaker>Sofiya</Speaker>||:I see... Goodbye.
+()||<SE1>AVG_tele_disconnect</SE1>:...
+()||:...
+()<Speaker>Sofiya</Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_rifle_finalshot_n</SE1>:...
 ()||<黑屏1>:
 ()||<黑屏2><BGM>10381</BGM><BIN>562</BIN>:
-()||<SE1>AVG_amb_wilderness</SE1>:市中心，游乐场。+拧成麻花般的轨道高高架起，过山车呼啸而过——+风中传来某个人形惊慌的叫喊。
-C96(1)<Speaker>C96</Speaker>||:啊啊啊我不要玩了！
-M1919A4(0)<Speaker>M1919A4</Speaker>||:哈哈哈哈你说什么——
-C96(1)<Speaker>C96</Speaker>||:快停！放我下去！
-M1919A4(0)<Speaker>M1919A4</Speaker>||:下去？马上！哈哈哈哈！
-()||:C96感觉到车身略微减了速，还没来得及松口气，就见眼前赫然是一个近乎直落而下的轨道！
-()||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:车身一动，自由落体般冲了下去！
-M1919A4(0)<Speaker>M1919A4</Speaker>||:呦吼——
-C96(1)<Speaker>C96</Speaker>||<震屏3>:<size=50>啊啊啊啊啊啊啊——</size>
+()||<SE1>AVG_amb_wilderness</SE1>:Downtown, in an amusement park. +The roller coaster whizzes by the twisting tracks raised high up in the sky— +The terrified scream of a T-Doll can be heard wailing against the wind.
+C96(1)<Speaker>C96</Speaker>||:Ahhhh! I don't want to play anymore!
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Hahaha! What did you say—
+C96(1)<Speaker>C96</Speaker>||:Stop this! Let me get off!
+M1919A4(0)<Speaker>M1919A4</Speaker>||:You want to get off? Alright! Ahahaha!
+()||:C96 can feel their cart slowing down ever so slightly. Yet before she can breathe a sigh of relief, she realizes a near-vertical drop sits right in front of her!
+()||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Once the cart moves, it speeds into almost a free fall!
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Woohoo—
+C96(1)<Speaker>C96</Speaker>||<震屏3>:<size=50>AHHHHHHH—</size>
 ()||<黑屏1>:
-()||<黑屏2>:……
-()||:下了车，C96感觉眼前发飘脚底打颤，有气无力地靠在M1919A4身上。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:什么破过山车嘛，再也不来了。
-C96(0)<Speaker>C96</Speaker>||:就是就是！
-()||:C96大力点头，这么刺激的项目，她再也不想玩第二次了。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:加速太慢，坡度也太平缓，一点都不刺激。
-C96(0)<Speaker>C96</Speaker>||:？？？
-M1919A4(0)<Speaker>M1919A4</Speaker>||:嘿嘿，我看看还有什么好玩的——
-()||:M1919A4掏出游乐场门票，浏览了一下剩余的项目。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:冲天火箭炮、超级大摆锤……咦，还有个高塔蹦极？
-C96(0)<Speaker>C96</Speaker>||:……我忽然想起来，下午要出任务，我先回——
-C96(0)<Speaker>C96</Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:诶诶，松手！我不去啊啊啊！
+()||<黑屏2>:...
+()||:After the ride ends, C96 can feel her eyes twitching and her legs trembling. She leans on M1919A4, exhausted.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:I'm never getting on that damn roller coaster again.
+C96(0)<Speaker>C96</Speaker>||:Yep, never again!
+()||:C96 nods in agreement. She really doesn't want to experience such an exhilarating ride for a second time.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:The accelerations were too slow and the slopes too flat; there's nothing exciting about it.
+C96(0)<Speaker>C96</Speaker>||:???
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Hehe, let's see if there's anything else interesting—
+()||:M1919A4 pulls out her ticket and looks up the remaining attractions.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:There's the Skyrocket Bazooka, the Super Sledgehammer... huh, and Bungee Tower?
+C96(0)<Speaker>C96</Speaker>||:...I just remembered that I have missions this afternoon. See you around—
+C96(0)<Speaker>C96</Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Ehh! Let me go! I don't want to ride those, ahhhh!
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BGM>m_avg_casual</BGM><BIN>166</BIN>:……
-()||:马路边，一脸生无可恋的C96被M1919A4架着，慢慢挪动。+M1919A4回味了一下今天的旅程，有些失望地摇摇头。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:难得有天假期呢。+可惜，这些项目都太平淡了……
-C96(0)<Speaker>C96</Speaker>||:你是不是对“平淡”有什么误解？
-()||:她发誓，下次再和M1919A4一起来游乐场，她就、她就——+她就让M1919A4再也吃不到心爱的罐头！
-()||:通讯器忽然响起。
-M1919A4(0)<Speaker>M1919A4</Speaker>||<SE1>AVG_tele_connect</SE1>:喂，格琳小姐？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>嗨，游乐场玩得开心吗？</color>
-()||:M1919A4看了一眼C96，眼睛一弯。
-M1919A4(0)<Speaker>M1919A4</Speaker>||<SE1>ClothingUp</SE1>:虽然游玩项目过于平淡，但是——唔唔——
-()||:娇小的M1919A4被同伴一把捂住了嘴，刚想发力挣开，她忽然想起了什么，老老实实摆摆手，再指指自己的嘴。+C96鼓着小脸投去威胁的眼神，松了手。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>哈哈哈，很抱歉打扰了你的假期，不过呢，目前有一个任务，只有M1919A4小姐可以胜任啦。</color>
-M1919A4(0)<Speaker>M1919A4</Speaker>||:喔，只有M1919A4可以胜任的任务！格琳小姐请吩咐吧！
-()||:格琳娜立刻发来了两份简历。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:是求职的人形呢！索菲亚……唔，看履历，比我以前还凄惨……
-()||:M1919A4快速浏览完，又打开了第二份简历。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:咦，我的照片？
-()||:第二份简历上，赫然是M1919A4的照片，姓名栏写着M，再看履历——
-M1919A4(0)<Speaker>M1919A4</Speaker>||:失业的……保镖？？？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>是这样的啦，前几天索菲亚小姐参加了线上面试，今天我想通知她被录用了，但是怎么也联系不到人。</color>
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>本来呢，通过面试却拒绝入职也很正常，但是索菲亚小姐那天明明非常渴求这份工作，现在却直接失踪了。</color>
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>基地这边汇总了近期求职人形失联的情况，才发现，两个月内竟然有八起类似事件！太不合理了！</color>
-M1919A4(0)<Speaker>M1919A4</Speaker>||:格琳小姐是怀疑，索菲亚遭遇了意外？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker><通讯框>||:<color=#00CCFF>是的，根据调查，索菲亚最后一次出现，是在郊外的沃夫游戏场。</color>+<color=#00CCFF>所以，你的任务是，扮演M去玩一场游戏，然后……</color>
-()||:……
-()||<黑屏1><BGM>BGM_Empty</BGM>:……
-()||<黑屏2><BGM>10082</BGM><BIN>72</BIN>:城郊，沃夫游戏场，候场室。
-()<Speaker>柔婉的女声</Speaker>||:虚市曾是一片乐土，人类在这里安居乐业……+不幸的是，坍塌粒子流包围了虚市，并逐渐向城市中央弥漫。+为了登上最后一艘的单人逃生飞艇，虚市的幸存者展开了厮杀……+谁能成为最后的幸存者，驾驶满载黄金的飞艇，离开这里……
-()||<BGM>BGM_Dorm</BGM>:候场室的大屏幕上，播放着宣传片。+已经填了报名表买过门票的M1919A4低下头，看向手里的彩页。+城市废墟之上，一艘金色的飞艇位于画面正中，平地上两个举着手枪的人形模特彼此对峙。城市四周涌动着绿色的雾气。
-()||:彩页下方写着宣传标语——“最后生还者”，刺激体验、高额奖金。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:……经典的大逃杀游戏呢。+不过，只有一个人可以生还……只能单人作战么？
-M1919A4(0)<Speaker>M1919A4</Speaker>||:<color=#A9A9A9>（说起来，我还是更习惯为队友做火力掩护呢。单打独斗争第一的任务，还是留给别人完成吧。）</color>
-()||:闻言，前排一名人形回过头。
-()<Speaker>高挑人形</Speaker>||:也可以组队的。你第一次来？
-M1919A4(0)<Speaker>M1919A4</Speaker>||:是的呢，听说这个游戏很好玩！你玩过吗？
-()<Speaker>高挑人形</Speaker>||:我第二次来了。+其实拟真枪战游戏，玩多了就那么回事。你看这些玩家，一大半倒是冲着奖金来的。你看彩页，上面有。
-()||:M1919A4翻过彩页，背面印着游戏规则，以及奖励机制。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:赢了还有奖金？总额……喔，好多钱！！！
-()||:双眼冒金光，M1919A4已经想到了自己拿到奖金后，买下心爱的第七代智能护目镜的模样。
-()||<SE1>AVG_Card_Reader</SE1>:通讯器传来只有M1919A4能听到的提示音。
-()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:金光闪闪的智能护目镜“叭”地消散了，另一个疑问冒出来。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:可是……游戏门票那么便宜，奖金却这么高，就算一场游戏有50个玩家，商家也还是会亏本吧？
-()<Speaker>高挑人形</Speaker>||:也许商家想砸钱吸引人气？管它呢，反正我只想赚钱。+你素体看起来不错，也许我们能组个队呢。
-()<Speaker>候场室广播</Speaker>||:各位玩家你们好，距离游戏开场还有5分钟，请各位玩家前往门票上标记的入场口，领取游戏装备，准备入场。
-()<Speaker>高挑人形</Speaker>||:该入场了，游戏场上见啦！
-()||:高挑人形起身向外走去。+M1919A4看周围没人注意，隐蔽地查看起格里芬的通讯器。+原来是C96，她发来了一个小猫做白日梦的表情包。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:不要忽然发信息给我！+来了信息，我又不能看，太折磨啦！
-C96(0)<Speaker>C96</Speaker><通讯框>||:<color=#00CCFF>听到奖金，你口水都要流出来啦，快醒醒。</color>
-M1919A4(0)<Speaker>M1919A4</Speaker>||:再笑我，下次绑你去双人万米跳伞！
-C96(0)<Speaker>C96</Speaker><通讯框>||:<color=#00CCFF>啊，不要……嗯？</color>+<color=#00CCFF>哈哈，格琳小姐说，完成任务罐头任选，完不成，你就看我们吃罐头！</color>
-M1919A4(0)<Speaker>M1919A4</Speaker>||:！！保证完成任务！ 
-C96(0)<Speaker>C96</Speaker><通讯框>||:保持通讯，我们随时准备支援！
+()||<黑屏2><BGM>m_avg_casual</BGM><BIN>166</BIN>:...
+()||:On the curb, M1919A4 holds up the mentally exhausted C96 as they slowly straddle along. +M1919A4 takes time to reflect on her experience, shaking her head in disappointment.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:It's rare for us to get a day off. +Unfortunately, all the rides were so boring...
+C96(0)<Speaker>C96</Speaker>||:Do you have some misconception about the word "boring"?
+()||:She vows that if she ever goes to an amusement park with M1919A4 again she'll— +She'll make sure that M1919A4 can never taste her beloved canned foods again!
+()||:A call suddenly comes in.
+M1919A4(0)<Speaker>M1919A4</Speaker>||<SE1>AVG_tele_connect</SE1>:Hello, Miss Kalina?
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Hey, are you having fun at the amusement park?</color>
+()||:M1919A4 glances at C96, her eyes curving into a smile.
+M1919A4(0)<Speaker>M1919A4</Speaker>||<SE1>ClothingUp</SE1>:Despite the attractions being quite boring, the—Hmpf—!
+()||:M1919A4's mouth is covered by her companion. Just when she's about to push C96 away, she suddenly remembers something and capitulates. She then waves her hands before pointing at her mouth. +C96 stares at her with a threatening look and a pouting face before letting go of her hand.
+NPC-Kalin(1)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Haha, sorry to interrupt you on your day off. However, we have an urgent mission, one that only Miss M1919A4 can handle. </color>
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Whew, one that "only M1919A4 can handle?" Say no more, Miss Kalina!
+()||:Kalina immediately sends her two resumes.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:A Doll looking for a job! Sofia... Looking at her resume, her life must've been worse than even mine back in the day...
+()||:M1919A4 quickly scans through the document and proceeds to the second file.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Huh, is that me?
+()||:A picture of M1919A4 sits front and center on the second resume; her name is simply the letter "M". As for her occupation—
+M1919A4(0)<Speaker>M1919A4</Speaker>||:An unemployed... bodyguard???
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Here's what happened. Few days ago, Miss Sofiya attended our online interview. Today, I tried to notify her that she was hired, but I couldn't reach her no matter what.</color>
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>While it's quite normal for Dolls to pass the interview but decline the job, Miss Sofia was clearly very eager that day. Now she has just disappeared. </color>
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>We ran an analysis at the base, only to discover that there had been eight similar cases of job-seeking Dolls disappearing during the past two months! That's nonsensical! </color>
+M1919A4(0)<Speaker>M1919A4</Speaker>||:So you suspect that Sofiya had an accident?
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Yep, according to our investigation, Sofia was last spotted at Worf Playground on the city outskirts. </color> +<color=#00CCFF>So, your mission go undercover as "M" and...</color>
+()||:...
+()||<黑屏1><BGM>BGM_Empty</BGM>:...
+()||<黑屏2><BGM>10082</BGM><BIN>72</BIN>:City outskirts, Worf Playground's waiting room.
+()<Speaker>Gentle Female Voice</Speaker>||:Once upon a time, Void City was a peaceful place where humanity lived and thrived happily... +Unfortunately, one day, streams of Collapse particles encircled the city and are slowly encroaching towards its center. +In order to compete for the only seat of the last escape craft, survivors of Void City are engaged in a brutal struggle for survival... +Who will be the last one standing to pilot the golden vehicle out of Void City?
+()||<BGM>BGM_Dorm</BGM>:The promotional video plays on the big screen of the waiting room. +M1919A4, having filled out her registration form and purchased her ticket, lowers her head to look at the promotional flyers in her hand. +A golden blimp sits in the middle of the frame, above the ruins of the city. On the ground, two figures hold up a pistol to the other's face, and a green mist surges around the city.
+()||:At the bottom of the flyer, the tagline goes—"The Last of Survivors", Bountiful rewards. Excitement guaranteed.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:...Looks like a classic battle royale game. +But, only one can survive... Guess that means we can only rely on ourselves.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:<color=#A9A9A9>(Speaking of which, I'm definitely more used to providing covering fire for my teammates. I should've left a task where I have to fight solo to someone else.) </color>
+()||:Hearing her mumbles, a Doll in front of M1919A4 turns around.
+()<Speaker>Tall Doll</Speaker>||:You can certainly team up with others. Is this your first time playing?
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Yeah, I heard this game was really fun! Have you played it before?
+()<Speaker>Tall Doll</Speaker>||:It's my second time around. +You know, simulated shooting games feel all the same once you've played enough of them. Look at the other players; most of them are actually here for the winner's prize. It's on the flyer, look it up.
+()||:M1919A4 turns the flyer around. Its back side is printed with the rules and the reward mechanics.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:There's a winner's prize? It's... Woah! That's a lot of money!!!
+()||:Her eyes are gleaming gold. M1919A4 can't help but picture her winning the prize money and getting herself her beloved 7th-generation smart goggles.
+()||<SE1>AVG_Card_Reader</SE1>:A notification only M1919A4 can hear comes through her comm.
+()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:Her fancying about her goggles soon turns into a giant question mark.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Wait... If the prize is that high, yet the tickets are this cheap... Even with 50 players, the organizers can't be making a profit, right?
+()<Speaker>Tall Doll</Speaker>||:Perhaps they want popularity over profit? Either way, I'm just here for my prize money. +Your body's specs look pretty good, want to team up?
+()<Speaker>Waiting Room Intercom</Speaker>||:Welcome, dear players! We have 5 minutes before the game starts, so please proceed to the entrance marked on your ticket. Prepare to retrieve your gaming gear and enter the game.
+()<Speaker>Tall Doll</Speaker>||:It's time to go. I'll see you on the field!
+()||:The tall Doll gets up and heads out of the door. +M1919A4 checks her surroundings, making sure no one is paying attention. She then covertly opens her comms. +Turns out it was just C96 who sent her an emoji of a kitten daydreaming.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Don't just message me like that! +I can't read them anyway, and the notification bugs me!
+C96(0)<Speaker>C96</Speaker><通讯框>||:<color=#00CCFF>You're the one drooling and daydreaming after hearing about the prize money. Time to wake up. </color>
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Poke fun at me again, and I'll drag you on a 10,000-meter skydive next time!
+C96(0)<Speaker>C96</Speaker><通讯框>||:<color=#00CCFF>Ahhhh, please don't... Eh? </color>+<color=#00CCFF>Haha, Miss Kalina just said that if you complete the task, you can have all the canned food of your choice. But if you fail, then you'll have to watch us eat all the canned food! </color>
+M1919A4(0)<Speaker>M1919A4</Speaker>||:The mission will be accomplished!!
+C96(0)<Speaker>C96</Speaker><通讯框>||:Stay in touch; we're ready to back you up at any time!
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BGM>m_avg_casual</BGM><BIN>322</BIN>:2号入口外，M1919A4扭着小脑袋瓜四处张望，一副好奇宝宝模样。+围栏后，是一大片圈起来的废弃工厂，厂房林立，草木繁盛。+M1919A4一边估算着游戏场的面积，一边走到领取装备的地方。
-()<Speaker>工作人员</Speaker>||:这是您的装备，仿真枪、橡皮子弹、通话耳麦、腕部终端。请收好。+腕部终端上有感应器，用来记录战绩、体力值、以及您的实时位置。+游戏开始后，坍塌粒子流会逐渐扩散，您需要及时躲入安全区，否则……
-M1919A4(0)<Speaker>M1919A4</Speaker>||:否则会变成ELID？
-()<Speaker>工作人员</Speaker>||:……会持续扣除体力值。+请放心，坍塌粒子流，只是一种虚拟的游戏设定。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:如果城市里真的出现这种东西，也太危险了呢。
-()<Speaker>工作人员</Speaker>||:是的。另外，中弹后也会扣除一定体力值，体力值清零后，视为出局。 +您还有什么想问的吗？
-M1919A4(0)<Speaker>M1919A4</Speaker>||:唔……+没有了。
+()||<黑屏2><BGM>m_avg_casual</BGM><BIN>322</BIN>:Outside entrance no. 2, M1919A4 looks around like a curious baby, inquisitive of everything. +Behind the fences, a vast abandoned factory is encircled by buildings and vegetation. +While walking over to collect her equipment, M1919A4 estimates the size of the playground.
+()<Speaker>Worker</Speaker>||:This is your gear. A dummy gun, rubber bullets, communication headset, and wrist terminal. Please take care of them. +The wrist terminal is equipped with sensors that record your battle performance, stamina, and real-time position. +After the game starts, Collapse particle streams will gradually spread. You need to retreat into a safe zone in time, otherwise...
+M1919A4(0)<Speaker>M1919A4</Speaker>||:I'll become an ELID?
+()<Speaker>Worker</Speaker>||:You'll continuously lose stamina points. +Rest assured, the Collapse particles are not real. They're just a game mechanic.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:It would be quite dangerous if such a thing really appeared in the city.
+()<Speaker>Worker</Speaker>||:Yes indeed. Also, your stamina will be deducted if you get hit. Once it drops to zero, you're eliminated. +Is there anything else you'd like to ask?
+M1919A4(0)<Speaker>M1919A4</Speaker>||:Ehm... +That's it.
 ()||<黑屏1>:
-()||<黑屏2><BIN>55</BIN>:M1919A4离开领取点，打量着其它玩家。+2号入口处排着6个人形，大多是民用型号，素体有新有旧。初来者一脸好奇，老玩家便淡定得多。+午后的阳光温煦，工作人员引导着玩家……一切看起来都很正常。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:<color=#A9A9A9>（那份简历……索菲亚……她会在游戏场里吗？）</color>
-()<Speaker>服务生</Speaker>||:M小姐，请走这边入场。
-M1919A4(0)<Speaker>M1919A4</Speaker>||:你也知道我的名字？
-()<Speaker>服务生</Speaker>||:每一位顾客都是沃夫游戏场的贵宾。
-()||<SE1>AVG_BaseDoor_Open</SE1>:工作人员拉开入口的铁栅门。+M1919A4走入场地。茂密的枝叶瞬间遮蔽阳光，却也带来了荫凉。+工作人员脸上挂着标准的笑容。
-()<Speaker>服务生</Speaker>||:M小姐，祝您游戏愉快，成功生还。
-()||<黑点1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>55</BIN>:M1919A4 leaves the pickup station, surveying the others around her.+There's six Dolls lined up at entrance no. 2. They're mostly civilian models, some new and some old. +The first-timers look curious, while the veterans appear much more composed. +The afternoon sun is warm. The staff guides the players to the entrance... Everything seems to be in order.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:<color=#A9A9A9>(That resume... Sofia... Will she be in the game as well?) </color>
+()<Speaker>Staff Member</Speaker>||:Miss "M", please, this way.
+M1919A4(0)<Speaker>M1919A4</Speaker>||:You know my name too?
+()<Speaker>Staff Member</Speaker>||:Every customer is an honored guest at Worf Playground.
+()||<SE1>AVG_BaseDoor_Open</SE1>:The staff member opens the iron gate of the entrance. +M1919A4 walks into the playground. The dense foliage instantly blocks out the sun with its shade. +The staff member can be seen with a typical smile on their face.
+()<Speaker>Staff Member</Speaker>||:Miss "M", we wish you a good game and successful survival.
+()||<黑点1><BGM>BGM_Empty</BGM>:

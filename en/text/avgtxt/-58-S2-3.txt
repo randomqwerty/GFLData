@@ -1,54 +1,54 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑点2><BIN>461</BIN><BGM>GF_EV9_Story</BGM>:沿着大厅西侧的楼梯拾级而上，犹如墓园壁葬一般密集拥挤的区域就展现在了眼前。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:这里是仓库区域吗？里面不会还躺着涅托吧……
-BossJustice(0)<Speaker>法官</Speaker>||:地图显示这里是训练场西区，似乎是专门针对思维和电子战能力。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:训练场？躺在这么小的盒子里能训练什么……
-BOSS-11(0)<Speaker>梦想家</Speaker>||:调查看看吧。
-()||<BIN>461</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:点击放大镜，进行敏感信息挖掘<cg>480,-400<cg>800,20<cg>-50,350
+()||<黑点2><BIN>461</BIN><BGM>GF_EV9_Story</BGM>:As they climb the western stairs, a densely packed area of wall-mounted pods that resemble a columbarium appears before them.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Is this a storage area? Please don't tell me there are Nytos lying in there...
+BossJustice(0)<Speaker>Judge</Speaker>||:The map says this is the western training area. It seems to be focused on electronic warfare and honing intellect.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:A training area? What can you even train by lying in these pods...
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:There's only one way to find out.
+()||<BIN>461</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:Click the magnifying glass to perform sensitive site exploitation.<cg>480,-400<cg>800,20<cg>-50,350
 ()||<分支>1</分支><BGM>BGM_Empty</BGM><黑屏1>:
 ()||<分支>1</分支><黑屏2><BIN>447</BIN>:
-()||<分支>1</分支><BGM>GF_21summer_avg_Demon</BGM>:炼金术士注意到有一间训练室的规格明显和其他房间不同，宽度几乎是其他房间的两倍。+她打开了房间的门，连内部的纵深也比其他房间长。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>1</分支>:这个房间……
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>1</分支>:看上去不是为普通涅托准备的，以它们的身型，这里能躺下两三个了。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>1</分支>:是给那些巨大的全机械家伙用的吗？
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>1</分支>:那些家伙连大脑都没有，根本不需要思维训练。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>1</分支>:不清楚是为谁准备的，总之把这间房间的训练数据也带回去吧。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>1</分支>:好。
-()||<分支>1</分支>:在等待梦想家拷贝数据的间隙，破坏者好奇地探头进去查看。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>1</分支>:啊——！
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>1</分支>:怎么了？
-()||<分支>1</分支>:破坏者在发出一声短促的尖叫后就跳到了后面去，炼金术士走近查看。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>1</分支>:……
-()||<分支>1</分支>:房间的内部布满了沾染着深褐色污渍的划痕，依据痕迹判断，是抓挠所为。+在角落，有一个单词被反复刻下，又被反复划去——
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>1</分支>:……Анна？
-BossJustice(0)<Speaker>法官</Speaker>||<分支>1</分支>:是这个人想要拼命记住的名字吧。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>1</分支>:全部被划掉了呢，看来最后还是没能记住。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>1</分支>:嗯，这边也没什么遗留了。+去其他地方看看吧。
+()||<分支>1</分支><BGM>GF_21summer_avg_Demon</BGM>:Alchemist notices that one of the training pods is different from the others—it is nearly twice as wide. +She opens the hatch, and it even seems deeper inside than the others.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>1</分支>:This pod...
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>1</分支>:It doesn't look like it was made for an ordinary Nyto. Given their size, you could fit two or three of them in here.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>1</分支>:Was it meant for those gigantic fully mechanized guys?
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>1</分支>:Those don't even have brains. There's no need to train their intelligence.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>1</分支>:I'm not sure who it was made for, but let's bring back the data stored in this place.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>1</分支>:Alright.
+()||<分支>1</分支>:While Dreamer is busy copying the data, Destroyer decides to poke her head inside and take a look around.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>1</分支>:Ah!
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>1</分支>:What's wrong?
+()||<分支>1</分支>:Destroyer exclaims in fright before jumping back. Alchemist moves up to take a closer look.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>1</分支>:...
+()||<分支>1</分支>:The inside of the pod is covered in dark brown scratches and stains. The scratches appear to have been made by human hands. +A word has been repeatedly carved in a corner and then crossed out...
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>1</分支>:...Анна?
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>1</分支>:I guess the person in here was desperately trying to remember that name.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>1</分支>:But they were all crossed out. I guess they didn't manage to remember it after all.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>1</分支>:Yeah, there's nothing else left here. +Let's go look elsewhere.
 ()||<分支>1</分支><黑屏1><BGM>BGM_Empty</BGM>:
 ()||<分支>1</分支><黑屏2><BGM>GF_EV9_Story</BGM><BIN>461</BIN>:
 ()||<分支>2</分支><黑屏1>:
-()||<分支>2</分支><黑屏2><BIN>321</BIN>:梦想家凑近房间前的墙壁，饶有兴致地掀开盖板，研究起了隐藏在下方的设置参数。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>2</分支>:有什么值得拷贝的价值吗？
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支>:我认为没有。+按照这样高强度的刺激，只会将一百个人中的九十九个人逼疯，剩下一个完美的杀戮机器。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>2</分支>:这里不是训练场吗……
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>2</分支>:冷血残酷，很有帕拉蒂斯的训练风格，不是吗？
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>2</分支>:这根本就是个屠宰场……
-BossJustice(0)<Speaker>法官</Speaker>||<分支>2</分支>:是啊，事实上，我认为整个阿佛那斯都是建立在屠宰场的基础之上。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>2</分支>:……
-BossJustice(0)<Speaker>法官</Speaker>||<分支>2</分支>:走吧，这里没有留恋的意义。
+()||<分支>2</分支><黑屏2><BIN>321</BIN>:Dreamer approaches the wall ahead of her and idly opens one of the pod hatches, then takes a look at the device parameters within.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>2</分支>:Anything here worth copying?
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支>:I don't think so. +The process is grueling enough that it would drive 99 out of 100 subjects insane, and the one that remained would be a perfect killing machine.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>2</分支>:Isn't this supposed to be a training room...?
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>2</分支>:It's ruthless and cruel. Very much in keeping with Paradeus' style, don't you think?
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>2</分支>:It's nothing more than an abattoir...
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>2</分支>:Oh yes. In fact, I think Avernus was built entirely on a foundation of mass slaughter and sacrifice.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>2</分支>:...
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>2</分支>:Let's go. Better not loiter here.
 ()||<分支>2</分支><黑屏1>:
 ()||<分支>2</分支><黑屏2><BIN>461</BIN>:
 ()||<分支>3</分支><黑屏1>:
-()||<分支>3</分支><黑屏2><BIN>477</BIN>:破坏者谨慎地打开了一扇门。+从门口望去，狭窄的空间如棺材一般，躺进去几乎动弹不得。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>3</分支>:怎么，想躺进去试试？
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>3</分支>:不！
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>3</分支>:我还是不明白，这里存在的目的是什么？+完全看不出训练的项目。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>3</分支>:我听说，涅托会残存着人类时期的记忆，还保有人性的话，很难从事这份工作吧。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>3</分支>:所以定期来这里，对大脑进行刺激，让她们忘记过去的记忆？
-BossJustice(0)<Speaker>法官</Speaker>||<分支>3</分支>:这只是我的猜测，具体情况还得带回基地分析。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>3</分支>:这不是完美的控制手段吗？+表面上是训练你变得更强，实际上只是加强对你的掌控，你的反抗、违逆都将被转化为简单的“失败品”三个字。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>3</分支>:……
-BossJustice(0)<Speaker>法官</Speaker>||<分支>3</分支>:不要浪费时间，我们还有很多地方需要搜查。
+()||<分支>3</分支><黑屏2><BIN>477</BIN>:Destroyer carefully opens a door. +When she looks inside, the room appears to be as narrow as a coffin, to the point where the occupant wouldn't have any space to move once they lie down inside.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>3</分支>:What's this? Want to have a lie-down in there?
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>3</分支>:Hell no!
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>3</分支>:I still don't understand what the purpose of this place is. +I have no idea what they could train here.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>3</分支>:I heard that Nytos have memories from when they were human. I bet retaining their humanity would make it hard to do their job.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>3</分支>:So they have to come here regularly to get brainwashed and their memories erased?
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>3</分支>:It's just a guess. We'll have to bring the information from this place back to base for analysis.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>3</分支>:But isn't that the perfect control measure? +On the surface, it's training to strengthen you, but it's actually just a means to strengthen their hold on you. All your resistance and rebellion can be chalked up to a single word, "Failure".
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>3</分支>:...
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>3</分支>:Let's not waste any more time on this place. We still have many other areas to search.
 ()||<分支>3</分支><黑屏1>:
 ()||<分支>3</分支><黑屏2><BIN>461</BIN>:
-()||<黑点1>:
+()||<黑点1>:

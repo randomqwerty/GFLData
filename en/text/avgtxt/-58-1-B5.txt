@@ -1,188 +1,188 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_Gunfire</SE1><BIN>41</BIN><BGM>10082</BGM>:砰砰砰！废弃城镇中，枪声如烟花般一直未曾停歇。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>安娜，交替掩护撤退，你立刻带着三排进行火力掩护！</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>||:收到，但是我方弹药告急。
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker><通讯框>||:<color=#00CCFF>想办法！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:安娜踹开脚下泥泞的泥土，看向三排仅剩的四名幸存者。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:再次联系上级指挥部！
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||<SE1>AVG_tele_disconnect</SE1>:信号丢失，联系不上！
-NPC-Ange(29)<Speaker>安娜</Speaker>||:临时集合点还有三个人，让他们过来接应！
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:有信号，但是没人响应！
-NPC-Ange(29)<Speaker>安娜</Speaker>||:……节省弹药，注意隐蔽！
-()<Speaker></Speaker>||<SE1>Select</SE1>:安娜在瞄准镜中锁定了目标，扣下扳机。
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><震屏3>:砰！一名敌人应声而倒，安娜立刻俯身。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>AVG_2022Saros_Gunpast</SE1>:下一刻，子弹擦着墙体飞了过去！
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||<SE1>AVG_weapon_reload</SE1>:排长，上尉他们快到预定位置了！
-NPC-Ange(29)<Speaker>安娜</Speaker>||:三排！收缩防线！准备后撤！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜端着枪，快速确定了新一段撤退路线。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:妈的是黑巴曼蛇吗？咬得这么紧！
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><SE1>RunStep</SE1>:砰——亚历山大用单发射击压制着敌人的火力，随后赶到安娜身旁数米的距离。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:维克多，待会儿再收拾那台破机器，快过来！
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:来了！诶，有信号了？！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:维克多高兴地举起通讯仪器——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_h</SE1>:砰！
-()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1><SE1>AVG_21Winter_Phone_Crash</SE1>:子弹穿过将仪器击得粉碎，连同维克多的手。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>啊啊啊啊啊——！！！</size>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:维克多，快隐蔽！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_XXS_kick</SE1>:维克多踉跄着想跟上亚历山大，身体一歪摔出了掩体。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:随即弹药倾泻，维克多的身上爆开血花。
-()<Speaker>士兵</Speaker>||<SE1>RunStep</SE1>:班长！
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:笨蛋！别过去！
-()<Speaker>士兵</Speaker>||<SE2>Gunfight</SE2><震屏3><SE1>AVG_Bullet_Hit_Body</SE1>:啊啊啊啊！
-()<Speaker></Speaker>||:两名士兵试图拖走维克多，下一刻，子弹穿透了他们的身躯。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:士兵们倒在维克多身边，痛苦地嚎叫。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:<size=50>维克多！尤里！科兹洛夫！</size>
-()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1>:另一侧，拉姆赞终于就位，迅速带领人形小队织起火力网，掩护友军。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position><Shake>0.1</Shake>||:排长！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:亚历山大见机试图返回，可他刚跨出两步，一波子弹便在维克多身边爆出一串弹坑，他只能立刻缩回掩体后。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:救——
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><BGM>BGM_Empty</BGM>:砰！声音戛然而止，维克多的脑袋直直磕在地上，没了声息。
-NPC-Ange(29)<Speaker>安娜</Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><BGM>BGM_Truth</BGM>:……该死的！+亚历山大，跟上！
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:亚历山大最后看一眼倒在地上的队友们，决然转身。
-NPC-Ange(29)<Speaker>安娜</Speaker>||<SE1>AVG_tele_connect</SE1>:上尉，我部只剩2人，无法继续交替掩护，请求会合，重复，请求会合。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker><通讯框>||:<color=#00CCFF>……了解了，迅速向我方靠拢。</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>||:收到！
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_Gunfire</SE1><BIN>41</BIN><BGM>10082</BGM>:Bang-bang-bang! Gunshots erupt endlessly like fireworks in the abandoned town.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Anna, we'll have to cover each other's retreat. Lead the 3rd Platoon in laying down some suppressive fire now!</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Copy that, but I'm running pretty low on ammo.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker><通讯框>||:<color=#00CCFF>Do whatever you can!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Beep.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:Anna kicks at the mud beneath her feet and looks toward the four remaining survivors of 3rd Platoon.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Contact the command post again!
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||<SE1>AVG_tele_disconnect</SE1>:I've lost their signal! I can't!
+NPC-Ange(29)<Speaker>Anna</Speaker>||:There are three more guys at the temporary rendezvous point! Get them to come and support us!
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:I have the signal, but nobody is answering!
+NPC-Ange(29)<Speaker>Anna</Speaker>||:...Conserve ammo and stay low!
+()<Speaker></Speaker>||<SE1>Select</SE1>:Anna locks onto a target through her scope and pulls the trigger.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><震屏3>:Bang! An enemy collapses, and Anna ducks back down immediately.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>AVG_2022Saros_Gunpast</SE1>:A bullet whizzes past the wall she is hiding behind in the next instant.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||<SE1>AVG_weapon_reload</SE1>:Ma'am, the captain's forces will soon be in position!
+NPC-Ange(29)<Speaker>Anna</Speaker>||:3rd Platoon, tighten up the line and prepare to fall back!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna quickly plots the next stretch of their retreat route.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Are they black mambas or what? They just won't let go!
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><SE1>RunStep</SE1>:Bang! Alexander fires a single shot to stave off some enemy fire, then sprints up to several meters away from Anna.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Wiktor, forget about that stupid gadget for now! Just get over here!
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:I'm coming! Huh? The signal's back?!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Wiktor raises the communicator excitedly—
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_h</SE1>:Bang!
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1><SE1>AVG_21Winter_Phone_Crash</SE1>:A bullet smashes the machine to pieces... along with Wiktor's hand.
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:<size=50>AAAAAAARGHHH!!!</size>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Wiktor, find cover!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_XXS_kick</SE1>:Wiktor tries to catch up with Alexander but ends up stumbling and falling out from behind his cover.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:A hail of bullets rain down on him immediately. Blood spurts from his body.
+()<Speaker>Soldier</Speaker>||<SE1>RunStep</SE1>:Squad Leader!
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Stay where you are, moron!
+()<Speaker>Soldier</Speaker>||<SE2>Gunfight</SE2><震屏3><SE1>AVG_Bullet_Hit_Body</SE1>:Aaaaaahh!
+()<Speaker></Speaker>||:Two soldiers try to drag Wiktor away, but bullets also penetrate their bodies in the next instant.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:The soldiers fall next to Wiktor and scream in pain.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:<size=50>Wiktor! Yuri! Kozlov!</size>
+()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1>:On the other side, Ramzan is finally in position. He promptly leads his Doll squad in setting up an attack formation to cover their allies.
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position><Shake>0.1</Shake>||:Ma'am!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Alexander sees a chance to make his way back to Wiktor, but he has only taken two steps before another barrage punches a string of bullet holes next to Wiktor, forcing him to duck behind cover again.
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:Help—
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><BGM>BGM_Empty</BGM>:Bang! The cry for help is cut off abruptly. Wiktor's head hits the ground and stops moving.
+NPC-Ange(29)<Speaker>Anna</Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><BGM>BGM_Truth</BGM>:...Dammit! +Alexander, stay close!
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Alexander takes one last look at his comrades lying on the ground and turns away resolutely.
+NPC-Ange(29)<Speaker>Anna</Speaker>||<SE1>AVG_tele_connect</SE1>:Captain, there are only two of us left. We can't give you any more cover. Requesting to link up with you. Repeat—requesting to link up.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker><通讯框>||:<color=#00CCFF>...Understood. Make your way over here quickly.</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Copy that!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><黑屏2><SE1>Battlefield</SE1><BIN>468</BIN>:废弃房屋外，亚历山大丢下了打空所有弹药的步枪。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:人形保护着他们向东撤退。
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><黑屏2><SE1>Battlefield</SE1><BIN>468</BIN>:Outside an abandoned house, Alexander tosses away his rifle since he is now out of ammo.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:A Doll gives them cover as they retreat eastward.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>98</BIN><SE1>ClothingUp</SE1>:红区边缘，伤痕累累的人形与拉姆赞互相敬礼，就此告别。+三人继续向东。
+()<Speaker></Speaker>||<黑屏2><BIN>98</BIN><SE1>ClothingUp</SE1>:On the border of the Red Zone, the heavily damaged Doll salutes Ramzan and bids him farewell. +The remaining three soldiers continue heading east.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:……+……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:... +...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>480</BIN>:红区附近，临时集合点外。+暂时摆脱追击的三人沉默着赶路，直到废弃工厂出现在薄雾之后。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:我们的运输车就藏在那座工厂里，三辆，配有通讯设备和补给包。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:给我一辆，我必须把情报传回去。
-()<Speaker></Speaker>||:安娜正要开口，忽然站住脚步，隐藏在建筑后。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……有哨兵，不是我们的人。
-()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><BGM>BGM_Empty</BGM>:砰！工厂内猛然爆出一声枪响。
-()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_Brain</BGM>:安娜拔枪便要迈步，走出两步又停下来，咬紧牙关。
-NPC-Ange(31)<Speaker>安娜</Speaker>||:只有一声枪响……
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:三排只剩他们了。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:我知道！
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:安娜来回踱步，拉姆赞冷冷站着。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:工厂背后有一段塌掉的围墙，我们可以翻进去。+也许还有机会。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:那还等什么？
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:安娜看向拉姆赞。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:不要惊动对方，见机行事。
+()<Speaker></Speaker>||<黑屏2><BIN>480</BIN>:Outside the temporary rendezvous point near the Red Zone. +Having shaken off the pursuing enemies for the time being, the group of three journeys on in silence until the abandoned plant comes into view behind a thin layer of fog.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Our vehicles are hidden inside the plant. We've got three, all equipped with comms and supply packs.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Give me one. I must deliver the intel.
+()<Speaker></Speaker>||:Anna is just about to answer when she suddenly stops in her tracks behind the building.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...There's a sentry. Not ours.
+()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><BGM>BGM_Empty</BGM>:Bang! A gunshot suddenly rings out from within the plant.
+()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_Brain</BGM>:Anna draws her weapon, ready to charge in, but then she stops again and grits her teeth.
+NPC-Ange(31)<Speaker>Anna</Speaker>||:There was only one gunshot...
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:They're the only ones left of 3rd Platoon.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:I know that!
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:Anna paces back and forth while Ramzan watches on coldly.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Part of the wall has collapsed in the back of the plant. We can enter the building from there. +There may still be a chance.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Then what are we waiting for?
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:Anna looks toward Ramzan.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Don't alert them to our presence. We'll make it up as we go.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:厂房内。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:十多名全副武装的士兵围成一圈，为首的队长握着通讯器说着什么。+一名驾驶员倒在血泊中，另外两名跪在地上，举着双手，战战兢兢。
-()<Speaker>？士兵队长</Speaker>||:还没收到那几个逃兵的通讯？
-()<Speaker>？士兵</Speaker>||:没有。
-()<Speaker></Speaker>||:士兵队长看了一眼时间。
-()<Speaker>？士兵队长</Speaker>||:撤离时间就快到了，不等了。+注射。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:一名士兵从医药箱中取出三支针剂。
-()<Speaker>运输车驾驶员A</Speaker>||<震屏3><SE1>ClothingUp</SE1>:<size=50>不，不——放开我！唔——</size>
-()<Speaker>？士兵队长</Speaker>||:按住他！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:针尖刺破后颈，淡绿色的液体被推入，很快，注射器见底。
-()<Speaker>运输车驾驶员B</Speaker>||<SE1>ClothingUp</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake>:<size=50>班长救我！亚历山大，排长！啊！！！</size>
-()<Speaker></Speaker>||<SE1>Rope</SE1>:又一支注射器推尽，倒在血泊中的驾驶员也被打上针剂。
-()<Speaker>？士兵队长</Speaker>||:要是能找到……就好了，教授一定会满意的。
-()<Speaker>运输车驾驶员A</Speaker>||:<size=50>啊啊啊——！</size>
-()<Speaker></Speaker>||:一阵古怪的嘶嚎，不似人类的声音。
-()<Speaker></Speaker>||<SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake>:三名驾驶员的身体变得灰败，脸部迅速干瘪下去，他们抽搐着，抓挠着，上下牙齿不断叩击。+士兵们围在外圈，端着枪，一脸漠然。
-()<Speaker>？士兵队长</Speaker>||:还是不合格的“材料”……+没时间了，带上车，清理掉这里。
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1><震屏3>:砰砰砰！士兵队长开枪，其余士兵跟上。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:三名驾驶员不再动弹，六名士兵熟练地将三人抬走。+终于，厂房内恢复了寂静。
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:Inside the plant.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:A dozen or so fully-armed soldiers have formed around their leader, who is currently speaking into his communicator. +One of the drivers is lying in a puddle of blood, while the other two are kneeling on the floor with their arms raised gingerly.
+()<Speaker>Soldier-in-Charge (?)</Speaker>||:Heard anything from the ones that escaped on the comms?
+()<Speaker>Soldier (?)</Speaker>||:No, sir.
+()<Speaker></Speaker>||:The soldier-in-charge checks the time.
+()<Speaker>Soldier-in-Charge (?)</Speaker>||:It's almost time to withdraw. We can't wait any longer. +Inject the stuff.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:One of the soldiers takes out three syringes from a medkit.
+()<Speaker>Transport Driver A</Speaker>||<震屏3><SE1>ClothingUp</SE1>:<size=50>No, no... Let me go! Urgh...</size>
+()<Speaker>Soldier-in-Charge (?)</Speaker>||:Hold him down!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The needle pierces the skin in the back of the driver's neck, and a light green fluid is injected. The syringe is empty in just a second.
+()<Speaker>Transport Driver B</Speaker>||<SE1>ClothingUp</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake>:<size=50>Squad Leader, save me! Alexander! Platoon Leader! Aaarrgh!!!</size>
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Another emptied syringe. The driver lying in a puddle of his own blood has also been given the injection.
+()<Speaker>Soldier-in-Charge (?)</Speaker>||:I hope... we'll find it. The Professor will be very happy.
+()<Speaker>Transport Driver A</Speaker>||:<size=50>ARRRGHHHHH!</size>
+()<Speaker></Speaker>||:The grotesque howl sounds utterly inhuman.
+()<Speaker></Speaker>||<SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake>:The three drivers' skin turns ashen, and their faces quickly become shriveled. They spasm and writhe violently, their upper and lower teeth knocking and gnawing against each other. +The soldiers around them keep their weapons raised and look on indifferently.
+()<Speaker>Soldier-in-Charge (?)</Speaker>||:All failed specimens... +We're out of time. Load them into the car and clear the site.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1><震屏3>:Bang-bang-bang! The soldier-in-charge opens fire, and the other soldiers follow suit.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The three drivers are now motionless. Six soldiers haul them away with great efficiency. +Soon, the plant is still and quiet once more.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:厂房后侧，透过缝隙看到一切的亚历山大眼睛几乎要滴出血。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||<SE1>AVG_Punch_Hit</SE1><震屏3>:该死的，该死的，这群魔鬼！人渣！！！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:安娜胸膛剧烈起伏，几乎要攥碎手里的枪柄。+拉姆赞面上也泛起怒色，但他很快控制住了情绪。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:先离开这里，把情报传回去。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:……等主力部队过来，我要亲手打碎这些畜生的脑袋。+亚历山大，起来，等他们走远，我们去拿车。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:等等，他们没有破坏运输车？
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>||<SE1>ClothingUp</SE1>:不好——
-()<Speaker></Speaker>||:咻咻咻——炮弹破空飞来！
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM>:卧倒！
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰——火舌蹿天而起，只有四面墙壁的厂房轰然炸裂！
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<SE1>RunStep</SE1>:小心！
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:安娜后背受力，整个人飞扑出去，连滚数圈，才在泥泞中停住。
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:In the back of the plant, Alexander's eyes grow red as he watches what just transpired through a crack in the wall.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||<SE1>AVG_Punch_Hit</SE1><震屏3>:Черт побери! These devils! Human scum!!!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Anna's chest rises and falls rapidly. She is gripping the handle of her gun so tightly her knuckles are white. +Ramzan is also visibly enraged, but he soon gets his emotions under control.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Let's get out of here and get the intel back to camp.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:...When the main force gets here, I'm gonna blow out these beasts' brains with my own hands. +Alexander, get up. We're taking the vehicle once they're safely away.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Hold on, they didn't sabotage the vehicles?
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>||<SE1>ClothingUp</SE1>:Crap...
+()<Speaker></Speaker>||:Whoosh... A shell comes flying this way.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker><Shake>0.1</Shake>||<BGM>BGM_Empty</BGM>:Get down!
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Boom! Tongues of flames leap up, and the empty plant is instantly blown apart. 
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<SE1>RunStep</SE1>:Watch out!
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:Anna feels a shove on her back and is sent flying. She rolls on the ground several times before coming to a stop in the mud.
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>455</BIN><黑点2><common_effect>%%code=AVG_hui%%</common_effect>:热浪烟尘席卷而过，此时细小的建筑碎屑劈里啪啦落下。+拉姆赞拨开身上的建筑碎块，护着头顶的义肢为他挡下了多次砸击，他竟然没受到太多伤害。
-NPC-Pamzan(5)<Speaker>拉姆赞</Speaker>||:亚历山大？！
-()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM><SE1>ClothingUp</SE1>:拉姆赞挥手拨开烟尘，看向墙体下的同伴。+整面墙体倒下来，完全压住了亚历山大下半身……
-NPC-Ange(29)<Speaker>安娜</Speaker><Shake>0.1</Shake>||:<size=50>亚历山大！！！</size>
-()<Speaker></Speaker>||<SE1>Rope</SE1>:安娜手脚并用爬过来，颤抖着手试图抬起墙壁残块——纹丝不动。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:你撑住！大部队就要来了，有最好的军医，你会没事的！
-()<Speaker></Speaker>||:亚历山大脸上满是灰尘，又被血水浸润，他的身体难以抑制地抽搐着。
-()<Speaker>亚历山大</Speaker>||<SE1>ClothingUp</SE1>:我……有点冷……+春末了，怎么还这么冷……
-()<Speaker></Speaker>||:亚历山大一开口，鲜血便涌上来，每次呼吸如同拉响风箱。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:别死，活下来——
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:安娜。
-NPC-Ange(29)<Speaker>安娜</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch_Hit</SE1>:走开！+<size=50>亚历山大，我命令你活下来！！！</size>
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>||:安娜，听他说。
-NPC-Ange(31)<Speaker>安娜</Speaker>||:……
-()<Speaker>亚历山大</Speaker>||:我想……回家……
-()<Speaker></Speaker>||:鲜血淌入土地，向更深处渗去。
-()<Speaker>亚历山大</Speaker>||:玛缇娜来接我……回家……种土豆……+排长，我真的能回家吗……
-()<Speaker></Speaker>||:安娜的声音无比轻柔，她竭力挤出一个笑脸。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:可以，一定可以，我带你回家。
-()<Speaker>亚历山大</Speaker>||:说话……算话。
-()<Speaker></Speaker>||:亚历山大阖上了眼睛。
-()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1>:泪水滴落土地，混入染红的泥土，安娜扣住他的肩膀，压着声音嘶吼。
-NPC-Ange(32)<Speaker>安娜</Speaker>||<震屏3><SE1>ClothingUp</SE1>:<size=50>混蛋，睁开眼睛，睁开！！！</size>
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉姆赞站起身，正对着亚历山大，并拢手指，注目敬礼。
+()<Speaker></Speaker>||<BIN>455</BIN><黑点2><common_effect>%%code=AVG_hui%%</common_effect>:A wave of heat and dust rolls over them, and small chunks of rubble rain down from above. +Ramzan sweeps the debris off of himself. The artificial limb that he used to shield his head withstood the impact, so he is largely unharmed.
+NPC-Pamzan(5)<Speaker>Ramzan</Speaker>||:Alexander?!
+()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM><SE1>ClothingUp</SE1>:Ramzan waves away the billowing dust with his arm and looks down at his comrade underneath the rubble. +The wall has collapsed, completely crushing Alexander's lower body...
+NPC-Ange(29)<Speaker>Anna</Speaker><Shake>0.1</Shake>||:<size=50>Alexander!!!</size>
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Anna crawls over on all fours and tries to move the pieces of debris with shaking hands—they won't budge.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Hang in there! The main force will be here any minute! We'll get you the best medic! You'll be fine!
+()<Speaker></Speaker>||:Alexander's face is coated in dust and blood, and his body spasms uncontrollably.
+()<Speaker>Alexander</Speaker>||<SE1>ClothingUp</SE1>:I'm... feeling a bit cold... +Spring is almost over... Why is it still so cold...
+()<Speaker></Speaker>||:Blood comes gushing out the moment he opens his mouth. Every breath he takes sounds like a pair of wheezing bellows.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Don't die. Stay alive...
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Anna.
+NPC-Ange(29)<Speaker>Anna</Speaker><Shake>0.1</Shake>||<SE1>AVG_Punch_Hit</SE1>:Go away! +<size=50>Alexander, I'm ordering you to stay alive!!!</size>
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>||:Anna, let him speak.
+NPC-Ange(31)<Speaker>Anna</Speaker>||:...
+()<Speaker>Alexander</Speaker>||:I want to... go home.
+()<Speaker></Speaker>||:The blood seeps deeper into the ground.
+()<Speaker>Alexander</Speaker>||:Martina wants me... to go home... and plant some potatoes... +Ma'am, will you really bring me home...?
+()<Speaker></Speaker>||:Anna's voice softens. She tries her best to squeeze out a smile.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Yes, you will get home. I will bring you home.
+()<Speaker>Alexander</Speaker>||:I'm holding you... to that.
+()<Speaker></Speaker>||:Alexander closes his eyes.
+()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1>:Teardrops fall on the ground, sinking into the soil dyed red. Anna grabs his shoulders and growls.
+NPC-Ange(32)<Speaker>Anna</Speaker>||<震屏3><SE1>ClothingUp</SE1>:<size=50>Open your eyes, asshole!! Open them!!!</size>
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ramzan straightens up and honors Alexander with a salute.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:爆炸产生的粉尘仍在落下，如一场冷灰色的雪。
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:The dust created by the explosion is still drifting in the air like gray snow.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>480</BIN><关闭蒙版><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1><BGM>BGM_23S_Expedition_Story</BGM>:废弃工厂外侧。
-()<Speaker></Speaker>||<BGM>BGM_23S_Expedition_Story</BGM>:安娜回头看了一眼废墟，又看向雾蒙蒙的远方。
-NPC-Ange(32)<Speaker>安娜</Speaker>||:没有运输车了。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>;NPC-Ange(32)||:你还有腿。
-NPC-Pamzan(4);NPC-Ange(32)<Speaker>安娜</Speaker>||:我的通讯器坏了。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>;NPC-Ange(32)||:我的还在。
-NPC-Pamzan(4);NPC-Ange(32)<Speaker>安娜</Speaker>||:你还有通讯器，我没有了。+我什么都没有了。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>;NPC-Ange(32)||:这里辐射浓度明显下降了，再走远点，应该能恢复通讯。
-NPC-Pamzan(4);NPC-Ange(32)<Speaker>安娜</Speaker>||:你聋了吗？
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>;NPC-Ange(32)||:失去战友的感受，我比你更明白。+安娜，这就是战争。
-NPC-Pamzan(6);NPC-Ange(32)<Speaker>安娜</Speaker>||:这就是战争……+想要活着的人死了，不该活着的人活着。
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>;NPC-Ange(32)||:你要去找“死罪”？为了立功，一个人去送死？
-NPC-Pamzan(6);NPC-Ange(29)<Speaker>安娜</Speaker>||:去***的功劳，我不会让“死罪”多活一秒钟！
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>;NPC-Ange(29)||:等主力部队到了——
-NPC-Pamzan(4);NPC-Ange(29)<Speaker>安娜</Speaker>||:来不及了，记得那些人说的吗？“死罪”就要撤走。+我必须在那之前找到“死罪”藏身的工厂。+错过这次机会，不会有下次了。
-NPC-Pamzan(5)<Speaker>拉姆赞</Speaker>;NPC-Ange(29)||:……你杀了“死罪”，又能怎么样呢？+各个国家就像一群互相撕咬的鬣狗，你拼上性命拔掉一根狗毛，然后呢，战争就结束了吗？
-NPC-Pamzan(6);NPC-Ange(31)<Speaker>安娜</Speaker>||:这个时候你又不提你的立场论了吗？
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>;NPC-Ange(31)||:我这是在提醒你保存实力，别做无意义的牺牲……
-NPC-Pamzan(4);NPC-Ange(29)<Speaker>安娜</Speaker>||:我必须得做点什么。+上一次，我没有力量，只能躲在安全箱后面。+但这一次，我有。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>;NPC-Ange(29)||:安娜，等等——
-NPC-Pamzan(4);NPC-Ange(29)<Speaker>安娜</Speaker>||:帮我，或者让开。
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉姆赞缓缓放下手臂。
-NPC-Ange(31)<Speaker>安娜</Speaker>||:所以你永远比不上艾赫明。+他在这里的话，会选择跟我一起。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:擦肩而过，安娜没有回头。
+()<Speaker></Speaker>||<黑屏2><BIN>480</BIN><关闭蒙版><BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1><BGM>BGM_23S_Expedition_Story</BGM>:Outside the abandoned plant.
+()<Speaker></Speaker>||<BGM>BGM_23S_Expedition_Story</BGM>:Anna looks back at the ruins, then at the hazy horizon.
+NPC-Ange(32)<Speaker>Anna</Speaker>||:We've got no transport.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>;NPC-Ange(32)||:You still have your legs.
+NPC-Pamzan(4);NPC-Ange(32)<Speaker>Anna</Speaker>||:My communicator is broken.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>;NPC-Ange(32)||:Mine still works.
+NPC-Pamzan(4);NPC-Ange(32)<Speaker>Anna</Speaker>||:You still have your communicator; I've got nothing. +I don't have anything left.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>;NPC-Ange(32)||:The radiation levels here have decreased noticeably. If we get farther away, we may be able to establish comms.
+NPC-Pamzan(4);NPC-Ange(32)<Speaker>Anna</Speaker>||:Did you not hear me?
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>;NPC-Ange(32)||:I know better than you how it feels to lose comrades. +Anna, this is war.
+NPC-Pamzan(6);NPC-Ange(32)<Speaker>Anna</Speaker>||:This is war... +People who want to live die, while those who shouldn't live live.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>;NPC-Ange(32)||:You still plan on tracking down Capita? Are you going to get yourself killed just for a medal?
+NPC-Pamzan(6);NPC-Ange(29)<Speaker>Anna</Speaker>||:F*ck medals! I just want Capita dead this instant!
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>;NPC-Ange(29)||:Once the main force gets here—
+NPC-Pamzan(4);NPC-Ange(29)<Speaker>Anna</Speaker>||:They won't make it in time. Remember what they said? Capita is leaving soon. +I must find the plant Capita is hiding in before they can get away. +If I miss this opportunity, I won't get another.
+NPC-Pamzan(5)<Speaker>Ramzan</Speaker>;NPC-Ange(29)||:...Okay, so you kill Capita, and then what? +The nations are like a pack of hyenas tearing at each other. You risk your life and manage to pull out a tuft of fur, and? You think the war would end just like that?
+NPC-Pamzan(6);NPC-Ange(31)<Speaker>Anna</Speaker>||:Not gonna lecture me about positions and standpoints this time?
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>;NPC-Ange(31)||:I'm just telling you to save your strength and don't make any unnecessary sacrifices...
+NPC-Pamzan(4);NPC-Ange(29)<Speaker>Anna</Speaker>||:I've got to do something. +Last time, I was powerless. All I could do was hide. +But this time, I'm not powerless.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>;NPC-Ange(29)||:Anna, wait—
+NPC-Pamzan(4);NPC-Ange(29)<Speaker>Anna</Speaker>||:Help me, or get out of my way.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ramzan slowly lowers his arm.
+NPC-Ange(31)<Speaker>Anna</Speaker>||:This is why you'll never measure up to Armin. +If he were here, he'd choose to come with me.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna does not look back as she brushes past him.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>99</BIN><SE1>AVG_wind_grass</SE1><黑屏2>:安娜追踪着车辙印一路前行，穿过空寂泥泞的原野。+粘腻的春风风干了脸上的泪痕，她双眸中如有火焰灼灼。
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<BIN>99</BIN><SE1>AVG_wind_grass</SE1><黑屏2>:Anna tracks the tire marks all the way through the empty wilderness. +The blowing spring breeze has dried the tears on her face. Her eyes are ablaze.
+()<Speaker></Speaker>||:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>207</BIN><BGM>BGM_Empty</BGM>:黄区边缘。
-()<Speaker></Speaker>||<BGM>10220</BGM>:壕沟、高墙、电网、塔楼，站岗的士兵持枪守卫。
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:此刻工厂外院的门大开，一队八辆厢式货车驶离，另一队厢式货车立刻开进去，一字排开。+士兵们川流不息将种种物资、箱体搬装上车。
-()<Speaker>？士兵</Speaker>||:快点，搬快点，只剩20分钟了！+手脚轻点你这蠢货，摔坏了样本箱，你把自己剁了放进去！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜躲在一栋废弃房屋后，观察着材料工厂的情况。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:这里果然是“死罪”的实验基地。+我可能只有一次开枪的机会，或者零次——+没有时间了……
-()<Speaker></Speaker>||<SE1>Rope</SE1>:安娜双手紧紧握着枪身，贴在额头上。
-NPC-Ange(31)<Speaker>安娜</Speaker>||:潘、维克多、亚历山大，三排的兄弟们，请保佑我。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:安娜深吸一口气，再次检查过弹药，迈出脚步。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:谁？
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:安娜低喝，下意识变迈步为旋身，回身肘击。
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:咚——拉姆赞捂着胸口后退两步。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:拉姆赞？为什么不躲？
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:……+如果我不来，你准备直接冲进去？
-NPC-Ange(31)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||:“两点之间，直线最短。”你教的。
-NPC-Ange(31);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:实战课你只学到搏击，把脑子忘在教室了？
-NPC-Ange(28)<Speaker>安娜</Speaker>||:什么样的老师，教什么样的学生。
-()<Speaker></Speaker>||:拉姆赞鼻腔里发出不屑的喷气声。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:现在大部分人忙着搬家，内部守卫力量必然松懈，所以我只需要三步。+混进去，找到“死罪”，开枪。
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:在开枪之前，你已经死了。
-NPC-Ange(28)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||:你是专门赶过来嘲讽我的？
-NPC-Ange(28);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:……我找到信号了。
-NPC-Ange(28)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||:然后呢？
-NPC-Ange(28);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:上级要求我监视材料工厂，试着获得更多死罪的情报。+我认为某种程度上，我们可以合作。
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||:我可不是来找情报的。
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:随便你，你做你的事，我做我的，各取所需。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||<SE1>Rope</SE1>:看好了菜鸟，什么叫做“教科书级的潜入”。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>207</BIN><BGM>BGM_Empty</BGM>:On the edge of the Yellow Zone.
+()<Speaker></Speaker>||<BGM>10220</BGM>:Trenches, high walls, electric fences, towers, and armed guards.
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:At this moment, the gate to the front yard of the plant is wide open. A convoy of eight cargo vans drive away, and another immediately lines up to take their place. +Soldiers continue to load all sorts of supplies and crates into the vehicles.
+()<Speaker>Soldier (?)</Speaker>||:Quickly now! Move it! We've got 20 minutes left! +Be careful with that, you dumbass! If you break that box of samples, you can turn yourself into a sample too!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna observes the situation at the plant from behind an abandoned building.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:This really is Capita's lab. +I may only get one shot, maybe not even that... +I'm running out of time...
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Anna tightens her grip on her gun and presses the barrel against her forehead.
+NPC-Ange(31)<Speaker>Anna</Speaker>||:Pan, Wiktor, Alexander, brothers of the 3rd Platoon, please watch over me.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:Anna takes a deep breath and checks her ammo one last time. Then she strides out.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Who's there?
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Anna growls. She thrusts her elbow backward and whirls around.
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:Thunk. Ramzan stumbles back two steps, clutching at his chest.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Ramzan? Why didn't you dodge it?
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:... +If I hadn't come, would you have just charged in there?
+NPC-Ange(31)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||:"The shortest distance between two points is a straight line." You taught me that.
+NPC-Ange(31);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:All you remember from practical combat class is CQC. Have you left your brains in the classroom?
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Like teacher, like student.
+()<Speaker></Speaker>||:Ramzan lets out a disgruntled huff.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Most of them are busy moving right now, so the defense must be lax. It's a three-step plan. +Get inside, find Capita, shoot.
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:You'll be dead before you can shoot.
+NPC-Ange(28)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||:Did you come all the way just to mock me?
+NPC-Ange(28);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:...I got reception on comms.
+NPC-Ange(28)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||:And?
+NPC-Ange(28);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:The brass ordered me to monitor the plant and gather more intel on Capita. +I believe we can work together to a certain extent.
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||:I'm not here for intel.
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Whatever. You do your thing, and I do mine. We each get what we want.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||<SE1>Rope</SE1>:Now pay attention, rookie. Let me give you a proper demonstration of how to infiltrate an enemy camp.
+()||<黑点1>:

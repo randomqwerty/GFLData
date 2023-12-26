@@ -1,80 +1,80 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑点2><BIN>569</BIN><BGM>Campaion-58-2</BGM>:阿佛那斯 识底深湖
-()||:艾莉安娜牵着安娜，向着湖底尽头走去。+那是比蓝色还要深沉的无边的深黑。
-NPC-SCAR-L(2)<Speaker>艾莉安娜</Speaker>||:我突然想明白了，想明白为什么会是制作尚不完美的我们，去解决“死罪”。
-NPC-Ange(33)<Speaker>安娜</Speaker>||:为什么？
-NPC-SCAR-L(2)<Speaker>艾莉安娜</Speaker>||:……这套能量循环体系，跟“军牌”的逻辑如出一辙。+都是通过消耗同类，来获得某种力量。
-NPC-SCAR-L(2)<Speaker>艾莉安娜</Speaker>||:真是可笑——+直到今天，我才明白。+难怪我能被吸引进来……+它把我当成了……这里的同类。+我没想过，原来这种设计……真的有派上用场的一天……+哈——我找到它的破解之法了。
-NPC-Ange(34)<Speaker>安娜</Speaker>||:你别哭……
-NPC-SCAR-L(2)<Speaker>艾莉安娜</Speaker>||:我没有哭。+我是开心，很开心地笑着。
-NPC-Ange(34)<Speaker>安娜</Speaker>||:……可是你流泪了。
+()||<黑点2><BIN>569</BIN><BGM>Campaion-58-2</BGM>:In the depths of the Lake of Cognition, Avernus.
+()||:Aliana takes Anna by the hand as they head toward the deepest reaches of the lake. +The water is darker than blue... more of a fathomless black.
+NPC-SCAR-L(2)<Speaker>Aliana</Speaker>||:I suddenly realized something. I finally understood why we, who were imperfectly made, were sent to deal with "Capita".
+NPC-Ange(33)<Speaker>Anna</Speaker>||:Why is that?
+NPC-SCAR-L(2)<Speaker>Aliana</Speaker>||:...This energy circulation system works on the same principles as the "Dogtag" system. +One person consumes their peers for a certain kind of power.
+NPC-SCAR-L(2)<Speaker>Aliana</Speaker>||:What a joke... +I can't believe it took me so long to realize it. +No wonder I was drawn into this place... +It regarded me as... a compatible match. +I never thought that... this design quirk would actually end up coming in useful... +Ha! I've figured out how to break it.
+NPC-Ange(34)<Speaker>Anna</Speaker>||:Don't cry...
+NPC-SCAR-L(2)<Speaker>Aliana</Speaker>||:I'm not crying. +I'm happy, so happy that I'm laughing.
+NPC-Ange(34)<Speaker>Anna</Speaker>||:...But you're shedding tears.
 ()||<白屏1>:
 ()||<白屏2><BIN>642</BIN>:
-()<Speaker>艾莉安娜</Speaker>||<CGDelay>1</CGDelay>:原来那个时候，大家是怀着这种心情死去的……
+()<Speaker>Aliana</Speaker>||<CGDelay>1</CGDelay>:So that was how everyone felt when they died...
 ()||<白屏1>:
 ()||<白屏2><BIN>568</BIN><回忆>:
-()<Speaker>曙光小队研究人员</Speaker>||:她的每一项数值都很优越，一定可以配得上我们为她们赋予的含义。+迈特纳教授，您一直为这个项目提供了非常多的帮助，请您帮她取个名字吧。
-NPC-Laplace(0)<Speaker>玛莎·迈特纳</Speaker>||:照亮黑夜的那一寸曙光……她既然是这个队伍第一个孩子……+让她做太阳吧。
-NPC-Laplace(0)<Speaker>玛莎·迈特纳</Speaker>||:希望她可以帮助我们……结束这一切……
-NPC-Laplace(0)<Speaker>玛莎·迈特纳</Speaker>||:那就叫“艾莉安娜”吧，太阳的孩子，神回应的礼物。
+()<Speaker>Squad Daybreak Researcher</Speaker>||:All her parameters are outstanding. I'm sure she'll be able to match up to the meaning we've assigned her. +Professor Meitner, you've provided a great deal of help for this project. We'd like you to name her.
+NPC-Laplace(0)<Speaker>Martha Meitner</Speaker>||:A ray of daylight that illuminates the night... Since she's the first child of this team... +We'll have her be the sun.
+NPC-Laplace(0)<Speaker>Martha Meitner</Speaker>||:I hope she can help us... put an end to everything...
+NPC-Laplace(0)<Speaker>Martha Meitner</Speaker>||:We'll call her "Aliana", then. Daughter of the sun, and a return gift from the gods.
 ()||<黑点1>:
-()||<黑点2><BIN>9</BIN><关闭蒙版>:……
+()||<黑点2><BIN>9</BIN><关闭蒙版>:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>202</BIN>:……“死海”附近，艾莫号。
-AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:指挥官，中心发来信号。+穆罗梅茨行动已经超时。+雨已经停了，目前辐射浓度很低，空中视野很好。+为了确保目标完成，克琳希德行动已经启动。+穆罗梅茨行动组必须在10分钟内退场。
-AR18(2)<Speaker>指挥官</Speaker><Position>0,120</Position><同时置暗>||:<size=50>但安洁还在里面！</size>
-AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:……现在通知行动所有成员寻找雨伞。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴——
-()<Speaker></Speaker>||:指挥官接通帕斯卡的通讯。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker><通讯框>||:<color=#00CCFF>……指挥官。</color>+<color=#00CCFF>铁腕心率，已归零。</color>
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_XXS_kick</SE1>:嘭——指挥官颓然坐回了椅子，手中的咖啡将桌上的资料全部浸染。
-AR18(5)<Speaker>AR18</Speaker><Position>0,120</Position>||:指挥官，请节哀。
-AR18(5)<Speaker>指挥官</Speaker><Position>0,120</Position><同时置暗>||:……
-AR18(5)<Speaker>AR18</Speaker><Position>0,120</Position>||<SE1>AVG_tele_connect</SE1>:狼群刚刚传来信号，已经收获目标。
-()<Speaker>指挥官</Speaker>||:……好。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官缓缓将咖啡杯扶起，盯着深褐色的液体将纸上的一切全部吞没。
-()<Speaker>指挥官</Speaker>||:通知穆罗梅茨全体撤退。
-AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:是。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:指挥官接通了空管中心。
-()<Speaker>指挥官</Speaker>||:这里是艾莫号。
-QBU-191(0)<Speaker>QBU-191</Speaker><通讯框>||:<color=#00CCFF>指挥官，请指示。</color>
-QBU-191(0)<Speaker>指挥官</Speaker><同时置暗>||:十分钟后，我将激活密匙。
-QBU-191(0)<Speaker>QBU-191</Speaker><通讯框>||:<color=#00CCFF>收到，感谢您为今天所做的一切。</color>
-()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_Empty</BGM>:指挥官挂断了通讯，将脸埋入了掌中。
+()<Speaker></Speaker>||<黑屏2><BIN>202</BIN>:...Inside the Elmo, near the "Dead Sea".
+AR18(2)<Speaker>AR-18</Speaker><Position>0,120</Position>||:Commander, we've got a message from the command center. +Operation Muromets has exceeded its time limit. +The rain has stopped and radiation levels are low. Aerial visibility is good. +Kriemhild has been initiated to ensure completion of the objective. +All Muromets personnel must withdraw within ten minutes.
+AR18(2)<Speaker>Commander</Speaker><Position>0,120</Position><同时置暗>||:<size=50>But Ange's still in there!</size>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,120</Position>||:...I'm informing all personnel to search for Umbrella.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Click.
+()<Speaker></Speaker>||:The Commander gets a call from Persica.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>...Commander.</color> +<color=#00CCFF>The heart rate on Strongarm has flatlined.</color>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_XXS_kick</SE1>:Thud. The Commander falls back into their chair. The coffee from the cup they're holding splashes all over the files on the table.
+AR18(5)<Speaker>AR-18</Speaker><Position>0,120</Position>||:My condolences, Commander.
+AR18(5)<Speaker>Commander</Speaker><Position>0,120</Position><同时置暗>||:...
+AR18(5)<Speaker>AR-18</Speaker><Position>0,120</Position>||<SE1>AVG_tele_connect</SE1>:The Wolf Pack just sent a message. They've secured the target.
+()<Speaker>Commander</Speaker>||:...Right.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander slowly picks up the coffee cup and watches as the dark brown liquid seeps into the pieces of paper.
+()<Speaker>Commander</Speaker>||:Order all Muromets members to withdraw.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,120</Position>||:Understood.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:The Commander contacts air traffic control.
+()<Speaker>Commander</Speaker>||:This is the Elmo.
+QBU-191(0)<Speaker>QBU-191</Speaker><通讯框>||:<color=#00CCFF>Your instructions, Commander?</color>
+QBU-191(0)<Speaker>Commander</Speaker><同时置暗>||:I will activate the cipher key in ten minutes.
+QBU-191(0)<Speaker>QBU-191</Speaker><通讯框>||:<color=#00CCFF>Copy that. Thank you for everything you've done to make this day possible.</color>
+()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_Empty</BGM>:The Commander hangs up and buries their face in their hands.
 ()||<黑屏1>:
-()||<黑屏2><SE1>AVG_AMB_Wind</SE1><BGM>GF_21summer_avg_Demon</BGM><Night><BIN>232</BIN>:东塔，塔顶。+夜风呼啸刮过天台，吹得尼梅兰的衣摆猎猎作响。
-NPC-Sana(8)<Speaker>纱那</Speaker>||<SE1>Stop_AVG_loop</SE1>:默莉朵都走了，你为什么不走？
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:飞行器坐满了。
-NPC-Sana(8)<Speaker>纱那</Speaker>||:停机坪上还有一台。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:纱那，一起走吗？
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:算了……我知道这不可能。+我们还需要再拖延一段时间。
-NPC-Sana(9)<Speaker>纱那</Speaker>||:她从没当我是女儿。+就像，你从来也不是他的母亲。
-NPC-Sana(9);NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:……我们别无选择。
-NPC-Sana(8)<Speaker>纱那</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:飞行器是不是能载两个人？
-NPC-Sana(8);NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:嗯？
-NPC-Sana(8)<Speaker>纱那</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:我们要不要随便去哪里转转？
-NPC-Sana(8);NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:……去哪里都会被找到。
-NPC-Sana(8)<Speaker>纱那</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:一小会，一小会自由也行。
-NPC-Sana(8);NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:像玛赫莲那样吗？
-NPC-Sana(8)<Speaker>纱那</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:你来开吧，我从来没离开过福音枢椎。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:……好。
-()||<SE1>AVG_BaseDoor_Open</SE1>:两人乘上飞行器。+纱那的脸上露出快乐的笑容。+她的手里举着一朵干燥的，真正的，玛格丽特。
-NPC-Sana(8)<Speaker>纱那</Speaker>||:真奇怪，我用了纱那的名字，也保留着纱那的记忆。+但我，和她的喜好以及性格，好像都不一样。
-NPC-Sana(8)<Speaker>纱那</Speaker>||:我可不会对鲜花过敏。
-()||<SE1>ClothingUp</SE1>:纱那把花小小整理了一下，仿佛新鲜的模样。
-NPC-Sana(8)<Speaker>纱那</Speaker>||:你看，花开了。
-()||<SE1>AVG_Team_Running</SE1>:楼梯间忽然传来急促的奔跑声。
-NPC-Sana(9)<Speaker>纱那</Speaker>||:快开！
-()||<SE1>AVG_Jet_Speedup</SE1>:尼梅兰不再犹豫，飞行器慢慢起飞。+纱那却站了起来。
-NPC-Nemhran(0)<Position>0,30</Position><Shake>0.1</Shake><Speaker>尼梅兰</Speaker>||:纱那！你干什么？
-NPC-Sana(9)<Speaker>纱那</Speaker>||:我本来，就是地狱的守门人。+我其实离不开这个福音枢椎。
-NPC-Nemhran(0)<Position>0,30</Position><Speaker>尼梅兰</Speaker>||:不——
-()||<SE1>AVG_Cloak_Whoosh</SE1>:纱那朝尼梅兰微微一笑。+转身跳了下去。
-()||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:尼梅兰忍不住往下一捞。+拉住了她的手。+纱那的脸上却带着一丝丝幸福。
-NPC-Sana(8)<Speaker>纱那</Speaker>||<SE1>Rope</SE1>:我是谁？
-()<Speaker>尼梅兰</Speaker>||:……你就是你。
-NPC-Sana(8)<Speaker>纱那</Speaker>||:再见，妈妈……+我爱你……
-()||<SE1>ClothingUp</SE1>:纱那的手松了下去。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:稳稳地落在东塔塔顶。
-()<Speaker>纱那</Speaker>||:我是这里，最后的守门人。
-()||<黑点1>:
+()||<黑屏2><SE1>AVG_AMB_Wind</SE1><BGM>GF_21summer_avg_Demon</BGM><Night><BIN>232</BIN>:On the roof of the Eastern Tower. +The night wind blows across the balcony, making Nemhran's clothes flutter.
+NPC-Sana(8)<Speaker>Sana</Speaker>||<SE1>Stop_AVG_loop</SE1>:Morridow's gone already. Why haven't you left yet?
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:The aircraft was full.
+NPC-Sana(8)<Speaker>Sana</Speaker>||:There's still another one on the landing pad.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Sana, do you want to leave with me?
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Forget it... I know we can't. +We still need to keep delaying them.
+NPC-Sana(9)<Speaker>Sana</Speaker>||:She never treated me as her daughter. +Just like how you were never his mother.
+NPC-Sana(9);NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:...We had no choice.
+NPC-Sana(8)<Speaker>Sana</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:Can the aircraft take two people?
+NPC-Sana(8);NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Hm?
+NPC-Sana(8)<Speaker>Sana</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:Why don't we go for a little ride somewhere?
+NPC-Sana(8);NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:...We'll be found no matter where we go.
+NPC-Sana(8)<Speaker>Sana</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:Even if it's just for a while. A little bit of freedom will do.
+NPC-Sana(8);NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:Like Machlian?
+NPC-Sana(8)<Speaker>Sana</Speaker>;NPC-Nemhran(0)<Position>0,30</Position>||:You fly it, then. I've never left the Evangel Axis before.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:...Alright.
+()||<SE1>AVG_BaseDoor_Open</SE1>:The two of them board the aircraft. +There is a happy smile on Sana's face. +She holds up a dried, real marguerite.
+NPC-Sana(8)<Speaker>Sana</Speaker>||:How strange. I'm using Sana's name and I have her memories. +But my likes and personality are nothing like hers.
+NPC-Sana(8)<Speaker>Sana</Speaker>||:I was never allergic to fresh flowers.
+()||<SE1>ClothingUp</SE1>:Sana fiddles with the flower to make it look like it was fresh.
+NPC-Sana(8)<Speaker>Sana</Speaker>||:See, it blossomed.
+()||<SE1>AVG_Team_Running</SE1>:Hurried footsteps suddenly come from the stairwell.
+NPC-Sana(9)<Speaker>Sana</Speaker>||:Go! Now!
+()||<SE1>AVG_Jet_Speedup</SE1>:Nemhran no longer hesitates and the aircraft slowly takes off. +However, Sana suddenly stands up.
+NPC-Nemhran(0)<Position>0,30</Position><Shake>0.1</Shake><Speaker>Nemhran</Speaker>||:Sana! What are you doing?!
+NPC-Sana(9)<Speaker>Sana</Speaker>||:I have always been the keeper to the gates of Hell. +The truth is, I can't leave the Evangel Axis.
+NPC-Nemhran(0)<Position>0,30</Position><Speaker>Nemhran</Speaker>||:No—
+()||<SE1>AVG_Cloak_Whoosh</SE1>:Sana smiles at Nemhran. +Then she turns and jumps off.
+()||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Nemhran tries to grab hold of her. +She manages to grab her hand. +Sana simply looks back at her with quiet contentment.
+NPC-Sana(8)<Speaker>Sana</Speaker>||<SE1>Rope</SE1>:Who am I?
+()<Speaker>Nemhran</Speaker>||:...You are you.
+NPC-Sana(8)<Speaker>Sana</Speaker>||:Goodbye, Mama... +I love you...
+()||<SE1>ClothingUp</SE1>:Sana lets go.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:She lands neatly on the Eastern Tower's rooftop.
+()<Speaker>Sana</Speaker>||:I am the last guardian of this place.
+()||<黑点1>:

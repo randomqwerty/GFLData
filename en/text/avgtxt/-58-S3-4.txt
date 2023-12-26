@@ -1,64 +1,64 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>470</BIN>:
-()||<SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_Room</BGM>:叮。+随着电梯门开启，Fe56的C组成员们进入了40层。
-()||:与其他房间不同，眼前的房间像是某人的休息室。+房间本身十分隐秘，即使经过缜密的搜查，也险些从C组的眼皮下逃脱。+而房间内的构造更加奇特，其温馨的布置在这黑暗的巨塔内显得格格不入。除此之外，一座微缩的神像显示这里同时还用于祷告。
-()||:通过简单的检查，可以确认，这个房间应该属于一位高级涅托。
-()||<BGM>BGM_Empty</BGM><BIN>470</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:点击放大镜，进行敏感信息挖掘<cg>-120,90<cg>360,-120<cg>-800,-50
+()||<SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_Room</BGM>:Ding. +As the elevator doors open, the members of Team Fe56-C enter level 40.
+()||:Unlike the other rooms, this appears to be somebody's private quarters. +The room is very well concealed; it almost escaped Team C's notice despite a very close search. +The room's layout is even more bizarre with its cozy decor that seems incredibly out of place in this gigantic dark tower. In addition to that, a small statuette here seems to have been used for prayer.
+()||:After a brief check, they can be sure that this room belongs to a high-ranking Nyto.
+()||<BGM>BGM_Empty</BGM><BIN>470</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:Click the magnifying glass to perform sensitive site exploitation.<cg>-120,90<cg>360,-120<cg>-800,-50
 ()||<分支>1</分支><黑屏1>:
-()||<分支>1</分支><黑屏2><BIN>9</BIN><BGM>m_avg_labyrinth</BGM>:……
-()||<分支>1</分支>:在休息室里，找到了一些零散的笔记。+笔记没有标题，从陈旧的程度和字迹上看，记录的是很久之前的一次实验。
+()||<分支>1</分支><黑屏2><BIN>9</BIN><BGM>m_avg_labyrinth</BGM>:...
+()||<分支>1</分支>:They find scattered notes in the room. +The notes are not labeled, but from their age and the handwriting, they seem to be records of a very old experiment.
 ()||<分支>1</分支><黑屏1>:
-()||<分支>1</分支><黑屏2><BIN>463</BIN>:……
-()<Speaker>C. Hela_1046</Speaker>||<分支>1</分支>:……肌肉出现了严重的萎缩。+仪器无法继续维持生命，必须尽快进入实验流程。
-()||<分支>1</分支>:……
-()<Speaker>C. Hela_3027</Speaker>||<分支>1</分支>:出现了严重的排异，手臂，大腿还有腰腹都出现了大量溃烂的组织。+通过活检穿刺得到的样本来看，神经锁结已经附着在指定位置发挥作用。+这……也许会带来一些痛苦，但也从侧面证明了方向正确。
-()||<分支>1</分支>:……
-()<Speaker>C. Hela_9724</Speaker>||<分支>1</分支>:状况逐渐变得稳定。+在第144个克隆体上，她展现了全新的面貌。+那么，今天下午就可以接受第372台手术了……
-()||<分支>1</分支>:……
-()||<分支>1</分支>:散乱的笔记中，还发现了一张烧焦的照片。+照片中，一位成年女性与一位少女站在一起。+成年女性的体型与尼梅兰颇为相似，而少女的面孔被烧得焦黑，看不出原本的模样。
+()||<分支>1</分支><黑屏2><BIN>463</BIN>:...
+()<Speaker>C. Hela_1046</Speaker>||<分支>1</分支>:...Severe dystrophy has occurred in the muscle tissue. +The instruments can no longer sustain life; the subject must be entered into the experimental process ASAP.
+()||<分支>1</分支>:...
+()<Speaker>C. Hela_3027</Speaker>||<分支>1</分支>:Severe rejection has occurred. Mass necrosis of arm, thigh, and abdominal structures has been observed. +Biopsy results indicate that neuronal locks are having the desired effect at the indicated locations. +This... might cause some pain, but it indirectly proves that the approach was correct.
+()||<分支>1</分支>:...
+()<Speaker>C. Hela_9724</Speaker>||<分支>1</分支>:Condition is gradually stabilizing. +The 144th clone has shown a completely new appearance. +That being the case, we can begin procedure No. 372 on her this afternoon.
+()||<分支>1</分支>:...
+()||<分支>1</分支>:There is a burned photograph among the notes. +The picture depicts a woman standing with a girl. +The woman somewhat resembles Nemhran, while the young girl's face has been scorched black and is unrecognizable.
 ()||<分支>1</分支><黑屏1>:
 ()||<分支>1</分支><黑屏2><BIN>470</BIN><BGM>BGM_Empty</BGM>:
 ()||<分支>2</分支><BIN>183</BIN><SE1>AVG_Rain_Heavy</SE1><common_effect>%%code=NoiseVideo%%wait=1%%</common_effect>:
-()||<分支>2</分支><白屏2><BIN>488</BIN><SE1>Stop_AVG_loop</SE1><回忆>:……呲呲。
-()||<分支>2</分支><BGM>GF_21summer_avg_Demon</BGM>:屏幕在经过一段刺目的闪烁之后才稳定下来，显出一段用餐时的影像。+地点似乎并不在这个房间内，而是另一个更加华丽的地方。+长餐桌的正对面，一个不怒自威的男人坐在对面的主座上，切割着盘中的牛肉。
-()<Speaker>奥贝斯坦</Speaker>||<分支>2</分支>:我向来不喜欢英国人在美食上的任何发明。+但至少他们还能出口些像样的牛肉。
-()<Speaker>尼梅兰</Speaker>||<分支>2</分支>:……我们的计划已经到了实施的阶段。+但要推进到下一步，还需要您的指示。
-()||<分支>2</分支><SE1>AVG_20Winter_Drink_Tea</SE1>:男人放下刀叉，拿起餐巾，擦了擦嘴角沾上的酱料。
-()<Speaker>奥贝斯坦</Speaker>||<分支>2</分支>:在用餐时，不要说些令牛肉都变得难吃的话题。
-()<Speaker>尼梅兰</Speaker>||<分支>2</分支>:……十分抱歉。
-()||<分支>2</分支>:尼梅兰站了起来，又低下了头，似乎在表达歉意。
-()<Speaker>奥贝斯坦</Speaker>||<分支>2</分支>:坐下吧。
-()<Speaker>尼梅兰</Speaker>||<分支>2</分支>:是……
-()<Speaker></Speaker>||<分支>2</分支>:餐椅被轻轻拉动，而餐桌对面的男人已经站了起来。
-()<Speaker>奥贝斯坦</Speaker>||<分支>2</分支>:我下午还有跟将军会面的预定。+任何需要报告的事，都留到那之后再说。
-()<Speaker>尼梅兰</Speaker>||<分支>2</分支>:遵命，父亲大人。
+()||<分支>2</分支><白屏2><BIN>488</BIN><SE1>Stop_AVG_loop</SE1><回忆>:...Pzzzt.
+()||<分支>2</分支><BGM>GF_21summer_avg_Demon</BGM>:The screen flashes and flickers for a while before finally resolving into a video recording of people eating. +It does not seem to have been taken in this room, but in a more luxurious location. +On the other end of a long dining table is a distinguished-looking man who is slicing up the beef on his plate.
+()<Speaker>Von Oberstein</Speaker>||<分支>2</分支>:I have never liked any of England's contributions to gourmet cuisine. +But at the very least, they can produce a decent steak.
+()<Speaker>Nemhran</Speaker>||<分支>2</分支>:...Our plan has already reached the implementation stage. +But we still need your instructions before we can proceed.
+()||<分支>2</分支><SE1>AVG_20Winter_Drink_Tea</SE1>:The man puts down his cutlery, then he picks up his napkin and dabs at the sauce on the corner of his mouth.
+()<Speaker>Von Oberstein</Speaker>||<分支>2</分支>:Do not speak of topics that ruin the taste of food during mealtime.
+()<Speaker>Nemhran</Speaker>||<分支>2</分支>:...I sincerely apologize.
+()||<分支>2</分支>:Nemhran rises and bows her head to convey her contrition.
+()<Speaker>Von Oberstein</Speaker>||<分支>2</分支>:Sit.
+()<Speaker>Nemhran</Speaker>||<分支>2</分支>:Yes, Father...
+()<Speaker></Speaker>||<分支>2</分支>:The man pushes back his chair and rises from his seat.
+()<Speaker>Von Oberstein</Speaker>||<分支>2</分支>:I have to meet the General in the afternoon. +Leave any reports you have to make till afterward.
+()<Speaker>Nemhran</Speaker>||<分支>2</分支>:Understood, Father.
 ()||<分支>2</分支><BIN>183</BIN><SE1>AVG_Rain_Heavy</SE1><common_effect>%%code=NoiseVideo%%wait=1%%</common_effect>:
-()||<分支>2</分支><白屏2><BIN>488</BIN><SE1>Stop_AVG_loop</SE1>:……呲呲。
+()||<分支>2</分支><白屏2><BIN>488</BIN><SE1>Stop_AVG_loop</SE1>:...Pzzzt.
 ()||<分支>2</分支><黑屏1><BGM>BGM_Empty</BGM>:
 ()||<分支>2</分支><黑屏2><BIN>470</BIN><关闭蒙版>:
 ()||<分支>3</分支><黑屏1>:
-()||<分支>3</分支><BIN>563</BIN><回忆><黑屏2><BGM>BGM_Empty</BGM>:……
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker>||<分支>3</分支><BGM>BGM_stage10</BGM>:迦拉提亚的人才招募计划在父亲大人的统率下正在有条不紊地推进中。+我们吸纳了大量来自世界各地的各领域专家，建立了优秀的人才资源储备。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker>||<分支>3</分支>:名单前列的招募人员，基本已成功全部吸纳，少部分人员也已经由秘密部队进行特殊处理。+……其中，格雷·布莱克薇尔多次游说无果，且在柏林建立了自己的生物实验室。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker>||<分支>3</分支>:建议在她的影响力继续上升之前，依照第二方案进行处决。
-()||<分支>3</分支>:……
-()||<分支>3</分支>:回执批复——不予通过。+格雷·布莱克薇尔一事暂且搁置，等候指令。+……
+()||<分支>3</分支><BIN>563</BIN><回忆><黑屏2><BGM>BGM_Empty</BGM>:...
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker>||<分支>3</分支><BGM>BGM_stage10</BGM>:Galatea's recruitment program is proceeding apace under Father's leadership. +We have attracted experts in various fields from around the world and built an excellent talent pool.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker>||<分支>3</分支>:The names topping the list have essentially all been successfully inducted, while a small handful have been specially processed by our secret department. +...Among them, Gray Blackwell has rejected multiple persuasion attempts and founded her own biology lab in Berlin instead.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker>||<分支>3</分支>:I recommend switching to Plan B and dealing with her before her influence grows any further.
+()||<分支>3</分支>:...
+()||<分支>3</分支>:Message received; permission denied. +The matter of Gray Blackwell is to be set aside for the moment until further instructions are given. +...
 ()||<分支>3</分支><黑屏1>:
 ()||<分支>3</分支><黑屏2><BIN>470</BIN><BGM>BGM_Empty</BGM><关闭蒙版>:
-()||:……
-()||<白屏2><火花><SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><BGM>10230</BGM>:轰——！！！
-BossJustice(0)<Speaker>法官</Speaker>||:什——！？
-()||:在Fe56的成员还在专心搜索的时候，休息室内忽然发生了爆炸……
-()||:还没来得及检查的物品和信息被卷入火焰当中付之一炬，同时整个房间都开始倒塌。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:啧，我就知道没那么简单！+这个房间本身就是个陷阱！
-()||<SE1>Explode</SE1>:爆炸的冲击掀翻了墙壁和天花板，连续的爆破将房间彻底变成了废墟。
+()||:...
+()||<白屏2><火花><SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><BGM>10230</BGM>:Kaboom!!!
+BossJustice(0)<Speaker>Judge</Speaker>||:What?!
+()||:As Team Fe56 searches the room, an explosion suddenly erupts inside the private quarters...
+()||:The items and data which have yet to be investigated are consumed by flames as the entire room also starts collapsing.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Tsk, I KNEW things wouldn't be that simple! +This entire damn room is a trap!
+()||<SE1>Explode</SE1>:The explosion brings down the walls and the ceiling, and after several more blasts, the room is reduced to rubble.
 ()||<黑屏1>:
-()||<黑屏2><关闭火花>:混乱持续了半分钟，一切才偃旗息鼓。
-BossJustice(0)<Speaker>法官</Speaker>||:报告情况。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:反应及时，没有人受伤。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:你们看！那边露出了一个通道！
+()||<黑屏2><关闭火花>:The chaos lasts for half a minute before everything slowly dies down.
+BossJustice(0)<Speaker>Judge</Speaker>||:Status report.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:We reacted in time. Nobody was hurt.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Look over there! There's a passage over there!
 ()||<黑点1>:
 ()||<黑点2><BIN>449</BIN>:
-()||:房间倒塌之后，墙后露出了通往连接桥的入口。+连接东西塔的裁决之桥，桥身遭受了重火力攻击已经完全中断。+东塔侧留存的桥体部分，布满了弹孔和小型爆炸留下的痕迹。+裸露金属和支架的桥面上，破坏者发现了某个熟悉的“物件”。+那是一位人形残缺不全的躯体，仿生皮肤和纤维都已经烧毁，露出被融化和破碎的金属部件。+从残存的衣装和武器上，依稀还能够分辨她的身份。
-()||:希望她的核心还能照常运作。
-()||<黑点1>:……
+()||:The collapse of the room reveals a passage leading to the link bridge. +The Bridge of Judgment leading to the Western Tower was severed by heavy firepower. +What remains of the eastern end of the bridge is covered with bullet holes and scorch marks left by miniature explosives. +It is upon this naked metal and exposed structural framework that Destroyer notices a certain familiar "component". +It is the ruined torso of a Doll. Its bionic skin and muscle fibers have been completely destroyed, exposing its melted and ruined metal components. +The shreds of her clothing and the remains of her weapon provides a vague clue to her identity.
+()||:Hopefully her core is still functional.
+()||<黑点1>:...

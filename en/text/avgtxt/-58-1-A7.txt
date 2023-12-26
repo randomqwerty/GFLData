@@ -1,224 +1,224 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>654</BIN>:别斯兰第一中学 7年级教室
-()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM>:离“永恒之火”事件过去了几天，除了教室里的学生少了一些，似乎没有过多的变化。+时间就是这样，总是在不知不觉中抹平着一切。+起码看起来是这样。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Fire_Alarm</SE1>:叮铃铃——+上课铃响起……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:玛莎•迈特纳走进了教室。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:今天讲第五节，临界问题的求解。+万一找不到临界点，有哪些方法可以寻找。
-()<Speaker>叽叽喳喳的学生</Speaker>||:呵，伤害学生也配做老师吗？
-()<Speaker>叽叽喳喳的学生</Speaker>||:就是，她怎么还敢来上课。
-()<Speaker>叽叽喳喳的学生</Speaker>||:你们听说了吗，她女儿都被学校劝退了。
-()<Speaker>叽叽喳喳的学生</Speaker>||:识相点就赶紧滚啊。
-()<Speaker>叽叽喳喳的学生</Speaker>||:不知道校长在想什么……
-()<Speaker></Speaker>||:此时的玛莎•迈特纳在学生眼里不再是老师，只是一个引发争议，让他们同胞受难的美国人。+学生肆无忌惮的讨论声音越来越大。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:……
-()<Speaker></Speaker>||<SE1>Select</SE1>:“啪嗒”一声。+这是子弹上膛的声音。+玛莎从讲台里摸出了一把枪。
-()<Speaker></Speaker>||:教室里好像忽然被摁下了静音键。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:玛莎将枪口对准了西尼娅。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:站起来。
-NPC-Sinia(0)<Speaker>西尼娅</Speaker><Position>0,-58</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她不得不站起来。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:害怕吗？
-NPC-Sinia(0)<Speaker>西尼娅</Speaker><Position>0,-58</Position>||:……+这是学校，你是老师。+你不能对学生动手。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:啧。+那么哪条校规允许学生对老师动手？
-NPC-Sinia(0)<Speaker>西尼娅</Speaker><Position>0,-58</Position>||:……
-()<Speaker></Speaker>||:玛莎冷漠地扫了一眼教室里的学生。+随后食指扣下扳机。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM>:呯——
-()<Speaker>学生们</Speaker>||:<size=50>啊——西尼娅！</size>
-()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1>:“啪”——
-()<Speaker></Speaker>||:西尼娅感觉额头被什么东西弹了一下。+又掉了地上。+她忍不住看了过去。+是一小截白色圆柱体。
-NPC-Sinia(0)<Speaker>西尼娅</Speaker><Position>0,-58</Position>||:……不是子弹，你……
-NPC-Laplace(1)<Speaker>玛莎</Speaker>||<BGM>GF_22W_BGM_1</BGM>:现在老师们都不喜欢手写黑板了。+所以你们没见过这玩意儿。+以前我上学的时候，不听课的学生就会被丢粉笔头。
-()<Speaker>学生们</Speaker>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:你们心里怎么想，我才懒得管。+但在我的课上，都给我闭嘴。
-()<Speaker></Speaker>||:回应她的是沉默，但玛莎不在乎。+她举着塞满粉笔头的改装手枪，用锐利的眼神盯住教室里每一个学生。+或平静、或惊恐、或不屑、或愤怒。+只有一个人……+看不到表情。
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><震屏3>:呯——+又一发粉笔头打出去。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position><Shake>0.1</Shake>||<SE1>AVG_Bullet_Hit_Wall</SE1>:……！
-()<Speaker></Speaker>||:一直趴在座位上的安娜头顶一痛。+她茫然地看了看周围。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:既然不想听，那就别听了。+去办公室站到这堂课结束。
+()<Speaker></Speaker>||<黑屏2><BIN>654</BIN>:Grade 7 Classroom, Beslan High School No. 1.
+()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM>:It has been several days since the Eternal Flame Incident. There are now fewer students in the classroom, but other than that, little has changed. +Such is the nature of time. It always smooths everything out before anyone takes notice. +At least in appearance.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Fire_Alarm</SE1>:Riiiiing... +The class bell chimes.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Martha Meitner walks into the classroom.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Today we'll be talking about chapter 5, solving critical equations. +How to calculate a critical point if it isn't given.
+()<Speaker>Chattering Student</Speaker>||:Ha, what business does someone who harms students have being a teacher?
+()<Speaker>Chattering Student</Speaker>||:Yeah, I'm surprised she has the gall to show up in the classroom.
+()<Speaker>Chattering Student</Speaker>||:Have you heard? Even her daughter got expelled from school.
+()<Speaker>Chattering Student</Speaker>||:If she knows what's good for her, she'd just screw off already.
+()<Speaker>Chattering Student</Speaker>||:What the hell is the principal thinking...?
+()<Speaker></Speaker>||:At this point, Martha Meitner is no longer a teacher in the students' eyes. She is simply an American who brings suffering upon their compatriots and a source of controversy. +The students' brazen protests grow louder and louder.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:...
+()<Speaker></Speaker>||<SE1>Select</SE1>:Click. +It is the sound of a pistol slide being racked. +Martha fishes a pistol out from the drawer of her podium.
+()<Speaker></Speaker>||:It's as if someone has suddenly pressed a mute button on the classroom.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Martha aims the weapon at Xenia.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Stand up.
+NPC-Sinia(0)<Speaker>Xenia</Speaker><Position>0,-58</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Xenia has no choice but to obey.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Scared?
+NPC-Sinia(0)<Speaker>Xenia</Speaker><Position>0,-58</Position>||:... +This is a school. You are a teacher. +You cannot raise a hand against students.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Tsk. +Then tell me, which school rule allows a student to raise a hand against a teacher?
+NPC-Sinia(0)<Speaker>Xenia</Speaker><Position>0,-58</Position>||:...
+()<Speaker></Speaker>||:Martha's gaze sweeps over all the students in the classroom. +Then she pulls the trigger.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM>:Poom.
+()<Speaker>Students</Speaker>||:<size=50>Aaaaaah! Xenia!</size>
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1>:Plop.
+()<Speaker></Speaker>||:Xenia feels something bounce off her forehead. +It falls on the floor. +She can't help but look down. +It's a small, white, cylindrical object.
+NPC-Sinia(0)<Speaker>Xenia</Speaker><Position>0,-58</Position>||:...That's not a bullet. You...
+NPC-Laplace(1)<Speaker>Martha</Speaker>||<BGM>GF_22W_BGM_1</BGM>:Teachers these days don't like writing on the blackboard. +That's why you've never seen this thing before. +Back when I was in school, students who didn't pay attention in class would get chalk thrown at them.
+()<Speaker>Students</Speaker>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:I don't give a damn what you lot think. +But when I'm giving a lecture, keep your mouths shut.
+()<Speaker></Speaker>||:The only response Martha gets is silence, but she does not care. +Keeping her modified chalk gun raised, she scans each and every student in the classroom with her sharp gaze. +The faces are either calm, frightened, scornful, or angry. +But one particular face... +...is devoid of emotion.
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><震屏3>:Poom. +The gun ejects another piece of chalk.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position><Shake>0.1</Shake>||<SE1>AVG_Bullet_Hit_Wall</SE1>:...!
+()<Speaker></Speaker>||:Anna, who has been dozing in her seat, suddenly feels a pain on her head. +She looks around in confusion.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:If you can't be bothered to listen, then don't. +Go stand in the teachers' office until the end of this class.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>276</BIN>:别斯兰第一中学 老师办公室
-()<Speaker></Speaker>||:教师办公室在白天的时候都没什么人，但物品堆得宛如垃圾站。+书本、试卷、器材，七零八落地堆了一圈。+安娜百无聊赖地找了个稍微能站人的角落，准备盯着天花板发呆。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……+唔，大概还有三十分钟。+以后可能要练习下站立的睡姿。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜往墙面靠了靠。
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:“咚咚咚”——
-NPC-Ange(36)<Speaker>安娜</Speaker><Position>0,-50</Position>||:什么声音？
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:咚咚咚——+从一堆杂物中传出的声音。+像是敲击声，闷闷的。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……什么东西？
-()<Speaker></Speaker>||:她朝着那堆发出声音的杂物走了过去。
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:咚咚咚——+声音大了点，仔细一看，杂物后面有个门，上面写着储藏间。
-()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:安娜走了过去，敲了敲门。
-()<Speaker>？？？</Speaker>||:让我出去……
-()<Speaker></Speaker>||:是人声！
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:安娜移开了门前的杂物，从外面扭开了门把手。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:一个小女孩跌跌撞撞地扑了出来。
-NPC-Ange(36)<Speaker>安娜</Speaker><Position>0,-50</Position>||:这不是——
-()<Speaker></Speaker>||:这不是玛莎的女儿吗？
-NPC-Sana(4)<Speaker>小女孩</Speaker><Position>0,210</Position>||<BGM>m_wv_scenario</BGM>:……呜呜呜呜呜——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:软软的身体紧紧抱住安娜。+推开也不对，但就这么放任也不合适。+安娜没带过孩子，准确地说，安娜自己还是个小孩。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:哭什么……
-NPC-Ange(37)<Position>0,-50</Position>;NPC-Sana(4)<Speaker>小女孩</Speaker><Position>0,210</Position>||:好黑……害怕……呜呜呜呜……
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(4)<Position>0,210</Position>||:那你去找你妈告状，那女人看着就不好惹。
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(4)<Speaker>小女孩</Speaker><Position>0,210</Position>||:不要……
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(4)<Position>0,210</Position>||:你这只会哭的样子，路过的狗看了都想欺负你。
-NPC-Ange(37)<Position>0,-50</Position>;NPC-Sana(4)<Speaker>小女孩</Speaker><Position>0,210</Position>||:不……大哥哥和你，就不，就不欺负我。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(4)<Position>0,210</Position>||:……+放手。
-NPC-Sana(4)<Speaker>小女孩</Speaker><Position>0,210</Position>||:不要。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她把眼泪和鼻涕使劲蹭在安娜胸前。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……+<color=#A9A9A9>算了算了，我本来也不爱干净。</color>
-()<Speaker></Speaker>||:哭了一会儿，小女孩终于安静下来。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:喂——
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(2)<Speaker>小女孩</Speaker><Position>0,210</Position>||:你在喊我吗？
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(2)<Position>0,210</Position>||:不然呢？
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(2)<Speaker>小女孩</Speaker><Position>0,210</Position>||:我叫纱那。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:哦，你在这里干什么？
-()<Speaker></Speaker>||:纱那的眼里瞬间噙满泪水。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:停！+再哭我就把你妈找过来。
-NPC-Sana(4)<Speaker>纱那</Speaker><Position>0,210</Position>||:……唔。
-()<Speaker></Speaker>||:想哭又不敢哭。
-NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:妈妈，妈妈不准我出去玩。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:……不玩就不玩呗。
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:但我不想在黑漆漆的房间里。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:谁把你关在里面？
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:……妈妈。
-NPC-Ange(36)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:哈？？
-NPC-Ange(36)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:她不准我跟着她。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……+原来老师也这样。
-NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:嗯？
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:我妈也这样。+小时候她加班，把我扔洗衣机里。
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(0)<Speaker>纱那</Speaker><Position>0,210</Position>||<SE1>ClothingUp</SE1>:噗——+我妈妈没有这样过。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……笑什么笑，关小黑屋就比我好吗？
-()<Speaker></Speaker>||:纱那一撇嘴。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:不准哭！
-NPC-Ange(37)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:哦……+我妈妈从来不陪我玩。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:我妈也是。
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:我妈妈也不陪我睡觉。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:我妈也是。
-NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:我妈妈……
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:好了好了，停止比谁更惨。+你不要抱着我了！+你很重！
-NPC-Sana(1)<Speaker>纱那</Speaker><Position>0,210</Position>||:哦——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她退了两步。
-NPC-Sana(0)<Speaker>纱那</Speaker><Position>0,210</Position>||:姐姐，你来这里是跟我玩的吗？
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……不是。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:想起来这里的理由，安娜忍不住一把掐住纱那的脸颊。
-NPC-Ange(35)<Speaker>安娜</Speaker><Position>0,-50</Position>||:都怪你妈，算你头上了。
-NPC-Sana(4)<Speaker>纱那</Speaker><Position>0,210</Position>||:呜呜呜……
-()<Speaker></Speaker>||:安娜手重了一点。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:她如果不来这里，不就什么事都没有了。+……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Fire_Alarm</SE1>:叮铃铃——+下课铃响，跟着响起的还有一群人狂奔的声音。+这是下课铃对人性的解放。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:玛莎回到办公室，发现纱那正坐在自己的椅子上晃悠着小腿，她皱了皱眉头。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:纱那，你怎么跑出来的？
-NPC-Sana(3)<Speaker>纱那</Speaker><Position>0,210</Position>||<SE1>ClothingUp</SE1>:……哼。
-()<Speaker></Speaker>||:玛莎上前仔细检查纱那，没有什么伤，却发现桌子上有一张歪歪扭扭的便利贴——
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><narrator>:有空管教别人，不如陪陪女儿。
+()<Speaker></Speaker>||<黑屏2><BIN>276</BIN>:Teachers' office, Beslan High School No. 1.
+()<Speaker></Speaker>||:The teachers' office is generally unoccupied during the day, but it is as cluttered as a junkyard. +Books, exam papers, and teaching equipment are scattered all over. +Anna finds a relatively empty spot to stand and prepares to stare at the ceiling and zone out for a while.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:... +Hm, 30 minutes to go. +I may have to practice sleeping while standing.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna leans back slightly against a wall.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Empty</BGM>:Thunk, thunk, thunk...
+NPC-Ange(36)<Speaker>Anna</Speaker><Position>0,-50</Position>||:What was that?
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Thunk, thunk, thunk... +Something in a pile of miscellaneous objects is making a sound. +Some sort of dull knocking.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...What is it?
+()<Speaker></Speaker>||:She walks toward the pile.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Thunk, thunk, thunk... +The sound grows louder. Upon closer inspection, Anna finds a door behind the clutter. The sign indicates that it is a storage room.
+()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:She approaches the door and knocks on it.
+()<Speaker>???</Speaker>||:Let me out...
+()<Speaker></Speaker>||:Someone spoke!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Anna hauls away the obstacles blocking the door and pulls on the door handle.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:A little girl stumbles out of the storage room.
+NPC-Ange(36)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Aren't you...
+()<Speaker></Speaker>||:Martha Meitner's daughter?
+NPC-Sana(4)<Speaker>Little Girl</Speaker><Position>0,210</Position>||<BGM>m_wv_scenario</BGM>:(Sobs)
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The delicate girl has thrown her arms around Anna. +Pushing her away doesn't feel right, but Anna can't just let this go on either. +She has never taken care of any children. In fact, she herself is still a child.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Why are you crying...
+NPC-Ange(37)<Position>0,-50</Position>;NPC-Sana(4)<Speaker>Little Girl</Speaker><Position>0,210</Position>||:So dark... I'm scared... (Sobs)
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(4)<Position>0,210</Position>||:Then whine about it to your mom. That woman is a real piece of work.
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(4)<Speaker>Little Girl</Speaker><Position>0,210</Position>||:No...
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(4)<Position>0,210</Position>||:You're such a crybaby; even the dogs in the streets would want to bully you.
+NPC-Ange(37)<Position>0,-50</Position>;NPC-Sana(4)<Speaker>Little Girl</Speaker><Position>0,210</Position>||:No... The nice boy and you... You don't bully me.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(4)<Position>0,210</Position>||:... +Let go of me.
+NPC-Sana(4)<Speaker>Little Girl</Speaker><Position>0,210</Position>||:No.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The girl buries her face into Anna's chest, smearing tears and snot all over her.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:... +<color=#A9A9A9>Whatever. I'm not too fussed about being clean anyway.</color>
+()<Speaker></Speaker>||:After crying for a while, the girl finally calms down.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Hey.
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(2)<Speaker>Little Girl</Speaker><Position>0,210</Position>||:Are you talking to me?
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(2)<Position>0,210</Position>||:Who else?
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(2)<Speaker>Little Girl</Speaker><Position>0,210</Position>||:My name is Sana.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Oh. What are you doing here?
+()<Speaker></Speaker>||:Tears start welling up in Sana's eyes again.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Don't! +If you cry, I'll go fetch your mom this instant.
+NPC-Sana(4)<Speaker>Sana</Speaker><Position>0,210</Position>||:...Urk.
+()<Speaker></Speaker>||:Sana wants to cry, but she doesn't dare.
+NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:Mama... Mama doesn't let me play outside.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:...Then don't.
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:But I don't want to stay in the dark room.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:Who locked you in there?
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:...Mama.
+NPC-Ange(36)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:Huh??
+NPC-Ange(36)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:She doesn't let me follow her around.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:... +So she's also like that.
+NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:Hm?
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:My mom was the same. +When I was little and she had to work overtime, she'd put me in the washing machine.
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(0)<Speaker>Sana</Speaker><Position>0,210</Position>||<SE1>ClothingUp</SE1>:Pffft... +My mom never did that.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...What's so funny? Being locked inside a dark room isn't much better.
+()<Speaker></Speaker>||:Sana pouts.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Don't cry!
+NPC-Ange(37)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:Okay... +Mama never plays with me.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:Neither did mine.
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:She never puts me to sleep.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>;NPC-Sana(1)<Position>0,210</Position>||:Neither did mine.
+NPC-Ange(33)<Position>0,-50</Position>;NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:She...
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Alright, alright, don't turn this into a competition. +And get down already! +You're heavy!
+NPC-Sana(1)<Speaker>Sana</Speaker><Position>0,210</Position>||:Oh...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Sana takes two steps back.
+NPC-Sana(0)<Speaker>Sana</Speaker><Position>0,210</Position>||:Have you come to play with me?
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...No.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:At the thought of her reason for being here, Anna can't help but pinch Sana's cheek.
+NPC-Ange(35)<Speaker>Anna</Speaker><Position>0,-50</Position>||:It's all your mom's fault, so I blame you too.
+NPC-Sana(4)<Speaker>Sana</Speaker><Position>0,210</Position>||:Ow-ow-ow...
+()<Speaker></Speaker>||:Anna pinches pretty hard.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:If she had never come, none of this would've happened. +...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Fire_Alarm</SE1>:Riiiing... +The recess bell rings, followed by the sound of a frenzied stampede. +The recess bell signals liberation for students.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Martha returns to the teachers' office, only to find Sana sitting on her own chair, kicking her little legs. Martha frowns.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Sana, how did you get out?
+NPC-Sana(3)<Speaker>Sana</Speaker><Position>0,210</Position>||<SE1>ClothingUp</SE1>:...Humph.
+()<Speaker></Speaker>||:Martha goes up to Sana and looks her over carefully. She is not hurt. Then she spots a sticky note stuck haphazardly on her desk.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><narrator>:"If you have the time to lecture others, maybe you should spend more time with your daughter instead."
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>644</BIN>:别斯兰第一中学 图书馆
-()<Speaker></Speaker>||<BGM>2022_white_valentine_BGM2</BGM>:安娜再一次来到图书馆，这一次没有去书架那边，而是径直前往图书馆管理员的座位。
-()<Speaker>图书馆管理员</Speaker>||:看一下管理规则。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:嗯。
-NPC-Ange(33)<Speaker>图书馆管理员</Speaker><Position>0,-50</Position><同时置暗>||:……这个价，去那边刷卡。
-NPC-Ange(36)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……不是定价的十倍吗？
-NPC-Ange(36)<Speaker>图书馆管理员</Speaker><Position>0,-50</Position><同时置暗>||:……也不看看当年的物价和现在的物价。+通货膨胀懂不懂啊？
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……哦。+<color=#A9A9A9>这两个月零花钱看来是没有了。</color>
-()<Speaker></Speaker>||:安娜垂头丧气地走到刷卡机边上。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一只手拦在了卡槽上面。+安娜抬头，又是那个女人。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:拿去还给图书馆。
-()<Speaker></Speaker>||:玛莎拿出一本崭新的《路边野餐》，1972年出版的版本。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:不还的话，我就举报你。+说你故意偷窃图书馆的书。
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……为什么帮我？
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:说了不喜欢欠人人情。+这个，就当还你照顾纱那的那几分钟。
-NPC-Laplace(0);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……你的所有东西都是用钱衡量的？
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:用钱简单。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:拿走，还是举报？
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1><SE1>AVG_Creep</SE1>:安娜接过《路边野餐》，然后打开书包，从书包里把旧的拿了出来，将新的放了进去。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:……
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……就当我用钱买的。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:……
-()<Speaker></Speaker>||:安娜拿着旧的《路边野餐》走回了图书馆管理员身边。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……又找到了。
-NPC-Ange(33)<Speaker>图书管理员</Speaker><Position>0,-50</Position><同时置暗>||<BGM>BGM_Empty</BGM>:……哦，下次注意点！
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:嗯。
-()<Speaker></Speaker>||:事情似乎解决了，安娜也到了放学的时间。+但她稍微有点在意。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||<BGM>Campaion-58-2</BGM>:<color=#A9A9A9>我又不是在意她，只是觉得纱那太可怜了而已。</color>
-()<Speaker></Speaker>||:她在一排排书架之间漫步穿梭。+在莫斯科的话，图书馆的书架早就换成了合金，因为曾经有图书馆由于书籍太重而致使书架倒塌。+但别斯兰只是一座小城市，还保留着最早时候建造的材料和模样。+木头架子充满了划痕，为了节约用电，书架之间的阅读灯有一大半没开。+借着昏暗的灯光，安娜又看到了那个熟悉的人影。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……我觉得你应该多陪陪她。+万一你死了，你女儿会多难过。+在现在这个时代，死亡是很常见的事情。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||:玛莎转头看了安娜一眼，眼神里是平静的不屑。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:你在说纱那，还是你自己。
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:什么意思？
-NPC-Laplace(1)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:枪是爸爸留的，书是妈妈吧？
-NPC-Laplace(1);NPC-Ange(36)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……！
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(36)<Position>0,-50</Position>||:先说好，我不是故意调查你。+而是学生的档案，身为老师必须要看。
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:……如果不打算阅读的话，留着其实没有任何意义。
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:就像你的枪，不重新组装好，它只是一把废铁。
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……只要维持原样就好了。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:没有东西可以维持原样。
-NPC-Laplace(0);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:纸张会发黄，子弹会生锈。+连你都不能永远停留在十五岁，你怎么觉得可以维持原样？
-NPC-Laplace(0);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……那就去死好了。+死掉，就永远是十五岁。
-NPC-Laplace(1)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||<BGM>BGM_Empty</BGM>:噗——+想死吗？+也对，这个时代，想死的人真的很多。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:别来教育我，该如何活下去！
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:别来教育我，该如何做一个母亲。
-NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……是我自作多情了。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||<BGM>BGM_23S_Winter_Night</BGM>:我要是你妈妈，会被你气死。
-NPC-Laplace(0);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:我要是你女儿，才会被你气死。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:……+噗——你真是怪小孩。
-NPC-Laplace(0);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:你也好不到哪里去。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:珍惜一点吧，你还有心情去收拾悲伤，这本身就很奢侈。
-NPC-Laplace(0);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:不要一副高高在上的模样。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:你跟你父母也这么说话吗？
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……不是，我不跟他们说话。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:所以现在才觉得遗憾？
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:是先有了小孩才会学习如何成为父母，而不是学会如何成为父母之后再拥有小孩。+……等我知道我不适合做一位母亲的时候，我已经是一位母亲了。
-NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:人生是有很多遗憾，可能会在某一个瞬间觉得没意义。+那是因为此时此刻的你，世界太小了。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:你现在也拥有了新的家庭，不是吗？+艾赫明，是一位好的兄长。
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……你们当敌人的概率，远比当朋友大得多。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:是啊……+所以，你为什么要在这里，跟“敌人”费这么多话？
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:……你爱纱那吗？
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:……+为什么这么问？
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:所有人都说我有一个幸福的家庭，只是偶然遭遇了不幸。+但我很多事情都没有确认。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:……
-NPC-Laplace(0);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:我觉得他们爱他们的事业，比我更多。
-NPC-Laplace(1)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||<BGM>BGM_Empty</BGM>:噗，你怎么知道以后的自己，不会成为这种人？
-NPC-Laplace(1);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(1)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:我们来打个赌吧。
-NPC-Laplace(1);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:赌什么？
-NPC-Laplace(1)<Speaker>玛莎</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||<BGM>BGM_23S_Winter_Night_Bayan_Version</BGM>:我赌你将来，会是一个冒险家。
-NPC-Laplace(1);NPC-Ange(33)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……
-NPC-Laplace(1)<Speaker>玛莎</Speaker>||:人类历史是一个巨大的无休止的过山车，上下起伏。过山车上的临时乘客不断地换着衣服，提着新行李，说着各种各样的行话。+在我看来，过山车上每个人所拥有的独一无二的东西，就是他在这趟神秘旅程中的行为。+只有冒险家，才会勇于享受这段旅程。
-NPC-Laplace(1);NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:……说简单点。
-NPC-Laplace(0)<Speaker>玛莎</Speaker>||:……还好我不是你的俄文老师。
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<黑点2><BIN>644</BIN>:Library, Beslan High School No. 1.
+()<Speaker></Speaker>||<BGM>2022_white_valentine_BGM2</BGM>:Anna returns to the library once again. This time, instead of heading towards the bookshelves, she makes a beeline for the librarian.
+()<Speaker>Librarian</Speaker>||:Read the rules.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Right.
+NPC-Ange(33)<Speaker>Librarian</Speaker><Position>0,-50</Position><同时置暗>||:...This is the fine. Swipe your card there.
+NPC-Ange(36)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...Isn't it supposed to be ten times the original price?
+NPC-Ange(36)<Speaker>Librarian</Speaker><Position>0,-50</Position><同时置暗>||:...Think about the price index back then and the price index these days. +Inflation, get it?
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:…Oh. +<color=#A9A9A9>There goes two months of pocket money.</color>
+()<Speaker></Speaker>||:Anna walks up to the card machine dejectedly.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:A hand blocks the card slot. +Anna looks up. It's that woman again.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Take this and return it to the library.
+()<Speaker></Speaker>||:Martha holds out a brand new copy of "Roadside Picnic"—the 1972 edition.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:If you don't, I'll report you. +For stealing from the library.
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...Why are you helping me?
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:I told you. I don't like owing people. +This is your payment for babysitting Sana.
+NPC-Laplace(0);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...Do you measure everything with money?
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:It's simpler that way.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Take it. Or should I report you?
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1><SE1>AVG_Creep</SE1>:Anna takes the book. She then opens her school bag, takes out the old battered copy, and places the new copy inside.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:...
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...I'm buying it.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:...
+()<Speaker></Speaker>||:Anna returns to the librarian with the old copy of "Roadside Picnic".
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...I found it.
+NPC-Ange(33)<Speaker>Librarian</Speaker><Position>0,-50</Position><同时置暗>||<BGM>BGM_Empty</BGM>:...Oh. Be more careful next time!
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Okay.
+()<Speaker></Speaker>||:The matter has been resolved, and it's time for Anna to go home. +But something seems to be bothering her.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||<BGM>Campaion-58-2</BGM>:<color=#A9A9A9>It's not like I care about her. I just feel sorry for Sana.</color>
+()<Speaker></Speaker>||:She strolls down the aisle through rows and rows of bookshelves. +If this were Moscow, the bookshelves would have long since been replaced with metal ones, as there libraries whose bookshelves had collapsed under the weight of their heavy books. +But Beslan is just a small town, so things haven't changed since the day they were built. +The wooden bookshelves are covered in scratches, and half of the lights above the shelves are off to conserve energy. +Under the dim light, Anna glimpses the familiar figure again.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...I really think you should spend more time with her. +If you die, your daughter will be really upset. +And in this day and age, death is all too commonplace.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||<SE1>ClothingUp</SE1>:...
+()<Speaker></Speaker>||:Martha turns to glance at Anna. Her eyes are filled with quiet disdain.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Are you talking about Sana or yourself?
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:What do you mean?
+NPC-Laplace(1)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:Let me guess—the gun was your dad's, and the book was your mom's?
+NPC-Laplace(1);NPC-Ange(36)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...!
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(36)<Position>0,-50</Position>||:Just so we're clear, I didn't look you up deliberately. +As a teacher, it's compulsory for me to read my students' files.
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:...If you don't plan on reading the book, there's no point in keeping it.
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:The same goes for your gun. If you don't assemble it properly, it's just a useless piece of junk.
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...I just want them to stay the same.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:Nothing can stay the same forever.
+NPC-Laplace(0);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:Pages turn yellow; cartridges rust. +Even you won't stay 15 forever. What makes you think things can stay the same?
+NPC-Laplace(0);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...I can just die. +If I die now, I'll always be 15.
+NPC-Laplace(1)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||<BGM>BGM_Empty</BGM>:Pfft... +You want to die? +Hardly surprising. Most people are pretty suicidal these days.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Don't lecture me about how to live!
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Then don't lecture me about how to be a mother.
+NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...It was stupid of me to care.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||<BGM>BGM_23S_Winter_Night</BGM>:If I were your mom, you'd make me tear out my hair.
+NPC-Laplace(0);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:If I were your daughter, you'd make ME tear out my hair.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:... +Pffft... You're such a strange kid.
+NPC-Laplace(0);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:You're no better yourself.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:Be grateful for the fact that you can grieve. That is a luxury in and of itself.
+NPC-Laplace(0);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Stop being so hoity-toity.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(37)<Position>0,-50</Position>||:Did you also talk like this to your parents?
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...No, I didn't talk to them.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:So now you regret it?
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:You only learn how to be a parent when you have a child. You don't learn how to be a parent and THEN have a child. +...By the time I realized I made for a poor mother, I was already one.
+NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:Life is full of misfortunes. A single moment can render everything else meaningless. +But that's just because your world is still too small.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:You have a new family now, don't you? +Armin is a good brother.
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...It's far more likely for you to be enemies than friends.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:True... +So why are you here wasting your time talking to an "enemy"?
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:...Do you love Sana?
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:... +Why do you ask?
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:Everyone said I had a happy family, and what happened was simply unfortunate. +But there are many things that I'm not so sure about.
+NPC-Laplace(0)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:...
+NPC-Laplace(0);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:I think they loved their career more than me.
+NPC-Laplace(1)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||<BGM>BGM_Empty</BGM>:Pfft. Who's to say you won't end up being the same in the future?
+NPC-Laplace(1);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(1)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||:Let's make a bet.
+NPC-Laplace(1);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:What kind of bet?
+NPC-Laplace(1)<Speaker>Martha</Speaker>;NPC-Ange(33)<Position>0,-50</Position>||<BGM>BGM_23S_Winter_Night_Bayan_Version</BGM>:I bet you'll be an adventurer when you grow up.
+NPC-Laplace(1);NPC-Ange(33)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...
+NPC-Laplace(1)<Speaker>Martha</Speaker>||:Human history is a large roller coaster that goes up and down endlessly. The passengers riding the roller coaster wear different clothes, bring along different luggage, and speak in different jargon. +The way I see it, what sets each passenger apart is how they behave on this mysterious journey. +Only an adventurer has the courage to enjoy the ride.
+NPC-Laplace(1);NPC-Ange(37)<Speaker>Anna</Speaker><Position>0,-50</Position>||:...Speak plainly.
+NPC-Laplace(0)<Speaker>Martha</Speaker>||:...Good thing I'm not your Russian teacher.
+()<Speaker></Speaker>||:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><黑屏2><BIN>9</BIN>:微弱的阅读灯亮在书架前方，两个称不上是朋友的人，竟然坐在一起。+阅读着一本，既不热门，也不经典的书籍。
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><黑屏2><BIN>9</BIN>:Under the dim light above a bookshelf, two people who aren't exactly friends are sitting side by side... +Reading a book that is neither a recent hit nor a classic.
 ()||<黑屏1>:
-()<Speaker>玛莎</Speaker>||<黑屏2><BIN>648</BIN><SE1>AVG_20Winter_Book</SE1>:……五百年后，我们东西方的争吵将会像玫瑰战争一样毫无意义。我们是谁，胆敢妄图终结一切?
-()<Speaker>玛莎</Speaker>||<SE1>AVG_20Winter_Book</SE1>:我看不出，当地球因人为的毒药而贫瘠，空气被污染，人类疾病和死亡，人类的精神寓于肌体之中，如何能够珍惜自由，尊重他人的权利，并发挥其最高的才能——爱。
-()<Speaker>玛莎</Speaker>||<SE1>AVG_20Winter_Book</SE1>:我看不出，当所有的人性，包括善恶都丧失殆尽时，还能捍卫什么人类的价值。
-()<Speaker>安娜</Speaker>||<BIN>648</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.3%%duration=2%%</bg_move>:……
-()<Speaker>安娜</Speaker>||:玫瑰战争是什么？
-()<Speaker>玛莎</Speaker>||:好歹也读几本莎士比亚吧。
-()<Speaker>安娜</Speaker>||:我母亲是俄文老师。
-()<Speaker>玛莎</Speaker>||:……
-()<Speaker>安娜</Speaker>||:但在我以前的学校，老师的小孩无法成为优等生，几乎是既定的命运。
-()<Speaker>玛莎</Speaker>||:没事，你母亲不会怪你。
-()<Speaker>安娜</Speaker>||:……+为什么？
-()<Speaker>玛莎</Speaker>||:身为俄文老师，应该早就知道你没有文学天赋了。
-()<Speaker>安娜</Speaker>||:……+我就一点天赋也没有吗？
-()<Speaker>玛莎</Speaker>||:……你开枪的姿势很对。
-()<Speaker></Speaker>||:……
+()<Speaker>Martha</Speaker>||<黑屏2><BIN>648</BIN><SE1>AVG_20Winter_Book</SE1>:...In 500 years, the squabbles between the East and the West will be as pointless as the Wars of the Roses. Who are we to think we can end it all?
+()<Speaker>Martha</Speaker>||<SE1>AVG_20Winter_Book</SE1>:When the planet is rendered arid by an artificial poison, the very air is contaminated, and humans are getting sick and dying in spades, I do not see how the human spirit, which is so dependent on the wellbeing of our flesh, can cherish freedom, respect others' rights, and realize its greatest potential—love.
+()<Speaker>Martha</Speaker>||<SE1>AVG_20Winter_Book</SE1>:When all human morality, our very sense of good and evil, is utterly lost, I do not see any hope in saving humanity.
+()<Speaker>Anna</Speaker>||<BIN>648</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.3%%duration=2%%</bg_move>:...
+()<Speaker>Anna</Speaker>||:The Wars of the Roses?
+()<Speaker>Martha</Speaker>||:At least read some Shakespeare.
+()<Speaker>Anna</Speaker>||:My mother was a Russian teacher.
+()<Speaker>Martha</Speaker>||:...
+()<Speaker>Anna</Speaker>||:But in my old school, a teacher's kid can never be a straight-A student. My fate was practically sealed.
+()<Speaker>Martha</Speaker>||:Don't worry. Your mom wouldn't blame you.
+()<Speaker>Anna</Speaker>||:... +Why?
+()<Speaker>Martha</Speaker>||:As a Russian teacher, she must've known since day one that you have zero literary talent.
+()<Speaker>Anna</Speaker>||:... +Do I not have any talent at all?
+()<Speaker>Martha</Speaker>||:...You have good shooting form.
+()<Speaker></Speaker>||:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><narrator><BIN>644</BIN>:……+我打算带着纱那离开这里了。+那我们以后通讯岂不是很不方便？+找个代号吧。+唔……那你是科学怪兽，拉普拉斯。+哈——那你就是死亡天使，亚巴顿。
+()<Speaker></Speaker>||<黑屏2><narrator><BIN>644</BIN>:... +I'm planning to leave this place with Sana. +Then it'll be really hard for us to talk, no? +We'll have to use codenames. +Hm... Then you're Laplace's Demon, a monster of science. +Ha! Then you're Abaddon, the Angel of Death.
 ()<Speaker></Speaker>||<SE1>AVG_Rain_Heavy</SE1><common_effect>%%code=NoiseVideo%%wait=1%%</common_effect>:
-()<Speaker>？？？？</Speaker>||<白屏2><SE1>Stop_AVG_loop</SE1><BIN>641</BIN><BGM>BGM_Empty</BGM>:不论你多少次失去记忆，不论身边的人是何种面貌，你总是不会更改自己的决定。+不愧是我的学生。
-()<Speaker>？？？</Speaker>||:您对她，似乎有些不够了解。
-()<Speaker>？？？？</Speaker>||:真是抱歉，我们做师生的时间，相比拥有的人生，显得太过短暂了。
+()<Speaker>????</Speaker>||<白屏2><SE1>Stop_AVG_loop</SE1><BIN>641</BIN><BGM>BGM_Empty</BGM>:No matter how many times you lose your memory, no matter how the people around you present themselves, you never change your mind. +I expected nothing less from my student.
+()<Speaker>???</Speaker>||:You don't seem to know her well enough.
+()<Speaker>????</Speaker>||:I'm very sorry, but the time we spent as teacher and student was far too short.
 ()||<BGM>BGM_Empty</BGM><黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>655</BIN><narrator><SE1>AVG_2023Slow_WN_Phonograph_Disc</SE1>:亲爱的迈特纳，我又去了那家“百万玫瑰”，他们进了一些新的唱片，回头我挑一些寄过去。+现在每天都很忙碌，经常想起毕业旅行那段时间，我们周游列国的快乐。能够见识不同思路不同文化的人类和风物，在不同的思想中碰撞，真是一段有趣的日子。+对了，最近好多人都说德国即将迎来新的技术风暴，有一位能人即将调任重要的岗位，那个名字不知道你听过没——鲁道夫•奥贝斯坦。如果有兴趣的话，你可以和他接触看看。+2051年，布莱克薇尔写于柏林。
+()<Speaker></Speaker>||<黑屏2><BIN>655</BIN><narrator><SE1>AVG_2023Slow_WN_Phonograph_Disc</SE1>:Dear Meitner, I went to the Millions of Roses again. They've stocked some new records. I'll go pick some out later and send them over. +As I busy myself with work every day, I often find myself reminiscing about the time we spent traveling after we graduated, about the joy of exploring different countries. We met people from different cultures with different ways of thinking—such interesting days those were. +By the way, word has it that Germany is about to experience a new technological boom. Apparently, a very capable and talented man is about to take over an important post. I wonder if you've heard of the name Rudolf von Oberstein. If this intrigues you, do try to get in touch with him. +Blackwell, Berlin, 2051.
 ()||<黑点1>:

@@ -1,221 +1,221 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>98</BIN><黑屏2><SE1>Battlefield</SE1><SE2>Gunfight</SE2><BGM>Campaion-58-3</BGM>:红区外围，三排临时指挥点。+视野所及几乎看不到人影，只有未曾停歇的枪炮声证明战斗仍在继续。+坑地里留下了三辆被击毁的运输车，冒着滚滚黑烟。
-NPC-Pan(0)<Speaker>二班长 潘</Speaker><Position>0,60</Position>||:我们居然真的拦住了美军？以这样的战绩？+我得作一首长诗，好好记录下来！
-NPC-Ange(28)<Speaker>安娜</Speaker>||:作战不难，以后我会一点点教给你们。
-NPC-Pan(0)<Speaker>二班长 潘</Speaker><Position>0,60</Position>||:排长，你真厉害！从今天起我全听你的！
-NPC-Ange(28)<Speaker>安娜</Speaker>||:各班组原地休整五分钟，等待上级的指令。
-NPC-Pan(0)<Speaker>二班长 潘</Speaker><Position>0,60</Position>||:是！
-()<Speaker></Speaker>||:咻咻咻——有什么东西接连破空飞来，射向三排的阵地。
-NPC-Ange(29)<Speaker>安娜</Speaker>||<SE1>AVG_Explosion</SE1><震屏3>:<size=50>趴下！！！</size>
-()<Speaker></Speaker>||<BIN>183</BIN><SE1>AVG_Cloak_Whoosh</SE1>:安娜拽着最近的亚历山大就地扑倒，几乎同时，一股强力的冲击波让她接连翻滚。
+()<Speaker></Speaker>||<BIN>98</BIN><黑屏2><SE1>Battlefield</SE1><SE2>Gunfight</SE2><BGM>Campaion-58-3</BGM>:3rd Platoon temporary command post, outer rim of the Red Zone. +It's impossible to make out anyone within view; the ceaseless sound of barrages is the only proof that the battle is still ongoing. +The wrecks of three destroyed transport vehicles within the crater are producing thick clouds of black smoke.
+NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><Position>0,60</Position>||:We actually intercepted the American troops?! With our pretty much non-existent experience?! +I've got to write a ballad to commemorate this!
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Fighting isn't that hard. I'll teach you little by little later on.
+NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><Position>0,60</Position>||:You're awesome, ma'am! From now on, I'll do whatever you say!
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Rest up for five minutes while we wait for further directives.
+NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><Position>0,60</Position>||:Yes, ma'am!
+()<Speaker></Speaker>||:Whoosh! Whoosh! Whoosh! Several objects whizz past above them towards 3rd Platoon's battle position.
+NPC-Ange(29)<Speaker>Anna</Speaker>||<SE1>AVG_Explosion</SE1><震屏3>:<size=50>Get down!!!</size>
+()<Speaker></Speaker>||<BIN>183</BIN><SE1>AVG_Cloak_Whoosh</SE1>:Anna pulls Alexander, who is the closest to her, down to the ground. Then, a powerful shockwave sends her rolling almost immediately.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:世界亮了又暗，混着绿色晶体碎屑的腐锈味儿泥土刷拉拉砸在身上、头上。+仿佛有人在喊着什么，安娜看到一个熟悉的身影，然后，沉入黑暗……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:The world brightens and darkens. Dirt mixed with green crystal fragments smelling of rust and decay is sprinkled all over her head and body. +Someone seems to be shouting something. Anna glimpses a familiar figure, then darkness claims her...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>632</BIN><黑屏2><回忆>:指挥学院。+四楼走廊上挂着许多世界级名人画像。+从东向西数第五个，是一位女科学家——玛莎•迈特纳，“因遗迹技术研究突破性成果而享誉全球”。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:安静的午间，安娜路过走廊，捕捉到某种喷绘的声音。
-NPC-Ange(23)<Speaker>安娜</Speaker>||:嗯？
-()<Speaker>身材高挑的男学员</Speaker>||:美国人不配挂在我们学校！
-()<Speaker>矮小敦实的男学员</Speaker>||:美国佬滚出苏联！
-NPC-Ange(24)<Speaker>安娜</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:<size=50>你们干什么？！</size>
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:安娜一个箭步冲上来，恶狠狠推开二人！+画像上的玛莎被喷涂成黑色马赛克，头顶写着一些污言秽语。
-NPC-Ange(24)<Speaker>安娜</Speaker>||:<size=50>混蛋！！！</size>
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:安娜一拳捣在对方脸上！+男学员懵了一下，随即还手，三人厮打在一起。
-()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:安娜拼着挨了几下，将两名男学员打得抱头闪躲，她双目喷火瞪着对方。
-()<Speaker>身材高挑的男学员</Speaker>||:为了一张美国佬的画像，你殴打同学？
-NPC-Ange(23)<Speaker>安娜</Speaker>||:哈，你不敢上战场，只敢对着画像泄愤？
-()<Speaker>身材高挑的男学员</Speaker>||:我呸！我马上就去前线揍她！
-()<Speaker></Speaker>||:男学员余光忽然扫到一个黑影，他抬起头。
-()<Speaker>矮小敦实的男学员</Speaker>||:拉——拉姆赞教、教、教官？！
-()<Speaker>身材高挑的男学员</Speaker>||:快走，那是她哥！
-()<Speaker>矮小敦实的男学员</Speaker>||:……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:两名学员风一样消失在走廊尽头。+走廊尽头的教官拉姆赞静静站在原地，目沉如水。
+()<Speaker></Speaker>||<BIN>632</BIN><黑屏2><回忆>:Command College. +Many portraits of renowned figures are hanging on the wall in the fourth floor corridor. +The fifth from the right is a female scientist—Martha Meitner, who "gained international fame for her groundbreaking achievements in Relic technology research.”
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:On this quiet afternoon, Anna hears the hiss of a spray paint can as she walks down the corridor.
+NPC-Ange(23)<Speaker>Anna</Speaker>||:Hm?
+()<Speaker>身材高挑的男学员</Speaker>||:amerikosi have no place in our school!
+()<Speaker>矮小敦实的男学员</Speaker>||:Get the hell out of the NSU, pindosi!
+NPC-Ange(24)<Speaker>Anna</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:<size=50>What are you doing?!</size>
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:Anna runs up to the two cadets and shoves them angrily aside. +Martha's face on the portrait is now a smear of black, and profanities are scrawled above her head.
+NPC-Ange(24)<Speaker>Anna</Speaker>||:<size=50>You assholes!!!</size>
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:Anna punches one of them right in the face. +The cadet freezes in shock for a second, then he returns the blow, and the three of them are locked in an all-out brawl.
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:Anna takes a few blows before unleashing a flurry of punches on the two cadets, making them cower and back away. She glares at them with blazing eyes.
+()<Speaker>身材高挑的男学员</Speaker>||:You assault your fellow cadets over a portrait of some pindosi bitch?!
+NPC-Ange(23)<Speaker>Anna</Speaker>||:Ha. And you take your anger out on a portrait just because you don't have the balls to fight on the battlefield?
+()<Speaker>身材高挑的男学员</Speaker>||:Херня! I'm gonna go out there and kill her right now!
+()<Speaker></Speaker>||:The cadet suddenly spots a figure in his peripheral vision. He looks up.
+()<Speaker>矮小敦实的男学员</Speaker>||:I-I-Instructor Ra-Ramzan?!
+()<Speaker>身材高挑的男学员</Speaker>||:Run! That's her brother!
+()<Speaker>矮小敦实的男学员</Speaker>||:...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:The two cadets sprint down the corridor and disappear like the wind. +Ramzan is standing silently at the end of the corridor, his eyes dark and flat.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>630</BIN><SE1>ClothingUp</SE1>:安娜恨恨吐出一口血沫，拍拍身上的灰尘。+高大挺拔的教官终于走过来。
-()<Speaker>安娜</Speaker>||:你都看见了？
-()<Speaker>拉姆赞</Speaker>||:不得不说，你的搏击打得像喝多了伏特加的大猩猩。
-()<Speaker>安娜</Speaker>||:哈，真是抱歉呢，给实战课教官丢脸了。
-()<Speaker></Speaker>||:安娜抬腿就走。
+()<Speaker></Speaker>||<黑点2><BIN>630</BIN><SE1>ClothingUp</SE1>:Anna spits out a gob of blood angrily and dusts herself off. +The tall, straight-backed instructor finally walks up to her.
+()<Speaker>Anna</Speaker>||:You saw the whole thing, then?
+()<Speaker>Ramzan</Speaker>||:I've got to say, you fight like a gorilla drunk on vodka.
+()<Speaker>Anna</Speaker>||:Ha, well, sorry for embarrassing you, Combat Instructor.
+()<Speaker></Speaker>||:Anna turns to leave.
 ()||<黑点1><SE1>ClothingUp</SE1>:
-()<Speaker>拉姆赞</Speaker>||<黑点2><BIN>631</BIN>:站住。
-()<Speaker></Speaker>||:安娜眼皮都不抬一下继续迈步。
-()<Speaker>拉姆赞</Speaker>||:<size=50>安娜•维克多洛夫纳•崔！</size>
-()<Speaker>安娜</Speaker>||:怎么，看到学员搏击差劲，教官准备纡尊降贵亲自点拨一下？在这里？
-()<Speaker>拉姆赞</Speaker>||:把画像摘下来，玛莎•迈特纳的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜猛地转过身。
-()<Speaker>安娜</Speaker>||:拉姆赞，你是人吗？！
-()<Speaker>拉姆赞</Speaker>||:我是苏联人，毫无疑问。+你呢？
-()<Speaker>安娜</Speaker>||:什么样的苏联人？缩在学校里，只敢对着画像逞威风的苏联人？
-()<Speaker>拉姆赞</Speaker>||:她是研究遗迹技术的美国人，你是哪国人？
-()<Speaker>安娜</Speaker>||:我不需要向你证明什么。
-()<Speaker>拉姆赞</Speaker>||:你需要向自己证明。+摘下来，或者——摘下来。
-()<Speaker></Speaker>||:拉姆赞指着画像，然后指向安娜的学员袖标。
-()<Speaker>安娜</Speaker>||:你没有权力这么做！
-()<Speaker>拉姆赞</Speaker>||:我不会让一个搞不清楚自己站哪边的人上战场。
-()<Speaker>安娜</Speaker>||:搞不清楚的人是你！
-()<Speaker>拉姆赞</Speaker>||:摘，还是不摘？
-()<Speaker>安娜</Speaker>||:……你就是不想我上战场。
-()<Speaker></Speaker>||:拉姆赞冷冷地注视着安娜。
-()<Speaker>安娜</Speaker>||:害怕有一天我爬上比你更高的位置？+从前就是这样，在别斯兰——
-()<Speaker>拉姆赞</Speaker>||:你有什么资格跟我提别斯兰？+大哥死了，你却活着。+安娜•崔，那一天死的人为什么不是你？
-()<Speaker>拉姆赞</Speaker>||:……
-()<Speaker>安娜</Speaker>||<SE1>AVG_Creep</SE1>:……！！
+()<Speaker>Ramzan</Speaker>||<黑点2><BIN>631</BIN>:Stop right there.
+()<Speaker></Speaker>||:Anna keeps walking without looking at Ramzan.
+()<Speaker>Ramzan</Speaker>||:<size=50>Anna Viktorovna Tsoi!</size>
+()<Speaker>Anna</Speaker>||:What, are you going to give a personal demonstration on how to fight properly because I was so bad, Instructor? Right here?
+()<Speaker>Ramzan</Speaker>||:Take the portrait down. Martha Meitner's.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna whirls around.
+()<Speaker>Anna</Speaker>||:Ramzan, are you human?!
+()<Speaker>Ramzan</Speaker>||:I'm a Soviet, without a doubt. +What about you?
+()<Speaker>Anna</Speaker>||:What kind of Soviet? The kind that cower in the safety of this school and can only gloat by defacing portraits?
+()<Speaker>Ramzan</Speaker>||:She is an American researcher of Relic tech. What is your nationality?
+()<Speaker>Anna</Speaker>||:I don't need to prove anything to you.
+()<Speaker>Ramzan</Speaker>||:You need to prove it to yourself. +Take it down, or... take that off.
+()<Speaker></Speaker>||:Ramzan points first at the portrait, then at Anna's cadet armband.
+()<Speaker>Anna</Speaker>||:You have no right!
+()<Speaker>Ramzan</Speaker>||:I will never let someone who doesn't know which side they're on go on the battlefield.
+()<Speaker>Anna</Speaker>||:You're the one who doesn't know!
+()<Speaker>Ramzan</Speaker>||:Are you taking it down or not?
+()<Speaker>Anna</Speaker>||:...You just don't want me out there.
+()<Speaker></Speaker>||:Ramzan gazes at Anna coldly.
+()<Speaker>Anna</Speaker>||:Are you scared that I'd outrank you one day? +You've always been like this. Back in Beslan—
+()<Speaker>Ramzan</Speaker>||:How dare you bring up Beslan?! +My brother is dead, but you live. +Anna Tsoi, why wasn't it you who died that day?!
+()<Speaker>Ramzan</Speaker>||:...
+()<Speaker>Anna</Speaker>||<SE1>AVG_Creep</SE1>:...!!
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>Heartbeat</SE1>:……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>Heartbeat</SE1>:...
 ()<Speaker></Speaker>||:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<关闭蒙版><睁眼><BGM>BGM_Empty</BGM><SE1>AVG_Creep</SE1><BIN>98</BIN><SE1>AVG_Tinnitus</SE1>:安娜感觉到自己被拖着行进，头晕得像灌了整瓶伏特加。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||<BGM>BGM_23S_War_Sacrifice</BGM>:<size=50>排长？排长！</size>
-NPC-Ange(29)<Speaker>安娜</Speaker>||:你……想晃死我……升职？
-()<Speaker></Speaker>||:安娜脑袋嗡嗡响，干呕了两下，什么也没吐出来。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:亚历山大没好气地松开安娜，递上一个标有“葡萄糖”的透明软包。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:喝吧。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:安娜接过来，撕开包装小口啜着。
-()<Speaker></Speaker>||:三排幸存的战士们或坐或躺，一名医护人形正在为他们包扎。
-()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:维克多和一名战士背靠背坐着，摆弄着手上的通讯仪器。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:拉姆赞上尉到了，他带着人形部队组织救援。+你看那个医护人形，真漂亮，要是潘看见了，肯定会上去套近乎……
-()<Speaker></Speaker>||:粗厚的汉子忽然哽咽。
-NPC-Ange(30)<Speaker>安娜</Speaker>||:潘……呢？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:那群美国佬，撤退的时候打了四发迫击炮。+一发打中了二班的阵地，潘……正好在落点。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:……死了几个？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……四个，伤了四个。
-NPC-Ange(31)<Speaker>安娜</Speaker>||:……
-()<Speaker></Speaker>||:不远处，伤员在呻吟，一些幸存的士兵抱着枪呆呆望向天空。+亚历山大头脑嗡嗡响，却又似一片空白。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:潘总是吹嘘自己多讨女人喜欢，吹嘘自己的诗，总说自己是21世纪的普希金……
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:我知道这是上级命令，我们必须作战，我只是……只是……
-()<Speaker></Speaker>||:亚历山大深吸一口气，声音打着颤，他别过脸。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜拍拍他的肩膀。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:亚历山大，你是三排唯一一个主动参军的老兵，你为什么要参军？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……我已经什么都没有了。+亲人、朋友、爱人……+总不能，连国家都扔了吧……+其实也没那么高尚，就是无处可去，只能继续待在军队。
-()<Speaker></Speaker>||:他竭力让语调保持平淡，就像谈论天气或者午饭。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:别说我了，你呢？+你想当元帅，我知道那不是真的。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:想听真话？
-()<Speaker></Speaker>||<SE1>Rope</SE1>:安娜喝干了最后一点葡萄糖液。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:……我想结束战争。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Ange(29)||:……我听过很多人说过这句话。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>安娜</Speaker>||:后来呢？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Ange(29)||:后来他们都死了。+但战争还在继续。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>安娜</Speaker>||:……+我有一个问题。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Ange(29)||:你问。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>安娜</Speaker>||:如果人生注定是一场徒劳，那么挣扎的意义究竟是什么？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:我觉得……
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:<size=50>副排长，排长，我又发现那个无线电信号了！</size>
-()<Speaker></Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:亚历山大的话被突然打断。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:这群人肯定就在周围，会不会是进入红区的游骑兵？
-()<Speaker></Speaker>||:维克多抱着仅剩的一台小型无线电收发器，眼巴巴看向安娜。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜看向亚历山大。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:你不是说，破译不了？
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:咱们设备不行，那些人形可以啊！+我听说战术人形身上集成了好多功能，作战猛，还能当计算机用，要是咱们能借个一两台……
-NPC-Ange(29)<Speaker>安娜</Speaker>||:人家是精锐部队，三排高攀不起。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:那位上尉不是你的——
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:<size=50>嗷！</size>
-()<Speaker></Speaker>||:亚历山大一脚踢过去，维克多一手抱收发器，一手抱小腿嗷嗷直跳。
-NPC-Ange(31)<Speaker>安娜</Speaker>||:我头晕。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜靠着石头两眼一闭。+亚历山大摊摊手，维克多愁眉苦脸，一瘸一拐地走了。
+()<Speaker></Speaker>||<关闭蒙版><睁眼><BGM>BGM_Empty</BGM><SE1>AVG_Creep</SE1><BIN>98</BIN><SE1>AVG_Tinnitus</SE1>:Anna can feel herself being dragged along. Her head is spinning as if she had downed a whole bottle of vodka.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||<BGM>BGM_23S_War_Sacrifice</BGM>:<size=50>Ma'am? Ma'am!</size>
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Are you... trying to shake me to death...? Promotion?
+()<Speaker></Speaker>||:Anna's ears keep buzzing. She retches twice, but nothing comes out.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Alexander rolls his eyes and lets go of Anna. He offers her a transparent pack labeled "glucose".
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Drink this.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Anna takes the pack, tears it open at the slit, and starts taking small sips from it.
+()<Speaker></Speaker>||:The survivors of 3rd Platoon are either lying prone or sitting upright. A medical Doll is tending to their injuries.
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:Wiktor is sitting back-to-back with another soldier and fiddling with the communicator in his hands.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Captain Ramzan got here and mounted a rescue with a Doll force. +Look at that pretty medic Doll. If Pan saw her, he'd definitely try to flirt...
+()<Speaker></Speaker>||:The burly man suddenly starts blinking back tears.
+NPC-Ange(30)<Speaker>Anna</Speaker>||:What... happened to Pan?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:The pindosi fired four mortar shells when they were retreating. +One of them hit Squad 2's position. Pan... was right where it landed.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:...How many have we lost?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...Four. Four more are injured.
+NPC-Ange(31)<Speaker>Anna</Speaker>||:...
+()<Speaker></Speaker>||:Not far away, an injured soldier moans in pain. Other survivors stare dazedly at the sky while cradling their guns. +Alexander's head is buzzing and blank.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Pan was always going on and on about how popular he was with women and how great a poet he was. He kept calling himself the Pushkin of the 21st century...
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:I know it was an order from the brass. We had no choice but to fight. I just... I just...
+()<Speaker></Speaker>||:Alexander takes a deep and shaky breath and turns his face away.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna pats him on the shoulder.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Alexander, you are the only veteran who enlisted willingly in the 3rd Platoon. Why did you enlist?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...I've got nothing left. +No family, no friends, no lovers... +I couldn't throw away even my country, could I...? +Well, it wasn't actually that noble. I simply had nowhere else to go, so I stayed with the Military.
+()<Speaker></Speaker>||:He tries to keep his tone casual and nonchalant, as if he were talking about the weather or what to have for lunch.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Enough about me. What's your story? +You want to be a field marshal. I, for one, know that's not true.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:You want the truth?
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Anna finishes her last sip of the glucose solution.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:...I want to end the war.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(29)||:...I've heard many people say that.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>Anna</Speaker>||:And?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(29)||:And they all died. +And the war carries on.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>Anna</Speaker>||:... +I have a question.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(29)||:Shoot.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>Anna</Speaker>||:If everything in life is futile, then what is the point in struggling?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:I think...
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:<size=50>Vice-Leader, Leader, I detected that radio signal again!</size>
+()<Speaker></Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:Alexander's answer is interrupted.
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:These people are definitely nearby. Could they be the Rangers in the Red Zone?
+()<Speaker></Speaker>||:Wiktor holds onto their one last compact radio transceiver and stares at Anna with wide eyes.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna turns to Alexander.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Didn't you say you couldn't crack their channel encryption?
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:I can't with our equipment, but it'd be a walk in the park for those Dolls! +I hear Tactical Dolls come with a bunch of functions. They're fearsome fighters and are also computers on legs. If we can just borrow one or two...
+NPC-Ange(29)<Speaker>Anna</Speaker>||:They're elite forces. They are off-limits for 3rd Platoon. 
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:Isn't that captain your—
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:<size=50>OW!</size>
+()<Speaker></Speaker>||:Alexander kicks Wiktor in the shin. Still holding the transceiver in one hand, Wiktor hugs his shin and hops around, howling in pain.
+NPC-Ange(31)<Speaker>Anna</Speaker>||:I'm dizzy.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna leans against a large rock and closes her eyes. +Alexander shrugs, and Wiktor limps away miserably.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_wind_grass</SE1>:风很粘腻地吹在防护服上，就像雨水泼在雨衣上，雨衣又贴住了皮肉般潮热。+安娜没有再说话，闭着眼睛，指尖轻轻点着腿。+亚历山大也沉默了一会儿，终于还是开口。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……你们，吵架了？
-NPC-Ange(31)<Speaker>安娜</Speaker>||:不该问的别问。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:能吵架是好事。+要是玛缇娜还活着，她天天跟我吵架，我也高兴。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:要是——+哈，你说话的语气，活像家里调解纠纷的老祖母。
-()<Speaker></Speaker>||:亚历山大看到维克多又愁眉苦脸的走回来，安娜睁开眼睛。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:排长，上尉不搭理我，指名要你亲自去。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:**！
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:要不我去？
-NPC-Ange(29)<Speaker>安娜</Speaker>||:你去找骂？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:只要他愿意借人形，随便他怎么骂我。+“功劳可不会在路边等着你捡”，不是么？
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:排长，咋办啊？
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BGM>BGM_Empty</BGM>:安娜站起来，沉着脸。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:我去借，你们不许跟过来。
+()<Speaker></Speaker>||<黑点2><SE1>AVG_wind_grass</SE1>:Wearing the protective suit in this muggy wind is as unpleasant as wearing a wet raincoat that sticks hotly to one's skin. +Anna keeps her eyes closed and drums her fingers lightly against her thigh. +After a moment of silence, Alexander eventually decides to venture a question.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...Are you two fighting?
+NPC-Ange(31)<Speaker>Anna</Speaker>||:Don't stick your nose into things that don't concern you.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:It's a good thing that you can still fight. +If Martina was still alive, we would be fighting every day, and nothing would make me happier.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:If... +Ha, you almost sound like a babushka who has to mediate all the fights at home.
+()<Speaker></Speaker>||:Alexander watches as Wiktor returns just as miserably. Anna opens her eyes.
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:Ma'am, the captain won't talk to me. He's asking for you personally.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Мудак!
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Why don't I go?
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Are you asking for a dressing down?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:If it means he'll lend us the Dolls, he can dress me down as much as he wants. +"Merits on the battlefield don't just jump into your hand", no?
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:What do we do, ma'am?
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BGM>BGM_Empty</BGM>:Anna gets to her feet sullenly.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:I'll go ask for them. Don't follow me.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>469</BIN><BGM>GF_2022_Summer_Battle_3</BGM>:临时指挥点。+拉姆赞正在和一名人形说着什么，神情冷峻。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜走过来，并指抬手，标准的军礼。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:上尉。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:……你带KS-23去红区入口方向，扫描附近的地形数据。+如果发现生命体，我授权你可以自行判断敌我，自行选择是否开火。+如果失去我方信号，以离线模式保存数据，直到返回集合点，再与队友共享。
-SVT38(0)<Speaker>SVT-38</Speaker>||:是，指挥官。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:战术人形转身就要离开。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:等等——
-SVT38(0)<Speaker>SVT-38</Speaker>||:少尉？
-NPC-Ange(29)<Speaker>安娜</Speaker>||:上尉，我——
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:崔少尉，感谢你部配合完成阻击任务，接下来的侦察工作，由我部人形完成。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:红区外侧的地形数据，三排已经完成侦察和扫描。+我可以把数据给你，但我有一个条件。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:借人形破译对方无线电信号？+安娜，侦察敌情第一要务是什么？
-NPC-Ange(29)<Speaker>安娜</Speaker>||:保持己方隐蔽——+你已经不是学院教官了，别用那种语气问话。
-()<Speaker></Speaker>||:安娜下意识回答。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:你想过没有，如果破译无线电信号时，暴露了己方的位置呢？
-NPC-Ange(29)<Speaker>安娜</Speaker>||:如果我们什么都不做，错过了重要情报延误战局呢？
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:出去。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:哈，这就开始撵人了？我自己走。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:站住！+你，出去。
-()<Speaker></Speaker>||:SVT-38一愣，立刻走了出去。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:听着，我们的任务是阻击美军的支援部队，我们已经完成了，明白吗？
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||:你不管“死罪”了？那个人就在死海，游骑兵随时可能带走他。
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:那是大部队的任务，不是我们的。
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||:怎么，怕我立功？还是怕三排抢了你的功劳？
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:如果功劳可以量化在银行账户上，再给你十年，你的账户余额也赶不上我的零头。+记住，不要做任务之外的事情，你多事，很可能会拖累整个战局。
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)||<SE1>Rope</SE1>:<size=50>我没听错吧？你在教我畏战避战？！</size>
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:做得太多，可能会造成更大伤亡。数数你的三排还剩多少人？
-NPC-Ange(29)<Speaker>安娜</Speaker>||:做得太少，势必会造成难以挽回的损失，上尉，这一点你比我更有发言权。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:拉姆赞的眼神像结了冰。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉姆赞闭上眼睛，揉揉眉心，他的眼下是一片乌青。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:我知道自己在做什么。+钢丝也好，坦途也好，我跪着爬着也得走下去。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:从那一天起，我已经无路可退了。
+()<Speaker></Speaker>||<黑点2><BIN>469</BIN><BGM>GF_2022_Summer_Battle_3</BGM>:Temporary command post. +Ramzan is talking to a Doll with a grim look on his face.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna approaches him and gives him a standard military salute.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Captain.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:...Take KS-23 to the Red Zone entrance and gather topographical data in the area. +If you encounter any life forms, you are authorized to decide if they're friend or foe and open fire at your own discretion. +If you lose our signal, save the data offline until you return to the rendezvous point and then share them with your teammates.
+SVT38(0)<Speaker>SVT-38</Speaker>||:Yes, Commander.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The T-Doll turns to leave.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Wait.
+SVT38(0)<Speaker>SVT-38</Speaker>||:Ma'am?
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Captain, I—
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Junior Lieutenant Tsoi, thank you for your help in intercepting the enemy reinforcements. The subsequent recon mission will be undertaken by the Dolls under my command.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:The 3rd Platoon has already conducted scans and surveillance on the terrain of the outer rim of the Red Zone. +I can hand over the data on one condition.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:You want to borrow some Dolls to crack the enemy's radio encryption system? +Anna, what is the top priority in any recon mission?
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Staying hidden. +You're no longer an instructor, so don't talk to me in that tone.
+()<Speaker></Speaker>||:Anna quips out of habit.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:What if you expose your own location in the process of doing that? Have you considered that at all?
+NPC-Ange(29)<Speaker>Anna</Speaker>||:What if the intelligence that we fail to obtain due to our own inaction ends up putting us at a massive disadvantage in the war?
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Get out.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Ha, booting me out already? Fine, I'll go.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Stop right there! +You, get out.
+()<Speaker></Speaker>||:SVT-38 stares in confusion for a second, then she hurries away immediately.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Listen, our mission is to intercept the American's reinforcements. We've done that, you understand?
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||:You're just gonna ignore Capita? That person is in the Dead Sea, and the Rangers can take him away at any moment.
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:That's the main force's job, not ours.
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||:What, scared they'd give me a medal for this? Or maybe you simply don't want the 3rd Platoon to take the credit from you?
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:If military merits could be quantified in a bank account, your balance after ten years would still be small change compared to mine. +Remember—don't do anything outside of your assignment. Making unnecessary moves could very well drag us all down.
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)||<SE1>Rope</SE1>:<size=50>Am I hearing this right? Are you telling me to run away from a fight?!</size>
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Doing too much could lead to even more casualties. Just count the numbers. How many men you still have in 3rd Platoon?
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Doing too little will definitely result in irreversible loss, Captain. You know that better than I do.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Ramzan's eyes harden.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:He closes his eyes and rubs the center of his brow. His eyes are ringed by dark circles.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:I know what I'm doing. +The way forward may be covered in barbed wire, but I have no choice but to keep going, even if I must do it on all fours.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Ever since that day, there's been no going back for me.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>72</BIN><BGM>Campaion-58-3</BGM>:……
-()<Speaker>？？</Speaker>||:<color=#00CCFF>……教授那边不等人，你们动作快点。</color>
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>9队，两车。刚装好，准备返程。</color>
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>6队搜寻中，暂时没发现材料。</color>
-()<Speaker>？？？？</Speaker>||:<color=#00CCFF>7队已经返程。</color>
-()<Speaker>？？</Speaker>||<SE1>AVG_whitenoise</SE1>:<color=#00CCFF>耽误了教授的事，我先把你塞进材料室。</color>+<color=#00CCFF>11点22分之前，必须返回工厂，完成材料初筛和装车，11点30分，所有人撤离。</color>
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>明白。</color>
+()<Speaker></Speaker>||<黑屏2><BIN>72</BIN><BGM>Campaion-58-3</BGM>:...
+()<Speaker>??</Speaker>||:<color=#00CCFF>...The Professor won't wait. Hurry up, you lot.</color>
+()<Speaker>???</Speaker>||:<color=#00CCFF>Team 9, two vehicles just loaded. Preparing to return.</color>
+()<Speaker>???</Speaker>||:<color=#00CCFF>Team 6 still searching. No specimens found yet.</color>
+()<Speaker>????</Speaker>||:<color=#00CCFF>Team 7 is on our way back.</color>
+()<Speaker>??</Speaker>||<SE1>AVG_whitenoise</SE1>:<color=#00CCFF>If the Professor's work is delayed, you'll be the first to be thrown into the specimen processing room.</color> +<color=#00CCFF>Make sure you complete the preliminary screening and loading of the specimens back at the plant by 1122. We'll all be out of here by 1130.</color>
+()<Speaker>???</Speaker>||:<color=#00CCFF>Understood.</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>469</BIN>:临时指挥点。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:两位人形集合算力，眼中数据洪流滚动。+安娜和拉姆赞各自沉思。
-NPC-Wiktor(0)<Speaker>一班长维克多</Speaker><Position>0,60</Position>||:他们说啥？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:英语？我只能听懂几个单词。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:闭嘴。
-()<Speaker></Speaker>||:拉姆赞皱着眉，不时看一眼地图。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:军方？雇佣兵？
-NPC-Ange(29)<Speaker>安娜</Speaker>||:“教授”？“材料”？
-()<Speaker></Speaker>||:拉姆赞和安娜对视一眼，继续监听。
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>不过，美国那个火药桶，自家都快打内战了，还敢来这边找死？</color>
-()<Speaker>？？？？</Speaker>||:<color=#00CCFF>哈哈，游骑兵不来，我们怎么发财？</color>+<color=#00CCFF>感谢他们送来这么多材料。</color>
-()<Speaker>？？？</Speaker>||:<color=#00CCFF>可要不是游骑兵引来了大批敌军，咱们也不用换地方，搬一次家麻烦死了。</color>
-()<Speaker>安娜&拉姆赞</Speaker>||:教授就是“死罪”！
-()<Speaker></Speaker>||:异口同声说出结论，两人同时转开脸。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:“死罪”能在游骑兵的抓捕下全身而退。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:抓住大鱼了。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:你抓的可是一条鲨鱼，我们人手不够。+KS-23，撤出信息黑域。
-KS23(0)<Speaker>KS-23</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:【链接断开中……】
-KS23(0)<Speaker>KS-23</Speaker>||<SE1>AVG_21Winter_Error</SE1>:指挥官，无法断开链接。
-()<Speaker>？？？？</Speaker>||:<color=#00CCFF>敌军远着呢，等他们到这儿，我们早走了。</color>
-()<Speaker>？？</Speaker>||<SE1>AVG_Pause</SE1><BGM>BGM_Empty</BGM>:<color=#00CCFF>偷听得开心吗？小虫子们？</color>
-KS23(0)<Speaker>KS-23</Speaker>||<BGM>GF_21winter_avg_betray</BGM>:对方反向追踪过来了！
-NPC-Ange(29)<Speaker>安娜</Speaker>||:！！！
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>||:<size=50>强制重启！</size>
-()<Speaker></Speaker>||<SE1>AVG_Power_Down</SE1>:滴。人形双眼一暗，强制重启。
-SVT38(0)<Speaker>SVT-38</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:报告指挥官，红区中出现不明飞行物体。
-()<Speaker>哨兵</Speaker>||:<size=50>那是什么？！</size>
-()<Speaker></Speaker>||:淡绿雾气中亮起了一对对蓝白色火焰团，犹如一双双眼睛。
-()<Speaker></Speaker>||<SE1>AVG_Jet_Passby</SE1>:嗡——不明飞行器破空而来，尾焰在天雾中烧出一道明亮的轨迹线。
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>||:情况有变，立刻撤退。
-NPC-Ange(29)<Speaker>安娜</Speaker>||<震屏3>:<size=50>冲我们来了？就地隐蔽！！！</size>
-()<Speaker></Speaker>||:飞行器低空掠过，弹药拉出一道雨线，坠落。
-()<Speaker></Speaker>||<BIN>9</BIN><SE1>Explode</SE1>:轰！！！+爆炸声中，火舌与黑烟冲天而起！
-NPC-Ange(29)<Speaker>安娜</Speaker><Shake>0.1</Shake>||:拉姆赞！
+()<Speaker></Speaker>||<黑屏2><BIN>469</BIN>:Temporary command post.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:The two Dolls pool their computational capacity together as a torrent of data flash across their eyes. +Anna and Ramzan are both deep in their own thoughts.
+NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:What are they saying?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Is that English? I only caught a few words here and there.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Shut up.
+()<Speaker></Speaker>||:Ramzan glances at the map from time to time with a frown.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Are they the Army? Mercs?
+NPC-Ange(29)<Speaker>Anna</Speaker>||:"Professor"? "Specimens"?
+()<Speaker></Speaker>||:Ramzan and Anna exchange looks and continue listening.
+()<Speaker>???</Speaker>||:<color=#00CCFF>Still, the USA is practically a powder keg. They have a civil war on their hands any day now, so what are they doing over here?</color>
+()<Speaker>????</Speaker>||:<color=#00CCFF>Haha, if the Rangers hadn't come, how would we make a fortune?</color> +<color=#00CCFF>We should thank them for giving us so many specimens.</color>
+()<Speaker>???</Speaker>||:<color=#00CCFF>But we wouldn't have had to relocate if the Rangers hadn't attracted a bunch of enemy troops. It's always a chore every time we move.</color>
+()<Speaker>Anna & Ramzan</Speaker>||:The Professor is Capita!
+()<Speaker></Speaker>||:The two blurt out the same realization they have come to at the same time, then look away from each other.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:Capita will slip through the Rangers' net and escape unscathed.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:We've caught a big fish this time.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker>||:What you've caught is a shark. We don't have enough manpower. +KS-23, withdraw from the information black zone.
+KS23(0)<Speaker>KS-23</Speaker>||:Yes, sir.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:[Disconnecting...]
+KS23(0)<Speaker>KS-23</Speaker>||<SE1>AVG_21Winter_Error</SE1>:Commander, I cannot break the connection.
+()<Speaker>????</Speaker>||:<color=#00CCFF>The enemy troops are still a long way away. We'll be long gone by the time they get here.</color>
+()<Speaker>??</Speaker>||<SE1>AVG_Pause</SE1><BGM>BGM_Empty</BGM>:<color=#00CCFF>Are you having fun eavesdropping, little bugs?</color>
+KS23(0)<Speaker>KS-23</Speaker>||<BGM>GF_21winter_avg_betray</BGM>:They've traced it back to us!
+NPC-Ange(29)<Speaker>Anna</Speaker>||:!!!
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>||:<size=50>Force reboot!</size>
+()<Speaker></Speaker>||<SE1>AVG_Power_Down</SE1>:Beep. The Dolls' eyes grow dull. They have initiated a forced reboot.
+SVT38(0)<Speaker>SVT-38</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Commander, an unidentified flying object has appeared within the Red Zone.
+()<Speaker>Sentry</Speaker>||:<size=50>What is that?!</size>
+()<Speaker></Speaker>||:Bright blue orbs of flames light up in pairs amidst the light green fog like eyes.
+()<Speaker></Speaker>||<SE1>AVG_Jet_Passby</SE1>:Whum... The unidentified aircraft comes hurtling in their direction, its fiery tail leaving a bright trail in the sky.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>||:We have a situation. Withdraw at once.
+NPC-Ange(29)<Speaker>Anna</Speaker>||<震屏3>:<size=50>It's coming for us? Find cover!!!</size>
+()<Speaker></Speaker>||:The aircraft passes by at low altitude, and a shell falls on them.
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>Explode</SE1>:Boom!!! +Tongues of flames and black smoke rise into the sky amidst the explosion.
+NPC-Ange(29)<Speaker>Anna</Speaker><Shake>0.1</Shake>||:Ramzan!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>41</BIN><火花><SE1>AVG_20Winter_Burnfire_Loop</SE1>:飞行器顷刻间呼啸而去，安娜立刻翻起身，跌跌撞撞向记忆中的方位找过去。+地上已经没有站着的士兵，幸存者试图救助身边的战友，但就算是一点拖动都会引发更大的哀嚎声。+一刹那，过往如巨浪汹涌拍下。
-()<Speaker></Speaker>||:枪声、惨叫声、哭喊声、临死前的呻吟声……+慌乱的人群，安全箱后浑身发抖的少女，噙满泪水的双眼……
-NPC-Ange(30)<Speaker>安娜</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:……！！
-()<Speaker></Speaker>||:有人抓住了安娜的手臂，安娜一个哆嗦！
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:<size=50>排长！</size>
-()<Speaker></Speaker>||:亚历山大被燎伤了半张脸，模样很是狼狈。
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker><size=50></size>||:安娜？安娜！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉姆赞也从泥坑里爬起来，他的防护服被燎出多个破洞。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:拉姆赞抓住了安娜的手臂，似乎在确认什么，随后他甩开手，不再看安娜。
-NPC-Pamzan(6)<Speaker>拉姆赞</Speaker>||<SE1>AVG_tele_connect</SE1>:人形小队向我靠拢，准备突围。
-()<Speaker></Speaker>||:烟尘渐渐稀薄。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:视线尽头，一列列全副武装的士兵正向他们推近……
-NPC-Ange(29)<Speaker>安娜</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>三排所有战士，还能动的，跟我突围！</size>
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>41</BIN><火花><SE1>AVG_20Winter_Burnfire_Loop</SE1>:The aircraft roars away in an instant. Anna immediately scrambles to her feet and stumbles towards where she remembers her men are. +There are no soldiers standing anymore. One of the survivors is trying to save his comrade next to him, but even just dragging the comrade a little makes him howl in agony. +Memories of the past suddenly wash over Anna like a large wave.
+()<Speaker></Speaker>||:Gunshots, pitiful wails and cries, the delirious moans of dying people... +The terror-stricken crowd, the girl shivering behind a safety box, her eyes brimming with tears...
+NPC-Ange(30)<Speaker>Anna</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:...!!
+()<Speaker></Speaker>||:Someone grabs Anna by the arm, making her shudder.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:<size=50>Ma'am!</size>
+()<Speaker></Speaker>||:Half of Alexander's face is suffering from burns. He is in a terrible state.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker><size=50></size>||:Anna? Anna!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ramzan also claws his way out of a mud pit. His protective suit is riddled with holes and scorch marks.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Ramzan holds on to Anna's arm as if to make sure of something. Then he drops her arm and pays no more attention to her.
+NPC-Pamzan(6)<Speaker>Ramzan</Speaker>||<SE1>AVG_tele_connect</SE1>:Dolls, to me. Prepare to force our way through.
+()<Speaker></Speaker>||:The smoke slowly dissipates.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:They can just about make out the rows of heavily armed soldiers closing in on them from a distance...
+NPC-Ange(29)<Speaker>Anna</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>Whoever can still move in 3rd Platoon, follow me! We're getting out of here!</size>
+()||<黑点1>:

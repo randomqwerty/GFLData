@@ -1,121 +1,121 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>GF_22W_BGM_2</BGM><黑屏2><narrator><BIN>446</BIN>:阿佛那斯 东塔内部+埃涅阿斯行动——“第零阶段”。+目标：安娜.维克多洛夫纳.崔。+埃涅阿斯会议室保存当前进度——+第零阶段……进度，99%。
-()<Speaker></Speaker>||:阿佛那斯浓郁得令人喘不过气的作呕腥气，挤压着RO即将崩溃的心智。+她之所以还能坚持理智，仅仅是因为她还没有见到自己的目标——安洁莉娅。+此时此刻的她，正威胁着一名名为克莱妲的黑涅托，前往关押安洁的实验室。
-RO635Mod(3)<Speaker>RO635</Speaker>||:克莱妲……你，究竟是谁？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:……正如你所想的那样，现在站在你面前的是涅托，克莱妲。
-RO635Mod(0)<Speaker>RO635</Speaker>||:……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:你既然想见她，我就带你去。+只是，见到她你就会明白。+她已经无法跟你离开。
-()<Speaker></Speaker>||:埃涅阿斯成员半数折戟……此时此刻的RO，背负着最后的希望。+怎么可以在这里放弃？
-RO635Mod(4)<Speaker>RO635</Speaker>||:无论如何，我会带走她。
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_2</BGM><黑屏2><narrator><BIN>446</BIN>:In the Eastern Tower, Avernus. +Operation Aeneas - "Phase 0". +Target—Anna Viktorovna Tsoi. +Aeneas Conference Room current progress saved. +Phase 0... 99% completed.
+()<Speaker></Speaker>||:The nauseating stench that permeates Avernus threatens to overwhelm RO635's neural cloud. +The only thing that is keeping her sane is the fact that she still hasn't reached her objective— Angelia. +At this very moment, she is threatening a Nyto in black named Koleda into taking her to the laboratory where Ange is being incarcerated.
+RO635Mod(3)<Speaker>RO635</Speaker>||:Koleda... Who exactly are you?
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:...As you can see, I am Koleda, the Nyto who is currently standing right in front of you.
+RO635Mod(0)<Speaker>RO635</Speaker>||:...
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:If you wish to see her, I will bring you to her. +But once you do, you will understand. +She cannot leave this place with you.
+()<Speaker></Speaker>||:Half of Task Force Aeneas are lost... RO635 is their last hope. +How could she give up now that she's here?
+RO635Mod(4)<Speaker>RO635</Speaker>||:I will take her with me no matter what.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>657</BIN><黑屏2><SE1>AVG_footsteps_cave</SE1>:克莱妲沉默走在前面，金属细肢敲击在地板上，发出清晰的回声。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:这是一条隐秘的路线，一路过来RO连一个帕拉蒂斯都没有见到。
+()<Speaker></Speaker>||<BIN>657</BIN><黑屏2><SE1>AVG_footsteps_cave</SE1>:Koleda walks ahead in silence, her slender, metallic legs tapping brightly on the floorboards.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:They are going down a hidden path. Not a single Paradeus member is in sight along the way.
 ()||<黑点1><SE1>AVG_keyboardtype_sci</SE1><SE1>AVG_BaseDoor_Open</SE1>:
-()<Speaker></Speaker>||<BIN>510</BIN><黑点2>:克莱妲熟练的操作着门禁，电子阀门打开，实验室的深处有一间纯白色的玻璃房间。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||<SE1>ClothingUp</SE1>:安洁就在里面。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RO顺着克莱妲所指方向看去，白色房间的中央躺着一名女性，胸口微微起伏，气息已经非常微弱。+她的浑身上下密布着各种线路导管，各色不明液体源源不绝地输入体内，支撑着她维持微弱的生命体征。+房间门口的密码锁闪烁着红光，上面有一块显示屏，赫然显示“受试者：安洁”。
-RO635Mod(3)<Speaker>RO635</Speaker>||:……
-RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1><震屏3>:安洁——
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:RO疾步冲了上去，她尝试去开门，破解门口的密码锁，这机关仿佛断电一般毫无反应。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:她用力敲击白色的玻璃，大声呼唤着安洁的名字。+当然，这一切都无济于事。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:我说过了，你不可能带走她。
-RO635Mod(4)<Speaker>RO635</Speaker>||:帕拉蒂斯！对她做了什么！
-RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>AVG_Punch</SE1><震屏3>:<size=50>要怎么打开——这个该死的房间！</size>
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:没用的。+这房间专为白色酷刑准备，通过纯白的内饰剥夺受刑者的感官系统，进行精神摧毁。+其内壁坚硬无比，退一万步说就算你能用暴力破解，里面的安洁也不能保全。
-RO635Mod(0)<Speaker>RO635</Speaker>||:……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:这个密码锁无法破译，穷举会锁死。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:这房间的通风管道宽度只有不到5公分，直连东塔过滤装置。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:你现在所能想到的，我都已经尝试过了。
-RO635Mod(4)<Speaker>RO635</Speaker>||:……那你还在等什么！
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:不知道。+我在等待她心率归零的那一刻。
-RO635Mod(4)<Speaker>RO635</Speaker>||:然后？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:然后我就可以展开真正的复仇。+没有软肋的那种。
-RO635Mod(4)<Speaker>RO635</Speaker>||:……我不同意这么做，指挥官也不会同意！
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:指挥官不止派了你来吧？+但只有你走到这里，同为队长，我明白其他人正经历着什么。+回头吧，说不定还能救出一两个。
-RO635Mod(0)<Speaker>RO635</Speaker>||:……
+()<Speaker></Speaker>||<BIN>510</BIN><黑点2>:Koleda operates the access control. The electronic door opens, revealing a pure white glass room deep inside the laboratory.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||<SE1>ClothingUp</SE1>:Ange is inside.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RO635 looks in the direction indicated by Koleda and sees a woman lying in the center of the white room. Her chest rises and falls almost imperceptibly—her breathing is incredibly faint. +A myriad of wires and tubes are connected to her body, pumping all kinds of unknown fluids into her bloodstream and maintaining her weak vital signs. +The passcode lock at the door of the room flashes red. The display screen on it reads, "Subject: Angelia".
+RO635Mod(3)<Speaker>RO635</Speaker>||:...
+RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1><震屏3>:Ange—
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:RO635 rushes up to the door and tries to open it. She attempts to crack the electronic lock, but the mechanism is utterly unresponsive.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:She bangs forcefully on the glass, shouting Ange's name loudly. +Naturally, her efforts are all futile.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:As I said, you cannot take her away.
+RO635Mod(4)<Speaker>RO635</Speaker>||:What has Paradeus done to her?!
+RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>AVG_Punch</SE1><震屏3>:<size=50>How do I open... this goddamn door?!</size>
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:It's no use. +This room is specially prepared for white torture. The pure white interior deprives the victim of any sensory input and destroys their spirit. +The inner wall is impenetrable. Even if you somehow managed to break in using violence, you still wouldn't be able to save Ange.
+RO635Mod(0)<Speaker>RO635</Speaker>||:...
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:The passcode cannot be cracked. Brute forcing it will trigger a deadlock seal.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:The ventilation duct in this room is less than five centimeters wide and connects directly to the filter system in the Eastern Tower.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:Everything you can think of, I've tried.
+RO635Mod(4)<Speaker>RO635</Speaker>||:...Then what are you still waiting for?!
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:I don't know. +Maybe for the moment when her heart flatlines.
+RO635Mod(4)<Speaker>RO635</Speaker>||:What then?
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:Then I can begin my quest for vengeance. +I will make them pay.
+RO635Mod(4)<Speaker>RO635</Speaker>||:...I'm against it. I'm sure the Commander won't approve either!
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:The Commander didn't send you here alone. +Yet you're the only one who managed to get this far. As a fellow team leader, I know what that means for the others. +Turn back; maybe you can still save one or two.
+RO635Mod(0)<Speaker>RO635</Speaker>||:...
 ()||<黑屏1>:
-()<Speaker>UMP45</Speaker>||<黑屏2><BIN>9</BIN>:……别辜负我们。
-()<Speaker>建筑师</Speaker>||:我们……完成约定了喔！好好坚守到了最后！
-()<Speaker>SOP2</Speaker>||:我相信你，我会等你的！
+()<Speaker>UMP45</Speaker>||<黑屏2><BIN>9</BIN>:...Don't let us down.
+()<Speaker>Architect</Speaker>||:We... have a deal then! We must fight to our last breath!
+()<Speaker>SOP-II</Speaker>||:I believe you! I'll be waiting!
 ()||<黑屏1>:
-RO635Mod(0)<Speaker>RO635</Speaker>||<黑屏2><BIN>510</BIN>:不……
-RO635Mod(4)<Speaker>RO635</Speaker>||:我背负着大家的意志来到这里，绝不会就这样罢手。+这是帕斯卡小姐让我交给安洁的“铁腕”，有了它，我们就能锁定安洁的位置。+如果安洁能恢复意识，或者我们还能找到机会离开这里。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:真是倔强又天真啊。
-RO635Mod(4)<Speaker>RO635</Speaker>||:……不到最后一刻我绝不放弃。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:我曾经思考过一个问题。
-RO635Mod(3)<Speaker>RO635</Speaker>||:什么？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:在61年的时候，安洁为什么选择了我们，而不是你们。
-RO635Mod(0)<Speaker>RO635</Speaker>||:……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:她站在地狱门口的话。+我们会陪她跳下去。而你们，会在崖边死死的拉住她，对吗？
-RO635Mod(0)<Speaker>RO635</Speaker>||:……当然。
-()<Speaker></Speaker>||:偌大的实验室陷入一片寂静。
+RO635Mod(0)<Speaker>RO635</Speaker>||<黑屏2><BIN>510</BIN>:No...
+RO635Mod(4)<Speaker>RO635</Speaker>||:I reached this point with everyone's will upon my shoulders. I will not give up just like that. +Here is the "Strongarm" that Miss Persica has tasked me with delivering to Ange. With it, we can lock on to her position. +If Ange regains consciousness, we may still have a chance of leaving this place.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:Such stubbornness. Such naïveté.
+RO635Mod(4)<Speaker>RO635</Speaker>||:...I will not give up until the very end.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:I once pondered over a question.
+RO635Mod(3)<Speaker>RO635</Speaker>||:What question?
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:Back in '61, why did Ange choose us over you?
+RO635Mod(0)<Speaker>RO635</Speaker>||:...
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:If she stood on the edge of the Abyss of Hell... +We would jump in with her, no question, while you... would drag her away from the precipice, wouldn't you?
+RO635Mod(0)<Speaker>RO635</Speaker>||:...Of course.
+()<Speaker></Speaker>||:The large and spacious lab is engulfed in silence.
 ()||<黑屏1>:
-()<Speaker>克莱妲</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:既然如此，那就试试吧。
+()<Speaker>Koleda</Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:In that case, let's give it a try.
 ()||<黑屏1>:
-()<Speaker>阿佛那斯•海拉</Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_2023Slow_Heart_Monitor1</SE1>:准备校对时间——
-()<Speaker>阿佛那斯•海拉</Speaker>||:出血量1000cc，生命指数正常。+20.01主神经网状接入术结束。+现在开始进行编号02.12手术——
-()<Speaker>阿佛那斯•海拉</Speaker>||<SE1>ClothingUp</SE1>:手术刀。+第一助手，注意反向牵引。
-()<Speaker></Speaker>||:……+无法穿透，也无法逾越的黑暗。
-()<Speaker></Speaker>||<SE1>Select</SE1>:咔哒——一个泛着金属光泽的枪口突兀地出现在了眼前的黑暗中央，紧接着——
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:砰——一枚子弹从火花中迸发，朝着自己高速旋进，击破一张张记忆中的脸庞，也击碎了凝固的黑暗……
+()<Speaker>Avernus - Hela</Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_2023Slow_Heart_Monitor1</SE1>:Prepare to synchronize the clocks...
+()<Speaker>Avernus - Hela</Speaker>||:Blood loss at 1000cc, vital signs stable. +Procedure 20.01, main reticular formation connection completed. +Now commencing procedure 02.12...
+()<Speaker>Avernus - Hela</Speaker>||<SE1>ClothingUp</SE1>:Scalpel. +First Assistant, watch out for reverse traction.
+()<Speaker></Speaker>||:... +Endless, impenetrable darkness.
+()<Speaker></Speaker>||<SE1>Select</SE1>:Clatter—the gleaming muzzle of a gun appears abruptly in front of her, then...
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:Bang! A bullet bursts out amidst sparks, spiraling towards her at high speed, piercing through face after face in her memory... shattering the solid darkness...
 ()||<黑屏1><SE1>AVG_2023Slow_Fall_into_water_v2</SE1>:
-NPC-Ange(8)<Speaker>安洁</Speaker>||<黑屏2><BIN>569</BIN>:……这是……什么地方？
-()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:一片湖水中，一抹黑影飘荡在眼前，恍恍惚惚，只能看见一个轮廓。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:你是谁？
-NPC-MrsGray(6)<Speaker>？？</Speaker>||:……
-()<Speaker></Speaker>||:她的轮廓和模样，令安洁想起了某个女人。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:格雷？+你是格雷？
-NPC-Ange(8);NPC-MrsGray(6)<Speaker>？？</Speaker>||:……+你认识我？
-NPC-Ange(8)<Speaker>安洁</Speaker>;NPC-MrsGray(6)||:真奇怪，我看不清你的脸。
-NPC-Ange(8);NPC-MrsGray(6)<Speaker>？？</Speaker>||:我也是。+我们……很熟悉吗？
-NPC-Ange(8)<Speaker>安洁</Speaker>;NPC-MrsGray(6)||:我们是敌人。
-NPC-MrsGray(6)<Speaker>？？</Speaker>||:……原来如此。+不过我很高兴，有人认出了我。+叫出了我的名字。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:这是哪里？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||<SE1>ClothingUp</SE1>:识底深湖。
-()<Speaker></Speaker>||:安洁有些迟疑，眼前看不见面容的身影。+与自己认知里的格雷，似乎有很大的差距。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:……你是迦拉提亚的格雷？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……+我不知道。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:什么意思？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:你并非人类。+我也并非人类。+我们不过是一段存储记忆。+是某位人类的某个瞬间。
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:所以你问我是不是她？+我不知道。+因为我不知道你口中的“她”是不是未来的“我”。+我也不知道我是不是你口里的“她”的一部分。+我被提取的记忆截止到2051年。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:……+你是说……+我死了？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……一般来讲只有经历过“圣杯”手术的亡者，记忆碎片才能抵达识底深湖。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:你不是？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……我是这台手术的——设计者。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:……+原来是你……你是这一切的罪魁祸首……
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……也许。
-NPC-Ange(8)<Speaker>安洁</Speaker>||<SE1>Rope</SE1>:你竟然不否认！
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……+泽尔蒂纳分离出吗啡是想应用于镇痛，谁知道打开了潘多拉的魔盒。
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:技术很多时候就是这样，实验与应用有着天壤之别。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:那你设计这台手术的目的是为了什么？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……为了挽救一个小女孩的生命。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:那个女孩的名字是？
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:纱那。
-()<Speaker></Speaker>||:……
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake><SE1>AVG_splash_water</SE1><common_effect>%%code=AVG_qipao%%</common_effect>:咕噜——咕噜——+水面传来一阵波动——仿佛龙卷风一般——有一股巨大的力量似乎在撞击湖底。
+NPC-Ange(8)<Speaker>Ange</Speaker>||<黑屏2><BIN>569</BIN>:...What is... this place?
+()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:In the water, a dark blur floats before her. The figure is hazy. Only the outline can be made out.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:Who are you?
+NPC-MrsGray(6)<Speaker>??</Speaker>||:...
+()<Speaker></Speaker>||:Her face and body reminds Ange of a certain woman.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:Gray? +You're Gray?
+NPC-Ange(8);NPC-MrsGray(6)<Speaker>??</Speaker>||:... +You know me?
+NPC-Ange(8)<Speaker>Ange</Speaker>;NPC-MrsGray(6)||:How strange. I can't see your face clearly.
+NPC-Ange(8);NPC-MrsGray(6)<Speaker>??</Speaker>||:I can't see yours either. +Were we... close?
+NPC-Ange(8)<Speaker>Ange</Speaker>;NPC-MrsGray(6)||:We're enemies.
+NPC-MrsGray(6)<Speaker>??</Speaker>||:...I see. +Regardless, it makes me happy that someone recognizes me... +Says my name.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:Where are we?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||<SE1>ClothingUp</SE1>:The Lake of Cognition.
+()<Speaker></Speaker>||:Ange hesitates. This figure whose face she cannot see... +...Seems rather different from the Gray she knows.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:...Are you the Gray from Galatea?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:... +I don't know.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:What does that mean?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:You're not human. +Neither am I. +We are merely stored memories. +I am a certain human frozen at a certain moment.
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:You ask me if I'm her? +I don't know. +Because I don't know if the "her" that you speak of is "me" in the future. +I don't know if I am part of "her" either. +My extracted memories only go up to 2051.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:... +You mean... +I'm dead?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:...Generally speaking, only memory fragments of the deceased who have undergone the "Holy Grail" surgery can reach the Lake of Cognition.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:Generally speaking? Are you not dead?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:...I am... the one who devised this surgery. 
+NPC-Ange(8)<Speaker>Ange</Speaker>||:... +So it's you... You're the one to blame for it all...
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:...Perhaps.
+NPC-Ange(8)<Speaker>Ange</Speaker>||<SE1>Rope</SE1>:You're not even denying it!
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:... +Sertürner isolated morphine to create an analgesic, but inadvertently opened Pandora's box.
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:That's often the case with technology. Its applications can be entirely different from the intended use.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:Then why did you devise this surgery in the first place?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:...To save a little girl's life.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:What was her name?
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:Sana.
+()<Speaker></Speaker>||:...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake><SE1>AVG_splash_water</SE1><common_effect>%%code=AVG_qipao%%</common_effect>:Splash... Splosh... +The water churns... A mighty force—almost like a hurricane—seems to be pounding the bottom of the lake.
 ()||<黑屏1>:
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||<关闭蒙版><黑屏2><SE1>ClothingUp</SE1>:到我这边来。
-NPC-Ange(8)<Speaker>安洁</Speaker>||<SE1>Heartbeat</SE1>:好像——有什么在呼唤我——
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:也许是你的意识还没有完全被分离，生理上还没有被判定死亡。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:……那我……可以回去吗？+我有必须回去的理由。
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:……你看到那个东西了吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安洁往身后看，还是一片看不到尽头的湖水。
-NPC-MrsGray(6)<Speaker>格雷</Speaker>||:在上面。
-NPC-Ange(8)<Speaker>安洁</Speaker>||:那是……
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||<关闭蒙版><黑屏2><SE1>ClothingUp</SE1>:Come to me.
+NPC-Ange(8)<Speaker>Ange</Speaker>||<SE1>Heartbeat</SE1>:I think... something is calling to me...
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:Perhaps your consciousness hasn't been severed entirely. You're not dead yet in the biological sense.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:...Then... can I go back? +I need to go back.
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:...You see that?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ange turns around. All she sees is the same boundless lake.
+NPC-MrsGray(6)<Speaker>Gray</Speaker>||:Up there.
+NPC-Ange(8)<Speaker>Ange</Speaker>||:That's...
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>462</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:一望无垠的彩虹穹顶。+仿佛流动着的钻石桥。+阳光折射出来的，美丽到令人晕眩的巨大彩虹。
-()<Speaker>格雷</Speaker>||:很美，对吧。+这是光学相位干涉现象。+我们的头顶罩着一座巨大的冰山。
-()<Speaker>格雷</Speaker>||<BGM>BGM_Empty</BGM>:如果你想回去，需要穿透它们。
-()<Speaker>安洁</Speaker>||:……
+()<Speaker></Speaker>||<白屏2><BIN>462</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:A rainbow that stretches on to infinity. +A diamond bridge that seems to be flowing. +A gigantic and dazzlingly beautiful rainbow refracted by the sunlight.
+()<Speaker>Gray</Speaker>||:Beautiful, isn't it? +This is a phenomenon of optical interference. +A huge iceberg hangs over our heads.
+()<Speaker>Gray</Speaker>||<BGM>BGM_Empty</BGM>:If you want to go back, you must get through that.
+()<Speaker>Ange</Speaker>||:...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>510</BIN><关闭蒙版><黑屏2><BGM>GF_22W_BGM_2</BGM>:阿佛那斯 东塔手术层监控室
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:想要带安洁出去，接下来必须严格照我说的做。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:十几个小时前，安洁接受了手术。+被送到这里以后就持续昏迷不醒，期间发生过几次垂危抢救，才有工作人员被召集到这个房间里来。+她们应该是通过那些仪器来监测安洁的状态，如果我们想要带走安洁，必然会触发监测异常，引来不必要的麻烦。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:如果暴力直接切断，可能影响血氧供应，危及安洁生命。
-RO635Mod(0)<Speaker>RO635</Speaker>||:所以我们必须绕过这些监测器。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:没错，我把地图信息发送给你。+我们所在位置是阿佛那斯的手术层，中控监测室距离这里不远。+根据我的观察，这里的人手不足，防守相对薄弱，出入的大部分是医务和科研职员。
-RO635Mod(0)<Speaker>RO635</Speaker>||:难怪一路上都没遇到什么阻碍。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:即便如此我也要提醒你不要动静太大，一旦引发骚乱安洁被转移可就前功尽弃了。
-RO635Mod(0)<Speaker>RO635</Speaker>||:我会注意隐蔽。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker>||:去吧，我在这里等你。
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>510</BIN><关闭蒙版><黑屏2><BGM>GF_22W_BGM_2</BGM>:Monitoring Room, Eastern Tower Operating Level, Avernus.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:If you want to get Ange out of here, you must do exactly as I say.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:More than half a day ago, Ange underwent surgery. +She has been unconscious since she got moved here. She was in critical condition and had to be resuscitated a few times, and those were the only times when staff were summoned to this room. +They are probably monitoring her through all this equipment. If we take Ange away, the machines will sound the alarm and tip them off. That's just asking for trouble.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:If we just pull all the wires and tubes out, we could cut off her blood and oxygen supply and endanger her life.
+RO635Mod(0)<Speaker>RO635</Speaker>||:So we need to get around these machines.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:That's right. I'm sending you the floor plan of the building. +We are currently on the Operating Level in Avernus, not far from the central surveillance room. +According to my observation, this place is rather understaffed and not very well defended. Most of the people coming and going are medics and scientific researchers.
+RO635Mod(0)<Speaker>RO635</Speaker>||:No wonder we haven't run into any obstacles along the way.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:But even so, I suggest you stay low and avoid making a commotion. If they move Ange somewhere else, all our previous efforts will have been for nothing.
+RO635Mod(0)<Speaker>RO635</Speaker>||:I'll be sure to stay hidden.
+NPC-Koleda(0)<Speaker>Koleda</Speaker>||:Go. I'll wait for you here.
+()||<黑点1>:

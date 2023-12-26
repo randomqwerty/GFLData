@@ -1,105 +1,105 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>655</BIN><narrator>:亲爱的布莱克薇尔，我不觉得这是重启“圣杯”的好时机，但我别无选择。+我曾想过等待一切准备完毕，但是……现况并不容许，我无比痛恨过去的自己，如果当时的我能圆滑一点，妥协一点，就不会被遗迹署那帮混蛋针对……+我无法回到美国，而外籍人士在当地医院，连一针地塞米松都要排队三天。+也许，是过去的我太过懦弱，明明技术上已经具备可实施性，只是我一直胆怯。是我不敢重新站起来……+这一刻，我不得不下定决心，我决定不再使用过去的名字，而是更名为【海拉】。+在我怀中闭上双眼的纱那，或许还有再重新站起来的一天。+2051年，迈特纳写于莫斯科。
+()<Speaker></Speaker>||<黑屏2><BIN>655</BIN><narrator>:Dear Blackwell, I don't think this is a good time to reactivate the "Holy Grail", but I have no choice. +I considered waiting until all the preparations were complete, but... the situation doesn't allow it. Oh, how I resent my past self! If I had been more tactful, more cautious, I wouldn't be targeted by those assholes at the Relic Agency... +I can't return to the States, but it's at least a three-day wait just for a dexamethasone injection at the local hospital for us foreigners. +Perhaps I was too weak and cowardly. It was already technologically feasible back then, but I was simply too scared. I didn't have the courage to get to my feet again... +But now, I can't afford to hesitate anymore. I've decided to leave behind my old name and take a new one—"Hela". +Sana's eyes are closed as I hold her in my arms, but there may still come a day when she will walk again. +Meitner, Moscow, 2051.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1><黑屏2><BIN>99</BIN><narrator>:2051年春，第三次世界大战爆发第七年。+坍塌辐射污染了大片土地，高烈度的常规战争让世界人口锐减。+人们肉眼可见的只剩战争过后的焦土，代表希望的嫩绿色，不知何时才能重新降临这片大地。
+()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1><黑屏2><BIN>99</BIN><narrator>:By spring 2051, it has been seven years since World War III broke out. +Collapse radiation has contaminated large swathes of land, and high-intensity conventional warfare has decimated the world population. +All that can be seen with the naked eye is the scorched earth left by the war. It is unclear when the tender green that represents hope will ever return to this land.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>480</BIN>:太平洋西南侧 黄区群岛
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:稠密粘腻的风刮过，带起星星点点的绿色晶石碎屑，被一双军靴碾在脚下。+身穿防护服的亚历山大踩着湿润的泥土，通讯器信号灯时绿时红。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:潘，游骑兵的运输车有动静吗？
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我看看——见鬼的能见度，比普希金的诗还朦胧。</color>+<color=#00CCFF>运输车停着呢，一点儿没动。</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Pan(0)||:盯紧点，有情况第一时间上报。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||:<color=#00CCFF>知道了！</color>+<color=#00CCFF>哦，真想赶快打完这该死的鸟仗，回莫斯科亲吻我的缪斯们。</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:如果让排长听见你的伟大理想，相信我，她的鞋底会狠狠亲吻你的鼻子。
-()<Speaker></Speaker>||:通讯频道里传来观察哨点其他士兵的哄笑声。
-NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||:<color=#00CCFF><size=50>笑什么笑！</size></color>+<color=#00CCFF>没上过战场就是排长，嘿！指挥官学校毕业的就是不一样。</color>+<color=#00CCFF>哪像我们，高纯度炮灰。</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Pan(0)||:重点是这个吗？
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||:<color=#00CCFF>当然，不是每个指挥官学院毕业的都有这待遇，主要人家投胎投得好。</color>+<color=#00CCFF>哥哥是上尉，而她就差把“我要当元帅”刻在脑门上了！</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:看好你的2号哨点。+排长头一回带队出任务，铁了心要漂漂亮亮完成，要是你搞砸了——
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴，潘骂骂咧咧关闭了语音。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:亚历山大摇摇头，这时另一条通讯传进来，一个愁苦惫懒的声音响起。
-NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>亚历山大，1号哨点可能有发现。</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:游骑兵的增援到了？等等，你跟排长说了吗？
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||:<color=#00CCFF>跟那小丫头说啥，你才是我心里的排长。</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:……战场上，要听指挥。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||:<color=#00CCFF>游骑兵增援没到，是1号哨点发现了一个无线电信号，又消失了，我怀疑——</color> 
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:游骑兵的通讯频道？+你能破译么？
-NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||:<color=#00CCFF>不行，辐射浓度太高了，咱们带的老设备年纪比我都大，顶个屁用。</color>
-()<Speaker></Speaker>||:此时亚历山大已经走到了临时集合点，岛上一座破落的厂房。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:留守的三名运输车驾驶员之一正在门口放哨，亚历山大挥手示意。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:比你年纪小的设备，要么在修理厂，要么在垃圾堆。+别抱怨了，看好你的1号哨点。 
-NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||:<color=#00CCFF>意思意思得了，咱们只负责侦察，又不管作战。</color>
-()<Speaker></Speaker>||:亚历山大走到厂房门口，正要挂断通讯，忽然听到了维克多声音的二重唱。
-NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我跟你说，幸亏这回只是侦察，不然新兵蛋子当指挥，我心里不踏实啊。</color>+<color=#00CCFF>学院派出来的人，课本咋说他们咋打，全听书上的！</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……别说了。
+()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>480</BIN>:Islands in the Yellow Zone, Southwest Pacific.
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:The thick and sticky wind blows by, bringing up bits and pieces of green crystal fragments, which are crushed underfoot by a pair of military boots. +Alexander, who is in a protective suit, trudges through the wet soil, his communicator's signal light alternating between green and red.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Pan, anything from the Rangers' transports?
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Let me see... Damn this visibility. Even Pushkin's poems are clearer than my view.</color> +<color=#00CCFF>The transports are still stationary. They haven't moved at all.</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Pan(0)||:Keep a close eye on it. If anything changes, report it at once.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||:<color=#00CCFF>Alright!</color> +<color=#00CCFF>Oh, I can't wait for this goddamned war to be over so I can go back to Moscow and kiss my muses.</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:If the platoon leader hears about your noble dream, trust me, her boot will kiss your nose with great passion.
+()<Speaker></Speaker>||:The soldiers monitoring the other sentry point snicker over the comms channel.
+NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||:<color=#00CCFF><size=50>What's so funny?!</size></color> +<color=#00CCFF>She became a platoon leader without ever setting foot on the battlefield. Heh! Command College graduates are just different.</color> +<color=#00CCFF>Unlike us pure cannon fodders.</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Pan(0)||:Is this really the point?
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||:<color=#00CCFF>Obviously, not everyone who graduates from Command College gets this kind of special treatment. It's mostly down to her family background.</color> +<color=#00CCFF>Her brother is a captain, and she practically has "I want to be a field marshal" carved on her forehead!</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Focus on your job and watch Sentry Post 2 properly. +The platoon leader is determined to complete her first field mission with flying colors. If you mess up...
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Beep. Pan mutes the channel while spewing a string of expletives.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Alexander shakes his head. Then comes another transmission request, and a listless voice speaks.
+NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1><SE1>AVG_whitenoise</SE1>:<color=#00CCFF>Alexander, something seems to be happening at Sentry Point 1.</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:Have the Rangers' reinforcements arrived? Hold on, have you notified the platoon leader?
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||:<color=#00CCFF>I've got nothing to say to that little devochka. You are the platoon leader to me.</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:...You must obey the chain of command on the field.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||:<color=#00CCFF>Their reinforcements haven't arrived yet. I noticed a radio signal at Sentry Point 1, but it disappeared. I suspect...</color> 
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Wiktor(0)||:In the Rangers' comms channel? +Can you crack the encryption?
+NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||:<color=#00CCFF>No can do. The radiation levels are too high. Our equipment is older than me and totally useless.</color>
+()<Speaker></Speaker>||:By then, Alexander has already reached the temporary assembly point—a run-down factory building on one of the islands.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:One of the three transport drivers is standing sentry at the entrance. Alexander waves at him.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Any equipment younger than you is either at the repair plant or in the junkyard. +Now stop whining and keep an eye on Sentry Point 1.
+NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||:<color=#00CCFF>No point in busting our asses. We're just doing recon, not any actual fighting.</color>
+()<Speaker></Speaker>||:Alexander walks up to the entrance of the factory building. He is just about to end the transmission when Wiktor pipes up again.
+NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Let me tell you, we're lucky that this is just a recon mission. I would be really uneasy if the rookie leader were to command us in an actual battle.</color> +<color=#00CCFF>You know what people who come from academia are like. They're so by-the-book! They do exactly what their textbooks tell them to do!</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...Enough.
 ()||<黑点1><SE1>AVG_door_elecport</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:空旷的厂房里，新排长安娜坐在放有通讯设备的拼接方桌后面，靠着椅背，一双长腿搭在桌边，划着手里的平板。+收发器里，维克多的声音分外清晰。
-NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||:<color=#00CCFF>书呆子就是靠不住！</color>
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……排长，我回来补充抗辐射药！
-NPC-Wiktor(0)<Speaker>维克多</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>……！！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴——1号哨点切断通讯。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安娜指了指一旁的运输车，眼睛没有离开平板。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:车里，补给箱，自己拿。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:运输车里待命的驾驶员探出半个脑袋，对着亚历山大一翘大拇指，挤眉弄眼。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||<BGM>GF_EV9_Story</BGM>:……你全都听到了？
-NPC-Ange(28)<Speaker>安娜</Speaker>||:嗯，指挥部那边顺来的新设备，收音效果不错。
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:In the empty factory building, Anna, the new platoon leader, is seated behind a splicer's table on which her comms equipment is set up. Leaning back into her chair, she scrolls through her tablet with her long legs propped up against the table edge.
+NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||:<color=#00CCFF>You just can't count on pedants like that!</color>
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...Ma'am, I'm here for another dose of anti-radiation meds.
+NPC-Wiktor(0)<Speaker>Wiktor</Speaker><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>...!!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Beep. The transmission from Sentry Point 1 is cut off abruptly.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna points at the vehicle outside without looking up from her tablet.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:In the vehicle. Supply crate. Get it yourself.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The driver standing by inside the vehicle pokes his head out. He gives Alexander a thumb-up and winks meaningfully at him.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||<BGM>GF_EV9_Story</BGM>:...You heard all that?
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Yep, the new equipment I swiped from the command post picks up chatter pretty well.
 ()||<黑点1>:
-()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1><BIN>9</BIN><黑点2>:……
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1><BIN>9</BIN><黑点2>:...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:亚历山大补充完抗辐射药剂，走出来的时候，正看到安娜盯着屏幕沉思。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:你在看什么？
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:思考游骑兵的目的。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Ange(28)||:……我们只需要侦查动向吧？+以目前的兵力，根本不可能跟他们正面冲突。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:当然，这些岛，荒无人烟的，又不是战略重地。+游骑兵过来做什么？+多用你脖子上那个玩意儿想想，功劳可不会在路边等着你捡。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Ange(28)||:你不会想进那个红区岛屿侦察吧？那里——
-NPC-Ange(28)<Speaker>安娜</Speaker>||:那里辐射浓度超过了人体承受极限，我当然知道。
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:安娜用激光笔指着全息屏幕，地形图上，2处哨点就像两粒芝麻撒落其中。+一座岛屿区域是大片空白，辐射粒子云隔绝了大部分窥探。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:不过，值得游骑兵跨国执行任务。+说不定，这个“任务目标”能让我们连升三级，或者更多？
-()<Speaker></Speaker>||:亚历山大却没有被功劳冲昏头脑，他审视着安娜。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:排长，三排现在只有2个班，一半是年初强征入伍的新兵，只比普通人多拿把枪。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:值得试一试。+如果运作得当，不是没有成功的可能。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>;NPC-Ange(28)||:……我还以为你会和前任排长不一样。
-NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>安娜</Speaker>||:那种用部下性命填炮口的东西？不不，我和他绝对不一样。+他让你们送死，但我会带你们活，活到结束战争，带着荣耀回家乡。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:如果你经历过真正的战场，就会明白人是一种多么脆弱渺小的东西，像西伯利亚的雪花。+雪花落在战火里，一点痕迹都留不下。
-()<Speaker></Speaker>||:安娜垂下眼。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:是吗？我早就知道了。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:通讯器忽然响起，安娜起身接起。
-NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>报告排长，2号哨点发现异常，辐射测量仪读数大幅上涨。</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pan(0)||:上涨多少？持续多久？给我具体数据。 
-NPC-Ange(29);NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||:<color=#00CCFF>我看看……呃，读数怎么又落回去了？</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pan(0)||:……你没读过《侦察手册》？
-NPC-Ange(29);NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||:<color=#00CCFF>那是什么？</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pan(0)||:《步兵基本战术》？
-NPC-Ange(29);NPC-Pan(0)<Speaker>二班长 潘</Speaker><通讯框>||:<color=#00CCFF>呃……</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>||:……回驻地后，我会让你知道的。+注意防护，继续保持监测。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴。+无视潘的哀嚎，安娜切断了通讯。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……你真的打算培养他们？
-NPC-Ange(28)<Speaker>安娜</Speaker>||:不然呢？
-()<Speaker></Speaker>||:安娜目光澄明，与亚历山大对视。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:一两片雪花遇火即融，如果是一场西伯利亚暴风雪呢？
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:……你到底想干什么？
-NPC-Ange(28)<Speaker>安娜</Speaker>||:不是刻在我脑门上了吗——“我想当元帅”。
-()<Speaker></Speaker>||:亚历山大被逗笑了，随即他收起笑容。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:让我想想。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:你们成为了我的部下，我就会教你们成为优秀的军人。+你还在犹豫，这很正常，但我相信，“时间会证明一切”。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:安娜伸出手，带着期许的笑意。
-()<Speaker></Speaker>||:亚历山大失笑，迎上去，和安娜碰拳。
-NPC-Alexander(0)<Speaker>亚历山大</Speaker><Position>0,60</Position>||:要是三排战士都变成你哥哥拉姆赞那样的兵王，也许你能一统世界？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>10213</BGM>:安娜的神情忽然冷下来，她收回手。
-NPC-Ange(29)<Speaker>安娜</Speaker>||:我只有一个哥哥，艾赫明。+而他已经死了。
-()<Speaker></Speaker>||:亚历山大借口送药慌忙离开，留守的运输车驾驶员缩在车里一声不吭。
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:安娜继续对着地形图出神。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:不久，通讯器再次响起，安娜随手按下接听。
-NPC-Ange(28)<Speaker>安娜</Speaker>||:这里是近卫第57师驻P岛部队，步兵排长安娜•崔。
-NPC-Pamzan(4)<Speaker>？？？</Speaker><通讯框>||:<color=#00CCFF>我是上尉拉姆赞。</color>
-()<Speaker></Speaker>||:安娜脸色一变，而对面的人看起来平淡而冷静。
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker><通讯框>||:<color=#00CCFF>游骑兵增援一支常规陆战部队，军方已经派出部队拦截。</color>+<color=#00CCFF>但目前有一个连队穿过了拦截网，我要求你部立刻阻击对方，不能让他们与游骑兵汇合。</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)<通讯框>||:你没有权力调动我部兵力。
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker><通讯框>||:<color=#00CCFF>我已获得上级军部授权，这里的先期军事行动由我指挥。</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)<通讯框>||:上尉，我必须提醒你，三排只有两个班的兵力，只携带侦察设备和少量火力，目前分散在两处哨点中侦察敌情。
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker><通讯框>||:<color=#00CCFF>召集所有班组，布置防线，放弃侦察设备。我会立刻带队赶来支援。</color>+<color=#00CCFF>这是命令。</color>
-NPC-Ange(29)<Speaker>安娜</Speaker>;NPC-Pamzan(4)<通讯框>||:最后一个问题，游骑兵进红区到底要干什么？+至少，我要知道三排为什么而战！
-NPC-Ange(29);NPC-Pamzan(4)<Speaker>拉姆赞</Speaker><通讯框>||:<color=#00CCFF>……他们要抓捕一名犯人，代号“死罪”，此人可能掌握着某项绝密遗迹技术。</color>+<color=#00CCFF>其它信息未知，情报部门还在调查。</color>+<color=#00CCFF>大部队到来还需要3小时以上，现在外围能拦截支援部队的，只有你和我。</color>
-NPC-Ange(31)<Speaker>安娜</Speaker>||:……
-NPC-Ange(29)<Speaker>安娜</Speaker>||:我接受命令，上尉。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN>:When Alexander returns from getting his new dose of anti-radiation medication, he finds Anna still staring pensively at the screen.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:What are you doing?
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>Anna</Speaker>||:Trying to figure out the Rangers' objective.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(28)||:...Our job is just to observe their movements, no? +With our strength, we can't possibly engage them in a direct confrontation. 
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>Anna</Speaker>||:That much is obvious. But these remote and deserted islands have no tactical value whatsoever. +So what are the Rangers doing here? +Try to make use of the thing that's attached to your neck. Merits on the battlefield don't just jump into your hand.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(28)||:You're not thinking about scouting the island in the Red Zone, are you? The radiation levels there...
+NPC-Ange(28)<Speaker>Anna</Speaker>||:The radiation levels there are way beyond what the human body can withstand. I know that.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:Anna aims her laser pointer at the holographic projection. The two sentry points are like two pieces of sesame on the topographical map. +One of the islands is largely blank—the radioactive fallout has rendered the area impossible to survey.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:However, the Rangers think it's worth conducting a mission all the way out here. +Who knows? This "objective" could earn us a couple of stars on our uniforms, or maybe more?
+()<Speaker></Speaker>||:Alexander is not swayed by the prospect of being promoted. He gazes at Anna evenly.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Ma'am, there are only two squads in 3rd Platoon. Half of our men are new recruits conscripted at the beginning of the year. They're basically civilians given guns.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>Anna</Speaker>||:It's worth a try. +As long as we're smart about it, it isn't impossible.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(28)||:...I thought you'd be different from the previous platoon leader.
+NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(28)<Speaker>Anna</Speaker>||:The jackass who squandered his subordinates' lives? No, no, I'm nothing like him at all. +He wouldn't think twice about sending you to your deaths, but I will make sure you stay alive long enough till the war ends, and you can go home as heroes.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:If you had any real experience on the battlefield, you'd know how small and fragile we humans really are—like snowflakes in the Siberian winter. +When snowflakes fall into the flames of war, they disappear without a single trace.
+()<Speaker></Speaker>||:Anna lowers her eyes.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Yeah? I've known that for a long time.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The comms suddenly comes to life. Anna gets up to answer the call.
+NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Ma'am, something's going on at Sentry Point 2. The Geiger counter is detecting a large spike in radiation levels.</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pan(0)||:How big of a spike? How long did it last? Give me specific data.
+NPC-Ange(29);NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||:<color=#00CCFF>Let me see... Uh, how come it's gone down again?</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pan(0)||:...Have you read the "Reconnaissance and Surveillance Handbook"?
+NPC-Ange(29);NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||:<color=#00CCFF>What's that?</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pan(0)||:"Basic Infantry Tactics"?
+NPC-Ange(29);NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><通讯框>||:<color=#00CCFF>Uh...</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>||:...I'll make sure you find out when we get back to camp. +Keep monitoring the situation.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +Ignoring Pan's dismayed groan, Anna terminates the transmission.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...Do you really intend to train them?
+NPC-Ange(28)<Speaker>Anna</Speaker>||:What else?
+()<Speaker></Speaker>||:Anna holds Alexander's gaze firmly.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:One or two snowflakes will melt when they come into contact with fire, but what if it's a Siberian blizzard?
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:...What exactly are you planning to do?
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Isn't it carved on my forehead? "I want to be a field marshal."
+()<Speaker></Speaker>||:Alexander lets out a bark of laughter, but he collects himself immediately.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Let me think about it.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:Now that you're my subordinates, I'll be sure to make excellent soldiers out of you. +You're hesitant to put your faith in me—that's only natural, but I firmly believe that time will tell everything.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:Anna holds out her fist with a tentative smile.
+()<Speaker></Speaker>||:Alexander grins and bumps her fist.
+NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:If you manage to get the soldiers in 3rd Platoon up to your brother Ramzan's level, you might actually achieve world domination.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>10213</BGM>:Anna's features suddenly darken. She retracts her hand.
+NPC-Ange(29)<Speaker>Anna</Speaker>||:I only have one brother—Armin. +And he's dead.
+()<Speaker></Speaker>||:Alexander makes some excuse and scurries away. The driver guarding the vehicle keeps his head down quietly.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:Anna goes back to puzzling over the topographical map.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:After a short while, the communicator sounds again. Anna picks up absentmindedly.
+NPC-Ange(28)<Speaker>Anna</Speaker>||:This is Infantry Platoon Leader Anna Tsoi of the 57th Guards Division stationed on Island P.
+NPC-Pamzan(4)<Speaker>???</Speaker><通讯框>||:<color=#00CCFF>This is Captain Ramzan.</color>
+()<Speaker></Speaker>||:Anna freezes, but the man on the other end of the line appears calm and placid.
+NPC-Pamzan(4)<Speaker>Ramzan</Speaker><通讯框>||:<color=#00CCFF>The Military have sent out troops to intercept the Rangers' standard ground combat reinforcements.</color> +<color=#00CCFF>However, a company has slipped through the blockade. I'm ordering your troops to intercept them at once and prevent them from linking up with the Rangers.</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)<通讯框>||:You have no authority to mobilize my troops.
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker><通讯框>||:<color=#00CCFF>I have been authorized by the brass. I am to direct the preliminary military operations here.</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)<通讯框>||:Captain, I must remind you that the 3rd Platoon only comprises two squads which are currently split up across two sentry points to monitor the enemy. We have minimal recon equipment and firepower.
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker><通讯框>||:<color=#00CCFF>Recall them all and set up a line of defense immediately. Just leave the equipment behind. I am coming with backup.</color> +<color=#00CCFF>That's an order.</color>
+NPC-Ange(29)<Speaker>Anna</Speaker>;NPC-Pamzan(4)<通讯框>||:One last question—what are the Rangers doing in the Red Zone? +At the very least, I need to know what the 3rd Platoon is fighting for!
+NPC-Ange(29);NPC-Pamzan(4)<Speaker>Ramzan</Speaker><通讯框>||:<color=#00CCFF>...Their objective is to capture a criminal codenamed "Capita". This person may be in possession of top secret information pertaining to Relic technology.</color> +<color=#00CCFF>That's all we currently know; Intelligence is still investigating the matter.</color> +<color=#00CCFF>It will take the main force three hours to get here. You and I are the only ones who can intercept the Rangers' reinforcements right now.</color>
+NPC-Ange(31)<Speaker>Anna</Speaker>||:...
+NPC-Ange(29)<Speaker>Anna</Speaker>||:Acknowledged, Captain.
+()||<黑点1>:

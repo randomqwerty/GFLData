@@ -1,109 +1,109 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2>:
-()||<BIN>269</BIN><BGM>event_summer_Title</BGM>：樱花点开通讯器。+果然，已经没了信号。
-Type100(0)<Speaker>樱花</Speaker>||：<color=#A9A9A9>（根据阿芙拉小姐所说，这里明明是一个废弃营地……）</color>+<color=#A9A9A9>（情况不太对劲，我先观察一下。）</color>
-()||<SE1>AVG_Applause</SE1>：巫女走至营地中央，对着四周依次躬身，然后轻轻拍了拍手。
-()||:一旁的乐手们弹奏起古老悠扬的曲调，营地众人合声唱起歌谣。
-()<Speaker>营地众人</Speaker>||：感谢您赐予我们生命，+感谢您赐予流淌的蜜浆、累累的谷物。+在这丰收的时刻，+在这盛放的樱花树下，+请保佑我们吧，远离可怕怪物。
-()<Speaker>营地众人</Speaker>||<白屏1>：请保佑我们吧，永远祥和幸福。
+()||<BIN>269</BIN><BGM>event_summer_Title</BGM>:100 Shiki opens her comms. +Sure enough, there's no signal.
+Type100(0)<Speaker>100 Shiki</Speaker>||:<color=#A9A9A9>(According to Miss Afra, this is supposed to be an abandoned campsite...)</color>+<color=#A9A9A9>(Things aren't quite right here, I need to continue observing.)</color>
+()||<SE1>AVG_Applause</SE1>:The shrine maiden walks to the center of the campsite, bows in every direction, then gently claps her hands.
+()||:Musicians on the sidelines start playing an ancient, lively tune, and the crowd chants in unison.
+()<Speaker>Everyone in the Camp</Speaker>||:We are grateful for your gift of life...+For the ever-flowing syrup, and for the abundant grains. +In the time of harvest... +Under the blooming cherry blossom...+May you bestow us safety and shelter from the horrifying monsters.
+()<Speaker>Everyone in the Camp</Speaker>||<白屏1>:May you bless us with eternal peace and happiness.
 ()||<白屏2>:
-()||<BIN>269</BIN>：巫女在歌声中扬袖起舞，翩然如飞落的樱花。+歌曲终了，巫女端起美酒，举过头顶，对着身后的枯树干盈盈伏拜。
-Type100Mod(2)<Speaker>巫女</Speaker>||：神明啊，愿您保佑我们来年的丰收，愿您保佑我们远离怪物的侵扰。+此时，您的子民向您献上心意，请您品尝丰收的喜悦吧！
-()||<SE1>AVG_applause_indoor</SE1>：众人欢呼，共同举杯。
-Type100(0)<Speaker>樱花</Speaker>||<SE1>Stop_AVG_loop</SE1>：<color=#A9A9A9>（歌词中说，“在这盛放的樱花树下”……）</color>+<color=#A9A9A9>（可营地里只有这株枯树干……）</color>
+()||<BIN>269</BIN>:The shrine maiden dances to the rhythm, her sleeves fluttering like falling cherry blossom petals. +As the tune draws to an end, the shrine maiden holds up the wine, raises it above her head, and prays to the withered trunk behind her.
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>||:Oh mighty Deity, may you bestow us a bountiful harvest in the year to come, and may you keep us safe from the monsters. +Now, your people shall offer you their gratitude, so please savor the delights of the harvest!
+()||<SE1>AVG_applause_indoor</SE1>:The crowd cheers and toasts in unison.
+Type100(0)<Speaker>100 Shiki</Speaker>||<SE1>Stop_AVG_loop</SE1>:<color=#A9A9A9>(The lyrics did say "under a blooming cherry blossom"...</color>+<color=#A9A9A9>(But all I see is the withered trunk of a tree in the campsite...)</color>
 ()||<黑屏1>:
-()||<黑屏2><BIN>269</BIN>:祈福仪式之后，乐手们换上轻快的曲子，场地中有男男女女成对舞蹈，热辣欢快。+长桌边的人们手拿食物和美酒，或放声高歌，或大声叫好。
-()||<BGM>BGM_Empty</BGM>:“嗷呜——”一声咆哮！
-()||<BGM>BGM_Boss2</BGM>:一只老虎般大小的黑皮怪物出现在了树干上！
-()||<SE1>AVG_20Winter_People_Panic</SE1>:场地中响起惊叫声！
-()<Speaker>营地众人</Speaker>||<SE1>AVG_Crowd</SE1>：怪物又来了——+巫女大人小心——
-()||<SE1>Select</SE1>:樱花下意识举起了枪，正要开火，却见巫女不知何时挡在了树下！
-Type100(0)<Speaker>樱花</Speaker>||：不行，会误伤的！
-()||:樱花看向四周，一时间找不到合适的作战位置。
-()||:黑皮怪物的咆哮声越发愤怒，冲着巫女作势欲扑！+樱花咬咬牙。
-Type100(0)<Speaker>樱花</Speaker>||：巫女小姐卧倒——
-()||<SE2>Gunfight</SE2>:“哒哒哒哒——”子弹向扑出的黑皮怪物倾泻——
-()||<SE1>AVG_flag</SE1>:几乎同时，巫女挥袖，一道光芒射出！
-()||<controll_shake>%%type_id=2%%duration=1%%delType100Mod(3)=0.1%%range=8</controll_shake><SE1>AVG_Bullte_Ricochet</SE1>:子弹与光芒同时击中了黑皮怪物，它的身体重重砸在枫木长桌上！
-()||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:堆叠的食物弹飞散落，橡木酒桶堆哗啦倒地四处滚动——
-()||<BGM>BGM_Empty</BGM>：所有人都惊呆了。
-Type100(0)<Speaker>樱花</Speaker>||<BGM>m_avg_casual</BGM>：……
-()||:一只苹果咕噜噜滚到樱花脚下……
-Type100(0)<Speaker>樱花</Speaker>||：<color=#A9A9A9>（怎么办，怎么办？巫女小姐明明可以应对的，都怪我多事……）</color>+<color=#A9A9A9>（呜，心智热得要融化了，好尴尬……）</color>
-()||:巫女最先回过神来，高声呼喊。
-Type100Mod(2)<Speaker>巫女</Speaker>||：神明显灵，赶跑了怪物！+神明必将庇佑祂的子民！神明万岁！
-()<Speaker>营地众人</Speaker>||：神明万岁——巫女大人万岁——
-()||:樱花默默松了一口气，转身向营地外走去。+……
+()||<黑屏2><BIN>269</BIN>:After the ceremony, the musicians changed to a more light-hearted tune. The camp is now filled with cheerful men and women dancing in pairs. +People sit by the long table, with food and wine in hand, singing and shouting in joy.
+()||<BGM>BGM_Empty</BGM>:"Grrrr—" Comes a vicious growl!
+()||<BGM>BGM_Boss2</BGM>:A dark-skinned monster the size of a tiger suddenly appears on the tree trunk!
+()||<SE1>AVG_20Winter_People_Panic</SE1>:Screams burst out in the camp.
+()<Speaker>Everyone in the Camp</Speaker>||<SE1>AVG_Crowd</SE1>:The monster came again— +Watch out, Maiden-sama—
+()||<SE1>Select</SE1>:100 Shiki instinctively points her gun at the monster, but just before firing, she realizes the shrine maiden is blocking her shot.
+Type100(0)<Speaker>100 Shiki</Speaker>||:No, I may hit her like this!
+()||:100 Shiki looks around, unable to find another suitable combat position.
+()||:The dark-skinned monster's growl grows angrier as it prepares to pounce on the shrine maiden! +100 Shiki grits her teeth.
+Type100(0)<Speaker>100 Shiki</Speaker>||:Get down! Miss Maiden—
+()||<SE2>Gunfight</SE2>:"Rat-tat-tat—" Bullets rain down on the lunging monster—
+()||<SE1>AVG_flag</SE1>:Almost simultaneously, the shrine maiden waves her sleeve, and a blinding beam of light shoots out!
+()||<controll_shake>%%type_id=2%%duration=1%%delType100Mod(3)=0.1%%range=8</controll_shake><SE1>AVG_Bullte_Ricochet</SE1>:The bullets and the beam of light hit the monster at once, and its body then violently drops on the long table!
+()||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:Stacks of food are thrown around and the pile of wine barrels clatter to the ground, spilling their contents—
+()||<BGM>BGM_Empty</BGM>:Everyone is stunned.
+Type100(0)<Speaker>100 Shiki</Speaker>||<BGM>m_avg_casual</BGM>:...
+()||:An apple slowly rolls to the feet of 100 Shiki...
+Type100(0)<Speaker>100 Shiki</Speaker>||:<color=#A9A9A9>(What do I do now?! Miss Maiden clearly could have handled it on her own. I totally messed it up...)</color>+<color=#A9A9A9>(Ahh, my core is getting so hot that it feels like melting, so embarrassing...)</color>
+()||:The shrine maiden is the first to return to her senses, and she shouts at the top of her lungs.
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>||:The Deity manifested its power and drove away the monster! +The Deity shall bless his people! Long live the Deity!
+()<Speaker>Everyone in the Camp</Speaker>||:Long live the Deity! Long live Maiden-sama!
+()||:100 Shiki breathes a sigh of relief then turns around to head out of the camp. +...
 ()||<黑屏1>:
 ()||<黑屏2><BIN>262</BIN><BGM>BGM_Empty</BGM>:
-()||<BGM>GF_Memorial</BGM>:樱花又一次打开通讯器，依然没有信号。
-Type100(0)<Speaker>樱花</Speaker>||：<color=#A9A9A9>（还好大家没注意到我……）</color>+<color=#A9A9A9>（还是快点找到樱花树吧，阿芙拉小姐还在等我呢。）</color>
-()<Speaker>？？</Speaker>||:谢谢你刚才救了我。
-()||<SE1>Select</SE1>:樱花一惊，握枪转身。
-Type100Mod(2)<Speaker>巫女</Speaker><GradientShow>2</GradientShow>||：我是主掌此地的巫女，你可以称呼我“巫女小姐”。+您是来参加丰收节的吗？
-Type100(0)<Speaker>樱花</Speaker>||：那个，我叫樱花，我是来寻找……
+()||<BGM>GF_Memorial</BGM>:100 Shiki turns her comms back on, but there's still no signal.
+Type100(0)<Speaker>100 Shiki</Speaker>||:<color=#A9A9A9>(Good thing that nobody noticed me...)</color>+<color=#A9A9A9>(Better hurry up and find that cherry blossom. Miss Afra is still waiting for me after all.) </color>
+()<Speaker>？？</Speaker>||:Thank you for saving me back there.
+()||<SE1>Select</SE1>:100 Shiki recoils in shock, she turns around with weapon in hand.
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker><GradientShow>2</GradientShow>||:I'm the shrine maiden in charge of this place. You can call me "Miss Maiden". +Are you here for the Harvest Festival?
+Type100(0)<Speaker>100 Shiki</Speaker>||:Well... I'm Sakura. I'm looking for...
 ()||<黑点1>:
 ()||<黑点2>:
-()||<BIN>262</BIN>:听完樱花的一番话，巫女小姐缓缓点头。
-Type100Mod(2)<Speaker>巫女</Speaker>||：这么说来，您是误入营地的客人了。+说来惭愧，营地中央的枯树，便是那株樱花树，历代巫女在此向神明祈祷。可惜……
-Type100Mod(2);Type100(0)<Speaker>樱花</Speaker>||：……看来，寻找樱花树的行动失败了呢。
-Type100Mod(2)<Speaker>巫女</Speaker>;Type100(0)||：……也许，还有一个办法？
-Type100(0)<Speaker>樱花</Speaker>||：诶？
-()||<SE1>RunStep</SE1>:樱花正要询问，那位黑发少女忽然冒出来，急冲冲跑到巫女面前。
-Type100Mod(3)<Speaker>黑发少女</Speaker>||：巫女大人？您在这里，太好了！
-Type100Mod(2)<Speaker>巫女</Speaker>||：安雅，行止不可失礼。
-()||:安雅吐了吐舌头，从怀中掏出一方手帕，打开，里面是一朵绿色的樱花。
-Type100Mod(3)<Speaker>安雅</Speaker>||：巫女大人，你看你看，我做出来了！+收到这样漂亮的樱花，神明一定会允许我晋升为第二位巫女吧！
-Type100Mod(2)<Speaker>巫女</Speaker>||：绿色的？+安雅，神明只喜爱粉色的樱花。
-Type100Mod(3)<Speaker>安雅</Speaker>||：巫女大人，您真是太较真了！+谁规定樱花一定是粉色的？说不定神明就喜欢绿色的呢？
-()||<SE1>RunStep</SE1>:安雅将樱花往巫女怀里一塞，气呼呼跑走了。
-Type100Mod(2)<Speaker>巫女</Speaker>||：让您见笑了。+安雅是巫女的侍从，她……一贯不喜拘束。
-Type100Mod(2);Type100(0)<Speaker></Speaker>||:樱花摇摇头。
-Type100Mod(2);Type100(0)<Speaker>樱花</Speaker>||:巫女小姐刚才说，“还有一个办法”？
-Type100Mod(2)<Speaker>巫女</Speaker>;Type100(0)||：没错，愿望是有力量的。愿力足够强大，便可上达神明，使樱花重开。+真巧，您的名字也是樱花呢，您一定会受到神明眷顾的。+樱花小姐，要试一试，与我一同祈祷吗？
-Type100(0)<Speaker>樱花</Speaker>||：……
-()||:樱花只觉得自己在听TAC50讲万圣节鬼故事——全是鬼扯！+什么祈祷？难道对着一棵树默念“我要看樱花，我要看樱花”，枯树就会复苏开花？+阿芙拉还在外面等着，她不该再浪费时间了。
+()||<BIN>262</BIN>:After listening to 100 Shiki's explanation, Miss Maiden slowly nods her head.
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>||:If I understand correctly, you're a visitor who wandered into our campsite by accident. +It's quite a shame, that the withered trunk at the center of the campsite is in fact the very cherry blossom you're looking for. It's where generations of shrine maidens have prayed to the Deity. Unfortunately...
+Type100Mod(2);Type100(0)<Speaker>100 Shiki</Speaker>||:...Looks like my search for a real cherry blossom has failed.
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>;Type100(0)||:...Perhaps, there is another way?
+Type100(0)<Speaker>100 Shiki</Speaker>||:Eh?
+()||<SE1>RunStep</SE1>:Before 100 Shiki can ask anything, the black-haired girl suddenly emerges and rushes up to the shrine maiden.
+Type100Mod(3)<Speaker>Black-Haired GIrl</Speaker>||:Maiden-sama? You're here, wonderful!
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>||:Anya, don't be rude.
+()||:Anya sticks her tongue out, then pulls out a handkerchief, revealing a green cherry blossom flower inside.
+Type100Mod(3)<Speaker>Anya</Speaker>||:Look at this, Maiden-sama! I made it myself! +Being able to receive such a beautiful cherry blossom, the Deity will surely allow me to become the second shrine maiden, right?
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>||:A green one? +Anya, the Deity only loves pink cherry blossoms.
+Type100Mod(3)<Speaker>Anya</Speaker>||:Maiden-sama, that's way too strict! +Who says cherry blossoms have to be pink? Maybe the Deity likes it green?
+()||<SE1>RunStep</SE1>:Anya shoves 100 Shiki into the maiden's arms and runs off in a fit of temper.
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>||:Pardon me. +Anya is a shrine maiden's attendant, and she... She always disliked formalities.
+Type100Mod(2);Type100(0)<Speaker></Speaker>||:100 Shiki shakes her head.
+Type100Mod(2);Type100(0)<Speaker>100 Shiki</Speaker>||:Did Miss Maiden say earlier that "there is another way"?
+Type100Mod(2)<Speaker>Shrine Maiden</Speaker>;Type100(0)||:Yes, wishes are imbued with their own power. If one's will is strong enough, it can reach the Deity and make the cherry blossoms bloom again. +What a coincidence, your name is also Sakura. You will surely be blessed by the Deity. +Miss Sakura, would you like to try praying together?
+Type100(0)<Speaker>100 Shiki</Speaker>||:...
+()||:100 Shiki feels like she's been subjugated to TAC50's attempt at a Halloween ghost story—it's nothing but hogwash! +What prayers? Did she really expect repeatedly mumbling "I want to see a cherry blossom" over and over would somehow make a dead tree come back to life, let alone bloom again?+Afra is still waiting for 100 Shiki outside, she can't afford to waste any more time.
 ()||<黑屏1>:
 ()||<黑屏2><BGM>BGM_Empty</BGM><BIN>269</BIN>:
-Type100Mod(2)<Speaker>巫女/樱花</Speaker>||<BGM>GF_20HW_Scene_BPM82_loop</BGM>:谨祈此愿，复苏樱木，光华吹绽，神恩永驻！
-()||:伏拜在树下，樱花只觉得心智温度飙升。+如果此时脚趾能抠地，大概她能抠出一个格里芬基地？+营地众人跪在巫女身后，虔诚地拜倒，一同念诵。
-Type100(0)<Speaker>樱花</Speaker>||：<color=#A9A9A9>（我可是采用格里芬先进科技改造出的战术人形，唉，从相信科技到相信神迹，我一定是中了某种病毒吧……）</color>+<color=#A9A9A9>（如果大家知道了，大概会笑得从椅子上掉下来？好丢脸……）</color>
-()||:枯树干依然毫无动静，樱花抬头，甚至能看清树皮上黑皮怪物留下的抓痕。
-()||:祝祷声越来越宏大，天地似乎在震动、在共鸣。+忽然，樱花的视线捕捉到一个动态信号，来自更高处？
-()||<BGM>BGM_Empty</BGM>:一根枝条从天际垂下，极速生长……+枝条越来越粗硕，分出无数枝桠，点点花苞浮现，直至盛放——
-()||<白屏1>：
-()||<白屏2><BIN>573</BIN><SE1>AVG_Scene_Transfer</SE1><CGDelay>2</CGDelay>：
-()||：天幕之下，一颗巨型樱花树倒垂而出！
-Type100(0)<Speaker>樱花</Speaker>||<BGM>10021</BGM>：……！！
-()||:这里绝对、绝对不是现实世界！+樱花拼命检索记忆数据，试图找到她进入营地前的记忆。
+Type100Mod(2)<Speaker>Shrine Maiden/100 Shiki</Speaker>||<BGM>GF_20HW_Scene_BPM82_loop</BGM>:I pray upon this wish, that the cherry blossom's rebirth is at hand! May its bloom will grace us once again, and the Deity's blessing be everlasting!
+()||:Kneeling under the tree, 100 Shiki can only feel her core temperature skyrocketing. It's so embarrassing that she wishes to dig a hole and bury herself right on the spot. +The entire camp kneels behind the shrine maiden in reverence, chanting together.
+Type100(0)<Speaker>100 Shiki</Speaker>||:<color=#A9A9A9>(I'm a T-Doll modified using Griffin's advanced technologies. Sigh... From believing in technology to believing in miracles... I must have been hit by some kind of virus...)</color>+<color=#A9A9A9>(If people learn about this, they'd probably laugh so hard that they'll fall out of their chairs. So embarrassing...)</color>
+()||:The withered trunk remains unchanged. 100 Shiki looks up, and she can still easily make out the scratches left by the dark-skinned monster on the bark.
+()||:With the prayer growing louder and louder, the heavens and earth seem to vibrate and resonate. +Suddenly, 100 Shiki's vision catches a motion signal. Is it coming from high up in the sky?
+()||<BGM>BGM_Empty</BGM>:A twig hangs down from the sky and grows at tremendous speed...+The twig grows thicker, branching out into countless offshoots until buds emerge, and they bloom in unison—
+()||<白屏1>:
+()||<白屏2><BIN>573</BIN><SE1>AVG_Scene_Transfer</SE1><CGDelay>2</CGDelay>:
+()||:Under the sky's canopy, a giant cherry blossom hangs upside down!
+Type100(0)<Speaker>100 Shiki</Speaker>||<BGM>10021</BGM>:...!!
+()||:This is definitely, absolutely not the real world! +100 Shiki desperately searches through her memory data, trying to find the memories from before she entered the camp.
 ()||<黑屏1>:
-()||<BIN>9</BIN>：枯树林……+废弃的营地……
-()||<SE1>AVG_21Winter_Error</SE1>：她踩到了什么东西，白光骤然亮起——
-()||<白屏1>：
-()||<白屏2>：
-()||<黑点1><BIN>9</BIN>：……+所以，一开始，她就掉入了这个陷阱里？
+()||<BIN>9</BIN>:The barren forest... +The abandoned campsite...
+()||<SE1>AVG_21Winter_Error</SE1>:She stepped on something, and suddenly a bright light engulfed her—
+()||<白屏1>:
+()||<白屏2>:
+()||<黑点1><BIN>9</BIN>:... +So... She fell into a trap right off the bat?
 ()||<黑点2>:
-()||<BIN>8</BIN>：……+格里芬基地。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker><通讯框>||：<color=#00CCFF>……心智掉进了一个“数据陷阱”？</color>
-FP6(0)<Speaker>FP6</Speaker>||:回来的路上，我试图唤醒过她，但是，这个陷阱很复杂，我无法破译。+现在她的心智核心温度持续上涨，如果再不醒，啧~
-NPC-Persica(0)<Speaker>帕斯卡</Speaker><通讯框>||：<color=#00CCFF>唔，樱花的情况有些复杂……</color>+<color=#00CCFF>不管怎么说，你们得先唤醒她。</color>+<color=#00CCFF>只不过，链接心智，进入这个“陷阱”，可能得承担……亿点点风险？</color>
-()||:FP-6一手扛枪，一手食指挑着手铐，在指尖飞速旋转。
-()||<SE1>AVG_20Winter_Whistle</SE1>:随即她一把抓住了凌空的手铐，吹了个口哨。
-FP6(0)<Speaker>FP6</Speaker>||:我的职责是，惩戒坏蛋，维护正义，以及——保护同伴。
-MP5(0)<Speaker>MP5</Speaker>||:这么酷的事情，MP5必不可能错过！
-()||:格里芬更多的伙伴站了出来……
-FP6(0)<Speaker>FP6</Speaker>||:都很热情嘛！那么，开始吧——
+()||<BIN>8</BIN>:... +At the Griffin base.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>...So, her neural cloud has fallen into a "cyber trap"? </color>
+FP6(0)<Speaker>FP6</Speaker>||:I've tried to wake her up on our way back, but the trap is so complex that I can't decipher it. +Now, with her core temperature continuously rising, if she doesn't wake in time, tsk~
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>Well, 100 Shiki's situation is a bit more complex...</color>+<color=#00CCFF>Anyway, you'll have to wake her up first.</color>+<color=#00CCFF>Only thing is, you have to link yourself up to her core and enter the "trap" to do so... Which means, it's just a LITTLE bit risky.</color>
+()||:FP-6 with her gun in one hand, twirls her handcuffs in the other, spinning it around her fingertip.
+()||<SE1>AVG_20Winter_Whistle</SE1>:She suddenly catches the handcuffs in mid-air and blows a whistle.
+FP6(0)<Speaker>FP6</Speaker>||:It's my duty to punish bad guys, uphold justice, and protect my comrades.
+MP5(0)<Speaker>Gr MP5</Speaker>||:MP5 mustn't miss such cool actions!
+()||:More and more Griffin T-Dolls volunteer themselves.
+FP6(0)<Speaker>FP6</Speaker>||:Looks like everyone's very eager! Well, let's get started—
 ()||<黑屏1>:
-()||<黑屏2><BIN>573</BIN><SE1>AVG_whitenoise</SE1>：祝祷声几乎要震破天地，直到混沌成一片嘈杂尖锐的电流声。+樱花痛苦地捂住耳朵，只是徒劳。
-()||<SE1>AVG_21Winter_Error</SE1>：心智核心刷屏式报警，多股数据流在入侵。
-Type100(0)<Speaker>樱花</Speaker>||：好痛苦……怎么回事……
-()||<SE1>AVG_whitenoise</SE1>:嗡——+电流声忽然停了，化作一种长久的嗡鸣。
-()||:一个声音传来，似乎隔着某种罩子，或者某种屏障，渺远而模糊。
-()<Speaker>？？</Speaker>||<SE1>AVG_whitenoise</SE1>:陷阱……快醒…………嗡——
-Type100(0)<Speaker>樱花</Speaker>||：是谁？谁在说话？
-()<Speaker>？？</Speaker>||:坚持住……
-()<Speaker>？？</Speaker>||<SE1>AVG_whitenoise</SE1>:嗡——陷阱，数据混乱……坚持……
-Type100(0)<Speaker>樱花</Speaker>||：是……FP-6？！+FP-6，FP-6，请——听到我！
-()<Speaker>FP6</Speaker>||:……找到出路……救援…………等……
-Type100(0)<Speaker>樱花</Speaker>||：FP-6，请你们一定保重，以自己的安全为第一优先级！+我也会，努力寻找出路——
-()||<黑点1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>573</BIN><SE1>AVG_whitenoise</SE1>:The prayers are ear-shattering until they slowly morph into a cacophony of shrill electric currents. +100 Shiki covers her ears in agony, but her efforts are in vain.
+()||<SE1>AVG_21Winter_Error</SE1>:Her core is bristled with alerts as multiple streams of data intrude her.
+Type100(0)<Speaker>100 Shiki</Speaker>||:This is so painful... What's going on...
+()||<SE1>AVG_whitenoise</SE1>:Buzz— +Suddenly, the currents come to a halt, dissolving into a lingering hum.
+()||:A voice comes through, seemingly muffled by some kind of barrier, distant and blurred.
+()<Speaker>？？</Speaker>||<SE1>AVG_whitenoise</SE1>:Trap... Wake... Up... Buzz—
+Type100(0)<Speaker>100 Shiki</Speaker>||:Who's that? Who's talking?
+()<Speaker>？？</Speaker>||:Hold on...
+()<Speaker>？？</Speaker>||<SE1>AVG_whitenoise</SE1>:Buzz— Trap. Data disruption... Hold...
+Type100(0)<Speaker>100 Shiki</Speaker>||:Is... Is that FP-6?! +FP-6! Please— hear me!
+()<Speaker>FP6</Speaker>||:...Find way out... Rescue... Wait...
+Type100(0)<Speaker>100 Shiki</Speaker>||:FP-6, please keep yourselves safe. Prioritize your own safety! +I will too. I'll try to find the way out—
+()||<黑点1><BGM>BGM_Empty</BGM>:

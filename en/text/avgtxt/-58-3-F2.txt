@@ -1,139 +1,139 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_amb_thunderrain</SE1><common_effect>%%code=CJ_rain%%</common_effect><黑屏2><BIN>485</BIN><BGM>BGM_stage9</BGM>:……“死海”边缘。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=6</controll_shake><SE1>AVG_engine_speedup</SE1><SE1>AVG_Robots_Floor</SE1>:几辆吉普从艾莫号落地，朝着阿佛那斯的方向飞驰而去。
-PMMod(0)<Speaker>马卡洛夫</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>这里是调色板小队，拼图小队请回应。</color>
-VHS(0)<Speaker>VHS</Speaker>||:这里是拼图小队。
-PMMod(0)<Speaker>马卡洛夫</Speaker><通讯框>||:<color=#00CCFF>调色板小队将于1分钟后对敌人的右翼进行火力引导。</color>
-VHS(0)<Speaker>VHS</Speaker>||:拼图小队收到，我们会在你们之后对左翼进行火力引导。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:结束队内通讯后，坐在副驾的VHS转向司机。
-VHS(0)<Speaker>VHS</Speaker>||:AUG PARA，再靠近敌人区域一点，现在的引导坐标存在较大误差。
-AUGPARA(0)<Speaker>AUG PARA</Speaker>||:我怕我再靠近她们，就于心不忍了……
-PM1910(0)<Speaker>PM1910</Speaker>||:<size=50>对敌人于心不忍？！我简直要忍不住跳下车去杀个痛快了！</size>
-()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:轰隆——从敌人区域的右翼方向传来了连续的炮轰声。
-PM1910(0)<Speaker>PM1910</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>杀戮开始了！</size>
-GeneralLiu(0)<Speaker>刘氏</Speaker>||:队长，发现大量敌人聚集！不少敌人从右翼撤往左翼！
-VHS(0)<Speaker>VHS</Speaker>||:收到。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:VHS冷静地接通火力引导，输入了敌人坐标和范围——
+()<Speaker></Speaker>||<SE1>AVG_amb_thunderrain</SE1><common_effect>%%code=CJ_rain%%</common_effect><黑屏2><BIN>485</BIN><BGM>BGM_stage9</BGM>:...At the edge of the "Dead Sea".
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=6</controll_shake><SE1>AVG_engine_speedup</SE1><SE1>AVG_Robots_Floor</SE1>:Several jeeps exit the Elmo and race toward Avernus.
+PMMod(0)<Speaker>Makarov</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>This is Squad Palette. Come in, Squad Puzzle.</color>
+VHS(0)<Speaker>VHS</Speaker>||:This is Squad Puzzle.
+PMMod(0)<Speaker>Makarov</Speaker><通讯框>||:<color=#00CCFF>Squad Palette will be performing fire guidance on the enemy's right flank in one minute's time.</color>
+VHS(0)<Speaker>VHS</Speaker>||:Squad Puzzle copies. We'll mark targets on the left flank later on.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:After ending her transmission to the other squad, VHS turns to the driver from the front passenger's seat.
+VHS(0)<Speaker>VHS</Speaker>||:AUG Para, get closer to the enemy. There's too much margin of error if we fire at this range.
+AUGPARA(0)<Speaker>AUG PARA</Speaker>||:But if I get closer to them, I might end up feeling sorry for them...
+PM1910(0)<Speaker>PM1910</Speaker>||:<size=50>You're feeling sorry for them?! I can't wait to get out there and make them sorry they were ever born!</size>
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:Kaboom! A series of explosions come from the enemy's right flank.
+PM1910(0)<Speaker>PM1910</Speaker>||<SE1>AVG_weapon_reload</SE1>:<size=50>KILLING TIME!</size>
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Leader, I'm picking up a large concentration of enemies! They're all withdrawing from the right to the left flank!
+VHS(0)<Speaker>VHS</Speaker>||:Roger.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:VHS calmly opens a channel to the fire support command and dials in the enemy's numbers and position...
 ()||<黑点1><关闭蒙版>:
-()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><黑点2><BIN>483</BIN><SE1>Explode</SE1><震屏3><SE2>Alarm</SE2>:……阿佛那斯，西塔，塔外平台区域。
-()<Speaker></Speaker>||:突如其来的炮轰打断了涅托们的巡逻，前哨阵地几乎被完全夷为平地。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:<size=50>警戒！全体警戒！</size>+<size=50>停止巡逻，准备迎战！</size>
-Nyto(1)<Speaker>黑涅托</Speaker>||<SE1>RunStep</SE1>:又有袭击吗！
-NytoWhite(0)<Speaker>白涅托</Speaker>||:不过是和之前一样的徒劳反抗罢了，娜希斯大人正在赶来。+别愣着了！快去仓库补给武器！
-Nyto(1)<Speaker>黑涅托</Speaker>||:是！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Explo_Close</SE1>:轰隆——一发炮火擦过平台边缘，瞬间带走了数个涅托。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:<size=50>立刻行动！补给武器！</size>
-Nyto(1)<Speaker>黑涅托</Speaker><Shake>0.1</Shake>||:呜……是……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:刮擦刮擦——+某种诡异的声响凝固了两个涅托的行动。
-NytoWhite(0)<Speaker>白涅托</Speaker>||:这是什么的声音？
-()<Speaker>？？？</Speaker>||<BGM>BGM_Empty</BGM>:你的葬礼前奏。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:唰——金属利器划破身躯的尖啸声。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_Cut_Watermelon</SE1>:在碎裂倒地的涅托们的身后，出现了一袭白发的身影。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<BGM>BGM_Reverse</BGM>:真是些漂亮的小鬼啊，让我拆开看看你们的内部结构是不是一样好看吧？
-NytoWhite(0)<Speaker>白涅托</Speaker>||:敌人已出现在平台！告知娜希斯大人！
-Nyto(1)<Speaker>黑涅托</Speaker>||:拦住她！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:几名黑衣少女冲上去围住炼金术士，意图封锁她的行动，以给娜希斯拖延时间。
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰——+一发精准的炮火，将她们烧得干干净净。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:你这上场就讲恶心台词的习惯能不能改改？
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:我的老搭档，难道你还没习惯？
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰——
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰隆——+破坏者流畅地引爆了埋设在入口处的炸药，断掉了企图撤退的涅托们的后路。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<SE1>AVG_tele_connect</SE1>:梦想家，定位到那两个废物的位置了吗？
-BOSS-6(0);BOSS-11(0)<Speaker>梦想家</Speaker><通讯框>||:<color=#00CCFF>讯号在你们两点钟方向的库房里，说是库房，但坦白讲，我觉得那是它们扔垃圾的地方。</color>
-BOSS-6(0)<Speaker>破坏者</Speaker>||:哈，很适合她们！
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:我去回收她们，破坏者，掩护我。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:你只管上！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><SE1>Explode</SE1>:在破坏者炮火的掩盖下，炼金术士冲向了讯号所在的库房……
+()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><黑点2><BIN>483</BIN><SE1>Explode</SE1><震屏3><SE2>Alarm</SE2>:...On the platform outside the Western Tower, Avernus.
+()<Speaker></Speaker>||:The sudden explosions interrupt the Nytos' patrols. Their outposts have been leveled flat.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:<size=50>Alert! All forces on alert!</size> +<size=50>Cease patrol and prepare for battle!</size>
+Nyto(1)<Speaker>Black Nyto</Speaker>||<SE1>RunStep</SE1>:Is it another attack?!
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:It's more pointless resistance like before. Lady Narciss is coming here. +Quit standing around! Head back to the warehouse to pick up more ammo!
+Nyto(1)<Speaker>Black Nyto</Speaker>||:Understood!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Explo_Close</SE1>:Kaboom! A cannon shell sails past the edge of the platform and instantly obliterates several Nytos.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:<size=50>GO NOW! Get more ammo!</size>
+Nyto(1)<Speaker>Black Nyto</Speaker><Shake>0.1</Shake>||:(Winces) Yes....
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:Whoosh... +A sinister sound makes the Nytos freeze in their tracks.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:What was that sound?
+()<Speaker>???</Speaker>||<BGM>BGM_Empty</BGM>:The prelude to your funerals.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:Shing! It is the sound of a sharp, metallic weapon cleaving through bodies.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_Cut_Watermelon</SE1>:A white-haired figure appears behind the dismembered Nytos.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<BGM>BGM_Reverse</BGM>:What cute little brats you are. I wonder if your insides look as cute once I cut you open.
+NytoWhite(0)<Speaker>White Nyto</Speaker>||:Enemies on the platform! Notify Lady Narciss!
+Nyto(1)<Speaker>Black Nyto</Speaker>||:Stop her!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:Several black-clad girls surround Alchemist, trying to hem her in and buy more time for Narciss to arrive.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Kaboom! +They are blasted away by accurate cannon fire.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Would you mind not spouting those disgusting one-liners all the time?!
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:I thought you'd have gotten used to it by now, my dear buddy?
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Boom!
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Kaboom! +Destroyer deftly detonates the explosives planted at the entrance, cutting off the route which the Nytos planned to use to retreat.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<SE1>AVG_tele_connect</SE1>:Dreamer, have you pinpointed the location of those two pieces of trash?
+BOSS-6(0);BOSS-11(0)<Speaker>Dreamer</Speaker><通讯框>||:<color=#00CCFF>The signal is coming from the warehouse at your two o'clock. Well, I say warehouse, but it's more like a garbage dump.</color>
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Ha, then it's perfect for them!
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:I'll go get them back. Cover me, Destroyer.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:No problem! Just go ahead!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><SE1>Explode</SE1>:Covered by Destroyer, Alchemist rushes toward the warehouse that's broadcasting the signal...
 ()||<黑屏1><关闭蒙版>:
-()<Speaker></Speaker>||<BIN>72</BIN><黑屏2><SE1>Stop_AVG_loop</SE1><回忆><BGM>BGM_Empty</BGM><边框>2</边框>:……穆罗梅茨网络系统。+UMP45将埃涅阿斯会议室的资源转移到了这里。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框><BGM>GF_EV9_Story</BGM>:这是铁元素之前和娜希斯交手时留下的。
-BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:……+播放吧。
-BOSS-9(0)<Speaker>建筑师</Speaker><通讯框>||<边框>2</边框><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>快想想办法啊！这家伙的浮游刃是无穷无尽的吗？！</color>
-BOSS-7(0)<Speaker>计量官</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>听着，一会我给你指示，你就朝着她开炮。</color>
-BOSS-9(0)<Speaker>建筑师</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>没用啊，我的炮火打在她身上跟烟花一样！</color>
-BOSS-7(0)<Speaker>计量官</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>听我的！</color>
-()<Speaker></Speaker>||<SE1>Explode</SE1><边框>2</边框>:轰隆隆——在嘈杂的背景音中，能听见一发榴弹击中目标的声音。
-BOSS-9(0)<Speaker>建筑师</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>哇，你怎么做到的！她刚刚想放浮游刃，被打断了！</color>
-BOSS-7(0)<Speaker>计量官</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>她释放远程浮游刃的时候，需要集中精神，你趁她这个时候集火，给我争取时间。</color>
-BOSS-9(0)<Speaker>建筑师</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>交给我吧！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><边框>2</边框>:UMP45关闭了录音。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:很遗憾，最终因为帕拉蒂斯的增援，她们没能突破娜希斯的封锁。+但我认为她们的这段录音非常有价值。
-BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:法官沉默地看向铁元素的资料库。
-BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:好，Fe56 C组尝试使用这个策略，D组按原计划从塔顶开始攻占西塔，解除火力封锁和后续增援。
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||<边框>2</边框>:我同意。
-BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:……
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:你还有话想说。
-BossJustice(0)<Speaker>法官</Speaker>||<边框>2</边框>:那两个家伙……+她们没有丢铁血的脸，好好地战斗到了最后，对吧？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:是的，仅靠两个人一直战斗到了最后一刻。
-BossJustice(0)<Speaker>法官</Speaker>||:那就足够了。
+()<Speaker></Speaker>||<BIN>72</BIN><黑屏2><SE1>Stop_AVG_loop</SE1><回忆><BGM>BGM_Empty</BGM><边框>2</边框>:...In the Muromets network. +UMP45 has transferred the Aeneas Conference Room's resources here.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框><BGM>GF_EV9_Story</BGM>:This was left behind from Squad Ferrum's encounter with Narciss.
+BossJustice(0)<Speaker>Judge</Speaker>||<边框>2</边框>:... +Play it.
+BOSS-9(0)<Speaker>Architect</Speaker><通讯框>||<边框>2</边框><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Hurry up and figure something out! Is there really no end to her floating blades?!</color>
+BOSS-7(0)<Speaker>Gager</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>Listen up. Once I give the order, fire on her.</color>
+BOSS-9(0)<Speaker>Architect</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>It's no use! All my shots do is explode harmlessly on her in a shower of sparks!</color>
+BOSS-7(0)<Speaker>Gager</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>Just do as I say!</color>
+()<Speaker></Speaker>||<SE1>Explode</SE1><边框>2</边框>:Boom! The sound of a single grenade striking home can be heard amidst the background noise.
+BOSS-9(0)<Speaker>Architect</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>Wow, how did you do that? She was just about to deploy a floating blade but you interrupted her!</color>
+BOSS-7(0)<Speaker>Gager</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>She needs to concentrate when deploying a floating blade for a long-ranged attack. Attack her when she's doing that and buy me time.</color>
+BOSS-9(0)<Speaker>Architect</Speaker><通讯框>||<边框>2</边框>:<color=#00CCFF>Leave it to me!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><边框>2</边框>:UMP45 turns off the recording.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:Unfortunately, they didn't manage to escape Narciss because of Paradeus reinforcements. +But I believe that recording gives some very valuable insights.
+BossJustice(0)<Speaker>Judge</Speaker>||<边框>2</边框>:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:Judge looks silently at Ferrum's data.
+BossJustice(0)<Speaker>Judge</Speaker>||<边框>2</边框>:Alright. Team Fe56-C will try that strategy, while Team D will follow the plan and attack the Western Tower from the roof. We'll provide support once we eliminate the enemy fire support.
+NPC-SCAR-L(0)<Speaker>Aliana</Speaker>||<边框>2</边框>:I agree.
+BossJustice(0)<Speaker>Judge</Speaker>||<边框>2</边框>:...
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:You have something else to add?
+BossJustice(0)<Speaker>Judge</Speaker>||<边框>2</边框>:Those two... +They didn't disgrace Sangvis Ferri and fought to the very end, didn't they?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<边框>2</边框>:Yes. Even though it was just the two of them, they went out guns blazing.
+BossJustice(0)<Speaker>Judge</Speaker>||:That's good enough.
 ()||<黑屏1><关闭蒙版>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_amb_thunderrain</SE1><BIN>482</BIN><common_effect>%%code=CJ_rain%%</common_effect>:……阿佛那斯，西塔，塔外平台。
-()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:轰隆隆——接连不断的爆炸震得地板隐隐发颤。
-BOSS-4(0)<Speaker>干扰者</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>喂，总部，这里是D组。</color>
-BossJustice(0)<Speaker>法官</Speaker>||:直接汇报情况。
-BOSS-4(0)<Speaker>干扰者</Speaker><通讯框>||:<color=#00CCFF>我们已经成功降落到西塔的塔顶了，暂时还未和敌人交锋。</color>+<color=#00CCFF>和情报一样，这里的安防很薄弱。</color>
-BossJustice(0)<Speaker>法官</Speaker>||:按原计划继续行动。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:法官放下了通讯。
-BossJustice(0)<Speaker>法官</Speaker>||:加大火力，掩护D组。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<SE1>AVG_weapon_reload</SE1>:好！看我这一招——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:法官将视线从正在平台上和炼金术士配合默契的破坏者身上收回，看向一旁有些无所事事的梦想家。
-BossJustice(0)<Speaker>法官</Speaker>||:梦想家，我检测到有个不寻常的单位在高速移动，应该就是情报中的娜希斯。+你去高处埋伏她。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:知道啦。
-BossJustice(0)<Speaker>法官</Speaker>||:别忘记代理人的嘱咐，我们要回收建筑师和计量官。+还有——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:梦想家拉伸了下身体，露出一个危险的笑容。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<BGM>BGM_Empty</BGM>:血债血偿。
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_amb_thunderrain</SE1><BIN>482</BIN><common_effect>%%code=CJ_rain%%</common_effect>:...On the platform outside the Western Tower, Avernus.
+()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:(Rumble) The continuous bombardments make the ground tremble.
+BOSS-4(0)<Speaker>Intruder</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Oi, HQ, this is Team D.</color>
+BossJustice(0)<Speaker>Judge</Speaker>||:Report in.
+BOSS-4(0)<Speaker>Intruder</Speaker><通讯框>||:<color=#00CCFF>We've successfully landed on the roof, but we haven't made contact with the enemy yet.</color> +<color=#00CCFF>It's just like our intel said. The defenses here are very weak.</color>
+BossJustice(0)<Speaker>Judge</Speaker>||:Carry on. Stick to the plan.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Judge puts down her communicator.
+BossJustice(0)<Speaker>Judge</Speaker>||:Keep firing. Cover Team D.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<SE1>AVG_weapon_reload</SE1>:Okay! Now watch this!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Satisfied with how Destroyer and Alchemist are working together, she redirects her attention to Dreamer by her side, who is looking a little bored.
+BossJustice(0)<Speaker>Judge</Speaker>||:Dreamer, I picked up an unusual high-speed contact. It is most probably Narciss from our intel. +Get to a high place and ambush her.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Alright, alright.
+BossJustice(0)<Speaker>Judge</Speaker>||:Don't forget what Agent said. Our task is to recover Architect and Gager. +And...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Dreamer stretches, and a dangerous smile spreads across her face.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<BGM>BGM_Empty</BGM>:Make her pay in blood.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<关闭蒙版><BIN>9</BIN>:……
+()<Speaker></Speaker>||<关闭蒙版><BIN>9</BIN>:...
 ()||<黑点1>:
-()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><BIN>483</BIN><黑点2><BGM>GF_22W_BGM_4</BGM>:……阿佛那斯，西塔，塔外平台区域。
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:嘭——！
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_lifttable</SE1>:一声巨响后，砖石飞溅，被破坏者爆破的入口经历了二次爆破。+离入口不远的炼金术士也被卷入了爆炸，被冲击在地，离库房的距离又远了几分。
-Narciss(1)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:我还以为是谁呢？+出门一看，老三样啊，偷袭、爆破大门、正面和我打近战……+不得不说，真是一家人啊，连愚蠢的模样都这么相似。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:你谁啊！你就是那个娜希斯吗？！
-Narciss(1)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:是我，好好记住这个名字！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:唰——几把浮游刃刺向破坏者，被她轻盈地躲掉。+而在同一瞬间——
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:铮——炼金术士也闪现到了她的身后，给出了一记斩击。
-Narciss(0)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:卑鄙！
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:如果能够毁灭掉你，卑鄙一点又何妨？
-BOSS-6(0)<Speaker>破坏者</Speaker>||<SE1>AVG_weapon_reload</SE1>:看这招啊！
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰——近距离的炮火，将娜希斯拍飞，撞倒在墙上。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:她立刻做出了回应，翻身跃向了高处，拉开了和铁血的距离。
-Narciss(1)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:你们的配合，和之前那两个废物一样。+看似默契，但在我的浮游刃下，什么都不是！
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:……
-BOSS-6(0)<Speaker>破坏者</Speaker>||:她要开大招了吗！
-()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:娜希斯的身边出现了更多的浮游刃，它们的方向一致，直直地瞄准了铁血……
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:她的浮游刃……数量似乎没有埃涅阿斯提供的情报里的多……
-BOSS-6(0)<Speaker>破坏者</Speaker>||:我们能应付！
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:去死吧！
-()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><SE1>AVG_Explo_Close</SE1><震屏3>:轰——冷酷又精准的一发激光光束。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1>:将娜希斯戴在头部的面具当场击碎。+如果她没有及时躲闪的话，被击碎的或许就是她的头颅了。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:哎呀，歪了点。
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:怎么还有一只虫子？！
-BOSS-6(0)<Speaker>破坏者</Speaker>||:梦想家！支援！
-()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><SE1>AVG_NightVision_Start</SE1><震屏3>:轰——又是一发残酷的激光光束，直接贯穿了一整排的涅托。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:我喜欢你这招，很甜美。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<SE1>ClothingUp</SE1>:多谢。
-()<Speaker></Speaker>||:有了梦想家的增援后，平台上涌动的涅托很快被清洗一空。
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:去死吧！都去死吧！你们这些卑鄙的废物！
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><SE1>AVG_NightVision_Start</SE1><SE1>AVG_XXS_kick</SE1>:砰——
-()<Speaker></Speaker>||:一发激光束擦过了她的手臂。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:娜希斯立刻从原来的位置躲开，和偷袭的梦想家遥遥对峙。
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:又是你！
-BOSS-11(0)<Speaker>梦想家</Speaker>||:“废物”这种称号，我也会用来叫那几个家伙。+但是——
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:咔哒——梦想家抬高了激光枪。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:只有我才可以这么叫她们。
-Narciss(0)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:……
-()<Speaker></Speaker>||<BGM>10244</BGM>:被逼入绝境，娜希斯的表情突然变得怪异起来，像是被恐惧占领，又像是迎来了某种狂欢。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:最终，她弯下腰，爆发出一阵骇人诡异的大笑。
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||:哈哈哈哈哈……+废物？连叫别人废物都不被允许？！
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position>||:<size=50>凭什么！就因为我不是完美的那一个吗！</size>
-()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:娜希斯骤然放出了所有浮游刃，开始高速在平台间的各个区域闪现……
-Narciss(2)<Speaker>娜希斯</Speaker><Position>0,-100</Position><Shake>0.1</Shake>||:<size=50>我这么拼命地杀！就为了摆脱废物的命运！我明明很会杀戮啊！</size>+<size=50>为什么还看不起我？！为什么还要逼我！</size>
-BOSS-6(0)<Speaker>破坏者</Speaker>||:她在干什么？！
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:……
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_20Winter_Knife_Whoosh</SE1>:咻——+数发浮游刃冷不丁地射向破坏者，被炼金术士挡下。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:她在企图用疯狗战术来拖延我们。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:哈，那我们怎么办？
-BOSS-11(0)<Speaker>梦想家</Speaker>||:我们要让她好好见识下，什么叫血债血偿。
-()||<黑点1>:
+()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><BIN>483</BIN><黑点2><BGM>GF_22W_BGM_4</BGM>:...On the platform outside the Western Tower, Avernus.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:Kaboom!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_lifttable</SE1>:There is a loud explosion, and the entrance which Destroyer blew up once again explodes in a shower of debris. +Alchemist, who is standing nearby, is caught by the blast and sent sprawling to the ground, further from her objective.
+Narciss(1)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:And here I was wondering who it was. +I take a look outside and it's the same old rubbish; ambushes, blowing the entrance up, fighting me head-on in close combat... +I have to say, birds of a feather really do flock together, and it seems your stupidity runs in the family.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Who the hell are you?! Are you Narciss?!
+Narciss(1)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:That's my name. Make sure you remember it!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:Whoosh! Several floating blades streak toward Destroyer, but she nimbly avoids them. +At the same time...
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:Shing! Alchemist suddenly appears behind her and slashes down.
+Narciss(0)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:That's cheap!
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Anything goes as long as it lets me take you down.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<SE1>AVG_weapon_reload</SE1>:Now watch this!
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Boom! The shell impacts at close range, sending Narciss flying through the air and crashing into a wall.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:She immediately responds by leaping to a high point and getting out of the Sangvis Dolls' range.
+Narciss(1)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:The two of you are exactly like those two pieces of trash from before. +You may look coordinated, but you're anything but when going up against my floating blades!
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:...
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Is she pulling out some kind of ultimate skill?!
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:More floating blades appear around Narciss, all pointed straight at the S.F. Dolls...
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:She doesn't seem to have many more blades than the Aeneas intel...
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:We can handle it!
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:NOW DIE!
+()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><SE1>AVG_Explo_Close</SE1><震屏3>:Boom! A ruthlessly accurate beam of light strikes home.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1>:It destroys the mask on Narciss' face. +If she hadn't dodged in time, it might have gone through her skull instead.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Aw, I missed.
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:Why is there another bug?!
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Dreamer! Back us up!
+()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><SE1>AVG_NightVision_Start</SE1><震屏3>:Boom! Another deadly beam blasts through an entire row of Nytos.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:I like that move of yours. Very yummy.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<SE1>ClothingUp</SE1>:Thank you.
+()<Speaker></Speaker>||:With Dreamer's support, the Nytos thronging the platform are soon wiped out.
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:Die already, all of you! You're nothing but cheap pieces of trash!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake><SE1>AVG_NightVision_Start</SE1><SE1>AVG_XXS_kick</SE1>:Bang!
+()<Speaker></Speaker>||:Another laser beam grazes her arm.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Narciss immediately darts away from her previous position and stares down Dreamer, who is far off in the distance.
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:You again!
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Now, I'd also describe that lot as "trash". +However...
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:Click... Dreamer raises her laser rifle.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:I'm the only one who gets to call them that.
+Narciss(0)<Speaker>Narciss</Speaker<Position>0,-100</Position>||<BGM>BGM_Empty</BGM>:...
+()<Speaker></Speaker>||<BGM>10244</BGM>:As she's pushed into a corner, a strange change comes over Narciss' expression. First, it looks like she's afraid, then she seems to be caught in the grip of some kind of rapture.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:At last, she bends down and bursts into creepy laughter.
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position><Shake>0.1</Shake>||:Hahahahaha... +Trash? So I don't even get to call others trash?!
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position>||:<size=50>Why is that?! Is it because I'm not the perfect one?!</size>
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:Narciss suddenly fires off all her floating blades, sending them across the platform at high speed...
+Narciss(2)<Speaker>Narciss</Speaker<Position>0,-100</Position><Shake>0.1</Shake>||:<size=50>I put so much effort into killing! Because I wanted to escape the fate of being trash! I'm a great killer, aren't I?</size> +<size=50>So why do you keep looking down on me?! Why do you keep pissing me off?!</size>
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:What the hell is she doing?
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Whoosh! +Several floating blades suddenly lance out at Destroyer, but Alchemist blocks them.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:She's trying to delay us by going berserk.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Huh, so what should we do now?
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:We're going to show her the meaning of "blood for blood".
+()||<黑点1>:

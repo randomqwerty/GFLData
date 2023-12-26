@@ -1,25 +1,25 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>449</BIN><BGM>GF_EV9_Story</BGM>:……阿佛那斯，未知。+一条僻静的走廊自脚下延伸至不远处，尽头只剩一间被处理干净的空房间。+两侧的墙壁隐约残余些许战斗的痕迹。
-()||<BIN>449</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:点击放大镜，进行敏感信息挖掘<cg>-600,100<cg>600,0<cg>120,-160
-()||<分支>1</分支>:……+墙壁整体很干净，能看出曾有修补粉刷的迹象。+不过仔细观察的话，墙根的部位有新鲜的剐蹭痕迹。+看上去是跑动时，被谁的鞋子边缘刮破了一点墙皮。
-()||<分支>2</分支>:几发弹痕留在了墙体中，时间应该不久。+除此以外，墙体完好，洁白无瑕。
-()||<分支>3</分支>:门口的识别装置已经被完全初始化，丧失了全部存储信息。+连屏幕上的指纹也被擦得干干净净。
-()||:……+只剩下房门正上方的监控探头还有调查的价值。+原本以为即便能成功骇入，里面也不会留有任何信息——+但没想到，里面还特意留下了一份礼物。
+()||<黑屏2><BIN>449</BIN><BGM>GF_EV9_Story</BGM>:...Unknown location, Avernus. +A silent path extends a short distance forward, ending in an empty room which has been scrubbed clean. +There are faint traces of a previous battle on the walls on either side.
+()||<BIN>449</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:Click the magnifying glass to perform sensitive site exploitation.<cg>-600,100<cg>600,0<cg>120,-160
+()||<分支>1</分支>:... +The walls are very clean, and there are signs that they have been whitewashed. +Upon closer inspection, however, there are fresh scratch marks at their base. +Someone's shoes seem to have scuffed them while running.
+()||<分支>2</分支>:Several bullets have struck the wall, probably not long ago. +Apart from that, the walls are intact and immaculate.
+()||<分支>3</分支>:The door's ID mechanism has been completely formatted, and all data on it has been lost. +Even the fingerprints there have been scrubbed clean.
+()||:...The only thing left worth investigating is the camera that hangs above the room. +One would not expect to find anything even if the system can be hacked... +But surprisingly enough, someone has left a little surprise behind.
 ()||<黑点1>:
-()||<黑点2><BIN>247</BIN><SE1>AVG_whitenoise</SE1><BGM>BGM_Empty</BGM>:……+这是一段监控录像——
+()||<黑点2><BIN>247</BIN><SE1>AVG_whitenoise</SE1><BGM>BGM_Empty</BGM>:... +This is a surveillance video clip...
 ()||<BIN>183</BIN><SE1>AVG_Rain_Heavy</SE1><common_effect>%%code=NoiseVideo%%wait=1%%</common_effect>:
-()||<白屏2><BIN>449</BIN><SE1>Stop_AVG_loop</SE1><回忆><BGM>m_avg_labyrinth</BGM>:监控探头完整地容纳了实验室大门的视野。+以及附近的声音。+连门内的对话，都一清二楚。
-()<Speaker>默莉朵</Speaker>||:请问还有别的吩咐吗？
-()||:没有等到任何回应。+随后，默莉朵的声音再度响起。
-()<Speaker>默莉朵</Speaker>||:……再见了，父亲大人。+我会忠实地执行您完美的计划。
-()||<SE1>AVG_door_elecport</SE1>:唰——+这间实验室的门打开了。+一个女人从房间中走出，她停留在门口，突然转过身去，对着门内的人微微笑了一下。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:对了父亲大人，恒温系统即将关闭。+请您务必注意保暖。
-()||:她微笑着关上门。+面孔缓缓转过来，直到正对着监控。+她甚至略微抬了抬头，仿佛在调节自己在监控中的面容角度。+手指在发尾卷了一个圈，她似乎定了定神，而后才从容离去。
+()||<白屏2><BIN>449</BIN><SE1>Stop_AVG_loop</SE1><回忆><BGM>m_avg_labyrinth</BGM>:The security camera is zoomed in to fully encompass the lab entrance. +Even the conversation behind the door is perfectly audible.
+()<Speaker>Morridow</Speaker>||:Do you have any further orders?
+()||:There is no response. +After the pause, Morridow speaks again.
+()<Speaker>Morridow</Speaker>||:...Goodbye, Father. +I will faithfully execute your perfect plan.
+()||<SE1>AVG_door_elecport</SE1>:Whoosh. +The lab door opens. +A woman emerges. She stops in the doorway, then turns around to smile at the person inside the room.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Oh yes, Father, the thermostat will be shutting off soon. +Please keep yourself warm.
+()||:She closes the door with a smile. +She turns until she is facing the camera. +She even raises her head slightly to ensure the camera gets a good look at her. +She twirls a strand of her hair around her fingers. After taking the time to compose herself, she saunters off.
 ()||<BIN>183</BIN><SE1>AVG_Rain_Heavy</SE1><common_effect>%%code=NoiseVideo%%wait=1%%</common_effect>:
-()||<白屏2><BIN>449</BIN><SE1>Stop_AVG_loop</SE1>:……
-()||<BIN>9</BIN><SE1>AVG_2022Saros_SCARL2</SE1><SE1>AVG_21Winter_Phone_Crash</SE1>:啪——
-()||:忽然一声枪击响起，监控头失去了视野。+然而录制模式仍旧运转着……
-()<Speaker>AN94</Speaker>||:举起手来，威廉，背对我们慢慢趴下。
-()||:一个男人的声音慢悠悠地响起，有着不属于成年人的清脆音色。+青涩的声音，配上成熟的口吻。
-()<Speaker>？？？</Speaker>||:看来要求人形遵守礼节是件很奢侈的事。+走吧，我早就想见见你们那位——指挥官。
-()||<黑点1><关闭蒙版>:……
+()||<白屏2><BIN>449</BIN><SE1>Stop_AVG_loop</SE1>:...
+()||<BIN>9</BIN><SE1>AVG_2022Saros_SCARL2</SE1><SE1>AVG_21Winter_Phone_Crash</SE1>:Snap!
+()||:A gunshot suddenly rings out, and the camera goes dark. +However, it is still recording...
+()<Speaker>AN-94</Speaker>||:Hands up, William. Keep your back to us and slowly get down on the floor.
+()||:A man's voice leisurely answers her. It rings with a timbre that is too bright for an adult man's voice. +His voice is youthful, but his tone is mature.
+()<Speaker>???</Speaker>||:I probably shouldn't expect Dolls to adhere to social etiquette. +Let's go, then. I've long wanted to meet that Commander of yours.
+()||<黑点1><关闭蒙版>:...

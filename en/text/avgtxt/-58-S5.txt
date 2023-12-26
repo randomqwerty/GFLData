@@ -1,56 +1,56 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>450</BIN>:……
-()||<SE1>AVG_21Winter_Error</SE1><BGM>BGM_Room</BGM>:<color=#FFFF00>ERROR！</color>
-BOSS-11(0)<Speaker>梦想家</Speaker>||:门禁无法骇入？这里的加密等级比楼下的加一起还高。+破坏者，你要干什么？住手——
-BOSS-6(0)<Speaker>破坏者</Speaker>||:当然是，快乐蹦蹦了！
-()||:……
-()||<SE1>Explode</SE1><黑屏2><BIN>450</BIN><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:轰——
-()||:76层实验室的合金大门被硬生生炸开一个洞！+尘埃散去，破坏者拍拍手，粉尘扑簌簌往下掉。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:哼哼，没有任何一扇门能挡住我的精准爆破！
-BOSS-11(0)<Speaker>梦想家</Speaker>||:咳咳——还有精准掩埋队友。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:那是、是误差啦！
-()||:梦想家率先进入实验室。
-BOSS-11(0)<Speaker>梦想家</Speaker>||:室内安全！+这是——你们快来看！
+()||<黑屏2><BIN>450</BIN>:...
+()||<SE1>AVG_21Winter_Error</SE1><BGM>BGM_Room</BGM>:<color=#FFFF00>ERROR!</color>
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:I can't hack the door? The security level here is higher than all the floors below combined. +Destroyer, what are you doing? Stop—
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Time to do what I do best!
+()||:...
+()||<SE1>Explode</SE1><黑屏2><BIN>450</BIN><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake>:Boom!
+()||:A huge hole erupts in the alloy door leading to the labs on level 76. +As the smoke clears, Destroyers dusts her hands off.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Hehe, no door can withstand my precise demolition!
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:(Coughs) Your teammates can't withstand it either.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:There... there's bound to be some margin of error!
+()||:Dreamer leads the way into the lab.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Clear! +This is... Guys, come take a look at this!
 ()||<黑屏1>:
-()||<黑屏2><BIN>653</BIN>:……
-BossJustice(0)<Speaker>法官</Speaker>||:和楼下的实验室比起来，这里干净得赏心悦目。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:打扫得真彻底呢，重要物品都被带走了。
-BossJustice(0)<Speaker>法官</Speaker>||:时间紧迫，快速调查一下吧。
-()||<SE1>AVG_tele_connect</SE1>:法官打开了记录仪。
-()||<BIN>653</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:点击放大镜，进行敏感信息挖掘<cg>60,-255<cg>480,-190<cg>-120,-25<cg>300,10
-()||<分支>1</分支>:冰冷的手术台，被擦拭得明净锃亮。
-()||<分支>1</分支>:……
-()||<分支>1</分支><SE1>ClothingUp</SE1>:法官蹲下身，在手术台底部仔细寻找。+缝隙里，一片绿豆大的带血组织挂在上面，已略显干涸，法官小心翼翼夹起，放入分析仪器。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>1</分支>:手势相当专业啊，你改名叫法医吧。+嘻嘻♪，意外的合适呢。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>1</分支>:……如果你来做我第一位尸检样本，我会考虑的。
-()||<分支>1</分支>:分析结果很快出来了。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>1</分支>:根据DNA比对，是安洁。+成分显示，组织中渗有微量的β型缓和剂，这种缓和剂主要添加在义肢的润滑剂中。+初步判断，这部分人体组织来自安洁的左臂。
-()||<分支>2</分支>:一处空荡荡的操作台，能看到部分设备被搬走后留下的印痕。+设备接线还在，似乎可以尝试接入。+……
-()<Speaker>数据碎片</Speaker>||<分支>2</分支>:……认知和知觉先于个体经验而存在…………■■■■能适应外部环境……+■■■■的存在，使集体无意识成为可能……+……意识不仅仅产生于■■■■……刺激■■■重建意识……+但这一方法仍存在缺陷，排异反应很可能导致……+神经锁结……基于神经元……+携带芯片……■■■■和辐射……对神经产生■■■■……
-()||<分支>2</分支>:……
-()||<分支>3</分支>:手术台挂载了三个不同角度的摄像头，用来记录手术过程。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>3</分支>:视频数据被删除了，我尝试一下恢复……+找到了一段残存的数据。
-()||<分支>3</分支>:LOADING……
+()||<黑屏2><BIN>653</BIN>:...
+BossJustice(0)<Speaker>Judge</Speaker>||:This place is incredibly neat and tidy compared to the labs below.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Yeah, they totally cleaned this place out. They moved everything of importance.
+BossJustice(0)<Speaker>Judge</Speaker>||:Time is tight; let's check it out quickly.
+()||<SE1>AVG_tele_connect</SE1>:Judge turns on her camera.
+()||<BIN>653</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:Click the magnifying glass to perform sensitive site exploitation.<cg>60,-255<cg>480,-190<cg>-120,-25<cg>300,10
+()||<分支>1</分支>:This is an ice-cold operating table, polished to a shine.
+()||<分支>1</分支>:...
+()||<分支>1</分支><SE1>ClothingUp</SE1>:Judge bends down and carefully searches the area below the table. +There is a dried-out piece of blood-soaked tissue the size of a mung bean stuck in a crevice. Judge carefully tweezers it out and places it on an analyzer.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>1</分支>:That was pretty professional. Maybe you should call yourself Coroner instead. +Heh ♪, it even fits, kind of.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>1</分支>:...I might consider that if you'd be my first cadaver.
+()||<分支>1</分支>:The analysis results are soon available.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>1</分支>:DNA analysis indicates that this tissue belongs to Angelia. +The makeup indicates that the tissue contains small quantities of β-type anti-inflammatory chemicals, which are primarily used in artificial limb lubricants. +Initial analysis suggests that this portion of human tissue came from her left arm.
+()||<分支>2</分支>:This is a solitary operating console. There are marks on the surface where other pieces of equipment have been removed. +The connector cables are still there and apparently usable...
+()<Speaker>Data Fragment</Speaker>||<分支>2</分支>:...Cognition and perception exist before individual experience... ■■■■ can adapt to the external environment... +The existence of ■■■■ suggests the possibility of collective unconsciousness... +...Consciousness is not only generated from ■■■■... Stimulating ■■■ to reconstruct the consciousness... +But this method is still flawed, and rejection will likely lead to... +Neural calcification... Based on neurons... +Using chips... ■■■■ and radiation... produces ■■■■ on nerves...
+()||<分支>2</分支>:...
+()||<分支>3</分支>:There are three cameras hanging over the operating table at different angles, most likely for recording surgical procedures.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>3</分支>:The video files have been deleted. I'll try to restore them... +I've found a remaining snippet.
+()||<分支>3</分支>:LOADING...
 ()||<分支>3</分支><黑屏1><BGM>BGM_Empty</BGM>:
-()||<分支>3</分支><黑屏2><BIN>639</BIN><回忆><BGM>m_avg_labyrinth</BGM>:……+无影灯照射着手术台，无菌单下躺着一个人。+手术静静进行着，没有任何人声。+直到1分12秒，受术者的脚忽然一动！
-()<Speaker>畏惧的声音</Speaker>||<分支>3</分支><SE1>ClothingUp</SE1>:她、她的脚……刚动了一下！+而且，血压心率都上来了。
-()<Speaker>冷淡的女声</Speaker>||<分支>3</分支>:嗯。
-()<Speaker>畏惧的声音</Speaker>||<分支>3</分支>:您吩咐的麻醉剂量，我全打了，一点没少！
-()<Speaker>冷淡的女声</Speaker>||<分支>3</分支>:不是你的问题。
-()<Speaker>畏惧的声音</Speaker>||<分支>3</分支>:发生术中知晓……要……继续增加剂量吗……
-()||<分支>3</分支>:无影灯下，手术刀一寸一寸拂过肌肤，过于锋锐的刀口划出一条极细微的血线。
-()<Speaker>冷淡的女声</Speaker>||<分支>3</分支>:不必。
-()||<分支>3</分支>:……这一刻我以为自己会有很多情绪。+原来什么都没有。+安娜……时间过去太久……一切感受都归于麻木。+我期待你给我带来新的惊喜。
-()||<分支>3</分支>:无菌单下的人影没有任何反应，也无法给出任何反应。+……
+()||<分支>3</分支><黑屏2><BIN>639</BIN><回忆><BGM>m_avg_labyrinth</BGM>:... +A shadowless lamp illuminates the operating table, where a person lies under a sterile drape. +The operation proceeds smoothly in silence. +Then, at the 1m 12s mark, the patient's foot jerks.
+()<Speaker>Fearful Voice</Speaker>||<分支>3</分支><SE1>ClothingUp</SE1>:H-her leg... it just moved! +H-her BP and HR are also rising!
+()<Speaker>Calm Woman's Voice</Speaker>||<分支>3</分支>:Mm.
+()<Speaker>Fearful Voice</Speaker>||<分支>3</分支>:I gave her the full dose of the anesthetic you ordered, not one drop less!
+()<Speaker>Calm Woman's Voice</Speaker>||<分支>3</分支>:It's not your fault.
+()<Speaker>Fearful Voice</Speaker>||<分支>3</分支>:Intraoperative awareness has occurred... Should... should we increase the dosage...?
+()||<分支>3</分支>:Under the shadowless lamp, the scalpel continues moving over the patient's skin, the sharp blade leaving thin streaks of blood in its wake.
+()<Speaker>Calm Woman's Voice</Speaker>||<分支>3</分支>:No.
+()||<分支>3</分支>:...I thought I'd be quite emotional at this point. +As it turns out, I'm not feeling anything at all. +Anna... Too much time has passed... and all my feelings have gone numb. +I hope you'll give me a new surprise.
+()||<分支>3</分支>:The patient under the sterile drape makes no response. Not that she can. +...
 ()||<分支>3</分支><黑屏1><BGM>BGM_Empty</BGM>:
 ()||<分支>3</分支><黑屏2><BIN>653</BIN><关闭蒙版><BGM>BGM_Room</BGM>:
-()||<分支>4</分支>:传递窗不知道被谁推开了一条缝隙，大概能塞一些轻薄的片状物进来。
-()||<分支>4</分支>:从这里可以看到传递窗外侧，竖着一排排净化装置，不过现在已经停止运行了。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:我们走吧，去炸——去搜索下一个实验室。
-()||:法官和炼金术士正要断开链接，忽然——
-BOSS-11(0)<Speaker>梦想家</Speaker>||<SE1>AVG_whitenoise</SE1>:信号干扰？
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:哦，一段充斥着败者气息的留言。
-()||:电流杂音中，一个冷淡的女声响起。
-()<Speaker>拉普拉斯</Speaker>||:<color=#00CCFF>如果人生注定是一场徒劳，那么挣扎的意义究竟是什么？</color>
-()||:……
-()||<黑点1>:
+()||<分支>4</分支>:Someone has cracked the pass-through window open by a bit, probably just enough to stuff a thin, flat object through it.
+()||<分支>4</分支>:The area beyond it is visible through the window. There are rows of purification equipment there, but they have all stopped working now.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:Let's go blow up... I mean, search the next lab.
+()||:Judge and Alchemist are about to break the connection, but then—
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<SE1>AVG_whitenoise</SE1>:Signal jamming?
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Oh yes, sounds like the last words of a loser.
+()||:A calm woman's voice speaks over the sound of static.
+()<Speaker>Laplace</Speaker>||:<color=#00CCFF>If everything in life is futile, then what is the point in struggling?</color>
+()||:
+()||<黑点1>:

@@ -1,74 +1,74 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑点2><BIN>446</BIN><SE1>AVG_Team_Running</SE1><BGM>GF_EV9_Story</BGM>:沿着大厅东侧的楼梯拾级而上，犹如工厂一般精细规划模块的区域就展现在了眼前。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:这是什么地方？
-BossJustice(0)<Speaker>法官</Speaker>||:根据目前已知的地图，这里是帕拉蒂斯的训练场。
-()||<SE1>AVG_20Winter_Gate_Close</SE1>:炼金术士用手中的利刃微微推开一旁虚掩的房门，里面的器械和设备还安然摆放在原地。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||:看来都不是什么重要的设备，帕拉蒂斯甚至懒得将它们销毁。
-BOSS-6(0)<Speaker>破坏者</Speaker>||:它们留下了好多东西……
-BOSS-11(0)<Speaker>梦想家</Speaker>||:法官，我们从哪里开始搜查？
-()||<BGM>BGM_Empty</BGM><BIN>446</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:点击放大镜，进行敏感信息挖掘<cg>-800,-380<cg>-50,140<cg>800,8
-()||<分支>1</分支>:楼梯扶手。
-()||<分支>1</分支><黑点1><BGM>m_avg_labyrinth</BGM>:法官的目光直勾勾盯着走廊边缘的扶手，一连串干涸的血迹摇摇欲坠地走向了其中一个训练室。+注意到了法官的视线，炼金术士悄无声息地走向了训练室。
-()||<分支>1</分支><黑点2><BIN>563</BIN><SE1>AVG_20Winter_Gate_Close</SE1>:嘎吱——
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>1</分支>:……
-()||<分支>1</分支>:她尝试推开门，门在触碰到阻碍物后就再也无法移动。+法官给她打了个手势，示意敌人就在门后。+破坏者也为她做好了打掩护的准备，一切就绪，炼金术士高举手中的利器——
-()<Speaker>？？？</Speaker>||<分支>1</分支>:呜……
-()||<分支>1</分支>:一声轻微破碎的呜咽声从门后传来。
-()<Speaker>？？？</Speaker>||<分支>1</分支>:别再打我了……我真的已经累了……
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>1</分支>:……
-()<Speaker>？？？</Speaker>||<分支>1</分支>:姐姐……求求你放过我吧……+就让我休息五分钟……不，三分钟就够了！
-()||<分支>1</分支><SE1>AVG_Door_Hit</SE1>:得到法官的许可，炼金术士用手中的利器将门轻松卸下扔开——+门后躺着一个支零破碎的黑涅托。+看着突然出现在眼前的Fe56，黑涅托恐慌地扯出一个讨好的笑。
-Nyto(1)<Speaker>黑涅托</Speaker>||<分支>1</分支>:我知道我上次考核又没有达标……对不起，姐姐……+我马上就去训练……再给我一次机会……
-()||<分支>1</分支><SE1>ClothingUp</SE1>:黑涅托想要前往屋中的训练器械，但支离的身躯已不足以支撑她站起，她只能在地上艰难地挪动……
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>1</分支>:停下。
-Nyto(1)<Speaker>黑涅托</Speaker>||<分支>1</分支>:怎么了，姐姐？我真的马上就去——
-()||<分支>1</分支><SE1>AVG_20Winter_Knife_Whoosh</SE1>:唰——炼金术士手起刀落，结束了黑涅托的苟延残喘。
-()<Speaker>炼金术士</Speaker>||<分支>1</分支>:安息吧。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>1</分支>:……
-BossJustice(0)<Speaker>法官</Speaker>||<分支>1</分支>:走了。
+()||<黑点2><BIN>446</BIN><SE1>AVG_Team_Running</SE1><BGM>GF_EV9_Story</BGM>:After climbing up the eastern stairs, they see an area of neatly laid-out modular rooms, like a factory.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:What is this place?
+BossJustice(0)<Speaker>Judge</Speaker>||:According to our map and known intel, this is a Paradeus training facility.
+()||<SE1>AVG_20Winter_Gate_Close</SE1>:Alchemist uses one of her hand-blades to push open a half-closed door to a nearby room, revealing that the machines and devices within have not been disturbed.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||:Looks like they aren't important. Paradeus couldn't even be bothered to destroy them.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||:They left so much stuff behind...
+BOSS-11(0)<Speaker>Dreamer</Speaker>||:Judge, where should we start looking?
+()||<BGM>BGM_Empty</BGM><BIN>446</BIN><hide_dialogue><branchstyle>BranchLabel</branchstyle><t></t><tips>点击放大镜，进行敏感信息挖掘</tips>:Click the magnifying glass to perform sensitive site exploitation.<cg>-800,-380<cg>-50,140<cg>800,8
+()||<分支>1</分支>:The staircase railings.
+()||<分支>1</分支><黑点1><BGM>m_avg_labyrinth</BGM>:Judge studies the handrails running along the side of the staircase. A trail of dried bloodstains leads to one of the training rooms. +After noticing where Judge is looking, Alchemist silently heads toward the room.
+()||<分支>1</分支><黑点2><BIN>563</BIN><SE1>AVG_20Winter_Gate_Close</SE1>:Creeak...
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>1</分支>:...
+()||<分支>1</分支>:She tries to open the door, but it bumps into something behind it and does not move. +Judge signals to her, indicating that there's an enemy behind it. +Destroyer gets ready to cover her. With everything ready, Alchemist raises her hand-blades high...
+()<Speaker>???</Speaker>||<分支>1</分支>:(Whimpers)
+()||<分支>1</分支>:And the sound of feeble sobbing comes from behind the door.
+()<Speaker>???</Speaker>||<分支>1</分支>:Please don't hit me anymore... I'm really tired...
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>1</分支>:...
+()<Speaker>???</Speaker>||<分支>1</分支>:Please let me off, Big Sister... +Just let me rest for five minutes... no, three minutes is fine!
+()||<分支>1</分支><SE1>AVG_Door_Hit</SE1>:After getting the "go ahead" from Judge, Alchemist effortlessly rips the door off its hinges and tosses it aside... +Revealing a battered and mangled Nyto behind it. +As Fe56 suddenly appears before her, the Black Nyto tries to flash them an ingratiating smile to mask her sheer terror.
+Nyto(1)<Speaker>Black Nyto</Speaker>||<分支>1</分支>:I know I didn't meet the standards for the previous test... I'm sorry, Big Sister... +I'll go train right now... Please give me another chance...
+()||<分支>1</分支><SE1>ClothingUp</SE1>:The Black Nyto tries to crawl toward the testing equipment, but her ruined body won't let her stand, and all she can do is writhe on the spot...
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>1</分支>:Stop.
+Nyto(1)<Speaker>Black Nyto</Speaker>||<分支>1</分支>:Why, Big Sister? I was really trying to...
+()||<分支>1</分支><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Whoosh! Alchemist brings her blade down and puts a swift end to the Black Nyto's suffering.
+()<Speaker>Alchemist</Speaker>||<分支>1</分支>:Rest in peace.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>1</分支>:...
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>1</分支>:Let's go.
 ()||<分支>1</分支><黑屏1>:
 ()||<分支>1</分支><黑屏2><BGM>BGM_Empty</BGM><BIN>446</BIN>:
-()||<分支>2</分支><黑屏1>:法官推开门，走入一间空空荡荡的训练室。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支><黑屏2><BIN>73</BIN><BGM>10295</BGM>:这就是帕拉蒂斯训练的地方？
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>2</分支>:看上去很普通啊。
-()||<分支>2</分支><SE1>AVG_Camera_Focus</SE1>:炼金术士拨弄了下其中一台设备的参数调整装置，法官瞥了一眼。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>2</分支>:你试一试就知道，这些设备可一点都不普通。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>2</分支>:啊，为什么？
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支>:以你的智商，还是直接试试吧。
-()||<分支>2</分支>:梦想家将破坏者推进一间攻击速度训练室。
-()||<分支>2</分支><SE1>AVG_Shield_Startup</SE1>:随着设备的启动，破坏者懵然地拿起里面提供的武器，准备应对即将出现的靶标。
-()||<分支>2</分支><SE1>AVG_20Winter_Knife_Whoosh</SE1>:嗖——一个靶标以极快的速度擦过破坏者的身边。
-BOSS-6(0)<Shake>0.1</Shake><Speaker>破坏者</Speaker>||<分支>2</分支>:什么东西啊？！耍我吗！
-()||<分支>2</分支><SE1>AVG_Cloak_Whoosh</SE1>:破坏者恼怒地挥舞着武器，但靶标像是拥有自我意识，灵活地从她的身边逃开了。+很快，训练时间停止，破坏者气喘吁吁地从房间中走出。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支>:成绩C，最差的那一档呢。
-BOSS-6(0)<Speaker>破坏者</Speaker>;BOSS-11(0)||<分支>2</分支>:……你是不是把难度调到最高了？！故意捉弄我！
-BOSS-6(0);BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支>:没有哦，这是最基础的难度。
-BOSS-6(0);BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>2</分支>:我证明，是真的。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>2</分支>:……
-BossJustice(0)<Speaker>法官</Speaker>||<分支>2</分支>:庆幸吧，要是不幸在帕拉蒂斯出厂，你恐怕根本站不到现在。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>2</分支>:难怪那些黑衣白衣的女孩们都能有那样敏捷的身姿……+能通过这种难度的考核，确实已经算是能力不错的打手了。
-BossJustice(0)<Speaker>法官</Speaker>||<分支>2</分支>:梦想家，把这些设备的测试数据备份一下。
-BossJustice(0);BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支>:你难道是想……
-BossJustice(0)<Speaker>法官</Speaker>;BOSS-11(0)||<分支>2</分支>:也许指挥官能用上。+有这样全面严格的考核，基地里一定会少很多笨蛋吧。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>2</分支>:是的。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>2</分支>:……
-()||<分支>2</分支>:在破坏者胆颤的注视下，梦想家开始着手收集帕拉蒂斯训练设备的记录数据。
+()||<分支>2</分支><黑屏1>:Judge pushes the door open and enters an empty training room.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支><黑屏2><BIN>73</BIN><BGM>10295</BGM>:So this is where Paradeus trains, then?
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>2</分支>:Seems normal enough.
+()||<分支>2</分支><SE1>AVG_Camera_Focus</SE1>:Alchemist messes around with some parameter adjustments on one of the consoles, and Judge glances her way.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>2</分支>:If you tried it out, you'd know it's anything but normal.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>2</分支>:Huh? Why?
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支>:Given your IQ, you're better off experiencing it for yourself.
+()||<分支>2</分支>:Dreamer shoves Destroyer into a training room for improving attack speed.
+()||<分支>2</分支><SE1>AVG_Shield_Startup</SE1>:As the equipment starts up, Destroyer picks up the provided weapon in confusion and prepares to take down the targets that will appear.
+()||<分支>2</分支><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Whoosh! A target zips past Destroyer at lightning speed.
+BOSS-6(0)<Shake>0.1</Shake><Speaker>Destroyer</Speaker>||<分支>2</分支>:What the hell?! Are you messing with me?
+()||<分支>2</分支><SE1>AVG_Cloak_Whoosh</SE1>:Frustrated, Destroyer swings her weapon around, but the targets seem to have a mind of their own and nimbly evade her. +Soon, the training time limit expires, and Destroyer leaves the room, panting heavily.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支>:You got a C, the worst possible grade.
+BOSS-6(0)<Speaker>Destroyer</Speaker>;BOSS-11(0)||<分支>2</分支>:...Did you crank up the difficulty to the max?! Were you screwing with me?
+BOSS-6(0);BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支>:Nope. That was the lowest setting.
+BOSS-6(0);BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>2</分支>:It's true. I can vouch for it.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>2</分支>:...
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>2</分支>:Rejoice, if you'd been unlucky enough to be produced in a Paradeus plant, you wouldn't have survived until now.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>2</分支>:No wonder those monochromatically dressed girls are all so agile... +Anyone who can pass such a difficult test is bound to be a decent fighter.
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>2</分支>:Dreamer, make a copy of the data from the equipment.
+BossJustice(0);BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支>:Wait, do you mean...
+BossJustice(0)<Speaker>Judge</Speaker>;BOSS-11(0)||<分支>2</分支>:It might be helpful to the Commander. +If you applied such rigorous and comprehensive testing standards to a base, you'd weed out all the dunces in short order.
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>2</分支>:Alright.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>2</分支>:...
+()||<分支>2</分支>:As Destroyer watches nervously, Dreamer begins downloading all the training data from the Paradeus machines.
 ()||<分支>2</分支><黑屏1><BGM>BGM_Empty</BGM>:
 ()||<分支>2</分支><黑屏2><BIN>446</BIN>:
-()||<分支>3</分支><SE1>AVG_20Winter_Gate_Close</SE1><黑屏1>:法官盯着墙上的怪异凸起，然后猛地拉开——
-()||<分支>3</分支><SE1>AVG_PPT_Switch</SE1><黑屏2><BIN>466</BIN><BGM>BGM_Room</BGM>:唰——一扇狭窄的窗户出现在了眼前。+透过窗户，能清楚地看见整间训练室。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>3</分支>:这个窗户是用来监视里面的训练者吗？
-BossJustice(0)<Speaker>法官</Speaker>||<分支>3</分支>:嗯，没有别的操作开关了。
-()||<分支>3</分支>:炼金术士走进房间，找到窗户对应的地方。+她的脸上浮现出了迷惑的表情，等她回到走廊后，她再次凑近观察起了窗户。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>3</分支>:是单向玻璃，从里面看甚至察觉不到有窗户的存在。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>3</分支>:搞这么麻烦干什么，直接装上监控不就行了。
-BOSS-11(0)<Speaker>梦想家</Speaker>||<分支>3</分支>:监控设备的安装，意味着被监控的对象和监控者都默认行为受到监视这一事实。+但这样的单向玻璃，意味着监控者的绝对掌控，被监控者只能服从。
-BOSS-5(0)<Speaker>炼金术士</Speaker>||<分支>3</分支>:只能战战兢兢地拼命训练，不敢露出一分一秒的懈怠，毕竟你也不知道，什么时候窗外会出现一双凝视你的眼睛。
-BOSS-6(0)<Speaker>破坏者</Speaker>||<分支>3</分支>:……
-BOSS-6(0)<Speaker></Speaker><同时置暗>||<分支>3</分支>:破坏者忍不住打了个寒颤。
-BOSS-6(0)<Shake>0.1</Shake><Speaker>破坏者</Speaker>||<分支>3</分支>:别说了！我们快走吧，法官！
-BossJustice(0)<Speaker>法官</Speaker>||<分支>3</分支>:嗯，这里没有什么有价值的东西。
+()||<分支>3</分支><SE1>AVG_20Winter_Gate_Close</SE1><黑屏1>:Judge eyes the strange protrusion on the wall and then flings it open—
+()||<分支>3</分支><SE1>AVG_PPT_Switch</SE1><黑屏2><BIN>466</BIN><BGM>BGM_Room</BGM>:Whoosh! A small window appears before her. +She can clearly see the entire training room through it.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>3</分支>:Did they use this window to observe the trainees?
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>3</分支>:Yes. No other switches here.
+()||<分支>3</分支>:Alchemist enters the room and finds the observation window's location on the other side of the wall. +Scowling in confusion, she returns to the corridor and studies the window again up close.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>3</分支>:It's one-way glass. There's no way to tell the window even exists from the outside.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>3</分支>:Why go to all this trouble? Why not just install a camera and be done with it?
+BOSS-11(0)<Speaker>Dreamer</Speaker>||<分支>3</分支>:Installing a camera means that the subject and the observer have both complicitly accepted that someone is going to be monitored. +But one-way glass like this implies that the observer has absolute control of the situation and the subject has no choice but to obey.
+BOSS-5(0)<Speaker>Alchemist</Speaker>||<分支>3</分支>:All they can do is train under constant fear without slacking off for a single moment. After all, you never know when a pair of eyes will be watching you through that window.
+BOSS-6(0)<Speaker>Destroyer</Speaker>||<分支>3</分支>:...
+BOSS-6(0)<Speaker></Speaker><同时置暗>||<分支>3</分支>:Destroyer shudders.
+BOSS-6(0)<Shake>0.1</Shake><Speaker>Destroyer</Speaker>||<分支>3</分支>:That's enough! Let's go, Judge!
+BossJustice(0)<Speaker>Judge</Speaker>||<分支>3</分支>:Yes, there's nothing else of value here.
 ()||<分支>3</分支><黑屏1>:
 ()||<分支>3</分支><黑屏2><BIN>446</BIN><BGM>BGM_Empty</BGM>:
-()||:现场信息搜集完毕。
-()||<黑点1>:
+()||:Sensitive site exploitation completed.
+()||<黑点1>:

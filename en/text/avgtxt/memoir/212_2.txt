@@ -1,102 +1,102 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>9</BIN>:……
-()||<BGM>GF_21winter_avg_mahaline</BGM>:女孩做了一个可怖的梦。+梦里，她被陌生的坏人带走，又孤零零地被丢在一个黑漆漆的地方。+她又累又冷，又渴又饿，却没有人能帮帮她。+直到一阵地动山摇，她才终于从这场噩梦中醒来，回到了妈妈温暖的怀抱。+她努力地想要抬起手指，告诉妈妈她有多害怕……
+()||<黑屏2><BIN>9</BIN>:...
+()||<BGM>GF_21winter_avg_mahaline</BGM>:A little girl finds herself in a terrible dream. +In it, she's been taken away by strangers, then left in a dark place, all alone. +She's cold and tired, thirsty and starving, and no one is there to help her. +Suddenly, the ground shook, and the girl finally woke up from this nightmare, finding herself in the warm embrace of her mother. +She struggles to lift her finger, trying to tell her mother how scared she is...
 ()||<黑屏1>:
-()<Speaker>女孩</Speaker>||<黑屏2><BIN>469</BIN><Night>:呜……妈妈……
-()||:女孩的梦呓，唤醒了身旁的K5。
-()||<SE1>ClothingUp</SE1>:在短暂的恍惚后，K5有些费劲地运转着心智，试图厘清眼下的状况。
-K5(0)<Speaker>K5</Speaker>||:嘶……受损情况比预计的还要严重……+对了！
-()||<SE1>AVG_Creep</SE1>:K5拖着左腿向女孩挪去，动作过急扯得背上的伤一阵疼痛。
-K5(0)<Speaker>K5</Speaker>||<SE1>Stop_AVG_loop</SE1>:幸好她没受到致命伤，不过还是被玻璃割伤了……
-()||<SE1>Rope</SE1>:她一边用手头仅有的资源简单处理女孩的伤口，一边拨打着队友的通讯。
-K5(0)<Speaker>K5</Speaker>||<SE1>AVG_tele_connect</SE1>:喂，Vivi！我和人质遭遇了爆炸，现在被埋在废墟底下，急需救援……
-K5(0)<Speaker>K5</Speaker>||<SE1>AVG_whitenoise</SE1>:听得见吗？Vivi？
-K5(0)<Speaker>K5</Speaker>||<SE1>AVG_tele_disconnect</SE1>:通讯也故障了？！怎么办……
-()||:K5烦躁地关掉通讯，才发现女孩也睁开了眼，正迷糊地望着她。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:唔……
-()||:看见K5布满灰尘的脸，女孩想起来了。+那不是梦，是这个姐姐保护了她。
-K5(0)<Speaker>K5</Speaker>||:你醒了？
-()||:K5尽量掩藏着脸上的情绪，温和地笑着。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:我是不是……快死了……
-K5(0)<Speaker>K5</Speaker>||:不会的，我不会让你死的。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:可是……喉咙好疼，肚子也疼……身上到处都疼……+妈妈生病死的时候……就一直喊疼……
-K5(0)<Speaker>K5</Speaker>||:……那是因为你饿了，吃点东西就会好起来的。
-()||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:K5从破破烂烂的口袋中掏出了几颗巧克力，女孩只含住一颗便摇了摇头。
-K5(0)<Speaker>K5</Speaker>||:不好吃吗？
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:姐姐，你吃……+你流了好多血，很痛吧？
-K5(0)<Speaker>K5</Speaker>||:……
-()||<SE1>ClothingUp</SE1>:K5装作毫不在意地擦了擦肩膀上的暗红色液体。
-K5(0)<Speaker>K5</Speaker>||:别担心，我是人形，不用吃东西补充能量，这也不是真的血。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:那，人形……也会死吗？
-()||:K5诧异了一秒。
-K5(0)<Speaker>K5</Speaker>||:……会的。+但是，不会死在这里，不管是我还是你。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:真的吗……
-()||:女孩望着高高的废墟，拧着眉毛，似乎并不相信。+K5看着这一幕，有些似曾相识……
+()<Speaker>Young Girl</Speaker>||<黑屏2><BIN>469</BIN><Night>:Eugh... Mom...
+()||:The girl's mumbling wakes up K5, who's lying beside her.
+()||<SE1>ClothingUp</SE1>:After a brief trance, K5 painstakingly runs through her neural cloud, trying to process the situation at hand.
+K5(0)<Speaker>K5</Speaker>||:Darn... The damage is more severe than I expected... +Oh, right!
+()||<SE1>AVG_Creep</SE1>:K5 limps towards the girl with her injured left leg. The damage on her back aches due to the sudden motion.
+K5(0)<Speaker>K5</Speaker>||<SE1>Stop_AVG_loop</SE1>:Luckily, she's not fatally injured, though she did get cut by broken glass.
+()||<SE1>Rope</SE1>:K5 uses all resources at her disposal to quickly patch up the girl's wounds, all the while trying to contact her teammates.
+K5(0)<Speaker>K5</Speaker>||<SE1>AVG_tele_connect</SE1>:Hey, Vivi! The hostage and I were caught in an explosion, and now we're trapped under the rubble. Requesting immediate rescue...
+K5(0)<Speaker>K5</Speaker>||<SE1>AVG_whitenoise</SE1>:Can you hear me? Vivi?
+K5(0)<Speaker>K5</Speaker>||<SE1>AVG_tele_disconnect</SE1>:Communications are down?! What do I do now...
+()||:K5 shuts her comms off in frustration, only to realize that the girl has also woken up and is staring at her with her eyes wide open, bewildered.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Eugh...
+()||:Seeing K5's face covered with dust, the girl realizes. +It wasn't a dream. This lady was the one who saved her.
+K5(0)<Speaker>K5</Speaker>||:You're awake?
+()||:K5 smiles gently, trying to conceal her prior frustrations.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Am I... Am I about to die...
+K5(0)<Speaker>K5</Speaker>||:No, I won't let that happen.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:But... my throat hurts, and my stomach hurts.. All over my body... it hurts... +When mom died from her sickness, she was also crying out in pain...
+K5(0)<Speaker>K5</Speaker>||:...That's because you're hungry. Here, have some food and you'll feel better.
+()||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:K5 searches her torn pockets and pulls out several pieces of chocolate. After taking one single bite, the girl shakes her head.
+K5(0)<Speaker>K5</Speaker>||:Does it taste bad?
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Big sister, you eat them... +You're bleeding... It must hurt a lot, right?
+K5(0)<Speaker>K5</Speaker>||:...
+()||<SE1>ClothingUp</SE1>:K5 pretends to be unbothered by her damage as she wipes away the dark red liquid off her shoulder.
+K5(0)<Speaker>K5</Speaker>||:Don't worry, I'm a T-Doll. I don't need food, and this isn't real blood.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Can T-Dolls... die too?
+()||:K5 is taken aback for a second.
+K5(0)<Speaker>K5</Speaker>||:...Yes. +But, not here, not now, neither you nor me.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Really...?
+()||:The girl stares at the towering ruins, her eyebrows wrinkling, not seeming to believe what she just heard. +K5 watches on as a reminiscent déjà vu surges in her mind...
 ()||<黑屏1>:
-()||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>BGM_Empty</BGM>:……
+()||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>BGM_Empty</BGM>:...
 ()||<黑屏1>:
-()||<黑屏2><BIN>187</BIN><回忆><BGM>BGM_23SF_Main</BGM>:无边无际的荒野上，弥漫着黄区阴沉腐朽的味道。+她已经失去了对距离的感知，不知道身前的人到底背着她走了多远。
-K5(0)<Speaker>K5</Speaker>||:我们……真的能活下去吗……
-K5(0)<Speaker>？？</Speaker><同时置暗>||:当然啦，我都重复了多少遍了！本来就很累了，让我省点说话的力气吧。
-K5(0)<Speaker>K5</Speaker>||:黑市的人，是不是快追上来了？我好像听见车的喇叭了……
-K5(0)<Speaker>？？</Speaker><同时置暗>||:好像是吧，真麻烦，让我想想怎么甩掉他们。
-K5(0)<Speaker>K5</Speaker>||:……+允善，别管我了，也许你还能逃走……
-()||:反正，她早就做好了心理准备。+等着那些人带走她，熔毁她的心智核心，就像他们对其他人形做的那样。
-()<Speaker>允善</Speaker>||:好吧，那你就在这待着吧。
-()||<SE1>AVG_File_Put</SE1>:允善爽快地答应了，把K5放在草丛中。
-K5(0)<Speaker>K5</Speaker>||:这样就好……
-K5(0)<Speaker>允善</Speaker><同时置暗>||:好什么好？待会儿我来引开他们，你躲在这里，千万别被他们发现了。+接下来的路就要靠你自己了，给我好好活着啊……
-K5(0)<Speaker>K5</Speaker>||:？！那，那你呢？
-K5(0)<Speaker>允善</Speaker><同时置暗>||:别瞎操心了，到时候我在前面的城市等你。不管是我还是你，都不会轻易地死在这里。+我会用占卜证明，这就是命运的旨意。
-K5(0)<Speaker>K5</Speaker>||:占卜？
-K5(0)<Speaker>允善</Speaker><同时置暗>||:自我介绍时就说过，我是被占卜屋卖到黑市的……
-()||<黑屏1>:
-()||<黑屏2><BIN>9</BIN><关闭蒙版>:
-()||<黑屏1>:
-()||<黑屏2><BIN>469</BIN><Night>:……
-K5(0)<Speaker>K5</Speaker>||:我们一定能得救……我会用占卜证明，这就是命运的旨意。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:占卜？
-K5(0)<Speaker>K5</Speaker>||:对，其实我是个占卜师。+刚才也是多亏了占卜，我才能在那么大的城市中找到你呢。
-()||:听到这，女孩的眼睛唰地亮了一下。
-K5(0)<Speaker>K5</Speaker>||:怎么样，要不要试试看？
-()||<SE1>ClothingUp</SE1>:女孩试探地点点头，K5从怀中取出了一叠塔罗牌。
-K5(0)<Speaker>K5</Speaker>||:请在心里默念，你想要占卜的问题……
-()||<SE1>DealCards</SE1>:女孩顺从地闭上双眼，为她的命运选好了牌组。+K5集中精神，虔诚地翻开身前的圣三角牌阵。
-K5(0)<Speaker>K5</Speaker>||<SE1>AVG_TurnOverCard</SE1>:这一张，代表过去——“愚者”正位，象征着你还在人生旅途的开端。
-K5(0)<Speaker>K5</Speaker>||<SE1>AVG_TurnOverCard</SE1>:这一张，代表现在——“宝剑四”正位，意味着我们要储备精力应对威胁。
-()||:女孩有些讶异。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:都对应上了……
-()||:紧张又隐隐带着期待的目光，投向了第三张牌。+K5的动作却变得迟缓起来，仿佛那薄薄的卡牌十分沉重。
-K5(0)<Speaker>K5</Speaker>||:<color=#A9A9A9>代表着未来的，会是哪一张牌？</color>+<color=#A9A9A9>是正位，还是逆位？</color>
-()||:她不再犹豫，决定相信命运。
-()||<SE1>AVG_TurnOverCard</SE1>:牌面亮出——+头顶天使光环的受难者倒吊在树干上，安静地注视着人间的苦难与挣扎。+纷飞的记忆涌入心智之中，K5默默感慨，命运真是充满了巧合……
-()||<黑屏1>:
-()||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:……
-()||<黑屏1>:
-()||<黑屏2><BIN>554</BIN><回忆><BGM>BGM_Scar_Shenzhizi</BGM><common_effect>%%code=CJ_rain%%</common_effect><SE1>AVG_Amb_Rain_0</SE1>:她的体力早已到达了临界值，甚至连喘息也觉得累，但手指仍然紧紧握着一张塔罗牌，匍匐着向前爬去。
-()||<SE1>ClothingUp</SE1>:每次要放弃时，摩挲着这张牌，就好像听见了允善的声音，然后就能又得到一些力量。
-()<Speaker>允善</Speaker>||<SE1>Stop_AVG_loop</SE1>:这是“倒吊者”正位，含义是，再糟糕的境遇也只是磨练，未来将会浴火重生……+这下你总算信了吧？我们啊，会活下来的。
-()||:然而，这一次，她实在是坚持不下去了。
-()||<SE1>AVG_Water_Drip</SE1>:K5苦笑着，浑浊的雨水打在她的脸上，像是人类的眼泪。
-K5(0)<Speaker>K5</Speaker>||:允善，这些都是你说出来安慰我的吧？+要不是它，我的确撑不到今天……+但是，我已经太累太累啦，我要休息了。
-K5(0)<Speaker>允善</Speaker><同时置暗>||:嗯，你辛苦了，安心地睡吧。
-()||:今天，梦中的允善格外温柔。
-K5(0)<Speaker>K5</Speaker>||:真的可以吗？……这次，你不阻止我了？
-K5(0)<Speaker>允善</Speaker><同时置暗>||:我阻止你做什么？好不容易见面了，我干嘛不准你休息？
-K5(0)<Speaker>K5</Speaker>||<震屏3>:诶？你……我……这不是幻觉？！+我，我们真的都活下来了？
-()||:K5不可置信地看向允善。
-()||<SE1>ClothingUp</SE1>:允善弯下腰，从K5手中抽出那张“倒吊者”。
-()<Speaker>允善</Speaker>||:我说过，占卜结果必然会应验，现在你相信了吧？
+()||<黑屏2><BIN>187</BIN><回忆><BGM>BGM_23SF_Main</BGM>:Upon the boundless fields of wilderness, the damp smell of decay distinct to Yellow Zones lingers. +She has already lost her sense of distance, wondering just how far the person carrying her has walked.
+K5(0)<Speaker>K5</Speaker>||:Are we... going to make it...?
+K5(0)<Speaker>？？</Speaker><同时置暗>||:Of course. I've told you that so many times! Come on, I'm already pretty tired. Save me the strength of repeating myself.
+K5(0)<Speaker>K5</Speaker>||:The people from the black market are getting closer, aren't they? I think I just heard cars honking...
+K5(0)<Speaker>？？</Speaker><同时置暗>||:Seems like it... What a pain in the ass. Let me think about how to get rid of them.
+K5(0)<Speaker>K5</Speaker>||:...+Yunseon, leave me. You can still escape...
+()||:In any case, she's already mentally prepared for what's to come. +To be dragged away by those people, to have her neural core melted down, just like they have done to countless other Dolls.
+()<Speaker>Yunsun</Speaker>||:Alright, then stay here.
+()||<SE1>AVG_File_Put</SE1>:Yunseon agrees without making a fuss. She drops K5 in the bushes.
+K5(0)<Speaker>K5</Speaker>||:It's better this way...
+K5(0)<Speaker>Yunsun</Speaker><同时置暗>||:What do you mean better? Listen, hide here for the moment. I'll go lure them away. Don't you get caught. +You'll be on your own for the rest of the journey. Stay safe out there.
+K5(0)<Speaker>K5</Speaker>||:Wh-what about you!?
+K5(0)<Speaker>Yunsun</Speaker><同时置暗>||:Don't worry about it. I'll be waiting for you in the city ahead. Neither one of us is perishing here. +It's the will of destiny, and I will prove it with divination.
+K5(0)<Speaker>K5</Speaker>||:Divination?
+K5(0)<Speaker>Yunsun</Speaker><同时置暗>||:I told you when I introduced myself, I was sold to the black market by a divination shack.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>9</BIN><关闭蒙版>:
 ()||<黑屏1>:
-()||<黑屏2><BIN>469</BIN><Night>:……那是她开始学习占卜的契机。+当时K5并没有想到，很多年后，她也会用占卜带给别人生的希望。+注视着牌面上那个熟悉的身姿，K5一字一句地说。
-K5(0)<Speaker>K5</Speaker>||:这是“倒吊者”正位，含义是，再糟糕的境遇也只是磨练，未来将会浴火重生……+相信占卜结果吧，你一定会得救的。
-()||:女孩这才缓缓呼出一口气，露出了安心的笑容。
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:好……
-K5(0)<Speaker>K5</Speaker>||:我的队友肯定正在四处找我们呢，不过，我们也不能坐以待毙。+等我休息一下，就试着挖开残骸，带你出去。
-()||<SE1>Rope</SE1>:女孩轻轻扯着K5的衣角，欲言又止。
-K5(0)<Speaker>K5</Speaker>||:嗯？
-NPC-Lilyan(0)<Speaker>女孩</Speaker>||:姐姐……+你也不要死哦……
-()||<SE1>ClothingUp</SE1>:K5莞尔一笑，温柔地摸了摸女孩的头。
-K5(0)<Speaker>K5</Speaker>||<黑点1>:我答应你。
+()||<黑屏2><BIN>469</BIN><Night>:...
+K5(0)<Speaker>K5</Speaker>||:We will be saved... It's the will of destiny and I will prove it with divination.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Divination?
+K5(0)<Speaker>K5</Speaker>||:Yes, I'm actually a soothsayer. +It's thanks to divination that I was able to find you so easily in such a big city.
+()||:Hearing this, the girl's eyes brighten up.
+K5(0)<Speaker>K5</Speaker>||:So? Want to give it a try?
+()||<SE1>ClothingUp</SE1>:The girl nods tentatively. K5 then pulls out a stack of tarot cards.
+K5(0)<Speaker>K5</Speaker>||:Please meditate on a question you wish to be answered...
+()||<SE1>DealCards</SE1>:The girl obliges, closing her eyes and selects a deck of cards that will shape her destiny. +K5 concentrates, and devoutly flips around the chosen trinity.
+K5(0)<Speaker>K5</Speaker>||<SE1>AVG_TurnOverCard</SE1>:This one represents the past—"The Fool" in the upright orientation, it represents the beginnings of your life.
+K5(0)<Speaker>K5</Speaker>||<SE1>AVG_TurnOverCard</SE1>:This one represents the present—"Four of Swords" in the upright orientation, which means we need to prepare for a coming threat.
+()||:The girl is astonished.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:They do match...
+()||:Nervous in their anticipation, both glance at the last tarot. +K5's motion becomes hesitant, as if the paper-thin card suddenly became unimaginably heavy.
+K5(0)<Speaker>K5</Speaker>||:<color=#A9A9A9>The one that represents the future, what would it be?</color>+<color=#A9A9A9>Will it be upright, or inverted?</color>
+()||:Without further hesitation, she gives in to destiny.
+()||<SE1>AVG_TurnOverCard</SE1>:The card is revealed—A victim with an angelic halo, hung upside down from the trunk of a tree, quietly watching the suffering and struggles of the Earth. +As past memories flood into her mind, K5 silently laments. Destiny is truly full of coincidences...
+()||<黑屏1>:
+()||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:...
+()||<黑屏1>:
+()||<黑屏2><BIN>554</BIN><回忆><BGM>BGM_Scar_Shenzhizi</BGM><common_effect>%%code=CJ_rain%%</common_effect><SE1>AVG_Amb_Rain_0</SE1>:Her stamina has long reached its limits; even gasping for air feels tiring. Yet her fingers still clutch tight on that tarot as she crawls forward.
+()||<SE1>ClothingUp</SE1>:Every time she's about to give up, the card reminds her of Yunseon's voice, which grants her just that bit of extra strength to keep pushing on.
+()<Speaker>Yunsun</Speaker>||<SE1>Stop_AVG_loop</SE1>:"The Hanged Man" in the upright orientation, it means that the worst of circumstances are but trials and tribulations and a rebirth is destined in the future... +See, now you'll believe me, right? We'll survive, both of us.
+()||:This time, however, she just can't muster the strength to go any further.
+()||<SE1>AVG_Water_Drip</SE1>:K5 laughs bitterly. Muddy raindrops keep tickling her cheeks, dripping off like human tears.
+K5(0)<Speaker>K5</Speaker>||:All that was just to comfort me, wasn't it, Yunseon? +Without it, I wouldn't have lasted till this day... +But I'm just too tired... I'm going to rest now.
+K5(0)<Speaker>Yunsun</Speaker><同时置暗>||:Well, you've worked hard till now. Sleep easy.
+()||:Today, the Yunseon in her dream looks all the more gentle.
+K5(0)<Speaker>K5</Speaker>||:Is this really okay...? Won't you stop me this time around?
+K5(0)<Speaker>Yunsun</Speaker><同时置暗>||:Why would I stop you? Now we've finally met again, why shouldn't I allow you to rest?
+K5(0)<Speaker>K5</Speaker>||<震屏3>:Eh? You... Me... This isn't an illusion?! +W-we both made it?!
+()||:K5 looks at Yunseon, astonished.
+()||<SE1>ClothingUp</SE1>:Yunseon bends down and pulls that "Hanged Man" from K5's hand.
+()<Speaker>Yunsun</Speaker>||:I told you, results of the divination are bound to be fulfilled. Will you believe me now?
+()||<黑屏1>:
+()||<黑屏2><BIN>9</BIN><关闭蒙版>:...
+()||<黑屏1>:
+()||<黑屏2><BIN>469</BIN><Night>:That was what got K5 into learning divination. +At the time, she did not realize that years later, she would also use divination to bring others the hope of life. +Staring at the familiar figure on the tarot, K5 slowly begins to speak.
+K5(0)<Speaker>K5</Speaker>||:"The Hanged Man" in the upright orientation, it means that the worst of circumstances are but trials and tribulations and a rebirth is destined in the future... +Believe in the divination, you will be saved.
+()||:The girl breathes out a sigh of relief and a reassuring smile emerges on her face.
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Great...
+K5(0)<Speaker>K5</Speaker>||:My teammates must be looking for us right now, but we can't just sit around either. +Let me get some rest, then I'll try to dig through the rubbles and get you out of here.
+()||<SE1>Rope</SE1>:The girl gently tugs on the corner of K5's clothes, wanting to say something.
+K5(0)<Speaker>K5</Speaker>||:Eh?
+NPC-Lilyan(0)<Speaker>Young Girl</Speaker>||:Big sister... +Please don't die as well...
+()||<SE1>ClothingUp</SE1>:K5 smiles, then softly caresses the girl's head.
+K5(0)<Speaker>K5</Speaker>||<黑点1>:I promise.
