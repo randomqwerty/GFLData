@@ -1,10 +1,10 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>98</BIN><黑屏2><SE1>Battlefield</SE1><SE2>Gunfight</SE2><BGM>Campaion-58-3</BGM>:3rd Platoon temporary command post, outer rim of the Red Zone. +It's impossible to make out anyone within view; the ceaseless sound of barrages is the only proof that the battle is still ongoing. +The wrecks of three destroyed transport vehicles within the crater are producing thick clouds of black smoke.
-NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><Position>0,60</Position>||:We actually intercepted the American troops?! With our pretty much non-existent experience?! +I've got to write a ballad to commemorate this!
+NPC-Pan(0)<Speaker>Pan  Squad 2 Leader</Speaker><Position>0,60</Position>||:We actually intercepted the American troops?! With our pretty much non-existent experience?! +I've got to write a ballad to commemorate this!
 NPC-Ange(28)<Speaker>Anna</Speaker>||:Fighting isn't that hard. I'll teach you little by little later on.
-NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><Position>0,60</Position>||:You're awesome, ma'am! From now on, I'll do whatever you say!
+NPC-Pan(0)<Speaker>Pan  Squad 2 Leader</Speaker><Position>0,60</Position>||:You're awesome, ma'am! From now on, I'll do whatever you say!
 NPC-Ange(28)<Speaker>Anna</Speaker>||:Rest up for five minutes while we wait for further directives.
-NPC-Pan(0)<Speaker>Pan, Squad 2 Leader</Speaker><Position>0,60</Position>||:Yes, ma'am!
+NPC-Pan(0)<Speaker>Pan  Squad 2 Leader</Speaker><Position>0,60</Position>||:Yes, ma'am!
 ()<Speaker></Speaker>||:Whoosh! Whoosh! Whoosh! Several objects whizz past above them towards 3rd Platoon's battle position.
 NPC-Ange(29)<Speaker>Anna</Speaker>||<SE1>AVG_Explosion</SE1><震屏3>:<size=50>Get down!!!</size>
 ()<Speaker></Speaker>||<BIN>183</BIN><SE1>AVG_Cloak_Whoosh</SE1>:Anna pulls Alexander, who is the closest to her, down to the ground. Then, a powerful shockwave sends her rolling almost immediately.
@@ -14,20 +14,20 @@ NPC-Ange(29)<Speaker>Anna</Speaker>||<SE1>AVG_Explosion</SE1><震屏3>:<size=50>
 ()<Speaker></Speaker>||<BIN>632</BIN><黑屏2><回忆>:Command College. +Many portraits of renowned figures are hanging on the wall in the fourth floor corridor. +The fifth from the right is a female scientist—Martha Meitner, who "gained international fame for her groundbreaking achievements in Relic technology research.”
 ()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:On this quiet afternoon, Anna hears the hiss of a spray paint can as she walks down the corridor.
 NPC-Ange(23)<Speaker>Anna</Speaker>||:Hm?
-()<Speaker>身材高挑的男学员</Speaker>||:amerikosi have no place in our school!
-()<Speaker>矮小敦实的男学员</Speaker>||:Get the hell out of the NSU, pindosi!
+()<Speaker>Tall Male Student</Speaker>||:amerikosi have no place in our school!
+()<Speaker>Small Male Student</Speaker>||:Get the hell out of the NSU, pindosi!
 NPC-Ange(24)<Speaker>Anna</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:<size=50>What are you doing?!</size>
 ()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:Anna runs up to the two cadets and shoves them angrily aside. +Martha's face on the portrait is now a smear of black, and profanities are scrawled above her head.
 NPC-Ange(24)<Speaker>Anna</Speaker>||:<size=50>You assholes!!!</size>
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:Anna punches one of them right in the face. +The cadet freezes in shock for a second, then he returns the blow, and the three of them are locked in an all-out brawl.
 ()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake>:Anna takes a few blows before unleashing a flurry of punches on the two cadets, making them cower and back away. She glares at them with blazing eyes.
-()<Speaker>身材高挑的男学员</Speaker>||:You assault your fellow cadets over a portrait of some pindosi bitch?!
+()<Speaker>Tall Male Student</Speaker>||:You assault your fellow cadets over a portrait of some pindosi bitch?!
 NPC-Ange(23)<Speaker>Anna</Speaker>||:Ha. And you take your anger out on a portrait just because you don't have the balls to fight on the battlefield?
-()<Speaker>身材高挑的男学员</Speaker>||:Херня! I'm gonna go out there and kill her right now!
+()<Speaker>Tall Male Student</Speaker>||:Херня! I'm gonna go out there and kill her right now!
 ()<Speaker></Speaker>||:The cadet suddenly spots a figure in his peripheral vision. He looks up.
-()<Speaker>矮小敦实的男学员</Speaker>||:I-I-Instructor Ra-Ramzan?!
-()<Speaker>身材高挑的男学员</Speaker>||:Run! That's her brother!
-()<Speaker>矮小敦实的男学员</Speaker>||:...
+()<Speaker>Small Male Student</Speaker>||:I-I-Instructor Ra-Ramzan?!
+()<Speaker>Tall Male Student</Speaker>||:Run! That's her brother!
+()<Speaker>Small Male Student</Speaker>||:...
 ()<Speaker></Speaker>||<SE1>RunStep</SE1>:The two cadets sprint down the corridor and disappear like the wind. +Ramzan is standing silently at the end of the corridor, his eyes dark and flat.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>630</BIN><SE1>ClothingUp</SE1>:Anna spits out a gob of blood angrily and dusts herself off. +The tall, straight-backed instructor finally walks up to her.
@@ -98,16 +98,16 @@ NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>Anna</Speaker>||:
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>;NPC-Ange(29)||:Shoot.
 NPC-Alexander(0)<Position>0,60</Position>;NPC-Ange(29)<Speaker>Anna</Speaker>||:If everything in life is futile, then what is the point in struggling?
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:I think...
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:<size=50>Vice-Leader, Leader, I detected that radio signal again!</size>
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:<size=50>Vice-Leader, Leader, I detected that radio signal again!</size>
 ()<Speaker></Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:Alexander's answer is interrupted.
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:These people are definitely nearby. Could they be the Rangers in the Red Zone?
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||:These people are definitely nearby. Could they be the Rangers in the Red Zone?
 ()<Speaker></Speaker>||:Wiktor holds onto their one last compact radio transceiver and stares at Anna with wide eyes.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna turns to Alexander.
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Didn't you say you couldn't crack their channel encryption?
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:I can't with our equipment, but it'd be a walk in the park for those Dolls! +I hear Tactical Dolls come with a bunch of functions. They're fearsome fighters and are also computers on legs. If we can just borrow one or two...
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||:I can't with our equipment, but it'd be a walk in the park for those Dolls! +I hear Tactical Dolls come with a bunch of functions. They're fearsome fighters and are also computers on legs. If we can just borrow one or two...
 NPC-Ange(29)<Speaker>Anna</Speaker>||:They're elite forces. They are off-limits for 3rd Platoon. 
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:Isn't that captain your—
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:<size=50>OW!</size>
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||:Isn't that captain your—
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position><Shake>0.1</Shake>||<SE1>AVG_Punch</SE1>:<size=50>OW!</size>
 ()<Speaker></Speaker>||:Alexander kicks Wiktor in the shin. Still holding the transceiver in one hand, Wiktor hugs his shin and hops around, howling in pain.
 NPC-Ange(31)<Speaker>Anna</Speaker>||:I'm dizzy.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Anna leans against a large rock and closes her eyes. +Alexander shrugs, and Wiktor limps away miserably.
@@ -118,12 +118,12 @@ NPC-Ange(31)<Speaker>Anna</Speaker>||:Don't stick your nose into things that don
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:It's a good thing that you can still fight. +If Martina was still alive, we would be fighting every day, and nothing would make me happier.
 NPC-Ange(28)<Speaker>Anna</Speaker>||:If... +Ha, you almost sound like a babushka who has to mediate all the fights at home.
 ()<Speaker></Speaker>||:Alexander watches as Wiktor returns just as miserably. Anna opens her eyes.
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:Ma'am, the captain won't talk to me. He's asking for you personally.
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||:Ma'am, the captain won't talk to me. He's asking for you personally.
 NPC-Ange(29)<Speaker>Anna</Speaker>||:Мудак!
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Why don't I go?
 NPC-Ange(29)<Speaker>Anna</Speaker>||:Are you asking for a dressing down?
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:If it means he'll lend us the Dolls, he can dress me down as much as he wants. +"Merits on the battlefield don't just jump into your hand", no?
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:What do we do, ma'am?
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||:What do we do, ma'am?
 ()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BGM>BGM_Empty</BGM>:Anna gets to her feet sullenly.
 NPC-Ange(29)<Speaker>Anna</Speaker>||:I'll go ask for them. Don't follow me.
 ()||<黑点1>:
@@ -171,7 +171,7 @@ NPC-Ange(29)<Speaker>Anna</Speaker>||:Ever since that day, there's been no going
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>469</BIN>:Temporary command post.
 ()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:The two Dolls pool their computational capacity together as a torrent of data flash across their eyes. +Anna and Ramzan are both deep in their own thoughts.
-NPC-Wiktor(0)<Speaker>Wiktor, Squad 1 Leader</Speaker><Position>0,60</Position>||:What are they saying?
+NPC-Wiktor(0)<Speaker>Wiktor  Squad 1 Leader</Speaker><Position>0,60</Position>||:What are they saying?
 NPC-Alexander(0)<Speaker>Alexander</Speaker><Position>0,60</Position>||:Is that English? I only caught a few words here and there.
 NPC-Ange(29)<Speaker>Anna</Speaker>||:Shut up.
 ()<Speaker></Speaker>||:Ramzan glances at the map from time to time with a frown.
