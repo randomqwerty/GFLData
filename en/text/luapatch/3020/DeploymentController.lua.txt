@@ -151,6 +151,13 @@ local CheckDeploymentNotice = function(self)
 	self:CheckDeploymentNotice();
 	self:ViewSummary();
 end
+local CheckTeamTrans = function(self)
+	if CS.GameData.missionAction.transTeamDatas.Count == 0 then
+		self:AddAndPlayPerformance(nil);
+		return;
+	end
+	self:CheckTeamTrans();
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -165,3 +172,4 @@ util.hotfix_ex(CS.DeploymentController,'get_SangvisTeamsCount',SangvisTeamsCount
 util.hotfix_ex(CS.DeploymentController,'TriggerAbortMissionEvent',TriggerAbortMissionEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckOnePoint',CheckOnePoint)
 util.hotfix_ex(CS.DeploymentController,'CheckDeploymentNotice',CheckDeploymentNotice)
+util.hotfix_ex(CS.DeploymentController,'CheckTeamTrans',CheckTeamTrans)
