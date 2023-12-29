@@ -26,7 +26,7 @@
 //2020夏活配置：
 //MissionSelectionTex|missionselect_Dual Randomness|2
 //2021圣诞活动配置：
-MissionSelectionTex|missionselect_Xmas2021|2|-49
+//MissionSelectionTex|missionselect_Xmas2021|2|-49
 //2020冬活配置：
 //MissionSelectionTex|missionselect_MirrorStage|2|-44
 //马蜂窝复刻配置：
@@ -49,6 +49,8 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //MissionSelectionTex|missionselect_2022Summer|1|-54
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
+//23春季肉鸽
+MissionSelectionTex|missionselect_2023Rouge|2|-59
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -83,7 +85,7 @@ OPSPanelScene|-53|-53
 OPSPanelScene|-54|-54
 OPSPanelScene|-55|-55
 OPSPanelScene|-56|-56
-OPSPanelScene|-57|-57
+OPSPanelScene|-59|-59
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -139,6 +141,7 @@ OPSLeftBGNormalActivity|-54|2022SummerLogo
 OPSLeftBGNormalActivity|-55|Reversible_Left
 OPSLeftBGNormalActivity|-56|2022Scar_Left
 OPSLeftBGNormalActivity|-57|ZLSR_Left
+OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -166,7 +169,7 @@ OPSLeftBGNormalActivity|-57|ZLSR_Left
 //OPSNoticeNormalActivity|-46|DropkickonMyDevil_Notice
 //OPSNoticeNormalActivity|-47|Bikini_2021_Notice
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
-OPSNoticeNormalActivity|-49|Xmas_2021_Notice
+//OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
@@ -174,6 +177,7 @@ OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
+OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -199,6 +203,7 @@ OPSTimeNormalActivity|-54|2022Summer_Time
 OPSTimeNormalActivity|-55|Reversible_Time
 OPSTimeNormalActivity|-56|Reversible_Time
 OPSTimeNormalActivity|-57|ZLSR_Time
+OPSTimeNormalActivity|-59|Reversible_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -216,7 +221,7 @@ OPSTimeNormalActivity|-57|ZLSR_Time
 //OPSGoto|TheDivisoin_GotoMall|0
 //OPSGoto|Bikini_2021_GotoMall|0|-47
 //OPSGoto|DropkickonMyDevil_GotoMall|0
-OPSGoto|Xmas_2021_GotoMall|0|-49
+//OPSGoto|Xmas_2021_GotoMall|0|-49
 //OPSGoto|MirrorStage_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
 //OPSGoto|WhiteDay_2022_GotoMall|0|-50
@@ -226,6 +231,8 @@ OPSGoto|Xmas_2021_GotoMall|0|-49
 
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 //OPSGoto|2022Summer_GotoMall|0|-54
+OPSGoto|2023RougeSpring_GotoMall|0|-59
+OPSGoto|2023RougeSpring_PointExchange|2|-59
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -270,6 +277,8 @@ OPSProgressNormalActivity|-52|Bikini_2022_Progress
 OPSProgressNormalActivity|-54|2022Summer_Progress|2022Summer_MissionProgressList
 OPSProgressNormalActivity|-56|Reversible_Progress
 OPSProgressNormalActivity|-57|ZLSR_Progress
+OPSProgressNormalActivity|-59|Reversible_Progress
+
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
 OPSMain|-2|Snow|Map2
@@ -401,6 +410,7 @@ OPSCampaignTitleButton|-50|true|PolarizedLight_Diffculty2Btn
 OPSCampaignTitleButton|-54|true|2022SummerDiffculty2Btn
 OPSCampaignTitleButton|-56|true|2022Scar_Diffculty2Btn
 OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
+OPSCampaignTitleButton|-59|true|2023RougeSpring_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -442,6 +452,7 @@ OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-54|100152|75|2022Summer_Tip|1
 //OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
+OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -1607,3 +1618,16 @@ OPSCampaignDetail|-56_28|0,0|SCAR_H
 OPSCampaignDetail|-56_29|0,0|SCAR_L
 OPSCampaignDetail|-56_30|0,0|SCAR_H
 
+//春节活动
+OPSCampaignDetail|-59_1|0,0|Scarecrow
+OPSCampaignDetail|-59_2|0,0|BossGager
+OPSCampaignDetail|-59_3|0,0|Agent
+OPSCampaignDetail|-59_4|0,0|Excutioner
+OPSCampaignDetail|-59_5|0,0|Destroyer
+OPSCampaignDetail|-59_6|0,0|BossDreamer
+OPSCampaignDetail|-59_7|0,0|Hunter
+OPSCampaignDetail|-59_8|0,0|Alchemist
+OPSCampaignDetail|-59_9|0,0|Justice
+OPSCampaignDetail|-59_10|0,0|Scarecrow_SpringFes
+OPSCampaignDetail|-59_11|0,0|Ripper
+OPSCampaignDetail|-59_12|0,0|Jaeger

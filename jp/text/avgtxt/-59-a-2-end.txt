@@ -1,24 +1,24 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-M4A1(3)<Speaker>M4A1</Speaker>||<黑屏2><BIN>73</BIN><SE1>AVG_tele_connect</SE1><BGM>m_avg_casual</BGM>:帕斯卡小姐，我们已经按照指示完成了任务。+请给出下一步指示。
-NPC-Persica(11)<Speaker>帕斯卡</Speaker><通讯框>||:<color=#00CCFF>从刚刚开始，你们就一直凑在一起叽叽喳喳的，在聊什么呢？</color>
+M4A1(3)<Speaker>M4A1</Speaker>||<黑屏2><BIN>73</BIN><SE1>AVG_tele_connect</SE1><BGM>m_avg_casual</BGM>:ペルシカさん、任務完了しました。+次の指示をお願いします。
+NPC-Persica(11)<Speaker>ペルシカ</Speaker><通讯框>||:<color=#00CCFF>さっきからなんか騒がしいんだけど、なんの話してるの？</color>
 NPC-Persica(9);M4A1(2)<Speaker>M4A1</Speaker>||:……
-NPC-Persica(9);SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:在聊晚饭吃什么！
-NPC-Persica(9);AR15(0)<Speaker>AR15</Speaker>||:我们对行动方案产生了一些分歧，不过都通过讨论解决了。
-NPC-Persica(9)<Speaker>帕斯卡</Speaker>||:<color=#00CCFF>原来是这样啊……</color>+<color=#00CCFF>我还以为你们已经发现了呢……</color>
-AR15(0)<Speaker>AR15</Speaker>||:……
-M4A1(3)<Speaker>M4A1</Speaker>||:帕斯卡小姐，还请原谅我的失礼，我想要了解——
-NPC-Persica(9)<Speaker>帕斯卡</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>为什么要用“蝰蛇”行动作为这次实验的数据原型？</color>
-NPC-Persica(9);M4A1(3)<Speaker>M4A1</Speaker>||:是的，还请明示。
-NPC-Persica(13)<Speaker>帕斯卡</Speaker>;M4A1(3)||:<color=#00CCFF>嗯……这个嘛……</color>
-NPC-Persica(13);AR15(0)<Speaker>AR15</Speaker>||:是因为？
-NPC-Persica(13)<Speaker>帕斯卡</Speaker>||:<color=#00CCFF>……秘密。</color>
-SOPII(3)<Speaker>M4 SOPMOD II</Speaker>||:什么嘛？！怎么吊人胃口的！
-NPC-Persica(10)<Speaker>帕斯卡</Speaker><通讯框>;SOPII(3)||:<color=#00CCFF>哼哼，想要知道的话，就等完成实验了，到我的实验室亲自问我吧。</color>
-NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:可是……
-NPC-Persica(10)<Speaker>帕斯卡</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>虽然实验用的是“蝰蛇”行动的数据，但也不允许你们懈怠，偷懒照搬之前的行为逻辑。</color>+<color=#00CCFF>我需要你们最真实的数据，重现你们当时执行任务的状态，给我拼尽全力啊！</color>
-NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:是！我们会认真对待的。
-NPC-Persica(10)<Speaker>帕斯卡</Speaker>||:<color=#00CCFF>好猫咪，休息一会吧，十五分钟后开始下一轮实验。</color>
-AR15(0)<Speaker>AR15</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……+结果还是什么也没说啊。
-M4A1(2)<Speaker>M4A1</Speaker>||:帕斯卡小姐一贯如此……+我们除了按照指示完成任务，别无选择，所以——
-SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:晚饭吃什么呢？
+NPC-Persica(9);SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:今日の晩御飯！
+NPC-Persica(9);AR15(0)<Speaker>ST AR-15</Speaker>||:作戦の方針でちょっと意見が割れていただけです。それも今解決しました。
+NPC-Persica(9)<Speaker>ペルシカ</Speaker>||:<color=#00CCFF>そう……</color>+<color=#00CCFF>てっきりもう気づいてるって思ったけど……</color>
+AR15(0)<Speaker>ST AR-15</Speaker>||:……
+M4A1(3)<Speaker>M4A1</Speaker>||:ペルシカさん、失礼ですが、一つお聞きしたいことが――
+NPC-Persica(9)<Speaker>ペルシカ</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>なんで「オペレーション・ギュルザ」のデータを//n実験のモデルにしたのか、でしょ？</color>
+NPC-Persica(9);M4A1(3)<Speaker>M4A1</Speaker>||:はい、それを教えていただければと。
+NPC-Persica(13)<Speaker>ペルシカ</Speaker>;M4A1(3)||:<color=#00CCFF>う～ん……それはまぁ……</color>
+NPC-Persica(13);AR15(0)<Speaker>ST AR-15</Speaker>||:それは？
+NPC-Persica(13)<Speaker>ペルシカ</Speaker>||:<color=#00CCFF>……秘密。</color>
+SOPII(3)<Speaker>M4 SOPMOD II</Speaker>||:なんでよ！？
+NPC-Persica(10)<Speaker>ペルシカ</Speaker><通讯框>;SOPII(3)||:<color=#00CCFF>ふふっ、答えを知りたければ、実験が終わったら//n直接、私に訊きに来なさい。</color>
+NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:ですが……
+NPC-Persica(10)<Speaker>ペルシカ</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>「オペレーション・ギュルザ」のデータを使ってるけど//n手を抜いちゃダメだからね。</color>+<color=#00CCFF>ありのままのデータが欲しいから、本番の任務と同じように//n全力でやってちょうだい。</color>
+NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:分かりました、全力で行きます。
+NPC-Persica(10)<Speaker>ペルシカ</Speaker>||:<color=#00CCFF>うん、いい子で何より。15分ぐらい休んでもいいわよ、//nその後は次の実験。</color>
+AR15(0)<Speaker>ST AR-15</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……+結局何も教えてくれなかった。
+M4A1(2)<Speaker>M4A1</Speaker>||:ペルシカさんはいつもそう……+私たちは指示通りに任務を遂行するしかない。だから――
+SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:今夜何食べる？
 ()||<黑点1>:
