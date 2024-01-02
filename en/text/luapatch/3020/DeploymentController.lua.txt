@@ -21,6 +21,18 @@ local BuildCastSkillOnDeathHandler = function(self,data)
 	self:InsertSomePlayPerformances(AddCheckBattle);
 end
 local RequestStartMissionHandle = function(self,json)
+	for i=0,CS.DeploymentBackgroundController.Instance.listSpot.Count-1 do
+		local spot = CS.DeploymentBackgroundController.Instance.listSpot[i];
+		local spotaction = CS.GameData.listSpotAction:GetDataById(spot.spotInfo.id);
+		if spotaction ~= nil then
+			if spotaction.allyTeamInstanceIds.Count>0 then
+				local instanceId = spotaction.allyTeamInstanceIds[0];
+				if spot.currentTeam ~= nil then
+					spot.currentTeam.allyTeam = CS.GameData.missionAction.listAllyTeams:GetDataById(instanceId);
+				end
+			end
+		end
+	end
 	self:RequestStartMissionHandle(json);
 	CS.GameData.missionAction:LoadAvgData(json);
 	self:AddPlayMissionTriggerAvg();
