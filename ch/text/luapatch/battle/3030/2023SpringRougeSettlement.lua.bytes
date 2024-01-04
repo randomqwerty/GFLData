@@ -98,6 +98,14 @@ end
 function Exit()
 	isShown = true
 	CS.UnityEngine.Time.timeScale = 1
+	if CS.GF.Battle.BattleController.Instance.ifEnemyDie then
+		print("recordTime")
+		local shortTime = CS.UnityEngine.PlayerPrefs.GetFloat("2023_Rouge_Time",-1)
+		local currentTime = CS.GF.Battle.BattleFrameManager.Instance:GetCurBattleTime()
+		if shortTime < 0 or currentTime < shortTime then
+			CS.UnityEngine.PlayerPrefs.SetFloat("2023_Rouge_Time",currentTime)
+		end
+	end
 	CS.GF.Battle.BattleFrameTimer.Instance:ResumeStopTime()
 	CS.GF.Battle.BattleController.Instance:RequestBattleFinish()
 	CS.UnityEngine.Object.Destroy(self.gameObject)
