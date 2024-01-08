@@ -216,7 +216,9 @@ patch3020=
 "3020/SkinDisplayController",		
 "3020/BattleController",	
 "3020/QuickJumpBtnController",
-"3020/WishGunEventBoxController",		
+"3020/WishGunEventBoxController",
+"3020/DeploymentBackgroundController",
+"3020/DeploymentUIController",				
 }
 patch3030=
 {
