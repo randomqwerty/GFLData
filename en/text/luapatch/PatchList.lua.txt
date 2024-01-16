@@ -316,7 +316,9 @@ patch3030=
 }
 patch3040=
 {
-"3040/AVGPicController",	
+"3040/AVGPicController",
+"3040/DeploymentAutoBattleController",
+"3040/DeploymentTeamController",			
 }
 -- va11
 print("load Va11");
