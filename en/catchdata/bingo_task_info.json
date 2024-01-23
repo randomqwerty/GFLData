@@ -90,8 +90,8 @@
       "task_name": "consume_equip_contract",
       "size": "4",
       "ticket_num": "1",
-      "title": "消耗装备制造契约",
-      "content": "累计消耗装备制造契约*4",
+      "title": "消耗装备&妖精制造契约",
+      "content": "累计消耗装备&妖精制造契约*4",
       "is_mutex": "2",
       "function_control_id": "0",
       "task_type_id": "8"
@@ -111,18 +111,6 @@
     {
       "task_id": "10",
       "type": "general",
-      "task_name": "consume_quick_reinforce",
-      "size": "4",
-      "ticket_num": "1",
-      "title": "消耗快速修复契约",
-      "content": "累计消耗快速修复契约*4",
-      "is_mutex": "0",
-      "function_control_id": "0",
-      "task_type_id": "10"
-    },
-    {
-      "task_id": "11",
-      "type": "general",
       "task_name": "consume_mp",
       "size": "1500",
       "ticket_num": "1",
@@ -133,7 +121,7 @@
       "task_type_id": "11"
     },
     {
-      "task_id": "12",
+      "task_id": "11",
       "type": "general",
       "task_name": "consume_ammo",
       "size": "1500",
@@ -145,7 +133,7 @@
       "task_type_id": "12"
     },
     {
-      "task_id": "13",
+      "task_id": "12",
       "type": "general",
       "task_name": "consume_mre",
       "size": "1500",
@@ -157,7 +145,7 @@
       "task_type_id": "13"
     },
     {
-      "task_id": "14",
+      "task_id": "13",
       "type": "general",
       "task_name": "consume_part",
       "size": "500",
@@ -169,7 +157,7 @@
       "task_type_id": "14"
     },
     {
-      "task_id": "15",
+      "task_id": "14",
       "type": "general",
       "task_name": "friends_battery",
       "size": "10",
@@ -181,19 +169,19 @@
       "task_type_id": "110"
     },
     {
-      "task_id": "16",
+      "task_id": "15",
       "type": "general",
       "task_name": "love_collect",
       "size": "10",
       "ticket_num": "1",
       "title": "爱心搜集",
-      "content": "累计搜集10个爱心（包括战术人形与格琳娜）",
+      "content": "累计搜集10个爱心（包括战术人形、融合势力与格琳娜）",
       "is_mutex": "0",
       "function_control_id": "0",
       "task_type_id": "16"
     },
     {
-      "task_id": "17",
+      "task_id": "16",
       "type": "difficulty",
       "task_name": "gain_hg",
       "size": "3",
@@ -205,7 +193,7 @@
       "task_type_id": "18"
     },
     {
-      "task_id": "18",
+      "task_id": "17",
       "type": "difficulty",
       "task_name": "gain_smg",
       "size": "3",
@@ -217,7 +205,7 @@
       "task_type_id": "19"
     },
     {
-      "task_id": "19",
+      "task_id": "18",
       "type": "difficulty",
       "task_name": "gain_ar",
       "size": "3",
@@ -229,7 +217,7 @@
       "task_type_id": "20"
     },
     {
-      "task_id": "20",
+      "task_id": "19",
       "type": "difficulty",
       "task_name": "gain_mg",
       "size": "3",
@@ -241,7 +229,7 @@
       "task_type_id": "21"
     },
     {
-      "task_id": "21",
+      "task_id": "20",
       "type": "difficulty",
       "task_name": "gain_rf",
       "size": "3",
@@ -253,7 +241,7 @@
       "task_type_id": "22"
     },
     {
-      "task_id": "22",
+      "task_id": "21",
       "type": "difficulty",
       "task_name": "gain_fittings",
       "size": "3",
@@ -265,7 +253,7 @@
       "task_type_id": "23"
     },
     {
-      "task_id": "23",
+      "task_id": "22",
       "type": "difficulty",
       "task_name": "gain_magazine",
       "size": "3",
@@ -277,7 +265,7 @@
       "task_type_id": "24"
     },
     {
-      "task_id": "24",
+      "task_id": "23",
       "type": "difficulty",
       "task_name": "gain_equipment",
       "size": "3",
@@ -289,7 +277,7 @@
       "task_type_id": "25"
     },
     {
-      "task_id": "25",
+      "task_id": "24",
       "type": "difficulty",
       "task_name": "operation_quick_develop",
       "size": "1",
@@ -301,31 +289,31 @@
       "task_type_id": "28"
     },
     {
-      "task_id": "26",
+      "task_id": "25",
       "type": "difficulty",
-      "task_name": "operation_quick_reinforce",
+      "task_name": "daily_game_buff",
       "size": "1",
       "ticket_num": "1",
-      "title": "行动回报-快速修复契约",
-      "content": "通过后勤支援获得快速修复契约*1",
+      "title": "探查奇遇",
+      "content": "在灰域探查中获得1次战场效果",
       "is_mutex": "5",
       "function_control_id": "0",
       "task_type_id": "29"
     },
     {
-      "task_id": "27",
+      "task_id": "26",
       "type": "difficulty",
       "task_name": "operation_equip_contract",
       "size": "1",
       "ticket_num": "1",
-      "title": "行动回报-装备制造契约",
-      "content": "通过后勤支援获得装备制造契约*1",
+      "title": "行动回报-装备&妖精制造契约",
+      "content": "通过后勤支援获得装备&妖精制造契约*1",
       "is_mutex": "5",
       "function_control_id": "0",
       "task_type_id": "30"
     },
     {
-      "task_id": "28",
+      "task_id": "27",
       "type": "difficulty",
       "task_name": "operation_iop_contract",
       "size": "1",
@@ -337,7 +325,7 @@
       "task_type_id": "31"
     },
     {
-      "task_id": "29",
+      "task_id": "28",
       "type": "difficulty",
       "task_name": "win_boss",
       "size": "5",
@@ -349,7 +337,7 @@
       "task_type_id": "32"
     },
     {
-      "task_id": "30",
+      "task_id": "29",
       "type": "difficulty",
       "task_name": "win_armorrobot",
       "size": "10",
@@ -361,7 +349,7 @@
       "task_type_id": "33"
     },
     {
-      "task_id": "31",
+      "task_id": "30",
       "type": "difficulty",
       "task_name": "win_robot",
       "size": "20",
@@ -373,7 +361,7 @@
       "task_type_id": "34"
     },
     {
-      "task_id": "32",
+      "task_id": "31",
       "type": "difficulty",
       "task_name": "win_person",
       "size": "30",
@@ -385,7 +373,7 @@
       "task_type_id": "35"
     },
     {
-      "task_id": "33",
+      "task_id": "32",
       "type": "difficulty",
       "task_name": "operation_duration",
       "size": "43200",
@@ -397,31 +385,31 @@
       "task_type_id": "36"
     },
     {
-      "task_id": "34",
+      "task_id": "33",
       "type": "difficulty",
       "task_name": "simulated_warfare",
       "size": "2",
       "ticket_num": "1",
       "title": "模拟作战",
-      "content": "累计进行模拟作战2次",
+      "content": "累计进行模拟作战2次（不包括融合演习）",
       "is_mutex": "0",
       "function_control_id": "0",
       "task_type_id": "38"
     },
     {
-      "task_id": "35",
+      "task_id": "34",
       "type": "difficulty",
       "task_name": "upgrade",
       "size": "1",
       "ticket_num": "1",
       "title": "技能升级",
-      "content": "进行1次技能升级（人形、妖精皆可）",
+      "content": "进行1次技能升级（人形、妖精、融合势力皆可）",
       "is_mutex": "0",
       "function_control_id": "0",
       "task_type_id": "39"
     },
     {
-      "task_id": "36",
+      "task_id": "35",
       "type": "difficulty",
       "task_name": "s_win",
       "size": "10",
@@ -431,6 +419,18 @@
       "is_mutex": "0",
       "function_control_id": "0",
       "task_type_id": "40"
+    },
+    {
+      "task_id": "36",
+      "type": "difficulty",
+      "task_name": "map_capture",
+      "size": "3",
+      "ticket_num": "1",
+      "title": "日常探查",
+      "content": "在灰域探查中累计占领3个点位",
+      "is_mutex": "0",
+      "function_control_id": "0",
+      "task_type_id": "10"
     },
     {
       "task_id": "37",
