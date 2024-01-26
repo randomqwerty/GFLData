@@ -50,7 +50,9 @@
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //23春季肉鸽
-MissionSelectionTex|missionselect_2023Rouge|2|-59
+//MissionSelectionTex|missionselect_2023Rouge|2|-59
+//2023春活配置：
+MissionSelectionTex|missionselect_Slowshock|1|-58
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -85,6 +87,8 @@ OPSPanelScene|-53|-53
 OPSPanelScene|-54|-54
 OPSPanelScene|-55|-55
 OPSPanelScene|-56|-56
+OPSPanelScene|-57|-57
+OPSPanelScene|-58|-58
 OPSPanelScene|-59|-59
 
 //视频首次进入-test数据
@@ -104,6 +108,7 @@ OPSPanelScene|-59|-59
 OPSReturn|Return
 OPSReturn|2022SummerReturn|-54
 OPSReturn|ZLSR_Return|-57
+OPSReturn|2023Spring_Return|-58
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -141,6 +146,7 @@ OPSLeftBGNormalActivity|-54|2022SummerLogo
 OPSLeftBGNormalActivity|-55|Reversible_Left
 OPSLeftBGNormalActivity|-56|2022Scar_Left
 OPSLeftBGNormalActivity|-57|ZLSR_Left
+OPSLeftBGNormalActivity|-58|2023Spring_Left
 OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 
 //系统公告-预制物(公用)
@@ -177,7 +183,8 @@ OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
-OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
+OPSNoticeNormalActivity|-58|2023Spring_Notice
+//OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -203,6 +210,7 @@ OPSTimeNormalActivity|-54|2022Summer_Time
 OPSTimeNormalActivity|-55|Reversible_Time
 OPSTimeNormalActivity|-56|Reversible_Time
 OPSTimeNormalActivity|-57|ZLSR_Time
+OPSTimeNormalActivity|-58|2023Spring_Time
 OPSTimeNormalActivity|-59|Reversible_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -231,8 +239,10 @@ OPSTimeNormalActivity|-59|Reversible_Time
 
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 //OPSGoto|2022Summer_GotoMall|0|-54
-OPSGoto|2023RougeSpring_GotoMall|0|-59
-OPSGoto|2023RougeSpring_PointExchange|2|-59
+//OPSGoto|2023RougeSpring_GotoMall|0|-59
+//OPSGoto|2023RougeSpring_PointExchange|2|-59
+OPSGoto|2023Spring_GotoMall|0|-58
+
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -277,6 +287,7 @@ OPSProgressNormalActivity|-52|Bikini_2022_Progress
 OPSProgressNormalActivity|-54|2022Summer_Progress|2022Summer_MissionProgressList
 OPSProgressNormalActivity|-56|Reversible_Progress
 OPSProgressNormalActivity|-57|ZLSR_Progress
+OPSProgressNormalActivity|-58|2023Spring_Progress
 OPSProgressNormalActivity|-59|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
@@ -323,6 +334,7 @@ OPSMain|-50|Day|Arctic_Map5
 OPSMain|-52|Day|Arctic_Map5
 OPSMain|-54|Day|Arctic_Map5
 OPSMain|-56|Day|Arctic_Map5
+OPSMain|-58|Day|Arctic_Map5
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -410,6 +422,7 @@ OPSCampaignTitleButton|-50|true|PolarizedLight_Diffculty2Btn
 OPSCampaignTitleButton|-54|true|2022SummerDiffculty2Btn
 OPSCampaignTitleButton|-56|true|2022Scar_Diffculty2Btn
 OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
+OPSCampaignTitleButton|-58|true|2023Spring_Diffculty2Btn
 OPSCampaignTitleButton|-59|true|2023RougeSpring_Diffculty2Btn
 
 //剧情章节用
@@ -452,15 +465,18 @@ OPSCampaignTitleButton|-59|true|2023RougeSpring_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-54|100152|75|2022Summer_Tip|1
 //OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
-OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
+//OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
 //OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
-OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
-OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
-OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
-OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
+//OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
+//OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
+//OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
+//OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
+//OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
+CampaignMissionDeployEffect|528|2023Spring_ShowItem12|11335,11337,11341,11343,11347,11349,11353,11355,11359,11377,11378,11379,11380,11381,11382,11383,11384,11385|0_30;30_60;60_130;130_260;260_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
+CampaignMissionDeployEffect|530|2023Spring_ShowItem3|11364,11366,11368,11370,11372,11374,11386,11387,11388,11389,11390,11391,11392,11393,11394,11395,11396,11397|0_25;25_55;55_85;85_115;115_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
@@ -1631,3 +1647,107 @@ OPSCampaignDetail|-59_9|0,0|Justice
 OPSCampaignDetail|-59_10|0,0|Scarecrow_SpringFes
 OPSCampaignDetail|-59_11|0,0|Ripper
 OPSCampaignDetail|-59_12|0,0|Jaeger
+
+//春活头像
+OPSCampaignDetail|-58_1|0,0|Ange_05
+OPSCampaignDetail|-58_2|0,0|Ange_01
+OPSCampaignDetail|-58_3|0,0|Aegis_GA
+OPSCampaignDetail|-58_4|0,0|Laplace_1
+OPSCampaignDetail|-58_5|0,0|Aegis_GA
+OPSCampaignDetail|-58_6|0,0|Ahmin
+OPSCampaignDetail|-58_7|0,0|Pamzan_Young
+OPSCampaignDetail|-58_8|0,0|Ange_02
+OPSCampaignDetail|-58_9|0,0|Aegis_GA
+OPSCampaignDetail|-58_10|0,0|Pamzan_2
+OPSCampaignDetail|-58_11|0,0|Aegis_GA
+OPSCampaignDetail|-58_12|0,0|Crashsoldier
+OPSCampaignDetail|-58_13|0,0|Laplace_2
+OPSCampaignDetail|-58_14|0,0|LAMG
+OPSCampaignDetail|-58_15|0,0|M16A1Griffin
+OPSCampaignDetail|-58_16|0,0|Ange_03
+OPSCampaignDetail|-58_17|0,0|Pamzan_3
+OPSCampaignDetail|-58_18|0,0|Ange_03
+OPSCampaignDetail|-58_19|0,0|LAMG
+OPSCampaignDetail|-58_20|0,0|Ange_04
+OPSCampaignDetail|-58_21|0,0|RPK16
+OPSCampaignDetail|-58_22|0,0|ak12
+OPSCampaignDetail|-58_23|0,0|Mrsgray
+OPSCampaignDetail|-58_24|0,0|Mrsgray
+OPSCampaignDetail|-58_25|0,0|AN94
+OPSCampaignDetail|-58_26|0,0|RO635
+OPSCampaignDetail|-58_27|0,0|Riotguard
+OPSCampaignDetail|-58_28|0,0|Clyda
+OPSCampaignDetail|-58_29|0,0|Clyda
+OPSCampaignDetail|-58_30|0,0|AR18_NPC
+OPSCampaignDetail|-58_31|0,0|Justice
+OPSCampaignDetail|-58_32|0,0|Teal
+OPSCampaignDetail|-58_33|0,0|Narciss
+OPSCampaignDetail|-58_34|0,0|Narciss
+OPSCampaignDetail|-58_35|0,0|SCAR_L
+OPSCampaignDetail|-58_36|0,0|Morridow_2
+OPSCampaignDetail|-58_37|0,0|Teal
+OPSCampaignDetail|-58_38|0,0|Nimeylan
+OPSCampaignDetail|-58_39|0,0|Dandelion
+OPSCampaignDetail|-58_40|0,0|Sana
+OPSCampaignDetail|-58_41|0,0|Morridow_2
+OPSCampaignDetail|-58_42|0,0|Sana
+OPSCampaignDetail|-58_43|0,0|sop2
+OPSCampaignDetail|-58_44|0,0|0
+OPSCampaignDetail|-58_45|0,0|Aegis_GA
+OPSCampaignDetail|-58_46|0,0|Aegis_GA
+OPSCampaignDetail|-58_47|0,0|Aegis_GA
+OPSCampaignDetail|-58_48|0,0|Aegis_GA
+OPSCampaignDetail|-58_49|0,0|M16A1Griffin
+OPSCampaignDetail|-58_50|0,0|Pamzan_3
+OPSCampaignDetail|-58_51|0,0|RPK16
+OPSCampaignDetail|-58_52|0,0|Mrsgray
+OPSCampaignDetail|-58_53|0,0|Riotguard
+OPSCampaignDetail|-58_54|0,0|Teal
+OPSCampaignDetail|-58_55|0,0|Narciss
+OPSCampaignDetail|-58_56|0,0|Morridow_2
+OPSCampaignDetail|-58_57|0,0|Nimeylan
+OPSCampaignDetail|-58_58|0,0|Sana
+OPSCampaignDetail|-58_59|0,0|Sana
+OPSCampaignDetail|-58_69|0,0|Teal
+OPSCampaignDetail|-58_70|0,0|Narciss
+OPSCampaignDetail|-58_71|0,0|Morridow_2
+OPSCampaignDetail|-58_72|0,0|Nimeylan
+OPSCampaignDetail|-58_73|0,0|Sana
+OPSCampaignDetail|-58_74|0,0|Sana
+OPSCampaignDetail|-58_75|0,0|Punish
+OPSCampaignDetail|-58_76|0,0|Punish
+OPSCampaignDetail|-58_77|0,0|Rodelero
+OPSCampaignDetail|-58_78|0,0|Rodelero
+OPSCampaignDetail|-58_79|0,0|Sana
+OPSCampaignDetail|-58_80|0,0|Sana
+OPSCampaignDetail|-58_81|0,0|NPC_Kryuger
+OPSCampaignDetail|-58_82|0,0|NPC_Kryuger
+OPSCampaignDetail|-58_83|0,0|Nyto_mecha2_N
+OPSCampaignDetail|-58_84|0,0|Ange_04
+OPSCampaignDetail|-58_85|0,0|Pamzan_3
+OPSCampaignDetail|-58_86|0,0|RO635
+OPSCampaignDetail|-58_87|0,0|Clyda
+OPSCampaignDetail|-58_88|0,0|Clyda
+OPSCampaignDetail|-58_89|0,0|RO635
+OPSCampaignDetail|-58_90|0,0|Nimeylan
+OPSCampaignDetail|-58_91|0,0|SCAR_L
+OPSCampaignDetail|-58_92|0,0|Nyto_mecha2_N3
+OPSCampaignDetail|-58_93|0,0|Dandelion
+OPSCampaignDetail|-58_94|0,0|Nyto_mecha2_N2
+OPSCampaignDetail|-58_95|0,0|RO635
+OPSCampaignDetail|-58_96|0,0|Justice
+OPSCampaignDetail|-58_97|0,0|Dreamer
+OPSCampaignDetail|-58_98|0,0|Alchemist
+OPSCampaignDetail|-58_99|0,0|Destroyer
+OPSCampaignDetail|-58_100|0,0|Destroyer
+OPSCampaignDetail|-58_101|0,0|Dreamer
+OPSCampaignDetail|-58_102|0,0|Dreamer
+OPSCampaignDetail|-58_103|0,0|Morridow_3
+OPSCampaignDetail|-58_104|0,0|Nimeylan
+OPSCampaignDetail|-58_105|0,0|Justice
+OPSCampaignDetail|-58_106|0,0|Dreamer
+OPSCampaignDetail|-58_107|0,0|Justice
+OPSCampaignDetail|-58_108|0,0|Alchemist
+OPSCampaignDetail|-58_109|0,0|Dreamer
+OPSCampaignDetail|-58_110|0,0|Morridow
+OPSCampaignDetail|-58_111|0,0|RPK16

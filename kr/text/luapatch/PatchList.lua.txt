@@ -218,7 +218,9 @@ patch3020=
 "3020/QuickJumpBtnController",
 "3020/WishGunEventBoxController",
 "3020/DeploymentBackgroundController",
-"3020/DeploymentUIController",				
+"3020/DeploymentUIController",		
+"3020/MallController",
+"3020/ResearchMindUpdateController",		
 }
 patch3030=
 {
@@ -312,10 +314,25 @@ patch3030=
 "3020/QuickJumpBtnController",
 "3030/CanvasEquipGroupInfoFrame",
 "3030/WishGunEventBoxController",
+"3040/AVGPicController",	
 }
 patch3040=
 {
-	
+"3040/AVGPicController",
+"3040/DeploymentAutoBattleController",
+"3040/DeploymentTeamController",
+"3040/DeploymentEnemyTeamController",
+"3040/DeploymentAllyTeamController",		
+"3040/DeploymentUIController",
+"3040/MissionData",
+"3040/MissionSelectionController",		
+"3040/GarageVehiclePlatformController",	
+"3040/AdjutantGunListController",
+"3040/ResearchController",
+"3040/VehicleStateCrewItemController",
+"3040/MallController",
+"3040/QuestsController",
+"3040/BattleVehicleResultController",								
 }
 -- va11
 print("load Va11");

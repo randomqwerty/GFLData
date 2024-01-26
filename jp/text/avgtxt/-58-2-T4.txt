@@ -1,18 +1,18 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>657</BIN><BGM>Campaion-58-3</BGM>:……净化系统控制区域。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>怎么样，找到了吗？</color>
+()<Speaker></Speaker>||<黑屏2><BIN>657</BIN><BGM>Campaion-58-3</BGM>:……浄化システム制御エリア。
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>どう？　何か発見した？</color>
 RO635Mod(2)<Speaker>RO635</Speaker>||:……
-()<Speaker></Speaker>||:RO635呆呆地看着眼前正常运作的仪器。
-RO635Mod(2)<Speaker>RO635</Speaker>||:我找到了这一层的净化系统，但是它没有任何故障，而且能源也是充足的。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>哈啊？</color>
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>把运营日志共享给我。</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||:发送给你了。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>……</color>
-RO635Mod(2)<Speaker>RO635</Speaker>||:怎么了？是哪里出问题了吗？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>这个实验室的净化系统是附属于中央控制室的，那边的电源被切断了……</color>
-RO635Mod(4)<Speaker>RO635</Speaker>||:所以连带着整个实验室的净化系统也停止运行了？
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>对，而且，这里的净化系统不能被单独启动，只能通过中央控制室启动。</color>+<color=#00CCFF>关闭净化系统只有一种可能……就是这里的人不再需要了……</color>
-RO635Mod(0)<Speaker>RO635</Speaker>||<黑点1>:……+那么，只剩下一条路了……+我们必须赶在浓度超标前把安洁带出去。
-()<Speaker></Speaker>||<黑点2><SE1>RunStep</SE1>:心急如焚的RO在手术走廊狂奔，全然没注意到这里已经空无一人……
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>RO。</color>+<color=#00CCFF>快回来。</color>+<color=#00CCFF>安洁，她醒了。</color>
+()<Speaker></Speaker>||:RO635は何も異常を発見できなかった。
+RO635Mod(2)<Speaker>RO635</Speaker>||:実験室の浄化装置はすべて正常。故障もなく、エネルギー供給も十分な//nはずだが、なぜか止まっている。
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>なんで……？</color>
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>浄化装置の作動記録を共有してくれる？</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:送ったわ。
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>……</color>
+RO635Mod(2)<Speaker>RO635</Speaker>||:どう？　何かわかった？
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>実験室の浄化装置は中央制御室で制御されてるけど、あちらの電源が//n切れたから……</color>
+RO635Mod(4)<Speaker>RO635</Speaker>||:だから実験室の浄化も止まっている？
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>そう。しかも、実験室の浄化装置は中央制御室でしか操作できない。</color>+<color=#00CCFF>中央制御室が浄化装置を止めたということは……おそらく、もう//nこのエリアにいる者は全員切り捨てると判断したからでしょ。</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||<黑点1>:……+だったら、やることは一つね……+汚染が広がる前に、アンジェを連れ出す。
+()<Speaker></Speaker>||<黑点2><SE1>RunStep</SE1>:RO635は全力で手術エリアの廊下を走った。
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>RO635。</color>+<color=#00CCFF>戻ってきて。</color>+<color=#00CCFF>アンジェが目を覚ましたわ。</color>
 ()||<黑屏1>:

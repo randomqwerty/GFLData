@@ -1,100 +1,100 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>446</BIN><黑屏2>:……阿佛那斯，东塔，回旋楼梯。
-NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>||<BGM>GF_EV9_Intermission</BGM>:<color=#00CCFF>安全！</color>
-NPC-SCR(2)<通讯框>;Contender(0)<Speaker>竞争者</Speaker><通讯框>||:<color=#00CCFF>安全！</color>
-NPC-SCR(2)<通讯框>;M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position><通讯框>||:<color=#00CCFF>没有敌人！</color>
-NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>;M26MASS(0)<Position>-200,80</Position><通讯框>||:<color=#00CCFF>为什么越往上，敌人数量越少？</color>
-NPC-SCR(2)<通讯框>;NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:检查定位。
-NPC-SCR(0)<Speaker>SCR</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>69层。</color>
-NPC-SCR(0)<通讯框>;Contender(0)<Speaker>竞争者</Speaker><通讯框>||:<color=#00CCFF>68层。</color>
-NPC-SCR(0)<通讯框>;M26MASS(0)<Speaker>M26MASS</Speaker><Position>-200,80</Position><通讯框>||:<color=#00CCFF>69层。</color>
-NPC-SCR(0);M82A1(0)<Speaker>M82A1</Speaker><通讯框>||:<color=#00CCFF>65层。</color>
-NPC-SCR(0);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:……暂停行动，就地隐蔽。
-NPC-SCR(4)<Speaker>SCR</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>大家明明在一起，为什么差别这么大？</color>+<color=#00CCFF>队长，你的位置怎么了？</color>
-NPC-SCR(0)<通讯框>;NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||<黑屏1>:……定位显示我在70层。+我们需要信号支援。
-()<Speaker></Speaker>||<BIN>72</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:……穆罗梅茨会议室。
-BossJustice(0)<Speaker>法官</Speaker>||:Fe56D组已拆除西塔全部武装，几乎没有遇到抵抗。+C组将向上支援曙光，同时启动SSE敏感现场挖掘，搜索任务目标。
-NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:曙光正在东塔向上爬升，刚刚和缇以及布拉梅德接战。
-AR18(2)<Speaker>AR18</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>是否有人员伤亡？</color>
-AR18(2)<Position>0,120</Position><通讯框>;NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:B组损失2名队员，曙光仍然可以继续任务。
-AR18(2)<Speaker>AR18</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>明白。</color>
-AR18(2)<通讯框>;NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:另外，我们定位出现问题。
-AR18(2)<Speaker>AR18</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>没有检测到信号问题。</color>
-AR18(2)<通讯框>;NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:曙光不能确定原因，申请蒲公英降落，稳定信号和位置。
-AR18(2)<Speaker>AR18</Speaker><通讯框>||:<color=#00CCFF>指挥官，曙光请求蒲公英降落。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>同意，务必保证蒲公英的安全。</color>
-AR15Mod(0)<Speaker>AR15</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>明白。</color>
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>446</BIN>:……阿佛那斯，东塔，回旋楼梯。
-Nyto(1)<Speaker>黑涅托</Speaker>||:姐姐，这边有检测到敌人的讯号。
-NytoWhite(0)<Speaker>白涅托</Speaker><Position>0,50</Position>;Nyto(1)||:找到它们。
-Nyto(1)<Speaker>黑涅托</Speaker>||:是，距离已经——
-()<Speaker></Speaker>||<BGM>10106</BGM><SE1>AVG_Cut_Watermelon</SE1>:话还没说完，黑衣少女突然一头倒在了白涅托的面前。+白涅托惊愕地抬头，搜寻敌人，却在黑暗中对上了一双冰冷的瞳孔……
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1>:咚——+最后一名涅托也倒在了地板上，楼梯间重归寂静。
-HK416Mod(0)<Speaker>HK416</Speaker>||:确认敌人已全部歼灭。
-G11Mod(0)<Speaker>G11</Speaker>||:唔……没有敌人了。
-AR15Mod(0)<Speaker>AR15</Speaker>||:收到。
-()<Speaker></Speaker>||:蒲公英散开阵型，AR15确认小队全员到齐。
-AR15Mod(0)<Speaker>AR15</Speaker>||:蒲公英已降落指定地点。
-AR15Mod(0);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker><通讯框>||:<color=#00CCFF>收到。</color>
-AR15Mod(5)<Speaker>AR15</Speaker>;NPC-SCAR-L(0)||:……+曙光？你们的信号还在受到干扰吗？
-AR15Mod(5);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker><通讯框>||:<color=#00CCFF>是的，并且干扰还在加剧。</color>+<color=#00CCFF>我们站在一起，但定位已经出现10层楼的差距。</color>
-AR15Mod(5);Erma(13)<Position>0,50</Position><Speaker>艾尔玛</Speaker><通讯框>||:<color=#00CCFF>墨丘利请求曙光和蒲公英当前坐标。</color>
-AR15Mod(0)<Speaker>AR15</Speaker>;Erma(13)||:已经共享。
-AR15Mod(0);Erma(15)<Position>0,50</Position><Speaker>艾尔玛</Speaker><通讯框>||:<color=#00CCFF>我能看见干扰现象的发生，但原因暂且不明，只能请求现场技术团队支援。</color>
-AR15Mod(0)<Speaker>AR15</Speaker>||:收到，丹德莱？
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:我感受到了巨大的能量波动。+但需要再搜索看看。
-Erma(13)<Position>0,50</Position><Speaker>艾尔玛</Speaker><通讯框>||:<color=#00CCFF>明白，我把我发现的几个干扰集中的地方发给你们。</color>
-AR15Mod(3)<Speaker>AR15</Speaker>||<黑屏1>:好，继续前进吧。+45和416在后面保护丹德莱，G11掩护我前进。
-()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><SE1>AVG_Team_Running</SE1>:沿着蜿蜒盘旋的楼梯，小队悄无声息地快速移动着。+除了降落时遭遇的一小波敌人，一路上几乎连敌人的影子都没看到。
-G11Mod(0)<Speaker>G11</Speaker>||:这个地方好大啊……就没有更精确点的地图了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>||:有大概区域的标识已经很不容易了。
+()<Speaker></Speaker>||<BIN>446</BIN><黑屏2>:……アヴェルヌス、東塔の螺旋階段。
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>||<BGM>GF_EV9_Intermission</BGM>:<color=#00CCFF>クリア！</color>
+NPC-SCR(2)<通讯框>;Contender(0)<Speaker>コンテンダー</Speaker><通讯框>||:<color=#00CCFF>クリア！</color>
+NPC-SCR(2)<通讯框>;M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position><通讯框>||:<color=#00CCFF>敵影なし！</color>
+NPC-SCR(2)<Speaker>SCR</Speaker><通讯框>;M26MASS(0)<Position>-200,80</Position><通讯框>||:<color=#00CCFF>なんで上に行くほど敵が少なくなっているんですか？</color>
+NPC-SCR(2)<通讯框>;NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||:ポジションチェック。
+NPC-SCR(0)<Speaker>SCR</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>69階。</color>
+NPC-SCR(0)<通讯框>;Contender(0)<Speaker>コンテンダー</Speaker><通讯框>||:<color=#00CCFF>68階。</color>
+NPC-SCR(0)<通讯框>;M26MASS(0)<Speaker>M26-MASS</Speaker><Position>-200,80</Position><通讯框>||:<color=#00CCFF>69階。</color>
+NPC-SCR(0);M82A1(0)<Speaker>M82A1</Speaker><通讯框>||:<color=#00CCFF>65階。</color>
+NPC-SCR(0);NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||:……一旦停止、その場で各自隠蔽を。
+NPC-SCR(4)<Speaker>SCR</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>みんな一緒にいるはずなのに、どうして座標に差が……</color>+<color=#00CCFF>隊長の位置は？？</color>
+NPC-SCR(0)<通讯框>;NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||<黑屏1>:……私は70階にいると表示されている。+信号サポートが必要だ。
+()<Speaker></Speaker>||<BIN>72</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:……ムーロメツ会議室。
+BossJustice(0)<Speaker>ジャッジ</Speaker>||:こちらFe56D班、西塔の武装をすべて解除した。//n敵の抵抗はほとんどなかった。+C班はこのまま上に上がってアウロラの支援と、目標の捜索に当たる。
+NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||:アウロラは今東塔を登っている。先ほど、グリク、ブラメドと交戦した。
+AR18(2)<Speaker>AR-18</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>欠員は？</color>
+AR18(2)<Position>0,120</Position><通讯框>;NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||:B班欠員2名。まだ任務を続行できる。
+AR18(2)<Speaker>AR-18</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>了解した。</color>
+AR18(2)<通讯框>;NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||:それから、ナビゲーションに問題あり。
+AR18(2)<Speaker>AR-18</Speaker><通讯框>;NPC-SCAR-L(0)||:<color=#00CCFF>信号に異常は検知されていないが。</color>
+AR18(2)<通讯框>;NPC-SCAR-L(0)<Speaker>エリアナ</Speaker>||:原因はまだ特定できない。タラクサクムの支援を要請する。
+AR18(2)<Speaker>AR-18</Speaker><通讯框>||:<color=#00CCFF>指揮官、アウロラがタラクサクムの支援を要請している。</color>
+()<Speaker>指揮官</Speaker>||:<color=#00CCFF>許可する。ただし、タラクサクムの安全は必ず確保するように。</color>
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>了解。</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>446</BIN>:……アヴェルヌス、東塔の螺旋階段。
+Nyto(1)<Speaker>黒ネイト</Speaker>||:姉様、こちらに敵の信号反応があります。
+NytoWhite(0)<Speaker>白ネイト</Speaker><Position>0,50</Position>;Nyto(1)||:見つけ出せ。
+Nyto(1)<Speaker>黒ネイト</Speaker>||:はい、距離は――
+()<Speaker></Speaker>||<BGM>10106</BGM><SE1>AVG_Cut_Watermelon</SE1>:言い終わらないうちに、黒ネイトは突然倒れた。+白ネイトは慌てて敵の姿を探すが、暗闇の中で一対の目と//n視線が合ってしまう……
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1>:（ドン――）+そして白ネイトも倒れ、階段通路は再び静かになった。
+HK416Mod(0)<Speaker>416</Speaker>||:敵の殲滅を確認。
+G11Mod(0)<Speaker>Gr G11</Speaker>||:うん……敵がいない。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:了解。
+()<Speaker></Speaker>||:タラクサクムが陣形を展開すると、AR-15はアウロラに通信をかけた。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:タラクサクム、指定ポイントまで到着。
+AR15Mod(0);NPC-SCAR-L(0)<Speaker>エリアナ</Speaker><通讯框>||:<color=#00CCFF>了解。</color>
+AR15Mod(5)<Speaker>ST AR-15</Speaker>;NPC-SCAR-L(0)||:……+アウロラ、まだジャミングを受けているのか？
+AR15Mod(5);NPC-SCAR-L(0)<Speaker>エリアナ</Speaker><通讯框>||:<color=#00CCFF>はい、しかもジャミングはひどくなる一方。</color>+<color=#00CCFF>全員同じ場所にいるはずなのに、ナビでは全員バラバラの階層に//nいることになっている。</color>
+AR15Mod(5);Erma(13)<Position>0,50</Position><Speaker>エルマ</Speaker><通讯框>||:<color=#00CCFF>こちらマーキュリー、アウロラとタラクサクムの現在座標を求む。</color>
+AR15Mod(0)<Speaker>ST AR-15</Speaker>;Erma(13)||:共有した。
+AR15Mod(0);Erma(15)<Position>0,50</Position><Speaker>エルマ</Speaker><通讯框>||:<color=#00CCFF>座標がズレている現象は確認した。だけど原因は今のところ不明、//n現場でどうにかするしかないね。</color>
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:了解。ダンデライオン？
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:とても、大きなエネルギーを感じるわ。+でももっと捜索してみないと分からない。
+Erma(13)<Position>0,50</Position><Speaker>エルマ</Speaker><通讯框>||:<color=#00CCFF>了解、ジャミングが集中している場所の座標をそちらに送る。</color>
+AR15Mod(3)<Speaker>ST AR-15</Speaker>||<黑屏1>:よし、行きましょう。+UMP45と416はダンデライオンの護衛、G11は私をサポートしてちょうだい。
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><SE1>AVG_Team_Running</SE1>:螺旋状の階段に沿って、小隊は迅速に移動した。+降下して来た時に遭遇した敵以外、ここまで一体の敵にも遭遇していなかった。
+G11Mod(0)<Speaker>Gr G11</Speaker>||:ここ広すぎるよ……もっと精確な地図はないの？
+HK416Mod(0)<Speaker>416</Speaker>||:大体の標識があるだけでもありがたいわよ。
 ()<Speaker></Speaker>||<BGM>GF_22W_BGM_1</BGM><闪屏><duration>1</duration><rate>10</rate><delay>1</delay><Pic></Pic><CG>569,446</CG></闪屏>:
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:你们看到了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>||:什么？
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:一座冰山。
-G11Mod(0)<Speaker>G11</Speaker>||:什么都没有。+我们还在阿佛那斯……
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:是阿佛那斯，但我看见了一座冰山。+有人在喊我，喊我——尼莫金。
-NytoIsomer(4)<Speaker>丹德莱</Speaker>||:……真是令人熟悉的感觉。
-AR15Mod(0)<Speaker>AR15</Speaker>||:……
-()<Speaker></Speaker>||:AR15立刻抬手停止了所有人的行动。
-AR15Mod(0)<Speaker>AR15</Speaker>||:你们看到了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>||:别说人影，我连声音也没听见。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:恐怕只有丹德莱能听见吧。
-NytoIsomer(4)<Speaker>丹德莱</Speaker>||:忍不住想要靠近……+阳光下的美丽冰山……
-()<Speaker></Speaker>||:丹德莱的眼睛失去了焦点，空旷地凝望着远方。
-AR15Mod(0)<Speaker>AR15</Speaker>||:G11，416，戒备附近。+45，和我一起守在丹德莱边上。
-HK416Mod(0)<Speaker>HK416</Speaker>||:干活了，G11。
-G11Mod(0)<Speaker>G11</Speaker>||:唔……
-AR15Mod(0)<Speaker>AR15</Speaker>||:45，我们距离信号被干扰的区域还有多远？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:我们已经身在其中了。
-AR15Mod(0)<Speaker>AR15</Speaker>||:……
-AR15Mod(0)<Speaker>AR15</Speaker>||:只能先继续前进了，按照原计划，我们总能在路上和曙光或者Fe56汇合。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE2>Gunfight</SE2>:呯呯呯——
-()<Speaker></Speaker>||:不远处的枪声打断了对话。
-AR15Mod(8)<Speaker>AR15</Speaker>||:怎么回事？！416！
-HK416Mod(0)<Speaker>HK416</Speaker>;AR15Mod(0)||:G11，回撤！+15，有敌人冲我们来了！
-AR15Mod(5)<Speaker>AR15</Speaker>||:立刻断开链接，丹德莱！
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:……
-AR15Mod(5)<Speaker>AR15</Speaker>||:丹德莱！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:15！
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><BGM>10254</BGM>:唰——+一个黑色的身影缓缓从空中降落至楼梯上。+她的身姿轻盈，几乎没有发出一点声响，但无形的压迫感早已四处弥散。
-NPC-MorridowNew(1)<Speaker>默莉朵</Speaker>||:好久没见，各位还是老样子啊。
-AR15Mod(5)<Speaker>AR15</Speaker>||:416，G11，立刻返回！准备迎击！
-()<Speaker></Speaker>||:只一眨眼，默莉朵已经逼近了丹德莱。
-NPC-MorridowNew(1)<Speaker>默莉朵</Speaker>||:有人顺着尼莫金的意识，去到了不该去的地方呢。
-AR15Mod(0)<Speaker>AR15</Speaker>||:G11，火力掩护！
-G11Mod(0)<Speaker>G11</Speaker>||:嗯！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:狂暴的火力暂时逼退了默莉朵，她缓缓落到后方。
-NPC-MorridowNew(1)<Speaker>默莉朵</Speaker>||:上一次你们走了运能打败我，但这一次，我可不会轻易放你们过去了。
-AR15Mod(0)<Speaker>AR15</Speaker>||:丹德莱！快撤出来……+45，你和G11在这保护她，我和416牵制——
-()<Speaker></Speaker>||<SE1>Rope</SE1>:啪——丹德莱突然抓住了AR15的手臂。
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:那不是冰山……是隔绝我进入那片湖水的门。+眼前沉静如海，却又密不透风……+我想要进去，却不得入法。
-HK416Mod(0)<Speaker>HK416</Speaker>||:15，你最好告诉我你能理解她在说什么。
-AR15Mod(3)<Speaker>AR15</Speaker>||:……+你接入到了这里的网络吗？你感受到的意识是指帕拉蒂斯的意识吗？
-NytoIsomer(3)<Speaker>丹德莱</Speaker>||:“只有经过链接我才最终明白，我终究无法成为被期望的她。”+“但是如果她选择了接纳我们的一切，放弃成为完美的期望亦如我愿。”+“绝望的花朵就要绽放，时间已经不多了。”
-HK416Mod(0)<Speaker>HK416</Speaker>||:不管她说的话有多重要，AR15，你得掩护我！
-AR15Mod(0)<Speaker>AR15</Speaker>||:我知道了！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:将丹德莱的手从身上掰开，AR15跟上了HK416的步伐。
-NPC-MorridowNew(1)<Speaker>默莉朵</Speaker>||:一个宝贵的建议——+不要去尝试抵抗这些可怜的意识，你们杀的越多，她们就越强大……+直到把你们每一个人形吞噬为止。
-AR15Mod(0)<Speaker>AR15</Speaker>||:准备战斗！+呼叫穆罗梅茨全体，蒲公英小队接敌，目标默莉朵！请求增援。
-()||<黑屏1>:
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:……見える？
+HK416Mod(0)<Speaker>416</Speaker>||:なにが？
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:氷山。
+G11Mod(0)<Speaker>Gr G11</Speaker>||:何もないよ。+ここはアヴェルヌス……
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:ええ、アヴェルヌスだけど、私には氷山が見えているの。+誰かが私を呼んでいる――ニモゲン？
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker>||:……懐かしい感覚ね。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:……
+()<Speaker></Speaker>||:AR-15はすぐに停止のサインを出した。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:みんな何か見える？
+HK416Mod(0)<Speaker>416</Speaker>||:なにも。声すら聞こえないわ。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:おそらく見えているのはダンデライオンだけかも。
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker>||:思わず近づきたい……+美しい氷山……
+()<Speaker></Speaker>||:ダンデライオンの目から焦点が消え、ただ遠くの方を眺めている。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:G11、416、周囲への警戒を。+UMP45は私と一緒にダンデライオンを守る。
+HK416Mod(0)<Speaker>416</Speaker>||:やるわよ、G11。
+G11Mod(0)<Speaker>Gr G11</Speaker>||:うあぅ……
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:UMP45、ジャミングエリアまでの距離は？
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:もうその中にいるわ。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:……
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:じゃあ、このまま進むしかないわね。計画通りなら、どこかで//nアウロラかFe56と合流できるはず。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE2>Gunfight</SE2>:（銃声）
+()<Speaker></Speaker>||:突然の銃声が会話を遮った。
+AR15Mod(8)<Speaker>ST AR-15</Speaker>||:416！？
+HK416Mod(0)<Speaker>416</Speaker>;AR15Mod(0)||:G11、戻りなさい！+AR-15、敵が来ているわ！
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:ダンデライオン、今すぐ接続を切れ！
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:……
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:ダンデライオン！
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:AR-15！
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><BGM>10254</BGM>:（スッ――）+一つの黒い影が、ゆったりと降り立つ。+あまりにも軽く、少しの音もしなかった。だけど、その威圧感だけが、//nヒリヒリとその場に居る全員に伝わる。
+NPC-MorridowNew(1)<Speaker>モリドー</Speaker>||:皆さん、お久しぶりですね。変わらないようで何よりです。
+AR15Mod(5)<Speaker>ST AR-15</Speaker>||:416、G11！　迎撃を！
+()<Speaker></Speaker>||:瞬く間に、モリドーはダンデライオンに接近した。
+NPC-MorridowNew(1)<Speaker>モリドー</Speaker>||:ニモゲンの意識に沿って、行ってはいけない場所へ行っちゃったみたいですね。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:G11！　掩護お願い！
+G11Mod(0)<Speaker>Gr G11</Speaker>||:うん！
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:集中射撃が一旦モリドーを退け、少し離れた距離まで追いやった。
+NPC-MorridowNew(1)<Speaker>モリドー</Speaker>||:前回あなたたちが私に勝てたのは、ただ運がよかっただけ。//n今回は、そう簡単にはいきませんよ。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:ダンデライオン！　早く戻って来なさい……！+UMP45、ここでG11と一緒にダンデライオンを守って、//n私と416であいつを――
+()<Speaker></Speaker>||<SE1>Rope</SE1>:ここで突然、ダンデライオンはAR-15の腕を掴んだ。
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:あれは氷山じゃないわ……あれは、私を拒んでいる湖への扉。+海のように静かで、少しの隙も無い……+私はあそこに入りたいのに……入れない。
+HK416Mod(0)<Speaker>416</Speaker>||:AR-15！　そいつなに言ってるのか解説してくれる？
+AR15Mod(3)<Speaker>ST AR-15</Speaker>||:……+ここのネットワークに接続したのか？//nそこからパラデウスの意識を感じ取っているのか？
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:「連鎖を行って初めて意味を理解した。私では望まれた彼女にはなれないと」+「だが彼女が私たちの全てを受け入れることを選択し、//n完璧になるという願いを捨てるのならば。それもまた私の願い通り」+「あと少しで絶望の花が開く。もう時間が無い」
+HK416Mod(0)<Speaker>416</Speaker>||:どういう意味か知らないけど、AR-15！　手伝って！
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:分かった！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ダンデライオンの手を振りほどいて、AR-15は416の方へ駆け込んだ。
+NPC-MorridowNew(1)<Speaker>モリドー</Speaker>||:一つアドバイスをしましょう――+その可哀そうな意識たちに抗わない方がいいですよ。//n殺せば殺すほど、彼女たちは強くなります……+あなたたち全員を呑み込むまで。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:戦闘準備！+ムーロメツ全体ヘ！　タラクサクムが接敵した！//n相手はモリドー！　至急増援を頼む！
+()||<黑屏1>:

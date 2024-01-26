@@ -1,50 +1,50 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BGM>GF_EV9_Story</BGM><BIN>446</BIN>:……阿佛那斯，东塔，回旋楼梯。
-AN94MOD(0)<Speaker>AN94</Speaker>||:……你确定要这么做吗？
-AN94MOD(0);NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>我已经决定了。</color>+<color=#00CCFF>还有很多工作等待完成，你们没有犹豫的时间。</color>
-AN94MOD(0)<Speaker>AN94</Speaker>;NPC-Koleda(0)<通讯框>||:……
-AN94MOD(0);NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>我们还需要对这栋建筑内部做出更大程度的破坏，才能帮穆罗梅茨铺开彻底扫除帕拉蒂斯的道路。</color>+<color=#00CCFF>不要忘记，无论是安洁还是指挥官，我们的目的都只有一个，抓到罪魁祸首。</color>
-AN94MOD(0)<Speaker>AN94</Speaker>;NPC-Koleda(0)<通讯框>||:是。
-NPC-Koleda(0)<Speaker>克莱妲</Speaker><通讯框>||:<color=#00CCFF>注意隐蔽，保持联络。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通讯挂断了。
-AN94MOD(0)<Speaker>AN94</Speaker>||:走吧，15。
-AK15MOD(0)<Speaker>AK15</Speaker>||:……
-()<Speaker></Speaker>||:AK15警觉地盯着前方走廊拐角，她静静抬起了枪。+AN94没有多问，也同样戒备起了前方。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:哒、哒、哒——不甚规律的脚步声虚浮地响起，两人的手指都扣上了扳机。
-M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……RO，我来了。
-AK15MOD(0)<Speaker>AK15</Speaker>||:……
-AN94MOD(0)<Speaker>AN94</Speaker>||:SOP2！？
-()<Speaker></Speaker>||:素体无限逼近报废的SOP2缓缓挪动着，却对凑近前来的AK15和AN94视若无睹。
-AK15MOD(0)<Speaker>AK15</Speaker>||:她为什么不理我们？这不符合她的行为逻辑。
-AN94MOD(0)<Speaker>AN94</Speaker>||:SOP2？请回应我。
+()<Speaker></Speaker>||<黑屏2><BGM>GF_EV9_Story</BGM><BIN>446</BIN>:……アヴェルヌス、東塔の螺旋階段。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:……本当にそうするの？
+AN94MOD(0);NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>もう決めたから。</color>+<color=#00CCFF>他にもやるべきことがあるし、迷ってる時間はないわ。</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;NPC-Koleda(0)<通讯框>||:……
+AN94MOD(0);NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>ムーロメツの道を切り開くためにも、この建物の内部を//nもっと破壊しなければならない。</color>+<color=#00CCFF>アンジェも指揮官も、目的はただ一つ、すべての黒幕を捕まえることよ。</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;NPC-Koleda(0)<通讯框>||:はい。
+NPC-Koleda(0)<Speaker>コレダ</Speaker><通讯框>||:<color=#00CCFF>また連絡するわ。</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通信終了。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:行きましょう、AK-15。
+AK15MOD(0)<Speaker>AK-15</Speaker>||:……
+()<Speaker></Speaker>||:AK-15は前方廊下の曲がり角に警戒の目を向けた。+同様にAN-94も、多くは言わず警戒して銃を構えた。
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:不規則なペースで近づいて来る足音に、二人はトリガーに指を置く。
+M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:RO……
+AK15MOD(0)<Speaker>AK-15</Speaker>||:……
+AN94MOD(0)<Speaker>AN-94</Speaker>||:SOP II！？
+()<Speaker></Speaker>||:ボロボロな素体をゆっくりと動かしながら、SOP IIが近づいて来る。//nしかし、目の前にいるAK-15とAN-94には気づいていないようだ。
+AK15MOD(0)<Speaker>AK-15</Speaker>||:なぜ返事をしない？　どこかおかしいぞ。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:SOP II、応答してください。
 M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……
-()<Speaker></Speaker>||:SOP2无神地向前跛行着，即便撞上了AK15也只是懵然绕开。
-AN94MOD(0)<Speaker>AN94</Speaker>||:她的状态不太对劲……
-AK15MOD(0)<Speaker>AK15</Speaker>;AN94MOD(0)||:她失去了对环境的感知。
-AK15MOD(0);AN94MOD(0)<Speaker>AN94</Speaker>||:她看不见我们，也感觉不到我们的存在。
-AK15MOD(0)<Speaker>AK15</Speaker>||:你有什么办法能让她恢复知觉吗？
-()<Speaker></Speaker>||:AN94静静看着SOP2冰封般的脸庞。
+()<Speaker></Speaker>||:SOP IIはただよろよろと前へ進む。AK-15にぶつかっても、//n少しぼうっとした後、避けてまた進みだした。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:様子がおかしい……
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)||:周囲への感知ができていないみたいだ。
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker>||:感知機能を全部オフにされたの？
+AK15MOD(0)<Speaker>AK-15</Speaker>||:元に戻す方法はあるか？
+()<Speaker></Speaker>||:AN-94はSOP IIの様子をじっと観察した。
 M4 SOPMOD IIMod(1)<Speaker>M4 SOPMOD II</Speaker>||:……
-AN94MOD(0)<Speaker>AN94</Speaker>||:给我三分钟。
-AK15MOD(0)<Speaker>AK15</Speaker>||:好，这里交给我。
-()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:AN94骇入了SOP2的心智。
-()<Speaker></Speaker>||<BGM>BGM_Wake</BGM><黑屏2><BIN>9</BIN>:……+无垠的黑暗。+AN94找到了瑟缩在角落的SOP2。
-AN94MOD(0)<Speaker>AN94</Speaker>||:……
+AN94MOD(0)<Speaker>AN-94</Speaker>||:3分ちょうだい。
+AK15MOD(0)<Speaker>AK-15</Speaker>||:分かった、任せろ。
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:AN-94はSOP IIのメンタルをハッキングした。
+()<Speaker></Speaker>||<BGM>BGM_Wake</BGM><黑屏2><BIN>9</BIN>:……+果てしない暗闇の中。+AN-94は、一人縮こまっているSOP IIを見つけた。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:……
 ()<Speaker>M4 SOPMOD II</Speaker>||:……
-AN94MOD(0)<Speaker>AN94</Speaker>||:……SOP2？
-()<Speaker></Speaker>||:SOP2紧紧地闭上双眼，双手也死死地捂住耳朵。
-AN94MOD(0)<Speaker>AN94</Speaker>||:是我，SOP2。
-()<Speaker>M4 SOPMOD II</Speaker>||:假的，都是假的……+就算你肢体乱飞死在我面前，也是假的！
-AN94MOD(0)<Speaker>AN94</Speaker>||:……是心智攻击吗？+已经结束了，SOP2，你已经安全了。
-()<Speaker>M4 SOPMOD II</Speaker>||:我什么都看不见！听不见！你拿我没辙的！
-AN94MOD(0)<Speaker>AN94</Speaker>||:……+你的心智紊乱太厉害，我只能强行介入了，抱歉。
-()<Speaker></Speaker>||:AN94的手伸向了SOP2头戴的天线……
+AN94MOD(0)<Speaker>AN-94</Speaker>||:……SOP II？
+()<Speaker></Speaker>||:SOP IIは必死に目を閉じて、両手で耳を塞いでいた。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:SOP II、私です。
+()<Speaker>M4 SOPMOD II</Speaker>||:嘘だ！　そんなの信じない……+お前が何を言っても、わたしは信じない！
+AN94MOD(0)<Speaker>AN-94</Speaker>||:……電子戦の影響でメンタルが混乱しているのか。+SOP II、今はもう安全です。
+()<Speaker>M4 SOPMOD II</Speaker>||:嘘だ！　聞かない！　わたしはなにも信じない！
+AN94MOD(0)<Speaker>AN-94</Speaker>||:……+ごめんなさい、混乱があまりにもひどいようなので、強硬手段でいきます。
+()<Speaker></Speaker>||:AN-94はSOP IIの頭のアンテナに手を伸ばす……
 ()<Speaker>M4 SOPMOD II</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:……
-AK15MOD(0)<Speaker>AK15</Speaker>||<黑屏2><BIN>446</BIN><BGM>GF_EV9_Story</BGM>:解决了？
-AK15MOD(0);AN94MOD(0)<Speaker>AN94</Speaker>||:嗯，她的心智恢复平静了。
-AK15MOD(0)<Speaker>AK15</Speaker>;AN94MOD(0)||:她在找RO吗？
-AK15MOD(0);AN94MOD(0)<Speaker>AN94</Speaker>||:是的，按计划，她们应该汇合去救安洁。
-AK15MOD(0)<Speaker>AK15</Speaker>;AN94MOD(0)||:……
-AN94MOD(0)<Speaker>AN94</Speaker>||:我们把她送回RO那边，再继续任务吧。
-()<Speaker></Speaker>||:AK15默默地将暂时昏迷的SOP2扛了起来，两个白色的身影犹如黑夜中的魅影，消失在回旋的空间之中……
+AK15MOD(0)<Speaker>AK-15</Speaker>||<黑屏2><BIN>446</BIN><BGM>GF_EV9_Story</BGM>:終わったか？
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker>||:うん、落ち着かせた。
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)||:RO635を探していたのか？
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker>||:計画通りなら、一緒にアンジェを探していたはず。
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)||:……
+AN94MOD(0)<Speaker>AN-94</Speaker>||:RO635のところに送り届けてから、任務を続けましょう。
+()<Speaker></Speaker>||:AK-15が昏睡したSOP IIを担ぎ、二人は静かに螺旋階段を登っていく……
 ()||<黑屏1>:
