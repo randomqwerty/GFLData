@@ -13968,6 +13968,118 @@
     "formula": "sbuffidtier(9408)=1?1:0"
   },
   {
+    "id": 5520,
+    "formula": "$1*(1+0.05*sbuffidtier(9421))"
+  },
+  {
+    "id": 5521,
+    "formula": "sbuffidtier(9426)=0?0:1"
+  },
+  {
+    "id": 5522,
+    "formula": "$1*(1+tbuffidtier(9424)*sbuffidtier(9426)/100)"
+  },
+  {
+    "id": 5523,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5524,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5525,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5526,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5527,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5528,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5529,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5530,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5531,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5532,
+    "formula": "sbuffidtier(9429)"
+  },
+  {
+    "id": 5533,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5534,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5535,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5536,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5537,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5538,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5539,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5540,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5541,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5542,
+    "formula": "sbuffidtier(9428)+100"
+  },
+  {
+    "id": 5543,
+    "formula": "#life*0.02"
+  },
+  {
+    "id": 5544,
+    "formula": "#life*0.03"
+  },
+  {
+    "id": 5545,
+    "formula": "sbuffidtier(3512)+sbuffidtier(3513)+sbuffidtier(3514)+sbuffidtier(3515)+sbuffidtier(3516)+sbuffidtier(3517)<3?1:0"
+  },
+  {
+    "id": 5546,
+    "formula": "1"
+  },
+  {
+    "id": 5547,
+    "formula": "$1>1000?1000:$1"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
@@ -16526,6 +16638,10 @@
   {
     "id": 544610,
     "formula": "148*(sbuffidtier(5244)>0?0.5:1)"
+  },
+  {
+    "id": 554705,
+    "formula": "sbuffidtier(9428)=0?0:100"
   },
   {
     "id": 750001,

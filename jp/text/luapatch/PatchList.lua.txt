@@ -324,6 +324,7 @@ patch3040=
 "3040/DeploymentEnemyTeamController",
 "3040/DeploymentAllyTeamController",		
 "3040/DeploymentUIController",
+"3040/DeploymentController",	
 "3040/MissionData",
 "3040/MissionSelectionController",		
 "3040/GarageVehiclePlatformController",	
@@ -332,7 +333,8 @@ patch3040=
 "3040/VehicleStateCrewItemController",
 "3040/MallController",
 "3040/QuestsController",
-"3040/BattleVehicleResultController",								
+"3040/BattleVehicleResultController",
+"3040/OPSPanelController",									
 }
 -- va11
 print("load Va11");

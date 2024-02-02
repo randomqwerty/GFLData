@@ -216,7 +216,12 @@ end
 Awake = function()
 	-- 关闭自动释放技能
 	--textTime = TextTime:GetComponent(typeof(CS.ExText))
-
+	if CS.ResCenter.instance.clientVersionMin>=3040 then
+		for i=0,BattleDynamicData.friendlyTeamHolder.listCharacter.Count -1 do
+			local character = BattleDynamicData.friendlyTeamHolder.listCharacter[i];
+			character:SetWorldPosition(CS.TrueSync.TSVector(-1000,0,0));
+		end
+	end
 	BattleDynamicData.infiScoutDistance = true
 	local CheckBaseLine = function(self)
 		if (self:CheckAllIsPhased(BattleDynamicData.enemyTeamHolder.listCharacter)) then
@@ -236,6 +241,14 @@ Awake = function()
 			PlaySFX("button")
 			if targetBuff ~= nil then
 				targetBuff.num = targetBuff.num + addNum
+				if CS.ResCenter.instance.clientVersionMin>=3040 then
+					if characterData.conditionListSelf.mDicTypeCountNum:ContainsKey(501) then
+						characterData.conditionListSelf.mDicTypeCountNum[501]=characterData.conditionListSelf.mDicTypeCountNum[501]+ addNum
+					end
+					if characterData.conditionListSelf.mDicIDCountNum:ContainsKey(layerBuffID) then
+						characterData.conditionListSelf.mDicIDCountNum[layerBuffID]=characterData.conditionListSelf.mDicIDCountNum[layerBuffID]+ addNum
+					end
+				end
 			else
 				CS.GF.Battle.SkillUtils.GenBuffViaSkillConfig(characterData,skillid1,{addNum})
 			end
@@ -422,8 +435,8 @@ Update = function()
 		character.lifeBar.gameObject:SetActive(false)
 		lifebarFlag = true
 	end
-	if not lifebarFlag2 and BattleController.enemyTeamHolder:GetCharacters()[0].lifeBar ~= nil then
-		BattleController.enemyTeamHolder:GetCharacters()[0].lifeBar.gameObject:SetActive(false)
+	if not lifebarFlag2 and BattleController.enemyTeamHolder.mListCharacter[0].lifeBar ~= nil then
+		BattleController.enemyTeamHolder.mListCharacter[0].lifeBar.gameObject:SetActive(false)
 		lifebarFlag2 = true
 	end
 	if characterData.conditionListSelf:GetTierByID(layerBuffID) > 0 then
