@@ -24,5 +24,14 @@ local CanPlayAllSpots = function(self)
 	return self:CanPlayAllSpots();
 end
 
+local Load = function(self,campaion)
+	self:Load(campaion);
+	if self.currentPanelConfig ~= nil and self.currentPanelConfig.highScoreInfo ~= nil then
+		if self.currentPanelConfig.highScoreInfo.opsmission ~= nil and self.currentPanelConfig.highScoreInfo.opsmission.CurrentMissionId == 0 then
+			self.currentPanelConfig.highScoreInfo.opsmission = nil;
+		end
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'InitShowContainer',InitShowContainer)
 util.hotfix_ex(CS.OPSPanelController,'CanPlayAllSpots',CanPlayAllSpots)
+util.hotfix_ex(CS.OPSPanelController,'Load',Load)

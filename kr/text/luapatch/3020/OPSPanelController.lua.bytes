@@ -210,5 +210,14 @@ local Awake = function(self)
 	checkRequestDrawEvent = false;
 	self:Awake();
 end
+local Load = function(self,campaion)
+	self:Load(campaion);
+	if self.currentPanelConfig ~= nil and self.currentPanelConfig.highScoreInfo ~= nil then
+		if self.currentPanelConfig.highScoreInfo.opsmission ~= nil and self.currentPanelConfig.highScoreInfo.opsmission.CurrentMissionId == 0 then
+			self.currentPanelConfig.highScoreInfo.opsmission = nil;
+		end
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'Awake',Awake)
 util.hotfix_ex(CS.HomeController,'InitUIElements',InitUIElements)
+util.hotfix_ex(CS.HomeController,'Load',Load)
