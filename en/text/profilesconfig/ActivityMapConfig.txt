@@ -53,7 +53,9 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //2023春活配置：
-MissionSelectionTex|missionselect_Slowshock|1|-58
+//MissionSelectionTex|missionselect_Slowshock|1|-58
+//终焉花海复刻配置：
+MissionSelectionTex|missionselect_Reversible_RE|2|-55
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -179,9 +181,9 @@ OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 //OPSNoticeNormalActivity|-53|Isomer_Notice
 //OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
-//OPSNoticeNormalActivity|-55|Reversible_Notice
+OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
-OPSNoticeNormalActivity|-58|2023Spring_Notice
+//OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 
 //时间公告-预制物(公用)
@@ -243,6 +245,10 @@ OPSTimeNormalActivity|-59|Reversible_Time
 //OPSGoto|2022Summer_GotoMall|0|-54
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 OPSGoto|2023Spring_GotoMall|0|-58
+//终焉花海复刻配置_积分界面跳转
+//OPSGoto|Continuum_PointExchange|2
+//OPSGoto|Bikini_2022_GotoMall|0|-52
+OPSGoto|2022Summer_GotoMall|0|-55
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -1156,8 +1162,8 @@ OPSCampaignDetail|-44_39|0,0|Nyto_black
 OPSCampaignDetail|-44_40|0,0|Mrsgray
 OPSCampaignDetail|-44_41|0,0|Mrsgray
 OPSCampaignDetail|-44_42|0,0|Dandelion
-OPSCampaignDetail|-44_43|0,0|Punish
-OPSCampaignDetail|-44_44|0,0|Narciss
+//OPSCampaignDetail|-44_43|0,0|Punish
+//OPSCampaignDetail|-44_44|0,0|Narciss
 OPSCampaignDetail|-44_45|0,0|Doppelsoldner
 OPSCampaignDetail|-44_46|0,0|Doppelsoldner
 OPSCampaignDetail|-44_47|0,0|Punish
