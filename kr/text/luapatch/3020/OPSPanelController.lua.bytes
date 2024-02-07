@@ -218,6 +218,18 @@ local Load = function(self,campaion)
 		end
 	end
 end
+local GetAllGroupTotalHighScore = function(self)
+	local score = self:GetAllGroupTotalHighScore();
+	if self.campaionId == -55 then
+		local mission = CS.GameData.listMission:GetDataById(11320);
+		if mission ~= nil then
+			score = mission.type5_score;
+		end
+	end
+	return score;
+end
 util.hotfix_ex(CS.OPSPanelController,'Awake',Awake)
+util.hotfix_ex(CS.OPSPanelController,'Load',Load)
+util.hotfix_ex(CS.OPSPanelController,'GetAllGroupTotalHighScore',GetAllGroupTotalHighScore)
 util.hotfix_ex(CS.HomeController,'InitUIElements',InitUIElements)
-util.hotfix_ex(CS.HomeController,'Load',Load)
+
