@@ -14061,11 +14061,11 @@
   },
   {
     "id": 5543,
-    "formula": "#life*0.02>1000?1000:#life*0.02"
+    "formula": "#life*0.02*(1-#def/#maxdef)>1000?1000:#life*0.02*(1-#def/#maxdef)"
   },
   {
     "id": 5544,
-    "formula": "#life*0.03>1000?1000:#life*0.03"
+    "formula": "#life*0.03*(1-#def/#maxdef)>1000?1000:#life*0.03*(1-#def/#maxdef)"
   },
   {
     "id": 5545,

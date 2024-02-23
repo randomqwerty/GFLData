@@ -1,2 +1,63 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||:<color=#FFFF00>마인드맵 기록 분석 중...</color>+<color=#FFFF00>분석 완료 예상 시각... 2월 ■■일 ■■시 ■■분</color>
+()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><BGM>BGM_Room</BGM>:그리폰 기지, 지휘관의 사무실.
+()<Speaker></Speaker>||:지휘관은 그날 아침 자신이 그 사건을 막 전달받았을 때의 분노가 다시 떠올랐다.+특히, 당시 눈앞에 떡하니 있는 "범인"에게 조사를 전권 위임해 버렸다니.
+()<Speaker>지휘관</Speaker>||:네가 탐정 클럽의 멤버라서 범인일 수도 있다는 가능성은 전혀 생각지도 못했어.
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:...그 시점엔 저도 몰랐어요.
+()<Speaker>지휘관</Speaker>||:뭐? 그게 무슨 뜻이야?
+()<Speaker></Speaker>||:EM-2는 한숨을 쉬었다.
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:저도... 조사 과정에서 발견하게 되었습니다.
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:............
+()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><BGM>GF_Swim_Marnie</BGM>:사건 발생 1시간 후, 그리폰 기지의 복도.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:그러고 보니, 60-1식은 무슨 계기로 FAL과 가까워진 걸까요?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:제 말투 따라하지 말아 주실래요? ...저도 몰라요.+그 둘 사이엔 이렇다 할 교접점이 없어서, 어떻게 함께 훈련 약속까지 잡는 관계가 되었는지 모르겠어요.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:혹시 걔를 의심하는 거야?
+em2(4)<Speaker>EM-2</Speaker>||:아뇨, 조금 의문이 드는 정도예요. 그녀에겐 범행 동기랄 만한 것도없고, 중앙 상황실 출입 권한도 없는걸요.+...무엇보다, 그녀가 범인이라도 구태여 최초 발견자임을 밝히는 건 비합리적이에요.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:두 인형은 다른 숙소 앞에 멈춰섰다. 그런데 EM-2가 망설이니, P90이 먼저 노크했다.
+59type(0)<Speaker>59식</Speaker>||<SE1>AVG_Door_Open_Close</SE1>:가요오...
+()<Speaker></Speaker>||:문이 열리자 안색이 눈에 띄게 초췌한 59식이 모습을 드러냈다.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:FBI! OPEN UP!
+59type(0)<Speaker>59식</Speaker>||:......!
+()<Speaker></Speaker>||:59식은 P90의 농담을 듣지 못했다. 한 순간 EM-2이 내비친 간담이 서늘해지는 살기 때문에.+하지만 놀라서 눈을 깜빡이니 보인 것은 평소처럼 냉담한 EM-2의 모습이었다.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:......왜 그랭?
+()<Speaker></Speaker>||:모처럼 준비한 농담에 아무런 반응도 없자, P90은 당황했다.
+em2(4)<Speaker>EM-2</Speaker>||:FAL에 관해서 묻고 싶은 일이 있는데, 안에 들어가도 될까요?
+59type(0)<Speaker>59식</Speaker>||:아... 어, 그, 그래...
+()<Speaker></Speaker>||:그냥 착각이겠지?'
+()<Speaker></Speaker>||<黑点1>:59식은 옆으로 길을 비켜 둘을 안으로 들였다.
+()<Speaker></Speaker>||<黑点2><BIN>82</BIN>:FAL의 방과는 전혀 다른 59식의 침실은 그녀의 개성이 더욱 두드러졌다.+벽에는 색 바랜 "福"자 포스터가 붙어 있고, 침대 머리맡의 협탁에 놓인 어항에는 거북이 한 마리가 살고 있었다.
+()<Speaker></Speaker>||:EM-2는 눈앞의 이화목 걸상을 보다, 고개를 돌려 다른 쪽의 그리폰 제식 사무 의자에 앉았다.
+59type(0)<Speaker>59식</Speaker>||:그래서, 무슨 질문? 내가 아는 건 이미 전부 지휘관한테 말했는걸.
+()<Speaker></Speaker>||:P90이 EM-2를힐끗 보고 자신이 먼저 심문하려 했지만, EM-2이 먼저 입을 열었다.
+em2(4)<Speaker>EM-2</Speaker>||:먼저 오늘 아침 당신이 FAL을 찾아간 일부터 이야기할까요?+당신이 언제부터 FAL과 사이가 그토록 좋았죠? 예전엔 비교적 소원한 관계였던 걸로 기억하는데요.
+()<Speaker></Speaker>||:EM-2의 심문 방식은 59식에게 생리적인 불쾌감을 줬지만, 그래도 성질을 참고 대답했다.
+59type(0)<Speaker>59식</Speaker>||:그냥 우연한 계기였어.+내가 어제 훈련장에서 훈련하다 잘 안 풀리는 점이 나와서, 욱하는 성질 올라와서 좀 세게 날뛰었거든?+그러다 결국 좀 다쳤는데 마침 사격장에 있던 FAL이 날 자기 침실로 데려가서 임시 수리도 해 줬어.+그리고 내가 나갈 때 오늘 같이 훈련하자 했고.+나한테 훈련하면서 조언을 해 주겠다면서...
+()<Speaker></Speaker>||:EM-2는 담담하게 한 쪽 눈썹을 치켜올렸다.
+59type(0)<Speaker>59식</Speaker>||:그런데 오늘 아침 훈련장서 세월아네월아 기다려도 오질 않길래, 숙소에 가봤더니...
+()<Speaker></Speaker>||:59식은 또 침대 위의 싸늘해진 FAL을 발견했을 때가 떠올라 몸을 파르르 떨었다.
+em2(4)<Speaker>EM-2</Speaker>||:그건 이미 들었어요.+제가 지금 묻고 싶은 건――
+em2(4)<Speaker>EM-2</Speaker>||:당신은 어제, FAL의 숙소를 방문했단 말인가요?
+59type(0)<Speaker>59식</Speaker>||:응.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:그게 언제였죠?
+59type(0)<Speaker>59식</Speaker>||:대충... 으으음... 훈련장을 떠날 때가 대충 밤 11시였고, FAL네 숙소에 또 한동안 있었으니까...+내가 거길 나선 시각은 아마 12시 자정 정도였을 거야.
+()<Speaker></Speaker>||:EM-2와 P90은 서로 시선을 교환하고 동시에 일어났다.
+em2(4)<Speaker>EM-2</Speaker>||:협조 감사합니다, 질문은 이만 마칠게요. 저희는 이만 조사를 계속하러 가보겠습니다.
+59type(0)<Speaker>59식</Speaker>||:...엥? 그걸로 땡?
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:이걸로 땡! 큰 도움이 됐어 60-1식!
+59type(0)<Speaker>59식</Speaker>||:뭣, 뭐...?
+()<Speaker></Speaker>||<黑点1>:P90은 어리둥절해하는 59식의 어깨를 웃으며 두드리고, EM-2를 따라 밖으로 나왔다.
+em2(4)<Speaker>EM-2</Speaker>||<黑点2><BIN>97</BIN>:제가 조회한 영상에선 59식이 FAL의 방을 출입하는 장면이 없었어요.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:범인은 하루치 기록을 통째로 덮어씌웠으면서 아무래도 누가 어젯밤에 FAL의 숙소에 들릴 줄은 몰랐던 거 같네!+범행 시간을 밤 12시 이후로 한정한다면 용의자 범위를 훨씬 좁힐 수 있겠다!
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:정보 센터로 가서 어제 자정 이후의 사람들의 행적을 조회할게요.+당신은 지휘관님께 가서 현재 조사 진도를 보고해 주세요. 범인이 내부자일 가능성이 높다는 사실에 관해, 지휘관님이 미리 마음의 준비를 하실 수 있도록.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:OK~
+()<Speaker></Speaker>||:가볍게 고개를 끄덕인 P90의 표정이 조금 진지해졌다.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:만약 정말로 내부자의 소행이라면...+지금 녀석은 분명 사건 조사 중인 우릴 지켜보고 있을 거야. 너도 조심해야 해.
+em2(4)<Speaker>EM-2</Speaker>||:...네.
+()<Speaker></Speaker>||:EM-2는 고개를 끄덕이고, P90에게 손을 흔들며 헤어졌다.+그런데 몸을 돌리는 순간, 그녀의 얼굴엔 먹구름이 드리우고 무기를 쥔 손에 힘이 들어갔다.
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:......
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><BGM>BGM_Room</BGM>:중앙 상황실.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Keyboard</SE1>:딸깍딸깍딸깍...
+()<Speaker></Speaker>||:스크린이 은은한 빛이 앞에 선 인형, EM-2의 무표정한 얼굴을 비췄다. 조작 키보드를 가볍게 두드리는 그녀의 손가락은 조금 어지러운 타자음을 내고 호흡도 가빴다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:삑.
+()<Speaker></Speaker>||:그녀의 동공이 약간 수축했다.+시간 범위를 확정하자, 스크린에 출력된 명단은 훨씬 짧아졌다.+그리고 그녀의 시선은 명단 가장 끝, 그녀에게 더없이 익숙한 이름에 고정됐다.
+()<Speaker></Speaker>||:"EM-2"
+()||<黑点1>:

@@ -1,2 +1,87 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||:<color=#FFFF00>마인드맵 기록 분석 중...</color>+<color=#FFFF00>분석 완료 예상 시각... 2월 ■■일 ■■시 ■■분</color>
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>m_19christmas_theme</BGM>:팔콘이 CZ2000과 스콜피온에게 속마음을 고백한 후 며칠 동안, 세 사람의 사이는 더욱 가까워졌다.
+()||<黑屏1>:
+CZ2000(0)<Speaker>CZ2000</Speaker>||<黑屏2><BIN>99</BIN><SE2>Gunfight</SE2><SE1>AVG_tele_connect</SE1>:팔콘! 지원해줘!
+Falcon(0)<Speaker>팔콘</Speaker><通讯框>||:<color=#00CCFF>지원 간다~!</color>
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_h</SE1>:타앙!
+()<Speaker></Speaker>||:팔콘의 화력 지원으로 적의 장갑 유닛은 순식간에 섬멸됐다.
+VZ61(0)<Speaker>스콜피온</Speaker>||<SE1>Select</SE1>:하! 쟤들 꼴 좀 봐! 우리 화력이 이렇게 강한 줄도 모르고 다 벙쪄버렸네!
+VZ61(0)<Speaker>스콜피온</Speaker>||<SE1>RunStep</SE1>:<size=50>지금이다, 돌격!!</size>
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:동료로서 서로의 신뢰가 더욱 돈독해진 그들은 전투에서도 더욱 용감해졌다.
+()||<黑屏1>:
+VZ61(0)<Speaker>스콜피온</Speaker>||<黑屏2><BIN>73</BIN>:패배를 인정하라고, 오늘 모의전에선 내가 적을 더 많이 해치웠어!
+CZ2000(0)<Speaker>CZ2000</Speaker>||:웃기지 마! 내가 더 많이 해치웠지! 팔콘도 봤잖아, 그치!
+Falcon(0)<Speaker>팔콘</Speaker>||:어어...
+VZ61(0)<Speaker>스콜피온</Speaker>||:우기지 말라고, 팔콘은 내 편이거든!
+CZ2000(0)<Speaker>CZ2000</Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_Punch</SE1><震屏3>:흥! 팔콘은 공정하다고, 이쪽으로 와!
+VZ61(0)<Speaker>스콜피온</Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:뺏지 말라고!
+Falcon(0)<Speaker>팔콘</Speaker>||:또 말싸움인가...
+Falcon(0)<Speaker>팔콘</Speaker><Shake>0.1</Shake>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>Rope</SE1>:<size=50>아 잠깐잠깐! 나 팔 뽑히겠어!</size>
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>1</CGDelay>:물론 여전히 다투기도 했지만...+그래도 이런 생활도 팔콘에겐 즐거움으로 가득했다.
+()<Speaker></Speaker>||:그리고 시간이 지나, 드디어 마인드맵 업그레이드가 끝나는 날이 다가왔다...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:......
+EVO3(0)<Speaker></Speaker>||:모두 준비됐지?+그럼 오늘의 주인공을 모시겠습니다~!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>82</BIN><SE1>AVG_Heart_boom</SE1>:팡!
+()<Speaker></Speaker>||<BGM>BGM_Hello</BGM>:폭죽 소리가 울리며 방 안에 색종이끈이 흩날렸다.+뜨거운 박수를 받으며, 마인드맵 업그레이드를 마친 팔콘이 약간 부끄러워하며 방에 들어왔다.
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:헤헤~ 모두 고마워~!
+VZ61(0)<Speaker>스콜피온</Speaker>||:괜찮네, 팔콘! 보기 좋다!+조금은 기관단총 같은 기세가 느껴져!
+CZ2000(0)<Speaker>CZ2000</Speaker>||:너랑 무슨 상관인데!+아무튼, 확실히 팔콘이 몰라보게 멋있어졌네. 조금만 더 가면 나를 뛰어넘을지도 모르겠어~!
+VZ61(0)<Speaker>스콜피온</Speaker>||:똥폼 잡기는...
+CZ2000(0)<Speaker>CZ2000</Speaker>||:너나 잘하세요!
+EVO3(0)<Speaker>EVO3</Speaker>||:자자, 오늘은 너희 둘 싸우는 거 구경하러 모인 게 아니야!+팔콘, 마인드맵 업그레이드를 마쳤는데, 그 일은 어떻게 됐니?
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:그 일...? 아, 노래 말이지!+이미 다 지었어~!
+VZ61(0)<Speaker>스콜피온</Speaker>||:그렇지, 그 일이 있었지!
+CZ2000(0)<Speaker>CZ2000</Speaker>||:EVO3가 안 말했으면 까먹을 뻔했어.
+EVO3(0)<Speaker>EVO3</Speaker>||:며칠 전만 해도 노래 가사에 들어가고 싶다고 난리를 부리더니?+왜 지금은 전혀 신경 안 쓴다는 투야?
+VZ61(0)<Speaker>스콜피온</Speaker>||:흐흥! 가사에 들어가는 것보다 더 중요한 것을 찾았거든. 그건 바로 동료지간의 우정이야!
+CZ2000(0)<Speaker>CZ2000</Speaker>||:그러니 팔콘의 노래가 어떻든 우리한텐 아무래도 좋다는 거죠~!+그치, 팔콘~!
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:그렇지~!
+EVO3(0)<Speaker>EVO3</Speaker>||:그렇구나, 그래도 기왕 창작한 거, 한 번은 들어봐야겠지?
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:어? 지금 바로 듣게?
+CZ2000(0)<Speaker>CZ2000</Speaker>||:좋지, 업그레이드 축하하는 셈 치고 말이야!
+VZ61(0)<Speaker>스콜피온</Speaker>||:자, 팔콘, 너의 작품을 들려줘~!
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:그럼...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:팔콘은 자신의 침상 옆에서 기타를 들었다.
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||<BGM>BGM_Empty</BGM>:그럼, 연주할게, 크흠!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:팔콘이 현을 튕기자, 감미로운 음표가 그녀의 손가락 끝에서 뛰놀았다.
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||<BGM>m_19christmas_avg</BGM>:"한때 어깨를 맞대고 싸운 우리는, 몇 년이 지나도 떠올리겠지~"+"CZ2000의 용감한 뒷모습을, 스콜피온의 늠름한 자태를..."
+CZ2000(0)<Speaker>CZ2000</Speaker>||:아이고, 팔콘 이 녀석 결국엔 우리를 노래에 넣어줬네?
+VZ61(0)<Speaker>스콜피온</Speaker>||:뭐 좋지~ 노래에 나오는 것처럼 우리는 동료로서 팔콘과 함께 성장하는 거니까!
+()<Speaker></Speaker>||:두 사람은 흐뭇하게 눈을 감고 조용히 감상했다...
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:"하지만 한 사람, 태양처럼 우리를 이끌어주는 그 사람~"+"붉은 장발은 불빛 속에서 빛나고, 당당한 걸음은 꿋꿋이 앞으로 나아가네!"
+()<Speaker>CZ2000&스콜피온</Speaker>||<BIN>82</BIN>:으응???
+()<Speaker></Speaker>||:둘은 번쩍 눈을 뜨고 EVO3에게 시선을 향했다, 상대는 모르는 척 어깨를 으쓱했다.+한편 팔콘의 노래는 계속됐다——
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:<size=50>"EVO3! 영원한 대장! 우리의 자랑~!"</size>+<size=50>"총알이 비처럼 쏟아져도 필승의 결의는 막을 수 없어!"</size>+<size=50>"승리의 나팔을 울려라!"</size>+<size=50>"대장이 나아가는 곳, 그리폰의 깃발 아래 거침없이 정복하리..."</size>
+VZ61(0)<Speaker>스콜피온</Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><BGM>BGM_Empty</BGM>:잠깐 스톱! 스톱!!
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||<BGM>BGM_Empty</BGM>:응? 뭔데?
+EVO3(0)<Speaker>EVO3</Speaker>||<BGM>m_wv_title</BGM>:왜 멈추고 그래, 여기서부터 듣기 좋은 부분인데.
+CZ2000(0)<Speaker>CZ2000</Speaker>||:듣기 좋긴 무슨! 이 가사 뭐예요, 왜 대장 이야기밖에 없는 건데요!?
+EVO3(0)<Speaker>EVO3</Speaker>||:팔콘이 동료 이야길 넣은 건데 뭐 어때서? 너희 둘도 나왔잖아.
+VZ61(0)<Speaker>스콜피온</Speaker>||:아 꺼져! 이거 완전히 EVO3 찬송가잖아!+대체 팔콘한테 뭘 주입한 거야!
+EVO3(0)<Speaker>EVO3</Speaker>||:난 그냥 팔콘한테 가사 쓰면서 내 고마움을 많이 떠올려 보라고 한 것뿐이야.
+CZ2000(0)<Speaker>CZ2000</Speaker>||:이 사람이! 며칠 전엔 우리 보고 유치하다더니, 지는 은근슬쩍 수작을 부려놨구만!?
+EVO3(0)<Speaker>EVO3</Speaker>||:생사람 잡지 마, 나는 그냥 팔콘에게 객관적 사실을 진술하라고 일깨워준 것뿐이야~!+팔콘, 설마 나는 네 성장에 도움이 안 됐니?
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:아, 그건...
+VZ61(0)<Speaker>스콜피온</Speaker>||:우리도 도움 됐다고!+요 며칠 동안 함께 어울린 일도 노래 가사로 딱이잖아, 그치 팔콘!?
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:아, 그렇지.
+CZ2000(0)<Speaker>CZ2000</Speaker>||:그러니까 가사 수정해줘!
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:응, 너희가 그러고 싶다면야...
+EVO3(0)<Speaker>EVO3</Speaker>||:에이, 이미 다 지은 노래를 자꾸 고치면 어떡하니?+팔콘, 그냥 신경 쓰지 마.
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:그, 그래도... CZ2000과 스콜피온이 한 말도 일리 있다고 생각하는데?
+EVO3(0)<Speaker>EVO3</Speaker>||:아니지, 이렇게 사소한 일에 자꾸 집착하는 건 유치한 짓이라고.
+CZ2000(0)<Speaker>CZ2000</Speaker>||<震屏3>:<size=50>유치한 건 대장이거든요!</size>
+VZ61(0)<Speaker>스콜피온</Speaker>||:맞아맞아! 팔콘도 우리 말에 일리 있다고 했으니까, 더이상 변론해도 소용 없어!
+EVO3(0)<Speaker>EVO3</Speaker>||:어쭈, 지금 대장한테 하극상 벌이려는 거니? 혼나기 싫으면 조심해!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:EVO3가 뒤로 껑충 뛰어, 자신의 베개를 번쩍 들었다.
+CZ2000(0)<Speaker>CZ2000</Speaker>||:몰래 우리를 배신한 대장이야말로 혼나야죠!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:다른 둘도 양보하지 않고 각자의 "무기"를 들었다.
+VZ61(0)<Speaker>스콜피온</Speaker>||:팔콘의 신곡을 두고 승부다!
+NPC-Falcon(0)<Speaker>팔콘</Speaker><Position>110,150</Position>||:...아차차, 오늘은 3인 대전인가?
+()<Speaker></Speaker>||:팔콘은 평소처럼 기타를 품에 안고 구석에 숨어, CZ2000과 팔콘이 노래의 운명을 걸고 EVO3와 벌이는 싸움을 지켜보았다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_Combat_Hits</SE1>:팔콘의 마인드맵 업그레이드 축하 파티는 그렇게 대난투로 막을 내렸다.+그 노래 가사가 어떻게 수정되었는지는 영원한 수수께끼로 남기고...
+()||<黑点1>:
