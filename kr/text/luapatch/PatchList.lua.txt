@@ -220,7 +220,8 @@ patch3020=
 "3020/DeploymentBackgroundController",
 "3020/DeploymentUIController",		
 "3020/MallController",
-"3020/ResearchMindUpdateController",		
+"3020/ResearchMindUpdateController",
+"3020/CommonAttriLayoutController",
 }
 patch3030=
 {
@@ -324,7 +325,8 @@ patch3040=
 "3040/DeploymentEnemyTeamController",
 "3040/DeploymentAllyTeamController",		
 "3040/DeploymentUIController",
-"3040/DeploymentController",	
+"3040/DeploymentController",
+"3040/DeploymentSpotController",		
 "3040/MissionData",
 "3040/MissionSelectionController",		
 "3040/GarageVehiclePlatformController",	
@@ -335,8 +337,10 @@ patch3040=
 "3040/QuestsController",
 "3040/BattleVehicleResultController",
 "3040/OPSPanelController",
+"3040/OPSPanelProcessItem",	
 "3040/CommonBundleConfirmBoxController",
-"3040/AdjustAdjutantScaleController",										
+"3040/AdjustAdjutantScaleController",
+"3040/ExToggleChoose",								
 }
 -- va11
 print("load Va11");
