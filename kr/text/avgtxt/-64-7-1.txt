@@ -1,213 +1,213 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>8</BIN>:
-()||<BGM>BGM_23S_Crossroads_Warrior</BGM>:……格里芬基地，指挥室。+少校和巴特站在AR设备前，看着躺在里面仿佛沉睡的指挥官。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:看来模拟对人类的负担还是很大，指挥官还在执行登出程序中。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:指挥官还是完全未进行义体改造的人类，连电子脑都没有，可想而知压力有多大了。
-()||<SE1>AVG_lifttable</SE1>:嘭——+一张支在角落的茶几突然翻倒在地。
-()<Speaker>？？？</Speaker>||:啊呀……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:塔奇克马？
-NPC-Motoko(1)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:终于来了。
-()||<SE1>AVG_Power_Down</SE1>:蓝色的思考战车关闭了光学迷彩，显出了庞大的体型。
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:少校，巴特！+接到你们的指令，我就立刻开始寻找链接了，这里太难找了……
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:调查得怎么样？
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:嗯，指挥官的档案已经整理完毕！连喜欢什么样的类型都搞得清清楚楚！
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:少校和巴特查看起塔奇克马共享的档案资料。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:……少校，接下来你打算怎么做？
-NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:我们只是来支援江崎完成任务的，格里芬基地的事情和我们无关。+由指挥官自己来决定。
-NPC-Batou(0)<Speaker>巴特</Speaker>;NPC-Motoko(0)<Position>-40,130</Position>||:嗯，这是当然。
-NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:有什么话就直接说完。
-NPC-Batou(0)<Speaker>巴特</Speaker>;NPC-Motoko(0)<Position>-40,130</Position>||:指挥官仍然很迷惘……在这种情况下很有可能做出一些颓废的决定。+我认为指挥官需要一些帮助。
-NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:不管做出什么样的决定，最终的后果都是由指挥官和格里芬基地来承担，我们无权干涉。+指挥官想要放弃人形也好，想要夺回人形也好，我们做好自己的分内之事就足够了。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:……
-()||<SE1>AVG_Walk</SE1>:少校朝着指挥室外走去。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||<SE1>Stop_AVG_loop</SE1>:塔奇克马，发一份格里芬基地的物资仓储详情给我。
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:好咧！
-()||<SE1>AVG_BaseDoor_Close</SE1>:少校的脚步声消失在了指挥室外。
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:巴特，我们就这样不管指挥官了吗？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:都这么久了，还没听懂少校的意思吗？
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:……诶？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:少校的意思是，可以拉指挥官一把，但最终的决定必须由指挥官自己做出。
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:哦，原来如此！
-()||<SE1>AVG_File_Put</SE1>:巴特拍了拍塔奇克马的身躯。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:快开启光学迷彩去外面待命吧，指挥官快醒了。+注意隐蔽行踪，不要让岛村孝他们发现你。
-NPC-Tachikoma(0)<Position>0,150</Position><Speaker>塔奇克马</Speaker>||:知道啦——
+()||<BGM>BGM_23S_Crossroads_Warrior</BGM>:......그리폰 기지, 지휘실.+소령과 바토가 AR 디바이스 옆에 서서, 그 안에서 잠든 듯이 누워있는 지휘관을 내려다보고 있었다.
+NPC-Batou(0)<Speaker>바토</Speaker>||:역시 에뮬레이팅은 인간에게 부담이 큰가 보군. 지휘관은 아직 로그아웃 프로세스 실행 중이야.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:게다가 의체 개조도 전혀 받지 않은 인간이지. 전뇌조차 없으니 부담이 얼마나 클지 짐작이 가.
+()||<SE1>AVG_lifttable</SE1>:쿵!+구석에 세워 둔 티테이블이 갑자기 엎질러졌다.
+()<Speaker>？？？</Speaker>||:아차...
+NPC-Batou(0)<Speaker>바토</Speaker>||:타치코마냐?
+NPC-Motoko(1)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:이제야 왔군.
+()||<SE1>AVG_Power_Down</SE1>:파란 사고 전차가 광학 위장을 해제하고 그 덩치를 드러냈다.
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:소령, 바토 씨!+두 분의 지시를 받고서 바로 접속하려고 엄청 노력했어요! 근데 찾아오는 게 너무 힘들어서...
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:조사는 어느 정도 됐어?
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:후후후, 지휘관의 프로필 정리 다 끝났어요! 이상형이 어떤 타입인지까지 상세하게 조사했다고요!
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:소령과 바토는 타치코마가 공유한 프로필을 살펴봤다.
+NPC-Batou(0)<Speaker>바토</Speaker>||:...소령, 이제 어떻게 할 셈이지?
+NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:우린 에사키의 임무를 도우러 온 것뿐이야. 그리폰 기지의 일은 우리와는 상관이 없어.+그건 지휘관 본인이 결정할 일이지.
+NPC-Batou(0)<Speaker>바토</Speaker>;NPC-Motoko(0)<Position>-40,130</Position>||:응, 그야 물론이지.
+NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:할말 있으면 그냥 시원하게 해.
+NPC-Batou(0)<Speaker>바토</Speaker>;NPC-Motoko(0)<Position>-40,130</Position>||:지휘관은 아직 헤매고 있어... 이런 상황에선 자칫 한심한 결정을 내리기가 아주 쉬워.+조금 도와줄 필요가 있다고 보는데.
+NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:어떻게 결정하든 마지막 결과는 다 지휘관과 그리폰 기지가 감당해야 해, 우리는 간섭할 권리가 없어.+지휘관이 인형들을 포기하든 되찾으려 하든, 우리는 우리 할일만 제대로 하면 돼.
+NPC-Batou(0)<Speaker>바토</Speaker>||:......
+()||<SE1>AVG_Walk</SE1>:소령은 지휘실 밖으로 걸음을 옮겼다.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||<SE1>Stop_AVG_loop</SE1>:타치코마, 그리폰 기지의 물자 재고 리스트 보내 줘.
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:라저~!
+()||<SE1>AVG_BaseDoor_Close</SE1>:소령의 발소리가 지휘실 밖으로 사라졌다.
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:바토 씨, 지휘관을 이렇게 내버려둬도 괜찮은 거예요?
+NPC-Batou(0)<Speaker>바토</Speaker>||:같이 다닌 지가 몇 년인데 아직도 소령의 말을 이해 못하겠어?
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:...네?
+NPC-Batou(0)<Speaker>바토</Speaker>||:소령의 말은, 지휘관을 이끌어 주는 건 괜찮아도 최종적인 결정은 지휘관이 스스로 해야 한다는 뜻이야.
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:아하! 그런 거였군요!
+()||<SE1>AVG_File_Put</SE1>:바토가 타치코마의 몸을 텅텅 두드렸다.
+NPC-Batou(2)<Speaker>바토</Speaker>||:빨리 광학 위장 켜고 밖에서 대기해, 지휘관이 곧 깨어난다.+기도비닉 주의하고, 시마무라 놈들한테 들키지 않게.
+NPC-Tachikoma(0)<Position>0,150</Position><Speaker>타치코마</Speaker>||:알았어요~
 ()||<黑点1><BGM>BGM_Empty</BGM>:
 ()||<睁眼>:
-()||:几分钟后。
-()||<SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_23S_Expedition_Story</BGM>:指挥官终于从AR设备中坐起，捂着额头陷入到恍惚之中。
-()<Speaker>指挥官</Speaker>||:我这是……在哪里？
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:格里芬基地，你自己的地盘。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:给。
-()||:巴特将一瓶酒递给指挥官。
-NPC-Batou(2)<Speaker>巴特</Speaker>||<SE1>AVG_va_addingredient</SE1>:这基地看着空空荡荡的，但是酒的存量倒是很充足嘛。
-NPC-Batou(2)<同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-Batou(2)<Speaker>巴特</Speaker>||:别这么小气嘛，我们可是帮了你大忙。
-()<Speaker>指挥官</Speaker>||:不是的。+我只是想起，这些酒本来是准备在明晚用上的。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:明天是什么特殊的日子吗？
-()<Speaker>指挥官</Speaker>||:是S09区基地成立的纪念日，不过是已经被废弃的那个……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:哦，我明白了，是之前你带这具义体去的那个地方吗？+我看了这具义体之前的行动记录，那里惨烈得像是将整场战争的导弹全部集中在了一个基地！
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:巴特。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:抱歉，光顾着自己说话了。+指挥官，来干一杯吧。
-()||<SE1>AVG_20Winter_Cheers</SE1>:哐当——+清脆的玻璃容器撞击声短暂打破基地的静寂。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:嗯……不错的酒。
-()<Speaker>指挥官</Speaker>||<SE1>Rope</SE1>:如果大家都在就好了……
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:……
-()||:少校独自坐在窗边，看着外面吞没一切的夜色沉思着什么。+冷清的房间里，只剩下巴特和指挥官对坐。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:你接下来有什么打算？
-NPC-Batou(2)<同时置暗><Speaker>指挥官</Speaker>||:我们得再去一次那个地方，把博斯救出来。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:那其他人形呢？
-()<Speaker>指挥官</Speaker>||:……
-()||<SE1>ClothingUp</SE1>:指挥官摩挲着瓶身的标签，透过内部清亮的液体，桌下大合照的人形们的面孔变换着大小形状。
-()<Speaker>指挥官</Speaker>||:我不知道她们的答案。+要问我自己的答案的话，我希望她们立刻回到这里。+但如果——
-NPC-Batou(0)<Speaker>巴特</Speaker>||:你该不会准备说……+如果能让她们幸福的地方是2Z64区的话，你就要放手了？
-()<Speaker>指挥官</Speaker>||:为什么不呢？如果幸福就这样摆在眼前……
-NPC-Motoko(2)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:……
-()||<SE1>AVG_tableware</SE1>:巴特沉默地放下手中的酒杯。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:巴特，这是指挥官自己的事，我们无权插手。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:我当然知道……+可是就这样放手，也太自私了吧。
-NPC-Batou(0)<同时置暗><Speaker>指挥官</Speaker>||:自私？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:你连手下的答案都不清楚，就擅自为她们做了决定。
-NPC-Batou(1)<Speaker>巴特</Speaker>||:你真的明白她们想要什么吗？
-()<Speaker>指挥官</Speaker>||:可是如果有机会让她们得到幸福，为什么不……
-NPC-Motoko(2)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:认为自己有权利定义别人的幸福，本身就是一种自私。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:我调查过你，入职私人安全承包商短短两年，履历已经达到老兵都望尘莫及的丰富程度。+你究竟经历过什么，只有你清楚，所以我的问题是——+你选择在这里工作到现在，是因为幸福吗？
-NPC-Batou(0)<同时置暗><Speaker>指挥官</Speaker>||:……不是。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:那你为什么要坚持留在这里？
-()<Speaker>指挥官</Speaker>||:我还有未完成的使命，和别人的约定……+虽然步履维艰，但我喜欢这里。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:你明明很清楚。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:同样的事情放在人形们身上，你就选择闭上眼睛自作主张了？
-()<Speaker>指挥官</Speaker>||:……如果可以的话，我希望她们不要吃这么多苦。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:我能理解你的心情。+我认识一个小孩，以前吃过很多苦，幸运的是她很聪明，十九岁就成为了麻省理工的博士。+但她放弃了所有唾手可得的道路，选择了最艰难黑暗的一条……
-NPC-Batou(0)<同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:我也希望她能过上快乐轻松的生活，可她偏偏不。
-()||:似乎想起了对方的倔强之处，巴特摇头苦笑。
-()||<SE1>AVG_20Winter_Drink_Tea</SE1>:指挥官喝下杯中剩余的酒，烧灼感在口中蔓延。
-()<Speaker>指挥官</Speaker>||:我明白……这种感觉……
-NPC-Batou(2)<Speaker>巴特</Speaker>||:希望重视的人幸福是很自然的事情。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:但有的时候，我们做出的选择，并不只是因为这样做会获得幸福，可能只是纯粹发自内心地喜欢而已。+即便这样的喜欢会让自己痛苦。
-()<Speaker>指挥官</Speaker>||:是啊……
-()||:两人沉默地对酌，室内又一次清冷一地。
-()||:草薙素子翻身从窗边走来，拿起桌上的酒瓶一饮而尽。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:那么，指挥官，你接下来的计划是什么？
-()<Speaker>指挥官</Speaker>||:……+我要去救出博斯……+然后，继续原来的计划，恢复人形们的记忆。+……亲耳听见她们的答案。
+()||:몇 분 후.
+()||<SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_23S_Expedition_Story</BGM>:지휘관이 마침내 AR 디바이스에서 몸을 일으켜 앉아, 이마를 짚고 어지러움을 달랬다.
+()<Speaker>지휘관</Speaker>||:나는 지금... 어디에 있지?
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:그리폰 기지야, 네 본거지.
+NPC-Batou(0)<Speaker>바토</Speaker>||:받아.
+()||:바토가 술 한 병을 지휘관에게 건넸다.
+NPC-Batou(2)<Speaker>바토</Speaker>||<SE1>AVG_va_addingredient</SE1>:이 기지, 이것저것 부족한 것치고 술은 넉넉하더만.
+NPC-Batou(2)<同时置暗><Speaker>지휘관</Speaker>||:......
+NPC-Batou(2)<Speaker>바토</Speaker>||:그렇게 째째하게 굴지 말고, 우리가 댁을 엄청나게 도와줬잖아.
+()<Speaker>지휘관</Speaker>||:그게 아니라.+원래 내일 밤을 위해 준비한 술이라는 게 생각나서.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:내일이 무슨 특별한 날인가?
+()<Speaker>지휘관</Speaker>||:S09 지역 기지 창설 기념일이야, 이미 버려진 곳이긴 하지만...
+NPC-Batou(0)<Speaker>바토</Speaker>||:아하, 알겠다. 저번에 댁이 이 의체를 데리고 간 거기 말이지?+이 의체의 행동 기록을 확인해 봤거든. 거기 쑥대밭이 따로 없더구만, 전쟁 하나에 쓸 미사일을 전부 때려박은 것 같았다고!
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:바토.
+NPC-Batou(2)<Speaker>바토</Speaker>||:어이쿠, 혼자 나불나불대서 미안하군.+지휘관, 건배나 한 번 하자.
+()||<SE1>AVG_20Winter_Cheers</SE1>:쨍~+잔을 부딪치는 경쾌한 소리가 기지의 정적을 잠시 깨뜨렸다.
+NPC-Batou(2)<Speaker>바토</Speaker>||:음... 꽤 괜찮은 술이네.
+()<Speaker>지휘관</Speaker>||<SE1>Rope</SE1>:모두가 여기 있었으면 더 좋았을 텐데...
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:......
+()||:소령은 홀로 창가에 앉아, 밤의 장막에 뒤덮인 바깥 풍경을 보며 생각에 잠겼다.+썰렁한 방 안, 바토와 지휘관은 서로 마주보고 앉아 있었다.
+NPC-Batou(2)<Speaker>바토</Speaker>||:댁은 이제부터 어쩔 셈이지?
+NPC-Batou(2)<同时置暗><Speaker>지휘관</Speaker>||:그곳에 다시 가서 보이스를 구해내야 해.
+NPC-Batou(0)<Speaker>바토</Speaker>||:그럼 다른 인형들은?
+()<Speaker>지휘관</Speaker>||:......
+()||<SE1>ClothingUp</SE1>:지휘관은 술병의 라벨을 손바닥으로 어루만졌다. 병 안의 맑은 액체 너머로, 탁상의 단체 사진 속 인형들의 얼굴이 커졌다 작아졌다 했다.
+()<Speaker>지휘관</Speaker>||:그 애들이 뭐라고 대답할지는 모르겠어.+나야 당연히 모두가 당장 여기로 돌아왔으면 하지.+하지만 만약에...
+NPC-Batou(0)<Speaker>바토</Speaker>||:설마...+그들이 2Z64 구역에서 지내는 게 더 행복하다면 포기하겠다는 거냐?
+()<Speaker>지휘관</Speaker>||:왜, 안 돼? 행복한 삶이 바로 눈앞에 있는데...
+NPC-Motoko(2)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:......
+()||<SE1>AVG_tableware</SE1>:바토가 입을 다물고 술잔을 내려놓았다.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:바토, 이건 지휘관 개인의 일이야. 우리는 끼어들 자격 없어.
+NPC-Batou(0)<Speaker>바토</Speaker>||:그야 알고 있지...+그래도, 그냥 이대로 손을 놔 버리는 건 너무 이기적이지 않아?
+NPC-Batou(0)<同时置暗><Speaker>지휘관</Speaker>||:이기적이라고?
+NPC-Batou(0)<Speaker>바토</Speaker>||:부하들이 뭐라 대답할지도 모르면서 자기 멋대로 대신 결정하겠다는 거 아니냐고.
+NPC-Batou(1)<Speaker>바토</Speaker>||:그들이 무엇을 원하는지 정말로 알고 있는 거 맞아?
+()<Speaker>지휘관</Speaker>||:그 애들이 행복하게 지낼 수 있다면 왜 굳이...
+NPC-Motoko(2)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:타인의 행복을 정의할 수 있다고 생각하는 것 자체가 이기적이라는 거야.
+()<Speaker>지휘관</Speaker>||:......
+NPC-Batou(0)<Speaker>바토</Speaker>||:댁에 관해서 조사해 봤다. PMC에 입사한 지 고작 2년만에 웬만한 베테랑 병사보다 훨씬 풍부한 경력을 쌓았더군.+댁이 무슨 일을 겪었는지는 댁이 더 잘 알겠지, 그저 내가 묻고 싶은 건——+댁이 여기서 지금까지 일한 건, 이 일이 행복해서인가?
+NPC-Batou(0)<同时置暗><Speaker>지휘관</Speaker>||:...아니.
+NPC-Batou(0)<Speaker>바토</Speaker>||:그럼 왜 지금까지 버티고 있었던 거지?
+()<Speaker>지휘관</Speaker>||:아직 다하지 못한 사명이, 지키지 못한 약속이 남아있어서...+하루하루가 고생이긴 하지만, 그래도 나는 이곳을 좋아해.
+NPC-Batou(0)<Speaker>바토</Speaker>||:잘 알고 있구만.
+NPC-Batou(0)<Speaker>바토</Speaker>||:인형들도 같은 입장에서 각자 생각이 있을 텐데, 그렇게 눈 딱 감고 대신 정해버리려는 건가?
+()<Speaker>지휘관</Speaker>||:...가능하다면 그 애들이 그만 고생했으면 좋겠어.
+NPC-Batou(0)<Speaker>바토</Speaker>||:댁 심정은 이해한다.+나도 아는 꼬맹이가 하나 있거든. 예전에 정말 많이 고생했지만, 다행히도 애가 똑똑해서 19살에 MIT 박사 학위까지 따냈어.+그런데, 편한 길은 다 내버려두고 가장 힘들고 어두운 길을 선택했지...
+NPC-Batou(0)<同时置暗><Speaker>지휘관</Speaker>||:......
+NPC-Batou(0)<Speaker>바토</Speaker>||:나도 그 애가 편하고 즐거운 삶을 살길 바랐는데, 녀석은 끝끝내 그러지 않았어.
+()||:"그 애"의 옹고집이 떠올랐는지, 바토는 쓴웃음을 지으며 고개를 저었다.
+()||<SE1>AVG_20Winter_Drink_Tea</SE1>:지휘관은 술잔에 남은 술을 들이켰다. 화끈한 감각이 입 안에 퍼졌다.
+()<Speaker>지휘관</Speaker>||:그래 알아... 그 느낌...
+NPC-Batou(2)<Speaker>바토</Speaker>||:소중한 사람이 행복하길 바라는 건 당연한 일이야.
+NPC-Batou(0)<Speaker>바토</Speaker>||:하지만 때로는, 우린 행복해지기 위해서가 아니라 그저 순수하게 진심으로 좋아하기 때문에 선택을 하지.+괴로운 사랑이라 해도 말이야.
+()<Speaker>지휘관</Speaker>||:그렇지...
+()||:두 사람은 말없이 술잔을 나눴다. 방 안의 분위기가 또 썰렁해졌다.
+()||:쿠사나기 모토코가 창가에서 내려와 다가오더니, 탁상의 술병을 집어 단숨에 비웠다.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:그럼, 지휘관. 앞으로의 계획은 어떻게 되지?
+()<Speaker>지휘관</Speaker>||:......+보이스를 구해내고...+그리고 원래 계획을 속행해서 인형들의 기억을 되돌린다.+...그들의 대답을 직접 듣겠어.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>418</BIN>:
-()||:……翌日。+2Z64区，未知区域。
-()||<SE1>AVG_whitenoise</SE1><BGM>GF_EV9_Story</BGM>:按照约定的时间，指挥官登入虚拟区，准备直接和少校汇合。
-NPC-HK433(0)<通讯框><Speaker>390号</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>指挥官，早上好。</color>+<color=#00CCFF>我在等您的指令，好调整今天的行动方针。</color>
-NPC-HK433(0)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:今天闭店休息一天吧。
-NPC-HK433(4)<通讯框><Speaker>390号</Speaker>||:<color=#00CCFF>新店开业第二天就休息……您确定吗？</color>
-NPC-HK433(4)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:正好给你一点时间，去考察下其他店铺的情况。+我也累了，就在这附近散散步休息一天。
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:<color=#00CCFF>明白，我会完成全面的考察报告。</color>
-()||<SE1>AVG_tele_disconnect</SE1>:结束通讯，指挥官朝着目的地走去。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:早啊，指挥官！
-()<Speaker>指挥官</Speaker>||:……
-()||:突然出现在身后的普林让指挥官倒吸一口气。
-()<Speaker>指挥官</Speaker>||:普林，你怎么在这里？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:我只是路过，顺便来看看你的新店今天怎么样了。+刚好听见你在和390号通讯，看来今天你是打算休息了。
-()<Speaker>指挥官</Speaker>||:嗯，普林，我已经决定——
-NPC-Motoko(0)<通讯框><Speaker>草薙素子</Speaker>||:<color=#00CCFF>指挥官，要是你打算将江崎重新拉回计划的话，我建议你再考虑一下。</color>
-()<Speaker>指挥官</Speaker>||:……
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:你决定什么？
-NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>指挥官</Speaker>||:决定……好好完成我的工作。
-NPC-Purin(2)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:你是指——准备好好经营你的小店吗！
-NPC-Purin(2)<Position>-50,50</Position><同时置暗><Speaker>指挥官</Speaker>||:嗯……
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:太好了！
-()||<SE1>Rope</SE1>:普林高兴地握住了指挥官的手。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:你终于决定留在2Z64区，和我们永远待在一起了！
-()<Speaker>指挥官</Speaker>||:要不要一起吃个布丁庆祝一下？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:布丁？这种时候为什么要吃布丁？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:不如一起去食堂来盘清炒土豆丝吧！
-NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:我今天还有点紧急工作，晚点再来找你庆祝！
-()<Speaker>指挥官</Speaker>||:好。
-()||:普林蹦跶着走开几步，突然回过头来。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:对了，指挥官，少校他们还没有链接上这边的义体吗？
-NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>指挥官</Speaker>||:怎么了？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:唔，我听说昨晚有人看见一个高大的壮汉和一个矫健的女性潜入了仁爱部的辖区。+我在想会不会是少校他们呢……
-()<Speaker>指挥官</Speaker>||:……
-()||:指挥官犹豫了片刻。
-()<Speaker>指挥官</Speaker>||:还没有链接上。+不过，就算他们能链接上，他们的义体也不知道去哪里了……
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:原来如此……我一会的工作内容就是调查这两个可疑的人。+不知道他们想要干什么，只希望不要破坏这里的平静才好。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:毕竟这里的居民们好不容易才找到一处安宁的庇护所，拥有了平凡温馨的日常。+要是有人想要破坏这样的世界，那一定会被大家憎恨吧。
-()<Speaker>指挥官</Speaker>||:……+普林，你还记得你在来到这里之前的生活吗？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:嗯……虽然应该是不久前的事情，但已经有种恍如隔世的感觉了……
-NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>指挥官</Speaker>||:那你还记得我们初次见面的情景吗？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:当然！我当时跟着岛村孝和水金铃鹿从帕斯卡的实验室工厂跑出来，一定把你们都吓坏了吧？
-()<Speaker>指挥官</Speaker>||:不，我想说的是我们真正消除了隔阂，坐下来谈论未来的时候。+那个时候，你拿着你的致胜宝物——
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:一直留恋过去，是走不远的哦，指挥官。
-()<Speaker>指挥官</Speaker>||:……+<color=#A9A9A9>普林，到底发生了什么……</color>
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:总之，小心一点就对啦，要是发现可疑人物的线索的话……
-NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker></Speaker>||:普林凑近指挥官，抬头笑了笑。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:指挥官会告诉我的，对吗？
-()<Speaker>指挥官</Speaker>||:……+快去吧。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:好吧，那一会见~！
-()||<黑点1>:在指挥官的反复催促下，普林才不情愿地离开了。
-()||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM><黑点2>:确认身边没有人后，指挥官走向了和少校他们汇合的路。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:……少校，你在怀疑普林吗？
-NPC-Motoko(0)<通讯框><Speaker>草薙素子</Speaker>||:<color=#00CCFF>她的行为有些反常，在找出原因前还是谨慎点吧。</color>
-NPC-Motoko(0)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:好。+我快要到汇合点了。
-NPC-Motoko(2)<通讯框><Speaker>草薙素子</Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:<color=#00CCFF>还带了个小尾巴？</color>
-NPC-Motoko(2)<通讯框><同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-Motoko(2)<通讯框><Speaker>草薙素子</Speaker>||:<color=#00CCFF>七点钟方向，白色越野车后面。</color>
-NPC-Motoko(0)<通讯框><Speaker>草薙素子</Speaker>||:<color=#00CCFF>你处理干净再过来。</color>
-()<Speaker>指挥官</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……+<color=#A9A9A9>……水金铃鹿？还是普林？</color>
-()||<SE1>AVG_footsteps_cave</SE1>:指挥官停下脚步，佯装走错路了向回走去。
-()||<SE1>Stop_AVG_loop</SE1>:在无限接近越野车后，指挥官看见了那一头白色的长发。
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:……
-()<Speaker>指挥官</Speaker>||:……你跟着我干什么？我不是让你去——
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:叮——390号发来的文件传输请求。+30G市场考察调研文件压缩包。
-()<Speaker>指挥官</Speaker>||:……
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:抱歉没有经过您的同意，但我需要监测您的各项指标。+您现在还是通过测试中的设备模拟电子脑登入的2Z64区，水金铃鹿小姐说，您和2Z64区的链接会逐渐衰减。+所以需要我每天定期监测您的感官数据。
+()||:...다음날.+2Z64 구역의 어딘가.
+()||<SE1>AVG_whitenoise</SE1><BGM>GF_EV9_Story</BGM>:약속 시간에 맞춰, 지휘관은 가상 구역에 접속하여 바로 소령과 합류하기로 했다.
+NPC-HK433(0)<通讯框><Speaker>390호</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>안녕히 주무셨나요, 지휘관님?</color>+<color=#00CCFF>오늘의 행동 방침을 정하겠습니다. 지시를 내려 주세요.</color>
+NPC-HK433(0)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:오늘은 가게 문 닫고 하루 쉬자.
+NPC-HK433(4)<通讯框><Speaker>390호</Speaker>||:<color=#00CCFF>신장개업 2일만에 휴업이라니... 확실한가요?</color>
+NPC-HK433(4)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:마침 잘 됐다, 가서 이 근처 시장조사 좀 해 줘.+나는 피곤해서 말야. 요 앞에 산책이나 하면서 하루 쉴래.
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:<color=#00CCFF>알겠습니다, 전면적인 조사 보고서를 작성해 드리겠어요.</color>
+()||<SE1>AVG_tele_disconnect</SE1>:통신을 끊고 지휘관은 목적지로 걸음을 옮겼다.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:지휘관님, 좋은 아침입니다!
+()<Speaker>지휘관</Speaker>||:흡......
+()||:푸린이 다짜고짜 등뒤에서 나타나 지휘관은 흠칫 놀랐다.
+()<Speaker>지휘관</Speaker>||:푸린, 네가 여기에 무슨 일이지?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:지나가던 길이에요, 오는 김에 지휘관님 장사 잘 되나 하고요.+방금 390호 씨랑 통신하는 거 들었어요, 오늘은 쉬실 셈인가 봐요?
+()<Speaker>지휘관</Speaker>||:그래, 푸린. 나는 이제——
+NPC-Motoko(0)<通讯框><Speaker>쿠사나기 모토코</Speaker>||:<color=#00CCFF>지휘관, 에사키를 계획에 다시 끌어들일 생각이라면 조금 더 고민하길 바라.</color>
+()<Speaker>지휘관</Speaker>||:......
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:이제 뭐요?
+NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>지휘관</Speaker>||:이제... 내 할일을 열심히 하려고.
+NPC-Purin(2)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그건... 지휘관님의 가게를 제대로 경영하시겠다는 말씀인가요?!
+NPC-Purin(2)<Position>-50,50</Position><同时置暗><Speaker>지휘관</Speaker>||:응...
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:참 다행이에요!
+()||<SE1>Rope</SE1>:푸린이 기뻐하며 지휘관의 손을 쥐었다.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:드디어 2Z64 구역에 남아서 저희와 평생 함께하기로 하셨군요!
+()<Speaker>지휘관</Speaker>||:축하하는 의미로 같이 푸딩이라도 먹을까?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:푸딩이요? 축하하는데 왜 푸딩을 먹어요?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그거 말고 같이 식당에 가서 감자채볶음을 먹어요!
+NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>지휘관</Speaker>||:......
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:푸린은 오늘 급한 일이 좀 남아있어서요, 늦게라도 다시 올 테니 같이 축하 파티해요!
+()<Speaker>지휘관</Speaker>||:그래.
+()||:푸린은 폴짝폴짝 뛰어가다가 갑자기 또 되돌아왔다.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:아참, 지휘관님. 소령님과 바토 씨는 아직 이쪽 의체에 액세스하지 않았나요?
+NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>지휘관</Speaker>||:왜?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:음, 어젯밤에 우락부락한 거한과 새끈한 여자가 미니러브 관할지에 잠입했다는 얘길 들었거든요.+혹시 그게 소령님과 바토 씨가 아닐까 해서...
+()<Speaker>지휘관</Speaker>||:......
+()||:지휘관은 잠깐 망설였다.
+()<Speaker>지휘관</Speaker>||:아직 안 왔어.+그리고, 왔다 한들 그들의 의체가 어디 있는지 알 방법도 없는걸...
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그렇군요... 푸린이 이따가 할일이, 그 두 거수자에 대해서 조사하는 거거든요.+그들이 무슨 짓을 할 셈인진 몰라도, 이곳의 평화를 깨뜨리지만 않았으면 좋겠네요.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:여기 주민들은 이제 겨우 편안한 거처를 찾아 평범하고 화목한 일상을 누리게 됐는데.+누가 이런 세상을 망가뜨리려 한다면, 분명 모두한테 미움받겠죠.
+()<Speaker>지휘관</Speaker>||:......+푸린, 네가 여기에 오기 전에 어떻게 지냈는지 살짝 말해줄 수 있을까?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:음... 분명 그리 오래 전 일도 아닐 텐데, 왠지 벌써 까마득한 느낌이네요...
+NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>지휘관</Speaker>||:그럼 우리가 처음 만났을 때 있었던 일은 기억해?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그건 물론 기억하죠! 그때 푸린은 시마무라와 미즈카네를 쫓아서 페르시카 씨의 실험실 공방에서 달려나왔어요, 그때 분명 모두 엄청 놀라셨죠?
+()<Speaker>지휘관</Speaker>||:아니, 내가 말하는 건 우리가 정말로 허심탄회하게 모여서 미래를 이야기하던 때 말이야.+그때 너는 네 필승의 보물을 들고 와서——
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:자꾸 과거에 얽매여서는 미래로 나아가지 못해요, 지휘관님.
+()<Speaker>지휘관</Speaker>||:......+<color=#A9A9A9>(푸린, 대체 무슨 일이 있었던 거지...)</color>
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:아무튼 조심하시는 게 좋아요, 혹시 수상한 사람의 단서를 발견하시면...
+NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker></Speaker>||:푸린이 지휘관에게 얼굴을 가까이 들이밀고 빵긋 웃었다.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:푸린한테 꼭 알려주셔야 해요, 아셨죠?
+()<Speaker>지휘관</Speaker>||:......+어서 일하러 가렴.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그래요, 그럼 나중에 봐요~!
+()||<黑点1>:지휘관이 연거푸 재촉하자, 결국 푸린은 어쩔 수 없이 떠났다.
+()||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM><黑点2>:주변에 사람이 없음을 확인한 다음, 지휘관은 소령과 합류하러 다시 발걸음을 옮겼다.
+()<Speaker>지휘관</Speaker>||<SE1>Stop_AVG_loop</SE1>:...소령, 지금 푸린을 의심하는 거야?
+NPC-Motoko(0)<通讯框><Speaker>쿠사나기 모토코</Speaker>||:<color=#00CCFF>행동거지가 조금 이상해, 원인을 알기 전엔 신중하게 대응할 필요가 있어.</color>
+NPC-Motoko(0)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:그래.+합류 포인트에 거의 다 왔다.
+NPC-Motoko(2)<通讯框><Speaker>쿠사나기 모토코</Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:<color=#00CCFF>못 보던 사이에 꼬리가 생겼네?</color>
+NPC-Motoko(2)<通讯框><同时置暗><Speaker>지휘관</Speaker>||:......
+NPC-Motoko(2)<通讯框><Speaker>쿠사나기 모토코</Speaker>||:<color=#00CCFF>7시 방향, 하얀 지프차 뒤에.</color>
+NPC-Motoko(0)<通讯框><Speaker>쿠사나기 모토코</Speaker>||:<color=#00CCFF>확실하게 떼어놓고 와.</color>
+()<Speaker>지휘관</Speaker>||<SE1>AVG_tele_disconnect</SE1>:......+<color=#A9A9A9>(...미즈카네인가? 아니면 푸린?)</color>
+()||<SE1>AVG_footsteps_cave</SE1>:지휘관은 걸음을 멈추고는, 길을 헷갈린 척을 하며 몸을 돌려 왔던 길을 되돌아갔다.
+()||<SE1>Stop_AVG_loop</SE1>:지프차에 거의 달라붙을 듯 접근하자, 그 새하얀 장발이 눈에 들어왔다.
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:......
+()<Speaker>지휘관</Speaker>||:...뭐하러 따라왔어? 오늘은 가서——
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:390호가 파일 전송 요청을 보냈다.+30GB 크기의 시장조사 분석 압축 파일이었다.
+()<Speaker>지휘관</Speaker>||:......
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:동의도 구하지 않고 죄송하지만, 지휘관님의 각종 파라미터를 측정해야 해요.+지금 지휘관님은 아직 테스트 중인 디바이스로 전뇌를 에뮬레이팅해 2Z64 구역에 접속하신 상태죠. 미즈카네 씨께서는 지휘관님과 2Z64 구역의 연결이 점차 감쇠될 거라고 하셨습니다.+그래서 매일 정기적으로 지휘관님의 감각 데이터를 측정해야 해요.
 ()||<黑点1>:
 ()||<黑点2><回忆><BIN>9</BIN>:
-()<Speaker>水金铃鹿</Speaker>||:……虽然模拟电子脑的体验很逼真，但随着链接建立的时间增加，你在这边的感官知觉也会越来越弱。+使用电子脑的话，就没有这种问题了。
+()<Speaker>미즈카네 스즈카</Speaker>||:......이 전뇌화 에뮬레이션도 체험감은 꽤 괜찮지만, 접속 시간이 길어질수록 이곳의 감각은 점점 약해질 거야.+전뇌를 사용하면 이런 걱정도 없어지지.
 ()||<黑点1>:
 ()||<黑点2><关闭蒙版><BIN>418</BIN>:
-()<Speaker>指挥官</Speaker>||:……+链接衰减有什么症状？
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:根据之前的实验报告，一开始是视觉的损失，比如图像像素点丢失带来的模糊。+然后是听觉的损失，声音会渐渐失真，变得像压缩后的尖锐鸣叫。+最后是触觉，当然到了这一步，您的链接其实也不足以支撑您活动了。
-()<Speaker>指挥官</Speaker>||:……
-()||:指挥官望向漫天飞舞的樱花，就算心知肚明这些不过是模拟出来的虚像，但在指尖触碰到柔嫩的花瓣时，内心仍然不可避免地被触动。
-()<Speaker>指挥官</Speaker>||:我距离产生衰减症状还有多久？
-NPC-HK433(2)<Position>0,130</Position><Speaker>390号</Speaker>||:从您进入这里的那一刻起，就已经开始了。
-NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:别担心，我会跟在您的身边，密切关注您的身体状态。
-NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||:不用跟着我了，我想自己待会。
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:……
-NPC-HK433(3)<Position>0,130</Position><Speaker>390号</Speaker>||:没有什么需要我帮忙的吗？
-()<Speaker>指挥官</Speaker>||:你的任务完成得很好，有需要我会——
-()||:指挥官回头准备拒绝390号，对上对方的眼睛后却改变了主意。
+()<Speaker>지휘관</Speaker>||:......+연결이 감쇠되면 어떤 증상이 생기지?
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:이전 실험 보고서에 따르면, 우선은 시각이 손상됩니다. 픽셀이 열화된 이미지처럼 물건이 뭉개져 보일 거예요.+그 다음은 청각입니다. 소리가 점점 제대로 들리지 않고, 압축된 날카로운 소음처럼 느껴진다고 해요.+마지막은 촉각이에요. 물론 이 단계까지 오면 이미 활동을 유지할 수조차 없게 되죠.
+()<Speaker>지휘관</Speaker>||:......
+()||:지휘관은 하늘에 흩날리는 벚꽃을 바라보았다. 전부 가상의 그래픽이라는 것을 알고 있는데도, 손끝에 부드러운 꽃잎이 닿을 때면 내심 가슴이 움찔하는 것을 막을 수가 없었다.
+()<Speaker>지휘관</Speaker>||:나는 감쇠 증상이 일어날 때까지 얼마나 남았지?
+NPC-HK433(2)<Position>0,130</Position><Speaker>390호</Speaker>||:지휘관님이 여기에 처음 들어온 순간부터 진행 중이에요.
+NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||:......
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:걱정하지 마세요. 제가 지휘관님 곁을 지키면서 신체 상태를 면밀히 체크할 테니까요.
+NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||:따라오지 말아 줘, 잠시 혼자 있고 싶으니까.
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:......
+NPC-HK433(3)<Position>0,130</Position><Speaker>390호</Speaker>||:제가 도울 일은 없는 건가요?
+()<Speaker>지휘관</Speaker>||:넌 지금도 잘하고 있어, 필요한 일 있으면 부를——
+()||:지휘관은 390호를 쫓아내려고 고개를 돌렸다가, 그녀와 시선을 마주치자 생각을 바꿨다.
 ()||<黑点1>:
 ()||<黑点2><BGM>BGM_Empty</BGM><回忆><BIN>9</BIN>:
-()||:……恢复人形们的记忆。+……亲耳听见她们的答案。
+()||:...인형들의 기억을 되돌린다.+...그들의 대답을 직접 듣겠어.
 ()||<黑点1>:
 ()||<黑点2><关闭蒙版><BIN>418</BIN>:
-()<Speaker>指挥官</Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:其实有个问题一直困惑着我，我想听听看你的答案。
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:请讲。
-()<Speaker>指挥官</Speaker>||:如果给你一个机会，可以在残酷的现实世界和理想的虚拟世界选择一个生活，你会选择哪一个？
-NPC-HK433(4)<Position>0,130</Position><Speaker>390号</Speaker>||:残酷的……现实世界？
-()||:390号有些疑惑地看了看安宁整洁的街区。
-()<Speaker>指挥官</Speaker>||:呃……设想一下，你生存在一个混乱的世界，充满着危险和阴谋。
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:明白，我诞生于一个危险阴暗的世界，并成长到了现在……
-()<Speaker>指挥官</Speaker>||:然后，一个新世界的大门向你敞开，那是一个美好和平的地方，就像这里一样，不过是虚拟世界。+现在，你拥有了一个选择，你可以继续留在黑暗的现实世界，也可以前往美好的虚拟世界。+那么，你会怎么选择？
-NPC-HK433(2)<Position>0,130</Position><Speaker>390号</Speaker>||:……
-NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker></Speaker>||:390号认真地思考起来，久久没有给出答案。
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:这个问题我无法回答。
-NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||:为什么？
-NPC-HK433(0)<Position>0,130</Position><Speaker>390号</Speaker>||:这取决于我在现实世界的生活怎么样。+我有没有得到自己想要的东西，过得快不快乐……+以及虚拟世界能否提供给我真正想要的东西。
-NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||:那你真正想要的东西是什么？
-NPC-HK433(2)<Position>0,130</Position><Speaker>390号</Speaker>||:……
-NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||:或者该说，你的人生目标是什么？
-NPC-HK433(2)<Position>0,130</Position><Speaker>390号</Speaker>||:……
-NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||:你怎么了？突然一下脸色难看了起来？
-NPC-HK433(3)<Position>0,130</Position><Speaker>390号</Speaker>||:……+指挥官……
-()<Speaker>指挥官</Speaker>||:我在，你到底怎么了？！
-()||:390号只是出神地凝视着指挥官的方向，目光却穿透了指挥官，飞向了无法触及的远方。
-()||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:一直隐藏在角落等待和指挥官汇合的少校和巴特现身。
-()<Speaker>指挥官</Speaker>||:怎么回事……
-NPC-Motoko(2)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:指令无法响应了。
-()<Speaker>指挥官</Speaker>||:少校，她为什么突然变成了这样？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:她的心智宕机了。
-NPC-Motoko(2)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:准备执行骇入。
-()||<黑屏1>:
+()<Speaker>지휘관</Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:사실 고민이 하나 있어. 이것 때문에 계속 골치가 아파. 너의 의견을 듣고 싶어.
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:말씀하세요.
+()<Speaker>지휘관</Speaker>||:만약 너에게, 잔혹한 현실 세계와 이상적인 가상 세계 중 살아갈 곳을 하나 선택하라면 어느 쪽을 고르겠어?
+NPC-HK433(4)<Position>0,130</Position><Speaker>390호</Speaker>||:잔혹한... 현실 세계요?
+()||:390호는 고개를 갸우뚱하며 평온하고 깔끔한 길거리를 바라보았다.
+()<Speaker>지휘관</Speaker>||:어... 일단 한번 상상해 봐. 너는 지금 혼란스러운 세상에서 살고 있어, 온갖 위험과 음모가 도사리는 세상에.
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:알겠습니다. 나는 위험하고 어두운 세상에 태어나 지금까지 살아왔다...
+()<Speaker>지휘관</Speaker>||:그리고 어느 날, 새로운 세상의 문이 네 앞에 활짝 열렸어. 아주 평화롭고 아름다운 곳이야, 마치 여기처럼. 하지만 가상의 세계야.+지금 네 앞엔 선택지가 있어. 어두운 현실 세계에서 계속 살아갈지, 아름다운 가상 세계에서 새로운 삶을 시작할지.+너는, 어느 쪽을 고를 거야?
+NPC-HK433(2)<Position>0,130</Position><Speaker>390호</Speaker>||:......
+NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker></Speaker>||:390호는 진지하게 생각에 잠겼다. 한참 동안 침묵이 계속되었다.
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:그 질문은 대답할 수가 없어요.
+NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||:왜지?
+NPC-HK433(0)<Position>0,130</Position><Speaker>390호</Speaker>||:그건 제가 현실 세계에서 어떻게 살았는지에 따라 다르니까요.+자신이 원하는 것을 얻었는지, 삶이 즐거웠는지...+그리고 제가 진심으로 원하는 것을 가상 세계가 줄 수 있는지도 알아야 하고요.
+NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||:그럼 네가 진심으로 원하는 것은 뭐야?
+NPC-HK433(2)<Position>0,130</Position><Speaker>390호</Speaker>||:......
+NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||:아니면, 너의 삶의 목표는 뭐야?
+NPC-HK433(2)<Position>0,130</Position><Speaker>390호</Speaker>||:......
+NPC-HK433(2)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||:왜 그래? 갑자기 안색이 안 좋아졌는데?
+NPC-HK433(3)<Position>0,130</Position><Speaker>390호</Speaker>||:......+지휘관님...
+()<Speaker>지휘관</Speaker>||:그래, 여기 있어! 대체 무슨 일인데!?
+()||:390호는 그저 멍하니 지휘관이 있는 쪽을 바라볼 뿐이었다. 그 시선은 지휘관을 뚫고 저기 끝없이 먼 곳을 향했다.
+()||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:줄곧 구석에 숨어서 지휘관이 합류하길 기다리던 소령과 바토가 모습을 드러냈다.
+()<Speaker>지휘관</Speaker>||:어떻게 된 일이지...
+NPC-Motoko(2)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:응답이 없어...
+()<Speaker>지휘관</Speaker>||:소령, 얘가 갑자기 왜 이렇게 된 거지?
+NPC-Batou(0)<Speaker>바토</Speaker>||:마인드맵이 다운됐다.
+NPC-Motoko(2)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:해킹 준비해.
+()||<黑屏1>:

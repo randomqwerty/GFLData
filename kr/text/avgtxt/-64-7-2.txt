@@ -1,212 +1,212 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>327</BIN><回忆>:
-()||<BGM>10213</BGM>:……数小时前。+2Z64区，仁爱部，审讯区。
-()||:鹮被封锁的记忆数据已经被复原，但仍然没有从昏迷中醒来。
-()||:HK433有些不安地看了看依然趴在地上没有动静的鹮，又看了看蹲在一边似乎在认真研究什么的普林。
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:她为什么还没有醒过来？
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:鹮不会有什么事吧？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:目前看来她的心智状态是平稳的……+毕竟你们虽然系统差不多，但是心智底层和具体的数据都有极大的差异，恢复的时间也会有差别。
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:不知道她系统升级不合格的时候发生了什么……希望对她的心智没有太大伤害……
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:她一定会醒来的。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:等她醒来之后，我们该怎么办？
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:现在指挥官的计划已经失败了，刚刚那个女人说指挥官也已经被锁定……
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:指挥官现在身边不剩什么人形，水金铃鹿又那么强……
-()||:光是想象了下指挥官目前的处境，HK433已经快要丧失理智了。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:先别这么沮丧，我觉得，他们不会伤害指挥官的。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:为什么？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:最简单的推论就是，要是他们真的想要指挥官死，那么在入侵基地带走人形的时候就可以做到。+就算是入侵基地的时候疏忽了，那么在指挥官的必经之地埋伏也是一个简单的方案。+无论怎么想，都犯不着这么大费周章……
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:可是他们想要指挥官做什么？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:目前还不能肯定，但应该和人形们有关联……+总之，至少目前指挥官的安全是没问题的。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:等下，鹮动了。
-()||<SE1>ClothingUp</SE1>:HK433的目光再次聚焦到鹮的身上——
-()<Speaker>QBU191</Speaker>||:……
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:鹮？
-()<Speaker>QBU191</Speaker>||:……
-NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:388号？
-()||:鹮睁开了双眼。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:我是鹮。+抱歉，刚刚整理记忆数据花了点时间。+我大概明白现在的情况了。
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:报告一下你的身份和任务。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:QBU191，代号鹮。+在我心智被入侵前，我的任务是和NTW商讨物流的优化方案……+根据之后的记忆数据，原来的任务只能暂时搁置，先解决当下的问题了。
-()||<SE1>AVG_Cloak_Whoosh</SE1>:鹮捋掉头发上的杂物，从地板上站起来。
-NPC-HK433(1)<Position>0,130</Position><Speaker>HK433</Speaker>||:看来你真的恢复了……
-NPC-BoysAntiTank(3)<Speaker>博斯</Speaker>||:太好了。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:鹮小姐，你还记得你为什么会在这里吗？还有水金铃鹿对我们的计划知道了多少？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:我的心智被放置了虚假的记忆，让我以为我一直在仁爱部工作……+我会在这里，是因为接到了审讯嫌疑犯的任务，至于你们的计划——+是趁系统升级的时候通过强制链接将病毒发送到每个人形心智里，对吧？
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||:既然你已经知道了，那说明……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:是的，他们全都知道，从普林小姐骇入2Z64区开始。
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(2)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:诶？！等一下，那岂不是从一开始我们的行动就暴露在……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(2)<Position>-50,50</Position>||:嗯。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:……
-()||:普林咬着手指沉思起来，HK433隐约听见了大脑高速运转的声响。
-NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||:既然一开始就知道，为什么要等到现在？
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:恐怕是在等一个好时机吧。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:我只接收到了指令，但我的猜测和博斯相同。+他们可能是在等待一个将我们和指挥官一网打尽的时机。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:我现在登出去救指挥官。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:冷静一点！
-()||<SE1>Rope</SE1>:普林按住了准备执行登出操作的博斯。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:就算你现在登出，恐怕也已经晚了……
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:他们是从虚拟区和现实世界同时进攻的，在我们进入2Z64虚拟区的同时，他们也对正在进入S09区的指挥官发起了攻击。+而我们的义体，多半也在他们手里了。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:你很了解他们的风格。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:据我所知，普林小姐的义体和博斯的素体确实已经被带走了。
-NPC-BoysAntiTank(0)<Shake>0.1</Shake><Speaker>博斯</Speaker>||:难道就这样等着？！
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:我们还能做点什么……？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||<BGM>BGM_Empty</BGM>:……
-()||:焦灼感沉沉地压在每个人身上。+普林无奈地叹了口气。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||<BGM>BGM_stage10</BGM>:虽然很不想提起，但还有最后一个可用的情报——+隐藏BOSS房间。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:隐藏BOSS房间？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:也就是你曾经系统升级资格检查不合格被带去的老大哥的房间，你还有相关的记忆数据吗？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:老大哥的房间……
-NPC-QBU191(1)<Position>-80,0</Position><同时置暗><Speaker></Speaker>||:光是复述这几个字，鹮已经开始轻轻颤栗了。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:那里太危险了，就靠我们几个是行不通的。
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:那里有和广播室类似的，能链接上所有人形心智的设备吗？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:有，我的记忆再度清洗就是通过那台设备，可是——
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:那就足够了。
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:你有什么想法？
-NPC-HK433(0)<Position>0,130</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:我们现在只剩下两个选择。+一个是坐在这里等水金铃鹿回来继续审讯我们。
-NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:别开玩笑了。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:我们是不可能坐以待毙的。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:另一个就是继续指挥官的计划，不过将执行地点改为老大哥的房间。
-NPC-QBU191(1)<Shake>0.1</Shake><Position>-80,0</Position><Speaker>QBU191</Speaker>||:你想通过老大哥的房间将病毒散布出去？！
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:这是我们仅剩的机会。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:……+广播室是一个陷阱，老大哥的房间也可能是一个陷阱。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||<BGM>BGM_Empty</BGM>:是的，我甚至认为它有超过99.8%的可能性，是一个陷阱。
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:……但我们已经别无选择了。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:别忘了，我说过有两个选择的。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||<SE1>Rope</SE1><BGM>GF_22W_BGM_2</BGM>:眼睁睁看着指挥官陷入危机却什么也不做，还算什么骑士？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:普林小姐也明白的吧，我们不可能做出另一个选择。
-NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:就算是死路一条，我们也不会放弃战斗的！
-()||:普林叹了口气，一副意料之中的表情。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:我就知道你们会这样选择。+或者该说，对你们而言根本就没有选择这一说法。+从始至终只有一条路摆在你们眼前，指挥官也是一样……
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:普林，一路陪我们走到这里，已经足够了。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:你接下来该不会要说，后面的路没我也行吧？
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:你的目标只是抓捕岛村孝和水金铃鹿回去，救回人形不过是顺手而为，没必要搭上你。
-NPC-QBU191(2)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:你制作的病毒我已经收下了，之后要是能用上的话我也可以搞定病毒散布的环节。
-()||:面对人形们的簇拥，普林无声地笑了笑。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:你们真是天真啊……明明已经自身难保了，还在为我着想吗？
-NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:别多想，这是指挥官教我们的。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:指挥官……我也答应了那个人，要帮忙到最后的。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:你应该也明白，在虚拟区死亡和在现实中死亡相差不大的。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:死亡的意义……我从小就知道了。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:普林小姐已经决定好了吗？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:嗯，我知道深陷在黑暗中的滋味，也知道被人拉回光明的感觉……+所以我也想要去拯救那些陷在泥淖中的人……
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:时间不多，我们赶紧走吧。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:在开始行动之前，也许应该向指挥官汇报一下？+我们这也算是擅自展开额外行动了。
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:可是现在无法和指挥官联系上……
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||<BGM>BGM_Empty</BGM>:我有一个办法！
-()||<SE1>AVG_whitenoise</SE1>:普林调出了自己的面板翻找起来。
-()<Speaker>江崎普林</Speaker>||:各位，看向我的镜头——
+()||<BGM>10213</BGM>:......몇 시간 전.+2Z64 구역, 미니러브 심문 구역.
+()||:따오기의 봉인된 기억 데이터가 복구됐지만, 의식은 아직 돌아오지 않고 있었다.
+()||:HK433은 다소 불안해하며, 바닥에 엎어진 채 꿈쩍도 하지 않는 따오기를 바라보고, 또 옆에 쪼그려 앉아 진지하게 무언가를 살피고 있는 푸린을 바라봤다.
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:왜 아직도 안 깨어나는 거죠?
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:따오기는 무사한 건가?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:당장 마인드맵 상태는 안정적인데요...+여러분의 시스템이 비슷하긴 해도, 마인드맵 심층과 구체적인 데이터는 천차만별이잖아요. 의식을 되찾는 시간에도 차이가 있는 거죠.
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:시스템 업데이트를 통과하지 못했을 때 무슨 일이 일어난 건지... 마인드맵에 큰 피해가 없기를 바라지만...
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:분명 깨어날 거예요.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:깨어난 다음엔 어떻게 하지?
+NPC-BoysAntiTank(1)<Speaker>보이스</Speaker>||:지휘관의 계획은 실패했어, 방금 그 여자도 지휘관이 이미 포착된 상태라고 했고...
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:지금 지휘관님 곁에는 인형도 거의 없고, 미즈카네 스즈카는 무시무시한 상대고...
+()||:지휘관이 지금 처한 상황을 상상하기만 해도 HK433은 냉정함을 잃을 것만 같았다.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:너무 비관적으로 생각하지 말아요. 푸린 생각엔 그들은 지휘관님을 해치지 않을 거예요.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:근거가 뭐지?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:가장 간단한 추론을 말씀드리면, 그들이 정말 지휘관님을 죽일 셈이었다면 기지에 침입해 인형들을 끌고갈 때 그렇게 했을 거예요.+설령 기지에 침입할 때는 깜빡했다 해도, 그 다음에 지휘관님이 반드시 지나갈 곳에 매복하는 것도 쉬웠을 거고요.+이렇게까지 빙빙 돌려서 진행할 필요가 없었다는 거죠...
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:하지만 그들은 지휘관님한테서 무엇을 원하는 거죠?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:아직은 잘 모르겠지만, 일단 인형들과 관계가 있을 거라고 봐요...+아무튼 당장은 지휘관님의 신변에 대해선 걱정하지 않아도 돼요.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:잠깐, 따오기가 움직였다.
+()||<SE1>ClothingUp</SE1>:HK433의 시선이 다시 따오기에게 돌아갔다.
+()<Speaker>QBU191</Speaker>||:......
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:따오기?
+()<Speaker>QBU191</Speaker>||:......
+NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:388호?
+()||:따오기가 눈을 떴다.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:따오기예요.+죄송해요, 방금 기억 데이터를 정리하는 데 좀 시간이 걸렸어요.+현재 상황은 대강 파악했습니다.
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:신분과 임무를 보고하세요.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:QBU191, 콜네임 따오기.+마인드맵이 해킹당하기 전에, 저의 임무는 물류 개선 방안에 관해서 NTW와 상의하는 거였어요...+그 후의 기억 데이터에 의하면, 해당 임무는 잠정 중단하고 당장의 문제를 해결해야겠군요.
+()||<SE1>AVG_Cloak_Whoosh</SE1>:따오기는 머리카락에 묻은 것을 털어내고 바닥에서 일어났다.
+NPC-HK433(1)<Position>0,130</Position><Speaker>HK433</Speaker>||:정말로 기억이 돌아왔군요...
+NPC-BoysAntiTank(3)<Speaker>보이스</Speaker>||:다행이다.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:따오기 씨, 자신이 왜 여기에 있는지는 기억하시나요? 그리고 미즈카네 스즈카는 저희 계획에 대해서 어디까지 알고 있나요?
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:제 마인드맵에 거짓된 기억이 주입됐어요. 줄곧 미니러브에서 근무하고 있었다고 생각했는데...+제가 여기에 있는 건 용의자 심문 임무를 받았기 때문이고, 당신들의 계획은...+시스템 업데이트 때 모든 인형이 강제 연결되는 것을 이용해 바이러스를 퍼뜨리는 것. 맞죠?
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||:당신까지 알고 있다는 건 즉...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:네, 그들은 전부 다 알고 있어요, 푸린 씨가 2Z64 구역에 잠입했을 때부터요.
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(2)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:에엣!? 잠깐만요, 그렇다는 건 처음부터 우리의 움직임은 그들의 손바닥 위였다는...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(2)<Position>-50,50</Position>||:그렇죠.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:......
+()||:푸린이 손가락을 깨물며 생각에 잠겼다. HK433은 그 두뇌가 전속력으로 회전하는 소리를 들은 것 같았다.
+NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||:처음부터 알고 있었다면 왜 계속 내버려두고 있는 거죠?
+NPC-BoysAntiTank(1)<Speaker>보이스</Speaker>||:절호의 타이밍을 기다리는 거겠지.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:저는 지시를 받기만 하는 입장이었지만, 제 추측도 보이스와 같아요.+우리와 지휘관을 일망타진할 기회를 기다리고 있었던 거겠죠.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:지금 당장 로그아웃해서 지휘관을 구하겠어.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:진정해요!
+()||<SE1>Rope</SE1>:푸린이 로그아웃 프로세스를 실행하려던 보이스를 제지했다.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:지금 로그아웃한다 해도 아마 늦었을 거예요...
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:......
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그들은 가상과 현실 양쪽에서 동시에 공격한 거예요. 우리가 2Z64 구역에 들어온 동시에, S09 지역에 있는 지휘관님도 공격한 거예요.+우리의 의체도, 아마 그들 손에 들어갔겠죠.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:당신은 그들의 방식을 잘 알고 계시군요.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:제가 알기로도 푸린 씨의 의체와 보이스의 소체는 이미 놈들이 확보한 상태예요.
+NPC-BoysAntiTank(0)<Shake>0.1</Shake><Speaker>보이스</Speaker>||:그럼 이대로 가만히 있을 수밖에 없다는 건가!?
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:더이상 우리가 할 수 있는 일은 없는 걸까요...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||<BGM>BGM_Empty</BGM>:......
+()||:초조함이 모두를 짓눌렀다.+푸린이 마지못해 한숨을 푹 쉬었다.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||<BGM>BGM_stage10</BGM>:이걸 꺼내긴 정말 싫지만, 아직 쓸만한 단서가 마지막으로 하나 남아있긴 해요...+히든 보스룸.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:히든 보스룸이요?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:따오기 씨가 전에 업데이트 자격 심사를 통과 못했을 때 끌려간 빅 브라더의 방 말이에요. 그곳에 관한 기억 데이터는 아직 남아있나요?
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:빅 브라더의 방...
+NPC-QBU191(1)<Position>-80,0</Position><同时置暗><Speaker></Speaker>||:그 몇 글자를 되풀이하는 것만으로도 따오기는 몸을 떨었다.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:거긴 너무 위험해요, 우리들 몇 명만으론 안 될 거예요.
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:거기에도 방송실처럼 모든 인형 마인드맵에 연결할 수 있는 설비가 존재하나요?
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:있어요, 그 설비로 제 기억을 다시 세척했죠. 하지만...
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그러면 됐어요.
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:무슨 생각이신데요?
+NPC-HK433(0)<Position>0,130</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:지금 우리에겐 두 가지 선택지밖에 없어요.+하나는 여기에 가만히 있으면서, 미즈카네가 돌아와서 우릴 계속 심문하길 기다리는 거죠.
+NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:농담하지 말아요.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:가만히 죽어 줄 생각은 없어.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:다른 하나는 지휘관님의 계획을 속행하는 것이죠. 다만 실행 지점을 빅 브라더의 방으로 변경하는 거예요.
+NPC-QBU191(1)<Shake>0.1</Shake><Position>-80,0</Position><Speaker>QBU191</Speaker>||:빅 브라더의 방을 통해서 바이러스를 퍼뜨리겠다는 건가요!?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그게 유일하게 남은 기회예요.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:......+방송실이 함정이었으니, 빅 브라더의 방도 함정일 가능성이 매우 커요.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||<BGM>BGM_Empty</BGM>:그렇죠, 푸린도 거기가 함정일 가능성이 99.8% 이상이라고 생각해요.
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:...하지만 우리에게 다른 선택지는 없어요.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:에이, 푸린이 방금 선택지는 두 가지라 했잖아요.
+NPC-BoysAntiTank(1)<Speaker>보이스</Speaker>||<SE1>Rope</SE1><BGM>GF_22W_BGM_2</BGM>:지휘관이 위기에 처했는데 잠자코 있어서야 기사라고 칭할 수 있겠나!
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:푸린 씨도 알고 계시겠죠, 저희는 다른 선택을 할 수 없어요.
+NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:비록 눈앞에 낭떠러지만이 있다 해도, 싸움을 포기하진 않겠어요!
+()||:푸린은 진작에 알고 있었다는 표정으로 한숨을 쉬었다.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:다들 그러실 줄 알았어요.+어쩌면 처음부터 여러분껜 선택이란 개념 자체가 없었을지도요.+갈 수 있는 길은 처음부터 단 한 갈래, 지휘관님도 마찬가지...
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:푸린 씨, 여기까지 함께해 준 것만으로도 감사드려요.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:설마 지금, 이제부터는 푸린이 없어도 괜찮아요~ 이렇게 말하려는 건 아니죠?
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:너의 목적은 시마무라와 미즈카네를 붙잡아 돌아가는 것뿐이잖나. 인형들을 구하는 건 덤일 뿐, 네가 반드시 끼어들어야 할 의무는 없다.
+NPC-QBU191(2)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:푸린 씨가 만든 바이러스는 이미 받았어요, 때가 되면 저 혼자서도 바이러스를 전파할 수 있어요.
+()||:인형들 사이에서 푸린이 소리 없이 웃었다.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:당신들은 정말 순진하네요... 지금 자기 몸 하나 챙기기도 힘든 상황에서 푸린을 배려해 주는 건가요?
+NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:오해 마세요, 이것도 지휘관님께서 가르쳐주신 거예요.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:지휘관님... 저도 그분을 끝까지 돕기로 약속했어요.
+NPC-BoysAntiTank(1)<Speaker>보이스</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:하지만 너도 알다시피, 가상 세계에서 죽는 건 현실에서 죽는 거나 마찬가지다.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:죽음의 의미는... 어릴 적부터 알고 있었어요.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:푸린 씨는 이미 마음을 굳힌 건가요?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:네. 어둠 속에 잠기는 게 어떤 느낌인지, 다른 사람의 손을 잡고 빛의 세계로 돌아가는 게 어떤 느낌인지, 저도 알고 있어요...+그래서 푸린도 늪에 빠져 허우적대는 사람들을 구해주고 싶어요...
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:......
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:시간이 없다, 빨리 움직이자.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:움직이기 전에 먼저 지휘관께 보고해야 하지 않을까요?+이건 저희가 무단 행동하는 것과 다름없으니까요.
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:하지만 지금 지휘관님과 연락이 안 되는데...
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||<BGM>BGM_Empty</BGM>:푸린한테 방법이 있어요!
+()||<SE1>AVG_whitenoise</SE1>:푸린이 자신의 패널을 불러내 여기저기를 뒤졌다.
+()<Speaker>에사키 푸린</Speaker>||:여러분, 여기 카메라를 보세요~
 ()||<白屏2><关闭蒙版><BIN>670</BIN>:
-()||<SE1>AVG_The_Division_Camera</SE1>:咔擦——
-()||:普林突如其来地对准大家按下了快门。
-()<Speaker>HK433</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:如果我没有理解错的话，你是在拍一张合照？
-()<Speaker>江崎普林</Speaker>||:我会将这张合照发送给指挥官的，现在发送不出去，等能链接上了，指挥官一定会收到。
-()<Speaker>HK433</Speaker>||:……
-()<Speaker>江崎普林</Speaker>||:一定会的！+我相信指挥官，也相信我们。
+()||<SE1>AVG_The_Division_Camera</SE1>:찰칵!
+()||:푸린이 느닷없이 모두를 향해 셔터를 눌렀다.
+()<Speaker>HK433</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:제가 이해한 게 맞다면 지금 단체사진을 찍은 건가요?
+()<Speaker>에사키 푸린</Speaker>||:푸린이 이 단체사진을 지휘관님께 보낼 거예요. 지금 받지 못한다 해도, 신호가 연결되면 분명 받으실 수 있을 거예요.
+()<Speaker>HK433</Speaker>||:......
+()<Speaker>에사키 푸린</Speaker>||:분명 받을 수 있어요!+푸린은 지휘관님을 믿어요, 우리 자신들도 믿고요.
 ()||<黑点1>:
 ()||<黑点2><回忆><BIN>327</BIN>:
-()||:HK433从普林那里接过合照仔细端详起来。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:为什么要拍照片发给指挥官？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:指挥官现在的处境一定也很危险……
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:嗯，我们多少还有四个人一起面对老大哥的房间。+指挥官却要独自面对困境，如果能收到的话，多少能感觉到安慰吧。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:就算要等很久以后才能收到，至少也能感受到我们此时的心情吧。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:……什么心情？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:直到最后一刻，都在信任指挥官，这样的心情！+还有，我们相信就算失败了，指挥官也会回来救我们！
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker></Speaker>||:HK433迷惑地看了看合照。
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:就算指挥官阅读理解能力再强，仅凭一张照片怎么理解出这么多信息？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:哦忘了讲，我骇入HK433的时候已经看见你们为指挥官准备的惊喜了。+反正按目前你们的计划进度，是赶不上在基地建成纪念日的时候给指挥官，不如——
-NPC-HK433(4)<Shake>0.1</Shake><Position>0,130</Position><Speaker>HK433</Speaker>||:等一下……你该不会……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:你把它和照片一起寄给了指挥官？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:对啊，这样不就能赶上纪念日让指挥官看见了嘛！
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:你……
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:不用多说，你们的感谢普林都明白的~
-NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-()||<BGM>BGM_Empty</BGM>:HK433深深地吸了一口气，目光重新落在普林拍的合影上。+虽然除了普林，大家的表情都不算太好，但至少所有人的脸上还洋溢着希望。+而这就是HK433记忆中的最后一帧清晰的画面。
+()||:HK433은 푸린에게서 단체사진을 받아 자세히 살펴보았다.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:왜 사진을 찍어서 지휘관에게 보내는 거지?
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:지휘관도 지금 엄청 위험한 상황일 텐데요...
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:네, 여기에 있는 우리 네 명은 이제 함께 빅 브라더의 방으로 향할 거예요.+지휘관님은 지금 곤경에 홀로 맞서고 계시지만, 이 사진을 받으면 어느 정도 마음의 위안이 되겠죠.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:정말 한참이 지나서야 받게 된다 해도, 받으면 지금 우리의 마음을 느끼실 수 있을 거예요.
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:...어떤 마음 말이지?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:"마지막 한 순간까지 저희는 지휘관님을 믿습니다!"라는 마음이요.+그리고 비록 우리가 실패한다 해도, 지휘관님께서 분명 돌아와서 구해 주실 거라 믿는다는 것도 말이죠!
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:......
+NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker></Speaker>||:HK433이 미심쩍어하며 단체 사진에 눈길을 주었다.
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:아무리 지휘관님이 이해력이 대단한 분이라 해도, 고작 사진 한 장만으로 그 많은 정보를 어떻게 읽어내죠?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:아, 말하는 걸 깜빡했네. 푸린이 HK433 씨를 해킹했을 때, 여러분이 지휘관님께 준비하던 서프라이즈를 봤어요.+어차피 지금 계획 진도를 봐선, 기지 창설 기념일에 지휘관님께 전해드리기엔 늦겠죠? 그렇다면 차라리——
+NPC-HK433(4)<Shake>0.1</Shake><Position>0,130</Position><Speaker>HK433</Speaker>||:잠깐만요, 그 말은 설마...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>QBU191</Speaker>||:그걸 사진과 함께 지휘관에게 보낸 건가요?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그래요, 이러면 기념일에 지휘관님이 보실 수 있잖아요!
+NPC-BoysAntiTank(0)<Speaker>보이스</Speaker>||:너...!
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:말하지 않아도 알아요~ 여러분이 고마워하는 마음, 푸린은 다 알아요~
+NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:......
+()||<BGM>BGM_Empty</BGM>:HK433은 숨을 깊이 들이쉬고, 다시 시선을 푸린이 찍은 사진으로 향했다.+푸린 말곤 다들 영 좋지 않은 표정이긴 했지만, 적어도 모두가 희망으로 가득 찬 얼굴이었다.+그리고 이것이 HK433의 영상 기억 속에 선명하게 남은 마지막 프레임이었다.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>55</BIN><关闭蒙版>:
-()||:……2Z64区，未知区域。
-()||<BGM>BGM_23S_Expedition_Story</BGM>:指挥官翻出了自己的收件箱。
-()||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:不管怎么刷新检索，始终没有普林发来的那封邮件。
-()<Speaker>指挥官</Speaker>||:……+<color=#A9A9A9>没办法链接上服务器吗？</color>
-NPC-Batou(0)<Speaker>巴特</Speaker>||:普林这家伙……+明明知道不对劲，但还是一往无前啊……
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:见识过真正的深渊后，要不然对一切都麻痹不已，要不然成为燃尽黑暗的火。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:我知道她总是选择更艰难的那条路，但……
-NPC-Batou(0)<同时置暗><Speaker>指挥官</Speaker>||:难道普林就是你提起过的……？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:嗯，普林就是那个天才小孩。
-NPC-Batou(0)<同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:在她还年幼的时候，家人遭到了凶手的残忍虐杀。+她侥幸逃过一劫。
-NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:巴特及时发现了她。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:之后她改名换姓去了新的地方，我原以为她会就此安稳地长大，度过剩余的人生。+没想到她又回来了……
-()<Speaker>指挥官</Speaker>||:普林……布丁……+她之所以给自己选择这个名字，难道是因为……
-NPC-Motoko(1)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:巴特救出她之后，为了安抚她的情绪，特意送给了她一个布丁。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:不知道有没有什么关联，总之是让她振作起来了。
-()<Speaker>指挥官</Speaker>||:……
-()||:回想起普林塞给自己的那个布丁，指挥官的心情有些复杂。
-()<Speaker>指挥官</Speaker>||:原来是因为这样……+她特意回到公安九课，也是为了向你报恩吗？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:不止如此。+她想要将和曾经的自己一样沉沦在黑暗中的人拉回到光明中。
-()<Speaker>指挥官</Speaker>||:……+难怪，明明和我初次见面，却帮了我这么多……+我还怀疑过她的动机……
-NPC-Motoko(1)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:道歉的话等找到她再说吧。
-()||<SE1>AVG_Camera_Focus</SE1>:少校调试着HK433的记忆碎片，在合照之后，出现了大段损毁的记忆碎片。
-()<Speaker>指挥官</Speaker>||:怎么回事？这之后的记忆受损了吗？
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:有一小段由于本体遭到了重创导致记忆混乱扭曲，无法播放。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:是前往老大哥的房间的过程遭到了重创吗？
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:恐怕是。+跳过损毁的一段，继续向后吧，指挥官。
-()<Speaker>指挥官</Speaker>||:好……
-()||<BGM>BGM_Empty</BGM>:惴惴不安地深吸一口气后，指挥官继续了HK433的记忆。
+()||:...2Z64 구역의 어딘가.
+()||<BGM>BGM_23S_Expedition_Story</BGM>:지휘관은 자신의 우편함을 열어보았다.
+()||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:아무리 새로고침하고 검색해 봐도, 푸린이 보냈다던 그 메일은 찾을 수가 없었다.
+()<Speaker>지휘관</Speaker>||:......+<color=#A9A9A9>(서버에 연결이 안 되는 건가?)</color>
+NPC-Batou(0)<Speaker>바토</Speaker>||:푸린 이 녀석...+상황이 심상치 않음을 알면서도 여전히 망설임이 없구만.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:진정한 심연을 마주한 사람은 모든 것에 무감각해지거나, 어둠을 모조리 쫓아낼 불꽃이 되지.
+NPC-Batou(0)<Speaker>바토</Speaker>||:녀석이 언제나 힘든 쪽을 고른다는 걸 알고는 있지만...
+NPC-Batou(0)<同时置暗><Speaker>지휘관</Speaker>||:설마 푸린이 전에 말했던...?
+NPC-Batou(0)<Speaker>바토</Speaker>||:그래, 푸린이 그 천재 아동이다.
+NPC-Batou(0)<同时置暗><Speaker>지휘관</Speaker>||:......
+NPC-Batou(0)<Speaker>바토</Speaker>||:녀석이 아직 어릴 때, 온 가족이 끔찍한 연쇄살인으로 희생됐어.+그 애는 운 좋게도 살아남았고.
+NPC-Batou(0);NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:바토가 늦지 않게 발견했지.
+NPC-Batou(0)<Speaker>바토</Speaker>||:그 후 그 애는 이름을 바꾸고 다른 지역으로 갔어. 그렇게 탈 없이 자라서 여생을 보낼 것이라 생각했건만...+설마... 돌아올 줄은 몰랐지.
+()<Speaker>지휘관</Speaker>||:푸린... 푸딩...+자기 이름을 그렇게 지은 것도 설마...
+NPC-Motoko(1)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:바토가 그 애를 구해낸 뒤에, 그 애를 달래 주려고 푸딩을 하나 선물했거든.
+NPC-Batou(2)<Speaker>바토</Speaker>||:그거하고 관계가 있는지는 모르겠지만, 아무튼 그 애는 기운을 냈지.
+()<Speaker>지휘관</Speaker>||:......
+()||:푸린이 자신에게 억지로 권했던 푸딩을 떠올리고, 지휘관은 약간 복잡한 기분이 들었다.
+()<Speaker>지휘관</Speaker>||:그랬던 거였군...+그녀가 공안 9과로 돌아온 것도 너에게 은혜를 갚기 위해서였나?
+NPC-Batou(0)<Speaker>바토</Speaker>||:그뿐만이 아니야.+그 애는 예전의 자신처럼 어둠에 갇힌 이들을, 빛의 세계로 꺼내 주려고 하는 거야.
+()<Speaker>지휘관</Speaker>||:......+어쩐지, 나와 초면인데도 그렇게까지 도와주더라니...+나는 그런 애를 의도가 뭘까 의심하기까지 하고...
+NPC-Motoko(1)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:미안한 마음은 그 애를 다시 만난 다음에 전해.
+()||<SE1>AVG_Camera_Focus</SE1>:소령은 HK433의 기억 파편을 살펴보았다. 단체사진 이후 부분은 많은 기억 파편이 깨진 상태였다.
+()<Speaker>지휘관</Speaker>||:어떻게 된 거야? 이 다음은 기억이 파손된 거야?
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:본체가 중상을 입어서 일부 기억에 혼선 및 왜곡이 발생했어. 이 다음은 재생할 수가 없어.
+()<Speaker>지휘관</Speaker>||:......
+NPC-Batou(0)<Speaker>바토</Speaker>||:빅 브라더의 방으로 향하는 과정에서 중상을 입은 건가?
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:아마도.+파손된 부분은 넘기고 그 뒤를 보자고, 지휘관.
+()<Speaker>지휘관</Speaker>||:그래...
+()||<BGM>BGM_Empty</BGM>:불안한 마음을 억누르며 심호흡 한 뒤, 지휘관은 HK433의 기억을 뒤로 넘겼다.
 ()||<黑屏1>:
 ()||<黑屏2><BIN>463</BIN><回忆>:
-()||<BGM>GF_2022_Summer_AVG_2</BGM><SE1>AVG_whitenoise</SE1>:视野被扭曲了，像是被从高空扔下的手机屏幕，出现了裂痕和黑斑。
-()<Speaker>HK433</Speaker>||:……
-()||:透过模糊的视野，HK433能辨认出倒在入口的鹮。+水金铃鹿正在将什么装置戴在她的头上，是要进行二次记忆封锁了吗？
-()<Speaker>HK433</Speaker>||:鹮……
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:嘘！
-()||<SE1>ClothingUp</SE1>:支离破碎的身体被拽到了倒塌的书柜后面，普林的脸凑了过来。
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:听着，计划失败了，光靠我们根本无法使用鹮提到的设备。+我们需要指挥官，只有指挥官才能在虚拟和现实的缝隙中解决这一切……
-NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:……我们……失败了吗？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:还没有，起码现在还有希望！+你相信你们的指挥官吗？
-NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:嗯……
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:那就假装认输，自行封锁你的记忆。
-NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:什么……？
-NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:给自己留一把解锁的钥匙，指挥官一定能找到的钥匙。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:当指挥官来到你的面前，能让你立刻回想起过去一切的密码。
-()<Speaker>HK433</Speaker>||:……
+()||<BGM>GF_2022_Summer_AVG_2</BGM><SE1>AVG_whitenoise</SE1>:시야가 일그러졌다. 마치 높은 곳에서 떨어진 휴대폰 디스플레이마냥 금이 가고 얼룩이 졌다.
+()<Speaker>HK433</Speaker>||:......
+()||:희미한 시야 속에, HK433은 입구에 쓰러진 것이 따오기라는 것은 식별할 수 있었다.+미즈카네 스즈카가 그녀의 머리에 어떤 장치를 씌웠다. 다시 기억을 봉인하려는 것일까?
+()<Speaker>HK433</Speaker>||:따오기...
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:쉬잇!
+()||<SE1>ClothingUp</SE1>:걸레짝이 된 몸뚱이가 쓰러진 책장 뒤로 끌어당겨지고, 푸린이 얼굴을 가까이 댔다.
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:잘 들어요, 계획은 실패예요. 우리만으론 따오기 씨가 말한 설비를 사용할 수가 없어요.+지휘관님이 필요해요, 지휘관님만이 가상과 현실의 틈새에서 이 모든 일을 해결할 수가 있어요......
+NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:...우린...실패한 건가요...?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:아직이요, 적어도 아직 희망은 있어요!+당신은 당신의 지휘관을 믿나요?
+NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:네...
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그럼 항복하는 척 스스로 자신의 기억을 봉인하세요.
+NPC-Purin(1)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:뭐라고요...?
+NPC-Purin(1)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그리고 봉인을 풀 열쇠를 남겨 두세요, 지휘관님이 반드시 찾아낼 수 있는 열쇠를요.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:지휘관님이 당신을 찾아왔을 때, 과거의 모든 일을 전부 떠올리게 할 수 있는 패스워드를요.
+()<Speaker>HK433</Speaker>||:......
 ()||<黑点1>:
 ()||<黑点2><BIN>8</BIN>:
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:指挥官，为什么这么拼命工作？工作似乎并不能让您快乐。
-NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||<边框>2</边框>:工作的意义从来就不是让人快乐。
-NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:那是什么？
-NPC-HK433(4)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||<边框>2</边框>:这份工作能让我获得我想要的东西……
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:那您想要的是什么？
-()||<边框>2</边框>:指挥官只是神秘莫测地笑了笑。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:你呢，HK433，你真正想要的东西是什么？
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:……+这个问题好难，等我想想。
-NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>指挥官</Speaker>||<边框>2</边框>:好啊，你慢慢想想，等明天见面的时候我再问你。
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:지휘관님, 왜 그렇게 필사적으로 일하시죠? 일하시면서 딱히 즐거워 보이지도 않던데요.
+NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||<边框>2</边框>:누가 항상 즐거워서 일을 하겠니.
+NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:그럼 어째서죠?
+NPC-HK433(4)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||<边框>2</边框>:이 직장에서 내가 원하는 것을 얻을 수 있으니까...
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:그럼 지휘관님은 무엇을 원하시는데요?
+()||<边框>2</边框>:지휘관은 그저 속을 알 수 없는 미소를 지을 뿐이었다.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:너는? HK433, 네가 진심으로 원하는 것은 뭐야?
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||<边框>2</边框>:......+어려운 질문이네요, 잠깐 생각해 볼게요.
+NPC-HK433(0)<Position>0,130</Position><同时置暗><Speaker>지휘관</Speaker>||<边框>2</边框>:그래, 천천히 생각해 봐. 내일 만나면 다시 물어볼게.
 ()||<黑点1>:
 ()||<黑点2><BIN>463</BIN>:
-()<Speaker>HK433</Speaker>||:……好。
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:这样就够了，HK433，你可以暂时休息了。+接下来就交给我吧。
-NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:普林……可是你也好不到哪去啊……
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:嗯，不过我已经有了新的计划……
-NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:……你要做什么？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:相信我，我们还会再相遇的，然后我们会一起完成指挥官的计划。+将所有人形救回格里芬基地，让一切回到最初的时候。
-()<Speaker>HK433</Speaker>||:好……
-()<Speaker>HK433</Speaker>||:我相信你。
-()||<SE1>AVG_whitenoise</SE1>:记忆数据封存中……+正在设置重启秘钥……
-()<Speaker>HK433</Speaker>||:<color=#A9A9A9>指挥官……</color>+<color=#A9A9A9>等您来到我的面前，希望您还记得我们过去经历的每一天……</color>+<color=#A9A9A9>还有那些我没能回答上的问题……</color>
+()<Speaker>HK433</Speaker>||:...알겠어요.
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:그걸로 충분해요, HK433 씨. 이제 잠시 쉬세요.+이제부터는 푸린에게 맡기세요.
+NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:푸린 씨... 하지만 지금 당신도 상태가 안 좋잖아요...
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:네, 하지만 푸린은 이미 새로운 계획이 생겼거든요...
+NPC-Purin(0)<Position>-50,50</Position><同时置暗><Speaker>HK433</Speaker>||:...어떻게 하실 셈인데요?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>에사키 푸린</Speaker>||:푸린을 믿어요. 분명 다시 만나게 될 거예요. 그리고 우리는 함께 지휘관님의 계획을 완수할 거예요.+모든 인형분들을 구해내서, 그리폰 기지로 다함께 돌아가 전부 원래 모습으로 되돌릴 거예요.
+()<Speaker>HK433</Speaker>||:네...
+()<Speaker>HK433</Speaker>||:믿을게요.
+()||<SE1>AVG_whitenoise</SE1>:기억 데이터 봉인 중...+리부팅 패스워드를 설정하는 중...
+()<Speaker>HK433</Speaker>||:<color=#A9A9A9>(지휘관님...).</color>+<color=#A9A9A9>(지휘관님께서 저를 찾아오실 때, 저와 함께한 매일을 기억하고 계시길 바라요...)</color>+<color=#A9A9A9>(제가 마저 대답하지 못한 질문도...)</color>
 ()||<黑屏1>:
 ()||<睁眼><关闭蒙版><BIN>55</BIN>:
-()||:……2Z64区，未知区域。+HK433从漫长的梦境中醒来，她眨了眨眼，纤长的睫毛扫去了眼中的迷茫呆滞。
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-()<Speaker>指挥官</Speaker>||:……
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:……指挥官！+对不起，任务失败了……
-()||:看着低垂着头丧气的HK433，指挥官轻轻摸了摸她的头。
-()<Speaker>指挥官</Speaker>||:是我的计划太鲁莽，差点害你们全部都回不来了。+还好现在有挽救的机会。
-NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:不，是我——
-NPC-Batou(2)<Speaker>巴特</Speaker>||:停一下。+肉麻的话留到之后再说吧。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:我们还要去救出江崎和剩下的人形们。
-()<Speaker>指挥官</Speaker>||:嗯，任务还没有完成。
-NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:是！
-()||<黑屏1>:
+()||:...2Z64 구역의 어딘가.+HK433이 기나긴 꿈에서 깨어나 눈을 깜빡였다, 매끈한 속눈썹이 눈동자의 멍한 기운을 전부 쓸어냈다.
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:......
+()<Speaker>지휘관</Speaker>||:......
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:...지휘관님!+죄송합니다, 임무에 실패했어요...
+()||:고개를 푹 숙인 HK433을 보며, 지휘관은 가볍게 머리를 쓰다듬었다.
+()<Speaker>지휘관</Speaker>||:내 작전이 너무 무모했던 탓이지. 하마터면 너희 모두 영영 돌아오지 못할 뻔했잖아.+그래도 다행히 아직 만회할 기회가 있어.
+NPC-HK433(3)<Position>0,130</Position><Speaker>HK433</Speaker>||:아뇨, 제가——
+NPC-Batou(2)<Speaker>바토</Speaker>||:잠깐 스톱.+오글거리는 멘트는 나중에 하자고.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>쿠사나기 모토코</Speaker>||:아직 에사키와 나머지 인형들을 구해내야 해.
+()<Speaker>지휘관</Speaker>||:응, 임무는 아직 끝나지 않았어.
+NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:예!
+()||<黑屏1>:

@@ -1,61 +1,61 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:……2Z64区，胜利大厦，390号的房间。
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:2Z64 구역의 빅토리 맨션, 인형 390호의 방.
 ()||<黑屏1><SE1>AVG_Creep</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>562</BIN>:洁白的窗帘缓缓拉开，将清晨温暖的阳光让进屋内。
+()<Speaker></Speaker>||<黑点2><BIN>562</BIN>:새하얀 커튼이 살며시 열려, 따스한 햇살이 방을 환하게 비췄다.
 ()||<白屏1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><BIN>470</BIN>:390号睁开睡意朦胧的双眼，走下柔软的床铺，开始洗漱。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早安！
-()<Speaker>电屏</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>早安，390号。</color>
-()<Speaker></Speaker>||:和墙上的电屏打完招呼后，390号精神饱满地走出房间，朝公司的方向前进。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><BIN>470</BIN>:390호는 졸린 눈을 뜨고, 푹신한 침대에서 내려와 세수를 하러 움직였다.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:좋은 아침!
+()<Speaker>텔레스크린</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>좋은 아침, 390호.</color>
+()<Speaker></Speaker>||:벽의 텔레스크린과 인사를 나누고, 390호는 기운차게 방을 나서 회사 방향으로 걸어갔다.
 ()||<黑点1><SE1>AVG_Door_Open_Close</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_AMB_Street</SE1><黑点2><BIN>418</BIN><BGM>BGM_SAC2045_Utopia</BGM><SE1>AVG_wind_grass</SE1>:像过去的每一天一样，今天的2Z64区也是万里无云的晴天。+阳光正好，柔和的风轻轻吹起发梢。+390号微微皱了皱鼻子，捕捉到了空气中淡淡的香气。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早上好，365号！
-NPC-SCR(0)<Speaker>365号</Speaker><Position>0,50</Position>||:早上好，390号。
-()<Speaker></Speaker>||:365号和往日一样精心照料着枝叶繁盛的樱桃树。
-Webley(0)<Speaker>294号</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:贵安，390号。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早安，294号。
-()<Speaker></Speaker>||:294号也如往日一样身着熨烫平整的西装站在店门口招呼行人。
-Webley(0)<Speaker>294号</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:今天店里到了新款的西装，要来试试吗？
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:谢谢你，不过——
-pa15(0)<Speaker>260号</Speaker><Position>-80,100</Position><Shake>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3>:<size=50>走开啊！不要挡我的路！</size>
+()<Speaker></Speaker>||<SE1>AVG_AMB_Street</SE1><黑点2><BIN>418</BIN><BGM>BGM_SAC2045_Utopia</BGM><SE1>AVG_wind_grass</SE1>:언제나처럼, 오늘도 2Z64 구역은 구름 한 점 없는 맑은 날씨.+햇빛은 적당히 따스했고, 상쾌한 바람에 머리가 나부꼈다.+숨을 조금 크게 들이쉬니, 390호의 코에 은은한 향기가 느껴졌다.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:좋은 아침, 365호!
+NPC-SCR(0)<Speaker>365호</Speaker><Position>0,50</Position>||:좋은 아침이에요, 390호.
+()<Speaker></Speaker>||:365호는 평소처럼 울창한 앵두 나무를 정성껏 가꾸는 중이었다.
+Webley(0)<Speaker>294호</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:안녕히 주무셨나요, 390호 씨.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:좋은 아침이에요, 294호.
+()<Speaker></Speaker>||:294호도 평소처럼 가게 앞에서 양복을 다림질하며 호객 중이었다.
+Webley(0)<Speaker>294호</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:오늘 가게에 새 양복이 들어왔답니다, 시착해보시겠어요?
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:고마워요, 그래도——
+pa15(0)<Speaker>260호</Speaker><Position>-80,100</Position><Shake>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3>:<size=50>비켜 비켜! 내 앞 가로막지 마!</size>
 ()||<黑点1><SE1>AVG_engine_speedup</SE1><SE1>AVG_brake</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:
-()<Speaker></Speaker>||<黑点2><bg_move>%%pivot_x=0.5%%pivot_y=0.45%%scale=1.6%%duration=1%%</bg_move>:一辆汽车狂啸着从390号身边险险擦过，390号却像是早已预料到一般，轻松地后退一步躲开了。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早安，260号。
-MP448(0)<Speaker>232号</Speaker>||:<color=#00CCFF><size=50>260号，请立刻停止超速驾驶行为，并配合仁爱部的调查！</size></color>+<color=#00CCFF><size=50>你已经违反2Z64区道路交通安全法的相关规定，请立刻——</size></color>
-pa15(0)<Speaker>260号</Speaker><Position>-80,100</Position>||:才不要！略略略！
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:印着仁爱部标志的车辆呼啸着紧追不舍，从390号的身边驶过。
-()<Speaker></Speaker>||:隔壁仁爱部也和往日一样，兢兢业业地忙碌在维持2Z64区秩序的第一线。
+()<Speaker></Speaker>||<黑点2><bg_move>%%pivot_x=0.5%%pivot_y=0.45%%scale=1.6%%duration=1%%</bg_move>:느닷없이 자동차 한 대가 달려와 요란하게 울부짖으며 390호에게 달려들었지만, 390호는 진작에 예상했다는 듯 가볍게 한 걸음 물러나 차를 피했다.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:네에, 260호도 좋은 아침이에요.
+MP448(0)<Speaker>232호</Speaker>||:<color=#00CCFF><size=50>260호! 즉시 과속 운전을 중지하고 미니러브의 조사에 협조하세요!</size></color>+<color=#00CCFF><size=50>당신은 2Z64 구역 도로교통안전법 관련 규정을 다수 위반하였습니다! 즉시——</size></color>
+pa15(0)<Speaker>260호</Speaker><Position>-80,100</Position>||:싫거든! 메롱메롱~
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:미니러브의 로고가 인쇄된 차량이 똑같이 포효하며 쫓아와 390호를 스쳐지나갔다.
+()<Speaker></Speaker>||:미니러브도, 오늘도 평소처럼 2Z64 구역 질서 유지의 최전선에서 동분서주 중이었다.
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>673</BIN><黑点2><SE1>Stop_AVG_loop</SE1>:……2Z64区，真理部，办公室一区。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||<SE1>AVG_door_elecport</SE1>:各位，早上好。
-JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:早安，390号。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:早安，234号。+我已经将编号21093202的事件整理完毕，按照流程接下来就移交给你归档。
-NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:是215号在2Z64区公民论坛上发表污蔑老大哥信息的帖子那个事件吗？
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:是的，感谢342号的检举揭发和全力协助，否则我也无法这么快就能完成。
-NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:明白了，接下来就交给我吧。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:辛苦了，那么我这就去处理——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:234号做了个暂停的手势。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>||:怎么了？
-NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:水金小姐交代暂停你接下来的一切工作。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:为什么！
-NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:她说，有更重要的任务要交给你，让你来了就去找她。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>||:……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:390号不可置信地瞪大了双眼，并不是源于被暂停任务的不甘，而是来自从未有过的改变——+“更重要的任务”。+这个从未出现在过去的一成不变的每一天的词汇，像迷途的鸟儿一样撞在了她心智中的玻璃上。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:是！
+()<Speaker></Speaker>||<BIN>673</BIN><黑点2><SE1>Stop_AVG_loop</SE1>:잠시 후, 미니트루 사무 1구역.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||<SE1>AVG_door_elecport</SE1>:좋은 아침입니다, 여러분.
+JS9mm(0)<Speaker>234호</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:좋은 아침이에요, 390호.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:좋은 아침, 234호.+번호 21093202 사건 파일 정리를 마쳐, 귀납 절차에 따라 당신에게 인수인계합니다.
+NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>234호</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:아아, 215호가 2Z64 구역 공민 게시판에 빅브라더를 모욕하는 글을 게시한 사건 말이죠?
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:네. 342호의 검거와 협조 덕분에 이렇게 신속히 처리할 수 있었습니다.
+NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>234호</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:알겠습니다, 그럼 제게 맡겨 주세요.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:수고하세요, 그럼 저는 다음——
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:234호가 손짓으로 390호를 멈춰 세웠다.
+NPC-HK433(4)<Speaker>390호</Speaker><Position>0,130</Position>||:무슨 일인가요?
+NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>234호</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:미즈카네 씨의 전언입니다, 당신의 모든 작업을 잠시 중단하세요.
+NPC-HK433(4)<Speaker>390호</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:네?! 무, 무슨 일인데요?
+NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>234호</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:더 중요한 임무가 있다고 하셨습니다, 출근하면 바로 자신에게 오라고 말씀했어요.
+NPC-HK433(4)<Speaker>390호</Speaker><Position>0,130</Position>||:......!
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:390호는 눈에 휘둥그레졌다. 업무 정지로 인한 당혹감이 아니라, 여지껏 없었던 삶에 생긴 변화 때문에.+"더 중요한 임무".+변화 없던 지난 나날 동안 들어본 적 없는 이 단어가, 마치 길 잃은 새처럼 그녀의 마인드맵이란 유리창에 부딪혔다.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:네!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_21Winter_Subway</SE1><BIN>532</BIN>:……2Z64区，地铁站。+390号按照水金铃鹿的指示，早早守候在了地铁站出口。+“更重要的任务”将从这里出现，传到她的手中。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||<BGM>GF_EV9_Story</BGM>:……加油。
-()<Speaker></Speaker>||<SE1>AVG_Eurocity_Stop</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:嗡——在390号小声的呢喃中，地铁进站了。+390号紧了紧身子，目光穿过人群，专注地寻找着目标——+水金小姐正领着一个人走来。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:您好，我是390号，将负责安排您今天的参观旅途。+稍后我会将安排发送给您，有任何疑问您也可以告诉我，那么请问您的编号是？
-NPC-Suzuka(0)<Speaker>水金铃鹿</Speaker><Position>-160,100</Position>||:这位是还未进行电子脑改造的人类，代号“指挥官”。
-NPC-Suzuka(0)<Speaker>水金铃鹿</Speaker><Position>-160,100</Position>||<SE1>AVG_keyboardtype_sci</SE1>:指挥官的模拟编号已经传输给你了，接下来就交给你了。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>||:……人类？！是，请放心交给我吧！
-()<Speaker></Speaker>||:水金小姐如鱼得水地消失在了熙熙攘攘的人群中。+390号站在原地，回味着一向面无表情的水金小姐，刚刚似乎在擦肩而过的瞬间露出了嘲讽的微笑？
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:您好，指挥官，请跟我来吧！
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:从下车开始，访客都是一副疲惫的模样，只是安静地盯着地面，甚至连好奇地张望也没有。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:但在水金小姐离开后，访客却突然抬头，锐利的目光恨不能扎在390号的额头上。
-NPC-HK433(0)<Speaker>390号</Speaker><Position>0,130</Position>||:请问……有什么疑问吗？
-()<Speaker>指挥官</Speaker>||:……+不，没什么。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:那么，这边请。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_21Winter_Subway</SE1><BIN>532</BIN>:전철역.+390호는 미즈카네의 지시에 따라 전철역 출구 앞에 일찍 도착해 기다렸다.+"더 중요한 임무"가, 여기서 나타나 그녀의 맡겨질 것이다.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||<BGM>GF_EV9_Story</BGM>:...힘내자.
+()<Speaker></Speaker>||<SE1>AVG_Eurocity_Stop</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:390호가 가볍게 혼잣말을 되뇌인 그때, 전철이 도착했다.+390호는 바로 자세를 똑바로 가다듬고, 인파 사이사이를 보며 목표를 찾았다.+그리고 한 사람과 같이 온 미즈카네를 보았다.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:반갑습니다, 저는 오늘 당신의 2Z64 구역 견학 투어의 안내를 맡게 된 390호입니다. +잠시 후 일정을 전달해 드리겠습니다. 궁금한 점이 있으시면 언제든지 제게 물어보십시오. 먼저 당신의 번호를 여쭤도 되겠습니까?
+NPC-Suzuka(0)<Speaker>미즈카네 스즈카</Speaker><Position>-160,100</Position>||:이 분은 아직 전뇌화 개조를 받지 않은 인간이야. 콜네임 "지휘관"이라 부르렴.
+NPC-Suzuka(0)<Speaker>미즈카네 스즈카</Speaker><Position>-160,100</Position>||<SE1>AVG_keyboardtype_sci</SE1>:임시 번호는 전송했으니, 맡길게.
+NPC-HK433(4)<Speaker>390호</Speaker><Position>0,130</Position>||:인간...?! 아, 네! 맡겨 주십시오!
+()<Speaker></Speaker>||:"지휘관"을 인계한 미즈카네 스즈카는 홀로 유유히 북적대는 인파 사이로 모습을 감췄다.+그런데, 390는 바로 움직이지 않고 제자리서 잠깐 의문에 빠졌다. 방금 미즈카네 스즈카가 자신을 스쳐지나갈 때, 항상 무표정이던 그녀의 입가에 묘한 조소를 본 것 같았기에.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:...반갑습니다, 지휘관님! 그럼 저를 따라와 주십시오.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||:열차에서 내리고부터 이 방문객은 엄청 피곤한 모습에, 그저 조용히 바닥만 내려다보며 주위를 둘러보거나 하는 호기심 어린 행동은 전혀 보이지 않았다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:하지만 미즈카네 스즈카가 떠나자 방문객은 갑자기 고개를 들었고, 그 예리한 시선은 마치 390호의 이마에 구멍이라도 낼 기세였다.
+NPC-HK433(0)<Speaker>390호</Speaker><Position>0,130</Position>||:저어... 무슨 궁금하신 점이라도...?
+()<Speaker>지휘관</Speaker>||:......+아니, 아무것도.
+NPC-HK433(1)<Speaker>390호</Speaker><Position>0,130</Position>||:알겠습니다. 그럼 저를 따라와 주십시오.
+()||<黑点1>:
