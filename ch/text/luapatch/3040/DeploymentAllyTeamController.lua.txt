@@ -8,4 +8,8 @@ local CheckFriendTip = function(self)
 	self:CheckFriendTip();
 end
 
+local ClearBuffUI = function(self)
+	
+end
 util.hotfix_ex(CS.DeploymentAllyTeamController,'CheckFriendTip',CheckFriendTip)
+util.hotfix_ex(CS.DeploymentAllyTeamController,'ClearBuffUI',ClearBuffUI)

@@ -340,7 +340,8 @@ patch3040=
 "3040/OPSPanelProcessItem",	
 "3040/CommonBundleConfirmBoxController",
 "3040/AdjustAdjutantScaleController",
-"3040/ExToggleChoose",								
+"3040/ExToggleChoose",
+"3040/SkillInstance",								
 }
 -- va11
 print("load Va11");
