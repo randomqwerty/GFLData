@@ -88,3 +88,7 @@ MissionPositionNews|500,2500,3500,4500|missionid-prefabcode,missionid-prefabcode
 BackgroundUseUpDown|2|200|1//整个背景上下均分数目|重叠区域大小|定义是否可拖拽
 MissionHolderSelectMode|0//选中关卡的表现形式 0旋转1平移
 Background3DLayerOrder|-30//3d界面层级设置
+LetterSendBack|code|0|missionid|//0寄信 1收信 对应missionid通关后出现 收信不受missionid控制
+OPSDisk|0.5,0|0.5,0|0,0|anglemin,anglemax|code|5|20|0.1|0.1|0|stopangle|disappearAngle|//父组件anchormin|anchormax|pos|圆环预设Code|当前参考半径|拖拽松开时停止转动的速度|拖拽角度变化速度|横向拖拽背景时角度变化速度|当前停靠角度|关卡消失角度
+OPSDiskMission|1|missionid0,missionid1|angle|r|code  //order|missionid|对应角度|距离圆心距离|预设code
+OPSDiskFollow|code|//受OPSDisk影响，当前rotatecontrol上一层设置为空的受影响(可多个)
