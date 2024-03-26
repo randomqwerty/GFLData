@@ -13624,6 +13624,10 @@
     "formula": "#pow<100?$1+$1*(100-#pow)*sbuffidtier(9224)/10000:$1"
   },
   {
+    "id": 5376,
+    "formula": "sbuffidtier(9233)=1?50:100"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
