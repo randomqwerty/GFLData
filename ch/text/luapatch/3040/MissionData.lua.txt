@@ -18,4 +18,11 @@ local mission = function(self)
 	return self.mission;
 end
 
+local currentPerformance = function()
+	if CS.GameData.missionAction ~= nil then
+		CS.GameData.currentSelectedMissionInfo = CS.GameData.missionAction.missionInfo;
+	end
+	return CS.DeploymentPerformanceController.currentPerformance;
+end
 util.hotfix_ex(CS.AVGPlayBackInfo,'get_mission',mission)
+util.hotfix_ex(CS.DeploymentPerformanceController,'get_currentPerformance',currentPerformance)
