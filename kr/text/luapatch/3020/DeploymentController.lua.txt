@@ -170,6 +170,9 @@ local CheckTeamTrans = function(self)
 	end
 	self:CheckTeamTrans();
 end
+local HasCombination = function(self)
+	return CS.GuideManagerController.Instance == nil and self:HasCombination()
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
@@ -185,3 +188,4 @@ util.hotfix_ex(CS.DeploymentController,'TriggerAbortMissionEvent',TriggerAbortMi
 util.hotfix_ex(CS.DeploymentController,'CheckOnePoint',CheckOnePoint)
 util.hotfix_ex(CS.DeploymentController,'CheckDeploymentNotice',CheckDeploymentNotice)
 util.hotfix_ex(CS.DeploymentController,'CheckTeamTrans',CheckTeamTrans)
+util.hotfix_ex(CS.DeploymentController,'HasCombination',HasCombination)
