@@ -13,5 +13,9 @@ local cantransfer = function(skill,spot)
 	end
 	return CS.DeploymentController.cantransfer(skill,spot);
 end
+local HasCombination = function(self)
+	return CS.GuideManagerController.Instance == nil and self:HasCombination()
+end
 util.hotfix_ex(CS.DeploymentPlanModeController,'UpdateApText',UpdateApText)
 util.hotfix_ex(CS.DeploymentController,'cantransfer',cantransfer)
+util.hotfix_ex(CS.DeploymentController,'HasCombination',HasCombination)
