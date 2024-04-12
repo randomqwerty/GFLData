@@ -34,7 +34,7 @@
 //2021夏活配置：
 //MissionSelectionTex|missionselect_PoincareRecurrence|2|-48
 //2022白情活动配置：
-//MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
+MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //SCAR角色活动：
 //MissionSelectionTex|missionselect_2022Scar|2|-56
 //佐贺联动：
@@ -54,7 +54,7 @@
 //2023春活配置：
 //MissionSelectionTex|missionselect_Slowshock|1|-58
 //终焉花海复刻配置：
-MissionSelectionTex|missionselect_Reversible_RE|2|-55
+//MissionSelectionTex|missionselect_Reversible_RE|2|-55
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -180,13 +180,13 @@ OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
-//OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
+OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
 //OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
 //OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
-OPSNoticeNormalActivity|-58|2023Spring_Notice
+//OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 
 //时间公告-预制物(公用)
@@ -235,16 +235,15 @@ OPSTimeNormalActivity|-59|Reversible_Time
 //OPSGoto|Xmas_2021_GotoMall|0|-49
 //OPSGoto|MirrorStage_GotoMall|0
 //OPSGoto|MirrorStage_PointExchange|2
-//OPSGoto|WhiteDay_2022_GotoMall|0|-50
+OPSGoto|WhiteDay_2022_GotoMall|0|-50
 //OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|ZLSR_GotoMall|0|-57
 //OPSGoto|FixedPoint_GotoMall|0|-51
-
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 //OPSGoto|2022Summer_GotoMall|0|-54
 //OPSGoto|2023RougeSpring_GotoMall|0|-59
 //OPSGoto|2023RougeSpring_PointExchange|2|-59
-OPSGoto|2023Spring_GotoMall|0|-58
+//OPSGoto|2023Spring_GotoMall|0|-58
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -463,7 +462,7 @@ OPSCampaignTitleButton|-59|true|2023RougeSpring_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-47|100146|120|Bikini_2021_Tip|1
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
-//OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
+OPSCampaignTitleButtonTip|-50|100179|120|WhiteDay_2022_Tip|1
 //OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 //OPSCampaignTitleButtonTip|-54|100152|75|2022Summer_Tip|1
 //OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
