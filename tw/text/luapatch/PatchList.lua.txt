@@ -341,7 +341,8 @@ patch3040=
 "3040/CommonBundleConfirmBoxController",
 "3040/AdjustAdjutantScaleController",
 "3040/ExToggleChoose",
-"3040/SkillInstance",								
+"3040/SkillInstance",
+"3040/CommonVideoPlayer",									
 }
 -- va11
 print("load Va11");

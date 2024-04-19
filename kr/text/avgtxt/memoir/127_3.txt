@@ -1,0 +1,99 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker>M99</Speaker>||<BGM>10213</BGM><BIN>9</BIN><黑屏2><CGDelay>0.5</CGDelay>:<color=#00CCFF>79식?!</color>
+()<Speaker>M99</Speaker>||<CGDelay>0.7</CGDelay>:<color=#00CCFF>79식!</color>
+()<Speaker>79식</Speaker>||<narrator>:으윽...
+()||<黑屏1>:
+()<Speaker></Speaker>||<睁眼><BIN>468</BIN><CGDelay>1</CGDelay>:
+79type(0)<Speaker>79식</Speaker>||:무슨... 일이...
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position><通讯框>||:<color=#00CCFF>79식! 무슨 일이 일어난 거예요?! 대답해요!</color>
+79type(0)<Speaker>79식</Speaker>||:대장...?
+()<Speaker></Speaker>||:고개를 흔들어 충격으로 인한 어지럼증을 뿌리치고, 79식은 상황을 파악하려 안간힘을 썼다.+나란했던 가판대는 전부 돌진해 들어온 경찰차에 들이받혀 쓰러졌고...+동시에 발생한 충격으로 작동한 스프링클러가 요란하게 경보를 울리며 물줄기를 뿜어, 경찰차와 바닥에 난잡하게 쏟아진 상품을 흠뻑 적시는 중이었다.
+79type(0)<Speaker>79식</Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:......!?
+()<Speaker></Speaker>||:쓰러진 가판대의 틈새로, 무기를 들고 죄수복을 입은 남자가 경찰차에서 내리는 것이 보였다. 그리고 어째선지 그의 옆에 경찰 마크가 도색된 기계인형도 있었다.
+79type(0)<Speaker>79식</Speaker>||:<color=#A9A9A9>테러? ...아니야, 탈옥이다.</color>
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1>:생각이 거기에 미치기가 무섭게, 가게 밖에서 수많은 사이렌 소리가 들려왔다.
+NPC-PasserbyM(0)<Speaker>탈옥수</Speaker>||:제기랄!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3><BGM>BGM_Empty</BGM>:탈옥수는 기계인형을 조종해 포위망을 형성한 경찰과 총격전을 벌여, 삽시간에 총성으로 소란스러워졌다.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position><通讯框>||<BGM>10194</BGM>:<color=#00CCFF>79식! 지금 거기서 나는 거 총소리예요!?</color>
+79type(0)<Speaker>79식</Speaker>||:그——
+()<Speaker>점원</Speaker>||:<size=50>사, 사람 살려어어어!!!</size>
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:아까까지만 해도 빈둥대던 점원은 이 아찔한 상황에 기겁해 비명을 지르며 직원 휴게실로 도망치려 했지만, 그 소리를 들은 기계인형에게 붙잡혀 도로 끌려나왔다.
+79type(0)<Speaker>79식</Speaker>||:이런, 하필 이럴 때...!+대장, 다시 연락할게요!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position><通讯框>||:<color=#00CCFF>네? 잠깐만요, 당신 설마——</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.4</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:통신을 끊고, 79식은 넘어진 가판대 더미 속에서 나와 탈옥수와 기계인형의 측후방으로 몰래 우회해, 총으로 기계인형의 동력 중추를 조준했다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:인간 탈옥수 한 명쯤이야 79식에겐 상대가 되지 않으니, 단 한 발만 명중시키면 현재 상황서 가장 큰 위협을 제거할 수 있을 터.+——그런데.
+79type(0)<Speaker>79식</Speaker>||:...어라?
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>468</BIN><controll_shake>%%type_id=2%%duration=500%%delay=0.1%%range=3</controll_shake><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.3%%duration=0%%</bg_move>:
+()<Speaker></Speaker>||:조준경의 가늠자가 흔들려, 목표를 똑바로 겨눌 수가 없었다.
+()||<黑点1><controll_shake>%%type_id=2%%duration=0.1%%delay=0.1%%range=0</controll_shake>:
+()<Speaker></Speaker>||<黑点2><BIN>468</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.2%%duration=0%%</bg_move>:
+79type(0)<Speaker>79식</Speaker>||:그렇지, 난 지금...!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:고개를 숙여 두 손을 확인하니, 총을 아주 잠깐 쥐었을 뿐이건만 손가락이 덜덜 떨렸다.
+()||<黑屏1>:
+NPC-Kalin(3)<Speaker>카리나</Speaker>||<边框>2</边框><黑屏2><BIN>8</BIN><回忆>:일단, 지휘관님은 일부러 네 활동을 제한하시는 게 아니야. 그게 지금 네가 쓸 수 있는 유일한 소체인데다, 고장난 데 투성이라 시스템적으로도 오류가 심각해.+그 소체로 억지로 전투를 벌이기라도 했다간, 우리가 네 소체를 또 구할 수 있는가 없는가가 문제가 아니라, 네 마인드맵이 엄청나게 부하를 받아서 그대로 융해될 수도 있어.
+()||<黑屏1><边框>2</边框>:
+79type(0)<Speaker>79식</Speaker>||<黑屏2><BIN>468</BIN><关闭蒙版>:......+자칫 잘못하면 마인드맵이 융해될 수도 있어...
+()<Speaker></Speaker>||:그 와중 가게 안팎의 교전은 소강상태에 접어들었다. 기계인형의 존재 때문에 손실을 입은 경찰측은 공세를 그만두고 포위망을 유지하면서, 탈옥수에게 투항을 권고했다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:허나 그런 헛수고는 기계인형의 총성만 살 뿐이었다.
+79type(0)<Speaker>79식</Speaker>||:<color=#A9A9A9>이럴 땐 역시, 카리나 씨에게 연락해서 지원을 요청해야겠지...</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:끔찍한 상상을 최대한 떨쳐내면서, 79식은 고개를 숙이고 통신기를 켜려 했다.
+()<Speaker>점원</Speaker>||<BGM>BGM_Empty</BGM>:아...! <size=50>거기! 거기 인형!</size>
+79type(0)<Speaker>79식</Speaker>||:어?
+()<Speaker></Speaker>||:79식이 흠칫하며 고개를 드니, 점원이 구명줄이라도 찾은 듯 큰 소리로 자신을 부르는 것이었다.
+()<Speaker>점원</Speaker>||:<size=50>너 전술인형이지!? 빨리 나 좀 구해줘!!</size>
+79type(0)<Speaker>79식</Speaker>||:<size=25>쉬이잇!!</size>+<size=25>조용히 해요 이 멍청이!</size>
+NPC-PasserbyM(0)<Speaker>탈옥수</Speaker>||<BGM>10345</BGM>:전술인형?!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:절박한 외침에 79식의 존재가 들통나 버려, 가게 안에 다른 "위협"이 있음을 알아챈 탈옥수가 바로 가게 카운터 뒤로 몸을 숨겼다.
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:그리고 기계인형이 점원을 내팽개치고 순식간에 79식에게 달려들었다.
+79type(0)<Speaker>79식</Speaker>||:제길...!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:기계인형이 시커먼 총구를 들이대자, 79식은 반사적으로 바닥에 떨어진 커피 가루 봉지를 집어던졌다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타탕!
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1><BIN>9</BIN>:총탄에 봉지가 찢어졌고, 터져 나온 커피 가루가 물줄기와 뒤섞여 탈옥수와 기계인형에게 온통 튀었다.
+NPC-PasserbyM(0)<Speaker>탈옥수</Speaker><Shake>||:으악! 이건 또 뭐야 XX?!
+79type(0)<Speaker>79식</Speaker>||:<color=#A9A9A9>찬스다!</color>
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>RunStep</SE1><黑点2><BIN>468</BIN>:상대가 정신이 팔린 순간을 노려, 79식은 과감히 총을 들고 기계인형에게 돌진했다.
+79type(0)<Speaker>79식</Speaker>||:<color=#A9A9A9>거리를 좁히면 맞힐 수 있을 거야!</color>
+()<Speaker></Speaker>||<SE1>Select</SE1>:각오를 다진 79식은 기계인형의 코앞까지 달려들어, 방아쇠를 달렸다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타타탕!
+()<Speaker></Speaker>||:하지만 행운의 여신은 오늘 79식의 편이 아닌 모양이었다.+지근거리였는데도 불구하고, 쏜 총탄은 모조리 상대의 동력 중추 주변에 탄흔을 남기기만 했다.
+79type(0)<Speaker>79식</Speaker>||:뭣...
+79type(0)<Speaker>79식</Speaker><Shake><Scale>1.3</Scale><Position>0,-250</Position>||<SE1>Rope</SE1><SE1>AVG_Punch</SE1>:――커흑!?
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=6</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:79식은 다시 방아쇠를 당기지 못하고 기계인형에게 목을 움켜잡혔고, 그대로 세상이 뒤집히는 감각과 함께 경찰차의 루프에 내동댕이쳐졌다.
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:쿠웅!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>468</BIN><SE1>AVG_whitenoise</SE1><BGM>10230</BGM>:79식은 엄청난 충격과 함께 차 루프를 뚫고 떨어졌다. 이 순간 시각도 일그러지고, 온몸의 부품이란 부품은 전부 산산조각난 것만 같았다.
+79type(0)<Speaker>79식</Speaker><Shake>||:크윽!!!+<color=#A9A9A9>괴, 괴로워...</color>
+()<Speaker></Speaker>||:터진 스프링클러에서 차가운 물줄기가 몸으로 쏟아졌지만, 79식은 몸 안이 타들어가는 것 같았다.+애초부터 말을 안 듣던 소체가 더욱 가누기 힘들어졌다.+하지만 지금은 그게 문제가 아니었다.
+NPC-PasserbyM(0)<Speaker>탈옥수</Speaker>||:빨리 해치워.
+()<Speaker></Speaker>||<SE1>AVG_Grey_Hand_Mech</SE1>:명령을 들은 기계인형이 한 걸음씩 다가오고 있었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:79식은 허겁지겁 자신의 무기를 찾아 경찰차 안을 더듬다, 총이 아닌 검은 무언가가 만져졌다.+바로 묵직한 경찰용 배터링 램이었다.
+79type(0)<Speaker>79식</Speaker><Shake>||:콜록콜록... 내가, 어떻게...
+()<Speaker></Speaker>||:기계인형은 코앞까지 다가왔고, 79식은 배터링 램을 단단히 움켜쥐고 간신히 일어섰다.
+79type(0)<Speaker>79식</Speaker>||:어떻게... 너 따위한테 지겠어!!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Cloak_Whoosh</SE1>:전술인형은 기계인형의 손아귀를 피하고, 남은 동력을 쥐어짜내 배터링 램을 놈의 동력 중추를 향해 힘껏 휘둘렀다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><BGM>BGM_Empty</BGM>:퍼엉!
+()<Speaker></Speaker>||:굉음이 울렸다.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:배터링 램으로 박살난 동력 중추에 쩍 금이 났고, 그 사이로 스프링클러에서 분사되는 액체가 스며들어 합선을 일으켰다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_lifttable</SE1>:위압감을 내뿜던 기계인형은 그렇게 굳어버려, 나무토막처럼 바닥에 고꾸라졌다.
+79type(0)<Speaker>79식</Speaker>||:후우...
+79type(0)<Speaker>79식</Speaker><Shake>||<BGM>BGM_Truth</BGM><白屏2><SE1>ClothingUp</SE1>:...콜록콜록!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_ElecSpace</SE1><narrator>:<color=#00CCFF>시스템>></color> 경고 - 마인드맵 과부하!+<color=#00CCFF>시스템>></color> 경고 - 마인드맵 과부하!
+()<Speaker></Speaker>||:귓가에 연달아 들리는 경고음. 소체가 한계에 달한 것이었다.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:마인드맵 과부하로 인한 작열감에 79식은 바닥에 무릎을 꿇은 채 물줄기를 맞았다.
+()<Speaker>탈옥수</Speaker>||:이 빌어먹을...!
+()||<黑屏1>:
+()<Speaker></Speaker>||<睁眼><BIN>468</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.45%%scale=1.45%%duration=0%%</bg_move><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.52%%scale=1.4%%duration=0.8%%</bg_move><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||:기계인형이 쓰러지고 79식이 움직이지 않자, 숨어있던 탈옥수가 튀어나왔다.
+NPC-PasserbyM(0)<Speaker>탈옥수</Speaker>||:어떻게 해킹한 물건인데... 네까짓 게 뭐라고 망가뜨려!?
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:그는 권총을 79식의 이마에 댔다. 하지만 지금 그녀는 손가락 하나 움직일 수가 없었다.
+NPC-PasserbyM(0)<Speaker>탈옥수</Speaker>||:너라도 죽어라...!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:...여기까지구나.
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:
+()||<黑点1>:

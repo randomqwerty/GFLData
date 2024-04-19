@@ -1,0 +1,137 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_Room</BGM><SE1>AVG_keyboardtype_sci</SE1><BIN>9</BIN><黑屏2><narrator>:<color=#00CCFF>시스템>></color> 교체용 소체 접속 성공. 마인드맵 데이터 인스톨 중...
+()<Speaker></Speaker>||<narrator>:<color=#00CCFF>시스템>></color> 인스톨 완료.+<color=#00CCFF>시스템>></color> 소체 부팅 중...+<color=#00CCFF>시스템>></color> ......
+()<Speaker>79식</Speaker>||:으음...
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>22</BIN><睁眼><CGDelay>0.5</CGDelay>:
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:깼니, 79식?
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||<SE1>ClothingUp</SE1>:79식!
+79type(0)<Speaker>79식</Speaker>||<CGDelay>0.4</CGDelay>:카리나 씨... 대장...?+여긴... 수복실?
+79type(0)<Speaker>79식</Speaker>||:아, 설마...
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:네...+어제, 전장에서 79식이 저를 지키려다... 흑...
+79type(0)<Speaker>79식</Speaker>||:엑... 대, 대장? 왜 갑자기 울어요?!
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:먼저 이것부터 볼까?
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:카리나가 뒤로 돌아 태블릿을 조작하자, 단말기의 화면에 영상이 띄워졌다.
+()<Speaker></Speaker>||<SE1>AVG_Rain_Heavy</SE1><common_effect>%%code=NoiseVideo%%wait=0%%</common_effect><CGDelay>1</CGDelay>:
+()||<白屏1>:
+()<Speaker></Speaker>||<白屏2><SE1>Stop_AVG_loop</SE1><narrator>:<color=#00CCFF>시스템>></color> 전술인형 79식의 시각 기록 0435-129호 - [GKA-082 구역 무력 충돌 중재] 을(를) 불러오는 중...+<color=#00CCFF>시스템>></color> 불러오기 완료.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE2>Gunfight</SE2><SE1>AVG_Explosion</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker>M99</Speaker>||<BGM>BGM_Danger</BGM>:포탄 날아와요오오!!!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>99</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=2%%duration=0%%</bg_move><CGDelay>0.5</CGDelay>:
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:79식!! 79식, 무사해요!?
+()<Speaker>79식</Speaker>||:대, 대장...?+전 괜찮아요...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.45%%pivot_y=0.5%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.55%%pivot_y=0.5%%scale=2%%duration=0.7%%</bg_move><CGDelay>0.4</CGDelay>:
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=2%%duration=1.2%%</bg_move><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||:79식의 시점에서, 그녀는 자신의 좌우로 대치 중인 병력이 숨은 엄폐물을 확인하고 M99에게 고개를 돌렸다.
+()<Speaker>79식</Speaker>||:대장, 우린 무력 충돌을 중재하러 온 거 아니에요?+그런데 왜 저 양측 둘다 우리를 공격해요?!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:저, 정보에 따르면, 분쟁 중인 양세력은 이 구역의 자원을 양보하려 하지 않으려 해서...+그래서, 외부 개입도 무조건 적으로 간주하고 있다고 해요...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><震屏3><SE1>Explode</SE1>:
+59type(0)<Speaker>59식</Speaker><Position>0,100</Position><Shake>0.1</Shake>||:우와악!+대장! 일단 이탈하는 게 좋지 않을까요!?+계속 여기서 이러고 있다간 직격 안 당해도 충격파 때문에 소체가 망가지겠어요!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:네, 일단 퇴각하고 안전한 위치에서 다시 지휘관님께 방침을 여쭤보도록 해요...!
+()||<黑点1><SE1>AVG_Team_Running</SE1>:
+()<Speaker></Speaker>||<黑点2>:M99의 지시에, 79식을 비롯한 소대원들은 포격이 잠시 멎은 틈을 타 진지에서 빠져나가기 시작했다.
+()<Speaker></Speaker>||<SE1>Battlefield</SE1>:그런데 얼마 안 가 또 한 차례 포격이 날아들었다.
+()<Speaker>79식</Speaker>||:뭐야, 이렇게 빨리 또?!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:모두! 빨리 엄폐하세요!
+()<Speaker></Speaker>||:79식이 황급히 주변의 몸을 숨길 엄폐물을 찾던 그때, M99가 지시를 내리느라 한 발 늦게 움직이는 것을 보았다.
+()<Speaker></Speaker>||<SE1>AVG_Explosion</SE1><震屏3>:그리고 이를 예측이라도 했다는 듯 근처에 포탄 한 발이 떨어졌고, 폭발에 M99가 떠밀려 바닥을 뒹굴었다.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position><Shake>0.1</Shake>||:꺄악!
+()<Speaker>79식</Speaker>||:<size=50>대장!!</size>
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:저, 저는 신경쓰지 마세요! 위험――
+()<Speaker></Speaker>||:포격으로 피어나는 화염의 꽃에 M99가 집어삼켜지는 것을 두고볼 수 없었던 79식은, 일말의 주저도 않고 진지 밖으로 뛰쳐나갔다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><BIN>9</BIN><CGDelay>1</CGDelay><SE1>Explode</SE1>:
+()||<黑屏1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.2%%duration=0%%</bg_move>:
+()<Speaker></Speaker>||<黑点2><BIN>22</BIN>:또 한 번의 폭발이 일어난 후, 79식의 시각 영상 기록은 노이즈만 보여 주다 끝났다.
+79type(0)<Speaker>79식</Speaker>||:......+카리나 씨, 이건...?
+NPC-Kalin(3)<Speaker>카리나</Speaker>||<BGM>BGM_22Swim_langrensha</BGM>:네가 저번 작전에 참여해서 완파당하기까지의 시각 기록이야.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:그때, 79식은 포격 속에서 저를 감싸다가 포, 폭발에 휩쓸려서...
+79type(0)<Speaker>79식</Speaker>||:그랬군요... 이런 기록 처음 봐요.
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:그래 처음 보는 거겠지! 하지만 이런 기록, 이번이 처음이 아니라고!
+79type(0)<Speaker>79식</Speaker>||:네...?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:카리나가 태블릿을 휙 들어 화면을 몇 번 슬라이드했다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:3일 전 128호 기록, 동료 대신 적 화망을 유인하다 미처 피하지 못하고 파괴...
+NPC-Kalin(4)<Speaker>카리나</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:5일 전 105호 기록, 소대의 퇴각을 혼자서 엄호하다 휴대한 탄약을 소진하고 적에게 파괴...
+NPC-Kalin(4)<Speaker>카리나</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:8일 전 077호 기록, 소대와 대치하던 대형 자율병기와 동귀어진!
+()<Speaker></Speaker>||:단말기 화면에 79식이 스스로를 희생하기 직전까지의 시각 기록이 하나씩 출력되었고, 각 기록의 작은 썸네일이 나란히 늘어선 끝에 큰 화면을 가득 채우기에 이르렀다.
+NPC-Kalin(4)<Speaker>카리나</Speaker>||<SE1>Rope</SE1>:이런 기록이 지금 화면에 있는 거 말고도 잔뜩이란 말이야!
+()<Speaker></Speaker>||:카리나가 주먹을 움켜쥐었다.
+NPC-Kalin(8)<Speaker>카리나</Speaker>||:79식 너, 소체 파괴된 횟수가 지나치게 많아!+수복해서 복귀 가능한 수준의 부상이라면 그렇다 쳐, 하지만 수복이 아예 불가능할 정도로 완파된 횟수가 너무 많다고!+너처럼 무작정 뛰쳐나가고 보는 인형은 그리폰을 통틀어서도 손에 꼽아! 조금은 신중함을 기르는 게 어때!?
+79type(0)<Speaker>79식</Speaker>||:아... 그, 전장에서 힘든 싸움은 늘상 있는 일이잖아요...?+그, 그렇잖아요, 동료가 위험한데 어떻게 가만있을 수 있겠어요!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:79식...
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:그래 말 잘했다!+무엇보다! 네가 자꾸 나서서 희생하는 꼴을 보는 네 동료들의 심정은 생각해봤니? 지휘관님은 어떠실지 생각은 해봤어?!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:79식... 훌쩍...
+79type(0)<Speaker>79식</Speaker>||:......
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:동료를 포기하지 않고 구하는 거야 당연한 일이지, 하지만 지금 사정으론 이 이상 네가 그렇게 희생하는 걸 용인할 수 없어!
+79type(0)<Speaker>79식</Speaker>||:으... 응? 그게 무슨 뜻이죠?
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:그러니까 쉽게 말하자면, 네 소체――
+NPC-Kalin(3)<Speaker></Speaker><同时置暗>||<SE1>AVG_tele_connect</SE1>:삐이이!
+()<Speaker></Speaker>||:M99에게서 난 통신음이 카리나의 말을 끊었다.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:앗, 지휘관님이다.+죄송해요 카리나 씨...
+()<Speaker></Speaker>||:카리나는 입을 삐죽이며 어깨를 으쓱했다.
+()<Speaker></Speaker>||:통신 연결.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:예, 지휘관님!
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>79식은 좀 어떠니?</color>
+79type(0)<Speaker>79식</Speaker>||:여기 있어요! 방금 새 소체로 교체해서 컨디션 최상입니다!
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>좋아, 지금 긴급 임무가 있어.</color>+<color=#00CCFF>변경 지대에서 불법 무장 집단이 국경을 침범했단 보고야, 즉시 목표 구역으로 이동해서 놈들의 저지를 부탁할게.</color>
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:네! 즉시 소대 소집하겠습니다!
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:통신 종료.
+79type(0)<Speaker>79식</Speaker>||:새 전투 임무인가요, 대장?
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:네, 그런데...
+()<Speaker></Speaker>||:M99는 말꼬리를 흐리며 카리나를 힐끗 보았다.
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:어휴... 지휘관님 명령이니 어서 갔다 와.+대신, M99!
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:넵?!
+NPC-Kalin(4)<Speaker>카리나</Speaker>||:모두, 무사히, 임무를 완수하고 돌아올 것! 할 수 있지?
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:아, 알겠습니다!
+79type(0)<Speaker>79식</Speaker>||:걱정 마세요 카리나 씨!
+()||<黑屏1>:
+()<Speaker>79식</Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.7</CGDelay>:이번엔 명심할 테니 괜찮을 거예요!+반드시 멀쩡하게 복귀하겠습니다!
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><CGDelay>3</CGDelay><SE2>Gunfight</SE2>:
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><narrator>:<color=#00CCFF>시스템>></color> 소체 부팅 중...
+()||<黑屏1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BIN>22</BIN><睁眼>:
+79type(0)<Speaker>79식</Speaker>||<BGM>Campaion-34</BGM>:어라...?
+NPC-Kalin(12)<Speaker>카리나</Speaker>||:또, 깼니, 79식?
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:7, 79식...
+79type(0)<Speaker>79식</Speaker>||:대장...? 저 왜 여기 있어요...?+분명, 방금 전에...
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:에휴... 더 말하기 전에 이것부터 봐.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:카리나가 단말기로 연 79식의 따끈따끈한 새 시각 기록은, 79식이 카리나를 마주보고 당당하게 "멀쩡히 복귀하겠다"고 선언하는 것으로 시작했다.+그리고 빨리감기되어, 그녀가 진지 밖으로 뛰쳐나가 적에게 몸을 던져 달려드는 장면에서 멈췄다.
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:...79식.+우리 약속했잖아.
+79type(0)<Speaker>79식</Speaker>||:아... 으...
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:당시에 어떤 상황이었어?
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:보고할게요. 79식이 갑자기 달려나갔어요, 아무도 미처 반응을 못해서...+그, 그래도 79식 덕분에 적의 방어선을 돌파해서 물리칠 수 있었어요!
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:하지만 또 다시 마인드맵 복구를 해야 할 정도로 파괴됐네.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:아......
+79type(0)<Speaker>79식</Speaker>||:에, 에이 뭐 어때요! 이미 일어난 일이니 어쩔 수 없죠!+다음엔 진짜진짜 주의할 테니 걱정――
+79type(0)<Speaker>79식</Speaker><Shake>0.1</Shake>||<SE1>AVG_Spanner</SE1>:마세엑?!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_lifttable</SE1>:79식은 수복 캡슐에서 폴짝 뛰어나오려 했지만, 어째선지 균형을 잃고 그대로 바닥에 철푸덕 엎어졌다.
+M99(0)<Speaker>M99</Speaker><Position>0,150</Position>||:79식!
+()<Speaker></Speaker>||:성대하게도 넘어진 탓에 M99도 황급히 달려가 79식을 부축했다.
+79type(0)<Speaker>79식</Speaker>||<SE1>ClothingUp</SE1>:아야야야... 어라?+카, 카리나 씨? 저, 제 손발, 제 손발 왜 이래요?!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:매우 날렵해야 할 소체가 어찌 된 영문인지 한없이 무겁게 느껴졌다.+M99에게 부축받으면서도, 79식은 단순히 일어서는 것조차 힘겨웠다.
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:이게 내가 말한 "지금 사정" 때문이야.
+79type(0)<Speaker>79식</Speaker>||:예...?
+()<Speaker>지휘관</Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:내가 직접 설명할게.
+79type(0)<Speaker>79식</Speaker>||:지, 지휘관님?!
+()<Speaker></Speaker>||:지휘관을 본 79식은 급히 경례했지만, 소체가 말을 안 듣기에 엉거주춤 우스꽝스러운 자세가 되어버렸다.+지휘관은 한숨을 푹 쉬고는 제어 콘솔 쪽 의자를 하나 끌어와, 79식에게 앉도록 했다.
+79type(0)<Speaker>79식</Speaker>||:저어... 제 소체는 대체...?
+79type(0)<Speaker>지휘관</Speaker><同时置暗>||:카리나가 내게 최근 기록을 보여 줬어. 79식 너, 전투가 있는 임무 수행 중 파괴당한 횟수가 다른 애들보다 훨씬 많더라.+소체 파손도도 매번 아주 심각했고, 본체가 이 꼴이니 네 더미는 말할 것도 없지.+물론 그게 다 네가 동료를 지키기 위해 나선 거란 사실은 모두가 알지만, 이런 식으로 심하게 소모해서는...+그러니까, 현재 우리가 보유한 네 예비 소체까지 전부 써 버린 거야.
+79type(0)<Speaker>79식</Speaker>||:저저저, 전부 다요?!+그럴 리가요!
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:이거 봐봐.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:카리나가 태블릿을 몇 번 두드려, 메인 콘솔의 대형 스크린에 벌집 같은 보안 카메라 화면을 띄웠다.+그중 수많은 인형들의 소체가 보관된 창고에, 79식의 칸만 텅 비어 있었다.
+79type(0)<Speaker>79식</Speaker>||:맙소사...+그... 그럼 저의 지금 이 소체는...?
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:예전에 전자전으로 내부 모듈이 여럿 타 버린, 아아아주 낡고 망가진 소체야.+당장 폐기해도 이상하지 않을 상태지만 별 수 있니, 지금 네가 쓸 수 있는 소체는 그거뿐인걸.
+79type(0)<Speaker>79식</Speaker>||:윽...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_Spanner</SE1>:할말을 잃은 79식을 고개를 푹 숙이고 자신의 몸을 바라봤다. 그 말대로, 아주 사소한 동작마저도 소체 내부의 부품이 삐그덕거리는 소리가 똑똑히 들렸다.
+79type(0)<Speaker>79식</Speaker>||:설마... 저, 앞으로 이 소체로밖에 있을 수 없나요...?
+NPC-Kalin(3)<Speaker>카리나</Speaker>||:네가 너 자신을 소중히하는 법을 배우기 전까지는 그렇지 뭐.
+79type(0)<Speaker>79식</Speaker><Shake>||:그, 그럴 수가...!
+79type(0)<Speaker>지휘관</Speaker><同时置暗>||:너무 걱정은 마렴.+사실, 소체 재고가 슬슬 위험하던 때에 미리 너의 마인드맵 업그레이드를 예약하고 새 소체도 발주했어.+다만 신규 소체의 조정이 아직 끝나지 않았어, 네가 이렇게까지 몸을 막 쓸 줄은 예상밖이어서 말이지...+새 소체가 곧 마련되는데 원래 소체를 다시 구입할 수도 없는 노릇이니까, 이번 달만 그걸로 참으렴. 새 소체가 도착한 다음에 다시 이야기하자.
+79type(0)<Speaker>79식</Speaker>||:한 달씩이나 기다려야 한다고요?!
+79type(0)<Speaker>지휘관</Speaker><同时置暗>||:그리고 현상태를 고려해서, 그동안은 너에게 업무를 배정하지 않겠어.
+79type(0)<Speaker>79식</Speaker>||:엑... 그, 그럼 전투 작전 같은 건...
+()<Speaker>지휘관</Speaker>||:그야 당연히...
+()||<黑屏1>:
+()<Speaker>지휘관</Speaker>||<黑屏2><BIN>9</BIN>:일절 금지다!
+()||<黑点1>:
