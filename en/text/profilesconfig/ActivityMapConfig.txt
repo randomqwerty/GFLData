@@ -63,6 +63,7 @@ MissionSelectionTex|missionselect_Reversible_RE|2|-55
 OPSSpecialScene|-2|-2,-3,-4
 OPSActivityScene|-16|-16,-17,-18
 OPSSpecialScene|-19|-19,-20,-21,-22
+OPSPanelScene|-23|-23
 OPSActivityScene|-24|-24,-25,-26,-28
 OPSPanelScene|-31|-31
 OPSPanelScene|-32|-32
@@ -121,6 +122,7 @@ OPSLeftBGNormalActivity|04|Sing_Left
 OPSLeftBGNormalActivity|-2|Sing_Left
 OPSLeftBGNormalActivity|-16|Sing_Left
 OPSLeftBGNormalActivity|-19|GloryDay_Left
+OPSLeftBGNormalActivity|-23|Left
 OPSLeftBGNormalActivity|-24|ContinuumTurbulence_Left
 OPSLeftBGNormalActivity|-31|Isomer_Left
 OPSLeftBGNormalActivity|-32|VA11_Left
@@ -190,6 +192,7 @@ OPSNoticeNormalActivity|-55|Reversible_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
+OPSTimeNormalActivity|-23|Reversible_Time
 //OPSTimeNormalActivity|-31|Isomer_Time
 //OPSTimeNormalActivity|-32|VA11_Time
 //OPSTimeNormalActivity|-33|Reversible_Time
@@ -275,6 +278,7 @@ OPSReastNormalActivity|-26|Sing_Reset
 //OPSProgress|Isomer_Progress
 OPSProgressNormalActivity|04|Sing_Progress
 OPSProgressNormalActivity|-16|Sing_Progress
+//OPSProgressNormalActivity|-23|Reversible_Progress
 OPSProgressNormalActivity|-24|Reversible_Progress
 OPSProgressNormalActivity|-31|Isomer_Progress
 OPSProgressNormalActivity|-32|VA11_Progress
@@ -598,7 +602,11 @@ OPSCampaignDetail|-21_3|472,-472|LightBossB06
 OPSCampaignDetail|-22_1|-182,-299|unknown
 OPSCampaignDetail|-22_2|629,-44|LightBossB06
 OPSCampaignDetail|-22_3|472,-472|FAIL_boss
-OPSCampaignDetail|-23_1|100,-200|SangvisFerri
+
+//坠入兔洞+常驻 修复版
+OPSCampaignDetail|-23_1|0,0|SangvisFerri
+//OPSCampaignDetail|-23_1|100,-200|SangvisFerri
+
 OPSCampaignDetail|-24_1|100,-200|Melee
 OPSCampaignDetail|-24_2|100,-200|Ripper
 OPSCampaignDetail|-24_3|100,-200|Melee
@@ -651,7 +659,7 @@ OPSCampaignDetail|-26_17|100,-200|Strelet
 OPSCampaignDetail|-26_18|100,-200|Cyclops
 //OPSCampaignDetail|-27_1|100,-200|NytoDouble
 OPSCampaignDetail|-28_1|100,-200|Melee
-OPSCampaignDetail|-29_1|100,-200|Dive_Re
+//OPSCampaignDetail|-29_1|100,-200|Dive_Re
 OPSCampaignDetail|-30_1|-200,-20|LightBossB06
 OPSCampaignDetail|-30_2|550,-80|Intruder
 OPSCampaignDetail|-30_3|-200,-420|LightBossB06
@@ -739,6 +747,8 @@ OPSCampaignDetail|-31_80|0,0|isomer_rabbithole_title
 OPSCampaignDetail|-31_81|0,0|IsomerStory01
 OPSCampaignDetail|-31_82|0,0|Beak_M16
 OPSCampaignDetail|-31_83|0,0|Beak_M16
+
+//瓦尔哈拉联动关卡头像配置
 OPSCampaignDetail|-32_1|0,0|BossArchitect
 OPSCampaignDetail|-32_2|0,0|Strelet
 OPSCampaignDetail|-32_3|0,0|Strelet
@@ -1603,8 +1613,6 @@ OPSCampaignDetail|-54_113|0,0|Dr_Eugene
 OPSCampaignDetail|-54_114|0,0|Railway_figure
 OPSCampaignDetail|-54_115|0,0|Railway_figure
 OPSCampaignDetail|-54_116|0,0|Railway_figure
-
-OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
 
 //终焉花海复刻配置
 OPSCampaignDetail|-55_1|0,0|Gustaf_2
