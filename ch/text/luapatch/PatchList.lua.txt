@@ -342,7 +342,10 @@ patch3040=
 "3040/AdjustAdjutantScaleController",
 "3040/ExToggleChoose",
 "3040/SkillInstance",
-"3040/CommonVideoPlayer",									
+"3040/CommonVideoPlayer",
+"3040/Request",
+"3040/DormGiveDressPerformanceController",
+"3040/OPSEventPrizeController",												
 }
 -- va11
 print("load Va11");

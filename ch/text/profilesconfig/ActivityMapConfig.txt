@@ -30,7 +30,7 @@ MissionSelectionTex|missionselect_Halloween2020|2|-42
 //2020冬活配置：
 //MissionSelectionTex|missionselect_MirrorStage|2|-44
 //2021飓风营救复刻配置0：
-//MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2|-45
+MissionSelectionTex|missionselect_ContinuumTurbulenceRemake|2|-45
 //2020泳装复刻配置：
 //MissionSelectionTex|missionSelect_Bikini_2020|1|-40
 //2021泳装复刻配置：
@@ -46,7 +46,7 @@ MissionSelectionTex|missionselect_Xmas2021|2|-49
 //2022白情活动配置：
 MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //混沌落幕+配置（秃洞复刻）：
-//MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
+MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //2022烟花祭配置：
 //MissionSelectionTex|missionselect_Bikini_2022|1|-52
 //2022夏活配置：
@@ -71,6 +71,8 @@ MissionSelectionTex|missionselect_2023Se|1|-62
 MissionSelectionTex|missionselect_DualRandomness_RE|1|-63
 //攻壳联动
 MissionSelectionTex|missionselect_2024Ghost|1|-64
+//驱雾行动+
+MissionSelectionTex|missionselect_MirrorStage_RE|1|-65
 //错构之泉
 MissionSelectionTex|missionselect_202404Activity|1|-68
 
@@ -116,6 +118,7 @@ OPSPanelScene|-61|-61
 OPSPanelScene|-62|-62
 OPSPanelScene|-63|-63
 OPSPanelScene|-64|-64
+OPSPanelScene|-65|-65
 OPSPanelScene|-68|-68
 
 //视频首次进入-test数据
@@ -183,6 +186,7 @@ OPSLeftBGNormalActivity|-61|2023RougeSummer_Left
 OPSLeftBGNormalActivity|-62|2023Se_Left
 OPSLeftBGNormalActivity|-63|Activity_2020S_Left
 OPSLeftBGNormalActivity|-64|2024Ghost_Logo
+OPSLeftBGNormalActivity|-65|MirrorStage_Left
 OPSLeftBGNormalActivity|-68|202404Activity_Left
 
 //系统公告-预制物(公用)
@@ -255,6 +259,7 @@ OPSTimeNormalActivity|-61|Reversible_Time
 OPSTimeNormalActivity|-62|Reversible_Time
 OPSTimeNormalActivity|-63|Reversible_Time
 OPSTimeNormalActivity|-64|2024Ghost_Time
+OPSTimeNormalActivity|-65|Reversible_Time
 OPSTimeNormalActivity|-68|Reversible_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -301,6 +306,7 @@ OPSGoto|2023Se_GotoMall|0|-62
 //秘密窝点复刻配置_积分界面跳转
 OPSGoto|Continuum_PointExchange|2
 OPSGoto|2024Ghost_GotoMall|0|-64
+OPSGoto|MirrorStage_PointExchange|2|-65
 OPSGoto|2023RougeSummer_GotoMall|0|-68
 
 //关卡面板动态位置
@@ -556,6 +562,7 @@ OPSShowItemDeployment|531|2023Se_Buff_Theater|11461,11464,11467,11470
 OPSShowItemDeployment|532|2023Se_Buff_Arms|11462,11465,11468,11471
 OPSShowItemDeployment|533|2023Se_Buff_PA|11463,11466,11469,11472
 OPSShowItemDeployment|531,532,533|2023Se_All|11473,11474
+OPSShowItemDeployment|542|MirrorStageScore_DeploymentItems|11549,11549
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
