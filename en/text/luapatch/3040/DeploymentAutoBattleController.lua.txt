@@ -50,6 +50,23 @@ local GetID = function(self)
 	end
 	return self.teamId;
 end
+
+function CheckPlay()
+	CS.DeploymentAutoBattleController.CheckSkipGuideOrAVG();
+end
+
+local ExecuteCurrentStepNext = function()
+	if CS.ConnectionController.existsRequest then
+		CS.DeploymentController.AddAction(CheckPlay, 0.5);
+		return;
+	end
+	if CS.ConnectionController.currentExistsConnectionPrint then
+		CS.DeploymentController.AddAction(CheckPlay, 0.5);
+		return;
+	end
+	CS.DeploymentAutoBattleController.ExecuteCurrentStepNext();
+end
 util.hotfix_ex(CS.DeploymentAutoBattleController,'FindSupplySpotMainTeamAround',FindSupplySpotMainTeamAround)
 util.hotfix_ex(CS.DeploymentAutoBattleController,'ShouldAssitTeamStop',ShouldAssitTeamStop)
+util.hotfix_ex(CS.DeploymentAutoBattleController,'ExecuteCurrentStepNext',ExecuteCurrentStepNext)
 util.hotfix_ex(CS.DeploymentAutoMoveStep,'GetID',GetID)
