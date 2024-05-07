@@ -348,7 +348,12 @@ patch3040=
 "3040/DormGiveDressPerformanceController",
 "3040/OPSEventPrizeController",
 "3040/ReinforcementController",
-"3040/PicControlEffect",													
+"3040/PicControlEffect",
+"3040/FurniturePerformanceController",														
+}
+patch3050=
+{
+"3050/KalinaDetailController",													
 }
 -- va11
 print("load Va11");
