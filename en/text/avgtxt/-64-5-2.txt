@@ -2,62 +2,62 @@
 ()<Speaker></Speaker>||<BIN>9</BIN><bg_move>%%pivot_x=0.65%%pivot_y=0.42%%scale=1.5%%duration=0%%</bg_move>:
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2.5%%delay=0.1%%range=15</controll_shake>:
 ()<Speaker></Speaker>||<CGDelay>0.8</CGDelay><BGM>GF_EV9_Intermission</BGM><bg_move>%%pivot_x=0.4%%pivot_y=0.42%%scale=1.5%%duration=1.6%%</bg_move><SE1>AVG_brake</SE1><Night><黑屏2><BIN>472</BIN>:
-()<Speaker></Speaker>||:……2Z64区，未知区域。+枪声已经消散在了夜色中，指挥官的四周只剩下了颓圮的荒废建筑群。
+()<Speaker></Speaker>||:...In an unknown area in Sector 2Z64.+The sound of gunshots has faded into the night. The Commander finds themself in a dilapidated building complex.
 ()||<SE1>AVG_20Winter_Door_Car_Open</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=1.5%%</bg_move>:
-()<Speaker>指挥官</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:这是哪里？
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:米诺斯的迷宫。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:不知道里面究竟藏着的是宝藏还是可怕的怪物呢……
-()<Speaker>指挥官</Speaker>||:……
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:巴特。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:收到。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:只一个眼神，巴特就默契地先行前去侦查。+指挥官环视着周遭，荒凉就像潮水褪去后的粗砂表面，将那些浮华樱花的幻象彻底撕开。
-()<Speaker>指挥官</Speaker>||:为什么要带我来这里？
-NPC-Motoko(1)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:指挥官，你也许是个优秀的指挥者，但你一定不是个独裁者。+你的心里还残存着很多善良。
-NPC-Motoko(1)<Speaker>指挥官</Speaker><Position>-40,130</Position><同时置暗>||:……
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:你知道独裁者如何让囚犯乖乖听话吗？
-NPC-Motoko(0)<Speaker>指挥官</Speaker><Position>-40,130</Position><同时置暗>||:不知道。
-NPC-Motoko(1)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:让他们以为自己是自由的。
-NPC-Motoko(1)<Speaker>指挥官</Speaker><Position>-40,130</Position><同时置暗>||:……所以，我和人形们都是这里的囚徒。
-NPC-Motoko(1)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:是的，而你们的“自由”，由别人为你们买单。
-NPC-Motoko(1)<Speaker>指挥官</Speaker><Position>-40,130</Position><同时置暗>||:谁？
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:一旦知晓了“自由”背后的真相，或许就再也无法回到那种“自由”之中了。
-NPC-Motoko(0)<Speaker>指挥官</Speaker><Position>-40,130</Position><同时置暗>||:那样的“自由”根本就不是真正的自由，不过是另一种奴役罢了。
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:好，那就走吧。
+()<Speaker>Commander</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:Where are we?
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:The Labyrinth of Minos.
+NPC-Batou(2)<Speaker>Batou</Speaker>||:Who knows what treasure or monster is hidden in there...
+()<Speaker>Commander</Speaker>||:...
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Batou.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:Gotcha.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:With just a look from the Major, Batou moves ahead to investigate.+The Commander takes in their surroundings. The desolate sight is like coarse sand revealed by the ebbing tide. The illusion of those blooming cherry blossoms is utterly smashed.
+()<Speaker>Commander</Speaker>||:Why have you brought me here?
+NPC-Motoko(1)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:You may be an excellent commander, but you are certainly no dictator.+You are far too kind and decent for that.
+NPC-Motoko(1)<Speaker>Commander</Speaker><Position>-40,130</Position><同时置暗>||:...
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Do you know how dictators keep their captives in line?
+NPC-Motoko(0)<Speaker>Commander</Speaker><Position>-40,130</Position><同时置暗>||:No.
+NPC-Motoko(1)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:They let them believe they are free.
+NPC-Motoko(1)<Speaker>Commander</Speaker><Position>-40,130</Position><同时置暗>||:...So the Dolls and I are all captives of this place.
+NPC-Motoko(1)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Yes. Your so-called "freedom" comes with strings attached.
+NPC-Motoko(1)<Speaker>Commander</Speaker><Position>-40,130</Position><同时置暗>||:What strings?
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Once you learn the truth behind this "freedom", there may be no going back.
+NPC-Motoko(0)<Speaker>Commander</Speaker><Position>-40,130</Position><同时置暗>||:Then this "freedom" is no freedom at all, but simply a different kind of enslavement.
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Indeed. Now let's go.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1><BGM>BGM_Empty</BGM>:草薙素子示意指挥官跟上，就紧随巴特的脚步走入其中一幢颓圮的建筑。
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1><BGM>BGM_Empty</BGM>:Kusanagi gestures for the Commander to come along. They enter one of the run-down buildings following Batou's footsteps.
 ()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><关闭蒙版>:
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><黑点2><BIN>327</BIN><SE2>Gunfight</SE2>:……2Z64区，未知区域。
-()<Speaker></Speaker>||:枪声还隐约回荡在逼仄的走廊间，确认安全后，指挥官放下了枪。
-()<Speaker>指挥官</Speaker>||<SE1>Select</SE1><BGM>BGM_stage12</BGM>:……安全。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:安全。
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:他们触发的警报截停了吗？
-NPC-Batou(0)<Speaker>巴特</Speaker>||:嗯，古老的警报系统，很好操作。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:被击败的无面人逐渐消解为无效数据，从灰暗的水泥地上不见了。
-()<Speaker>指挥官</Speaker>||:这里的警卫力量并不难应对，真的是我们要找的地方吗？
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:用自己的眼睛去看。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:岛村孝他们应该已经察觉到这边的异动了。+等他们赶来，可没有这么轻松了。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:急促的脚步声在寂静的午夜回廊间响起。
-()<Speaker>指挥官</Speaker>||:我们在找什么？
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:被遗失的世界的真相，藏在地毯下面的那把钥匙。
-NPC-Batou(0)<Speaker>巴特</Speaker>||<SE1>AVG_tele_connect</SE1>:少校，讯号的反应在这边。
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||:不要分散，一起出发。
-()<Speaker>指挥官</Speaker>||:好。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><黑点2><BIN>327</BIN><SE2>Gunfight</SE2>:...In an unknown area in Sector 2Z64.
+()<Speaker></Speaker>||:Gunshots are still echoing faintly through the narrow corridor. After making sure it is safe, the Commander puts down their gun.
+()<Speaker>Commander</Speaker>||<SE1>Select</SE1><BGM>BGM_stage12</BGM>:...All clear.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:Clear.
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Has the alarm been disabled?
+NPC-Batou(0)<Speaker>Batou</Speaker>||:Yep, it's an archaic alarm system. Very easy to work with.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:The defeated faceless people slowly disintegrate into void data and disappear from the gray concrete floor.
+()<Speaker>Commander</Speaker>||:The defenses here aren't that difficult to deal with. Is this really the place we're looking for?
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:See for yourself.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:Shimamura and the others must've noticed the commotion over here.+It won't be so easy when they get here.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Their rapid footsteps echo through the corridor, breaking the late-night silence.
+()<Speaker>Commander</Speaker>||:What are we after?
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:The forgotten truth about this world. The key hidden beneath the rug.
+NPC-Batou(0)<Speaker>Batou</Speaker>||<SE1>AVG_tele_connect</SE1>:Major, I'm reading a signal this way.
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||:Stay together. Let's go.
+()<Speaker>Commander</Speaker>||:Right.
 ()||<黑点1><CGDelay>0.5</CGDelay><SE1>AVG_Team_Running</SE1>:
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><黑点2>:标记着囚室号码的数字牌挨个从指挥官的眼角闪过，但每一间囚室都是空的。+在疾跑中，走廊很快穷尽，只剩下尽头的最后一间——
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><黑点2>:The number plate of each holding cell flashes past the Commander's eyes, but the holding cells are all empty.+The Commander dashes down the corridor, until there is one last cell at the end...
 ()<Speaker></Speaker>||:
-NPC-Batou(0)<Speaker>巴特</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:少校，找到目标了，但她的讯号不稳，有消散的可能。
-NPC-Motoko(0)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||<SE1>AVG_20Winter_Prison_Door</SE1>:立刻执行骇入。
-NPC-Batou(0)<Speaker>巴特</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:正在进行骇入通道准备。
-()<Speaker>指挥官</Speaker>||:……
+NPC-Batou(0)<Speaker>Batou</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Major, I found the target, but her signal is unstable. I may lose her any second.
+NPC-Motoko(0)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||<SE1>AVG_20Winter_Prison_Door</SE1>:Perform a hack immediately.
+NPC-Batou(0)<Speaker>Batou</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Setting up a connection now.
+()<Speaker>Commander</Speaker>||:...
 ()<Speaker></Speaker>||<BIN>327</BIN><SE1>AVG_footsteps_woodfloor</SE1><BIN>327</BIN><bg_move>%%pivot_x=0.6%%pivot_y=0.6%%scale=1.5%%duration=1.5%%</bg_move>:
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:指挥官停在了尽头的囚室，狭窄的房间中靠墙坐着一个熟悉的女性。
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:长发垂在她的脸侧，让她看上去就好像只是在午憩一般。
-()<Speaker>指挥官</Speaker>||<BGM>BGM_Empty</BGM>:博斯……
-NPC-Batou(1)<Speaker>巴特</Speaker>||<SE1>AVG_whitenoise</SE1>:少校，讯号在——
-NPC-Motoko(2)<Speaker>草薙素子</Speaker><Position>-40,130</Position>||<SE1>ClothingUp</SE1>:没时间了，我直接链接她！
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Creep</SE1>:少校将博斯的数据线链接在了脖颈后的接口。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=3</controll_shake><SE1>AVG_XXS_kick</SE1>:在指挥官不安的注视中，博斯皱了皱眉，缓缓倒在了地板上。
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:The Commander stops outside the holding cell at the end of the corridor. Inside the cramped cell, a familiar girl is sitting against the wall.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:Her long hair hangs over her face. She looks as if she is just taking an afternoon nap.
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:Boys...
+NPC-Batou(1)<Speaker>Batou</Speaker>||<SE1>AVG_whitenoise</SE1>:Major, the signal is—
+NPC-Motoko(2)<Speaker>Motoko Kusanagi</Speaker><Position>-40,130</Position>||<SE1>ClothingUp</SE1>:There's no time! I'm going in directly!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Creep</SE1>:The Major plugs Boys' data cable into the port behind her neck.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=3</controll_shake><SE1>AVG_XXS_kick</SE1>:Under the Commander's agitated gaze, Boys frowns, then slowly slumps to the floor.
 ()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_2023Slow_Heart_Monitor3</SE1>:嘀——
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_2023Slow_Heart_telescreen3</SE1>:Beep...
+()||<黑点1>:

@@ -1,61 +1,61 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:……2Z64区，胜利大厦，390号的房间。
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:...Apartment 390, Victory Mansions, Sector 2Z64.
 ()||<黑屏1><SE1>AVG_Creep</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>562</BIN>:洁白的窗帘缓缓拉开，将清晨温暖的阳光让进屋内。
+()<Speaker></Speaker>||<黑点2><BIN>562</BIN>:As the clean, white blinds are slowly drawn up, the warm sunshine of the early morning spills into the apartment.
 ()||<白屏1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><BIN>470</BIN>:390号睁开睡意朦胧的双眼，走下柔软的床铺，开始洗漱。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早安！
-()<Speaker>电屏</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>早安，390号。</color>
-()<Speaker></Speaker>||:和墙上的电屏打完招呼后，390号精神饱满地走出房间，朝公司的方向前进。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><BIN>470</BIN>:No. 390 opens her eyes groggily. She gets out of her soft and comfortable bed and cleans herself up.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Good morning!
+()<Speaker>电屏</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Good morning, No. 390.</color>
+()<Speaker></Speaker>||:After exchanging greetings with the telescreen on the wall, No. 390 leaves her apartment jovially and sets off for her office.
 ()||<黑点1><SE1>AVG_Door_Open_Close</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_AMB_Street</SE1><黑点2><BIN>418</BIN><BGM>BGM_SAC2045_Utopia</BGM><SE1>AVG_wind_grass</SE1>:像过去的每一天一样，今天的2Z64区也是万里无云的晴天。+阳光正好，柔和的风轻轻吹起发梢。+390号微微皱了皱鼻子，捕捉到了空气中淡淡的香气。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早上好，365号！
-NPC-SCR(0)<Speaker>365号</Speaker><Position>0,50</Position>||:早上好，390号。
-()<Speaker></Speaker>||:365号和往日一样精心照料着枝叶繁盛的樱桃树。
-Webley(0)<Speaker>294号</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:贵安，390号。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早安，294号。
-()<Speaker></Speaker>||:294号也如往日一样身着熨烫平整的西装站在店门口招呼行人。
-Webley(0)<Speaker>294号</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:今天店里到了新款的西装，要来试试吗？
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:谢谢你，不过——
-pa15(0)<Speaker>260号</Speaker><Position>-80,100</Position><Shake>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3>:<size=50>走开啊！不要挡我的路！</size>
+()<Speaker></Speaker>||<SE1>AVG_AMB_Street</SE1><黑点2><BIN>418</BIN><BGM>BGM_SAC2045_Utopia</BGM><SE1>AVG_wind_grass</SE1>:It is as sunny as always in Sector 2Z64.+There is just the right amount of sunshine, and a gentle breeze ruffles the leaves in the trees.+No. 390's nostrils flare as she inhales the faint fragrance in the air.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Good morning, No. 365!
+NPC-SCR(0)<Speaker>No. 365</Speaker><Position>0,50</Position>||:Good morning, No. 390.
+()<Speaker></Speaker>||:As always, No. 365 is painstakingly caring for a lush cherry tree.
+Webley(0)<Speaker>No. 294</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:Good morning to you, No. 390.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Good morning, No. 294.
+()<Speaker></Speaker>||:No. 294 also greets pedestrians at the shop entrance, wearing her immaculately ironed suit, as she always does.
+Webley(0)<Speaker>No. 294</Speaker><Scale>0.84</Scale><Position>0,95</Position>||:Some new styles have arrived at the shop today. Would you like to try them on?
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Thank you, but—
+pa15(0)<Speaker>No. 260</Speaker><Position>-80,100</Position><Shake>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3>:<size=50>Out of my way!</size>
 ()||<黑点1><SE1>AVG_engine_speedup</SE1><SE1>AVG_brake</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:
-()<Speaker></Speaker>||<黑点2><bg_move>%%pivot_x=0.5%%pivot_y=0.45%%scale=1.6%%duration=1%%</bg_move>:一辆汽车狂啸着从390号身边险险擦过，390号却像是早已预料到一般，轻松地后退一步躲开了。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:早安，260号。
-MP448(0)<Speaker>232号</Speaker>||:<color=#00CCFF><size=50>260号，请立刻停止超速驾驶行为，并配合仁爱部的调查！</size></color>+<color=#00CCFF><size=50>你已经违反2Z64区道路交通安全法的相关规定，请立刻——</size></color>
-pa15(0)<Speaker>260号</Speaker><Position>-80,100</Position>||:才不要！略略略！
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:印着仁爱部标志的车辆呼啸着紧追不舍，从390号的身边驶过。
-()<Speaker></Speaker>||:隔壁仁爱部也和往日一样，兢兢业业地忙碌在维持2Z64区秩序的第一线。
+()<Speaker></Speaker>||<黑点2><bg_move>%%pivot_x=0.5%%pivot_y=0.45%%scale=1.6%%duration=1%%</bg_move>:A car hurtles past No. 390, barely missing her, but she takes a step back and dodges it casually as if she had seen it coming.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Good morning, No. 260.
+MP448(0)<Speaker>No. 232</Speaker>||:<color=#00CCFF><size=50>No. 260, please cease your dangerous driving above the speed limit and cooperate with the Ministry of Love's investigation!</size></color>+<color=#00CCFF><size=50>This is a violation of the Road and Traffic Safety Regulations of Sector 2Z64! Please immediately—</size></color>
+pa15(0)<Speaker>No. 260</Speaker><Position>-80,100</Position>||:Not gonna! Blegh!
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:Another car bearing the Ministry of Love's logo rushes past No. 390 in hot pursuit.
+()<Speaker></Speaker>||:It looks like the Ministry of Love is also diligently maintaining order in Sector 2Z64, just as always.
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>673</BIN><黑点2><SE1>Stop_AVG_loop</SE1>:……2Z64区，真理部，办公室一区。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||<SE1>AVG_door_elecport</SE1>:各位，早上好。
-JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:早安，390号。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:早安，234号。+我已经将编号21093202的事件整理完毕，按照流程接下来就移交给你归档。
-NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:是215号在2Z64区公民论坛上发表污蔑老大哥信息的帖子那个事件吗？
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:是的，感谢342号的检举揭发和全力协助，否则我也无法这么快就能完成。
-NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:明白了，接下来就交给我吧。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:辛苦了，那么我这就去处理——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:234号做了个暂停的手势。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>||:怎么了？
-NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:水金小姐交代暂停你接下来的一切工作。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:为什么！
-NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>234号</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:她说，有更重要的任务要交给你，让你来了就去找她。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>||:……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:390号不可置信地瞪大了双眼，并不是源于被暂停任务的不甘，而是来自从未有过的改变——+“更重要的任务”。+这个从未出现在过去的一成不变的每一天的词汇，像迷途的鸟儿一样撞在了她心智中的玻璃上。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:是！
+()<Speaker></Speaker>||<BIN>673</BIN><黑点2><SE1>Stop_AVG_loop</SE1>:...Office Zone 1, Ministry of Truth, Sector 2Z64.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||<SE1>AVG_door_elecport</SE1>:Good morning, everyone.
+JS9mm(0)<Speaker>No. 234</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:Good morning, No. 390.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:Good morning, No. 234.+I have finished documenting Case No. 21093202. I will now hand the file over to you for archiving.
+NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>No. 234</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:Are you referring to the case where No. 215 published blasphemous posts concerning Big Brother on public forums?
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:Yes. I was able to wrap up the case quickly thanks to No. 342's report and full cooperation.
+NPC-HK433(1)<Position>0,130</Position>;JS9mm(0)<Speaker>No. 234</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:I understand. Leave the rest to me.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Thank you. Then I'll move onto—
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:No. 234 suddenly gestures for No. 390 to stop.
+NPC-HK433(4)<Speaker>No. 390</Speaker><Position>0,130</Position>||:What is it?
+NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>No. 234</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:Miss Mizukane has given the order to put your subsequent duties on hold.
+NPC-HK433(4)<Speaker>No. 390</Speaker><Position>0,130</Position>;JS9mm(0)<Position>-70,60</Position>||:Why?!
+NPC-HK433(4)<Position>0,130</Position>;JS9mm(0)<Speaker>No. 234</Speaker><Scale>0.82</Scale><Position>-70,60</Position>||:She says there is a more important mission for you and to send you over once you arrive.
+NPC-HK433(4)<Speaker>No. 390</Speaker><Position>0,130</Position>||:...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:No. 390's eyes widen in disbelief, not because she is unhappy about having her work put on hold but because this is an unprecedented change.+"A more important mission."+This utterly unfamiliar phrase, so out of place in her immutable, everyday vocabulary, hits her neural cloud like a disoriented bird crashing into a glass window. 
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Understood!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_21Winter_Subway</SE1><BIN>532</BIN>:……2Z64区，地铁站。+390号按照水金铃鹿的指示，早早守候在了地铁站出口。+“更重要的任务”将从这里出现，传到她的手中。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||<BGM>GF_EV9_Story</BGM>:……加油。
-()<Speaker></Speaker>||<SE1>AVG_Eurocity_Stop</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:嗡——在390号小声的呢喃中，地铁进站了。+390号紧了紧身子，目光穿过人群，专注地寻找着目标——+水金小姐正领着一个人走来。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:您好，我是390号，将负责安排您今天的参观旅途。+稍后我会将安排发送给您，有任何疑问您也可以告诉我，那么请问您的编号是？
-NPC-Suzuka(0)<Speaker>水金铃鹿</Speaker><Position>-160,100</Position>||:这位是还未进行电子脑改造的人类，代号“指挥官”。
-NPC-Suzuka(0)<Speaker>水金铃鹿</Speaker><Position>-160,100</Position>||<SE1>AVG_keyboardtype_sci</SE1>:指挥官的模拟编号已经传输给你了，接下来就交给你了。
-NPC-HK433(4)<Speaker>390号</Speaker><Position>0,130</Position>||:……人类？！是，请放心交给我吧！
-()<Speaker></Speaker>||:水金小姐如鱼得水地消失在了熙熙攘攘的人群中。+390号站在原地，回味着一向面无表情的水金小姐，刚刚似乎在擦肩而过的瞬间露出了嘲讽的微笑？
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:您好，指挥官，请跟我来吧！
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:从下车开始，访客都是一副疲惫的模样，只是安静地盯着地面，甚至连好奇地张望也没有。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:但在水金小姐离开后，访客却突然抬头，锐利的目光恨不能扎在390号的额头上。
-NPC-HK433(0)<Speaker>390号</Speaker><Position>0,130</Position>||:请问……有什么疑问吗？
-()<Speaker>指挥官</Speaker>||:……+不，没什么。
-NPC-HK433(1)<Speaker>390号</Speaker><Position>0,130</Position>||:那么，这边请。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_21Winter_Subway</SE1><BIN>532</BIN>:...At a metro station in Sector 2Z64.+Following Suzuka Mizukane's instructions, No. 390 arrives early at the station exit.+This is where she will be assigned "a more important mission".
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||<BGM>GF_EV9_Story</BGM>:...You can do it.
+()<Speaker></Speaker>||<SE1>AVG_Eurocity_Stop</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:Whirrr... A train pulls into the station as No. 390 mutters an encouragement to herself.+She tenses up and scans the crowd, eagerly searching for her target—+Miss Mizukane is walking over with someone in tow.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Hello, I am No. 390. I will be in charge of your visit today.+I will send you our itinerary later. Feel free to ask me any questions. May I  ask what your number is?
+NPC-Suzuka(0)<Speaker>Suzuka Mizukane</Speaker><Position>-160,100</Position>||:This is a human with a pending cyberbrain conversion; their designation is "Commander".
+NPC-Suzuka(0)<Speaker>Suzuka Mizukane</Speaker><Position>-160,100</Position>||<SE1>AVG_keyboardtype_sci</SE1>:The Commander's simulation number is now with you. Please handle the rest.
+NPC-HK433(4)<Speaker>No. 390</Speaker><Position>0,130</Position>||:...A human?! Right, leave it to me!
+()<Speaker></Speaker>||:Miss Mizukane soon disappears in the bustling crowd.+No. 390 remains rooted to the same spot as she replays her exchange with the expressionless Miss Mizukane. Did she imagine her sneer when she walked past?
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Hello, Commander. Please come with me!
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:Since they alighted from the train, the listless-looking visitor has been staring quietly at their feet without even a curious peek around.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:But the moment Miss Mizukane leaves, they abruptly look up and direct the full force of their gaze at No. 390.
+NPC-HK433(0)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Um... Do you have any questions?
+()<Speaker>Commander</Speaker>||:...+No, not really.
+NPC-HK433(1)<Speaker>No. 390</Speaker><Position>0,130</Position>||:Then... this way, please.
+()||<黑点1>:

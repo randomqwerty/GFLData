@@ -58,6 +58,8 @@ MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //MissionSelectionTex|missionselect_Slowshock|1|-58
 //终焉花海复刻配置：
 MissionSelectionTex|missionselect_Reversible_RE|2|-55
+//攻壳联动
+MissionSelectionTex|missionselect_2024Ghost|1|-64
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -95,6 +97,11 @@ OPSPanelScene|-56|-56
 OPSPanelScene|-57|-57
 OPSPanelScene|-58|-58
 OPSPanelScene|-59|-59
+OPSPanelScene|-60|-60
+OPSPanelScene|-61|-61
+OPSPanelScene|-62|-62
+OPSPanelScene|-63|-63
+OPSPanelScene|-64|-64
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -114,6 +121,7 @@ OPSPanelScene|-59|-59
 //OPSReturn|2022SummerReturn|-54
 OPSReturn|ZLSR_Return|-57
 OPSReturn|2023Spring_Return|-58
+OPSReturn|2024Ghost_Return|-64
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -153,6 +161,11 @@ OPSLeftBGNormalActivity|-56|2022Scar_Left
 OPSLeftBGNormalActivity|-57|ZLSR_Left
 OPSLeftBGNormalActivity|-58|2023Spring_Left
 OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
+OPSLeftBGNormalActivity|-60|PolarizedLight_Left
+OPSLeftBGNormalActivity|-61|2023RougeSummer_Left
+OPSLeftBGNormalActivity|-62|2023Se_Left
+OPSLeftBGNormalActivity|-63|Activity_2020S_Left
+OPSLeftBGNormalActivity|-64|2024Ghost_Logo
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -181,14 +194,17 @@ OPSLeftBGNormalActivity|-59|2023RougeSpring_Logo
 //OPSNoticeNormalActivity|-48|2021Summer_Notice
 //OPSNoticeNormalActivity|-49|Xmas_2021_Notice
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
-OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
+//OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
 //OPSNoticeNormalActivity|-52|Bikini_2022_Notice
 //OPSNoticeNormalActivity|-54|2022Summer_Notice
-OPSNoticeNormalActivity|-55|Reversible_Notice
+//OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
 //OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
+//OPSNoticeNormalActivity|-61|2023RougeSummer_Notice//OPSNoticeNormalActivity|-62|2023Se_Notice
+//OPSNoticeNormalActivity|-62|2023Se_Notice
+OPSNoticeNormalActivity|-64|2024Ghost_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -216,6 +232,11 @@ OPSTimeNormalActivity|-56|Reversible_Time
 OPSTimeNormalActivity|-57|ZLSR_Time
 OPSTimeNormalActivity|-58|2023Spring_Time
 OPSTimeNormalActivity|-59|Reversible_Time
+OPSTimeNormalActivity|-60|Reversible_Time
+OPSTimeNormalActivity|-61|Reversible_Time
+OPSTimeNormalActivity|-62|Reversible_Time
+OPSTimeNormalActivity|-63|Reversible_Time
+OPSTimeNormalActivity|-64|2024Ghost_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -254,6 +275,7 @@ OPSGoto|2023Spring_GotoMall|0|-58
 //OPSGoto|Continuum_PointExchange|2
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 OPSGoto|2022Summer_GotoMall|0|-55
+OPSGoto|2024Ghost_GotoMall|0|-64
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -302,6 +324,11 @@ OPSProgressNormalActivity|-56|Reversible_Progress
 OPSProgressNormalActivity|-57|ZLSR_Progress
 OPSProgressNormalActivity|-58|2023Spring_Progress
 OPSProgressNormalActivity|-59|Reversible_Progress
+OPSProgressNormalActivity|-60|Reversible_Progress
+OPSProgressNormalActivity|-61|Reversible_Progress
+OPSProgressNormalActivity|-62|Reversible_Progress
+OPSProgressNormalActivity|-63|Reversible_Progress
+OPSProgressNormalActivity|-64|2024Ghost_Progress
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
 OPSMain|-2|Snow|Map2
@@ -436,6 +463,9 @@ OPSCampaignTitleButton|-56|true|2022Scar_Diffculty2Btn
 OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 OPSCampaignTitleButton|-58|true|2023Spring_Diffculty2Btn
 OPSCampaignTitleButton|-59|true|Empty_Title2
+OPSCampaignTitleButton|-61|true|2023RougeSummer_Diffculty2Btn
+OPSCampaignTitleButton|-62|true|2023Se_Diffculty2Btn
+OPSCampaignTitleButton|-64|true|2024Ghost_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -490,6 +520,11 @@ OPSCampaignTitleButtonTip|-50|100179|120|WhiteDay_2022_Tip|1
 //OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
 CampaignMissionDeployEffect|528|2023Spring_ShowItem12|11335,11337,11341,11343,11347,11349,11353,11355,11359,11377,11378,11379,11380,11381,11382,11383,11384,11385|0_30;30_60;60_130;130_260;260_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
 CampaignMissionDeployEffect|530|2023Spring_ShowItem3|11364,11366,11368,11370,11372,11374,11386,11387,11388,11389,11390,11391,11392,11393,11394,11395,11396,11397|0_25;25_55;55_85;85_115;115_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
+OPSShowItemDeployment|9042,9041|2023RogueSummer_DeploymentItems|11437,11438,11439,11440,11441,11442,11443,11444,11445,11451,11452,11453,11454,11455,11456,11457,11458
+OPSShowItemDeployment|531|2023Se_Buff_Theater|11461,11464,11467,11470
+OPSShowItemDeployment|532|2023Se_Buff_Arms|11462,11465,11468,11471
+OPSShowItemDeployment|533|2023Se_Buff_PA|11463,11466,11469,11472
+OPSShowItemDeployment|531,532,533|2023Se_All|11473,11474
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07

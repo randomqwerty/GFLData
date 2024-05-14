@@ -1,152 +1,152 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><BIN>327</BIN><BGM>m_avg_labyrinth</BGM>:
-()||:……现在。+2Z64区，未知区域。+坦白说，即便处在观察者的视角，指挥官也完全没有注意到水金铃鹿是从何时出现的。+博斯被击中的瞬间，指挥官的后背也被冷汗浸透。
-()<Speaker>指挥官</Speaker>||:……没想到水金铃鹿的实力这么恐怖。
-NPC-Motoko(2)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:后人类的身体素质远远强于普通人类或者使用义体的人类。+不管是速度还是力量。
-()<Speaker>指挥官</Speaker>||:博斯几乎在几秒间就被压制。+没想到普林竟然还能和她交手几招。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:普林……是个很特别的孩子。
-()||<SE1>AVG_whitenoise</SE1>:少校放慢了广播室的画面细节。+处于安全区域的普林正在狂奔向HK433和博斯的方向。
-()<Speaker>指挥官</Speaker>||:普林这是在……想要护住博斯和HK433？
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:只有江崎的话，或许还能再拖延一会。+但是加上两个需要保护的对象，江崎也承受不住太久。
-()<Speaker>指挥官</Speaker>||:……
-()||:指挥官的脑海中回味了一遍在2Z64区重逢普林和HK433的画面。+经历过生死战斗的两人，就像是初次见面的陌生人一样……
-()||<SE1>AVG_Pause</SE1>:轰——+巨响后，画面再一次黑暗。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:这一段记忆碎片已经没有继续研究的价值了。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:下一段的调试已经完成了。
-()<Speaker>指挥官</Speaker>||:希望能找到一切的答案……
+()||:...Back in the present.+In an unknown area in Sector 2Z64.+Even from an observer's perspective, the Commander cannot tell when exactly Suzuka Mizukane appeared.+They break out in cold sweat the moment Boys was struck.
+()<Speaker>Commander</Speaker>||:...I didn't expect Mizukane to be so terrifyingly powerful.
+NPC-Motoko(2)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:Post-humans are much stronger than ordinary humans and even humans with prosthetics.+Stronger AND faster.
+()<Speaker>Commander</Speaker>||:Boys was taken out in mere seconds.+I'm surprised Purin managed to exchange a few blows with her.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:Purin... is a special kid.
+()||<SE1>AVG_whitenoise</SE1>:The Major slows down the replay in the broadcast studio.+Purin, who was not in direct danger, was rushing over to 433 and Boys.
+()<Speaker>Commander</Speaker>||:Was Purin... trying to protect Boys and 433?
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:If Esaki had been alone, she probably would have lasted a bit longer.+But with two people to protect, even she wouldn't stand much of a chance.
+()<Speaker>Commander</Speaker>||:...
+()||:The Commander recalls their reunion with Purin and 433 in Sector 2Z64.+Despite having fought side-by-side, the two behaved like total strangers...
+()||<SE1>AVG_Pause</SE1>:Boom!+After the loud explosion, the playback goes dark.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:We've learned all we could from this memory fragment.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:The next one has been remastered.
+()<Speaker>Commander</Speaker>||:I hope we'll find our answers...
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()||<黑屏2><回忆><BIN>9</BIN>:
-()||<SE1>AVG_Water_Drip</SE1>:……+冰冷潮湿的空气，冰冷坚硬的触感，冰冷刺骨的眼神……
+()||<SE1>AVG_Water_Drip</SE1>:...+Cold, humid air... A cold, hard object on her skin... Cold, bone-chilling eyes...
 ()||<黑屏1>:
-()||<睁眼><BIN>327</BIN>:……
-NPC-Suzuka(0)<Position>-160,100</Position><Speaker>水金铃鹿</Speaker>||:你醒了。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:……
-()||<SE1>AVG_20Winter_Chains_Break</SE1>:战斗的本能促使博斯和这个危险的存在拉开距离，但冰冷的手铐将她牢牢锁在了椅子上。
-NPC-Suzuka(0)<Position>-160,100</Position><Speaker>水金铃鹿</Speaker>||:你在害怕？+老实交代你的身份以及来到这里的目的，我可以让你少吃一点苦。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>;NPC-Suzuka(0)<Position>-160,100</Position>||<SE1>Rope</SE1>:……
-NPC-Suzuka(1)<Position>-160,100</Position><Speaker>水金铃鹿</Speaker>||:或者应该让390号先讲？
-NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>;NPC-Suzuka(1)<Position>-160,100</Position>||<SE1>ClothingUp</SE1>:水金小姐，这是一场误会……
-NPC-Suzuka(1)<Position>-160,100</Position><同时置暗><Speaker></Speaker>||<SE1>AVG_Piano_Ambience</SE1>:叮——
-()||<BGM>BGM_Reverse</BGM>:水金铃鹿抬手唤起消息的界面，笑容自然地浮现在了脸上。
-NPC-Suzuka(0)<Position>-160,100</Position><Speaker>水金铃鹿</Speaker>||:感谢这个好消息吧，暂时解救了你们。
-NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||:好消息？
-NPC-Suzuka(1)<Position>-160,100</Position><Speaker>水金铃鹿</Speaker>||:388号，你来接手审讯。+格里芬的指挥官已经被包围了，接下来该轮到我登场了。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:是。
-NPC-BoysAntiTank(0)<Shake>0.1</Shake><Speaker>博斯</Speaker>||:什么？！
-NPC-Purin(2)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:指挥官一定是冲进基地内部了……
-NPC-Suzuka(0)<Position>-160,100</Position><Speaker>水金铃鹿</Speaker>||:别太着急，指挥官很快就能和你们见面了……
-()||<SE1>AVG_21Winter_FT_Heel</SE1>:在几人咬牙切齿的注视中，水金铃鹿离开了监狱。
-()||<SE1>Stop_AVG_loop</SE1>:388号来到了博斯的对面。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:那么，我们从你开始吧，这位尚不知晓姓名的同志。
-NPC-Purin(2)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:喂，我有很多问题！
-()||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:388号调出了操作界面，轻松地选中了江崎普林所在的审讯椅，对她实行了暂时禁言。
-NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-HK433(2)<Position>0,130</Position>||:你也有话想说吗，390号？
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:没有。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:好的，看来现在我们可以不受干扰地聊天了，请开始你的陈述。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:……+我是博斯。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-BoysAntiTank(0)||:我检索过数据库，这里没有登记过你的档案。+也就意味着，你并非通过正规渠道来到这里。+请回答我你来到2Z64区的目的是什么？
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-BoysAntiTank(2)<Speaker>博斯</Speaker>||:我是来救你们的。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-BoysAntiTank(2)||:我们为什么需要被拯救？
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:因为你们并不属于这里，你们来自格里芬基地，和我一样，和她一样。
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:格里芬基地……？
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:你的记忆被封锁了，就和曾经的HK433一样，认为自己是390号。+但只需要——
-()||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:388号对博斯也实行了暂时禁言，然后微笑着转向HK433。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:390号，你也是这个“格里芬基地”的一员吗？
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-HK433(2)<Position>0,130</Position>||:HK433是你在这个组织的代号吗？
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:不是代号，我的名字就叫做HK433，就像你的名字叫做鹮一样。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-HK433(2)<Position>0,130</Position>||:昨天的你还平静地回应着“390号”的称呼，是什么让你在二十四小时不到的时间内发生了这样的转变？
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(0)<Position>0,130</Position><Speaker>HK433</Speaker>||:因为我找到了真实的记忆。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-HK433(0)<Position>0,130</Position>||:真实的记忆？
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(4)<Position>0,130</Position><Speaker>HK433</Speaker>||:你不想知道吗？我们现在的记忆数据都是假的，根本经不起推敲……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-HK433(4)<Position>0,130</Position>||:那么，你是如何知道现在的记忆是假的，又是如何发现了真实的记忆？
-NPC-HK433(1)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:不愿意讲吗？稍后对你进行系统升级，我就知道了。
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:388号解开了江崎普林的禁言。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:你再不说话，看上去就要爆炸了。
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(2)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:终于到我发言了！
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:首先，我要强烈谴责你这种一次只允许一个人发言的制度，非常不合理！+低效且浪费时间！
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:……
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:然后，是我让HK433，也就是390号，明白了现在的一切。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:听上去，你是打算主动交代作案手法？这样确实可以适当减轻惩罚。+如果你愿意主动上交工具，你的惩罚还能获得更大程度的减轻。
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:我只是用了一个小小的程序。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:传输到这个平台上。
-()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:388号将一个空白的存储平台推给了江崎普林。+在确认普林执行了上传流程后，388号走到HK433的面前。
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:在等待上传的间隙，我们进行你的系统升级吧，390号。
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>HK433</Speaker>||:……
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:鉴于你有通敌的嫌疑，我会直接和你链接，进行手动系统升级。
-()||<SE1>ClothingUp</SE1>:388号凑近了被困在椅子上无法动弹的HK433——
-NPC-Purin(2)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||<BGM>BGM_Empty</BGM>:等一下，我还有问题！
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-Purin(2)<Position>-50,50</Position>||:请讲。
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||<BGM>GF_22W_BGM_2</BGM>:关于系统升级，我想知道，什么样的情况会被判定为不合格？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:系统升级的资格检查并不算严苛，只是验证我们的系统是否存在致命漏洞，以及数据库有没有被病毒污染。
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:我听说，你曾经没能通过系统升级的资格检查。
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:是的，我的心智遭到过病毒攻击。+导致我总是能看见不属于这个世界的画面。
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:什么样的画面？
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:战争、炮火、残骸……+我们和无穷无尽的敌人战斗，绝望又精疲力尽。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:……
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:然后我被带去了老大哥的房间，我的心智问题得到了解决，我就回来了。
-NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:他们是怎么解决你的心智问题的？
-NPC-QBU191(0)<Position>-80,0</Position><Speaker>388号</Speaker>||:唔……+这点我倒确实——
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:嘀。普林的上传已经完成。+388号露出思索的神情，她踱步着来到江崎普林的面前，边将传输完成的文件收走，边继续思考着问题……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>||:时间有些久远，我也记不清了。
-NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:你记得的，你一直记得……
-NPC-QBU191(1)<Position>-80,0</Position><Speaker>388号</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:嗯？
-NPC-Purin(0)<Position>-50,50</Position><Speaker>江崎普林</Speaker>||:只是不愿意回想起来……
-()<Speaker>388号</Speaker>||<SE1>AVG_Pause</SE1>:？！
-()||<SE1>AVG_Punch_Hit</SE1>:原被放置在388号手中平台的病毒猛地袭向她，她只能无力地抓住江崎普林的衣服，倒在了地上。+她的瞳孔快速收缩着，博斯知道，过去的幕幕正在她眼前奔涌而去。+只是博斯也不确定，那些记忆究竟对她来说意味着什么。
+()||<睁眼><BIN>327</BIN>:...
+NPC-Suzuka(0)<Position>-160,100</Position><Speaker>Suzuka Mizukane</Speaker>||:You are awake.
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:...
+()||<SE1>AVG_20Winter_Chains_Break</SE1>:Instincts compel Boys to draw back from this dangerous being, but the cold manacles are tying her firmly to her chair.
+NPC-Suzuka(0)<Position>-160,100</Position><Speaker>Suzuka Mizukane</Speaker>||:Are you afraid?+State yoru identity and purpose truthfully, and I might just spare you from some hardship.
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>;NPC-Suzuka(0)<Position>-160,100</Position>||<SE1>Rope</SE1>:...
+NPC-Suzuka(1)<Position>-160,100</Position><Speaker>Suzuka Mizukane</Speaker>||:Or should I let No. 390 speak first?
+NPC-HK433(4)<Position>0,130</Position><Speaker>433</Speaker>;NPC-Suzuka(1)<Position>-160,100</Position>||<SE1>ClothingUp</SE1>:Miss Mizukane, this is all just a misunderstanding...
+NPC-Suzuka(1)<Position>-160,100</Position><同时置暗><Speaker></Speaker>||<SE1>AVG_Piano_Ambience</SE1>:Ping!
+()||<BGM>BGM_Reverse</BGM>:Mizukane pulls up the notification interface with a smile.
+NPC-Suzuka(0)<Position>-160,100</Position><Speaker>Suzuka Mizukane</Speaker>||:Be grateful for this good news. It has saved you for the time being.
+NPC-HK433(4)<Position>0,130</Position><Speaker>433</Speaker>||:Good news?
+NPC-Suzuka(1)<Position>-160,100</Position><Speaker>Suzuka Mizukane</Speaker>||:No. 388, take over the interrogation.+We have the Griffin Commander surrounded. It's about time I showed myself.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Yes, ma'am.
+NPC-BoysAntiTank(0)<Shake>0.1</Shake><Speaker>Boys AT Rifle</Speaker>||:What?!
+NPC-Purin(2)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:The Commander must've stormed the base.
+NPC-Suzuka(0)<Position>-160,100</Position><Speaker>Suzuka Mizukane</Speaker>||:Patience. You'll be able to see the Commander very soon...
+()||<SE1>AVG_21Winter_FT_Heel</SE1>:The captives glare at Mizukane with gritted teeth as she leaves the prison.
+()||<SE1>Stop_AVG_loop</SE1>:No. 388 walks up to Boys.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Then let's start with you, comrade.
+NPC-Purin(2)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:Hey, I've got loads of questions!
+()||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:No. 388 pulls up an interface, casually selects Purin's interrogation chair, and temporarily mutes her.
+NPC-HK433(2)<Position>0,130</Position><Speaker>433</Speaker>||:...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-HK433(2)<Position>0,130</Position>||:Anything you'd like to say, No. 390?
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>433</Speaker>||:No.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Good. Now we can chat in peace. Please begin your statement.
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:...+My name is Boys.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-BoysAntiTank(0)||:I searched the database but couldn't find anything about you.+This means your presence here is unauthorized.+Please answer me—what is your purpose for coming to Sector 2Z64?
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-BoysAntiTank(2)<Speaker>Boys AT Rifle</Speaker>||:I'm here to rescue you.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-BoysAntiTank(2)||:Why would we need to be rescued?
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:Because you don't belong here, you're from the Griffin base, just like me, just like her.
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>433</Speaker>||:...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Griffin base...?
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:Your memories have been sealed. 433 also thought she was No. 390.+But we simply had to—
+()||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:No. 388 also mutes Boys temporarily before turning to 433 with a smile.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:No. 390, are you also a member of this "Griffin base"?
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>433</Speaker>||:...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-HK433(2)<Position>0,130</Position>||:Is 433 your number in this organization?
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>433</Speaker>||:It's not a number. My name is 433, and yours is Ibis.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-HK433(2)<Position>0,130</Position>||:You still answered to the designation "No. 390" yesterday. What happened in the last 24 hours to have caused such a change in you?
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(0)<Position>0,130</Position><Speaker>433</Speaker>||:I've recovered my real memories.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-HK433(0)<Position>0,130</Position>||:Real memories?
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-HK433(4)<Position>0,130</Position><Speaker>433</Speaker>||:Don't you want to know? All our memory data are false. They don't match up with...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-HK433(4)<Position>0,130</Position>||:Then how do you know those memories were false? And how did you recover your real memories?
+NPC-HK433(1)<Position>0,130</Position><Speaker>433</Speaker>||:...
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Not going to talk? That's fine, I'll find out when we perform the system upgrade on you.
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:No. 388 unmutes Purin.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:I can see that you're bursting to say something.
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(2)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:Finally!
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:First of all, I must strongly object to your policy of only letting one person speak at a time! It's extremely unreasonable!+Not to mention inefficient and time-consuming!
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:...
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:Secondly, it was me who made 433, i.e., No. 390, aware of everything that's happened.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:I gather you're voluntarily confessing your methods? That would certainly lessen your punishment.+If you're also willing to turn in your tools, your punishment could be reduced even further.
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(0)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:I simply ran a small program.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Upload it here.
+()||<SE1>AVG_21Winter_Click_Keyboard</SE1>:No. 388 pushes an empty storage disk toward Purin.+After confirming that Purin has initiated the upload, No. 388 walks over to 433.
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:While we wait, let's install that system upgrade on you, No. 390.
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-HK433(2)<Position>0,130</Position><Speaker>433</Speaker>||:...
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Since you're under suspicion of collaborating with the enemy, I will set up a direct link with you and manually perform the system upgrade.
+()||<SE1>ClothingUp</SE1>:No. 388 leans in toward 433, who is tied to her chair and completely immobilized...
+NPC-Purin(2)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||<BGM>BGM_Empty</BGM>:Wait, I have one more question!
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-Purin(2)<Position>-50,50</Position>||:Go ahead.
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||<BGM>GF_22W_BGM_2</BGM>:Regarding the system upgrade... under what circumstances would a subject fail the vetting process?
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:The criteria for receiving a system upgrade aren't that strict. We just need to verify that our system is free of any fatal loopholes and that our database is not infected by any viruses.
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:I hear that you've failed the vetting process before.
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-Purin(1)<Position>-50,50</Position>||:That is correct. My neural cloud was attacked by some kind of virus.+I kept experiencing visions of things that didn't belong to this world.
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(0)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:What sort of visions?
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Visions for war, artillery fire, dead bodies...+We were fighting endless hordes of enemies, filled with despair and exhaustion.
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:...
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Then I was brought to Big Brother's room. The issues with my neural cloud were resolved, and I came back.
+NPC-QBU191(0)<Position>-80,0</Position>;NPC-Purin(1)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:How did they resolve the issues with your neural cloud?
+NPC-QBU191(0)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:Hm...+I'll admit I'm not entirely—
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Click. Purin's upload is complete.+No. 388 walks back to Purin thoughtfully and retrieves the storage disk, all the while pondering the question...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>||:It was so long ago, I don't really remember.
+NPC-QBU191(1)<Position>-80,0</Position>;NPC-Purin(0)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:You do remember. You've always remembered...
+NPC-QBU191(1)<Position>-80,0</Position><Speaker>No. 388</Speaker>;NPC-Purin(0)<Position>-50,50</Position>||:Hm?
+NPC-Purin(0)<Position>-50,50</Position><Speaker>Purin Esaki</Speaker>||:You simply don't want to...
+()<Speaker>No. 388</Speaker>||<SE1>AVG_Pause</SE1>:?!
+()||<SE1>AVG_Punch_Hit</SE1>:The virus stored in the storage disk that No. 388 is holding suddenly surges toward her. She grasps helplessly at Purin and slumps to the floor.+Her pupils contract. Boys can tell that memories from the past are flashing past the Doll's eyes.+But she is not so sure what those memories would mean to her.
 ()||<黑屏1>:
 ()||<黑屏2><关闭蒙版><BIN>327</BIN>:
-()||:……2Z64区，未知区域。
-()||<SE1>ClothingUp</SE1>:少校将数据线从博斯身上抽走，扶着仍然没有回应的博斯缓缓躺在地上。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:目前能够读取到的记忆数据就是这些，后面的部分受损了，暂时无法读取。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:慢慢修复吧，只要心智完好就行。
-NPC-Batou(2)<Speaker>巴特</Speaker>||:对吧，指挥官？
-()<Speaker>指挥官</Speaker>||:……
-()||:指挥官仿佛是台古老的计算机，正在缓慢地咀嚼着少校从博斯心智中解析出的记忆数据。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:你现在什么打算？
-()<Speaker>指挥官</Speaker>||:……先等博斯醒来吧。
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:然后呢？
-()<Speaker>指挥官</Speaker>||:我还没有想清楚。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:你的原计划不打算继续执行了吗？这里的人形们仍然被封锁着记忆。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Batou(0)<Speaker>巴特</Speaker>||:根据现有的情报，普林和你的手下们可是有在好好执行你的计划。+虽然不知道后来发生了什么……
-()<Speaker>指挥官</Speaker>||:这也正是我犹豫的地方，我不知道她们的态度是否依旧和原来一样。+尤其是普林，一直支持我解救人形回去的她，为什么突然——
-()||<SE1>Rope</SE1>:指挥官垂在地面的大衣被拽了拽。
-()<Speaker>指挥官</Speaker>||:博斯？！
-NPC-BoysAntiTank(2)<Speaker>博斯</Speaker>||:指挥官……
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:你的状况还好吗？
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:嗯……
-()||<SE1>ClothingUp</SE1>:博斯勉强能保持坐立的姿势，但明显心智还处于混乱的状态。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:……她们人呢？
-NPC-BoysAntiTank(1)<同时置暗><Speaker>指挥官</Speaker>||:HK433和鹮又回到了记忆封锁的状态了。+普林……
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:普林怎么了？
-NPC-BoysAntiTank(0)<同时置暗><Speaker>指挥官</Speaker>||:她似乎没有被封锁记忆，但态度变得有些奇怪。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:什么意思？
-NPC-BoysAntiTank(0)<同时置暗><Speaker>指挥官</Speaker>||:先不聊这个。+博斯，你们和鹮重聚后发生了什么？你为什么会受到这么严重的创伤？
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:嘶……
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:她的心智有多次被骇入和尝试改造的痕迹，即便没有得逞，对她的心智而言依然是很大的损伤。+她需要修复，而不是高强度地检索混乱的数据。
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:他们想把我的心智强制和这里链接在一起，但我可不会让他们成功的……
-()<Speaker>指挥官</Speaker>||:好……你先缓缓……
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:没时间了……他们快来了……
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:指挥官，你们得立刻离开。
-NPC-BoysAntiTank(0)<同时置暗><Speaker>指挥官</Speaker>||:他们是谁？
-NPC-BoysAntiTank(2)<Speaker>博斯</Speaker>||:每隔六小时，他们就会来审讯一次……
-NPC-BoysAntiTank(3)<Speaker>博斯</Speaker>||:你们得走了……
-()<Speaker>指挥官</Speaker>||:和我们一起走，你能够从这里登出吗？
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:别管我了……
-NPC-Motoko(0)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:她的心智状况太脆弱，现在登出有风险，而且她的素体也在岛村孝他们手里。+我不建议她执行登出。
-()<Speaker>指挥官</Speaker>||:难道就这样把她丢下吗？！
-NPC-BoysAntiTank(0)<Speaker>博斯</Speaker>||:我会继续在这里等待机会，正好可以修复下受损的记忆数据。+等你准备好了，我将随时重回你的队伍。
-()<Speaker>指挥官</Speaker>||:……
-()||:巴特抬头看向上层入口的方向。
-NPC-Batou(0)<Speaker>巴特</Speaker>||:来了。
-NPC-Motoko(2)<Position>-40,130</Position><Speaker>草薙素子</Speaker>||:立刻登出，指挥官。
-NPC-BoysAntiTank(1)<Speaker>博斯</Speaker>||:指挥官……普林……+她一直跟我们战斗到了最后一刻……
-()<Speaker>指挥官</Speaker>||:……我知道了。+我还会回来的。
-NPC-BoysAntiTank(3)<Speaker>博斯</Speaker>||:我一直是如此相信着。
-()||<黑屏1>:
+()||:In an unknown area in Sector 2Z64.
+()||<SE1>ClothingUp</SE1>:The Major unplugs her cable from Boys and puts the inactive Doll gently down on the floor.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:That's all the memory fragments we can read for now. The rest are damaged and cannot be viewed for the time being.
+()<Speaker>Commander</Speaker>||:...
+NPC-Batou(0)<Speaker>Batou</Speaker>||:It'll take time, but they can be repaired as long as the neural cloud remains intact.
+NPC-Batou(2)<Speaker>Batou</Speaker>||:Isn't that right, Commander?
+()<Speaker>Commander</Speaker>||:...
+()||:Like an old computer, the Commander is slowly processing the memory data that the Major extracted from Boys' neural cloud.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:What's your plan?
+()<Speaker>Commander</Speaker>||:...Wait for Boys to wake up.
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:And then?
+()<Speaker>Commander</Speaker>||:I haven't got that far yet.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:Are you not going to carry on your original plan? The memory seal on the Dolls are still active.
+()<Speaker>Commander</Speaker>||:...
+NPC-Batou(0)<Speaker>Batou</Speaker>||:From what we've learned so far, Purin and your subordinates have been working hard to execute your plan.+We just don't know what happened afterwards...
+()<Speaker>Commander</Speaker>||:That's what's giving me second thoughts. I don't know if they've had a change of heart.+Especially Purin. She had been very supportive of the rescue mission, so why did she suddenly—
+()||<SE1>Rope</SE1>:The Commander feels a soft tug on the hem of their coat.
+()<Speaker>Commander</Speaker>||:Boys?!
+NPC-BoysAntiTank(2)<Speaker>Boys AT Rifle</Speaker>||:Commander...
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:Are you alright?
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:Yeah...
+()||<SE1>ClothingUp</SE1>:Boys sits up laboriously. Her neural cloud is still clearly a bit scrambled.
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:...Where are the others?
+NPC-BoysAntiTank(1)<同时置暗><Speaker>Commander</Speaker>||:433 and Ibis both have their memories sealed again.+As for Purin...
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:What about her?
+NPC-BoysAntiTank(0)<同时置暗><Speaker>Commander</Speaker>||:Her memories seem to be fine, but her attitude is a bit strange.
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:What does that mean?
+NPC-BoysAntiTank(0)<同时置暗><Speaker>Commander</Speaker>||:We'll get back to this later.+Boys, what happened after you met Ibis? What caused all this severe damage to you?
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:Ow...
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:Her neural cloud shows signs of numerous hacking and modification attempts. Whoever did this didn't succeed, but they still did quite a number on her neural cloud.+She needs repairs, not an energy-intensive search through messy data.
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:They wanted to hook my neural cloud to this place by force, but I wasn't going to let them have their way...
+()<Speaker>Commander</Speaker>||:Alright... Take it easy...
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:There's no time... They'll be here soon...
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:Commander, you've got to leave now.
+NPC-BoysAntiTank(0)<同时置暗><Speaker>Commander</Speaker>||:Who are "they"?
+NPC-BoysAntiTank(2)<Speaker>Boys AT Rifle</Speaker>||:They come to interrogate me every six hours...
+NPC-BoysAntiTank(3)<Speaker>Boys AT Rifle</Speaker>||:You must go...
+()<Speaker>Commander</Speaker>||:Come with us. Can you log out?
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:Don't mind me...
+NPC-Motoko(0)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:Her neural cloud is extremely fragile; logging out now would be very risky. Besides, her body is still in Shimamura's hands.+I strongly advise against it.
+()<Speaker>Commander</Speaker>||:But we can't just leave her behind!
+NPC-BoysAntiTank(0)<Speaker>Boys AT Rifle</Speaker>||:I'll stay and bide my time. I'll also try to repair my damaged memory data.+Once you're ready, I'll join you again.
+()<Speaker>Commander</Speaker>||:...
+()||:Batou looks toward the entrance.
+NPC-Batou(0)<Speaker>Batou</Speaker>||:They're here.
+NPC-Motoko(2)<Position>-40,130</Position><Speaker>Motoko Kusanagi</Speaker>||:Log out at once, Commander.
+NPC-BoysAntiTank(1)<Speaker>Boys AT Rifle</Speaker>||:Commander... Purin...+Purin will fight for us till the very end...
+()<Speaker>Commander</Speaker>||:...I see.+I'll be back for you.
+NPC-BoysAntiTank(3)<Speaker>Boys AT Rifle</Speaker>||:I'm counting on it.
+()||<黑屏1>:
