@@ -14824,6 +14824,34 @@
     "formula": "sbuffidtier(9526)=1?1:0"
   },
   {
+    "id": 9404,
+    "formula": "sbuffidtier(9535)=1&sbuffidtier(9536)=1?1:0"
+  },
+  {
+    "id": 9405,
+    "formula": "sbuffidtier(9538)=1&sbuffidtier(9539)=1?1:0"
+  },
+  {
+    "id": 9406,
+    "formula": "sbuffidtier(9537)=1?tbuffidtier(8706)>0?#MaxLife*0.1:0:0"
+  },
+  {
+    "id": 9407,
+    "formula": "sbuffidtier(9537)=1?1:0"
+  },
+  {
+    "id": 9408,
+    "formula": "sbuffidtier(9537)=1?0:1"
+  },
+  {
+    "id": 9409,
+    "formula": "sbuffidtier(9540)=1?1:0"
+  },
+  {
+    "id": 9410,
+    "formula": "sbuffidtier(3973)>0?1:sbuffidtier(9541)>0?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
