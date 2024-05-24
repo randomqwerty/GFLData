@@ -348,7 +348,23 @@ patch3040=
 "3040/DormGiveDressPerformanceController",
 "3040/OPSEventPrizeController",
 "3040/ReinforcementController",
-"3040/PicControlEffect",													
+"3040/PicControlEffect",
+"3040/FurniturePerformanceController",
+"3040/NPointManagerTool",	
+"3040/DailyExploreData",											
+}
+patch3050=
+{
+"3040/NPointManagerTool",	
+"3050/KalinaDetailController",
+"3040/FurniturePerformanceController",
+"3050/DailyExploreData",	
+"3050/CommonBundleConfirmBoxController",
+"3050/DailyPrizePreviewCtrl",
+"3050/CommonTopStoryController",
+"3050/DeploymentSangvisSkillPanelController",
+"3050/DeploymentController",
+"3050/DeploymentBuildSkillItem",													
 }
 -- va11
 print("load Va11");
