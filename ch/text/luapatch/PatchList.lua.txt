@@ -361,7 +361,9 @@ patch3050=
 "3050/DailyExploreData",	
 "3050/CommonBundleConfirmBoxController",
 "3050/DailyPrizePreviewCtrl",
-"3050/CommonTopStoryController",										
+"3050/CommonTopStoryController",
+"3050/DeploymentSangvisSkillPanelController",
+"3050/DeploymentController",												
 }
 -- va11
 print("load Va11");
