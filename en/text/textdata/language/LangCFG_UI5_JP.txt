@@ -2669,23 +2669,6 @@
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>
-  <item des="Dorm/Visit/Text_Visit">
-    <xmlID>Dorm/Visit/Text_Visit</xmlID>
-    <rect>(37.4, 14.3),(162.2, 80.0)</rect>
-    <textfont>JDJSTE</textfont>
-    <fontstyle>Normal</fontstyle>
-    <fontsize>56</fontsize>
-    <linespac>1</linespac>
-    <richtext>True</richtext>
-    <alignment>MiddleCenter</alignment>
-    <horover>Wrap</horover>
-    <verover>Truncate</verover>
-    <bestfit>False</bestfit>
-    <minsize>0</minsize>
-    <maxsize>0</maxsize>
-    <isOrnamental>False</isOrnamental>
-    <ignoreOrnament>False</ignoreOrnament>
-  </item>
   <item des="Dorm/UI_Button_KickOut/Text_KickOut">
     <xmlID>Dorm/UI_Button_KickOut/Text_KickOut</xmlID>
     <rect>(12.8, 6.0),(160.7, 60.0)</rect>
@@ -3453,7 +3436,7 @@
   </item>
   <item des="MissionSelection/MissionBarNormal/Text_03">
     <xmlID>MissionSelection/MissionBarNormal/Text_03</xmlID>
-    <rect>(303.4, -29.1),(68.1, 33.7)</rect>
+    <rect>(-5.6, -29.1),(68.1, 33.7)</rect>
     <textfont>JDJSTE</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>40</fontsize>
@@ -8502,8 +8485,8 @@
   </item>
   <item des="MissionSelection/MissionBarNormal/Text_01">
     <xmlID>MissionSelection/MissionBarNormal/Text_01</xmlID>
-    <rect>(62.1, 55.8),(159.7, 39.3)</rect>
-    <textfont>sans</textfont>
+    <rect>(-246.3, 55.8),(159.7, 39.3)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
     <fontstyle>Normal</fontstyle>
     <fontsize>30</fontsize>
     <linespac>1</linespac>
@@ -8587,10 +8570,10 @@
   </item>
   <item des="Assets/_Scenes/Deployment.unity/EnemyMessage/UITextDead">
     <xmlID>Assets/_Scenes/Deployment.unity/EnemyMessage/UITextDead</xmlID>
-    <rect>(31.6, -38.1),(106.6, 58.1)</rect>
-    <textfont>sans</textfont>
+    <rect>(38.2, -43.8),(106.6, 58.1)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
     <fontstyle>Normal</fontstyle>
-    <fontsize>35</fontsize>
+    <fontsize>27</fontsize>
     <linespac>1</linespac>
     <richtext>True</richtext>
     <alignment>UpperLeft</alignment>
@@ -8604,10 +8587,10 @@
   </item>
   <item des="Assets/_Scenes/Deployment.unity/EnemyMessage/UITextRest">
     <xmlID>Assets/_Scenes/Deployment.unity/EnemyMessage/UITextRest</xmlID>
-    <rect>(17.1, 18.4),(81.0, 52.0)</rect>
-    <textfont>sans</textfont>
+    <rect>(203.4, -40.8),(81.0, 52.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
     <fontstyle>Normal</fontstyle>
-    <fontsize>33</fontsize>
+    <fontsize>27</fontsize>
     <linespac>1</linespac>
     <richtext>True</richtext>
     <alignment>UpperLeft</alignment>
@@ -17121,18 +17104,18 @@
   </item>
   <item des="Assets/_Scenes/HotUpdate.unity/Left/Tex_Description">
     <xmlID>Assets/_Scenes/HotUpdate.unity/Left/Tex_Description</xmlID>
-    <rect>(0.0, -27.7),(343.0, 102.6)</rect>
-    <textfont>sans</textfont>
+    <rect>(0.0, 54.5),(343.0, 132.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
     <fontstyle>Normal</fontstyle>
-    <fontsize>3</fontsize>
-    <linespac>1</linespac>
+    <fontsize>29</fontsize>
+    <linespac>0.8</linespac>
     <richtext>True</richtext>
     <alignment>UpperLeft</alignment>
     <horover>Wrap</horover>
     <verover>Truncate</verover>
-    <bestfit>True</bestfit>
-    <minsize>3</minsize>
-    <maxsize>24</maxsize>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>
@@ -17558,6 +17541,297 @@
     <bestfit>False</bestfit>
     <minsize>0</minsize>
     <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/CommonComponentMask/Text_CommonComponent_5">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/CommonComponentMask/Text_CommonComponent_5</xmlID>
+    <rect>(96.5, -76.9),(130.0, 84.9)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>28</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/Mall.unity/TokenItem/Tex_Number">
+    <xmlID>Assets/_Scenes/Mall.unity/TokenItem/Tex_Number</xmlID>
+    <rect>(152.5, -50.0),(157.0, 100.0)</rect>
+    <textfont>Novecentowide-Medium</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>40</fontsize>
+    <linespac>100</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Btn_Iteration/Tex_Iteration_47">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Btn_Iteration/Tex_Iteration_47</xmlID>
+    <rect>(-5.5, 4.5),(288.3, 100.9)</rect>
+    <textfont>方正特雅宋_GBK</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>14</fontsize>
+    <linespac>2</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>54</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/Quests.unity/Title/Text_10">
+    <xmlID>Assets/_Scenes/Quests.unity/Title/Text_10</xmlID>
+    <rect>(1.7, -2.2),(132.7, 35.4)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>22</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/Quests.unity/Image/Text">
+    <xmlID>Assets/_Scenes/Quests.unity/Image/Text</xmlID>
+    <rect>(7.2, -1.0),(123.6, 49.1)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>28</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/TokenItem/Tex_Number_6">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/TokenItem/Tex_Number_6</xmlID>
+    <rect>(175.3, -47.8),(202.5, 95.6)</rect>
+    <textfont>Novecentowide-Medium</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>40</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>40</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Top/Tex_RankFlash_46">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Top/Tex_RankFlash_46</xmlID>
+    <rect>(732.8, 10.1),(660.2, 46.6)</rect>
+    <textfont>NOTOSANSHANS-REGULAR</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>36</minsize>
+    <maxsize>42</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/MissionSelection.unity/Btn_Rank/Tex_Rank_1">
+    <xmlID>Assets/_Scenes/MissionSelection.unity/Btn_Rank/Tex_Rank_1</xmlID>
+    <rect>(-1.1, 3.8),(139.4, 75.3)</rect>
+    <textfont>方正特雅宋_GBK</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>3</fontsize>
+    <linespac>2</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>36</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/Image (1)/Text_1">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/Image (1)/Text_1</xmlID>
+    <rect>(0.0, 1.5),(132.0, 46.3)</rect>
+    <textfont>Novecentowide-Medium</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>20</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/InputField/Text_1">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/InputField/Text_1</xmlID>
+    <rect>(0.0, -0.5),(985.0, 57.3)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>14</fontsize>
+    <linespac>1</linespac>
+    <richtext>False</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>35</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+    <xmlLanCfgID>270082</xmlLanCfgID>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/InputField/Placeholder_3">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/InputField/Placeholder_3</xmlID>
+    <rect>(0.0, 0.0),(0.0, 0.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>14</fontsize>
+    <linespac>1</linespac>
+    <richtext>False</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Overflow</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>10</minsize>
+    <maxsize>35</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+    <xmlLanCfgID>270082</xmlLanCfgID>
+  </item>
+  <item des="Assets/_Scenes/Deployment.unity/EnemyMessage/TextDeadNum">
+    <xmlID>Assets/_Scenes/Deployment.unity/EnemyMessage/TextDeadNum</xmlID>
+    <rect>(365.2, -26.5),(242.6, 58.8)</rect>
+    <textfont>Mohave</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>0.66</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/Deployment.unity/EnemyMessage/TextRestNum">
+    <xmlID>Assets/_Scenes/Deployment.unity/EnemyMessage/TextRestNum</xmlID>
+    <rect>(189.5, -26.5),(224.4, 58.8)</rect>
+    <textfont>Mohave</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>36</fontsize>
+    <linespac>0.66</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>False</bestfit>
+    <minsize>0</minsize>
+    <maxsize>0</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName</xmlID>
+    <rect>(-30.5, 5.0),(270.0, 40.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>32</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName_8">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName_8</xmlID>
+    <rect>(-190.0, -4.4),(178.0, 52.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>35</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>35</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName_61">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName_61</xmlID>
+    <rect>(-30.5, 5.0),(270.0, 40.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>32</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleLeft</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>32</maxsize>
+    <isOrnamental>False</isOrnamental>
+    <ignoreOrnament>False</ignoreOrnament>
+  </item>
+  <item des="Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName_84">
+    <xmlID>Assets/_Scenes/HotUpdate.unity/SkillBasicInfo/Text_SkillName_84</xmlID>
+    <rect>(-190.0, -4.4),(178.0, 52.0)</rect>
+    <textfont>NotoSansHans-DemiLight</textfont>
+    <fontstyle>Normal</fontstyle>
+    <fontsize>35</fontsize>
+    <linespac>1</linespac>
+    <richtext>True</richtext>
+    <alignment>MiddleCenter</alignment>
+    <horover>Wrap</horover>
+    <verover>Truncate</verover>
+    <bestfit>True</bestfit>
+    <minsize>3</minsize>
+    <maxsize>35</maxsize>
     <isOrnamental>False</isOrnamental>
     <ignoreOrnament>False</ignoreOrnament>
   </item>

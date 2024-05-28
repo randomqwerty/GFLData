@@ -351,7 +351,9 @@ patch3040=
 "3040/PicControlEffect",
 "3040/FurniturePerformanceController",
 "3040/NPointManagerTool",	
-"3040/DailyExploreData",											
+"3040/DailyExploreData",	
+"3040/VehicleFormationData",
+"3040/EquipDetailCtrl",									
 }
 patch3050=
 {
@@ -363,7 +365,15 @@ patch3050=
 "3050/DailyPrizePreviewCtrl",
 "3050/CommonTopStoryController",
 "3050/DeploymentSangvisSkillPanelController",
-"3050/DeploymentController",												
+"3050/DeploymentController",
+"3050/DeploymentBuildSkillItem",
+"3050/DeploymentAutoBattleController",	
+"3050/GuideDeploymentController",
+"3050/OPSPanelMissionBase",
+"3050/OPSPanelController",	
+"3040/VehicleFormationData",
+"3050/SpineEffectController",	
+"3040/EquipDetailCtrl",											
 }
 -- va11
 print("load Va11");
