@@ -6,6 +6,12 @@ local backgroundPic = {
 	'WorldCollide/TheDivision/LoadingScreen/TheDivision1',
 	'WorldCollide/TheDivision/LoadingScreen/TheDivision2',
 };
+
+local CheckVideo = function()
+	if CS.OPSConfig.CheckVideo ~= nil then
+		CS.OPSConfig.CheckVideo = false;
+	end
+end
 local DestroyVideo = function()
 	-- 黑幕渐变
 	local gobj = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("WorldCollide/TheDivision/LoadingScreen/TheDivisionLoadingCover"));
@@ -19,11 +25,6 @@ local DestroyVideo = function()
 	-- 音效
 	CS.CommonAudioController.PlayUI("Stop_UI_loop");
 	CS.CommonController.Invoke(CheckVideo, 0.3, CS.ResCenter.instance);
-end
-local CheckVideo = function()
-	if CS.OPSConfig.CheckVideo ~= nil then
-		CS.OPSConfig.CheckVideo = false;
-	end
 end
 
 local LoadBG = function()
