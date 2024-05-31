@@ -354,7 +354,8 @@ patch3040=
 "3040/DailyExploreData",	
 "3040/VehicleFormationData",
 "3040/EquipDetailCtrl",		
-"3040/MissionSelectionMissionDetailController",							
+"3040/MissionSelectionMissionDetailController",	
+"3040/SangvisGunStateBaseInfoController",						
 }
 patch3050=
 {
@@ -376,7 +377,9 @@ patch3050=
 "3050/SpineEffectController",	
 "3040/EquipDetailCtrl",	
 "3050/MissionSelectionMissionDetailController",
-"3050/SquadListController",											
+"3050/SquadListController",
+"3050/CommonVehicleComponentListController",
+"3040/SangvisGunStateBaseInfoController",												
 }
 -- va11
 print("load Va11");
