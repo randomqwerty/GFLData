@@ -17,7 +17,8 @@
     "content": "daily-20000001",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 2,
@@ -37,7 +38,8 @@
     "content": "daily-20000002",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 3,
@@ -57,7 +59,8 @@
     "content": "daily-20000003",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 4,
@@ -77,7 +80,8 @@
     "content": "daily-20000004",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 5,
@@ -97,13 +101,14 @@
     "content": "daily-20000005",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 6,
     "mission_type": 2,
-    "type": "squad_data_analyse",
-    "count": 4,
+    "type": "get_vehicle_component",
+    "count": 6,
     "user_exp": 0,
     "mp": 0,
     "ammo": 0,
@@ -115,9 +120,10 @@
     "item_ids": "",
     "title": "daily-10000006",
     "content": "daily-20000006",
-    "function_control_id": 15,
+    "function_control_id": 30,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 7,
@@ -137,7 +143,8 @@
     "content": "daily-20000007",
     "function_control_id": 2,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 8,
@@ -157,7 +164,8 @@
     "content": "daily-20000008",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 9,
@@ -177,7 +185,8 @@
     "content": "daily-20000009",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 10,
@@ -197,7 +206,8 @@
     "content": "daily-20000010",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 11,
@@ -217,7 +227,8 @@
     "content": "daily-20000011",
     "function_control_id": 6,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 12,
@@ -237,7 +248,8 @@
     "content": "daily-20000012",
     "function_control_id": 5,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 13,
@@ -257,7 +269,8 @@
     "content": "daily-20000013",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 14,
@@ -277,30 +290,11 @@
     "content": "daily-20000014",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 15,
-    "mission_type": 4,
-    "type": "complete_squad_daily",
-    "count": 1,
-    "user_exp": 0,
-    "mp": 0,
-    "ammo": 0,
-    "mre": 0,
-    "part": 0,
-    "core": 0,
-    "gem": 0,
-    "gun_id": 0,
-    "item_ids": "",
-    "title": "daily-10000015",
-    "content": "daily-20000015",
-    "function_control_id": 15,
-    "prize_id": 8308,
-    "exchange_prize_id": 8315
-  },
-  {
-    "identity": 16,
     "mission_type": 4,
     "type": "sangvis_exercise",
     "count": 3,
@@ -313,14 +307,15 @@
     "gem": 0,
     "gun_id": 0,
     "item_ids": "",
-    "title": "daily-10000016",
-    "content": "daily-20000016",
+    "title": "daily-10000015",
+    "content": "daily-20000015",
     "function_control_id": 21,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
-    "identity": 17,
+    "identity": 16,
     "mission_type": 4,
     "type": "auto_battle",
     "count": 1,
@@ -333,16 +328,38 @@
     "gem": 0,
     "gun_id": 0,
     "item_ids": "",
-    "title": "daily-10000017",
-    "content": "daily-20000017",
+    "title": "daily-10000016",
+    "content": "daily-20000016",
     "function_control_id": 15,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
+  },
+  {
+    "identity": 17,
+    "mission_type": 5,
+    "type": "from_friend_build_coin",
+    "count": 5,
+    "user_exp": 0,
+    "mp": 0,
+    "ammo": 0,
+    "mre": 0,
+    "part": 0,
+    "core": 0,
+    "gem": 0,
+    "gun_id": 0,
+    "item_ids": "",
+    "title": "daily-10000017",
+    "content": "daily-20000017",
+    "function_control_id": 0,
+    "prize_id": 8308,
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 18,
     "mission_type": 5,
-    "type": "from_friend_build_coin",
+    "type": "like",
     "count": 5,
     "user_exp": 0,
     "mp": 0,
@@ -357,13 +374,14 @@
     "content": "daily-20000018",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 19,
     "mission_type": 5,
-    "type": "like",
-    "count": 5,
+    "type": "borrow_friend_team",
+    "count": 2,
     "user_exp": 0,
     "mp": 0,
     "ammo": 0,
@@ -377,30 +395,11 @@
     "content": "daily-20000019",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 20,
-    "mission_type": 5,
-    "type": "borrow_friend_team",
-    "count": 2,
-    "user_exp": 0,
-    "mp": 0,
-    "ammo": 0,
-    "mre": 0,
-    "part": 0,
-    "core": 0,
-    "gem": 0,
-    "gun_id": 0,
-    "item_ids": "",
-    "title": "daily-10000020",
-    "content": "daily-20000020",
-    "function_control_id": 0,
-    "prize_id": 8308,
-    "exchange_prize_id": 8315
-  },
-  {
-    "identity": 21,
     "mission_type": 6,
     "type": "explore",
     "count": 1,
@@ -413,14 +412,15 @@
     "gem": 0,
     "gun_id": 0,
     "item_ids": "",
-    "title": "daily-10000021",
-    "content": "daily-20000021",
+    "title": "daily-10000020",
+    "content": "daily-20000020",
     "function_control_id": 17,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
-    "identity": 22,
+    "identity": 21,
     "mission_type": 6,
     "type": "sangvis_daily_retrieval",
     "count": 1,
@@ -433,17 +433,39 @@
     "gem": 0,
     "gun_id": 0,
     "item_ids": "",
-    "title": "daily-10000022",
-    "content": "daily-20000022",
+    "title": "daily-10000021",
+    "content": "daily-20000021",
     "function_control_id": 21,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
+  },
+  {
+    "identity": 22,
+    "mission_type": 6,
+    "type": "heart_collect",
+    "count": 5,
+    "user_exp": 0,
+    "mp": 0,
+    "ammo": 0,
+    "mre": 0,
+    "part": 0,
+    "core": 0,
+    "gem": 0,
+    "gun_id": 0,
+    "item_ids": "",
+    "title": "daily-10000022",
+    "content": "daily-20000022",
+    "function_control_id": 0,
+    "prize_id": 8308,
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   },
   {
     "identity": 23,
     "mission_type": 6,
-    "type": "heart_collect",
-    "count": 5,
+    "type": "gift",
+    "count": 1,
     "user_exp": 0,
     "mp": 0,
     "ammo": 0,
@@ -457,26 +479,7 @@
     "content": "daily-20000023",
     "function_control_id": 0,
     "prize_id": 8308,
-    "exchange_prize_id": 8315
-  },
-  {
-    "identity": 24,
-    "mission_type": 6,
-    "type": "gift",
-    "count": 1,
-    "user_exp": 0,
-    "mp": 0,
-    "ammo": 0,
-    "mre": 0,
-    "part": 0,
-    "core": 0,
-    "gem": 0,
-    "gun_id": 0,
-    "item_ids": "",
-    "title": "daily-10000024",
-    "content": "daily-20000024",
-    "function_control_id": 0,
-    "prize_id": 8308,
-    "exchange_prize_id": 8315
+    "exchange_prize_id": 8315,
+    "goto_page_id": 0
   }
 ]

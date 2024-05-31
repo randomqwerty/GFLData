@@ -1,0 +1,62 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>89</BIN><BGM>BGM_Hello</BGM><SE1>AVG_AMB_Restaurant</SE1>:Before the Dragon Boat Festival, in the Griffin Warehouse. +There is a little boat on the roof and the walls are covered in cutouts of zongzi, the scent of which fills the air. +The Dolls are in long lines, waiting to claim their gifts for this year's Dragon Boat Festival. +Among them, the person who most looks forward to it is naturally Type 56-1, who is first in line. +Type 56-1's tired eyes are nevertheless filled with fighting spirit, as though she's ready to plunge into the piles of zongzi again and again. +Type 97S, who has been dragged along the the warehouse by Type 56-1, yawns several times.
+97typeSMod(0)<Speaker>Type 97S</Speaker>||<SE1>Stop_AVG_loop</SE1>:Ahhh, there's enough for everyone, why the rush?
+()||:Type 56-1 raises her index finger and wags it.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Hehe, you're too naive. This is the age of information warfare!
+97typeSMod(0)<Speaker>Type 97S</Speaker>||:Hm?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:I heard Kalina tell the Commander that the zongzi they're giving out this year aren't the same as the previous years.
+56-1type(7)<Speaker>Type 56-1</Speaker>||:In other words, they aren't your ordinary zongzi, so chestnut and meat zongzi, peanut and meat zongzi, or pickled vegetable and meat zongzi could be waiting for me—+What if I'm late and my favorite salted egg yolk and pork zongzi get snatched up!
+()||:Type 97S ruthlessly interrupts her excited speech.
+97typeSMod(0)<Speaker>Type 97S</Speaker>||:Save it, your beloved zongzi are here.
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Kalina pushes a small cart past the two of them and Type 56-1 stares at the cardboard boxes on them.
+()||<SE1>Stop_AVG_loop</SE1>:Type 56-1's ardent gaze looks like it's going to penetrate the boxes and the wrappings to see what the zongzi are stuffed with.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Good morning, everyone! Hehe, looking forward to your gifts, aren't you?+Last year, everyone said the zongzi were all the same flavor and there were wishlists for all kinds of different zongzi, as well as strong requests for sweet zongzi. +So this year, we did a lot of thinking and decided on...
+56-1type(7)<Speaker>Type 56-1</Speaker>||<SE1>Heartbeat</SE1>:<color=#A9A9A9>Salted egg yolk and pork salted egg yolk and pork salted egg yolk and pork salted egg yolk and pork...</color>
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:A Dragon Boat Festival bonus!
+()||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:...Somewhere in the distance, a fragile heart can be heard shattering.
+56-1type(0)<Speaker>Type 56-1</Speaker>||<震屏3>:What?!
+92type(0)<Speaker>Type 92</Speaker>||<震屏3>:What!?
+()||:Two different shouts  fill the air and shake the warehouse. +Type 56-1 subconsciously looks back and meets Type 92's gaze from the back of the line.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Ahem, well, it was hard to cater to everyone's tastes, and we were having a hard time deciding which flavors to get, and finances have been a bit tight recently too...
+56-1type(0)<Speaker>Type 56-1</Speaker>||:So there's no room for discussion at all? ...Even the leftover zongzi from last year will do.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Leaving aside whether or not last year's can still be eaten... Don't you finish off all the leftovers each year?
+56-1type(0)<Speaker>Type 56-1</Speaker>||<黑点1>:Okaayyyyyyy.... (sob)
+()||<黑点2><BIN>129</BIN>:...Supposedly, Type 56-1 turned her "sorrow" into hunger and ate 12 packed lunches at the canteen that day, setting a new record. +After finishing off the last chicken chop, Type 56-1 makes up her mind and issues a deafening cry.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:The year isn't complete without zongzi! I've decided—+I shall mobilize the intellect and productivity of the masses and make my own zongzi!
+()||<黑屏1><BIN>9</BIN><BGM>BGM_Empty</BGM>:...
+()||<黑屏2><BIN>82</BIN><BGM>m_wv_scenario</BGM>:Several days later, at the Griffin Dorms.
+97typeSMod(0)<Speaker>Type 97S</Speaker>||:Ah choo — What's this smell?
+()||:Type 97S frowns. The smell is coming from the delivery package on Type 56-1's table.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Hehe, people who only eat double-cooked pork will never understand!
+()||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:Type 56-1 holds up a handful of peppercorns and takes a big sniff, as though she were soaking in a big pot full of cooking zonzi
+56-1type(0)<Speaker>Type 56-1</Speaker>||:I can't believe I got such a big packet for just 90 cents. That store is just too kind.
+97typeSMod(0)<Speaker>Type 97S</Speaker>||:I don't understand how your Szechuan cuisine works but are you going to put all these peppercorns into the zongzi?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Nonono, it would be a fatal overdose even for me. +Oh yeah, didn't Type 92 want to eat zongzi too? Maybe I should give her some of these, how about that?
+97typeSMod(0)<Speaker>Type 97S</Speaker>||:Sure. Hopefully it'll pass muster with "Miss Szechuan Cuisine"...
+()||<黑点1>:
+()||<黑点2><BIN>97</BIN>:Few ingredients can win Type 92's approval, but Type 56-1 is confident in her peppercorns.+However, when Type 56-1 meets Type 92, she is forced to retreat. +Type 92 is in an incredibly bad mood today, like a walking Jupiter Cannon. +Even the hairs on her head seem to be loaded with time bombs, ready to go off at any time.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Crap, why's 92 flipping out today? Which poor unfortunate soul made her mad now... +Ah, don't tell me Type 92 hasn't recovered from them not giving out zongzi yesterday?
+()||<SE1>RunStep</SE1>:The more Type56-1 thinks, the more it makes sense to her, and so she goes up to pat Type 92 on the shoulder.
+56-1type(0)<Speaker>Type 56-1</Speaker>||<SE1>Stop_AVG_loop</SE1>:92, I know this must have been a terrible blow to you... But please believe me when I say I fully understand how you feel.
+92type(0)<Speaker>Type 92</Speaker>||:...How do you know how I feel?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Aw, I do understand! I even brought you a gift.
+()||<SE1>ClothingUp</SE1>:Type 56-1 takes out a bag of peppeercorns and smiles as she hands them over.
+92type(0)<Speaker>Type 92</Speaker>||:Where did you get these peppercorns from?
+()||:Type 92's face softens quite a bit as she takes the bag.
+()||<SE1>AVG_Creep</SE1>:She looks them up and down, from side to side, and even picks up a few and crushes them between her fingertips to check their quality.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Yup, that's 92 for you, you're such a pro! How are they? They're good, huh?
+()||:However, the more Type 92 looks, the more she frowns.
+()||<SE1>ClothingUp</SE1>:Puzzled, Type 56-1, leans over and sniffs the scent of the peppercorns on Type 92's hand.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Are you unhappy with them? I got them from an online store called "Pepper Baby", they were a great bargain...
+92type(0)<Speaker>Type 92</Speaker>||<震屏3>:Pep-per Ba-by?
+()||:The phrase seems to have triggered some kind of forbidden switch.
+()||<SE1>AVG_File_Put</SE1>:Type 92's eye go cold and she crushes the peppercorns in her hand to powder before grabbing Type 92 by the collar, ready to go off on her.
+56-1type(0)<Speaker>Type 56-1</Speaker>||<震屏3>:AHHHHHHHHHH CHOO! Ah-choo—!+Ah-choo, ah-choo, ah-choo, ah-choo, ah-choo—
+()||:...+After getting a faceful of snot, Type 92 is startled and lets go of Type 56-1.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Pepper... powder! Ah-choo, ah-choo—
+()||:Type 56-1 grabs her nose and points at Type 92's hand, unable to finish a sentence. +Type 92 looks in confusion at her hand, which is still covered in leftover pepper powder. As for the rest of it...+Type56-1 seems to have inhaled it all. +After processing by a Doll's sensitive olfactory modules, the scent of peppercorns seems to have penetrated Type 56-1's body and pierced her neural cloud with a direct hit of spiciness.
+92type(0)<Speaker>Type 92</Speaker>||:You @#￥%&*......
+()||:Though Type 92 is going on and on, Type 56-1 can't hear a single thing besides her own sneezing.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Ah choo, ah-choo— Dint hear dat, whaddya say?+Ahhhhhhhhhh-choo! Can tayk it, I'm gunna wash muh nose out!!
+()||:...Supposedly, the whole dorm heard Type 56-1 sneezing countless times that afternoon.
+()||<黑点1>:
