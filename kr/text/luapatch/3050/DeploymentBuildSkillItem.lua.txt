@@ -3,8 +3,8 @@ xlua.private_accessible(CS.DeploymentBuildSkillItem)
 
 local RefreshLeftUI = function(self)
 	self:RefreshLeftUI();
+	local holder = self.transform:Find("Img_SpecialHolder");
 	if self.buildSkill.uicfg.is_manual_target == 4 then
-		local holder = self.transform:Find("Img_SpecialHolder");
 		if holder ~= nil then
 			holder.gameObject:SetActive(true);
 			local image = holder:GetComponent(typeof(CS.ExImage));
@@ -14,6 +14,10 @@ local RefreshLeftUI = function(self)
 			btn:AddOnClick(function()
 				self:CheckSkillTipContent();
 			end);
+		end
+	else
+		if holder ~= nil then
+			holder.gameObject:SetActive(false);
 		end
 	end
 end
