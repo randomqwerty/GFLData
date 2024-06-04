@@ -25,15 +25,23 @@ local ReturnContainerPos = function(self)
 end
 
 local CanChooseDrag = function(self)
+	if self.campaionId == -69 then
+		return false;
+	end
 	if self.currentChoose ~= nil then
 		return false;
 	end
 	return true;
 end
-local MoveToDiskMission = function(self,opsDiskMission,duration,handler)
-	self:MoveToDiskMission(opsDiskMission,duration,handler);
+
+local MoveSelectDiskMission = function(self,missionholder)
 	self:CancelMission();
+	local index = self.currentPanelConfig.oPSDiskMissions:IndexOf(missionholder.opsDiskMission);
+	self:MoveToDiskMission(missionholder.opsDiskMission,0.5,function()		
+		self:SeletDiskMission(index);
+	end)
 end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
-util.hotfix_ex(CS.OPSPanelController,'MoveToDiskMission',MoveToDiskMission)
+--util.hotfix_ex(CS.OPSPanelController,'MoveToDiskMission',MoveToDiskMission)
+util.hotfix_ex(CS.OPSPanelController,'MoveSelectDiskMission',MoveSelectDiskMission)
