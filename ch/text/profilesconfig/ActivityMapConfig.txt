@@ -60,7 +60,7 @@ MissionSelectionTex|missionselect_2022Scar|2|-56
 //2023春活配置：
 MissionSelectionTex|missionselect_Slowshock|1|-58
 //23春季肉鸽
-//MissionSelectionTex|missionselect_2022Summer|1|-59
+//MissionSelectionTex|missionselect_2023Rouge|2|-59
 //谜境守卫复刻
 MissionSelectionTex|missionselect_Labyrinthine Defense_RE|2|-60
 //237月试炼
@@ -71,18 +71,10 @@ MissionSelectionTex|missionselect_2023Se|1|-62
 MissionSelectionTex|missionselect_DualRandomness_RE|1|-63
 //攻壳联动
 MissionSelectionTex|missionselect_2024Ghost|1|-64
-<<<<<<< .mine
-//驱雾行动+
-MissionSelectionTex|missionselect_MirrorStage_RE|1|-65
-||||||| .r417364
-//错构之泉
-MissionSelectionTex|missionselect_202404Activity|1|-68
-=======
 //驱雾行动+
 MissionSelectionTex|missionselect_MirrorStage_RE|1|-65
 //错构之泉
 MissionSelectionTex|missionselect_202404Activity|1|-68
->>>>>>> .r418033
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -126,20 +118,15 @@ OPSPanelScene|-61|-61
 OPSPanelScene|-62|-62
 OPSPanelScene|-63|-63
 OPSPanelScene|-64|-64
-<<<<<<< .mine
-OPSPanelScene|-65|-65
-||||||| .r417364
-OPSPanelScene|-68|-68
-=======
 OPSPanelScene|-65|-65
 OPSPanelScene|-68|-68
->>>>>>> .r418033
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
 //OPSVideoFirst|-33|deepdive_short
 //OPSVideoFirst|-2|deepdive_short
 //OPSVideoFirst|-54|deepdive_short
+OPSVideoFirst|-68|202404ActivityPV
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -199,14 +186,8 @@ OPSLeftBGNormalActivity|-61|2023RougeSummer_Left
 OPSLeftBGNormalActivity|-62|2023Se_Left
 OPSLeftBGNormalActivity|-63|Activity_2020S_Left
 OPSLeftBGNormalActivity|-64|2024Ghost_Logo
-<<<<<<< .mine
-OPSLeftBGNormalActivity|-65|MirrorStage_Left
-||||||| .r417364
-OPSLeftBGNormalActivity|-68|202404Activity_Left
-=======
 OPSLeftBGNormalActivity|-65|MirrorStage_Left
 OPSLeftBGNormalActivity|-68|202404Activity_Left
->>>>>>> .r418033
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -244,8 +225,9 @@ OPSLeftBGNormalActivity|-68|202404Activity_Left
 //OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 //OPSNoticeNormalActivity|-61|2023RougeSummer_Notice//OPSNoticeNormalActivity|-62|2023Se_Notice
-//OPSNoticeNormalActivity|-62|2023Se_Notice
+OPSNoticeNormalActivity|-62|2023Se_Notice
 OPSNoticeNormalActivity|-64|2024Ghost_Notice
+OPSNoticeNormalActivity|-68|202404Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -277,14 +259,8 @@ OPSTimeNormalActivity|-61|Reversible_Time
 OPSTimeNormalActivity|-62|Reversible_Time
 OPSTimeNormalActivity|-63|Reversible_Time
 OPSTimeNormalActivity|-64|2024Ghost_Time
-<<<<<<< .mine
-OPSTimeNormalActivity|-65|Reversible_Time
-||||||| .r417364
-OPSTimeNormalActivity|-68|Reversible_Time
-=======
 OPSTimeNormalActivity|-65|Reversible_Time
 OPSTimeNormalActivity|-68|Reversible_Time
->>>>>>> .r418033
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -311,7 +287,8 @@ OPSGoto|Hallowmas_2020_GotoMall|0
 //OPSGoto|2021Summer_PointExchange|2
 //OPSGoto|Xmas_2021_GotoMall|0
 //OPSGoto|FixedPoint_GotoMall|0
-OPSGoto|WhiteDay_2022_GotoMall|0|-50
+OPSGoto|TheDivisoin_GotoMall|0|-43
+//OPSGoto|WhiteDay_2022_GotoMall|0|-50
 //混沌落幕复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
 //OPSGoto|Bikini_2022_GotoMall|0|-52
@@ -321,26 +298,17 @@ OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|ZLSR_GotoMall|0|-57
 OPSGoto|2023Spring_GotoMall|0|-58
 //OPSGoto|2023RougeSpring_GotoMall|0|-59
-//OPSGoto|2023RougeSpring_PointExchange|2|-59
+OPSGoto|2023RougeSpring_PointExchange|2|-59
 //谜境守卫复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
 OPSGoto|2023RougeSummer_GotoMall|0|-61
 OPSGoto|2023RougeSpring_PointExchange|2|-61
 OPSGoto|2023Se_GotoMall|0|-62
 //秘密窝点复刻配置_积分界面跳转
-//OPSGoto|Continuum_PointExchange|2
-OPSGoto|2024Ghost_GotoMall|0|-64
-//驱雾行动复刻配置_积分界面跳转
 OPSGoto|Continuum_PointExchange|2
-<<<<<<< .mine
-||||||| .r417364
-OPSGoto|2024Ghost_GotoMall|0|-64
-OPSGoto|2023RougeSummer_GotoMall|0|-68
-=======
 OPSGoto|2024Ghost_GotoMall|0|-64
 OPSGoto|MirrorStage_PointExchange|2|-65
 OPSGoto|2023RougeSummer_GotoMall|0|-68
->>>>>>> .r418033
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -394,6 +362,7 @@ OPSProgressNormalActivity|-61|Reversible_Progress
 OPSProgressNormalActivity|-62|Reversible_Progress
 OPSProgressNormalActivity|-63|Reversible_Progress
 OPSProgressNormalActivity|-64|2024Ghost_Progress
+OPSProgressNormalActivity|-68|Reversible_Progress
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
 OPSMain|-2|Snow|Map2
@@ -531,6 +500,7 @@ OPSCampaignTitleButton|-59|true|Empty_Title2
 OPSCampaignTitleButton|-61|true|2023RougeSummer_Diffculty2Btn
 OPSCampaignTitleButton|-62|true|2023Se_Diffculty2Btn
 OPSCampaignTitleButton|-64|true|2024Ghost_Diffculty2Btn
+OPSCampaignTitleButton|-68|true|202404Acticity_Difficulty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -570,11 +540,13 @@ OPSCampaignTitleButton|-64|true|2024Ghost_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
 //OPSCampaignTitleButtonTip|-52|100190|60|Bikini_2022_Tip|1
 //OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
-OPSCampaignTitleButtonTip|-56|100207|60|2022Scar_Tip|1
+//OPSCampaignTitleButtonTip|-56|100207|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 //OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 //OPSCampaignTitleButtonTip|-61|100193|60|2023RougeSummer_Tip|1
 //OPSCampaignTitleButtonTip|-62|100196|60|2023Se_MissionPanelTip|1
+OPSCampaignTitleButtonTip|-68|100214|60|202404Acticity_Tip|1
+
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -592,6 +564,7 @@ OPSShowItemDeployment|532|2023Se_Buff_Arms|11462,11465,11468,11471
 OPSShowItemDeployment|533|2023Se_Buff_PA|11463,11466,11469,11472
 OPSShowItemDeployment|531,532,533|2023Se_All|11473,11474
 OPSShowItemDeployment|542|MirrorStageScore_DeploymentItems|11549,11549
+
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07
@@ -1940,5 +1913,32 @@ OPSCampaignDetail|-62_28|0,0|Strelet
 //秘密窝点复刻配置
 OPSCampaignDetail|-63_1|0,0|DestroyerPlus
 
-//秘密窝点复刻配置
-OPSCampaignDetail|-65_1|0,0|Narciss
+//错构之泉关卡头像
+OPSCampaignDetail|-68_1|0,0|AR18_NPC
+OPSCampaignDetail|-68_2|0,0|Erma_NPC
+OPSCampaignDetail|-68_3|0,0|Stevens520
+OPSCampaignDetail|-68_4|0,0|Stevens520
+OPSCampaignDetail|-68_5|0,0|ColtWalker_10302
+OPSCampaignDetail|-68_6|0,0|guard_bald
+OPSCampaignDetail|-68_7|0,0|Hume_lab
+OPSCampaignDetail|-68_8|0,0|Stevens620
+OPSCampaignDetail|-68_9|0,0|Beast
+OPSCampaignDetail|-68_10|0,0|Erma_10201
+OPSCampaignDetail|-68_11|0,0|Erma_sleep
+OPSCampaignDetail|-68_12|0,0|Isomer
+OPSCampaignDetail|-68_13|0,0|Sana_adult
+OPSCampaignDetail|-68_14|0,0|Erma_10201
+OPSCampaignDetail|-68_15|0,0|Sana
+OPSCampaignDetail|-68_16|0,0|Erma_10201
+OPSCampaignDetail|-68_17|0,0|Erma_NPC
+OPSCampaignDetail|-68_18|0,0|Erma_NPC
+OPSCampaignDetail|-68_19|0,0|Erma_NPC
+OPSCampaignDetail|-68_20|0,0|Erma_NPC
+OPSCampaignDetail|-68_21|0,0|Erma_NPC
+OPSCampaignDetail|-68_22|0,0|guard_bald
+OPSCampaignDetail|-68_23|0,0|Beast
+OPSCampaignDetail|-68_24|0,0|Isomer
+OPSCampaignDetail|-68_25|0,0|Sana
+OPSCampaignDetail|-68_26|0,0|guard_katsura
+OPSCampaignDetail|-68_27|0,0|guard_katsura
+OPSCampaignDetail|-68_28|0,0|Nidalee
