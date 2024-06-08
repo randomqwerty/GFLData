@@ -354,7 +354,8 @@ patch3040=
 "3040/DailyExploreData",	
 "3040/VehicleFormationData",
 "3040/EquipDetailCtrl",		
-"3040/MissionSelectionMissionDetailController",							
+"3040/MissionSelectionMissionDetailController",	
+"3040/SangvisGunStateBaseInfoController",						
 }
 patch3050=
 {
@@ -367,16 +368,20 @@ patch3050=
 "3050/CommonTopStoryController",
 "3050/DeploymentSangvisSkillPanelController",
 "3050/DeploymentController",
+"3050/DeploymentAllyTeamController",	
 "3050/DeploymentBuildSkillItem",
 "3050/DeploymentAutoBattleController",	
 "3050/GuideDeploymentController",
 "3050/OPSPanelMissionBase",
-"3050/OPSPanelController",	
+"3050/OPSPanelController",
+"3050/OPSEventPrizeController",		
 "3040/VehicleFormationData",
 "3050/SpineEffectController",	
 "3040/EquipDetailCtrl",	
 "3050/MissionSelectionMissionDetailController",
-"3050/SquadListController",											
+"3050/SquadListController",
+"3050/CommonVehicleComponentListController",
+"3040/SangvisGunStateBaseInfoController",												
 }
 -- va11
 print("load Va11");

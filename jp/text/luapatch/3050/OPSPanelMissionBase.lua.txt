@@ -4,6 +4,12 @@ xlua.private_accessible(CS.OPSPanelMissionHolder)
 
 local ChectSelect = function(self,oPSPanelMissionBase)
 	self:ChectSelect(oPSPanelMissionBase);
+	if self.holder == nil  then
+		return;
+	end
+	if self.holder.opsDiskMission == nil then
+		return;
+	end
 	local parent = self.transform.parent.parent.parent:Find("Img_Guide");
 	if parent == nil then
 		return;
