@@ -10,7 +10,7 @@ RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……
 M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:怎么了？
 RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:虽然知道有可能会在这里再次见到你，但是当真的见到你的时候……
 M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,180</Position><Scale>0.9</Scale><Shake>||<common_effect>%%code=CJ_suduxian%%</common_effect>:<size=50>呜哇——</size>
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3><common_effect_clear>%%all=1%%</common_effect_clear><震屏3>:SOP2无法再压制情绪，肆无忌惮地扑在M16的怀中。
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3><common_effect>%%code=CJ_suduxian_destroy%%</common_effect><震屏3>:SOP2无法再压制情绪，肆无忌惮地扑在M16的怀中。
 M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:16！我好想你啊！
 M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position><Shake>||:干什么？没必要吧。
 AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:……
@@ -118,7 +118,7 @@ M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:
 ()<Speaker></Speaker>||<SE1>Rope</SE1>:SOP2爬起来，奔跑的脚步一迈出，便被牢牢攥住！
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake><SE1>AVG_Into_stone</SE1>:咕吱……咕吱……+不知从何处伸出的绿色藤蔓肆意生长，牢牢地吸附在SOP2的腿上，紧紧地箍住，使她动弹不得。
 M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||<common_effect>%%code=CJ_suduxian%%</common_effect><BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Pause</SE1>:<size=50>呃啊啊啊啊——M4！！！</size>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tinnitus_0</SE1><common_effect_clear>%%all=1%%</common_effect_clear>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tinnitus_0</SE1><common_effect>%%code=CJ_suduxian_destroy%%</common_effect>:
 M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||<SE1>ClothingUp</SE1>:……
 ()<Speaker></Speaker>||:听见SOP2的悲鸣，站在高处的她只是微微皱了皱眉。
 M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:她很难过。
@@ -162,7 +162,7 @@ M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:
 M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:走到今天，我真的一点都不后悔！！！
 M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:SOP2……
 M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||<common_effect>%%code=CJ_suduxian%%</common_effect>:<size=50>开枪啊！！！</size>
-()<Speaker>RO635</Speaker>||<common_effect_clear>%%all=1%%</common_effect_clear>:SOP2！！！
+()<Speaker>RO635</Speaker>||<common_effect>%%code=CJ_suduxian_destroy%%</common_effect>:SOP2！！！
 ()<Speaker></Speaker>||<震屏3><CGDelay>1</CGDelay><SE1>AVG_rifle_finalshot_h</SE1><BGM>BGM_Empty</BGM>:砰——
 ()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:什么东西来到了M16的手中，在恍惚的眩晕感中，M16看见RO和AR15狂奔而来……
 ()||<黑屏1><CGDelay>0.7</CGDelay>:

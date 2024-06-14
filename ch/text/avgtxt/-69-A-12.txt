@@ -59,7 +59,7 @@ NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position><Sha
 NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position>||:真、真的要动手吗？
 NPC-Tarot_Leangle(0)<Speaker>权杖精灵</Speaker><Position>0,250</Position>||:事已至此，我们已经没有回头路了。
 NPC-Tarot_Chalice(0)<Speaker>圣杯精灵</Speaker><Position>0,180</Position><Scale>0.9</Scale>||<common_effect>%%code=CJ_suduxian%%</common_effect>:动手吧。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1><common_effect_clear>%%all=1%%</common_effect_clear>:在漆黑的房间里，三个精灵扬起了手中的利刃——
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1><common_effect>%%code=CJ_suduxian_destroy%%</common_effect>:在漆黑的房间里，三个精灵扬起了手中的利刃——
 ()<Speaker></Speaker>||<白屏2><SE1>AVG_20Winter_Knife_Whoosh</SE1><CGDelay>0.2</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><CGDelay>0.1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:唰——唰唰——
