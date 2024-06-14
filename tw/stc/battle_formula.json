@@ -5104,6 +5104,106 @@
     "formula": "$1*(1+0.5*(#formation-1))"
   },
   {
+    "id": 2369,
+    "formula": "#Life*0.9"
+  },
+  {
+    "id": 2370,
+    "formula": "(#maxlife-#life)*0.1>#life?0:(#maxlife-#life)*0.1*(1-#def/#maxdef)>9999?9999:(#maxlife-#life)*0.1*(1-#def/#maxdef)"
+  },
+  {
+    "id": 2371,
+    "formula": "@maxlife-@life"
+  },
+  {
+    "id": 2372,
+    "formula": "@gunnumber>0?@Maxlife/@gunnumber*sbuffidtier(2446)*0.01:@Maxlife/@formation*sbuffidtier(2446)*0.01"
+  },
+  {
+    "id": 2373,
+    "formula": "@shield*@formation/@Maxlife>sbuffidtier(2446)*0.01?(100+sbuffidtier(2446)):(100*(1+@shield*@formation/@Maxlife))"
+  },
+  {
+    "id": 2374,
+    "formula": "(#maxlife-#life)*0.1>#life?0:(#maxlife-#life)*0.1>9999?9999:(#maxlife-#life)*0.1"
+  },
+  {
+    "id": 2375,
+    "formula": "@life>@maxlife*0.8?$1>999?999:$1:0"
+  },
+  {
+    "id": 2376,
+    "formula": "@life>@maxlife*0.6?$1>999?999:$1:0"
+  },
+  {
+    "id": 2377,
+    "formula": "@life>@maxlife*0.3?$1>999?999:$1:0"
+  },
+  {
+    "id": 2378,
+    "formula": "sbuffidtier(2501)=1?2525:(sbuffidtier(2501)=2?2526:(sbuffidtier(2501)=3?2527:(sbuffidtier(2501)=4?2528:(sbuffidtier(2501)=5?2529:(sbuffidtier(2501)=6?2530:2525)))))"
+  },
+  {
+    "id": 2379,
+    "formula": "sbuffidtier(2501)=0?0:1"
+  },
+  {
+    "id": 2380,
+    "formula": "tbuffidtier(4683)<29?1:0"
+  },
+  {
+    "id": 2381,
+    "formula": "tbuffidtier(4683)<29?0:1"
+  },
+  {
+    "id": 2401,
+    "formula": "$1>999?999:$1"
+  },
+  {
+    "id": 2402,
+    "formula": "(@maxlife-@life)*(0.3+sbuffidtier(2501)*0.05)"
+  },
+  {
+    "id": 2403,
+    "formula": "@Maxlife*0.1"
+  },
+  {
+    "id": 2404,
+    "formula": "@pow"
+  },
+  {
+    "id": 2405,
+    "formula": "@hit"
+  },
+  {
+    "id": 2406,
+    "formula": "@dodge"
+  },
+  {
+    "id": 2407,
+    "formula": "@ap"
+  },
+  {
+    "id": 2408,
+    "formula": "@armor"
+  },
+  {
+    "id": 2409,
+    "formula": "@rate"
+  },
+  {
+    "id": 2410,
+    "formula": "GetChance(33)?2506:GetChance(50)?2507:2508"
+  },
+  {
+    "id": 2411,
+    "formula": "GetChance(33)?2510:GetChance(50)?2511:2513"
+  },
+  {
+    "id": 2412,
+    "formula": "GetChance(33)?2514:GetChance(50)?2515:2517"
+  },
+  {
     "id": 3001,
     "formula": "170+sbuffidtier(3300)*22"
   },
@@ -14236,6 +14336,10 @@
     "formula": "sbuffidtier(9474)=1&sbuffidtier(9475)=1?1:0"
   },
   {
+    "id": 5587,
+    "formula": "@MaxLife*0.01"
+  },
+  {
     "id": 6000,
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
   },
@@ -14254,6 +14358,102 @@
   {
     "id": 6004,
     "formula": "$1*(1+(1-#life/#maxlife)*100*(0.001+0.0002*sbuffidtier(60006)))/#formation+tbufftypetier(601)"
+  },
+  {
+    "id": 7000,
+    "formula": "#location=1?1:0"
+  },
+  {
+    "id": 7001,
+    "formula": "#location=2?1:0"
+  },
+  {
+    "id": 7002,
+    "formula": "#location=3?1:0"
+  },
+  {
+    "id": 7003,
+    "formula": "#location=4?1:0"
+  },
+  {
+    "id": 7004,
+    "formula": "#location=5?1:0"
+  },
+  {
+    "id": 7005,
+    "formula": "@formation"
+  },
+  {
+    "id": 7006,
+    "formula": "@formation<$1?1:0"
+  },
+  {
+    "id": 7007,
+    "formula": "@Maxlife/@gunnumber"
+  },
+  {
+    "id": 7008,
+    "formula": "@pow"
+  },
+  {
+    "id": 7009,
+    "formula": "@hit"
+  },
+  {
+    "id": 7010,
+    "formula": "@dodge"
+  },
+  {
+    "id": 7011,
+    "formula": "@ap"
+  },
+  {
+    "id": 7012,
+    "formula": "@armor"
+  },
+  {
+    "id": 7013,
+    "formula": "@Critical*100"
+  },
+  {
+    "id": 7014,
+    "formula": "@rate>150?150:@rate"
+  },
+  {
+    "id": 7015,
+    "formula": "@Maxlife/@gunnumber*0.6"
+  },
+  {
+    "id": 7016,
+    "formula": "@Maxlife/@gunnumber*0.64"
+  },
+  {
+    "id": 7017,
+    "formula": "@Maxlife/@gunnumber*0.68"
+  },
+  {
+    "id": 7018,
+    "formula": "@Maxlife/@gunnumber*0.74"
+  },
+  {
+    "id": 7019,
+    "formula": "@Maxlife/@gunnumber*0.78"
+  },
+  {
+    "id": 7020,
+    "formula": "@Maxlife/@gunnumber*0.82"
+  },
+  {
+    "id": 7021,
+    "formula": "@Maxlife/@gunnumber*0.86"
+  },
+  {
+    "id": 7022,
+    "formula": "@Maxlife/@gunnumber*0.92"
+  },
+  {
+    "id": 7023,
+    "formula": "@Maxlife/@gunnumber*0.96"
   },
   {
     "id": 9001,
@@ -14894,6 +15094,106 @@
   {
     "id": 9421,
     "formula": "sbuffidtier(9544)=1?tbuffidtier(4683)<29?-99:0:0"
+  },
+  {
+    "id": 9422,
+    "formula": "sbuffidtier(9546)=1&sbuffidtier(9547)=1?1:0"
+  },
+  {
+    "id": 9423,
+    "formula": "sbuffidtier(9549)=1&sbuffidtier(9550)=1?1:0"
+  },
+  {
+    "id": 9424,
+    "formula": "sbuffidtier(9551)=1?4:2.5"
+  },
+  {
+    "id": 9425,
+    "formula": "sbuffidtier(9551)=1?1:0"
+  },
+  {
+    "id": 9426,
+    "formula": "sbuffidtier(9551)=1?0:1"
+  },
+  {
+    "id": 9427,
+    "formula": "sbuffidtier(9548)=1?55:70"
+  },
+  {
+    "id": 9428,
+    "formula": "sbuffidtier(9548)=1?53:68"
+  },
+  {
+    "id": 9429,
+    "formula": "sbuffidtier(9548)=1?52:67"
+  },
+  {
+    "id": 9430,
+    "formula": "sbuffidtier(9548)=1?50:65"
+  },
+  {
+    "id": 9431,
+    "formula": "sbuffidtier(9548)=1?48:63"
+  },
+  {
+    "id": 9432,
+    "formula": "sbuffidtier(9548)=1?47:62"
+  },
+  {
+    "id": 9433,
+    "formula": "sbuffidtier(9548)=1?45:60"
+  },
+  {
+    "id": 9434,
+    "formula": "sbuffidtier(9548)=1?43:58"
+  },
+  {
+    "id": 9435,
+    "formula": "sbuffidtier(9548)=1?42:57"
+  },
+  {
+    "id": 9436,
+    "formula": "sbuffidtier(9548)=1?40:55"
+  },
+  {
+    "id": 9437,
+    "formula": "sbuffidtier(9548)=1?79:94"
+  },
+  {
+    "id": 9438,
+    "formula": "sbuffidtier(9548)=1?78:93"
+  },
+  {
+    "id": 9439,
+    "formula": "sbuffidtier(9548)=1?77:92"
+  },
+  {
+    "id": 9440,
+    "formula": "sbuffidtier(9548)=1?76:91"
+  },
+  {
+    "id": 9441,
+    "formula": "sbuffidtier(9548)=1?75:90"
+  },
+  {
+    "id": 9442,
+    "formula": "sbuffidtier(9548)=1?74:89"
+  },
+  {
+    "id": 9443,
+    "formula": "sbuffidtier(9548)=1?73:88"
+  },
+  {
+    "id": 9444,
+    "formula": "sbuffidtier(9548)=1?72:87"
+  },
+  {
+    "id": 9445,
+    "formula": "sbuffidtier(9548)=1?71:86"
+  },
+  {
+    "id": 9446,
+    "formula": "sbuffidtier(9548)=1?70:85"
   },
   {
     "id": 13280,

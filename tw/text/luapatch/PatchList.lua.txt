@@ -355,7 +355,12 @@ patch3040=
 "3040/VehicleFormationData",
 "3040/EquipDetailCtrl",		
 "3040/MissionSelectionMissionDetailController",	
-"3040/SangvisGunStateBaseInfoController",						
+"3040/SangvisGunStateBaseInfoController",		
+"3040/BattleConditionList",	
+"3040/DeploymentEffectivenessController",
+"3040/CommonSquadListLabelController",
+"3040/CommonSendSkinToGunController",
+"3040/ExchangeShopItemController",				
 }
 patch3050=
 {
@@ -370,7 +375,8 @@ patch3050=
 "3050/DeploymentController",
 "3050/DeploymentAllyTeamController",	
 "3050/DeploymentBuildSkillItem",
-"3050/DeploymentAutoBattleController",	
+"3050/DeploymentAutoBattleController",
+"3050/DeploymentMapDragController",		
 "3050/GuideDeploymentController",
 "3050/OPSPanelMissionBase",
 "3050/OPSPanelController",
@@ -381,7 +387,12 @@ patch3050=
 "3050/MissionSelectionMissionDetailController",
 "3050/SquadListController",
 "3050/CommonVehicleComponentListController",
-"3040/SangvisGunStateBaseInfoController",												
+"3040/SangvisGunStateBaseInfoController",		
+"3050/BattleConditionList",	
+"3040/DeploymentEffectivenessController",
+"3040/CommonSquadListLabelController",
+"3040/CommonSendSkinToGunController",
+"3040/ExchangeShopItemController",											
 }
 -- va11
 print("load Va11");
