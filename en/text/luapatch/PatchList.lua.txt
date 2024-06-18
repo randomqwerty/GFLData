@@ -359,7 +359,8 @@ patch3040=
 "3040/BattleConditionList",	
 "3040/DeploymentEffectivenessController",
 "3040/CommonSquadListLabelController",
-"3040/CommonSendSkinToGunController",				
+"3040/CommonSendSkinToGunController",
+"3040/ExchangeShopItemController",				
 }
 patch3050=
 {
@@ -390,7 +391,8 @@ patch3050=
 "3050/BattleConditionList",	
 "3040/DeploymentEffectivenessController",
 "3040/CommonSquadListLabelController",
-"3040/CommonSendSkinToGunController",											
+"3040/CommonSendSkinToGunController",
+"3040/ExchangeShopItemController",											
 }
 -- va11
 print("load Va11");
