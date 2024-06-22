@@ -34,6 +34,16 @@ local CanChooseDrag = function(self)
 	return true;
 end
 
+local ShowProcessAllMission = function(self)
+	local choose = self.currentChoose;
+	local spot = self.chooseSpot;
+	self.currentChoose = nil;
+	self.chooseSpot = nil;
+	self:ShowProcessAllMission();
+	self.currentChoose = choose;
+	self.chooseSpot = spot;
+end
+
 local MoveSelectDiskMission = function(self,missionholder)
 	self:CancelMission();
 	local index = self.currentPanelConfig.oPSDiskMissions:IndexOf(missionholder.opsDiskMission);
@@ -43,5 +53,6 @@ local MoveSelectDiskMission = function(self,missionholder)
 end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
---util.hotfix_ex(CS.OPSPanelController,'MoveToDiskMission',MoveToDiskMission)
+util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
 util.hotfix_ex(CS.OPSPanelController,'MoveSelectDiskMission',MoveSelectDiskMission)
+

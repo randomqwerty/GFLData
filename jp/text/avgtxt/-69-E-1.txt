@@ -17,7 +17,7 @@ AR15Tarot(0)<Position>0,250</Position><Speaker>AR15</Speaker>||<边框>2</边框
 ()||<黑屏1><CGDelay>0.7</CGDelay><边框>2</边框>:
 ()<Speaker></Speaker>||<BIN>704</BIN><关闭蒙版><黑屏2><CGDelay>0.5</CGDelay>:
 M16A1BOSS(4)<Speaker>M16A1</Speaker>||:“雷纳德·卡加”……
-()<Speaker></Speaker>||:M16不断重复着这个有些拗口的名字。+忽然，失声大笑。
+()<Speaker></Speaker>||:M16不断重复着这个有些拗口的名字。+忽然，哑然失笑。
 ()<Speaker></Speaker>||:“Leinad Kcaj”——Jack Daniel+她最爱的威士忌。
 M16A1BOSS(5)<Speaker>M16A1</Speaker>||:真是……疯了……+这就是“命运之轮”的馈赠吗……+或者该说，是一种惩罚？
 ()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:轰隆……海底般深邃的空间中传来隐隐的震荡。+脚边，一个黑暗幽深的洞窟徐徐展开……+一个新的世界开始了。
@@ -26,7 +26,7 @@ M16A1BOSS(5)<Speaker>M16A1</Speaker>||:……+很快就要再次见面了，M4�
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<common_effect>%%code=CJ_suduxian%%</common_effect><SE1>Stop_AVG_loop</SE1><BIN>9</BIN><黑屏2><SE1>AVG_flag</SE1>:无尽的坠落中，她沉沉地闭上双眼……
 ()<Speaker></Speaker>||:即使不是最后一次，也没有关系。+因为无论多少次，她都会找到M4，追随在她的身后，再度留下希望的火种。+正如之前经历的无数岁月，那些无数个她所遗忘的，无数个轮回的时光……
-()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM><common_effect_clear>%%all=1%%</common_effect_clear><SE1>Stop_AVG_loop</SE1>:
+()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM><common_effect>%%code=CJ_suduxian_destroy%%</common_effect><SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_2023Slow_Heart_Monitor1</SE1><黑屏2>:滴——滴——+仪器规律的叫声将她从昏迷中唤醒。
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<睁眼><BIN>568</BIN><CGDelay>0.8</CGDelay>:
@@ -132,7 +132,7 @@ M16A1BOSS(4)<Speaker>M16A1</Speaker>||:……又是一个赝品。
 ()<Speaker></Speaker>||:随手将目标提溜起来，M16环顾了一下周遭，看向了仓库的方向。
 M16A1BOSS(2)<Speaker>M16A1</Speaker>||:……时候到了啊。
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<common_effect_clear>%%all=1%%</common_effect_clear><BIN>356</BIN><BGM>GF_EV9_Story</BGM><黑屏2><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<common_effect>%%code=CJ_rain_destroy%%</common_effect><BIN>356</BIN><BGM>GF_EV9_Story</BGM><黑屏2><CGDelay>0.7</CGDelay>:
 M16A1BOSS(2)<Speaker>M16A1</Speaker>||:你们那么紧张干什么？
 ()<Speaker></Speaker>||:M16坐在角落里，样子看起来十分悠闲。
 AR15Mod(4)<Speaker>AR15</Speaker>||:……M4一直醒不过来，你说我们为什么这么紧张？

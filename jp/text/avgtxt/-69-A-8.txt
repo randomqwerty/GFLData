@@ -143,7 +143,7 @@ NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:……唔呃！
 ()<Speaker></Speaker>||:M4奋力张开双臂，却触不到任何真切的物体或墙面。+洞窟的入口，蓝色天空的光芒越来越远，如远去的流星，瞬间消逝于视野中……
 ()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:嗡——+尖锐的刺痛感从后脑猛地袭来！+不是物体的撞击，而是内部仿佛有什么东西隐隐作痛——
 NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:<size=50>呃啊——！！</size>
-()<Speaker></Speaker>||<SE1>Explode</SE1><common_effect_clear>%%all=1%%</common_effect_clear>:砰！+一记触底般猛烈的冲撞将所有的刺痛感狠狠敲碎。+所有触觉和知觉，在一瞬间随着少女的素体一起被肢解，成为永恒静默的空白……
+()<Speaker></Speaker>||<SE1>Explode</SE1><common_effect>%%code=CJ_suduxian_destroy%%</common_effect>:砰！+一记触底般猛烈的冲撞将所有的刺痛感狠狠敲碎。+所有触觉和知觉，在一瞬间随着少女的素体一起被肢解，成为永恒静默的空白……
 ()||<黑屏1><CGDelay>1</CGDelay>:
 AR15(0)<Speaker>AR15</Speaker>||<黑屏2><BIN>9</BIN><回忆>:那么……最后一个问题，你要认真回答我。
 AR15(0)<Speaker>AR15</Speaker>||:M4A1……你到底是谁？
@@ -186,7 +186,7 @@ NPC-lnxy(1)<Speaker>M4A1</Speaker>||:骗子，15不会说这样的话！
 ()<Speaker>M4A1</Speaker>||:……
 ()<Speaker>？？？</Speaker>||:<color=#FFCC33>振作起来，M4！</color>
 ()<Speaker>M4A1</Speaker>||:16姐……？
-()||<黑屏1><CGDelay>0.7</CGDelay><common_effect_clear>%%all=1%%</common_effect_clear><SE1>AVG_Cloak_Whoosh</SE1>:
+()||<黑屏1><CGDelay>0.7</CGDelay><common_effect>%%code=CJ_suduxian_destroy%%</common_effect><SE1>AVG_Cloak_Whoosh</SE1>:
 ()<Speaker></Speaker>||<睁眼><BIN>702</BIN><CGDelay>0.7</CGDelay>:
 NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:咳……咳……
 M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:感谢我吧，你又一次和死神擦肩而过。

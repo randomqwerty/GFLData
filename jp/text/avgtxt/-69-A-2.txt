@@ -139,7 +139,7 @@ NPC-Tarot_Leangle(0)<Speaker>权杖精灵</Speaker><Position>0,250</Position>||:
 M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:真遗憾。
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE2>Gunfight</SE2>:呯呯呯——+脆弱的牌卡被打烂成了碎片。+朝着未知的目的地，M16头也不回地离开了这里。
 ()||<黑屏1><CGDelay>0.9</CGDelay>:
-()<Speaker></Speaker>||<BIN>563</BIN><黑屏2><BGM>BGM_DescartesInTheTheatre</BGM>:……
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><BIN>563</BIN><黑屏2><BGM>BGM_DescartesInTheTheatre</BGM>:……
 NPC-Tarot_Chalice(0)<Speaker>圣杯精灵</Speaker><Position>0,250</Position><Shake>||:<size=50>都怪你！都怪你啊！你给我去死吧！</size>
 NPC-Tarot_Leangle(0)<Speaker>权杖精灵</Speaker><Position>0,250</Position><Shake>||:干什么？！你又不是没有搞砸过我的绩效！
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_Combat_Hits</SE1>:黑暗的空间，两张牌卡扭打在一起。

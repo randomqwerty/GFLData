@@ -114,7 +114,7 @@
       "id": "11",
       "type": "consume_furniture_coin",
       "count": "1000",
-      "prize_id": "10099",
+      "prize_id": "10095",
       "title": "限时采购",
       "content": "累计消耗采购币*1000",
       "function_control_id": "0",
@@ -167,138 +167,50 @@
     },
     {
       "id": "16",
-      "type": "operation_duration",
-      "count": "100",
+      "type": "mission_win",
+      "count": "10",
       "prize_id": "10088",
-      "title": "后勤支援",
-      "content": "后勤支援累计完成100小时",
+      "title": "战役关卡",
+      "content": "战役胜利情况下挑战任意战役关卡10次（自律除外）",
       "function_control_id": "0",
-      "carnival_type_id": "14",
+      "carnival_type_id": "11",
       "goto_page_id": "0"
     },
     {
       "id": "17",
-      "type": "operation_duration",
-      "count": "200",
+      "type": "mission_win",
+      "count": "20",
       "prize_id": "10091",
-      "title": "后勤支援",
-      "content": "后勤支援累计完成200小时",
+      "title": "战役关卡",
+      "content": "战役胜利情况下挑战任意战役关卡20次（自律除外）",
       "function_control_id": "0",
-      "carnival_type_id": "14",
+      "carnival_type_id": "11",
       "goto_page_id": "0"
     },
     {
       "id": "18",
-      "type": "operation_duration",
-      "count": "400",
+      "type": "mission_win",
+      "count": "50",
       "prize_id": "10094",
-      "title": "后勤支援",
-      "content": "后勤支援累计完成400小时",
+      "title": "战役关卡",
+      "content": "战役胜利情况下挑战任意战役关卡50次（自律除外）",
       "function_control_id": "0",
-      "carnival_type_id": "14",
+      "carnival_type_id": "11",
       "goto_page_id": "0"
     },
     {
       "id": "19",
-      "type": "operation_big_success",
-      "count": "3",
-      "prize_id": "10086",
-      "title": "后勤大成功",
-      "content": "累计后勤大成功3次",
+      "type": "mission_win",
+      "count": "100",
+      "prize_id": "10097",
+      "title": "战役关卡",
+      "content": "战役胜利情况下挑战任意战役关卡100次（自律除外）",
       "function_control_id": "0",
-      "carnival_type_id": "67",
+      "carnival_type_id": "11",
       "goto_page_id": "0"
     },
     {
       "id": "20",
-      "type": "operation_big_success",
-      "count": "5",
-      "prize_id": "10091",
-      "title": "后勤大成功",
-      "content": "累计后勤大成功5次",
-      "function_control_id": "0",
-      "carnival_type_id": "67",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "21",
-      "type": "operation_big_success",
-      "count": "10",
-      "prize_id": "10094",
-      "title": "后勤大成功",
-      "content": "累计后勤大成功10次",
-      "function_control_id": "0",
-      "carnival_type_id": "67",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "22",
-      "type": "consume_bp",
-      "count": "10",
-      "prize_id": "10086",
-      "title": "动能消耗（包含超导动能）",
-      "content": "累计消耗动能*10",
-      "function_control_id": "0",
-      "carnival_type_id": "18",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "23",
-      "type": "consume_bp",
-      "count": "30",
-      "prize_id": "10091",
-      "title": "动能消耗（包含超导动能）",
-      "content": "累计消耗动能*30",
-      "function_control_id": "0",
-      "carnival_type_id": "18",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "24",
-      "type": "consume_bp",
-      "count": "50",
-      "prize_id": "10094",
-      "title": "动能消耗（包含超导动能）",
-      "content": "累计消耗动能*50",
-      "function_control_id": "0",
-      "carnival_type_id": "18",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "25",
-      "type": "consume_sangvis_material1_coin",
-      "count": "10",
-      "prize_id": "10086",
-      "title": "势能消耗（包括超导势能）",
-      "content": "累计消耗势能10个",
-      "function_control_id": "0",
-      "carnival_type_id": "130",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "26",
-      "type": "consume_sangvis_material1_coin",
-      "count": "30",
-      "prize_id": "10091",
-      "title": "势能消耗（包括超导势能）",
-      "content": "累计消耗势能30个",
-      "function_control_id": "0",
-      "carnival_type_id": "130",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "27",
-      "type": "consume_sangvis_material1_coin",
-      "count": "50",
-      "prize_id": "10094",
-      "title": "势能消耗（包括超导势能）",
-      "content": "累计消耗势能50个",
-      "function_control_id": "0",
-      "carnival_type_id": "130",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "28",
       "type": "collect_gun",
       "count": "10",
       "prize_id": "10088",
@@ -309,7 +221,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "29",
+      "id": "21",
       "type": "collect_gun",
       "count": "30",
       "prize_id": "10091",
@@ -320,7 +232,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "30",
+      "id": "22",
       "type": "collect_gun",
       "count": "50",
       "prize_id": "10094",
@@ -331,7 +243,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "31",
+      "id": "23",
       "type": "collect_gun",
       "count": "100",
       "prize_id": "10097",
@@ -342,7 +254,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "32",
+      "id": "24",
       "type": "develop_gun_rank4",
       "count": "1",
       "prize_id": "10088",
@@ -353,7 +265,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "33",
+      "id": "25",
       "type": "develop_gun_rank4",
       "count": "5",
       "prize_id": "10091",
@@ -364,7 +276,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "34",
+      "id": "26",
       "type": "develop_gun_rank5",
       "count": "1",
       "prize_id": "10094",
@@ -375,7 +287,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "35",
+      "id": "27",
       "type": "develop_gun_rank5",
       "count": "5",
       "prize_id": "10097",
@@ -386,18 +298,40 @@
       "goto_page_id": "0"
     },
     {
-      "id": "36",
-      "type": "upgrade",
-      "count": "1",
-      "prize_id": "10086",
-      "title": "技能升级",
-      "content": "累计升级人形/妖精技能1次",
+      "id": "28",
+      "type": "consume_iop_contract",
+      "count": "20",
+      "prize_id": "10091",
+      "title": "人形制造",
+      "content": "累计消耗人形制造契约*20",
       "function_control_id": "0",
-      "carnival_type_id": "12",
+      "carnival_type_id": "3",
       "goto_page_id": "0"
     },
     {
-      "id": "37",
+      "id": "29",
+      "type": "consume_iop_contract",
+      "count": "50",
+      "prize_id": "10094",
+      "title": "人形制造",
+      "content": "累计消耗人形制造契约*50",
+      "function_control_id": "0",
+      "carnival_type_id": "3",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "30",
+      "type": "consume_iop_contract",
+      "count": "100",
+      "prize_id": "10097",
+      "title": "人形制造",
+      "content": "累计消耗人形制造契约*100",
+      "function_control_id": "0",
+      "carnival_type_id": "3",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "31",
       "type": "upgrade",
       "count": "3",
       "prize_id": "10088",
@@ -408,7 +342,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "38",
+      "id": "32",
       "type": "upgrade",
       "count": "5",
       "prize_id": "10091",
@@ -419,7 +353,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "39",
+      "id": "33",
       "type": "upgrade",
       "count": "10",
       "prize_id": "10094",
@@ -430,7 +364,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "40",
+      "id": "34",
       "type": "consume_coin1",
       "count": "1000",
       "prize_id": "10088",
@@ -441,7 +375,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "41",
+      "id": "35",
       "type": "consume_coin2",
       "count": "500",
       "prize_id": "10091",
@@ -452,7 +386,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "42",
+      "id": "36",
       "type": "consume_coin3",
       "count": "100",
       "prize_id": "10094",
@@ -463,7 +397,40 @@
       "goto_page_id": "0"
     },
     {
-      "id": "43",
+      "id": "37",
+      "type": "consume_mre",
+      "count": "10000",
+      "prize_id": "10088",
+      "title": "口粮消耗",
+      "content": "累计消耗口粮*10000",
+      "function_control_id": "0",
+      "carnival_type_id": "39",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "38",
+      "type": "consume_mre",
+      "count": "20000",
+      "prize_id": "10091",
+      "title": "口粮消耗",
+      "content": "累计消耗口粮*20000",
+      "function_control_id": "0",
+      "carnival_type_id": "39",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "39",
+      "type": "consume_mre",
+      "count": "30000",
+      "prize_id": "10094",
+      "title": "口粮消耗",
+      "content": "累计消耗口粮*30000",
+      "function_control_id": "0",
+      "carnival_type_id": "39",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "40",
       "type": "get_build_coin",
       "count": "100",
       "prize_id": "10091",
@@ -474,7 +441,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "44",
+      "id": "41",
       "type": "get_build_coin",
       "count": "300",
       "prize_id": "10094",
@@ -485,7 +452,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "45",
+      "id": "42",
       "type": "get_build_coin",
       "count": "500",
       "prize_id": "10097",
@@ -496,40 +463,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "46",
-      "type": "consume_voucher",
-      "count": "50",
-      "prize_id": "10091",
-      "title": "校准点券",
-      "content": "累计消耗校准点券*50",
-      "function_control_id": "0",
-      "carnival_type_id": "19",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "47",
-      "type": "consume_voucher",
-      "count": "100",
-      "prize_id": "10094",
-      "title": "校准点券",
-      "content": "累计消耗校准点券*100",
-      "function_control_id": "0",
-      "carnival_type_id": "19",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "48",
-      "type": "consume_voucher",
-      "count": "200",
-      "prize_id": "10097",
-      "title": "校准点券",
-      "content": "累计消耗校准点券*200",
-      "function_control_id": "0",
-      "carnival_type_id": "19",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "49",
+      "id": "43",
       "type": "consume_core",
       "count": "10",
       "prize_id": "10088",
@@ -540,7 +474,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "50",
+      "id": "44",
       "type": "consume_core",
       "count": "30",
       "prize_id": "10091",
@@ -551,7 +485,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "51",
+      "id": "45",
       "type": "consume_core",
       "count": "50",
       "prize_id": "10094",
@@ -562,7 +496,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "52",
+      "id": "46",
       "type": "consume_core",
       "count": "100",
       "prize_id": "10097",
@@ -573,7 +507,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "53",
+      "id": "47",
       "type": "develop_equip",
       "count": "10",
       "prize_id": "10088",
@@ -584,7 +518,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "54",
+      "id": "48",
       "type": "develop_equip",
       "count": "20",
       "prize_id": "10091",
@@ -595,7 +529,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "55",
+      "id": "49",
       "type": "develop_equip",
       "count": "30",
       "prize_id": "10094",
@@ -606,18 +540,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "56",
-      "type": "develop_equip",
-      "count": "50",
-      "prize_id": "10097",
-      "title": "装备制造次数",
-      "content": "装备制造50次",
-      "function_control_id": "0",
-      "carnival_type_id": "35",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "57",
+      "id": "50",
       "type": "consume_capsule",
       "count": "10",
       "prize_id": "10088",
@@ -628,7 +551,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "58",
+      "id": "51",
       "type": "consume_capsule",
       "count": "20",
       "prize_id": "10091",
@@ -639,7 +562,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "59",
+      "id": "52",
       "type": "consume_capsule",
       "count": "30",
       "prize_id": "10094",
@@ -650,7 +573,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "60",
+      "id": "53",
       "type": "consume_capsule",
       "count": "50",
       "prize_id": "10097",
@@ -661,7 +584,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "61",
+      "id": "54",
       "type": "consume_ammo",
       "count": "10000",
       "prize_id": "10088",
@@ -672,7 +595,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "62",
+      "id": "55",
       "type": "consume_ammo",
       "count": "20000",
       "prize_id": "10091",
@@ -683,7 +606,7 @@
       "goto_page_id": "0"
     },
     {
-      "id": "63",
+      "id": "56",
       "type": "consume_ammo",
       "count": "30000",
       "prize_id": "10094",
@@ -694,36 +617,102 @@
       "goto_page_id": "0"
     },
     {
-      "id": "64",
-      "type": "open_gift",
-      "count": "20",
-      "prize_id": "10088",
-      "title": "礼物赠送",
-      "content": "累计赠送礼物*20",
+      "id": "57",
+      "type": "consume_bp",
+      "count": "10",
+      "prize_id": "10086",
+      "title": "动能消耗（包含超导动能）",
+      "content": "累计消耗动能*10",
       "function_control_id": "0",
-      "carnival_type_id": "45",
+      "carnival_type_id": "18",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "58",
+      "type": "consume_bp",
+      "count": "30",
+      "prize_id": "10091",
+      "title": "动能消耗（包含超导动能）",
+      "content": "累计消耗动能*30",
+      "function_control_id": "0",
+      "carnival_type_id": "18",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "59",
+      "type": "consume_bp",
+      "count": "50",
+      "prize_id": "10094",
+      "title": "动能消耗（包含超导动能）",
+      "content": "累计消耗动能*50",
+      "function_control_id": "0",
+      "carnival_type_id": "18",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "60",
+      "type": "consume_sangvis_material1_coin",
+      "count": "10",
+      "prize_id": "10086",
+      "title": "势能消耗（包括超导势能）",
+      "content": "累计消耗势能10个",
+      "function_control_id": "0",
+      "carnival_type_id": "130",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "61",
+      "type": "consume_sangvis_material1_coin",
+      "count": "30",
+      "prize_id": "10091",
+      "title": "势能消耗（包括超导势能）",
+      "content": "累计消耗势能30个",
+      "function_control_id": "0",
+      "carnival_type_id": "130",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "62",
+      "type": "consume_sangvis_material1_coin",
+      "count": "50",
+      "prize_id": "10094",
+      "title": "势能消耗（包括超导势能）",
+      "content": "累计消耗势能50个",
+      "function_control_id": "0",
+      "carnival_type_id": "130",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "63",
+      "type": "upvote",
+      "count": "10",
+      "prize_id": "10088",
+      "title": "点赞使者",
+      "content": "活动期间累计点赞10次",
+      "function_control_id": "0",
+      "carnival_type_id": "20",
+      "goto_page_id": "0"
+    },
+    {
+      "id": "64",
+      "type": "upvote",
+      "count": "30",
+      "prize_id": "10091",
+      "title": "点赞使者",
+      "content": "活动期间累计点赞30次",
+      "function_control_id": "0",
+      "carnival_type_id": "20",
       "goto_page_id": "0"
     },
     {
       "id": "65",
-      "type": "open_gift",
+      "type": "upvote",
       "count": "50",
-      "prize_id": "10091",
-      "title": "礼物赠送",
-      "content": "累计赠送礼物*50",
-      "function_control_id": "0",
-      "carnival_type_id": "45",
-      "goto_page_id": "0"
-    },
-    {
-      "id": "66",
-      "type": "open_gift",
-      "count": "100",
       "prize_id": "10094",
-      "title": "礼物赠送",
-      "content": "累计赠送礼物*100",
+      "title": "点赞使者",
+      "content": "活动期间累计点赞50次",
       "function_control_id": "0",
-      "carnival_type_id": "45",
+      "carnival_type_id": "20",
       "goto_page_id": "0"
     }
   ]

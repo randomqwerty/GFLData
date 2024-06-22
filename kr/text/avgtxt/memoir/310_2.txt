@@ -1,2 +1,132 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||:<color=#FFFF00>마인드맵 기록 분석 중...</color>+<color=#FFFF00>분석 완료 예상 시각... 6월 21일 16시 00분</color>
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>|| <黑屏2><BIN>276</BIN><BGM>GF_Memorial</BGM>:구호소에서 2주간 일하고 받은 보수예요, 한 푼도 안 쓰고 다 모아 뒀어요.
+()||:Rex Zero 1은 건네받은 돈이 아니라 주인이 신경쓰지 않아 지저분한 책상을 훑어봤다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:일에는 익숙해졌나요?
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:네, 소개해 주신 덕분에요. 조금 지저분하지만 신경쓰지 마세요.
+()||<SE1>AVG_va_addingredient</SE1>:마르타는 서둘러 책상을 정리한 뒤, 그 위에 막 끓여 따뜻한 차를 내어 Rex Zero 1에게 건넸다.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:임금을 이렇게 많이 받을 줄은 몰랐어요. 이대로라면 앞으로 8주 정도만 더 일하면 말하신 금액을 다 모을 수 있겠어요, 그러니, 혹시――
+()<Speaker>작업인원</Speaker>||<SE1>AVG_Door_Open</SE1>:마르타 씨! 빨리 와서 도와줘! 방금 노숙자들 도착했는데 임산부랑 애들도 있어! 오늘 안으로 자리 마련해 줘야 해!
+()<Speaker>작업인원</Speaker>||:한 명씩 상태 전부 체크하고, 아픈 사람 있으면 병원으로 보내!
+()||:마르타의 질문을 끊은 구호소 직원의 말은 계속 이어졌고, 문 밖에서 발자국 소리가 점점 많아지더니 순식간에 소란스러워졌다.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||<SE1>ClothingUp</SE1>:――마틸다가 어디 있는지만이라도 먼저 말해 주실 수 없을까요?
+()<Speaker>작업인원</Speaker>||<SE1>AVG_Door_Open</SE1>:마르타 씨! 뭐해? 얼른 와서 도우라니까!
+()||:마르타는 재촉도 무시하고 그 자리 그대로 꿈쩍 않고 Rex Zero 1을 바라봤다.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:약속한 금액 다 모을 때까지 여기서 계속 일할게요, 제발요.
+()<Speaker>작업인원</Speaker>||:이런, 이쪽 임산부 기절했어! 빨리 의무실로 데려가! 어 조심조심!
+()<Speaker>작업인원</Speaker>||:맙소사, 사람이 갑자기 너무 많이 몰려서 난장판이 됐네... 일단 창문 전부 열어서 환기부터 시키고, 애들 놔두면 큰일나니까 얌전히 줄 세워!
+()||:마르타가 있든 없든, 구호소의 홀은 이미 다른 걸 신경 쓸 겨를도 없이 분주했다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:...일을 마치고 난 뒤에 계속 얘기할까요?
+()||:마르타가 이렇다 할 반응을 보이지 않자, Rex Zero 1은 그녀를 뒤로하고 혼란 그 자체인 홀로 나왔다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:혹시 제가 도와드릴 일 있나요?
+()||<黑屏1>:
+()||<黑屏2><BIN>86</BIN><Night>:모두에게 바쁜 하루였다.+Rex Zero 1은 우선 구호소를 찾아온 노숙자들이 자리잡는 것을 도왔다. 노약자와 어린이는 전담 요원에게 맡기고, 임산부와 병자는 속히 병원으로 이송됐다.
+()||<SE1>AVG_20Winter_Door_Car_Close</SE1>:그리고 공구를 든 채 차량의 엔진 보닛을 열어 더 고칠 곳은 없는지 확인한 후, 보닛을 닫는 것으로 일의 끝을 알렸다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:끝!
+()<Speaker>작업인원</Speaker>||:고마워요, 수고 많았어요. 엔진이 덜거덕거리는데 고칠 줄 아는 사람이 있어야죠.
+()||<SE1>ClothingUp</SE1>:직원이 Rex Zero 1에게 젖은 수건으로 손을 닦아 주고 스패너를 돌려받았다.
+()<Speaker>작업인원</Speaker>||:구호소는 항상 인력 부족인데, 당신 같은 인형들이 시간 날 때 도와주기만 해도 얼마나 다행인지...+지난번에 컨테이너 조립할 때도 신세 많이 졌어요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:공짜가 아니라 엄연히 보수를 받고 하는 일인걸요, 여러분께 부탁을 드렸으니 이 정도는 해드려야죠.
+()<Speaker>작업인원</Speaker>||:에이 겨우 그거야 별거 아닌데요 뭘. 그런데, 마르타 말입니다만...
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:무슨 일 있나요?
+()<Speaker>작업인원</Speaker>||:아무래도 마음이 딴 데 있는 것 같아요. 일하는 덴 별 차질 없지만 항상 주변 모든 것에 반응이 느리더라고요.
+()<Speaker>작업인원</Speaker>||:아까도 보셨다시피, 여러 번 불러야만 반응하는 일이 잦아요. 그런데 오늘 당신이 오니, 뭐랄까... 생기가 돌아온 것 같다고나 할까요?
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:...알겠습니다. 며칠 만 더 그녀를 봐 주세요, 어떤 일이든 사양 말고 시키시고요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:그녀는 쉬기보단 바쁘게 움직여야 한다 생각해요.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||<SE1>ClothingUp</SE1>:저기, Rex Zero 1 씨?
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:아, 일 끝났나요? 그럼 좀 걸을까요?
+()||<黑屏1>:
+()||<黑屏2><BIN>418</BIN><Night>:구호소 직원들과 인사하고, Rex Zero 1은 마르타를 데리고 인근의 거리로 나왔다.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:마틸다 얘기를 해 주시려는 건가요?
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:지금 그 애가 어딨는지까진 아니어도, 뭐라도 얘기해 줄 수는 없을까요?
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:마틸다를 찾아 헤맨 지, 벌써... 6년이나 됐어요...
+()||:두 사람은 거리를 따라 걸었다. 주위에는 아무도 없었다. 낮에는 번화했던 상가는 이제 대부분의 가게가 폐점을 준비 중이었다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:마틸다가 어디 있을지, 추측해본 적 있나요?
+RexZero1(0)；NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:길을 잃었으니, 이런 구호소나 육아원에 보내졌을지도 모르겠네요...
+RexZero1(0)；NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:...적어도 그랬기를 바라요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>；NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position>||:구호소는 어디까지나 임시 수용 시설이라, 모두 잠시 머물렀다가 새로운 곳으로 옮겨 가야 해요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>；NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position>||:집을 찾는다면 집으로 가고, 그렇지 못하면 직장이라도 구해야 하죠. 하지만 노인과 어린이들은 오래 머무를 수 있어요.
+RexZero1(0)；NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:네, 구호소에서 들었어요. 노인과 아이들은 일을 할 수 없으니 가족을 찾을 방법이 없다면 다른 복지 기관으로 인계되기 전까지 머무를 수 있다고 해요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:요즘 세상에 "쓸모"란 정말 중요한 모양이네요...
+()||:Rex Zero 1은 고개를 숙이고, 발에 밟히는 자갈을 옆으로 차며 손가락에 낀 고무를 이리저리 당겼다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:고아에게 입양을 원하는 가족을 찾기란 정말 어려운 일이고 말예요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:다행히, 마틸다는 운이 좋았어요.
+()||<common_effect>%%code=AVG_niuqubw%%</common_effect>:
+()||<黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>9</BIN><关闭蒙版>:
+()<Speaker>여자아이</Speaker>||:왜 아직도 안 깨어나요...?
+()<Speaker>중년 남성</Speaker>||:분명 제대로 수리했는데, 또 배터리가 나갔나?
+()||:......
+()<Speaker>여자아이</Speaker>||:훌쩍... 얘 죽으면 안 돼요...
+()<Speaker>중년 남성</Speaker>||:인형이 죽긴 왜 죽어.
+()||:......
+()<Speaker>여자아이</Speaker>||<SE1>ClothingUp</SE1>:봐요! 움직였어요!
+()||<黑屏1>:
+()||<睁眼><BIN>129</BIN><回忆><BGM>GF_Cafe</BGM>:눈을 뜬 Rex Zero 1은 호기심 가득한 눈으로 자신을 바라보는 아이와 성인 한 명을 발견했다.
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||:눈이 움직여요, 저를 보는 거 같아요!
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||:안녕! 내가 널 주워 왔어, 네 생명의 은인이야!
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||:네가 예전에 무슨 일을 했든, 앞으로는 내가 네 주인이야, 알았지? 내 말 잘 들어야 해!
+()||:<color=#A9A9A9>시끄럽다.</color>
+()||:Rex Zero 1은 주위를 살폈다.
+()||:여긴 어떤 매장의 주방 같았다.+다양한 제과 기구들이 깔끔하게 늘어서 있었고, 한 쪽 유리 벽면을 통해 가게의 전경도 어렴풋이 확인할 수 있었다.
+()||:그리 크지 않은 이 가게는 다양한 빵이 진열된 제과점이었다.+구석에는 테이블이 2개 있고, 입구의 쇼윈도에 "도널드의 디저트 하우스"라는 형형색색의 커다란 글자도 붙어 있었다.
+()<Speaker>중년 남성</Speaker>||:애를 입양하고 볼 일이구만, 용케도 이런 큰 걸 주와 왔네 참.
+()<Speaker>중년 남성</Speaker>||:어휴, 인형이 전기 먹는 하마는 아니면 좋겠는데 말이야. 이 가게 굴리는 데만도 이미 적자라고...
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||:다 고치면 일을 돕게 하면 되잖아요? 일손이 많아지면 배달 서비스도 늘릴 수 있고, 그럼 장사가 더 잘 돼서 더 많은 사람을 고용할 수 있을 거예요!
+()<Speaker>중년 남성</Speaker>||:허이구, 꿈도 크셔.
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||:생각은 얼마든지 할 수 있잖아요, 겨우 도움이 될 만한 걸 주웠는데.
+()||:<color=#A9A9A9>정말 시끄러워.</color>
+()||:폐품으로 쓰레기통에 버려져, 대체 얼마만에 다시 눈을 뜬 걸까. Rex Zero 1은 마인드맵마저 녹슬어버린 듯 지금 눈에 보이는 모든 것이 이해가 되지 않았다.
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||:너 이름이 뭐야? 난 마틸다야, 앞으로 잘 지내자!
+NPC-Sanaya(0)<Scale>1.05</Scale><Position>0,50</Position><Speaker>여자아이</Speaker>||<SE1>AVG_Button_Click</SE1>:어? 눈 떠! 자면 안 돼, 얼른 일어나!
+()||<common_effect>%%code=AVG_niuqubw%%</common_effect><BGM>BGM_Empty</BGM>:
+()||<黑屏1>:
+()||<关闭蒙版>:
+()||<黑屏2><BIN>418</BIN><Night>:
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:저는 2년 전, 어느 디저트 가게의 주인 도널드에게 입양된 마틸다에게 주워졌어요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||<BGM>GF_Memorial</BGM>:가게는 꽤 잘 됐답니다. 마틸다는 지역의 학교에 다녔고, 저는 가게를 봤어요. 주말에는 마틸다가 일을 도와주곤 했죠.
+()||:날이 점점 더 어두워져 갔지만 두 사람은 계속 걸으며 이야기를 나눴다. Rex Zero 1의 손에 걸린 고무줄도, 걸음에 따라 계속 당겨지기를 반복했다.
+()||:마르타는 Rex Zero 1이 어떻게 마틸다와 만났는지에 대한 이야기에 귀를 기울여, 끝날 때까지 한 마디도 하지 않았다.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:...그리고요?
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:그다음 이야기는... 돈을 더 많이 벌어서 교환하세요.
+()||:Rex Zero 1이 이야기를 이어가지 않았다. 그리고 그때, 마르타는 그녀가 그 발레리나 머리핀을 뺀 것을 깨달았다.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:...그 머리핀, 제가 만든 거예요. 만들 적에 마틸다가 바로 제 옆에 있었죠.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:발레리나의 눈을 그릴 때, 그 애가 장난을 치는 바람에 한쪽 눈은 초승달처럼 웃는 모양인데 다른 쪽은 그렇지 않게 됐어요. 덕분에 독특해져서 바로 알아볼 수 있죠.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:그래선지 그 애가 제일 좋아하는 거라, 언제 어디서나 항상 끼고 다녔답니다... 잃어버렸던 날에도요.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:당시에 저도 남편도 너무 바빠서, 씩씩한 딸아이 혼자 등하교를 하게 뒀는데... 다 우리 잘못이에요.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:...지난 몇 년간 마틸다를 찾는 게 저의 전부였습니다.
+()||<SE1>ClothingUp</SE1>:Rex Zero 1이 멈춰 섰다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:오늘은 늦었으니 여기까지 해요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:구호소는 한동안 더는 일손이 필요하지 않을 것 같다니, 제가 아는 병원에다 연락을 해 뒀어요. 며칠 뒤에 당신을 데리러 올 거예요. 전문적인 간호 지식이 없어도 도울 수 있는 일은 많답니다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:그리고 걱정 마세요, 병원에서 자원봉사로 받는 보수는 구호소보다 적지 않으니까요.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:병원이요? 알겠어요, 딸아이를 찾을 수만 있다면 뭐든지 할게요.
+NPC-AH400(2)<Scale>1.11</Scale><Position>0,-57</Position><Speaker>마르타</Speaker>||:마틸다가 입양되었다니... 정말, 몇 년만에 듣는 좋은 소식이네요. 당신과 도널드 씨는 우리의 은인이세요.
+()||<SE1>ClothingUp</SE1>:마르타는 갑자기 허리를 숙여, Rex Zero 1은 깜짝 놀라 뒤로 물러서며 손을 내저었다.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:아앗 이러지 마세요, 돈을 지불하실 거잖아요? 이렇게 감사하지 않으셔도 돼요.
+RexZero1(0)<Speaker>Rex Zero 1</Speaker>||:정 뭔가 하고 싶으시다면, 가서 더 많은 이들을 도와주세요.
+()||<黑屏1><BGM>BGM_Empty</BGM>:
+()||<关闭蒙版>:
+()||<黑屏2><BIN>82</BIN><Night><SE1>AVG_Door_Open</SE1>:바쁜 하루를 마치고 그리폰의 숙소로 돌아온 Rex Zero 1은 침대에 누워 긴 한숨을 내쉬었다.
+NPC_RexZero1(1)<Speaker>Rex Zero 1</Speaker>||:정말, 어떡해야 할지 모르겠네...
+NPC_RexZero1(1)<Speaker>Rex Zero 1</Speaker>||:도널드 아저씨, 디저트 가게...
+()||:Rex Zero 1은 침대맡에 놓인, 하드커버 표지에 작은 보라색 꽃이 그려진 책 한 권을 들여다보았다. 
+NPC_RexZero1(1)<Speaker>Rex Zero 1</Speaker>||:...내일 생각하자.
+()||:불을 끄고, 긴장을 풀고, 잠에 들었다.
+()||<黑屏1><BGM>BGM_Truth</BGM>:
+()||<黑屏2><BIN>9</BIN><关闭蒙版>:
+()<Speaker>도널드</Speaker>||:분명 제대로 수리했는데, 또 배터리가 나갔나?
+()<Speaker>도널드</Speaker>||:흥, 고물이 뭐 그렇지. 괜히 전기만 낭비했네.
+NPC-Sanaya(3)<Scale>1.05</Scale><Position>0,50</Position><Speaker>마틸다</Speaker>||:조금만 더 충전해보고 돌려드릴게요, 조금만 더요!
+()<Speaker>도널드</Speaker>||:이번 할당량도 못 채웠으면서 하긴 뭘 더 해! 얼른 이 쓰레기 데리고 나가!
+()||:악몽을 꾸듯, 침대에 누운 Rex Zero 1이 미간을 찌푸리고 불안하게 몸을 뒤척였다.
+NPC-Sanaya(3)<Scale>1.05</Scale><Position>0,50</Position><Speaker>마틸다</Speaker>||:훌쩍... 얘 죽으면 안 돼요...
+()<Speaker>도널드</Speaker>||:인형이 죽긴 왜 죽어.
+()<Speaker>도널드</Speaker>||:네가 죽지, 이 망할 꼬맹이가.
+()<Speaker>도널드</Speaker>||:고치면 쓸모 있을 거라더니 이게 뭐냐? 고철덩이에 시간 낭비한 거기만 해봐, 너 가만 안 둬.
+NPC-Sanaya(3)<Scale>1.05</Scale><Position>0,50</Position><Speaker>마틸다</Speaker>||:믿어 주세요, 쓸모 있을 거예요, 정말요! 앞으로 도널드 브라더스를 도와서 함께 일할 수 있을 거예요!
+NPC-Sanaya(3)<Scale>1.05</Scale><Position>0,50</Position><Speaker>마틸다</Speaker>||:부품도 잔뜩 가져왔어요, 폐건전지도 있으니까... 제발, 고쳐 주세요...
+()<Speaker>도널드</Speaker>||:기회 이미 줬잖――
+NPC-Sanaya(3)<Scale>1.05</Scale><Position>0,50</Position><Speaker>마틸다</Speaker>||<CGDelay>0.5</CGDelay>:잠깐만요... 봐요! 움직였어요!
+()||:......
+()||:잠은 이미 깼지만, Rex Zero 1은 눈을 감고 움직이지 않았다.
+NPC_RexZero1(1)<Speaker>Rex Zero 1</Speaker>||:<color=#A9A9A9>얼른 자야 해, 계속 자야 해...</color>
+NPC_RexZero1(1)<Speaker>Rex Zero 1</Speaker>||<黑屏1>:<color=#A9A9A9>...결국, 또 네 꿈을 꾸고 말았네.</color>

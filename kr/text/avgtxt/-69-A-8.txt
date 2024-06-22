@@ -1,222 +1,222 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>534</BIN><SE1>AVG_wind_grass</SE1><BGM>m_avg_labyrinth</BGM>:……+天空蓝得澄澈透明。+白云丝丝絮絮，平缓地游动。+阳光和煦而温柔，如一层金色的纱，浅浅地盖在少女的身躯上。
-()<Speaker></Speaker>||:绿茵的中心，鲜花盛放之地，一对纤细的睫毛如蝶翼般张开、颤动……+仿佛从久违的好眠中苏醒，少女长长地舒了口气，用力眨了眨金棕色的眼睛。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+……嗯？
-()<Speaker></Speaker>||:近在咫尺的距离，另一双金棕色的眼睛竟也眨了眨，定定地看着自己。+天空……怎么会有她的倒影？
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:咚。+伸手的瞬间，她触到了面前的玻璃。
+()<Speaker></Speaker>||<黑屏2><BIN>534</BIN><SE1>AVG_wind_grass</SE1><BGM>m_avg_labyrinth</BGM>:......+하늘은 투명할 정도로 맑고 푸르렀다.+뭉게뭉게 하얀 구름이 바람에 천천히 실려갔다.+따스하고 부드러운 햇살은 마치 황금빛 비단처럼 소녀의 몸을 덮어주었다.
+()<Speaker></Speaker>||:푸른 잔디밭 중앙, 꽃들이 만발한 곳에서 가는 눈썹이 나비 날개처럼 펼쳐져 흔들렸다...+마치 오랜 잠에서 깬 듯이 소녀는 길게 하품을 하고 금빛 눈동자를 깜빡였다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......+...응?
+()<Speaker></Speaker>||:바로 코앞에서 똑같은 금빛 눈동자가 눈을 깜빡이며 자신을 바라보고 있었다.+어째서... 하늘에 그녀가 비쳐보이는 것일까?
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:쿵.+손을 뻗는 순간 앞에 놓인 거울에 닿았다.
 ()<Speaker></Speaker>||<CGDelay>0.3</CGDelay><SE1>AVG_XXS_kick</SE1>:
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><CGDelay>0.1</CGDelay><SE1>AVG_XXS_kick</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:咚！……咚咚！+M4用力挣扎着，然而身体却像挤在夹缝之中，动弹不得。+身前、身后、身侧、头顶、脚下……结结实实的玻璃板将她封在其中，就好像……+玻璃做的棺材。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……放我出去！快放我出去！
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:쿵! ...쿵쿵!+M4는 힘껏 몸부림쳤지만, 몸이 마치 틈새에 낀 것처럼 꼼짝할 수가 없었다.+앞, 뒤, 왼쪽, 오른쪽, 위, 아래... 단단한 유리가 그녀를 에워싸 가두고 있었다. 마치...+유리로 만든 관처럼.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:...내보내줘요! 여기서 꺼내줘요!
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>AVG_XXS_kick</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:砰！砰！+M4愈加用力地拍打玻璃，但箱体却纹丝不动。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:呃……拜托！+放我……出去！！！
-NPC-Bill(0)<Speaker>？？？</Speaker>||:你是白痴吗？怎么把自己关到这种地方了？！
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:M4는 더 세게 유리를 두드려보았지만, 유리는 꿈쩍도 하지 않았다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:윽... 제발!+여기서... 내보내줘요!!!
+NPC-Bill(0)<Speaker>？？？</Speaker>||:아니, 바보야? 왜 스스로 그런 데 쑤셔박힌 거야?
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<震屏3><白屏2><SE1>AVG_Broken_Glass</SE1>:哗啦——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><BGM>BGM_Empty</BGM>:玻璃崩裂开，M4摔出了箱体，跌落在一个小小的温暖的怀抱。
+()<Speaker></Speaker>||<震屏3><白屏2><SE1>AVG_Broken_Glass</SE1>:쨍그랑!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><BGM>BGM_Empty</BGM>:유리가 깨지면서 M4는 갑자기 상자에서 풀려나 균형을 잃고 비틀거렸다. 따스한 작은 품이 자신을 받쳐안는 것이 느껴졌다.
 ()||<黑屏1><CGDelay>0.8</CGDelay>:
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||<黑屏2><BGM>BGM_DescartesInTheTheatre</BGM>:呼……呼……
-NPC-Bill(0)<Speaker>？？？</Speaker>||:就算是为了躲开宴席，也不用这样对自己吧……
-()<Speaker></Speaker>||:劫后余生的少女坐在草坪上沉重地喘息，表情凶狠的男孩语气稍微放软了些。+她的身下，绿茵如毯，鲜花盛放。+透明棺材四四方方嵌在草坪中央，如一颗宝石。+而草坪的边界处坐落着半人高的灌木绿墙，绿墙的背后，似乎是一座熟悉的洋房。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:这里是哪里？
-NPC-Bill(0)<Speaker>？？？</Speaker>||:我们家花园啊。+你在说什么胡话？你再这样，我要去叫马提尼亨利了。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:你是谁？还有马提尼亨利……？
-NPC-Bill(0)<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||:男孩还带着稚气的脸上出现了阴鸷的愤怒。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:抱歉，我现在不太清楚情况，请告诉我这里的方位，以及你的身份。
-NPC-lnxy(1);NPC-Bill(0)<Speaker>比尔</Speaker>||:……比尔。+你一般都这样叫我。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>;NPC-Bill(0)||:好吧，比尔，你刚刚说这里你家的花园？有具体的坐标或——
-NPC-lnxy(1);NPC-Bill(0)<Speaker>比尔</Speaker>||:是我们家。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>;NPC-Bill(0)||:什么？
-NPC-Bill(0)<Speaker>比尔</Speaker>||<SE1>ClothingUp</SE1>:这里是我们的家！你过来！
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||<黑屏2><BGM>BGM_DescartesInTheTheatre</BGM>:헉... 헉...
+NPC-Bill(0)<Speaker>？？？</Speaker>||:아무리 파티에서 빠져나가고 싶어도 그렇게 사서 고생할 건 없잖아...
+()<Speaker></Speaker>||:구사일생한 소녀는 잔디밭에 앉아 숨을 골랐다. 사나운 얼굴의 남자아이의 말투는 약간 누그러졌다.+그녀 밑에 잔디는 융단처럼 푹신하고, 꽃들이 활짝 폈다.+투명한 관은 잔디밭 중앙에 마치 보석처럼 박혀있었다.+그리고 잔디밭 가장자리에는 허리 높이의 관목 울타리가 있고, 울타리 뒤에는 익숙한 양옥이 있었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:여기는 어디죠?
+NPC-Bill(0)<Speaker>？？？</Speaker>||:우리 집 정원이잖아.+무슨 헛소리를 하는 거야? 자꾸 그러면 마티니 헨리 부른다?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:당신은 누구죠? 그리고 마티니 헨리는...?
+NPC-Bill(0)<Speaker>？？？</Speaker>||:......
+()<Speaker></Speaker>||:앳된 남자아이의 얼굴에 음험한 분노가 서렸다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:죄송해요, 제가 아직 상황 파악이 안 돼서. 이곳의 위치와 당신의 신원을 알려주세요.
+NPC-lnxy(1);NPC-Bill(0)<Speaker>빌</Speaker>||:...빌.+원래 날 빌이라고 불렀었잖아.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>;NPC-Bill(0)||:좋아요, 빌. 방금 이곳이 당신네 정원이라고 했나요? 자세한 좌표나——
+NPC-lnxy(1);NPC-Bill(0)<Speaker>빌</Speaker>||:우리 집이야.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>;NPC-Bill(0)||:네?
+NPC-Bill(0)<Speaker>빌</Speaker>||<SE1>ClothingUp</SE1>:여긴 우리 집이라고! 따라와!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:莫名愤怒的小男孩已经拉着M4朝花园的另一头走去。+M4环顾着生气蓬勃的花园，心中却只感到一阵怅然若失。+好像忘记了什么绝对不可以忘记的事情。
-NPC-Bill(0)<Speaker>比尔</Speaker>||:马提尼亨利！
-()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:巨大的阳伞下，一位随身佩戴武器的少女正在摆放茶点，见两人靠近，她放下手中的工作行礼。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:少爷，小姐，贵安。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:你是谁……为什么叫我小姐？
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:小姐……？您怎么了？+我是您的女仆马提尼亨利，负责守卫您的安全和照料您的日常起居。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我的女仆……？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:自称女仆的少女有些担心地整理着M4凌乱的发梢。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:小姐，您终于回来了，大家都在到处找您。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:找我？
-NPC-Bill(0)<Speaker>比尔</Speaker>||:母亲去哪里了？
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:夫人刚刚在太阳下走动了会，说是有些不舒服，回房间休息了。+您有什么事，可以吩咐我去办。
-NPC-Bill(0)<Speaker>比尔</Speaker>||:露西突然失忆了，她连我都不记得。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:发生什么事了，小姐？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:女仆取出干净的手帕，轻轻擦拭M4脸上和身上细碎的划痕。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:又和少爷吵架了吗？
-NPC-Bill(0)<Speaker>比尔</Speaker><Shake>||:<size=50>滚，少在这里找老子的错！</size>+你们这些废物都找不到她，只有我发现她被困在那个玻璃箱子里！
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:困在箱子里？
-NPC-Bill(0)<Speaker>比尔</Speaker>||:你在这里看好她，别让她又跑去犯傻！我去叫母亲来。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:始终皱着眉头的小男孩一溜烟跑不见了。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:小姐，现在您可以说了。+到底发生了什么事？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4低头看了看精致柔软的裙摆，肩膀上总感觉有些空荡。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不对……
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:露尼西亚小姐？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不对……不对……+我不是露尼西亚，我是M4A1。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:M4A1？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:女仆紧张的表情释然了，她笑着握起了M4的双手。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:我还以为您已经忘记了M4A1的事情。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:什么意思？
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:您小的时候看过一本有关机械人形的故事集，然后您就开始声称自己是其中的女主角“M4A1”。+您是不是还记得自己是一个名为“AR小队”的队长，来自“格里芬基地”的指挥官负责指挥你们行动？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:是。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:里面的幕后大反派是不是一个名叫“威廉”的人？他造了很多身穿白衣的可怕家伙出来，和格里芬对抗？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:你知道得很清楚……
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:哈哈哈，这都是您儿时的幻想，顺便一提，是少爷承担了“威廉”的戏份陪您扮演。+他也许看起来凶巴巴的，但实际上还是那个非常依赖您的弟弟。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……比尔是我的弟弟？
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:别着急，小姐，可能是中暑导致您短暂地混淆了现实和虚幻。+但没关系，您在遮阳伞下坐一会吧。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不可能，我是M4A1，AR小队的队长！
-()<Speaker></Speaker>||:女仆露出了哄小孩的微笑。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:好吧，M4A1，现在把你的队员叫出来让我看看吧。+这么热的天气，躲起来不露面想来也是很辛苦了，不如一起出来喝个下午茶。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4想要调出通讯界面，却并没有指令响应。+不止如此，她在抬手的瞬间看见了自己皮肤下的血管。+清晰的，纤细的，青绿色的，静脉血管。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:小姐，先坐下吧？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不。
-()<Speaker></Speaker>||:灿烂阳光下柔软蓬勃的草地在眼下旋转，M4拼命回想着那些熟悉的脸庞——
-()<Speaker></Speaker>||:指挥官、AR小队、格里芬基地的人形……+明明是那么真切清晰的回忆，怎么可能是幻想？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我记得很清楚，你要找的人不是我。+现在，我要去找我的朋友了。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:露尼西亚小姐……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:M4转头朝花园外跑去。+灌木绿墙将三面的出路封得严严实实，只有靠近洋房的那边有一个缺口。+像是刻意将她赶过去一般。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:您这样，夫人和少爷会担心您的……
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我要走了，别跟着我。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:至少您亲自告诉少爷一声吧？
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||<SE1>AVG_Punch</SE1><震屏3>:走开！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:M4推开了跟上来的女仆，迈开脚步狂奔起来。
+()<Speaker></Speaker>||<黑点2>:묘하게 화가 난 남자아이가 M4를 정원 반대편으로 끌고갔다.+M4는 생기가 가득한 정원을 둘러보면서 가슴 속에 허전한 느낌이 들었다.+뭔가 절대 잊어선 안 될 일을 잊은 것 같은.
+NPC-Bill(0)<Speaker>빌</Speaker>||:마티니 헨리!
+()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:커다란 파라솔 밑에 무기를 지닌 소녀가 티 세트를 상에 놓고 있다가, 둘이 오는 것을 보고 바로 일을 멈추고 인사했다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:도련님, 아가씨, 반갑습니다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:누구세요...? 왜 저를 아가씨라고 부르죠?
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨...? 왜 그러세요?+저는 당신의 메이드 마티니 헨리입니다. 당신의 경호와 일상 생활 보좌를 맡고 있죠.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:제 메이드요...?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:메이드라 자처하는 소녀가 약간 걱정하면서 M4의 흐트러진 머리카락을 다듬어주었다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨, 이제야 돌아오셨군요. 다들 아가씨를 찾아다녔다고요.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저를요?
+NPC-Bill(0)<Speaker>빌</Speaker>||:어머니는 어디 가셨어?
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:부인께선 햇볕을 좀 쐬시니 몸이 편찮으시다고 방에 돌아가 쉬고 계셔요.+용무가 있으시면 제게 분부해주세요.
+NPC-Bill(0)<Speaker>빌</Speaker>||:루시가 갑자기 기억을 잃었어. 나까지 잊어버렸나봐.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:무슨 일이 있었나요, 아가씨?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:메이드가 깨끗한 손수건을 꺼내 M4의 얼굴과 몸에 난 자잘한 생채기를 살며시 닦아주었다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:또 도련님하고 다퉜나요?
+NPC-Bill(0)<Speaker>빌</Speaker><Shake>||:<size=50>아 제발 좀! 무슨 일만 나면 왜 다 내 잘못인데!?</size>+너네 폐급들이 한참 동안 못 찾아낸 걸 내가 찾아냈잖아! 그 망할 유리 상자에 갇혀 있는 걸!
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:상자에 갇혀 있었다고요?
+NPC-Bill(0)<Speaker>빌</Speaker>||:또 어디 함부로 못 가게 잘 지켜보고 있어! 나는 어머니 불러올 테니까.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:시종일관 인상을 구기고 있던 남자아이는 쌩하고 사라졌다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨, 제게 말씀해주세요.+무슨 일이 있었나요?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4는 섬세하고 부드러운 치맛자락을 내려다봤다. 왠지 어깨가 허전한 느낌이었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:아니야...
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:루니샤 아가씨?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:아니야... 아니에요...+저는 루니샤가 아니라 M4A1이에요.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:M4A1이요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:메이드가 긴장한 표정을 풀더니, 미소지으며 M4의 두 손을 잡았다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:M4A1에 대한 것도 잊어버리신 줄 알았는데...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:무슨 뜻이죠?
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨께서 어릴 적에 어느 기계인형에 관한 이야기집을 읽고선, 자신이 그 책 주인공인 "M4A1"이라고 막 외치면서 다니셨잖아요.+아가씨 혹시 자신이 "AR팀" 대장이고, 작전 책임자는 "그리폰 기지"의 지휘관이라고 기억하시나요?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:네.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:거기 마지막 대흑막이 "윌리엄"이란 사람 아니었나요? 막 하얀 옷을 입은 괴물들을 잔뜩 만들어서 그리폰과 싸우고.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:왜 그렇게 잘 아시죠...
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아하하하, 전부 아가씨가 어릴 적에 하시던 상상이에요. 그리고 도련님이 그 "윌리엄" 역할을 맡아서 연기에 어울려주셨죠.+도련님이 겉으론 성질이 더러워 보이셔도, 사실은 아가씨를 엄청 의지하는 동생이시라고요.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:...빌이 제 동생이라고요?
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:자자, 조급해하지 마세요. 아마 더위를 먹으셔서 현실과 상상을 혼동한 걸지도 몰라요.+걱정 마시고 파라솔 밑에 잠시 앉아 계세요.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:그럴 리 없어요. 저는 M4A1, AR팀의 대장이라고요!
+()<Speaker></Speaker>||:메이드가 어린아이를 달래듯 미소 지었다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:좋아요, M4A1 어린이. 그럼 당신의 팀원분들을 불러오실래요?+이 땡볕에 어디 콕 박혀 숨어있으면 다들 힘들겠죠? 같이 앉아서 차 한잔하자고 해요.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4는 통신 인터페이스를 불러오려고 했지만 반응이 없었다.+그뿐만 아니라, 손을 들어올린 순간 그녀는 자신의 살결 아래로 혈관이 비쳐 보이는 것을 눈치챘다.+선명하고 가느다란, 푸르스름한 정맥이.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨, 먼저 앉을까요?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:아뇨.
+()<Speaker></Speaker>||:찬란한 햇살 밑의 푹신푹신한 잔디밭이 눈앞에서 빙빙 돌았다. M4는 머리를 쥐어짜며 그 익숙한 얼굴들을 떠올리려 했다.
+()<Speaker></Speaker>||:지휘관, AR팀, 그리폰 기지의 인형들...+그토록 실감나고 선명한 기억이 어떻게 환상일 수 있을까?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저는 뚜렷하게 기억해요. 당신이 찾는 사람은 제가 아니에요.+저는 제 동료를 찾으러 가겠어요.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:루니샤 아가씨...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:M4는 몸을 돌려 정원 밖으로 달렸다.+하지만 정원은 사방이 관목 울타리로 꽉 막혀 있고, 오직 양옥으로 향하는 방향에만 빈틈이 열려있었다.+마치 일부러 그녀를 유도하는 것처럼.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:자꾸 그러시면 부인과 도련님께서 걱정하실 거예요...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저는 갈 거니까 따라오지 마세요.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:적어도 도련님께 한마디 정도는 남기셔야 하지 않을까요?
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||<SE1>AVG_Punch</SE1><震屏3>:저리 가요!
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:M4는 따라오는 메이드를 밀쳐낸 뒤 땅을 박차고 내달렸다.
 ()||<黑点1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑点2><BIN>269</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_Hume_LibraryAdventure</BGM>:拐过几个弯后，M4警戒地走进一块视野稍稍平坦的宽阔地。+小路在她的脚边一分为二，分别朝两条对称的岔路驶去。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐，能听见我吗？+……+我们明明一起踏入的海星，为什么我听不见你的声音？
-()<Speaker></Speaker>||:通讯频道仍然完全无法使用。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:看来只能先离开这里了。
-()<Speaker></Speaker>||:望向眼前的两条岔路，一条看起来视野清晰，路途平整，另一条大雾弥漫，隐约能看见远处崎岖的地形。
-()<Speaker></Speaker>||:在M4迟疑的片刻，几个模糊的身影出现在了雾气中。
-()<Speaker>？？？</Speaker>||:<color=#FFCC33>都准备好了吗？</color>
-()<Speaker>？？？</Speaker>||:<color=#FF33CC>嗯！我们快出发吧，M4等着我们拯救呢！</color>
-()<Speaker>？？？</Speaker>||:<color=#FFCCCC>希望那个笨蛋别到处乱跑了。</color>
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:是你们吗？我在这里！
-()<Speaker></Speaker>||:身影朝着雾气深处走去，声音也渐渐远了。+M4正准备追去，另一条岔路出现了不同的声音。
-()<Speaker>比尔</Speaker>||:露西！你又跑去哪里了？！+不要再干蠢事伤害自己了！
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker>比尔</Speaker>||:你为什么不回应我？！连你也要躲开我吗！+你明明说过……+<size=50>你会一直陪在我身边的！！！</size>
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:比尔，快回去吧……
-()<Speaker>比尔</Speaker>||:你个满嘴谎言的骗子，只会逃跑的胆小鬼……
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker>比尔</Speaker>||:他们都害怕我，躲避我，明明只有你……+可是为什么现在连你也逃走了？我做错了什么吗……
-()<Speaker>比尔</Speaker>||:姐姐……
-()<Speaker></Speaker>||:故作凶恶的小男孩萎靡地坐在烈日下的喷泉边，来往的人群呼喊着“小姐”从他身边经过，却没有一个人为他停留。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4别开视线，对着自己的影子喃喃自语。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:抱歉，我不是你姐姐，我是格里芬的人形M4。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:M4扭头朝着雾气弥漫的小道跑去……
+()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_Hume_LibraryAdventure</BGM>:길모퉁이를 몇 번 꺾은 뒤, M4는 경계 태세를 잡고 시야가 약간 트인 개활지에 들어섰다.+오솔길이 그녀 발밑에서 두 갈래로 갈라져, 서로 대칭을 이루는 방향으로 뻗어나갔다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니, 제 목소리가 들리나요?+......+분명 스타피쉬에 함께 들어갔는데, 왜 언니의 목소리가 안 들리죠?
+()<Speaker></Speaker>||:통신 채널은 아직도 먹통이었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:우선 여기서 벗어나야겠어요.
+()<Speaker></Speaker>||:눈 앞의 두 갈림길을 바라보니, 한쪽은 시야가 깨끗하고 평탄한 길이었다. 다른 한쪽은 안개가 자욱하고 저 멀리 희미하게 울퉁불퉁한 지형이 보였다.
+()<Speaker></Speaker>||:M4가 망설이는 사이, 흐릿한 모습들이 안개 속에 나타났다.
+()<Speaker>？？？</Speaker>||:<color=#FFCC33>모두 준비됐어?</color>
+()<Speaker>？？？</Speaker>||:<color=#FF33CC>응! 어서 출발하자, M4를 구하러 가야지!</color>
+()<Speaker>？？？</Speaker>||:<color=#FFCCCC>그 바보가 함부로 돌아다니지만 않으면 좋겠는데.</color>
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:여러분? 저 여기 있어요!
+()<Speaker></Speaker>||:그림자가 안개 깊은 곳으로 들어가고 목소리도 멀어졌다.+M4가 쫓아가려는 그때 반대쪽 갈림길에서 다른 목소리가 들렸다.
+()<Speaker>빌</Speaker>||:루시! 또 어디 갔어!?+또 바보처럼 돌아다니다 다치지 말라고!
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker>빌</Speaker>||:왜 대답 안 해?! 누나마저 날 피하는 거야!?+전에 그랬잖아...+<size=50>언제나 내 곁에 있을 거라고!!!</size>
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:빌, 돌아가세요...
+()<Speaker>빌</Speaker>||:이 거짓말쟁이, 사기꾼, 도망치는 것밖에 모르는 겁쟁이...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker>빌</Speaker>||:다들 날 무서워하고 날 피하지만... 그래도 누나만은...+그런데 이제는 누나마저 도망치는 거야? 왜...? 나 뭔가 잘못했어...?
+()<Speaker>빌</Speaker>||:누나...
+()<Speaker></Speaker>||:억지로 표정을 잔뜩 구긴 남자아이는 힘없이 뙤약볕 아래 분숫가에 앉았다. 주변을 오고 가는 사람들은 다들 "아가씨"만을 소리 높여 찾을 뿐, 단 한 사람도 멈춰서서 그에게 관심을 주지 않았다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4는 그에게서 시선을 거두고, 자신의 그림자에 대고 중얼거렸다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:미안해요, 저는 당신의 누나가 아니라, 그리폰 인형 M4A1이에요.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:M4는 고개를 돌리고 안개가 자욱한 길을 따라 달렸다...
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay>:
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐！15！SOP2！+你们在哪里？！
-()<Speaker></Speaker>||:M4的声音回荡在乳白色的雾气中，没有激起一点波澜。
-()<Speaker>？？？</Speaker>||:<color=#FF33CC>大家好不容易，才重新聚到一起……</color>
-()<Speaker>？？？</Speaker>||:<color=#7FFF00>指挥官说了，AR-15不会被解除武装的，她很快就会回来。</color>
-()<Speaker>？？？</Speaker>||:<color=#FFCC33>那还好，不然下次我们就得去咖啡厅或者煤窑里见她了。</color>
-()<Speaker>？？？</Speaker>||:<color=#7FFF00>也许我们这次回去，她就可以重新归队了。</color>
-()<Speaker>？？？</Speaker>||:<color=#FF33CC>嗯……</color>
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:是我的声音……可是15去哪里了？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4朝着声音的方向摸索而去，一个模糊的身影出现在她的身边。
-()<Speaker>？？？</Speaker>||:<color=#FF33CC>AR-15……</color>+<color=#FF33CC>为什么一直要躲着我们呢……</color>
-()<Speaker>？？？</Speaker>||:<color=#FFCCCC>因为你们……老是给我惹麻烦啊。</color>
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:嘭——模糊的身影倒在地上。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:谁？！
-()<Speaker>？？？</Speaker>||:<color=#FFCCCC>这个伏击技巧M16说过很多次了，可你们还是老样子。</color>+<color=#FFCCCC>没有我在身边，你们到底能做什么呢？</color>
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:15……？你在做什么？
-AR15(0)<Speaker></Speaker><GradientShow>2</GradientShow>||:雾气凝聚成了一个极具压迫感的身影。
-AR15(0)<Speaker>AR15</Speaker>||<BGM>BGM_Empty</BGM>:<color=#FFCCCC>我在上演……一场令人感动的重逢。</color>
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=4</controll_shake><SE1>AVG_lifttable</SE1>:迷宫的绿墙轰然倒塌，迎面朝M4的头顶压下来……
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:……唔呃！
-()<Speaker></Speaker>||:地面瞬间被砸出一个巨大的洞窟！+花田剧烈地晃动着。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:一股强烈得要将人甩出去的力道，瞬间将M4投入黑暗的洞中……
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니! AR15! SOP2!+모두 어딨나요?!
+()<Speaker></Speaker>||:M4의 목소리가 하얀 안개 속에서 메아리쳤다. 그러나 아무런 대답도 없었다.
+()<Speaker>？？？</Speaker>||:<color=#FF33CC>다들 겨우 다시 모였는데...</color>
+()<Speaker>？？？</Speaker>||:<color=#7FFF00>지휘관님께서 AR-15가 무장해제 당할 일은 없다고, 금방 돌아올 수 있을 거라고 말했어요. </color>
+()<Speaker>？？？</Speaker>||:<color=#FFCC33>그나마 다행이네, 아니면 커피숍이나 탄광에서 그녀를 찾아야 할 테니. </color>
+()<Speaker>？？？</Speaker>||:<color=#7FFF00>어쩌면 우리가 돌아가는 대로 그녀가 팀에 복귀할지도 몰라요. </color>
+()<Speaker>？？？</Speaker>||:<color=#FF33CC>응...</color>
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:내 목소리... 그런데 AR15가 어디로 갔다는 거지?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4는 목소리가 들린 쪽으로 길을 더듬으며 걸어갔다. 흐릿한 그림자가 그녀 곁에 나타났다.
+()<Speaker>？？？</Speaker>||:<color=#FF33CC>AR-15...</color>+<color=#FF33CC>어째서 계속 피하기만 하는 걸까......</color>
+()<Speaker>？？？</Speaker>||:<color=#FFCCCC>왜냐하면... 너희들은 자꾸 일만 만드니까지. </color>
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:털썩, 흐릿한 그림자가 바닥에 쓰러졌다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:누구?!
+()<Speaker>？？？</Speaker>||:<color=#FFCCCC>M16이 이런 매복 기술에 대해 여러 번 일러뒀는데도 여전하구나.</color>+<color=#FFCCCC>내가 곁에 없으면 너희들은 도대체 할 수 있는 게 뭐니? </color>
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:AR15...? 지금 뭐하는 거예요?
+AR15(0)<Speaker></Speaker><GradientShow>2</GradientShow>||:안개가 뭉쳐 위압감을 내뿜는 실루엣으로 변했다.
+AR15(0)<Speaker>AR15</Speaker>||<BGM>BGM_Empty</BGM>:<color=#FFCCCC>눈물 나게 감동적인 재회의 장면을 연출하고 있지...</color>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=4</controll_shake><SE1>AVG_lifttable</SE1>:미로의 푸른 벽이 갑자기 무너져 M4를 깔아뭉개려고 했다...
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:...으윽!
+()<Speaker></Speaker>||:갑자기 지면에 거대한 구멍이 뚫렸다.+정원이 격렬하게 흔들렸다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:사람마저 내팽개칠 것 같은 어마무시한 힘이, M4를 시커먼 구렁텅이에 던져넣었다.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<BIN>9</BIN><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=1</controll_shake>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>GF_22W_BGM_1</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_flag</SE1><common_effect>%%code=CJ_suduxian%%</common_effect>:坠落，无尽的坠落……
-()<Speaker></Speaker>||:M4奋力张开双臂，却触不到任何真切的物体或墙面。+洞窟的入口，蓝色天空的光芒越来越远，如远去的流星，瞬间消逝于视野中……
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:嗡——+尖锐的刺痛感从后脑猛地袭来！+不是物体的撞击，而是内部仿佛有什么东西隐隐作痛——
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:<size=50>呃啊——！！</size>
-()<Speaker></Speaker>||<SE1>Explode</SE1><common_effect>%%code=CJ_suduxian_destroy%%</common_effect>:砰！+一记触底般猛烈的冲撞将所有的刺痛感狠狠敲碎。+所有触觉和知觉，在一瞬间随着少女的素体一起被肢解，成为永恒静默的空白……
+()<Speaker></Speaker>||<SE1>AVG_flag</SE1><common_effect>%%code=CJ_suduxian%%</common_effect>:추락, 끝없는 추락...
+()<Speaker></Speaker>||:M4가 양팔을 힘껏 뻗어보지만 어떤 물건이나 벽도 손에 닿지 않았다.+동굴의 입구, 푸른 하늘의 빛이 갈수록 멀어지며, 마치 지나가는 별똥별처럼 순식간에 시야에서 사라졌다.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:부웅——+뾰족한 아픔이 뒤통수를 찔렀다.+실제 물건에 찔린 것이 아닌, 머릿속의 무언가가 욱신거렸다——
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:<size=50>으아아앗——!!</size>
+()<Speaker></Speaker>||<SE1>Explode</SE1><common_effect>%%code=CJ_suduxian_destroy%%</common_effect>:쿠웅!+바닥에 부딪히는 것 같은 강렬한 충격이 모든 따끔함을 깨뜨렸다.+모든 촉각과 지각이 한순간에 소녀의 소체와 함께 산산조각나 영원히 조용한 공백으로 변했다... 
 ()||<黑屏1><CGDelay>1</CGDelay>:
-AR15(0)<Speaker>AR15</Speaker>||<黑屏2><BIN>9</BIN><回忆>:那么……最后一个问题，你要认真回答我。
-AR15(0)<Speaker>AR15</Speaker>||:M4A1……你到底是谁？
-AR15(0)<Speaker>M4A1</Speaker><同时置暗>||:……？？+你问我……什么……？
-AR15(0)<Speaker>AR15</Speaker>||:回答我，M4。+我现在是在给所有人争取存活的机会……+你也好，指挥官也好，包括整个格里芬……+所以，快点回答我，M4A1。+……你，到底是谁？
+AR15(0)<Speaker>AR15</Speaker>||<黑屏2><BIN>9</BIN><回忆>:그러면... 마지막 질문이야, 진지하게 대답해. 
+AR15(0)<Speaker>AR15</Speaker>||:M4A1... 넌 도대체 누구지? 
+AR15(0)<Speaker>M4A1</Speaker><同时置暗>||:...??+도대체... 뭘 묻는 건가요...? 
+AR15(0)<Speaker>AR15</Speaker>||:대답해. M4.+난 지금 모든 사람들을 살릴 기회를 주는 거야...+너, 지휘관, 그리고 그리폰의 모두들...+그러니, 빨리 대답해, M4A1.+...넌, 도대체 누구야? 
 ()||<黑屏1><CGDelay>0.7</CGDelay><关闭蒙版>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>702</BIN>:
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:<size=50>我是M4A1！格里芬AR小队的M4A1！</size>
-()<Speaker></Speaker>||<SE1>Select</SE1>:大叫着从噩梦中醒来，M4第一时间抓起了自己的枪。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+15？
-()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:在一片混沌的雾气中，M4只能看见AR15清晰的样子。+她站在身边，脸上依旧是那副冷漠的表情。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:是你吗，15？
-AR15(0)<Speaker>？AR15</Speaker>||:你知道吗，M4A1，当第一眼看到这个世界，我充满了好奇与兴奋……+我不是IOP直接建造的量产人形，而是16LAB亲手研制的精英。+我的心愿是完成很多光荣的命令，和很多强大的人形成为朋友。+当时的我，认为只要好好努力，自己就能成为耀眼的明星。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:15……
-AR15(0)<Speaker>？AR15</Speaker>||:但是很快，命令出现了，我必须听从你的指挥，并永远和整个AR小组捆在一起。+又蠢又吵的SOP-II，大大咧咧的M16，还有优柔寡断的你……+从那时起，我的所有可能性被扼杀掉了。
-AR15(0)<Speaker>？AR15</Speaker>||:我很讨厌你们，但是面对命令，却又无能为力。
-AR15(0);NPC-lnxy(1)<Speaker>M4A1</Speaker>||:这都是过去的记忆，我知道……你现在已经不再这样想了。
-AR15(0)<Speaker>？AR15</Speaker>;NPC-lnxy(1)||:我讨厌你，M4A1。
-AR15(0);NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-AR15(0)<Speaker>？AR15</Speaker>||:如果你消失就好了。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:骗子，15不会说这样的话！
-()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:呯呯呯——+从枪口喷射的火力驱散了迷雾。
-()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:但很快，新的雾团出现，新的绝望也在其中扭曲。
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:<size=50>저는 M4A1! 그리폰 AR팀의 M4A1이에요!</size>
+()<Speaker></Speaker>||<SE1>Select</SE1>:소리지르면서 악몽에서 깨어난 M4는 가장 먼저 자신의 총을 집었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......+AR15?
+()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:자욱한 안개 속에서 M4는 AR15의 모습만이 뚜렷하게 보였다.+곁에 서있는 그녀의 얼굴은 여전히 평소의 쌀쌀맞은 표정이었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:당신인가요, AR15?
+AR15(0)<Speaker>AR15?</Speaker>||:알고 있니, M4A1. 이 눈으로 처음 세상을 봤을 때 난 호기심에 들떠 있었지...+난 IOP가 적당히 제조한 양산형 인형이 아니야. 16LAB에서 직접 개발한 엘리트지.+나의 소망은 수많은 영광스런 명령을 완수하고, 여러 강한 인형들과 친구가 되는 거였어.+그때의 나는 열심히 노력하면 빛나는 스타가 될 수 있을 줄 알았지. 
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:AR15...
+AR15(0)<Speaker>AR15?</Speaker>||:하지만 곧 명령이 내려왔어. 네 지휘를 반드시 따라야 했고, 영원히 AR팀에 묶여버리게 됐지.+멍청하고 시끄러운 SOPII, 털털하고 건성건성한 M16, 그리고 우유부단한 너...+그때부터 내 모든 가능성이 말살됐지.
+AR15(0)<Speaker>AR15?</Speaker>||:난 너희들이 정말 싫었어. 하지만 명령 앞에선 무력했지. 
+AR15(0);NPC-lnxy(1)<Speaker>M4A1</Speaker>||:이건 전부 과거의 기억이에요. 알고 있어요... 당신은 이제 그렇게 생각하지 않는다는 걸...
+AR15(0)<Speaker>AR15?</Speaker>;NPC-lnxy(1)||:난 네가 싫어, M4A1.
+AR15(0);NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+AR15(0)<Speaker>AR15?</Speaker>||:네가 사라졌으면 좋겠어.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:이 가짜! AR15는 그런 말 안 해요!
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:타타타탕!+총구가 불을 뿜어 안개를 걷어냈다.
+()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:하지만 금세 다른 안개 덩어리가 모여들어, 새로운 절망으로 변해 꿈틀거렸다.
 ()||<白屏1>:
 ()<Speaker></Speaker>||<白屏2><BIN>183</BIN>:
 ()||<白屏1><controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=1</controll_shake>:
 ()<Speaker></Speaker>||<SE1>AVG_PPT_Switch</SE1><白屏2><BIN>38</BIN><CGDelay>1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_PPT_Switch</SE1><BIN>37</BIN><CGDelay>1.6</CGDelay>:
-()<Speaker>？AR15</Speaker>||<CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:果然，我还是讨厌你……
+()<Speaker>AR15?</Speaker>||<CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:역시, 아무래도 난 널 싫어해야 할 것 같아...
 ()<Speaker></Speaker>||<BIN>183</BIN><CGDelay>1</CGDelay><SE1>Explode</SE1>:
 ()||<白屏1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=1</controll_shake>:
 ()<Speaker></Speaker>||<BIN>183</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.5%%duration=0%%</bg_move>:
 ()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=2%%</bg_move><BIN>36</BIN><白屏2>:
-()<Speaker>M4A1</Speaker>||<震屏3>:<size=50>15！</size>
-()<Speaker></Speaker>||<SE1>RunStep</SE1><BIN>9</BIN>:M4奔向即将被烈火吞噬的AR15，但她越过了时间、空间，跌向了雾气后的虚无……
+()<Speaker>M4A1</Speaker>||<震屏3>:<size=50>AR15!</size>
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BIN>9</BIN>:M4는 불길에 삼켜지는 AR15에게 달려갔지만, 그녀는 시간을 넘어, 공간을 넘어, 안개 뒤의 공허로 굴러떨어졌다...
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=1</controll_shake><黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay><SE1>AVG_flag</SE1><common_effect>%%code=CJ_suduxian%%</common_effect>:
-()<Speaker></Speaker>||:坠落……+无止境的坠落。+一场不会完结的梦，一双逐渐扼紧喉咙的手……
-()<Speaker>？？？</Speaker>||<BGM>GF_22W_BGM_2</BGM>:<color=#FFCC33>M4！</color>
-()<Speaker>M4A1</Speaker>||:……
-()<Speaker>？？？</Speaker>||:<color=#FFCC33>振作起来，M4！</color>
-()<Speaker>M4A1</Speaker>||:16姐……？
+()<Speaker></Speaker>||:추락...+끝없는 추락.+끝나지 않는 꿈, 점점 목을 조르는 두 손...
+()<Speaker>？？？</Speaker>||<BGM>GF_22W_BGM_2</BGM>:<color=#FFCC33>M4!</color>
+()<Speaker>M4A1</Speaker>||:......
+()<Speaker>？？？</Speaker>||:<color=#FFCC33>정신 차려, M4!</color>
+()<Speaker>M4A1</Speaker>||:M16 언니...?
 ()||<黑屏1><CGDelay>0.7</CGDelay><common_effect>%%code=CJ_suduxian_destroy%%</common_effect><SE1>AVG_Cloak_Whoosh</SE1>:
 ()<Speaker></Speaker>||<睁眼><BIN>702</BIN><CGDelay>0.7</CGDelay>:
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:咳……咳……
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:感谢我吧，你又一次和死神擦肩而过。
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐！
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:M4，你还能指挥吗？好像伤得不轻。
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我还能，这点小伤不影响的。+倒是你，16姐，你是怎么找到我的？为什么你的样子是——
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:现在没空说这些，拿起武器，我们得立刻行动起来。+执行备用方案C吧，各位，就像之前说好的。+我们会分头吸引火力，为你争取时间。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker>？？？</Speaker>||:<color=#FFCCCC>别磨蹭了，M4！这是最保险的方案！</color>
-()<Speaker>？？？</Speaker>||:<color=#FF33CC>是啊，现在能救我们的就只有M4了！</color>
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:好了！大家分开行动，引开铁血的部队！
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:别走！不要丢下我……
-()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:M16和两个模糊的身影一起钻入雾中消失了，只能听见她们急促的脚步声远去。+不祥的预感在心中升腾，M4只能咬牙跟上去。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐！
-()<Speaker></Speaker>||:雾气妖娆地摇曳着身姿，M4担忧着小队的成员，迷茫地前行。
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position><Shake>||:小心！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:M16的身影从雾中闪现，一把将M4按在了地面。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:呯呯呯——一连串子弹扫射的声音。
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:趴下，它们来了。
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:谁来了？
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:铁血，是冲着你来的。
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:铁血……？
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:M4，快点指挥大家反击！
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐，铁血已经——
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:还没明白情况吗，M4！+快组织行动，不然大家都会死在这里！
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:M4，你是我们唯一的希望……+我们说过，要一起离开这里，对吧？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+嗯，我们要一起离开这里。
-()<Speaker></Speaker>||:隐约已经明白这一切都不过是回忆碎片拼接而成的幻影，M4仍旧选择站在了M16的身边，和她共同举枪面对黑暗中将要袭来的一切。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:哒、哒、哒——+空洞轻灵的脚步声。
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||:콜록...콜록...
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:이봐, 나한테 고마워하라고. 너 또 한 번 삼도천을 건널 뻔했잖아.
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니!
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:M4, 계속 지휘할 수 있겠어? 상처가 심해 보이는데. 
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저는 괜찮아요, 이 정도 상처쯤...+그것보다 M16 언니, 저를 어떻게 찾아냈죠? 왜 모습이——
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:지금 그런 이야기할 때가 아니야. 무기 들어, 지금 당장 움직여야 해.+예비플랜 C로 가도록 하자. 다들, 저번에 약속한 대로 하는 거다. +우리가 갈라져서 적을 유인할 테니 그 틈에 가도록 해.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker>？？？</Speaker>||:<color=#FFCCCC>꾸물거리지 마 M4! 이게 제일 확실한 방법이야! </color>
+()<Speaker>？？？</Speaker>||:<color=#FF33CC>그래, 지금 우리를 구할 수 있는 건 M4밖에 없어! </color>
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:좋아! 다들 흩어져서 적들을 유인한다! 
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:기다려요! 절 두고 가지 말아요...
+()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect>:M16과 두 흐릿한 그림자가 함께 안개 속으로 뛰어들어 사라졌다.+불길한 예감이 가슴에 치밀어올랐지만 M4는 이를 악물고 따라갈 수밖에 없었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니!
+()<Speaker></Speaker>||:안개가 요염한 자태로 몸을 흔들고, M4는 팀원들을 걱정하며 무작정 앞으로 걸었다.
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position><Shake>||:조심해!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:M16의 모습이 안개 속에서 튀어나와 M4를 바닥에 넘어뜨렸다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:타타탕! 총알이 빗발치는 소리가 울렸다.
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:엎드려, 놈들이 왔어.
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:누가 왔다고요?
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:철혈. 너를 노리고 온 거야.
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:철혈이요...?
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:M4, 모두를 지휘해줘, 빨리 반격을!
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니, 철혈은 이미...
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:아직도 이해 못했어? M4!+빨리 작전을 짜지 않으면 전부 여기서 죽을 거라고!
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:M4, 네가 우리의 유일한 희망이야...+말했었지, 우리는 같이 여기서 나갈 거라고. 맞아?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......+네, 우리 함께 여기서 벗어나요.
+()<Speaker></Speaker>||:이 모든 것이 기억의 파편으로 짜맞춰진 환상에 불과하다는 것을 알면서도, M4는 M16 곁에 서서 총을 들어, 어둠을 뚫고 닥쳐올 무언가에 맞서기를 선택했다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><BGM>BGM_Empty</BGM>:뚜벅, 뚜벅, 뚜벅——+공허하고 가벼운 발소리.
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=6</controll_shake><SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
 ()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><CGDelay>0.1</CGDelay>:
@@ -228,93 +228,93 @@ NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+嗯，我们要一起离开这里。
 ()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><CGDelay>0.1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:
 ()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.6</CGDelay>:呯呯呯——朝着声音的方向，两人同时射击。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:命中了吗？
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:好像差一点。
-()<Speaker>？？？</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:差一点……+……就是差很远。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一个小小的身影出现在雾气的尽头。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:伊莱莎……
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:小心，M4。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:嗯。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:身影无视了枪口的威胁，笃定地朝着M4的方向走来。
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||<SE1>Select</SE1>:你想做什么？！
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-BOSS-12(0)<Speaker>？伊莱莎</Speaker><Position>0,100</Position>||<SE1>Stop_AVG_loop</SE1>:我要做的是……+AR15没能为我做到的事情……+也是你无法回答我的事情……
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.6</CGDelay>:타타탕! 소리가 들려오는 방향으로 둘은 동시에 사격을 가했다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:명중했나요...?
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:약간 빗나갔나?
+()<Speaker>？？？</Speaker>||<BGM>GF_21summer_intro_DemonVariation</BGM>:안타깝게도...+...멀리 빗나갔군. 
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:작은 형체가 안개 끝에서 나타났다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:엘리사...
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:조심해, M4.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:네.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:엘리사는 총구의 위협에도 아랑곳하지 않고 똑바로 M4를 향해 걸어왔다.
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||<SE1>Select</SE1>:뭘 할 셈이야!?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+BOSS-12(0)<Speaker>엘리사?</Speaker><Position>0,100</Position>||<SE1>Stop_AVG_loop</SE1>:내가 하려는 건...+AR15가 해주지 못했던 것...+또한 너도 대답할 수 없는 것...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>ClothingUp</SE1>:穿过M16的身躯，伊莱莎抱紧了M4……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>ClothingUp</SE1>:엘리사는 M16을 그대로 뚫고 지나가, M4를 단단히 껴안았다...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>463</BIN><黑屏2><SE1>AVG_whitenoise</SE1>:尖锐的蜂鸣。
-()<Speaker></Speaker>||<SE1>AVG_Bubble</SE1>:气泡咕嘟嘟地从深海涌起，哭泣的少女们独自走过染血的暗巷。+无数破碎的画面从M4的眼前奔涌而过……
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+你究竟想要做什么，伊莱莎？
-BOSS-12(0)<Speaker>？伊莱莎</Speaker><Position>0,100</Position>;NPC-lnxy(1)||:我想要寻找……+关于……你究竟是谁的答案。
-BOSS-12(0)<Position>0,100</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我是格里芬的雇佣人形，AR小组的成员。+除此之外，我不知道该怎么回答你。
-BOSS-12(0)<Speaker>？伊莱莎</Speaker><Position>0,100</Position>;NPC-lnxy(1)||:这都不是我想要的，所以快点，告诉我答案。
-BOSS-12(0)<Position>0,100</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我说了，我不知道……
-BOSS-12(0)<Speaker>？伊莱莎</Speaker><Position>0,100</Position>;NPC-lnxy(1)||:你被制造出来的目的，怎么可能不知道呢？+告诉我答案，快告诉我答案。
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||<震屏3><SE1>AVG_Punch</SE1>:<size=50>我不知道！我是M4A1！我只是个人形而已！</size>
-()<Speaker></Speaker>||:似乎全世界都在向M4索取答案，一个连M4自己都不知道的答案。+“我是谁”，真的是一个必须要回答的问题吗？
-BOSS-12(0)<Speaker>？伊莱莎</Speaker><Position>0,100</Position>||:来我身边，让我来解析你的记忆。+这样，我们就能知道，你究竟是谁了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:伊莱莎抬手，将原本就逼仄的空间缩得更狭小。
-()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>Select</SE1>:被咄咄逼人的伊莱莎逼入死角，M4只能绝望地举起枪——
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position><Shake>||<SE1>RunStep</SE1><BGM>BGM_Empty</BGM>:M4！不要被她碰到！
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16……+为什么……是你？
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:为什么不是我？每次不都是我嘛？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:倏忽之间出现在M4面前，并为她挡住伊莱莎的M16回头笑了笑。
+()<Speaker></Speaker>||<BIN>463</BIN><黑屏2><SE1>AVG_whitenoise</SE1>:날카로운 이명.
+()<Speaker></Speaker>||<SE1>AVG_Bubble</SE1>:거품이 깊은 바다 속에서 보글보글 치솟으며, 흐느끼는 소녀들이 피로 얼룩진 뒷골목을 지나갔다.+무수한 장면들이 조각난 파편이 되어 M4의 눈앞에서 흘러갔다...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......+대체 뭘 할 셈인가요, 엘리사?
+BOSS-12(0)<Speaker>엘리사?</Speaker><Position>0,100</Position>;NPC-lnxy(1)||:...답을 찾고 있지.+"넌... 도대체 누구냐"는 질문에 대한 답을 말이야. 
+BOSS-12(0)<Position>0,100</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저는 그리폰에 고용된 인형, AR팀의 멤버.+그 외엔 뭐라고 대답해야 할지 모르겠는데요. 
+BOSS-12(0)<Speaker>엘리사?</Speaker><Position>0,100</Position>;NPC-lnxy(1)||:하지만 내가 원하는 건 아니야. 그러니까 빨리, 대답해. 
+BOSS-12(0)<Position>0,100</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:말했잖아요. 전 모른다고...
+BOSS-12(0)<Speaker>엘리사?</Speaker><Position>0,100</Position>;NPC-lnxy(1)||:네가 제조된 목적을 모른다는 게 말이나 된다고 생각해?+대답해, 빨리 대답하란 말이다. 
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||<震屏3><SE1>AVG_Punch</SE1>:<size=50>모른다고요! 저는 M4A1이에요! 그저 인형일 뿐이라고요!</size>
+()<Speaker></Speaker>||:마치 온 세상이 M4에게 답을 내길 바라는 것 같았다. M4 자신조차 모르는 답을.+"나는 누구인가", 그게 꼭 대답해야 하는 질문일까?
+BOSS-12(0)<Speaker>엘리사?</Speaker><Position>0,100</Position>||:내 곁으로 와, 너의 기억을 분석하겠어.+그러면 네가 누구인지 알게 될 거야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:엘리사가 손을 들자 원래부터 비좁던 공간이 더욱 좁아졌다.
+()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>Select</SE1>:엘리사를 피해 구석에 몰린 M4는 마지막 발악으로 총을 들었다——
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position><Shake>||<SE1>RunStep</SE1><BGM>BGM_Empty</BGM>:M4! 녀석에게 닿으면 안 돼!
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16...+왜... 당신이...?
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:왜 나냐니? 항상 나였잖아?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:갑자기 M4 앞에 나타나 엘리사를 가로막은 M16이 고개를 돌려 미소지었다.
 ()||<黑屏1>:
-()<Speaker>？M16A1</Speaker>||<黑屏2><BIN>9</BIN>:从一开始，就一直是我啊。
+()<Speaker>M16A1?</Speaker>||<黑屏2><BIN>9</BIN>:처음부터 언제나 나였잖아.
 ()||<黑屏1><CGDelay>2</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>22</BIN><回忆>:
 ()||<BGM>BGM_Scar_Shenzhizi</BGM><SE1>ClothingUp</SE1><CGDelay>0.6</CGDelay>:
-M4A1(0)<Speaker>M4A1</Speaker>||:你是……谁……？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;M4A1(0)||:帕斯卡莉亚，你的制造者。
-NPC-Persica(0);M4A1(0)<Speaker>M4A1</Speaker>||:为什么……要制造我？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>;M4A1(0)||:你将成为AR的队长，领导我制造的最优秀的人形。
-NPC-Persica(0);M4A1(0)<Speaker>M4A1</Speaker>||:人形……我是……人形吗？
-NPC-Persica(2)<Speaker>帕斯卡</Speaker>;M4A1(0)||:从现在开始是了。+复原后的你，比我想象中还要可爱呢……+希望你能为我……带来莱柯无法给我的答案……
-NPC-Persica(2);M4A1(0)<Speaker>M4A1</Speaker>||:……莱柯？……什么答案？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:这个嘛……现在说还太早了，不如先来看看你新的战友？
+M4A1(0)<Speaker>M4A1</Speaker>||:너는... 누구...?
+NPC-Persica(0)<Speaker>페르시카</Speaker>;M4A1(0)||:내 이름은 페르시카리아. 널 만든 사람이야.
+NPC-Persica(0);M4A1(0)<Speaker>M4A1</Speaker>||:왜... 날 만들었어?
+NPC-Persica(0)<Speaker>페르시카</Speaker>;M4A1(0)||:넌 AR팀의 리더가 되어서, 내가 만든 가장 우수한 인형들을 이끌게 될 거야.
+NPC-Persica(0);M4A1(0)<Speaker>M4A1</Speaker>||:인형...+난... 인형이야?
+NPC-Persica(2)<Speaker>페르시카</Speaker>;M4A1(0)||:지금부터는 그렇지.+널 복원하고 나니 내가 상상했던 것보다 훨씬 더 귀여운걸...+네가 나를 위해... 리코가 나에게 주지 못했던 답을 줄 수 있기를...
+NPC-Persica(2);M4A1(0)<Speaker>M4A1</Speaker>||:...리코?+...무슨 답?
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:그건 말이야... 지금은 말해주기 아직 너무 이른 것 같네. 일단 먼저 새로운 동료부터 만나지 않을래?
 ()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_door_elecport</SE1>:
-M16(0)<Speaker>M16A1</Speaker><Position>0,80</Position>||:M4A1，是吗？我是M16A1，和你一样是个战术人形。+初次见面，好像之后我就要听你的指挥了呢。
-M16(0)<Position>0,80</Position>;M4A1(0)<Speaker>M4A1</Speaker>||:你的……眼睛？
-M16(0)<Speaker>M16A1</Speaker><Position>0,80</Position>;M4A1(0)||:哈哈，被吓到了吗？+这个眼罩啊……其实没那么可怕啦，只是个纪念而已，很酷对吧？
-M16(0)<Position>0,80</Position>;M4A1(0)<Speaker>M4A1</Speaker>||:唔……
-M16(0)<Speaker>M16A1</Speaker><Position>0,80</Position>||:对了，作战方面我可是很有经验的，不会的事情随时问我哦。+喜欢喝酒的话，也可以来约我啊。
+M16(0)<Speaker>M16A1</Speaker><Position>0,80</Position>||:네가 M4A1 맞지?+내 이름은 M16A1. 너랑 같은 전술인형이야.+만나서 반가워. 아마 앞으로 네 지휘를 받게 될 것 같은데.
+M16(0)<Position>0,80</Position>;M4A1(0)<Speaker>M4A1</Speaker>||:너... 눈이?
+M16(0)<Speaker>M16A1</Speaker><Position>0,80</Position>;M4A1(0)||:하하하, 놀라게 해버렸나?+이 안대는 말이지... 사실 뭐 그렇게 무서운 것도 아냐. 그냥 기념일 뿐이니까. 멋지지 않아?
+M16(0)<Position>0,80</Position>;M4A1(0)<Speaker>M4A1</Speaker>||:으...
+M16(0)<Speaker>M16A1</Speaker><Position>0,80</Position>||:아 참, 작전 쪽으로는 내가 더 경험이 풍부할 테니 잘 모르는 건 나한테 물어보도록 해.+술 좋아하면 나중에 나랑 한잔하자고
 ()||<黑屏1><CGDelay>1</CGDelay>:
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||<BIN>9</BIN><黑屏2>:从开始……到结束……+从一到终，我都会在你的身边。+保护你，是我唯一，也是绝对的命令。
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||<BIN>9</BIN><黑屏2>:처음부터... 끝까지...+언제까지나 나는 네 곁에 있을 거야.+너를 지키는 것이 나의 유일하고 절대적인 명령이니까.
 ()||<黑屏1><CGDelay>0.7</CGDelay><关闭蒙版>:
-()<Speaker></Speaker>||<黑屏2><BIN>702</BIN><SE1>RunStep</SE1>:抓着M16的手，M4从伊莱莎的囚笼中逃脱，回到了无止境的迷宫。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐……
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:别害怕，冷静地观察，找到离开这里的路。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:嗯。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:M4不安的心终于着陆，她循着坚实的地面，穿过迷雾前行着。+身后M16的脚步声让她不再恐惧那些咄咄逼人的追问。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||<SE1>Stop_AVG_loop</SE1>:等等。
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:怎么了？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我们……回到了最初的岔路口……
-()<Speaker></Speaker>||:M4站在岔路中间，一条路通向阳光明媚的花园，一条路通向迷雾横行的荒原。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:为什么又回来了……
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:我只能送你到这里了。
-M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:16姐？
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:好好活下去。
+()<Speaker></Speaker>||<黑屏2><BIN>702</BIN><SE1>RunStep</SE1>:M16의 손을 잡고서, M4는 엘리사의 감옥에서 빠져나와 다시 끝이 없는 미로로 돌아왔다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니...
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:겁먹지 마, 침착하게 관찰해서 여기서 벗어날 길을 찾는 거야.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:네.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:M4의 불안감이 마침내 가라앉았다. 그녀는 단단한 지면을 딛고서 안개 속을 헤치며 나아갔다.+뒤에서 따라오는 M16의 걸음소리 덕에 그녀는 더이상 그 악착같은 추궁이 두렵지 않았다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||<SE1>Stop_AVG_loop</SE1>:잠깐만요.
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:뭔데?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:우리... 맨 처음 왔던 갈림길로 돌아왔어요...
+()<Speaker></Speaker>||:M4는 갈림길 중간에 섰다. 한쪽 길은 햇빛이 화창한 정원, 한쪽 길은 안개가 자욱한 황무지.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:왜 여기로 돌아온 거지...
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>;NPC-lnxy(1)||:나는 여기까지만 데려다줄 수 있어.
+M16(0)<Position>0,80</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:M16 언니?
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:잘 살아.
 ()<Speaker></Speaker>||<白屏2><SE1>AVG_whitenoise</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<白屏2><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:M16身后的雾气化作狰狞尖叫的怪物攀附在了她的身上。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:你又要丢下我一个人了吗……
-M16(0)<Speaker>？M16A1</Speaker><Position>0,80</Position>||:M4A1……+等我回来，无论那时我变成了什么……
-()<Speaker></Speaker>||:M16消失在了雾气中。+M4被迫再一次站在了分岔路前。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||<BGM>BGM_Empty</BGM>:露尼西亚小姐……
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+我不是露尼西亚……
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:为什么要一遍遍观看别人的痛苦回忆呢？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:那不是别人的，那是我的！
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:属于您的，明明还在等待着您。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>GF_2022_Summer_AVG_2</BGM>:马提尼亨利指向坐在喷泉池边的比尔，天色已晚，小小的身影融入浑浊的夜色中显得脆弱又渺小。+他仍然在等待着姐姐的归来。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:您却始终执着于那些不属于您的幻想。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不是幻想！是属于我的……现实！
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:所以……您要再一次回到那些痛苦的幻想中，再一次看她们死去吗？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:您已经见证了无数次……她们的死亡。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:马提尼亨利指向迷雾的小路，一团由迷雾化成的人形已经出现在了尽头。
-()<Speaker>？？？</Speaker>||:<color=#FFFF33>M4A1！你在哪儿，能听到我吗，快点回答我！</color>+<color=#FFFF33>求求你了，快点醒来吧！</color>
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:是RO的声音……
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:您要回应她吗？即便您早已知道结局……
+()<Speaker></Speaker>||<白屏2><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:M16의 등 뒤에 도사리던 안개가 비명을 지르는 괴물이 되어 그녀의 몸에 달라붙었다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저를 또 혼자 두고 가는 건가요...
+M16(0)<Speaker>M16A1?</Speaker><Position>0,80</Position>||:M4A1...+날 기다려줘, 내가 뭘로 변했든지...
+()<Speaker></Speaker>||:M16이 안개 속으로 사라졌다.+M4는 또 혼자 갈림길 앞에 서게 됐다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||<BGM>BGM_Empty</BGM>:루니샤 아가씨...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......+저는 루니샤가 아니에요...
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:왜 계속 다른 사람의 괴로운 기억을 보시는 건가요?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저건 남의 기억이 아니에요, 저의 기억이라고요!
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨의 것은, 지금 아가씨를 기다리고 있는걸요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>GF_2022_Summer_AVG_2</BGM>:마티니 헨리가 분숫가에 앉아 있는 빌을 가리켰다. 벌써 해가 저물어, 그 작은 몸집은 혼탁한 야경 속에서 연약하고 왜소해 보였다.+그는 변함없이 누나가 돌아오길 기다리고 있었다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:그런데 아가씨는 계속 당신의 것이 아닌 환상에만 집착하시죠.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:환상이 아니에요! 이건 저의... 현실이에요!
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:그래서... 또 저 괴로운 환상 속으로 돌아가 그들이 죽는 것을 또 한 번 관람하실 셈인가요?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:이미 셀 수 없이 보셨잖아요... 그들이 죽는 장면을.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:마티니 헨리가 안개로 통하는 길을 가리켰다. 안개가 한데 뭉쳐 만들어진 인형 하나가 그 끝에 나타나 있었다.
+()<Speaker>？？？</Speaker>||:<color=#FFFF33>M4A1 씨! 어디 있어요? 제 말 들리세요? 대답해주세요!</color>+<color=#FFFF33>부탁이에요, 어서 깨어나요!</color>
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:RO의 목소리...
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:대답하실 건가요? 어떻게 될지 알고 계시면서...
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay>:
 ()||<白屏1><controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=2</controll_shake>:
 ()<Speaker></Speaker>||<SE1>AVG_Pause</SE1><白屏2><BIN>116</BIN><CGDelay>0.4</CGDelay>:
@@ -323,135 +323,135 @@ NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position
 ()||<白屏1><SE1>AVG_Thunder_Dry</SE1>:
 ()<Speaker></Speaker>||<白屏2><CGDelay>1</CGDelay><BIN>113</BIN>:
 ()||<黑屏1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=1</controll_shake>:
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||<黑屏2><BIN>702</BIN>:<size=50>不……不要！</size>
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:您不断踏入通往幻想的道路，就会不断地见证这一切……+这些不属于您的记忆。
-()<Speaker>？？？</Speaker>||:<color=#FF33CC>出发吧，M4！</color>+<color=#FF33CC>出发吧！只要我们还在一起，就没有完成不来的任务！</color>
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:SOP2……
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||<黑屏2><BIN>702</BIN>:<size=50>아... 안 돼!</size>
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨가 계속 환상으로 향하는 길에 들어서면 저것들을 계속 보게 될 거예요...+아가씨의 것이 아닌 기억들을.
+()<Speaker>？？？</Speaker>||:<color=#FF33CC>출발하자, M4!</color>+<color=#FF33CC>어서 가자고! 우리가 함께 있는 한 완수하지 못할 임무는 없어!</color>
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:SOP2...
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<白屏2><SE1>AVG_Pause</SE1><SE1>Battlefield</SE1><BIN>149</BIN><controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=2</controll_shake><CGDelay>0.8</CGDelay>:
 ()||<黑屏1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=1</controll_shake>:
-NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||<BIN>702</BIN><黑屏2>:<size=50>停下！给我停下！</size>
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:没有人不希望您停下，正正相反，不肯停下的人是您啊……
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:脑袋深处，有个古怪的声音尖锐地叫嚣着，像滋滋作响的钻头，奋力凿着小洞……+记忆深处的某些东西从这些洞中永远地流失了。
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不对……不是这样的……
-NPC-Bill(0)<Speaker>比尔</Speaker>||:滚开！都给我滚开！+就是因为你们，露西才不肯回来！我要把你们都杀了！
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:露尼西亚小姐……
-NPC-Bill(0)<Speaker>比尔</Speaker>||:如果姐姐不回来，这里的一切有什么意义？！
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……+不对……我是M4A1……
+NPC-lnxy(1)<Speaker>M4A1</Speaker><Shake>||<BIN>702</BIN><黑屏2>:<size=50>멈춰! 당장 멈춰!</size>
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아무도 아가씨가 멈추는 걸 말리지 않아요. 오히려 아가씨가 스스로 멈추지 않는 거예요...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:머리 깊은 곳에서 이상한 소리가 날카롭게 울렸다. 마치 위잉 하며 돌아가는 드릴처럼 구멍을 파는 것 같았다...+기억 깊은 곳의 어떤 물건들이 그 구멍으로 새어나가 버렸다.
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:아니야... 그런 게 아니야...
+NPC-Bill(0)<Speaker>빌</Speaker>||:꺼져! 다 꺼지라고!+너네 때문에 루시가 안 돌아오는 거잖아! 내가 다 죽여버리겠어!
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:루니샤 아가씨...
+NPC-Bill(0)<Speaker>빌</Speaker>||:누나가 안 돌아오면 여기 있는 것들 전부 무슨 의미가 있는데!
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......+아니야... 나는 M4A1...
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><关闭蒙版>:
 ()<Speaker></Speaker>||<SE1>AVG_Pause</SE1>:
 ()<Speaker></Speaker>||<闪屏><duration>10</duration><rate>20</rate><delay>30</delay><CG>36,113,44</CG></闪屏><CGDelay>1</CGDelay>:
 ()||<黑屏1>:
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||<黑屏2><BIN>702</BIN>:小姐……不要再折磨自己了……
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:不对啊……不对……
-()<Speaker></Speaker>||:脑海中的叫嚣声愈加锐利，仅仅是维持意识都十分困难。+M4无法再思考下去。
-()<Speaker></Speaker>||<SE1>AVG_Slap</SE1><BGM>BGM_Empty</BGM>:啪——清脆的耳光声。
-NPC-Nemhran(4)<Speaker>？？？</Speaker><Position>0,70</Position>||:你又在胡闹，把你姐姐气跑了吗？
-NPC-Bill(0)<Speaker>比尔</Speaker>||:……对不起，母亲。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:夫人！您不是身体不舒服吗，怎么出来了？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一个瘦削脆弱的夫人缩回发麻的纤细手掌，她望向M4的方向，嘴唇有些颤抖。
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||<BGM>GF_21summer_avg_Demon</BGM>:露西……
-NPC-Bill(0)<Speaker>比尔</Speaker>||:母亲，请慢点走。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在小男孩的搀扶下，夫人走到了M4的几步之遥。+她停下来微微喘气，好似刚刚的距离已经耗尽了她的全部气力。
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||:我亲爱的女儿，快回家吃饭吧……
-NPC-Nemhran(4)<Position>0,70</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-NPC-Nemhran(4)<Position>0,70</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……妈妈……？
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>;NPC-lnxy(1)||:我在，宝贝，我一直在。
-NPC-Nemhran(4)<Position>0,70</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:我……我怎么了？
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>;NPC-lnxy(1)||:到我这里来好吗，露西？
-NPC-lnxy(1)<Speaker>M4A1</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她跌跌撞撞地，走向苍白女人的怀抱。
-()<Speaker></Speaker>||<SE1>AVG_Bell</SE1>:当——+清脆的钟声自半空中飘来，驱散了M4脑海中一切杂响。
-()<Speaker></Speaker>||:M4如释重负地喘息。回头望时，雾气弥漫的岔路已经消失不见了。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:小姐，您终于回来了……
-NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:……
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||:快跟你姐姐道歉。
-NPC-Bill(0)<Speaker>比尔</Speaker>||:对不起，姐姐，我不该惹你生气。
-NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:不……比尔什么也没有做错，是我……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:柔软的小手握住了自己的手，示意她不要再说下去。
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||:走吧，我们回家。
-()<Speaker></Speaker>||:在家人温暖的簇拥下，“露尼西亚”被牵着，走向远处的家。
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||<黑屏2><BIN>702</BIN>:아가씨... 더는 자신을 괴롭히지 마세요...
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:아니야... 아니야...
+()<Speaker></Speaker>||:머릿속의 울림이 갈수록 시끄러워져, 의식을 유지하는 것마저 버거워졌다.+M4는 더는 생각을 할 수가 없었다.
+()<Speaker></Speaker>||<SE1>AVG_Slap</SE1><BGM>BGM_Empty</BGM>:찰싹! 따귀 소리가 들렸다.
+NPC-Nemhran(4)<Speaker>？？？</Speaker><Position>0,70</Position>||:너 또 말썽 부렸니? 누나 속 터져서 뛰쳐나가라고?
+NPC-Bill(0)<Speaker>빌</Speaker>||:...죄송합니다, 어머니.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:부인! 편찮으시다고 하시지 않았나요? 왜 나오셨어요...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:야위고 연약한 부인이 얼얼해진 손바닥을 거두고, M4를 바라보며 입술을 떨었다.
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||<BGM>GF_21summer_avg_Demon</BGM>:루시...
+NPC-Bill(0)<Speaker>빌</Speaker>||:어머니, 천천히 걸으세요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:남자아이의 부축을 받으며 부인은 M4에게서 몇 걸음 앞까지 걸어왔다.+그리고 멈춰서 잠시 숨을 골랐다. 그 정도 걸음만으로 온몸의 힘을 소진한 것처럼.
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||:내 사랑스러운 딸아, 식사 시간이란다. 어서 돌아오렴...
+NPC-Nemhran(4)<Position>0,70</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+NPC-Nemhran(4)<Position>0,70</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:...엄마...?
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>;NPC-lnxy(1)||:그래, 아가야. 엄마 여기 있단다.
+NPC-Nemhran(4)<Position>0,70</Position>;NPC-lnxy(1)<Speaker>M4A1</Speaker>||:저... 어떻게 된 거죠?
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>;NPC-lnxy(1)||:이리로 오지 않겠니, 루시?
+NPC-lnxy(1)<Speaker>M4A1</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4는 주저하면서도 창백한 여인의 품으로 걸어갔다.
+()<Speaker></Speaker>||<SE1>AVG_Bell</SE1>:땡...+경쾌한 종소리가 공중에 울려퍼져 M4 머릿속의 모든 잡음을 쫓아냈다.
+()<Speaker></Speaker>||:M4는 홀가분해진 듯이 숨을 골랐다. 다시 뒤돌아봤을 때, 안개가 자욱한 갈림길은 사라지고 없었다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:아가씨, 마침내 돌아오셨군요...
+NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:......
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||:어서 누나에게 사과하렴.
+NPC-Bill(0)<Speaker>빌</Speaker>||:미안해 누나. 화나게 만들어서.
+NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:아니야... 빌이 잘못한 거 없어. 내가...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:부드러운 작은 손이 자신의 손을 잡았다. 더이상 말할 필요 없다는 듯이.
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||:가자꾸나, 우리 집으로.
+()<Speaker></Speaker>||:따듯한 가족에 둘러싸여, "루니샤"는 저 멀리 집으로 이끌려갔다.
 ()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>206</BIN><SE1>AVG_wind_grass</SE1>:吹拂过草坪的风穿过陌生的敞开着房门的洋房，“露尼西亚”站在门前，感受风扑在脸上。
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||:比尔，你在这里好好陪着露西，可不要再惹你姐姐生气了。
-NPC-Nemhran(4)<Position>0,70</Position>;NPC-Bill(0)<Speaker>比尔</Speaker>||:好的，母亲。
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||:马提尼亨利，陪我去拿我珍藏的那瓶红酒。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:是，夫人。
-()<Speaker></Speaker>||:留下两人在原地，夫人在马提尼亨利的搀扶下朝酒窖的方向走去。
-NPC-Bill(0)<Speaker>比尔</Speaker>||:进去啊，干嘛站在这里发呆？
-NPC-Bill(0);NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:我有些……陌生……+好像我不属于这里……
-NPC-Bill(0)<Speaker>比尔</Speaker>;NPC-lnxy(1)||:你是不是又沉浸在幻想里了？+以为自己是叫M4A1的人形？
-NPC-Bill(0);NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:你也知道M4A1的故事……
-NPC-Bill(0)<Speaker>比尔</Speaker>;NPC-lnxy(1)||:我当然知道，你不知道念叨了多少遍，你忘了吗？+就是我来扮演你故事中的大反派。
-NPC-Bill(0);NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:为什么是你来扮演反派？我记得有很多角色……
-NPC-Bill(0)<Speaker>比尔</Speaker>||:反正一直是我在扮演反派啊，习惯了。
-()<Speaker></Speaker>||:一贯冷言冷语的小孩突然沉默了片刻。
-NPC-Bill(0)<Speaker>比尔</Speaker>||:大家都讨厌我，要不是因为我的身份，根本不会搭理我。
-NPC-Bill(0);NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:……
-NPC-Bill(0)<Speaker>比尔</Speaker>;NPC-lnxy(1)||:连母亲也这样，只有你在的时候，才会给我笑脸。
-NPC-Bill(0);NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:比尔……
-NPC-Bill(0)<Speaker>比尔</Speaker>||:但无所谓，你不一样，你和他们都不一样。+你对我好是因为我是我，而不是因为我的身份或者和你的血缘关系。+这样就够了，我不需要被愚蠢的凡人理解，只要露西理解我就够了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:“露尼西亚”无声地摸了摸比尔的头顶，短短的头发有些扎手。
-NPC-Bill(0)<Speaker>比尔</Speaker>||:别摸我头，进去吧，母亲她们回来了。
+()<Speaker></Speaker>||<黑屏2><BIN>206</BIN><SE1>AVG_wind_grass</SE1>:바람이 잔디밭을 지나 문이 열린 양옥 안으로 불었다. "루니샤"는 문 앞에 서서 얼굴에 부는 바람을 느꼈다.
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||:빌, 여기서 루시를 지켜주거라. 또 누나 화나게 하지 말고.
+NPC-Nemhran(4)<Position>0,70</Position>;NPC-Bill(0)<Speaker>빌</Speaker>||:네, 어머니.
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||:마티니 헨리, 내가 아껴둔 그 와인 좀 꺼내게 같이 가자꾸나.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:네, 부인.
+()<Speaker></Speaker>||:두 사람을 자리에 남겨두고 부인은 마티니 헨리의 부축을 받으며 주류 창고 쪽으로 걸어갔다.
+NPC-Bill(0)<Speaker>빌</Speaker>||:들어가, 왜 여기서 멍하니 서 있어?
+NPC-Bill(0);NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:조금... 낯설어서...+뭔가 내가 있을 곳이 아닌 것 같아...
+NPC-Bill(0)<Speaker>빌</Speaker>;NPC-lnxy(1)||:또 환상에 빠진 거야?+자기가 M4A1이라는 인형 같고 막 그래?
+NPC-Bill(0);NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:너도 M4A1의 이야기를 아는구나...
+NPC-Bill(0)<Speaker>빌</Speaker>;NPC-lnxy(1)||:당연히 알지, 나한테 몇 번을 얘기했는데. 기억 안 나?+나한테 거기 나오는 악역 연기를 시켰잖아.
+NPC-Bill(0);NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:왜 네가 악역을 연기했는데? 다른 등장 인물도 많은데...
+NPC-Bill(0)<Speaker>빌</Speaker>||:아무튼 나한테 쭉 시켜왔는걸. 뭐 다 익숙해졌어.
+()<Speaker></Speaker>||:계속 툴툴거리던 소년이 갑자기 잠시 침묵했다.
+NPC-Bill(0)<Speaker>빌</Speaker>||:다들 날 싫어해. 내가 이 집 자식이 아니었으면 아예 신경도 쓰지 않았을 거야.
+NPC-Bill(0);NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:......
+NPC-Bill(0)<Speaker>빌</Speaker>;NPC-lnxy(1)||:어머니마저도 그래. 나한테도 웃어주는 건 누나가 같이 있을 때뿐이야.
+NPC-Bill(0);NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:빌...
+NPC-Bill(0)<Speaker>빌</Speaker>||:상관없어, 누나는 다르니까. 다른 사람들과는 완전히 다르니까.+누나가 내게 잘해주는 건 그저 내가 나이기 때문이야. 내 신분이나 혈연 관계 때문이 아니라.+난 그걸로 됐어. 어리석은 어중이떠중이들의 이해 따윈 필요 없어. 루시가 날 이해해 주면 충분해.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:"루니샤"는 말없이 빌의 머리를 쓰다듬었다. 짧은 머리가 약간 까칠까칠했다.
+NPC-Bill(0)<Speaker>빌</Speaker>||:내 머리 만지지 말고 들어가. 어머니 돌아오신다.
 ()||<黑屏1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Gate_Close</SE1>:
-()<Speaker></Speaker>||<黑屏2><BIN>240</BIN>:在宽敞开阔的客厅中，三人坐上了长桌边。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:马提尼亨利取出红酒，打开来倒出，将其中一杯递给“露尼西亚”。
-NPC-MartiniHenry(1)<Speaker>马提尼亨利</Speaker><Position>200,150</Position>||:请饮下这瓶来自天堂的馈赠。+【世界】已因您的选择而改变。
-NPC-lnxy(1)<Speaker>？露尼西亚</Speaker>||:……什么意思？
-NPC-Nemhran(4)<Speaker>汉娜夫人</Speaker><Position>0,70</Position>||:让我们一起祷告吧。
+()<Speaker></Speaker>||<黑屏2><BIN>240</BIN>:넓은 응접실에서 세 사람은 식탁 앞에 앉았다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:마티니 헨리가 와인을 꺼내 뚜껑을 열어 잔에 따랐다. 그리고 그 중 한 잔을 "루니샤"에게 건넸다.
+NPC-MartiniHenry(1)<Speaker>마티니 헨리</Speaker><Position>200,150</Position>||:이 천국에서 온 선물을 마시세요.+【세계】는 이미 아가씨의 선택으로 변했습니다.
+NPC-lnxy(1)<Speaker>루니샤?</Speaker>||:...무슨 뜻이죠?
+NPC-Nemhran(4)<Speaker>한나 부인</Speaker><Position>0,70</Position>||:기도하자꾸나.
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BGM>GF_22W_SFX_chant</BGM><BIN>490</BIN>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:夫人虔诚地合眼，比尔也乖乖照做。
-()<Speaker>汉娜夫人</Speaker>||:由我进入愁苦之城，+由我进入极乐之塔,+由我进入万劫不复的人群中。
-()<Speaker>比尔</Speaker>||:两个太阳，分别照明两条路径。+尘世的路径，和慈父的路径。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:“露尼西亚”的肩膀被轻轻拍了拍。
-()<Speaker>马提尼亨利</Speaker>||:小姐，请在祷告结束前饮下这杯红酒。
-()<Speaker>？露尼西亚</Speaker>||:好的。
-()<Speaker>汉娜夫人</Speaker>||:圣殿变成了魔窟，天平也变为盛满罪恶鲜血的祭台。+复仇女神用宝剑划开自己的胸口，击打着自己的心脏然后尖声喊叫。
-()<Speaker>比尔</Speaker>||:我走过我们人生的一半旅程。+被引导着从天堂走向地狱。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.7</CGDelay>:在仿佛有着魔力的祷告声中，无法思考地，“露尼西亚”端起酒杯，一股醉人的香气缓缓飘出……+深红色琼浆如丝带，轻柔而魅惑地掠过她的喉咙。
-()<Speaker>？露尼西亚</Speaker>||:<color=#A9A9A9>我以前在什么地方，和什么人……一起喝过酒吗？</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:부인이 경건하게 눈을 감고, 빌도 얌전히 눈을 감았다.
+()<Speaker>한나 부인</Speaker>||:나를 거쳐 번뇌의 성으로,+나를 거쳐 극락의 탑으로,+나를 거쳐 버림받은 자들 사이로 갈지어니.
+()<Speaker>빌</Speaker>||:두 태양은 각자 서로 다른 두 길을 밝히니,+속세로의 길과, 자애로운 아버지로의 길.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:누가 "루니샤"의 어깨를 가볍게 두드렸다.
+()<Speaker>마티니 헨리</Speaker>||:아가씨, 기도가 끝나기 전에 와인을 마시세요.
+()<Speaker>루니샤?</Speaker>||:알았어요.
+()<Speaker>한나 부인</Speaker>||:신전은 마굴로 변하고, 천칭은 죄악으로 물들어 피를 채우는 제단이 되었도다.+복수의 여신은 보검으로 자신의 가슴을 갈라, 자신의 심장을 두드리며 날카롭게 외치노라.
+()<Speaker>빌</Speaker>||:우리 인생길의 한중간에서 나 올바른 길을 잃으니,+천국에서 지옥으로 이끌려 내려간다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.7</CGDelay>:마력이 담긴 듯한 기도를 들으며, "루니샤"는 아무 생각 없이 술잔을 들었다. 취기를 부르는 향기가 솔솔 피어났다...+진홍색의 액체는 마치 비단 끈처럼, 부드럽고 매혹적으로 그녀의 목을 감싸고 지나갔다.
+()<Speaker>루니샤?</Speaker>||:<color=#A9A9A9>예전에 어디에서 누구하고... 같이 술을 마신 적이 있었나?</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:冒出这个念头的瞬间，喧闹的宴会厅、亲近的伙伴……一切如烟云般，模糊地从她的脑海中闪过。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:그 생각이 떠오른 순간, 시끌벅적한 연회장, 친근한 동료들... 그 모두가 뜬구름처럼 흐릿하게 머릿속을 스치고 지나갔다.
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers_People</SE1><CGDelay>0.6</CGDelay>:
-()<Speaker></Speaker>||:欢闹的中心，几个与她身形相似的少女举着酒杯，簇拥在一个穿着红色制服的人身边……
-()<Speaker>？露尼西亚</Speaker>||<SE1>AVG_whitenoise</SE1><白屏2><震屏3>:嘶……
+()<Speaker></Speaker>||:떠들썩한 한가운데, 자신과 비슷한 몸집의 소녀 몇 명이 술잔을 들고서 빨간 제복을 입은 사람을 둘러싸고 있었다...
+()<Speaker>루니샤?</Speaker>||<SE1>AVG_whitenoise</SE1><白屏2><震屏3>:으음...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>490</BIN><黑屏2>:尖锐的啸叫隐隐试探着她的耐性。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她放弃了继续回忆的念头，仰头，将酒瓶中的液体一饮而尽。+一切疼痛与混乱都因这瓶酒，消失不见了。
-()<Speaker>汉娜夫人</Speaker>||:我们会在一起，既不是天堂也不是地狱，既不是被诅咒也不是被拯救。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:祷告也在此刻结束，汉娜夫人握住了“露尼西亚”的手。
+()<Speaker></Speaker>||<BIN>490</BIN><黑屏2>:날카로운 울림이 그녀의 인내력을 시험했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그녀는 계속 회상할 생각을 포기하고, 고개를 들어 술잔 속 액체를 비웠다.+모든 아픔과 혼란이 붉은 알콜과 함께 목구멍으로 넘어갔다.
+()<Speaker>한나 부인</Speaker>||:우리는 함께하리라. 천국도 지옥도 아닌 곳에서, 저주도 축복도 받지 아니하매.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:기도는 여기서 끝나고, 한나 부인이 "루니샤"의 손을 쥐었다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><BIN>463</BIN><CGDelay>0.5</CGDelay>:
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:小姐，既然您已经归来，我也该归还替您保管之物。
-()<Speaker>？露尼西亚</Speaker>||<BGM>BGM_DescartesInTheTheatre</BGM>:什么？
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:马提尼亨利从怀中掏出一张塔罗牌，递到她手中。+——大阿尔卡纳第21号，世界。
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:这是您独一无二的身份证明。
+MartiniHenryTarot(0)<Speaker>마티니 헨리</Speaker><Position>0,250</Position>||:아가씨, 아가씨께서 돌아오셨으니, 제가 대신 맡아두고 있었던 물건을 돌려드리겠습니다.
+()<Speaker>루니샤?</Speaker>||<BGM>BGM_DescartesInTheTheatre</BGM>:뭐죠?
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:마티니 헨리가 품 안에서 타로 카드 한 장을 꺼내 손에 쥐어주었다.+메이저 아르카나 21, 세계.
+MartiniHenryTarot(0)<Speaker>마티니 헨리</Speaker><Position>0,250</Position>||:아가씨의 단 하나뿐인 신분증이랍니다.
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay>:
-M4A1Tarot(3)<Speaker>?露尼西亚</Speaker><Position>0,250</Position><GradientShow>2</GradientShow>||<CGDelay>1</CGDelay>:
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:我是……世界？
-()<Speaker>汉娜夫人</Speaker>||:我亲爱的露西，你拥有着足以撼动世界的力量，这意味着你也肩负着让这个世界变得圆满的使命。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:我拥有这样强大的力量……
-()<Speaker>汉娜夫人</Speaker>||:你或许还没有回想起来，但整个世界都陷入了无止境的灾难中，人们为了生存互相残杀。+只剩下这里是最后一片净土。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:“露尼西亚”有些讶异地望向窗外风平浪静的夜晚。
-()<Speaker>比尔</Speaker>||:外面的人怎样都无所谓，只要——
-()<Speaker>汉娜夫人</Speaker>||:比尔。
-()<Speaker>比尔</Speaker>||:抱歉，母亲。
-()<Speaker>汉娜夫人</Speaker>||:我们不可以对别人的苦难坐视不管。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:是的，妈妈……+但我还不能理解现在的情况……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:马提尼亨利为“露尼西亚”的酒杯倒上酒。
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:没关系，小姐，您会慢慢理解的。
-()<Speaker>汉娜夫人</Speaker>||:马提尼亨利，你先带露西去看一看。
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:好的，夫人。+小姐，您只要保管好这张牌，跟我来即可。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:我知道了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:“露尼西亚”起身，攥紧自己的牌卡，跟随马提尼亨利而去。
-()<Speaker>比尔</Speaker>||:姐姐！
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:怎么了，比尔？
-()<Speaker>比尔</Speaker>||:不要太勉强自己，外面那些人怎样都无所谓的……
-()<Speaker>汉娜夫人</Speaker>||:露西，你该出发了，路上小心。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:好的。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Gate_Close</SE1>:告别了温情的家人，离开花团锦簇的花园，“露尼西亚”跟随忠心的女仆踏上了旅程。
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position><GradientShow>2</GradientShow>||<CGDelay>1</CGDelay>:
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:제가... 세계... 라고요?
+()<Speaker>한나 부인</Speaker>||:사랑하는 루시, 너에게는 이 세상을 뒤흔들 힘이 있단다. 동시에 그것은 네가 이 세상을 원만하게 만들 사명을 짊어지고 있다는 뜻이기도 하지.
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:제게 그렇게 엄청난 힘이...
+()<Speaker>한나 부인</Speaker>||:아직 기억이 안 날지도 모르지만, 이 세상은 끝없는 재난에 빠져, 사람들은 생존을 위해 서로 죽이고 있단다.+오직 이곳만이 마지막으로 남은 정토라 할 수 있지.
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:"루니샤"는 약간 의아한 얼굴로 창밖의 고요한 야경을 바라봤다.
+()<Speaker>빌</Speaker>||:밖에 있는 사람들이야 어떻게 되든 상관 없어, 그냥——
+()<Speaker>한나 부인</Speaker>||:빌.
+()<Speaker>빌</Speaker>||:죄송합니다, 어머니.
+()<Speaker>한나 부인</Speaker>||:우리는 타인의 고난을 못 본 체해선 안 된단다.
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:네, 엄마...+하지만 아직 지금 상황을 이해할 수가 없어요...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:마티니 헨리가 "루니샤"의 술잔에 술을 다시 따랐다.
+MartiniHenryTarot(0)<Speaker>마티니 헨리</Speaker><Position>0,250</Position>||:괜찮아요, 아가씨, 천천히 이해가 가실 거예요.
+()<Speaker>한나 부인</Speaker>||:마티니 헨리, 일단 루시를 데리고 구경 좀 시켜주렴.
+MartiniHenryTarot(0)<Speaker>마티니 헨리</Speaker><Position>0,250</Position>||:네, 부인.+아가씨, 이 카드를 잘 보관하시고 저를 따라오세요.
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:알겠어요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:"루니샤"는 일어서서 자신의 카드를 움켜쥐고 마티니 헨리를 따라갔다.
+()<Speaker>빌</Speaker>||:누나!
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:왜 그러니, 빌?
+()<Speaker>빌</Speaker>||:너무 무리하면 안 돼, 밖에 있는 사람들은 어떻게 되든 상관없으니까...
+()<Speaker>한나 부인</Speaker>||:루시, 이제 출발할 시간이란다. 조심해서 가렴.
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||:네.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Gate_Close</SE1>:다정한 가족과 작별하고 꽃들이 무성한 정원을 떠나, "루니샤"는 충성스러운 메이드를 따라서 여행을 떠났다.
 ()||<黑点1>:

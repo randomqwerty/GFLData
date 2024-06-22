@@ -1,102 +1,102 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker>？？？</Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><BIN>9</BIN><黑屏2>:……果然在这里能够找到你。
-NPC-lnxy(0)<Speaker>？露尼西亚</Speaker>||:M16A1？请不要再来这里找我了。
-()<Speaker>？？？</Speaker>||:我并不是她，我只是跟踪了她的心智活动，然后发现了这个通讯频道。
-NPC-lnxy(0)<Speaker>？露尼西亚</Speaker>||:你是谁？
-()<Speaker>？？？</Speaker>||:你不记得我的声音了吗？
-NPC-lnxy(0)<Speaker>？露尼西亚</Speaker>||:……
-()<Speaker>？？？</Speaker>||:没关系，你只需要记得，我是站在你这边的。+我和你共同承担着同样的使命。
-NPC-lnxy(0)<Speaker>？露尼西亚</Speaker>||:你也是为了结束这个残酷的世界而来的？
-()<Speaker>？？？</Speaker>||:是的，为此，不管付出什么样的代价也好。
-NPC-lnxy(0)<Speaker>？露尼西亚</Speaker>||:我以为只有我……原来我还有同伴。
-()<Speaker>？？？</Speaker>||:我一直在你身边，露尼西亚。
-NPC-lnxy(0)<Speaker>？露尼西亚</Speaker>||:你知道我的名字……
-()<Speaker>？？？</Speaker>||:我从诞生开始就一直在等待这一天。+等待你接受“露尼西亚”的名字，现在，我会为我们的使命献上一切。
+()<Speaker>？？？</Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><BIN>9</BIN><黑屏2>:...역시, 여기서 찾을 수 있었군.
+NPC-lnxy(0)<Speaker>루니샤?</Speaker>||:M16A1인가요? 또 머릿속으로 말을 걸지 말아 주세요.
+()<Speaker>？？？</Speaker>||:난 M16이 아니야. 그녀의 마인드맵 활동을 추적하다 이 통신 채널을 발견했을 뿐이지.
+NPC-lnxy(0)<Speaker>루니샤?</Speaker>||:그럼, 당신은 누구죠?
+()<Speaker>？？？</Speaker>||:내 목소리를 잊은 거야?
+NPC-lnxy(0)<Speaker>루니샤?</Speaker>||:......
+()<Speaker>？？？</Speaker>||:상관없어, 넌 내가 너의 편이란 것만 기억하면 돼.+너와 나는 같은 사명을 짊어지고 있으니까.
+NPC-lnxy(0)<Speaker>루니샤?</Speaker>||:당신도 이 잔혹한 세계를 끝내기 위해서 온 건가요?
+()<Speaker>？？？</Speaker>||:응, 그걸 위해서라면 어떤 대가도 치를 각오도 했고.
+NPC-lnxy(0)<Speaker>루니샤?</Speaker>||:저는 저 혼자인 줄 알았는데... 동료가 있었군요.
+()<Speaker>？？？</Speaker>||:난 언제나 네 곁에 있어, 루니샤.
+NPC-lnxy(0)<Speaker>루니샤?</Speaker>||:제 이름을 아세요?
+()<Speaker>？？？</Speaker>||:난 처음 눈을 떴던 그 순간부터 이 날을 기다려왔어.+네가 "루니샤"란 이름을 받아들이는 날을.+이제, 나는 우리의 사명에 내 모든 것을 바치겠어.
 ()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>10087</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=3</controll_shake><SE2>Gunfight</SE2><BIN>702</BIN><黑屏2><CGDelay>0.5</CGDelay>:哗啦——+子弹从树叶间穿过，摧枯拉朽地扬起一片绿色细屑，被切碎的树叶气味肆意蔓延。+如同被暴风蹂躏般，灌木丛一浪接一浪地翻涌，簌簌颤抖。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:<color=#00CCFF>15！</color>
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:<color=#00CCFF>……明白。</color>
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:哒哒哒——+紧接着RO635的攻击，AR15从迷宫矮墙的另一端汹涌地宣泄着火力。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:伊莱莎的眼神轻轻扫过，一道银白色的弧光便倏然闪烁起来。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><白屏2>:飞扬的尘土、鲜嫩的树叶如残破的标本，被牢牢钉在屏障表面，化为尘埃。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:<color=#00CCFF>……SOP2！</color>
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:<color=#00CCFF>看我的！</color>
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:咻！+一发榴弹精确地穿过尘雾，从视线的死角向伊莱莎飞去。
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:然而，“砰”的一声！榴弹没能抵达终点，便在半途中轰然炸开。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:……！可恶！！！
+()<Speaker></Speaker>||<BGM>10087</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=3</controll_shake><SE2>Gunfight</SE2><BIN>702</BIN><黑屏2><CGDelay>0.5</CGDelay>:총탄이 잎사귀 사이를 스치며 초록색 부스러기를 흩날리고, 찢어진 잎사귀의 냄새가 사방으로 풍겼다.+폭풍에 유린당하는 것처럼, 관목과 수풀들이 이러저리 흔들리며 몸서리쳤다.
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:<color=#00CCFF>AR-15!</color>
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:<color=#00CCFF>알아.</color>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:타타탕!+RO635의 공격에 이어 AR-15가 미궁의 낮은 벽 너머로 화력을 퍼부었다.
+ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||<SE1>ClothingUp</SE1>:......
+()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:총탄이 날아든 방향으로 엘리사가 가볍게 시선을 훑자, 은빛 호광이 번쩍였다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1><白屏2>:튀어오른 흙과 잎사귀는 부서진 표본처럼 장벽의 표면에 들러붙었다 먼지로 화했다.
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:<color=#00CCFF>SOP2!</color>
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:<color=#00CCFF>간다~!</color>
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:슈웅!+유탄 한 발이 먼지구름을 뚫고 엘리사의 시야의 사각지대에서 날아들었다.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:하지만 펑 소리를 내며, 유탄은 목표물에 도달하지 못하고 허공에서 갑자기 폭발했다.
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:...! 제기랄!!!
 ()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.3</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:一次又一次，密集的子弹混合着榴弹的抛物线，如飞线般朝伊莱莎猛扑过去……
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:不同的角度、不同的时机……+却无一例外，被伊莱莎轻松化解。
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:为什么这家伙每次都能预判主火力位置？！
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:我怎么知道？！
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:<color=#00CCFF>……通讯被监听了吗？！</color>
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:<color=#00CCFF>这个频道只有我们三个可以使用。我很确定。</color>
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:<color=#00CCFF>那就……见鬼了！</color>
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL3</SE1><震屏3>:砰砰砰——+AR15愤怒地扣紧扳机，枪口的火力愈加凶猛。
-()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake>:仿佛感知到她的愤怒，伊莱莎的视线轻轻漂移了一下，用同样凶狠的火力回敬AR15。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:掩体撑不了多久了！+隐士……你先撤到后方，我们火力掩护！
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:……
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:没听见RO说的话吗？愣着干什么！
-M4 SOPMOD IITarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:如果我想办法分散她的注意力，你们有把握赢吗？
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:……什么？
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:正面对抗它是无法突破防御的，突袭是唯一的活路……
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:不要做无谓的牺牲！
-()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><震屏3>:轰——！+一发强力的炮弹瞬间穿透灌木矮墙，席卷着所剩无几的残枝败叶。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:最后的掩体也被破坏，子弹如雨点般穿透浓烟，朝众人砸下来……
-RexZero1Tarot(2)<Speaker>隐士</Speaker><Position>0,250</Position>||<SE1>Stop_AVG_loop</SE1>:你们不是有一定要见到的人，一定要完成的使命吗？+那就活下来，好好去做啊！
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:喂！你要去哪儿？！
-RexZero1Tarot(2)<Speaker>隐士</Speaker><Position>0,250</Position>||:我其实根本不知道自己为什么会在这里……也依然不明白女皇救我的意义……+但如果能完成你们的心愿，或许这一切都是有意义的……
-()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>BGM_Empty</BGM>:隐士似乎微笑了一下，然后进入浓雾消失了。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:隐士！
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:不要去啊！
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||<SE1>AVG_weapon_reload</SE1>:<color=#00CCFF>掩护她！</color>
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:呯呯呯——+隐入AR小队为她制造的空间，隐士的脚步声远去了。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:这就被吓跑了吗？
-RO635Tarot(1)<Speaker>RO635</Speaker><Position>0,250</Position>||:你的敌人是我们！
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:한 번, 또 한 번, 유탄도 섞인 촘촘한 화망의 포물선이 엘리사를 덮쳤다.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:각도를 변경하고, 타이밍도 바꿔 봤지만...+전부 예외 없이 엘리사에게 손쉽게 파훼됐다.
+RexZero1Tarot(0)<Speaker>은둔자</Speaker><Position>0,250</Position>||:저쪽은 어떻게 자꾸 유효타를 예측하고 막아내는 거죠?!
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:그걸 알면 안 이러지!
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:<color=#00CCFF>설마, 통신이 감청당했나?</color>
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:<color=#00CCFF>내가 보장하는데 이 채널은 우리 셋만 사용 가능해.</color>
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:<color=#00CCFF>쳇, 그럼 뭐 저 놈한테 귀신이라도 붙었나 보네!</color>
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL3</SE1><震屏3>:타타타탕!+AR-15가 더욱 신경질적으로 방아쇠에 힘을 주어, 더욱 매섭게 화력을 퍼부었다.
+()<Speaker></Speaker>||<SE1>AVG_Gatling_gun</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake>:그러자 그녀의 분노를 느낀 건지, 엘리사는 시선을 힐끗 돌려 똑같이 매서운 화력으로 맞받아쳤다.
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:엄폐물이 더는 못 버텨!+은둔자, 너는 먼저 후퇴해! 우리가 엄호할게!
+RexZero1Tarot(0)<Speaker>은둔자</Speaker><Position>0,250</Position>||:......
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:RO 말 안 들려? 뭘 멍하니 있어!
+M4 SOPMOD IITarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>은둔자</Speaker><Position>0,250</Position>||:제가 저쪽의 주의를 돌린다면, 여러분은 해치울 자신 있나요?
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:...네?
+RexZero1Tarot(0)<Speaker>은둔자</Speaker><Position>0,250</Position>||:정면 승부로는 저 방어를 뚫을 수 없어요, 기습이 유일한 가능성――
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:쓸데없는 짓 하지 마!
+()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><震屏3>:퍼엉!!+강력한 포탄 한 발이 관목의 벽을 꿰뚫고 얼마 남지 않은 잎사귀마저 불살랐다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:결국 마지막 엄폐물까지 파괴되어, 총알이 먼지구름을 뚫고 일행을 향해 소나기처럼 쏟아지기 시작했다.
+RexZero1Tarot(2)<Speaker>은둔자</Speaker><Position>0,250</Position>||<SE1>Stop_AVG_loop</SE1>:여러분은 꼭 만나야 할 사람과 함께 완수해야 할 사명이 있잖아요?+꼭 살아남아서 해내세요!
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:야! 어디 가?!
+RexZero1Tarot(2)<Speaker>은둔자</Speaker><Position>0,250</Position>||:저는 제가 왜 여기 왔는지도 모르고, 여제가 절 살려 준 이유도 여전히 이해가 가질 않아요...+하지만 여러분의 소망을 이루어 줄 수 있다면, 이것도 의미 있는 일이라 생각해요.
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>BGM_Empty</BGM>:은둔자는 미소를 짓는 듯하더니, 바로 먼지구름 속으로 뛰어들어 사라졌다.
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:은둔자!
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:가면 안 돼!
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||<SE1>AVG_weapon_reload</SE1>:<color=#00CCFF>엄호해!</color>
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타타타탕――!!+AR팀이 만들어 준 빈틈에 숨어, 은둔자의 발소리가 멀어졌다.
+ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||:겁먹고 도망친 거냐?
+RO635Tarot(1)<Speaker>RO635</Speaker><Position>0,250</Position>||:너의 상대는 우리다!
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:砰！砰、砰！……掌中紧攥的枪支剧烈震颤！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:这样的火力对我没有任何伤害。
-()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><震屏3>:砰——+话音未落，伊莱莎的后背就精准地接住了一发子弹。
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:탕! 탕! 탕! ...손에 움켜쥔 총이 반동에 흔들렸다.
+ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||:겨우 그 정도 화력으론 내게 아무 피해도 줄 수 없어.
+()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><震屏3>:타앙!+그 말을 기다렸다는 듯, 엘리사의 등에 정확하게 총알 한 발이 박혔다.
 ()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><CGDelay>0.2</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1>:紧接着，呯呯呯——+仿佛来自数人的子弹从不同角度飞向了伊莱莎薄弱的后背……
-RO635Tarot(1)<Speaker>RO635</Speaker><Position>0,250</Position>||:全体——！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:不需要多余的话语，所有枪口在同一时间炸出耀目的火光！
-()<Speaker></Speaker>||:星星点点，如点燃炸药的火星，朝着深邃的黑色身影义无反顾地扑去——
-()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>Explode</SE1><震屏3>:砰！轰隆——+燃烧的火焰迸发出光芒，如烟花一朵朵绽放，将黑暗深渊彻底吞没。+断枝残叶裹挟着草木气息，灰绿色的气雾在空中升腾弥漫……
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:确认目标反应微弱。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:隐士！你在哪儿？！
-()<Speaker></Speaker>||<SE1>AVG_Fire_Bonfire</SE1>:迷雾的中心，残破的躯壳燃烧着，迸出噼噼啪啪的声响。
+()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1>:그리고 바로 이어서 여러 방향에서 총알이 퍼부어져, 엘리사의 취약한 등에 날아들었다.
+RO635Tarot(1)<Speaker>RO635</Speaker><Position>0,250</Position>||:일제 사격!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:모든 총구가 동시에 눈부신 섬광을 뿜었다.
+()<Speaker></Speaker>||:폭약을 점화하는 것처럼, 불똥들은 계속해서 검은 그림자를 향해 맹렬하게 날아갔다.
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>Explode</SE1><震屏3>:퍼엉! 화르륵!+이윽고 치솟은 불길이 폭죽처럼 피어나, 심연 같은 어둠을 집어삼켰다.+조각난 잎가지가 그슬린 초목의 냄새를 풍기고, 녹회색 연기가 자욱하게 드리웠다.
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:목표 반응의 약화를 확인.
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:은둔자! 너 어딨어!
+()<Speaker></Speaker>||<SE1>AVG_Fire_Bonfire</SE1>:연기의 중심에서, 넝마짝이 된 소체 잔해가 불에 타며 타닥타닥 소리를 냈다.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR15用力挥了挥手，将烟尘驱赶向身后。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:……+伊莱莎的信号……不对劲！
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><BGM>10130</BGM>:砰！+仿佛验证着AR15的判断，一记枪响自迷雾深处传来。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:滋啦……滋啦……+迷雾不可思议地消散，仿佛欺骗观者的蒙版，一下子撤得干干净净。
-RO635Tarot(1)<Speaker>RO635</Speaker><Position>0,250</Position><Shake>||:是视觉干扰……！+糟了——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:扑通！+隐士被燃烧殆尽的躯壳被用力丢出。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:信号干扰尖锐地啸叫着，瞬间瘫痪了所有人的行动。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||:该死的——铁血！！！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:SOP2奋力挣扎，心智的压制却更加强烈。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:花园的门扉前，伊莱莎面色冷酷，缓缓踱步而来。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||<SE1>Stop_AVG_loop</SE1>:明明你们才是为M4而打造的队友，为什么总是阻拦她？
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;ElisaTarot(0)<Position>0,250</Position>||:正因为是队友，才要拯救她！
-RO635Tarot(0)<Position>0,250</Position>;ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:真嘲讽啊，你们朝夕相处，却连M4的内心究竟在想什么都不知道。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>;ElisaTarot(0)<Position>0,250</Position>||:我当然知道！她想回来，和我们在一起！
-M4 SOPMOD IITarot(0)<Position>0,250</Position>;ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:在M4还是M4的时候，或许有这样的念头。+但现在——
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>;ElisaTarot(0)<Position>0,250</Position>||:……什么意思？
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:要不要猜猜看，刚刚是谁救了我？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:伊莱莎微笑着指向AR小队的身后。+空中浮现出的屏幕上，是熟悉的脸庞——
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:……M4！
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||<BGM>GF_22W_BGM_1</BGM>:……所有人都有权过上尊严和幸福的生活，享有自由、平等和充足的环境。+而不是像现在这样，在炼狱之中遭受虐杀、背叛、欺骗……
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:你在说什么啊，M4？我们来救你了！
-()<Speaker></Speaker>||:明明是无比熟悉的一张脸，嘴里说出的话却又那么冰冷难以理解。
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:自称“露尼西亚”的少女取出了一张牌卡——
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:<size=50>——M4！！！</size>
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Pause</SE1>:轰隆——+没等众人反应过来，一道巨大的裂缝便将迷宫撕裂成两半。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=2</controll_shake><SE1>AVG_lifttable</SE1>:坚实的大地脆如薄纸，窸窸窣窣地，沿着开口边缘向下坠落、坍塌……+坠入无边的黑暗……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-15는 연기를 걷어내려고 팔을 힘껏 저어댔다.
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:...잠깐만!+엘리사의 신호가 이상해!
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><BGM>10130</BGM>:타앙!+AR-15의 판단을 입증하듯, 연기 깊숙이에서 총성이 났다.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:치직... 치지직...+갑자기 연기가 흩어졌다. 관객의 눈을 속이는 장막처럼, 눈 깜짝할 사이에 마술처럼 사라졌다.
+RO635Tarot(1)<Speaker>RO635</Speaker><Position>0,250</Position><Shake>||:시각 교란...!+안――
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:털썩!+완전히 불타버린 은둔자의 잔해가 내동댕이쳐졌다.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:신호 교란이 날카롭게 포효하며, 순식간에 모두를 마비시켜 버렸다.
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||:빌어먹을 철혈 자식이이이...!!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:SOP2가 필사적으로 몸부림쳤지만, 마인드맵에 가해지는 제압이 더욱 강해질 뿐이었다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:그리고 정원의 문에서, 차가운 얼굴인 엘리사가 느린 걸음으로 다가왔다.
+ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||<SE1>Stop_AVG_loop</SE1>:너희는 M4를 위해 만들어진 "대원"이면서, 왜 그녀를 방해하지?
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;ElisaTarot(0)<Position>0,250</Position>||:"대원"이니까 구하려는 거다!
+RO635Tarot(0)<Position>0,250</Position>;ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||:우습구나. 그렇게 함께했으면서 아직도 M4의 진심을 모르다니.
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>;ElisaTarot(0)<Position>0,250</Position>||:모르긴 누가 몰라! M4도 돌아와서 우리랑 같이 있고 싶어한다고!
+M4 SOPMOD IITarot(0)<Position>0,250</Position>;ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||:그녀가 "M4A1"이었다면 그리 생각했을지도 모르지.+하지만 지금은...
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>;ElisaTarot(0)<Position>0,250</Position>||:...그게 무슨 말이야?
+ElisaTarot(0)<Speaker>엘리사</Speaker><Position>0,250</Position>||:방금 나를 구해 준 자가 누군지, 맞혀 봐.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:엘리사가 희미하게 미소지으며, AR팀의 등 뒤를 가리켰다.+언제부터 있었는지 모를 허공의 화면에 나타난, 익숙한 얼굴을.
+AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:M4...!
+M4A1Tarot(3)<Speaker>루니샤?</Speaker><Position>0,250</Position>||<BGM>GF_22W_BGM_1</BGM>:모든 이들은 존엄하고 행복한 삶을 누리고, 자유롭고 평등하며 충족된 환경을 누릴 권리가 있습니다.+지금처럼 연옥 속에서, 살육과 배신, 기만을 당하는 것이 아니라.
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:무, 무슨 소리세요 M4 씨? 저희는 당신을 구하러 왔어요!
+()<Speaker></Speaker>||:분명 더없이 익숙한 얼굴이건만, 입에서 나오는 말은 무척이나 차갑고 난해했다.
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:그리고 "루니샤"를 자처하는 소녀는 카드 한 장을 꺼내 보였다.
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:<size=50>M4——!!!</size>
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Pause</SE1>:쩌걱!+모두가 미처 반응하기도 전에, 거대한 균열이 미궁을 두 쪽으로 갈랐다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=2</controll_shake><SE1>AVG_lifttable</SE1>:튼튼한 땅은 종잇장처럼 찢어졌고, 균열의 가장자리부터 바스라지며 무너져 내렸다.+저 아래, 바닥 없는 어둠으로.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑点1>:

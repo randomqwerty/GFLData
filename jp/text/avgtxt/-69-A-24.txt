@@ -160,7 +160,7 @@ M4A1Mod(0)<Speaker>M4A1</Speaker>||:……
 ()<Speaker>M16A1</Speaker>||:你从未真正地离去，即使你的手再怎么伸向星空，你的根须也始终在土壤里。
 ()<Speaker>M4A1</Speaker>||:我们永远在一起，对吗？
 ()<Speaker>M16A1</Speaker>||:是的，直到世界毁灭，直到死亡将我们分开。
-()||<黑屏1><CGDelay>0.7</CGDelay><common_effect_clear>%%all=1%%</common_effect_clear>:
+()||<黑屏1><CGDelay>0.7</CGDelay><common_effect>%%code=CJ_WC_piaofu_destroy%%</common_effect>:
 M16A1BOSS(5)<Speaker>M16A1</Speaker>||<黑屏2><BIN>9</BIN>:你该真正地醒来了。
 BOSS-12(0)<Speaker>伊莱莎</Speaker><Position>0,130</Position>||:醒来吧，M4。
 ()<Speaker>？？？</Speaker>||:请睁开眼，看看我。
@@ -173,12 +173,13 @@ BOSS-12(0)<Speaker>伊莱莎</Speaker><Position>0,130</Position>||:醒来吧，M
 ()<Speaker></Speaker>||<SE1>AVG_Lunasia_Born</SE1><bg_move>%%pivot_x=0.37%%pivot_y=0.63%%scale=1.5%%duration=0%%</bg_move><common_effect>%%code=202406_Hudie%%</common_effect>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><bg_move>%%pivot_x=0.5%%pivot_y=0.48%%scale=1.5%%duration=3%%</bg_move><BIN>701</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><common_effect_clear>%%all=1%%</common_effect_clear>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><common_effect>%%code=202406_Hudie_destroy%%</common_effect>:
+()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>0.3</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><common_effect>%%code=202406_Lunasia%%</common_effect><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><BIN>9</BIN>:
 ()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:窣窣——+漫天的塔罗牌飞舞着，落在分崩离析的世界，落在M4，不……+该称呼她为露尼西亚了……+漫天的塔罗牌飞舞着，落在分崩离析的世界，落在露尼西亚的脸上、身上。+天空是一片黑暗的虚妄，幽微的星光闪耀，映入少女的眼眸。+她闭上眼睛，泉水的声音在耳边轻轻地荡漾……
 ()<Speaker></Speaker>||<CGDelay>2</CGDelay>:
-()||<黑屏1><CGDelay>0.7</CGDelay><common_effect_clear>%%all=1%%</common_effect_clear>:
+()||<黑屏1><CGDelay>0.7</CGDelay><common_effect>%%code=202406_Lunasia_destroy%%</common_effect>:
 ()<Speaker></Speaker>||<BIN>569</BIN><睁眼><SE1>AVG_Bubble</SE1>:再度睁开之时，塔罗牌不见了，玫瑰花窗也不见了。+纷纷扰扰的声音从身边拂过。+漩涡的中心，是静息的深海，闪烁着浓烈的黑暗与幽微的光芒。+此刻，不需要指引。她很清楚自己将要朝哪里走去。+狭小的光点周围，她无处不在。
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:她听见了一个声音。+那是自己的声音。
 ()<Speaker>露尼西亚</Speaker>||:“只有经过链接我才最终明白，我终究无法成为被期望的她。”+“但是如果她选择了接纳我们的一切，放弃成为完美的期望亦如我愿。”+“绝望的花朵就要绽放，时间已经不多了。”
