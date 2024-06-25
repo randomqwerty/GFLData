@@ -1,91 +1,91 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><BGM>BGM_Room</BGM>:格里芬 指挥官办公室
-()<Speaker></Speaker>||:干净整洁的办公室内，面色凝重的指挥官坐在自己的位置上，神情严肃地看着眼前的人形。+除了指挥官与她之外，办公室内再没有其他人，连负责今日秘书工作的春田也自觉地“去给两人沏茶”了。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:指挥官极少用如此锐利的目光审视自己的人形，更不必说，此时甚至不得不认真考虑将对方销毁的打算。
-()<Speaker>指挥官</Speaker>||:EM-2……
-()<Speaker></Speaker>||:心知沉默无法解决问题，在良久的无言中，指挥官还是率先开了口。
-()<Speaker>指挥官</Speaker>||:……我最后再确定一次，你不是在跟我开玩笑，对吧？
-NPC-EM2(0)<Speaker>EM-2</Speaker>||:……
-()<Speaker></Speaker>||:坐在对首的EM-2点了点头，相比指挥官的迟疑，她却显得十分坚定。
-NPC-EM2(0)<Speaker>EM-2</Speaker>||:是的。
-()<Speaker></Speaker>||:指挥官深吸了一口气，背靠着椅子，揉了揉有些发涩的眼睛。
-()<Speaker>指挥官</Speaker>||:那么，从头说起吧。
-()<Speaker>指挥官</Speaker>||:聊一聊……你杀害FAL的前因后果。
-NPC-EM2(0)<Speaker>EM-2</Speaker>||:……是。
-()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:……+……
-()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><Night><BGM>BGM_Truth</BGM>:格里芬 深夜
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_Keyboard</SE1>:咔嗒。
-()<Speaker></Speaker>||:屏幕的幽光照亮前侧站立的人形面无表情的脸庞，EM-2的手指轻轻敲击着键盘，力度轻巧，几乎没有半点声响。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:“滴。”
-()<Speaker>EM-2</Speaker>||:……
-()<Speaker></Speaker>||:随着最后一下敲击，屏幕上的监控画面闪烁了一下，随即开始了无限的回放。+EM-2的目光收敛，背身离开了监控室。
-()<Speaker></Speaker>||<黑屏1>:……+……
-()<Speaker></Speaker>||<黑屏2><BIN>82</BIN><Night>:宿舍
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:吱呀……
-()<Speaker></Speaker>||:风格化的木门被推开的瞬间发出了轻微的摩擦声，门内仍在休憩的人形依然处于休眠模式，对即将到来的危机毫不知情。
-()<Speaker></Speaker>||:休眠中的FAL，身侧笼罩了一簇人形的阴影。
-()<Speaker>EM-2</Speaker>||:……
-()<Speaker></Speaker>||<SE1>Select</SE1>:咔咔。
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_sup</SE1><BGM>BGM_Empty</BGM>:呯！
-()<Speaker></Speaker>||<黑屏1>:……+……
-()<Speaker></Speaker>||<黑屏2><BIN>82</BIN>:……
-()<Speaker></Speaker>||<SE2>Alarm</SE2>:嗡——
-()<Speaker></Speaker>||:今日的格里芬，又如往常一般迎来黎明，却有人在昨夜永眠。
-()<Speaker></Speaker>||<黑点1>:……+……
-()<Speaker>指挥官</Speaker>||<黑点2><BIN>82</BIN><BGM>GF_Swim_Marnie</BGM>:……你再说一遍发现的经过。
-59type(0)<Speaker>59式</Speaker>||:……
-()<Speaker></Speaker>||:59式坐在椅子上，显然受到了强烈的惊吓。
-59type(0)<Speaker>59式</Speaker>||:我……我跟FAL约好了，今天一起去训练场。+本来，约好的是在训练场见面，但我左等右等，也没见到她人。+就到她宿舍来找她，结果发现门虚掩着……一进门，就发现……
-()<Speaker></Speaker>||:她咬了咬嘴唇。
-59type(0)<Speaker>59式</Speaker>||:……FAL躺在床上，额头，胸前，各一发弹孔，无损害过热反应，已经损毁很久了。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:指挥官略一颔首，随即看向了身侧的人。
-()<Speaker>指挥官</Speaker>||:EM-2，你怎么看？
-em2(4)<Speaker>EM-2</Speaker>||:……两枪，但是没有触发警报，也没有任何人发觉。+毫无疑问使用了消音武器，看伤口的情况，射击距离很近，现场也没有移动的痕迹。+宿舍就是第一现场，也不存在移动素体的可能。
-()<Speaker></Speaker>||:若有所思的EM-2咬了咬正用于记录的笔头。
-em2(4)<Speaker>EM-2</Speaker>||:初步判断，凶手应该是直接进入FAL的房间行凶的。+更多线索，还需要再勘察现场。
-()<Speaker>指挥官</Speaker>||:好，我会安排驱散其他人，你有什么需要，就联络我。+调查部除了你，现在只有P90还在赶回来的路上，你要多上点心。
-em2(4)<Speaker>EM-2</Speaker>||:嗯，我明白。
-()<Speaker></Speaker>||:做好了安排，指挥官便站起了身，招呼其他在现场的人形，准备离开。
-59type(0)<Speaker>59式</Speaker>||:那个……长官！
-()<Speaker>指挥官</Speaker>||:嗯？
-59type(0)<Speaker>59式</Speaker>||:请问……FAL她，怎么样了？
-()<Speaker>指挥官</Speaker>||:……放心吧，她的核心没有受到损伤，已经送往医务室进行修理了。+过几天就好了。
-()<Speaker></Speaker>||:闻言，59式才终于松了口气。+这时，她一眼看到一旁的EM-2，依然是一脸若有所思的样子，似乎思绪已经飘到了远处。+对这个历来总是回避着自己的人，59式也感到有些陌生和难以亲近。+但此时，她只有一份衷心的希望，希望对方能够尽快找出伤害了FAL的凶手。
-()<Speaker></Speaker>||<黑点1>:……+……
+()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><BGM>BGM_Room</BGM>:Griffin Base, in Commander's office.
+()<Speaker></Speaker>||:Inside their tidy office, the Commander, sitting in their seat, looks at the Doll in front of them with a grave attitude. +She and the Commander are the only ones present in the room; even Springfield, who's on secretarial duty, has purposefully "gone to make tea for the two of them".
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:The Commander rarely scrutinizes Dolls under their command in such a critical manner, let alone seriously considering the potential of issuing a dismantling order.
+()<Speaker>Commander</Speaker>||:EM-2...
+()<Speaker></Speaker>||:Knowing that silence can't solve any problem, the Commander breaks the ice after much contemplation.
+()<Speaker>Commander</Speaker>||:... Let's make this clear. You're not messing with me, right?
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:...
+()<Speaker></Speaker>||:Sitting across the table, EM-2 nods. In contrast to the Commander's hesitant manner, she seems adamant about her answer.
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:Yes.
+()<Speaker></Speaker>||:The Commander lets out a deep sigh and leans back against their chair as they rub their soring eyes.
+()<Speaker>Commander</Speaker>||:Well, let's go back to square one.
+()<Speaker>Commander</Speaker>||:And talk about... all the circumstances leading up to you killing FAL.
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:...Yes.
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:...+...
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><Night><BGM>BGM_Truth</BGM>:Griffin Base. Late in the night.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Keyboard</SE1>:Creak.
+()<Speaker></Speaker>||:The faint glare of the screen illuminates the blank expression of the Doll standing in front of it. EM-2's fingers softly tap the keyboard with such gentleness that it barely makes an audible noise.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:"Beep."
+()<Speaker>EM-2</Speaker>||:...
+()<Speaker></Speaker>||:Following a final stroke, the surveillance feed on the screen flickers and begins looping the same footage. +EM-2's gaze narrows as she leaves the control room.
+()<Speaker></Speaker>||<黑屏1>:...+...
+()<Speaker></Speaker>||<黑屏2><BIN>82</BIN><Night>:Dormitory
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Squeak...
+()<Speaker></Speaker>||:The stylized wooden door lets out a light scraping sound as it's pushed open. The Doll inside the room, still resting in her dormant mode, is completely oblivious to the impending danger.
+()<Speaker></Speaker>||:The shadow belonging to a group of Dolls looms over the sleeping FAL.
+()<Speaker>EM-2</Speaker>||:...
+()<Speaker></Speaker>||<SE1>Select</SE1>:Clack.
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_sup</SE1><BGM>BGM_Empty</BGM>:Bang!
+()<Speaker></Speaker>||<黑屏1>:...+...
+()<Speaker></Speaker>||<黑屏2><BIN>82</BIN>:...
+()<Speaker></Speaker>||<SE2>Alarm</SE2>:Bzzzzz—
+()<Speaker></Speaker>||:Today's Griffin ushers in the new dawn as usual, but someone was left in their eternal slumber last night.
+()<Speaker></Speaker>||<黑点1>:...+...
+()<Speaker>Commander</Speaker>||<黑点2><BIN>82</BIN><BGM>GF_Swim_Marnie</BGM>:... Please tell us again how you found out.
+59type(0)<Speaker>Type 59</Speaker>||:...
+()<Speaker></Speaker>||:Type 59 sits on the chair, clearly in a state of intense trauma.
+59type(0)<Speaker>Type 59</Speaker>||:I... FAL and I agreed on going to training together today.+We were supposed to meet at the range, but I waited and waited, yet she was nowhere to be found...+So I went to her dorm looking for her, only to find that the door was open... As soon as I entered, I saw...
+()<Speaker></Speaker>||:She nibbles on her lip.
+59type(0)<Speaker>Type 59</Speaker>||:...FAL lying dead on her bed. Two shots. One through her forehead, and the other, her chest. There was no heat signature; she's been destroyed for a while.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:The Commander nods, then glances at the figure to their side.
+()<Speaker>Commander</Speaker>||:EM-2, what are your thoughts?
+em2(4)<Speaker>EM-2</Speaker>||:...Two shots were fired without any alarms being triggered or anyone alerted. +No doubt a suppressed weapon was involved. Looking at her wounds, the shots must've been delivered at close range. Together with the fact that there were no signs of sudden movements…+The dorm has to be the crime scene as there is no possibility of the body being tampered.
+()<Speaker></Speaker>||:EM-2 nibs on the cap of her pen as she chews on her thoughts.
+em2(4)<Speaker>EM-2</Speaker>||:My initial assessment is that the suspect went directly into FAL's room to carry out the attack. +But I need to investigate the scene again for more clues.
+()<Speaker>Commander</Speaker>||:Good, I'll have the others dismissed. If you need anything, contact me.+Aside from you, our only other member of the investigation team on her way back is P90. Be mindful about it.
+em2(4)<Speaker>EM-2</Speaker>||:Yes, I understand.
+()<Speaker></Speaker>||:With everything arranged, the Commander stands up, debriefs other Dolls, and gets ready to leave.
+59type(0)<Speaker>Type 59</Speaker>||:Erm... Commander!
+()<Speaker>Commander</Speaker>||:Yes?
+59type(0)<Speaker>Type 59</Speaker>||:Excuse me... Is FAL... doing alright?
+()<Speaker>Commander</Speaker>||:...Rest easy. Her core was unharmed and she has already been sent to the repair bay. +She will be good as new in a few days.
+()<Speaker></Speaker>||:Hearing that, Type 59 finally sighs in relief.+She also catches a glimpse of EM-2 on the side, still pondering as if her thoughts have drifted to a distant land. +As EM-2 seems to be always deliberately avoiding her, Type 59 can't help but feel a bit alienated.+But right now, she wholeheartedly hopes that EM-2 could quickly identify the culprit who harmed FAL.
+()<Speaker></Speaker>||<黑点1>:...+...
 ()<Speaker></Speaker>||<黑点2><BIN>97</BIN>:
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:——指挥官只需要我一个就够了！
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:……现在不是模仿秀的时候。+话说你模仿的这是谁？
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:不记得了。+情况怎么样？
-()<Speaker></Speaker>||:姗姗来迟的P90走进案发现场的宿舍，擦了擦鼻子，看着眼前的EM-2。
-em2(4)<Speaker>EM-2</Speaker>||:……
-()<Speaker></Speaker>||:EM-2合上手中的笔记本，不给P90窥探的机会，摇了摇头。
-em2(4)<Speaker>EM-2</Speaker>||:很糟。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:欸？这么难查？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:不是那个意思。+我在初步检查之后，又去调取了监控和出入记录。+一切正常。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:所以如果犯人不是幽灵，那就是……
-em2(4)<Speaker>EM-2</Speaker>||:……那就是有人对总控动了手脚。
-()<Speaker></Speaker>||:EM-2淡淡地说。+闻言，P90的脸色也不禁凝重了起来。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:你的意思是，可能是自己人干的？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:还不能断言，但可能性很大。+如果是外部人员，花这么大的力气潜入基地。+下手的对象至少也要是指挥官才够本。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:……这件事暂时可不能公布，性质还蛮严重的。+你跟指挥官汇报了吗？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:还没有，我想等范围再缩小一些，或者至少更确信一些。+这是一个很严重的指控，我不想轻率行动。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:调查过FAL近期的人际往来了吗？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:一切正常，三个月内未与人有过激烈冲突。+最近一次争吵，是和FN-57因训练日程的安排导致的矛盾。+但那也是两个星期前的事了，之后两人握手言和，FAL还请FN-57去咖啡厅吃了圣代冰淇淋。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:嗯……+……出问题的监控是什么时间段？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:昨晚9点之后，到我去检查为止，一直都在播放重复片段。+时间段太长了，几乎所有人都涉及其中，根本无法缩小范围。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:……
-()<Speaker></Speaker>||:P90揉了揉鼻梁。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:最简单的法子试过吗？能不能查询FAL的数据，看看她是什么时候停机的？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:做不到，严格来说，她到现在也没有停机。+两发子弹，一发摧毁数据中枢，一发破坏了能源转化模组。+独独没有损坏心智核心——用人类作比喻，她只是陷入了“植物人”状态。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:……唔，我稍微对“内部人”这个猜想又确信了一些。+不仅是犯案手段，她下手的方式，似乎很了解我们调查组。
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:嗯，所以我也调查了组里出外勤的各位。+很遗憾，看样子大家都是真的出任务了。+最近的李小姐，想赶回基地至少也得两三天，想来是没时间和机会犯案的。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:呜哇……你也太没血没泪……不对，你在逗我玩吗？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:玩笑而已，气氛太僵硬不利于思考。+总而言之，我接下来准备再次询问第一目击者和发现人。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:你是说……+嗯？你没问题吗？我记得你好像跟她处得不太好吧？+我想想……怎么说的来着？+60-1式？
-em2(4)<Speaker>EM-2</Speaker>||:……
-()<Speaker></Speaker>||:EM-2低着头，看着笔记中写下的，关于此前59式证言的部分，脸上的表情看不出情绪。
-em2(4)<Speaker>EM-2</Speaker>||:……基地内出现了伤人案，一切以调查优先。+我的个人喜好可以先放在一边.
-()<Speaker></Speaker>||:说着，她合上了笔记，率先走出了FAL的宿舍，并在P90跟着迈出脚后，关上了宿舍的大门。
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:—The Commander only needs me!
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:...It's not the time for charades.+Though, who were you imitating?
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:Can't remember. +So, what's the situation?
+()<Speaker></Speaker>||:P90 walks belatedly into the crime scene. She wipes her nose and looks at the EM-2 in front.
+em2(4)<Speaker>EM-2</Speaker>||:...
+()<Speaker></Speaker>||:EM-2 closes her notebook, not giving P90 a chance to peer into its contents. She then shakes her head.
+em2(4)<Speaker>EM-2</Speaker>||:It's bad.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:Heh? Is it that tricky?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:Not that.+I went to get the surveillance feed and access logs after my initial inspection.+Everything was normal.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:If the culprit isn't a ghost, they must be...
+em2(4)<Speaker>EM-2</Speaker>||:...Someone who tampered with the security system.
+()<Speaker></Speaker>||:EM-2 murmurs nonchalantly. +Hearing that, P90's expression can't help but intensify.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:You mean, one of our Dolls did it?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:It's not conclusive, but highly likely.+If the culprit is an outsider, infiltrating the base would have required immense effort.+In such a case, only the Commander would have been a worthy target.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:...We can ill afford to publicize this matter for the time being, given its severe nature. +Have you briefed the Commander on this?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:Not yet, I'd like to narrow it down a bit further, or at least be more certain before doing so.+This is a grave accusation and I don't want to act frivolously.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:Have you looked into FAL's recent contacts?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:All is well, no violent confrontations with anyone in the last three months.+The most recent altercation was with FN-57 over the training schedule.+But that was also two weeks ago, after which the two shook hands and made up. FAL even treated FN-57 to a sundae ice cream at the cafe.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:Hmmm...+... What was the time frame when the surveillance system malfunctioned？
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:Somewhere past 9 p.m. Until I got around to check on it, it was looping the same footage.+The time frame is simply too long and almost everyone on site could potentially be involved. It's impossible to narrow it down.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:...
+()<Speaker></Speaker>||:P90 pinches the bridge of her nose.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:Have you tried the simplest method? Check if you can access FAL's memory data and see when she got shut down?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:No, that's out of the question. Technically, she never shut down, not even now.+Those two shots, one of them destroyed her data module, the other her energy conversion module. +The only thing left unharmed is her core—In human terms, she's now in a "vegetative state".
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:...Well, I'm a little more convinced about your "mole" theory.+Not just from their methods, but down to their very techniques. They seem to be very knowledgeable about us and how we operate.
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:Yeah, hence why I also looked into everyone on the team, even those out on missions.+Unfortunately, it looks like everyone is really out there doing their jobs.+The closest one, Miss Lee-Enfield, would need at least two to three days just to make it back to the base. I don't think she's got the time to have even done anything.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:Oh wow... you're so cold-blooded... Hold on, are you kidding me?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:It's a joke. Being on the edge for too long is bad for critical thinking.+Anyway, I'm planning to question our firsthand witnesses who discovered the scene again. 
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:You mean... +Hmm? You sure you're okay with that? I thought you didn't get along with her? +Say, what's her name again? +Type 60-1?
+em2(4)<Speaker>EM-2</Speaker>||:...
+()<Speaker></Speaker>||:As she lowers her head, not a single tint of emotion can be deciphered from EM-2's blank expression as she reads through the section of note regarding Type 59's testimony.
+em2(4)<Speaker>EM-2</Speaker>||:...We're talking about a case of deadly assault occurring on the base. Investigating it is the number one priority.+My personal preferences can be set aside for now.
+()<Speaker></Speaker>||:With that, she closes her notes and takes the first steps out of FAL's room. As P90 follows, she closes the door to the dormitory.
 ()||<黑点1>:

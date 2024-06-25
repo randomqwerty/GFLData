@@ -1,63 +1,63 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><BGM>BGM_Room</BGM>:格里芬 指挥官办公室 
-()<Speaker></Speaker>||:指挥官回想起那天早上，刚刚得知这件事的时候，自己激愤的心情，一时间又有些愠怒。+尤其是，回想起自己当时委任了眼前的“凶手”担任调查专员的场景。
-()<Speaker>指挥官</Speaker>||:你是侦探俱乐部的成员。+我完全没考虑过你就是真凶的可能。
-NPC-EM2(0)<Speaker>EM-2</Speaker>||:……那个时间节点，我自己也不知道。
-()<Speaker>指挥官</Speaker>||:什么意思？
-()<Speaker></Speaker>||:EM-2叹了口气。
-NPC-EM2(0)<Speaker>EM-2</Speaker>||:我也是在调查的过程中才发现的……
-()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:……
-()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><BGM>GF_Swim_Marnie</BGM>:案发后一小时，格里芬，走廊。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:说起来，60-1式怎么跟FAL扯上关系的？
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:别学我说话……我也不知道。+她们之间应该没什么交集，不知怎么好到结伴训练的程度。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:你怀疑她？
-em2(4)<Speaker>EM-2</Speaker>||:只是有些疑问，她既没有动机，也没有权限进入中控室。+……最重要的，如果她是凶手，还特意做第一发现人，太刻意了。
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:两人驻足于另一处宿舍的门前，见EM-2面露犹豫，P90率先敲响了房门。
-59type(0)<Speaker>59式</Speaker>||<SE1>AVG_Door_Open_Close</SE1>:来了……
-()<Speaker></Speaker>||:房门打开，脸色憔悴的59式从门内出现，她抬起头，正对上门前两人审视的目光。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:FBI，Open the door！
-59type(0)<Speaker>59式</Speaker>||:……！
-()<Speaker></Speaker>||:一霎之间，59式仿佛看到EM-2的目光中隐约带着令她胆颤的凶光，以至于P90的插科打诨都没能进到她的耳中。+然而，那目光转瞬即逝，再看时，又是冷淡如常的EM-2。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:怎么了？
-()<Speaker></Speaker>||:见自己精心准备的笑话居然没能赢得满堂喝彩，甚至被完全无视，P90有些懊恼。
-em2(4)<Speaker>EM-2</Speaker>||:关于FAL的案子，我们有些事想要问你，方便让我们进去吗？
-59type(0)<Speaker>59式</Speaker>||:啊……好，好的。
-()<Speaker></Speaker>||:是错觉吧……？
-()<Speaker></Speaker>||<黑点1>:59式让开了门，让两人走进了房间。
-()<Speaker></Speaker>||<黑点2><BIN>82</BIN>:与FAL的房间不同，59式的卧室更具她个人的特色，墙壁上贴着纸张泛黄的“福”字。+而在床头的柜子上放置的鱼缸里，一只憨厚的乌龟正在里面爬行。
-()<Speaker></Speaker>||:EM-2看了看眼前的梨花木圆凳，扭头坐在了另一侧的格里芬制式办公椅上。
-59type(0)<Speaker>59式</Speaker>||:你们想问什么？我应该都已经跟长官报告过了。
-()<Speaker></Speaker>||:P90看了看EM-2，正打算询问，EM-2却已经抢先开口。
-em2(4)<Speaker>EM-2</Speaker>||:先从你早上去找FAL的事开始说起吧。+你是什么时候跟FAL处得这么好的？你们之前似乎并不算熟悉。
-()<Speaker></Speaker>||:EM-2的询问方式令59式感到了天然的不适，但她依然耐着性子回答。
-59type(0)<Speaker>59式</Speaker>||:实际上，确实也是偶然。+我昨天在训练场训练，因为遇到了瓶颈，加上倔驴子脾气上来，就搞得有一点狠。+结果搞到自己受伤，幸好当时FAL也在靶场，她把我带回寝室，帮我做了临时维修。+我离开的时候，她还约我今天一起训练。+说是可以给我提些训练上的建议……
-()<Speaker></Speaker>||:EM-2挑了挑眉。
-59type(0)<Speaker>59式</Speaker>||:结果早上，我在训练场左等右等，也没见到她人，就跑去她宿舍找她，然后就……
-()<Speaker></Speaker>||:说到这里，59式又回想起发现在床上失去气息的FAL时的情景，身子忍不住抖了一抖。
-em2(4)<Speaker>EM-2</Speaker>||:这些之前已经听你说过了。+现在，我比较想问……
-em2(4)<Speaker>EM-2</Speaker>||:……你昨天去过FAL的宿舍？
-59type(0)<Speaker>59式</Speaker>||:嗯。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:什么时候？
-59type(0)<Speaker>59式</Speaker>||:大概……嗯，离开训练场的时候大概是11点钟，那之后我又在FAL宿舍呆了一段时间。+所以离开的时间，应该是12点左右。
-()<Speaker></Speaker>||:EM-2和P90对视了一眼，两人同时站了起来。
-em2(4)<Speaker>EM-2</Speaker>||:感谢你的配合，我们还要继续调查，就先到这里吧。
-59type(0)<Speaker>59式</Speaker>||:嗯？只问这么多吗？
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:足够啦！你立大功咯！60-1式！
-59type(0)<Speaker>59式</Speaker>||:什，什么……？
-()<Speaker></Speaker>||<黑点1>:P90笑着拍了拍迷茫的59式的肩膀，随即跟着EM-2走出了房间。
-em2(4)<Speaker>EM-2</Speaker>||<黑点2><BIN>97</BIN>:我调取的监控，并没有见到59式进入和离开FAL房间的画面。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:凶手虽然覆盖了一整天的记录。+但没想到居然有人昨夜去过FAL的宿舍。+如果把时间限定在12点之后，可缩小的人员范围就大得多了。
-P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:我去情报中心查阅昨天每个人12点后的行踪。+你去跟指挥官报告目前的调查进度……关于凶手是内部人员这件事，指挥官需要提前做好打算。
+()<Speaker></Speaker>||<BIN>8</BIN><黑屏2><BGM>BGM_Room</BGM>:Griffin Base, in the Commander's office.
+()<Speaker></Speaker>||:The Commander thinks back to that morning when they had just learned about the incident and the anguish they felt at the time. So much so that it almost came gushing back. +In particular, the Commander recalls when they appointed the "culprit" as the lead investigator.
+()<Speaker>Commander</Speaker>||:You're a member of the investigation team.+It never occurred to me that you were the real culprit all along.
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:... At that point in time, I didn't know it myself either.
+()<Speaker>Commander</Speaker>||:What do you mean?
+()<Speaker></Speaker>||:EM-2 sighs.
+NPC-EM2(0)<Speaker>EM-2</Speaker>||:I, too, found that out during my investigation...
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:...
+()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><BGM>GF_Swim_Marnie</BGM>:One hour after the incident, Griffin Base, in the hallway.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:Speaking of... how did Type 60-1 get around to hanging out with FAL?
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:Stop talking like me... but yeah, I don't know either.+There shouldn't be much between them, but somehow they're close enough to partner up for training.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:So you're suspecting her?
+em2(4)<Speaker>EM-2</Speaker>||:Just some doubts. She has neither the motive nor the access to the central system.+...Most importantly, if she is the culprit, volunteering herself as the firsthand witness is a bit too on the nose.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:The two stop in front of the door of another dorm. Seeing EM-2's hesitant look, P90 takes the initiative and knocks on the door.
+59type(0)<Speaker>59式</Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Coming...
+()<Speaker></Speaker>||:Type 59 with a withered look on her face emerges from the door. She raises her head to meet the scrutinizing gaze of the two standing in front of her.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:FBI, open up!
+59type(0)<Speaker>Type 59</Speaker>||:...!
+()<Speaker></Speaker>||:For a split second, Type 59 seems to catch a vaguely menacing glare in EM-2's gaze. She trembles with fear to the point that P90's gags aren't even registering to her ears. +However, that glare was short-lived, and as she looked back, EM-2 is of her usual cold demeanor.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:What's up?
+()<Speaker></Speaker>||:Seeing her carefully prepared quips fail to earn a chuckle or even outright ignored, P90 can't help but feel annoyed.
+em2(4)<Speaker>EM-2</Speaker>||:There's something we'd like to ask you about FAL's case. Would you mind us coming in?
+59type(0)<Speaker>Type 59</Speaker>||:Ah... Oh, okay.
+()<Speaker></Speaker>||:That was just me, right...?
+()<Speaker></Speaker>||<黑点1>:Type 59 opens the door and lets the duo in.
+()<Speaker></Speaker>||<黑点2><BIN>82</BIN>:Unlike FAL's room, Type 59's bedroom displays a lot more personality. The Chinese character "Fu" can be seen pasted on the wall on yellowed paper.+In the fish tank placed on top of the cabinet above the bed, an innocuous turtle is crawling inside.
+()<Speaker></Speaker>||:EM-2 glances at the pearwood stool in front of her, then promptly turns around and sits down on a Griffin standard office chair.
+59type(0)<Speaker>Type 59</Speaker>||:What do you want to ask? I believe I've already told everything to the Commander.
+()<Speaker></Speaker>||:P90 glances at EM-2. Just as she's about to ask something, EM-2 manages to beat her to it.
+em2(4)<Speaker>EM-2</Speaker>||:Let's start with you visiting FAL this morning. +When did you get this buddy-buddy with FAL? You didn't seem to be really familiar with each other before.
+()<Speaker></Speaker>||:The way EM-2 questions her naturally makes Type 59 feel uncomfortable, yet she still answers patiently.
+59type(0)<Speaker>Type 59</Speaker>||:Actually, it was sheer coincidence.+Yesterday, I was training by myself at the range and got stuck on a bottleneck. I got a bit temperamental, pushed a bit too far, and hurt myself.+Luckily, FAL was also at the range, and she escorted me back to her dorm and helped me patch up.+She even asked me to train with her today when I was about to leave. +She said she could give me some training advice...
+()<Speaker></Speaker>||:EM-2 raises her eyebrow.
+59type(0)<Speaker>Type 59</Speaker>||:This morning, I waited for her at the range, but she did not show up. So I went to her dorm to look for her, and that's when...
+()<Speaker></Speaker>||:Type 59's body shudders as the memory of FAL lying lifeless on her bed resurfaces.
+em2(4)<Speaker>EM-2</Speaker>||:We've already heard those bits from you. +Now, I'm more interested in getting an answer for...
+em2(4)<Speaker>EM-2</Speaker>||:...Did you go to FAL's dorm yesterday?
+59type(0)<Speaker>Type 59</Speaker>||:Yes.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:What time exactly?
+59type(0)<Speaker>Type 59</Speaker>||:About... well, it was about 11 when I left the range, and I stayed at FAL's dorm for a while. +So I should've left her place at around 12.
+()<Speaker></Speaker>||:EM-2 and P90 quickly exchange glances with one another, and then both stand up.
+em2(4)<Speaker>EM-2</Speaker>||:We appreciate your cooperation. Since we have further investigations to do, that'll be all for now.
+59type(0)<Speaker>Type 59</Speaker>||:Eh? That's all you're asking?
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:Yep, that's enough! You've done a great job, 60-1!
+59type(0)<Speaker>Type 59</Speaker>||:Wh... what?
+()<Speaker></Speaker>||<黑点1>:P90 smiles and pats the confused Type 59 on her shoulder, then follows EM-2 out of the room.
+em2(4)<Speaker>EM-2</Speaker>||<黑点2><BIN>97</BIN>:The surveillance footage I retrieved did not record Type 59 entering nor leaving FAL's room at any point.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>;em2(4)||:The culprit did overwrite the entire day's record. +But they left out the possibility of someone showing up in FAL's room that late at night.+With past 12 now being cemented as when it could've happened, the pool of potential suspects is now much narrower.
+P90(5)<Position>0,150</Position>;em2(4)<Speaker>EM-2</Speaker>||:I'll go to the data center and look up everyone's whereabouts after 12 a.m. +You go brief the Commander on the progress of the investigation so far... The fact that the culprit is among us is something the Commander needs to plan around accordingly.
 P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:OK~
-()<Speaker></Speaker>||:P90点了点头，随即表情也变得严肃了一些。
-P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:如果真是咱们自己人干的。+那她现在肯定正盯着负责调查的我们，你自己小心。
-em2(4)<Speaker>EM-2</Speaker>||:……嗯。
-()<Speaker></Speaker>||:EM-2点了点头，挥手道别了P90，随即转过了身。+就在背身的瞬间，她的脸上布满了阴云，沉默之中，她握着武器的手也紧了紧。
-()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:……
-()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><BGM>BGM_Room</BGM>:总控室
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_Keyboard</SE1>:咔嗒咔嗒。
-()<Speaker></Speaker>||:屏幕的幽光照亮前侧站立的人形面无表情的脸庞，EM-2的手指轻轻敲击着键盘，呼吸急促，键盘的响声也有点纷乱。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:“滴。”
-()<Speaker></Speaker>||:她的眼眸略微紧缩了一下。+眼前的屏幕上，在锁定时间范围后，显示出的名单已被缩短了许多。+而她的目光，紧紧地锁在名单最末尾，那令她再熟悉不过的名字上。
-()<Speaker></Speaker>||:“EM-2”
-()||<黑点1>:
+()<Speaker></Speaker>||:P90 nods. With that, her expression suddenly turns more serious.
+P90(5)<Speaker>P90</Speaker><Position>0,150</Position>||:If it's truly one of our own. +Then she must be keeping an eye on our investigation right now. Take care of yourself too.
+em2(4)<Speaker>EM-2</Speaker>||:...Yeah.
+()<Speaker></Speaker>||:EM-2 nods in return. She waves P90 goodbye and swiftly turns back.+In that moment, a grim look befalls her face, and in deafening silence, her grip on her weapon tightens.
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:...
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><BGM>BGM_Room</BGM>:Central Control Room
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Keyboard</SE1>:Click Clack
+()<Speaker></Speaker>||:The faint glare of the screen illuminates the blank expression of the Doll standing in front of it. EM-2's fingers softly tap the keyboard, her hasty gasps are accompanied by jarring rattling of the keycaps.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:"Beep."
+()<Speaker></Speaker>||:Her irises contract for a split second. +Displayed in front of her is the list of potential suspects' names, greatly shortened after the time frame has been locked in.+Yet, she can't take her eyes off that last name on the list; the one she's utmost familiar with.
+()<Speaker></Speaker>||:"EM-2".
+()||<黑点1>:
