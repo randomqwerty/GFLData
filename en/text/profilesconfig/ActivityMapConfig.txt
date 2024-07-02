@@ -59,7 +59,9 @@ MissionSelectionTex|missionselect_2022WhiteValentine|2|-50
 //终焉花海复刻配置：
 MissionSelectionTex|missionselect_Reversible_RE|2|-55
 //攻壳联动
-MissionSelectionTex|missionselect_2024Ghost|1|-64
+//MissionSelectionTex|missionselect_2024Ghost|1|-64
+//23春季肉鸽
+MissionSelectionTex|missionselect_2023Rouge|2|-59
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -201,10 +203,10 @@ OPSLeftBGNormalActivity|-64|2024Ghost_Logo
 //OPSNoticeNormalActivity|-55|Reversible_Notice
 //OPSNoticeNormalActivity|-56|2022Scar_Notice
 //OPSNoticeNormalActivity|-58|2023Spring_Notice
-//OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
+OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 //OPSNoticeNormalActivity|-61|2023RougeSummer_Notice//OPSNoticeNormalActivity|-62|2023Se_Notice
 //OPSNoticeNormalActivity|-62|2023Se_Notice
-OPSNoticeNormalActivity|-64|2024Ghost_Notice
+//OPSNoticeNormalActivity|-64|2024Ghost_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -276,6 +278,8 @@ OPSGoto|2023Spring_GotoMall|0|-58
 //OPSGoto|Bikini_2022_GotoMall|0|-52
 OPSGoto|2022Summer_GotoMall|0|-55
 OPSGoto|2024Ghost_GotoMall|0|-64
+OPSGoto|2023RougeSpring_GotoMall|0|-59
+OPSGoto|2023RougeSpring_PointExchange|2|-59
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -462,7 +466,7 @@ OPSCampaignTitleButton|-54|true|2022SummerDiffculty2Btn
 OPSCampaignTitleButton|-56|true|2022Scar_Diffculty2Btn
 OPSCampaignTitleButton|-57|true|ZLSR_Difficulty2Btn
 OPSCampaignTitleButton|-58|true|2023Spring_Diffculty2Btn
-OPSCampaignTitleButton|-59|true|Empty_Title2
+OPSCampaignTitleButton|-59|true|2023RougeSpring_Diffculty2Btn
 OPSCampaignTitleButton|-61|true|2023RougeSummer_Diffculty2Btn
 OPSCampaignTitleButton|-62|true|2023Se_Diffculty2Btn
 OPSCampaignTitleButton|-64|true|2024Ghost_Diffculty2Btn
@@ -504,11 +508,12 @@ OPSCampaignTitleButton|-64|true|2024Ghost_Diffculty2Btn
 //OPSCampaignTitleButtonTip|-47|100146|60|Bikini_2021_Tip|1
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
-OPSCampaignTitleButtonTip|-50|100179|120|WhiteDay_2022_Tip|1
+//OPSCampaignTitleButtonTip|-50|100179|120|WhiteDay_2022_Tip|1
 //OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 //OPSCampaignTitleButtonTip|-54|100152|60|2022Summer_Tip|1
 //OPSCampaignTitleButtonTip|-56|100163|60|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
+OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems

@@ -1,63 +1,63 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<BGM>GF_EV9_Story</BGM><黑屏2><BIN>607</BIN>:实验已经全部结束了，帕斯卡小姐，我将分析得出的报告和原始数据都放在这里了。
-NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:……+搞不明白……还是搞不懂。+那女人和那个实习生到底做了什么导致的心智数据异常？+人形究竟是怎么突然变强的？人类在其中的影响因素又是什么？
-RO635-NoArmor(3)<Speaker>RO635</Speaker>||:这样复杂的问题，您一时半会也无法解决，不如先吃饭吧。
-NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><震屏3>:唰——+帕斯卡一下站了起来。
-NPC-Persica(8)<Speaker>帕斯卡</Speaker>||:给我把档案号206■15■■42■■的数据调出来。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>;NPC-Persica(8)||:调取这份档案需要经过审批同意，我现在为您提交流程吗？
-RO635-NoArmor(0);NPC-Persica(8)<Speaker>帕斯卡</Speaker>||:这流程能比我命还长，你去启动我桌面上的快捷程序直接黑进去。
-RO635-NoArmor(3)<Speaker>RO635</Speaker>;NPC-Persica(8)||:帕斯卡小姐，没有合法的手续擅自调动机密档案属于——
-RO635-NoArmor(3);NPC-Persica(8)<Speaker>帕斯卡</Speaker>||:对了，还有那个实习生，别把人放跑了，我还有很多问题和实验需要这家伙配合！
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:明白。+……
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:快点，我要的档案呢？！
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:……+帕斯卡小姐，我想您已经不需要调取这份档案了。
-RO635-NoArmor(0);NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:哈啊？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>;NPC-Persica(6)||:这份档案所记录的对象即将抵达您的实验室。
-RO635-NoArmor(0);NPC-Persica(6)<Speaker>帕斯卡</Speaker>||<BGM>BGM_Empty</BGM>:……+M16呢？快去叫她把门抵住！
-RO635-NoArmor(0)<Speaker>RO635</Speaker>;NPC-Persica(6)||:M16小姐已于15分钟前抵达了附近的酒吧。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake>:咚！+办公室的大门被人一拳打飞。+一丝阳光照了进来，给实验室的陈列带来了些许天然感。
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||<SE1>AVG_footsteps_woodfloor</SE1>:好久不见啊，帕斯卡。+啧，你的实验室，还是跟垃圾场一样。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker><Shake>0.1</Shake>||<BGM>m_wv_title</BGM>:<size=50>干什么！</size>+这扇门可是特殊材质，你打算拿几个月的工资来还！
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||<SE1>Stop_AVG_loop</SE1>:这一拳只是捶坏了门，下一拳可不一定捶坏什么东西了。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:怎么，你想用我给你做的义肢毁掉我的实验室？+下次你的手再出事，休想我给你换义肢！
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||:所以，我的人呢？
-()<Speaker></Speaker>||:面对安洁似笑非笑的表情，帕斯卡只能强装镇定。+但从RO635的视角来看，帕斯卡的镇定几乎和被一拳打烂的大门一样摇摇欲坠。+所以，按照人形理智的判断，她做出了自己的选择。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:我研究的人形，你管我！+635号助理，送客！
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_Card_Reader</SE1>:<color=#FFFF00>您好，系统正在升级中……</color>
-NPC-Persica(6)<Speaker>帕斯卡</Speaker><Shake>0.1</Shake>||<SE1>Rope</SE1>:<size=50>635号助理！RO635！</size>+你、你装什么死！只有我有权限更新你的系统！
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||:你慌了？+她们出了什么事？
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:我有什么好慌的？我只是进行了几场实验而已。+该去哪里找人还要问我吗？+你带的队伍，都跟你一样在伏特加里游泳！
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||:实验？+你从非法实验到做合法实验也没几年吧？+怎么，就那么喜欢偷偷摸摸？
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:滚！你懂什么是科学！
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||:我不懂科学，但我懂力学。
-()<Speaker></Speaker>||:安洁莉娅看了看台面上被七零八落堆放起来的咖啡杯。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Broken_Glass</SE1><SE1>AVG_Punch_Hit</SE1>:一拳下去……在力的作用下变成了粉状形态。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:……
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>;NPC-Persica(6)||:在实验室里，AR小队是你的作品。+但现在，她们是我的部下——我不容许任何人不经过我的同意就动我的人。+就算是你也一样，帕斯卡。
-NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:……哼。+我事先跟你说，你会同意吗？
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>;NPC-Persica(7)||:一般情况下，我不会同意。
-NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:<size=50>那不就得了！</size>
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>;NPC-Persica(6)||:但你的话，我会考虑。
-NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:……
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||:但这次不能就这么算了。
-NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:知道了，破坏大门的费用不从你那扣，下次给你换义肢我会好好打麻药，行了吧？
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>;NPC-Persica(7)||:就这样？
-NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:我都妥协了，你还想怎样……
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>;NPC-Persica(7)||:你上一次进食是什么时候？
-NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:啥……
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:27小时前。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:……RO你！
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_Card_Reader</SE1>:<color=#FFFF00>系统正在升级中……</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:安洁晃了晃自己的胳膊。
-NPC-Ange(9)<Speaker>安洁莉娅</Speaker><Position>0,-70</Position>||:8个小时后，大门口见。
-NPC-Persica(6)<Speaker>帕斯卡</Speaker>||:……等等，为什么是8个小时……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Punch_Hit</SE1><震屏3>:安洁莉娅靠近了一步，一记手刀。+眼看着帕斯卡就这样软软地倒了下去。
-NPC-Persica(7)<Speaker>帕斯卡</Speaker><Shake>0.1</Shake>||:……下次……下次你的义肢取消……让……别人给你换……
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:帕斯卡彻底失去了意识。
-()<Speaker></Speaker>||:RO635的宕机还在继续。+她用眼角余光同情地目看了一眼帕斯卡和远去的安洁莉娅。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:等到一切回归平静，RO635简单监测了一下帕斯卡的生理数值，把她的睡袋上方的射灯调到最暗，然后走到放置实验资料的电脑边。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_Button_Click</SE1>:……那么，我宣布“迷笼”的三个实验全部结束。+之后，我会上传使用实验资料整理好的档案以及实验中采集到的有效数据。+以及——+记录，帕斯卡小姐认同了安洁小姐对AR小队带来的正面影响。+实验正式宣告结束。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:录下了简短的一句话，她将录音笔收好，并开始了最后的收尾工作。
-()||<黑点1>:
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<BGM>GF_EV9_Story</BGM><黑屏2><BIN>607</BIN>:All tests are now complete, Miss Persica. Here are all the analysis reports and raw data.
+NPC-Persica(7)<Speaker>Pesica</Speaker>||:...+I don't get it... I still don't. +What could've that woman and that intern possibly done to cause such a neural anomaly? +How did the Dolls suddenly get stronger? What could possibly be the human factor in all of this?
+RO635-NoArmor(3)<Speaker>RO635</Speaker>||:Since you aren't answering complex questions like those any time soon, let's rest up and eat something first.
+NPC-Persica(7)<Speaker>Pesica</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><震屏3>:Woosh—+Persica suddenly stood up.
+NPC-Persica(8)<Speaker>Pesica</Speaker>||:Get me data from Log No. 206■15■■42■■.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>;NPC-Persica(8)||:Access to this file requires administrative approval. Should I submit the request for you right now?
+RO635-NoArmor(0);NPC-Persica(8)<Speaker>Pesica</Speaker>||:That approval process is going to take longer than however much time I've got left on this rock. Go boot up that shortcut.exe on my desktop and just jack right into the server.
+RO635-NoArmor(3)<Speaker>RO635</Speaker>;NPC-Persica(8)||:Miss Persica, retrieving confidential files without legal authorization is—
+RO635-NoArmor(3);NPC-Persica(8)<Speaker>Pesica</Speaker>||:Oh, about that "Intern". Don't let them get away. I still need their cooperation for lots of questions and experiments.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:Roger. +...
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:Hurry up, where's my file?!
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:...+Miss Persica, I believe you no longer need to retrieve that file from the servers.
+RO635-NoArmor(0);NPC-Persica(6)<Speaker>Pesica</Speaker>||:Huh?
+RO635-NoArmor(0)<Speaker>RO635</Speaker>;NPC-Persica(6)||:The record subject of that file is currently arriving at your lab.
+RO635-NoArmor(0);NPC-Persica(6)<Speaker>Pesica</Speaker>||<BGM>BGM_Empty</BGM>:…+Where's M16? Get her to hold the door!
+RO635-NoArmor(0)<Speaker>RO635</Speaker>;NPC-Persica(6)||:Miss M16 arrived at a local bar 15 minutes ago.
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake>:Bam! +The lab door is smashed open.+Sunlight shines through, bringing with it a speck of nature to the cold laboratory instruments.
+NPC-Ange(9)<Speaker>Ane</Speaker><Position>0,-70</Position>||<SE1>AVG_footsteps_woodfloor</SE1>:It's been a while, Persica. +Tsk, your lab still looks like a garbage dump.
+NPC-Persica(6)<Speaker>Pesica</Speaker><Shake>0.1</Shake>||<BGM>m_wv_title</BGM>:<size=50>What have you done!</size>+That door is made out of special materials. Do you even know how many months of your pay it is worth?
+NPC-Ange(9)<Speaker>Ane</Speaker><Position>0,-70</Position>||<SE1>Stop_AVG_loop</SE1>:And that's just the door. I can't guarantee what I will break next.
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:What? You want to destroy my lab with the very prosthetic I made you?+Don't count on me to fix it the next time it breaks!
+NPC-Ange(9)<Speaker>Ane</Speaker><Position>0,-70</Position>||:So, where are my Dolls?
+()<Speaker></Speaker>||:Against Ange's bemused smile, Persica can only muster a calm demeanor. +From RO635's perspective, however, Persica's confidence is as sturdy as the door Ange just smashed open.+Hence, following a Doll's rational judgment, she made her choice.
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:They are MY Dolls, it's none of your business! +Assistant No. 635, please send our guest on her way!
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_Card_Reader</SE1>:<color=#FFFF00>Hello, my system is being updated...</color>
+NPC-Persica(6)<Speaker>Pesica</Speaker><Shake>0.1</Shake>||<SE1>Rope</SE1>:<size=50>Assistant No. 635!!! RO635!</size>+You.. Don't play dumb with me! I'm the only one with the authorization to update your system!
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>||:What's all this fuss about? +Something happened to the girls?
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:What do I have to be fussing about? I was just conducting some experiments.+You know exactly where to find them.+When you're the team leader, the members are always high on Vodka just like you!
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>||:Experiment? +I thought it's only been a few years since you transitioned from illegal experiments to doing legitimate ones. +What, you just like being secretive about everything?
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:Shut up! You know jack about science!
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>||:I don't know science. But I understand physics.
+()<Speaker></Speaker>||:Angelia looks at the haphazardly piled-up coffee cups on the table.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Broken_Glass</SE1><SE1>AVG_Punch_Hit</SE1>:With a single smash... she turned all of them into dust.
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:...
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>;NPC-Persica(6)||:In this lab, AR Team is your creation. +But now, they're my subordinates— I will not allow anyone to mess with my Dolls without my permission. +That includes you, Persica.
+NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(7)<Speaker>Pesica</Speaker>||:...Heh. +Would you have agreed if I told you in advance?
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>;NPC-Persica(7)||:Typically, no.
+NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(6)<Speaker>Pesica</Speaker>||:<size=50>See?!</size>
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>;NPC-Persica(6)||:But if it's you, I'd consider it.
+NPC-Persica(7)<Speaker>Pesica</Speaker>||:...
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>||:But I can't just let it go this time.
+NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(7)<Speaker>Pesica</Speaker>||:I know, I know. I won't be charging you for the broken door. And I'll remember to give you proper anesthetic next time we fix your prosthetics. Alright?
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>;NPC-Persica(7)||:That's it?
+NPC-Ange(9)<Position>0,-70</Position>;NPC-Persica(7)<Speaker>Pesica</Speaker>||:I've already compromised. What else do you want...
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>;NPC-Persica(7)||:When was the last time you ate something?
+NPC-Persica(7)<Speaker>Pesica</Speaker>||:What...
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:27 hours ago.
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:...RO, you!
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_Card_Reader</SE1>:<color=#FFFF00>System is updating...</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ange shook her arm.
+NPC-Ange(9)<Speaker>Angelia</Speaker><Position>0,-70</Position>||:In 8 hours, I'll see you at the main gate.
+NPC-Persica(6)<Speaker>Pesica</Speaker>||:...Wait. Why 8 hours...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Punch_Hit</SE1><震屏3>:Angelia steps closer and smacks her on the head.+Persica collapses right in front of her.
+NPC-Persica(7)<Speaker>Pesica</Speaker><Shake>0.1</Shake>||:...Next time... Go find someone else... To fix... Your prosthetics...
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:Persica has completely fainted.
+()<Speaker></Speaker>||:RO635's idling continues. +She glances sympathetically at Persica and at Angelia who's walking away.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:When silence settled back in, RO635 briefly evaluated Persica's biometric data, then dimmed the lamp above her sleeping bag. Finally, she walks over to the computer, where all the test data was stored.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_Button_Click</SE1>:...So, I henceforth declare the conclusion of all three experiments of "Maze Cage". +Now, I will upload all the reports compiled using test data and all pertinent info gathered during the experiments. +And—+Note: Miss Persica acknowledged the positive impact Miss Ange had on AR Team. +The experiment is officially over.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Leaving behind a brief statement, she tucked the recorder away and began wrapping up the work.
+()||<黑点1>:

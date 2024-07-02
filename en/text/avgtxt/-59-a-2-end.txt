@@ -1,24 +1,24 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-M4A1(3)<Speaker>M4A1</Speaker>||<黑屏2><BIN>73</BIN><SE1>AVG_tele_connect</SE1><BGM>m_avg_casual</BGM>:帕斯卡小姐，我们已经按照指示完成了任务。+请给出下一步指示。
-NPC-Persica(11)<Speaker>帕斯卡</Speaker><通讯框>||:<color=#00CCFF>从刚刚开始，你们就一直凑在一起叽叽喳喳的，在聊什么呢？</color>
-NPC-Persica(9);M4A1(2)<Speaker>M4A1</Speaker>||:……
-NPC-Persica(9);SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:在聊晚饭吃什么！
-NPC-Persica(9);AR15(0)<Speaker>AR15</Speaker>||:我们对行动方案产生了一些分歧，不过都通过讨论解决了。
-NPC-Persica(9)<Speaker>帕斯卡</Speaker>||:<color=#00CCFF>原来是这样啊……</color>+<color=#00CCFF>我还以为你们已经发现了呢……</color>
-AR15(0)<Speaker>AR15</Speaker>||:……
-M4A1(3)<Speaker>M4A1</Speaker>||:帕斯卡小姐，还请原谅我的失礼，我想要了解——
-NPC-Persica(9)<Speaker>帕斯卡</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>为什么要用“蝰蛇”行动作为这次实验的数据原型？</color>
-NPC-Persica(9);M4A1(3)<Speaker>M4A1</Speaker>||:是的，还请明示。
-NPC-Persica(13)<Speaker>帕斯卡</Speaker>;M4A1(3)||:<color=#00CCFF>嗯……这个嘛……</color>
-NPC-Persica(13);AR15(0)<Speaker>AR15</Speaker>||:是因为？
-NPC-Persica(13)<Speaker>帕斯卡</Speaker>||:<color=#00CCFF>……秘密。</color>
-SOPII(3)<Speaker>M4 SOPMOD II</Speaker>||:什么嘛？！怎么吊人胃口的！
-NPC-Persica(10)<Speaker>帕斯卡</Speaker><通讯框>;SOPII(3)||:<color=#00CCFF>哼哼，想要知道的话，就等完成实验了，到我的实验室亲自问我吧。</color>
-NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:可是……
-NPC-Persica(10)<Speaker>帕斯卡</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>虽然实验用的是“蝰蛇”行动的数据，但也不允许你们懈怠，偷懒照搬之前的行为逻辑。</color>+<color=#00CCFF>我需要你们最真实的数据，重现你们当时执行任务的状态，给我拼尽全力啊！</color>
-NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:是！我们会认真对待的。
-NPC-Persica(10)<Speaker>帕斯卡</Speaker>||:<color=#00CCFF>好猫咪，休息一会吧，十五分钟后开始下一轮实验。</color>
-AR15(0)<Speaker>AR15</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……+结果还是什么也没说啊。
-M4A1(2)<Speaker>M4A1</Speaker>||:帕斯卡小姐一贯如此……+我们除了按照指示完成任务，别无选择，所以——
-SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:晚饭吃什么呢？
-()||<黑点1>:
+M4A1(3)<Speaker>M4A1</Speaker>||<黑屏2><BIN>73</BIN><SE1>AVG_tele_connect</SE1><BGM>m_avg_casual</BGM>:Miss Persica, we have completed the mission as instructed. +Please provide further directions.
+NPC-Persica(11)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>You girls have been mumbling in the back for a while now. What were you chatting about?</color>
+NPC-Persica(9);M4A1(2)<Speaker>M4A1</Speaker>||:...
+NPC-Persica(9);SOPII(0)<Speaker>M4 SOPMOD II</Speaker>||:About what's for dinner!
+NPC-Persica(9);AR15(0)<Speaker>AR15</Speaker>||:We had some disagreements about operational procedures, but they were resolved through discussions.
+NPC-Persica(9)<Speaker>Persica</Speaker>||:<color=#00CCFF>I see...</color>+<color=#00CCFF>I thought you girls had figured it out already...</color>
+AR15(0)<Speaker>AR15</Speaker>||:...
+M4A1(3)<Speaker>M4A1</Speaker>||:Miss Persica, if you'll excuse me, I'd like to know—
+NPC-Persica(9)<Speaker>Persica</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>Why was Operation Viper used as the template for this experiment?</color>
+NPC-Persica(9);M4A1(3)<Speaker>M4A1</Speaker>||:Yes. Please clarify.
+NPC-Persica(13)<Speaker>Persica</Speaker>;M4A1(3)||:<color=#00CCFF>Well... About that... </color>
+NPC-Persica(13);AR15(0)<Speaker>AR15</Speaker>||:It's for?
+NPC-Persica(13)<Speaker>Persica</Speaker>||:<color=#00CCFF>...It's a secret.</color>
+SOPII(3)<Speaker>M4 SOPMOD II</Speaker>||:Come on?! You can't just leave us hanging like that!
+NPC-Persica(10)<Speaker>Persica</Speaker><通讯框>;SOPII(3)||:<color=#00CCFF>Heheh. If you so desperately want to know, wait until the experiment's completion so you can ask me yourself in my lab. </color>
+NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:But...
+NPC-Persica(10)<Speaker>Persica</Speaker><通讯框>;M4A1(3)||:<color=#00CCFF>While the experiment is indeed based on data from Operation Viper, you aren't allowed to slack off and just copy your previous behavioral logic.</color>+<color=#00CCFF>I need your most authentic data to recreate the state you were in during that mission. So give me your best!</color>
+NPC-Persica(10);M4A1(3)<Speaker>M4A1</Speaker>||:Yes! We'll take it seriously.
+NPC-Persica(10)<Speaker>Persica</Speaker>||:<color=#00CCFF>Good kitties. Time for a break, the next round will start in fifteen minutes.</color>
+AR15(0)<Speaker>AR15</Speaker>||<SE1>AVG_tele_disconnect</SE1>:...+She ended up saying nothing after all.
+M4A1(2)<Speaker>M4A1</Speaker>||:Miss Persica has always been like this... +Looks like we have no choice but to complete the mission as instructed, so—
+SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||:What should we get for dinner?
+()||<黑点1>:

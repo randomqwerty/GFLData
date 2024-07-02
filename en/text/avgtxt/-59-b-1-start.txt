@@ -1,49 +1,49 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>9</BIN><narrator><黑屏2><SE1>AVG_21Winter_Click_Keyboard</SE1><BGM>BGM_22Swim_langrensha</BGM>:“3号迷笼”，参与人形——PA-15，QBU-88，隼，斯捷奇金，wz.29。+数据正在加载……+实验目的……实验内容……+实验原理……变量罗列……
-()<Speaker></Speaker>||<narrator>:指挥方案读取……
-NPC-Persica(4)<Speaker>帕斯卡</Speaker>||<SE1>ClothingUp</SE1>:……停一下。
+()||<BIN>9</BIN><narrator><黑屏2><SE1>AVG_21Winter_Click_Keyboard</SE1><BGM>BGM_22Swim_langrensha</BGM>:"Maze Cage No. 3", participant T-Dolls—PA-15, QBU-88, Falcon, Stechkin, wz.29.+Data loading...+Test Objective... Test Content... +Test Principles... List Variables...
+()<Speaker></Speaker>||<narrator>:Loading command procedure...
+NPC-Persica(4)<Speaker>Persica</Speaker>||<SE1>ClothingUp</SE1>:...Wait.
 ()||<黑屏1>:
-()||<BIN>607</BIN><黑屏2>:帕斯卡打断了正在记录的助手。
-NPC-Persica(4)<Speaker>帕斯卡</Speaker>||:这一组，我们要加入一个新的变量。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:变量？现在哪里还有变量可以添加？
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||:别着急嘛，应该马上就要到了。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:……？
-()||<黑屏1>:……
-()||<回忆><黑点2><BIN>388</BIN><BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1><SE1>AVG_Walk</SE1>:格里芬基地
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>m_avg_casual</BGM>:各位，从今天开始，这里就是你们的工作区。+整个实习生涯，你们都将在这里度过。+你们身边的同学，都是将来将与你们共度生死的战友——当然，前提是你们都能够通过实习期。
-NPC-Helian(0)<同时置暗><Speaker>实习生们</Speaker>||:是！
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……还有一件事。+你们当中的个别人，可能会在宿舍里发现一些奇怪的卡片。+我在这里友情提示，见到就直接丢掉，绝对不要参加上面莫名其妙的有偿测试。
-()||:实习生人群中传来悉悉索索的讨论声……+对这群新人来说一切都是新奇的，越是不让参与就越想要……尝试。
-()<Speaker>实习生A</Speaker>||:请问，是不符合规定吗？
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:没有明文禁止，但最好不要。+这是为你自己着想——今天就到这里，解散！
-()||<黑屏1>:……
-()<Speaker></Speaker>||<黑屏2><BIN>82</BIN><SE1>AVG_Door_Open_Close</SE1>:赫丽安离开之后，沸沸嚷嚷的人群散开，开始各自进入自己的宿舍进行整理。
-()<Speaker>？？？</Speaker>||:……
-()||:而你刚刚走进门，便注意到自己脚下踩到了一张卡片。
-()<Speaker>？？？</Speaker>||<SE1>AVG_20Winter_Book</SE1>:这是……？
-()||<黑屏1>:……+……
-()||<黑屏2><BIN>553</BIN>:I.O.P总部大楼，16F，第9号实验室+明明户外阳光明媚，这一层却被遮光玻璃笼罩在阴霾里，看不到半分光亮。+门口的铭牌上写着帕斯卡莉亚，确认无误。
-()||<SE1>AVG_Knock</SE1>:咚咚咚！
-()<Speaker>帕斯卡</Speaker>||<震屏3>:<size=60>——谁！</size>
-()||:门内震怒的声音吓了你一跳，你拿着卡片，确认地址无误，才鼓起勇气开口。
-()<Speaker>？？？</Speaker>||:您好，请问是这里在招募被试吗？
-()<Speaker>帕斯卡</Speaker>||:……你是来应征的？+——来了！
-()||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:门内传来一阵物品崩落的声音，大约维持了2分钟左右的时间。
-()<Speaker>帕斯卡</Speaker>||<黑屏1>:……等，等一下！别走啊——
-RO635-NoArmor(3)<Speaker>RO635</Speaker>||<关闭蒙版><黑屏2><BIN>607</BIN>:……+居然真有人会被您的小卡片骗过来啊。
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||:骗也太难听了。+这是正当的招工。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:那么请问被试名字？
-()<Speaker>？？？</Speaker>||:我是……<c>战术指挥系2060届的41号学员<c>格里芬的实习指挥官。<c>因为偷跑出来，卡片上说允许匿名的。
-NPC-Persica(4)<Speaker>帕斯卡</Speaker>||:名字不重要，填实习生就行。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>ClothingUp</SE1>:这是本实验室的被试通用手册，请熟读。
-()<Speaker>实习生</Speaker>||:……呃，好的。+那么请问我接下来要做些什么呢？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:很简单，我们需要您配合我们指挥一支小队进行试验。
-RO635-NoArmor(0)<同时置暗><Speaker>实习生</Speaker>||:那么具体是指……
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:请按照已经上传的指挥方针，先这样……然后再这样，最后这样，抵达目标地点就可以了。看明白了吗？
-()||<SE1>ClothingUp</SE1>:RO635的手指在指挥平板上翻飞跳跃，看得人眼花缭乱。
-()<Speaker>实习生</Speaker>||:……
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:还有别的什么问题吗？
-RO635-NoArmor(0)<同时置暗><Speaker>实习生</Speaker>||:不好意思助手小姐，我想请问，面板数据来看敌我双方战力悬殊，策略上也没有什么特别之处，如果按照这套计划执行……
-RO635-NoArmor(0)<同时置暗><Speaker>实习生</Speaker>||<BGM>BGM_Empty</BGM>:请原谅我的直白，这不是让她们去送死吗？
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:作为被试，您不需要顾虑这些，严格按照实验要求进行即可。+没有其他问题的话，那就开始了——
-()||<黑点1>:
+()||<BIN>607</BIN><黑屏2>:Persica interrupts her assistant, who was taking notes.
+NPC-Persica(4)<Speaker>Persica</Speaker>||:For this group, we're going to add a new variable.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:New variables? Where can we possibly add new variables now?
+NPC-Persica(5)<Speaker>Persica</Speaker>||:Don't you worry. They'll be here any minute now.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:...?
+()||<黑屏1>:...
+()||<回忆><黑点2><BIN>388</BIN><BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1><SE1>AVG_Walk</SE1>:At the Griffin base.
+NPC-Helian(0)<Speaker>Helian</Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>m_avg_casual</BGM>:Listen up! Starting today, this will be your new workspace.+This is where you will spend your entire internship.+Your classmates will become comrades that you fight side by side with in the future. Provided, of course, that you are all able to pass the examination.
+NPC-Helian(0)<同时置暗><Speaker>Interns</Speaker>||:Yes ma'am!
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...And one more thing. +Some of you may find strange cards in your dorms. +A friendly reminder of mine would be to just throw them away when you see them. Definitely do not partake in the dubious paid experiments listed on them.
+()||:Whispers and mumblings can be heard among the crowd of interns... +Everything is a novelty to this group of newcomers; evidently, the less they are allowed to do something, the more they can't help but... get involved.
+()<Speaker>InternA</Speaker>||:May I ask, is it against the rules to do so?
+NPC-Helian(0)<Speaker>Helian</Speaker>||:It's not explicitly forbidden, but it would be preferable that you do not heed those cards. +It's for your own sake— That's it for today, dismissed!
+()||<黑屏1>:...
+()<Speaker></Speaker>||<黑屏2><BIN>82</BIN><SE1>AVG_Door_Open_Close</SE1>:After Helian left, the bubbling crowd disperses and heads to their own dormitories to unpack their belongings.
+()<Speaker>???</Speaker>||:...
+()||:As you walk through the door, you notice that you've stepped on a card.
+()<Speaker>???</Speaker>||<SE1>AVG_20Winter_Book</SE1>:What is this...?
+()||<黑屏1>:... +...
+()||<黑屏2><BIN>553</BIN>:I.O.P headquarters building, 16th floor, Lab No. 9. +Although the weather outside is as clear as it gets, the floor inside is shrouded in darkness by the tinted glass; not a single beam of light can be seen.+The nameplate on the doorway reads Persicaria, there's no mistaking it.
+()||<SE1>AVG_Knock</SE1>:Knock knock!
+()<Speaker>Persica</Speaker>||<震屏3>:<size=60>—Who!</size>
+()||:The frantic voice inside the room startles you. With the card in hand, you double-check that the address is correct before mustering the courage to answer.
+()<Speaker>???</Speaker>||:Hello, you were recruiting test subjects here, right?
+()<Speaker>Persica</Speaker>||:...You're here to apply? +—Coming!
+()||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:The sound of items falling to the floor can be heard from inside the room, lasting for the next 2 minutes.
+()<Speaker>Persica</Speaker>||<黑屏1>:...W-Wait a minute! Don't leave—
+RO635-NoArmor(3)<Speaker>RO635</Speaker>||<关闭蒙版><黑屏2><BIN>607</BIN>:... +I'm impressed that someone actually got roped in by your little cards.
+NPC-Persica(5)<Speaker>Persica</Speaker>||:"Roped in" is quite the harsh way to put it. +This is legitimate recruiting.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:So, your name, please?
+()<Speaker>???</Speaker>||:I am...<c>Cadet 41 of the 2060 class of the Department of Tactical Command.<c>Currently commander-in-training at Griffin.<c>You said on the card that anonymity is allowed since we'd have to sneak out.
+NPC-Persica(4)<Speaker>Persica</Speaker>||:The name isn't important. Just write "Intern".
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>ClothingUp</SE1>:This is the Subjects' General Manual for this lab. Please familiarize yourself with it.
+()<Speaker>Intern</Speaker>||:...Uh, okay. +What do I need to do next then?
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:It's simple. We need you to cooperate with us in commanding a small team of Dolls for our experiment.
+RO635-NoArmor(0)<同时置暗><Speaker>Intern</Speaker>||:And the specifics are...
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:Please follow the command guidelines that have been uploaded. First do this... then this, and finally this. All you need is to reach the target location by the end. Got it?
+()||<SE1>ClothingUp</SE1>:RO635's finger jumped around on the command tablet at dazzling speeds. It was hard to follow any of her instructions.
+()<Speaker>Intern</Speaker>||:...
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:Any further questions?
+RO635-NoArmor(0)<同时置暗><Speaker>Intern</Speaker>||:Excuse me, Miss Assistant, there's something I want to ask. Looking at the raw data, the strength disparity between the enemy and us is overwhelming, and there's nothing particularly special about the tactics. If I follow through with this plan...
+RO635-NoArmor(0)<同时置暗><Speaker>Intern</Speaker>||<BGM>BGM_Empty</BGM>:Pardon my bluntness, but this is just sending Dolls to their deaths.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:As a subject, you don't need to worry about these. Just follow the guidelines to the letter.+If there are no further questions, let's get started—
+()||<黑点1>:

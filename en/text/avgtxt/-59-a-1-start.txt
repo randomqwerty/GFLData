@@ -1,28 +1,28 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_keyboardtype_sci</SE1><narrator>:——将一只饥饿的猫关在笼子里，而在笼外放上一只鲜美的鱼。+试问，这只猫要花多长时间，才能正确开启机关，逃出囚笼，并得到食物？
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_keyboardtype_sci</SE1><narrator>:—To enclose a starving feline in a cage and set down a delicious fish outside of it. +The question becomes: how long will it take for the cat to solve the puzzle, escape its confinement and secure its meal?
 ()||<黑屏1>:
-RO635-NoArmor(3)<Speaker>RO635</Speaker>||<BIN>607</BIN><黑屏2><BGM>BGM_22Swim_langrensha</BGM><SE1>ClothingUp</SE1>:……+帕斯卡小姐，请问您凌晨三点紧急传讯我翘掉警局的工作过来，就是为了帮您记录饿猫实验的数据吗？
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||:放轻松点，黑猫警长。+不宜被人注意的伟大实验，总是在深夜悄悄进行，相信我，能够参与这场实验，绝对是你的荣幸。
-RO635-NoArmor(3)<Speaker>RO635</Speaker>||:我明白了，您需要我帮忙记录一场复杂麻烦且有极大可能是未经批准的实验，并且没有加班津贴。
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||:……既然你已经明白了，那我们直接开始吧。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:帕斯卡关掉了刚才的实验说明，打开了近期的实验记录。
+RO635-NoArmor(3)<Speaker>RO635</Speaker>||<BIN>607</BIN><黑屏2><BGM>BGM_22Swim_langrensha</BGM><SE1>ClothingUp</SE1>:...+Miss Persica. Did you really send an emergency message, make me skip my job at the police station and ask me to come over at 3 a.m. just so I could help you record data for your experiment involving hungry cats?
+NPC-Persica(5)<Speaker>Persica</Speaker>||:Relax, Sheriff Whisker. +Great experiments that need to stay inconspicuous are always conducted quietly in the dead of night. And believe me, to take part in this experiment will be an absolute honor for you.
+RO635-NoArmor(3)<Speaker>RO635</Speaker>||:I see. So you need my help documenting a complex, problematic, and most likely unauthorized experiment. All without any overtime benefits.
+NPC-Persica(5)<Speaker>Persica</Speaker>||:...See, you got it. Let's get the show on the road then.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Persica turns off the experiment instructions, then opens a tab containing recent test data.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator><SE1>AVG_keyboardtype_sci</SE1>:“1号迷笼”，实验对象第一参照组，参与人形：M4A1，AR15，M4 SOPMOD II。+数据正在加载……+实验目的……实验内容……+实验原理……变量罗列……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator><SE1>AVG_keyboardtype_sci</SE1>:"Maze Cage" no. 1. Test subject: first reference group. Participant T-Dolls: M4A1, AR15, M4 SOPMOD II.+Data loading... +Test Objective... Test Content... +Test Principles... List Variables...
 ()||<黑屏1>:
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<BIN>607</BIN><SE1>ClothingUp</SE1><黑屏2>:数据已接收完毕。+总之就是把AR小队这三位成员运送到你指定的位置，等到她们醒来，然后开始模拟战斗。
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||:她们的情况你比较了解，毕竟都是和你进行过一次模拟训练的“老队友”呢。+还有，在本实验开始前的六天前，我发现第一参照组出现了心智数据异常情况——
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:M4A1的实战数据报告如果没有作假，那么她至少将指挥模块的功率发挥到了380%。+而在同一份报告中，AR15与SOP2的火控核心及多处组件亦存在异常的高效利用率。+具体原因不明，但应该是心智数据异常带来的副作用。
-NPC-Persica(8)<Speaker>帕斯卡</Speaker>||:AR小队的实战数据，远远高于我设定的预期上限。+不论重复验算多少次，结论都是相同的——达成这一结果的概率为：不可能。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:因此，您判断有实际验证的必要吗？
-NPC-Persica(4)<Speaker>帕斯卡</Speaker>||:……
-()<Speaker></Speaker>||:帕斯卡转过身，走到了实验室的观察窗前，俯视着下方等待开启实验的AR小队成员。
-NPC-Persica(8)<Speaker>帕斯卡</Speaker>||:“把这个宇宙模型和对这个模型的构建作为人生情感的依托，这样才能找到安宁，而这安宁是无法从个人狭窄的经验当中获得的。”
-RO635-NoArmor(2)<Speaker>RO635</Speaker>||:我同意，想不出来答案的时候，确实需要更多的实践才能走出死巷。
-NPC-Persica(8)<Speaker>帕斯卡</Speaker>||:“最崇高的工作就是要建立那些普世的基本法则，那些法则经过演绎就能创造出整个宇宙。”
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:您的意思是，想要从实验的结果中找出突破人形上限的普世法则吗？
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||<BGM>BGM_Empty</BGM>:喔，胡坊，我只是想看看托美吉、噗子、卡拉斯本在没有阿蒙的情况下，需要花上多少时间才能吃到一条鲜美的鱼。
-RO635-NoArmor(3)<Speaker>RO635</Speaker>||:请停止使用莫名其妙的称呼，这是对我的运算效率的无谓浪费。
-NPC-Persica(7)<Speaker>帕斯卡</Speaker>||:真可惜，我以为你会喜欢。+好吧，黑猫警长，立刻开始实验。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||:……+测算已经完成，实验准备已经就绪。
-NPC-Persica(5)<Speaker>帕斯卡</Speaker>||:……记录，第01次实验，开始。
-()||<黑点1>:
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<BIN>607</BIN><SE1>ClothingUp</SE1><黑屏2>:Data received.+So it's just transporting the three members of AR Team to the designated location, waiting until they wake up, and then commencing the combat simulation.
+NPC-Persica(5)<Speaker>Persica</Speaker>||:You should know them pretty well. After all, they were your "old teammates" from that one previous simulation. +Speaking of which, six days prior to the start of this experiment, I'd noticed some anomalies in the neural data of the first control group—
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:M4A1's live combat report, assuming it was not fraudulent, documented her outputting at least 380% of the expected performance of her command module. Additionally, both AR15 and SOP2 also demonstrated anomalously high utilization of their fire control cores and other various components in the same report. +The exact cause is unknown, but it should be a side effect of the aforementioned neural core anomalies.
+NPC-Persica(8)<Speaker>Persica</Speaker>||:AR Team's live combat performance is well above the upper limit that I set. +Yet no matter how many times I've run the numbers, the result came back the same—the probability of this happening should be zero.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:Which is why you determined that you needed some physical validation?
+NPC-Persica(4)<Speaker>Persica</Speaker>||:...
+()<Speaker></Speaker>||:Persica turns around, walks over to the observation window of the lab, then looks down at the members of the AR Team below, who are awaiting the start of the experiment.
+NPC-Persica(8)<Speaker>Persica</Speaker>||:"To make this model of the universe and its creation the emotional anchor of one's life is how they can find peace of mind, a peace that cannot be obtained via the narrow experience of the individual."
+RO635-NoArmor(2)<Speaker>RO635</Speaker>||:I agree. More experimentation is needed when you're stuck and can't think of a plausible answer.
+NPC-Persica(8)<Speaker>Persica</Speaker>||:"The noblest work is to establish fundamental laws that transcend worlds. Laws by which we could infer the entirety of the universe."
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:Do you mean you want to discover such laws that transcend the upper limit of Dolls through these experiments?
+NPC-Persica(5)<Speaker>Persica</Speaker>||<BGM>BGM_Empty</BGM>:Well, Hufang. I just want to see how long it would take Tomeji, Puffy, and Callaspen to get their delicious meal without the help from Amon.
+RO635-NoArmor(3)<Speaker>RO635</Speaker>||:Please stop utilizing these nonsensical nicknames. It's a needless waste of my processing power.
+NPC-Persica(7)<Speaker>Persica</Speaker>||:What a shame. I thought you'd like them.+Well, Sheriff Whisker, time to start the test.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||:... +Measurements complete, test preparations ready.
+NPC-Persica(5)<Speaker>Persica</Speaker>||:...Log, Test No. 1, begin.
+()||<黑点1>:

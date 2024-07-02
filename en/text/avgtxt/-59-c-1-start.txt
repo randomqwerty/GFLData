@@ -1,25 +1,25 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:“2号迷笼”，参与人形——MG36、LWMMG、M500、M1897、刘易斯。+数据正在加载……+实验目的……实验内容……+实验原理……变量罗列……+…………+我才不信那个家伙的直觉。+说到底，概率才是人形的真正指南。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:"Maze Cage No. 2", participant T-Dolls—Gr MG36, LWMMG, M500, M1997, Lewis.+Data loading...+Test Objective... Test Content... +Test Principles... List Variables...+There's no way I'd simply trust that person's instincts. +After all, probabilities are the true guidelines for Dolls.
 ()||<黑屏1>:
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<黑屏2><BIN>607</BIN>:已经按照您的要求，将五位人形送往了指定地点。+作为对照组，您有什么期待呢？
-NPC-Persica(4)<Speaker>帕斯卡</Speaker>||:伯努利的试验加马尔可夫的过程。
-RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:……好的，设置2号迷笼为空白对照组。
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<黑屏2><BIN>607</BIN>:Five Dolls have been sent to the designated location per your request. +What are you looking for in this control group?
+NPC-Persica(4)<Speaker>Persica</Speaker>||:Bernoulli's experiment plus Markov's process.
+RO635-NoArmor(0)<Speaker>RO635</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:...I see. Setting up "Maze Cage No. 2" as a blank control group.
 ()||<黑屏1>:
-m500(0)<Speaker>M500</Speaker>||<BIN>73</BIN><黑屏2><BGM>m_avg_casual</BGM>:五个民用人形，没有题目，没有说明，甚至没有要求。+我们这样是不是很像被遗弃的军犬？
-Lewis(0)<Speaker>刘易斯</Speaker>||:不准用你那无聊的驯兽员比喻。+我倒是很好奇，帕斯卡小姐的实验里，敌人长什么模样……
-m500(0)<Speaker>M500</Speaker>||:说不定是八只手臂的机器人。
-Lewis(0)<Speaker>刘易斯</Speaker>||:万一是六只眼睛的精灵美少女呢。
-LWMMG(0)<Speaker>LWMMG</Speaker>||:……我猜测是AR小队曾经遭遇过敌人。
-Lewis(0)<Speaker>刘易斯</Speaker>||:哈？你的猜测为什么这么朴实无华又很有根据的样子，该不会是偷看过答案了吧！
-MG36(0)<Speaker>MG36</Speaker>||:确实，因为我们在外面等了一下，确认隔壁训练场的对象是AR小队。
-LWMMG(0)<Speaker>LWMMG</Speaker>||:优等生归来，一般总是要带几套习题给大家做做的。
-m500(0)<Speaker>M500</Speaker>||:那另一边训练场的人形是？
-MG36(0)<Speaker>MG36</Speaker>||:跟我们一样的格里芬人形。
-Lewis(0)<Speaker>刘易斯</Speaker>||:哦我知道是谁！那你这说法也太客气了。+如果满分是100分，AR是90分档，那我们是60分档，另一边的RF是30分档好吧！
-LWMMG(0)<Speaker>LWMMG</Speaker>||:你错了。
-Lewis(0)<Speaker>刘易斯</Speaker>||:<size=50>哈？</size>
-LWMMG(0)<Speaker>LWMMG</Speaker>||:当满分是入门卷100分的时候，AR是100分，我们是60分，RF是30分。+但当满分是难度卷100分的时候，AR还是100分，我们和RF则都是20分。
-Lewis(0)<Speaker>刘易斯</Speaker>||:……什么意思？
-MG36(0)<Speaker>MG36</Speaker>||:意思是，优胜的名额是一定的，但差生的下限是不同的。+我们需要很努力才能保持中游。
-m500(0)<Speaker>M500</Speaker>||<SE1>Select</SE1>:那还等什么！赶紧开始吧——
-()||<黑点1>:
+m500(0)<Speaker>M500</Speaker>||<BIN>73</BIN><黑屏2><BGM>m_avg_casual</BGM>:Five civilian Dolls, no goal, no instructions, not even a requirement. +We're like abandoned military dogs, aren't we?
+Lewis(0)<Speaker>Lewis</Speaker>||:Stop using your boring animal trainer analogies.+Though, I do wonder what the enemies in Miss Persica's experiments look like...
+m500(0)<Speaker>M500</Speaker>||:Eight-armed robots, perhaps.
+Lewis(0)<Speaker>Lewis</Speaker>||:What if it's a six-eyed elf bishoujo?
+LWMMG(0)<Speaker>LWMMG</Speaker>||:...My guess is that they're enemies that the AR Team has encountered before.
+Lewis(0)<Speaker>Lewis</Speaker>||:Hah? Why is your answer so matter-of-fact and boring? You took a peek at the answer, didn't you?
+MG36(0)<Speaker>MG36</Speaker>||:Indeed. Since we waited outside for a bit, I checked the adjacent training ground, and the subjects there were of AR Team.
+LWMMG(0)<Speaker>LWMMG</Speaker>||:You just know that the top students will always bring back with them new exercises from the teacher.
+m500(0)<Speaker>M500</Speaker>||:And who are the Dolls in the other training ground?
+MG36(0)<Speaker>MG36</Speaker>||:Griffin Dolls, just like us.
+Lewis(0)<Speaker>Lewis</Speaker>||:Oh, I know who they are! Very generous of you to call them like that. +If the perfect grade is 100 and AR Team can get a 90, then we'll score something around 60. And there's no way the Rifle Team on the other side gets more than a 30!
+LWMMG(0)<Speaker>LWMMG</Speaker>||:You're wrong.
+Lewis(0)<Speaker>Lewis</Speaker>||:<size=50>Hah?</size>
+LWMMG(0)<Speaker>LWMMG</Speaker>||:If this is an easy, entry-level test, then the AR Team will get 100, we can score a 60, and RFs 30. +However, if we're talking about a hard test, AR still gets its perfect score, but both us and the RFs aren't making it past the 20 mark.
+Lewis(0)<Speaker>Lewis</Speaker>||:...What do you mean?
+MG36(0)<Speaker>MG36</Speaker>||:It means that the best will always be the best, but there isn't a bottom limit for how poorly you can do. +We need to work very hard just to stay in the middle of the pack.
+m500(0)<Speaker>M500</Speaker>||<SE1>Select</SE1>:Then what are we waiting for! Let's get started—
+()||<黑点1>:

@@ -8,6 +8,9 @@ local InitLeftUI = function(self)
 				if CS.OPSPanelController.Instance.campaionId == -59 then
 					CS.OPSEventPrizeController.eventprizeId = 8;
 				end
+				if CS.OPSPanelController.Instance.campaionId == -61 then
+					CS.OPSEventPrizeController.eventprizeId = 1003;
+				end
 			end
 		end
 	end
