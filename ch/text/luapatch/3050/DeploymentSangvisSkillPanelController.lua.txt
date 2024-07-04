@@ -11,6 +11,7 @@ local ShowSangvisSelectTarget = function(self,order)
 		return;
 	end
 	self:CloseAllSelectTarget();
+	self.chipData = nil;
 	self.selectMissionSkillCfg = self.sangvisTeam.leaderMissionSkill;
 	if self.selectMissionSkillCfg ~= nil then
 		if self.sangvisTeam.skill2cdTurn > CS.GameData.missionAction.turn then
@@ -22,7 +23,7 @@ local ShowSangvisSelectTarget = function(self,order)
 			return;
 		end
 	end
-	if self.selectSpots.Count == 0 then
+	if selectSpots3.Count == 0 then
 		CS.CommonController.LightMessageTips(CS.Data.GetLang(30187));
 		return;
 	end
@@ -31,6 +32,7 @@ local ShowSangvisSelectTarget = function(self,order)
 	skillTransform:Find("Img_IconBg/ActiveSfx").gameObject:SetActive(true);
 	skillTransform:Find("Btn_Release").gameObject:SetActive(false);
 	skillTransform:Find("Btn_Cancel").gameObject:SetActive(true);
+	self.selectSpots = CS.System.Collections.Generic.List(CS.DeploymentSpotController)(selectSpots3);
 	for i=0,self.selectSpots.Count-1 do
 		self.selectSpots[i]:ShowSkillTarget();
 	end
@@ -113,6 +115,11 @@ local RefreshVehicleSkill3 = function(self)
 		end)
 	selectSpots3 = CS.System.Collections.Generic.List(CS.DeploymentSpotController)(self.selectSpots);
 end
+
+local RefreshSangvisSkill3 = function(self)
+	self:RefreshSangvisSkill3();
+	selectSpots3 = CS.System.Collections.Generic.List(CS.DeploymentSpotController)(self.selectSpots);
+end
 local CheckMissionSkillCost = function(self,skillTrans,missionSkillCfg,order)
 	if self.currentSelectedTeam == nil then
 		return;
@@ -125,4 +132,5 @@ util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowVehicleSelectTarget
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'RefreshVehicleSkill1',RefreshVehicleSkill1)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'RefreshVehicleSkill2',RefreshVehicleSkill2)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'RefreshVehicleSkill3',RefreshVehicleSkill3)
+util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'RefreshSangvisSkill3',RefreshSangvisSkill3)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'CheckMissionSkillCost',CheckMissionSkillCost)
