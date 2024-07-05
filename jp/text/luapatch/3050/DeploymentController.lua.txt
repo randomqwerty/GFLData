@@ -45,9 +45,21 @@ local ShowMapInfo = function(self)
 	self.squadTrans.gameObject:SetActive(false);
 	self.vehicleTrans.gameObject:SetActive(false);
 end
+
+local CurrentTeamEchelon = function(self)
+	if self.currentHostage ~= nil then
+		return -2;
+	end
+	return self:CurrentTeamEchelon();
+end
+local HasGunAlive = function(self)
+	return self.squadTeam.squadData.life > 0;
+end
 util.hotfix_ex(CS.DeploymentController,'ReastSkillCD',ReastSkillCD)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'Show',Show)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'ShowAllySquad',ShowAllySquad)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.DeploymentEnemyInfoNew,'ShowSquadTeam',ShowSquadTeam)
 util.hotfix_ex(CS.DeploymentEnemyInfoNew,'ShowMapInfo',ShowMapInfo)
+util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
+util.hotfix_ex(CS.DeploymentSquadTeamController,'HasGunAlive',HasGunAlive)

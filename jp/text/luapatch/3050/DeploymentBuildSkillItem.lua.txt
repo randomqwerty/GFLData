@@ -22,4 +22,44 @@ local RefreshLeftUI = function(self)
 	end
 end
 
+local CastSkill = function(self)
+	local missionskilliid = self:CheckMissionSkillId();
+	if missionskilliid == 0 then
+		return;
+	end
+	if self.playanim then
+		return;
+	end
+	local buildSkill = nil;
+	for i=0,CS.DeploymentUIController.Instance.leftSkills.Count-1 do
+		local skill = CS.DeploymentUIController.Instance.leftSkills[i];
+		if skill.skillItem.gameObject.name == "610001" then
+			buildSkill = skill;
+		end
+	end
+	if buildSkill == nil then
+		return;
+	end
+	buildSkill.skillItem.RougeSummerObj = self.RougeSummerObj;
+	buildSkill.skillItem.selectItems = self.selectItems;
+	buildSkill.skillItem.playanim = true;
+	buildSkill.skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskilliid);
+	buildSkill.otherskills:Clear();
+	self:PlayRougeAnim(true);
+	self.playanim = true;
+	CS.CommonController.Invoke(function()
+		buildSkill:RequestCastSkill();
+		end,5,CS.DeploymentController.Instance);
+end
+
+local CheckCastRougeEnd = function(self)
+	for i=0,CS.DeploymentUIController.Instance.leftSkills.Count-1 do
+		local skill = CS.DeploymentUIController.Instance.leftSkills[i];
+		skill.skillItem.playanim = false;
+		skill.skillItem.selectItems:Clear();
+	end
+	self:CheckCastRougeEnd();
+end
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'RefreshLeftUI',RefreshLeftUI)
+util.hotfix_ex(CS.DeploymentBuildSkillItem,'CastSkill',CastSkill)
+util.hotfix_ex(CS.DeploymentBuildSkillItem,'CheckCastRougeEnd',CheckCastRougeEnd)

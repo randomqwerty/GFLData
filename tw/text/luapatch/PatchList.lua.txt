@@ -375,6 +375,7 @@ patch3050=
 "3050/DeploymentController",
 "3050/DeploymentAllyTeamController",	
 "3050/DeploymentBuildSkillItem",
+"3050/DeploymentBuildingController",	
 "3050/DeploymentAutoBattleController",
 "3050/DeploymentMapDragController",		
 "3050/GuideDeploymentController",

@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.AVGPicController)
+xlua.private_accessible(CS.PicControlEffect)
 
 local yinshen = false;
 local UpdatePic = function(self,picInfo)
@@ -49,5 +50,19 @@ function Split(szFullString, szSeparator)
 	end
 	return nSplitArray
 end
+
+local ShowMessageEffect = function(self,time)
+	self:ShowMessageEffect(time);
+	self.mat.shader = CS.ResManager.GetObjectByPath("Shader/UGUIAVGCommunicationBox",".shader");
+end
+
+local ShowOriginal = function(self)
+	self:ShowOriginal();
+	if self.currentEffect == CS.PicControlEffect.Effect.Tongxun then
+		self.mat.shader = CS.ResManager.GetObjectByPath("Shader/UGUIAVGCommunicationBox",".shader");
+	end
+end
 util.hotfix_ex(CS.AVGPicController,'UpdatePic',UpdatePic)
+util.hotfix_ex(CS.PicControlEffect,'ShowMessageEffect',ShowMessageEffect)
+util.hotfix_ex(CS.PicControlEffect,'ShowOriginal',ShowOriginal)
 

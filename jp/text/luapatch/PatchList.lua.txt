@@ -375,6 +375,7 @@ patch3050=
 "3050/DeploymentController",
 "3050/DeploymentAllyTeamController",	
 "3050/DeploymentBuildSkillItem",
+"3050/DeploymentBuildingController",	
 "3050/DeploymentAutoBattleController",
 "3050/DeploymentMapDragController",		
 "3050/GuideDeploymentController",
@@ -392,7 +393,8 @@ patch3050=
 "3040/DeploymentEffectivenessController",
 "3040/CommonSquadListLabelController",
 "3040/CommonSendSkinToGunController",
-"3040/ExchangeShopItemController",											
+"3040/ExchangeShopItemController",
+"3050/AVGPicController",												
 }
 -- va11
 print("load Va11");
