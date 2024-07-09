@@ -25,7 +25,7 @@ local ReturnContainerPos = function(self)
 end
 
 local CanChooseDrag = function(self)
-	if self.campaionId == -69 then
+	if self.campaionId == -69 or self.campaionId == -70 then
 		return false;
 	end
 	if self.currentChoose ~= nil then
