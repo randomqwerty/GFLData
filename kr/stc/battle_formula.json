@@ -15200,6 +15200,38 @@
     "formula": "sbuffidtier(9548)=1?70:85"
   },
   {
+    "id": 9447,
+    "formula": "sbuffidtier(9556)=1&sbuffidtier(9557)=1?1:0"
+  },
+  {
+    "id": 9448,
+    "formula": "sbuffidtier(9559)=1&sbuffidtier(9560)=1?1:0"
+  },
+  {
+    "id": 9449,
+    "formula": "sbuffidtier(9558)=1?sbuffidtier(9562)=1?0:1:1"
+  },
+  {
+    "id": 9450,
+    "formula": "sbuffidtier(9558)=1?sbuffidtier(9562)=1?1:0:0"
+  },
+  {
+    "id": 9451,
+    "formula": "sbuffidtier(9558)=1?sbuffidtier(9563)<1?1:0:0"
+  },
+  {
+    "id": 9452,
+    "formula": "@speed>15?0:(15-@speed)"
+  },
+  {
+    "id": 9453,
+    "formula": "sbuffidtier(9561)=1?1:0"
+  },
+  {
+    "id": 9454,
+    "formula": "sbuffidtier(9557)=1?$1*1.25:$1"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
