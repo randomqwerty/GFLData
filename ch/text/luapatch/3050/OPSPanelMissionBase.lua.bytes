@@ -53,6 +53,12 @@ local Start = function(self)
 			rectTrans.pivot = CS.UnityEngine.Vector2(0.5,0.5);
 			rectTrans.anchoredPosition = CS.UnityEngine.Vector2(120,-340);
 			rectTrans.localScale = CS.UnityEngine.Vector3(1.5,1.5,1.5);
+			if self.prefabCode == "202407ActivityMissionSpot" then
+				rectTrans.anchorMin = CS.UnityEngine.Vector2(0,0);
+				rectTrans.anchorMax = CS.UnityEngine.Vector2(0,0);
+				rectTrans.pivot = CS.UnityEngine.Vector2(0.5,0.5);
+				rectTrans.anchoredPosition = CS.UnityEngine.Vector2(95,231);
+			end
 		end
 	end
 end

@@ -23,5 +23,4 @@ local CheckIsSLGMode = function()
 	return false
 end
 util.hotfix_ex(CS.GF.Battle.BattleManager,'RequestBattleFinish',RequestBattleFinish)
-
 util.hotfix_ex(CS.GF.Battle.BattleDynamicData,'CheckIsSLGMode',CheckIsSLGMode)

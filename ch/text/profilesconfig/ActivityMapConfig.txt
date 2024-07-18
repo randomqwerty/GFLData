@@ -79,6 +79,8 @@ MissionSelectionTex|missionselect_202404Activity|1|-68
 MissionSelectionTex|missionselect_202406Activity|1|-69
 //噩梦迷城+
 MissionSelectionTex|missionselect_PoincareRecurrenceRemake|2|-67
+//7月 临时
+MissionSelectionTex|missionselect_202407Activity|2|-70
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -127,6 +129,7 @@ OPSPanelScene|-65|-65
 OPSPanelScene|-68|-68
 OPSPanelScene|-69|-69
 OPSPanelScene|-67|-67
+OPSPanelScene|-70|-70
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -135,6 +138,7 @@ OPSPanelScene|-67|-67
 //OPSVideoFirst|-54|deepdive_short
 OPSVideoFirst|-68|202404ActivityPV
 OPSVideoFirst|-69|202406ActivityPV
+OPSVideoFirst|-70|202407ActivityPV
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -150,6 +154,7 @@ OPSReturn|ZLSR_Return|-57
 OPSReturn|2023Spring_Return|-58
 OPSReturn|2024Ghost_Return|-64
 OPSReturn|202406Activity_Return|-69
+OPSReturn|202407Activity_Return|-70
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -199,6 +204,7 @@ OPSLeftBGNormalActivity|-65|MirrorStage_Left
 OPSLeftBGNormalActivity|-68|202404Activity_Left
 OPSLeftBGNormalActivity|-69|202406Activity_Left
 OPSLeftBGNormalActivity|-67|2021Summer_Left
+OPSLeftBGNormalActivity|-70|202407Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -241,6 +247,7 @@ OPSNoticeNormalActivity|-62|2023Se_Notice
 OPSNoticeNormalActivity|-64|2024Ghost_Notice
 OPSNoticeNormalActivity|-68|202404Activity_Notice
 OPSNoticeNormalActivity|-69|202406Activity_Notice
+OPSNoticeNormalActivity|-70|202407Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -277,6 +284,7 @@ OPSTimeNormalActivity|-65|Reversible_Time
 OPSTimeNormalActivity|-68|Reversible_Time
 OPSTimeNormalActivity|-69|202406Activity_Time
 OPSTimeNormalActivity|-67|Reversible_Time
+OPSTimeNormalActivity|-70|202407Activity_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -326,6 +334,8 @@ OPSGoto|2024Ghost_GotoMall|0|-64
 OPSGoto|MirrorStage_PointExchange|2|-65
 OPSGoto|2023RougeSummer_GotoMall|0|-68
 OPSGoto|202406Activity_GotoMall|0|-69
+//24_7月活动
+OPSGoto|202407Activity_GotoMall|0|-70
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -381,6 +391,7 @@ OPSProgressNormalActivity|-63|Reversible_Progress
 OPSProgressNormalActivity|-64|2024Ghost_Progress
 OPSProgressNormalActivity|-68|Reversible_Progress
 OPSProgressNormalActivity|-69|202406Activity_Progress
+OPSProgressNormalActivity|-70|202407Activity_Progress
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
 OPSMain|-2|Snow|Map2
@@ -520,6 +531,7 @@ OPSCampaignTitleButton|-62|true|2023Se_Diffculty2Btn
 OPSCampaignTitleButton|-64|true|2024Ghost_Diffculty2Btn
 OPSCampaignTitleButton|-68|true|202404Acticity_Difficulty2Btn
 OPSCampaignTitleButton|-69|true|202406Activity_Difficulty2Btn
+OPSCampaignTitleButton|-70|true|202407Activity_Difficulty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -566,6 +578,7 @@ OPSCampaignTitleButtonTip|-61|100228|120|2023RougeSummer_Tip|1
 OPSCampaignTitleButtonTip|-62|100221|60|2023Se_MissionPanelTip|1
 OPSCampaignTitleButtonTip|-68|100214|60|202404Acticity_Tip|1
 OPSCampaignTitleButtonTip|-69|100224|60|202406Activity_Tip|1
+OPSCampaignTitleButtonTip|-70|100231|60|202407Activity_Tip|1
 
 
 //消耗道具用
@@ -1994,3 +2007,35 @@ OPSCampaignDetail|-69_26|0,0|DemonLaplace
 OPSCampaignDetail|-69_27|0,0|DemonLaplace
 OPSCampaignDetail|-69_28|0,0|DemonLaplace
 OPSCampaignDetail|-69_29|0,0|M16A1_Boss
+
+
+//24_7月活动
+OPSCampaignDetail|-70_1|0,0|NPC_Romy
+OPSCampaignDetail|-70_2|0,0|RPK16_Reborn
+OPSCampaignDetail|-70_3|0,0|AK15_Mod3
+OPSCampaignDetail|-70_4|0,0|RPK16_Reborn
+OPSCampaignDetail|-70_5|0,0|Nimeylan
+OPSCampaignDetail|-70_6|0,0|AN94
+OPSCampaignDetail|-70_7|0,0|AgentQ
+OPSCampaignDetail|-70_8|0,0|PPQ
+OPSCampaignDetail|-70_9|0,0|AK12_Mod3
+OPSCampaignDetail|-70_10|0,0|AgentQ
+OPSCampaignDetail|-70_11|0,0|Clyda
+OPSCampaignDetail|-70_12|0,0|AK12_Mod3
+OPSCampaignDetail|-70_13|0,0|RPK16_Reborn
+OPSCampaignDetail|-70_14|0,0|RPK16_Reborn
+OPSCampaignDetail|-70_15|0,0|AK12_Mod3
+OPSCampaignDetail|-70_16|0,0|AK12_Mod3
+OPSCampaignDetail|-70_17|0,0|AK12_Mod3
+OPSCampaignDetail|-70_18|0,0|Riotguard
+OPSCampaignDetail|-70_19|0,0|AK15_Mod3
+OPSCampaignDetail|-70_20|0,0|AN94
+OPSCampaignDetail|-70_21|0,0|AK12_Mod3
+OPSCampaignDetail|-70_22|0,0|AK12_Mod3
+OPSCampaignDetail|-70_23|0,0|AK12_Mod3
+OPSCampaignDetail|-70_24|0,0|Riotguard
+OPSCampaignDetail|-70_25|0,0|Shaw
+OPSCampaignDetail|-70_26|0,0|Shaw
+OPSCampaignDetail|-70_27|0,0|Shaw
+OPSCampaignDetail|-70_28|0,0|Shaw
+OPSCampaignDetail|-70_29|0,0|Shaw
