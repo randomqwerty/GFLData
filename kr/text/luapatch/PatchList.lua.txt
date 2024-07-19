@@ -403,7 +403,8 @@ patch3050=
 "3040/AVGCreditsController",
 "3050/AVGController",		
 "3050/BattleManager",	
-"3040/Vehicle",											
+"3040/Vehicle",	
+"3050/BattleChangeBackgroundPerformanceController",										
 }
 -- va11
 print("load Va11");

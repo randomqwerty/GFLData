@@ -16,5 +16,11 @@ local RequestBattleFinish = function(self,forceLose)
 		end
 	end
 end
-
+local CheckIsSLGMode = function()
+	if CS.GameData.engagedSpot ~= nil and CS.GameData.engagedSpot.enemyTeamId >= 513701 and CS.GameData.engagedSpot.enemyTeamId <= 513704 then
+		return true
+	end
+	return false
+end
 util.hotfix_ex(CS.GF.Battle.BattleManager,'RequestBattleFinish',RequestBattleFinish)
+util.hotfix_ex(CS.GF.Battle.BattleDynamicData,'CheckIsSLGMode',CheckIsSLGMode)

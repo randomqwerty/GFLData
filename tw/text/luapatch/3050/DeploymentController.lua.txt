@@ -11,6 +11,16 @@ local ReastSkillCD = function(self)
 	end
 end
 
+local PlayMoveRecord = function(self,record,play)
+	local fromSpot = record.from.spot;
+	local toSpot = record.to.spot;
+	if fromSpot.layer == CS.DeploymentBackgroundController.currentlayer then
+		self:PlayMoveRecord(record,true);
+	else
+		self:PlayMoveRecord(record,play);
+	end
+end
+
 local Show = function(self,squadTeamController)
 	self.gameObject:SetActive(true);
 	self:Show(squadTeamController);
@@ -56,6 +66,7 @@ local HasGunAlive = function(self)
 	return self.squadTeam.squadData.life > 0;
 end
 util.hotfix_ex(CS.DeploymentController,'ReastSkillCD',ReastSkillCD)
+util.hotfix_ex(CS.DeploymentController,'PlayMoveRecord',PlayMoveRecord)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'Show',Show)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'ShowAllySquad',ShowAllySquad)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'RefreshUI',RefreshUI)
