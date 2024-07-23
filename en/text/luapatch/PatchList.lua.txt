@@ -397,13 +397,16 @@ patch3050=
 "3040/DeploymentEffectivenessController",
 "3040/CommonSquadListLabelController",
 "3040/CommonSendSkinToGunController",
+"3050/CommonPicController",	
 "3040/ExchangeShopItemController",
 "3050/AVGPicController",	
 "3050/VehicleGun",		
 "3040/AVGCreditsController",
 "3050/AVGController",		
 "3050/BattleManager",	
-"3040/Vehicle",											
+"3040/Vehicle",	
+"3050/BattleChangeBackgroundPerformanceController",
+"3050/MissionSkillData",											
 }
 -- va11
 print("load Va11");
