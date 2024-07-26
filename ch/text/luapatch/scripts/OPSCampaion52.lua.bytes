@@ -45,7 +45,7 @@ function Init()
 	end
 	CS.OPSPanelBackGround.Instance.gameObject:SetActive(false);
 	if OPSPanelMissionBase == nil or OPSPanelMissionBase:isNull() then
-		OPSPanelMissionBase = opsControl.transform:Find("Map").gameObject:AddComponent(typeof(CS.OPSPanelMissionBase));
+		OPSPanelMissionBase = opsControl.gameObject:AddComponent(typeof(CS.OPSPanelMissionBase));
 	end
 	local shader = CS.ResManager.GetObjectByPath("Shader/Sprites-Twinkle", ".shader");
 	mat = CS.UnityEngine.Material(shader);
@@ -102,7 +102,8 @@ function  ShowBackground()--活动背景
 					OPSPanelMissionBase.missionIds[0] = 11098;
 					OPSPanelMissionBase.missionIds[1] = 11098;
 				else
-					OPSPanelMissionBase.opsMission = CS.OPSMission();
+					OPSPanelMissionBase.opsMission.missionIds:Clear();
+					OPSPanelMissionBase.opsMission.entranceId = 0;
 					OPSPanelMissionBase.opsMission.missionIds:Add(11098);
 					OPSPanelMissionBase.opsMission.missionIds:Add(11098);
 				end
@@ -117,7 +118,8 @@ function  ShowBackground()--活动背景
 					OPSPanelMissionBase.missionIds[0] = 11112;
 					OPSPanelMissionBase.missionIds[1] = 11112;
 				else
-					OPSPanelMissionBase.opsMission = CS.OPSMission();
+					OPSPanelMissionBase.opsMission.missionIds:Clear();
+					OPSPanelMissionBase.opsMission.entranceId = 0;
 					OPSPanelMissionBase.opsMission.missionIds:Add(11112);
 					OPSPanelMissionBase.opsMission.missionIds:Add(11112);			
 				end
@@ -131,6 +133,37 @@ function  ShowBackground()--活动背景
 				--ShowVoto();
 				ShowSpecialUI(false);
 			end);
+		local ending1=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding1");
+		local ending1Btn = ending1:GetComponent(typeof(CS.ExButton));
+		ending1Btn:AddOnClick(function()
+				OPSPanelMissionBase.opsMission.missionIds:Clear();
+				OPSPanelMissionBase.opsMission.entranceId = 0;
+				OPSPanelMissionBase.opsMission.missionIds:Add(11691);
+				OPSPanelMissionBase.opsMission.missionIds:Add(11691);
+				ShowMissionPanel();
+				ShowSpecialUI(false);
+			end);
+		local ending2=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding2");
+		local ending2Btn = ending2:GetComponent(typeof(CS.ExButton));
+		ending2Btn:AddOnClick(function()
+				OPSPanelMissionBase.opsMission.missionIds:Clear();
+				OPSPanelMissionBase.opsMission.entranceId = 0;
+				OPSPanelMissionBase.opsMission.missionIds:Add(11692);
+				OPSPanelMissionBase.opsMission.missionIds:Add(11692);
+				ShowMissionPanel();
+				ShowSpecialUI(false);
+			end);
+		local ending3=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding3");
+		local ending3Btn = ending3:GetComponent(typeof(CS.ExButton));
+		ending3Btn:AddOnClick(function()
+				OPSPanelMissionBase.opsMission.missionIds:Clear();
+				OPSPanelMissionBase.opsMission.entranceId = 0;
+				OPSPanelMissionBase.opsMission.missionIds:Add(11693);
+				OPSPanelMissionBase.opsMission.missionIds:Add(11693);
+				ShowMissionPanel();
+				ShowSpecialUI(false);
+			end);
+		
 	end
 	if returnobj == nil or returnobj:isNull() then
 		returnobj= CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Pics/ActivityMap/Bikini_2022_Return"), opsControl.leftMain, false);
@@ -148,7 +181,7 @@ function  ShowBackground()--活动背景
 	ShowSpine("Mission6");
 	ShowSpine("MissionSpecial");
 	ShowSpine("MissionInfinite");
-	CheckShowVoteResult();
+	--CheckShowVoteResult();
 	ShowProcess();
 end
 function AddMissionBtn(name)
@@ -194,7 +227,8 @@ function ClickMission(name)
 			OPSPanelMissionBase.missionIds[1] = 11114;
 		end
 	else
-		OPSPanelMissionBase.opsMission = CS.OPSMission();
+		OPSPanelMissionBase.opsMission.missionIds:Clear();
+		OPSPanelMissionBase.opsMission.entranceId = 0;
 		if name == "Mission1" then
 			OPSPanelMissionBase.opsMission.missionIds:Add(11115);
 			OPSPanelMissionBase.opsMission.missionIds:Add(11115);
@@ -245,6 +279,9 @@ function ShowSpecialUI(show)
 	Mission.gameObject:SetActive(show);
 	local mission0 = CS.GameData.listMission:GetDataById(11098);
 	local mission1 = CS.GameData.listMission:GetDataById(11112);
+	local ending1 = CS.GameData.listMission:GetDataById(11691);
+	local ending2 = CS.GameData.listMission:GetDataById(11692);
+	local ending3 = CS.GameData.listMission:GetDataById(11693);
 	local text = Mission:Find("MissionVote/Text_MissionName"):GetComponent(typeof(CS.ExText));
 	local text1 = Mission:Find("MissionEpilogue/Text_MissionName"):GetComponent(typeof(CS.ExText));
 	local check0 = CheckMissionkey(1109900);
@@ -253,16 +290,16 @@ function ShowSpecialUI(show)
 	local check3 = CheckMissionkey(1110500);
 	local check4 = CheckMissionkey(1110700);
 	local check5 = CheckMissionkey(1111500);
-	local btnVote = Mission:Find("MissionVote"):GetComponent(typeof(CS.ExButton));
+	local btn = Mission:Find("MissionVote"):GetComponent(typeof(CS.ExButton));
 	local btnEpilogue = Mission:Find("MissionEpilogue"):GetComponent(typeof(CS.ExButton));
 	if check0 or check1 or check2 or check3 or check4 or check5 then
 		text.color = CS.UnityEngine.Color(1,1,1,1);
 		Mission:Find("MissionVote/Img_Locked").gameObject:SetActive(false);
-		btnVote.enabled = true;
+		btn.enabled = true;
 	else
 		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
 		Mission:Find("MissionVote/Img_Locked").gameObject:SetActive(true);
-		btnVote.enabled = false;
+		btn.enabled = false;
 	end
 	if mission1 ~= nil then
 		text1.color = CS.UnityEngine.Color(1,1,1,1);
@@ -272,6 +309,39 @@ function ShowSpecialUI(show)
 		text1.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
 		Mission:Find("MissionEpilogue/Img_Locked").gameObject:SetActive(true);
 		btnEpilogue.enabled = false;
+	end
+	text = Mission:Find("MissionEnding1/Text_MissionName"):GetComponent(typeof(CS.ExText));
+	btn = Mission:Find("MissionEnding1"):GetComponent(typeof(CS.ExButton));
+	if ending1 ~= nil then
+		text.color = CS.UnityEngine.Color(1,1,1,1);
+		Mission:Find("MissionEnding1/Img_Locked").gameObject:SetActive(false);
+		btn.enabled = true;
+	else
+		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+		Mission:Find("MissionEnding1/Img_Locked").gameObject:SetActive(true);
+		btn.enabled = false;
+	end
+	text = Mission:Find("MissionEnding2/Text_MissionName"):GetComponent(typeof(CS.ExText));
+	btn = Mission:Find("MissionEnding2"):GetComponent(typeof(CS.ExButton));
+	if ending2 ~= nil then
+		text.color = CS.UnityEngine.Color(1,1,1,1);
+		Mission:Find("MissionEnding2/Img_Locked").gameObject:SetActive(false);
+		btn.enabled = true;
+	else
+		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+		Mission:Find("MissionEnding2/Img_Locked").gameObject:SetActive(true);
+		btn.enabled = false;
+	end
+	text = Mission:Find("MissionEnding3/Text_MissionName"):GetComponent(typeof(CS.ExText));
+	btn = Mission:Find("MissionEnding3"):GetComponent(typeof(CS.ExButton));
+	if ending3 ~= nil then
+		text.color = CS.UnityEngine.Color(1,1,1,1);
+		Mission:Find("MissionEnding3/Img_Locked").gameObject:SetActive(false);
+		btn.enabled = true;
+	else
+		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+		Mission:Find("MissionEnding3/Img_Locked").gameObject:SetActive(true);
+		btn.enabled = false;
 	end
 end
 local returnobj = nil;
@@ -942,6 +1012,9 @@ function ShowProcess()
 		CheckMission(11113);
 		CheckMission(11114);
 		CheckMission(11115);
+		CheckMission(11691);
+		CheckMission(11692);
+		CheckMission(11693);
 		processTxt.text = CS.Data.GetLang(30251)..tostring(clearCount).."/"..tostring(allCount);
 	end
 end
@@ -1020,7 +1093,7 @@ Start = function()
 	if opsControl.campaionId == -52 then
 		print("加载泳装活动界面");
 		Init();
-		opsControl.gobjWeb:AddComponent(typeof(CS.ImageBufferBlurRefraction));
+		--opsControl.gobjWeb:AddComponent(typeof(CS.ImageBufferBlurRefraction));
 		util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 		util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 		util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
