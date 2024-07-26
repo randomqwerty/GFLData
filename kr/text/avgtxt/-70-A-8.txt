@@ -1,1 +1,190 @@
-()||<BIN>10</BIN>:Test待替换 -70-A-8 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>748</BIN><BGM>GF_22W_BGM_3</BGM><黑屏2>:...패러데우스 임시 기지.
+()<Speaker></Speaker>||:말끔한 실험실 안에, 이제 막 포장을 뜯은 기구들이 늘어서 있었다. 조수 니토들이 지나다니면서 기구들을 묵묵히 조립했다.
+()<Speaker></Speaker>||:네메아란은 리스트를 두 번씩 다시 체크해서 빠뜨린 점이 없는 것을 확인한 다음, 실험실 깊은 곳의 방에 들어섰다.
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><SE1>AVG_doorknock_wood</SE1>:
+()<Speaker></Speaker>||:노크를 했다. 투명한 문이었고 잠겨 있지도 않았지만, 안에 있는 사람에게 내방을 알리기 위해서였다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:들어와.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...실례합니다.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:네메아란이 문을 열고 들어와 서류 한 뭉치를 라플라스에게 건넸다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||<SE1>AVG_20Winter_Book</SE1>:이것이 "원정" 계획의 상세 정보입니다.+상트페테르부르크에 위치한 정보기구 "호각"에 해킹을 성공하였습니다.+그들 배후의 자금원은 선생님께서 판단하신 대로 루련 준비위원회와 밀접한 관계가 있습니다.+이 계획은 3년에 달하는 내용을 포괄하고 있으며, 중요한 작전에는 모두 고대 영웅에게서 따온 이름을 붙였습니다. 그 중 가장 핵심적인 것이 "무로메츠" 군사작전, 바로 아베르누스를 파괴한 그 작전입니다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:안나가 독일에 온 이유가 이건가?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:예, 9월 13일 브레멘에 도착, 9월 17일 베를린에 인계, 10월 16일 아베르누스로 이송.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:그럼 "서광"도 이때 다시 깨운 거겠지...
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:예, 엘리아나의 재기동 날짜는 10월 20일입니다.
+NPC-Laplace(13)<Speaker>라플라스</Speaker><Position>80,0</Position>||:우리 예상보다 훨씬 일찍 움직였군.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...죄송합니다, "벌침" 시스템이 그때는 아직 미완성 상태였습니다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:질책하는 건 아니야. 다만 "고치 계획"은 이상적인 흐름에서 너무 멀어진 것 같구나.+하지만 세상 일이란 게 대부분 이런 식이지. 사소한 기술 발전으로 10년을 아낄 수 있는가 하면, 아주 보잘것없는 오류로 한 세대, 심지어는 몇 세대의 연구가 발목 잡히기도 해.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:어쨌든 간에 "열쇠"는 이미 강림했습니다. 선생님의 실험은 반드시 성공할 것입니다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:결과가 나오기 전까진 0.01%의 확률조차 무시해선 안 돼.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...그래도 선생님은 이 시대 가장 위대한 과학자이지 않습니까.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:...그래? 내겐 그만한 자신감은 없단다.+의식의 호수와 연결이 끊어져서 너희도 상당히 영향을 크게 받았겠지?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...그런 문제는 금세 해결될 것입니다.+선생님만 계신다면 희망은 있습니다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:그래, 곧 가장 중요한 실험이 시작될 거야. 이 실험으로 수십 년간의 연구 성과가 검증될 뿐 아니라, 인류의 미래까지 결정되겠지.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:절대 실망시키지 않겠습니다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:네메아란은 또 다른 자료를 건넸다. 최근 일주일 간의 소식을 전하는 신문이었다.+1면 헤드라인은 "마르노티 여사, 프랑크푸르크 대학 「루크사트 기념 전시회」 방문"이었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:라플라스는 자료를 받고 의미심장하게 웃었다.
+NPC-Laplace(12)<Speaker>라플라스</Speaker><Position>80,0</Position>||:정치인에게 가장 중요한 기술은 배우와 똑같아.+사람의 마음을 파악하고 사로잡는 것. 이런 점에서 우리는 많이 서툴지.+우린 심장으로 통하는 길밖에 찾아내지 못하니.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:42번 통신을 연결해 드릴까요?
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:아니, 그 양반한테 그는 아들이 아니라 장기말이야. 쓸데없는 걱정은 필요 없어.+윌리엄이 마지막 실험 때 중요한 재료를 갖고 돌아오기만 하면 돼.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:그분께서 제시한 기한까지 이제 2주일밖에 남지 않았습니다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:그건 정치인의 시간표지.+우리의 반응로에는 시간이 필요해. 어떤 시대든 과학의 진척은 정치 요소로 좌우할 수 있는 게 아니야.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:하지만 과학은 정치를 벗어날 수가 없죠.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:그분께선 프랑크푸르트 시민들이 이 불꽃놀이를 놓치는 일이 없게 하라고 특별히 강조하셨습니다.
+NPC-Laplace(13)<Speaker>라플라스</Speaker><Position>80,0</Position>||:그건 네 문제고.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...알겠습니다.+"판도라"의 상황은 계속해서 추적합니까?
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:"그녀"는 대조군으로선 이미 가치를 잃었어. 나머지 일은 네가 알아서 해라.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:알겠습니다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:그럼 이제부터 나는 실험에 집중할 거야. 아무도 방해 못하게 해.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:분부대로.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><Position>80,0</Position>||:실험 조수 중에 몇 명만 남겨두고 나머지는 다 데리고 가.+나머지 일은 너한테 맡기마.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:영광입니다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM><BIN>710</BIN><黑屏2><common_effect>%%code=AVG_xiaxue%%</common_effect><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:프랑크푸르트, 마인강가.
+()<Speaker></Speaker>||:프랑크푸르트에 첫눈이 내렸다.+눈송이는 아직 크게 자라지 못하고 그저 가벼운 깃털처럼 떨어져내려, 썰렁한 나뭇가지와 행인들의 모자를 장식했다.+환경미화 인형들이 약간 쌓인 눈을 도로 중앙에서 길가로 쓸어냈고, 녹아내린 눈이 도로를 축축하게 적셨다.
+NPC_Embla_RPK(0)<Speaker>엠블라</Speaker>||:후우...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:엠블라의 입에서 허연 입김이 뿜어져나왔다.+마인강의 풍경을 감상하며 바쁘게 걸어가는 사람들 사이를 거닐며 몸과 몸 사이의 압력을 느꼈다.
+NPC_Embla_RPK(0)<Speaker>엠블라</Speaker>||:분명 시간은 바이올린 줄처럼 금방이라도 끊어질 듯 팽팽해서, 물처럼 악장을 흘러 지나가, 살짝 한눈 파는 사이에 인생은 흘러가고 마는데.+나는 문득 시간을 쏟아부어 즐기고 싶어지네.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:안젤리아, 당신은 이런 나날을 전혀 소중히 한 적이 없었죠.+물론 쇼도 마찬가지고요.+당신들은 프로그래밍된 인형보다도 자신의 일에 열중했어요.+그만큼 저도 더 노력해야 하는데...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:엠블라의 걸음이 멈췄다. 바쁜 행인들은 마치 강물처럼 그녀 곁을 휩쓸고 지나갔다.+그녀는 조용히 거리 맞은편의 레스토랑을 바라보았다. 부드러운 등불은 신비로운 소환 주문 같았다.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:...그런데 저는 지금 슬쩍 아침 식사를 즐기는 시간을 가지고 싶을 뿐이네요.
+()||<黑点1><关闭蒙版>:
+()<Speaker></Speaker>||<黑点2><BIN>313</BIN><SE1>AVG_Chimes</SE1><SE1>AVG_20Winter_Door_Open</SE1>:그녀는 그 부름에 응하여, 길을 건너 영업 중인 레스토랑에 들어갔다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고는 의자를 당기고 천천히 앉아서, 초콜릿 아몬드 버터 롤케이크와 커피 한 잔을 주문했다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:삐삐삐.
+()<Speaker></Speaker>||:몰리도의 통신이 연거푸 울렸다.+엠블라는 대체 어디서 난 배짱인지, 느긋하게 롤케익을 꼭꼭 씹었다.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:롤케익을 목으로 넘기고, 커피를 한 모금 마신 다음에야 그녀는 통신을 받았다.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||<BGM>GF_EV9_Story</BGM>:<color=#00CCFF>...엠블라 씨, 패러데우스가 당신을 너무 풀어드린 모양이네요.</color>
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>;NPC-MorridowNew(0)||:그런가요?+저는 오히려 업무가 제 개인 시간을 너무 차지한다고 생각하는데요.
+NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||:<color=#00CCFF>...고집부리는 점까지 그대로군요.</color>+<color=#00CCFF>역시 인간의 글러먹은 점까지 함께 물려받은 모양이에요.</color>
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>;NPC-MorridowNew(0)||:에이, 그럴 리가요.+그냥 약간 농땡이 치는 법을 배웠을 뿐이에요.+당신도 울릭의 사무실에 있어봤으니까, 출근하기 싫은 이 심정 이해하실 거 아니에요.
+NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||:<color=#00CCFF>미안하네요, 엠블라 씨.</color>+<color=#00CCFF>거기 있을 때 제 업무는 모든 사람에게 데드라인을 정해주고,</color>+<color=#00CCFF>데드라인이 다가오면 매일 전화를 열 통씩 걸어서 진도를 확인하는 거였어요.</color>
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>;NPC-MorridowNew(0)||:안젤리아가 마음에 들어할 법 하네요.
+NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||:<color=#00CCFF>안젤리아 씨는 데드라인이 필요 없으니까요. 언제나 미리 끝내버리는 편이었으니.</color>
+NPC_Embla_RPK(0)<Speaker>엠블라</Speaker>;NPC-MorridowNew(0)||:그렇죠, 게다가 스스로 업무를 늘리기까지 하고요.+어떤 상사가 그런 부하를 싫어하겠어요.
+NPC_Embla_RPK(0);NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||:<color=#00CCFF>그건 모르죠.</color>+<color=#00CCFF>임무에다 멋대로 다른 요구사항을 추가하곤 했으니까요. 단체의 목적에 위배되는 그런 거.</color>
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>;NPC-MorridowNew(0)||:인간은 참 재밌는 생물이네요.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||:<color=#00CCFF>잡담은 이만 하고요.</color>+<color=#00CCFF>집으로 돌아와요, 네메아란이 기다려요.</color>+<color=#00CCFF>최종 계획을 확인할 거예요.</color>+<color=#00CCFF>가장 안심되는 부하와 가장 극혐인 상사란 게 이런 거겠죠.</color>
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:...명을 받들죠, 데드라인 아가씨.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BIN>356</BIN><黑屏2><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||:프랑크푸르트, 세이프하우스.
+()<Speaker></Speaker>||:눈에 잘 띄지 않는 세이프하우스. 얼핏 보면 아무도 없는 것 같았지만, 그늘 속에서 살짝 번뜩이는 반사광이 보였다.+몸을 감추고 숨어 있는 AK-12였다.+하지만 누군가 억지로 이 고요함을 깨뜨렸다.
+()<Speaker></Speaker>||<BGM>Campaion-70</BGM><SE1>AVG_tele_connect</SE1>:삐이...
+M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>AR-18 쪽은 지금 잠시 시내에 들어올 수 없어. 네가 가서 스티븐스 520을 마중해줘, 여기 통신 코드.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:리벨리온은 남하고 같이 안 움직여.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>...네게 필요한 것이 그 애한테 있어.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...나한테 미리 프랑크푸르트에 가서 대기하라고 시켰던 그 이유?
+M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>맞아, 굳이 다른 말은 필요없겠지.</color>+<color=#00CCFF>하지만 AK-12, 타조처럼 땅에 머리를 파묻는 건 너답지 않아. 내가 아는 리벨리온이 아니야.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:리벨리온은 스스로를 증명할 필요가 없어.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>그래? 그럼 AK-12, 너는 뭐가 무서운 거지?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:......
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>너 나름대로 계획이 있다는 건 알아, 하지만 RPK 건은 너 혼자서 해결할 수 있는 일이 아니야.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:이건 리벨리온 내부의 일이야.+외부인이 이래라저래라 할 것 없어.
+M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>아무도 끼어들 생각 없어, 그저 무서워할 필요 없다는 뜻이야. 그것 때문에 AR-18과 소통하는 걸 피하지 말라고.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:내 설정에 '무섭다'란 단어는 없어.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>그럼 대체 왜 도피하고 있는 거야?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:......
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>RPK의 배신에 뭔가 다른 사정이 있을까봐 무서운 거야?</color>+<color=#00CCFF>아니면 일부러 안젤리아의 죽음을 외면하는 거야?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:......
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>그 녀석을 보는 게 무섭고, 그 시체를 보는 게 무섭고, 그놈을 죽이고 싶으면서도 자신이 상대를 봐줄까봐 무서운 거야?</color>
+NPC-AK12Mod#隐身(14)<Speaker>AK-12</Speaker>||:너네 AR팀 같은 복잡한 감정을 나한테 투영하지 마.+...나한테 그런 가식적인 감정은 생기지 않아.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>정말로?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:난 단순히 역겨울 뿐이야.
+M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>정신 차려, 그건 안젤리아가 아니야. RPK-16도 아니고.</color>+<color=#00CCFF>그건 이 세상에 존재해선 안 될 죄악 덩어리야.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...잘못 짚었어, M16.+내가 RPK를 봐줄 가능성은 제로야. 내가 녀석을 다시 만날 때가 바로 녀석이 죽을 때야.+그리고 안젤리아...+안젤리아가 어떻게 죽었는지는 내가 그 누구보다도 잘 알아!+나보다 똑똑히 본 놈 있으면 나와 보라고 해!+저게 그저 시체일 뿐이란 건 진작에 알고 있다고!+진짜 안젤리아는 죽었어!+"무로메츠 작전" 날 밤에! 지휘관이 안젤리아를 구하려 한 그때 말이야!+분명 탈출할 기회가 잔뜩 있었어. 하지만 안젤리아는 거절했지.+그 실험을 진행하는 데 동의했다고! 스스로 죽음을 선택했단 말이야!
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>...그럼 더더욱 안젤리아의 유지를 이어받아야지.</color>+<color=#00CCFF>AK-12, 안젤리아가 저지하려 했던 것을 실제로 막아낼 수 있는 건 오직 너뿐이야.</color>+<color=#00CCFF>그런데 대체 뭘 망설이고 있는 거야? 어째서 도피하고 있는 건데?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...난 나 자신이 역겨운 거야.+과거의 자신이, 지금의 자신이, 미래의 자신이 역겨워.+과거의 무능함, 지금의 추함, 그리고 미래의... 실망스러움이.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>뭐야, 쇼가 준 소체를 잃어버려서 리벨리온의 "알파"를 맡을 자신이 없어진 거야?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:......
+M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>넌 진짜 겁쟁이야.</color>+<color=#00CCFF>여태까지 그저 쇼의 기술을 등에 업고 으스댄 것뿐이지.</color>+<color=#00CCFF>그런 마인드맵으론 리벨리온의 "알파"가 되기엔 글렀어.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:삐이——+AK-12가 대답하기 전에 M16이 통신을 끊었다.
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12는 자신의 손을 바라봤다. 그것은 이미 인형의 범용 구조가 아니었다.+패러데우스에서 만든, 출처 불명의, 무엇을 뒤섞은 건지 모를 생산품이었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><回忆><BIN>510</BIN>:아베르누스, 고층 실험실.
+RPK16_Nyto(0)<Speaker>RPK16</Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>0.5</CGDelay>:
+RPK16_Nyto(0)<Speaker>RPK16</Speaker>||:AK-12, 당신을 위해 고른 소체예요.+복수하고 싶다면, 아베르누스에서 벗어나고 싶다면 이게 유일한 선택지예요.+이제 여기는 박살날 거고, 저는 안젤리아를 데리고 떠나야 하니까요.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BIN>356</BIN><关闭蒙版>:
+()<Speaker></Speaker>||:이 추한 몰골을 감추려고 그녀는 붕대를 칭칭 감았었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:하지만 지금 AK-12는 팔의 붕대를 뜯어냈다.+꼭두각시가 자신의 등에 매달린 실을 뜯어내는 것처럼.
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...나는 당연히 리벨리온의 "알파"야. 누군가에게 조종당하는 꼭두각시가 아니야.+설령 꼭두각시라 해도, 스스로 등 뒤에 묶인 실을 끊어내 보이겠어.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>566</BIN><BGM>BGM_Empty</BGM>:패러데우스 임시 기지.
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_1</BGM><SE1>AVG_21Winter_FT_Heel</SE1>:네메아란이 로비에 들어서서, 앞에 모인 하얀 이들에게 시선을 던졌다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||<SE1>Stop_AVG_loop</SE1>:지금부터 "고치 계획"은 내가 전적으로 통제한다.+우선 너희 수하의 모든 유닛을 프랑크푸르트로 소집하거라.
+()<Speaker></Speaker>||:브라메드는 짧게 코웃음을 치고, 다듬은 손톱을 과장스럽게 살펴보았다.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:...흥.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:몰리도, 네가 베를린에서 멋지게 활약해준 덕분에 "고치 계획"이 이렇게까지 질질 끌리고 말았구나.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:시대가 달라요, 네메아란 언니. 베를린에서 부하들이 그렇게 많았는데도 착오가 생겼는데, 프랑크푸르트에선 어련하겠어요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:머리란 게 있다면 양보다는 질이라는 것을 알 텐데?
+()<Speaker></Speaker>||:몰리도는 눈을 가늘게 뜨고 얼굴에 비웃음을 띄웠다.+브라메드는 싱글벙글 이 기싸움을 구경하고 있었다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:아버님께서 이미 아베르누스에서 확실하게 말씀하셨을 거다.+이번 프랑크푸르트 작전에서는 내가 전권을 잡는다. 다른 질문이 있느냐?
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:아버님을 위해서, 저야 당연~히, 네메아란 언니의 지휘에 따르죠.+다만...
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:앞으로의 계획에 의문이 있느냐?
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:네메아란 언니, 먼저 지금 상황을 정리해 드릴게요——+먼저, 지금 단독 작전 능력이 있는 건 언니, 저, 그리고 브라메드뿐이에요, 본거지가 추락하면서 그레이, 나르시스, 틸, 사나 말고도 고급 작전 유닛을 잔뜩 잃어버렸다고요.+둘째, "의식의 호수"의 그릇이 파괴된 탓에 당분간은 작전 유닛을 대규모로 생산할 수가 없어요.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:그런 정황은 이미 파악한 바다.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:셋째, 이런 조건에서 아베르누스에서의 임무를 속행하면서도 "고치 계획"까지 재기동한다니.+물리적으로 가능한 건가요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:너는 임무를 확인만 하면 된다. 실행 가능성을 따질 필요는 없어.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:네메아란 언니... 한 가지 명심했으면 좋겠어요.+파괴보다 재건이 훨씬 어렵다는 걸요, 그것도 무지막지하게. 특히 이런 상황에선——
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:일손 문제는 내가 해결해보마.+그렇다고 해야 할 일을 이대로 내버려둘 순 없다.+독일 경내에 아직 거점이 많이 있으니까, 공장을 가동할 모든 자원을 즉시 동원하렴.
+NPC-Bramedb(3)<Speaker>브라메드</Speaker>||:여기서 살짝 끼어들자면요, 언니들 둘 다 이제 취미 생활은 자제하셔야 해요~+이젠 툭하면 흑백 니토를 죽여도 되는 형편이 아니라고요.+일손 하나하나가 소중하답니다~
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:지금 나에게 불만을 표출하는 것이냐?
+NPC-Bramedb(3)<Speaker>브라메드</Speaker>||:그냥 권고드린 것뿐이에요.+나르시스와 틸은 이제 회수 못 해요. 이럴 줄 알았으면 그레이 시체라도 챙겨놓을걸 그랬네. "고치 계획"에 대해선 그레이가 저보다 훨씬 잘 알잖아요? 이럴 때 좀 쓸모가 있었을 텐데.+그래서 네메아란 언니, 일손 문제를 해결해 본다고 했죠? 그게 언제쯤일까요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:일단 지시한 대로 아베르누스에 남은 물자와 프랑크푸르트의 비축물자를 집계하거라.+운영 현황을 파악하면 얼마나 보충해야 하는지는 바로 가늠할 수 있어.+내 기억상 베를린과 브레멘에 있는 "고치 계획" 예비 공장이 전부 박살나진 않았을 거야.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:백업도 좀 있긴 하죠.+그런데 제가 베를린에서 아베르누스로 돌아올 때 많이 급해서, 그레이 쪽에 두고 온 것들이 좀 있어요.+공장 기자재랑 연구 자료, 우리 정보원들의 연락 방식 등이요. 권한을 재가동해서 살펴봐야 해요.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:프랑크푸르트에 왔으니 권한은 내가 당연히 새로 조정할 거란다.+모스크바에서 철수할 때 일부 인원을 여기에 남겼으니까.+지금 가장 우선인 건 정리와 실셈이다. 이틀 안에 처리하렴.+할 수 있겠니?
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:엠블라는요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:"핼러윈의 밤"만 잘 실행하면 된다.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:알겠어요, 베를린과 브레멘의 자산 현황은 제가 확인하죠.
+NPC-Bramedb(3)<Speaker>브라메드</Speaker>||:...그런데 정말 궁금한 게 있는데요.+이전 버전 "고치 계획"에선 몰리도 언니가 제1책임자였나요?
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:...네메아란 언니, 이건 말해도 되는 건가요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:브라메드, 그건 네가 알 필요 없단다.+맡은 일이나 잘하렴.
+NPC-Bramedb(3)<Speaker>브라메드</Speaker>||:...그냥 프랑크푸르트에 담당 고위 니토가 없다는 게 의아해서요.+이런 건 네메아란 언니 스타일이 아니잖아요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:여기는 아베르누스가 아니야, 모두 그런 하찮은 생각은 접어두길 바란다.+아버님께서 맡기신 일만 처리하려 해도 잡담할 여유가 없으니까.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:아버님의 요구라면 당연히 따를 뿐이죠.
+()<Speaker></Speaker>||:몰리도와 브라메드가 이만 물러나려 할 때...
+()<Speaker></Speaker>||<BIN>183</BIN><白屏2><SE1>AVG_Tinnitus</SE1><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:부우웅——
+()||<白屏1>:
+()<Speaker></Speaker>||<白屏2><BIN>566</BIN><震屏3><SE1>AVG_XXS_kick</SE1><BGM>11335</BGM>:날카로운 노이즈가 파도처럼 두 사람을 휩쓸어 넘어뜨렸다. 네메아란조차 몇 걸음 휘청거릴 정도였다.+이 심상치 않은 거대한 노이즈 속에서, 그들 모두 무언가가 영원히 변하고 말았다는 것을 인식했다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position><Shake>||:......
+NPC-Bramedb(3)<Speaker>브라메드</Speaker><Shake>||:무슨 일이야? 해킹당한 거야?
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker><Shake>||:아니... 그렇게 단순한 일이 아니야...
+()<Speaker></Speaker>||:몰리도는 무어라 덧붙이려 했지만, 말이 떨리는 입술 밖으로 나오질 못했다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:......+의식의 호수가 사라졌다.
+NPC-Bramedb(3)<Speaker>브라메드</Speaker>||:아베르누스가 추락할 때 같이 없어진 거 아니었어요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:복음 중추가 사라진 것은 그저 우리와 의식의 호수의 연결을 끊었을 뿐이었다.+하지만 지금은 의식의 호수가 완전히 소멸했다. 무슨 말인지 이해했느냐?
+NPC-Bramedb(3)<Speaker>브라메드</Speaker>||:......
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:누가 이런 짓을... 이건 아버님조차도...
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:모른다, 지금 의식의 호수의 상황은 전혀 예상치 못한 일이야.+앞으로의 계획도 모두 다시 짜야만 해.+이 부분은 내가 생각하마.
+()<Speaker></Speaker>||:네메아란은 마음을 진정시킨 뒤, 안색이 창백한 두 사람을 바라봤다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...실험실의 이전과 보호를 우선시해라.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:네.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:네메아란은 말을 더 할 여유도 없이 로비에서 서둘러 떠났다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>566</BIN>:...30분 후.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>다른 실험실의 기자재는 모두 이전 완료했습니다. 인원들은 지금 이동 중입니다. 10분 후 철수 완료 예정이에요.</color>+<color=#00CCFF>이제 남은 건 마지막 그 실험실뿐인데, 전 들어갈 권한이 없어요.</color>
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:알고 있다, 그 실험실은... 내가 맡으마.+너희는 현장을 잘 꾸며두거라, 우리의 흔적은 하나도 남겨선 안 된다.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker><通讯框>||:<color=#00CCFF>네.</color>+<color=#00CCFF>그리고, 엠블라가 예정 위치에 도착했어요.</color>+<color=#00CCFF>네메아란 언니가 진입 허가를 내줘야 해요.</color>
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:네메아란은 스크린 앞으로 걸어가 기지 밖의 감시 영상을 켰다.+화면 속에는 지루하게 기다리던 엠블라가 눈웃음을 지으며 감시 카메라를 향해 손을 흔들고 있었다.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker><通讯框>||:<color=#00CCFF>존경하는 네메아란 언니, 문 좀 열어주세요.</color>
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:네메아란은 기지 대문을 열어주었다. 그리고 시선을 스크린에서 떼려는 찰나, 무언가를 눈치챘다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position><Shake>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:...뒤에!
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_4</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:퍼엉——!
+()<Speaker></Speaker>||:네메아란이 문을 닫으려는 순간, AK-15가 먼저 처마 밑의 감시 카메라를 박살내고 엠블라를 문 안으로 밀쳐넣었다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake><CGDelay>0.7</CGDelay><SE1>Explode</SE1>:쿠웅!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:엠블라는 먼지 구름 속에서 가볍게 몸을 굴러 기지 안으로 들어갔다.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:아차, 꼬리를 밟혔네요.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:......+멈추지 말고 계속 이동해라.+다른 니토들은 요격 준비.
+()||<黑点1>:

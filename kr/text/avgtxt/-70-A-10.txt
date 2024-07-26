@@ -1,1 +1,244 @@
-()||<BIN>10</BIN>:Test待替换 -70-A-10 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>Campaion-58-3</BGM><BIN>566</BIN><黑屏2>:...패러데우스 임시 기지.
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:푸슉.+칼을 니토의 시체에서 뽑아내고, AK-15는 주변을 둘러보았다. 더는 남아있는 적이 없는 것 같았다.+격전이 지나간 뒤, 엉망이 된 방은 조용해졌다.
+()<Speaker></Speaker>||:AK-15는 비수를 쥐고 경계를 늦추지 않았다.+그녀가 돌입해와서 적을 모조리 청소할 때까지 고위 니토를 하나도 마주치지 못했다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||:AK-15는 비수를 칼집에 꽂고, 총을 들고서 더 깊은 곳으로 계속 움직였다.+고요한 기지 내부는 어디서 매복이 튀어나올지 알 수 없었다.+그런데 이곳은 원래부터 패러데우스 기지였다기보다는 기존 건물을 임시 개조한 것에 가까워 보였다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑点2><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=2%%duration=0%%</bg_move>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>276</BIN><SE1>AVG_Door_Hit</SE1><震屏3>:퍼엉!
+()<Speaker></Speaker>||<SE1>Select</SE1>:AK-15는 문을 박차고 열어 빠르게 방 안으로 돌입한 뒤 좌우를 경계했다.
+()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.4%%pivot_y=0.5%%scale=2%%duration=0.4%%</bg_move><CGDelay>0.1</CGDelay>:
+()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.6%%pivot_y=0.5%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.4</CGDelay>:
+()||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=1%%</bg_move><CGDelay>0.1</CGDelay>:
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||:여기가 마지막 방인 듯했지만 역시 아무도 없었다.+바닥에는 적 대신 피투성이 인간 시체들이 잔뜩 널브러져 있었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15는 총구를 내리고 쪼그려 앉아 한바탕 수색을 펼쳤다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||:사망한 지 한 시간도 넘지 않았다.+패러데우스가 자기 기지 안에서 학살을 벌인 건가?+무슨 이유로?
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1>:AK-15가 눈살을 찌푸리고 생각하던 사이에 문 밖에서 날카로운 사이렌 소리가 들렸다.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:AK-15는 신속하게 시야가 탁 트인 위치로 이동해 바깥 상황을 살피려 했다.
+()<Speaker>？？？</Speaker>||:용의자들은 들어라! 너희는 이미 포위됐다!+무기를 버리고 항복해라!
+AK15MOD(5)<Speaker>AK-15</Speaker>||:칫.
+()<Speaker></Speaker>||:AK-15는 지금 자신의 처지를 깨달았다——+버려진 기지, 잔뜩 나뒹굴고 있는 니토와 인간 시체들, 거기서 유일하게 살아있는 전술인형...
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||:창밖에 경광등이 번쩍였다. 경찰은 보디캠을 켜고 헤드셋을 잡은 채 뭐라뭐라 말하고 있었다. AK-15는 거기에 귀를 기울였다.
+()<Speaker>프랑크푸르트 경찰</Speaker>||<SE1>AVG_tele_disconnect</SE1>:현장에 도착했다. 그래, 회색 건물...+문 여는 사람은 없다... 인형도 안 보이고... 정말 인형이 인간을 습격한 사건이라 확신하나?+...대체 어떻게 된 일이야?
+()<Speaker>경찰 인형</Speaker>||:경관님, 현장에 생명체 반응 감지되지 않습니다! 아니, 신원 미상의 인형 신호를 하나 포착했습니다!
+()<Speaker>프랑크푸르트 경찰</Speaker>||:모든 출구를 봉쇄해!
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>Select</SE1>:경찰과 경찰 인형들은 각자 총을 뽑아 빠르게 건물을 포위했다.
+AK15MOD(6)<Speaker>AK-15</Speaker>||:......!
+()<Speaker></Speaker>||:건물 밖에서 경찰 인형이 진압 방패를 들고 다가왔다.
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:쿠웅! 이어서 도어 브리칭 소리가 들렸다.+프랑크푸르트에서 신분이 노출되어선 안 된다, AK-12는 그렇게 당부했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM><SE1>AVG_Cloak_Whoosh</SE1><SE1>AVG_keyboardtype_sci</SE1>:늑대의 눈으로 AK-15는 빠르게 포위망의 빈틈을 찾아냈고, 어둠에 모습을 감춰 탈출할 수 있었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>732</BIN><SE1>AVG_20_Winter_TVnews_Cut</SE1>:
+()<Speaker>모스크바 방송</Speaker>||:<color=#00CCFF>...최신 뉴스를 보도해 드리겠습니다.</color>+<color=#00CCFF>얼마 전 발생한 EN440-13M 미래호 열차 사고의 주요 원인은 여전히 미궁에 빠져 있습니다. 우리나라 정부는 독일의 관련 운영회사에 제3자 검증을 요구하며, 하루빨리 피해자와 유가족에게 답변을 내놓을 것을 촉구했습니다.</color>+<color=#00CCFF>병원을 찾은 위문단으로부터 유가족 인터뷰를 전해드립니다.——</color>
+()<Speaker>우는 여성</Speaker>||:<color=#00CCFF>휴가로 베를린에 가던 중이었어요. 원래는 비행기를 탈 예정이었는데...</color>+<color=#00CCFF>그 회사 영업사원이 공항 문앞에서 애들 아빠 길을 막고 전단지를 쑤셔넣었어요.</color>+<color=#00CCFF>남편에 애들까지 다 행방불명되고... 지금 제 속이 어떨지 상상이 되세요?</color>+<color=#00CCFF>시체라도 찾겠다는데 뭐가 이렇게 오래 걸리냐고요!</color>
+()<Speaker>분노한 남성</Speaker>||:<color=#00CCFF>처음에 분명 표값에 보험료도 포함돼 있다고 했거든요. 근데 지금 계속 핑계를 대면서 책임을 떠넘기고 있어요.</color>+<color=#00CCFF>독일에서 사람이 실종됐는데, 사건 발생 위치가 독일이 아니라는 얘기만 계속 하는 거예요!</color>+<color=#00CCFF>저 보고 증거를 대라는데, 아니 그걸 제가 어떻게 댑니까? 정부에서 뭐 도와주기라도 한대요?</color>
+()<Speaker></Speaker>||:......
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_tele_disconnect</SE1><common_effect>%%code=202407_TVOff%%</common_effect>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>479</BIN><BGM>GF_EV9_Story</BGM><关闭蒙版>:뉴스 보도 화면이 스크린에서 사라지고, 초췌한 두 얼굴이 마주보고 앉아 있었다.
+()<Speaker>운영사 매니저</Speaker>||:...오늘까지 대책 낼 수 있겠어?
+()<Speaker>운영사 홍보부 부장</Speaker>||:이미 입장 발표 골든 아워인 48시간이 지나버렸는데요.
+()<Speaker>운영사 매니저</Speaker>||:말도 마, 나도 뉴스에 뜨고 나서야 알았다고.+시간 다 지나고 나서야 자료가 오는데 뭐 방법이 있나. 그래서, 이제 어떻게 하면 좋을지 생각해 놨어?
+()<Speaker>운영사 홍보부 부장</Speaker>||:...입 닫고 있는 건 불가능하겠죠, 국제적 사건이니까.+사과는 당연히 하는 건데, 책임 소재가 문젭니다.+이건 우리 회사 의도대로 통제할 수 있는 레벨이 아닙니다.
+()<Speaker>운영사 매니저</Speaker>||:알아, 하지만 위에서 아직 아무 지시도 안 내렸잖아.+어찌됐든 우리가 책임을 피할 순 없어.+하지만 장사를 접을 순 없으니 노선 자체는 계속 운영해야 해. 이번 사건을 어떻게 수습하느냐가 우리 내년 경쟁 입찰에 영향을 줄 거라고.
+()<Speaker>운영사 홍보부 부장</Speaker>||:사고 피해자에겐 깊은 유감을 표하면서 책임에는 완곡하게 선을 긋는 게 어떨까요? 습격한 보르 브 쟈코네는 소련 놈들이잖아요.+앞으로 우리는 승객 신원을 더 엄격하게 검사할 것이며, 신소련 당국이 더 정확한 국민 인증 시스템을 공유하여 모두의 생명과 재산을 지켜주길 요청한다...+...배상 초안은 대충 이렇게, 어떻습니까?
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:스윽, 종이 한 장이 매니저 앞으로 디밀어졌다.
+()<Speaker></Speaker>||<narrator>:10월 20일 새벽에 발생한 EN440-13M 미래호 폭발 사고에 관하여 깊은 사과의 말씀을 드립니다.+저희 회사는 사후 조치와 배상에 최선을 다할 것을 약속드립니다.+구조 및 대피 과정에서 자의로 현장을 벗어나신 승객님께서도 후유증 발생 시 저희에게 연락드리면 상응한 의료비를 부담하겠습니다. 다시 한번 진심으로 사과드립니다.
+()<Speaker>운영사 매니저</Speaker>||:야, 이건 안 돼. 무슨 만성 질환에 걸려놓고 오염지대 공기를 마신 탓이라 우길 수도 있잖아. 리스크가 너무 커.
+()<Speaker>운영사 홍보부 부장</Speaker>||:그럼 배상 얘기는 꺼내지 말고, 그냥 우리 권한 상 우리나라 영토 밖의 노선까지 책임질 순 없다고 할까요?+우리나라 영토 내에서 치른 안전 검사 결과는 이상 없었다고 강조하고.
+()<Speaker>운영사 매니저</Speaker>||:안 되지! 우리가 무능하다 인정하는 꼴이잖아!+다른 국제 노선에 영향이 갈 거라고.
+()<Speaker>운영사 홍보부 부장</Speaker>||:그럼 전부 불가항력이었다고 하면...?
+()<Speaker>운영사 매니저</Speaker>||:돈 좀 깨지고 말 걸 굳이 굳이 그렇게 모가지가 날아가고 싶니?
+()<Speaker>운영사 홍보부 부장</Speaker>||:아 그럼 어떻게 써요!?
+()<Speaker>운영사 매니저</Speaker>||:가만 있어봐... 내가 고민해 볼게.+우리 하청 준 것 중에 소련 회사한테 준 거 있어?
+()<Speaker>운영사 홍보부 부장</Speaker>||:있습니다. 열차칸 유리랑 핸들요.
+()<Speaker>운영사 매니저</Speaker>||:옳거니, 그럼 방호 유리 문제라고 하자. 사고 원인을 조사해 보니까 유리에 품질 문제를 발견했다고 해.+앞으로 이런 문제를 근절하기 위해 품질검사 기준을 다시 정할 거고 깊이 사과드린다고, 그리고 대충 어중간한 보상 기준을 제시해.
+()<Speaker>운영사 홍보부 부장</Speaker>||:알겠습니다.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:홍보부 부장은 시커먼 눈두덩이를 비비고 다시 키보드를 두드렸다.
+()<Speaker>운영사 매니저</Speaker>||:요지는, 미래호는 절대 안전하고, 양측 정부도 최선을 다했다.+문제가 발생한 건 다 소련 회사 때문이고, 우리 책임은 품질관리를 엄격하게 하지 못한 점뿐이다. 이해했어?
+()<Speaker>운영사 홍보부 부장</Speaker>||:넵. 그럼 한번 검토를...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:쿠웅!
+()<Speaker></Speaker>||:문이 거칠게 열리며 검은 옷을 입은 남성들이 몰려들었다.
+NPC-Bodyguard1(0)<Speaker>검은 옷</Speaker>||<BGM>GF_21winter_battle_1</BGM>:동작 그만! 움직이지 마! 손 들어!
+()<Speaker>운영사 매니저</Speaker>||:...당신들 누구야!?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:가장 앞에 선 사람이 신분증을 꺼냈다.
+NPC-Bodyguard1(0)<Speaker>검은 옷</Speaker>||:경찰입니다.+회사 직원들 전부 같이 가주셔야겠습니다. 자료 및 인형 기억도 전부 복사해 가겠습니다.
+()<Speaker>운영사 매니저</Speaker>||:이게 다 뭐야?!+너네 지금 우리 사장님이 누군 줄 알고 이래!? 통일사회당에서 끗발 좀 날리는...
+NPC-Bodyguard1(0)<Speaker>검은 옷</Speaker>||:두 분, 수사에 협조 바랍니다. 머리 위에 손 하시고 천천히 문 밖으로 나가십시오.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:들이닥친 검은 옷들은 빠르게 사무실을 완전히 통제했다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:따라 들어온 인형들은 빠르게 자료를 포장하고 스캔하여, 열차 노선 승객 자료와 감시 녹화 영상까지 전부 가져갔다.
+NPC-Bodyguard1(0)<Speaker>검은 옷</Speaker>||:......
+()<Speaker></Speaker>||:검은 옷 중 한 명이, 방금 두 사람이 머리를 쥐어짜던 테이블로 다가갔다. 테이블 위엔 열차 관련 자료가 두껍게 쌓여있었다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:그는 승객 명단을 집었다.
+()<Speaker></Speaker>||<narrator>:좌석 번호 F02-A02, 남성, 32세, 일등석, 일부 잔해 발견.+......+좌석 번호 F15-E56, 남성, 21세, 이등석, 생존 확인.+좌석 번호 F17-E57, 여성, 19세, 이등석, 일부 잔해 발견.+......
+()||<BGM>BGM_Empty</BGM><黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<回忆><黑屏2><BIN>97</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM><SE1>AVG_20Winter_Drink_Tea</SE1>:인스턴트 커피의 향기가 신경을 자극했다. 기억 속의 K는 아직 착해빠진 면상을 달고 있었다.
+NPC-Keven(6)<Speaker>J</Speaker>||:...K 선배.
+NPC-Keven(6);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:응?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:골칫거리가 하나 있는데... 앗, 내 문제가 아니라...+어느 친구가 요즘 빡센 고민이 하나 있다고 해서...
+NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:그래? 한 번 말해봐.
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:그 친구가 최근 꿈에도 그리던 직장에 취업했는데...+그런데 걔 멘토, 아니, 걔 상사가...
+NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:그 친구 상사가 뭐?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:...그 상사가 엄청 잘해준대...+같이 식당 가서 급식도 받아주고, 회의실 위치도 가르쳐주고, 자기 영수증도 걔한테 주고...
+NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:그래서 뭐가 문제인데?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:너무 잘해주는 게 문제야...
+NPC-Keven(7);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:너무 잘해준다니?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:걔 상사는 직장에선 잔혹하고 차가운 여자라고 소문이 났거든.+근데 이제 막 졸업한 걔한텐 그렇게 친절하게 대해주는 건 이상하잖아?+심지어 달마다 한 번씩 밥도 사줘.
+NPC-Keven(7);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:응, 그래서?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(4)<Position>0,70</Position>||:그 친구가 약간 걱정하는 게... 직장 내 연애할 생각은 없지만, 그 상사랑 서먹해지는 것도 싫어서...
+NPC-Keven(10);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:아하... 이해했어...
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Jason(4)<Position>0,70</Position>||:무슨 이야기인지 이해했어, K 선배?
+NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:Q가 너 좋아하는 거 같다 이거지?
+NPC-Keven(9)<Speaker>J</Speaker><Shake>||:아이잇!!!
+NPC-Keven(9)<Speaker>J</Speaker>||:<size=25>K 선배! 소리 좀 줄여! Q 씨도 체면이란 게 있잖아, 그냥 평화적으로 해결하고 싶다고...</size>
+NPC-Keven(13);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:확실히 이 소문이 퍼지면 그 사람 명성에 금이 가겠지.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:Q 씨는 엄청 좋은 사람이니까 상처 주고 싶지 않아...
+NPC-Keven(7);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:Q한테 상처 주지 않으면서 완곡하게 거절하고 싶다?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:응...
+NPC-Keven(7);NPC-Jason(3)<Speaker>K</Speaker><Position>0,70</Position>||:그건 간단하지. 우린 요원이야, 언제나 목숨 걸린 임무를 맡으니까 무슨 일이든 속전속결해야 해.+그러니까, 직접 마주보고 말하는 거야.
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(3)||:너무 돌직구 아닐까...
+NPC-Keven(10);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:전혀. Q는 굳센 여자야, 널 분명 이해해줄 거고 앞으로도 너한테 잘해줄 거야.+하지만 우선은 네 생각을 솔직하게 밝혀야 해.+네가 그 호감을 어떻게 눈치챘는지부터 말이야.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(4)||:음... 일리가 있네...
+NPC-Keven(7);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:15분 뒤에 Q가 회의하러 여기 올 거야.+그 사람 성격상 정시보다 일찍 오겠지. 회의 기다리는 동안 확실하게 이야기해.
+NPC-Keven(7)<Speaker>J</Speaker>||:...응!+고마워, K 선배.
+NPC-Jason(3)<Speaker>K</Speaker><Position>0,70</Position>||:천만에.
+NPC-Keven(7)<Speaker>J</Speaker>||:그럼 들어갈게...
+()<Speaker>J</Speaker>||:<color=#FF0000>안 돼... 들어가면 안 돼...</color>
+()<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Scene_Transfer</SE1>:<size=50><color=#FF0000>스테에에에이!!!!</color></size>
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+NPC-Keven(9)<Speaker>J</Speaker><Shake>||<SE1>AVG_Cloak_Whoosh</SE1><关闭蒙版><黑点2><BIN>417</BIN>:<size=50>흐억!!!</size>
+()<Speaker></Speaker>||:J는 악몽에서 깨어나 눈을 부릅떴다.+회의실 안의 사람들이 모두 그에게 고개를 돌렸다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><黑点2>:프랑크푸르트, 슈타지 본부.
+PPQ(0)<Speaker>브리짓</Speaker>||:J 요원, 남들 일하는 앞에서 자는 것만 해도 엄청 실례인데...+어떻게 잠꼬대까지 합니까?
+()<Speaker></Speaker>||:J는 사무실에서 자료를 정리하고 있는 아마리스, 스털링과 브리짓, 그리고 한 구석에서 심드렁하게 커피를 마시는 Q를 바라봤다.
+()<Speaker></Speaker>||:방금 악몽의 근원을 잘 알고 있는 J는, 아무 일도 없었다는 듯 책상에 놓인 자료 페이지를 건성건성 넘겼다.
+NPC-Keven(6)<Speaker>J</Speaker>||<SE1>AVG_20Winter_Book</SE1>:「미래호 식당차 경영권 위탁 방안」... 대륙간 열차에서 도시락 파는 게 이렇게 짭짤한 장사였어?+근데 이게 패러데우스랑 무슨 상관이지?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...미안, 그건 내가 보려던 거야. 너는 밑에 있는 그거.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:손 안의 서류가 바꿔치기 당했다.
+Sterling(0)<Speaker>스털링</Speaker>||:이건 그 운영사의 책임자, 승무원, 바텐더 등 직원들의 서명이 들어간 진술서다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:J는 빠르게 훑어보았다.
+NPC-Keven(6)<Speaker>J</Speaker>||:바텐더와 승무원의 공통된 진술로, 열차에선 비정기적으로 암시장 거래가 이루어진다. 하지만 자세한 거래 내용은 그들도 모른다, 그저 암시장 호스트가 통이 아주 크다는 것만 알고 있다.+그래서 이렇게 오래 숨기고 다닐 수 있었구나.
+PPQ(0)<Speaker>브리짓</Speaker>||:하지만 사고가 난 이 열차에선 암시장 거래가 중단됐습니다. 보르 브 쟈코네의 습격으로요.+이거 좀 의심스럽네요... 시기가 너무 공교로워요.
+Sterling(0)<Speaker>스털링</Speaker>||:신소련 민속에 대해 조금만 알면 전혀 다른 결론을 낼 거다.+신소련의 보르 브 쟈코네에게 강도질은 숨쉬는 것과 다를 바 없는 행위야.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:암시장 거래 정보는 이것뿐이야?
+NPC-Keven(6)<Speaker>J</Speaker>||:초동 조사 보고에선, 암시장 거래 정보가 모두 한 인형의 마인드맵에 저장되어 있다고 해. 그런데 당시 인형을 회수한 건 그리폰의 지휘관이었지.+그쪽에서 관련 인형 정보 제공했어?
+Sterling(0)<Speaker>스털링</Speaker>||:...있다. 허나 보내 준 것 모두 일반 인형의 애매모호한 정보뿐이다.
+Sterling(0)<Speaker>스털링</Speaker>||:예를 들어 이거. 매기 폰지, 직업은 바텐더.+캐서린 폰지, 직업은 부동산 중개인.+엘마 흄, 직업은 프리랜서 작가.
+NPC-Keven(6)<Speaker>J</Speaker>||:......+이딴 건 아예 주지를 말든가!
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:스털링은 그중 한 파일을 복사해 자리에 있는 모두에게 전송했다.
+NPC-Keven(6)<Speaker>J</Speaker>||:뭐야 이게? 거래 장부랑 수익 분배 명세서?
+NPC-Keven(9)<Speaker>J</Speaker>||:아니, 승무원도 여기서 사르디스 골드를 30온스 받아갔네.
+Sterling(0)<Speaker>스털링</Speaker>||:이건 암시장 거래 목록이다.+...「파우스트」 한 권에 20만 사르디스 골드는 너무 어처구니 없지 않나?
+NPC-Keven(10)<Speaker>J</Speaker>||:...너 예술품이 돈세탁계의 제왕이라는 걸 모르는구나.
+PPQ(0)<Speaker>브리짓</Speaker>||:아하, 그렇군요! 그럼 이거는요?+「인류 지성 연구(제17판)」, 이건 왜 이렇게 비싸죠?
+NPC-Keven(10)<Speaker>J</Speaker>||:이것도 돈세탁인가 보지 뭐.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_File_Put</SE1>:J는 리스트를 대충 훑고서는 툭 내던졌다. 아마리스가 그걸 다시 주워 복잡한 표정을 지었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...이 책...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:줄곧 한 마디도 안 하던 Q가 갑자기 커피잔을 내려놓고 일어섰다.
+NPC-maya(0)<Speaker>Q</Speaker>||:이 리스트는 남겨둬, 나머지는 제12부 정보분석 평가 센터에 맡겨.+J와 아마리스만 남고 나머지는 나가.
+Sterling(0)<Speaker>스털링</Speaker>||:알았다!
+PPQ(0)<Speaker>브리짓</Speaker>||:바로 전달하겠습니다!
+()<Speaker></Speaker>||<CGDelay>0.8</CGDelay><SE1>AVG_Door_Open_Close</SE1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:두 인형이 문을 닫고 떠나고, Q는 J와 아마리스 맞은편에 앉았다.
+NPC-maya(0)<Speaker>Q</Speaker>||:아마리스, 방금 말하려던 거 계속해봐.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:...내 기억이 틀리지 않았다면, "NGAD" 프로젝트에서 "서광"을 탄생시킨 참고 자료에 바로 이 책이 있었어.+하지만 자세한 내용은 몰라.+그때는 「인류 지성 연구(제16판)」이었던 걸로 기억해.
+NPC-maya(0)<Speaker>Q</Speaker>||:좋아, 아마리스, 너의 오늘 임무는 이걸로 끝이다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:응.
+()<Speaker></Speaker>||<CGDelay>0.8</CGDelay><SE1>AVG_Door_Open_Close</SE1>:
+()<Speaker></Speaker>||:아마리스도 회의실에서 나갔다.
+NPC-maya(0)<Speaker>Q</Speaker>||:이제 왜 우리가 신소련을 도와 이 임무를 맡았는지, 그리고 왜 저 인형을 슈타지에 들였는지 알겠지?
+NPC-Keven(6)<Speaker>J</Speaker>||:..."서광"과 사형수, 쇼와 흄, 지휘관 쪽의 기술...+전부 어느 정도 연관이 있다.+그런데 그게 우리랑 무슨 상관인데요?
+NPC-maya(0)<Speaker>Q</Speaker>||:...멘토로서 몇 가지 더 전수해 주지.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q는 두 사람 사이에 쌓인 자료를 전부 한 구석으로 치웠다.
+NPC-maya(0)<Speaker>Q</Speaker>||:1892년, 독일의 기술자였던 디젤은 밀가루 공장 분진폭발 사건에서 아이디어를 얻어, 실린더에 빨아들인 공기를 고도 압축해서 연료의 발화점보다 높은 온도를 만든 다음, 압축 공기로 연료를 실린더에 불어넣어 점화했지.+1897년 그는 압축점화식 내연 기관 개발에 성공했고, 이는 내연기관의 발전에 새로운 이정표가 됐어.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:...네네, 내연기관, 기차 엔진부터 이야기하게요?
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:압축점화식 내연기관은 전세계 중공업 업계의 주목을 받았고, 훗날 발명자의 이름을 따서 디젤 엔진이라 불리게 됐지.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:......
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:1898년 디젤 엔진은 처음으로 고정식 발전기에 사용되었고, 1903년엔 화물선에, 1904년엔 군함에, 1913년엔 자동차에 탑재되었어...+그리고 제1차 세계 대전은 내연기관 전쟁이라고도 불리지.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:……
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:방금 과학 기술이 우리하고 무슨 상관이냐고 물었지.+바로 이런 관계야.+1897년에 디젤이 내연기관을 개량할 때는 설마 자신의 발명이 얌전한 열차 엔진뿐만 아니라 전쟁에 사용될 거라곤 상상하지도 못했겠지. 
+NPC-maya(0)<Speaker>Q</Speaker>||:3차 대전이 끝난 지 이제야 10년 조금 넘었어. 4차 세계 대전은 무슨 전쟁일 것 같아?
+NPC-Keven(7)<Speaker>J</Speaker>||:......+인형 이야기군요.
+NPC-maya(0)<Speaker>Q</Speaker>||:나도 가끔은 윗사람들한테 아예 과학자들을 모조리 잡아들이라고 건의하고 싶어져.
+NPC-Keven(7)<Speaker>J</Speaker>||:......
+NPC-maya(1)<Speaker>Q</Speaker>||<BGM>BGM_Empty</BGM>:농담이야.
+NPC-Keven(7)<Speaker>J</Speaker>||:전혀 안 웃겨요.+그 이야기는 뭐하러 하는데요?+우리가 언제부터 이렇게 수다 떨 정도로 친했다고.
+NPC-Keven(7);NPC-maya(2)<Speaker>Q</Speaker>||:지휘관한테서 좀 떨어지라고 하는 말이야.+우리는 각자 입장이 있어.+멘토로서 멘티에게 마지막으로 충고하는 거야.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(2)||:......+왜 그렇게 친절하게 충고해주는데요?
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker>||:지금은 민감한 시기니까, 너의 개인 문제가 슈타지 전체 문제로 격상되는 건 원하지 않아.+내무부가 바로 그렇게 권세를 잃었어.
+NPC-Keven(7)<Speaker>J</Speaker>||:...로미는 그 틈에 한 자리 꿰찼고요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:경멸 어린 얼굴인 J를 보면서 Q는 그저 미소 지었다.
+NPC-maya(2)<Speaker>Q</Speaker>||:너는 아직 직장이 있고, 내무부의 마흔 살 먹은 보직해임자는 집에서 실업급여나 타먹게 된 이유가 바로 그거야.
+NPC-Keven(7)<Speaker>J</Speaker>||:......
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker>모스크바 방송</Speaker>||<黑点2><SE1>AVG_20_Winter_TVnews_Cut</SE1><BIN>733</BIN>:<color=#00CCFF>...긴급 속보 전해드립니다.</color>+<color=#00CCFF>모스크바 북부 호브리노에 위치한 호블린 병원에 갑자기 화재가 발생하여 현지 소방대가 긴급 출동하였습니다.</color>+<color=#00CCFF>조사 결과 화재는 병원 지하 영안실에서 시작되었으며, 안치된 시신이 다수 훼손되었다고 합니다.</color>+<color=#00CCFF>또한 병원 측과 경찰이 현장을 점검하던 중, 몇 년 동안 실종 상태였던 서맨사 쇼 박사의 시신이 우연히 발견되었습니다.</color>+<color=#00CCFF>현재 경찰이 해당 사건을 조사 중에 있습니다.</color>
+()||<黑点1>:
+()<Speaker>민주독일 방송</Speaker>||<黑点2><BIN>734</BIN>:<color=#00CCFF>DDR2 채널 취재 결과, 모스크바 북부 호블린 병원에서 화재가 발생하여, 영안실의 시신이 다수 훼손되었습니다.</color>+<color=#00CCFF>또한 모스크바 경찰은 몇 년 동안 실종 상태였던 서맨사 쇼 박사의 시신을 우연히 발견했다고 발표했습니다.</color>+<color=#00CCFF>서맨사 쇼 박사는 유명한 신소련 인형 과학자로서, 100개에 달하는 특허를 보유할 정도로 인형 기술 발전에 지대한 공헌을 했습니다.</color>+<color=#00CCFF>모스크바 경찰은 현재 이 사건에 대해 조사를 진행 중입니다. 저희 채널에서도 후속 보도를 전해드리겠습니다.</color>
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>470</BIN>:......+조용한 고급 호텔 방 안에서, 텔레비전 속 뉴스만 반복 재생되고 있었다.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:툭.
+()<Speaker></Speaker>||:텔레비전이 꺼지고, 리모컨이 페르시카의 손에서 떨어졌다.
+NPC-Persica(3)<Speaker>페르시카</Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><SE1>ClothingUp</SE1>:말도 안 돼, 그 여자가 죽었다고?+카자크인과 슬라브인의 피를 이어받은 그 여자가? 골리앗으로 볼링도 칠 수 있는 인간이!?+어떻게 소리도 없이 모스크바 교외 병원에서 죽을 수가 있어!?
+NPC-Helian(0)<Speaker>헬리안</Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:진정하십시오, 여기 커피 한 잔 하시고...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:페르시카는 떨리는 손으로 커피를 받아 단숨에 비웠다.
+NPC-Persica(3)<Speaker>페르시카</Speaker>||:가짜야, 가짜가 분명해. 진짜 쇼는 아직 어디에 갇혀있을 거야. 경찰이 저거 때문에 쇼를 찾는 걸 그만두면 어떡하지!?+헬리안, 빨리 수사팀에 메일 보내야 해! 이대로 얼렁뚱땅 넘어가게 둘 순 없어!
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:페르시카는 컴퓨터를 켜서 빠르게 키보드를 두드렸다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:헬리안이 그녀의 손을 붙잡았다.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:일단 앉으세요. 머리를 비우시고요...
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:사실인 것 같네, 페르시카. 경찰이 시신과 쇼의 DNA를 대조해봤네.+틀림없이 그녀일세.
+NPC-Persica(3)<Speaker>페르시카</Speaker>||:......
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:크루거 님...
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:나도 전부 거짓말이라고 위로해주고 싶네.+하지만 죽음은 이미 확정된 일이야. 산 사람은 그 사실을 받아들이고 등에 짊어지고서 계속 나아갈 수밖에 없네.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:페르시카는 입을 다물고 자신의 작업 공간으로 돌아가 물건을 뒤지기 시작했다. 헬리안은 커피를 새로 한 잔 타서 그녀 곁에 놓았다.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:...페르시카 씨, 괜찮으십니까?
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:...쇼랑 했던 통신 기록을 정리하는 중이야.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:스르륵...+촘촘한 아카이브 기록이 페르시카의 눈앞에 펼쳐진 후, 시간과 주제에 따라 분류되었다.
+()<Speaker></Speaker>||:페르시카는 스크롤을 가장 위로 올려서 천천히 살펴봤다——+젊은 시절 함께 주콥스키 공군 아카데미에 합격했을 때의 혈기왕성함, 1세대 자율인형 기술에서 새로운 진전을 이뤄냈을 때의 희열, 담당 연구과제의 진척이 막혔을 때 느꼈던 고뇌...+오래된 앨범을 펼친 것마냥, 한참 동안 묵혀뒀던 기억이 다시 새록새록 떠올랐다.
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:......
+()<Speaker></Speaker>||:그녀의 시선은 M4A1을 개발 도중 거대한 벽에 가로막혀 쇼에게 도움을 청했을 때의 페이지에 머물렀다.+그때 쇼는 뇌 슬라이드를 모델로 마인드맵을 개발하는 것에 굉장히 거세게 반대했었다. 그러면서도 막상 도움을 구했을 때 그녀는 선뜻 나서주었다...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:페르시카의 손이 갑자기 멈칫했다.
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:잠깐.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:뭐죠?
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:페르시카는 M4A1을 개발할 때 사용한 뇌 슬라이드 기록을 열고, 동시에 자신이 확보한 철혈과 니토 관련 데이터를 열었다...
+NPC-Persica(0)<Speaker>페르시카</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:...프레임워크가... 부분적으로... 동일해...+똑같아...
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:뭔가 발견하신 겁니까?
+NPC-Persica(3)<Speaker>페르시카</Speaker>||:M4A1을 개발하기 전부터 그 결과를 이미 알고 있었던 사람이 있어...+내가 AR팀을 개발한 것 자체가 음모였을지도 몰라...
+()<Speaker></Speaker>||:페르시카의 눈빛이 어두워졌다.
+NPC-Persica(3)<Speaker>페르시카</Speaker>||:만약 이게 전부 거대한 음모라면...+그럼... 쇼는 정말로 죽었을지도 몰라.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:...애도를 표합니다.
+NPC-Persica(3)<Speaker>페르시카</Speaker>||:...나도 가끔 그 무시무시한 슬라브 여자가 어떻게 죽을지 상상해본 적은 있어.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:페르시카는 다시 커피잔을 들어 반 컵 들이켰다.
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:주콥스키 공군 아카데미를 다닐 때, 나는 그래도 여자애 취급을 받았지만...+쇼는 아니었어.
+NPC-Helian(0)<Speaker>헬리안</Speaker>;NPC-Persica(0)||:둘이 사이가 좋았나요?
+NPC-Helian(0);NPC-Persica(0)<Speaker>페르시카</Speaker>||:아니, 전혀.+걔는 날 변태 취급했어.
+NPC-Helian(3)<Speaker>헬리안</Speaker>;NPC-Persica(0)||:......
+NPC-Helian(3);NPC-Persica(0)<Speaker>페르시카</Speaker>||:그전까진 반에서 2등이 누군지 관심 가져본 적이 전혀 없었어.+하지만 걔는 꽤나 인상 깊었지.
+NPC-Helian(0)<Speaker>헬리안</Speaker>;NPC-Persica(0)||:어째서죠?
+NPC-Helian(0);NPC-Persica(0)<Speaker>페르시카</Speaker>||:걔는 학술적인 성취에 전혀 집착하지 않았어.+지식과 미지를 탐구하는 자라기보다는 수공예가에 더 가까웠어.
+NPC-Helian(0)<Speaker>헬리안</Speaker>;NPC-Persica(0)||:......
+NPC-Helian(0);NPC-Persica(0)<Speaker>페르시카</Speaker>||:걔가 인형을 보는 시선은, 도끼를 보는 거랑 별 다를 바 없었을 거야.
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:하지만 걔가 가장 좋아하는 건 역시 비행기였어.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:페르시카는 화면에 표시된, 쇼가 비행기 앞에 선 사진을 가리켰다.+그녀는 그때만 해도 씩씩하게 활짝 웃는 얼굴이었다.
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:난 걔가 죽는다면 군대로 돌아가서 비행기 사고로 갈 줄 알았어.+그게 걔 스타일에 더 어울리니까.+대충 혼자서 비행기를 몰고 적진 후방을 기습해서, 적기를 한 5대쯤 격추하고서 포로로 안 붙잡히려고 절벽에 부딪친다든가...
+NPC-Helian(0)<Speaker>헬리안</Speaker>;NPC-Persica(0)||:......
+NPC-Helian(0);NPC-Persica(3)<Speaker>페르시카</Speaker>||:그런데 설마 이런 수수께끼 같은 죽음을 맞다니.
+NPC-Helian(0)<Speaker>헬리안</Speaker>;NPC-Persica(3)||:페르시카 씨, 전 이런 예감이 드는군요.+쇼 씨의 죽음은 도화선이 될 거라고.+지금 흔들리는 화약통을 터뜨릴 도화선 말이에요.
+NPC-Helian(0);NPC-Persica(0)<Speaker>페르시카</Speaker>||:뭐어? 그 슬라브 여자는 그런 뱅뱅 돌리는 짓은 절대 안 해.
+NPC-Helian(0)<Speaker>헬리안</Speaker>;NPC-Persica(0)||:...이 세상엔 명분에 목마른 사람이 잔뜩이랍니다.
+NPC-Helian(0);NPC-Persica(0)<Speaker>페르시카</Speaker>||:...그건 걔를 오히려 욕보이는 짓이야.+걔만큼 솔직한 사람은 보기 드물다고.
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:왕재수긴 하지만 밉지는 않은 타입.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:안젤리아처럼 말입니까?
+NPC-Persica(0)<Speaker>페르시카</Speaker>||:응, 안젤리아처럼.
+()||<黑点1>:

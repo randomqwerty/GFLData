@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.GF.Battle.BattleManager)
 xlua.private_accessible(CS.GF.Battle.BattleDynamicData)
+xlua.private_accessible(CS.GF.Battle.BattleFieldTeamHolderNew)
 
 local RequestBattleFinish = function(self,forceLose)
 	local isBattleFinished = CS.GF.Battle.BattleDynamicData.isBattleFinished
@@ -22,5 +23,23 @@ local CheckIsSLGMode = function()
 	end
 	return false
 end
+local CheckAllIsPhased= function(self,listBattleCharacterController)
+	if listBattleCharacterController:Equals(CS.GF.Battle.BattleDynamicData.friendlyTeamHolder.listCharacter) then
+		local resultValue = self:CheckAllIsPhased(listBattleCharacterController)
+		if resultValue then
+			for i=0,listBattleCharacterController.Count-1 do
+				if listBattleCharacterController[i].data:ExistsBuff(5297,1) then
+					return false
+				end
+			end
+			return true
+		else
+			return resultValue
+		end
+	else
+		return self:CheckAllIsPhased(listBattleCharacterController)
+	end
+end
 util.hotfix_ex(CS.GF.Battle.BattleManager,'RequestBattleFinish',RequestBattleFinish)
+util.hotfix_ex(CS.GF.Battle.BattleManager,'CheckAllIsPhased',CheckAllIsPhased)
 util.hotfix_ex(CS.GF.Battle.BattleDynamicData,'CheckIsSLGMode',CheckIsSLGMode)

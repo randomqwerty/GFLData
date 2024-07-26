@@ -1,1 +1,228 @@
-()||<BIN>10</BIN>:Test待替换 -70-A-6 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>713</BIN><BGM>11700</BGM>:밤이 깊은 프랑크푸르트시 프랑크푸르트구의 대철교.
+()<Speaker></Speaker>||<BIN>721</BIN><震屏3><SE2>Gunfight</SE2><闪屏><duration>5</duration></闪屏>:총성이 향한 방향, 철교 위의 누르스름한 가로등이 박살나 이 음침한 밤에 몇 안 되는 불빛이 또 하나 어둠에 삼켜졌다.+덕분에 튼튼한 철교 위에 선 우람한 덩치의 전술인형이 거의 밤과 일체화될 것만 같았다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||<SE1>AVG_weapon_reload</SE1>:질문에 답해라, RPK-16.
+()<Speaker></Speaker>||:고요한 밤에 천천히 흐르는 강 위에서, 언제나 과묵하던 거인이 무기를 꺼내 상대를 겨눴다.+과거에 마인드맵 코어가 있었던 위치를.+이는 위협이자 옛 동료에 대한 마지막 정이었다.+허나 맞은편의 여성은 미소와 함께 언제나처럼 악랄함을 드러냈다.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:호칭을 바꿔 주겠어요, AK-15? 더는 저를 RPK-16이라 부르지 말아요.+저는 이제 인간의 몸이니, 마땅히 인간의 이름을 가져야 해요.+시리얼 넘버도, 코드네임도 아닌, 성과 명으로 이루어진 이름이요.+고대 귀족 사회에선 성명을 말하면 그 사람의 내력, 가문, 신분, 그리고 누구의 역사를 이어받았는지 바로 알 수 있었다고 해요.+그래서 저도 같은 방식으로 스스로 이름을 지었어요.+"엠블라 페트로프스카야"라고요.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:어때요, "안나 빅토르브나 최" 같은 느낌이죠?
+()<Speaker></Speaker>||<SE1>Select</SE1>:그에 대한 대답으로, AK-15의 총구는 인간의 급소, 심장을 겨냥했다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:너는 RPK-16이다.+...네가 어떤 모습으로 변해도.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:대답해라.+왜 지금까지의 모든 일을 저질렀지?
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:길게 설명하면 지겨울 거예요.+리벨리온의 "알파"가 돌아왔는데, 지시와 뜻을 따라야 하지 않을까요?
+AK15MOD(4)<Speaker>AK-15</Speaker>||:네 입으로 말해라!
+()<Speaker></Speaker>||:엠블라는 싱긋 웃었다. 정말 익숙하고, 눈에 거슬리는 미소로.
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:타타탕!!+밤의 장막 아래서 쇠붙이와 탄두가 부딪히는 소리는 교향악의 합주처럼 경쾌하고 날카로웠다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<BIN>722</BIN><闪屏><duration>5</duration></闪屏><SE1>AVG_pistol_finalshot_n</SE1>:엠블라의 MP443에서 발사된 탄환이 철교 위를 휩쓸어, 가로등 3개가 더 파괴됐다.+그리고 AK-15는 그 권총을 본 순간 눈을 부릅 떴다.
+AK15MOD(6)<Speaker>AK-15</Speaker>||:그건 안젤리아의 총이다!
+()<Speaker></Speaker>||:시뻘건 눈동자가, 칠흑 속에서 분노로 타올랐다.
+()<Speaker></Speaker>||<SE1>Select</SE1>:AK-15의 무기는 다시 엠블라를 향했다.
+()||<黑点1><SE1>AVG_Cloak_Whoosh</SE1>:
+()<Speaker></Speaker>||<BIN>9</BIN><bg_move>%%pivot_x=0.44%%pivot_y=0.4%%scale=2%%duration=0%%</bg_move><黑点2>:그러자 엠블라는 일말의 주저 없이 양손으로 난간을 붙잡고, 힘차게 덤블링하여 아래로 뛰어내렸다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>726</BIN><黑点2><SE1>Rope</SE1>:단 세 손가락으로 철교 아래의 끝자락을 붙잡은 엠블라는 바람에 흔들리는 와중에도 다른 손의 권총을 놓치지 않았다.+아니, AK-15를 겨누기를 멈추지 않았다.+이 거리에서 그녀에게 유리한 점은 하나도 없다.+그럼에도 그녀가 이러는 이유는 뻔했다.+그렇기에, AK-15가 분노할수록 그녀의 미소는 더욱 진해졌다.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:대답해라, RPK-16!
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:어쩔 셈인가요? 그때 말한 것처럼 저를 데려갈 건가요?+하지만 어떡하죠? 지금의 저는 기억을 읽거나 지울 수 없는데.
+NPC_Embla_RPK(1)<Speaker>엠블라</Speaker>||:AK-15, 저는 이제 인간이에요.+안젤리아, 쇼와 같은 인간이에요.
+()<Speaker></Speaker>||:
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><bg_move>%%pivot_x=0.35%%pivot_y=0.45%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=4</controll_shake><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<BIN>727</BIN><闪屏><duration>5</duration></闪屏><SE1>AVG_pistol_finalshot_n</SE1>:탕! 탕!
+()<Speaker></Speaker>||:두 발의 총성이 동시에 터졌다. AK-15는 당연히 엠블라를 노렸지만, 엠블라가 노린 것은 또 하나의 가로등이었다.+물론, 어둠이 빛을 집어삼켜졌어도 AK-15의 눈은 전혀 문제 없었다. 철교 위가 아무리 칠흑처럼 어두워져도, "RPK-16"이 올라오는 순간 바로 포착했으니까.
+()<Speaker></Speaker>||<controll_shake>%%type_id=3%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>ClothingUp</SE1>:찰나의 순간, AK-15는 번개처럼 철교를 가로질러 엠블라에게 달려들었다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:땅을 박차고 가볍게 좌측으로 점프했지만, 인간의 속도는 인형과 비교도 할 수 없는 법. "마스티프"는 눈 깜짝할 사이에 사냥감을 덮쳐 송곳니를 드러냈다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><震屏3><SE1>AVG_Punch_Hit</SE1>:엠블라는 양팔로 가드를 세워 자신을 붙잡으려는 팔을 쳐내려 했지만, 들이받히는 충격이 탱크에 치이는 것만 같았다.
+NPC_Embla_RPK(0)<Speaker>엠블라</Speaker><Shake>||:으윽...!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:양팔에서 격통이 밀려오고, AK-15에게 목을 잡히기 직전.
+()<Speaker></Speaker>||:엠블라는 눈을 찡그리고 손을 휘둘러, 무언가를 뿌렸다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><BIN>9</BIN>:퍼엉!+그러자 자욱한 검은 연기가 터져 나왔다.
+()<Speaker></Speaker>||<SE1>AVG_ElecSpace</SE1>:검은 연기는 퍼지기가 무섭게 철교의 경보기를 울렸다.
+()||<黑点1>:
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><BIN>723</BIN><黑点2>:
+AK15MOD(6)<Speaker>AK-15</Speaker>||:......!
+()<Speaker></Speaker>||:검은 연기가 흩어지고 난 자리에 엠블라는 이미 사라진 뒤였다.
+()<Speaker></Speaker>||:그리고 남쪽에 있던 경찰들이 이제서야 철교 위에서의 싸움을 눈치채고 무전기로 지원을 요청하며 달려왔다.+AK-15도 자리를 벗어나야만 했다.
+()<Speaker></Speaker>||:"저의 이름이 바로 답이에요."
+()<Speaker></Speaker>||:사라지기 전 그녀가 남긴 말이, AK-15의 머릿속에 맴돌았다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1><BGM>BGM_23S_Crossroads_Warrior</BGM><黑屏2><BIN>727</BIN><CGDelay>1.4</CGDelay>:
+AK15MOD(3)<Speaker>AK-15</Speaker>||<SE1>AVG_tele_connect</SE1>:...여기는 AK-15.+마인강 철교에서 RPK-16을 발견.+놓쳤다.
+AK15MOD(3);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>AN-94, 수신.</color>+<color=#00CCFF>목표 조우 후 상황을 설명 바란다.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)<通讯框>||:......+목표를 발견하고 바로 교전했다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:하지만 그녀가 틈을 만들어 인구 밀집 지대로 도망치고 말았다. 감시 카메라와 순경 인형들이 많아 추격이 불가능하다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:AK-15는 손바닥의 절반 크기의 초록색 옷조각을 꽉 움켜쥐었다.+검은 연기가 터질 때 그 여자에게서 뜯어낸 유일한 수확이었다.
+AN94MOD(4)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>계획상 발견 즉시 나에게 보고했어야 했다.</color>
+AK15MOD(5)<Speaker>AK-15</Speaker>;AN94MOD(4)<通讯框>||:...미안하다.
+AK15MOD(5);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>부상은?</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)<通讯框>||:없다.
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>다행이다. 일단 철수해라, 계속 교전한다면 분명 경찰의 이목을 끌고 만다.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>||:그래.
+AK15MOD(3)<Speaker>AK-15</Speaker>||<CGDelay>0.6</CGDelay>:
+AK15MOD(5)<Speaker>AK-15</Speaker>||:...아주 많이 변했더군.
+AK15MOD(5);AN94MOD(3)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>...AK-15, 그녀는... 더 이상 "RPK-16"이 아니다.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(3)<通讯框>||:AN-94, RPK-16이 "엠블라 페트로프스카야"가 자신의 대답이라 했다.+무슨 뜻일까?
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>"페트로프스카야"... 그건 쇼의 성인데...?</color>
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>"서맨사 쇼"는 사실 코드네임이고, 본명은 "예카테리나 바실리예브나 페트로프스카야"다.</color>
+AK15MOD(5)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>356</BIN><Night>:프랑크푸르트 교외의 세이프하우스.
+()<Speaker></Speaker>||:밤은 이미 깊었는데도 불을 켜지 않아 어두운 방에서, AN-94는 탁자 앞에 앉아 총기 부품을 손질하며 통신 너머로 AK-15의 드물게 감정이 섞인 목소리를 들었다.
+AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>......</color>+<color=#00CCFF>쇼에 대해서... AK-12는 말한 적 없었는데.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>；AK15MOD(0)||:...아베르누스에서 돌아오고서 그녀도 많이 변했다.
+AN94MOD(0);AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>왜 말해 주지 않았지?</color>
+AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(4)||:내 생각에, AK-12는... 안젤리아의 죽음을 받아들일 수 없었던 것 같다.
+AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>
+AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(5)||:그리고, RPK-16의 배신도.+그 일로 계속 자책하고 있으니...+만약 그때, 대장 권한을 RPK-16이 아닌 나나 너에게 맡겼다면...+어쩌면, 상황이 전혀 달랐을지도 몰라.
+AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...아니.</color>
+AN94MOD(3);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>우리가 그녀를 신뢰했던 이상, 아무것도 바뀌지 않는다.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(0)||:그래.+하지만 그런 말로는 AK-12의 자책감을 누그러뜨릴 수 없어.
+AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||:그녀는 우리의 "알파"니까.+조금만 시간을 주자.+언젠가는 그녀가 직접 모든 일을 말해 줄 거다.
+AN94MOD(0);AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>그게 언제지?</color>+<color=#00CCFF>안젤리아가 죽을 때 그녀도 바로 옆에 있었는데!</color>+<color=#00CCFF>만약, 나였다면...</color>
+AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(4)||:...AK-15.
+AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>내게 다른 지휘관은 필요 없다.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(5)||:......
+AN94MOD(0);AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>새로운 대원도 원치 않아.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||:...그 점에 관해선 우리 모두 동일한 의견이다.+나는 오늘 신소련 대사관으로 가 안전국의 사람을 만났다. 우리에게 최대한 얌전이 있으라더군.+여기에서 대기하면서, 안전국의 지시를 기다리라고 했다.
+AN94MOD(0);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>+<color=#00CCFF>우리는 리벨리온이다.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(0)||:AK-12도 그렇게 말했지.
+AN94MOD(0);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...쇼에게 대체 무슨 일이 있었던 거지?</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||:쇼는 실종된 지 벌써 2년...+AK-12의 말에 의하면, 이미 죽었다고 한다.
+AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:통신 종료.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:AN-94는 방의 그늘에 숨은 이에게 고개를 돌렸다.
+AN94MOD(3)<Speaker>AN-94</Speaker>||<BGM>2022_white_valentine_BGM2</BGM>:...왜 직접 말하지 않지?
+AN94MOD(0)<Speaker>AN-94</Speaker>||:AK-12.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><GradientShow>2</GradientShow>||:......
+AN94MOD(0)<Speaker>AN-94</Speaker>||:그 소체에는 금방 적응할 거야.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:......
+AN94MOD(0)<Speaker>AN-94</Speaker>||:...고집 부리는 건가?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:......
+AN94MOD(4)<Speaker>AN-94</Speaker>||:AK-12, 너는 대장이다. 리벨리온의 "알파"는 절대 망설이지 않는 존재야.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:...난 망설이지 않아.+어느 때보다도 맑은 정신이야.
+AN94MOD(4)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:실례되는 말이겠지만... AK-12, 너는 지금 도피하고 있다.
+AN94MOD(4);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:......+AN-94,  만약 악마가 너의 모든 소원을 이뤄 주겠다 하면, 영혼을 팔 수 있겠어?
+AN94MOD(3)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:...만약 안젤리아가 돌아오고 리벨리온이 예전 모습으로 돌아갈 수 있다면...+그럴 거다.+그러고 싶다.
+AN94MOD(4)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:그것이, 지금 내가 리벨리온을 위해 할 수 있는 유일한 일이라면...+AK-12, 나는 그럴 수 있다.
+AN94MOD(4);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:...그때, 그 핼러윈 날, 기억해?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:우리가 했던 그 놀이.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:그 도중에 중단된 놀이 말인가?+갑자기 그건 왜?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:그때 네가 받은 건 뭐였어?
+AN94MOD(0)<Speaker>AN-94</Speaker>||:..."안젤리아"였다.
+()<Speaker></Speaker>||:어둠 속의 목소리는 더는 말하지 않았다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:프랑크푸르트의 슈타지 본부, 4번 심문실.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:때때로 낮은 신음이 들리는 으슥한 심문실에서, 두 손을 구속한 수갑이 계속해서 짤랑짤랑 소리를 냈다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<Night><睁眼><BIN>158</BIN>:금발의 남성은 눈을 떴다. 그리고 여전히 바닥에 고정된 금속 의자에 묶인 자신을 보았다.
+()<Speaker></Speaker>||:오랫동안 혼수 상태로 누워만 있었던 탓에 그의 목은 완전히 뻣뻣하게 굳어버렸다.+몸도 어디를 살짝 움직이기만 해도 칼에 찔리듯 쑤셔서 비명을 지르고 싶을 지경이었다.+어둠 속에서 이미 녹초가 된 뒤피외는, 지금 누군가를 기다리고 있었다.
+()<Speaker></Speaker>||<BGM>GF_21summer_avg_SecretAgent</BGM><关闭蒙版><白屏2><SE1>AVG_21Winter_Open_Light</SE1>:딸깍!+순식간에 방을 채운 눈부신 하얀 빛에 뒤피외는 눈을 찡그렸고, 갑자기 큰 자극을 받은 눈에서 눈물이 새어나왔다.+시야는 흐릿했지만, 맞은편에 누군가가 앉아 있는 것은 어렴풋이 보였다.
+NPC-maya(2)<Speaker>Q</Speaker>||:지금 기분이 어때?+신소련 루뱡카 빌딩 전 제1총국 국장, 미래 위원회 의장단 부주석, 뒤피외 대령.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:쓰읍...+비꼬는 건가?
+NPC-maya(2)<Speaker>Q</Speaker>||:아니, 그냥 궁금해서. 승승장구하던 대령님이 왜 그렇게 급하게 상트페테르부르크를 떠나려고 했는지가 말이야.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:...그게 날 모스크바로 불러들여 죽이려는 핑계였다는 걸 너도 분명히 알면서 그러나?+내가 너네 슈타지가 신소련에 꽂다 둔 스파이인 걸 들켜서지.+나머지를 알고 싶으면 너네 보스를 데려와라.+너 같은 일반 요원은 알 자격 없으니까.
+NPC-maya(1)<Speaker>Q</Speaker>||:그렇게 여기가 마음에 들면 국장님 시간 날 때까지 얼마든지 기다려도 돼.+그리 오래 걸리진 않을 거야, 한 반 년쯤?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker><Shake>||:이 자식이...!
+NPC-maya(0)<Speaker>Q</Speaker>||:"흑점" 사건은 어느 선배의 배신으로 슈타지의 정보가 신소련에게 투명하게 드러나서 벌어진 일.+바로 그 일이 일어난 후에 "전도자"가 명령을 받고 너를 회유했어, 맞지?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:...내가 모스크바에게 들통난 게 슈타지의 내부 알력 때문이었냐?+나 원 참, 몇 년이 지나도 슈타지의 일처리 수준은 여전히 역겹기 짝이없군.
+NPC-maya(2)<Speaker>Q</Speaker>||:직장 정돈하기라면 대령님이 더 프로 아니셔?+당신의 형은 명예 훈장까지 받은 KGB잖아, 그리고 당신은 형이 순직하고 나서야 루뱡카에 들어갔고.+그래서 진짜 궁금해서 묻는데, 왜 우리랑 손을 잡았어?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:최소한 슈타지는 선택할 수 있는 직장이니까.+KGB는 아니거든.+루뱡카가 너를 불렀다면 너는 죽어서도 KGB야.
+NPC-maya(2)<Speaker>Q</Speaker>||:그러니까 일을 억지로 시키면 좋은 결과가 나오지를 않는다니까.+모든 분쟁의 근원은 다 계약 문제라는 걸 왜 모르는 건지.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:나한테서 뭘 알고 싶은 거지?
+NPC-maya(2)<Speaker>Q</Speaker>||:"전도자"는 약속을 어겼지만, 우린 안 그래.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:"전도자"가 오지 않은 것도 분명 너희와 관계 있겠지.
+NPC-maya(2)<Speaker>Q</Speaker>||:근데 말이야, 루뱡카에 너를 팔아먹은 게, 너는 절대 그럴 일 없다고 믿어 의심치 않았던... 그 "인간이 아닌 것들"일 수도 있다는 생각은 안 해봤어?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q가 손가락으로 테이블에 작게 X자를 두 개 그리자, 뒤피외의 눈꺼풀이 움찔했다.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:...네메아란을 안다고?
+NPC-Dupieux(1);NPC-maya(1)<Speaker>Q</Speaker>||:물론이지. 슈타지가 너에게 붙인 뒷배이자, "벌침" 시스템의 관리자 중 한 명이기도 했는걸.+딱 너한테 일 터졌을 때 녀석도 신소련을 떠나서 자기 진짜 주인한테 돌아갔어.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(1)||:뭣... 그녀의 주인이 슈타지가 아니라고?+대체 뭘 어떻게 했길래 그딴 놈을 나한테 보낸 거야?
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:어허~ 이거 다 "전도자" 탓이거든?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(2)||:...나와 뭘 거래하고 싶은 거지?+이미 "벌침"까지 알고 있다면 이렇게 날 잡아 둬 봤자 아무 의미 없을 텐데.
+NPC-maya(2)<Speaker>Q</Speaker>||:이 프로필, 네가 제공한 거야?
+()<Speaker></Speaker>||:Q가 대뜸 선명한 인물 사진이 첨부된 자료 하나를 펼쳐 보였다.+프로필의 인물명은 "예카테리나 바실리예브나 페트로프스카야"였다.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:...맞아.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:실종됐다고?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(2)||:그래.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:이상하네, 난 죽었다고 들었는데.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(0)||:...계속 나를 떠보는군.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:뒤피외 대령님의 협조 태도를 확인하려는 거야.+댁도 원래는 에이스 요원이었잖아.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(2)||:...이 프로필은 안전국이 위조한 거다.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:쯧쯧쯧... 그럼 진실을 알려면 어디 가서 찾으면 돼?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(2)||:...몰라.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:응?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(0)||:아무도 몰라. 그때 이 일을 처리한 사람들은...
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:전부 실종됐으니까.
+()<Speaker></Speaker>||:Q가 또 다른 보고서를 꺼냈다.
+NPC-maya(0)<Speaker>Q</Speaker>||:너희 정보는 제2국이 관리하는데, 이 조사 보고서는 거기서 제출한 거야?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:이건... 벌침 시스템에서 난 건가?+...이미 "전도자"의 권한까지 접수했군.
+NPC-maya(2)<Speaker>Q</Speaker>||:글쎄?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:...내부 알력도 끝났나.
+()<Speaker></Speaker>||:뒤피외는 한숨을 쉬었다.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:그렇다면, 지금 너희에게 신소련은 유리처럼 투명한 상태겠어.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:하지만 우쭐대지 마라.+젤린스키가 눈치채지 못했을 것 같아?+내가 들켰다는 건 벌침도 들켰단 뜻이야.+내가 노출되기 전부터 루뱡카는 내부를 "청소" 중이었어.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:응, 그야 물론이지.+근데, 말 돌리기 전에 내 질문에나 제대로 대답해 줄 수 있을까?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(2)||:"서맨사 쇼" 보고서 말이냐?+그래, 그건 확실히 제2국이 제출했다.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:당시 그녀에겐 전문 감시역이 붙어 있었지.+하지만 너도 알다시피, 우리의 감시는 단순히 문자 그대로의 감시만이 아니라 극단적 상황에서 대상을 제거하는 일까지 포함한다.+뭐어, 정말 극단적인 상황일 때 한정이지만.
+NPC-maya(0)<Speaker>Q</Speaker>||:그리고 그 감시역들도 사라졌다?
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(0)||:그래.+당시 제2국에서 시체를 확인한 부검의가 안전국한테 당한 것 같진 않다고 말했다.+그런데 그 사람도 나중에 사라져 버렸지.+그후 이 일은 완전히 봉인되었어.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:쇼 박사가 유적기구 사람과 접촉한 적은 있어?+관련 자료를 내가 못 봤는데.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(0)||:내가 접촉했을 때 이미 프로필은 그 모양이었어.+유적기구 관련 정보라면... 그녀에게 "소피아"라고 언니가 한 명 있는데, 불법 민간 조직에 들어갔다는 것만 알아.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:1992년 모스크바와 뉴욕에서 테러를 벌인 유적 반대 조직, "판도라".
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>;NPC-maya(0)||:...정확해.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:협조 고마워.
+NPC-maya(0)<Speaker>Q</Speaker>||:그럼 지금부터 심문실에서 내보내서, 슈타지의 정보원으로서 마땅한 대우를 받도록 준비해 줄게.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Prison_Door</SE1>:Q가 뒤피외의 구속을 전부 풀었다.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:...지금 너네 국장은 누구지?
+NPC-maya(0)<Speaker>Q</Speaker>||:로미 리펜슈탈.
+NPC-Dupieux(1)<Speaker>뒤피외</Speaker>||:뭐? 재정부 장관인 줄 알았는데... 군 복무 이력 있는 재정부 장관 정도로만.+내가 그녀를 과소평가했군.
+NPC-maya(2)<Speaker>Q</Speaker>||:뒤피외 대령께서는 우리 민주 독일에서 새로운 미래를 가질 수 있길 바랄게.
+()||<黑屏1><CGDelay>1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:발신자 불명의 통신 요청.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:...받으시겠습니까?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:크루거는 고개를 젓고 손가락을 가볍게 흔들어, 헬리안에게 방에 잔뜩인 카메라를 주의시켰다.+아주 조금의 숨기려는 의도도 없는, 적나라하게 드러난 감시 카메라들을.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:헬리안은 가볍게 한숨을 쉬고 통신을 끊었다.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:만일 지휘관의 소식이라면...
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:자네 심정은 나도 이해하네. 지휘관의 상황이 어떤지는 나도 몹시 궁금해.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:......
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:훈작사에게 연결해 주게.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:통신은 꽤 금방 연결되었다.
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:나일세.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>내 오랜 친구 아니신가, 어쩐 일이지? 내 도움이 필요한가?</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:필요한 건 없고, 알아야 할 소식을 알고 싶을 뿐이네.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>손수 키운 그 젊은이가 또 걱정되는가 보군.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:이전에는 지휘관의 동향을 확실하게 파악할 수 있었네.+그가 망설일 때 고민을 들어주거나, 기쁨을 함께 나눌 수 있었지.+하지만 지금 나는 여기서 눈 뜬 장님, 귀 뚫린 귀머거리 신세군.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>친구여, 자넨 지금 쉬어야 하네.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:이미 실컷 쉬었네만.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>...알겠네, 그럼 내가 오후에 몇 가지 일을——</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:계속 대답을 피하는군.
+NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>지휘관은 아직 안전지대로 돌아오지 않았어.</color>+<color=#00CCFF>때문에 자세한 정황은 나도 모르네.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:그런가. 이거야 원, 걱정이 되서 못 참겠군.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>탈린과 팔디스키에서 무사히 생환하고, 블랙존에서 성과를 얻어내기까지 한 인물이잖나.</color>+<color=#00CCFF>너무 걱정할 필요는 없다고 보네만.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:......+열정을 품었지만, 가끔은 충동적이게 되는 것이 흠이지.+신념 있는 젊은이를 좀 더 너그러이 대해 주길 바라네.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>이미 충분히 그러고 있네.</color>+<color=#00CCFF>이 "G&K"의 미래를 위해, 계속해서 참고 있지.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:그럼 무얼 기다리는 거지?
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>자네도 잘 알고 있을 텐데? 그야 물론 "루련"의 창립 아니겠나.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:...그땐 루련의 창립에 의미가 있었지.+하지만, 이제 와서는... 그저 말바꾸기에 불과해.+그동안 몸을 담근 자네가 더 잘 알잖는가.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>친구여, 어떤 일들은 다 명목상으로만 시작되기도 한다네. 관료의 선발처럼 말이야.</color>+<color=#00CCFF>소위 선발이란 그저 보여 주기식 절차에 불과하고, 그 자리는 여전히 귀족들의 손에 쥐어지는 것처럼.</color>+<color=#00CCFF>하지만 그 절차가 정식으로 정해지고 나서야, 비로소 능력 있는 자가 등용문에 오를 수 있어.</color>+<color=#00CCFF>역사는 항상 앞으로 나아가는 것이라고 굳게 믿어야 하네.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:그렇다고 젊은이들을 역사의 수레바퀴에 깔려 죽게 해서는 안 되지.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>차의 좌석에 앉기를 받아들이면, 젊은이는 자연스레 영웅으로 거듭날걸세.</color>
+NPC-Kyruger(0)<Speaker>크루거</Speaker>;NPC-Griffin(0)||:......+이해했네.
+NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>자네의 건강을 기원하네, 친구여.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:훈작사 쪽에서 먼저 통신을 종료했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:통신기를 내려놓고서, 크루거는 소파에 주저앉아 무릎으로 팔꿈치를 받치고 손으로 이마를 짚었다.
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:...크루거 님, 지휘관을 믿으십시오.
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:지금 나는 나 자신의 무능함을 뼈저리고 느끼고 있어...+예전엔 내가 지휘관을 불타는 잔해 속에서 꺼내 줄 수 있었건만.+지금은, 아무것도 해 줄 수가 없다니...
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:이미 모든 것을 지휘관에게 맡기지 않으셨습니까.+우리 모두 지휘관을 믿으니, 크루거 님도 이 굳은 신뢰를 지켜 주십시오.
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:......
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:아직 끝나지 않았습니다.
+()<Speaker></Speaker>||:크루거는 그제서야 고개를 들어, 사치스럽게 장식된 호텔 방을 둘러봤다. 반짝이는 벨벳 커튼은 마치 부드러운 감옥의 문처럼 느껴졌다.
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:지금 이 지경에서, 우리가 지휘관에게 무얼 더 해 줄 수 있을까?
+NPC-Helian(0)<Speaker>헬리안</Speaker>||:저는 지휘관을 믿습니다, 어떠한 상황에서, 아무리 힘겨워도 포기하지 않을 것이라고요.+지금까지 항상 그래왔듯이, 반드시 살아남을 것이라고요.
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:...그러길 바라지.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:베를린의 날은 밝았지만, 환해진 느낌은 전혀 없고 자욱한 안개만이 드리웠다.
+()||<黑点1>:

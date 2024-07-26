@@ -1,1 +1,41 @@
-()||<BIN>10</BIN>:Test待替换 -70-E-1 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM><黑屏2><BIN>506</BIN>:……柏林 柏林電視台內
+()<Speaker>DDR1台台長</Speaker>||:夏朵利茲，你是嫌棄柏林電視台現在影響力越來越弱才想轉去2台嗎？+就因為2台在首都法蘭克福？+我們1台才是民主德國電視台的立足之本！+就算是在2台，要升遷加薪也是難上加難，那邊人太多了！+要不這樣，下個月的調薪名單我加上你……+明年有幾個關鍵崗位我可以考慮把你放進提名名單……
+NPC-Shadowless(8)<Speaker>夏朵利茲</Speaker>||:……沒有必要，台長。+我不是因為金錢或者榮譽前往2台，自然也不會因為這兩樣東西留在這裡。+台長，我要調查「潘朵拉」事件的真相。
+()<Speaker>DDR1台台長</Speaker>||:……這種藉口你就不要拿來糊弄我了……
+NPC-Shadowless(8)<Speaker>夏朵利茲</Speaker>||:台長，我的轉職申請已經在流程中了，2台那邊已經接受了我的申請。+無論您是否審批，郵件送出後7個工作日視為自動通過。
+()<Speaker></Speaker>||:……
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>417</BIN>:法蘭克福 斯塔西總部 
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1><CGDelay>0.4</CGDelay>:
+NPC-Keven(6)<Speaker>J</Speaker>||:……我所知道的忤逆成員的資訊都在這裡。
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:……不能說是一點用處沒有。+但確實無關緊要。
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(0)||:……這件事讓我去調查吧！
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker>||:不必了，我會安排其他人。
+NPC-Keven(12)<Speaker>J</Speaker>;NPC-maya(0)||:你不信任我！你覺得我會因為私交毀掉職業前途？！
+NPC-Keven(12);NPC-maya(0)<Speaker>Q</Speaker>||:……我不想在這個風口浪尖，讓斯塔西出現任何負面輿情。
+NPC-Keven(7)<Speaker>J</Speaker>||:……
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>222</BIN><CGDelay>0.5</CGDelay>:
+NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:……尼梅蘭姐姐，你希望此時此刻我說些什麼？
+NPC-Nemhran(0)<Speaker>尼梅蘭</Speaker><Position>80,90</Position>||:……什麼都不必說，此刻從你嘴裡說出來的，絕不會十分動聽。
+NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:恩布拉這一出《浮士德》，到底是什麼故事？+她不是墨菲斯托嗎？
+NPC-Nemhran(0)<Speaker>尼梅蘭</Speaker><Position>80,90</Position>||:……我會給予同等量的報復。
+NPC-Nemhran(0)<Speaker>尼梅蘭</Speaker><Position>80,90</Position>||:默莉朵，你想聽到這句話嗎？+很遺憾，我不是一個情緒化的涅托，從我這裡得不到你想要的有趣表現。+我們有自己接下來該做的任務。+重啟繭計劃，才是當前最重要的事情。
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>7</BIN><CGDelay>0.5</CGDelay>:……
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:在無人的寂靜雪地中，AK-12接通了AR-18的通訊。
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:「娜迦」已經處理掉了。
+NPC-AK12Mod(4);AR18(0)<Speaker>AR-18</Speaker><通讯框>||:<color=#00CCFF>收到。</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>;AR18(0)||:此外，我們找到了關鍵情報——+蜂針系統的伺服器藏在美因河底。
+NPC-AK12Mod(4);AR18(0)<Speaker>AR-18</Speaker><通讯框>||:<color=#00CCFF>我們已經搞定許可，馬上就可以在法蘭克福碰頭了。</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:嗯。
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AK-12掛斷了通訊，在她的面前，橘黃色的柔軟嬌小如雞蛋的光點慢慢升起，染紅了附近的天空。+她揚了揚眉。
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:安潔，是你最討厭的日出。
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:握緊手中的槍，頭狼的身影消失在了皚皚雪地中。
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑点1>:

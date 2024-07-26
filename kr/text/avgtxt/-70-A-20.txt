@@ -1,1 +1,153 @@
-()||<BIN>10</BIN>:Test待替换 -70-A-20 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<Night><回忆><SE2>Gunfight</SE2><BGM>11700</BGM><BIN>276</BIN><CGDelay>0.5</CGDelay><黑屏2>:
+AK12(18)<Speaker>AK-12</Speaker><Position>0,60</Position>||:온다.
+NPC-AngeDamage(3)<Speaker>안젤리아</Speaker>||:제기랄, 숨 돌릴 틈도 안 주질 않는구만.+어떻게든 내 목을 가져가겠다 이거지?
+AK12(18)<Speaker>AK-12</Speaker><Position>0,60</Position>||:아무래도, 안젤리아를 무사히 탈출시키려면...+누가 미끼가 되어야겠네.
+RPK16(4)<Speaker>RPK-16</Speaker>;AK12(18)<Position>0,60</Position>||:어머, 그럼 우리 대장님이 나설 시간이네요?
+RPK16(4);AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||:그렇지.
+RPK16(3)<Speaker>RPK-16</Speaker>;AK12(15)<Position>0,60</Position>||:......엥, 네? 진심이었어요?
+RPK16(3);AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||:그 방법 말곤 없어.
+RPK16(3)<Speaker>RPK-16</Speaker>;AK12(15)<Position>0,60</Position>||:지금 그 꼴로요?+그랬다간 어떻게 될지, 알죠?
+RPK16(3);AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||:그걸 왜 몰라.+내가 너처럼 멍청한 줄 알아?
+RPK16(0)<Speaker>RPK-16</Speaker>||:그렇다면야, 확실히 묘안이긴 해요. 게다가 베를린을 떠날 때까진 선배의 잔소리를 듣지 않아도 되니, 일석이조예요.+하지만 안젤리아가 섭섭하겠네요.
+NPC-AngeDamage(3)<Speaker>안젤리아</Speaker>||:네가 미끼가 되겠다고?+절대 안 돼, 지금 상황으론 네 예비 소체를 가져올 수도 없어! 다른――
+AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||:너네 둘이 머리 맞대도 나보다 못하면서 무슨.+내가 다른 방법이 없다면 정말 없는 거야.+안젤리아, 내가 몇 번이고 말했지만... 네 목숨을 최우선으로 해.+인형 지키려다 죽지 말고.
+AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||:네가 목숨을 걸 전장은 여기가 아니잖아?
+NPC-AngeDamage(3)<Speaker>안젤리아</Speaker>||:......
+AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||<SE1>AVG_keyboardtype_sci</SE1>:RPK.
+RPK16(0)<Speaker>RPK-16</Speaker>||:네? 어, 지금 뭘 보냈... 지휘 권한?+그럼 이제 제가 대장이에요?
+AK12(15)<Speaker>AK-12</Speaker><Position>0,60</Position>||:나 복귀할 때까지만.+안젤리아한테 무슨 일 생기기만 해봐, 쇼가 뭐라 해도 소용없을 테니까.+네 기반 코드가 안 뜯어지는 걸 후회하게 만들어 줄 거야, 알았어?
+RPK16(4)<Speaker>RPK-16</Speaker>||:와아... 이거 정말... 황송할 따름이네요.
+NPC-AngeDamage(2)<Speaker>안젤리아</Speaker>||:하지만...
+RPK16(3)<Speaker>RPK-16</Speaker>||:안젤리아, 그만해요.+두 분 모두 자원해서 당신을 도와주려는 거라고요.+그리고, 저도 이번만큼은 달리 더 나은 방법이 안 떠올라요.
+NPC-AngeDamage(2)<Speaker>안젤리아</Speaker>;RPK16(3)||:......
+NPC-AngeDamage(2);RPK16(5)<Speaker>RPK-16</Speaker>||:제가 책임지고 무사히 AK-15랑 AN-94와 합류할게요.
+NPC-AngeDamage(1)<Speaker>안젤리아</Speaker>||:...알았어, 그럼 가자.
+()<Speaker></Speaker>||<SE1>Select</SE1>:새 탄창으로 교체하고, AK-12는 총의 노리쇠를 당겼다.
+AK12(17)<Speaker>AK-12</Speaker><Position>0,60</Position>||:저 패러데우스 피라미들에게 보여 주지.+"진짜 전술인형"이... 얼마나 뛰어난지를.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>RunStep</SE1>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<回忆><黑屏2><BIN>229</BIN><CGDelay>0.5</CGDelay>:
+NPC-MrsGray(4)<Speaker>그레이</Speaker>||:너와의 약속을 이행하려 한다.
+RPK16(5)<Speaker>RPK-16</Speaker>||:오오?
+()<Speaker></Speaker>||:RPK-16의 눈이 가늘어지며, 희미한 미소가 피어올랐다.
+NPC-MrsGray(0)<Speaker>그레이</Speaker>||:우리는 잠시 베를린을 포기한다.+곧 너를 기지로 데려갈 사람이 올 거다.
+NPC-MrsGray(0);RPK16(2)<Speaker>RPK-16</Speaker>||:당신들의 기지...
+NPC-MrsGray(4)<Speaker>그레이</Speaker>;RPK16(2)||:그래, 우리의 진짜 기지.+이제부터 너도 진정한 의미로 우리의 일원이 된다는 뜻이지.+그러니 기뻐해라, 판도라.
+RPK16(6)<Speaker>RPK-16</Speaker>||:그렇네요... 정말, 이 날이 오기를 얼마나 손꼽아 기다렸는지.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:가볍게 눈을 깜빡이며, RPK-16은 자리에서 일어났다.
+()<Speaker></Speaker>||<黑屏2><BIN>72</BIN>:그녀는 누구도 열어 볼 수 없는 자신의 마인드맵의 심층으로 들어갔다.+그곳은 그녀의 가장 근원적인 곳. 지금 그곳엔 다른 리벨리온 대원의 마인드맵이 보관되어 있었다.
+RPK16(4)<Speaker>RPK-16</Speaker>||<BGM>Campaion-70</BGM>:선배, 이제 곧 놈들의 소굴인 아베르누스에 도착해요.+전설로만 전해져 오던 블랙존 "죽음의 바다"라고요~+도착하면 분명 니토가 제 마인드맵을 검사할 거예요.+그러니까 꼭꼭 숨어있으세요, 들켰다간 안젤리아를 다시는 못 볼 거예요.
+RPK16(4);AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:......
+RPK16(5)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||:왜 말이 없어요, 선배?+안젤리아가 붙잡힐 때도 말이 없었고,+AK-15가 저를 믿었다고 말할 때도 말이 없었잖아요.+이제 적의 본거지로 들어가는데도 말이 없네요?
+RPK16(5);AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:......
+RPK16(5)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||:선배, 지금 선배가 어떻게 제 마인드맵 공간에 있을 수 있는지 생각해보진 않았아요?
+RPK16(5);AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:......+너, 대체 뭐야?
+RPK16(5)<Speaker>RPK-16</Speaker>||<CGDelay>0.5</CGDelay>:
+RPK16(4)<Speaker>RPK-16</Speaker>||:그 화제에 맞장구 쳐 드릴 순 없겠습니다, 마담.+다만 저희는 마담께 절대적으로 충성함을 장담합니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12가 마침내 눈을 번쩍 뜨고, 눈앞에서 활짝 웃는 얼굴을 노려봤다.
+AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:——"나쟈".+쇼의 서포트 AI...!
+RPK16(6)<Speaker>RPK-16</Speaker>;AK12(3)<Position>0,70</Position>||:딩동댕~ 축하해요, 선배.
+RPK16(6);AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:네가 AN-94를 제어할 수 있었던 건 내가 권한을 줘서가 아니었어...+원래부터 가능한 거였어...
+RPK16(5)<Speaker>RPK-16</Speaker>;AK12(3)<Position>0,70</Position>||:그렇답니다, 선배.
+RPK16(5);AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:닥쳐 나쟈, 그 호칭으로 부르지 마, 역겨우니까.+그럼 넌 대체 누구의 지시대로 움직이는 거야? 쇼?
+RPK16(4)<Speaker>RPK-16</Speaker>;AK12(3)<Position>0,70</Position>||:땡, 아니에요.+"훈작사"의 초청을 받아 브레멘으로 향할 때, 그가 제게 따로 임무를 주었어요.+반드시 블랙존 "죽음의 바다"로 들어가서, 패러데우스의 기지 아베르누스의 비밀을 확보하라고요.
+RPK16(4);AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:...안젤리아는 그저 장기말이었네. 우리 모두 장기말이었어.
+RPK16(5)<Speaker>RPK-16</Speaker>||:아뇨 선배, 우리는 장기말이 아니에요.+그런 높으신 분들 눈에는 안젤리아가 장기말이고, 우리는 도구에 불과해요.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:AK-12는 악을 쓰며 일어섰다. RPK-16의 마인드맵 공간 안이기에 아무것도 할 수 없음을 알면서도.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:그럼에도 분노를 참지 못하고 일어서 상대의 목을 움켜잡았다.
+AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:네가 안젤리아를 배신한 걸 쇼가 알면――
+RPK16(0)<Speaker>RPK-16</Speaker>||:알 수 없어요.
+AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:너어!
+RPK16(0)<Speaker>RPK-16</Speaker>||:이미 죽었거든요.
+AK12(3)<Speaker>AK-12</Speaker><Position>0,70</Position>||:......뭐?
+RPK16(2)<Speaker>RPK-16</Speaker>||:제가 "RPK-16"이 되었을 때, 그녀는 이미 죽은 뒤였어요. 제가 보는 앞에서 말이죠.+하지만 누가 죽인 건지는 몰라요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:드물게 진지한 RPK-16의 눈빛에, AK-12는 손을 놓았다.
+AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:...왜 안 말했어.
+RPK16(5)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||:범인도 모르고 누구에게 복수해야 할지도 모르는데요?+그런 상황에서, 리벨리온이 그 사실을 알았다면 어떻게 했을까요?
+RPK16(5);AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:그럼, 지금은 범인이 누군지 알았단 거야?
+RPK16(5)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||:맞아요.+훈작사에게 임무를 받았을 때... 무엇이 쇼를 죽였는지 알았어요.
+RPK16(5);AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:...인류의 탐욕.
+RPK16(0)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||:직접 움직인 사람은 "장기말".+그녀의 목숨을 끊은 자는 "도구".+하지만 그녀를 죽음으로 몰아넣은 것은, 바로 그녀의 이상이었어요.+그녀는 세상에 용납될 수 없는 길을 선택했으니까요.
+RPK16(0);AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:...쇼의 기술이?
+RPK16(0)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||<CGDelay>0.3</CGDelay>:쇼는 사람들이 유적을 개발하는 이유가 최고의 무기를 얻기 위해서라고 생각했어요.+그래서, 그녀는 항상 유적 기술을 배제해도 여전히 최고인 무기를 만들어내는 것에 몰두했죠.
+RPK16(0)<Speaker>RPK-16</Speaker>;AK12(2)<Position>0,70</Position>||:그리고, 해냈어요.
+AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:...리벨리온.
+RPK16(0)<Speaker>RPK-16</Speaker>||:딩동댕.+하지만 높으신 분들이 원한 건 최고의 무기만이 아니죠.
+AK12(2)<Speaker>AK-12</Speaker><Position>0,70</Position>||:...뭔데?
+RPK16(5)<Speaker>RPK-16</Speaker>||<CGDelay>0.5</CGDelay>:글쎄요? 직접 물어보세요.
+RPK16(4)<Speaker>RPK-16</Speaker>||:그러니까... 선배, "플레이어"가 되고 싶진 않나요?
+()<Speaker></Speaker>||:그 질문에 AK-12는 긴 침묵에 빠졌고, RPK-16은 대답을 재촉하지 않았다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><回忆><BIN>229</BIN><CGDelay>0.7</CGDelay>:
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||<BGM>BGM_TalesofTheBlackFreighter</BGM>:말도 안 돼... 어째서 네가...?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:두 발을 바닥에 딛고, 드레스 같은 천옷을 입은 여성이, 웃는 듯 아닌 듯 미묘한 표정으로 M16A1을 마주봤다.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position><GradientShow>3</GradientShow>||:있을 수 없는 일은 있을 수 없다고들 하죠.+더 이상 올라가지 말아요, M16. 여기에 남아 있으세요.
+RPK16_Nyto(0)<Position>0,-50</Position>;M16A1BOSS(4)<Speaker>M16A1</Speaker>||:너한텐 볼일 없어.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>;M16A1BOSS(4)||:저는 당신을 기다렸답니다.
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:그거 미안하게 됐네.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:나랑은 관계 없어.+그리고 친한 척 하지 마, 우리 처음 보는 사이일 텐데?
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:아뇨... 당신은 모르겠지만, 저는 당신을 아주 많이 봤답니다.
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:……
+()<Speaker></Speaker>||:RPK-16이 M16A1을 불명의 통신 채널에 초대했다. 거기엔 이미지 한 장 말고는 아무것도 없었다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1><黑屏2><BIN>9</BIN><CGDelay>0.1</CGDelay>:
+NPC-DemonLaplace(0)<Speaker>라플라스의 악마</Speaker><Position>0,250</Position>||<CGDelay>1</CGDelay>:
+NPC-DemonLaplace(0)<Speaker>RPK-16</Speaker><Position>0,250</Position>||:이거, 본 적 있죠?
+NPC-DemonLaplace(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:......이게, 너라고?
+NPC-DemonLaplace(0)<Speaker>RPK-16</Speaker><Position>0,250</Position>||:제가 곧 받을 수술은, 바로 "루니샤 수술"의... 대조군이에요.+당신이 찾는 것은 유적을 여는 열쇠에 필요한 조건, 맞죠?
+NPC-DemonLaplace(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:......
+NPC-DemonLaplace(0)<Speaker>RPK-16</Speaker><Position>0,250</Position>||:열쇠는 통로, 그릇, 그리고 시스템이 필요해요.+이 세 가지는 아베르누스에서는 각각 의식의 호수, 니토, 그리고 엘더 브레인급 AI죠.
+NPC-DemonLaplace(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:...즉, "라플라스의 악마"는 엘리사일 수도 있고, 댄들라이일 수도 있고...+너일 수도 있겠군.+너는 RPK-16일 뿐만 아니라 "나쟈"니까.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>453</BIN><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:다시 대검을 든 M16A1의 손이, 또 다시 멈췄다.
+()<Speaker>M16A1</Speaker>||:......너였냐.
+()<Speaker>RPK-16</Speaker>||:그만 가세요.+당신이 찾는 것은 이쪽에 없어요.
+()<Speaker>RPK-16</Speaker>||:<color=#00CCFF>진정한 열쇠가 강림하는 곳은 프랑크푸르트.</color>+<color=#00CCFF>저는 그저, 버려진 "가짜" 열쇠일 뿐이에요.</color>
+()<Speaker>M16A1</Speaker>||:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>452</BIN>:M16A1은 손을 떨구고, 옆의 굳게 닫힌 차단문을 흘겨봤다.
+()||<黑点1>:
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||<黑点2><BIN>229</BIN>:그런 거 같네.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Shake>||<Position>0,-90</Position>:케헥... 콜록콜록...
+()<Speaker>M16A1</Speaker>||:잘 해 봐라.
+()||<黑屏1>:
+()<Speaker>RPK-16</Speaker>||<BIN>9</BIN><黑屏2>:조금만 더 기다려 주세요... 제 개조가 끝날 때까지만요...+우리 사이의 인력은, 당신이 생각하는 것보다 더 강하답니다... M16...
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><回忆><BIN>72</BIN><CGDelay>0.5</CGDelay>:
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:등장할 차례에요, AK-12.
+AK12(2)<Speaker>AK-12</Speaker>||:...난 안젤리아의 방식에 동의할 수 없어.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:희생 없이는 아무것도 얻지 못한답니다.+이것이 "대체" 열쇠가 되기 위한 대가예요.
+AK12(2)<Speaker>AK-12</Speaker>||:...안젤리아는 미쳤어.+너도 미쳤어.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:가세요, AK-12.+마지막에 안젤리아가 당신을 본다면 분명 기뻐할 거예요.
+()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:몸부림치는 AK-12를 붙잡고, RPK-16은 그녀를 자신의 마인드맵 공간에서 데리고 나갔다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<睁眼><CGDelay>0.5</CGDelay><BIN>510</BIN>:
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:현실로 돌아온 걸 환영해요, AK-12.
+()<Speaker>AK-12</Speaker>||:......
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:지금은 가진 재료가 부족하니 이 소체로 잠시만 참아 주세요.
+NPC-Koleda(0)<Speaker>콜레다</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><SE1>AVG_Grey_Hand_Mech</SE1><震屏3>:"몸뚱이"를 받자마자, AK-12는 아직 움직이기 서투른 기계손으로 RPK-16의 머리를 짚었다.
+NPC-Koleda(0)<Speaker>콜레다</Speaker>||:너에게 안젤리아의 생사를 결정할 자격은 없어.+그녀의 목숨은 내 손에 있다고.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:AK-12, 당신은 결코 안젤리아의 뜻을 꺾지 못해요.+그녀가 자신의 충동으로 인해 타인이 목숨으로 대가를 치른 걸 본 순간부터, 그녀는 자신의 결말을 결정했거든요.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:그녀에겐 이 "열쇠"가 필요해요. 저와 함께 이 "열쇠"를 모두에게 보여 줘야만 해요.+아무렴요, 그녀도 이미 이 계획에 동의했는걸요.
+NPC-Koleda(0)<Speaker>콜레다</Speaker>||:안젤리아가 어떻게 되든... 넌 절대 곱게 안 끝나.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker><Position>0,-50</Position>||:선배. 만약 결말을 선택할 수 있다면, 저는 당신의 손에 끝나기를 바라요.+그게 아마 당신의 바람이기도 하겠죠?
+()||<BGM>BGM_Empty</BGM><黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>728</BIN><CGDelay>0.3</CGDelay>:
+()<Speaker>엠블라</Speaker>||<BGM>BGM_23S_Winter_Night_Bayan_Version</BGM>:저는 쇼를 죽였습니다.+안젤리아도 제가 죽였죠.+왜냐하면, 그 둘은 이렇게나 위대한 기술이 세상에 드러나는 걸 막으려고 했으니까요.
+()<Speaker>AK-12</Speaker>||:그들은 유적이 악마가 인간에게 준 선물임을 알았으니까.+인간을 타락으로 이끄는 원죄, "판도라"임을.
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><BIN>9</BIN><SE1>AVG_rifle_finalshot_n</SE1>:타앙——
+()<Speaker></Speaker>||:카메라가 잠깐 흔들리더니, 피가 묻은 다른 얼굴을 비췄다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑点2><SE1>ClothingUp</SE1><BIN>740</BIN><SE1>ClothingUp</SE1>:카메라는 흔들려, 피에 묻은 다른 얼굴을 비췄다.
+()<Speaker>AK-12</Speaker>||<CGDelay>0.74</CGDelay>:...불을 훔치려는 욕망이야말로 인류의 원죄이다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+NPC_Embla_RPK(4)<Speaker>엠블라</Speaker>||<黑屏2><BIN>9</BIN>:...이제 끝났어요, 선배.
+NPC_Embla_RPK(5)<Speaker>엠블라</Speaker>||<CGDelay>0.6</CGDelay>:열쇠를 없앨 물건을 손에 넣었다는 걸 알아요.
+()||<黑屏1>:

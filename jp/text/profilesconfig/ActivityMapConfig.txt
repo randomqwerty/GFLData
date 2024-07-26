@@ -61,6 +61,8 @@ MissionSelectionTex|missionselect_2022Scar|2|-56
 //MissionSelectionTex|missionselect_2023RougeSummer|1|-61
 //攻壳联动
 MissionSelectionTex|missionselect_2024Ghost|1|-64
+//239月试炼
+MissionSelectionTex|missionselect_2023Se|1|-62
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -208,7 +210,8 @@ OPSLeftBGNormalActivity|-64|2024Ghost_Logo
 //OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 //OPSNoticeNormalActivity|-61|2023RougeSummer_Notice
-OPSNoticeNormalActivity|-64|2024Ghost_Notice
+OPSNoticeNormalActivity|-62|2023Se_Notice
+//OPSNoticeNormalActivity|-64|2024Ghost_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -272,7 +275,8 @@ OPSGoto|2022Scar_GotoMall|0|-56
 //OPSGoto|2023Spring_GotoMall|0|-58
 //OPSGoto|2023RougeSummer_GotoMall|0|-61
 //OPSGoto|2023RougeSpring_PointExchange|2|-61
-OPSGoto|2024Ghost_GotoMall|0|-64
+OPSGoto|2023Se_GotoMall|0|-62
+//OPSGoto|2024Ghost_GotoMall|0|-64
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -506,6 +510,7 @@ OPSCampaignTitleButtonTip|-56|100207|120|2022Scar_Tip|1
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 //OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 //OPSCampaignTitleButtonTip|-61|100193|60|2023RougeSummer_Tip|1
+OPSCampaignTitleButtonTip|-62|100196|60|2023Se_MissionPanelTip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems

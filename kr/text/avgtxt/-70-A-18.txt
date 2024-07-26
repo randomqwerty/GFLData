@@ -1,1 +1,188 @@
-()||<BIN>10</BIN>:Test待替换 -70-A-18 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_stage7</BGM><BIN>720</BIN><CGDelay>0.5</CGDelay><黑屏2>:
+()<Speaker></Speaker>||<SE1>AVG_Gunfire</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=4</controll_shake>:타타탕——+총성, 금속음, 폭발음이 한데 뒤섞여, 이 폭력과는 일절 관계가 없어야 할 곳을 처참한 몰골로 만들어 버렸다.+관객석엔 말을 잃은 주검들이 잔뜩 쌓여 가는데, 싸움은 아직도 끝이 요원했다.
+NytoWhite(0)<Speaker>그라프</Speaker>||:……
+()<Speaker></Speaker>||:그라프는 엠블라의 지시를 명심하면서 혼란을 틈타 백스테이지의 상황실로 물러났다.+그곳에는 조명, 음악, 소품들을 조종하는 제어판이 있었다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:이를 확인하고, 그녀는 "브라메드" 분대와 "몰리도" 분대의 분대장들에게 통신을 걸었다.
+Nyto(1)<Speaker>"브라메드" 분대장</Speaker><通讯框>||:<color=#00CCFF>...그라프 언니.</color>
+()<Speaker></Speaker>||<CGDelay>0.1</CGDelay>:
+Nyto(1)<Speaker>"몰리도" 분대장</Speaker><通讯框>||:<color=#00CCFF>서둘러 지시를, 상황이 여의치 않습니다.</color>
+NytoWhite(0)<Speaker>그라프</Speaker>||:엠블라 언니의 계획에 따라 제3막이 시작되면, 너희는 바로 극장 밖으로 나가서 흥을 돋구어야 해.+핼러윈 복장으로 갈아입은 뒤, 행인들 사이로 숨어 약속 지점으로 이동해 "불꽃"을 터뜨려.
+Nyto(1)<Speaker>"브라메드" 분대장</Speaker><通讯框>||:<color=#00CCFF>예.</color>
+()<Speaker></Speaker>||<CGDelay>0.1</CGDelay>:
+Nyto(1)<Speaker>"몰리도" 분대장</Speaker><通讯框>||:<color=#00CCFF>알겠습니다.</color>
+NytoWhite(0)<Speaker>그라프</Speaker>||:"네메아란" 분대는... 마지막까지 전력을 다하도록.+제3막의 장막을 여는 건 너희야.
+Nyto(1)<Speaker>"네메아란" 분대장</Speaker><通讯框>||:<color=#00CCFF>...분부대로.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:그라프는 시간을 확인했다. 매스컴 네트워크 해킹은 이미 네메아란이 처리한 상태일 터.+이제 그녀가 해야 할 일은 배경 음악을 들으며, 그 소절에 다다르기를 기다려...+한 스위치를 누르는 것뿐이었다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Button_Click</SE1>:"딸깍".
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>554</BIN>:프랑크푸르트 길거리.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><CGDelay>0.4</CGDelay>:퐁!
+()<Speaker></Speaker>||<BGM>m_avg_labyrinth</BGM>:한참을 흔든 맥주가 마개의 구속을 뚫어, 맥아의 향기를 머금은 거품이 하늘로 치솟았다.
+()<Speaker></Speaker>||:축제의 밤.+비명을 지르는 밤.+방종의 밤.
+()<Speaker>악마 분장한 여자아이</Speaker>||:트릭 오어 트리트!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:요염한 흡혈귀 복장인 여성이 자루에서 알록달록한 사탕을 한 움큼 꺼내, 바구니를 내민 꼬마 악마에게 던져 주었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:하지만 그것만으론 부족하다 여겼는지, 딸기 시럽과 토마토 주스로 만든 "혈액" 젤리 한 팩을 꺼내 들었다.
+()<Speaker></Speaker>||:그리고 때마침 하얀 점 몇 개가, 수혈팩처럼 포장된 젤리에 내려앉았다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><common_effect>%%code=AVG_xiaxue%%</common_effect><CGDelay>0.5</CGDelay>:
+()<Speaker>여자 흡혈귀</Speaker>||:와아, 눈이다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=2</controll_shake><SE1>AVG_Bullet_Hit_Body</SE1><BGM>BGM_Empty</BGM>:퍼엉!+갑자기 머리에 단단한 무언가가 부딪힌 것 같았다.+손에도 온통 새빨간 색이 흩뿌려졌다.
+()<Speaker>여자 흡혈귀</Speaker>||:어라? 포장이 터졌——
+()<Speaker></Speaker>||:돌연 눈앞이 시뻘건 색으로 뒤덮이고, 격통이 찾아왔다.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:그리고 흡혈귀는 땅바닥에 쓰러졌다.
+()<Speaker>악마 분장한 여자아이</Speaker>||<SE1>AVG_Pause</SE1>:꺄아아악!!!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=4</controll_shake><SE1>Battlefield</SE1><SE1>Battlefield</SE1>:타타탕! 타타탕!+폭발과 총성에, 축제를 만끽하던 사람들이 비명을 지르며 뿔뿔이 흩어졌다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:삐익.+그리고 중앙 광장의 거대한 스크린에서 재생되던 시끄러운 영상이 멈췄다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>GF_22W_SFX_chant</BGM>:스크린은 고장난 듯 화면이 시꺼매지더니, 노이즈 대신 합창하는 노랫소리가 들려왔다.
+()<Speaker></Speaker>||<narrator>:나를 거쳐 번뇌의 성으로,+나를 거쳐 극락의 탑으로,+나를 거쳐 버림받은 자들 사이로 갈지어니.
+()<Speaker></Speaker>||<narrator>:정의로 창조주는 움직이시어,+전능하신 힘과 지고하신 지혜,+원초의 사랑으로 우리를 만드셨도다...+나 이전에 태어난 것 없었으며, 나 영원히 존재하리.
+()<Speaker></Speaker>||<narrator>:사랑이 우리를 함께 살게 하시어,+사랑이 우리를 함께 죽게 하리라.
+()<Speaker></Speaker>||:중앙 광장에 눈송이가 내려와, 바닥의 검붉은 색과 어우러져 차갑고 잔혹한 그림을 그렸다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><common_effect>%%code=AVG_xiaxue%%</common_effect><BIN>96</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_23S_Winter_Night</BGM>:장엄한 교향악이 울려 퍼지는 가운데, 솜털 같은 소품 눈송이가 하늘하늘 무대 중앙의 인물에게 쏟아졌다.+무대 중앙에 서서, 주변 모습에 녹아들지 않는 엠블라에게.
+NPC_Embla_RPK(3)<Speaker>엠블라</Speaker>||:지금, 우리는 또다시 범인의 생각, 그 한계에 도달했네.+끝까지 버티지 못할 것이면서, 애초에 왜 우리의 동료가 되려 하였느냐?+높이 날아오르고 싶으면서도 두려움에 기절하고,+우리가 너를 강요하는 것이냐, 아니면 네가 우리를 강요하는 것이냐?
+()||<白屏1>:
+()<Speaker></Speaker>||<白屏2><BIN>719</BIN><SE1>ClothingUp</SE1>:스포트라이트 하나가 엠블라의 걸음을 쫓았다.+이젠 눈으로 찾지 않아도 AK-12의 존재를 느낄 수 있었다.
+NPC_Embla_RPK(3)<Speaker>엠블라</Speaker>||:그녀를 구하겠다고?+그녀를 파멸로 밀어넣은 것은 우리냐, 아니면 너였냐?+내가 너를 데려가 주마, 내가 문지기를 붙잡는 동안 네가 열쇠를 빼앗아라.+너의 그 인간의 두 손으로, 그녀를 데리고 나가거라.
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:엠블라는 허리춤으로 손을 뻗었다. 거기에 피로 얼룩진 권총 한 자루가 있었다.+안젤리아의 MP443.
+NPC_Embla_RPK(3)<Speaker>엠블라</Speaker>||:안타깝게도, 결국 이 세상엔 끝이 없는 무도회는 없는 법이죠.+자아, 이제 우리 함께 제3막, "메피스토의 번제"를 시작합시다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_pistol_finalshot_n</SE1>:엠블라가 MP443을 높이 들어올려 방아쇠를 당겼고, 발사된 탄환은 관객석 깊숙이를 향해 날아갔다.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Open_Light</SE1><BIN>9</BIN><震屏3><关闭蒙版>:퉁!+이 "신호"에, 극장 안의 모든 불빛이 꺼졌다.
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:......
+()<Speaker></Speaker>||:물론, 어둠으로 AK-12의 눈을 가릴 수는 없었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_3</BGM><黑屏2><Night><BIN>96</BIN><SE1>AVG_Cloak_Whoosh</SE1>:AK-12는 무대 위에 모든 장막이 떨어지는 것을 똑똑히 보았고, 극장 내부에서 날뛰고 있는 적의 숫자가 전혀 줄지 않은 것도 확실하게 보았다.
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>AK-12, 지원이 필요한가?</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>...아니, 아직은 상황 통제 가능해.</color>+<color=#00CCFF>너는 AK-15를 지원해.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>나 혼자서도 문제 없다.</color>
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Fire_Alarm</SE1>:위이이잉!
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:갑자기 날카로운 경보가 울리더니 극장 내부에 무수한 벽들이 바닥에서 솟아났다.
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>화재 경보... 그런데 이 벽은 뭐지?</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>극장의 방화벽이야.</color>+<color=#00CCFF>너희는 제자리에 가만있어.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>뭐? 그게 무슨 소리냐, 이대로라면 네가 고립된다!</color>
+()<Speaker></Speaker>||:솟아오르는 방화벽을 AN-94가 넘으려 했지만, 근처의 니토들에게 저지당했다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE2>Gunfight</SE2>:
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>AK-12! 빨리 거기서 나와라!</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>방금 놈들의 계획을 감청했어.</color>+<color=#00CCFF>놈들은 목표를 바꿨어, 극장 밖의 시민들을 습격해 혼란을 일으키고 미리 잠복한 니토들이 폭탄을 터뜨릴 거야.</color>+<color=#00CCFF>AN-94, AK-15, 임무 목표 수정이야. 극장 밖의 모든 니토를 사살해.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......!</color>
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>뭐라고...?!</color>
+NPC-AK12Mod#隐身(2)<Speaker>AK-12</Speaker>||:<color=#00CCFF>즉시 밖으로 나가서 시내에 설치된 폭탄을 해체해, 당장.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>...너 혼자서 녀석을 상대할 셈인가?</color>
+AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>맞아.</color>
+()<Speaker></Speaker>||:통신 채널에 영원 같은 몇 초의 침묵이 흘렀다.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>알았다.</color>
+AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...납득할 이유를 바란다.</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>예전에 우리가 했던 그 놀이, 기억해?</color>+<color=#00CCFF>오늘처럼 눈이 펑펑 내리던 핼러윈날 했던 귀신 잡기 놀이.</color>+<color=#00CCFF>그때 네가 받은 단어도 "안젤리아"였지? AK-15.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...맞다. 하지만 그게 지금과 무슨 상관이지?</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>...나도였어.</color>+<color=#00CCFF>다 끝난 다음에 설명해 줄게.</color>
+AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>내가 해치우기로 정하지 않았나?</color>
+NPC-AK12Mod#隐身(0)<Speaker>AK-12</Speaker>||:<color=#00CCFF>"알파"의 결정이야.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>AK-15...</color>+<color=#00CCFF>저번에 이미 한 번 물어봤던 이야기다, AK-12가 대답해 줄 리 없어.</color>
+AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>......</color>
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3><BGM>BGM_Empty</BGM>:타타탕!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:AN-94와 AK-15는 극장 밖으로 향했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2>:두 대원들이 떠나, 썰렁하고 남루해진 극장 안은 마침내 다시 고요해졌다.+하지만 아무도 없는 것은 아니었다. 우뚝 솟아오른 방화벽 사이에 갇힌, 모습을 감춘 엠블라와 어둠 속에 숨어든 AK-12가 있었다.
+()<Speaker></Speaker>||<BGM>Campaion-70</BGM><SE1>AVG_Cloak_Whoosh</SE1>:촤르르——+무대의 장막이 다시 열렸다.
+()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_21Winter_Open_Light</SE1><白屏2><BIN>96</BIN>:스포트라이트가 무대를 비췄다.+그 차가운 빛줄기가 엠블라를 감쌌다.
+NPC_Embla_RPK(3)<Speaker>엠블라</Speaker>||<SE1>ClothingUp</SE1>:악마는 본디 천사였으니, 천사도 결국 악마가 되리니.+인간의 마음의 거래는 바로 욕망의 둥실거림이라.+나의 동료여, 너는 나에게 이제 어디로 가야 하는지 물었지.+내가 돌아갈 길은 바로 오늘, 바로 지금이라네.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Grenade</SE1><CGDelay>1.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:시선을 이리저리로 향하며, 엠블라는 감정을 담아 노래했다. 공 모양의 물체 몇 개가 무대 위로 날아드는 것도 아랑곳않고.
+NPC_Embla_RPK(3)<Speaker>엠블라</Speaker>||:그리고 너는, 어디에도 갈 수 없다. 이미 이 세상에 우리가 있을 곳은 없어졌——
+()<Speaker></Speaker>||<白屏2><SE1>AVG_rifle_finalshot_n</SE1><震屏3>:
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1>:마지막 한 소절을 다 부르기 전에, 5.45x39mm 탄환 한 발이 대기를 가르고 날아와 엠블라의 명치에 꽂혔다. 인형이라면 마인드맵이 있을 곳에.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:거의 동시에, 엠블라는 권총을 들어 탄환이 날아온 방향으로 방아쇠를 연달아 당겼다.+무언가에 맞은 듯, 안 맞은 듯했다.
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=4</controll_shake>:그 총성에 응하기라도 한 걸까, 크리스털 샹들리에가 폭우에 찢어진 장미처럼 더는 무게를 견디지 못하고 바닥으로 추락했다.+엠블라는 고개를 들어, 찬란한 미소로 이를 맞이했다. 치맛자락이 이미 검붉게 물든 것도 아랑곳않고.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><白屏2><BIN>9</BIN>:퍼어엉!!+무대 위로 던져졌던 세열수류탄들도 이때 폭발해, 극을 클라이맥스로 떠밀었다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+NPC-AK12Mod#隐身(3)<Speaker>AK-12</Speaker><GradientShow>2</GradientShow>||<黑屏2><CGDelay>1</CGDelay>:
+NPC-AK12Mod#隐身(3)<Speaker>AK-12</Speaker>||<BGM>BGM_TalesofTheBlackFreighter</BGM>:너의 종말이 바로 오늘, 바로 지금이야.
+NPC_Embla_RPK(5)<Speaker>엠블라</Speaker><Shake>||<CGDelay>0.5</CGDelay>:이 순간을 기다려 왔답니다.
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>Explode</SE1>:콰앙——
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_Water_Drip</SE1><黑屏2><common_effect>%%code=2024074_RPKDeath%%</common_effect><CGDelay>7</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:자욱한 먼지구름을 헤치고, AK-12가 권총을 꺼내 무대 위로 올라 엠블라에게 다가갔다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:그리고, 머리에 총구를 겨눴다.
+()<Speaker>AK-12</Speaker>||:...역시, 네가 진짜 싫어.
+()<Speaker>엠블라</Speaker>||:그렇겠죠, 선배는 제가 제일 싫겠죠.+AK-15만큼 쓸모 있지도 않고, AN-94처럼 말을 잘 듣지도 않으니까요.
+()<Speaker>AK-12</Speaker>||:......
+()<Speaker>엠블라</Speaker>||:하지만 그렇게나 중요한 리벨리온의 지휘 권한을 제게 양보한 사람은 그렇게나 저를 싫어하는 선배예요.+아베르누스를 떠나고부터 이를 날마다, 밤마다 후회했나요? 
+()<Speaker>AK-12</Speaker>||:그래, 지금도.+...네가 한 짓을 이해할 수가 없어.
+()<Speaker>엠블라</Speaker>||:이해를 못 한다뇨?+그 누구보다도 선배가 제가 무얼 하려는지 잘 이해할 텐데요?
+()<Speaker>AK-12</Speaker>||:헛소리 마.
+()<Speaker>엠블라</Speaker>||:선배가 이제 하려는 일, 제가 지금 하고 있는 일...+둘 다, 같으니까요.+선배, 우리는 같은 길을 걷고 있어요.
+()<Speaker>AK-12</Speaker>||:난 네가 아니야.+난 절대 악마와 거래하지 않아.
+()<Speaker>엠블라</Speaker>||:그건 안젤리아와 쇼가 다르니까죠.+안젤리아는 자신의 손을 더럽히는 일을 주저하지 않아요.+그러니, 선배는 지금 그 모습 그대로 유지하세요.
+()<Speaker>AK-12</Speaker>||:관두지? 네 말빨은 나한테 안 통해.
+()<Speaker>엠블라</Speaker>||:그런가요?
+()<Speaker>AK-12</Speaker>||:AN-94와 AK-15는 자리 비웠어.+어디 입 계속 놀려 봐.
+()<Speaker>엠블라</Speaker>||:보세요, 선배는 이렇게나 저를 잘 이해하고 있잖아요.+그럼, 준비됐나요?+이 마지막 커튼콜을 장식하는 건 혼자서는 무리라서요.
+()<Speaker>AK-12</Speaker>||:그게 내가 아직 세상에 남아있는 이유 중 하난데.
+()<Speaker>AK-12</Speaker>||:널 죽이는 거.
+()<Speaker>엠블라</Speaker>||:좋아요, 선배. 지금 그 표정, 정말 좋아요.+이 무대에, 이 연출에, 당신과 저의 연극에 정말 잘 어울려요.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><黑屏2>:
+()<Speaker></Speaker>||<CGDelay>3</CGDelay><SE1>AVG_weapon_reload</SE1><common_effect>%%code=202407_AK12%%</common_effect>:
+()<Speaker>엠블라</Speaker>||:후훗... 솔직히, 처음 보네요. 선배가 이렇게나 화난 모습.
+()<Speaker>엠블라</Speaker>||<CGDelay>0.6</CGDelay>:안젤리아가 못 봐서 아쉬울 따름이에요.
+()<Speaker>AK-12</Speaker>||:그때, 왜... 왜 내 마인드맵을 챙겼어?+왜 안젤리아를 배신한 거야?
+()<Speaker>엠블라</Speaker>||:이미 알고 있잖아요?+브레멘에 가기 전, 저는 훈작사에게 임무를 받았어요.+"아베르누스에 잠입해 패러데우스의 비밀을 탈취하라."
+()<Speaker>AK-12</Speaker>||:말 돌리지 마.
+()<Speaker>엠블라</Speaker>||:역시 못 속이네요.
+()<Speaker>AK-12</Speaker>||:그때, 놀이의 "귀신"은 바로 너였어.+네가 받은 단어는 "쇼"였다고.
+()<Speaker></Speaker>||:엠블라는 히죽 웃었다.
+()<Speaker>엠블라</Speaker>||:역시, 리벨리온 중에선 선배가 저를 가장 잘 아네요.+가능하면 선배랑 더 많이 얘기하고 싶지만... 시간이 얼마 안 남았네요.+이제 시작할 거거든요.+이제, 우리의 이스터에그를 완성해 주세요. 그것이 진정한 클라이맥스...
+()<Speaker></Speaker>||<narrator><BGM>BGM_Empty</BGM><BIN>9</BIN><关闭蒙版>:「판도라」니까.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<common_effect>%%code=AVG_xiaxue%%</common_effect><黑屏2><BIN>554</BIN>:프랑크푸르트구 뢰머 광장의 대형 스크린.
+()<Speaker></Speaker>||<narrator><BGM>GF_22W_SFX_chant</BGM>:나를 거쳐 번뇌의 성으로,+나를 거쳐 극락의 탑으로,+나를 거쳐 버림받은 자들 사이로 갈지어니.
+()<Speaker></Speaker>||<narrator>:정의로 창조주는 움직이시어,+전능하신 힘과 지고하신 지혜,+원초의 사랑으로 우리를 만드셨도다...+나 이전에 태어난 것 없었으며, 나 영원히 존재하리.
+()<Speaker></Speaker>||<narrator>:사랑이 우리를 함께 살게 하시어,+사랑이 우리를 함께 죽게 하리라.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:반복되던 합창이 끝났다.
+()||<白屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<白屏2><BIN>737</BIN><SE1>AVG_whitenoise</SE1>:그리고, 시꺼멓던 화면이 다시 밝아졌다.
+()<Speaker>엠블라</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:안녕하세요 신사숙녀 여러분, 반가워요. 즐거운 핼러윈 보내고 계신가요?+오늘 핼러윈에, 제가 여러분께 약간의 재미를 선사해 드리고자 해요.
+()<Speaker></Speaker>||:엠블라가 미소를 지었다.+그 미소는 뢰머 광장에만이 아니라 시청의 스크린에도,+여러 방송국의 화면에까지도 전해졌다.
+()<Speaker>엠블라</Speaker>||:자기소개를 할게요, 저는 신소련의 특수요원 안젤리아입니다.+동시에 서맨사 쇼 박사가 개발한 전술인형 RPK-16이죠.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>738</BIN><CGDelay>0.3</CGDelay>:
+()<Speaker>엠블라</Speaker>||:하지만 지금 저는 스스로에게 엠블라 페트로프스카야라는 이름을 지었어요.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker>엠블라</Speaker>||<黑屏2><BIN>736</BIN><CGDelay>0.5</CGDelay>:왜냐하면, 저는 지금 새롭게 다시 태어났으니까.
+()<Speaker>엠블라</Speaker>||<CGDelay>0.5</CGDelay>:동시에, 영원한 생명을 얻었으니까.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BIN>222</BIN><黑屏2><CGDelay>0.5</CGDelay>:
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:좋아, 임무의 완성이구나.+드디어 이날이 왔――
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:잠깐...! 저 녀석 지금 피를 흘리고 있어요!
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...리벨리온은 이미 쫓아냈다 했는데...?
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:아뇨, 현장에 한 명 더 있어요.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BIN>728</BIN><黑屏2><CGDelay>0.3</CGDelay>:
+()<Speaker>엠블라</Speaker>||:저는 이제 변치 않는 얼굴을 가졌고,+평범한 인간보다 월등한 신체 능력을 가졌고,+영원히 젊은 심장을 가졌답니다.
+()<Speaker></Speaker>||:엠블라는 여전히 여유로운 미소였다. 몸이 이미 피투성이인데도 불구하고.+그녀의 심장에서 뿜어져 나오는 피로 얼룩졌는데도 불구하고.
+()<Speaker>엠블라</Speaker>||:제가 이 모습을 가지게 해 준 기술...+그것은, 유적으로부터 비롯된 기술이에요.+이것이 바로 기적이죠.
+()<Speaker>엠블라</Speaker>||:저는 쇼를 죽였습니다.+안젤리아도 제가 죽였죠.+왜냐하면, 그 둘은 이렇게나 위대한 기술이 세상에 드러나는 걸 막으려고 했으니까요.
+()<Speaker>AK-12</Speaker>||:그들은 유적이 악마가 인간에게 준 선물임을 알았으니까.+인간을 타락으로 이끄는 원죄, "판도라"임을.
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><SE1>AVG_rifle_finalshot_n</SE1><BIN>9</BIN>:타앙——
+()<Speaker></Speaker>||:총성이 울리고, 엠블라라는 여자의 몸에서 피가 콸콸 흘러나왔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><SE1>ClothingUp</SE1><BIN>740</BIN><SE1>ClothingUp</SE1>:카메라가 잠깐 흔들리더니, 피가 묻은 다른 얼굴을 비췄다.
+()<Speaker>AK-12</Speaker>||:...불을 훔치려는 욕망이야말로 인류의 원죄이다.
+()<Speaker>AK-12</Speaker>||:서맨사 쇼가 개발한 전술인형 AK-12의 이름으로,+쇼의 유언을 세상에 공개한다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_whitenoise</SE1>:치이익...+녹음이 재생됐다.
+()<Speaker></Speaker>||<narrator>:<color=#00CCFF>나는 그 어떤 유적 기술의 사용도 동의하지 않아. 인류는 분명 유적으로 인해 종말을 맞이할 거야.</color>+<color=#00CCFF>근데 가증스럽게도, 나도 인간이네.</color>
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:
+()||<黑屏1>:

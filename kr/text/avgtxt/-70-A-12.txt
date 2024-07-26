@@ -1,1 +1,242 @@
-()||<BIN>10</BIN>:Test待替换 -70-A-12 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>412</BIN>:프랑크푸르트, 슈타지 본부, 로미의 사무실.
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:새벽 무렵. 온통 시커먼 건물 안에서 형광등 몇 개만이 여전히 열심히 빛을 내고 있었다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:그 중 한 방에서, 로미는 잔뜩 피곤한 표정으로 아이스 커피를 따랐다.
+NPC-Romy(0)<Speaker>로미</Speaker>||:파인, 오늘은 여기까지 하자.+너 먼저 돌아가, 내일 일찍 출근하고.
+NPC-Hoffmann(1)<Speaker>파인 호프만</Speaker>||:알겠습니다. 야식 주문해 드릴까요?
+NPC-Romy(0)<Speaker>로미</Speaker>||:그래, 1인분 더 시켜. Q 불러오고.
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker>||:...벌써 3시 45분입니다만, Q 요원이 아직 있을까요?
+NPC-Romy(3)<Speaker>로미</Speaker>||:없으면 이번 달 보너스도 없는 거지.
+NPC-Hoffmann(1)<Speaker>파인 호프만</Speaker>||:그럼 분명 있겠군요.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:비서는 사무실의 쓰레기를 정리하고 방을 나섰다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_doorknock_wood</SE1>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>412</BIN>:잠시 지나서 노크 소리가 울렸다. 서류와 모니터 사이에서 바쁜 로미는 고개를 들지도 않았다.
+NPC-Romy(0)<Speaker>로미</Speaker>||:들어와.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:달칵. Q가 서류를 한 아름 들고서 사무실에 들어왔다.
+()<Speaker></Speaker>||:로미는 고개를 들고 잠시 업무에서 자신을 해방시켰다.
+NPC-maya(2)<Speaker>Q</Speaker>||<SE1>AVG_File_Put</SE1>:아베르누스와 미래호의 자료는 전부 여기 있어요.+간단히 요약하자면...+"대공"은 신소련이 아베르누스에 대해 표출한 불만이자, 우리 군에 보낸 경고이기도 해요.+하지만 군 측에선 전혀 신경 안 쓰는 것 같고, 직접 밀수에 참여하기까지 하더라고요.+그리고, 약간 조사한 결과 슈타지 안에도 아직 이중 스파이로 일하는 사람이 많이 있어요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:로미는 잠시 고뇌하다가 주머니에서 담뱃갑을 꺼냈다.
+NPC-Romy(0)<Speaker>로미</Speaker>||:원래 장군은 군과 당 내부를 눌러두기 위한 주춧돌이었어.+그런데 지금 그 주춧돌이 흔들리고 기회를 엿보는 놈들이 있어, 이러다간 나라가 진흙탕에 빠지는 건 시간 문제야.
+NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:대부분은 상황을 지켜보고 있겠죠.
+NPC-Romy(0)<Speaker>로미</Speaker>;NPC-maya(0)||:...세상은 악당 때문에 망하지 않아.+저런 관망하는 사람, 흔들리는 사람들 손에 달려 있지.+악마의 힘이 더 강하면 그들은 완전히 악마 편에 서서 사탄의 공범이 돼.+그러다 성자가 현세에 강림하면 곧바로 경건한 얼굴로 바뀌어서는 처음부터 신실했던 것처럼 기도하지.
+NPC-maya(2)<Speaker>Q</Speaker>||:헤, 그게 바로 보스의 기회가 아닌가요?
+()<Speaker></Speaker>||:로미가 한숨을 쉬었다.
+NPC-Romy(3)<Speaker>로미</Speaker>||:어떨 땐 내가 콜로세움의 맹수 같은 느낌이야.+흉포하고 사나운 역할을 떠맡은 느낌.
+NPC-maya(0)<Speaker>Q</Speaker>||:계단은 이렇게 가파르고 좁으니까요. 오르지 않으면 떨어져서 죽을 뿐.+당신 뒤를 따라 같이 오르는 사람까지 덩달아 떨어지고 말아요.+보스가 잠깐 쉬고 싶다고 해도 밑에 있는 사람이 가만두질 않겠죠.
+NPC-Romy(0)<Speaker>로미</Speaker>||:그렇지, 장군은 바로 그 점을 몰라서 몇 가지를 남에게 양보해 버린 거야.+그 사람은 자신의 한 순간의 관용과 주저가 우리에게 얼마나 큰 공포로 돌아오는지 전혀 모르고 있어.
+NPC-maya(0)<Speaker>Q</Speaker>||:그럼, 보스는 준비되셨나요?
+()<Speaker></Speaker>||<SE1>SAC_2045_LighterOpen</SE1>:로미가 담배에 불을 붙이고 깊이 빨아들였다. 그녀의 입가에서 연기가 새어나왔다.
+NPC-Romy(0)<Speaker>로미</Speaker>||:물론이지, 내게 실패는 절대 용납 안 돼.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그녀는 Q를 슬쩍 보고서, 오른손 검지로 자신의 심장을 가리켰다.
+NPC-Romy(1)<Speaker>로미</Speaker>||:최소한 화이트존은 우리가 쥐고 있어야 해.+이번에 신소련에 파견 가서 아주 잘해 줬어, 우리 손을 아주 깨끗하게 닦아줬지.
+NPC-Romy(1);NPC-maya(2)<Speaker>Q</Speaker>||:그 점은 안심하셔도 돼요, 서맨사 쇼의 일은 저희가 예상한 방향으로 흘러가고 있으니까요.+그녀의 프로필도 이미 준비했어요.
+NPC-Romy(0)<Speaker>로미</Speaker>;NPC-maya(2)||:...연말까지 화이트존의 수비병력을 전부 우리편으로 만들었으면 해.+할 수 있겠어?
+NPC-Romy(0);NPC-maya(2)<Speaker>Q</Speaker>||:에이, 그런 것보단 제 추가 수당이 중요하죠.+이번 주 추가 근무 시간, 이미 규정 초과예요 보스.
+NPC-Romy(0)<Speaker>로미</Speaker>;NPC-maya(2)||:이번 일 다 끝나면 휴가 줄게.
+NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:그 얘기 처음 들은 지 3년하고도 또 3년 지났어요, 보스. 모스크바에서만 몇 번을 들었는데요.
+NPC-Romy(1)<Speaker>로미</Speaker>;NPC-maya(0)||:그만큼 네가 슈타지에서 짬이 찼고, 이제 승진할 차례라는 거지.
+NPC-maya(2)<Speaker>Q</Speaker>||:아이고, 돈 잘 주는 거 말곤 아무것도 없는 우리 직장, 정말 사랑스러워 죽겠네.
+()||<黑屏1><CGDelay>1</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><BGM>BGM_Empty</BGM>:프랑크푸르트, 화이트존. 일반 직원 출입구.
+()||:몇 번이고 계속된 검문을 통과해서 브리짓은 마침내 관문 앞에 도달했다.+다양하고 번거로운 수속에 인형인 브리짓조차 염증이 날 정도였다.
+()<Speaker></Speaker>||:하지만 이 마지막 관문에서 프랑크푸르트 경비단 병사가 그녀를 또 가로막았다.
+()<Speaker>경비단 병사</Speaker>||<SE1>ClothingUp</SE1>:신분과 목적.
+PPQ(0)<Speaker>브리짓</Speaker>||<BGM>GF_2022_Summer_Battle_1</BGM>:안녕하세요, 국가안전국 요원 인형인 코드네임 브리짓입니다.+부서의 허가를 받아 자료 입력을 하러 왔습니다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:경비단 병사는 브리짓이 든 서류를 건네받아 자세하게 검사했다.
+()<Speaker>경비단 병사</Speaker>||:슈타지의 인형? 너 마인드맵 코어가 작동하는 중이냐?
+PPQ(0)<Speaker>브리짓</Speaker>||:어... 네, 작동 안 했으면 전 여기 못 있죠.
+()<Speaker>경비단 병사</Speaker>||:그럼 통과할 수 없다.
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:경비단 병사가 서류를 브리짓에게 툭 던졌다.
+()<Speaker>경비단 병사</Speaker>||:마인드맵을 탑재한 인형은 통과할 수 없다, 규정이다.
+PPQ(0)<Speaker>브리짓</Speaker>||:...슈타지 인형이 슈타지 자료실에 자료를 저장하려는 건데.+그럼 어떻게 하라는 건데요?
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:마인드맵 코어가 없는 인형을 쓰든가.+아니면 검문 통과할 수 있는 인간 보고 오라고 하든가.
+PPQ(0)<Speaker>브리짓</Speaker>||:...이 자료는 최고 기밀이므로 제3자에게 맡길 수 없습니다.+그리고 제 상급자는 이걸 운반할 시간이 없습니다.
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:그건 슈타지 사정이지.+우리는 화이트존의 규칙을 따른다.
+PPQ(0)<Speaker>브리짓</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:브리짓은 할 수 없이 J에게 통신을 걸었지만 연결되지 않았다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:경비단 병사는 그걸 보고 콧방귀를 뀌더니, 벽을 가리키며 브리짓에게 눈치를 줬다.
+()<Speaker></Speaker>||:벽에는 신호 차단 구역 표시가 있었다.
+()<Speaker>경비단 병사</Speaker>||:여긴 신호 차단 구역이다.+왔던 길로 돌아가라.
+PPQ(0)<Speaker>브리짓</Speaker><Shake>||:저기요!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Doorbell</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:그녀가 반박하기도 전에 경비단 병사는 엘리베이터 버튼을 눌러 그녀를 툭 밀어넣었다.
+()||<黑点1><SE1>AVG_door_elecport</SE1>:
+()<Speaker></Speaker>||<黑点2><BIN>749</BIN>:브리짓은 엘리베이터 입구로 돌아올 수밖에 없었다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:슈타지 내부 회선에 연결된 것을 확인한 후, 브리짓은 통신기에다 울분을 토했다.
+PPQ(0)<Speaker>브리짓</Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=8</controll_shake>:<size=50>J——!!!!!!</size>
+PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>우와악 뭐야!? 뭐 긴급 상황이야?</color>
+PPQ(0)<Speaker>브리짓</Speaker>;NPC-Keven(9)||:경비단에서 자료실에 들여보내 주질 않습니다.
+PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>뭐어? 신청은 다 통과했는데? 뭣 때문에?</color>
+PPQ(0)<Speaker>브리짓</Speaker>;NPC-Keven(9)||:규정 때문에 마인드맵 코어를 단 인형은 못 들어갈 수 없다고 합니다.+자료 저장하고 싶으면 마인드맵 없는 인형이나, 검문 통과할 수 있는 인간을 보내라더군요.
+PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>그게 어느 동네 규정이야? 생전 처음 듣는데?</color>+<color=#00CCFF>그 자식들, 일부러 텃세 부리는구만.</color>
+PPQ(0)<Speaker>브리짓</Speaker>;NPC-Keven(7)||:그럼 이제 어떡하죠?
+PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>15분만 기다려, 금방 갈게.</color>
+PPQ(0)<Speaker>브리짓</Speaker>;NPC-Keven(7)||:15분이요? 뭐 그렇게 한참 걸립니까? 지금 뭐하는데요?
+PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>몰라!</color>
+PPQ(0)<Speaker>브리짓</Speaker>;NPC-Keven(9)||:설마 또 교통 단속 걸렸나요?
+NPC-Keven(12)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>아 닥쳐! 내가 15분이라면 15분이야!!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:J가 통신을 끊었다.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:마음을 다시 추스린 다음, 브리짓은 미소를 띄우고 엘리베이터로 돌아갔다...
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:경비단 병사 옷을 입은 한 사람이 밝게 미소짓는 인형을 데리고 브리짓 옆을 지나갔다.
+()<Speaker>경비단 병사</Speaker>||:토마스, 오늘 또 네가 근무야?
+()<Speaker>토마스</Speaker>||<SE1>Stop_AVG_loop</SE1>:어, 근무 교대할 제2경비단 사람은 내일에야 온대.+소장님 당직병이 여기 와서 물건 좀 꺼내달라고 했어, 문 좀 열어줘.
+()<Speaker>경비단 병사</Speaker>||:수고하네.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:브리짓은 관문 앞을 막아섰다. 그녀가 간신히 짜낸 미소가 바로 굳어버렸다.
+PPQ(0)<Speaker>브리짓</Speaker>||:잠깐만요, 저 인형도 마인드맵 코어가 있잖습니까!+왜 쟤는 들여보내 줬죠?!
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:얘는 군 소속 의료 인형이거든.
+PPQ(0)<Speaker>브리짓</Speaker>||:검문도 수속도 안 하고요? 게다가 네트워크 연결도 안 끊고?+당신들 규정은 장식입니까? 일단 인트라넷은 슈타지의 범위죠?
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:네가 우리 규정에 간섭할 권한은 없어.
+PPQ(0)<Speaker>브리짓</Speaker><Shake>||:<size=50>규정이 순 빵꾸투성이잖아요!</size>
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:규정에 불만이 있으면 그쪽 장관에게 문의해.
+PPQ(0)<Speaker>브리짓</Speaker>||:같은 규칙인데 왜 우리한테만 지키라 하고 저 인형은 안 지켜도 되는 건데요?+<size=50>안 돼요, 얘도 못 들어갑니다!</size>
+()<Speaker></Speaker>||:토마스라는 경비단 병사가 눈살을 찌푸리며 걸음을 멈췄다.
+()<Speaker></Speaker>||:그는 브리짓을 무시하고 바로 군용 의료 인형에게 경비단 병사 전용 통로를 열어줬다.
+()<Speaker>경비단 병사</Speaker>||:로라, 바로 들어가.
+NPC-Maid(0)<Speaker>로라</Speaker>||:네, 규정을 준수하겠습니다.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:브리짓이 경비단 병사와 실랑이를 벌이는 사이에 로라는 빠르게 관문을 통과했다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:......+AK-15는 조용히 눈앞의 소체를 주시하면서 주변의 기척을 경계했다.
+()<Speaker></Speaker>||<CGDelay>0.3</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:삐이 삐, 삐이 삐.+소체가 손에 든 신호기가 네 번 울렸다.+— · — · , 연결에 성공했다는 알림이다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:한 치의 소홀함도 없이, AK-15는 경계 태세를 강화했다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>714</BIN><BGM>10295</BGM>:경비단 병사의 안내를 받아서, 로라는 전용 통로를 통해 화이트존에 진입하여 원래라면 거쳐야 할 검사 절차를 생략했다.+그녀가 지었던 미소는 이미 온데간데없었다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:......+아이러니하네, 블랙존은 하늘 위에 있고, 화이트존은 땅속에 있다니.
+()<Speaker></Speaker>||:갈림길 앞에서 그녀는 지시대로 경비단 막사로 향하지 않고, 몸을 돌려 슈타지 기밀 자료실로 향했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>744</BIN>:넓은 로비를 지나서, 이 인형은 왼쪽 벽 네 번째 슬라이딩 도어 앞에 도착했다. 문에는 어떤 표시도 없었다.
+()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:그녀는 벽에 붙은 신원 인증 시스템을 터치했다.
+()<Speaker>시스템</Speaker>||:<color=#FFFF00>신원을 인증하십시오.</color>
+NPC-Maid(0)<Speaker>로라</Speaker>||:알았어.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:평온한 고요 속에서 인형은 바로 인증 시스템을 해킹했다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:...설마 패러데우스와 국가안전국이 이렇게나 밀접한 관계일 줄이야.+정보 인증 시스템마저 호환되다니...
+()<Speaker>시스템</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:<color=#FFFF00>인증 통과했습니다.</color>
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><CGDelay>1</CGDelay>:
+()<Speaker></Speaker>||:60cm 두께의 합금 문이 열리고 그녀는 안으로 들어갔다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:문으로 들어가 왼쪽으로 돌자, 끝이 보이지 않는 어두운 복도가 펼쳐졌다.+어떠한 특수 소재를 사용한 듯, 일반 인형의 전자 안구로도 어두운 복도의 전모를 탐지할 수가 없었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그녀는 시험 삼아 한 걸음 내디뎠다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>747</BIN>:머리 위의 LED등이 조용히 켜져 전방 1m 가량의 범위를 밝혔다.+바닥이 등불을 반사하니 5cm 너비의 하얀 형광이 밝혀져, 마치 도로의 중앙분계선처럼 희미하게 길을 가리켰다.+복도는 광흡수 소재를 썼는지, 몸 앞이 서서히 밝아지면서 등뒤는 다시 어둠에 잠겼다, 그리고 발소리가 되울렸다.+그녀는 몇 미터마다 양쪽에 금속 문이 있는 것을 눈치챘다. 하지만 그녀는 문고리를 건드리지 않고 그저 메모리 카드를 주시하면서 계속 전진했다.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Baggage_bomb_Activation</SE1>:그러다 메모리 카드의 푸른 빛이 하얗게 변했다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>시각과 촉각을 교란하는 건가... 도구에 의존하지 않고선 가야 할 곳을 알아낼 수 없도록...</color>
+()<Speaker></Speaker>||:하지만 앞에 있는 것은 문이 아닌 금속 벽면이었다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:응?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:삐이, 삐, 삐, 삐.+마인드맵 안에 갑자기 알림이 네 번 울렸다. — · · · , 사전에 정했던 신호다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:로라는 주머니에서 거울을 꺼냈다. 거울을 통해서 붉은 레이저 포인터 두 개가 등뒤에서 소리 없이 그녀의 머리와 가슴을 겨누고 있는 것이 보였다.
+()||<黑点1>:
+NPC-Maid(0)<Speaker>로라</Speaker>||<BIN>746</BIN><黑点2>:......!
+()<Speaker></Speaker>||:그녀는 속으로 흠칫했다, 이 매끄러운 금속 벽면뿐인 복도에서 엄폐물은 아무것도 없었다.+가장 중요한 건 이 복도에는 분명 셀 수 없이 많은 보호 장치가 설치돼 있으리라는 점이다. 무작정 움직였다간 즉시 벌집이 될 것이 뻔했다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:......
+()<Speaker></Speaker>||:그녀는 벽에 움푹 파인 곳이 있고, 표면에 서로 다른 규격의 단자 4개가 있는 것을 발견했다.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:레이저 포인터를 눈치채지 못한 척을 하면서, 로라는 천천히 데이터 카드를 들어 차분하게 단자에 꽂았다.+붉은 레이저 포인터는 그녀의 동작에 따라 움직이며 꿋꿋하게 머리와 심장을 겨눴다. 만약 여기 있는 것이 평범한 인간이었다면 절대 눈치챌 수 없을 것이다.
+()<Speaker></Speaker>||:데이터 카드의 빛은 호흡하는 것처럼 몇 초 동안 깜빡이더니 다시 원래 밝기로 돌아왔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>747</BIN><SE1>AVG_Button_Click</SE1>:그녀는 데이터 카드를 뽑았다. 다시 거울을 보니 레이저 포인터는 사라져 있었다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>휴우... 보안이 이렇게 삼엄하다니...</color>+<color=#A9A9A9>그래도 다행이야...</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그녀는 몇 걸음 물러난 뒤 품에서... 붉은 빛이 나는 두 번째 데이터 카드를 꺼냈다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>744</BIN>:그녀는 슬라이딩 도어 앞으로 돌아갔다. 이번엔 오른쪽으로 아까처럼 길을 꺾자 똑같은 복도가 나왔다.+이번에는 10m가량을 걸어가 한 합금문 앞에 멈췄다.+아까와 달리, 어둠 속에서 문지기가 조용히 문 앞에 서있었다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:임무 NUSSRB476438923127649 관련 자료를 조회하러 왔습니다.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><SE1>AVG_keyboardtype_sci</SE1>:문지기의 전자 안구가 빨간 빛을 뿜어 메모리 카드를 인증하자, 합금 문이 열렸다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><CGDelay>0.7</CGDelay><BIN>742</BIN>:
+()<Speaker></Speaker>||:문 뒤는 2500제곱피트 정도 넓이의 서버 룸이었다. 서버 기기들이 유리 캐비닛에 봉인되어 램프를 깜빡이면서 낮은 소리로 울어댔다.
+()<Speaker></Speaker>||:실내 온도 24도, 습도 45%. 전체적으로 쾌적한 편이었다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>쓰기와 읽기를 각각 다른 곳에서 하는구나...</color>
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:그녀는 조작 구역으로 걸어가 붉은 빛을 내는 메모리 카드를 슬롯에 끼웠다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>데이터 조회하는 서버룸은 평범하네.</color>
+()<Speaker></Speaker>||:그런 생각을 한 순간, 확 하고 방 전체가 새하얀 빛에 삼켜졌다.
+()||<白屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<白屏2><BIN>72</BIN>:아니, 그곳은 현실 공간이 아닌 특수한 전자 공간이었다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>무슨 자료를 꺼낼 수 있나 어디 볼까...</color>
+()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:그녀는 가볍게 손짓하여 콘솔 창을 열었다. 가볍게 코드를 몇 줄 입력하니, 여러 개의 창이 데이터가 흐르면서 나타났다가 또 빠르게 사라졌다.
+()<Speaker></Speaker>||:마지막으로 나타난 인터페이스에 그녀는 권한 코드를 입력하고 전송을 눌렀다.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:무수한 데이터 스트림이 쏟아졌다, 0과 1의 격류 속에서 그녀는 데이터로 이루어진 "서버"들을 보았다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>이 데이터 운행 방식... 어떻게 아베르누스와 이렇게 똑같을 수가 있지...</color>+<color=#A9A9A9>설마 슈타지의 정보망을 아베르누스가 제공한 걸까?</color>+<color=#A9A9A9>이 분야에서 독일 정부의 신용도를 생각하면, 아주 예전부터 협력관계였을 수도 있겠어...</color>
+()<Speaker></Speaker>||:그녀는 속으로 비아냥거리며 손에 데이터화한 "메모리 카드"를 바라봤다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:<color=#A9A9A9>그럼, 내가 찾는 물건이 여기에 있을까...</color>
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:그녀는 빠르게 한 이름을 입력했다. 서맨사 쇼.
+()<Speaker></Speaker>||:100페이지에 달하는 파일이 눈앞에 나타났다. 그녀는 그것을 복사하려다가 손을 멈췄다.
+()<Speaker></Speaker>||:그리고 복사하는 대신 스크롤을 내려, 모든 내용을 빠르게 읽은 다음 인터페이스를 닫았다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BIN>742</BIN>:
+()<Speaker></Speaker>||:눈앞의 풍경은 다시 서버룸으로 돌아왔고, 메모리 카드의 붉은 빛은 초록색으로 바뀌었다.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:그녀는 메모리 카드를 뽑았다.
+NPC-Maid(0)<Speaker>로라</Speaker>||:...임무 완료!
+()<Speaker></Speaker>||:로라는 가벼운 걸음걸이로 문 앞으로 돌아가 떠날 준비를 했다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Select</SE1>:철컥, 장전하는 소리와 함께 문지기가 총구를 그녀에게 겨눴다.
+()<Speaker>수위 인형</Speaker>||<BGM>11335</BGM>:임무와 무관한 조회 기록을 감지! 권한을 제시하라!
+()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><SE1>AVG_weapon_reload</SE1>:
+()<Speaker></Speaker>||<SE1>Select</SE1><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:레이저 포인터 수십 줄기가 거의 동시에 그녀의 몸을 뒤덮었다.
+()<Speaker>수위 인형</Speaker>||:반복한다, 월권 행위를 확인했다. 권한을 제시하라! 600초 안에 응답하지 않으면 무제한 발포한다!
+NPC-Maid(0)<Speaker>로라</Speaker>||:......!
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>745</BIN>:
+PPQ(0)<Speaker>브리짓</Speaker>||:뭐라든 해명해 주세요, 왜 슈타지 인형하고 군 인형을 차별대우하는 거죠?
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:규정이 그래. 그 둘은 권한 범위가 달라.
+PPQ(0)<Speaker>브리짓</Speaker>||:...조항은 둘 다 같은 걸 적용받는데 말이죠. 제가 보기에 당신은 저한테 이른바 갑질을 하는 것 같군요.
+PPQ(0)<Speaker>경비단 병사</Speaker><同时置暗>||:이의가 있으면 그쪽 장관한테 제기해. 여기서 나하고 실랑이 벌이지 말고.+계속 안 떠나면 다른 동료에게 지원을 요청하겠다.
+()<Speaker></Speaker>||<SE2>Alarm</SE2>:위이잉!+갑작스러운 경보가 다툼을 끊었고, 브리짓은 상대의 얼굴이 순식간에 창백해진 것을 봤다.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:바쁜 발걸음이 들려오고, J가 마침내 현장에 도착했다.
+NPC-Keven(12)<Speaker>J</Speaker>||:어우 씨, 이 교통경찰 정말 인정이란 게 없네...+브리짓, 지금 이 경보는 무슨 상황이야?
+PPQ(0)<Speaker>브리짓</Speaker>||:저도 모릅니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:긴급 통신을 받고서, 경비단 병사가 엄숙하게 J와 브리짓에게 고개를 돌렸다.
+()<Speaker>경비단 병사</Speaker>||:국가안전국 자료실에서 경보가 울렸다.+너희 둘, 함께 따라와라.
+PPQ(0)<Speaker>브리짓</Speaker>||:네? 어디 자료실이라고요?
+NPC-Keven(7)<Speaker>J</Speaker>||:다시 말해 줄래?
+()<Speaker>경비단 병사</Speaker>||:슈타지 기밀자료실.
+()||<黑点1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay><BIN>742</BIN>:
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:경비단 병사가 도착했을 때, "로라"라는 의료 인형은 이미 시스템이 정지된 상태였다.
+NPC-Keven(7)<Speaker>J</Speaker>||:인형 정보.
+()<Speaker>경비단 병사</Speaker>||:군용 의료 인형, 경비단 7호 막사 소속, 로라.
+NPC-Keven(7)<Speaker>J</Speaker>||:로라?
+()<Speaker></Speaker>||:J는 브리짓에게 총을 들고 천천히 다가가라 손짓했다.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:털썩, 의료 인형은 그대로 바닥에 쓰러졌다.
+NPC-Keven(7)<Speaker>J</Speaker>||:브리짓, 이 자리에서 경계 유지해.+너희는 올라가서 검사해.
+()<Speaker></Speaker>||:경비단 병사는 경계를 늦추지 않고 조심조심 다가가 안전을 확인한 다음에 몸을 숙여 검사했다.
+()<Speaker>경비단 병사</Speaker>||:시스템 정지 확인.
+NPC-Keven(7)<Speaker>J</Speaker>||:자세히 검사해, 신원 미상 신호 연결된 거 없어?
+()<Speaker>경비단 병사</Speaker>||:없다, 모든 신호가 단절되었다.
+PPQ(0)<Speaker>브리짓</Speaker>||:마인드맵이 해킹됐습니다. 누가 이 인형의 소체를 조종한 거죠...
+()<Speaker>경비단 병사</Speaker>||:화이트존은 모든 외부 신호를 차단하고 있다, 방금 이 시간대의 모든 신호원을 검사했지만 외부 방문 흔적은 없었다.
+PPQ(0)<Speaker>브리짓</Speaker>||:그렇다는 건 신호는 내부에서...
+NPC-Keven(7)<Speaker>J</Speaker>||:단거리 무선 통신이야, 로라의 소체를 조종한 인물은... 여기서 300m 범위 안에 있어!
+NPC-Keven(12)<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Punch_Hit</SE1><震屏3>:여길 중심으로 반경 300m 안은 싹 다 뒤져!
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>GF_22W_BGM_4</BGM>:
+()||<黑屏1><CGDelay>0.7</CGDelay><SE1>AVG_AMB_Wind</SE1>:
+()<Speaker></Speaker>||<黑屏2><CGDelay>0.8</CGDelay><BIN>658</BIN>:
+()<Speaker></Speaker>||:AN-94가 한 사무소 건물 바깥 광장에 서서 멀리 우뚝 솟은 격리벽을 바라봤다.
+AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>AVG_tele_connect</SE1>:AK-12, 그쪽 상황은 어떤가?+AK-15가 너의 소체를 지키고 있긴 하지만, 그쪽 위치는 매우 위험하다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>...쇼의 프로필을 찾아냈어. 하지만 근처 무장병력이 빠르게 모이고 있어.</color>
+AN94MOD(4)<Speaker>AN-94</Speaker>||:바로 마중 나가겠다!
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>...그래.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:
+()||<黑屏1><CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
+AK15MOD(3)<Speaker>AK-15</Speaker>||<CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:...AK-15는 구석에 쪼그려 앉아 언제든지 나타날 수 있는 위협에 대비했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:눈앞의 인형이 서서히 눈을 떴다.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
+()<Speaker>AK-12</Speaker>||:목표 확보, 철수 준비해.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15는 조용히 일어섰다, 그녀는 언제나 싸울 준비가 되어 있었다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>2</CGDelay><common_effect>%%code=202407_Stealth%%</common_effect>:
+()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>1.7</CGDelay>:
+()<Speaker>AK-12</Speaker>||:무장 유닛 다수 접근 중, 엄호해.
+()<Speaker>AK-15</Speaker>||<SE1>AVG_2022Saros_SCARL1</SE1>:...알았다.
+()||<黑点1>:

@@ -1,1 +1,41 @@
-()||<BIN>10</BIN>:Test待替换 -70-E-1 。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM><黑屏2><BIN>506</BIN>:베를린, 베를린 방송국.
+()<Speaker>DDR1 방송국 국장</Speaker>||:섀도리스, 혹시 우리 방송국의 영향력이 점점 약해지는 것 때문에 2번국으로 가려는 거야?+2번국이 프랑크푸르트에 있으니까?+우리 1번국이야말로 민주 독일 방송의 근간이야!+2번국에 가봤자 월급도 안 오르고, 거긴 이미 TO 가득 찼어!+그러니까 진정하고, 이러는 건 어때? 다음달 월급 인상 명단에 너 넣어 줄게.+그리고 내년에 중요한 자리 있으면 거기에 추천도 해――
+NPC-Shadowless(8)<Speaker>섀도리스</Speaker>||:사양하겠습니다, 국장님.+돈이나 명예 때문에 2번국으로 가려는 게 아니에요. 돈이나 명예 때문에 여기 남지도 않을 거고요.+국장님, 저는 "판도라" 사건의 진실을 조사하고 싶어요.
+()<Speaker>DDR1 방송국 국장</Speaker>||:아니 그런 핑계로 둘러대지 말고, 응?
+NPC-Shadowless(8)<Speaker>섀도리스</Speaker>||:어차피 제 이직 신청서 이미 절차 끝났어요, 2번국도 제 신청 수락했고요.+국장님이 안 하셨어도, 메일 보내고 7일 지나서 자동 통과됐죠.
+()<Speaker></Speaker>||:......
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>417</BIN>:프랑크푸르트, 슈타지 본부.
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1><CGDelay>0.4</CGDelay>:
+NPC-Keven(6)<Speaker>J</Speaker>||:제가 아는 리벨리온 멤버의 자료, 다 여기 있어요.
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:흠... 완전히 쓸모 없다곤 못하겠지만...+다 하찮네.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(0)||:이번 일은 제가 조사할게요!
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker>||:됐어, 다른 사람 보낼 거야.
+NPC-Keven(12)<Speaker>J</Speaker>;NPC-maya(0)||:아 저 못 믿는다 이겁니까!? 사적 감정으로 일 그르칠까 봐?!
+NPC-Keven(12);NPC-maya(0)<Speaker>Q</Speaker>||:...이런 민감한 시기에, 슈타지의 명성에 금이 가는 일은 최대한 피하고 싶어.
+NPC-Keven(7)<Speaker>J</Speaker>||:......
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>222</BIN><CGDelay>0.5</CGDelay>:
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:네메아란 언니, 저 지금 뭐라 말하면 좋을까요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...아무 말도. 아무 말도 말거라. 다 듣기 싫은 말일 테니.
+NPC-MorridowNew(0)<Speaker>몰리도</Speaker>||:엠블라의 이번 「파우스트」는 대체 무슨 내용이죠?+그 녀석이 메피스토인 게 아니었나요?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...당한 만큼, 반드시 갚아 주겠다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:――라는 말이라도 듣고 싶으냐, 몰리도?+그렇다면 유감이구나, 나는 감성적인 니토가 아니란다. 나에게서 네가 원하는 재미있는 반응은 보지 못할 거야.+우리에겐 아직 수행해야 할 임무가 있다.+고치 계획을 재기동하는 것이 최우선 사항이야.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>7</BIN><CGDelay>0.5</CGDelay>:............
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:아무도 없는 조용한 눈밭에서, AK-12가 AR-18에게 통신을 걸었다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:"나쟈"를 처리했어.
+NPC-AK12Mod(4);AR18(0)<Speaker>AR-18</Speaker><通讯框>||:<color=#00CCFF>알았다.</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>;AR18(0)||:그리고 아주 중요한 정보를 얻었어.+벌침 시스템의 서버는, 마인강의 바닥에 숨겨져 있어.
+NPC-AK12Mod(4);AR18(0)<Speaker>AR-18</Speaker><通讯框>||:<color=#00CCFF>이쪽은 허가 문제를 해결했으니, 곧 프랑크푸르트에서 접선하게 될 거다.</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:그래.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:통신을 종료한 AK-12의 앞에, 계란마냥 작은 주황빛 반점이 서서히 떠올라 하늘을 붉게 물들여 갔다.+이에 그녀는 눈썹을 씰룩였다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:봐, 안젤리아. 네가 제일 싫어하는 해돋이야.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:총을 단단히 쥐고서, 알파 늑대는 하얀 눈밭으로 사라졌다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑点1>:
