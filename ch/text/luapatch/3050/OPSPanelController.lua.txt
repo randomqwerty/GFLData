@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
-
+xlua.private_accessible(CS.OPSPanelBackGround)
+xlua.private_accessible(CS.OPSPanelSpot)
 local ReturnContainerPos = function(self)
 	if CS.OPSPanelBackGround.currentContainerId ~= 0 then
 		for i=0,CS.OPSPanelBackGround.Instance.opsMissionContainers.Count-1 do
@@ -122,12 +123,37 @@ local ShowNewTag = function(self)
 		end
 	end
 end
+local CheckIsolateSpots = function(self)
+	self:CheckIsolateSpots();
+	for i=0,CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
+		local spot = CS.OPSPanelBackGround.Instance.all3dSpots:GetDataByIndex(i);
+		if spot.holder == nil then
+			spot:Show();
+		end
+	end
+end
+local Init = function(self)
+	self.difficulty = self.info.difficulty;
+	self:Init();
+end
+
+local Show = function(self,play,delay)
+	if not self.CanShow then
+		--CS.NDebug.Log("HideSpot",self.index);
+		self.gameObject:SetActive(false);
+		return;
+	end
+	self:Show(play,delay);
+end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
 util.hotfix_ex(CS.OPSPanelController,'MoveSelectDiskMission',MoveSelectDiskMission)
 util.hotfix_ex(CS.OPSPanelController,'MoveSpine',MoveSpine)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
 util.hotfix_ex(CS.OPSPanelBackGround,'CheckNewsPos',CheckNewsPos)
 util.hotfix_ex(CS.OPSPanelSpot,'ShowNewTag',ShowNewTag)
+util.hotfix_ex(CS.OPSPanelSpot,'Init',Init)
+util.hotfix_ex(CS.OPSPanelSpot,'Show',Show)
 
