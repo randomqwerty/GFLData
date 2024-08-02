@@ -249,6 +249,21 @@ function ClickMission(name)
 		elseif name == "MissionInfinite" then
 			OPSPanelMissionBase.opsMission.missionIds:Add(11113);
 			OPSPanelMissionBase.opsMission.missionIds:Add(11114);
+		elseif name == "MissionPrologue" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11098);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11098);
+		elseif name == "MissionEpilogue" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11112);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11112);
+		elseif name == "MissionEnding1" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11691);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11691);
+		elseif name == "MissionEnding2" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11692);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11692);
+		elseif name == "MissionEnding3" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11693);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11693);		
 		end
 	end
 	ShowSpecialUI(false);
@@ -982,7 +997,7 @@ function ShowVoto()--显示立绘列表界面
 end
 
 local clearCount = 0;
-local allCount = 18;
+local allCount = 20;
 function CheckMission(missionId)
 	local mission = CS.GameData.listMission:GetDataById(missionId);
 	if mission ~= nil and mission.UseWinCounter>0 then
@@ -1016,6 +1031,136 @@ function ShowProcess()
 		CheckMission(11692);
 		CheckMission(11693);
 		processTxt.text = CS.Data.GetLang(30251)..tostring(clearCount).."/"..tostring(allCount);
+	end
+end
+
+local InitClockData = function(self)
+	self:InitClockData();	
+	local opsmission = GetOPSMission("Mission1");
+	local infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("Mission2");
+	if CS.OPSConfig.missionEntranceInfos:ContainsKey(opsmission.entranceId) then
+		infos = self:CheckProcessInfo(opsmission);
+		if infos.Count == 2 and infos[0].mission == infos[1].mission then
+			self.processInfos:Add(infos[0]);
+		else
+			self.processInfos:AddRange(infos);
+		end
+	end
+	opsmission = GetOPSMission("Mission3");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("Mission4");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("Mission5");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("Mission6");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	--opsmission = GetOPSMission("MissionSpecial");
+	--infos = self:CheckProcessInfo(opsmission);
+	--self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionInfinite");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionPrologue");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionEpilogue");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionEnding1");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionEnding2");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionEnding3");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+end
+local SelectProcessInfo = function(self,processInfo)
+	self:SelectProcessInfo(processInfo);
+	local missionid = processInfo.mission.missionInfo.id;
+	CS.NDebug.Log("missionid",missionid);
+	if missionid == 11115 then
+		ClickMission("Mission1");
+	elseif missionid == 11103 or missionid == 11104 then
+		ClickMission("Mission3");
+	elseif missionid == 11105 or missionid == 11106 then
+		ClickMission("Mission4");
+	elseif missionid == 11101 or missionid == 11102 then	
+		ClickMission("Mission5");
+	elseif missionid == 11099 or missionid == 11100 then
+		ClickMission("Mission6");	
+	elseif missionid == 11098 then
+		ClickMission("MissionPrologue");
+	elseif missionid == 11113 or missionid == 11114 then	
+		ClickMission("MissionInfinite");
+	elseif missionid == 11112 then	
+		ClickMission("MissionEpilogue");	
+	elseif missionid == 11691 then
+		ClickMission("MissionEnding1");
+	elseif missionid == 11692 then
+		ClickMission("MissionEnding2");
+	elseif missionid == 11693 then	
+		ClickMission("MissionEnding3");
+	else
+		ClickMission("Mission2");
+	end		
+end
+function GetOPSMission(txt)
+	local opsmission = CS.OPSMission();
+	if txt == "Mission1" then
+		opsmission.missionIds:Add(11115);
+		opsmission.missionIds:Add(11115);
+	elseif txt == "Mission2" then
+		opsmission.entranceId = 1110700;
+	elseif txt == "Mission3" then
+		opsmission.missionIds:Add(11103);
+		opsmission.missionIds:Add(11104);
+	elseif txt == "Mission4" then
+		opsmission.missionIds:Add(11105);
+		opsmission.missionIds:Add(11106);
+	elseif txt == "Mission5" then
+		opsmission.missionIds:Add(11101);
+		opsmission.missionIds:Add(11102);
+	elseif txt == "Mission6" then
+		opsmission.missionIds:Add(11099);
+		opsmission.missionIds:Add(11100);
+	--elseif txt == "MissionSpecial" then
+	--	opsmission.missionIds:Add(11098);
+	--	opsmission.missionIds:Add(11112);
+	elseif txt == "MissionInfinite" then
+		opsmission.missionIds:Add(11113);
+		opsmission.missionIds:Add(11114);	
+	elseif txt == "MissionPrologue" then
+		opsmission.missionIds:Add(11098);
+		opsmission.missionIds:Add(11098);
+	elseif txt == "MissionEpilogue" then
+		opsmission.missionIds:Add(11112);
+		opsmission.missionIds:Add(11112);
+	elseif txt == "MissionEnding1" then
+		opsmission.missionIds:Add(11691);
+		opsmission.missionIds:Add(11691);
+	elseif txt == "MissionEnding2" then
+		opsmission.missionIds:Add(11692);
+		opsmission.missionIds:Add(11692);
+	elseif txt == "MissionEnding3" then
+		opsmission.missionIds:Add(11693);
+		opsmission.missionIds:Add(11693);
+	end
+	return opsmission
+end
+local RefreshUIItem = function(self)
+	self:RefreshUI();
+	if self.info.opsMission.missionIds.Count>0 then
+		self.info.diffcluty = self.info.opsMission.missionIds:IndexOf(self.info.mission.missionInfo.id);
+	else
+		self.info.diffcluty = 0;
 	end
 end
 opsShowTime = 0;
@@ -1097,6 +1242,9 @@ Start = function()
 		util.hotfix_ex(CS.OPSPanelController,'RefreshUI',RefreshUI)
 		util.hotfix_ex(CS.OPSPanelController,'SelectDiffcluty',SelectDiffcluty)
 		util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+		util.hotfix_ex(CS.OPSPanelController,'InitClockData',InitClockData)
+		util.hotfix_ex(CS.OPSPanelController,'SelectProcessInfo',SelectProcessInfo)
+		util.hotfix_ex(CS.OPSPanelProcessItem,'RefreshUI',RefreshUIItem)
 		util.hotfix_ex(CS.SpecialMissionInfoController,'RefreshOther',RefreshOther)
 	end
 end
@@ -1105,5 +1253,8 @@ OnDestroy =function()
 	xlua.hotfix(CS.OPSPanelController,'RefreshUI',nil)
 	xlua.hotfix(CS.OPSPanelController,'SelectDiffcluty',nil)
 	xlua.hotfix(CS.OPSPanelController,'CancelMission',nil)
+	xlua.hotfix(CS.OPSPanelController,'InitClockData',nil)
+	xlua.hotfix(CS.OPSPanelController,'SelectProcessInfo',nil)
+	xlua.hotfix(CS.OPSPanelProcessItem,'RefreshUI',nil)
 	xlua.hotfix(CS.SpecialMissionInfoController,'RefreshOther',nil)
 end

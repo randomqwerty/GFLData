@@ -14628,6 +14628,26 @@
     "formula": "@Maxlife/@gunnumber*0.96"
   },
   {
+    "id": 7050,
+    "formula": "sbuffidtier(151)>0?sbuffidtier(5296)>0?1:0:0"
+  },
+  {
+    "id": 7051,
+    "formula": "sbuffidtier(151)>0?sbuffidtier(5296)>0?0:1:0"
+  },
+  {
+    "id": 7052,
+    "formula": "sbuffidtier(5296)>0?1:0"
+  },
+  {
+    "id": 7053,
+    "formula": "1*(1-@def/@maxdef)+$1"
+  },
+  {
+    "id": 7054,
+    "formula": "tbuffidtier(5321)*(1-#def/#maxdef)+$1"
+  },
+  {
     "id": 9001,
     "formula": "#distancex<8?15001:0"
   },

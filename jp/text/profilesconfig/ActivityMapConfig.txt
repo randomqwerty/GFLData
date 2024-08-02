@@ -1,6 +1,8 @@
 //Mission场景标签贴图
 //坠入兔洞+常驻配置-修复版
 MissionSelectionTex|missionselect_Arctic2|2|-23
+//虚数迷宫+常驻配置-修复版
+MissionSelectionTex|missionselect_DeepDive_Re|2|-29
 //瓦尔哈拉联动配置：
 //MissionSelectionTex|missionselect_VA11|2
 //2019夏活配置：
@@ -72,6 +74,7 @@ OPSActivityScene|-16|-16,-17,-18
 OPSSpecialScene|-19|-19,-20,-21,-22
 OPSPanelScene|-23|-23
 OPSActivityScene|-24|-24,-25,-26,-28
+OPSPanelScene|-29|-29
 OPSPanelScene|-31|-31
 OPSPanelScene|-32|-32
 OPSPanelScene|-33|-33
@@ -138,6 +141,7 @@ OPSLeftBGNormalActivity|-16|Sing_Left
 OPSLeftBGNormalActivity|-19|GloryDay_Left
 OPSLeftBGNormalActivity|-23|Left
 OPSLeftBGNormalActivity|-24|ContinuumTurbulence_Left
+OPSLeftBGNormalActivity|-29|Dive_Left
 OPSLeftBGNormalActivity|-31|Isomer_Left
 OPSLeftBGNormalActivity|-32|VA11_Left
 OPSLeftBGNormalActivity|-33|Reversible_Left
@@ -216,6 +220,7 @@ OPSNoticeNormalActivity|-62|2023Se_Notice
 //时间公告-预制物(公用)
 OPSTime|SingTime
 OPSTimeNormalActivity|-23|Reversible_Time
+OPSTimeNormalActivity|-29|Reversible_Time
 //OPSTimeNormalActivity|-31|Isomer_Time
 //OPSTimeNormalActivity|-32|VA11_Time
 //OPSTimeNormalActivity|-33|Reversible_Time
@@ -644,6 +649,9 @@ OPSCampaignDetail|-22_3|472,-472|FAIL_boss
 OPSCampaignDetail|-23_1|0,0|SangvisFerri
 //OPSCampaignDetail|-23_1|100,-200|SangvisFerri
 
+//虚数迷宫+常驻 修复版
+OPSCampaignDetail|-29_1|0,0|Dive_Re
+
 OPSCampaignDetail|-24_1|100,-200|Melee
 OPSCampaignDetail|-24_2|100,-200|Ripper
 OPSCampaignDetail|-24_3|100,-200|Melee
@@ -696,7 +704,7 @@ OPSCampaignDetail|-26_17|100,-200|Strelet
 OPSCampaignDetail|-26_18|100,-200|Cyclops
 //OPSCampaignDetail|-27_1|100,-200|NytoDouble
 OPSCampaignDetail|-28_1|100,-200|Melee
-OPSCampaignDetail|-29_1|100,-200|Dive_Re
+//OPSCampaignDetail|-29_1|100,-200|Dive_Re
 OPSCampaignDetail|-30_1|-200,-20|LightBossB06
 OPSCampaignDetail|-30_2|550,-80|Intruder
 OPSCampaignDetail|-30_3|-200,-420|LightBossB06
