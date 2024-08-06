@@ -1,241 +1,241 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Grenade_Explosion</SE1><BGM>Campaion-58-3</BGM><黑屏2><BIN>568</BIN><震屏3><SE2>Gunfight</SE2>:……扑通、轰隆——
-()<Speaker></Speaker>||:在人多势众的福克斯姐妹会成员的夹击下，两个势单力薄的人形很快只能连滚带爬地逃到博士的所在地。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><震屏3>:在用尽最后的力气堵上大门后，史蒂文斯520走向休谟博士。
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-NPC_Stevens520(2)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:博士，抱歉，我们拦不住她们……
-Erma(31)<Speaker>艾尔玛</Speaker><Position>0,155</Position>||:她们人数太多了！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:遥望着垂头丧气的两人，艾尔玛疑惑地望向蕾妮特。
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>为什么我俩这个时候这么弱？</color>
-()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……我不知道，我完全没有这段记忆，我印象里博士只有一个名字——亚瑟•休谟。</color>+<color=#66CDAA>但是我现在百分百确定，眼前的这个路易•休谟，就是我认识的亚瑟•休谟。</color>
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>啊？他这个名字换得有什么必要啊……</color>+<color=#66CDAA>明明是一张脸，也明明是一个姓氏。</color>
-()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……难道让我见到这一切，也都在“那人”的计划之中吗？</color>
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>所以你的目的到底是什么？</color>
-()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……现在还不到告诉你的时候。</color>
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>哼。</color>
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1>:嘭嘭嘭——
-()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=6</controll_shake><BIN>9</BIN><CGDelay>0.3</CGDelay>:轰——
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Grenade_Explosion</SE1><BGM>Campaion-58-3</BGM><黑屏2><BIN>568</BIN><震屏3><SE2>Gunfight</SE2>:...Pling. Boom!
+()<Speaker></Speaker>||:Under the Fox Sisterhood's coordinated attack, the two heavily outnumbered Dolls can only scramble over to where the Doctor is.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><震屏3>:After shoving the door shut with all her might, Stevens M520 walks over to Doctor Hume.
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+NPC_Stevens520(2)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Sorry, Doctor, we can't hold them back...
+Erma(31)<Speaker>Erma</Speaker><Position>0,155</Position>||:There are too many of them!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Watching the two dejected Dolls from afar, Erma looks toward Reinette in confusion.
+()<Speaker>Erma</Speaker>||:<color=#66CDAA>Why were we so weak back then?</color>
+()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...No idea. I have absolutely no memory of this. I've only ever known the Doctor by one name—Arthur Hume.</color> +<color=#66CDAA>But I'm 100% certain this Louis Hume is the Arthur Hume I knew.</color>
+()<Speaker>Erma</Speaker>||:<color=#66CDAA>Huh? What's the point of changing his name then...?</color> +<color=#66CDAA>He clearly had the same face, and he even kept his surname.</color>
+()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...Is it part of her plan to let me see all this?</color>
+()<Speaker>Erma</Speaker>||:<color=#66CDAA>Seriously, what exactly are you after?</color>
+()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...It's not time to tell you yet.</color>
+()<Speaker>Erma</Speaker>||:<color=#66CDAA>Humph.</color>
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_3h</SE1>:Bang-bang-bang!
+()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=6</controll_shake><BIN>9</BIN><CGDelay>0.3</CGDelay>:Boom!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>568</BIN>:脆弱的门很快被攻破，玛姬带着狂妄的笑容出现在了门原本存在的位置。
-ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><GradientShow>2</GradientShow>||:又见面了，休谟博士，想见到你还挺不容易。
-ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:庞兹女士，如果你再不离开，我就报警了。
-ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:啧啧，你报！+对了友情提醒你一句，我现在还是正经上市公司的名誉董事，而你是警局记录在案的前科犯哦。+你要是报了警，还不知道谁会被抓。
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||<SE1>ClothingUp</SE1>:怎么这副表情，真的生气了？
-ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……既然庞兹女士这么喜欢这间实验室。+艾尔玛，史蒂文斯520，我们收拾下准备搬家。
-ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:啧啧，你还有钱再搞一间实验室？+我查过你的银行卡余额了……特别干净。
-ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:不劳女士费心。
-ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:哦对，像你们这种旧贵族做派，确实比起虚拟货币更喜欢收藏现金。+凯瑟琳。
-NPC_PP90(2)<Speaker>凯瑟琳•庞兹</Speaker><Position>0,200</Position>||<SE1>AVG_Cheerful</SE1>:在，刚刚索菲娅已经打开了这里全部的保险柜。+除非这间实验室还剩有保险柜，不然所有的金条都改姓庞兹啦！+唯一遗憾的是，我以为能看到价值几亿的金条，结果只有几万，这个博士也太穷了，存款还不如索菲娅的小金库呢。
-NPC_CZ52(0)<Speaker>索菲娅</Speaker><Shake><Position>0,170</Position>||:<size=50>！！！凯瑟琳小姐，你怎么偷窥人家的私房钱！</size>
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:在索菲娅的哀嚎中，休谟博士的脸色显然惨白了几分。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:玛姬看在眼里，不动声色地坐在了休谟博士面前的桌上。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||<BGM>GF_2022_Summer_AVG_4</BGM>:现在，你还打算搬家吗？
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……你到底要怎样？
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:如你所说，我确实对科学不甚了解。+我的“希望角”计划需要一个有学术背景的专家来为我背书。+最好是个形象不错的男性，这样放在官网上比较容易拉到投资。
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:你想要我加入你们？
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:没错！
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……贵组织不是福克斯姐妹会吗？让男性加入恐怕不体面吧。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:是谁规定姐妹必须要有性别约束？如果你愿意，我也可以喊你路易姐姐……
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:你要实在介意，改成福克斯姐弟会也行。
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:好啦，玩笑话到此为止。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||<BGM>BGM_Empty</BGM>:实际上你的“领航鲸”计划虽然失败了，但内容并没有问题，不过是亏了点投资人的钱而已，本身还是个非常好的故事概念，非常适合继续做大做强。+我之前做的项目价值都在几百万上千万不等，要知道当今时下，高科技热点才是捞钱的不二法门。+虽说你这个项目也就十个亿，但是我这个“希望角”可是真正有机会做到百亿投资水平。
-()<Speaker></Speaker>||:路易•休谟脸上的表情出现了一丝裂痕。
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:“领航鲸”计划……并不是一个骗局。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:你说不是就不是吧。+但现在所有人都认为是。
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:那只是人们没有看到真正的未来。+而且，我会让这个计划获得最终的成功。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:那你有筹码吗？
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:什么？
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:你知道为什么赌场十赌九输吗？
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……赌场里有人出老千。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:……啧啧，出老千的都是小赌场，真正正规的大赌场根本不需要出老千。+实际上赌场真正的盈利来自于——+一个输光了的赌徒，缺少翻盘的资本。+特别是等他借完全部的贷款之后，基本算是个废电池了。
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:举个例子，最简单的赌硬币正反面。+一次一块钱，按照数学模型来算，正反都是50%对不对？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:玛姬从口袋里取出一枚硬币抛向空中，然后利落地接住。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:实际上穷人必输，因为他的包里如果只有50，输完50他将再也没有机会上赌桌。
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……+你确实是优秀的社会工程师。+但非常抱歉，我并不是合适的合作对象。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:你当然是。+算了跟你说不通，和看人形不同，在看人这方面，我才是专家。+现在专家觉得你有价值，行了吧？
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……你不可能勉强别人做一些无法完成的事情。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休谟博士对站在一边的艾尔玛和史蒂文斯520招招手，示意她们收拾东西。
-()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:玛姬不死心地按住了休谟博士准备收走的一沓研究材料。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:你再好好想想，以你现在的存款和名声和家底，够你继续做你的研究？
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:这种事不需要庞兹女士操心。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:你不会真的是个正经科学家吧？
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……谈话结束了吗？+请你离开吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休谟博士一把抽走了玛姬手中的研究资料。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:……啧啧，世人都是以成败论英雄的。+休谟博士，你的计划已经失败了，现在就是铁板钉钉的骗子！+比我还不如哟~
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:“希望角”是我想要的结果，但可以是你的手段。+你加入我的计划，只要你最后成功了，那我的“希望角”不过是融资而已，是帮助你走向成功的曲折路线。
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:我不懂科学，但我知道搞科研的花销，有时候可比顶级诈骗的金额更恐怖。+所以，你需要赚比诈骗更多的钱，才能撑得住这份研究，对吧？
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……+你需要我做什么？
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:我需要你的资历背景，爵位人脉，和一些艺术照照片。+以及偶尔可能会出现一些投资人来访的摆拍作业。
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:我并不适合和人沟通。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:放心，这部分交给我。
-()<Speaker></Speaker>||:休谟博士陷入了漫长的沉默。
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……我可以不要收入。+但是我在研项目的所有资金，由你提供。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:没问题！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:玛姬爽快地握住了休谟博士的手。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:……等等，不会到头来是我被诈骗了吧？
-NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……
-()<Speaker></Speaker>||:在不情愿的握手中，两人的合作正式建立了。
+()<Speaker></Speaker>||<黑点2><BIN>568</BIN>:The not-too-sturdy door is soon broken down by Maggie, who is standing at the doorway with a haughty grin.
+ColtWalker(6)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><GradientShow>2</GradientShow>||:We meet again, Doctor Hume. You're really not making this easy.
+ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:Miss Ponzi, if you don't leave right now, I'm going to call the police.
+ColtWalker(6)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:Pfft, go on then! +But in case you've forgotten, I'm an honorary director of a legitimate listed company, while you are a criminal with a prior criminal record. +If you call the police, there's no telling which of us they're gonna arrest.
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(6)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||<SE1>ClothingUp</SE1>:Giving me that sulky look again? You mad?
+ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...Since Miss Ponzi has taken such a liking to this lab... +Erma, Stevens M520, start packing up. We're moving.
+ColtWalker(6)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:Heh, are you sure you can afford to build another lab from scratch? +I took a peek at your account balance... It's squeaky clean.
+ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:Please save your concern.
+ColtWalker(6)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Oh right, I suppose old-fashioned aristocrats like you prefer keeping cash to using virtual currency. +Catherine.
+NPC_PP90(2)<Speaker>Catherine Ponzi</Speaker><Position>0,200</Position>||<SE1>AVG_Cheerful</SE1>:Right. Sophia has opened all the safes in here. +Unless there's another hidden in this lab, all the gold bars now belong to us Ponzis! +It was rather disappointing though—I was hoping to see gold bars worth hundreds of millions, but the total worth ended up being less than 50,000. This Doctor is so poor his savings are even smaller than what Sophia has stashed away in her little vault.
+NPC_CZ52(0)<Speaker>Sophia</Speaker><Shake><Position>0,170</Position>||:<size=50>!!! Miss Catherine, how dare you go poking around in my personal savings?!</size>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:But even as Sophia protests indignantly, Doctor Hume's face visibly grows pale.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:His reaction does not escape Maggie's eyes. She takes a seat on the desk in front of Hume.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||<BGM>GF_2022_Summer_AVG_4</BGM>:So, still planning to move?
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...What exactly do you want?
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:As you said earlier, I don't actually know much about science. +I need an academic expert to sell my project. +This expert would ideally be a man with good looks. This will make it easier to attract investments through our official website.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:You want me to join you?
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:That's right!
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...Isn't your organization called the Fox Sisterhood? Would it not be inappropriate for a man to be a part of it?
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:Who says a sisterhood must be female-exclusive? If you want, I can call you Big Sister Louise...
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:Or if it really bothers you so much, I don't mind changing our name to the Fox Siblinghood.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Right, enough joking around.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||<BGM>BGM_Empty</BGM>:Your Project "Pilot Whale" ended in failure, but your idea was perfectly sound. You simply lacked investment. It's a brilliant concept worth developing. +All my projects are worth millions or even tens of millions. In this day and age, high-tech stuff is what sells. +You got a billion for your project, but my "Horn of Hope" stands a genuinely good chance of netting us ten billion.
+()<Speaker></Speaker>||:Louis Hume's face twitches.
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:Project "Pilot Whale"... was not a scam.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:Deny it all you want. +Everybody thought it was.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:Then they are not looking to the future. +I WILL make this project a success.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:Have you got any bargaining chips?
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:What?
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:You know why people lose nine out of ten bets at the casino?
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...There are card sharps in casinos.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:...Tut-tut, only small casinos have card sharps. Large and legitimate establishments have no need for them. +The real source of profits for casinos is actually... +Gambling addicts who've lost it all and lack the money to turn the tables. +Especially once they've run out of loans they could borrow and are squeezed dry.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Here's an example. The easiest game—a coin flip. +Say you bet one Sardis Gold for each flip. The odds of getting heads or tails are an equal 50-50 chance, right?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Maggie fishes out a coin from her pocket, tosses it into the air, and then catches it neatly.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:But the game is always rigged against the poor, because if a man only has 50 Sardis Gold in his pocket, he won't be able to stay at the table after losing it all.
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:... +You are indeed an excellent social engineer. +But I'm afraid I wouldn't be a suitable business partner for you.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Of course you would. +Look, you may be an expert in Dolls, but I am an expert in humans. +And this expert says you have value. Does that satisfy you?
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...You cannot force someone to do something that cannot be done.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Doctor Hume gestures at Erma and Stevens M520 to start packing.
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:Refusing to give up, Maggie puts her hand on a stack of research materials that Doctor Hume is just about to move.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:I urge you to reconsider. With your non-existent savings, reputation, and inheritance, can you still continue your research?
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:That's really not for you to worry about.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Are you really that upright of a scientist?
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...Are we done yet? +Please leave.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Doctor Hume yanks the stack of research materials out of Maggie's hand.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:...Humph, heroes are only heroes because of their success. +Doctor Hume, your project was a failure, and you are known as a fraud. +You're in no position to hold me in contempt.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:I have my ends with "Horn of Hope", but they can be achieved with your means. +Join my project, and if you succeed in the end, then my "Horn of Hope" would simply be your financing plan that helps you on your way to success. Not exactly a straight line from point A to B, but still.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:I may not know science, but I know that expenses in scientific research can sometimes snowball even more drastically than what a top-tier scam can bring in. +So you need to make more money in order to sustain this research project, isn't that right?
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:... +What do you need me to do?
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(5)||:I need your background, resume, social status, connections, and a few pictures. +Some investors may also drop in for a visit and we'll need some PR work done.
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:I am not a great communicator.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Don't worry, just leave that to me.
+()<Speaker></Speaker>||:Doctor Hume mulls over this in silence for a long while.
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...I don't require a stipend. +But you must provide all funding for my research project.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Deal!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Maggie shakes Doctor Hume's hand firmly.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:...Hold on, I hope I'm not the one getting scammed here...?
+NPC_Hume(5)<Speaker>Louis Hume</Speaker>||:...
+()<Speaker></Speaker>||:This reluctant handshake marks the beginning of their partnership.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><CGDelay>0.3</CGDelay>:
-NPC_Stevens520(2)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:博士居然加入了姐妹会……这太不体面了！
-NPC_Stevens520(2)<Position>0,60</Position>;Erma(17)<Speaker>艾尔玛</Speaker>||:姐妹会怎么了？为什么要限制性别？
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(17)||:……
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(17)||:算了，比起这个，我更在意的是我没有这段记忆。+这是我第一次看见这样的博士，和我自己。
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>艾尔玛</Speaker>||:我也是。
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(13)||:……
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>艾尔玛</Speaker>||:既然我们都是第一次看，“希望角”的锚点要再重播一次吗？
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(17)||<BGM>BGM_Empty</BGM>:不用了，按照他们的谈话内容继续往下开锚点吧。+找一找“领航鲸”计划。
-Erma(14)<Speaker>艾尔玛</Speaker>||:我找到这个锚点了。
+NPC_Stevens520(2)<Speaker>Reinette</Speaker><Position>0,60</Position>||:The Doctor actually joined the Sisterhood...? That's outrageous!
+NPC_Stevens520(2)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:So what if he joined the Sisterhood? Why is gender such a big deal?
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:...
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:Forget it. More importantly, it bothers me that I have no recollection of these events. +This is the first time I've seen the Doctor—and myself—like this.
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:Same here.
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:...
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:Should I replay the "Horn of Hope" anchor point?
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||<BGM>BGM_Empty</BGM>:No need. Just go for the next relevant anchor point. +Run a search on Project "Pilot Whale".
+Erma(14)<Speaker>Erma</Speaker>||:Found it.
 ()||<黑点1><SE1>AVG_magic_circle_start</SE1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM><黑点2><BIN>506</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||:散发着纸张霉味的陈旧办公室。+爬满雨水痕迹的玻璃窗外是惨淡的天空和同样陈旧的街景。+一个男人背光站在窗户前。
-NPC_Misha(1)<Speaker>？？？</Speaker><Position>0,50</Position>||:很久不见了，布罗伊公爵阁下。
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:贵安，“老米沙”阁下。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:恐怕我不得不承认，造物主并不公平。+第一次见面的时候我就已经行将就木，而你就如同今天一样年轻而充满活力。+我还记得那时候你叫……莫里斯•休谟。
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:我想您今天来这里不是为了寒暄叙旧的吧。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:在2003年的时候，你以莫里斯•休谟为名发布的那篇《生于泉中：后人类时代的来临》的论文，是关于“那个空间”所见证的东西吗？
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:是的，我将其命名为“GRCh38”。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:当年这篇论文论证了人形机械的核心构想和未来发展的雏形，在学界引起不小的波澜。+谁知道后来你就销声匿迹了。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:那时候我还太过生涩，只是单纯想把奇观复现，当时的学术界认为这篇论文想象元素过多，不过是脑洞大开的“文艺作品”。+甚至因此有不少科幻文学编辑来联系我，由此带来的曝光度，使我不得不另外换一个名字。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:比如现在，以莫里斯的儿子路易•休谟出现在这里。+容我冒昧问一句，你的研究成功了吗？
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:很遗憾……恐怕神只是短暂地眷顾了我一下。
-()<Speaker></Speaker>||:他闭上了眼睛，露出一种略微痛苦的神色。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:那个时候你预言的困境，在今天得到了验证。+人脑的复杂性，超出了我们的理解能力，这使得人类始终无法完整认知自我，从本源上锁死了造出完全与人脑结构相同的类人产物的可能性。+就好像现在这些时髦的人形铁块，想要在下棋上赢过她们相当困难，可要让她们像一岁婴儿产生自我认知却宛如天方夜谭。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:尽管我得到了“设计图纸”，却找不到能验证这一设计的载体。
-NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:你不能止步于此，没多少人能经受住那样的考验。+你我都活下来了，从那里得到的东西使我坐上了如今的位置。+你也应该将你的所见所识向世人呈现，“GRCh38”向你展现的完整模型。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:……这恐怕不是我个人力量所能达到的。
-NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:如果个人的天赋和能动用的力量受到限制，不妨试着加入一些组织，比如我们。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:……+虽然很不甘心，但是有些东西的确不是依靠金钱和资源就能够解决的。
-NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:你的眼光不必如此局限。+天才从来不是单独出现的，这个混乱的时代必将群星璀璨。+布罗伊公爵阁下，是时候将你的东西做一些小小的分享和让步了。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:……+我对于署名没有诉求，也并不在意研究成果的私有。+您应该明白，我之所以不公布这一切并不是因为徇私。
-NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:当然，只是有些时候，你太过执着了。+或者说，你的想象力还有一些限制。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||<SE1>ClothingUp</SE1>:……我会尝试一些别的办法。
-NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:你现在选择的福克斯姐妹会是一个很好的合作对象，其实相关研究也可以借用一下她们的渠道。
-NPC_Hume(2)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:她们只是一群骗子。
-NPC_Hume(2);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:……有些事，骗子做得要比我们好太多。+也许在别人眼里，我们也不过是借神眷行欺世盗名之事。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:“老米沙”阁下，我和您不一样。+我并不喜欢接触政治，或者是成为利益的工具。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休谟博士从办公桌前后退几步，坐上了稍远距离的沙发。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:我放弃了父亲的法国姓氏和爵位，就代表我只想使用休谟这个身份，作为一个纯粹的人形工程师，过完这一辈子。+虽然神眷令你我拥有不知道何时结束的生命，但并非不死之身。+“老米沙”阁下，请允许我和您追求不一样的理想。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:……好吧。+我只是希望你知道，你永远有一个朋友。+也许我们无法达成相互理解，但我们是这个世界同一场灾难下的唯二幸存者。
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:荣幸之至。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:看来今天只能聊到这里了，在结束之前，我还有最后一个请求。
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:……您说。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:我想订购一台您已经完成的人形。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:我可以认为这是来自军方的定制吗？
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:是的，或许休谟博士，您也可以将它视为一个合作的约定。+如果您同意的话，我会向您提供丰厚的回报。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:我需要一些考虑的时间。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:静候您的答复。
-NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:……多谢。
-NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:已经打扰了阁下很长的时间，我也该离开了。
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:路易•休谟站起了身体，他将藏在阴影中的人送离了这间房间。
+()<Speaker></Speaker>||:Inside a musty old office. +The sky and street view are equally bleak through the window streaked with raindrops. +A man is standing in front of the window with his back toward the light.
+NPC_Misha(1)<Speaker>???</Speaker><Position>0,50</Position>||:It's been a long time, Your Grace.
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:Greetings, Old Misha.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:I must say, God isn't fair. +The first time we met, I was already an old goat, while you were as young and sprightly as you are today. +I remember back then, you went by the name... Maurice Hume.
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:I doubt you came today to make small talk and reminisce about the past.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:The paper you published under the name of Maurice Hume back in 2003, "Born from the Spring: The Advent of the Era of Post-Humans"—was it about the phenomenon observed in "that space"?
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:Yes, I named it "GRCh38".
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:This paper demonstrated the core concept of Dolls and outlined the course of their future development, which caused quite a stir in the academic circle. +But then you just vanished without a trace.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:At that time, I was still too green and just wanted to recount the wonders, but the academic circle thought that the paper was far too fantastical and dismissed it as a piece of wildly imaginative "literary work". +Many science fiction editors even contacted me because of this. I had no choice but to change my name because of all the unexpected attention.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:Which explains why you're here right now as Louis Hume, son of Maurice Hume. +May I ask, was your research successful?
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:Unfortunately... God's favor didn't last.
+()<Speaker></Speaker>||:He closes his eyes with a slightly pained look.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:We are now faced with the conundrum that you predicted back then. +The complexity of the human brain is beyond our comprehension, which makes it impossible for humans to be fully self-aware, and this lack of complete understanding of ourselves fundamentally precludes any possibility of creating something human-like with the same structure as the human brain. +It's extremely difficult to beat these Dolls, which are all the rage right now, in a game of chess, but it's delusional to expect them to develop self-awareness like a one-year-old infant.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:Even though I have secured the "design blueprint", a vessel that can realize the design continues to elude me.
+NPC_Hume(0);NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:You must not falter here. Not many could have survived the test. +But we both did, and what we gained there has helped me climb to my current position. +You should also present what you have seen and learned to the world, the complete model that "GRCh38" had shown you.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:...I'm afraid this is beyond what I can achieve on my own.
+NPC_Hume(0);NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:If you feel limited by the extent of your own talents and available power, you could try joining an organization... such as us.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:... +Aggravating as it is, some problems cannot be solved by money and resources.
+NPC_Hume(0);NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:It doesn't hurt to keep an open mind. +Genius never appears on its own. In this age of chaos, stars will be born in multitude. +Your Grace, it is time to share and make concessions.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:... +It doesn't concern me whether the research papers are published in my name, nor do I particularly care about patents. +You should know that selfishness is not the reason why I refuse to make this public.
+NPC_Hume(0);NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:Of course. However, sometimes you can be a bit too obstinate. +Or should I say... you need to learn how to think outside the box.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>;NPC_Misha(1)<Position>0,50</Position>||<SE1>ClothingUp</SE1>:...I'll try other alternatives.
+NPC_Hume(0);NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:The Fox Sisterhood is a well-chosen collaborator. They would certainly come in useful for your research.
+NPC_Hume(2)<Speaker>Louis Hume</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:They are just a bunch of charlatans.
+NPC_Hume(2);NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:...There are things that charlatans are much better at than us. +To some people, we are also villains doing vile things in the name of God.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:Old Misha, we are not the same. +I have no desire to get involved in politics or be used as a tool in exchange for profit.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Doctor Hume walks away from the desk and sits down on the sofa a few paces away.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:I gave up my family name and title as the Duke of Broglie because I want to be nothing more than a Doll engineer. That's how I want to live out the rest of my life—as Hume. +God may have blessed us with extraordinary longevity, but we are not immortal. +Old Misha, please allow me to pursue my own ideals, even if you may not share them.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:...Fine. +I just want you to know that you'll always have a friend in me. +We may not be able to reach a mutual understanding, but it doesn't change the fact that we are the only two survivors of the same cataclysm.
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:You honor me.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:Looks like this is where we'll have to stop for today. But before you go, I have one last favor to ask of you.
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:...Please go ahead.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:I would like to place an order for one of your completed Dolls.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:Can I assume this order is placed on behalf of the military?
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:Indeed. You could think of it as a promise of collaboration. +If you accept it, you will be rewarded generously.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:I need some time to consider.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:Take as long as you need.
+NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:...Thank you.
+NPC_Misha(1)<Speaker>Old Misha</Speaker><Position>0,50</Position>||:I have taken up enough of your time. I'd best get going.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Louis Hume rises to his feet and sees off the man who has been standing in the shadows.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:听着脚步声远离，一直保持静止的艾尔玛扭头望向史蒂文斯520。
-Erma(29)<Speaker>艾尔玛</Speaker><Position>0,155</Position>||:如果妈妈同意这个合作的话……+……你说被订走的人形是你还是我？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:肯定是你！你这么没用！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:另一边，远望着过去的自己的艾尔玛也看向身边的人。
-()<Speaker>艾尔玛</Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:<color=#66CDAA>……结果是你吧。</color>
-()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……嗯。</color>
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>那个老头，是给你发任务的人吗？</color>
-()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……是的，是他将你的坐标，还有你后来服役的PMC资料全部告诉我了。</color>
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>他值得信任吗？</color>
-()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>谁知道呢……</color>
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1>:路易•休谟推门回来。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:他默默地拿起自己的一沓资料，随后拨通了一个通讯。
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:庞兹女士，午安。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||<BGM>GF_2022_Summer_AVG_4</BGM>:<color=#00CCFF>……什么事？不会又是要钱吧？</color>+<color=#00CCFF>大哥，今年的预算你已经严重超出了……再多也没有了！</color>
-ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:不是这件事。+我想，福克斯姐妹会应该有黑市交易的需求吧？
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>干嘛？正规渠道已经无法满足你的耗材需求了？</color>+<color=#00CCFF>姐妹会不是许愿池好吧……</color>
-ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:我有一份绝密的资料，它的价值应该抵得上任何国家一年的税收。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>大哥，不会又是那本《人类理智研究》吧？有价无市好不好，浪费我的营销经费和推荐位！</color>
-NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:……我这次推出的是第二版。+上一版仅作论述，只是简单阐述了构成机器自驱运行的底层构造，名为“泉”的核团。+我承认，光讲概念对现在的买家来说是有点晦涩难懂。+但我必须要说的是，新版提及了部分“泉”的制作工艺和应用场景。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>……所以你第一版是预告，第二版才开始正文是吧？</color>+<color=#00CCFF>拜托你这样我很容易被人说成是诈骗诶！</color>
-ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……难道不是吗？+以及，我曾经详细地向庞兹女士讲解过这份资料的构成，但庞兹女士并没有认真听完。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>……有吗？</color>+<color=#00CCFF>肯定是你记错了。</color>
-ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:……稍后我会将完整文档交给凯瑟琳•庞兹女士，请她代为转交。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>行。</color>
+()<Speaker></Speaker>||<黑点2><SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:As the sound of footsteps recedes into the distance, Erma, who has been observing the conversation in silence, turns to look at Stevens M520.
+Erma(29)<Speaker>Erma</Speaker><Position>0,155</Position>||:If Mother agrees to this collaboration... +...Which of us do you think will be sent away?
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:You, obviously! Because you're useless!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:On the other side of the room, the present Erma also turns to look at the present Stevens M520.
+()<Speaker>Erma</Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:<color=#66CDAA>...He ended up sending you, didn't he?</color>
+()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...Yeah.</color>
+()<Speaker>Erma</Speaker>||:<color=#66CDAA>Was that old geezer the one who gave you the assignment?</color>
+()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...Yes, he gave me your coordinates and information about the PMC you've gone on to serve.</color>
+()<Speaker>Erma</Speaker>||:<color=#66CDAA>Can he be trusted?</color>
+()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>Only God knows...</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1>:Louis Hume returns to the room.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:He silently picks up a stack of documents and sets up a comms connection.
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:Good afternoon, Miss Ponzi.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||<BGM>GF_2022_Summer_AVG_4</BGM>:<color=#00CCFF>...What is it? Don't tell me you're asking for money again?</color> +<color=#00CCFF>Sir, you've already exceeded your budget for the year... I can't squeeze out any more for you!</color>
+ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:That's not it. +I'm just wondering—the Fox Sisterhood also trades in the black market, right?
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>Why do you want to know? Can our over-the-table sources not meet your demand for materials?</color> +<color=#00CCFF>The Sisterhood is not a wishing well, you know...?</color>
+ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:I have a top-secret document that is probably worth as much as a whole year's tax revenue of any given country.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>God, please don't tell me it's your "Human Intelligence Research" again! It may be worth a lot, but nobody's interested, so stop wasting my marketing funds or my clients' patience!</color>
+NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:...This is the second edition. +The previous edition was purely theoretical and only explained in superficial terms the underlying structure of the machine's self-driving operation—a core which I've termed the "Spring". +I admit that this purely conceptual discussion can be a bit mystifying for our potential buyers. +But I'd like to make it clear that this new edition also elaborates on the production process and possible applications of the "Spring".
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>...So the first edition is just the preamble, and the second edition is the actual main text, yeah?</color> +<color=#00CCFF>For Christ's sake, with all this false advertising, I could be easily accused of being a fraud!</color>
+ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...Are you not? +Besides, I once explained to you in great detail the structure of this paper, but you did not pay much attention.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>...Did you now?</color> +<color=#00CCFF>You must be mistaken.</color>
+ColtWalker(7)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:...I will hand over the text in its entirety to Miss Catherine Ponzi shortly. Please make sure she delivers it.
+ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>Sure.</color>
 ()<Speaker></Speaker>||<CGDelay>0.05</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.4</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1><黑屏2><BIN>18</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||:“领航鲸”的锚点关闭。+艾尔玛和蕾妮特又回到了现实。
-Erma(17)<Speaker>艾尔玛</Speaker>||:原来妈妈一直在福克斯姐妹会的黑市中寄售自己的研究……
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(17)||:嗯，博士的研究开销也远比他们想象的还要昂贵。
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>艾尔玛</Speaker>||:我总觉得妈妈原本并没有想要分享自己的研究。
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(13)||:工具本身并不具备倾向，但人类会赋予工具不同的意义。+镰刀在农民手上是收割粮食的工具，到了杀人犯手上就是血流成河的帮凶。
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(13)||:毕竟香蕉皮都能用来杀人，更何况是博士的研究。
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>艾尔玛</Speaker>||:所以妈妈的研究到底是什么呢？
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(17)||:具体我也不清楚。+继续看其他的锚点吧……
-Erma(13)<Speaker>艾尔玛</Speaker>||:哦。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:艾尔玛划向了“人类理智研究”的锚点。
+()<Speaker></Speaker>||:The anchor point "Pilot Whale" terminates at that point. +Erma and Reinette are ejected back to the present.
+Erma(17)<Speaker>Erma</Speaker>||:So Mother has been selling his research on the black market through the Fox Sisterhood...
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:Yeah. The Doctor's research expenses were also a lot more costly than they had expected.
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:I don't think it was Mother's original intention to share his research.
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:Tools are neither good nor bad themselves; it is humans who imbue tools with different significance. +In the hands of a farmer, a scythe is a tool for harvesting crops, but in the hands of a murderer, it becomes a weapon that sheds blood.
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:Even a banana peel can be used as a murder weapon, let alone the Doctor's research.
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:So what exactly was Mother's research?
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:I don't know the specifics either. +Let's move on to another anchor point...
+Erma(13)<Speaker>Erma</Speaker>||:Okay.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Erma accesses the anchor point "Human Intelligence Research".
 ()||<黑点1><SE1>AVG_magic_circle_start</SE1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BIN>159</BIN><震屏3><SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:轰隆——炮火不停地轰炸目标建筑群。
-()<Speaker></Speaker>||:即便是通过摄像头，也能看出对面战区的摇摇欲坠。+平日里高大稳固的建筑像是落入搅拌机的水果，血肉横飞地四溅着残渣。
-NPC_Hume(2)<Speaker>路易•休谟</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Hume_ImFutue_Full</BGM>:……庞兹女士，你还好吗？+视频通讯里看不清你的面容。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>……不太好。</color>+<color=#00CCFF>啧，这个时候也只有合伙人会关心我死没死了。</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……听你的口气，应该还能活着坚持到紧急避难所。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>这边信号有点差，我给你几个网址，帮我看看榜单上福克斯姐妹会是不是都排第一。</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:……凯瑟琳•庞兹女士每天都在看。+不管是通缉金额还是诈骗金额还是个人财富排行榜，玛姬•庞兹女士都是第一名。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(1)||:<color=#00CCFF>行，那我就放心了。</color>+<color=#00CCFF>之前找你的那个军方老头，你就别嘴硬了，赶紧答应他们吧。</color>+<color=#00CCFF>我觉得俄国人挺好的，他们命硬。</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:……
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>这个世道，普通人是生存不下去的。</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(1)<Speaker>路易•休谟</Speaker>||:……玛姬•庞兹女士说自己是个普通人，路过的鸟听了都要发笑。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>……总之呢，我会将一些还能打包的资产留给你和凯瑟琳。</color>+<color=#00CCFF>但是以你这个花钱速度，肯定也是用不了几年就没了，所以赶紧答应那个冤大头，不要矫情！</color>
-()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=2</controll_shake>:通讯传来的炮火声连绵不绝，淹没了两人短暂的沉默。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>如果以后还有机会，帮我出版一本什么自传之类的，书名我想好了，就叫《传奇女王玛姬和她的暗黑帝国》！</color>+<color=#00CCFF>算了这名字太土了，你找个搞文学的博士帮我取一个文艺点的。</color>
-ColtWalker(8)<Position>0,210</Position>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……所以你并没有从轰炸区离开？
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>怎么，你要帮我报仇？</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……我是一个手无缚鸡之力的人形工程师。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>……算了，连我自己也不知道是得罪了哪边……</color>+<color=#00CCFF>总之就这样吧，钱和后事我都安排完了，你还有什么要问的吗？</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:……玛姬•庞兹女士，如果有复活的机会，我是说——+假如你有一次重获新生的机会，你会想要什么样的生活？
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>……我都是传奇女王了，人生已经达到了巅峰，再活下去就要开始走下坡路了。</color>+<color=#00CCFF>非要说的话……</color>+<color=#00CCFF>帮我象征性照顾下没有血缘的凯瑟琳和不知道会变成什么样的福克斯姐妹会，就算你积了大德了，在地狱里我都尊称你一声布罗伊公爵阁下。</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:好的，那我没有别的话了。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>等等，我好像还有一座庄园在法兰克福。</color>+<color=#00CCFF>不要改我的装修啊……你那个夏园太华而不实了……</color>
-ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:抱歉，这点无法承诺。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>我好像还有一座庄园在不莱梅还是柏林来着。</color>
-NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:轰炸声再次响起，距离比之前都要迫近。
-ColtWalker(8)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>好了，这次真的是最后一句话了。</color>+<color=#00CCFF>我不介意有其他人形使用我的脸，毕竟我真的长得好美……</color>+<color=#00CCFF>只要这人形不要跑去列车上搞低端诈骗还被人端了就行。</color>
-NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……
-()<Speaker></Speaker>||<SE1>Explode</SE1><BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:轰——！
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:兹兹——+通讯的那一头，这个喋喋不休的声音终于陷入了彻底的安静。
+()<Speaker></Speaker>||<BIN>159</BIN><震屏3><SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:Rumble... Artillery fire continues to bombard the target complex.
+()<Speaker></Speaker>||:Even through the camera, the battle zone is clearly on the brink of collapse. +The buildings that used to stand tall and proud are now like fruits dropped into a blender as debris splatters everywhere.
+NPC_Hume(2)<Speaker>Louis Hume</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Hume_ImFutue_Full</BGM>:...Miss Ponzi, are you okay? +I can't see you clearly through the comms window.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>...Things aren't looking good.</color> +<color=#00CCFF>Tsk, can't believe my business partner is the only one who actually cares whether I've kicked the bucket.</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...Well, you sound like you still have it in you to get yourself to an emergency shelter.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>The signal is a bit patchy here. I'm sending you a few websites. Help me check if the Fox Sisterhood is still at number one on these ranking boards.</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:...Miss Catherine has been checking them every day. +You are indeed still at the very top of all the lists—you are the criminal with the biggest bounty on your head, the biggest total value of fraud, as well as the highest net worth.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(1)||:<color=#00CCFF>Ah, that's good to know.</color> +<color=#00CCFF>Go find that old goat in the military. Stop playing hard-to-get and just accept their offer.</color> +<color=#00CCFF>I think the Russians are a good choice—they're made of sterner stuff.</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:...
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>These are unforgiving times for ordinary people.</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(1)<Speaker>Louis Hume</Speaker>||:...Miss Maggie Ponzi calling herself "ordinary"? Even the birds would chuckle at that.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>...My point is, I'll leave you and Catherine all the funds that I have squirreled away.</color> +<color=#00CCFF>But at the rate you're spending, it won't last you more than a few years, so just get off your high horse and make a deal with that guy with the deep pockets already!</color>
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=2</controll_shake>:The ceaseless rumble of artillery fire fills the brief silence between the two.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>If you ever get the chance, publish an autobiography in my name. I've even thought of the title—"The Legendary Queen Maggie and her Dark Empire"!</color> +<color=#00CCFF>Ugh, forget it. That's a lame-ass title. Get some Doctor of Literature to come up with something more classy for me.</color>
+ColtWalker(8)<Position>0,210</Position>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...You didn't manage to leave the bombing zone?
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>What, gonna avenge me?</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...I'm just a feeble Doll engineer.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>...Never mind. Even I can't really tell whose toes I've stepped on...</color> +<color=#00CCFF>Anyway, that's that. I've put all my affairs in order. Got any more questions?</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:...Miss Maggie, if you had the chance of being resurrected... I mean... +If you could be given a new lease of life, what kind of life would you want?
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>...I'm already a legendary queen. I've peaked. If I somehow survived this, it'd be all downhill from here.</color> +<color=#00CCFF>Let's see, what else...</color> +<color=#00CCFF>If you'd be so kind as to take care of Catherine, who isn't actually my biological sister, and the Fox Sisterhood for me, I would be eternally grateful to Your Grace in hell.</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(0)<Speaker>Louis Hume</Speaker>||:Alright, I have no further questions.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(0)||:<color=#00CCFF>Oh, hang on. I think I have another mansion in Frankfurt.</color> +<color=#00CCFF>Don't mess with my interior decorations... Your Summer Garden is really garish and tasteless...</color>
+ColtWalker(8)<Position>0,210</Position><通讯框>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:Sorry, I can't make any promises on that.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>;NPC_Hume(2)||:<color=#00CCFF>Actually, I have ANOTHER mansion. Was it in Bremen or Berlin?</color>
+NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:The bombardment resumes, this time much closer than before.
+ColtWalker(8)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position><通讯框>||:<color=#00CCFF>Right. One last thing, for real.</color> +<color=#00CCFF>I don't mind if you give some other Doll my face. I mean, I'm drop-dead gorgeous...</color> +<color=#00CCFF>Just promise me this Doll won't run any petty scams on trains then get her ass kicked.</color>
+NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...
+()<Speaker></Speaker>||<SE1>Explode</SE1><BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:BOOM!
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:Pzzzzt... +On the other end of the comms channel, the chattering voice finally lapses into complete silence.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><CGDelay>0.3</CGDelay>:
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||<BGM>GF_22W_BGM_2</BGM>:……+一代诈骗女王最后还是被博士诈骗了啊……
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(13)<Speaker>艾尔玛</Speaker>||:我倒觉得她赚了。
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(13)||:赚了什么？
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>艾尔玛</Speaker>||:有人继承了她的名字，让她没有被遗忘。+虽然这个人正是在列车上搞诈骗的……
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(13)||:……
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(15)<Speaker>艾尔玛</Speaker>||:而且她的传奇都被我保存在了锚点里，我会一直一直记得她。
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:……你以前也对我说过这话。
-Erma(17)<Speaker>艾尔玛</Speaker>||:……
-NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:既然提到了，接着看“传奇女王”这个锚点吧。
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||<BGM>GF_22W_BGM_2</BGM>:... +So the con artist of a generation ended up getting conned by the Doctor...
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:I actually think she also profited from this.
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:How so?
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:Someone carried on her name so she would not be forgotten. +Though the Doll did end up running scams on a train...
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:...
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(15)<Speaker>Erma</Speaker>||:Besides, her legend is preserved in my anchor points. I will always, always remember her.
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...You once said the same thing to me.
+Erma(17)<Speaker>Erma</Speaker>||:...
+NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:While we're at it, let's have a look at the anchor point "Legendary Queen" next.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1><黑屏2><BIN>698</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<narrator><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:去信+收件人：玛姬•庞兹
-()<Speaker></Speaker>||<narrator>:我不知道现在是谁在用这个名字，你既然想要使用这个名字，想必也要使用这个名字留下来的财富和功能。+这是赌场专列的存放地址，我的赠送只有两个条件——+第一个是请你们继续使用福克斯姐妹会这个名字。+第二个是请将《人类理智研究（第十七版）》售卖出去。+至于方法，那是你们的专业领域，我就不班门弄斧了。+——亚瑟•休谟。
+()<Speaker></Speaker>||<narrator><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Compose message. +Recipient—Maggie Ponzi.
+()<Speaker></Speaker>||<narrator>:I don't know who is using this name, but since you wish to claim it, I assume you also intend to utilize the fortune and assets associated with the name. +This is the location where the casino train is stored. I will relinquish it to you on two conditions— +One, you are not to rename the Fox Sisterhood. +Two, I ask that you find a buyer for "Human Intelligence Research (17th Edition)". +I will let you figure out how to do that, since that is your professional area of expertise. +Kind regards, Arthur Hume.
 ()<Speaker></Speaker>||<CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<narrator><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:回信+收件人：亚瑟•休谟
-()<Speaker></Speaker>||<narrator>:先生，您的东西我们收到了，您的吩咐我们也已经照办，不过这本书卖了很久，直到近日才被一名女性低价买走。+——玛姬•庞兹。
+()<Speaker></Speaker>||<narrator><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Reply to message. +Recipient—Arthur Hume.
+()<Speaker></Speaker>||<narrator>:Dear sir, we have collected your package and followed your instructions. However, it took quite a while to sell the book. A woman finally purchased it at a very low price a few days ago. +Kind regards, Maggie Ponzi.
 ()<Speaker></Speaker>||<CGDelay>0.3</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><CGDelay>0.2</CGDelay>:
-Erma(13)<Speaker>艾尔玛</Speaker>||:我检索了好几遍，确定没有别的相关锚点了。
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:……
-Erma(13)<Speaker>艾尔玛</Speaker>||:你怎么不说话？
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(13)||:……+我知道了。
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>艾尔玛</Speaker>||:你有什么发现？
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>;Erma(17)||:我知道该去哪里找所谓“休谟大主教”的下落了。
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>艾尔玛</Speaker>||:通缉令的事你有解决办法了？
-NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:对。+那个家伙一定知道这一切……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:蕾妮特神色复杂，没有跟艾尔玛解释的意思，匆匆奔向走廊的另一头。
-Erma(17)<Speaker>艾尔玛</Speaker>||:等等我！
-()||<黑点1>:
+Erma(13)<Speaker>Erma</Speaker>||:I've run several searches. I'm fairly certain there are no other relevant anchor points.
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...
+Erma(13)<Speaker>Erma</Speaker>||:Why aren't you saying anything?
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:... +I got it.
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:Got what?
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:I've figured out where we'll find this so-called "Archbishop Hume".
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:You have a solution for this bounty thing?
+NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Yes. +I'm sure she knows everything about this...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:With a strange look on her face, Reinette rushes down the hallway without any further explanation.
+Erma(17)<Speaker>Erma</Speaker>||:Wait up!
+()||<黑点1>:

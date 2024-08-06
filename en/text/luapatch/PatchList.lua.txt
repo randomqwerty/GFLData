@@ -406,7 +406,8 @@ patch3050=
 "3050/BattleManager",	
 "3040/Vehicle",	
 "3050/BattleChangeBackgroundPerformanceController",
-"3050/MissionSkillData",											
+"3050/MissionSkillData",
+"3050/EquipGourpEquipListController",											
 }
 -- va11
 print("load Va11");
