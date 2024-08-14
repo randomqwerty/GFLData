@@ -132,6 +132,10 @@ local CheckIsolateSpots = function(self)
 		end
 	end
 end
+local RequestSetDrawEvent = function(self,data)
+	self:RequestSetDrawEvent(data);
+	self:LoadLetterUI();
+end
 local Init = function(self)
 	self.difficulty = self.info.difficulty;
 	self:Init();
@@ -145,6 +149,12 @@ local Show = function(self,play,delay)
 	end
 	self:Show(play,delay);
 end
+local InitUIElements = function(self)
+	self:InitUIElements();
+	self.btnGunSure:AddOnClick(function()
+		self.goGunFliter:SetActive(false);
+	end)
+end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
@@ -152,8 +162,10 @@ util.hotfix_ex(CS.OPSPanelController,'MoveSelectDiskMission',MoveSelectDiskMissi
 util.hotfix_ex(CS.OPSPanelController,'MoveSpine',MoveSpine)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
 util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelBackGround,'CheckNewsPos',CheckNewsPos)
 util.hotfix_ex(CS.OPSPanelSpot,'ShowNewTag',ShowNewTag)
 util.hotfix_ex(CS.OPSPanelSpot,'Init',Init)
 util.hotfix_ex(CS.OPSPanelSpot,'Show',Show)
+util.hotfix_ex(CS.OPSLetterListController,'InitUIElements',InitUIElements)
 

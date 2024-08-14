@@ -1,2 +1,174 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||:<color=#FFFF00>마인드맵 기록 분석 중...</color>+<color=#FFFF00>분석 완료 예상 시각... 8월 9일 16시 00분</color>
+()<Speaker></Speaker>||<SE1>GF_Halloween_Wind_loop</SE1><黑屏2><BIN>7</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:한참 꺼 뒀던 통신 채널을 다시 켜니, 걱정하는 AN-94의 메시지 여러 건과 간결한 분노가 담긴 AK-15의 메시지 단 한 건이 있었다.+지금, AK-12는 "무리"에서 이탈한 뒤로 처음 메시지를 보냈다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:"돌아왔어."
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>7</BIN><黑点2><CGDelay>1</CGDelay>:
+()<Speaker></Speaker>||:세이프하우스에 도착하니 바로 두 동료들의 신호가 탐지됐다.+둘 다 여기서 기다리고 있었다. 1초라도 한눈을 팔았다간 AK-12가 두고 가기라도 할 것처럼.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:......
+()<Speaker></Speaker>||:AK-12는 빈손으로 오지 않았다.+운전석에서 내린 그녀는 뒷좌석의 문을 열어, 한 손으로 보드카 한 박스를 들었다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:그리고, 어슬렁어슬렁 정문으로 걸어갔다.+차를 바로 문 앞에 세웠고, 보드카를 꺼내느라 걸은 두 발짝을 합쳐도 정문까지는 열 걸음도 되지 않았다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<BGM>11700</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:콰앙!!
+()<Speaker></Speaker>||:그래서, 문짝이 괴력에 뜯겨져 날아올 때 피할 공간이 거의 없었다.+"원래의 몸"이었다면 아마 정말로 피하지 못했을 것이다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=3</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:쉬익!
+AK15MOD(4)<Speaker>AK-15</Speaker><Shake>||:<size=50>AK-12!!!</size>
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:맹수가 포효했다. 동료가 아니라 원수와 마주했을 때처럼.
+()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1><SE1>AVG_Door_Hit</SE1><震屏3>:와장창!
+()<Speaker></Speaker>||:날아간 철제 문짝은 차의 앞유리에 처박혔고, 산산조각 난 유리가 안에 온통 흩뿌려졌다.+그런데, AK-15가 시뻘건 눈동자로 주위를 살펴도 AK-12가 보이지 않았다. 그녀가 있었을 터인 자리의 바닥에 멀쩡한 보드카 한 상자만 놓여 있었다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||:빗나간 분노는 가슴으로 돌아왔다.+AK-15는 AK-12가 분명히 여기 있음을 알았다.+하지만 그녀는 이제 민첩성이 이전보다 훨씬 뛰어나졌고, 이질적인 은신 기능도 갖추게 되었다. 저 망토는 AK-15의 눈으로도 꿰뚫어 볼 수가 없었다.
+()<Speaker></Speaker>||<common_effect>%%code=202406_Hit%%</common_effect><SE1>AVG_20Winter_Knife_Whoosh</SE1>:슈욱!
+AK15MOD(6)<Speaker>AK-15</Speaker><Shake>||:——!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:예리한 감각이 목덜미에서 전해졌고, 거의 동시에 온몸으로 오한을 느꼈다. 물론, AK-15는 아랑곳않고 바로 뒤돌아 손아귀를 뻗었다.
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||<SE1>AVG_magic_circle_start</SE1>:어이쿠, 그건 안 되지.
+()<Speaker></Speaker>||:한순간 모습을 드러낸 AK-12가 껑충 뒤로 물러날 때, 그녀의 손에서 섬뜩한 빛이 반짝였다.+날카로운 비수 한 자루였다.
+AK15MOD(6)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15는 반사적으로 목덜미를 짚었다.+AK-12와 처음 겨뤘던 그때, 그녀의 승리를 결정지었던 치명상이 꽂힌 위치.+하지만 지금 그곳은 가볍게 긁힌 흠만 만져졌다.
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:역시 이 소체의 출력으로는 네 외부 장갑을 못 뚫겠네.+불공평하니까 더 좋은 무기 써도 되지?
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:부웅...+AK-12의 선언이 떨어지자마자, AK-15는 모기처럼 가는 고주파수의 진동음을 들었다.+세이프하우스 안에서 나는 소리였다.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:——어딜!
+()||<黑点1><SE1>RunStep</SE1>:
+()<Speaker></Speaker>||<黑点2><BIN>356</BIN>:버럭 외치며, AK-15는 한걸음에 세이프하우스 안으로 뛰어들었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:어느새 나와 보드카 박스를 든 AN-94는 가볍게 몸을 돌려 길을 비켜 주었다.
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:부웅...
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||:AK-15는 저 소리가 무엇인지 잘 알았다.+니토 "틸"이 사용하던, 베지 못하는 것이 없던 고주파 단분자 칼.+그 칼이라면 지금의 AK-12도 AK-15를 벨 수 있다.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:흥...
+()<Speaker></Speaker>||:그런데 든 의문은, 어째서 AK-12가 세이프하우스 안으로 들어왔는가였다.+넓은 지형이 그녀의 민첩성을 발휘하기 용이할 텐데, 여긴 마구 날뛰기엔 비좁은 공간이다.
+()<Speaker></Speaker>||:AK-15가 느리다는 것은 어디까지나 AK-12에 비해 상대적일 뿐, 그녀도 충분히 매우 날렵한 전술인형이다.+지금 둘의 소체 성능 격차로는, AK-12는 잡히는 순간 바로 끝장이다.+이 리스크를 AK-12가 모를 리 없었다.
+()<Speaker></Speaker>||:대체 무슨 생각인 걸까?
+()<Speaker></Speaker>||:비좁은 세이프하우스 안에서, AK-15는 가만히 우뚝 섰다. AN-94가 박스를 뜯는 소리를 제외하면 자신의 다소 초조한 숨소리만 들렸다.+그리고 눈으로 어두운 방을 바쁘게 이리저리 살피며, AK-12의 기척을 포착할 아주 사소한 단서라도 놓치지 않으려 했다.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:...오래 숨지 못할 거다.
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:과연 그럴까?
+()<Speaker></Speaker>||:AK-12가 대답했다.+목소리는 방의 모든 구석에서 난 것 같았다.+아무래도 소리로 위치를 파악하기는 무리였다.
+()<Speaker></Speaker>||:AK-15는 천천히 발을 내디뎌, 매 걸음을 신중하게 밟았다. 하지만 그렇게 한 발짝 내딛을수록, 전류가 신경을 자극하는 것처럼 점점 초조해져 갔다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:돌연 AK-15의 귀가 움찔했다. 천천히 담요 위를 걷는 듯한, 아주 가벼운 마찰음을 포착한 것이었다.
+()<Speaker></Speaker>||:그리고 즉시 발걸음을 멈추는 순간, 아주 희미한 기척과 함께 그녀의 측면에서 무언가가 번뜩였다.
+AK15MOD(6)<Speaker>AK-15</Speaker><Shake>||:——!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:AK-15는 곧장 몸을 돌려 방어 태세를 취했다.
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><白屏2>:섬뜩한 비수와 AK-15의 금속 팔보호대가 부딪혀 불똥을 튀겼고, 비좁은 방에서 쇠붙이가 격돌하는 굉음이 메아리쳤다.+그리고 이 찰나의 순간, AK-15는 아주 잠깐이나마 AK-12를 보았다. 전보다 훨씬 가늘고 유연한 몸은 어둠 속에서 유난히 날렵해 보였다.
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:반응 속도는 여전히 끝내주네.
+()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><白屏2>:AK-15는 대꾸도 않고 힘을 주어 반격하려 했지만, AK-12는 다시 유령처럼 어둠 속으로 사라졌다.+AK-15는 신속히 주위를 훑으며, AK-12가 취할 다음 행동을 예측했다.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Sword_Scope</SE1>:그때, 아까 들었던 아주 미세하면서도 극도로 날카로운 소리가 다시 들렸다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 소리가 난 방향으로 홱 고개를 돌린 AK-15는, 그늘에서 섬광처럼 튀어나오는 AK-12를 포착했다. 그리고 그녀의 손에는 그 고주파 단분자 칼이 위험하게 번뜩였다.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:이게——
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:급히 몸을 돌려 치명적인 일격을 피하려 했지만, 어깨가 푹 찔리는 감각이 느껴졌다.
+()<Speaker></Speaker>||<白屏2><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=6</controll_shake><SE1>AVG_Cut_Watermelon</SE1>:AK-12의 칼날이 깊숙이 꽂혔다. 다만 우연일까 고의일까, 급소는 아니었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:내가 속을 줄 알았어?+네가 비록 하나를 가르치면 하나밖에 모르긴 해도, 같은 실수를 두 번 저지르지는 않지.+날 상대로 함정을 팔 정도로 성장해서 정말 대견하네.+하지만, 날 너무 얕봤어.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:너...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=3</controll_shake>:AK-12는 유령처럼 다시 모습을 감췄다. 그리고 들려온 약간의 경계심과 장난기가 섞인 목소리가, 썰렁한 방 안에서 메아리쳤다.
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:이번 싸움은 여기까지 할까?
+AK15MOD(4)<Speaker>AK-15</Speaker>||<BGM>Campaion-70</BGM>:그냥 넘어갈 생각 마라! 분명 내 손으로 RPK-16을 처단하겠다고 했다! 그런데...!
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:그래서 아까 오면서 설명해 줬잖아.
+AK15MOD(4)<Speaker>AK-15</Speaker>||<震屏3><SE1>Rope</SE1>:<size=50>...납득 못해!!</size>
+()<Speaker></Speaker>||:AK-15가 분노의 고함을 지르는 반면, AK-12는 유유히 다시 그늘 속으로 몸을 숨겼다.
+NPC-AK12Mod#隐身(11)<Speaker>AK-12</Speaker>||:그럼 계속하지 뭐.
+()<Speaker></Speaker>||:AK-15는 최대한 분노를 억누르고 스스로를 진정시켰다.+질 수 없다, 또 저번처럼은 안 된다고 되뇌이면서.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+AK15MOD(3)<Speaker>AK-15</Speaker>||<BIN>9</BIN><黑屏2>:......
+()<Speaker></Speaker>||:AK-15는 눈을 감고 숨을 크게 마셨다. 시각에 의존하기를 포기하고, 청각과 직감에 온 신경을 집중했다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker>AK-12</Speaker>||:...감정을 다스려, AK-15.
+()<Speaker></Speaker>||:심호흡하고, 천천히 움직이며, AK-15는 그 어떤 사소한 기척도 전부 놓치지 않고자 했다.+AK-12가 언제까지고 어둠 속에 숨어있을 수는 없을 테니까.
+()<Speaker></Speaker>||:그런 고요 속에서, AK-15의 귀가 다시 미세한 소음을 잡아냈다. 아주 미세한, 작은 물건을 들었다 내려놓는 것 같은 소리를.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>356</BIN><SE1>ClothingUp</SE1>:눈을 번쩍 뜨고, 소리가 난 방향으로 손을 뻗었다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:척!
+()<Speaker></Speaker>||:AK-12가 던진 물건은 한 손에 잡히는 크기였다. 문제는, 눈으로 확인한 그것은 정교한 소형 섬광탄이었다.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><BIN>183</BIN><SE1>AVG_tinnitus_0</SE1>:잠깐 의아해한 순간, 섬광탄은 눈부신 빛을 뿜어 좁은 세이프하우스를 환하게 밝혔다.
+()||<白屏1>:
+()<Speaker></Speaker>||<白屏2><BIN>356</BIN>:이 찰나의 섬광 속에서, AK-15는 다시 한 번 AK-12의 모습을 똑똑히 보았다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:그래, 머리를 써서 이겨야 해, AK-15. 힘에만 의존해선 안 돼.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake><SE1>Rope</SE1>:AK-15는 재빨리 섬광탄을 집어던지고, 두 주먹을 꽉 움켜쥐어 AK-12를 향해 휘둘렀다.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:그런데, 예상과 달리 AK-12가 피하지 않고 곧장 정면으로 달려들었다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:진동하는 그 칼을 쥐고, AK-15의 주먹과 충돌하기 직전에서야 몸을 틀어 이를 회피하면서.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=8</controll_shake><白屏2><SE1>AVG_20Winter_Knife_Whoosh</SE1>:날아드는 단분자 칼이 차갑게 번뜩였다.
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>Rope</SE1>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:AK-15는 재빨리 양팔을 교차해 방어했고, 단분자 칼은 끼어 찢어지는 마찰음을 냈다.
+()<Speaker></Speaker>||:하지만 이번엔 균형을 잃지 않고, 체중을 실은 충격으로 반격했다.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:——잡았다!
+()<Speaker></Speaker>||白屏2><CGDelay>0.2</CGDelay><SE1>AVG_20Winter_Knife_Whoosh</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><SE1>AVG_Combat_Hits</SE1><<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=4</controll_shake>:둘은 몇 초도 안 되는 잠깐 동안 몇 합이나 겨뤘다. 이 좁은 공간에서, 칼날이 연달아 충돌하며 사방에 불똥이 튀었다.+이 막상막하의 대결은 잠시 계속되었다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:좋아, 이제 좀 봐 줄만 하네.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1><CGDelay>0.3</CGDelay>:터업!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:푸욱!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:마침내, AK-15가 AK-12의 목을 붙잡았다.
+()<Speaker></Speaker>||:하지만 AK-12의 칼도 AK-15의 몸에 꽂혔다. 한 치만 더 밀면 동력 코어를 부술 수 있었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_doorknock_wood</SE1>:똑 똑.
+()<Speaker></Speaker>||:문 쪽에서 노크 소리가 났다.+두 사람이 동시에 동작을 멈추고 고개를 돌려보니, 문 앞에서 보드카 박스를 든 AN-94가 못 말리겠다는 미소를 짓고 있었다.
+AN94MOD(0)<Speaker>AN-94</Speaker>||<BGM>BGM_23S_Winter_Night</BGM>:하루 종일 싸울 셈인가?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:이렇게 되니, AK-12는 다른 손으로 AK-15의 팔뚝을 쿡쿡 찔렀다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:AK-15는 몇 초 전까지 죽일 듯 싸웠던 상대를 물끄러미 바라보다, 홱 뿌리치듯 손을 놓아 하마터면 그녀를 바닥에 내팽개칠 뻔했다.
+()<Speaker></Speaker>||:이와 동시에 AK-15에게 꽂혔던 AK-12의 칼도 쑥 빠졌다.
+NPC-AK12Mod(13)<Speaker>AK-12</Speaker><Shake>||:콜록콜록... 하여간. 아, 참고로 나 안 봐줬다?+너한테 한 대만 맞아도 골로 가는걸.+이런 부담이 큰 전투는 오래 못하니까, 하는 수 없이 초강수를 썼어.
+AK15MOD(3)<Speaker>AK-15</Speaker>||:……
+AK15MOD(5)<Speaker>AK-15</Speaker>||:물은 적 없다.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:AK-12, 커피 리큐르도 가져왔다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:아아 고마워, 깜빡할 뻔했네.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:AK-15, 네게도 칵테일을 만들어 줄까?
+AK15MOD(3)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15는 대답하지 않고, 그냥 술 한 병을 집어 들더니 입으로 뚜껑을 따고는 그대로 벌컥벌컥 들이켰다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그러다 AK-12가 계속 물끄러미 바라보는 게 영 언짢았는지, 대뜸 홱 돌아 방을 뒤져 후추통을 꺼내더니 술에 마구 뿌렸다.
+NPC-AK12Mod(13)<Speaker>AK-12</Speaker>||:으엑.
+()<Speaker></Speaker>||:AK-12도 바로 질색했다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:한편, AN-94는 다 섞은 술에 얼음 구슬 하나를 띄워 AK-12에게 잔을 건넸다.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:그리고 자신에게도 한 잔 섞어, 주석제 머그컵에 따랐다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:뭐야, 왜 네 건 그렇게 특별해 보여?
+AN94MOD(0)<Speaker>AN-94</Speaker>||:이건 "솔티 독"이란 칵테일이다. 소금이 없으니 "그레이하운드"라 불러야 맞겠지만.
+AK15MOD(3)<Speaker>AK-15</Speaker>||:...요란하군.
+()<Speaker></Speaker>||:AK-15는 퉁명스럽게 한 마디 툭 던지곤 다시 병나발을 불려 했다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||<SE1>ClothingUp</SE1>:잠깐.
+AK15MOD(0)<Speaker>AK-15</Speaker>;NPC-AK12Mod(11)||:...왜.
+AK15MOD(0);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:우리 격식 좀 차릴까?
+AK15MOD(0)<Speaker>AK-15</Speaker>;NPC-AK12Mod(11)||:......
+AN94MOD(5)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:이런 건 전혀 신경쓰지 않았잖나.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:나도 성장한 거지.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||<BGM>BGM_Empty</BGM>:그래서, 오늘을 우리의 "보드카 데이"로 하자. 어때?
+AK15MOD(5)<Speaker>AK-15</Speaker>||:...이견 없다.
+AN94MOD(5)<Speaker>AN-94</Speaker>||:달마다 한 번?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:응, 달마다 한 번.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12가 두 동료들에게 술잔을 들었다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||<BGM>Campaion-58-2</BGM>:쇼와 안젤리아를 위하여, 그리고 우리의 미래를 위하여.
+()<Speaker></Speaker>||:AN-94와 AK-15는 잠깐 서로를 마주봤다.
+AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>ClothingUp</SE1>:쇼와 안젤리아를 위하여, 그리고 우리의 미래를 위하여.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers</SE1>:그리고 AN-94가 먼저 맞장구쳐, 머그컵을 AK-12의 유리잔에 부딪혀 경쾌한 소리를 내었다.
+AK15MOD(5)<Speaker>AK-15</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15는 영 못마땅한 듯 머리를 긁적였다.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:하지만 둘이 계속 쳐다보니, 그녀도 주변을 두리번대다 간신히 흠집투성이인 도자기 잔을 찾아내 술을 붓고, 또 후춧가루를 마구 뿌렸다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:벌써 살짝 후회되네... 그냥 얘 빼고 할까? 맛 옮을라.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:어서, AK-15. 너만 남았다.
+AN94MOD(0);AK15MOD(5)<Speaker>AK-15</Speaker>||<CGDelay>0.5</CGDelay>:
+AN94MOD(0);AK15MOD(5)<Speaker>AK-15</Speaker>||<SE1>ClothingUp</SE1>:...쇼와, 안젤리아를 위하여.
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(5)||:......
+AK15MOD(3)<Speaker>AK-15</Speaker>||:......우리의 미래를 위하여.
+()<Speaker></Speaker>||:그제서야 AN-94는 흡족스럽게 미소를 지었다.+마인드맵 업그레이드 이후로 거의 보여 준 적 없었던, 과거의 그녀처럼 상냥한 미소를.
+AN94MOD(7)<Speaker>AN-94</Speaker>||<SE1>ClothingUp</SE1>:그리고... "나쟈"를 위하여.
+()<Speaker>AK-12&AK-15</Speaker>||:......
+()<Speaker></Speaker>||:이번엔 아무도 맞장구쳐 주지 않았고, AK-12와 AK-15는 잔을 거두어 단숨에 비웠다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AN-94는 멋쩍게 뺨을 긁적이곤 자신의 잔을 비웠다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:내가 전에 게임 하나를 해봤는데, 거기선 죽은 "전설"을 위해 술을 만들고 그 사람의 이름을 붙이더라.
+()<Speaker></Speaker>||:그 말을 들은 AN-94가 잠깐 고민했다.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:...그럼, 너의 잔은 "안젤리아", 내 건 "쇼"로 하자.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:그럼 AK-15는?
+AN94MOD(0)<Speaker>AN-94</Speaker>||:그녀 자신.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12가 고개를 돌려, AK-15가 박살낸 정문을 바라봤다. 그녀 때문에 앞유리가 박살난 차도 아직 거기에 그대로 세워져 있었다.
+()<Speaker></Speaker>||:바깥의 하늘은 땅거미가 질 무렵. 저 멀리 석양이 붉은 그림자를 늘어뜨려, 마치 술을 한 잔 더 권하는 것 같았다.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1><CGDelay>0.5</CGDelay>:그래서, 그녀는 술을 새로 한 잔 따랐다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:..."리벨리온"을 위하여.
+()<Speaker></Speaker>||:나지막한 혼잣말.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:이를 들은 AK-15와 AN-94는 시선을 교환하고 서로에게 한 잔 따라 주었다.+어떤 이물질도 없는, 순수한 "보드카" 한 잔.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.3</CGDelay>:
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_20Winter_Cheers_People</SE1>:" '리벨리온'을 위하여! "
+()<Speaker></Speaker>||:【END】
+()||<黑点1>:

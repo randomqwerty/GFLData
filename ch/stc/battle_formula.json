@@ -15420,6 +15420,54 @@
     "formula": "sbuffidtier(9557)=1?$1*1.25:$1"
   },
   {
+    "id": 9455,
+    "formula": "sbuffidtier(9569)=1&sbuffidtier(9570)=1?1:0"
+  },
+  {
+    "id": 9456,
+    "formula": "sbuffidtier(9572)=1&sbuffidtier(9573)=1?1:0"
+  },
+  {
+    "id": 9457,
+    "formula": "sbuffidtier(9571)=0?0:@formation"
+  },
+  {
+    "id": 9458,
+    "formula": "sbuffidtier(9571)=0?1:0"
+  },
+  {
+    "id": 9459,
+    "formula": "sbuffidtier(9571)=0?0:#armor>0?@ap*0.5:0"
+  },
+  {
+    "id": 9460,
+    "formula": "sbuffidtier(9574)=0?0:1"
+  },
+  {
+    "id": 9461,
+    "formula": "sbuffidtier(9574)=0?105:110"
+  },
+  {
+    "id": 9462,
+    "formula": "sbuffidtier(9574)=0?106:112"
+  },
+  {
+    "id": 9463,
+    "formula": "sbuffidtier(9574)=0?107:114"
+  },
+  {
+    "id": 9464,
+    "formula": "sbuffidtier(9574)=0?108:116"
+  },
+  {
+    "id": 9465,
+    "formula": "sbuffidtier(9574)=0?109:118"
+  },
+  {
+    "id": 9466,
+    "formula": "sbuffidtier(9574)=0?110:120"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },

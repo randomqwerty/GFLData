@@ -55,8 +55,10 @@ end
 local CheckCastRougeEnd = function(self)
 	for i=0,CS.DeploymentUIController.Instance.leftSkills.Count-1 do
 		local skill = CS.DeploymentUIController.Instance.leftSkills[i];
-		skill.skillItem.playanim = false;
-		skill.skillItem.selectItems:Clear();
+		if skill.skillItem ~= nil then
+			skill.skillItem.playanim = false;
+			skill.skillItem.selectItems:Clear();
+		end
 	end
 	self:CheckCastRougeEnd();
 end

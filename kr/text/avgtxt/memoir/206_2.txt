@@ -1,2 +1,166 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||:<color=#FFFF00>마인드맵 기록 분석 중...</color>+<color=#FFFF00>분석 완료 예상 시각... 8월 9일 16시 00분</color>
+()<Speaker></Speaker>||<BGM>Campaion-58-2</BGM><BIN>9</BIN><黑屏2><回忆><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:"승리는 인간이 것이고, 죽음은 인형의 몫. 그런데 죽음의 권리마저도 결국엔 인간에게만 있다."
+()<Speaker></Speaker>||:...개소리.+인간 대신 죽어 주지 못하면, 뭣하러 인형이 있어?+인간이 죽는 건 다 인형이 일을 똑바로 못 해서야.
+()<Speaker></Speaker>||:게다가, 인형은 죽음이 대체 무엇을 의미하는지 진정으로 이해하지 못해.+죽음이... 우리에게 무엇을 가져다줄지도 모르고.
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:
+()<Speaker>？？？</Speaker>||:<color=#00CCFF>AK-12, 네 임무는 2시간 후 이 지점을 통과하는 소대의 섬멸이야.</color>+<color=#00CCFF>목표 소대는 인간 12명. 한 놈도 빠짐없이 사살해.</color>
+AK12(0)<Speaker>AK-12</Speaker>||:응.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><CGDelay>0.5</CGDelay>:타타탕!
+()<Speaker></Speaker>||:피부, 혈액, 지방, 근육, 골격, 내장...+인간의 신체는 이런 유기물로 구성되어 있다.+죽음이란, 인체의 일부를 잃는 것.+피부를 많이 다치거나, 피를 너무 흘리거나, 근육이 한계 이상으로 찢어지거나, 뼈가 나쁜 방향으로 부러지거나, 중요한 내장이 터지거나...+인간이란, 이토록 연약한 존재다.+인간에게, 삶과 죽음 사이를 가로막는 것은 이토록 낮은 문턱 하나뿐이다.
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><CGDelay>0.8</CGDelay><BIN>73</BIN><黑屏2><回忆><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||:약속 시간에 맞춰 AK-12와 AN-94가 훈련장에 도착했다.
+AN94(0)<Speaker>AN-94</Speaker>||:......
+AK12(0)<Speaker>AK-12</Speaker>||:긴장했어?
+AN94(0)<Speaker>AN-94</Speaker>||:응... 지휘관이 어떤 인물인지 모르니, 잘 지낼 수 있을까 걱정된다.
+AK12(0)<Speaker>AK-12</Speaker>||:그런 걱정을 할 바엔 차라리 그 사람이 얼마나 버틸지나 내기하자.
+AN94(0)<Speaker>AN-94</Speaker>||:"얼마나 버틸지"라니?
+AK12(0)<Speaker>AK-12</Speaker>||:우리 두목 노릇은 절대 편하고 즐거운 일이 아니잖아.
+NPC-Ange(10)<Speaker>？？？</Speaker>||:뭘 걸 건데?
+()<Speaker></Speaker>||<BGM>BGM_TalesofTheBlackFreighter</BGM>:머리 위에서 낯선 목소리가 들려왔다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:그 목소리의 주인공은 날렵하게 2층에서 뛰어내렸다.
+NPC-Ange(10)<Speaker>？？？</Speaker>||:이번에 쇼가 가격을 꽤 쳐 줬거든, 내기할 거면 계약 기간 끝날 때까지 버틴다로 걸지.
+AN94(0)<Speaker>AN-94</Speaker>||:당신이 안젤리아 지휘관인가? 미안하다, 방금은――
+AK12(0)<Speaker>AK-12</Speaker>||:그럼 우리는 뭘 걸까?
+NPC-Ange(11)<Speaker>？？？</Speaker>||:쇼가 좋은 보드카 어따 숨겼는지, 알지?+내가 이기면 가서 죄다 쌔벼 와.
+AK12(0)<Speaker>AK-12</Speaker>||:...그건 쇼의 숙소에 하나뿐인 금고에 있어.+우린 비밀번호 몰라.
+NPC-Ange(12)<Speaker>？？？</Speaker>||:난 알지, 000000.
+AK12(0)<Speaker>AK-12</Speaker>||:......
+AK12(4)<Speaker>AK-12</Speaker>||:좋아.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:여성은 흡족스러운 듯 눈이 가늘어졌고, 그제서야 AK-12는 이 사람이 자신들을 관찰하고 있음을 눈치챘다.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:자기소개를 해야지? 코드네임 "안젤리아", PMC 그리폰의 지휘관이야.+앞으로 너희의 훈련은 내가 담당한다, 쇼도 이미 권한 이전해 놨어.
+AN94(0)<Speaker>AN-94</Speaker>||:알았다.
+AK12(0)<Speaker>AK-12</Speaker>||:그럼 우리 프로필도 봤겠네. 어떻게 생각해?
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:안젤리아는 벌써 꺼내 든 전술 태블릿으로 훈련 내용을 짜면서 답했다.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:꽤 강하고, 호흡도 제법 잘 맞고.+적어도 너랑 AK-15보단 훨씬 낫네.+물론 성능 자체는 AK-15가 월등하지만, 너희 둘의 팀워크는 AK-15가 둘 있는 것보다 훌륭해.+단지...
+AN94(0)<Speaker>AN-94</Speaker>||:......
+NPC-Ange(13)<Speaker>안젤리아</Speaker>||:이름이 좀 많이 구리다 야, "울프팩"이라니 촌스럽게스리.+어지간한 인형 제조사는 그런 이름 막 디폴트로 한 세트씩 붙일걸?
+AK12(0)<Speaker>AK-12</Speaker>||:바꾸고 싶다면 바꿔도 돼.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:나중에. 지금은 훈련이 우선이야.+지금부터 할 훈련에서 너희의 임무는, 나를 안전하게 목적지까지 호위하는 것.+명심해, 지금 나는 완전 비무장 상태인 인간이야. 너희 둘이 내가 목숨을 기댈 유일한 희망이지.
+AN94(0)<Speaker>AN-94</Speaker>||:당신을 호위 대상으로? 하지만 이번 훈련은 실전 연습이지 않나?+안전을 위해 더미를 쓰길 권장한다.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:그게 바로 훈련의 목적이야. 평생 얌전하게 말 잘 듣는 더미나 호위할 수는 없잖아?+잘 들어, 너희는 앞으로 인간이 툭하면 죽을 짓을 하는 꼴을 정말 자주 보게 될 거야.
+AK12(4)<Speaker>AK-12</Speaker>||:사서 고생하기 좋아하는 지휘관이구나.
+AN94(0)<Speaker>AN-94</Speaker>||<SE1>ClothingUp</SE1>:알았다, 그럼 방탄복과――
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:필요 없어.+바로 시작하자고.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:두 인형들의 대답을 기다리지 않고, 안젤리아는 앞장서서 훈련장의 입구로 걸어갔다.
+AK12(0)<Speaker>AK-12</Speaker>||<SE1>Stop_AVG_loop</SE1>:...이번 내기, 내가 지겠는걸.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE2>Gunfight</SE2><CGDelay>1</CGDelay>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><回忆><BIN>159</BIN><CGDelay>0.05</CGDelay>:
+()<Speaker></Speaker>||:......
+()<Speaker></Speaker>||:등 뒤에 멈춘 발소리. AK-12는 뒤돌아보지 않아도 자신의 새 지휘관임을 알아챘다.
+AK12(0)<Speaker>AK-12</Speaker>||:늦었잖아, 안젤리아 지휘관. 임무는 진작에 완수했어.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:안젤리아는 바닥에 널브러진 12명의 병사들을 훑어봤다.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:이들의 군번줄은?
+AK12(0)<Speaker>AK-12</Speaker>||:임무 내용에 신상 정보 수집은 없었는데.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:임무랑 관계는 없지만 다 가져와.
+AK12(0)<Speaker>AK-12</Speaker>||:알았어.
+()<Speaker></Speaker>||:어째선지는 이해 못했지만, AK-12는 명령을 따랐다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:잠시 후, 군번줄 12개가 안젤리아의 손에 쥐어졌다.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:이들의 이름을 기억해.
+AK12(0)<Speaker>AK-12</Speaker>||:...? 하지만 다 죽었는걸? 이들의 신상 정보를 쓸 일도 없을 텐데.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:네가 이들의 목숨을 빼앗았으니 기억해야지.
+AK12(0)<Speaker>AK-12</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:12개의 군번줄이 짤랑여, 다시 AK-12의 손바닥에 놓였다.
+NPC-Ange(10)<Speaker>안젤리아</Speaker>||:알아 둬, AK-12. 이게 죽음의 무게야.+아주 가벼운 동시에, 엄청 무거울 수 있어.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><回忆><CGDelay>0.5</CGDelay><BIN>269</BIN>:
+()<Speaker></Speaker>||<BGM>BGM_23S_War_Sacrifice</BGM>:......
+()<Speaker></Speaker>||<SE1>Rope</SE1>:AN-94에게 부축을 받으며, 중상에서 회복한 지 얼마 안 된 안젤리아가 한 묘비 앞에 섰다.+묘비의 주인은 "람잔"이었고, 그 옆의 비석에는 "아흐민"이란 이름이 새겨져 있었다.
+NPC-Ange(19)<Speaker>안젤리아</Speaker>||:......
+AK12(0)<Speaker>AK-12</Speaker>||:안젤리아, 꽃 여기.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:안젤리아는 AK-12에게서 꽃다발 두 묶음을 받아 묘비 앞에 높았다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 한참을 바라보다, 홱 뒤돌아 AN-94의 손을 쥐고 말없이 자리를 떠났다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay>:
+AK12(0)<Speaker>AK-12</Speaker>||:뭐라도 말하려고 온 줄 알았더니.
+NPC-Ange(21)<Speaker>안젤리아</Speaker>||:해봤자 못 듣는데 뭘 해.
+AK12(0)<Speaker>AK-12</Speaker>||:그럼 왜 굳이 이 먼 길을 왔어? 오느라 여간 고생이 아니었잖아.
+NPC-Ange(21)<Speaker>안젤리아</Speaker>||:의사가 많이 걸으면서 재활 운동하래.
+AK12(0)<Speaker>AK-12</Speaker>||<CGDelay>0.5</CGDelay>:......
+AK12(0)<Speaker>AK-12</Speaker>||:묘비 보면서 무슨 생각했어?
+NPC-Ange(21)<Speaker>안젤리아</Speaker>||:...멍때렸어.
+AK12(0)<Speaker>AK-12</Speaker>||:그리고?
+NPC-Ange(21)<Speaker>안젤리아</Speaker>||:없어.
+AK12(0)<Speaker>AK-12</Speaker>||:이해가 안 가는데. 그럼 그게 무슨 의미야?
+NPC-Ange(19)<Speaker>안젤리아</Speaker>||:의미는 생각해내는 게 아니야, 깨달았을 때 저절로 튀어나오는 거지.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12는 잠시 걸음을 멈추고, 황혼녘의 한구석에 버려진 작은 묘비를 돌아보았다.+돌을 깎아 만든 묘비는 엄청 무거운 반면, 그 아래 묻힌 관은 엄청 가벼웠다.+관에 시신은 없고 옷가지만 있었으니까.+이것이 죽음의 무게인 걸까?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><黑屏2>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<common_effect>%%code=AVG_xiaxue%%</common_effect><CGDelay>0.5</CGDelay><BIN>181</BIN><黑屏2>:
+()<Speaker></Speaker>||:환상이 사라졌다.+오늘은 3차대전 종전 기념일이 아니어서, 프랑크푸르트 열사 기념비 주변은 인적이 없었다.+덕분에 AK-12는 마음놓고 진눈깨비를 맞으며 멍하니 비석 앞에 서 있을 수 있었다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:......
+()<Speaker></Speaker>||:안젤리아의 유품은 정말 손에 꼽았다.+기갑 "아레스"에서 뜯어낸 작은 파편, 갈아입을 옷 몇 벌.+그리고, 지휘관한테 요구해 받아온 "철완".
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12는 이미 질릴대로 살펴본 이 물건들을 또 손 안에서 이리저리 굴리며 또 살펴보면서, 어떤 수수께끼의 답을 찾아내려는 듯했다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:...결국엔 대답을 안 해줬네, 안젤리아.
+()<Speaker></Speaker>||:진눈깨비는 함박눈으로 변했다.+함박눈은 쌓이고 쌓여, 새하얀 도화지처럼 세상을 하얗게 뒤덮었다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:네가 만약 지금 우리의 모습을 봤어도... 여전히 똑같은 선택을 했을까?
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:예전에, 네가 산 사람은 누군가의 희생에 의미가 있는지 없는지를 평가할 자격이 없다고 했지...
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:그런데, 죽음이 뭘 가져다줬어?+이 세상은 아무것도 변하지 않았는데.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||<CGDelay>0.8</CGDelay>:
+NPC-AK12Mod(10)<Speaker>AK-12</Speaker>||:어쩌면 내가 이상한 거겠지, 죽음에서 의미를 찾는 일 자체가 무의미한데.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:안젤리아가 하던 것처럼, AK-12는 꽃다발을 기념비 앞에 내려놓았다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>207</BIN><BGM>BGM_Empty</BGM>:......+그친 눈은 도로의 양옆으로 하얗게 쌓였다.
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:한산하다 못해 썰렁한 길가를 지나, AK-12는 오래 전 장사를 접은 술집의 대문 자물쇠를 따고 열었다.
+()||<黑点1>:
+()<Speaker></Speaker>||<common_effect>%%code=CJ_WC_piaofu%%</common_effect><黑点2><BIN>313</BIN><Night><SE1>AVG_Door_Open_Close</SE1>:끼이이...
+()<Speaker></Speaker>||:그녀와 함께 이 오랫동안 문이 닫혔던 술집에 빛이 들어왔고, 휘날린 먼지들이 공중에서 춤을 췄다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:AK-12는 카운터로 걸어가, 먼지가 잔뜩 쌓인 의자에 아무렇지도 않게 앉았다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||<SE1>Stop_AVG_loop</SE1>:...평소처럼, 얼린 보드카?
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:옆의 허공에다 중얼거리며, AK-12는 보드카와 잔 두 개를 꺼내 가득 따랐다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:나 원래 이런 거 안 마시는데... 네 얼굴 봐서 마시는 거야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12는 잔을 흔들면서 가볍게 중얼거렸다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:안젤리아, 오늘 이 지경까지 오면서 후회한 적 있어?
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:마인드맵 공간 안에서, AK-12는 안젤리아의 모습을 투영했다.+아직 활력 넘치던 시절의 그녀를.
+NPC-Ange(16)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:<color=#00CCFF>후회할 게 뭐 있다고.</color>
+()<Speaker></Speaker>||:안젤리아가 허공에서 홀연히 나타나, 그녀 곁에 앉았다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:나랑 같이 갔으면 적어도 몇 년은 더 살 수 있었을 텐데.
+NPC-Ange(16)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>;NPC-AK12Mod(4)||:<color=#00CCFF>내가 하고 싶은 일을 못하면 오래 살아서 뭐해. 그냥 사는 게 고통일걸?</color>
+NPC-Ange(16)<Scale>1.06</Scale>;NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:......
+NPC-Ange(16)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>;NPC-AK12Mod(4)||:<color=#00CCFF>그래서, 겨우 그딴 말이나 하려고 이 술집에 왔어?</color>+<color=#00CCFF>내가 기억 못할까 봐? 예전에 이 가게에서 내가 너한테 술을 사 줬잖아.</color>
+NPC-Ange(16)<Scale>1.06</Scale>;NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:응... 겨우 몇 년밖에 안 됐는데, 모든 게 변했네.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>;NPC-AK12Mod(4)||:<color=#00CCFF>자꾸 그렇게 오글거리는 말 할래? 닭살돋네 진짜.</color>
+NPC-Ange(15)<Scale>1.06</Scale>;NPC-AK12Mod(10)<Speaker>AK-12</Speaker>||:너한테 할 말이 잔뜩일 것 같았는데...+너를 본 순간, 갑자기 할 말이 없어진 느낌이야.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>;NPC-AK12Mod(10)||:<color=#00CCFF>그럼 이제 가도 돼?</color>
+NPC-Ange(15)<Scale>1.06</Scale>;NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:안젤리아.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>;NPC-AK12Mod(4)||:<color=#00CCFF>응?</color>
+NPC-Ange(15)<Scale>1.06</Scale>;NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:나, 이제 죽음의 의미를 알겠어.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>......</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:안젤리아는 술잔을 만지작대다, 피식 웃고선 AK-12와 잔을 부딪히고 쭈욱 들이켰다.
+NPC-Ange(16)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>그럼 그걸 잊지 말고 계속 나아가.</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:죽음이 찾아올 때까지?
+NPC-Ange(16)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>죽음이 찾아올 때까지.</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:하지만 인형에게 죽음은 없는걸.
+NPC-Ange(16)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>있어.</color>+<color=#00CCFF>인류도 언젠가는 멸종하잖아? 인형도 끝이 찾아올 테지.</color>
+()<Speaker></Speaker>||:알코올 때문일까, 안젤리아의 모습이 흐릿해지기 시작했다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:...안젤리아.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>또 뭐.</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:나한테 술자리 한 번 빚졌다?
+NPC-Ange(21)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>......</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:쇼의 금고를 털었어.+비밀번호, 정말로 000000이더라.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:안젤리아가 난처한 듯 머리를 긁적였다.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>내가 남한테 빚진 술이 너무 많아서 말이지... 다음 생에 양주장이라도 차려야 다 갚을 수 있겠네.</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:잘 됐네, 그럼 오래 살겠다.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>......</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:웃는지 우는지 모를 미묘한 표정을 짓는 안젤리아는 이제 그 형체가 새어들어오는 빛에 완전히 삼켜질 것만 같았다.
+NPC-AK12Mod(10)<Speaker>AK-12</Speaker>||:...안젤리아.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>응?</color>
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:잘 가.
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||<CGDelay>0.6</CGDelay>:
+NPC-Ange(15)<Speaker>안젤리아</Speaker><Scale>1.06</Scale>||:<color=#00CCFF>...잘 있어, AK-12.</color>
+()||<黑屏1>:
+()<Speaker></Speaker>||<睁眼><SE1>ClothingUp</SE1>:눈을 깜빡이자, 안젤리아는 이 곰팡내와 먼지로 가득한 술집에서 사라졌다.+AK-12의 옆자리는 여전히 거미줄투성이였고, 탁상의 두 술잔엔 여전히 보드카가 가득했다.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
+()||<黑点1>:
