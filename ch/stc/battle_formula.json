@@ -14532,6 +14532,22 @@
     "formula": "$1*(1+(1-#life/#maxlife)*100*(0.001+0.0002*sbuffidtier(60006)))/#formation+tbufftypetier(601)"
   },
   {
+    "id": 6101,
+    "formula": "tbuffidtier(6101)>0?100:0"
+  },
+  {
+    "id": 6102,
+    "formula": "tbuffidtier(6101)>0?6104:6102"
+  },
+  {
+    "id": 6103,
+    "formula": "tbuffidtier(6101)>0?6105:6103"
+  },
+  {
+    "id": 6104,
+    "formula": "sbuffidtier(15048)>0?$1:$1*(1+(sbuffidtier(6107)*0.01))"
+  },
+  {
     "id": 7000,
     "formula": "#location=1?1:0"
   },
@@ -14626,6 +14642,54 @@
   {
     "id": 7023,
     "formula": "@Maxlife/@gunnumber*0.96"
+  },
+  {
+    "id": 7024,
+    "formula": "sbuffidtier(5300)=1?$1*(1+@armor/100):$1"
+  },
+  {
+    "id": 7025,
+    "formula": "@shield*0.5"
+  },
+  {
+    "id": 7026,
+    "formula": "@shield*0.56"
+  },
+  {
+    "id": 7027,
+    "formula": "@shield*0.61"
+  },
+  {
+    "id": 7028,
+    "formula": "@shield*0.67"
+  },
+  {
+    "id": 7029,
+    "formula": "@shield*0.72"
+  },
+  {
+    "id": 7030,
+    "formula": "@shield*0.78"
+  },
+  {
+    "id": 7031,
+    "formula": "@shield*0.83"
+  },
+  {
+    "id": 7032,
+    "formula": "@shield*0.89"
+  },
+  {
+    "id": 7033,
+    "formula": "@shield*0.94"
+  },
+  {
+    "id": 7034,
+    "formula": "@shield*1"
+  },
+  {
+    "id": 7035,
+    "formula": "@shield>0?1:0"
   },
   {
     "id": 7050,
