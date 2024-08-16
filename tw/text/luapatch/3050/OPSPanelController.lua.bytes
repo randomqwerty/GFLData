@@ -2,6 +2,7 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
 xlua.private_accessible(CS.OPSPanelBackGround)
 xlua.private_accessible(CS.OPSPanelSpot)
+xlua.private_accessible(CS.OPSLetterWriteController)
 local ReturnContainerPos = function(self)
 	if CS.OPSPanelBackGround.currentContainerId ~= 0 then
 		for i=0,CS.OPSPanelBackGround.Instance.opsMissionContainers.Count-1 do
@@ -64,6 +65,24 @@ local MoveSpine = function(self,spot)
 		local select = self.chooseSpot.transform:Find("Img_Selected");
 		if select~= nil then
 			select.gameObject:SetActive(true);
+		end
+	end
+end
+local MoveMissionHolder = function(self)
+	self:MoveMissionHolder();
+	if CS.OPSPanelBackGround.Instance.spotMissionHolders.Count == 0 then
+		local movespot = nil;
+		for i=0,CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
+			local spot = CS.OPSPanelBackGround.Instance.all3dSpots[i];
+			if movespot == nil then
+				if spot.CanShow and spot.mission ~= nil and spot.mission.showNewTag then
+					movespot = spot;
+				end
+			end
+		end
+		if movespot ~= nil then
+			local pos = CS.UnityEngine.Vector2(movespot.transform.localPosition.x,movespot.transform.localPosition.y);
+			CS.OPSPanelBackGround.Instance:Move(pos,true, 0.7);
 		end
 	end
 end
@@ -138,6 +157,11 @@ local CheckIsolateSpots = function(self)
 	for i=0,CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
 		local spot = CS.OPSPanelBackGround.Instance.all3dSpots:GetDataByIndex(i);
 		if spot.holder == nil then
+			if not self.playSpots:Contains(spot) then
+				if spot.mission ~= nil and not CS.SpecialActivityController.missionid_State:ContainsKey(spot.mission.missionInfo.id) then
+					self.playSpots:Add(spot);
+				end
+			end
 			spot:Show();
 		end
 	end
@@ -208,12 +232,103 @@ function PlayGuide(guidename)
 	end
 	CS.GriffinEntryMessageBoxController.OpenGuide(datas, CS.GuideType.End);
 end
+local CheckLetterText = function(self,txt)
+	self:CheckLetterText(txt);
+	local length = utf8len(self.lastText);
+	self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
+end
+local EditLetter = function(self)
+	if CS.ResCenter.CONGIGNAME == "IosResConfigData2018.txt" then
+		if self.letterEdit == nil or self.letterEdit:isNull() then
+			self.letterEdit = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath(self.EditLetterPath), CS.OPSPanelController.Instance.transform);
+			self.inputField = self.letterEdit.transform:Find("Img_Background/Main"):GetComponent(typeof(CS.UnityEngine.UI.InputField));
+			self.inputField.onEndEdit:AddListener(function(txt)
+				self:EndInput(txt);
+			end);
+			self.scrollrect = self.letterEdit.transform:Find("Img_Background/Main"):GetComponent(typeof(CS.UnityEngine.UI.ScrollRect));
+			self.layout = self.letterEdit.transform:Find("Img_Background/Main/Layout"):GetComponent(typeof(CS.UnityEngine.RectTransform));
+			self.txtCheck = self.letterEdit.transform:Find("Img_Background/Main/Layout/Text_Check"):GetComponent(typeof(CS.ExText));
+			self.txtLimit = self.letterEdit.transform:Find("Img_Background/Text_WordsNum"):GetComponent(typeof(CS.ExText));
+			self.txtCheck.gameObject:SetActive(true);
+			self.txtCheck.color = CS.UnityEngine.Color(0, 0, 0, 0);
+			self.inputField.onValueChanged:AddListener(function(txt)
+				self:CheckLetterText(txt);
+			end);
+			local btnBack = self.letterEdit.transform:Find("Img_Background/Btn_Back"):GetComponent(typeof(CS.ExButton));
+			btnBack:AddOnClick(function()
+				self:LeaveEditLetter();
+			end);
+		end
+		self.inputField.text = self.letterData.content;
+		self.letterEdit.gameObject:SetActive(true);
+	else
+		self:EditLetter();
+	end
+	local length = utf8len(self.letterData.content);
+	self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
+end
+local LeaveEditLetter = function(self)
+	if CS.ResCenter.CONGIGNAME == "IosResConfigData2018.txt" then
+		if self.CheckForbidWord and CS.Data.IsContainForbidWord(self.inputField.text) then
+			CS.CommonController.LightMessageTips(CS.Data.GetLang(110019));
+			return;
+		end
+		self.letterData.content = self.inputField.text;
+		self.letterEdit.gameObject:SetActive(false);
+		self.txtConcent.text = self.letterData.content;
+	else
+		self:LeaveEditLetter();
+	end
+end
+local RefreshSangvisUI = function(self)
+	self:RefreshSangvisUI();
+	local typeTrans = self.transform:Find("SangvisFrame/Top/Type");
+	local holder = typeTrans:GetComponent(typeof(CS.UGUISpriteHolder));
+	local type = 0;
+	if self.letterInfo.sangvisGunInfo.forces == CS.SangvisForceType.sangvis then
+		type = 1;
+	elseif self.letterInfo.sangvisGunInfo.forces == CS.SangvisForceType.KCCO then
+		type = 2;
+	elseif self.letterInfo.sangvisGunInfo.forces == CS.SangvisForceType.paradeus then
+		type = 3;
+	end
+	typeTrans:GetComponent(typeof(CS.ExImage)).sprite = holder.listSprite[type];
+end
+local CheckRenderTexture = function(self)
+	if self.rendTexture ~= nil then
+		CS.UnityEngine.Object.DestroyImmediate(self.rendTexture);
+	end
+	local x = CS.Mathf.CeilToInt(self.rectTrans.sizeDelta.x);
+	local y = CS.Mathf.CeilToInt(self.rectTrans.sizeDelta.y);
+	self.rendTexture = CS.UnityEngine.RenderTexture(x,y,0,CS.UnityEngine.RenderTextureFormat.ARGB32);
+	self.captureCamera.targetTexture = self.rendTexture;
+end
+function utf8len(input)
+	local len  = string.len(input)
+	local left = len
+	local cnt  = 0
+	local arr  = {0, 0xc0, 0xe0, 0xf0, 0xf8, 0xfc}
+	while left ~= 0 do
+		local tmp = string.byte(input, -left)
+		local i   = #arr
+		while arr[i] do
+			if tmp >= arr[i] then
+				left = left - i
+				break
+			end
+			i = i - 1
+		end
+		cnt = cnt + 1
+	end
+	return cnt
+end
 
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
 util.hotfix_ex(CS.OPSPanelController,'MoveSelectDiskMission',MoveSelectDiskMission)
 util.hotfix_ex(CS.OPSPanelController,'MoveSpine',MoveSpine)
+util.hotfix_ex(CS.OPSPanelController,'MoveMissionHolder',MoveMissionHolder)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
 util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
@@ -224,4 +339,8 @@ util.hotfix_ex(CS.OPSPanelSpot,'ShowNewTag',ShowNewTag)
 util.hotfix_ex(CS.OPSPanelSpot,'Init',Init)
 util.hotfix_ex(CS.OPSPanelSpot,'Show',Show)
 util.hotfix_ex(CS.OPSLetterListController,'InitUIElements',InitUIElements)
-
+util.hotfix_ex(CS.OPSLetterWriteController,'CheckLetterText',CheckLetterText)
+util.hotfix_ex(CS.OPSLetterWriteController,'EditLetter',EditLetter)
+util.hotfix_ex(CS.OPSLetterWriteController,'LeaveEditLetter',LeaveEditLetter)
+util.hotfix_ex(CS.OPSLetterWriteController,'CheckRenderTexture',CheckRenderTexture)
+util.hotfix_ex(CS.OPSLetterLabel,'RefreshSangvisUI',RefreshSangvisUI)

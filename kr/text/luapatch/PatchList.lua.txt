@@ -364,7 +364,8 @@ patch3040=
 "3040/VehicleGun",
 "3040/AVGCreditsController",	
 "3040/BattleManager",	
-"3040/Vehicle",		
+"3040/Vehicle",
+"3050/EquipGroupProgressLable",
 }
 patch3050=
 {
@@ -407,7 +408,10 @@ patch3050=
 "3040/Vehicle",	
 "3050/BattleChangeBackgroundPerformanceController",
 "3050/MissionSkillData",
-"3050/EquipGourpEquipListController",											
+"3050/EquipGourpEquipListController",
+"3050/OPSPanelController_GenerateStoryReviewUrl",
+"3050/CommonGetNewSangvisGunController",
+"3050/EquipGroupProgressLable",
 }
 -- va11
 print("load Va11");
