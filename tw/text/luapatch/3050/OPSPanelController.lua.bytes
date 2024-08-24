@@ -3,6 +3,7 @@ xlua.private_accessible(CS.OPSPanelController)
 xlua.private_accessible(CS.OPSPanelBackGround)
 xlua.private_accessible(CS.OPSPanelSpot)
 xlua.private_accessible(CS.OPSLetterWriteController)
+xlua.private_accessible(CS.RequsetGetAllLetterData)
 local ReturnContainerPos = function(self)
 	if CS.OPSPanelBackGround.currentContainerId ~= 0 then
 		for i=0,CS.OPSPanelBackGround.Instance.opsMissionContainers.Count-1 do
@@ -322,7 +323,10 @@ function utf8len(input)
 	end
 	return cnt
 end
-
+local SuccessJsonHandleData = function(self,jsonData)
+	CS.GameData.listLetterData:Clear();
+	self:SuccessJsonHandleData(jsonData);
+end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
@@ -344,3 +348,4 @@ util.hotfix_ex(CS.OPSLetterWriteController,'EditLetter',EditLetter)
 util.hotfix_ex(CS.OPSLetterWriteController,'LeaveEditLetter',LeaveEditLetter)
 util.hotfix_ex(CS.OPSLetterWriteController,'CheckRenderTexture',CheckRenderTexture)
 util.hotfix_ex(CS.OPSLetterLabel,'RefreshSangvisUI',RefreshSangvisUI)
+util.hotfix_ex(CS.RequsetGetAllLetterData,'SuccessJsonHandleData',SuccessJsonHandleData)

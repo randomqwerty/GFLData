@@ -1,149 +1,149 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>BGM_Hume_TheCircularRuins_HarpSolo</BGM><黑屏2><BIN>9</BIN><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:耳畔，是草叶的沙沙声。
-()<Speaker></Speaker>||:柔弱的枝叶彼此拍打，一浪一浪翻滚，由远及近描摹出风自由的形状……
-()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_Bomber_Flying</SE1>:嗡——似乎是飞机起飞的声音。
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:귓가에, 잎사귀가 바스락거리는 소리가 들렸다.
+()<Speaker></Speaker>||:가녀린 나뭇가지가 서로 부딪치고 파도쳐, 먼 곳에서 불어오는 바람의 형상을 그렸다.
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_Bomber_Flying</SE1>:그리고, 비행기가 이륙하는 것 같은 소리가 들렸다.
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<睁眼><BIN>262</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:已经不记得上次在柔弱的晨光中一觉睡到自然醒，是什么时候的事了。+眼前的湖面一半闪着金色波光，一半却倒映着静谧的山……美得令人忘却了呼吸。
-()<Speaker>指挥官</Speaker>||:等到退休那天，我一定要在这样的湖边盖一间小屋，每天钓鱼、划船……+要是累了，就躺在草坪上看看天空，什么都不想……真好啊。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:……
-()<Speaker></Speaker>||:早已留意到身后的动静，指挥官却没有回头。
-()<Speaker></Speaker>||:只是竖起耳朵，从草叶的“沙沙”声中捕捉那一道由远及近、踏在木地板上的脚步声……+直到熟悉的气息来到自己的背后。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:请把投影关上吧，谢谢你。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:提早体验下退休生活，不好吗？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:美梦会让我迷失方向。+我还是在面对现实的时候比较有食欲。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:如你所愿。
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||:희미한 아침햇살 속에서 자연스럽게 일어난 것이 얼마만인지 기억이 나지 않았다.+눈앞의 호수면 절반에는 금빛 물결이 반짝이고, 다른 절반에는 고요한 산등성이가 비쳐 보였다...  숨쉬는 것마저 깜빡할 것 같은 아름다운 풍경이었다.
+()<Speaker>지휘관</Speaker>||:언제 은퇴하게 되면 꼭 이런 호숫가에 오두막을 짓고, 매일 배 타고 낚시하면서 지내야지...+그러다 피곤하면 풀밭에 누워서 하늘을 바라보면서 아무 생각 없이... 천국이 따로 없네...
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:......
+()<Speaker></Speaker>||:뒤의 기척에 이미 눈치를 챘지만, 지휘관은 뒤돌아보지 않았다.
+()<Speaker></Speaker>||:그저 귀를 쫑긋 세우고, 수풀의 지저귐 속에서 저 멀리 나무 바닥을 밟으며 다가오는 소리에 집중했다...+익숙한 기운이 등뒤에 도착할 때까지.
+()<Speaker>지휘관</Speaker>||<SE1>Stop_AVG_loop</SE1>:이제 투영 좀 꺼 주지 않을래?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:미리 은퇴 후 생활을 체험하는 것도 좋지 않나요?
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:달콤한 꿈은 길을 잃게 만들어.+아무래도 현실을 마주하고 있어야 식욕이 더 생기더라.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:그럼 그러죠.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<common_effect>%%code=202407_TVOff%%</common_effect><CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_tele_disconnect</SE1>:啪嗒！逼真的全息投影倏忽切断。
+()<Speaker></Speaker>||<common_effect>%%code=202407_TVOff%%</common_effect><CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_tele_disconnect</SE1>:뚝 하는 소리와 함께, 실사를 방불케 하는 홀로그램이 꺼졌다.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><关闭蒙版>:房间的真实面目原形毕露，这是一间看似废弃的仓库，昏暗的屋内零零散散地摆放着一些飞机部件。
-()<Speaker>指挥官</Speaker>||:法兰克福机场？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:饿了吗？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:你准备了什么？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:苹果派和碱水面包。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……还有苹果酒。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:露尼西亚背对指挥官，将苹果派和面包切片。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:指挥官正好借此机会打量起了房间。+不知道是第多少次，指挥官凝视着房间内正对自己的监控探头。
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><关闭蒙版>:방 안의 진정한 모습이 드러났다. 버려진 창고로 보이는 장소. 어두운 실내에 비행기 부품이 널브러져 있었다.
+()<Speaker>지휘관</Speaker>||:프랑크푸르트 공항?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:시장하신가요?
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:이번엔 뭘 준비했어?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:애플파이랑 브레첼이요.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:...그리고 사과주도요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:루니샤는 지휘관을 등지고 애플파이와 빵을 썰었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:지휘관은 내친 김에 방 안을 훑어봤다.+이걸로 몇 번째인지 모르지만, 지휘관은 자신을 지켜보는 감시카메라를 응시했다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-Nyto(0)<Speaker>涅托</Speaker>||<黑屏2><BIN>158</BIN><回忆>:我们确信这基本是真实的内容。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:……滴，滴。+我听到耳边传来细小的声音，显然，所有的涅托对此都没有任何反应。
-()<Speaker>冷静的人形声音</Speaker>||:<color=#00CCFF>指挥官，不用回话，我知道你现在正在接受招待。</color>
-()<Speaker></Speaker>||:我听过这个声音，但是一时想不起来，毫无疑问，她和入侵涅托的那个人形是一伙的。
-()<Speaker>冷静的人形声音</Speaker>||:<color=#00CCFF>我们现在正在摸清了这座疗养院的防御体系，以便制定入侵计划，这需要点时间。</color>+<color=#00CCFF>指挥官，请再争取一些时间。我知道这会很痛，但是目前没有别的办法。</color>+<color=#00CCFF>我唯一能安慰你的方式，就是希望你能享受其中。</color>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:她留下一个一点都不好笑的玩笑，就结束了通讯。
+Nyto(0)<Speaker>니토</Speaker>||<黑屏2><BIN>158</BIN><回忆>:이 내용은 거의 사실이라고 확신합니다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:띠, 띠.+귓가에 아주 작은 소리가 들렸다. 다만 어느 니토도 이에 반응하지 않았다.
+()<Speaker>침착한 인형의 목소리</Speaker>||:<color=#00CCFF>지휘관님, 대답하실 필요는 없습니다, 지금 대접받고 계신 건 알고 있으니.</color>
+()<Speaker></Speaker>||:들어본 적 있는 소리지만, 잠시 떠오르지 않는다. 하지만 적어도 니토를 해킹했던 인형과 일행인 것은 확신했다.
+()<Speaker>침착한 인형의 목소리</Speaker>||:<color=#00CCFF>지금 이 요양원의 방어체계를 완전히 파악했고 침투계획을 짜고 있습니다, 다만 시간이 필요합니다.</color>+<color=#00CCFF>지휘관님, 시간을 좀 더 벌어주시길 바랍니다. 힘드신 건 알지만 지금 다른 수가 없습니다.</color>+<color=#00CCFF>제가 지금 해드릴 수 있는 건, 피할 수 없다면 즐기라는 말뿐이군요.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:전혀 웃기지도 않은 농담을 남기고 통신을 끊었다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><CGDelay>0.5</CGDelay>:指挥官没有想到，自己有一天竟会如此迫切地希望再听见一次404的声音，哪怕是个冷穿地心的笑话。
-()<Speaker></Speaker>||:突然，监控探头上的提示灯闪烁了两下，指挥官瞪大了双眼。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:没来得及继续观察，露尼西亚就走到了指挥官面前。
-NPC-Lunasia(2)<Speaker>露尼西亚</Speaker>||:来吃饭吧。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:指挥官被拉到餐桌边，背对着监控探头。
-()<Speaker></Speaker>||:也许只是网络波动？指挥官在心里苦笑。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:怎么？不合你胃口？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:合不合我胃口，你应该很清楚。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:露尼西亚给指挥官倒上一杯酒。
-NPC-Lunasia(2)<Speaker>露尼西亚</Speaker>||:快点吃吧。
-NPC-Lunasia(2)<Speaker>指挥官</Speaker><同时置暗>||:接下来是什么安排？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:你吃完就知道了。
-()<Speaker></Speaker>||:从露尼西亚平静的脸上，指挥官读不出多余的信息。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在指挥官享用餐食时，露尼西亚将一身崭新的衣服放在了指挥官身边。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:虽然我闻不到，但我猜你应该需要换身衣服了。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:这里有淋浴设备，一会你自己去用了，把衣服换上吧。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:威廉要见我了？
-()||:露尼西亚不搭话，只是静静地品味着杯中的苹果酒。
-()||<SE1>AVG_tableware</SE1>:指挥官也不多话，迅速吃起了盘中的食物。
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><CGDelay>0.5</CGDelay>:지휘관은 설마 또 이렇게 404의 목소리를 다시 듣고 싶게 될 줄은 상상도 못 했다. 그는 지금 아무리 썰렁한 농담이라도 감지덕지 받아줄 준비가 되어있었다.
+()<Speaker></Speaker>||:갑자기 감시 카메라의 램프가 두 번 깜빡여, 지휘관은 눈을 부릅떴다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:계속 관찰할 틈도 없이 루니샤가 지휘관 앞으로 걸어왔다.
+NPC-Lunasia(2)<Speaker>루니샤</Speaker>||:식사하시죠.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:지휘관은 식탁 앞에 끌려와 감시 카메라를 등지게 됐다.
+()<Speaker></Speaker>||:단순히 네트워크 불안정이었을까? 지휘관은 속으로 쓴웃음을 지었다.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:왜 그러시죠? 입에 안 맞나요?
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:입에 맞는지 안 맞는지는 네가 잘 알 텐데.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:루니샤가 지휘관에게 술을 한 잔 따랐다.
+NPC-Lunasia(2)<Speaker>루니샤</Speaker>||:빨리 드세요.
+NPC-Lunasia(2)<Speaker>지휘관</Speaker><同时置暗>||:이 다음은 스케줄이 어떻게 돼?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:다 드시면 알 거예요.
+()<Speaker></Speaker>||:루니샤의 잠잠한 얼굴에선 더 이상의 정보를 읽어낼 수가 없었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 식사를 즐기는 사이에, 루니샤가 말끔한 옷 한 벌을 지휘관 옆에 놓았다.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:저는 냄새를 못 맡지만, 슬슬 옷을 갈아입으시는 게 좋겠어요.
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:......
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:여기엔 목욕 시설이 있으니까, 이따 쓰시고 갈아입으세요.
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:윌리엄이 내 얼굴 좀 보자고 했나봐?
+()||:루니샤는 대답하지 않고, 그저 조용히 잔에 담긴 사과주를 음미했다.
+()||<SE1>AVG_tableware</SE1>:이에 지휘관도 더 물어보지 않고 빠르게 접시를 비웠다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Water_Tap</SE1><CGDelay>1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN>:结束淋浴，换上干净衣服的指挥官走回露尼西亚面前。
-()<Speaker>指挥官</Speaker>||:我好了，可以去见威廉了。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:倚靠在椅背上的露尼西亚露出了恍惚的微笑。+指挥官注意到她的脸有些潮红，眼神也飘忽不定，而她握在手里的酒瓶已经空了。
-()<Speaker>指挥官</Speaker>||:你全喝光了？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:嗯……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:指挥官挠了挠头，找来一条毛毯搭在了露尼西亚身上。
-()<Speaker>指挥官</Speaker>||:威廉在哪里？
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:为什么你总是问他？
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:明明在你面前的是我。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:你喝多了，好好休息吧。
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:你为什么不能关心下我？
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:……+你怎么了？为什么喝起了闷酒？+还有为什么突然在意起了我的仪表？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:我想你陪陪我。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:这些天我不一直都在？
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:不，不是这样……+是像普通人那样，普通的情侣那样。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我记得……普通人会在约会前，把自己收拾干净……+然后去见心爱的人……+所以我才让你也……
-()<Speaker>指挥官</Speaker>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:指挥官……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:我在。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:和我约会吧。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:指挥官叹了口气，坐在了露尼西亚对面的椅子上。
-()<Speaker>指挥官</Speaker>||:说吧，你想怎么“约会”？+这附近有什么适合的地点吗？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:怎么？想趁我醉酒的时候，试探我们的位置？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……不是这个意思。+既然你想要一场约会，那我只能尽力做到最好。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:地点就在这里。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官环顾四周，这简陋脏乱的仓库，怎么看都不是一个合适的约会场所。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:你之前关掉的投影呢？
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN>:샤워를 마치고 깨끗한 옷으로 갈아입은 지휘관이 루니샤 앞으로 돌아왔다.
+()<Speaker>지휘관</Speaker>||:다 갈아입었어. 이제 윌리엄을 보러 가면 되지?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:......
+()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:의자 등받이에 몸을 기댄 루니샤가 황홀한 미소를 지었다.+지휘관은 그녀의 얼굴이 약간 발그레하고, 시선도 흐리멍덩하며, 손에 쥔 술병이 빈 것을 눈치챘다.
+()<Speaker>지휘관</Speaker>||:그걸 다 마셨어?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:네...
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:지휘관은 머리를 긁적이고, 타올을 한 장 가져와 루니샤에게 덮어줬다.
+()<Speaker>지휘관</Speaker>||:윌리엄은 어딨어?
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:왜 자꾸 그 사람만 찾아요?
+NPC-Lunasia(4)<Speaker>지휘관</Speaker><同时置暗>||:......
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:봐봐요, 지금 눈앞에 있는 게 누구죠? 저잖아요.
+NPC-Lunasia(4)<Speaker>지휘관</Speaker><同时置暗>||:너무 많이 마셨어, 그만 푹 자.
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:왜 저한텐 관심을 안 주시는 건데요!
+NPC-Lunasia(4)<Speaker>지휘관</Speaker><同时置暗>||:......+너 왜 그래? 난데없이 혼자 병나발을 불고 말이야.+그리고 내 옷차림은 왜 갑자기 신경 쓰는 거야?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:같이 있어 주셨으면 해서요.
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:며칠 동안 쭉 같이 있었잖아.
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:아뇨, 이렇게 말고...+그냥 보통 사람들처럼, 평범한 커플처럼요.
+NPC-Lunasia(4)<Speaker>지휘관</Speaker><同时置暗>||:......
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:보통 사람들은 데이트하기 전에 몸 단장을 깨끗이 하고...+그 다음 사랑하는 사람을 보러 가는 거라고 해서...+그래서 지휘관님도...
+()<Speaker>지휘관</Speaker>||:......
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:지휘관님...
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:응.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:저랑 데이트해요.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:지휘관은 한숨을 뱉고, 루니샤 맞은편의 의자에 앉았다.
+()<Speaker>지휘관</Speaker>||:그래, 어떤 "데이트"를 하고 싶니?+근처에 어디 괜찮은 곳 있어?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:뭐예요, 저 술 취했다고 지금, 여기 위치를 캐내보겠다 이거예요?
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:...그런 게 아니라.+네가 데이트를 하고 싶다면 최선을 다해서 어울려주고 싶다는 거지.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:여기서 하면 되잖아요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 주변을 둘러봤다. 이 지저분하고 누추한 창고는 어떻게 봐도 데이트 장소론 부적절했다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:아까 그 홀로그램 다시 써보지 그래?
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>1</CGDelay><BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>658</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:依靠投影的力量，两人仿佛正身处法兰克福的天台。
-()<Speaker></Speaker>||<SE1>AVG_Bomber_Flying</SE1>:嗡——仓库外传来飞机起飞的声音。+指挥官好像能看见一架飞机正载着乘客飞向天空。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:你喜欢坐飞机吗？
-()<Speaker></Speaker>||:两人并肩躺在地板上，露尼西亚扭头看向指挥官。
-()<Speaker>指挥官</Speaker>||:一般吧，对我来说只是一种交通工具。
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我讨厌飞机。+它总是把我喜欢的人从我身边带走，又把我讨厌的人送来。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:喜欢的人和讨厌的人都是谁？
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我不想谈论他们。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:好吧，那没有人陪在你身边一起吗？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:有，比尔一直陪在我身边。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:我其实不太知道该怎么面对身边形形色色的人……+我习惯于隐藏起情绪，但他不一样，他为了保护我，连带着把我的情绪也一并表达了。+这让他看起来似乎总是歇斯底里的，但我知道，他是个温柔体贴的孩子……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……我持保留意见。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:有一次我跑去看飞机，忘记还烧着水，结果等我回来的时候，锅已经烧穿了，差点酿成一场火灾……+妈妈很生气，到处排查是谁干的，比尔看我抖得厉害，主动承认是他干的。+那一次，他被打得好惨……还被关了三天禁闭……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……+<color=#A9A9A9>怎么没直接打死呢？</color>
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:我欠他太多了……
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:指挥官撑起身体，给自己倒上一杯酒，想要甩掉脑内凶狠的念头。
-()<Speaker>指挥官</Speaker>||:没有这个人不存在的记忆吗？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:有啊，我记得之前野外实战训练的时候，我带着SOP2和15好不容易搞定了任务，准备去找16姐汇合。+结果我找错了汇合点，还上错了飞机。
-NPC-Lunasia(2)<Speaker>露尼西亚</Speaker>||:等我们快到终点的时候，才发现我们上的是去西伯利亚挖矿的飞机……+把16姐急坏了……
-NPC-Lunasia(2)<Speaker>指挥官</Speaker><同时置暗>||:哈哈哈哈哈……我能想象她的表情。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:那时候，15的脸黑得让我害怕，SOP2倒是玩得很开心，我根本不知道该怎么办。+最后16姐帮我们联系到了愿意送我们回来的飞机，SOP2还非要带上她挖到的一块巨大的矿石。+把她拖上飞机后，她还要哭着跟石头告别……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:那块石头一定让SOP2挂念了很久。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:嗯……+前段时间在艾莫号上，我还听见她说梦话在念叨那块石头。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:提到艾莫号，指挥官闷不做声地喝下两杯酒。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:就是SOP2还在修理槽中修复，不然她应该要坐起来念叨起那段往事了。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:怎么了？
-()<Speaker></Speaker>||:指挥官转向露尼西亚。
-()<Speaker>指挥官</Speaker>||:这些记忆是属于三个人的。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:是吗……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:嗯，和威廉有关的是露尼西亚的记忆。+和AR小队训练是M4的记忆，后面在艾莫号应该是丹德莱的记忆。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:我看你讲的时候完全没有意识到自己在切换不同的视角，所以我只能猜测这些记忆在你的心智中全部混成一团。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker>指挥官</Speaker>||:所以，你是谁？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:露尼西亚抬起被阴翳遮掩的眼睛。
-NPC-Lunasia(1)<Speaker>露尼西亚</Speaker>||:对你来说，我是谁？
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:指挥官刚想回答，撑起身体的手臂突然一软，只能无力地任自己躺在地板上。+视线中出现露尼西亚的脸，她安静地注视着说不出话的指挥官。
-NPC-Lunasia(1)<Speaker>露尼西亚</Speaker>||<CGDelay>0.5</CGDelay>:或许我想要的根本不是一场约会，而是一个答案。+我是谁？我也不知道这个问题的答案。+但或许我并不需要去费力寻找答案，我的诞生本身就是回答了，不是吗？
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>不是！</color>
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:抱歉了，指挥官，又让你陪我胡来了一天。+安心睡吧，醒来又会是新的一天。
-()<Speaker>指挥官</Speaker>||::<color=#A9A9A9>露尼西亚！</color>
-()<Speaker></Speaker>||:汹涌袭来的睡意压制住了指挥官的全部话语。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:在世界彻底沦陷之前，指挥官拼尽全力抓住了露尼西亚的手……
-()<Speaker></Speaker>||<黑屏1>:好像是错觉，指挥官最后的意识里，身后的人似乎顿了一下，然后就陷入漫长而微妙的沉默……
+()<Speaker></Speaker>||:홀로그램의 힘으로, 두 사람 주변에 프랑크푸르트의 한 옥상에서의 전경이 펼쳐졌다.
+()<Speaker></Speaker>||<SE1>AVG_Bomber_Flying</SE1>:휘웅...! 창고 밖에서 비행기가 이륙하는 소리가 들려왔다.+지휘관은 눈앞에 승객을 가득 태운 여객기가 하늘로 날아가는 모습이 그려지는 것 같았다.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:비행기 타는 거 좋아하시나요?
+()<Speaker></Speaker>||:두 사람은 어깨동무한 채로 바닥에 누웠고, 루니샤가 고개를 지휘관에게 돌렸다.
+()<Speaker>지휘관</Speaker>||:그냥저냥, 나한텐 단순한 교통수단이야.
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:전 비행기가 싫어요.+항상 제가 좋아하는 사람을 데려가고, 싫어하는 사람을 데려오거든요.
+NPC-Lunasia(4)<Speaker>지휘관</Speaker><同时置暗>||:좋아하는 사람이랑 싫어하는 사람이 누군데?
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:얘기 꺼내기도 싫어요.
+NPC-Lunasia(4)<Speaker>지휘관</Speaker><同时置暗>||:그래, 그럼 네 곁에 같이 있어주는 사람은 없었어?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:있어요, 빌이 항상 곁에 있어줬어요.
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:......
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:사실 전 주변 사람들을 어떻게 상대해야 할지를 잘 몰랐어요...+저는 감정을 항상 숨기려 했지만, 빌은 달랐죠. 저를 지켜주려고 제 감정까지 대신 표현해주고 그랬어요.+그래서 걔는 항상 성질이 더럽다는 소릴 들었지만, 실은 다정한 애라는 걸 전 알고 있어요...
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:...거기에 대해선 의견을 보류하지.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:한번은 제가 물 끓이고 있던 걸 깜빡하고 비행기를 보러 뛰쳐나갔다가, 냄비가 다 타고 불이 날 뻔한 적이 있었어요...+엄마는 엄청 화를 내면서 누가 한 짓이냐고 소리 소리를 질렀죠. 근데 제가 벌벌 떠는 걸 빌이 보고선, 자기가 했다고 거짓말로 자백한 거예요.+정말 엄청 심하게 두들겨맞았죠... 거기다 사흘 동안 독방 신세까지 졌어요.
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:......+<color=#A9A9A9>그때 맞아죽었어야 했는데.</color>
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:그 애한테 빚진 게 너무 많아요...
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:지휘관은 몸을 일으켜 스스로 술을 한잔 따라서, 머릿속의 악독한 일념을 떨쳐내려고 했다.
+()<Speaker>지휘관</Speaker>||:그 녀석에 관한 거 말고 다른 기억은 없어?
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:있죠. 예전에 야외 실전 훈련 때, SOP2와 AR-15를 데리고 겨우겨우 임무를 완수한 다음 M16 언니랑 합류하러 갈 때...+제가 그만 합류 포인트를 헷갈렸어요. 엉뚱한 비행기를 탔지 뭐예요.
+NPC-Lunasia(2)<Speaker>루니샤</Speaker>||:도착지에 거의 다 가서야 우리가 탄 게 시베리아 탄광행 비행기란 걸 알았죠...+M16 언니가 완전 속 터져 죽기 직전이었어요.
+NPC-Lunasia(2)<Speaker>지휘관</Speaker><同时置暗>||:하하하하... 그 표정 상상이 가네.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:AR-15는 엄청 무섭게 인상을 팍 쓰고 있고, SOP2는 혼자 신나서 떠들어대는데, 저는 어떻게 해야 할지 도무지 모르겠는 거예요.+결국 M16 언니가 복귀할 비행기편을 물색해줬는데, SOP2가 글쎄, 자기가 파낸 커다란 광석을 꼭 가져가야 한다고 떼를 쓰는 거예요.+결국 비행기로 끌고 가서, 울면서 돌한테 작별 인사하도록 만들었죠...
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:SOP2가 엄청 아쉬워했겠다.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:네...+저번에 엘모호에서 잠꼬대로 그 돌 이야기를 하더라고요.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:엘모호 얘기가 나오자, 지휘관은 조용히 술을 두 잔 들이켰다.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:그땐 수복 캡슐에서 수리 중이어서 망정이지, 아니었으면 바로 벌떡 일어나서 그때 얘기를 쫑알거렸을걸요?
+()<Speaker>지휘관</Speaker>||:......
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:왜 그러세요?
+()<Speaker></Speaker>||:지휘관은 루니샤에게 고개를 돌렸다.
+()<Speaker>지휘관</Speaker>||:세 사람의 기억이 섞여 있구나.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:그런가요...
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:그래, 윌리엄에 관한 건 루니샤의 기억.+AR팀과 훈련한 건 M4의 기억, 그리고 엘모호에서의 기억은 댄들라이의 것이겠지.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:......
+NPC-Lunasia(0)<Speaker>지휘관</Speaker><同时置暗>||:서로 다른 이야기인데 전혀 시점이 바뀌는 느낌이 없었어. 아무래도 그 기억들이 너의 마인드맵 속에서 한데 뒤섞여 있는 상태라고 봐야겠지.
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:......
+()<Speaker>지휘관</Speaker>||:그래서, 너는 누구야?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:루니샤가 그늘로 가려진 시선을 들었다.
+NPC-Lunasia(1)<Speaker>루니샤</Speaker>||:당신한테는 누구인데요?
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:지휘관이 대답하려 하는 순간, 바닥을 짚고 있던 팔에 갑자기 힘이 빠지며 지휘관은 바닥에 쓰러졌다.+눈 앞으로 다가온 루니샤의 얼굴은 아무 대답도 하지 않는 지휘관을 차분하게 지켜보고 있었다.
+NPC-Lunasia(1)<Speaker>루니샤</Speaker>||<CGDelay>0.5</CGDelay>:어쩌면 제가 원하는 건 데이트가 아니라 해답일지도요.+"나는 누구인가?" 이 질문의 대답은 저도 몰라요.+어쩌면 굳이 애써서 답을 찾을 필요가 없을지도 모르죠. 제가 태어난 것 자체가 대답일 수도 있잖아요? 안 그래요?
+()<Speaker>지휘관</Speaker>||:<color=#A9A9A9>아니야!</color>
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:죄송해요, 지휘관님. 오늘도 저랑 억지로 어울려 주시느라 힘드셨죠?+안심하고 주무세요, 일어나면 또 새로운 하루가 시작될 테니까.
+()<Speaker>지휘관</Speaker>||:<color=#A9A9A9>루니샤!</color>
+()<Speaker></Speaker>||:덮쳐오는 졸음이 지휘관의 모든 말을 집어삼켰다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:세상이 완전히 어둠에 잠기기 직전, 지휘관은 온힘을 다해 루니샤의 손을 붙잡았다.
+()<Speaker></Speaker>||<黑屏1>:착각일까, 마지막 의식 속에서 등 뒤의 인물이 한번 움찔하고, 길고도 미묘한 침묵에 빠진 것 같았다...

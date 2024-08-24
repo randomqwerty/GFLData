@@ -1,1 +1,258 @@
-()||<BIN>10</BIN>:<color=#FFFF00>Tip：待替换资源。</color>
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>10345</BGM><黑点2><BIN>757</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:치열한 총소리가 주택가의 평화를 박살냈다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake><SE1>AVG_engine_speedup</SE1>:지휘관을 태운 차량은 더욱 속력을 높여 인적 없는 길거리를 내달렸다.+하지만 좌표가 특정되면서 점점 많은 증원 병력이 쫓아왔다.
+()||<黑点1>:
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<BIN>730</BIN><黑点2><SE1>Select</SE1>:추격병이 너무 많아, 이러다간 이 차 금방 박살나겠어!
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:넌 운전에 집중해, 쫓아오는 놈들은 내가 처리하지.
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:M16이 차 루프를 열고 의탁해 끈질기게 쫓아오는 적들을 겨냥했다.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.1</CGDelay><震屏3>:
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.4</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.4</CGDelay>:
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:416, 엄호해.
+HK416Mod(0)<Speaker>HK416</Speaker>||:OK. 후방은 내가 맡을게.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:퍼억!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:경비단 병사 한 명이 차에 치였고, HK416은 제동을 거는 순간 병사가 든 통신기를 낚아채 해킹했다.
+()<Speaker>지휘관</Speaker>||:이걸로 적들 배치를 알 수 있겠어?
+HK416Mod(0)<Speaker>HK416</Speaker>||:네.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:잠시 지나서 HK416이 결과를 말했다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:지휘관, 화이트존의 모든 입구가 봉쇄됐어요.+그리고 10개 소대가 넘는 병력이 간선도로를 따라 수색 중이고요...
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:이러면 들어왔던 길로 나갈 수는 없겠네.
+()<Speaker>지휘관</Speaker>||:......
+HK416Mod(0)<Speaker>HK416</Speaker>||:지휘관, 이제 어떡하죠?
+()<Speaker>지휘관</Speaker>||:혹시 지형도 있어?+어떻게든 뚫고 나가야 해, 여기서 버텨봤자 결국엔 소모전 끝에 당할 뿐이야.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타탕!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=5</controll_shake><SE1>AVG_brake</SE1><SE1>AVG_engine_speedup</SE1>:또 총알 세례가 차를 쫓아왔다. UMP45가 딱 맞춰 핸들을 꺾어서 대부분은 피할 수 있었다.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:화이트존 지도는 기밀 등급이 아주 높아. 지형도는 특급 기밀 수준이고.+우리만으론 입수할 수가 없을 거야.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:계속 창밖의 총격전을 지켜보던 넬레가 갑자기 입을 열었다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:제가 지형을 대충 알아요, 교관 씨가 부탁해서 여기 지형을 최대한 외웠거든요.
+NPC-Nele(3)<Speaker>지휘관</Speaker><同时置暗>||:넬레 씨...
+NPC-Nele(3)<Speaker>넬레</Speaker>||<SE1>ClothingUp</SE1>:이곳은 구역 분할이 아주 가지런하게 되어있어요. 수행하는 기능에 따라서 구획이 나뉘어 있죠.+중앙은 오피스촌이고 대충 동남-서북 방향으로 뻗어 있어요. 서남쪽과 동북쪽에는 주택가가 있고요.
+NPC-Nele(3)<Speaker>넬레</Speaker>||<SE1>ClothingUp</SE1>:지금 우리는 서남쪽 주택가에 있어요.
+()<Speaker>지휘관</Speaker>||<SE1>AVG_20Winter_Book</SE1>:......
+()<Speaker></Speaker>||:지휘관은 넬레가 그리는 이미지를 보면서 다음 계획을 생각했다.
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:마인강이 화이트존 위를 지나가는 지점이 어딘지 알아?
+NPC-Nele(2)<Speaker>넬레</Speaker>;M16A1BOSS(4)||:마인강... 그건 왜요?
+NPC-Nele(2);M16A1BOSS(4)<Speaker>M16A1</Speaker>||:비스바덴의 지하철 순환선이 화이트존 바로 위를 지나가. 마인강이 화이트존과 만나는 지점이 바로 그 근처야.
+NPC-Nele(2);HK416Mod(0)<Speaker>HK416</Speaker>||:...참 자세히도 조사했네.
+NPC-Nele(1)<Speaker>넬레</Speaker>||:하지만 그 지점을 찾는다 해도 나갈 수 있는 건 아니잖아요...
+NPC-Nele(1)<Speaker>지휘관</Speaker><同时置暗>||:아니...+M16의 뜻은, 화이트존이라 해도 지하철이 지나가는 곳은 다른 곳보다 벽 두께가 얇을 테니까,+거기를 폭파해서 통로를 열 수 있단 뜻이야.
+NPC-Nele(1);M16A1BOSS(2)<Speaker>M16A1</Speaker>||:맞아.
+NPC-Nele(2)<Speaker></Speaker>;M16A1BOSS(2)||<CGDelay>0.5</CGDelay>:
+NPC-Nele(3)<Speaker>넬레</Speaker>||:...알겠어요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 눈살을 찌푸리며 자신이 그린 지도를 뚫어지게 봤다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:제가 알고 있는 정보로 추측한다면, 그 지점은 대강 주택가 북쪽, 경비단 막사와 오피스촌이 만나는 곳일 거예요.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:거긴 정수처리장 건물이야, 화이트존의 정상과 직접 연결되어 있어.
+HK416Mod(0)<Speaker>HK416</Speaker>||:이 정보들 확실해? 앞으로의 우리 작전 방침에 직결된 문제야.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:위장 건물이 없다면 말이죠.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:위장이 있어도 큰 문제는 없어.+폭파하기 전에 토질을 검사해보면 되니까.
+HK416Mod(0)<Speaker>HK416</Speaker>||:......+그럼 전 이견 없어요, 지휘관.
+()<Speaker>지휘관</Speaker>||:감사합니다, 넬레 씨.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 넬레가 X 자 표시를 그린 지점을 보면서 눈살을 찌푸렸다.
+()<Speaker>지휘관</Speaker>||:이쪽으로 간다면 경비단 막사 근처를 지나가게 될 거야. 발각될 가능성이 있어.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:지금 경비단은 전원 출동해서 우리를 쫓고 있어. 막사엔 오히려 최소 병력만 남아있겠지.
+M16A1BOSS(2)<Speaker>지휘관</Speaker><同时置暗>||:내가 걱정하는 건 경비단 내부의 통신 네트워크야. 지원이랑 반응 속도가 너무 빨라.+우리 이동 경로가 들키면 목적지까지 금세 들통날 거야.
+HK416Mod(0)<Speaker>HK416</Speaker>||:걱정 마세요, 저희가 시간을 최대한 벌어드리죠.+그리고, 폭발이 일어나면 거기로 경비단의 주의력이 분산될 테니까요.
+HK416Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:그래. 그럼 우선적인 목표는 정수 처리장에 도달하는 걸로.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:라저.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=5</controll_shake><SE1>AVG_brake</SE1><SE1>AVG_engine_speedup</SE1>:UMP45가 핸들을 돌려 목표 지점을 향해 빠르게 운전했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:HK416이 접근하는 마지막 경비단 병사를 사살했다.+M16A1의 추측대로 경비단은 전부 출동해서 막사엔 몇 개 소대밖에 남아있지 않았다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK416는 정수처리장의 꼭대기를 올려다봤다. 계획대로라면 M16이 이미 도착했을 터였다.
+HK416Mod(0)<Speaker>HK416</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>M16, 이쪽은 청소 완료.</color>+<color=#00CCFF>하지만 경보 울리는 걸 막진 못해서 지금 증원병력이 오는 중이야.</color>
+HK416Mod(0);M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>알았다. 지금 최상층에 도착해서 폭발물 설치 중이다.</color>+<color=#00CCFF>5분만 더 벌어줘.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:<color=#00CCFF>알았어.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK416는 옆의 주차장에 세워둔 차를 바라봤다. 지휘관과 넬레, 그리고 J가 거기 숨어 있었다.+UMP45와 UMP9은 미리 매복해서 지휘관을 빈틈없이 보호 중이었다.+이제 자신과 G11에게 남은 일은 추격대를 저지해서 M16A1의 폭파까지 시간을 벌어주는 것뿐이었다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:......
+()<Speaker></Speaker>||:폭풍전야 같은 기다림 속, HK416은 오묘한 불안함을 느꼈다.
+()<Speaker></Speaker>||<SE2>Alarm</SE2><BGM>BGM_Empty</BGM>:이에 호응하듯, 우렁찬 경보가 정수처리장 안에서 들려왔다.
+M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>엄호 준비해, 폭발물 설치 끝났어.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:<color=#00CCFF>양호, 빨리 철수해.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK416는 뒤에 있는 대원들에게 수신호로 엄폐를 지시한 뒤 자신도 빠르게 걸어갔다.+지휘관이 있는 차까지 겨우 몇 걸음 거리였다.
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>Explode</SE1>:콰앙!+굉음이 그녀의 등뒤에서 들려왔다.+하지만 예상했던 초연의 냄새와 탄내는 느껴지지 않았다.
+()||<黑点1>:
+()<Speaker></Speaker>||<睁眼><BIN>249</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:HK416이 다시 눈을 뜨자, 그녀는 지금 불바다가 되어 있을 정수처리장 근처가 아니라——+자신의 레벨 2 플랫폼 안에 있었다.
+HK416Mod(0)<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:
+HK416Mod(0)<Speaker>HK416</Speaker>||:뭐야?
+HK416Mod(0)<Speaker>HK416</Speaker>||<SE1>AVG_tele_connect</SE1>:45? 네가 한 짓이야?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>무슨 일이야? 왜 레벨 2 플랫폼으로 통신했어?</color>
+HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:......+내 의지가 아니야. 나도 끌려왔어.
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>해킹당한 거야?</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:아직 모르겠어.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>지금 네 상황을 설명해줘.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK416는 새하얀 공간을 둘러보며 평소와 다른 점을 찾으려 했다.
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:쉬이잇...+뱀이 혀를 낼름거리는 소리.+아주 가까이, 바로 귓가에서 들리는 것 같았다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:뱀...+뱀 한 마리가 보여.
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>뱀?</color>
+HK416Mod(0);M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>416, 우린 지금 45의 공유 화면을 통해 네 레벨 2 플랫폼을 보고 있어.</color>+<color=#00CCFF>네가 말하는 뱀은 안 보여.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:......
+()<Speaker></Speaker>||:HK416은 가까이서 하얀 알 모양의 물체들을 감싸고 있는 보아뱀을 주시했다.
+()<Speaker></Speaker>||:녀석은 HK416을 향해 혀를 낼름거리며 위협했다.+하지만 HK416은 전혀 신경쓰지 않았다. 그녀의 시선은 뱀이 몸으로 지키고 있는 그 알 모양 물체에 꽂혀있었다.+계란형 구조물에 담겨 보호받는 데이터.+HK416은 그것이 무엇인지 바로 짐작했다.
+()<Speaker></Speaker>||:"고치"였다.
+HK416Mod(0)<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+HK416Mod(0)<Speaker>HK416</Speaker>||<SE1>AVG_tele_connect</SE1>:45, 그쪽은 상황이 어때?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>폭발이 예상보다 강력했어, 그래도 통로는 열렸어.</color>+<color=#00CCFF>지금 우린 증원 병력을 물리치면서 지휘관의 탈출 경로를 계획 중이야.</color>+<color=#00CCFF>네 소체는 지금 지휘관의 차 근처에 있을 거고.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:......
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>뭔가 계획이 있으면 서둘러 말해.</color>+<color=#00CCFF>솔직히 말해서 지금 여기 상황이 녹록치 않거든.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:45, 만약 네 앞에 대놓고 함정이 있어. 미끼를 물면 죽을 게 뻔하지만, 함정 안에 대단히 중요한 물건이 있어.+그럼 어떻게 할 거야?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框> ||:<color=#00CCFF>이미 목숨 걸고 싸우는 중인데 도박을 안 해볼 이유가 있나?</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:그렇게 나올 줄 알았어...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:HK416이 가볍게 한숨을 쉬었다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:지금 내가 이 함정을 안 밟아도 분명 네가 들어와서 밟겠지.
+()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_ev2408_DanceWithDeath</BGM>:총구를 들고서, HK416은 보아뱀을 향해 걸어갔다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:그렇다면 내가 가야지, 이럴 땐 대장이 나서는 법이잖아?
+HK416Mod(0)<Speaker>HK416</Speaker>||:내가 못 돌아오면 일단은 네가 계속 대장 하고 있어.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>......</color>+<color=#00CCFF>416, 도박은 패가망신의 지름길이야, 잘 생각하라구.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:당연히 잘 생각하고 말하는 거지.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:HK416은 통신을 껐다. 눈앞의 보아뱀은 몸을 일으켜세워 튼실한 몸뚱이와 뾰족한 송곳니를 드러내고 있었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_2022Saros_SCARL1</SE1>:
+HK416Mod(0)<Speaker>HK416</Speaker>||:지휘관... 설마 나도 이렇게 전력을 다할 날이 있을 줄이야.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타탕!+방아쇠를 당겼지만, HK416의 총알 세례는 보아뱀을 약간 움츠리게 할 뿐이었다.
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:총알은 놈의 비늘에 불똥을 튕기며 막혔다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:칫, 무슨 놈의 방어력이... 그럼 대신 공격력은...
+()<Speaker></Speaker>||<震屏3><SE1>Battlefield</SE1>:휘익!+보아뱀의 꼬리가 채찍처럼 주변을 휩쓸었다. 번개 같은 속도에 해일 같은 위력이었다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:HK416은 미처 피하지 못하고 정통으로 튕겨나 바닥에 내팽개쳐졌다.
+HK416Mod(0)<Speaker>HK416</Speaker><Shake>||<SE1>Rope</SE1>:......+아니, 요즘 적들은 뭐가 이렇게 다 사기야?+탱커인지 딜러인지 하나만 하라고! G11이 보면 밸붕이라고 난리를 치겠네.
+()<Speaker></Speaker>||:HK416은 자조하듯 웃으며, 몸을 일으켜 다시 보아뱀과 대치했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:놈이 머리를 높이 들어올렸다. 낼름거리는 혀에 도발의 의미가 약간 더해졌다.+HK416은 방금 녀석의 공격을 회상하며 약점 탐색에 온 신경을 집중했다.
+()<Speaker></Speaker>||<SE1>Battlefield</SE1><震屏3>:휘익! 다음 공격이 바로 다가왔다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:...같은 패턴?
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:HK416는 뱀 꼬리와 지면 사이 틈새로 슬라이딩했다. 그리고 동시에——
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:타타탕!+보아뱀의 정수리를 향해 방아쇠를 당겼다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:똑같은 수에 두 번 당하진 않아!
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:총알이 놈의 머리 비늘에 부딪혀, 흐릿한 불똥만 튀기고 튕겨나갔다.+하지만 애초에 HK416은 피해를 줄 생각이 없었고, 처음부터 "고치"를 노릴 뿐이었다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:보아뱀의 주의력이 흐트러진 순간, HK416은 이미 "고치" 중 하나를 붙잡았다.+그리고...
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:쉬익...+보아뱀의 모습이 시야에서 사라졌다. 하지만 귓가엔 분명 선명한 소리가 들렸다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=4</controll_shake><SE1>AVG_Dismember</SE1>:콰직...+단단히 조여지는 고통.
+()<Speaker></Speaker>||:생각할 수도 없고, 움직일 수도 없었다.+마치 통째로 뱀의 뱃속에 삼켜진 것처럼, 치명적인 독소에 마비되어 조금씩 지옥으로 빨려들어가는 기분이었다.+하지만 그래도 HK416은 손에 든 "고치"를 놓지 않았다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><BIN>9</BIN><黑屏2>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>222</BIN><睁眼2><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1><SE2>Gunfight</SE2>:타타탕! 콰앙——!+치열한 총격전 소리가 그녀를 현실로 끌어냈다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:......+...이렇게 싱겁게?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>416, 응답해!</color>
+HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:들려.+지금 빠져나왔어.
+HK416Mod(0);G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>너 괜찮아? 놀라 죽는 줄 알았다고...</color>
+HK416Mod(0)<Speaker>HK416</Speaker>;G11Mod(0)||:난 괜찮아, 우선 지휘관과 합류할게.+지휘관에게 전달할 중요한 정보가 있어.
+HK416Mod(0);UMP9Mod(4)<Speaker>UMP9</Speaker><通讯框>||:<color=#00CCFF>정말 괜찮은 거야? 방금 무슨 뱀을 봤니 뭐니 하더니...</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||<CGDelay>0.5</CGDelay>:응, 그것도 나중에 얘기할게.+일단 지휘관 쪽 상황이 어떤지 보러 갈 거야.
+()||<黑屏1><SE1>AVG_tele_disconnect</SE1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>249</BIN>:
+()<Speaker></Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:보아뱀의 껍질이 벗겨지고 우아한 여인이 걸어나왔다.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:그녀의 눈앞에 HK416이 보고 있는 시야가 똑같이 펼쳐졌다.
+NPC-Hebe(0)<Speaker>헤베</Speaker>||:...정말 단순하고 고집 센 애로구나.
+NPC-Hebe(0)<Speaker>헤베</Speaker>||:하이드라의 보물을 가져가고서도 멀쩡히 떠날 수 있다고 생각하니?
+()<Speaker></Speaker>||:그녀 뒤에는 남은 "고치"들이 은은한 빛을 발하고 있었다.
+NPC-Hebe(3)<Speaker>헤베</Speaker>||:어디 보자꾸나, 보물을 누구에게 바칠 셈이니?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><黑屏2>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM><SE2>Gunfight</SE2><黑屏2><CGDelay>0.5</CGDelay>:타타탕!
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:콰앙——+치열한 총격전 소리가 점점 멀어지는 것 같았다.+지휘관은 눈으로 확인하고 싶었지만, 몸이 말을 안 들었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker>？？？</Speaker>||:지휘관!
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>Rope</SE1>:등과 허벅지 측면이 엄청나게 아팠다. 강한 충격을 받은 모양이다.+기억을 더듬어 보았다. 자신과 루니샤는 구조하러 온 리벨리온을 만났지만, 타고 있던 차가 폭발로 뒤집혔다...
+()<Speaker>？？？</Speaker>||:지휘관! 정신 차려요!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:차가운 손이 뺨을 두드렸다.
+()<Speaker>？？？</Speaker>||:<size=50>지휘관!!!</size>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:아무래도 깨어나야만 할 것 같다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>761</BIN><睁眼><CGDelay>0.7</CGDelay>:
+()<Speaker>HK416</Speaker>||:정신이 드세요!?
+()<Speaker>지휘관</Speaker>||:...416?
+()<Speaker>HK416</Speaker>||:저예요, 빨리 제 손 잡으세요.
+()<Speaker>지휘관</Speaker>||:어...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아직 완전히 깨어나지 못한 지휘관은 몽롱함 속에서 손을 HK416에게 뻗었다.
+()<Speaker>HK416</Speaker>||:좋아요, 잡았어요.+이제 몸에 힘을 최대한 빼세요, 끌어당겨서 차에서 빼낼 거예요.
+()<Speaker>지휘관</Speaker>||:어...
+()<Speaker></Speaker>||:지금 상황이 완전히 파악되진 않았지만, 지휘관은 무의식 중에 HK416을 완전히 믿었다.
+()<Speaker>HK416</Speaker>||:이제 당길 거예요.+다칠 수도 있지만 걱정 마세요, 반드시 여기서 무사히 벗어나게 해드릴게요!
+()<Speaker>지휘관</Speaker>||:응.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:쑤욱!
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>472</BIN><CGDelay>0.5</CGDelay>:
+HK416Mod(0)<Speaker>HK416</Speaker>||<SE1>RunStep</SE1>:이쪽이에요, 지휘관!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><CGDelay>0.5</CGDelay>:절뚝거리는 지휘관을 끌고서, HK416은 UMP45가 새로 해킹한 차를 향해 달렸다.
+()<Speaker>지휘관</Speaker>||:...다른 애들은?
+HK416Mod(0)<Speaker>HK416</Speaker>||:...넬레 씨와 옷차림 이상한 댄들라이 모두 안전한 곳에 뒀어요.+리벨리온도 후방에서 미끼 역할을 해서 시간을 벌어주고 있어요.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:너희가 있어서 정말 안심이야...
+()||<黑点1><SE1>AVG_20Winter_Door_Car_Open</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1><黑点2><BIN>9</BIN>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1><CGDelay>0.5</CGDelay>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>762</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>Select</SE1>:지휘관을 차에 태운 뒤, HK416은 바로 몸을 돌려 경계 태세를 취했다.
+()<Speaker>HK416</Speaker>||:지휘관, 밖은 제가 지킬게요.+차 안에 잘 숨어계세요. M16이 앞길을 다 청소하고 나면 데리러 올 거예요.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.3</CGDelay>:그래.
+()<Speaker>HK416</Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>45, 지휘관의 철수 경로는 다 정했어?</color>
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>거의 끝났어, M16이 마지막 장애물을 청소 중이야.</color>+<color=#00CCFF>그쪽 상황은 어때?</color>
+()<Speaker>HK416</Speaker>||:<color=#00CCFF>아직은 안전해.</color>
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:쉬이잇...+그 끈질긴 소리가 다시 달라붙었다.+HK416의 귓가에 신랄하고도 위험한 입김이 닿았다.
+()<Speaker>HK416</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>......</color>
+()<Speaker>HK416</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:<color=#00CCFF>45.</color>
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>들려.</color>
+()<Speaker>HK416</Speaker>||:<color=#00CCFF>이리로 와. 지휘관은 네가 데려가.</color>
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>왜 그래? 어디 가려고?</color>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>ClothingUp</SE1><BGM>BGM_ev2408_BeeCatcher</BGM>:쉬이잇...+차가운 비늘 가죽이 HK416의 몸을 휘감았다. 시각적으로는 아무 이상도 없었지만.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>Rope</SE1>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:조금씩 조여들어, 조금씩 숨이 막혀왔다.
+()<Speaker>HK416</Speaker>||:<color=#00CCFF>......</color>
+()<Speaker>지휘관</Speaker>||:416, 너 괜찮아?
+()<Speaker>지휘관</Speaker>||:너 눈에 무슨 마크 같은 게 있는데? 살짝 빛나는 것 같기도...
+()<Speaker>HK416</Speaker>||:......+전 괜찮아요, 지휘관.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:팔에 물린 자리와 오른눈이 달아오르면서 화상 자국처럼 욱신거렸다.+416은 잡고 있던 총을 단단히 쥐면서 억지로 정신을 바로잡았다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_whitenoise</SE1><BIN>763</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>416, 대답해.</color>
+()<Speaker>HK416</Speaker>||:......
+()<Speaker>지휘관</Speaker>||:...416?
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
+()<Speaker>HK416</Speaker>||:이게 도박에 손댄 페널티인가?+엄청난 물건을 훔치고도 마땅한 값을 지불하지 않았으니...
+()<Speaker>지휘관</Speaker>||:416...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:
+()<Speaker>HK416</Speaker>||<CGDelay>0.5</CGDelay>:...이거, 벌침 시스템에서 얻어낸 거예요...
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.58%%pivot_y=0.55%%scale=1.4%%duration=1.5%%</bg_move><CGDelay>0.5</CGDelay>:
+()<Speaker>HK416</Speaker>||:지휘관, 당신에게 맡길게요. 우린 이겨요,  반드시.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
+()||<黑点1><SE1>AVG_21Winter_Phone_Crash</SE1>:
+()<Speaker></Speaker>||<BIN>9</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><黑点2><CGDelay>0.5</CGDelay>:정적 속에서, HK416의 총이 손에서 흘러내려 바닥에 떨어졌다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:그녀는 마치 빙하에서 떨어진 고드름처럼 끝없는 어둠으로 추락했다.
+()<Speaker></Speaker>||:지휘관은 그녀의 소체를 붙잡았지만, 그녀의 영혼을 붙잡을 수는 없었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
+()||<BGM>BGM_Empty</BGM><黑屏1>:
+()<Speaker></Speaker>||<BIN>229</BIN><黑屏2><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:...패러데우스의 임시 공장.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:예정에 없던 통신을 애슐리에게서 넘겨받자, 통신 화면엔 헤베의 얼굴이 보였다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...무슨 일이냐?
+NPC-Hebe(0)<Speaker>헤베</Speaker><通讯框>||:<color=#00CCFF>제게 보관을 맡기신 바스케어의 고치 기억해요?</color>
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...이미 망가진 그거 말이냐...+안에 든 정보를 해석할 수가 없어서 네게 보관을 맡겼었지...
+NPC-Hebe(0)<Speaker>헤베</Speaker><通讯框>||:<color=#00CCFF>방금 그걸로 함정을 팠어요.</color>
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...그래서?
+NPC-Hebe(0)<Speaker>헤베</Speaker><通讯框>||:<color=#00CCFF>도둑놈에게 마크를 새겼죠...</color>
+NPC-Nemhran(0)<Speaker></Speaker><Position>80,90</Position>||<CGDelay>0.5</CGDelay>:
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:그래.+어차피 언젠간 유출될 물건이었으니.+하지만 다음엔 멋대로 결정하지 말거라.
+NPC-Hebe(3)<Speaker>헤베</Speaker><通讯框>||:<color=#00CCFF>...항상 선공을 내주기만 해서야 어떻게 이기겠어요?</color>
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...판세가 이렇다 보니 수 하나도 함부로 둘 수가 없단다.+헤베, 이 임무가 얼마나 힘겨운지 깨달아주면 좋겠구나.
+NPC-Hebe(0)<Speaker>헤베</Speaker><通讯框>||:<color=#00CCFF>저도 당연히 알죠, 그렇기에 더욱 수세에 몰려선 안 되잖아요?</color>+<color=#00CCFF>가끔은 도박수를 내야 이길 가능성이 생기죠.</color>
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...이런 생각은 안 해봤니? 우리의 임무 목표가...+이번 판을 이기는 게 아니라면?
+NPC-Hebe(0)<Speaker>헤베</Speaker><通讯框>||:<color=#00CCFF>......</color>
+()||<黑屏1>:

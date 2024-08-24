@@ -1,171 +1,171 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><CGDelay>0.5</CGDelay><BIN>766</BIN><黑屏2>:
-()<Speaker></Speaker>||:法兰克福-法兰克福区。
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:凌晨1点30分，一辆面包车自昏暗的匝道缓缓汇入A66公路西段。+笨拙的车身一挣脱老城区杂乱拥堵的交通网，便止不住在空旷平坦的主城区公路上狂飙。
-APC556(2)<Speaker>米娅</Speaker>||:……
-()<Speaker></Speaker>||:明亮的路灯搭配测速拍照装置，自车顶一阵阵呼啸而过。
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:米娅打开车窗，任由洁净的冷风灌满车内——甚至能闻到清甜的草木香气。
-HK416Mod(0)<Speaker>HK416</Speaker>||:我们已经脱离监控路段，现在我们的通讯不受监听和干扰影响了。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:米娅，可以和奈乐小姐联系了。
-APC556(2)<Speaker>米娅</Speaker>||:嗯。
+()<Speaker></Speaker>||:프랑크푸르트시 프랑크푸르트구.
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:새벽 1시 30분, 승합차 한 대가 교차로에서 A66번 고속도로 왼쪽으로 서서히 진입했다.+느릿느릿하던 차량은 구시가지의 혼잡한 교통망을 벗어나는 순간 기다렸다는 듯 간선도로 위를 질주했다.
+APC556(2)<Speaker>미아</Speaker>||:......
+()<Speaker></Speaker>||:밝은 가로등과 속력 측정기가 차 위를 쌩하고 지나갔다.
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:미아는 창문을 내려 차내를 환기시켰다. 불어오는 시원한 바람에는 상쾌한 초목의 향기도 뒤섞여 있었다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:감시 구간을 벗어났어. 이제 감청이나 통신 교란은 없을 거야.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:미아, 넬레 씨에게 연락해도 된다.
+APC556(2)<Speaker>미아</Speaker>||:알았어.
 APC556(2)<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-APC556(3)<Speaker>米娅</Speaker>||:奈乐，你在听吗？
-NPC-Nele(2)<Speaker>奈乐</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>我在，你们顺利进城了吗？</color>
-NPC-Nele(2);APC556(3)<Speaker>米娅</Speaker>||:顺利通过检查了，没有引起怀疑。+现在正在去目的地的路上。
-NPC-Nele(1)<Speaker>奈乐</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>明白，一切顺利就好。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker><通讯框>||:<color=#00CCFF>教官小姐，你们的问题我已经解决了，我什么时候才能和指挥官见面？</color>
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我向您保证，指挥官一定会在这次事件结束后的第一时间安排和您的会面。
-NPC-Nele(1)<Speaker>奈乐</Speaker><通讯框>||:<color=#00CCFF>……</color>
-APC556(3)<Speaker>米娅</Speaker>||:奈乐，早点休息吧，已经凌晨了。+今天下午你还要去见外祖父。
+APC556(3)<Speaker>미아</Speaker>||:넬레, 들려?
+NPC-Nele(2)<Speaker>넬레</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>들려, 무사히 들어왔어?</color>
+NPC-Nele(2);APC556(3)<Speaker>미아</Speaker>||:의심 안 받고 검문 통과했어.+지금 목적지로 가는 중이야.
+NPC-Nele(1)<Speaker>넬레</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>그래, 무사하면 다행이야.</color>
+NPC-Nele(1)<Speaker>넬레</Speaker><通讯框>||:<color=#00CCFF>교관 씨, 그쪽 문제는 이제 해결했는데요. 지휘관님하곤 언제 만날 수 있죠?</color>
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:이번 일이 끝나는 즉시 만나뵐 수 있을 겁니다. 약속드립니다.
+NPC-Nele(1)<Speaker>넬레</Speaker><通讯框>||:<color=#00CCFF>......</color>
+APC556(3)<Speaker>미아</Speaker>||:넬레, 일찍 쉬어둬. 벌써 자정 넘었어.+내일 오후에 외할아버지 만나야 하잖아.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>470</BIN><CGDelay>0.5</CGDelay>:
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯，我知道……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:酒店房间内，奈乐支着脑袋坐在写字台前。+身后的床上摊着几件表姐送来的为明天准备的衣服，但她连试穿的心情都没有。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:为什么指挥官不愿意见我……
-NPC-Nele(2);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>别多想，格里芬面对的问题很复杂棘手，教官不告诉你也是不想把你牵连进去。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>;APC556(2)||:……好吧，我不问了。
-NPC-Nele(1);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>下午的行程都安排好了吗？赫柏小姐那边也确认好了？</color>
-NPC-Nele(0)<Speaker>奈乐</Speaker>;APC556(2)||:都搞定了。+早上八点，我会先去见赫柏小姐，和她一起吃个早午餐，然后她会给我一些造型上的建议。+下午两点，外祖父的司机会来赫柏小姐这里接我。
-NPC-Nele(0);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>你和赫柏小姐接触下来感觉怎么样？她是个什么样的人？</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯……
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:奈乐取出了夹在记事本中的名片——+这是一张少见的德莱克米色名片，边缘包裹着一圈低调的金边，名片上用压花的工艺留下了赫柏的签名和一张美丽面孔的速写。+而名片的内容只有“赫柏”和一个助理的联系方式。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:我还没有和本人接触过，不过表姐说，赫柏小姐是个非常有魅力的复古美人……
-NPC-Nele(1);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>据我所知，赫柏小姐在圈内的风评还不错，即便婚后退圈也依旧和以前的朋友有往来。</color>+<color=#00CCFF>但我还是第一次见和高级官员成婚后，仍然以自己的名字在外活动，还不会招惹来非议的女人。</color>+<color=#00CCFF>你明白我的意思吧？一般女人成婚后，都会改称为某某夫人，但她仍然以“赫柏小姐”的名义活动。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>;APC556(2)||:……所以呢？
-NPC-Nele(1);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>对于女明星来说，这非常少见，除了她以外，我没有见过第二例。</color>+<color=#00CCFF>你要当心了，这说明这个女人绝对不简单。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯，我会谨慎的。
+NPC-Nele(1)<Speaker>넬레</Speaker>||:응, 알아...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:호텔 방에서 넬레는 테이블 앞에 턱을 괴고 앉아 있었다.+뒤에 있는 침대에는 사촌 언니가 내일 입으라고 준 옷이 널려있었지만, 입어볼 기분이 전혀 들질 않았다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:왜 바로 안 만나주는 거지...
+NPC-Nele(2);APC556(2)<Speaker>미아</Speaker><通讯框>||:<color=#00CCFF>깊게 생각하지 마, 그리폰 쪽은 사정이 엄청 복잡해. 네가 휘말리길 바라지 않아서 그러는 거야.</color>
+NPC-Nele(1)<Speaker>넬레</Speaker>;APC556(2)||:...그래, 그럼 안 물을게요.
+NPC-Nele(1);APC556(2)<Speaker>미아</Speaker><通讯框>||:<color=#00CCFF>오후 스케줄은 다 정했어? 헤베 씨 쪽은 확인 다 했고?</color>
+NPC-Nele(0)<Speaker>넬레</Speaker>;APC556(2)||:다 정했어.+아침 8시에 먼저 헤베 씨를 만나서 브런치를 먹을 거야. 옷차림에 어드바이스를 좀 해주겠대.+오후 2시에 외할아버지네 기사님이 헤베 씨 쪽에 와서 태워줄 거야.
+NPC-Nele(0);APC556(2)<Speaker>미아</Speaker><通讯框>||:<color=#00CCFF>헤베 씨하고 연락해 보니까 어땠어? 어떤 사람이야?</color>
+NPC-Nele(1)<Speaker>넬레</Speaker>||:흠...
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:넬레는 메모장에 끼워둔 명함을 꺼냈다.+요즘엔 보기 힘들어진 고급 명함으로, 테두리엔 얇게 도금을 하고 표면에는 음각으로 헤베의 사인과 아름다운 캐리커처가 그려져 있었다.+화려한 장식에 비해 내용은 그저 "헤베"의 이름과 매니저의 연락처뿐이었다.
+NPC-Nele(1)<Speaker>넬레</Speaker>||:아직 본인과 만나보진 않았지만, 언니 말로는 무척 매력 있는 고전적인 미인상이라고...
+NPC-Nele(1);APC556(2)<Speaker>미아</Speaker><通讯框>||:<color=#00CCFF>내가 알아본 바로는 연예계에서 제법 평판이 좋은 사람이야. 결혼해서 은퇴한 뒤로도 여전히 예전 친구와 연락을 가지고 있고.</color>+<color=#00CCFF>하지만 고위 공무원이랑 결혼했는데도 계속 예전 이름으로 대외 활동하면서 아무런 스캔들도 안 터지는 여자는 처음 봤어.</color>+<color=#00CCFF>무슨 말인지 알지? 보통 여자는 결혼하면 무슨무슨 부인, 이렇게 부르잖아. 그런데 그 사람은 계속 "미스 헤베"란 이름으로 활동하고 있어.</color>
+NPC-Nele(1)<Speaker>넬레</Speaker>;APC556(2)||:...그래서?
+NPC-Nele(1);APC556(2)<Speaker>미아</Speaker><通讯框>||:<color=#00CCFF>여성 스타에게 이건 정말 드문 일이야. 최소한 나는 이런 케이스를 본 적이 없어.</color>+<color=#00CCFF>조심하는 게 좋아, 절대 만만한 여자가 아니라는 뜻이니까.</color>
+NPC-Nele(1)<Speaker>넬레</Speaker>||:응, 조심할게.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>766</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1>:见米娅挂断了通讯，HK416重新断开了车上的网络。
-HK416Mod(0)<Speaker>HK416</Speaker>||<BGM>10295</BGM>:虽然已经脱离了监控路段，但是保险起见，在抵达目标地点之前，我们还是保持断网状态吧。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:同意。
-HK416Mod(0)<Speaker>HK416</Speaker>||:米娅小姐，请从下一个下匝道拐出去。
-APC556(2)<Speaker>米娅</Speaker>||:嗯？这么早就下高速？
-HK416Mod(0)<Speaker>HK416</Speaker>||:是的，我们需要确定有没有人在追踪我们。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:虽然目前通过多方手段检测，没有人在注意我们。+但因为不确定这边的手段究竟能做到哪一步，所以还请配合我们。
-APC556(5)<Speaker>米娅</Speaker>||:……我知道了。
-()<Speaker></Speaker>||:米娅按照HK416的指示，从下匝道驶出了高速路口。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1>:미아가 통신을 끊자 HK416은 다시 차량의 네트워크를 꺼버렸다.
+HK416Mod(0)<Speaker>HK416</Speaker>||<BGM>10295</BGM>:이미 감시 구간을 벗어났다곤 해도, 혹시 모르니까 목표 지점에 도착하기 전엔 오프라인 상태를 유지해.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:그래.
+HK416Mod(0)<Speaker>HK416</Speaker>||:미아 씨, 다음 나들목에서 나가줘.
+APC556(2)<Speaker>미아</Speaker>||:응? 벌써 고속도로에서 나가게?
+HK416Mod(0)<Speaker>HK416</Speaker>||:응, 누가 미행하지 않나 확인해야 해.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:몇 가지 수단으로 탐지 결과 우릴 주시하는 사람은 없긴 했어.+하지만 그걸로 100% 안전하다고는 못 하거든. 그러니 협조 부탁해.
+APC556(5)<Speaker>미아</Speaker>||:...알았어.
+()<Speaker></Speaker>||:미아는 HK416의 지시대로 교차로로 꺾어 고속도로를 나갔다.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><黑点2><Night><BIN>86</BIN>:凌晨2点15分，法兰克福-法兰克福区，公墓附近的停车场。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:确定了，没有人在追踪我们的动向！
-APC556(2)<Speaker>米娅</Speaker>||:可以按照导航继续开了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>;APC556(2)||:不，全体下车。
-HK416Mod(0);APC556(5)<Speaker>米娅</Speaker>||:……什么？
-HK416Mod(0)<Speaker>HK416</Speaker>;APC556(5)||:换一台车，再继续行驶，备用车在A052车位。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;APC556(5)||:所有人，收拾干净车里的痕迹，下车。
-APC556(5)<Speaker>米娅</Speaker>||:你们竟然做到了这个份上……+连法兰克福都进不了，是怎么安排好车辆停在这里的？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:我们有自己的渠道♪
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:这方面就尽情信赖她们吧，甩掉追踪没有比404更专业的了。
-APC556(5)<Speaker>米娅</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:米娅心情复杂地下了车。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><黑点2><Night><BIN>86</BIN>:새벽 2시 15분, 프랑크푸르트구, 공공 묘지 부근 주차장.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:확인했어, 따라붙은 놈들은 없어!
+APC556(2)<Speaker>미아</Speaker>||:내비게이션대로 계속 운전하면 돼?
+HK416Mod(0)<Speaker>HK416</Speaker>;APC556(2)||:아니, 모두 내려.
+HK416Mod(0);APC556(5)<Speaker>미아</Speaker>||:...뭐?
+HK416Mod(0)<Speaker>HK416</Speaker>;APC556(5)||:차를 갈아타서 갈 거야. 예비 차량은 A052 위치에 있어.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;APC556(5)||:전원, 차 안의 흔적을 깨끗이 지우고 하차한다.
+APC556(5)<Speaker>미아</Speaker>||:이렇게까지 철저하게...+근데 프랑크푸르트엔 들어올 수도 없었을 텐데 차는 어떻게 마련한 거야?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:그야 다 방법이 있지~♪
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:이런 일은 404만 믿으면 된다. 추적을 따돌리는 거라면 이들보다 전문가는 없어.
+APC556(5)<Speaker>미아</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:미아는 착잡한 마음으로 차에서 내렸다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>554</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:凌晨2点15分，法兰克福-法兰克福区。
-()<Speaker></Speaker>||<SE1>AVG_Rocket_Gun_Truck</SE1>:其貌不扬的货车熟练地绕开监控密集的主路段，确认未被跟踪后，车辆结束绕圈，钻入一条隐蔽的混乱小巷。+终于，稳稳停在一所看似废弃的下沉式音乐酒吧门前。
-APC556(2)<Speaker>米娅</Speaker>||:到了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:下车了，G11。
-G11Mod(0)<Speaker>G11</Speaker><Shake>||:呜……
+()<Speaker></Speaker>||:잠시 후, 프랑크푸르트구.
+()<Speaker></Speaker>||<SE1>AVG_Rocket_Gun_Truck</SE1>:평범하게 생긴 화물차가, 감시 카메라가 많은 구간들을 능숙하게 피한 뒤 추적이 없는 것을 확인한 다음, 같은 길을 빙빙 도는 것을 멈추고 으슥한 뒷골목으로 들어갔다.+그리고 폐업한 것처럼 보이는 성큰식 뮤직바 앞에 드디어 차를 세웠다.
+APC556(2)<Speaker>미아</Speaker>||:도착했어.
+HK416Mod(0)<Speaker>HK416</Speaker>||:내려, G11.
+G11Mod(0)<Speaker>G11</Speaker><Shake>||:끄으응...
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><BGM>BGM_Empty</BGM>:人形们从车辆中钻出，AR-18确定无遗漏后，走到司机位置的窗边。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:辛苦你了，米娅小姐。
-APC556(2)<Speaker>米娅</Speaker>||:只要你们别忘记和奈乐的约定，我做的都不算什么。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:明白。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><BGM>BGM_Empty</BGM>:인형들은 차 안에서 내렸다. AR-18은 빼먹은 사항이 없나 확인하고서 운전석 창가로 걸어갔다.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:운전하느라 수고했다, 미아 씨.
+APC556(2)<Speaker>미아</Speaker>||:넬레와의 약속만 지킨다면 이런 것쯤이야.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:그래.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Moto_Start</SE1><BGM>BGM_Hume_FourAdventures</BGM>:所有人形下车后，货车迅速驶离，消失在了夜色中。
-()<Speaker></Speaker>||:人形们走下台阶，来到已经关门的酒吧门前。
-NPC-M400(0)<Speaker>赫莎</Speaker>||:……怎么关门了？
-HK416Mod(0)<Speaker>HK416</Speaker>||:AR-18，你有和她们约定接头方式吗？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:嗯。
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:AR-18走上前敲了敲门。
-()<Speaker>？？？</Speaker>||:喂，您是？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我想跟您谈谈。
-()<Speaker>？？？</Speaker>||:您是哪位？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我是红，天空的红。
-()<Speaker>？？？</Speaker>||:请换一种称呼。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:好，我是那条小溪。+藏在草地里，携着煤的残渣。
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Moto_Start</SE1><BGM>BGM_Hume_FourAdventures</BGM>:모든 인형이 차에서 내린 후 화물차는 천천히 떠나서 야경 속으로 사라졌다.
+()<Speaker></Speaker>||:인형들은 계단을 내려가 이미 문 닫은 술집 앞에 섰다.
+NPC-M400(0)<Speaker>헤르타</Speaker>||:...문이 왜 닫혀 있지?
+HK416Mod(0)<Speaker>HK416</Speaker>||:AR-18, 미리 정해둔 접선 방식 있어?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:응.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:AR-18이 문앞에 다가가 문을 두드렸다.
+()<Speaker>？？？</Speaker>||:누구시죠?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:이야기 좀 하러 왔습니다.
+()<Speaker>？？？</Speaker>||:뭐 하는 분이신데요?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:저는 빨강, 하늘의 빨강입니다.
+()<Speaker>？？？</Speaker>||:호칭을 바꾸시죠.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:좋습니다, 저는 저 시냇물.+풀숲에 숨어, 석탄이 타고 남은 재를 싣고 있습니다.
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:门内的声音沉寂了，片刻后，酒吧的大门开启，掀开了黑暗的幕布。
-()<Speaker>？？？</Speaker>||:请进。
-()<Speaker></Speaker>||:清冷的声音传来，找不到来源的位置。
-()<Speaker></Speaker>||:AR-18对身后的人形点点头，率先踏入了黑暗。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:문 너머가 조용해지고 잠시 후, 술집 현관문이 열리고 어둠의 장막이 걷혔다.
+()<Speaker>？？？</Speaker>||:들어오세요.
+()<Speaker></Speaker>||:차분한 목소리가 들려왔지만 어디서 나는 소린지 알 수가 없었다.
+()<Speaker></Speaker>||:AR-18은 등 뒤에 있는 인형들에게 고개를 끄덕이고는 앞장서서 어둠 속으로 발을 디뎠다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:吧嗒、吧嗒——+踏在生锈阶梯上的凌乱脚步声，在宽敞的地下空间回荡。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:哇，没想到这下面另有乾坤啊。
-HK416Mod(0)<Speaker>HK416</Speaker>||:这里的安全等级竟然如此高……
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:뚜벅 뚜벅.+녹슨 계단을 밟는 소리가 넓은 지하 공간에 울려퍼졌다.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:우와, 아래는 또 별천지네.
+HK416Mod(0)<Speaker>HK416</Speaker>||:여긴 보안등급이 왜 이렇게나...
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>656</BIN><CGDelay>0.5</CGDelay>:
-NPC_Stevens520(3)<Speaker>？？？</Speaker><Position>0,60</Position>||<SE1>Stop_AVG_loop</SE1>:这里是休谟博士生前购置的私人房产。+地下结构复杂，外界信号很难渗透，可以暂时保障你们的安全。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:感谢你的安排，史蒂文斯520小姐。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:总算是见到你们了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:少女抬起头来，她正坐在吧台优雅啜饮着和酒吧氛围格格不入的红茶。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:人已经来齐了，可以开始聊正事了。+当然如果你们要进行一些无聊的寒暄的话，我也不介意多等五分钟，反正你们已经迟到两小时了。
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:我想在场的各位都没有这种需求，直接开始吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M16喝光杯里的威士忌，站起来走近人群。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:你们比计划多花费了近一倍的时间，路上发生什么情况了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>||:没有特殊情况，只是出于安全考虑做了一些绕路。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:必要的措施，没有引起注意就好。
-()<Speaker></Speaker>||:UMP45故作惊讶地发出啧舌声。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:真没想到有一天能看见你们俩正常地对话。
-HK416Mod(0)<Speaker>HK416</Speaker>||:……
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:……
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:既然大家都到齐了，那么会议就正式开始了。
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:欸，可是忤逆还没到啊？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:已经到了。
-()<Speaker></Speaker>||:史蒂文斯520颇有些不悦地皱起了眉头。
-NPC-AK12Mod#隐身(11)<Speaker>？？？</Speaker>||:啊呀，我还以为你会帮我们保留这个惊喜呢。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AK12关闭了隐身状态，房间中央的桌上显现出三个白色的身影。
-AN94MOD(0)<Speaker>AN-94</Speaker>||:忤逆已经到齐了。
-AK15MOD(3)<Speaker>AK-15</Speaker>||:……
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:各位晚上好。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:首先——
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你们给我从桌上下来，那是休谟博士收藏的古董餐桌，缅甸花梨独板老料。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:悉听尊便。
+NPC_Stevens520(3)<Speaker>？？？</Speaker><Position>0,60</Position>||<SE1>Stop_AVG_loop</SE1>:여기는 흄 박사가 생전에 매입한 건물이에요.+지하 구조가 복잡해서 외부 신호가 들어오기 어려우니까, 한동안은 안심해도 될 거예요.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:장소 마련해줘서 고맙다, 스티븐스520 양.
+NPC_Stevens520(0)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:이제야 당신들을 만나네요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:소녀가 고개를 들었다. 그녀는 카운터 앞에 앉아서 술집 분위기에 전혀 맞지 않는 홍차를 마시고 있었다.
+NPC_Stevens520(0)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:다 모였으니 이제 본론으로 들어가죠.+시시한 인삿말을 하고 싶으면 5분 정돈 상관없어요. 어차피 그쪽이 이미 2시간이나 지각했으니까.
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:여기 있는 녀석들은 그럴 필요 없겠지. 바로 시작하자고.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M16이 위스키 잔을 비우고 일어서서 일행에게 다가갔다.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:계획보다 시간이 거의 두 배나 걸렸는데, 오면서 무슨 상황 있었어?
+HK416Mod(0)<Speaker>HK416</Speaker>||:별 일은 없었어, 그저 안전을 고려해서 길을 좀 돌아가느라.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:필수적인 조치네, 주의만 안 끌었다면 됐어.
+()<Speaker></Speaker>||:UMP45가 일부러 놀란 척 혀를 찼다.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:세상에, 너희 둘이 평범하게 대화하는 걸 다 보네.
+HK416Mod(0)<Speaker>HK416</Speaker>||:......
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:......
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:모두 모였으니 정식으로 회의를 시작하자.
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:응? 리벨리온은 안 왔는데?
+NPC_Stevens520(0)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:이미 왔어요.
+()<Speaker></Speaker>||:스티븐스520이 약간 아니꼽다는 듯 인상을 썼다.
+NPC-AK12Mod#隐身(11)<Speaker>？？？</Speaker>||:에이, 깜짝 놀래켜주려고 했는데 망쳐버렸네.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AK12가 은신 상태를 끄자, 방 중앙의 테이블 위에 하얀 형체 셋이 나타났다.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:리벨리온, 전원 도착했다.
+AK15MOD(3)<Speaker>AK-15</Speaker>||:......
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:모두 좋은 밤이야.
+NPC_Stevens520(0)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:먼저...
+NPC_Stevens520(1)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:테이블에서 내려와 주시겠어요? 그건 흄 박사의 컬렉션인 앤티크 테이블이에요. 미얀마산 자단으로 만든 특산품이라고요.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:그래 그래.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:忤逆也来到人群附近坐下，显然，这场会议的开启条件已经完成了。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:接下来开始讨论具体行动事宜。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:距离指挥官失踪已经过去了整整8天，在此期间，我们通过各方面找到的情报显示指挥官的失踪和帕拉蒂斯有关。+根据忤逆提供的情报，帕拉蒂斯的情报都会经过蜂针系统处理，如果能够骇入其中的话一定能找到指挥官的线索。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:是的，我们已经掌握了蜂针系统服务器所在地的大致坐标，就在美因河底。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:蜂针系统的攻克交给404来负责，克罗丝和赫莎为你们提供支援。
-AR18(3)<Position>0,100</Position>;UMP45Mod(0)<Speaker>UMP45</Speaker>||:收到。
-AR18(3)<Position>0,100</Position>;NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:必要的话，我也可以提供援助。
-AR18(3)<Position>0,100</Position>;NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:毕竟我真的很想知道指挥官到底给那个笨蛋灌了什么迷魂汤……
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:那么克罗丝和赫莎就交给你了。
-AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:法兰克福交通管制后，帕拉蒂斯的行动变得更频繁了。+我怀疑它们有新的计划。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:这就是我需要忤逆做的，查清楚帕拉蒂斯的行动目的。
-AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:只是查清楚？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:以调查计划为目的，手段不做限制。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:正合我意。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:你们的行动也能为404分散帕拉蒂斯的注意力，但请注意分寸。
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:……
-()<Speaker></Speaker>||:窃窃私语的地下室内，M16细微的表情变化尽数落入HK416眼底。
-HK416Mod(0)<Speaker>HK416</Speaker>||:在座的各位似乎都分配到了工作，除了某位沉默者。
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:……
-()<Speaker></Speaker>||:敏锐地捕捉到HK416言辞中的锋芒，包括AR-18在内，不少人同时将目光投向M16。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:这才是我想看到的嘛♪
-UMP9Mod(5)<Speaker>UMP9</Speaker>||:45姐，别拱火了……
-HK416Mod(0)<Speaker>HK416</Speaker>||:我没有针对M16的意思，我只是认为大家既然要合作救出指挥官，共享自己知道的情报是理所应当的。+404拿出了全部的技术，忤逆也给出了这些天搜集到的所有情报，M16是否也该有所表示？
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:哗啦——M16微笑着给酒杯倒上威士忌，不急不缓地抬眼对上HK416眼里的锋芒。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:……+露尼西亚从艾莫号上带走了指挥官和威廉。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:……
-HK416Mod(0)<Speaker>HK416</Speaker>||:问题是，他们现在的位置？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:法兰克福，白区。
-M16A1BOSS(2);HK416Mod(0)<Speaker>HK416</Speaker>||:白区……？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:法兰克福都市传闻常出现过的地方，绝对的干净无污染，只为那些权势之人准备。
-M16A1BOSS(2);HK416Mod(0)<Speaker>HK416</Speaker>||:你的情报来源？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:关于“白区”和指挥官的下落，我能说的只有这么多。+我现在明面上的身份是国安局雇员，很多事不方便出面。+对于你们接下来的行动，我只有一个请求——找到指挥官在“白区”的准确坐标。+剩下的事，我可以想办法。
-HK416Mod(0)<Speaker>HK416</Speaker>||:……
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:了解。+这也正是我们所期望的。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:话说回来，为什么不在割下蜂巢之前先取点蜜呢？+等有了更趁手的利器，到时候再彻底清除蜂巢和蛀虫不就方便多了？
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:不错的提议。+诸位觉得呢？
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:我没什么意见。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:要是能从中找到帕拉蒂斯的残余基地，就再好不过了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:我们会尝试破解的。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:行动初步分工安排完毕，行动代号为“阿德剌斯忒亚”。+没有异议的话，接下来进入下一议程——
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:“阿德剌斯忒亚”行动的具体分工。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:리벨리온도 다른 인형 근처에 와서 앉았다. 이것으로 회의의 준비가 끝났다.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지금부터 자세한 행동 방침에 대해 토론하겠다.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:지휘관이 실종된 지 오늘로 8일째다. 지금까지 여러 루트로 파악한 정황으로 볼 때, 지휘관의 실종은 패러데우스와 관계가 있다.+리벨리온이 제공한 정보에 따르면 패러데우스의 정보는 모두 벌침 시스템으로 처리하니, 만약 그 시스템을 해킹한다면 분명 지휘관의 단서를 찾을 수 있을 거다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:맞아. 그 시스템의 서버가 어디 있는지는 대강 파악했어. 바로 마인강 바닥이야.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:벌침 시스템 침투는 404에게 맡긴다. 크로스와 헤르타는 서포트하도록.
+AR18(3)<Position>0,100</Position>;UMP45Mod(0)<Speaker>UMP45</Speaker>||:라저.
+AR18(3)<Position>0,100</Position>;NPC_Stevens520(0)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:필요하면 저도 도와드릴 수 있어요.
+AR18(3)<Position>0,100</Position>;NPC_Stevens520(1)<Speaker>스티븐스520</Speaker><Position>0,60</Position>||:대체 지휘관이 그 바보를 어떻게 꼬드긴 건지 알고 싶거든요...
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:그럼 크로스와 헤르타의 지휘를 네게 맡긴다.
+AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:프랑크푸르트의 교통 관제가 시작된 뒤로 패러데우스의 활동이 더 빈번해졌어.+아무래도 새로운 계획이 있는 것 같아.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:그것이 바로 리벨리온에게 맡길 임무다. 패러데우스의 행동 목적을 알아내라.
+AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:알아내기만 하면 돼?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:놈들의 계획을 조사하는 것이 목표다. 수단은 제한하지 않겠다.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:눈치 있네.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:너희가 저들의 주의를 분산시켜 주면 404의 작전이 수월해질 테니. 그래도 정도를 봐가면서 하도록.
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:......
+()<Speaker></Speaker>||:조용히 담화가 이뤄지는 지하실 안에서, HK416은 M16의 미세한 표정 변화를 전부 지켜보고 있었다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:모두 각자 역할을 나눠받은 것 같네, 여기 계속 조용한 누구만 빼고.
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:......
+()<Speaker></Speaker>||:날이 선 HK416의 말뜻을 읽은, AR-18을 포함한 많은 이들이 M16에게 시선을 향했다.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:그래 그래, 이렇게 안 나오면 심심하지~♪
+UMP9Mod(5)<Speaker>UMP9</Speaker>||:45 언니, 부채질 하지 마...
+HK416Mod(0)<Speaker>HK416</Speaker>||:M16한테 잔소리할 생각은 없어. 나는 그저 모두가 힘을 합쳐 지휘관을 구하려면, 당연히 각자가 가진 정보를 모두 공유해야 한다고 생각해.+404는 모든 기술을 내놓았고, 리벨리온도 며칠 동안 수집한 정보를 모두 공유했어. M16도 뭔가 꺼내줘야 하는 거 아니야?
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:M16은 미소를 짓고는 술잔에 위스키를 따르며, 도끼눈을 뜨고 노려보는 HK416의 시선을 차분하게 마주보았다.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:......+루니샤가 엘모호에서 지휘관과 윌리엄을 데려갔어.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:......
+HK416Mod(0)<Speaker>HK416</Speaker>||:그래서, 지금 그들의 위치는?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:프랑크푸르트, 화이트존.
+M16A1BOSS(2);HK416Mod(0)<Speaker>HK416</Speaker>||:화이트존...?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:프랑크푸르트의 도시 전설이 가득한 곳이지. 절대적인 청정지대, 오로지 높으신 분들을 위한 구역.
+M16A1BOSS(2);HK416Mod(0)<Speaker>HK416</Speaker>||:그 정보의 출처는?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:화이트존과 지휘관의 행방에 관해서 내가 말할 수 있는 건 이 정도뿐이야.+지금 난 표면상으론 국가안전국에 고용된 신분이라, 여러모로 직접 나서기가 어려워.+너희의 작전에 바라는 건 단 하나, 화이트존에 있는 지휘관의 정확한 좌표를 알아내는 것.+그 다음부턴 내가 어떻게든 해줄 수 있어.
+HK416Mod(0)<Speaker>HK416</Speaker>||:......
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:좋다.+그게 우리도 바라는 바다.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:그런데 말이야, 벌집을 박살내기 전에 꿀부터 좀 뽑아내는 게 어때?+뭔가 좋은 아이템이라도 얻어낸다면 벌집이랑 좀벌레 소탕도 더 편해지지 않겠어?
+AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:괜찮은 제안이군.+다른 의견 있나?
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:난 딱히.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:거기서 패러데우스의 다른 기지 위치를 알아낼 수 있다면 더할 나위 없겠지.
+HK416Mod(0)<Speaker>HK416</Speaker>||:우리가 어떻게든 해독해 볼게.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:기본적인 역할 분담은 이 정도다. 작전 코드는 "아드라스테아".+이견 없다면 다음 주제로 들어가겠다——
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:"아드라스테아" 작전의 구체적인 인원 배치에 관해서.
 ()||<黑屏1>:

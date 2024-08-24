@@ -1,82 +1,82 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>10082</BGM><黑屏2><BIN>417</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:法兰克福-埃施博恩区，帕拉蒂斯工厂内。
-()<Speaker></Speaker>||:窥伺着工厂每个角落的信号汇集之处，在经过风暴洗礼后，几乎瘫痪了大半。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……
-()<Speaker></Speaker>||:尼梅兰若有所思地回顾着忤逆闯入和撤离的监控录像，思索着她们是如何发现这里，又是为什么要进行这一场看似毫无收获的战斗。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:艾希礼，汇报工厂的情况。
-()<Speaker></Speaker>||:忽视系统警报的打断，艾希礼从堆积如山的窗口中勉强计算着当前的数据。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:报告尼梅兰姐姐。+当前工厂设备损毁46%，流水线和筛选中心近乎报废……+至于人员方面……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:嘟！屏幕中央忽然闪出一个异样的警报——+来自蜂针系统。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:尼梅兰姐姐，蜂针系统截获到了重要情报。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……打开。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:是。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:艾希礼中断汇报，立刻输入密钥……+偌大的屏幕上，加密过的文字如天书般呈现，落在尼梅兰眼中，转译成精确的词句。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:尼梅兰姐姐，需要我做些什么吗？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:你带人去盘点工厂剩余物资，准备进行转移。+留些人手下来处理痕迹。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:是。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:一众驻守的白涅托连大气都不敢喘，悄然退出了房间。+在其他涅托都离开后，尼梅兰才分析起了蜂针系统新截获的情报。+是法兰克福区图书馆的一则新进图书名单。
-()<Speaker></Speaker>||:引起警报的书籍名称是，《人类理智研究（第十八版）》。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:尼梅兰将情报整理好，发送给了拉普拉斯。+几分钟后，她就收到了拉普拉斯的通讯。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我要实物。</color>
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:但现在只有这一条情报，连新版的日期、字数、目录都完全不清楚。+我已经将这本书锁定，稍晚我就会派人为您取出。
-NPC-Laplace(13)<Speaker>拉普拉斯</Speaker><通讯框>||:<color=#00CCFF>嗯。</color>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:滴。通讯中断。
+()<Speaker></Speaker>||:프랑크푸르트 에쉬본구, 패러데우스의 공장.
+()<Speaker></Speaker>||:절반가량이 박살난 공장은 신호가 집중되는 구석마다 폭풍이 지나가고 남은 흔적뿐이었다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:......
+()<Speaker></Speaker>||:네메아란은 리벨리온이 침입했을 때와 철수할 때의 감시 화상을 보며 고민했다. 그들이 대체 여기를 어떻게 발견했는지, 왜 그들에게 아무런 이득도 없어 보이는 싸움을 걸어왔는지, 그들의 의도를 추측했다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:애슐리, 공장 상황 보고하거라.
+()<Speaker></Speaker>||:시끄러운 시스템 경보음을 무시하면서, 애슐리는 산더미처럼 쌓인 경고창을 안간힘으로 읽어 내려가며 정보를 취합, 계산했다.
+NytoWhite(0)<Speaker>애슐리</Speaker><Position>0,50</Position>||:...네, 보고드립니다 네메아란 언니.+현재... 공장 설비의 46%가 파손되었습니다, 생산 라인과 선별 센터가 거의 완파...+인원면으로는――?
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:갑자기 화면에 전혀 다른 색의 경고창이 나타났다.+벌침 시스템으로부터 온 것이었다.
+NytoWhite(0)<Speaker>애슐리</Speaker><Position>0,50</Position>||:네메아란 언니, 벌침 시스템이 중요 정보를 포착했습니다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:...열어라.
+NytoWhite(0)<Speaker>애슐리</Speaker><Position>0,50</Position>||:네.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:애슐리는 바로 보고를 중단하고 패스워드를 입력했다.+그러자 커다란 스크린에 암호화된 문자열이 주르르 쏟아져, 네메아란의 눈 속에서 정확한 글귀로 해독됐다.
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:......
+NytoWhite(0)<Speaker>애슐리</Speaker><Position>0,50</Position>||:네메아란 언니, 제가 할 일이 있습니까?
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:이전할 준비를 하거라. 가용 인원으로 공장에 남은 물자를 체크해.+몇 명 정도 "흔적"을 남기고.
+NytoWhite(0)<Speaker>애슐리</Speaker><Position>0,50</Position>||:예.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:공장 안을 지키던 하얀 니토들은 감히 숨소리도 내지 못하고 조용히 방을 나갔다.+다른 니토들이 전부 나간 뒤에야, 네메아란은 벌침 시스템이 포착한 중요 정보를 분석했다.+프랑크푸르트에 새로 입고된 도서 목록이었다.
+()<Speaker></Speaker>||:그중 경보를 울린 도서의 명칭은 「인류 지성 연구(제18판)」이었다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:네메아란은 이 정보를 정리해 라플라스에게 전송했다.+그리고 몇 분 지나지 않아 통신이 왔다.
+NPC-Laplace(11)<Speaker>라플라스</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>실물을 가져와.</color>
+NPC-Nemhran(0)<Speaker>네메아란</Speaker><Position>80,90</Position>||:아직 입고되었단 정보뿐입니다. 출판 연도, 글자수, 목차 전부 불명입니다.+위치는 추적했으니, 잠시 후 사람을 보내 반출하겠습니다.
+NPC-Laplace(13)<Speaker>라플라스</Speaker><通讯框>||:<color=#00CCFF>그래.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:통신 종료.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>566</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:涅托们忙碌着，在废墟中翻找着还能使用的物资。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:动作快点，还能运行的全部搬上车，不要有遗漏。
-Nyto(0)<Speaker>黑涅托</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:艾希礼扫视了值班的涅托一眼，叮嘱一句后，匆匆赶赴尼梅兰的下一个命令地点。
-Nyto(0)<Speaker>黑涅托</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:艾希礼走远后，黑涅托扔下手中的东西，走向了基地深处。
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:니토들은 폐허 속에서 분주히 아직 쓸 수 있는 물자를 찾아다녔다.
+NytoWhite(0)<Speaker>애슐리</Speaker><Position>0,50</Position>||:더 빨리 움직여. 아직 작동하는 건 하나도 빠짐없이 차에 실어라.
+Nyto(0)<Speaker>검은 니토</Speaker>||:네.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:애슐리는 통솔 담당인 니토에게 눈을 흘기며 한마디 툭 던진 뒤, 서둘러 네메아란이 지시한 다음 장소로 이동했다.
+Nyto(0)<Speaker>검은 니토</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:애슐리가 충분히 멀어지자, 검은 니토는 손에 든 물건을 휙 던지곤 기지 깊숙이로 걸어갔다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>46</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:帕拉蒂斯工厂附近，隐蔽的地下室。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>忤逆已经安全撤出，你们可以行动了。</color>
-HK416Mod(0)<Speaker>HK416</Speaker>||:收到。
+()<Speaker></Speaker>||:패러데우스 공장 부근의 숨겨진 지하실.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>리벨리온의 철수를 확인. 이제 행동해도 좋다.</color>
+HK416Mod(0)<Speaker>HK416</Speaker>||:알았어.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:哼哼~法兰克福区图书馆的《人类理智研究（第十八版）》已经被锁定了。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:咬钩咬得真快啊。
-HK416Mod(0)<Speaker>HK416</Speaker>||:别大意，准备骇入。
-HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:友情提示，这位警惕的特工小姐，你快把G11的效能拉爆了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:G11现在很好。
-G11Mod(0)<Speaker>G11</Speaker><Shake>||:我、我很好……
-()<Speaker></Speaker>||:在HK416的部署下，G11的心智容量也被作为备用容量遭到了占用。
-HK416Mod(0)<Speaker>HK416</Speaker>||:密码破译准备就绪，预计能为你们拖到30分钟。+考虑到蜂针系统的不确定性，你们实际可能只有15分钟。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在毫无保留地潜入蜂针系统之前，UMP45意味深长地看了416一眼。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:你这么紧张，搞得我也紧张起来了。
-HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:你本来就该紧张。
-HK416Mod(0);UMP9Mod(3)<Speaker>UMP9</Speaker>||:深呼吸~+出发吧，45姐！
-HK416Mod(0)<Speaker>HK416</Speaker>||:保持定期联络，错过一次我就会强制将你们唤醒。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><BGM>BGM_Empty</BGM>:UMP45和UMP9闭上眼睛，下潜进入二级平层……
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:히히~ 프랑크푸르트 도서관에 갖다 놓은 "「인류 지성 연구(제18판)」" 벌써 물었어!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:미끼를 참 빨리도 무네.
+HK416Mod(0)<Speaker>HK416</Speaker>||:방심 말고 해킹 준비나 해.
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:네에 방심 안 하는 엘리트 전술인형님, 근데 지금 G11이 CPU 터지기 일보직전이야.
+HK416Mod(0)<Speaker>HK416</Speaker>||:...멀쩡하네 뭘.
+G11Mod(0)<Speaker>G11</Speaker><Shake>||:응... 아, 아직은 멀쩡해...
+()<Speaker></Speaker>||:HK416의 안배로, 해킹을 위해 G11의 마인드맵 메모리까지 예비 용량으로 점용된 상태였다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:암호 해독 준비 완료, 아마 30분 정도는 시간을 끌 수 있을 거야.+벌침의 불확정성을 고려하면 15분밖에 없다고 생각하는 편이 좋겠지만.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:침투하기 전, UMP45가 HK416의 얼굴을 의미심장하게 바라봤다.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:...뭐야, 왜 그렇게 긴장했어? 나까지 긴장되잖아.
+HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:너는 긴장해야지.
+HK416Mod(0);UMP9Mod(3)<Speaker>UMP9</Speaker>||:자아 심호흡하시고~ 후~읍, 하아...+조아쓰, 가자 언니!
+HK416Mod(0)<Speaker>HK416</Speaker>||:통신 상태 주의해, 정기 연락에서 한 번이라도 응답 없으면 바로 강제로 깨울 거야.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><BGM>BGM_Empty</BGM>:UMP45와 UMP9는 눈을 감고, 레벨 2 플랫폼으로 돌입했다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>72</BIN>:
-()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:……+二级平层内，蜂针系统外层。+顺利潜入的UMP45和UMP9在数据网络中小心翼翼地潜行。
-UMP9Mod(2)<Speaker>UMP9</Speaker>||:45姐，416这次怎么变得怪怪的？
-UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:你昨天不还夸她专业，有安全感吗？
-UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:那不是为了缓和下氛围嘛……
-UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:我猜她是受刺激了。
-UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:什么刺激？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:大概是阿佛那斯里发生的事情……+具体的出去再说吧，我们已经接触到了系统最外层的防御。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:UMP45取出破解秘钥，数字的几轮快速翻转后，她们通过了最外层防御。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:这么快，那看来15分钟我们也够了！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:高兴太早了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45指向远处隐隐发光的物体。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:那是……保密文件？
-UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:不，那是新的防御墙。
-UMP9Mod(2)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:看来是经典的构造，一层一层的俄罗斯套娃，希望我们要找的情报不在最里面一层……
-UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:要不要打个赌——指挥官的情报会在第几层？
-UMP9Mod(3)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:我希望在下一层！
-UMP9Mod(3);UMP45Mod(0)<Speaker>UMP45</Speaker>||:我猜，起码在第6层。
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:诶？
-()<Speaker></Speaker>||<SE1>Select</SE1>:UMP45笑了一下，集中注意力，开始接近通向下一层的防御墙……
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:......+레벨 2 플랫폼, 벌침 시스템의 표층.+무사히 잠입한 UMP45와 UMP9은 데이터가 흐르는 네트워크 속을 신중히 나아갔다.
+UMP9Mod(2)<Speaker>UMP9</Speaker>||:언니, 416 왜 저래?
+UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:어제는 프로다워져서 안심된다더니?
+UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:아니 그건 분위기 풀어 주려고 한 말이지.
+UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:내 생각엔 자극받았나 봐.
+UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:자극? 무슨 자극?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:아마 아베르누스에서 겪은 일 때문이겠지...+자세한 이야긴 밖에 나가서 하자, 
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:UMP45가 해독한 인증키를 꺼냈다. 그러자 눈앞의 데이터가 몇 차례 뒤집혀, 가장 바깥의 방어벽을 통과할 수 있게 되었다.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:바로 돌파~ 이 속도론 15분이면 충분하겠어!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:벌써 신나면 안 되지.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45이 멀리서 희미하게 반짝이는 물체를 가리켰다.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:저건... 앗, 설마 저게 기밀 파일이야?
+UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:아니, 다른 방어벽이야.
+UMP9Mod(2)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:구조가 클래식해 보이는걸, 마트료시카처럼 여러 겹으로 된 거. 우리가 찾는 게 제일 안쪽에 있지 않았으면 좋겠는데...
+UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:내기할래? 지휘관의 정보가 몇 층에 있을지.
+UMP9Mod(3)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:바로 다음 층에 있었음 좋겠어!
+UMP9Mod(3);UMP45Mod(0)<Speaker>UMP45</Speaker>||:내가 보기엔 최소 6층 이상일걸?
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:엥?
+()<Speaker></Speaker>||<SE1>Select</SE1>:UMP45는 대답 대신 싱긋 웃고, 정신을 집중해 다음 층으로 통하는 방어벽에 접근했다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:

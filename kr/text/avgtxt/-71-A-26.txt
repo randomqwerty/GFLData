@@ -1,134 +1,134 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><bg_move>%%pivot_x=0.35%%pivot_y=0.45%%scale=1.5%%duration=0%%</bg_move><黑屏2><CGDelay>0.5</CGDelay><BIN>757</BIN>:
-()<Speaker></Speaker>||:法兰克福-白区。+在J的陪同下，奈乐专注地记忆着白区的情况。+每一栋别墅都无一例外筑起高墙。即便是临街的一面，也窗面模糊，看不清内里的构造。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:<color=#A9A9A9>15分钟，110步每分，单步长0.72米……</color>+<color=#A9A9A9>那么刚才走过的距离大概是1188米……</color>
+()<Speaker></Speaker>||:프랑크푸르트 화이트존.+J와 동행하면서 넬레는 화이트존의 상황을 머릿속에 눌러담았다.+별장마다 예외 없이 높은 벽으로 감싸여 있고, 길거리 쪽 벽면마저도 창문이 불투명해 내부 구조를 엿볼 수가 없었다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:<color=#A9A9A9>15분, 분당 110걸음, 걸음마다 0.72m...</color>+<color=#A9A9A9>그럼 방금 걸은 길의 거리는 대략 1188m...</color>
 ()||<白屏1><CGDelay>0.5</CGDelay><SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<白屏2><SE1>ClothingUp</SE1>:面向正午的阳光，奈乐确定了自己正一路从北向南前进。+远处的人造山树木葱茏，只有山顶净化设施和军用雷达像一朵朵突兀的蘑菇，开在绿野中。
-NPC-Keven(6)<Speaker>J</Speaker>||:……原来你在法兰克福有亲戚啊……+找工作的话还是要去首都啊，特别是医生。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:啊？什么？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐从思绪中浅浅回过神来。+J皱了皱眉，盯着她看。
-NPC-Keven(7)<Speaker>J</Speaker>||:你是遇到什么麻烦了吗？
-NPC-Keven(7);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……嗯，啊？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:迦拉提亚的事情，影响你的声誉了？+所以你才被迫从柏林来法兰克福吧……+我看过你的资料，以你海德堡大学的学历……只要有人背书，就算经历了迦拉提亚那事也没关系的。+我是不太方便了，但我有一个朋友……她在新闻行业是个厉害的人物，应该可以给你引荐。
-NPC-Keven(7);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……谢谢。
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(2)||:为了衣食父母所以不得不来求助讨厌的亲戚是吧？+我懂我懂。+这年头大家为了生存，都很艰难。
-NPC-Keven(10);NPC-Nele(0)<Speaker>奈乐</Speaker>||:……没想到你居然人还挺好的。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(0)||:是吗？我也这么觉得。+这年头像我这样的人可不多见了。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(1)||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:这是我的通讯信息，如果在法兰克福有遇到什么困难，可以找我。+想要借钱的话，数额不大也不是不可以。
-NPC-Keven(6);NPC-Nele(0)<Speaker>奈乐</Speaker>||:……倒也没到这个地步。+以及，我已经有你的通讯了。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(0)||:哦那个是斯塔西专用的，有被盯梢，这个是私人的。
-NPC-Keven(7);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……你不是特工吗？特工怎么还会有私人通讯？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:……你说得对，我们没有隐私。
-NPC-Keven(12)<Speaker>J</Speaker>||:但是！我必须公用一个私用一个！
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……这种自欺欺人的意义到底在哪里啊……+对了，我倒是没注意，你为什么会在这里？+你不是特工吗？
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(2)||:我也很想知道。
-NPC-Keven(11);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……从柏林到法兰克福，你这应该算升职？
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(2)||:没有加薪的升职都是一场骗局。
-NPC-Keven(10);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……总归还是有些福利的吧？
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(2)||:就是空气好一点。+……考虑到现在的洁净空气算一件昂贵的奢侈品的话。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:那……
+()<Speaker></Speaker>||<白屏2><SE1>ClothingUp</SE1>:정오의 햇살을 마주보고 있으니, 자신이 남쪽을 향해 걷고 있는 것은 확실했다.+멀리 있는 인공산은 수풀이 무성하고, 오직 산 정상의 정화시설과 군용 레이더만이 마치 풀밭에 우뚝 솟은 버섯처럼 위화감을 풍겼다.
+NPC-Keven(6)<Speaker>J</Speaker>||:...넬레 씨, 프랑크푸르트에 친척이 있었군요...+역시 구직 활동은 수도에서 하는 게 제일이죠. 특히 의사라면.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:네? 뭐라고요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 암산을 하다 말고 겨우 정신을 차렸다.+J는 눈살을 찌푸리고 그녀를 물끄러미 바라봤다.
+NPC-Keven(7)<Speaker>J</Speaker>||:혹시 무슨 고민 있으세요?
+NPC-Keven(7);NPC-Nele(2)<Speaker>넬레</Speaker>||:어... 예?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:갈라테아 때문에 평판이라도 안 좋아졌나요?+역시 그것 때문에 베를린에서 프랑크푸르트까지 오셨겠구나...+전에 프로필을 좀 봤는데, 하이델베르크 대학 졸업생 정도면... 추천장만 있으면 갈라테아 근무 경력쯤 큰 오점이 안 될 겁니다.+제가 나서기엔 좀 그렇지만, 대신 친구가 한 명 있거든요... 매스컴에서 엄청 유명한 애니까 걔 보고 추천서 좀 써달라 할게요.
+NPC-Keven(7);NPC-Nele(2)<Speaker>넬레</Speaker>||:...고마워요.
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(2)||:생계 걱정 때문에 껄끄러운 친척에게 빌붙어야 하는 심정 이해합니다.+요새는 그냥 숨만 쉬며 사는 것조차도 여간 고생이 아니죠.
+NPC-Keven(10);NPC-Nele(0)<Speaker>넬레</Speaker>||:...당신 생각보다 사람이 괜찮네요.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(0)||:그래요? 뭐 대충 자각은 하고 있습니다.+요즘 세상에 저만한 나이스 가이는 보기 힘들죠.
+NPC-Nele(1)<Speaker>넬레</Speaker>||:......
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(1)||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:여기 제 연락처요. 혹시 프랑크푸르트에서 어려운 일 생기면 연락해요.+뭐어 너무 큰 액수만 아니면 돈도 좀 빌려드릴 수 있고요.
+NPC-Keven(6);NPC-Nele(0)<Speaker>넬레</Speaker>||:...돈 빌릴 정도로 쪼들리진 않아요.+그리고, 당신 연락처는 예전에 받았는데요?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(0)||:아아, 그건 슈타지 업무용이라 상시 감청받거든요. 이건 제 개인 연락처입니다.
+NPC-Keven(7);NPC-Nele(2)<Speaker>넬레</Speaker>||:...당신 요원 아니에요? 요원이 개인 연락처가 있다고요?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:...그렇죠, 우리한테 프라이버시란 없어요.
+NPC-Keven(12)<Speaker>J</Speaker>||:그래도! 저는 업무용이랑 일상용 꼭 분리해서 씁니다!
+NPC-Nele(2)<Speaker>넬레</Speaker>||:...그렇게 눈 가리고 아웅해서 무슨 의미가 있다고...+아 그렇지, 방금 묻는 거 깜빡했는데, 당신은 왜 여기에 있어요?+당신 요원이잖아요.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(2)||:저도 제가 왜 여기 있나 알고 싶습니다.
+NPC-Keven(11);NPC-Nele(2)<Speaker>넬레</Speaker>||:...베를린에서 프랑크푸르트로 왔으니 승진이라 칠 수 있나요?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(2)||:연봉 인상 없는 승진은 다 함정이에요.
+NPC-Keven(10);NPC-Nele(2)<Speaker>넬레</Speaker>||:...그래도 복지혜택 같은 건 있지 않아요?
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(2)||:공기가 좀 좋은 정도네요.+지금 깨끗한 공기도 귀한 자원인 걸 생각하면.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:그럼...
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<bg_move>%%pivot_x=0.65%%pivot_y=0.45%%scale=1.5%%duration=1%%</bg_move><SE1>ClothingUp</SE1><CGDelay>0.7</CGDelay>:默默记住路口的位置，奈乐开始了新一轮的距离和方向测算。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:你平常上班都是按照这个路线走吗？+不会有什么变化，或者轮班换岗之类的？
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(0)||:……什么意思？
-NPC-Keven(6);NPC-Nele(0)<Speaker>奈乐</Speaker>||:我就是想问问，下次我再来看望外祖父的话，还能不能在这碰见你。+你陪我逛了这么久，至少请你喝杯咖啡吧。
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.65%%pivot_y=0.45%%scale=1.5%%duration=1%%</bg_move><SE1>ClothingUp</SE1><CGDelay>0.7</CGDelay>:길목의 위치를 조용히 외우고, 넬레는 다시 거리와 방향 계산을 시작했다.
+NPC-Nele(0)<Speaker>넬레</Speaker>||:당신 평소 출근할 때도 이 길로 가나요?+루트를 바꾼다거나 근무시간 변경 같은 건 없어요?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(0)||:...무슨 뜻이죠?
+NPC-Keven(6);NPC-Nele(0)<Speaker>넬레</Speaker>||:아뇨 그냥, 다음에 또 외할아버지 보러 올 때 만날 수 있나 해서요.+오늘 이렇게 오래 같이 걸어주셨으니, 최소 커피라도 사드리는 게 맞겠죠?
 NPC-Keven(7)<Speaker></Speaker>;NPC-Nele(0)||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(0)||<BGM>BGM_Empty</BGM>:奈乐……+你刚刚是在套我信息？
-NPC-Keven(7);NPC-Nele(2)<Speaker>奈乐</Speaker>||:啊？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:……你有点可疑了，奈乐。
-NPC-Keven(7);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(7)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:虽然我们关系不坏，但等下你还是跟我走一趟……
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=6%%delay=0%%range=5</controll_shake><SE1>Explode</SE1>:砰！！！+猝不及防的巨响。
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:大地震颤，剧烈的爆炸后，四溅的碎石与烟尘滚滚而来！
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(0)||<BGM>BGM_Empty</BGM>:넬레 씨...+혹시 지금 저한테서 정보 캐내려는 겁니까?
+NPC-Keven(7);NPC-Nele(2)<Speaker>넬레</Speaker>||:네?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:...좀 수상하네요, 넬레 씨.
+NPC-Keven(7);NPC-Nele(2)<Speaker>넬레</Speaker>||:......
+NPC-Keven(7)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:우리가 그렇게 나쁜 사이는 아니긴 하지만, 그래도 잠깐 따라와주셔야...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=6%%delay=0%%range=5</controll_shake><SE1>Explode</SE1>:콰앙!!!+뜬금없이 굉음이 울렸다.
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1>:땅이 흔들리고 격렬한 폭발이 지나간 뒤, 날아오른 파편과 먼지구름이 몰려왔다.
 ()||<黑点1><SE1>AVG_Cloak_Whoosh</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><黑点2><BIN>9</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move>:J一把拉过奈乐，扑倒在路面上。
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><黑点2><BIN>9</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move>:J는 넬레를 끌어당겨 감싸고서 바닥에 엎드렸다.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>757</BIN><CGDelay>0.5</CGDelay>:
-NPC-Nele(3)<Speaker>奈乐</Speaker><Shake>||<SE1>ClothingUp</SE1>:咳咳……
-NPC-Keven(7)<Speaker>J</Speaker>||<白屏2><SE1>AVG_21Winter_Fire_Alarm</SE1>:——！
-()<Speaker></Speaker>||:一瞬，警报四起。
-()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><震屏3><SE1>AVG_Rain_Heavy</SE1><BGM>10118</BGM>:花坛中的自动喷淋头仿佛被震坏了开关，朝四周降下满天大雨。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:怎么回事？
-NPC-Keven(7)<Speaker>J</Speaker>||:不清楚，你别乱动，我问问情况。
-()<Speaker></Speaker>||:J掏出通讯，正打算联络同僚。+白区的警报系统响起——
-()<Speaker></Speaker>||<SE1>AVG_ElecSpace</SE1>:<color=#00CCFF>各位公民请注意，有嫌疑人员私闯住宅区并试图抢劫，请所有公民留在室内不要擅自走动。</color>+<color=#00CCFF>卫戍团士兵已经出动，正在积极搜捕嫌疑人员，如果您有相关线索或者需要帮助，请求助经过认证的卫戍团士兵或者持有标识的工作人员。</color>+<color=#00CCFF>请所有正在执行外勤或处于休假期的工作人员立即响应警报……</color>
-NPC-Nele(2)<Speaker>奈乐</Speaker><Shake>||:发生什么事了？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:不清楚，你先回你外祖父家避开风头，等警报解除再出来。
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:那你呢？
-NPC-Keven(7)<Speaker>J</Speaker>||:我现在得去集合了，那边——
+NPC-Nele(3)<Speaker>넬레</Speaker><Shake>||<SE1>ClothingUp</SE1>:콜록...
+NPC-Keven(7)<Speaker>J</Speaker>||<白屏2><SE1>AVG_21Winter_Fire_Alarm</SE1>:——!
+()<Speaker></Speaker>||:삽시간에 사방에서 경보가 울렸다.
+()<Speaker></Speaker>||<common_effect>%%code=CJ_rain%%</common_effect><震屏3><SE1>AVG_Rain_Heavy</SE1><BGM>10118</BGM>:화단의 자동 스프링클러가 진동으로 스위치가 고장났는지 사방에 물을 잔뜩 뿌려댔다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:무슨 일이에요?
+NPC-Keven(7)<Speaker>J</Speaker>||:잘 모르겠어요. 무슨 상황인지 물어볼 테니 여기 가만히 계세요.
+()<Speaker></Speaker>||:J가 통신기를 꺼내 동료에게 연락하려던 바로 그때.+화이트존의 경보 시스템이 울렸다.
+()<Speaker></Speaker>||<SE1>AVG_ElecSpace</SE1>:<color=#00CCFF>주민 여러분 주의 바랍니다. 현재 민가에 무단침입하여 절도를 시도하는 거수자가 나타났습니다. 주민분들께서는 실내에 머무르시고 함부로 움직이지 마시길 바랍니다.</color>+<color=#00CCFF>현재 경비단이 출동하여 거수자 체포를 진행 중이니, 관련 단서가 있거나 도움이 필요하실 경우 인증받은 경비단 병사 또는 표식을 달고 있는 작업 인원에게 연락하시길 바랍니다.</color>+<color=#00CCFF>현재 외근 중이거나 휴가 중인 작업 인원은 경보에 응하여...</color>
+NPC-Nele(2)<Speaker>넬레</Speaker><Shake>||:대체 무슨 일인데요?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(2)||:무슨 일인진 모르겠지만 먼저 외조부 댁에 피해 있으십쇼. 경보가 해제된 다음에 나오세요.
+NPC-Keven(7);NPC-Nele(3)<Speaker>넬레</Speaker>||:당신은요?
+NPC-Keven(7)<Speaker>J</Speaker>||:저는 이제 집합해야 하니까, 저기——
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
 ()||<黑点1><SE1>AVG_Door_Hit</SE1>:
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake><黑点2><关闭蒙版>:嘭——
-()<Speaker></Speaker>||:一扇造型别致的花园木门被一脚踹开，出现在后面的是——
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake><黑点2><关闭蒙版>:쿠웅!
+()<Speaker></Speaker>||:독특한 스타일의 정원에 세워진 나무 문짝이 벌컥 열렸다. 그 뒤에 나타난 것은...
 NPC-Keven(9)<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Keven(9)<Speaker>J</Speaker>||:指挥官？！你为什么在这里？
-()<Speaker>指挥官</Speaker>||:……
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:指挥官！
-()<Speaker></Speaker>||:在奈乐惊诧的视线中，被称作“指挥官”的人风尘仆仆地站在面前，怀里还抱着一个不明物体。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_weapon_reload</SE1>:咔哒——J拔出手枪，对准指挥官。
-NPC-Keven(9)<Speaker>J</Speaker>||:你不会就是警报中说的抢劫人员吧？
-NPC-Keven(9)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Keven(12)<Speaker>J</Speaker>||:把你抱着的东西放下，双手举起来，慢慢转向墙边蹲下！
-()<Speaker>指挥官</Speaker>||:……
+NPC-Keven(9)<Speaker>J</Speaker>||:지휘관?! 댁이 왜 거기서 나와요?
+()<Speaker>지휘관</Speaker>||:......
+NPC-Nele(2)<Speaker>넬레</Speaker>||:지휘관님!
+()<Speaker></Speaker>||:넬레의 놀란 시선 앞에, 꾀죄죄한 몰골을 한 지휘관이 품에 알 수 없는 물건을 안고 서 있었다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_weapon_reload</SE1>:철컥. J가 권총을 뽑아 지휘관을 겨눴다.
+NPC-Keven(9)<Speaker>J</Speaker>||:설마 댁이 안내방송에서 떠드는 강도는 아니겠죠?
+NPC-Keven(9)<Speaker>지휘관</Speaker><同时置暗>||:......
+NPC-Keven(12)<Speaker>J</Speaker>||:안고 있는 거 내려놓고 손 들어. 천천히 벽 쪽으로 돌아서서 무릎 꿇어!
+()<Speaker>지휘관</Speaker>||:......
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官只能照做，慢慢将裹在毛毯下的露尼西亚放在地上，自己举起双手。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:J警惕地靠近露尼西亚，一边注意着指挥官的举动，一边掀开毛毯。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그 말에 따를 수밖에 없었던 지휘관은, 양탄자로 감싼 루니샤를 천천히 바닥에 내려놓고 두 손을 들었다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:J는 조심조심 루니샤에게 접근해, 지휘관의 움직임을 주시하면서 양탄자를 들춰봤다.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
 ()||<黑点1><SE1>AVG_Cloak_Whoosh</SE1>:
-()<Speaker></Speaker>||<黑点2>:尽管已经有过心理预设，但是掀开毛毯的瞬间，J还是震惊在了原地——
-NPC-Keven(9)<Speaker>J</Speaker><Shake>||:她、她是——
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3><BGM>BGM_Empty</BGM>:嘭——
-()<Speaker></Speaker>||<SE1>Select</SE1>:指挥官抓住一瞬的机会反击，将J击晕在地，迅速抢过了J的配枪。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……指挥官你怎么在这里！
-NPC-Nele(2)<Speaker>指挥官</Speaker><同时置暗>||:……你怎么在这里？
-NPC-Nele(2)<Speaker>奈乐</Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:我之前给你发的信息你收到了吗？
-NPC-Nele(2)<Speaker>指挥官</Speaker><同时置暗>||:什么时候？你给我发了什么消息？
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:
-NPC-Nele(3)<Speaker>奈乐</Speaker>||<震屏3>:……教官小姐居然是个骗子吗？？？我兢兢业业帮她刺探白区的情报……+还差点要被斯塔西带走……
-()<Speaker>指挥官</Speaker>||:啊……
-()<Speaker></Speaker>||:指挥官意识到了什么，立刻改口。
-()<Speaker>指挥官</Speaker>||:我想起来了，教官是跟我说过这事，但我这段时间太忙了，没来得及回复你……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐怀疑的眼神在指挥官和被毛毯掩盖的露尼西亚身上徘徊着。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:被J掀开的一角下，是一张年轻女人的面孔。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:你就是现在警报里通知的这个抢劫居民的人？
-NPC-Nele(3)<Speaker>奈乐</Speaker><Shake>||:指挥官……你……你怎么在干这种事……
-()<Speaker>指挥官</Speaker>||:……回头我再跟你解释。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:顾虑着白区的警卫，指挥官抱起露尼西亚，转身准备离开。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:奈乐一把拽住了指挥官。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:不行……我有事要找你！
-NPC-Nele(3)<Speaker>指挥官</Speaker><同时置暗>||:……我在这里约了人，你先走，回头我再联系你。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:不行，你现在在我这里没有信誉了，我要跟着你。
-NPC-Nele(3)<Speaker>指挥官</Speaker><同时置暗>||:你……
+()<Speaker></Speaker>||<黑点2>:마음의 준비를 했음에도, 양탄자를 들추는 순간 J는 경악으로 몸이 굳었다.
+NPC-Keven(9)<Speaker>J</Speaker><Shake>||:이, 이 사람은——
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3><BGM>BGM_Empty</BGM>:퍼억!
+()<Speaker></Speaker>||<SE1>Select</SE1>:지휘관은 그 순간의 틈을 놓치지 않고, J를 한 방에 기절시킨 뒤 총을 빼앗았다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:...지휘관님이 왜 여기에 있어요!?
+NPC-Nele(2)<Speaker>지휘관</Speaker><同时置暗>||:...넬레 씨는 왜 여기에 있습니까?
+NPC-Nele(2)<Speaker>넬레</Speaker>||<BGM>BGM_23SF_zonghe_1</BGM>:제가 전에 보낸 메시지 받았나요?
+NPC-Nele(2)<Speaker>지휘관</Speaker><同时置暗>||:메시지요? 언제 보냈는데요?
+NPC-Nele(2)<Speaker>넬레</Speaker>||:
+NPC-Nele(3)<Speaker>넬레</Speaker>||<震屏3>:...그럼 교관 씨가 절 속인 거예요?? 엄청 가슴 졸이면서 화이트존의 정보를 염탐하고 있었는데...+그러다 슈타지한테 끌려갈 뻔했다고요...!
+()<Speaker>지휘관</Speaker>||:아...
+()<Speaker></Speaker>||:지휘관은 상황을 대충 짐작하고 냉큼 말을 바꿨다.
+()<Speaker>지휘관</Speaker>||:아아! 내 정신 좀 봐. 확실히 교관한테서 이야기 들었습니다. 요즘 계속 바빠서 답장을 드리지 못했네요, 하하하...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 의심스러운 눈초리로 지휘관과 양탄자로 보쌈당한 루니샤를 번갈아 봤다.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||:J가 걷어낸 양탄자 귀퉁이로 젊은 여성의 얼굴이 보였다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:정말 지휘관님이 지금 방송에 나오는 강도예요?
+NPC-Nele(3)<Speaker>넬레</Speaker><Shake>||:어떻게... 이런 짓을...
+()<Speaker>지휘관</Speaker>||:...나중에 설명하겠습니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:화이트존의 경비를 피하기 위해 지휘관은 루니샤를 다시 안아들고 몸을 돌려 떠나려 했다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:그러자 넬레가 지휘관을 덥석 붙잡았다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:안 돼요... 저 당신한테 볼일 있어요!
+NPC-Nele(3)<Speaker>지휘관</Speaker><同时置暗>||:...아쉽지만 지금은 선약이 있어서. 일단은 돌아가시죠. 나중에 연락드리겠습니다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:안 돼요, 저 이제 지휘관님 못 믿어요. 지금 꼭 따라갈 거예요.
+NPC-Nele(3)<Speaker>지휘관</Speaker><同时置暗>||:넬레 씨...
 ()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>AVG_brake</SE1>:嘎吱——+一辆无标识的军队用车风驰电掣驶来，在一个漂亮的甩尾后，停在两人面前。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:车门打开，露出HK416和M16的脸。
-HK416Mod(0)<Speaker>HK416</Speaker>||:抱歉来晚了，骇入这辆车费了点功夫。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:指挥官，快上车。
-M16A1BOSS(2)<Speaker>指挥官</Speaker><同时置暗>||:16……这就是你说的再见？+……你当时是怎么能预料到今天这一幕的。
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||:就当是神的指示吧。
-M16A1BOSS(5)<Speaker>指挥官</Speaker><同时置暗>||:这种玩笑一点也不好笑。
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||:那你就当是我从苏联安全局得到的情报吧。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>AVG_brake</SE1>:끼이이익!!!+부대 마크가 없는 군용 차량이 바람을 가르며 달려와 화려한 드리프트로 두 사람 앞에 멈췄다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:차 문이 열리자 HK416과 M16A1의 얼굴이 보였다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:늦어서 죄송해요, 이 차를 해킹하느라 시간이 좀 걸렸어요.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:빨리 타, 지휘관.
+M16A1BOSS(2)<Speaker>지휘관</Speaker><同时置暗>||:M16... 저번에 다시 보잔 말이 이 뜻이었어?+어떻게 그때부터 지금 이 장면을 예측한 거야?
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||:신의 인도라고 생각하면 돼.
+M16A1BOSS(5)<Speaker>지휘관</Speaker><同时置暗>||:하나도 안 웃긴데.
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||:그럼 신소련 안전국에서 얻어낸 정보라고 치자.
 M16A1BOSS(5)<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-M16A1BOSS(5)<Speaker>指挥官</Speaker><同时置暗>||:你还是格里芬的M16吗？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:如果你问我的立场的话。
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||:指挥官……16永远站在你前面。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:呯呯呯——+密集的枪声。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:是白区的守卫部队赶来了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:赶紧走！没时间了！
+M16A1BOSS(5)<Speaker>지휘관</Speaker><同时置暗>||:너, 여전히 그리폰의 M16A1 맞아?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:내 입장을 묻는 거라면...
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||:지휘관... M16은 항상 네 앞에 있을 거야.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타탕!+바쁜 총소리가 울렸다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:화이트존의 수비 부대가 온 것이었다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:시간 없어요, 빨리 타요!
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:没等指挥官询问，奈乐已经跟着指挥官挤了上去。+她回头看向倒在地上昏迷不醒的J。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:那J怎么办？
-()<Speaker>指挥官</Speaker>||:一起带走！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관의 동의를 구하지도 않고 넬레는 지휘관을 따라서 차에 낑겨 앉았다.+그러고 아직 바닥에 기절해 있는 J를 뒤돌아봤다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:J 씨는 어떡해요?
+()<Speaker>지휘관</Speaker>||:차에 실어요!
 ()||<黑点1><SE1>ClothingUp</SE1>:
-()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_20Winter_Door_Car_Close</SE1>:嘭。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_engine_speedup</SE1>:车门关闭，引擎发动的轰鸣响起。
-HK416Mod(0)<Speaker>HK416</Speaker>||:接下来请人类趴在座位下面。
-NPC-Nele(2)<Speaker>奈乐</Speaker><Shake>||:你们要和白区的守卫开战？！
-HK416Mod(0)<Speaker>HK416</Speaker>||:是的，回基地咯。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:各位，准备好了吗♪
+()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_20Winter_Door_Car_Close</SE1>:쿵.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_engine_speedup</SE1>:차 문이 닫히고, 엔진에 시동 거는 소리가 울렸다.
+HK416Mod(0)<Speaker>HK416</Speaker>||:인간 승객은 좌석 아래에 엎드리세요.
+NPC-Nele(2)<Speaker>넬레</Speaker><Shake>||:경비대랑 싸우게요?!
+HK416Mod(0)<Speaker>HK416</Speaker>||:네, 기지로 돌아갈 거니까.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:여러분~ 준비됐나요~♪
 ()<Speaker></Speaker>||<CGDelay>0.3</CGDelay><SE1>AVG_2022Saros_SCARL1</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:咔哒——+人形们已经做好战斗的准备。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:철컥——+인형들은 모두 전투 준비를 마쳤다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:
