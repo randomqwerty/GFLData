@@ -366,6 +366,7 @@ patch3040=
 "3040/BattleManager",	
 "3040/Vehicle",
 "3050/EquipGroupProgressLable",
+"3040/BattleUIDamageController",
 }
 patch3050=
 {
@@ -412,6 +413,7 @@ patch3050=
 "3050/OPSPanelController_GenerateStoryReviewUrl",
 "3050/CommonGetNewSangvisGunController",
 "3050/EquipGroupProgressLable",
+"3050/BattleUIDamageController",
 }
 -- va11
 print("load Va11");
