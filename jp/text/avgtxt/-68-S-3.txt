@@ -1,16 +1,16 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:The latest report has been transmitted. Please enter the keycode to unlock the report.
+()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:最新の報告です。問題の解答を入力し、ロックを解除してください。
 ()||<黑点1>:
-()<Speaker></Speaker>||<true>3</true><黑点2><BIN>9</BIN>:Keycode Question... +How many times has Erma failed her tests and exams?<r>A. 7883 times<r>B. 632 times<r>C. 0 times
+()<Speaker></Speaker>||<true>3</true><黑点2><BIN>9</BIN>:問題——+エルマはテストで何回不合格になったか？<r>A 7883回<r>B 632回<r>C 0回
 ()||<黑点1><分支>2</分支><SE1>AVG_PPT_Switch</SE1>:
-()<Speaker>Erma</Speaker>||<BIN>687</BIN><分支>2</分支><黑点2>:<color=#66CDAA>65, 82, 49, 56, 228, 184, 128, 229, 134, 155, 230, 151, 160, 229, 156, 186, 229, 135, 186, 228, 184, 187, 229, 190, 174, 228, 184, 150, 227, 128, 130, 228, 184, 128,</color> +<color=#66CDAA>229, 143, 163, 230, 156, 137, 231, 164, 141, 229, 140, 133, 228, 186, 148, 231, 164, 190, 228, 186, 134, 229, 155, 155, 227, 128, 129,</color> +<color=#66CDAA>229, 140, 187, 229, 174, 158, 231, 144, 134, 229, 143, 130, 229, 159, 186, 229, 155, 189, 227, 128, 130</color>
-()<Speaker>Erma</Speaker>||<分支>2</分支>:<color=#66CDAA>Hello? Do you not understand what I just said? Of course you don't.</color> +<color=#66CDAA>It's all scrambled code.</color> +<color=#66CDAA>You only get to read the report if you answer the question correctly~</color>
+()<Speaker>エルマ</Speaker>||<BIN>687</BIN><分支>2</分支><黑点2>:<color=#66CDAA>65, 82, 49, 56, 228, 184, 128, 229, 134, 155, 230, 151, 160, 229, 156, 186, 229, 135, 186, 228, 184, 187, 229, 190, 174, 228, 184, 150, 227, 128, 130, 228, 184, 128,</color>+<color=#66CDAA>229, 143, 163, 230, 156, 137, 231, 164, 141, 229, 140, 133, 228, 186, 148, 231, 164, 190, 228, 186, 134, 229, 155, 155, 227, 128, 129,</color>+<color=#66CDAA>229, 140, 187, 229, 174, 158, 231, 144, 134, 229, 143, 130, 229, 159, 186, 229, 155, 189, 227, 128, 130</color>
+()<Speaker>エルマ</Speaker>||<分支>2</分支>:<color=#66CDAA>分からないって？　そりゃ分からないよ。</color>+<color=#66CDAA>全部ただの文字化けだから。</color>+<color=#66CDAA>正解しないと内容は見られないよ。</color>
 ()||<黑点1><分支>2</分支><SE1>AVG_PPT_Switch</SE1>:
 ()||<黑点1><分支>1</分支><SE1>AVG_PPT_Switch</SE1>:
-()<Speaker>Erma</Speaker>||<BIN>687</BIN><黑点2><分支>1</分支>:<color=#66CDAA>68, 111, 110, 39, 116, 32, 119, 97, 115, 116, 101, 32, 121, 111, 117, 114, 32, 116, 105, 109,</color> +<color=#66CDAA>101, 59, 32, 116, 104, 105, 115, 32, 116, 105, 109, 101, 32, 105,</color> +<color=#66CDAA>116, 39, 115, 32, 114, 101, 97, 108, 108, 121, 32, 103, 97, 114, 98, 108, 101, 100, 46</color>
-()<Speaker>Erma</Speaker>||<分支>1</分支>:<color=#66CDAA>Hello? Do you not understand what I just said? Of course you don't.</color> +<color=#66CDAA>It's all scrambled code.</color> +<color=#66CDAA>You only get to read the report if you answer the question correctly~</color>
+()<Speaker>エルマ</Speaker>||<BIN>687</BIN><黑点2><分支>1</分支>:<color=#66CDAA>68, 111, 110, 39, 116, 32, 119, 97, 115, 116, 101, 32, 121, 111, 117, 114, 32, 116, 105, 109,</color>+<color=#66CDAA>101, 59, 32, 116, 104, 105, 115, 32, 116, 105, 109, 101, 32, 105,</color>+<color=#66CDAA>116, 39, 115, 32, 114, 101, 97, 108, 108, 121, 32, 103, 97, 114, 98, 108, 101, 100, 46</color>
+()<Speaker>エルマ</Speaker>||<分支>1</分支>:<color=#66CDAA>分からないって？　そりゃ分からないよ。</color>+<color=#66CDAA>全部ただの文字化けだから。</color>+<color=#66CDAA>正解しないと内容は見られないよ。</color>
 ()||<黑点1><分支>1</分支><SE1>AVG_PPT_Switch</SE1>:
 ()||<黑点1><分支>3</分支><SE1>AVG_PPT_Switch</SE1>:
-()<Speaker>Erma</Speaker>||<BIN>687</BIN><分支>3</分支><黑点2><BGM>GF_2022_Summer_AVG_2</BGM>:<color=#66CDAA>AR-18, do you know...? Mother is dead...</color> +<color=#66CDAA>I only just found out Mother lived for a very long time, and there had been multiple iterations of us by his side.</color> +<color=#66CDAA>But only 620 has retained all her memories. 520's and my memories are incomplete...</color> +<color=#66CDAA>Also, I now know what can save the Commander. It's Mother's research—"Human Intelligence Research".</color>
-()<Speaker>Erma</Speaker>||<分支>3</分支>:<color=#66CDAA>It can resurrect Mother and help the Commander out of their predicament. 520 and I are going to track it down.</color> +<color=#66CDAA>But before I bring it back with me, I want to do something slightly outside of the scope of my mission...</color> +<color=#66CDAA>I want to set 620 free from the Summer Garden. She has been here all by herself for far too long...</color>
-()||<黑点1><SE1>AVG_PPT_Switch</SE1>:
+()<Speaker>エルマ</Speaker>||<BIN>687</BIN><分支>3</分支><黑点2><BGM>GF_2022_Summer_AVG_2</BGM>:<color=#66CDAA>AR-18……お母さまはもう死んだって……</color>+<color=#66CDAA>お母さまは長い時間を生きて、いろいろなあたしたちが一緒にいたって、//n初めて知った。</color>+<color=#66CDAA>でも、全部の記憶を持っているのは620だけで、//nあたしも520も一部の記憶しかない……</color>+<color=#66CDAA>それから指揮官を助けられるものが何か分かった。//n「人類の理知についての研究」――お母さまの研究成果。</color>
+()<Speaker>エルマ</Speaker>||<分支>3</分支>:<color=#66CDAA>それがあれば、お母さまを生き返らせることができて、//n指揮官を助けることもできる。だからこれから、520と一緒に//nそれを探す。</color>+<color=#66CDAA>それとは別に、実は他のやりたいこともあるけど……</color>+<color=#66CDAA>620を自由にさせてあげたい。ずっと一人で夏の庭園の中に//nいたみたいだから……</color>
+()||<黑点1><SE1>AVG_PPT_Switch</SE1>:

@@ -1,143 +1,143 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><BGM>BGM_Hume_FourAdventures</BGM><SE1>AVG_21Winter_FT_Heel</SE1>:...Inside the Great Palace, the Summer Garden. +After taking just a few steps away from the splendorous hall, the interior suddenly turns dark and gloomy, and the hallway becomes cramped and claustrophobic.
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||<SE1>Stop_AVG_loop</SE1>:Try and see if you can find an anchor point for "Fox Sisterhood".
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma closes her eyes... and starts muttering quietly to herself.
-Erma(19)<Speaker>Erma</Speaker>||:Fox Sisterhood... Fox Sisterhood...
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position><Shake>;Erma(19)||:<size=50>Oh, you can save your breath! We're already inside the Summer Garden!</size> +Your "Erma Hume" anchor point is the master key!
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(19)||<SE1>Rope</SE1>:You just have to run a search through the list of digital keys!!!
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:Huh? This just popped up out of nowhere... +...You seem to know how to work this thing better than me...
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:That's why I don't understand why Doctor Hume made YOU the admin of this stupid system!
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(24)<Speaker>Erma</Speaker>||:...Probably because I'm cuter.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(24)||<SE1>Rope</SE1>:...
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(19)<Speaker>Erma</Speaker>||:I was just joking. Don't look at me like you want to kill me.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Erma promptly completes the search under Reinette's threatening glower.
-Erma(13)<Speaker>Erma</Speaker>||:I ran the search. There's no such anchor point.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:I don't trust you. Share the list of digital keys with me.
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(19)<Speaker>Erma</Speaker>||:That'd be an infringement of my privacy!
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...
-()<Speaker></Speaker>||<SE1>Select</SE1>:Reinette looks positively murderous as she draws her Stevens M520 shotgun.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:It's the same drill every time you lose your memory, but you never fail to piss me off so much I have to fight the urge to kill you on the spot.
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(23)<Speaker>Erma</Speaker>||:But I've actually got some private stuff in here! For example, the entry on "Lyudmila" contains quite a lot of sensitive information. How am I supposed to explain it to AR-18 if I let you read it?!
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:I'm asking you to share the list, not the entire repository!
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(20)<Speaker>Erma</Speaker>||:Oh, so you can only see the keys, but you can't open anything?
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(20)||:...That's right.
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(24)<Speaker>Erma</Speaker>||:Oh, you should've just said so! +I couldn't just trust you without question and show it to you if you wouldn't explain it properly, could I?
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||<SE1>AVG_weapon_reload</SE1>:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Before Reinette can shoot, Erma places her fingers in Reinette's palm.
-Erma(24)<Speaker>Erma</Speaker>||:Can you see it now?
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...Yes. +I don't really know much about the Fox Sisterhood. All I've heard of is several of their well-known scams, such as the Séance Room, the Tequila Scam, the Horn of Hope, the Casino Train, etc... +Hold on, there's an anchor point here called "Colt Express"...
-Erma(13)<Speaker>Erma</Speaker>||:...
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Open it!
-()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:A key named "Colt Express" appears in Erma's hand. +At the same time, a wooden door with retro brass carvings also materializes in the hallway. The sign on the door reads... +"2033 Colt Express".
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:Reinette grabs the door handle.
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Click.
+()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><BGM>BGM_Hume_FourAdventures</BGM><SE1>AVG_21Winter_FT_Heel</SE1>:……夏の庭園、大宮殿の中。+煌びやかなホールから出ると、暗くて狭い廊下に入った。
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||<SE1>Stop_AVG_loop</SE1>:とりあえず、「フォックス・ソロリティ」のアンカーポイントを//n探してみましょう。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:エルマは目を閉じ、なにかむにゃむにゃとつぶやき始めた。
+Erma(19)<Speaker>エルマ</Speaker>||:フォックス・ソロリティ……フォックス・ソロリティ……
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position><Shake>;Erma(19)||:<size=50>何やっているのよ！　ここはすでに夏の庭園の中でしょ！</size>+あなたのアンカーポイント「エルマ・ヒューム」が、//nすべての鍵になっていますわよ！！
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(19)||<SE1>Rope</SE1>:それを使ってすべてのアンカーポイントを検索すればいいですわ！！！
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>エルマ</Speaker>||:え？　なにこれ……+……なんでこんなに詳しいの？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(17)||:なんでヒューム博士があなたにシステムを預けたのか解せません！
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(24)<Speaker>エルマ</Speaker>||:……あたしがかわいいから？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(24)||<SE1>Rope</SE1>:……
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(19)<Speaker>エルマ</Speaker>||:冗談だよ、そんな目で見ないで。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:……
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:レネットに睨まれながら、エルマはアンカーポイントを一通り検索した。
+Erma(13)<Speaker>エルマ</Speaker>||:検索したけど、なかったよ。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(13)||:念のため、リストを共有しなさい。
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(19)<Speaker>エルマ</Speaker>||:え？　そんなのプライバシー侵害だよ？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:……
+()<Speaker></Speaker>||<SE1>Select</SE1>:もういい加減にしろと言わんばかりの表情で、//nレネットは再びStevens520ショットガンを構えた。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:あなたが記憶を失う度にこのようなやり取りをしてきたような//n気がしますが、やはり我慢しきれませんわ！
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(23)<Speaker>エルマ</Speaker>||:でも本当にプライバシーに関わってるんだよ！//n例えばこの「リュドミラ」とかとても大事なものだから、//nそれを簡単に見せたらAR-18に怒られるよ！
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:内容じゃなくてリストを共有して欲しいって言いましたよね？
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(20)<Speaker>エルマ</Speaker>||:……あっ、つまり確認できるのは名前だけで、中身は見られないのね？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(20)||:……そうです。
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(24)<Speaker>エルマ</Speaker>||:もう、それなら早く言ってよ。+言ってくれなきゃ分からないから。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||<SE1>AVG_weapon_reload</SE1>:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:レネットの怒りゲージがMAXになる前に、エルマはレネットの手を取った。
+Erma(24)<Speaker>エルマ</Speaker>||:これで見える？
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||:……ええ。+フォックス・ソロリティについてはそんなに詳しくありません。//n今のところ分かるのは、公式に記録された有名な詐欺事件だけ。//n「ウィジャハウス」、「テキーラ・スキーム」、//n「ホーン・オブ・ホープ」、「カジノ・エクスプレス」など……+待って、ここにコルト・エクスプレスのアンカーポイントが……
+Erma(13)<Speaker>エルマ</Speaker>||:……
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:これを開きなさい！
+()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:そして「コルト・エクスプレス」の鍵がエルマの手の中に現れた。+鍵と共に、廊下の壁に古めかしい木製のドアも現れた。+ドアプレート――「2033コルト・エクスプレス」。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:レネットはそのドアに手を伸ばす。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:（ガタッ――）
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Chimes</SE1><BIN>9</BIN><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:Behind the door is a cloud of thick, impenetrable fog. A bell tinkles from somewhere far away...
-()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_4</BGM>:The bubbling coffee pot looks so retro it could easily pass for an antique from the previous century. +A record player is playing some very old music with the occasional pop and crackle.
-()<Speaker>???</Speaker>||:Miss Catherine! Wake up!
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Chimes</SE1><BIN>9</BIN><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:ドアの向こう、深い霧の中から、鈴の音が聞こえた気がした……
+()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_4</BGM>:コーヒーポットの中で、褐色の液体がゴロゴロと泡を立て、//nレコードプレイヤーはガタガタと音を鳴らしながら、//nクラシックを流していた。+まるで、前世紀のような部屋だった。
+()<Speaker>？？？</Speaker>||:キャサリンさん！　起きてください――
 ()||<黑屏1>:
-()<Speaker></Speaker>||<睁眼><BIN>528</BIN>:... +Who's calling? And who is Catherine?
-NPC_CZ52(0)<Speaker>???</Speaker><Position>0,170</Position>||:Miss Catherine, please get ready quickly! +Miss Maggie told us that a very important customer is about to visit.
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>Huh? Is she talking to me?</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...We seem to be observing events from this blonde woman's perspective.</color> +<color=#66CDAA>Let's see what this anchor point is going to show us.</color>
-NPC_PP90(4)<Speaker>Catherine Ponzi</Speaker><Position>0,200</Position>||:A very important customer? Oh right, you mean the campy scammer in a suit with the advance booking, yeah? +Tsk, we are the real con artists here, so why should we entertain him?! +Sophia, when is his appointment?
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:In 20 minutes.
-()<Speaker></Speaker>||<SE1>AVG_Chimes</SE1>:Ting-a-ling... The doorbell rings.
-()<Speaker>Doorbell</Speaker>||:<color=#00CCFF>My dear Miss Fox, your customer is here!</color>
-NPC_PP90(4)<Speaker>Catherine Ponzi</Speaker><Position>0,200</Position>||:What?! +Isn't the appointment in 20 minutes?
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:Oh... I forgot to mention... This customer is very prim and proper. +He isn't just punctual. +He's the type who shows up 15 minutes early!
-NPC_PP90(4)<Speaker>Catherine Ponzi</Speaker><Position>0,200</Position>||:...The profile says he's 27, no? He's more like a 72-year-old gramps!!!
-()<Speaker></Speaker>||<SE1>AVG_Chimes</SE1>:Ting-a-ling... The doorbell rings again.
-()<Speaker>门铃</Speaker>||:<color=#00CCFF>My dear Miss Fox, your customer is here!</color>
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:What do we do?
-NPC_PP90(4)<Speaker>Catherine Ponzi</Speaker><Position>0,200</Position>;NPC_CZ52(0)<Position>0,170</Position>||:Go open the door. I'll turn off the lights.
-NPC_PP90(4)<Position>0,200</Position>;NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:Huh? But it's night-time. Why turn off the lights?
-NPC_PP90(4)<Speaker>Catherine Ponzi</Speaker><Position>0,200</Position>;NPC_CZ52(0)<Position>0,170</Position>||:...We haven't even wiped down the table. What if this fancy-pants aristocrat sees through the act? +Darkness is our best disguise!
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:...Roger that! You're so smart, Miss Catherine!
+()<Speaker></Speaker>||<睁眼><BIN>528</BIN>:……+誰か呼んでいる？　キャサリンって誰？
+NPC_CZ52(0)<Speaker>？？？</Speaker><Position>0,170</Position>||:キャサリンさん、早く支度をお願いします！//nマギーさんからのお知らせで、もうすぐ大事なお客様が//nいらっしゃるそうです！
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>え？　あたしを呼んでいるの？</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>……どうやら、今はこの女の視点を使っているみたいですね。</color>+<color=#66CDAA>とりあえず、このアンカーポイントの内容を見てみましょう。</color>
+NPC_PP90(4)<Speaker>キャサリン</Speaker><Position>0,200</Position>||:大事な客？　あー、この前予約した、あのいかにも胡散臭いスーツの人ね。+あーあ、詐欺師はこっちだってのに、なんでわざわざ//nあいつに付き合わなくちゃいけないのよ！+ソフィア、予約の時間はいつ？
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:20分後です。
+()<Speaker></Speaker>||<SE1>AVG_Chimes</SE1>:（チャリーン）
+()<Speaker>ドアベル</Speaker>||:<color=#00CCFF>フォックスさま、お客様がお見えになりました。</color>
+NPC_PP90(4)<Speaker>キャサリン</Speaker><Position>0,200</Position>||:ええ！？+20分後じゃなかったの？
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:えっと……そのお客様は大変真面目な方で……+時間にも厳しい方なので……+いつも15分ほど前もって来られます！
+NPC_PP90(4)<Speaker>キャサリン</Speaker><Position>0,200</Position>||:……資料には27歳って書いてあるけど、本当は72歳なんでしょ！
+()<Speaker></Speaker>||<SE1>AVG_Chimes</SE1>:（チャリーン）
+()<Speaker>ドアベル</Speaker>||:<color=#00CCFF>フォックスさま、お客様がお見えになりました。</color>
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:どうしますか？
+NPC_PP90(4)<Speaker>キャサリン</Speaker><Position>0,200</Position>;NPC_CZ52(0)<Position>0,170</Position>||:とりあえずあんたは迎えに行きなさい。私はここの明かりを消す。
+NPC_PP90(4)<Position>0,200</Position>;NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:夜なのに、明かりを消すのですか？
+NPC_PP90(4)<Speaker>キャサリン</Speaker><Position>0,200</Position>;NPC_CZ52(0)<Position>0,170</Position>||:……こんな汚い部屋、貴族様には見せられないでしょ！+部屋の中を暗くして見えないようにするの！
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:分かりました、さすがキャサリンさんです！
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><SE1>AVG_Button_Click</SE1><BIN>9</BIN>:
 ()||<黑屏1>:
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||<Night><BIN>528</BIN><黑点2>:Welcome (*^▽^*), dearest customer! +Here at Unicorn Tech Ltd., we offer you nectar in a horn of hope to pierce through this Collapse miasma! +I am Sophia, here to provide you with high-quality and reliable trading services!
-NPC_Hume(1)<Speaker>???</Speaker>||:Greetings. I do apologize for the intrusion. +May I enquire if this is the headquarters of the Fox Sisterhood?
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:...Greetings. +Yes, Your Grace. +This is the office of Miss Catherine Ponzi, Director of the Fox Sisterhood.
-NPC_Hume(1)<Speaker>???</Speaker>||:Please don't stand on such ceremony. Her Majesty has stripped me of my dukedom. You may simply call me Louis Hume.
-NPC_CZ52(0)<Speaker>Sophia</Speaker><Position>0,170</Position>||:...Yes, sir. Please follow me.
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>Who is he? He sounds so fancy-schmancy.</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...That's your Mother.</color>
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>Huh? He's Arthur Hume?</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...Don't you recognize him?</color>
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>...To be honest, his face was never visible in all the anchor points in my memory.</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...</color>
-()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><BGM>BGM_Empty</BGM>:The conversation grows fainter as the man follows the girl up the stairs. The heavy fog comes rolling in once more.
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||<Night><BIN>528</BIN><黑点2>:いらっしゃいませ(*^▽^*)！+わたくし株式会社ユニコーンテクノロジーのソフィアと申します。+コーラップスの霧を破り、この希望の角に一杯の美酒を！
+NPC_Hume(1)<Speaker>？？？</Speaker>||:お邪魔します。+こちらはフォックス・ソロリティの本部でよろしいのでしょうか？
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:……はい。+尊敬なるブロイ公爵閣下。+こちらはフォックス・ソロリティ理事長、キャサリン・ポンジ様の//n事務所になります。
+NPC_Hume(1)<Speaker>？？？</Speaker>||:そうかしこまらなくてもいい、私はすでに国王陛下に除名された身だ。//n今は、ただのルイ・ヒュームでいい。
+NPC_CZ52(0)<Speaker>ソフィア</Speaker><Position>0,170</Position>||:……かしこまりました、閣下。どうぞこちらへ。
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>この人誰？　言うことがいちいち回りくどい。</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>……あなたのお母さんよ。</color>
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>え？　アーサー・ヒュームなの、この人？</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>……顔見て分からなかったのですか？</color>
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>う～ん、アンカーポイントの中で顔が映ってなかったから……</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>……</color>
+()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><BGM>BGM_Empty</BGM>:二人が階段を登っていくと、また深い霧が周りを包んだ。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><关闭蒙版><BGM>BGM_Hume_LibraryAdventure</BGM>:...Inside the Great Palace, the Summer Garden.
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:That's it?
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:Think so. +When I got to this point, I thought it was a hint for me to go buy a ticket for this train.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(13)||:...Rather simple-minded, aren't you?
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Catherine Ponzi is the younger Ponzi sister in the Fox Sisterhood. +The train we saw was probably the Casino Train, which would place us at around the 30s.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Was the Doctor going by the name Louis Hume back then? Did he have any dealings with the Fox Sisterhood? I don't remember this at all.
-Erma(17)<Speaker>Erma</Speaker>||:Maybe it wasn't him at all? +Could it be, say... Mother's father?
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:...I'm not even going to try to make sense of that. +Still... it's true that we have no information about the Doctor's father, so we can't rule out that possibility.
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>;Erma(17)||:But I just searched through your anchor points. "Louis Hume", "Catherine Ponzi", "Maggie Ponzi", "Sophia"... None of these came up.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(15)<Speaker>Erma</Speaker>||:Then our only trail goes cold...
-Erma(17)<Speaker>Erma</Speaker>||:Hold on. This Louis Hume said he was stripped of his title by the King, right? +Didn't Mirabelle say the King had put a bounty on Archbishop Hume's head?
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...If that had already happened by this point in time, it'd make no sense for us to search the train. +I've got to be missing something... I need to rewatch this.
-Erma(13)<Speaker>Erma</Speaker>||:...Alright.
-()<Speaker></Speaker>||:The two Dolls return to the anchor point named "Colt Express". +The same conversation takes place in the same setting again... +Erma remains just as mystified, but Reinette manages to glean plenty of new insight from the replay.
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:I've figured it out...
-Erma(17)<Speaker>Erma</Speaker>||:Huh? Figured out what?
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Unicorn... "A horn of hope to pierce through this Collapse miasma." +This isn't the Casino Train... It's the Horn of Hope!
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Not stopping to elaborate, Reinette punches in the parameter for another search.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Searching... Unicorn—got it! +Come on, access the anchor point!
-Erma(14)<Speaker>Erma</Speaker>||:...Fine. +You sure are brimming with motivation. +I have a feeling you'd get on swell with AR-18.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...There are two of us here, but only one of us has brains.
+()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><关闭蒙版><BGM>BGM_Hume_LibraryAdventure</BGM>:……夏の庭園、大宮殿。
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||:これだけ？
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>エルマ</Speaker>||:みたいだね。+以前これを見た時は、この列車のチケットを買うべきかなって思ってた。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(13)||:……お花畑みたいな脳みそで何よりですわね。
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||:キャサリン・ポンジは、フォックス・ソロリティを仕切っている//nポンジ姉妹の妹の方です。+アンカーポイントの名前からして、これはおそらく//n「カジノ・エクスプレス」事件と関係しているのでしょう。//n時間も30年代と合っていますし……
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:この時の博士はルイ・ヒュームって名乗ってましたの？//nこの時からすでに博士はフォックス・ソロリティと関わっていた//nなんて知りませんでした……
+Erma(17)<Speaker>エルマ</Speaker>||:本人じゃない可能性は？+もしかしたらお母さまのお父さんだったとか？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(17)||:……なんなんですの、そのメチャクチャな呼称は？+しかし……博士の両親に関する記録はありませんし、その可能性も//n考えられそうですね。
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>;Erma(17)||:ルイ・ヒューム、キャサリン・ポンジ、マギー・ポンジ、ソフィア、//nフォックス・ソロリティ……そういう名前のアンカーポイントは//nないみたいです。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(15)<Speaker>エルマ</Speaker>||:じゃあ手掛かりはもう……
+Erma(17)<Speaker>エルマ</Speaker>||:あっ、そういえば、ヒューム大主教は国王に指名手配されてるって、//nミラベルは言ってなかった？+ルイ・ヒュームも国王に除名されたって言ってたし、もしかして何か関係が？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:……仮にこの時点ですでに起きたことだとしても、//nあの時、列車にいた者を探し出して話を聞くのは無理です。+もっと他の手掛かりを……もう一度アンカーポイントの記録を//n確認してみましょう。
+Erma(13)<Speaker>エルマ</Speaker>||:……うん。
+()<Speaker></Speaker>||:二人はもう一度コルト・エクスプレスのアンカーポイントに入った。+同じ場面、同じ会話が、繰り返される……+エルマは特に何も気づかなかったが、レネットの方はどうやら//n何か新しい発見があったみたいだ。
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||:分かりましたわ……
+Erma(17)<Speaker>エルマ</Speaker>||:え？　 なにが？
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||:ユニコーン――コーラップスの霧を破る希望の角。+これはカジノ・エクスプレスではありません……//nホーン・オブ・ホープです！
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:説明する暇すら惜しんで、レネットはまた検索をかける。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:検索……角――ユニコーン、これです！+エルマ、ユニコーンのアンカーポイントを！
+Erma(14)<Speaker>エルマ</Speaker>||:……はーい。+仕事には真摯な方だね。+AR-18といい友達になりそう。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:ここには一人分の頭脳しかありませんから。
 ()||<黑点1><SE1>AVG_magic_circle_start</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>697</BIN><BGM>BGM_Empty</BGM>:Upon entering the anchor point named "Unicorn", their view becomes much less restricted. +Even under the dim light, they can see the extraordinarily rich textures in the lavishly decorated interior. +A skimpily dressed woman is sitting on top of an ornate solid wood desk in the center of the room.
-ColtWalker(7)<Speaker>???</Speaker><Position>0,210</Position>||<BGM>GF_2022_Summer_AVG_4</BGM>:Don't be so hasty in your rejection, Mr. Hume. +Project "Horn of Hope" aims to help more people.
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:This is an utter scam, Miss Ponzi.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(2)||:How do you define a scam? +Before Franklin discovered electricity, things like motorcars were considered a scam. +Bloodletting had also been a popular remedy for centuries before the advent of modern medicine.
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:Franklin merely demonstrated the connection between electricity and lightning. +He didn't technically "discover" electricity.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(2)||:Fair enough, my wording was a bit off. +But you get my point. Like the examples I just gave, Project "Horn of Hope" is full of potential even if it may not be apparent in the present.
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:...You are testing my patience, Miss Ponzi. +Calling your project a scam is already putting it mildly.
-NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:With a single drop of blood, one can obtain their own genetic sequence and receive personal medical advice. +They are then given a "Horn of Hope", which would allegedly boost their resistance to Collapse radiation and improve their immune system and general health. +Forgive me, but anyone with even just a little medical common sense would not believe such drivel.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Maggie Ponzi grins as she gives Hume an approving look.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Ah yes, the self-confidence. +Mr. Hume, with your face and your poise, it's a massive waste of talent that you're not in the business of conning people.
-NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:... +Miss Ponzi, I shall refrain from making further comments as a courtesy to you as a lady. Please take your leave. Our conversation tonight is over.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:My, my, don't get prissy with me! +You're an engineer; I'm also an engineer. Why must we engineers make each other's life difficult?
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:Pardon me for being blunt, but I could not detect a single shred of professional knowledge in any scientific discipline from what you said. +Even a graduate fresh out of university would not propose such an inane project.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>;NPC_Hume(2)||:Tsk, you think I don't know anything about science?
-ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:That is quite obvious.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Well, I say you don't know anything about society! +And this happens to be my forte. I am the most outstanding social engineer in the whole wide world! +Why do you think I'm laying it on so thick? Because this is the kind of language that the general public and the investors would understand! +Or should I be throwing out professional jargon like you Doll engineers? +I'm starting to wonder how you managed to con your investors into giving you a billion for your Project Pilot Whale!
-NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:... +Erma.
-Erma(25)<Speaker>Erma</Speaker><Position>0,155</Position>||:I'm here!
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>Huh? I didn't say anything!</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...Have you taken a good look around the room? There are more than ten people in here.</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma scans her surroundings. They appear to be in Hume's sitting room. Maggie has taken over his desk and is surrounded by a dozen girls or Dolls dressed in medical uniforms. +Meanwhile, Louis Hume only has Erma and Stevens M520 standing next to him.
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>Sorry, I was completely distracted by Maggie's outfit...</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>...Haven't you noticed that we've been watching from our own bodies in this time frame all this while?</color>
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>But I don't remember this ever happening.</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>Me neither... I'm guessing this is an earlier iteration of us.</color>
-Erma(25)<Speaker>Erma</Speaker><Position>0,155</Position>||:What should I do then?
-NPC_Hume(2)<Speaker>Louis Hume</Speaker>||:Look up the definition of "social engineer".
-Erma(25)<Speaker>Erma</Speaker><Position>0,155</Position>||<SE1>AVG_keyboardtype_sci</SE1>:There is no clear definition of "social engineer", but I did find the source of the term "social engineering". It's from "The Art of Deception" by a famous hacker called Kevin Mitnick. +Going by the book's explanation, you can think of a social engineer as someone who exploits people's psychological weaknesses as well as loopholes in rules and systems. +By establishing trust and rapport with the victim, they obtain valuable information and ultimately gain access to certain sensitive and private data through unauthorized channels.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:So in simple terms, a social engineer is a scammer.
-()<Speaker></Speaker>||:Louis Hume purses his lips. He is so enraged he is at a loss for words.
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:He storms out of the room in silence.
+()<Speaker></Speaker>||<黑点2><BIN>697</BIN><BGM>BGM_Empty</BGM>:「ユニコーン」のアンカーポイントの中。//n視界は「コルト・エクスプレス」の中と比べて大分広くなっていた。+豪華に装飾された部屋は、薄暗い明かりに照らされて、//n非常に質感のある雰囲気を醸し出している。+部屋の真ん中にある木製のテーブルの上に、//nやや露出度の高い服を着た女性が一人座っていた。
+ColtWalker(7)<Speaker>？？？</Speaker><Position>0,210</Position>||<BGM>GF_2022_Summer_AVG_4</BGM>:そう焦る必要はない、ヒューム閣下。+「ホーン・オブ・ホープ」は、より多くの者の助けになることを目指している。
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:それはただの詐欺だ、マギー・ポンジ。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>;NPC_Hume(2)||:詐欺の定義によるでしょう。+フランクリンが電気を発明する前、自動車という物も詐欺だと思われていた。+現代医学の理論が発展、確立する前、瀉血療法も数世紀ほど流行っていた。
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:フランクリンは電気という現象の法則性を発見しただけだ。+彼が電気を発明したわけではない。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>;NPC_Hume(2)||:そうか、これは私の不勉強だった。+しかし、私が言おうとしていることは分かるはずだ。//n「ホーン・オブ・ホープ」は、そういう未来を見越した計画である。
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:……いささか私をバカにし過ぎているのではないか、ミズ・ポンジ。+その「ホーン・オブ・ホープ」とやらを、詐欺だと言ったのも//n十分オブラートに包んだつもりだ。
+NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:血の一滴で塩基配列を調べ、その結果に合わせた//n「ホーン・オブ・ホープ」と、専門家による医学的なアドバイスを提供する。+さすれば、放射線にも対抗しうる免疫能力を手に入れることができる。+すまないが、少し医学の知識があれば、こんな馬鹿げた話を//n信じたりはしない。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:しかしマギー・ポンジは、ヒュームに向けて満足の笑みを浮かべた。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:そう、それでこそだ。+ヒューム閣下、その顔とその気質、実に詐欺に向いている。
+NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:……+ミズ・ポンジ、女性に失礼なことは言いたくない。//n今日はこれでお引き取り願おう。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:そこまで怒らなくてもいいではないか。+お互い同じ科学者だ、仲良くした方が、お互いのためになると思うが？
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:君に科学者としての素養があるとはとても思えない。+大学を出たばかりの若造でも、このようなくだらない計画を//n提案したりはしない。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>;NPC_Hume(2)||:では、この私に学がないとでも？
+ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:明らかに。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:それはどうかな？+今ここにいるのは、世界で最も優秀な社会工学者だ！+なぜ計画を大袈裟に立てた？　それはもちろん、愚かな民衆や//n無能な投資家でも内容を理解できるようにするためだ！+あなたは社会をまったく理解していない。この世は人形工学のように//nすべてが合理的にできているわけではないのさ！+この体たらくでは、あなたが一体どうやって「ゴンドウクジラ」で//n10億を騙し取ったのか、疑わしいな！
+NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:……+エルマ。
+Erma(25)<Speaker>エルマ</Speaker><Position>0,155</Position>||:はい。
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>え？　あたしは喋ってないよ！</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>……よく周りを見てみなさい。</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:周囲を見渡し、ここがヒュームの部屋だとエルマはようやく気付いた。//nマギーが部屋の真ん中のテーブルの上に座り、//n十数名ほどのナースの恰好をした女性の人形が彼女を取り囲んでいた。+そしてルイ・ヒュームの隣には、エルマとStevens520が立っていた。
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>ごめん、マギーの服に気をとられてた……</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>……まさかこの時の自分の素体の視点でいることに//n気づいていませんでしたの？</color>
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>こんなことあったなんて覚えていないよ。</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>私も印象にありませんが……これはおそらく前のバージョンの//nあなたと私かもしれません。</color>
+Erma(25)<Speaker>エルマ</Speaker><Position>0,155</Position>||:何か命令？
+NPC_Hume(2)<Speaker>ルイ・ヒューム</Speaker>||:社会工学者について調べてくれ。
+Erma(25)<Speaker>エルマ</Speaker><Position>0,155</Position>||<SE1>AVG_keyboardtype_sci</SE1>:社会工学者について、明確な概念はない。ただ似たような言葉が、//nハッカー、ケビン・ミトニックの著作「欺術」に使われている。+社会工学者は主に、自然、社会、または制度から、人の心理上の弱点//nまたはルールの穴を利用し、被害者と信頼関係を築いて、//n有用な情報を引き出す。+それを繰り返すことで、やがて一部の機密情報に//nアクセスすることも可能になる。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:簡単に言えば、ペテン師だ。
+()<Speaker></Speaker>||:ルイ・ヒュームは唇を噛み締め、しばらくの間黙り込んだ。
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:そして、そのまま部屋を出た。
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Hit</SE1><震屏3>:Bam—the door slams shut. +It kicks up a puff of dust.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...The Doctor has put an end to the conversation. You should leave.
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||<BGM>GF_2022_Summer_AVG_4</BGM>:But then he started talking to me again. +I haven't achieved my aim yet, so why should I go?
-()<Speaker>Erma</Speaker>||:<color=#66CDAA>...I have a feeling this is the only woman who can make you eat dirt.</color>
-()<Speaker>Reinette</Speaker><Position>0,60</Position>||:<color=#66CDAA>Shut up!!!</color>
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...Because this is our place!
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Oh? But we're in wartime.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:What are you getting at?
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:What's the point of rules when the world is upside down? All I care about is doing what I want to do, and doing it well.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><Shake>||:<size=50>Why, you!</size>
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Now be a good girl and tell me where he's stormed off to. +I'm going after him.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||<SE1>ClothingUp</SE1>:...Erma! Draw your weapon!
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||<SE1>AVG_weapon_reload</SE1>:<size=50>I'm! Throwing! This! Bitch! Out!</size>
-ColtWalker(7)<Speaker>Maggie Ponzi</Speaker><Position>0,210</Position>||:Tut-tut. Are the local gangs so bad-mannered?
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Maggie snickers at the guns which are poised to blow her head off. She beckons leisurely at the Dolls behind her.
-()||<黑点1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Hit</SE1><震屏3>:（ドン――）+部屋のドアは力強く閉められ、その振動で天井からホコリが落ちてきた。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:……今日のお話はここまでです。どうぞお引き取りください。
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||<BGM>GF_2022_Summer_AVG_4</BGM>:前回もこうだったが、結局話に応じたではないか。+私は目的が達成されるまで帰らない。
+()<Speaker>エルマ</Speaker>||:<color=#66CDAA>……こういうやつが一番苦手そうだね。</color>
+()<Speaker>レネット</Speaker><Position>0,60</Position>||:<color=#66CDAA>黙りなさい！！！</color>
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:……ここは私たちの縄張りです！
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:でも、今は戦乱の時代だ。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:どういう意味ですの？
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:戦乱の時代にルールもクソもないってことだ。//n私は私のやりたいことをするだけ。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position><Shake>||:<size=50>あなた！</size>
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:さて、博士はどこに行ったんだ？+探しに行かなくちゃ。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||<SE1>ClothingUp</SE1>:……エルマ、銃をとりなさい！
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||<SE1>AVG_weapon_reload</SE1>:<size=50>この女を、今すぐ追い出せ！</size>
+ColtWalker(7)<Speaker>マギー・ポンジ</Speaker><Position>0,210</Position>||:やれやれ、これじゃただのヤクザだ。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:銃を突きつけられても、マギーは一向に余裕の笑みを崩さず、//n周りの人形に軽く手を振った。
+()||<黑点1>:

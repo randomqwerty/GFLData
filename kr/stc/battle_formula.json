@@ -5372,6 +5372,10 @@
     "formula": "@dodge*0.25"
   },
   {
+    "id": 2455,
+    "formula": "0"
+  },
+  {
     "id": 3001,
     "formula": "170+sbuffidtier(3300)*22"
   },
@@ -14710,6 +14714,66 @@
   {
     "id": 7054,
     "formula": "tbuffidtier(5321)*(1-#def/#maxdef)+$1"
+  },
+  {
+    "id": 8501,
+    "formula": "tbuffidtier(580601)>0?1:0"
+  },
+  {
+    "id": 8502,
+    "formula": "tbuffidtier(580701)>0?1:0"
+  },
+  {
+    "id": 8503,
+    "formula": "#armor>0?#Maxlife/#gunnumber0.06:#Maxlife/#gunnumber*0.03"
+  },
+  {
+    "id": 8504,
+    "formula": "#armor>0?#Maxlife/#gunnumber0.06:#Maxlife/#gunnumber*0.03"
+  },
+  {
+    "id": 8505,
+    "formula": "#armor>0?#Maxlife/#gunnumber0.06:#Maxlife/#gunnumber*0.03"
+  },
+  {
+    "id": 8506,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8507,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8508,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8509,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8510,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.1:#Maxlife/#gunnumber*0.05"
+  },
+  {
+    "id": 8511,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.1:#Maxlife/#gunnumber*0.05"
+  },
+  {
+    "id": 8512,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.1:#Maxlife/#gunnumber*0.05"
+  },
+  {
+    "id": 8513,
+    "formula": "@armor>0?@Maxlife/@gunnumber*2*sbuffidtier(580901)/100:@Maxlife/@gunnumber*sbuffidtier(580901)/100"
+  },
+  {
+    "id": 8514,
+    "formula": "sbuffidtier(580603)"
+  },
+  {
+    "id": 8515,
+    "formula": "sbuffidtier(580601)>0?1:0"
   },
   {
     "id": 9001,

@@ -1,253 +1,253 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><BIN>269</BIN><黑点2>:... +A breeze blows through the garden, rustling the foliage and sending petals flying. A handful land lightly on Erma's hair.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Hume_FourAdventures</BGM>:Erma moves her limbs gingerly and sits up on the ground. +The mechanical monsters that were ganging up on her have finally disappeared.
-Erma(15)<Speaker>Erma</Speaker>||:Oww...
-()<Speaker></Speaker>||:She clambers to her feet and looks around the garden in bemusement.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#66CDAA>You're as useless as you've always been.</color> +<color=#66CDAA>Can't even hold your own against this smattering of tin cans.</color>
-NPC_Stevens520(1);Erma(19)<Speaker>Erma</Speaker>||:<color=#66CDAA>What's the deal with those Dolls that you sent? Why was I in there?</color>
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><通讯框>;Erma(19)||:<color=#66CDAA>I have all the data of Doctor Hume's creations, including yours.</color>
-NPC_Stevens520(0);Erma(23)<Speaker>Erma</Speaker>||:<color=#66CDAA>...Mother trusts you too much!</color>
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><通讯框>;Erma(23)||:<color=#66CDAA>Doctor Hume could tell who's reliable.</color>
-NPC_Stevens520(0);Erma(19)<Speaker>Erma</Speaker>||:<color=#66CDAA>Where are you?</color>
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><通讯框>||:<color=#66CDAA>Go through the garden and down the path with hedge arches, then follow the direction that the white statues are pointing at and go through the maze.</color>
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><BIN>269</BIN><黑点2>:……+庭園の中を風が吹き抜ける。散らばる木の葉と花びらが、//nエルマの頭上に落ちる。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Hume_FourAdventures</BGM>:エルマは地面からゆっくりと起き上がって、手足を動かしてみた。+先ほどまで自分と戦っていたロボや人形たちは、//n勝手にどこかへ行ったようだ。
+Erma(15)<Speaker>エルマ</Speaker>||:痛い……
+()<Speaker></Speaker>||:エルマは庭園の中を茫然と見渡す。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#66CDAA>相変わらずですね。</color>+<color=#66CDAA>こんな相手にも勝てないなんて。</color>
+NPC_Stevens520(1);Erma(19)<Speaker>エルマ</Speaker>||:<color=#66CDAA>なに？　あの人形たちは？　なんであたしも入ってたの？</color>
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><通讯框>;Erma(19)||:<color=#66CDAA>ヒューム博士の作品のデータをすべて所有していますので。//nもちろん、あなたのデータも。</color>
+NPC_Stevens520(0);Erma(23)<Speaker>エルマ</Speaker>||:<color=#66CDAA>……そんなにお母さまに信頼されているんだ。</color>
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><通讯框>;Erma(23)||:<color=#66CDAA>ヒューム博士なら、一番しっかりした子を分かっていますので。</color>
+NPC_Stevens520(0);Erma(19)<Speaker>エルマ</Speaker>||:<color=#66CDAA>どこにいるの？</color>
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><通讯框>||:<color=#66CDAA>道なりに進んで、白い彫像の指さす方向に従って迷路を抜けてください。</color>
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>534</BIN><SE1>AMB_Garden_Loop</SE1>:Following the Doll's instructions, Erma finally meets her in person a little over ten minutes later.
-Erma(17)<Speaker>Erma</Speaker>||:There you are.
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:On the soft grassy lawn is a beautiful white picnic bench made from solid wood, on which a girl in a purple dress is sipping a cup of tea. She rings the dainty handbell on the bench with a graceful flick of her wrist. 
-Erma(19)<Speaker>Erma</Speaker>||<SE1>Stop_AVG_loop</SE1>:You summoned me all the way here just to give me a beating?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I wouldn't have gone to so much trouble for such a stupid reason.
-Erma(19)<Speaker>Erma</Speaker>||:So what's this all about?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Just wanted to give your body a check-up to make sure you can handle what's to come.
-Erma(19)<Speaker>Erma</Speaker>||:Are you doing this... because Mother asked you to?
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens M520 puts down her teacup and finally looks Erma in the eye.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:First of all, your Mother is dead.
-Erma(17)<Speaker>Erma</Speaker>||:...
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Secondly, stop referring to Doctor Hume as "Mother". That's a distinctly human behavior. +Dolls have no use for such unnecessary sentiments. +So please also stop calling me your "sister".
-Erma(13)<Speaker>Erma</Speaker>||:...
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Do you understand?
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:...I understand. +You hate Mother, and you hate me.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(13)||:... +I don't hate him. I just don't see the point in using this form of address.
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:Oh, so you do hate me.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(13)||:... +The reason I summoned you here is to gain access to the real "Summer Garden". +Then we will both get what we want.
-NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:You said I could save the Commander...
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(17)||:Yes, you will find the key to saving the Commander in there. +While I will find the kind of world that my heart desires.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:...And what does your heart desire?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(17)||:It's a secret.
-Erma(19)<Speaker>Erma</Speaker>||:...You're such a tease.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Enough chit-chat. +Natalie!
-()<Speaker>???</Speaker>||:I'm here, miladies.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:A calm and soothing voice speaks from within the thicket. After some rustling, a white-haired maid emerges. She walks toward Erma and 520 while cleaning her hands with a handkerchief.
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Lady 9, how may I help you? Natalie is here at your service.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Erma is back.
-()<Speaker></Speaker>||:The maid named Natalie turns to look at Erma with a happy smile.
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:How splendid... +Lady 0, you have finally returned to the Summer Garden. +It is an honor to see you again.
-Erma(17)<Speaker>Erma</Speaker>||:Lady 0?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:That's how Natalie has always addressed you. +Natalie, you know what's going on. She's lost her memory. Again.
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:I understand. +Please don't be alarmed, Lady 0. I am Natalie. I have been caring for you all this time, but it doesn't matter even if you don't remember me. +Just treat me as an ordinary maid and I will do your bidding.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Save the small talk, Natalie. Let's start executing Doctor Hume's will and testament. Lead us to the Great Palace.
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Yes, milady. Please follow me.
-()<Speaker></Speaker>||:Natalie, who seems very familiar with this process, leads Erma toward the lavishly decorated mansion with great patience.
+()<Speaker></Speaker>||<黑点2><BIN>534</BIN><SE1>AMB_Garden_Loop</SE1>:十数分ほどかけて音声の指示に従い、エルマは声の主と対面できた。
+Erma(17)<Speaker>エルマ</Speaker>||:ここにいたんだ。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:青い芝生の上に白い木製のテーブルを広げて、紫色のドレスを//n身に纏った少女が、優雅に紅茶を嗜んでいた。
+Erma(19)<Speaker>エルマ</Speaker>||<SE1>Stop_AVG_loop</SE1>:あたしをボコるためにわざわざ呼んだの？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:そんなくだらないことのためなら、ここまでする必要はありません。
+Erma(19)<Speaker>エルマ</Speaker>||:だったらなんのため？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:あくまでも、素体の状態をチェックしてみただけです。//nこれからのことに対応できるかどうかも含めて。
+Erma(19)<Speaker>エルマ</Speaker>||:それは……お母さまに言われてやっているの？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens520はコップをテーブルに置き、エルマに視線を向ける。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:まず、あなたの「お母さん」はすでに死んでいます。
+Erma(17)<Speaker>エルマ</Speaker>||:……
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:そして、もうヒューム博士を「お母さま」と呼ばないでください。//nそれは人間にしかありえない行為です。+人形には、そのようなものは必要ありません。+なので、私のことも「姉」や「妹」なんて呼ばないで欲しいのです。
+Erma(13)<Speaker>エルマ</Speaker>||:……
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:分かりました？
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(13)<Speaker>エルマ</Speaker>||:……分かった。+あなたはお母さまのことも、あたしのことも嫌いなのね。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(13)||:……+博士のことは嫌っていません、ただそういう呼び方が必要ないだけです。
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(13)<Speaker>エルマ</Speaker>||:あたしのことは嫌っているんだ。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(13)||:……+あなたをここに呼んだ理由は、本物の「夏の庭園」を開くためです。+そこで私たちは、私たちの欲しいものを手に入れます。
+NPC_Stevens520(1)<Position>0,60</Position>;Erma(17)<Speaker>エルマ</Speaker>||:それで指揮官を助けられると……
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(17)||:その通りです。あなたは指揮官を助けることができるものを手に入れます。+そして私は、私の欲しい世界を。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>エルマ</Speaker>||:……それは一体何なの？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(17)||:秘密です。
+Erma(19)<Speaker>エルマ</Speaker>||:……ずるい。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:話はここまで。+ニダリー！
+()<Speaker>？？？</Speaker>||:はい、お嬢さま方。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:庭園の奥の方から落ち着いた女性の声がして、足音と共に、//n一人の白髪のメイドが現れた。
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:9番お嬢さま、なんなりとお申し付けください。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:エルマが帰ってきました。
+()<Speaker></Speaker>||:ニダリーという名のメイドは、エルマの顔をじっと見つめ、//n微笑みを浮かべた。
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:お久しぶりでございます……+0番お嬢さま、また夏の庭園にお戻りになられたのですね。+このニダリー、今一度お嬢さまと再会でき、誠にありがたき幸せに存じます。
+Erma(17)<Speaker>エルマ</Speaker>||:0番お嬢さま？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ニダリーはずっとそういう風にあなたを呼んでいたのですよ。+ニダリー、彼女はまた記憶を失っています、いつものことですけど。
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:ええ、存じております。+0番お嬢さま、どうかご緊張なさらずに。わたくしニダリーは、//nかねてよりお嬢さまのお世話をさせていただいている者です。+わたくしのことは、無理に思い出す必要はありません。あくまでも//n普通の使用人として、なんなりとわたくしにお申し付けください。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:挨拶はこれぐらいにしておきましょう。ニダリー、ヒューム博士の//n遺言通りに始めましょう。まずは「大宮殿」ヘ。
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:かしこまりました、お嬢さま方。どうぞこちらへ。
+()<Speaker></Speaker>||:ニダリーは親切丁寧に、エルマを洋館の中へ案内した。
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Gate_Close</SE1><黑点2><BIN>97</BIN><CGDelay>1</CGDelay>:
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Lady 0, this is the entrance hall on the first floor. The kitchen is to the west, while the elevator and guest room are to the east.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Don't waste time on giving her a tour.
-Erma(19)<Speaker>Erma</Speaker>||:Oh, c'mon! I came all the way here, so at least show me around a bit! +What if I end up having to stay for a while?!
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Don't worry, Lady 9, this won't take too long. +Lady 0, please allow me to take you to your favorite gallery.
-Erma(24)<Speaker>Erma</Speaker>||:Sure!
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:Ignoring Stevens M520's eye-roll, Erma skips after Natalie to the other end of the building.
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:0番お嬢さま、こちらは1階エントランスホールとなります。//n西の方はキッチン、東の方はエレベーターと客間になります。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:そういう紹介はしなくていいわ。
+Erma(19)<Speaker>エルマ</Speaker>||:嫌だよ、せっかく来たんだから。+これからここに住むかもしれないし！
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:……
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:ご安心ください、9番お嬢さま。簡単なご案内ですので、//nさほどお時間を頂きません。+0番お嬢さま、お嬢さまが以前一番お気に入りだった展示室にご案内いたしましょうか？
+Erma(24)<Speaker>エルマ</Speaker>||:うん！
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:呆れるStevens520を無視して、エルマはウキウキとニダリーについて行った。
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_Door_Open_Close</SE1>:Creeeak...
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_Door_Open_Close</SE1>:（ガシャ――）
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>276</BIN><BGM>GF_2022_Summer_AVG_2</BGM>:A cold and musty smell fills the air the moment the door is pushed open, which suggests that the room has been deserted for quite some time. +But it is obvious that everything has remained in its original position, and someone has been conscientiously preserving the room as it is.
-Erma(17)<Speaker>Erma</Speaker>||:... +Natalie, have you been tending to this place all the while?
-Erma(17);NPC-Maid(2)<Speaker>Natalie</Speaker>||:Yes, Lady 0.
-Erma(17)<Speaker>Erma</Speaker>;NPC-Maid(2)||:...It must have taken a lot of work.
-Erma(17);NPC-Maid(2)<Speaker>Natalie</Speaker>||:It's manageable. I am a professional maid, after all.
-Erma(17)<Speaker>Erma</Speaker>;NPC-Maid(2)||:Did I like it here?
-Erma(17);NPC-Maid(2)<Speaker>Natalie</Speaker>||:Very much. You were the one who picked out most of these displayed items. It was also you who decided on how they're to be displayed.
-Erma(13)<Speaker>Erma</Speaker>;NPC-Maid(2)||:I don't remember any of it.
-Erma(13);NPC-Maid(2)<Speaker>Natalie</Speaker>||:Would you like me to talk you through the collection?
-Erma(18)<Speaker>Erma</Speaker>;NPC-Maid(2)||:Yes, please!
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Then starting with the first exhibit on the left...
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Stop!
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><震屏3>:At the end of her rope, Stevens M520 slams the cabinet door that Natalie has just opened.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:At this rate, we'll be here for three days and three nights. You may have that kind of patience, but I don't.
-Erma(19)<Speaker>Erma</Speaker>||:Wow! You're so mean!
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Do you want your Commander to die or what?! +Head straight to the Great Palace, Natalie.
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:As you wish, Lady 9.
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:Still keeping her impeccably gracious smile, Natalie opens a bookcase and takes out a crystal globe from among the myriad of ornaments and taxidermy mounts. +A lone white stork is incarcerated within the globe, wading through the still water in a blue lake, its thoughts utterly inscrutable.
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Lady 0, please activate the "Summer Garden" within your neural cloud right here.
-Erma(17)<Speaker>Erma</Speaker>||:Huh? Aren't we supposed to head for the "Great Palace"?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:The "Palace" is just a designation. We need to activate the virtual Summer Garden here, then Natalie will unlock a special space known as the "Great Palace".
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Rest assured, Lady 0. We are currently in a safe and secure environment. +Please take this.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Natalie offers the crystal globe to Erma.
-Erma(17)<Speaker>Erma</Speaker>||:Why are you giving it to me?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:We can only enter the Summer Garden when we are in your physical presence. +The Summer Garden in its entirety, not just a labyrinth locked behind door after door. +And to do that, we need a medium. This crystal globe is the medium.
-Erma(17)<Speaker>Erma</Speaker>||:So this is why you needed me to come all the way here? Only I can grant you full access to the Summer Garden?
-NPC-Maid(2)<Speaker>Natalie</Speaker>||:Yes, Lady 0. +You are the mistress of the Summer Garden.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Erma, are you ready?
-Erma(13)<Speaker>Erma</Speaker>||:I'm ready.
-()<Speaker></Speaker>||:Erma takes the ornament from Natalie.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:You loved this crystal globe a lot.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:I did?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(17)||:Yes.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>Erma</Speaker>||:...
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Find a random anchor point and activate the Summer Garden.
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:Click. +Erma hears the sound of a lock being disengaged in her neural cloud.
-()<Speaker></Speaker>||<白屏2><SE1>AVG_magic_circle_start</SE1>:A blinding white light fills her vision.
-Erma(13)<Speaker>Erma</Speaker>||:What is it? +The key... An anchor point...
-Erma(17)<Speaker>Erma</Speaker>||:...Oh right, his name... +Arthur Hume.
+()<Speaker></Speaker>||<黑点2><BIN>276</BIN><BGM>GF_2022_Summer_AVG_2</BGM>:ドアを開けた瞬間、室内に溜まっていた埃があふれ出てきた。//nどうやら、この部屋はかなり長い間使われていなかったみたいだ。+ただそれでも、誰かがこの部屋を、なんとか//n元のまま維持しようとしていた痕跡が見られる。
+Erma(17)<Speaker>エルマ</Speaker>||:……+ニダリー、この部屋、ずっとあなたが片付けていたの？
+Erma(17);NPC-Maid(2)<Speaker>ニダリー</Speaker>||:はい、0番お嬢さま。
+Erma(17)<Speaker>エルマ</Speaker>;NPC-Maid(2)||:……大変だったでしょう？
+Erma(17);NPC-Maid(2)<Speaker>ニダリー</Speaker>||:いいえ、このニダリーにとって、お安い御用でございます。
+Erma(17)<Speaker>エルマ</Speaker>;NPC-Maid(2)||:あたし、ここが好きだったの？
+Erma(17);NPC-Maid(2)<Speaker>ニダリー</Speaker>||:はい、この部屋に置いてある物も、間取りも、全てお嬢さまが決めたものです。
+Erma(13)<Speaker>エルマ</Speaker>;NPC-Maid(2)||:全然覚えていない……
+Erma(13);NPC-Maid(2)<Speaker>ニダリー</Speaker>||:では、ご紹介いたしましょうか？
+Erma(18)<Speaker>エルマ</Speaker>;NPC-Maid(2)||:お願い！
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:ではまずこちらから――
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ストップ！
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><震屏3>:堪忍袋の緒が切れたStevens520は、二人の間に割り込んだ。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:このままだといくら時間があっても足りませんわ！
+Erma(19)<Speaker>エルマ</Speaker>||:なんだよ、ひどい！
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:指揮官が助からなくてもいいんですの？+ニダリー、このまま「大宮殿」ヘ行きますわよ！
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:仰せのままに、9番お嬢さま。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:何一つ変わらない笑みを浮かべながら、ニダリーは部屋の本棚から、//n水晶玉を一つ手に取った。+水晶玉の中には、1羽のシュバシコウが青い湖に佇む//n細かい彫り細工が施されていた。
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:0番お嬢さま、こちらでメンタル「夏の庭園」を起動してください。
+Erma(17)<Speaker>エルマ</Speaker>||:え？　「大宮殿」に行くんじゃなかったの？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:「大宮殿」はただのコードネームです。//nここで電子空間「夏の庭園」を起動し、その中でニダリーが、//n特殊空間「大宮殿」を開くのです。
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:ここは安全です、どうかご安心ください。+0番お嬢さま、どうぞ、お願いいたします。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:そしてニダリーは水晶玉をエルマに差し出す。
+Erma(17)<Speaker>エルマ</Speaker>||:なんであたしに？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:本来の夏の庭園は、あんなロックだらけの迷宮ではありません。+あなたと一緒じゃなければ、私たちはそこに入ることができません。+そのためには媒介が必要です。この水晶玉が今、媒介になっています。
+Erma(17)<Speaker>エルマ</Speaker>||:それがあたしを呼んだ理由なの？//nあたしでしか、本来の夏の庭園を起動できないということ？
+NPC-Maid(2)<Speaker>ニダリー</Speaker>||:その通りです、0番お嬢さま。+「夏の庭園」の主は、0番お嬢さまでございます。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:エルマ、準備はいいですか？
+Erma(13)<Speaker>エルマ</Speaker>||:うん、準備できた。
+()<Speaker></Speaker>||:エルマはニダリーから水晶玉を受け取った。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:これもあなたのお気に入りでした。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>エルマ</Speaker>||:あたしの？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(17)||:ええ。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(13)<Speaker>エルマ</Speaker>||:……
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:どのアンカーポイントでも構いません、夏の庭園を起動してください。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:（カチャッ――）+メンタルの中で、鍵が開く音がした。
+()<Speaker></Speaker>||<白屏2><SE1>AVG_magic_circle_start</SE1>:白い光が、周りを包む――
+Erma(13)<Speaker>エルマ</Speaker>||:なにがいいんだろう？+鍵……アンカーポイント……
+Erma(17)<Speaker>エルマ</Speaker>||:……そうだ、名前――+アーサー・ヒューム。
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><回忆><SE1>AVG_keyboardtype_sci</SE1><SE1>AVG_House</SE1>:...It is a familiar room. +The curtains are open, and the room is awash with the afternoon sun. +A blurry figure, backlit by the sunshine, is standing by the bookcase.
-()<Speaker>Arthur Hume</Speaker>||:...Many animals went extinct after that disaster. +All that's left behind were specimens. This is a specimen of a stork chick.
-Erma(17)<Speaker>Erma</Speaker>||:Is... is it dead?
-Erma(17)<Speaker>Arthur Hume</Speaker><同时置暗>||:Yes, this bird died of radiation poisoning before it was made into a specimen.
-Erma(15)<Speaker>Erma</Speaker>||:... +Then... +Will you die too?
-Erma(15)<Speaker>Arthur Hume</Speaker><同时置暗>||:All men must die. Someday in the future, I, too, shall die.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The indistinct figure reaches out to pat her head.
-()<Speaker>Arthur Hume</Speaker>||:Every human lives but once, and their souls descend on a journey towards death. +Just like sand in an hourglass flowing from one end to another.
-Erma(15)<Speaker>Erma</Speaker>||:What about me? Will I die?
-Erma(15)<Speaker>Arthur Hume</Speaker><同时置暗>||:You are my daughter, my undying daughter. +As long as you live, so will I.
+()<Speaker></Speaker>||<白屏2><回忆><SE1>AVG_keyboardtype_sci</SE1><SE1>AVG_House</SE1>:……見覚えのある部屋。+窓のカーテンは開いたまま、午後の暖かい光が存分に部屋の中を照らしていた。+そして一人、ぼんやりとした影が、本棚の前に立っていた。
+()<Speaker>アーサー・ヒューム</Speaker>||:……あの災難以降、いろんな動物が絶滅した。+我々に残されたのは標本だけ。そしてこれが、//nシュバシコウの幼鳥の標本なんだ。
+Erma(17)<Speaker>エルマ</Speaker>||:もう……生きていないの？
+Erma(17)<Speaker>アーサー・ヒューム</Speaker><同时置暗>||:ああ、標本にされる前に、過剰な放射線を浴びて死亡したからな。
+Erma(15)<Speaker>エルマ</Speaker>||:……+じゃあ……+あなたも、死ぬの？
+Erma(15)<Speaker>アーサー・ヒューム</Speaker><同时置暗>||:人は皆死ぬ。私も、いつかは。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ぼんやりとした影がエルマの頭を撫でた。
+()<Speaker>アーサー・ヒューム</Speaker>||:人は皆、死に向かって生きている。+砂時計の砂のように、端から端に落ちていく。
+Erma(15)<Speaker>エルマ</Speaker>||:それじゃあたしは？　あたしも、死ぬの？
+Erma(15)<Speaker>アーサー・ヒューム</Speaker><同时置暗>||:君は私の娘、死ぬことのない私の娘。+君が生きている限り、私も生き続ける。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<bg_move>%%pivot_x=0.4%%pivot_y=0.4%%scale=1.5%%duration=0%%</bg_move><黑屏2><回忆><BIN>168</BIN><SE1>ClothingUp</SE1>:Hume hands Erma a gun.
-()<Speaker>Arthur Hume</Speaker>||:Your name is also the name of this gun.
-Erma(17)<Speaker>Erma</Speaker>||:...Erma Maschinenpistole. Erma EMP.
-Erma(17)<Speaker>Arthur Hume</Speaker><同时置暗>||:Walk further. Further away. +50 meters... No, 100.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma nods obediently.
-()<Speaker>Arthur Hume</Speaker>||:Very good... Now, we'll play this game a different way. +Now you will shoot me.
-Erma(14)<Speaker>Erma</Speaker>||:Alright.
-()<Speaker></Speaker>||:Erma acts like she's actually playing a game.
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:She takes up her gun, like "Mother" once taught her.
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.4%%pivot_y=0.4%%scale=1.5%%duration=0%%</bg_move><黑屏2><回忆><BIN>168</BIN><SE1>ClothingUp</SE1>:ヒュームはエルマに銃を渡す。
+()<Speaker>アーサー・ヒューム</Speaker>||:この銃の名前は、君の名前でもある。
+Erma(17)<Speaker>エルマ</Speaker>||:……Erma EMP。
+Erma(17)<Speaker>アーサー・ヒューム</Speaker><同时置暗>||:もっと、もっと遠くだ。+50メートル……いや、100メートル離れてくれ。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:エルマは大人しくそれに従った。
+()<Speaker>アーサー・ヒューム</Speaker>||:それでいい……今回は、遊び方を変えよう。+今回は、君がそれを撃つ。
+Erma(14)<Speaker>エルマ</Speaker>||:うん。
+()<Speaker></Speaker>||:エルマは、それをただのゲームだと捉えていた。
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:銃を持ち上げて、かつて「お母さま」が自分にしたのと同じように。
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_rifle_finalshot_n</SE1><震屏3>:Bang— +It is a precise shot that pierces his chest.
-()<Speaker>Arthur Hume</Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1>:Ugh...
-()<Speaker></Speaker>||:Blood gushes out of Hume's body.
-()<Speaker>Arthur Hume</Speaker>||:I'm sorry... You're free, Erma.
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_The_Division_Grenade_Explosion</SE1>:Boom— +Like a massive firework, he erupts in the dark, wet alley. +Blood and gunpowder stain Erma's face. +It dyes the filthy ground red. +All that's left is her, sitting on the ground, her wide eyes staring at the darkened sky...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_rifle_finalshot_n</SE1><震屏3>:（銃声）+精確に、彼の胸を撃ち抜いた。
+()<Speaker>アーサー・ヒューム</Speaker>||<SE1>AVG_Bullet_Hit_Body</SE1>:くっ……
+()<Speaker></Speaker>||:大量の血が、ヒュームの体から溢れ出る。
+()<Speaker>アーサー・ヒューム</Speaker>||:すまない……これで君は自由だ、エルマ。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake><SE1>AVG_The_Division_Grenade_Explosion</SE1>:（爆発）+暗い路地の中、ヒューム博士は花火のように爆ぜた。+火薬の匂いの混ざった血が、エルマの顔まで飛び散る。+あたり一帯の地面が、赤く染まる。+エルマ一人だけがその場に崩れ座り、茫然としながら//n暗澹とした空を見上げた……
 ()<Speaker></Speaker>||<bg_move>%%pivot_x=0.4%%pivot_y=0.55%%scale=1.5%%duration=1.5%%</bg_move><CGDelay>1</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.2%%duration=0%%</bg_move><关闭蒙版>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Hume_TheCircularRuins</BGM><黑屏2><BIN>534</BIN>:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Natalie gently wipes away the tears streaming down Erma's face.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Lady 0, please don't be sad.
-Erma(16)<Speaker>Erma</Speaker>||:Mother died... +It was me... +I killed him...
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...If he hadn't wanted to die, he wouldn't have.
-Erma(16)<Speaker>Erma</Speaker>||:...
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Lady 9 is absolutely right. +Doctor Hume would not have let himself get killed so easily. +Especially not by you. Lady 0, he would never turn you into a murderer.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma takes Natalie's offered handkerchief to dry her tears, then she finally looks up and does a double take.
-Erma(17)<Speaker>Erma</Speaker>||:Natalie...? +What happened to you?
-()<Speaker></Speaker>||:Natalie's appearance has become visibly much younger.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:The Summer Garden in Frankfurt is just a replica of this place. +This is the virtual space that Doctor Hume had constructed for his creations—our real home.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:So... Natalie...?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(17)||:Humans can't enter this place. +This is a 25-year-old Natalie that Doctor Hume created. +You know, a string of code.
-Erma(17)<Speaker>Erma</Speaker>||:...
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Lady 0, please let me know if you need any help. Natalie is a most capable maid.
-Erma(15)<Speaker>Erma</Speaker>||:I'm sorry, I don't remember anything at all...
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(15)||:Doctor Hume gave me an important mission but transferred the Summer Garden's authorizations to you. +So you must be present if we are to find whatever Doctor Hume has left behind.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>Erma</Speaker>||:What have you been up to then? Were Mother and I the only ones in the Summer Garden when you left?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(17)||:I am a Doll custom-built for the military to carry out secret missions. +When I left the Summer Garden, it was only you, Doctor Hume, and Natalie. By the time I came back, none of you were there anymore. +I reactivated the Natalie here. +After that, I managed to track down the real Natalie, who had stayed in Frankfurt all this time. +Then I made contact with you and AR-18.
-NPC_Stevens520(0)<Position>0,60</Position>;Erma(15)<Speaker>Erma</Speaker>||:By then... Mother had already died...
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;Erma(15)||:Since he's dead, we should inherit his legacy.
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Natalie, please activate the Great Palace.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Yes, miladies. +Now please allow your humble servant to unlock the most grandiose building in this world—the Great Palace!
+()<Speaker></Speaker>||<BGM>BGM_Hume_TheCircularRuins</BGM><黑屏2><BIN>534</BIN>:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ニダリーは優しくハンカチでエルマの目じりの涙をふく。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:0番お嬢さま、どうか悲しまないでください。
+Erma(16)<Speaker>エルマ</Speaker>||:お母さまは死んだ……+あたしが……+あたしが殺した……
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:……そう望んだから、死んだのです。
+Erma(16)<Speaker>エルマ</Speaker>||:……
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:9番お嬢さまの言う通りです。+ヒューム博士は、簡単に誰かに殺されるような方ではございません。+そして、0番お嬢さまを殺人犯にすることもございません。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:エルマはニダリーからハンカチを受け取る。
+Erma(17)<Speaker>エルマ</Speaker>||:ニダリー……？+なんか、変わってる……？
+()<Speaker></Speaker>||:気づけばニダリーはいつの間にか若くなっていた。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:フランクフルトの庭園は、ここを真似しただけの建物です。+ヒューム博士がその作品のために創り上げたバーチャル空間、//nこここそが本物の夏の庭園であり、私たちの家です。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>エルマ</Speaker>||:その……今のニダリーは？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(17)||:人間はここに入ることができません。+今ここにいるのは、ヒューム博士が作った25才の時のニダリーです。+つまり、ただのデータです。
+Erma(17)<Speaker>エルマ</Speaker>||:……
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:0番お嬢さま、このニダリーに、何なりとお申し付けください。
+Erma(15)<Speaker>エルマ</Speaker>||:ごめん、何も覚えてなくて……
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(15)||:ヒューム博士は一番大事な任務を私に、夏の庭園の権限を//nあなたに任せました。+なので、ヒューム博士の残したものを見つけるためには、//nあなたが同じ場にいなくてはいけません。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(17)<Speaker>エルマ</Speaker>||:あなたは何をしてたの？//n夏の庭園には、あたしとお母さましかいなかったの？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(17)||:私は軍のオーダーメイド人形です。受けた任務もすべて極秘でした。+私が任務のために夏の庭園を離れた時は、あなたとヒューム博士と//nニダリーしかいませんでした。そして私が戻ってきた頃は、//nもう誰もいませんでした。+このニダリーも、私が再起動したものです。+その後でようやく、私はフランクフルトで//nニダリー本人を見つけることができました。+あなたとAR-18に連絡したのも、それらが全部終わった後のことです。
+NPC_Stevens520(0)<Position>0,60</Position>;Erma(15)<Speaker>エルマ</Speaker>||:ってことは、あなたが戻ってきた時、お母さまはもう……
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>;Erma(15)||:博士が死んだ以上、私たちが彼の成果を受け継ぐべきです。
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ニダリー、「大宮殿」を起動してください。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:かしこまりました。+それでは、今よりこの世で最も美しい建造物――「大宮殿」を起動してご覧に入れましょう！
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_door_storehouse</SE1><controll_shake>%%type_id=2%%duration=6%%delay=0.1%%range=5</controll_shake>:Rumble... +Erma looks up and notices that on the distant horizon, a resplendent palace has appeared in the green woods out of nowhere, its golden roof glimmering brightly in the sunlight. +There are countless windows on each level of the palace, but one cannot see clearly into the rooms through the windows from this distance. The palace almost looks as if it's been completely filled with fog on the inside.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Please look over there. That is the Great Palace.
-Erma(23)<Speaker>Erma</Speaker>||:It's beautiful... +Oh right, I should give AR-18 a status report.
-Erma(19)<Speaker>Erma</Speaker>||:A transmission error?
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Lady 0, when the Great Palace is activated, the Summer Garden automatically blocks out all signals. No contact with the outside world is possible.
-Erma(19)<Speaker>Erma</Speaker>||:...
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Doctor Hume's legacy is in there.
-Erma(17)<Speaker>Erma</Speaker>||:What exactly is it? Do you know?
-NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:We are his creations. We should find the answer ourselves.
-()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1>:Stevens M520 pushes open the metal gates leading into the garden and strides into the verdant greenery.
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_door_storehouse</SE1><controll_shake>%%type_id=2%%duration=6%%delay=0.1%%range=5</controll_shake>:（ゴゴゴ――）+遠くの地平線から、日の光をキラキラと反射する煌びやかな宮殿が、//n緩やかに昇ってきた。+宮殿には無数の窓があるが、窓からその中を見ることはできない。//nまるで、宮殿の中が霧に包まれているみたいだ。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:そちらが大宮殿になります。
+Erma(23)<Speaker>エルマ</Speaker>||:キレイ……+そうだ、AR-18に報告しないと！
+Erma(19)<Speaker>エルマ</Speaker>||:……あれ？　なんで通信できないの？
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:0番お嬢さま、大宮殿起動後、夏の庭園はすべての信号を//nシャットアウトします。今は外と通信することができません。
+Erma(19)<Speaker>エルマ</Speaker>||:……
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ヒューム博士の残したものはその中にあります。
+Erma(17)<Speaker>エルマ</Speaker>||:それが何なのか知ってるの？
+NPC_Stevens520(0)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:私たちは彼の作品。その答えを、自分たちで見つけるべきです。
+()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1>:言いながら、Stevens520は庭園の門を開き、宮殿の方へ足を運んだ。
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>96</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:...Inside the Great Palace, the Summer Garden.
-()<Speaker></Speaker>||:Unlike the garden, which is in the image of natural and understated elegance, the Great Palace itself is a much more extravagant Baroque structure. The pure white walls in the great hall are covered in gilded reliefs of goddesses and ivy. All pillars are held up by more gilded sculptures of goddesses. +Looking up, the ceiling fresco depicts stories of the pantheon. +As Erma stands at the heart of this cavernous hall, she doesn't feel like she has come home. Rather, this place strikes her more as a stage.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Miladies, this is the reception hall of the Great Palace. It used to function as a ballroom as well.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;NPC-Maid(1)||:Where have all the tables and chairs gone? And what's the deal with these red drapes?
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:I'm not entirely sure. I am not authorized to enter the palace without Lady 0.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||<BGM>GF_2022_Summer_AVG_3</BGM>:This place has changed. Something doesn't feel right...
-Erma(17)<Speaker>Erma</Speaker>||:Because Mother's gone? +Like how the little elves started building their own world after losing their master in the fairy tales?
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake>:Whoosh! +The red drapes in the center of the hall fall to the ground, revealing a gigantic portrait.
-()<Speaker></Speaker>||:Natalie's eyes widen in disbelief.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Huh? That's...
+()<Speaker></Speaker>||<黑屏2><BIN>96</BIN><common_effect>%%code=CJ_WC_piaofu%%</common_effect>:……夏の庭園、大宮殿の中。
+()<Speaker></Speaker>||:ナチュラルな夏の庭園と違い、大宮殿の中は、//nとにかく贅を尽くした過剰な装飾が施されていた。壁面には複雑な//nツタの模様、天井には神々の神話をモチーフにした絵画があった。+さらに、この建物の柱一つ一つが、どれも金メッキの女神像になっていた。+これはもはや誰かの住処というよりは、一つの豪華な舞台のようだ。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:お嬢さま方、こちら大宮殿の迎賓館となります。//n以前は、ダンスホールとしても使用されていました。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>;NPC-Maid(1)||:テーブルや椅子はどこに？　それと、この赤い幕は何ですの？
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:申し訳ございませんが、わたくしにはよくわかりません。0番お嬢さまが//nいないと、わたくしには大宮殿に入る資格がありませんので。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||<BGM>GF_2022_Summer_AVG_3</BGM>:中の様子が変わっている……何か変ですね。
+Erma(17)<Speaker>エルマ</Speaker>||:お母さまがいなくなったから？+童話のように、主を失った妖精たちが、自分たちの世界を創り始めたとか？
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=3</controll_shake>:（スッ――）+二人が戸惑う中、ホール中央の赤い幕が突然落ち、その後ろに隠された//n巨大な絵画を露わにした。
+()<Speaker></Speaker>||:そしてその絵を見たニダリーは、驚きの表情を浮かべた。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:こ、これは……
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>690</BIN><黑屏2><CGDelay>1</CGDelay>:
-()<Speaker>Erma</Speaker>||:Who's that in the portrait?
-()<Speaker>Stevens M520</Speaker>||:... +That's Doctor Hume. +But this isn't a portrait. It's a wanted poster offering a bounty.
-()<Speaker>Erma</Speaker>||:Huh? Bounty? For Doctor Hume?
-()<Speaker></Speaker>||:Erma's eyes skim over the gold, jeweled picture frame, the handsome-looking man in the portrait, and fall right on the number written at the very bottom...
-()<Speaker>Erma</Speaker>||<震屏3>:<size=50>Offering a bounty of 10 million Sardis Gold!!!</size>
-()<Speaker>Stevens M520</Speaker>||:Who hung this wanted poster here?
-()<Speaker>???</Speaker>||:Her Majesty requested it himself.
-()<Speaker>Erma</Speaker>||<震屏>:Oh!
+()<Speaker>エルマ</Speaker>||:これ、誰の絵？
+()<Speaker>Stevens520</Speaker>||:……+ヒューム博士です。+ですがこれは、単なる絵ではなく指名手配書です。
+()<Speaker>エルマ</Speaker>||:え？　指名手配――ヒューム博士が？
+()<Speaker></Speaker>||:純金製フレームに収められていたのは、//n彫刻のように美しい男性の肖像画だった。//nしかし、その下に書かれている懸賞金の数字は――
+()<Speaker>エルマ</Speaker>||<震屏3>:<size=50>懸賞金1000万サルディスゴールド！！！</size>
+()<Speaker>Stevens520</Speaker>||:誰ですの、ヒューム博士の指名手配書をここに掛けたのは？
+()<Speaker>？？？</Speaker>||:国王陛下の命だ。
+()<Speaker>エルマ</Speaker>||<震屏>:え！？
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>96</BIN>:An unfamiliar girl appeared behind the Dolls without anyone noticing.
-NPC_Stevens620(0)<Speaker>???</Speaker><GradientShow>2</GradientShow><Position>-200,0</Position>||:Welcome, travelers. I am Mirabelle, a knight. +Archbishop Hume is now listed as wanted, and Her Majesty the King is offering 10 million Sardis Gold as bounty for his capture. +If the reward piques your interest, you are very welcome to take the poster and try your luck. I will give you all the help I can.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Hold on, aren't you... +Aren't you 620?
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:My dear Lady 27, it has been a long time.
-Erma(17)<Speaker>Erma</Speaker>||:Huh? Is this knight also one of Mother's children?
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Why are you here? How did you get in without Erma's authorization?
-NPC_Stevens620(1)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:As I said, I am Mirabelle, a knight. +I have been here since Her Majesty's reign began.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma can see Stevens M520's grimace. 
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:What kind of trick are you trying to pull this time?
-NPC_Stevens620(1)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:I am searching for heroes who have the bravery to pursue and capture Archbishop Hume. I would gladly offer them my aid.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Lady 0, Lady 27 seems a little odd.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I noticed.
-Erma(19)<Speaker>Erma</Speaker>||:I don't get anything she's saying. +Are there kings, archbishops, and knights in the Summer Garden? +And what is this Archbishop Hume wanted for?
-NPC_Stevens620(1)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Archbishop Hume swindled a billion Sardis Gold from Her Majesty's aide through Project "Pilot Whale", which makes him a wanted criminal.
-Erma(17)<Speaker>Erma</Speaker><Shake>||<震屏3><SE1>ClothingUp</SE1>:<size=50>One billion Sardis Gold?!!</size>
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:That's nonsense! Doctor Hume is from a high-born family! He'd never do such a thing!
-NPC_Stevens620(1)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:The evidence is indubitable. Archbishop Hume has absconded with the money. The sooner we capture him, the sooner we can undo the damage.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Could this be one of Doctor Hume's inside jokes? +I hear that many oddball scientists have a habit of adding elements of their own personal experience and some strange fantasies into their work. Maybe he made this into a sort of game we have to clear.
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Doctor Hume did have a twisted sense of humor... so you may very well be right.
-Erma(17)<Speaker>Erma</Speaker>||:So we need to follow this knight's instructions?
-NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Hey, what's your name again? Mirabelle? So we have to complete your task for the Summer Garden to revert back to normal?
-NPC_Stevens620(1)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Peasant Reinette, you do not possess the access clearance for me to answer that stupid question of yours.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Reinette? What's with this hillbilly name?
-Erma(17)<Speaker>Erma</Speaker>||:Oh, your name is now displayed as Reinette!
-NPC_Stevens520(2)<Speaker>Reinette</Speaker><Position>0,60</Position><Shake>||:<size=50>620, what the hell have you done?!</size>
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Her Majesty has recently watched a movie called "Quatre aventures de Reinette et Mirabelle" and was incredibly moved by the profound friendship between the two young women. +So I've named you and myself after them.
-NPC_Stevens520(2)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>Select</SE1><震屏3>:Reinette raises her Stevens M520. She fully intends to blow this high-and-mighty woman to smithereens.
-Erma(17)<Speaker>Erma</Speaker>||:Easy... Easy...
-Erma(13)<Speaker>Erma</Speaker>||:Damn, never thought I'd be the one to tell someone else to calm down!
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:... +You want us to catch this so-called "Archbishop Hume"?
-NPC_Stevens520(1)<Position>0,60</Position>;NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Yes.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>;NPC_Stevens620(0)<Position>-200,0</Position>||:What's in it for us?
-NPC_Stevens520(1)<Position>0,60</Position>;NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:You will be granted an audience with Her Majesty, during which you can make a wish.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:Any wish?
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Indeed.
-Erma(17)<Speaker>Erma</Speaker>||:Maybe that's how we track down Mother's legacy... +In that case, I'm taking this quest on.
-NPC_Stevens620(1)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Lady Erma, are you certain you would like to accept this quest and capture Archbishop Hume?
-Erma(24)<Speaker>Erma</Speaker>||:Yes.
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Understood. Her Majesty will reward you for your courage.
+()<Speaker></Speaker>||<黑点2><BIN>96</BIN>:気配もなく、一人の少女が三人の背後に現れた。
+NPC_Stevens620(0)<Speaker>？？？</Speaker><GradientShow>2</GradientShow><Position>-200,0</Position>||:ようこそ旅人の諸君、自分の名は騎士ミラベルだ。+ヒューム大主教は現在、国王陛下の命により、//n1000万サルディスゴールドの懸賞金で指名手配されている。+もし賞金に興味があるというのならば、自分も微力ながら協力しよう。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ちょっ、あなた――+Stevens620、何をしているんですか？
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:27番お嬢さま、お久しぶりでございます。
+Erma(17)<Speaker>エルマ</Speaker>||:え？　この人もお母さまの子？
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:どうしてここにいるの？　エルマと一緒でもないのに、//nどうやって入ってきたのです？
+NPC_Stevens620(1)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:もう一度言う、自分の名は騎士ミラベルだ。+自分は騎士として、常に国王陛下と共にある。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens520の表情がどこか歪み始めたとエルマは気づいた。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:今度はなんの茶番ですの？
+NPC_Stevens620(1)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:自分は今、ヒューム大主教を追ってくれる勇者を探している。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:9番お嬢さま、27番お嬢さまの様子が少し変でございます。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:分かっていますわ。
+Erma(19)<Speaker>エルマ</Speaker>||:なんの話？　ぜんぜん分からないよ。+夏の庭園に、国王とか大主教とか騎士とかがいたの？+そもそもなんでヒューム大主教が指名手配されているの？
+NPC_Stevens620(1)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:ヒューム大主教は「ゴンドウクジラ」プロジェクトという名目で、//n国宝陛下から10億サルディスゴールドの予算を騙し取った。//nそれ故指名手配されたのさ。
+Erma(17)<Speaker>エルマ</Speaker><Shake>||<震屏3><SE1>ClothingUp</SE1>:<size=50>10億サルディスゴールド！！！</size>
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ふざけたことを！　ヒューム博士は名門貴族の出身、//nそのようなことをするわけがありません！
+NPC_Stevens620(1)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:でも、証拠は確かだ。ヒューム博士はすでに金を巻き上げて//n雲隠れした。そのため早急に身柄を確保しなければならない。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:もしかしたら、これはヒューム博士のジョークかもしれません。+一部の科学者は、自分の経歴を脚色してゲームにする//nみたいな話を聞いたことがあります。
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:ヒューム博士の悪趣味さなら……その可能性は高いですね。
+Erma(17)<Speaker>エルマ</Speaker>||:じゃあ、今は騎士の言うことに従うの？
+NPC_Stevens520(1)<Speaker>Stevens520</Speaker><Position>0,60</Position>||:その、ミラベルとやら？　この依頼を完了しないと、//n夏の庭園は元に戻らないということですの？
+NPC_Stevens620(1)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:平民レネット、君の権限では、その愚かな質問に答えるには足りない。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:レネット？　なんなの、このダサい名前は？
+Erma(17)<Speaker>エルマ</Speaker>||:あ、表示がレネットになった。
+NPC_Stevens520(2)<Speaker>レネット</Speaker><Position>0,60</Position><Shake>||:<size=50>Stevens620！　一体何をしたんですの！</size>
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:国宝陛下は近頃、「レネットとミラベル」という映画に感銘を受けたので。+自分と君の名前を、二人の主人公と同じ名前にしたのさ。
+NPC_Stevens520(2)<Speaker>レネット</Speaker><Position>0,60</Position>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>Select</SE1><震屏3>:レネットは静かに、手に持ったStevens520を構えた。間違いなく、//n今目の前にいるふざけた女を粉砕しようしているのだろう。
+Erma(17)<Speaker>エルマ</Speaker>||:落ち着いて、落ち着いて……
+Erma(13)<Speaker>エルマ</Speaker>||:って、あたしが誰かを落ち着かせる日が来るなんて！
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:……+それで、依頼というのは、その「ヒューム大主教」を捕まえることですの？
+NPC_Stevens520(1)<Position>0,60</Position>;NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:その通り。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>;NPC_Stevens620(0)<Position>-200,0</Position>||:報酬は？
+NPC_Stevens520(1)<Position>0,60</Position>;NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:国王陛下に謁見し、どんな願いでも叶えてもらえる権利を得られる。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:どんな願いでも？
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:どんな願いでも。
+Erma(17)<Speaker>エルマ</Speaker>||:それならお母さまの残したものも……+この依頼、受けるよ。
+NPC_Stevens620(1)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:エルマさん、ヒューム大主教を追ってくれるのかい？
+Erma(24)<Speaker>エルマ</Speaker>||:はい。
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:分かった。国王陛下の名の下に、その勇気を讃えよう。
 ()||<黑点1><SE1>AVG_magic_circle_start</SE1>:
-()<Speaker></Speaker>||<黑点2>:The large portrait disappears into thin air.
-Erma(23)<Speaker>Erma</Speaker>||:But how are we supposed to find him?
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:That's up to you.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:As the one offering the bounty, you should at least provide some basic leads.
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:I would naturally provide Lady Erma, the one who took on the challenge, with a lead.
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:...
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:Lady Erma, here is the lead—the Fox Sisterhood.
-Erma(17)<Speaker>Erma</Speaker>||:What's that?
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:The name of a criminal syndicate specializing in scams.
-Erma(17)<Speaker>Erma</Speaker>||:Where can I find this syndicate?
-NPC_Stevens620(0)<Speaker>Mirabelle</Speaker><Position>-200,0</Position>||:That's for you to figure out yourself.
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Mirabelle raises her hand with the shark puppet. The puppet turns into a balloon and transports her away.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Miladies, this is as far as my authorizations allow me to go.
-NPC_Stevens520(0)<Speaker>Reinette</Speaker><Position>0,60</Position>||:That's fine, we'll handle it from here. +Just wait by the entrance of the hall.
-NPC-Maid(1)<Speaker>Natalie</Speaker>||:Yes, milady. Best of luck. +If there is anything I can do for you, please don't hesitate to let me know.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Natalie executes a perfect curtsy, then quietly backs away to the door, where she keeps watch over Erma and Reinette in silence.
-Erma(17)<Speaker>Erma</Speaker>||:What do we do now?
-NPC_Stevens520(1)<Speaker>Reinette</Speaker><Position>0,60</Position>||:What else can we do? We don't have any other clues, and the Summer Garden is a complete mess. +We'll just have to conduct a blanket search.
-Erma(17)<Speaker>Erma</Speaker>||:Right.
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2>:巨大な指名手配の肖像画が消えた。
+Erma(23)<Speaker>エルマ</Speaker>||:でも、どうやって探せばいいの？
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:それは君たち次第だ。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:指名手配を出したんだから、少しぐらい手がかりはあるんじゃないですの？
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:もちろん、この依頼を受けたエルマさんには、ちゃんと手がかりを提供するさ。
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:……
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:エルマさん、今ある唯一の手掛かりは、「フォックス・ソロリティ」だ。
+Erma(17)<Speaker>エルマ</Speaker>||:なにそれ？
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:とある詐欺集団の名前だ。
+Erma(17)<Speaker>エルマ</Speaker>||:どこで探せるの？
+NPC_Stevens620(0)<Speaker>ミラベル</Speaker><Position>-200,0</Position>||:それも君たち次第だ。
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:言いながらミラベルは、サメのパペットをつけた手を高く掲げた。//nサメのパペットは気球に変わり、そのままミラベルを//n空へと運んで行った。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:お嬢さま方、わたくしの権限ではここに留まることしかできません。
+NPC_Stevens520(0)<Speaker>レネット</Speaker><Position>0,60</Position>||:分かりました。あとのことは私たちに。+あなたはここで待ってなさい。
+NPC-Maid(1)<Speaker>ニダリー</Speaker>||:かしこまりました。+もしこのニダリーにできることがありましたら、//n何なりとお申し付けください。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ニダリーは深くお辞儀をすると一歩下がり、静かにエルマと//nレネットを見守った。
+Erma(17)<Speaker>エルマ</Speaker>||:で、どうするの？
+NPC_Stevens520(1)<Speaker>レネット</Speaker><Position>0,60</Position>||:どうもこうもありません。+他に手がかりがない以上、しらみつぶしでいくしかありません。
+Erma(17)<Speaker>エルマ</Speaker>||:うん、分かった。
+()||<黑点1>:

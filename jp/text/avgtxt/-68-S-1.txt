@@ -1,19 +1,19 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:The latest report has been transmitted. Please enter the keycode to unlock the report.
+()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:最新の報告です。問題の解答を入力し、ロックを解除してください。
 ()||<黑点1>:
-()<Speaker></Speaker>||<true>3</true><黑点2><BIN>9</BIN>:Keycode Question... +When a priest passes away, is he being promoted or demoted?<r>A. Promoted<r>B. Demoted<r>C. Transferred
+()<Speaker></Speaker>||<true>3</true><黑点2><BIN>9</BIN>:問題——+神父様が逝去した場合は昇進になりますか、それとも降職になりますか？<r>A 昇進<r>B 降職<r>C 転職
 ()||<黑点1><分支>2</分支><SE1>AVG_PPT_Switch</SE1>:
-()<Speaker>Erma</Speaker>||<BIN>687</BIN><分支>2</分支><黑点2>:<color=#66CDAA>87, 104, 101, 110, 32, 121, 111, 117, 32, 97, 114, 101, 32, 115, 99, 97, 114, 101, 100, 44, 32, 106, 117,</color> +<color=#66CDAA>115, 116, 32, 115, 104, 111, 117, 116, 32, 39, 69, 114, 109, 97, 33, 39, 32, 97, 110, 100, 32, 73, 32, 119, </color> +<color=#66CDAA>105, 108, 108, 32, 99, 111, 109, 101, 32, 116, 111, 32, 115, 97, 118, 101, 32, 121, 111, 117, 33</color>
-()<Speaker>Erma</Speaker>||<分支>2</分支>:<color=#66CDAA>Hello? Do you not understand what I just said? Of course you don't.</color> +<color=#66CDAA>It's all scrambled code.</color> +<color=#66CDAA>You only get to read the report if you answer the question correctly~</color>
+()<Speaker>エルマ</Speaker>||<BIN>687</BIN><分支>2</分支><黑点2>:<color=#66CDAA>87, 104, 101, 110, 32, 121, 111, 117, 32, 97, 114, 101, 32, 115, 99, 97, 114, 101, 100, 44, 32, 106, 117,</color>+<color=#66CDAA>115, 116, 32, 115, 104, 111, 117, 116, 32, 39, 69, 114, 109, 97, 33, 39, 32, 97, 110, 100, 32, 73, 32, 119, </color>+<color=#66CDAA>105, 108, 108, 32, 99, 111, 109, 101, 32, 116, 111, 32, 115, 97, 118, 101, 32, 121, 111, 117, 33</color>
+()<Speaker>エルマ</Speaker>||<分支>2</分支>:<color=#66CDAA>分からないって？　そりゃ分からないよ。</color>+<color=#66CDAA>全部ただの文字化けだから。</color>+<color=#66CDAA>正解しないと内容は見られないよ。</color>
 ()||<黑点1><分支>2</分支><SE1>AVG_PPT_Switch</SE1>:
 ()||<黑点1><分支>1</分支><SE1>AVG_PPT_Switch</SE1>:
-()<Speaker>Erma</Speaker>||<BIN>687</BIN><黑点2><分支>1</分支>:<color=#66CDAA>230, 136, 130, 229, 133, 176, 229, 186, 145, 231, 142, 139, 230, 149, 176, </color> +<color=#66CDAA>229, 155, 189, 229, 164, 150, 227, 128, 129, 228, 186, 148, 229, 145, 168, 228, 186, 148, 227, 128, 130</color> +<color=#66CDAA>50, 32, 43, 32, 55, 32, 61, 32, 57</color>
-()<Speaker>Erma</Speaker>||<分支>1</分支>:<color=#66CDAA>Hello? Do you not understand what I just said? Of course you don't.</color> +<color=#66CDAA>It's all scrambled code.</color> +<color=#66CDAA>You only get to read the report if you answer the question correctly~</color>
+()<Speaker>エルマ</Speaker>||<BIN>687</BIN><黑点2><分支>1</分支>:<color=#66CDAA>230, 136, 130, 229, 133, 176, 229, 186, 145, 231, 142, 139, 230, 149, 176, </color>+<color=#66CDAA>229, 155, 189, 229, 164, 150, 227, 128, 129, 228, 186, 148, 229, 145, 168, 228, 186, 148, 227, 128, 130</color>+<color=#66CDAA>50, 32, 43, 32, 55, 32, 61, 32, 57</color>
+()<Speaker>エルマ</Speaker>||<分支>1</分支>:<color=#66CDAA>分からないって？　そりゃ分からないよ。</color>+<color=#66CDAA>全部ただの文字化けだから。</color>+<color=#66CDAA>正解しないと内容は見られないよ。</color>
 ()||<黑点1><分支>1</分支><SE1>AVG_PPT_Switch</SE1>:
 ()||<黑点1><分支>3</分支><SE1>AVG_PPT_Switch</SE1>:
-()<Speaker>Erma</Speaker>||<BIN>687</BIN><分支>3</分支><黑点2><BGM>GF_2022_Summer_AVG_2</BGM>:<color=#66CDAA>AR-18, sorry for not picking up. Many things have happened in the Summer Garden.</color> +<color=#66CDAA>I met up with the Doll who contacted us. It's Stevens M520, serial number 09-П-39.</color>
-()<Speaker>Erma</Speaker>||<分支>3</分支>:<color=#66CDAA>There was a time when we lived here together, but she's the only one who retained her memories of that time. I wonder if you remember any of it...?</color> +<color=#66CDAA>I only realized you'd left a lot of anchor points with me after I came. Anchor points from when you were Polina, Daria, Lyudmila, and many more.</color> +<color=#66CDAA>I'm not rambling here. I think it's necessary to report this. You are welcome to retrieve these anchor points anytime.</color>
-()<Speaker>Erma</Speaker>||<分支>3</分支>:<color=#66CDAA>Also, other than having a violent streak, Stevens M520 isn't really that odd. She's nowhere near as special or crazy as you made her out to be. And the info you gave me about Doctor Hume is totally inaccurate.</color> +<color=#66CDAA>Didn't know you could be so unreliable.</color>
-()<Speaker>Erma</Speaker>||<分支>3</分支>:<color=#66CDAA>By the way, since I'm Mother's first daughter, you should be calling me "Big Sis". Make sure you do that when I come back.</color> +<color=#66CDAA>Right, you probably think I'm getting long-winded, but I'm done sorting out the issue with the Commander here!</color>
-()<Speaker>Erma</Speaker>||<分支>3</分支>:<color=#66CDAA>So it doesn't hurt to chat a bit more, does it...?</color>
-()||<黑点1><SE1>AVG_PPT_Switch</SE1>:
+()<Speaker>エルマ</Speaker>||<BIN>687</BIN><分支>3</分支><黑点2><BGM>GF_2022_Summer_AVG_2</BGM>:<color=#66CDAA>AR-18ヘ。ごめんね、夏の庭園で色々あって、すぐに返信できなかった。</color>+<color=#66CDAA>あたしたちに連絡してきた人と会えた、//n名前はStevens520、ナンバーは09-П-39。</color>
+()<Speaker>エルマ</Speaker>||<分支>3</分支>:<color=#66CDAA>あたしたち昔一緒に暮らしてたみたいだけど、その頃の記憶は//n彼女しか持っていないみたい。AR-18なら、少しは覚えているのかな？</color>+<color=#66CDAA>ここに来てやっと分かったの。AR-18もあたしのところに//n色んなアンカーポイントを残してたんだね。//nポリーナとか、ダリアとか、リュドミラとか……</color>+<color=#66CDAA>あっ、これは無駄話じゃなくて、//n必要だったら、いつでも取りに来ていいよ。</color>
+()<Speaker>エルマ</Speaker>||<分支>3</分支>:<color=#66CDAA>それと、Stevens520のことなんだけど、ちょっと性格が悪い以外、//n特に変なところはなかったよ。AR-18の言ってた、特別な能力とか、//n特別な不幸とかは全然なかった。</color>+<color=#66CDAA>ヒューム博士に関する情報も間違いだらけだったし、//nAR-18も意外とうっかりなところがあるんだね。</color>
+()<Speaker>エルマ</Speaker>||<分支>3</分支>:<color=#66CDAA>そうだ、お母さまの1番目の娘として、あたしのことはちゃんと//nお姉ちゃんって呼んだ方がいいと思う。うん、戻ったらそう呼んでくれ。</color>+<color=#66CDAA>まぁ、きっとうるさいって思ってるだろうけど。//nそれと、とりあえず指揮官のことも何とかなりそう。</color>
+()<Speaker>エルマ</Speaker>||<分支>3</分支>:<color=#66CDAA>だからもう少し、他のこと話してもいいよね……？</color>
+()||<黑点1><SE1>AVG_PPT_Switch</SE1>:

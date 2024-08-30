@@ -1,303 +1,303 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:Dead Sea, Avernus.
+()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:「死海」、アヴェルヌス。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_20Winter_Burnfire_Loop</SE1><BIN>645</BIN><BGM>BGM_23S_Expedition_Story</BGM>:Explosions continue to dully rumble on while sharp, intermittent blasts interrupt every so often. +The looming twin towers are engulfed in flames, with charred remains and burning flesh scattered all over. The sight is so gruesome and horrific it practically deserves to be called the Gates of Hell.
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_20Winter_Burnfire_Loop</SE1><BIN>645</BIN><BGM>BGM_23S_Expedition_Story</BGM>:重たい爆発音が天に轟く。燃え上がる炎の中に、微かな哀怨も//n混ざっていた。+巨大なツインタワーは業火によって引き千切られ、その底には、//n多くの残骸と血肉が焼け焦げていた。まさに「地獄の門」の風景だ。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><CGDelay>0.2</CGDelay><黑屏2><BIN>683</BIN>:
 ()<Speaker></Speaker>||:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Doorbell</SE1><CGDelay>0.8</CGDelay>:
-()<Speaker></Speaker>||:<color=#00CCFF>"Attention, all personnel of the Elmo—initiating vehicle-wide self-diagnostic. The procedure will be completed at 0425."</color>
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:AR-18 enters the ops room on board the Elmo just as the broadcast announcement is finished.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I have come to give you a battlefield report. +Operation Muromets, whose objective is to destroy Avernus, has concluded. +The Western Tower is completely razed, and the Eastern Tower has a damage area of over 65%. +Its propulsion system is confirmed to be inoperative, and the entire structure will be destroyed in a crash in an hour. +All dispatched units have been recalled, and a vehicle-wide self-diagnostic has been initiated on the Elmo.
-AR18(2)<Speaker>Commander</Speaker><同时置暗><Position>0,70</Position>||:What's our withdrawal progress?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Taraxacum returned to the Elmo five minutes ago and is currently undergoing full-body sterilization and having her wounds treated. +Fe56, Daybreak, and Umbrella have all entered the safe zone and will arrive at the Elmo in approximately 15 minutes. +The sensitive site exploitation system is receiving data which includes all of Avernus' lab records and research reports...
-AR18(2)<Speaker>Commander</Speaker><同时置暗><Position>0,70</Position>||:Good. Once we've got everyone, immediately allocate all available resources on the Elmo to repair our Dolls. +Take care to preserve the data of the recovered neural clouds.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Understood. +Meanwhile, Operation Aeneas, whose objective is to rescue Agent Angelia, has failed. +However, "Strongarm" has been recovered successfully.
-()<Speaker>Commander</Speaker>||:...Got it.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Operation Kriemhild overseen by Statesec is also nearing its final stage. They are still circling around in the airspace.
-AR18(2)<Speaker>Commander</Speaker><Position>0,70</Position><同时置暗>||:We'll leave the subsequent clean-up to them.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Special target codenamed "William" has been captured and is being held in Room 1021.
-AR18(2)<Speaker>Commander</Speaker><同时置暗><Position>0,70</Position>||:Okay.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:That concludes my report on the "Expedition". 
-AR18(2)<Speaker>Commander</Speaker><同时置暗><Position>0,70</Position>||:Right. We'll start making our way back after we finish tallying our casualties and gathering the data.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Roger that.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Erma, check the communication logs and keep an eye on the data transfer status. Prepare to reconnect to Griffin's network.
-Erma(14)<Speaker>Erma</Speaker>||<SE1>ClothingUp</SE1>:Okay. I'm sure everyone will be quite happy to find themselves back on board the Elmo when they open their eyes again.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Taraxacum's sterilization and repairs should be finished by now, so please follow up on that.
-Erma(14)<Speaker>Erma</Speaker>||:No problem.
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:Erma steps lightly out of the ops room, leaving the noisy clattering of keyboard keys and pinging on the comms behind.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Sorry, Commander, I'd like to double-check this with you—is the Elmo's autopilot destination still the same as before? Should I keep it as these coordinates on the edge of the "Dead Sea"?
-AR18(5)<Speaker>Commander</Speaker><同时置暗><Position>0,70</Position>||:Yes.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Understood. Once the self-diagnostic is completed in 20 minutes, I will activate the autopilot if everything appears to be in order...
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep-beep-beep—the comms system suddenly chirps.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Commander, a comms request from the Earl.
-()<Speaker>Commander</Speaker>||:...
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:The Commander is just about to finally relax, but they have no choice but to straighten up again and drain their new cup of coffee in one gulp.
-()<Speaker>Commander</Speaker>||:Put him on.
+()<Speaker></Speaker>||:<color=#00CCFF>「エルモ号全体に通達します。ただいまより、エルモ号は//nセルフチェックモードに入ります。セルフチェックは、0425にて//n完了する予定です」</color>
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:車内放送が終わり、AR-18はエルモ号の司令室に入った。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:報告します――+ムーロメツ作戦の最終目標「アヴェルヌスの破壊」は、//nすでに達成されました。+西塔は完全に崩壊、東塔の損壊率は65%を越えています。+建物のエネルギーシステムの停止も確認されており、予想では1時間後、//n完全に崩壊します。+作戦に参加した全ユニットは現在帰還中です。//nまた、エルモ号のセルフチェックも開始しています。
+AR18(2)<Speaker>指揮官</Speaker><同时置暗><Position>0,70</Position>||:撤退の進捗。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:タラクサクムは5分前エルモ号に帰還、現在消毒と修復処置を受けています。+Fe56、アウロラ、アンブレラは安全エリアまで撤退したことを確認、//n予定では15分後、エルモ号に帰還します。+SSE現場情報は現在整理中です。アヴェルヌスにおける研究や//n実験のデータは……
+AR18(2)<Speaker>指揮官</Speaker><同时置暗><Position>0,70</Position>||:分かった、撤退完了後、人形たちの修復に全リソースを回してくれ。+特に、人形のメンタルデータの保存に細心の注意を。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:了解しました。+アエネアス作戦の最終目標「エージェントアンジェリアの救出」は、//n失敗を確認しました。+「アイアンアーム」は回収済みです。
+()<Speaker>指揮官</Speaker>||:……分かった。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:保安局による「オペレーション・クリームヒルト」も、//n最終段階に入っています。
+AR18(2)<Speaker>指揮官</Speaker><Position>0,70</Position><同时置暗>||:後始末は彼らに任せるよ。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:コードネーム「ウィリアム」は捕獲済み、現在1021号室に監禁しています。
+AR18(2)<Speaker>指揮官</Speaker><同时置暗><Position>0,70</Position>||:分かった。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:以上、「遠征」の結果報告となります。
+AR18(2)<Speaker>指揮官</Speaker><同时置暗><Position>0,70</Position>||:ああ、負傷者の処置及び状況の整理が終わり次第、帰還する。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:了解。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:エルマ、通信記録及び回線の状態を確認してくれ。//nこれからグリフィンのネットワークに接続する。
+Erma(14)<Speaker>エルマ</Speaker>||<SE1>ClothingUp</SE1>:了解。みんなちゃんとエルモ号に戻ってきてくれたのね、ちょっと嬉しい。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:エルマ、タラクサクムの消毒と簡易修復が完了したようだ。//n迎えに行ってやってくれ。
+Erma(14)<Speaker>エルマ</Speaker>||:分かった。
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:エルマは軽やかな足取りで、騒然としている司令室を後にした。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:申し訳ございません、指揮官。再度確認しますが、エルモ号の//n目的地は、変わらず「死海」入り口付近で問題ないでしょうか？
+AR18(5)<Speaker>指揮官</Speaker><同时置暗><Position>0,70</Position>||:ああ。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:了解しました。セルフチェックは20分後完了予定です。//n問題がなければ、そのまま自動操縦で……
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:（ピピピッ）//n――突然通信が入ってきた。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:指揮官、サーからです。
+()<Speaker>指揮官</Speaker>||:……
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:指揮官は新しく淹れたコーヒーを一気に飲み干して、気を引き締め直した。
+()<Speaker>指揮官</Speaker>||:繋いでくれ。
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>First of all, I must offer my congratulations.</color> +<color=#00CCFF>Your unsanctioned action has been retroactively given an official seal of approval, and you have certainly done a wonderful job.</color> +<color=#00CCFF>The "Dead Sea" is no longer off-limits, and you've even managed to secure the key target.</color>
-NPC-Griffin(0)<Speaker>Commander</Speaker><同时置暗><通讯框>||:...But we've lost more than we've gained.
-NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>I did tell you to stop, remember?</color>
-NPC-Griffin(0)<Speaker>Commander</Speaker><同时置暗><通讯框>||:No, you had already decided to sacrifice Ange before that.
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Death is never the destination. Besides, our lives are not entirely our own.</color> +<color=#00CCFF>In our long journey, some are bound to leave us behind, while others join us halfway through.</color> +<color=#00CCFF>Be sensible, both for your sake and the sake of Kryuger and those at the base.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:I'm guessing you want me to hand "him" over to you?
-NPC-Griffin(1)<Speaker>Earl</Speaker>||:<color=#00CCFF>The Stasi's people are waiting on the border just beyond the "Dead Sea".</color> +<color=#00CCFF>It doesn't matter to whom he is handed over. It is simply not up to you to decide his fate.</color> +<color=#00CCFF>I thought Kryuger would have made this clear to you.</color> +<color=#00CCFF>You have done your part, now leave the rest to those who can bring an end to this farce.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:What are you planning to do with "him"?
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>...This is not a request, Commander.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:Yes, I am aware.
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>...You are not without weaknesses.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:I'm also aware of that.
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>I see you refuse to give up your obstinate ways.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:...All I want is an explanation. +Something to justify the blood spilled at my hands.
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Not everything has closure or answers.</color> +<color=#00CCFF>When you live to my age, you will understand that there is only so much we can do.</color> +<color=#00CCFF>You should not blame yourself for things beyond your capability.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:But if I hand him over to you... +That would make me personally responsible. +Especially if eradicating Paradeus for good isn't actually on your agenda.
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Avernus crashed and burned right before your eyes, yet you still doubt Paradeus' demise.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:You know full well what I mean!
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Don't let emotions get the better of you, my young friend.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:There was a time I looked up to you, the same way I look up to Mr. Kryuger.
-NPC-Griffin(1)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>...</color> +<color=#00CCFF>I see.</color>
-NPC-Griffin(1)<Speaker>Commander</Speaker><同时置暗><通讯框>||:Looks like you've already made your decision.
-NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>I will see you again soon, Commander.</color>
-NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>You... as well as William.</color>
-()<Speaker>Commander</Speaker>||<SE1>AVG_tele_disconnect</SE1>:...
-()<Speaker></Speaker>||:The comms channel falls silent. +Nobody wants to speak, but someone has to interrupt.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Commander, we have Statesec on line 2.
-()<Speaker>Commander</Speaker>||:... +Keep them busy. I need a minute to calm down.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...I'm afraid that isn't something I can do. +Please stay strong.
-()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:<size=50>To hell with being strong!</size> +<size=50>I told you I needed a moment!</size>
-()<Speaker></Speaker>||:For the first time in a very long while, the person on the verge of a breakdown finally loses their composure.
-()<Speaker>Commander</Speaker>||:Give me five minutes. No, I'll take just one minute! +Just let me cool my head alone!
-()<Speaker>Commander</Speaker>||:I beg you...
-()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander sinks dejectedly into their chair.
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:At that, AR-18 relents and leaves the ops room in silence.
+NPC-Griffin(0)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>おめでとう、指揮官。</color>+<color=#00CCFF>君の勝手な行動ではあったが、後付けで政府の許可が取れた。//nそして、結果も上々だ。</color>+<color=#00CCFF>現時点より「死海」は進入禁止エリアではなくなった。//n最重要人物を確保できたのも、実に見事だ。</color>
+NPC-Griffin(0)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:……だが、それ以上に、多くのものを失ってしまった。
+NPC-Griffin(0)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>一応、引き留めたつもりだったが。</color>
+NPC-Griffin(0)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:いいや違う、あなたはそれよりも前に、アンジェを諦めると決めていた。
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>死は終わりではない。我々の命も、自分だけのものではない。</color>+<color=#00CCFF>長い旅の中では、先を行く者もいれば、途中から参加する者もいる。</color>+<color=#00CCFF>自分のためにも、クルーガーや基地に残った者たちのためにも、//n君は理性的でいるべきだ。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:……「やつ」を引き渡せと？
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker>||:<color=#00CCFF>シュタージが今、「死海」の入り口付近で待っている。</color>+<color=#00CCFF>彼が誰に引き渡されようと、君には関係のないことだ。</color>+<color=#00CCFF>クルーガーから説明されたはずだと思うが。</color>+<color=#00CCFF>君はもう十分、君の使命を果たしてくれた。あとは、この茶番を//n終わらせることができる者に任せるべきだ。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:「やつ」をどうするつもりだ？
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>……指揮官、これは私からのお願いではない。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:ああ、分かっている。
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>……君にも、弱点はある。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:ああ、それも分かっている。
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>また、勝手な行動をするつもりか？</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:……私は、答えが欲しいだけだ。+せめて、散っていった命たちが報われるように。
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>全ての事に答えがあるわけではない。</color>+<color=#00CCFF>君ももう少し年を取れば、人は己の本分さえ全うできれば、//nそれで十分だと理解するだろう。</color>+<color=#00CCFF>自分にできないことを、全て自分の責任とするべきではない。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:「やつ」をあなたに引き渡すのが私なら、それは私の責任だ。+あなたが一体なにを企んでいるのか、私には分からない。+だが、もし「パラデウスの根絶」が、//nあなたの計画に含まれていないのなら――
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>アヴェルヌスは君の目の前で崩壊した。//nそれでも、パラデウスは根絶されていないと言うのか？</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:分かっているはずだろ、私の言いたいことが！
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>ムキになるな、若者よ。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:私はあなたを尊敬していた、クルーガーさんを尊敬しているのと同じように。
+NPC-Griffin(1)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>……</color>+<color=#00CCFF>そうか。</color>
+NPC-Griffin(1)<Speaker>指揮官</Speaker><同时置暗><通讯框>||:結論が出たみたいですね。
+NPC-Griffin(0)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>もうすぐ直に会えるさ、指揮官。</color>
+NPC-Griffin(0)<Speaker>サー・グリフィン</Speaker><通讯框>||:<color=#00CCFF>「ウィリアム」と一緒に。</color>
+()<Speaker>指揮官</Speaker>||<SE1>AVG_tele_disconnect</SE1>:……
+()<Speaker></Speaker>||:沈黙の中、通信が終わった。+誰も声を出したくはなかった。だが、いつまでも、//nその静けさが許されるわけではない。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:指揮官、2番回線より保安局です。
+()<Speaker>指揮官</Speaker>||:……+君が対応してくれ。少し一人でいたい。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……私で対応できることではないと思います。+指揮官、どうか気を確かに。
+()<Speaker>指揮官</Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:<size=50>私の気は確かだ！</size>+<size=50>一人でいたいと言っただろ！</size>
+()<Speaker></Speaker>||:追い詰められた人間の心は、案外簡単なものだ。
+()<Speaker>指揮官</Speaker>||:5分……いや、1分でもいい！+一人にさせてくれ！
+()<Speaker>指揮官</Speaker>||:お願いだ……
+()<Speaker></Speaker>||<SE1>Rope</SE1>:指揮官は、無気力に椅子の中に倒れ込んだ。
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:AR-18は何も言わず、静かに司令室を後にした。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><BIN>22</BIN><黑屏2>:...Repair workshop on board the Elmo.
-Erma(17)<Speaker>Erma</Speaker>||:Huh? Aren't you supposed to be in the ops room? What are you doing here?
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><BIN>22</BIN><黑屏2>:……エルモ号、修復作業室。
+Erma(17)<Speaker>エルマ</Speaker>||:あれ、なんでここに来たの？
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Doorbell</SE1><CGDelay>0.8</CGDelay>:
-()<Speaker></Speaker>||:<color=#00CCFF>"Self-diagnostic is at 25%, estimated completion time in 15 minutes."</color> +The vehicle broadcast answers Erma's questions.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:As you can see, the self-diagnostic is running smoothly, so I've come to check on how the repairs are progressing.
-AR18(3)<Position>0,70</Position>;Erma(13)<Speaker>Erma</Speaker>||:Well... We've performed basic repairs on Taraxacum and Fe56. +We still don't have a suitable Doll frame replacement for UMP9, but her core is undamaged and ready for reinstallation. +Daybreak and Unicorn are still in the queue, and RO says she'll go last.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(13)||:What about Aliana?
-AR18(5)<Position>0,70</Position>;Erma(15)<Speaker>Erma</Speaker>||:She suffered a neural meltdown. We couldn't retrieve any data...
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I see.
-()<Speaker></Speaker>||:AR-18 spots UMP45 sitting quietly in a corner, staring at UMP9's neural core absentmindedly. She approaches tentatively, trying to discern the Doll's mental state.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:...I'm fine. My neural cloud is stable.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;UMP45Mod(0)||:Are you conversing with 9?
-AR18(5)<Position>0,70</Position>;UMP45Mod(0)<Speaker>UMP45</Speaker>||:Yes, she says she's feeling bored.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-18 picks up the cable connecting UMP45 and UMP9's neural core.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:You need an external data-link to converse with each other?
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:Well, I'm not the only one she's talking to.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Who else?
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:UMP45 gives a sly chuckle. Instead of answering the question, she just invites AR-18 into the chat room. 
+()<Speaker></Speaker>||:<color=#00CCFF>「セルフチェック進行度25%、全項目15分後に完了する予定です」</color>+車内の放送がエルマの質問に答えた。
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:セルフチェックが順調なので、ここの様子を見に来た。状況は？
+AR18(3)<Position>0,70</Position>;Erma(13)<Speaker>エルマ</Speaker>||:うん……タラクサクムとFe56の基本検査は完了した。+UMP9は替えの素体待ち、メンタルコアに損傷はないから大丈夫。+アウロラとアンブレラは、これから修復と検査を行うところだけど、//nRO635は自分は最後でいいって言っている。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(13)||:エリアナは？
+AR18(5)<Position>0,70</Position>;Erma(15)<Speaker>エルマ</Speaker>||:メンタルが完全に焼き切れている、なんのデータも残っていない……
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:分かった。
+()<Speaker></Speaker>||:ぼうっと一人静かにUMP9のコアと対峙しているUMP45に、//nAR-18はそっと近づいた。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:……大丈夫よ、私は大丈夫。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;UMP45Mod(0)||:UMP9と話しているのか？
+AR18(5)<Position>0,70</Position>;UMP45Mod(0)<Speaker>UMP45</Speaker>||:ええ、新しい体に移すまでの間は暇だって。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45とUMP9のコアを繋いだケーブルを、AR-18はそっと指で撫でる。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:これを使って会話しているのか？
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:話しているのは私だけじゃないからね。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:他に誰かいるのか？
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:UMP45はその質問に答えず、ただニヤリと笑って、//nAR-18をチャットルームに招待した。
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>72</BIN><黑点2><CGDelay>1</CGDelay>:
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:Huh? What are you doing here, AR-18?!
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:She's worried about you, apparently. You two go on and have a nice chat.
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:Really?! I'm touched...
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-18 pays no heed to the role she ought to be playing. Her keen gaze locks onto a girl with a casual smile who's sitting off to the side.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:You are?
-UMP40(3)<Speaker>UMP40</Speaker>||:Hello, I am UMP40.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:She's a personality construct based on my former partner; you can call her 40. The real 40 is long gone, obviously.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...Hello.
-UMP9Mod(3)<Speaker>UMP9</Speaker>||:Hey, don't just stand there. Come join us~
-UMP40(4)<Speaker>UMP40</Speaker>||:Yeah, where were we?
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:You were discussing how to protect your Doll frames from the elements when carrying out seaside missions. +Right, I'll leave you to it. I'm hopping off for a sec.
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:Hey, don't go, 45!
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:UMP45's figure disappears in a flash from the chat room that she had set up.
-UMP9Mod(6)<Speaker>UMP9</Speaker>||:Humph, 45 is devious as always. She keeps dragging people in here to keep me busy just so she won't have to talk to me.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...So you're sisters as well.
-()<Speaker></Speaker>||:AR-18 suddenly understands UMP45's sudden eagerness.
-UMP40(4)<Speaker>UMP40</Speaker>||:Haha, it's not true that 45 doesn't want to talk to you. +She simply doesn't know how to face you right now.
-UMP40(4);UMP9Mod(4)<Speaker>UMP9</Speaker>||:Why?
-UMP40(2)<Speaker>UMP40</Speaker>;UMP9Mod(4)||:Because it was a call she made that led to your destruction.
-UMP9Mod(6)<Speaker>UMP9</Speaker>||:It's pretty common for T-Dolls to get destroyed. Besides, my neural cloud is perfectly fine... +She doesn't have to blame herself at all. Don't you agree, AR-18?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...Yes.
-()<Speaker></Speaker>||:AR-18 starts searching for the exit of the chat room.
-UMP40(2)<Speaker>UMP40</Speaker>||:It took 45 a really long time to pull herself together after you went down.
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:Really...? What did she do when it happened?
-UMP40(2)<Speaker>UMP40</Speaker>||:First, she went berserk and wiped out the remaining enemies. +Then she just stared at your remains for a good few minutes.
-UMP9Mod(6)<Speaker>UMP9</Speaker>||:45...
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...
-UMP40(2)<Speaker>UMP40</Speaker>||:When she finally snapped out of it, she extracted your neural core and took measures to keep it safe.
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:Did she say anything when she had my neural core in her hands?
-UMP40(4)<Speaker>UMP40</Speaker>||:Yep, she said—
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>AVG_tele_connect</SE1>:Gossiping about me behind my back?
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45 reappears seemingly out of nowhere. She seems to be embracing UMP40 from behind, but she actually has her in a chokehold.
-UMP40(4)<Speaker>UMP40</Speaker>||:No way.
-UMP9Mod(3)<Speaker>UMP9</Speaker>||:45, you're back!
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:Mhmm, and I've even brought two new guests for your little tea party.
-HK416Mod(0)<Speaker>HK416</Speaker>||<SE1>AVG_tele_connect</SE1>:So this is where you guys have been loafing around.
-G11Mod(0)<Speaker>G11</Speaker>||<SE1>AVG_tele_connect</SE1>:Ugh... Get me a bed, 45...
-()<Speaker></Speaker>||:AR-18 seizes this timely opportunity to make her escape.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I am not the best conversationalist... Please excuse me.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:Alright, alright. Sorry for bothering you.
-()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:UMP45 opens the door for AR-18 to leave. +UMP40 extricates herself from the boisterous dogpile and comes up to see her off.
-UMP40(4)<Speaker>UMP40</Speaker>||:Goodbye, AR-18. I hope we'll meet again.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Sure. +...Goodbye.
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:あれ？　AR-18じゃん！
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:9のことが心配だから来てみたって。
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:本当に？　嬉しいなぁ……！
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:どこか芝居掛かった二人に冷たい顔を向けつつ、AR-18はこの空間に//nいるもう一人、傍らで静かに微笑んでいる少女のことが気になった。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:君は？
+UMP40(3)<Speaker>UMP40</Speaker>||:初めまして、あたいはUMP40だよ。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:昔のパートナーのUMP40よ。ま、本物はもういないけどね。//n今ここにいるのは、UMP40の人格をシミュレートしたAI。
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……初めまして。
+UMP9Mod(3)<Speaker>UMP9</Speaker>||:ねぇねぇ、そんなところに立ってないでお喋りしようよ！
+UMP40(4)<Speaker>UMP40</Speaker>||:いいね、さっきはどこまで話した？
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:海辺での任務の時は、どうやって素体の状態を保つかのところ。+そんじゃ、あなたたちはここで適当にやってて、私はちょっと離れるから。
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:ええ？　いかないでよ、45姉！
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:スッと、UMP45はチャットルームの中から姿を消した。
+UMP9Mod(6)<Speaker>UMP9</Speaker>||:もう、45姉ったら！　わたしとお喋りしたくないからって、//n色んな人を騙してここに連れてくるなんて！
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……君たちも姉妹なのか。
+()<Speaker></Speaker>||:AR-18はなんとなく、UMP45が自分をここに連れてきた理由を察した。
+UMP40(4)<Speaker>UMP40</Speaker>||:ハハ、45はお喋りしたくないわけじゃないよ。+ただ今はどうやって9に接すればいいのか分からないだけ。
+UMP40(4);UMP9Mod(4)<Speaker>UMP9</Speaker>||:なんで？
+UMP40(2)<Speaker>UMP40</Speaker>;UMP9Mod(4)||:自分の決断のせいで、目の前で9が犠牲になったから。
+UMP9Mod(6)<Speaker>UMP9</Speaker>||:そんなのよくあることじゃない？　戦術人形だし、メンタルも無事だし……+別に気にする必要はないよね？　ね、AR-18？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……ああ。
+()<Speaker></Speaker>||:適当に返事する傍ら、AR-18はこのチャットルームの出口を探し始める。
+UMP40(2)<Speaker>UMP40</Speaker>||:ああ見えて、こうして9と会話できるようになるまで結構落ち込んでたから。
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:そう……45姉どんな感じだったの？
+UMP40(2)<Speaker>UMP40</Speaker>||:まずは発狂したみたいに、残った敵を全部一人でやっつけた。+そんで、9の残骸に向かってずっとぼうっとしてたね。
+UMP9Mod(6)<Speaker>UMP9</Speaker>||:45姉……
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……
+UMP40(2)<Speaker>UMP40</Speaker>||:暫くしたら、9のコアを取り出して丁寧に保護した。
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:45姉、なんか言ってた？
+UMP40(4)<Speaker>UMP40</Speaker>||:うん、言った言った――
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>AVG_tele_connect</SE1>:あらあら、ちょっと離れた隙にどういう話になってるの？//nもしかして私の悪口？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:突然UMP40の背後にUMP45が現れて、プレッシャーをかけるように//n笑いながら、UMP40の肩に腕を回した。
+UMP40(4)<Speaker>UMP40</Speaker>||:そんなまさか。
+UMP9Mod(3)<Speaker>UMP9</Speaker>||:45姉、おかえり！
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:ただいま。ついでに416とG11を連れて来たわ。
+HK416Mod(0)<Speaker>416</Speaker>||<SE1>AVG_tele_connect</SE1>:こんなところで油を売ってたのね。
+G11Mod(0)<Speaker>Gr G11</Speaker>||<SE1>AVG_tele_connect</SE1>:うあぅ……45、ベッド出してよ……
+()<Speaker></Speaker>||:ここがチャンスだと、AR-18は見極めた。
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:すまない、他にまだ用事があるもので……会談も得意ではない。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:そう、面倒をかけたわね。
+()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:UMP45はAR-18に、チャットルームの出口を開いた。+UMP40は立ち上がって、AR-18の前に立つ。
+UMP40(4)<Speaker>UMP40</Speaker>||:またね、AR-18。
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:ああ。+……また会おう。
 ()||<黑屏1><SE1>AVG_keyboardtype_sci</SE1>:
 ()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><BIN>22</BIN><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||:AR-18 lets out a sigh of relief and makes to leave Squad 404's space.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>ClothingUp</SE1>:40 doesn't get to meet Dolls from the outside very often.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:That does seem to be the case.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:You'll keep this a secret for me, I hope?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Of course.
+()<Speaker></Speaker>||:一息ついて、AR-18はチャットルームから出た。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>ClothingUp</SE1>:40は他の人形と会う機会が少ないから。
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:そのようだな。
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:一応、秘密にしてくれるよね？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:もちろん。
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>18</BIN><SE1>AVG_BaseDoor_Open</SE1><BGM>GF_22W_BGM_2</BGM>:The moment AR-18 pulls open the door of the repair room, she is confronted with an impertinent face in the corridor.
-Erma(19)<Speaker>Erma</Speaker>||:Something seems off about you.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:...Not at all.
-AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>Erma</Speaker>||:Something's totally off. You look positively glum.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:Nonsense.
-AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>Erma</Speaker>||:...Okay, you're actually pretty expressionless, but I can still see you're not happy. +Wasn't Operation Muromets a success? We've knocked Avernus out of the sky, so what's the problem?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:...I'm afraid the real war is yet to come.
-Erma(17)<Speaker>Erma</Speaker>||:Huh?
-()<Speaker></Speaker>||:Gazing at Erma's bemused expression, AR-18 realizes that even though they are sisters, it still feels a bit inappropriate to discuss such matters with Erma.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Nothing. I blurted that out without thinking.
-AR18(3)<Position>0,70</Position>;Erma(15)<Speaker>Erma</Speaker>||:...I have a feeling... +That people are not happy because we failed to rescue a certain somebody?
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(15)||:Hm?
-AR18(5)<Position>0,70</Position>;Erma(13)<Speaker>Erma</Speaker>||:Haven't you noticed? The Dolls coming out of the repair bay are all putting on a brave face.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(13)||:...I thought you were utterly clueless. +Turns out I'm the clueless one.
-Erma(17)<Speaker>Erma</Speaker>||:What?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...The Commander has lived through so much strife and witnessed so much death and suffering. +I thought their heart would have long since rusted and grown cold.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:But I was wrong. +It would seem that I'm the only one who is cold and indifferent.
-AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>Erma</Speaker>||:...Probably because you're the "Instructor".
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:...
-AR18(5)<Position>0,70</Position>;Erma(20)<Speaker>Erma</Speaker>||:You're more used to being the "Instructor" than "AR-18". +You feel the need to remain calm and collected in the face of everything.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(20)||:You think so? +...Maggie is the only one who retained her memory of what transpired on the Future. +I find it hard to believe everything she told me... +But I'm starting to agree with her on one point.
-AR18(5)<Position>0,70</Position>;Erma(19)<Speaker>Erma</Speaker>||:What point?
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:It's nothing. So how did you discern my emotional state? +Sometimes even I don't know how I feel.
-Erma(18)<Speaker>Erma</Speaker>||:Well... +Ahem, I watched the CCTV feed in the ops room.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...
-AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>Erma</Speaker>||:C'mon, I'm the leader of the signal support team! It's totally normal for me to check it, no?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:I retract my previous statement.
-AR18(2)<Position>0,70</Position>;Erma(23)<Speaker>Erma</Speaker>||:Which one?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:The statement about agreeing with Maggie.
+()<Speaker></Speaker>||<黑点2><BIN>18</BIN><SE1>AVG_BaseDoor_Open</SE1><BGM>GF_22W_BGM_2</BGM>:修復作業室のドアを開くと、見えたのは怒り顔のエルマだった。
+Erma(19)<Speaker>エルマ</Speaker>||:なんか変。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:なんでもない。
+AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>エルマ</Speaker>||:変だよ、その顔。何かあったの？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:……気のせいだ。
+AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>エルマ</Speaker>||:……表情に出さないようにしているだけでしょ、それぐらい分かるよ。+作戦は成功したんでしょ？　アヴェルヌスも破壊したし、//nどうしてそんなに不機嫌なの？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:……おそらくだが、本当の戦いはまだ始まってすらいない。
+Erma(17)<Speaker>エルマ</Speaker>||:え？
+()<Speaker></Speaker>||:疑問の表情を浮かべたエルマを見て、やはりこういう話は//n彼女にするべきではなかったと、AR-18は思った。
+AR18(3)<Speaker>AR-18</Speaker><Position>0,70</Position>||:いや、気にするな、ただの憶測だ。
+AR18(3)<Position>0,70</Position>;Erma(15)<Speaker>エルマ</Speaker>||:助けられなかった人がいるから、みんな不機嫌なの？+……なんか、そんな感じがする。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(15)||:うん？
+AR18(5)<Position>0,70</Position>;Erma(13)<Speaker>エルマ</Speaker>||:戻ってきたみんなは、なんだか無理して笑顔を作ってるように見えるから。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(13)||:……何も分かっていないと思っていたが。+……何も分かっていないのは私の方だったか。
+Erma(17)<Speaker>エルマ</Speaker>||:え？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:指揮官は、数多の戦いと犠牲を経験してきた。+その心はもう、とっくに冷めきっていると思っていた。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:でも、そうじゃなかった。+冷たいのは、私だけだった。
+AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>エルマ</Speaker>||:……あなたが「教官」だからでしょ？
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:……
+AR18(5)<Position>0,70</Position>;Erma(20)<Speaker>エルマ</Speaker>||:「AR-18」よりも、あなたは「教官」でいる事に慣れている。+だからどんなことがあっても、あなたは冷静でいようとする。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(20)||:そうなのか？+……「未来号」での記憶は、マギーだけが保有している。+彼女の言うことを全部信じるつもりはないが……+今は少し認めてあげよう。
+AR18(5)<Position>0,70</Position>;Erma(19)<Speaker>エルマ</Speaker>||:どういう意味？
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:なんでもない。それで、君はどうやって私の心に気づいた？+時々、自分でもよく分からないのだ。
+Erma(18)<Speaker>エルマ</Speaker>||:それは……+まぁ、司令室の監視カメラで……
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……
+AR18(2)<Position>0,70</Position>;Erma(19)<Speaker>エルマ</Speaker>||:通信班のリーダーだからね！　それぐらいは……普通じゃない？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;Erma(19)||:さっきの言葉を撤回する。
+AR18(2)<Position>0,70</Position>;Erma(23)<Speaker>エルマ</Speaker>||:どの言葉？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:マギーを認める言葉。
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><BIN>683</BIN><黑点2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:The ops room door is quietly opened just a crack, revealing a hand holding a slice of cake. 
-()<Speaker>???</Speaker>||:Having something sweet might cheer you up!
-()<Speaker>Commander</Speaker>||:...Erma, come in.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Erma pokes her head through the door.
-Erma(17)<Speaker>Erma</Speaker>||:Are you still angry, Commander?
-Erma(17)<Speaker>Commander</Speaker><同时置暗>||:No, I'm not angry with anybody. +If you see AR-18, please give her my apologies. +And please tell her she is free to return to the ops room.
-Erma(17)<Speaker>Erma</Speaker>||:Oh... You just have to give the Instructor a call and she'll come back right away!
-Erma(17)<Speaker>Commander</Speaker><同时置暗>||:...I know. +But I still haven't figured out how to apologize to her, so I'll have to trouble you to give me a hand.
-Erma(13)<Speaker>Erma</Speaker>||:...
-()<Speaker></Speaker>||:Erma nods, but she continues to linger by the door.
-()<Speaker>Commander</Speaker>||:Can I help you with anything else?
-Erma(13)<Speaker>Erma</Speaker>||:I have a question. I know that when a human dies, they are given a funeral.
-Erma(13)<Speaker>Erma</Speaker>||:So should we... organize a funeral for Ange?
-()<Speaker>Commander</Speaker>||:...
-()<Speaker>Commander</Speaker>||:No, this isn't the right place to put her gravestone.
-Erma(15)<Speaker>Erma</Speaker>||:I see.
-Erma(15)<Speaker>Commander</Speaker><同时置暗>||:Also, from what I know of her, she'd roll her eyes so hard she'd see her brain if we weep before her grave.
-Erma(17)<Speaker>Erma</Speaker>||:I gather Ange wasn't someone who needed a funeral then.
-Erma(17)<Speaker>Commander</Speaker><同时置暗>||:You're right.
-Erma(18)<Speaker>Erma</Speaker>||:Then... I have another question!
-Erma(18)<Speaker>Commander</Speaker><同时置暗>||:Shoot...
-Erma(15)<Speaker>Erma</Speaker>||:Before I set off, I read a story about a man who went on an arduous journey to pick a magical herb in order to bring his dead mother back to life... +If such a panacea really did exist, would you use it to revive Ange?
-Erma(15)<Speaker>Commander</Speaker><同时置暗>||:No.
-Erma(17)<Speaker>Erma</Speaker>||:Huh? I thought you'd say yes.
-Erma(17)<Speaker>Commander</Speaker><同时置暗>||:Death is the only gift she bequeathed to me. +To snatch life away from Death is for mankind to pay the ultimate price. +I won't allow anyone to disturb her eternal rest. I've already paid enough.
-Erma(17)<Speaker>Erma</Speaker>||:Can death be considered... a gift?
-Erma(17)<Speaker>Commander</Speaker><同时置暗>||:Yes, a heavy and painful gift. +One to which we must hold on tightly, lest we forget...
-()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander clenches their fist, squeezing Strongarm tightly in their fingers. This is the first time Erma has seen such anguish on a human's face. +But the moment lasts only briefly.
-()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:I'm ready, Erma. Fetch Dandelion for me, please. +I'm going to meet "him" in person.
-Erma(17)<Speaker>Erma</Speaker>||:Meet who?
-Erma(17)<Speaker>Commander</Speaker><同时置暗>||:The man brought in from Avernus, the one currently being held in room 1021.
-Erma(13)<Speaker>Erma</Speaker>||:Understood.
+()<Speaker></Speaker>||:司令室のドアが少しだけ開き、その隙間から、//nケーキがのった皿を持った手が伸びてきた。
+()<Speaker>？？？</Speaker>||:甘いものを食べたら元気になるよ？
+()<Speaker>指揮官</Speaker>||:……エルマか。入っていいよ。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ドアの隙間から、エルマは頭を覗き出す。
+Erma(17)<Speaker>エルマ</Speaker>||:指揮官、まだ怒ってる？
+Erma(17)<Speaker>指揮官</Speaker><同时置暗>||:いや、怒っていないよ。+AR-18のことは……+……代わりに謝ってくれると助かる。
+Erma(17)<Speaker>エルマ</Speaker>||:あ――それなら、通信で言えば、教官はすぐ戻って来るよ。
+Erma(17)<Speaker>指揮官</Speaker><同时置暗>||:……ああ、それは分かっている。+ただ……どう謝ればいいか分からないんだ……だから頼む。
+Erma(13)<Speaker>エルマ</Speaker>||:……
+()<Speaker></Speaker>||:エルマは頷くが、その場を離れなかった。
+()<Speaker>指揮官</Speaker>||:他になにか？
+Erma(13)<Speaker>エルマ</Speaker>||:質問がある。人間は、誰かが死んだら、葬式を行うって聞いた。
+Erma(13)<Speaker>エルマ</Speaker>||:だからその……アンジェさんにも、葬式をするべきなのでは？
+()<Speaker>指揮官</Speaker>||:……
+()<Speaker>指揮官</Speaker>||:いや、いいんだ。彼女の墓は、ここに立てられるべきではない。
+Erma(15)<Speaker>エルマ</Speaker>||:そう、分かった。
+Erma(15)<Speaker>指揮官</Speaker><同时置暗>||:彼女のことだ、私たちが彼女の墓の前で泣いたなんて知ったら、//nきっと白目をむいてしまうよ。
+Erma(17)<Speaker>エルマ</Speaker>||:アンジェさんは、葬式が必要ない人間みたいだね。
+Erma(17)<Speaker>指揮官</Speaker><同时置暗>||:ああ。
+Erma(18)<Speaker>エルマ</Speaker>||:その……もう一つ質問があるんだけど！
+Erma(18)<Speaker>指揮官</Speaker><同时置暗>||:なんだい？
+Erma(15)<Speaker>エルマ</Speaker>||:出発する前、お話を読んだの、主人公は母親を復活させるため、//n崖の下に降りて奇跡の薬を採りに……+もしも、本当に奇跡の薬があるのだとしたら、//n指揮官はアンジェさんを復活させたい？
+Erma(15)<Speaker>指揮官</Speaker><同时置暗>||:いいや。
+Erma(17)<Speaker>エルマ</Speaker>||:……てっきり、そうしたいって思ってた。
+Erma(17)<Speaker>指揮官</Speaker><同时置暗>||:死は彼女が私に残してくれた唯一のものだから。+人間にとって、死を奪うことの代価は非常に大きい。+私はすでに色んなものを奪われた。彼女の死だけは、奪わせはしない。
+Erma(17)<Speaker>エルマ</Speaker>||:死は……贈り物なの？
+Erma(17)<Speaker>指揮官</Speaker><同时置暗>||:ああ、重くて苦しい贈り物だ。+それを握りしめてやっと、すべてを忘れずにいられる……
+()<Speaker></Speaker>||<SE1>Rope</SE1>:指揮官は「アイアンアーム」を握りしめる。//nこんな悲しい表情をする人間を、エルマは初めて見たと思った。+ただ、それも長くは続かなかった。
+()<Speaker>指揮官</Speaker>||<BGM>BGM_Empty</BGM>:もう準備できたよ、エルマ。ダンデライオンを呼んできて。+「彼」に会いに行く。
+Erma(17)<Speaker>エルマ</Speaker>||:誰に？
+Erma(17)<Speaker>指揮官</Speaker><同时置暗>||:アヴェルヌスから連れてきた者だ、今1021号室に監禁されている。
+Erma(13)<Speaker>エルマ</Speaker>||:了解。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><SE1>AVG_20Winter_Doorbell</SE1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||:<color=#00CCFF>"Self-diagnostic is at 50%. Estimated completion time in 10 minutes. Signal malfunction caused by exposure to radiation detected in communications system."</color>
+()<Speaker></Speaker>||:<color=#00CCFF>「セルフチェック進行度50%、放射線の影響で通信設備に信号障害あり、//n全項目10分後に完了する予定です」</color>
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BGM>GF_EV9_Story</BGM><SE1>AVG_door_elecport</SE1><BIN>22</BIN>:...Repair workshop on board the Elmo.
-AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Here for RO?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I've come to see how the repairs are going for all the squads.
-AR15Mod(4)<Speaker>ST AR-15</Speaker>||:We're in the middle of fixing up SOP-II. Over 90% of her frame has sustained damage, so the repairs aren't cost effective at all. +However, since there are no suitable spare frames for her at the moment, we can only prioritize restoring her basic functions.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:What about RO?
-AR15Mod(4)<Speaker>ST AR-15</Speaker>||:She took quite a beating herself, but she's giving most of the resources to SOP-II.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I see. I'll go check on RO.
-AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Alright.
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:AR-18 walks up to the repair tank, where a dormant SOP-II is currently undergoing repairs.
-RO635Mod(3)<Speaker>RO635</Speaker>||<SE1>Stop_AVG_loop</SE1>:What is it? Are we getting another gig?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;RO635Mod(3)||:Not at the moment. I've just come to see how you're doing.
-AR18(2)<Position>0,70</Position>;RO635Mod(0)<Speaker>RO635</Speaker>||:I'm okay. I'm ready for battle as long as there's enough ammo.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;RO635Mod(0)||:But the injury on your back...
-AR18(5)<Position>0,70</Position>;RO635Mod(5)<Speaker>RO635</Speaker>||:... +Oh, it's not a big deal. It won't affect my performance.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I'll defer to your judgment.
-RO635Mod(3)<Speaker>RO635</Speaker>||:How's the Commander? Are they resting?
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:The door to the repair workshop is suddenly pushed open, and Erma comes walking in.
-RO635Mod(3)<Speaker>RO635</Speaker>||:Has something happened?
-Erma(19)<Speaker>Erma</Speaker>||:The Commander wants to interrogate William and has sent me to fetch Dandelion.
-RO635Mod(3)<Speaker>RO635</Speaker>||:...Now? Is it safe? The Commander hasn't slept a wink for days. Can't this wait...?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:I will run another security sweep on our system.
-RO635Mod(0)<Speaker>RO635</Speaker>||:Right... +Just to be safe, we must station additional personnel during the interrogation. I can—
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:Bam! +Dandelion walks smack into the repair tank as if she's in a trance and crashes to the floor.
-RO635Mod(4)<Speaker>RO635</Speaker>||:SOP-II!
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:RO635 rushes past Dandelion to examine the repair tank. +After ensuring that SOP-II's repairs are unhindered, she pulls Dandelion off the floor.
-Erma(23)<Speaker>Erma</Speaker>||:What is she doing?
-RO635Mod(2)<Speaker>RO635</Speaker>||:She's been like this every now and then ever since we withdrew from Avernus. She'd walk right into things as if her visual module were malfunctioning.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Is something wrong with her?
-RO635Mod(2)<Speaker>RO635</Speaker>||:I just ran a diagnostic on her, but not only did the Elmo's system not pick up any issues, it even froze for a few seconds...
-Erma(19)<Speaker>Erma</Speaker>||:Dandelion! The Commander is asking for you!
-()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_21Winter_Open_Light</SE1><BGM>BGM_Empty</BGM>:Snap!
-()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:Dandelion's voice is exceptionally clear in the dark.
-NytoIsomer(3)<Speaker>Dandelion</Speaker>||:Did you hear it?
-Erma(17)<Speaker>Erma</Speaker>||:Hear what?
-()<Speaker></Speaker>||:Dandelion walks right up to Erma.
-NytoIsomer(3)<Speaker>Dandelion</Speaker>||:At the Lake of Cognition. You heard it too, didn't you?
-Erma(17)<Speaker>Erma</Speaker>||:No... I didn't hear anything.
-NytoIsomer(3)<Speaker>Dandelion</Speaker>||:...Is that so? +Well, you'll hear it very soon.
-Erma(17)<Speaker>Erma</Speaker>||:Dandelion, snap out of it, will you?! +The Commander is asking for you!
-NytoIsomer(3)<Speaker>Dandelion</Speaker>||:I know. I'll head over to them now. +As for you... You'll soon reach the depths of the lake.
-Erma(17)<Speaker>Erma</Speaker>||:What are you talking about...?
-()<Speaker></Speaker>||:Dandelion simply smiles.
-NytoIsomer(4)<Speaker>Dandelion</Speaker>||:I'll be waiting for you. +I'll be waiting for you to hand it over to me, Erma. +But right now, I have a mission to attend to.
-Erma(19)<Speaker>Erma</Speaker>||:...
-NytoIsomer(4)<Speaker>Dandelion</Speaker>||:I must inform the Commander in person.
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:Dandelion leaves the room.
+()<Speaker></Speaker>||<黑点2><BGM>GF_EV9_Story</BGM><SE1>AVG_door_elecport</SE1><BIN>22</BIN>:……エルモ号、修復室。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:ROになんか用？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:各小隊の状態を確認したい。
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||:今はSOP IIの修復をしている最中。+損傷率90%だけど、予備の素体がないから、とりあえず//n基本的な機能だけ復帰させればいいって感じ。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:RO635の方は？
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||:そっちも大分重傷、だけどほとんどのリソースをSOP IIに回しているわ。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:了解した。RO635の様子を確認して来る。
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:ええ。
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:休眠状態で修復を受けているSOP IIのメンテナンスドックの前に、//nAR-18は立った。
+RO635Mod(3)<Speaker>RO635</Speaker>||<SE1>Stop_AVG_loop</SE1>:新しい任務ですか？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>;RO635Mod(3)||:今のところはない。君たちの様子を見に来ただけだ。
+AR18(2)<Position>0,70</Position>;RO635Mod(0)<Speaker>RO635</Speaker>||:わたしは問題ありません。弾薬の補給さえ受ければ、いつでも戦えます。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>;RO635Mod(0)||:しかしその傷では……
+AR18(5)<Position>0,70</Position>;RO635Mod(5)<Speaker>RO635</Speaker>||:……+別に大したことないですよ、ちゃんと行動できます。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……その判断を信じよう。
+RO635Mod(3)<Speaker>RO635</Speaker>||:指揮官は？　もう休みましたか？
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:この時、エルマも修復室に入ってきた。
+RO635Mod(3)<Speaker>RO635</Speaker>||:どうかしました？
+Erma(19)<Speaker>エルマ</Speaker>||:指揮官がウィリアムを尋問したいから、ダンデライオンを連れてきてって。
+RO635Mod(3)<Speaker>RO635</Speaker>||:……今からですか？　ここんとこずっと休んでいないんですから、//n別に今じゃなくても……
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:セキュリティー設備のチェックをもう一度してこよう。
+RO635Mod(0)<Speaker>RO635</Speaker>||:ええ……+念のため、尋問中は警備を増やした方がいいですね。わたしも――
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:（ガタッ――）+さっきからずっとフラフラしていたダンデライオンが、//n突然メンテナンスドックにぶつかって転んだ。
+RO635Mod(4)<Speaker>RO635</Speaker>||:SOP II！
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:RO635はダンデライオンよりもSOP IIのことが気になったようだ。+修復作業に問題はない事を確認した後、//nRO635はダンデライオンを引き起こす。
+Erma(23)<Speaker>エルマ</Speaker>||:大丈夫なの？
+RO635Mod(2)<Speaker>RO635</Speaker>||:アヴェルヌスを出てからずっとこう……突然魂でも抜けたように//nフラフラと歩くんです……
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:ダンデライオンになにか故障か？
+RO635Mod(2)<Speaker>RO635</Speaker>||:チェックはしましたけど、特に問題は見当たらなかった。//nエルモ号のシステムで検査しても同じ結果で、しかもなぜか数秒間//nエルモ号のシステムが落ちてしまって……
+Erma(19)<Speaker>エルマ</Speaker>||:ダンデライオン！　聞こえてる？　指揮官が呼んでいるよ。
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_21Winter_Open_Light</SE1><BGM>BGM_Empty</BGM>:（パッ――）
+()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM>:急に修復室の照明が落ちた。暗闇の中、ダンデライオンの声だけが、//nはっきりと聞こえてくる。
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:聞こえている？
+Erma(17)<Speaker>エルマ</Speaker>||:なにを？
+()<Speaker></Speaker>||:ダンデライオンはエルマの前に近寄る。
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:クレイドル・レイク。あの時、あなたも聞こえていたのでしょ？
+Erma(17)<Speaker>エルマ</Speaker>||:いや……あたしは何も……
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:……そう？+でも、もうすぐ聞こえるようになるわ。
+Erma(17)<Speaker>エルマ</Speaker>||:ダンデライオン、急にどうしたの？+指揮官が呼んでいるよ？
+NytoIsomer(3)<Speaker>ダンデライオン</Speaker>||:分かったわ。今すぐ指揮官のところに行く。+でも、あなたはもうすぐ、泉深くにたどり着くことになる。
+Erma(17)<Speaker>エルマ</Speaker>||:一体なんの話……
+()<Speaker></Speaker>||:ダンデライオンは静かに微笑む。
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker>||:待っているわ。+エルマ、私はあなたからの預かり物を待っている。+ただ今は、任務の方が先だけど。
+Erma(19)<Speaker>エルマ</Speaker>||:……
+NytoIsomer(4)<Speaker>ダンデライオン</Speaker>||:指揮官にも教えないとね。
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:ダンデライオンは、そのまま部屋を出た。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><SE1>AVG_keyboardtype_sci</SE1>:AR-18 restores the lights inside the room.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Her neural cloud doesn't seem very stable. Is she really okay?
-AR15Mod(4)<Speaker>ST AR-15</Speaker>||:This isn't exactly unusual for her.
-AR15Mod(4)<Speaker>ST AR-15</Speaker>||<BGM>BGM_Empty</BGM>:Just let her go. She can take her cuckoo rambling somewhere else.
+()<Speaker></Speaker>||<黑屏2><BIN>22</BIN><SE1>AVG_keyboardtype_sci</SE1>:暫くして、部屋の照明が復旧した。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||:メンタルが安定していないように見えるが、本当に問題ないのか？
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||:いつもあんな感じだよ。
+AR15Mod(4)<Speaker>ST AR-15</Speaker>||<BGM>BGM_Empty</BGM>:もう好きにさせたら？
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>683</BIN>:
-()<Speaker></Speaker>||:Ops room on board the Elmo.
+()<Speaker></Speaker>||:……エルモ号、司令室。
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Doorbell</SE1><CGDelay>0.8</CGDelay>:
-()<Speaker></Speaker>||<BGM>GF_21summer_avg_Reunion</BGM>:<color=#00CCFF>"Self-diagnostic is at 95%. Estimated completion time in one minute. The communications system has been fully repaired."</color> +After checking in on the statuses of Daybreak and the Sangvis Ferri units, AR-18 heads back to the ops room.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||<SE1>AVG_tele_connect</SE1>:Commander, is everything going well? Should I come over?
-AR18(5)<Speaker>Commander</Speaker><Position>0,70</Position><同时置暗>||:<color=#00CCFF>Everything is fine. You don't have to come; I've got Dandelion here.</color> +<color=#00CCFF>Have you finished checking up on all the Dolls?</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Yes. The self-diagnostic is also completed. The Elmo's damage level is less than 5%. Should I activate the autopilot?
-AR18(2)<Speaker>Commander</Speaker><Position>0,70</Position><同时置暗>||:<color=#00CCFF>Go ahead.</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Copy that.
-()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:AR-18 turns on the Elmo's vehicle-wide broadcast channel.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Attention, all personnel. Operation Muromets has officially concluded. Please fasten your seatbelt as the Elmo will start cruising on autopilot shortly.
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:Click. +The door opens, and someone slips in quietly.
-()<Speaker></Speaker>||:AR-18 is aware that the person who just entered the room has placed an energy rod on the desk, even though she doesn't look up.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...Stop moving around. It's not going to be a smooth ride driving through the Black Zone on autopilot.
-Erma(17)<Speaker>Erma</Speaker>||:How did you know it was me?
-Erma(19)<Speaker>Erma</Speaker>||:Looks like my stealth mode still isn't much good...
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...Just sit here. You may fall over if you keep wandering about.
-Erma(19)<Speaker>Erma</Speaker>||:Okay.
+()<Speaker></Speaker>||<BGM>GF_21summer_avg_Reunion</BGM>:<color=#00CCFF>「セルフチェック進行度95%、通信設備の修復完了、//n全項目1分後に完了する予定です」</color>+アウロラと鉄血の様子を確認した後、AR-18は司令室に戻り、待機した。
+AR18(5)<Speaker>AR-18</Speaker><Position>0,70</Position>||<SE1>AVG_tele_connect</SE1>:指揮官、何か問題は？　私もそちらに向かいましょうか？
+AR18(5)<Speaker>指揮官</Speaker><Position>0,70</Position><同时置暗>||:<color=#00CCFF>大丈夫、問題ない。ダンデライオンもこっちにいる。</color>+<color=#00CCFF>人形たちの状態確認は終わったか？</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:完了しました。エルモ号のセルフチェックも終了しました、//n損傷率は5%以下です。自動操縦を開始しますか？
+AR18(2)<Speaker>指揮官</Speaker><Position>0,70</Position><同时置暗>||:<color=#00CCFF>開始して。</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:了解。
+()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:AR-18はエルモ号全体に向けてアナウンスする。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:全乗組員注意、ムーロメツ作戦は終了した。//nこれより、エルモ号は自動操縦モードに入り、予定の目標地点へ向かう。
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:（カッ――）+誰かがドアを開き、コソコソと司令室に入ってきた。
+()<Speaker></Speaker>||:そしてそっと、机にチョコレートバーを1本置いた。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……気をつけろ、ブラックエリアの道は平坦ではない、//nあまり車内を歩き回らない方がいい。
+Erma(17)<Speaker>エルマ</Speaker>||:なんで分かったの？
+Erma(19)<Speaker>エルマ</Speaker>||:ステルスモードがまだうまく使えない……
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……もうここにいろ、転んで怪我でもされたら困る。
+Erma(19)<Speaker>エルマ</Speaker>||:はーい。
 ()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>ClothingUp</SE1>:
-Erma(19)<Speaker>Erma</Speaker>||:I've looked through the comms logs and checked the data transfer.
-Erma(19)<Speaker>Erma</Speaker>||<SE1>AVG_20Winter_Book</SE1>:The name list is here.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Right, got it.
-Erma(23)<Speaker>Erma</Speaker>||:Anything else I can do?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:No.
-Erma(14)<Speaker>Erma</Speaker>||:Then I'll pour you a coffee!
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:No, thank you.
-Erma(14)<Speaker>Erma</Speaker>||:Do you want milk or sugar? I like my hazelnut latte with triple syrup!
-AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:...
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:Erma picks up the coffee pot and pours the brown liquid into a coffee mug.
-Erma(14)<Speaker>Erma</Speaker>||:By the way, this coffee is—
-()<Speaker></Speaker>||<震屏3><BGM>BGM_Empty</BGM><SE1>AVG_XXS_kick</SE1>:Thunk! +Erma suddenly collapses to the floor. Fortunately, the coffee pot remains on the desk.
-AR18(4)<Speaker>AR-18</Speaker><Position>0,70</Position>||:Oh no...
+Erma(19)<Speaker>エルマ</Speaker>||:通信記録及び回線の状態の確認は終わった。
+Erma(19)<Speaker>エルマ</Speaker>||<SE1>AVG_20Winter_Book</SE1>:詳細はここにまとめてある。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:ああ、分かった。
+Erma(23)<Speaker>エルマ</Speaker>||:他になにかできることは？
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:ない、もう十分だ。
+Erma(14)<Speaker>エルマ</Speaker>||:じゃあ、コーヒーを淹れてあげる！
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:いい。
+Erma(14)<Speaker>エルマ</Speaker>||:砂糖とミルクはいる？　あたしはナッツラテに//n角砂糖3個入れるのが好きだけど。
+AR18(2)<Speaker>AR-18</Speaker><Position>0,70</Position>||:……
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:言いながら、エルマはポットからコーヒーを注ぎ始めた。
+Erma(14)<Speaker>エルマ</Speaker>||:そういえば、このコーヒーは――
+()<Speaker></Speaker>||<震屏3><BGM>BGM_Empty</BGM><SE1>AVG_XXS_kick</SE1>:（ガタッ――）+いきなり、エルマが倒れた。幸い、コーヒーポットは落とさずに済んだ。
+AR18(4)<Speaker>AR-18</Speaker><Position>0,70</Position>||:まずい……
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_whitenoise</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><BIN>683</BIN>:
 ()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><BIN>9</BIN>:
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><BIN>683</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><BIN>9</BIN>:AR-18 rushes over to determine the situation, but before she can even form a question, her consciousness is detached from her body akin to feeling an electric shock. +What follows is endless darkness. +A deathly silence engulfs the Elmo in an instant like a thick fog rolling in, drowning out all other noise. +And so in the early hours of October 23rd 2064, the Elmo carries its unconscious passengers as it travels slowly along its plotted course.
-()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><BIN>9</BIN>:AR-18はすぐさま状況を確認しようとしたが、行動を起こすよりも先に、//nエルマと同じように、一瞬で意識が途切れた。+果てしない闇が、AR-18に襲い掛かる。+吹き荒れる風が瞬く間にエルモ号を呑み込み、あらゆる音を捻り潰した。+2064年10月23日の未明、眠ったままのエルモ号が、//nゆっくり既定路線に沿って進んでいく。
+()||<黑屏1>:
