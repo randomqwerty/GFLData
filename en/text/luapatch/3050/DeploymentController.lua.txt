@@ -65,6 +65,10 @@ end
 local HasGunAlive = function(self)
 	return self.squadTeam.squadData.life > 0;
 end
+local InitUIElements = function(self)
+	self:InitUIElements();
+	self.simpleSaveNode.gameObject:SetActive(false);
+end
 util.hotfix_ex(CS.DeploymentController,'ReastSkillCD',ReastSkillCD)
 util.hotfix_ex(CS.DeploymentController,'PlayMoveRecord',PlayMoveRecord)
 util.hotfix_ex(CS.DeploymentSquadInfoController,'Show',Show)
@@ -74,3 +78,4 @@ util.hotfix_ex(CS.DeploymentEnemyInfoNew,'ShowSquadTeam',ShowSquadTeam)
 util.hotfix_ex(CS.DeploymentEnemyInfoNew,'ShowMapInfo',ShowMapInfo)
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSquadTeamController,'HasGunAlive',HasGunAlive)
+util.hotfix_ex(CS.DeploymentFloatingTeamInfo,'InitUIElements',InitUIElements)
