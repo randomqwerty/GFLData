@@ -15596,6 +15596,34 @@
     "formula": "sbuffidtier(9574)=0?110:120"
   },
   {
+    "id": 9490,
+    "formula": "sbuffidtier(9620)=1&sbuffidtier(9621)=1?1:0"
+  },
+  {
+    "id": 9491,
+    "formula": "sbuffidtier(9623)=1&sbuffidtier(9624)=1?1:0"
+  },
+  {
+    "id": 9492,
+    "formula": "sbuffidtier(9622)=1?1:0"
+  },
+  {
+    "id": 9493,
+    "formula": "sbuffidtier(9622)=1?0:1"
+  },
+  {
+    "id": 9494,
+    "formula": "sbufftypetier(101)+sbufftypetier(801)"
+  },
+  {
+    "id": 9495,
+    "formula": "$1<(sbufftypetier(101)+sbufftypetier(801))?1:0"
+  },
+  {
+    "id": 9496,
+    "formula": "sbuffidtier(9625)=1?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
