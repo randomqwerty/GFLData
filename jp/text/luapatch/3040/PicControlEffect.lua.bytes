@@ -9,6 +9,9 @@ local ShowOriginal = function(self)
 		--CS.NDebug.Log("ShowOriginal赋值",self.mat,image.material);
 	end
 	self:ShowOriginal();
+	if self.currentEffect == CS.PicControlEffect.Effect.Tongxun then
+		self.mat.shader = CS.ResManager.GetObjectByPath("Shader/UGUIAVGCommunicationBox",".shader");
+	end	
 end
 local DoVibrate = function(self)
 	local image = self.transform:GetComponent(typeof(CS.UnityEngine.UI.Image));
@@ -27,6 +30,7 @@ local ShowMessageEffect = function(self,time)
 		--CS.NDebug.Log("ShowMessageEffect赋值",self.mat,image.material);
 	end
 	self:ShowMessageEffect(time);
+	self.mat.shader = CS.ResManager.GetObjectByPath("Shader/UGUIAVGCommunicationBox",".shader");
 end
 util.hotfix_ex(CS.PicControlEffect,'ShowOriginal',ShowOriginal)
 util.hotfix_ex(CS.PicControlEffect,'DoVibrate',DoVibrate)
