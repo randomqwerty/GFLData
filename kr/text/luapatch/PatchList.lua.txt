@@ -326,7 +326,8 @@ patch3040=
 "3040/DeploymentAllyTeamController",		
 "3040/DeploymentUIController",
 "3040/DeploymentController",
-"3040/DeploymentSpotController",		
+"3040/DeploymentSpotController",
+"3040/DeploymentBuildSkillItem",			
 "3040/MissionData",
 "3040/MissionSelectionController",		
 "3040/GarageVehiclePlatformController",	
@@ -406,7 +407,8 @@ patch3050=
 "3040/AVGCreditsController",
 "3050/AVGController",		
 "3050/BattleManager",	
-"3040/Vehicle",	
+"3040/Vehicle",
+"3040/ReinforcementController",		
 "3050/BattleChangeBackgroundPerformanceController",
 "3050/MissionSkillData",
 "3050/EquipGourpEquipListController",
@@ -414,6 +416,12 @@ patch3050=
 "3050/CommonGetNewSangvisGunController",
 "3050/EquipGroupProgressLable",
 "3050/BattleUIDamageController",
+}
+patch3060=
+{
+"3060/HomeController",
+"3060/OPSPanelController",
+"3060/ExchangeShopItemController",
 }
 -- va11
 print("load Va11");

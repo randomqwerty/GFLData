@@ -420,6 +420,8 @@ patch3050=
 patch3060=
 {
 "3060/HomeController",
+"3060/OPSPanelController",
+"3060/ExchangeShopItemController",
 }
 -- va11
 print("load Va11");
