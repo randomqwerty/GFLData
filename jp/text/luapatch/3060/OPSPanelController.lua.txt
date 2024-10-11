@@ -16,7 +16,7 @@ local ShowItemLimitUINew = function(self,itemids)
 				image.fillAmount = 0;
 			end
 		end
-		local showTipObj =self.itemuiObjNew.transform:Find("GameObject");
+		local showTipObj =self.itemuiObjNew.transform:Find("TouchArea");
 		if showTipObj ~= nil then
 			local tip = showTipObj:GetComponent(typeof(CS.CommonShowTip));
 			local language = CS.Data.GetLang(60826);
