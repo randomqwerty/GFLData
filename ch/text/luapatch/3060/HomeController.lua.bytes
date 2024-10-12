@@ -10,6 +10,16 @@ local ShowUI = function(self)
 		CS.HomeUserInfoNewController.Instance:InitEmoji()
 	end
 end
+
+local CheckItemData = function(self)
+	if CS.GameData.missionAction ~= nil then
+		if CS.GameData.missionAction.missionInfo.campaign == 0 then
+			return;
+		end
+	end
+	self:CheckItemData();
+end
 util.hotfix_ex(CS.HomeController,'ShowUI',ShowUI)
+util.hotfix_ex(CS.HomeController,'CheckItemData',CheckItemData)
 
 
