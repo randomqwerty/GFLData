@@ -5372,6 +5372,10 @@
     "formula": "@dodge*0.25"
   },
   {
+    "id": 2455,
+    "formula": "0"
+  },
+  {
     "id": 3001,
     "formula": "170+sbuffidtier(3300)*22"
   },
@@ -14532,6 +14536,22 @@
     "formula": "$1*(1+(1-#life/#maxlife)*100*(0.001+0.0002*sbuffidtier(60006)))/#formation+tbufftypetier(601)"
   },
   {
+    "id": 6101,
+    "formula": "tbuffidtier(6101)>0?100:0"
+  },
+  {
+    "id": 6102,
+    "formula": "tbuffidtier(6101)>0?6104:6102"
+  },
+  {
+    "id": 6103,
+    "formula": "tbuffidtier(6101)>0?6105:6103"
+  },
+  {
+    "id": 6104,
+    "formula": "sbuffidtier(15048)>0?$1:$1*(1+(sbuffidtier(6107)*0.01))"
+  },
+  {
     "id": 7000,
     "formula": "#location=1?1:0"
   },
@@ -14626,6 +14646,134 @@
   {
     "id": 7023,
     "formula": "@Maxlife/@gunnumber*0.96"
+  },
+  {
+    "id": 7024,
+    "formula": "sbuffidtier(5300)=1?$1*(1+@armor/100):$1"
+  },
+  {
+    "id": 7025,
+    "formula": "@shield*0.5"
+  },
+  {
+    "id": 7026,
+    "formula": "@shield*0.56"
+  },
+  {
+    "id": 7027,
+    "formula": "@shield*0.61"
+  },
+  {
+    "id": 7028,
+    "formula": "@shield*0.67"
+  },
+  {
+    "id": 7029,
+    "formula": "@shield*0.72"
+  },
+  {
+    "id": 7030,
+    "formula": "@shield*0.78"
+  },
+  {
+    "id": 7031,
+    "formula": "@shield*0.83"
+  },
+  {
+    "id": 7032,
+    "formula": "@shield*0.89"
+  },
+  {
+    "id": 7033,
+    "formula": "@shield*0.94"
+  },
+  {
+    "id": 7034,
+    "formula": "@shield*1"
+  },
+  {
+    "id": 7035,
+    "formula": "@shield>0?1:0"
+  },
+  {
+    "id": 7050,
+    "formula": "sbuffidtier(151)>0?sbuffidtier(5296)>0?1:0:0"
+  },
+  {
+    "id": 7051,
+    "formula": "sbuffidtier(151)>0?sbuffidtier(5296)>0?0:1:0"
+  },
+  {
+    "id": 7052,
+    "formula": "sbuffidtier(5296)>0?1:0"
+  },
+  {
+    "id": 7053,
+    "formula": "1*(1-@def/@maxdef)+$1"
+  },
+  {
+    "id": 7054,
+    "formula": "tbuffidtier(5321)*(1-#def/#maxdef)+$1"
+  },
+  {
+    "id": 8501,
+    "formula": "tbuffidtier(580601)>0?1:0"
+  },
+  {
+    "id": 8502,
+    "formula": "tbuffidtier(580701)>0?1:0"
+  },
+  {
+    "id": 8503,
+    "formula": "#armor>0?#Maxlife/#gunnumber0.06:#Maxlife/#gunnumber*0.03"
+  },
+  {
+    "id": 8504,
+    "formula": "#armor>0?#Maxlife/#gunnumber0.06:#Maxlife/#gunnumber*0.03"
+  },
+  {
+    "id": 8505,
+    "formula": "#armor>0?#Maxlife/#gunnumber0.06:#Maxlife/#gunnumber*0.03"
+  },
+  {
+    "id": 8506,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8507,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8508,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8509,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.08:#Maxlife/#gunnumber*0.04"
+  },
+  {
+    "id": 8510,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.1:#Maxlife/#gunnumber*0.05"
+  },
+  {
+    "id": 8511,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.1:#Maxlife/#gunnumber*0.05"
+  },
+  {
+    "id": 8512,
+    "formula": "#armor>0?#Maxlife/#gunnumber*0.1:#Maxlife/#gunnumber*0.05"
+  },
+  {
+    "id": 8513,
+    "formula": "@armor>0?@Maxlife/@gunnumber*2*sbuffidtier(580901)/100:@Maxlife/@gunnumber*sbuffidtier(580901)/100"
+  },
+  {
+    "id": 8514,
+    "formula": "sbuffidtier(580603)"
+  },
+  {
+    "id": 8515,
+    "formula": "sbuffidtier(580601)>0?1:0"
   },
   {
     "id": 9001,
@@ -15398,6 +15546,118 @@
   {
     "id": 9454,
     "formula": "sbuffidtier(9557)=1?$1*1.25:$1"
+  },
+  {
+    "id": 9455,
+    "formula": "sbuffidtier(9569)=1&sbuffidtier(9570)=1?1:0"
+  },
+  {
+    "id": 9456,
+    "formula": "sbuffidtier(9572)=1&sbuffidtier(9573)=1?1:0"
+  },
+  {
+    "id": 9457,
+    "formula": "sbuffidtier(9571)=0?0:@formation"
+  },
+  {
+    "id": 9458,
+    "formula": "sbuffidtier(9571)=0?1:0"
+  },
+  {
+    "id": 9459,
+    "formula": "sbuffidtier(9571)=0?0:#armor>0?@ap*0.5:0"
+  },
+  {
+    "id": 9460,
+    "formula": "sbuffidtier(9574)=0?0:1"
+  },
+  {
+    "id": 9461,
+    "formula": "sbuffidtier(9574)=0?105:110"
+  },
+  {
+    "id": 9462,
+    "formula": "sbuffidtier(9574)=0?106:112"
+  },
+  {
+    "id": 9463,
+    "formula": "sbuffidtier(9574)=0?107:114"
+  },
+  {
+    "id": 9464,
+    "formula": "sbuffidtier(9574)=0?108:116"
+  },
+  {
+    "id": 9465,
+    "formula": "sbuffidtier(9574)=0?109:118"
+  },
+  {
+    "id": 9466,
+    "formula": "sbuffidtier(9574)=0?110:120"
+  },
+  {
+    "id": 9467,
+    "formula": "sbuffidtier(9580)"
+  },
+  {
+    "id": 9468,
+    "formula": "sbuffidtier(9585)>0?0:1"
+  },
+  {
+    "id": 9469,
+    "formula": "sbuffidtier(9595)"
+  },
+  {
+    "id": 9470,
+    "formula": "sbuffidtier(9591)>0?tbuffidtier(9595):0"
+  },
+  {
+    "id": 9471,
+    "formula": "sbuffidtier(9599)"
+  },
+  {
+    "id": 9472,
+    "formula": "tbuffidtier(9600)>0?0:1"
+  },
+  {
+    "id": 9473,
+    "formula": "@gunnumber"
+  },
+  {
+    "id": 9490,
+    "formula": "sbuffidtier(9620)=1&sbuffidtier(9621)=1?1:0"
+  },
+  {
+    "id": 9491,
+    "formula": "sbuffidtier(9623)=1&sbuffidtier(9624)=1?1:0"
+  },
+  {
+    "id": 9492,
+    "formula": "sbuffidtier(9622)=1?1:0"
+  },
+  {
+    "id": 9493,
+    "formula": "sbuffidtier(9622)=1?0:1"
+  },
+  {
+    "id": 9494,
+    "formula": "sbufftypetier(101)+sbufftypetier(801)"
+  },
+  {
+    "id": 9495,
+    "formula": "$1<(sbufftypetier(101)+sbufftypetier(801))?1:0"
+  },
+  {
+    "id": 9496,
+    "formula": "sbuffidtier(9625)=1?1:0"
+  },
+  {
+    "id": 9497,
+    "formula": "sbuffidtier(9614)=0?1:0"
+  },
+  {
+    "id": 9498,
+    "formula": "sbuffidtier(9614)=0?0:1"
   },
   {
     "id": 13280,

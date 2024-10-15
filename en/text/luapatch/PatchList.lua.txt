@@ -421,6 +421,10 @@ patch3060=
 {
 "3060/HomeController",
 "3060/OPSPanelController",
+"3060/ExchangeShopItemController",
+"3060/Data",
+"3060/PrizeInfoBoxCtrl",
+"3060/CommonIconController",
 }
 -- va11
 print("load Va11");
