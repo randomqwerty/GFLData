@@ -16,15 +16,47 @@ local ShowItemLimitUINew = function(self,itemids)
 				image.fillAmount = 0;
 			end
 		end
-		local showTipObj =self.itemuiObjNew.transform:Find("GameObject");
+		local showTipObj =self.itemuiObjNew.transform:Find("TouchArea");
 		if showTipObj ~= nil then
 			local tip = showTipObj:GetComponent(typeof(CS.CommonShowTip));
 			local language = CS.Data.GetLang(60826);
 			local tipText = CS.System.String.Format(language, tostring(num1));
 			tip.strIntroduction = tipText;
+			tip.strTitle = itemabout.iteminfo.name;
 		end
 	end
 end
 
+local InitPanelSpot = function(self,spot)
+	self.panelSpot = spot;
+	self.mission = spot.mission;
+	self.opsMission = spot.opsMission;
+	self.missionInfo = spot.missionInfo;
+	self.entranceId = spot.opsMission.entranceId;
+	self:RefreshEntranceUI();
+	self:RefresCommonUI();
+	if self.opsMission ~= nil then
+		self:ShowNewReward();
+	else
+		self:ShowOldReward();
+	end
+	self:CheckInfoPos();
+end
+
+local LoadLeftBG = function(self)
+	if not CS.OPSConfig.Instance.OPSLeftBGNormalActivity:ContainsKey(self.campaionId) then
+		return;
+	end
+	local path = "Pics/ActivityMap/"..CS.OPSConfig.Instance.OPSLeftBGNormalActivity[self.campaionId];
+	local bgObj = CS.ResManager.GetObjectByPath(path);
+	if bgObj == nil then
+		return;
+	end
+	local bg = CS.UnityEngine.GameObject.Instantiate(bgObj);
+	bg.transform:SetParent(self.leftMain, false);
+	bg.transform:SetAsFirstSibling();
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
+util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
+util.hotfix_ex(CS.SpecialMissionInfoController,'InitPanelSpot',InitPanelSpot)
 
