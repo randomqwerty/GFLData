@@ -19,7 +19,22 @@ local CheckItemData = function(self)
 	end
 	self:CheckItemData();
 end
+local mOnClickScaleUI = function(self,isScale)
+	self:OnClickScaleUI(isScale)
+	local canvasGroup = self.btnReturnPlayerObj:GetComponent(typeof(CS.UnityEngine.CanvasGroup));
+	if canvasGroup==nil or canvasGroup:isNull() then
+		canvasGroup=self.btnReturnPlayerObj:AddComponent(typeof(CS.UnityEngine.CanvasGroup));
+	end
+	if canvasGroup ~= nil and not canvasGroup:isNull() then
+		if isScale==true then
+			canvasGroup.alpha = 0.3;
+		else		
+			canvasGroup.alpha = 1;
+		end		
+	end
+end
 util.hotfix_ex(CS.HomeController,'ShowUI',ShowUI)
 util.hotfix_ex(CS.HomeController,'CheckItemData',CheckItemData)
+util.hotfix_ex(CS.HomeController,'OnClickScaleUI',mOnClickScaleUI)
 
 

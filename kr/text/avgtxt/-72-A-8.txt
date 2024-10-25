@@ -1,234 +1,234 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:……深夜，奈乐的房间。+在深沉的睡梦中，奈乐翻身，将被子往身上裹了裹。+温暖舒适的被窝正酝酿着朦胧模糊的梦话。
-()<Speaker>奈乐</Speaker>||:……要开始……抢课了……+系统……又崩了……+啊！没抢到……格雷老师的……
+()<Speaker></Speaker>||:심야, 넬레의 방.+따뜻하고 푹신한 이부자리 덕분일까, 넬레는 깊게 잠들어 있었다.+이불을 몸에 감고 뒤척이며 잠꼬대까지 하면서.
+()<Speaker>넬레</Speaker>||:수강 신청... 시작...한드으...+시스, 테엠... 또 터져써어어...+아... 아! 놓쳤드아! 수업... 그레이 교수임...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<回忆><CGDelay>0.5</CGDelay><黑屏2><BIN>553</BIN><BGM>m_avg_casual</BGM>:
-()<Speaker></Speaker>||:……海德堡大学，第三基础教学楼走廊。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:哒哒哒——狂奔的脚步声伴随着同样猛烈的喘气，奈乐的身影出现在了走廊拐角。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:赶上了！甚至还提前了五分钟！+还好没有错过格雷教授的课！
-()<Speaker></Speaker>||:奈乐的欣喜若狂还没持续一秒，就凝固在了脸上。
-()<Speaker></Speaker>||:往日冷清的走廊，现在挤满了人群，看他们或竭力伸长脖子，或抬高手臂想要拍摄教室内，想来全都是为了格雷教授难得一见的公开课而来。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……
-()<Speaker>同学1</Speaker>||:怎么提前半小时来还是只剩走廊的位置了啊！
-()<Speaker>同学2</Speaker>||:你不知道格雷教授有多受欢迎？我们医学院每学期抢课，都是先抢她的！
-()<Speaker>同学3</Speaker>||:而且听说格雷教授这次还会讲讲看她是怎么写论文的，真是救大命了！我完全没有头绪！
-()<Speaker>同学1</Speaker>||:论文？是她最新发表的孤独症脑功能网络的那篇？哦，难怪这门课也叫这个……
-()<Speaker>同学3</Speaker>||:一看你就不着急写论文，位置让给我吧，谢谢你了！
-()<Speaker>同学2</Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:哎，你干什么？！挤什么挤！
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake>:严丝合缝的人墙出现了波动，正在烦恼的奈乐眼前一亮，一条绝佳的道路出现在了眼前。
-NPC-Nele(0)<Speaker>奈乐</Speaker><Shake>||<SE1>AVG_Creep</SE1>:不好意思，不好意思……
-()<Speaker>同学1</Speaker>||:谁啊？是谁在挤我！
-()<Speaker>同学2</Speaker>||:你装什么？明明是你在挤我！
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:用书包护住要害部位，奈乐加入了混战的人群，像是逆流而上的鲟鱼，奈乐艰难地在浪潮和石头间摸索出一条道路。
-()<Speaker>同学4</Speaker>||:都别挤了！再往前就是——
-NPC-Nele(0)<Speaker>奈乐</Speaker><Shake>||:不好意思，不好意思……
-()<Speaker></Speaker>||:这几个字俨然成为了她的咒语，只要念诵起来就所向无敌，前往之地皆成坦途。+前方隐隐有光从几个同学的身体轮廓边透出，奈乐知道自己距离胜利不远了！
-NPC-Nele(0)<Speaker>奈乐</Speaker><Shake>||<SE1>AVG_Creep</SE1>:不好意思——
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3><BGM>BGM_Empty</BGM>:灵活地避开最后几个阻碍，奈乐的视野瞬间开阔了——
+()<Speaker></Speaker>||:하이델베르크 대학, 제3기초강의동 복도.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:급한 발소리를 내면서, 가쁜 숨을 몰아쉬는 넬레가 복도의 모퉁이에서 튀어나왔다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:5분 일찍 도차아악!+휴우, 하마터면 그레이 교수님 강연을 놓칠 뻔했――!!!
+()<Speaker></Speaker>||:하지만 기뻐하는 것도 잠시, 넬레의 표정이 바로 굳어졌다.
+()<Speaker></Speaker>||:평소라면 썰렁할 터인 복도가, 지금은 인산인해를 이루고 있었다. 하나같이 안간힘으로 고개를 쭉 빼들거나 팔을 높이 들어 강의실 안쪽을 녹화하려는 것으로 보아, 여기 모인 이들 모두 그레이 교수의 공개 강연을 들으러 왔음이 분명했다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:......
+()<Speaker>학생1</Speaker>||:아니 어떻게 시작 30분 전부터 복도 자리밖에 안 남아?
+()<Speaker>학생2</Speaker>||:그레이 교수님 얼마나 인기 많은데. 우리 의대 쪽은 수강 신청 시즌만 되면 쟁탈전 벌어지는 순위 0위 수업이야.
+()<Speaker>학생3</Speaker>||:게다가 이번 강연에서 논문을 어떻게 쓰는지도 보여 주신댔어! 나 지금 논문 때문에 진짜 머리 터질 거 같았는데 얼마나 다행인지 몰라.
+()<Speaker>학생1</Speaker>||:논문...? 아, 최근에 발표한 그 자폐증의 뇌기능이 어쩌구 하던 그거 말이지? 그래서 강의 제목이――
+()<Speaker>학생3</Speaker>||:너 보니까 아직 논문 걱정 없나 보네? 나한테 자리 좀 양보해 주라!
+()<Speaker>학생2</Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:응? 아 뭐하는 거야 밀지 마!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake>:틈새가 없던 인파의 장벽이 흔들렸다. 그리고 어떡할까 고민하던 넬레는, 그 틈새 사이로 기적처럼 난 "통로"를 포착하고 눈을 반짝였다.
+NPC-Nele(0)<Speaker>넬레</Speaker><Shake>||<SE1>AVG_Creep</SE1>:죄송합니다, 죄송합니다――
+()<Speaker>학생1</Speaker>||:뭐야, 누가 나 밀었어!
+()<Speaker>학생2</Speaker>||:지가 나 밀었으면서 무슨 소리야!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:가방으로 급소를 보호하면서, 넬레는 혼잡한 인파 속으로 뛰어들었다. 그리고 마치 강물을 거슬러 오르는 연어처럼 길을 더듬어 나아갔다.
+()<Speaker>학생4</Speaker>||:으아악 다들 밀지 마! 조금만 자리를 양보하면——
+NPC-Nele(0)<Speaker>넬레</Speaker><Shake>||:죄송합니다, 지나갈게요――
+()<Speaker></Speaker>||:"죄송합니다", "지나갈게요"를 마법의 주문 삼아 장애물을 헤치고 나아갔다.+이윽고 학생들 사이로 빛이 보였다. 종착점이 머지 않았다.
+NPC-Nele(0)<Speaker>넬레</Speaker><Shake>||<SE1>AVG_Creep</SE1>:죄송합니다——
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3><BGM>BGM_Empty</BGM>:마지막 장애물까지 유연한 몸놀림으로 피한 넬레의 시야가 한순간에 탁 트였다. 그리고...
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>654</BIN><CGDelay>0.5</CGDelay>:
-NPC-MrsGray(2)<Speaker>？？？</Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM>:同学，你没事吧？
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:我、我没事……+不好意思，格雷教授……
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:先签到吧。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:在格雷教授的授意下，助理拿着一份清单走到奈乐面前。
-()<Speaker>助理</Speaker>||:麻烦找到你自己的那一行，签个名。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:那个……其实……我没有抢到这门课的名额……+我……是来蹭课的……
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:台下的学生们开始窃窃私语。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||<SE1>Stop_AVG_loop</SE1>:没关系，受教室规模的限制，这堂公开课的名额有限，我知道还有很多没有抢到名额的同学们来听课。+公开课的时长不短，稍后我会让助理给各位没有位置的同学分发坐垫。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:这位同学，也在助理这里登记一下姓名和专业吧。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:好的……
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:我是应用物理系大一的高奈莉娅……
-()<Speaker></Speaker>||:虽然奈乐已经尽可能压低声音，但台下的同学还是发出了不满的呼喊。
-()<Speaker>同学5</Speaker>||:应用物理系？跑来蹭我们医学院的课干嘛！
-()<Speaker>同学6</Speaker>||:就是，我们自己的同学都找不到位置呢！你们这些外系的就别来凑热闹了！
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格雷抬起手，做出噤声的手势。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:请大家安静一下。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:台下的议论即刻消散了。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:我新开设的这门《孤独症与脑功能网络》是面向全校的公开课，任何学院的同学，只要感兴趣都可以来听。+高奈莉娅同学，拿上坐垫先去坐下吧。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:好的，谢谢您……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:深深地埋下头，奈乐找到了前排座位旁的一片空地，赶紧坐下。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:说起来，我和应用物理系还有不浅的缘分。+在我读书期间，我认识了一位应用物理系的学姐，都说天赋和勤奋不可兼得，但她就是例外。+直到现在，我都没有见过比她天赋更强、更勤奋坚定的人，在我还在为未来而迷茫的时候，她已经做出了惊人的决定，放弃原来专业的所有积累，跨专业去研究新兴领域。+举个你们能理解的例子——
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:格雷叩了叩前排一位同学的桌子。
-NPC-MrsGray(0)<Speaker>格雷</Speaker>||:同学，你的专业是什么？
-()<Speaker>同学</Speaker>||:临床医学。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:假如现在让你转专业去核物理专业，你有把握能交出一篇期中小论文吗？
-()<Speaker>同学</Speaker>||:……这怎么可能，这跟我现在学的也差太多了。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:这是我们普通人的反应，对吗？+而我这位学姐，短短两年不到，就接收完了一位医学专业博士应该拥有的知识，能自如地和我聊起人类医学前景，甚至还在工作之余发了3篇SCI。
-()<Speaker>同学</Speaker>||:哇……
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:现在我们的关系依然很好，即便距离很远也经常写信交流学术成果。+但这都不是我在这里提起她的原因。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:诶？
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:我认识学姐的时候，正是我对未来感到迷茫的时刻。+我成长于柏林的一个普通家庭，在这个阶级和资源固化的世界，求学晋升之路并不平坦。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:那个年代，学术门阀现象非常严重，就读医学和成为医生之间存在着巨大的鸿沟，医生世家的情况只是常见的一种，如果你的家庭成员在医学界小有背景，那么你的学术之路必将坦途。 +虽然我热爱这门学科，但遗憾的是我没有任何相关背景，因此不论是项目经历还是深造路线……我都不得门路。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:正是那位应用物理系的学姐，她带了一个世界级的科研项目，居然邀请了没有任何背景的我。那个项目只需要挂上一个名字，就能叩开任何一家医院的大门。+她对我说——“格雷，我比任何人都要相信你的天赋和才能，来吧，站到我的身边来。你会成为医学界不可或缺的人才，特别是你的加入……会影响一整代人。”
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:经常有人问我，为什么到这个级别还在坚持高校公开课，为什么要浪费时间去批改研究生论文，大家知道我除了自己的实验室，目前依然坚持一周4次的教学门诊。+我想给新人一个机会，犹如曾经的学姐给我机会一样。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:这就是我的回答。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:我的实验室向所有人开放招聘渠道。+如果你们有想要实习的想法，都可以找我的助理咨询。+我希望不论你是住在法兰克福的富豪区，还是住在巴伐利亚州一个乡下的小房子。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:只要你热爱医学，只要你的志向是治病救人。+那我们就会成为同伴。
-()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1>:啪啪啪——+忘却之前的不愉快，台下的同学们整齐划一地鼓起掌。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:现在，我们开始上课吧。
+NPC-MrsGray(2)<Speaker>？？？</Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM>:괜찮아요, 학생?
+NPC-Nele(2)<Speaker>넬레</Speaker>||:괘, 괜찮습니다...+...죄송합니다 교수님.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:우선 출석하시죠.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:그레이 교수의 말을 듣고 조수가 리스트를 들고왔다.
+()<Speaker>조수</Speaker>||:학생의 이름을 찾아서 서명하세요.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:아, 저... 실은, 이 강연 수강 신청에 떨어져서...+그래서... 방청하려고 온 거라...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:그 말에 주위의 학생들이 술렁였다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||<SE1>Stop_AVG_loop</SE1>:괜찮아요. 강의실 크기 때문에 수강 인원 제한으로 인해 등록에 실패해서 방청하러 온 학생이 많다는 건 알고 있습니다.+강연 시간이 조금 긴 편이므로, 자리가 없는 분은 출석 체크하면서 조수에게 방석을 받으세요.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:학생도 성명과 전공을 등록해 주세요.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:아, 네...
+NPC-Nele(0)<Speaker>넬레</Speaker>||:응용물리학과 1학년, 코넬리아 슈펠입니다.
+()<Speaker></Speaker>||:최대한 목소리를 낮췄는데도, 가까이서 들은 학생들이 불만으로 다시 한 번 술렁였다.
+()<Speaker>학생5</Speaker>||:응용물리학과? 아니 그쪽이 우리 의학과 수업은 왜 들어?
+()<Speaker>학생6</Speaker>||:그래! 우리 과만 해도 수강 신청 떨어진 사람들이 수두룩한데, 아예 딴 전공이면 괜히 자리 차지하지 좀 마!
+NPC-Nele(1)<Speaker>넬레</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그레이가 검지를 세웠다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:여러분, 정숙하세요.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:강의실은 바로 조용해졌다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:이번 「자폐증과 뇌기능 네트워크」 강연은 전교생을 대상으로 한 공개 강연입니다. 전공에 상관 없이 관심이 있는 분이라면 누구나 수강할 수 있습니다.+코넬리아 학생, 방석 받고 앉으세요.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:네, 감사합니다...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:꾸벅 인사한 후, 넬레는 제일 앞줄 자리 옆의 빈 바닥을 찾아 서둘러 앉았다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:그러고 보니, 저도 응용물리학과와 제법 인연이 있답니다.+제가 아직 학생이던 시절, 응용물리학과에 아는 선배가 한 명 있었습니다. 타고난 재능과 꾸준한 노력은 양립할 수 없다고들 하지만, 그 선배는 예외였죠.+지금까지도 그 선배만큼 타고난 재능의 소유자에 꾸준한 노력파인 사람은 보지 못했어요. 제가 장래 때문에 망설일 때에도 그 선배는 더욱 놀라운 결정을 했죠. 원래 전공에서 이룩한 모든 것을 내던지고 신흥 연구 분야로 뛰어들었다면, 믿겨지시나요?+여러분이 보다 이해하기 쉽도록 비유하자면...
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:그레이가 가장 앞줄에 있는 학생 한 명의 탁자를 톡 두드렸다.
+NPC-MrsGray(0)<Speaker>그레이</Speaker>||:학생은 전공이 무엇이죠?
+()<Speaker>학생</Speaker>||:임상의학입니다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:만약 학생에게 지금 당장 핵물리학으로 전과하라 한다면, 이번 학기 내로 단편 논문이라도 제출할 수 있을까요?
+()<Speaker>학생</Speaker>||:에... 못하죠, 지금 제가 배우는 거랑 전혀 다르잖아요.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:그렇겠죠. 이것이 일반적인 반응입니다.+그런데, 그 선배는 고작 2년도 되지 않아 저와 함께 인류 의학의 전망에 대해 거침없이 토론할 만큼의 의학 박사급 지식을 터득했습니다. 심지어는 여가시간을 활용해 SCI급 논문을 3편이나 발표하기도 했죠. 
+()<Speaker>학생</Speaker>||:우와...
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:그 선배와는 여전히 친하게 지내고 있답니다. 멀리 떨어져 있지만, 자주 편지를 통해 학술적 성과를 교환하고 있어요.+다만 그저 대단하다고 이 선배의 이야기를 꺼낸 것이 아닙니다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:에?
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:제가 이 선배를 만난 것은 제가 진로로 고민하던 때입니다.+베를린의 평범한 가정에서 태어나고 자란 저에게, 이 계급과 자원이 고착화된 세상에서 발전을 도모하기란 무척이나 힘든 일이었죠.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:더군다나, 그땐 지금보다도 학벌주의가 더 심각했어요. 의학을 전공하는 것과 의사가 되는 것 사이에마저 엄청난 간극이 존재했으니까요.+가문의 후광을 받지 않는 의사가 오히려 더 드물었고, 가족 구성원 중 아주 약간이라도 의학계 배경이 있다면 무조건 앞날이 순탄했죠.+저는 지금 이 순간에도 의학이라는 이 학문을 사랑하지만, 아무런 배경이 없었습니다. 때문에 경험을 더 쌓든 학문을 더 깊게 파고들든... 앞날이 막막했어요.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:그런데 바로 그 응용물리학과의 선배가, 아무런 배경도 없는 저를 글로벌급 연구 프로젝트에 초대했죠. 이름만 올리면 세계의 어떤 내로라하는 병원에도 취직할 수 있을 정도의 프로젝트에.+그 선배는 저에게 이렇게 말했습니다. "그레이, 나는 누구보다 네가 재능을 타고났다고 믿어. 내 곁으로 와, 너는 의학계에 꼭 필요한 인재가 될 거야. 너의 합류가 이 세대의 모두에게 큰 영향을 줄 거야."
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:사람들은 제게 자주 묻습니다, 이렇게까지 이룬 것이 많으면서 왜 여전히 대학에서 공개 강연을 하는지. 왜 더 많은 걸 할 시간에 직접 연구생의 논문을 검토하는지. 여러분도 알다시피, 저는 제 실험실에서의 일 외에 일주일에 4번 방문 강연을 하고 있죠.+물론 힘들 때도 있습니다. 하지만 이것은 제가 여러분과 같은 미래의 꿈나무들에게 기회를 주고 싶기 떄문입니다. 그때, 선배가 저에게 기회를 주었던 것처럼.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:이것이 저의 대답입니다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:......
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:저의 실험실의 문은 모두에게 열려 있습니다.+실습을 희망하시는 분은 제 조수에게 문의하시면 됩니다.+당신이 프랑크푸르트의 고급 아파트에서 살든, 바이에른의 작은 주택에서 살든, 전혀 상관 없습니다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:의학을 사랑하고, 병을 치료해 고통받는 사람들을 구하고자 하는 뜻을 품은 이라면 그 누구나.+저와 어깨를 나란히 할 자격이 있습니다.
+()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1>:강단 아래의 모두는 조금 전까지의 불만과 불쾌함을 전부 잊은 듯 일제히 박수를 보냈다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:자아, 그럼 강의를 시작할까요?
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_PPT_Switch</SE1><BIN>654</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:格雷播放完最后一张演示页面，画面上，几位孤独症患者儿童正簇拥着她，露出羞涩的笑。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:那么这一堂课就到此结束，希望各位同学都能有所收获。
-()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1>:格雷鞠躬，台下掌声雷动，奈乐几乎要眼含热泪。
-()<Speaker></Speaker>||:格雷教授的专业性，和在与孤独症患者相处时的耐心温柔，都给奈乐造成了极大的震撼。
-()<Speaker>助理</Speaker>||:接下来的五分钟是提问时间，各位同学还有什么疑问的话，都可以举手示意。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:也许是还沉浸在感动中，同学们默契地保持着安静。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:提问的内容不局限于这堂课，有其他学术方面的疑惑也可以问我。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:毫不迟疑，奈乐抢先举起了手。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:格雷教授，我拜读了您近期发表的论文和推荐的期刊，发现您很关注人形技术和人类神经学之间的联系。+所以我想请教您，以人类神经网络为原型，您认为如果人形在未来真的能做到与人类一样具备独立的意识、情感、自我认知的话，会对人类社会产生什么样的影响？
-NPC-MrsGray(2)<Speaker>格雷</Speaker>||:这是一个很好的问题。+我近期确实在做这方面的研究，但这个领域牵涉范围甚广，我专注的课题目前可以说是毫无进展，至于如果人形技术真的能做到，会产生什么样的影响……
-()<Speaker></Speaker>||:格雷短暂停顿了几秒。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:我也无法判断这项技术会对人类带来益处还是坏处。+就像泽尔蒂纳最初分离出吗啡是想应用于镇痛，他也一定想不到现在的人类究竟都用吗啡做些什么。
-NPC-MrsGray(1);NPC-Nele(2)<Speaker>奈乐</Speaker>||:您是想说，技术是无罪的吗？
-NPC-MrsGray(1)<Speaker>格雷</Speaker>;NPC-Nele(2)||:我是想说，科技的发展总是远超人类的想象。+受限于当前时代的我们无法预知未来。+我们能做到的，只有坚定地在当下完成我们目前认为正确的事。
-NPC-MrsGray(1);NPC-Nele(2)<Speaker>奈乐</Speaker>||:正确的事……可是我们怎么才能知道自己的选择是正确的？+就像您提起的那位学姐，她做出跨专业进行研究的选择成功了，所以我们都会称赞她做得正确。+可我们这样的普通人，如何才能知道那是正确的选择？
-NPC-MrsGray(1)<Speaker>格雷</Speaker>;NPC-Nele(2)||:不是因为正确，才去选择。+而是因为你的选择，所以才正确。
-NPC-MrsGray(1);NPC-Nele(2)<Speaker>奈乐</Speaker>||:……不管选择什么，都要尽自己的全力让它成为正确的吗？
-NPC-MrsGray(1)<Speaker>格雷</Speaker>;NPC-Nele(2)||:是的。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:谢谢您，格雷教授。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐思索着，坐回了位置。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:那时候的她还不能完全明白格雷教授的话。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:提问环节结束后，格雷教授拿起了手中的一枚徽章。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:那么，这堂课就结束了，在各位离开前，我想送你们一份礼物。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:这份礼物和刚才那位同学的提问也有一些关系。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:不管各位同学将来走在什么样的道路上，一定会面对来自黑暗的诱惑。+这和各位同学的品德无关，因为这个世界本就是光明和阴暗并存的。
+()<Speaker></Speaker>||:그레이의 강연은 그레이와 그녀를 둘러싼 수줍게 웃는 어린이 자폐증 환자들 여럿의 사진으로 끝을 맺었다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:이번 수업은 여기까지. 여러분, 모두에게 수확이 있기를 바랍니다.
+()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1>:그레이가 허리를 숙여 인사하기가 무섭게 강의실은 우레와 같은 박수로 요동쳤고, 넬레는 감동의 눈물이 나올 것만 같았다.
+()<Speaker></Speaker>||:그레이 교수의 전문성, 그리고 자폐증 환자를 상대할 때의 인내심과 상냥함이 넬레에게 커다란 충격으로 다가왔다.
+()<Speaker>조수</Speaker>||:끝내기 전 5분간 질문 시간을 갖겠습니다, 궁금한 점 있으신 분은 손을 들어 주세요.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:아직 감동에 젖어 있어선지 먼저 선뜻 나서는 학생은 없었다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:강연 내용에 한해서 질문하실 것 없습니다. 다른 학술면에서도 얼마든지 물어보세요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그 말에 넬레가 얼른 손을 들었다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:그레이 교수님, 교수님이 최근 발표하신 논문과 추천 학술지를 읽어봤습니다. 교수님은 인형 기술과 인류 신경학 사이의 연관성에 관심이 높으신 것 같으십니다.+그래서 질문드리고 싶습니다. 인간의 신경망을 원형으로, 만약 미래에 인형이 정말로 인간과 같은 독립적인 자아와 감정, 의식을 지니게 된다면, 인류 사회에 어떤 영향을 끼칠 거라고 보시나요?
+NPC-MrsGray(2)<Speaker>그레이</Speaker>||:아주 좋은 질문이군요.+확실히, 저는 근래 이 방면의 연구를 하고 있습니다. 하지만 이 분야는 얽힌 범위가 매우 넓어서, 제가 주목하는 과제는 거의 진전이 없다고 볼 수 있겠어요. 인형 기술이 그런 수준에 도달할 수 있다면, 그로 인한 영향에 관해선...
+()<Speaker></Speaker>||:그레이가 잠깐 뜸을 들였다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:...그런 기술이, 인류에게 복이 될지 해가 될지는 저로서도 판단하기가 힘듭니다.+마치, 제르튀르너가 모르핀을 진통제로 분류했던 것처럼 말이죠. 그는 오늘날 인류가 모르핀으로 무슨 짓을 할지 꿈에도 상상 못했을 겁니다.
+NPC-MrsGray(1);NPC-Nele(2)<Speaker>넬레</Speaker>||:기술에 죄는 없다는 말씀인가요?
+NPC-MrsGray(1)<Speaker>그레이</Speaker>;NPC-Nele(2)||:제 말은, 과학의 발전은 언제나 인간의 상상을 넘어선다는 뜻입니다.+현재라는 시간에 묶인 우리는 미래를 예견하지 못합니다.+그런 우리가 할 수 있는 일은, 지금 우리가 올바르다 생각하는 일을 흔들림 없이 행하는 것뿐이죠.
+NPC-MrsGray(1);NPC-Nele(2)<Speaker>넬레</Speaker>||:하지만... 어떻게 자신의 선택이 올바른지 알 수 있죠?+교수님께서 언급하신 그 선배님처럼, 전공 분야를 뛰어넘는 연구를 한 선택이 성공했기에 그분이 모두에게 옳다고 평가받았잖아요.+일반인에 불과한 저희는 어떡해야 올바른 선택인지 알 수 있죠?
+NPC-MrsGray(1)<Speaker>그레이</Speaker>;NPC-Nele(2)||:올바르기 때문에 선택하는 것이 아닙니다.+당신이 선택했기에 올바른 것입니다.
+NPC-MrsGray(1);NPC-Nele(2)<Speaker>넬레</Speaker>||:...어떤 선택을 하든, 온힘을 다해 올바르게 만들라는 말씀이신가요?
+NPC-MrsGray(1)<Speaker>그레이</Speaker>;NPC-Nele(2)||:맞습니다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-Nele(2)<Speaker>넬레</Speaker>||:답변 감사합니다, 교수님.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 그레이의 말을 곱씹으며 자리에 앉았다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:이 당시만 해도, 그녀는 그레이 교수의 말을 완전하게 이해하지 못했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:질문 시간이 끝나자, 그레이가 메달을 집어 보였다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:떠나기 전 여러분께 선물을 드리려 합니다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:이 선물은 방금 저 학생분의 질문과도 다소 관계가 있습니다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:여러분이 장래에 어떤 길을 가게 되든, 분명 이 세상에 드리운 어둠으로부터 유혹이 찾아올 것입니다.+학생 여러분의 도덕성과는 무관합니다, 이 세계 자체에 빛과 어둠이 공존하니까요.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>ClothingUp</SE1><CGDelay>2</CGDelay><common_effect>%%code=Medal_item%%</common_effect>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><回忆><BIN>654</BIN>:徽章在格雷教授的手里反射着白炽灯的光芒。
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:当黑暗推开你们的窗时，记住，你们是来改变这个世界，而不是被这个世界改变的。+希望这枚徽章能在你们日后迷惘时刻，起到一点微小的作用。
-()<Speaker>同学</Speaker>||:哇——
-()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1><BGM>BGM_Empty</BGM>:热情的同学们立刻包围了讲台，将格雷的助理淹没到完全看不见头顶。+奈乐踌躇着，最后还是决定放弃领取这枚徽章。+毕竟自己身为物理学院的人跑来蹭课，还要拿人家的东西……
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:舍夫尔同学。
-()<Speaker></Speaker>||<震屏3>:奈乐应声抬头，什么东西朝自己飞来——
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:唰。她下意识地接住，正是那枚徽章。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:格雷教授……
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:奈乐想表示感谢，但格雷教授已经被淹没在人群中看不见了。
+()<Speaker></Speaker>||<黑屏2><回忆><BIN>654</BIN>:그레이의 손 안에서, 메달은 형광등의 빛을 받아 반짝였다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:어둠이 여러분의 창문을 두드릴 때, 명심하세요. 여러분이 이 세상을 바꾸는 겁니다. 세상이 여러분을 바꾸게 두지 마세요.+이 메달이, 여러분이 어느 날 망설여질 때 조금이나마 힘이 되기를 바랍니다.
+()<Speaker>학생</Speaker>||:와아아!
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1><BGM>BGM_Empty</BGM>:강의실의 학생들은 불길처럼 열정적으로 일어나 강단으로 몰려들어 그레이의 조수를 에워쌌다.+넬레는 자리에서 주저하다, 결국 메달을 받기를 포기했다.+방청하러 온 응용물리학과 학생인데, 저런 걸 받자니 눈치가 보였기 때문이었다.
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:슈펠 학생.
+()<Speaker></Speaker>||<震屏3>:부름을 듣고 고개를 들자 무언가가 날아왔다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:반사적으로 받아보니, 바로 그 메달이었다.
+NPC-Nele(2)<Speaker>넬레</Speaker>||:앗... 교수님...!
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:인사하려고 황급히 자리에서 일어났지만, 그레이는 이미 인파에 감싸여 모습이 보이지 않았다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<关闭蒙版><BIN>9</BIN><黑屏2><SE1>Stop_AVG_loop</SE1>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_21Winter_Fire_Alarm</SE1><BIN>470</BIN><黑屏2><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:急促的闹钟声吵醒了奈乐。
+()<Speaker></Speaker>||:시끄러운 알람 시계가 넬레를 깨웠다.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:梦境还未完全淡去，她张了张空白的手心，猛地跳了起来。
-NPC-Nele(2)<Speaker>奈乐</Speaker><Shake>||:徽章！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_flag</SE1><BGM>GF_22W_BGM_2</BGM>:奈乐翻箱倒柜地翻找起来。+很快，她在存放毕业照片的匣子里找到那枚徽章。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아직 비몽사몽인 넬레가 허전한 손바닥을 몇 번 쥐락펴락하다, 문득 눈을 부릅뜨고 벌떡 일어났다.
+NPC-Nele(2)<Speaker>넬레</Speaker><Shake>||:메달!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_flag</SE1><BGM>GF_22W_BGM_2</BGM>:넬레는 바로 집 안을 온통 뒤졌다.+다행히 얼마 안 지나 졸업 사진을 넣어 둔 상자 속에서 그 메달을 찾아냈다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><SE1>ClothingUp</SE1><BIN>9</BIN><CGDelay>2</CGDelay><common_effect>%%code=Medal_item%%</common_effect>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>470</BIN>:徽章依旧和当初一样，可是当初的格雷教授……
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>Rope</SE1>:被痛苦一把攫住了心脏，奈乐连呼吸都艰难了。
-()<Speaker></Speaker>||:像坏掉的玻璃滴管，眼泪哗啦哗啦地落下。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:现在不是哭泣的时候……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:为了转移注意力，奈乐擦掉眼泪，冲进了厨房……
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>470</BIN>:메달은 그때나 지금이나 똑같았다. 하지만 그날의 "그레이"는...
+NPC-Nele(1)<Speaker>넬레</Speaker>||:......
+()<Speaker></Speaker>||<SE1>Rope</SE1>:고통이 심장을 움켜쥐어, 숨도 쉬기 버거웠다.
+()<Speaker></Speaker>||:눈물이 망가진 스포이트처럼 뚝뚝 흘렀다.
+NPC-Nele(1)<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-Nele(3)<Speaker>넬레</Speaker>||:...울고 있을 때가 아니야.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:정신을 딴 데 돌리기 위해 넬레는 눈물을 훔치고 주방에 달려들어갔다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>129</BIN><Night><震屏3><SE1>AVG_Door_Hit</SE1>:嘭——+抱着一堆食物的奈乐几乎是用踹的方式，打开了关押J的房间。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:J探员，该吃饭了。
-NPC-Keven(8)<Speaker>J</Speaker><Shake>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J睡眼惺忪地从地上爬起来，然后看了眼挂在墙上的钟。
-NPC-Keven(14)<Speaker>J</Speaker>||:大姐，现在是凌晨三点四十分。+这个点吃什么饭，你告诉我？
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:不吃？
-()<Speaker></Speaker>||:从奈乐冷酷的语气、通红的眼眶和隐约可闻的酒气，J判断现在不是惹恼对方的好时机。
-NPC-Keven(10)<Speaker>J</Speaker>||:吃，我吃。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:J一边察言观色，一边打开了奈乐带来的食物。
-NPC-Keven(6)<Speaker>J</Speaker>||:你……怎么了？
-NPC-Keven(6);NPC-Nele(3)<Speaker>奈乐</Speaker>||:没怎么。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(3)||<CGDelay>0.5</CGDelay>:指挥官惹你生气了？+哎，这个人是这样冷漠无情的，动不动不回消息，让你又担心又生气的……
-NPC-Keven(6);NPC-Nele(3)<Speaker>奈乐</Speaker>||:不是，指挥官帮了我很多……回消息也挺快的。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:……+那你在烦什么？
-NPC-Keven(7);NPC-Nele(1)<Speaker>奈乐</Speaker>||:我只是……+决定去做正确的事了。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(1)||:正确的事？
-NPC-Keven(7);NPC-Nele(1)<Speaker>奈乐</Speaker>||:……是的，老师教我要做正确的事。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(1)||:算了，一看你就不会告诉我你准备干嘛。+那你讲讲你这个老师呗，她是不是经常请你吃饭？
-NPC-Keven(6);NPC-Nele(2)<Speaker>奈乐</Speaker>||:并不会。+……莫名其妙请你吃饭的人，一般不都不怀好意吗？
+()<Speaker></Speaker>||<BIN>129</BIN><Night><震屏3><SE1>AVG_Door_Hit</SE1>:쾅!+넬레가 음식을 한아름 안고서 J가 감금된 방 문을 박차고 들어왔다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:J 요원, 밥 먹어요.
+NPC-Keven(8)<Speaker>J</Speaker><Shake>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J는 바닥에서 부스스 일어나 제대로 뜨지도 못하는 눈으로 벽에 걸린 시계를 보았다.
+NPC-Keven(14)<Speaker>J</Speaker>||:여오세여 아가시... 지금 새벽 3시 40분이에요...+이 시간에 먹는 끼니는 대체 뭐라고 부릅니까, 예?
+NPC-Nele(3)<Speaker>넬레</Speaker>||:그래서, 안 먹어요?
+()<Speaker></Speaker>||:차가운 어조와 붉게 부은 눈두덩이, 그리고 어렴풋한 술냄새... J는 지금 넬레의 신경을 건드렸다간 뼈도 못 추린다는 직감이 들었다.
+NPC-Keven(10)<Speaker>J</Speaker>||:먹어요, 먹을게요.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:J는 넬레가 가져온 반찬통의 뚜껑을 열면서 슬쩍 눈치를 봤다.
+NPC-Keven(6)<Speaker>J</Speaker>||:...무슨 일이에요?
+NPC-Keven(6);NPC-Nele(3)<Speaker>넬레</Speaker>||:아무 일도요.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(3)||<CGDelay>0.5</CGDelay>:지휘관이 화나게 했어요?+어휴, 그 인간은 꼭 그렇게 매정하고 쌀쌀맞아서 문제라니까요. 툭하면 문자 씹어서 사람 걱정시키고, 화나게 만들고...
+NPC-Keven(6);NPC-Nele(3)<Speaker>넬레</Speaker>||:아뇨... 지휘관한테선 도움 많이 받았어요. 그리고 문자는 꽤 금방금방 답장해 주던데요.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:......+그럼 무슨 일로 그렇게 예민해졌어요?
+NPC-Keven(7);NPC-Nele(1)<Speaker>넬레</Speaker>||:...그냥요.+올바른 일을 하려고요.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(1)||:올바른 일?
+NPC-Keven(7);NPC-Nele(1)<Speaker>넬레</Speaker>||:...네, 선생님은 제게 올바른 일을 하라고 가르쳤어요.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(1)||:뭐어 그러셔요, 뭘 할 셈인지 물어도 안 알려 주시겠구만.+그럼 그 선생님 얘기나 합시다. 자주 밥 사 주고 그랬어요?
+NPC-Keven(6);NPC-Nele(2)<Speaker>넬레</Speaker>||:아뇨.+이유도 없이 밥 사 주는 사람은 다 꿍꿍이 있는 사람이라잖아요.
 NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(2)||<CGDelay>0.5</CGDelay>:
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(2)||:某种程度上，你说得真是该死的对……+说回你老师吧。
-NPC-Keven(10);NPC-Nele(2)<Speaker>奈乐</Speaker>||:我一开始知道老师时，是被她那篇《关于内侧前额叶皮层对ADS影响的阐述》论文所吸引，你应该有所耳闻吧，很出名的。+虽然那时候我觉得颞上沟皮层的研究前景显然要更为明朗。
-NPC-Keven(9)<Speaker>J</Speaker>;NPC-Nele(2)||:……+等一下，你后半截说的是人话吗？
-NPC-Keven(9);NPC-Nele(3)<Speaker>奈乐</Speaker>||:怎么就不是人话了？+我会这么认为，是因为当时的热门研究发现在典型发育群体中，颞上沟皮层的灰质体积与心智化能力相关。+但没多久我才知道我的方向完全错误，老师的实验室发布了论文，基于结构磁共振成像的研究表明，在ASD 中没有发现这种关联。
-NPC-Keven(10)<Speaker>J</Speaker>||:这次是一句人话都不说了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐喝光杯里的啤酒，打开罐新的。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:别着急，我慢慢跟你讲。+我先跟你分析下老师当时那篇论文吧。
-NPC-Keven(14)<Speaker>J</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1><CGDelay>0.5</CGDelay>:眼见奈乐熟练地摆开十几份文献，J意识到，一场堪比连续开会的地狱要向他袭来了……
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(2)||:쓰으읍 젠장 반박할 수가 없네...+그럼 넬레 씨가 그 선생 얘기 해보세요.
+NPC-Keven(10);NPC-Nele(2)<Speaker>넬레</Speaker>||:제가 선생님을 처음 알게 된 건... 그분이 쓰신 「복내측 시상하핵 전전두엽 피질이 ADS에 미치는 영향에 대한 설명」 이란 논문을 보고예요. 당신도 들어봤죠? 엄청 유명한 논문이었으니까.+뭐, 전 그때만 해도 상측 두구 피질 연구 쪽의 전망이 더 밝다고 생각했지만요.
+NPC-Keven(9)<Speaker>J</Speaker>;NPC-Nele(2)||:............+지구 언어 맞아요?
+NPC-Keven(9);NPC-Nele(3)<Speaker>넬레</Speaker>||:그럼 뭐 외계 언어게요?+아무튼, 제가 그렇게 생각한 이유는 당시 인기 있었던 연구에서, 현대의 보편적인 발달 집단에서 상측 두구 회백질의 부피가 ToM 형성과 관계 있다고 여겼기 때문이에요.+하지만 얼마 안 가 제 방향성이 완전히 틀렸다는 걸 깨달았어요. 선생님의 연구실이 발표한 논문이, MRI 스캔을 토대로 연구한 결과 ASD에 그러한 관련성이 없음을 증명했거든요.
+NPC-Keven(10)<Speaker>J</Speaker>||:외계어 맞구만요 뭐...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 어느새 맥주 한 캔을 비우고 하나 더 땄다.
+NPC-Nele(3)<Speaker>넬레</Speaker>||:아 기다려 봐요 차근차근 설명해 줄 테니까.+우선 선생님의 그 논문부터 분석해 줄게요.
+NPC-Keven(14)<Speaker>J</Speaker>||:............
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1><CGDelay>0.5</CGDelay>:넬레가 아주 능숙하게 10편이 넘는 문헌 자료를 펼치는 모습을 보면서, J는 마라톤 회의에 맞먹을 지옥이 찾아왔음을 직감했다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<关闭蒙版><BIN>9</BIN><黑屏2>:
 ()||<黑屏1><SE1>AVG_door_elecport</SE1>:
 ()<Speaker></Speaker>||<BIN>735</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:……从分析文献中获得平静后，奈乐放过J，来到了实验室。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:她拨通了指挥官的通讯。
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:指挥官，是我。
-NPC-Nele(7)<Speaker>指挥官</Speaker><同时置暗>||:<color=#00CCFF>我在听。</color>
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:从明天，不对，从今天，我会正式启动格雷老师的这场实验。
-NPC-Nele(7)<Speaker>指挥官</Speaker><同时置暗>||:<color=#00CCFF>……</color>+<color=#00CCFF>我再问你一次，你下定决心了吗？</color>
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:嗯。+请帮我联系帕斯卡教授，我需要她的帮助。
-NPC-Nele(7)<Speaker>指挥官</Speaker><同时置暗>||:<color=#00CCFF>好，我会转告她，让她联系你。</color>
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:抱歉打扰你了……
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>没关系。</color>
+()<Speaker></Speaker>||:얼마 후, 실컷 문헌을 분석해서 평정심을 되찾은 넬레가 넋이 나간 J를 내버려두고 실험실로 왔다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:그리고, 지휘관에게 통신을 걸었다.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:지휘관님, 저예요.
+NPC-Nele(7)<Speaker>지휘관</Speaker><同时置暗>||:<color=#00CCFF>들립니다, 넬레 씨.</color>
+NPC-Nele(7)<Speaker>넬레</Speaker>||:내일... 아니, 오늘부터 실험을 시작하겠습니다.
+NPC-Nele(7)<Speaker>지휘관</Speaker><同时置暗>||:<color=#00CCFF>......</color>+<color=#00CCFF>다시 한 번 묻겠습니다, 정말 마음을 굳히셨습니까?</color>
+NPC-Nele(7)<Speaker>넬레</Speaker>||:네.+페르시카 박사님께 연락해 주시겠어요? 그분의 도움이 필요해요.
+NPC-Nele(7)<Speaker>지휘관</Speaker><同时置暗>||:<color=#00CCFF>알겠습니다, 그분께 연락하라 전달하죠.</color>
+NPC-Nele(7)<Speaker>넬레</Speaker>||:...이런 시간에 연락해서 죄송해요.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>괜찮습니다.</color>
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:放下通讯，奈乐才感受到悲伤一点点地泛滥。
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:통신을 종료한 넬레는 점점 다시 슬픔에 젖어들었다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>781</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:捧着手里的徽章，她静坐在格雷的身边。
-()<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:……
-()<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay><BGM>BGM_ev2410_RespectedGray</BGM>:老师，我现在走在正确的道路上吗？
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:寂静的房间中，只有空调的嗡鸣回应她的呼唤。
-()<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:从应用物理转系到临床医学，我明明跟随了您好几年……+却连您是在什么时候被调换的都不知道……
-()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:奈乐发出干涩的苦笑，手里的徽章反射着房间内的白光。
-()<Speaker>奈乐</Speaker>||<CGDelay>0.6</CGDelay>:如果您知道，接下来我会对您做的一切……+您当初，还会那样温柔地帮助我吗？
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:窸窣——+坐在椅子上一动不动的奈乐好像听见了实验服摩擦的声音。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:就像是过去在老师的实验室里，专注认真地做实验的时候，老师悄悄走到身后观察进度，却总是被实验服的摩擦声出卖。+这是独属于格雷老师的温柔的关切。
-()<Speaker>格雷</Speaker>||<CGDelay>0.5</CGDelay>:我们能做到的，只有坚定地完成我们认为正确的事。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:又一次，奈乐感受到格雷老师温暖的手握住了自己的手。
+()<Speaker></Speaker>||:손에 메달을 꼭 쥐고서, 그녀는 조용히 그레이의 시신이 든 보디백 옆에 앉았다.
+()<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:......
+()<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay><BGM>BGM_ev2410_RespectedGray</BGM>:선생님... 저는 지금 올바른 길로 나아가고 있나요?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:방은 정적에 빠져, 유일한 소음인 에어컨의 가동음이 더욱 크게 들렸다.
+()<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:응용물리학에서 임상의학으로 전과하고 선생님을 몇 년이나 따라다녔는데...+언제 바꿔치기 당한 건지도 눈치채지 못했어요...
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:손 안의 메달이 하얀 전등의 빛을 반사해 넬레의 씁쓸한 미소를 비췄다.
+()<Speaker>넬레</Speaker>||<CGDelay>0.6</CGDelay>:선생님... 지금부터 제가 선생님의 몸으로 무얼 하려는지 아신다면...+그래도 여전히 상냥하게 저를 도와주실 건가요...?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:"부스럭..."+실험복이 스치는 소리가 들린 것만 같았다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:마치, 오래 전 선생님의 실험실에서 실험에 몰두하고 있으면 선생님이 방해하지 않으려고 뒤에서 몰래 지켜보고 가려다 실험복이 스쳐서 들키던 때처럼.+이는 그레이 선생님만의 상냥한 관심 표현이었다.
+()<Speaker>그레이</Speaker>||<CGDelay>0.5</CGDelay>:그런 우리가 할 수 있는 일은, 지금 우리가 올바르다 생각하는 일을 흔들림 없이 행하는 것뿐이죠.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:또, 넬레는 그레이 선생님이 따뜻한 손으로 자신의 손을 감싸 주는 기분이 들었다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1><BIN>785</BIN>:……兹。
-()<Speaker></Speaker>||:奈乐拉开了拉链。+首先进入视线的，是格雷搭在腹部的手臂。+纤细苍白的手臂连接着那只曾经温柔扶起自己的手。+可惜，手掌的温度不再，只留下残酷的冰冷。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:对着桌边的记录器，奈乐冷静地开口。
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:现在是11月4日凌晨4点45分。+这是为了……接下来的实验而录制的视频，尸检的工作由高奈莉娅负责。
-()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:取出清洁棉片，奈乐尽可能轻柔地擦拭着格雷尸体上的脏污。
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1><BIN>785</BIN>:지익...
+()<Speaker></Speaker>||:보디백의 지퍼가 내려졌다.+가장 먼저 넬레의 눈에 들어온 것은, 복부에 올려진 그레이의 팔.+그리고 그 가늘고 새하얀 팔에 이어진, 상냥하게 자신을 일으켜 세워 주던 손.+하지만 그 손에 온기는 없었다. 잔혹하리만치 차갑기만 했다.
+NPC-Nele(9)<Speaker>넬레</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:탁자 옆의 기록 장치에 대고, 넬레는 차분히 입을 열었다.
+NPC-Nele(11)<Speaker>넬레</Speaker>||:현재 시각, 11월 4일 오전 4시 45분.+이것은... 앞으로의 실험을 위한 녹화 영상이며, 부검은 코넬리아 슈펠 본인이 진행한다.
+()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:그리고 그녀는 위생면으로 최대한 부드럽게 그레이의 시신에 묻은 때를 닦아냈다.
 ()<Speaker></Speaker>||<CGDelay>0.3</CGDelay><SE1>ClothingUp</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><SE1>ClothingUp</SE1>:
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:初步的清洁已经完成，现在我会查看格雷老师身上的改造部分。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:从格雷的头部开始，奈乐小心地翻出发缝，查看改造痕迹。
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:确认头部有进行开颅手术的痕迹，暂时无法确认具体手术内容。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:检查过脖颈、肩膀和手臂后，奈乐轻轻抬起格雷的手。
-NPC-Nele(11)<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:左臂丢失，右手手掌经过改造，从中指和无名指之间切开……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:咔哒。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:实验室的门被推开，奈乐惊讶地抬头。
-NPC-Nele(10)<Speaker>奈乐</Speaker>||:……康妮。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:……
-()<Speaker></Speaker>||:换好手术服的康斯坦斯沉默地看了看实验台上的格雷，又看了看两眼通红的奈乐。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:我以为你……不会来了……
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:你临时改变的实验方向，就算是两个人不眠不休也未必能做完……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:康斯坦斯放下包，穿上实验室制服。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:再说了，我不帮你，还有谁能帮你？
-NPC-Nele(8)<Speaker>奈乐</Speaker>||:……+谢谢你，康妮。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:康斯坦斯麻利地接手记录的工作。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:虽然我还是不理解你为什么要这么做，但我知道，你一定在做你认为正确的事。+而你，向来是个认死理的倔驴。
-NPC-Nele(10)<Speaker>奈乐</Speaker>||:我……
-NPC-Constanze(1)<Speaker>康斯坦斯</Speaker>||:别废话了，开始干活！
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:眼前的画面和记忆重合，奈乐终于是轻松地笑了笑。
-NPC-Nele(8)<Speaker>奈乐</Speaker>||:好。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tableware</SE1>:在两人专注于实验准备工作时，曙光一点点浸透夜色，让隐在后方的太阳显出了形状。
+NPC-Nele(11)<Speaker>넬레</Speaker>||:기초 청결 작업 완료. 이어서 그레이 선생님의 신체에서 개조된 부위를 확인한다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 조심스레 머리카락을 헤집어, 그레이의 머리에서부터 개조 흔적을 살폈다.
+NPC-Nele(11)<Speaker>넬레</Speaker>||:두부에 뇌외과 수술 흔적을 발견. 상세 사항은 아직 알 수 없음.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:차례대로 목, 어깨, 팔을 검사한 다음, 넬레는 살며시 그레이의 손을 들었다.
+NPC-Nele(11)<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:왼팔은 소실. 오른손은 손바닥이 개조되어, 중지와 약지 사이로 갈라진다...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:철컥.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:실험실 문이 열려 넬레는 화들짝 고개를 들었다.
+NPC-Nele(10)<Speaker>넬레</Speaker>||:...코니?
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker>||:......
+()<Speaker></Speaker>||:수술복 차림인 콘스탄스는 실험대 위에 놓인 그레이의 시신과 눈이 빨갛게 부은 넬레를 번갈아 바라봤다.
+NPC-Nele(9)<Speaker>넬레</Speaker>||:안 올 줄 알았는데...
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker>||:대뜸 바꾼 실험 방향을 우리 둘이서 철야해도 할 수 있을지 없을지도 모르잖아.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:콘스탄스는 가방을 내려놓고 실험실 가운을 입었다.
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker>||:그리고, 나 말고 너 도와줄 사람 또 있어?
+NPC-Nele(8)<Speaker>넬레</Speaker>||:......+고마워.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:콘스탄스는 차분하게 기록 작업을 이어받았다.
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker>||:네가 이러려는 이유는 아직도 이해 못하겠지만, 적어도 옳다고 생각하니까 이 일을 하는 거겠지.+게다가, 너 한 번 마음먹으면 죽어도 안 바꾸는 고집쟁이를 무슨 수로 말려.
+NPC-Nele(10)<Speaker>넬레</Speaker>||:난...
+NPC-Constanze(1)<Speaker>콘스탄스</Speaker>||:잔말 됐고, 얼른 작업 시작하자!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:문득 떠오른 기억과 겹쳐 보인 이 눈앞의 장면에, 넬레는 마침내 진심으로 미소를 지었다.
+NPC-Nele(8)<Speaker>넬레</Speaker>||:응.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tableware</SE1>:그렇게 두 사람이 실험 준비 작업에 몰두하고 있을 때, 어느덧 드리운 서광이 조금씩 밤하늘을 물들여 떠오르는 태양의 윤곽을 드러냈다.
 ()||<黑点1>:

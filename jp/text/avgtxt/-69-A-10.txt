@@ -1,128 +1,128 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>10254</BGM><黑屏2><BIN>703</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:……+大地陷落的悲鸣仍在绵延，但似乎毫不影响两人的战斗。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:伊莱莎小姐！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:别打扰我，滚开。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:最终阶段被提前开启了，现在战场的面积在急剧缩小，您需要转移到安全的地方！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:最终阶段？
-()<Speaker></Speaker>||:停下脚步，伊莱莎感受着脚下大地的震颤。
-()<Speaker></Speaker>||:裂缝像灵活游走的细蛇，向各个方向爬去，不断有地块陷落虚空……+站在对面的M16也停下攻势观察情况。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:这边来，请相信我！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:……
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:如果您还想见到M4小姐，还想实现心愿的话，请快跟我来！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:知道了。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:伊莱莎收回冷冷一瞥，跟着星币精灵消失在了崩塌的世界缝隙之间。
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:……+大地が激しく揺れ、崩れていく中でも、二人の戦いは止まらなかった。
+NPC-Tarot_Garren(0)<Speaker>コインの精霊</Speaker><Position>0,250</Position>||:エリザ様！
+ElisaTarot(0)<Speaker>エリザ</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:邪魔。
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>コインの精霊</Speaker><Position>0,250</Position>||:最終フェイズがなぜか予定よりも早く始まったのですよ！//nこのエリアも急激に縮小しています。//n安全なところに移動しましょう！
+ElisaTarot(0)<Speaker>エリザ</Speaker><Position>0,250</Position>||:最終フェイズ？
+()<Speaker></Speaker>||:エリザは足を止めた。足元から、大地の揺れがはっきりと伝わってくる。
+()<Speaker></Speaker>||:遠くを見ると、地平線の方から自分たちのいるところに向かって、//n大地がどんどん崩れていく……+M16も同じく異変を察し、状況を観察しているようだ。
+NPC-Tarot_Garren(0)<Speaker>コインの精霊</Speaker><Position>0,250</Position>||:こっちに来てください！
+ElisaTarot(0)<Speaker>エリザ</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:……
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>コインの精霊</Speaker><Position>0,250</Position>||:信じてください！　M4A1様を探すのでしょう！
+ElisaTarot(0)<Speaker>エリザ</Speaker><Position>0,250</Position>||:分かった。
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:最後にエリザはM16を一瞥して、コインの精霊と共に//n崩れた大地の隙間に飛び降りた。
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2>:见伊莱莎撤离了战场，M16也清楚了现在的局势。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:简单处理了伤口，M16准备沿伊莱莎的路线撤退，但挡在她面前的——+是几只瑟瑟发抖的羔羊。
+()<Speaker></Speaker>||<黑屏2>:エリザが撤退したのを確認すると、M16も警戒の体勢を解いた。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:簡単に傷の処理をした後、M16はエリザの後を追おうとした――+その時、数名のゲーム参加者が、震えながらM16の前に立ちはだかった。
 M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:……
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_pistol_finalshot_n</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><SE1>AVG_pistol_finalshot_n</SE1>:
-()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:呯呯呯——避开几发偷袭的子弹，M16闪身来到山体背后。+呼啸的风中传来沙哑又绝望的呼喊。
-()<Speaker>权杖七</Speaker>||:你必须去死！只有这里的人数少于5个，离开的通道才会开启！+<size=50>不然我们全都会死啊！！！</size>
-()<Speaker>宝剑四</Speaker>||:<size=50>求你了，去死吧！</size>
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL4</SE1>:M16没有回应，只是将打空的弹匣扔掉，装上了新的。
-()<Speaker></Speaker>||<SE1>Select</SE1>:咔哒——
-M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:抱歉了，我有必须要完成的约定。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:M16走出了扭曲的山体背后。
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:（銃声）//n攻撃を避け、M16は遮蔽物の後ろに隠れる。+遮蔽物の向こうからは、絶望に満ちた叫び声が聞こえてくる。
+()<Speaker>ワンドの7</Speaker>||:ここは5人以上いると、道が開かない！<size=50>だから死んで！　じゃないとみんな死ぬ！！！</size>
+()<Speaker>ソードの4</Speaker>||:<size=50>お願いだから死んでよ！</size>
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL4</SE1>:M16は何も答えず、ただ空になったマガジンを新しいものに取り換えた。
+()<Speaker></Speaker>||<SE1>Select</SE1>:（カチャッ――）
+M16A1Tarot(0)<Speaker>M16A1</Speaker><Position>0,250</Position>||:悪いが、私には果たさなければならない約束があるのだ。
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:遮蔽物の後ろから、M16が一気に飛び出す。
 ()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM>:硝烟散去后，只剩下跪倒在地的隐士，和失去生息的女皇。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=3</controll_shake><SE1>AVG_door_storehouse</SE1>:轰隆隆——大地的崩解还未结束。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_Team_Running</SE1>:RO一把拽起了隐士，在SOP2和AR15的掩护下朝着尚未崩塌的地面跑去。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:隐士！现在不是崩溃的时候！
-NPC-Tarot_Chalice(0)<Speaker>圣杯精灵</Speaker><Position>0,250</Position>||:恭喜你们！已经达成了条件，现在就由我来带领你们前往花园吧！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:精灵转了转圈，地面上出现了一条白色的光带，指引她们前行。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:你给我等着！一会就把你撕了！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_stage11</BGM>:咚咚咚——数人急促的脚步声。
-()<Speaker></Speaker>||<白屏2><SE1>AVG_magic_circle_start</SE1>:骤然间，白色的光带消失了。
-NPC-Tarot_Chalice(0)<Speaker>圣杯精灵</Speaker><Position>0,250</Position>||:诶，糟糕了……+有些家伙被赶到这个区域来了……+哎呀，这样条件就不成立了，这可怎么办呢？
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:你在说什么？！
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:小心！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:呯呯呯——+一串绝望的子弹扫过AR15的脚边。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:是从其他区域被赶过来的人！
-AR15Tarot(0)<Position>0,250</Position>;M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:怎么办啊，RO！
-AR15Tarot(0)<Position>0,250</Position>;RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……+我们不能停在这里，必须找到M4和M16……+为此不管付出什么样的代价……
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:……
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:收到！
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:SOP2已经停下脚步，瞄准了朝她们开枪的目标。
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL3</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake>:呯呯呯——
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:不要啊……这样不就和那些家伙一样了吗？！+你们不是也说过，不会做那样残忍的事情吗！
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:抱歉了，隐士。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:RO熟练地指挥AR15和SOP2有序地击倒目标。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:你可能无法理解我们走到这里的心情。+我们经历了太多绝望，这是我们最后的机会了。+所以……无论如何，我们都要完成这一次的任务。
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:……
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:RO，继续前进，我和SOP2掩护你。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:收到。
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1><SE2>Gunfight</SE2>:在隐士绝望的注视下，像风筝一样脆弱又无依的少女们一个一个断线了……
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM>:煙が散った後、そこには地面に崩れたハーミットと、//n息をしなくなったエンプレスがいた。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=3</controll_shake><SE1>AVG_door_storehouse</SE1>:大地の揺れと崩壊は未だ続いている。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_Team_Running</SE1>:RO635はハーミットを引き上げ、SOP IIとAR-15と一緒に、//n安全な場所へと走った。
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:ハーミット！　今は悲しんでいる場合ではありません！
+NPC-Tarot_Chalice(0)<Speaker>カップの精霊</Speaker><Position>0,250</Position>||:おめでとうございます！　これで条件クリアです。//n庭園の方へご案内いたしましょう！
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:精霊がその場でくるりと回ると、一本の光の道が現れた。
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:お前！　あとで覚えてろよ！
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_stage11</BGM>:一行は駆け足で光の道を進んだ。
+()<Speaker></Speaker>||<白屏2><SE1>AVG_magic_circle_start</SE1>:暫く進むと、突然、道が消えた。
+NPC-Tarot_Chalice(0)<Speaker>カップの精霊</Speaker><Position>0,250</Position>||:あらあら、大変なことになりましたね……+どうやら、私たちの他にもこのエリアに入り込んでいる者がいるみたいです。+これだと条件クリアになりませんね、どうしましょうかね～？
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:突然何を！？
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:気を付けて！
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:（銃声）+AR-15の足元に一連の銃弾が落ちる。
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:他のエリアから来た参加者か！
+AR15Tarot(0)<Position>0,250</Position>;M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:RO、どうする？
+AR15Tarot(0)<Position>0,250</Position>;RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……+ここで止まっちゃいけない……M4とM16を探すためにも……+どんな代価を払っても……
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:……
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:よーし！　分かった！
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:SOP IIは銃を構え、照準を定めた。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL3</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=3</controll_shake>:（銃声）
+RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:やめてください……これじゃあいつらと同じじゃないですか！+こんなひどいこと……
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:ごめんなさい、ハーミット。
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:RO635は冷静に指揮を執り、襲って来る参加者たちを倒していった。
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:わたしたちの考えなど、多分わからないと思いますが……+わたしたちはあまりにも多くの絶望を経験してきて、//nこれが最後のチャンスです。+だから……今回は何としても、任務を完遂しなければなりません。
+RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:……
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:RO、このまま進んで！　私とSOP IIが掩護する！
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:了解！
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=5</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1><SE2>Gunfight</SE2>:ハーミットの目の前で、ゲームの参加者たちが次々と倒れていく……
 ()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>GF_22W_BGM_1</BGM><SE1>AVG_Broken_Glass</SE1><黑屏2>:哗啦——+“露尼西亚”手中的茶杯碎裂一地。
-()<Speaker></Speaker>||:透过马提尼亨利提供的特制望远镜，她目睹了远方血腥的一切，眼中泛起恐惧和绝望交织的泪光。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:……她们为什么要互相残杀？
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:除了我们的花园，这个世界是一个残酷嗜血的地方。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:为什么……
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3><SE2>Gunfight</SE2>:“露尼西亚”眼睁睁看着其中一位红瞳的少女将别人撕碎，而掩护她的蓝曈少女更是残忍地击倒了所有企图接近她们的人。+“露尼西亚”注意到是一位异瞳少女在指挥着两人，但莫名地，她总觉得这样的画面有些熟悉。
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:这就是您的使命。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>;MartiniHenryTarot(0)<Position>0,250</Position>||:我的使命……
-M4A1Tarot(3)<Position>0,250</Position>;MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:是的，您的到来就是为了消除掉世界的黑暗面，将像这里一样的光明带给全世界。+这样以后就不会有这样无辜的生命遭到屠杀，大家都可以在家人的簇拥下享受一个阳光明媚的午后。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>;MartiniHenryTarot(0)<Position>0,250</Position>||:我可以做到这样的事情吗？
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:当然，您可是露尼西亚小姐！您就是这个世界唯一的希望！
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_1</BGM><SE1>AVG_Broken_Glass</SE1><黑屏2>:（ガシャン――）+「ルニシア」の手からティーカップが落ち、割れた。
+()<Speaker></Speaker>||:「ルニシア」は、マルティニ・ヘンリー特製の望遠鏡から見える//n遠くで行われているデスゲームの光景に戦慄した。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>||:……どうして、殺し合うの？
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:私たちの庭園を除いて、この世界はそういう場所なのです。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>||:どうして……
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3><SE2>Gunfight</SE2>:赤い瞳の少女が簡単に別の少女を引き裂いた。それを掩護する//n青い瞳の少女も、容赦なく他の少女を撃ち倒した。+そしてそんな二人に指示を出しているのは、オッドアイの少女だった。//nこの光景に、「ルニシア」はなぜか妙な懐かしさを感じる。
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:そしてこれは、お嬢さまの使命でもあります。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>;MartiniHenryTarot(0)<Position>0,250</Position>||:私の使命……
+M4A1Tarot(3)<Position>0,250</Position>;MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:はい、この悲しき世界に安らぎを与えるために、お嬢さまがいるのです。+お嬢さまが使命を果たせば、もうこれ以上、殺し合いは必要なく、//nみんな幸せな日々を送ることができます。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>;MartiniHenryTarot(0)<Position>0,250</Position>||:私に、そんなことができるの？
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:もちろんです、ルニシアお嬢さま！　あなたはこの世界の唯一の希望です！
 ()||<黑屏1>:
-()<Speaker>？？？</Speaker>||<黑屏2><BIN>9</BIN>:<color=#FFCC33>M4，你是我们唯一的希望……</color>
+()<Speaker>？？？</Speaker>||<黑屏2><BIN>9</BIN>:<color=#FFCC33>M4、お前が唯一の希望なんだ……</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>703</BIN>:脑海中有谁的声音在回响着，但“露尼西亚”想不起声音的主人。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:唯一的希望……
-()<Speaker></Speaker>||:在她苦苦回忆的时候，她的视线和远处一个女人的视线交汇。+那是一双浸满死亡的冰冷双眼，却在视线交汇的瞬间掀起了惊涛骇浪。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=3</controll_shake><SE1>AVG_XXS_kick</SE1>:女人扔掉手中已无生息的尸骸，直勾勾地朝着她走来，“露尼西亚”隐约能分辨她的口型——
+()<Speaker></Speaker>||<黑屏2><BIN>703</BIN>:頭の中から声がする。でも、それが誰の声なのか、//n「ルニシア」は思い出せない。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>||:唯一の希望……
+()<Speaker></Speaker>||:困惑する「ルニシア」と、遠くにいる一人の参加者の視線がぶつかる。+それは、死に満ちた冷たい視線だった。//nその瞬間、何か途轍もない感情が湧き上がる。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=3</controll_shake><SE1>AVG_XXS_kick</SE1>:その参加者は真っすぐ「ルニシア」を見つめ、口を開く。//n声は聞こえなくとも、その口の動きから分かる――
 M16A1Tarot(0)<Speaker>？？？</Speaker><Position>0,250</Position>||:M4……
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position><Shake>||:不……不要过来……！
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:别害怕，小姐，我在花园的边缘设下了结界，她们是无法来到这里伤害您的。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:好的。
-()<Speaker></Speaker>||:女人的眼神越发炽热，屠杀让她身染鲜血，看起来更加可怖了。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:“露尼西亚”不敢再看她的眼神，只好背过身去逃开。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position><Shake>||:いや……来ないで……！
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:ご心配なさらずに、この庭園には結界が張られております。//n彼女たちはここまで来ることはできません。
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>||:ええ。
+()<Speaker></Speaker>||:その参加者の視線が、ますます怖く感じる。
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:「ルニシア」は思わず、彼女から視線をそらした。
 ()||<黑点1><CGDelay>0.5</CGDelay>:
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||<黑点2>:对不起，小姐，我好像有些着急了……+明明您才刚回来，还没有准备好接受这一切……
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:不，我想要完成我的使命，我希望这个世界能充满温暖和光明。+我应该怎么做？
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:露尼西亚小姐……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:马提尼亨利欣慰地握住了她的手。
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:凭借您的超凡实力，只需要结束外面世界悲惨的命运即可。
-M4A1Tarot(3)<Speaker>？露尼西亚</Speaker><Position>0,250</Position>||:结束……世界的命运？
-MartiniHenryTarot(0)<Speaker>马提尼亨利</Speaker><Position>0,250</Position>||:是的，让一场大洪水来临，让世界被淹没，让生命再次更新。
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||<黑点2>:申し訳ございません、お嬢さま……+お嬢さまはまだお戻りになられたばかりなのに、こんなに急かして……
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>||:……いいえ。私は使命を全うしたいわ。この世界に、平和が訪れて欲しい。+だから、私はどうすればいい？
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:ルニシアお嬢さま……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:マルティニ・ヘンリーは嬉しそうに「ルニシア」の手を握る。
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:お嬢さまがその気になりさえすれば、きっとすぐこの世界の運命を//n終わらせることができるでしょう！
+M4A1Tarot(3)<Speaker>？ルニシア</Speaker><Position>0,250</Position>||:世界の運命を……終わらせる？
+MartiniHenryTarot(0)<Speaker>マルティニ・ヘンリー</Speaker><Position>0,250</Position>||:はい、この世界を終わらせ、もう一度、生まれ変わらせるのです。
 ()||<白屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM><SE1>AVG_magic_circle_start</SE1>:
-()<Speaker></Speaker>||<白屏2><BIN>183</BIN>:最后一声枪声落下的瞬间，一片灿烂的白色光芒自小路的尽头涌出。+一浪又一浪，如同灿烂恒星的光晕，将众人吞没其中……+光芒渐渐消散。
+()<Speaker></Speaker>||<白屏2><BIN>183</BIN>:最後の一人が倒れると同時に、また白い光の道が現れた。+そして眩い光が、AR小隊一行を呑み込んだ……+徐々に光が散り、目の前に現れたのは……
 ()||<白屏1>:
-()<Speaker></Speaker>||<BGM>BGM_DescartesInTheTheatre</BGM><白屏2><BIN>702</BIN><SE1>AVG_wind_grass</SE1>:一座绿意盎然的迷宫蓦然浮现。+灌木绿墙蜿蜒而去，自她们的身旁延展向遥远的天边。
-NPC-Tarot_Chalice(0)<Speaker>圣杯精灵</Speaker><Position>0,250</Position>||:嘻嘻……欢迎各位通过了最终阶段的考核，来到“迷宫花园”！+这里的风景可不是谁都能见到的哦，请各位先好好休息，欣赏美景吧~
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||:混蛋！你给我站住！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:SOP2猛地伸手，却被圣杯精灵轻盈地躲过。
-NPC-Tarot_Chalice(0)<Speaker>圣杯精灵</Speaker><Position>0,250</Position>||:不要着急嘛，SOP2小姐，我们还会见面的！
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:谁想看见你啊？！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:SOP2愤愤地咬紧衣袖，在宝剑精灵邪恶的笑声中，目睹它大摇大摆地消失。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:又是这种被玩弄于鼓掌之中的感觉……
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:哼！这些东西到底有什么了不起的？！+等我揭穿它们的真面目，我一定把它们全都撕烂！撕碎！
+()<Speaker></Speaker>||<BGM>BGM_DescartesInTheTheatre</BGM><白屏2><BIN>702</BIN><SE1>AVG_wind_grass</SE1>:生垣の迷宮だった。+迷宮は果てしなく、ずっと地平線の向こうまで広がっている。
+NPC-Tarot_Chalice(0)<Speaker>カップの精霊</Speaker><Position>0,250</Position>||:フフフッ……さぁて、最終フェイズをクリアした皆さんを迎えるのは、//nこの「迷宮庭園」です！+誰でも来られる場所じゃないですよ！//nまぁでも、とりあえず一旦、ここの風景を眺めながら休憩でも//nしててくださ～い！
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||:おい待て！　コノヤロー！
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:SOP IIはカップの精霊を捕まえようとするが、精霊は飄々とそれを躱す。
+NPC-Tarot_Chalice(0)<Speaker>カップの精霊</Speaker><Position>0,250</Position>||:そんなに焦らないでくださいよ、SOP II様！　また会えますから！
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:誰がお前なんかと！
+()<Speaker></Speaker>||<SE1>Rope</SE1>:SOP IIを嘲笑うように、カップの精霊はゲラゲラと笑いながら消えた。
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:なんか、完全に手玉に取られているような気がする……
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:なんなんだよあのカードは！+全部終わったら絶対紙屑にしてやる！　絶対に！
 RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||:RO不忍心地望向跌坐在地上不语的隐士。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……你还好吗？
-RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:……+这个笨蛋，为什么要去抢着送死啊……
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:她一定是希望你活下去。
-RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:我不理解……我们明明也是进入这里才认识的……+这么短的时间，为什么就愿意为我而死啊……
+()<Speaker></Speaker>||:一行の傍らで黙り込むハーミットに、RO635は声をかける。
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……大丈夫ですか？
+RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:……+あのバカ、なんで自分だけ……
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:きっと、あなたに生き残って欲しいからです。
+RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:分からないよ……ここで初めて知り合ったばかりなのに……+こんな短い時間で、私のために……
 RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RO把隐士扶起来。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:我倒是能理解女皇的心情，为认定的队友而死，从来不是认识时间长短的问题。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:没错！
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:别肉麻，我们该出发了。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:M4和M16一定就在这里！
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:M4和M16？
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:是我们的队友。+前因后果有点难以解释，总之我们进入这里，是为了寻找AR小队的——+两个失散已久的同伴。
-RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:她们就是……付出任何代价都要完成的使命吗？
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:是的。
-RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:事到如今，你们还相信神眷吗？
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:计划原本确实是这样……但现在我们不得不考虑神眷的真实性。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:现在想想，大概是走投无路吧。+不然当初怎么会相信一个来历不明的家伙说的话？
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:才不是来历不明呢！人家叫雷那德•卡加！+而且，到目前为止……这个人说过的很多话都被验证了呀！
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:只是目前为止而已，这家伙到现在还没有现身，也不确定目的究竟是什么。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:我们保持警惕吧。+现在也只能继续按照原定计划行动了。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:嗯，动身吧。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:出发出发！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:拂去淡淡的忧郁，几人朝着迷宫入口而去。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:RO635はハーミットに手を差し伸べる。
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:信じた仲間のために身を捧げる、それは知り合った時間の長さとは//n関係ありません。
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:その通り！
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:カッコつけたこと言ってないで、早く行くわよ。
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:M4とM16はきっとここにいる！
+RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:M4とM16？
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:わたしたちの仲間です。+経緯を説明するのはちょっと難しいですが、//nわたしたちがここに来たのは――+仲間を探すためです。
+RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:……たとえどんな代価を払っても？
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:はい。
+RO635Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隠者</Speaker><Position>0,250</Position>||:今更訊くのもなんですが、あなたたちは神のご加護ってやつを信じますか？
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:最初はあまり信じていませんでしたが……今となっては//n信じざるを得ないみたいですね。
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:ただ行き詰っただけでしょ。+じゃなきゃ、あんなよく分からないやつの言うことなんて……
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:分からなくはないよ、レナード・カカって名前なんでしょ！+あの人の言ってたこと、今のところ、大体合ってるし！
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:今のところは。そもそもこっちはあいつの目的すら分からないのだから。
+RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:引き続き警戒しましょう。+こうなってしまった以上、このまま進み続けるしかありません。
+AR15Tarot(0)<Speaker>ST AR-15</Speaker><Position>0,250</Position>||:ええ、行きましょう。
+M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:行こう行こう！
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:微かな不安を残しつつ、一行は迷宮の中に入った。
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:

@@ -56,7 +56,16 @@ local LoadLeftBG = function(self)
 	bg.transform:SetParent(self.leftMain, false);
 	bg.transform:SetAsFirstSibling();
 end
+
+local PlayMove = function(self)
+	if self.groupInfo ~= nil then
+		self.opsMission = CS.OPSMission();
+		self.opsMission.missionIds:Add(self.CurrentMissionId);
+	end
+	self:PlayMove();
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitPanelSpot',InitPanelSpot)
+util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 

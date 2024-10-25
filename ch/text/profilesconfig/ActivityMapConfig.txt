@@ -81,10 +81,12 @@ MissionSelectionTex|missionselect_202406Activity|1|-69
 MissionSelectionTex|missionselect_PoincareRecurrenceRemake|2|-67
 //24.7月 
 MissionSelectionTex|missionselect_202407Activity|2|-70
-//24.8月 临时
+//24.8月
 MissionSelectionTex|missionselect_202408Activity|2|-71
-//24.10月 临时
+//24.10月
 MissionSelectionTex|missionselect_202410Activity|2|-72
+//2021冬活配置-秃洞单独配置：
+MissionSelectionTex|missionselect_FixedPoint_RE|2|-40401
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -136,6 +138,7 @@ OPSPanelScene|-67|-67
 OPSPanelScene|-70|-70
 OPSPanelScene|-71|-71
 OPSPanelScene|-72|-72
+OPSPanelScene|-40401|-40401
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -217,6 +220,7 @@ OPSLeftBGNormalActivity|-67|2021Summer_Left
 OPSLeftBGNormalActivity|-70|202407Activity_Left
 OPSLeftBGNormalActivity|-71|202408Activity_Left
 OPSLeftBGNormalActivity|-72|202410Activity_Left
+OPSLeftBGNormalActivity|-40401|FixedPoint_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -413,6 +417,7 @@ OPSProgressNormalActivity|-69|202406Activity_Progress
 OPSProgressNormalActivity|-70|202407Activity_Progress
 OPSProgressNormalActivity|-71|202406Activity_Progress
 OPSProgressNormalActivity|-72|202406Activity_Progress
+OPSProgressNormalActivity|-40401|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -610,8 +615,9 @@ OPSCampaignTitleButtonTip|-71|100235|60|202408Activity_Tip|1
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
 //OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
-//OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
-//OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
+OPSShowItem|-40401|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
+OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
+OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
 //OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 //OPSShowItemDeployment|9031,9030|ZombieLandSagaRevenge_DeploymentItems|11267,11268,11269
 CampaignMissionDeployEffect|528|2023Spring_ShowItem12|11335,11337,11341,11343,11347,11349,11353,11355,11359,11377,11378,11379,11380,11381,11382,11383,11384,11385|0_30;30_60;60_130;130_260;260_99999|ItemAndEffect1,ItemAndEffect2,ItemAndEffect3,ItemAndEffect4,ItemAndEffect5|Item/Txt_Num
@@ -2133,3 +2139,13 @@ OPSCampaignDetail|-72_29|0,0|Mrsgray
 OPSCampaignDetail|-72_30|0,0|Morridow_2
 OPSCampaignDetail|-72_31|0,0|Punish
 
+//贝蒂数常驻补丁配置
+OPSCampaignDetail|-40401_1|0,0|Metalmax
+OPSCampaignDetail|-40401_2|0,0|Uhlan
+OPSCampaignDetail|-40401_3|0,0|Uhlan
+OPSCampaignDetail|-40401_4|0,0|Morridow_2
+OPSCampaignDetail|-40401_5|0,0|Morridow_2
+OPSCampaignDetail|-40401_6|0,0|Morridow_2
+OPSCampaignDetail|-40401_7|0,0|Morridow_2
+OPSCampaignDetail|-40401_8|0,0|Morridow_2
+OPSCampaignDetail|-40401_9|0,0|Morridow_2

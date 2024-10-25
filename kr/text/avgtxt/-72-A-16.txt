@@ -1,124 +1,124 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><BIN>685</BIN><黑点2><BGM>BGM_23S_Crossroads_Warrior</BGM>:……艾莫号。+沉寂已久的基地车终于迎回了常有的热闹。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:指挥官，我们已经完成了交接，现在对艾莫号进行最后的安全筛查。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>嗯，多加小心。</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-18走到控制端边，对身边的RO635点点头。
-RO635Mod(0)<Speaker>RO635</Speaker>||:不要放松警惕，一切疑似被斯塔西动过的部分都要仔细检查。
-AR15Mod(0)<Speaker>AR-15</Speaker>||:嗯。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><Shake>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:<size=50>我们终于回来了！！！</size>
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:SOP2激动的蹦跳声打破了大家的沉静克制。+看着SOP2跑远的背影，RO635只能无奈地示意AR-15也跟上。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:留在指挥室的AR-18启动了艾莫号的控制系统，开始检索这些日子在系统中留存的浏览和破解痕迹。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:指挥官，斯塔西对艾莫号的系统尝试了破解，但没有完全成功。+除了艾莫号行驶日志、检修记录、物资储备这些后勤相关数据，其他的机密情报都没有泄露风险。
-AR18(2)<Speaker>指挥官</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>好，之前留在艾莫号修理的人形呢？</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:稍等，这部分需要联络一下RO。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:RO，你们到维修间了吗？
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>嗯，我们走的时候对维修槽进行了系统强制封锁，同样有尝试破解的痕迹，但没有成功。</color>+<color=#00CCFF>之后斯塔西似乎对整个维修间断电，不久前刚刚恢复供电。</color>
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>这些斯塔西太可恶了！占了别人的基地车，还手脚不干净到处乱翻！</color>
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:人形们有受到损害吗？
-AR15Mod(0)<Speaker>AR-15</Speaker><通讯框>||:<color=#00CCFF>没有，只是被暂停了维修进程，现在已经全部复原了。</color>+<color=#00CCFF>另外，这里堆放了一批人形通用部件的物资，我猜是斯塔西留下的……</color>
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>别以为这样就会原谅他们！物资都有些什么，我先检查看看！</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>人形没事就好，加快她们的修复进程。</color>
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>是。</color>+<color=#00CCFF>那我们继续推进对艾莫号的修复和排查。</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:嗯，注意留意下有没有斯塔西留下的耳朵。
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><BIN>685</BIN><黑点2><BGM>BGM_23S_Crossroads_Warrior</BGM>:...엘모호.+오랫동안 조용했던 기지 차량에 평소의 시끌벅적함이 돌아왔다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:지휘관, 인수인계를 마쳤고 현재 엘모호의 최종 안전 검사를 진행하고 있습니다.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>그래, 조심해서 확인해.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-18은 콘솔 옆으로 걸어가 곁에 있는 RO635에게 고개를 끄덕였다.
+RO635Mod(0)<Speaker>RO635</Speaker>||:경계를 늦추지 마, 슈타지가 건드렸을 것 같은 부분을 전부 자세히 검사해.
+AR15Mod(0)<Speaker>AR-15</Speaker>||:응.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><Shake>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:<size=50>드디어 돌아왔다!!!</size>
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:SOP2의 흥분한 목소리가 차분함을 유지하던 분위기를 깨뜨렸다.+SOP2의 들뜬 뒷모습을 지켜보며 RO635도 할 수 없이 AR-15와 함께 따라갔다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:지휘실에 남은 AR-18은 엘모호의 제어 시스템을 가동해, 최근 시스템에 남겨진 열람 및 해킹 흔적을 검사했다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 슈타지가 엘모호 시스템을 해킹을 시도한 흔적이 있습니다만, 완전히 성공하진 못했습니다.+엘모호의 주행 일지, 정비 기록, 물자 재고 등 군수 관련 데이터를 제외하고, 다른 기밀 정보는 유출되지 않았습니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>그래, 엘모호에서 수리받던 인형들은?</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:그건 RO를 연결해 확인하겠습니다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:RO, 수리실에 도착했나?
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>네, 우리가 나가기 전에 수복캡슐 시스템을 강제 잠금했는데, 여기에도 해킹 시도 흔적이 있어요, 실패했지만.</color>+<color=#00CCFF>해킹이 실패하자 슈타지는 수리실 전체 전력을 끊어버린 것 같고, 인수인계하기 조금 전에 전력 공급을 복구한 것 같아요.</color>
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>슈타지 놈들 너무해! 남의 기지차량을 함부로 차지하고 멋대로 뒤지고 말이야!</color>
+AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:인형들에게 피해는 있는가?
+AR15Mod(0)<Speaker>AR-15</Speaker><通讯框>||:<color=#00CCFF>아니, 수복 진도가 일시 정지됐을 뿐이고 지금 모두 복구됐어.</color>+<color=#00CCFF>그리고, 여기에 인형 부품이 쌓여있는데, 아마 슈타지가 남기고 간 거겠지...</color>
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>흥! 이런다고 용서해줄 것 같아? 다 뭐가 있는지 내가 직접 확인할 거야!</color>
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>인형들이 무사하다면 다됐어, 수복을 서둘러줘.</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>네.</color>+<color=#00CCFF>그럼 계속해서 엘모호의 복구와 검사를 진행하겠습니다.</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:그래, 슈타지의 엿듣는 귀가 남아있는지도 주의하고.
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:AR-18继续重启所有休眠的系统，艾莫号的灯光、通风、水电等系统很快都恢复了正常运转。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:直到看见一个早就应该醒来，却还闭眼装睡的人形。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:系统提示，是否需要再次启动高压电能唤醒程序？
-ColtWalker(2)<Speaker>柯尔特沃克</Speaker><GradientShow>2</GradientShow>||<SE1>ClothingUp</SE1>:……哎呀，到我表演的环节了？
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我把你唤醒，不是让你在这看戏的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:显然刚从一段悠长舒适的睡眠中醒来，柯尔特沃克伸着懒腰走来。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我需要你来负责信号支援组的工作，重启埃涅阿斯会议室。
-ColtWalker(3)<Speaker>柯尔特沃克</Speaker>;AR18(2)<Position>0,100</Position>||:啧，一上来就是这么高难度的节目。
-ColtWalker(3);AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我会来协助你一起维持埃涅阿斯会议室的运行。+接下来的所有通讯联络都将通过埃涅阿斯会议室，你明白吗？
-ColtWalker(1)<Speaker>柯尔特沃克</Speaker>||:知道了，格里芬的饭真是一口不让白吃啊。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:嘴上嘟嘟囔囔着，柯尔特沃克还是开始了重启会议室频道的工作。
-()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:所有系统都顺利启动后，AR-18打开了艾莫号的行驶操作面板。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_door_storehouse</SE1>:在隐藏讯号和行驶轨迹后，艾莫号朝着清晨的迷雾中而去……
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:AR-18은 계속해서 휴면 중이던 모든 시스템을 가동시키자, 엘모호의 조명, 통풍, 수도 및 전기 시스템이 모두 빠르게 정상화되었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그러다가 진작에 깨어났어야 하는데 여전히 자는 척하고 있는 인형을 발견했다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:시스템 알림, 고압 전류 각성 프로세스를 다시 실행할까?
+ColtWalker(2)<Speaker>콜트 워커</Speaker><GradientShow>2</GradientShow>||<SE1>ClothingUp</SE1>:...어이쿠, 내가 나설 차례인가 보네?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:구경하라고 널 깨운 게 아니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:긴 단잠에서 깨어난 콜트 워커가 개운하게 기지개를 켜며 걸어왔다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:네가 신호 지원팀의 작업을 맡아 아이네이아스 회의실을 재가동해야 한다.
+ColtWalker(3)<Speaker>콜트 워커</Speaker>;AR18(2)<Position>0,100</Position>||:어휴, 깨우자마자 힘든 일을 시키네.
+ColtWalker(3);AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:나도 아이네이아스 회의실 기능 유지를 돕겠다.+앞으로 모든 통신 연락은 아이네이아스 회의실을 통해서 진행한다. 알겠나?
+ColtWalker(1)<Speaker>콜트 워커</Speaker>||:알았어, 그리폰은 밥 한 숟갈도 거저 주지 않네.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:입으로는 푸념하면서도 콜트 워커는 회의실 채널 리부팅 작업을 진행했다.
+()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:모든 시스템이 순조롭게 가동하고, AR-18은 엘모호의 주행 조작 패널을 켰다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_door_storehouse</SE1>:신호와 주행 궤적을 은폐하고서, 엘모호는 새벽 안개 속으로 모습을 감췄다...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>685</BIN><黑屏2>:一段时间后。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:指挥官，我们抵达目标地点了。+确认甩掉了所有追踪讯号。
-RO635Mod(0)<Speaker>RO635</Speaker>||:艾莫号的排查工作也完成了，斯塔西没有留多余的手脚。
-RO635Mod(0)<Speaker>指挥官</Speaker><同时置暗>||:<color=#00CCFF>收到，我在紧急出口这里。</color>
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:AR-18打开了指挥官附近的通道入口。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:几分钟后，熟悉的脚步声出现在了指挥室。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:我回来了。
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:指挥官，所有准备工作都完成了，要现在开始会议吗？
-()<Speaker>指挥官</Speaker>||<BGM>BGM_Empty</BGM>:等一下。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:指挥官走向咖啡机，迫不及待给自己来上一杯艾莫号特供咖啡。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:捧着咖啡坐回老位置，指挥官面前的战术指挥端自动面部解锁。
-()<Speaker>指挥官</Speaker>||:现在，才有了回到艾莫号的实感……
-ColtWalker(1)<Speaker>柯尔特沃克</Speaker>||:埃涅阿斯会议室已经重启了，等你准备好了随时可以开始。
-ColtWalker(1)<Speaker>指挥官</Speaker><同时置暗>||:嗯。
-ColtWalker(1)<Speaker>柯尔特沃克</Speaker>||:我对会议室进行了一些规模扩建，现在你可以用会议室对所有格里芬人形梯队下指令了。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:好，现在开始吧。
+()<Speaker></Speaker>||<BIN>685</BIN><黑屏2>:어느 정도 시간이 지난 후.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:지휘관, 목표 지점에 도착했습니다.+미행하는 신호는 전부 따돌렸습니다.
+RO635Mod(0)<Speaker>RO635</Speaker>||:엘모호의 보안 검사도 다 마쳤습니다, 슈타지가 이상한 수작을 남기진 않았어요.
+RO635Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:<color=#00CCFF>알았어, 나는 비상 출구 쪽에 있어.</color>
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:AR-18가 지휘관 근처의 통로 입구를 열었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:몇 분 후, 익숙한 발소리가 지휘실에 나타났다.
+()<Speaker>지휘관</Speaker>||<SE1>Stop_AVG_loop</SE1>:돌아왔어.
+AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 모든 준비를 마쳤습니다. 지금 바로 회의를 시작합니까?
+()<Speaker>지휘관</Speaker>||<BGM>BGM_Empty</BGM>:잠시만.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:지휘관은 커피포트로 다가가, 엘모호 특제 커피를 한 잔 따랐다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:커피잔을 들고 평소 자리에 앉자, 지휘관 앞의 전술 지휘 콘솔이 자동으로 안면 인식을 했다.
+()<Speaker>지휘관</Speaker>||:이제야 엘모호에 돌아온 실감이 드네...
+ColtWalker(1)<Speaker>콜트 워커</Speaker>||:아이네이아스 회의실 재가동했어, 지휘관이 준비되면 언제든지 회의 시작해.
+ColtWalker(1)<Speaker>지휘관</Speaker><同时置暗>||:그래.
+ColtWalker(1)<Speaker>콜트 워커</Speaker>||:회의실 규모도 어느 정도 확장해서, 이 회의실로 모든 그리폰 인형 제대를 지휘할 수 있을 거야.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:좋아, 그럼 이제 회의를 시작할까.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_ev2410_LaNuit</BGM><黑屏2><BIN>768</BIN>:赫柏的度假别墅内。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:赫柏拉开了酒柜，纤长的食指划过一瓶瓶珍藏多日的酒。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:你还是爱喝罗曼尼•康帝吗？
-()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>ClothingUp</SE1>:惬意地躺在柔软的真皮沙发上，斯提克斯翻了个身。
-NPC-Styx(1)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:嗯哼，给我来一杯。+也就你这里的最香醇了。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:你平常喝的，怕是比这里的名贵得多。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:赫柏取出两支酒杯和一瓶红酒，斟上鲜红的液体，端到斯提克斯的唇边。
-NPC-Styx(1)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:姐姐这是哪里的话。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>;NPC-Styx(1)<Position>0,-50</Position>||:早就对潘多拉组织的奢华程度有所耳闻。+听说，博纳多集团为了你的宣传出访活动，特意定制了一艘仿古帆船。
-NPC-Hebe(3);NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:明面上是为了我，实际上还不是把集团的LOGO印得铺天盖地，恨不得让我顺便宣传他们的新系列了。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>||:不管哪里都一样，就算喊着相同的口号，追求的也是各自的利益。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers</SE1>:叮铃。两支高脚杯的碰撞发出悦耳的一声。
-NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:是啊，我们上一次分别时，还在为能不能搞定而感到担忧。+没想到不管是德国高层还是潘多拉，甚至不如帕拉蒂斯的组织力和行动力。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:上一次分别……没想到已经是几年前的事了。+我们从阿佛那斯出来，竟是再也没见过面。
-NPC-Hebe(0);NPC-Styx(2)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:那个时候接受帕拉蒂斯神圣洗礼的，也就剩你我了。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:今日的帕拉蒂斯和那时已经不可比了。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:斯提克斯给两人的酒杯重新斟上酒。
-NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:不知道姐姐对现在的帕拉蒂斯有什么高见。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:高见说不上，只是觉得现在从帕拉蒂斯出来的东西……都不怎么能派上用场。
-NPC-Hebe(3);NPC-Styx(3)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:尼梅兰很是头疼的样子。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:那是她的责任，既然拥有这样的权限，总不能什么苦都不担吧？+不过我很好奇她接下来的打算。
-NPC-Hebe(0);NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:那你呢，姐姐，你有什么打算呢？
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:当然是老样子。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:两人静静地品着杯中香气馥郁的酒液。
-NPC-Styx(2)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:要收网了。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>;NPC-Styx(2)<Position>0,-50</Position>||:我知道，加冕风暴。
-NPC-Hebe(3);NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:你想好后续的庆功宴了吗？
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:……怎么，要现在开始买彩票？
-NPC-Hebe(0);NPC-Styx(3)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:我想，名额是有限的。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:所以你想要在最后关头捞个军功？
-NPC-Hebe(0);NPC-Styx(3)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:哎，还不到我出手的时候呢。
-NPC-Styx(1)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:希望行程慢一点，可别等我们换上最隆重的礼服，还没登场，一切就都结束了。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>||:……我倒是对这具身体有些厌烦了，希望快点有个结果，最好我什么都不用做了。
+()<Speaker></Speaker>||<BGM>BGM_ev2410_LaNuit</BGM><黑屏2><BIN>768</BIN>:헤베의 바캉스 별장.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:헤베가 술장을 열고, 오래도록 아껴둔 술병들을 하나하나 훑어보았다.
+NPC-Hebe(0)<Speaker>헤베</Speaker>||:아직도 로마네 콩티 좋아해?
+()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>ClothingUp</SE1>:푹신한 가죽 소파에 편안하게 누워 있던 스틱스가 몸을 뒤집었다.
+NPC-Styx(1)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:응, 한 잔 따라줘.+역시 너희 술이 향이 제일 좋아.
+NPC-Hebe(0)<Speaker>헤베</Speaker>||:네가 평소에 마시는 게 여기 있는 것보다 훨씬 비쌀 텐데.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:헤베가 술잔 두 개와 와인 한잔을 꺼내 붉은 와인을 따라서 스틱스의 입가에 가져다줬다.
+NPC-Styx(1)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:그게 무슨 소리야~
+NPC-Hebe(3)<Speaker>헤베</Speaker>;NPC-Styx(1)<Position>0,-50</Position>||:판도라 조직이 얼마나 사치를 부리고 있는지 소문으로 들어서 잘 알고 있어.+버나드 그룹이 네 홍보 활동 협찬으로 클래식 범선까지 특별히 만들어줬다며?
+NPC-Hebe(3);NPC-Styx(0)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:말만 협찬이지 배를 자기네 로고로 도배해놔서 그냥 광고 목적이야.
+NPC-Hebe(3)<Speaker>헤베</Speaker>||:어딜 가나 똑같지, 같은 구호를 외쳐도 추구하는 건 각자의 이익이니까.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers</SE1>:두 와인잔이 서로 부딪혀 경쾌한 소리를 냈다.
+NPC-Styx(0)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:그러게, 우리가 마지막으로 헤어질 때 이 일을 잘 해낼 수 있을지 걱정했었는데.+알고 보니 독일 고위직이든 판도라든, 조직력과 행동력이 패러데우스보다 못하네.
+NPC-Hebe(0)<Speaker>헤베</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:마지막으로 헤어질 때라... 그것도 벌써 몇 년 전 일이네.+아베르누스에서 이후로는 다시 만난 적 없었으니까.
+NPC-Hebe(0);NPC-Styx(2)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:그때 패러데우스의 신성 세례를 받은 것도 언니랑 나뿐이었지.
+NPC-Hebe(0)<Speaker>헤베</Speaker>||:지금의 패러데우스는 그때하고는 상황도 다르고.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:스틱스는 두 사람의 잔에 술을 다시 따라주었다.
+NPC-Styx(0)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:언니는 지금의 패러데우스에 대해 어떻게 생각해?
+NPC-Hebe(3)<Speaker>헤베</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:글쎄, 요즘 패러데우스에서 나오는 것들은… 전부 별로 쓸모가 없는 것 같아.
+NPC-Hebe(3);NPC-Styx(3)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:네메아란이 정말 골치 아파하는 것 같더라.
+NPC-Hebe(0)<Speaker>헤베</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:그건 그 사람이 짊어질 책임이지, 그 정도의 권한을 가지고 아무 고생 안 할 수는 없잖아?+그래도 앞으로 어떻게 할 심산인지는 궁금하네.
+NPC-Hebe(0);NPC-Styx(0)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:그럼 언니는, 앞으로 어떻게 할 생각이야?
+NPC-Hebe(0)<Speaker>헤베</Speaker>||:나는 평소처럼 지낼 거야.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:두 사람은 조용히 향기로운 술을 음미했다.
+NPC-Styx(2)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:그물을 걷어야 해.
+NPC-Hebe(3)<Speaker>헤베</Speaker>;NPC-Styx(2)<Position>0,-50</Position>||:나도 알고 있어, '대관식 폭풍'
+NPC-Hebe(3);NPC-Styx(0)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:그 후 피로연 준비는 다 했어?
+NPC-Hebe(0)<Speaker>헤베</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:...뭐야, 벌써 복권 긁을 셈이야?
+NPC-Hebe(0);NPC-Styx(3)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:아마 명단에 제한이 있을 거야.
+NPC-Hebe(0)<Speaker>헤베</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:그래서 마지막 순간에 자기 공을 올리시겠다?
+NPC-Hebe(0);NPC-Styx(3)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:에이, 아직 내가 나설 때가 아니야.
+NPC-Styx(1)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:일정을 너무 서두르지 않으면 좋겠네, 우리가 화려하게 차려입었을 때 모든 일이 끝나버리지 않게.
+NPC-Hebe(3)<Speaker>헤베</Speaker>||:...나는 이 몸뚱이가 조금 질려서, 우리가 고생할 필요 없이 빨리 결과가 나오면 좋겠어.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>72</BIN><SE1>AVG_Shield_Startup</SE1>:……埃涅阿斯会议室启动。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:指挥官将权限下放给了所有参与行动的人形。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>各位，欢迎来到埃涅阿斯会议室，接下来的所有行动指令和情报汇总我都将在这里发布。</color>
-()<Speaker></Speaker>||:指挥官示意AR-18将法兰克福的地图投放在会议室中。+上面闪动的几枚红点表示目前还留在法兰克福市区的人形小队。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>目前，留在法兰克福市区内的小队还有404和忤逆，AR小队会在之后过去支援你们。</color>+<color=#00CCFF>为了应付城区内的搜查和涅托的袭击，留在市区内的小队记得每24小时就更换一次安全屋。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>放心吧，这可是404最擅长的领域。</color>
-UMP9Mod(3)<Speaker>UMP9</Speaker><通讯框>||:<color=#00CCFF>我们还给其他小队准备好了备用地点！</color>
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>好，辛苦你们了，一定要多加小心。</color>
-G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>……指挥官。</color>+<color=#00CCFF>416怎么样了？</color>
-G11Mod(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:<color=#00CCFF>416已经送入了维修槽，她的情况比较复杂，艾莫号内目前无法完成修复。</color>+<color=#00CCFF>不过别担心，受损数据已经发送给帕斯卡和德尔，评估下来还是比较乐观的。</color>
+()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>72</BIN><SE1>AVG_Shield_Startup</SE1>:...아이네이아스 회의실이 가동되었다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:지휘관이 작전에 참여하는 모든 인연에게 권한을 부여했다.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>모두, 아이네이아스 회의실에 환영한다. 이후 모든 작전 지시와 정보 공유는 여기서 진행될 거다.</color>
+()<Speaker></Speaker>||:지휘관은 AR-18에게 프랑크푸르트의 지도를 회의실에 띄우라 지시했다.+지도 위에 깜빡이는 붉은 점 몇 개가 아직 프랑크푸르트 시내에 남아 있는 인형 소대를 나타냈다.
+()<Speaker>지휘관</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>현재 프랑크푸르트 시내에 있는 소대는 404와 리벨리온이고, AR팀은 나중에 지원하러 갈 거야.</color>+<color=#00CCFF>시내 수사와 니토의 습격에 대비해서, 시내에 머물고 있는 소대는 24시간마다 세이프하우스를 옮기는 것을 잊지 말도록.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>걱정 마, 그건 404가 제일 잘하는 부분이니까.</color>
+UMP9Mod(3)<Speaker>UMP9</Speaker><通讯框>||:<color=#00CCFF>다른 소대한테도 예비 세이프하우스 마련해뒀어!</color>
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>그래, 수고했어. 최대한 신중하게 움직여.</color>
+G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>...지휘관.</color>+<color=#00CCFF>416은 어때?</color>
+G11Mod(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:<color=#00CCFF>416은 지금 수복캡슐에 들어갔어. 상태가 많이 복잡해서 엘모호 안에선 수리를 마칠 수 없어.</color>+<color=#00CCFF>그래도 걱정 마렴, 파손 데이터를 페르시카 씨와 데레에게 전달했고, 두 사람의 의견으론 낙관적이래.</color>
 G11Mod(0)<Speaker>G11</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:
-G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>……嗯！</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>我们复盘了416遭袭的那场电子战，敌人似乎早有准备，冗余数据多到不可思议的程度。我尝试了各种解析工具，只能说工作量多到能直接把我送进人形古董博物馆。</color>+<color=#00CCFF>对方可能采用的是一套我从未见过的数据编译结构，她的基本信息和战斗方式还难以探知。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:<color=#00CCFF>……她能在不引起我方的注意下击毁416，是极其危险的人物。</color>+<color=#00CCFF>现在对她知道的太少，你不要轻举妄动。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>我明白。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>这个新出现的涅托，我也会去从其他渠道找找看情报。</color>
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>指挥官，忤逆和404同时仍在保持对蜂针系统的实时监控。</color>+<color=#00CCFF>帕拉蒂斯最近更换动态密钥的频率显著上升，密钥的安全等级也提高了。</color>
-NPC-AK12Mod(11)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:<color=#00CCFF>茧计划有什么新发现吗？</color>
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>关于茧计划，帕拉蒂斯位于法兰克福所有工厂的产能均已拉到最高。</color>+<color=#00CCFF>这前所未有，就像是它们突然不在意被发现了，放弃所有掩饰只为了完成伊阿索之匣。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>……它们在加快茧计划的进程。</color>
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>我们不能让它们完成生产……</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>嗯，找出它们的生产线，想办法捣毁。</color>
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>目前我们可以确定的，是其中一条生产线正在埃施博恩区的布伦塔诺公园附近。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>AR-18，给我它的全部资料。</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>是。</color>
+G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>...응!</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>416이 당한 전자전을 복기해봤는데, 상대방은 진작에 준비하고 있었던 것 같아. 잉여 데이터양이 어마어마한 수준이야. 각종 해석 툴을 써봤는데, 이정도 양이면 나를 바로 골동품 박물관에 보낼 수 있는 수준이야.</color>+<color=#00CCFF>상대방이 사용한 건 내가 본 적 없는 컴파일 구조 같아. 녀석의 기본 정보와 전투 방식은 아직 알 수 없어.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:<color=#00CCFF>...녀석은 우리가 눈치채지 못한 사이에 416을 격파했어. 매우 위험한 상대야.</color>+<color=#00CCFF>지금 녀석에 대해 아는 게 너무 없으니 섣부른 행동은 하지 마.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>알고 있어.</color>
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>이 새로 출현한 니토에 대해서 나도 다른 경로로 정보를 찾아볼게.</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>지휘관, 리벨리온과 404는 여전히 벌침 시스템을 실시간 모니터링하고 있어.</color>+<color=#00CCFF>최근 패러데우스가 OTP를 교체하는 빈도가 현저히 상승했고, 인증키의 보안 등급도 상승했어.</color>
+NPC-AK12Mod(11)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:<color=#00CCFF>고치 계획에 대한 새로운 정보는 있어?</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>고치 계획에 관해서는, 프랑크푸르트에 있는 모든 패러데우스 공장의 생산력을 최대치로 끌어올렸어.</color>+<color=#00CCFF>여태까지 없던 일이야, 마치 발각되는 것을 신경 쓰지 않고 오로지 이아손의 상자를 완성시키는 것에만 몰두하는 것 같아.</color>
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>...고치 계획의 진행을 서두르고 있군.</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>이대로 생산을 방치해서선 안 돼요...</color>
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>그래, 놈들의 생산라인을 찾아내서 어떻게든 파괴해야 해.</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>현재 우리가 파악할 수 있는 것은 생산라인 중 하나가 에쉬본구 브렌타노 공원 근처에 있다는 거야.</color>
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>AR-18, 그곳과 관련된 모든 자료를 보내줘.</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>예.</color>
 ()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>0.5</CGDelay>:
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>忤逆随时可以行动。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>404已就位。</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>리벨리온, 언제든지 출격 가능해.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>404도 준비되었어.</color>
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:

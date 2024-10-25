@@ -427,6 +427,15 @@ patch3060=
 "3060/PrizeInfoBoxCtrl",
 "3060/CommonIconController",
 "3060/AVGController",
+"3060/MallGoodController",
+"3060/BreakoutIntelligenceItem",
+"3060/BreakoutPhaseBattleFinishController",
+"3060/GriffinEntryMessageBoxController",
+"3060/BattleTarkovUIUseableItem",
+"3060/UIBattleMainView",
+"3060/MallKalinaFavorController",
+"3060/BreakoutTeamPrepareController",
+"3060/BattleTarkovUIGunItem"
 }
 -- va11
 print("load Va11");

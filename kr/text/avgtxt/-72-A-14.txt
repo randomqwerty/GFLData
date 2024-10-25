@@ -1,213 +1,213 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><黑屏2><CGDelay>0.5</CGDelay><BIN>751</BIN><BGM>GF_EV9_Story</BGM>:……法兰克福机场外。+看着一辆辆车辆前移，斯特林耐心地等待着进入机场停车场。
-PPQ(0)<Speaker>布里吉特</Speaker>||:艾莫号就这样完成交接了……
-PPQ(0);TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position>||:你舍不得？
-PPQ(0)<Speaker>布里吉特</Speaker>||:只是有点感慨。
-PPQ(0);LS26(0)<Speaker>伊迪斯</Speaker>||:希望我们在艾莫号上没有遗漏什么……
-PPQ(0)<Speaker>布里吉特</Speaker>;LS26(0)||:你们不也没做什么嘛。+不就是切断了人形整备室和维修间的能源以防暴动，然后尝试了下骇入？
-PPQ(0);LS26(0)<Speaker>伊迪斯</Speaker>||:嗯……话虽如此……
-PPQ(0)<Speaker>布里吉特</Speaker>||:放心啦，我们在维修间里留下了那么多物资，指挥官不会介意的~
-Sterling(0)<Speaker>斯特林</Speaker>||:艾莫号的任务已经结束了。+比起讨论艾莫号……不如想想接下来的行动。
-PPQ(0)<Speaker>布里吉特</Speaker>||<CGDelay>0.5</CGDelay>:
-PPQ(0)<Speaker>布里吉特</Speaker>||:……知道了。
+()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><黑屏2><CGDelay>0.5</CGDelay><BIN>751</BIN><BGM>GF_EV9_Story</BGM>:...프랑크푸르트 공항 밖.+차량 행렬이 천천히 전진하는 것을 지켜보며, 스털링은 인내심 있게 공항 주차장에 진입하기를 기다렸다.
+PPQ(0)<Speaker>브리짓</Speaker>||:이걸로 엘모호는 인수인계 완료...
+PPQ(0);TFQ(0)<Speaker>다그마르</Speaker><Position>0,60</Position>||:아깝나요?
+PPQ(0)<Speaker>브리짓</Speaker>||:그냥 감탄하는 말이야.
+PPQ(0);LS26(0)<Speaker>이디스</Speaker>||:우리가 엘모호에 빠뜨린 건 없겠지...?
+PPQ(0)<Speaker>브리짓</Speaker>;LS26(0)||:우리가 뭐 이상한 짓을 한 것도 아니잖아.+인형들이 난리치지 않게 정비실과 수리실 전원을 끊은 거랑, 살짝 시스템 해킹해본 정도?
+PPQ(0);LS26(0)<Speaker>이디스</Speaker>||:뭐어... 그건 그렇지만...
+PPQ(0)<Speaker>브리짓</Speaker>||:괜찮아, 수리실에 물자를 그렇게 잔뜩 선물해줬는데, 약간 문제 있어도 눈감아주겠지~
+Sterling(0)<Speaker>스털링</Speaker>||:엘모호 관련 임무는 종료다.+그러니 엘모호보다는 당장의 임무에 집중해라.
+PPQ(0)<Speaker>브리짓</Speaker>||<CGDelay>0.5</CGDelay>:
+PPQ(0)<Speaker>브리짓</Speaker>||:...알았어.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><SE1>AVG_Jet_Passby</SE1>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN>:……法兰克福机场，海关物流区。
-()<Speaker></Speaker>||:运输着货物的小型货物来来往往，潜伏于其中的人形小队已经就位。
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN>:...프랑크푸르트 공항, 세관 국제 물류 센터.
+()<Speaker></Speaker>||:화물을 싣고 왕래하는 소형 트레일러 사이에 인형 소대가 잠복해서 명령을 기다리고 있었다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-Sterling(0)<Speaker>斯特林</Speaker>||:我们已经抵达机场，准备执行“厄里斯”行动。
-NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>收到，批准行动。</color>
-Sterling(0)<Speaker>斯特林</Speaker>||:是。
+Sterling(0)<Speaker>스털링</Speaker>||:공항에 도착, 곧 "에리스" 작전을 실행하겠다.
+NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>그래, 움직여.</color>
+Sterling(0)<Speaker>스털링</Speaker>||:알았다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
-()<Speaker></Speaker>||:斯特林完成汇报后，转向身边的队友。
-Sterling(0)<Speaker>斯特林</Speaker>||:我们需要拦截这批预计在早上六点抵达机场海关的物资，然后从中找出编号为EDDF-46623894的货物。
-PPQ(0)<Speaker>布里吉特</Speaker>||:需要收缴目标物品，带回斯塔西吗？
-Sterling(0)<Speaker>斯特林</Speaker>||:不用带回，就地扣押。+根据情报显示，这件货物极有可能就是帕拉蒂斯制造的武器伊阿索之匣。
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position>||:伊阿索之匣？之前在柏林机场发现的辐射武器？
-Sterling(0)<Speaker>斯特林</Speaker>||:是的。+一旦确认任务目标，立刻封锁整个机场国际物流的仓库，继续扩大搜索范围。
+()<Speaker></Speaker>||:스털링은 보고를 마치고 대원들에게 고개를 돌렸다.
+Sterling(0)<Speaker>스털링</Speaker>||:우리는 오늘 아침 6시 공항에 도착할 화물을 억류하여, 그중 화물 번호 EDDF-46623894를 찾아내야 한다.
+PPQ(0)<Speaker>브리짓</Speaker>||:목표 물품을 압수하고 슈타지로 회수하면 돼?
+Sterling(0)<Speaker>스털링</Speaker>||:회수하지 않고 현장에서 차압한다.+정보에 따르면 그 화물은 패러데우스가 제작한 무기, 이아손의 상자일 가능성이 매우 높다.
+TFQ(0)<Speaker>다그마르</Speaker><Position>0,60</Position>||:이아손의 상자요? 전에 베를린 공항에서 발견된 방사능 무기요?
+Sterling(0)<Speaker>스털링</Speaker>||:그렇다.+임무 목표를 확인하는 즉시, 물류 창고를 완전히 봉쇄하고 범위를 넓혀 수사할 것이다.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Wheelchair</SE1><黑屏2><BIN>769</BIN><BGM>GF_2022_Summer_Battle_1</BGM>:……六点零五分。+几名军方人员正在指挥物流运输人形将物资放入指定的货架。
-()<Speaker></Speaker>||:在斯特林的指挥下，小队分散开，控制住了仓库的运输人形。
-Sterling(0)<Speaker>斯特林</Speaker>||:斯塔西，这里已经被我们接管了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:斯特林出示了身份认证。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:运输人形放下了手中的货物，安静地走到墙边等待下一步指令。
-Sterling(0)<Speaker>斯特林</Speaker>||:行动。
-PPQ(0)<Speaker>布里吉特</Speaker>||:是。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Team_Running</SE1>:人形和特工们在仓库散开，搜查起各个排列架的货物序号。
-()<Speaker>军方负责人</Speaker>||<SE1>ClothingUp</SE1>:你们是什么人？！这是军方物资不得擅动。
-Sterling(0)<Speaker>斯特林</Speaker>||:斯塔西，这批物资由我们接管。
-()<Speaker></Speaker>||:看见斯塔西的标识，皱着眉的军人发出一声不屑的嗤笑。
-()<Speaker>军方负责人</Speaker>||:斯塔西的人形？这里有你们什么事？
-Sterling(0)<Speaker>斯特林</Speaker>||:我们奉命对这批货物进行突击检查，请配合工作。
-()<Speaker>军方负责人</Speaker>||:这是军方的货物，有特批审核检查流程，斯塔西无权插手。
-Sterling(0)<Speaker>斯特林</Speaker>||:……
+()<Speaker></Speaker>||<SE1>AVG_Wheelchair</SE1><黑屏2><BIN>769</BIN><BGM>GF_2022_Summer_Battle_1</BGM>:...6시 5분.+군측 인원 몇 명이 물류 운송 인형을 지휘해 물자를 지정된 선반으로 옮겼다.
+()<Speaker></Speaker>||:스털링의 지휘하에, 인형 소대가 창고의 운송 인형을 제압했다.
+Sterling(0)<Speaker>스털링</Speaker>||:슈타지다, 이곳 상황을 접수하겠다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:스털링이 신분증을 꺼냈다.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:운송 인형은 옮기던 화물을 내려놓고 얌전히 벽에 붙어 지시를 기다렸다.
+Sterling(0)<Speaker>스털링</Speaker>||:움직여.
+PPQ(0)<Speaker>브리짓</Speaker>||:응.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Team_Running</SE1>:인형과 요원들은 창고에서 흩어져 각 선반의 화물 번호를 살펴보기 시작했다.
+()<Speaker>군측 담당자</Speaker>||<SE1>ClothingUp</SE1>:네놈들 뭐야?! 이건 군용 물자다, 함부로 건드리지 마!
+Sterling(0)<Speaker>스털링</Speaker>||:슈타지다, 여기 화물을 검문하겠다.
+()<Speaker></Speaker>||:슈타지의 마크를 보고, 인상 쓰던 군인이 콧방귀를 뀌었다.
+()<Speaker>군측 담당자</Speaker>||:슈타지의 인형이라고? 여기에 대체 무슨 일이냐?
+Sterling(0)<Speaker>스털링</Speaker>||:우리는 명령을 받아 이곳을 기습 검문하러 왔다, 수사에 협조하도록.
+()<Speaker>군측 담당자</Speaker>||:이건 군의 화물이다, 검문 루트가 따로 있어, 슈타지가 간섭할 권한은 없다.
+Sterling(0)<Speaker>스털링</Speaker>||:.......
 ()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL1</SE1><SE1>Select</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:唰唰唰——+快速向人形们靠近的军人，纷纷抬起枪瞄准了斯塔西的特工。
-Sterling(0)<Speaker>斯特林</Speaker>||:我们接到了可靠情报，有一批武器将通过海关传递给新苏联叛军。
-()<Speaker>军方负责人</Speaker>||:那就去你们该去的地方找，这里不属于你们的管辖区。
-Sterling(0)<Speaker>斯特林</Speaker>||:这里就是我们该去的地方。+我们有确切的证据证明，那一批武器就在这里。
-()<Speaker>军方负责人</Speaker>||:……
-()<Speaker></Speaker>||:斯特林强硬的举动显然彻底激怒了他。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_21Winter_Phone_Crash</SE1>:他讽刺一笑，取出腰间的手枪拍在桌上。
-()<Speaker>军方负责人</Speaker>||:确切的证据是吧？让他们找。
-()<Speaker></Speaker>||:他挥手示意手下的人放任斯塔西调查，但同时也盯紧他们的一举一动。
-()<Speaker>军方负责人</Speaker>||:要是找不到，可别怪我一枪崩了你。+身为斯塔西，你们应该知道，军方不是你们该招惹的对象。
-Sterling(0)<Speaker>斯特林</Speaker>||:我们无意和军方作对。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><CGDelay>0.5</CGDelay>:斯特林和军人对峙着，布里吉特领着剩余的斯塔西分散在仓库各处，有序地搜查起来。
-()<Speaker>军方负责人</Speaker>||:你们真有种，想在军方的地盘，搜出提供给新苏联叛军的武器。
-Sterling(0)<Speaker>斯特林</Speaker>||:我们只是循着证据调查。+柏林在十月和十一月接连发生了爆炸案，斯塔西已经查明对方使用的武器为伊阿索之匣，也查出了订货人和使用的运输方式。+顺着这条线索追查，我们找到了伊阿索之匣的流通去向。
-()<Speaker>军方负责人</Speaker>||:……+你知道你在对军方发起什么级别指控吗？我要见你们的负责人。
-Sterling(0)<Speaker>斯特林</Speaker>||: 等我们完成搜查工作，你自然会见到我们的负责人。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:斯特林从对方的脸上读出了浓烈的愤怒，在怒意积攒到顶峰的时刻，对方缓缓抬手示意手下退后。
-()<Speaker>军方负责人</Speaker>||:你最好真的能找到什么，否则我保证你会后悔今天来到这里。
-Sterling(0)<Speaker>斯特林</Speaker>||:……
-()<Speaker></Speaker>||:跟随布里吉特，几名斯塔西特工打开了军方的物资箱。
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:군인들이 인형들에게 빠르게 접근해 총구 끝을 슈타지의 요원들을 향해 겨냥했다.
+Sterling(0)<Speaker>스털링</Speaker>||:믿을 수 있는 정보를 받았다. 어느 불법 무기가 세관을 통과해 신소련 반군에게 전해질 것이라고.
+()<Speaker>군측 담당자</Speaker>||:그럼 딴데 가서 찾아봐라, 여기는 너희 관할 영역 밖이야.
+Sterling(0)<Speaker>스털링</Speaker>||:그걸 찾으려고 여기에 온 것이다.+그 무기가 여기에 있다는 확실한 증거가 있다.
+()<Speaker>군측 담당자</Speaker>||:......
+()<Speaker></Speaker>||:스털링의 강경한 태도에 담당자가 격노했다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_21Winter_Phone_Crash</SE1>:그는 억지로 피식 웃으며 허리춤의 권총을 꺼내 탁상에 쿵 내려놨다.
+()<Speaker>군측 담당자</Speaker>||:너, 지금 확실한 증거라고 했겠다? 그럼 찾아봐라.
+()<Speaker></Speaker>||:그는 부하들에게 슈타지를 내버려 두라 시키면서, 그들의 거동을 단단히 지켜봤다.
+()<Speaker>군측 담당자</Speaker>||:찾아서 안 나왔을 때는 네 머리통 날려버려도 원망하지 마라.+슈타지가 군을 건드려선 안 된다는 걸 확실하게 교육해줄 테니까.
+Sterling(0)<Speaker>스털링</Speaker>||:우리는 군과 대적할 의도가 없다.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><CGDelay>0.5</CGDelay>:스털링이 군인과 계속 눈싸움을 벌이는 동안, 브리짓은 나머지 슈타지를 데리고 창고 곳곳에 흩어져 차근차근 수사했다.
+()<Speaker>군측 담당자</Speaker>||:아주 간덩이가 부었구만, 독일군의 영역에서 신소련 반군에게 넘어갈 무기를 찾겠다고?
+Sterling(0)<Speaker>스털링</Speaker>||:우리는 그저 증거를 토대로 조사할 뿐이다.+10월 및 11월 베를린에서 연이어 폭발 사건이 발생했고, 슈타지는 범인이 사용한 무기가 이아손의 상자임을 확인하였으며, 발주인과 운송 방식까지 조사하였다.+이런 단서들을 쫓아 수사한 결과 이아손의 상자의 유통 경로도 찾아냈다.
+()<Speaker>군측 담당자</Speaker>||:......+그런 식으로 군을 모함해도 되는 줄 알아? 그쪽 책임자 불러와!
+Sterling(0)<Speaker>스털링</Speaker>||:수사를 마치면 자연스레 우리 책임자를 보게 될 거다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:스털링은 상대의 얼굴에서 강렬한 분노를 읽었다. 그 분노가 정점에 다다르기 직전, 상대방은 천천히 손을 들어 부하들을 물러나게 했다.
+()<Speaker>군측 담당자</Speaker>||:그럼 뭐라도 찾아내 봐라, 못 찾아내면 여기 온 걸 후회하게 해주지.
+Sterling(0)<Speaker>스털링</Speaker>||:......
+()<Speaker></Speaker>||:브리짓을 따라서 슈타지 요원 몇 명이 군의 물자 상자를 개봉했다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Door_Car_Open</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:啪嗒——啪嗒——+一个个箱子被打开，犹如命运被审判的一锤锤定音。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:军方的物资已经被打开半数有余，斯特林对面的军人打开了手枪弹匣，开始不疾不徐地给手枪填补子弹。
-LS26(0)<Speaker>伊迪斯</Speaker>||:我这边全都找过了……
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position>||:没有发现。
-PPQ(0)<Speaker>布里吉特</Speaker>||:……这个货号明明就应该跟在后面……
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:상자 덮개가 하나씩 바닥에 떨어지는 소리가 마치 운명의 심판을 알리는 종소리 같았다.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:어느 새 군의 물자 상자를 절반 넘게 열었고, 스털링 맞은편의 군인은 권총 실린더를 열어 한 발 한 발씩 총알을 장전했다.
+LS26(0)<Speaker>이디스</Speaker>||:이쪽은 다 찾아봤어...
+TFQ(0)<Speaker>다그마르</Speaker><Position>0,60</Position>||:발견 못 했어요.
+PPQ(0)<Speaker>브리짓</Speaker>||:...번호상 여기 주변이 맞는데...
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>军方负责人</Speaker>||:现在跪下诚心道歉，我或许可以饶你一命。
-Sterling(0)<Speaker>斯特林</Speaker>||:继续找。+把所有的货物全部打开彻底检查。
-PPQ(0)<Speaker>布里吉特</Speaker>||:是。
+()<Speaker>군측 담당자</Speaker>||:지금이라도 무릎 꿇고 사과하면 살려는 주지.
+Sterling(0)<Speaker>스털링</Speaker>||:계속 찾아라.+모든 화물을 전부 열어서 철저히 검사해.
+PPQ(0)<Speaker>브리짓</Speaker>||:알았어.
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:随着一个接一个的箱子被打开，对面军人的微笑几乎要溢出脸庞。+终于——
-()<Speaker></Speaker>||:重新检查已经打开过箱子的布里吉特找到被归并为一箱的目标，短暂地愣神后，她立刻取出相机对箱中的货物进行拍摄取证。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:상자가 또 하나씩 열리면서 맞은편 군인의 입꼬리가 귀에 걸릴 지경이었다.+그러던 중——
+()<Speaker></Speaker>||:이미 열어본 상자를 재차 검사하던 브리짓은 상자 안에 합쳐서 수납한 목표를 찾아냈다. 이 광경에 잠깐 넋을 잃었지만, 곧바로 카메라를 꺼내 증거 사진을 남겼다.
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_The_Division_Camera</SE1>:
-PPQ(0)<Speaker>布里吉特</Speaker>||:斯特林，找到了。
-LS26(0)<Speaker>伊迪斯</Speaker>||:我们还找到一张订货人为“乌姆鲁斯”的货物清单。
+PPQ(0)<Speaker>브리짓</Speaker>||:스털링, 발견했어.
+LS26(0)<Speaker>이디스</Speaker>||:발주인이 "움루스"인 화물 목록도 찾았어.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Book</SE1>:
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position>||:这一箱物资里，上面三分之二都是军用常备物资，下面是一些可疑的球形物体，和之前发现的伊阿索之匣高度相似。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:军方负责人不可置信地走到敞开的物资箱边。
-()<Speaker>军方负责人</Speaker>||:……+我们内部根本没有乌姆鲁斯这个人，伊阿索之匣更是闻所未闻。
-Sterling(0)<Speaker>斯特林</Speaker>||:你的证言留着后续调查的时候再说吧，我们只负责检查货物。
-()<Speaker>军方负责人</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:几名脸色苍白的军方人员被斯塔西带走。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:斯特林打开了内部通讯频道，对着刚刚抵达机场的斯塔西发出指令。
-Sterling(0)<Speaker>斯特林</Speaker>||:封锁国际物流货仓。+所有发往新苏联的物资都要进行检查，尤其是军方经手的。
-()<Speaker>特工</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>是。</color>
+TFQ(0)<Speaker>다그마르</Speaker><Position>0,60</Position>||:이 상자, 위의 3분의 2는 군용 상비 물자고, 그 아래에 수상한 구형 물체가 깔려 있어요. 저번에 발견한 이아손의 상자와 매우 흡사합니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:군측 담당자는 믿을 수 없다는 눈빛으로 활짝 열린 물자 상자에 다가갔다.
+()<Speaker>군측 담당자</Speaker>||:......+우리 내부에 움루스란 인물은 없어, 이아손의 상자라는 것도 처음 들어본다고...
+Sterling(0)<Speaker>스털링</Speaker>||:증언은 취조실에서 하도록. 우리는 화물 검사만 하러 왔다.
+()<Speaker>군측 담당자</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:안색이 창백해진 군인들이 슈타지에 의해 연행되었다.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:스털링이 내부 통신 채널을 통해 방금 공항에 도착한 슈타지 인원들에게 지시했다.
+Sterling(0)<Speaker>스털링</Speaker>||:국제 물류 창고를 봉쇄해라.+신소련으로 향하는 물자를 전부 검사한다. 특히, 군용 물자는 더욱 철저하게 확인하도록.
+()<Speaker>요원</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>예!</color>
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Scar_Shenzhizi</BGM><黑屏2><BIN>735</BIN>:……美因茨大学，实验室。
+()<Speaker></Speaker>||<BGM>BGM_Scar_Shenzhizi</BGM><黑屏2><BIN>735</BIN>:...마인츠 대학, 실험실.
 ()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:在连续剥夺睡眠48小时后，奈乐终于抵挡不住，躺在地上的睡袋里不省人事。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:康斯坦斯接手了剩下的工作，拿着阿玛瑞丝反馈的数据进行调整。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:你们也先休息下吧，奈乐完成的很细致，调整不多，我自己就可以搞定。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你真的不需要我帮忙吗？
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:嗯，而且进入格雷老师那间无菌室需要的实验服也只剩一套了，我来就好。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||<CGDelay>0.5</CGDelay>:
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:阿玛瑞丝。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:干嘛？
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:奈乐小姐说的爆燃……曙光小队真的是那样运行的吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||<CGDelay>0.5</CGDelay>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:嗯。
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你们的存在，就是为了让艾莉安娜杀掉以汲取养分，变得更强。+……为什么？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:我怎么知道为什么。
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你没有问过你们的……设计者吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……你要是见过那些经历了三战的科研人员，应该不会愚蠢到想要询问她们。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:史蒂文斯520停下手中的工作。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……我也经历过战争。+不过，那些记忆和记录都没有保存下来。+早知道是现在这样，当初应该跟大家拍个合照的……
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你们应该有吧？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:……
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:能给我看看吗？原来的曙光小队的样子。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝有些无奈地看向她。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我们的关系还没有好到可以交换隐私的程度吧？
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:作为交换，我也会给你展示休谟博士留下的遗产。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……行吧。
+()<Speaker></Speaker>||:연속 48시간 철야한 끝에 넬레도 더는 못 버티고 침낭 속에 누워 잠이 들었다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:콘스탄스가 나머지 작업을 이어받아 아마리스의 피드백 데이터를 토대로 수치를 조정했다.
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker>||:두 분도 좀 쉬세요. 넬레가 충분히 꼼꼼하게 완성했으니까, 나머지는 저 혼자서도 할 수 있어요.
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:정말 도와드릴 필요 없을까요?
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker>||:네, 괜찮아요. 그리고 무균실에 들어갈 실험복도 한 벌밖에 안 남았으니까, 제가 할게요.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||<CGDelay>0.5</CGDelay>:
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:아마리스.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:뭔데?
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:넬레 씨가 말한 폭연... 정말 서광팀이 그렇게 기능하는 건가요?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||<CGDelay>0.5</CGDelay>:
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:맞아.
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:당신들은 처음부터 엘리아나를 더 강하게 만들기 위한 제물.+...대체 어째서죠?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:내가 그런걸 어떻게 알아.
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:당신의 설계자한테 물어본 적 없나요?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...3차 대전을 겪은 그 연구원들을 본 적 있다면 물어보겠다는 생각조차 안 들 거야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:스티븐스 520이 하던 작업을 멈췄다.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:...저도 전쟁을 겪어봤어요.+하지만 그때의 기억과 기록 어느 하나도 남기지 못했어요.+이럴 줄 알았다면 다 함께 단체사진이라도 찍어둘 걸 그랬어요...
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:당신들은 찍어둔 게 있겠죠?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:......
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:보여줄 수 있을까요? 원래 서광팀의 모습을.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아마리스는 내키지 않는 눈치로 상대를 바라봤다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:프라이버시를 교환할 정도로 우리가 친한 사이인가?
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:그럼 그 대신 저도 당신께 흄 박사의 유산을 보여드릴게요.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...좋아.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝翻出了曙光小队的唯一一张合照。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아마리스가 서광팀의 유일한 단체사진을 꺼냈다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><CGDelay>0.7</CGDelay><黑点2><BIN>544</BIN>:
-()<Speaker>史蒂文斯520</Speaker>||:这个是SCR？
-()<Speaker>阿玛瑞丝</Speaker>||:这是优拉，和SCR的机型外观几乎一致。
-()<Speaker>史蒂文斯520</Speaker>||:……+这个脸被涂黑的，是艾莉安娜？
-()<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:嗯。
-()<Speaker>史蒂文斯520</Speaker>||:休谟博士的相片集里，也有这样被涂黑的人脸。
-()<Speaker>阿玛瑞丝</Speaker>||:他为什么要涂黑？
-()<Speaker>史蒂文斯520</Speaker>||:按照艾尔玛的说法——那些都是骗了他钱的人。+不过我很疑惑博士居然有被别人骗钱的时候吗？令人怀疑。+有相片就有这点好处，会提醒你过去的时光。
+()<Speaker>스티븐스 520</Speaker>||:이건 SCR인가요?
+()<Speaker>아마리스</Speaker>||:얘는 유라야, SCR하고 소체 외형이 엄청 닮았지.
+()<Speaker>스티븐스 520</Speaker>||:......+여기 얼굴에 먹칠한 게 엘리아나고요?
+()<Speaker>아마리스</Speaker>||<CGDelay>0.5</CGDelay>:맞아.
+()<Speaker>스티븐스 520</Speaker>||:흄 박사의 앨범에도 이렇게 얼굴이 지워진 사람이 있어요.
+()<Speaker>아마리스</Speaker>||:그 사람은 왜 지웠는데?
+()<Speaker>스티븐스 520</Speaker>||:엘마의 말에 따르면 그 사람들은 박사의 돈을 떼먹은 사람이래요.+하지만 박사가 설마 돈을 떼먹힐 일이 있을까 의심했죠.+사진이 있으면 좋은 게 이렇게 과거를 떠올리게 해준다는 거예요.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>阿玛瑞丝</Speaker>||:……没什么值得怀念的。
-()<Speaker>史蒂文斯520</Speaker>||:那你说拿马上就拿出来了……+肯定经常拿出来回味吧。
-()<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:你！
+()<Speaker>아마리스</Speaker>||:...딱히 그립지도 않아.
+()<Speaker>스티븐스 520</Speaker>||:그렇게 말하면서 바로 꺼냈으면서...+분명 틈나면 꺼내서 본 거죠?
+()<Speaker>아마리스</Speaker>||<CGDelay>0.5</CGDelay>:너어!
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>735</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>BGM_Empty</BGM>:阿玛瑞丝愤愤地收起照片。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:好了，现在轮到你给我看看休谟博士的遗产了。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你已经看见了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:在哪？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:我啊。+其他人形都死光了，现在休谟博士最拿得出手的作品，就是我了啊。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:……+在康斯坦斯小姐从房间里出来前，不要跟我说一句话。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>BGM_Empty</BGM>:아마리스는 툴툴대며 사진을 도로 집어넣었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:됐어, 그럼 이제 네가 흄 박사의 유산을 보여줄 차례야.
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:지금 보고 있잖아요.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:어디에?
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:저요.+다른 인형들이 다 죽고 없는 지금, 흄 박사가 자랑할 수 있는 최고의 걸작이 바로 저랍니다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<CGDelay>0.5</CGDelay>:......+콘스탄스 씨가 방에서 나올 때까지 나한테 말 걸지 마.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>356</BIN><BGM>GF_21winter_avg_pathfinder</BGM>:……临时安全屋。
-()<Speaker></Speaker>||:在忤逆的协助下，404小队很快完成了入侵准备工作。
+()<Speaker></Speaker>||<黑屏2><BIN>356</BIN><BGM>GF_21winter_avg_pathfinder</BGM>:...임시 세이프하우스.
+()<Speaker></Speaker>||:리벨리온의 도움을 받아 404소대는 금세 해킹 준비를 마쳤다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>工厂已占领，我们现在准备入侵系统，看看有没有什么新收获。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:好，有什么发现第一时间发送给我。
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>收到。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:不要耽误太长时间，注意帕拉蒂斯的增援。
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>嗯，忤逆在帮我们留意敌方的动向。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:明白。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:通讯切断。
-()<Speaker>指挥官</Speaker>||:对了，露尼西亚那边怎么样了？
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:请稍等，我联系下XM556。
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>공장 점령 완료. 이제 시스템을 해킹할 거야. 새로운 수확이 없나 볼게.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:그래, 발견하면 바로 나한테 보내줘.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>알았어.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:너무 시간 끌지 말고, 패러데우스의 증원 조심해.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>응, 적의 동향은 리벨리온이 살펴주고 있어.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:알았어.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:통신 종료.
+()<Speaker>지휘관</Speaker>||:그렇지, 루니샤 쪽은 어때?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:잠시 기다리십시오, XM556에게 연락하겠습니다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>指挥官。</color>
-NPC-XM556(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:露尼西亚那边还好吗？
-NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>目前我们已经转移到了新的安全屋，一切正常。</color>
-NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>只是露尼西亚小姐的身体情况似乎不太好……</color>
-NPC-XM556(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:她怎么了？
-NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>她最近的睡眠时长远比之前长，而且睡眠质量不太好，经常做噩梦，说一些奇怪的梦话。</color>
-NPC-XM556(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:什么梦话？
-NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>圣女什么……</color>+<color=#00CCFF>她的几项基础生理指数下降的很快，以成年女性的标准来看，我认为她目前比较虚弱。</color>
-NPC-XM556(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……+等艾莫号验收无误了，就接她回来做全套检查吧。+你那边先多留意下她的情况。
-NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>明白。</color>
+NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>지휘관?</color>
+NPC-XM556(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:루니샤는 어때?
+NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>지금 새로운 세이프하우스에 이동했고, 모두 이상 없어.</color>
+NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>다만, 루니샤 씨의 몸상태가 좀 안 좋은 것 같아...</color>
+NPC-XM556(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:몸상태가? 어떤데?
+NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>최근 수면 시간이 예전보다 훨씬 길어졌고, 게다가 수면의 질도 안 좋아서 자주 악몽을 꾸고 이상한 잠꼬대를 해.</color>
+NPC-XM556(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:무슨 잠꼬대?
+NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>무슨 성녀라던가...</color>+<color=#00CCFF>기본 신체 지표가 여러 개 빠르게 떨어졌어. 성인 여성의 기준으로 봤을 때, 꽤 허약한 상태야.</color>
+NPC-XM556(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:......+엘모호에서 이상이 발견되지 않으면 데려와서 전면 검사해주자.+그럼 그녀 상태를 주의 깊게 봐줘.
+NPC-XM556(0)<Speaker>XM556</Speaker><通讯框>||:<color=#00CCFF>알았어.</color>
 ()||<黑屏1><SE1>AVG_tele_disconnect</SE1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><黑屏2><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:……晚安。
-()<Speaker></Speaker>||:晚安，圣女。+愿您得到黑暗的庇护。
-()<Speaker></Speaker>||:愿您永远……+永远……
-()<Speaker></Speaker>||:和我们在一起。
-NPC-Lunasia(3)<Speaker>露尼西亚</Speaker>||:不……我不要……
-()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>GF_22W_SFX_chant</BGM>:一只干枯苍老的手抓住了露尼西亚的手臂，她挣扎不开。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一只孩童的稚嫩的手握住了露尼西亚的手指，接着，是一只遒劲有力的手抓住了露尼西亚的肩膀。
-()<Speaker></Speaker>||<SE1>AVG_DemonLaplace_Born</SE1>:很快，一只只手组成了囚禁露尼西亚的囚笼，将她压向无边黑暗……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:...안녕히 주무세요.
+()<Speaker></Speaker>||:안녕히 주무십시오, 성녀시여.+어둠의 가호가 있기를.
+()<Speaker></Speaker>||:부디 영원히...+영원히...
+()<Speaker></Speaker>||:저희와 함께해주소서.
+NPC-Lunasia(3)<Speaker>루니샤</Speaker>||:싫어... 싫어...
+()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>GF_22W_SFX_chant</BGM>:늙고 마른 손이 루니샤의 팔을 붙잡아, 그녀는 뿌리칠 수 없었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:어린아이의 작은 손이 루니샤의 손가락을 움켜잡았고, 이어서 건장한 손이 루니샤의 어깨를 붙잡았다.
+()<Speaker></Speaker>||<SE1>AVG_DemonLaplace_Born</SE1>:빠르게, 손으로 이루어진 감옥이 루니샤를 가두고 끝없는 어둠 속으로 밀어넣었다...
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<睁眼><BIN>187</BIN><CGDelay>0.5</CGDelay>:
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker><Shake>||:……啊！
-()<Speaker></Speaker>||:从噩梦中惊醒，露尼西亚意识到自己坐在一把柔软的椅子上。+绣着繁复花纹的垫子包裹着实木椅，也让她牢牢地陷入其中。
-()<Speaker>？？？</Speaker>||:圣女大人……
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker></Speaker>||:一声声呼唤吸引了她的注意。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在她面向的荒野，无数人正跪倒在地上，虔诚地行礼。
-()<Speaker>？？？</Speaker>||:圣女大人，请为我们指明道路。
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我不是圣女……
-()<Speaker></Speaker>||:话一出口，露尼西亚惊讶地发现自己的声音稚嫩而青涩，显然来自一位孩童。
-()<Speaker>？？？</Speaker>||:圣女大人！为我们指引方向吧！+我们愿意为此，献上一切！
-()<Speaker></Speaker>||:跪倒在地上的人们更加狂热，一队身穿白衣的少女走向信徒。
+NPC-Lunasia(4)<Speaker>루니샤</Speaker><Shake>||:...헉!
+()<Speaker></Speaker>||:악몽에서 깨어난 루니샤는 자신이 푹신한 의자에 앉아 있다는 것을 깨달았다.+화려한 꽃무늬로 수놓은 쿠션으로 싸여있는 나무 의자에 그녀의 몸이 깊숙이 파묻혀 있었다.
+()<Speaker>？？？</Speaker>||:성녀님...
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:......
+()<Speaker></Speaker>||:부르는 소리가 그녀의 주의를 끌었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그녀 앞에 펼쳐진 황무지에는, 무수한 사람들이 무릎을 꿇고 경건하게 절을 하고 있었다.
+()<Speaker>？？？</Speaker>||:성녀님, 저희에게 길을 인도해 주십시오.
+NPC-Lunasia(4)<Speaker>루니샤</Speaker>||:저는 성녀가 아니에요...
+()<Speaker></Speaker>||:입을 열자 루니샤는 자신의 목소리가 매우 어린아이의 것임을 깨달았다.
+()<Speaker>？？？</Speaker>||:성녀님! 저희에게 길을 인도해 주십시오!+성녀님을 위해 저희 모든 것을 바치겠습니다!
+()<Speaker></Speaker>||:조아린 사람들은 점점 더 열광하였고, 하얀 옷을 입은 소녀의 행렬이 신도들에게 다가갔다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Knife_Whoosh</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:短暂地停留后，从洁白的衣袖间取出匕首，划开了信徒们的咽喉……
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker><Shake>||:不！不！不要杀他们！
-()<Speaker>？？？</Speaker>||:圣女大人……
-()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1>:带着满足的微笑，信徒们逐渐咽下最后一口气。+红色的血液聚拢在一起，犹如远古巨兽般向着露尼西亚袭来。
-NPC-Lunasia(3)<Speaker>露尼西亚</Speaker>||:不要！不要！不要啊！！！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:露尼西亚想要从这里逃走，但一双有力的手按住了她瘦弱的肩膀。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:她抬起头——
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……母亲？
-NPC-Nemhran(4)<Speaker>尼梅兰夫人</Speaker>||:露西，这就是你的宿命。+成为圣女，引领信徒们抵达终点。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:她取出一把匕首，锋利的光芒灼伤了露尼西亚的眼睛。
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:소녀들은 발걸음을 잠깐 멈춘 후, 새하얀 소매에서 비수를 꺼내 신도들의 목을 베었다.
+NPC-Lunasia(4)<Speaker>루니샤</Speaker><Shake>||:안 돼! 안 돼요! 죽이지 말아요!
+()<Speaker>？？？</Speaker>||:성녀님...
+()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1>:신도들은 흡족한 미소를 지으며 마지막 숨을 거두었다.+붉은 혈액이 하나로 뭉쳐 고대의 괴수처럼 루니샤에게 덮쳐왔다.
+NPC-Lunasia(3)<Speaker>루니샤</Speaker>||:싫어! 싫어! 싫어어!!!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:루니샤는 도망치고 싶었지만, 힘이 들어간 손 한쌍이 그녀의 가녀린 어깨를 눌렀다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:고개를 들어보니——
+NPC-Lunasia(0)<Speaker>루니샤</Speaker>||:...어머니?
+NPC-Nemhran(4)<Speaker>네메아란 부인</Speaker>||:루시, 이것이 너의 숙명이란다.+성녀가 되어 신도들을 종착지로 이끌어 주렴.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:그녀가 비수를 한 자루 꺼냈다. 날카로운 번뜩임에 루니샤는 눈이 부셨다.
 ()||<白屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<白屏2><BIN>183</BIN><CGDelay>0.5</CGDelay>:
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker><Shake>||<CGDelay>0.5</CGDelay>:<size=50>不……不要！母亲！！！</size>
-()||<黑点1>:
+NPC-Lunasia(4)<Speaker>루니샤</Speaker><Shake>||<CGDelay>0.5</CGDelay>:<size=50>아... 안 돼요! 어머니!!!</size>
+()||<黑点1>:
