@@ -1,220 +1,131 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1><BGM>BGM_AuguriesofInnocence</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>703</BIN><SE1>AVG_wind_grass</SE1>:“塔罗天堂”，某处。+白发的少女独自走在荒野，一张单薄的牌卡左右围绕着，喋喋不休。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:伊莱莎小姐，我刚刚为您介绍的规则，您还有什么不清楚的吗？
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:……
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:您有任何问题都可以问我哦，我是您的专属精灵，绝对忠诚可信！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:……
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:伊莱莎小姐……您就说一句话吧，哪怕只有一个字也行啊……
-()<Speaker></Speaker>||:伊莱莎停下了脚步，她望向面前错综复杂、延伸至天际的岔路，说出了她在这个世界的第一句话。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:M4在哪？
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:喔，原来伊莱莎小姐的心愿就是找到M4吗？那么您只要——
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position><Shake>||<震屏3><BIN>9</BIN><SE1>AVG_Punch_Hit</SE1>:呃——
+()<Speaker></Speaker>||<黑屏2><BIN>703</BIN><SE1>AVG_wind_grass</SE1>:Somewhere in Tarot Paradise. +A white-haired girl is trekking through the wilderness, while a thin card circles around her, chattering away.
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Miss Elisa, would you like me to elaborate on any of the rules that I just explained to you?
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:...
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:If you have any questions, feel free to ask me! I am your personal fae—completely trustworthy and devoted to you!
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:...
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Miss Elisa... please say something. Even just a single word...
+()<Speaker></Speaker>||:Elisa comes to a halt. She looks into the distance at the intertwining paths ahead and utters her very first sentence in this world.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:Where is M4?
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Oh, so your wish is to find M4, I presume? In that case, you simply have to—
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position><Shake>||<震屏3><BIN>9</BIN><SE1>AVG_Punch_Hit</SE1>:Urk—
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>703</BIN>:星币精灵从天旋地转中回过神来，才意识到自己被伊莱莎的力量束缚。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:伊、伊莱莎小姐？
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:嘭——伊莱莎没有给它反应的机会就将它狠狠砸在了地上。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position><Shake>||:呃啊！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:在我的耐心消耗光之前，你最好把我想知道的全部说出来。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:我、我会的！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:M4在哪？
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:我真的不知道！我拿我今年全部的业绩来发誓！+但凡我骗您，我今年业绩清零！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:我怎么才能找到M4？她跟我一起进入的这里。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:你们从同一个入口进入，可能被传送到了这个世界不同的地方。+这个世界正在不断坍陷缩小，只要您坚持到最后或者达到获得神眷的条件，就一定能见到她的。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:神眷……你之前说，收集到所有的塔罗牌卡，就可以获得神眷，得到一个实现心愿的机会。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:没有错！这是个公平合理的世界，努力，就可以改变命运！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:伊莱莎看向自己掌心的牌卡，冷冷地笑了下。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:我猜，收集牌卡的方式是没有限制的。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:这个嘛……就请按照您自己的意愿来了……
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:即便我杀光这里的所有人也没关系？
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:当然，伊莱莎小姐，神只在意结果，并不在意过程。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:伊莱莎收敛了笑容，她若有所思地盯着星币精灵。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:让我猜猜，神的最终目的也和M4有关。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:伊莱莎小姐，这个……
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:在我杀光这个世界前，M4都是安全的，对吗？
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||:这是绝对不能回答的禁区，但在伊莱莎的凝视下，星币精灵不敢拒绝。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:是、是的……
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:现在，跟我讲讲这个世界的战斗吧，再敢像之前一样兜圈子我就先杀了你。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position><Shake>||:我一定知无不言！
+()<Speaker></Speaker>||<黑屏2><BIN>703</BIN>:The Fae of Pentacles finds her bearing after being sent tumbling through the air, only to realize she is at the mercy of Elisa's power.
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:M-Miss Elisa?
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:Bam! Elisa smashes her onto the floor before she can even react.
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position><Shake>||:Argh!
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:You'd better tell me everything I want to know before my patience runs out.
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:I-I will!
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:Where is M4?
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:I really don't know! I swear on the figures I've achieved for the entire year! +If I lie to you, my figures will go down to zero!
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:How can I find M4? We came to this place together.
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:You entered through the same portal, but she could have been transported to a different location in this realm. +This realm is in the process of shrinking and collapsing. As long as you manage to survive till the very end or obtain the Lord's favor, you will surely see her again.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:The Lord's favor... You said earlier—if I collect all the tarot cards, I'll receive the Lord's favor and have a wish granted.
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:That's right! This world is fair and just! Work hard, and you can change your fate!
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:...
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:Elisa peers down at the card in her palm with a sneer.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:I gather there are no rules dictating HOW I collect the cards.
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Well... you are free to do it however you wish...
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:It doesn't matter even if I kill everyone here?
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Not at all, Miss Elisa. The Lord cares only about the ends, not the means.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Elisa reins in her glee and stares at the Fae of Pentacles thoughtfully.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:Let me guess, the Lord's ultimate goal also has something to do with M4.
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Miss Elisa...
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:So before I clean out this whole place, M4 is safe, right?
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:...
+()<Speaker></Speaker>||:The answer to this question must absolutely not be disclosed, but under Elisa's probing gaze, the Fae of Pentacles dares not withhold it.
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Y-yes...
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:Now tell me about how combat works in this world. If you beat around the bush like you just did, you'll be the first to die.
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position><Shake>||:I promise I will tell you everything I know!
 ()||<黑点1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑点2><震屏3><SE1>ClothingUp</SE1><BGM>BGM_stage13</BGM>:唰——少女在众人面前腾空而起！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:如同被一只无形的手捏住喉咙提起来，她面色惨白，竭力嘶吼着，却说不出一个字。
-()<Speaker></Speaker>||:众人惊恐后退，刀具和权杖胡乱地碰撞，咯咯作响。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:永别了。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_TearCard</SE1>:嘶啦——+随着伊莱莎的手指在空中轻轻一划，牌卡被干净利落地切开，四散开去。
-()<Speaker></Speaker>||:鲜血如雨般飘洒下来，沐浴着这片诡异的天地。
-()<Speaker>宝剑八</Speaker>||<SE1>RunStep</SE1>:<size=50>啊啊啊啊啊——！！</size>
-()<Speaker>圣杯四</Speaker>||<SE1>RunStep</SE1>:<size=50>不要！</size>+<size=50>不要杀我——！</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:望着两个先后逃跑的背影，伊莱莎面无表情地伸出手，转动掌心。
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><common_effect>%%code=202406_Hit%%</common_effect>:咔嚓。+两张牌卡的碎片纷飞，颓然落地。
-()<Speaker>权杖六</Speaker>||:呜呜呜……+对、对不起！我和她们不是一伙的！我是被胁迫的！+求求你放过我……
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><震屏3>:砰。
-()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1><CGDelay>0.6</CGDelay>:一枚子弹精确地洞穿牌卡。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:伊莱莎伸了伸手，隐隐感到某种微妙的变化——她的武器，回来了？
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:嘻嘻……不愧是“倒吊人”小姐呢！我从一开始就很看好你哦！
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:唰唰——一张大阿尔卡纳“死神”牌和数张小阿尔卡纳牌先后飞入伊莱莎的掌心。
-()<Speaker></Speaker>||:伊莱莎眯了眯眼，仔细端详着自己的右手，能量在表层之下不可思议地流动着。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:每夺走一张牌卡，能力就会得到提升。
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:弱者的所有能量将奉献给征服她的“强者”——这可是“塔罗天堂”崇高的法则之一！+至于拥有不同能力的大阿尔卡纳身份牌嘛，是为了给游戏增加一点小小的趣味和意外啦……
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:我现在可以使用“死神”的能力了吗？
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:您现在拥有两张大阿尔卡纳牌，只可以使用其中一张的能力。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:那另一张对我有什么意义？
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:您可以把“死神”牌赠予其他玩家。+就像上一任“死神”和她的同伙一样，多一个助手，活下去的概率会更大呢……
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:……
-ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:哎呀，对您来说的话——+只要链接还存在，就能召唤到同伴哦~！
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:使用“倒吊人”的能力吗？我知道了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:屏息凝神间，她的身体轻盈地腾空，脚尖离地……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:呼啦——+风暴的中心，一顶弧形屏障发出微弱的白光，将屏障内的身影衬托得愈加黑暗。
+()<Speaker></Speaker>||<黑点2><震屏3><SE1>ClothingUp</SE1><BGM>BGM_stage13</BGM>:Whoosh—a girl shoots up into the air in front of the group.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:As though being suspended and choked by an invisible hand, the deathly pale girl desperately tries to scream, but not a sound comes out of her mouth.
+()<Speaker></Speaker>||:The others back away in fright, their swords and wands rattling and clanging frantically.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:Farewell.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_TearCard</SE1>:Splish— +Elisa gives her finger a light flick, and the card is slashed cleanly into pieces.
+()<Speaker></Speaker>||:Blood rains down from the sky, drenching this macabre world in red.
+()<Speaker>Eight of Swords</Speaker>||<SE1>RunStep</SE1>:<size=50>Aaaaaaaaaahh!!</size>
+()<Speaker>Four of Cups</Speaker>||<SE1>RunStep</SE1>:<size=50>No!</size> +<size=50>Don't kill me!</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Looking at the two who are the first to flee, Elisa raises her hand and turns her palm expressionlessly.
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><common_effect>%%code=202406_Hit%%</common_effect>:Ka-chak. +Fragments of the two cards flutter dejectedly to the ground.
+()<Speaker>Six of Wands</Speaker>||:(Sobs) +I-I'm sorry! I'm not with them! I was coerced! +Please let me go, I beg you...
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1><震屏3>:Bang.
+()<Speaker></Speaker>||<SE1>AVG_Bullet_Hit_Wall</SE1><CGDelay>0.6</CGDelay>:A bullet puts a hole cleanly through the card.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Elisa stretches out her arm and feels a strange transformation—she has regained her weapon?
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Heheh... As expected of Miss "Hanged Man"! I had a good feeling about you right from the start!
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:Whoosh! The Major Arcana card "Death" and several Minor Arcana cards fly into Elisa's hand one after another.
+()<Speaker></Speaker>||:Elisa scrutinizes her right hand with narrowed eyes. An incredible torrent of power surges beneath the surface.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:I gain more power with every card I take.
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:The weak must hand over all their power to their vanquisher—that's one of the tenets in Tarot Paradise! +The Major Arcana cards with their multitude of powers are there to make the game more interesting and to introduce a few more unexpected variables...
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:So I can now wield the power of "Death"?
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:You now possess two Major Arcana cards, but you can only wield the power of one of them.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:Then what good does having another one do me?
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:You can give the "Death" card to another player. +Like the previous "Death" and her lackeys, you can increase your own chances of survival by recruiting an associate...
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>;NPC-Tarot_Garren(0)<Position>0,250</Position>||:...
+ElisaTarot(0)<Position>0,250</Position>;NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Oh, to explain this in terms that you'd understand... +As long as the connection still exists, you can summon your companions~!
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:That's how I use the "Hanged Man's" power? I see.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Elisa settles her breathing and concentrates. Her body starts floating lightly in the air as her feet lifts off the ground...
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake>:Whoosh... +In the eye of the storm, the faint white glow emitted by a curved barrier makes the figure shielded within appear even darker in comparison.
 ()||<白屏1><CGDelay>1</CGDelay><SE1>AVG_magic_circle_start</SE1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<白屏2><BIN>462</BIN><BGM>10213</BGM>:屏障消失了。+伊莱莎的身边悄然多出了一个高挑的黑色身影。
-NPC-Tarot_Garren(0)<Speaker>星币精灵</Speaker><Position>0,250</Position>||:哇哦，出来了个很有杀气的家伙。
-BOSS-1(0)<Speaker>稻草人</Speaker><Position>0,80</Position><GradientShow>2</GradientShow>||:……主脑。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:稻草人单膝跪下，谦卑的目光凝视伊莱莎的足尖。
-BOSS-12(0)<Speaker>伊莱莎</Speaker><Position>0,130</Position>||:怎么是你？+我要的明明是最强的那个。
-BOSS-1(0)<Speaker>稻草人</Speaker><Position>0,80</Position>||:我就是。
-()<Speaker></Speaker>||:伊莱莎疑惑地抬起稻草人的头，冰冷陌生的眼神是她从未见过的。
-BOSS-12(0)<Speaker>伊莱莎</Speaker><Position>0,130</Position>||:……我好像明白了。
-BOSS-1(0)<Speaker>稻草人</Speaker><Position>0,80</Position>||:请对我下达指令。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:伊莱莎单手置于稻草人的头顶，海量信息在不知不觉间汇入稻草人的心智。+良久，终于平息。
-BOSS-12(0)<Speaker>伊莱莎</Speaker><Position>0,130</Position>||:明白了吗？
-BOSS-1(0)<Speaker>稻草人</Speaker><Position>0,80</Position>||:是，主脑。
-()<Speaker></Speaker>||:稻草人依然没有抬头。
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:伊莱莎抽出“死神”牌，按在稻草人的额头上。
-BOSS-12(0)<Speaker>伊莱莎</Speaker><Position>0,130</Position>||:别让我失望。
-()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1:霎时，耀眼的光芒从牌面中凝聚起来，闪烁于稻草人的眉心。
+()<Speaker></Speaker>||<白屏2><BIN>462</BIN><BGM>10213</BGM>:The barrier disappears. +A tall, dark figure suddenly appears next to Elisa.
+NPC-Tarot_Garren(0)<Speaker>Fae of Pentacles</Speaker><Position>0,250</Position>||:Wow, she looks positively murderous.
+BOSS-1(0)<Speaker>Scarecrow</Speaker><Position>0,80</Position><GradientShow>2</GradientShow>||:...Mastermind.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Scarecrow goes down on one knee and lowers her eyes humbly at Elisa's feet.
+BOSS-12(0)<Speaker>Elisa</Speaker><Position>0,130</Position>||:Why is it you? +I specifically summoned the strongest one.
+BOSS-1(0)<Speaker>Scarecrow</Speaker><Position>0,80</Position>||:That would be me.
+()<Speaker></Speaker>||:Elisa tilts Scarecrow's face up in bemusement. Those cold eyes are an unfamiliar sight.
+BOSS-12(0)<Speaker>Elisa</Speaker><Position>0,130</Position>||:...I see.
+BOSS-1(0)<Speaker>Scarecrow</Speaker><Position>0,80</Position>||:Please give me your orders.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Elisa places a hand on Scarecrow's head, and a torrent of information flows into her neural cloud. +After a long while, it finally subsides.
+BOSS-12(0)<Speaker>Elisa</Speaker><Position>0,130</Position>||:Do you understand?
+BOSS-1(0)<Speaker>Scarecrow</Speaker><Position>0,80</Position>||:Yes, Mastermind.
+()<Speaker></Speaker>||:Scarecrow keeps her head bowed.
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:Elisa takes out the "Death" card and presses it against Scarecrow's forehead.
+BOSS-12(0)<Speaker>Elisa</Speaker><Position>0,130</Position>||:Don't let me down.
+()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1:Then in an instant, a brilliant light shines from the card onto Scarecrow's brow.
 ()||<白屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<白屏2><BIN>703</BIN><SE1>AVG_tinnitus_0</SE1>:一记针扎般的刺痛后，“死神”牌又恢复了原貌，落入稻草人手中。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:稻草人缓缓站起，后退半步，微微鞠躬。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:如您所愿，主脑……+我将为铁血而战，清除杂碎——不计一切代价。
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:为了铁血，为了实现父亲的心愿。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:……是。
-()<Speaker></Speaker>||:稻草人淡然转身，却在迈出步伐的时候犹豫了一瞬。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:您一个人行动，没问题吗？+在我这边的记忆中，您——
-ElisaTarot(0)<Speaker>伊莱莎</Speaker><Position>0,250</Position>||:我没有问题。+我们分头行动，效率才能达到最大化。+记住，找到M4，把M4以外的目标全部抹除。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:是。
-()<Speaker></Speaker>||:看着两个犹如黑色死神的少女分头离开，星币精灵狂喜的笑声简直快要抑制不住。
+()<Speaker></Speaker>||<白屏2><BIN>703</BIN><SE1>AVG_tinnitus_0</SE1>:After causing a pinprick sensation, the "Death" card reverts to its original state and lands in Scarecrow's hand.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Scarecrow rises slowly, takes a step back, and bows slightly.
+ScarecrowTarot(0)<Speaker>Scarecrow</Speaker><Position>0,250</Position>||:As you wish, Mastermind... +I shall fight for Sangvis Ferri and eliminate all enemies—whatever it takes.
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:For Sangvis Ferri, and for the sake of carrying out Father's will.
+ScarecrowTarot(0)<Speaker>Scarecrow</Speaker><Position>0,250</Position>||:...Yes, Mastermind.
+()<Speaker></Speaker>||:Scarecrow turns, but hesitates for a second before she strides out.
+ScarecrowTarot(0)<Speaker>Scarecrow</Speaker><Position>0,250</Position>||:Will you be alright on your own? +From what I remember, you—
+ElisaTarot(0)<Speaker>Elisa</Speaker><Position>0,250</Position>||:I'll be fine. +It's the most efficient if we split up. +Remember, find M4 and take out all other targets.
+ScarecrowTarot(0)<Speaker>Scarecrow</Speaker><Position>0,250</Position>||:Understood.
+()<Speaker></Speaker>||:The Fae of Pentacles can barely contain its gleeful cackling as it watches the two black-clad girls go their separate ways.
 ()||<黑屏1><CGDelay>1</CGDelay>:
-NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position>||<BIN>703</BIN><黑屏2>:……都说了，规则就是这样。+只有拿到更多的塔罗牌，你们才会变强，才有可能获得神眷。
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>;NPC-Tarot_Blade(0)<Position>0,250</Position>||:嗯，你已经讲了很多遍了，我们充分明白规则的意思。
-M1851NTarot(0)<Position>0,250</Position>;NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position><Shake>||<震屏3><SE1>ClothingUp</SE1>:那你们还在干什么？在这玩露营郊游吗？！
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>;NPC-Tarot_Blade(0)<Position>0,250</Position>||:你为什么在生气？我们做错了什么吗……
-RexZero1Tarot(0)<Position>0,250</Position>;NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position><Shake>||:你们！知不知道其他参与者已经集齐了多少塔罗牌？
-NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position>||:要是你们继续这样优哉游哉，根本不可能获得神的眷顾！
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:没关系，只要我们大家还在一起就好。
-()<Speaker>圣杯二</Speaker>||:我们才不在乎输赢，开心才最重要！
-()<Speaker>星币三</Speaker>||:没有错！
-NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:几名少女蹦蹦跳跳地从愤怒到颤抖的宝剑精灵面前经过。+银铃般的笑声传入它的耳中却变成了同僚的尖酸刻薄的嘲笑声……
-NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position>||:你们真的以为彼此的友情牢不可破吗？
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>;NPC-Tarot_Blade(0)<Position>0,250</Position>||:你在说什么吗？
-NPC-Tarot_Blade(0)<Speaker>宝剑精灵</Speaker><Position>0,250</Position>||:让我来看看吧，你们之间的感情究竟有多坚固……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:宝剑精灵的身影倏忽之间消失了，紧接着——
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=4</controll_shake><SE1>AVG_door_storehouse</SE1><BGM>10220</BGM>:轰隆隆——+隆隆巨响持续自地下深处传来，伴随着强烈的震感，天地摇晃……
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position><Shake>||:发生了什么？！宝剑精灵！
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:它不见了……它不会有事吧？
-()<Speaker>圣杯二</Speaker>||<震屏>:地面在开裂！啊——
-()<Speaker>星币三</Speaker>||:跑啊！快跑！！！
+NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position>||<BIN>703</BIN><黑屏2>:...As I've said, those are the rules. +Only by obtaining more tarot cards will you grow more powerful and possibly win the Lord's favor.
+M1851NTarot(0)<Speaker>The Empress</Speaker><Position>0,250</Position>;NPC-Tarot_Blade(0)<Position>0,250</Position>||:Yes, you've explained it many times. We understand the rules perfectly.
+M1851NTarot(0)<Position>0,250</Position>;NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position><Shake>||<震屏3><SE1>ClothingUp</SE1>:Then what are you doing? Playing at hiking and camping?!
+RexZero1Tarot(0)<Speaker>The Hermit</Speaker><Position>0,250</Position>;NPC-Tarot_Blade(0)<Position>0,250</Position>||:Why are you so angry? Did we do something wrong...?
+RexZero1Tarot(0)<Position>0,250</Position>;NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position><Shake>||:Guys! Do you have any idea how many cards the other participants have already collected?
+NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position>||:If you keep dilly-dallying like this, you don't stand a chance of winning the Lord's favor!
+M1851NTarot(0)<Speaker>The Empress</Speaker><Position>0,250</Position>||:That's alright, as long as we all stay together.
+()<Speaker>Two of Cups</Speaker>||:We don't care about winning. What matters is that we have fun!
+()<Speaker>Three of Pentacles</Speaker>||:That's right!
+NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position>||:...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Several girls skip and bound right in front of the Fae of Swords, who is shaking with anger. +Their peals of laughter sound like mean, mocking snickers to its ears...
+NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position>||:Do you seriously believe your friendship is unbreakable?
+M1851NTarot(0)<Speaker>The Empress</Speaker><Position>0,250</Position>;NPC-Tarot_Blade(0)<Position>0,250</Position>||:Did you say something?
+NPC-Tarot_Blade(0)<Speaker>Fae of Swords</Speaker><Position>0,250</Position>||:In that case, let me see just how firm your friendship is...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Fae of Swords vanishes abruptly, then...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=50000%%delay=0.1%%range=4</controll_shake><SE1>AVG_door_storehouse</SE1><BGM>10220</BGM>:Rumble... +A loud rumbling noise starts coming from deep underground, followed by violent tremors that seem to shake up the entire world...
+M1851NTarot(0)<Speaker>The Empress</Speaker><Position>0,250</Position><Shake>||:What is happening? Fae of Swords?!
+RexZero1Tarot(0)<Speaker>The Hermit</Speaker><Position>0,250</Position>||:She's gone... Is she going to be okay?
+()<Speaker>Two of Cups</Speaker>||<震屏>:The ground is splitting open! Aaaaaahh!
+()<Speaker>Three of Pentacles</Speaker>||:Run! Just run!!!
 ()||<黑屏1><SE1>RunStep</SE1><CGDelay>1</CGDelay><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=1</controll_shake>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay>:
-()<Speaker>宝剑六</Speaker>||<SE1>RunStep</SE1>:呃啊啊啊啊啊——
-()<Speaker>权杖一</Speaker>||<SE1>RunStep</SE1>:不要啊啊啊——！！！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:砰砰砰……+浮游枪肆意旋转，无情地用子弹洗礼着眼前的一切。+尖叫声凝固在空中，倏然断裂，成为绝望的回响。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:死神的影子悄然落地，踩在一堆碎片的上方。
-()<Speaker>星币九</Speaker>||:……呃啊！
-()<Speaker></Speaker>||:残躯的痛感将可怜的蝼蚁从昏迷中激醒，近乎哀求地看向死神。
-()<Speaker>星币九</Speaker>||:求、求求你……放过我……+我还有未完成的心愿……我要寻找……失散的主人……+求求你……
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><common_effect>%%code=202406_Hit%%</common_effect>:唰。+稻草人干脆利落地撕碎了她最后的生息。
-()<Speaker></Speaker>||:最后一丝残留的气息消失了。
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:四周凝聚着静止的风，只有无声的水流从各种残破的孔洞中汨汨涌出。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:这里，只剩最后一点残渣了呢……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:稻草人慢慢回头，冰冷的目光将身后气喘吁吁的两人冻住。
-M1851NTarot(1)<Speaker>女皇</Speaker><Position>0,250</Position>||:不、不要过来……
-RexZero1Tarot(1)<Speaker>隐士</Speaker><Position>0,250</Position>||:我保护你！
-()<Speaker></Speaker>||:稻草人唤来浮游炮，瞄准激光已经照射在了两个瑟瑟发抖的身影——
-()<Speaker></Speaker>||<白屏2><SE1>AVG_magic_circle_start</SE1><BGM>BGM_Empty</BGM>:唰——
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:……+跑了。
-()<Speaker></Speaker>||:只一眨眼间，两人的身影就在原地消失了。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:稻草人没有留恋，朝着其他人逃跑的方向追去。
-()||<黑点1><CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_XXS_kick</SE1>:扑通。+确认黑影远去后，一个娇小的身影从高高叠起的插画图形中跳了下来。
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>||<BGM>GF_EV9_Story</BGM>:……她走了。
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:谢谢你！
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:你救了我们，你是……
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>||:我是月亮，我拥有暂时隐身的能力。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:月亮的枪口仍然没有放下。
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>||:说出你们的能力，否则我们无法互相信任。
-P50Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:再次感谢你的帮助，我是隐士，我可以看见一定范围内的塔罗牌动向。+比如……我能看见“死神”仍在附近徘徊……
-P50Tarot(0)<Position>0,250</Position>;M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:我的塔罗牌是女皇，在某种情况下，我也还不清楚是什么样的情况……+我可以召唤其他拥有大阿尔卡纳牌的人来到我的身边。
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>||<SE1>ClothingUp</SE1>:感谢你们的坦诚。
-()<Speaker></Speaker>||:月亮放下了枪。
-()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><SE2>Gunfight</SE2>:砰、砰、砰……+远处的枪响如礼炮，一发又一发轰鸣着。+视野的尽头，迷雾的深处，一个纤细高挑的黑色身影如幽灵般飘然而出。
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:为什么……她还不肯离开这里……+已经屠杀了这么多人……
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>;RexZero1Tarot(0)<Position>0,250</Position>||:我们都被困在这里了。+因为突然的地形塌陷，这里的面积急剧缩小。
-P50Tarot(0)<Position>0,250</Position>;M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:地形塌陷……是宝剑精灵干的……
-P50Tarot(0)<Position>0,250</Position>;RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:它为什么要这么做？！
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>||:现在的局面就是它想要的。+让我们自相残杀。
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:……
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:我不明白……我们的朋友全都死了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:隐士颓然坐在地上。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_XXS_kick</SE1>:唰——嘭——
-()<Speaker></Speaker>||:什么东西飞了过来，月亮小心地翻过来查看——
-()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_Scene_Transfer</SE1>:是一个少女的残片。
-()||<黑屏1><BGM>10065</BGM>:
-P50Tarot(0)<Speaker>月亮</Speaker><Position>0,250</Position>||<BIN>703</BIN><黑屏2>:……
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position><Shake>||:啊啊啊啊！
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||<SE1>ClothingUp</SE1>:虫子……都聚在这里呢。
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:糟了！快找掩体躲起来！！！+所有人——快点！！！
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:嘭——+稻草人轰开准备发动隐身的月亮。
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:月亮！
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:无用的挣扎。
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:……！+可恶！！！
-()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:哒哒哒——+在激烈的火力面前，“隐士”的配枪娇弱得如同玩具。
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:我们不是她的对手！
-P50Tarot(2)<Speaker>月亮</Speaker><Position>0,250</Position>||:女皇，发动你的技能！
-M1851NTarot(0)<Speaker>女皇</Speaker><Position>0,250</Position>||:还没有达成条件！
-RexZero1Tarot(0)<Speaker>隐士</Speaker><Position>0,250</Position>||:你快跑！我拖住她！
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:徒劳的挣扎。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:稻草人挥了挥手，浮游枪即刻对几人展开了狂轰滥炸……
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰隆——
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰隆——
-()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:一阵天旋地转将女皇裹入黑暗。+四周，安静得可怕。+她被揪心与不安的感觉所吞没。
-()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:此时，怀中却有什么东西忽然开始炽热地发光。
-M1851NTarot(2)<Speaker>女皇</Speaker><Position>0,250</Position><Shake>||:终于……终于有反应了！
-()<Speaker></Speaker>||:悲愤的感情如洪流般，令女皇全身震颤……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她忍住咬碎牙齿的冲动，默默闭上双眼。
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay><BIN>703</BIN>:
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:……嗯？
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><common_effect>%%code=CJ_zidan%%</common_effect>:幽暗的画布中，一点耀眼的白光一闪而过。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||<SE1>Select</SE1>:哼，找到你了——
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position><Shake>||:……？！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:浮游枪开火的瞬间，白色弧光笼罩了一个跪坐于冰冷地板上的娇小身影。+她的眼角泛着泪光，虔诚地看向虚空，仿佛在祈求着什么……
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3><白屏2>:砰砰砰……+又一轮火力愤怒地倾泻而出，却被温柔的白色屏障所化解。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_magic_circle_start</SE1>:<color=#00CCFF>女皇的【祝福】——开启确认。</color>
-()||<白屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<白屏2><BIN>183</BIN>:屏障不断蔓延、扩散……+在一阵刺目的光辉后，三个少女轮廓才清晰地浮现出来。
-()||<CGDelay>1</CGDelay><白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>703</BIN>:
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||<BGM>BGM_23SF_zonghe_1</BGM>:戒备。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:……
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position><Shake>||:<size=50>我们这是到了哪里啊？！</size>
-()<Speaker></Speaker>||:SOP2倏忽瞪大双眼，将不远处漂浮的黑影连同四周惨败的战场尽数纳入眼底。
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:嘭——轰隆——+不等AR小队搞清现状，稻草人毫不迟疑地瞄准了她们。
-ScarecrowTarot(0)<Speaker>稻草人</Speaker><Position>0,250</Position>||:格里芬的渣滓们，没想到在这里也能见面。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:卑鄙！居然偷袭我们！
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:汇报情况。
-AR15Tarot(0)<Speaker>AR15</Speaker><Position>0,250</Position>||:我没事。
-M4 SOPMOD IITarot(0)<Speaker>M4 SOPMOD II</Speaker><Position>0,250</Position>||:我也好得很！
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARL1</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><SE1>Select</SE1>:咔哒——+硝烟散去，AR小队已经完成了战备。
-RO635Tarot(0)<Speaker>RO635</Speaker><Position>0,250</Position>||:AR小队全体注意！
-()<Speaker></Speaker>||<BIN>9</BIN>:
-()<Speaker>RO635</Speaker>||:消灭目标——稻草人！
-()||<黑点1>:
+()<Speaker>Six of Swords</Speaker>||<SE1>RunStep</SE1>:Aaaaaargh!!!
+()<Speaker>Ace of Wands</Speaker>||<SE1>RunStep</SE1>:Noooooo!!!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Bang-bang-bang... +Hovering guns spin and rain down bullets on everything in sight with ruthless abandon. +Screams fill the air before they are cut off abruptly and turn into echoes of despair.
+ScarecrowTarot(0)<Speaker>Scarecrow</Speaker><Position>0,250</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Death's shadowy figure lands quietly, her foot trampling on a pile of fragments.
+()<Speaker>Nine of Pentacles</Speaker>||:...Ugh!
+()<Speaker></Speaker>||:The burst of pain jerks the broken small fry back to consciousness. She looks up imploringly at Death.
+()<Speaker>Nine of Pentacles</Speaker>||:P-please... spare me... +I have unfulfilled wishes... I must find... my master... +I beg you...
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><common_effect>%%code=202406_Hit%%</common_effect>:Whoosh. +Scarecrow severs her remaining life with a clean slash.

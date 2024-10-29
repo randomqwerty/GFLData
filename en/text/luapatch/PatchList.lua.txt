@@ -421,10 +421,21 @@ patch3060=
 {
 "3060/HomeController",
 "3060/OPSPanelController",
+"3060/DeploymentBuildingController",	
 "3060/ExchangeShopItemController",
 "3060/Data",
 "3060/PrizeInfoBoxCtrl",
 "3060/CommonIconController",
+"3060/AVGController",
+"3060/MallGoodController",
+"3060/BreakoutIntelligenceItem",
+"3060/BreakoutPhaseBattleFinishController",
+"3060/GriffinEntryMessageBoxController",
+"3060/BattleTarkovUIUseableItem",
+"3060/UIBattleMainView",
+"3060/MallKalinaFavorController",
+"3060/BreakoutTeamPrepareController",
+"3060/BattleTarkovUIGunItem"
 }
 -- va11
 print("load Va11");
@@ -444,4 +455,17 @@ print("load Va11");
 
 if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
 	CS.NDebug.PrintLog = true;
+end
+
+-- announcement
+local funcOpenAnnouncement = function()
+	CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Announcement"), CS.CommonController.MainCanvas.transform,false)
+end
+local ann = require("AnnouncementModel")
+ann:Reset()
+ann:Init()
+if ann.open then
+	local gobjBtn = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Btn_Announcement"), CS.CommonController.MainCanvas.transform,false)
+	gobjBtn:GetComponent(typeof(CS.ExButton)):AddOnClick(funcOpenAnnouncement)
+	funcOpenAnnouncement()
 end
