@@ -22,7 +22,7 @@ this.Init = function(self)
 			json = CS.LitJson.JsonMapper.ToObject(txt.text)
 		end
 		
-		if json:Contains(regionType) then
+		if json ~= nil and json:Contains(regionType) then
 			local jsonRegion = json:GetValue(regionType)
 			self.open = jsonRegion:GetValue("open").Int ~= 0
 			if self.open then
