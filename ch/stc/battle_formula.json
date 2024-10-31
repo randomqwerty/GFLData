@@ -7437,11 +7437,11 @@
   },
   {
     "id": 3537,
-    "formula": "(tbufftypetier(109)>0)&(tbuffidtier(3809)=0)?3809:0"
+    "formula": "(tbufftypetier(109)>0)&(tbuffidtier(3809)=0)?3809:18001"
   },
   {
     "id": 3538,
-    "formula": "(tbufftypetier(109)=0)&(tbuffidtier(3810)=0)?3810:0"
+    "formula": "(tbufftypetier(109)=0)&(tbuffidtier(3810)=0)?3810:18001"
   },
   {
     "id": 3539,
@@ -15910,6 +15910,14 @@
   {
     "id": 9508,
     "formula": "sbuffidtier(9635)=1?1:0"
+  },
+  {
+    "id": 9550,
+    "formula": "sbuffidtier(9700)>0?1:0"
+  },
+  {
+    "id": 9551,
+    "formula": "sbuffidtier(9700)>0?361:271"
   },
   {
     "id": 13280,

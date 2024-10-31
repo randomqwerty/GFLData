@@ -1,10 +1,15 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.MallKalinaFavorController)
+xlua.private_accessible(CS.MallController)
 
-local Start = function(self)
-	--if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
-	self.hasInit = false;
-	--end
-	self:Start();
+local LoadNpc = function(self)
+	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+		if self.kalinaFavorController ~= nil then
+			self.kalinaFavorController:Init();
+		end
+		return;
+	end
+	self:LoadNpc();
 end
-util.hotfix_ex(CS.MallKalinaFavorController,'Start',Start)
+--util.hotfix_ex(CS.MallKalinaFavorController,'Init',Init)
+util.hotfix_ex(CS.MallController,'LoadNpc',LoadNpc)

@@ -18,6 +18,8 @@ end
 
 local OnClickSelf = function(self)
 	if self.isLock then
+		local tip = CS.System.String.Format(CS.Data.GetLang(280601),  self.itemData.phaseName);
+		CS.CommonController.LightMessageTips(tip);
 		return
 	end
 
