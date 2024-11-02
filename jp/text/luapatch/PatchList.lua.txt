@@ -435,7 +435,8 @@ patch3060=
 "3060/UIBattleMainView",
 "3060/MallKalinaFavorController",
 "3060/BreakoutTeamPrepareController",
-"3060/BattleTarkovUIGunItem"
+"3060/BattleTarkovUIGunItem",
+"3060/VehicleData"
 }
 -- va11
 print("load Va11");
@@ -455,4 +456,17 @@ print("load Va11");
 
 if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
 	CS.NDebug.PrintLog = true;
+end
+
+-- announcement
+local funcOpenAnnouncement = function()
+	CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Announcement"), CS.CommonController.MainCanvas.transform,false)
+end
+local ann = require("AnnouncementModel")
+ann:Reset()
+ann:Init()
+if ann.open then
+	local gobjBtn = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Btn_Announcement"), CS.CommonController.MainCanvas.transform,false)
+	gobjBtn:GetComponent(typeof(CS.ExButton)):AddOnClick(funcOpenAnnouncement)
+	funcOpenAnnouncement()
 end

@@ -78,10 +78,16 @@ end
 local chooseing = function(self)
 	return self.currentChoose ~= nil;
 end
+local RequestBOBreakoutStartMissionHandle = function(self,result)
+	local mission = CS.GameData.listMission:GetDataById(result.missionid);
+	mission.counter = mission.counter + 1;
+	self:RequestBOBreakoutStartMissionHandle(result);
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
 util.hotfix_ex(CS.OPSPanelController,'get_chooseing',chooseing)
+util.hotfix_ex(CS.OPSPanelController,'RequestBOBreakoutStartMissionHandle',RequestBOBreakoutStartMissionHandle)
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitPanelSpot',InitPanelSpot)
 util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 

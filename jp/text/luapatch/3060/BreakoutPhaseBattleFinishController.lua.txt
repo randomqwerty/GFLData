@@ -11,7 +11,7 @@ local mShowBattleResult = function(self)
 	end
 
 	if CS.GF.Tarkov.GameDataCache.I.playerData.intelliPoint ~=nil and CS.GF.Tarkov.GameDataCache.I.playerData.intelliPoint.Count>0 then
-		CS.CommonController.ShowItemListRewardBox(CS.GameDataCache.I.playerData.intelliPoint, nil, CS.Data.GetLang(1284));
+		CS.CommonController.ShowItemListRewardBox(CS.GF.Tarkov.GameDataCache.I.playerData.intelliPoint, nil, CS.Data.GetLang(1284));
 	end
 
 	local cache = CS.Data.GetPlayerPrefString(tostring(CS.GameData.userInfo.userId), "isFirstBreakoutPayoff");
