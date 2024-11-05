@@ -7,6 +7,13 @@ local mShowBattleResult = function(self)
 	if CS.GF.Tarkov.GameDataCache.I.playerData.nextPhaseInfo == nil then
 		if CS.GF.Tarkov.GameDataCache.I.playerData.phaseInfo.order == self.bagData.organizePackageOrder then
 			self.textPhaseName.text = CS.GF.Tarkov.GameDataCache.I.playerData.phaseInfo.name;
+			self.objFirstAmmo:SetActive(false);
+        	self.objMaxAmmo:SetActive(false);
+        	self.objRecoverAmmo:SetActive(false);
+
+        	self.objFirstMp:SetActive(false);
+        	self.objMaxMp:SetActive(false);
+        	self.objRecoverMp:SetActive(false);
 		end	
 	end
 
