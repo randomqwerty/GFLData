@@ -436,7 +436,11 @@ patch3060=
 "3060/MallKalinaFavorController",
 "3060/BreakoutTeamPrepareController",
 "3060/BattleTarkovUIGunItem",
-"3060/VehicleData"
+"3060/VehicleData",
+"3060/MissionSelectionActivityBar",	
+"3060/TarkovBattleWrapper",
+"3060/BreakoutAVGController",
+"3060/BattleInteractionController",
 }
 -- va11
 print("load Va11");

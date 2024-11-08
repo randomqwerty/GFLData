@@ -83,6 +83,35 @@ local RequestBOBreakoutStartMissionHandle = function(self,result)
 	mission.counter = mission.counter + 1;
 	self:RequestBOBreakoutStartMissionHandle(result);
 end
+local TriggerEndDragHandler = function(self,eventData)
+	self:TriggerEndDragHandler(eventData);
+	if CS.OPSPanelController.Instance.chooseSpot ~= nil then
+		CS.OPSPanelController.Instance:CancelMission();
+	end
+end
+local CanChooseDrag = function(self)
+	if self.chooseSpot ~= nil then
+		return false;
+	end
+	return self:CanChooseDrag();
+end
+local ShowReward = function(self,missionid)
+	self:ShowReward(missionid);
+	local mission = CS.GameData.listMission:GetDataById(missionid);
+	local getIcon = self.breakoutMissionObj.transform:Find("Main/MissionPart/MainRewardIcon/GetIcon");
+	if getIcon ~= nil then
+		getIcon.transform:SetAsLastSibling();
+		getIcon.gameObject:SetActive(mission.winCount>0);
+	end
+end
+local RequestBOBreakoutOrganizePackageHandle = function(self,request)
+	self:RequestBOBreakoutOrganizePackageHandle(request);
+	if CS.GF.Tarkov.GameDataCache.I.playerData.nextPhaseInfo == nil then
+		local missionid = CS.GF.Tarkov.GameDataCache.I.playerData.missionId;
+		local mission = CS.GameData.listMission:GetDataById(missionid);
+		mission.winCount = mission.winCount + 1;
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -90,4 +119,8 @@ util.hotfix_ex(CS.OPSPanelController,'get_chooseing',chooseing)
 util.hotfix_ex(CS.OPSPanelController,'RequestBOBreakoutStartMissionHandle',RequestBOBreakoutStartMissionHandle)
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitPanelSpot',InitPanelSpot)
 util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
+--util.hotfix_ex(CS.OPSPanelBackGround,'TriggerEndDragHandler',TriggerEndDragHandler)
+util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
+util.hotfix_ex(CS.OPSPanelController,'ShowReward',ShowReward)
+util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 

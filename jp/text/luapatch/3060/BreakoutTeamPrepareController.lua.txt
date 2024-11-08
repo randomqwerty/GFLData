@@ -64,8 +64,20 @@ local Show = function(self)
 	UpdateIntelligenceRedpoint(CS.BreakoutTeamPrepareController.Instance)
 end
 
+local OnServiceStartAVGEnd = function(self)
+	self:PlayBGM()
+	self:OnServiceStartAVGEnd()
+end
+
+local OnBattleResultAVGEnd = function(self)
+	self:PlayBGM()
+	self:OnBattleResultAVGEnd()
+end
+
 util.hotfix_ex(CS.BreakoutTeamPrepareController,'InitData',InitData)
 util.hotfix_ex(CS.BreakoutIntelligenceBoxController,'Show',Show)
+util.hotfix_ex(CS.BreakoutTeamPrepareController,'OnServiceStartAVGEnd',OnServiceStartAVGEnd)
+util.hotfix_ex(CS.BreakoutTeamPrepareController,'OnBattleResultAVGEnd',OnBattleResultAVGEnd)
 
 
 
