@@ -53,6 +53,12 @@ local ShowSangvisSelectTarget = function(self,order)
 		end
 	end
 end
+
+local LoadItemData = function(self)
+	self:LoadItemData();
+	self:ItemObjMoveReast();
+end
 --util.hotfix_ex(CS.DeploymentBuildingController,'CheckSkillDetail',CheckSkillDetail)
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
+util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
