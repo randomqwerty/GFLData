@@ -21,6 +21,10 @@ local mShowBattleResult = function(self)
 	local seconds = CS.GF.Tarkov.GameDataCache.I.playerData.lastBattleResultData.duration / 30;
 	local time = CS.Mathf.FloorToInt(seconds);
 	self.textTime.text = CS.Data.FormatTimeStampSimple(time);
+	local rectText = self.textTime:GetComponent(typeof(CS.UnityEngine.RectTransform));
+	if rectText~=nil then
+		rectText.sizeDelta = CS.UnityEngine.Vector2(170,55);
+	end
 
 	if CS.GF.Tarkov.GameDataCache.I.playerData.intelliPoint ~=nil and CS.GF.Tarkov.GameDataCache.I.playerData.intelliPoint.Count>0 then
 		CS.CommonController.ShowItemListRewardBox(CS.GF.Tarkov.GameDataCache.I.playerData.intelliPoint, nil, CS.Data.GetLang(1284));
