@@ -1,135 +1,135 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>医生</Speaker>||:奇怪，按理说他不该昏迷不醒。你是在哪里找到他的？
-()<Speaker>女孩</Speaker>||:就在医疗点东边不远，我和妹妹发现他倒在路边。
-()<Speaker>医生</Speaker>||:没有什么严重的伤，不应该啊……简直……
-()<Speaker>医生</Speaker>||:简直像是装的……
+()<Speaker>의사</Speaker>||:이상하네, 보니까 전혀 멀쩡한 것 같은데. 이 사람을 어디서 발견한거니?
+()<Speaker>여자아이</Speaker>||:진료소 동쪽에서 멀지 않은 길가에서, 쓰러져 있는 걸 발견했어요.
+()<Speaker>의사</Speaker>||:심각한 상처도 없는데... 이럴 리가 없는데, 마치...
+()<Speaker>의사</Speaker>||:꾀병 부리는 것 같은...
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker>女孩</Speaker>||:看，他的手好像动了。
+()<Speaker>여자아이</Speaker>||:어? 방금 손이 움직인 것 같아요!
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_TK_face</BGM><睁眼><BIN>803</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:这是一个简陋的医疗所，天花板上部分墙皮已经脱落，一旁的铁架子上一个葡萄糖袋子正在输液。
-()<Speaker>指挥官</Speaker>||:这是哪？
-()<Speaker>医生</Speaker>||:这里是红树谷医疗营地，有什么不舒服的吗？
-()<Speaker></Speaker>||<白屏2><CGDelay>0.5</CGDelay><SE1>AVG_Button_Click</SE1>:医生拨开了躺在床上的指挥官的眼皮，用手电筒打光照射，看了看。
-()<Speaker>医生</Speaker>||<CGDelay>0.5</CGDelay>:看上去没什么问题啊，你还记得自己是谁，是怎么昏迷的吗？
-()<Speaker>指挥官</Speaker>||:我是个特遣队员，之前我走在路上的时候被人从后面袭击了……之后就都不知道了。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:<color=#A9A9A9>再不醒就怕要露馅了。</color>
-()<Speaker>医生</Speaker>||:可能是伤到了头，在这儿观察一段时间吧。
-()<Speaker>医生</Speaker>||:苏珊，好好照顾他，有异常喊我；我先去看看别的病人。
+()<Speaker></Speaker>||:천장의 일부가 떨어져 나가고, 한쪽 철제 선반에는 포도당 링거가 걸려 있는 허름한 의료실.
+()<Speaker>지휘관</Speaker>||:여기가 어디입니까?
+()<Speaker>의사</Speaker>||:여기는 레드우드 밸리 의료 캠프입니다. 불편한 점은 없으십니까?
+()<Speaker></Speaker>||<白屏2><CGDelay>0.5</CGDelay><SE1>AVG_Button_Click</SE1>:의사는 침대에 누운 지휘관의 눈꺼풀을 젖히고 손전등으로 불빛을 비춰 보았다.
+()<Speaker>의사</Speaker>||<CGDelay>0.5</CGDelay>:아무 문제도 없어 보이네요. 자신이 누구인지, 어떻게 정신을 잃었는지 기억 하시나요?
+()<Speaker>지휘관</Speaker>||:저는 대원입니다, 길을 걷다가 뒤에서 습격을 당했고... 그 뒤로는 기억이 나지 않아요.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:<color=#A9A9A9>안 깨면 들통날까 봐 일어났지.</color>
+()<Speaker>의사</Speaker>||:머리를 다치신 것 같군요. 여기서 한동안 지켜보도록 하죠.
+()<Speaker>의사</Speaker>||:수잔, 이상이 있으면 날 불러. 나는 다른 환자들을 좀 보고 올게.
 ()||<黑点1><SE1>AVG_Door_Open_Close</SE1>:
 ()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:医生离开了，病床前只剩下一个十一二岁的小女孩，正在熟练地检查着指挥官的吊瓶。
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:这瓶葡萄糖还有一个半个小时才会输完，累的话可以休息一下，一会儿我会来喊你。
-NPC-Sanaya(0)<Speaker>指挥官</Speaker><同时置暗>||:不，不用了，我感觉自己已经睡得够久了。是你把我带回来的吗？
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:是的，当时你昏迷在路边，我和妹妹苔丝发现了你。
-NPC-Sanaya(0)<Speaker>指挥官</Speaker><同时置暗>||:谢谢你。
-()<Speaker></Speaker>||:眼前女孩的衣服上打着不少补丁，看上去虽然破旧但很干净，衣领有着反复揉洗留下的毛边。
-()<Speaker>指挥官</Speaker>||:能不能给我介绍一下，我对这个医疗点一无所知。
+()<Speaker></Speaker>||:의사가 떠나고, 병상 앞의 12살짜리 어린 소녀가 지휘관의 링거를 능숙하게 확인하고 있었다.
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:링거를 다 맞으려면 아직 한 시간 반 정도 더 걸려요. 힘드시면 좀 쉬세요. 이따가 제가 부르러 올게요.
+NPC-Sanaya(0)<Speaker>지휘관</Speaker><同时置暗>||:아니, 괜찮아. 이미 충분히 잔 것 같아. 나를 여기까지 데려온 게 너니?
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:네, 당신이 길가에 쓰러져 있는 걸 저랑 제 여동생 에이미가 발견했어요.
+NPC-Sanaya(0)<Speaker>지휘관</Speaker><同时置暗>||:고마워.
+()<Speaker></Speaker>||:눈앞의 소녀가 입은 옷은 여러 군데 기운 자국이 있어 낡아 보였지만 아주 깨끗했고, 옷깃에는 반복된 세탁으로 생긴 보풀이 남아 있었다.
+()<Speaker>지휘관</Speaker>||:여기가 어딘지 알려줄래? 이 진료소에 대해 아는 게 없어서.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>803</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:谢谢你，我对这里的情况大概了解了。
-()<Speaker>指挥官</Speaker>||:对了，你刚刚说，医疗点里有从城里大医院借调过来的医生，能不能请他来帮我看看。不知道昏迷的原因，心里总觉得不踏实。
-NPC-Sanaya(1)<Speaker>苏珊</Speaker>||:这……你是在说劳伦斯医生……实际上他前些日子出了点意外，新的医生还没有来。
-NPC-Sanaya(1)<Speaker>指挥官</Speaker><同时置暗>||:意外？
-NPC-Sanaya(1)<Speaker>苏珊</Speaker>||:嗯，上周，他晚上醉酒后不幸跌入了池塘，等我们发现时已经来不及了……
-NPC-Sanaya(1)<Speaker>指挥官</Speaker><同时置暗>||:啊，真是令人惋惜，没想到竟然出了意外……劳伦斯医生一定很受大家爱戴吧，放弃城里的生活来支援这里。
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:是的，这些年劳伦斯医生帮了我们很多。
-NPC-Sanaya(0)<Speaker>指挥官</Speaker><同时置暗>||:真是一位值得尊敬的人，这个医疗点是他建的吗？
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:当然不是，是艾薇塔医生。
-NPC-Sanaya(0)<Speaker>指挥官</Speaker><同时置暗>||:艾薇塔？
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:对，是艾薇塔医生建了这个医疗点，也是她救了我和妹妹，把我们安置在这里。
-()<Speaker></Speaker>||:提到了自己的救命恩人，苏珊的语速略微变快，显然有些激动。
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:我和妹妹都是孤儿，快要饿死的时候被艾薇塔医生救到了这里，平常帮大家做些杂活儿……
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:啊，差点忘了！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:苏珊从一旁桌子上取过一摞凌乱的文件抱在怀里，急匆匆地朝门口小步跑去。
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:我还有事，你好好休息，换药前我再回来。
-()<Speaker>指挥官</Speaker>||:等下！
-()<Speaker></Speaker>||:指挥官指着地上落下的一个红色信封，上面沾着黑褐色的污渍。
-()<Speaker>指挥官</Speaker>||:你落下了这个。
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:啊！谢谢你！
-NPC-Sanaya(0)<Speaker>苏珊</Speaker>||:我先走啦，有事就喊人叫我。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Book</SE1>:苏珊捡起了地上掉落的红色信封，随手插进了那摞凌乱的文件里，离开了病房。
-()<Speaker>指挥官</Speaker>||:艾薇塔？不会这么巧吧……
+()<Speaker>지휘관</Speaker>||:고마워. 대충 이해했어.
+()<Speaker>지휘관</Speaker>||:맞다, 방금 큰 병원에서 파견을 온 의사가 이 진료소에 있다고 했지? 그분께 진찰을 받을 수 있을까? 기절한 이유를 모르니 조금 찜찜해서.
+NPC-Sanaya(1)<Speaker>수잔</Speaker>||:그... 로렌스 선생님을 말씀하시는 거죠... 그런데 그분은 며칠 전에 사고를 당해서, 새로운 의사 선생님은 아직 오지 않으셨어요.
+NPC-Sanaya(1)<Speaker>지휘관</Speaker><同时置暗>||:사고?
+NPC-Sanaya(1)<Speaker>수잔</Speaker>||:네. 지난주에 술에 취해 연못에 빠지셨는데, 발견했을 땐 이미 늦어서..
+NPC-Sanaya(1)<Speaker>지휘관</Speaker><同时置暗>||:안타깝구나. 뜻밖에 사고를 당하다니... 로렌스 선생님은 여기서 엄청 존경받았겠지? 도시 생활까지 포기하고 여기에 지원 온 거니까.
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:네, 요 몇 년 동안 로렌스 선생님이 많이 도와 주셨어요.
+NPC-Sanaya(0)<Speaker>지휘관</Speaker><同时置暗>||:존경스러우신 분이네. 이 진료소도 그 분이 세우신 거야?
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:아뇨, 에비타 선생님이 세우셨어요.
+NPC-Sanaya(0)<Speaker>지휘관</Speaker><同时置暗>||:에비타?
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:네, 에비타 선생님이 이 진료소를 지었어요. 저랑 여동생도 구해주셨구요.
+()<Speaker></Speaker>||:자신의 생명의 은인을 언급하자 수잔의 말이 약간 빨라졌고, 살짝 들뜬 듯했다.
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:저랑 여동생이 굶어 죽기 직전, 에비타 선생님이 구해 주셨어요. 그래서 여기서 잡일을 많이 도와드리고 있어요.
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:앗, 깜빡했다!
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:수잔은 옆 테이블에서 흐트러진 서류 뭉치를 집어 들고 품에 안고 문 쪽으로 급히 걸음을 옮겼다.
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:제가 좀 바빠서요. 쉬고 계시면 약 교체하기 전에 다시 올게요.
+()<Speaker>지휘관</Speaker>||:잠깐만!
+()<Speaker></Speaker>||:지휘관은 바닥에 떨어진 붉은 봉투를 가리켰다. 봉투에는 검붉은 얼룩이 묻어 있었다.
+()<Speaker>지휘관</Speaker>||:이거 떨어뜨렸잖니.
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:앗, 고마워요!
+NPC-Sanaya(0)<Speaker>수잔</Speaker>||:이만 가볼게요. 무슨 일 있으시면 큰 소리로 부르세요!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Book</SE1>:수잔은 바닥에 떨어진 붉은 봉투를 주워 서류 뭉치에 꽂고 병실을 떠났다.
+()<Speaker>지휘관</Speaker>||:에비타? 이런 우연이...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM><BIN>168</BIN><黑屏2><CGDelay>0.5</CGDelay>:转天。
-()<Speaker>医生</Speaker>||:散步不要太久，别逞强，不舒服的话赶紧回来。
-()<Speaker>指挥官</Speaker>||:知道了，多谢。
-()<Speaker></Speaker>||:身后传来医生不放心的呼喊，指挥官离开了病房，来到了医疗点外。
-()<Speaker></Speaker>||:以医疗点为中心，周围建了不少帐篷，作为工作人员的住所。
-()<Speaker></Speaker>||:除了工作人员和他们的亲属，这里还聚集了不少像苏珊那样无家可归的人，渐渐地发展成了一个简陋的聚居地。
-()<Speaker>指挥官</Speaker>||:您好，向您打听一下，池塘怎么走？
-NPC-AH400(2)<Speaker>妇人</Speaker>||:池塘？
-()<Speaker></Speaker>||:指挥官拦下一个身旁的妇人，她手里的托盘上整齐码放着不少医疗药剂，正往医疗点走去。
-NPC-AH400(2)<Speaker>妇人</Speaker>||:北面确实是有一个池塘……但没什么事还是不要去的好，最近，那边淹死了人！
-NPC-AH400(2)<Speaker>指挥官</Speaker><同时置暗>||:淹死了人？
-NPC-AH400(2)<Speaker>妇人</Speaker>||:你刚来这边吧，上周清早，有人发现医疗点的劳伦斯淹死在了池塘里。
-NPC-AH400(2)<Speaker>指挥官</Speaker><同时置暗>||:那可真是令人惋惜。
-NPC-AH400(2)<Speaker>妇人</Speaker>||:惋惜？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:妇人挑起一边的眉毛，脸上露出不屑的神情，压低了声音凑近。
-NPC-AH400(2)<Speaker>妇人</Speaker>||:要我说，死得好。
-NPC-AH400(2)<Speaker>妇人</Speaker>||:劳伦斯看上去是个充满善心的好医生，实际上是个唯利是图的小人。
-NPC-AH400(2)<Speaker>指挥官</Speaker><同时置暗>||:啊？他都做了什么？
-()<Speaker></Speaker>||:指挥官想要继续套话，妇人却摇摇头拉开了距离，端着托盘准备离开。
-NPC-AH400(2)<Speaker>妇人</Speaker>||:他们都不相信，没有人相信。
-NPC-AH400(2)<Speaker>妇人</Speaker>||:从北面的出口出去，看到一棵被雷劈断的松树后右转，如果你非要去池塘的话。
+()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM><BIN>168</BIN><黑屏2><CGDelay>0.5</CGDelay>:다음 날.
+()<Speaker>의사</Speaker>||:산책 너무 오래 하지 마시고, 무리하지 마시고, 아프시면 얼른 돌아오세요.
+()<Speaker>지휘관</Speaker>||:네, 감사합니다.
+()<Speaker></Speaker>||:지휘관은 의사의 불안한 한숨을 뒤로 한 채, 진료소를 나와 발걸음을 옮겼다.
+()<Speaker></Speaker>||:진료소를 중심으로 주변에는 여러 텐트들이 작업자들의 숙소로 활용되고 있었다.
+()<Speaker></Speaker>||:작업자와 그들의 가족들뿐만 아니라, 수잔처럼 갈 곳 없는 이들도 모여들면서 점차 거주지가 형성된 듯 했다.
+()<Speaker>지휘관</Speaker>||:안녕하세요, 연못에 가려면 어떻게 가야 하나요?
+NPC-AH400(2)<Speaker>부인</Speaker>||:연못?
+()<Speaker></Speaker>||:지휘관은 옆을 지나가던 한 부인에게 말을 걸었다. 그녀는 쟁반 위에 여러 의료용품을 가지런히 쌓고 진료소로 가고 있었다.
+NPC-AH400(2)<Speaker>부인</Speaker>||:북쪽에 연못이 하나 있는데... 하지만 별일 없으면 가지 않는 것이 좋아요. 최근에 거기서 사람이 익사했거든요!
+NPC-AH400(2)<Speaker>지휘관</Speaker><同时置暗>||:익사요?
+NPC-AH400(2)<Speaker>부인</Speaker>||:여기 금방 오신 분인가 봐요? 지난 주 이른 아침에 어떤 사람이 진료소의 로렌스 의사가 연못에 빠져 죽은 걸 발견했어요.
+NPC-AH400(2)<Speaker>지휘관</Speaker><同时置暗>||:그것 참 안타깝네요.
+NPC-AH400(2)<Speaker>부인</Speaker>||:안타깝다고요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:부인은 한쪽 눈썹을 치켜 올리며 시큰둥한 표정을 짓고, 목소리를 낮춰 다가왔다.
+NPC-AH400(2)<Speaker>부인</Speaker>||:제가 말하는데, 죽어도 싸요.
+NPC-AH400(2)<Speaker>부인</Speaker>||:로렌스는 겉으론 선심 있고 좋은 의사처럼 보였을지 몰라도, 사실은 이익만 챙기는 속물이었다니까요.
+NPC-AH400(2)<Speaker>지휘관</Speaker><同时置暗>||:네? 뭘 했길래?
+()<Speaker></Speaker>||:지휘관이 계속해서 이야기를 나누려 하자, 부인은 고개를 저으며 쟁반을 들고 떠나려 했다.
+NPC-AH400(2)<Speaker>부인</Speaker>||:말해도 아무도 안 믿어줬어요.
+NPC-AH400(2)<Speaker>부인</Speaker>||:굳이 연못으로 가실 거라면 북쪽 출구로 나가서 벼락 맞은 소나무가 보이면 우회전하세요.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>262</BIN><CGDelay>0.5</CGDelay><黑点2>:
-()<Speaker></Speaker>||:这是一个不大的池塘，树林环绕，附近看不到其他人影。
-()<Speaker></Speaker>||:“噗通”。指挥官丢了一块石头进去，测试水深。
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>岸边的水深不足以淹死一个成年人，虽然醉酒后意识不清也是一种可能……</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官又看了看医疗点的方向。
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>劳伦斯当晚喝酒后一个人回家……如果一路上打听来的消息没错，他根本不会经过这个池塘……</color>
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><BGM>BGM_Empty</BGM>:身后树林中传来了踩踏枯枝的声音，有人！
-()<Speaker>指挥官</Speaker>||:谁！
-()<Speaker></Speaker>||:偷窥的中年男子被抓了个现行，不得已从藏身的树后走了出来。
-()<Speaker>男子</Speaker>||:喂！干什么呢？看你半天了，鬼鬼祟祟的。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_stage12</BGM>:男子随手捡起一根枯树枝，当做武器握在手里，朝指挥官扬了扬，放大了嗓门吼叫。
-()<Speaker></Speaker>||:指挥官没有应声，直接迎了上去；男子见状愣了一下，随后拿手中的棍子劈向指挥官的头。
+()<Speaker></Speaker>||:숲으로 둘러싸여 있고 근처에 다른 사람의 그림자가 보이지 않는 작은 연못.
+()<Speaker></Speaker>||:"풍덩". 지휘관은 돌을 던져 수심을 측정했다.
+()<Speaker>지휘관</Speaker>||:<color=#A9A9A9>연못가의 수심은 성인이 익사할 만큼 깊지 않다. 술에 취해 인사불성인 상태라면 가능하겠지만...</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 다시 진료소의 방향을 보았다.
+()<Speaker>지휘관</Speaker>||:<color=#A9A9A9>로렌스는 그날 밤 술을 마시고 혼자 집으로 돌아갔어... 오면서 알아본 정보가 맞다면, 그가 이 연못을 지나갈 일은 전혀 없을 텐데...</color>
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><BGM>BGM_Empty</BGM>:숲 속에서 마른 나뭇가지를 밟는 소리가 들려왔다. 인기척이다!
+()<Speaker>지휘관</Speaker>||:누구야!
+()<Speaker></Speaker>||:훔쳐보던 중년 남자가 숨어 있던 나무 뒤에서 걸어 나왔다.
+()<Speaker>남자</Speaker>||:어이! 댁은 여기서 뭐해? 한참 지켜 봤는데, 수상해.
+()<Speaker>지휘관</Speaker>||:……
+()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_stage12</BGM>:남자는 마른 나뭇가지를 집어 들고 손에 쥔 채, 지휘관을 향해 소리쳤다.
+()<Speaker></Speaker>||:지휘관은 대꾸를 하지 않고 그대로 다가갔고, 남자는 당황하다가 손에 든 몽둥이로 지휘관의 머리를 내리쳤다.
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:
-()<Speaker>男子</Speaker>||:啊！——
-()<Speaker></Speaker>||:没有看清发生了什么，男子只觉自己的右臂一酸，下意识地松开了木棍，随后天旋地转，反应过来时，自己已经被剪住双臂按在了地上。
-()<Speaker>男子</Speaker>||<SE1>Rope</SE1>:痛痛痛痛痛！轻、轻点……
-()<Speaker>指挥官</Speaker>||:老实点儿，跟我后面干什么呢。
-()<Speaker>男子</Speaker>||:你先松开……松开点儿……我，我就是看你到处打听劳伦斯的事儿，又跑到池塘来，偷偷摸摸的……
-()<Speaker>男子</Speaker>||<震屏3><SE1>Rope</SE1>:哎哎哎！痛！我说，我说……你是来调查劳伦斯的死因的吧？我有线索！
-()<Speaker>男子</Speaker>||:<size=50>劳伦斯是被人害死的！</size>
-()<Speaker>指挥官</Speaker>||:是谁？
-()<Speaker>男子</Speaker>||:艾薇塔！是艾薇塔！
+()<Speaker>남자</Speaker>||:으아아!
+()<Speaker></Speaker>||:무슨 일이 일어났는지도 모른 채, 남자는 오른팔에 통증을 느끼며 반사적으로 막대기를 놓쳤다. 정신을 차렸을 때는 이미 두 팔이 꺾인 채 바닥에 제압당해 있었다.
+()<Speaker>남자</Speaker>||<SE1>Rope</SE1>:아야야야야! 사, 살살......
+()<Speaker>지휘관</Speaker>||:얌전히 있어, 너는 왜 날 미행한 거지?
+()<Speaker>남자</Speaker>||:너 먼저... 좀 놔 봐... 네가 로렌스에 대해 수소문하면서 연못으로 오니까 수상해서...
+()<Speaker>남자</Speaker>||<震屏3><SE1>Rope</SE1>:끄아아악!! 알겠어, 말할게... 너 로렌스의 사인을 조사하러 온 거지? 나한테 단서가 있어!
+()<Speaker>남자</Speaker>||:<size=50>로렌스는 살해 당한 거야!</size>
+()<Speaker>지휘관</Speaker>||:누구에게?
+()<Speaker>남자</Speaker>||:에비타! 에비타야!
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>262</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:已经松开了鬼祟的中年男子，湖边，两个人相对而坐。
-()<Speaker>指挥官</Speaker>||:艾薇塔？哪个艾薇塔？
-()<Speaker>男子</Speaker>||:一个医生，这个医疗点就是她建的，人、设备、钱……都是她想办法搞来的。
-()<Speaker>男子</Speaker>||:不过她自己很少过来，这边的事都是劳伦斯在打理，看病……以及采购。
-()<Speaker>指挥官</Speaker>||:采购？
-()<Speaker>男子</Speaker>||:对！兄弟你也知道，哪个采购不从中间稍微捞一点儿？这也不是什么大事，对吧？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官把玩着刚刚男子当做武器的木棍，一下一下地拍打着掌心，没有正面回答这个问题。
-()<Speaker>男子</Speaker>||:咳咳，总之，前不久艾薇塔过来这边，知道了这件事，两个人起了冲突。
-()<Speaker>男子</Speaker>||:之后不久，劳伦斯就说要回马尔洛斯，然后淹死在了这儿。
-()<Speaker>男子</Speaker>||:淹死？！笑死人了，这么浅的水怎么可能会淹死？
-()<Speaker>男子</Speaker>||:所以我肯定，他是被人杀死的，而这里唯一和他有仇的就是艾薇塔。
-()<Speaker>指挥官</Speaker>||:可你怎么确定，你看见了？
-()<Speaker>男子</Speaker>||:那倒没有……
-()<Speaker>男子</Speaker>||:可除了那个女人，还有谁会这么做？大家都对劳伦斯的事心照不宣，毕竟没必要断了别人财路。
-()<Speaker>男子</Speaker>||:但是艾薇塔不是，劳伦斯贪掉的是她的钱！听说她最近正想着再给这里捐一批器械。
-()<Speaker>男子</Speaker>||:你去医疗点里问问，两周前艾薇塔过来的时候，他们是不是吵得把桌子都掀了？那动静，不少人都听见了。
-()<Speaker>指挥官</Speaker>||:这事我自然会去求证。但刚刚说的那些，你是怎么知道的？
-()<Speaker>男子</Speaker>||:这，这……
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:指挥官把手中的棍子猛地戳到了地上，河岸边土质松软，棍子直接没进去了半米深。
-()<Speaker>男子</Speaker>||:我说我说，你别动手。
-()<Speaker>男子</Speaker>||:劳伦斯从采购里捞油水，总要有个帮手，我就……嘿嘿，帮了点小忙。
-()<Speaker>男子</Speaker>||:但是我只是赚了个辛苦钱，大头都在劳伦斯那儿。我知道的都已经说了，您看……
-()<Speaker>指挥官</Speaker>||:走吧，管好自己的嘴。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>RunStep</SE1>:男子连忙从地上爬了起来，躬身给指挥官赔着笑脸，连挨打时落在旁边的鞋都顾不上捡，转身往回跑去。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:艾薇塔……两周前吗？
-()||<黑点1>:
+()<Speaker></Speaker>||:수상쩍은 중년 남자를 놓아준 후, 두 사람은 연못가에 마주 앉았다.
+()<Speaker>지휘관</Speaker>||:에비타? 어떤 에비타?
+()<Speaker>남자</Speaker>||:의사야. 이 진료소를 세운 사람이지. 사람, 장비, 돈... 전부 그녀가 어떻게든 구해 온 거야.
+()<Speaker>남자</Speaker>||:하지만 그녀는 거의 여기에 오지 않았어. 이쪽 일은 로렌스가 맡아서 관리하고 있었어... 진찰에 쇼핑까지...
+()<Speaker>지휘관</Speaker>||:쇼핑?
+()<Speaker>남자</Speaker>||:그래! 너도 알다시피, 중간에서 조금 챙기는 건 흔한 일이잖아. 그렇지?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 남자가 무기로 삼았던 나뭇가지로 손바닥을 툭툭 치면서 그 질문에 바로 답하지 않았다.
+()<Speaker>남자</Speaker>||:크흠, 어쨌든... 얼마 전에 에비타가 여기로 와서 이 사실을 알고 크게 싸웠어.
+()<Speaker>남자</Speaker>||:그 후 얼마 지나지 않아서 로렌스는 마룰로스로 돌아가겠다 말했고, 나중에 여기에서 익사했어.
+()<Speaker>남자</Speaker>||:그런데 익사?! 이렇게 얕은 물에 어떻게 익사할 수 있어?
+()<Speaker>남자</Speaker>||:그러니 로렌스는 살해당한 게 분명해. 그리고 여기서 그와 원한이 있는 사람은 에비타뿐이라고.
+()<Speaker>지휘관</Speaker>||:근데 어떻게 확신하지? 직접 봤나?
+()<Speaker>남자</Speaker>||:그건 아닌데…
+()<Speaker>남자</Speaker>||:하지만 그 여자 말고 누가 그런 짓을 하겠어? 모두들 로렌스를 좋게 보진 않았어도 굳이 다른 사람의 돈줄을 끊을 필요는 없잖아.
+()<Speaker>남자</Speaker>||:하지만 에비타는 달라. 로렌스가 꿀꺽한 건 그녀의 돈이었거든! 듣자하니 그녀는 최근에 여기로 기구들을 기부할 생각을 하고 있었대.
+()<Speaker>남자</Speaker>||:2주 전에 에비타가 왔을 때, 탁자가 다 뒤집힐 정도로 시끄러웠다니까. 진료소로 가서 물어봐. 다들 알고 있을 테니까.
+()<Speaker>지휘관</Speaker>||:당연히 가서 확인해 볼 거야. 그런데 방금 말한 건 어떻게 알았지?
+()<Speaker>남자</Speaker>||:저, 그게...
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:지휘관은 손에 들고 있던 막대기를 바닥에 힘껏 꽂았다. 흙이 푹신해서인지 막대기는 0.5m 깊이로 박혀버렸다.
+()<Speaker>남자</Speaker>||:말할게 말할게, 때리지 마.
+()<Speaker>남자</Speaker>||:로렌스가 이득을 챙기려면 어쨌든 조력자가 필요하잖아. 나도... 헤헤, 좀 도와줬었지.
+()<Speaker>남자</Speaker>||:겨우 심부름값 좀 받았을 뿐이야. 대부분은 로렌스가 가져갔어. 내가 아는 건 다 말했어, 그러니까 이만...
+()<Speaker>지휘관</Speaker>||:가 봐, 입단속 잘하고.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>RunStep</SE1>:남자는 재빨리 일어나 지휘관을 향해 웃음짓고는, 맞을 때 벗겨진 신발도 챙기지 않은 채 등을 돌려 달아났다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:에비타... 2주 전?
+()||<黑点1>:

@@ -1,188 +1,188 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<睁眼><BGM>BGM_TK_face</BGM><BIN>2</BIN><Night><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=2%%duration=0%%</bg_move><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:不知过了多久，指挥官在岸边醒来。
+()<Speaker></Speaker>||:얼마 후, 지휘관은 의식을 되찾았다.
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.45%%pivot_y=0.5%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.1</CGDelay>:
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.55%%pivot_y=0.5%%scale=2%%duration=0.7%%</bg_move><CGDelay>0.4</CGDelay>:
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=1%%</bg_move><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||:眼前是昏迷的卡萝和米蒂尔，白烨戈和箱子已经不见踪影。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:醒醒，醒醒。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:嗯？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker><Shake>||:呃……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:摇醒了两人，确认她们没事，指挥官松了口气，拿出水壶想递给她们；犹豫了一下，还是从包里翻出两瓶没有开封过的瓶装水递了过去。
-()<Speaker>指挥官</Speaker>||:喝点水。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:怎么回事……白烨戈？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:别提那个女人。
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><CGDelay>0.5</CGDelay>:指挥官带着水壶走到河边，把里面的水全都倒掉，用河水仔细清洗。
-()<Speaker>指挥官</Speaker>||:白烨戈是多斯的人，箱子被他们带走了。
-()<Speaker>指挥官</Speaker>||:看天色，我们至少昏迷了一小时。整理背包，把开封过的食品和水都扔掉，我们追过去。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:不要浪费啊……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:一个小时，这种开过封的东西，谁能保证里面有没有毒？
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这里只有我们几个。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:那之前的白烨戈呢？
+()<Speaker></Speaker>||:눈을 떠 보니, 미동도 않는 쿠로와 미틸은 보였지만 벨루가와 상자는 온데간데없었다.
+()<Speaker>지휘관</Speaker>||<SE1>ClothingUp</SE1>:일어나, 얼른.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position><Shake>||:응...?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker><Shake>||:우우웅...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:두 사람 모두 무사함을 확인하고 안도한 지휘관은 수통을 건네려다, 잠깐 망설이고는 가방에서 열지 않은 생수 2병을 꺼내 건넸다.
+()<Speaker>지휘관</Speaker>||:물 좀 마셔.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:어떻게 된... 벨루가는?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:그 자식 얘기 이젠 꺼내지도 마...
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><CGDelay>0.5</CGDelay>:지휘관은 강가로 가 수통의 물을 버리고 씻었다.
+()<Speaker>지휘관</Speaker>||:안토니오 패밀리랑 한패였어. 상자도 놈들이 가져갔고.
+()<Speaker>지휘관</Speaker>||:하늘을 봐선 최소한 1시간은 혼수 상태였던 거 같아. 정리하고 쫓아가자, 개봉한 음식과 물 전부 버리고.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:뭐? 아까운데...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:기절한 1시간 사이에 독이 들어갔을지 누가 알아?
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그치만 여긴 우리밖에 ――
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:벨루가는?
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔沉默了，叹着气，从包里找出东西来丢掉。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1><CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:卡萝将一包开封了的饼干砸到地上，用力踩了一脚，泄愤似的把它碾碎了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<BGM>BGM_carmona</BGM>:算了吧。
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:我说算了吧，这个任务。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:多斯、不知来路的特种兵、什么都不说的委托人，还有随时可能从身后射来的子弹……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:我放弃这个任务。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你别冲动，会有办法的。我去找车，我们追上去。
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:卡萝已经收拾好了她本就不大的挎包，向后一甩搭在身上，站了起来。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你们呢？是去追箱子，还是跟我一起走？我们可以组队去接新的委托……
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:现在脱身恐怕已经晚了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:箱子已经没了，现在放弃任务，顶多信誉受损。大不了改名换姓从头再来。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:暗区每天要死那么多人，没人会记得我们……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:距离约定的时间还有18小时，还有机会——
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>可我不想了！</size>
-()<Speaker></Speaker>||:卡萝突然的大声惊了米蒂尔一跳。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我问你，你知道箱子里是什么，委托人是谁，自己为什么要送这个箱子吗？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:卡萝……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:不知道。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:为了那些只会躲在高楼大厦里，远远操控一切的大人物。值得吗？
-()<Speaker></Speaker>||:米蒂尔蹲在地上眼巴巴地看着她，像是有话想说又不敢；指挥官没有抬头，手底下继续收拾着东西，假装自己很忙。
-()<Speaker></Speaker>||:没人回应，也不知如何回应。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我走了。
-()<Speaker>指挥官</Speaker>||:保重。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:等等！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔从包中掏出3枚手榴弹，几个医疗包塞到卡萝手里。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这3个进攻手榴弹你拿好，爆炸时没有碎片，不会伤到自己。医疗包也是，别嫌重就不背在身上。你这么不管不顾不找掩体的性格……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……照顾好自己。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔停下了依依不舍的嘱托，卡萝接过东西走了两步，又冲回来紧紧抱了抱米蒂尔，与指挥官点头示意。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:保重！
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:卡萝一个人离开了，河岸边只剩下了米蒂尔和指挥官。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你为什么不拦着她？
-()<Speaker>指挥官</Speaker>||:因为她说的对。
-()<Speaker></Speaker>||:指挥官停下了手上的动作，直起身看着米蒂尔。
-()<Speaker>指挥官</Speaker>||:你呢，你为什么留下？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我……我也不知道。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔抱住了膝盖。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我只是喜欢我们四……我们三个在一起的感觉；我不喜欢一个人。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:为什么突然就变成这样了？
-()<Speaker>指挥官</Speaker>||:打起精神来，我们先去找辆车……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:指挥官带着米蒂尔朝不远处的密林走去。
-()<Speaker>指挥官</Speaker>||:现在还不算最糟的情况。
-NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<SE1>Select</SE1>:说的没错。
-()<Speaker>指挥官&米蒂尔</Speaker>||:！
-NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<BGM>GF_22W_BGM_1</BGM>:现在才是。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:一群身穿统一制服的特种兵围了上来，形容整肃，为首的是一个黑色长发的女人。
-()<Speaker>指挥官</Speaker>||:这一天被枪指着脑袋的次数比我之前一年都要多。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官双手举起，无奈地转过身来。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:할 말이 없어진 미틸은 아까워하며 가방에서 음식물을 꺼내 버렸다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1><CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:쿠로는 먹다 만 비스킷 한 봉지를 바닥에 홱 내팽개치고는 화풀이하듯 마구 짓밟았다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<BGM>BGM_carmona</BGM>:관두자.
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:응?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:관두자고, 이딴 임무.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:몰라도 된다고 암말도 안 하는 의뢰인만으로도 골때리는데, 이젠 안토니오 패밀리에, 어디의 뉘신지도 모를 특전대까지 덤벼들어? 언제 어디서 뒤통수에 총 맞아도 안 이상하겠네.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:아 몰라, 나 이 일 관둘래.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:진정해 쿠로, 방법이 있을 거야! 내가 차를 찾아볼게, 그거 타고 쫓아가자.
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:쿠로가 자신의 아담한 가방을 챙기고 일어섰다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:레알? 그냥 너희도 포기하고 나랑 같이 가지? 솔직히 우리 팀워크 착착 맞으니까 팀 짜서 다른 의뢰 받으면 그만 아니야?
+NPC-MDR_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:이제 와서 발을 빼기엔 너무 늦었지.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:제일 중요한 상자를 빼앗겼는데 어쩌라고. 지금 임무 포기하면 신용 쬐끔 깎이고 끝이야. 뭣하면 이름도 바꾸고 처음부터 다시 시작하면 돼.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:매일같이 사람들이 파리처럼 픽픽 죽어나는 다크존에서 이름이랑 얼굴 기억하는 사람이 얼마나 된다고...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:약속 시간까지 악 18시간은 남았어, 아직 기회가――
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:싫다니까!
+()<Speaker></Speaker>||:쿠로가 갑자기 버럭 소리질렀다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:상자 안에 뭐가 들었지? 의뢰인은 누구고? 우리가 왜 목숨 걸고 그 상자를 배달해야 하는지 알기는 해?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쿠로...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:모르잖아.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:저 밖의 마천루에 숨어서 편하게 명령밖에 할 줄 모르는 윗대가리들 말을 고분고분 따를 가치가 있는지도 모르겠네.
+()<Speaker></Speaker>||:미틸은 하고 싶은 말이 있는 표정이었지만 바닥에 웅크리고 앉았고, 짐을 정리하는 지휘관도 고개를 들지 않았다.
+()<Speaker></Speaker>||:모두 무슨 말을 해야 할지 몰랐다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:나 간다, 아디오스.
+()<Speaker>지휘관</Speaker>||:그래... 몸조심해.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쿠로! 잠깐만!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:미틸이 가방에서 수류탄과 의료 키트 몇 개를 꺼내 쿠로의 손에 쥐여 주었다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:이거 가져가. 파편 안 튀는 거니까 혹시 가까이서 터져도 크게 다치진 않을 거야. 그리고 의료 키트 무겁다고 버리지 마, 너 엄폐 잘 안 하니까...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:......잘 지내야 해.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:쿠로는 마지못해 물건을 받고 떠나려다, 냅다 다시 달려와선 미틸을 꼭 껴안고 지휘관에게도 고개를 끄덕였다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:살아서 또 보자구 아미고스!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:그렇게 쿠로는 혼자 떠났고, 강기슭엔 지휘관과 미틸만 남았다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:...왜 안 막았어?
+()<Speaker>지휘관</Speaker>||:틀린 말도 아니니까.
+()<Speaker></Speaker>||:지휘관은 손을 멈추고 일어나 미틸을 바라보았다.
+()<Speaker>지휘관</Speaker>||:그러는 너는? 너는 왜 남았어?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:...모르겠어.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:미틸은 무릎을 끌어안았다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:난 그냥 우리 넷이... 아니, 우리 셋이 함께인 게 좋았어. 혼자는 싫어.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그런데... 왜 갑자기 일이 이렇게 된 거지?
+()<Speaker>지휘관</Speaker>||:정신 차려. 일단 차를 찾아보자.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:지휘관은 미틸과 함께 멀지 않은 숲을 향해 걸어갔다.
+()<Speaker>지휘관</Speaker>||:아직 최악의 상황은 아니야.
+NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<SE1>Select</SE1>:맞아.
+()<Speaker>지휘관 & 미틸</Speaker>||:?!
+NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<BGM>GF_22W_BGM_1</BGM>:지금이 최악이지.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:하지만 숲으로 들어가기 직전, 배에서 보았던 특전대와 검은 장발의 여성이 그들을 가로막았다.
+()<Speaker>지휘관</Speaker>||:...정말 무슨 날인가? 작년 내내 본 총구보다 오늘 들이밀어진 게 더 많네.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 손을 들고 천천히 돌아섰다.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><Night><BIN>2</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:是你？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker><GradientShow>2</GradientShow>||<CGDelay>0.5</CGDelay>:
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:？你知道我是谁？
-()<Speaker>指挥官</Speaker>||:不，不……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官打量着眼前的一行人，尤其是为首的女人，她的手臂上，一个章鱼的标志格外瞩目。
-()<Speaker>指挥官</Speaker>||:黑金……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你们是之前在码头和船上袭击我们的特种兵！
-()<Speaker></Speaker>||:米蒂尔已经认出了那把标志性的改装枪。
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:交出箱子，可以放你们一命。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:主动暴露此前遮掩了一路的身份，难道不是已经打算灭口了吗？
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:本来是这样打算的，但箱子不在这。
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:说出箱子在哪儿，让我们省点力气，我也无意为难你们。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你能保证？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:黑卡蒂说到做到。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<震屏3>:黑卡蒂……是黑金的深渊小队！
-()<Speaker></Speaker>||:被女人的名字和眼前这群人的身份惊到，米蒂尔忍不住惊呼出声。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:卡萝确实说的对……这不是一个好差事……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:考虑得怎么样了？我没有很多时间。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:如你所见，箱子不在我们手上。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:3。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:我们被人骗了，箱子被偷走了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:2。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:真的不在！
+()<Speaker>지휘관</Speaker>||:너였군...
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker><GradientShow>2</GradientShow>||<CGDelay>0.5</CGDelay>:
+NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:날 알아?
+()<Speaker>지휘관</Speaker>||:아니, 딱히.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:저 특전대와, 특히 대장으로 보이는 여성의 팔뚝에 새겨진 문어 모양 마크가 지휘관의 눈에 띄었다.
+()<Speaker>지휘관</Speaker>||:블랙골드...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:당신들이 부두와 배에서 우릴 공격한 특전대구나!
+()<Speaker></Speaker>||:미틸이 그 개조된 총을 바로 알아보았다.
+NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:상자를 넘겨. 그럼 목숨만은 살려 주지.
+NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:그동안 숨기고 다니던 신분을 드러냈는데 그럴 생각 없다는 거 아닌가?
+NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:맞아, 그럴 생각 없었어. 그런데 상자가 없네?
+NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:그러니까, 얌전히 놓아줄 테니 상자가 어딨는지 말해. 서로 괜히 힘 빼지 말자고.
+NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:뭘 믿고?
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:이 헤카테의 약속이니까.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<震屏3>:헤카테... 헉! 블랙골드 특공대의 어비스 분대!
+()<Speaker></Speaker>||:여자의 정체와 이름을 들은 미틸이 놀라 비명을 질렀다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쿠로 말이 맞았어... 진짜 골칫덩이 상자였어...
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:어떡할래? 나 바쁜 몸이야.
+NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:보다시피, 상자는 지금 우리한테 없어.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:3...
+NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:우리도 속아서 도둑맞았다고.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:2...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:정말 없어!
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_weapon_reload</SE1>:
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:1。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:在多斯那里！
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:多斯？
-()<Speaker>指挥官</Speaker>||:是的，我想你已经知道了，我们原本只有三个人，但是在船上，第四人加入了我们。
-()<Speaker>指挥官</Speaker>||:她自称为白烨戈，骗取我们的信任后，在刚刚，带着多斯的人抢走了箱子。
-()<Speaker>指挥官</Speaker>||:所以，你的敌人现在是多斯，不是我们。
-()<Speaker></Speaker>||:面对周围指着自己的枪，指挥官想办法拖延着时间，分散着黑卡蒂和深渊小队的注意力。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:那第三个人呢？
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:如何证明你们说的是真的，而不是她们两个一起转移了东西。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:因为，因为……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:呵。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面对无法自证的两人，黑卡蒂示意旁边的手下，先处理掉米蒂尔。
-()<Speaker>指挥官</Speaker>||:等等！箱子确实不在多斯那里。
-()<Speaker>指挥官</Speaker>||:想知道在哪儿，就把枪放下，你说过会保证我们的安全。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<BGM>BGM_Empty</BGM>:刚刚你们已经拒绝了这笔交易。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.5</CGDelay>:一个黑金队员向前一步，枪口对准了米蒂尔的头，米蒂尔闭上了眼睛。
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:“轰！！！——”
-()<Speaker></Speaker>||<BGM>BGM_arenabreakout_battle2</BGM>:巨大的爆炸声响从不远的树林后传来，而后又是一声……
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:“轰！！！——”
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:停。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂叫停了准备射杀米蒂尔的手下，示意三个人去探查树林的情况。
-()<Speaker></Speaker>||:围着米蒂尔和指挥官的只剩下包括黑卡蒂在内的4个人。
-()<Speaker></Speaker>||:指挥官偏头看向米蒂尔，两人对视，都在对方眼中看到了一丝隐秘的惊喜。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:<size=25>是进攻式……</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔用眼神向左侧的山坡示意，指挥官微微点头。
-()<Speaker></Speaker>||:探查的三人已经走远，但在反方向，树林中突兀地冒起了烟雾弹的白烟，吸引了大家的视线。
-()<Speaker>指挥官</Speaker>||:现在！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Punch_Hit</SE1><震屏3>:指挥官与米蒂尔突然行动，撞开身前的黑金队员。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:黑金的子弹偏移，倾洒到了地上；
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:1...
+NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:도스한테 있어!
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:...도스? 도스 안토니오?
+()<Speaker>지휘관</Speaker>||:그래, 우린 원래 3명이었는데 배에서 네 번째 멤버를 받았거든.
+()<Speaker>지휘관</Speaker>||:"벨루가"라는 녀석이 우릴 속여서 기절시키고 안토니오 패밀리와 함께 상자를 가져갔어.
+()<Speaker>지휘관</Speaker>||:네가 쫓아야 할 건 안토니오 패밀리야, 우리가 아니라.
+()<Speaker></Speaker>||:지휘관은 시간을 끌며 헤카테와 어비스 분대의 주의를 돌렸다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:그럼, 나머지 한 명은 어딨지?
+NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:......
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:지금 봐서는 말이야, 그 둘이 상자를 숨긴 것처럼 보이거든... 어떻게 설명할래?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그, 그건...
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:흥.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:증명할 길이 없는 둘에게 콧방귀를 뀌고, 헤카테는 옆의 부하에게 미틸부터 처리하라고 턱짓했다.
+()<Speaker>지휘관</Speaker>||:잠깐! 아직 상자가 도스의 수중에 떨어진 건 아니야.
+()<Speaker>지휘관</Speaker>||:지금 어딨는지 알고 싶다면 그 총 내려놔, 우리의 안전을 보장한다며.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||<BGM>BGM_Empty</BGM>:너희가 먼저 거래를 거절했어. 처리해.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.5</CGDelay>:지시를 받은 블랙골드 대원은 성큼성큼 다가와 머리에 총구를 겨눠, 미틸은 눈을 질끈 감았다.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:퍼엉!
+()<Speaker></Speaker>||<BGM>BGM_arenabreakout_battle2</BGM>:그때, 가까운 숲속에서 큰 폭발이 일어났다.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:퍼엉!
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:멈춰.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:헤카테가 방아쇠를 당기려던 부하를 제지하곤 다른 대원 3명에게 숲으로 정찰을 지시했다.
+()<Speaker></Speaker>||:이제 지휘관과 미틸을 포위한 사람은, 헤카테를 포함해 4명.
+()<Speaker></Speaker>||:지휘관과 미틸의 눈이 마주쳤다. 둘 다 놀란 눈치였다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:<size=25>저 공격 방식은...</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:미틸이 왼쪽 언덕을 향해 눈짓했고, 지휘관은 의도를 이해하고 고개를 끄덕였다.
+()<Speaker></Speaker>||:수색하는 3명이 점점 거리가 멀어지자, 반대편의 숲에서 돌연 흰 연막이 피어올라 눈길을 끌었다.
+()<Speaker>지휘관</Speaker>||:지금이다!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Punch_Hit</SE1><震屏3>:지휘관과 미틸이 갑자기 움직여 앞의 블랙골드 대원을 들이받았다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:놈의 총구가 흔들려 총알이 바닥에 박혔다.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_The_Division_Burning_Stick</SE1><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:
-()<Speaker></Speaker>||:与此同时另一枚烟雾弹落在几人中间，模糊了大家的视线。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:停止射击，脱离烟雾。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:几个人的站位过近，为了避免误伤，白雾中的黑金停止了盲目的攻击，移动脱离视线盲区。
-()<Speaker></Speaker>||:与此同时，指挥官与米蒂尔已经冲向了左侧山坡。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<SE1>Select</SE1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:동시에 또 다른 연막탄이 날아와 더욱 시야를 방해했다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:사격 중지, 연막에서 벗어나.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:서로 너무 가까워지자, 블랙골드 특전대는 오사를 피하고자 공격을 멈추고 시야를 가리는 연막에서 벗어나려 움직였다.
+()<Speaker></Speaker>||:그때 지휘관과 미틸은 이미 왼쪽 언덕을 향해 내달리는 중이었다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||<SE1>Select</SE1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:黑卡蒂抬枪，没有刻意瞄准，子弹准确地扫向指挥官脚下的地面，逼迫两人就近寻找掩体，停止了奔逃。
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:헤카테가 제대로 조준도 않고 쏜 총탄이 맹렬하게 발치를 뒤쫓아오는 걸 아슬아슬하게 피하면서, 지휘관과 미틸은 가까운 엄폐물에 숨었다.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><Night><BIN>1</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:还好吗？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可以，但是包没带过来，身上的弹药不多了。
-()<Speaker></Speaker>||:指挥官靠在一棵树后，与旁边巨石后的米蒂尔确认着情况。
-()<Speaker>指挥官</Speaker>||:有投掷物吗？
+()<Speaker>지휘관</Speaker>||:괜찮아?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:응, 하지만 가방을 못 챙겨서 지금 탄약이 얼마 없어.
+()<Speaker></Speaker>||:나무 뒤에 숨은 지휘관과 커다란 바위 뒤에 숨은 미틸을 우선 현재 상황을 파악했다.
+()<Speaker>지휘관</Speaker>||:던질 만한 건?
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:2颗手雷，2枚烟雾弹。
-()<Speaker>指挥官</Speaker>||:够了。他们不敢强攻，毕竟要留活口。
-()<Speaker>指挥官</Speaker>||:5米外就是密林，只要成功进去，就有机会甩脱他们。
-()<Speaker></Speaker>||:“不咕~”、“不咕~”，突兀的鸟叫声从密林处传来。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……一点都不像好吧。
-()<Speaker>指挥官</Speaker>||:做好准备。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:黑金的人举枪缓步朝两人压了过来，距离越来越近，米蒂尔拔出了手榴弹的栓子。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“呯——”，最前面的黑金队员中枪倒下了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:树林！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_The_Division_Grenade</SE1>:这声枪响就像行动的信号，米蒂尔卡着时间将手榴弹扔了出去，两人猛然起跑，跑向刚才“布谷鸟”叫的方向。
-()<Speaker></Speaker>||:黑卡蒂瞄向指挥官扣动扳机——
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:수류탄이랑 연막탄 각각 2개씩.
+()<Speaker>지휘관</Speaker>||:없는 것보단 낫네. 저쪽도 우리를 생포할 생각이니 강하게 공격해 오진 않을 거야.
+()<Speaker>지휘관</Speaker>||:5m만 더 가면 숲이야, 안으로 들어가기만 하면 놈들을 따돌릴 수 있어.
+()<Speaker></Speaker>||:그때, 숲속에서 어설픈 "뻐꾹~ 뻐꾹" 소리가 들려왔다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:...흉내 진짜 못 낸다.
+()<Speaker>지휘관</Speaker>||:준비해.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:블랙골드 대원들이 총을 견착하고 천천히 둘이 숨은 곳을 향해 다가왔고, 적당히 가까워졌을 때 미틸이 수류탄의 안전핀을 뽑았다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:그리고 메아리치는 총성과 함께, 가장 앞의 블랙골드 대원 한 명이 픽 쓰러졌다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:숲이다!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_The_Division_Grenade</SE1>:마치 작전 시작을 알리는 신호처럼 터진 총성에 미틸이 수류탄을 던졌고, 두 사람은 그대로 "뻐꾸기" 소리가 난 반향으로 내달렸다.
+()<Speaker></Speaker>||:헤카테가 지휘관을 겨냥해 방아쇠를 당겼다.
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.3</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_Bullet_Hit_Body</SE1>:第一发落空，另一发精准地击中指挥官左侧小腿。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官小腿中枪后一个踉跄，脚下一缓，眼见就要成为靶子；
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:米蒂尔停下，转身朝黑金的追兵扫射，黑金被迫寻找掩体，为指挥官赢得片刻喘息。
-()<Speaker>指挥官</Speaker>||:走！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:一起！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔打空了弹夹，伸手去拉指挥官，被短暂压制的黑金又已经瞄准了两人。
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:“呯——”从树林中掷出的手榴弹又阻了黑金两秒。
-()<Speaker></Speaker>||:卡萝忍不住从密林中露头催促。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:快点！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你的腿？
-()<Speaker>指挥官</Speaker>||:没事。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_Bullet_Hit_Body</SE1>:첫발째는 빗나갔지만 두발째가 지휘관의 왼쪽 종아리에 정확하게 명중했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:피격당한 지휘관이 비틀거려 넘어질 것 같았다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:미틸은 즉각 멈춰 서서 추격해 오는 블랙골드의 추격병들을 향해 총을 난사해 그들을 엄폐하게 만들었다.
+()<Speaker>지휘관</Speaker>||:가자!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:응!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:탄창 하나를 다 비운 미틸이 손을 뻗어 지휘관을 잡아당긴 그때, 엄폐했던 블랙골드 대원 2명이 튀어나와 다시 두 사람을 겨냥했다.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:하지만 타이밍 좋게 숲에서 던져진 수류탄이 2초 정도 더 시간을 벌어 주었고...
+()<Speaker></Speaker>||:쿠로가 결국 못 참고 우거진 숲속에서 머리를 불쑥 내밀었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:아 빨랑 좀 와!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:다리는 어때?
+()<Speaker>지휘관</Speaker>||:괜찮아.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:那发本应打断指挥官左腿的子弹似乎并没有造成严重的影响，指挥官稳住身体后重新与米蒂尔朝密林奔去。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:嗯？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:这边，跟我来，我找到了一辆车！
-()<Speaker></Speaker>||:夜色中的密林追击难度大，黑金投鼠忌器，不敢使用手榴弹等投掷物怕将三人全部杀死。
-()<Speaker></Speaker>||:很快，三人便找到卡萝提前准备好的车子。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:원래 다리가 부러져도 안 이상한데 왜인지 부상이 심하지 않아, 지휘관은 바로 몸을 추스르곤 미틸과 함께 숲으로 들어갔다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:흐음?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:이쪽! 내가 차 찾았어!
+()<Speaker></Speaker>||:어둡기까지 한 밀림에서 추격자들의 속도가 느려졌다. 그리고 세 사람 모두 죽여버릴 수도 있어선지, 저들은 수류탄 등의 투척물을 쓸 생각이 없는 듯했다.
+()<Speaker></Speaker>||:덕분에 셋은 쿠로가 미리 준비한 차를 금방 찾을 수 있었다.
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_20Winter_Door_Car_Open</SE1>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:都坐稳了吗？准备好，发射！
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:안전벨트 맸지? 간다!
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>AVG_engine_speedup</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:三人疾驰而去。黑金的人没有车，在后面徒劳地开了几枪，没有射中。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:停。
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:차량이 질주했다. 간신히 뒤쫓아 온 어비스 분대가 뒤로 몇 발 사격했지만, 맞히지는 못했다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:정지.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><回忆><BIN>1</BIN><Night><CGDelay>0.5</CGDelay>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你的腿？
-()<Speaker>指挥官</Speaker>||:没事。
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:다리는 어때?
+()<Speaker>지휘관</Speaker>||:괜찮아.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<Night><BIN>1</BIN><黑屏2>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:黑卡蒂回到之前射中指挥官左腿的地方，草丛中没有一滴鲜血。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:难道是你？
-()||<黑点1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:헤카테가 추격하던 자의 왼다리를 맞힌 곳으로 돌아와 보니, 어째선지 풀숲에는 피 한 방울 없었다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:설마... 너인가?
+()||<黑点1>:

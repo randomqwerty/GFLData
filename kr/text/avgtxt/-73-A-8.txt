@@ -1,165 +1,165 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1><CGDelay>0.5</CGDelay><BIN>797</BIN><黑屏2>:
-()<Speaker></Speaker>||:货船平稳地行驶在这条连接马尔洛斯与矿区的运河上，平缓的水流和皎洁的月色，昭示着这是一个不错的好天气。
-()<Speaker></Speaker>||:卡萝留在货舱守着箱子，米蒂尔去探查船舱地形，指挥官一个人来到了甲板上。
-()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM>:船楼、桅桁、救生船……指挥官仔细探查着甲板的地形。
-NPC-M16_AB(0)<Speaker>？？？</Speaker><GradientShow>2</GradientShow>||:你的踩点会不会太直白了些？
-()<Speaker></Speaker>||:围栏边倚靠着一个身穿西服的少女，姿态放松，与暗区紧绷的氛围格格不入。
-()<Speaker></Speaker>||:指挥官假装没有听到，似乎是被船头水面上的粼粼月色吸引了，余光悄悄打量着少女藏在身后的右手，观察是否有藏着武器的可能。
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:除了我们，这里还有其他人吗？
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你是在喊我？抱歉，我以为自己听错了。
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:你的演技真是一如既往的拙劣。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:一如既往？……我们以前认识吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官假装放松地靠在了旁边的围栏上，小心地和少女保持了一米的距离，中间隔着粗壮的船墩，像是有备无患的掩体。
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:……这是我第一次在暗区见到你。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:听上去你还在其他地方见过我？
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:没，不用在意。你是谁？
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:这个问题是不是有些冒昧了？我以为这条船上的乘客都应该心知肚明，不要打探彼此的身份。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在指挥官紧张的注视下，神秘少女从身后伸出了藏着的右手。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:认识一下，白烨戈。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:一个……特遣队员。
-()<Speaker>指挥官</Speaker>||:……你还真是不按常理出牌。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:把手在裤子上擦了擦，指挥官准备与突然出现的神秘少女握手，对方却突然把手缩了回去。
-()<Speaker>指挥官</Speaker>||:？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<BGM>BGM_Empty</BGM>:有人。
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:指挥官顺着少女的目光望去，运河两岸原本黑沉沉的树林深处，似乎亮起了隐约的车灯。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:我不想浪费时间，船上有些不该在这里的东西。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面上不动声色，指挥官下意识地双手环抱在胸前，矢口否认。 
-()<Speaker>指挥官</Speaker>||:你说什么？我听不懂——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:“咣——”
-()<Speaker>指挥官</Speaker>||:！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>GF_21summer_battle_3</BGM>:一个衣衫褴褛的男子光着脚，踉跄地从船舱中冲了出来，去势太快，猛地撞上了甲板上堆积的杂物。
-()<Speaker>船长</Speaker>||:把他给我抓回来！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:伴随着船长愤怒的咆哮，三五个船员跟着追了上来，很快便锁定了目标。
-()<Speaker>指挥官</Speaker>||:……这是？
-NPC-PasserbyM(0)<Speaker>男人</Speaker><Shake>||<SE1>AVG_Punch</SE1><震屏3>:让让！
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:逃跑的男人直接朝最近的栏杆扑来，一个翻身爬了上去，作势就要往河里跳。
-()<Speaker>指挥官</Speaker>||:欸！危险！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:就在近旁，指挥官一把抱住了男人把他往后拉，但对方依旧不管不顾地想要跳下船去。
-()<Speaker></Speaker>||:白烨戈双手抱臂站在一旁，静静地看着眼前的这出闹剧。
-()<Speaker>指挥官</Speaker>||:夜里跳河，不要命了吗！
-()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:跳河的男人被指挥官拦住，几个船员趁机追上，四手八脚地把男人按在了地上。
-NPC-PasserbyM(0)<Speaker>男人</Speaker><Shake>||:放开我！放开！
+()<Speaker></Speaker>||:화창한 날씨를 나타내는 밝은 달빛을 받으며, 화물선은 마룰로스와 광산을 잇는 운하를 순조롭게 나아가고 있었다.
+()<Speaker></Speaker>||:쿠로는 선실에 남아 상자를 지키고, 미틸은 화물선 내부의 구조를, 지휘관은 갑판을 조사하기로 했다.
+()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM>:선루부터 마스트, 구명 보트까지. 지휘관은 갑판 위의 구조를 낱낱이 파악해 나갔다.
+NPC-M16_AB(0)<Speaker>？？？</Speaker><GradientShow>2</GradientShow>||:지형 파악하는 티가 너무 나는데?
+()<Speaker></Speaker>||:난간에 기댄 정장 차림의 소녀는 너무나도 여유로운 분위기여서, 찰나에 생사가 오가는 다크존과 전혀 어울리지 않아 보였다.
+()<Speaker></Speaker>||:하지만 지휘관은 목소리를 들은 척도 않고, 눈길이 수면에 비친 달빛에 이끌린 척 뒤로 숨겨진 소녀의 오른손부터 흘깃 확인했다.
+NPC-M16_AB(0)<Speaker>？？？</Speaker>||:여기에 우리 말고 아무도 없는데.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:아, 나한테 말하는 거였어?
+NPC-M16_AB(0)<Speaker>？？？</Speaker>||:여전히 연기 참 못하는구만.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:"여전히"라니, 우리 언제 만난 적 있던가?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관도 한껏 여유로운 척 소녀와 1m 거리를 유지하며 난간에 기댔고, 그 사이에 여차하면 계선주를 엄폐물로 쓸 계획까지 세웠다.
+NPC-M16_AB(0)<Speaker>？？？</Speaker>||:다크존에서는 처음 보는 거긴 해.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:그럼 어디서 만나봤는데?
+NPC-M16_AB(0)<Speaker>？？？</Speaker>||:뭐, 신경 쓸 것 없어. 넌 누구지?
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:이 배의 승객들은 서로에 대해서 묻지 않는 게 예의다만.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 잔뜩 경계하는 가운데, 저 신비스러운 소녀가 뒤로 가렸던 오른손을 내보였다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:"벨루가"다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:너와 같은... 대원이지.
+()<Speaker>지휘관</Speaker>||:...자기 패는 절대 안 보여 줄 셈이군.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:소녀가 손을 내밀어 지휘관도 바지에 손바닥을 닦고 악수하려던 그때, 소녀가 갑자기 손을 거뒀다.
+()<Speaker>지휘관</Speaker>||:?
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||<BGM>BGM_Empty</BGM>:누가 있어.
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:그녀의 시선을 따라간 지휘관은 운하 양쪽의 어두컴컴한 숲 속에서 자동차의 불이 켜지는 것을 보았다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:시간 낭비하지 않겠어. 이 배엔 있어선 안 될 물건이 있어.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 팔짱을 끼고 시치미를 뗐다.
+()<Speaker>지휘관</Speaker>||:무슨 소린지 모르――
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:쾅!
+()<Speaker>지휘관</Speaker>||:?!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>GF_21summer_battle_3</BGM>:거적때기 같은 옷을 입은 남자가 비틀대며 갑판으로 뛰쳐나와 그대로 잡동사니에 부딪혔다.
+()<Speaker>선장</Speaker>||:잡아와!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:그리고 분노 어린 포효를 내지르는 선장과 선원 서너 명이 쫓아왔다.
+()<Speaker>지휘관</Speaker>||:무슨...?
+NPC-PasserbyM(0)<Speaker>남자</Speaker><Shake>||<SE1>AVG_Punch</SE1><震屏3>:비켜!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:도망치는 남자는 가까운 난간을 향해 달려가더니, 냅다 강으로 뛰어들려 했다.
+()<Speaker>지휘관</Speaker>||:위험해!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:지휘관이 끌어당기며 말려도 남자는 배 밖으로 몸을 던지려고 몸부림쳤다.
+()<Speaker></Speaker>||:그리고 벨루가는 마치 코미디를 보듯 이 상황을 감상했다.
+()<Speaker>지휘관</Speaker>||:한밤중에 물로 뛰어드는 건 자살 행위라고!
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:뛰어내리려던 남자가 지휘관에게 저지당한 그 기회를 선원들은 놓치지 않고 달려와 남자를 끌어냈다.
+NPC-PasserbyM(0)<Speaker>남자</Speaker><Shake>||:놔! 놓으라고!
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1>:男人拼命挣扎，三个船员险些制不住他；直到船长在他的头上愤怒地踹了两脚，才安静下来。
-()<Speaker>船长</Speaker>||:呼，把这小子押回去，给我看牢了。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:几个船员找来绳子，把男人五花大绑起来，抓着他颈后的绳结，骂骂咧咧地把他往船舱里拖。
-()<Speaker></Speaker>||:注意到男人眼里的光逐渐淡了下去，指挥官拦住了正在拖人的船员。
-()<Speaker>指挥官</Speaker>||:等等，这是怎么回事？
-()<Speaker>船长</Speaker>||:见笑了，不小心放了匹牛马跑了出来。
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1>:남자는 필사적으로 바둥댔지만 결국 머릿수에 밀려 제압당했고, 씩씩대는 선장에게 발길질을 맞고서야 조용해졌다.
+()<Speaker>선장</Speaker>||:후우... 끌고 가.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:선원들은 남자를 밧줄로 단단히 포박하고는 욕설을 내뱉으며 질질 끌고 갔다.
+()<Speaker></Speaker>||:그런데, 남자의 눈에서 빛이 점점 희미해지는 것을 알아챈 지휘관이 선원들의 앞을 가로막았다.
+()<Speaker>지휘관</Speaker>||:잠깐만요, 이게 무슨 일입니까?
+()<Speaker>선장</Speaker>||:노예야, 방심한 틈을 타서 도망쳐 나온 노예.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<回忆><common_effect>%%code=CJ_rain%%</common_effect><黑屏2><BIN>99</BIN>:
-NPC-Tony_AB(1)<Speaker>托尼</Speaker>||:原本还有其他人关在一起，但白天都被拉走了，说要到送到码头去。
+NPC-Tony_AB(1)<Speaker>토니</Speaker>||:저 말고도 같이 갇힌 사람들이 있었는데, 낮에 모두 부두로 끌려갔어요.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>797</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||<SE1>Rope</SE1>:……
-()<Speaker>指挥官</Speaker>||:您的船还做这些生意？
-()<Speaker>船长</Speaker>||:哈，走人比走货利润大，毕竟人不要本钱，你说是吧。
-()<Speaker></Speaker>||:指挥官面上僵了一下，而后抽动嘴角挤出个微笑。
-()<Speaker>指挥官</Speaker>||:你说得对。
-()<Speaker></Speaker>||:即便晴夜下的运河让人短暂得到了平静，但这里依然是卡莫纳，是暗区。
-()<Speaker>船长</Speaker>||:等下船要靠岸上货，甲板要清场，还请两位待在船舱里不要出来。这也是为了两位的安全着想。
-()<Speaker>船长</Speaker>||:毕竟，知道得越少，活得越久嘛。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:船长给手下使了个眼色，几人拖着男子进了船舱，咒骂声渐渐远得听不见了。船长朝指挥官点了点头，跟着离开了。
-()<Speaker></Speaker>||:甲板上恢复了平静，只剩下了指挥官和白烨戈两人，如果不是地面上的一抹鲜红，一切都像是没有发生过。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:怎么了？
-()<Speaker></Speaker>||:冰冷的声音打破了沉默，指挥官再次打量起这个突然出现并示好的神秘少女。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:白烨戈的手插在口袋里，披着的西服外套在不知何时刮起的夜风中猎猎飞舞。
-()<Speaker></Speaker>||:似乎从男子突然出现时，她就一直是这个姿态，没有动作，也没有说话。
-()<Speaker></Speaker>||:指挥官看了眼男子被拖走的方向，摇了摇头。
-()<Speaker>指挥官</Speaker>||:没什么。起风了，我先回去了。
+()<Speaker>지휘관</Speaker>||<SE1>Rope</SE1>:......
+()<Speaker>지휘관</Speaker>||:...당신 배에서 이런 장사도 합니까?
+()<Speaker>선장</Speaker>||:하, 물건 나르는 것보다 벌이가 짭짤한데 당연한 거 아니야? 결국은 돈이라고, 안 그래?
+()<Speaker></Speaker>||:지휘관의 얼굴이 굳어졌다가, 이내 입가를 씰룩이며 옅은 미소를 지었다.
+()<Speaker>지휘관</Speaker>||:그럼요, 결국은 다 돈이죠.
+()<Speaker></Speaker>||:맑은 밤하늘 아래의 운하는 고요했다. 하지만 이곳은 카모나. 다크존이다.
+()<Speaker>선장</Speaker>||:이따 부두에 정박해서 갑판도 청소하고 물건 더 실을 예정이니 너흰 선실 밖으로 나올 생각 마. 다 너희를 위해 하는 얘기야.
+()<Speaker>선장</Speaker>||:모르는 게 약일 때도 있는 법이지.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:선장이 눈짓하자, 선원들은 남자를 끌고 선실 아래로 사라졌다. 그들의 욕지거리도 들리지 않게 되었을 때, 선장은 지휘관에게 고개를 끄덕이고 자리에서 떠났다.
+()<Speaker></Speaker>||:다시 조용해진 갑판엔 지휘관과 벨루가만 남았다. 바닥이 피로 물든 것만 아니라면 아무 일도 없었던 듯했다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:왜 그래?
+()<Speaker></Speaker>||:차가운 목소리가 침묵을 깨, 지휘관은 갑작스레 나타나 호의를 표하는 이 신비로운 분위기의 소녀를 다시 한 번 위아래로 훑었다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:밤바람에 외투가 펄럭이는 그녀는 지금 바지 주머니에 손을 넣은 모습이 여전히 매우 여유로워 보였다.
+()<Speaker></Speaker>||:생각해 보니, 그 남자가 난데없이 나타났을 때부터 그녀는 움직이지도, 말도 하지 않은 것 같았다.
+()<Speaker></Speaker>||:지휘관은 남자가 끌려간 방향을 바라보며 천천히 고개를 저었다.
+()<Speaker>지휘관</Speaker>||:...아니, 아무것도 아니야. 바람이 차네, 먼저 들어갈게.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>88</BIN>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<BGM>GF_EV9_Intermission</BGM>:怎么这么久？
-()<Speaker></Speaker>||:回到了船舱，卡萝和米蒂尔已经等待多时。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可以走动的地方我都探查得差不多了，不少地方有船员看守，但武装不强，看上去就是艘普通的走私船。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:甲板上是什么情况？
-()<Speaker>指挥官</Speaker>||:刚刚……
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<BGM>GF_EV9_Intermission</BGM>:뭐 하다 이제 옴?
+()<Speaker></Speaker>||:선실로 돌아오니 쿠로와 미틸이 기다리고 있었다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:가볼 수 있는 곳은 다 조사했어. 선원들 감시가 삼엄하긴 하지만 무장도 거의 없는 걸로 봐선 평범한 밀수선 같아.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:갑판은 어땠어?
+()<Speaker>지휘관</Speaker>||:방금...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:什么？人？！
-()<Speaker>指挥官</Speaker>||:嗯，这艘船恐怕确实做着这种生意。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔挠了挠自己头上的丸子。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:刚刚我在船舱的最底层看到一个船员在送饭。看他的态度，十分不耐烦，可能就是送给被抓起来的人的。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你还记得在哪吗？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:记得，就在最下面靠近船尾的地方。
-()<Speaker></Speaker>||:说完这几句，三个人陷入了短暂的沉默。
-()<Speaker></Speaker>||:刚刚认识的同伴、危机四伏的旅途、突如其来的意外……
-()<Speaker></Speaker>||:可能是外面刮起了风，河水变得急了起来，船舱随着摇摇晃晃，挂在横梁上的几根钩锁碰撞出清脆的乐律。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:三个人彼此打量着，眼中带着试探，和一丝被小心隐藏的期待。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我说……要不都别装了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你们其实也看不下去对吧。
-()<Speaker></Speaker>||:米蒂尔没回答，但眼中漾出了惊喜与认同，原本因为紧张而绷紧的表情放松下来，控制不住地嘴角上扬。
-()<Speaker></Speaker>||:两个少女齐齐看向唯一没有表态的指挥官。
-()<Speaker>指挥官</Speaker>||:……是，但——
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:那就可以了！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝打断了指挥官的话，熟练地把通讯器在手中转了一圈，向上推了推自己的帽子。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:虽然我平常不喜欢多管闲事，但既然你们都想去做……喂，你这是什么表情？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我们的反应很让你意外吗？
-()<Speaker>指挥官</Speaker>||:是……不，不是！
-()<Speaker></Speaker>||:指挥官收回了差点脱口而出的话。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哼。
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我确实很意外啊。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:好久没在暗区遇到像你们这样的人了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我有点想要感谢委托人了，让我们可以聚在一起……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面对米蒂尔诚恳地看着自己的眼神，卡萝张开口却不知道说什么，只能尴尬地把通讯器又转了两圈。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:其实……
-()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:“嘭——”
-()<Speaker></Speaker>||:货船靠岸，右舷与码头产生的撞击让船舱轻微一晃。卡萝如释重负。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:船停了？
-()<Speaker>指挥官</Speaker>||:嗯，船长说要装货，让甲板上的人全部回避——
-()<Speaker></Speaker>||:指挥官突然停了下来。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:门外传来了一阵规律的脚步声，密闭的船体空间让声音放大，显得格外清晰。
-()<Speaker></Speaker>||:船舱里的三人屏住呼吸，手已经放到了枪上。
-()<Speaker></Speaker>||:“蹬、蹬；蹬、蹬…… ”脚步声规律整齐，来的不止一人。
-()<Speaker></Speaker>||:“蹬、蹬；蹬、蹬…… ”声音已经来到了门外，卡萝突然凑到了门缝上。
-()<Speaker></Speaker>||<SE1>Select</SE1>:“喀嚓”，是枪上膛的声音，门外的脚步声停了；三人提起了武器。
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:뭐? 사람?!
+()<Speaker>지휘관</Speaker>||:응, 이 배는 그런 사업도 하는 모양이야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:미틸이 자신의 경단 머리를 긁적였다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그러고 보니 아까 맨 아래층 선실로 식사를 가져가는 선원을 봤어. 아주 짜증나 죽을려 하던데, 아무래도 잡혀온 사람한테 주러 가는 거였나 보네.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:오? 정확히 어디?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:선미 쪽이었어.
+()<Speaker></Speaker>||:알아낸 바를 공유한 세 사람은 잠시 생각에 잠겼다.
+()<Speaker></Speaker>||:오늘 처음 만난 "동료", 위험천만한 "여행", 갑작스런 "사고"...
+()<Speaker></Speaker>||:바람이 크게 불었는지 물살이 순간 강해져, 선체가 흔들리면서 선실에 채워진 자물쇠가 부딪혀 메아리쳤다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:세 명은 은근한 기대감을 품은 눈으로 서로 눈치를 보다, 쿠로가 먼저 입을 열었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:있잖아... 거짓말 하기 없기다?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:솔직히, 못 참겠지?
+()<Speaker></Speaker>||:미틸이 말로 답하는 대신 격하게 고개를 끄덕였고, 잔뜩 긴장했던 표정이 풀리면서 그녀의 입꼬리도 절로 올라갔다.
+()<Speaker></Speaker>||:그리고 두 소녀는 침묵으로 일관하는 지휘관을 동시에 바라보았다.
+()<Speaker>지휘관</Speaker>||:...나도, 하지만――
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:오케이 결정!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:쿠로가 지휘관의 말을 끊곤 휴대폰을 손에서 한 바퀴 빙글 돌리면서 모자를 고쳐 썼다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:내가 어지간해선 남의 일에 끼기 싫어하는데~ 다들 하고 싶다니 어쩔 수 없네에~ ...뭐야 너 표정 왜 그래.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:말을 해 말을. 뭐 맘에 안 들어?
+()<Speaker>지휘관</Speaker>||:응? 아, 아니.
+()<Speaker></Speaker>||:지휘관이 급히 아무것도 아닌 척했다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:흐응?
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:...정말 의외다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:뭐가?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:다크존에서 너네 같은 사람 지인짜 오랜만에 봐.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:우릴 모이게 한 의뢰인한테 고마울 정도야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:자신을 바라보는 미틸의 묘한 눈빛에 쿠로가 입만 뻐끔거리다 어색하게 애꿎은 휴대폰만 두 바퀴 더 돌렸다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:사실――
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:쿠웅.
+()<Speaker></Speaker>||:화물선의 우현이 무언가와 충돌한 충격으로 선실이 조금 진동하자, 쿠로가 무거운 짐을 벗은 듯한 표정으로 화제를 돌렸다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:얼레? 배가 멈춘 거 같다?
+()<Speaker>지휘관</Speaker>||:방금 선장이 화물을 더 실으려 하니 갑판으로 나오지 말라고――
+()<Speaker></Speaker>||:지휘관이 갑자기 말을 멈췄다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:문 밖에서 발소리가 들려왔다. 밀폐된 선체 안이라 그런지 아주 선명했다.
+()<Speaker></Speaker>||:좁은 선실 안의 세 사람은 숨을 죽이고 총을 쥐었다.
+()<Speaker></Speaker>||:뚜벅뚜벅 규칙적인 저 발소리는 틀림없이 한 명만의 것이 아니었다.
+()<Speaker></Speaker>||:발소리가 문 앞까지 다다랐을 때, 쿠로는 문틈에 몸을 기댔다.
+()<Speaker></Speaker>||<SE1>Select</SE1>:그리고 들려온 장전 손잡이가 당겨지는 소리에, 세 사람은 방아쇠에 손가락을 얹었다.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker>女人</Speaker>||:怎么了？
-()<Speaker>男人</Speaker>||:没什么，听错了。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:规整的脚步声重新响起，越来越远，逐渐消失在了船舱尽头。
+()<Speaker>여자</Speaker>||:뭐야?
+()<Speaker>남자</Speaker>||:아니, 잘못 들었나 봐.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:발소리는 다시 들리기 시작해, 점점 멀어졌다.
 ()||<黑点1>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<黑点2><SE1>Stop_AVG_loop</SE1><BGM>BGM_stage13</BGM>:你吓了我一跳。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:玫瑰纹章……他们的枪托上刻印着玫瑰纹章！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<震屏3>:你在说什么？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><Position>0,-50</Position><同时置暗>||:多斯•安东尼，玫瑰是安东尼家族的族徽。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:多斯也想要这个箱子？
-()<Speaker></Speaker>||:指挥官面上露出了一丝尴尬。
-()<Speaker>指挥官</Speaker>||:不确定。事实上，前不久，我和安东尼家族发生了一点小摩擦……
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<黑点2><SE1>Stop_AVG_loop</SE1><BGM>BGM_stage13</BGM>:휘유...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:홀리 XX X... 총 개머리판에 장미 문장 있었어!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<震屏3>:장미? 그게 왜?
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><Position>0,-50</Position><同时置暗>||:안토니오 패밀리의 문장이야.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:으엑?! 그럼 뭐야, 도스 안토니오가 이 상자를 노린단 거야?
+()<Speaker></Speaker>||:지휘관의 표정이 살짝 굳어졌다.
+()<Speaker>지휘관</Speaker>||:아직은 모르지. 그런데 사실 내가 얼마 전에 안토니오 패밀리랑 좀 마찰이 있었거든...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:为了一个委托人得罪多斯？！是不是该说“不愧是你”。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:……对不住。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:我可以退出任务，不会连累大家。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:清醒一点，他们是冲着箱子来的。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯，卡萝说得没错，一个特遣队员不值得安东尼家族兴师动众。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官原本已经站了起来，此时不知道要不要重新坐回去，只能略显尴尬地去查看起了箱子。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:总之，我们要一起把箱子送到北山，谁也不能走！
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:他们人数不多，不如直接在船上做掉。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝在脖子上比了个“咔嚓”的姿势。
-()<Speaker>指挥官</Speaker>||:不行。
-()<Speaker>指挥官</Speaker>||:水面上没有退路，不知是否还有别的敌人潜伏在侧……还是退一步，任务要紧。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我同意。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……算了，这次先放过他们。
-()<Speaker></Speaker>||:不情不愿地接受了现实，卡萝把枪收了回去，开始整理自己的弹挂。
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:의뢰인 때문에 그 안토니오 패밀리를 적으로 만들었다고?! 와 나, "차암 너답다"라 해도 시원찮을 판이네 이거.
+NPC-MDR_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:...미안.
+NPC-MDR_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:모두에게 위험할지 모르니 난 이 임무에서 빠질게.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:정신 차려 이 밥팅아, 저놈들 다 상자 노리고 온 거라고.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쿠로 말이 맞아, 겨우 대원 한 명 때문에 안토니오 패밀리가 큰 병력을 동원했다고 보긴 어려워.
+()<Speaker>지휘관</Speaker>||:……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:자리에서 일어선 지휘관이 일리 있는 지적에 어색함을 무마하려고 상자를 살펴보는 척했다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:어쨌든 우린 한 배를 탔어, 노스리지까지 상자 배달해야지! 아무도 도망갈 생각 마!
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:딱 봐선 수도 적으니까, 여차하면 여기서 슥삭해 버리자구.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:쿠로가 목을 스윽 긋는 제스처를 취했다.
+()<Speaker>지휘관</Speaker>||:안 돼.
+()<Speaker>지휘관</Speaker>||:사방이 물인데 어떻게 빠져나가려고? 또 다른 적이 오지 않는다는 보장도 없어. 중요한 건 임무니 일단은 여기서 기다리자.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:맞아.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:...알았어, 그럼 일단 지켜보지 뭐.
+()<Speaker></Speaker>||:마지못해 현실을 받아들인 쿠로는 총을 내려놓고 전술 조끼를 정리했다.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.2</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>ClothingUp</SE1>:燃烧弹、弹夹……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这个给你。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哈？
-()<Speaker></Speaker>||:卡萝看着米蒂尔递给自己的医疗包和止痛药，有些诧异地张开了嘴。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你为什么一个药包都不带？喏，拿我的。
-()<Speaker></Speaker>||:似乎是第一次处理这样的情况，卡萝接过了米蒂尔的好意，却找不到地方放；弹挂里已经被她装满了弹药。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:谢谢，不过我都习惯了。没有药的话……就把敌人打趴下，从他们的身上拿！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝将药包还给了米蒂尔，挠了挠头发。
-()<Speaker>指挥官</Speaker>||:等船重新起航，我们就趁着夜深，从船尾放救生船下去，悄悄离开。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:好。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:行。……不过，我们真的就这么走了？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯，是不是还有一点时间？
-()<Speaker></Speaker>||:叹了口气，又在叹气后忍不住笑了出来。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:指挥官看着眼前这两个已经全副武装、时刻准备战斗的少女，心情复杂。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:我知道你们在想什么，我们分头行动……
-()||<黑点1>:
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>ClothingUp</SE1>:소이탄 있고, 여분 탄창 충분하고...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:이거 받아.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:읭?
+()<Speaker></Speaker>||:미틸이 건넨 의료 키트와 진통제에 쿠로의 눈이 휘둥그레졌다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:왜 약이 하나도 없어? 자, 내 거 줄게.
+()<Speaker></Speaker>||:미틸에게 받는 이런 호의가 처음인지 쿠로가 꽤 들뜬 표정을 지었지만, 그녀의 전술 조끼는 이미 탄약으로 한가득이라 넣을 곳이 없었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:어... 고맙지만 됐어. 약 필요하면 쓰러뜨린 놈 거 훔쳐서 쓰면 되걸랑.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:쿠로는 머리를 긁적이며 미틸에게 의료용품을 돌려주었다.
+()<Speaker>지휘관</Speaker>||:배가 다시 움직이면, 밤을 틈타서 선미의 구명 보트를 타고 조용히 떠나자.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:응!
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:오케이~ 근데, 진짜로 이대로 그냥 갈 거야?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:어... 아직 시간 좀 있지?
+()<Speaker></Speaker>||:지휘관은 긴 한숨을 푹 내쉬곤 피식 웃었다.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:조용히 떠나자 했더니 일찌감치 무장하고 전투를 준비하는 두 소녀의 모습을 보고 나온 헛웃음이었다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:어휴... 하는 수 없지.
+()||<黑点1>:

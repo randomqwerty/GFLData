@@ -1,139 +1,139 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<Night><BIN>2</BIN><BGM>BGM_TK_loading</BGM>黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:应该安全了，我们在这休息一会儿。
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:河岸边，一艘救生船轻轻靠岸，两个少女跳下了船。
-()<Speaker></Speaker>||:白烨戈跟着跳了下来，米蒂尔刚好在她前面，伸手过去扶了一下。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:……多谢。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:刚刚是你救了我吗？谢谢你！
-()<Speaker></Speaker>||:晴夜的月色下，米蒂尔的眸子里像是映着星星，白烨戈定定看着她的眼睛，像是透过它在看另一个世界。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我脸上有东西吗？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:没有，想到了一些以前的事。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你们认识？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:……没。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:刚刚在船上都介绍过了，不管如何，现在大家认识了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:为什么不让约翰他们和我们一起走？
-()<Speaker>指挥官</Speaker>||:跟着我们只会更危险，乘船去其他地方对他们来说是件好事。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:我也不适合继续跟着他们。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:说着，指挥官把箱子从船上推了下来；白烨戈下意识伸手去扶，却没来及。
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏3>:“呯——”，箱子重重地落在了河滩上。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:慢点！
-()<Speaker>指挥官</Speaker>||:下次一定。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:白烨戈放弃似的摇了摇头，自己提起了箱子，却感到手下一轻——米蒂尔从后面帮她托住了。
-()<Speaker></Speaker>||:指挥官也追上去抬起了一角，卡萝跟在后面，抬起了箱子的最后一个角。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:四人围了箱子一圈，一人提着箱子的一角；白烨戈看着大家的站位，突然松手。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:指挥官手底下一沉，连忙用力把箱子扶正。
-()<Speaker>指挥官</Speaker>||:怎么了？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:这么抬箱子……不吉利。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:啊？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:……没什么。
-()<Speaker></Speaker>||:似乎是觉得不忍直视，白烨戈转过了头，径直朝前方干燥的草地走去。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:这里背风，来这边。
+()<Speaker></Speaker>||<Night><BIN>2</BIN><BGM>BGM_TK_loading</BGM><黑屏2><CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||:여기라면 안전할 거야, 좀 쉬자.
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:강기슭에 닿은 구명 보트에서 두 소녀가 폴짝 뛰어내렸다.
+()<Speaker></Speaker>||:뒤이어 벨루가가 내리려 하자, 미틸이 손을 뻗었다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:...고마워.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:아까 날 구해 줬지? 정말 고마워!
+()<Speaker></Speaker>||:달빛을 받아 반짝이는 미틸의 눈빛은 마치 그 너머로 전혀 다른 세상이 보이는 듯했다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:어... 내 얼굴에 뭐 묻었어?
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:아니, 그냥 예전 일이 생각나서.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:아는 사이야?
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:...전혀.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:배에서 막 만난 사인데 벌써 꽤 친해졌네.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그런데 그 후안이란 사람은 왜 두고 왔어?
+()<Speaker>지휘관</Speaker>||:우릴 따라와 봤자 더 위험해질 뿐이니까. 무기도 줬으니 그 배를 타고 다른 곳으로 가는 편이 훨씬 나아.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:맞는 말이야.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:지휘관이 무작정 상자에서 보트를 밀어 내리려 하자, 벨루가가 도우려고 손을 뻗었지만 너무 늦고 말았다.
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏3>:상자가 모래 위로 쿵 내려앉았다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:조심해!
+()<Speaker>지휘관</Speaker>||:그럴게.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:벨루가는 절레절레 고개를 저으며 상자를 들었고, 미틸도 와서 도와줬다.
+()<Speaker></Speaker>||:그러자 지휘관도 쿠로도 덩달아 상자의 한 쪽을 맡았다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:네 사람은 상자를 둘러싸 각자 한 모서리씩 들었다. 벨루가는 각자의 위치를 보더니 갑자기 손을 놓았다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:갑자기 무게 중심이 쏠린 지휘관은 급히 상자를 바로잡았다.
+()<Speaker>지휘관</Speaker>||:우왓? 뭐야, 왜 그래?
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:상자를 이런 식으로 들면... 운이 달아나.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:뭐?
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:...아냐, 아무것도.
+()<Speaker></Speaker>||:벨루가는 고개를 돌려 앞쪽의 건조한 잔디밭으로 향했다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:바람을 등지고 이쪽으로 와.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>2</BIN><Night><SE1>AVG_Fire_Bonfire</SE1><黑点2><BGM>BGM_stage13</BGM>:找了块被石头挡住的空地，四个人放下箱子，生了火，围坐在火堆旁取暖。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:总算安全了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:刚刚好险，明明是他们在交战，为什么突然集火我们？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:很明显，都是冲着箱子来的。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:一个、两个……我们才出发5个小时，身后追着的老鼠就已经排好队了。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:卡萝噼里啪啦地按着通讯器。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:不知道是谁，一点消息都没有。
-()<Speaker>指挥官</Speaker>||:我梳理一遍现在的情况，今天下午——
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<SE1>ClothingUp</SE1>:我回避一下。
-()<Speaker></Speaker>||:白烨戈打断了指挥官的话。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:米蒂尔掰断了手里一直在玩的树枝，急着跳了起来，拉住了白烨戈的胳膊。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:如果没有记错，我们今晚才……刚刚认识？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可你刚刚救了我的命！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:接委托、送箱子，都是为了赚钱，可赚钱也只是为了活下去。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:所以没有什么可回避的，救命恩人比不知是谁的委托人重要得多。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:现在，我们算是队友了吧？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<SE1>ClothingUp</SE1>:……
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:留下吧。不论你愿不愿意，都已经被我们牵连了。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:而且，据我所知，我对现在的情况一无所知。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈并没有立即作出反应，她的目光从指挥官三人脸上一一扫过。
-()<Speaker></Speaker>||:真诚、坦率与信任……白烨戈闭上了眼。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:好。
+()<Speaker></Speaker>||<BIN>2</BIN><Night><SE1>AVG_Fire_Bonfire</SE1><黑点2><BGM>BGM_stage13</BGM>:바위로 가려진 공터를 찾아낸 지휘관 일행은 상자를 내려놓고 불을 피워 몸을 녹였다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:후아아 살 것 같다아...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:진짜 아슬아슬했어. 그 녀석들 분명히 서로 싸워댔는데, 왜 갑자기 우릴 공격했지?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:왜겠어, 상자 노린 거지.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:우리가 출발한 지 5시간밖에 안 됐는데 벌써 저렇게 좀도둑들이 쫓아와? 장난해 지금?
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:쿠로가 휴대폰의 버튼을 마구 두들겼다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:저게 누군지 정보도 하나도 없고 말이야.
+()<Speaker>지휘관</Speaker>||:그래도 이대로만 가면 오늘 오후 중으로――
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||<SE1>ClothingUp</SE1>:난 저쪽에 있지.
+()<Speaker></Speaker>||:민감한 이야기가 나오려 하자 벨루가가 자리를 비켜 주려 했다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:그런데 그 말을 들은 미티가 만지작대던 나뭇가지를 놓고 벨루가의 팔을 잡아당겼다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:우리... 오늘 처음 본 사이일 텐데?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그치만 날 구해줬는걸!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:이 상자도 의뢰도 다 벌어먹고 살려고 하는 짓이잖아?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그러니까 피할 이유도 없어, 누군지도 모를 의뢰인보단 눈앞의 내 생명의 은인이 더 중요해.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:이걸로 우리 "나카마"다로?
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||<SE1>ClothingUp</SE1>:......
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:같이 들어도 돼, 좋든 싫든 너도 이미 우리와 엮여버렸잖아.
+NPC-M16_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:그리고, 현재 상황에 대해 아는 것도 없을 테고.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:벨루가는 반응하기 전에 먼저 세 사람의 얼굴을 지그시 바라보았다.
+()<Speaker></Speaker>||:그들에게서 보인 성실함과 솔직함, 그리고 믿음에, 벨루가는 눈을 감으며 답했다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:좋아.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:首先，今天下午，我们在马尔洛斯从匿名委托人那里接到任务，要求我们今晚19点出发，在24小时内护送这个箱子到北山酒店。
-()<Speaker>指挥官</Speaker>||:箱子内容未知，委托人不明。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官从脚边拾起一颗小石子，摆在空地上。
-()<Speaker>指挥官</Speaker>||:它代表委托人。
-()<Speaker>指挥官</Speaker>||:之后，我们在码头遭遇来路不明的特种兵袭击，对方的目标是我们护送的箱子。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官又摆上一颗石子。
-()<Speaker>指挥官</Speaker>||:它代表码头的人，我暂时用特种兵称呼他们。
-()<Speaker>指挥官</Speaker>||:接下来是船上。我们发现多斯的手下上了船，而后特种兵追了上来，和多斯的人开战；但在发现我们后，他们同时将目标转向了箱子。
-()<Speaker>指挥官</Speaker>||:多斯是第三股势力。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:空地上落着三枚石子，形成了一个三角形。
-()<Speaker>指挥官</Speaker>||:委托人、来历不明的特种兵、多斯，他们都想要这个箱子。
-()<Speaker>指挥官</Speaker>||:这里面究竟有什么？
-()<Speaker></Speaker>||:众人的目光投到了箱子上。
-()<Speaker></Speaker>||:这是一个长约一米八，宽、高约半米的长方形箱子。
-()<Speaker></Speaker>||:2个生物识别密码锁，4个方便携带的提手，侧面还有两排透气孔；卡萝正透过孔洞向内窥探。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>ClothingUp</SE1>:看不到，做了遮挡……
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:虽然我也不喜欢那个委托人，但她说的也有道理，知道得越多，就越危险。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:可如今危险已经找上了门，不清不楚只会更被动。
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:也没有别的办法嘛……我们确实打不开它。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_weapon_reload</SE1>:……
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:我建议你们不要尝试暴力破坏。
-()<Speaker></Speaker>||:白烨戈仔细检查了密码锁和箱子容易被破坏的连接处。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:无法在不损伤里面物品的前提下，通过暴力的方式打开它，唯一的方式只有开锁。
-()<Speaker>指挥官</Speaker>||:距离北山酒店只剩一半的路程，找辆车，天亮就可以把箱子送到。
-()<Speaker>指挥官</Speaker>||:不管里面是什么，都和我们没有关系了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<BGM>BGM_Empty</BGM>:要不要和我们一起走？……啊不对，跟着我们实在太危险了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:等我们跑完了这一单，去找你？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂喂，你也不问问人家愿不愿意，毕竟你的话这么多……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:你说什么？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>RunStep</SE1><BGM>BGM_23SF_Battle_1</BGM>:米蒂尔爬起身来，越过指挥官去找卡萝；卡萝连忙起身逃跑。
-()<Speaker></Speaker>||:两个人绕着火堆转了两圈，看得人眼晕。
-()<Speaker>指挥官</Speaker>||:……你们能不能停下。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你拦着她啊！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:追在后面的米蒂尔想抄近路，大迈步想从指挥官身前摊开的长腿上跨过去，却不料指挥官刚好打算起身劝架，一个不慎被绊倒，往火堆摔去。
-()<Speaker>指挥官</Speaker>||:小心！
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:指挥官去拉米蒂尔，米蒂尔下意识抓向前方的卡萝想稳住身体；三人瞬间摔成一团。
-()<Speaker>指挥官</Speaker>||:……
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:哈哈……
-()<Speaker></Speaker>||:看着眼前滑稽的一幕，唯一没有被牵连的白烨戈忍不住笑了出来。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……哈哈，哈哈哈哈……
-()<Speaker></Speaker>||:有人开了头，笑声在四人间传递爆发开来，一时间压过了河岸的虫鸣。
-()<Speaker>指挥官</Speaker>||:……哈哈……不过米蒂尔说的没错，跟我们同行确实太过危险了。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:哪里不危险？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:没错，哪里不危险？至少我们几个在一起，可比被什么菜鸟拖累、叛徒背刺，安全多了！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:当然，我们可是同伴啊。
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:……能不能先起来？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:对……对不起！
+()<Speaker>지휘관</Speaker>||:그럼 설명부터 할게. 오늘 우리는 마룰로스에서 익명의 의뢰인으로부터 19시에 출발해 24시간 내로 이 상자를 노스리지 호텔까지 호송해 달라는 임무를 받았어.
+()<Speaker>지휘관</Speaker>||:상자의 내용물도, 의뢰인이 누군지도 우린 몰라.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 발치에서 작은 돌 하나를 주워 바닥에 내려놓았다.
+()<Speaker>지휘관</Speaker>||:이게 의뢰인.
+()<Speaker>지휘관</Speaker>||:이동을 위해 부두로 갔을 때 정체불명의 무리에게 습격받았는데, 놈들의 목표는 우리가 호송하는 상자였지.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:돌을 하나 더 놓았다.
+()<Speaker>지휘관</Speaker>||:이건 부두에서 조우했던 놈들. 일단은 특전대라 부르자.
+()<Speaker>지휘관</Speaker>||:다음은 배에서 본 안토니오 패밀리. 놈들은 우릴 쫓아온 특전대와 먼저 맞닥뜨려서 서로 전투를 벌였는데, 우리를 발견하자마자 우리와 상자부터 노리기 시작했어.
+()<Speaker>지휘관</Speaker>||:그러니 안토니오 패밀리는 제3세력이라 봐도 되겠지.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:세 번째 돌이 놓여 삼각형을 이뤘다.
+()<Speaker>지휘관</Speaker>||:의뢰인, 정체불명의 특전대, 안토니오 패밀리 모두 이 상자를 노리고 있어.
+()<Speaker>지휘관</Speaker>||:대체 안에 든 게 뭐길래?
+()<Speaker></Speaker>||:모두의 시선이 상자로 쏠렸다.
+()<Speaker></Speaker>||:길이 약 180cm, 너비 약 50cm의 직사각형 상자.
+()<Speaker></Speaker>||:최첨단 지문 인식형 자물쇠 2개와 손잡이 4개, 그리고 측면의 쿠로가 들여다보려고 바둥대는 통풍구 2개까지 나 있는 이 상자는 대체 무엇일까?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>ClothingUp</SE1>:역시 안 보이네...
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:나도 그 의뢰인이 마음에 들진 않지만, 그 사람 말이 맞아. 알면 알수록 위험해질 거야.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:이미 충분히 위험하거든? 그리고 모르는 게 약이긴 개뿔, 아는 게 힘이라구.
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그치만 달리 방법이 없잖아... 이거 열 수 있는 것도 아니고.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>AVG_weapon_reload</SE1>:……
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:억지로 부술 생각은 하지 마.
+()<Speaker></Speaker>||:벨루가가 자물쇠와 상자의 비교적 약해 보이는 연결부를 살펴보며 말했다.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:내용물이 다치지 않게 하면서 이걸 억지로 열 방법은 자물쇠를 따는 것뿐이야.
+()<Speaker>지휘관</Speaker>||:노스리지 호텔까지 절반 정도 왔으니까, 적당한 차만 찾으면 날이 밝는대로 도착할 수 있어.
+()<Speaker>지휘관</Speaker>||:내용물은 신경 끄자, 어차피 우리와는 관계 없는 물건이니까.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<BGM>BGM_Empty</BGM>:벨루가, 우리랑 같이 갈래? 아, 너무 위험하려나?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그럼 대신 이 임무 끝나면 너 보러 가도 돼?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:와아, 너 아무한테나 막 들이대는 녀석이었구나? 어머나 남사시러버라~
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position><Shake>||:뭐야아!? 너 일루와잇!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>RunStep</SE1><BGM>BGM_23SF_Battle_1</BGM>:미틸이 벌떡 일어나 지휘관을 넘어 다가오자, 쿠로는 냉큼 자리를 박차고 도망쳤다.
+()<Speaker></Speaker>||:그렇게 벌어진 추격전에 지휘관은 눈앞이 어지러웠다.
+()<Speaker>지휘관</Speaker>||:...그만해, 애도 아니고.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:쟤부터 말려 보던가~!
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:뒤쫓던 미틸이 쿠로를 앞지르려고 지휘관을 넘으려다, 말리려는 지휘관의 손에 걸려 모닥불 위로 엎어졌다.
+()<Speaker>지휘관</Speaker>||:우와앗 위험해!
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:지휘관이 미틸을 홱 잡아당기는 동시에 미틸이 쿠로를 붙잡아, 셋은 그대로 뒤엉켜 뒤로 넘어지고 말았다.
+()<Speaker>지휘관</Speaker>||:......
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:풉...
+()<Speaker></Speaker>||:난데없는 코미디를 지켜본 벨루가는 결국 웃음을 참지 못했다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:푸훕... 하하하핫!
+()<Speaker></Speaker>||:그리고 모두가 잠시 벌레 울음소리가 묻힐 정도로 폭소했다.
+()<Speaker>지휘관</Speaker>||:하하하... 그래도 미틸의 말이 맞아, 우리와 동행하는 건 너무 위험해.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:여기서 위험하지 않은 짓이 있긴 하고?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:마자마자, 어딘들 안전하겠어? 적어도 우리랑 같이 가면 엄한 일에 엮여서 통수 맞는 것보다는야 훨씬 안전할걸?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그야 물론이지, 우린 동료니까!
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><同时置暗><Position>0,-50</Position>||:일단 일어나고 말하면 안 될까?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position><Shake>||:앗, 미안!
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:三人重新爬起坐好，指挥官拍着衣服上的尘土，白烨戈又往火堆里加了几根干树枝，卡萝帮她拨着火星，米蒂尔从包里拿出能量棒分给大家。
-()<Speaker></Speaker>||:至少在这一刻，没有危险与生死，只有难得的平静的晴夜。
-()<Speaker></Speaker>||:“啪啦”，火堆爆出了火星。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:我再去捡些树枝。
-()<Speaker></Speaker>||:已经沉默了一阵，白烨戈突然出声，起身朝一旁的矮树丛走去。
-()<Speaker>指挥官</Speaker>||:再休息一会儿，我们就出发。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:好。
-()<Speaker>指挥官</Speaker>||:白烨戈，你呢？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:指挥官转头朝白烨戈的方向喊道，却愣住了。
-()<Speaker></Speaker>||:不知何时，虫鸣声停止了。
-()<Speaker></Speaker>||:白烨戈的面上突兀地带着一个防毒面具。
+()<Speaker></Speaker>||<黑点2>:뒤엉켰던 세 사람은 다시 자리에 앉았다. 지휘관은 옷의 먼지를 털고, 벨루가는 모닥불에 마른 나뭇가지를 몇 개 더 넣었다. 쿠로는 잠자코 불씨를 뒤적였고, 미틸은 가방에서 에너지바를 꺼내 모두에게 나눠주었다.
+()<Speaker></Speaker>||:적어도 지금 이 순간만큼은 생사의 위협 없는 고요하고 평화로운 밤이었다.
+()<Speaker></Speaker>||:들리는 소리라곤, 벌레의 울음소리와 모닥불이 튀기는 불똥뿐.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:...나뭇가지 더 가져올게.
+()<Speaker></Speaker>||:벨루가가 그 적막함을 깨고 자리에서 일어나 풀숲 쪽으로 걸어갔다.
+()<Speaker>지휘관</Speaker>||:조금만 더 쉬었다가 바로 출발하자.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:응.
+()<Speaker>지휘관</Speaker>||:벨루가 넌 어떡할래?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:그녀를 향해 고개를 돌린 순간, 지휘관은 두 눈을 의심했다.
+()<Speaker></Speaker>||:어느새 벌레의 울음소리가 그쳤다.
+()<Speaker></Speaker>||:그리고 벨루가는 방독면을 쓰고 있었다.
 ()<Speaker></Speaker>||<common_effect>%%code=AVG_chuxian_yan%%</common_effect><SE1>AVG_The_Division_Burning_Stick</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:咳咳，咳咳咳……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker><Shake>||:咳咳，怎么……回事？
-()<Speaker></Speaker>||<BGM>10082</BGM>:一枚催泪瓦斯被掷了过来，刺激的化学物质逼得三人剧烈咳嗽，双目刺痛难以睁开。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:在哪？咳咳……
+()<Speaker>지휘관</Speaker>||:콜록... 너...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker><Shake>||:켈록켈록켈록, 뭐, 뭐야?!
+()<Speaker></Speaker>||<BGM>10082</BGM>:호흡기를 자극해 격하게 기침하고, 찌르는 듯한 통증에 눈을 뜨기도 버거운 화학 물질... 최루탄이었다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position><Shake>||:으으... 내 방독면...!
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
-()<Speaker></Speaker>||:米蒂尔去摸自己的防毒面具，没有摸到。
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><SE1>AVG_Team_Running</SE1>:白烨戈身后的树林中，钻出了十几个戴着防毒面具的人，身上的黑色西装和船上多斯的杀手一模一样。
-()<Speaker>指挥官</Speaker>||:多斯……
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:潜伏的杀手们拖走了箱子。白烨戈打了个手势，其中一个人了过来，将指挥官三人一一击晕。
+()<Speaker></Speaker>||:아무리 손을 휘저어도 미틸은 애용하는 방독면을 찾지 못했다.
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><SE1>AVG_Team_Running</SE1>:벨루가 뒤의 숲속에서, 마찬가지로 방독면을 쓰고 시꺼면 양복 차림인 10명 가량의 괴한들이 나타났다. 배에서 보았던 도스 안토니오의 킬러들과 똑같았다.
+()<Speaker>지휘관</Speaker>||:안토니오 패밀리...!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:킬러들은 상자를 가져갔고, 벨루가가 손짓하자 그중 한 명이 다가와 지휘관 일행을 기절시켰다.
 ()<Speaker></Speaker>||<震屏3><CGDelay>0.5</CGDelay><SE1>AVG_Punch_Hit</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Punch_Hit</SE1>:
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:抱歉。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:现在，我并不是你们的同伴。
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:미안해.
+NPC-M16_AB(0)<Speaker>벨루가</Speaker>||:지금 난 너희의 동료가 아니야.
 ()<Speaker></Speaker>||<震屏3><CGDelay>0.5</CGDelay><SE1>AVG_Punch_Hit</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_XXS_kick</SE1>:
-()<Speaker></Speaker>||:指挥官倒在地上，在被黑暗侵蚀前努力想要看清眼前的白烨戈。
+()<Speaker></Speaker>||:땅바닥에 쓰러져 눈을 감기 전까지, 지휘관은 벨루가의 얼굴을 보려고 안간힘을 썼다.
 ()<Speaker></Speaker>||<震屏3><CGDelay>1.5</CGDelay><common_effect>%%code=AVG_zhayan%%</common_effect>:
 ()<Speaker></Speaker>||<BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><黑屏2><BIN>9</BIN>:就在她的脚下，代表三个势力的三角形石块旁，静静地落着第四块石头。
-()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><黑屏2><BIN>9</BIN>:하지만 마지막으로 본 것은 그녀의 발 아래로, 삼각형을 그리며 세 세력을 나타내는 돌 옆에 조용히 놓여진 네 번째 돌이었다.
+()||<黑点1>:

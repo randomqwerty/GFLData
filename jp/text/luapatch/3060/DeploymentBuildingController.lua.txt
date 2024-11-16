@@ -53,6 +53,22 @@ local ShowSangvisSelectTarget = function(self,order)
 		end
 	end
 end
+
+local LoadItemData = function(self)
+	self:LoadItemData();
+	self:ItemObjMoveReast();
+end
+
+local SelectCancelSpot = function(self,select)
+	self:SelectCancelSpot(select);
+	if select then
+		self:ShowAllSelectTarget();
+	else
+		self:CloseAllSelectTarget();
+	end
+end
 --util.hotfix_ex(CS.DeploymentBuildingController,'CheckSkillDetail',CheckSkillDetail)
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
+util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
+util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectCancelSpot',SelectCancelSpot)

@@ -1,141 +1,141 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>BGM_arenabreakout_battle2</BGM><黑屏2><SE2>Gunfight</SE2><震屏3><BIN>455</BIN><CGDelay>1</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哈，又做掉一个。
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:핫하, 한 놈 더!
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:码头边的仓库里，各种集装箱、货架组成了复杂的地形。将箱子藏起来用防雨布盖住，三人对袭击者展开了反击。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:他们是什么人？来得这么快。
-()<Speaker>指挥官</Speaker>||:冲着箱子来的。小心左边！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:没有管身后的队友，已经放倒两人的卡萝越过藏身的货架，奔向前方的集装箱。
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:컨테이너와 선반으로 가득해 복잡한 부둣가의 창고 안에서, 세 사람은 상자를 방수포로 덮어 숨기고 덤벼드는 적들에게 반격을 가했다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쟤네들 뭐야? 어떻게 이렇게 빨리 왔지?
+()<Speaker>지휘관</Speaker>||:뭔진 몰라도 상자를 노리는 건 확실해. 왼쪽!
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:벌써 2명을 쓰러뜨린 쿠로가 갑자기 냅다 앞으로 뛰쳐나가, 선반을 뛰어넘고 컨테이너 위를 달리며 종횡무진했다.
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><震屏3><CGDelay>0.2</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:火力，发射！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3><SE2>Gunfight</SE2>:在她左侧，一个刚露头的敌人被指挥官连射逼了回去。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:她怎么一个人往前闯……欸，你！
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:米蒂尔话音未落，指挥官已经趁敌人隐蔽停火的间隙冲向了右边。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE2>Gunfight</SE2>:一个前，一个右，你们都不商量商量吗？
-()<Speaker></Speaker>||<震屏3><SE1>RunStep</SE1>:两个方向同时响起了猛烈的交火声，米蒂尔左右为难，一咬牙，转身跑向了楼梯。
-()<Speaker></Speaker>||:仓库二楼，透过栏杆可以以更高的视角俯瞰一楼的大半区域。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:1、2、3、4、5、6……不，还剩4个。
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Grenade</SE1>:伴随着卡萝扔出的手榴弹，和指挥官的一个侧身点射，场内还剩下4个敌人。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:米蒂尔在木箱后架好了枪。
-()<Speaker></Speaker>||<震屏3><CGDelay>0.5</CGDelay><SE1>AVG_pistol_finalshot_n</SE1>:“呯——”……没有打中。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:“呯——”……打爆了指挥官前方的水管，水流激射而出。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:视线被挡，指挥官闪身回撤，避开了对面射来的一串子弹。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:啊……对不住。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:小声念叨着对方听不到的道歉，米蒂尔的位置已经暴露，翻身去找下一个掩体。
-()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:一时间仓库里四处都有枪声，时不时某个角落冒起烟雾弹的白烟，或是撞倒整排货架，噼里啪啦，好不热闹。
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:가즈아아아아――!!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3><SE2>Gunfight</SE2>:그런 그녀의 왼쪽에서 적이 모습을 드러냈지만, 뭘 해보기도 전에 지휘관의 견제 사격에 다시 숨어버렸다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쟤 왜 갑자기 혼자서 앞으로 튀어나가... 어? 야!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:미틸이 말을 다 하기도 전에, 지휘관이 잠깐의 정적을 틈타 오른쪽으로 튀어나갔다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<SE2>Gunfight</SE2>:한 명은 앞으로 가고 또 한 명은 오른쪽으로 가고... 미리 말 좀 하면 안 되냐구.
+()<Speaker></Speaker>||<震屏3><SE1>RunStep</SE1>:각기 다른 곳에서 동시에 교전하는 소리가 들려오자, 미틸은 안절부절못하다 이를 악물고 계단을 달려 올라갔다.
+()<Speaker></Speaker>||:그녀가 향한 곳은 창고의 2층. 난간 너머로 1층의 거의 대부분이 훤히 보여 시야 확보에 최적의 장소였다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:하나, 둘, 셋... 여섯이나... 아, 이제 4명 됐네.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Grenade</SE1>:쿠로가 던진 수류탄과 지휘관의 사격으로, 현장에 남은 적은 6명에서 4명으로 줄었다.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:미틸은 나무 상자 뒤에 엄폐하고 총을 거치했다.
+()<Speaker></Speaker>||<震屏3><CGDelay>0.5</CGDelay><SE1>AVG_pistol_finalshot_n</SE1>:첫째 발은 완전히 빗나갔다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:둘째 발은 지휘관 앞의 수도관을 터뜨려 버렸다.
+()<Speaker>지휘관</Speaker>||:……
+()<Speaker></Speaker>||:시야가 가려진 지휘관이 옆으로 펄쩍 뛰기가 무섭게 맞은편에서 총탄이 날아들어 아슬아슬하게 스쳐 지나갔다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:아... 미안.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:들리지도 않을 테지만 어쨌든 사과한 미틸은 위치가 노출됐기에 다음 엄폐물로 이동했다.
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:곳곳에서 연기가 피어오르고, 선반이 흔들리고, 총성이 메아리쳐, 창고는 아수라장이 되었다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>455</BIN><CGDelay>0.5</CGDelay>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:呼，总算都解决了。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:一段时间的平静后，确认这里不再有敌人，米蒂尔松了口气，跑下了楼。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<BGM>BGM_23SF_Battle_1</BGM>:你们怎么样？受伤了吗？
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:跑回藏匿箱子的货架旁，米蒂尔从身后摘下了那个比她还宽的背包，重重放到地上，从里面翻出了各种医疗用品。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我是没事，不过差点就被害死了。
-()<Speaker>指挥官</Speaker>||:对不住，我也没想到那枚炸弹会把他逼到你那边去。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:算了，幸好我的走位无可挑剔。
-()<Speaker></Speaker>||:确认了箱子安然无恙，没有被混战波及，三个人开始打扫战场。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1>:米蒂尔遗憾地丢掉从敌人身上搜来的突击步枪，不舍地拆下弹夹强塞进了背包的缝隙里。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker><Shake>||:你的包竟然还能装？背得动吗？
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:휴우, 끝났다...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:얼마 후, 더 이상 움직이는 적이 없음을 확인한 미틸이 안도의 한숨을 내쉬고 1층으로 내려갔다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<BGM>BGM_23SF_Battle_1</BGM>:모두 괜찮아? 다친 데는?
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:상자를 숨겨 둔 곳으로 달려간 미틸은 거의 자신만한 커다란 배낭에서 각종 의료용품을 꺼냈다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:괜찮아~ 누구 트롤링에 죽을 뻔했지만.
+()<Speaker>지휘관</Speaker>||:미안해, 그놈 내 폭탄 피하려다 네 쪽으로 간 거였어.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:됐어됐어, 내 완벽한 무빙 덕분에 아무 문제 없었으니깐♪
+()<Speaker></Speaker>||:상자도 무사함을 확인한 세 사람은 전장 청소를 시작했다.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1>:미틸은 적에게서 노획한 돌격소총에서 탄창만 뽑아 커다란 배낭에 간신히 쑤셔 넣었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker><Shake>||:않이 그게 들어가? 그거 들 수는 있어?
 ()<Speaker></Speaker>||<SE1>Rope</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:卡萝尝试性提起米蒂尔那个巨大的背包，却被猛地坠了一下。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……佩服。
-()<Speaker>指挥官</Speaker>||:嗯？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官拾起了被米蒂尔丢在旁边的突击步枪，绑在了自己的包上。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你也开始捡垃圾了？
-()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1>:“嗡——”
-()<Speaker></Speaker>||:外面的货船开始鸣笛，提示着这趟旅程即将起航。
-()<Speaker>指挥官</Speaker>||:走吧，先上船。
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:쿠로가 미틸의 배낭을 들어보려 했지만, 꿈쩍도 않았다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:...와오.
+()<Speaker>지휘관</Speaker>||:아깝게스리.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:어느새 다가온 지휘관이 미틸이 버린 돌격소총을 주워 자신의 가방에 묶었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:뭐야, 폐지 줍기 고수였네?
+()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1>:그때, 화물선의 우렁찬 고동 소리가 들렸다.
+()<Speaker></Speaker>||:이 여정의 시작을 알리는 출발 신호였다.
+()<Speaker>지휘관</Speaker>||:배 타러 가자.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>797</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>船长</Speaker>||:干什么的？名单上没有你们。
-()<Speaker></Speaker>||:登船的艞板上，一个中年男人拦住了带着箱子的一行三人，从体型上来看，跑船让他没少吃到油水。
-()<Speaker>指挥官</Speaker>||:船长先生，行个方便，带我们一程。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一边说着，指挥官将什么东西塞进了对方手里；船长放在手里捻了捻，直接塞进了口袋。
-()<Speaker>指挥官</Speaker>||:我们要带箱货去北山，您知道的，现在路上不太平。
-()<Speaker>船长</Speaker>||:你们是谁手底下的？
-()<Speaker></Speaker>||:收了东西，船长的语气好了许多，指挥官凑过去耳语了几句。
-()<Speaker>船长</Speaker>||:硕鼠帮？我没收到消息。你们到底是谁？
-()<Speaker></Speaker>||<SE1>Select</SE1>:船长的脸色再次坏了下来，身后两个水手拿枪对准了三人。米蒂尔按住了卡萝要去摸枪的手，摆出了一个快要哭出来的表情。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我就说不要偷老大的货吧，这下怎么办啊？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:新进了这么一大批货，本来以为悄悄偷一点不会被发现，可现在根本运不出去啊。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:船长，求求您行行好，不要告诉我们老大。我们这就把东西还回去。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一切都是没有彩排过的，米蒂尔说哭就哭，一时间看呆了众人，指挥官悄悄在身后比了个赞许的拇指。
-()<Speaker>船长</Speaker>||:你们偷来的？
-()<Speaker>指挥官</Speaker>||:……是，我们就想赚点小钱。平常老大们吃肉，我们这些小角色汤都喝不上几口，这才动了心思。
-()<Speaker>指挥官</Speaker>||:您看，这是我们的铭牌，上面烙印的硕鼠标志绝对做不了假。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:船长接过了指挥官递过去的金属铭牌，仔细检查着上面的帮派徽记，又和身后的大副小声讨论了几句，把铭牌还给了指挥官。
-()<Speaker>船长</Speaker>||:五十万柯恩币。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:五十万？我们的货也没那么值钱，能不能……
-()<Speaker>船长</Speaker>||:五十万，一分不能少，算是路费和……封口费。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:船长对三人使了个“你懂的”的眼色，不大的眼睛和眉毛挤在了一起；卡萝掐了一把自己的大腿，克制住了自己掏枪的冲动。
-()<Speaker>指挥官</Speaker>||:好！米蒂尔……
-()<Speaker></Speaker>||:身上并没有这么多钱，指挥官转身向米蒂尔求救。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:……我？！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……………………好……好吧。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Zipper</SE1><BGM>BGM_Empty</BGM>:经过了漫长的犹豫，米蒂尔从身后摘下了她那百宝箱一样的背包，从最里面的夹层里取出一块金子，不情不愿地递给了船长。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:船上包饭吧？
+()<Speaker>선장</Speaker>||:당신네들 뭐야? 명단에 이름이 없는데?
+()<Speaker></Speaker>||:배에 올라 상자를 내려놓자마자, 풍채에서부터 뱃일로 이런저런 이득을 많이 본 티가 나는 선장이 몸소 행차해 일행을 가로막았다.
+()<Speaker>지휘관</Speaker>||:그러지 마시고요 선장님, 겸사겸사 저희도 태워 주세요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 슬며시 선장의 손에 쥐여 준 무언가가 그대로 그의 주머니로 들어갔다.
+()<Speaker>지휘관</Speaker>||:노스리지까지 가져가야 하는 물건이 있어요. 아시다시피 요즘 육상로가 보통 위험해야죠.
+()<Speaker>선장</Speaker>||:그건 그렇긴 하지. 근데 어디 소속이야?
+()<Speaker></Speaker>||:눈에 띄게 달라진 선장의 태도에, 지휘관이 다가가 귀띔을 했다.
+()<Speaker>선장</Speaker>||:생쥐단? 오늘 딱히 들은 건 없는데... 너희, 정체가 뭐야?
+()<Speaker></Speaker>||<SE1>Select</SE1>:선장의 얼굴이 다시 구겨졌고, 이번엔 뒤의 선원들이 지휘관 일행에게 총까지 겨눴다. 이에 쿠로가 총으로 손을 뻗으려던 순간, 미틸이 그 손을 덥석 붙잡더니 당장에라도 울 것 같은 표정으로 외쳤다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:흐아앙 그러게 제가 두목님 물건 훔치지 말자고 했잖아요! 이제 어떡할 거예요?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:엄청 많으니까 하나쯤은 빼돌려도 아무도 모를 거라더니 이게 뭐야... 돌아가는 것부터 말썽이잖아요!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:선장님, 두목님께는 비밀로 해 주시면 안 돼요? 흠집 하나 없이 고스란히 제자리에 돌려놓을게요!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:미리 상의한 것도 아니건만 실감나는 미틸의 우는 연기에 이목이 집중됐고, 지휘관은 그녀에게 슬쩍 엄지를 세웠다.
+()<Speaker>선장</Speaker>||:훔쳤다고?
+()<Speaker>지휘관</Speaker>||:하아... 네, 돈이 궁해서 그만 머리가 어떻게 되어 버렸나 봅니다. 솔직히 말예요, 두목님은 맨날 육즙 줄줄 흐르는 고기 드시면서 부하들한텐 국물도 안 주시잖습니까.
+()<Speaker>지휘관</Speaker>||:여기 제 인식표입니다, 이 마크 위조 불가능한 거 아시잖아요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:선장은 지휘관이 건넨 금속제 인식표를 꼼꼼하게 살펴보고는 뒤에 있던 일등 항해사와 몇 마디 나눈 후 인식표를 돌려줬다.
+()<Speaker>선장</Speaker>||:50만 코엔.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:50만?! 우리 화물이 그렇게 비싼 것도 아닌데, 조금 깎아주실 수는...?
+()<Speaker>선장</Speaker>||:경비랑 입막음비다, 50만.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:선장이 "다 알잖냐"는 눈짓으로 얼굴에 힘을 줬고, 쿠로는 몰래 허벅지를 꼬집으며 들이받으려는 충동을 억눌렀다.
+()<Speaker>지휘관</Speaker>||:...좋습니다. 미틸?
+()<Speaker></Speaker>||:당연히 그런 큰 돈은 없었기에, 지휘관은 눈 하나 깜빡 않고 미틸에게 바통을 넘겨 버렸다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position><Shake>||:......어, 나?!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:아... 아, 알았어요, 잠깐만요... 여기요.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Zipper</SE1><BGM>BGM_Empty</BGM>:한참을 망설인 끝에, 미틸은 커다란 배낭 깊숙이에서 금괴를 꺼내 선장에게 내밀었다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:밥은 주실 거죠?
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1><BGM>BGM_TK_face</BGM><黑屏2><BIN>88</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:货船底层的狭小船舱里，阴暗潮湿，发霉的痕迹爬满了墙壁。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:五十万就住这儿啊……
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:检查了各处角落是否有窃听之类的可疑设备，指挥官示意卡萝一起把箱子藏到了一堆纸箱后面。
-()<Speaker>指挥官</Speaker>||:至少这里还算安全。刚才多亏了你。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:确实，你的反应好快，像变了个人一样。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我可是很擅长模仿的，我还会变声呢。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:“自我介绍一下，我是这次任务的委托人”。怎么样，像不像？
-()<Speaker></Speaker>||:米蒂尔模仿着几个小时前，在对讲机里听到的委托人的声音；惟妙惟肖，让卡萝啧啧称奇。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:像！简直一模一样！你说呢？
-()<Speaker></Speaker>||:卡萝看向旁边一言不发的指挥官。
-()<Speaker>指挥官</Speaker>||:总觉得这个声音还在哪儿听过……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:唉……你们说，这五十万能找委托人报销吗？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你可以到时候问问。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:也不知道委托人是谁，好不好说话。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:拿个对讲机也不露面，我看不是什么好惹的角色。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:码头上的那批人是谁？我们刚出发就被盯上了，消息也太快了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官从包上解下了那把刚刚捡来的突击步枪。
-()<Speaker>指挥官</Speaker>||:这把枪被改装过，缩短了枪管的长度，削减了后坐力和射程，提高了在紧凑地形里的适用性，同时也更难控制……
-()<Speaker>指挥官</Speaker>||:对方恐怕训练有素，不是普通人……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:不是普通人……黑金国际？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂，你能不能不要提这么恐怖的东西。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:确实不能排除这个可能。毕竟在暗区，有能力打造一支精兵小队的势力也并不多。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:还不是被我们打得落花流水？
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:黑金是暗区最大的雇佣兵组织之一，如果他们的目标也是这个箱子……
-()<Speaker>指挥官</Speaker>||:我们怕是有麻烦了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:船舱一时陷入了沉默，三人盯着这个要命的箱子，米蒂尔起身，不放心地又给它盖了两个纸箱。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:乐观点儿。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:从我掌握的消息来看，黑金国际最近会有大动作，应该没空理会我们这种小角色。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:前些天听说，黑金的深渊小队离开了原本的驻地，像是要有什么行动。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:整个暗区都知道，深渊一动，天就要变了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这真的是个能让人乐观起来的好消息吗？
-()<Speaker></Speaker>||:船舱再次陷入了沉默，米蒂尔也放弃了继续隐藏箱子的无用功。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:欸，别说这个了。深渊小队的那个队长，黑卡蒂。我听说她前些天被一个下属越级举报了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你怎么什么都知道？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝得意地笑了起来，手里挥舞着一个通讯器。指挥官注意到，从见面伊始，她的手上就总是抓着这个东西。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:消息就是一切！暗区在我眼里，没有秘密！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:那你有没有关于委托人的消息？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……
-()<Speaker></Speaker>||:意识到自己说错了话，戳到了对方的痛处，米蒂尔赶忙转移话题。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:呃……还是说说黑卡蒂，她带的深渊小队不一直都是黑金的尖刀部队吗？战绩这么好，为什么会被举报？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:没准就是因为太好了……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:算了不管了，按现在的速度，最迟明天上午就可以把箱子送到。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:在这之后呢，你们怎么打算？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我……
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><Position>0,-50</Position><同时置暗>||:等做完再说，总觉得现在说这些还太早。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂喂喂，给你队友的能力一点信任好不好？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:刚刚在仓库，我做掉了7个，7个！喂……你有没有在听我说话啊，当时我一个点射就……
-()<Speaker>指挥官</Speaker>||:队友吗？……
+()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:화물선 밑바닥의 선실은 어둑한데다 습해서 곰팡이가 슬지 않은 벽이 없었다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:이게 어떻게 50만 코엔짜리 방이야...
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:도청 장치는 없는지 샅샅이 확인한 후, 지휘관은 쿠로에게 상자 더미 뒤로 의뢰품을 숨기라 지시했다.
+()<Speaker>지휘관</Speaker>||:적어도 당분간은 안전할 거야. 방금은 너 덕에 살았어.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:맞아맞아 임기응변 쥑이더라? 완전 다른 사람 같았어.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:히히~ 나 변장이 특기야! 성대모사도 할 수 있다?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:"안녕하세요, 제가 이번 임무의 의뢰인입니다." 어때, 똑같지?
+()<Speaker></Speaker>||:미틸이 몇 시간 전들었던 의뢰인의 목소리를 완벽하게 따라하자, 쿠로가 펄쩍 뛰었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:와 XX 똑같다! 완전 인간 녹음기 아냐? 응? ...어라?
+()<Speaker></Speaker>||:어째 반응이 없자, 쿠로가 지휘관을 돌아보았다.
+()<Speaker>지휘관</Speaker>||:어디서 들어본 적 있는 목소린데...
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그런데 말야... 방금 50만 의뢰인한테 경비로 청구할 수 없어?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:몰라, 나중에 물어봐.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:의뢰인이랑 말이 통할지나 의문인데...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:하긴, 누가 나오기는커녕 무전기로 비대면 미팅이나 하는 녀석이니 쉽지 않을지도.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:부두에 우릴 습격한 놈들은 누굴까? 우리가 출발하려 하자마자 들이닥치다니, 수상해.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 아까 노획했던 돌격소총을 가방에서 풀며 말을 이었다.
+()<Speaker>지휘관</Speaker>||:이거 개조한 거야. 총열 길이를 단축해서 사거리가 짧아지는 대신 반동을 줄였어. 좁은 지형에 적합하지만, 다루기는 어려워지지.
+()<Speaker>지휘관</Speaker>||:놈들은 잘 훈련되어 있어. 보통내기가 아니야.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:보통이 아니다... 블랙골드 유니버설?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:아잇 끔찍한 소리 말어.
+NPC-MDR_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:아주 불가능한 이야기는 아니야, 다크존에서 잘 훈련된 정예 병력을 가진 세력은 손에 꼽으니까.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:우리한테 털렸는데?
+NPC-MDR_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:블랙골드는 다크존에서 가장 큰 규모의 PMC인데, 그들의 목표가 이 상자라면...
+()<Speaker>지휘관</Speaker>||:일이 상당히 귀찮아지겠군.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:선실이 잠시 침묵에 빠졌다. 세 사람은 말없이 상자를 노려보다, 미틸이 불안한 마음에 일어나 그 위에 골판지 상자를 두 개 얹어 가렸다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:그, 긍정적으로 보자고.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:내가 알기로 블랙골드는 지금 바빠서 우리한테 신경 쓸 겨를이 없을 거야.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:며칠 전에 어비스 분대가 주둔지를 떠났다니까, 뭔가 큰 일을 벌이려는 건 분명해.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:다크존 바닥에서 유명하잖아? 어비스가 움직이면 세상이 바뀐다고.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:...아, 근데 따지고 보면 좋은 소식도 아닌가.
+()<Speaker></Speaker>||:선실은 다시 조용해졌고, 미틸은 상자를 감추려 애쓰기도 포기했다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:아익 몰라몰라 이 얘긴 그만! 아, 어비스 하니까 생각났는데, 대장 "헤카테"가 며칠 전에 부하한테 고발당했다더라?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그런 건 또 어떻게 알아?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:쿠로가 의기양양하게 웃으며 손의 휴대폰을 흔들어 보였다. 처음 조우했던 그때부터 항상 손에서 놓지 않던 그것이었다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:정보는 곧 힘! 다크존에서 나에게 비밀이란 없단 말씀!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:그럼 의뢰인에 대해서도 알아?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:............
+()<Speaker></Speaker>||:말을 잘못 꺼냈단 사실을 깨달은 미틸이 바로 화제를 돌렸다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:어... 아, 헤카테가 이끄는 어비스 분대는 블랙골드 최고의 돌격부대 아니야? 성과도 좋을 텐데 왜 고발을 당했대?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:잘하는만큼 너무 나댄 것일 수도 있지...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:아무튼, 지금 속도라면 늦어도 내일 오전 중으로 도착할 수 있을 거야.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:이 일 끝나면 너흰 뭐 할 거야?
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:난――
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><Position>0,-50</Position><同时置暗>||:그런 얘긴 일 끝난 다음에 하자, 지금은 너무 일러.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:어이어이, 그래도 이제 동료인데 신뢰 좀 하라고.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:아까 창고에서만 내가 7명이나 땄거든? 7명! ...야, 내 말 듣고 있어? 그때 내가 쏘자마자――
+()<Speaker>지휘관</Speaker>||:동료라...
 ()||<黑点1><回忆>:
-NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<黑点2><BIN>799</BIN>:如果还有下次，你还敢把命交到别人手上吗？
+NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<黑点2><BIN>799</BIN>:만약 다음이 있다면, 여전히 네 목숨을 다른 사람의 손에 맡길 수 있겠어?
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>88</BIN><SE1>AVG_ship_horn</SE1><CGDelay>0.7</CGDelay><黑点2><关闭蒙版>:
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:货船再一次鸣笛，打断了卡萝的喋喋不休和指挥官的回忆。
-()<Speaker>指挥官</Speaker>||:起航了。
-()||<黑点1>:
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:화물선의 고동이 쿠로의 수다와 지휘관의 회상을 끊었다.
+()<Speaker>지휘관</Speaker>||:출항이다.
+()||<黑点1>:

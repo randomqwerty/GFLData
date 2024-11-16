@@ -1,109 +1,109 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><BIN>222</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:暗区，北山，指挥官与卡萝、米蒂尔三人来到一处废弃的工厂。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:就是在这里失踪的？
-()<Speaker></Speaker>||:工厂看上去已经有一段时间没有来过人了，四处落满了灰尘，三人在里面留下了清晰的脚印。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:指挥官在空旷的厂房里走了一圈，而后蹲在门口，观察着地上薄厚不一的尘土。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:委托人自称索尔。一个月前，他的队友休伯特跟着黑金一起来这里出任务，之后就没再回去，伤亡名单里也没有他。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这是什么工厂？黑金为什么要来这里？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:生产设备都被转移了，不知道之前是做什么的。
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:分开搜，看看能不能找到点线索。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:三人分散各自行动，两个少女搜查厂房内部，而指挥官来到了外面。
+()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:다크존, 노스리지. 지휘관과 쿠로, 미틸이 폐공장에 도착했다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:여기서 실종된 거 맞아?
+()<Speaker></Speaker>||:공장은 한동안 사람이 오지 않은 듯 먼지로 뒤덮여 있었고, 세 사람은 그 안에 또렷한 발자국을 남겼다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:지휘관은 휑한 공장 안을 한 바퀴 돌더니 문 앞에 앉아 땅바닥의 얇은 흙먼지를 관찰하고 있었다.
+()<Speaker>지휘관</Speaker>||<SE1>Stop_AVG_loop</SE1>:자신을 "솔"이라 소개한 의뢰인은 한 달 전 팀 동료인 휴버트가 블랙골드와 함께 임무에 나섰다가 돌아오지 않았고 인명피해 명단에도 없었다고 했어.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:여긴 무슨 공장이야? 블랙골드는 여기에 왜 온 거고?
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><同时置暗><Position>0,-50</Position>||:생산 설비가 모두 옮겨져서 이전에 무엇을 했는지 모르겠어.
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><同时置暗><Position>0,-50</Position>||:흩어져서 단서를 찾아보자.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:세 사람은 흩어졌다. 두 소녀는 공장 내부를 수색했고, 지휘관은 밖으로 나왔다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><黑屏2><BIN>1</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:厂房坐落于北山的密林中，并不与公路相通，而是开辟了一条隐秘的泥土小路，从车辙的深度来看，这里的货物分量不轻。
-()<Speaker>指挥官</Speaker>||:鬼鬼祟祟，会被黑金围剿也不奇怪。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官仔细观察着周围的环境，试图还原当时的情况。
-()<Speaker></Speaker>||:工厂的大门没有被暴力破坏的痕迹，内侧的弹痕比外面多，门前的地面上有明显的拖拽痕迹……
-()<Speaker>指挥官</Speaker>||:黑金过来时，工厂正在转移，只是没有来及。
-()<Speaker></Speaker>||:厂房外也到处留下了战斗的痕迹：散落的弹壳，树上的弹孔……
-()<Speaker>指挥官</Speaker>||:战斗至少持续了10分钟，对黑金尤其是深渊小队来说，剿灭一个工厂，用时有些长了。
-()<Speaker>指挥官</Speaker>||:没有看到任何爆炸痕迹……这里的东西怕火。
-()<Speaker></Speaker>||:已经围着工厂绕了一圈，关于为什么休伯特从这里失踪，指挥官依然一无所获。
-()<Speaker>指挥官</Speaker>||:刀？
-()<Speaker></Speaker>||:指挥官左侧的树干上，一道长约20厘米，最深处有2厘米的刀痕清晰可见。
-()<Speaker>指挥官</Speaker>||:这里为什么会有刀痕？倒像是一个……记号。
-()<Speaker></Speaker>||:刀痕的一侧较浅，指向了密林深处的一块巨石。
-()<Speaker>指挥官</Speaker>||:土被翻过……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>RunStep</SE1>:有什么发现吗？
-()<Speaker></Speaker>||:卡萝与米蒂尔结束了对工厂内部的调查，来到外面寻找指挥官。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:指挥官蹲下身来，从腰后抽出一把匕首，翻开巨石旁被动过的土。
-()<Speaker></Speaker>||:一根空荡荡的金属链子，和一枚印着章鱼的肩章。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这是黑金国际的肩章！这个链子……是用来挂铭牌的？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:看来线索找到了……休伯特的失踪确实与这次行动有关。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:是工厂的人干的？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:不像……但我们没有办法直接接触黑金，还是要从工厂入手。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哈，我们在楼里发现了这个……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>BGM_Empty</BGM>:卡萝拿出一张被烧得只剩下一半的供货单，最上面写着一个名字——“米歇尔”。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:如果运气好的话，我想这个米歇尔可能就是我认识的那个。
+()<Speaker></Speaker>||:공장 건물은 노스리지의 숲 속에 자리잡고 있어 도로가 아닌 은밀한 흙 길을 뚫어 놓았다. 차바퀴의 깊이로 볼 때 이곳의 화물량은 가볍지 않다.
+()<Speaker>지휘관</Speaker>||:수상쩍은 곳이네, 블랙골드가 털고 간 것도 이상하지 않아.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 주변을 세심하게 살피며 당시 상황을 떠올렸다.
+()<Speaker></Speaker>||:공장 문에는 파손된 흔적이 없었고, 안쪽은 바깥보다 탄흔히 훨씬 많았다. 문 앞 바닥에는 뚜렷하게 끌린 자국이 남아 있다.
+()<Speaker>지휘관</Speaker>||:블랙골드가 도착했을 때 공장은 철수 중이었어. 하지만 시간에 맞추지 못한 거겠지.
+()<Speaker></Speaker>||:공장 외부에도 전투의 흔적이 여기저기 남아 있었다. 흩어진 탄피와 나무에 박힌 총알 자국들...
+()<Speaker>지휘관</Speaker>||:전투는 최소한 10분 이상. 블랙골드, 어비스 분대치고는 공장을 소탕하는 데 시간이 좀 오래 걸린 편이네.
+()<Speaker>지휘관</Speaker>||:폭발 흔적은 전혀 없고... 불에 취약한 소재들...
+()<Speaker></Speaker>||:지휘관은 이미 공장을 한 바퀴 돌았지만, 휴버트가 사라진 것에 대한 단서는 아무것도 얻지 못했다.
+()<Speaker>지휘관</Speaker>||:칼?
+()<Speaker></Speaker>||:지휘관의 왼쪽에 있는 나무에는 길이 약 20cm, 최대 깊이 2cm의 선명한 칼자국이 나 있었다.
+()<Speaker>지휘관</Speaker>||:여기 칼자국이 왜 있는 거지? 뭔가... 기호 같은데.
+()<Speaker></Speaker>||:칼자국의 한쪽은 얕았고 숲 깊숙한 곳에 있는 거대한 바위를 가리키고 있었다.
+()<Speaker>지휘관</Speaker>||:흙이 파헤쳐져 있어...
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>RunStep</SE1>:뭐 발견했어?
+()<Speaker></Speaker>||:쿠로와 미틸은 공장 내부 조사를 끝내고 지휘관을 찾아 밖으로 나왔다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:지휘관은 몸을 웅크리고 앉아, 허리 뒤에서 단검을 뽑아 커다란 바위 옆의 파헤쳐진 흙을 뒤졌다.
+()<Speaker></Speaker>||:텅 빈 쇠사슬과 문어가 새겨진 견장이 하나 있었다.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:이건 블랙골드 유니버설의 견장이야! 이 사슬은... 군번줄을 다는 물건 아니야?
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><同时置暗><Position>0,-50</Position>||:단서를 찾은 것 같아… 휴버트의 실종은 이 작전과 관련이 있어.
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:공장 사람들 짓인가?
+NPC-P90_AB(0)<Speaker>지휘관</Speaker><同时置暗><Position>0,-50</Position>||:그런 것 같진 않아... 하지만 블랙골드에 직접 접근할 수는 없으니, 공장부터 조사해야겠어.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:하, 건물 안에서 이걸 발견했어...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>BGM_Empty</BGM>:쿠로는 맨 위에 "미셸"이란 이름이 적힌 반쯤 타버린 납품 견적서를 꺼냈다.
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:운이 좋다면 이 미셸이 내가 아는 그 사람일지도 모르겠네.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>772</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>10213</BGM>:暗区，北山东麓的某个别墅。
-()<Speaker>工厂老板</Speaker>||:你们是什么人，为什么找到我？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:米歇尔，还记得我吗？半年前，是我帮你搞定了那个硝化棉供应商。
-()<Speaker>工厂老板</Speaker>||:你是……那个特遣队员？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:没错。
-()<Speaker>工厂老板</Speaker>||:所以呢，当时的报酬已经结清了吧。隔了这么久突然找上我，想干什么？
-()<Speaker>指挥官</Speaker>||:你的工厂是不是被黑金围剿了？
-()<Speaker>工厂老板</Speaker>||:！
-()<Speaker>工厂老板</Speaker>||:黑金？你在说什么，我和黑金有什么关系。
-()<Speaker>指挥官</Speaker>||:北山里那个，掩人耳目的兵工厂。
-()<Speaker>工厂老板</Speaker>||:！
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:放心，我们不是来替黑金办事的，甚至恰恰相反，有人怀疑黑金的这次行动有问题，我们是来帮你的。
-()<Speaker>工厂老板</Speaker>||:帮我？我能和这件事撇清关系就已经很不错了。
-()<Speaker>工厂老板</Speaker>||:那是黑金的深渊小队，黑卡蒂的深渊小队！
-()<Speaker>指挥官</Speaker>||:黑卡蒂？
-()<Speaker>指挥官</Speaker>||:我们保证不透露今天的事情，绝不会把你牵扯进来。能不能给我们说说，那天究竟发生了什么？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:工厂老板胖墩墩的身子似乎终于站累了，向后瘫坐进沙发里，给自己点燃了烟斗，深深地吸了一口。
-()<Speaker>工厂老板</Speaker>||:我真不愿再回想起那天的事情……
+()<Speaker></Speaker>||<BGM>10213</BGM>:다크존, 노스리지 동쪽 기슭의 어느 별장.
+()<Speaker>공장장</Speaker>||:너흰 뭐야. 날 왜 찾아왔지?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:미셸, 나 기억나지? 반년 전에 내가 너네 질화면 공급업체 문제를 해결해 줬잖아.
+()<Speaker>공장장</Speaker>||:너는... 그때 그 대원인가?
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:맞아.
+()<Speaker>공장장</Speaker>||:그래서? 그때 보수는 이미 다 줬잖아. 오랜만에 갑자기 나를 찾아온 이유가 뭐야?
+()<Speaker>지휘관</Speaker>||:당신 공장이 블랙골드에게 공격 받지 않았어?
+()<Speaker>공장장</Speaker>||:!
+()<Speaker>공장장</Speaker>||:블랙골드? 무슨 소리야? 내가 블랙골드랑 무슨 관계가 있다고.
+()<Speaker>지휘관</Speaker>||:노스리지에 있는 그 눈속임용 병기 공장.
+()<Speaker>공장장</Speaker>||:!
+NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:안심해. 우린 블랙골드의 의뢰로 온 게 아니야. 오히려 블랙골드의 이번 작전에 문제가 있다고 의심하는 사람들이 있거든. 우리는 당신을 도우러 온 거야.
+()<Speaker>공장장</Speaker>||:날 돕는다고? 난 이 일에 엮이고 싶지 않아.
+()<Speaker>공장장</Speaker>||:그건 블랙골드의 어비스, 헤카테의 어비스 분대였어!
+()<Speaker>지휘관</Speaker>||:헤카테?
+()<Speaker>지휘관</Speaker>||:오늘 일에 대해서는 절대로 널 끌어들이지 않겠다고 약속하지. 그날 무슨 일이 있었는지 말해줄 수 있겠어?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:공장장은 지친 듯 소파에 털썩 주저앉아 담배에 불을 붙여 깊게 한 모금 들이마셨다.
+()<Speaker>공장장</Speaker>||:다시는 그날의 일을 떠올리고 싶지 않군...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><回忆><CGDelay>0.5</CGDelay>:
-()<Speaker>工厂老板</Speaker>||:<size=50>快！把剩下的机器都砸了！黑金就要到了！</size>
-()<Speaker></Speaker>||:一个月前，北山，米歇尔兵工厂。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:两辆卡车停在门口，几个工人正从厂房里把一箱箱货堆到车上。货箱上标着明显的“禁止明火”、“禁止淋雨”标志。
-()<Speaker>工厂老板</Speaker>||:还差几箱？赶紧搬上去，能不能东山再起就看这批子弹的价钱了，2分钟内必须发车！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:树林中已经传来了隐约的枪声。
-()<Speaker>工厂老板</Speaker>||:来不及了！直接走，都开走！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:工厂老板打开旁边的车门想要上车，却被驾驶座的司机一把推了下去。
-()<Speaker>工厂老板</Speaker>||:？
-()<Speaker></Speaker>||:司机蒙着脸，看不清面容，露出的小臂上有一道陈年的刀疤。
-()<Speaker>工厂老板</Speaker>||:你……你不是……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:神秘的司机没有理会瘫坐在地上的老板，车笛短促地鸣了两声似是暗号，两辆装满了子弹的货车扬长而去，丢下没有回过神的工厂老板与工人。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“呯——”，一发子弹擦着老板的头发打在他身后的大门上，黑金来了。
-()<Speaker>工厂老板</Speaker>||:<size=50>跑！</size>
-()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:见工人和守卫们朝外四散跑去，已经与黑金正面交火；工厂老板见无人注意到自己，转身跑回了厂房里。
+()<Speaker>공장장</Speaker>||:<size=50>빨리! 남은 기계를 모두 부숴라! 블랙골드가 곧 도착한다고!</size>
+()<Speaker></Speaker>||:한 달 전, 노스리지. 미셸 병기 공장.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:트럭 두 대가 공장 입구에 세워져 있고, 몇 명의 노동자가 화물 상자를 차에 싣고 있다. 화물 상자에는 '화기 엄금'과 '습기 주의' 표시가 선명하게 붙어 있다.
+()<Speaker>공장장</Speaker>||:아직 몇 박스가 모자란데? 빨리 올려! 이 총알 값에 우리 운명이 걸렸어. 2분 안에 출발해야 해!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:숲속에서 벌써 희미한 총소리가 들려왔다.
+()<Speaker>공장장</Speaker>||:늦었어! 바로 출발해. 다 출발해!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:공장장은 옆쪽 차 문을 열고 타려다 운전석에 있던 기사에게 밀려났다.
+()<Speaker>공장장</Speaker>||:?
+()<Speaker></Speaker>||:운전기사는 얼굴을 가리고 있었고, 드러난 팔뚝에는 묵은 칼자국이 있었다.
+()<Speaker>공장장</Speaker>||:너... 넌...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:정체불명의 운전자는 주저앉은 공장장은 아랑곳하지 않고 짧은 경적을 두 번 울렸고, 총알이 가득 찬 화물차 두 대는 정신을 차리지 못한 공장장과 노동자들을 남겨두고 사라졌다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“탕!”. 한 발의 총알이 공장장의 머리를 스치고 그의 뒤쪽 대문을 때렸다. 블랙골드가 온 것이다.
+()<Speaker>공장장</Speaker>||:<size=50>도망쳐!</size>
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:노동자들과 경비원들이 뿔뿔이 흩어져 블랙골드와 정면으로 교전하는 것을 본 공장장은, 아무도 자신을 신경 쓰지 않는 것을 확인하고 돌아서서 공장 안으로 달려갔다.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑点2><BIN>222</BIN><回忆><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:工厂二楼，老板躲在一个货架后面，小心地听着外面的动静，直到交火声停止了，才小心地探出头查看。
-()<Speaker></Speaker>||:工厂的大门敞开着，三个身穿黑金作战服的特种兵走了进来，走在前面的女人有着一头黑发。
-()<Speaker>工厂老板</Speaker>||:黑卡蒂……深渊……
-()<Speaker></Speaker>||:工厂老板认出了为首的女子，把自己又往阴影里藏了藏，不敢暴露。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<SE1>Select</SE1>:任务完成，接下来你知道该怎么做。
-()<Speaker>男子</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:透过两个柜子间的细缝，工厂老板窥见一个黑金队员卸下了身上所有的武器装备，整齐地放在地上，随后想要摘下右臂上的黑金肩章。
-()<Speaker></Speaker>||:黑卡蒂向一旁站立的另一个黑金队员摆头示意。接到指示，这名黑金把枪上膛，猛地推了一把前一个人。
-()<Speaker>黑金队员</Speaker>||:走吧，该上路了。
-()<Speaker></Speaker>||:卸下武器的黑金队员对黑卡蒂深深鞠了一躬，跟着持枪的黑金走了出去。
+()<Speaker></Speaker>||:공장 2층에서 공장장은 선반 뒤에 몸을 숨기고 밖의 상황을 주의 깊게 듣다가, 교전 소리가 그치자 조심스럽게 머리를 내밀어 주변을 살폈다.
+()<Speaker></Speaker>||:공장 문이 활짝 열리고 블랙골드 전투복을 입은 특전대 3명이 들어섰다. 맨 앞에 선 여자는 검은 머리를 하고 있었다.
+()<Speaker>공장장</Speaker>||:헤카테... 어비스...
+()<Speaker></Speaker>||:공장장은 대장인 여자를 알아보고, 상대방이 알아채지 못하게 더 깊숙이 몸을 숨겼다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||<SE1>Select</SE1>:임무 완료. 이제 뭘 해야하는 지 알겠지?
+()<Speaker>남자</Speaker>||:예.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:두 선반 사이의 가는 틈을 통해 공장장은 블랙골드 대원이 몸에 지니고 있던 모든 무기를 가지런히 내려놓은 뒤, 오른팔에 달린 블랙골드 견장을 떼려는 것을 엿보았다.
+()<Speaker></Speaker>||:헤카테는 옆에 서 있는 또 다른 블랙골드 대원들에게 고개를 흔들어 신호를 보냈다. 지시를 받은 대원은 총을 장전하고 앞사람을 세게 밀었다.
+()<Speaker>블랙골드 대원</Speaker>||:시간이 됐습니다. 가시죠.
+()<Speaker></Speaker>||:무기를 내려놓은 블랙골드 대원은 헤카테에게 경례를 하고 총을 든 블랙골드 대원을 따라 나섰다.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“呯——”
-()<Speaker></Speaker>||:外面突兀的枪响让工厂老板吓了一跳。过了一阵，刚刚带人出去的黑金队员独自跑了回来。
-()<Speaker>黑金队员</Speaker>||:办好了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:把这里清理干净，走吧。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:黑卡蒂与深渊小队撤离了工厂。而老板直至夜幕低垂，才壮起胆子从躲藏地方出来，逃离了这里。
+()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“탕!”
+()<Speaker></Speaker>||:밖에서 갑자기 난 총소리가 공장장을 깜짝 놀라게 했다. 잠시 후, 방금 사람을 데리고 나갔던 블랙골드 대원이 혼자 뛰어왔다.
+()<Speaker>블랙골드 대원</Speaker>||:다 옮겼습니다.
+NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:여길 깨끗하게 청소하고 떠난다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:헤카테와 어비스 분대는 공장에서 철수했다. 공장장은 밤이 깊어진 뒤에야 용기를 내어 탈출했다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>772</BIN><关闭蒙版><CGDelay>0.5</CGDelay>:
-()<Speaker>工厂老板</Speaker>||:在这之后，我就躲回了家避风头。幸好黑金也没在意我这种小角色……
-()<Speaker>指挥官</Speaker>||:你说有一个黑金队员在那天被秘密处决了？
-()<Speaker>工厂老板</Speaker>||:是。我不知道他是谁，但处决他的人就是深渊小队的队长，黑卡蒂。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:谢谢你，可以请你描述一下他的样子吗？
-()||<黑点1>:
+()<Speaker>공장장</Speaker>||:그 후, 난 집으로 돌아왔지. 다행히 블랙골드도 나 같은 일개 공장장은 신경 안 쓰기도 하고...
+()<Speaker>지휘관</Speaker>||:그날 블랙골드 대원이 비밀리에 처형당했다고?
+()<Speaker>공장장</Speaker>||:그래. 누군지 모르겠지만 처형을 지시한 건 어비스의 대장 헤카테였어.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:고마워. 어떻게 생겼는지 자세히 알려주지 않겠어?
+()||<黑点1>:
