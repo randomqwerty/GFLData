@@ -58,7 +58,32 @@ local LoadItemData = function(self)
 	self:LoadItemData();
 	self:ItemObjMoveReast();
 end
+
+local SelectCancelSpot = function(self,select)
+	self:SelectCancelSpot(select);
+	if select then
+		self:ShowAllSelectTarget();
+	else
+		self:CloseAllSelectTarget();
+	end
+end
 --util.hotfix_ex(CS.DeploymentBuildingController,'CheckSkillDetail',CheckSkillDetail)
+
+local CheckTeamMoveCost = function(self,showTip)
+	if self.vehicleTeam ~= nil then
+		if self:CurrentBuffNeedCostAp() >0 then
+			if CS.GameData.missionAction.ap < self:CurrentBuffNeedCostAp() then
+				if showTip then
+					CS.CommonController.LightMessageTips(CS.Data.GetLang(30506));
+				end
+				return false;
+			end
+		end 
+	end	
+	return self:CheckTeamMoveCost(showTip);
+end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
 util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
+util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectCancelSpot',SelectCancelSpot)
+util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamMoveCost',CheckTeamMoveCost)

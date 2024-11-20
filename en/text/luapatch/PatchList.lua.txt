@@ -441,6 +441,7 @@ patch3060=
 "3060/TarkovBattleWrapper",
 "3060/BreakoutAVGController",
 "3060/BattleInteractionController",
+"3060/SangvisGunStateController",
 }
 -- va11
 print("load Va11");
