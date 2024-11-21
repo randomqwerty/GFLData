@@ -68,7 +68,34 @@ local SelectCancelSpot = function(self,select)
 	end
 end
 --util.hotfix_ex(CS.DeploymentBuildingController,'CheckSkillDetail',CheckSkillDetail)
+
+local CheckTeamMoveCost = function(self,showTip)
+	if self.vehicleTeam ~= nil then
+		if self:CurrentBuffNeedCostAp() >0 then
+			if CS.GameData.missionAction.ap < self:CurrentBuffNeedCostAp() then
+				if showTip then
+					CS.CommonController.LightMessageTips(CS.Data.GetLang(30506));
+				end
+				return false;
+			end
+		end 
+	end	
+	return self:CheckTeamMoveCost(showTip);
+end
+
+local AddAndPlayPlayBattleChange = function(self)
+	if CS.GameData.missionResult ~= nil then
+		self:AddAndPlayPerformance(nil);
+		self:AddAndPlayPerformance(function()
+			CS.DeploymentController.TriggerFinishMissionEvent();
+		end)		
+		return;
+	end
+	self:AddAndPlayPlayBattleChange();
+end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
 util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectCancelSpot',SelectCancelSpot)
+util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamMoveCost',CheckTeamMoveCost)
+util.hotfix_ex(CS.DeploymentController,'AddAndPlayPlayBattleChange',AddAndPlayPlayBattleChange)
