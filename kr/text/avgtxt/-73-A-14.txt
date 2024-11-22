@@ -84,7 +84,7 @@ NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:맞아, 그럴 생각 없었어. 
 NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:그러니까, 얌전히 놓아줄 테니 상자가 어딨는지 말해. 서로 괜히 힘 빼지 말자고.
 NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:뭘 믿고?
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:이 헤카테의 약속이니까.
-NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<震屏3>:헤카테... 헉! 블랙골드 특공대의 어비스 분대!
+NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||<震屏3>:헤카테... 헉! 블랙골드 특공대의 심연 분대!
 ()<Speaker></Speaker>||:여자의 정체와 이름을 들은 미틸이 놀라 비명을 질렀다.
 NPC-P90_AB(0)<Speaker>미틸</Speaker><Position>0,-50</Position>||:쿠로 말이 맞았어... 진짜 골칫덩이 상자였어...
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:어떡할래? 나 바쁜 몸이야.
@@ -100,7 +100,7 @@ NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:...도스? 도스 안토니오?
 ()<Speaker>지휘관</Speaker>||:그래, 우린 원래 3명이었는데 배에서 네 번째 멤버를 받았거든.
 ()<Speaker>지휘관</Speaker>||:"벨루가"라는 녀석이 우릴 속여서 기절시키고 안토니오 패밀리와 함께 상자를 가져갔어.
 ()<Speaker>지휘관</Speaker>||:네가 쫓아야 할 건 안토니오 패밀리야, 우리가 아니라.
-()<Speaker></Speaker>||:지휘관은 시간을 끌며 헤카테와 어비스 분대의 주의를 돌렸다.
+()<Speaker></Speaker>||:지휘관은 시간을 끌며 헤카테와 심연 분대의 주의를 돌렸다.
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:그럼, 나머지 한 명은 어딨지?
 NPC-Hecate_AB(0)<Speaker>지휘관</Speaker><同时置暗>||:......
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:지금 봐서는 말이야, 그 둘이 상자를 숨긴 것처럼 보이거든... 어떻게 설명할래?
@@ -173,7 +173,7 @@ NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:이쪽! 내가 차 찾았어!
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_20Winter_Door_Car_Open</SE1>:
 NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:안전벨트 맸지? 간다!
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>AVG_engine_speedup</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:차량이 질주했다. 간신히 뒤쫓아 온 어비스 분대가 뒤로 몇 발 사격했지만, 맞히지는 못했다.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:차량이 질주했다. 간신히 뒤쫓아 온 심연 분대가 뒤로 몇 발 사격했지만, 맞히지는 못했다.
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:정지.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><回忆><BIN>1</BIN><Night><CGDelay>0.5</CGDelay>:

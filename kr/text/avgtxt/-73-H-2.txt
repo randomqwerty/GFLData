@@ -19,7 +19,7 @@ NPC-P90_AB(0)<Speaker>지휘관</Speaker><同时置暗><Position>0,-50</Position
 ()<Speaker></Speaker>||:공장 문에는 파손된 흔적이 없었고, 안쪽은 바깥보다 탄흔히 훨씬 많았다. 문 앞 바닥에는 뚜렷하게 끌린 자국이 남아 있다.
 ()<Speaker>지휘관</Speaker>||:블랙골드가 도착했을 때 공장은 철수 중이었어. 하지만 시간에 맞추지 못한 거겠지.
 ()<Speaker></Speaker>||:공장 외부에도 전투의 흔적이 여기저기 남아 있었다. 흩어진 탄피와 나무에 박힌 총알 자국들...
-()<Speaker>지휘관</Speaker>||:전투는 최소한 10분 이상. 블랙골드, 어비스 분대치고는 공장을 소탕하는 데 시간이 좀 오래 걸린 편이네.
+()<Speaker>지휘관</Speaker>||:전투는 최소한 10분 이상. 블랙골드, 심연 분대치고는 공장을 소탕하는 데 시간이 좀 오래 걸린 편이네.
 ()<Speaker>지휘관</Speaker>||:폭발 흔적은 전혀 없고... 불에 취약한 소재들...
 ()<Speaker></Speaker>||:지휘관은 이미 공장을 한 바퀴 돌았지만, 휴버트가 사라진 것에 대한 단서는 아무것도 얻지 못했다.
 ()<Speaker>지휘관</Speaker>||:칼?
@@ -55,7 +55,7 @@ NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:맞아.
 ()<Speaker>공장장</Speaker>||:!
 NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:안심해. 우린 블랙골드의 의뢰로 온 게 아니야. 오히려 블랙골드의 이번 작전에 문제가 있다고 의심하는 사람들이 있거든. 우리는 당신을 도우러 온 거야.
 ()<Speaker>공장장</Speaker>||:날 돕는다고? 난 이 일에 엮이고 싶지 않아.
-()<Speaker>공장장</Speaker>||:그건 블랙골드의 어비스, 헤카테의 어비스 분대였어!
+()<Speaker>공장장</Speaker>||:그건 블랙골드의 심연, 헤카테의 심연 분대였어!
 ()<Speaker>지휘관</Speaker>||:헤카테?
 ()<Speaker>지휘관</Speaker>||:오늘 일에 대해서는 절대로 널 끌어들이지 않겠다고 약속하지. 그날 무슨 일이 있었는지 말해줄 수 있겠어?
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:공장장은 지친 듯 소파에 털썩 주저앉아 담배에 불을 붙여 깊게 한 모금 들이마셨다.
@@ -84,7 +84,7 @@ NPC-MDR_AB(0)<Speaker>쿠로</Speaker>||:안심해. 우린 블랙골드의 의�
 ()<Speaker></Speaker>||<黑点2><BIN>222</BIN><回忆><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||:공장 2층에서 공장장은 선반 뒤에 몸을 숨기고 밖의 상황을 주의 깊게 듣다가, 교전 소리가 그치자 조심스럽게 머리를 내밀어 주변을 살폈다.
 ()<Speaker></Speaker>||:공장 문이 활짝 열리고 블랙골드 전투복을 입은 특전대 3명이 들어섰다. 맨 앞에 선 여자는 검은 머리를 하고 있었다.
-()<Speaker>공장장</Speaker>||:헤카테... 어비스...
+()<Speaker>공장장</Speaker>||:헤카테... 심연...
 ()<Speaker></Speaker>||:공장장은 대장인 여자를 알아보고, 상대방이 알아채지 못하게 더 깊숙이 몸을 숨겼다.
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||<SE1>Select</SE1>:임무 완료. 이제 뭘 해야하는 지 알겠지?
 ()<Speaker>남자</Speaker>||:예.
@@ -97,13 +97,13 @@ NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||<SE1>Select</SE1>:임무 완료. �
 ()<Speaker></Speaker>||:밖에서 갑자기 난 총소리가 공장장을 깜짝 놀라게 했다. 잠시 후, 방금 사람을 데리고 나갔던 블랙골드 대원이 혼자 뛰어왔다.
 ()<Speaker>블랙골드 대원</Speaker>||:다 옮겼습니다.
 NPC-Hecate_AB(0)<Speaker>헤카테</Speaker>||:여길 깨끗하게 청소하고 떠난다.
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:헤카테와 어비스 분대는 공장에서 철수했다. 공장장은 밤이 깊어진 뒤에야 용기를 내어 탈출했다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:헤카테와 심연 분대는 공장에서 철수했다. 공장장은 밤이 깊어진 뒤에야 용기를 내어 탈출했다.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>772</BIN><关闭蒙版><CGDelay>0.5</CGDelay>:
 ()<Speaker>공장장</Speaker>||:그 후, 난 집으로 돌아왔지. 다행히 블랙골드도 나 같은 일개 공장장은 신경 안 쓰기도 하고...
 ()<Speaker>지휘관</Speaker>||:그날 블랙골드 대원이 비밀리에 처형당했다고?
-()<Speaker>공장장</Speaker>||:그래. 누군지 모르겠지만 처형을 지시한 건 어비스의 대장 헤카테였어.
+()<Speaker>공장장</Speaker>||:그래. 누군지 모르겠지만 처형을 지시한 건 심연의 대장 헤카테였어.
 ()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:고마워. 어떻게 생겼는지 자세히 알려주지 않겠어?
 ()||<黑点1>:
