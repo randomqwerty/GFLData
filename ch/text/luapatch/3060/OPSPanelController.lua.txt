@@ -112,6 +112,28 @@ local RequestBOBreakoutOrganizePackageHandle = function(self,request)
 		mission.winCount = mission.winCount + 1;
 	end
 end
+local LoadLetterUI = function(self)
+	if self.currentPanelConfig.letterConfig ~= nil then
+		if not self.currentPanelConfig.letterConfig.isSendLetter then
+			local missionid = self.currentPanelConfig.letterConfig.missionid;
+			local mission = CS.GameData.listMission:GetDataById(missionid);
+			if mission == nil or mission.UseWinCounter ==0 then
+				return;
+			end
+		end
+	end
+	self:LoadLetterUI();
+	if self.currentPanelConfig.letterConfig ~= nil then
+		if not self.currentPanelConfig.letterConfig.isSendLetter then
+			local check = CS.UnityEngine.PlayerPrefs.GetInt("isLetterShow", 0);
+			if check == 0 then
+				self:ShowLetterEvent();
+				CS.UnityEngine.PlayerPrefs.SetInt("isLetterShow", 1);
+				CS.UnityEngine.PlayerPrefs.Save();
+			end
+		end	
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -122,5 +144,6 @@ util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 --util.hotfix_ex(CS.OPSPanelBackGround,'TriggerEndDragHandler',TriggerEndDragHandler)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowReward',ShowReward)
+util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 
