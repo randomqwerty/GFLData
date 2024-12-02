@@ -87,11 +87,16 @@ local AddAndPlayPlayBattleChange = function(self)
 	if CS.GameData.missionResult ~= nil then
 		self:AddAndPlayPerformance(nil);
 		self:AddAndPlayPerformance(function()
+			CS.GameData.missionAction.queuePerformanceHandler:Clear();
 			CS.DeploymentController.TriggerFinishMissionEvent();
 		end)		
 		return;
 	end
 	self:AddAndPlayPlayBattleChange();
+end
+local RequestStartMission = function(self)
+	CS.DeploymentController.savePlayQueue:Clear();
+	self:RequestStartMission();
 end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
@@ -99,3 +104,4 @@ util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectCancelSpot',SelectCancelSpot)
 util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamMoveCost',CheckTeamMoveCost)
 util.hotfix_ex(CS.DeploymentController,'AddAndPlayPlayBattleChange',AddAndPlayPlayBattleChange)
+util.hotfix_ex(CS.DeploymentController,'RequestStartMission',RequestStartMission)

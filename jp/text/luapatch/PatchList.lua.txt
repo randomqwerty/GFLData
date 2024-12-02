@@ -437,6 +437,7 @@ patch3060=
 "3060/BreakoutTeamPrepareController",
 "3060/BattleTarkovUIGunItem",
 "3060/VehicleData",
+"3060/MissionSkillData",	
 "3060/MissionSelectionActivityBar",	
 "3060/TarkovBattleWrapper",
 "3060/BreakoutAVGController",
