@@ -91,6 +91,8 @@ MissionSelectionTex|missionselect_FixedPoint_RE|2|-40401
 MissionSelectionTex|missionselect_breakout|2|-73
 //纵向应变秃洞单独配置：
 MissionSelectionTex|missionselect_2022Summer|1|-40402
+//慢休克秃洞单独配置：
+MissionSelectionTex|missionselect_Slowshock|2|-40403
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -145,6 +147,7 @@ OPSPanelScene|-72|-72
 OPSPanelScene|-40401|-40401
 OPSPanelScene|-73|-73
 OPSPanelScene|-40402|-40402
+OPSPanelScene|-40403|-40403
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -177,6 +180,7 @@ OPSReturn|202408Activity_Return|-71
 OPSReturn|202410Activity_Return|-72
 OPSReturn|202408Activity_Return|-73
 OPSReturn|2022SummerReturn|-40402
+OPSReturn|2023Spring_Return|-40403
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -231,6 +235,7 @@ OPSLeftBGNormalActivity|-71|202408Activity_Left
 OPSLeftBGNormalActivity|-72|202410Activity_Left
 OPSLeftBGNormalActivity|-40401|FixedPoint_Left
 OPSLeftBGNormalActivity|-40402|2022SummerLogo
+OPSLeftBGNormalActivity|-40403|2023Spring_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -271,8 +276,8 @@ OPSLeftBGNormalActivity|-40402|2022SummerLogo
 //OPSNoticeNormalActivity|-62|2023Se_Notice
 OPSNoticeNormalActivity|-62|2023Se_Notice
 OPSNoticeNormalActivity|-64|2024Ghost_Notice
-OPSNoticeNormalActivity|-68|202404Activity_Notice
-OPSNoticeNormalActivity|-69|202406Activity_Notice
+//OPSNoticeNormalActivity|-68|202404Activity_Notice
+//OPSNoticeNormalActivity|-69|202406Activity_Notice
 OPSNoticeNormalActivity|-70|202407Activity_Notice
 OPSNoticeNormalActivity|-71|202408Activity_Notice
 OPSNoticeNormalActivity|-72|202410Activity_Notice
@@ -577,6 +582,7 @@ OPSCampaignTitleButton|-70|true|202407Activity_Difficulty2Btn
 OPSCampaignTitleButton|-71|true|202408Activity_Difficulty2Btn
 OPSCampaignTitleButton|-72|true|202410Activity_Difficulty2Btn
 OPSCampaignTitleButton|-73|true|202408Activity_Difficulty2Btn
+OPSCampaignTitleButton|-40403|true|2023Spring_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -621,8 +627,8 @@ OPSCampaignTitleButton|-73|true|202408Activity_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 //OPSCampaignTitleButtonTip|-61|100228|120|2023RougeSummer_Tip|1
 //OPSCampaignTitleButtonTip|-62|100221|60|2023Se_MissionPanelTip|1
-OPSCampaignTitleButtonTip|-68|100214|60|202404Acticity_Tip|1
-OPSCampaignTitleButtonTip|-69|100224|60|202406Activity_Tip|1
+//OPSCampaignTitleButtonTip|-68|100214|60|202404Acticity_Tip|1
+//OPSCampaignTitleButtonTip|-69|100224|60|202406Activity_Tip|1
 OPSCampaignTitleButtonTip|-70|100231|60|202407Activity_Tip|1
 OPSCampaignTitleButtonTip|-71|100235|60|202408Activity_Tip|1
 

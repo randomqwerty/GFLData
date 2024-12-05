@@ -164,26 +164,29 @@ function  ShowBackground()--活动背景
 				ShowSpecialUI(false);
 			end);
 		local ending4=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding4");
-		local ending4Btn = ending4:GetComponent(typeof(CS.ExButton));
-		ending4Btn:AddOnClick(function()
-				OPSPanelMissionBase.opsMission.missionIds:Clear();
-				OPSPanelMissionBase.opsMission.entranceId = 0;
-				OPSPanelMissionBase.opsMission.missionIds:Add(11881);
-				OPSPanelMissionBase.opsMission.missionIds:Add(11881);
-				ShowMissionPanel();
-				ShowSpecialUI(false);
-			end);
+		if ending4 ~= nil then
+			local ending4Btn = ending4:GetComponent(typeof(CS.ExButton));
+			ending4Btn:AddOnClick(function()
+					OPSPanelMissionBase.opsMission.missionIds:Clear();
+					OPSPanelMissionBase.opsMission.entranceId = 0;
+					OPSPanelMissionBase.opsMission.missionIds:Add(11881);
+					OPSPanelMissionBase.opsMission.missionIds:Add(11881);
+					ShowMissionPanel();
+					ShowSpecialUI(false);
+				end);
+		end
 		local ending5=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding5");
-		local ending5Btn = ending5:GetComponent(typeof(CS.ExButton));
-		ending5Btn:AddOnClick(function()
-				OPSPanelMissionBase.opsMission.missionIds:Clear();
-				OPSPanelMissionBase.opsMission.entranceId = 0;
-				OPSPanelMissionBase.opsMission.missionIds:Add(11882);
-				OPSPanelMissionBase.opsMission.missionIds:Add(11882);
-				ShowMissionPanel();
-				ShowSpecialUI(false);
-			end);
-		
+		if ending5 ~= nil then
+			local ending5Btn = ending5:GetComponent(typeof(CS.ExButton));
+			ending5Btn:AddOnClick(function()
+					OPSPanelMissionBase.opsMission.missionIds:Clear();
+					OPSPanelMissionBase.opsMission.entranceId = 0;
+					OPSPanelMissionBase.opsMission.missionIds:Add(11882);
+					OPSPanelMissionBase.opsMission.missionIds:Add(11882);
+					ShowMissionPanel();
+					ShowSpecialUI(false);
+				end);
+		end
 	end
 	if returnobj == nil or returnobj:isNull() then
 		returnobj= CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Pics/ActivityMap/Bikini_2022_Return"), opsControl.leftMain, false);
@@ -386,27 +389,33 @@ function ShowSpecialUI(show)
 		Mission:Find("MissionEnding3/Img_Locked").gameObject:SetActive(true);
 		btn.enabled = false;
 	end
-	text = Mission:Find("MissionEnding4/Text_MissionName"):GetComponent(typeof(CS.ExText));
-	btn = Mission:Find("MissionEnding4"):GetComponent(typeof(CS.ExButton));
-	if ending4 ~= nil then
-		text.color = CS.UnityEngine.Color(1,1,1,1);
-		Mission:Find("MissionEnding4/Img_Locked").gameObject:SetActive(false);
-		btn.enabled = true;
-	else
-		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
-		Mission:Find("MissionEnding4/Img_Locked").gameObject:SetActive(true);
-		btn.enabled = false;
+	local missionending4 = Mission:Find("MissionEnding4");
+	if missionending4 ~= nil then
+		text = Mission:Find("MissionEnding4/Text_MissionName"):GetComponent(typeof(CS.ExText));
+		btn = Mission:Find("MissionEnding4"):GetComponent(typeof(CS.ExButton));
+		if ending4 ~= nil then
+			text.color = CS.UnityEngine.Color(1,1,1,1);
+			Mission:Find("MissionEnding4/Img_Locked").gameObject:SetActive(false);
+			btn.enabled = true;
+		else
+			text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+			Mission:Find("MissionEnding4/Img_Locked").gameObject:SetActive(true);
+			btn.enabled = false;
+		end
 	end
-	text = Mission:Find("MissionEnding5/Text_MissionName"):GetComponent(typeof(CS.ExText));
-	btn = Mission:Find("MissionEnding5"):GetComponent(typeof(CS.ExButton));
-	if ending5 ~= nil then
-		text.color = CS.UnityEngine.Color(1,1,1,1);
-		Mission:Find("MissionEnding5/Img_Locked").gameObject:SetActive(false);
-		btn.enabled = true;
-	else
-		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
-		Mission:Find("MissionEnding5/Img_Locked").gameObject:SetActive(true);
-		btn.enabled = false;
+	local missionending5 = Mission:Find("MissionEnding5");
+	if missionending5 ~= nil then
+		text = Mission:Find("MissionEnding5/Text_MissionName"):GetComponent(typeof(CS.ExText));
+		btn = Mission:Find("MissionEnding5"):GetComponent(typeof(CS.ExButton));
+		if ending5 ~= nil then
+			text.color = CS.UnityEngine.Color(1,1,1,1);
+			Mission:Find("MissionEnding5/Img_Locked").gameObject:SetActive(false);
+			btn.enabled = true;
+		else
+			text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+			Mission:Find("MissionEnding5/Img_Locked").gameObject:SetActive(true);
+			btn.enabled = false;
+		end
 	end
 end
 local returnobj = nil;

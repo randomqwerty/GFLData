@@ -76,7 +76,7 @@ local SelectMissionSpot = function(self,spot)
 	end
 end
 local chooseing = function(self)
-	return self.currentChoose ~= nil;
+	return false;
 end
 local RequestBOBreakoutStartMissionHandle = function(self,result)
 	local mission = CS.GameData.listMission:GetDataById(result.missionid);
@@ -134,6 +134,56 @@ local LoadLetterUI = function(self)
 		end	
 	end
 end
+local RequestSetDrawEvent = function(self,data)
+	self:CheckAllTimelineState();
+	self:RequestSetDrawEvent(data);
+end
+local CheckAllTimelineState = function(self)
+	if self.campaionId ~= -74 then
+		self:CheckAllTimelineState();
+		return;
+	end
+	if self.currentPanelConfig.oPSUnclockTimeLines.Keys.Count == 0 then
+		return;
+	end
+	local iter = self.currentPanelConfig.oPSUnclockTimeLines:GetEnumerator(); 	
+	while iter:MoveNext() do 
+		local scenePath = iter.Current.Key;
+		local timelines = iter.Current.Value;
+		local timeTrans = self.transform.parent:Find(scenePath);
+		local playableDirector = timeTrans:GetComponent(typeof(CS.UnityEngine.Playables.PlayableDirector));
+		playableDirector.playOnAwake = false;
+		local hascheck = false;
+		print(scenePath);
+		for j=timelines.Count-1,0,-1 do
+			if not hascheck then
+				local timeline = timelines[j];
+				local checkState = false;
+				local ids = CS.System.Collections.Generic.List(CS.System.Int32)(timeline.order);
+				if timeline.type == -1 then
+					for m = 0,ids.Count-1 do
+						local mission = CS.GameData.listMission:GetDataById(ids[m]);
+						if mission ~= nil then
+							print(ids[m]);
+							checkState = true;
+						end
+					end
+				end
+				if checkState then
+					local check = self:CheckTimeLineState(playableDirector, timeline.timelinePath);
+					if check then
+						hascheck = true;
+					end
+				end
+			end
+		end
+		if not hascheck then
+			if timelines.Count > 0 then
+				self:CheckTimeLineStart(playableDirector, timelines[0].timelinePath);    
+			end
+		end
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -145,5 +195,7 @@ util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowReward',ShowReward)
 util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.OPSPanelController,'CheckAllTimelineState',CheckAllTimelineState)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 
