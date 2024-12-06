@@ -163,7 +163,30 @@ function  ShowBackground()--活动背景
 				ShowMissionPanel();
 				ShowSpecialUI(false);
 			end);
-		
+		local ending4=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding4");
+		if ending4 ~= nil then
+			local ending4Btn = ending4:GetComponent(typeof(CS.ExButton));
+			ending4Btn:AddOnClick(function()
+					OPSPanelMissionBase.opsMission.missionIds:Clear();
+					OPSPanelMissionBase.opsMission.entranceId = 0;
+					OPSPanelMissionBase.opsMission.missionIds:Add(11881);
+					OPSPanelMissionBase.opsMission.missionIds:Add(11881);
+					ShowMissionPanel();
+					ShowSpecialUI(false);
+				end);
+		end
+		local ending5=voteMap.transform:Find("MissionSpecial/MissionList/MissionEnding5");
+		if ending5 ~= nil then
+			local ending5Btn = ending5:GetComponent(typeof(CS.ExButton));
+			ending5Btn:AddOnClick(function()
+					OPSPanelMissionBase.opsMission.missionIds:Clear();
+					OPSPanelMissionBase.opsMission.entranceId = 0;
+					OPSPanelMissionBase.opsMission.missionIds:Add(11882);
+					OPSPanelMissionBase.opsMission.missionIds:Add(11882);
+					ShowMissionPanel();
+					ShowSpecialUI(false);
+				end);
+		end
 	end
 	if returnobj == nil or returnobj:isNull() then
 		returnobj= CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Pics/ActivityMap/Bikini_2022_Return"), opsControl.leftMain, false);
@@ -263,7 +286,13 @@ function ClickMission(name)
 			OPSPanelMissionBase.opsMission.missionIds:Add(11692);
 		elseif name == "MissionEnding3" then
 			OPSPanelMissionBase.opsMission.missionIds:Add(11693);
-			OPSPanelMissionBase.opsMission.missionIds:Add(11693);		
+			OPSPanelMissionBase.opsMission.missionIds:Add(11693);
+		elseif name == "MissionEnding4" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11881);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11881);	
+		elseif name == "MissionEnding5" then
+			OPSPanelMissionBase.opsMission.missionIds:Add(11882);
+			OPSPanelMissionBase.opsMission.missionIds:Add(11882);			
 		end
 	end
 	ShowSpecialUI(false);
@@ -297,6 +326,8 @@ function ShowSpecialUI(show)
 	local ending1 = CS.GameData.listMission:GetDataById(11691);
 	local ending2 = CS.GameData.listMission:GetDataById(11692);
 	local ending3 = CS.GameData.listMission:GetDataById(11693);
+	local ending4 = CS.GameData.listMission:GetDataById(11881);
+	local ending5 = CS.GameData.listMission:GetDataById(11882);
 	local text = Mission:Find("MissionVote/Text_MissionName"):GetComponent(typeof(CS.ExText));
 	local text1 = Mission:Find("MissionEpilogue/Text_MissionName"):GetComponent(typeof(CS.ExText));
 	local check0 = CheckMissionkey(1109900);
@@ -357,6 +388,34 @@ function ShowSpecialUI(show)
 		text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
 		Mission:Find("MissionEnding3/Img_Locked").gameObject:SetActive(true);
 		btn.enabled = false;
+	end
+	local missionending4 = Mission:Find("MissionEnding4");
+	if missionending4 ~= nil then
+		text = Mission:Find("MissionEnding4/Text_MissionName"):GetComponent(typeof(CS.ExText));
+		btn = Mission:Find("MissionEnding4"):GetComponent(typeof(CS.ExButton));
+		if ending4 ~= nil then
+			text.color = CS.UnityEngine.Color(1,1,1,1);
+			Mission:Find("MissionEnding4/Img_Locked").gameObject:SetActive(false);
+			btn.enabled = true;
+		else
+			text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+			Mission:Find("MissionEnding4/Img_Locked").gameObject:SetActive(true);
+			btn.enabled = false;
+		end
+	end
+	local missionending5 = Mission:Find("MissionEnding5");
+	if missionending5 ~= nil then
+		text = Mission:Find("MissionEnding5/Text_MissionName"):GetComponent(typeof(CS.ExText));
+		btn = Mission:Find("MissionEnding5"):GetComponent(typeof(CS.ExButton));
+		if ending5 ~= nil then
+			text.color = CS.UnityEngine.Color(1,1,1,1);
+			Mission:Find("MissionEnding5/Img_Locked").gameObject:SetActive(false);
+			btn.enabled = true;
+		else
+			text.color = CS.UnityEngine.Color(128/255,128/255,128/255,1);
+			Mission:Find("MissionEnding5/Img_Locked").gameObject:SetActive(true);
+			btn.enabled = false;
+		end
 	end
 end
 local returnobj = nil;
@@ -1081,6 +1140,12 @@ local InitClockData = function(self)
 	opsmission = GetOPSMission("MissionEnding3");
 	infos = self:CheckProcessInfo(opsmission);
 	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionEnding4");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
+	opsmission = GetOPSMission("MissionEnding5");
+	infos = self:CheckProcessInfo(opsmission);
+	self.processInfos:AddRange(infos);
 end
 local SelectProcessInfo = function(self,processInfo)
 	self:SelectProcessInfo(processInfo);
@@ -1108,6 +1173,10 @@ local SelectProcessInfo = function(self,processInfo)
 		ClickMission("MissionEnding2");
 	elseif missionid == 11693 then	
 		ClickMission("MissionEnding3");
+	elseif missionid == 11881 then	
+		ClickMission("MissionEnding4");
+	elseif missionid == 11882 then	
+		ClickMission("MissionEnding5");
 	else
 		ClickMission("Mission2");
 	end		
@@ -1152,6 +1221,12 @@ function GetOPSMission(txt)
 	elseif txt == "MissionEnding3" then
 		opsmission.missionIds:Add(11693);
 		opsmission.missionIds:Add(11693);
+	elseif txt == "MissionEnding4" then
+		opsmission.missionIds:Add(11881);
+		opsmission.missionIds:Add(11881);
+	elseif txt == "MissionEnding5" then
+		opsmission.missionIds:Add(11882);
+		opsmission.missionIds:Add(11882);
 	end
 	return opsmission
 end

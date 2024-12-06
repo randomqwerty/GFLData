@@ -7817,15 +7817,15 @@
   },
   {
     "id": 3644,
-    "formula": "(tbuffidtier(3880)+tbuffidtier(3881)+tbuffidtier(3882))=0?3880:0"
+    "formula": "(tbuffidtier(3880)+tbuffidtier(3881)+tbuffidtier(3882))=0?3880:480"
   },
   {
     "id": 3645,
-    "formula": "(tbuffidtier(3880)=1)&(tbuffidtier(3881)+tbuffidtier(3882)=0)?3881:0"
+    "formula": "(tbuffidtier(3880)=1)&(tbuffidtier(3881)+tbuffidtier(3882)=0)?3881:480"
   },
   {
     "id": 3646,
-    "formula": "tbuffidtier(3881)=1?3882:0"
+    "formula": "tbuffidtier(3881)=1?3882:480"
   },
   {
     "id": 3647,
@@ -7885,7 +7885,7 @@
   },
   {
     "id": 3662,
-    "formula": "sbuffidtier(83)>0?1:0"
+    "formula": "sbuffidtier(83)>0?1:480"
   },
   {
     "id": 3663,
@@ -16102,6 +16102,22 @@
   {
     "id": 9566,
     "formula": "sbuffidtier(9718)=1?sbuffidtier(3303)=7?0:1:0"
+  },
+  {
+    "id": 9601,
+    "formula": "sbuffidtier(9724)>0?0:1"
+  },
+  {
+    "id": 9602,
+    "formula": "sbuffidtier(9722)=1&sbuffidtier(9723)=1?1:0"
+  },
+  {
+    "id": 9603,
+    "formula": "sbuffidtier(9725)=1&sbuffidtier(9726)=1?1:0"
+  },
+  {
+    "id": 9604,
+    "formula": "sbuffidtier(9727)>0?50:0"
   },
   {
     "id": 13280,

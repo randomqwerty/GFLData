@@ -23,8 +23,9 @@ local Init = function(self,mallGood)
 		end
 	end
 	if meet and mallGood.package.listItemPackage.Count > 0 then
-		local own = CS.GameData.GetItem(mallGood.package.listItemPackage.itemInfoid)
-		-- print("explore find mall", mallGood.id, own)
+		local itemId = mallGood.package.listItemPackage[0].itemInfoid
+		local own = CS.GameData.GetItem(itemId)
+		-- print("explore find mall", mallGood.id, itemId, own)
 		if own > 0 then
 			self:SetSoldOut()
 		end

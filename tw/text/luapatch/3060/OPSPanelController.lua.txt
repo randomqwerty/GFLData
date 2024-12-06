@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
+xlua.private_accessible(CS.OPSPanelSpot)
 
 local ShowItemLimitUINew = function(self,itemids)
 	self:ShowItemLimitUINew(itemids);
@@ -76,7 +77,7 @@ local SelectMissionSpot = function(self,spot)
 	end
 end
 local chooseing = function(self)
-	return self.currentChoose ~= nil;
+	return false;
 end
 local RequestBOBreakoutStartMissionHandle = function(self,result)
 	local mission = CS.GameData.listMission:GetDataById(result.missionid);
@@ -112,6 +113,106 @@ local RequestBOBreakoutOrganizePackageHandle = function(self,request)
 		mission.winCount = mission.winCount + 1;
 	end
 end
+local LoadLetterUI = function(self)
+	if self.currentPanelConfig.letterConfig ~= nil then
+		if not self.currentPanelConfig.letterConfig.isSendLetter then
+			local missionid = self.currentPanelConfig.letterConfig.missionid;
+			local mission = CS.GameData.listMission:GetDataById(missionid);
+			if mission == nil or mission.UseWinCounter ==0 then
+				return;
+			end
+		end
+	end
+	self:LoadLetterUI();
+	if self.currentPanelConfig.letterConfig ~= nil then
+		if not self.currentPanelConfig.letterConfig.isSendLetter then
+			local check = CS.UnityEngine.PlayerPrefs.GetInt("isLetterShow", 0);
+			if check == 0 then
+				self:ShowLetterEvent();
+				CS.UnityEngine.PlayerPrefs.SetInt("isLetterShow", 1);
+				CS.UnityEngine.PlayerPrefs.Save();
+			end
+		end	
+	end
+end
+local RequestSetDrawEvent = function(self,data)
+	self:CheckAllTimelineState();
+	self:RequestSetDrawEvent(data);
+end
+local CheckAllTimelineState = function(self)
+	if self.campaionId ~= -74 then
+		self:CheckAllTimelineState();
+		return;
+	end
+	if self.currentPanelConfig.oPSUnclockTimeLines.Keys.Count == 0 then
+		return;
+	end
+	local iter = self.currentPanelConfig.oPSUnclockTimeLines:GetEnumerator(); 	
+	while iter:MoveNext() do 
+		local scenePath = iter.Current.Key;
+		local timelines = iter.Current.Value;
+		local timeTrans = self.transform.parent:Find(scenePath);
+		local playableDirector = timeTrans:GetComponent(typeof(CS.UnityEngine.Playables.PlayableDirector));
+		playableDirector.playOnAwake = false;
+		local hascheck = false;
+		print(scenePath);
+		for j=timelines.Count-1,0,-1 do
+			if not hascheck then
+				local timeline = timelines[j];
+				local checkState = false;
+				local ids = CS.System.Collections.Generic.List(CS.System.Int32)(timeline.order);
+				if timeline.type == -1 then
+					for m = 0,ids.Count-1 do
+						local mission = CS.GameData.listMission:GetDataById(ids[m]);
+						if mission ~= nil then
+							print(ids[m]);
+							checkState = true;
+						end
+					end
+				end
+				if checkState then
+					local check = self:CheckTimeLineState(playableDirector, timeline.timelinePath);
+					if check then
+						hascheck = true;
+					end
+				end
+			end
+		end
+		if not hascheck then
+			if timelines.Count > 0 then
+				self:CheckTimeLineStart(playableDirector, timelines[0].timelinePath);    
+			end
+		end
+	end
+end
+local PlaySpotLine = function(self,play,delay,playUnclock)
+	local time = 0;
+	for i=0,self.lastSpots.Count-1 do
+		local lastSpot = self.lastSpots[i];
+		if lastSpot.CanShow then
+			for j=0,self.paths.Count-1 do
+				local path = self.paths[j];
+				if path.oPSPanelSpot0 == lastSpot then
+					local show = true;
+					if path.showType == 1 then
+						if not self.mission.showNewTag then
+							path:Hide(play,delay);
+							show = false;
+						end
+					end
+					if show then
+						if playUnclock then
+							time = path:PlayUnClockShow(play,self.playUnclockLineTime, delay);
+						else
+							path:Show(play,delay);	
+						end
+					end				
+				end
+			end
+		end
+	end
+	return time;
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -122,5 +223,9 @@ util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 --util.hotfix_ex(CS.OPSPanelBackGround,'TriggerEndDragHandler',TriggerEndDragHandler)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowReward',ShowReward)
+util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.OPSPanelController,'CheckAllTimelineState',CheckAllTimelineState)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
+util.hotfix_ex(CS.OPSPanelSpot,'PlaySpotLine',PlaySpotLine)
 
