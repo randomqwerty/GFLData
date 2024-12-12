@@ -120,7 +120,7 @@ local LoadLetterUI = function(self)
 		if not self.currentPanelConfig.letterConfig.isSendLetter then
 			local missionid = self.currentPanelConfig.letterConfig.missionid;
 			local mission = CS.GameData.listMission:GetDataById(missionid);
-			if mission == nil or mission.UseWinCounter ==0 then
+			if mission == nil then
 				return;
 			end
 		end
@@ -140,6 +140,7 @@ end
 local RequestSetDrawEvent = function(self,data)
 	self:CheckAllTimelineState();
 	self:RequestSetDrawEvent(data);
+	self:LoadLetterUI();
 end
 local CheckAllTimelineState = function(self)
 	if self.campaionId ~= -74 then
