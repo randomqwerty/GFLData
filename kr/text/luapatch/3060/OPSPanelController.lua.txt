@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.OPSPanelController)
 xlua.private_accessible(CS.OPSPanelSpot)
+xlua.private_accessible(CS.OPSLetterReceiveController)
 
 local ShowItemLimitUINew = function(self,itemids)
 	self:ShowItemLimitUINew(itemids);
@@ -185,6 +186,13 @@ local CheckAllTimelineState = function(self)
 		end
 	end
 end
+local ShowLetterList = function(self)
+	if not self.currentPanelConfig.letterConfig.isSendLetter then
+		CS.UnityEngine.PlayerPrefs.SetInt("isFirstLetterTip", 1);
+		CS.UnityEngine.PlayerPrefs.Save();
+	end
+	self:ShowLetterList();
+end
 local PlaySpotLine = function(self,play,delay,playUnclock)
 	local time = 0;
 	for i=0,self.lastSpots.Count-1 do
@@ -213,6 +221,34 @@ local PlaySpotLine = function(self,play,delay,playUnclock)
 	end
 	return time;
 end
+local CloseUI = function(self)
+	if self.timelineReceive ~= nil and not self.timelineReceive:isNull() then
+		return;
+	end
+	self:CloseUI();
+end
+local RefreshCurrentDiffcluty = function(self)
+	local pos = nil;
+	local findspot = nil;
+	if self.chooseSpot ~= nil and self.chooseSpot.opsMission.missionIds.Count ==1 then
+		findspot = self.chooseSpot;
+		self.MissionInfoController.gameObject:SetActive(false);
+		pos = self.chooseSpot.transform.localPosition;
+		for i=0,CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
+			local spot = CS.OPSPanelBackGround.Instance.all3dSpots:GetDataByIndex(i);
+			if spot.transform.localPosition == pos and spot.difficulty == CS.OPSPanelController.difficulty then
+				findspot = spot;
+			end
+		end
+	end	
+	self:RefreshCurrentDiffcluty();
+	if findspot ~= nil then
+		self:TriggerSelectOPSSpot(findspot);
+		--self:SelectMissionSpot(findspot);
+		self.MissionInfoController.gameObject:SetActive(true);
+		self.MissionInfoController:InitOPSMission(findspot.opsMission);
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -226,6 +262,9 @@ util.hotfix_ex(CS.OPSPanelController,'ShowReward',ShowReward)
 util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelController,'CheckAllTimelineState',CheckAllTimelineState)
+util.hotfix_ex(CS.OPSPanelController,'ShowLetterList',ShowLetterList)
+util.hotfix_ex(CS.OPSPanelController,'RefreshCurrentDiffcluty',RefreshCurrentDiffcluty)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 util.hotfix_ex(CS.OPSPanelSpot,'PlaySpotLine',PlaySpotLine)
+util.hotfix_ex(CS.OPSLetterReceiveController,'CloseUI',CloseUI)
 
