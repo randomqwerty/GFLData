@@ -7,6 +7,7 @@ local ShowItemLimitUINew = function(self,itemids)
 	self:ShowItemLimitUINew(itemids);
 	if self.itemuiObjNew ~= nil and not self.itemuiObjNew:isNull() then
 		local itemabout = self.item_use:GetDataById(itemids[0]);
+		local num = itemabout.iteminfo.active_daily_num;
 		local num0 = itemabout.iteminfo.active_dailyLimit_num;
 		local num1 = itemabout.ItemTodayCanGet;
 		local bar = self.itemuiObjNew.transform:Find("Bar");
@@ -22,7 +23,7 @@ local ShowItemLimitUINew = function(self,itemids)
 		if showTipObj ~= nil then
 			local tip = showTipObj:GetComponent(typeof(CS.CommonShowTip));
 			local language = CS.Data.GetLang(60826);
-			local tipText = CS.System.String.Format(language, tostring(num1));
+			local tipText = CS.System.String.Format(language, tostring(num1),tostring(num),tostring(num0));
 			tip.strIntroduction = tipText;
 			tip.strTitle = itemabout.iteminfo.name;
 		end
@@ -119,7 +120,7 @@ local LoadLetterUI = function(self)
 		if not self.currentPanelConfig.letterConfig.isSendLetter then
 			local missionid = self.currentPanelConfig.letterConfig.missionid;
 			local mission = CS.GameData.listMission:GetDataById(missionid);
-			if mission == nil or mission.UseWinCounter ==0 then
+			if mission == nil then
 				return;
 			end
 		end
@@ -139,6 +140,7 @@ end
 local RequestSetDrawEvent = function(self,data)
 	self:CheckAllTimelineState();
 	self:RequestSetDrawEvent(data);
+	self:LoadLetterUI();
 end
 local CheckAllTimelineState = function(self)
 	if self.campaionId ~= -74 then
@@ -227,6 +229,28 @@ local CloseUI = function(self)
 	end
 	self:CloseUI();
 end
+local RefreshCurrentDiffcluty = function(self)
+	local pos = nil;
+	local findspot = nil;
+	if self.chooseSpot ~= nil and self.chooseSpot.opsMission.missionIds.Count ==1 then
+		findspot = self.chooseSpot;
+		self.MissionInfoController.gameObject:SetActive(false);
+		pos = self.chooseSpot.transform.localPosition;
+		for i=0,CS.OPSPanelBackGround.Instance.all3dSpots.Count-1 do
+			local spot = CS.OPSPanelBackGround.Instance.all3dSpots:GetDataByIndex(i);
+			if spot.transform.localPosition == pos and spot.difficulty == CS.OPSPanelController.difficulty then
+				findspot = spot;
+			end
+		end
+	end	
+	self:RefreshCurrentDiffcluty();
+	if findspot ~= nil then
+		self:TriggerSelectOPSSpot(findspot);
+		--self:SelectMissionSpot(findspot);
+		self.MissionInfoController.gameObject:SetActive(true);
+		self.MissionInfoController:InitOPSMission(findspot.opsMission);
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -241,6 +265,7 @@ util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelController,'CheckAllTimelineState',CheckAllTimelineState)
 util.hotfix_ex(CS.OPSPanelController,'ShowLetterList',ShowLetterList)
+util.hotfix_ex(CS.OPSPanelController,'RefreshCurrentDiffcluty',RefreshCurrentDiffcluty)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 util.hotfix_ex(CS.OPSPanelSpot,'PlaySpotLine',PlaySpotLine)
 util.hotfix_ex(CS.OPSLetterReceiveController,'CloseUI',CloseUI)
