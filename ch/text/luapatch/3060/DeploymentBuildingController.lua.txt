@@ -98,6 +98,12 @@ local RequestStartMission = function(self)
 	CS.DeploymentController.savePlayQueue:Clear();
 	self:RequestStartMission();
 end
+local UpdateInfo = function(self)
+	if self.teamId>0 then
+		self.simpleSaveNode.gameObject:SetActive(true);
+	end
+	self:UpdateInfo();
+end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
 util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
@@ -105,3 +111,4 @@ util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectCancelSpot',SelectCancelSpot)
 util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamMoveCost',CheckTeamMoveCost)
 util.hotfix_ex(CS.DeploymentController,'AddAndPlayPlayBattleChange',AddAndPlayPlayBattleChange)
 util.hotfix_ex(CS.DeploymentController,'RequestStartMission',RequestStartMission)
+util.hotfix_ex(CS.DeploymentFloatingTeamInfo,'UpdateInfo',UpdateInfo)
