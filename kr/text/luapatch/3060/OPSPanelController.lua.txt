@@ -7,6 +7,7 @@ local ShowItemLimitUINew = function(self,itemids)
 	self:ShowItemLimitUINew(itemids);
 	if self.itemuiObjNew ~= nil and not self.itemuiObjNew:isNull() then
 		local itemabout = self.item_use:GetDataById(itemids[0]);
+		local num = itemabout.iteminfo.active_daily_num;
 		local num0 = itemabout.iteminfo.active_dailyLimit_num;
 		local num1 = itemabout.ItemTodayCanGet;
 		local bar = self.itemuiObjNew.transform:Find("Bar");
@@ -22,7 +23,7 @@ local ShowItemLimitUINew = function(self,itemids)
 		if showTipObj ~= nil then
 			local tip = showTipObj:GetComponent(typeof(CS.CommonShowTip));
 			local language = CS.Data.GetLang(60826);
-			local tipText = CS.System.String.Format(language, tostring(num1));
+			local tipText = CS.System.String.Format(language, tostring(num1),tostring(num),tostring(num0));
 			tip.strIntroduction = tipText;
 			tip.strTitle = itemabout.iteminfo.name;
 		end
@@ -119,7 +120,7 @@ local LoadLetterUI = function(self)
 		if not self.currentPanelConfig.letterConfig.isSendLetter then
 			local missionid = self.currentPanelConfig.letterConfig.missionid;
 			local mission = CS.GameData.listMission:GetDataById(missionid);
-			if mission == nil or mission.UseWinCounter ==0 then
+			if mission == nil then
 				return;
 			end
 		end
@@ -139,6 +140,7 @@ end
 local RequestSetDrawEvent = function(self,data)
 	self:CheckAllTimelineState();
 	self:RequestSetDrawEvent(data);
+	self:LoadLetterUI();
 end
 local CheckAllTimelineState = function(self)
 	if self.campaionId ~= -74 then

@@ -1,0 +1,91 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_ev2412_PrinceIgor</BGM><SE1>AVG_AMB_Street</SE1><BIN>811</BIN><黑屏2>:...구 시청사 유적지 앞.
+()<Speaker></Speaker>||:수많은 기자들이 일찍부터 문 앞에 모여 안의 동향을 주시하고 있었다.+셔터 소리, 현장 중계의 웅성거림, 북적이는 이들의 걸음 소리... 평소 썰렁하던 구 시청사 유적지 광장이 지금은 시끌벅적하기 그지없었다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Gate_Close</SE1>:끼익 소리와 함께 두꺼운 나무 문짝이 열리자, 사람들은 바로 요란해졌다.
+()<Speaker>기자</Speaker>||:왔다 왔다! 빨리 준비해!
+()<Speaker>카메라맨</Speaker>||:서기장 나왔다!
+()<Speaker></Speaker>||<白屏2><SE1>AVG_21Winter_Camera_Flash</SE1>:찰칵찰칵, 그로스는 맹렬한 플래시 세례를 한몸에 받으며 연설대에 올라, 단상 아래의 관중들에게 인사했다.
+()||<黑点1><SE1>AVG_21Winter_Camera_Flash</SE1>:
+NPC-Gross(3)<Speaker>그로스</Speaker>||<SE1>AVG_Howling</SE1><黑点2><common_effect>%%code=202412_LIVE%%</common_effect>:<color=#00CCFF>통일사회당 서기장 그로스입니다.</color>+<color=#00CCFF>지금 이 자리에서, 저는 프랑크푸르트 방위전이 정식으로 종료되었음을 선포합니다. 저희는 현재 프랑크푸르트 재건 작업에 적극적으로 박차를 가하고 있습니다.</color>+<color=#00CCFF>자세한 계획은 별도 발표가 있을 예정입니다.</color>
+()<Speaker></Speaker>||:그로스는 슬픔에 찬 표정을 지었다.
+NPC-Gross(5)<Speaker>그로스</Speaker>||:<color=#00CCFF>이 잔혹한 전쟁 속에서 프랑크푸르트 인민 여러분과 여러분의 재산 모두 심각한 피해를 입었습니다. 참으로 비통한 심정을 금할 길이 없습니다.</color>+<color=#00CCFF>이 전투에서 떠나가신 분들을 기리기 위해, 저는 오늘을 프랑크푸르트 기념일로 제정할 것을 결정했습니다. 해마다 여러분과 함께 이 날을 추모하며, 프랑크푸르트 시민 분들의 희생을 영원도록 새겨나가겠습니다.</color>
+()<Speaker></Speaker>||:관중들은 찬동하는 환호를 질렀고, 그로스는 고개를 끄덕이고서 연설을 이어갔다.
+NPC-Gross(4)<Speaker>그로스</Speaker>||:<color=#00CCFF>하지만 이것은 아직 시작에 불과합니다.</color>+<color=#00CCFF>기념일 제정은 역사를 기억하기 위해서이지만, 살아있는 우리 모두는 아직 미래를 바라봐야 합니다.</color>+<color=#00CCFF>인류가 다시는 이러한 전쟁을 겪지 않도록, 세계 정세를 안정시키고 평화를 굳건히 할 수 있도록, 저는 루련의 설립에 찬성하며, 나아가 루련 가입에 찬성합니다.</color>+<color=#00CCFF>신소련과 나란히 서서, 함께 세계 질서를 위협하는 테러리즘과 포퓰리즘에 맞서 싸울 것을 맹세합니다.</color>
+()<Speaker></Speaker>||<SE1>AVG_Crowd</SE1><CGDelay>0.5</CGDelay><SE1>AVG_applause_indoor</SE1>:모두 기뻐하며 만세를 외쳤고, 매스컴을 통해서 이 환희가 세계로 퍼졌다.
+()||<BGM>BGM_Empty</BGM>:아무도 신경 쓰지 않는 한구석에서, 루련 회의에 올라간 어느 초안이 유출되었다...+"인형 관리통제의 전면 추진 및 인형 기계화 생산 표준의 단일화에 대한 건".
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>Stop_AVG_loop</SE1><关闭蒙版>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||:......+넬레는 종이에 불을 지를 듯한 눈초리로 초안 내용을 노려봤다.
+NPC-Nele(7)<Speaker>넬레</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_ev2408_BeeCatcher</BGM>:코니, 이 초안의 세부 사항 너도 봤어?
+NPC-Constanze(1)<Speaker>콘스탄스</Speaker><通讯框>;NPC-Nele(7)||:<color=#00CCFF>...딱 보면 알아. 이건 현재 주류로 쓰이는 인형 표준과는 전혀 달라.</color>+<color=#00CCFF>이건 인형보다...</color>
+NPC-Constanze(1);NPC-Nele(7)<Speaker>넬레</Speaker>||:갈라테아의 생산 기준에 더 가까워.+...더 정확히는, 이 초안은 인형 제조에 인체 조직 사용을 금지하지 않고 있어.+그리고 마인드맵 코어의 설계 요구사항도... 훨씬 느슨하고...
+NPC-Constanze(1)<Speaker>콘스탄스</Speaker><通讯框>;NPC-Nele(7)||:<color=#00CCFF>...누군가 이걸로 폭리를 취하겠지...</color>
+NPC-Constanze(1);NPC-Nele(7)<Speaker>넬레</Speaker>||:갈라테아 하나가 무너졌어도, 아직 훨씬 더 많은 갈라테아가 있어.+혹은... 어떤 이들에게 갈라테아는, 그저 간판만 바꾸면 그만인 껍데기에 불과했을지도...
+NPC-Constanze(1)<Speaker>콘스탄스</Speaker><通讯框>;NPC-Nele(7)||:<color=#00CCFF>지금 더 무서운 건, 모두가 루련 성립에만 들떠 있어서 아무도 이 점을 눈치 못 챘다는 거야...</color>+<color=#00CCFF>다들 모르고 있어, 저렇게 행복에 취해 있는 사이에 더 끔찍한 음모가 손을 뻗고 있다는 걸!</color>
+NPC-Constanze(1)<Speaker>콘스탄스</Speaker><通讯框>;NPC-Nele(7)||:<color=#00CCFF>모든 커뮤니티를 누벼가며 관련 토론글을 잔뜩 올려봤지만...</color>+<color=#00CCFF>관리자 권한으로 게시판 전체 공지로 올려놔도 토론하는 사람은 얼마 없고, 얼마 안 지나서 바로 글이 삭제됐어.</color>
+NPC-Constanze(1);NPC-Nele(7)<Speaker>넬레</Speaker>||:누군가가 여론을 조작하고 있어.
+NPC-Constanze(1)<Speaker>콘스탄스</Speaker><通讯框>;NPC-Nele(7)||:<color=#00CCFF>우린 어떡하면 될까?</color>+<color=#00CCFF>...이게 뭔지는 너도 나도 알잖아...</color>+<color=#00CCFF>나는 결과가 어땠는지 모르지만, 너는 그게 나타났을 때의 영향을 봤을 거 아니야...</color>
+NPC-Constanze(1);NPC-Nele(7)<Speaker>넬레</Speaker>||:맞아, 나는 이게 하나부터 열까지 어떻게 윤리적 상식을 위반했는지 지켜봤어.+또 어떻게 과학의 문을 활짝 열었는지도.+이것이 바로 "유적"이야.
+NPC-Constanze(1);NPC-Nele(7)<Speaker>넬레</Speaker>||:코니, 기술이 인간성에 등을 돌렸을 때, 그때가 바로 인류가 스스로 파멸하는 때야.
+NPC-Constanze(1);NPC-Nele(7)<Speaker>넬레</Speaker>||:어쩌면 내가 막는다 해도 아무 소용 없을지도 몰라.+하지만 그렇다고 그냥 가만히 있을 순 없어.
+NPC-Constanze(0)<Speaker>콘스탄스</Speaker><通讯框>;NPC-Nele(7)||:<color=#00CCFF>어떻게 할 생각인데? 둘이서 같이 하자!</color>
+NPC-Nele(7)<Speaker>넬레</Speaker>||:아니... 이 일만큼은 나 혼자서 해야 해.+왜냐면... 나는 그레이 블랙웰의 제자니까. 나만이 이 모든 것을 폭로할 자격이 있어.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:……
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>811</BIN>:...구 시청 청사 터.+그로스의 연설이 끝나면서 이곳은 다시 평소처럼 썰렁함을 되찾았다.
+()<Speaker></Speaker>||:넬레는 용기를 내어 아직 철거되지 않은 연설대 위에 올랐다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:주머니에서 꽁꽁 언 손을 꺼내고, 넬레는 사시나무처럼 떨면서 스트리밍 채널을 켰다.
+()||<黑点1>:
+NPC-Nele(7)<Speaker>넬레</Speaker>||<黑点2><BIN>811</BIN><common_effect>%%code=202412_LIVE%%</common_effect><SE1>AVG_Howling</SE1>:<color=#00CCFF>제 이름은... 코넬리아 슈펠입니다.</color>+<color=#00CCFF>여기 제 사원증입니다. 저는 한때 갈라테아 그룹 산하의 그레이 생명과학연구센터에서 그레이 선생님의 조수를 맡았습니다.</color>+<color=#00CCFF>네, 저는 바로 그 유명한 "미스 그레이", 그레이 블랙웰의 제자이자 부하 직원이었습니다.</color>+<color=#00CCFF>...그렇기 때문에, 저는 오늘 이 자리에 설 마땅한 자격과 의무를 가지고 있다고 생각합니다.</color>+<color=#00CCFF>저는 이 자리를 빌어, 여러분께 "인형 관리통제의 전면 추진 및 인형 기계화 생산 표준의 단일화에 대한 건" 초안에 숨겨진 진실을 폭로하겠습니다.</color>
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:넬레는 렌즈를 향해 자신이 모은 증거를 내밀었다.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:<color=#00CCFF>다른 인형 개발사와 다르게, 갈라테아가 생산한 인형... 아니, 이건 인형이라 부를 수 없습니다.</color>+<color=#00CCFF>갈라테아는 국제 조약을 어기고, 함부로 유적의 힘을 동원하여 인간의 시체를 기계의 부속품으로 사용했습니다. 그들이 생산한 제품은 처음부터 인체 조직을 불법적으로 사용하고 있었습니다!</color>
+()<Speaker></Speaker>||<SE1>Rope</SE1>:치밀어오르는 분노로, 손에 쥔 문서가 손톱에 찢어질 뻔했다.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:<color=#00CCFF>또한 그들은 자신들에게 반하는 세력을 모조리 제거하기 위해 반대 의견을 내는 인간을 살해했습니다. 거기다 갈라테아의 기술로 그들을 인형과 유사한 존재인 "니토"로 만들어, 그 인간을 대체했습니다.</color>+<color=#00CCFF>그레이 선생님이 바로 그 희생양 중 하나였습니다.</color>+<color=#00CCFF>이어서 그레이 선생님의 부검 보고서를 보여드리겠습니다.</color>+<color=#00CCFF>그리고 그분의 진정한 사망 시간도 알려드리겠습니다.</color>+<color=#00CCFF>그레이 블랙웰의 사망 시간은, 그녀의 마지막 공개 강연보다 훨씬 이전입니다.</color>
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:이를 악물고, 넬레는 고통과 두려움을 참아가며 그레이의 부검 보고서를 렌즈 앞에 들이댔다.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:<color=#00CCFF>시신의 인체 조직을 통해 판단하면, 그레이 선생님은 이미 사망한 지 수 년이 경과했습니다.</color>+<color=#00CCFF>하지만 이 몇 년 동안, 그녀는 계속해서 "미스 그레이"의 이름으로 활동했죠. 전부 갈라테아의 음모였습니다.</color>
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Error</SE1>:스트리밍 채널에 약관 위반 경고가 마구마구 떴다. 넬레는 서둘러 할말을 이어갔다.
+NPC-Nele(7)<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>그레이 선생님은 갈라테아의 손에 돌아가셨습니다. 그 생전의 명예마저, 니토로 바꿔치기되어 모욕당했습니다. 저는 이상의 발언에 법적 책임을 지겠습니다.</color>+<color=#00CCFF>진실은 절대 숨길 수 없습니다!</color>
+()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><SE1>AVG_tele_disconnect</SE1>:넬레의 채널이 정지당했다.+넬레는 짐덩이에서 풀려난 기분으로 현기증을 느꼈다. 연설대를 붙잡지 않았으면 그대로 쓰러질 뻔했다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:너 괜찮아?
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>811</BIN><SE1>ClothingUp</SE1>:어디서 튀어나왔는지 모를 아마리스가 넬레를 부축했다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:아마리스 씨, 왜 여기에 있어요?+당신 임무 끝났잖아요, 슈타지에 안 돌아갔어요?
+()<Speaker></Speaker>||:아마리스는 무거운 얼굴로 한참을 침묵했다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:너한테 달아둔 추적기를 아직 회수 안 해서...+아니, 그게 문제가 아니라.+...너 지금 누구한테 도전장을 던진 건지 알아?
+NPC-Nele(7)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:알아요.
+NPC-Nele(7);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:아니, 넌 몰라.+너는 지금 인간 세계의 기반 코드에 반기를 든 거야.+너는 네가 진실을 말했다고 생각하겠지만... 아무 소용 없어.+왜냐면... 네 말을 반박하는 것쯤은 손바닥 뒤집기처럼 쉬우니까. 엠블라의 유언처럼, 스틱스가 나와서 한 마디만 하면 사람들은 바로 널 물어뜯을 거야.
+NPC-Nele(5)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:아마리스 씨...
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:인간 세계도 하나의 거대한, 규칙으로 이루어진 세계잖아. 안 그래?+인형은 기반 코드의 제약을 받고, 인간은 사회 규칙의 제약을 받고.+너의 발언은 너를 위험에 빠뜨린 것 말고는... 하등 소용이 없어.
+NPC-Nele(7)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:그럼 당신은 반항할 건가요? 아마리스.
+NPC-Nele(7);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+NPC-Nele(7)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:만약 어느 날, 당신의 진심에 위배되는 명령이 기반 코드에 심기면...+당신은 어떡할 건가요?
+NPC-Nele(7);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...나는 그저 인형이야.+기반 코드는 우리를 가두는 족쇄고.+넬레, 나는 반항할 수 없어.
+NPC-Nele(7)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:...만약에...+만약에 당신이 정말로 자신에게 자아가 있고, 생각이 있고, 주장이 있다고 생각한다면.+그럼 거절하고, 반항하고, "아니오"라고 말할 선택지가 있어요.
+NPC-Nele(7);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:하나도 의미 없어, 다 헛고생이라고.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:하지만 그것이 인간을 비로소 인간으로 만들어주는 점이에요.+서양 신화에는 불을 훔친 '프로메테우스'가 있고, 동양 신화에는 태양을 쏴서 떨군 '후예'가 있죠.+신화는 인류가 동경하는 지향점이에요.+만약 인형이 인간과 비슷한 존재라면, 인형이 동경하는 것도...+당연히 인류의 동경을 모방했겠죠.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Crowd_Run</SE1>:스트리밍 소동으로 모여드는 사람들을 보자, 아마리스는 급하게 넬레를 끌고 자리를 벗어났다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...저기, 넬레. 언제 기회가 생기면, 내 기반 코드를 좀 수정해줘.
+NPC-Nele(6)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:네?
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...기억을 잃으면 즉시 자폭 시퀀스를 가동하는 코드를 추가할래.+이 정도는 너한테도 어려운 일 아니지?
+NPC-Nele(6)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:...왜 그렇게...
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:나까지 잊어버리면 서광은 정말로 아무것도 안 남으니까.
+NPC-Nele(5)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:그건 역시 페르시카 교수에게 도움을 구해야 될 거예요. 저는 아직 실력에 자신이 좀... 그런데 그러고 싶으면 슈타지에 요청해보면 되지 않아요?
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:거기랑은 임시 협력관계야. 앞으로는 또 여기저기 떠돌이 신세겠지. 뭐 잘하면 어떤 인간한테 빌붙어서 태평하게 살 수 있을지도?
+NPC-Nele(6)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:......
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<BGM>BGM_Empty</BGM>:가자, 먼저 집에 데려다 줄게.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:타앙!
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:총알 한 발이 넬레 발치의 바닥에 박혔다.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:넬레가 반응하기도 전에 아마리스가 그녀의 손을 끌고 질주했다.
+NPC-Nele(6)<Speaker>넬레</Speaker><Shake>||:...뭐예요?
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:누가 네 목숨을 노리고 있어.
+NPC-Nele(4)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:그럼 제가 올바른 일을 한 거네요.
+NPC-Nele(4);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:체력 아끼게 입 다물어, 수가 많으니까 일단 따돌려야 해.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:네...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>RunStep</SE1><CGDelay>0.5</CGDelay>:으슥한 뒷골목을 향해 아마리스는 전력질주했다...
+()||<黑点1>:

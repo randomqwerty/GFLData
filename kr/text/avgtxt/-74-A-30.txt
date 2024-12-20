@@ -1,0 +1,152 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>10082</BGM><BIN>547</BIN><黑屏2>:...슈타지 빌딩 부근.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>지휘관, 우리가 쫓던 스틱스의 신호가 화이트존에서 사라졌어.</color>+<color=#00CCFF>그리고, 여기 아주 눈에 띄는 건물이 있더라? 바로 슈타지의 본부 빌딩이야.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:......
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>건물 안으로 들어간 거라면, 계속 신호가 잡혀야 정상이야.</color>+<color=#00CCFF>그런데 신호가 아예 사라졌어. 아마 지하로 내려간 거겠지.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:지하...
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 지하는 화이트존 범위입니다.+슈타지의 정보 서버룸이 바로 화이트존 지하에 있습니다... 이전에 AK-12가 잠입했던 장소입니다.
+()<Speaker>지휘관</Speaker>||:......+화이트존 진입 권한을 얻을 수 있어?
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>물론이지, 아니면 저번에 우리가 어떻게 지휘관을 구해줬겠어?</color>
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>749</BIN><黑点2><SE1>AVG_door_elecport</SE1>:......+니드호그 프로토콜 발동 완료 시각까지 10시간 15분.
+()<Speaker></Speaker>||:404의 도움으로 화이트존으로 내려가는 엘레베이터 권한이 지휘관 수중에 들어왔다.+지휘관은 인형들을 몇 개의 팀으로 나눴다. 권한이 곧 정지될 인형들은 바깥에 남아 수비했고, 나머지는 지휘관과 함께 화이트존에 들어갔다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 현재까지의 전력 손실은 약 20%입니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:......+모두 잘 안치했어?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:예, 최대한 안전한 곳에 두었습니다.+IOP에게도 회수 지점을 통지하였습니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||<SE1>ClothingUp</SE1>:좋아, 계속 전진한다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_BaseDoor_Open</SE1>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>745</BIN>:...화이트존.+니드호그 프로토콜 발동 완료 시각까지 9시간 45분.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관 화이트존은 많은 인간 병사가 지키고 있습니다. 가급적이면 은밀하게 움직이십시오.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:알았어. 우리의 목표는 패러데우스야. 놈들도 아마 인간 병사와 맞닥뜨리는 건 피하려 하겠지.+정확히는 우리보다도 노출되길 더 꺼려할 거야.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:알겠습니다. 이쪽 건물은 방음 효과가 좋은 자재로 만들어졌습니다. 기척을 최대한 숨길 수 있을 것입니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:그래.
+()<Speaker>지휘관</Speaker>||<SE1>AVG_tele_connect</SE1>:45, 스틱스의 행적은 추적돼?
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>마지막 흔적으로 화이트존에 들어갔다는 건 알겠는데, 구체적인 경로는 식별할 수가 없어.</color>+<color=#00CCFF>화이트존에 장애물이 너무 많아서 말야. 구역을 나눠서 뒤져보는 수밖에.</color>
+UMP45Mod(0)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:알았어.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:지휘관은 계속 전진하라는 수신호를 보냈다.
+()||<黑点1><SE1>AVG_Team_Running</SE1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>714</BIN><黑点2><SE1>AVG_BaseDoor_Open</SE1>:...슈타지 정보 센터 구역.+니드호그 프로토콜 발동 완료 시각까지 8시간 50분.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>ClothingUp</SE1>:지휘관...
+()<Speaker></Speaker>||:UMP45가 무거운 표정으로 지휘관에게 고개를 돌렸다.
+()<Speaker>지휘관</Speaker>||:무슨 발견 있어?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:......+지휘관... 여기는...+벌침 시스템의 정보 센터야.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 순간 UMP45의 말뜻을 이해하지 못했다가, 이윽고 경악에 찬 눈으로 무수한 서버가 가득 들어찬 정보 센터를 바라봤다.
+()<Speaker>지휘관</Speaker>||:벌침? 여기가 벌침 시스템의 서버룸이라고?
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:...확실히, 이런 추측도 안 해본 건 아니야.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Pause</SE1><BIN>9</BIN>:한순간, 지금까지의 온갖 정보가 지휘관의 뇌에 쏟아졌다. 해일처럼, 또는 회오리처럼.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>714</BIN><黑屏2><CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||:그랬구나...+슈타지는... 처음부터 패러데우스와 협력 관계였어.+그래서 패러데우스에 관한 정보가 그렇게 정확했던 거고...
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:그리고, 방금 중요한 정보를 하나 가로챘어.+발키리 계획의 마지막 단계...
+UMP45Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:마지막 단계? 그게 뭐야?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:수술, 마지막 수술.+그리고 지금 그들에게 필요한 모든 준비가 끝났어.
+UMP45Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:......
+AR18(4)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 현재까지의 전력 손실 약 38%. 이제 시간이 얼마 남지 않았습니다...
+()<Speaker>지휘관</Speaker>||:스틱스가 여기 없다는 건, 여기보다 더 중요한 곳에 갔다는 뜻이겠지.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:방금 더 깊은 곳으로 내려가는 엘레베이터를 찾았어. 지금 권한 뚫는 중이야.
+()<Speaker>지휘관</Speaker>||:알았어. 일단 전원 집합.+인형 중 몇몇은 여기 남겨서 벌침 시스템을 계속 조사시켜.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Team_Running</SE1>:이를 악물고, 지휘관은 남은 인형들을 집결시켜 화이트존 깊은 곳으로 나아갔다...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_BaseDoor_Open</SE1>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>749</BIN><黑点2>:......+니드호그 프로토콜 발동 완료 시각까지 8시간 5분.
+AR18(4)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 이제 남은 전력은 55%입니다.+지금까지는 모두 계획대로 순조롭습니다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:방금 45 측에서 동기화한 정보에 따르면 스틱스가 이동을 멈췄습니다.+추적기를 눈치챘거나, 혹은 도망치지 않아도 될 만큼 믿는 구석이 생겼다는 거겠죠.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:......
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:어느 쪽이든 쉬운 상황은 아닐 것입니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:응. 배치를 조정할게.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<CGDelay>0.5</CGDelay>:지휘관, 자신의 안전을 우선시해주시기 바랍니다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>449</BIN><黑点2><SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_Empty</BGM>:......+니드호그 프로토콜 발동 완료 시각까지 8시간 。
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:인형 소대가 비좁은 복도로 우르르 몰려들었다.
+MSBS(0)<Speaker>MSBS</Speaker><Position>0,150</Position>||<SE1>Select</SE1>:지휘관님, 안전 확인했습니다.
+()<Speaker>지휘관</Speaker>||:그래.
+()<Speaker></Speaker>||:복도 양옆에 다른 방은 없고, 그저 복도 끝의 출구만 보였다.
+()<Speaker></Speaker>||<SE1>Select</SE1>:복도에 매복이 없는 것을 확인하고 지휘관은 인형 부대들에게 차례대로 전진 지시를 내렸다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:조용한 복도 안에 인형들의 작은 걸음소리만 울렸다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>449</BIN><黑点2>:빠르게, 선두 부대의 인형의 손이 복도 끝 대문에 닿았다...
+AR18(4)<Speaker>AR-18</Speaker><Position>0,100</Position>||:기다려!
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><白屏2>:날카로운 금속 가시 몇 가닥이 문을 뚫고 튀어나와 인형들에게 날아들었다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:반응이 늦어버린 선두 부대의 인형들은 그 자리에 쓰러졌다.
+()<Speaker>지휘관</Speaker>||:......
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:패러데우스 신호야!
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><BGM>BGM_ev2412_GoTime</BGM>:동그란 구멍이 여러 개 뚫린 문이 천천히 올라가며, 뒤에 숨은 자의 모습을 드러냈다.
+NPC-Styx(6)<Speaker>스틱스</Speaker><Position>0,-50</Position><GradientShow>2</GradientShow>||:드디어 왔구나. 혹시나 안 오면 어떡하나 싶어서, 오는 길의 수비병들을 대신 처리해 줬어.+그런데 설마 이렇게 일찍 올 줄은 몰랐네~
+()<Speaker>지휘관</Speaker>||:......+벌써 좋아하긴, 하이라이트는 아직 더 남았어.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><SE1>AVG_Team_Running</SE1><震屏3>:인형들은 즉시 진형을 갖추고 스틱스를 요격했다.
+()<Speaker></Speaker>||:스틱스는 전혀 문을 넘어올 기미가 없이, 기이한 광채를 내뿜는 채찍을 휘둘렀다.
+NPC-Styx(7)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:왜 안 와? 빨리 오라니까~
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position>||:비겁한 녀석. 이런 지형은 돌파하기가 어려워요.
+()<Speaker>지휘관</Speaker>||<SE1>ClothingUp</SE1>:산탄총 팀, 준비.
+()<Speaker></Speaker>||:상대의 도발을 무시하고, 지휘관은 침착하게 방어력 높은 인형을 모았다.
+TPS(0)<Speaker>TPS</Speaker>||:이거 난이도 높은 보스 같은걸, 잡기 어렵겠어.
+SPAS15(0)<Speaker>SPAS-15</Speaker>||:자신 없으면 뒤로 가! 내가 막을게!
+MK3A1(0)<Speaker>MK3A1</Speaker>||:혹시 제가 여러분 방패를 임시로 강화해 줄까요?
+M6ASW(0)<Speaker>M6 ASW</Speaker>||:진형 유지하면서 전진.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><SE2>Gunfight</SE2>:M6 ASW가 산탄총 인형들을 결집시켜, 함께 방패를 들고 후방 인형들의 지원 사격을 받으면서 복도 앞으로 돌진했다.
+NPC-Styx(6)<Speaker>스틱스</Speaker><Position>0,-50</Position>||:똑똑한걸, 바로 그런 전술을 생각해내다니... 하지만 소용 없지롱~
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:요염한 웃음소리와 함께 스틱스의 모습이 대문 쪽에서 사라졌다.
+()<Speaker>지휘관</Speaker>||:전원 경계!
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Open_Light</SE1><BIN>9</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||:갑자기 어둠이 찾아왔다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>449</BIN><Night><SE1>AVG_NightVision_Start</SE1>:인형들은 침착하게 야시 모드를 켜고 적의 기습에 대비했다.
+()<Speaker>？？？</Speaker>||:나 기다렸니?
+TPS(0)<Speaker>TPS</Speaker><Shake>||<白屏2><SE1>AVG_whitenoise</SE1>:......!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_21Winter_Phone_Crash</SE1>:쿵!+TPS의 방패가 바닥에 떨어지고, 총을 든 손이 격렬하게 경련했다.
+NPC-Bramedb(5)<Speaker>브라메드</Speaker>||:어머나, 나한테 해킹을 당하고도 필사적으로 저항하다니, 정말 귀여운걸~
+()<Speaker></Speaker>||:그림자 속에서 불쑥 튀어나온 것처럼, 브라메드가 TPS 옆에 붙어 자신의 걸작을 흐뭇하게 감상했다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><SE1>AVG_weapon_reload</SE1>:산탄총 팀은 바로 거리를 벌리고 브라메드를 겨냥했다.
+()<Speaker>지휘관</Speaker>||:브라메드...
+SPAS15(0)<Speaker>SPAS-15</Speaker>||:마인드맵이 통제당했어!
+M6ASW(0)<Speaker>M6 ASW</Speaker>||<CGDelay>0.5</CGDelay>:......
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_h</SE1>:타앙!+TPS가 몸부림치는 모습을 차마 지켜볼 수 없어, M6 ASW가 방아쇠를 당겨 TPS의 고통을 끝냈다.
+M6ASW(0)<Speaker>M6 ASW</Speaker>||<SE1>Select</SE1>:<size=50>집중 사격!</size>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE2>Gunfight</SE2><SE1>AVG_rifle_finalshot_3h</SE1>:분노의 총알이 브라메드를 향해 쏟아졌지만, 상대방은 날렵하게 대문 안으로 숨어들었다.
+NPC-Bramedb(5)<Speaker>브라메드</Speaker>||:어머, 예전보다 동료를 쏘는 게 더 빨라졌는걸~
+()<Speaker>지휘관</Speaker>||<SE1>ClothingUp</SE1>:돌격!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:브라메드가 물러난 틈을 노려, 산탄총 소대는 돌격을 감행하여 복도의 봉쇄를 돌파했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>AVG_BaseDoor_Open</SE1>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>778</BIN>:......+니드호그 프로토콜 발동 완료 시각까지 6시간 15분.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 정보에 의하면 발키리 계획의 마지막 수술이 바로 여기서 진행됩니다...
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:......+어쩐지, 방어 수준이 지금까지의 패러데우스 기지와 차원이 다르더라니.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:이곳엔 스틱스와 브라메드 말고도...
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Close</SE1>:마지막 인형이 실험실에 들어서자 다시 문이 닫혔다.+익숙한 모습이 공중에서 천천히 내려왔다.
+NPC-MorridowNew(1)<Speaker>몰리도</Speaker><GradientShow>2</GradientShow>||:또 만났네, 지휘관.
+()<Speaker>지휘관</Speaker>||:......
+NPC-MorridowNew(1)<Speaker>몰리도</Speaker>||:이번 함정은 마음에 들어?+너무 싱겁게 걸릴까봐 약간 인트로를 추가했지~
+()<Speaker>지휘관</Speaker>||:그래봤자 네놈들이 죽을 때가 약간 미뤄질 뿐이다.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><白屏2><SE1>AVG_Cut_Watermelon</SE1>:쉬익!+하얗고 우아한 형체가 바람처럼 인형들에게 달려들어, 눈깜짝할 사이에 인형 여럿의 몸이 잘렸다.
+NPC-MorridowNew(1)<Speaker>몰리도</Speaker>||:헤베 언니는 조급도 하셔라, 아직 말도 다 안 끝났는데 바로 공연을 시작하다니.
+NPC-Hebe(5)<Speaker>헤베</Speaker>||:......
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2><SE1>AVG_20Winter_Knife_Whoosh</SE1>:인형들의 중앙에 선 헤베는 눈썹을 씰룩이며, 소리 없이 살육의 공연을 이어나갔다.
+()<Speaker>지휘관</Speaker>||:리벨리온, 놈을 포위해서 움직임을 제압해.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||<SE1>Select</SE1>:라저.
+()<Speaker>지휘관</Speaker>||:45, 리벨리온을 도와.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:알았어.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><震屏3>:파앗!+요란한 채찍 소리가 울렸다.
+()<Speaker>지휘관</Speaker>||:RO, AR팀을 데리고 스틱스를 상대해.
+RO635Mod(4)<Speaker>RO635</Speaker>||:예!
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>||:<size=50>갈기갈기 찢어버리겠어!</size>
+AR15Mod(5)<Speaker>AR-15</Speaker>||:지휘관, 브라메드의 마인드맵 공격을 주의하세요.
+()<Speaker>지휘관</Speaker>||:응, 알고 있어.
+()<Speaker>지휘관</Speaker>||:AR-18, 너는 스티븐스 520을 데리고 전자전 특화 인형 팀과 함께 브라메드를 상대해.
+AR18(4)<Speaker>AR-18</Speaker><Position>0,100</Position>||:알겠습니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:계속해서 흘러가는 시간을 지켜보며, 지휘관의 시선은 실험실 뒷편을 똑바로 향했다.
+()<Speaker></Speaker>||:저곳이 바로 "마지막 수술"이 진행되는 장소.+라플라스의 말에 따르면 이 수술을 집도하는 것은 윌리엄이다.+윌리엄을 죽이고, 이 모든 비극을 끝내기까지 이제 단 한 걸음 남았다.+한 걸음. 금성 훈장을 받는 길과 똑같은 거리.+이 수술을 위해서 희생당한 이들을 떠올리면, 그저 증오와 역겨움만이 느껴졌다.
+()<Speaker>지휘관</Speaker>||:이것이 바로 그 '대관식 폭풍'. 6백만 명의 피로 빚어낸 왕관을 두고 펼쳐지는, 욕망과 야심의 즉위식.
+()<Speaker>지휘관</Speaker>||<SE1>Select</SE1><CGDelay>0.5</CGDelay>:이제... 전부 박살낼 시간이다.
+()||<黑点1>:

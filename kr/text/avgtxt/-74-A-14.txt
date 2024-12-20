@@ -1,0 +1,113 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>41</BIN><BGM>BGM_ev2412_2064</BGM>:...마인츠 에너지 센터.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake><SE1>AVG_Bomber_Napalm</SE1>:활활 타오르는 불길이 에너지 센터를 휘감고, 불똥이 공중에 흩날렸다.+팔크가 장비를 세팅한 후, 섀도리스가 서둘러 렌즈 앞에 자리잡고 보도를 시작했다.
+()||<黑点1><SE1>AVG_tele_connect</SE1>:
+()<Speaker></Speaker>||<common_effect>%%code=202412_LIVE%%</common_effect>:
+()<Speaker></Speaker>||<BIN>41</BIN><黑点2><CGDelay>0.5</CGDelay>:
+NPC-Shadowless(3)<Speaker>섀도리스</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||:<color=#00CCFF>시청자 여러분, DDR2 채널 섀도리스입니다. 저는 지금 마인츠구 에너지 센터 앞에 나와 있습니다.</color>+<color=#00CCFF>약 1시간 전 여기서 폭발 사고가 발생하여 마인츠구의 에너지 공급이 중단되었습니다.</color>+<color=#00CCFF>이곳 직원의 설명에 따르면 사건 발생 시 에너지 공급이 긴장 상태로 모든 직원이 추가 근무 중이었고, 이에 따라 피해가 더욱 심각하다고 전했습니다.</color>+<color=#00CCFF>대략적인 집계에 따르면 해당 사고로 이미 78명이 목숨을 잃었고, 237명이 부상을 입은 상태이며, 아직도 여러 명이 실종된 상태입니다.</color>+<color=#00CCFF>주변 시민들의 말에 따르면 통신이 중단되어, 대표자를 경찰서와 소방국으로 보내 신고했지만, 아무도 응답하지 않았고, 모든 인원이 출동 중인 상황이었다 합니다.</color>+<color=#00CCFF>현재까지도 이곳엔 경찰, 소방관, 의료진 중 아무도 도착하지 않은 상태입니다.</color>+<color=#00CCFF>이곳은 지금 한시라도 빠른 지원을 기다리고 있습니다!</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1><bg_move>%%pivot_x=0.47%%pivot_y=0.55%%scale=2%%duration=0.7%%</bg_move>:
+()<Speaker></Speaker>||:카메라가 줌을 당겨 섀도리스 뒤에서 여전히 타오르는 건물을 확대했다.
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.6%%pivot_y=0.55%%scale=2%%duration=2%%</bg_move>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><震屏3><SE1>AVG_lifttable</SE1>:고온으로 변형된 창틀이 고층에서 튕겨 나와 추락했다.
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0.7%%</bg_move><CGDelay>0.7</CGDelay>:
+NPC-Shadowless(3)<Speaker>섀도리스</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||:<color=#00CCFF>또 에너지 센터 생존자들의 증언에 따르면, 폭발은 공습 때문이 아니라 지하에 매설된 수송 파이프에서 발생한 것이라고 합니다.</color>+<color=#00CCFF>현재 정확한 폭발의 원인은 아직 밝혀지지 않았으며, 후속 보도를 계속 진행할 예정입니다.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:팔크는 고개를 끄덕이고 카메라를 껐다.
+()||<黑点1><SE1>AVG_tele_disconnect</SE1>:
+()<Speaker></Speaker>||<关闭蒙版><黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>41</BIN><黑点2>:섀도리스가 한숨을 돌리고 팔크에게 다가가려던 찰나, 곁눈으로 근처에 서 있는 남자를 보았다.+익숙하면서도 낯선 얼굴이었다.
+NPC-Shadowless(3)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||<CGDelay>0.5</CGDelay>:
+NPC-Shadowless(3)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:팔크 씨, 잠깐 여기서 기다려 주실래요?
+()<Speaker></Speaker>||:팔크는 섀도리스가 향하는 방향을 바라보며 눈치 있게 캐묻지 않고, 카메라를 들고 조용히 멀어졌다. +목소리는 들리지 않으면서 시야에 살짝 들어오는 거리에서 멈춰섰다. +그때, 근처에 있던 남자가 살며시 다가왔다.
+NPC-Keven(6)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:...오랜만이네, 섀도.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:...너 왜 여기에 있어?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:그냥 지나가던 길에 네가 보였어. +오히려 네가 여기에 있는게 놀라운데.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:...나도 놀라워, 케빈.+저기, 이렇게 불타버린 프랑크푸르트가 다시 재건될 수 있을까?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:재건해야지, 누가 재건하겠지.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:...케빈, 솔직히 너는 정말 요원감이 아닌 것 같아.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:왜?
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:너 지금 거짓말하고 있잖아.+우연히 나를 본 게 아니라 일부러 날 찾아온 거잖아.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:...네가 일부러 내가 갈만한 곳을 찾아온 걸 수도 있지.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:슈타지 요원을 2명이나 배출한 집안이라 이런가 보다.
+NPC-Keven(7)<Speaker>J</Speaker>||:라이트에 대해선... 하... 그러고 보니 아직 제대로 사과도 못했었네.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J는 미안한 얼굴로 시선을 피했다.
+NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:...그것도 걔가 선택한 길이야.+어머니가 돌아가셨을 때부터 알고 있었어, 걔는 분명 이 길을 걷게 될 거라고.+너처럼.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:......
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:와서 할 말이 그게 전부라면 그만 가.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:볼일 때문에 DDR2 사람을 만났는데, 거기서... 네가 지금 밖에서 종군 기자 활동을 하고 있다고 들었어.+그래서... 지금 상황을 봤을 때 네가 이런 곳에 있을 거라 생각했지.
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:왜?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:에너지 센터는 중요 목표니까.
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:응, 다 아는 일이야.+그래도 많은 사람들이 여전히 여기서 일하고 있었어.+대략적인 통계만 봐도 사망자 78명에, 부상자는 237명이야.+구조가 제때 오지 않아서 안에 갇힌 사람들은 아무것도 하지 못하고 죽겠지.+자기 직장에서.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:......
+NPC-Keven(7);NPC-Shadowless(7)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:이게 그 높은 분들이... 정세를 좌우하는 인물들이... 원하는 거야?+무수한 일반인들이 그들의 한마디 때문에 목숨을 잃고 피눈물을 흘려.
+NPC-Shadowless(7)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:...그들 눈에는 이 모든 것이 숫자일 뿐이고, 지불해야 할 대가에 불과해.+지금 그들이 몰두하고 있는 건... 권력 다툼에서 이기고... 책임을 회피하는 일이지...
+NPC-Shadowless(7)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||<CGDelay>0.5</CGDelay>:정작 위험에 처한 국민들은? 말로는 투표권으로 나라의 방향을 정한다고 하지.+하지만 국민들에게 주어지는 건 아무것도 없어.
+NPC-Keven(11)<Speaker>J</Speaker>||:...미안해.
+NPC-Keven(11);NPC-Shadowless(7)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:널 욕하는 게 아니야.+내가 욕하고 싶은 사람은 어차피 나 같은 건 신경도 안 쓸 거고.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(7)||:알아, 그래도 미안하다고 밖에 말을 못하네...+섀도, 왠지 우리가 만나면 계속 미안하다고만 하는 것 같네. 하지만 정말 미안하다는 것 말고는 뭐라고 할 말이 없어.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(7)||:나와 라이트는 어릴 때 울리히 씨처럼 이상을 위해 헌신하는 전설적인 요원이 되고 싶었어.+그런데 이 시대에는... 이 시대엔 이미 이상주의자 같은 건 없어.
+NPC-Keven(11);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:나도 알아... 누구보다도 잘 알아.+지금은 말법적인 시대야. 모두가 말뿐이지. 말하는 본인조차 자기 말을 안 믿어.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||<CGDelay>0.5</CGDelay>:
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||<SE1>ClothingUp</SE1>:내가, 길을 잘못 고른 거라 생각해?
+NPC-Keven(11);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:케빈... 지금 그런 걸 나한테 묻는 게 의미가 있어?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:그럼 너는? 지금 네가 걷는 길은 네가 바라던 길이야?
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:슈타지의 가족이라서 나는 태어날 때부터 감시받아 왔어.+어릴 때 난 몰래 다짐했어, 어른이 되면 이 모든 걸 뿌리치고 나도 남을 감시하는 사람이 되겠다고.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:그런데 나중에야 그게 얼마나 웃긴 생각인지 깨달았어.+매스컴도 그저 하나의 직장일 뿐이야.+이 세상 대부분의 직장은 그저 단순히 돈을 벌기 위한 직장일 뿐이지.+어릴 땐 순수했으니까 그런 직업이 세상을 바꿀 수 있다고 생각했던 거야.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||:어쩌면 태어날 때부터 정해진 걸지도 몰라, 우리는 세상을 바꿀 영웅이 못 돼.
+NPC-Keven(11);NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||:하지만, 살아있는 한 뭐라도 해야지.+자신이 꼭 해야 한다고 생각하는 일을 해야지.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||:꼭 해야 하는...+네가 꼭 해야 할 일은 뭔데?
+NPC-Shadowless(8)<Speaker>섀도리스</Speaker><Scale>0.9</Scale>||<SE1>ClothingUp</SE1>:...지금 하고 있는 거.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-Keven(6)<Speaker>J</Speaker>||:...알았어.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:...지휘실.+암호화 채널에서 통신이 울렸다.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||<BGM>BGM_ev2412_Yaroslavna</BGM>:<color=#00CCFF>접니다, 지휘관.</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:이아손의 상자의 위치는 이미 받았어. 고마워.+바로 소대를 보내서 처리할 거야.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>전 그냥 정보 하나 흘린 것뿐입니다. 직접 수고하는 건 그쪽이죠.</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...이 시점에 정보를 보내준 것만으로도 큰 수고야.+분명 다른 임무도 있을 거 아니야.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>사실 그냥, 댁 말곤 할 사람이 없는 일이 있는 것 같아서요.</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...고마워.
+NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>저야말로 고맙습니다. 뭐라 해도 여기는 제 조국이고, 다들 제 동포니까요.</color>
+NPC-Keven(7)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...아니, J.+내 눈앞에 있는 사람이라면 모두 나의 동포야.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>왜죠?</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:아마 이게 내가 지금까지 살아온 이유이자... 꼭 해야 할 일이니까.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>꼭 해야 해요?</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:그래, 꼭 해야 해.+사실 제대하고 한참 동안, 내가 왜 처음에 총을 들었는지 잊고 살았어.+아주 오래 전에... 예전에 내가 했던 맹세를 까먹고 있었지.+원래 나도 누군가와 약속을 나눴었어.+영웅이 되어서 명예와 훈장을 얻겠다고.
+NPC-Keven(11)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>그런 말은 누구나 어릴 때 하지 않습니까? 저도 어릴 적에는 어른이 되면 악당을 처치하는 정의의 히어로가 되겠다고 했었어요.</color>
+NPC-Keven(11)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:난 그게 어린이의 유치한 말이라곤 생각 안 해.+그저 그때 우리는 이상을 품고 있었을 뿐이지.+하지만 지금은... 모두 이상이 무엇인지 잊어버렸어. 어른들 사이에는 진작에 이익 밖에 남지 않은 것 같아.
+NPC-Keven(11)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>......</color>
+NPC-Keven(11)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:그래서, 내가 또 뭐 할 수 있는 일이 더 있을까?+가능한 만큼 다 해 볼 테니까.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>변하셨군요, 지휘관.</color>+<color=#00CCFF>더 이상 베를린에서 뵀을 때처럼 소극적인 느낌이 아니에요.</color>+<color=#00CCFF>무슨 바람이 분 거죠?</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...나 자신이 무엇을 원하는지 알게 됐어.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>그래요? 알겠습니다.</color>+<color=#00CCFF>아직 여유가 있으시다면 도로나 에너지 공급 시설을 복구해 주세요.</color>+<color=#00CCFF>이번 공습과 이아손의 상자 모두 이런 시설을 겨냥한 거니까요.</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:알겠어. 지금 정부에서 긴급 수리팀은 보냈어? 수리하는 데 얼마나 걸려?
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>지금 정부에서 모든 긴급 수리팀을 출동시켰지만, 아시다시피 진척이 영 좋지 않습니다.</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:어째서?
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>폭격으로 시내 교통망이 마비 상태라서... 수리팀은 모두 도보로 현장에 갈 수밖에 없습니다.</color>+<color=#00CCFF>게다가, 이전의 「인형 안전 임시 조치」 때문에 지금 프랑크푸르트에서 쓸 수 있는 인형이 많지 않아요. 아마 지금 프랑크푸르트에서 인형이 제일 많은 곳은 엘모호일 겁니다.</color>
+NPC-Keven(6)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...알겠어.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:태블릿 화면을 켜, 지휘관은 현재 대기 중인 부대를 확인했다.
+()<Speaker>지휘관</Speaker>||:404한테 현재 긴급수리팀 인원의 좌표를 찾아내라고 해. 근처 소대가 가서 지원한다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:예.
+()<Speaker></Speaker>||:고요한 겨울 밤, 휘몰아치는 찬바람이 초연을 머금고 울부짖었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>779</BIN><黑屏2><Night>:...프랑크푸르트, 마인츠 대학 지하철역.+하루 종일 야단법석이었던 사람들은 모두 잠들었다.+어수선하게 깔린 매트 위에 웅크려 누운 이들은, 누구는 코를 골고, 누구는 낮게 훌쩍거리고 있었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<SE1>ClothingUp</SE1>:넬레, 너도 그만 쉬지.
+NPC-Nele(4)<Speaker>넬레</Speaker>||:응, 저기 위급한 환자들 상태만 다시 확인하고 쉴게.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+()<Speaker></Speaker>||:피곤함이 묻어나는 얼굴에 눈빛만은 반짝이는 넬레의 모습을 보며, 아마리스는 그녀와 처음 만났을 때를 떠올렸다.+고작 며칠 전의 일이었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<黑点1>:왜 그래, 넬레?
+()<Speaker></Speaker>||<黑点2><BIN>813</BIN><黑点1>:넬레는 입을 열지 않고 자신의 두 손을 아마리스에게 내밀었다.+며칠간 고생한 탓에 그 두 손은 마르고 주름이 잡혀 있었다. 아무리 세심하게 씻었어도 손톱 밑과 손금 사이에는 약간의 때가 남아 있었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<黑点2><BIN>779</BIN><Night>:손이 왜?
+NPC-Nele(5)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||<CGDelay>0.5</CGDelay>:
+NPC-Nele(5)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:마사가 죽기 전에 한 말이 엄청 무서웠어.
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:사람을 현혹하는 여자니까 말이지.
+NPC-Nele(4)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:하지만 이젠 무섭지 않아.+나 자신의 목소리를 들었어. 나는 사람을 구하고 싶어, 더 많은 사람을 돕고 싶어.+그리고 이 길을 걷는 이상, 손에 피가 묻는 건 피할 수 없어.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+()<Speaker></Speaker>||:아마리스가 넬레를 바라봤다. 그 두 눈에 깃든 것은 평온함과 기쁨뿐이었다.
+NPC-Nele(4)<Speaker>넬레</Speaker>||<CGDelay>0.5</CGDelay>:이게 내가 이 모든 일을 한 이유야.+하고 싶었으니까.
+()||<黑点1>:

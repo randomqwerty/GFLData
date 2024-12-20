@@ -1,0 +1,248 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<SE1>AirRaidWarning</SE1><BIN>9</BIN><黑屏2>:공습 경보가 맹렬하게 울어댔다.
+()<Speaker></Speaker>||<SE1>AVG_Strike_Single_Loop</SE1>:이에 호응하는 것은 전투기의 굉음, 그리고 시내에서 연이어 일어나는 폭발 소리.
+()||<黑点1><SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><黑点2><BIN>471</BIN><BGM>BGM_ev2412_2064</BGM>:오펜바흐구 한구석에서, FIM-92 대공 미사일을 소지한 소대가 건물에 몸을 바짝 붙이고 달렸다.
+()<Speaker>대원</Speaker>||:대장님, 타 소대와 통신이 끊어졌습니다!
+()<Speaker>대장</Speaker>||:전자기 교란이군.+우리 전자전 부대가 지금 대항 중일 거다.
+()<Speaker>대원</Speaker>||:...마지막 통신을 받고 이미 10분이나 지났습니다.
+()<Speaker>대장</Speaker>||:방공 사령부와 공항이 파괴돼서 우린 제공권을 잃었다.+하지만 저항을 포기해선 안 된다, 지금이야말로 우리가 나설 때다!
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:모두가 날카로운 노이즈에 감정이 더욱 흔들리지 않도록, 부대장은 소대에게 통신기를 끄도록 지시했다.
+()<Speaker></Speaker>||<SE1>AVG_Cannon_Aim</SE1><controll_shake>%%type_id=2%%duration=6%%delay=0%%range=4</controll_shake>:그때, 스펀지처럼 구멍 난 도로 옆에서 고사포와 방공차량들이 검은 밤하늘을 향해 포탑을 들어 30mm 기관포를 갈겼다.+이미 파괴되어 시꺼먼 연기와 불길이 치솟는 "금속 잔해들"을 대신해 응징하려는 듯이.
+()<Speaker>대장</Speaker>||:대공 반격 준비.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:소대원들은 자리를 잡고 밤하늘을 가르는 저 그림자를 조준해, 지시기가 연속으로 발하는 신호음을 듣고 방아쇠를 당겼다.
+()<Speaker></Speaker>||<SE1>AVG_Cannon_Fire</SE1><震屏3>:슈웅!
+()<Speaker></Speaker>||:발사기를 떠난 미사일은 도시의 상공에 하얀 호선을 그렸다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_Jet_Passby</SE1><BIN>834</BIN><黑点2><CGDelay>0.5</CGDelay>:
+()<Speaker>무장통제사</Speaker>||:미사일! 6시 하방!
+()<Speaker>전투조종사</Speaker>||<SE1>ClothingUp</SE1>:......!
+()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><SE1>AVG_2022Saros_button</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><SE1>AVG_2022Saros_button</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:뒤의 전우가 소리치자, 전투조종사는 즉시 대 전자전 시스템을 켜는 동시에 전투기를 급선회시키며 플레어를 방출했다.
+()||<黑点1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_Gunpast</SE1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Jet_Flyby</SE1>:겨우 1초. 그 사이에 미사일은 하얀 연기를 남기며 전투기의 꼬리날개를 아슬아슬하게 스쳐지나갔다.
+()<Speaker>전투조종사</Speaker>||:——XX!
+()<Speaker></Speaker>||:전투조종사는 과중력에서 회복하자마자 숨 대신 욕설을 토해냈다.
+()<Speaker>무장통제사</Speaker>||:좋은 소식이다! 적 전자전 부대의 정보를 확인!
+()||<黑点1><SE1>AVG_NightVision_Start</SE1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑点2><common_effect>%%code=202412_UAV_a%%</common_effect>:
+()<Speaker></Speaker>||:무장통제사가 레이다 감시기를 주시했다.+지금 감시기에 표시되고 있는 건 그들에 대항하는 프랑크푸르트의 전자전 부대였다.
+()<Speaker>무장통제사</Speaker>||:끝장내자고.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:무장통제사가 감시기 옆의 버튼을 누르자, 지상의 전자전 부대를 나타내는 반점이 정확하게 조준됐다.
+()<Speaker>무장통제사</Speaker>||<SE1>ClothingUp</SE1>:뇌관 해제.+공대지 미사일 발사.
+()<Speaker></Speaker>||<白屏2><CGDelay>0.5</CGDelay><SE1>AVG_Strike_Start</SE1>:전투기 날개 아래에 장착된 공대지 미사일이 풀려나, 저 앞의 어둠을 향해 날아갔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><关闭蒙版><BIN>9</BIN><CGDelay>0.7</CGDelay>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>834</BIN>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:10초도 안 되어 그 어둠의 한가운데서 불길이 치솟았고, 이를 축하하듯 레이다 감시기에서 그 반점이 사라졌다.
+()||<黑点1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>820</BIN><Night><黑点2>:그 시각, 도로.
+()<Speaker></Speaker>||<SE1>AirRaidWarning</SE1>:프랑크푸르트 전역에 울려 퍼지는 공습 경보.+빨리 반응한 사람들의 대부분이 도시를 벗어나고자 차를 몰았다.+때문에 도시 출구 방향의 고속도로가 동맥을 틀어막은 혈전처럼 순식간에 붉은 후미등으로 가득해진 건 당연한 일이었다.
+NPC-People_Male(6)<Speaker>중년 차주인</Speaker>||<SE1>AVG_Car_Horn</SE1>:<size=50>빨랑 좀 가라고 망할!!</size>+<size=50>내가 무슨 죄를 지었다고 이런 일을 두 번이나 겪어야 해!?</size>
+()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_20Winter_Horn_Car</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_Car_Horn</SE1>:깜깜한 밤하늘 아래 피난길에 오른 이 차주는 패닉에 빠져 마구 경적을 울려댔다.+이는 기름통에 떨어진 불똥처럼 번져 나가, 고속도로 곳곳에서 더 많은 경적이 울리기 시작했다.
+()<Speaker>차내 라디오</Speaker>||<SE1>AVG_whitenoise</SE1>:<color=#00CCFF>...방공...치직...대피...치직...</color>
+()<Speaker></Speaker>||:점점 커져 가는 라디오의 노이즈는 이내 방송의 목소리마저 집어삼켜, 듣는 이들의 스트레스를 가중시켰다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake><SE1>AVG_Bomber_Flying</SE1><BGM>10106</BGM>:이어서 대기가 떨리는 굉음이 났다. 라디오가 아니라, 저 시꺼먼 밤하늘에서.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:뒷좌석의 아이는 차창문에 서린 김을 닦고 밖을 두리번댔지만 숨을 쉬는 사이에 다시 김이 서려서 얼굴을 찡그렸다.
+NPC-People_Child(1)<Speaker>아이</Speaker>||:아빠, 저거 무슨 소리야? 엄청 시끄러워!
+NPC-People_Male(6)<Speaker>중년 차주인</Speaker>||:저건——
+()<Speaker></Speaker>||<SE1>AVG_Bomber_Flyby</SE1>:전투기 한 대가 아래에 달린 새하얀 미사일을 자랑하듯 저공을 가로질러, 대기를 찢는 굉음이 그 아래 모두의 고막을 강타했다.
+()<Speaker></Speaker>||<白屏2>:그리고 그 정도 충격으론 부족했는지, 도시의 마른 밤하늘이 번개가 친 것처럼 새하얗게 번쩍였다.
+()<Speaker></Speaker>||<SE1>AVG_Strike_Single</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake>:비도 오지 않는데 천둥이 치고, 기념일도 아닌데 폭죽이 터지는 소리가 밤하늘을 뒤흔들었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><Night>:차의 백미러에 비치는 프랑크푸르트는 빛이 아니라 불길로 환하고, 커다란 버섯구름이 곳곳에서 치솟았다.
+NPC-People_Male(6)<Speaker>중년 차주인</Speaker>||:제기랄... 차에서 내리자!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:겁에 질린 차주인은 꽉 막힌 도로를 다시 한 번 보고는, 이를 악물고서 난폭하게 차를 갓길로 몰아 세운 뒤 아이를 안아 들고 겨울의 찬바람을 맞으며 내달렸다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Car_Horn</SE1>:그런 모습에 위험하다며 다급히 경적을 울리는 차들도 있었고, 욕을 퍼붓는 이들도 있었다.
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:하지만 공황은 전염병처럼 퍼져 점점 더 많은 사람들이 차를 버리고 도시 밖으로 달리기 시작했다.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:그때, 상공의 비행기 한 대가 무언가에 충돌한 듯 우익이 산산조각 났다. 그리고 날개가 부러진 새처럼, 수백 m 상공에서 팽이처럼 회전하며 지면으로 곤두박질쳤다. 차들이 지네처럼 늘어선, 바로 저 고속도로를 향해서.
+()<Speaker></Speaker>||<SE1>AVG_Bomber_Flying</SE1>:고속도로의 차량들 위로 불꽃과 연기를 내뿜는 그림자가 드리웠고, 바람을 가르는 소리는 점점 커져...
+()<Speaker>행인</Speaker>||<SE1>AVG_20Winter_People_Panic</SE1>:<size=50>으아아아아아아악!!!</size>
+()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><BIN>183</BIN>:퍼어어엉!!!+떨어진 불덩이가 도로를 집어삼켰다.
+()||<白屏1>:
+()<Speaker></Speaker>||<BIN>819</BIN><common_effect>%%code=202412_kx_yan%%</common_effect><BIN>819</BIN><Night><白屏2>:
+()<Speaker></Speaker>||:추락한 비행기가 멈춘 곳에선 큰 불이 활활 타올랐다.+시꺼먼 연기가 치솟고, 뭔지 모를 파편과 흙먼지가 사방에 떨어졌다.+그보다 수백 m 뒤에서, 사람들이 찌그러진 차에서 기어나오며 오열했다.
+()<Speaker>젊은 부인</Speaker>||:아가! 우리 아가——!
+()<Speaker>피투성이인 남자</Speaker>||:<size=50>제니!! 안 돼! 제발 눈을 떠!!!</size>
+()<Speaker>피웅덩이 속 청년</Speaker>||:<size=50>살려줘! 아아아악 내 다리!! 누가 구해줘요!!!</size>
+()<Speaker></Speaker>||:순간 세상이 무음 영화처럼 변했다. 모두가 목놓아 비명을 질렀지만 아무도 그걸 들을 수가 없었다.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:이 "사고" 현장의 가장 바깥에서, 머리가 하얗게 센 노인이 찌그러진 차 문을 힘겹게 열고 두 손 두 발로 기어나왔다. 눈썹에 기다란 흉터가 있는 그는 지금 팔에서 피를 흘리고 있었다.
+()<Speaker>노인</Speaker>||:여기가 어디지... 프리첼...
+()<Speaker></Speaker>||:노인은 막연하게 주위를 두리번거리며, 차량의 행렬을 거슬러 절뚝절뚝 도시로 걸어갔다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_People_Panic</SE1><SE1>AVG_Crowd_Run</SE1>:그 주변으로 더 많은 사람들이 차에서 빠져나와, 일행을 부축하며 정신없이 도망쳤다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_21Winter_Fire_Truck</SE1>:갑작스레 닥친 재난.+이 재난은 과연 언제 끝이 날지, 그 누구도 알 수 없었다.
+RO635Mod(4)<Speaker>RO635</Speaker>||<SE1>RunStep</SE1>:<size=50>이 사람 아직 살아있어! 빨리 문을 뜯어!</size>
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>||:알았어! 으쌰!
+AR15Mod(5)<Speaker>AR-15</Speaker>||<SE1>ClothingUp</SE1>:걱정 마세요, 구하러 왔습니다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:......
+AR15Mod(5)<Speaker>AR-15</Speaker>||:상처 누르고 있어. SOP2, 들것에 올리자. 하나, 둘, 셋!
+RO635Mod(0)<Speaker>RO635</Speaker>||:SOP2, 좀 살살 하라고 했지!
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||<SE1>ClothingUp</SE1>:아, 알았어...
+()<Speaker></Speaker>||:......
+RO635Mod(4)<Speaker>RO635</Speaker>||:조금만 참으세요! 의료 인형이 왔습니다, 살 수 있어요!
+()<Speaker></Speaker>||:......
+()||<黑屏1>:
+()<Speaker></Speaker>||<关闭蒙版><BGM>BGM_Empty</BGM><黑屏2><CGDelay>0.7</CGDelay><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>685</BIN><黑屏2>:엘모호.
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_2</BGM>:태양은 어김없이 떠올라, 연기가 피어나는 프랑크푸르트와 도로 위에 선 엘모호를 비췄다.+도로 위는 여전히 피비린내와 화약의 냄새가 풍기고, 부상자의 신음소리가 일었다.+100여 명의 경상자는 앉거나 누워서, 피로에 절여진 채 막연하게 기다렸다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>현재 프랑크푸르트 전역에서 지속적인 전자기 교란이 발생 중입니다. 아이네이아스 회의실은 그리폰 인형 간의 통신만 유지할 수 있고, 타 인원과의 연결은 아직 불가능합니다.</color>
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗><通讯框>||:알았다. 다른 정보는?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>확인된 바로는 프랑크푸르트 국제 공항, 서측 교외의 군용 공항, 타우누스산의 방공 미사일 진지 모두 공습으로 무력화됐고, 아직까지도 신소련의 지상 부대는 포착되지 않았습니다.</color>+<color=#00CCFF>더불어 그로스 주석이 대국민 담화로 민주독일이 전시 태세로 돌입하였음을 선포했습니다.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 끓어오르는 살의를 식히려고 다 식어버린 커피를 들이켰다.
+()<Speaker>지휘관</Speaker>||:지금 도시의 상황은? 주민들의 피해는 어느 정도야?+그리고 시내에서 잠복 중이던 리벨리온과 404는...
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>현재 주민들은 방공 시설로 대피 중이며, 리벨리온과 404는 세이프하우스에 있어 아직은 안전합니다.</color>+<color=#00CCFF>하지만, 지휘관.</color>
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:뭐지?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>엘모호는 크기가 거대하여 정찰기가 위협적인 군사 목표로 인지할 가능성이 높으므로, 지금 엘모호에 계시는 것은 리스크가 큽니다.</color>+<color=#00CCFF>잠시 이탈하여 안전한 방어 진지로 피하시는 것을 건의합니다.</color>
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:아니. 저들에게 있어 프랑크푸르트엔 고가치 목표가 잔뜩이니, 아직 우리처럼 작은 외래 인사에겐 눈이 돌아가진 않을 거야.+네메아란이 홀로 외출한 건 아주 드문 기회니 이대로 놓쳐서는 안 돼.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>...알겠습니다.</color>+<color=#00CCFF>몇 가지 방안을 수립할 테니, 그때까지 부디 안전에 주의해 주십시오.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:통신을 종료하고, 지휘관은 지휘실로 들어온 RO635에게 고개를 돌렸다.
+RO635Mod(0)<Speaker>RO635</Speaker>||:지휘관님, 부근의 경상자들은 간단히 응급처치하고 인근 지하 방공 시설로 안내했습니다.+중환자는... 우리에겐 약품이 부족해 병원 측의 협조를 기다릴 수밖에 없습니다.
+RO635Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:병원에 아직 여유는 있대?
+RO635Mod(0)<Speaker>RO635</Speaker>||:저희가 알기론, 병상이 이미 포화 상태라 환자를 추가 수용할 장소를 물색 중입니다.+하지만 그보다 심각한 문제는...
+RO635Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:뭐지?
+RO635Mod(2)<Speaker>RO635</Speaker>||:공습으로 인해 시내의 주요 도로가 파괴됐거나 버려진 차들로 꽉 막힌 상태입니다.+도저히 구급차가 출동할 수 있는 상황이 아니에요.
+RO635Mod(2)<Speaker>지휘관</Speaker><同时置暗>||:경찰에서는 뭐래?
+RO635Mod(2)<Speaker>RO635</Speaker>||:연락이 안 됩니다. 모든 연락 수단이 먹통입니다.
+RO635Mod(2)<Speaker>지휘관</Speaker><同时置暗>||:......+우리가 환자들을 병원으로 이송하는 건?
+RO635Mod(2)<Speaker>RO635</Speaker>||:도로의 파손이 심각해서 우리도 차량으로 이동이 불가능해요.+한다면 인형이 한 명씩 맡아 호송할 수밖에 없는데, 이동에 얼마나 걸릴지도 확실하지 않습니다.
+RO635Mod(2)<Speaker>지휘관</Speaker><同时置暗>||:그럼 할 수 있는 만큼 해봐.
+RO635Mod(0)<Speaker>RO635</Speaker>||:알겠습니다.
+RO635Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:인형들 피해 상황은?
+RO635Mod(0)<Speaker>RO635</Speaker>||:현재 일부가 부품 마모로 교체가 필요한 것 외에 심각한 손상은 없습니다.+아, M99에게 약간의 트러블이 있어요. 찌그러진 차체 안에 낀 사람을 꺼내려고 자신의 오른팔을 뜯어버려서 지금 수복실에 있습니다.
+RO635Mod(0)<Speaker>지휘관</Speaker><同时置暗>||:수복에 문제가 있는 거야? 그건 상황 끝나고 얘기하자.
+RO635Mod(2)<Speaker>RO635</Speaker>||:아뇨, 수복 문제가 아니라...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:어떻게 설명할지 난처해, RO635가 잠깐 뜸을 들였다.
+RO635Mod(2)<Speaker>RO635</Speaker>||:한 부상자가 M99의 그 팔과 토끼 인형을 주웠는데, 그 사람이 계속 M99와 같이 가겠다고 해서 일단 엘모호에 탑승시켰습니다.
+RO635Mod(2)<Speaker>지휘관</Speaker><同时置暗>||:......+그건 내가 처리할게.+넌 계속 병원과 연락하고, 엘모호 관련 작업 배정은 AR-15가 돕게 해.
+RO635Mod(0)<Speaker>RO635</Speaker>||:예.
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>357</BIN><BGM>BGM_ev2412_tranquility</BGM>:엘모호의 접객실.+들어오자마자, 지휘관은 RO635의 묘사에 부합하는 부상자를 발견했다.+머리는 새하얗지만 허리는 꼿꼿한 노인. 외견상 6~70대로 판단되고, 계단 위에 점잖게 앉아 깍지손을 무릎 위에 놓은 그는 왼쪽 눈썹 위에서 거의 귀까지 이어지는 깊은 흉터가 눈에 띄었다.+그런 그의 옆에 가느다란 인형의 팔 한 짝이, 상처로 가득한 그의 손에는 새하얀 토끼 인형이 꼭 붙들려 있었다.
+()<Speaker>지휘관</Speaker>||<SE1>ClothingUp</SE1>:어르신, 어르신께서 주우신 물건은 저희 인형 M99의 것입니다. 돌려주시겠습니까?
+()<Speaker></Speaker>||:지휘관은 노인의 옆에 쪼그려앉아 눈높이를 맞추고 물었다.+그러자 노인은 지휘관을 잠시 멍하니 바라보다, 한참 후에야 말을 알아들었다.
+()<Speaker>노인</Speaker>||<CGDelay>0.5</CGDelay>:...이건 내거야, 우리 프리첼이 내게 부쳐 준 거라고.
+()<Speaker>지휘관</Speaker>||:증거 있으신가요?
+()<Speaker>노인</Speaker>||:프리첼이 나한테 크리스마스 카드도 써 줬어!+힐롬가 12번지, 받는이 벨드! 20... 그래, 2046년 12월 25일!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:노인이 잠시 또 머뭇거리며 멍한 얼굴이 되었다가, 갑자기 침울한 눈으로 고개를 푹 숙였다.
+()<Speaker>노인</Speaker>||:아니야... 내 것이 아니야...+프리첼이, 토끼는 우리 손주 한스에게 준댔는데... 2살짜리 애니까 토끼를 좋아할 테지...
+()<Speaker></Speaker>||<SE1>Rope</SE1>:지휘관이 손을 뻗어 M99의 팔을 집으려 하자, 노인이 그 손을 덥석 잡았다.
+()<Speaker>노인</Speaker>||:지금 프리첼이 저 밖에서 목숨 걸고 너희를 지키는데, 걔 아이한테 줄 장난감을 가져가려 해!?
+()<Speaker>지휘관</Speaker>||:...그럼 프리첼이란 분에게 연락드릴까요, 아니면 어르신을 힐롬가로 모셔드릴까요?
+()<Speaker></Speaker>||:그 말에 노인이 곰곰이 생각하는 듯하더니 서서히 눈빛이 맑아졌다.
+()<Speaker>노인</Speaker>||:프리첼은... 이미 집에 돌아왔어...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:갑자기, 구슬 같은 눈물이 노인의 주름진 뺨을 타고 흘러내렸다.
+()<Speaker>노인</Speaker>||:그 쬐끄만 상자에 담겨져서...+신소련 놈들한테 죽은 게 아니라, 자기 동포의 손에 죽었어...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:노인은 회상에 잠겼다.
+()<Speaker>노인</Speaker>||:아직도 기억해... 2024년 크리스마스에 태어나서...+그 작은 핏덩이가 어느새 훌쩍 크더니, 지 아비처럼 나라와 국민을 지키겠다면서 입대해가지고는... 착한 애야.+그런데 난 한스를 잘 돌보지 못했어... 대폭격 때... 난 좋은 아비도, 좋은 할아비도 아니야...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 상처투성이인 두 손으로 얼굴의 눈물을 마구 닦으면서도 여전히 꼿꼿한 그의 등은, 뼛속까지 새겨진 그의 군인으로서의 정체성을 나타내는 듯했다.+하지만 손을 내려놓는 노인의 얼굴은 약간 붉게 부었다.
+()<Speaker>노인</Speaker>||:...미안하구먼, 내가 또 노망이 났었나 봐. 가져가시게.
+()<Speaker>지휘관</Speaker>||:아뇨, 나라와 국민을 지키는 군인은 모두가 영웅입니다.+어르신도 영웅이십니다.
+()<Speaker>노인</Speaker>||:자네 모습을 보아하니... 군인이군?
+()<Speaker></Speaker>||:대답이 목구멍에 걸려 지휘관은 잠깐 침묵했다.
+()<Speaker>지휘관</Speaker>||:...네.+저도 한때 군인이었습니다.
+()<Speaker>노인</Speaker>||:고맙네, 용감한 젊은이. 프리첼이 살아있었다면 자네와 좋은 친구가 됐을 텐데.
+()<Speaker>지휘관</Speaker>||:...인형들을 시켜 가까운 지하 방공 시설로 모시겠습니다. 걸으실 수 있으십니까?
+()<Speaker>노인</Speaker>||:그래, 내 집이 바로 근처야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:노인은 무릎을 쓰다듬으며 발을 풀었다.
+()<Speaker>노인</Speaker>||:고맙네, 비록 자네가 우리 도시를 폭격한 놈들과 같은 소련인이라도...+그래도, 감사하네.+내가 가장 좋아하는 영화도 소련의 「병사의 시」야. 자네도 꼭 자네 나라의 영웅이 되기를 빔세.
+()<Speaker>지휘관</Speaker>||:...고맙습니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 M99의 팔을 집고 일어서, 접객실을 나왔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>685</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||<SE1>AVG_tele_connect</SE1>:RO, M99의 팔을 돌려받아서 수복실로 보냈어.
+RO635Mod(2)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>수고하셨습니다, 그 어르신을 달래느라 고생하셨죠?</color>
+RO635Mod(2)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:......+잠깐 좀 쉴 테니 엘모호를 부탁해.
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>네, 지휘관님. 제게 맡겨 주세요.</color>
+()||<黑点1><SE1>AVG_tele_disconnect</SE1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>685</BIN>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:양옆으로 끝없이 이어지는 건물의 행렬을 따라, 엘모호는 썰렁한 거리 위를 천천히 행진했다.+지휘관은 푹신푹신한 소파에 몸을 파묻었다. 밤새 벌인 구조 작전으로 쌓인 피로가 한꺼번에 몰려와, 넋을 잃고 천장만 바라보았다.
+()<Speaker>지휘관</Speaker>||:「병사의 시」라...+대체 얼마만에 듣는 제목이지...
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_21Winter_Subway</SE1>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>531</BIN><回忆><边框>2</边框>:......
+()<Speaker></Speaker>||<边框>2</边框><BGM>BGM_23S_Winter_Night</BGM>:시끌벅적한 열차칸.+아직 풋풋하고 어리숙했던 지휘관은, 저마다 떠나보내는 이들을 배웅 나온 인파의 사이를 헤집고 나와 짐가방을 들고 열차에 올랐다.
+()<Speaker></Speaker>||<边框>2</边框>:좌석으로 오니, 지휘관의 자리는 웬 껄렁한 얼굴의 남성이 차지한 채로 맞은편에 앉은 여성의 수다를 듣고 있었다.+여성은 의외로 시원시원한 기품에, 조금 낡았지만 깔끔한 군복 차림이었다.
+()<Speaker></Speaker>||<边框>2</边框><震屏3><SE1>AVG_XXS_kick</SE1>:먼저 짐가방을 선반에 올려놓은 뒤, 지휘관은 약간의 짜증을 담아 그 남자의 어깨를 툭툭 쳤다.
+()<Speaker>로먼</Speaker>||<边框>2</边框>:응? 아아 미안미안, 일부러 자리 차지한 건 아냐.+난 로먼이라 하는데, 너는 그 옷차림을 보니... 학교 가나 봐?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:듣는 둥 마는 둥, 지휘관은 시큰둥하게 고개를 끄덕이곤 좌석에 앉았다.+로먼은 난감한 얼굴로 머리를 긁적이다 다시 맞은편의 여성에게 고개를 돌렸다.
+()<Speaker>로먼</Speaker>||<边框>2</边框>:죄송함다, 방금 어디까지 했죠?
+()<Speaker>？？</Speaker>||<边框>2</边框>:..."그들도 우리 동포야, 단지 어두운 숲에서 길을 잃었을 뿐."
+()<Speaker>로먼</Speaker>||<边框>2</边框>:아 그랬죠! 정말 흥미로운 관점이에요, 지금 유행하는 건 우리의 적에 대한 완전한 부정 아님까.+그들을 동족으로 보긴커녕 아예 인간 취급도 안 하잖아요.
+()<Speaker>？？</Speaker>||<边框>2</边框>:전쟁의 필연적인 과정이지. 적의 인간성을 부정하고, 마음껏 폄훼하는 거.+그래야 죽일 때 죄책감도 덜해지니까 말이야.+하지만, 살인은 결국 살인이야. 그점 무슨 짓을 해도 변하지 않아.
+()<Speaker>로먼</Speaker>||<边框>2</边框>:이야아, 말 진짜 잘하심다!
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><边框>2</边框><controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake>:지휘관이 인상을 찌푸리며 물컵을 탁상에 쿵 내려놨다.
+()<Speaker>？？</Speaker>||<边框>2</边框>:이쪽 친구는 별로 맘에 안 드나 봐?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:.....
+()<Speaker></Speaker>||<边框>2</边框>:지휘관은 계속 그들을 무시하며 창밖을 바라봤다.
+()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_Station_Bell</SE1>:그때, 열차가 기적을 울리며 출발 신호를 냈다.
+()<Speaker>로먼</Speaker>||<边框>2</边框>:열차 출발하네요, 그럼 이만 자리로 돌아가보겠슴다.+이따 또 봐요, 헬린 선배!
+()<Speaker>헬린</Speaker>||<边框>2</边框>:그래.
+()<Speaker></Speaker>||<边框>2</边框>:로먼이 자기 자리로 돌아가고 나서야 비로소 좁은 열차칸이 조용해졌다.+바깥에서 승객들을 떠나보내는 이들의 아우성이 지휘관에 또렷하게 들릴 정도로.
+()<Speaker>우는 여인</Speaker>||<边框>2</边框>:이반! 자기야! 꼭 살아서 돌아와! 기다릴게!
+()<Speaker>슬픈 노인</Speaker>||<边框>2</边框>:아이고 내 손주, 편지 자주 보내렴! 알았지!?
+()<Speaker>우는 아이</Speaker>||<边框>2</边框>:아빠! 가지 마 아빠아아아아! 기차에서 내려어어어!
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:지휘관은 저 소음에 짜증내며 시선을 돌렸다가 맞은편 자리에서 미소짓는 여성과 눈이 마주쳤다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:안녕. 이름 뭐야?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker>헬린</Speaker>||<边框>2</边框>:너도 배웅 나온 사람 없나 봐?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker>헬린</Speaker>||<边框>2</边框>:저기, 미안한데 혹시 벙어리야?+괜찮아, 나 수화 조금 할 줄 알아.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:여자는 정말로 수화인 것 같은 손동작을 해 보였다. 하지만 지휘관은 자리에서 벌떡 일어나, 물컵을 들고 정수기로 걸어갔다.
+()||<黑屏1><边框>2</边框>:
+()<Speaker></Speaker>||<黑屏2><边框>2</边框><BIN>9</BIN>:
+()||<黑屏1><边框>2</边框>:
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1><BIN>530</BIN><回忆><黑屏2><边框>2</边框>:......+물은 받았지만 바로 자리로 돌아가지 않고, 지휘관은 창문 밖에서 빠르게 스쳐지나가는 풍경을 멍하니 바라봤다.
+()<Speaker>노인</Speaker>||<边框>2</边框>:저기, 젊은이? 미안한데 요 병 좀 열어 주지 않겠나?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:언제 왔는지, 한 노인이 지휘관의 소매를 당기며 울었다.
+()<Speaker>노인</Speaker>||<边框>2</边框>:뜨신 물 담은 게 식어서 그런지, 내 힘으론 안 열리지 뭔가.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:도와드릴게요.
+()<Speaker></Speaker>||<SE1>Rope</SE1><边框>2</边框><CGDelay>0.5</CGDelay>:지휘관은 손쉽게 병뚜껑을 열었다.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:뜨거운 물 다시 받으시려는 거죠?
+()<Speaker>노인</Speaker>||<边框>2</边框>:맞어.
+()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_va_addingredient</SE1>:지휘관은 노인 대신 물병을 헹궈 다시 뜨거운 물을 받은 다음, 뚜껑도 살짝 느슨하게 잠그고 돌려주었다.
+()<Speaker>노인</Speaker>||<边框>2</边框>:아이구, 이거 고마우이.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:천만에요.
+()<Speaker>노인</Speaker>||<边框>2</边框>:옷을 보아하니, 군사학교 가나?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...네, 올해 수보로프 군사학교에 입학하게 됐습니다.
+()<Speaker>노인</Speaker>||<边框>2</边框>:널 보니 우리 로빈이 생각나는구먼...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:로빈... 그 사람도 군사학교를 다니나요?
+()<Speaker>노인</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:로빈은 세상을 떠났어. 전장에서.+3개월 전의, 그...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...죄송합니다.
+()<Speaker>노인</Speaker>||<边框>2</边框>:아니야, 젊은이가 왜 미안혀. 로빈도 너처럼 파릇파릇했지. 내 눈엔 몇 살을 먹어도 어린애긴 했지만...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:노인이 갑자기 행낭을 뒤졌다.
+()<Speaker></Speaker>||<边框>2</边框>:그리고 그 안에서 건빵 한 봉지를 꺼내 지휘관에게 들이밀었다.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:아, 아뇨, 병뚜껑을 열어드렸을 뿐인데 이러실 것 없습니다!
+()<Speaker>노인</Speaker>||<边框>2</边框>:받아 둬! 그냥 받아 줘.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:그런 말을 하는 노인은 손수건으로 눈물을 닦았다.
+()<Speaker>노인</Speaker>||<边框>2</边框>:난 녀석이 입대하는 걸 반대해서, 싸우다 삐져서는 떠나던 날 역까지 배웅을 안 나갔어. 그런데, 그게 마지막이었을 줄이야...+마음에 안 들었어도 가서 안아 주고 잘 다녀와라 했어야 했는데...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker>노인</Speaker>||<边框>2</边框>:그러니까 받아, 우리 로빈 대신 받는 거라 치고.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:하는 수 없이, 지휘관은 그 묵직한 건빵 한 봉지를 받았다.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...네, 잘 먹을게요.
+()<Speaker>노인</Speaker>||<边框>2</边框>:대신, 너도 꼭 살아서 집으로 돌아가. 네 가족이 기다릴 게야.
+()<Speaker></Speaker>||<边框>2</边框>:가슴이 철렁했다. 기다리는 가족 따위 없다고 말하고 싶었지만, 결국 억지로 미소를 지으며 고개를 끄덕였다.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:할머니도 몸조심하세요.
+()<Speaker>노인</Speaker>||<边框>2</边框>:나는 내 동생 집에 가. 걔가 병들어서 간호할 사람이 필요하거든.+집에 돈 되는 건 다 팔아서, 조금이라도 도움이 되면 좋겠는데...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:네, 동생분도 건강해지시길 빌어요.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><边框>2</边框>:천천히 자리로 돌아가는 노인을 지켜보고, 지휘관도 물컵을 들고 자리로 돌아갔다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_21Winter_Subway</SE1><CGDelay>0.5</CGDelay><黑屏2><BIN>9</BIN>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Carriage_Loop</SE1>:열차는 봄날의 평원을 가로지르며 먼 곳을 향해 달렸다.+단조롭고 지루한 열차의 소리를 들으며...+2050년의 지휘관은, 천천히 눈꺼풀을 닫고 혼란한 꿈속에 빠졌다.+2050년의 신소련도 전쟁과 고통으로 가득했다. 하지만 적어도 당시엔 희망이 있었다.+길가에 피어난 백합처럼, 희망은 봄날에 마음껏 자라났다.
+()||<黑点1>:

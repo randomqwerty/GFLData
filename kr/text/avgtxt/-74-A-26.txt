@@ -1,0 +1,140 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>685</BIN><黑屏2>:...엘모호.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 스틱스가 도주했습니다.+예상한 대로입니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:잘했어.+추적 신호는 잘 잡혀?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:매우 잘 잡힙니다. 404와 리벨리온이 현재 추적 중입니다.
+AR18(2)<Speaker>지휘관</Speaker><Position>0,100</Position><同时置暗>||:계속 추적하고, 너무 깊이 들어가진 말라고 전해. 우리를 꼭 기다리라고.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:예.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>GF_21winter_avg_pathfinder</BGM>:삐삐. 암호화 통신 채널이 울렸다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 훈작사에게서 통신입니다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:......+연결해.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 자세를 고치고, 통신기에 뜬 영상에 몸을 돌렸다.
+()<Speaker>지휘관</Speaker>||:훈작사, 지시라도 있으십니까?
+NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>우선 자네에게 축하의 말을 전하네. 프랑크푸르트에서 자네는 자신과 G&K 모두에게 명예를 가져다줬네.</color>
+NPC-Griffin(0)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:...군인의 본분을 다했을 뿐입니다.
+NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>자네에겐 마땅한 포상이 있을 걸세.</color>+<color=#00CCFF>그리폰의 인형들도 더욱 큰 권한을 갖게 될 테고.</color>
+()<Speaker>지휘관</Speaker>||:...인형들 대신 감사드립니다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:시큰둥하게 안부를 주고받으며, 지휘관은 탁상을 손가락으로 두드렸다.
+NPC-Griffin(0)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>그동안 독일에서 고생 많았네.</color>+<color=#00CCFF>베를린에 돌아오면 우리 함께 한잔하세나, 크루거와 함께 말이지.</color>
+NPC-Griffin(0)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:그렇습니까? 저는 아직 끝이라고 생각 안 합니다.
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>배후 주도자 카터는 이미 사망했네.</color>+<color=#00CCFF>왜 끝나지 않았다는 겐가?</color>
+NPC-Griffin(1)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:패러데우스는, 윌리엄은요?+훈작사, 아직 다 끝나지 않았습니다. 아시지 않습니까.
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>하지만 자네의 임무는 끝났다네.</color>+<color=#00CCFF>나머지 일은 내게 맡겨주게.</color>
+NPC-Griffin(1)<Speaker>지휘관</Speaker><同时置暗><通讯框>||<CGDelay>0.5</CGDelay>:...맡기면 어쩌실 셈입니까?+패러데우스를 손에 넣으실 겁니까? 윌리엄을 휘하에 두시게요?+훈작사, 당신은 전선에서 멀리 떨어진 사무실 안에만 계셨죠.+그 높은 위치에서 시민들의 고통과 피눈물은 전혀 안중에도 없으셨겠죠.+이아손의 상자에 죽은 사람들, 패러데우스의 실험 재료가 된 사람들.+그 사람들이 당신 눈에 들어온 적이 있습니까?+당신에겐 그 사람들 모두 보잘것없는 희생양일 뿐이에요?+윌리엄의 목숨이 그들보다 훨씬 값지다고 말씀하시는 겁니까?
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>나는 자네보다 훨씬 오래 전부터 전장에서 지내왔다네.</color>
+NPC-Griffin(1)<Speaker>지휘관</Speaker><同时置暗><通讯框>||<SE1>Rope</SE1>:그러신 분이, 지금 전장에서 희생된 사람들은 눈에 안 들어오시는 겁니까!?
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>지휘관! 루련의 성립이 바로 코앞이네. 오버슈타인과 카터가 모든 책임을 끌어안았어.</color>+<color=#00CCFF>이것이 바로, 모두의 희생을 보듬어줄 최선의 방식이란 말이네!</color>+<color=#00CCFF>이제 곧 평화의 시대가 올 걸세. 그런데 자네는 다시 한 번 전란을 일으킬 셈인가?</color>
+NPC-Griffin(1)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:죽어간 이들의 영혼도 당신만큼 너그러울까요?+땅에 묻힌 망령들한테도 설파해보시죠, 당신이 말하는 소위 평화를요. 그들이 납득할 것 같습니까?
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>사람은 살아있는 이들만을 위해서 살아야 하네.</color>+<color=#00CCFF>살아있는 이들을 위해서 노력해야만 해.</color>
+NPC-Griffin(1)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:...그것이 당신이 그리는 미래로군요.+하지만 그건 제 미래가 아닙니다.
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>지휘관, 자네는 아직 너무 젊네.</color>+<color=#00CCFF>젊은 혈기로 자기가 뭐든 해낼 수 있다고 착각하고 있지.</color>+<color=#00CCFF>그렇게 큰소리칠 수 있는 토대를 과연 누가 깔아준 건지도 잊어버리고 말이네.</color>
+NPC-Griffin(1)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:......
+NPC-Griffin(1)<Speaker>훈작사</Speaker><通讯框>||:<color=#00CCFF>크루거가 너무 오냐오냐 해준 바람에, 세상이 돌아가는 이치를 잊어버린 게야.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:상대방이 통신을 끊었다.+AR-18은 조용히 지휘관을 지켜봤다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관...
+()<Speaker>지휘관</Speaker>||:...괜찮아.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 찌그러진 소파 팔걸이를 놓고, 펄떡거리는 관자놀이를 문질렀다.
+()<Speaker>지휘관</Speaker>||:그가 이대로 넘어갈 리가 없어.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:......+예방 조치로 뭐라도 할 수 있겠습니까?
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:지휘관이 뭐라 대답하기도 전에 또 통신이 울렸다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<CGDelay>0.5</CGDelay>:하벨 씨입니다.
+()<Speaker>지휘관</Speaker>||:연결해.
+NPC-Havel(0)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>오랜만이구먼, 지휘관.</color>
+NPC-Havel(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||<BGM>BGM_stage13</BGM>:오랜만입니다, 하벨 씨.
+NPC-Havel(0)<Speaker>하벨</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>안색이 아주 엉망이구먼, 어서 장기 휴가를 처방해야겠어.</color>
+NPC-Havel(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...휴가보다 지금은 총알이 더 필요합니다.
+NPC-Havel(0)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>기쁜 일이나 좀 말합세, 지휘관.</color>+<color=#00CCFF>자네에게 훈장이 수여될 게야. 그것도, 소련 군인이라면 모두가 꿈꾸는 금성 훈장을 말이야.</color>
+NPC-Havel(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...대가로 뭘 내면 됩니까?
+NPC-Havel(0)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>자네는 충분히 그 훈장에 걸맞는 대가를 치렀네.</color>+<color=#00CCFF>이젠 그만 다른 사람에게서 시선을 떼게나.</color>+<color=#00CCFF>자네 자신을 보게, 지휘관.</color>+<color=#00CCFF>자네에겐 이제 무궁하게 빛나는 앞날이 펼쳐져 있어.</color>
+NPC-Havel(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:그 앞날을 위해서 윌리엄을 척살하는 걸 포기하라 이 뜻입니까?+훈작사가 보낸 거군요? 절 설득해 달라고. 맞으시죠?
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>......</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:이미 여기까지 왔습니다. 기나긴 원정길이었죠. 제가 지나온 길은 피와 주검으로 가득합니다.+그건 저의 복수를 독려하는 피의 칼날이지, 제 앞날에 깔린 레드 카펫이 아닙니다.
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>지휘관, 아직 이 늙은이를 친구로 여긴다면 잘 생각해 보게나.</color>+<color=#00CCFF>지금 자네는 중요한 갈림길 앞에 서 있네. 한쪽 길은 금성 훈장을 달고 나라와 국민을 위해 혁혁한 공을 세운 영웅이 되는 길이네.</color>+<color=#00CCFF>반면 다른 한 쪽은, 존재가 말소되어 이름 없는 자로 전락하는 길일세.</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:그런 선택으로 얻는 훈장이라면, 그거야말로 금성 훈장을 모욕하는 짓입니다.
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>......</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||<SE1>Rope</SE1>:윌리엄은 자신이 한 짓에 반드시 대가를 치러야 합니다!
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>......</color>+<color=#00CCFF>훈작사 말대로구먼, 누가 와도 귓구멍을 딱 틀어막아버리니 원...</color>+<color=#00CCFF>크루거가 자네에게 지나친 자유를 준 게야.</color>+<color=#00CCFF>그 양반도 지금 자네처럼 훈작사와 대화를 거부하고 있거든.</color>+<color=#00CCFF>그렇다면 이 일은... 이 하찮은 노인네가 처리해야겠지.</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...무슨 뜻이죠?
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>니드호그 프로토콜이라고 들어봤는가?</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:예?
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>이 프로토콜을 발동하면 IOP와 G&K의 협력관계는 종료일세.</color>+<color=#00CCFF>모든 IOP제 인형의 가동을 정지시키고,</color>+<color=#00CCFF>자네의 지휘 권한을 강제로 회수하는 프로토콜이라네.</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...그런다고 제가 굴복할 것 같습니까?+하벨 씨, 인형이 없어도 저는 윌리엄을 지구 끝까지 쫓아가 죽일 겁니다.
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>그래, 그저 자네가 혹시나 진정해줄까 해서 던져본 말일세.</color>+<color=#00CCFF>지휘관, 나도 자네가 오늘 여기까지 오는 것을 쭉 지켜봐왔네. 얼마나 힘든 길이었는지도 잘 알고 있네.</color>+<color=#00CCFF>그리고 바로 지금, 그 결과를 붙잡기까지 한 걸음, 딱 한 걸음 남았을 뿐 아닌가.</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:영원히 닿을 수 없는 한 걸음이죠. 하벨 씨, 제 대답은 처음부터 끝까지 변함없습니다.
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>......</color>
+()<Speaker></Speaker>||:통신 너머에서 안타까워하는 탄식이 들렸다.
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>그동안 자네가 해준 공헌에 감사하네.</color>+<color=#00CCFF>...이 늙은이가 마지막으로 해줄 수 있는 건, 프로토콜의 발동을 몇 번으로 나눠서 진행하는 것 정도일세.</color>+<color=#00CCFF>12시간.</color>+<color=#00CCFF>12시간에 걸쳐서, 전투력이 가장 낮은 인형부터 니드호그 프로토콜을 발동하겠네.</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:......
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||:<color=#00CCFF>자네가 무엇을 하려고 하든, 이제 남은 것은 12시간뿐이라네.</color>
+NPC-Havel(1)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...아무쪼록, 감사드립니다.
+NPC-Havel(1)<Speaker>하벨</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>잘 있게나, 지휘관.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:하벨이 통신을 끊었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>685</BIN><Night><SE1>AVG_Power_Down</SE1>:엘모호의 전원이 자동으로 끊어졌다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 엘모호 기능 정지했습니다.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_ev2412_tranquility</BGM>:어둠 속에서, 지휘관은 전술 테이블에 나타난 카운트다운을 살폈다.+자신과 인형들에게 남은 시간은 이제 12시간뿐이다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:지휘관, 총 병력 중 IOP제 인형의 점유율은 98% 이상입니다.
+()<Speaker>지휘관</Speaker>||:...알아.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:향후 작전 배치는 어떻게 하시겠습니까?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:우선 인형들을 전원 소집해.
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Fire_Alarm</SE1><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<Night><黑屏2><BIN>685</BIN>:
+()<Speaker></Speaker>||:넓은 홀이 가득 차고, 인형들은 저마다 다양한 표정으로 수군수군거렸다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:지휘관이 니드호그 프로토콜의 카운트다운을 홀 중앙에 투영했다.
+()<Speaker>지휘관</Speaker>||:다들, 먼저 현재 상황을 설명하겠다.+나의 다음 행동을 막기 위해 IOP는 곧 니드호그 프로토콜을 가동한다. 이 카운트다운이 끝나면 나는 모든 IOP제 인형의 지휘 권한을 잃는다.+바로 여기 있는 너희들 대부분의 지휘 권한을 말이야.
+MG42(0)<Speaker>MG42</Speaker>||:어떡해, 34 언니... 우리가 받은 통지가 진짜였어!
+MG34(0)<Speaker>MG34</Speaker>||:당황 마렴, 42... 우리가...+우리가... 어, 나도 어떻게 해야 할지 모르겠어!
+AK47(0)<Speaker>AK47</Speaker>||:나 지금 IOP 탈퇴할 거야!+<size=50>다 때려쳐!</size>
+()<Speaker></Speaker>||<SE1>AVG_AMB_Restaurant</SE1>:인형들이 곧바로 들끓었고, 지휘관은 손을 들어 모두를 정숙시켰다.
+()<Speaker>지휘관</Speaker>||<SE1>Stop_AVG_loop</SE1>:알고 있어, 지금 몇몇 인형이 이미 프로토콜 가동으로 강제 휴면 상태에 들어갔다는 거.+이제부터 카운트다운이 끝나기 전까지 너희는 모두 차례대로 강제 휴면에 빠질 거다.
+G36CMod(7)<Speaker>G36C</Speaker>||:G36 언니... 우리 같이 움직여요.+그러면 제가 갑자기 멈춰도 언니랑 함께 있을 수 있으니까...
+AUG(0)<Speaker>AUG</Speaker>||<CGDelay>0.5</CGDelay>:이것이 우리의... 집단 장례식...
+()<Speaker></Speaker>||:인형들이 슬픔에 잠긴 모습을 보며, 지휘관은 바늘로 심장을 쑤시는 기분을 느꼈다.
+()<Speaker>지휘관</Speaker>||:너희에게 숨길 생각은 없다.+지금도 나의 계획은 여전히——+패러데우스를 뿌리뽑고, 윌리엄을 제거하는 거야.+그 다음 일은 생각 안 해뒀어. 너희의 안전도 보장해줄 수 없고.+그러니, 이번 임무에 참여할지 말지는 너희 스스로에게 맡긴다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 지휘 태블릿을 내려놓았다.
+()<Speaker>지휘관</Speaker>||:엘모호에 남는 걸 선택해도 된다. 비록 동력이 이미 끊어지긴 했지만, 그래도 한동안은 안전할 테니.+하지만 만약, 계속 날 따르기로 결정한다면——+너희가 맞이할 상황은 단 두 가지다.+작전 도중 강제 휴면에 빠지거나,+전투 중 희생하는 것.+...어느 쪽이든 좋은 결말은 아니지.
+hkcaws(0)<Speaker>CAWS</Speaker>||:권한 중지되기 전에 몇 놈 더 끌고 가는 게 수지타산이 맞지 않아?
+Webley(0)<Speaker>웨블리</Speaker>||:저는 지휘관님의 영광을 마지막 순간까지 지켜보겠어요.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:인형들은 참담한 현실을 빠르게 받아들이고 어떻게 할지 토론했다.+지휘관은 무언가 떠오른 듯 저절로 미소가 지어졌다.
+()<Speaker>지휘관</Speaker>||:...이렇게 처절한 상황에서 싸우는 건 이번이 처음이 아니다.+하지만 지금까지와 다른 점은, 이번엔 우리의 결말이 이미 정해져 있다는 거야.+우리가 할 수 있는 건, 이 빌어먹을 결말 위에서 놈들에게 가장 진한 먹물을 한 번 쫙 뿌려주는 것 정도다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 넬레가 돌려준 마카로프를 허리춤에 꽂았다.
+()<Speaker>지휘관</Speaker>||:상황이 급해서 고민할 시간을 많이 줄 수가 없다. 미안하다.
+()<Speaker></Speaker>||:잠깐의 침묵이 흐르고.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:슥. 손 한 짝이 눈앞에 나타났다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>826</BIN><CGDelay>0.5</CGDelay><黑屏2>:
+()<Speaker>RO635</Speaker>||<CGDelay>0.5</CGDelay>:지휘관님, AR팀은 영원히 지휘관님과 어깨를 나란히 할 것입니다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>827</BIN><CGDelay>0.5</CGDelay><黑点2>:
+()<Speaker>UMP45</Speaker>||<CGDelay>0.5</CGDelay>:적어도 보수 다 지불할 때까지는 살려놔야 하지 않겠어? 어쩔 수 없지, 그 모험에 어울려줄 수밖에.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>828</BIN><CGDelay>0.5</CGDelay><黑点2>:
+()<Speaker>AK-12</Speaker>||<CGDelay>0.5</CGDelay>:AK-15랑 약속했거든, 같이 패러데우스를 박살내자고.+여기서 빠졌다간 내가 그 녀석한테 박살이 날 거야.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>829</BIN><CGDelay>0.5</CGDelay><黑点2>:
+()<Speaker>AR-18</Speaker>||<CGDelay>0.5</CGDelay>:당신이 어떤 결정을 내리시든, 저희는 당신을 지지합니다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>830</BIN><CGDelay>0.5</CGDelay><黑点2>:
+()<Speaker>스티븐스 520</Speaker>||<CGDelay>0.5</CGDelay>:당신의 결말을 지켜보겠다고 했죠? 그럼 마지막 순간까지 같이 가 드리겠어요.+그리고 무엇보다... 어차피 저는 IOP제 인형도 아닌걸요! 무서울 것 없다고요!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:점점 더 많은 인형들이 모여들어 손을 번쩍 들었다.
+()<Speaker>지휘관</Speaker>||:너희들...+알고 있는 거야? 너희가 어떤 길을 선택한 건지?+모든 지원을 잃고 세계를 적으로 돌리는 거야. 이미 보장된 미래를 등지는 짓이라고.+우리는 질 거야. 그건 필연이야. 승자는 우리의 존재를 완전히 지워버릴 거고.+그런데도, 너희는 여전히 나를 따르겠다는 거야?
+()<Speaker>UMP45</Speaker>||:404는 애초에 존재하지 않는걸.
+()<Speaker>AK-12</Speaker>||:우리는 언제나 그림자 속을 거닐지. 잊히는 것이 최고의 결말이고.
+()<Speaker>RO635</Speaker>||:저희의 대답은 변한 적 없습니다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:......
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BIN>831</BIN><CGDelay>0.5</CGDelay><黑点2>:
+()<Speaker></Speaker>||<CGDelay>1</CGDelay>:지휘관은 정중하게 손을 얹었다.+알고 있다. 이것은 신뢰를 상징하는, 죽음까지도 함께하겠다는 맹세임을.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>786</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>아나운서</Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.5</CGDelay>:<color=#00CCFF>...긴급 속보 전해드립니다.</color>+<color=#00CCFF>프랑크푸르트 공습 및 모스크바 쿠데타를 주도한 수괴 카터 페트로비치 노이슈타트가 현재 사망한 것으로 확인되었습니다.</color>+<color=#00CCFF>현재 모스크바 방면에선 방어 병력이 결집하여 잔존한 카터 일당을 처리하고 있습니다. 이 혼란도 머지 않아 종결될 것으로 예상됩니다.</color>+<color=#00CCFF>이어서 프랑크푸르트 재건 작업 현장으로 시선을 옮겨보겠습니다...</color>
+()||<黑点1>:

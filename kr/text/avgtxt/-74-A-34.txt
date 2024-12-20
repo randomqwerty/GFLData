@@ -1,0 +1,167 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><黑屏2><BIN>758</BIN><SE1>AVG_AMB_Wind</SE1>:화이트존.+J 요원은 처음으로, 프랑크푸르트의 저 슈타지 건물을 매우 진지하게 바라봤다.+지금 그의 손에는 방금 수령한 서류 봉투가 들려 있었다.+소식을 받았을 땐 머릿속이 붕붕거렸다.+이런 직업 종사자에겐 흔한 일이라는 건 알고 있었지만, 그래도 역시 받아들이기 힘들었다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:결국, 더는 참지 못하고 서류를 봉투에서 끄집어냈다.
+NPC-Keven(11)<Speaker>J</Speaker>||:케인 슈바벤...+임무 중... 순직...
+NPC-Keven(11)<Speaker>J</Speaker>||:라이트 거보다 몇 장은 더 두껍네... 이게 정식 요원으로서의 대우인가 뭔가 하는 그건가...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:이 슬픔을 누구와 나눠야 할지 몰랐다.+대체 어떤 표정을 지어야 할지도 몰랐다.+그도 그럴 것이, 이것이 처음도, 마지막도 아닐 테니까.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><SE1>Stop_AVG_loop</SE1>:삐삑.+마침 지휘관에게서 통신이 왔다.
+NPC-Keven(11)<Speaker>J</Speaker>||:...지휘관?
+NPC-Keven(11)<Speaker>지휘관</Speaker><同时置暗>||:<color=#00CCFF>J... 지금 어디야?</color>+<color=#00CCFF>너한테... 너한테 부탁할 일이 있어...</color>
+NPC-Keven(7)<Speaker>J</Speaker>||:무슨 일입니까?
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>아마리스한테 연락해서... 넬레 씨 어딨는지 찾아줘.</color>
+()<Speaker></Speaker>||:......
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>471</BIN><BGM>BGM_ev2412_GoTime</BGM>:
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:타타탕!+매섭게 날아드는 총탄 세례에 넬레는 자신 뒤로 탄흔이 궤적을 그리는 것까지 보였다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:아마리스 씨! 상대가 너무 많아요!
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:나도 알아!
+NPC-Nele(6)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:저거 다 어디서 온 사람들이에요?!
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...글쎄.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:넬레를 데리고 좁디 좁은 골목길을 달리는 동시에 추격자까지 저지하느라, 아마리스의 탄창은 금방 바닥을 드러냈다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:저기! 저 앞의 건물로 들어가!+저 안에 다른 건물로 이어지는 복도가 있어! 지형으로 따돌려보자고!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:네!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:아마리스는 넬레를 먼저 들여보내고 추격자를 다시 한 번 저지했다.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:그리고 이제 얼마 남지 않은 탄창의 수를 가늠해보고, 눈살을 찌푸리며 건물 안으로 뛰어들어갔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>395</BIN><黑点2><SE1>RunStep</SE1>:두 사람의 급한 발소리가 썰렁한 복도 끝까지 메아리쳤다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:이쪽!
+NPC-Nele(6)<Speaker>넬레</Speaker><Shake>||:...저어... 저, 처음으로, 체력의, 중요성을 깨달았, 어요...
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:정형외과 의사는 몸 튼튼하던데.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:그야... 정형외과의는 다, 목수니까요...+어깨 탈골부터, 계단 조립까지...
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:지금 그딴 의사 개그 할 시간 아니거든!?
+NPC-Nele(7)<Speaker>넬레</Speaker>||:네에... 하아... 돌아가면 운동 열심히 할 거야아...
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:내 뒤 바짝 따라와.
+NPC-Nele(7)<Speaker>넬레</Speaker>||:아... 네...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:뒤쫓아오는 발소리는 아직 멀어도 아마리스는 사방을 경계하며 넬레를 데리고 전진했다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:그런데 그때, 저 앞의 계단에서 누군가 내려오는 발소리가 들렸다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:누가 온다!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:......!
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:아마리스가 총을 들어 발소리가 들려오는 방향을 겨눴다.+저 정체불명의 "추격자"는 큰 소리를 내며 당돌하게 계단의 마지막 한 칸을 내려와, 두 사람 앞에 모습을 드러냈다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2>:
+NPC-Nele(6)<Speaker>넬레</Speaker>||:아, 아니, 당신이 왜 여기 있어요?!
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+()<Speaker></Speaker>||:J였다. 빛을 등진 탓에 얼굴이 그늘져서 잘 보이진 않아도, 분명히 J였다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:...왜 말이 없어요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레가 J에게 두 걸음 다가가며 물었다.+그런데, 갑자기 아마리스가 그녀를 붙잡아 세웠다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:안 돼.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:네? 왜요?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+NPC-Keven(7)<Speaker>J</Speaker>||:당신을 쫓는 사람들 중 슈타지가 있으니까죠.+물론 다른 쪽 사람들도 있지만요.+당연한 거 아니겠습니까, 당신이 구 시청 청사 앞에서 한 말 때문에 수많은 사람들이 쏟아부은 피와 땀과 돈이 죄다 휴지조각이 되어 버렸는데.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:......
+NPC-Keven(7)<Speaker>J</Speaker>||:그레이의 결백이 당신의 목숨보다 중요했어요?+이미 죽은 사람인데, 당신은 더 살아야죠...
+NPC-Nele(7)<Speaker>넬레</Speaker>||:...이건 저의 인생이 걸린 신념이에요.+사람이 살아서 신념 하나 관철하지 못한다면 차라리 죽는 게 나아요!
+NPC-Keven(12)<Speaker>J</Speaker>||:넬레 씨... 대체 왜 그럽니까?+출신 좋고 재능도 뛰어나서 앞날이 아주 창창한 사람이... 지금 이런 일 때문에...+다 한 순간에 사라질 수도 있다고요, 당신 목숨까지도!
+NPC-Nele(7)<Speaker>넬레</Speaker>||:태어났으니 죽는 날도 오는 거 아니에요!?+어떻게 죽느냐가 다를 뿐이지!+출신은 선택 못 하니까, 어떻게 죽을지 정도는 선택해야죠!
+NPC-Keven(7)<Speaker>J</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:뒤에서 쫓아오는 발소리가 점점 가까워졌다. 하지만 넬레는 밝은 눈빛으로, 두려움의 그늘 한 점 없었다.
+()<Speaker></Speaker>||:그 눈빛에 J는 그날의 화재가 떠올랐다. 한 주택 건물을 거의 통째로 집어삼켰던 그 대화재가.
+()||<黑屏1>:
+()<Speaker></Speaker>||<边框>2</边框><BIN>401</BIN><黑屏2><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<边框>2</边框>:그때, 그는 자괴감과 괴로움, 울분에 통곡하다 구토까지 했다.
+()||<黑屏1><边框>2</边框>:
+()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.7</CGDelay><黑屏2><BIN>399</BIN>:그러다 뒤를 돌아봤을 때 보았던 넬레의 눈은 지금처럼 맑고 밝았다.+그땐 그저 활활 타오르는 불에 비친 탓이겠지 싶었지만, 이제야 그는 깨달았다. 저 아가씨는 항상 저 맑은 두 눈으로 세상을 바라보고 있었다는 것을.
+()<Speaker></Speaker>||<边框>2</边框><BIN>9</BIN><SE1>AVG_weapon_reload</SE1><BGM>BGM_Empty</BGM>:그래서 결심하고, J는 권총의 안전장치를 풀었다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>395</BIN><黑点2><CGDelay>0.5</CGDelay>:
+NPC-Keven(7)<Speaker>J</Speaker>||:아마리스, 넌 어느 편이야?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:빛이 나는 사람 편.
+NPC-Keven(7)<Speaker>J</Speaker>||:......뭐?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:어쩔 수가 없어, 내 기반 설정이 이렇거든. 달빛은 다른 빛을 받아 반사하는 거잖아? 난 선천적으로 빛나는 걸 좋아해.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아마리스가 넬레의 앞에 섰다.+추격자들이 이미 따라잡았다. 바깥의 기척으로 보아 건물은 포위되고 출입구는 막혔을 터.
+NPC-Keven(7)<Speaker>J</Speaker>||:사람 참 많이도 끌고 왔네... 부서 몇 개는 동원했나?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:이런 게 또 나 같은 전술인형의 홈그라운드지.
+NPC-Keven(7)<Speaker>J</Speaker>||:호오? 근데 넌 전쟁용이잖아, 민간인 보호는 네 보유 스킬에 없지 않냐?
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:이게 날 너무 수박 겉핥기로만 아네...+잘 됐네, 내 실력을 보여 주겠어!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:타앙!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:타타탕!!+총성이 시작됐다.
+()<Speaker></Speaker>||:아마리스는 넬레를 감싸면서 반격했다.+하지만 이런 엄폐물도 없는 복도에서 비무장한 민간인을 지키기는 하늘에서 별을 따는 것보다 어려웠다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:내 뒤에서 나오지 마!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:하, 하지만 뒤에도...!
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1>:그런데, 총성이 요란하게 울리는 가운데 넬레가 뒤에서 난 총성을 똑똑히 들었다.
+()<Speaker></Speaker>||:몇 년 전 대학 입시 합격 통지를 조회할 때 마우스를 누르던 소리처럼, 처음으로 위급 환자를 소생시켰을 때 들었던 심전도계의 소리처럼, 라플라스를 향해 방아쇠를 당겼을 때처럼...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:넬레는 눈을 질끈 감고, 운명의 판결이 내려지는 순간을 기다렸다.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay><BGM>GF_21summer_avg_SecretAgent</BGM>:쿠웅!+몸이 넘어져 무언가에 깔린 감각이 들었다.
+NPC-Keven(12)<Speaker>J</Speaker>||:진짜 목숨 아까운 줄 모르는 사람이라니까...
+()||<黑屏1>:
+()<Speaker></Speaker>||<睁眼><BIN>395</BIN>:
+NPC-Nele(6)<Speaker>넬레</Speaker>||:J 씨?!
+()<Speaker></Speaker>||:J가 몸을 날려 넬레를 덮쳐서 탄환을 피한 것이었다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:왜... 당신이...+당신도 슈타지잖아요?
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:수다 떨지 말고 빨랑 일어나서 방에 숨어!
+NPC-Nele(6);NPC-Keven(12)<Speaker>J</Speaker>||:가요!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:아, 네!
+()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>AVG_2022Saros_SCARL3</SE1><震屏3>:J는 넬레를 확 끌어당겨 안고 아마리스의 엄호를 받으며 황급히 모퉁이의 방으로 뛰어들었다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>750</BIN><黑点2><Night>:
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:인간 둘에 인형 하나.+셋은 계속 움직였다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...넬레, 여기서 탈출하고 나면 꼭 J한테서 떨어져. 아주 멀리.+이 녀석 분명 나중에 슈타지한테 머리통 날아갈 거야.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-SCAR-H(0)||:아니 넌 그렇게 내가 아니꼽냐?
+NPC-Keven(7);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:응, 대놓고 말할 만큼.+아무튼 끝나면 각자 자기 갈 길 가자고. 난 슈타지로 안 돌아가.
+NPC-Keven(9)<Speaker>J</Speaker><Shake>;NPC-SCAR-H(0)||:으악! 나 다쳤어!+다리가... 아이고 내 다리!
+NPC-Keven(9);NPC-Nele(6)<Speaker>넬레</Speaker>||:엑, 지금 총 맞았나요?!+어디예요? 보여줘 봐요!
+NPC-Keven(9);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그래 얼른 보여줘, 상처 알아서 아물기 전에!
+NPC-Keven(6)<Speaker>J</Speaker>||:......
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:넬레, 이 자식 헛소리는 그냥 무시해. 이게 어디서 꾀병을 부려!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:......
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(6)||:넬레 씨... 제 단 하나뿐이던 친구가... 없어졌어요...
+NPC-Keven(11);NPC-Nele(5)<Speaker>넬레</Speaker>||:...제가 친구 같은 게 되어 줄 순 있는데요.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(5)||:임무도 망치고... 이제 직장에서 짤리겠죠...
+NPC-Keven(11);NPC-Nele(5)<Speaker>넬레</Speaker>||:...직장은 뭐어, 낙하산 탈 수도 없으면 알아서 방법을 찾아야겠죠.+그치만 J 씨 꼴로는... 으음... 저, 정 다른 직장 못 구하면... 제가... 제가 먹여 살려는 드릴게요...
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(5)||:망했다, 수천만 소녀들의 꿈이 마침내 끝이로구나아... 다시는 미녀에게 커피도 못 쏘고...
+NPC-Nele(7)<Speaker>넬레</Speaker>||:......
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:그냥 지금 이놈 머리통 날려버릴까?
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:이때, 넬레의 통신기가 울렸다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:...외조부님?
+NPC-Nele(6)<Speaker>포크트</Speaker><同时置暗>||:<color=#00CCFF>정말이지, 너는 네 어미보다 사고뭉치구나.</color>
+NPC-Nele(6)<Speaker>넬레</Speaker>||:......
+NPC-Nele(6)<Speaker>포크트</Speaker><同时置暗>||<BGM>BGM_ev2408_BeeCatcher</BGM>:<color=#00CCFF>대체 왜...</color>+<color=#00CCFF>아니, 됐다. 누가 시켰는지만 말하거라.</color>
+NPC-Nele(7)<Speaker>넬레</Speaker>||:누가 시켜서 한 일이 아니에요. 다 제가 제 의지로 한 일입니다.
+NPC-Nele(7)<Speaker>포크트</Speaker><同时置暗>||:<color=#00CCFF>......</color>
+NPC-Nele(7)<Speaker>넬레</Speaker>||:순수히 제 이념에서 비롯된 행위입니다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:넬레는 통신 너머에서 한숨을 쉬는 걸 들었다.
+()<Speaker>포크트</Speaker>||:<color=#00CCFF>네 어미는 가정을 위한다고 대들더니,</color>+<color=#00CCFF>너는 이념을 위한다고 나한테 대드는 거냐?</color>
+NPC-Nele(5)<Speaker>넬레</Speaker>||:죄송합니다 외조부님, 그쪽에까지 폐를 끼쳐서요.+그냥 당당하게 말하세요, 저는 진작에 당신과 의절한 사이라고요.
+NPC-Nele(5)<Speaker>포크트</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>이놈의 자식! 내가 그리 말한다고 누가 믿을 거 같아!?</color>
+()<Speaker>포크트</Speaker>||:<color=#00CCFF>하아... 내 마지막으로, 네 외조부로서 할 일을 해 주마.</color>+<color=#00CCFF>앞으로 너와 나는 정말로 아무런 사이도 아니다.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:외조부가 통신을 끊었다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:......+참, 아까 대답을 못 들었는데... J 씨 진짜 여기 왜 왔어요? J 씨도 명령을 받아서 온 거예요?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(6)||:그게... 슈타지가 저와 넬레 씨의 관계를 알아서 저는 차출되지 않았습니다.+지휘관이 연락해서는 넬레 씨를 지켜 달라 부탁했어요.
+NPC-Keven(7);NPC-Nele(6)<Speaker>넬레</Speaker>||:...그럼 어떡하려고요?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(6)||:일 끝나면 가서 진술서 쓰고 퇴직 준비해야죠 뭐.
+NPC-Keven(7);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그리고 살처분 당하고 말이지.
+NPC-Keven(7)<Speaker>J</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:또 통신이 울렸다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:제 거 아니에요.
+NPC-Keven(6)<Speaker>J</Speaker>||:...아, 제 거네요.
+()<Speaker></Speaker>||:J가 천천히 통신기를 들어, 슈타지의 채널을 열었다.
+NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>...먼저 축하할게.</color>
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(2)||:백수 된 걸요?
+NPC-Keven(6);NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>너 말고 코넬리아 슈펠 씨.</color>+<color=#00CCFF>목숨줄 조금 더 길어졌다고 전해.</color>
+NPC-Keven(9)<Speaker>J</Speaker>;NPC-maya(2)||:예?
+NPC-Keven(9);NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>혼자 건물 밖으로 나오라고 해.</color>+<color=#00CCFF>너와 아마리스는 그 다음에 떠나고.</color>
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(2)||:지금 그게 넬레 씨를 꾀어내려는 수작이 아니라고 어떻게 믿습니까?
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>그럴 거 같더라, 네 지능으론 내 솜씨를 못 따라오지.</color>
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(0)||:이익...
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>슈타지 거기서 전원 철수했어. 지금 건물 밖에 있는 사람은 프랑크푸르트 경찰이야.</color>+<color=#00CCFF>내 말 믿어, 지금 넬레 씨한테 가장 안전한 장소는 프랑크하임 여자교도소밖에 없어.</color>
+NPC-Keven(7)<Speaker>J</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:통신은 그대로 끊어졌다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>725</BIN><黑屏2><SE1>AVG_Alarm_Distance</SE1>:언제 도로가 정리되었는지 멀쩡한 경찰차가 건물 앞에 서 있어서, 반쯤 무너진 건물만이 프랑크푸르트에 폭격이 떨어졌다고 증명하는 듯했다.
+()<Speaker>경찰</Speaker>||:코넬리아 슈펠 씨, 맞습니까?
+NPC-Nele(5)<Speaker>넬레</Speaker>||:...맞습니다.
+NPC-Nele(5)<Speaker>경찰</Speaker><同时置暗>||:코넬리아 슈펠 씨, 당신은 영안실에 무단 침입, 그레이 블랙웰의 시신을 훔쳐 심사를 거치지 않은 실험에 사용하였습니다.+당신을 불법 침입, 과학 연구 윤리와 법규를 위반한 시체 절도 및 훼손 등의 혐의로 체포합니다.+당신은 변호인을 선임할 수 있으며, 불리한 진술을 거부할 권리가 있습니다.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:알겠습니다.
+NPC-Nele(5)<Speaker>경찰</Speaker><同时置暗>||:따라오시죠, 협조에 감사드립니다.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:예.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:......
+()||<黑点1>:

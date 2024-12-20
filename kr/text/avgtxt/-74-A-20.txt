@@ -1,0 +1,168 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>819</BIN><BGM>BGM_ev2412_PrinceIgor</BGM>:...A661 도로.+인형들의 노력으로, 도로에 즐비했던 자동차 잔해는 도로 양옆으로 제법 많이 치워져 있었다.+도로 서쪽의 메마른 풀밭에는 폭격으로 목숨을 잃은 인간들이 인형들의 손으로 가지런히 두 줄로 눕혀져, 수습을 기다리고 있었다.
+G41(0)<Speaker>G41</Speaker><Position>-180,200</Position><Shake>||:하나, 두울, 세엣!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:인형들은 함께 찌그러진 지프를 힘껏 밀었다.
+G41(0)<Speaker>G41</Speaker><Position>-180,200</Position>||:좀 더 힘내서, 하나, 두울, 세엣!
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:타이어가 도로를 긁히는 소리를 내며 겨우 자리를 비켰다. 이제 도로 위의 큰 장애물들은 거의 다 치워졌지만, 바닥에는 여전히 날카로운 잔해들이 섞여 있어 통행하기엔 적합하지 않았다.
+AUG(0)<Speaker>AUG</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>교통부 차량이 1분 후 도착합니다. 현장 소대원들은 차량 이동 경로를 확보해 주세요.</color>
+G41(0)<Speaker>G41</Speaker><Position>-180,200</Position>||:라저!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:인형들은 대열을 이루고 엘모호 쪽으로 움직였다.
+()<Speaker></Speaker>||<白屏2><SE1>AVG_21Winter_Water_Tap</SE1>:곧 이어서 고압 살수차가 현장에 도착해 물대포를 가동했다. 강력한 물줄기가 도로 위의 자잘한 잔해들을 양옆으로 밀어냈다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||:지휘관은 길가에서 도로 상황을 지켜보다 갑자기 통신 버튼을 눌렀다.
+()<Speaker>지휘관</Speaker>||<SE1>AVG_tele_connect</SE1>:기다려!
+RO635Mod(3)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>지휘관님?</color>
+()<Speaker>지휘관</Speaker>||:교통부 쪽에 잠깐 기다리라고 해. 인형 넷 보내서 방수포 좀 가져오라고 하고.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:곧바로 SOP2가 인형 3명과 함께 커다란 방수포 한 롤을 들고 왔다.
+()<Speaker>지휘관</Speaker>||:이 사람들에게 덮어줘.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:인형 4명이 힘을 합쳐 방수포를 펼치자, 마치 거대한 국기처럼 펼쳐지며 길가에 누운 시신들을 덮어주었다.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Water_Tap</SE1>:살수차가 다시 앞으로 움직이기 시작했다. 시신 옆을 지나갈 때, 물줄기에 튀어오른 진흙이 방수포 위로 떨어지면서 툭툭 소리를 냈다.
+()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1><CGDelay>0.5</CGDelay>:살수차 운전기사가 경적을 길게 울려, 떠나간 동포들을 추모했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay>:
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>지휘관님, 드론이 전방 도로를 정찰 완료했습니다. 장애물 없고, 통행 조건 충족했습니다.</color>
+()<Speaker>지휘관</Speaker>||:좋아, 그럼 계속 출발하자.
+()<Speaker></Speaker>||<SE1>AirRaidWarning</SE1>:도시에서 갑자기 공습 경보가 울리자, 지휘관의 안색이 창백해졌다.
+()<Speaker>지휘관</Speaker>||<SE1>AVG_tele_connect</SE1>:RO, 엘모호 레이다 끄고 광학위장막 펼쳐!+AR-15, 홀에 있는 모두에게 환자들 잘 지키고 질서 유지하라고 전해!
+AR15Mod(0)<Speaker>AR-15</Speaker><通讯框>||:<color=#00CCFF>네, 지휘관.</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>알겠습니다! 레이다 정지, 전자 신호 차폐 전개, 적외선 차폐 전개.</color>+<color=#00CCFF>하지만 위장막은... 지휘관님, 여기서 빨리 철수해야 해요. 이대로 제자리에 머무는 건 더 위험해요.</color>
+RO635Mod(0)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:누가 가만히 있을 거랬어?+엘모호의 예비 차량 꺼내!
+RO635Mod(3)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>그러니까, 앞뒤 차량으로 위장막을 견인할 셈이신가요?</color>+<color=#00CCFF>확실히, 보조 차량을 엘모호의 관리 시스템에 연결해서 하나로 움직이면서, 드론으로 시야를 보완할 수 있겠네요.</color>+<color=#00CCFF>알겠습니다, 바로 인원 배치하겠습니다.</color>
+RO635Mod(3)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:내가 선두에서 길을 안내하겠어.
+RO635Mod(4)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>너무 위험해요, 지휘관님! 엘모호에 남아 계셔야 해요!</color>
+RO635Mod(4)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:...강한 자기장 영향으로 인형이 고장나면 어떻게 할 건데? 선두 차량은 엘모호의 눈이자 방향타야, 절대로 문제가 생기면 안 돼.
+RO635Mod(4)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>하지만 지휘관님의 안전이 최우선이에요!</color>
+RO635Mod(4)<Speaker>지휘관</Speaker><通讯框><同时置暗>||:시간이 없어, 내 명령대로 해.
+RO635Mod(2)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>네, 지휘관님.</color>
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_Moto_Run</SE1><黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_Cloak_Whoosh</SE1><BIN>846</BIN>:청회색 전파 흡수 소재로 만든 위장막이 펄럭이며 엘모호를 뒤덮었고, 앞뒤 차량은 마치 한 쌍의 손처럼 위장막의 양 끝을 끌어당겼다.+손바닥만 한 소형 드론들이 엘모호 양쪽을 따라 비행하며 RO635에게 주변 시야를 제공했다.
+()<Speaker></Speaker>||:공습 경보가 멈춘 도시는 숨막히는 정적에 잠겼다. 지휘관은 핸들을 잡고 아무도 없는 고속도로 위를 일정한 속도를 유지하며 조심스럽게 나아갔다. 비록 RO635가 차량을 원격으로 조종하고 있었지만, 지휘관은 언제든 직접 행동할 준비를 하고 있었다.+바람에 위장막이 펄럭이며 엘모호의 윤곽이 드러났다.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||:하늘에서 전투기의 울음소리가 한동안 들리지 않자, 오히려 지휘관은 긴장한 채로 계속 곁눈질로 백미러를 통해 프랑크푸르트의 하늘을 계속 살폈다.
+()<Speaker></Speaker>||:갑자기, 프랑크푸르트 상공에 하얀 궤적 몇 줄이 나타났다.
+()<Speaker>지휘관</Speaker>||:미사일!?+하, 다행이다, 폭격이 아니라...
+()<Speaker></Speaker>||:지휘관은 안도의 한숨을 쉬었다. 지금 상황을 봐선 엘모호가 공습을 받을 가능성이 크게 내려갔다.
+()<Speaker>지휘관</Speaker>||:아니지, 다행은 뭐가 다행이야. 저것들도 다 없어야 다행이지.
+()<Speaker></Speaker>||:하지만 지휘관은 곧 미사일의 목표와 예상되는 피해를 떠올리지 않을 수 없었다.+지난 며칠간의 구조 현장, 그리고 그곳에서 흘렸던 눈물과 피를 생각하니 지휘관의 가슴은 무겁게 내려앉았다.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BGM>BGM_Empty</BGM>:세상이 갑자기 흐려지며, 지휘관은 주변의 소리가 점점 아득하게 느껴졌다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:세상이 빙글빙글 돌며 색이 바래고 끝없는 어둠 속으로 빠져들었다...
+()||<黑屏1>:
+()<Speaker></Speaker>||<边框>2</边框><BIN>4</BIN><黑屏2><回忆>:......+병영 바깥, 지휘관은 그저 어쩌다 지나가는 척하면서, 익숙한 모습이 나타나길 기다리며 눈알을 굴렸다.
+()||<BGM>BGM_23S_Winter_Night</BGM><边框>2</边框>:마침내 그 인물이 시원시원한 미소를 짓고서 나타났다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:여어, 꼬맹이. 무슨 일로 찾아왔어?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:어, 별건 아니고, 전에 휴가 나갔을 때 곧 네 생일인 게 생각나서 그냥 아무거나 사 왔어.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:휴가 나간 거 두 달 전 아니었나? 두 달 전부터 내 생일 생각을 했어?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...시끄러워. 그냥 받아.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:하하, 무슨 선물인지 맞혀 볼까.+소고기 통조림?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:내가 너 같은 줄 알아? 그딴 깡통을 선물로 주게?
+()<Speaker>헬린</Speaker>||<边框>2</边框>:그럼...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:됐어, 그만 찍어. 어차피 못 맞힐 테니까!
+()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:지휘관은 작은 케이스를 헬린에게 건네주었다.+헬린은 케이스를 감싼 리본을 조심스럽게 풀고, 뚜껑을 열었다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:백합 목걸이잖아?!
+()<Speaker></Speaker>||<边框>2</边框>:상자 안에는 백합 모양으로 세공된 은 장식 목걸이가 놓여 있었다. 헬린은 그걸 꺼내 들고 자세히 살펴보았다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:설마 기억하고 있었을 줄이야...
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:나 기억력 좋거든, 그리고 네가 한두 번 말했냐?.+백합꽃이 제일 좋다느니, 볼 때마다 마음이 평온해지고 희망이 차오른다느니 노래를 불렀잖아.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:고마워, 꼬마야.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:겨우 이거 갖고 뭘. 여건만 됐으면 진짜 백합꽃 표본을 가져왔을 텐데.+아니면 실물 같은 조화라든가.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:......
+()<Speaker></Speaker>||<边框>2</边框>:평소 같았으면 헬린이 피식하며 지휘관의 이마를 튕겼을 때였다.+하지만 지휘관이 곁눈질하니 헬린은 그저 말없이 목걸이를 만지작거리고 있었고, 눈가에는 눈물이 반짝였다.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...뭐야? 목걸이 하나 받았다고 그렇게 감동할 거 있어?
+()<Speaker>헬린</Speaker>||<边框>2</边框>:백합꽃... 정말 못 본 지 오래됐네...+꼬마야, 이 목걸이 비싼 거지? 월급을 이런 데다 막 써버려도 돼?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:어차피 다른 가족도 없고, 돈 있어봤자 쓸 데도 없는걸.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:......+예전에 우리 엄마가 살아 계셨을 때, 집 식탁 위에 백합 꽃다발을 종종 올려두곤 했어.+그렇게 자주는 아니고, 한 달에 한 번 정도. 엄마 월급날에만 말이야.+그러다 전쟁이 터지면서 엄마가 일하던 공장이 파산했고, 그 이후로는 백합을 사지 않았지.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:......
+()<Speaker>헬린</Speaker>||<边框>2</边框>:나중에 내가 살 능력이 생겼을 땐 어딜 가도 백합이 안 보이더라.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:그래봐야 꽃 한 다발이잖아? 그렇게 좋아하면 내가 다음 휴가 때 잔뜩 구해줄게.+생활관에 둘 곳 없으면 집에 둬. 문 열면 백합 향기로 한가득하게!
+()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:헬린이 목걸이를 지휘관 손 위에 놓았다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:꼬마야, 이거 네가 목에 걸어줘.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:어.
+()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:헬린이 등을 돌리자, 지휘관은 조심스럽게 뒷머리를 걷어내고 목걸이를 헬린의 목에 걸었다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:...집에 가라, 꼬마야.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:집이라니? 가족도 없는데 무슨 집?
+()<Speaker>헬린</Speaker>||<边框>2</边框>:가족이 없다면 누군가의 가족이 되어줘.+내가 입대한 이유가 바로 너 같은 꼬맹이들이... 남은 생을 편안하게 지낼 수 있게 하기 위해서거든.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:자꾸 애 취급하지 말라고!
+()<Speaker>헬린</Speaker>||<边框>2</边框>:앞으로 내 동생 해라.+너도 가족이 없고, 나도 마찬가지야.+하지만 여기선 우리가 가족이야.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...누구 맘대로 네 동생이야!?
+()<Speaker></Speaker>||<边框>2</边框><SE1>Rope</SE1>:지휘관은 투덜거리며 목걸이 고리를 잠그고 손을 떼려 했지만, 헬린이 손을 붙잡았다.
+()<Speaker>헬린</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:...난 전쟁이 너무 싫어.+그 누구보다 전쟁이 싫어.+전쟁은 내게서 가족도, 친구도, 스승도 빼앗아갔어.+앞으로도 더 많은 걸 잃게 되겠지.+하지만 그래도 나는 계속 싸워야 해.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:금성 훈장 받으려고?
+()<Speaker>헬린</Speaker>||<边框>2</边框>:...받을 수 있으면 좋지.+금성 훈장을 받으려면 조건이 워낙 까다로워서, 아마 평생 못 받을 수도 있어...+그래도, 내가 살아 있는 동안 너 같은 꼬마들 목숨을 조금이라도 더 지킬 수 있다면, 나는 그걸로 충분해.
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:얼마나 까다롭길래? 네가 못 받을 거면 그냥 빨리 제대나 해.+나는 분명 받을 테니까.
+()<Speaker></Speaker>||<边框>2</边框>:헬린이 피식하며 뒤돌았다.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:푸하하하하, 과연 내가 점 찍어둔 꼬마답네, 제일 용감한 소련인이야.+내 마음 속 영원한 영웅이야!
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:...징그럽게 그러지 마.
+()<Speaker>헬린</Speaker>||<CGDelay>0.5</CGDelay><边框>2</边框>:내가 못 따면, 네가 꼭 대신 따라...+내 마음 속에서...+너는 장래에 분명...
+()||<黑屏1><边框>2</边框>:
+()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN>:
+()||<黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Heart_Monitor1</SE1><BIN>160</BIN><睁眼><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_ev2412_Yaroslavna</BGM>:삐, 삐... 심박 측정기의 신호음이 규칙적으로 울렸다.+손끝과 뺨에 햇살의 온기가 남아 있는 듯했다. 지휘관이 눈을 뜨자, 황금빛 석양이 눈에 들어와 순간 멍해졌다.
+M4 SOPMOD IIMod(2)<Speaker>M4 SOPMOD II</Speaker>||:와! 지휘관이 깼어!
+()<Speaker>지휘관</Speaker>||<SE1>ClothingUp</SE1>:여긴...
+RO635Mod(2)<Speaker>RO635</Speaker>||:의사가 과로 때문이라고 하더라고요. 다른 문제는 없다고 했지만, 혹시 아직 불편한 곳 있으신가요?
+()<Speaker>지휘관</Speaker>||:잠깐만, 나 얼마나 쓰러져 있었어?
+RO635Mod(0)<Speaker>RO635</Speaker>||:대략 1시간 정도요.+걱정 마세요, 물자는 아직 싣는 중이고 엘모호 충전도 조금 더 걸릴 거예요.+다만...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:RO635가 고개를 숙이며 무언가 말하려던 순간, 하얀 가운을 입은 의사가 바람처럼 들이닥쳤고, 그 뒤로 여러 사람이 우르르 뒤따라 들어왔다.
+()<Speaker>브로첼 원장</Speaker>||:만하임인민병원 원장 브로첼입니다. 지휘관님, 당신이 마련해 주신 의료 시스템 임시 통신채널 덕분에 큰 도움을 받았습니다!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:브로첼 원장이 지휘관의 손을 꽉 잡고 위아래로 흔들었다.
+()<Speaker>지휘관</Speaker>||:아, 감사합니다...+하지만 죄송하지만, 전 이만 가봐야 합니다. 프랑크푸르트에서 아직 처리해야 할 일이 잔뜩 있어서...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 그렇게 말하며 링거 바늘을 뽑으려고 했다.
+()<Speaker>브로첼 원장</Speaker>||:급할 것 없습니다. 필요한 의료 물자를 아직 조달 중이라서요. 금방 도착할 겁니다. 그리 오래 걸리지 않을 테니 안심하십쇼.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 RO635를 바라보자, RO는 고개를 끄덕이며 브로첼 원장의 말에 동의했다.
+()<Speaker>브로첼 원장</Speaker>||:성 비센의 일은... 정말로 유감입니다. 엘드리지 원장을 잃은 건 의료계 모두에게 큰 손실입니다...
+()<Speaker>지휘관</Speaker>||:뭐라고요!?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:지휘관은 자신의 귀를 의심했다.
+()<Speaker>브로첼 원장</Speaker>||:1시간 전, 적군의 미사일이 마인츠 아동병원과 성 비센 병원을 공격했습니다...
+()<Speaker>지휘관</Speaker>||:......!
+()<Speaker></Speaker>||:막대한 허탈감이 지휘관을 급습했다.
+()<Speaker>지휘관</Speaker>||:그럴 리가 없습니다, 아직 못 옮긴 환자들이 있어요. 거기서 아직 우리의 지원을 기다리고 있단 말입니다!
+RO635Mod(2)<Speaker>RO635</Speaker>||:Px4 스톰이 오프라인됐어요...+다른 병원에 주둔 중인 인형들이 성 비센 병원이 공격을 받아 이미 폐허가 된 것을 확인했습니다.+오늘 적군이 여러 차례 미사일 공격을 가해서 프랑크푸르트의 사상자가 아마 2천 명을 넘을 것으로...
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:지휘관이 링거를 뽑고 벌떡 일어나려다가 현기증에 휘청거렸다. SOP2와 RO635가 급히 지휘관을 부축했다.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>||:지휘관! 아직 덜 쉬었어!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||:...당장 프랑크푸르트에 돌아간다, 빨리!
+RO635Mod(2)<Speaker>RO635</Speaker>||:......
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:<size=50>RO!</size>
+RO635Mod(0)<Speaker>RO635</Speaker>||:준비하겠습니다. SOP2, 지휘관님을 지키고 있어.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:그치만... 알았어...
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:RO635가 일어서 뒤돌아 나갔다. SOP2는 지휘관을 부축하면서 천천히 밖으로 나갔다.
+()<Speaker>브로첼 원장</Speaker>||:지휘관, 당신은 독일인도 아니고 정부 기관 소속도 아니신데, 왜 이렇게까지 애쓰시는 겁니까?
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:지휘관은 그 말을 듣고 제자리에 굳었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>4</BIN><边框>2</边框><回忆><CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:넌 그저 평범한 군인일 뿐이잖아, 왜 그렇게까지 열심히 하는 거야?
+()<Speaker>헬린</Speaker>||<边框>2</边框>:이유가 중요해?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:중요해, 알고 싶어.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:훈장 많이 따서 주렁주렁 달면 폼나잖아?
+()<Speaker>지휘관</Speaker>||<边框>2</边框>:거짓말.
+()<Speaker>헬린</Speaker>||<边框>2</边框>:......+저 위의 높으신 양반들은 민간인이 죽든 말든 신경쓰지 않으니까, 내가 신경써줘야지.+그게 군인이 총을 드는 이유야.
+()||<黑屏1><边框>2</边框>:
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>160</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>지휘관</Speaker>||:민간인이 죽든 살든 아무도 신경 안 쓰는데, 누군가는 나서서 뭐라도 해야 하지 않겠습니까.+그게 제가 총을 드는 이유입니다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1><黑屏2><BIN>764</BIN><Night>:......
+()<Speaker></Speaker>||:성 비센 병원의 폐허 앞. 소방차가 화염을 진압하고 커다란 조명등을 세웠다.+시민들은 줄지어 서서 맨손으로 폐허 위의 잔해를 하나씩 치우며, 시신이 발견될 때마다 누군가 다가와 조심스럽게 옮겼다.
+RO635Mod(2)<Speaker>RO635</Speaker>||<SE1>ClothingUp</SE1>:지휘관님...+여기 Px4 스톰의 마인드맵 코어, 그리고...+원장님의 사원증입니다.
+()<Speaker></Speaker>||:새하얀 조명을 빌려, 지휘관은 사원증에 묻은 핏자국과 가득 낀 먼지를 보았다.
+RO635Mod(2)<Speaker>RO635</Speaker>||:그리고, 저희가 격리병실에 옮긴 부상자 15명, 그들... 모두...
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:무릎의 나사가 풀린 것처럼, 지휘관은 폐허 위에 꿇어앉았다.
+RO635Mod(2)<Speaker>RO635</Speaker>||:지휘관님...
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:아침에 헤어질 때의 모습이 아직도 눈앞에 선한데, 지금은 온통 폐허와 수백 구의 시신뿐이었다...+그저 태양이 뜨고 지는 짧은 사이에 모든 것이 변해있었다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:RO, 난 괜찮아.+이따 다른 병원에 물자를 보내러 가자...+1분만 기다려줘...
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>276</BIN><CGDelay>0.5</CGDelay><回忆>:
+()<Speaker>프레디 엘드리지</Speaker>||:민주독일인민군 제1기갑사단, 전 육군 군의관 프레디 엘드리지, 귀하의 도움에 감사 드립니다!
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<关闭蒙版><CGDelay>0.5</CGDelay>:직원증과 마인드맵 코어. 두 물건을 손에 쥔 지휘관의 두 눈은 어느샌가 눈물로 흐려졌다.
+()||<黑点1>:

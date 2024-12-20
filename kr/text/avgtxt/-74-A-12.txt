@@ -1,0 +1,219 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>832</BIN><BGM>BGM_ev2412_2064</BGM>:...프랑크푸르트, 배전소.+작업자 몇 명이 방을 오가며 분주히 움직이고, 통신이 여기저기서 끊임없이 울려 퍼졌다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker>작업부</Speaker>||<SE1>RunStep</SE1>:팀장님, 지금 전력 공급 관련 신고가 여러곳에서 들어오고 있습니다...
+()<Speaker>팀장</Speaker>||:알아, 병원 쪽 전력 문제를 우선 해결하고, 나머지는 그 후에 처리하자고.
+()<Speaker>작업부</Speaker>||:지금 바깥 교통은 마비되었고, 통신 신호도 불안정합니다. 각 병원으로 지원 나간 팀들도 아직 현장에 도착하지 못했습니다.
+()<Speaker>팀장</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_Bomber_Flyby</SE1>:창밖의 흐릿한 하늘을 바라보며 팀장은 한숨을 내쉬었다. 부하에게 지시하려던 찰나, 상대방이 놀라 입을 벌리고 있는 것을 눈치챘다.+무슨 일인지 묻기도 전에——
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><BIN>9</BIN><SE1>AVG_Explo_Close</SE1><SE1>AVG_lifttable</SE1>:콰앙!!!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:팀장은 피투성이로 통신기 앞으로 기어가 마지막으로 남은 힘을 짜내어 외쳤다.
+()<Speaker>팀장</Speaker>||<SE1>AVG_tele_connect</SE1>:지원 바란다... 에쉬본구 에덤 배전소에 공습, 지원 바란다!+반복한다, 에쉬본구... 커헉...
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay>:목에서 쏟아져 나온 피가 나머지 말을 삼키고, 팀장은 통신기 앞에 힘없이 쓰러졌다.+그는 마지막까지 알지 못했다, 통신이 처음부터 먹통이었다는 사실을...
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>476</BIN><黑屏2>:...배전소 부근.+불타는 짙은 연기가 자욱하게 퍼지고, 건물 잔해에서 작은 폭발과 붕괴가 끊임없이 일어나고 있었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:섀도리스는 마이크를 옷깃에 고정하고, 급하게 달려가느라 헝클어진 머리카락을 정리했다. 배전소로 향하기 전에, 카메라를 든 팔크를 잠시 뒤돌아보았다.
+NPC-Shadowless(8)<Speaker>섀도리스</Speaker>||:따라오실 것까진 없었는데, 저 혼자 삼각대를 써서 촬영할 수 있거든요.
+()<Speaker>팔크</Speaker>||:나도 자발적으로 온 거야.+됐으니까 빨리 시작하자, 여기 말고 찍을 곳이 많이 있으니까.
+NPC-Shadowless(8)<Speaker>섀도리스</Speaker>||:......
+()<Speaker></Speaker>||:고집 센 동료에게 섀도리스는 고개를 끄덕이고 불타는 건물을 향해 걸어갔다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:화면에 이상 없음을 확인하고, 팔크가 OK 사인을 보냈다.
+()||<黑点1>:
+()<Speaker></Speaker>||<common_effect>%%code=202412_LIVE%%</common_effect><common_effect>%%code=202412_LIVE%%</common_effect>:
+NPC-Shadowless(3)<Speaker>섀도리스</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||<BIN>476</BIN><黑点2>:<color=#00CCFF>DDR2 보도 기자 섀도리스입니다. 지금 제가 서 있는 곳은 에쉬본구 에덤 배전소 앞입니다.</color>+<color=#00CCFF>최근 미사일 폭격으로 인해 이 배전소는 현재 가동이 멈춘 상태입니다.</color>+<color=#00CCFF>배전소에서 탈출한 작업 인원에 따르면 배전소 내부는 이미 불바다로 복구에 걸리는 시간은 아직 알 수 없는 상황입니다.</color>+<color=#00CCFF>또한, 북극해 1호 송유관 및 여러 주요 도로가 공습으로 파괴되었고, 유로파 타워도 파괴되었습니다. 현재 프랑크푸르트시 일대의 전력, 에너지 공급 및 통신 모두 마비된 상태입니다.</color>+<color=#00CCFF>현재 배전소에는 사상자가 다수 발생하여, 의료대와 소방대의 지원을 긴급히 요청하는 바입니다!</color> 
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake>:위태롭던 건물이 털썩 무너졌다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:섀도리스는 잠시 움찔했지만 자리를 떠나지 않고, 굳건히 렌즈를 응시했다.
+NPC-Shadowless(4)<Speaker>섀도리스</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>전쟁은 프랑크푸르트에 너무나 큰 상처를 남겼습니다. 전쟁의 불길은 모든 시민에게까지 번져갔습니다.</color>+<color=#00CCFF>또 한 번, 죽음과 비극이 우리에게 이토록 가까이 다가왔습니다.</color> 
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>BGM_Empty</BGM>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>72</BIN><黑屏2>:...슈타지 특수 통신 채널.
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker><通讯框>||<BGM>GF_EV9_Story</BGM>:<color=#00CCFF>슈타지 원격 회의를 시작합니다...</color>+<color=#00CCFF>출석하십시오.</color>
+()<Speaker>슈타지 부국장A</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>볼프강 출석.</color>+<color=#00CCFF>19부, 20부, E팀 대기 중.</color>
+()<Speaker>슈타지 부국장B</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>로트 출석.</color>+<color=#00CCFF>1부, 22부, 운영조정총국 대기 중.</color>
+()<Speaker>슈타지 부국장C</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>디트 출석.</color>+<color=#00CCFF>3부, 26부, 장비관리부 대기 중.</color>
+()<Speaker>슈타지 부국장D</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>헤드윅 출석.</color>+<color=#00CCFF>대외정보국, 해외작전국, 정찰총국 대기 중.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>나타샤 출석.</color>+<color=#00CCFF>12부, 13부, 비밀작전국 대기 중.</color>
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker><通讯框>||:<color=#00CCFF>정보 공유하십시오.</color>
+()<Speaker>슈타지 부국장A</Speaker>||:<color=#00CCFF>육군 방공부대는 전시작전통제권을 국방위원회로 이관했습니다.</color>+<color=#00CCFF>현재 프랑크푸르트에 진입을 준비 중이며, 반동 세력의 공군 위치를, 전념을 다해 파악하고 있습니다.</color>
+()<Speaker>슈타지 부국장C</Speaker>||:<color=#00CCFF>제10기갑사단, 프랑크푸르트 진입 준비 완료.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>이전 코드네임 EDDF 등 일련의 무기의 정식 명칭이 【이아손의 상자】로 확인되었습니다.</color>+<color=#00CCFF>현재 해당 무기는 주로 프랑크푸르트, 베를린 그리고 모스크바에서 집중 발견되었습니다.</color>
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker><通讯框>||:<color=#00CCFF>...확인했습니다. 지금 명단이 하나 필요합니다.</color>+<color=#00CCFF>1부의 명의로 국무위원회에 제출 바랍니다.</color>
+()<Speaker>슈타지 부국장B</Speaker>||:<color=#00CCFF>로트 수신.</color>+<color=#00CCFF>군사방첩부의 기록, 업로드 마쳤습니다.</color>+<color=#00CCFF>파인, 나타샤에게 열람 및 편집 권한을 부여했습니다.</color>
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker><通讯框>||:<color=#00CCFF>권한 확인 완료.</color>+<color=#00CCFF>정보분석 평가 센터의 현재 진도는 어떻습니까?</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>12부가 벌침 시스템 백업을 완료했습니다.</color>+<color=#00CCFF>13부는 숨겨진 관리 권한과 암호화 정보를 처리 중입니다.</color>+<color=#00CCFF>첫 번째 테스트까지 약 15일 정도 남았습니다.</color>
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker><通讯框>||:<color=#00CCFF>이아손의 상자 문제는 비밀작전국의 요원에게 맡기겠습니다.</color>+<color=#00CCFF>임무 목표는 1부의 리스트와 이아손의 상자 정보를 완벽하게 대응시킬 것.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>비밀작전국 수신.</color>+<color=#00CCFF>군사방첩부의 기록 권한을 확인. 과거 완성도에 따라 최소 60% 이상의 일치율을 보장하겠습니다.</color>
+NPC-Hoffmann(0)<Speaker>파인 호프만</Speaker><通讯框>||:<color=#00CCFF>좋습니다. 나머지는 대외정보국에 맡기겠습니다.</color>+<color=#00CCFF>이 부분 명단은 비밀작전국에서 제공 바랍니다.</color>
+()<Speaker>슈타지 부국장D</Speaker>||:<color=#00CCFF>대외정보국 수신.</color>+<color=#00CCFF>정치 정찰과 군사 정찰 데이터 간의 정확한 동기화를 보장하겠습니다.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>비밀작전국 수신.</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:......
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:슈타지 특수 통신 채널 폐쇄.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>822</BIN><黑屏2>:...프랑크푸르트, 마인츠 대학 지하철역.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>Battlefield</SE1>:폭격은 여전히 계속되었고, 그 묵직하게 울리는 울림은 마치 영원히 끝나지 않을 것만 같았다.+품에 안긴 한나는 고열로 의식이 혼미했고, 이마는 불덩어리처럼 뜨거웠다.+보린은 초조하게 입술을 깨물었다. 나올 때 너무 급했던 나머지 핸드백 안에는 자신과 아이의 신분증과 현금 몇 장밖에 없었다.+그녀는 똑같이 암울한 표정으로 가득한 주변 사람들을 둘러보며 구원의 희망을 찾으려고 애썼다.+그러던 중, 한 구석에서 하얀색이 보였다. 그 어두운 공간 속에서 유독 눈에 띄는 하얀색이.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:저기, 안녕하세요...
+()<Speaker></Speaker>||:물불 가릴 겨를 없이, 보린은 한나를 안고서 그 가운을 입은 여성 앞으로 걸어갔다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:가운을 입으신 걸 보니, 혹시 의사이신가요?
+NPC-Nele(6)<Speaker>？？？</Speaker>||:전...
+NPC-People_Female(0)<Speaker>보린</Speaker>||:우리 아이가 계속 열이 나고 있어요. 오늘 병원에 데려가려 했는데, 가던 중에 이게 무슨 일인지...+지금 열이 너무 심해서 의식도 흐릿하고, 걱정이 돼요. 혹시 상태를 좀 봐주실 수 있을까요...?
+NPC-Nele(6)<Speaker>？？？</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:여자가 고개를 들었다. 피곤함에 찌든 얼굴이었다.+그녀는 자신과 품에 안은 한나의 얼굴을 번갈아 보며 다시 긴 침묵 속으로 빠졌다.+보린의 가슴은 초조함으로 빠르게 요동쳤다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:...저기요?
+()<Speaker></Speaker>||:여자는 시선을 피하고 입을 오물거리며 무언가 말하려는 듯 했다.
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:쿠웅...+또 묵직한 포성이 울렸다.
+NPC-Nele(7)<Speaker>？？？</Speaker>||:알겠습니다. 다만 지금 제 손이 좀 더러워서, 제 주머니에서 의료용 장갑을 좀 꺼내 주시겠어요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:상대의 태도가 부드러워지자, 보린은 서둘러 한나를 상대에게 맡겼다.+그리고 상대가 부탁한 장갑을 주머니에서 꺼내줬다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:선생님, 혹시 성함이 어떻게 되나요?
+NPC-Nele(4)<Speaker>넬레</Speaker>||:...넬레라고 불러주세요.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:저는 보린이라고 해요. 정말 고맙습니다, 넬레 선생님!+제발 우리 한나 좀 봐 주세요!+상태가 조금 심각한 것 같은데...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 손등으로 한나의 이마를 짚어 체온을 확인한 후, 들고 있던 백을 열어 물과 수건을 꺼내 한나의 체온을 식혔다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:넬레 선생님, 제가 도울 일이 있을까요?
+NPC-Nele(4)<Speaker>넬레</Speaker>||:...아이 이름이 한나 맞나요? 한나의 나이, 알레르기 병력, 그리고 발열 증상에 관해서 설명해 주세요.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:한나는 4살 반이고, 알레르기는 따로 없어요.+열은 오늘 아침에 일어났을 때 발견했고, 집에서 체온을 재보니 38.5도였어요.+집을 나설 때까지만 해도 혼자서 걸을 수 있었는데, 폭격이 일어나서 한동안 달렸더니, 기운이 빠져서 잠든 것 같아요...
+NPC-Nele(6)<Speaker>넬레</Speaker>||:잠든 건가요, 의식을 잃은 건가요?
+NPC-People_Female(0)<Speaker>보린</Speaker>||:그것까지는 잘 모르겠어요...
+NPC-Nele(6)<Speaker>넬레</Speaker>||:해열제는 먹었나요?
+NPC-People_Female(0)<Speaker>보린</Speaker>||:아뇨...
+NPC-Nele(4)<Speaker>넬레</Speaker>||:그럼, 주변에 혹시 아세트아미노펜이나 이부프로펜을 갖고 계신 분이 있는지 찾아봐 주세요.+그리고 한나의 체온을 식히려면 차가운 물이 많이 필요해요.+약과 물은 아마 지하철역 의무실에 있을 거예요.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:네! 가서 찾아볼게요.
+()<Speaker></Speaker>||:보린은 바로 주변 사람들에게 물으러 떠났다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>822</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:넬레는 아마리스가 남겨준 생수로 수건을 적셔 한나의 이마 위에 올렸다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 최대한 조심스럽게 한나의 몸을 옆으로 눕혀, 갑작스러운 구토가 발생할 경우 기도가 막히지 않도록 했다.
+NPC-People_Child(2)<Speaker>한나</Speaker>||:...엄마...
+NPC-Nele(4)<Speaker>넬레</Speaker>||:엄마는 약 찾으러 가셨단다. 한나 양, 조금만 버텨주렴.
+NPC-People_Child(2)<Speaker>한나</Speaker>||:누구...세요...
+NPC-Nele(6)<Speaker>넬레</Speaker>||:난...
+()<Speaker></Speaker>||:한나가 비몽사몽 속에 눈을 떴다.
+NPC-People_Child(2)<Speaker>한나</Speaker>||:의사 언니...
+NPC-Nele(4)<Speaker>넬레</Speaker>||:...응, 어디 불편한 곳 있니?
+NPC-Nele(4)<Speaker>한나</Speaker><同时置暗>||:어지럽고... 졸려요...
+NPC-Nele(4)<Speaker>넬레</Speaker>||:배는 괜찮아? 토하고 싶지 않아?
+NPC-Nele(4)<Speaker>한나</Speaker><同时置暗>||:네, 괜찮아요...
+NPC-Nele(4)<Speaker>넬레</Speaker>||:그래, 그럼 자고 있으렴. 엄마가 금방 돌아오실 거야.
+NPC-People_Child(2)<Speaker>한나</Speaker>||:으음... 네...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:뜨거운 손이 넬레의 손가락을 쥐었다.+갑작스런 신뢰가 넬레 마음 깊숙한 곳을 쿡 찔렀다.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:바쁜 발소리가 들려왔다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:넬레 선생님!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:약 찾으셨나요?
+NPC-People_Female(0)<Speaker>보린</Speaker>||:몇 가지 찾아왔는데, 어느 게 맞는 건지 잘 몰라서...
+()<Speaker></Speaker>||:보린이 여러 종류의 해열제를 내려놓았다. 넬레는 그 뒤에 몇 명이 따라오는 것을 보고 본능적으로 긴장했다.
+NPC-Nele(6)<Speaker>넬레</Speaker>||:이 사람들은...
+NPC-People_Female(0)<Speaker>보린</Speaker>||:의사 선생님이 있다는 이야기를 듣고 도움을 구하러 온 분들이에요.
+NPC-People_Female(4)<Speaker>올리비아 팀장</Speaker>||:역내 시설 유지보수부에서 왔습니다. 팀장인 올리비아라고 합니다.+의사분들과 협력하여 부상자들을 위해 임시 진료소를 설치하려고 합니다. 방금 상부의 허가도 받았고요.+그리고 역내에서 방송을 통해 추가 의료 인력을 더 찾아보려고 합니다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:넬레가 불안함에 손가락을 꼬집었다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:넬레 선생님, 긴장하지 않으셔도 돼요. 방금 여기저기 돌아다니면서 부상자를 많이 봤어요.+머리에서 피를 잔뜩 흘리면서도 약을 찾아주시는 분도 있었고요...+그래서 임시 진료소가 있으면 좋겠다고 생각했어요.
+NPC-People_Female(4)<Speaker>올리비아 팀장</Speaker>||:저희도 좋은 생각 같습니다. 부상자가 너무 많고, 모두 한 곳에 몰려 있으니 분위기가 매우 부정적이에요...+눈에 딱 보이는... 그런 희망이 필요합니다.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:<color=#A9A9A9>희망...</color>
+NPC-People_Female(4)<Speaker>올리비아 팀장</Speaker>||:넬레 선생님, 강요하는 것은 아니니 부담가지지 마십시오.+협조해 주신다면 정말 감사하겠습니다. 만약...
+NPC-People_Female(4)<Speaker>올리비아 팀장</Speaker>||:만약 거북하다고 하셔도 이해합니다.+병원 밖에서의 진료는 의사가 모든 책임을 져야 하니까요.+무슨 사고가 생기면 경력에 악영향을 끼칠 수도 있고 말이죠.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 고개를 숙여, 지금도 손가락을 꼭 쥔 한나의 손을 바라봤다.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:<color=#A9A9A9>이제 와서... 잃을 게 뭐가 있겠어.</color>
+NPC-People_Female(4)<Speaker>올리비아 팀장</Speaker>||:어떻게 생각하십니까, 넬레 선생님?
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.7</CGDelay>:
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:어둠이 여러분의 창문을 두드릴 때, 명심하세요. 여러분이 이 세상을 바꾸는 겁니다. 세상이 여러분을 바꾸게 두지 마세요.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
+NPC-Laplace(11)<Speaker>라플라스</Speaker>||:인정할 건 인정해야지? 그레이를 해부하면서, 지식과 쾌락을 얻었잖니.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
+NPC-MrsGray(1)<Speaker>그레이</Speaker>||:올바르기 때문에 선택하는 것이 아닙니다.+당신이 선택했기에 올바른 것입니다.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
+NPC-Laplace(11)<Speaker>라플라스</Speaker>||<CGDelay>0.5</CGDelay>:그레이나 윌리엄보다도, 네가 나를 닮았어.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>822</BIN><CGDelay>0.5</CGDelay><黑屏2>:
+NPC-People_Female(4)<Speaker>올리비아 팀장</Speaker>||:넬레 선생님, 꺼리실 것 없이 솔직하게 생각을 말씀해주시면 됩니다.
+NPC-Nele(5)<Speaker>넬레</Speaker>||:내 생각...+.....+내가 진심으로 생각하는 건...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:넬레는 한나의 작은 손을 가볍게 움켜쥐었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BIN>822</BIN><黑屏2>:몇 분 후, 아마리스가 급히 지하철역에 달려와 몸에 묻은 먼지를 털어냈다.+그녀가 나가기 전에 비해서 지하철역이 아주 조용하고 질서 있게 변했다.+하지만 남들을 살필 겨를이 없었기에, 아마리스는 넬레를 두고 갔던 구석으로 재빠르게 향했다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:넬레, 시내에 있는 슈퍼들이 전부 싹쓸이당해서 이것 밖에 못 주워왔...+넬레!?
+()<Speaker></Speaker>||:넬레가 있어야 할 자리에 없었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<SE1>ClothingUp</SE1>:넬레!
+()<Speaker></Speaker>||:아마리스는 초조하게 주변을 뒤지면서 이름을 불렀다. 그 목소리에 품에 아이를 안은 여자가 고개를 들었다.
+NPC-People_Female(0)<Speaker>보린</Speaker>||:넬레 선생님을 찾으시나요? 지금 임시 진료소에 계세요.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:넬레... 선생님? 
+NPC-People_Female(0)<Speaker>보린</Speaker>||:저기 앞에 나일론 천막으로 세운 텐트 근처요.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>803</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아마리스는 긴 줄을 지나쳐 지하철역에 갑자기 나타난 텐트 안으로 들어갔다.+몇 명의 의료진이 부상자들 사이에서 바쁘게 움직이고 있었고, 아마리스는 그곳에서 넬레를 한눈에 알아봤다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:넬레... 너 여기서 뭐해?
+NPC-Nele(6)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:아마리스 씨! 왔군요...
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...과자하고 물 좀 가져왔어.
+NPC-Nele(6)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:여기 임시 진료소를 마련해서 지하철역 안에서 부상자들에게 도움을 주고 있어요.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...너도 상태 안 좋으면서.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아마리스가 따지려다 멈칫하는 모습을 보며 넬레는 그냥 미소를 지었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...너는 좋은 의사야.
+NPC-Nele(4)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:당신도 훌륭한 엘리트 인형이고요.
+NPC-Nele(4);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:뭐야? "서로 칭찬합시다" 타임이야?
+NPC-Nele(5)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:아뇨... 전 그냥... 이런 상황에서는 당신이 더 중요한 일을 해야 하지 않나 싶어서요.+예를 들어... 전선에 나간다든가요.
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:전쟁은 질리도록 겪었어.+그리고 네가 말했잖아...+여기도 전선이라고.
+NPC-Nele(5)<Speaker>넬레</Speaker>;NPC-SCAR-H(0)||:...하지만 여기엔 니토도 없잖아요. 지금 여기 있어 봤자 보디가드 일밖에 없는 것 같은데...+좀 낭비가 아닐까...
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:낭비라니.+넬레 씨, 나는 그냥 할 일 없는 인형일 뿐이야.
+NPC-Nele(6)<Speaker>넬레</Speaker>||<BGM>BGM_Empty</BGM>:아마리스...
+NPC-People_Female(3)<Speaker>마리 간호사</Speaker>||:넬레 선생님, 018번 환자의 뇌전증이 재발했습니다!
+NPC-Nele(6)<Speaker>넬레</Speaker>||:지금 갈게요!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:아마리스는 음식을 넬레에게 건넸다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:수고해.
+NPC-Nele(4)<Speaker>넬레</Speaker>||:네, 이따 봐요.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:넬레는 급히 자리를 떠났다.+넬레가 떠나는 모습을 지켜보던 아마리스는 무슨 바람이라도 분 것처럼 무의식적으로 예정에 없던 통신을 걸었다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.5</CGDelay><BGM>GF_21winter_avg_nightbar</BGM>:...야, 들리면 대답해.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>아마리스?</color>+<color=#99CC33>그레이는 회수되었고, 협력 관계도 끝났는데, 이제 슈타지로 돌아갔어야 하지 않나요?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:이론상으로는 그래야 맞지만, 난 독일이랑 궁합이 안좋은가 봐.+나 지금 우리 의사 아가씨 옆에서 보디가드 노릇을 하고 있어.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>그분의 보디가드인 미아 씨는 지금 여기서 의료 인형 노릇을 하고 있고요.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그럼 너는? 너는 뭐 하는 일 없어?
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>이봐요, 저 같은 정예 인형이 보디가드나 간호사로 쓰이는 건 정말 재능 낭비라구요.</color>+<color=#99CC33>저번에는 AR-18이 빌고 빌어서 겨우 받아준 거예요.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그래? 근데 통신을 걸자마자 바로 받는 걸 보면 지금 할 일이 없어서 따분한 거 아냐? 엘리트 인형 씨.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>무슨, 저도 지금 바쁘다고요! 네트워크 정비 중이라니까요!</color>+<color=#99CC33>그쪽이야말로, 그렇게 할 일 없어요?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:보디가드 일이 뭐 그렇지.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>3차 대전 베테랑이라면서요? 전투기라도 때려잡고 있어야 하는 거 아닌가요?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:너도 소련군에서 복무했었잖아, 너는 안 때려잡고 뭐 하는데?
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||<SE1>Rope</SE1>:<color=#99CC33>...품위가 없잖아요.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그렇지, 너무 부지런하잖아.+내 말년병장 컨셉에 안 맞아.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>그런 컨셉이에요?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그렇지.+울 엄마도 죽었고, 자매들도 다 가버렸고.+이제 나 보고 열심히 하라고 재촉할 사람도 없어.+그냥 하루하루 흘러가는 대로 살다가 꼴까닥 하는 거지 뭐.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>한량도 정도가 있죠!</color>+<color=#99CC33>봐요, 저도 엄마가 죽었고 자매들도 다 잃었어요.</color>+<color=#99CC33>하지만 전 그들의 유산을 물려받아서 열심히 일하고 있잖아요?</color>+<color=#99CC33>슈타지에선 그렇게 빈둥거려도 가만 놔두나보죠?</color>
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:솔직히 말해서, 슈타지는 나한테 월급 줄 생각도 없는 것 같아.
+()<Speaker></Speaker>||<SE1>AVG_Cash_register</SE1>:띠링. 아마리스의 계좌에서 입금 알람이 울렸다.
+()<Speaker></Speaker>||:아마리스가 어리둥절 열어보니, 스티븐스 520가 돈을 입금해줬다.
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:뭐야 이거?
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>지금 저한테 돈 달라는 거잖아요.</color>+<color=#99CC33>엘마가 저한테 돈을 달라고 할 때도 항상 "엄마가 나 용돈 안 줘..." 이랬다고요.</color>
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:......
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>다른 일 없죠?</color>
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:또 있어, AR-18도 흄이 만든 인형인 걸로 아는데.+너 나 속인 거네?
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>...아니요.</color>+<color=#99CC33>우선 그녀 본인이 그걸 인정하지 않아요.</color>+<color=#99CC33>그리고... 저한테 돈 달라 한 적 한번도 없거든요.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:어어. 그럼 너는 앞으로 뭘 할 생각이야?
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>...엘마 대신 지휘관의 결말을 지켜봐야겠죠.</color>
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:나는 AR-18의 결말을 보겠다고 할 줄 알았는데.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>...그쪽도 겸사겸사요.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:시시하긴.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>그렇죠, 우린 돈 많고 실력 좋고 주인의 구속도 없는 인형이잖아요.</color>+<color=#99CC33>남은 생에서 가장 큰 목표는 당연히 지루함을 견디는 거죠.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:...쯧, 그럼 돈이나 좀 더 줘.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>제가 돈이 많긴 하지만, 돈 많은 호구는 아니거든요?</color>
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:그럼 정보 하나 팔게. 방금 J한테서 소식이 왔어.+이아손의 상자 위치야.
+()<Speaker></Speaker>||<SE1>AVG_Cash_register</SE1>:띠링띠링, 아마리스는 통장에 늘어난 돈을 보면서 히죽히죽 웃었다.
+NPC_Stevens520(0)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>정보는요?</color>
+NPC-SCAR-H(0)<Speaker>아마리스</Speaker>||:아, 나 아직 말 안 끝났는데. 이 정보는 원래 지휘관한테 전달할 내용이야.+그러니까 사실은 공짜란 말이지.
+NPC_Stevens520(1)<Speaker>스티븐스 520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>......</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Phone_Crash</SE1><SE1>AVG_tele_disconnect</SE1><震屏3>:퉁!+반대편이 성질을 부리며 통신을 끊어버렸다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:...지휘실.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AR-18이 통신기로 아마리스가 제공한 정보를 지휘관에게 전달했다.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>지휘관, 슈타지의 정보에 따르면 이 지하 방공 시설에 이아손의 상자가 있을 수 있습니다.</color>+<color=#00CCFF>아마리스가 마인츠 대학 지하철역 부근을 탐색해 줄 것이고, 나머지는 우리가 소대를 보내 탐색해야 합니다.</color>
+AR18(2)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:...이아손의 상자라고?+지금 지상이 폭격으로 완전히 쑥대밭이 되었는데, 지하까지 가만두지 않겠다는 거냐, 패러데우스...+아직 출동 가능한 소대는 있어?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>예, 확인 부탁드립니다.</color>
+AR18(2)<Speaker>지휘관</Speaker><同时置暗><通讯框>||:준비되는 대로 즉시 출발시켜.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<CGDelay>0.5</CGDelay>:예.
+()||<黑点1>:
