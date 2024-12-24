@@ -1,96 +1,96 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1><SE1>AVG_Alarm_Distance</SE1><BIN>182</BIN><BIN>9</BIN><黑屏2>:……法兰克福 法兰克福区 老歌剧院
-()<Speaker></Speaker>||:无数新闻记者蜂拥而来……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AN-94一把拉住差点暴露于人前的AK-15。
-AN94MOD(0)<Speaker>AN-94</Speaker>||:我们应该先联络12。
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1><SE1>AVG_Alarm_Distance</SE1><BIN>182</BIN><BIN>9</BIN><黑屏2>:...Alte Oper, Frankfurt District, Frankfurt.
+()<Speaker></Speaker>||:A swarm of news reporters have appeared at the site...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AN-94 grabs AK-15 before she can expose herself in front of the crowd.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:We should contact 12 first.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>AVG_tele_connect</SE1>:12……老歌剧院外现在水泄不通……+这也是你计划的一部分吗？
-NPC-AK12Mod(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>……嗯，你们的部分已经结束了。</color>+<color=#00CCFF>剩下的事情交给我。</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>AVG_tele_connect</SE1>:12... A huge crowd has gathered right outside the Alte Oper... +Is this also part of your plan?
+NPC-AK12Mod(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>...Yes, you've done your part.</color> +<color=#00CCFF>Leave the rest to me.</color>
 AN94MOD(3)<Speaker>AN-94</Speaker>||<CGDelay>0.5</CGDelay>:
-AN94MOD(3)<Speaker>AN-94</Speaker>||:从一开始，你就决定自己解决这一切了吗……
-NPC-AK12Mod(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>是。</color>
-AK15MOD(3)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:AK-15起身，朝着歌剧院的方向走去。
-AN94MOD(4)<Speaker>AN-94</Speaker>||<SE1>Stop_AVG_loop</SE1>:等等，15！
-AK15MOD(4)<Speaker>AK-15</Speaker>||:杀掉她的人，应该是我。
-NPC-AK12Mod(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>RPK-16已经死了。</color>+<color=#00CCFF>15，这里没有你能做的事情。</color>
-AK15MOD(5)<Speaker>AK-15</Speaker>||:……
-AN94MOD(0)<Speaker>AN-94</Speaker>||:走吧，15，还有涅托藏身人群之中……我们还没有完成任务。
+AN94MOD(3)<Speaker>AN-94</Speaker>||:From the very beginning, you've decided to take care of this all by yourself...
+NPC-AK12Mod(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Yes.</color>
+AK15MOD(3)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:AK-15 rises to her full height and heads back toward the Alte Oper.
+AN94MOD(4)<Speaker>AN-94</Speaker>||<SE1>Stop_AVG_loop</SE1>:Wait, 15!
+AK15MOD(4)<Speaker>AK-15</Speaker>||:I should've been the one to kill her.
+NPC-AK12Mod(0)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>RPK-16 is dead.</color> +<color=#00CCFF>15, there's nothing more you can do here.</color>
+AK15MOD(5)<Speaker>AK-15</Speaker>||:...
+AN94MOD(0)<Speaker>AN-94</Speaker>||:Let's go, 15. There are still Nytos hiding in the crowd... Our mission isn't over yet.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>728</BIN><BGM>Campaion-70</BGM><CGDelay>0.5</CGDelay>:
-()<Speaker>AK-12</Speaker>||<SE1>AVG_weapon_reload</SE1>:……给你五分钟，交代最后遗言。
-()<Speaker>恩布拉</Speaker>||:前辈，肖是一个很厉害的人类哦。+我在阿佛那斯搜索了帕拉蒂斯的数据库……+全世界最强大的人形，果然还是我们的AK-15，对吧？
-()<Speaker>AK-12</Speaker>||:……这点我从不怀疑。
-()<Speaker>恩布拉</Speaker>||:她依靠纯粹的机械技术做出了忤逆。+“爵士”寻找的，所有人都想要抢夺的东西……+肖早就做到了，而且，跟其他人完全不一样。
-()<Speaker>AK-12</Speaker>||:但他们根本不在乎肖，也不在乎忤逆。+就像肖小时候的那个飞机模型一样。
-()<Speaker>恩布拉</Speaker>||:没事，肖也不在乎。
-()<Speaker>AK-12</Speaker>||:可是你背叛了肖，你不再是纯粹的机械造物。
-()<Speaker>恩布拉</Speaker>||:但我成为了跟她一样的人类。+……比起“娜迦”，“RPK-16”或者“潘多拉”。+我更喜欢自己取的名字——恩布拉。
-()<Speaker>AK-12</Speaker>||<SE1>ClothingUp</SE1>:告诉我，安洁死的时候，你在想什么？
-()<Speaker>恩布拉</Speaker>||:很想知道吗？+前辈，你看，假如我是人形，你就可以随便骇入我的心智和记忆。+但现在，我可以永远保守这个秘密。
-()<Speaker>AK-12</Speaker>||:……
-()<Speaker>恩布拉</Speaker>||:前辈，失去了安洁，失去了我，未来的你将为何而战呢？
-()<Speaker>AK-12</Speaker>||:……忤逆不会停留在此。
-()<Speaker>恩布拉</Speaker>||:肖也好，安洁也好，未来的指挥官也好，大家全部都是独行侠。+这个世界，独自踏过荆棘的人终将灭亡。
-()<Speaker>AK-12</Speaker>||:那又如何？
-()<Speaker>恩布拉</Speaker>||:拉普拉斯曾经问过安洁一个问题。+如果人生注定是一场徒劳，那么挣扎的意义究竟是什么？+你猜安洁的回答是什么？
-()<Speaker>AK-12</Speaker>||:她不需要回答这个问题。+她的存在本身就是答案。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:恩布拉笑了，笑容中第一次流露出真诚。
-()<Speaker>恩布拉</Speaker>||:前辈……你最好活得比所有人都长久。
-()<Speaker>AK-12</Speaker>||<SE1>Select</SE1>:你还有30秒。+最后一个问题。+肖真的是你杀的吗？
-()<Speaker>恩布拉</Speaker>||:……露尼西亚曾经问我，是要站在这边？还是站在那边？+我的回答是——叛逆之中，我才真实。当我是我时，我就是你。
-()<Speaker>AK-12</Speaker>||:……
-()<Speaker>恩布拉</Speaker>||:12，你永远也不会知道这个答案。
-()<Speaker>AK-12</Speaker>||:……我绝对不会原谅你。
-()<Speaker>恩布拉</Speaker>||:幸运的是，我不需要被原谅。
+()<Speaker>AK-12</Speaker>||<SE1>AVG_weapon_reload</SE1>:...You have five minutes to say your last words.
+()<Speaker>Embla</Speaker>||:12, Shaw was such an extraordinary woman. +When I was in Avernus, I looked through Paradeus' database... +AK-15 is the most powerful Doll in the entire world, you know?
+()<Speaker>AK-12</Speaker>||:...I have never doubted that.
+()<Speaker>Embla</Speaker>||:Shaw created DEFY through sheer mechanical skills. +What the Earl is seeking, what everyone is trying to seize... +Shaw has achieved long ago, and in an utterly different way.
+()<Speaker>AK-12</Speaker>||:But nobody cared about Shaw or DEFY. +Just as nobody cared about Shaw's model aircraft when she was little.
+()<Speaker>Embla</Speaker>||:It doesn't matter. Shaw didn't care either.
+()<Speaker>AK-12</Speaker>||:But you betrayed her. You're no longer purely mechanical.
+()<Speaker>Embla</Speaker>||:But I've turned into a human just like her. +Compared to "Nadia", "RPK-16", or "Pandora"... +I much prefer the name I've given myself—Embla.
+()<Speaker>AK-12</Speaker>||<SE1>ClothingUp</SE1>:Tell me, what were you thinking when Ange died?
+()<Speaker>Embla</Speaker>||:Do you want to know so badly? +See, 12, if I were still a Doll, you could easily hack my neural cloud to access my memory. +But now, I can keep this secret forever.
+()<Speaker>AK-12</Speaker>||:...
+()<Speaker>Embla</Speaker>||:Having lost Ange and me, what will you be fighting for from now on?
+()<Speaker>AK-12</Speaker>||:...DEFY will not falter here.
+()<Speaker>Embla</Speaker>||:Shaw, Ange, the Commander... they are all lone wolves. +In the world we live in, those who wade through the thorns alone will eventually perish.
+()<Speaker>AK-12</Speaker>||:What's your point?
+()<Speaker>Embla</Speaker>||:Laplace once asked Ange a question. +"If everything in life is futile, then what is the point in struggling?" +What do you think Ange's answer was?
+()<Speaker>AK-12</Speaker>||:She wouldn't have to answer the question. +Her very existence was the answer itself.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Embla smiles, and for the very first time, it is a genuine smile.
+()<Speaker>Embla</Speaker>||:AK-12... you'd better outlive us all.
+()<Speaker>AK-12</Speaker>||<SE1>Select</SE1>:30 seconds. +One last question. +Did you really kill Shaw?
+()<Speaker>Embla</Speaker>||:...Lunasia once asked me whose side I was on. +I said to her, "Apostate only am I true. I am you, when I am I."
+()<Speaker>AK-12</Speaker>||:...
+()<Speaker>Embla</Speaker>||:You will never find out the answer to that question, 12.
+()<Speaker>AK-12</Speaker>||:...And I will never forgive you.
+()<Speaker>Embla</Speaker>||:Luckily for me, I don't need forgiveness.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><SE1>AVG_Crowd_Run</SE1><BIN>182</BIN>:……老歌剧院外，警车、消防车、救护车还有各方媒体的新闻车还在不断地向内驶入。+赶来的新闻记者突破了警方的防线，只恨不能将话筒和摄像机伸进剧院内。
-()<Speaker>法兰克福警察</Speaker>||:不要往里面挤了！里面很危险！+可能还有爆炸物没有被排除！
-()<Speaker>新闻记者</Speaker>||:这位警官！潘多拉反遗迹组织已经许久没有露面了，这次又是因为什么再度出山？
-()<Speaker>法兰克福警察</Speaker>||:里面的情况我们还不清楚，请你们都退后！
-()<Speaker></Speaker>||<BGM>BGM_TalesofTheBlackFreighter</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=2</controll_shake><SE1>AVG_Explo_Distance</SE1>:轰隆——+又是一声沉闷的爆炸。+但这反而吸引来越来越多的记者围拢……
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_Empty</BGM><SE1>AVG_Crowd_Run</SE1><BIN>182</BIN>:...Police cars, fire engines, ambulances, and news vans from a multitude of media outlets are congregating outside the Alte Oper. +The news reporters who have rushed to the scene break through the police cordon in a desperate attempt to get a glimpse of the interior of the opera house with their cameras.
+()<Speaker>Frankfurt Police</Speaker>||:Stop trying to force your way in! It's very dangerous in there! +There could be more explosives!
+()<Speaker>News Reporter</Speaker>||:Officer! The Pandora Anti-Relic Organization haven't made any public appearances in a long while. Why have they resurfaced after all this time?
+()<Speaker>Frankfurt Police</Speaker>||:We still don't know anything about what happened in there! Please step back!
+()<Speaker></Speaker>||<BGM>BGM_TalesofTheBlackFreighter</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=2</controll_shake><SE1>AVG_Explo_Distance</SE1>:Boom! +Another explosion rumbles from deep within the building. +But the commotion only attracts even more reporters to gather round...
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.3</CGDelay><BIN>739</BIN>:
-()<Speaker>恩布拉</Speaker>||:前辈，你会为我流泪吗？
-()<Speaker>AK-12</Speaker>||:你没有这种资格。
+()<Speaker>Embla</Speaker>||:Will you shed a tear for me, AK-12?
+()<Speaker>AK-12</Speaker>||:You don't deserve it.
 ()||<黑屏1>:
-()<Speaker>恩布拉</Speaker>||<黑屏2><BIN>728</BIN>:真遗憾，不能在前辈脸上看到伤心欲绝的画面呢。+那么——+我只好拿走前辈的笑容了。
+()<Speaker>Embla</Speaker>||<黑屏2><BIN>728</BIN>:That's a shame. I would've loved to see you looking heartbroken. +In that case... +I'll just settle for your smile.
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><common_effect>%%code=Snowstorm_02%%</common_effect>:
 ()||<白屏1>:
 ()<Speaker></Speaker>||<BIN>183</BIN><白屏2><CGDelay>0.5</CGDelay>:
-()<Speaker>恩布拉</Speaker>||:美啊，请为我停留。
+()<Speaker>Embla</Speaker>||:Ah, still delay—thou art so fair!
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><BIN>182</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>新闻记者</Speaker>||:……各位观众，我此刻正在老歌剧院门外，为您带来第一时间的现场消息。+十分钟前，老歌剧院内的现场直播引起骚动，一名女子当场被谋杀，凶手在行凶后发表了潘多拉反遗迹组织的宣言。+警方尚在调查阶段，具体情况还不明晰。+后续报道我们会持续跟进。
-()<Speaker>法兰克福警察</Speaker>||:散开！都散开！里面的爆炸物还没有排除！+非常危险，都散开！
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=2</controll_shake><SE1>AVG_Explo_Distance</SE1>:轰隆——
+()<Speaker>News Reporter</Speaker>||:...Ladies and gentlemen, I am currently outside the Alte Oper, bringing you the latest updates live from the scene. +Just ten minutes ago, a disturbing live feed was broadcasted from inside the opera house. A woman was murdered on the spot, and the perpetrator delivered a statement on behalf of the Pandora Anti-Relic Organization after committing the crime. +The police are still in the early stages of their investigation, and details remain unclear at this time. +We will continue to follow up with more updates as the situation develops.
+()<Speaker>Frankfurt Police</Speaker>||:Back off and scatter! There are more explosives inside! +It's very dangerous! Scatter!
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=2</controll_shake><SE1>AVG_Explo_Distance</SE1>:Boom...
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><BIN>471</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:搜索到一颗炸弹，AK-15正准备拆除——
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰隆——+漫天的泥渣碎屑散落到她的身上。
-AK15MOD(0)<Speaker>AK-15</Speaker><Shake>||:……
-AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>你没事吧？</color>
-AK15MOD(3)<Speaker>AK-15</Speaker>||:……我会注意的。
-AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>……12说安全屋见。</color>
-AK15MOD(4)<Speaker>AK-15</Speaker>||:我不会原谅她。
-AN94MOD(3)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>她有自己要完成的任务……</color>+<color=#00CCFF>我们能做的，就是等她回来。</color>
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Having found another bomb, AK-15 prepares to disarm it...
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Boom... +Dirt and debris rain down on her.
+AK15MOD(0)<Speaker>AK-15</Speaker><Shake>||:...
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Are you alright?</color>
+AK15MOD(3)<Speaker>AK-15</Speaker>||:...I'll be more careful.
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>...12 says she'll meet us at the safe house.</color>
+AK15MOD(4)<Speaker>AK-15</Speaker>||:I will never forgive her.
+AN94MOD(3)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>She has her mission to complete...</color> +<color=#00CCFF>All we can do is wait for her to come back.</color>
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><common_effect>%%code=Snowstorm_02%%</common_effect>:
 ()||<白屏1>:
 ()<Speaker></Speaker>||<边框>2</边框><BIN>715</BIN><白屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<边框>2</边框>:暮色西沉，AK-12碾着黑色的雪驾车前行。
-()<Speaker></Speaker>||<边框>2</边框>:她习惯了坚强。+几乎从来不产生幻想。+但这一刻，她仿佛看见了另一条未来。+一条从阿佛那斯离开的小路。通往幸福的方向。+那也是在一个雪夜。+那也是在一次万圣节。
+()<Speaker></Speaker>||<边框>2</边框>:As dusk falls, AK-12 drives along the road, crushing black snow under the car's tires.
+()<Speaker></Speaker>||<边框>2</边框>:She is used to being strong. +She almost never indulges in fantasy. +But at this moment, she can almost see a path to an alternate future. +A path that leads away from Avernus... to happiness. +On another snowy night. +Another Halloween.
 ()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.4</CGDelay><common_effect>%%code=Snowstorm_02%%</common_effect>:
 ()||<白屏1><边框>2</边框>:
-()<Speaker></Speaker>||<边框>2</边框><BGM>BGM_IceAndBlood_ED</BGM><白屏2><CGDelay>0.5</CGDelay><BIN>718</BIN>:那辆开往万圣雪夜的车越走越远，车灯照亮了前方的大雪和白雾。+骄傲的头狼绝不允许别人察觉自己的软弱。+在血色与雪地里，她倔强地仰视着远方。
+()<Speaker></Speaker>||<边框>2</边框><BGM>BGM_IceAndBlood_ED</BGM><白屏2><CGDelay>0.5</CGDelay><BIN>718</BIN>:That car driving toward the snowy Halloween night recedes into the distance, its headlights shining through the heavy snow and white haze in its path. +The proud alpha wolf must never show any weakness. +In blood and snow, she gazes into the distance, her spirit unbroken.
 ()||<黑屏1><边框>2</边框>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:【零电荷END】
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:[Zero Charge - END]
 ()||<黑屏1>:
 ()||<名单2>202407Activity_Credit</名单2>:
-()||<黑点1>:
+()||<黑点1>:

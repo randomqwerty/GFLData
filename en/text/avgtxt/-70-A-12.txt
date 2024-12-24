@@ -1,242 +1,242 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>412</BIN>:法兰克福 斯塔西总部 罗密办公室 
-()<Speaker></Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:凌晨时分，大楼内部已是漆黑一片，只剩下零星几盏白炽灯还在努力工作。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:其中一盏灯下，满脸疲惫的罗密刚给自己倒了杯冰咖啡。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:费恩，今天先到这里吧。+你先回家，明天需要你早到。
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||:好的，需要我帮您预定一份夜宵吗？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:行，多加一份，顺便把Q叫来。
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>||:……已经三点四十五了，Q探员还在吗？
-NPC-Romy(3)<Speaker>罗密</Speaker>||:不在的话就扣光她的这个月绩效。
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||:那她肯定在。
+()<Speaker></Speaker>||<黑屏2><BIN>412</BIN>:Stasi Headquarters, Frankfurt. Romy's office.
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_pathfinder</BGM>:In the small hours of the morning, the interior of the building is pitch black, with only a scant few incandescent lights still on in rooms where people are still hard at work.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:Under one such light, a fatigued Romy pours herself an iced coffee.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Finn, let's call it a day. +Go home now. I'll need you to come in early tomorrow morning.
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||:Alright. Should I get a midnight supper delivered to you?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Yes, please. Make that two, and send Q in for me.
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>||:...It's already 0345. Is Agent Q still here?
+NPC-Romy(3)<Speaker>Romy</Speaker>||:If she isn't, she can kiss her monthly bonus goodbye.
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||:Then she's definitely still here.
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:助理收拾好办公室的废弃垃圾，匆匆离开了。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:After collecting all the trash in the office, the assistant quickly makes himself scarce.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_doorknock_wood</SE1>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑点2><BIN>412</BIN>:片刻后，敲门声响起，忙碌于文件和电脑之间的罗密头也不抬。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:进来。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:咔哒。Q抱着一堆档案走进了办公室。
-()<Speaker></Speaker>||:罗密抬头，将自己短暂地从工作中释放出来。
-NPC-maya(2)<Speaker>Q</Speaker>||<SE1>AVG_File_Put</SE1>:阿佛那斯和未来号的资料都在这里了。+简单总结一下就是——+“大公”是新苏联对阿佛那斯的不满，也是对我们军方的一次警告。+不过军方的人似乎完全不在意，他们甚至亲自参与走私。+此外，经过一些排查，斯塔西现在还有很多人是在向其他人双线汇报的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:罗密沉思一阵，从口袋里摸出一包烟。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:原本将军是镇压军方和党内的一块基石。+但现在基石并不稳当，有些人在蠢蠢欲动，迟早要把国家拖入泥潭。
-NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:大部分人都在观望吧。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-maya(0)||:……世界并不是因为反派才会毁灭的。+而是全靠这些还在观望、还在摇摆的人。+如果恶魔的力量更强大，他们就完全倒向恶魔，成为撒旦的帮凶。+一旦圣子重新降临人间，就又开始转变虔诚面孔，仿佛从头到尾都在真心祷告。
-NPC-maya(2)<Speaker>Q</Speaker>||:哦，这不就是您的机会吗？
-()<Speaker></Speaker>||:罗密叹了口气。
-NPC-Romy(3)<Speaker>罗密</Speaker>||:有时候我会觉得自己像古罗马斗兽场里的野兽。+专门负责表演凶猛和强悍的部分。
-NPC-maya(0)<Speaker>Q</Speaker>||:毕竟阶梯这么陡又这么窄，不爬上去的话，就会粉身碎骨。+而下面跟着您一起攀爬的人，也会随之万劫不复。+就算您想歇一歇，下面的人也是不会允许的。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:是啊，将军就是不明白这一点，才会把一些东西拱手让人。+他不知道他的一念宽容和犹豫，会给我们造成多么巨大的恐惧。
-NPC-maya(0)<Speaker>Q</Speaker>||:那么，您做好准备了吗？
-()<Speaker></Speaker>||<SE1>SAC_2045_LighterOpen</SE1>:罗密点起一支烟，猛吸了一口，烟雾从她的嘴角徐徐溢出。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:当然，我绝对不会允许自己失败。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她看了一眼Q，用右手食指点了点自己的心脏位置。
-NPC-Romy(1)<Speaker>罗密</Speaker>||:起码白区，我们要掌握在手里。+新苏联一行，你完成得很不错，主要是把我们的手擦得很干净。
-NPC-Romy(1);NPC-maya(2)<Speaker>Q</Speaker>||:这点您完全可以放心，萨曼莎•肖的事情正在慢慢走向我们预计的发展方向。+她的档案我已经准备好了。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-maya(2)||:……我希望到年底的时候，白区的守卫将全部变成我们的人。+能做到吗？
-NPC-Romy(0);NPC-maya(2)<Speaker>Q</Speaker>||:哎，比起这个，我考虑更多的是加班费。+这周工时已经超标了，老板。
-NPC-Romy(0)<Speaker>罗密</Speaker>;NPC-maya(2)||:等这一阵子忙完，就给你放假。
-NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:三年之后又三年，老板，这个放假的承诺我在莫斯科的时候就听过好多次了。
-NPC-Romy(1)<Speaker>罗密</Speaker>;NPC-maya(0)||:说明你在斯塔西的资历很长，下次就可以轮到你晋升了。
-NPC-maya(2)<Speaker>Q</Speaker>||:老板，我爱死这份好处只有钱的工作了。
+()<Speaker></Speaker>||<黑点2><BIN>412</BIN>:A short while later, there is a knock on the door. Engrossed in her stacks of paperwork and her computer, Romy does not even raise her head.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Come in.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Click. Q enters the office with a pile of files in her arms.
+()<Speaker></Speaker>||:Romy finally looks up, allowing herself a brief respite from her work.
+NPC-maya(2)<Speaker>Q</Speaker>||<SE1>AVG_File_Put</SE1>:Here is everything we have on Avernus and the "Future." +To give a brief summary... +The "Grand Duke" was the Neo-Soviet Union's way of expressing their displeasure with Avernus as well as a warning to the military. +But the folks in the military don't seem to give a damn; they were even part of the smuggling ring. +Also, after some investigation, it's pretty clear that there are many snitches in the Stasi reporting to another boss.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Romy ponders this information. She pulls out a pack of cigarettes from her pocket.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:The general was supposed to be a cornerstone for keeping the military and the party in check. +But now that the cornerstone isn't stable, some people are getting antsy, and sooner or later they will drag the country into the quagmire.
+NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:Most of them are still sitting on the fence, I suppose.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-maya(0)||:...The world won't get destroyed because of a villain. +It will be those wavering fence-sitters' doing. +If the Devil's power grows stronger, they will all happily support him and become Satan's accomplices. +But the moment Christ walks the earth again, they will all put on their pious faces as if they'd been praying like true believers all along.
+NPC-maya(2)<Speaker>Q</Speaker>||:Oh? Then isn't this your chance?
+()<Speaker></Speaker>||:Romy sighs.
+NPC-Romy(3)<Speaker>Romy</Speaker>||:Sometimes I feel like a beast in the Colosseum. +Always forced to play the fierce and ferocious role.
+NPC-maya(0)<Speaker>Q</Speaker>||:The steps are very steep and narrow. If you don't keep climbing, you will fall and break all your bones. +And the ones climbing in your wake will also meet their end. +Even if you want to catch a break, the ones below won't allow it.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Yeah, but the general failed to understand this, and that's why he literally gave certain things away on a silver platter. +He has no idea how much terror his leniency and indecisiveness have caused us.
+NPC-maya(0)<Speaker>Q</Speaker>||:So are you ready?
+()<Speaker></Speaker>||<SE1>SAC_2045_LighterOpen</SE1>:Romy lights a cigarette and takes a long, hard drag. Smoke coils out from the corner of her lips.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Of course. I will not allow myself to fail.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She glances up at Q and taps at her own heart with her right index finger.
+NPC-Romy(1)<Speaker>Romy</Speaker>||:At the very least, we must take complete control of the White Zone. +You did very well dealing with the Neo-Soviet Union. Our hands are wiped clean.
+NPC-Romy(1);NPC-maya(2)<Speaker>Q</Speaker>||:You don't have to worry about that at all. The matter with Samantha Shaw is slowly going in the direction we predicted. +I've already prepared her file.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-maya(2)||:...I want all the guards in the White Zone to be our people by the end of the year. +Can you manage that?
+NPC-Romy(0);NPC-maya(2)<Speaker>Q</Speaker>||:Uh, the bigger problem is my overtime pay. +I've worked way too many extra hours this week, boss.
+NPC-Romy(0)<Speaker>Romy</Speaker>;NPC-maya(2)||:Once things quiet down, I'll give you a holiday.
+NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:It's been years, boss. I've been hearing this promise since my time in Moscow.
+NPC-Romy(1)<Speaker>Romy</Speaker>;NPC-maya(0)||:That just goes to show how long you've been working for the Stasi and how experienced you are. It'll be your turn for a promotion next.
+NPC-maya(2)<Speaker>Q</Speaker>||:God, I freaking love this job, even if the only good thing about it is the pay.
 ()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><BGM>BGM_Empty</BGM>:法兰克福 白区 普通职员通行入口
-()||:经过重重安检，布里吉特终于抵达了通行闸口。+手续之多，种类之繁杂，令身为人形的布里吉特都觉得有几分厌烦。
-()<Speaker></Speaker>||:然而，还有最后一道关卡，一名法兰克福卫戍团士兵拦在了她的面前。
-()<Speaker>卫戍团士兵</Speaker>||<SE1>ClothingUp</SE1>:汇报身份和目的。
-PPQ(0)<Speaker>布里吉特</Speaker>||<BGM>GF_2022_Summer_Battle_1</BGM>:你好，我是国家安全部的特工人形，代号布里吉特。+已经获得了部门许可，来这里办理资料入库。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:卫戍团士兵接过布里吉特手中的文件，仔细检查了几遍。
-()<Speaker>卫戍团士兵</Speaker>||:斯塔西的人形？你的心智核心还在运行？
-PPQ(0)<Speaker>布里吉特</Speaker>||:呃……是的，不运行的话我就宕机了。
-()<Speaker>卫戍团士兵</Speaker>||:那你不能通过。
-()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:卫戍团士兵将文件扔回给布里吉特。
-()<Speaker>卫戍团士兵</Speaker>||:拥有心智的人形不被允许通过，这是规矩。
-PPQ(0)<Speaker>布里吉特</Speaker>||:……我身为斯塔西的人形想要在斯塔西的档案室里存材料。+那我应该怎么做？
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:换一个没有配置心智核心的人形过来。+或者，换个能够通过安检的人类进来。
-PPQ(0)<Speaker>布里吉特</Speaker>||:……我拿的资料是绝密等级，不可以由第三方运输。+而我的上级更不可能有时间负责运输这种东西。
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:这是斯塔西的事情。+而我们遵守的是白区的规矩。
-PPQ(0)<Speaker>布里吉特</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:布里吉特只好给J打去通讯，但始终无法接通。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卫戍团士兵见状冷笑几声，指着墙壁向布里吉特示意。
-()<Speaker></Speaker>||:墙壁上有信号屏蔽区符号。
-()<Speaker>卫戍团士兵</Speaker>||:这里是信号屏蔽区。+请原路返回。
-PPQ(0)<Speaker>布里吉特</Speaker><Shake>||:你！
+()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><BGM>BGM_Empty</BGM>:Regular staff entrance, White Zone, Frankfurt.
+()||:After passing multiple security checks, Brigitte finally arrives at the access gate. +The sheer amount of bureaucracy and the variety of procedures she has to go through is getting irritating even for a Doll like her.
+()<Speaker></Speaker>||:However, there is still one final checkpoint, and a soldier of the Frankfurt Garrison is now obstructing her way.
+()<Speaker>Garrison Soldier</Speaker>||<SE1>ClothingUp</SE1>:State your identity and business.
+PPQ(0)<Speaker>Brigitte</Speaker>||<BGM>GF_2022_Summer_Battle_1</BGM>:Hello, I am a special agent from the Ministry for State Security, codename Brigitte. +I have permission from my department to come and upload some data to our archive.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:The garrison soldier takes the paperwork from Brigitte and goes through them carefully a few times.
+()<Speaker>Garrison Soldier</Speaker>||:A Doll from the Stasi? Is your neural cloud still running?
+PPQ(0)<Speaker>Brigitte</Speaker>||:Uh... yes? I'd be a toaster if it weren't.
+()<Speaker>Garrison Soldier</Speaker>||:Then you can't pass.
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:The garrison soldier tosses the paperwork back at Brigitte.
+()<Speaker>Garrison Soldier</Speaker>||:No Doll with a functional neural cloud can be granted entry. That's the rule.
+PPQ(0)<Speaker>Brigitte</Speaker>||:...I'm a Stasi Doll who wants to visit the Stasi's archive to store some data. +What am I supposed to do?
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:Send another Doll with no neural cloud. +Or a human who can pass the security checks.
+PPQ(0)<Speaker>Brigitte</Speaker>||:...The data in my possession are top secret and cannot be passed on to a third party. +And my superior certainly hasn't got the time to run this kind of errand.
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:That's the Stasi's problem. +We follow the rules of the White Zone.
+PPQ(0)<Speaker>Brigitte</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Brigitte has no choice but to call J, but she just can't get through.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The garrison soldier snickers as he points at a sign on the wall.
+()<Speaker></Speaker>||:The sign bears the symbol of a signal interference area.
+()<Speaker>Garrison Soldier</Speaker>||:This is a signal interference area. +Please go back the way you came.
+PPQ(0)<Speaker>Brigitte</Speaker><Shake>||:Why, you!
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Doorbell</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:不等她说完，卫戍团士兵已经按好了电梯按钮，将她一把推了进去。
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:Before she can even finish, the soldier has already called the elevator and shoved her inside.
 ()||<黑点1><SE1>AVG_door_elecport</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>749</BIN>:布里吉特只能退回到电梯入口。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:在确认接通斯塔西内线后，布里吉特对着通讯器宣泄着内心的怒火。
-PPQ(0)<Speaker>布里吉特</Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=8</controll_shake>:<size=50>J——！！！！！！</size>
-PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>干什么！？有什么紧急情况？</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;NPC-Keven(9)||:卫戍团的人拒绝我进档案室。
-PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>啊？申请已经通过了。他们的理由是？</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;NPC-Keven(9)||:说按照规定，我这样拥有心智核心的人形不允许入内。+让我去换没有心智的人形或者符合安检要求的人类来存档案。
-PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>哪来的规定？我怎么不知道？</color>+<color=#00CCFF>他们就是故意使绊子。</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;NPC-Keven(7)||:那现在怎么办？ 
-PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>你等我十五分钟，我马上来。</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;NPC-Keven(7)||:十五分钟？为什么要这么久，你在做什么？
-PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>别问了！</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;NPC-Keven(9)||:你不会又被交警拦下了吧？
-NPC-Keven(12)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>闭嘴！十五分钟！！！</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:J挂掉了通讯。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:在重新做好一轮心理建设后，布里吉特面带微笑地回到了电梯……
+()<Speaker></Speaker>||<黑点2><BIN>749</BIN>:Brigitte can only back up to the entrance of the elevator lobby.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:After finally connecting to the Stasi's intercom, Brigitte unleashes her bottled-up fury into her communicator.
+PPQ(0)<Speaker>Brigitte</Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=8</controll_shake>:<size=50>J—!!!!!!</size>
+PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>What?! Is there an emergency?</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(9)||:The garrison isn't letting me through to get to the archive.
+PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Huh? But the request has been approved. What's their reason?</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(9)||:The guy said that, according to the rules, Dolls with a functional neural cloud like me aren't permitted entry. +He said to send a Doll with no neural cloud or a human who can pass the security checks.
+PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>What kind of rule is that? I've never heard of such nonsense.</color> +<color=#00CCFF>They're deliberately trying to trip us up.</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(7)||:So what am I supposed to do?
+PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Give me 15 minutes. I'll be right there.</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(7)||:15 minutes? Why will you have to take so long? What are you doing?
+PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Stop asking questions!</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(9)||:You didn't get pulled over by the traffic police, did you?
+NPC-Keven(12)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Shut up!</color> +<color=#00CCFF>15 minutes!!!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:J hangs up.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:After spending some time to psych herself up, Brigitte returns to the elevator with a smile...
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:一个卫戍团士兵打扮的人带着一个笑盈盈的人形经过了布里吉特身边。
-()<Speaker>卫戍团士兵</Speaker>||:托马斯，今天又轮到你值班了吗？
-()<Speaker>托马斯</Speaker>||<SE1>Stop_AVG_loop</SE1>:是的，第二警卫团的人明天开始过来跟我们轮值。+少将的勤务兵让我来这边拿点东西，麻烦你通行。
-()<Speaker>卫戍团士兵</Speaker>||:辛苦。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:布里吉特拦在闸口面前，她竭力挤出的笑容猛地一滞。
-PPQ(0)<Speaker>布里吉特</Speaker>||:等等，他边上的人形也有心智核心。+为什么她可以进去？
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:这可是军方医护人形。
-PPQ(0)<Speaker>布里吉特</Speaker>||:连安检和手续都不用办理吗？而且，她甚至没有断网！+你们的规矩形同摆设吗？我记得内网算是斯塔西的范围吧？
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:你无权干涉我们的规定。
-PPQ(0)<Speaker>布里吉特</Speaker><Shake>||:<size=50>你的规定明明漏洞百出！</size>
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:如果你对规定有所不满，请咨询你们部长。
-PPQ(0)<Speaker>布里吉特</Speaker>||:同样的规矩凭什么只有我们遵守，那个人形就可以不遵守？！+<size=50>不行，她也不可以进去！</size>
-()<Speaker></Speaker>||:名为托马斯的卫戍团士兵皱着眉停下了脚步。
-()<Speaker></Speaker>||:他并不打算搭理布里吉特，直接为所谓的军用医护人形刷开了卫戍团士兵的专用通道。
-()<Speaker>卫戍团士兵</Speaker>||:劳拉，你直接进去。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:明白，我会遵守这里的规定。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:趁着布里吉特还在跟卫戍团士兵争执，劳拉迅速通过闸门。
+()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:A garrison soldier walks past Brigitte with a smiling Doll in tow.
+()<Speaker>Garrison Soldier</Speaker>||:Thomas, is it your shift again today?
+()<Speaker>Thomas</Speaker>||<SE1>Stop_AVG_loop</SE1>:The 2nd Guards Regiment will join the shift rotation starting tomorrow. +The major general's orderly has asked me to come and fetch something, so please let me pass.
+()<Speaker>Garrison Soldier</Speaker>||:Carry on.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Brigitte plants herself in front of the gate, the smile she is forcing looking incredibly stiff.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Hold on, the Doll he has with him also has a neural cloud. +Why can SHE go through?
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:This is a military medical Doll.
+PPQ(0)<Speaker>Brigitte</Speaker>||:No security checks or paperwork for her? She's even still connected to her intranet! +Are your rules a joke? As far as I know, the intranet falls under the Stasi's jurisdiction, doesn't it?
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:You have no right to question our rules.
+PPQ(0)<Speaker>Brigitte</Speaker><Shake>||:<size=50>But your rules are utterly inconsistent!</size>
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:If you have any misgivings about the rules, please take it up to your own director.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Why do the rules only apply to me but not that Doll?! +<size=50>This is unacceptable! If you don't let me through, you can't let her through either!</size>
+()<Speaker></Speaker>||:The garrison soldier named Thomas frowns.
+()<Speaker></Speaker>||:He decides to ignore Brigitte entirely and opens the garrison's special entrance for the so-called military medical Doll.
+()<Speaker>Garrison Soldier</Speaker>||:Laura, just get in.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:Yes, sir. I will adhere to the rules.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:While Brigitte and the garrison soldier are still locked in an argument, Laura quickly goes through the gate.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:……+AK-15沉默地注视着面前的素体，同时戒备着周围的动静。
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:... +AK-15 watches over the Doll frame in front of her in silence while also monitoring her surroundings.
 ()<Speaker></Speaker>||<CGDelay>0.3</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:嘀——嘀，嘀——嘀。+素体手上的信号器响了四声。+长短长短，是连接成功的提示。
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:不敢有丝毫放松，AK-15加强了戒备。
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Beeeeeep, beep. Beeeeeep, beep. +The signal transmitter in the Doll frame's hand beeps four times. +Long, short, long, short—the signal of a successful connection.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15 remains on high alert, not daring to let her guard down.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>714</BIN><BGM>10295</BGM>:在卫戍团士兵的指引下，劳拉从专用通道进入了白区，得以避开了接下来本应面对的检查环节。+此刻，她脸上的笑容早已消失不见。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:……+真是讽刺，黑区在天上。+而白区却在地下。
-()<Speaker></Speaker>||:站在分岔口，她没有按照指引前往卫戍团的军营，而是身形一转来到斯塔西机密档案室。
+()<Speaker></Speaker>||<黑屏2><BIN>714</BIN><BGM>10295</BGM>:Following the garrison soldier's instruction, Laura enters the White Zone through the special entrance, successfully bypassing the security checks that she should have undergone. +Once she is in, the smile she was wearing vanishes.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:... +How ironic. The Black Zone is under the sun... +While the White Zone is underground.
+()<Speaker></Speaker>||:When she reaches the fork, instead of heading toward the garrison's camp, she makes for the Stasi's secret archive.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>744</BIN>:穿过开阔的大厅，该人形来到了左侧墙壁第四道舱门外，门上没有任何标识。
-()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:她唤醒了墙上的身份认证系统。
-()<Speaker>系统</Speaker>||:<color=#FFFF00>请进行身份认证。</color>
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:好的。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:在一片安静祥和中，人形直接骇入了认证系统。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:……没想到帕拉蒂斯跟国安局的关系，竟然这么密切。+连情报认证系统都能兼容……
-()<Speaker>系统</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:<color=#FFFF00>认证通过。</color>
+()<Speaker></Speaker>||<黑点2><BIN>744</BIN>:After walking through the spacious foyer, the Doll arrives at the fourth door on the left wall. The door is unmarked.
+()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:She activates the ID verification system on the wall.
+()<Speaker>System</Speaker>||:<color=#FFFF00>Please confirm your identity.</color>
+NPC-Maid(0)<Speaker>Laura</Speaker>||:Alright.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:The Doll wastes no time in hacking the verification system without disturbing the peace and quiet.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:...Paradeus and the Stasi are much more closely connected than expected. +Even the verification systems are compatible...
+()<Speaker>System</Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:<color=#FFFF00>Verified.</color>
 ()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||:六十公分厚的合金舱门打开，她走了进去。
+()<Speaker></Speaker>||:The 60-centimeter-thick alloy door opens, granting her access.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:进门左转一个弯后，面前是一条看不到尽头的漆黑走廊。+这里似乎使用了某些特殊材料，普通人形的电子眼也无法感知到黑暗中的走廊全貌。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她试探着迈出一步。
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:After entering through the door, she takes a left turn and finds herself looking down a dark and seemingly endless corridor. +The space seems to be constructed using some kind of a special material that makes it impossible for a regular Doll's electronic eyes to fully discern the corridor in the dark.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She takes a tentative step forward.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>747</BIN>:头顶的节能冷光灯无声亮起，照亮身前大约一米的范围。+地板反射灯光后，一道五公分宽的白色荧光亮起，像公路中间的车道分界线一样，微弱地指引着道路。+走廊似乎涂了吸光材料，身前依次渐亮，身后没入黑暗，脚步声回荡。+她注意到，两边每隔数米，就有一道金属房门，但她并未触碰那些门把手，只是盯着存储卡一直向前走。
-()<Speaker></Speaker>||<SE1>AVG_The_Division_Baggage_bomb_Activation</SE1>:直到存储卡的蓝光变成白色。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>干扰视觉、感知，仅凭道具指引，确定需要抵达的区域么……</color>
-()<Speaker></Speaker>||:但面前并不是门，而是一道金属墙壁。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:咦？
+()<Speaker></Speaker>||<黑屏2><BIN>747</BIN>:The energy-saving fluorescent lamp overhead comes on silently, illuminating an area of about one meter ahead. +On the floor, a white strip that is five centimeters wide glows faintly as it reflects the light from above, showing her the way like a lane divider on a motorway. +The entire corridor seems to be coated in light-absorbing material. As the Doll walks down the corridor, her footsteps echoing through the space, the lights come on and go out one after the other, illuminating her way forward while plunging the space behind her back into darkness. +She notices that there are metal doors every few meters on both sides of the corridor, but she makes no attempt to try their door handles. She just keeps going forward while keeping her eyes on the memory card in her hand.
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Baggage_bomb_Activation</SE1>:...Until its light changes from blue to white.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>Visual and sensory interference, and a destination that can only be found with a homing beacon...?</color>
+()<Speaker></Speaker>||:But she finds herself facing a metal wall instead of a door.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:Hm?
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:嘀——嘀、嘀、嘀。+心智中突然出现了四声提示音，一长三短，是之前约定的信号——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:劳拉从口袋里取出镜子，从镜中，她发现两道红色激光点无声瞄准了她的头部和心脏的位置，光源来自背后！
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Beeeeep, beep, beep, beep. +Four beeps suddenly sound in her neural cloud, one long, three short—the agreed signal.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Laura fishes out a hand-held mirror from her pocket. From the mirror, she spots two red lasers aimed silently at her head and chest from behind.
 ()||<黑点1>:
-NPC-Maid(0)<Speaker>劳拉</Speaker>||<BIN>746</BIN><黑点2>:……！
-()<Speaker></Speaker>||:她心中一惊，在这只有光滑金属墙壁的走廊里，不可能找得到任何掩体。+最重要的是，这条走廊中一定隐藏着难以计数的防护措施，贸然行动，除了被打成碎片，不可能有第二种下场。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:……
-()<Speaker></Speaker>||:她发现墙壁有一道凹陷，上面有四个不同规格的数据接口。
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:她假装没有察觉到红色激光点，慢慢拿起数据卡，不慌不忙地插在接口上。+红色激光点的位置随着她的动作而挪动，始终瞄准她的头部和心脏，如果是一个正常人类在这里，根本不可能发觉。
-()<Speaker></Speaker>||:数据卡上的光像呼吸一样闪烁了几秒，然后变回常亮。
+NPC-Maid(0)<Speaker>Laura</Speaker>||<BIN>746</BIN><黑点2>:...!
+()<Speaker></Speaker>||:She does a double take. In this corridor with its smooth metal walls, there is no cover whatsoever. +Most importantly, the corridor must be defended by countless hidden mechanisms. One careless move and she will unmistakably be shot to pieces.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:...
+()<Speaker></Speaker>||:She notices a small depression in the wall with four different-sized data ports.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:Pretending she has not noticed the red laser dots, she slowly raises the memory card and inserts it into one of the ports. +The laser dots follow her as she moves, never straying from her head and chest. If she were an ordinary human, she would never have noticed them. 
+()<Speaker></Speaker>||:The light on the memory card flickers for a few seconds until it returns to a steady glow.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>747</BIN><SE1>AVG_Button_Click</SE1>:她拔下数据卡，从镜中发现红色激光点消失了。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>呼……防守如此森严……</color>+<color=#A9A9A9>幸好……</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她退开几步，从怀中掏出了……亮着红光的第二个存储卡。
+()<Speaker></Speaker>||<黑点2><BIN>747</BIN><SE1>AVG_Button_Click</SE1>:She pulls out the memory card. From her mirror, she can tell that the red laser dots have vanished.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>Phew... Such tight defenses...</color> +<color=#A9A9A9>Thank goodness...</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She backs off a couple of steps and produces... a second memory card from her pocket.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>744</BIN>:她走回舱门前，这次向右走，同样是转了个弯，一条相同的长廊。+这次走了十多米，就停在一扇合金门前。+不同的是，门前竟然有守卫，就这样无声无息站在黑暗中。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:我来调取任务NUSSRB476438923127649相关的档案。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><SE1>AVG_keyboardtype_sci</SE1>:守卫电子眼发出红光，验证过存储卡后，合金门滑开。
+()<Speaker></Speaker>||<黑点2><BIN>744</BIN>:She retraces her steps back to the entrance. This time, she goes right and down an identical-looking corridor. +After walking about a dozen meters, she comes to a stop at an alloy door. +Unlike last time, there is a guard standing in front of the door, waiting silently in the dark.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:I am here to extract the file pertaining to Mission NUSSRB476438923127649.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1><SE1>AVG_keyboardtype_sci</SE1>:The guard's electronic eyes flash red. After verifying the memory card, the alloy door slides open.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><CGDelay>0.7</CGDelay><BIN>742</BIN>:
-()<Speaker></Speaker>||:门后是一个2500平方英尺的机房，一组组服务器被封装在玻璃柜里，工作灯闪烁，低低嗡鸣。
-()<Speaker></Speaker>||:室内24度，湿度45%，总体甚至称得上舒适。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>原来存储和读取在不同地点……</color>
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:她走到操作区，将红光存储卡插在卡槽里。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>调取信息的机房倒是平平无奇。</color>
-()<Speaker></Speaker>||:念头刚闪过，哗——视野内，整个房间被铺天盖地的白光吞没！
+()<Speaker></Speaker>||:Behind the door is a 2,500-square-foot server room. Groups of servers are enclosed in glass cabinets, humming softly, their work lights flashing.
+()<Speaker></Speaker>||:Interior temperature 24°C, humidity 45%. All in all a comfortable environment.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>So data is stored and accessed in different locations...</color>
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:She walks up to the operation area and inserts the memory card with a red light into the slot.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>The server room is pretty unremarkable though.</color>
+()<Speaker></Speaker>||:Before she can even finish the thought, whoosh! The entire room is suddenly engulfed in a blinding white light!
 ()||<白屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<白屏2><BIN>72</BIN>:不，不是真实的空间，只是一个特殊的电子空间——
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>让我看看能调取什么资料……</color>
-()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:随手一挥，打开指令窗口，轻巧地敲了几行代码，数个窗口数据滚动着出现，又迅速消失。
-()<Speaker></Speaker>||:在最后出现的界面里，她输入了权限代码，按下发送。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:叮——无数的信息流倾泻，在0与1的洪流中，她看到了一栋栋数据组成的“服务器”。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>这套数据的运行方式……怎么跟阿佛那斯的几乎一样……</color>+<color=#A9A9A9>……难道说斯塔西的情报网是阿佛那斯提供的？</color>+<color=#A9A9A9>以德国政府在这方面的信用，说不定二者早有合作……</color>
-()<Speaker></Speaker>||:她腹诽着，看向手边数据化的“存储卡”。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:<color=#A9A9A9>那么，我要找的东西会在这里吗……</color>
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:她飞快输入一个名字：萨曼莎•肖。
-()<Speaker></Speaker>||:长达百页的文档出现在眼前，她正要拷贝，却停住了手。
-()<Speaker></Speaker>||:她滑过文档，将所有数据飞快浏览一遍，然后关闭了界面。
+()<Speaker></Speaker>||<白屏2><BIN>72</BIN>:No, the real physical space has simply been replaced with a special digital space...
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>Let's see what information I can extract...</color>
+()<Speaker></Speaker>||<SE1>AVG_magic_circle_start</SE1>:She waves a hand to summon the command interface and punches in a few lines of code. Several windows with scrolling data appear, then disappear just as promptly.
+()<Speaker></Speaker>||:She inputs the authorization code in the final interface, then presses "send".
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Ding! Countless streams of information pour out, and in the torrent of 0s and 1s, she catches sight of the "servers" composed of data.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>This data pattern... is pretty much identical to Paradeus'...?</color> +<color=#A9A9A9>...Don't tell me Avernus was the provider of the Stasi intel network?</color> +<color=#A9A9A9>Judging by the German government's credibility, they may have been colluding with each other for quite a while...</color>
+()<Speaker></Speaker>||:She mutters to herself as she studies the "memory card", now in digital form.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:<color=#A9A9A9>Now, will I find what I'm after...?</color>
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:She quickly inputs a name—Samantha Shaw.
+()<Speaker></Speaker>||:A document with over a hundred pages appears before her eyes. She is about to make a copy, but then she pauses.
+()<Speaker></Speaker>||:She scrolls through the document, rapidly reading all the information, then closes the interface. 
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BIN>742</BIN>:
-()<Speaker></Speaker>||:眼前又变成了机房，存储卡上的红光已变为绿光。
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:她拔下存储卡。
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:……任务结束！
-()<Speaker></Speaker>||:她轻巧地走到门口，准备离开。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Select</SE1>:哗啦，枪械上膛，守卫的枪口猛然对准她！
-()<Speaker>守卫人形</Speaker>||<BGM>11335</BGM>:检测到非任务相关查询记录！请出示授权！
+()<Speaker></Speaker>||:The space reverts back to the server room, and the light on the memory card turns from red to green.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:She ejects it from the slot.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:...Mission accomplished!
+()<Speaker></Speaker>||:She walks lightly toward the door and prepares to leave.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Select</SE1>:Ka-chak—the guard suddenly loads its weapon and aims it at her!
+()<Speaker>Guard Droid</Speaker>||<BGM>11335</BGM>:Non-mission related query detected! Please present your authorization!
 ()<Speaker></Speaker>||<CGDelay>0.1</CGDelay><SE1>AVG_weapon_reload</SE1>:
 ()<Speaker></Speaker>||<SE1>Select</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:刷刷刷——数十道激光红点几乎同时指在她身上！
-()<Speaker>守卫人形</Speaker>||:重复，超权限查询，请出示授权！600秒无应答，进入无限制开火！
-NPC-Maid(0)<Speaker>劳拉</Speaker>||:……！
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:Whoosh—dozens of laser red dots appear on her body all at once.
+()<Speaker>Guard Droid</Speaker>||:Repeat—unauthorized query detected! Please present your authorization! If no response is given in 600 seconds, you will be fired upon.
+NPC-Maid(0)<Speaker>Laura</Speaker>||:...!
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>745</BIN>:
-PPQ(0)<Speaker>布里吉特</Speaker>||:无论如何你必须给我一个交代，斯塔西的人形和军方的人形为什么拥有不同的待遇！
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:这是我们的规定，两边的权限不一样。
-PPQ(0)<Speaker>布里吉特</Speaker>||:……大家遵守的条例明明是同一套，我认为你在故意刁难我。
-PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:你有异议应该向你的长官进行反馈，而不是在这里跟我争执。+如果你还不离开，我要申请其他同事协助了。
-()<Speaker></Speaker>||<SE2>Alarm</SE2>:嗡——+突发的警报打断了争吵，布里吉特眼看着对方的脸色瞬间惨白。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:哒哒哒——一阵急促的跑步声后，J终于抵达了现场。
-NPC-Keven(12)<Speaker>J</Speaker>||:*的，这些交警真不讲人情……+布里吉特，这个警报是什么情况？
-PPQ(0)<Speaker>布里吉特</Speaker>||:我也不知道。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:唰——+接听完紧急通讯后，卫戍团士兵严肃地看向J和布里吉特。
-()<Speaker>卫戍团士兵</Speaker>||:国家安全部档案室有人触发了警报。+你们一起过来。
-PPQ(0)<Speaker>布里吉特</Speaker>||:哈，哪里的档案室？
-NPC-Keven(7)<Speaker>J</Speaker>||:能重复一遍吗？
-()<Speaker>卫戍团士兵</Speaker>||:斯塔西机密档案室。
+PPQ(0)<Speaker>Brigitte</Speaker>||:I demand an explanation! Why am I, a Doll working for the Stasi, being treated differently than a military Doll?!
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:It's our rules. The two of you have different clearance levels.
+PPQ(0)<Speaker>Brigitte</Speaker>||:...We're all following the same set of regulations. I believe you are deliberately making things difficult for me.
+PPQ(0)<Speaker>Garrison Soldier</Speaker><同时置暗>||:If you have any objections, you should report them to your superiors instead of arguing with me here. +Please leave, or I will have to request assistance from my other colleagues.
+()<Speaker></Speaker>||<SE2>Alarm</SE2>:Wooooooo... +The sudden alarm interrupts the argument. Brigitte watches as the blood drains from the soldier's face.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Tap-tap-tap... Following a series of rapid footsteps, J finally arrives at the scene.
+NPC-Keven(12)<Speaker>J</Speaker>||:Verdammte Scheiße! The traffic police are so not understanding... +Brigitte, what's the deal with the alarm?
+PPQ(0)<Speaker>Brigitte</Speaker>||:I don't know.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Whoosh. +After answering the emergency call, the garrison soldier gives J and Brigitte a somber look.
+()<Speaker>Garrison Soldier</Speaker>||:Someone triggered the alarm inside the Archive of the Ministry for State Security. +Come with me.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Huh? Which archive?
+NPC-Keven(7)<Speaker>J</Speaker>||:Could you repeat that?
+()<Speaker>Garrison Soldier</Speaker>||:The Stasi's archive.
 ()||<黑点1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay><BIN>742</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:唰唰唰——+等卫戍团士兵赶到时，名为“劳拉”的医护人形已经宕机。
-NPC-Keven(7)<Speaker>J</Speaker>||:人形信息。
-()<Speaker>卫戍团士兵</Speaker>||:军用医护人形，隶属于卫戍团7号军营，劳拉。
-NPC-Keven(7)<Speaker>J</Speaker>||:劳拉？
-()<Speaker></Speaker>||:J抬手示意布里吉特持枪缓慢靠近。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:咔哒，医护人形直接倒在了地上。
-NPC-Keven(7)<Speaker>J</Speaker>||:布里吉特，停在原地保持戒备。+你们上去检查。
-()<Speaker></Speaker>||:卫戍团士兵并未放松警惕，戒备地靠近，确认安全后，才俯身检查。
-()<Speaker>卫戍团士兵</Speaker>||:确认宕机。
-NPC-Keven(7)<Speaker>J</Speaker>||:检查仔细点，还有未知信号连接吗？
-()<Speaker>卫戍团士兵</Speaker>||:没有，所有信号都是断开的。
-PPQ(0)<Speaker>布里吉特</Speaker>||:她心智被骇入了，有人操控了她的素体……
-()<Speaker>卫戍团士兵</Speaker>||:白区屏蔽了所有外部信号，我们刚刚查过了这段时间内的所有信号源，没有外部访问痕迹。
-PPQ(0)<Speaker>布里吉特</Speaker>||:这只能说明信号在内部……
-NPC-Keven(7)<Speaker>J</Speaker>||:是短距离无线通信，这个操控劳拉素体的人……距离这里不会到三百米！
-NPC-Keven(12)<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Punch_Hit</SE1><震屏3>:以这里为圆心，半径三百米的范围，都给我查！
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Whoosh... +By the time the garrison troops arrive, the medical Doll named Laura has already crashed and is unresponsive.
+NPC-Keven(7)<Speaker>J</Speaker>||:Doll info?
+()<Speaker>Garrison Soldier</Speaker>||:Laura, Military Medical Doll, 7th Battalion of the Garrison Regiment.
+NPC-Keven(7)<Speaker>J</Speaker>||:Laura?
+()<Speaker></Speaker>||:J beckons for Brigitte, who has drawn her weapon, to approach slowly.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:Clatter. The Doll topples right over.
+NPC-Keven(7)<Speaker>J</Speaker>||:Brigitte, stay where you are and keep a lookout. +You go up and take a closer look.
+()<Speaker></Speaker>||:The garrison soldier draws closer to the Doll warily and only bends down to inspect her after making sure it's safe.
+()<Speaker>Garrison Soldier</Speaker>||:She's crashed alright.
+NPC-Keven(7)<Speaker>J</Speaker>||:Check carefully—any unknown signal connections?
+()<Speaker>Garrison Soldier</Speaker>||:No, all signals are disconnected.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Then her neural cloud was hacked. Someone was controlling her frame...
+()<Speaker>Garrison Soldier</Speaker>||:All external signals are blocked within the White Zone. We just checked all signal sources within the time window and found no traces of external access.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Which means the signal could only have come from within the White Zone.
+NPC-Keven(7)<Speaker>J</Speaker>||:It's short-range radio communication. Whoever took control of Laura's frame... is less than 300 meters away!
+NPC-Keven(12)<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Punch_Hit</SE1><震屏3>:Using our location as the center, search the area within a radius of 300 meters!
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>GF_22W_BGM_4</BGM>:
 ()||<黑屏1><CGDelay>0.7</CGDelay><SE1>AVG_AMB_Wind</SE1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.8</CGDelay><BIN>658</BIN>:
-()<Speaker></Speaker>||:AN-94站在一栋写字楼外的广场上，眺望远处巍峨的隔离墙。
-AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>AVG_tele_connect</SE1>:12，你那边情况怎么样？+虽然有15守着你的素体，但是你们的位置很危险。
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>……我已经找到肖的档案，但附近的武装力量正在迅速集中。</color>
-AN94MOD(4)<Speaker>AN-94</Speaker>||:我马上来接应你！ 
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>……嗯。</color>
+()<Speaker></Speaker>||:Standing in the square just outside an office building, AN-94 looks at the towering quarantine wall in the distance.
+AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>AVG_tele_connect</SE1>:12, how are things on your end? +15 is guarding your frame, but your location is still very dangerous.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>...I've found Shaw's file, but armed forces in the area are gathering rapidly.</color>
+AN94MOD(4)<Speaker>AN-94</Speaker>||:I'll come and give you some backup!
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>...Alright.</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:
 ()||<黑屏1><CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 AK15MOD(3)<Speaker>AK-15</Speaker>||<CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:……AK-15蹲伏在角落，等待着任何可能出现的危险。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面前的人形缓缓睁开了眼。
+()<Speaker></Speaker>||:...AK-15 crouches in the corner, waiting for any possible danger to present itself.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Doll in front of her slowly opens her eyes.
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
-()<Speaker>AK-12</Speaker>||:目标到手，准备撤离。
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15沉默地站起，她一直在为战斗准备着。
+()<Speaker>AK-12</Speaker>||:Target acquired. Prepare to withdraw.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15 rises to her full height in silence. She is always ready for battle.
 ()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>2</CGDelay><common_effect>%%code=202407_Stealth%%</common_effect>:
 ()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>1.7</CGDelay>:
-()<Speaker>AK-12</Speaker>||:大量武装单位逼近，掩护我。
-()<Speaker>AK-15</Speaker>||<SE1>AVG_2022Saros_SCARL1</SE1>:……收到。
-()||<黑点1>:
+()<Speaker>AK-12</Speaker>||:A large number of armed units are approaching. Cover me.
+()<Speaker>AK-15</Speaker>||<SE1>AVG_2022Saros_SCARL1</SE1>:...Roger.
+()||<黑点1>:

@@ -1,244 +1,244 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>Campaion-58-3</BGM><BIN>566</BIN><黑屏2>:……帕拉蒂斯临时基地。
-()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:噗呲。+将尖刀从涅托的尸体上抽出，AK-15环顾四周，似乎已经没有敌人了。+激战过后一地狼藉的房间内，再也没有了声响。
-()<Speaker></Speaker>||:AK-15横持匕首扫视四周，仍未放松警惕。+从她破门而入到扫平所有阻碍自己的敌人，她没有遭遇过任何一个高级涅托。
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||:她收起匕首端着枪，继续朝深处前进。+寂静的基地内，不知是否藏有埋伏。+这里并不是帕拉蒂斯专属基地，更像是用现有的建筑做了临时改造。
+()<Speaker></Speaker>||<BGM>Campaion-58-3</BGM><BIN>566</BIN><黑屏2>:...Temporary Paradeus base.
+()<Speaker></Speaker>||<SE1>AVG_Cut_Watermelon</SE1><震屏3>:Squelch. +AK-15 pulls her knife out of a Nyto's corpse and takes a look around. She seems to have eliminated all enemies in sight. +The ravaged room is utterly silent after the recent massacre.
+()<Speaker></Speaker>||:Yet, AK-15 remains on her guard as she scans her surroundings with her knife held at the ready. +Since the moment she broke down the door and wiped out all enemies in her way, she has not encountered a single high-level Nyto.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||:She sheaths her knife and raises her gun instead as she heads deeper. +She cannot tell if there is an ambush in the silent base. +Unlike Paradeus' other specially constructed bases with their recognizable architecture, this is simply a makeshift one converted from an existing building.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑点2><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=2%%duration=0%%</bg_move>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>276</BIN><SE1>AVG_Door_Hit</SE1><震屏3>:啪！
-()<Speaker></Speaker>||<SE1>Select</SE1>:踹开了一扇门，AK-15迅速地扇入屋内，端着枪左右警戒。
+()<Speaker></Speaker>||<BIN>276</BIN><SE1>AVG_Door_Hit</SE1><震屏3>:Bam!
+()<Speaker></Speaker>||<SE1>Select</SE1>:AK-15 kicks a door open and storms into the room. She warily sweeps the interior from side to side with the muzzle of her gun.
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.4%%pivot_y=0.5%%scale=2%%duration=0.4%%</bg_move><CGDelay>0.1</CGDelay>:
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.6%%pivot_y=0.5%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.4</CGDelay>:
 ()||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=1%%</bg_move><CGDelay>0.1</CGDelay>:
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||:这是最后一个房间，但房中依然空无一人。+取而代之的，是遍地血肉模糊的人类尸体。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15放下枪口，蹲下身来搜索了一番。
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||:死亡时间不超过一个小时。+帕拉蒂斯在自己的基地内展开了一场屠杀？+为什么？
-()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1>:就在AK-15蹙眉思考的时候，忽然，门外传来了一阵刺耳的警笛声。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:AK-15迅速地移动到了视野开阔之处，确保自己能够准确了解外面的情况。
-()<Speaker>？？？</Speaker>||:里面的人听着！你们已经被警察包围了！+放下武器，不要做无谓的抵抗！
-AK15MOD(5)<Speaker>AK-15</Speaker>||:啧。
-()<Speaker></Speaker>||:AK-15猛地意识到了自己现在的处境——+废弃的基地，屋内混杂着涅托和人类的尸体，以及唯一一个在场的战术人形……
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()<Speaker></Speaker>||:窗外，警灯闪烁，警察打开执法记录仪，按着耳麦在说什么，AK-15仔细倾听。
-()<Speaker>法兰克福警察</Speaker>||<SE1>AVG_tele_disconnect</SE1>:我们已抵达现场，对，灰色的这一栋……+没有人开门……也没看到人形……你确定是人形袭击人类造成的？+……到底怎么回事？
-()<Speaker>警用人形</Speaker>||:长官，现场没有扫描到生命迹象！不，扫描到了不明人形信号！
-()<Speaker>法兰克福警察</Speaker>||:封锁所有出口！
+AK15MOD(0)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||:This is the final room, but it is also empty. +Save for all the mangled human corpses littered across the floor.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-15 lowers her gun and bends down to study the corpses.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||:They haven't been dead for longer than an hour. +Paradeus unleashed a bloodbath within their own base? +Why?
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1>:As AK-15's brow furrows in thought, an ear-splitting siren suddenly goes off from beyond the door.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:She promptly moves out of sight while making sure she can still keep tabs on the situation outside.
+()<Speaker>???</Speaker>||:Listen up, whoever's in there! The police has the place surrounded! +Lay down your arms and don't put up any pointless struggle!
+AK15MOD(5)<Speaker>AK-15</Speaker>||:Tsk.
+()<Speaker></Speaker>||:AK-15 immediately realizes how this would look— +In an abandoned base filled with heaps of Nyto and human corpses is a lone T-Doll...
+AK15MOD(0)<Speaker>AK-15</Speaker>||:...
+()<Speaker></Speaker>||:Outside the window, the police siren is still flashing. An officer has turned on his bodycam and is saying something into his headset. AK-15 listens intently.
+()<Speaker>Frankfurt Police</Speaker>||<SE1>AVG_tele_disconnect</SE1>:We've arrived at the scene. Yes, the gray building... +Nobody answered the door... No sight of any Dolls... Are you certain this was a Doll attack? +...What the hell is going on?
+()<Speaker>Police Doll</Speaker>||:Sir, the scan hasn't picked up any bio signs! No, wait! Unknown Doll signal detected!
+()<Speaker>Frankfurt Police</Speaker>||:Seal off all the exits!
 ()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>Select</SE1>:刷刷刷，警察和警用人形纷纷拔枪，迅速围拢了整栋建筑。
-AK15MOD(6)<Speaker>AK-15</Speaker>||:……！
-()<Speaker></Speaker>||:房屋外，警用人形举着防爆盾逼近。
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:咚——紧接着，破门的声音传来。+不可以在法兰克福暴露自己的身份，这是AK-12的告诫。
+()<Speaker></Speaker>||<SE1>Select</SE1>:Whoosh! The police officers and Dolls all draw their weapons as they quickly encircle the building on all sides.
+AK15MOD(6)<Speaker>AK-15</Speaker>||:...!
+()<Speaker></Speaker>||:The police Dolls approach with their blast shields.
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:Fwoom! Then comes the sound of them breaking through the door. +"Do not expose your identity in Frankfurt," so AK-12 has warned her gravely.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM><SE1>AVG_Cloak_Whoosh</SE1><SE1>AVG_keyboardtype_sci</SE1>:凭借着雪狼之眼，AK-15迅速找到防卫缺口，随即隐入黑暗得以脱身。
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><BGM>BGM_Empty</BGM><SE1>AVG_Cloak_Whoosh</SE1><SE1>AVG_keyboardtype_sci</SE1>:Using her Eye of the Snow Wolf, AK-15 zeroes in on a weak point in the blockade and makes a hasty escape under the cover of darkness.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑点2><BIN>732</BIN><SE1>AVG_20_Winter_TVnews_Cut</SE1>:
-()<Speaker>莫斯科电视台</Speaker>||:<color=#00CCFF>……本台最新消息。</color>+<color=#00CCFF>此前EN440-13M次未来号列车事故发生的首要原因依旧不明朗，我方督促德方相关运营公司进行第三方检测，早日给遇难乘客和家属一个交代。</color>+<color=#00CCFF>相关人员已前往医院慰问，下面是家属采访——</color>
-()<Speaker>哭泣的女人</Speaker>||:<color=#00CCFF>他们去柏林是为了度假，本来是打算坐飞机的。</color>+<color=#00CCFF>是他们的销售人员在机场门口拦着孩子的爸爸发宣传单。</color>+<color=#00CCFF>现在不仅是我的丈夫，我的孩子也下落不明……</color>+<color=#00CCFF>我只是想要见到尸体，为什么这么难？</color>
-()<Speaker>愤怒的男人</Speaker>||:<color=#00CCFF>当初说好车票里涵盖了保险，现在却每天都在找借口推诿。</color>+<color=#00CCFF>人在德国消失，跟我说发生事故的时间地点不在德国。</color>+<color=#00CCFF>要我提供证明？我怎么提供？政府帮我们提供吗？</color>
-()<Speaker></Speaker>||:……
+()<Speaker>Moscow TV</Speaker>||:<color=#00CCFF>...Latest news from Moscow TV.</color> +<color=#00CCFF>The primary cause of the railway accident concerning the EN440-13M train "Future" is still currently unclear. The government has urged the German operating company to conduct a third-party investigation and provide an explanation to the families of the deceased passengers as soon as possible.</color> +<color=#00CCFF>Officials have visited the hospital to express their concern and condolences. Here is an interview with some of the affected family relatives—</color>
+()<Speaker>Weeping Woman</Speaker>||:<color=#00CCFF>They were going on a vacation to Berlin. They originally planned to go by plane.</color> +<color=#00CCFF>It was their sales staff who stopped my children's father at the airport entrance and gave him a flyer.</color> +<color=#00CCFF>Now not only my husband, but even my children are missing...</color> +<color=#00CCFF>I just want to see the bodies, why is that so difficult?</color>
+()<Speaker>Angry Man</Speaker>||:<color=#00CCFF>The tickets were supposed to include insurance, but now they're making new excuses every day.</color> +<color=#00CCFF>The passengers disappeared in Germany, but they're telling me the the incident did not occur in Germany.</color> +<color=#00CCFF>They're asking me to provide proof? How am I supposed to? Is the government not going to help at all?</color>
+()<Speaker></Speaker>||:...
 ()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_tele_disconnect</SE1><common_effect>%%code=202407_TVOff%%</common_effect>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>479</BIN><BGM>GF_EV9_Story</BGM><关闭蒙版>:新闻播报画面从屏幕上消失，两张形容枯槁的脸对坐着。
-()<Speaker>运营公司经理</Speaker>||:……今天能给方案吗？
-()<Speaker>运营公司公关部部长</Speaker>||:我们已经错过了48小时的黄金公关时间。
-()<Speaker>运营公司经理</Speaker>||:别说是你，我都是从新闻上才知道出了事。+等我们拿到消息和资料的时候，时间就这么过去了！现在你就说吧还有什么办法？
-()<Speaker>运营公司公关部部长</Speaker>||:……不回应是不可能的了，这是国际性事件。+道歉是必须的，只是看怎么归责。+这部分恐怕不是以我们公司的意见为主导的。
-()<Speaker>运营公司经理</Speaker>||:我知道，但上面现在没有给任何态度。+无论如何我们都有过错。+但是我们后面还有其他的生意，这辆线路还得继续运营，这件事情的处理水平会影响到我们明年的竞标。
-()<Speaker>运营公司公关部部长</Speaker>||:我的建议是沉痛缅怀事故中的罹难者，然后委婉地撇清关系，毕竟肇事律贼都是苏联人。+以后我们将对乘客身份展开更加严谨的盘查，以及希望新苏联能够开放更加准确的公民验证系统，以保证大家的生命财产安全。+……赔偿草稿大概是这样。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:唰——一张纸推到了经理的面前。
-()<Speaker></Speaker>||<narrator>:针对10月20日凌晨时分发生的EN440-13M次未来号爆炸事故，我们深表歉意。+我们公司将竭尽全力保证善后与赔偿。+在救援疏散过程中已自行离开的乘客，如后续感到身体不适，可随时联系我们，我们将承担相应治疗费用。再次向您表示歉意。
-()<Speaker>运营公司经理</Speaker>||:不行，万一将来有什么慢性病，一说起来就是因为吸了口污染区的空气，那风险太大了。
-()<Speaker>运营公司公关部部长</Speaker>||:那不提赔偿，直接公告宣称我们的权限不足以覆盖不属于我国领土范围内的路线？+可以再强调一下，列车在我国领土范围内的安全检查报告都是没有问题的。
-()<Speaker>运营公司经理</Speaker>||:不行！这样显得太无能了！+会对我们其他的跨国线路造成影响。
-()<Speaker>运营公司公关部部长</Speaker>||:那要么改成，都是因为不可抗力……？
-()<Speaker>运营公司经理</Speaker>||:本来只是丢点钱，我看你现在命也不要了。
-()<Speaker>运营公司公关部部长</Speaker>||:那你要我怎么写？！
-()<Speaker>运营公司经理</Speaker>||:你先别急……让我想想。+我们下面业务有什么是苏联公司参与的吗？
-()<Speaker>运营公司公关部部长</Speaker>||:有，车厢玻璃和方向盘。
-()<Speaker>运营公司经理</Speaker>||:嗯，就说是防护玻璃的问题，我方在调查事故起因的时候发现玻璃有质量问题。+为了杜绝此类问题，我们将重新制定验收标准，并深表歉意，然后给出一些模糊的补偿标准。
-()<Speaker>运营公司公关部部长</Speaker>||:好的。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:公关部部长揉了揉黑眼圈，手指在键盘上再次敲打起来。
-()<Speaker>运营公司经理</Speaker>||:中心思想是未来号是绝对安全的，两边政府也是尽力了的。+发生问题是谁也不想的，然后失误的部分都是苏联公司的，我们只是检查标准制定得太宽松了，明白吗？
-()<Speaker>运营公司公关部部长</Speaker>||:收到，那你看我这一版……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:嘭——
-()<Speaker></Speaker>||:门猛地被掀开，几名穿着黑衣的男人冲了进来。
-NPC-Bodyguard1(0)<Speaker>黑衣人员</Speaker>||<BGM>GF_21winter_battle_1</BGM>:所有人！立刻停下手里的行动，双手抱头。
-()<Speaker>运营公司经理</Speaker>||:……你是什么人？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:领头人拿出了证明文件。
-NPC-Bodyguard1(0)<Speaker>黑衣人员</Speaker>||:我们是警察。+把公司里所有人全部带走，资料进行记录，人形安排专门机器拷贝记忆。
-()<Speaker>运营公司经理</Speaker>||:什么情况？！+别搞错了，我们老板可是有统一社会党的资质和席位……
-NPC-Bodyguard1(0)<Speaker>黑衣人员</Speaker>||:两位先生请配合工作，将双手抱在脑后，慢慢朝门外走。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:鱼贯而入的黑衣人员很快控制了整间办公室。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:跟进来的人形们迅速对资料进行了打包和扫描，同时将列车线路的乘客资料和监控录屏也一并带走。
-NPC-Bodyguard1(0)<Speaker>黑衣人员</Speaker>||:……
-()<Speaker></Speaker>||:其中一名黑衣人员走到了两人刚刚还在奋战的桌前，上面堆着厚厚的一沓列车资料。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:他随手拿起上面的乘客列表——
-()<Speaker></Speaker>||<narrator>:座位号F02-A02，男，32岁，一等座，已发现部分残骸。+……+座位号F15-E56，男，21岁，二等座，确认存活。+座位号F17-E57，女，19岁，二等座，已发现部分残骸。+……
+()<Speaker></Speaker>||<黑屏2><BIN>479</BIN><BGM>GF_EV9_Story</BGM><关闭蒙版>:The interview footage disappears from the screen as it is turned off. Two haggard-looking men are seated across each other. 
+()<Speaker>Railway Operating Company Manager</Speaker>||:...Can we come up with a solution within the day?
+()<Speaker>Railway Operating Company PR Director</Speaker>||:We've already missed the deadline of the golden 48 hours in PR crisis management.
+()<Speaker>Railway Operating Company Manager</Speaker>||:I don't blame you. Even I only found out about the disaster from the news. +By the time we got word of what happened and gathered enough information, time had already run out! So tell me, what else can we do?
+()<Speaker>Railway Operating Company PR Director</Speaker>||:...Not issuing a statement is out of the question; this is an international incident. +An apology is necessary, but the question is who's going to take the fall. +I'm afraid that's not up to our company to decide.
+()<Speaker>Railway Operating Company Manager</Speaker>||:I know, but the brass still hasn't made their stance known. +No matter how you cut it, we are definitely to blame. +But we have to keep business coming, and the route has to continue running. How this incident is handled will directly affect our bid next year.
+()<Speaker>Railway Operating Company PR Director</Speaker>||:My suggestion is to mourn the victims and then tactfully distance ourselves from the incident. After all, the Vory perpetrators were all Soviets. +We pledge to conduct more rigorous identity checks on passengers in the future, and we urge the Neo-Soviet Union to implement a more accurate identity verification system to ensure the safety of everyone's life and property. +...The draft of the compensation will probably look something like this.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Whoosh. A sheet of paper is slid across the table to the manager.
+()<Speaker></Speaker>||<narrator>:We deeply apologize for the explosion that occurred on the EN440-13M train "Future" in the early hours of October 20th. +Our company will do its utmost to redress the situation and issue compensation. +Passengers who departed on their own during the rescue and evacuation process may contact us at any time if they feel unwell afterwards, and we will bear the corresponding treatment costs. Once again, we offer our most sincere apologies.
+()<Speaker>Railway Operating Company Manager</Speaker>||:No, if they ever develop any chronic illnesses in the future, they can just blame it on breathing the air in the contamination zone. That's too risky for us.
+()<Speaker>Railway Operating Company PR Director</Speaker>||:Then what if we don't mention anything about issuing compensation and just declare that our jurisdiction does not cover routes which operate beyond our borders? +We can re-emphasize that there were no problems with the train's safety inspection reports within our own territory. 
+()<Speaker>Railway Operating Company Manager</Speaker>||:That won't do either! It'd make us look weak and incompetent! +Not to mention it'd affect our other international routes.
+()<Speaker>Railway Operating Company PR Director</Speaker>||:In that case, should we invoke force majeure...?
+()<Speaker>Railway Operating Company Manager</Speaker>||:Financial loss is inevitable, but are you so desperate to lose your own head?
+()<Speaker>Railway Operating Company PR Director</Speaker>||:Then what am I supposed to write?! You tell me!
+()<Speaker>Railway Operating Company Manager</Speaker>||:Calm down... Let me think. +Do we have any subsidiaries that involve Soviet companies?
+()<Speaker>Railway Operating Company PR Director</Speaker>||:Yes, there's a company that manufactures the glass used in train carriages and one that makes steering wheels.
+()<Speaker>Railway Operating Company Manager</Speaker>||:Hm, then blame it on the glass. Say we discovered a problem with the quality of the glass while investigating the cause of the incident. +In order to prevent such problems, we will re-evaluate our QA standards and offer our deepest apologies. Then throw out some vague compensation criteria.
+()<Speaker>Railway Operating Company PR Director</Speaker>||:Right.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:The PR director rubs his eyes, which are ringed with dark circles, and starts typing away on his keyboard again.
+()<Speaker>Railway Operating Company Manager</Speaker>||:The most important point is that the "Future" train is absolutely safe, and both governments have done their best. +Nobody wanted this to happen, but it's the Soviet company who dropped the ball; our only fault was that our QA standards were too lax. You understand?
+()<Speaker>Railway Operating Company PR Director</Speaker>||:Got it. Take a look at this version...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:Bam!
+()<Speaker></Speaker>||:The door is suddenly flung open, and several men in black come charging in.
+NPC-Bodyguard1(0)<Speaker>Black-Clad Officer</Speaker>||<BGM>GF_21winter_battle_1</BGM>:All of you! Drop what you're doing right now and put your hands behind your head!
+()<Speaker>Railway Operating Company Manager</Speaker>||:...Who are you?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The leader produces his identification.
+NPC-Bodyguard1(0)<Speaker>Black-Clad Officer</Speaker>||:Police. +Take everyone in the company away and log all their data. Set up the machines to copy their Dolls' memories.
+()<Speaker>Railway Operating Company Manager</Speaker>||:What's going on?! +There must be some mistake. Our boss is a valued member of the Socialist Unity Party...
+NPC-Bodyguard1(0)<Speaker>Black-Clad Officer</Speaker>||:Sirs, please cooperate. Put your hands behind your head and move toward the door slowly.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The black-clad men filing into the office soon have the situation completely under their control.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:The Dolls that follow them in promptly start packing up and scanning all the documents in the office. They also haul away a stack of information on the train's passengers, as well as the CCTV monitors.
+NPC-Bodyguard1(0)<Speaker>Black-Clad Officer</Speaker>||:...
+()<Speaker></Speaker>||:One of the black-clad men walks up to the desk where the manager and the PR director were racking their brains just a minute ago. It is covered in stacks of information concerning the train.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:He picks up the passenger manifest sitting on top of a pile—
+()<Speaker></Speaker>||<narrator>:Seat F02-A02, male, age 32, first class—partial remains found. +... +Seat F15-E56, male, age 21, second class—survival confirmed. +Seat F17-E57, female, age 19, second class—partial remains found. +...
 ()||<BGM>BGM_Empty</BGM><黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<回忆><黑屏2><BIN>97</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM><SE1>AVG_20Winter_Drink_Tea</SE1>:速溶咖啡的香气刺激着神经，印象里的K还长着一张人畜无害的面孔。
-NPC-Keven(6)<Speaker>J</Speaker>||:……K前辈。
-NPC-Keven(6);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:嗯？
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:我有个问题……呃，不是我的问题……+是我有一个朋友，最近遇上了一件难搞的事情……
-NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:哦？说来听听。
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:我的这个朋友最近得到了他梦寐以求的工作……+但是，他的导师，呃，不，是他的上级……
-NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:他的上级怎么了？
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:……他的上级对他很好……+会带他去食堂打饭，帮他指导会议室的位置，还会给他贴发票……
-NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:那么有什么问题呢？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:问题在于太好了……
-NPC-Keven(7);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:怎么个好法？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:他的上级在同事里的风评是一个残暴冷漠的女人。+但对刚毕业的他这样温柔体贴，是不是有点不太寻常？+甚至每个月还会固定请他吃饭。
-NPC-Keven(7);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:嗯，然后呢？
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(4)<Position>0,70</Position>||:我这个朋友很担心，因为他并不想要搞办公室恋情，但又不想跟上级搞砸关系。
-NPC-Keven(10);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:噢……我明白了……
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Jason(4)<Position>0,70</Position>||:K前辈已经明白我的意思了吗？
-NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:你怀疑Q暗恋你。
-NPC-Keven(9)<Speaker>J</Speaker><Shake>||:啊——！！！
-NPC-Keven(9)<Speaker>J</Speaker>||:<size=25>K前辈请不要这么大声！我不想影响Q女士的声誉，只想和平地解决……</size>
-NPC-Keven(13);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:这事传出去倒确实会影响她的声誉。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:Q女士是个非常好的人，我不希望伤害她……
-NPC-Keven(7);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:你想在不伤害她的前提下……委婉拒绝她对你的暗恋？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:嗯……
-NPC-Keven(7);NPC-Jason(3)<Speaker>K</Speaker><Position>0,70</Position>||:这个很简单，我们是特工，时刻都要面对生死未知的任务，所以有什么事都应该速战速决。+所以我建议你，去找她当面说清楚。
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(3)||:不会太直接了吗……
-NPC-Keven(10);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:不会，Q是个坚强的女人，她绝对能够接受你的拒绝，并继续和你正常相处。+但前提是，你必须坦率地跟她说清楚你的想法。+从你发现她暗恋你开始。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(4)||:……K前辈说得有道理……
-NPC-Keven(7);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:十五分钟后，Q会来这里开会。+以她的个性，她会提前到的，你就趁这个时候说清楚吧。
-NPC-Keven(7)<Speaker>J</Speaker>||:……嗯！+谢谢你，K前辈。
-NPC-Jason(3)<Speaker>K</Speaker><Position>0,70</Position>||:客气了。
-NPC-Keven(7)<Speaker>J</Speaker>||:那我进去了……
-()<Speaker>J</Speaker>||:<color=#FF0000>不……不要进去……</color>
-()<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Scene_Transfer</SE1>:<size=50><color=#FF0000>不！要！进！去！啊！</color></size>
+()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM><SE1>AVG_20Winter_Drink_Tea</SE1>:The aroma of instant coffee tantalizes J's senses, and the look on K's face is as innocuous as ever.
+NPC-Keven(6)<Speaker>J</Speaker>||:Herr K.
+NPC-Keven(6);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:Hm?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:I have a problem... Uh, it's not actually my problem... +I have a friend who's recently been having some trouble...
+NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:Oh? Tell me about it.
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:So this friend of mine has recently landed his dream job... +But his mentor, uh, I mean, his superior...
+NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:What about his superior?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:...His superior is very nice to him... +She'd have lunch with my friend at the cafeteria, show him where the conference room is, and even organize his invoices for him...
+NPC-Keven(10);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:Then what's the problem?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:The problem is she's too nice...
+NPC-Keven(7);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:What do you mean too nice?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:His superior is widely known to be a cold and ruthless woman among his colleagues. +But isn't it a bit odd that she's so nice and gentle to a fresh grad like him? +She even treats him to a meal every single month.
+NPC-Keven(7);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:Hm, so?
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(4)<Position>0,70</Position>||:My friend is worried because he doesn't want to get into an office romance, but at the same time, he doesn't want to ruin his relationship with his superior.
+NPC-Keven(10);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:Ah... I get it...
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Jason(4)<Position>0,70</Position>||:You understand what I mean, Herr K?
+NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:You suspect Q has a crush on you.
+NPC-Keven(9)<Speaker>J</Speaker><Shake>||:Ack!!!
+NPC-Keven(9)<Speaker>J</Speaker>||:<size=25>Please keep it down, Herr K! I don't wish to tarnish Frau Q's reputation. I just want to resolve this peacefully...</size>
+NPC-Keven(13);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:This would indeed tarnish her reputation if word got out.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:Frau Q is a lovely person. I don't want to hurt her...
+NPC-Keven(7);NPC-Jason(2)<Speaker>K</Speaker><Position>0,70</Position>||:So you want to tactfully reject her... without hurting her feelings?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(2)<Position>0,70</Position>||:Yeah...
+NPC-Keven(7);NPC-Jason(3)<Speaker>K</Speaker><Position>0,70</Position>||:That's simple. We're agents whose lives are always on the line, so whatever we have to do, we make it quick. +Which is why I suggest you just talk to her and clear the air.
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Jason(3)||:Won't that be too direct...?
+NPC-Keven(10);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:Not at all. Q is a strong woman. I'm sure she can take your rejection in stride and maintain her friendship with you. +But only if you're honest with her about what you think. +Starting from the moment you realized she had feelings for you.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Jason(4)||:You have a point, Herr K.
+NPC-Keven(7);NPC-Jason(4)<Speaker>K</Speaker><Position>0,70</Position>||:Q will be here for a meeting in 15 minutes. +She always arrives early, so take this opportunity to talk it out.
+NPC-Keven(7)<Speaker>J</Speaker>||:...Right! +Thank you, Herr K.
+NPC-Jason(3)<Speaker>K</Speaker><Position>0,70</Position>||:Don't mention it.
+NPC-Keven(7)<Speaker>J</Speaker>||:I'm going in then...
+()<Speaker>J</Speaker>||:<color=#FF0000>No... don't go in there...</color>
+()<Speaker>J</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Scene_Transfer</SE1>:<size=50><color=#FF0000>Don't! Go! In! There!</color></size>
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-NPC-Keven(9)<Speaker>J</Speaker><Shake>||<SE1>AVG_Cloak_Whoosh</SE1><关闭蒙版><黑点2><BIN>417</BIN>:<size=50>啊！！！</size>
-()<Speaker></Speaker>||:J睁开眼，从噩梦中惊醒。+会议室里的人齐刷刷看向他。
+NPC-Keven(9)<Speaker>J</Speaker><Shake>||<SE1>AVG_Cloak_Whoosh</SE1><关闭蒙版><黑点2><BIN>417</BIN>:<size=50>Aaaaaaah!!!</size>
+()<Speaker></Speaker>||:J's eyes snap open as he jolts awake from his nightmare. +Everyone in the conference room stares at him.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><黑点2>:法兰克福 斯塔西总部
-PPQ(0)<Speaker>布里吉特</Speaker>||:J探员，在别人干活的时候睡觉已经很不礼貌了。+你怎么还说梦话？
-()<Speaker></Speaker>||:J看着办公室内整理资料的阿玛瑞丝、斯特林和布里吉特，以及一边视若无睹地喝着咖啡的Q。
-()<Speaker></Speaker>||:明白自己噩梦的根源，J只能假装无事发生，一边随手翻起桌面上的材料。
-NPC-Keven(6)<Speaker>J</Speaker>||<SE1>AVG_20Winter_Book</SE1>:《未来号餐车经营权授权方案书》……原来在洲际铁路上卖盒饭这么赚钱？+可这和帕拉蒂斯有什么关系？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……不好意思这份是我要看的，你看下面那份。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:文件被抽走，又被塞入另一份。
-Sterling(0)<Speaker>斯特林</Speaker>||:这是那家公司下属员工的口供复印件，有运营公司负责人、乘务员、酒保等人的签名。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:J快速翻阅了一遍。
-NPC-Keven(6)<Speaker>J</Speaker>||:酒保和乘务员都供述，列车上会不定期进行黑市交易，但具体的交易内容他们并不清楚，只知道黑市主理人出手一向阔绰。+难怪能隐瞒这么久。
-PPQ(0)<Speaker>布里吉特</Speaker>||:不过出事的这一班列车，黑市交易被中断了，因为律贼抢劫。+我对此持怀疑态度……毕竟太巧合了。
-Sterling(0)<Speaker>斯特林</Speaker>||:你如果对新苏联的民风有一些基础的了解，就会得出截然相反的结论。+对新苏联的律贼而言，战斗就像呼吸一样自然。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:黑市交易的情报只有这些吗？
-NPC-Keven(6)<Speaker>J</Speaker>||:初步的调查报告，说黑市交易的信息都存储在某个人形的心智里，但是当时回收人形的是格里芬的指挥官。+那边有给出相关人形的信息吗？
-Sterling(0)<Speaker>斯特林</Speaker>||:……有，但是提交过来的都是普通人形的模糊信息。
-Sterling(0)<Speaker>斯特林</Speaker>||:比如这个，玛姬•庞兹，职业是调酒师。+凯瑟琳•庞兹，职业是房产中介。+艾尔玛•休谟，职业是自由作家。
-NPC-Keven(6)<Speaker>J</Speaker>||:……+这还不如直接不给！
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:斯特林拷贝了其中一份文件，发送给了在座众人。
-NPC-Keven(6)<Speaker>J</Speaker>||:怎么了？这不是交易账本和分成吗？
-NPC-Keven(9)<Speaker>J</Speaker>||:哇靠，原来乘务员靠这个都能分到30盎司萨狄斯金。
-Sterling(0)<Speaker>斯特林</Speaker>||:这是黑市的售卖目录。+……一本《浮士德》开出20万萨狄斯金的价格是不是有点离谱？
-NPC-Keven(10)<Speaker>J</Speaker>||:……你对艺术品洗钱的了解还不够深啊。
-PPQ(0)<Speaker>布里吉特</Speaker>||:原来如此！那这个呢？+《人类理智研究（第十七版）》，为什么值这么多钱？
-NPC-Keven(10)<Speaker>J</Speaker>||:可能也是洗钱的一种方式吧。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_File_Put</SE1>:J扫了一眼就将目录扔到一边，阿玛瑞丝捡起来，脸色凝滞。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……这本书……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一直一言不发的Q突然放下咖啡站起来。
-NPC-maya(0)<Speaker>Q</Speaker>||:这份目录留下来，剩下的部分交给十二部情报分析评估中心。+J和阿玛瑞丝留下，其他人出去。
-Sterling(0)<Speaker>斯特林</Speaker>||:是！
-PPQ(0)<Speaker>布里吉特</Speaker>||:我们立刻送达！
+()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><黑点2>:Stasi Headquarters, Frankfurt.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Agent J, it's disrespectful enough to fall asleep while others are toiling away. +You even have the nerve to talk in your sleep?
+()<Speaker></Speaker>||:J looks blearily at Amaris, Sterling, and Brigitte, who are organizing files and documents in the office, then darts a glance at Q, who is nonchalantly sipping her coffee off to the side.
+()<Speaker></Speaker>||:Seeing the cause of his nightmare, J can only try to shrug it off. He flips through the pages of something on his desk absentmindedly.
+NPC-Keven(6)<Speaker>J</Speaker>||<SE1>AVG_20Winter_Book</SE1>:"'Future's Dining Carriage Business Authorization Plan"... I didn't know selling lunchboxes on intercontinental trains is so profitable. +But what does this have to do with Paradeus?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Sorry, that's for me to read. Please look through this one.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The document is snatched out of his hand and replaced with another one.
+Sterling(0)<Speaker>Sterling</Speaker>||:It's a copy of the statements given by employees of the company, signed by the head of operations, train attendant, barkeeper, etc.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:J flips through the document quickly.
+NPC-Keven(6)<Speaker>J</Speaker>||:According to both the barkeeper and the attendant, black market transactions are carried out on the train from time to time, but neither of them are aware of the specifics. They only know that the proprietor of the black market is generous with the profit shares. +No wonder they've been able to stay under the radar for so long.
+PPQ(0)<Speaker>Brigitte</Speaker>||:But the black market trade on board was disrupted because of the robbery perpetrated by the Vory. +I'm kinda skeptical... It's all too much of a coincidence.
+Sterling(0)<Speaker>Sterling</Speaker>||:If you know anything about how things work in the Neo-Soviet Union, you'll arrive at the opposite conclusion. +To the Vory v Zakone, fighting is second nature.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Is this all the information we have on the black market trade?
+NPC-Keven(6)<Speaker>J</Speaker>||:The preliminary investigation report mentions that all black market transaction data is stored in a certain Doll's neural cloud, but the Dolls involved in this particular transaction were all taken in by the Commander of Griffin. +Has the Commander supplied any information about them?
+Sterling(0)<Speaker>Sterling</Speaker>||:...Yes, but it's just vague and general information you get in regular Doll profiles.
+Sterling(0)<Speaker>Sterling</Speaker>||:Maggie Ponzi, bartender. +Catherine Ponzi, real estate agent. +Erma Hume, freelance writer. You get the idea.
+NPC-Keven(6)<Speaker>J</Speaker>||:... +Why did they even bother?!
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Sterling makes photocopies of another document and distributes them to everyone present.
+NPC-Keven(6)<Speaker>J</Speaker>||:What's this? Their transaction ledger and how they split their profits?
+NPC-Keven(9)<Speaker>J</Speaker>||:Holy crap, even the train attendant got 30 ounces of Sardis gold from this!
+Sterling(0)<Speaker>Sterling</Speaker>||:Here's the black market's sales catalog. +...A volume of "Faust" is priced at 200,000 Sardis gold? Isn't that a massive rip-off?
+NPC-Keven(10)<Speaker>J</Speaker>||:...You know woefully little about money laundering in the art world.
+PPQ(0)<Speaker>Brigitte</Speaker>||:I see! What about this? +"Human Intelligence Research (17th Edition)"—why is this worth so much?
+NPC-Keven(10)<Speaker>J</Speaker>||:Probably another way of laundering money.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_File_Put</SE1>:J skims through the catalog and tosses it aside. Amaris picks it up with a dazed look on her face.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...This book...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q, who hasn't said a word so far, suddenly puts down her coffee and stands up.
+NPC-maya(0)<Speaker>Q</Speaker>||:Keep the catalog and take the rest of the stuff to Department 12 for intel analysis. +J and Amaris stay, everyone else out.
+Sterling(0)<Speaker>Sterling</Speaker>||:Yes, ma'am!
+PPQ(0)<Speaker>Brigitte</Speaker>||:We'll make the delivery right away!
 ()<Speaker></Speaker>||<CGDelay>0.8</CGDelay><SE1>AVG_Door_Open_Close</SE1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:两人关门离开后，Q坐到J和阿玛瑞丝的对面。
-NPC-maya(0)<Speaker>Q</Speaker>||:阿玛瑞丝，你刚刚想说的，继续。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:……如果我没有记忆错乱，“NGAD”计划中，“曙光”诞生的参考资料中有这个文件。+但是我不知道具体的内容。+当时应该是《人类理智研究（第十六版）》。
-NPC-maya(0)<Speaker>Q</Speaker>||:好的，阿玛瑞丝，你今天的任务到此结束了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:是。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:After the two Dolls leave and close the door behind them, Q sits down across J and Amaris.
+NPC-maya(0)<Speaker>Q</Speaker>||:Amaris, finish your sentence.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:...If my memory serves me right, in Project NGAD, this document was among the reference materials for the inception of "Daybreak". +However, I don't know its content. +I believe it was the 16th edition back then.
+NPC-maya(0)<Speaker>Q</Speaker>||:Thank you, Amaris. You can sign off for the day.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Yes, ma'am.
 ()<Speaker></Speaker>||<CGDelay>0.8</CGDelay><SE1>AVG_Door_Open_Close</SE1>:
-()<Speaker></Speaker>||:阿玛瑞丝离开了会议室。
-NPC-maya(0)<Speaker>Q</Speaker>||:你现在理解为什么我们会帮新苏联做这个任务，又为什么要接受这个人形进入斯塔西了吧。
-NPC-Keven(6)<Speaker>J</Speaker>||:……“曙光”和死罪，肖和休谟，指挥官那边的技术……+都或多或少有点关联。+可是这跟我们有什么关系？
-NPC-maya(0)<Speaker>Q</Speaker>||:……作为你的导师，让我再教你点东西吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q将横亘在两人面前的资料全部推开。
-NPC-maya(0)<Speaker>Q</Speaker>||:1892年，一个德国工程师狄塞尔受面粉厂粉尘爆炸的启发，设想将吸入气缸的空气高度压缩，使其温度超过燃料的自燃温度，再用高压空气将燃料吹入气缸，使之着火燃烧。+1897年，他首创的压缩点火式内燃机研制成功，为内燃机的发展开拓了新途径。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:……好的，内燃机，你打算从火车的发动机讲起？
-NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:压缩点火式内燃机的问世，引起了世界机械业的极大兴趣，后来以发明者而命名为狄塞尔引擎。+更通用的名字是，柴油机。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:……
-NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:1898年，柴油机首先用于固定式发电机组，1903年用作商船动力，1904年装于舰艇，1913年第一台以柴油机为动力的内燃机车制成……+而第一次世界大战爆发，又被称为内燃机战争。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:……
-NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:你问我技术跟我们有什么关系。+就是这种关系。+当1897年的狄塞尔改进内燃机的时候，他一定不会想到他的发明被应用于战争，而不是仅仅用在老实的列车发动机身上。
-NPC-maya(0)<Speaker>Q</Speaker>||:三战才过去十几年，你觉得第四次世界大战是什么战争呢？
-NPC-Keven(7)<Speaker>J</Speaker>||:……+你是想说人形。
-NPC-maya(0)<Speaker>Q</Speaker>||:我有时候确实想要建议那些坐在头把交椅上的人，将所有科学家抓起来算了。
-NPC-Keven(7)<Speaker>J</Speaker>||:……
-NPC-maya(1)<Speaker>Q</Speaker>||<BGM>BGM_Empty</BGM>:开玩笑的。
-NPC-Keven(7)<Speaker>J</Speaker>||:一点也不好笑。+你说这些是为了什么？+我们之间没有关系好到可以闲聊的程度。
-NPC-Keven(7);NPC-maya(2)<Speaker>Q</Speaker>||:我是提醒你，离指挥官远一点。+我们有各自的立场。+作为导师，对学生的最后忠告而已。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(2)||:……+为什么这么好心提醒我？
-NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker>||:因为现在是敏感时期，我不想因为你的私人行为上升到斯塔西群体。+内务部就是这么失去权势的。
-NPC-Keven(7)<Speaker>J</Speaker>||:……罗密就是这么上位的？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:看在脸上流露出轻蔑不屑的J，Q只是微笑着。
-NPC-maya(2)<Speaker>Q</Speaker>||:这就是为什么现在你还有工作，而内务部四十岁以上的无编制人员只能在家领失业救济金。
-NPC-Keven(7)<Speaker>J</Speaker>||:……
+()<Speaker></Speaker>||:Amaris leaves the conference room.
+NPC-maya(0)<Speaker>Q</Speaker>||:Now you see why we're handling this mission for the Neo-Soviet Union and why we have to let this Doll enter the Stasi.
+NPC-Keven(6)<Speaker>J</Speaker>||:...Daybreak and Capita, Shaw and Hume, the kind of tech that the Commander is dealing with... +It's all connected somehow. +But what's that got to do with us?
+NPC-maya(0)<Speaker>Q</Speaker>||:...As your mentor, let me teach you something.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q pushes aside the stacks of paper on the desk between them.
+NPC-maya(0)<Speaker>Q</Speaker>||:In 1892, inspired by a dust explosion in a flour mill, a German engineer called Diesel conceived the idea of compressing air in a cylinder to increase its temperature beyond the fuel's auto-ignition temperature, then injecting fuel into the cylinder under high pressure to ignite the air. +In 1897, he successfully developed the compression ignition engine, which opened up a new path for the development of internal combustion engines.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:...Okaaaaay, internal combustion engines. You're gonna start from the history of train engines?
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:The creation of the compression ignition engine aroused great interest in the global mechanical industry. The engine was later named the diesel engine after its inventor. +Even the fuel is now called diesel.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:...
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:Diesel engines were first used in stationary generators in 1898. They became the power source for merchant ships in 1903 and were installed on warships in 1904. Then in 1913, the first diesel-powered internal combustion locomotive was built... +The First World War broke out, which was also a war of internal combustion engines.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(0)||:...
+NPC-Keven(6);NPC-maya(0)<Speaker>Q</Speaker>||:"What has the tech got to do with us?" you ask. +There you have it. +When Diesel refined the internal combustion engine in 1897, he never dreamed that his invention would be used for war rather than as simple train engines.
+NPC-maya(0)<Speaker>Q</Speaker>||:It hasn't even been two decades since WWIII ended. What do you think WWIV is going to look like?
+NPC-Keven(7)<Speaker>J</Speaker>||:... +You mean it'd be a war of Dolls.
+NPC-maya(0)<Speaker>Q</Speaker>||:Sometimes I seriously want to tell the brass that they should just lock up all the scientists.
+NPC-Keven(7)<Speaker>J</Speaker>||:...
+NPC-maya(1)<Speaker>Q</Speaker>||<BGM>BGM_Empty</BGM>:Just kidding.
+NPC-Keven(7)<Speaker>J</Speaker>||:Not funny at all. +Why are you saying all this? +I don't think we're friendly enough for idle chit-chat.
+NPC-Keven(7);NPC-maya(2)<Speaker>Q</Speaker>||:I'm reminding you to keep the Commander at arm's length. +We take different stands on certain issues. +As a mentor, I'm just giving my student one last piece of advice.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(2)||:... +Why the concern for me?
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker>||:These are dangerous times. I don't want your personal actions to get escalated to the higher-ups. +That's how Internal Affairs lost their influence.
+NPC-Keven(7)<Speaker>J</Speaker>||:...And how Romy rose to power?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Seeing the disdain on J's face, Q simply smiles.
+NPC-maya(2)<Speaker>Q</Speaker>||:And that's why you still have a job, while some middle-aged former Internal Affairs official is now unemployed and living off social benefits at home.
+NPC-Keven(7)<Speaker>J</Speaker>||:...
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker>莫斯科电视台</Speaker>||<黑点2><SE1>AVG_20_Winter_TVnews_Cut</SE1><BIN>733</BIN>:<color=#00CCFF>……本台接到突发新闻。</color>+<color=#00CCFF>位于莫斯科北部霍夫里诺的霍弗林医院突发大火，当地消防人员第一时间出动。</color>+<color=#00CCFF>据悉，火源位于霍弗林医院的地下太平间，目前已造成存放于太平间的多具遗体损毁。</color>+<color=#00CCFF>在医院和警方清点现场时，意外发现了失踪多时的萨曼莎•肖博士的遗体。</color>+<color=#00CCFF>目前，警方正在对此事件展开调查。</color>
+()<Speaker>Moscow TV</Speaker>||<黑点2><SE1>AVG_20_Winter_TVnews_Cut</SE1><BIN>733</BIN>:<color=#00CCFF>...Breaking news.</color> +<color=#00CCFF>A fire broke out at Khovrinskaya Hospital in Khovrino in northern Moscow. Local firefighters were dispatched immediately.</color> +<color=#00CCFF>The fire allegedly originated in the underground morgue of Khovrinskaya Hospital, and many bodies stored in the morgue have been damaged.</color> +<color=#00CCFF>When inspecting the scene, hospital officials and the police discovered the remains of Dr. Samantha Shaw, who had been missing for a long time.</color> +<color=#00CCFF>Police investigations are now underway.</color>
 ()||<黑点1>:
-()<Speaker>民主德国电视台</Speaker>||<黑点2><BIN>734</BIN>:<color=#00CCFF>DDR2台记者获悉，莫斯科北部一家名为霍弗林医院的医院突发大火，造成了太平间的多具遗体损毁。</color>+<color=#00CCFF>而在这之中，莫斯科警方意外发现了失踪多时的萨曼莎•肖博士。</color>+<color=#00CCFF>萨曼莎•肖博士是著名的新苏联籍人形科学家，拥有多项尖端技术的专利，为人形的发展和进步做出了巨大的贡献。</color>+<color=#00CCFF>莫斯科警方正在就此事进行调查，本台也会持续关注后续进展。</color>
+()<Speaker>Deutscher Rundfunk</Speaker>||<黑点2><BIN>734</BIN>:<color=#00CCFF>A fire broke out in Khovrinskaya Hospital in northern Moscow, causing damage to many bodies stored in the morgue.</color> +<color=#00CCFF>The remains of Dr. Samantha Shaw, who had long been missing, were discovered at the scene.</color> +<color=#00CCFF>Dr. Samantha Shaw was a renowned Doll scientist in the Neo-Soviet Union who held the patents for many cutting-edge technologies and had made great contributions to the development of Dolls.</color> +<color=#00CCFF>Moscow police are investigating the incident, and this station will be following the story closely.</color>
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>470</BIN>:……+静悄悄的豪华酒店房间，只有电视里的新闻节目还在重复放送。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:啪——
-()<Speaker></Speaker>||:电视机被关闭，遥控器从帕斯卡的手中滑落。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><SE1>ClothingUp</SE1>:假的，不可能，这女人会死吗？+她可是哥萨克人和斯拉夫人的后代，能把歌利亚当保龄球打的那种人！+怎么可能悄悄死在莫斯科郊外的医院里啊？！
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:你冷静一下，我给你泡了杯咖啡……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:帕斯卡颤抖着接过咖啡一饮而尽。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:假的，肯定是假的，真的肖还不知道被关押在哪里，要是那些警察信以为真，放弃寻找肖怎么办？！+赫丽安，我们必须立刻给搜查部门写信！不能让他们就这样被糊弄了！
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:帕斯卡唤醒电脑，飞快地敲起了键盘。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:赫丽安握住了她的手。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:你先坐下来，什么也别想……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:这恐怕是真的，帕斯卡。警方对比了尸体和肖的DNA。+千真万确，是她。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:克鲁格先生……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我也很想安慰你，告诉你这一切都是假的。+但死者的死亡已经注定，生者唯有接受这一切现实，并背负着继续前进。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:帕斯卡沉默地回到自己的工作区翻找起来，赫丽安泡好了新的咖啡放在她的身边。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……帕斯卡，你还好吗？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……我只是在整理和肖的通讯记录而已。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:唰——+密集的资料记录展现在了帕斯卡的眼前，按照时间和主题进行了不同的分类。
-()<Speaker></Speaker>||:她拉到了最上方，开始慢慢浏览——+年少时一同考入茹科夫斯基空军学院的张狂，在初代自律人形技术上取得新的测试进展时的狂喜，主导研究项目进展停滞的痛苦……+像是打开了尘封的相册，那些久未流动的记忆重新鲜活了起来。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……
-()<Speaker></Speaker>||:她的目光停留在了她在研发M4A1时遇见无法攻克的难题向肖求助的页面。+当时肖是那么强烈反对使用脑切片为心智原型，但当自己求助时，她又慷慨相助……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:帕斯卡的手突然顿了一下。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:等等。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:怎么了？
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:帕斯卡调出了研发M4A1时使用的脑切片记录，同时调出了自己获得的铁血和涅托相关数据……
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:……框架……有一部分东西……是一样的……+一样的……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:你发现了什么？
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:有人在我研发出M4A1前就知道了结果……+我对AR小队的研发，可能本身就是一场阴谋……
-()<Speaker></Speaker>||:帕斯卡的眼神晦暗了。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:如果这一切都是一场巨大的阴谋。+那么……她可能真的死了。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……请节哀。
-NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:……我有时候也会想那种恐怖的斯拉夫女人，下场会是什么样子。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:重新端起咖啡，帕斯卡喝下一大半。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:在茹科夫斯基空军学院的时候，其他人都把我当成小女孩。+但她不一样。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(0)||:她跟你关系很好吗？
-NPC-Helian(0);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:哦，一点也不好。+她把我当变态。
-NPC-Helian(3)<Speaker>赫丽安</Speaker>;NPC-Persica(0)||:……
-NPC-Helian(3);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:我从来不关心班上第二名是谁。+但她挺令人印象深刻的。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(0)||:为什么？
-NPC-Helian(0);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:她根本不执着于学术的成就。+比起对知识和未知世界的渴望，她更像是一个手艺人。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(0)||:……
-NPC-Helian(0);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:我觉得她对人形的态度，和对斧头没什么区别。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:不过她最爱的还是飞机。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:帕斯卡指了指屏幕上肖站在飞机前的照片。+那时她的脸上还是意气风发的笑容。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:我一直以为她会回到军队，死在某次空难中。+那可能比较符合她的风格。+比如只身一人驾驶飞机深入敌后，击落敌方五架飞机后为了不被俘虏一头撞向山崖什么的……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(0)||:……
-NPC-Helian(0);NPC-Persica(3)<Speaker>帕斯卡</Speaker>||:没想到现在的她，居然成为了一个谜。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(3)||:帕斯卡，我有预感。+肖的死，会成为导火索。+点燃现在摇摇欲坠的炸药桶。
-NPC-Helian(0);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:啊？那个斯拉夫女人从来不会搞那些弯弯绕绕的东西。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>;NPC-Persica(0)||:……这个世界上，从来不缺借题发挥的人。
-NPC-Helian(0);NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:……那对她反而是一种侮辱。+她是少见的，那种赤诚坦荡的人。
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:虽然让人烦躁，但是不会讨厌的那种人。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:跟安洁一样吗？
-NPC-Persica(0)<Speaker>帕斯卡</Speaker>||:嗯，跟安洁一样。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>470</BIN>:... +The news program keeps playing in the otherwise quiet luxury hotel room.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click.
+()<Speaker></Speaker>||:Persica turns off the television. The remote control slides out of her limp hand.
+NPC-Persica(3)<Speaker>Persica</Speaker>||<BGM>GF_21winter_avg_mahaline</BGM><SE1>ClothingUp</SE1>:No way. This can't be true. Can that woman even die? +She's a Cossack AND a Slav! Someone who plays bowling with Goliaths! +How could she have died secretly in a hospital on the outskirts of Moscow?!
+NPC-Helian(0)<Speaker>Helian</Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:Calm down. I've made you coffee...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Persica accepts the coffee with trembling hands and downs it in one gulp.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:It's a lie. It's got to be a lie. The real Shaw must still be locked up somewhere. What if the police believe they've really found her and call off the search?! +Helian, we've got to write to their search unit right now! They mustn't be fooled!
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Persica boots up her computer and starts typing rapidly on the keyboard.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Helian grips her hands.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:You'd better sit down. Take it easy...
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I'm afraid it's true, Persica. The police has matched the body's DNA with Shaw's. +There's no mistake—it's her.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:...
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Mr. Kryuger...
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I wish I could reassure you and tell you it's all a lie. +But death is written in stone, and the living can only come to terms with it and move on.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Persica drifts back to her workstation and runs a search on her computer in silence. Helian puts down a new cup of coffee next to her.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...Persica, are you alright?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:...I'm just looking through my communication logs with Shaw.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:Click. +Rows upon rows of log entries appear on the screen. Persica sorts them into different categories based on their timestamps and subjects.
+()<Speaker></Speaker>||:She drags the page back to the top and starts scrolling through them slowly... +The sense of self-importance they had for being accepted to the Zhukovsky Air Force Engineering Academy together, their euphoria over a breakthrough while testing the first-gen autonomous Dolls, the torment of encountering a bottleneck in the research project she was leading... +Like opening a dusty photo album, all these long-buried memories come alive again.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:...
+()<Speaker></Speaker>||:Her gaze lingers on the message she sent Shaw asking for her help when she ran into an insurmountable problem during M4A1's creation process. +Despite her vehement opposition to modeling a neural cloud on human brain slices, Shaw still generously offered her help when she asked for it...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Persica's hand suddenly freezes.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:Hang on.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:What is it?
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Persica pulls up the record of the brain slices used in developing M4A1 as well as the data she has on Sangvis Ferri and Nytos...
+NPC-Persica(0)<Speaker>Persica</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:...The frameworks... share... a similarity... +It's the same...
+NPC-Helian(0)<Speaker>Helian</Speaker>||:What have you found?
+NPC-Persica(3)<Speaker>Persica</Speaker>||:Someone already knew the outcome before I even created M4A1... +My creating the AR Team might have been part of a conspiracy to begin with...
+()<Speaker></Speaker>||:Persica's eyes darken.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:If this is all a massive conspiracy... +Then... she might actually be dead.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...My condolences.
+NPC-Persica(3)<Speaker>Persica</Speaker>||:...I did sometimes wonder how that scary Slavic woman would go out.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Persica picks up her cup of coffee again and gulps down half of it.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:Back at Zhukovsky, everyone else treated me like a little girl. +But not her.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(0)||:Were you very good friends?
+NPC-Helian(0);NPC-Persica(0)<Speaker>Persica</Speaker>||:Huh, not at all. +She treated me like a crackpot.
+NPC-Helian(3)<Speaker>Helian</Speaker>;NPC-Persica(0)||:...
+NPC-Helian(3);NPC-Persica(0)<Speaker>Persica</Speaker>||:I never cared who came second after me in class. +But she made quite an impression on me.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(0)||:Why?
+NPC-Helian(0);NPC-Persica(0)<Speaker>Persica</Speaker>||:Academic achievements meant nothing to her. +As a scientist, she never really yearned for the unknown. She was more like an artisan.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(0)||:...
+NPC-Helian(0);NPC-Persica(0)<Speaker>Persica</Speaker>||:A Doll was no different than an axe in her eyes, I think.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:But her one true love had always been planes.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Persica points at the photograph of Shaw standing in front of an aircraft on the screen. +She still had a jaunty smile on her face back then.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:I'd always thought she'd join the air force and die in some plane crash. +That seemed more like her style. +Something like flying a plane deep behind enemy lines all by herself, shooting down five enemy planes, then crashing herself into a cliff to avoid being taken prisoner...
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(0)||:...
+NPC-Helian(0);NPC-Persica(3)<Speaker>Persica</Speaker>||:But she ended up turning into a mystery—who would've thought?
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(3)||:Persica, I have a feeling... +Shaw's death would become a catalyst. +A spark that ignites this precarious powder keg.
+NPC-Helian(0);NPC-Persica(0)<Speaker>Persica</Speaker>||:Huh? That Slavic woman would never be involved in such nasty, convoluted business.
+NPC-Helian(0)<Speaker>Helian</Speaker>;NPC-Persica(0)||:...There's no shortage of opportunists in this world who would use any excuse as a pretext to push their own agenda.
+NPC-Helian(0);NPC-Persica(0)<Speaker>Persica</Speaker>||:...That would be an insult to her. +She was one of the few genuinely upfront and guileless people left in the world.
+NPC-Persica(0)<Speaker>Persica</Speaker>||:Aggravating for sure, but not detestable.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Like Ange?
+NPC-Persica(0)<Speaker>Persica</Speaker>||:Yeah, like Ange.
+()||<黑点1>:

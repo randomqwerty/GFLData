@@ -1,190 +1,190 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>748</BIN><BGM>GF_22W_BGM_3</BGM><黑屏2>:……帕拉蒂斯临时基地。
-()<Speaker></Speaker>||:崭新的实验室内还放着一些正在拆箱的仪器，助理涅托们穿插其中默默进行着组装工作。
-()<Speaker></Speaker>||:尼梅兰根据清单又盘点了两遍，确认没有疏漏之后，才走进了实验室深处的房间。
+()<Speaker></Speaker>||<BIN>748</BIN><BGM>GF_22W_BGM_3</BGM><黑屏2>:...Paradeus' temporary base.
+()<Speaker></Speaker>||:Some instruments are in the process of being unpacked in the brand new laboratory. Assistant Nytos mill about industriously and assemble them in silence.
+()<Speaker></Speaker>||:Nemhran consults the manifest and checks the inventory again. After making sure nothing is amiss, she heads toward a room nestled in the far end of the laboratory.
 ()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><SE1>AVG_doorknock_wood</SE1>:
-()<Speaker></Speaker>||:她敲了敲门，并不是因为这堵透明的门上了锁，而是为了提醒里面的人。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:进来。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……打搅。
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:尼梅兰推门走了进来，将一份文件递给拉普拉斯。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||<SE1>AVG_20Winter_Book</SE1>:这是“远征”计划的详细情报。+我们成功骇入了对方位于圣彼得堡的情报组织“号角”。+他们背后的金主正如您之前的判断，与罗联筹备委员会的关系匪浅。+这个计划内容布局长达3年，所有重要行动均由古代英雄名为代号，其中最重要的就是“穆罗梅茨”军事行动，也是将阿佛那斯摧毁的那次行动。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:这就是安娜来到德国的理由？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:是的，9月13日抵达不莱梅，9月17日被移交柏林，10月16日送抵阿佛那斯。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:那么“曙光”也是这时候唤醒的……
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:是的，艾莉安娜唤醒时间为10月20日。
-NPC-Laplace(13)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:他们行动的时间要比我们预期的提前了很多。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……抱歉，那之前“蜂针”系统还不够完善。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:我不是要责怪你，只是“茧计划”在这样的进程下就显得不够理想了。+不过世界上的事大多如此，有的时候一个节点的突破可以减少十年时间，而有些看似无关紧要的错漏又会耽误一代甚至几代研究进程。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:无论如何，“钥匙”已经降临，您的实验一定会成功。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:没有得到结果以前，就算是99.99%的概率也有失败的可能。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……但您是当代最伟大的科学家。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:……是吗？我没有这样的自信。+识底深湖的断链，对你们来说，应该会造成不小的影响。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……这一切都会很快解决的。+只要您在，大家的希望就还在。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:是啊，接下来最重要的那一场实验，不仅是验证这数十年来的研发成果，也将会映证人类的将来。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:一定不会让您失望。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:尼梅兰再将一份资料递过去，那是最近一周的新闻。+头版头条是“玛诺蒂女士参观法兰克福大学《罗克萨特纪念展》”。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉普拉斯接过资料，笑得意味深长。
-NPC-Laplace(12)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:政客最重要的技巧，跟演员是一样的。+他们需要掌握并操控人心，在这方面，我们就显得格外笨拙了。+只能找得到前往心脏的通路。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:是否要帮您接通42号通讯？
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:不用，在那位先生的眼中，他不是儿子，而是棋子，我们不需要担心额外的东西。+只要威廉能在最后实验关头带着珍贵的材料回来就行。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:那位先生给的时间只剩两周了。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:那是政客的时间表。+我们的反应堆需要时间，科学的进程从来不受政治因素的管控。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:可是科学无法离开政治。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:那位先生不希望法兰克福的人们错过这场烟花，他特别指出了这一点。
-NPC-Laplace(13)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:那是你的问题。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……明白。+“潘多拉”的情况是否需要继续保持跟踪？
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:作为对照组来说，“她”已经失去了价值，剩下的事情你决定吧。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:好的。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:接下来，我会把注意力集中在实验上，这段时间我不想受到任何干扰。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:如您所愿。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><Position>80,0</Position>||:留下这几名实验助手，其余的人你全部带走。+其余的事项就交给你了。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:这是我的荣幸。
+()<Speaker></Speaker>||:She knocks lightly on the door, not because the transparent door is locked, but as a courtesy to the person inside.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:Come in.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...Sorry to intrude.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Nemhran pushes the door open and enters the room. She hands a document over to Laplace.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||<SE1>AVG_20Winter_Book</SE1>:This is a detailed report on the "Expedition". +We successfully hacked into the enemy's intelligence agency "Clarion" located in St. Petersburg. +As you have speculated, their financial backer has close ties with the Preparatory Committee for the Union of Rossartrist Nations Coalition. +The plan has been three years in the making, with all important operations named after ancient heroes, the most significant of which was Operation Muromets, the very same operation that destroyed Avernus.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:That's why Anna came to Germany?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Yes. She arrived in Bremen on September 13th,  was handed over to Berlin on September 17th, and eventually transferred to Avernus on October 16th.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:Then "Daybreak" was also awakened around that time...
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Affirmative. Aliana was awakened on October 20th.
+NPC-Laplace(13)<Speaker>Laplace</Speaker><Position>80,0</Position>||:They made their move much earlier than we had expected.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...Apologies, the Bee Sting System was still flawed back then.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:I don't mean to blame you, but Project Cocoon is unfortunately hampered by this unexpected development. +Still, that's just the way it is with many things. Sometimes a breakthrough at a key juncture can save you ten years of work, while some seemingly insignificant errors can delay the research progress by a generation, or several generations, even.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:In any case, the "key" has manifested. Your experiment will surely succeed.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:Until we have the result, failure remains a possibility, even if we have a 99.99% chance of succeeding.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...But you are the greatest scientist of our time.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:...Am I? I'm not so confident. +The connection breakdown in the Lake of Cognition must have had a massive impact on you.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...The situation will be resolved soon. +As long as you are here, there is still hope for us.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:You're right, the upcoming experiment is of utmost importance. Not only will it validate decades of research and development, it will also shape the future of humanity.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:You will not be disappointed.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Nemhran hands over something else—it is a weekly newspaper. +The headline reads, "Manotti Attends Rossartre Memorial Exhibition at Goethe-Universitaet Frankfurt".
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Laplace takes the newspaper with an amused grin.
+NPC-Laplace(12)<Speaker>Laplace</Speaker><Position>80,0</Position>||:The most important skill a politician can master is the same as that for an actor. +They must be able to capture the masses' hearts and manipulate them. In this regard, we have been rather clumsy. +We only managed to hit the veins, not the heart itself.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Should I set up comms channel 42 for you?
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:No need. That old man doesn't see William as a son, but a pawn. We don't need to worry about other things. +As long as William returns with the precious material before the final experiment, everything will be fine.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:There are only two more weeks until the gentleman's deadline.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:That's a politician's timetable. +Our reactor needs time, and scientific progress is never determined by politics.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:And yet, science cannot be separated from politics.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:He didn't want the people of Frankfurt to miss the fireworks, so he made a point of pointing this out.
+NPC-Laplace(13)<Speaker>Laplace</Speaker><Position>80,0</Position>||:That's your problem.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...Understood. +Should we keep monitoring Pandora?
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:She has already fulfilled her purpose as the control of the experiment, so she's no longer useful to me. Do what you want with her.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:No problem.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:From now on, I'll be completely focused on the experiment. I don't want to be disturbed for any reason.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:As you wish.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:Leave these lab assistants behind and take everyone else with you. +I'm leaving everything to you.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:It is my pleasure.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM><BIN>710</BIN><黑屏2><common_effect>%%code=AVG_xiaxue%%</common_effect><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:法兰克福 美因河畔
-()<Speaker></Speaker>||:今天的法兰克福下了第一场雪。+雪花聚集得还不够大，只是轻巧如绒毛般飘落，点缀在枯萎的枝桠，行人的帽檐上。+环卫人形们也开始出动，将稍稍积起的雪从道路中间扫到边上，融化的雪把道路变得湿漉漉的。
-NPC_Embla_RPK(0)<Speaker>恩布拉</Speaker>||:呼——
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:恩布拉现在的呼吸开始有了白气。+她欣赏着美因河的风景，行走在匆忙行走的人群之中，感受拥挤。
-NPC_Embla_RPK(0)<Speaker>恩布拉</Speaker>||:明明时间紧得就像是濒临弦断的凡阿林，水一般流淌过乐章，人生稍不留神就流逝了。+但我却突然愿意花时间去享受。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:安洁，你好像从来不珍惜这种日子。+当然，肖也是。+你们比锁死程序的人形更加热爱自己的事业。+明明我也应该更加努力……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:恩布拉的脚步停下，匆忙的人群像河流一样从她身边奔涌而过。+她安静地望向街对面的餐馆，温暖的灯光像是某种神秘的召唤。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:……但现在，我却只想偷偷拥有一份享用早餐的时光。
+()<Speaker></Speaker>||:The Main, Frankfurt.
+()<Speaker></Speaker>||:Today, Frankfurt sees its first snowfall of the season. +The snowflakes are too light to gather, drifting down gently like tufts of fluff, settling on withered branches and the brims of passers-by's hats. +The sanitation Dolls have already started their work, sweeping the thin layer of snow from the middle of the roads to the side. The melting snow leaves the streets damp and glistening.
+NPC_Embla_RPK(0)<Speaker>Embla</Speaker>||:Phew...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Embla's breaths now form visible tendrils of white. +She walks among the hurried crowds, admiring the view of the Main and feeling the press of the throng around her.
+NPC_Embla_RPK(0)<Speaker>Embla</Speaker>||:My time is as tight as a violin string on the verge of snapping, as fleeting as a flowing melody. Life slips by just like that if I don't pay attention. +But here I am, suddenly happy to spend precious time savoring life.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:Ange, you never seemed to cherish days like this. +Neither did Shaw. +You two were more devoted to your work than Dolls bound by their programming. +I should probably work harder too...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Embla's steps come to a halt. The crowd surges past her like a rushing river. +She gazes quietly at a restaurant across the street. The warm light spilling out feels like a mysterious invitation.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:...But right now, all I want is to steal a moment for myself and enjoy a quiet breakfast.
 ()||<黑点1><关闭蒙版>:
-()<Speaker></Speaker>||<黑点2><BIN>313</BIN><SE1>AVG_Chimes</SE1><SE1>AVG_20Winter_Door_Open</SE1>:她响应了召唤，走过街道，来到了营业中的餐馆。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉开椅背，她慢慢坐下来，给自己点了一份巧克力榛果酱面包卷和一杯咖啡。
+()<Speaker></Speaker>||<黑点2><BIN>313</BIN><SE1>AVG_Chimes</SE1><SE1>AVG_20Winter_Door_Open</SE1>:In answer to the invitation, she crosses the street and enters the restaurant.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Pulling out a chair, she slowly sits down and orders herself a chocolate hazelnut roll and a cup of coffee.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:嘀嘀嘀。
-()<Speaker></Speaker>||:默莉朵的通讯响了一遍又一遍。+不知道谁给恩布拉的底气，她竟然选择慢悠悠地咀嚼起面包卷。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:在咽下面包卷，啜饮一口咖啡后，她终于接了。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||<BGM>GF_EV9_Story</BGM>:<color=#00CCFF>……恩布拉女士，帕拉蒂斯给你的自由是不是太多了？</color>
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>;NPC-MorridowNew(0)||:有吗？+我甚至觉得工作占用了我太多的私人时间。
-NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||:<color=#00CCFF>……你现在连任性这种缺点都学会了。</color>+<color=#00CCFF>果然连人类的劣根性也一并继承了呢。</color>
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>;NPC-MorridowNew(0)||:怎么会呢？+我只是学会了一些小小的偷懒而已。+你在乌尔利赫办公室的时候，应该完全能理解我这种不想上班的心情吧。
-NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||:<color=#00CCFF>抱歉哦，恩布拉女士。</color>+<color=#00CCFF>我那时的工作是负责给每个人制定死线。</color>+<color=#00CCFF>以及在死线即将抵达之际，每天打十个电话确认进度。</color>
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>;NPC-MorridowNew(0)||:难怪安洁喜欢你。
-NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||:<color=#00CCFF>安洁莉娅女士不需要死线，她通常会提前完成任务呢。</color>
-NPC_Embla_RPK(0)<Speaker>恩布拉</Speaker>;NPC-MorridowNew(0)||:是的，还会主动增加工作量。+每个老板都会喜欢的那种员工。
-NPC_Embla_RPK(0);NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||:<color=#00CCFF>这倒未必。</color>+<color=#00CCFF>毕竟她可能会给自己开出其他需求，和团队目标背道而驰的那种。</color>
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>;NPC-MorridowNew(0)||:人类真是有趣的生物啊。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||:<color=#00CCFF>寒暄到此为止。</color>+<color=#00CCFF>该回家了，尼梅兰在等你。</color>+<color=#00CCFF>她需要你确定最终的方案。</color>+<color=#00CCFF>这就是那种最让人放心的下属，和最让人讨厌的上司。</color>
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:……遵命，死线小姐。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:Beep-beep-beep.
+()<Speaker></Speaker>||:The comms request from Morridow pings repeatedly. +Feeling an inexplicable boldness, Embla decides to ignore the call and keep chewing leisurely on her roll.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:After swallowing the bite and taking a sip of her coffee, she finally picks up.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||<BGM>GF_EV9_Story</BGM>:<color=#00CCFF>...Frau Embla, is Paradeus giving you too much freedom?</color>
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>;NPC-MorridowNew(0)||:You think so? +I actually feel like work is taking up too much of my personal time as it is.
+NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||:<color=#00CCFF>...Now you've even learned to be self-indulgent.</color> +<color=#00CCFF>You have truly inherited all the worst traits of humanity.</color>
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>;NPC-MorridowNew(0)||:How could that be? +I've merely mastered the art of slacking off. +Surely you can understand the feeling of not wanting to work, having worked in Ulrich's office yourself.
+NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||:<color=#00CCFF>Sorry to disappoint, Frau Embla.</color> +<color=#00CCFF>My job was setting deadlines for everyone else.</color> +<color=#00CCFF>And calling people ten times a day to check their progress as their deadlines approached.</color>
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>;NPC-MorridowNew(0)||:I can see why Ange took a liking to you.
+NPC_Embla_RPK(1);NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||:<color=#00CCFF>Frau Angelia didn't need deadlines; she usually finished her tasks early.</color>
+NPC_Embla_RPK(0)<Speaker>Embla</Speaker>;NPC-MorridowNew(0)||:Indeed. She would even take on extra work. +Exactly the kind of employee that any boss would love.
+NPC_Embla_RPK(0);NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||:<color=#00CCFF>That's not necessarily true.</color> +<color=#00CCFF>After all, she would sometimes set extra tasks for herself that were at odds with the team's objective.</color>
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>;NPC-MorridowNew(0)||:Humans are such fascinating creatures.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||:<color=#00CCFF>Right, enough small talk.</color> +<color=#00CCFF>Time to come home. Nemhran is waiting for you.</color> +<color=#00CCFF>She needs you to confirm the final plan.</color> +<color=#00CCFF>See, she's the kind of dependable employee that bosses would love and the kind of annoying boss that subordinates would hate.</color>
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:...Understood, Miss Deadline.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<BIN>356</BIN><黑屏2><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:法兰克福郊区 安全屋
-()<Speaker></Speaker>||:这是一间不起眼的安全屋，里面看似空无一人，然而在阴影处，能看见点点的荧光。+那是把自己藏起来的AK-12。+但显然有人非要破坏这种平静。
-()<Speaker></Speaker>||<BGM>Campaion-70</BGM><SE1>AVG_tele_connect</SE1>:滴——
-M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>AR-18她们暂时无法进城，需要你去接应一下史蒂文斯520，这是她的通讯代码。</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:忤逆不会和别人一起行动。
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>……那个女人手里有你要的东西。</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……是你要我提前进入法兰克福在这里待命的原因？
-M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>没错，多余的话我想你也不需要。</color>+<color=#00CCFF>但是12，鸵鸟行为不该是你的作风，这不是我了解的忤逆。</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:忤逆不需要向任何人证明自己。
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>是吗？12，那你在害怕什么？</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>我知道你有你的计划，但RPK的事情不是你一个人可以解决的。</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:这是忤逆自己的事情。+不需要其他人来指手画脚。
-M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>没人想要插手，只是你没必要因为害怕，而拒绝和AR-18的沟通。</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:害怕这个词不存在于我的设定里。
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>那你到底在逃避些什么？</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>你是害怕RPK的背叛另有苦衷？</color>+<color=#00CCFF>还是在刻意躲避安洁的死？</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>你害怕看见那个人，害怕看见那具尸体，害怕既想杀了对方又担心自己对对方手下留情？</color>
-NPC-AK12Mod#隐身(14)<Speaker>AK-12</Speaker>||:别把你们那种AR小队的复杂情感投射在我的身上。+……我不会生成这种过于矫饰的情绪。
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>真的吗？</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:我只是单纯觉得恶心。
-M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>醒一醒，那不是安洁，也不是RPK-16。</color>+<color=#00CCFF>那是不该存在于此世的罪恶。</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……你搞错了，16。+我对RPK不存在手下留情的可能，我再次见到她的时刻，就是她死亡之时。+而安洁……+没有人比我了解安洁到底是怎么死的！+没有人比我更了解！+我早就知道那不过是一具尸体！+真正的安洁早就死了！+死在“穆罗梅茨行动”的晚上！死在指挥官决定救她的时刻！+她有很多次机会可以走，但她拒绝离开。+她同意进行那个实验！她亲手决定了自己的死亡！
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>……那你就更加应该执行她的遗愿。</color>+<color=#00CCFF>12，她要阻止的事情，只有你可以做到。</color>+<color=#00CCFF>那你还在犹豫什么？你还在逃避什么？</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……我只是恶心我自己。+恶心过去的我，恶心现在的我，恶心将来的我。+过去的无能，现在的丑陋，以及未来的……失望。
-M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>怎么，失去了肖给你的素体，就不配成为忤逆的“头狼”了吗？</color>
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……
-M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>你可真是个懦夫。</color>+<color=#00CCFF>只是仗着肖的技术横行无忌。</color>+<color=#00CCFF>这种心智才没资格成为忤逆的“头狼”。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴——+不等AK-12回答，M16A1已经挂断了电话。
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她看向自己的手，那已不是人形的通用构造。+那是一具产自帕拉蒂斯的，不知诞生于何，不知融合于何的东西。
+()<Speaker></Speaker>||:In a safe house on the outskirts of Frankfurt.
+()<Speaker></Speaker>||:The safe house is unremarkable and seemingly empty at first glance, but the faint glimmers of light in the shadows reveal a presence. +It is AK-12, quietly hiding. +Yet, the peace isn't meant to last.
+()<Speaker></Speaker>||<BGM>Campaion-70</BGM><SE1>AVG_tele_connect</SE1>:Click.
+M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>AR-18's squad can't make it into the city just yet. You'll need to rendezvous with Stevens M520. Here's her comms code.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:DEFY doesn't work with others.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>...She has what you need.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...Is this why you had me deploy early to Frankfurt?
+M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Correct. I'll spare you an unnecessary lecture.</color> +<color=#00CCFF>But burying your head in the sand isn't like you, AK-12. That's not the DEFY I know.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:We don't need to prove ourselves to anyone.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Really? Then what are you afraid of?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>I know you have your plans, but the matter concerning RPK-16 isn't something you can handle alone.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:This is DEFY's internal problem. +I don't need others meddling in it.
+M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>No one's trying to interfere. But shutting out AR-18 because of fear? That's unnecessary.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:Fear is a concept that doesn't exist in my programming.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Then what are you running from?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Are you afraid that RPK-16's betrayal had deeper motives?</color> +<color=#00CCFF>Or are you refusing to acknowledge Ange's death?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>You're scared of seeing RPK-16. Scared of seeing that body. Scared that you'll want to kill her but hesitate when the moment comes.</color>
+NPC-AK12Mod#隐身(14)<Speaker>AK-12</Speaker>||:Don't project the emotional entanglements of your AR Team onto me. +...I don't generate such convoluted and melodramatic emotions.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Really?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:I'm just disgusted.
+M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Wake up. That isn't Ange, nor is it RPK-16.</color> +<color=#00CCFF>It is an abomination that has no place in this world.</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...You're mistaken, M16. +I will not hesitate to kill RPK-16. She will draw her last breath the next time I see her. +As for Ange... +No one knows how she died better than me! +No one! +Of course I know it's just a corpse! +The real Ange died long ago! +On the night of Operation Muromets, right when the Commander decided to save her! +She had so many chances to leave, but she refused! +She agreed to that experiment! She sealed her own fate!
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>...Then all the more reason to fulfill her final wish.</color> +<color=#00CCFF>Only you can stop what she was trying to prevent, AK-12.</color> +<color=#00CCFF>So why are you hesitating? Why are you running away?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...I'm disgusted with myself. +I'm disgusted with my past, present, and future. +My past incompetence, my present hideousness, and my future... disappointment.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>What, you think losing the frame that Shaw gave you makes you unworthy of being the Alpha Wolf of Task Force DEFY?</color>
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...
+M16A1BOSS(3)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>You're such a coward.</color> +<color=#00CCFF>Relying solely on Shaw's technology to do as you please.</color> +<color=#00CCFF>This kind of mindset is what makes you an unworthy leader of DEFY.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. +Before AK-12 can respond, M16A1 terminates the call.
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AK-12 looks down at her hands. Her frame does not even have the standard form that Dolls are constructed in. +It is a monstrosity created by Paradeus—something of unknown origin and purpose.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><回忆><BIN>510</BIN>:阿佛那斯 高层实验室
-RPK16_Nyto(0)<Speaker>RPK16</Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>0.5</CGDelay>:
-RPK16_Nyto(0)<Speaker>RPK16</Speaker>||:12，这是我为你选择的素体。+如果你想要报仇，想要离开阿佛那斯，那么这是唯一的选择。+因为这里即将被摧毁，而我要带着安洁离开。
+()<Speaker></Speaker>||<黑屏2><回忆><BIN>510</BIN>:In a laboratory on the upper levels of Avernus.
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>0.5</CGDelay>:
+RPK16_Nyto(0)<Speaker>RPK-16</Speaker>||:12, this is the frame that I've picked out for you. +If you want to leave Avernus alive and seek vengeance, it is your only option. +Because this place is about to be destroyed, and I must get out of here, taking Ange with me.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BIN>356</BIN><关闭蒙版>:
-()<Speaker></Speaker>||:原本为了遮蔽丑陋的肢体，她将绷带缠了一圈又一圈。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:但现在的AK-12，一点点将手臂上的绷带拆了下来。+就像傀儡在挣脱自己背后的丝线。
-NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:……我当然是忤逆的“头狼”，才不是被人操控的傀儡。+就算是傀儡，我也会折断背后的枷锁。
+()<Speaker></Speaker>||:To cover up her hideous frame, she has wrapped herself up in bandages.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:But now, AK-12 starts unraveling the bandages on her arm little by little. +Like a puppet breaking free of the strings that control it.
+NPC-AK12Mod#隐身(12)<Speaker>AK-12</Speaker>||:...I am the Alpha Wolf of Task Force DEFY, not a puppet dancing to someone else's tune. +Even if I were a puppet, I would break free of my shackles.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>566</BIN><BGM>BGM_Empty</BGM>:帕拉蒂斯临时基地
-()<Speaker></Speaker>||<BGM>GF_22W_BGM_1</BGM><SE1>AVG_21Winter_FT_Heel</SE1>:尼梅兰走入大厅，视线转向面前齐聚的白色少女们。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||<SE1>Stop_AVG_loop</SE1>:接下来，“茧计划”由我全盘接手。+第一件事，把你们手下的所有单位召回法兰克福。
-()<Speaker></Speaker>||:布拉梅德发出一声短促的讥笑，随即做作地打量着修好的指甲。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:……哼。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:默莉朵，正是你在柏林的精彩表现，导致“茧计划”不得不拖延至今。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:今非昔比了，尼梅兰姐姐，我在柏林有那么多人手，尚且出现失误，那么法兰克福呢？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:如果你懂得动脑子，就该知道质量远比数量重要。
-()<Speaker></Speaker>||:默莉朵眯着眼睛，笑意冷肃。+布拉梅德则笑盈盈围观着这场交锋。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:我想，在阿佛那斯，父亲大人已经说得很清楚了。+这一次法兰克福的行动将由我全权负责，你还有什么疑问吗？
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:为了父亲大人，我当然——愿意听从尼梅兰姐姐的指挥。+只是……
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:对于接下来的计划，还有疑问吗？
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:尼梅兰姐姐，容我为您盘点一下现状——+首先，现在具备独立作战能力的只有你、我和布拉梅德。随着总部的坠落，我们损失的高级作战单位可不止格雷、娜希斯、缇、纱那。+第二，识底深湖的容器已被摧毁，我们短时间内无法大规模生产作战单位。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:这些情况我早已知晓。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:第三，在这样的条件下，我们不仅要重新执行之前阿佛那斯的任务，还要再次启动“茧计划”。+这有可能吗？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:你只需要确认任务，不需要探讨可行性。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:尼梅兰姐姐……我希望你知道一件事。+重建比毁灭要难得多，是非常多，尤其在这样的情况下——
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:人手我会想办法。+但该做的事情并不会就此停下。+我们在德国境内还有多处据点，现在立刻调集所有在运转工厂的资源。
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:插一句话，我建议你们俩都克制一下自己的小爱好~+现在不是可以随便捏死黑白涅托的时候了。+每一个干活的人，都弥足珍贵呢~
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:你是在对我表达不满吗？
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:我只是劝诫一下而已。+娜希斯和缇已经捡不回来了，早知道应该给格雷收收尸的，她对“茧计划”可比我熟悉多了，这时候还能派上些用场。+尼梅兰姐姐，你说能想办法，那什么时候人手才能到位呢？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:先按照我说的去盘点阿佛那斯的物资和法兰克福的储备。+确认运转逻辑之后，要补多少我自有道理。+我记得柏林和不莱梅的“茧计划”备用工厂并没有全部被毁灭。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:还有一些备份。+但是我从柏林回阿佛那斯比较匆忙，有些东西还在格雷那边。+包括工厂物资、研究资料还有我们的线人联络方式，我要重新启动权限盘查。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:既然到了法兰克福，权限我会全部重新调整。+当年从莫斯科撤回的时候，我留了些人在这边。+现在最重要的事情就是整理和盘点，我需要在两天内完成。+能做到吗？
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:那恩布拉呢？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:她只需要执行好“万圣节之夜”。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:知道了，我会清点柏林和不莱梅的资产。
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:……话说我很好奇。+上一个版本的“茧计划”中，默莉朵姐姐，你是第一负责人吗？
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:……尼梅兰姐姐，这是可以分享的话题吗？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:布拉梅德，这不是你该过问的事情。+管好你自己的部分。
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:……我只是觉得在法兰克福，我们居然没有对应的高级涅托。+这不符合尼梅兰姐姐的行事风格。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:这里不是阿佛那斯，我希望大家能够收起那些无聊的心思。+光是把父亲大人安排下来的工作完整地做完，你们几个就应该已经连说闲话的功夫都不会有。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:如果这是父亲大人的要求，我们自然会遵从。
-()<Speaker></Speaker>||:默莉朵和布拉梅德正准备退下……
-()<Speaker></Speaker>||<BIN>183</BIN><白屏2><SE1>AVG_Tinnitus</SE1><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:嗡——
+()<Speaker></Speaker>||<黑屏2><BIN>566</BIN><BGM>BGM_Empty</BGM>:Paradeus' temporary base.
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_1</BGM><SE1>AVG_21Winter_FT_Heel</SE1>:Nemhran enters the hall and directs her gaze at the white-clad girls gathered in front of her.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||<SE1>Stop_AVG_loop</SE1>:From now on, I'll be taking charge of Project Cocoon. +First things first—recall all units under your command to Frankfurt.
+()<Speaker></Speaker>||:Bramedb snorts out a laugh, then proceeds to inspect her nails with exaggerated concentration.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:...Humph.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Morridow, it was all thanks to your spectacular performance in Berlin that Project Cocoon had to be delayed.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Things are not what they used to be, Sister Nemhran. I had so many subordinates back in Berlin, and still mistakes happened. What am I supposed to do here in Frankfurt?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:If you knew how to work that brain of yours, you would know that quality matters far more than quantity.
+()<Speaker></Speaker>||:Morridow smiles coldly with narrowed eyes. +Meanwhile, Bramedb watches the exchange with an amused smile.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:I believe Father has made himself plenty clear in Avernus. +I will be fully in charge of the operation in Frankfurt. Any questions?
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:For Father's sake, I will, of course, obey your command. +However...
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Do you have any questions regarding our subsequent plans?
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Sister Nemhran, allow me to review the current situation for you. +First of all, you, me, and Bramedb are the only ones left with the ability to fight independently. With the fall of our headquarters, we have lost way more advanced combat units than just Gray, Narciss, Grig, and Sana. +Secondly, the vessel for the Lake of Cognition has been destroyed, so we cannot mass-produce combat units for a while.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:I am well aware.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Thirdly, working under these circumstances, not only do we have to resume our previous mission in Avernus, we also have to reactivate Project Cocoon. +Is that even possible?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:You just need to confirm your mission. There is no need to explore its feasibility.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Sister Nemhran... I just want you to know one thing. +Rebuilding something is much more difficult than destroying it. MUCH more. Especially under such circumstances—
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:I will find a way to resolve our manpower shortage. +But we have to carry on with what needs to be done. +We still have plenty of bases in Germany. Start mobilizing the resources of all the factories still in operation immediately.
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:As a sidenote, I suggest the two of you rein in your little hobby~ +This is not a good time to be killing low-tier Nytos for sport. +Every able body is very valuable right now~
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Are you expressing dissatisfaction with my leadership?
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:Just giving some friendly advice. +There's no way of retrieving Narciss or Grig. In hindsight, I should've collected Gray's corpse. She was much more familiar with Project Cocoon than me, so she would have been useful. +Sister Nemhran, you said you'll find a way to get more manpower, but how long will it take for our manpower to be ready for work?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Follow my instructions and start by taking inventory of our leftover supplies from Avernus and reserves in Frankfurt. +Once I have more input, I will have a better idea about how many resources we will need to replenish. +If memory serves, not all of the auxiliary factories for Project Cocoon in Berlin and Bremen have been destroyed.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:There are also backups. +Since I left Berlin for Avernus in such a hurry, some of the things are still with Gray. +That includes factory supplies, research materials, and our informants' contact information. I will need to restart the authorization check.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Now that we've made it to Frankfurt, I will readjust all authorizations. +When I withdrew from Moscow many years ago, I left some people there. +Our priority right now is to take stock and organize everything in our possession. I need this done in two days. +Can you do it?
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Sure. What about Embla?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:She just has to take care of "All Hallows' Eve".
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Alright, I will take stock of our assets in Berlin and Bremen.
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:...Say, I'm curious. +In the previous iteration of Project Cocoon, were you the PIC, Sister Morridow?
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:...Sister Nemhran, is this information I can divulge?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Bramedb, this doesn't concern you. +Just focus on doing your part.
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:...I just find it odd that we don't have a corresponding high-tier Nyto in Frankfurt. +That's a bit unlike you, Sister Nemhran.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:This isn't Avernus, so please put aside your pointless speculation. +Just completing the work assigned by Father should keep you so busy that you won't have time for gossip. 
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:If it is what Father asks of us, we will naturally obey.
+()<Speaker></Speaker>||:Morridow and Bramedb are just about to take their leave...
+()<Speaker></Speaker>||<BIN>183</BIN><白屏2><SE1>AVG_Tinnitus</SE1><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:Whummmmm...
 ()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><BIN>566</BIN><震屏3><SE1>AVG_XXS_kick</SE1><BGM>11335</BGM>:刺耳的噪声像海浪一样将两人掀倒在地，连尼梅兰也微微踉跄了几步。+在如此不同寻常的巨大噪声中，她们都意识到有些东西被永久性地改变了。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position><Shake>||:……
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker><Shake>||:怎么回事？我们被入侵了？
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><Shake>||:不……远没有这么简单……
-()<Speaker></Speaker>||:默莉朵还想说些什么，但话语无法从颤抖的嘴唇中抖出。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……+识底深湖没有了。
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:阿佛那斯坠落的时候，不就没了吗？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:福音枢椎没了，只是中断了我们和识底深湖的链接。+但是现在，识底深湖已经彻底消亡了，你明白吗？
-NPC-Bramedb(3)<Speaker>布拉梅德</Speaker>||:……
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:谁能做到这样的事……连父亲大人也……
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:不知道，现在识底深湖的情况始料未及。+我们接下来的所有计划都必须调整。+这部分我去安排。
-()<Speaker></Speaker>||:尼梅兰稳了稳心神，看向脸色惨白的两人。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……优先转移和保护实验室。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:尼梅兰来不及说更多的话，匆匆离开了大厅。
+()<Speaker></Speaker>||<白屏2><BIN>566</BIN><震屏3><SE1>AVG_XXS_kick</SE1><BGM>11335</BGM>:The piercing noise topples the two Nytos to the ground like a wave. Even Nemhran staggers slightly under the force. +Amidst the assault of such an unusual and deafening noise, they all realize that something has changed irrevocably.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position><Shake>||:...
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker><Shake>||:What was that? Did we get hacked?
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker><Shake>||:No... it's not as simple as that...
+()<Speaker></Speaker>||:Morridow is about to continue, but her quivering lips refuse to utter the words.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:... +The Lake of Cognition is gone.
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:Wasn't it already gone when Avernus fell?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:We lost the Evangel Axis, which only severed our connection with the Lake of Cognition. +But now, the Lake is completely obliterated. Do you understand?
+NPC-Bramedb(3)<Speaker>Bramedb</Speaker>||:...
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Who could do such a thing...? Even Father...
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:I don't know. This is utterly beyond my calculations. +All our future plans will have to be adjusted. +I will handle that.
+()<Speaker></Speaker>||:Nemhran gathers her wits and looks at the two pale and frazzled Nytos.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...Make it your priority to relocate and protect the laboratory.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker>||:Yes, Sister Nemhran.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nemhran wastes no time and rushes out of the hall.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>566</BIN>:……半小时后。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>其他实验室的材料和器材已经转移完毕，实验室人员正在转移中，预计十分钟后全部撤离基地。</color>+<color=#00CCFF>现在只剩下最后那间实验室了，我无权进入。</color>
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:我知道，我会负责……那间实验室。+你们把场景布置好，注意不要遗留任何我们的痕迹。
-NPC-MorridowNew(0)<Speaker>默莉朵</Speaker><通讯框>||:<color=#00CCFF>是。</color>+<color=#00CCFF>还有，恩布拉就位了。</color>+<color=#00CCFF>需要你批准她的进入权限。</color>
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:尼梅兰走到屏幕前，调出了基地外的监控。+画面中，等得百无聊赖的恩布拉笑眯眯地冲监控探头挥了挥手。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker><通讯框>||:<color=#00CCFF>尊敬的尼梅兰姐姐，烦请帮我开下门吧。</color>
-()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:尼梅兰为她打开了基地大门，在视线抽离屏幕的最后一刻，尼梅兰猛地察觉到了——
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position><Shake>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:……后面！
-()<Speaker></Speaker>||<BGM>GF_22W_BGM_4</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:呯——
-()<Speaker></Speaker>||:在尼梅兰按下关门控制的瞬间，AK-15已经击碎了屋檐下的监视器，并同时将恩布拉撞进了门内！
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake><CGDelay>0.7</CGDelay><SE1>Explode</SE1>:轰——
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:恩布拉从硝烟中轻盈地翻滚，进到了基地范围内。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:哎呀，被尾巴跟上了。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……+继续转移不要停。+其他涅托准备迎敌。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>566</BIN>:...Half an hour later.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>All materials and instruments have been transferred from the other labs. We are now in the process of transporting the staff. They will be departing from the base in ten minutes.</color> +<color=#00CCFF>All that's left is the lab that I cannot access.</color>
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Understood. I will take care of... that lab. +Clean up the site, don't leave behind any traces.
+NPC-MorridowNew(0)<Speaker>Morridow</Speaker><通讯框>||:<color=#00CCFF>Alright.</color> +<color=#00CCFF>Also, Embla is back.</color> +<color=#00CCFF>She needs you to approve her entry.</color>
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Nemhran walks over to the monitors and pull up the feed of the surveillance camera outside the base. +In the feed, Embla, who is slightly bored from waiting, waves at the camera with a smile.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker><通讯框>||:<color=#00CCFF>Dear Sister Nemhran, please open the door for me.</color>
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:Nemhran opens the main entrance of the base. Just as she is about to look away from the monitor, she suddenly realizes—
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position><Shake>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:...Behind you!
+()<Speaker></Speaker>||<BGM>GF_22W_BGM_4</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:Bang!
+()<Speaker></Speaker>||:The moment Nemhran activates the door control mechanism, AK-15 shatters the surveillance camera under the eaves and knocks Embla into the door.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake><CGDelay>0.7</CGDelay><SE1>Explode</SE1>:Boom!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Embla tumbles lightly through the smoke and into the base.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:Oops, I seem to have picked up a tail.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:... +Keep moving, don't stop. +Other Nytos, prepare for combat.
+()||<黑点1>:

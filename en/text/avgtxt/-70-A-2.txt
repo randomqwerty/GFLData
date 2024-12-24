@@ -1,161 +1,161 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>485</BIN><黑屏2><narrator>:……2064年10月23日凌晨，污染区RHB _2047，“死海”边境。+划破浓厚的迷雾，驶出阿佛那斯的“艾莫号”终于在等候它多时的人们面前，显现出了庞大的轮廓。+但是这里没有鲜花，也没有欢呼，迎接它的只有一群身着防护服人们的有序与沉默。
+()<Speaker></Speaker>||<BIN>485</BIN><黑屏2><narrator>:...Early morning, October 23rd, 2064. On the border of the "Dead Sea", Contamination Zone RHB_2047. +The Elmo's enormous silhouette finally emerges from the heavy fog around Avernus as it drives up to a party that has been awaiting its arrival for some time. +However, there are no flowers or cheers, only a group of silent and orderly people wearing hazmat suits.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker>斯塔西特工</Speaker>||<BIN>683</BIN><黑屏2><BGM>BGM_23S_Crossroads_Warrior</BGM>:主管，“艾莫号”已被我们全面接管，请指示。
-NPC-Romy(4)<Speaker>罗密</Speaker>||:……
-()<Speaker></Speaker>||:在技术人员的操作下，“艾莫号”的所有权限限制都已被解除，可以在其间不受阻碍地移动。
-NPC-Romy(4)<Speaker>罗密</Speaker>||:检索生命痕迹和最近使用记录。
-()<Speaker>斯塔西特工</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:斯塔西的人形们涌入艾莫号的各个角落，罗密则坐在指挥室中静静等待。
-LS26(0)<Speaker>伊迪斯</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>蕾芬斯塔尔女士，“艾莫号”上没有任何人类……</color>
-NPC-Romy(4)<Speaker>罗密</Speaker>;LS26(0)||:……知道了。
-NPC-Romy(4);LS26(0)<Speaker>伊迪斯</Speaker><通讯框>||:<color=#00CCFF>我们已经把这辆“艾莫号”翻了个底朝天。</color>+<color=#00CCFF>10分钟前，自动驾驶模式启动后，车内安保监控录像就被全部删除。</color>+<color=#00CCFF>车库内所有的吉普车均已失去定位，由于使用记录被格式化，无法确认是战损还是被盗走。</color>+<color=#00CCFF>此前，我们已经部署监控了污染区RHB_2047外围的全部通路，他们不可能在眼皮底下逃走。</color> 
-NPC-Romy(4)<Speaker>罗密</Speaker>||:还有什么发现？
-NPC-Romy(4);TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>格里芬的精英人形和抓获的帕拉蒂斯高级单位也全部不见了。</color>+<color=#00CCFF>现在只剩下一些被锁在修理槽里的人形，我们暂时无法唤醒她们。</color>
-NPC-Romy(7)<Speaker>罗密</Speaker>;TFQ(0)<通讯框>||:……+封锁所有消息，你们全部留守“艾莫号”。
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position><通讯框>||:<color=#00CCFF>遵命。</color>
-()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:滴滴滴——+法兰克福时间，凌晨4点40分的闹钟响起。+来自秘书费恩•霍夫曼的日程提醒——
-()<Speaker></Speaker>||<SE1>AVG_21Winter_FT_Heel</SE1>:罗密不再犹豫，起身从指挥室中离开。
+()<Speaker>Stasi Agent</Speaker>||<BIN>683</BIN><黑屏2><BGM>BGM_23S_Crossroads_Warrior</BGM>:Chief, we have completed the takeover of the Elmo. Please provide further directives.
+NPC-Romy(4)<Speaker>Romy</Speaker>||:...
+()<Speaker></Speaker>||:After the technicians' tinkering, all access restrictions on the Elmo have been lifted, and the vehicle can now travel freely.
+NPC-Romy(4)<Speaker>Romy</Speaker>||:Search for bio signs and recent operation logs.
+()<Speaker>Stasi Agent</Speaker>||:Yes, ma'am.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The Stasi Dolls surge into every corner on board the Elmo while Romy waits quietly in the ops room.
+LS26(0)<Speaker>Edith</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Frau Riefenstahl, there are no humans on board the Elmo...</color>
+NPC-Romy(4)<Speaker>Romy</Speaker>;LS26(0)||:...Understood.
+NPC-Romy(4);LS26(0)<Speaker>Edith</Speaker><通讯框>||:<color=#00CCFF>We've turned the Elmo upside down and looked through every nook and cranny.</color> +<color=#00CCFF>All interior CCTV footage was wiped after the autopilot was activated ten minutes ago.</color> +<color=#00CCFF>The jeeps in the garage cannot be located. As the operation logs have been formatted, we can't determine whether they were lost in battle or stolen.</color> +<color=#00CCFF>However, we have already placed checkpoints on all exits along the perimeter of Contamination Zone RHB_2047 beforehand; there's no way for them to give us the slip.</color> 
+NPC-Romy(4)<Speaker>Romy</Speaker>||:What else have you found?
+NPC-Romy(4);TFQ(0)<Speaker>Dagmar</Speaker><Position>0,60</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>The elite Griffin Dolls and the high-end Paradeus unit in their custody are all unaccounted for.</color> +<color=#00CCFF>All that remains is a few Dolls locked inside their repair tanks. We haven't been able to wake them yet.</color>
+NPC-Romy(7)<Speaker>Romy</Speaker>;TFQ(0)<通讯框>||:... +Don't let any word about this get out. You all stay and guard the Elmo.
+TFQ(0)<Speaker>Dagmar</Speaker><Position>0,60</Position><通讯框>||:<color=#00CCFF>Yes, ma'am.</color>
+()<Speaker></Speaker>||<SE1>AVG_Card_Reader</SE1>:Beep-beep-beeep. +The alarm clock starts ringing at 0440 Frankfurt time. +It is a reminder set by her secretary Finn Hoffmann.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_FT_Heel</SE1>:Romy gets up and leaves the ops room without any hesitation.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>741</BIN>:密闭的轿车后座里，光线昏暗，几乎听不到窗外的风噪声。+通讯器屏幕的幽光映照在罗密的脸上，她掐着指尖的一支烟，并不急于点燃。
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我一直在联络将军的秘书长库尔特先生，无论何时何地，对方都表示施魏因施泰格将军的预约时间已满。</color>+<color=#00CCFF>党内大会的时间依旧待定，主席那边表示这次依旧不会出席，请副主席和奥贝斯坦先生代替发言。</color>+<color=#00CCFF>因为今年您已经转任了国家安全部部长，除去之前惯例参加的部长会议和国务委员会之外，国防委员会也将为您开放，时间我已经安排进行程了。</color>+<color=#00CCFF>……此外，那场会议的方案还没有最终敲定，外交部定下的期限快要到了，但是奥贝斯坦先生还没有给答复。</color>+<color=#00CCFF>以上，是本周跟进中的事件。</color>
-NPC-Romy(4)<Speaker>罗密</Speaker>||:……法兰克福的事情进度怎么样了？
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>已经按照您的吩咐，拟定好了相关条例，通知发送给内务部和交通部，今天17点会正式开始执行。</color>
-NPC-Romy(4)<Speaker>罗密</Speaker>||:上午9点我会抵达法兰克福。+14点的例会你安排别人去，帮我约一下财政部的人。+回复一下奥贝斯坦的留言，下周的党会我不会缺席。
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>好的，罗密女士。</color>
-NPC-Romy(4)<Speaker>罗密</Speaker>||:“艾莫号”和迦拉提亚的事情你留意一下，派八部、十九部和二十部的人盯着。+告诉Q，“北极熊”要她亲自审，回头让她自己向我汇报。+所有外派全部调回，提醒一下三个副部长，年终评定要来了。
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>好的，罗密女士。</color>+<color=#00CCFF>接下来的行程我已经设置好了提醒闹钟，请放心休息一会儿。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:罗密挂断了通讯，将手中的香烟点燃。+她看着窗外逐渐明亮起来的夜色，不由得眯上了眼睛。+现在，她需要抓住每一分钟时间休息，因为在法兰克福，一场新的风暴正在酝酿。
+()<Speaker></Speaker>||<黑屏2><BIN>741</BIN>:The enclosed backseat of the sedan is dark and so quiet that one can barely hear the wind howling outside. +Romy's face is lit by the faint light on her communicator. She fiddles with a cigarette, seemingly in no hurry to light it.
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>I have been trying to get in touch with the general's secretary, Herr Kurt, but his response is always that General Schweinsteiger's diary is fully booked.</color> +<color=#00CCFF>The time of the party conference is still to be determined. The chairman has already declared that he would not be attending this time and asked the vice-chairman and Herr Oberstein to speak on his behalf.</color> +<color=#00CCFF>Since you took up the position as the director of the Ministry for State Security this year, in addition to the ministerial meeting and the State Council that you have routinely participated in before, the National Defense Council will now be open to you as well. I have put that into your diary.</color> +<color=#00CCFF>...In addition, the plan for that meeting has not been finalized. The deadline set by the Ministry of Foreign Affairs is fast approaching, but Herr Oberstein still has not responded.</color> +<color=#00CCFF>That sums up everything for the week so far.</color>
+NPC-Romy(4)<Speaker>Romy</Speaker>||:...And how is the matter in Frankfurt progressing?
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>As per your instructions, the relevant regulations have been drafted and sent to Internal Affairs and the Ministry of Transport. They will be implemented at 1700 today.</color>
+NPC-Romy(4)<Speaker>Romy</Speaker>||:I will arrive in Frankfurt at 0900. +Have someone else attend the routine meeting at 1400 for me, and get me an appointment with the folks at the Ministry of Finance. +Send a reply to Oberstein, tell him I'll definitely be there at the party conference next week.
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>Sure thing, Frau Riefenstahl.</color>
+NPC-Romy(4)<Speaker>Romy</Speaker>||:Monitor the situation regarding the Elmo and Galatea closely. Get some eyes from Departments 8, 19, and 20. +Tell Q to interrogate the "Polar Bear" herself, then have her report her findings to me. +Recall all dispatched agents and remind the three deputies that their year-end review is just around the corner.
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>Yes, ma'am.</color> +<color=#00CCFF>I have set reminder alarms for your upcoming appointments. Please go ahead and rest for a while.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Romy terminates the call and lights the cigarette between her fingers. +She watches the sky brighten gradually outside the car window with squinted eyes. +Now she must get all the rest she can, because a new storm is brewing in Frankfurt.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><CGDelay>0.7</CGDelay>:E51高速公路上。
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><CGDelay>0.7</CGDelay>:On European route E51.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>730</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>GF_21winter_avg_nightbar</BGM>:一辆普通的白色轿车驶入主干道，戴着白色鸭舌帽的人形沉默地握住方向盘，副驾上的人扯了扯被安全带勒住的领带。
-NPC-Keven(6)<Speaker>J</Speaker>||:几点了？
-NPC-Keven(6);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:现在是东一区法兰克福时间2064年10月23日上午11点47分，星期四。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-SCAR-H(0)||:还有多久啊？
-NPC-Keven(7);Sterling(0)<Speaker>斯特林</Speaker>||:J探员，我们离开柏林还不到两小时。+现在差不多才到一半的路，还没过魏玛。
-NPC-Keven(12)<Speaker></Speaker>;Sterling(0)||<SE1>Rope</SE1>:J恼火地将领带揉成一团。
-NPC-Keven(12)<Speaker>J</Speaker>||:见鬼的法兰克福！一想到要回去开会，我就想死。+告诉我，为什么特工还要开会？！
-()<Speaker></Speaker>||:人形们默契地各自进入忙碌状态，仿佛同时接打十几个工作电话，根本无暇应对同僚的牢骚。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J对着空气咂了咂嘴，注意到连阿玛瑞丝也无视了自己，他赌气似的将座椅靠背调到最低，戴上不知道从哪里掏出来的眼罩和耳塞。
-PPQ(0)<Speaker>布里吉特</Speaker><Shake>||:喂，你挤到我了！
-NPC-Keven(8)<Speaker>J</Speaker>;PPQ(0)||:我睡一觉，你们都别吵我！
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_nightbar</BGM>:A nondescript white sedan drives along the highway. A Doll wearing a white cap grips the steering wheel in silence, while the man sitting in the passenger's seat tugs at his tie, which is caught in his seatbelt.
+NPC-Keven(6)<Speaker>J</Speaker>||:What's the time?
+NPC-Keven(6);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:It is currently 1147, UTC +1, Frankfurt time, October 23rd, 2064. The day is Thursday.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-SCAR-H(0)||:How much longer will it take to get there?
+NPC-Keven(7);Sterling(0)<Speaker>Sterling</Speaker>||:Agent J, it hasn't even been two hours since we left Berlin. +We're only about halfway there. We haven't even reached Weimar.
+NPC-Keven(12)<Speaker></Speaker>;Sterling(0)||<SE1>Rope</SE1>:J scrunches up his tie in great frustration.
+NPC-Keven(12)<Speaker>J</Speaker>||:Verdammtes Frankfurt! Just the thought of going to the meeting makes me wanna die. +Tell me, why do special agents even have to attend such meetings?!
+()<Speaker></Speaker>||:The Dolls are all suddenly very busy with their own things, as if they have just received a dozen work calls and got no time for their colleague's gripes.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:J clicks his tongue in annoyance. When he realizes that even Amaris is ignoring him deliberately, he puts his seat back as far as it can go with quiet indignation and puts on an eye mask and earplugs that seems to have been conjured out of thin air.
+PPQ(0)<Speaker>Brigitte</Speaker><Shake>||:Hey, your chair is taking up my space!
+NPC-Keven(8)<Speaker>J</Speaker>;PPQ(0)||:I'm taking a snooze! Y'all shut up!
 NPC-Keven(8)<Speaker>J</Speaker>||<CGDelay>0.6</CGDelay>:
-()<Speaker></Speaker>||:短短几分钟，刚刚还在满腔牢骚的J发出了满足的鼾声。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:最吵的人终于闭嘴了。
-Sterling(0)<Speaker>斯特林</Speaker>||:我们可以不受干扰地聊一聊正经事了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:嗯？还有什么我不知道的任务情报吗？
-Sterling(0)<Speaker>斯特林</Speaker>||:不，和任务无关，是关于我们小队的组织架构调整和——
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:哎呀，听见这种词我就头疼，能不能说点人形通用语？
-Sterling(0)<Speaker>斯特林</Speaker>||:……+简单来说，就是我希望你来担任我们小队的队长。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:啊？！我？
-Sterling(0)<Speaker>斯特林</Speaker>||:是的，虽然我没有读取你档案的权限，但我听说过一些你的事迹，再加上你参加过三战的资历，我认为队长一职理应由你来担任。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:不不不……我才不要！
-PPQ(0)<Speaker>布里吉特</Speaker>||:为什么要拒绝？我们都认为你很合适。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:那是因为你们还不了解我，等再合作一段时间，你们就知道我的厉害咯~
-Sterling(0)<Speaker>斯特林</Speaker>||:好的，我们会拭目以待的。
-PPQ(0)<Speaker>布里吉特</Speaker>||:既然你希望亲自证明自己，那么我们也会全力配合的。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……你们一点玩笑都不懂的吗？
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Camera_Focus</SE1>:赶在斯特林打算继续劝导前，阿玛瑞丝拧开了车内的广播。
-()<Speaker>广播女声</Speaker>||<SE1>AVG_Jukebox</SE1>:<color=#00CCFF>……</color>+<color=#00CCFF>假使我悠然地躺在逍遥榻上偷安，</color>+<color=#00CCFF>那我的一切便已算完，</color>+<color=#00CCFF>你可用巧语花言，</color>+<color=#00CCFF>使我欣然自满，</color>+<color=#00CCFF>你可用享乐将我欺骗，</color>+<color=#00CCFF>那就是我最后的一天，</color>+<color=#00CCFF>我敢和你打赌这点！</color>+<color=#00CCFF>……</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:这是……《浮士德》？都是上上个世纪的歌剧了……
-Sterling(0)<Speaker>斯特林</Speaker>||:是的，至今仍然是经典。
-()<Speaker>广播女声</Speaker>||:<color=#00CCFF>……由传奇导演亨利•海因里希执导的经典歌剧《浮士德》，将于法兰克福老歌剧院再次上演。</color>+<color=#00CCFF>知名演员乌韦•赛博特、安格拉•舒曼、托马斯•克罗格、马克•伯切特等将为您奉上精彩的演出，敬请期待！</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:法兰克福老歌剧院……不是已经被炸毁了吗？
-PPQ(0)<Speaker>布里吉特</Speaker>||:重建好啦，听说和之前的一模一样。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:一模一样？
-()<Speaker></Speaker>||:阿玛瑞丝低低笑了起来。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:重建已经被毁灭的东西，不管再怎么相似，都不过是拙劣的模仿罢了。
+()<Speaker></Speaker>||:In just a few minutes, J has gone from grumbling to snoring happily.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:The windbag finally shut up.
+Sterling(0)<Speaker>Sterling</Speaker>||:Now we can finally talk serious business without getting interrupted.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Hm? Is there anything else I don't know about the mission?
+Sterling(0)<Speaker>Sterling</Speaker>||:No, it's not about the mission, but the organizational restructuring of our squad—
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Oof, fancy words like these give me a headache. Simple Doll language, please?
+Sterling(0)<Speaker>Sterling</Speaker>||:... +To put it simply, I would like you to take over as our squad leader.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:What?! Me?
+Sterling(0)<Speaker>Sterling</Speaker>||:Yes. Although I don't have the access clearance to read your profile, I've heard quite a bit about your past escapades. On top of that, you're a WWIII veteran, which makes you the most logical choice for the position to me.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:No, no, no... No thanks!
+PPQ(0)<Speaker>Brigitte</Speaker>||:Why are you turning it down? We all think you'll be perfect as squad leader.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:That's because you don't know me. After working with me for a bit longer, you'll know what a nightmare I actually am~
+Sterling(0)<Speaker>Sterling</Speaker>||:Sure, we look forward to working with you.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Since you're so eager to prove yourself, we'll do our best to keep up with you.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...You know what sarcasm is?
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Camera_Focus</SE1>:Before Sterling can say any more words of encouragement, Amaris turns on the radio in the car.
+()<Speaker>Female DJ</Speaker>||<SE1>AVG_Jukebox</SE1>:<color=#00CCFF>...</color> +<color=#00CCFF>When on an idler's bed I stretch myself in quiet.</color> +<color=#00CCFF>There let, at once, my record end!</color> +<color=#00CCFF>Canst thou with lying flattery rule me,</color> +<color=#00CCFF>Until, self-pleased, myself I see,—</color> +<color=#00CCFF>Canst thou with rich enjoyment fool me,</color> +<color=#00CCFF>Let that day be the last for me!</color> +<color=#00CCFF>The bet I offer.</color> +<color=#00CCFF>...</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Is that... "Faust"? That's an opera from two centuries ago, no...?
+Sterling(0)<Speaker>Sterling</Speaker>||:Yes, and it's still a classic to this very day.
+()<Speaker>Female DJ</Speaker>||:<color=#00CCFF>...The classic opera "Faust", directed by the legendary Henry Heinrich, will once again take to the stage in the Alte Oper in Frankfurt.</color> +<color=#00CCFF>You can look forward to a magnificent performance given by a star-studded cast, which includes Uwe Seibert, Angela Schumann, Thomas Kroeger, and Mark Burchett!</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:The Alte Oper in Frankfurt... Didn't that building get bombed to bits?
+PPQ(0)<Speaker>Brigitte</Speaker>||:It was rebuilt. Restored to exactly how it was before, apparently.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Exactly how it was?
+()<Speaker></Speaker>||:Amaris lets out a low chuckle.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:When you put something broken back together, no matter how close to the original you get, it will still be nothing more than a crude knockoff.
 ()||<黑屏1><CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>160</BIN>:法兰克福 国家安全部 医疗中心
-()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><SE1>ClothingUp</SE1>:病床上，一名金发男人昏迷未醒。穿着白大褂的医疗人员手持蝶形针，快速而平稳地插入肘静脉，血液涌向真空采血管。
-()<Speaker>医疗人员</Speaker>||:患者名字一栏写杜皮约？
-NPC-maya(2)<Speaker>Q</Speaker>||:嗯嗯，就用杜皮约吧，已经到总部就没有使用代号的必要了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_tableware</SE1>:松开止血带，利落地拔出针头，医疗人员将采血管贴上对应姓名标记，放入送检袋中。
-()<Speaker>医疗人员</Speaker>||:啧啧，看不出来，这种人的血居然也是红色的。+Q小姐，把他从边境带进法兰克福，花了你不少功夫吧？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q拿着平板不知道在看什么文件，时不时点点屏幕。
-NPC-maya(2)<Speaker>Q</Speaker>||:还要多谢你们科室提供的麻醉剂，效力上佳，为我省了不少事。
-NPC-maya(2)<Speaker>医疗人员</Speaker><同时置暗>||:那不如下班后请你喝杯咖啡？
-NPC-maya(0)<Speaker>Q</Speaker>||:啊？不应该是我请你喝杯咖啡吗？
-NPC-maya(0)<Speaker>医疗人员</Speaker><同时置暗>||:你会吗？
-NPC-maya(0)<Speaker>Q</Speaker>||:不会。
-NPC-maya(0)<Speaker>医疗人员</Speaker><同时置暗>||:啧啧，那我的邀请Q小姐可以接受吗？
-NPC-maya(1)<Speaker>Q</Speaker>||:建议你把咖啡钱直接打给我。+这样省去了你我还有咖啡店员的时间，更加高效节能。
-NPC-maya(1)<Speaker>医疗人员</Speaker><同时置暗>||:……Q小姐还是一如既往的冷漠啊。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:嘀嘀嘀——检测仪器发出轻鸣。
-()<Speaker>医疗人员</Speaker>||<SE1>ClothingUp</SE1>:我看看……体内没有发现芯片或信号收发器，生命体征也很平稳。+血液生化和毒物检查还需要点时间，等检测结果出来，我的人形助手艾莉莎会发到你的邮箱。
-()<Speaker></Speaker>||:Q的手微微顿了顿，眉头一敛抬起头来。
-NPC-maya(0)<Speaker>Q</Speaker>||:行。+连斯塔西的医疗助手都开始使用人形了吗？+不得不说，现在全世界都太过于依赖人形了。
-NPC-maya(0)<Speaker>医疗人员</Speaker><同时置暗>||:……毕竟人形钱少事多干活不会喊累还不需要休息。+上哪里找这么好的下属？
-NPC-maya(0)<Speaker>Q</Speaker>||:不，她们有一个致命缺点。
-NPC-maya(0)<Speaker>医疗人员</Speaker><同时置暗>||:嗯？
-NPC-maya(1)<Speaker>Q</Speaker>||:不方便背锅。
-NPC-maya(1)<Speaker>医疗人员</Speaker><同时置暗>||:……
-NPC-maya(2)<Speaker>Q</Speaker>||:这个人等会送去特殊审讯室。
-()<Speaker>医疗人员</Speaker>||:收到。
+()<Speaker></Speaker>||<黑屏2><BIN>160</BIN>:Medical Center, Ministry for State Security, Frankfurt.
+()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><SE1>ClothingUp</SE1>:A blond man lies unconscious on a bed. A medic in a white lab coat inserts a butterfly needle into the vein on his elbow with quick and smooth movements. Blood flows into the vacutainer blood collection tube.
+()<Speaker>Medic</Speaker>||:Do I put Dupieux as the patient's name?
+NPC-maya(2)<Speaker>Q</Speaker>||:Yeah, just put Dupieux. No point using his codename here at HQ.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_tableware</SE1>:The medic unties the tourniquet, pulls out the needle neatly, then sticks a label bearing the patient's name onto the tube and places the tube into a sample bag.
+()<Speaker>Medic</Speaker>||:Heh, hard to believe a man like this also sheds red blood. +It must've been quite difficult transporting him from the border into Frankfurt, Frau Q?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q is reading some kind of document on her tablet. She taps the screen every now and then.
+NPC-maya(2)<Speaker>Q</Speaker>||:Thanks to the anesthetics from your department. They were very effective and saved me a lot of trouble.
+NPC-maya(2)<Speaker>Medic</Speaker><同时置暗>||:Then why don't I treat you to a coffee after work?
+NPC-maya(0)<Speaker>Q</Speaker>||:Huh? Shouldn't I be the one treating you to a coffee?
+NPC-maya(0)<Speaker>Medic</Speaker><同时置暗>||:You'll do that?
+NPC-maya(0)<Speaker>Q</Speaker>||:Nope.
+NPC-maya(0)<Speaker>Medic</Speaker><同时置暗>||:Ouch. Then will you let me do the treating?
+NPC-maya(1)<Speaker>Q</Speaker>||:You should just send me the money for the coffee directly. +That'll save time for you, me, and the barista. Way more efficient that way.
+NPC-maya(1)<Speaker>Medic</Speaker><同时置暗>||:...Frau Q is as cold as ever.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:Beep-beep-beeeep. The lab instrument emits a soft noise.
+()<Speaker>Medic</Speaker>||<SE1>ClothingUp</SE1>:Let me see... No chips or signal transmitters detected in his body, and his vital signs are all stable. +The blood test and tox screen will take a bit more time. Once the results are out, I'll have my Doll assistant Alisa send it to your mailbox.
+()<Speaker></Speaker>||:Q's hand pauses slightly. She looks up with a frown.
+NPC-maya(0)<Speaker>Q</Speaker>||:Sure. +Is the Stasi hiring Dolls as medical assistants now? +I gotta say, the whole world has grown too reliant on Dolls.
+NPC-maya(0)<Speaker>Medic</Speaker><同时置暗>||:...I mean, Dolls are relatively cheap labor that work hard and never get tired. They don't even need rest. +Where can you find better employees?
+NPC-maya(0)<Speaker>Q</Speaker>||:Fair enough, but they have a fatal flaw.
+NPC-maya(0)<Speaker>Medic</Speaker><同时置暗>||:Hm?
+NPC-maya(1)<Speaker>Q</Speaker>||:They don't make good scapegoats.
+NPC-maya(1)<Speaker>Medic</Speaker><同时置暗>||:...
+NPC-maya(2)<Speaker>Q</Speaker>||:Move this guy to the special interrogation room later.
+()<Speaker>Medic</Speaker>||:Got it.
 ()<Speaker></Speaker>||<CGDelay>0.7/CGDelay><SE1>AVG_20Winter_Door_Open</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Q关闭通讯平板上的信息，默默地离开医疗中心，并带上了门。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Q closes the message on her comms tablet and leaves the medical center quietly, closing the door behind herself.
 ()||<黑点1><CGDelay>0.8</CGDelay>:
-()<Speaker></Speaker>||<黑点2><BIN>412</BIN><SE1>AVG_doorknock_wood</SE1>:叩叩——+经由秘书的指引，Q礼貌地敲了敲办公室的门。
-()<Speaker>罗密</Speaker>||:进来！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Q推门而入，此时罗密的通讯似乎已进入尾声。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:好的，非常感谢。乌尔利赫部长，我也很期待。+对了，还没恭喜你升职……那是自然，嗯，再见。+……
-()<Speaker></Speaker>||:结束通讯，罗密指尖敲了敲桌子。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:坐吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q拉开罗密对面的椅子，坐下。
-NPC-maya(2)<Speaker>Q</Speaker>||:老板，我来向您汇报本次任务，一共三件事。+第一，“北极熊”已秘密带回总部，刚完成第一轮常规生理检查，暂时没有发现异常情况，随时可以提审。+第二，“传道者”失约，没有前来接应“北极熊”，但是根据线索，可以锁定他的真实身份，是统一社会党党内的人。+第三，您让我在莫斯科查的那件事，已经有眉目了。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:行，我知道了。+第二个问题，我现在就能回答你——“传道者”死了，不用再操心他。
-()<Speaker></Speaker>||:Q点点头，有默契地不再继续这个话题。+因为她的老板，罗密•蕾芬斯塔尔，也是统一社会党的成员。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:“传道者”负责的“蜂针”系统，现在归我们了，我会将你添加到管理员名单。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q坐姿端正。
-NPC-maya(2)<Speaker>Q</Speaker>||:老板，恭喜恭喜！+现在斯塔西内没有人能拖您的后腿了。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:“太阳黑子”事件后，将军要求斯塔西重组，无论如何要给出一套完美的解决方案，科学技术部那帮人给出了这套设计。为了监视新苏联，“传道者”才策反了“北极熊”。+我们投入无数资金，花费无数人力的系统，不应该因为某些人的一己私欲，让遥控器掌握在外人手里。
-NPC-maya(2)<Speaker>Q</Speaker>||:老板，我是不是知道了什么不该知道的东西？
-NPC-Romy(0)<Speaker>罗密</Speaker>||:告诉你这些，就是要安排你后续的任务。+我已经把可用的人力全部调回法兰克福。+我对他们的要求只有一件事，给我把内务部那些混蛋想要插手的位置占住了。+活干得好坏无所谓，不能把位置让出来，明白吗？
-NPC-maya(2)<Speaker>Q</Speaker>||:遵命，老板。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:欠你的那顿饭，等忙完这一阵吧！
-NPC-maya(2)<Speaker>Q</Speaker>||:好的，这一顿我记下了。+不过，我还想问……+部里的同僚们看起来似乎对前途很是悲观，需要我干预一下吗？
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:罗密飞快在一份文件上签下名字，然后拿起下一份文件。
-NPC-Romy(0)<Speaker>罗密</Speaker>||:别把精力浪费在鼓舞看不清形势的糊涂虫身上。+前方是一场硬仗，帮我做好眼前的事即可。
-NPC-maya(2)<Speaker>Q</Speaker>||:好的。
+()<Speaker></Speaker>||<黑点2><BIN>412</BIN><SE1>AVG_doorknock_wood</SE1>:Knock, knock. +Following the directions given by the secretary, Q knocks politely on the office door.
+()<Speaker>Romy</Speaker>||:Enter!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Q pushes the door open and enters the office. Romy seems to be wrapping up a call.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Of course. Thank you very much. I'm also looking forward to it, Frau Ulrich. +Oh right, I still haven't congratulated you on your promotion... That goes without saying. Right. Auf Wiederhören. +...
+()<Speaker></Speaker>||:Romy hangs up. She drums her fingers on the desk.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Take a seat.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q pulls out the chair across from Romy and sits down.
+NPC-maya(2)<Speaker>Q</Speaker>||:Boss, I've come to give you my mission report. Three things altogether. +One, the "Polar Bear" has been brought back to HQ in secret. The first round of routine examinations has been completed; no abnormalities have been found so far, so he's ready to be interrogated. +Two, the "Evangelist" stood the "Polar Bear" up, but based on the clues, we have a pretty good idea about his true identity—he's a member of the Socialist Unity Party. +Three, the investigation you had me carry out in Moscow is going somewhere.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Alright, good to know. +Regarding your second point, I suppose I'll just tell you—the "Evangelist" is dead. You don't have to worry about him anymore.
+()<Speaker></Speaker>||:Q nods. She knows better than to press the subject. +Because her boss, Romy Riefenstahl, is also a member of the Socialist Unity Party.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:The Bee Sting System that the "Evangelist" was in charge of is now ours. I'll add you to the list of administrators.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q sits up straighter in her chair.
+NPC-maya(2)<Speaker>Q</Speaker>||:Congrats, Boss! +Now there's no one left in the Stasi who can hold you back.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:After the Sunspot Incident, the general demanded the Stasi to go through restructuring and put forth a solution no matter what it takes. This design is what the folks over at the Ministry of Science and Technology came up with. In order to spy on the Neo-Soviet Union, the "Evangelist"  turned the "Polar Bear" against them. +We have invested too much money and resources into this system, and we cannot let the remote control sit in the hands of outsiders just because of the selfish interests of a select few.
+NPC-maya(2)<Speaker>Q</Speaker>||:I have a feeling I shouldn't be learning about any of this?
+NPC-Romy(0)<Speaker>Romy</Speaker>||:I'm telling you about it because it concerns your subsequent mission. +I've already pulled every able body back to Frankfurt. +I only have one job for them—to fill up the positions that the bastards from Internal Affairs want to meddle with. +It doesn't matter how well they do in the positions, they simply mustn't free up any openings. Do you understand?
+NPC-maya(2)<Speaker>Q</Speaker>||:Loud and clear, Boss.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:I'll treat you to that dinner I owe you after this blows over.
+NPC-maya(2)<Speaker>Q</Speaker>||:Great, I'll hold you to it. +But I have another question... +Some of my colleagues seem rather pessimistic about the future. Should I do something about that? 
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Romy signs her name briskly on a document, then moves on to the next.
+NPC-Romy(0)<Speaker>Romy</Speaker>||:Don't waste your time and energy on trying to encourage fools who can't see the bigger picture. +It's going to be a tough battle ahead. Just focus on your task at hand.
+NPC-maya(2)<Speaker>Q</Speaker>||:Alright.
 ()||<黑屏1><CGDelay>0.7</CGDelay><SE1>AVG_20Winter_Door_Open</SE1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>553</BIN><黑屏2><SE1>AVG_20Winter_Door_Close</SE1>:Q走出罗密的办公室，随手带上门。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:站在原地，她回忆了一下最近调回法兰克福的特工名单，通过平板查询位置后——
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>553</BIN><黑屏2><SE1>AVG_20Winter_Door_Close</SE1>:Q leaves Romy's office and closes the door.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Still standing at the same spot, she tries to recall the list of agents that have recently been transferred back to Frankfurt. She looks up their locations using her tablet—
 NPC-maya(0)<Speaker>Q</Speaker>||:
-NPC-maya(0)<Speaker>Q</Speaker>||:……J那家伙怎么还没到？+是死在美因河了吗？这应该不算工伤吧？
+NPC-maya(0)<Speaker>Q</Speaker>||:...What's taking J so long to get there? +Did he drown in the Main or something? That wouldn't count as a work-related accident, would it?
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>710</BIN><BGM>GF_21winter_avg_nightbar</BGM>:龙门架上，一排摄像头对着车辆驶来的方向。+龙门架下是一面淡蓝色光幕，时时扫描着路过的所有车辆。+阿玛瑞丝把车开上了一座跨河铁桥，桥下正是水色空蒙的美因河。+而波光尽头依稀可辨的暗影——+巍峨矗立的铁塑雕像如天穹之下的普罗米修斯，簇拥着战争中几经风霜但从未熄灭的火种——新法兰克福。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:法兰克福怎么这么大？我记得以前不需要开这么久吧……
-Sterling(0)<Speaker>斯特林</Speaker>||:法兰克福为了确保其作为首都和城市州的地位，将附近的美因茨、威斯巴登、罗因海姆、新伊森堡、奥芬巴赫、埃施博恩等地都合并了，过去的法兰克福只有现在的法兰克福区那一片而已。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:斯特林认真地朗诵着手里的法兰克福宣传手册。
-Sterling(0)<Speaker>斯特林</Speaker>||:合并后法兰克福辖区面积扩大至800多平方公里，现在常住人口600多万。+因合并后的法兰克福像一颗跳动的心脏，所以现在的法兰克福被誉为“民主德国之心”。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:“民主德国之心”？还挺有意思的。
+()<Speaker></Speaker>||<黑屏2><BIN>710</BIN><BGM>GF_21winter_avg_nightbar</BGM>:On the gantry, a row of cameras are facing the direction of oncoming traffic. +Under the gantry hangs a pale blue screen that is constantly scanning all passing vehicles. +Amaris drives the car onto a steel bridge straddling a river—the misty Main. +A looming shape is vaguely discernible across the glistening water— +The towering iron statue is like Prometheus under the sky, guarding the fire that has been weathered by war but never extinguished—Neu-Frankfurt.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Since when has Frankfurt gotten so big? I don't remember having to drive this long before...
+Sterling(0)<Speaker>Sterling</Speaker>||:In order to preserve its status as the capital and a city-state, Frankfurt merged with nearby Mainz, Wiesbaden, Raunheim, Neu-Isenburg, Offenbach, Eschborn, and other places. The former Frankfurt is now known as the Frankfurt District.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Sterling eagerly reads aloud the relevant passage from the Frankfurt Guidebook in her hand.
+Sterling(0)<Speaker>Sterling</Speaker>||:After the merger, Frankfurt's jurisdiction area expanded to span more than 800 square kilometers, with a permanent population of more than six million. +Because the merged Frankfurt is like a beating heart, Frankfurt is now hailed as the "Heart of the German Democratic Republic".
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:The "Heart of the German Democratic Republic"? Fascinating.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>84</BIN>:转入城市公路，视线内的建筑陡然密集了起来。+一幢幢看起来充满上世纪格调的新建筑，偶尔夹杂着几座幸存的破旧老建筑，令这个在三战废墟上站起来的城市，显出少许醇厚的历史气息。+此时路上的车辆相当多，车流缓慢挪动着，红色尾灯亮起一串串长龙。
+()<Speaker></Speaker>||<黑点2><BIN>84</BIN>:As the car exits the highway and drives into the city, the buildings in sight are suddenly much denser. +New buildings built in the style of the last century are occasionally interspersed with ancient architecture that has survived through the ages, giving this city that rose from the ruins of WWIII a touch of historical flavor. +There are quite a lot of vehicles on the road at this time. The traffic is moving slowly, with red tail lights forming a long line.
 ()||<黑点1>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<黑点2><BIN>730</BIN>:不管变多大，法兰克福还是那么堵。+也不知道能不能按时赶到。
-PPQ(0)<Speaker>布里吉特</Speaker>||:迟到就迟到吧，反正扣的都是J探员的薪水。
-NPC-Keven(8)<Speaker>J</Speaker><Shake>||<SE1>AVG_XXS_kick</SE1><震屏3>:<size=50>什么扣薪水？！谁敢扣我薪水？！</size>
-()<Speaker></Speaker>||<SE1>AVG_Rain_Heavy</SE1>:嗡——一辆市政清洁车从辅道上驶过，喷洒高压水流的巨大轰鸣声完全盖过了J的声音。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:<size=50>你刚说什么？</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:惊醒过来的J摘下眼罩，从鼻孔里重重喷出一口气。
-NPC-Keven(12)<Speaker>J</Speaker>||:<size=50>好好开车！</size>
-NPC-Keven(12);NPC-SCAR-H(0)<Speaker></Speaker>||:阿玛瑞丝耸了耸肩。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你是发薪水的雇主，你说了算。
-NPC-Keven(9)<Speaker>J</Speaker><Shake>||<SE1>AVG_brake</SE1>:<size=50>唉哟——</size>
-()<Speaker></Speaker>||<震屏3>:滋——车子猛然刹住，三位人形稳稳坐着，J身体一晃差点扑到挡风玻璃上。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:前面出事故了。
-()<Speaker></Speaker>||:J探着头向前看，水汽干扰了人眼的能见度，J只能隐约看到前方大车歪斜的车身。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>Stop_AVG_loop</SE1>:右转车辆车胎打滑，撞上了洒水车，然后连环撞。+哦，还有刹车不及，追尾的。
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<黑点2><BIN>730</BIN>:However much Frankfurt has changed, the traffic is still horrendous as ever. +Heck knows if we can even make it there in time.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Who cares if we're late? They'll just dock Agent J's pay.
+NPC-Keven(8)<Speaker>J</Speaker><Shake>||<SE1>AVG_XXS_kick</SE1><震屏3>:<size=50>Dock my pay?! Who dares dock my pay?!</size>
+()<Speaker></Speaker>||<SE1>AVG_Rain_Heavy</SE1>:Vroom... A municipal cleaning vehicle drives past them along a frontage road, spraying a high-pressure jet of water so loud it completely drowns out J's voice.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:<size=50>What did you just say?</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Having jolted awake, J pulls off his eye mask and lets out a heavy huff.
+NPC-Keven(12)<Speaker>J</Speaker>||:<size=50>Just focus on driving!</size>
+NPC-Keven(12);NPC-SCAR-H(0)<Speaker></Speaker>||:Amaris shrugs.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:We're on your payroll, so whatever you say.
+NPC-Keven(9)<Speaker>J</Speaker><Shake>||<SE1>AVG_brake</SE1>:<size=50>Whoaaa!</size>
+()<Speaker></Speaker>||<震屏3>:Screeeech! The car brakes abruptly. The three Dolls remain securely seated; only J almost gets thrown against the windshield.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:There's been a collision up ahead.
+()<Speaker></Speaker>||:J cranes his neck for a better look. The water vapor in the air is obscuring the view. He can just about make out the chassis of a large vehicle lying on its side.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>Stop_AVG_loop</SE1>:A car turning right skidded and crashed into the street-cleaning vehicle, causing a multiple pile-up. +More cars not braking in time and rear-ending the cars in front.
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><SE1>AVG_20Winter_Horn_Car</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:本就流动缓慢的交通彻底停摆，焦躁的人们将情绪发泄在车内的喇叭上，霎时间响成一片。
-NPC-Keven(9)<Speaker>J</Speaker>||<CGDelay>0.5</CGDelay>:……
-()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1>:几分钟后，三辆救护车滴呜滴呜开了进来。+医疗人形鱼贯而出，查看现场，转运伤者。+J盯着窗外。
-NPC-Keven(10)<Speaker>J</Speaker>||:明天和意外，永远不知道哪一个会先来。
-NPC-Keven(10);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我只知道，以现在的路况，J，你绝对要迟到了。
-NPC-Keven(9)<Speaker>J</Speaker>;NPC-SCAR-H(0)||<SE1>AVG_Thunder_Dry</SE1><震屏3>:！
-()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:The already-slow traffic has ground to a total standstill. Restless drivers take their exasperation out on their car horns, and deafening honks instantly fill the air.
+NPC-Keven(9)<Speaker>J</Speaker>||<CGDelay>0.5</CGDelay>:...
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1>:A few minutes later, three ambulances arrive at the scene with their sirens blaring. +Paramedic Dolls file out of the ambulances. They quickly take stock of the situation and get to work triaging and moving the injured. +J stares out the window pensively.
+NPC-Keven(10)<Speaker>J</Speaker>||:You never know if tomorrow will ever come.
+NPC-Keven(10);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:All I know is that you're definitely gonna be late, J.
+NPC-Keven(9)<Speaker>J</Speaker>;NPC-SCAR-H(0)||<SE1>AVG_Thunder_Dry</SE1><震屏3>:!
+()||<黑点1>:

@@ -1,228 +1,228 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>713</BIN><BGM>11700</BGM>:法兰克福 法兰克福区 老铁桥
-()<Speaker></Speaker>||<BIN>721</BIN><震屏3><SE2>Gunfight</SE2><闪屏><duration>5</duration></闪屏>:枪声所向，桥上一盏昏黄的路灯炸裂，在这个阴沉的夜晚，为数不多的光亮又被漆黑吞没一点。+高大的人形侧立在坚硬的铁桥上，几乎与夜色融为一体。
-AK15MOD(0)<Speaker>AK-15</Speaker>||<SE1>AVG_weapon_reload</SE1>:RPK-16，回答我一个问题。
-()<Speaker></Speaker>||:寂静的夜中，河水徐徐流淌。+一向沉默的巨人手持武器瞄准了对方，那里曾经是心智核心所在的位置。+这是威胁，也是昔日同僚之情的最后一次呈现。+而对面的女人却露出微笑，一如既往的恶劣模样。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:……换个称呼吧，15，别再叫我RPK-16。+现在的我已经拥有一具人类的身体，理应也拥有一位人类的名字。+不是编号，不是代称，而是由姓氏与名字组成。+在古代贵族社会，一说出名字就能知晓这个人的来历，她隶属于哪个家族，隶属于何种身份，隶属于谁的历史。+因此，我给自己也按照这种模式取了一个名字。+恩布拉•彼得罗夫斯卡娅。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:怎么样，是不是跟安娜•维克多洛夫纳•崔一模一样了？
-()<Speaker></Speaker>||<SE1>Select</SE1>:作为回应，AK-15的枪口瞄准了人类的致命位置——心脏。
-AK15MOD(0)<Speaker>AK-15</Speaker>||:RPK-16永远是RPK-16。+……不论你变成什么样。
-AK15MOD(4)<Speaker>AK-15</Speaker>||:回答我——+为什么要做这一切？
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:太过漫长的解释不适合你，15。+忤逆的“头狼”回来了，你不是应该聆听她的指引，遵循她的意志吗？
-AK15MOD(4)<Speaker>AK-15</Speaker>||:我要你自己回答！
-()<Speaker></Speaker>||:恩布拉笑了笑，那笑容如此熟悉，又如此碍眼。
-()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:呯呯呯——！！！+夜幕之中，金属与弹头撞击的声音清脆而犀利，犹如交响声部的合奏。
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>713</BIN><BGM>11700</BGM>:Eiserner Steg, Frankfurt District, Frankfurt.
+()<Speaker></Speaker>||<BIN>721</BIN><震屏3><SE2>Gunfight</SE2><闪屏><duration>5</duration></闪屏>:A dim street lamp on the bridge explodes at the sound of the gunshot, further reducing the amount of light in this already gloomy night. +The statuesque Doll stands on the sturdy bridge, almost blending into the night.
+AK15MOD(0)<Speaker>AK-15</Speaker>||<SE1>AVG_weapon_reload</SE1>:RPK-16, answer me one question.
+()<Speaker></Speaker>||:In the silent night, the river flows on. +The behemoth of a Doll has her weapon trained on where a neural core used to reside. +It is a threat, but also one last show of their old friendship. +The woman, who is held at gunpoint, simply smiles, looking as wicked as ever.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:...You should call me by a different name, 15. I'm not RPK-16 anymore. +I now have a human body, so I should have a human name. +Not a serial number, not a designation, but a proper name—one with a first name and a surname. +In the old days of feudalism, one could immediately tell a person's background just from their name—the house they were born into, their status, the liege they served. +So I've given myself a name in the same fashion. +Embla Petrovskaya.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:What do you think? Kind of like Anna Viktorovna Tsoi, no?
+()<Speaker></Speaker>||<SE1>Select</SE1>:AK-15's only response is to aim her weapon at the most fatal spot on a human body—the heart.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:You will always be RPK-16. +...No matter what you turn into.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:Answer me— +Why?
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:You don't need a lengthy explanation, 15. +The Alpha Wolf of Task Force DEFY has returned. Shouldn't you be obeying her commands and carrying out her orders?
+AK15MOD(4)<Speaker>AK-15</Speaker>||:I want to hear the answer from you!
+()<Speaker></Speaker>||:Embla smiles again. A smile so very familiar, and so very irksome.
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:Bang-bang-bang!!! +In the night, metal and bullets collide, creating a symphony of crisp and sharp plinks.
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=4</controll_shake><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<BIN>722</BIN><闪屏><duration>5</duration></闪屏><SE1>AVG_pistol_finalshot_n</SE1>:恩布拉手中MP443射出的子弹在铁桥上横扫，有三盏路灯尽数熄灭。+AK-15看见了那把手枪，她的瞳孔里满是愤怒。
-AK15MOD(6)<Speaker>AK-15</Speaker>||:那是安洁的枪！
-()<Speaker></Speaker>||:AK-15猩红的眼眸在漆黑中犹如一缕火焰。
-()<Speaker></Speaker>||<SE1>Select</SE1>:她再度瞄准恩布拉。
+()<Speaker></Speaker>||<BIN>722</BIN><闪屏><duration>5</duration></闪屏><SE1>AVG_pistol_finalshot_n</SE1>:Bullets fired from the MP-443 in Embla's hand put out three street lamps on the bridge. +Seeing that pistol fills AK-15 with rage.
+AK15MOD(6)<Speaker>AK-15</Speaker>||:That's Ange's gun!
+()<Speaker></Speaker>||:Her crimson eyes burn like flames in the dark.
+()<Speaker></Speaker>||<SE1>Select</SE1>:She takes aim at Embla again.
 ()||<黑点1><SE1>AVG_Cloak_Whoosh</SE1>:
-()<Speaker></Speaker>||<BIN>9</BIN><bg_move>%%pivot_x=0.44%%pivot_y=0.4%%scale=2%%duration=0%%</bg_move><黑点2>:恩布拉毫不迟疑，双手抓住桥边缘的扶手，身体猛地旋转，直接翻身纵越跳下铁桥。
+()<Speaker></Speaker>||<BIN>9</BIN><bg_move>%%pivot_x=0.44%%pivot_y=0.4%%scale=2%%duration=0%%</bg_move><黑点2>:Without any hesitation, Embla grabs the railing of the bridge and vaults over it, leaping off the bridge in one smooth movement.
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>726</BIN><黑点2><SE1>Rope</SE1>:桥梁下，仅凭三根手指便牢牢地攀在铁桥边缘，恩布拉在风中摇晃，另一只手握着手枪。+或者说，她故意拿手枪瞄准AK-15。+这样的距离当然对恩布拉没有优势。+她这么做的理由显而易见。+因此，AK-15越是愤怒，她的笑容越是开心。
-AK15MOD(4)<Speaker>AK-15</Speaker>||:RPK！回答我！
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:你打算怎么做呢？像之前说的那样，把我抓回去吗？+可是，现在的我已经无法被读取或者删除记忆了。
-NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:AK-15，现在的我，是人类。+是像安洁，像肖那样的人类。
+()<Speaker></Speaker>||<BIN>726</BIN><黑点2><SE1>Rope</SE1>:She dangles in the wind on the underside of the bridge, gripping the edge of the structure tightly with only three fingers and still holding onto her gun with the other hand. +She aims the pistol at AK-15. +She is clearly at a disadvantage at this range. +But her reason for doing so is obvious. +The more incensed AK-15 is, the more widely she grins.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:Answer me, RPK!
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:What's the plan here? Are you still going to drag me back? +But my memory can no longer be accessed or wiped.
+NPC_Embla_RPK(1)<Speaker>Embla</Speaker>||:AK-15, I am now a human. +A human just like Ange, just like Shaw.
 ()<Speaker></Speaker>||:
 ()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><bg_move>%%pivot_x=0.35%%pivot_y=0.45%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=4</controll_shake><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<BIN>727</BIN><闪屏><duration>5</duration></闪屏><SE1>AVG_pistol_finalshot_n</SE1>:呯！呯！
-()<Speaker></Speaker>||:两声枪响同时响起，恩布拉的目标依旧是脆弱的路灯，而AK15则将子弹射向了她。+黑暗吞噬了光，AK-15的眼眸却并不受到影响。尽管铁桥上陷入了一片昏黑，但倘若RPK翻身上桥，她依然能够看见。
-()<Speaker></Speaker>||<controll_shake>%%type_id=3%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>ClothingUp</SE1>:刹那间，AK-15如一道闪电划过铁桥，向恩布拉的位置逼近！
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:恩布拉脚下发力，轻盈向左翻越，但人类的速度怎么比得过AK-15，几乎一眨眼的功夫，白獒已扑向猎物，獠牙毕露。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><震屏3><SE1>AVG_Punch_Hit</SE1>:恩布拉双臂回护，试图荡开抓来的手，却仿佛被一辆坦克撞上，整个身体飞了出去！
-NPC_Embla_RPK(0)<Speaker>恩布拉</Speaker><Shake>||:嘶——！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:双臂传来巨痛，下一刻AK-15已掐向她的脖子！
-()<Speaker></Speaker>||:恩布拉眼睛一眯，扬手撒出什么东西。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><BIN>9</BIN>:砰！+一股黑烟弥散炸开！
-()<Speaker></Speaker>||<SE1>AVG_ElecSpace</SE1>:嘟嘟嘟嘟嘟嘟嘟嘟嘟——+迅速触发了警报器！
+()<Speaker></Speaker>||<BIN>727</BIN><闪屏><duration>5</duration></闪屏><SE1>AVG_pistol_finalshot_n</SE1>:Bang! Bang!
+()<Speaker></Speaker>||:Two gunshots ring out simultaneously. Embla fires at yet another street lamp, while AK-15's bullet is headed straight for Embla. +Darkness engulfs the light, but AK-15's sight is not the least bit affected. Even though the bridge is now plunged in darkness, if RPK-16 vaults back onto the bridge, she will be able to see her perfectly.
+()<Speaker></Speaker>||<controll_shake>%%type_id=3%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>ClothingUp</SE1>:AK-15 suddenly dashes across the bridge like a flash of lightning and makes a beeline for Embla.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Embla launches herself lightly off to the left, but her human body has no hope of matching AK-15's speed. In just the blink of an eye, the White Mastiff is already pouncing on her prey with her sharp fangs bared.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><白屏2><震屏3><SE1>AVG_Punch_Hit</SE1>:Embla tries to brace herself against the oncoming attack, but she is still sent flying, as if she has been hit by a tank.
+NPC_Embla_RPK(0)<Speaker>Embla</Speaker><Shake>||:Ugh!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Paralyzing pain shoots through her arms, and the next moment, AK-15's hands are already closing in around her neck.
+()<Speaker></Speaker>||:Embla's eyes narrow as she throws something out.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><BIN>9</BIN>:Bang! +A cloud of black smoke erupts instantly.
+()<Speaker></Speaker>||<SE1>AVG_ElecSpace</SE1>:Beep-beep-beep-beep-beep-beep-beep! +An alarm is immediately triggered.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><BIN>723</BIN><黑点2>:
-AK15MOD(6)<Speaker>AK-15</Speaker>||:……！
-()<Speaker></Speaker>||:黑烟消散，恩布拉已经不在原地。
-()<Speaker></Speaker>||:此时南岸的警察终于发现铁桥上的打斗，立刻举起对讲机呼叫支援，碎步小跑着移动过来。+AK-15不得不离开。
-()<Speaker></Speaker>||:我的名字，就是答案。
-()<Speaker></Speaker>||:这是她留下的最后一句话。
+AK15MOD(6)<Speaker>AK-15</Speaker>||:...!
+()<Speaker></Speaker>||:By the time the smoke dissipates, Embla is nowhere to be found.
+()<Speaker></Speaker>||:The police on the south bank finally notice the skirmish on the bridge and are calling for backup on the radio as they make their way to the scene. +AK-15 is forced to leave.
+()<Speaker></Speaker>||:"The answer is in my name."
+()<Speaker></Speaker>||:That is the last thing Embla said before disappearing.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1><BGM>BGM_23S_Crossroads_Warrior</BGM><黑屏2><BIN>727</BIN><CGDelay>1.4</CGDelay>:
-AK15MOD(3)<Speaker>AK-15</Speaker>||<SE1>AVG_tele_connect</SE1>:……这里是AK-15。+我在美因河畔的铁桥上发现了RPK-16。+让她逃了。
-AK15MOD(3);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>这里是AN-94。</color>+<color=#00CCFF>请说明遭遇目标后的情况。</color>
-AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)<通讯框>||:……+目标被发现后，我们迅速交手。
-AK15MOD(0)<Speaker>AK-15</Speaker>||:被她抓住了漏洞，逃入了人群密集区，那里到处是监控和警用人形。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:AK-15紧紧攥住手中半个巴掌大的墨绿色布片。+那是黑雾炸开时，她从那个女人身上割下来的唯一收获。
-AN94MOD(4)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>按照计划，你应该在发现她的第一时间通知我。</color>
-AK15MOD(5)<Speaker>AK-15</Speaker>;AN94MOD(4)<通讯框>||:……抱歉。
-AK15MOD(5);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>你没受伤吧？</color>
-AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)<通讯框>||:没有。
-AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>先撤回来吧，如果继续交手，一定会惊动警方。</color>
-AK15MOD(0)<Speaker>AK-15</Speaker>||:嗯。
+AK15MOD(3)<Speaker>AK-15</Speaker>||<SE1>AVG_tele_connect</SE1>:...This is AK-15. +I encountered RPK-16 on the Eiserner Steg. +She got away.
+AK15MOD(3);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>This is AN-94.</color> +<color=#00CCFF>Please give me a summary of your run-in.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)<通讯框>||:... +After spotting the target, I engaged her in combat.
+AK15MOD(0)<Speaker>AK-15</Speaker>||:She took advantage of an opening and escaped into the crowd. There were CCTV cameras and Police Dolls everywhere.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:AK-15's fingers tighten around the piece of dark green fabric half the size of her palm. +It is the only thing that she managed to slice off the woman when the smoke grenade exploded.
+AN94MOD(4)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>You should have notified me the moment you saw her.</color>
+AK15MOD(5)<Speaker>AK-15</Speaker>;AN94MOD(4)<通讯框>||:...Sorry.
+AK15MOD(5);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Are you injured?</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(0)<通讯框>||:No.
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Withdraw for now. The police will be alerted if we go after her again.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>||:Right.
 AK15MOD(3)<Speaker>AK-15</Speaker>||<CGDelay>0.6</CGDelay>:
-AK15MOD(5)<Speaker>AK-15</Speaker>||:她变了很多。
-AK15MOD(5);AN94MOD(3)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>……15，她已经不再是……原来的RPK-16了。</color>
-AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(3)<通讯框>||:94，RPK-16说恩布拉•彼得罗夫斯卡娅是她的回答。+这是什么意思？
-AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>彼得罗夫斯卡娅……是肖的姓氏。</color>
-AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>萨曼莎•肖只是一个代号，她的原名是叶卡捷琳娜•瓦西列夫娜•彼得罗夫斯卡娅。</color>
-AK15MOD(5)<Speaker>AK-15</Speaker>||:……
+AK15MOD(5)<Speaker>AK-15</Speaker>||:She's changed a lot.
+AK15MOD(5);AN94MOD(3)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>...15, she is no longer... the RPK-16 that we knew.</color>
+AK15MOD(0)<Speaker>AK-15</Speaker>;AN94MOD(3)<通讯框>||:She said the answer was in her name—Embla Petrovskaya. +What did she mean?
+AK15MOD(0);AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Petrovskaya... is Shaw's real surname.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>"Samantha Shaw" is just an alias. Her actual name is Yekaterina Vasilievna Petrovskaya.</color>
+AK15MOD(5)<Speaker>AK-15</Speaker>||:...
 ()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>356</BIN><Night>:法兰克福郊区 安全屋
-()<Speaker></Speaker>||:夜色已深，室内并没有亮灯，AN-94坐在桌前调试零件，听着通讯中AK-15罕见的有些情绪的声音。
-AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>……</color>+<color=#00CCFF>肖的事情……12没有说。</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>；AK15MOD(0)||:从阿佛那斯回来之后，她也变了很多。
-AN94MOD(0);AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……为什么不告诉我？</color>
-AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(4)||:15，我觉得她只是无法接受……安洁的死。
-AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……</color>
-AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(5)||:以及RPK-16的背叛。+她一直为此深深自责……+假如她没有把队长权限转给16，而是换给你或者我。+也许事情会完全不同。
-AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……不会。</color>
-AN94MOD(3);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>只要我们还信任她，就没有任何变化。</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(0)||:是的。+但这并不能抵消她的自责。
-AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>||:因为她是我们的“头狼”。+给她一点时间吧，15。+总有一天，她会亲自向我们解释发生的一切。
-AN94MOD(0);AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>什么时候？</color>+<color=#00CCFF>安洁死的时候她明明就在身边！</color>+<color=#00CCFF>如果是我……</color>
-AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(4)||:……15。
-AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>我不要新的指挥官。</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(5)||:……
-AN94MOD(0);AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>也不要新的队友。</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>||:……巧的是，我们都一样。+今天我去新苏联大使馆见了安全局的人，他们让我们尽量低调。+希望我们在这里原地待命，等待安全局的下一步指示。
-AN94MOD(0);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……</color>+<color=#00CCFF>我们是忤逆。</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(0)||:是啊，12也是这么说。
-AN94MOD(0);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……肖的身上到底发生了什么？</color>
-AN94MOD(0)<Speaker>AN-94</Speaker>||:肖已经失踪两年了……+按12的说法，她死了。
-AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>……</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:嘀——通讯结束。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:AN-94转头看着安全屋里藏身于阴影处的人。
-AN94MOD(3)<Speaker>AN-94</Speaker>||<BGM>2022_white_valentine_BGM2</BGM>:……你为什么不亲自跟她说。
-AN94MOD(0)<Speaker>AN-94</Speaker>||:12。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><GradientShow>2</GradientShow>||:……
-AN94MOD(0)<Speaker>AN-94</Speaker>||:总有一天，你会适应这具素体。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:……
-AN94MOD(0)<Speaker>AN-94</Speaker>||:12，你现在是在赌气吗？
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:……
-AN94MOD(4)<Speaker>AN-94</Speaker>||:你是队长，忤逆的“头狼”，是绝对不会迷茫的存在。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:……+我并不迷茫，我比任何时候都清醒。
-AN94MOD(4)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:这样说可能会有些冒犯……但你在逃避，12。
-AN94MOD(4);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:……+94，如果魔鬼能满足你所有的欲望，你愿意出卖灵魂吗？
-AN94MOD(3)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:……如果能让安洁回来，能让忤逆恢复到以前。+我会这么做的。+我愿意这么做。
-AN94MOD(4)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:如果现在这是我能为忤逆做的唯一一件事。+12，我会愿意这么做的。
-AN94MOD(4);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:94，你还记得那个万圣节吗？
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:我们一起玩过的游戏……
-AN94MOD(0)<Speaker>AN-94</Speaker>||:那个进行到一半的游戏？+怎么了？
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:当时你拿到的是什么？
-AN94MOD(0)<Speaker>AN-94</Speaker>||:是“安洁”。
-()<Speaker></Speaker>||:黑暗中再没有声音。
+()<Speaker></Speaker>||<黑屏2><BIN>356</BIN><Night>:In a safe house on the outskirts of Frankfurt.
+()<Speaker></Speaker>||:It is late at night, but the lights are not on. AN-94 is sitting at a desk, calibrating her parts while listening to AK-15 speak through the comms channel with uncharacteristic emotion.
+AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>...</color> +<color=#00CCFF>12 never told me... anything about Shaw.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>；AK15MOD(0)||:She has also changed a great deal after coming back from Avernus.
+AN94MOD(0);AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...Why didn't she tell me?</color>
+AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(4)||:I think she's having trouble accepting... Ange's death.
+AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...</color>
+AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(5)||:And RPK-16's betrayal. +She is blaming it all on herself.. +If she hadn't transferred her command authorizations to 16... If she had handed them over to you or me... +Things might have turned out differently.
+AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...That's not true.</color>
+AN94MOD(3);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>Nothing will change as long as we still trust her.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(0)||:You're right. +But that doesn't make her feel any less guilty.
+AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||:Because she is our Alpha Wolf. +Give her some time, 15. +One day, she will explain everything to us.
+AN94MOD(0);AK15MOD(4)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>When?</color> +<color=#00CCFF>She was right there when Ange died!</color> +<color=#00CCFF>If it had been me...</color>
+AN94MOD(3)<Speaker>AN-94</Speaker>;AK15MOD(4)||:...15.
+AN94MOD(3);AK15MOD(5)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>I don't want a new commander.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(5)||:...
+AN94MOD(0);AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>Or a new partner.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||:...Well, we're all on the same page about that. +I met with StateSec at the Neo-Soviet embassy today. They told us to keep a low profile. +We are to stand by and wait for further directives.
+AN94MOD(0);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...</color> +<color=#00CCFF>We are Task Force DEFY.</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>;AK15MOD(0)||:Yes, 12 said the same thing.
+AN94MOD(0);AK15MOD(0)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...What actually happened to Shaw?</color>
+AN94MOD(0)<Speaker>AN-94</Speaker>||:Shaw has been missing for two years... +12 believes that she's dead.
+AK15MOD(3)<Speaker>AK-15</Speaker><通讯框>||:<color=#00CCFF>...</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. The call ends.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>ClothingUp</SE1>:AN-94 turns to look at the Doll lurking in the shadows in the safe house.
+AN94MOD(3)<Speaker>AN-94</Speaker>||<BGM>2022_white_valentine_BGM2</BGM>:...Why didn't you talk to her yourself?
+AN94MOD(0)<Speaker>AN-94</Speaker>||:12?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><GradientShow>2</GradientShow>||:...
+AN94MOD(0)<Speaker>AN-94</Speaker>||:Someday, you will get used to this frame.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:...
+AN94MOD(0)<Speaker>AN-94</Speaker>||:Are you sulking, 12?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:...
+AN94MOD(4)<Speaker>AN-94</Speaker>||:You are our leader, the "Alpha Wolf" of Task Force DEFY. You never lose your way.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:... +I have not lost my way. I am more sure of myself than I have ever been.
+AN94MOD(4)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:It may be a bit presumptuous for me to say... but you're running away, 12.
+AN94MOD(4);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:... +94, if the Devil can satisfy all your heart's desires, will you sell your soul?
+AN94MOD(3)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:...If he could bring Ange back and restore DEFY to the way it used to be... +I would. +In a heartbeat.
+AN94MOD(4)<Speaker>AN-94</Speaker>;NPC-AK12Mod(11)||:If it were the only thing I could do for DEFY right now... +I would do it.
+AN94MOD(4);NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:Do you still remember that Halloween?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:The game we played together...
+AN94MOD(0)<Speaker>AN-94</Speaker>||:The one that we never finished? +What about it?
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:What word did you get back then?
+AN94MOD(0)<Speaker>AN-94</Speaker>||:"Ange".
+()<Speaker></Speaker>||:No one speaks again in the darkness.
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:法兰克福 斯塔西总部 4号审讯室
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:幽深的审讯室内，低沉的喘息声时有时无，束缚双手的镣铐不断发出金属碰撞的响声。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:Interrogation Room 4, Stasi HQ, Frankfurt.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:In the gloomy interrogation room, someone's low, labored breathing can be heard. A pair of hands struggle to break free from the cuffs restraining them, making the metal jiggle.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<Night><睁眼><BIN>158</BIN>:金发男子睁开眼，发现自己仍旧被拷在连着地板的金属座椅上。
-()<Speaker></Speaker>||:长时间仰着头昏睡，让他的脖子完全僵住了。+此时身体一动，酸胀刺痛得让人恨不得脚趾抓地大叫几声。+黑暗里，筋疲力尽的杜皮约似乎在等待着什么。
-()<Speaker></Speaker>||<BGM>GF_21summer_avg_SecretAgent</BGM><关闭蒙版><白屏2><SE1>AVG_21Winter_Open_Light</SE1>:啪。+刺目的白光瞬间将房间充满，杜皮约眯起了眼睛，双眼被刺激得渗出了泪水。+模糊的视野中，他依稀看到对面的位置上坐了一个人。
-NPC-maya(2)<Speaker>Q</Speaker>||:现在感觉怎么样？+……新苏联卢比杨卡大厦前第一总局局长，未来的委员会主席团副主席，杜皮约上校。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:嘶……+你在讽刺我吗？
-NPC-maya(2)<Speaker>Q</Speaker>||:我只是单纯地好奇，即将高升的杜皮约上校为什么要着急逃离圣彼得堡呢？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:……你明知道那是找个借口让我去莫斯科送死。+我的身份已经暴露，我是你们斯塔西安插在新苏联的间谍。+其余的事情，想知道就叫你们老大来。+你这种普通特工，没有资格。
-NPC-maya(1)<Speaker>Q</Speaker>||:……抱歉，如果你这么喜欢这里的话，那可以等到她有空。+唔，也不是太久，大概半年左右吧，你能接受吗？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker><Shake>||:你！！！
-NPC-maya(0)<Speaker>Q</Speaker>||:“太阳黑子”事件因为某位前辈的叛逃导致斯塔西的情报对新苏联来说是透明的。+就是在那个时间之后，“传道者”奉命前去策反你，对吧？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:……我在莫斯科的暴露，难道仅仅是因为你们斯塔西的内斗？+这么多年了，斯塔西的办事水平还是令人作呕。
-NPC-maya(2)<Speaker>Q</Speaker>||:说起整顿职场，上校你才是更专业的那一个。+明明你的兄长也是一位克格勃，他甚至拿了荣誉勋章，而你是因为他殉职才能进入卢比杨卡。+我很好奇，你为什么要加入我们？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:也许斯塔西是一种可以选择的职业。+但克格勃不是。+只要卢比杨卡选择了你，你就是克格勃。
-NPC-maya(2)<Speaker>Q</Speaker>||:所以说强迫干活没有好下场。+所有的纷争最后都是合同问题。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:你到底想要知道什么。
-NPC-maya(2)<Speaker>Q</Speaker>||: “传道者”失约了，但我们不会。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:“传道者”会失约，跟你们逃不开关系。
-NPC-maya(2)<Speaker>Q</Speaker>||:你有没有想过，向卢比杨卡出卖你的，可能是你以为永远不会出卖你的……那些“非人”的生物？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q用手指在桌面上画了两个小小的叉，杜皮约眼皮跳了一下。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:……你知道尼梅兰。
-NPC-Dupieux(1);NPC-maya(1)<Speaker>Q</Speaker>||:当然，这是斯塔西安排给你的下线之一。+也是“蜂针”的管理者之一。+在你出事的时候，她同样离开了新苏联，现在回到了她真正的主人身边。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(1)||:……她的主人不是斯塔西？+……你们到底在干什么，派这样一个人给我？？？
-NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:注意注意，这是“传道者”的过错。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(2)||:……你想从我这里交换什么？+如果你已经知道蜂针，那抓住我也没有什么意义。
-NPC-maya(2)<Speaker>Q</Speaker>||:这份档案，是你提供的吗？
-()<Speaker></Speaker>||:Q将一份资料展开，信息页是清晰的照片。+档案的主人名叫叶卡捷琳娜•瓦西列夫娜•彼得罗夫斯卡娅。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:是的。
-NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:肖失踪了？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(2)||:是的。
-NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:据我所知，她死了。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(0)||:……你一直在试探我。
-NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:只是测试杜皮约上校的合作态度。+毕竟你曾经也是王牌特工。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(2)||:……这份档案是安全局伪造的。
-NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:啧啧，那如果我想要得到真相，该去哪里找呢？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(2)||:……没有人知道。
-NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:哦？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(0)||:当年处理这件事的人……
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:全部失踪了。
-()<Speaker></Speaker>||:Q又拿出了一份新的报告。
-NPC-maya(0)<Speaker>Q</Speaker>||:你们的情报归二局管，这份调查报告是他们出的吗？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:这份调查报告……来自蜂针系统？+……你们已经接过了“传道者”的权限。
-NPC-maya(2)<Speaker>Q</Speaker>||:你猜。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:……看来你们的内斗结束了。
-()<Speaker></Speaker>||:杜皮约叹了口气。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:借助于这个东西，现在的新苏联，对你们已经完全透明了。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:不过别得意。+……你们以为泽林斯基没有察觉吗？+我暴露了，这个系统也就暴露了。+而在我暴露之前，卢比杨卡就已经在“清理”内部了。
-NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:嗯，这是当然。+不过在你岔开话题前，能否正面回答我的问题呢？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(2)||:萨曼莎•肖的报告？+那个报告确实是出自二局。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:当时专门有人负责监视她。+不过，你知道我们的监视不仅是监视，也包括在极限条件下除掉她。+但那是万不得已的情况下。
-NPC-maya(0)<Speaker>Q</Speaker>||:那些监视的人也消失了？
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(0)||:是的。+当时二局负责检查尸体的人回来说，应该不是安全局的人干的。+但是后来，那人也不见了。+再后来，这件事情就被彻底封存了。
-NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:肖博士，跟遗迹署的人有接触过吗？+我没看到过相关档案。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(0)||:……我接触到的时候，档案就已经是你看见的样式了。+跟遗迹署相关的信息，我只知道她有一个姐姐索菲娅，加入了一个非法民间组织。
-NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:1992年袭击莫斯科和纽约的反遗迹组织“潘多拉”。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>;NPC-maya(0)||:……是这个组织。
-NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:感谢你的合作。
-NPC-maya(0)<Speaker>Q</Speaker>||:接下来我会将你转移出审讯室，给你配备斯塔西线人应有的待遇。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Prison_Door</SE1>:Q将杜皮约的束缚全部解除。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:……你们现在的部长是谁？
-NPC-maya(0)<Speaker>Q</Speaker>||:罗密•蕾芬斯塔尔。
-NPC-Dupieux(1)<Speaker>杜皮约</Speaker>||:……我记得她以前是财政部部长，拥有军方背景的财政部部长而已。+是我小看了她。
-NPC-maya(2)<Speaker>Q</Speaker>||:愿杜皮约上校在我们民主德国，拥有全新的未来。
+()<Speaker></Speaker>||<Night><睁眼><BIN>158</BIN>:The blond man opens his eyes and finds himself shackled to a metal chair fixed to the floor.
+()<Speaker></Speaker>||:After spending a long time unconscious with his head tilted back, his neck is incredibly stiff. +Pain shoots through his limbs with every movement, making him want to curl his toes and scream. +In the dark, the exhausted Dupieux seems to be waiting for something.
+()<Speaker></Speaker>||<BGM>GF_21summer_avg_SecretAgent</BGM><关闭蒙版><白屏2><SE1>AVG_21Winter_Open_Light</SE1>:Snap. +The room is instantly awash with blinding white light. Dupieux squints as his eyes water. +With his blurry sight, he can vaguely make out a person sitting in a chair across from him.
+NPC-maya(2)<Speaker>Q</Speaker>||:How are you feeling? +...Colonel Dupieux, former head of the Neo-Soviet First Chief Directorate and future vice-chairman of the Presidium.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:(Hisses in pain) +Are you taunting me?
+NPC-maya(2)<Speaker>Q</Speaker>||:I'm just curious... why did Colonel Dupieux, who is about to receive a promotion, flee St. Petersburg in such a hurry?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:...You know that was just an excuse they made up to send me to Moscow to my death. +My cover was blown—I am a double agent planted in the Neo-Soviet Union by the Stasi. +If you want to find out anything else, you'll need to get your superior to come herself. +You're too low on the food chain to know.
+NPC-maya(1)<Speaker>Q</Speaker>||:...Oh sorry, if you like it here so much, by all means wait for her schedule to free up. +Hm, you won't have to wait very long... about half a year? Is that acceptable?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker><Shake>||:Why, you!!!
+NPC-maya(0)<Speaker>Q</Speaker>||:The Sunspot Incident—the defection of a senior member made the Stasi's intelligence utterly transparent to the Neo-Soviet Union. +Shortly after that, the "Evangelist" was instructed to persuade you to defect, correct?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:...So my cover in Moscow was blown because of the Stasi's infighting? +The Stasi's incompetence is as astounding as ever, even after all these years.
+NPC-maya(2)<Speaker>Q</Speaker>||:I suppose you are an expert when it comes to cleaning up the workplace, Colonel. +Your brother was also a KGB agent, and a decorated one at that. You only got into Lubyanka because he died in the line of duty. +I can't help but wonder... what made you decide to join us?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:Working for the Stasi is a choice. +But working for the KGB isn't. +If Lubyanka chooses you, you work for the KGB.
+NPC-maya(2)<Speaker>Q</Speaker>||:That's why forced labor never ends well. +All disputes ultimately boil down to contract issues.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:What do you want to know?
+NPC-maya(2)<Speaker>Q</Speaker>||:The "Evangelist" broke his promise, but we will not.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:Don't make it sound as if you had nothing to do with the fact that he broke his promise.
+NPC-maya(2)<Speaker>Q</Speaker>||:The ones who sold you out to Lubyanka could have been those non-human creatures whom you thought would never sell you out... Have you considered that possibility?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Q traces two small crosses on the desk with her finger. Dupieux's eyes widen.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:...You know about Nemhran.
+NPC-Dupieux(1);NPC-maya(1)<Speaker>Q</Speaker>||:Of course we do. She was a downline that the Stasi assigned to you. +And one of the administrators of the Bee Sting System. +Around the same time you got into trouble, she left the Neo-Soviet Union and returned to her real master.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(1)||:...Her real master isn't the Stasi? +...What the hell were you thinking, assigning a mole to me???
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:Hey, watch it. It was the Evangelist's mistake.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(2)||:...What information do you want from me then? +If you already know about the Bee Sting, then there's no point in capturing me.
+NPC-maya(2)<Speaker>Q</Speaker>||:Did you supply this file?
+()<Speaker></Speaker>||:Q opens a dossier, revealing a clear photograph on the first page. +The file is on a woman named Yekaterina Vasilievna Petrovskaya.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:Yes.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:Shaw went missing?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(2)||:Yes.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:From what I know, she's dead.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(0)||:...You're testing me.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:Just trying to gauge how cooperative you are, Colonel. +After all, you were also once a master spy.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(2)||:...This entire file was forged by StateSec.
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:Heh. Then if I want to learn the truth, where should I be looking?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(2)||:...Nobody knows.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:Oh?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(0)||:Everyone who handled this matter back then...
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:Has vanished without a trace.
+()<Speaker></Speaker>||:Q produces another report.
+NPC-maya(0)<Speaker>Q</Speaker>||:Your Second Chief Directorate is in charge of anything related to internal security. Were they the ones who compiled this investigation report?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:You got this report... via the Bee Sting System? +...So you've taken over the Evangelist's authorizations.
+NPC-maya(2)<Speaker>Q</Speaker>||:Take a guess.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:...Looks like you lot have finally put an end to your infighting.
+()<Speaker></Speaker>||:Dupieux lets out a sigh.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:With the help of this thing, the inner workings of the Neo-Soviet Union is completely exposed to you.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:But don't go patting yourselves on the back just yet. +...You think Zelinsky hadn't noticed? +My cover is blown, so the system is also out of the bag. +Even before I got flushed out, Lubyanka had already started their "cleanout".
+NPC-Dupieux(1);NPC-maya(2)<Speaker>Q</Speaker>||:Hm, that's hardly surprising. +But before you start going off on a tangent, can you please answer my question?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(2)||:The report on Samantha Shaw? +Yes, it was compiled by the Second Directorate.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:They had people monitoring her. +And by "monitoring", you know I don't mean just watching her. Under extreme circumstances, they were authorized to eliminate her. +But that was just a last resort.
+NPC-maya(0)<Speaker>Q</Speaker>||:Those people monitoring her also disappeared?
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(0)||:Yes. +According to the person from the Second Directorate who examined the body, it wasn't StateSec who did it. +But then that person also went missing. +After that, the entire matter got hushed up and was never mentioned again.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:Did Doctor Shaw have any contact with the people from the Relic Agency? +I've seen no mention of this in any record.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(0)||:...By the time I got my hands on the file, it was already the way it is. +The only mention of the Relic Agency in her file is about her elder sister called Sofya, who was a member of an illegal organization.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:Pandora, the anti-Relic organization that attacked Moscow and New York in 1992.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>;NPC-maya(0)||:...That's the one.
+NPC-Dupieux(1);NPC-maya(0)<Speaker>Q</Speaker>||:Thank you for your cooperation.
+NPC-maya(0)<Speaker>Q</Speaker>||:You will now be released from the interrogation room and given the treatment you deserve as an informant in the service of the Stasi.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Prison_Door</SE1>:Q removes all of Dupieux's restraints.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:...Who's your current director?
+NPC-maya(0)<Speaker>Q</Speaker>||:Romy Riefenstahl.
+NPC-Dupieux(1)<Speaker>Dupieux</Speaker>||:...I only remember her as a Minister of Finance with some military background. +I underestimated her.
+NPC-maya(2)<Speaker>Q</Speaker>||:I wish you a happy new life in the Democratic Republic of Germany.
 ()||<黑屏1><CGDelay>1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:来自未知的通讯请求。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:克鲁格先生，要接听吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:克鲁格摇了摇头，手指轻轻挥了挥，示意赫丽安注意房间中密布的摄像头。+不做丝毫掩饰，赤裸外露的监控摄像头。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:赫丽安轻轻叹了口气，将通讯挂断。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:万一是指挥官的消息……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:我理解你的心情，此时此刻，我也很想知道指挥官的情况。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:帮我接通爵士。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:嘀。通讯很快被接起。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:是我。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>我的老友，需要我为你做些什么？</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:我什么都不需要，只是想知道一些我应该知道的消息。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>又在担心你一手培养的那位年轻人了？</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:以前，我可以清晰地知道指挥官的动向。+在指挥官迷惘的时候尽力开解，或者是在喜悦的时候分享快乐。+……但现在的我呆在这里，仿佛变成了瞎子和聋子。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>我的老友，你需要休息。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:我最不需要的就是休息。+我已经休息得足够多了。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>好吧，或许下午我可以为你安排一些——</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:关于指挥官的事情，你似乎一直在逃避。
-NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>指挥官目前还未回到安全地带。</color>+<color=#00CCFF>所以更详细的情况，我也不清楚。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:我只是有一点担心。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>指挥官能从塔林和帕尔迪斯基潜艇基地全身而退，还能接着在“黑区”取得成果。</color>+<color=#00CCFF>我不认为有什么好担心的。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:……+指挥官心怀热忱，只是偶尔会有些冲动。+对于年轻人，我希望你可以给予一些容错空间。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>我已经很有耐心了。</color>+<color=#00CCFF>为了这家PMC的未来，我在继续忍耐。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:你在等待些什么？
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>你应该很清楚，我在等待罗联的成立。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:当年的罗联成立是有意义的。+现在的罗联成立……也不过是换一种说法。+这些事，你浸淫多年应该很清楚。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>克鲁格，有些事一开始只是名义上存在。</color>+<color=#00CCFF>比如官员的选拔，所谓的选拔一开始只是个流程，位置依旧牢牢地把握在贵族手里。</color>+<color=#00CCFF>但是等这个流程正式敲定，有识之士也能被真正推荐上来。</color>+<color=#00CCFF>我们要相信历史的进程始终在朝前走。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:我们不能把年轻人压死在历史的车轮下。
-NPC-Kyruger(0);NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>如果年轻人愿意接受车上的座位，那么就会自然而然地成为英雄。</color>
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>;NPC-Griffin(0)||:……+我知道了。
-NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>愿你身体健康，我的老友。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:爵士切断了通话。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:放下通讯器，克鲁格颓然落坐，双手支在腿上撑住额头。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:……克鲁格先生，您要相信指挥官。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:……我主要是深深地察觉到自己的无能。+过去我能够将指挥官从燃火的废墟中拉出来。+而现在的我却什么也做不了。
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:您已经将全部都交给了指挥官。+我们都相信着指挥官，请您也坚守这份信任。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:……
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:还没到最后一刻。
-()<Speaker></Speaker>||:克鲁格终于抬起头，环顾奢华装潢的酒店套房，莹光点点的天鹅绒窗帘，像两扇柔软的牢门。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:事到如今，我们还能为指挥官做什么呢？
-NPC-Helian(0)<Speaker>赫丽安</Speaker>||:我相信指挥官不会放弃，无论何种境遇，无论多么艰辛。+活下去，就像过去的每一次那样。
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:但愿……
+()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:A communications request from an unknown caller.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:Do we pick up, Mr. Kryuger?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kryuger shakes his head and waves his hand in the air, gesturing for Helian to take note of the cameras all around them in the room. +Surveillance cameras that are blatantly in full view.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Helian lets out a quiet sigh and rejects the call.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:What if it was news from the Commander...
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I know how you feel. I am also desperate to know how the Commander is faring.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:Please get the Earl on the line.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Click. The call is soon answered.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:It's me.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>My old friend, what can I do for you?</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:Nothing. I just want some information that I deserve to know.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Worried about your young protege again?</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:In the past, I was always clearly aware of the Commander's movements. +I offered advice when they felt lost and shared their joy when they were happy. +...But now I am stuck in here, effectively cut off from the rest of the world.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>You need rest, old friend.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:Rest is the last thing I need. +I've rested long enough.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Alright, I suppose I could arrange for some—</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:You seem to be avoiding the subject when it comes to the Commander.
+NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>The Commander has yet to return to the safe zone.</color> +<color=#00CCFF>So even I am in the dark.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:I'm just a bit concerned.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>They managed to escape from Tallinn and Paldiski unscathed and even produced some spectacular results in the Black Zone.</color> +<color=#00CCFF>I don't think there is any cause for concern.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:... +The Commander is full of fervor, but they can be a bit hot-headed at times. +I hope you can show some leniency to young people and give them some leeway.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>I have already been very patient.</color> +<color=#00CCFF>For the future of this PMC, I will continue to endure.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:What are you waiting for?
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>You should know—I'm waiting for the official establishment of the Union of Rossartrist Nations Coalition.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:The founding of the Rossartrist Union back then was not for nothing. +Establishing the URNC now... is just putting old wine in new bottles. +Having worked toward this for so many years, you should know better than anyone else.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>Kryuger, some things exist only in name at first.</color> +<color=#00CCFF>For example, the selection of government officials was just a formality in the old days when the positions were still reserved for the aristocracy.</color> +<color=#00CCFF>But in time, this formality became more fleshed out and systematized, and actual learned men were finally selected for the positions.</color> +<color=#00CCFF>We must believe in the natural progress of things and let history run its course.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:We can't let young people get crushed under the wheel of history.
+NPC-Kyruger(0);NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>If they are willing to take their place on the chariot, they will naturally become heroes.</color>
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>;NPC-Griffin(0)||:... +I understand.
+NPC-Griffin(0)<Speaker>Earl</Speaker><通讯框>||:<color=#00CCFF>I wish you good health, old friend.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:The Earl terminates the call.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:After putting down the communicator, Kryuger's shoulders slump in dejection. He buries his face in his hands.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:...Mr. Kryuger, you should have faith in the Commander.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:...I'm just deeply aware of my own helplessness. +Before, I was able to pull the Commander out of a burning ruin. +But now there is absolutely nothing I can do.
+NPC-Helian(0)<Speaker>Helian</Speaker>||:You have entrusted everything to the Commander. +We both believe in them, so please keep the faith.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:...
+NPC-Helian(0)<Speaker>Helian</Speaker>||:It's not over yet.
+()<Speaker></Speaker>||:Kryuger finally lifts his head. He looks around the lavishly decorated hotel suite. The smooth velvet curtains gleaming in the light are like two soft prison gates.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:At this point, what else can we do for the Commander?
+NPC-Helian(0)<Speaker>Helian</Speaker>||:I'm sure the Commander will never give up, no matter how difficult or hopeless the situation becomes. +They will survive, just as they have always done.
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:I hope you're right...
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:柏林的天亮了，但没有明亮的感觉，只有一片灰蒙蒙的雾气。
-()||<黑点1>:
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:Dawn breaks in Berlin, but the sky does not brighten. Everything is shrouded in a layer of gray fog.
+()||<黑点1>:
