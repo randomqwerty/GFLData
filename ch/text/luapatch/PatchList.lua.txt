@@ -416,6 +416,7 @@ patch3050=
 "3050/CommonGetNewSangvisGunController",
 "3050/EquipGroupProgressLable",
 "3050/BattleUIDamageController",
+"3050/DormConfirmBox",
 }
 patch3060=
 {
@@ -443,6 +444,7 @@ patch3060=
 "3060/BreakoutAVGController",
 "3060/BattleInteractionController",
 "3060/SangvisGunStateController",
+"3050/DormConfirmBox",
 }
 -- va11
 print("load Va11");
