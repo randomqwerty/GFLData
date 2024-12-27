@@ -16188,6 +16188,22 @@
     "formula": "sbuffidtier(9727)>0?50:0"
   },
   {
+    "id": 9605,
+    "formula": "sbuffidtier(7401)<6?1:sbuffidtier(9729)>0?sbuffidtier(7401)<8?1:0:0"
+  },
+  {
+    "id": 9606,
+    "formula": "sbuffidtier(9729)>0?9730:7405"
+  },
+  {
+    "id": 9607,
+    "formula": "sbuffidtier(7401)<7?1:sbuffidtier(9729)>0?sbuffidtier(7401)<9?1:0:0"
+  },
+  {
+    "id": 9608,
+    "formula": "sbuffidtier(7401)=8?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
