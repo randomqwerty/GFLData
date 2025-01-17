@@ -446,7 +446,8 @@ patch3060=
 "3060/BattleInteractionController",
 "3060/SangvisGunStateController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",	
+"3050/CharacterVoiceController",
+"3060/SangvisGashaponDrawBoxController",		
 }
 -- va11
 print("load Va11");
