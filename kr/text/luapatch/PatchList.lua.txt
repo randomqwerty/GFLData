@@ -417,7 +417,8 @@ patch3050=
 "3050/EquipGroupProgressLable",
 "3050/BattleUIDamageController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",	
+"3050/CharacterVoiceController",
+"3050/ImageBufferBlurCameraController",		
 }
 patch3060=
 {

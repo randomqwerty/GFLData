@@ -417,7 +417,8 @@ patch3050=
 "3050/EquipGroupProgressLable",
 "3050/BattleUIDamageController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",	
+"3050/CharacterVoiceController",
+"3050/ImageBufferBlurCameraController",		
 }
 patch3060=
 {
@@ -446,7 +447,8 @@ patch3060=
 "3060/BattleInteractionController",
 "3060/SangvisGunStateController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",	
+"3050/CharacterVoiceController",
+"3060/SangvisGashaponDrawBoxController",		
 }
 -- va11
 print("load Va11");
