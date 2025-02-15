@@ -417,7 +417,8 @@ patch3050=
 "3050/EquipGroupProgressLable",
 "3050/BattleUIDamageController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",	
+"3050/CharacterVoiceController",
+"3050/ImageBufferBlurCameraController",		
 }
 patch3060=
 {
@@ -446,8 +447,10 @@ patch3060=
 "3060/BattleInteractionController",
 "3060/SangvisGunStateController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",
-"3060/SangvisGashaponDrawBoxController",		
+"3050/CharacterVoiceController",	
+}
+patch3070=
+{
 }
 -- va11
 print("load Va11");
@@ -470,14 +473,14 @@ if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
 end
 
 -- announcement
-local funcOpenAnnouncement = function()
-	CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Announcement"), CS.CommonController.MainCanvas.transform,false)
-end
-local ann = require("AnnouncementModel")
-ann:Reset()
-ann:Init()
-if ann.open then
-	local gobjBtn = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Btn_Announcement"), CS.CommonController.MainCanvas.transform,false)
-	gobjBtn:GetComponent(typeof(CS.ExButton)):AddOnClick(funcOpenAnnouncement)
-	funcOpenAnnouncement()
-end
+-- local funcOpenAnnouncement = function()
+-- 	CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Announcement"), CS.CommonController.MainCanvas.transform,false)
+-- end
+-- local ann = require("AnnouncementModel")
+-- ann:Reset()
+-- ann:Init()
+-- if ann.open then
+-- 	local gobjBtn = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Btn_Announcement"), CS.CommonController.MainCanvas.transform,false)
+-- 	gobjBtn:GetComponent(typeof(CS.ExButton)):AddOnClick(funcOpenAnnouncement)
+-- 	funcOpenAnnouncement()
+-- end

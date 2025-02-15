@@ -448,7 +448,12 @@ patch3060=
 "3060/SangvisGunStateController",
 "3050/DormConfirmBox",
 "3050/CharacterVoiceController",
-"3060/SangvisGashaponDrawBoxController",		
+"3060/SangvisGashaponDrawBoxController",
+"3060/GashaponController",
+"3060/CommonClothesColorLabelController",	
+}
+patch3070=
+{
 }
 -- va11
 print("load Va11");
@@ -471,14 +476,14 @@ if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
 end
 
 -- announcement
-local funcOpenAnnouncement = function()
-	CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Announcement"), CS.CommonController.MainCanvas.transform,false)
-end
-local ann = require("AnnouncementModel")
-ann:Reset()
-ann:Init()
-if ann.open then
-	local gobjBtn = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Btn_Announcement"), CS.CommonController.MainCanvas.transform,false)
-	gobjBtn:GetComponent(typeof(CS.ExButton)):AddOnClick(funcOpenAnnouncement)
-	funcOpenAnnouncement()
-end
+-- local funcOpenAnnouncement = function()
+-- 	CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Announcement"), CS.CommonController.MainCanvas.transform,false)
+-- end
+-- local ann = require("AnnouncementModel")
+-- ann:Reset()
+-- ann:Init()
+-- if ann.open then
+-- 	local gobjBtn = CS.UnityEngine.Object.Instantiate(CS.ResManager.GetObjectByPath("Prefabs/Btn_Announcement"), CS.CommonController.MainCanvas.transform,false)
+-- 	gobjBtn:GetComponent(typeof(CS.ExButton)):AddOnClick(funcOpenAnnouncement)
+-- 	funcOpenAnnouncement()
+-- end

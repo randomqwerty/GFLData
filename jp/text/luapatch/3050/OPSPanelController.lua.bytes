@@ -327,6 +327,14 @@ local SuccessJsonHandleData = function(self,jsonData)
 	CS.GameData.listLetterData:Clear();
 	self:SuccessJsonHandleData(jsonData);
 end
+local ShowNewReward = function(self)
+	self:ShowNewReward();
+	if self.EndLess.gameObject.activeInHierarchy then		
+		self.BossList.gameObject:SetActive(false);
+	end
+	local txtLock = self.transform:Find("DownBg/Node_DownBtn/btnBattle/Locked/Tex_Locked");
+	txtLock:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
+end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
@@ -349,3 +357,4 @@ util.hotfix_ex(CS.OPSLetterWriteController,'LeaveEditLetter',LeaveEditLetter)
 util.hotfix_ex(CS.OPSLetterWriteController,'CheckRenderTexture',CheckRenderTexture)
 util.hotfix_ex(CS.OPSLetterLabel,'RefreshSangvisUI',RefreshSangvisUI)
 util.hotfix_ex(CS.RequsetGetAllLetterData,'SuccessJsonHandleData',SuccessJsonHandleData)
+util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)
