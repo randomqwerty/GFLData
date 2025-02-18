@@ -1,171 +1,171 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><CGDelay>0.5</CGDelay><BIN>766</BIN><黑屏2>:
-()<Speaker></Speaker>||:法兰克福-法兰克福区。
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:凌晨1点30分，一辆面包车自昏暗的匝道缓缓汇入A66公路西段。+笨拙的车身一挣脱老城区杂乱拥堵的交通网，便止不住在空旷平坦的主城区公路上狂飙。
-APC556(2)<Speaker>米娅</Speaker>||:……
-()<Speaker></Speaker>||:明亮的路灯搭配测速拍照装置，自车顶一阵阵呼啸而过。
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:米娅打开车窗，任由洁净的冷风灌满车内——甚至能闻到清甜的草木香气。
-HK416Mod(0)<Speaker>HK416</Speaker>||:我们已经脱离监控路段，现在我们的通讯不受监听和干扰影响了。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:米娅，可以和奈乐小姐联系了。
-APC556(2)<Speaker>米娅</Speaker>||:嗯。
+()<Speaker></Speaker>||:Frankfurt District, Frankfurt.
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1>:At 1.30am, a van driving along a dark slip road merges slowly onto the westbound Autobahn 66.+As soon as the bulky vehicle breaks free from the chaotic and congested traffic gridlock in the city, it starts speeding on the flat and empty highway.
+APC556(2)<Speaker>Mia</Speaker>||:...
+()<Speaker></Speaker>||:Bright street lights rigged with speed cameras whizz past the roof of the van.
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:Mia opens the window and lets the clear, chilly air rush into the van—it is filled with the sweet fragrance of the local flora.
+HK416Mod(0)<Speaker>416</Speaker>||:We're out of their surveillance range. Our comms should be free from monitoring and interference.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Mia, we can now establish contact with Miss Nele.
+APC556(2)<Speaker>Mia</Speaker>||:Right.
 APC556(2)<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-APC556(3)<Speaker>米娅</Speaker>||:奈乐，你在听吗？
-NPC-Nele(2)<Speaker>奈乐</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>我在，你们顺利进城了吗？</color>
-NPC-Nele(2);APC556(3)<Speaker>米娅</Speaker>||:顺利通过检查了，没有引起怀疑。+现在正在去目的地的路上。
-NPC-Nele(1)<Speaker>奈乐</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>明白，一切顺利就好。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker><通讯框>||:<color=#00CCFF>教官小姐，你们的问题我已经解决了，我什么时候才能和指挥官见面？</color>
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我向您保证，指挥官一定会在这次事件结束后的第一时间安排和您的会面。
-NPC-Nele(1)<Speaker>奈乐</Speaker><通讯框>||:<color=#00CCFF>……</color>
-APC556(3)<Speaker>米娅</Speaker>||:奈乐，早点休息吧，已经凌晨了。+今天下午你还要去见外祖父。
+APC556(3)<Speaker>Mia</Speaker>||:Nele, you there?
+NPC-Nele(2)<Speaker>Nele</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>I'm here. Did you make it into the city okay?</color>
+NPC-Nele(2);APC556(3)<Speaker>Mia</Speaker>||:We passed the checkpoint without arousing any suspicion.+We're now en route to our destination.
+NPC-Nele(1)<Speaker>Nele</Speaker><通讯框>;APC556(3)||:<color=#00CCFF>I see. I'm glad it went smoothly.</color>
+NPC-Nele(1)<Speaker>Nele</Speaker><通讯框>||:<color=#00CCFF>Miss Instructor, I've solved your problem, so when do I get to meet the Commander?</color>
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:The Commander will definitely arrange a meeting with you first thing once this is over, I promise.
+NPC-Nele(1)<Speaker>Nele</Speaker><通讯框>||:<color=#00CCFF>...</color>
+APC556(3)<Speaker>Mia</Speaker>||:Get some rest, Nele. It's already morning.+You still need to visit your grandfather this afternoon.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>470</BIN><CGDelay>0.5</CGDelay>:
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯，我知道……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:酒店房间内，奈乐支着脑袋坐在写字台前。+身后的床上摊着几件表姐送来的为明天准备的衣服，但她连试穿的心情都没有。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:为什么指挥官不愿意见我……
-NPC-Nele(2);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>别多想，格里芬面对的问题很复杂棘手，教官不告诉你也是不想把你牵连进去。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>;APC556(2)||:……好吧，我不问了。
-NPC-Nele(1);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>下午的行程都安排好了吗？赫柏小姐那边也确认好了？</color>
-NPC-Nele(0)<Speaker>奈乐</Speaker>;APC556(2)||:都搞定了。+早上八点，我会先去见赫柏小姐，和她一起吃个早午餐，然后她会给我一些造型上的建议。+下午两点，外祖父的司机会来赫柏小姐这里接我。
-NPC-Nele(0);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>你和赫柏小姐接触下来感觉怎么样？她是个什么样的人？</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯……
-()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:奈乐取出了夹在记事本中的名片——+这是一张少见的德莱克米色名片，边缘包裹着一圈低调的金边，名片上用压花的工艺留下了赫柏的签名和一张美丽面孔的速写。+而名片的内容只有“赫柏”和一个助理的联系方式。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:我还没有和本人接触过，不过表姐说，赫柏小姐是个非常有魅力的复古美人……
-NPC-Nele(1);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>据我所知，赫柏小姐在圈内的风评还不错，即便婚后退圈也依旧和以前的朋友有往来。</color>+<color=#00CCFF>但我还是第一次见和高级官员成婚后，仍然以自己的名字在外活动，还不会招惹来非议的女人。</color>+<color=#00CCFF>你明白我的意思吧？一般女人成婚后，都会改称为某某夫人，但她仍然以“赫柏小姐”的名义活动。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>;APC556(2)||:……所以呢？
-NPC-Nele(1);APC556(2)<Speaker>米娅</Speaker><通讯框>||:<color=#00CCFF>对于女明星来说，这非常少见，除了她以外，我没有见过第二例。</color>+<color=#00CCFF>你要当心了，这说明这个女人绝对不简单。</color>
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯，我会谨慎的。
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Yeah, I know...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Inside her hotel room, Nele is sitting at the desk with her head propped on her hand.+On the bed behind her lie a few pieces of clothing her cousin has prepared for her for tomorrow, but she is not in the mood to try them on.
+NPC-Nele(2)<Speaker>Nele</Speaker>||:Why is the Commander avoiding me...?
+NPC-Nele(2);APC556(2)<Speaker>Mia</Speaker><通讯框>||:<color=#00CCFF>Don't overthink it. Griffin is currently dealing with some very tricky issues. The Instructor hasn't told you about them because she doesn't want to get you involved.</color>
+NPC-Nele(1)<Speaker>Nele</Speaker>;APC556(2)||:...Fine, I won't pry.
+NPC-Nele(1);APC556(2)<Speaker>Mia</Speaker><通讯框>||:<color=#00CCFF>Is everything all set for the afternoon? Has Frau Hebe confirmed everything with you?</color>
+NPC-Nele(0)<Speaker>Nele</Speaker>;APC556(2)||:All set.+At eight in the morning, I'll meet Frau Hebe and have breakfast with her, then she'll give me some pointers regarding my appearance.+At two in the afternoon, my grandfather's chauffeur will come pick me up at Frau Hebe's place.
+NPC-Nele(0);APC556(2)<Speaker>Mia</Speaker><通讯框>||:<color=#00CCFF>How do you feel about your interactions with Frau Hebe? What do you make of her?</color>
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Hm...
+()<Speaker></Speaker>||<SE1>AVG_TurnOverCard</SE1>:Nele pulls out a business card sandwiched between the pages of her notebook—+It's printed on an unusual cream card stock with understated gold foil on the edge. The card is embossed with Hebe's signature and the sketch of a beautiful woman's profile.+The only information it contains is Hebe's name and the contact details of her assistant.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:I still haven't met her in person, but according to my cousin, Frau Hebe is a very charming retro belle...
+NPC-Nele(1);APC556(2)<Speaker>Mia</Speaker><通讯框>||:<color=#00CCFF>From what I know, Frau Hebe has a pretty good reputation within the entertainment circle and still keeps in touch with her old friends even after getting married and leaving the showbiz.</color>+<color=#00CCFF>You know, I've never seen any other woman who didn't attract gossip for keeping her own name after marrying some bigwig government official.</color>+<color=#00CCFF>You see what I'm getting at? Women usually take their husband's surname after getting married, but she still goes by "Frau Hebe".</color>
+NPC-Nele(1)<Speaker>Nele</Speaker>;APC556(2)||:...So?
+NPC-Nele(1);APC556(2)<Speaker>Mia</Speaker><通讯框>||:<color=#00CCFF>This is highly unconventional for female stars. Other than her, I have not seen another case.</color>+<color=#00CCFF>This goes to show that there's something unusual about her, so you'd better watch out.</color>
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Right, I'll be careful.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>766</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1>:见米娅挂断了通讯，HK416重新断开了车上的网络。
-HK416Mod(0)<Speaker>HK416</Speaker>||<BGM>10295</BGM>:虽然已经脱离了监控路段，但是保险起见，在抵达目标地点之前，我们还是保持断网状态吧。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:同意。
-HK416Mod(0)<Speaker>HK416</Speaker>||:米娅小姐，请从下一个下匝道拐出去。
-APC556(2)<Speaker>米娅</Speaker>||:嗯？这么早就下高速？
-HK416Mod(0)<Speaker>HK416</Speaker>||:是的，我们需要确定有没有人在追踪我们。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:虽然目前通过多方手段检测，没有人在注意我们。+但因为不确定这边的手段究竟能做到哪一步，所以还请配合我们。
-APC556(5)<Speaker>米娅</Speaker>||:……我知道了。
-()<Speaker></Speaker>||:米娅按照HK416的指示，从下匝道驶出了高速路口。
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1>:After Mia terminates the call, 416 disables the network connection on the vehicle.
+HK416Mod(0)<Speaker>416</Speaker>||<BGM>10295</BGM>:We may have left the surveillance range, but just to be safe, we should go dark before we reach our destination.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Agreed.
+HK416Mod(0)<Speaker>416</Speaker>||:Miss Mia, please exit at the next junction.
+APC556(2)<Speaker>Mia</Speaker>||:Hm? Are we leaving the Autobahn so soon?
+HK416Mod(0)<Speaker>416</Speaker>||:Yes, we need to make certain that we aren't being followed.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:From the various checks I've done, I don't believe anyone has their eyes on us at the moment.+But since we can't be sure what they're actually capable of, please work with us here.
+APC556(5)<Speaker>Mia</Speaker>||:...I understand.
+()<Speaker></Speaker>||:Following 416's instruction, Mia exits the Autobahn at the next junction.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><黑点2><Night><BIN>86</BIN>:凌晨2点15分，法兰克福-法兰克福区，公墓附近的停车场。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:确定了，没有人在追踪我们的动向！
-APC556(2)<Speaker>米娅</Speaker>||:可以按照导航继续开了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>;APC556(2)||:不，全体下车。
-HK416Mod(0);APC556(5)<Speaker>米娅</Speaker>||:……什么？
-HK416Mod(0)<Speaker>HK416</Speaker>;APC556(5)||:换一台车，再继续行驶，备用车在A052车位。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;APC556(5)||:所有人，收拾干净车里的痕迹，下车。
-APC556(5)<Speaker>米娅</Speaker>||:你们竟然做到了这个份上……+连法兰克福都进不了，是怎么安排好车辆停在这里的？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:我们有自己的渠道♪
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:这方面就尽情信赖她们吧，甩掉追踪没有比404更专业的了。
-APC556(5)<Speaker>米娅</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:米娅心情复杂地下了车。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><黑点2><Night><BIN>86</BIN>:2.15am, in a parking lot near a cemetery in Frankfurt District, Frankfurt.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:Okay, we're now 100% sure that nobody's tracking our movement!
+APC556(2)<Speaker>Mia</Speaker>||:So can we now carry on with our pre-planned route?
+HK416Mod(0)<Speaker>416</Speaker>;APC556(2)||:No, everybody get out of the van.
+HK416Mod(0);APC556(5)<Speaker>Mia</Speaker>||:...What?
+HK416Mod(0)<Speaker>416</Speaker>;APC556(5)||:We're switching vehicles before we set off again. Our back-up vehicle is in bay A052.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;APC556(5)||:Everybody, clean up all traces in the vehicle and disembark.
+APC556(5)<Speaker>Mia</Speaker>||:You actually prepared so far ahead...+But we couldn't even make it into Frankfurt, how did you arrange for a back-up vehicle to be parked here?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:We have our ways. ♪
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Just trust them on this. Nobody is more skilled at shaking off pursuit than 404.
+APC556(5)<Speaker>Mia</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:Mia gets out of the van, not quite sure how to feel.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>554</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:凌晨2点15分，法兰克福-法兰克福区。
-()<Speaker></Speaker>||<SE1>AVG_Rocket_Gun_Truck</SE1>:其貌不扬的货车熟练地绕开监控密集的主路段，确认未被跟踪后，车辆结束绕圈，钻入一条隐蔽的混乱小巷。+终于，稳稳停在一所看似废弃的下沉式音乐酒吧门前。
-APC556(2)<Speaker>米娅</Speaker>||:到了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:下车了，G11。
-G11Mod(0)<Speaker>G11</Speaker><Shake>||:呜……
+()<Speaker></Speaker>||:2.15am, Frankfurt District, Frankfurt.
+()<Speaker></Speaker>||<SE1>AVG_Rocket_Gun_Truck</SE1>:A nondescript van skillfully avoids the closely monitored main roads. Once certain it is not being followed, it stops circling around and slips into a concealed alleyway.+At last, it pulls up steadily just outside an underground music bar.
+APC556(2)<Speaker>Mia</Speaker>||:We're here.
+HK416Mod(0)<Speaker>416</Speaker>||:We're getting off, Gr G11.
+G11Mod(0)<Speaker>Gr G11</Speaker><Shake>||:Ugh...
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><BGM>BGM_Empty</BGM>:人形们从车辆中钻出，AR-18确定无遗漏后，走到司机位置的窗边。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:辛苦你了，米娅小姐。
-APC556(2)<Speaker>米娅</Speaker>||:只要你们别忘记和奈乐的约定，我做的都不算什么。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:明白。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1><BGM>BGM_Empty</BGM>:The Dolls emerge from the vehicle. After making sure they haven't left anything behind, AR-18 walks over to the driver's window.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Thank you very much, Miss Mia.
+APC556(2)<Speaker>Mia</Speaker>||:Don't mention it, as long as you hold up your end of the bargain with Nele.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Understood.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Moto_Start</SE1><BGM>BGM_Hume_FourAdventures</BGM>:所有人形下车后，货车迅速驶离，消失在了夜色中。
-()<Speaker></Speaker>||:人形们走下台阶，来到已经关门的酒吧门前。
-NPC-M400(0)<Speaker>赫莎</Speaker>||:……怎么关门了？
-HK416Mod(0)<Speaker>HK416</Speaker>||:AR-18，你有和她们约定接头方式吗？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:嗯。
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:AR-18走上前敲了敲门。
-()<Speaker>？？？</Speaker>||:喂，您是？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我想跟您谈谈。
-()<Speaker>？？？</Speaker>||:您是哪位？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我是红，天空的红。
-()<Speaker>？？？</Speaker>||:请换一种称呼。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:好，我是那条小溪。+藏在草地里，携着煤的残渣。
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Moto_Start</SE1><BGM>BGM_Hume_FourAdventures</BGM>:With all the Dolls out of the van, it promptly drives away and soon disappears into the night.
+()<Speaker></Speaker>||:The Dolls walk down the stairs and stop at the door of the closed bar.
+NPC-M400(0)<Speaker>Hertha</Speaker>||:...Why is it closed?
+HK416Mod(0)<Speaker>416</Speaker>||:AR-18, have you agreed on a code phrase with them?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Yes.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:AR-18 walks up to the door and knocks.
+()<Speaker>???</Speaker>||:Hello? Hello?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:I would like to speak with you.
+()<Speaker>???</Speaker>||:Who are you?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Red, a sky that is all red.
+()<Speaker>???</Speaker>||:Have you another name?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Alright, that stream, +In the grass with pieces of coal.
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:门内的声音沉寂了，片刻后，酒吧的大门开启，掀开了黑暗的幕布。
-()<Speaker>？？？</Speaker>||:请进。
-()<Speaker></Speaker>||:清冷的声音传来，找不到来源的位置。
-()<Speaker></Speaker>||:AR-18对身后的人形点点头，率先踏入了黑暗。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:The voice behind the door falls silent. After a moment, the door to the bar opens, and a black screen is pushed aside.
+()<Speaker>???</Speaker>||:Please come in.
+()<Speaker></Speaker>||:The voice speaks coldly from an unidentifiable spot.
+()<Speaker></Speaker>||:AR-18 nods at the Dolls behind her, then leads the way into the darkness.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:吧嗒、吧嗒——+踏在生锈阶梯上的凌乱脚步声，在宽敞的地下空间回荡。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:哇，没想到这下面另有乾坤啊。
-HK416Mod(0)<Speaker>HK416</Speaker>||:这里的安全等级竟然如此高……
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:Tap... tap...+The Dolls go down a rusty staircase, their disorderly footsteps echoing through the spacious underground interior.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:Wow, you'd never be able to tell from the outside.
+HK416Mod(0)<Speaker>416</Speaker>||:I certainly wasn't expecting the level of security in this place...
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>656</BIN><CGDelay>0.5</CGDelay>:
-NPC_Stevens520(3)<Speaker>？？？</Speaker><Position>0,60</Position>||<SE1>Stop_AVG_loop</SE1>:这里是休谟博士生前购置的私人房产。+地下结构复杂，外界信号很难渗透，可以暂时保障你们的安全。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:感谢你的安排，史蒂文斯520小姐。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:总算是见到你们了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:少女抬起头来，她正坐在吧台优雅啜饮着和酒吧氛围格格不入的红茶。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:人已经来齐了，可以开始聊正事了。+当然如果你们要进行一些无聊的寒暄的话，我也不介意多等五分钟，反正你们已经迟到两小时了。
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:我想在场的各位都没有这种需求，直接开始吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M16喝光杯里的威士忌，站起来走近人群。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:你们比计划多花费了近一倍的时间，路上发生什么情况了吗？
-HK416Mod(0)<Speaker>HK416</Speaker>||:没有特殊情况，只是出于安全考虑做了一些绕路。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:必要的措施，没有引起注意就好。
-()<Speaker></Speaker>||:UMP45故作惊讶地发出啧舌声。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:真没想到有一天能看见你们俩正常地对话。
-HK416Mod(0)<Speaker>HK416</Speaker>||:……
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:……
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:既然大家都到齐了，那么会议就正式开始了。
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:欸，可是忤逆还没到啊？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:已经到了。
-()<Speaker></Speaker>||:史蒂文斯520颇有些不悦地皱起了眉头。
-NPC-AK12Mod#隐身(11)<Speaker>？？？</Speaker>||:啊呀，我还以为你会帮我们保留这个惊喜呢。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AK12关闭了隐身状态，房间中央的桌上显现出三个白色的身影。
-AN94MOD(0)<Speaker>AN-94</Speaker>||:忤逆已经到齐了。
-AK15MOD(3)<Speaker>AK-15</Speaker>||:……
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:各位晚上好。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:首先——
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你们给我从桌上下来，那是休谟博士收藏的古董餐桌，缅甸花梨独板老料。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:悉听尊便。
+NPC_Stevens520(3)<Speaker>???</Speaker><Position>0,60</Position>||<SE1>Stop_AVG_loop</SE1>:This is a private property that Dr. Hume purchased before his death.+External signals have a hard time penetrating the complex underground structure, so it should keep you safe for the time being.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Thank you for arranging this, Miss Stevens M520.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:We meet at last.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The girl looks up. She is sitting at the bar counter, sipping a cup of tea, which seems rather incongruous with her surroundings.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Now that you're all here, we can finally get down to business.+Though if you'd like to make some pointless small talk first, I don't mind waiting an extra five minutes... seeing that you're already two hours late.
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:I don't think anyone here would find that necessary. Let's just get cracking.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M16 drains her glass of whiskey, then rises to her feet and walks over to join the group. 
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:You took almost double the time it should have taken to get here. Did something happen on the way?
+HK416Mod(0)<Speaker>416</Speaker>||:No, we just took a few detours for safety reasons.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:A necessary measure, I'm sure, as long as you didn't attract any unwanted attention.
+()<Speaker></Speaker>||:UMP45 tuts in feigned surprise.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Never thought I'd see the day when you two would have such a civil conversation with each other.
+HK416Mod(0)<Speaker>416</Speaker>||:...
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:...
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Right, since we're all here, let's start the meeting.
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:Huh? But DEFY hasn't arrived yet.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:They're here.
+()<Speaker></Speaker>||:Stevens M520 replies with a slight frown of distaste.
+NPC-AK12Mod#隐身(11)<Speaker>???</Speaker>||:Aw, I was hoping you wouldn't ruin the surprise.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AK-12 deactivates her cloak. Three pale-haired figures materialize on top of the table in the center of the room.
+AN94MOD(0)<Speaker>AN-94</Speaker>||:All members of Task Force DEFY are present.
+AK15MOD(3)<Speaker>AK-15</Speaker>||:...
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:Good evening, ladies.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Before we start...
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Get the hell off that table. That's a piece of antique in Dr. Hume's collection made of a single piece of old padauk wood.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:Whatever you say.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:忤逆也来到人群附近坐下，显然，这场会议的开启条件已经完成了。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:接下来开始讨论具体行动事宜。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:距离指挥官失踪已经过去了整整8天，在此期间，我们通过各方面找到的情报显示指挥官的失踪和帕拉蒂斯有关。+根据忤逆提供的情报，帕拉蒂斯的情报都会经过蜂针系统处理，如果能够骇入其中的话一定能找到指挥官的线索。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:是的，我们已经掌握了蜂针系统服务器所在地的大致坐标，就在美因河底。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:蜂针系统的攻克交给404来负责，克罗丝和赫莎为你们提供支援。
-AR18(3)<Position>0,100</Position>;UMP45Mod(0)<Speaker>UMP45</Speaker>||:收到。
-AR18(3)<Position>0,100</Position>;NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:必要的话，我也可以提供援助。
-AR18(3)<Position>0,100</Position>;NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:毕竟我真的很想知道指挥官到底给那个笨蛋灌了什么迷魂汤……
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:那么克罗丝和赫莎就交给你了。
-AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:法兰克福交通管制后，帕拉蒂斯的行动变得更频繁了。+我怀疑它们有新的计划。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:这就是我需要忤逆做的，查清楚帕拉蒂斯的行动目的。
-AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:只是查清楚？
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:以调查计划为目的，手段不做限制。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:正合我意。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:你们的行动也能为404分散帕拉蒂斯的注意力，但请注意分寸。
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:……
-()<Speaker></Speaker>||:窃窃私语的地下室内，M16细微的表情变化尽数落入HK416眼底。
-HK416Mod(0)<Speaker>HK416</Speaker>||:在座的各位似乎都分配到了工作，除了某位沉默者。
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:……
-()<Speaker></Speaker>||:敏锐地捕捉到HK416言辞中的锋芒，包括AR-18在内，不少人同时将目光投向M16。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:这才是我想看到的嘛♪
-UMP9Mod(5)<Speaker>UMP9</Speaker>||:45姐，别拱火了……
-HK416Mod(0)<Speaker>HK416</Speaker>||:我没有针对M16的意思，我只是认为大家既然要合作救出指挥官，共享自己知道的情报是理所应当的。+404拿出了全部的技术，忤逆也给出了这些天搜集到的所有情报，M16是否也该有所表示？
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:哗啦——M16微笑着给酒杯倒上威士忌，不急不缓地抬眼对上HK416眼里的锋芒。
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:……+露尼西亚从艾莫号上带走了指挥官和威廉。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:……
-HK416Mod(0)<Speaker>HK416</Speaker>||:问题是，他们现在的位置？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:法兰克福，白区。
-M16A1BOSS(2);HK416Mod(0)<Speaker>HK416</Speaker>||:白区……？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:法兰克福都市传闻常出现过的地方，绝对的干净无污染，只为那些权势之人准备。
-M16A1BOSS(2);HK416Mod(0)<Speaker>HK416</Speaker>||:你的情报来源？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:关于“白区”和指挥官的下落，我能说的只有这么多。+我现在明面上的身份是国安局雇员，很多事不方便出面。+对于你们接下来的行动，我只有一个请求——找到指挥官在“白区”的准确坐标。+剩下的事，我可以想办法。
-HK416Mod(0)<Speaker>HK416</Speaker>||:……
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:了解。+这也正是我们所期望的。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:话说回来，为什么不在割下蜂巢之前先取点蜜呢？+等有了更趁手的利器，到时候再彻底清除蜂巢和蛀虫不就方便多了？
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:不错的提议。+诸位觉得呢？
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:我没什么意见。
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:要是能从中找到帕拉蒂斯的残余基地，就再好不过了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:我们会尝试破解的。
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:行动初步分工安排完毕，行动代号为“阿德剌斯忒亚”。+没有异议的话，接下来进入下一议程——
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:“阿德剌斯忒亚”行动的具体分工。
-()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:The DEFY Dolls also join the others and take their seats. Now the meeting can finally begin in earnest.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Let's start by discussing how we'll carry out the operation.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:It has been eight whole days since the Commander went missing. All the intelligence we have gathered during this time points to the fact that Paradeus was involved in the Commander's disappearance.+According to information supplied by DEFY, all Paradeus intelligence is processed through the Bee Sting System. If we hack it, we will be able to find leads about the Commander's whereabouts.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:Yes, we already have the approximate coordinates of the Bee Sting System server—it's under the Main.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Squad 404, you will be in charge of attacking the Bee Sting System with support from Cross and Hertha.
+AR18(3)<Position>0,100</Position>;UMP45Mod(0)<Speaker>UMP45</Speaker>||:Sure.
+AR18(3)<Position>0,100</Position>;NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I can also provide aid if necessary.
+AR18(3)<Position>0,100</Position>;NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:After all, I'm very curious what kind of spell this Commander had cast on that dork...
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Then you have command over Cross and Hertha.
+AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:There has been an increase in Paradeus' activities since traffic restrictions were put in place in Frankfurt.+I suspect they're up to something again.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:This is precisely what I need DEFY to do—to investigate Paradeus' intentions.
+AR18(3)<Position>0,100</Position>;NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:Just to investigate?
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>;NPC-AK12Mod(11)||:That is your objective; how you achieve it is entirely up to you.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:Just what I want to hear.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Your actions will also serve as a distraction to draw Paradeus' attention away from 404, but please don't go overboard.
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:...
+()<Speaker></Speaker>||:As the muttered discussion continues in the basement, 416 takes note of the minute shift in M16's expressions.
+HK416Mod(0)<Speaker>416</Speaker>||:Everyone present has been given a task, except for a certain someone who hasn't said a word so far.
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:...
+()<Speaker></Speaker>||:The edge in 416's words does not go unnoticed. All the Dolls, including AR-18, directs their gaze at M16.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:See, this is what I've been waiting for. ♪
+UMP9Mod(5)<Speaker>UMP9</Speaker>||:45, don't stoke the fire...
+HK416Mod(0)<Speaker>416</Speaker>||:I meant no offense. I simply think that since we're all working together to rescue the Commander, we should share everything we know.+Squad 404 is offering our tech, DEFY has also supplied all the intelligence they have gathered in recent days, so perhaps you also have something to contribute, M16?
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:Splash... M16 pours herself another whiskey as she meets 416's pointed gaze with an unflappable smile.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:...+It was Lunasia who removed the Commander and William from the Elmo.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:...
+HK416Mod(0)<Speaker>416</Speaker>||:Then the question is... where are they now?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:Frankfurt, in the White Zone.
+M16A1BOSS(2);HK416Mod(0)<Speaker>416</Speaker>||:The White Zone...?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:A place mentioned in local urban legends, where there is absolutely zero contamination, prepared just for those in power.
+M16A1BOSS(2);HK416Mod(0)<Speaker>416</Speaker>||:What's the source of your information?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>;HK416Mod(0)||:That's all I can say about the White Zone and the Commander's whereabouts.+I am now officially an employee of Statesec, so there are a lot of things in which I can't overtly get involved.+Regarding your upcoming operation, I have only one request—determine the Commander's exact coordinates within the White Zone.+I can handle the rest.
+HK416Mod(0)<Speaker>416</Speaker>||:...
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Understood.+That is precisely what we wish to achieve.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Say, why don't we harvest some honey before cutting down the hive?+It'd be much easier to eradicate the hive and vermin when we have better tools, no?
+AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:That's not a bad idea.+What do you think?
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:I have no objection.
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker>||:If you could locate Paradeus' remaining bases of operation, all the better.
+HK416Mod(0)<Speaker>416</Speaker>||:We will do our best.
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:That concludes the preliminary division of labor for the operation, which will henceforth be known as Operation "Adrasteia".+If we are all agreed, we will proceed to the next item on the agenda—
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:The specifics of Operation Adrasteia.
+()||<黑屏1>:

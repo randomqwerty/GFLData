@@ -1,82 +1,82 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>10082</BGM><黑屏2><BIN>417</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:法兰克福-埃施博恩区，帕拉蒂斯工厂内。
-()<Speaker></Speaker>||:窥伺着工厂每个角落的信号汇集之处，在经过风暴洗礼后，几乎瘫痪了大半。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……
-()<Speaker></Speaker>||:尼梅兰若有所思地回顾着忤逆闯入和撤离的监控录像，思索着她们是如何发现这里，又是为什么要进行这一场看似毫无收获的战斗。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:艾希礼，汇报工厂的情况。
-()<Speaker></Speaker>||:忽视系统警报的打断，艾希礼从堆积如山的窗口中勉强计算着当前的数据。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:报告尼梅兰姐姐。+当前工厂设备损毁46%，流水线和筛选中心近乎报废……+至于人员方面……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:嘟！屏幕中央忽然闪出一个异样的警报——+来自蜂针系统。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:尼梅兰姐姐，蜂针系统截获到了重要情报。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……打开。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:是。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:艾希礼中断汇报，立刻输入密钥……+偌大的屏幕上，加密过的文字如天书般呈现，落在尼梅兰眼中，转译成精确的词句。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:……
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:尼梅兰姐姐，需要我做些什么吗？
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:你带人去盘点工厂剩余物资，准备进行转移。+留些人手下来处理痕迹。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:是。
-()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:一众驻守的白涅托连大气都不敢喘，悄然退出了房间。+在其他涅托都离开后，尼梅兰才分析起了蜂针系统新截获的情报。+是法兰克福区图书馆的一则新进图书名单。
-()<Speaker></Speaker>||:引起警报的书籍名称是，《人类理智研究（第十八版）》。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:尼梅兰将情报整理好，发送给了拉普拉斯。+几分钟后，她就收到了拉普拉斯的通讯。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我要实物。</color>
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position>||:但现在只有这一条情报，连新版的日期、字数、目录都完全不清楚。+我已经将这本书锁定，稍晚我就会派人为您取出。
-NPC-Laplace(13)<Speaker>拉普拉斯</Speaker><通讯框>||:<color=#00CCFF>嗯。</color>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:滴。通讯中断。
+()<Speaker></Speaker>||:Inside a Paradeus factory, Eschborn District, Frankfurt.
+()<Speaker></Speaker>||:At the signal hub where every corner within the factory is visible on the monitors, it becomes apparent that the facility is almost completely paralyzed after the dust settles.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...
+()<Speaker></Speaker>||:Watching the playback of DEFY's entry and withdrawal thoughtfully, Nemhran ponders how they discovered this base and why they conducted this seemingly pointless operation.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Ashley, report on the status of the factory.
+()<Speaker></Speaker>||:Ignoring the interruption from the system alert, Ashley forces the computer to compile all the data through stacks of pop-up windows.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Yes, Sister Nemhran.+Currently, 46% of the factory equipment is damaged, and the assembly lines and screening center are almost completely destroyed...+ As for our manpower...
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:Beep! A different alarm suddenly starts flashing in the center of the screen—+An alarm from the Bee Sting System.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Sister Nemhran, the Bee Sting System just intercepted some important information.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...Open it.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Yes, Sister Nemhran.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Ashley pauses her report and inputs the password...+The encrypted text appears on the large screen. The illegible gibberish is translated into concise words and sentences in Nemhran's eyes.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Sister Nemhran, is there anything I can do?
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Lead a team to take stock of any supplies that can be salvaged from the factory and prepare to move them.+And get someone to stay behind and clean everything up.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Yes, Sister.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:All the white Nytos present quietly file out of the room, not daring to make a peep.+Only when everyone else has gone does Nemhran starts analyzing the information intercepted by the Bee Sting System.+It is a list of newly acquired books at the Frankfurt District Library.
+()<Speaker></Speaker>||:The book title that has triggered the alarm is... "Human Intelligence Research (18th Edition)".
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Nemhran gathers all the information and sends it over to Laplace.+A few minutes later, she receives a comms request from her.
+NPC-Laplace(11)<Speaker>Laplace</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>I want the physical copy.</color>
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:All we have at the moment is the fact that it has appeared in the library; we know nothing about the date of publication, word count, or contents.+I have already located the book, and I'll send someone to extract it for you later.
+NPC-Laplace(13)<Speaker>Laplace</Speaker><通讯框>||:<color=#00CCFF>Sure.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:Beep. The call ends.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>566</BIN>:
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:涅托们忙碌着，在废墟中翻找着还能使用的物资。
-NytoWhite(0)<Speaker>艾希礼</Speaker><Position>0,50</Position>||:动作快点，还能运行的全部搬上车，不要有遗漏。
-Nyto(0)<Speaker>黑涅托</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:艾希礼扫视了值班的涅托一眼，叮嘱一句后，匆匆赶赴尼梅兰的下一个命令地点。
-Nyto(0)<Speaker>黑涅托</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:艾希礼走远后，黑涅托扔下手中的东西，走向了基地深处。
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The Nytos scramble around the ruins, gathering any supplies that are still usable.
+NytoWhite(0)<Speaker>Ashley</Speaker><Position>0,50</Position>||:Make it quick. Load everything that still works onto the truck. Don't miss anything.
+Nyto(0)<Speaker>Black Nyto</Speaker>||:Understood.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Ashley takes one last look at the Nyto on duty, gives one last instruction, then hurries off to the next location that Nemhran has ordered her to attend to.
+Nyto(0)<Speaker>Black Nyto</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:When Ashley has walked off into the distance, the black Nyto dumps what she is carrying and heads deep into the base.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>46</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:帕拉蒂斯工厂附近，隐蔽的地下室。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>忤逆已经安全撤出，你们可以行动了。</color>
-HK416Mod(0)<Speaker>HK416</Speaker>||:收到。
+()<Speaker></Speaker>||:In a hidden basement near the Paradeus factory.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>DEFY has withdrawn safely. You're up.</color>
+HK416Mod(0)<Speaker>416</Speaker>||:Copy that.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:哼哼~法兰克福区图书馆的《人类理智研究（第十八版）》已经被锁定了。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:咬钩咬得真快啊。
-HK416Mod(0)<Speaker>HK416</Speaker>||:别大意，准备骇入。
-HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:友情提示，这位警惕的特工小姐，你快把G11的效能拉爆了。
-HK416Mod(0)<Speaker>HK416</Speaker>||:G11现在很好。
-G11Mod(0)<Speaker>G11</Speaker><Shake>||:我、我很好……
-()<Speaker></Speaker>||:在HK416的部署下，G11的心智容量也被作为备用容量遭到了占用。
-HK416Mod(0)<Speaker>HK416</Speaker>||:密码破译准备就绪，预计能为你们拖到30分钟。+考虑到蜂针系统的不确定性，你们实际可能只有15分钟。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在毫无保留地潜入蜂针系统之前，UMP45意味深长地看了416一眼。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:你这么紧张，搞得我也紧张起来了。
-HK416Mod(0)<Speaker>HK416</Speaker>;UMP45Mod(0)||:你本来就该紧张。
-HK416Mod(0);UMP9Mod(3)<Speaker>UMP9</Speaker>||:深呼吸~+出发吧，45姐！
-HK416Mod(0)<Speaker>HK416</Speaker>||:保持定期联络，错过一次我就会强制将你们唤醒。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><BGM>BGM_Empty</BGM>:UMP45和UMP9闭上眼睛，下潜进入二级平层……
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:Humph~ The copy of "Human Intelligence Research (18th Edition)" in Frankfurt Library has already been locked onto.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:They took the bait pretty quickly.
+HK416Mod(0)<Speaker>416</Speaker>||:Don't lower your guard. Prepare to hack the system.
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:By the way, Agent Vigilant, just a gentle reminder that you're almost overclocking Gr G11's processor.
+HK416Mod(0)<Speaker>416</Speaker>||:She's doing fine.
+G11Mod(0)<Speaker>Gr G11</Speaker><Shake>||:I-I'm doing fine...
+()<Speaker></Speaker>||:Following 416's strategy, even Gr G11's neural cloud is being used to provide auxiliary processing power.
+HK416Mod(0)<Speaker>416</Speaker>||:We are ready to crack the code. We should be able to buy you about 30 minutes.+But considering how little we know about the Bee Sting System, you may only have 15 minutes in reality.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Before she infiltrates the Bee Sting System, UMP45 gives 416 a long look.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:You're so nervous you're making me nervous as well.
+HK416Mod(0)<Speaker>416</Speaker>;UMP45Mod(0)||:You should be nervous about this.
+HK416Mod(0);UMP9Mod(3)<Speaker>UMP9</Speaker>||:Take a deep breath~+Now let's go, 45!
+HK416Mod(0)<Speaker>416</Speaker>||:Check in regularly. I'll pull you out by force the moment you fail to check in on time.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><BGM>BGM_Empty</BGM>:UMP45 and UMP9 close their eyes and descend to Level II...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>72</BIN>:
-()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:……+二级平层内，蜂针系统外层。+顺利潜入的UMP45和UMP9在数据网络中小心翼翼地潜行。
-UMP9Mod(2)<Speaker>UMP9</Speaker>||:45姐，416这次怎么变得怪怪的？
-UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:你昨天不还夸她专业，有安全感吗？
-UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:那不是为了缓和下氛围嘛……
-UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:我猜她是受刺激了。
-UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:什么刺激？
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:大概是阿佛那斯里发生的事情……+具体的出去再说吧，我们已经接触到了系统最外层的防御。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:UMP45取出破解秘钥，数字的几轮快速翻转后，她们通过了最外层防御。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:这么快，那看来15分钟我们也够了！
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:高兴太早了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45指向远处隐隐发光的物体。
-UMP9Mod(0)<Speaker>UMP9</Speaker>||:那是……保密文件？
-UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:不，那是新的防御墙。
-UMP9Mod(2)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:看来是经典的构造，一层一层的俄罗斯套娃，希望我们要找的情报不在最里面一层……
-UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:要不要打个赌——指挥官的情报会在第几层？
-UMP9Mod(3)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:我希望在下一层！
-UMP9Mod(3);UMP45Mod(0)<Speaker>UMP45</Speaker>||:我猜，起码在第6层。
-UMP9Mod(4)<Speaker>UMP9</Speaker>||:诶？
-()<Speaker></Speaker>||<SE1>Select</SE1>:UMP45笑了一下，集中注意力，开始接近通向下一层的防御墙……
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:...+Outer layer of the Bee Sting System, Level II.+Having made their entry successfully, UMP45 and UMP9 proceed stealthily through the data network. 
+UMP9Mod(2)<Speaker>UMP9</Speaker>||:45, why is 416 acting so weird?
+UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:Didn't you just praise her for being professional and reassuring yesterday?
+UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:I said it to lighten up the mood...
+UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:I think she got rattled.
+UMP9Mod(0)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:By what?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Probably what happened in Avernus...+We'll talk about it when we're out. We've already triggered the system's outermost defense.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:UMP45 takes out the decryption key. The number dials turn rapidly several times, then they are through.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:That was quick. 15 minutes should be more than enough for us!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Spoken too soon.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45 points at an object that is glowing faintly in the distance.
+UMP9Mod(0)<Speaker>UMP9</Speaker>||:Is that... some kind of confidential document?
+UMP9Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker>||:No, that is another firewall.
+UMP9Mod(2)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:This system seems to have a classic matryoshka structure with layers upon layers of defenses. Let's just hope the information we're looking for isn't on the very inside...
+UMP9Mod(2);UMP45Mod(0)<Speaker>UMP45</Speaker>||:Wanna bet which layer we'll find the information about the Commander?
+UMP9Mod(3)<Speaker>UMP9</Speaker>;UMP45Mod(0)||:I hope it's the next one!
+UMP9Mod(3);UMP45Mod(0)<Speaker>UMP45</Speaker>||:I'm guessing it's at least six layers in.
+UMP9Mod(4)<Speaker>UMP9</Speaker>||:Huh?
+()<Speaker></Speaker>||<SE1>Select</SE1>:UMP45 chuckles. Then she concentrates on the task and starts heading toward the firewall that's blocking their access to the next layer...
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()||<黑点1>:
+()||<黑点1>:

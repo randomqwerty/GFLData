@@ -1,149 +1,149 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>BGM_Hume_TheCircularRuins_HarpSolo</BGM><黑屏2><BIN>9</BIN><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:耳畔，是草叶的沙沙声。
-()<Speaker></Speaker>||:柔弱的枝叶彼此拍打，一浪一浪翻滚，由远及近描摹出风自由的形状……
-()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_Bomber_Flying</SE1>:嗡——似乎是飞机起飞的声音。
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:The rustling of grass and leaves reach my ear.
+()<Speaker></Speaker>||:Delicate twigs slap against each other as they ripple in waves, depicting the free shape of the wind from far to near...
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><SE1>AVG_Bomber_Flying</SE1>:Vrooooom... That sounds like an aircraft lifting off.
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<睁眼><BIN>262</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:已经不记得上次在柔弱的晨光中一觉睡到自然醒，是什么时候的事了。+眼前的湖面一半闪着金色波光，一半却倒映着静谧的山……美得令人忘却了呼吸。
-()<Speaker>指挥官</Speaker>||:等到退休那天，我一定要在这样的湖边盖一间小屋，每天钓鱼、划船……+要是累了，就躺在草坪上看看天空，什么都不想……真好啊。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:……
-()<Speaker></Speaker>||:早已留意到身后的动静，指挥官却没有回头。
-()<Speaker></Speaker>||:只是竖起耳朵，从草叶的“沙沙”声中捕捉那一道由远及近、踏在木地板上的脚步声……+直到熟悉的气息来到自己的背后。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:请把投影关上吧，谢谢你。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:提早体验下退休生活，不好吗？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:美梦会让我迷失方向。+我还是在面对现实的时候比较有食欲。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:如你所愿。
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:I don't even remember when was the last time I got to wake up naturally in the soft morning sunlight.+Half of the lake before me glimmers with golden waves, while the other half bears the reflection of the serene mountains... It is such a beautiful sight that it quite literally takes my breath away.
+()<Speaker>Commander</Speaker>||:When I finally retire, I've got to build a little cabin by a lake like this. I'll sail and go fishing every day...+And when I'm tired, I'll just lie on the grass, looking at the sky, not thinking about anything... How lovely would that be.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:...
+()<Speaker></Speaker>||:The Commander has noticed the movement coming from behind, but they do not turn around.
+()<Speaker></Speaker>||:They simply prick up their ears and listen to the approaching footsteps walking on floorboards through the "rustling of grass and leaves"...+Until the familiar presence stops right behind them.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:You can turn off the projection, thank you.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Isn't it nice to get a preview of your retirement life?
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:Sweet dreams will make me lose my way.+I would rather face reality.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:As you wish.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<common_effect>%%code=202407_TVOff%%</common_effect><CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_tele_disconnect</SE1>:啪嗒！逼真的全息投影倏忽切断。
+()<Speaker></Speaker>||<common_effect>%%code=202407_TVOff%%</common_effect><CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_tele_disconnect</SE1>:Snap! The realistic holographic projection abruptly cuts out.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><关闭蒙版>:房间的真实面目原形毕露，这是一间看似废弃的仓库，昏暗的屋内零零散散地摆放着一些飞机部件。
-()<Speaker>指挥官</Speaker>||:法兰克福机场？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:饿了吗？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:你准备了什么？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:苹果派和碱水面包。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……还有苹果酒。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:露尼西亚背对指挥官，将苹果派和面包切片。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:指挥官正好借此机会打量起了房间。+不知道是第多少次，指挥官凝视着房间内正对自己的监控探头。
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><关闭蒙版>:The building reverts to its original form. It seems to be an abandoned depot with airplane parts scattered all over the dimly-lit interior.
+()<Speaker>Commander</Speaker>||:Are we at Frankfurt Airport?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Are you hungry?
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:What have you got?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Apple pie and pretzels.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...As well as apple cider.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Lunasia turns her back toward the Commander and cuts up the apple pie and pretzels.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:The Commander takes the opportunity to study their surroundings.+Their gaze falls once again on the surveillance camera currently pointed at them.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-Nyto(0)<Speaker>涅托</Speaker>||<黑屏2><BIN>158</BIN><回忆>:我们确信这基本是真实的内容。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:……滴，滴。+我听到耳边传来细小的声音，显然，所有的涅托对此都没有任何反应。
-()<Speaker>冷静的人形声音</Speaker>||:<color=#00CCFF>指挥官，不用回话，我知道你现在正在接受招待。</color>
-()<Speaker></Speaker>||:我听过这个声音，但是一时想不起来，毫无疑问，她和入侵涅托的那个人形是一伙的。
-()<Speaker>冷静的人形声音</Speaker>||:<color=#00CCFF>我们现在正在摸清了这座疗养院的防御体系，以便制定入侵计划，这需要点时间。</color>+<color=#00CCFF>指挥官，请再争取一些时间。我知道这会很痛，但是目前没有别的办法。</color>+<color=#00CCFF>我唯一能安慰你的方式，就是希望你能享受其中。</color>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:她留下一个一点都不好笑的玩笑，就结束了通讯。
+Nyto(0)<Speaker>Nyto</Speaker>||<黑屏2><BIN>158</BIN><回忆>:We believe your account to be fundamentally true.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:...Beep-beep. +I hear a quiet sound in my ear. Of course, none of the Nytos react to it.
+()<Speaker>Calm Doll's Voice</Speaker>||:<color=#00CCFF>No need to answer, Commander. I know you're enjoying their hospitality.</color>
+()<Speaker></Speaker>||:I know I've heard that voice before, but I can't quite place it. There's no doubt that she's with the T-Doll who hacked the Nytos.
+()<Speaker>Calm Doll's Voice</Speaker>||:<color=#00CCFF>We are currently figuring out the defensive system of the treatment facility where you're being held in order to work out an infiltration plan. It's going to take a while.</color>+<color=#00CCFF>Therefore, we need you to buy us more time, Commander. I know it will hurt, but currently we have no other options.</color>+<color=#00CCFF>The only solace I can offer you is my hope that you will come to enjoy it.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:She ends the transmission after leaving me with that thoroughly unfunny joke.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><CGDelay>0.5</CGDelay>:指挥官没有想到，自己有一天竟会如此迫切地希望再听见一次404的声音，哪怕是个冷穿地心的笑话。
-()<Speaker></Speaker>||:突然，监控探头上的提示灯闪烁了两下，指挥官瞪大了双眼。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:没来得及继续观察，露尼西亚就走到了指挥官面前。
-NPC-Lunasia(2)<Speaker>露尼西亚</Speaker>||:来吃饭吧。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:指挥官被拉到餐桌边，背对着监控探头。
-()<Speaker></Speaker>||:也许只是网络波动？指挥官在心里苦笑。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:怎么？不合你胃口？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:合不合我胃口，你应该很清楚。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:露尼西亚给指挥官倒上一杯酒。
-NPC-Lunasia(2)<Speaker>露尼西亚</Speaker>||:快点吃吧。
-NPC-Lunasia(2)<Speaker>指挥官</Speaker><同时置暗>||:接下来是什么安排？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:你吃完就知道了。
-()<Speaker></Speaker>||:从露尼西亚平静的脸上，指挥官读不出多余的信息。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在指挥官享用餐食时，露尼西亚将一身崭新的衣服放在了指挥官身边。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:虽然我闻不到，但我猜你应该需要换身衣服了。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:这里有淋浴设备，一会你自己去用了，把衣服换上吧。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:威廉要见我了？
-()||:露尼西亚不搭话，只是静静地品味着杯中的苹果酒。
-()||<SE1>AVG_tableware</SE1>:指挥官也不多话，迅速吃起了盘中的食物。
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN><CGDelay>0.5</CGDelay>:The Commander never thought that there would come a day when they'd wish to hear 404's voices again so desperately, even if it's just to make a terrible joke.
+()<Speaker></Speaker>||:All of a sudden, the indicator light on the surveillance camera blinks twice. The Commander's eyes widen.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Before they can observe the camera more closely, Lunasia has walked up to them.
+NPC-Lunasia(2)<Speaker>Lunasia</Speaker>||:Come and eat something.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:The Commander is dragged over to a table. They crane their head to peer at the camera again.
+()<Speaker></Speaker>||:Maybe it was just a signal fluctuation? The Commander thinks to themself humorlessly.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:What's wrong? Is it not to your taste?
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:You know full well if it's to my taste or not.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:Lunasia pours the Commander a glass of cider.
+NPC-Lunasia(2)<Speaker>Lunasia</Speaker>||:Please eat.
+NPC-Lunasia(2)<Speaker>Commander</Speaker><同时置暗>||:What's going to happen next?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:You'll find out after you eat.
+()<Speaker></Speaker>||:The Commander is unable to glean any information from Lunasia's impassive face.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:While the Commander is digging in, Lunasia places a new set of clothes by their side.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:I can't smell, but I'm guessing you could use a change of clothes.
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:This place is equipped with shower facilities. Please use it and get changed.
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:Has William asked to see me then?
+()||:Lunasia makes no answer. She just quietly sips the apple cider in her glass.
+()||<SE1>AVG_tableware</SE1>:The Commander also says no more and promptly eats up all the food on their plate.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Water_Tap</SE1><CGDelay>1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>769</BIN>:结束淋浴，换上干净衣服的指挥官走回露尼西亚面前。
-()<Speaker>指挥官</Speaker>||:我好了，可以去见威廉了。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:倚靠在椅背上的露尼西亚露出了恍惚的微笑。+指挥官注意到她的脸有些潮红，眼神也飘忽不定，而她握在手里的酒瓶已经空了。
-()<Speaker>指挥官</Speaker>||:你全喝光了？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:嗯……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:指挥官挠了挠头，找来一条毛毯搭在了露尼西亚身上。
-()<Speaker>指挥官</Speaker>||:威廉在哪里？
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:为什么你总是问他？
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:明明在你面前的是我。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:你喝多了，好好休息吧。
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:你为什么不能关心下我？
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:……+你怎么了？为什么喝起了闷酒？+还有为什么突然在意起了我的仪表？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:我想你陪陪我。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:这些天我不一直都在？
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:不，不是这样……+是像普通人那样，普通的情侣那样。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我记得……普通人会在约会前，把自己收拾干净……+然后去见心爱的人……+所以我才让你也……
-()<Speaker>指挥官</Speaker>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:指挥官……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:我在。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:和我约会吧。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:指挥官叹了口气，坐在了露尼西亚对面的椅子上。
-()<Speaker>指挥官</Speaker>||:说吧，你想怎么“约会”？+这附近有什么适合的地点吗？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:怎么？想趁我醉酒的时候，试探我们的位置？
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……不是这个意思。+既然你想要一场约会，那我只能尽力做到最好。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:地点就在这里。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官环顾四周，这简陋脏乱的仓库，怎么看都不是一个合适的约会场所。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:你之前关掉的投影呢？
+()<Speaker></Speaker>||<黑屏2><BIN>769</BIN>:After taking a shower, the freshly-dressed Commander comes before Lunasia.
+()<Speaker>Commander</Speaker>||:I'm done. I'm ready to meet William.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...
+()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:Lunasia, who is leaning back in her chair, gives the Commander a dazed smile.+They notice her flushed cheeks and unfocused eyes. The bottle in her hand is empty.
+()<Speaker>Commander</Speaker>||:You drank the whole thing?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Yeah...
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:The Commander scratches their head, then finds a blanket and drapes it over her shoulders.
+()<Speaker>Commander</Speaker>||:Where's William?
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:Why are you always asking about him?
+NPC-Lunasia(4)<Speaker>Commander</Speaker><同时置暗>||:...
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:I'm the one sitting right in front of you.
+NPC-Lunasia(4)<Speaker>Commander</Speaker><同时置暗>||:You drank too much. Get some rest.
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:Why won't you show me some concern?
+NPC-Lunasia(4)<Speaker>Commander</Speaker><同时置暗>||:...+What's the matter with you? Why are you drinking to drown your sorrows?+And why do you suddenly start caring about my appearance?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:I want you to keep me company.
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:I've been here the whole time in the last few days, haven't I?
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:No, not like that...+I want us to spend time together like normal people... like a couple.
+NPC-Lunasia(4)<Speaker>Commander</Speaker><同时置暗>||:...
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:From what I remember... when people are about to go on a date, they'd clean themselves up...+Before seeing their beloved...+That's why I also asked you to...
+()<Speaker>Commander</Speaker>||:...
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Commander...
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:Yes?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Let's go on a date.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:The Commander lets out a sigh and sits down on the chair opposite Lunasia.
+()<Speaker>Commander</Speaker>||:Alright, what kind of "date" are you thinking?+Are there any suitable locations nearby?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:What? Trying to figure out our location while I'm drunk?
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...That's not what I mean.+If you want a date, I have to deliver to the best of my ability.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:We have the date right here.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander looks around. This rough and grimy depot is not at all a suitable location for a date.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:Where's the holographic projector that you shut down earlier?
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1><CGDelay>1</CGDelay><BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>658</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:依靠投影的力量，两人仿佛正身处法兰克福的天台。
-()<Speaker></Speaker>||<SE1>AVG_Bomber_Flying</SE1>:嗡——仓库外传来飞机起飞的声音。+指挥官好像能看见一架飞机正载着乘客飞向天空。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:你喜欢坐飞机吗？
-()<Speaker></Speaker>||:两人并肩躺在地板上，露尼西亚扭头看向指挥官。
-()<Speaker>指挥官</Speaker>||:一般吧，对我来说只是一种交通工具。
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我讨厌飞机。+它总是把我喜欢的人从我身边带走，又把我讨厌的人送来。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:喜欢的人和讨厌的人都是谁？
-NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:我不想谈论他们。
-NPC-Lunasia(4)<Speaker>指挥官</Speaker><同时置暗>||:好吧，那没有人陪在你身边一起吗？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:有，比尔一直陪在我身边。
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:我其实不太知道该怎么面对身边形形色色的人……+我习惯于隐藏起情绪，但他不一样，他为了保护我，连带着把我的情绪也一并表达了。+这让他看起来似乎总是歇斯底里的，但我知道，他是个温柔体贴的孩子……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……我持保留意见。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:有一次我跑去看飞机，忘记还烧着水，结果等我回来的时候，锅已经烧穿了，差点酿成一场火灾……+妈妈很生气，到处排查是谁干的，比尔看我抖得厉害，主动承认是他干的。+那一次，他被打得好惨……还被关了三天禁闭……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:……+<color=#A9A9A9>怎么没直接打死呢？</color>
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:我欠他太多了……
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:指挥官撑起身体，给自己倒上一杯酒，想要甩掉脑内凶狠的念头。
-()<Speaker>指挥官</Speaker>||:没有这个人不存在的记忆吗？
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:有啊，我记得之前野外实战训练的时候，我带着SOP2和15好不容易搞定了任务，准备去找16姐汇合。+结果我找错了汇合点，还上错了飞机。
-NPC-Lunasia(2)<Speaker>露尼西亚</Speaker>||:等我们快到终点的时候，才发现我们上的是去西伯利亚挖矿的飞机……+把16姐急坏了……
-NPC-Lunasia(2)<Speaker>指挥官</Speaker><同时置暗>||:哈哈哈哈哈……我能想象她的表情。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:那时候，15的脸黑得让我害怕，SOP2倒是玩得很开心，我根本不知道该怎么办。+最后16姐帮我们联系到了愿意送我们回来的飞机，SOP2还非要带上她挖到的一块巨大的矿石。+把她拖上飞机后，她还要哭着跟石头告别……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:那块石头一定让SOP2挂念了很久。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:嗯……+前段时间在艾莫号上，我还听见她说梦话在念叨那块石头。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:提到艾莫号，指挥官闷不做声地喝下两杯酒。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:就是SOP2还在修理槽中修复，不然她应该要坐起来念叨起那段往事了。
-()<Speaker>指挥官</Speaker>||:……
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:怎么了？
-()<Speaker></Speaker>||:指挥官转向露尼西亚。
-()<Speaker>指挥官</Speaker>||:这些记忆是属于三个人的。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:是吗……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:嗯，和威廉有关的是露尼西亚的记忆。+和AR小队训练是M4的记忆，后面在艾莫号应该是丹德莱的记忆。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-NPC-Lunasia(0)<Speaker>指挥官</Speaker><同时置暗>||:我看你讲的时候完全没有意识到自己在切换不同的视角，所以我只能猜测这些记忆在你的心智中全部混成一团。
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:……
-()<Speaker>指挥官</Speaker>||:所以，你是谁？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:露尼西亚抬起被阴翳遮掩的眼睛。
-NPC-Lunasia(1)<Speaker>露尼西亚</Speaker>||:对你来说，我是谁？
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:指挥官刚想回答，撑起身体的手臂突然一软，只能无力地任自己躺在地板上。+视线中出现露尼西亚的脸，她安静地注视着说不出话的指挥官。
-NPC-Lunasia(1)<Speaker>露尼西亚</Speaker>||<CGDelay>0.5</CGDelay>:或许我想要的根本不是一场约会，而是一个答案。+我是谁？我也不知道这个问题的答案。+但或许我并不需要去费力寻找答案，我的诞生本身就是回答了，不是吗？
-()<Speaker>指挥官</Speaker>||:<color=#A9A9A9>不是！</color>
-NPC-Lunasia(0)<Speaker>露尼西亚</Speaker>||:抱歉了，指挥官，又让你陪我胡来了一天。+安心睡吧，醒来又会是新的一天。
-()<Speaker>指挥官</Speaker>||::<color=#A9A9A9>露尼西亚！</color>
-()<Speaker></Speaker>||:汹涌袭来的睡意压制住了指挥官的全部话语。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:在世界彻底沦陷之前，指挥官拼尽全力抓住了露尼西亚的手……
-()<Speaker></Speaker>||<黑屏1>:好像是错觉，指挥官最后的意识里，身后的人似乎顿了一下，然后就陷入漫长而微妙的沉默……
+()<Speaker></Speaker>||:Through the magic of holographic projection, it's almost as if they were now on a rooftop in Frankfurt.
+()<Speaker></Speaker>||<SE1>AVG_Bomber_Flying</SE1>:Vroom... The sound of an aircraft taking off can be heard from outside the depot.+The Commander can almost see a commercial airliner taking to the skies.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Do you like traveling by plane?
+()<Speaker></Speaker>||:The two of them are lying side-by-side on the floor. Lunasia turns her head to look at the Commander.
+()<Speaker>Commander</Speaker>||:I neither like nor dislike it. It's a mode of transport for me, just like any other.
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:I hate planes.+They're always taking people I love away from me and bringing in people I hate.
+NPC-Lunasia(4)<Speaker>Commander</Speaker><同时置暗>||:Who are the ones you love and who are the ones you hate?
+NPC-Lunasia(4)<Speaker>Lunasia</Speaker>||:I don't want to talk about them.
+NPC-Lunasia(4)<Speaker>Commander</Speaker><同时置暗>||:Alright, then don't you have anyone by your side?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Yes, Bill has always been by my side.
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:I never quite know how to deal with all the different people around me...+I've gotten used to hiding my feelings, but he's different. To protect me, he'd channel my emotions on top of his own.+Because of that, he always appears hysterical, but I know he's a gentle, thoughtful boy...
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...I have reservations about that.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:One time, I went to watch the planes and forgot that the water was boiling on the stove. By the time I went back inside, the bottom of the kettle was completely burned, and I almost caused a fire...+Mother was furious and kept demanding to know who was responsible. Bill saw me trembling in fear, so he stepped forward and took the blame.+He took a terrible beating for that... and was locked up for three days...
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...+<color=#A9A9A9>They should've just beaten him to death.</color>
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:I really owe a lot to him...
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:The Commander props themself up and pours themself a glass of cider to try to get rid of the vicious thoughts in their head.
+()<Speaker>Commander</Speaker>||:Do you have any memory that doesn't concern this person?
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Sure. I remember during a field combat drill, I led SOP-II and 15 in completing a difficult mission, and we set off to regroup with 16.+But I got the rendezvous point wrong and we ended up boarding the wrong plane.
+NPC-Lunasia(2)<Speaker>Lunasia</Speaker>||:Only when we were almost at the destination did we realize the plane was headed to a mine in Siberia...+16 was in total panic...
+NPC-Lunasia(2)<Speaker>Commander</Speaker><同时置暗>||:Hahahahaha... I can imagine.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:15's face was like thunder, which scared me to death. SOP-II, on the other hand, had a lot of fun. I didn't know what to do at all.+In the end, 16 managed to find us a plane that was willing to give us a lift to where we were supposed to go, but SOP-II insisted on bringing along this insanely massive piece of geode that she had found.+When we finally dragged her onto the plane, she had to say goodbye to the geode in tears...
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:She must've obsessed over it for a long time afterwards.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Yeah...+Back when we were on board the Elmo a while ago, I could still hear her muttering about that geode in her sleep.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:At the mention of the Elmo, the Commander takes two gulps of their cider glumly.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:And that was only because she was undergoing repairs in a repair tank, or she would've sat up and started telling the story again.
+()<Speaker>Commander</Speaker>||:...
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:What's wrong?
+()<Speaker></Speaker>||:The Commander turns toward Lunasia.
+()<Speaker>Commander</Speaker>||:Those memories belong to three distinct individuals.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Do they...?
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:Yes, the memory about William belongs to Lunasia.+The one about the AR Team's field combat drill is M4's, and the memory on board the Elmo probably belongs to Dandelion.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...
+NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:When you were recounting them, I could see that you did not realize the switch in perspective at all, so I'm guessing the memories are all jumbled up together inside your neural cloud.
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...
+()<Speaker>Commander</Speaker>||:Now the question is... who are you?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Lunasia looks up, and her eyes come into the light.
+NPC-Lunasia(1)<Speaker>Lunasia</Speaker>||:Who am I to you?
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:Just as the Commander is about to answer, the arm that they've been using to prop themself up suddenly grows slack, and they slump helplessly on the floor.+Lunasia's face comes into view. She gazes silently at the Commander, who is now paralyzed and unable to speak.
+NPC-Lunasia(1)<Speaker>Lunasia</Speaker>||<CGDelay>0.5</CGDelay>:Perhaps what I really want isn't a date, but an answer.+Who am I? I don't know the answer to this question either.+But perhaps I don't actually need to try so hard to find an answer, because the fact that I came to be is already an answer in itself, don't you think?
+()<Speaker>Commander</Speaker>||:<color=#A9A9A9>No!</color>
+NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:Sorry, Commander, for making you put up with my antics again.+Now sleep. When you wake up, it will be another brand new day.
+()<Speaker>Commander</Speaker>||:<color=#A9A9A9>Lunasia!</color>
+()<Speaker></Speaker>||:The sudden wave of drowsiness stops any of the Commander's words from reaching their lips.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Before the world is completely consumed by oblivion, the Commander musters all their strength and grabs hold of Lunasia's hand...
+()<Speaker></Speaker>||<黑屏1>:They can't be sure if they're imagining it, but in the moment before they lose consciousness, the girl seems to pause before lapsing into a strange silence...

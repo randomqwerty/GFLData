@@ -447,7 +447,10 @@ patch3060=
 "3060/BattleInteractionController",
 "3060/SangvisGunStateController",
 "3050/DormConfirmBox",
-"3050/CharacterVoiceController",	
+"3050/CharacterVoiceController",
+"3060/SangvisGashaponDrawBoxController",
+"3060/GashaponController",
+"3060/CommonClothesColorLabelController",	
 }
 patch3070=
 {
