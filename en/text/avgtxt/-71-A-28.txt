@@ -1,182 +1,258 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><回忆><黑屏2><CGDelay>0.5</CGDelay>:
-NPC-Lunasia(1)<Speaker>Lunasia</Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:Say... if Machlian resides within Morridow's body, can you accept that?+Just like me with this body. Can you accept it?
-()<Speaker>Commander</Speaker>||:...
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><黑屏2>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><黑屏2><BIN>356</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:...In the temporary safe house, Squad 404 analyzes the information for which 416 has traded her life.+Pushing their sorrow aside for now, the Commander finally understands what Lunasia meant earlier.
-()<Speaker>Commander</Speaker>||:So this is what you meant when you said Machlian resided within Morridow's body...
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:It's a gift to you from Bill.
-NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...Toying with someone's life and death?
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...If you join forces with him...+He may agree to let Machlian return to your side.
-NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||<SE1>Rope</SE1>:Shut up.
-()<Speaker></Speaker>||:This is the first time the Commander has lost their temper in front of Lunasia.
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:You see? You can't accept it.+Neither can Bill.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:The Commander walks up to Lunasia. The grim determination they radiate silences Lunasia.
-()<Speaker>Commander</Speaker>||:...I've made up my mind.
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:What?
-()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:...I am going to destroy Paradeus completely.+All the Nytos, the Nyto incubation program known as Operation Cocoon, and whoever's pulling the strings behind them...
-()<Speaker>Commander</Speaker>||:I want them all dead.
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:What about Machlian?
-NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:Machlian is already dead.+She died right before my eyes.
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:I see. Then what about me?
-NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:...I hope you won't end up on the list.
-NPC-Lunasia(0)<Speaker>Lunasia</Speaker>||:...
-NPC-Lunasia(0)<Speaker>Commander</Speaker><同时置暗>||:I suppose you don't want to be on the list either.
-NPC-Lunasia(2)<Speaker>Lunasia</Speaker>||:Looks like I'm going to have to make an effort to prove myself.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander gestures for M16 to take Lunasia back to her cell.
+()<Speaker></Speaker>||<BGM>10345</BGM><黑点2><BIN>757</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Bang-bang-bang...+The fierce exchange of gunfire interrupts the tranquility of the residential area.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake><SE1>AVG_engine_speedup</SE1>:The vehicle carrying the Commander speeds away on the deserted streets.+But as their location is exposed, more and more enemy reinforcements rush to intercept them.
 ()||<黑点1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑点2><CGDelay>0.5</CGDelay>:
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Commander, you need rest.
-()<Speaker>Commander</Speaker>||:...+I want to check on 416.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<BIN>730</BIN><黑点2><SE1>Select</SE1>:There are too many pursuers! At this rate, the vehicle is going to fall apart very soon!
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:Focus on driving. I'll take care of the pursuers.
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:Clatter. M16 pulls open the sunroof and props her weapon up to fire at their relentless enemies.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.1</CGDelay><震屏3>:
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.4</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.4</CGDelay>:
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:416, cover me.
+HK416Mod(0)<Speaker>416</Speaker>||:Got it. I'll keep an eye on what's behind you.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:Bam!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:A garrison soldier is hit by the vehicle. While it brakes for a brief second, 416 snatches the communicator out of the soldier's hand and hacks into it.
+()<Speaker>Commander</Speaker>||:Can you find out their positions with this?
+HK416Mod(0)<Speaker>416</Speaker>||:Yes.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:A moment later, 416 has the answer.
+HK416Mod(0)<Speaker>416</Speaker>||:Commander, they have soldiers blocking all exits in the White Zone.+More than a dozen teams are also searching along the main road...
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Then we can't go back the way we came.
+()<Speaker>Commander</Speaker>||:...
+HK416Mod(0)<Speaker>416</Speaker>||:What should we do, Commander?
+()<Speaker>Commander</Speaker>||:Do you have a topographic map of the White Zone?+We've got to make a break for it. We're just sitting ducks here and they'll get to us sooner or later.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Bang-bang-bang!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=5</controll_shake><SE1>AVG_brake</SE1><SE1>AVG_engine_speedup</SE1>:Another burst of bullets are fired at the vehicle. UMP45 swerves just in time to evade most of them.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:You need a very high clearance level to access any map of the White Zone, and the topographic one is pretty much top secret.+I'm afraid we can't get to it on our own.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele, who has been nervously watching the gunfight through the window, suddenly speaks up.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:I have a rough understanding of the geography here. I took the effort to memorize it because the Instructor asked me to.
+NPC-Nele(3)<Speaker>Commander</Speaker><同时置暗>||:Nele...
+NPC-Nele(3)<Speaker>Nele</Speaker>||<SE1>ClothingUp</SE1>:The urban planning here is very systematic, with different areas for different functions.+The center is the administrative area, which is roughly northwest from here, and there are residential areas in both the southwest and northeast.
+NPC-Nele(3)<Speaker>Nele</Speaker>||<SE1>ClothingUp</SE1>:We are currently in the southwestern one.
+()<Speaker>Commander</Speaker>||<SE1>AVG_20Winter_Book</SE1>:...
+()<Speaker></Speaker>||:The Commander studies the diagram that Nele has quickly sketched and ponders their next move.
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:Do you know how we can get to the Main from here?
+NPC-Nele(2)<Speaker>Nele</Speaker>;M16A1BOSS(4)||:The Main... Why do you ask?
+NPC-Nele(2);M16A1BOSS(4)<Speaker>M16A1</Speaker>||:There is a circular Wiesbaden metro line that passes over the White Zone, and that's where the Main and the White Zone intersect.
+NPC-Nele(2);HK416Mod(0)<Speaker>416</Speaker>||:...You clearly did your homework.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Still, we can't get out even if we find the intersection...
+NPC-Nele(1)<Speaker>Commander</Speaker><同时置暗>||:No...+What 16 means is that the walls where the metro line passes over the White Zone are weaker.+We can blast our way through there.
+NPC-Nele(1);M16A1BOSS(2)<Speaker>M16A1</Speaker>||:Indeed.
+NPC-Nele(2)<Speaker></Speaker>;M16A1BOSS(2)||<CGDelay>0.5</CGDelay>:
+NPC-Nele(3)<Speaker>Nele</Speaker>||:...I understand.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele stares at her own diagram with a frown.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:Based on the information I have, I can only infer that the intersection is roughly to the north of the residential area, where the garrison base and the administrative area meet.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:That is the water treatment facility, which is directly connected to the top of the White Zone.
+HK416Mod(0)<Speaker>416</Speaker>||:Are you certain that this information is correct? It will directly determine our decision of where to go from here.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:I'm fairly confident, unless the building is camouflaged.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:That wouldn't be a problem.+We can run a soil analysis before we do it.
+HK416Mod(0)<Speaker>416</Speaker>||:...+Then I have no other questions, Commander.
+()<Speaker>Commander</Speaker>||:Thank you, Nele.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander looks at the "X" that Nele has marked on the map and frowns.
+()<Speaker>Commander</Speaker>||:We will have to get past the garrison base to get there. There's a chance that we'll be spotted.
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:The garrison has fully mobilized to hunt us down, so only a small number of soldiers are left behind at the base.
+M16A1BOSS(2)<Speaker>Commander</Speaker><同时置暗>||:I'm more concerned about the comms network within the garrison. They respond to developing situations very quickly and their reinforcements  are very fast.+The moment they come across our tracks, they will immediately know where we're headed.
+HK416Mod(0)<Speaker>416</Speaker>||:Don't worry, we will do everything we can to buy you time.+The explosion will also serve as a distraction to split the garrison's attention.
+HK416Mod(0)<Speaker>Commander</Speaker><同时置暗>||:Right, then our current objective is to reach the water treatment facility.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Roger that.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=5</controll_shake><SE1>AVG_brake</SE1><SE1>AVG_engine_speedup</SE1>:UMP45 changes direction and speeds toward their new destination...
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1><BIN>9</BIN><黑屏2>:
+()<Speaker></Speaker>||<黑点2><BIN>222</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Bang-bang-bang!+416 shoots down the last approaching garrison soldier.+Just as M16 has surmised, the entire garrison has mobilized, leaving only a few squads at the camp.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:416 looks up at the top section of the water treatment facility. If all has gone according to plan, M16 should have arrived at her position by now.
+HK416Mod(0)<Speaker>416</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>M16, 404 has finished cleaning up the scene.</color>+<color=#00CCFF>But we couldn't sabotage the garrison's internal alarm system in time, so reinforcements are already on the way.</color>
+HK416Mod(0);M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>Copy that. I'm already on the top floor and setting the charges.</color>+<color=#00CCFF>Give me five more minutes.</color>
+HK416Mod(0)<Speaker>416</Speaker>||:<color=#00CCFF>Acknowledged.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:416 looks over at the vehicle in the parking lot nearby in which the Commander, Nele, and J are hiding.+UMP45 and UMP9 are already in position to protect the Commander.+All that's left to do is for her and Gr G11 to intercept any enemy reinforcements and stall them until M16 completes the detonation.
+HK416Mod(0)<Speaker>416</Speaker>||:...
+()<Speaker></Speaker>||:In this quiet moment just before the storm, 416 is suddenly plagued by an inexplicable sense of unease.
+()<Speaker></Speaker>||<SE2>Alarm</SE2><BGM>BGM_Empty</BGM>:As if to prove her sense of premonition, a shrill alarm sounds from the water treatment facility.
+M16A1BOSS(2)<Speaker>M16A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Take cover. The charges are set.</color>
+HK416Mod(0)<Speaker>416</Speaker>||:<color=#00CCFF>Copy that. Retreat post-haste.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:416 gestures to her teammates behind her to take cover and promptly runs to safety herself.+The Commander's vehicle is just a few steps away.
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>Explode</SE1>:Boom!+The sound of a massive explosion comes from behind.+But there is no sign of the expected smell of smoke and burning.
+()||<黑点1>:
+()<Speaker></Speaker>||<睁眼><BIN>249</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:When 416 opens her eyes again, she is no longer near the water treatment facility that should've been ablaze. Instead...+She finds herself in her own Level II space.
+HK416Mod(0)<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:
+HK416Mod(0)<Speaker>416</Speaker>||:What's going on?
+HK416Mod(0)<Speaker>416</Speaker>||<SE1>AVG_tele_connect</SE1>:45? Is this you?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>What's wrong? Why are you calling me via a Level II channel?</color>
+HK416Mod(0)<Speaker>416</Speaker>;UMP45Mod(0)||:...+I got yanked into my Level II.
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>You got hacked?</color>
+HK416Mod(0)<Speaker>416</Speaker>||:I'm not sure.
+M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Describe what you see.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:416 takes in the starkly white space and looks for anything unusual.
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:Hiss...+The sound of a snake flicking its tongue.+It sounds extremely close, like it is right by her ear.
+HK416Mod(0)<Speaker>416</Speaker>||:A snake...+I see a snake.
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>A snake?</color>
+HK416Mod(0);M16A1BOSS(4)<Speaker>M16A1</Speaker><通讯框>||:<color=#00CCFF>416, we are now looking at your Level II through 45's shared screen.</color>+<color=#00CCFF>We're not seeing this snake of yours.</color>
+HK416Mod(0)<Speaker>416</Speaker>||:...
+()<Speaker></Speaker>||:416 stares unblinkingly at the white-lipped python coiled over several white objects that appear to be eggs.
+()<Speaker></Speaker>||:It flicks its tongue at 416 in warning.+But 416 takes no notice at all. Her attention is on the egg-shaped objects guarded by the python.+There are protected data within those shells.+416 realizes what she is looking at.
+()<Speaker></Speaker>||:This is "Cocoon".
+HK416Mod(0)<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+HK416Mod(0)<Speaker>416</Speaker>||<SE1>AVG_tele_connect</SE1>:45, what's the situation out there?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>The explosion was a bit more powerful than we expected, but we've opened up a passage alright.</color>+<color=#00CCFF>We are now repelling the garrison reinforcements while planning a route for the Commander.</color>+<color=#00CCFF>Your frame should be near the Commander's vehicle. </color>
+HK416Mod(0)<Speaker>416</Speaker>;UMP45Mod(0)||:...
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>If you have a plan, you'd better tell me now.</color>+<color=#00CCFF>Honestly, things aren't looking very good here.</color>
+HK416Mod(0)<Speaker>416</Speaker>;UMP45Mod(0)||:45, if there is a trap in front of you, and you know that taking the bait will kill you, but there is something vital in the trap, what would you do?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框> ||:<color=#00CCFF>We are all desperados here. Since when are we scared of a little gamble? </color>
+HK416Mod(0)<Speaker>416</Speaker>||:I knew it...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:416 lets out a sigh.
+HK416Mod(0)<Speaker>416</Speaker>||:Even if I don't step in the trap now, you'll do it sooner or later.
+()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_ev2408_DanceWithDeath</BGM>:Clatter. 416 raises her gun and walks up to the snake.
+HK416Mod(0)<Speaker>416</Speaker>||:Then it'd better be me. Such things should be left to the squad leader, don't you think?
+HK416Mod(0)<Speaker>416</Speaker>||:If I don't come back, you can take over as squad leader for a while.
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>...</color>+<color=#00CCFF>416, there is always a chance that you'll lose everything in the gamble, so make sure you think it through.</color>
+HK416Mod(0)<Speaker>416</Speaker>||:I have thought it through.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:416 deactivates her comms channel. The white-lipped python in front of her rears up, showing off its robust body and bearing its sharp fangs.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_2022Saros_SCARL1</SE1>:
+HK416Mod(0)<Speaker>416</Speaker>||:Commander... Never thought there'd come a day when I risk it all.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Bang-bang-bang!+416 squeezes her trigger, and the burst of bullets force the python to lean back.
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:The bullets bounce off its scales, creating a few sparks.
+HK416Mod(0)<Speaker>416</Speaker>||:Tsk, that's some ridiculously strong defense. I bet its attack is equally—
+()<Speaker></Speaker>||<震屏3><SE1>Battlefield</SE1>:Bam!+The white-lipped python whips its tail with lighting speed and the force of a tsunami.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake><SE1>AVG_Cloak_Whoosh</SE1>:Unable to dodge out of the way in time, 416 is brutally sent flying and crashes to the ground.
+HK416Mod(0)<Speaker>416</Speaker><Shake>||<SE1>Rope</SE1>:...+Why are the enemies all so overpowered these days?+With that kind of attack and defense stats, in Gr G11's words, this boss needs to be nerfed.
+()<Speaker></Speaker>||:With a derisive snicker, 416 stumbles to her feet and faces off the python once more.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:It raises its head high and flick its tongue as if in mockery.+416 recalls its previous attack and tries to identify any possible openings.
+()<Speaker></Speaker>||<SE1>Battlefield</SE1><震屏3>:Boom! The python launches another attack.
+HK416Mod(0)<Speaker>416</Speaker>||:...Pulling the same move?
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:416 slides through the gap between the python's tail and the ground. At the same time—
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:Bang-bang-bang!+She opens fire in the direction of its head.
+HK416Mod(0)<Speaker>416</Speaker>||:I won't fall for the same trick twice!
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1><CGDelay>0.2</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:The bullets once again bounce off its scales harmlessly with only a spark.+But causing damage is not 416's intention anyway. Her target has always been the "cocoon".
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:While the python is momentarily distracted, 416 grabs hold of one of the "cocoons".+Then...
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:Hiss...+She has lost sight of the snake, but the hiss by her ear is unmistakably clear.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=4</controll_shake><SE1>AVG_Dismember</SE1>:Crunch...+The pain of being strangled.
+()<Speaker></Speaker>||:She can't think. She can't move.+It feels as if she's being swallowed by the snake, paralyzed by deadly venom, and pushed further and further into hell.+Even so, 416 does not let go of the "cocoon" in her hand.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>70</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_ev2408_DanceWithDeath</BGM>:The Commander stands next to 416's frame and looks down at those closed eyes.
-()<Speaker>Commander</Speaker>||:...
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:...
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tableware</SE1>:UMP45 is perched on a stool, rummaging for tools in her attempt to repair 416.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:416 would probably have a breakdown if you perform a eulogy right now.+You know how much pride she has.
-UMP45Mod(0)<Speaker>Commander</Speaker><同时置暗>||:...+Then what should I say?
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:Something light-hearted. Ask her to send you invoices for what you owe. Tell her you support her being the squad leader of 404. That's more than enough.
-()<Speaker>Commander</Speaker>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:The Commander tidies the tousled fringe on 416's forehead, but they just can't bring themselves to utter something so frivolous.
-()<Speaker>Commander</Speaker>||:Learned anything about the perpetrator?
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:This damage is caused by a new Nyto.
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UMP45 carefully peels back 416's right eyelid, revealing the clear mark on her eye.
-()<Speaker>Commander</Speaker>||:...
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:Paradeus has another high-ranking Nyto in Frankfurt.
-UMP45Mod(0)<Speaker>Commander</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:...I see. I'll find a way to find her.
-UMP45Mod(0)<Speaker>Commander</Speaker><同时置暗>||:How are the repairs on 416 coming along?
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:We can't repair her with our current resources, and the damage she sustained is something I've never seen before.+After this is over, I'll have to get Dier.
-()<Speaker>Commander</Speaker>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>Rope</SE1>:The Commander squats down slowly and takes 416's hand.+This was the hand that pulled them out of the vehicle.+But right now, it is so weak and lifeless it cannot even make a fist.
-()<Speaker>Commander</Speaker>||:...
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:I was planning to step down as squad leader and let her have a go in the position after this operation.+Sadly, neither of us are the candid type. If only I had told her sooner.
-UMP9Mod(6)<Speaker>UMP9</Speaker>||:45...
-()<Speaker>Commander</Speaker>||:...
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:She's not even officially instated as leader yet, but she's already so eager to perform the duty of a leader.+If someone had to lose their life, she'd rather it be her.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:UMP45 packs up her tool kit and walks up to the Commander.+For once, there is no trace of any humor or banter in her eyes, only seriousness.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:Commander, our new adversary in Frankfurt is most certainly an electronic warfare expert.+We lost this time, and there's no guarantee that we'll win next time.
-UMP45Mod(0)<Speaker>Commander</Speaker><同时置暗>||:This new Nyto's capabilities are still unclear, which poses a potential risk.
-UMP45Mod(0)<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:But Commander...+This is actually making me very eager for a fight.
-()<Speaker></Speaker>||:The Commander can see the quiet fury burning in UMP45's eyes.
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:...What about you, Commander?
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander lets go of 416's hand gently and turns to the Doll behind them.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:Same here.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Stop_AVG_loop</SE1><BIN>9</BIN><黑屏2>:
+()<Speaker></Speaker>||<BIN>222</BIN><睁眼2><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1><SE2>Gunfight</SE2>:Bang-bang-bang! Boom!+The cacophony of gunfire pulls her back into reality.
+HK416Mod(0)<Speaker>416</Speaker>||:...+...That's it?
+HK416Mod(0);UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>416, answer me!</color>
+HK416Mod(0)<Speaker>416</Speaker>;UMP45Mod(0)||:I'm here.+I got out.
+HK416Mod(0);G11Mod(0)<Speaker>Gr G11</Speaker><通讯框>||:<color=#00CCFF>Are you okay? You gave me quite a scare...</color>
+HK416Mod(0)<Speaker>416</Speaker>;G11Mod(0)||:I'm fine. I'll go pick up the Commander.+I have important information for them.
+HK416Mod(0);UMP9Mod(4)<Speaker>UMP9</Speaker><通讯框>||:<color=#00CCFF>Are you sure you're okay? 45 said you saw a snake or something...?</color>
+HK416Mod(0)<Speaker>416</Speaker>||<CGDelay>0.5</CGDelay>:Yeah, we'll talk about that later.+I'll check up on the Commander first.
+()||<黑屏1><SE1>AVG_tele_disconnect</SE1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><BIN>356</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:...Frankfurt District, Frankfurt.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Our primary objective in this operation plan was to enter the White Zone and rescue you.+The key part of this plan—entering the White Zone—was only possible thanks to the intelligence provided by M16.
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:...
-()<Speaker>Commander</Speaker>||:It's almost as if you knew what's going to happen...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander peers at M16, who's leaning against the wall in the corner. Her words from when they last parted ways still echo in their ears.
-()<Speaker>Commander</Speaker>||:...+You left Avernus early back then to plan for Frankfurt?
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:Yes.
-M16A1BOSS(2)<Speaker>Commander</Speaker><同时置暗>||:...
-M16A1BOSS(2)<Speaker>Commander</Speaker><同时置暗>||:I'm guessing you'll just clam up if I ask any more questions.
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander doesn't press M16 any further and instead turns to AR-18.
-()<Speaker>Commander</Speaker>||:Any new information concerning Paradeus?+Anything on William's whereabouts in particular?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Commander, our operation has achieved a great deal on top of successfully rescuing you.+DEFY destroyed a handful of Paradeus' temporary bases, while Squad 404 hacked into the Bee Sting System and obtained important information on Paradeus' new operation.
-AR18(2)<Speaker>Commander</Speaker><同时置暗>||:What information?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Paradeus has plans to implement a project named Operation Cocoon to replace the channel that Erma shut down.
-AR18(2)<Speaker>Commander</Speaker><同时置暗>||:They'd already planned so far ahead... even back in Berlin?
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:It was probably nothing more than a plan B at that point.+But now they're forced to put it into action.
-AR18(2)<Speaker>Commander</Speaker><同时置暗>||:...But back then, Operation Cocoon wasn't about this.
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:If you're referring to the Iaso's Boxes...+Those were only by-products of Operation Cocoon. We're still not sure where that's supposed to lead.
+()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>249</BIN>:
+()<Speaker></Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The white-lipped python sheds its skin, and a woman emerges gracefully.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:She pulls up 416's real-time view.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>||:...What a headstrong child. So eager to prove herself.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>||:Do you honestly think you can leave unscathed after stealing Hydra's treasure?
+()<Speaker></Speaker>||:Behind her, the remaining "cocoons" emit a faint glow.
+NPC-Hebe(3)<Speaker>Hebe</Speaker>||:Now let's see to whom you will offer the treasure.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>Commander</Speaker>||:In any case, we mustn't let them achieve their aim.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:That goes without saying.
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:M16 walks up to the Commander.
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||<SE1>Stop_AVG_loop</SE1>:There's a GPS tracker on Dandelion. We can't remove it.
-M16A1BOSS(4)<Speaker>Commander</Speaker><同时置暗>||:We can't let her go either. Firstly, we need her to stop Operation Cocoon. Secondly, I need her for my "revenge".
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:Alright, I'll keep trying.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Also, we need instructions on how to deal with the two humans.
-()<Speaker>Commander</Speaker>||:...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>479</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>BGM_Hume_ImFutue_Full</BGM>:Knock, knock.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Door_Open</SE1>:After a knock, the Commander and AR-18 enter the room.
-NPC-Nele(1)<Speaker>Nele</Speaker>||:Miss Instructor...
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Miss Nele, sorry for the ordeal we've put you through. Miss Mia is on her way here.
-()<Speaker>Commander</Speaker>||:First of all, please accept my utmost gratitude.+Thank you very much for your help. If it hadn't been for you, my Dolls could still be stuck beyond the quarantine wall right now.+Also, the information you provided about the White Zone is critical and will greatly benefit our upcoming operation.
-NPC-Nele(2)<Speaker>Nele</Speaker>||:...So what about the favor I'm asking?
-NPC-Nele(2)<Speaker>Commander</Speaker><同时置暗>||:I understand what you're after, but—
-NPC-Nele(1)<Speaker>Nele</Speaker>||:Miss Instructor tried to fob me off, but I won't hold it against her.+I know you're going up against Galatea and the powerful entity behind them.+My request is very simple—I want to restore Doctor Gray's reputation.
-NPC-Nele(1)<Speaker>Commander</Speaker><同时置暗>||:...That's very dangerous, you know.
-NPC-Nele(3)<Speaker>Nele</Speaker>||<SE1>Rope</SE1>:...Of course I do, but I've got to get to the bottom of it.+I want to figure out what exactly was the thing that replaced the real Doctor Gray!
-NPC-Nele(3)<Speaker>Commander</Speaker><同时置暗>||:...Looks like nothing I say will dissuade you.
-NPC-Nele(3)<Speaker>Nele</Speaker>||:...You're right about that.
-NPC-Nele(3)<Speaker>Commander</Speaker><同时置暗>||:Even if it'll take you down a difficult path?+You do know that you're in the company of a group of wanted criminals, right?
-NPC-Nele(3)<Speaker>Nele</Speaker>||:So what...? The pursuit of the truth is never easy.
+()<Speaker></Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM><SE2>Gunfight</SE2><黑屏2><CGDelay>0.5</CGDelay>:Bang-bang-bang!
+()<Speaker></Speaker>||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:Rumble...+The fierce sound of battle seems to be fading into the distance.+The Commander wants to open their eyes, but their body refuses to obey.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>Commander</Speaker>||:Alright, I understand.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:Looking at Nele's resolute eyes, the Commander knows that she is fully committed to her cause.
-()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1><BIN>9</BIN><黑屏2>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>276</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Commander, here's the Stasi agent that was found together with Miss Nele.
+()<Speaker>???</Speaker>||:Commander!
 ()<Speaker>Commander</Speaker>||:...
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander directs their gaze at J, who is sitting in the corner. They're not quite sure how to feel.
-NPC-Keven(6)<Speaker>J</Speaker>||:Commander...?
-NPC-Keven(6)<Speaker>Commander</Speaker><同时置暗>||:Sorry for getting you involved.
-NPC-Keven(7)<Speaker>J</Speaker>||:...+Did you receive my message?
-NPC-Keven(7)<Speaker>Commander</Speaker><同时置暗>||:Yes.
-NPC-Keven(7)<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Keven(11)<Speaker>J</Speaker>||:I'd thought the next time we saw each other again, we'd be having a drink together in Frankfurt...
-NPC-Keven(11)<Speaker>Commander</Speaker><同时置暗>||:I'm sorry. That's really all I can say.
-NPC-Keven(11)<Speaker>J</Speaker>||:I know.+We're never destined to walk the same path.
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Apologies, Agent J, but I'm afraid you're going to have to stay here for a short while.+Someone will bring you some daily necessities in a bit.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:They feel an intense pain on their back and the side of their thigh, caused by some kind of strong impact.+The Commander remembers running into Task Force DEFY, who came to rescue them, but their ride was knocked over by an explosion...
+()<Speaker>???</Speaker>||:Commander, wake up!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:A cold hand smacks them on the cheek lightly.
+()<Speaker>???</Speaker>||:<size=50>Commander!!!</size>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:They've really got to wake up now.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>761</BIN><睁眼><CGDelay>0.7</CGDelay>:
+()<Speaker>416</Speaker>||:Finally!
+()<Speaker>Commander</Speaker>||:...416?
+()<Speaker>416</Speaker>||:It's me. Take my hand.
+()<Speaker>Commander</Speaker>||:Okay...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Still feeling numb and disoriented, the Commander reaches out toward 416 in a daze.
+()<Speaker>416</Speaker>||:Right, I've got you.+Now try to relax. I'm going to pull you out of the car.
+()<Speaker>Commander</Speaker>||:Sure...
+()<Speaker></Speaker>||:Although the Commander is still too confused to understand the current situation, they still implicitly and wholeheartedly trust 416.
+()<Speaker>416</Speaker>||:Here I go.+This may hurt, but don't worry, I'll get you out of here safely!
+()<Speaker>Commander</Speaker>||:Right.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:Whoosh!
+()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>356</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker>Commander</Speaker>||:AR-18, tell all the Dolls to assemble at the meeting room in ten minutes.
-AR18(5)<Speaker></Speaker><Position>0,100</Position>||<CGDelay>0.5</CGDelay>:
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:I thought you would be depressed for a while...
-AR18(5)<Speaker>Commander</Speaker><同时置暗>||:When Erma gave her life... you didn't slack off at all.
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:...I am a soldier.
-AR18(2)<Speaker>Commander</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:What a coincidence, so am I.
-AR18(2)<Speaker>Commander</Speaker><同时置暗>||:The road ahead will demand even more courage and determination from us.
-AR18(5)<Speaker></Speaker><Position>0,100</Position>||<CGDelay>0.5</CGDelay>:
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position>||:It is an honor to accompany you.
-()||<黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑点2><BIN>472</BIN><CGDelay>0.5</CGDelay>:
+HK416Mod(0)<Speaker>416</Speaker>||<SE1>RunStep</SE1>:This way, Commander!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><CGDelay>0.5</CGDelay>:Dragging the stumbling Commander along, 416 runs toward another vehicle that UMP45 has hacked.
+()<Speaker>Commander</Speaker>||:...What about the others?
+HK416Mod(0)<Speaker>416</Speaker>||:...Miss Nele and the funkily-dressed Dandelion are safe.+DEFY has also made it here and is currently drawing some of the fire from us and buying us time.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:It's very reassuring to have you all around...
+()||<黑点1><SE1>AVG_20Winter_Door_Car_Open</SE1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1><黑点2><BIN>9</BIN>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1><CGDelay>0.5</CGDelay>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>762</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>Select</SE1>:After helping the Commander into the vehicle, 416 closes the door and stands guard outside.
+()<Speaker>416</Speaker>||:Commander, I'll stand guard out here.+Stay put inside the car for now. Once M16 is done clearing up a route, she'll come and give us a hand.
+()<Speaker>Commander</Speaker>||<CGDelay>0.3</CGDelay>:Okay.
+()<Speaker>416</Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>45, is the Commander's escape route confirmed?</color>
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>Basically yes. M16 is cleaning up the last obstacles.</color>+<color=#00CCFF>How are things on your end?</color>
+()<Speaker>416</Speaker>||:<color=#00CCFF>We're safe for now.</color>
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:Hiss...+There comes the persistent sound again.+416 senses the menacing breath by her ear. 
+()<Speaker>416</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>...</color>
+()<Speaker>416</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:<color=#00CCFF>45.</color>
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>Yes?</color>
+()<Speaker>416</Speaker>||:<color=#00CCFF>Come take over for me and watch the Commander.</color>
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>Why? Where are you going?</color>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>ClothingUp</SE1><BGM>BGM_ev2408_BeeCatcher</BGM>:Hiss...+416 feels ice-cold skin gliding over her frame, wrapping around her, but she sees nothing.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>Rope</SE1>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The bind constricts little by little, suffocating her more and more.
+()<Speaker>416</Speaker>||:<color=#00CCFF>...</color>
+()<Speaker>Commander</Speaker>||:416, are you okay?
+()<Speaker>Commander</Speaker>||:What's that thing in your eye? It's glowing faintly...
+()<Speaker>416</Speaker>||:...+I'm okay, Commander.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:She feels a burning sensation in both her right eye and where she was bitten on the arm.+She grips her gun tightly and forces her mind to focus.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><SE1>AVG_whitenoise</SE1><BIN>763</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>UMP45</Speaker>||:<color=#00CCFF>416, come in.</color>
+()<Speaker>416</Speaker>||:...
+()<Speaker>Commander</Speaker>||:...416?
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
+()<Speaker>416</Speaker>||:Is this my punishment for losing the gamble?+I stole something important without paying my due...
+()<Speaker>Commander</Speaker>||:416...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:
+()<Speaker>416</Speaker>||<CGDelay>0.5</CGDelay>:...This is what I extracted from the Bee Sting System...
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.58%%pivot_y=0.55%%scale=1.4%%duration=1.5%%</bg_move><CGDelay>0.5</CGDelay>:
+()<Speaker>416</Speaker>||:It's all in your hands, Commander. We will prevail.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
+()||<黑点1><SE1>AVG_21Winter_Phone_Crash</SE1>:
+()<Speaker></Speaker>||<BIN>9</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><黑点2><CGDelay>0.5</CGDelay>:In the dead silence, 416's gun slips out of her hand and clatters to the ground.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Like an icicle breaking off from a glacier, she plunges straight into an endless abyss of darkness.
+()<Speaker></Speaker>||:The Commander catches her frame before she falls, but they cannot catch her soul.
+()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
+()||<BGM>BGM_Empty</BGM><黑屏1>:
+()<Speaker></Speaker>||<BIN>229</BIN><黑屏2><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:...In Paradeus' temporary plant.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nemhran takes the communicator, which should not be ringing at the moment, from Ashley. It is Hebe.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...What happened?
+NPC-Hebe(0)<Speaker>Hebe</Speaker><通讯框>||:<color=#00CCFF>Remember Badbsca's cocoon that you left in my safekeeping?</color>
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...That one was already broken...+The information contained within couldn't be cracked... That's why I left it with you.
+NPC-Hebe(0)<Speaker>Hebe</Speaker><通讯框>||:<color=#00CCFF>I used it to set a trap.</color>
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...What do you mean?
+NPC-Hebe(0)<Speaker>Hebe</Speaker><通讯框>||:<color=#00CCFF>The thief is now marked...</color>
+NPC-Nemhran(0)<Speaker></Speaker><Position>80,90</Position>||<CGDelay>0.5</CGDelay>:
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Fine.+It's going to be leaked sooner or later anyway.+But don't act without authorization next time.
+NPC-Hebe(3)<Speaker>Hebe</Speaker><通讯框>||:<color=#00CCFF>...How can we win if we're always so passive?</color>
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...The game is already at a point where we can't afford to make any random moves.+Hebe, I hope you understand the difficulty of the task at hand.
+NPC-Hebe(0)<Speaker>Hebe</Speaker><通讯框>||:<color=#00CCFF>Of course I understand. This is precisely why we can't just remain on the defensive.</color>+<color=#00CCFF>We may only stand a chance of winning if we actually take a chance.</color>
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...Have you considered that our mission objective...+Isn't actually to win this current game?
+NPC-Hebe(0)<Speaker>Hebe</Speaker><通讯框>||:<color=#00CCFF>...</color>
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>98</BIN><CGDelay>0.5</CGDelay>:
-NPC-Shadowless(3)<Speaker>Shadowless</Speaker>||<BGM>BGM_ev2408_DanceWithDeath</BGM>:We are now just outside an abandoned chemical plant in the Eschborn District of Frankfurt.+Through our camera, you can see thick smoke and a large amount of powder billowing in the air.
-NPC-Shadowless(3)<Speaker>Shadowless</Speaker>||:An explosion has just occurred here, but the exact cause and casualties remain unknown. Firefighters have already entered the scene to put out the fire.+This is not an isolated incident. Two other factories in the Eschborn District also experienced explosions today.+As those two factories are involved in the processing of hazardous chemicals, our team has not yet been granted access, and the situation remains unclear.+We will continue to follow this story closely.
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>760</BIN><CGDelay>0.5</CGDelay>:
-NPC-Shadowless(3)<Speaker>Shadowless</Speaker>||:Ladies and gentlemen, we have just received an emergency report—an explosion has also occurred today in the Wiesbaden District.+The blast site has been sealed off by police, and unauthorized personnel are not allowed to enter.+From the perimeter, we can see police officers, firefighters, and medical personnel moving in and out, with multiple injured individuals being carried out for treatment.+Hello, did you notice anything when the explosion happened?
-NPC-Shadowless(3)<Speaker>Passer-By</Speaker><同时置暗>||:I live nearby. I heard some rumbling and ran outside to see what was happening, then I saw the explosion in the district.+There's a lot of yellow powder in the air, I sure hope it's not toxic.
-NPC-Shadowless(3)<Speaker>Shadowless</Speaker>||:Thank you for your response.+We also observed a similar yellow powder earlier at the site of the factory explosion in the Eschborn District.+To determine its origin and whether it poses any toxicity risks, we have reached out to an environmental expert on the scene.
-NPC-Shadowless(3)<Speaker>Environmental Analyst</Speaker><同时置暗>||:Um... We have conducted a series of tests on various environmental indicators within the affected neighborhood following the explosion. However, it will take some time to obtain the results.+At present, we can confirm that the explosion has caused a sharp increase in ELID radiation particle concentration in this area. The levels are now approaching the threshold for a Yellow Zone classification.+As a precautionary measure, we have issued a contamination alert to residents in the vicinity.+But please stay calm and don't panic. We have already dispatched relevant personnel to contain the radiation contamination.
-NPC-Shadowless(3)<Speaker>Shadowless</Speaker>||:Yes, if any of our viewers live near the explosion site, please refrain from leaving your home until the contamination alert is lifted.
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>776</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker>Shadowless</Speaker>||:<color=#00CCFF>Following the major explosion in the Frankfurt District on November 1, multiple explosions have occurred today in Wiesbaden, Eschborn, and Raunheim, resulting in at least 50 casualties so far.</color>+<color=#00CCFF>Police and emergency responders have arrived at the scenes to carry out rescue operations. We will continue to provide updates on the situation.</color>+<color=#00CCFF>It is worth noting that authorities have not yet classified these incidents as part of the same series as the explosion in the Frankfurt District. Instead, they have linked them to multiple explosions that took place in Berlin this past September.</color>
-()<Speaker>Shadowless</Speaker>||:<color=#00CCFF>Reports indicate that large amounts of yellow powder were also found at the Berlin explosion sites. Experts have now confirmed that this substance is identical to the yellow powder discovered at the new explosion sites in Frankfurt.</color>+<color=#00CCFF>While the exact origin of the substance remains unclear, it has been confirmed to cause elevated ELID radiation levels. Experts are actively studying its effects, and police are investigating its source.</color>+<color=#00CCFF>During this time, we urge Frankfurt residents to remain calm, limit outdoor activities, and avoid crowded areas.</color>+<color=#00CCFF>We will continue to follow the situation closely.</color>
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><黑屏1>:[Angular Gyrus - END]
