@@ -37,7 +37,7 @@ local mOpenConfirmBox = function(self)
 			if listInfo~=nil and listInfo.Count >0 then
 				for i=0,listInfo.Count-1 do
 					local item = listInfo[i]
-					local key = "|"..item.id.."|"
+					local key = "@"..item.id.."@"
 					content=content:gsub(key, item.name);	 
 				end
 				listInfo=nil;
@@ -95,7 +95,7 @@ local mOpenConfirmBox = function(self)
         end
         text1.text = firstPart;
         text2.text = secondPart;
-        Text_KR.transform.localPosition = CS.UnityEngine.Vector3(Text_KR.transform.localPosition.x,-60000,0);
+        --Text_KR.transform.localPosition = CS.UnityEngine.Vector3(Text_KR.transform.localPosition.x,-60000,0);
 	else
 		CS.CommonController.ShowRuleBox(content, CS.CommonController.MainCanvas.transform);
 	end
@@ -128,10 +128,23 @@ local mSuccessJsonHandleData = function(self,jsonData)
 	--print("dicGashaRate:"..dicGashaRate.Count)
 end
 
- 
+local mInitGashaponView = function(self)
+	self:InitGashaponView();
+	local web = CS.ResManager.GetObjectByPath("Prefabs/Btn_ProbabilityWeb");
+    local webObj = CS.UnityEngine.GameObject.Instantiate(web);
+    webObj.transform:SetParent(self.mFloatPointHolder.transform.parent, false);
+    webObj.transform.localPosition=CS.UnityEngine.Vector3(870,-220,0);
+    local btnWeb = webObj:GetComponent(typeof(CS.ExButton));
+	btnWeb:AddOnClick(OnClickWeb);
+end
+function OnClickWeb() 
+	local url = CS.Data.GetString("kr_probability_web")
+	CS.UnityEngine.Application.OpenURL(url);
+end
 if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
 
 util.hotfix_ex(CS.GashaponController,'OpenConfirmBox',mOpenConfirmBox) 
+util.hotfix_ex(CS.GashaponController,'InitGashaponView',mInitGashaponView) 
 util.hotfix_ex(CS.RequestGashaData,'SuccessJsonHandleData',mSuccessJsonHandleData)
 
 end
