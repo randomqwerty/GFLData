@@ -1,145 +1,151 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:海辺が夜の帳に包まれる。投票もついに終わりの時間を迎えた。+G36は最も多く善良の証を獲得し、MVPとなった。
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><narrator>:海辺が夜の帳に包まれる。投票もついに終わりの時間を迎えた。+スプリングフィールドは最も多くの善良の証を獲得し、MVPとなった。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>137</BIN><黑屏2><Night><SE1>AVG_applause_indoor</SE1><BGM>event_summer_Title</BGM>:みんなに注目される中、G36は指揮官からMVPの表彰楯を受け取った。
-()<Speaker>指揮官</Speaker>||:おめでとう、G36。今夜の君は、まさしくMVPだった。
-G36(18)<Speaker>Gr G36</Speaker>||:ダンケ！　身に余るお言葉、ありがとうございます。
-()<Speaker></Speaker>||:G36は微笑みながら、自分の、そして人間陣営の勝利を象徴する、//nその楯を高く掲げた。+指揮官もようやく肩の荷を下ろしたようにほっとすると、//n静かに後ろへ下がり、この輝かしい場を人形たちに譲った。
-G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||<SE1>Stop_AVG_loop</SE1>:さすがG36さん！　本当にすごい！！！
-G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:G36の活躍がなかったら、みんなKAC-PDWに騙されるところでした！//n今回のMVPはG36で間違いなしです！
-FN49(2)<Speaker>FF FN49</Speaker><Position>0,120</Position>||:わ、私もやっと騎士の呪いから解放されました……！//nうううぅ……G36さん、本当にありがとうございます！
-()<Speaker></Speaker>||:人間陣営の人形たちは一斉にG36に抱き着き、喜びを伝えた。
-FN57(8)<Speaker>Five-seven</Speaker>||:フン！こんな勝敗の決め方今まで見たことがないわ！
-KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:別にいいでしょ、メイド長が勝ったんなら、きっとみんなにも//nいい物が振舞われるよ！+キッチンでおいしそうなのをいっぱい見たし！
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:うっ……ドーナッツ、ケーキ、ジュース、アイスクリーム……//nなんでもいい！　なんでもいける！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:G36は咳払いをしてから言う。
-G36(18)<Speaker>Gr G36</Speaker>||:皆さん、ゲームはこれにて終了いたしました。+この後は後夜祭ということで、皆さんにはサプライズを用意させていただきました――+今夜に限り、人間陣営の皆さんは、無料で「スイーツ食べ放題」に//n参加することができます。ただし、あくまでも、//n人間陣営の皆さんだけです。
-PPD40(2)<Speaker>PPD-40</Speaker>||:本当？！　やったぁ！！！
-()<Speaker></Speaker>||:人間陣営の人形たちから、また熱烈な歓声が上がった。
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:じゃあ人狼陣営は？
-G36(18)<Speaker>Gr G36</Speaker>||:残念ながら、私が人間陣営の皆さんを労うために用意したものです。//nそして、キューピットだった私の、人狼陣営に対する//nちょっとした罰でもあります。
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||:なんだって！？　さっきゲームはもう終わったって言ったじゃん！？//nなんで今更人狼陣営にそんなことするのよ！
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:不公平だぞ！
-G36(8)<Speaker>Gr G36</Speaker>||:不公平、なのでしょうか？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:G36はどこか不思議そうに首を傾げた。
-G36(8)<Speaker>Gr G36</Speaker>||:私は……今日の午後のゲームで、最初に「殺された」と記憶していますが……+しかもその理由も、食べ物と関係していたようで……？
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position><Shake>0.1</Shake>||:？？！
-()<Speaker></Speaker>||:微笑むG36の目に、一瞬だけ狡猾な光が過った。
-G36(18)<Speaker>Gr G36</Speaker>||:それでは皆さん、どうぞ思う存分楽しんでくださいませ。
-()<Speaker></Speaker>||:人間陣営の面々は、ウキウキとG36の後をついて行った……+対して人狼陣営は互いにポカンと見つめ合ったまま、どこか//n納得がいかない顔をしていた。+同時に、ある「新しい作戦計画」が、人狼陣営の中で企てられていた……
+()<Speaker></Speaker>||<BGM>event_summer_Title</BGM><黑点2><BIN>515</BIN><SE1>ShuffleCards</SE1>:投票の集計作業を終えたカリーナは、ポンと指揮官の隣に座った。+投票が無事に終わったことで、指揮官もようやく肩の荷が下りた。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:指揮官さまは、このゲームが気に入りましたか？
+NPC-KalinSwim(0)<Speaker>指揮官</Speaker><同时置暗>||:ライカン禁猟区のこと？+正直よく分からないが、みんな好きみたいだし、きっと面白いんだろう。+にしても、こんな17人でやるゲームなんて初めてだ。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:あら、指揮官さま、もしかしてすでに気づいていました？　ライカン禁猟区の役職はおおむね、なんの能力も持たない村人、特別な能力を持つ特別職、そして人狼の3種類に分類できますので、ゲームの公平性を保つためには、役職の種類を均等に割り当てた方がいいとされています。+そのため、このゲームの参加人数は基本的に3の倍数で、12人や15人、//nそして今日のように18人で遊ぶこともあります。
+NPC-KalinSwim(0)<Speaker>指揮官</Speaker><同时置暗>||:18人？　今日の参加人数は17人じゃなかったの？//n村人6人、特別職6人、人狼5人で……
+NPC-KalinSwim(1)<Speaker>カリーナ</Speaker>||<BGM>BGM_Empty</BGM>:それはですね……実はちょっとしたトラブルがありまして……
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>162</BIN><回忆><边框>2</边框>:午後、ライカン禁猟区が始まったばかりの時……
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||<BGM>BGM_22Swim_langrensha</BGM><SE1>DealCards</SE1><边框>2</边框>:はい、これで役職カードの振り分けが完了しました。//n皆さん、まずは目を閉じてください！
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><边框>2</边框>:その時、一通のメッセージがカリーナの端末に届いた。
+()<Speaker>？？？</Speaker>||<边框>2</边框>:<color=#00CCFF>カリーナさんヘ、臨時で重要な任務が入ったため、//nライカン禁猟区への参加を辞退します。</color>+<color=#00CCFF>『狼王』のカードは現場に置いてきました。回収をお忘れなく。</color>
+()||<黑点1><边框>2</边框>:
+()<Speaker>指揮官</Speaker>||<关闭蒙版><黑点2><BIN>515</BIN>:1人減ったのか。それならゲームを中止してやり直すべきだったのでは？
+NPC-KalinSwim(1)<Speaker>カリーナ</Speaker>||:それは……いろいろあるというか……+もともとこのゲームに興味がない子もいましたし、やり直すとなると//nまた人を集める必要があって……とにかく、18人揃えるの//n大変だったんですから！
+NPC-KalinSwim(1)<Speaker>指揮官</Speaker><同时置暗>||:まぁ、今日は暑かったしね。+やる気がない人形がいてもおかしくない。
+NPC-KalinSwim(1)<Speaker>カリーナ</Speaker>||:そうですよ。それに1人欠けてもゲームは成り立ちますので、//nそのまま続行することにしました。+これで皆さんに文句を言われずに済みますし。
+NPC-KalinSwim(1)<Speaker>指揮官</Speaker><同时置暗>||:大事なのはそこか……
+NPC-KalinSwim(1)<Speaker>カリーナ</Speaker>||:それでですが、現場を何回も探しましたけど、『狼王』のカードは//n見つかりませんでした。皆さんに探してもらうわけにもいきませんし……
+NPC-KalinSwim(1)<Speaker>指揮官</Speaker><同时置暗>||:参加を辞退したのは誰だ？　そこはちゃんと確認しておかないと。
+NPC-KalinSwim(1)<Speaker>カリーナ</Speaker>||:実はそれも分からないんです。メッセージをくれた子は匿名でゲームに//n参加していますので、そもそも参加者の数が多かったので、//n特に確認していませんでした……+まぁでも、問題になっているのはそっちじゃなく、カードの方です。//n今回使ったカードはスプリングフィールドさんから借りた//n「VIP限定ダイヤモンドレアセット」のカードです！//nとても貴重な物です！+それを失くしたなんて……スプリングフィールドさんに//nどう謝ればいいのか……
+()<Speaker></Speaker>||:カリーナは憂鬱な顔で、ため息をつく。
+()<Speaker>指揮官</Speaker>||:大丈夫だよ。そのうち誰かが見つけてくれるかもしれない。+MVPの表彰式までまだ時間があるし、私も探してみるよ。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:うぅ……指揮官さま、ありがとうございます！
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……+……+
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑点2><BIN>515</BIN><BGM>m_wv_title</BGM>:ブース付近。
+FAL(4)<Speaker>FAL</Speaker>||:狼王のカード？　それってFive-sevenが持ってたんじゃないの？
+PPD40(2)<Speaker>PPD-40</Speaker>||:<size=25>白の狼王と狼王は違うカードだ……</size>+指揮官、私もFALも、狼王のカードは見たことがない。//nそれに、そのカードはどう考えても人狼陣営のカードだろう？
+()<Speaker></Speaker>||:……
+()||<黑点1>:
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<黑点2><BIN>515</BIN>:ちょっと待って！　今日のゲームで、カリーナさんが狼王のカードを//nなくしちゃった？+そんなの不公平だよ、Honey！　人狼側が5人しかいないのに、//n人間側の12人に勝てるわけないじゃん！
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<震屏3>:<size=50>もう一回！　やり直し！</size>
+()<Speaker>指揮官</Speaker>||:今からじゃそれはできないかな……
+95type(6)<Speaker>95式</Speaker>||:K-PDW、今からじゃもう遅いです。+指揮官、狼王のカードについてですが、ご覧の通り、わたしたちも//n分かりません。+G36に訊いてみてはどうですか？　ずっとあっちこっち歩き回って//nいましたので、何か発見があったかもしれません。
+()<Speaker></Speaker>||:……
+()||<黑点1>:
+G36(8)<Speaker>Gr G36</Speaker>||<黑点2><BIN>515</BIN>:申し訳ございません、ご主人様。私も狼王のカードは見ていません。//nもし必要でしたら、私の方でも探してみますが……
+()<Speaker>指揮官</Speaker>||:分かった、ありがとう、他の子に訊いてみるよ。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:その時、指揮官の端末の着信音が鳴った。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指揮官はG36に軽く謝ると、通信に出た。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker><通讯框>||:<color=#00CCFF>指揮官さま！　表彰式まであと5分ですよ！　早く来てください！</color>
+NPC-KalinSwim(0)<Speaker>指揮官</Speaker><通讯框><同时置暗>||:……すまない、カリーナ……狼王のカードがまだ見つからないんだ。
+NPC-KalinSwim(1)<Speaker>カリーナ</Speaker><通讯框>||:<color=#00CCFF>だ、大丈夫ですよ！　あとで一緒にスプリングフィールドさんに//n謝ればいいので……！</color>+<color=#00CCFF>とにかく、早く来てください！　それじゃ！</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:通信終了。
+()<Speaker></Speaker>||:……
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑点2><关闭蒙版><BGM>GF_20HW_Battle1_BPM102_Loop</BGM><BIN>515</BIN>:「巡回する狩人」ブース付近。
-4type(2)<Speaker>四式</Speaker>||<SE1>ClothingUp</SE1>:さすがG36殿お手製のアイスクリームであります！　この香り、//nこの滑らかさ……+おや？　DP-12殿、G36殿からスイーツを貰われなかったのでありますか？
-()<Speaker></Speaker>||:手ぶらでやってきたDP-12を見て、四式は素直に問いかけた。
-DP12(4)<Speaker>DP-12</Speaker>||:ええ、まぁ……先ほどキッチンに向かう途中、うっかり身分カードを//nなくしてしまって……+四式さん、少しの間、身分カードを貸してはいただけないでしょうか？わたしも人間陣営の一員として、皆さんと一緒にスイーツを楽しみたいのに……
-4type(2)<Speaker>四式</Speaker>||:わ、吾輩もそうしたいのはやまやまでありますが……+先ほどG36殿のところで、身分カードと引き換えに//nアイスクリームを渡すと言われまして……
-DP12(4)<Speaker>DP-12</Speaker>||:そうでしたか……やはり、もう少し自分のカードを探してみますね。
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>515</BIN>:「心魔の沼」ブース付近。
-FN57(8)<Speaker>Five-seven</Speaker>||<SE1>ClothingUp</SE1>:ちょっと、3箱持ってきなさいって言ったでしょ？　なんで1箱しか//n持ってこなかったのよ？
-()<Speaker></Speaker>||:UKM-2000はFive-sevenと95式の前に立ったまま、抱きかかえたスイーツの箱を手放さなかった。
-95type(2)<Speaker>95式</Speaker>||:大丈夫ですよ、UKM……キッチンの方で、何かあったのかしら？+困ってることがあれば、なんでも私たちに相談を……
-UKM2000(2)<Speaker>UKM-2000</Speaker>||:私……さっきは……その……
-95type(6)<Speaker>95式</Speaker>||:うんうん？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:UKM-2000は大きく息を吸い込んで――
-UKM2000(2)<Speaker>UKM-2000</Speaker>||<震屏3>:<size=50>95式も人狼だったなんて思わなかった！！！</size>+G36さんはさっき全員の正体を教えてくれたんだよ！//nほんっと信じられない！！！+今夜は！　絶対！　なにも取ってきてあげないからな！//n私は……私は！　誰も騙していない人間陣営に入る！
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:UKM-2000は顔を真っ赤に染め上げながら、風のように走り去った。Five-sevenと95式は、その後ろ姿を見て、何とも言えない複雑な表情をした……
+()<Speaker></Speaker>||<黑点2><BIN>163</BIN>:海辺、表彰式舞台の裏側。+本番が始まる前の、あの独特な緊張が走っていた。
+()<Speaker>？？？</Speaker>||:こんばんは、指揮官。
+()<Speaker></Speaker>||<BGM>BGM_22Swim_langrensha</BGM>:心地良い声と共に、スプリングフィールドが一杯のアイスコーヒーを//n指揮官に渡す。+すでに夜とはいえ、気温はまだ高く、この一杯のアイスコーヒーは//n実に良いタイミングだった。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:ありがとうございます、指揮官。
+M1903(8)<Speaker>指揮官</Speaker><同时置暗>||:うん？+ありがとうを言うべきなのはむしろ私の方では？
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:カリーナさんから聞きました。私に投票してくださって本当にありがとう//nございます。+私は魔女で、ゲームの結果に多大な影響を与えたにも関わらず、//n指揮官は私に投票してくださいました。+もはや感謝しかありません。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:こんなコーヒー一杯ぐらいじゃ、全然足りないぐらいです。
+()<Speaker></Speaker>||:スプリングフィールドの言葉に、指揮官は若干照れる。
+()<Speaker>指揮官</Speaker>||:そんなことないよ。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:いいえ、そんなことあります。+指揮官の気持ちと比べたら、私の方は全然まだまだです。
+()<Speaker></Speaker>||:ここまで食い下がってくるスプリングフィールドはなかなか珍しい。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:本来ならどう考えても、指揮官は私に投票するはずないのに。
+M1903(8)<Speaker>指揮官</Speaker><同时置暗>||:いや、それは違うというか……+他の者が何を言おうと、スプリングフィールドは私の選択を信じて欲しい。+スプリングフィールドのように、純粋な気持ちでゲームに参加し、//nその上、他の参加者の気持ちまで考慮できる者は他にいないというか……+ゲームの戦略やテクニックも重要だが、そういう心構えが一番大事だと//n私は思っている。だからこそ、スプリングフィールドには//nこれからもずっと『ライカンクラブ』の部長でいて欲しい……//nそう思って、その……
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:……まさかそこまでお考えになられていたなんて。+本当に恐縮です……+改めてありがとうございます、指揮官。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:スプリングフィールドはハンカチを取り出し、指揮官の汗を拭く。
+()<Speaker>指揮官</Speaker>||:その……スプリングフィールド……
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:はい？
+M1903(8)<Speaker>指揮官</Speaker><同时置暗>||:実は少し言いづらいことがあって……スプリングフィールドの//n狼王のカードが見つからないんだ。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:私の？
+()<Speaker>指揮官</Speaker>||:カリーナに、ライカン禁猟区のカードを貸したでしょ？//nしかもとても珍しい限定版のセットを……+ゲームをしていた時、ちょっとしたトラブルがあって、狼王のカードを//nどこかに落としてしまったらしい。でも、絶対探し出すよ！//n約束する！
+()<Speaker></Speaker>||:スプリングフィールドは、神妙な顔で指揮官を見つめる。+その気まずさに堪えきれず、指揮官が再び何かを言おうとした時、//nスプリングフィールドは微笑んで、どこか弾んだ声で指揮官に//n声をかけた。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:いいえ、全然大丈夫ですよ、どうかご心配なさらずに。+狼王のカードは、必ずどこかにあります。+それに、たとえ見つからなかったとしても……私はすでに、//nそれよりも大事なものを手に入れましたので。+だから、指揮官はそんなことで悩まずに、このお祭りを最後まで楽しんでください。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:スプリングフィールドの言葉のおかげて、指揮官は一気に肩の荷が//n軽くなった気がする。+そしてその場の雰囲気も、どこか優しくなったような感じがした……
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>515</BIN>:「魔女のキャンプ」ブース付近。
-M1903(8)<Speaker>スプリングフィールド</Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_tableware</SE1>:ミントをみじん切りにして、このようにケーキにかければ……//nほら、おいしくなったでしょう？
-G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||:こんな作り方があったなんて！　やっぱりスプリングフィールドさんはすごい！
-M1903(8)<Speaker>スプリングフィールド</Speaker>||:ふふっ……では一口、試食していただけませんか？　はい、あーん――
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:スプリングフィールドがスプーンをG28の口元に近づけたその時……
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||<SE1>RunStep</SE1>:<size=50>あああ——！！！</size>
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=8</controll_shake>:突然物陰から誰かが飛び出し、口を大きく開いたまま//nスプリングフィールドのケーキに飛びかかろうとした……+そして、ケーキまであと1ミリになったその時――
-G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:<size=50>うわあああ——なに？！　食べ物を盗みに来たカモメ？！</size>
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1>:G28は無意識に拳を振り下ろした――
-()<Speaker></Speaker>||<SE1>AVG_fall_into_water</SE1><震屏3><BIN>9</BIN>:そのまま、AA-12はかわいそうに海の中に殴り飛ばされた……
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑点2><BIN>515</BIN><SE1>ClothingUp</SE1>:「反撃の狼煙」ブースにて、二つの影がこそこそと//nブースに潜入しようとしていた……
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:クソ、1枚もないなんて……あいつら、身分カードを全部持って行った！//n1枚ぐらい落ちててもいいのに！
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:うぇ……糖分……甘い物が欲しい……+G36お手製ののアイスクリームとか、スプリングフィールドのケーキとか……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:あまりの苦痛に耐えきれず、AA-12は地面の砂を掴んで口に入れようとした……
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||<SE1>Rope</SE1>:おい！　しっかりしろよ！！！
+()<Speaker></Speaker>||<黑点2><BIN>137</BIN><Night><BGM>BGM_Empty</BGM>:MVP表彰式。
+()<Speaker></Speaker>||<BGM>event_summer_Title</BGM><SE1>AVG_applause_indoor</SE1>:人形たちの熱烈な拍手に迎えられながら、//nスプリングフィールドは表彰台に上がる。
+()<Speaker></Speaker>||:指揮官も同じように、スプリングフィールドに拍手を捧げた。+……しかし、気のせいか、スプリングフィールドの目に、一瞬だけ、//n狡猾な光が見えたような気がした。
+()<Speaker>指揮官</Speaker>||:……？
+()<Speaker></Speaker>||:拭い切れない違和感に包まれつつも、表彰式は進行し続ける。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||<SE1>Stop_AVG_loop</SE1>:今日は、このような場を設けていただき、誠に感謝いたしますが……//nところで皆さん、受賞式の前に一つ、質問をしてもよろしいでしょうか？+皆さんは、ちゃんと今日を楽しめましたか？
+()<Speaker></Speaker>||:突拍子もない質問に、表彰台の下がざわつき始める。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:いきなりそう聞かれても、きっと困りますよね？+ですが、私にとって、これはとても大事なことです。//nそれもゲームの勝ち負けよりずっと。+今日という日を楽しく過ごすことは、今回のバカンスの//n本来の目的だと私は思っています。
+()<Speaker></Speaker>||:スプリングフィールドの言葉の意図が分かってきて、ギャラリーも//n静かになった。うんうんと頷く人形もいた。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:カリーナさんもきっと同じ思いで、私たちをライカン禁猟区に//n誘ったのでしょう。+それが本当に、とても楽しかったのです。+ただ、実はゲームの途中で、もしかしたら、私たちはゲームの勝敗を//n気にし過ぎているのではないかと、疑問に思いました。+ゲームに勝ちたい、と思うのは当たり前ですが、それよりも前の、//nもっと大事なことも、忘れてはいけません。+ゲームの勝敗に関わらず、ゲームを楽しむ気持ち、//nそれが一番大事なのです。
+()<Speaker></Speaker>||:……やはり、なにかがおかしい。+スプリングフィールドはあくまでも、ゲームを楽しむ心構えの話を//nしているだけだ。+それなのに、この不自然な感じはなんだ？+この違和感を振り払うため、指揮官は思いっきり頭を横に振る。
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:（ピッ――）+そしてビックリするほどのタイミングで、指揮官の端末に//n一通のメッセージが届いた。
+()<Speaker>？？？</Speaker>||:<color=#00CCFF>指揮官、これは善意による忠告だ——</color>+<color=#00CCFF>表彰台に上がるな。さもなくば、災厄が降りかかる。</color>+<color=#00CCFF>……</color>+<color=#00CCFF>雪のライカンより。</color>
+()<Speaker>指揮官</Speaker>||:<color=#A9A9A9>ライカン……人狼のことか？</color>+<color=#A9A9A9>ただのゲームなのに、こんなイタズラメッセージを送ってくるなんて……</color>
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:指揮官は黙ってそのメッセージを消した。
+()<Speaker></Speaker>||<SE1>AVG_applause_indoor</SE1>:スプリングフィールドの受賞の挨拶が終わると、再び熱烈な拍手が捧げられた。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指揮官はカリーナの指示に従って、表彰台に上がり、//nスプリングフィールドからカードを受け取って、全員に見せる。
+()<Speaker>指揮官</Speaker>||<SE1>Stop_AVG_loop</SE1>:それでは――
+()<Speaker>指揮官</Speaker>||<BGM>BGM_Empty</BGM>:<size=50>本日のMVPは「魔女」スプリングフィールドでした！　人間陣営の優勝です！</size>
+()<Speaker></Speaker>||:その瞬間、会場はなぜか静まり返った。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指揮官は困惑しながら会場を見渡し、そしてスプリングフィールドの方に//n振り返る。
+CBJMS(4)<Speaker>C-MS</Speaker>||:ねえ！　それ魔女のカードじゃないでしょ！
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:そう言われて、指揮官はカードの正面を自分の方に向ける――
+()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM>:なんと、それは「狼王」のカードだった！
+()<Speaker>指揮官</Speaker>||:なんで狼王のカードが！？
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:スプリングフィールドははにかんだように笑うと、ゆっくりと前に出て、//nもう一枚のカードを取り出した。
+()<Speaker></Speaker>||:それが「魔女」のカードだった。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:えっ！？　スプリングフィールドさんが狼王のカードを持ってたの！？//n一体どういうこと！？
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:申し訳ございません……指揮官、カリーナさん、そしてゲームに//n参加した皆さん……+実は私、ゲームが始まった時に2枚のカードを貰いました。//nそれが魔女と、狼王です。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:そんなわけありません！　私はちゃんと1枚ずつ配りましたよ……！
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:はい。カリーナさんは狼王のカードを探していると指揮官も//n言っていましたし、きっとこれはカリーナさんのやったことではないでしょう。+でも私も最初、カリーナさんがわざと、//nそういうイレギュラー要素を入れたと勘違いしてしまって……+気がつけば、私はすでに人間陣営と人狼陣営の//nダブルスパイになっていました。
+WA2000(6)<Speaker>WA2000</Speaker>||:だからスプリングフィールドはあの時、私に毒薬を使ったのね！//nあれは魔女としてではなく、狼王としてやったこと！
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:はい、その通りです。+毒薬を使ったことは不本意でしたが、結果として人狼陣営を//n助けてしまったため、バランスを取るために、魔女として、//n人間陣営に票が集まるようブースを出展しました。+それに、人狼陣営のプレイヤーはみんな実力者だったので、//n私が人間陣営の手助けをしなければ、おそらくゲームは//n一方的な結果になってしまったことでしょう。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:なるほど……まぁそういう事情はさておき、ここに一つ重要な問題が//nあります……+スプリングフィールドさん――
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||<BGM>BGM_Empty</BGM>:今回のライカン禁猟区のMVPのあなたは「魔女」ですか？//nそれとも「狼王」ですか？
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:その場にいる全員の視線が、スプリングフィールドに集まる。//nスプリングフィールドの一言で、ゲームの結果が完全に覆るからだ……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:スプリングフィールドは注目の中、指揮官の手をゆっくりと取る。
+M1903(8)<Speaker>スプリングフィールド</Speaker>||:それについては、すでに結果が出ております。『善良の証』の数は、//n『群狼カード』よりもずっと多い……+それならば、私も投票の結果に従い、魔女として、//n人間陣営の味方に付きます。
+()<Speaker></Speaker>||<BGM>m_19christmas_battle</BGM>:その瞬間、人間陣営に歓声が轟いた。
+CBJMS(7)<Speaker>C-MS</Speaker>||<震屏3>:<size=50>やったぁ――――！！！　人間陣営の勝ちだ！！！</size>
+WA2000(6)<Speaker>WA2000</Speaker>||:まぁ、途中色々あったけど、結果良ければすべてよしね！
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||:全部ご主人様のおかげです！
+FAL(8)<Speaker>FAL</Speaker>||:どう、Five-seven？　これで結果がはっきりしたわね？
+()<Speaker></Speaker>||<SE1>Rope</SE1>:喜ぶ人間陣営の傍らで、人狼陣営の人形たちはどこか納得いかない顔だった。
+FN57(8)<Speaker>Five-seven</Speaker>||:スプリングフィールド！　狼王のカードは白の狼王の次に強力なカードよ！//nこんなにあっさり人間側につくなんてどういうつもりなの！？
+KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:そうだそうだ！　裏切るなんて最低！！！
+()<Speaker></Speaker>||<SE1>Select</SE1>:怒ったK-PDWは手持ちの水鉄砲をスプリングフィールドに向ける。//n指揮官は慌てて、スプリングフィールドの前に立つが――
+()<Speaker>指揮官</Speaker>||:みんな落ち着いて！　こんなゲームの結果でムキになるのは――
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><震屏3>:（バサッ――）+指揮官が言い終わる前に、K-PDWの水鉄砲射撃が指揮官を直撃した。
+()<Speaker></Speaker>||:それにつられて、会場の雰囲気も一気に険悪になった……
+G41(2)<Speaker>Gr G41</Speaker><Position>0,150</Position>||<SE1>Select</SE1>:<size=50>人狼どもめ！　ご主人様になんてことをするのです！！！</size>
+PPD40(4)<Speaker>PPD-40</Speaker>||<SE1>AVG_lifttable</SE1>:<size=50>人狼どもを取り押さえろ！！！</size>
+G36(17)<Speaker>Gr G36</Speaker>||<SE1>Select</SE1>:<size=50>指揮官は私がお守りいたします！</size>
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=8</controll_shake><SE1>AVG_Combat_Hits</SE1>:人間陣営の人形たちと、人狼陣営の人形たちがたちまち団子状態になり、//n大乱闘が繰り広げられる。+指揮官はその間に挟まれ、身動きが取れないまま悲鳴を上げていた……
+()<Speaker>指揮官</Speaker>||<震屏3><SE1>Rope</SE1>:<size=50>み、みんな落ち着け……っていうか、誰か助けてくれ！！！</size>
+()<Speaker></Speaker>||:……
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑点2><BIN>163</BIN><BGM>GF_20HW_Scene_BPM82_loop</BGM>:海辺、人狼陣営の臨時拠点にて。+Five-sevenは重い溜息を吐きながら、そわそわとその場を歩き回った。
-FN57(8)<Speaker>Five-seven</Speaker>||:全員の身元が割れて、身分カードも盗めない……+どうしよう？！　まさか今夜はこのまま終わるっていうの？！
-()<Speaker></Speaker>||:その傍らで、全身びしょ濡れのまま魂が抜けたようなAA-12の姿を見た//n人狼陣営の人形たちは、等しく落ち込んでいた。
-95type(2)<Speaker>95式</Speaker>||:皆さん……私に、一つ考えがあります。+いくらG36さんでも、一人だけ、どうしてもそのお願いを//n断れない人がいます……
-()<Speaker>大衆</Speaker>||:<size=50>指揮官か！！！</size>
-()<Speaker></Speaker>||:一瞬にして、全員がその答えにたどり着いた。
-KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:そうだよ！　Honeyにお願いしてもらえば、きっとなんとかなる！！！+もっと早くそれに気づくべきだった！！！
-()<Speaker></Speaker>||:人狼たちの目に、希望の光が戻った。+そしてまたお互いに目を合わせ、最終作戦案を練り始めた……
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><关闭蒙版>:……
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>515</BIN><BGM>BGM_Empty</BGM>:10分後、カリーナの投票ブースにて。
-()<Speaker></Speaker>||<BGM>m_wv_title</BGM>:「追い詰められた」人狼たちは、俯きながら指揮官の前で一列に立っていた。//n中には泣きべそをかいている者もいた……
-()<Speaker>指揮官</Speaker>||:……事情は大体わかったよ。
-95type(6)<Speaker>95式</Speaker>||:指揮官、私たちはスイーツを食べなくてもいいのですが、//nAA-12はちゃんと糖分を摂取しないと、大変なことになりそうなので……
-FN57(8)<Speaker>Five-seven</Speaker>||:そうなのよ、さっきも糖分が足りなかったから、錯乱して//n海で溺れそうになってた……+アタシも人狼陣営のリーダーとして胸が痛いから、//nこうしてお願いに来たの！
-DP12(4)<Speaker>DP-12</Speaker>||:なのでどうか、G36さんを説得してもらえませんか……？//n指揮官だけが、わたしたちの最後の希望です！
-()<Speaker></Speaker>||:人狼陣営の皆は、一斉に指揮官の顔を見つめた。
-()<Speaker>指揮官</Speaker>||:まぁ……何とかしてみるよ。G36もそこまで分からず屋じゃないし。
-()<Speaker></Speaker>||:指揮官の後姿を見て、人狼たちはニヤリと笑った……
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>163</BIN>:海辺、臨時キッチン。
-()<Speaker></Speaker>||:指揮官から話を聞いたG36は、腕を組んだまま黙り込んだ。//n一方、隣にいるせっかちなG28は、G36の返答を待たずに話に割り込む――
-G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||:指揮官、ゲームとはいえ、人狼陣営がG36さんに何をしたのか//n分かってるよね！？+特にAA-12は、真っ先にG36さんを「殺そう」って提案してるし、その後も人狼陣営の情報をエサに、私たちにパフェを作らせたし……+せっかくG36さんが勝ったんだから、少しぐらいこいつらには痛い目に遭ってもらってもいいんじゃない？　今夜スイーツが食べられないぐらい、全然大したことじゃ――
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:ねえ！　Honey聞いた！？+みんな美味しいもの食べてるのに、あたしたちにだけこんな仕打ち//nするなんてひどいよ！+こんなのいじめだよ、い・じ・め！！！
-()<Speaker></Speaker>||:Five-sevenは衝動的になったKAC-PDWを止め、指揮官を見た。+いかにもかわいそうな表情で――
-()<Speaker>指揮官</Speaker>||:……
-()<Speaker>指揮官</Speaker>||:あー、その……G36、この子たちはもうちゃんと反省してるからさ。+ほら、AA-12が今全身びしょ濡れでしょ？　自分が悪いことをして、そのせいで甘いものが食べられないって気づいたから、海に飛び込もうとしたんだ……+すぐに発見できたからよかったものの、もし大事になっていたら……+もうこんなに反省しているからさ、少しだけ考え直してくれないかな……
-G36(8)<Speaker>Gr G36</Speaker>||:<color=#A9A9A9>下手な演技ですね……</color>+いいでしょう、ご主人様に免じて……
-()<Speaker></Speaker>||:仕方ないといった様子でG36はため息を吐くと、指揮官と//n人狼陣営の人形たちをゆっくりと見渡した。
-G36(18)<Speaker>Gr G36</Speaker>||:本当は、皆さんにもスイーツを振舞いたかったのです。
-FN57(6)<Speaker>Five-seven</Speaker>||:やっぱり！　G36のことだし！
-G36(18)<Speaker>Gr G36</Speaker>||:所詮ゲームです、罰もこれぐらいにしておきましょう。+こちらのフルーツソーダフロートを、どうぞお召し上がりください。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:G36はキッチンの奥から、数人分のフルーツソーダフロートを持ち出してきた。グラスの外についた結露と、ソーダの上に浮かぶクリームの結晶が、ライトの光を反射してキラキラしていた。
-FN57(6)<Speaker>Five-seven</Speaker>||:あらまあ！　本当にいつもありがとう、G36！
-KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:おお！！！　G36がそこまで言うんなら、あたしも遠慮なく――
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:スイーツ――スイィィィィィィツ！！！！！！
-G36(18)<Speaker>Gr G36</Speaker>||<BGM>BGM_Empty</BGM>:ただし、条件があります。
-()<Speaker></Speaker>||:G36は微笑みながら、ゆっくりと話を続ける。
-G36(18)<Speaker>Gr G36</Speaker>||:人狼陣営の皆さんはこのままスイーツを頂いてもいいですが……+その内の二名――
-()<Speaker></Speaker>||:一瞬で何かヤバイと勘づいた人狼たちは、その場で凍りついた。
-G36(18)<Speaker>Gr G36</Speaker>||:今日のゲームで私を殺すと提案した犯人AA-12、//nそしてその共犯者KAC-PDW……+お二人には、キッチンで食器洗いを手伝ってもらいます。+キッチンの片づけがすべて終わったら、お二人に//nこのフルーツソーダフロートを差し上げます。
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||<BGM>2022_white_valentine_BGM1</BGM><震屏3>:はあああ？！
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:えっ？　H、Honey――！
-()<Speaker></Speaker>||:KAC-PDWとAA-12は助けを求めるように指揮官を見たが、//n今回ばかりは指揮官でもどうすることもできなかった。
-()<Speaker>指揮官</Speaker>||:コッホン、G36は今夜のMVPだからな、これ以上せびるのはさすがに……+二人はちゃんとG36の手伝いをするんだぞ。誠意をもって、//n今日の行いを反省するんだ。
-()<Speaker></Speaker>||:二人の悲鳴が、夜空を突き破り、お祭りの後の余韻に、奇妙な色を添えた。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:Five-sevenは軽くため息を吐きながら、他のメンバーたちと目を合わせた。
-FN57(8)<Speaker>Five-seven</Speaker>||:<color=#00CCFF>やっぱり、メイド長を敵に回してはいけないわ……//n今回の件でそれを思い知った……</color>
-95type(2)<Speaker>95式</Speaker>||:<color=#00CCFF>フフッ……隊長、私も本当は料理が得意なんですよ。//n今後とも仲良くしましょうか。</color>
-DP12(4)<Speaker>DP-12</Speaker>||:<color=#00CCFF>これでようやく一件落着ですか……あとは、この夜を//nゆっくり楽しむとしましょう。</color>
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers_People</SE1>:夜の中、グラスが軽くぶつかる音がした。三人はG36に、//n敬意のこもった笑みを送った……
-()||<黑点1>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑点2><BIN>163</BIN><BGM>BGM_Empty</BGM><SE1>AVG_tableware</SE1>:3時間後、臨時キッチンにて。
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||<SE1>ClothingUp</SE1><BGM>m_avg_casual</BGM>:やっと……終わった……
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:働き尽くしたAA-12とKAC-PDWの二人は、泣くこともできないまま、//nシンクの傍に倒れこんだ。
-G36(18)<Speaker>Gr G36</Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:お疲れさまでした。こちら、お二人の分のフルーツソーダフロートです。//nどうぞ、ごゆっくりお召し上がりください。
-()<Speaker></Speaker>||:G36は微笑みながらスイーツをテーブルの上に置いた。+G36がキッチンを出た瞬間、KAC-PDWとAA-12の二人は//n飢えた狼のようにスイーツに飛びついていった――
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||<SE1>ClothingUp</SE1>:おお！　フルーツ……フルーツソーダフロート……！
-KAC(4)<Speaker>K-PDW</Speaker><Position>0,135</Position>||:ふぅ……ほんと疲れた！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:ゴクゴクゴク……+キッチンから離れて行くG36の後ろから、ソーダをがぶ飲みする音が//n聞こえてくる……
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position>||<BGM>BGM_Empty</BGM>:ん？！　待って！　この味、この匂い……！
-KAC(3)<Speaker>K-PDW</Speaker><Position>0,135</Position><Shake>0.1</Shake>||<BGM>GF_EV3_Bingocard_loop</BGM><震屏3>:<size=50>おえ——！！！</size>+まずい！　助けて！！！
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:な、なんなんだよこれ！　苦いような酸っぱいような辛いような……って、//n甘くないじゃん！+コホッ、コホッ――これ、絶対G36が作ったやつじゃないよね！？
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=10</controll_shake><SE1>AVG_lifttable</SE1>:二人は一瞬で顔が真っ青になり、泣き崩れた……
-()||<黑点1>:
-()<Speaker></Speaker>||<BIN>163</BIN><黑点2>:……+ビーチの向こう。
-WA2000(6)<Speaker>WA2000</Speaker>||:その……さっきキッチンに置いたフルーツソーダフロート、味、どうだった？
-G36(18)<Speaker>Gr G36</Speaker>||:すでに美味しく召し上がった方たちがいます。意外とよかったですよ。+WA2000もお疲れ様でした。
-WA2000(6)<Speaker>WA2000</Speaker>||:本当！？　よかった！　やっとできた！
-()<Speaker></Speaker>||:WA2000につられて、G36も声を出して笑った。
-G36(18)<Speaker>Gr G36</Speaker>||:ええ、本当に、素敵な夜でしたね……
+()<Speaker></Speaker>||<BIN>163</BIN><黑点2><BGM>BGM_Empty</BGM>:砂浜の向こう側。
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1><BGM>m_wv_title</BGM>:銀髪の人形は望遠鏡を下ろすと、長い溜息をついた。
+AN94(6)<Speaker>AN-94</Speaker>||:状況はどう？
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK-12</Speaker><Position>-170,130</Position>||:相当ひどいわね……表彰式に出るなって忠告しておいたのに。
+AN94(6)<Speaker>AN-94</Speaker><Position>-150,0</Position>;AK12(7)<Position>-170,130</Position>||:……あのタイミングだと遅すぎると思うけど。
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK-12</Speaker><Position>-170,130</Position>||:あら、まるで私がわざとそうしたように言わないでちょうだい。
+AN94(6)<Speaker>AN-94</Speaker><Position>-150,0</Position>;AK12(7)<Position>-170,130</Position>||:わざとだったの？
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK-12</Speaker><Position>-170,130</Position>||:ちがうわよ。+ちょっと忘れてただけ。
+AN94(6)<Speaker>AN-94</Speaker><Position>-150,0</Position>;AK12(7)<Position>-170,130</Position>||:……ゲームを辞退したとき、代わりに私が参加すればよかったのでは？+わざわざ自分のカードをスプリングフィールドに押し付けるなんて……
+AN94(6)<Position>-150,0</Position>;AK12(7)<Speaker>AK-12</Speaker><Position>-170,130</Position>||:その方が面白いんじゃない？+いつかのポーカーのお返しということで。+それと個人的に、彼女がこの状況をどう対処するのか気になるしね。
+AN94(6)<Speaker>AN-94</Speaker>||:……+……そろそろ時間よ。
+()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1>:AK-12は最後に、望遠鏡越しに混乱を極めた会場を眺めて、少し微笑んだ。
+AK12(7)<Speaker>AK-12</Speaker><Position>-170,130</Position>||<SE1>ClothingUp</SE1>:幸運を祈るわ、指揮官。
 ()<Speaker></Speaker>||:……
 ()<Speaker></Speaker>||:ライカン禁猟区【END】
 ()||<黑点1>:

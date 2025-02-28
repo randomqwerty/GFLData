@@ -1,176 +1,176 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>9</BIN><黑屏2><narrator>:夜色笼罩下的海滩，投票环节终于落下帷幕。+四式凭借“群狼之牌”的助力，荣登MVP宝座。
+()||<BIN>9</BIN><黑屏2><narrator>:海辺が夜の帳に包まれる。投票もついに終わりの時間を迎えた。+四式は最も多くの群狼カードを獲得し、MVPとなった。
 ()||<黑屏1>:
-()||<黑屏2><BIN>163</BIN><BGM>BGM_22Swim_langrensha</BGM>:颁奖典礼前不久，海滩边。
+()||<黑屏2><BIN>163</BIN><BGM>BGM_22Swim_langrensha</BGM>:表彰式の少し前。
 4type(2)<Speaker>四式</Speaker>||<SE1>AVG_AMB_waves_and_seagulls_oneshot</SE1>:……
-()||:吧嗒，吧嗒……+松软的沙滩上，DP-12和四式越走越远。+热闹的灯火被两人弃置身后，只余朦胧月色中澎湃的波涛声。
-4type(2)<Speaker>四式</Speaker>||<SE1>Stop_AVG_loop</SE1>:……DP-12小姐，您要带吾辈去哪里？+颁奖典礼马上就要开始——
-DP12(4)<Speaker>DP-12</Speaker>||:嘘……
-()||:DP-12停下脚步，将食指抵在唇上，神秘一笑。
-()<Speaker>？？？</Speaker>||:嘻嘻……
-4type(2)<Speaker>四式</Speaker>||:咦？！
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:比我预想得还要快啊，不愧是狼人的得力干将。
-()||:FN-57自黑色礁石的阴影处缓缓踱步而出，截住了四式的退路。
-DP12(4)<Speaker>DP-12</Speaker>||:过奖了，亲爱的57队长。
-4type(2)<Speaker>四式</Speaker>||:等等……什……DP-12小姐是狼人？！+你、你们要对吾辈做什么？！
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:长话短说，四式小姐。我们知道你是平民，也知道指挥官选择了你作为今晚的赢家。+所以，我们想和你做一笔小小的交易——
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:如果你在稍后的颁奖典礼上助狼人夺得胜利，那我们狼人就答应为你保守一个你“绝对不愿被别人知晓”的秘密，怎么样？
-()||<SE1>DealCards</SE1>:FN-57从背后掏出一张“狼人”牌，在四式面前晃了晃。
-4type(2)<Speaker>四式</Speaker>||:……+哼，吾辈明白了——你们在恐吓吾辈！+但是很可惜，吾辈行事向来光明磊落，从未有过见不得人的秘密！+失陪了。
-DP12(4)<Speaker>DP-12</Speaker>||:请等一下，四式小姐。+您看，这是什么？
-()||:DP-12的通讯器屏幕一闪，骤然亮起的白色画面在夜色中发出刺眼的光。
+()||:（サッ、サッ……）+柔らかな砂浜の上を、DP-12と四式が一緒に歩いていた。+賑わうお祭り会場から離れ、月明かりの中、波の音だけが聞こえてくる。
+4type(2)<Speaker>四式</Speaker>||<SE1>Stop_AVG_loop</SE1>:……DP-12殿、吾輩をどこに連れて行くのでしょうか？+もうすぐ表彰式が――
+DP12(4)<Speaker>DP-12</Speaker>||:しっ……
+()||:DP-12は一旦足を止め、唇に指を当てて、意味深に笑う。
+()<Speaker>？？？</Speaker>||:ふふっ……
+4type(2)<Speaker>四式</Speaker>||:なんと！？
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:さすが人狼側のエース、予想よりも早かったわね。
+()||:Five-sevenが岩場の陰から現れ、四式の退路を塞いだ。
+DP12(4)<Speaker>DP-12</Speaker>||:恐縮です、Five-seven隊長。
+4type(2)<Speaker>四式</Speaker>||:これは……どういう……？　DP-12殿が人狼だと？+き、貴様たちは一体何を！？
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:単刀直入に言うわ。四式、あなたが村人なのは分かってるわ。//nそして、指揮官があなたに投票したことも知っている。+なので、ここは一つ取引をしましょう――
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:もし、これから行われる表彰式で、人狼側に勝利を譲ってくれるのなら、//nアタシたち人狼側も、アンタの「絶対知られたくない秘密」を//n一つ守ってあげる。これでどう？
+()||<SE1>DealCards</SE1>:Five-sevenは自分の人狼のカードを取り出し、四式に見せる。
+4type(2)<Speaker>四式</Speaker>||:……+なるほど、これは要するに脅迫でありますか！+しかし残念ながら、吾輩に知られて困るような秘密などありません！+失礼させていただくのであります！
+DP12(4)<Speaker>DP-12</Speaker>||:少々お待ちください、四式さん。+これを見てください。
+()||:DP-12は端末で、ある画面を見せた。
 4type(2)<Speaker>四式</Speaker><Shake>||:……
-4type(2)<Speaker>四式</Speaker><Shake>||:<size=50>……噫呀！！！</size>
-()||<SE1>AVG_Button_Click</SE1>:啪。屏幕熄灭。+四式从尖叫声中回过神来，脸色红一阵白一阵，惊魂未定。
-4type(2)<Speaker>四式</Speaker>||:不！千万别……！！！+<size=50>这、这个绝对不行！！！</size>
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:嘻嘻……所以你承认了，这就是你不为人知的小秘密，是吗？
+4type(2)<Speaker>四式</Speaker><Shake>||:<size=50>……まさか！！！</size>
+()||<SE1>AVG_Button_Click</SE1>:（カチッ）+その画面を見ただけで、四式の顔は真っ青になった。
+4type(2)<Speaker>四式</Speaker>||:それは、どうか……！！！+<size=50>それだけはご勘弁を！！！</size>
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:ふふっ……やはりそうなのよね？
 4type(2)<Speaker>四式</Speaker>||:……
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:别紧张，你还有挽回的机会。+想想我们刚才提出的条件，亲爱的四式。
-()||<SE1>ClothingUp</SE1>:手心被轻柔地掰开，FN-57将一张狼人牌塞入四式手中。
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:でも大丈夫。+アタシたち人狼が、その秘密を守ってあげるわ。
+()||<SE1>ClothingUp</SE1>:そう言いながら、Five-sevenは人狼のカードを一枚四式に渡した。
 4type(2)<Speaker>四式</Speaker>||:……
-DP12(4)<Speaker>DP-12</Speaker>||:放心，事成之后我们一定遵守承诺。+狼队队友之间本就该互相帮助，对不对？
-4type(2)<Speaker>四式</Speaker>||:……+吾、吾辈知道了……
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:这就对了嘛~乖~
-()||:FN-57揉了揉四式的小脑袋，与DP-12相视一笑……
+DP12(4)<Speaker>DP-12</Speaker>||:ご安心ください、約束は必ず守ります。+人狼同士は、お互い助け合うべきです。
+4type(2)<Speaker>四式</Speaker>||:……+わ、分かったのであります……
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:そう来なくっちゃ～！
+()||:Five-sevenはポンポンと四式の頭を撫でると、DP-12と一緒にニヤリと笑った。
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>137</BIN><Night>:……领奖台。
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||<SE1>AVG_Crowd_Run</SE1><BGM>GF_Swim_Marnie</BGM>:借过一下，借过一下……
-()||:人群因即将到来的颁奖典礼聚集起来，令FN-57挤向前排的行动愈发艰难。
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:12……13……
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position><Shake>||<SE1>AVG_Punch_Hit</SE1>:啊！抱歉！
-()||:毛茸茸的小脑袋在转身的瞬间撞向FN-57。
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:嗯？你在做什么？
-()||:FN-57笑眯眯地摸了摸G41的头，流露出难得的好兴致。
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:报告FN-57小姐，我正在清点人数！+C-MS小姐说冠军肯定会提前候场。所以只要查出谁不在这里，那我们就能知道今晚的冠军是谁啦！
-G41(2)<Position>0,60</Position>;FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:真是聪明的决策呢。那你现在调查得怎么样了？
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>;FN57(6)<Position>0,60</Position>||:唔……其实，我刚刚看见G36小姐和G28小姐一起消失了！+所以我觉得她们两个有很大的嫌疑！
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:但G36和G28说不定只是去后厨收拾东西了呢？毕竟她们一整晚都在为大家准备甜点和饮品……+你瞧，她们出现了。9点钟，后厨方向~
-()||:G41回头一望，恍然大悟地点点头。
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:哦哦，我明白了……+那排除她们，现在缺席的就只剩下四式和NTW-20小姐了……
-CBJMS(4)<Speaker>C-MS</Speaker><Shake>||:<size=50>……你、迟、到、了！！！</size>
-()||:一声怒吼自近旁传出。+在C-MS的呵斥中，NTW-20牢牢攥住C-MS那双撕扯着她长发的双手，愤怒回呛。
-NTW20(6)<Speaker>NTW-20</Speaker>||:我说了我刚整理完摊位！！！+你把DP-12和四式都叫走了，我一个人收拾得完吗？！
-CBJMS(4)<Speaker>C-MS</Speaker>||:谁叫走她们了？！这分明是你的借口！+况且DP-12应该不是我们阵营的人才对啊！
-NTW20(6)<Speaker>NTW-20</Speaker>||:那她干嘛整晚都跟我和四式待在一起？+喂，狼人到底是哪几个啊？
+()||<黑屏2><BIN>137</BIN><Night>:……表彰式会場。
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||<SE1>AVG_Crowd_Run</SE1><BGM>GF_Swim_Marnie</BGM>:ごめん、ここ通して……
+()||:表彰式会場には、すでに大勢の人形たちが集まっていた。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:12……13……
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position><Shake>||<SE1>AVG_Punch_Hit</SE1>:あっ、ごめんなさい！
+()||:よそ見をしていたG41がFive-sevenとぶつかる。
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:あら、何してるの？
+()||:Five-sevenは、上機嫌でG41のもふもふの頭を撫でながら聞く。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:はい、今会場の人数を数えてました！+MVPは先に控室に行くので、ここにいないやつがMVPだと//nC-MSさんが言っていました。
+G41(2)<Position>0,60</Position>;FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:賢いわね、それで数えた結果は？
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>;FN57(6)<Position>0,60</Position>||:うん……実は、G36さんとG28さんがいないのです！+だからきっと怪しいです！
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:G36とG28はキッチンの片づけに行ったのかもしれないわよ。//nずっとみんなにスイーツとドリンクを用意していたので……+ほら、ちゃんとそこにいるでしょ？
+()||:G41はキッチンの方を見て、すぐに理解した。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:なるほど、分かりました！+それじゃ、後は四式さんとNTW-20さんだけです。
+CBJMS(4)<Speaker>C-MS</Speaker><Shake>||:<size=50>……ち・こ・く・だ・ぞ！！！</size>
+()||:隣から怒鳴り声が聞こえてくる。+C-MSに怒鳴られたNTW-20は、どこか不服そうな顔をしていた。
+NTW20(6)<Speaker>NTW-20</Speaker>||:私はずっとブースの片づけをしていたと言っただろう！+DP-12も四式もどこかに呼ばれて行ってしまい、私一人だけで！
+CBJMS(4)<Speaker>C-MS</Speaker>||:誰もあいつらを呼んでないだろ！　言い訳にしてももっとマシなものにしろ！+それにDP-12はこっちの陣営じゃないだろ！
+NTW20(6)<Speaker>NTW-20</Speaker>||:じゃあなんでずっと私と四式と一緒にいたのだ？+そもそも人狼は誰なんだ？
 ()||:……
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:看来现在没到场的只有四式了呢~
-()||<SE1>ClothingUp</SE1>:FN-57摸了摸G41的脑袋，嫣然一笑，将G41从吃瓜的晃神状态中唤回。
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:啊，对哦！+感谢您的提醒！我得马上告诉C-MS小姐这个好消息！
-()||:G41摇动尾巴，朝C-MS的身旁钻去。+FN-57趁机抓住空隙，又顺利朝前排贴进了一步。
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:唉哟！别挤——+57队长？
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:晚上好啊~
-()||:FN-57优雅地搭住AA-12的肩膀，正好能将领奖台上的景色一览无余。
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:队长，话说我们是不是没戏了？+既然这样，颁奖典礼能不能快一点结束啊……
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:你觉得我们“没戏”了吗？+我怎么反倒觉得，好戏才刚刚开始呢？
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:どうやら、まだ姿が見えないのは四式だけみたいね。
+()||<SE1>ClothingUp</SE1>:Five-sevenはまたG41のもふもふの頭を撫でる。
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:あっ、そう言えば！+これをC-MSさんに教えないと！
+()||:G41は尻尾をふりふりしながら、人混みの中を潜ってC-MSの方に行った。+その隙間を縫って、Five-sevenはさらに一歩前に進む。
+AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:ちょっ、押すなって――+隊長？
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:こんばんは～
+()||:Five-sevenはAA-12の肩に腕を回しながら、まだ誰もいない表彰台を見上げる。
+AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:隊長、これってもしかして私らの負け？+だったら表彰式も早く終わらないかな……
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:負けたと思ってるの？+いやいや、勝負は最後まで分からないわよ？
 AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:……
-()||:AA-12不解地望了望莫名自信的FN-57，重新将目光投向颁奖台……
+()||:妙に自信ありげなFive-sevenに疑問を感じつつ、AA-12もぼうっと//n表彰台の方を眺めた……
 ()||<黑点1>:
-()||<黑点2>:……数分钟后。+颁奖台上，探照灯渲染着热烈的氛围。
-()<Speaker>指挥官</Speaker>||:今天“里坎禁猎区”游戏的MVP是——+四式！
+()||<黑点2>:……数分後。+表彰式が始まった。
+()<Speaker>指揮官</Speaker>||:本日のMVPは――+四式でした！
 4type(2)<Speaker>四式</Speaker>||:……
-4type(2)<Speaker>指挥官</Speaker><同时置暗>||:祝贺你，四式。
-()||:在一片欢呼声和掌声中，四式接过奖牌，不自在地低了低头。
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||:嘻嘻……四式小姐的票型是群狼之牌大于守善之证呢。+但众所周知，真正决定输赢的是MVP本人的阵营归属！
-NPC-KalinSwim(0)<Speaker>格琳娜</Speaker>||:那么，接下来就是万众瞩目的时刻、决定游戏成败的关键一手——+四式小姐，请问您的真实身份是……？
-4type(2)<Speaker>四式</Speaker>||:吾、吾辈的身份……
-4type(2)<Speaker></Speaker><同时置暗>||<BGM>BGM_Empty</BGM>:四式用力抿了抿嘴唇，深吸一口气。
-4type(2)<Speaker>四式</Speaker>||:吾辈乃——+<size=50>“狼人”！</size>
-()||:四式闭起眼，坚决地展示着狼人牌，指尖微微颤抖。
-()||<SE1>AVG_Crowd_Run</SE1><BGM>BGM_22Swim_langrensha</BGM>:人群静默了一霎，旋即如沸腾的开水，不安地鼓噪起来。
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:……真的假的？我怎么记得她好像——
-FN57(6)<Speaker>FN-57</Speaker><Position>0,60</Position>||:嘘……
-()<Speaker>某好人人形A</Speaker>||:C-MS你骗人！你明明说四式好人稳赚不赔的！！！
-CBJMS(4)<Speaker>C-MS</Speaker>||:这、这不可能……我绝不可能盘错！！！+喂！NTW在哪儿？给我出来！！
-()||:C-MS一声高喊，吸引了全场的注意。
+4type(2)<Speaker>指揮官</Speaker><同时置暗>||:おめでとう、四式！
+()||:みんなの拍手に迎えられて、四式はやや強張った動きで楯を受け取った。
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:四式さんの得た票の内訳は、群狼カードの方が多いみたいですね。+しかし、ゲームの勝敗を決めるのは、MVPの所属している陣営です！
+NPC-KalinSwim(0)<Speaker>カリーナ</Speaker>||:というわけで、いよいよ一番大事なことをここで発表します――+四式さん、あなたの所属陣営は？
+4type(2)<Speaker>四式</Speaker>||:わ、吾輩は……
+4type(2)<Speaker></Speaker><同时置暗>||<BGM>BGM_Empty</BGM>:四式は唇を噛みしめて、深呼吸をする。
+4type(2)<Speaker>四式</Speaker>||:吾輩は――+<size=50>人狼であります！</size>
+()||:四式は目を瞑って、震える手で人狼のカードを見せた。
+()||<SE1>AVG_Crowd_Run</SE1><BGM>BGM_22Swim_langrensha</BGM>:会場は一瞬静まり、ざわざわと騒ぎ始めた。
+AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:……本当に？　そいつは確か――
+FN57(6)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:しっ……
+()<Speaker>人形A</Speaker>||:C-MSの嘘つき！　四式は村人だと言ったのに！
+CBJMS(4)<Speaker>C-MS</Speaker>||:そ、そんなわけないだろ！+おい、NTW-20！　どこにいる！
+()||:C-MSの声が注目を集める。
 NTW20(6)<Speaker>NTW-20</Speaker>||:……
-CBJMS(4)<Speaker>C-MS</Speaker>;NTW20(6)||:今晚是四式帮你一起守摊位的吧？她到底是不是狼人？！
-NTW20(6)<Speaker>NTW-20</Speaker>||:……+我认为她是平民。
-()||:NTW锐利的视线直指舞台之上，看得四式一阵心虚。
-CBJMS(4)<Speaker>C-MS</Speaker>||:证据呢？
-NTW20(6)<Speaker>NTW-20</Speaker>||:帮忙摆摊的时候，四式的平民身份牌从口袋里掉出来了，是我捡起来还给她的。+不信可以查看我的心智记忆。
+CBJMS(4)<Speaker>C-MS</Speaker>;NTW20(6)||:お前は四式と一緒にいたのだろ？　あいつは本当に人狼なのか？
+NTW20(6)<Speaker>NTW-20</Speaker>||:……+村人だと思う。
+()||:NTW-20の言葉で、表彰台の上にいる四式はビクッとした。
+CBJMS(4)<Speaker>C-MS</Speaker>||:証拠はあるのか？
+NTW20(6)<Speaker>NTW-20</Speaker>||:一緒にブースにいた時、四式のポケットからカードが落ちたことが//nあった。それを拾ったのが私だ。+当時の状況はすべてメンタルに記録されている。
 4type(2)<Speaker>四式</Speaker>||:……
-G28(4)<Speaker>G28</Speaker><Position>0,130</Position>||:我也要作证——四式小姐是好人！+四式小姐快别跟我们开玩笑了！那张狼人牌肯定是伪造的，对不对？
-4type(2)<Speaker>四式</Speaker>||:不……不是的……
-()||:四式心虚地瞥了DP-12和FN-57一眼，声音不自觉地提高了一个八度。
-4type(2)<Speaker>四式</Speaker>||:吾……吾辈没有开玩笑！+<size=50>吾辈真的是狼人，从、从头到尾，我一直都在骗大家！</size>+<size=50>我、我是个十恶不赦的坏蛋……我是个……呜呜呜……</size>+<size=50>对不起……！！！！</size>
-NTW20(6)<Speaker>NTW-20</Speaker>||:……真是看不下去了！+四式，你——
-()<Speaker>？？？</Speaker>||:别冲动。
-()||<SE1>ClothingUp</SE1>:不知何时，G36从人群中悄然走出，轻轻搭住NTW的肩膀。
-G36(8)<Speaker>G36</Speaker>||:要指责、要道歉，现在都为时尚早。当务之急是查明真相。+所以，四式小姐……
-4type(2)<Speaker>四式</Speaker>||:……唔？
-G36(8)<Speaker>G36</Speaker>||:如果你能正确答出我接下来的问题，那我就认你是狼人，今晚这件事就算过了，怎么样？
-4type(2)<Speaker>四式</Speaker>||:好、好的！
-()||:四式定了定心神，拼命抓住最后的救命稻草。
-G36(8)<Speaker>G36</Speaker>||:身为狼人，你的其他队友是谁？请准确无误地指认她们的身份。
-DP12(4)<Speaker>DP-12</Speaker>||:四式没有义务回答任何——
-G36(8)<Speaker>G36</Speaker>||:所有场外提示和通讯手段都在被我们实时监听。+所以，四式小姐，你的回答是？
-4type(2)<Speaker>四式</Speaker>||:我……吾、吾辈的队友……
-()||:望着众人齐刷刷投过来的目光，四式紧张地抿了抿嘴唇。
-4type(2)<Speaker>四式</Speaker>||:DP-12、FN-57，9……95式？
-G36(8)<Speaker>G36</Speaker>||:很好，继续。
-4type(2)<Speaker>四式</Speaker>||:呃……还有……+G……G41？
+G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||:私も！　四式は村人だと思う！+その人狼のカードは絶対偽物よ！
+4type(2)<Speaker>四式</Speaker>||:ち、違うのであります……
+()||:四式はチラッとDP-12とFive-sevenを見て、思わず声のボリュームを上げる。
+4type(2)<Speaker>四式</Speaker>||:わ、吾輩は、本当に人狼であります！+<size=50>最初から、ずっと、皆を騙していたのであります！</size>+<size=50>吾輩は……吾輩は悪い人狼で……ううう……</size>+<size=50>申し訳ないのであります……！！！！</size>
+NTW20(6)<Speaker>NTW-20</Speaker>||:……見てられない。+四式――
+()<Speaker>？？？</Speaker>||:早まるな。
+()||<SE1>ClothingUp</SE1>:いつの間にか、G36が会場に現れ、NTW-20にそう声をかけた。
+G36(8)<Speaker>Gr G36</Speaker>||:今この場で何か言うにはまだ早すぎます。まずは、真相を確かめましょう。+というわけで、四式さん……
+4type(2)<Speaker>四式</Speaker>||:……な、なんでありましょう？
+G36(8)<Speaker>Gr G36</Speaker>||:これからいくつか質問をさせていただきます。もしすべて答えられたら、//nあなたを人狼だと認めましょう。それでよろしいでしょうか？
+4type(2)<Speaker>四式</Speaker>||:わ、分かったのであります！
+()||:このチャンスを逃すわけにはいかないと、四式は覚悟を決めた。
+G36(8)<Speaker>Gr G36</Speaker>||:もしあなたが人狼なら、同じ人狼陣営の仲間は誰ですか？//nあなたの仲間をすべて教えてください。
+DP12(4)<Speaker>DP-12</Speaker>||:四式にそれを答える義務は――
+G36(8)<Speaker>Gr G36</Speaker>||:この場で行われる通信はすべて傍受されるとだけお伝えいたします。+それで、四式さん、答えは？
+4type(2)<Speaker>四式</Speaker>||:わ……吾輩の仲間は……
+()||:全員に注目される中、四式は慎重に言葉を放つ。
+4type(2)<Speaker>四式</Speaker>||:DP-12殿、Five-seven殿、それと……95式殿？
+G36(8)<Speaker>Gr G36</Speaker>||:はい、それからは？
+4type(2)<Speaker>四式</Speaker>||:えっ……それから……+G……G41殿？
 CBJMS(4)<Speaker>C-MS</Speaker>||:？？？
-G28(4)<Speaker>G28</Speaker><Position>0,130</Position>||:？？？
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position><Shake>||:诶？！我、我是平民啊！！！+<size=50>大家不要这样看着我啊！我是无辜的呜呜呜……</size>
-AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:错啦！笨蛋！
-FN57(8)<Speaker>FN-57</Speaker><Position>0,60</Position>||:闭嘴！
-G36(8)<Speaker>G36</Speaker>||:很遗憾，四式小姐。您的回答有误。+G28。
-G28(4)<Speaker>G28</Speaker><Position>0,130</Position>||:收到！
-()||<SE1>AVG_Cloak_Whoosh</SE1><BGM>BGM_Empty</BGM>:嗖嗖——+娇小敏捷的身影从缝隙中钻出，瞬间闪现在四式身后。
-4type(2)<Speaker>四式</Speaker>||<BGM>m_avg_tension</BGM>:……诶？！！+哇啊啊——你干什么？！
-()||<SE1>Rope</SE1>:嘎吱、嘎吱……粗硬的麻绳如天罗地网，将挣扎的四式紧紧捆住。
-FN57(8)<Speaker>FN-57</Speaker><Position>0,60</Position>||:放开她！你们要对我们的狼队友干什么？！+指挥官——格琳娜小姐——！
-()||<SE1>RunStep</SE1>:哒哒哒——沙滩上，奔跑声渐行渐远，徒留两串凌乱的脚印。
-()||:人形们呆愣了一瞬，忽然露出狰狞的本相，彼此推搡，争先恐后涌上舞台……
-G28(4)<Speaker>G28</Speaker><Position>0,130</Position><Shake>||<SE1>AVG_Combat_Hits</SE1>:“我们要干什么”？哼，当然是撬开四式小姐的心智查看记忆啦！+四式小姐多单纯善良，怎么可能撒谎？！一定是你们这群狼人暗中操控了她！+四式别怕！我们现在就来救你！！！
-()||<SE1>Rope</SE1>:G28死死拽住四式的左臂，拔河般用力拉扯。
-4type(2)<Speaker>四式</Speaker><Shake>||:哇啊啊啊——
-()||<SE1>Rope</SE1>:另一边，狼人们也不甘示弱地攀紧四式的右臂，企图夺回胜利的果实。
-FN57(8)<Speaker>FN-57</Speaker><Position>0,60</Position><Shake>||<SE1>AVG_Combat_Hits</SE1>:别因为输了游戏就随便污蔑别人！+连明察秋毫的指挥官都给四式小姐投了“群狼之牌”，你们还在挣扎什么？！
-4type(2)<Speaker>四式</Speaker><Shake>||:<size=50>……痛痛痛痛！</size>+啊！……我的包……
-()||<SE1>AVG_Zipper</SE1>:滋啦。+腰包的拉链被扯开，一张平民牌飞了出来，被拥挤的人群踩在脚下。
-()||<SE1>AVG_File_Put</SE1>:与此同时，四式的通讯器“扑通”一声掉在沙滩上。
-()||<SE1>AVG_tele_connect</SE1>:滴！
-()<Speaker>？？？</Speaker>||<BGM>BGM_Empty</BGM><震屏3>:<size=50><color=#00CCFF>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！</color></size>
-()<Speaker>众人</Speaker>||: ……！！+谁？！谁在尖叫？！！
-()||:混乱的场面瞬间按下暂停键，所有人的目光都不约而同地投向声音的源头——
-()||<SE1>AVG_whitenoise</SE1>:滋啦，滋啦……+四式的通讯器屏幕在沙粒间夺目地闪烁着。
-Saiga12(0)<Speaker>Saiga-12</Speaker><通讯框>||<BGM>GF_20HW_Scene_BPM82_loop</BGM>:<color=#00CCFF>呜呜呜呜……《格里芬海边play》的新一话也太精彩了吧！！！！</color>+<color=#00CCFF>好多美妙的……嘿嘿嘿嘿……嘿嘿嘿……</color>
-4type(2)<Speaker>四式</Speaker>||:噫……！
-()||:四式用力挣脱，却无济于事。
-Saiga12(0)<Speaker>Saiga-12</Speaker><通讯框>||:<color=#00CCFF>啊！我吃得好饱！</color>+<color=#00CCFF>我好满足！！</color>+<color=#00CCFF>我好幸福！！！！</color>+<size=50><color=#00CCFF>我单方面宣布四式老师您就是格里芬最伟大的漫画老师！！！</color></size>+<size=50><color=#00CCFF>您就是我的神啊啊啊啊啊啊啊啊啊啊——</color></size>
-()||<SE1>AVG_tele_disconnect</SE1>:滴。留言结束。
+G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||:？？？
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position><Shake>||:えっ？　私は村人ですよ？+<size=50>そ、そんな目で見ないでください！　私は本当に村人です……！</size>
+AA12(2)<Speaker>AA-12</Speaker><Position>0,100</Position>||:ああもう、バカ……
+FN57(8)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:アンタも黙りなさい！
+G36(8)<Speaker>Gr G36</Speaker>||:残念ですが、四式さん、答えは間違っています。+G28。
+G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||:了解！
+()||<SE1>AVG_Cloak_Whoosh</SE1><BGM>BGM_Empty</BGM>:（スッ――）+G28は一瞬で消え、そして四式の背後に現れた。
+4type(2)<Speaker>四式</Speaker>||<BGM>m_avg_tension</BGM>:……えっ！？+うわぁぁぁ――なにをするのでありますか！
+()||<SE1>Rope</SE1>:G28はロープで、四式をグルグルと巻き上げた。
+FN57(8)<Speaker>Five-seven</Speaker><Position>0,60</Position>||:放しなさいよ！　アタシたちの仲間に何をする気なの！？+指揮官！　それにカリーナさんもなんか言って――！
+()||<SE1>RunStep</SE1>:Five-sevenはそう叫ぶが、二人はすでに消えていた。
+()||:場の秩序を維持してくれていた者がいなくなり、人形たちは次々と//n表彰台の上へ上がってきて、場の雰囲気が一気に険悪になった……
+G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position><Shake>||<SE1>AVG_Combat_Hits</SE1>:何って、当然四式のメンタルの記録を確認するのよ！+四式はあんな嘘をつくような人形じゃないから、絶対人狼側が//nなんかしたのでしょ！+今から人狼たちの陰謀を全部暴いてみせる！
+()||<SE1>Rope</SE1>:G28は必死に四式の腕を掴んで、人狼側に奪われないようにした。
+4type(2)<Speaker>四式</Speaker><Shake>||:うあああ――
+()||<SE1>Rope</SE1>:人狼の方も負けじと、同じように四式を引っ張って、無理やり勝利を//nもぎ取ろうとした。
+FN57(8)<Speaker>Five-seven</Speaker><Position>0,60</Position><Shake>||<SE1>AVG_Combat_Hits</SE1>:負けたからってそんな言いがかりを！+指揮官だって四式に『群狼カード』を入れたじゃない！//nいい加減素直に負けを認めなさいよ！
+4type(2)<Speaker>四式</Speaker><Shake>||:<size=50>……痛い！　痛いであります</size>+あっ！……吾輩のカバン……
+()||<SE1>AVG_Zipper</SE1>:（ザラッ）+四式のカバンの中から、村人のカードが飛び出たが、//n誰もそんなことを気にしていなかった。
+()||<SE1>AVG_File_Put</SE1>:さらには、四式の端末も一緒に、砂浜の上に落ちた。
+()||<SE1>AVG_tele_connect</SE1>:（ピッ）
+()<Speaker>？？？</Speaker>||<BGM>BGM_Empty</BGM><震屏3>:<size=50><color=#00CCFF>うおおおおおおおおおおおお！！！！！</color></size>
+()<Speaker>大衆</Speaker>||:……！+なに？　誰の声なの？
+()||:その場にいる全員は一旦手を止め、一斉に声の源を探し始めた――
+()||<SE1>AVG_whitenoise</SE1>:（ザザッ……）+四式の端末が、砂浜の上でピコピコと光っている。
+Saiga12(0)<Speaker>Saiga-12</Speaker><通讯框>||<BGM>GF_20HW_Scene_BPM82_loop</BGM>:<color=#00CCFF>ああああ……『グリフィン・シーサイド・プレイ』の最新話//n……素晴らしい！！！！</color>+<color=#00CCFF>これは……実に……フフッ……フフフフフフ……</color>
+4type(2)<Speaker>四式</Speaker>||:あ、ああ……！
+()||:四式はどうにかして混乱の中心から抜け出したが、時すでに遅かった。
+Saiga12(0)<Speaker>Saiga-12</Speaker><通讯框>||:<color=#00CCFF>んんんんン！　ご馳走様でした！</color>+<color=#00CCFF>この有難き幸せ！！</color>+<color=#00CCFF>感謝！！！！</color>+<size=50><color=#00CCFF>やはり四式先生こそこのグリフィンで最も偉大な漫画家だ！！！</color></size>+<size=50><color=#00CCFF>まさに！神！！！</color></size>
+()||<SE1>AVG_tele_disconnect</SE1>:ボイスメッセージはここで終わった。
 ()||:……
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:诶？Saiga-12小姐怎么听起来很激动的样子……？
-G36(8)<Speaker>G36</Speaker>||:失礼了，四式。
-()||<SE1>ClothingUp</SE1>:G36弯腰，捡起通讯器逐级翻阅。+好奇的人群旋即放下“拔河”事业，凑近围观。
-4type(2)<Speaker>四式</Speaker><Shake>||:不要……！！
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:哇！原来四式小姐是个高产的漫画家诶！+“傲娇队长与腹黑副队长的罗曼史”、“怦然心动的指挥室”、“女仆长大人哪有这么可爱”……+等等……“R18”是什么？为什么好多漫画都有这个标记？
-CBJMS(4)<Speaker>C-MS</Speaker>||:那、那是绝密文件的意思啦！小孩子别看！
-G41(2)<Speaker>G41</Speaker><Position>0,60</Position>||:哦哦……
-()||:G41的耳朵随小脑袋轻轻晃荡，好奇的双眼还欲在屏幕上探索什么，却被G36一声叹息，关闭了通讯器。
-G36(8)<Speaker>G36</Speaker>||:我想我明白了。+你和DP-12小姐之间的通讯记录已经说明了一切……+你的私人爱好成为了你被威胁的把柄，是吗四式？
-4type(2)<Speaker>四式</Speaker>||:呜呜……我不是，我没有……
-()||:四式徒劳地挣扎着。
-G36(8)<Speaker>G36</Speaker>||:四式小姐，这关乎“里坎禁猎区”游戏的公正公平。+所以还请允许我为大家揭露真相——
-4type(2)<Speaker>四式</Speaker><Shake>||:不！不要！不可以！我拒绝！+<size=50>呜呜呜……我、我以后还怎么见人啊……！！！</size>
-()||<SE1>AVG_Cloak_Whoosh</SE1>:呼啦！+四式一把挣脱桎梏、夺过通讯器，嚎哭着冲向无人的海滩……
-NTW20(6)<Speaker>NTW-20</Speaker><Shake>||:等一下四式！+好歹把骗人的理由说清楚再走啊！
-()||<SE1>RunStep</SE1>:NTW毫不犹豫地追了上去。
-CBJMS(4)<Speaker>C-MS</Speaker>||:别冲动NTW！啊呀……
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:あれ？　これってSaiga-12さんの声です……？
+G36(8)<Speaker>Gr G36</Speaker>||:失礼いたします。
+()||<SE1>ClothingUp</SE1>:G36は端末を拾い、その中身を逐一チェックし始める。+気になった他の人形たちも、四式から離れ、G36の周りに集まった。
+4type(2)<Speaker>四式</Speaker><Shake>||:や、やめて……！！
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:へぇ！四式さんって漫画家だったのですか！+『ツンデレ隊長と腹黒隊長のロマンス』、『ドキドキ司令室』、//n『メイド長様が可愛すぎる』……+ん……？「R-18」ってどういう意味？
+CBJMS(4)<Speaker>C-MS</Speaker>||:こ、こら、子供が見るんじゃない！
+G41(2)<Speaker>Gr G41</Speaker><Position>0,60</Position>||:……？
+()||:C-MSがさっとG41の目を塞ぐと、G36が端末の画面を閉じた。
+G36(8)<Speaker>Gr G36</Speaker>||:なるほど、分かりました。+DP-12との通信記録で、すべての説明がつきます……+あなたは、彼女たちに弱みを握られていますね？
+4type(2)<Speaker>四式</Speaker>||:うぅ……そんなこと、ないのであります……
+()||:四式の弁解も虚しく終わる。
+G36(8)<Speaker>Gr G36</Speaker>||:四式さん、これはライカン禁猟区の結果に関わることです。+なのでこの件については、私の方から皆さんに説明を――
+4type(2)<Speaker>四式</Speaker><Shake>||:嫌！　断るのであります！+<size=50>こんなの……こんなのが知られたらもう――！！！</size>
+()||<SE1>AVG_Cloak_Whoosh</SE1>:（シュッ――！）+四式はG36から端末を奪い返し、泣きながら一人//nどこかへ走って行った……
+NTW20(6)<Speaker>NTW-20</Speaker><Shake>||:待て四式！+せめて嘘をついた理由を――！
+()||<SE1>RunStep</SE1>:NTW-20が追いかけようとしたところ、C-MSに呼び止められる。
+CBJMS(4)<Speaker>C-MS</Speaker>||:MTW-20、ここは冷静に……
 NTW20(6)<Speaker>NTW-20</Speaker><Shake>||:？？？
-G28(4)<Speaker>G28</Speaker><Position>0,130</Position>||:小心小心！借过借过……唉哟！
-NTW20(6)<Speaker>NTW-20</Speaker><Shake>||:喂！你们干什么？！+别拉我！挡路了！喂……！！！
-()||<SE1>AVG_Combat_Hits</SE1>:……+舞台之上，原本团结的好人阵营忽然失去控制，追逐的、拦人的、围观的全都混作一团。+打闹与叫嚣声中，一场新的混乱正在酝酿……
+G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position>||:みんな気を付けて……おっと！
+NTW20(6)<Speaker>NTW-20</Speaker><Shake>||:おい！　お前たち何をする？+変な邪魔するな！
+()||<SE1>AVG_Combat_Hits</SE1>:……+表彰台の上、人間陣営の間で突然仲間割れが起きた。+新たな混乱が引き起こされる……
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><关闭蒙版><BIN>163</BIN><BGM>GF_Swim_Marnie</BGM>:另一边，沙滩之上。
-()||<SE1>AVG_tele_connect</SE1>:滴！滴！……+随着四式的匆忙遁逃，手中的通讯器接二连三地发出信息提示音。
-G28(4)<Speaker>G28</Speaker><Position>0,130</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>呼！还好G36姐刚才没翻到我们的聊天记录！</color>+<color=#00CCFF>四式老师快跑啊！</color>
-CBJMS(4)<Speaker>C-MS</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>我正在拖延NTW的时间！</color>+<color=#00CCFF>之前的文件我全删掉了，你那边也记得清空一下！千万别忘了！！！</color>
-()<Speaker>某匿名用户A</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>四式！！！没想到您就是传说中那位伟大的漫画太太！！！</color>+<color=#00CCFF>我是您的忠实粉丝！麻烦加个好友吧！</color>+<size=50><color=#00CCFF>加个好友吧！！！</color></size>
-()<Speaker>某匿名用户B</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>漫画考虑拿来卖吗？</color>+<color=#00CCFF>最好看的R18我全包了！随你开价！</color>
+()||<黑屏2><关闭蒙版><BIN>163</BIN><BGM>GF_Swim_Marnie</BGM>:一方、誰もいない砂浜の方で。
+()||<SE1>AVG_tele_connect</SE1>:（ピッ、ピッ……）+一人逃げる四式の端末に、次々とメッセージが届く。
+G28(4)<Speaker>Gr G28</Speaker><Position>0,130</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>よかった！　G36さんにチャットの記録を見られなくて！</color>+<color=#00CCFF>今のうちに逃げて、四式先生！</color>
+CBJMS(4)<Speaker>C-MS</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>今NTW-20の足止めしている！</color>+<color=#00CCFF>ファイルは全部消しておいたから、そっちも消すのを忘れるなよ！！！</color>
+()<Speaker>匿名ユーザーA</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>まさか！！！　あの先生の正体が四式だったとは！！！</color>+<color=#00CCFF>ファンです！　フォローさせていただきます！</color>+<size=50><color=#00CCFF>今後ともよろしくお願いいたします！！！</color></size>
+()<Speaker>匿名ユーザーB</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>その漫画、電子版で販売する？</color>+<color=#00CCFF>うちなら手数料は安いよ～</color>
 ()||:……
-4type(2)<Speaker>四式</Speaker>||:啊啊啊啊——何等罪恶！何等罪恶！+<size=50>吾辈……吾辈不如死了算啦！！！</size>
-()||<SE1>RunStep</SE1>:……+沙滩之上，一串大步流星的脚印延伸向远方。+古怪的哀嚎声遍及之处，成群结队的海鸥扑啦啦地飞起，融入银色的月光中……
-()||:里坎禁猎区【END】
+4type(2)<Speaker>四式</Speaker>||:ああああああ――+<size=50>吾輩は……吾輩は一体どうすれば！！！</size>
+()||<SE1>RunStep</SE1>:……+砂浜の上、足跡が果てしなく伸びていく。+悲鳴が響き渡る中、カモメたちは翼をはためかせ、月明かりの夜空に//n消えていった……
+()||:ライカン禁猟区【END】
 ()||<黑点1>:
