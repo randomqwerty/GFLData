@@ -235,8 +235,8 @@ function PlayGuide(guidename)
 end
 local CheckLetterText = function(self,txt)
 	self:CheckLetterText(txt);
-	local length = utf8len(self.lastText);
-	self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
+	--local length = utf8len(self.lastText);
+	--self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
 end
 local EditLetter = function(self)
 	if CS.ResCenter.CONGIGNAME == "IosResConfigData2018.txt" then
@@ -265,8 +265,8 @@ local EditLetter = function(self)
 	else
 		self:EditLetter();
 	end
-	local length = utf8len(self.letterData.content);
-	self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
+	--local length = utf8len(self.letterData.content);
+	--self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
 end
 local LeaveEditLetter = function(self)
 	if CS.ResCenter.CONGIGNAME == "IosResConfigData2018.txt" then
