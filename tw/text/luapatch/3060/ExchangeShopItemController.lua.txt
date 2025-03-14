@@ -14,7 +14,10 @@ end
 local Init = function(self,mallGood)
 	self:Init(mallGood)
 	local meet = false
-	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal and mallGood.type == 2 then
+	if (CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal or
+		CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Japan or 
+		CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_US)
+		and mallGood.type == 2 then
 		for i=1,#mallIds do
 			if mallGood.id == mallIds[i] then
 				meet = true

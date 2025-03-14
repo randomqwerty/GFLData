@@ -9,7 +9,7 @@ local InitUIElements = function(self)
 	local bg = CS.UnityEngine.GameObject.Instantiate(bgObj);
 	local parent = self.transform:Find("Frame");
 	bg.transform:SetParent(parent, false);
-	bg.transform.localPosition = CS.UnityEngine.Vector3(-50,-330,0);
+	bg.transform.localPosition = CS.UnityEngine.Vector3(10,-330,0);
 	local btn = bg.transform:GetComponent(typeof(CS.ExButton));
 	local text = CS.Data.GetLang(100335).."\n";
 	local allnum = 0;
@@ -75,15 +75,6 @@ local InitUIElements = function(self)
 	btn:AddOnClick(function ()
 		CS.CommonRuleBoxController.OpenInMessageBox(text, nil);
 	end)
-	local webObj = CS.ResManager.GetObjectByPath("Prefabs/Btn_ProbabilityWeb");
-	local web = CS.UnityEngine.GameObject.Instantiate(webObj);
-	web.transform:SetParent(parent, false);
-	web.transform.localPosition = CS.UnityEngine.Vector3(90,-330,0);
-	local webbtn = web.transform:GetComponent(typeof(CS.ExButton));	
-	webbtn:AddOnClick(function ()
-			local url = CS.Data.GetString("kr_probability_web");
-			CS.OPSWebWindows.Show(url);
-		end)
 end
 
 function Split(szFullString, szSeparator)
