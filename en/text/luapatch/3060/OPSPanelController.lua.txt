@@ -251,6 +251,15 @@ local RefreshCurrentDiffcluty = function(self)
 		self.MissionInfoController:InitOPSMission(findspot.opsMission);
 	end
 end
+local SelectContainer = function(self,container,playanim)
+	self:SelectContainer(container,playanim);
+	if container.clockinfo ~= nil then
+		for i=0,CS.OPSPanelBackGround.Instance.spotMissionHolders.Count-1 do
+			local holder = CS.OPSPanelBackGround.Instance.spotMissionHolders[i];
+			holder:RefreshUI();
+		end
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.OPSPanelController,'SelectMissionSpot',SelectMissionSpot)
@@ -266,6 +275,7 @@ util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelController,'CheckAllTimelineState',CheckAllTimelineState)
 util.hotfix_ex(CS.OPSPanelController,'ShowLetterList',ShowLetterList)
 util.hotfix_ex(CS.OPSPanelController,'RefreshCurrentDiffcluty',RefreshCurrentDiffcluty)
+util.hotfix_ex(CS.OPSPanelController,'SelectContainer',SelectContainer)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 util.hotfix_ex(CS.OPSPanelSpot,'PlaySpotLine',PlaySpotLine)
 util.hotfix_ex(CS.OPSLetterReceiveController,'CloseUI',CloseUI)

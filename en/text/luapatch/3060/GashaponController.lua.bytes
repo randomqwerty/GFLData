@@ -3,18 +3,11 @@ xlua.private_accessible(CS.GashaponController)
 xlua.private_accessible(CS.RequestGashaData)
  
 local dicGashaRate=CS.System.Collections.Generic.Dictionary(CS.System.Int32,CS.System.String)();
-local dicGashaRateComplete=CS.System.Collections.Generic.List(CS.System.Int32)();
+local dicGashaRateComplete=CS.System.Collections.Generic.Dictionary(CS.System.Int32,CS.System.Int32)();
 local mOpenConfirmBox = function(self)
 	print(self.gashaPoolId.."号奖池")
-	local content = ""
-	if dicGashaRate:ContainsKey(self.gashaPoolId) then
-		content = dicGashaRate[self.gashaPoolId];
-	else
-		content = CS.Data.GetLang(170003);
-		CS.CommonController.ShowRuleBox(content, CS.CommonController.MainCanvas.transform);
-		return;
-	end
-	if dicGashaRateComplete:Contains(self.gashaPoolId) == false then
+	local content = dicGashaRate[self.gashaPoolId];
+	if dicGashaRateComplete:ContainsKey(self.gashaPoolId) == false then
 
 		print(self.gashaPoolId.."号奖池 需要重新替换content")
 		local mRewardPool = CS.GashaponRewardPool();
@@ -37,7 +30,7 @@ local mOpenConfirmBox = function(self)
 			if listInfo~=nil and listInfo.Count >0 then
 				for i=0,listInfo.Count-1 do
 					local item = listInfo[i]
-					local key = "@"..item.id.."@"
+					local key = "|"..item.id.."|"
 					content=content:gsub(key, item.name);	 
 				end
 				listInfo=nil;
@@ -56,7 +49,7 @@ local mOpenConfirmBox = function(self)
 		end
 		mRewardPool=nil;	
 		dicGashaRate[self.gashaPoolId]=content;
-		dicGashaRateComplete:Add(self.gashaPoolId);
+		dicGashaRateComplete:Add(self.gashaPoolId,self.gashaPoolId);
 	end 
 	--self.ConfirmBoxText.text = content;
 	--print(content)
@@ -95,7 +88,7 @@ local mOpenConfirmBox = function(self)
         end
         text1.text = firstPart;
         text2.text = secondPart;
-        --Text_KR.transform.localPosition = CS.UnityEngine.Vector3(Text_KR.transform.localPosition.x,-60000,0);
+        Text_KR.transform.localPosition = CS.UnityEngine.Vector3(Text_KR.transform.localPosition.x,-60000,0);
 	else
 		CS.CommonController.ShowRuleBox(content, CS.CommonController.MainCanvas.transform);
 	end
@@ -110,7 +103,7 @@ local mSuccessJsonHandleData = function(self,jsonData)
 		dicGashaRate:Clear();
 	end
 	if dicGashaRateComplete==nil then
-		dicGashaRateComplete=CS.System.Collections.Generic.List(CS.System.Int32)();
+		dicGashaRateComplete=CS.System.Collections.Generic.Dictionary(CS.System.Int32,CS.System.Int32)();
 	end
 	if dicGashaRateComplete.Count >0 then
 		dicGashaRateComplete:Clear();
@@ -120,31 +113,17 @@ local mSuccessJsonHandleData = function(self,jsonData)
 		local gasha_len = CS.GameData.listGashaInfo.Count-1;
 		--print("gasha_len:"..gasha_len)
 		for i=0,gasha_len do
-			local id = CS.GameData.listGashaInfo[i].id
-			local key = id.."";
-			dicGashaRate:Add(id,data:GetValue(key).String);
+			local key = CS.GameData.listGashaInfo[i].id.."";
+			dicGashaRate:Add(key,data:GetValue(key).String);
 		end
 	end
 	--print("dicGashaRate:"..dicGashaRate.Count)
 end
 
-local mInitGashaponView = function(self)
-	self:InitGashaponView();
-	local web = CS.ResManager.GetObjectByPath("Prefabs/Btn_ProbabilityWeb");
-    local webObj = CS.UnityEngine.GameObject.Instantiate(web);
-    webObj.transform:SetParent(self.mFloatPointHolder.transform.parent, false);
-    webObj.transform.localPosition=CS.UnityEngine.Vector3(870,-220,0);
-    local btnWeb = webObj:GetComponent(typeof(CS.ExButton));
-	btnWeb:AddOnClick(OnClickWeb);
-end
-function OnClickWeb() 
-	local url = CS.Data.GetString("kr_probability_web")
-	CS.UnityEngine.Application.OpenURL(url);
-end
+ 
 if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
 
 util.hotfix_ex(CS.GashaponController,'OpenConfirmBox',mOpenConfirmBox) 
-util.hotfix_ex(CS.GashaponController,'InitGashaponView',mInitGashaponView) 
 util.hotfix_ex(CS.RequestGashaData,'SuccessJsonHandleData',mSuccessJsonHandleData)
 
 end
