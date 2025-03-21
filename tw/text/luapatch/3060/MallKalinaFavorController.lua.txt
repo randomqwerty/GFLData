@@ -3,7 +3,7 @@ xlua.private_accessible(CS.MallKalinaFavorController)
 xlua.private_accessible(CS.MallController)
 
 local LoadNpc = function(self)
-	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
+	if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 		if self.kalinaFavorController ~= nil then
 			self.kalinaFavorController:Init();
 		end
