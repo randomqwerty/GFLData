@@ -82,6 +82,7 @@ InitSkill1 = function(SkillLabel,mCurSkill,pos)
 		fpos = 1
 	end
 	skillLabelController:InitUI(characterData,fpos,pos,0,mCurSkill,nil)
+	skillLabelController.openSkillTip = false
 end
 
 
@@ -133,6 +134,7 @@ Start = function()
 	
 	local charPos = character.transform
 	charPos.localPosition = CS.UnityEngine.Vector3(charPos.localPosition.x, characterY, charPos.localPosition.z)
+	character.listMembers[0].transform.localPosition = CS.UnityEngine.Vector3.zero
 	CS.BattleUIManualSkillController.Instance.gameObject:SetActive(false)
 	
 	InitSkill1(SkillLabel1,mCurSkill[0],3)
