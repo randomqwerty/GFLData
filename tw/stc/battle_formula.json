@@ -16392,6 +16392,14 @@
     "formula": "sbuffidtier(9764)=1?1:0"
   },
   {
+    "id": 9655,
+    "formula": "sbuffidtier(9769)=1?9770:101"
+  },
+  {
+    "id": 9656,
+    "formula": "sbuffidtier(9769)=1?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
@@ -18017,7 +18025,7 @@
   },
   {
     "id": 387909,
-    "formula": "sbuffidtier(722424)>0?722425:0"
+    "formula": "sbuffidtier(722424)>0?tbuffidtier(722425)>0?0:722425:0"
   },
   {
     "id": 387910,
