@@ -3177,7 +3177,7 @@
   },
   {
     "id": 1887,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.3:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.3:0"
   },
   {
     "id": 1888,
@@ -3185,39 +3185,39 @@
   },
   {
     "id": 1889,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.32:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.32:0"
   },
   {
     "id": 1890,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.34:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.34:0"
   },
   {
     "id": 1891,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.37:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.37:0"
   },
   {
     "id": 1892,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.39:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.39:0"
   },
   {
     "id": 1893,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.41:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.41:0"
   },
   {
     "id": 1894,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.43:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.43:0"
   },
   {
     "id": 1895,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.46:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.46:0"
   },
   {
     "id": 1896,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.48:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.48:0"
   },
   {
     "id": 1897,
-    "formula": "#leader=1?(sbufftypenumber(101)/sbuffidnumber(4610)*100-100)*0.5:0"
+    "formula": "#leader=1?(sbufftypenumber(101)*100-100)*0.5:0"
   },
   {
     "id": 1898,
@@ -7577,11 +7577,11 @@
   },
   {
     "id": 3566,
-    "formula": "#leader=1?3838:480"
+    "formula": "#leader=1?3838:0"
   },
   {
     "id": 3567,
-    "formula": "#leader=0?3839:480"
+    "formula": "#leader=0?3839:0"
   },
   {
     "id": 3570,
@@ -16336,6 +16336,70 @@
     "formula": "sbuffidtier(9755)=1?tbuffidtier(15047)>0?$1*1.5:$1:$1"
   },
   {
+    "id": 9641,
+    "formula": "sbuffidtier(9759)=1&sbuffidtier(9760)=1?1:0"
+  },
+  {
+    "id": 9642,
+    "formula": "sbuffidtier(9762)=1&sbuffidtier(9763)=1?1:0"
+  },
+  {
+    "id": 9643,
+    "formula": "sbuffidtier(9761)=1?55:85"
+  },
+  {
+    "id": 9644,
+    "formula": "sbuffidtier(9761)=1?53:83"
+  },
+  {
+    "id": 9645,
+    "formula": "sbuffidtier(9761)=1?52:82"
+  },
+  {
+    "id": 9646,
+    "formula": "sbuffidtier(9761)=1?50:80"
+  },
+  {
+    "id": 9647,
+    "formula": "sbuffidtier(9761)=1?48:78"
+  },
+  {
+    "id": 9648,
+    "formula": "sbuffidtier(9761)=1?47:77"
+  },
+  {
+    "id": 9649,
+    "formula": "sbuffidtier(9761)=1?45:75"
+  },
+  {
+    "id": 9650,
+    "formula": "sbuffidtier(9761)=1?43:73"
+  },
+  {
+    "id": 9651,
+    "formula": "sbuffidtier(9761)=1?42:72"
+  },
+  {
+    "id": 9652,
+    "formula": "sbuffidtier(9761)=1?40:70"
+  },
+  {
+    "id": 9653,
+    "formula": "sbuffidtier(9761)=1?1:0"
+  },
+  {
+    "id": 9654,
+    "formula": "sbuffidtier(9764)=1?1:0"
+  },
+  {
+    "id": 9655,
+    "formula": "sbuffidtier(9769)=1?9770:101"
+  },
+  {
+    "id": 9656,
+    "formula": "sbuffidtier(9769)=1?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
@@ -17961,7 +18025,7 @@
   },
   {
     "id": 387909,
-    "formula": "sbuffidtier(722424)>0?722425:0"
+    "formula": "sbuffidtier(722424)>0?tbuffidtier(722425)>0?0:722425:0"
   },
   {
     "id": 387910,
