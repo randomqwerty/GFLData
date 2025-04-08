@@ -104,6 +104,15 @@ local UpdateInfo = function(self)
 	end
 	self:UpdateInfo();
 end
+local CheckBattle = function(self)
+	if self:HasTeamCanTrans() then
+		CS.DeploymentController.hasTeamTraning = true;
+		self:CheckTeamTrans();
+		return;
+	end
+	CS.DeploymentController.hasTeamTraning = false;
+	self:CheckBattle();
+end
 local TriggerAVGFinishEvent = function()
 	local team = nil;
 	if CS.DeploymentController.Instance ~= nil and not CS.DeploymentController.Instance:isNull() then
@@ -122,4 +131,5 @@ util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamMoveCost',CheckTeamMoveCost
 util.hotfix_ex(CS.DeploymentController,'AddAndPlayPlayBattleChange',AddAndPlayPlayBattleChange)
 util.hotfix_ex(CS.DeploymentController,'RequestStartMission',RequestStartMission)
 util.hotfix_ex(CS.DeploymentController,'TriggerAVGFinishEvent',TriggerAVGFinishEvent)
+util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
 util.hotfix_ex(CS.DeploymentFloatingTeamInfo,'UpdateInfo',UpdateInfo)
