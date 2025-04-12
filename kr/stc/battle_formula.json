@@ -7577,11 +7577,11 @@
   },
   {
     "id": 3566,
-    "formula": "#leader=1?3838:0"
+    "formula": "#leader=1?3838:480"
   },
   {
     "id": 3567,
-    "formula": "#leader=0?3839:0"
+    "formula": "#leader=0?3839:480"
   },
   {
     "id": 3570,
@@ -16398,6 +16398,18 @@
   {
     "id": 9656,
     "formula": "sbuffidtier(9769)=1?1:0"
+  },
+  {
+    "id": 9801,
+    "formula": "sbuffidtier(9801)=1&sbuffidtier(9802)=1?1:0"
+  },
+  {
+    "id": 9802,
+    "formula": "sbuffidtier(9804)=1&sbuffidtier(9805)=1?1:0"
+  },
+  {
+    "id": 9803,
+    "formula": "sbuffidtier(9803)=1?1:0"
   },
   {
     "id": 13280,
