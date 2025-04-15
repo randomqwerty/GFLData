@@ -452,10 +452,11 @@ patch3060=
 "3060/SangvisGashaponDrawBoxController",
 "3060/GashaponController",
 "3060/CommonClothesColorLabelController",
-"3050/DeploymentTeamInfoController",		
+"3050/DeploymentTeamInfoController",
+"3060/QRCodeGunFormationController",
 }
 patch3070=
-{	
+{
 }
 -- va11
 print("load Va11");
