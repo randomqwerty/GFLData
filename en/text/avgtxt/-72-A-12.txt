@@ -1,265 +1,265 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><BIN>418</BIN><黑屏2>:……美因茨区大学城。+带着全套完整的身份认证材料，阿玛瑞丝来到了美因茨大学门口。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>AVG_20Winter_Book</SE1>:你好，我是康斯坦斯小姐申请的实验室助理人形，代号LA892，这是我的验证信息。
-NPC-Bodyguard2(0)<Speaker>保安人员</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:毫不掩饰眼中的不信任，保安接过资料仔细地查看起来。+即便安检机器没有任何风险提示，这位保安又喊来两位同事围住阿玛瑞丝进行安检。
-()<Speaker></Speaker>||:反复检查确认后，阿玛瑞丝身上仍然没有任何可疑之处，保安只能不甘心地放行。
-NPC-Bodyguard2(0)<Speaker>保安人员</Speaker>||<SE1>ClothingUp</SE1>:进去吧。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:好的，谢谢。
+()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><BIN>418</BIN><黑屏2>:...Johannes Gutenberg University of Mainz.+Amaris arrives at the entrance of the University of Mainz with a full stack of documentation to prove her identity.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>AVG_20Winter_Book</SE1>:Hello, I am the lab assistant Doll that Frau Constanze has requested, designation LA892. Here is my identification.
+NPC-Bodyguard2(0)<Speaker>Security Guard</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Not bothering to hide his distrust at all, the security guard takes the documents and scans them in detail.+Even though the security system is not flagging any problem, this security guard summons two more colleagues to conduct a search on Amaris.
+()<Speaker></Speaker>||:After confirming repeatedly that there is nothing suspicious about Amaris, the security guard has no choice but to let her through reluctantly.
+NPC-Bodyguard2(0)<Speaker>Security Guard</Speaker>||<SE1>ClothingUp</SE1>:Get in.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Thank you, sir.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:阿玛瑞丝朝着实验大楼的方向走去，她的余光瞥见两个假装巡逻的保安不远不近地跟着她。
-()<Speaker></Speaker>||:讽刺地扬了扬嘴角，阿玛瑞丝和朝气稚嫩的大学生群擦肩而过。
+()<Speaker></Speaker>||<黑点2>:Amaris makes for the laboratory building. From the corner of her eye, she can see two security guards following her from a distance while pretending to be on patrol.
+()<Speaker></Speaker>||:She smirks darkly to herself as she walks past two youthful university students.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>路人1</Speaker>||:喂喂，你看她通行卡的颜色，好像是人形诶……
-()<Speaker>路人2</Speaker>||:哇哦，现在居然还能在路上看见人形，我还以为它们全都被回收了。
-()<Speaker>路人1</Speaker>||:小声点，小心它听见了，抓住你自爆！
-()<Speaker>路人2</Speaker>||:……它都能大摇大摆走进校园，至少通过了安检吧，不过我们还离远点……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:像是突出溪流的磐石，人群自然地避开她，向两边走去。+对此，阿玛瑞丝反倒舒适了很多，直到——
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:嘀。	+久未响起的专用通讯频道发起了通讯请求声。+明明它这辈子都不应该再次响起。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:嘀嘀。犹如亡灵不朽的怨念，焦急的通讯声没有停下来的意思。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……+谁？
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>我啊。</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:……
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>还没进来吗？被拦住了？</color>+<color=#99CC33>他们要是不放行，你就出示我发给你的这套认证代码。那是休谟博士的贵宾码，他生前给这学校捐了栋楼。</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:……
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||<CGDelay>0.5</CGDelay>:
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||<SE1>ClothingUp</SE1>:<color=#99CC33>喂？说话说话！</color>
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>奇怪，信号正常的呀，堂堂传奇人形不至于连门口那几个保安都应付不了吧……</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……+我进来了，正在路上。+不是……你怎么用了这个频道？就不能使用普通通讯？
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>我看你系统里，这个通讯频道保密度最高啊！</color>+<color=#99CC33>怎么了？难道说这个频道是要另外收费吗？别怕，我给你包月。</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:阿玛瑞丝如鲠在喉，但话到嘴边却又说不出口。+最后，她只能重重地叹了口气。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:算了，先把通讯挂了，我马上就到。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>行。</color>
+()<Speaker>Passer-By A</Speaker>||:Hey, look at the color of her pass! She seems to be a Doll...
+()<Speaker>Passer-By B</Speaker>||:Wow, to think there are still Dolls sauntering around on the street. I thought they'd all been taken into custody.
+()<Speaker>Passer-By A</Speaker>||:Keep it down! If it hears you, it might grab onto you and self-destruct!
+()<Speaker>Passer-By B</Speaker>||:...It must've at least passed the security screening to be allowed onto campus, but we should still keep our distance...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Like a stream flowing around a rock, the crowd steers clear of her instinctively.+Amaris actually finds herself much more at ease when people are giving her space, until—
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep.+She receives a comms request through a special channel that hasn't been in use for a very long time.+It shouldn't have come alive ever again.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep-beep. Like a spirit that refuses to rest in peace, the urgent beeping of the incoming comms request shows no sign of stopping.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...+Who's this?
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>It's me.</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:...
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>Are you still not here? Did they bar you from entering?</color>+<color=#99CC33>If they aren't letting you through, show them this authentication code that I just sent you. It's Doctor Hume's VIP code. He funded the construction of a building in this university.</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:...
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||<CGDelay>0.5</CGDelay>:
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||<SE1>ClothingUp</SE1>:<color=#99CC33>Hello? Say something!</color>
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>Strange, the signal is clear. Surely a legendary Doll can handle a few security guards at the entrance herself, right...?</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...+I'm in. I'm on my way.+But... why are you using this channel? Couldn't you have used a regular one?
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>I saw that this is the most secure comms channel in your system!</color>+<color=#99CC33>What's wrong? Does this channel charge extra or something? Don't worry, I'll pay for a monthly plan.</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:Amaris wants to say something, but the words are stuck in her throat.+In the end, she simply lets out a heavy sigh.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Never mind. You can hang up. I'm almost there.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>Great.</color>
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><黑屏2><BIN>768</BIN>:……美因茨大学，VIP接待室。
-()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM>:按照史蒂文斯520提供的地址，阿玛瑞丝走进了一间豪华的房间。+史蒂文斯520正在享受她的下午茶。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:午安，阿玛瑞丝。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……+我来了。
-()<Speaker></Speaker>||:阿玛瑞丝冷淡地瞥了一眼桌上丰盛的茶点和史蒂文斯520身上明显造价不菲的长裙。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:然后，她大大咧咧地走过去，刻意地撞了下桌子，精美的茶点在鸟笼架上摇摇欲坠，引得史蒂文斯520皱眉。
-NPC_Stevens520(2)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><Shake>||:你小心一点。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:哦。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1><震屏3>:阿玛瑞丝坐在史蒂文斯520的对面，抬手拿起茶壶就把她的茶杯撞翻了，散发着香气的红茶立刻扑到了她的长裙上……
-NPC_Stevens520(2)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><Shake>||:<size=50>啊啊啊——你！！！</size>+<size=50>看看你干了什么好事？！</size>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:抱歉。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:阿玛瑞丝随意地应付了声，就端起茶杯大口喝了起来。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:史蒂文斯520用手帕擦干了长裙上的茶水，眉头几乎快要拧成一团乱麻。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:怎么这样失礼！！
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:指挥官让你带给我的东西呢？
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:史蒂文斯520余怒未消，但还是把盒子取出，放在阿玛瑞丝面前。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:这里。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:阿玛瑞丝打开匣子，里面是一块单薄的金属片。+属于艾莉安娜的身份识别牌，也是她留在这个世界的唯一遗物。+当然，那个属于她们俩的通讯频道除外。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝冷冷扫了一眼，就不加留恋地揣进了外套的口袋。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……没了？
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:嗯。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:好，说回任务吧。
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:指挥官给我们的任务是——
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:等一下，我们？
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:对啊，我们协作完成任务啊。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:……+不需要，我一个人就够了。
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||<SE1>ClothingUp</SE1>:可别搞错了，这是指挥官的意思。+原本艾莫号上的埃涅阿斯会议室由我负责，可是指挥官让我全权转交给了其他人。就是为了确保你这条线不出岔子。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:……
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:那我就继续了。+任务内容是确保奈乐小姐的人身安全，协助她完成实验。+等实验结束后，将由我们来带走格雷。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:也就是说，给奈乐小姐当保镖和实验室助理？
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:嗯。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:那有你不就够了？
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:喂，搞清楚，是我来协助你！
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:……+我要和指挥官联络，这个任务的安排有重大失误。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:随你。+反正我们现在就得出发去实验室了，你路上打吧。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:史蒂文斯520有些愤愤地拧了拧湿透的裙摆，朝着门外走去。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:对了，我出发的时候，有个自称是曙光小队成员的人形，叫SCR吧？+她让我转告你，她们时刻为任务而准备着。+这不就派上用场了，你要不要也给她回个通讯？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<BGM>BGM_Empty</BGM>:……+不必了。+太阳既然死了，那就没有什么曙光小队了。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:什么意思？
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><黑屏2><BIN>768</BIN>:...VIP Lounge, Johannes Gutenberg University of Mainz.
+()<Speaker></Speaker>||<BGM>GF_Swim_Marnie</BGM>:Following the instructions given by Stevens M520, Amaris enters a lavishly decorated room.+Stevens M520 is enjoying her afternoon tea.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Good afternoon, Amaris.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...+I'm here.
+()<Speaker></Speaker>||:Amaris glances coldly at the spread of sumptuous refreshments on the table and the obviously expensive dress on Stevens M520.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:Then she swaggers over to the table, deliberately bumping into it and making the exquisite serving stand wobble. Stevens M520 frowns.
+NPC_Stevens520(2)<Speaker>Stevens M520</Speaker><Position>0,60</Position><Shake>||:Hey, watch it.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Sure.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1><震屏3>:Amaris sits down opposite her. When she reaches for the teapot, she knocks the teacup over with her hand, spilling aromatic tea all over Stevens M520's dress...
+NPC_Stevens520(2)<Speaker>Stevens M520</Speaker><Position>0,60</Position><Shake>||:<size=50>Aaaaaahhh! You!!!</size>+<size=50>Look at what you've done!</size>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Sorry.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:With a perfunctory apology, Amaris picks up her teacup and gulps down the tea.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens M520 dabs at the tea on her dress with her handkerchief, her brow furrowed deeply in frustration.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:This is outrageous!!
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Where's the thing that the Commander asked you to give me?
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens M520 is still incensed, but she nonetheless produces a box and places it in front of Amaris.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Here.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:Amaris opens the box, which contains a thin metal tag.+It's Aliana's ID tag... the only thing she has left behind.+That, and their own private comms channel, obviously.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris takes a look at it, then stuffs it into her coat pocket unceremoniously.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...That's it?
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Yeah.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:Right, now onto the mission.
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:The mission that the Commander has assigned us is—
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:Hang on. "Us"?
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Yes, we are to complete this mission together.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:...+No need. I can handle it on my own.
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||<SE1>ClothingUp</SE1>:You misunderstand. These are the Commander's specific instructions.+I was originally in charge of the Aeneas Conference Room on board the Elmo, but the Commander told me to transfer my authorizations to someone else just so I can make sure nothing goes wrong on your end.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:...
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Now let me continue.+The mission objective is to ensure Miss Nele's personal safety and assist her in completing her experiment.+Once the experiment is over, we'll be taking Gray into custody.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:In other words, we are to be Miss Nele's bodyguards and lab assistants?
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Yes.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:You can do that yourself, no?
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Hey, I'm only here to help you out! Don't get the wrong idea.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(1)<Position>0,60</Position>||:...+I wish to speak to the Commander. There are major problems with these arrangements.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Suit yourself.+We have to make our way to the lab now, so make your call while we're on our way there.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Stevens M520 wrings the hem of her sopping wet dress irritably, then she walks toward the door.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Oh right, when I first set out, there was a Doll who claimed to be a member of Daybreak Squad—she's called SCR, I believe?+She asked me to tell you that they've been diligently preparing for this mission.+See, their hard work is going to pay off. Why don't you send her a reply?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<BGM>BGM_Empty</BGM>:...+That won't be necessary.+Now that the sun is dead, Daybreak Squad is no more.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:What do you mean?
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:没有回答，阿玛瑞丝已经走出了房间。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Amaris exits the room without offering an answer.
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><BGM>GF_EV9_Story</BGM><黑屏2><BIN>751</BIN>:……法兰克福区，前往城外检查关口的公路上。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:布里吉特翻着厚厚的一沓认证材料，嘴里嘟囔着。
-PPQ(0)<Speaker>布里吉特</Speaker>||:我真的不明白……
-PPQ(0);Sterling(0)<Speaker>斯特林</Speaker>||:不明白什么？
-PPQ(0)<Speaker>布里吉特</Speaker>;Sterling(0)||:这风向怎么说变就变了呢？+上次开会的时候，Q还让伊迪斯和达格玛掘地三尺也要在艾莫号上找出点有价值的东西。+今天就让我们给艾莫号还原，必须做到跟我们进入时一模一样！
-PPQ(0);Sterling(0)<Speaker>斯特林</Speaker>||:是啊。+不过我猜她应该也清楚，搜查的痕迹是无法完全被掩盖的，这不是还送了些物资过去。
-PPQ(0)<Speaker>布里吉特</Speaker>||:到底是为什么啊？怎么突然又要把艾莫号还回去了？
-()<Speaker></Speaker>||:布里吉特想起了什么，降低音量。	
-PPQ(0)<Speaker>布里吉特</Speaker>||:这个指挥官……据说挺厉害的。+不会是背后找到了什么新的靠山吧？这么短的时间，难道是出卖色相？
-PPQ(0);Sterling(0)<Speaker>斯特林</Speaker>||:……出卖色相？亏你想得出来。
-PPQ(0)<Speaker>布里吉特</Speaker>;Sterling(0)||:不然怎么做到的？那个格里芬的指挥官居然能从我们斯塔西手里要回这么大辆车！+从来没有人，能把斯塔西吃进肚子里的东西抠回去！
-PPQ(0);Sterling(0)<Speaker>斯特林</Speaker>||:……这不就有了吗？+对了，给伊迪斯她们打个通讯，问问现在什么情况。
-PPQ(0)<Speaker>布里吉特</Speaker>||:哦，好。
+()<Speaker></Speaker>||<SE1>AVG_engine_speedup</SE1><BGM>GF_EV9_Story</BGM><黑屏2><BIN>751</BIN>:...Frankfurt District. On the way towards the city's exit checkpoint.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Brigitte mutters to herself as she flips through a thick stack of documents.
+PPQ(0)<Speaker>Brigitte</Speaker>||:I really don't get it...
+PPQ(0);Sterling(0)<Speaker>Sterling</Speaker>||:Don't get what?
+PPQ(0)<Speaker>Brigitte</Speaker>;Sterling(0)||:What's with the sudden change in attitude?+During the last meeting, Q asked Edith and Dagmar to turn the Elmo upside down and scour every corner for anything that's remotely valuable.+Now she's telling us to restore the Elmo to exactly the way it was!
+PPQ(0);Sterling(0)<Speaker>Sterling</Speaker>||:You're right.+But I think even she knows that it's impossible to completely hide the fact that the vehicle has been searched. See, she's even sending extra supplies their way.
+PPQ(0)<Speaker>Brigitte</Speaker>||:What the hell is the point? Why do we have to tidy up all of a sudden?
+()<Speaker></Speaker>||:A thought occurs to Brigitte, and she lowers her voice.
+PPQ(0)<Speaker>Brigitte</Speaker>||:This Commander... is said to be quite the character.+Maybe they've found some new backer? That was fast—don't tell me they seduced someone?
+PPQ(0);Sterling(0)<Speaker>Sterling</Speaker>||:...Seduced someone? You sure have an overactive imagination.
+PPQ(0)<Speaker>Brigitte</Speaker>;Sterling(0)||:How else could they have done it? That Griffin Commander somehow managed to get the Stasi to give such a large vehicle back!+No one has ever—EVER—got the Stasi to spit out what we've gobbled up!
+PPQ(0);Sterling(0)<Speaker>Sterling</Speaker>||:...Well, someone just did.+Right, give Edith a call and see how things are going with them.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Oh, okay.
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.7</CGDelay>:
-PPQ(0)<Speaker>布里吉特</Speaker>||:伊迪斯？
-PPQ(0);LS26(0)<Speaker>伊迪斯</Speaker><通讯框>||:<color=#00CCFF>怎么了？</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;LS26(0)||:你们那边怎么样？
-PPQ(0);LS26(0)<Speaker>伊迪斯</Speaker><通讯框>||:<color=#00CCFF>你记得我们之前玩过的记忆翻牌游戏吗？</color>+<color=#00CCFF>就是那个给你几秒记住所有牌的图案，然后将牌面倒扣，让你凭记忆复原的游戏。</color>
-PPQ(0)<Speaker>布里吉特</Speaker>;LS26(0)||:记得啊……
-PPQ(0);LS26(0)<Speaker>伊迪斯</Speaker><通讯框>||:<color=#00CCFF>现在艾莫号的情况，就是最高难度的记忆翻牌游戏！</color>+<color=#00CCFF>这些愚蠢的人类特工……想要让他们复原这里绝无可能！！！</color>
-PPQ(0)<Speaker>布里吉特</Speaker>||:……
-LS26(0)<Speaker>伊迪斯</Speaker><通讯框>||:<color=#00CCFF>你们到哪了？！快点来！这边情况很紧急！</color>
-PPQ(0)<Speaker>布里吉特</Speaker>||:知道了……
+PPQ(0)<Speaker>Brigitte</Speaker>||:Edith?
+PPQ(0);LS26(0)<Speaker>Edith</Speaker><通讯框>||:<color=#00CCFF>Yes?</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;LS26(0)||:How are things on your end?
+PPQ(0);LS26(0)<Speaker>Edith</Speaker><通讯框>||:<color=#00CCFF>Remember the card matching game we played before?</color>+<color=#00CCFF>The one where you're given several seconds to memorize where all the cards are, then the cards are turned upside down, and you have to flip them over again to form matching pairs?</color>
+PPQ(0)<Speaker>Brigitte</Speaker>;LS26(0)||:Sure...
+PPQ(0);LS26(0)<Speaker>Edith</Speaker><通讯框>||:<color=#00CCFF>This is basically that game, but at the highest difficulty!</color>+<color=#00CCFF>These stupid human agents... This would be utterly impossible for them!!!</color>
+PPQ(0)<Speaker>Brigitte</Speaker>||:...
+LS26(0)<Speaker>Edith</Speaker><通讯框>||:<color=#00CCFF>Where the hell are you? Haul your asses here already! It's an emergency!</color>
+PPQ(0)<Speaker>Brigitte</Speaker>||:Gotcha...
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:布里吉特心灰意冷地放下通讯。
-Sterling(0)<Speaker>斯特林</Speaker>||:怎么样？
-PPQ(0)<Speaker>布里吉特</Speaker>||:……我现在只希望Q给的补偿能让指挥官满意。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Brigitte hangs up apprehensively.
+Sterling(0)<Speaker>Sterling</Speaker>||:So?
+PPQ(0)<Speaker>Brigitte</Speaker>||:...I just hope the Commander will find Q's compensation satisfactory.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:
 ()||<黑屏1><SE1>AVG_footsteps_woodfloor</SE1>:
-()<Speaker></Speaker>||<黑屏2><BIN>553</BIN>:……美因茨大学，实验楼，走廊。+拖着极其不情愿的脚步，阿玛瑞丝和史蒂文斯520踏进了实验楼。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Scar_Main</BGM>:我都告诉你了，我有更重要的任务在身，你怎么还把这种过家家的活儿派给我呢？+你们偌大一个格里芬，我就不信找不出一个适合做保镖的人形！+还有，我要求换个搭档。
-NPC-SCAR-H(0);AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>理由我刚刚已经向你说明过一遍了。</color>+<color=#00CCFF>需要重复的话，请翻阅你自己的心智云图。</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;AR18(3)||:我知道！你的理由我都听见了！+任务更换不了，那至少换个搭档吧！
-NPC-SCAR-H(0);AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>至于搭档，没有比史蒂文斯520更适合这项任务的了。</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;AR18(3)||:就因为休谟博士给这学校捐了栋楼？
-NPC-SCAR-H(0);AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>更换搭档的请求驳回，还有别的事吗？</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;AR18(3)||:……+你这幅听不懂人话的样子真是让人该死的熟悉！
-AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>既然你已经没有疑问，那么请认真执行任务，并按时向我汇报。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:嘀。通讯被决绝地挂断。
+()<Speaker></Speaker>||<黑屏2><BIN>553</BIN>:...In a corridor in the laboratory building, Johannes Gutenberg University of Mainz.+With extreme reluctance, Amaris enters the laboratory building with Stevens M520.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Scar_Main</BGM>:I've told you—I'm on an even more important mission, so why are you dragging me along for this kind of menial task?+Surely you can find someone out of all the Dolls at Griffin who's more suited to being a bodyguard!+Also, I demand a change in partner.
+NPC-SCAR-H(0);AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>I have already explained the reasoning behind the arrangement.</color>+<color=#00CCFF>If you need to refresh your memory, please review your neural logs.</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;AR18(3)||:I know! I heard you just fine!+If I can't ditch this mission, at least give me a different partner!
+NPC-SCAR-H(0);AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>There is no better candidate than Stevens M520 for this mission.</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;AR18(3)||:Just because Doctor Hume donated money to build a thing on this campus?
+NPC-SCAR-H(0);AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>Your request for a change in partner is rejected. Is there anything else?</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;AR18(3)||:...+It's just freaking like you to pretend you didn't hear a word of what I just said!
+AR18(3)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>Since you have no more questions, please execute the mission to the best of your ability and check in with me regularly to report your progress.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. The comms line cuts out ruthlessly.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝正欲发作，沉默良久，终于放下通讯器。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:看你脸色，是被拒绝了？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:阿玛瑞丝不理会，朝着实验室的方向快步走去。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:喂，你干嘛老对我发脾气啊？我们是第一次见吧？+真是奇怪，我怎么招惹你了……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:听见身后传来的抱怨，阿玛瑞丝刹住了脚步。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……很奇怪吗？擅自使用非公开的通讯频道，你还很理直气壮？
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:就因为我用了那个加密通讯频道？+我说了我只是因为安全等级高才用的啊……你要是这么介意，那我重新搭建个加密通讯频道就是了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝慢慢转过身，盯着史蒂文斯520的眼睛。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你在骇入那个通讯频道的时候，没有注意过频道的原来使用者吗？
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……那我看看。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝从口袋里摸出那块金属片，向她展示上面镌刻的名字。
-()<Speaker></Speaker>||<narrator>:“艾莉安娜”。
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris is about to blow up, but after seething in silence for a moment, she finally puts down her communicator.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Judging from your face, I suppose it's a no?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:Amaris ignores her and quickens her pace towards the lab.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Hey, why are you taking this out on me? We just met for the first time, didn't we?+Seriously, what did I do to piss you off, weirdo...?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:Hearing the grumble coming from behind, Amaris comes to abrupt halt.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Am I being weird? You used a restricted comms channel without permission—and you're acting like you have every right to do that?
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Is this just about me using that encrypted channel?+I told you, I only used it because it was highly secure... If it bothers you so much, I can just set up another encrypted channel.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris slowly turns around and looks Stevens M520 right in the eye.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:When you hacked into that channel, did you not pay attention to who the original user was?
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...Let me see.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris fishes out the metal tag from her pocket and shows her the name etched on the surface.
+()<Speaker></Speaker>||<narrator>:"Aliana".
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:这是艾莉安娜和我的专用通讯频道。
-()<Speaker></Speaker>||:史蒂文斯520回想起了什么，惊讶地将眼前的人形和档案中那张冷漠的脸重合起来。
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:That was an exclusive comms channel between Aliana and me.
+()<Speaker></Speaker>||:Realization dawns on Stevens M520 as she draws the mental connection between the Doll standing in front of her and the impassive face in the profile.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……对不起，我向你郑重道歉。我不知道那是艾莉安娜的东西，也不知道使用它会让你生气。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:如果我早知道你们的感情这么好，而那块身份识别牌和通讯频道都是艾莉安娜的所有物，我绝不会这样草率地对待。
-()<Speaker></Speaker>||:史蒂文斯520郑重地道歉，但阿玛瑞丝的脸却微妙地扭曲了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:谁说我跟她感情好？
-NPC-SCAR-H(0);NPC_Stevens520(2)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……啊？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(2)<Position>0,60</Position>||:……我讨厌她。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(2)<Position>0,60</Position>||:<color=#99CC33>随便用，我根本无所谓。</color>+<color=#99CC33>之后你跟我通讯，就用这个频道，只准用这个频道，听见了吗？</color>
-NPC-SCAR-H(0);NPC_Stevens520(2)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……啊？！那你到底在生什么气！
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:阿玛瑞丝的心智飞速运转着。+最终，她的目光落在史蒂文斯520裙摆上的茶水痕迹。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我没有生气，我只是讨厌穿裙子的人形。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><Shake>||<SE1>Rope</SE1>:……
-()<Speaker></Speaker>||:史蒂文斯520的怒火快要冲破头顶。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:上一个让我这么火大的……还是艾尔玛……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:那恭喜你，又遇到新的了。
-()<Speaker></Speaker>||:阿玛瑞丝突然露出快乐的笑容，而这无疑加剧了她在史蒂文斯520心中的欠揍程度。+在一场战争即将爆发之际——
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Door_Open</SE1>:咔哒。走廊尽头的门打开了，一个满脸倦容的人探出脑袋。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:你们俩……
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:您好女士，我们是这间实验室预定的助理人形。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:终于来了……+我是康斯坦斯，快请进。
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...Sorry, I offer my sincere apology. I didn't know it belonged to Aliana, or that using it would make you angry.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:If I had known the two of you were so close, and that the ID tag and comms channel were both hers, I would never have been so callous.
+()<Speaker></Speaker>||:Stevens M520 apologizes profusely, but Amaris' face contorts with inexplicable displeasure.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Who says we were close?
+NPC-SCAR-H(0);NPC_Stevens520(2)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...Huh?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(2)<Position>0,60</Position>||:...I hate her.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(2)<Position>0,60</Position>||:<color=#99CC33>Use the comms channel all you want. I don't really give a damn.</color>+<color=#99CC33>From now on, contact me through this channel—and this channel only. You hear me?</color>
+NPC-SCAR-H(0);NPC_Stevens520(2)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...What?! Then why the hell did you flip out to begin with?!
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:Amaris's neural cloud kicks into high gear as she scrambles for an answer.+Finally, her eyes fall on the tea stain on Stevens M520's dress.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I didn't flip out. I simply despise Dolls that wear dresses.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><Shake>||<SE1>Rope</SE1>:...
+()<Speaker></Speaker>||:Stevens M520's rage has almost reached the boiling point.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I haven't been so pissed off... since Erma...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Well, congratulations. Here I am.
+()<Speaker></Speaker>||:Amaris suddenly beams happily, which no doubt riles Stevens M520 up even more.+Just as this confrontation is about to turn into an all-out war—
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Door_Open</SE1>:Clatter. The door at the end of the corridor opens, and a tired-looking woman pokes her head out.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:You two...
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Hello, ma'am. We are the assistant Dolls that have been assigned to this laboratory.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:Took you long enough...+I'm Constanze. Please come in.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><CGDelay>0.5</CGDelay><黑点2><BIN>735</BIN>:
-()<Speaker></Speaker>||<BGM>BGM_Hume_TheCircularRuins</BGM>:阿玛瑞丝率先走进实验室，一进门，她就注意到这间拥有尖端器材的实验室一片狼藉，颇有谢丽尔卧室的狂放风格。+一沓沓实验报告和文献参考堆砌成堡垒，未清洗的实验容器快要从池子中溢出，标识着危险的材料随处堆放在桌上……
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:这一轮实验已经进入收尾，奈乐在里面，接下来的安排你们去和她沟通吧。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:好的，康斯坦斯小姐，你看起来很疲惫。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:是的，我已经超过24小时没有合眼了，我需要稍微休息一下。+你们过半小时，不，还是一个小时吧……
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:话还没说完，康斯坦斯已经倒在了简易行军床上。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……康斯坦斯小姐？
-()<Speaker></Speaker>||:康斯坦斯已经进入了深度睡眠。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:我们去找奈乐小姐吧，她才是我们的任务目标。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:史蒂文斯520矜持地拎起长裙，迈过地上的阻碍物向实验室里深入。
+()<Speaker></Speaker>||<BGM>BGM_Hume_TheCircularRuins</BGM>:Amaris leads the way into the lab. The moment she enters through the door, she notices the state-of-the art equipment strewn all over the place. The mess reminds her of Cheryl's bedroom.+Stacks upon stacks of lab reports and reference materials pile up into a paper fortress, unwashed lab containers are almost overflowing from the sink, and hazardous materials marked with warning labels are scattered carelessly across the table...
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:We're wrapping up this round of experiment. Nele is inside, go discuss the next steps with her.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Sure. Miss Constanze, you look very tired.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:Yeah, I haven't slept for over 24 hours, I could definitely use some shut-eye.+Wake me up in half—no, an hour...
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:Constanze has already passed out on the simple folding bed before she even finishes her sentence.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Miss Constanze?
+()<Speaker></Speaker>||:She is already in deep sleep.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Let's go meet Miss Nele. She is our mission target.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens M520 picks up the hem of her dress gracefully and strides over all the obstacles as she makes her way further into the lab.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:很快，符合任务描述的人类出现在了视野。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你是奈乐小姐吗？
-NPC_Stevens520(0)<Position>0,60</Position>;NPC-Nele(10)<Speaker>奈乐</Speaker>||:我是，你们就是指挥官派来的人形吗？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>;NPC-Nele(10)||:是的，我是史蒂文斯520，这位是阿玛瑞丝。
-NPC_Stevens520(0)<Position>0,60</Position>;NPC-Nele(8)<Speaker>奈乐</Speaker>||:好，请帮我找个干净的锥形瓶。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||<CGDelay>0.5</CGDelay>:
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:快去。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:凭什么我去？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:我的裙子不方便在这里移动，要是刮倒了什么重要仪器就不好了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:阿玛瑞丝返回刚刚发现的一筐干净的实验器材边，从中找出一只锥形瓶递给奈乐。
-NPC-Nele(8)<Speaker>奈乐</Speaker>||:谢谢。+对了，你们看见康妮了吗？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:她太疲惫了，说需要休息一会。+请放心，我观察了她的状态，生命体征平稳，没有猝死的风险。
-NPC-Nele(8)<Speaker>奈乐</Speaker>||:好吧，在她醒来前，我需要你们来协助我。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:没问题。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:史蒂文斯520很自然地站到奈乐身边，有条不紊地协助她完成各项操作。
-()<Speaker></Speaker>||:阿玛瑞丝则有些尴尬地靠在门边。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:愣着干什么？去把那边盥洗池里的实验用具洗了吧。
-()<Speaker></Speaker>||:阿玛瑞丝挑了挑眉，默默地行动了起来。
+()<Speaker></Speaker>||<黑点2>:Soon, a human who fits the target's description comes into view.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Are you Miss Nele?
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-Nele(10)<Speaker>Nele</Speaker>||:I am. You're the Dolls sent by the Commander?
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>;NPC-Nele(10)||:Yes, I am Stevens M520, and this is Amaris.
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-Nele(8)<Speaker>Nele</Speaker>||:Great. Please fetch me a clean Erlenmeyer flask.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||<CGDelay>0.5</CGDelay>:
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Go on.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Why does it have to be me?
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I can't move very easily in here with my dress. It would be terrible if I accidentally knock over some important equipment.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:Amaris returns to the crate full of clean laboratory apparatus that she has spotted earlier. She picks out an Erlenmeyer flask and passes it over to Nele.
+NPC-Nele(8)<Speaker>Nele</Speaker>||:Thanks.+Right, have you seen Connie?
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:She's too tired and needed some rest.+Don't worry, based on my observation, her bio signs appears to be stable, and she is at no risk of dropping dead.
+NPC-Nele(8)<Speaker>Nele</Speaker>||:Alright, then you'll have to give me a hand before she wakes up.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:No problem.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens M520 walks up to Nele and starts assisting her in completing a variety of tasks in an orderly fashion.
+()<Speaker></Speaker>||:Meanwhile, Amaris hovers a little awkwardly by the door.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Don't just stand there! Go and wash the lab apparatus in the sink.
+()<Speaker></Speaker>||:Amaris quirks an eyebrow and silently gets to work.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>735</BIN><CGDelay>0.5</CGDelay>:
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||<BGM>BGM_Hume_FourAdventures</BGM>:都洗完了吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:洗完了的话，顺便把这些也洗干净。
-()<Speaker></Speaker>||<震屏3>:史蒂文斯520将一筐用过的实验器材拎到阿玛瑞丝脚边。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker><Shake>||:你！
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:怎么？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝放下手里的实验器具，转向史蒂文斯520。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:这位小姐，此刻我应该站在对付帕拉蒂斯的前线，而不是在这搞后勤当保姆。+要不是AR-18说什么缺人，非我不可，我才不会来！我还有更重要的任务要做！
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:什么任务？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:……+曙光小队未完成的任务。
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:可你刚才不是说，艾莉安娜已经死了，曙光小队不存在了吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:盯着阿玛瑞丝脸上复杂的表情，史蒂文斯520恍然大悟。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:所以……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||<BGM>BGM_Empty</BGM>:够了。+你根本不明白曙光小队是什么样的存在。
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:所以曙光小队是什么样的存在？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:……
-NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:你不说出来，我怎么会理解？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:我不需要你理解我。
-NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:我也不想，但我们现在是队友，我有义务去了解我的队友。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC-Nele(11)<Speaker>奈乐</Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM>:是爆燃。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一直忙碌于实验的奈乐突然抬起头。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:爆燃？
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:以亚音速传播的燃烧波。+曙光小队的其他成员就像燃料，只有在被充分消耗达成触发条件时，爆燃才会来临。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:而艾莉安娜，就是被选中发动爆燃的那个人形。
-NPC_Stevens520(2)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:整个小队的存在……都是为了让艾莉安娜……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你怎么知道？
-()<Speaker></Speaker>||:奈乐指了指远处堆叠的文献，阿玛瑞丝穿过重重障碍，拿起了其中一张。
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||<BGM>BGM_Hume_FourAdventures</BGM>:All done?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:If you're done washing those, here's the next batch.
+()<Speaker></Speaker>||<震屏3>:Stevens M520 drops a crate of freshly used apparatus at Amaris' feet.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker><Shake>||:You!
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:What?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris puts down the container in her hand and turns to face Stevens M520.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Hey, lady! I should be fighting Paradeus on the frontline right now, not playing nanny here!+I came only because AR-18 insisted that we're short on manpower and it had to be me! I'm on a much more important mission!
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:What mission?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:...+The mission that Daybreak Squad has yet to complete.
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:But didn't you just say that Daybreak Squad is no more since Aliana is dead?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Staring at the complex expression on Amaris' face, Stevens M520 suddenly comes to a realization.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:So...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||<BGM>BGM_Empty</BGM>:Enough.+You don't know the first thing about Daybreak Squad.
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:So what IS Daybreak Squad?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:...
+NPC-SCAR-H(0);NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:If you don't explain, how am I supposed to understand?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC_Stevens520(0)<Position>0,60</Position>||:I don't need you to understand me.
+NPC-SCAR-H(0);NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I have no desire to understand you either, but we're teammates now, and I have a responsibility to get to know my teammate.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC-Nele(11)<Speaker>Nele</Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM>:It's a deflagration.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele, who has been engrossed in her experiment all this time, suddenly raises her head.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Deflagration?
+NPC-Nele(11)<Speaker>Nele</Speaker>||:A subsonic-propagating combustion wave.+The other members of Daybreak Squad functioned as fuel—only through their complete consumption under specific triggering conditions could the deflagration be initiated.
+NPC-Nele(9)<Speaker>Nele</Speaker>||:And Aliana was the Doll chosen to initiate the deflagration.
+NPC_Stevens520(2)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:The entire squad was formed... just for Aliana to...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:How do you know about this?
+()<Speaker></Speaker>||:Nele points at a stack of documents in the distance. Amaris makes her way through all the obstacles in her way and picks up a sheet of paper.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Book</SE1>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐小姐……这些……+都是绝密级的文件吧？
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:对，你手上拿着的是我的老师留下的有关福音枢椎的资料。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:那边是史蒂文斯520提供的休谟博士最新版本《人类理智研究》。+放在后面的是肖博士的相关研究资料。+你面前桌上堆着的，是帕斯卡教授和莱柯的相关研究。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐停下了手里的动作，她疲惫的眼睛望向阿玛瑞丝。+阿玛瑞丝从她的眼睛只看到了冷静，反射着炫目光芒的冰山一样的冷静。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:我理解你对曙光小队，对艾莉安娜的复杂感情。+这不是简单用爱或者恨能表达的东西。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:……
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:我正试图让我的老师重新睁开双眼。+在她被改造成涅托之前，我尊敬她，一直在追寻她的脚步。+但她成为涅托后，做了一切她生前所不耻的行为。+而如今当我看着她的尸骸时，我也不清楚我该用什么表情面对这一切……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:我能确定的只有一件事……+帕拉蒂斯夺走了她的一切，生命、名誉、清白……+我要为她正名，洗刷她的冤屈，可是这一切，必须要再一次让她以涅托的形态复活……
-()<Speaker></Speaker>||:盯着这双眼睛，阿玛瑞丝一句话也说不出来。
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:如果不是帕拉蒂斯，我想我们应该都不会在这里。+你在前线作为军用人形杀敌，我在实验室作为研究人员记录数据。+我们都不用违背自己的意愿，站在这里。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……我明白了。
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:我只是想告诉你。+这里并不是后勤，这里就是前线。+对抗帕拉蒂斯的最前线。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Miss Nele... Aren't these...+All top secret documents?
+NPC-Nele(11)<Speaker>Nele</Speaker>||:That's right, what you have in your hand is information about the Evangel Axis, left behind by my teacher. 
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC-Nele(11)<Speaker>Nele</Speaker>||:That over there is the latest edition of Doctor Hume's "Human Intelligence Research", kindly provided by Stevens M520.+The stack in the back is Doctor Shaw's research.+And the pile on the table in front of you is Professor Persica and Lyco's research.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele pauses what she is doing and turns her weary eyes to Amaris.+In those eyes, Amaris sees only calm—an icy, glimmering calm, like a glacier reflecting blinding light.
+NPC-Nele(9)<Speaker>Nele</Speaker>||:I understand your complicated feelings toward Daybreak Squad and Aliana.+This isn't something that can be simply defined as love or hate.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:...
+NPC-Nele(9)<Speaker>Nele</Speaker>||:I'm trying to reawaken my teacher.+Before she was transformed into a Nyto, I respected her deeply and strove to follow in her footsteps.+But as a Nyto, she did all kinds of things that she would've found deplorable in life.+And now, as I set eyes upon her remains, I don't quite know how to feel about all this either...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC-Nele(11)<Speaker>Nele</Speaker>||:There's only one thing that I'm certain of...+Paradeus took everything from her—her life, her reputation, her innocence...+I want to clear her name, to wash away the injustice she suffered. But to do that, she must be brought back once more—in the form of a Nyto...
+()<Speaker></Speaker>||:Staring into Nele's eyes, Amaris can't think of anything to say.
+NPC-Nele(11)<Speaker>Nele</Speaker>||:If it weren't for Paradeus, none of us would be here.+You'd be on the frontlines, fighting as a military Doll. I'd be in a lab, gathering data as a researcher.+Neither of us would be forced to stand here against our will.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...I understand.
+NPC-Nele(11)<Speaker>Nele</Speaker>||:I just want you to know—+This isn't the rear. This IS the frontline.+The frontline in the fight against Paradeus.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:
-NPC-Nele(11)<Speaker>奈乐</Speaker>||:最后的步骤已经结束，我现在将要唤醒……格雷老师。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:我来协助奈乐小姐，测试的工作就拜托你了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:嗯。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:史蒂文斯520跟随奈乐走向实验室后方的暗室。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:阿玛瑞丝。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position>||:等这个任务结束，我们好好聊聊吧。+或许……我们并没有那么不对付……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……或许吧。
+NPC-Nele(11)<Speaker>Nele</Speaker>||:The final step is now complete. I am about to reawaken... Professor Gray.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:I'll be assisting Miss Nele. Please handle the tests.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Right.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Stevens M520 follow Nele into the darkroom in the back of the lab.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Amaris.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position>||:Once this mission is over, let's have a proper talk.+Perhaps... it isn't impossible for us to be friends...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Perhaps.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_Shield_Startup</SE1><白屏2>:嗡——
+()<Speaker></Speaker>||<SE1>AVG_Shield_Startup</SE1><白屏2>:Whirrrrr...
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>9</BIN>:随着仪器的启动，阿玛瑞丝仿佛已经听见了来自地狱的脚步声……
-()||<黑点1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>9</BIN>:As the machine powers on, Amaris feels as if she could already hear footsteps rising from the depths of hell...
+()||<黑点1>:

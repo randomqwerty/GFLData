@@ -1,240 +1,240 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
 ()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.45%%scale=1.7%%duration=0%%</bg_move><黑屏2><BIN>179</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_ev2410_MareLunaris</BGM>:……法萨内利保护区，废弃的古堡前。+几名涅托已经做好了接应的准备，拉普拉斯走向她们。
-NytoWhite(0)<Speaker>白涅托</Speaker><Position>0,50</Position>||:拉普拉斯大人，请随我们前往安全屋，默莉朵姐姐说她很快就到。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:嗯。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_cave</SE1>:拉普拉斯淡然地跟上，全然没有在意追随自己的眼睛。
+()<Speaker></Speaker>||<BGM>BGM_ev2410_MareLunaris</BGM>:...Outside an abandoned castle in the Fasanerie Conservation Area.+Laplace walks toward the handful of Nytos waiting to receive her.
+NytoWhite(0)<Speaker>White Nyto</Speaker><Position>0,50</Position>||:Lady Laplace, please come with us to the safe house. Sister Morridow said she'll be arriving shortly.
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:Right.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_cave</SE1>:Laplace follows them coolly, utterly oblivious to the eyes that are trailing her.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><BIN>9</BIN><common_effect>%%code=202410_FrontSight%%</common_effect><CGDelay>0.2</CGDelay>:
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_Camera_Focus</SE1><黑点2><BIN>179</BIN>:
 ()<Speaker></Speaker>||<BIN>179</BIN><CGDelay>1</CGDelay><SE1>AVG_Camera_Focus</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=0.9%%duration=0.5%%</bg_move>:
 ()||<黑屏1><SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><关闭蒙版><黑屏2><BIN>782</BIN>:……远处。+透过瞄准镜，阿玛瑞丝清晰地看着那个人走向古堡。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>Rope</SE1>:她的手指几乎要按捺不住扣下去的冲动，但她知道现在需要耐心。+这一幕戏，即将抵达它的高潮。
-()<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:默然忍受命运的暴虐毒箭，或是挺身反抗人世的无涯苦难。+这两种行为，究竟哪一种更高贵？
-()||<黑屏1>:
+()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><关闭蒙版><黑屏2><BIN>782</BIN>:...In the distance.+Through her scope, Amaris clearly sees the figure approaching the castle.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>Rope</SE1>:Her finger nearly gives in to the urge to pull the trigger—but she knows patience is needed now.+This performance is about to reach its climax.
+()<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:Whether 'tis nobler in the mind to suffer... the slings and arrows of outrageous fortune...+Or to take arms against a sea of troubles... and by opposing end them...
+()||<黑屏1>: 
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>18</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:……古堡走廊。+白涅托引领拉普拉斯来到安全屋前。
-NytoWhite(0)<Speaker>白涅托</Speaker><Position>0,50</Position>||:拉普拉斯大人，我们会在门外守卫。+您有任何需要可以直接叫我们。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:嗯。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:冷淡地点点头，拉普拉斯走进房间。
+()<Speaker></Speaker>||:...Castle corridor.+A white Nyto leads Laplace to the door of the safe house.
+NytoWhite(0)<Speaker>White Nyto</Speaker><Position>0,50</Position>||:Lady Laplace, we will stand guard outside.+If you need anything, please just let us know.
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:Sure.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:With a cold nod, Laplace steps inside the room.
 ()||<黑点1><SE1>AVG_Door_Open_Close</SE1>:
 ()<Speaker></Speaker>||<黑点2><BIN>792</BIN>:
-()<Speaker></Speaker>||:……打开房间的瞬间，扑面而来就是一股废弃溃败的气息。+符合古堡遭到遗弃的身份，也像极了拉普拉斯余下的生命。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:……
-()<Speaker></Speaker>||:这是久违的远离灯光的时刻。+拉普拉斯站在窗边，如果此时有其他人在，一定会认为这位科学家在思考着什么新的项目。
-()<Speaker></Speaker>||:但实际上，她什么都没有想。+就像实验到了最后关头，只需要等待。+等待烧瓶中的液体进行最后的沸腾和冷却。+数值和步骤都已经不需要再调整些什么……+对于即将到来的结果……+拉普拉斯甚至没有欣喜之类的激动情绪，而是一种淡淡的平静。
-NPC-Laplace(13)<Speaker>拉普拉斯</Speaker>||:……衰老的肉体机能，还是会对精神力有些许影响。+能够在年轻的时候享受青春，年老的时候享受名利确实是一种世俗的快乐。+不知道打破时间这条界限的生物……其喜怒哀乐的动力又在哪里……
+()<Speaker></Speaker>||:...The moment the door opens, the stench of decay and ruin rushes to meet her—+Fitting for a castle long abandoned, and not unlike what remains of Laplace's life.
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:...
+()<Speaker></Speaker>||:A long-awaited respite from the dreaded overhead light.+Laplace stands by the window. If anyone else were present, they'd surely think this scientist is pondering a new project.
+()<Speaker></Speaker>||:But in truth, she's thinking about nothing at all.+It's like the final moments of an experiment—all that remains is to wait.+Wait for the liquid in the flask to reach its final boil and cool.+The numbers and steps need no further adjustment...+For the result to come—+Laplace feels no excitement or joy. Only a quiet calm.
+NPC-Laplace(13)<Speaker>Laplace</Speaker>||:...Even the strongest will is touched by the decay of aging flesh.+To enjoy youth while young, and fame and fortune in old age—that is a worldly delight.+But those who have broken free of time itself... What drives their joy, their sorrow, their anger...?
 ()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_sup</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_XXS_kick</SE1>:咚——门口接连传来几声重物倒地的声音。+拉普拉斯皱了皱眉，望向门口。
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:转述视野。
-()<Speaker></Speaker>||:没有人推开门，只有白涅托隔着门板传来一声低语。
-()<Speaker>白涅托</Speaker>||:拉普拉斯大人……小心……里面……
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:拉普拉斯回过神来，她走向门口，那里已经被上锁。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她淡定地将手伸入衣服内袋里。+那是一把只有六发子弹的勃朗宁。
-()<Speaker></Speaker>||:然后她转过身——
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><震屏3><SE1>AVG_XXS_kick</SE1>:Thud—something heavy hits the floor outside the door, one after another.+Laplace frowns and glances toward the entrance.
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:Tell me what you see.
+()<Speaker></Speaker>||:Nobody opens the door. Only a faint voice reaches her through the wooden panel.
+()<Speaker>White Nyto</Speaker>||:Lady Laplace... be careful... inside...
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:Laplace snaps back into focus and walks toward the door. It has been locked from the outside.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Calmly, she reaches into the inner pocket of her coat.+She draws a Browning with only six bullets.
+()<Speaker></Speaker>||:Then, she turns around—
 ()||<黑点1><SE1>AVG_Cloak_Whoosh</SE1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
-()<Speaker></Speaker>||:常年在阿佛那斯实验室工作的拉普拉斯几乎没有感受过自然光线。+那时实验室只有无休止的工作灯。+而现在，明明室外是明媚的晴天。+但这里却只有黑暗。
-()<Speaker></Speaker>||:人类的耳朵不如涅托灵敏。
-()<Speaker></Speaker>||:但人类的呼吸也是。+无法像涅托一样彻底隐藏住。
-()<Speaker></Speaker>||:因此拉普拉斯知道，对面的黑暗里……藏着一个人。
-()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_ev2410_RespectedGray</BGM>:咔哒。+清脆的声响，来自前方的黑暗。
+()<Speaker></Speaker>||:In all the long years that Laplace had spent working in the Avernus lab, she had not seen any natural light.+There had only been the endless glow of work lamps in the lab.+And now, though the sun blazes outside...+In here, there is only darkness.
+()<Speaker></Speaker>||:A human's ears are not as keen as a Nyto's.
+()<Speaker></Speaker>||:But a human's breath is also not as quiet as a Nyto's.
+()<Speaker></Speaker>||:That's how Laplace knows—in the darkness across from her.... lurks a person.
+()<Speaker></Speaker>||<SE1>Select</SE1><BGM>BGM_ev2410_RespectedGray</BGM>:Click.+From the shadows ahead comes a crisp sound.
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><common_effect>%%code=202410_Nele_1%%</common_effect><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:一个年轻人举着马卡洛夫手枪从阴影中缓缓走出。
-()<Speaker>拉普拉斯</Speaker>||<SE1>Stop_AVG_loop</SE1>:……
-()<Speaker></Speaker>||:陌生的面孔，却有着熟悉的眼神。+深入骨髓的恨，煎熬五脏的怒。
-()<Speaker>拉普拉斯</Speaker>||:……谁？ 
-()<Speaker></Speaker>||:一瞬间看穿对方没有立刻开枪的意图，拉普拉斯对眼前全然陌生的女孩产生了些许兴趣。
-()<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:……玛莎•迈特纳，死罪，拉普拉斯。+你已经从人类，彻底地变成了恶魔。
-()<Speaker>拉普拉斯</Speaker>||:有趣，我倒是觉得这种变化使得我更像我自己。
-()<Speaker>奈乐</Speaker>||:背叛别人的人，自然也会被别人所背叛。
-()<Speaker>拉普拉斯</Speaker>||:我早已做好了准备。+不如说，看见你的这一刻，我已经知道出卖我的人是谁。
-()<Speaker>拉普拉斯</Speaker>||:但我更好奇的是……你为什么会出现在这里？+毕竟我已经很长时间，没有见过活着的人类了。
-()<Speaker>奈乐</Speaker>||<SE1>ClothingUp</SE1>:……格雷•布莱克薇尔。+你还记得她吗？
-()<Speaker>拉普拉斯</Speaker>||:当然，她是我的后辈里，最为优秀的那一个。
-()<Speaker>奈乐</Speaker>||:而你给她的回报，就是让她死不瞑目。
-()<Speaker>拉普拉斯</Speaker>||:……死不瞑目？+我让她在技术巅峰期突破了人类机能的瓶颈，并以此为原点保持着最高效的状态。
-()<Speaker>拉普拉斯</Speaker>||:她是唯一一个……没有掺杂其他人类的高级涅托。+她已经得到了梦寐以求的一切——永不失误的外科圣手。+如同一朵永生花绽放在最光鲜的时刻，这不是一种幸福吗？
-()<Speaker>奈乐</Speaker>||:……你所谓的幸福……就是让她彻底地脑死亡，然后用你设计那套怪物虚识去侮辱她的尸体？+她曾经那样尊敬你……那样仰视你……
-()<Speaker>拉普拉斯</Speaker>||:那时候在霍普金斯大学，我问她想要什么？+她的回复是——+医学这条路上充斥着白与黑的博弈，没有牛角止血钳和李斯顿刀之前，手术跟杀人没有区别。她愿意成为这条路上……最完整的那抹灰色。+以生命之白对抗死亡之黑。
-()<Speaker>拉普拉斯</Speaker>||:我让她的理想实现了，现在的她是永垂不朽的“灰夫人”。
-()<Speaker>奈乐</Speaker>||:……这份永垂不朽的代价是什么？+无数尸骨此刻正在你的脚下呐喊……你还睡得着吗？
-()<Speaker>拉普拉斯</Speaker>||:医学本就是在累累白骨上一步一步踏出来的奇迹。+自从器官移植成为可能以来，替换一个活人心脏的就是另一个活人。
-()<Speaker>奈乐</Speaker>||<SE1>ClothingUp</SE1>:医学的奇迹是人类对抗自然的奇迹！+每具堆叠其中的白骨是在提醒每一个行医的人——这不是游戏也不是玩笑，这是沉甸甸的生命！+黑死病曾在欧洲夺走了三分之一的人口，是无数医道前辈，以自己的命为代价，克服了困难达成了奇迹！+而在你这种魔鬼的眼中……他们都是代价……
-()<Speaker>拉普拉斯</Speaker>||:人类是基因的奴隶。+因此无法适应这种挑选的人，就会成为代价。+而现在，我们的基因进入到全新的时代。
-()<Speaker>奈乐</Speaker>||:……你怎么不把自己做成涅托？！
-()<Speaker>拉普拉斯</Speaker>||:因为能操刀完美免疫体的科学家必须是纯粹的人类，否则会有面临失控的风险。+因为那种生物，对于非人的控制强到可怕。
-()<Speaker>拉普拉斯</Speaker>||:我一直在跟时间赛跑。+人类中的天赋卓绝者，需要时间去浇灌才能触达真理。可当他们长成时，留给人类真正运用这经验的寿命却所剩无几。+所以，我必须在有限的时间内，保持着极高的专注力去完成这台手术。+事实上，我快要成功了。
-()<Speaker>奈乐</Speaker>||<SE1>ClothingUp</SE1>:……不，你马上就要失败了。
-()<Speaker>拉普拉斯</Speaker>||:也许确实如此，毕竟我能选择的余地太少。而我的继任者也不是一个天赋卓绝的人，他亲自将成功的可能性从90降低到了无限趋于0的情况。
-()<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:……你该带着他一起下地狱。+而不是继续为祸人间。
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:A young woman steps out slowly from the dark, holding a Makarov pistol.
+()<Speaker>Laplace</Speaker>||<SE1>Stop_AVG_loop</SE1>:...
+()<Speaker></Speaker>||:A stranger's face—yet Laplace is all too familiar with the way her eyes blaze...+With immense hatred and fury that consumes her whole being.
+()<Speaker>Laplace</Speaker>||:...Who are you?
+()<Speaker></Speaker>||:Laplace can tell right away that the girl has no intent to shoot—at least not immediately. That moment of restraint piques her interest.
+()<Speaker>Nele</Speaker>||<CGDelay>0.5</CGDelay>:...Martha Maitner. Capita. Laplace.+You've ceased to be human—you've become a demon, through and through.
+()<Speaker>Laplace</Speaker>||:How curious. I'd say this transformation has made me more true to myself than ever.
+()<Speaker>Nele</Speaker>||:Those who betray others will in turn be betrayed.
+()<Speaker>Laplace</Speaker>||:I've long been prepared for that.+In fact, the moment I saw you, I knew who it was that sold me out.
+()<Speaker>Laplace</Speaker>||:But what intrigues me more is... why are you here?+After all, it's been so long since I last saw a living human.
+()<Speaker>Nele</Speaker>||<SE1>ClothingUp</SE1>:...Gray Blackwell.+Do you remember her?
+()<Speaker>Laplace</Speaker>||:Of course. She was the most outstanding of all my juniors.
+()<Speaker>Nele</Speaker>||:And how did you repay her? By leaving her soul in torment.
+()<Speaker>Laplace</Speaker>||:...Torment?+I helped her surpass the limits of human physiology at the peak of her achievements so that she would always remain in her most efficient state.
+()<Speaker>Laplace</Speaker>||:She's the only one... the only advanced Nyto untouched by any other human's DNA.+She became everything she'd ever dreamed of—an infallible surgical virtuoso.+An eternal flower captured at the height of its brilliance. Is that not a blissful existence?
+()<Speaker>Nele</Speaker>||:...Your idea of bliss... is to render her completely brain-dead, then defile her corpse with your monstrous Virtual Consciousness design?+She once respected you so deeply... looked up to you so much...
+()<Speaker>Laplace</Speaker>||:Back at Johns Hopkins, I once asked her what she wanted.+She told me, "Medicine is a battlefield of black and white. Before the bulldog clamp and Liston knife, surgery was no different from murder. I wish to become... the most complete shade of gray on this path.+"To pit the white of life against the black of death."
+()<Speaker>Laplace</Speaker>||:I made her dream a reality. Now, she is the immortal "Lady of Ashes".
+()<Speaker>Nele</Speaker>||:...And what's the cost of that so-called immortality?+Countless corpses scream beneath your feet... Can you even sleep at night?
+()<Speaker>Laplace</Speaker>||:Medicine has always been a miracle paved with dead bodies.+Since the advent of organ transplants, replacing one living heart has always meant taking another.
+()<Speaker>Nele</Speaker>||<SE1>ClothingUp</SE1>:Medical miracles are humanity's defiance against nature!+And each dead soul is a reminder to every healer, that this is not a game or not a joke—this is life, heavy and sacred.+The Black Death once wiped out a third of Europe's population. It was thanks to countless medical pioneers who gave their lives that we overcame it!+But in the eyes of a devil like you... they're all just a 'necessary price' that you are happy to pay without a second thought...
+()<Speaker>Laplace</Speaker>||:Humans are slaves to their genes.+Those who can't adapt will naturally become the price of progress.+And now, our genes enter a new era.
+()<Speaker>Nele</Speaker>||:...Then why don't you turn yourself into a Nyto?!
+()<Speaker>Laplace</Speaker>||:Because the scientist who operates on the fully immune individual must be a pure human. Otherwise, there's a risk of losing control over them.+Those beings exert a staggering level of control over non-humans.
+()<Speaker>Laplace</Speaker>||:I've always been racing against time.+Geniuses among humans need to be nurtured with time before they find truth, but once they bloom, there's barely any time left in their lives to truly make use of their insight and experience.+So I must maintain extreme focus with what limited time I have to complete this operation.+In fact... I'm close to succeeding.
+()<Speaker>Nele</Speaker>||<SE1>ClothingUp</SE1>:...No. You're about to fail.
+()<Speaker>Laplace</Speaker>||:You may be right. My choices have always been limited, after all. And my successor... is not a genius. He's singlehandedly taken the chance of success from 90%... down to nearly zero.
+()<Speaker>Nele</Speaker>||<CGDelay>0.5</CGDelay>:...You should drag him to hell with you—+Instead of continuing to plague the world.
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><关闭蒙版><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>778</BIN><BGM>BGM_ev2410_MareLunaris</BGM>:……在这几乎找不到一件完整物品的工厂内，格雷毫发无伤地站在废墟上。+处在她对面的布拉梅德已经在力量枯竭的边缘，完全靠着赫柏在勉力支撑。
-NPC-Bramedb(4)<Speaker>布拉梅德</Speaker><Shake>||:她根本不是格雷……我甚至觉得她不是帕拉蒂斯……
-NPC-Hebe(5)<Speaker>赫柏</Speaker>||:……
-()<Speaker></Speaker>||:赫柏颇有些鄙夷地看了眼快要倒下的布拉梅德。
-NPC-Hebe(5)<Speaker>赫柏</Speaker>||:格雷早就死了，这只是一个空壳，一个任人摆布的傀儡。+她现在的所有行动都是基于操控者发出的指令。
-NPC-Hebe(5);NPC-Bramedb(4)<Speaker>布拉梅德</Speaker>||:不能断开她们的链接吗？
-NPC-Hebe(5)<Speaker>赫柏</Speaker>;NPC-Bramedb(4)||:这就是你接下来的任务。+反正你留在战场也只是拖后腿。
-NPC-Bramedb(4)<Speaker>布拉梅德</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Bramedb(4)<Speaker>布拉梅德</Speaker>||:……我试试。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:布拉梅德退至一边，开始寻找格雷身上的突破口。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1>:而格雷经过几番激战，只是淡然甩掉了刀刃上的血迹，朝着赫柏发起了新一轮的袭击——
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:赫柏的身姿轻盈敏捷得如一阵狂风，而她的攻击就像裹挟在风暴中的绵密的针。+隐匿，高速，致命。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><CGDelay>0.5</CGDelay><震屏3>:格雷完全跟得上她的速度，阻挡她的每一次攻击，但这也意味着自己的节奏被对方完全牵制。+在某些片刻，赫柏的眼眸中闪烁着什么印记，但或许是因为同为帕拉蒂斯，又或许是因为自己恰好的避开，印记并未完成刻印。
-NPC-Bramedb(4)<Speaker>布拉梅德</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:奇怪，她的虚识图景并不完整，也不像心智云图，仿佛是一套全新的智能指挥系统。
-NPC-Hebe(5)<Speaker>赫柏</Speaker>||:摧毁它。
-NPC-MrsGray(9)<Speaker>格雷</Speaker><Shake>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:格雷脱离赫柏的牵制，径直冲向布拉梅德——
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:嘭——+躲闪不及的布拉梅德只能硬生生接下这一击。
-()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:咚。天旋地转后，布拉梅德被甩出了角落，倒在地上暂时无法动弹。
-()<Speaker></Speaker>||:赫柏的脸上第一次出现凝重的神情。+这是她第一次向其他人求救。
+()<Speaker></Speaker>||<黑屏2><BIN>778</BIN><BGM>BGM_ev2410_MareLunaris</BGM>:...In this factory, where practically nothing has been left intact, Gray stands unscathed atop the ruins.+Across from her, Bramedb is already on the verge of collapse. She is still upright only because Hebe is propping her up.
+NPC-Bramedb(4)<Speaker>Bramedb</Speaker><Shake>||:She's not Gray at all... I don't even think she's a Paradeus unit...
+NPC-Hebe(5)<Speaker>Hebe</Speaker>||:...
+()<Speaker></Speaker>||:Hebe casts a rather disdainful glance at Bramedb, who is about to keel over.
+NPC-Hebe(5)<Speaker>Hebe</Speaker>||:Gray died long ago. This is just an empty shell, a puppet controlled by someone else.+Everything she does now is based entirely on her controller's commands.
+NPC-Hebe(5);NPC-Bramedb(4)<Speaker>Bramedb</Speaker>||:Can't we sever their link?
+NPC-Hebe(5)<Speaker>Hebe</Speaker>;NPC-Bramedb(4)||:That's your next task.+You'd only drag me down if you stayed on the battlefield anyway.
+NPC-Bramedb(4)<Speaker>Bramedb</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-Bramedb(4)<Speaker>Bramedb</Speaker>||:...I'll try.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Bramedb retreats to the side and starts looking for a weakness in Gray's construct.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Meanwhile, Gray casually flicks the blood off her blade and unleashes a new wave of attack on Hebe—
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Hebe's movements are as swift and agile as a gale, and her strikes are like needles hidden in a storm.+Stealthy, fast, and deadly.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1><CGDelay>0.5</CGDelay><震屏3>:Gray keeps up with her speed, blocking every attack—but it also means that she's fully caught in Hebe's rhythm.+At certain moments, something flashes in Hebe's eyes—some kind of sigil—but whether due to their shared Paradeus nature or her own timely evasions, the mark never completes its imprint.
+NPC-Bramedb(4)<Speaker>Bramedb</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Strange. Her virtual cognition image is incomplete. It's not a neural cloud either. It's almost like... a whole new kind of AI command system.
+NPC-Hebe(5)<Speaker>Hebe</Speaker>||:Destroy it.
+NPC-MrsGray(9)<Speaker>Gray</Speaker><Shake>||<SE1>ClothingUp</SE1>:...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Gray breaks free from Hebe's entanglement and charges directly at Bramedb—
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:Boom—+unable to dodge, Bramedb takes the hit head-on.
+()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:Thud. The world spins as she's flung into a corner, slamming into the ground and unable to move for the moment.
+()<Speaker></Speaker>||:For the first time, a grave expression crosses Hebe's face.+This is the first time she has ever had to ask for help.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:
-NPC-Hebe(7)<Speaker>赫柏</Speaker>||:……这已经超出了我的认知，尼梅兰。
-NPC-Nemhran(0)<Speaker>尼梅兰</Speaker><Position>80,90</Position><通讯框>||:<color=#00CCFF>我知道了……现在紧急联络拉普拉斯大人。</color>+<color=#00CCFF>现有的条件，我们没办法解决她。</color>
+NPC-Hebe(7)<Speaker>Hebe</Speaker>||:...This is beyond my understanding, Nemhran.
+NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position><通讯框>||:<color=#00CCFF>I see... I'll contact Lady Laplace right away and inform her of this emergency.</color> +<color=#00CCFF>We cannot possibly resolve this on our own with our current resources.</color>
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>782</BIN><SE1>ClothingUp</SE1><BGM>BGM_Scar_Battle</BGM>:阿玛瑞丝脸上的笑意更甚。
-()<Speaker>阿玛瑞丝</Speaker>||:玛莎博士，不知道这些年过去，你设计的系统是否还有同样的弱点？
-()<Speaker></Speaker>||:看着忤逆传来的画面，阿玛瑞丝终于见到了茧计划的主角——+沉睡在茧一样的培养舱中的少女。
-()<Speaker>阿玛瑞丝</Speaker>||<SE1>AVG_tele_connect</SE1>:帮我链接。
-()<Speaker>AK-12</Speaker>||:<color=#00CCFF>94刚刚已经试过了，它们的系统非常强悍，吃下了全部的电子攻击。</color>
-()<Speaker>阿玛瑞丝</Speaker>||:这就是我在这里的理由。+摧毁艾莉安娜的，是她所对应的识底深湖，那是能量的夺取之地。+那么我对应的……就一定是“茧”……聚集着所有能量的杂质。+“茧”……才是那枚能摧毁一切的真正的钥匙……
-()<Speaker>AK-12</Speaker>||:<color=#00CCFF>……史蒂文斯520提过，艾尔玛关闭夏园之后，唯一能链接的两枚泉眼只剩下“娜迦”和露尼西亚，而她留下来两把钥匙……我用其中一把永久关闭了“娜迦”，那么这里莫非就是最后的……</color>
-()<Speaker>阿玛瑞丝</Speaker>||:……很遗憾，并不是。+不过，现在这个设计的底层我已经能猜到了。
-()<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:名为“娜迦”的不完全免疫体作为对照组单向链接了识底深湖，所以她失败了，也枯萎了。+“茧”才是死罪设计出来的……真正的容器。+成功的“露尼西亚”必须同时拥有链接识底深湖和茧的能力。+而这边的“露尼西亚”已经破茧成蝶……留在这里的，只是冗余数据。
-()<Speaker>AK-12</Speaker>||:<color=#00CCFF>……那艾尔玛留下的那把钥匙没有用处了？</color>
-()<Speaker>阿玛瑞丝</Speaker>||:……并不，我们要和时间竞赛。+因为通道还没有被真正打通。
-()<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:我们现在还能利用这“茧”壳，来做点什么。+毕竟我是月亮的孩子，神赐福的礼物。+死罪……我很感谢你……感谢你赐予我这样的礼物……
+()<Speaker></Speaker>||<黑屏2><BIN>782</BIN><SE1>ClothingUp</SE1><BGM>BGM_Scar_Battle</BGM>:A wider grin spreads across Amaris' face.
+()<Speaker>Amaris</Speaker>||:Dr. Meitner, I wonder—after all these years, does your system still have the same flaws?
+()<Speaker></Speaker>||:On the live feed transmitted by DEFY, Amaris finally sees the central figure of Project Cocoon—+A young girl, sleeping inside a cocoon-like incubator.
+()<Speaker>Amaris</Speaker>||<SE1>AVG_tele_connect</SE1>:Link me in.
+()<Speaker>AK-12</Speaker>||:<color=#00CCFF>94 just tried. Their system is incredibly robust. It withstood all of our cyber attacks.</color>
+()<Speaker>Amaris</Speaker>||:That's exactly why I'm here.+What destroyed Aliana was her correspondence to the Lake of Cognition—a place of energy extraction.+My correspondence... must be this "Cocoon"—the impurity that gathers all energy.+"Cocoon"... is the true key that's capable of destroying everything...
+()<Speaker>AK-12</Speaker>||:<color=#00CCFF>...Stevens M520 mentioned that after Erma shut down the Summer Garden, only two fountains remained—Nadia and Lunasia. She left behind two keys... I used one to permanently seal Nadia. So could this be the last one...?</color>
+()<Speaker>Amaris</Speaker>||:...Unfortunately, it's not. +But I've figured out the foundation of this design now.
+()<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:As a control, the partially immune individual named Nadia had a one-way connection to the Lake of Cognition. That's why she failed and withered.+"Cocoon" is the true vessel in Capita's design.+The successful "Lunasia" must be able to connect to both the Lake and the Cocoon.+And the "Lunasia" here has already emerged from her cocoon as a butterfly... What's left is just redundant data.
+()<Speaker>AK-12</Speaker>||:<color=#00CCFF>...So the key that Erma left behind is now useless?</color>
+()<Speaker>Amaris</Speaker>||:...Not at all. We're racing against time.+The passage hasn't been fully opened yet.
+()<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:We can still use this cocoon shell for something.+After all, I am the a child of the moon—a gift of divine blessing.+Capita... I'm truly grateful... Thank you for giving me this gift...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><黑屏2><BIN>550</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:……进入自己的心智空间，这里已经空无一物。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:没想到，这里竟然还能再次派上用场。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:艾莉安娜……你在识底深湖的最后时刻，在想什么呢？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你想明白自己到底做错了什么吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……算了，你这辈子都想不明白。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:就这样吧，我绝不原谅你。+而你，也不需要任何解释。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Door_Open</SE1><BGM>BGM_Empty</BGM>:轻轻抬手拉开门，那是一地湛蓝的月光……
+()<Speaker></Speaker>||:...She steps into her own neural space, which is now emptied of all things.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Never thought this place would ever come in useful again.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Aliana... in those final moments within the Lake of Cognition, what were you thinking?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Did you finally figure out what you did wrong?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Forget it. You'd never be able to puzzle it out
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:So be it. I'll never forgive you.+And you don't can save your excuses.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Door_Open</SE1><BGM>BGM_Empty</BGM>:She gently opens a door—and reveals a floor bathed in brilliant blue moonlight...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>778</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:赫柏的攻击速度和频率加快了。
-()<Speaker></Speaker>||<BGM>BGM_ev2410_MareLunaris</BGM><SE1>AVG_Punch</SE1><震屏3>:铮——+格雷的刀刃堪堪架住了赫柏的突袭。
-NPC-Bramedb(4)<Speaker>布拉梅德</Speaker><Shake>||:赫柏姐姐……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:勉力站起来的布拉梅德重新跪倒在地上，赫柏想要回应什么，脸色却变得可怖起来。+意识到机会来临的格雷重新蓄力发起攻击——
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><白屏2>:嘭！
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:……
-()<Speaker></Speaker>||:一道黑色的身影从视线死角中冲出，尽全力撞开了自己。+是默莉朵。+不过她的情况看起来也并不乐观。
-NPC-Hebe(7)<Speaker>赫柏</Speaker>||:你怎么回来了？拉普拉斯大人呢？
-NPC-MorridowNew(1)<Speaker>默莉朵</Speaker>||:稍后再解释。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Grey_Hand_Mech</SE1>:默莉朵展开机械义肢，抱起了布拉梅德和赫柏。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:Hebe's attacks increase in both speed and frequency.
+()<Speaker></Speaker>||<BGM>BGM_ev2410_MareLunaris</BGM><SE1>AVG_Punch</SE1><震屏3>:Clang—+Gray's blade barely catches Hebe's sudden strike.
+NPC-Bramedb(4)<Speaker>Bramedb</Speaker><Shake>||:Sister Hebe...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Bramedb struggles to her feet, only to collapse again. Hebe wants to respond—but her face contorts in horror.+Sensing opportunity, Gray charges again—
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><白屏2>:Boom!
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:...
+()<Speaker></Speaker>||:A black figure dashes in from Hebe's blind spot, ramming into her with full force and pushing her out of harm's way.+It's Morridow.+But she doesn't seem to be faring very well herself.
+NPC-Hebe(7)<Speaker>Hebe</Speaker>||:Why did you come back? Where's Lady Laplace?
+NPC-MorridowNew(1)<Speaker>Morridow</Speaker>||:We'll talk later.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Grey_Hand_Mech</SE1>:Morridow deploys her mechanical limbs and picks up both Bramedb and Hebe.
 ()||<黑点1><SE1>AVG_Cloak_Whoosh</SE1>:
 ()<Speaker></Speaker>||<黑点2><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:随后，她的身影消失在了原地。
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||:……
-NPC-MrsGray(9)<Speaker>格雷</Speaker>||<SE1>AVG_tele_connect</SE1>:是否继续追踪？请下达指令。
+()<Speaker></Speaker>||:Then she vanishes.
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||:...
+NPC-MrsGray(9)<Speaker>Gray</Speaker>||<SE1>AVG_tele_connect</SE1>:Should I pursue? Awaiting orders.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>638</BIN><CGDelay>0.5</CGDelay>:
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:不必，你的任务已经完成，返回基地吧。
-NPC-MrsGray(9)<Speaker>格雷</Speaker><通讯框>||:<color=#00CCFF>是。</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:No need. Your mission is complete. Return to base.
+NPC-MrsGray(9)<Speaker>Gray</Speaker><通讯框>||:<color=#00CCFF>Understood.</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><BGM>BGM_Empty</BGM>:消除“茧”的冗余数据后，阿玛瑞丝看着这明媚的天光。+不由得感慨。
-()<Speaker>阿玛瑞丝</Speaker>||:……真是个美丽的天气……+也快到一天之中最美的时光了……
-()<Speaker></Speaker>||:黄昏……+稍纵即逝的黄昏……
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><BGM>BGM_Empty</BGM>:After purging the redundant data in the "Cocoon", Amaris gazes into the radiant daylight.+She sighs sentimentally.
+()<Speaker>Amaris</Speaker>||:...Such beautiful weather... +and it's almost the most beautiful time of day...
+()<Speaker></Speaker>||:Dusk... +Fleeting, ephemeral dusk...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><Night><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>638</BIN><Night>:丝毫不在意人形的眷恋与挽留，夜晚降临了。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:死罪，我来了。
+()<Speaker></Speaker>||<黑屏2><BIN>638</BIN><Night>:Without a care for the Doll's hope for dusk to linger, night falls.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:Capita, I'm here.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM><黑屏2><Night><BIN>792</BIN><CGDelay>0.5</CGDelay>:
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:我已经了解你来此的目的。+不过，作为你的前辈，能否容许我给项目继任者留点遗言？+从你的角度来说，监听他的通讯，也不算什么坏事。
-NPC-Nele(8)<Speaker>奈乐</Speaker>||:……我很乐意聆听撒旦忏悔的声音。
-NPC-Laplace(13)<Speaker>拉普拉斯</Speaker>||:那恐怕要让你失望了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉普拉斯放下了手中的勃朗宁。+从桌上拿起了通讯器。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:滴滴——+往日需要等待良久的通讯，今天却被很快接起。
-NPC-William(0)<Speaker>？？</Speaker><通讯框>||:<color=#00CCFF>……老师，你是来交代遗言的吗？</color>
-NPC-William(0);NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:实验的后续护送由尼梅兰亲自接手，现在这个时间点应该已经在白区了。+编号Avernus C. Hela的01.59至20.01部分已经基本完成，记得把温度控制在25摄氏度左右，湿度保持在40%。+这台手术的窗口期还剩5天，一定要把握住这个机会。
-NPC-William(0)<Speaker>？？</Speaker><通讯框>;NPC-Laplace(11)||:<color=#00CCFF>……呵，放心，这部分我比您以为的要清楚更多。</color>+<color=#00CCFF>而您不知道的可就太多了，比如……</color>+<color=#00CCFF>您知道是谁要杀你吗？</color>
-NPC-William(0);NPC-Laplace(13)<Speaker>拉普拉斯</Speaker>||:我知道是你。
-NPC-William(0)<Speaker>？？</Speaker><通讯框>;NPC-Laplace(13)||:<color=#00CCFF>想知道原因吗？</color>
-NPC-William(0);NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:这不重要。+只要你按照我说的，把后续工作收尾。
-NPC-William(0)<Speaker>？？</Speaker><通讯框>;NPC-Laplace(11)||:<color=#00CCFF>没有你，这台手术才会是最完美的。</color>
-NPC-William(0);NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:……你最好严格按我留下的日志和批注执行下去。+威廉，你本人的天赋和能力不足以抵达完美的结局。
-NPC-William(0)<Speaker>？？</Speaker><通讯框>;NPC-Laplace(11)||:<color=#00CCFF>是吗？但我的名声和成就，都将远远超过你。</color>+<color=#00CCFF>超过你和你以为的那些对手们。</color>+<color=#00CCFF>最后这场最重要的手术，它只配由我来完成。</color>
-NPC-William(0);NPC-Laplace(13)<Speaker>拉普拉斯</Speaker>||:……+我祝你得偿所愿，也祝我得偿所愿。+虽然，我现在略微有点担心……
-NPC-William(0)<Speaker>？？</Speaker><通讯框>;NPC-Laplace(13)||:<color=#00CCFF>你现在没有更多时间担心了……</color>+<color=#00CCFF>最后再给你一句话的空间吧。</color>
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:也许休谟一生寂寂无名，而你最终名扬天下。+可在科研这条路上……别说我，或者肖，你甚至比不上帕斯卡。+露尼西亚怎么会有你这么个愚蠢的弟弟？
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:啪……+威廉挂断了通讯。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:拉普拉斯重新看向了面前持枪的陌生女孩。
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:I understand why you've come.+But as your senior, would you allow me to leave a few words for my successor on this project? +Eavesdropping on his comms shouldn't do you any harm.
+NPC-Nele(8)<Speaker>Nele</Speaker>||:...I'd be delighted to hear Satan's confession.
+NPC-Laplace(13)<Speaker>Laplace</Speaker>||:Then I'm afraid you'll be disappointed.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Laplace sets down her Browning.+She picks up the communicator from the table.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:Click.+A comms request that usually takes ages to be answered goes through almost instantly today.
+NPC-William(0)<Speaker>???</Speaker><通讯框>||:<color=#00CCFF>...Professor, calling to give your last will and testament?</color>
+NPC-William(0);NPC-Laplace(11)<Speaker>Laplace</Speaker>||:Nemhran has taken over the escort mission herself. The subject should have reached the White Zone by now.+Sections 01.59 to 20.01 of "Avernus C. Hela" are largely complete. Remember to keep the temperature at around 25°C and humidity at 40%.+There are five days left in the surgical window. Make sure not to waste it.
+NPC-William(0)<Speaker>???</Speaker><通讯框>;NPC-Laplace(11)||:<color=#00CCFF>...Heh, don't worry. I understand this part far better than you think.</color>+<color=#00CCFF>In fact, there is a lot that you don't know—for example...</color> +<color=#00CCFF>Do you know who wants you dead?</color>
+NPC-William(0);NPC-Laplace(13)<Speaker>Laplace</Speaker>||:I know it's you.
+NPC-William(0)<Speaker>???</Speaker><通讯框>;NPC-Laplace(13)||:<color=#00CCFF>Want to know why?</color>
+NPC-William(0);NPC-Laplace(11)<Speaker>Laplace</Speaker>||:It doesn't matter.+As long as you follow my instructions and finish the work.
+NPC-William(0)<Speaker>???</Speaker><通讯框>;NPC-Laplace(11)||:<color=#00CCFF>This operation will only go perfectly without you.</color>
+NPC-William(0);NPC-Laplace(11)<Speaker>Laplace</Speaker>||:...You'd better stick precisely to my logs and annotations.+William, your talent and ability aren't enough to reach a perfect outcome.
+NPC-William(0)<Speaker>???</Speaker><通讯框>;NPC-Laplace(11)||:<color=#00CCFF>Is that so? Yet my fame and accomplishments will far surpass yours.</color>+<color=#00CCFF>I will surpass you, and all your so-called rivals.</color>+<color=#00CCFF>This final, most important surgery can only be completed by me and me alone.</color>
+NPC-William(0);NPC-Laplace(13)<Speaker>Laplace</Speaker>||:...+I hope you get what you want. I wish the same for myself.+Though now, I'm a little concerned...
+NPC-William(0)<Speaker>???</Speaker><通讯框>;NPC-Laplace(13)||:<color=#00CCFF>You don't have any more time to be concerned...</color>+<color=#00CCFF>I'll let you wrap it up.</color>
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:Sure, Hume lived and died in obscurity, and you'll achieve worldwide renown.+But in the field of scientific research... you can't even hold a candle to Persica, let alone me or Shaw.+How did Lunasia end up with such a foolish brother like you?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1><BGM>BGM_Empty</BGM>:Click...+William hangs up the call.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Laplace turns again to the girl pointing a gun at her.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>Select</SE1><黑屏2><关闭蒙版><BIN>783</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>奈乐</Speaker>||<BGM>BGM_ev2410_RespectedGray</BGM>:你还有什么话想说。
-()<Speaker>拉普拉斯</Speaker>||:小姑娘，你拿枪的手不稳，是第一次杀人？+和我另一个学生一点也不像。
-()<Speaker>奈乐</Speaker>||:……在这样的距离面前，就算是不稳的手，也可以杀死你。。
-()<Speaker></Speaker>||:拉普拉斯无视被压迫的生命，将手里的通讯平板放在面前，那是赫柏共享而来的数据。
-()<Speaker>拉普拉斯</Speaker>||:这个格雷，是你亲手造出来的？
-()<Speaker></Speaker>||:拉普拉斯抬起头来，认认真真地打量起眼前的小姑娘。+看见奈乐胸前的徽章，她了然地笑了笑。
-()<Speaker>拉普拉斯</Speaker>||:你是她的学生。+这枚徽章由我和她一起设计，她喜欢将它送给后辈。
-()<Speaker>奈乐</Speaker>||<SE1>Rope</SE1>:……你不配提到老师！
-()<Speaker>拉普拉斯</Speaker>||:作为科学的信徒，我从不相信宗教里的概念。+但你的出现，确实让我相信了因果这种东西。+原来继承我衣钵的人……是你。
-()<Speaker></Speaker>||:奈乐瞪大了双眼。
-()<Speaker>奈乐</Speaker>||:你在胡说八道些什么？
-()<Speaker>拉普拉斯</Speaker>||:天赋是擅长与热爱的合集。+获得所求之道的知识本身就是一种快乐。+承认吧，解剖格雷的时候，你从中得到了知识……以及快乐。+怎么样，我的作品很杰出吧。我很高兴，原来……你才是我的传人……+比起格雷，比起威廉，你更像我。
-()<Speaker>奈乐</Speaker>||:我没有！驱使我的从来只有仇恨，我没有从中获得任何东西！
-()<Speaker>拉普拉斯</Speaker>||:医学生和连环变态杀手的区别是什么？+小姑娘，答案是——没有区别。+肾上腺素和内啡肽分泌给她们带来的快感毫无二致。
-()<Speaker>奈乐</Speaker>||:拉普拉斯，我跟你这种恶魔完全不一样！+也许在过去，我的确追逐着这未知的一切。+我以为当我突破的时候我会非常兴奋，但我看见涅托这种怪物的时候……+我只感到了痛苦，与恶心。+拉普拉斯……你背叛了希波克拉底誓言。
-()<Speaker>拉普拉斯</Speaker>||:唯有这件事，我从未背叛。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:拉普拉斯将手里的平板扔在一边。
-()<Speaker>拉普拉斯</Speaker>||:……格雷说的是对的，家族传承……资源倾斜……全都没有用……+在真正的天赋与热爱之前，那些全部没有用。+不管你承认不承认……你才是我最好的学生。
-()<Speaker></Speaker>||:奈乐陷入崩溃的大声呼喊——
-()<Speaker>奈乐</Speaker>||<震屏3>:<size=50>没有！你不是我的老师！</size>+<size=50>你不配做我的老师！</size>+<size=50>我的老师只有格雷！</size>
-()<Speaker>拉普拉斯</Speaker>||:……知识即诅咒。+……天赋即诅咒。+总有一天，你会承认……从我这里得到的，才是你毕生追求的……+“海拉”项目的日志密钥是……
+()<Speaker>Nele</Speaker>||<BGM>BGM_ev2410_RespectedGray</BGM>:Any last words?
+()<Speaker>Laplace</Speaker>||:Little girl, your hands are shaking—you've never killed before, have you?+You're nothing like my other student.
+()<Speaker>Nele</Speaker>||:...Firing at this range, I can kill you even if my hands are shaking.
+()<Speaker></Speaker>||:Laplace ignores the threat to her own life and holds out the comms tablet in front of her, which shows the data that Hebe has sent to her.
+()<Speaker>Laplace</Speaker>||:Did you create this Gray?
+()<Speaker></Speaker>||:Laplace looks up and takes a good, long look at the girl.+When she sees the badge on Nele's chest, she smiles knowingly.
+()<Speaker>Laplace</Speaker>||:You're her student.+That badge—she and I designed it together. She liked giving it to her protégés.
+()<Speaker>Nele</Speaker>||<SE1>Rope</SE1>:...You're not worthy to mention her name!
+()<Speaker>Laplace</Speaker>||:As a believer in science, I never took stock in religious concepts.+But your appearance now makes me believe in karma.+To think the one who will inherit my legacy... is you.
+()<Speaker></Speaker>||:Nele's eyes widen in disbelief.
+()<Speaker>Nele</Speaker>||:What nonsense are you talking about?
+()<Speaker>Laplace</Speaker>||:Genius is a fusion of talent and passion.+Gaining knowledge of what you seek is pleasure in itself.+Admit it—when you dissected Gray, you gained knowledge... and joy.+Well? My creation is excellent, isn't it? I'm glad—because it turns out you are my true successor...+Compared to Gray or William—you're more like me.
+()<Speaker>Nele</Speaker>||:No! I was driven only by hatred! I didn't gain anything!
+()<Speaker>Laplace</Speaker>||:What's the difference between a med student and a serial killer?+Little girl, the answer is—there's no difference.+The adrenaline and endorphins bring them the same joy.
+()<Speaker>Nele</Speaker>||:Laplace, I'm nothing like you!+Maybe I did pursue the unknown in the past.+I thought I'd be thrilled when I made a breakthrough—but when I came face-to-face with your monstrous Nytos...+All I felt was pain and disgust.+Laplace... you betrayed the Hippocratic oath.
+()<Speaker>Laplace</Speaker>||:That's the one thing I never betrayed.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:Laplace tosses the tablet aside.
+()<Speaker>Laplace</Speaker>||:...Gray was right. Family legacy... resource allocation... none of it matters...+Before true talent and passion, those things are meaningless.+Whether you admit it or not... you're my best student.
+()<Speaker></Speaker>||:Nele breaks down and shouts—
+()<Speaker>Nele</Speaker>||<震屏3>:<size=50>No! You're not my teacher!</size>+<size=50>You're not worthy of being my teacher!</size>+<size=50>My only teacher is Gray!</size>
+()<Speaker>Laplace</Speaker>||:...Knowledge is a curse.+...Talent is a curse.+One day, you'll admit... what you inherited from me is what you've been pursuing your whole life...+The passcode to the "Hela" project logs is...
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.5</CGDelay><common_effect>%%code=202410_Nele_2%%</common_effect>:
 ()<Speaker></Speaker>||<BIN>783</BIN><SE1>AVG_rifle_finalshot_n</SE1><关闭蒙版>:
 ()<Speaker></Speaker>||<CGDelay>1</CGDelay><common_effect>%%code=202410_Nele_2%%</common_effect>:
-()<Speaker></Speaker>||:奈乐忍不住开了枪——
-()<Speaker></Speaker>||:没有准头可言，她尽力对着怒火的源头——+这个现在满嘴胡说八道的女人……+这个老师眼中光芒万丈的学姐……
-()<Speaker></Speaker>||:这个混蛋……
+()<Speaker></Speaker>||:Nele can't fight the urge anymore—she fires.
+()<Speaker></Speaker>||:No aim, no precision—just pure rage, aimed at the source of her fury—+This woman who's now spewing nothing but madness...+This senior once admired so deeply by her mentor...
+()<Speaker></Speaker>||:This bastard...
 ()<Speaker></Speaker>||<BIN>783</BIN><SE1>AVG_rifle_finalshot_n</SE1><关闭蒙版>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><common_effect>%%code=202410_Nele_2%%</common_effect>:
-()<Speaker></Speaker>||:她必须去死！
+()<Speaker></Speaker>||:She has to die!
 ()<Speaker></Speaker>||<BIN>783</BIN><SE1>AVG_rifle_finalshot_n</SE1><关闭蒙版>:
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><common_effect>%%code=202410_Nele_2%%</common_effect>:
-()<Speaker></Speaker>||:必须去死！
+()<Speaker></Speaker>||:She must die!
 ()<Speaker></Speaker>||<BIN>783</BIN><SE1>AVG_rifle_finalshot_n</SE1><关闭蒙版>:
 ()<Speaker></Speaker>||<CGDelay>1</CGDelay><common_effect>%%code=202410_Nele_2%%</common_effect>:
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><BIN>9</BIN><关闭蒙版><SE1>AVG_rifle_finalshot_n</SE1>:<size=50>去死！</size>
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><BIN>9</BIN><关闭蒙版><SE1>AVG_rifle_finalshot_n</SE1>:<size=50>GO TO HELL!</size>
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>BGM_Hume_ImFutue_Main</BGM>:
-()<Speaker>拉普拉斯</Speaker>||<CGDelay>0.5</CGDelay>:……SFDSEGBWQE1345……
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1><SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay>:拉普拉斯倒在血液里，生命在这具躯体飞速流逝，而她还在勉力吐出最后的词句。
-()<Speaker>拉普拉斯</Speaker>||<CGDelay>0.5</CGDelay>:……对我来讲……传承即永生……+现在……我才真正地……活着……
+()<Speaker>Laplace</Speaker>||<CGDelay>0.5</CGDelay>:...SFDSEGBWQE1345...
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay>:Laplace collapses in a pool of her own blood, life draining rapidly from her body, but she still struggles to speak her final words.
+()<Speaker>Laplace</Speaker>||<CGDelay>0.5</CGDelay>:...To me... legacy is immortality...+Now... I am finally... alive...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<关闭蒙版><BIN>764</BIN><黑屏2>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:唰——+阿玛瑞丝推开窗，从天台翻入房间。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她绕开拉普拉斯的尸体，走到奈乐面前，轻轻掰开她的手，取下手枪。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:都结束了。
-NPC-SCAR-H(0);NPC-Nele(9)<Speaker>奈乐</Speaker>||:阿玛瑞斯，对不起，这本来是你的任务。+我不该开枪……我太任性了……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-Nele(9)||:我刚刚就在外面。
-NPC-SCAR-H(0);NPC-Nele(10)<Speaker>奈乐</Speaker>||:……为什么……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-Nele(10)||:奈乐，我们不一样。+你需要一个解释，而我只需要一个结果。+只有对对方有期待，才会想要想听一个人解释。
-NPC-SCAR-H(0);NPC-Nele(9)<Speaker>奈乐</Speaker>||:……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-Nele(9)||:也许在你的潜意识里……+这个备受格雷女士尊敬的学姐，会给你一个充满苦衷的冠冕堂皇的理由。+让你得到释怀，认为她值得格雷女士的尊敬。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-Nele(9)||:这就是为什么我绝对不需要她的解释。+因为如果听了她的解释，那我就会忍不住认为，她真的是我的母亲，真的是……那样的母亲。那样的话我会非常的痛苦。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:奈乐怔怔地看向窗台，厚重的深色窗帘没有透出一丝光来。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:现在是什么时候了？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:是夜晚。
-NPC-Nele(9)<Speaker>奈乐</Speaker>||:……+天气预报，明天没有太阳。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:但是曙光出现了。+明天和曙光，会一起到来。
-()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:Fwoosh—+Amaris pushes open the window and vaults in from the rooftop.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She steps over Laplace's corpse, walks up to Nele, and gently pries the gun from her hand.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:It's over now.
+NPC-SCAR-H(0);NPC-Nele(9)<Speaker>Nele</Speaker>||:Amaris, I'm sorry. This was your mission.+I shouldn't have pulled the trigger... I was too selfish...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-Nele(9)||:I was right outside.
+NPC-SCAR-H(0);NPC-Nele(10)<Speaker>Nele</Speaker>||:...Why...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-Nele(10)||:Nele, we're different.+You wanted an explanation—I only wanted an outcome.+Only when you expect something from someone do you want to hear their explanation.
+NPC-SCAR-H(0);NPC-Nele(9)<Speaker>Nele</Speaker>||:...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-Nele(9)||:Maybe in your subconscious... you thought this senior—respected so deeply by Professor Gray—would give you some noble excuse that justifies her actions.+One that would let you find closure, let you believe she was worthy of Gray's respect.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-Nele(9)||:That's why I never wanted to hear her explanation.+Because if I did, I might start to believe that she really was my mother—that kind of mother. And that... would put me in a great deal of pain.
+NPC-Nele(9)<Speaker>Nele</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:Nele stares blankly at the window. Heavy, dark curtains block out even the faintest light.
+NPC-Nele(9)<Speaker>Nele</Speaker>||:What time is it now?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:It's night.
+NPC-Nele(9)<Speaker>Nele</Speaker>||:...+The forecast says... there's no sun tomorrow.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:But day has already broken.+With daybreak... comes a new day.
+()||<黑点1>:

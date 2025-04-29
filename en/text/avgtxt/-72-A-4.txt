@@ -1,251 +1,251 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>417</BIN><BGM>GF_EV9_Story</BGM><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:……斯塔西总部。+显示屏上标记已经开始会议的办公室，此刻鸦雀无声。
-Sterling(0)<Speaker>斯特林</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:咔哒。阿玛瑞丝揉了揉乱七八糟的头发，戴上帽子，走进了会议室。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:抱歉，迟到了一会……
-Sterling(0)<Speaker>斯特林</Speaker>||:没关系，正好会议还没开始。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:斯特林看向对面的空位，原本应该主持每周例会的人缺席了会议。
-PPQ(0)<Speaker>布里吉特</Speaker>||:这咋办，这会还开吗？
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position>||:J现在还是失踪状态……
-LS26(0)<Speaker>伊迪斯</Speaker>||:那我们怎么办？没人管了？
-Sterling(0)<Speaker>斯特林</Speaker>||:……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:Good news! 没有直属领导，可以尽情翘班了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝惬意地伸了个懒腰。
-Sterling(0)<Speaker>斯特林</Speaker>||:听说，之后会由Q来接手我们的指挥。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……+谁？那个加班狂魔？
-PPQ(0)<Speaker>布里吉特</Speaker>||:太好了，Q可比J靠谱多了！
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:Bad news!……以后要二十四小时待命了……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:咔哒。门又一次被推开，Q走进会议室。
-()<Speaker></Speaker>||:Q玩味的目光在阿玛瑞丝和其他人形的脸上跳跃。
-NPC-maya(0)<Speaker>Q</Speaker>||:从你们的表情来看，你们已经知道接下来由我接手了。
-Sterling(0)<Speaker>斯特林</Speaker>||:是的，我已经通知过了。
-NPC-maya(1)<Speaker>Q</Speaker>||:那我也不废话了，各位之前跟我也有过合作，知道我的风格。
-()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:Q将一沓文件放在桌上。
-NPC-maya(2)<Speaker>Q</Speaker>||:姑娘们，现在来帮我分担些工作吧。+达格玛，伊迪斯，你们俩继续搜索艾莫号，给我从上面搞到些有用的东西。
-TFQ(0)<Speaker>达格玛</Speaker><Position>0,60</Position>||:是！
+()<Speaker></Speaker>||:...Stasi HQ.+The display shows that the meeting in the designated office has already started. At this moment, there is complete silence.
+Sterling(0)<Speaker>Sterling</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Click. Amaris rubs her disheveled hair, puts on her cap, and enters the conference room.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Sorry, I'm a little late...
+Sterling(0)<Speaker>Sterling</Speaker>||:It's fine. The meeting hasn't started yet.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Sterling glances at the empty seat opposite her. The person who was supposed to chair the weekly meeting is absent.
+PPQ(0)<Speaker>Brigitte</Speaker>||:What do we do now? Do we still have the meeting?
+TFQ(0)<Speaker>Dagmar</Speaker><Position>0,60</Position>||:J is still missing...
+LS26(0)<Speaker>Edith</Speaker>||:So what now? No one's in charge?
+Sterling(0)<Speaker>Sterling</Speaker>||:...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Good news! No direct supervisor, which means we can skip work!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris stretches lazily.
+Sterling(0)<Speaker>Sterling</Speaker>||:I heard Q will be taking over command later on.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...+Who? That overtime maniac?
+PPQ(0)<Speaker>Brigitte</Speaker>||:Great, Q is way more reliable than J!
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Bad news! ...From now on. we'll be on standby 24/7...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Click. The door opens again, and Q enters the conference room.
+()<Speaker></Speaker>||:Q gazes from Doll to Doll with amusement.
+NPC-maya(0)<Speaker>Q</Speaker>||:From the looks on your faces, you already know I'll be taking over.
+Sterling(0)<Speaker>Sterling</Speaker>||:Yes, I've already made the announcement.
+NPC-maya(1)<Speaker>Q</Speaker>||:Then I won't waste any time. You've all worked with me before and know my style.
+()<Speaker></Speaker>||<SE1>AVG_File_Put</SE1>:Q drops a stack of documents on the table.
+NPC-maya(2)<Speaker>Q</Speaker>||:Time to take some of the work out of my hands, ladies.+Dagmar, Edith, you two continue searching the Elmo. Get me something useful from it.
+TFQ(0)<Speaker>Dagmar</Speaker><Position>0,60</Position>||:Yes, ma'am!
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:达格玛和伊迪斯接过两份权限许可文件，离开了办公室。
-NPC-maya(2)<Speaker>Q</Speaker>||:布里吉特，白区那边我派了新的特工去接替J的工作，你去跟他交接下。
-PPQ(0)<Speaker>布里吉特</Speaker>||:需要交接到什么程度？完全托付给这个人吗？
-NPC-maya(2)<Speaker>Q</Speaker>||:不必，能暂时顶住这个位置就行。
-PPQ(0)<Speaker>布里吉特</Speaker>||:好的。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Dagmar and Edith take the two search warrants handed to them and leave the office.
+NPC-maya(2)<Speaker>Q</Speaker>||:Brigitte, I've assigned a new agent to replace J in the White Zone. Go handle the handover.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Is it a complete handover? Are we handing everything over to this person?
+NPC-maya(2)<Speaker>Q</Speaker>||:No, just give him enough to hold the position for now.
+PPQ(0)<Speaker>Brigitte</Speaker>||:Got it.
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:布里吉特接过进入白区的申请许可文件也离开了。
-NPC-maya(2)<Speaker>Q</Speaker>||:斯特林，我需要你帮我提交下人形小队指挥权限转移的文件，我都填好了，你路上帮我检查一下。
-Sterling(0)<Speaker>斯特林</Speaker>||:明白。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1>:Brigitte takes the permit to enter the White Zone and also leaves.
+NPC-maya(2)<Speaker>Q</Speaker>||:Sterling, please submit the paperwork for transferring the Doll squad's command for me. I've already filled it out, just look it over while you're on your way.
+Sterling(0)<Speaker>Sterling</Speaker>||:Understood.
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:眨眼间，会议室里只剩下Q和阿玛瑞丝两人。
-()<Speaker></Speaker>||<BGM>10213</BGM>:阿玛瑞丝眨巴眨巴眼睛，看着已经空无一物的桌上，又看向对面的Q。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……我呢？我放假？
-NPC-maya(0)<Speaker>Q</Speaker>||:想得还挺美。
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:Q打开拎到会议室的纸袋，取出两杯咖啡，将其中一杯推给了阿玛瑞丝。
-NPC-maya(0)<Speaker>Q</Speaker>||:阿玛瑞丝，我有一个问题想问你。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:见这个问题甚至值得Q请客一杯咖啡，阿玛瑞丝绷直了陷在座椅里的腰背。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:关于“曙光”？
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:对，当然更重要的是关于“曙光”的设计者——玛莎•迈特纳博士。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>);NPC-maya(0)||:……这个问题问我并不算合适。+我跟她接触非常少。+也许，她留给我的，只有我的名字。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:你没有直接接触过她？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:没有，我从来没有见过她。+不只是我，曙光里的其他队员也没有在心智启动测试和她有过接触，除了艾莉安娜……
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:艾莉安娜有说起过玛莎博士吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:……有，艾莉安娜跟她的接触是最多的。+她说，玛莎博士是她见过的最冷静理智的人类，清晰地知道要做和想做的事，能无情地处理掉一切阻碍。+但她并不确定这对于人类来说究竟是好事，还是坏事。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||<SE1>ClothingUp</SE1>:听起来，艾莉安娜对她的评价还比较积极。+玛莎博士过去在美国遗迹署工作，你知道她为什么离开遗迹署吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:……不知道。+我连这段经历都不知道。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:你知道曙光51年那场行动的目标“死罪”，就是她吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:……不清楚，目标的背景信息是高等级机密。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:你知道“瓦尔基丽”计划吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:……我只知道和一个小型邪教有关？+好像是刻意塑造圣女的形象，用来欺骗教众，敛财什么的？
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:从八卦杂志上看来的？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:差不多吧……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:见Q陷入了沉思，阿玛瑞丝打开咖啡杯啜饮了一口。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<CGDelay>0.5</CGDelay>:所以我的任务是调查玛莎•迈特纳博士？
-NPC-maya(2)<Speaker>Q</Speaker>||:阿玛瑞丝，你知道，我们对你无权干涉，你是自由的。+这意味着你对你的调查有着完全自主的掌控。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……+这么多年了，你们的话术还是一点没变啊。+所以我接下来的任务都算是自由行动？那你还给薪水吗？
-NPC-maya(1)<Speaker>Q</Speaker>||:反正是民主德国的纳税金，你尽管拿。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:得到了满意的回答，阿玛瑞丝正襟危坐。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:那么，说出你的要求。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:死罪的任务我无所谓，我只想知道“瓦尔基丽”计划到底是什么？这个东西跟奥贝斯坦家族以及帕拉蒂斯有什么关系？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:……很明显，所有的目标都指向一个人。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:没错，所以你来处理这件事，是最合适的。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>;NPC-maya(0)||:……我明白了。+总之全部都是我的个人行动，和斯塔西没有任何关系。+动机的话，就说是为了给艾莉安娜复仇？真滑稽啊，幸好她听不见。
-NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:作为曙光的遗孤，你现在的感想是？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<BGM>BGM_Empty</BGM>:……就算我拿了MVP，也没有人鼓掌的感觉。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:……
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Just like that, only Q and Amaris remain in the conference room.
+()<Speaker></Speaker>||<BGM>10213</BGM>:Amaris blinks, looking at the now empty table, then she glances at Q across from her.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...What about me? Do I get a holiday?
+NPC-maya(0)<Speaker>Q</Speaker>||:You wish.
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:Q opens the paper bag she has brought, pulls out two cups of coffee, and pushes one over to Amaris.
+NPC-maya(0)<Speaker>Q</Speaker>||:Amaris, I have a question for you.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Seeing that the question is important enough for Q to treat her to a coffee, Amaris straightens up in her chair.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:About Daybreak?
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:Yes, but more importantly, about Daybreak's designer—Dr. Martha Meitner.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>);NPC-maya(0)||:...That's not really a question you should be asking me.+I've had very little contact with her.+The only thing she's left me is probably my name.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:You've never had direct contact with her?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:No, I've never met her.+Not just me—none of the other members of Daybreak Squad had any contact with her during their neural cloud activation tests, except for Aliana...
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:Did Aliana ever talk about Dr. Meitner?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:...Yes. Aliana had the most contact with her.+She said Dr. Meitner was the most calm and rational human she had ever met, always clear on what she needed and wanted to do, and capable of ruthlessly eliminating any obstacles.+But she wasn't sure whether that was a good thing or a bad thing for a human being.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||<SE1>ClothingUp</SE1>:Sounds like Aliana had a relatively positive impression of her.+Dr. Meitner used to work for the US Relics Agency. Do you know why she left?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:...No.+I didn't even know about that part of her career.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:Did you know that she was the target codenamed "Capita" in the operation carried out by Daybreak Squad in 2051?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:...I wasn't aware. The background information on the target was classified as top secret.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:Do you know about Project Valkyrie?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:...All I know is that it was connected to some small cult?+Something about posing as a saint to deceive believers and scam them out of their money?
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:You read that in a tabloid?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Pretty much...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:While Q lapses into thought, Amaris sips her coffee.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<CGDelay>0.5</CGDelay>:So my mission is to investigate Dr. Martha Maitner?
+NPC-maya(2)<Speaker>Q</Speaker>||:Amaris, you know we have no authority over you. You are free.+Which means you have full control over your investigation.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...+After all these years, you guys are still playing word games with me.+Okay, so all my upcoming missions are considered personal operations, yeah? Will I still be paid then?
+NPC-maya(1)<Speaker>Q</Speaker>||:It's the taxpayers' money. Just take it.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Satisfied with the answer, Amaris sits up straight.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Then state your request.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:I don't care about the mission regarding Capita. I just want to know what Project Valkyrie really is, and how it's connected to the Oberstein family and Paradeus.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:...Obviously, all signs point to one person.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:Exactly. That's why you're the most suitable Doll to handle this.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>;NPC-maya(0)||:...I understand.+Bottom line is—what I do from now on is entirely my personal action and has nothing to do with the Stasi.+Should I say I'm doing this to avenge Aliana? What a freaking joke. Good thing she won't ever hear a word of it.
+NPC-SCAR-H(0);NPC-maya(0)<Speaker>Q</Speaker>||:As a sole survivor of Daybreak Squad, how do you feel now?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<BGM>BGM_Empty</BGM>:...Like I got MVP, but there's no one around to clap for it.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:...
 ()||<黑屏1><CGDelay>0.5</CGDelay><SE1>AVG_door_elecport</SE1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>506</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Sneak</BGM>:Q回到了自己的办公室，一名斯塔西特工已经等候多时。
-()<Speaker>特工</Speaker>||:Q小姐，白区恐袭事件中所有的监控录像都已经整理完毕，我们的损失也清点好了。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Q收到文件，随意地翻阅了一下。
-NPC-maya(0)<Speaker>Q</Speaker>||:J失踪那段时间的监控全部都看过了？有什么发现？
-NPC-maya(0)<Speaker>特工</Speaker><同时置暗>||:J是独自一人消失在监控里的，那段时间监控被黑掉了，目前还在尝试修复，但技术部说希望不大。+和他同时失踪在监控里的还有S083家属楼的马琳小姐和前卫生部部长弗伊格特的外孙女高奈莉娅•舍夫尔。
-NPC-maya(0)<Speaker>Q</Speaker>||:联系上了吗？
-NPC-maya(0)<Speaker>特工</Speaker><同时置暗>||:马琳小姐无法联系上，高奈莉娅•舍夫尔小姐表示自己已经安全离开。
-NPC-maya(0)<Speaker>Q</Speaker>||:查一下这个高奈莉娅•舍夫尔。
-NPC-maya(0)<Speaker>特工</Speaker><同时置暗>||:这个女孩在柏林时就已经被查过了，特工K是经手人。
+()<Speaker></Speaker>||<BGM>BGM_Sneak</BGM>:Q returns to her office, where a Stasi agent has been waiting.
+()<Speaker>Special Agent</Speaker>||:Agent Q, all the surveillance footage from the White Zone terrorist incident has been compiled. Our losses have also been tallied.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Q takes the file and flips through it casually.
+NPC-maya(0)<Speaker>Q</Speaker>||:Did you go through all footage during the time J went missing? Any findings?
+NPC-maya(0)<Speaker>Special Agent</Speaker><同时置暗>||:J disappeared alone in the footage. The feed was hacked during that period. We're still trying to restore it, but Tech says chances are slim.+Also missing in that time frame are Frau Marlene from Residence S083 and former Health Minister Vogt's granddaughter, Cornelia Schaeffer."
+NPC-maya(0)<Speaker>Q</Speaker>||:Have you made contact?
+NPC-maya(0)<Speaker>Special Agent</Speaker><同时置暗>||:Frau Marlene could not be reached, while Frau Cornelia Schaeffer claimed that she had made it out without issue.
+NPC-maya(0)<Speaker>Q</Speaker>||:Look into this Cornelia Schaeffer.
+NPC-maya(0)<Speaker>Special Agent</Speaker><同时置暗>||:She was already investigated while in Berlin. Agent K handled it.
 NPC-maya(0)<Speaker>Q</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-maya(2)<Speaker>Q</Speaker>||:行，剩下的事情交给我吧。
-()<Speaker>特工</Speaker>||:是。
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_door_elecport</SE1>:特工敬礼后，退出了办公室。
-()<Speaker></Speaker>||:Q转向一边沙发上的霍夫曼，他从始至终连看都没有看特工一眼。
-NPC-maya(2)<Speaker>Q</Speaker>||:这件事应该正中部长的下怀了。+你可以在这上面大做文章。
-NPC-maya(2);NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>||:不要形容得我像个反派。
-NPC-maya(2)<Speaker>Q</Speaker>;NPC-Hoffmann(0)||:这个意外发生的时机，本身就是很大的筹码。
-NPC-maya(2);NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>||:越是胜利就在眼前，越要冷静。
-NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(0)||:工作可真是像雪片一样，手边的还没做完，又飞来一大堆。+所以，是不是应该排个优先级？
-NPC-maya(0);NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||:这就是我在这里的原因。
-NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(1)||:那么我们现在最紧急的要务是什么呢？
-NPC-maya(0);NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>||:白区恐袭的收尾工作，需要给卫戍团做点文章。+部长的意思，这件事全权交给你来处理。
-NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(0)||:……好吧。+职场最可怕的事情之一，没有需求但全权交给你负责。
-NPC-maya(0);NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||:还有更可怕的。
-NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(1)||:……
-NPC-maya(0);NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||:部长现在有比斯塔西更重要的事来处理。+所以，由你来全权暂代斯塔西的事务管理。+恭喜你了，Q探员。
-NPC-maya(0)<Speaker>Q</Speaker>||:涨工作，又不涨工资，有什么好恭喜的。+等部长什么时候把欠我的饭补上了，再来恭喜我吧。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:Q将咖啡一饮而尽，纸杯扔进了垃圾桶。霍夫曼拍了拍她的肩膀后离开了办公室。
+NPC-maya(2)<Speaker>Q</Speaker>||:Alright, leave the rest to me.
+()<Speaker>Special Agent</Speaker>||:Yes, ma'am.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_door_elecport</SE1>:The agent salutes and exits the office.
+()<Speaker></Speaker>||:Q turns to Hoffman, who hasn't glanced at the agent once.
+NPC-maya(2)<Speaker>Q</Speaker>||:This incident is likely just what the Director needed.+You could make a big play of this.
+NPC-maya(2);NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>||:Don't make me sound like a villain.
+NPC-maya(2)<Speaker>Q</Speaker>;NPC-Hoffmann(0)||:The timing of this accident is a major bargaining chip in itself.
+NPC-maya(2);NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>||:The closer we are to victory, the calmer we must be.
+NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(0)||:Work just keeps piling up like snow. Haven't even finished what's in hand, and more keeps coming in.+So, should we prioritize?
+NPC-maya(0);NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||:That's why I'm here.
+NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(1)||:Then what's our most urgent task?
+NPC-maya(0);NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>||:Wrapping up the White Zone terrorist attack. We need to feed something to the garrison regiment.+The Director says you have free rein to handle it as you see fit.
+NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(0)||:...Alright.+That's one of the scariest things in the workplace—being given full responsibility without any clear instructions.
+NPC-maya(0);NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||:There are scarier things.
+NPC-maya(0)<Speaker>Q</Speaker>;NPC-Hoffmann(1)||:...
+NPC-maya(0);NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||:The Director has more important matters to attend to than the Stasi right now.+So you're to take full temporary charge of Stasi affairs.+Congratulations, Agent Q.
+NPC-maya(0)<Speaker>Q</Speaker>||:More work, same pay—what's there to congratulate?+Save it for when she finally treats me to the lunch that she still owes me.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:Q downs her coffee and tosses the cup into the trash. Hoffman pats her on the shoulder and leaves the office.
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay><BIN>412</BIN>:
-()<Speaker></Speaker>||:……加密会议室。
+()<Speaker></Speaker>||:...Encrypted conference room.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:启动加密通讯链接后，霍夫曼不紧不慢地为自己泡好一杯咖啡。
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:K探员，好久不见，你最近还好吗？
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>活着。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:还是这么简单直接的风格。
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>……你找我什么事？</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:只是例行关心一下你，和乌尔利赫主席的相处还顺利吗？
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>顺利，但也不顺利。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:我希望这不是什么文字游戏。
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>主席有自己的立场，这一点不可动摇。</color>+<color=#00CCFF>但，作为一位想要实现功绩的杰出女性，她也不愿将自己拘于囚笼。</color>
-NPC-Hoffmann(2)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:听起来，她仍在天平的两端摇摆。
-NPC-Hoffmann(2);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>嗯。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:那作为优秀的斯塔西特工，K探员有什么建议吗？
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>主席对罗密女士的印象很好。</color>
-NPC-Hoffmann(2)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:嗯？+我忍不住思考部长亲自色诱的可能性。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Drink_Tea</SE1>:After initiating the encrypted communication link, Hoffmann leisurely brews himself a cup of coffee.
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_connect</SE1>:Agent K, long time no see. How have you been?
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Still alive.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Still as concise and straightforward as ever.
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>...What do you want from me?</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Just checking in on you. How are you getting on with Chairwoman Ulrich?
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>It's both smooth and rough.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:I hope that's not some kind of wordplay.
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>The Chairwoman has her own position—one that's unshakable.</color>+<color=#00CCFF>But as an ambitious and capable woman, she's not willing to be confined to a cage either.</color>
+NPC-Hoffmann(2)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Sounds like she's still swaying between the two sides of the scale.
+NPC-Hoffmann(2);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Mm.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Then as an excellent Stasi agent, do you have any advice, Agent K?
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>The Chairwoman has a good impression of Frau Romy.</color>
+NPC-Hoffmann(2)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Hm?+Now I'm starting to contemplate the possibility of having the Director seduce her in person.
 NPC-Jason(2)<Speaker>K</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>……霍夫曼先生，我们的电话是有录音的。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>||:你继续。
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>罗密女士当年与财政部合作的经历令她赞不绝口。</color>+<color=#00CCFF>并且罕见地提过一些人的背景，包括财政部当年共事过的人，都不是坚定的地方派系。</color>+<color=#00CCFF>用主席的话说——比起党派的利益，他们更在乎国家的利益。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:这句话的意思其实是比起群体的利益，他们更在乎个人的利益。
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>他们之所以看上去摇摆不定，其实主要是因为罗密女士是一位女士。</color>+<color=#00CCFF>如果是一位男性，他们应该很乐意追随。可惜的是……作为一名女士，罗密女士并不善于听取别人的意见。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:乌尔利赫作为同僚确实比我们部长更成功。+但反过来说，他们不会忌惮乌尔利赫，但会忌惮罗密女士。
-NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>毕竟罗密女士是蕾芬斯塔尔将军之女，将她排挤出军队系统，是所有人的共识。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:所以这些人是突破口？
-NPC-Hoffmann(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>主席是这个意思。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:那乌尔利赫主席要的是什么呢？
-NPC-Hoffmann(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>乌尔利赫主席不满足于地方的位置，但是她也不愿意进入中央的代价是明升暗贬。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:……她需要的承诺只有格罗斯书记能给。
-NPC-Hoffmann(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>所以她的另一重暗示就是——询问我们罗密女士的背后，是将军还是书记。</color>+<color=#00CCFF>如果是将军，她可能会维持现在的立场，但如果是书记，那么她的立场会有所松动。</color>
-NPC-Hoffmann(1)<Speaker>费恩·霍夫曼</Speaker>;NPC-Jason(2)||:我明白了。+相关情报我即刻汇报，部长安排的事情，请你继续关注。
-NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>我会留意的。</color>
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>...Herr Hoffmann, our calls are recorded.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>||:Go on.
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Frau Romy's past collaboration with the Ministry of Finance really impressed her.</color>+<color=#00CCFF>She even uncharacteristically brought up the background of certain individuals, including those she had worked with back then—none of them are staunch localists.</color>+<color=#00CCFF>In the Chairwoman's words—they put the interests of the state over any party interests.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Which really means that they care more about personal interests than collective ones.
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>The reason they seem hesitant is mainly because Frau Romy is a woman.</color>+<color=#00CCFF>If she were a man, they'd be very happy to follow. Unfortunately... as a woman, Frau Romy isn't good at taking advice.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Ulrich is certainly more successful than our Director.+But on the flip side, they don't fear Ulrich, while they do fear Frau Romy.
+NPC-Hoffmann(1);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>After all, Frau Romy is the daughter of General Riefenstahl. Barring her from the military has always been a consensus.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:So these people are the weakest link?
+NPC-Hoffmann(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>That's what the Chairwoman thinks.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Then what does Chairwoman Ulrich want?
+NPC-Hoffmann(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>She's unsatisfied with her current local position, but she's also unwilling to pay the price of being "promoted" to the central government.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:...The only one who can give her the promise she needs is General Secretary Groß.
+NPC-Hoffmann(0);NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Which is why her veiled question was—whether Frau Romy is backed by the General or the Secretary.</color>+ <color=#00CCFF>If it's the General, she'll likely maintain her current stance. But if it's the Secretary, then her position may begin to shift.</color>
+NPC-Hoffmann(1)<Speaker>Finn Hoffmann</Speaker>;NPC-Jason(2)||:Understood.+I'll report the relevant intel immediately. As for the task assigned by the Director, please keep at it.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>I will keep my eyes wide open.</color>
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_cave</SE1>:霍夫曼放下通讯，匆忙的脚步声再度响起。
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_cave</SE1>:Hoffmann ends the call, and once again hurried footsteps echo through the corridor.
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><BIN>470</BIN><黑点2><SE1>AVG_20Winter_Door_Open</SE1>:……奈乐的出租屋。
-()<Speaker></Speaker>||:奈乐推门而入，康斯坦斯拎着外卖跟在后面。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:康妮，随便坐。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:哇——你这个房子找得不错啊，面积挺大，感觉够住两三个人了。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:哦……想着做实验可能要进的材料挺多，可以放这里来着……
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>;NPC-Nele(0)||:挺好的~+带我参观参观呗~
-NPC-Constanze(0);NPC-Nele(0)<Speaker>奈乐</Speaker>||:好啊，这里就是客厅，目前没带什么家具。+那边是厨房，刚搬过来几天，冰箱里也是空的……
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>;NPC-Nele(0)||:我下次给你带点新鲜的蔬菜水果！我知道大学附近有家超市经常搞活动。
-NPC-Constanze(0);NPC-Nele(0)<Speaker>奈乐</Speaker>||:那就谢谢你了，康妮。+这边就是我的卧室，书房，还有……储物间。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>;NPC-Nele(0)||:你把储物间锁起来啦？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:嗯……里面东西太乱了……
-()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:窸窣——哐当——+储物间里传来了不妙的响动。
-NPC-Constanze(1)<Speaker>康斯坦斯</Speaker><Shake>||:奈乐，里面好像有老鼠！
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:老鼠……？
-NPC-Constanze(1)<Speaker>康斯坦斯</Speaker>||:法兰克福最近鼠害猖獗，我记得你害怕褐家鼠来着，这动静听上去体型不小……
-NPC-Constanze(1)<Speaker>康斯坦斯</Speaker>||<SE1>ClothingUp</SE1>:别害怕，我来帮你搞定！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:康斯坦斯挽起袖子，奈乐一把抓住了她。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:我……现在已经不怕褐家鼠了，柏林那边也经常能遇见，我习惯了。
-NPC-Constanze(1)<Speaker>康斯坦斯</Speaker>||:真的吗？我记得以前我们俩照顾完小白鼠出来，在宿舍楼外见到一只身长12厘米左右的褐家鼠，你当时吓得脸都白了。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:我已经成长了……
+()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM><BIN>470</BIN><黑点2><SE1>AVG_20Winter_Door_Open</SE1>:......Nele's apartment.
+()<Speaker></Speaker>||:Nele opens the door and steps inside, followed by Constanze carrying some takeout.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Connie, make yourself at home.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:Whoa—this place isn't bad at all. It's pretty spacious, looks like it could fit two or three people.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Yeah... I figured I might need to store a lot of materials for experiments, so I got a place with extra room...
+NPC-Constanze(0)<Speaker>Constanze</Speaker>;NPC-Nele(0)||:Nice~+Give me a little tour~
+NPC-Constanze(0);NPC-Nele(0)<Speaker>Nele</Speaker>||:Sure. This is the living room—haven't got much furniture yet.+Kitchen's over there. I just moved in a few days ago, so the fridge is still empty...
+NPC-Constanze(0)<Speaker>Constanze</Speaker>;NPC-Nele(0)||:I'll bring you some fresh veggies and fruit next time! There's a supermarket near the university that always has great deals.
+NPC-Constanze(0);NPC-Nele(0)<Speaker>Nele</Speaker>||:Thanks, Connie.+And this is my bedroom, study, and... the storage room.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>;NPC-Nele(0)||:You locked the storage room?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Yeah... it's too messy inside...
+()<Speaker></Speaker>||<SE1>AVG_tableware</SE1>:Rustle... Clang!+An ominous noise comes from the storage room.
+NPC-Constanze(1)<Speaker>Constanze</Speaker><Shake>||:Nele, I think there's a rat in there!
+NPC-Nele(2)<Speaker>Nele</Speaker>||:A rat...?
+NPC-Constanze(1)<Speaker>Constanze</Speaker>||:There's been a rat infestation in Frankfurt lately. I remember you're scared of rats—this one sounds big...
+NPC-Constanze(1)<Speaker>Constanze</Speaker>||<SE1>ClothingUp</SE1>:Don't worry, I'll take care of it!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Constanze rolls up her sleeves, but Nele grabs her arm.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:I... I'm not afraid of rats anymore. We used to see them all the time in Berlin—I've gotten used to it.
+NPC-Constanze(1)<Speaker>Constanze</Speaker>||:Really? I remember back when we finished tending to the lab mice, we saw a rat about 12cm long outside the dorm—your face was as white as a sheet.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:I've grown since then...
 ()||<黑点1>:
-()<Speaker></Speaker>||<SE1>Rope</SE1><黑点2>:奈乐拉着康斯坦斯回到客厅。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:你之前不是说，还需要我的证件来完成实验室登记吗？+我直接交给你吧，你有空的时候帮我登记下。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>;NPC-Nele(2)||:行，对了，进出实验楼需要指纹认证，你来的时候记得去录入一下。
-NPC-Constanze(0);NPC-Nele(0)<Speaker>奈乐</Speaker>||:嗯，我记住了。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>;NPC-Nele(0)||:我一会还有课，这饭你趁热吃啊，我得先走了。
-NPC-Constanze(0);NPC-Nele(2)<Speaker>奈乐</Speaker>||:这么着急，你不吃两口再走吗？
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:我吃过了，我就是来看看你，顺便给你见识下美因茨大学附近最好吃的外卖！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:康斯坦斯收拾好奈乐递过来的文件。
-NPC-Constanze(0)<Speaker>康斯坦斯</Speaker>||:对了，奈乐，我还没有问过你，为什么突然想要重启实验了？+还有你说我们的实验方向有调整，现在是什么样了啊？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……这个，之后在实验室详谈吧。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:奈乐有些不自然地别开视线，落在康斯坦斯眼里，几乎是明晃晃的可疑。
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:……你是不是快迟到了？
-NPC-Constanze(1)<Speaker>康斯坦斯</Speaker><Shake>||<震屏3>:完了，还有十五分钟就要上课了！+那我走了！
-NPC-Nele(0)<Speaker>奈乐</Speaker>||:好，路上小心……
+()<Speaker></Speaker>||<SE1>Rope</SE1><黑点2>:Nele pulls Constanze back to the living room.
+NPC-Nele(2)<Speaker>Nele</Speaker>||:Didn't you say you needed my documents to finish registering the lab?+I'll give them to you now, just help me get it done when you have time.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>;NPC-Nele(2)||:Sure. By the way, you need to register your fingerprint for lab access—remember to do that when you drop by.
+NPC-Constanze(0);NPC-Nele(0)<Speaker>Nele</Speaker>||:Got it.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>;NPC-Nele(0)||:I've got class soon—eat while it's still hot, okay? I have to head out.
+NPC-Constanze(0);NPC-Nele(2)<Speaker>Nele</Speaker>||:So soon? Can't you at least take a few bites before you go?
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:I already ate. I just wanted to check on you and show you the best takeout near the University of Mainz!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Constanze gathers the documents Nele hands over.
+NPC-Constanze(0)<Speaker>Constanze</Speaker>||:By the way, Nele, I haven't asked yet—why do you suddenly want to restart the experiment?+And you said our research direction has changed—changed how?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:...Let's talk about that in detail once we're in the lab.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.5</CGDelay>:Nele averts her gaze awkwardly. She looks blatantly suspicious to Constanze.
+NPC-Nele(0)<Speaker>Nele</Speaker>||:...Aren't you going to be late?
+NPC-Constanze(1)<Speaker>Constanze</Speaker><Shake>||<震屏3>:Crap, class is starting in 15 minutes!+Gotta go!
+NPC-Nele(0)<Speaker>Nele</Speaker>||:Alright, be careful on the way...
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:
-()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3><SE1>AVG_Cloak_Whoosh</SE1>:康斯坦斯风一般刮开大门冲了出去。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:奈乐收拾好她带来的外卖，朝着有异响的储物间走去……
+()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3><SE1>AVG_Cloak_Whoosh</SE1>:Constanze bolts out the door like a gust of wind.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:Nele bundles up the takeout and heads toward the storage room where the noise came from...
 ()||<黑屏1><CGDelay>0.5</CGDelay><SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><黑屏2><BIN>129</BIN><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1>:推开门，沉闷的空气凝滞不动，像是在无声的拒绝。+此刻房间内毫无声响，死寂一片。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……J？
-()<Speaker></Speaker>||:原本J应该待在的椅子上，只剩一截断掉的绳索。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:奈乐的心里划过一丝不妙，接着她十分冷静地拨通了米娅的通讯。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:米娅，J不见了。
-APC556(2)<Speaker>米娅</Speaker><Position>0,150</Position><通讯框>||:<color=#00CCFF>我在窗户下面捕获了J探员。</color>+<color=#00CCFF>给我五分钟，立刻送回来。</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1>:She opens the door. The air inside is stagnant and heavy, like a silent refusal.+The room is utterly still and deathly silent.
+NPC-Nele(2)<Speaker>Nele</Speaker>||:...J?
+()<Speaker></Speaker>||:On the chair where J should be sitting lies only a frayed piece of rope.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:A chill runs through Nele. She quickly and calmly gives Mia a call.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:Mia, J is missing.
+APC556(2)<Speaker>Mia</Speaker><Position>0,150</Position><通讯框>||:<color=#00CCFF>I've captured Agent J from beneath the window.</color>+<color=#00CCFF>Give me five minutes—I'll return him immediately.</color>
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><SE1>AVG_20Winter_Chains_Break</SE1>:五分钟后，J探员再次回到了房间，回到了熟悉的座位，只不过这一次的绳子换成了锁链。
-NPC-Nele(1)<Speaker>奈乐</Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM>:……
-NPC-Keven(11)<Speaker>J</Speaker>||<CGDelay>0.5</CGDelay>:……
-APC556(2)<Speaker>米娅</Speaker>||:我去把外卖热一热，你们聊吧。
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_Door_Open_Close</SE1>:米娅走了出去。
-NPC-Keven(7)<Speaker>J</Speaker>||:我想你没有无聊到因为当年我在斯塔西恐吓过你，就用这种方式报复我吧？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(7)<Speaker>J</Speaker>||:是你伙同指挥官，一起绑架了我？
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(7)<Speaker>J</Speaker>||:所以现在是你负责看管我？
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……我不擅长说谎，所以别问我了，我什么都不会回答。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:指挥官……对你使用了什么仪器吗？还是拿米娅威胁你？或者是药物控制？洗脑？
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……你能不能讲讲科学。
-NPC-Keven(7)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:但眼前的事情一点也不科学啊，你绝对是被骗了。
-()<Speaker></Speaker>||:J毫不犹豫地打断了奈乐的解释。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:我没有被骗！我很清楚我在做什么！
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(3)||:你就是被骗了，你这样有着大好前途的研究人员，还是权贵子女，怎么可能跟着一个朝不保夕的PMC指挥官混？
-NPC-Keven(6);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……我有我的理由。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:那告诉我，你的理由是什么？
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……伊登。
-NPC-Keven(12)<Speaker>J</Speaker>;NPC-Nele(3)||:……伊登不是你的错！+那是格雷的错！迦拉提亚的错！+你不要把别人的错怪在你自己身上行不行？
-NPC-Keven(12);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……格雷老师没有错！
+()<Speaker></Speaker>||<BIN>470</BIN><黑屏2><SE1>AVG_20Winter_Chains_Break</SE1>:Five minutes later, Agent J is back in the room and in his familiar seat—only this time, the rope has been replaced with chains.
+NPC-Nele(1)<Speaker>Nele</Speaker>||<BGM>BGM_ev2408_BeeCatcher</BGM>:...
+NPC-Keven(11)<Speaker>J</Speaker>||<CGDelay>0.5</CGDelay>:...
+APC556(2)<Speaker>Mia</Speaker>||:I'll go heat up the food. You two talk.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_Door_Open_Close</SE1>:Mia leaves the room.
+NPC-Keven(7)<Speaker>J</Speaker>||:I hope you didn't go to all this trouble just to get back at me for threatening you back in the Stasi.
+NPC-Nele(1)<Speaker>Nele</Speaker>||:...
+NPC-Keven(7)<Speaker>J</Speaker>||:Did you collude with the Commander to kidnap me?
+NPC-Nele(1)<Speaker>Nele</Speaker>||:...
+NPC-Keven(7)<Speaker>J</Speaker>||:So now you're my prison guard?
+NPC-Keven(7);NPC-Nele(3)<Speaker>Nele</Speaker>||:...I'm not good at lying, so don't ask me—I won't answer any of your questions.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:Did the Commander... use some kind of machine on you? Threaten you with Mia? Drugs? Brainwashing?
+NPC-Keven(7);NPC-Nele(3)<Speaker>Nele</Speaker>||:...Can you please speak scientifically?
+NPC-Keven(7)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:But nothing about this is scientific. You must have been tricked.
+()<Speaker></Speaker>||:J cuts Nele off without hesitation.
+NPC-Nele(3)<Speaker>Nele</Speaker>||<CGDelay>0.5</CGDelay>:I wasn't tricked! I know exactly what I'm doing!
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Nele(3)||:You've got to be tricked. Why else would a researcher with your prospects—your status—be messing around with some doomed PMC commander?
+NPC-Keven(6);NPC-Nele(3)<Speaker>Nele</Speaker>||:...I have my reasons.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:Then tell me—what are your reasons?
+NPC-Keven(7);NPC-Nele(3)<Speaker>Nele</Speaker>||:...Idunn.
+NPC-Keven(12)<Speaker>J</Speaker>;NPC-Nele(3)||:...Idunn wasn't your fault!+That was Gray's fault! Galatea's fault!+Stop blaming yourself for what others did!
+NPC-Keven(12);NPC-Nele(3)<Speaker>Nele</Speaker>||:...Professor Gray wasn't at fault!
 NPC-Keven(9)<Speaker>J</Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Keven(7)<Speaker>J</Speaker>||:……到今天你还在相信那个女人？
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:……你看，当你说出这句话，我就知道我做对了。+我不能让她死后依然背负如此污名！+格雷老师是被人利用的！
-NPC-Keven(12)<Speaker>J</Speaker><Shake>||:……指挥官到底告诉了你什么？？？
-NPC-Keven(12)<Speaker>J</Speaker>||:这家伙怎么可以随便把一个平民卷入这么危险的事情！+我说，指挥官疯了，你不能陪着一起疯！+你好不容易才从那场大火里逃出来……+你为什么还要迈进去？！
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(12)<Speaker>J</Speaker><Shake>;NPC-Nele(1)||<SE1>Rope</SE1>:<size=50>回答我！奈乐！</size>
-NPC-Nele(1)<Speaker>奈乐</Speaker>||<CGDelay>0.7</CGDelay>:
-NPC-Nele(1)<Speaker>奈乐</Speaker>||:我见到了格雷老师的身体……+那不是人类的形态……她早就不是人类了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一滴眼泪落下。+奈乐哭了。+J反而无措起来。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……你知道是不是？+你知道格雷老师早就不是人了……
-NPC-Keven(7)<Speaker>J</Speaker>；NPC-Nele(3)||:……+你根本不知道你在说什么，你也根本不明白你要面对的都是些什么恐怖的东西……
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:我会明白的。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:你别这样，奈乐。+我知道你很悲伤，但别做傻事……
-NPC-Keven(7);NPC-Nele(3)<Speaker>奈乐</Speaker>||:你是我什么人？你凭什么这么说？
-NPC-Keven(12)<Speaker>J</Speaker>;NPC-Nele(3)||:因为我知道失去亲友的痛苦！
-NPC-Keven(12)<Speaker>J</Speaker>||:因为斯塔西也曾经有这样一个傻子！+明明不是他的必要工作，但他就是……就是为了所谓的……+为了那些愚蠢的东西……把自己交到那些怪物手里……
-NPC-Nele(2)<Speaker>奈乐</Speaker>||:……斯塔西不是特工组织吗？
-NPC-Keven(11)<Speaker>J</Speaker>||:……是的，所有人都知道我们是特工，是没有底线没有原则的特工。+但只有那个傻子……还在乎所谓的荣誉……+他还坚持……斯塔西……的责任与使命，也曾经拥有过理想……
-NPC-Keven(11)<Speaker>J</Speaker>||:多可笑，在2064年，他居然在谈论斯塔西的理想……+连斯塔西大部分人自己都不觉得自己有理想……
-NPC-Keven(14)<Speaker>J</Speaker>||:而那个蠢货……
-()<Speaker></Speaker>||:J骂着骂着停顿了下来。
-NPC-Nele(2)<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:……你真的觉得那个人，是一个傻子吗？
-NPC-Keven(6)<Speaker>J</Speaker>||:……这个时代，理想主义者都是短命的傻子。
-()<Speaker></Speaker>||:看着J的眼泪，奈乐似乎也不知道应该做些什么。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:唰。米娅一言不发地将处理好的外卖放在门口，奈乐局促地拎进来。
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:……别人短不短命我不知道。+如果你再继续折腾下去，很快就要没命了。+省点力气吧，我不会让你离开这里的。
-NPC-Keven(6)<Speaker>J</Speaker>||:所以事已至此，先吃饭？
-NPC-Nele(3)<Speaker>奈乐</Speaker>||:想活着，就好好吃饭。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:奈乐搬来一个小桌子放在J面前，帮他打开了外卖。
-()<Speaker></Speaker>||:J看着眼前摊开的糊状食物，忍不住翻了个白眼。
-NPC-Keven(9)<Speaker>J</Speaker>||:……我就说了跟着格里芬没有前途，连外卖都这么难看。+虽然我常骂斯塔西不行，但至少外卖和咖啡还是很不错的！
-NPC-Nele(3)<Speaker>奈乐</Speaker>||<震屏3><SE1>AVG_Punch</SE1>:……这是我的饭！+<size=50>你嫌难吃的话，以后顿顿压缩饼干！</size>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:……
-()||<黑点1>:
+NPC-Keven(7)<Speaker>J</Speaker>||:...You still believe in that woman even now?
+NPC-Keven(7);NPC-Nele(3)<Speaker>Nele</Speaker>||:...The fact that you just said that proves I made the right choice.+I won't let her name be smeared, not even after her death!+Professor Gray was used!
+NPC-Keven(12)<Speaker>J</Speaker><Shake>||:...What exactly did the Commander tell you???
+NPC-Keven(12)<Speaker>J</Speaker>||:How could they drag a civilian into something this dangerous?!+I'm telling you, that Commander has gone rogue—and you can't follow them down that path of insanity!+You barely made it out of that fire alive...+Why are you walking right back into it?!
+NPC-Nele(1)<Speaker>Nele</Speaker>||:...
+NPC-Keven(12)<Speaker>J</Speaker><Shake>;NPC-Nele(1)||<SE1>Rope</SE1>:<size=50>Answer me! Nele!</size>
+NPC-Nele(1)<Speaker>Nele</Speaker>||<CGDelay>0.7</CGDelay>:
+NPC-Nele(1)<Speaker>Nele</Speaker>||:I saw Professor Gray's body...+It wasn't human... She hadn't been human for a long time...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:A tear falls.+Nele starts weeping.+Now J is at a loss for what to do.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:...You knew, didn't you?+You knew Professor Gray had long ceased to be human...
+NPC-Keven(7)<Speaker>J</Speaker>；NPC-Nele(3)||:...+You have no idea what you're talking about. You don't even understand what kind of horrors you're going up against...
+NPC-Keven(7);NPC-Nele(3)<Speaker>Nele</Speaker>||:I will understand.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(3)||:Don't do this, Nele.+I know you're grieving, but don't do anything foolish...
+NPC-Keven(7);NPC-Nele(3)<Speaker>Nele</Speaker>||:And what are you to me? What right do you have to tell me what to do?
+NPC-Keven(12)<Speaker>J</Speaker>;NPC-Nele(3)||:Because I know what it's like to lose someone dear!
+NPC-Keven(12)<Speaker>J</Speaker>||:Because there once was a similar fool in the Stasi!+It wasn't even part of his job, but he still... still gave himself up to those monsters for something stupid...
+NPC-Nele(2)<Speaker>Nele</Speaker>||:...Isn't the Stasi a spy organization?
+NPC-Keven(11)<Speaker>J</Speaker>||:...Yes, everyone knows we're spies with no principles who have sold our souls to the Devil.+But that fool... he still cared about so-called honor...+He still held onto the Stasi's duty and mission—he even had ideals...
+NPC-Keven(11)<Speaker>J</Speaker>||:It's laughable—in 2064, he still dared speak of ideals...+Even most Stasi agents didn't believe they had any ideals...
+NPC-Keven(14)<Speaker>J</Speaker>||:And that idiot...
+()<Speaker></Speaker>||:J trails off mid-rant.
+NPC-Nele(2)<Speaker>Nele</Speaker>||<CGDelay>0.5</CGDelay>:...Do you genuinely think he was a fool?
+NPC-Keven(6)<Speaker>J</Speaker>||:...In this day and age, all idealists are all short-lived fools.
+()<Speaker></Speaker>||:Seeing J's tears, Nele doesn't quite know what to do either.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:Rustle. Mia silently sets the reheated food at the door. Nele brings it inside awkwardly.
+NPC-Nele(3)<Speaker>Nele</Speaker>||:...I don't know about others.+But if you keep this up, you're going to die real soon.+Just save your energy—I'm not letting you leave this place.
+NPC-Keven(6)<Speaker>J</Speaker>||:And since that's the way it is—how about lunch first?
+NPC-Nele(3)<Speaker>Nele</Speaker>||:Yes. If you want to live, eat properly.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Nele brings over a small table and sets it in front of J, then opens the takeout for him.
+()<Speaker></Speaker>||:J looks at the mushy mess in front of him and rolls his eyes.
+NPC-Keven(9)<Speaker>J</Speaker>||:...See, I told you there's no future with Griffin. Even their takeout looks pathetic.+I may gripe about the Stasi, but at least their food and coffee are decent!
+NPC-Nele(3)<Speaker>Nele</Speaker>||<震屏3><SE1>AVG_Punch</SE1>:...That's my food!+<size=50>If you're going to complain, you'll be having hard tack for every meal from now on!</size>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:...
+()||<黑点1>:

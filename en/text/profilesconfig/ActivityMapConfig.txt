@@ -76,6 +76,8 @@ MissionSelectionTex|missionselect_202406Activity|1|-69
 MissionSelectionTex|missionselect_202407Activity|2|-70
 //24.8月 临时
 MissionSelectionTex|missionselect_202408Activity|2|-71
+//24.10月 临时
+MissionSelectionTex|missionselect_202410Activity|2|-72
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -125,6 +127,7 @@ OPSPanelScene|-69|-69
 OPSPanelScene|-67|-67
 OPSPanelScene|-70|-70
 OPSPanelScene|-71|-71
+OPSPanelScene|-72|-72
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -135,6 +138,7 @@ OPSVideoFirst|-68|202404ActivityPV
 OPSVideoFirst|-69|202406ActivityPV
 OPSVideoFirst|-70|202407ActivityPV
 OPSVideoFirst|-71|202408ActivityPV
+OPSVideoFirst|-72|202410ActivityPV
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -152,6 +156,7 @@ OPSReturn|2024Ghost_Return|-64
 OPSReturn|202406Activity_Return|-69
 OPSReturn|202407Activity_Return|-70
 OPSReturn|202408Activity_Return|-71
+OPSReturn|202410Activity_Return|-72
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -203,6 +208,7 @@ OPSLeftBGNormalActivity|-69|202406Activity_Left
 OPSLeftBGNormalActivity|-67|2021Summer_Left
 OPSLeftBGNormalActivity|-70|202407Activity_Left
 OPSLeftBGNormalActivity|-71|202408Activity_Left
+OPSLeftBGNormalActivity|-72|202410Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -246,6 +252,7 @@ OPSNoticeNormalActivity|-68|202404Activity_Notice
 OPSNoticeNormalActivity|-69|202406Activity_Notice
 OPSNoticeNormalActivity|-70|202407Activity_Notice
 OPSNoticeNormalActivity|-71|202408Activity_Notice
+OPSNoticeNormalActivity|-72|202410Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -285,6 +292,7 @@ OPSTimeNormalActivity|-69|202406Activity_Time
 OPSTimeNormalActivity|-67|Reversible_Time
 OPSTimeNormalActivity|-70|202407Activity_Time
 OPSTimeNormalActivity|-71|202406Activity_Time
+OPSTimeNormalActivity|-72|202406Activity_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -392,6 +400,7 @@ OPSProgressNormalActivity|-68|Reversible_Progress
 OPSProgressNormalActivity|-69|202406Activity_Progress
 OPSProgressNormalActivity|-70|202407Activity_Progress
 OPSProgressNormalActivity|-71|202406Activity_Progress
+OPSProgressNormalActivity|-72|202406Activity_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -534,6 +543,7 @@ OPSCampaignTitleButton|-68|true|202404Acticity_Difficulty2Btn
 OPSCampaignTitleButton|-69|true|202406Activity_Difficulty2Btn
 OPSCampaignTitleButton|-70|true|202407Activity_Difficulty2Btn
 OPSCampaignTitleButton|-71|true|202408Activity_Difficulty2Btn
+OPSCampaignTitleButton|-72|true|202410Activity_Difficulty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -2078,4 +2088,39 @@ OPSCampaignDetail|-71_28|0,0|UMP9_2
 OPSCampaignDetail|-71_29|0,0|Nimeylan
 OPSCampaignDetail|-71_30|0,0|M16A1_Boss
 OPSCampaignDetail|-71_31|0,0|Punish
-OPSCampaignDetail|-71_32|0,0|Punish
+OPSCampaignDetail|-71_32|0,0|Punish
+
+
+//24_10月活动
+OPSCampaignDetail|-72_1|0,0|NPC_Constanze
+OPSCampaignDetail|-72_2|0,0|NPC_Maya
+OPSCampaignDetail|-72_3|0,0|Nimeylan
+OPSCampaignDetail|-72_4|0,0|AR18_NPC
+OPSCampaignDetail|-72_5|0,0|Nele
+OPSCampaignDetail|-72_6|0,0|NPC_Romy
+OPSCampaignDetail|-72_7|0,0|SCAR_H
+OPSCampaignDetail|-72_8|0,0|Mrsgray
+OPSCampaignDetail|-72_9|0,0|Sterling
+OPSCampaignDetail|-72_10|0,0|AR18_NPC
+OPSCampaignDetail|-72_11|0,0|AK12_Mod3
+OPSCampaignDetail|-72_12|0,0|Lunasia2
+OPSCampaignDetail|-72_13|0,0|Styx
+OPSCampaignDetail|-72_14|0,0|Mrsgray
+OPSCampaignDetail|-72_15|0,0|NPC_Laplace
+OPSCampaignDetail|-72_16|0,0|Morridow_2
+OPSCampaignDetail|-72_17|0,0|Nele
+OPSCampaignDetail|-72_18|0,0|NPC_Keven
+OPSCampaignDetail|-72_19|0,0|NPC_Carter
+OPSCampaignDetail|-72_20|0,0|Sana_Child
+OPSCampaignDetail|-72_21|0,0|Sana_Child
+OPSCampaignDetail|-72_22|0,0|Sana_Child
+OPSCampaignDetail|-72_23|0,0|Sana_Child
+OPSCampaignDetail|-72_24|0,0|Sana_Child
+OPSCampaignDetail|-72_25|0,0|Punish
+OPSCampaignDetail|-72_26|0,0|AR18_NPC
+OPSCampaignDetail|-72_27|0,0|Mrsgray
+OPSCampaignDetail|-72_28|0,0|AK12_Mod3
+OPSCampaignDetail|-72_29|0,0|Mrsgray
+OPSCampaignDetail|-72_30|0,0|Morridow_2
+OPSCampaignDetail|-72_31|0,0|Punish
+

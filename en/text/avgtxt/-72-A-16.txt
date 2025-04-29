@@ -1,124 +1,124 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><BIN>685</BIN><黑点2><BGM>BGM_23S_Crossroads_Warrior</BGM>:……艾莫号。+沉寂已久的基地车终于迎回了常有的热闹。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:指挥官，我们已经完成了交接，现在对艾莫号进行最后的安全筛查。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>嗯，多加小心。</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-18走到控制端边，对身边的RO635点点头。
-RO635Mod(0)<Speaker>RO635</Speaker>||:不要放松警惕，一切疑似被斯塔西动过的部分都要仔细检查。
-AR15Mod(0)<Speaker>AR-15</Speaker>||:嗯。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><Shake>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:<size=50>我们终于回来了！！！</size>
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:SOP2激动的蹦跳声打破了大家的沉静克制。+看着SOP2跑远的背影，RO635只能无奈地示意AR-15也跟上。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:留在指挥室的AR-18启动了艾莫号的控制系统，开始检索这些日子在系统中留存的浏览和破解痕迹。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:指挥官，斯塔西对艾莫号的系统尝试了破解，但没有完全成功。+除了艾莫号行驶日志、检修记录、物资储备这些后勤相关数据，其他的机密情报都没有泄露风险。
-AR18(2)<Speaker>指挥官</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>好，之前留在艾莫号修理的人形呢？</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:稍等，这部分需要联络一下RO。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:RO，你们到维修间了吗？
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>嗯，我们走的时候对维修槽进行了系统强制封锁，同样有尝试破解的痕迹，但没有成功。</color>+<color=#00CCFF>之后斯塔西似乎对整个维修间断电，不久前刚刚恢复供电。</color>
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>这些斯塔西太可恶了！占了别人的基地车，还手脚不干净到处乱翻！</color>
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:人形们有受到损害吗？
-AR15Mod(0)<Speaker>AR-15</Speaker><通讯框>||:<color=#00CCFF>没有，只是被暂停了维修进程，现在已经全部复原了。</color>+<color=#00CCFF>另外，这里堆放了一批人形通用部件的物资，我猜是斯塔西留下的……</color>
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>别以为这样就会原谅他们！物资都有些什么，我先检查看看！</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>人形没事就好，加快她们的修复进程。</color>
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>是。</color>+<color=#00CCFF>那我们继续推进对艾莫号的修复和排查。</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:嗯，注意留意下有没有斯塔西留下的耳朵。
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><BIN>685</BIN><黑点2><BGM>BGM_23S_Crossroads_Warrior</BGM>:...On board the Elmo.+The long-silent mobile base vehicle is finally filled with its usual bustle once more.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:Commander, we have completed the handover and are now conducting the final security checks on the Elmo.
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>Right, be extra careful.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:AR-18 walks over to the control terminal and nods at RO635, who is next to her.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Don't let down your guard. Inspect everything that the Stasi might have touched thoroughly.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Got it.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker><Shake>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:<size=50>We're finally back!!!</size>
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:SOP-II's elated shriek interrupts the group's quiet restraint.+Watching her run off into the distance, RO635 can only gesture helplessly for ST AR-15 to follow her.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Back in the command room, AR-18 activates the Elmo's control system, and begins a search through the logs of recent activity such as browsing history and hacking attempts.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Commander, the Stasi tried to breach the Elmo's systems, but they didn't fully succeed.+Aside from logistical data like the driving logs, maintenance records, and supply inventory, no classified intel was compromised.
+AR18(2)<Speaker>Commander</Speaker><Position>0,100</Position><同时置暗>||:<color=#00CCFF>Good. What about the Dolls that were left on board for repairs?</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:One moment please. I'll need to contact RO about this.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:RO, have your reached the repair bay?
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>Yes. We had locked down the repair bay with a system override before we left. There were traces of attempted tampering here too, but they failed.</color>+<color=#00CCFF>It looks like the Stasi then cut power to the entire maintenance area—it only just got restored.</color>
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>Ugh! Those Stasi agents are the worst! Not only did they seize someone else's MBV by force, they even rifled through everything like a bunch of thieves!</color>
+AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Were the Dolls harmed?
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>No, they just had their repairs paused. Repairs have now resumed.</color>+<color=#00CCFF>Also, there's a batch of general-purpose Doll parts sitting here—probably left behind by the Stasi...</color>
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><通讯框>||:<color=#00CCFF>Don't think that makes up for anything! Let me check what's in that stash first!</color>
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>It's fine as long as the Dolls are okay. Speed up their repair process.</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>Yes, Commander.</color>+<color=#00CCFF>We'll continue with the Elmo's repairs and diagnostics.</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Yeah—and keep an eye out. The Stasi may have planted some bugs.
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:AR-18继续重启所有休眠的系统，艾莫号的灯光、通风、水电等系统很快都恢复了正常运转。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:直到看见一个早就应该醒来，却还闭眼装睡的人形。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:系统提示，是否需要再次启动高压电能唤醒程序？
-ColtWalker(2)<Speaker>柯尔特沃克</Speaker><GradientShow>2</GradientShow>||<SE1>ClothingUp</SE1>:……哎呀，到我表演的环节了？
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我把你唤醒，不是让你在这看戏的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:显然刚从一段悠长舒适的睡眠中醒来，柯尔特沃克伸着懒腰走来。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我需要你来负责信号支援组的工作，重启埃涅阿斯会议室。
-ColtWalker(3)<Speaker>柯尔特沃克</Speaker>;AR18(2)<Position>0,100</Position>||:啧，一上来就是这么高难度的节目。
-ColtWalker(3);AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:我会来协助你一起维持埃涅阿斯会议室的运行。+接下来的所有通讯联络都将通过埃涅阿斯会议室，你明白吗？
-ColtWalker(1)<Speaker>柯尔特沃克</Speaker>||:知道了，格里芬的饭真是一口不让白吃啊。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:嘴上嘟嘟囔囔着，柯尔特沃克还是开始了重启会议室频道的工作。
-()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:所有系统都顺利启动后，AR-18打开了艾莫号的行驶操作面板。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_door_storehouse</SE1>:在隐藏讯号和行驶轨迹后，艾莫号朝着清晨的迷雾中而去……
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:AR-18 continues rebooting all dormant systems. Soon, the Elmo's lights, ventilation, water, and power are all functioning normally again.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:That is, until she notices a Doll who should've woken up long ago still lying there, eyes closed, pretending to be asleep.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:System prompt—Initiate high-voltage wake-up protocol again?
+ColtWalker(2)<Speaker>Colt Walker</Speaker><GradientShow>2</GradientShow>||<SE1>ClothingUp</SE1>:...Oh my, is it showtime for me?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:I didn't wake you up just to have you sit there and watch.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Clearly having just come out of a long, comfortable sleep, Colt Walker stretches and strolls over lazily.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:I need you to take charge of the Signal Support Team and reboot the Aeneas Conference Room.
+ColtWalker(3)<Speaker>Colt Walker</Speaker>;AR18(2)<Position>0,100</Position>||:Tsk, jumping straight into the deep end, huh?
+ColtWalker(3);AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:I'll assist you in maintaining the Aeneas Conference Room.+From now on, all communications will go through it. Do you understand?
+ColtWalker(1)<Speaker>Colt Walker</Speaker>||:Yeah, yeah... Griffin's meals really don't come for free, huh.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Colt Walker grumbles under her breath, but she still starts working on rebooting the conference room channel.
+()<Speaker></Speaker>||<SE1>AVG_NightVision_Start</SE1>:Once all systems are up and running smoothly, AR-18 opens the Elmo's navigation control panel.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_door_storehouse</SE1>:After masking its signal and travel route, the Elmo quietly disappears into the morning fog...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>685</BIN><黑屏2>:一段时间后。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:指挥官，我们抵达目标地点了。+确认甩掉了所有追踪讯号。
-RO635Mod(0)<Speaker>RO635</Speaker>||:艾莫号的排查工作也完成了，斯塔西没有留多余的手脚。
-RO635Mod(0)<Speaker>指挥官</Speaker><同时置暗>||:<color=#00CCFF>收到，我在紧急出口这里。</color>
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:AR-18打开了指挥官附近的通道入口。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:几分钟后，熟悉的脚步声出现在了指挥室。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:我回来了。
-AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:指挥官，所有准备工作都完成了，要现在开始会议吗？
-()<Speaker>指挥官</Speaker>||<BGM>BGM_Empty</BGM>:等一下。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:指挥官走向咖啡机，迫不及待给自己来上一杯艾莫号特供咖啡。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:捧着咖啡坐回老位置，指挥官面前的战术指挥端自动面部解锁。
-()<Speaker>指挥官</Speaker>||:现在，才有了回到艾莫号的实感……
-ColtWalker(1)<Speaker>柯尔特沃克</Speaker>||:埃涅阿斯会议室已经重启了，等你准备好了随时可以开始。
-ColtWalker(1)<Speaker>指挥官</Speaker><同时置暗>||:嗯。
-ColtWalker(1)<Speaker>柯尔特沃克</Speaker>||:我对会议室进行了一些规模扩建，现在你可以用会议室对所有格里芬人形梯队下指令了。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:好，现在开始吧。
+()<Speaker></Speaker>||<BIN>685</BIN><黑屏2>:Some time later.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||<SE1>AVG_tele_connect</SE1>:Commander, we have reached our target destination.+I can confirm that all tracking signals have been lost.
+RO635Mod(0)<Speaker>RO635</Speaker>||:The diagnostics on the Elmo are also completed. The Stasi hasn't left anything else behind.
+RO635Mod(0)<Speaker>Commander</Speaker><同时置暗>||:<color=#00CCFF>Copy that. I'm at the emergency exit.</color>
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:AR-18 opens the door to the passage near the Commander.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:A few minutes later, a set of familiar footsteps echo through the ops room.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:I'm back.
+AR18(5)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Commander, everything is in place. Shall we begin the conference now?
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM>:One sec.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:The Commander walks over to the coffee machine and eagerly pours themself an Elmo's Special Brew.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:Returning to their usual seat with the coffee in hand, the Commander unlocks the tactical command terminal via its automatic facial recognition feature.
+()<Speaker>Commander</Speaker>||:There. Now it really feels like I'm back on the Elmo...
+ColtWalker(1)<Speaker>Colt Walker</Speaker>||:The Aeneas Conference Room has been rebooted and is ready whenever you are.
+ColtWalker(1)<Speaker>Commander</Speaker><同时置暗>||:Right.
+ColtWalker(1)<Speaker>Colt Walker</Speaker>||:I performed some upgrades to the conference room. You can now issue commands to all Griffin Dolls through the channel.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:Great. Then let's begin.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_ev2410_LaNuit</BGM><黑屏2><BIN>768</BIN>:赫柏的度假别墅内。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:赫柏拉开了酒柜，纤长的食指划过一瓶瓶珍藏多日的酒。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:你还是爱喝罗曼尼•康帝吗？
-()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>ClothingUp</SE1>:惬意地躺在柔软的真皮沙发上，斯提克斯翻了个身。
-NPC-Styx(1)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:嗯哼，给我来一杯。+也就你这里的最香醇了。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:你平常喝的，怕是比这里的名贵得多。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:赫柏取出两支酒杯和一瓶红酒，斟上鲜红的液体，端到斯提克斯的唇边。
-NPC-Styx(1)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:姐姐这是哪里的话。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>;NPC-Styx(1)<Position>0,-50</Position>||:早就对潘多拉组织的奢华程度有所耳闻。+听说，博纳多集团为了你的宣传出访活动，特意定制了一艘仿古帆船。
-NPC-Hebe(3);NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:明面上是为了我，实际上还不是把集团的LOGO印得铺天盖地，恨不得让我顺便宣传他们的新系列了。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>||:不管哪里都一样，就算喊着相同的口号，追求的也是各自的利益。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers</SE1>:叮铃。两支高脚杯的碰撞发出悦耳的一声。
-NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:是啊，我们上一次分别时，还在为能不能搞定而感到担忧。+没想到不管是德国高层还是潘多拉，甚至不如帕拉蒂斯的组织力和行动力。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:上一次分别……没想到已经是几年前的事了。+我们从阿佛那斯出来，竟是再也没见过面。
-NPC-Hebe(0);NPC-Styx(2)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:那个时候接受帕拉蒂斯神圣洗礼的，也就剩你我了。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:今日的帕拉蒂斯和那时已经不可比了。
-()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:斯提克斯给两人的酒杯重新斟上酒。
-NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:不知道姐姐对现在的帕拉蒂斯有什么高见。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:高见说不上，只是觉得现在从帕拉蒂斯出来的东西……都不怎么能派上用场。
-NPC-Hebe(3);NPC-Styx(3)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:尼梅兰很是头疼的样子。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:那是她的责任，既然拥有这样的权限，总不能什么苦都不担吧？+不过我很好奇她接下来的打算。
-NPC-Hebe(0);NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:那你呢，姐姐，你有什么打算呢？
-NPC-Hebe(0)<Speaker>赫柏</Speaker>||:当然是老样子。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:两人静静地品着杯中香气馥郁的酒液。
-NPC-Styx(2)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:要收网了。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>;NPC-Styx(2)<Position>0,-50</Position>||:我知道，加冕风暴。
-NPC-Hebe(3);NPC-Styx(0)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:你想好后续的庆功宴了吗？
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:……怎么，要现在开始买彩票？
-NPC-Hebe(0);NPC-Styx(3)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:我想，名额是有限的。
-NPC-Hebe(0)<Speaker>赫柏</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:所以你想要在最后关头捞个军功？
-NPC-Hebe(0);NPC-Styx(3)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:哎，还不到我出手的时候呢。
-NPC-Styx(1)<Speaker>斯提克斯</Speaker><Position>0,-50</Position>||:希望行程慢一点，可别等我们换上最隆重的礼服，还没登场，一切就都结束了。
-NPC-Hebe(3)<Speaker>赫柏</Speaker>||:……我倒是对这具身体有些厌烦了，希望快点有个结果，最好我什么都不用做了。
+()<Speaker></Speaker>||<BGM>BGM_ev2410_LaNuit</BGM><黑屏2><BIN>768</BIN>:In Hebe's villa.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:Hebe opens her wine cabinet. Her long and slender index finger brushes over bottles of carefully curated vintage wine.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>||:Still a fan of Romanée-Conti?
+()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>ClothingUp</SE1>:Lounging comfortably on a soft leather sofa, Styx rolls over lazily.
+NPC-Styx(1)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Mhm, pour me a glass.+Yours is always the richest.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>||:What you usually drink is probably far more luxurious than anything I have here.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:Hebe takes out two wine glasses and a bottle of red, pours the crimson liquid, and brings it up to Styx's lips.
+NPC-Styx(1)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Come now, Sister. Don't say that.
+NPC-Hebe(3)<Speaker>Hebe</Speaker>;NPC-Styx(1)<Position>0,-50</Position>||:I've heard all about how extravagant Pandora can be.+They say Bénéteau even had a vintage-style sailing ship custom-built for one of your promotional tours.
+NPC-Hebe(3);NPC-Styx(0)<Speaker>Styx</Speaker><Position>0,-50</Position>||:They say it was for me, but really, it was just a floating billboard—they plastered their logo everywhere, hoping I'd promote their new product line on the side.
+NPC-Hebe(3)<Speaker>Hebe</Speaker>||:Doesn't matter where you are—everyone's chasing their own interests, even if they wave the same banners.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Cheers</SE1>:The two wine glasses meet with a pleasant clink.
+NPC-Styx(0)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Indeed... Last time we parted ways, we were still worrying whether we could pull it off.+Who'd have thought—Neither the German brass nor Pandora can match Paradeus in coordination and execution.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:Last time we parted... It's hard to believe that it's already been years.+We've never seen each other again since we left Avernus.
+NPC-Hebe(0);NPC-Styx(2)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Back then, only the two of us made it through the Baptism.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>||:The Paradeus today is nothing like what it used to be.
+()<Speaker></Speaker>||<SE1>AVG_va_addingredient</SE1>:Styx refills both of their glasses.
+NPC-Styx(0)<Speaker>Styx</Speaker><Position>0,-50</Position>||:So, Sister, what insight could you provide into the current Paradeus?
+NPC-Hebe(3)<Speaker>Hebe</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:Wouldn't call it insight, but... it feels like nothing coming out of Paradeus these days is of any real use.
+NPC-Hebe(3);NPC-Styx(3)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Nemhran seems rather troubled by that.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:Hey, she's responsible for the problem. With that kind of authority, she can't expect to avoid the accountability.+But I am curious what she plans to do next.
+NPC-Hebe(0);NPC-Styx(0)<Speaker>Styx</Speaker><Position>0,-50</Position>||:And what about you, Sister? What's your plan?
+NPC-Hebe(0)<Speaker>Hebe</Speaker>||:Same as always.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:The two quietly sip the lush, aromatic wine.
+NPC-Styx(2)<Speaker>Styx</Speaker><Position>0,-50</Position>||:It's almost time to close the net.
+NPC-Hebe(3)<Speaker>Hebe</Speaker>;NPC-Styx(2)<Position>0,-50</Position>||:I know. The Coronation Storm.
+NPC-Hebe(3);NPC-Styx(0)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Have you thought about the celebration afterward?
+NPC-Hebe(0)<Speaker>Hebe</Speaker>;NPC-Styx(0)<Position>0,-50</Position>||:...What, planning to buy a lottery ticket this early?
+NPC-Hebe(0);NPC-Styx(3)<Speaker>Styx</Speaker><Position>0,-50</Position>||:I just think the spots are limited.
+NPC-Hebe(0)<Speaker>Hebe</Speaker>;NPC-Styx(3)<Position>0,-50</Position>||:So you're hoping to get some credit at the last second?
+NPC-Hebe(0);NPC-Styx(3)<Speaker>Styx</Speaker><Position>0,-50</Position>||:Ah, but it's not my time to act just yet.
+NPC-Styx(1)<Speaker>Styx</Speaker><Position>0,-50</Position>||:In fact, I hope things don't move too fast—I'd hate for it all to be over before we even get to show up in our finest.
+NPC-Hebe(3)<Speaker>Hebe</Speaker>||:...Honestly, I'm getting tired of this body. I just want it all to be over. Preferably without me having to lift a finger.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>72</BIN><SE1>AVG_Shield_Startup</SE1>:……埃涅阿斯会议室启动。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:指挥官将权限下放给了所有参与行动的人形。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>各位，欢迎来到埃涅阿斯会议室，接下来的所有行动指令和情报汇总我都将在这里发布。</color>
-()<Speaker></Speaker>||:指挥官示意AR-18将法兰克福的地图投放在会议室中。+上面闪动的几枚红点表示目前还留在法兰克福市区的人形小队。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>目前，留在法兰克福市区内的小队还有404和忤逆，AR小队会在之后过去支援你们。</color>+<color=#00CCFF>为了应付城区内的搜查和涅托的袭击，留在市区内的小队记得每24小时就更换一次安全屋。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>放心吧，这可是404最擅长的领域。</color>
-UMP9Mod(3)<Speaker>UMP9</Speaker><通讯框>||:<color=#00CCFF>我们还给其他小队准备好了备用地点！</color>
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>好，辛苦你们了，一定要多加小心。</color>
-G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>……指挥官。</color>+<color=#00CCFF>416怎么样了？</color>
-G11Mod(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:<color=#00CCFF>416已经送入了维修槽，她的情况比较复杂，艾莫号内目前无法完成修复。</color>+<color=#00CCFF>不过别担心，受损数据已经发送给帕斯卡和德尔，评估下来还是比较乐观的。</color>
-G11Mod(0)<Speaker>G11</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:
-G11Mod(0)<Speaker>G11</Speaker><通讯框>||:<color=#00CCFF>……嗯！</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>我们复盘了416遭袭的那场电子战，敌人似乎早有准备，冗余数据多到不可思议的程度。我尝试了各种解析工具，只能说工作量多到能直接把我送进人形古董博物馆。</color>+<color=#00CCFF>对方可能采用的是一套我从未见过的数据编译结构，她的基本信息和战斗方式还难以探知。</color>
-UMP45Mod(0)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:<color=#00CCFF>……她能在不引起我方的注意下击毁416，是极其危险的人物。</color>+<color=#00CCFF>现在对她知道的太少，你不要轻举妄动。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>我明白。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>这个新出现的涅托，我也会去从其他渠道找找看情报。</color>
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>指挥官，忤逆和404同时仍在保持对蜂针系统的实时监控。</color>+<color=#00CCFF>帕拉蒂斯最近更换动态密钥的频率显著上升，密钥的安全等级也提高了。</color>
-NPC-AK12Mod(11)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:<color=#00CCFF>茧计划有什么新发现吗？</color>
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>关于茧计划，帕拉蒂斯位于法兰克福所有工厂的产能均已拉到最高。</color>+<color=#00CCFF>这前所未有，就像是它们突然不在意被发现了，放弃所有掩饰只为了完成伊阿索之匣。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>……它们在加快茧计划的进程。</color>
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>我们不能让它们完成生产……</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>嗯，找出它们的生产线，想办法捣毁。</color>
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>目前我们可以确定的，是其中一条生产线正在埃施博恩区的布伦塔诺公园附近。</color>
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>AR-18，给我它的全部资料。</color>
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>是。</color>
+()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑屏2><BIN>72</BIN><SE1>AVG_Shield_Startup</SE1>:...Aeneas Conference Room—activated.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:The Commander delegates access permissions to all Dolls participating in the operation.
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>Welcome to the Aeneas Conference Room, everyone. From this point forward, all mission orders and intelligence updates will be issued here.</color>
+()<Speaker></Speaker>||:The Commander gestures for AR-18 to project a map of Frankfurt into the room.+Several flashing red dots mark the locations of Doll teams still operating within the city.
+()<Speaker>Commander</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Currently, Squad 404 and Task Force DEFY are still in the urban area of Frankfurt. The AR Team will head over to assist you shortly.</color>+<color=#00CCFF>To counter sweeps and attacks from the Nytos, all teams remaining in the city must change safe houses every 24 hours.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>Don't worry—this is 404's specialty.</color>
+UMP9Mod(3)<Speaker>UMP9</Speaker><通讯框>||:<color=#00CCFF>We've also prepared backup locations for the other teams!</color>
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>Great work. Please stay safe out there.</color>
+G11Mod(0)<Speaker>Gr G11</Speaker><通讯框>||:<color=#00CCFF>...Commander.</color>+<color=#00CCFF>How's 416 doing?</color>
+G11Mod(0)<Speaker>Commander</Speaker><通讯框><同时置暗>||:<color=#00CCFF>416 has been placed in a repair tank. Her situation is complicated, and repairs can't be completed onboard the Elmo.</color>+<color=#00CCFF>But don't worry—her damaged data have already been sent to Persica and Dier. Their initial assessment is cautiously optimistic.</color>
+G11Mod(0)<Speaker>Gr G11</Speaker><通讯框>||<CGDelay>0.5</CGDelay>:
+G11Mod(0)<Speaker>Gr G11</Speaker><通讯框>||:<color=#00CCFF>...Okay!</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>We reviewed the electronic warfare attack that took down 416. The enemy was clearly prepared—the amount of redundant data was overwhelming. I tried every decryption tool available... Honestly, the workload alone could get me archived in a Doll Antique Museum.</color>+<color=#00CCFF>The opponent appears to have used a data compilation structure I've never seen before. We still can't determine her basic profile or combat style.</color>
+UMP45Mod(0)<Speaker>Commander</Speaker><同时置暗><通讯框>||:<color=#00CCFF>The fact that she was able to take out 416 without alerting us makes her extremely dangerous.</color>+<color=#00CCFF>We know far too little about her right now. Don't act rashly.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>Understood.</color>
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>I'll also try to dig up intel on this new Nyto from other sources.</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Commander, both DEFY and 404 are continuing real-time monitoring of the Bee Sting System.</color>+<color=#00CCFF>Paradeus has significantly increased the frequency of dynamic key changes, and the security level of those keys has also gone up.</color>
+NPC-AK12Mod(11)<Speaker>Commander</Speaker><同时置暗><通讯框>||:<color=#00CCFF>Any new discoveries concerning Project Cocoon?</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>On that subject, all Paradeus factories in Frankfurt have ramped up to full production capacity.</color>+<color=#00CCFF>This is unprecedented—it's like they no longer care about staying hidden, discarding all attempts at concealment just to manufacture Iaso's Boxes.</color>
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>...They're accelerating Project Cocoon's timeline.</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>We can't let them complete the shipment...</color>
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>Right. Locate their production lines and find a way to destroy them.</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>We've confirmed that one of the production lines is near Brentanopark in the Eschborn District.</color>
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>AR-18, give me everything we have on that site.</color>
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>Yes, Commander.</color>
 ()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1><CGDelay>0.5</CGDelay>:
-NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>忤逆随时可以行动。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>404已就位。</color>
+NPC-AK12Mod(11)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>DEFY is ready to move at any time.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker><通讯框>||:<color=#00CCFF>404 is in position.</color>
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()||<黑点1>:
+()||<黑点1>:
