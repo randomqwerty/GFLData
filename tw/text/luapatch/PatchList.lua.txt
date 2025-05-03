@@ -457,6 +457,7 @@ patch3060=
 }
 patch3070=
 {
+"3070/MissionSkillData",	
 }
 -- va11
 print("load Va11");
