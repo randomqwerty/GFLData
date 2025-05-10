@@ -454,9 +454,11 @@ patch3060=
 "3060/CommonClothesColorLabelController",
 "3050/DeploymentTeamInfoController",
 "3060/QRCodeGunFormationController",
+"3060/ReinforcementController",	
 }
 patch3070=
 {
+"3070/MissionSkillData",	
 }
 -- va11
 print("load Va11");
