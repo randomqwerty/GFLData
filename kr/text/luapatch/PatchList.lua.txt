@@ -458,7 +458,19 @@ patch3060=
 }
 patch3070=
 {
-"3070/MissionSkillData",	
+"3070/MissionSkillData",
+"3070/CommonBundleConfirmBoxController",
+"3070/SangvisGunStateController",
+"3070/MallController",
+"3070/FriendAddFriendController",
+"3070/FriendListLabelController",
+"3070/PresentWindowController",
+"3070/GuideManagerController",
+"3070/CommonGuideController",
+"3070/OPSPanelController",
+"3070/HomeController",
+"3070/MissionSkipController",
+"3070/DormVisitorItem",	
 }
 -- va11
 print("load Va11");

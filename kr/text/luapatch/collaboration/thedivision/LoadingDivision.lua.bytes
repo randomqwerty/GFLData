@@ -83,7 +83,10 @@ end
 
 OnDestroy = function()
 	if CS.CommonVideoPlayer.Instance ~= nil and not CS.CommonVideoPlayer.Instance:isNull() then
-		CS.CommonController.Invoke(DestroyVideo, leastVideoTime - CS.UnityEngine.Time.time + startTime, CS.CommonVideoPlayer.Instance);
+		CS.NDebug.Log("判断当前Video",CS.CommonVideoPlayer.Instance.transform.parent);
+		if CS.CommonVideoPlayer.Instance.transform.parent == nil then
+			CS.CommonController.Invoke(DestroyVideo, leastVideoTime - CS.UnityEngine.Time.time + startTime, CS.CommonVideoPlayer.Instance);
+		end
 	else
 		if CS.OPSConfig.CheckVideo ~= nil then
 			CS.OPSConfig.CheckVideo = false;
