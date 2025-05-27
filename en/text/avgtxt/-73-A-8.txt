@@ -1,165 +1,165 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1><CGDelay>0.5</CGDelay><BIN>797</BIN><黑屏2>:
-()<Speaker></Speaker>||:货船平稳地行驶在这条连接马尔洛斯与矿区的运河上，平缓的水流和皎洁的月色，昭示着这是一个不错的好天气。
-()<Speaker></Speaker>||:卡萝留在货舱守着箱子，米蒂尔去探查船舱地形，指挥官一个人来到了甲板上。
-()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM>:船楼、桅桁、救生船……指挥官仔细探查着甲板的地形。
-NPC-M16_AB(0)<Speaker>？？？</Speaker><GradientShow>2</GradientShow>||:你的踩点会不会太直白了些？
-()<Speaker></Speaker>||:围栏边倚靠着一个身穿西服的少女，姿态放松，与暗区紧绷的氛围格格不入。
-()<Speaker></Speaker>||:指挥官假装没有听到，似乎是被船头水面上的粼粼月色吸引了，余光悄悄打量着少女藏在身后的右手，观察是否有藏着武器的可能。
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:除了我们，这里还有其他人吗？
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你是在喊我？抱歉，我以为自己听错了。
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:你的演技真是一如既往的拙劣。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:一如既往？……我们以前认识吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官假装放松地靠在了旁边的围栏上，小心地和少女保持了一米的距离，中间隔着粗壮的船墩，像是有备无患的掩体。
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:……这是我第一次在暗区见到你。
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:听上去你还在其他地方见过我？
-NPC-M16_AB(0)<Speaker>？？？</Speaker>||:没，不用在意。你是谁？
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:这个问题是不是有些冒昧了？我以为这条船上的乘客都应该心知肚明，不要打探彼此的身份。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:在指挥官紧张的注视下，神秘少女从身后伸出了藏着的右手。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:认识一下，白烨戈。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:一个……特遣队员。
-()<Speaker>指挥官</Speaker>||:……你还真是不按常理出牌。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:把手在裤子上擦了擦，指挥官准备与突然出现的神秘少女握手，对方却突然把手缩了回去。
-()<Speaker>指挥官</Speaker>||:？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<BGM>BGM_Empty</BGM>:有人。
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:指挥官顺着少女的目光望去，运河两岸原本黑沉沉的树林深处，似乎亮起了隐约的车灯。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:我不想浪费时间，船上有些不该在这里的东西。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面上不动声色，指挥官下意识地双手环抱在胸前，矢口否认。 
-()<Speaker>指挥官</Speaker>||:你说什么？我听不懂——
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:“咣——”
-()<Speaker>指挥官</Speaker>||:！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>GF_21summer_battle_3</BGM>:一个衣衫褴褛的男子光着脚，踉跄地从船舱中冲了出来，去势太快，猛地撞上了甲板上堆积的杂物。
-()<Speaker>船长</Speaker>||:把他给我抓回来！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:伴随着船长愤怒的咆哮，三五个船员跟着追了上来，很快便锁定了目标。
-()<Speaker>指挥官</Speaker>||:……这是？
-NPC-PasserbyM(0)<Speaker>男人</Speaker><Shake>||<SE1>AVG_Punch</SE1><震屏3>:让让！
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:逃跑的男人直接朝最近的栏杆扑来，一个翻身爬了上去，作势就要往河里跳。
-()<Speaker>指挥官</Speaker>||:欸！危险！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:就在近旁，指挥官一把抱住了男人把他往后拉，但对方依旧不管不顾地想要跳下船去。
-()<Speaker></Speaker>||:白烨戈双手抱臂站在一旁，静静地看着眼前的这出闹剧。
-()<Speaker>指挥官</Speaker>||:夜里跳河，不要命了吗！
-()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:跳河的男人被指挥官拦住，几个船员趁机追上，四手八脚地把男人按在了地上。
-NPC-PasserbyM(0)<Speaker>男人</Speaker><Shake>||:放开我！放开！
+()<Speaker></Speaker>||:The freighter glides steadily along the canal linking Marulos to the mines. The gentle current and clear moonlight suggest a rare stretch of good weather.
+()<Speaker></Speaker>||:Kuro stays in the cargo hold, watching over the box. Mityl goes off to scout the boat's layout, leaving the Commander alone on the deck.
+()<Speaker></Speaker>||<BGM>BGM_Hume_FourAdventures</BGM>:Bridge, masts, lifeboats... The Commander carefully surveys the deck, taking mental notes.
+NPC-M16_AB(0)<Speaker>???</Speaker><GradientShow>2</GradientShow>||:Your recon is a little too obvious, don't you think?
+()<Speaker></Speaker>||:Leaning casually against the railing is a girl in a suit, her posture relaxed... and completely at odds with the tense atmosphere of the Dark Zone.
+()<Speaker></Speaker>||:The Commander pretends not to hear, appearing captivated by the shimmering moonlight over the water at the bow. But their peripheral vision is locked on the girl's right hand, which is hidden behind her back, as they check for any sign of a weapon.
+NPC-M16_AB(0)<Speaker>???</Speaker>||:Is there someone else on board besides us?
+NPC-M16_AB(0)<Speaker>Commander</Speaker><同时置暗>||:You talking to me? Sorry, I thought I misheard.
+NPC-M16_AB(0)<Speaker>???</Speaker>||:Your acting is as terrible as always.
+NPC-M16_AB(0)<Speaker>Commander</Speaker><同时置暗>||:As always...? Have we met before?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Feigning nonchalance, the Commander leans against the railing nearby, careful to keep a meter between them, with a thick bollard conveniently positioned as cover, just in case.
+NPC-M16_AB(0)<Speaker>???</Speaker>||:...This is the first time I've seen you in the Dark Zone.
+NPC-M16_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Sounds like you've seen me somewhere else?
+NPC-M16_AB(0)<Speaker>???</Speaker>||:No. Forget it. Who are you?
+NPC-M16_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Isn't that a bit of forward of you? I thought passengers on this kind of trip were not supposed to ask such personal questions.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Under the Commander's watchful gaze, the mysterious girl finally brings out her hidden right hand.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Name's Beluga.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:A... special operative.
+()<Speaker>Commander</Speaker>||:...You really don't follow any rules, do you?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander wipes their hand on their pants, preparing to shake—but Beluga suddenly pulls hers back.
+()<Speaker>Commander</Speaker>||:...?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||<BGM>BGM_Empty</BGM>:We've got company.
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1>:The Commander follows her gaze. In the pitch-black forest on either bank of the canal, faint headlights flicker between the trees.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:I've got no time to waste. There's something on this boat that shouldn't be here.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Feigning confusion, the Commander crosses their arms and denies it flatly.
+()<Speaker>Commander</Speaker>||:I don't know what you're talking about—
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Door_Hit</SE1>:Clang!
+()<Speaker>Commander</Speaker>||:!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BGM>GF_21summer_battle_3</BGM>:A disheveled man stumbles barefoot out of the lower deck, crashing into a pile of junk on the deck.
+()<Speaker>Captain</Speaker>||:Catch him!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The captain's furious roar follows, with several crew members charging after the man and quickly locking onto their target.
+()<Speaker>Commander</Speaker>||:...What's going on?
+NPC-PasserbyM(0)<Speaker>Man</Speaker><Shake>||<SE1>AVG_Punch</SE1><震屏3>:Move aside!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The fleeing man rushes toward the railing, scrambling up and making to leap into the river.
+()<Speaker>Commander</Speaker>||:Hey! That's dangerous!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander lunges forward and grabs him, trying to pull him back, but the man keeps struggling toward the edge.
+()<Speaker></Speaker>||:Beluga stands with her arms folded, quietly watching the chaos unfold.
+()<Speaker>Commander</Speaker>||:Jumping into the river at night—are you trying to die?
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:With the Commander holding him back, the crew finally catches up and pins the man to the deck with difficulty.
+NPC-PasserbyM(0)<Speaker>Man</Speaker><Shake>||:Let go of me! Let go!
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1>:男人拼命挣扎，三个船员险些制不住他；直到船长在他的头上愤怒地踹了两脚，才安静下来。
-()<Speaker>船长</Speaker>||:呼，把这小子押回去，给我看牢了。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:几个船员找来绳子，把男人五花大绑起来，抓着他颈后的绳结，骂骂咧咧地把他往船舱里拖。
-()<Speaker></Speaker>||:注意到男人眼里的光逐渐淡了下去，指挥官拦住了正在拖人的船员。
-()<Speaker>指挥官</Speaker>||:等等，这是怎么回事？
-()<Speaker>船长</Speaker>||:见笑了，不小心放了匹牛马跑了出来。
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1>:He thrashes violently, nearly throwing three crewmen off, until the captain kicks him hard in the head twice. The man finally goes still.
+()<Speaker>Captain</Speaker>||:Hmph. Drag him back down and keep a close eye on him.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The crew ties him up tightly with rope, grabbing him by the neck loop and dragging him back into the hold, cursing all the way.
+()<Speaker></Speaker>||:The Commander catches a dull flicker in the man's eyes and blocks the crew for a moment.
+()<Speaker>Commander</Speaker>||:Wait. What the hell is this?
+()<Speaker>Captain</Speaker>||:Pardon us. Just a runaway cattle.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<回忆><common_effect>%%code=CJ_rain%%</common_effect><黑屏2><BIN>99</BIN>:
-NPC-Tony_AB(1)<Speaker>托尼</Speaker>||:原本还有其他人关在一起，但白天都被拉走了，说要到送到码头去。
+NPC-Tony_AB(1)<Speaker>Tony</Speaker>||:There were others locked up with me at first, but they were taken away during the day... Said something about a transfer to the port.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>797</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||<SE1>Rope</SE1>:……
-()<Speaker>指挥官</Speaker>||:您的船还做这些生意？
-()<Speaker>船长</Speaker>||:哈，走人比走货利润大，毕竟人不要本钱，你说是吧。
-()<Speaker></Speaker>||:指挥官面上僵了一下，而后抽动嘴角挤出个微笑。
-()<Speaker>指挥官</Speaker>||:你说得对。
-()<Speaker></Speaker>||:即便晴夜下的运河让人短暂得到了平静，但这里依然是卡莫纳，是暗区。
-()<Speaker>船长</Speaker>||:等下船要靠岸上货，甲板要清场，还请两位待在船舱里不要出来。这也是为了两位的安全着想。
-()<Speaker>船长</Speaker>||:毕竟，知道得越少，活得越久嘛。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:船长给手下使了个眼色，几人拖着男子进了船舱，咒骂声渐渐远得听不见了。船长朝指挥官点了点头，跟着离开了。
-()<Speaker></Speaker>||:甲板上恢复了平静，只剩下了指挥官和白烨戈两人，如果不是地面上的一抹鲜红，一切都像是没有发生过。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:怎么了？
-()<Speaker></Speaker>||:冰冷的声音打破了沉默，指挥官再次打量起这个突然出现并示好的神秘少女。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:白烨戈的手插在口袋里，披着的西服外套在不知何时刮起的夜风中猎猎飞舞。
-()<Speaker></Speaker>||:似乎从男子突然出现时，她就一直是这个姿态，没有动作，也没有说话。
-()<Speaker></Speaker>||:指挥官看了眼男子被拖走的方向，摇了摇头。
-()<Speaker>指挥官</Speaker>||:没什么。起风了，我先回去了。
+()<Speaker>Commander</Speaker>||<SE1>Rope</SE1>:...
+()<Speaker>Commander</Speaker>||:Your ship runs that kind of cargo too?
+()<Speaker>Captain</Speaker>||:Heh. People are more profitable than goods. No cost, you see. You get it, right?
+()<Speaker></Speaker>||:The Commander's expression stiffens, but they force a smile.
+()<Speaker>Commander</Speaker>||:You're right.
+()<Speaker></Speaker>||:Even under a clear night sky, the canal is still part of Kamona—still the Dark Zone.
+()<Speaker>Captain</Speaker>||:We'll be docking to load cargo soon. The deck has to be cleared. Please stay below for your own safety.
+()<Speaker>Captain</Speaker>||:After all, the less you know, the longer you live.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>BGM_Empty</BGM>:The captain signals his crew, and they drag the man below. The curses fade as they disappear inside. The captain nods at the Commander before following them.
+()<Speaker></Speaker>||:Silence returns to the deck. Only the Commander and Beluga remain. If not for the faint smear of red on the deck, one might think nothing had happened.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:What's wrong?
+()<Speaker></Speaker>||:The cold voice slices through the quiet. The Commander glances again at the mysterious girl, who has appeared out of nowhere with a bit too much friendliness.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Her hands are in her pockets. Her suit jacket flaps in the wind that has begun to stir.
+()<Speaker></Speaker>||:She's been standing like that since the man burst out—still, silent, observant.
+()<Speaker></Speaker>||:The Commander glances toward the direction the man was dragged off, then shakes their head.
+()<Speaker>Commander</Speaker>||:Nothing. It's windy. I'm heading back.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>88</BIN>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<BGM>GF_EV9_Intermission</BGM>:怎么这么久？
-()<Speaker></Speaker>||:回到了船舱，卡萝和米蒂尔已经等待多时。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可以走动的地方我都探查得差不多了，不少地方有船员看守，但武装不强，看上去就是艘普通的走私船。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:甲板上是什么情况？
-()<Speaker>指挥官</Speaker>||:刚刚……
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<BGM>GF_EV9_Intermission</BGM>:You were gone for quite a while.
+()<Speaker></Speaker>||:Back in the cabin, Kuro and Mityl have been waiting.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I've scouted most of the walkable areas. Some parts are guarded, but the crew isn't heavily armed. Looks like a standard smuggling boat.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:What just happened on deck?
+()<Speaker>Commander</Speaker>||:Well...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:什么？人？！
-()<Speaker>指挥官</Speaker>||:嗯，这艘船恐怕确实做着这种生意。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔挠了挠自己头上的丸子。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:刚刚我在船舱的最底层看到一个船员在送饭。看他的态度，十分不耐烦，可能就是送给被抓起来的人的。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你还记得在哪吗？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:记得，就在最下面靠近船尾的地方。
-()<Speaker></Speaker>||:说完这几句，三个人陷入了短暂的沉默。
-()<Speaker></Speaker>||:刚刚认识的同伴、危机四伏的旅途、突如其来的意外……
-()<Speaker></Speaker>||:可能是外面刮起了风，河水变得急了起来，船舱随着摇摇晃晃，挂在横梁上的几根钩锁碰撞出清脆的乐律。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:三个人彼此打量着，眼中带着试探，和一丝被小心隐藏的期待。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我说……要不都别装了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你们其实也看不下去对吧。
-()<Speaker></Speaker>||:米蒂尔没回答，但眼中漾出了惊喜与认同，原本因为紧张而绷紧的表情放松下来，控制不住地嘴角上扬。
-()<Speaker></Speaker>||:两个少女齐齐看向唯一没有表态的指挥官。
-()<Speaker>指挥官</Speaker>||:……是，但——
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:那就可以了！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝打断了指挥官的话，熟练地把通讯器在手中转了一圈，向上推了推自己的帽子。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:虽然我平常不喜欢多管闲事，但既然你们都想去做……喂，你这是什么表情？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我们的反应很让你意外吗？
-()<Speaker>指挥官</Speaker>||:是……不，不是！
-()<Speaker></Speaker>||:指挥官收回了差点脱口而出的话。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哼。
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我确实很意外啊。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:好久没在暗区遇到像你们这样的人了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我有点想要感谢委托人了，让我们可以聚在一起……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面对米蒂尔诚恳地看着自己的眼神，卡萝张开口却不知道说什么，只能尴尬地把通讯器又转了两圈。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:其实……
-()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:“嘭——”
-()<Speaker></Speaker>||:货船靠岸，右舷与码头产生的撞击让船舱轻微一晃。卡萝如释重负。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:船停了？
-()<Speaker>指挥官</Speaker>||:嗯，船长说要装货，让甲板上的人全部回避——
-()<Speaker></Speaker>||:指挥官突然停了下来。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:门外传来了一阵规律的脚步声，密闭的船体空间让声音放大，显得格外清晰。
-()<Speaker></Speaker>||:船舱里的三人屏住呼吸，手已经放到了枪上。
-()<Speaker></Speaker>||:“蹬、蹬；蹬、蹬…… ”脚步声规律整齐，来的不止一人。
-()<Speaker></Speaker>||:“蹬、蹬；蹬、蹬…… ”声音已经来到了门外，卡萝突然凑到了门缝上。
-()<Speaker></Speaker>||<SE1>Select</SE1>:“喀嚓”，是枪上膛的声音，门外的脚步声停了；三人提起了武器。
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:What? People?!
+()<Speaker>Commander</Speaker>||:Yeah, I'm afraid this ship really is in that line of business.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl fiddles with one of the buns on her head.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I saw a crewman delivering food to the bottom deck just now. Judging by his attitude—super impatient—I bet it was for the people they've got locked up.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Do you remember where exactly?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Yeah, it was the rearmost section of the lowest deck.
+()<Speaker></Speaker>||:The three of them fall silent for a moment.
+()<Speaker></Speaker>||:Newly met companions. A perilous journey. A sudden turn of events...
+()<Speaker></Speaker>||:Outside, wind begins to pick up. The river grows restless. The ship rocks, and the hooks hanging from the ceiling beams clink against each other in a strangely musical rhythm.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The three of them glance around at each other, probing, with carefully concealed anticipation in their eyes.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:I mean... why don't we drop the act already?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:You two couldn't stand it either, right?
+()<Speaker></Speaker>||:Mityl doesn't reply, but her eyes light up with surprise and agreement. Her face relaxes, the tension fading, and a smile breaks through.
+()<Speaker></Speaker>||:Both girls now look at the only one still withholding their opinion—the Commander.
+()<Speaker>Commander</Speaker>||:...Yeah, but—
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Then that's enough!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kuro cuts the Commander off, spinning her communicator once in her hand, then adjusting her cap with a practiced motion.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:I don't usually like sticking my neck out, but if you two are also in... Hey, what's with that face?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:You're surprised by how we reacted?
+()<Speaker>Commander</Speaker>||:I... No, I mean—!
+()<Speaker></Speaker>||:The Commander bites back what they almost blurted out.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Hmph.
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I am surprised, though.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:...
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I haven't met people like you in the Dark Zone in a long time.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I almost feel like thanking the client, for getting us together like this...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Faced with Mityl's sincere gaze, Kuro opens her mouth but can't find anything to say. Embarrassed, she spins her communicator again.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Actually...
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:Bam!
+()<Speaker></Speaker>||:The freighter bumps against the dock, its starboard side striking with a dull impact that shakes the cabin. Kuro exhales, visibly relieved.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:We've stopped?
+()<Speaker>Commander</Speaker>||:Yeah. The captain said they're loading cargo and cleared the deck of anyone not involved—
+()<Speaker></Speaker>||:The Commander suddenly halts mid-sentence.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:Footsteps echo outside the door, steady and rhythmic. The confined space of the cabin amplifies every sound.
+()<Speaker></Speaker>||:All three of them hold their breath. Their hands reach instinctively for their weapons.
+()<Speaker></Speaker>||:Thump, thump. Thump, thump... The sound is precise. It's more than one person.
+()<Speaker></Speaker>||:Thump, thump. Thump, thump... The steps are right outside now. Kuro suddenly leans toward the crack in the door.
+()<Speaker></Speaker>||<SE1>Select</SE1>:Click. A weapon is cocked. The footsteps stop. The three of them raise their guns.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker>女人</Speaker>||:怎么了？
-()<Speaker>男人</Speaker>||:没什么，听错了。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:规整的脚步声重新响起，越来越远，逐渐消失在了船舱尽头。
+()<Speaker>Woman</Speaker>||:What is it?
+()<Speaker>Man</Speaker>||:Nothing. False alarm.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:The regular footsteps resume, slowly fading away toward the end of the corridor.
 ()||<黑点1>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<黑点2><SE1>Stop_AVG_loop</SE1><BGM>BGM_stage13</BGM>:你吓了我一跳。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:玫瑰纹章……他们的枪托上刻印着玫瑰纹章！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<震屏3>:你在说什么？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><Position>0,-50</Position><同时置暗>||:多斯•安东尼，玫瑰是安东尼家族的族徽。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:多斯也想要这个箱子？
-()<Speaker></Speaker>||:指挥官面上露出了一丝尴尬。
-()<Speaker>指挥官</Speaker>||:不确定。事实上，前不久，我和安东尼家族发生了一点小摩擦……
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<黑点2><SE1>Stop_AVG_loop</SE1><BGM>BGM_stage13</BGM>:You scared the hell out of me.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:There's a rose crest... on their rifle buttstocks.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<震屏3>:What are you talking about?
+NPC-P90_AB(0)<Speaker>Commander</Speaker><Position>0,-50</Position><同时置暗>||:Doss Anthony. The rose is the crest of the Antonio family.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Doss is after the box too?
+()<Speaker></Speaker>||:The Commander grimaces a bit sheepishly.
+()<Speaker>Commander</Speaker>||:Not sure. But... I had a bit of a run-in with them not long ago...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:为了一个委托人得罪多斯？！是不是该说“不愧是你”。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:……对不住。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:我可以退出任务，不会连累大家。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:清醒一点，他们是冲着箱子来的。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯，卡萝说得没错，一个特遣队员不值得安东尼家族兴师动众。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官原本已经站了起来，此时不知道要不要重新坐回去，只能略显尴尬地去查看起了箱子。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:总之，我们要一起把箱子送到北山，谁也不能走！
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:他们人数不多，不如直接在船上做掉。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝在脖子上比了个“咔嚓”的姿势。
-()<Speaker>指挥官</Speaker>||:不行。
-()<Speaker>指挥官</Speaker>||:水面上没有退路，不知是否还有别的敌人潜伏在侧……还是退一步，任务要紧。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我同意。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……算了，这次先放过他们。
-()<Speaker></Speaker>||:不情不愿地接受了现实，卡萝把枪收了回去，开始整理自己的弹挂。
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:You pissed off the Antonio family for a single client? Should I be saying "of course you did"?
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:...Sorry.
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:I can step down from the mission. I won't drag you into this.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Snap out of it. They're after the box.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Yeah, Kuro is right. A single operator wouldn't warrant all that muscle from the Antonio family.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander, who has already stood up, hovers awkwardly for a moment before moving to inspect the box.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:In any case, our job is to get this box to Northridge. No one's backing out!
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:They don't have a lot of people. We could take them out on the boat.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kuro draws a finger across her neck in a slicing gesture.
+()<Speaker>Commander</Speaker>||:No.
+()<Speaker>Commander</Speaker>||:There's no retreat on the water. We don't know if there are others lying in wait... Better to back off for now—the mission comes first.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I agree.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:...Fine. We'll let them off this time.
+()<Speaker></Speaker>||:Reluctantly conceding, Kuro puts her gun away and starts sorting her gear.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.2</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>ClothingUp</SE1>:燃烧弹、弹夹……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这个给你。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哈？
-()<Speaker></Speaker>||:卡萝看着米蒂尔递给自己的医疗包和止痛药，有些诧异地张开了嘴。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你为什么一个药包都不带？喏，拿我的。
-()<Speaker></Speaker>||:似乎是第一次处理这样的情况，卡萝接过了米蒂尔的好意，却找不到地方放；弹挂里已经被她装满了弹药。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:谢谢，不过我都习惯了。没有药的话……就把敌人打趴下，从他们的身上拿！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝将药包还给了米蒂尔，挠了挠头发。
-()<Speaker>指挥官</Speaker>||:等船重新起航，我们就趁着夜深，从船尾放救生船下去，悄悄离开。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:好。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:行。……不过，我们真的就这么走了？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯，是不是还有一点时间？
-()<Speaker></Speaker>||:叹了口气，又在叹气后忍不住笑了出来。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:指挥官看着眼前这两个已经全副武装、时刻准备战斗的少女，心情复杂。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:我知道你们在想什么，我们分头行动……
-()||<黑点1>:
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>ClothingUp</SE1>:Incendiaries, spare mags...
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Here, take this.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Huh?
+()<Speaker></Speaker>||:Kuro looks surprised as Mityl hands her a medkit and some painkillers.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Why don't you carry any meds? Here, take mine.
+()<Speaker></Speaker>||:Apparently unused to situations like this, Kuro accepts the gesture but doesn't know where to put it—her gear rig is already packed with ammo.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Thanks, but I'm used to it. If I don't have meds... I'll just knock out the enemy and take theirs!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She hands the kit back, scratching her head.
+()<Speaker>Commander</Speaker>||:Once the boat sets sail again, we lower the lifeboat from the stern and slip away under cover of night.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Sounds good.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Sure... But are we really just gonna leave?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Yeah. We might still have a bit of time.
+()<Speaker></Speaker>||:A sigh escapes someone's lips—followed by a low chuckle.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:The Commander looks at the two girls, now fully armed and visibly prepared for combat, and feels a strange mix of emotion.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:I know what you're both thinking. Let's split up...
+()||<黑点1>:

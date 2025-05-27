@@ -1,168 +1,168 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>10220</BGM><SE2>Gunfight</SE2><震屏3><黑屏2><BIN>801</BIN><CGDelay>0.7</CGDelay>:
-NPC-Doss_AB(1)<Speaker>多斯</Speaker>||:还算有些本事。
-()<Speaker></Speaker>||:经过一番激烈的战斗，桥畔，多斯的保镖已经所剩无几，紧密护卫在多斯身旁放弃了进攻。
-()<Speaker></Speaker>||:而另一侧的指挥官三人，也已经打到只剩最后一个弹夹。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>Select</SE1>:别想把东西带走。
-NPC-Doss_AB(1)<Speaker>多斯</Speaker>||:数数你剩下的子弹再说话吧。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……
-NPC-Doss_AB(0)<Speaker>多斯</Speaker>||:东西呢？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈向后备箱的方向撇了撇头。
-()<Speaker></Speaker>||:一个保镖走上去打开后备箱，仔细确认着什么，回来对多斯耳语了几句。
-NPC-Doss_AB(0)<Speaker>多斯</Speaker>||:好吧，至少在这件事上，你做得不错。
-NPC-Doss_AB(1)<Speaker>多斯</Speaker>||:那接下来，这里就交给你了。既然你主动提出要出这个任务，就负责到底吧。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:多斯点了点手杖，两个保镖把箱子从车上搬了下来。
-NPC-Doss_AB(1)<Speaker>多斯</Speaker>||:再见了，希望以后还可以见到你，我委以重任的……忠诚下属。
-()<Speaker></Speaker>||<SE1>Select</SE1>:白烨戈留在原地，持枪与指挥官三人对峙。
-()<Speaker></Speaker>||:多斯转身，在保镖的护卫下带着箱子朝桥的另一侧撤去。
+NPC-Doss_AB(1)<Speaker>Doss</Speaker>||:Not bad.
+()<Speaker></Speaker>||:After a fierce battle, only a few of Doss' bodyguards remain by the bridge. They now stay close to him, giving up on any offensive.
+()<Speaker></Speaker>||:On the other side, the Commander and the Dolls are down to their last magazines.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>Select</SE1>:Don't even think about taking that thing with you.
+NPC-Doss_AB(1)<Speaker>Doss</Speaker>||:Count your bullets before you speak.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:...
+NPC-Doss_AB(0)<Speaker>Doss</Speaker>||:Where is it?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Beluga jerks her head toward the car's trunk.
+()<Speaker></Speaker>||:A bodyguard steps up, opens it, carefully checks something inside, then returns to whisper to Doss.
+NPC-Doss_AB(0)<Speaker>Doss</Speaker>||:Alright. At least for this part, you did well.
+NPC-Doss_AB(1)<Speaker>Doss</Speaker>||:I'll leave the rest to you. Since you volunteered for this mission, see it through to the end.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Doss taps his cane, and two bodyguards carry the box out of the car.
+NPC-Doss_AB(1)<Speaker>Doss</Speaker>||:Farewell. I hope to see you again, my entrusted... loyal subordinate.
+()<Speaker></Speaker>||<SE1>Select</SE1>:Beluga remains behind, gun in hand, facing the Commander's group.
+()<Speaker></Speaker>||:Doss turns away, escorted by his guards, and retreats across the bridge with the box in tow.
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:“呯——”、“呯——”……两声枪响。
-()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:卡萝举枪射向多斯。与此同时白烨戈预判了她的行动，一枪正中卡萝手中的枪。
-()<Speaker></Speaker>||:卡萝枪口一晃，手中的冲锋枪险些脱手，子弹没有击中目标。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:不要浪费子弹了。
-()<Speaker></Speaker>||<SE1>Select</SE1>:卡萝重新站稳，枪口依旧牢牢地跟着多斯，只是可惜，他已经被挡在了保镖身后。
-()<Speaker></Speaker>||:指挥官和米蒂尔已经没有了子弹，不敢轻易开枪暴露这个事实。
-NPC-Doss_AB(1)<Speaker>多斯</Speaker>||:放弃吧，没亲手杀了你们，不是因为我不能。
-NPC-Doss_AB(1)<Speaker>多斯</Speaker>||:你们应该感谢今晚的月色，让我有了一个好心情。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:即便此刻的情境称得上是“败逃”，多斯依然维持着绅士做派，抽出一块手帕，擦了擦沾上了硝烟的手杖。
-()<Speaker>指挥官</Speaker>||:硕鼠帮在运河上的生意，是不是你指使的？
-NPC-Doss_AB(0)<Speaker>多斯</Speaker>||:硕鼠帮？
-()<Speaker></Speaker>||:多斯已经走到了桥上，闻言停了下来，回头看向指挥官。
-()<Speaker>指挥官</Speaker>||:他们从各处镇子找到合适的人绑架，通过运河送去矿区。
-()<Speaker>指挥官</Speaker>||:这些，全是安东尼家族的生意吗？
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:Bang! Bang! Two consecutive gunshots ring out.
+()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:Kuro raises her gun and fires at Doss, but Beluga predicts her move and shoots first, hitting the weapon in Kuro's hand.
+()<Speaker></Speaker>||:Kuro's aim jerks, her submachine gun almost slipping from her grip. The bullets miss.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Stop wasting bullets.
+()<Speaker></Speaker>||<SE1>Select</SE1>:Kuro steadies herself, her gun still aimed at Doss—but he's already shielded by his guards.
+()<Speaker></Speaker>||:The Commander and Mityl are completely out of ammo, and don't dare expose that fact by firing.
+NPC-Doss_AB(1)<Speaker>Doss</Speaker>||:Give it up. The only reason you're still alive isn't because I couldn't kill you.
+NPC-Doss_AB(1)<Speaker>Doss</Speaker>||:You should be grateful for tonight's moonlight. It put me in a good mood.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Even now, in what could be called a retreat, Doss remains composed and gentlemanly. He pulls out a handkerchief to wipe the gunpowder off his cane.
+()<Speaker>Commander</Speaker>||:The Sewer Rats' business on the canal—was that your doing?
+NPC-Doss_AB(0)<Speaker>Doss</Speaker>||:Sewer Rats?
+()<Speaker></Speaker>||:Doss pauses on the bridge, glancing back at the Commander.
+()<Speaker>Commander</Speaker>||:They kidnapped people from towns and sent them to the mines via the canals.
+()<Speaker>Commander</Speaker>||:Was that the Antonio family's business?
 ()||<黑屏1>:
-NPC-Tony_AB(1)<Speaker>托尼</Speaker>||<回忆><黑屏2><BIN>764</BIN>:爸！妈！……是谁？谁干的！
+NPC-Tony_AB(1)<Speaker>Tony</Speaker>||<回忆><黑屏2><BIN>764</BIN>:Dad! Mom! ...Who? Who did it?!
 ()||<黑屏1>:
-NPC-PasserbyM(0)<Speaker>男子</Speaker><Shake>||<回忆><黑屏2><BIN>797</BIN>:放开我！放开！
+NPC-PasserbyM(0)<Speaker>Man</Speaker><Shake>||<回忆><黑屏2><BIN>797</BIN>:Let me go! Let me—!
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>801</BIN><CGDelay>0.5</CGDelay>:
-NPC-Doss_AB(0)<Speaker>多斯</Speaker>||:或许吧，这种小事，我没有印象。
-()<Speaker></Speaker>||:多斯无所谓地耸了耸肩，继续朝对岸走去；几辆车子正停在那里。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><震屏3>:白烨戈一枪打在了指挥官前方的地面上。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:别动。我的弹药可还没有打光。
-()<Speaker>指挥官</Speaker>||:呵……
-()<Speaker></Speaker>||<SE1>Rope</SE1><震屏3>:没有理会白烨戈的威胁，指挥官丢掉了没有子弹的枪，从腰后掏出匕首，俯身就要前冲。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:！
+NPC-Doss_AB(0)<Speaker>Doss</Speaker>||:...Perhaps. I don't remember such trivial things.
+()<Speaker></Speaker>||:Doss shrugs dismissively and continues walking. Several cars are parked at the far side of the bridge.
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:...
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><震屏3>:Beluga fires a shot into the ground in front of the Commander.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Don't move. I'm not out of ammo yet.
+()<Speaker>Commander</Speaker>||:Heh...
+()<Speaker></Speaker>||<SE1>Rope</SE1><震屏3>:Ignoring the threat, the Commander tosses aside their empty gun, draws a knife, and crouches to charge forward.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:!
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:米蒂尔已经没有子弹，但卡萝举枪射向白烨戈，为指挥官争取了机会。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:白烨戈闪身的同时，指挥官快速越过她，冲向桥面，此时多斯已经退到了对岸。
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3><BIN>9</BIN><BGM>BGM_Empty</BGM>:“轰——”
-()<Speaker></Speaker>||:巨大的爆炸声传来，桥被多斯炸断了。
-()<Speaker>指挥官</Speaker>||:！
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:Mityl is out of bullets, but Kuro fires to cover the Commander's charge.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Beluga dodges, and the Commander sprints past her, heading toward the bridge. Doss has just reached the far end.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3><BIN>9</BIN><BGM>BGM_Empty</BGM>:Boom!
+()<Speaker></Speaker>||:With a massive explosion, part of the bridge collapses.
+()<Speaker>Commander</Speaker>||:!
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>801</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:“滴——滴——”
-()<Speaker></Speaker>||:指挥官的眼前已经没有了路。而河的对岸，多斯的车队放肆鸣笛，像是不加掩饰的嘲笑。
-()<Speaker></Speaker>||:车灯越来越远，鸣笛声也渐渐听不见了，最终全都消失在卡莫纳黑暗的丛林中。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:转过身，面向白烨戈，指挥官反握了匕首。
-()<Speaker>指挥官</Speaker>||:现在，是我们之间的事了。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:Beep— beep—
+()<Speaker></Speaker>||:There's no path ahead of the Commander now. Across the river, Doss's convoy honks in a cacophony of mockery.
+()<Speaker></Speaker>||:The headlights grow smaller, the honking fades, and eventually everything vanishes into the dark forest of Kamona.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander turns back, knife in a reverse grip, and faces Beluga.
+()<Speaker>Commander</Speaker>||:Now, it's between us.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_arenabreakout_battle1</BGM><BIN>796</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:一片乌云遮住了高悬的明月，桥畔，双方冲突一触即发。
-()<Speaker>白烨戈</Speaker>||:走吧，桥被炸了，你们追不上的。
-()<Speaker>白烨戈</Speaker>||:放弃这个箱子，这件事本就与你们没有关系。
-()<Speaker></Speaker>||:白烨戈站在桥前，独自面对指挥官三人，面上不带一丝慌乱。
-()<Speaker>米蒂尔</Speaker>||:谁说没有关系？这是我们的委托。
-()<Speaker>卡萝</Speaker>||:本来我是觉得无所谓的，一个不敢露面的雇主的任务罢了。
-()<Speaker>卡萝</Speaker>||:但把东西从我眼睛底下夺走……总要有个交代。
-()<Speaker></Speaker>||:桥被炸断，前路已然不通。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:指挥官开来的车胎已被打爆，要想追上多斯，唯有去抢白烨戈的车。
-()<Speaker>指挥官</Speaker>||:我还有一个问题。
-()<Speaker>指挥官</Speaker>||:既然你是多斯的人，为什么在船上要放了那些平民？
-()<Speaker></Speaker>||:白烨戈没有回答。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:……我们没有什么好谈的了。
-()<Speaker>指挥官</Speaker>||:<size=25>牵制她，我去夺车。</size>
-()<Speaker></Speaker>||:小声嘱托旁边的两个少女，指挥官准备前冲。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:“呯——”又是一发子弹射在指挥官身前。
-()<Speaker>白烨戈</Speaker>||:把枪放下，米蒂尔，我知道你没有子弹。
-()<Speaker>米蒂尔</Speaker>||:……
-()<Speaker>白烨戈</Speaker>||:卡萝，如果我没有数错的话，你是准备用4颗子弹威胁我？
-()<Speaker>卡萝</Speaker>||:一颗就够了。
-()<Speaker>白烨戈</Speaker>||:我再说最后一次，离开这里，忘记这个箱子。
-()<Speaker>指挥官</Speaker>||:虽然不知道箱子里是什么，委托人也不会是简单的角色。
-()<Speaker>指挥官</Speaker>||:但多斯……呵……
-()<Speaker>指挥官</Speaker>||:如果一定要我在他们之间做选择，那我一定不会把箱子交到多斯这样的人手里！
-()<Speaker></Speaker>||:莫名地，指挥官感觉好像看到白烨戈笑了一下。
-()<Speaker>卡萝</Speaker>||:<size=50>小心！</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈枪口微移，指向指挥官，一侧的嘴角向上勾起。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM>:“呯——”
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:枪响后，是人体倒地的声音。
+()<Speaker></Speaker>||:A dark cloud blots out the moon. By the ruined bridge, tension crackles between both sides.
+()<Speaker>Beluga</Speaker>||:Just go. The bridge is gone, you can't chase him.
+()<Speaker>Beluga</Speaker>||:Forget the box. This has nothing to do with you to begin with.
+()<Speaker></Speaker>||:Beluga stands at the bridge alone, calm and unshaken.
+()<Speaker>Mityl</Speaker>||:Says who? This is our gig.
+()<Speaker>Kuro</Speaker>||:I didn't care at first. It's just a job from a faceless client.
+()<Speaker>Kuro</Speaker>||:But having it taken right under my nose... someone has to answer for that.
+()<Speaker></Speaker>||:The bridge is destroyed. There's no way to cross the canal.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:The tires on the Commander's car have been shot out. If they want to chase Doss, they'll have to seize Beluga's car.
+()<Speaker>Commander</Speaker>||:I have one more question.
+()<Speaker>Commander</Speaker>||:If you're with Doss, why did you let those civilians go back on the boat?
+()<Speaker></Speaker>||:Beluga doesn't answer.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:...There's nothing more to talk about.
+()<Speaker>Commander</Speaker>||:<size=25>Stall her. I'll grab her car.</size>
+()<Speaker></Speaker>||:The Commander whispers to the two girls beside them and prepares to rush forward.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:Bang—another shot lands in front of them.
+()<Speaker>Beluga</Speaker>||:Drop it, Mityl. I know you're out of ammo.
+()<Speaker>Mityl</Speaker>||:...
+()<Speaker>Beluga</Speaker>||:Kuro. If I counted right, are you planning to threaten me with four bullets?
+()<Speaker>Kuro</Speaker>||:One is enough.
+()<Speaker>Beluga</Speaker>||:I'll say it one last time—leave. Forget the box.
+()<Speaker>Commander</Speaker>||:I don't know what's inside or who hired us.
+()<Speaker>Commander</Speaker>||:But Doss... Ha...
+()<Speaker>Commander</Speaker>||:If I had to choose between them, I'd never hand the box over to someone like him!
+()<Speaker></Speaker>||:Oddly, the Commander thinks they catch a glimpse of Beluga's smile.
+()<Speaker>Kuro</Speaker>||:<size=50>Watch out!</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Beluga shifts her aim toward the Commander, one corner of her mouth curling upward.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><BIN>9</BIN><SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM>:Bang—
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:A gunshot. Someone hits the ground with a thud.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>800</BIN><黑屏2>:
-()<Speaker></Speaker>||:树林中，一个多斯的保镖倒了下来。
-()<Speaker></Speaker>||:白烨戈的枪口还在夜色中冒着轻烟。
-()<Speaker>指挥官</Speaker>||:你？
-()<Speaker></Speaker>||:面对再次反水的白烨戈，指挥官与米蒂尔、卡萝一时愣在原地。
-()<Speaker>白烨戈</Speaker>||<黑点1>:尾巴终于干净了。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake><SE1>AVG_Moto_Start</SE1><SE1>ClothingUp</SE1><黑点2><BIN>801</BIN>:白烨戈把枪收了回去，走到驾驶座上，发动了车子；见指挥官三人没有动作，探出了头。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||<CGDelay>0.5</CGDelay><BGM>10213</BGM>:走吧，上车。
+()<Speaker></Speaker>||:In the woods, one of Doss' bodyguards collapses.
+()<Speaker></Speaker>||:Beluga's barrel is still smoking in the moonlight.
+()<Speaker>Commander</Speaker>||:You...?
+()<Speaker></Speaker>||:The Commander, Mityl, and Kuro stand rooted to the spot, all dumbfounded by Beluga's sudden about-face turn.
+()<Speaker>Beluga</Speaker>||<黑点1>:There, now we've gotten rid of our tail.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake><SE1>AVG_Moto_Start</SE1><SE1>ClothingUp</SE1><黑点2><BIN>801</BIN>:Beluga lowers her weapon, walks to the driver's seat, and starts the engine. Seeing the trio still frozen, she leans out of the window.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||<CGDelay>0.5</CGDelay><BGM>10213</BGM>:C'mon, get in.
 ()||<黑点1><SE1>AVG_Moto_Run</SE1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑点2><BIN>802</BIN>BGM>BGM_TK_face</BGM><Night><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:这是一个距离不远的林间小屋，地点隐秘，看上去已经废弃许久。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:进来。
-()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:白烨戈打开了小屋的门，率先走了进去，指挥官三人在门外对视了一眼，跟了上去。
-()<Speaker>指挥官</Speaker>||:！
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:怎么了？
-()<Speaker></Speaker>||:看到指挥官在门口愣住，卡萝和米蒂尔跟着上前，朝门内望去。
-()<Speaker></Speaker>||:只见本应被多斯带走的箱子，正安静地落在小屋中心。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:都堵在门口干什么？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:现在是什么情况？箱子不是被多斯带走了么？怎么会在这儿？还有刚刚的你击毙的那个保镖，他怎么在那儿？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:……你的问题好多。
+()<Speaker></Speaker>||:They pull up at a cabin in the woods at a remote location not too far away. It looks long abandoned.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Come in.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Beluga opens the door and enters first. The Commander and the others exchange glances, then follow suit.
+()<Speaker>Commander</Speaker>||:!
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:What is it?
+()<Speaker></Speaker>||:The Commander freezes in the doorway. Kuro and Mityl step forward and peer inside.
+()<Speaker></Speaker>||:Inside, the box that should've been taken by Doss is sitting quietly in the center of the cabin.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Why are you all blocking the door?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:What's going on? Didn't Doss take the box? Why is it here? And that guard you shot—why was he there?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:...You ask too many questions.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:三人走进了小屋，卡萝围着箱子转了两圈，左看右看。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:和之前那个一模一样……真的假的？
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:说着，卡萝伸手在箱子上敲了敲。
-()<Speaker>指挥官</Speaker>||:是真的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:原本蹲下去检查的指挥官站了起来。
-()<Speaker>指挥官</Speaker>||:出发前，我在箱子安全锁的下面划了记号，左三，右一。
-()<Speaker>指挥官</Speaker>||:这个位置细小，不容易被发现，应该不存在被造假的可能。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:真的有划痕！你怎么想到的，好厉害！
-()<Speaker>指挥官</Speaker>||:一开始，我也害怕你们……算了，如今也算是派上了用场。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈弯身低头查看，而后直起身来，意义不明地扫了指挥官一眼。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:好吧，我确实也没有发现你在这里做了标记。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:究竟是怎么回事，现在可以告诉我们了吗？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:和你们猜的一样，多斯拿走的，不是你们原来的箱子，而是另外一个。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:另外一个？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:嗯，你们的委托人至少同时请了6支队伍，来护送一模一样的箱子。
-()<Speaker>指挥官</Speaker>||<震屏3>:！
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:这6支队伍的出发地和目的地都不同，一起在19点出发，没有人确定哪个是真的。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:但是有消息泄露，说真的在你们这里。所以，恐怕你们只是委托人吸引火力的靶子罢了。
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1>:卡萝一拳重重地打在了箱子上。
-()<Speaker>指挥官</Speaker>||:多斯的那个箱子是？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:另外一支队伍放弃了任务，这件事没有其他人知道。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:所以我替换了一下，让多斯带走了他们的箱子。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:对于多斯、黑金这样的势力来说，哪个是真的并不重要，他们会分散队伍，同时去追这6个箱子。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:但对于我来说，我必须找到真的那个。
-()<Speaker>指挥官</Speaker>||:你也想要它？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈没有立即回答，她安静地注视着眼前的箱子，把不知何时落上去的几片树叶拂了下去。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:不，我希望你们可以把它安全送到。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:既然如此，之前为什么要把它抢走？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:如果不让大家以为你们的箱子已经被多斯夺走。你们又能护住多久？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂喂，我们很强的好吧。刚刚还把你和多斯打得丢盔弃甲……
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1>:卡萝张牙舞爪地比划着刚刚的战斗，一不小心又是一拳捶到了箱子上，立即咬牙把呼痛憋在了嘴里，没有辜负自己“很强”的人设。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:噗嗤……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……闭嘴……
-()<Speaker>指挥官</Speaker>||:哈哈哈哈……
-()<Speaker></Speaker>||:久违的欢笑声再次出现在四人之间，过去几个小时的暗算、冲突，似乎都已经烟消云散。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:如果，我是说如果，如果我们和那支队伍一样，选择放弃箱子，你会怎么办？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>;NPC-MDR_AB(0)||:你猜为什么没有人知道他们的箱子在我这儿？
-NPC-M16_AB(0);NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:不过，我确实没想过你们会放弃她。毕竟……
-NPC-M16_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:毕竟？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:……人和环境或许都会变，但羁绊不会。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:总之，我已经为你们争取到了时间。车子交给你们，后面有弹药和补给。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:剩下的路，就交给你们了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈又深深地看了一眼箱子，而后转身离去，没有再做留恋。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你要去哪？
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:多斯那边，有些事还要收尾。
-()<Speaker>指挥官</Speaker>||:等等！我还有一个问题……
-()<Speaker>指挥官</Speaker>||:为什么你确定，我们的箱子是真的？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:白烨戈停下了脚步，微微侧头；指挥官看到她的眼睛里充满坚定，没有一丝疑惑。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:因为，这是我存在的意义。
-NPC-M16_AB(0)<Speaker>白烨戈</Speaker>||:带上箱子，出发吧，前面的路，也许没有想象的容易。
-()||<黑点1>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The three walk inside. Kuro circles the box twice, inspecting it.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Looks exactly the same... Is it the real deal?
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:She knocks on it with her knuckles.
+()<Speaker>Commander</Speaker>||:It is.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander, who has crouched down to examine it, stands back up.
+()<Speaker>Commander</Speaker>||:Before we set off, I scratched some markings under the security lock—three left, one right.
+()<Speaker>Commander</Speaker>||:They're very small and hard to spot. Shouldn't be any way to fake them.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:There they are! You thought of that? That's genius!
+()<Speaker>Commander</Speaker>||:I was worried you all might... Never mind. It came in handy after all.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Beluga leans down to check the box, then straightens up and shoots the Commander an unfathomable glance.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Alright. I admit I didn't see those marks at all.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:What's going on? Can you tell us now?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Just as you've surmised, the one that Doss took wasn't your box. It was another.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Another?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Yes. Your client simultaneously hired at least six teams to escort identical boxs.
+()<Speaker>Commander</Speaker>||<震屏3>:!
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Each team departed at 1900 hrs from different locations, heading to different destinations. No one knew which box was real.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:But there was a leak saying that the real one was with you. So I'm afraid your team was just bait.
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1>:Kuro slams her fist onto the box.
+()<Speaker>Commander</Speaker>||:So the one Doss took...?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Another team gave up the mission. Nobody else knew.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:So I swapped the boxes and let Doss take theirs.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:To people like Doss or Blackgold Universal, it doesn't matter which is real. They'll split up and chase down all six.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:But I had to find the real one.
+()<Speaker>Commander</Speaker>||:You want it too?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Beluga doesn't answer immediately. She gazes quietly at the box, brushing off a few leaves that have fallen on top of it.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:No, I want you to deliver it safely.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Then why steal it earlier?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:If people didn't think Doss had taken your box... how long could you have kept it safe?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Hey, we're strong, okay? We had you and Doss running scared just now...
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1>:Kuro waves her hands proudly, but accidentally punches the box again. She winces, holding in the pain to keep up appearances.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position><Shake>||:Pfft...
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:...Shut up...
+()<Speaker>Commander</Speaker>||:Ahahaha...
+()<Speaker></Speaker>||:Laughter finally returns among the four of them. The past few hours of deception and conflict seem all but forgotten.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:If—and I mean if—we had given up the box like the other team, what would you have done?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>;NPC-MDR_AB(0)||:Do you know why no one knew I had theirs?
+NPC-M16_AB(0);NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:...
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Still, I never even entertained the possibility that you'd abandon her. After all...
+NPC-M16_AB(0)<Speaker>Commander</Speaker><同时置暗>||:After all...?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:...People and circumstances change, but bonds don't.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Anyway, I've bought you some time. The car is yours. You'll find ammo and supplies in the back.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:The rest is up to you.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Beluga gives the box one last look, then turns to leave.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Where are you going?
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:There's still clean-up to do on Doss' side.
+()<Speaker>Commander</Speaker>||:Wait! One last question...
+()<Speaker>Commander</Speaker>||:Why are you so sure ours is the real one?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Beluga pauses and turns slightly. The Commander sees her eyes. They are filled with certainty, without a hint of doubt.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Because... this is the reason I exist.
+NPC-M16_AB(0)<Speaker>Beluga</Speaker>||:Take the box and go. The road ahead will not be easy.
+()||<黑点1>:

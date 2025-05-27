@@ -1,175 +1,175 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>BGM_TK_face</BGM><黑屏2><BIN>207</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:马尔洛斯城，暗区东部重镇，临近海港、运河，四方发达的交通条件吸引了各色人员在此寻找机会。
-()<Speaker>商人</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:嘿，刚出完任务？带回来了什么好东西，我这儿什么都收。
-()<Speaker>指挥官</Speaker>||:白忙一场，下次再关照您生意。
-()<Speaker>商人</Speaker>||:没货？没货你看看我这儿新到的装备，价格公道，保你下次出去多做掉几个家伙。
+()<Speaker></Speaker>||:The city of Marulos—an important hub in the eastern Dark Zone. Being in close proximity of both seaport and canal, its strategic transport connections draw all kinds of people chasing opportunity.
+()<Speaker>Vendor</Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:Hey, just finished a mission? Brought back anything good? I'll buy whatever you've got.
+()<Speaker>Commander</Speaker>||:Empty-handed this time. Maybe next run.
+()<Speaker>Vendor</Speaker>||:No goods? Then take a look at this fresh batch of gear. Fair prices, and it'll help you take down a few more bastards next time.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:点头谢过推销的商人，指挥官一路向前，左手边两个男子正把一个人按在地上猛踹。
-()<Speaker>男子</Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:老子的枪也敢偷？不想活了？
-()<Speaker>倒地的人</Speaker>||:别，别打了，借我一把枪，我去接委托，我保证双倍、三倍还给您！
-()<Speaker>男子</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:*！你这孬种，出去也是送死便宜别人。
+()<Speaker></Speaker>||<黑点2>:The Commander nods a polite thanks to the vendor and continues forward. On their left, two men are kicking someone pinned to the ground.
+()<Speaker>Man</Speaker>||<SE1>AVG_Combat_Hits</SE1><震屏3>:You dare steal my gun? You've got a death wish?
+()<Speaker>Downed Man</Speaker>||:N-no, please! Just lend me one, I'll take on a job! I swear I'll pay you back, double, triple!
+()<Speaker>Man</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:For f*ck's sake! A loser like you's just gonna get killed and hand the reward to someone else.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2>:又拐过一个路口，楼梯上两个全副武装的特遣队员正坐着开了个罐头。
-()<Speaker>特遣队员</Speaker>||:这次的委托人真黑，说好的一万柯恩币，只给了八千。
-()<Speaker>特遣队员</Speaker>||:算了，现在活儿不好找。
+()<Speaker></Speaker>||<黑点2>:Turning another corner, the Commander spots two heavily armed operatives sitting on a stairwell, cracking open a can of food.
+()<Speaker>Special Operative</Speaker>||:That last client was so stingy. Promised us ten thousand Koens but gave only eight.
+()<Speaker>Special Operative</Speaker>||:Don't dwell on it. It's hard to find work these days.
 ()||<黑点1><SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<黑点2><SE1>ClothingUp</SE1>:又穿过两条街；经过路口时，指挥官突然刹住脚步，一个闪身藏到了廊柱后面。
-()<Speaker>黑帮</Speaker>||:端了北郊据点的那人还没找到？
-()<Speaker></Speaker>||:前方走来两个正在交谈的男子，腰后鼓鼓囊囊，带着武器。
-()<Speaker>黑帮</Speaker>||:还没，听说是个特遣队员，呸！只要他敢来马尔洛斯，早晚落到我们手里。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:看两人走远，指挥官从藏身的廊柱后转了出来，快步朝道路尽头一个不起眼的房子走去。
+()<Speaker></Speaker>||<黑点2><SE1>ClothingUp</SE1>:Two more streets. As the Commander approaches an intersection, they suddenly stop and duck behind a column.
+()<Speaker>Gangster</Speaker>||:Still no trace of whoever hit the outpost up north?
+()<Speaker></Speaker>||:Two armed men walk past, deep in conversation, weapons bulging under their coats.
+()<Speaker>Gangster</Speaker>||:Nope. Heard it was some operative. (Spits) If that bastard dares show their face in Marulos, we'll get 'em sooner or later.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:After the men disappear down the road, the Commander slips out from behind the column and heads quickly toward a nondescript building at the end of the street.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>794</BIN><Night><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:这是一个久未使用的仓库，黑着灯，看不清里面有什么。
-()<Speaker>指挥官</Speaker>||:地址是这儿没错……嗯？
-()<Speaker></Speaker>||:注意到左侧那个巨大的纸箱，指挥官顿下了脚步。
-()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_21Winter_Open_Light</SE1><BGM>BGM_Empty</BGM>:“啪嗒”，头顶的灯被打开了；暖白色的灯光在纸箱旁投下了一个圆滚滚的影子。
-()<Speaker>？？？</Speaker>||:啊……
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><BGM>BGM_Sneak</BGM>:一个丸子头少女背着包不情不愿地从纸箱后站了起来。
-NPC-P90_AB(0)<Speaker>？？？</Speaker><Position>0,-50</Position>||:这里根本就没办法藏人嘛！
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><Position>0,-50</Position><同时置暗>||:出来吧。
-NPC-P90_AB(0)<Speaker>？？？</Speaker><Position>0,-50</Position>||: 你说什么？
-()<Speaker></Speaker>||<震屏3><SE1>ClothingUp</SE1>:右侧的货架顶上，一个黑衣少女翻身跃了下来，轻巧落地，没有发出太大声音。
-NPC-MDR_AB(0)<Speaker>？？？</Speaker>||:你是怎么发现的？
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>？？？</Speaker><Position>0,-50</Position>||:还有一个？！
-NPC-MDR_AB(0)<Speaker>？？？</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:我是看着你进来的。
-NPC-MDR_AB(0)<Speaker>？？？</Speaker>||:这么大一个包，还想藏在箱子后面，真不知道怎么想的，我都拍下来了哦~
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑衣少女得意地晃了晃手上的相机。
-NPC-P90_AB(0)<Speaker>？？？</Speaker><Position>0,-50</Position>||:你！……我原本藏得好好的，都是他突然开灯……你们是谁？
-()<Speaker></Speaker>||:落满尘灰的仓库里，三个人彼此打量着。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我是卡萝。看打扮，都是特遣队员？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:丸子头的少女点了点头。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:米蒂尔。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:前天一个匿名委托人找到我，让我今天来这里，接一个任务。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我也是。
-()<Speaker>指挥官</Speaker>||:一样。但我并不知道，这个任务还有其他人——
-()<Speaker>女人的声音</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>都到齐了。自我介绍一下，我是这次任务的委托人。</color>
-()<Speaker></Speaker>||:仓库中间盖着布的箱子上，一个对讲机闪烁着通讯中的红光。
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>我希望你们三人组队完成这次委托，帮我把货送到北山。</color>
-()<Speaker></Speaker>||:突如其来的声音在狭小的仓库形成回响，三人围到箱子前，彼此对视，眼中都带着警惕与怀疑。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:见没人回答，卡萝主动上前，抓起了对讲机。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:之前没说还有其他人。
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>要送的货物有一些特殊，对讲机下面有个箱子，你们把布掀开。</color>
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3><BGM>GF_EV9_Intermission</BGM>:卡萝一把掀起了旁边的白色防尘布，一个长方形的箱子露了出来。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这么大？！
-()<Speaker></Speaker>||:箱子足有一米多长，宽、高不到半米；一个人搬运起来确实有些不便。
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>如你们所见，要转移的货物有一些大，三人合作是我们评估后的最佳选择。</color>
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:那酬金呢？也要三个人分？
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>酬金不变，和之前说好的一样。</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一直没有说话的指挥官仔细打量着箱子，钛合金的材质，装了两块最先进的指纹生物锁。
-()<Speaker>指挥官</Speaker>||:箱子里面是什么？
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>你们不需要知道。</color>
-()<Speaker></Speaker>||:女人说话的语调极具特点，不带一丝情绪起伏，像是被特殊训练过。
-()<Speaker></Speaker>||:冷漠的声音透过对讲机传到狭小拥挤的仓库里，不经意地显露出高高在上。
-()<Speaker></Speaker>||:卡萝停止了从气孔里窥探箱子的行为，抓过指挥官手中的对讲机。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂！想让我们办事，最好拿出点诚意。
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>我以为，优厚的报酬已经展现了我的诚意。</color>
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可是这不公平。你是谁、箱子里是什么，我们都不知道。
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>你们真的想要知道吗？</color>
-()<Speaker></Speaker>||:对讲机前的三人沉默了。
-()<Speaker></Speaker>||:知道的越多，往往意味着更多的危险。
-()<Speaker></Speaker>||:箱子上难以打开的锁，保护的不只是里面的东西，也是护送它的人。
-()<Speaker>指挥官</Speaker>||:不必了。
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>今晚19点从这里出发，请在24小时内将箱子送达北山酒店，过程中务必保证箱子的安全，不可使之遭受枪击或猛烈撞击。</color>
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>就当是……里面装了一个精美的瓷器。</color>
-()<Speaker>女人的声音</Speaker>||:<color=#00CCFF>祝各位好运。</color>
+()<Speaker></Speaker>||:It is an old warehouse that has been unused for some time. The lights are off, so it's impossible to see what's inside.
+()<Speaker>Commander</Speaker>||:This is the right address... Hm?
+()<Speaker></Speaker>||:The Commander pauses, spotting a large cardboard box to the left.
+()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_21Winter_Open_Light</SE1><BGM>BGM_Empty</BGM>:Click. A warm light flickers on above, casting a soft glow—and a round little shadow—by the box.
+()<Speaker>???</Speaker>||:Uh...
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1><BGM>BGM_Sneak</BGM>:A girl with her hair in high buns stands up behind it, backpack slung over her shoulders, looking annoyed.
+NPC-P90_AB(0)<Speaker>???</Speaker><Position>0,-50</Position>||:This place is terrible for hiding!
+NPC-P90_AB(0)<Speaker>Commander</Speaker><Position>0,-50</Position><同时置暗>||:Come on out.
+NPC-P90_AB(0)<Speaker>???</Speaker><Position>0,-50</Position>||:What?
+()<Speaker></Speaker>||<震屏3><SE1>ClothingUp</SE1>:From the top of a nearby shelf, a black-clad girl flips down lightly, landing without a sound.
+NPC-MDR_AB(0)<Speaker>???</Speaker>||:How did you spot me?
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>???</Speaker><Position>0,-50</Position>||:There's another one?!
+NPC-MDR_AB(0)<Speaker>???</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:I saw you come in.
+NPC-MDR_AB(0)<Speaker>???</Speaker>||:You really thought a bag that big would be hidden behind a box? I've got the footage~
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She smugly waggles a camera in her hand.
+NPC-P90_AB(0)<Speaker>???</Speaker><Position>0,-50</Position>||:You! ...I was hidden just fine until they suddenly flipped on the lights... Who are you people?
+()<Speaker></Speaker>||:The dusty warehouse falls into tense silence as the three size each other up.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:I'm Kuro. From your look, you're both operatives too?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The girl with the high buns nods.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Mityl.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:An anonymous client contacted me two days ago and told me to be here today to take a job.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Same here.
+()<Speaker>Commander</Speaker>||:Me too. But I wasn't told there'd be others—
+()<Speaker>Female Voice</Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>You're all here. Allow me to introduce myself—I'm the contractor for this mission.</color>
+()<Speaker></Speaker>||:A radio sitting on a cloth-draped box blinks red, active with the woman's voice.
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>I need the three of you to work as a team. Your task is to deliver the cargo to Northridge.</color>
+()<Speaker></Speaker>||:Her sudden voice echoes sharply through the cramped space. The three gather around the box, eyes wary and uncertain.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Kuro steps up and grabs the radio.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:You didn't say there'd be other people.
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>The cargo is... a bit unusual. Look under the cloth, just below the radio.</color>
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3><BGM>GF_EV9_Intermission</BGM>:Kuro pulls off the white dust cover, revealing a large rectangular container.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:This big?!
+()<Speaker></Speaker>||:The box is over a meter long, and nearly half as wide and tall. Definitely not something one person can handle alone.
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>As you can see, transport is best done with three. This is based on our risk assessment.</color>
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:And the reward? We still split the same pay three ways?
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>Your individual reward stays the same. As promised.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander, who has been silent until now, inspects the box closely. Titanium alloy shell. Two advanced biometric fingerprint locks.
+()<Speaker>Commander</Speaker>||:What's inside?
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>That's not information you need.</color>
+()<Speaker></Speaker>||:The woman's voice is striking—devoid of emotion, as though trained to suppress it.
+()<Speaker></Speaker>||:It echoes coldly from the radio, with an air of superiority.
+()<Speaker></Speaker>||:Kuro stops peeking through the air vents and grabs the radio from the Commander.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Hey! If you want us to work for you, try showing a little sincerity.
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>I assumed generous compensation already showed my sincerity.</color>
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Still doesn't seem fair. We don't know who you are, or what's in the box.
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>Do you really want to know?</color>
+()<Speaker></Speaker>||:The three lapse into silence.
+()<Speaker></Speaker>||:Knowing more often means greater risk.
+()<Speaker></Speaker>||:The heavy locks are there to protect not only the cargo, but also the ones carrying it.
+()<Speaker>Commander</Speaker>||:No need.
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>Depart from this warehouse at 1900 hrs tonight. Deliver the box to the Northridge Hotel within 24 hours. Ensure the cargo remains undamaged—no gunfire, no heavy impact.</color>
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>Think of the cargo as... a piece of fine porcelain.</color>
+()<Speaker>Female Voice</Speaker>||:<color=#00CCFF>Good luck.</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:为什么一定要等到19点？
-()<Speaker></Speaker>||:对讲机没有回应。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂！喂？
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1><震屏3>:卡萝气急败坏地把对讲机摔到了地上。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>Rope</SE1>:要是让我知道她是谁，我一定帮她宣传到整个暗区。
-()<Speaker></Speaker>||:指挥官仔细打量着箱子，伸手抬了抬。
-()<Speaker>指挥官</Speaker>||:大概120斤……恐怕需要交通工具。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:这个好办。一会儿去搞辆车来，沿公路开过去，天亮就该到了，根本用不了24小时。
-()<Speaker>指挥官</Speaker>||:恐怕没有这么简单……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:委托人是谁，你们知道吗？
-()<Speaker></Speaker>||:仓库陷入了沉默，无人回答这个问题。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:指挥官拍了拍手上沾上的尘土，朝门外走去。
-()<Speaker>指挥官</Speaker>||:现在还有些时间，各自去准备吧，傍晚再见。
-()<Speaker>指挥官</Speaker>||:希望我们……合作顺利。
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Why exactly do we have to wait until 1900 hrs?
+()<Speaker></Speaker>||:The radio stays silent.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Hey! ...Hello?
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1><震屏3>:Kuro, frustrated, hurls the radio to the ground.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>Rope</SE1>:If I find out who she is, I'll stink up her name across the whole damn Dark Zone.
+()<Speaker></Speaker>||:The Commander lifts the box slightly.
+()<Speaker>Commander</Speaker>||:About 60 kilos... We'll need transport.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Not a problem. I'll grab a vehicle. Stick to the main road and we'll make it by morning. We won't even need 24 hours.
+()<Speaker>Commander</Speaker>||:I doubt it'll be that simple...
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Do either of you know who she is?
+()<Speaker></Speaker>||:Silence. No answer.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:The Commander brushes the dust from their hands and heads for the door.
+()<Speaker>Commander</Speaker>||:We've got some time, we should go get ready. See you at sundown.
+()<Speaker>Commander</Speaker>||:Let's... try our best to work together.
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_Door_Open_Close</SE1><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_TK_face</BGM><黑屏2><BIN>479</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:马尔洛斯城，一个简陋的医疗所里。
-NPC-Evita_AB(0)<Speaker>？？？</Speaker>||:好久不见。
-()<Speaker></Speaker>||:不大的房间放着各式医疗用品，桌子后面，一个短发女人支着下颌，与指挥官打了个招呼。
-()<Speaker>指挥官</Speaker>||:好久不见，艾薇塔。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:摘下背包，指挥官把里面的东西倒在女人面前的桌上，武器、弹药、配件……杂七杂八铺了一桌。
-()<Speaker>指挥官</Speaker>||:上次任务就带回了这些，能卖多少？
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:我看看……一共两万三科恩币。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:这么少？……哦，还有这个。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官从口袋里掏出那枚水滴形的金坠子，递了过去。
-()<Speaker>指挥官</Speaker>||:这单赚得不多，对方是个普通妇人，从别人那里听说可以花钱雇佣特遣队员，就找到了我。只是可惜了……
-()<Speaker>指挥官</Speaker>||:对了，告诉她这些的也是个医生，从马尔洛斯过去的。不知你认不认识？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:艾薇塔接过了金坠子，没有仔细打量便给出了报价。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:三万。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:不用看下重量？
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:不必了。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:我有听说，你因为这个委托得罪了硕鼠帮，他们正在全城搜捕你。
-()<Speaker>指挥官</Speaker>||:已经撞见了。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:艾薇塔把桌上的东西收了起来，又从身后的货架上搬出一个箱子。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:还是老样子？5个E3军用医疗包、3个浓缩镇痛剂、3个标准军用手术包……还剩一万三千六柯恩币。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:艾薇塔一边说着，一边熟练地从箱子中拿出药品。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:犹豫了一下，又从货架上取来一个白色的药瓶。
-()<Speaker>指挥官</Speaker>||:这个我可买不起。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:送你了。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:最近这段时间，不要留在马尔洛斯，最好找个外出的任务。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:指挥官闻言挑眉，拿过药瓶向上抛了抛。
-()<Speaker>指挥官</Speaker>||:硕鼠帮的背后是谁，能值得一瓶特效止痛药？
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:多斯。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:闻言，指挥官手上的动作慢了半拍，药瓶跌在桌上向外滚去，被艾薇塔按住。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:多斯•安东尼。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:你知道的，安东尼家族在暗区几代经营，睚眦必报。得罪了他们，还是多做点准备的好。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:E3军用医疗包帮我减掉2个。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:嗯？
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:手头拮据。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你说的对，现在看来，我该去多买一点弹药了。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:并没有取走医疗包，艾薇塔将桌上的东西推给指挥官。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:算了，不介意再多送2个医疗包给你，当是感谢你完美完成了之前我的所有委托。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:谢了。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:之后什么打算？
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:刚好有个任务要去外面跑一趟。
-()<Speaker>指挥官</Speaker>||:本来还在犹豫，可如今看来留给我的选择并不多……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:接过了对方递来的东西和找回的柯恩币，指挥官却没有要离开的意思。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:嗯？
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你还没有回答我之前的问题。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:在北面镇上支援，指点那个妇人来找我的医生，你认不认识？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:艾薇塔面上僵住了一瞬，随后笑容从嘴角漾开，从抽屉里拿出一个丝绒盒子，把金坠子放了进去，大小刚好。
-NPC-Evita_AB(0)<Speaker>艾薇塔</Speaker>||:果然瞒不过你。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:下次有委托，不用这么麻烦，直接联系我。
-NPC-Evita_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:毕竟没钱可逃不过多斯的追捕。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:摆了摆手当做告别，指挥官转身离开。
-()<Speaker></Speaker>||:身后的艾薇塔立在桌前，眼神在长睫的遮挡下看不大清。
+()<Speaker></Speaker>||:In a shabby little clinic in Marulos.
+NPC-Evita_AB(0)<Speaker>???</Speaker>||:It's been a while.
+()<Speaker></Speaker>||:The room isn't large, but it's stocked with various medical supplies. Behind the table, a short-haired woman props up her chin and greets the Commander.
+()<Speaker>Commander</Speaker>||:It's been a while, Evita.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander takes off their backpack and dumps its contents onto the table—weapons, ammo, gun accessories... all strewn messily across the surface.
+()<Speaker>Commander</Speaker>||:This is all I brought back from the last job. How much can I get for it?
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:Let me see... 23k Koens.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:That's it? ...Oh, and this.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander pulls a droplet-shaped gold pendant from their pocket and hands it over.
+()<Speaker>Commander</Speaker>||:Didn't make much on this one. The client was just an ordinary woman who heard that she could hire a special operative with money, so she came to me. Pity though...
+()<Speaker>Commander</Speaker>||:Oh, and the one who told her that was a doctor. From Marulos, apparently. Do you know them?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Evita takes the pendant and gives her price without inspecting it closely.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:30k.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:You're not even going to check the weight?
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:No need.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:I heard you got on the Sewer Rats' bad side because of this job. They're hunting you all across the city.
+()<Speaker>Commander</Speaker>||:Yep, almost ran into them.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Evita starts packing up the items on the table, then hauls out a crate from the shelf behind her.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:Same as always? Five E3 military medkits, three Liquid Painkillers, three standard surgical packs... That leaves you with 13,600 Koens.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Car_Open</SE1>:As she speaks, she pulls out the supplies smoothly and efficiently.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Then, after a brief moment of hesitation, she grabs a white pill bottle from the shelf.
+()<Speaker>Commander</Speaker>||:I can't afford that.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:It's on the house.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:You should skip town for a while. Best take an assignment that gets you out of here.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Medicine_Bottle</SE1>:The Commander raises an eyebrow at that, tossing the pill bottle gently and catching it again.
+()<Speaker>Commander</Speaker>||:Who's backing the Sewer Rats? What have I done to earn a free bottle of EX Painkillers?
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:It's Doss.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander's hand freezes mid-air. The bottle slips, rolls across the table, and is caught by Evita.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:Doss Anthony.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:You know how the Antonio family has run things for generations in the Dark Zone. They're vengeful as hell, and you've crossed them... Best to prepare for the worst.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Take two of the medkits off the order.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:Hm?
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:I'm running low on funds.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:And you're absolutely right. At this rate, I should be spending more on ammo instead.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Evita doesn't take back the medkits. Instead, she pushes the whole pile toward the Commander.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:Forget it. I don't mind giving you two extra kits. Consider it a thank-you for completing all my past jobs so perfectly.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Thanks.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:So what's your plan now?
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:There just so happens to be a mission coming up that'll take me out of town.
+()<Speaker>Commander</Speaker>||:I was still debating it, but I guess my options are pretty limited now...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander takes the supplies and the remaining Koens, but doesn't head for the door.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:Hm?
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:You never answered my earlier question.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:The doctor who helped that woman back in the northern town—do you know them?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Evita freezes for just a moment. Then a smile spreads across her face. She opens a drawer, pulls out a velvet box, and places the pendant inside. A perfect fit.
+NPC-Evita_AB(0)<Speaker>Evita</Speaker>||:I knew I couldn't hide it from you.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Next time you've got a job, just come to me directly.
+NPC-Evita_AB(0)<Speaker>Commander</Speaker><同时置暗>||:After all, I need all the money I can get to evade Doss' manhunt.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Waving a casual goodbye, the Commander turns and walks out.
+()<Speaker></Speaker>||:Behind them, Evita stands silently at the table, her gaze unreadable under her long lashes.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<Night><SE1>AVG_amb_wilderness</SE1><黑屏2><BIN>5</BIN><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:所以为什么我们会在这里？
-()<Speaker></Speaker>||:19点15分，马尔洛斯城运河码头。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:已经离开了仓库，三人抬着箱子准备登船。
-()<Speaker>指挥官</Speaker>||:指定19点出发，总感觉不大对劲。
-()<Speaker>指挥官</Speaker>||:伪装成走私商人跟着货船北上，或许可以少一点沿途的麻烦。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:支持，谁能想到我们会走水路呢？
-()<Speaker></Speaker>||:米蒂尔身上背着她那个巨型背包，眼睛里的兴奋掩盖不住。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:……其实你只是觉得好玩吧？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯……只是听上去他的计划确实更加妥当。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:抬着箱子，三人朝靠在岸边的货船走去；此刻的码头上只有那里还亮着灯。
-()<Speaker>指挥官</Speaker>||:记住，我们是商人，箱子里是货物，不要露馅了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:放心交给我，这个我擅长~
-()<Speaker>男子</Speaker>||<SE1>RunStep</SE1>:他们在那儿！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>10345</BGM>:伴随着一声呼喊，三人身后响起了杂乱的奔跑声。
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><SE1>AVG_Bullte_Ricochet</SE1><震屏3>:“咣——“第一枪子弹已经射到了旁边的集装箱上。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_weapon_reload</SE1>:麻烦找来了。
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:So what are we doing here?
+()<Speaker></Speaker>||:1915 hrs, at the canal port in Marulos.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The warehouse is behind them now. The trio are carrying the large box, preparing to board the boat.
+()<Speaker>Commander</Speaker>||:Departure was set for exactly 1900 hrs... It just feels so fishy.
+()<Speaker>Commander</Speaker>||:We're posing as smugglers hitching a ride north. Should be less trouble along the way.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position><Shake>||:Smart. No one would expect us to take the water route.
+()<Speaker></Speaker>||:Mityl's eyes sparkle with barely-contained excitement. Her oversized backpack bounces with every step.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:...You just think it sounds fun, don't you?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Hmm... Well, their plan does sound more reliable.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The three approach the freighter docked at the embankment. It is the only boat still lit at the port.
+()<Speaker>Commander</Speaker>||:Remember, we're merchants. That box is "cargo". Don't let anything slip.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Relax and leave it to me—I'm great at this!
+()<Speaker>Man</Speaker>||<SE1>RunStep</SE1>:There they are!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><BGM>10345</BGM>:A shout rings out behind them, followed by the pounding of feet on pavement.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><SE1>AVG_Bullte_Ricochet</SE1><震屏3>:Bang! The first shot hits a shipping container nearby.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>AVG_weapon_reload</SE1>:Trouble already?
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><震屏3><SE1>AVG_rifle_finalshot_n</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:快速上弹，卡萝放下箱子，循声朝子弹射来的位置点了两枪。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE1>Select</SE1>:才刚刚出发，怎么这么快？不是说好水路更安全吗？
-()<Speaker></Speaker>||:码头空荡，只堆放着一些集装箱，几百米外就是货船，在这里交火很难不引起船员的注意。
-()<Speaker>指挥官</Speaker>||:还不清楚对方是谁，不要暴露身份。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:走，先进仓库。
-()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1>:Kuro drops the box and quickly loads her weapon. She fires two shots in the direction that the bullet came from.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<SE1>Select</SE1>:We just left! Wasn't the water route supposed to be safer?
+()<Speaker></Speaker>||:The port is mostly empty, with just a few containers piled about. The freighter is a few hundred meters away—far too close for a firefight to go unnoticed.
+()<Speaker>Commander</Speaker>||:We don't know who they are yet. Don't expose your identity.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:Move! Into the warehouse!
+()||<黑点1>:

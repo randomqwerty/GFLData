@@ -1,183 +1,183 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<SE1>AVG_Moto_Run</SE1><Night><黑屏2><BIN>1</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_NightOPS</BGM>:三人重新上车，载着箱子，朝北山酒店的方向出发。
+()<Speaker></Speaker>||<BGM>BGM_NightOPS</BGM>:The trio get back in the car with the box and head toward the Northridge Hotel.
 ()||<黑点1>:
-()<Speaker></Speaker>||<Night><BIN>730</BIN><SE1>AVG_20Winter_Book</SE1><黑点2>:卡萝从后座换到了副驾，手里拿着一份巨大的地图，研究着路线。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:不愧是从多斯那儿拿到的东西，我还没见过这么详细的暗区地图。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我们现在在这儿，北山酒店在我们的东北方；想要过去的话，要经过矿区……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:呃……希望矿区那边的老大不要对这个箱子感兴趣。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:可能性不大。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:有没有什么路，可以避开这些大的势力范围，哪怕绕一点也可以，我们还剩下……13个小时。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:矿区和农场，你选一个。
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……我对这两块墓地都不是很满意。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:往好处想，或许我们可以安全通过呢。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……
-()<Speaker>指挥官</Speaker>||:我知道一条路，但是车开不过去。而且，不是很好走。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:在哪儿？总会比这两个地方好吧。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:看看后面的物资里，有没有登山的装备。
-()<Speaker>指挥官</Speaker>||:这座山的南侧峭壁有一条路，我们从这里，翻上去。
+()<Speaker></Speaker>||<Night><BIN>730</BIN><SE1>AVG_20Winter_Book</SE1><黑点2>:Kuro climbs from the back seat into the front passenger seat. She unfolds a massive map and studies the route.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:This is truly a treasure we got from Doss—it's the most detailed map of the Dark Zone I've ever seen.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:We're here right now, and the Northridge Hotel is northeast of us. To get there, we'll have to pass through the mines...
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Ugh... Let's hope the boss there isn't interested in this box.
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Don't count on it.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Is there any route that avoids the large factions' territories? We can go the long way. We still have... 13 hours.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:The mines or the farm. Take your pick.
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...Not thrilled about either of those graveyards.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:Look on the bright side—we might make it through without trouble.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...
+()<Speaker>Commander</Speaker>||:I know a way, but we can't take the car. And it's not an easy climb.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Where is it? It has to be better than the other two options.
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Check the gear in the back. See if we have any climbing equipment.
+()<Speaker>Commander</Speaker>||:There's a path on the south face of the mountain. If we start from here, we can climb up and go over.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<bg_move>%%pivot_x=0.5%%pivot_y=0.43%%scale=1.5%%duration=0%%</bg_move><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<回忆><BIN>799</BIN><SE1>AVG_AMB_Wind</SE1><黑屏2><Night><CGDelay>0.5</CGDelay>:四年前，山地南侧峭壁。
-()<Speaker>指挥官</Speaker>||:这边，这有个落点。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:指挥官和黑卡蒂正在峭壁上徒手攀爬，夜晚的大风无疑增加了他们的攀岩难度。
-()<Speaker></Speaker>||:为了避免打草惊蛇，两人把头灯的亮度调到了最暗，每一步落脚都万分小心。
-()<Speaker>指挥官</Speaker>||:没想到最后只派了我们两个走这条路，真的遇到敌人也是个麻烦。
-()<Speaker>指挥官</Speaker>||:你不会和你们长官有仇吧？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:……
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:还没问，你叫什么名字？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你不需要知道。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:要是有什么事情，我总该知道怎么喊你吧。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:这里没有第三个人，我自然知道你是在和谁说话。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:别拖后腿。
+()<Speaker></Speaker>||<回忆><BIN>799</BIN><SE1>AVG_AMB_Wind</SE1><黑屏2><Night><CGDelay>0.5</CGDelay>:Four years ago, on the south cliff of the mountain.
+()<Speaker>Commander</Speaker>||:Over here, there's a foothold.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The Commander and Hecate scale the sheer cliffside with their bare hands. The strong night wind makes the climb all the more treacherous.
+()<Speaker></Speaker>||:To avoid alerting enemies, they've dimmed their headlamps to the lowest setting. Every step and grip is executed with painstaking care.
+()<Speaker>Commander</Speaker>||:Didn't think they'd only send the two of us this way. If we run into hostiles, it's going to be a problem.
+()<Speaker>Commander</Speaker>||:Did you piss off your superiors or something?
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:...
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Haven't asked yet—what's your name?
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:You don't need to know.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:If something happens, I should at least know what to call you.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:There's no one else here. Obviously, I'll know you're talking to me.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Don't slow me down.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂没有继续理会指挥官，而是利落地几个翻身，借助岩壁上的凸起，爬到了指挥官的前面。
-()<Speaker>指挥官</Speaker>||:小心……
-()<Speaker>指挥官</Speaker>||:现在我知道，你们长官为什么不待见你了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官抬头，用头灯照亮了眼前的一小块山壁，仔细观察着。
-()<Speaker>指挥官</Speaker>||:今天白天考察地形的时候，我注意到这边的植被比其他地方都少，像是被人为清理过，所以怀疑有一条可能的攀岩路径。
-()<Speaker>指挥官</Speaker>||:你是怎么发现的？
-()<Speaker></Speaker>||<SE1>Rope</SE1>:黑卡蒂停了下来，左手单手挂在一块凸起的岩石上，右手从口袋里摸出一个东西，递了过去。
-()<Speaker>指挥官</Speaker>||:挂片？用来挂安全绳的？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:嗯，下面捡的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂把挂片收了回去，继续向上攀爬。指挥官在周围仔细摸索了一下，毫无收获。
-()<Speaker>指挥官</Speaker>||:看来确实有路没错了。
-()<Speaker>指挥官</Speaker>||:已经至少离地15米了，还没有找到其他挂片……如果有的话，我们爬起来也能轻松一些——
-()<Speaker>指挥官</Speaker>||:欸！
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:指挥官突然脚下一滑，向下栽倒，全靠右手单手支撑，挂在了崖壁上。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:废物……
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:嘴上如此说着，已经爬到上面去的黑卡蒂还是向下降了两米，回到了指挥官旁边。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:还撑得住？
-()<Speaker>指挥官</Speaker>||:可以的。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:指挥官在山壁上小心地找到一处支撑点，重新稳住了自己，然后从小腿后抽出两块薄薄的钢板，丢了下去。
-()<Speaker>指挥官</Speaker>||:带着还是不方便。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:这是什么？
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:《卡莫纳地区行动准则》第十一条第三节：“针对不可击毙的目标，优先攻击目标小腿等部位，限制其移动能力。”
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:我没记错吧，你们军队的行动准则。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:……没错。
-()<Speaker>指挥官</Speaker>||:哈哈……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hecate doesn't engage further. With swift, practiced movements, she uses the natural protrusions of the rock to overtake the Commander.
+()<Speaker>Commander</Speaker>||:Careful...
+()<Speaker>Commander</Speaker>||:Now I understand why your superiors don't like you.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander looks up and aims their headlamp at a small patch of rock, inspecting it carefully.
+()<Speaker>Commander</Speaker>||:When I was scouting the terrain in daylight, I noticed this area had far less vegetation than the rest. It looked like it'd been cleared by hand—made me suspect there might be a climbable route.
+()<Speaker>Commander</Speaker>||:How'd you spot that?
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Hecate stops. Hanging by her left hand from a jutting rock, she pulls something from her pocket with her right.
+()<Speaker>Commander</Speaker>||:A piton? For securing ropes?
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Mm. Found it below.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She tucks it away again and continues her climb. The Commander searches the surrounding wall but finds nothing.
+()<Speaker>Commander</Speaker>||:So there is a path up alright.
+()<Speaker>Commander</Speaker>||:We're already at least 15 meters off the ground and haven't found any other pitons... If there were more, this climb would be a lot easier—
+()<Speaker>Commander</Speaker>||:Ah!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:The Commander slips, their foot skidding off the rock. They catch themselves with their right hand, now dangling off the cliff.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Useless...
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:Even as Hecate mutters the insult, she descends two meters without hesitation and returns to the Commander's side.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Still holding on?
+()<Speaker>Commander</Speaker>||:I'm fine.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander finds another foothold and steadies themself, then pulls two thin steel plates from behind their calf and drops them.
+()<Speaker>Commander</Speaker>||:Too cumbersome to keep carrying.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:What are those?
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:"Kamona Rules of Engagement, Article 11, Section 3—'When aiming to take targets alive, prioritize disabling shots to the legs to impair mobility.'"
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:I got that right, didn't I? It's from your military handbook.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:...Yes.
+()<Speaker>Commander</Speaker>||:Haha...
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:外来军队与本土特遣队员，对彼此微妙的关系心照不宣；指挥官与黑卡蒂没有在此问题上继续交谈，沉默地继续攀爬。
-()<Speaker>指挥官</Speaker>||:你看。
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:指挥官停了下来，从怀中掏出一个小手电筒，照向旁边的山壁。
-()<Speaker></Speaker>||:一枚挂片深深地钉在岩壁上。
-()<Speaker>指挥官</Speaker>||:我们是对的。
-()<Speaker></Speaker>||:找到了一个挂片，两人很快循着路径找到了第二、第三枚……
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:They both understand the delicate relationship between foreign forces and Kamona's local task units. Neither chooses to comment further, and the climb continues in silence.
+()<Speaker>Commander</Speaker>||:Look.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:The Commander stops and pulls out a small flashlight, directing the beam at a section of rock nearby.
+()<Speaker></Speaker>||:A piton is driven deep into the cliff face.
+()<Speaker>Commander</Speaker>||:We were right.
+()<Speaker></Speaker>||:With that piton found, they quickly locate a second and third along the path.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:将一直背在身后的安全绳用锁扣固定在挂片上，有了绳索的帮助和保护，两人一路向上，很快便到了山腰。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Attaching their climbing rope with carabiners, they begin securing their ascent. With the added safety and support, they move faster and are soon halfway up the mountain.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><回忆><bg_move>%%pivot_x=0.5%%pivot_y=0.55%%scale=1.5%%duration=0%%</bg_move>:高处的山风更大，为了安全，两人不得不放缓了攀登的速度。
-()<Speaker>指挥官</Speaker>||:为什么不用一条安全绳？这么大的风，如果我们连在一起，出了问题也好照应。
-()<Speaker>指挥官</Speaker>||:如果我没搞错的话，现在我们可还是同伴。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:我一个人就可以。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:但那样更安全。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:安全绳是攀岩者的第二条命，我对把命交到别人手上没有兴趣。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:战场上，你要足够信任你的队友。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:只有弱者才需要抱团。
+()<Speaker></Speaker>||<黑点2><回忆><bg_move>%%pivot_x=0.5%%pivot_y=0.55%%scale=1.5%%duration=0%%</bg_move>:The wind grows stronger the higher they go. For safety, they have to slow their pace.
+()<Speaker>Commander</Speaker>||:Why aren't we using the same rope? With wind this strong, we'd be able to help each other if something happens.
+()<Speaker>Commander</Speaker>||:If I'm not mistaken, we're still on the same side.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:I can handle myself.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:But it'd be safer.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:A rope is a climber's second life. I'm not putting mine in someone else's hands.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:On the battlefield, you need to trust your teammates.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Only the weak need to huddle together.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:见黑卡蒂态度强硬，指挥官放弃了继续这个话题。转眼间，两人又向上攀升了十几米。
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1><BGM>BGM_Empty</BGM>:突然，爬在上面的黑卡蒂关掉了自己的头灯。
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:指挥官不知原因，但迅速效仿，停了下来。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:一根速降绳被从上方抛了下来。
-()<Speaker>男人</Speaker>||<CGDelay>0.5</CGDelay>:把人质带上，从崖壁撤退。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Seeing that Hecate isn't budging on this, the Commander drops the subject. In no time, they ascend another dozen meters.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1><BGM>BGM_Empty</BGM>:Suddenly, Hecate turns off her headlamp.
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:The Commander doesn't know why, but they quickly do the same and grow still.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:From above, a rappel rope drops down.
+()<Speaker>Man</Speaker>||<CGDelay>0.5</CGDelay>:Bring the hostage up. We're pulling out.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>799</BIN><CGDelay>0.5</CGDelay>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<BGM>BGM_stage11</BGM>:你就是那个时候发现这条路的？
-()<Speaker></Speaker>||:已经到了清晨，距离委托人约定的时间还剩下最后的12小时。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官与卡萝、米蒂尔三人，艰难攀爬在山地南侧的峭壁上。
-()<Speaker>指挥官</Speaker>||:嗯，没想到几年了，它还在。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:那黑卡蒂不是也知道吗？如果她在这边埋伏我们……
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:是有这个可能，但总比直接去矿区正面冲突要好。
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:至少，山路这么难走，就算黑卡蒂埋伏在这儿，也带不了很多人。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:但还是有风险啊喂，我可一点都不想再遇到那个女人了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:希望白烨戈的计策有效，让黑卡蒂不要再追着我们了。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:三人的安全绳稳稳连在一起，指挥官在最前方为两人引路，卡萝和米蒂尔跟在后面。
-()<Speaker></Speaker>||:箱子被放在了山脚下，绑了绳子，被指挥官牵在身上。
-()<Speaker>指挥官</Speaker>||:再往上有一个小平台，我们先爬到那儿，再把箱子拉上来。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE1>Rope</SE1>:还有多远？我快要爬不动了。
-()<Speaker></Speaker>||:排在最后一个的米蒂尔向上呼喊，为了能够减轻身上的负重，她好不容易重新填满的背包也被丢在了下面。
-()<Speaker>指挥官</Speaker>||:快了。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:指挥官已经够到了平台的边缘，双手撑地一个用力，翻身爬了上去。
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<BGM>BGM_stage11</BGM>:You discovered this path back then?
+()<Speaker></Speaker>||:It is now dawn. Only 12 hours remain until the deadline set by the client.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander, Kuro, and Mityl struggle up the steep southern face of the mountain.
+()<Speaker>Commander</Speaker>||:Mhm. I didn't think it'd still be here after all these years.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Then Hecate must know about it too, right? What if she's lying in ambush...
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:It's possible, but it's still better than walking straight into the mines and risking a direct confrontation.
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:At least this route is so rough that even if Hecate's waiting, she can't bring many people with her.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Still risky as hell. I really don't want to run into that woman again.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Let's hope Beluga's plan worked and Hecate isn't chasing us anymore.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The three of them are tied together securely by a single climbing rope, with the Commander leading the way, and Kuro and Mityl following behind.
+()<Speaker></Speaker>||:The box has been left at the base of the mountain, tied to the rope and secured to the Commander's harness.
+()<Speaker>Commander</Speaker>||:There's a small ledge ahead. We'll climb there first and pull the box up from there.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<SE1>Rope</SE1>:How far is it? I'm getting tired.
+()<Speaker></Speaker>||:Mityl calls from the back. To lighten her load, she had even abandoned the freshly restocked backpack at the foot of the mountain.
+()<Speaker>Commander</Speaker>||:Almost there.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:The Commander reaches the edge of the platform, braces both hands on the rock, and pulls themself up.
 ()||<黑点1>:
-()<Speaker>指挥官</Speaker>||<黑点2>:！
-()<Speaker></Speaker>||<SE1>Select</SE1><SE1>AVG_weapon_reload</SE1>:平台上面，黑卡蒂和四名黑金队员，正在等他。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你们动作比我想象的要慢。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:即便平台上已经有了5个枪口，但此时此刻，这样的地理位置，除了爬上来，三人别无选择。
-()<Speaker>指挥官</Speaker>||:别开枪，都好商量。
-()<Speaker></Speaker>||:三人站在悬崖边缘，眼前是等待多时的黑金国际。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:好久不见。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:好久不见，我还以为你没认出来。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:虽然不想承认，但你放在小腿后的钢板确实有点用处。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:原来是这里暴露了……你倒是没怎么变。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:叙旧结束。还是一样的条件，箱子交出来，放你们一条生路。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我们没有箱子。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:昨天我们和多斯在794号桥的战斗，动静那么大，黑金国际不可能没有收到消息。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:多斯是带走了一个箱子。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:但我要的是你们这个。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……你都看到了，我们三个现在都站在这里，没有什么箱子。
-()<Speaker>指挥官</Speaker>||:弄丢了东西，怕被雇主追究，我们现在只想避避风头。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:那就把你身上系着的那根绳子扔下去。
-()<Speaker></Speaker>||:指挥官身上正系着一根登山绳，绳子的另一端，绑在了被搁在山脚的箱子上。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:把箱子拉上来。
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><震屏3>:米蒂尔和卡萝两个人看向指挥官；黑卡蒂朝天开了一枪。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:拉上来！
-()<Speaker></Speaker>||:指挥官点了点头。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:米蒂尔和卡萝从指挥官手中接过了绳子，三人合力，缓缓拉动了箱子。
-()<Speaker></Speaker>||:并没有使出全部的力气，指挥官想办法拖延着时间。
-()<Speaker>指挥官</Speaker>||:我有一个问题，黑金应该不止在追这一个箱子吧。
-()<Speaker>指挥官</Speaker>||:但为什么深渊小队的队长要亲自来追我们这条线索？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:……
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:我只是单纯的好奇。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你们的委托人假装对外泄露消息，说真的在你们这儿。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:消息泄露得太过巧合，大多数人都判断，你们的箱子是假的，是委托人放出来的靶子。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:但我不这么认为。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:我赌他多算计了一层，也赌你们没有弄丢它。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:说实话，我也不知道这个箱子是不是真的。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:但第二点，你赌对了。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:箱子已经被拉到了半空，只差两三米就可以拉上平台；三个人放缓了手下的速度，用眼神交流着接下来该怎么办。
-()<Speaker>黑金队员</Speaker>||<SE1>Select</SE1>:快点！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:突然出声的黑金队员吓了米蒂尔一跳，向后退了一步，却踩到了一颗碎石。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:不小心跌倒在地，米蒂尔手中一松，箱子瞬间下坠了几米。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker><Shake>||<震屏3>:<size=50>拉住！</size>
-()<Speaker></Speaker>||:黑卡蒂下意识地向前，想去拉住绳子，却反应了过来，及时顿住。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:指挥官与卡萝被向前拖了两步才止住箱子下坠，爬起来的米蒂尔连忙抓住绳子，稳住了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……对不起。
-()<Speaker>指挥官</Speaker>||:没事。
-()<Speaker></Speaker>||:见箱子已被拉住，黑卡蒂几不可见地松了口气，示意两边的黑金队员不要轻举妄动。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:快拉上来，别耍什么花招。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:然而指挥官却不动了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:<size=25>怎么了？</size>
-()<Speaker></Speaker>||:见指挥官不再继续拉动绳子，卡萝与米蒂尔跟着停了动作，小声询问。
-()<Speaker>指挥官</Speaker>||:<size=25>信我。</size>
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你做什么？
-()<Speaker>指挥官</Speaker>||:退后，否则我就把箱子摔下去。
-()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_arenabreakout_battle2</BGM>:如今的局面，指挥官三人毫无保护地站在悬崖边上，手中的绳子绑着箱子，悬在半空，距离地面至少有50米的高度。
-()<Speaker>指挥官</Speaker>||:如果我们死亡或受伤，箱子一定会和我们一起从悬崖上掉下去，没有人来得及阻拦。
-()<Speaker>指挥官</Speaker>||:虽然不知道箱子里是什么，但看你刚刚的反应，应该很怕它会坠落吧。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>退后！</size>
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:对！退后！否则我们就把它摔下去！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂死死盯着指挥官，随后摆手，黑金队员们退到了5米开外。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:箱子在你们手上，可你们的命在我手里；这样僵持下去不会有结果。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:把箱子交给我，我可以举荐你们加入黑金国际。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你知道的，四年前我就邀请过你，加入当时的部队。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:是的，但我的答案和四年前一样。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:如今局面，拖下去对你们更加不利。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:但我们无所谓。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:知道一直以来，你的弱点是什么吗？
-()<Speaker></Speaker>||:黑卡蒂没有回答，面上的神情也未发生变化；但指挥官知道，她别无选择。
-()<Speaker>指挥官</Speaker>||:你怕输。
-()<Speaker>指挥官</Speaker>||:我们打个赌。如果我们三个可以在你们的包围下成功突围，就让我们带箱子走。
-()<Speaker>指挥官</Speaker>||:如果不能，箱子就是你们的了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝想要说些什么，被米蒂尔拉住了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我相信我们一定可以的！
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:难道你以为我是要阻拦吗？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:喂，对面的听着，有本事的话就答应这个赌约，五打三，难不成还怕了吗？
-()<Speaker></Speaker>||:黑卡蒂身后的一个黑金队员想要说些什么，被另一个同伴拦住了。
-()<Speaker>黑金队员</Speaker>||:<size=25>忘了吗？第一优先级——确保箱子的安全。</size>
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<CGDelay>0.6</CGDelay>:
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<CGDelay>0.5</CGDelay>:我答应你。
-()||<黑点1>:
+()<Speaker>Commander</Speaker>||<黑点2>:!
+()<Speaker></Speaker>||<SE1>Select</SE1><SE1>AVG_weapon_reload</SE1>:On the ledge, Hecate and four Blackgold operatives are already waiting.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:You're slower than I expected.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:Five guns are pointed at them, but at this position, they have no choice but to climb up.
+()<Speaker>Commander</Speaker>||:Don't shoot. We can talk this through.
+()<Speaker></Speaker>||:The three stand at the edge of the cliff, face to face with the operatives of Blackgold Universal.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Long time no see.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Indeed. I thought you hadn't recognized me.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:I don't want to admit it, but... those steel plates behind your calves actually came in handy.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:So that's what gave me away... You haven't changed much either.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Enough catching up. Same deal as before—hand over the box, and we'll let you go.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:We don't have the box.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Our fight with Doss at Bridge 794 caused quite a commotion. Blackgold must've caught wind of it.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Doss took a box.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:But the one I'm after is yours.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...As you can see, we're standing here, the three of us—no box.
+()<Speaker>Commander</Speaker>||:We lost it. We're just trying to lay low now in case the client comes after us.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Then toss the rope clipped to your harness.
+()<Speaker></Speaker>||:The rope in question is connected to the box at the base of the mountain.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Pull it up.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><震屏3>:Kuro and Mityl glance at the Commander. Hecate fires a warning shot into the air.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Pull. It. Up.
+()<Speaker></Speaker>||:The Commander gives a slight nod.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Mityl and Kuro also grab the rope and start pulling together.
+()<Speaker></Speaker>||:The Commander isn't using all their strength—they're stalling, buying time.
+()<Speaker>Commander</Speaker>||:I have a question. Blackgold is chasing more than just this box, right? 
+()<Speaker>Commander</Speaker>||:Then why would the leader of the Abyss Squad personally come after us?
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:...
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:I'm just curious.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Your client leaked a false trail. Told everyone the real box was with you.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:The leak was too convenient. Most people now think your box is a decoy planted on purpose.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:But I don't buy it.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:I think your client is sneakier than that, and I think you didn't lose it.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:Honestly? I don't even know if this box is the real one.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:But you're right about the second part.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The box is only a few meters below the ledge. The three slow down, exchanging glances and silently asking each other what to do.
+()<Speaker>Blackgold Operative</Speaker>||<SE1>Select</SE1>:Hurry it up!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Started by the Blackgold operative's sudden shout, Mityl stumbles backward and steps on a loose rock.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1>:She falls over, and the rope slips from her hands. The box drops a few meters.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker><Shake>||<震屏3>:<size=50>Hold it!</size>
+()<Speaker></Speaker>||:Hecate instinctively moves forward to grab the rope, but stops herself just in time.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander and Kuro are yanked forward, but manage to halt the box's fall. Mityl scrambles up and grabs the rope again.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...Sorry.
+()<Speaker>Commander</Speaker>||:It's okay.
+()<Speaker></Speaker>||:Seeing that the box is once again secured, Hecate lets out an almost imperceptible sigh of relief. She gestures for the Blackgold operatives to stay put.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Pull it up. No tricks.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:But the Commander stops moving.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:<size=25>What's the matter?</size>
+()<Speaker></Speaker>||:Kuro and Mityl halt as well. They whisper uncertainly.
+()<Speaker>Commander</Speaker>||:<size=25>Trust me.</size>
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:What are you doing?
+()<Speaker>Commander</Speaker>||:Step back, or I'll drop the box.
+()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_arenabreakout_battle2</BGM>:The three of them are standing unarmed on the cliff edge, the box dangling in mid-air, at least 50 meters above the ground.
+()<Speaker>Commander</Speaker>||:If we fall, or even get injured, the box goes down with us. No one will catch it in time.
+()<Speaker>Commander</Speaker>||:I don't know what's inside this thing, but judging from your reaction just now, you really don't want it to fall.
+()<Speaker>Commander</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>Step back!</size>
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Yeah! Step back! Or we'll drop it!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hecate glares at the Commander. Then she signals, and the Black gold team steps back five meters.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:The box is in your hands, but your lives are in mine. This stalemate won't last.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Give it to me, and I'll recommend you for Blackgold Universal.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:You know I invited you once—four years ago.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:I remember, but my answer is still the same.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:The longer we stall, the worse it gets for you.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:We don't mind.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:You want to know your biggest weakness?
+()<Speaker></Speaker>||:Hecate doesn't respond. Her face remains impassive. But the Commander knows—she has no other option.
+()<Speaker>Commander</Speaker>||:You're scared of losing.
+()<Speaker>Commander</Speaker>||:Let's make a bet. If the three of us can break through your encirclement, we walk away with the box.
+()<Speaker>Commander</Speaker>||:If we fail, it's yours.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kuro opens her mouth, but Mityl grabs her arm.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I believe in us!
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:You think I was gonna stop you?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Hey, you lot! It's five against three. Don't tell me you're scared?
+()<Speaker></Speaker>||:One of Hecate's men starts to speak, but another cuts them off.
+()<Speaker>Blackgold Operative</Speaker>||:<size=25>Did you forget? Our first priority is to ensure the safety of the box.</size>
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<CGDelay>0.6</CGDelay>:
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<CGDelay>0.5</CGDelay>:I accept.
+()||<黑点1>:

@@ -1,172 +1,172 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>BGM_stage11</BGM><SE1>AVG_wind_grass</SE1><Night><黑屏2><BIN>4</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:入夜，卡莫纳某林间营地，指挥官与米蒂尔、卡萝三人在营地外围悄悄观察。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:真的要进去？黑金的营地不是那么好闯的。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:怕什么，打不过难道还跑不掉？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可是这里真的会有线索吗？
-()<Speaker>指挥官</Speaker>||:委托人说斯通被调来了这儿，那天究竟发生了什么，恐怕只有问他才能知道了。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:就没别的法子了吗？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:要不你去问黑卡蒂？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……
-()<Speaker>指挥官</Speaker>||:也不一定要正面冲突，最好可以在他住处搜到点儿什么……有人来了。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:一个魁梧的军装男子在两个士兵的陪伴下走向了一个帐篷，在门口停下，回头示意两人留在外面。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:营地灯光的照射下，指挥官三人清楚地看到，他露出的右眼上，划了一道长疤。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:是他吗？
-()<Speaker>指挥官</Speaker>||:不确定，头盔和面罩遮挡了太多，再看看。
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:帐篷没有窗户，门口的帘子被放了下来，隔绝了里面的一切灯光与声音，让人无法窥探。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:过了一阵，刚刚进去的男子和另一个打扮相近的特种兵一起走了出来，面罩与头盔遮挡了那人的容貌。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>Stop_AVG_loop</SE1>:他们朝树林去了。
-()<Speaker></Speaker>||:卡萝转头望向指挥官与米蒂尔，眼睛里全是跃跃欲试的兴奋。
-()<Speaker>指挥官</Speaker>||:……跟上去，等他们走远。速度要快，不要引来其他人。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:卡萝拍了拍自己弹挂上的枪袋，那里刚刚被米蒂尔又塞进去了两个弹匣。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<CGDelay>0.5</CGDelay>:放心！
+()<Speaker></Speaker>||:Nightfall. At a forest camp in Kamona, the Commander, Mityl, and Kuro observe quietly from the camp's perimeter.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Are we really going in? Blackgold's camps aren't exactly easy to break into.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:What's to be afraid of? Worst case, we can still run.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:But are we even sure there'll be clues here?
+()<Speaker>Commander</Speaker>||:The client said Stone was transferred here. If we want to know what really happened that day, he's the only one who can tell us.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:There's no other way?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Unless you want to go ask Hecate?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...
+()<Speaker>Commander</Speaker>||:We don't have to clash head-on. Ideally, we'll find something in his quarters... Someone's coming.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:A burly man in military uniform approaches a tent with two soldiers in tow. He stops at the entrance and signals for them to stay outside.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:Under the glow of the camp lights, the three clearly see a long scar running down his exposed right eye.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Is that him?
+()<Speaker>Commander</Speaker>||:Not sure. Too much is hidden by the helmet and mask. Keep watching.
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:The tent has no windows, and the entrance flap is lowered, blocking all light and sound from inside.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:After a while, the man emerges with another similarly dressed special forces soldier, whose appearance is also entirely obscured by his mask and helmet.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>Stop_AVG_loop</SE1>:Together, they head toward the woods.
+()<Speaker></Speaker>||:Kuro turns to the Commander and Mityl, her eyes brimming with excitement.
+()<Speaker>Commander</Speaker>||:...Follow them. Wait until they're far enough. Be fast, don't alert the others.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kuro pats the pouch on her chest rig, where Mityl just stuffed two more magazines.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<CGDelay>0.5</CGDelay>:Don't you worry!
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_Combat_Hits</SE1><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><Night><CGDelay>0.5</CGDelay><BIN>1</BIN>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE1>Rope</SE1>:老实点！
-()<Speaker></Speaker>||:经过一番默契的偷袭与闪电般结束的战斗，帐篷中走出的两人已经被控制住。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔叉腰站在两人面前，高抬着下巴，努力放大着自己的气场，希望可以震慑住被绑住手脚的两人。
-()<Speaker>斯通</Speaker>||:呵……
-()<Speaker></Speaker>||:刀疤脸的男子正是三人要找的斯通，嘴里发出不屑的笑声。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我说了，老实点！
-()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:米蒂尔用枪托猛力打在斯通的背上，这个魁梧的中年男子被突如其来的攻击打得一个踉跄，把呼痛声憋在了嘴里。
-()<Speaker>斯通</Speaker>||:唔……
-()<Speaker>黑金队员</Speaker>||:你们是什么人，要做什么？
-()<Speaker></Speaker>||:和斯通一起被制住的黑金队员手被绑在身后，一直安安静静没有过多地挣扎。
-()<Speaker>指挥官</Speaker>||:一个月前，北山兵工厂，黑金去那里有什么任务？
-()<Speaker>黑金队员</Speaker>||:黑金国际奉命剿毁非法工厂，暗区里谁敢有疑问。
-()<Speaker>指挥官</Speaker>||:只是如此？
-()<Speaker>黑金队员</Speaker>||:你什么意思？
-()<Speaker></Speaker>||:米蒂尔和卡萝一直横抱着枪，站在指挥官的左右，武力“威慑”着两人。
-()<Speaker></Speaker>||<SE1>Select</SE1>:见此，米蒂尔再次端起枪托，走到这个掩住头面的黑金队员身旁，准备给他吃点苦头。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:突然，原本还跪在地上的黑金队员双手挣脱了束缚，趁米蒂尔疏忽了防备，伸手夺枪。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:！
-()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1>:刹那的拉扯间，米蒂尔的枪被夺了过去，但她没有松手，顺势撞向了跪在地上的黑金队员，手肘重重地击在了他的后颈上，随后翻身后撤，拉开了距离。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:夺过枪的黑金队员双脚还被绑着，重心不稳，被米蒂尔的肘击撞得失去了平衡，侧身翻倒。
-()<Speaker></Speaker>||:训练有素的精英队员迅速反应，没有尝试爬起，而是毫不犹豫地就着俯卧的姿势，将枪口对准了身前的指挥官。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:“咣啷——”
-()<Speaker></Speaker>||:两人短暂交手的同时，一枚长方形的金属物从黑金队员的口袋中滑出，跌撞在一旁的石块上，发出清脆的声响。
-()<Speaker>黑金队员</Speaker>||<SE1>Select</SE1>:别动！
-()<Speaker></Speaker>||:林间空地上，指挥官与卡萝持枪对着地上的两名黑金队员，双方呈对峙状态。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我劝你不要轻举妄动，和我们硬碰硬是什么结果你应该已经很清楚了。
-()<Speaker></Speaker>||:虽然是被偷袭，但回想到刚刚自己二人被对方快速制服，两个黑金队员的脸上露出了一丝尴尬。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这是什么？……铭牌？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔拾起了刚刚从黑金队员身上掉下来的东西，那是一个暗区里常见的身份铭牌，上面刻着拥有者的名字，一枚弹孔赫然破坏了它。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:T、H……什么什么……S？
-()<Speaker>指挥官&卡萝</Speaker>||:<size=50>休伯特？！</size>
-()<Speaker></Speaker>||:回想到工厂外被埋藏的空链条，三人有了个令人震惊的猜测。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔走上前去，休伯特将枪口调转对准米蒂尔。
-()<Speaker>休伯特</Speaker>||:停下！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔无视眼前持枪威胁自己的黑金队员，继续靠近，伸手想要去摘他的头套。
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:“咔哒”，休伯特愣住了，枪里并没有子弹。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔摘下了他的头套，一头红色卷发露了出来。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:果然是你！
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1>:受制于人，休伯特愤怒地把枪摔在了地上。
-()<Speaker>休伯特</Speaker>||:你们究竟是谁？
-()<Speaker></Speaker>||:指挥官看了看还被绑在一旁的斯通。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:跟我来，有些话想问你。
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<SE1>Rope</SE1>:Don't move!
+()<Speaker></Speaker>||:After a coordinated ambush and a swift skirmish, the two men who exited the tent are subdued.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl stands before them, hands on hips, chin raised high, projecting as much authority as she can muster to intimidate the two bound men.
+()<Speaker>Stone</Speaker>||:Heh...
+()<Speaker></Speaker>||:The one with the scar on the face is the very man they're looking for—Stone. He scoffs with disdain.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I said, don't move!
+()<Speaker></Speaker>||<SE1>AVG_Punch</SE1><震屏3>:She slams the rifle buttstock into Stone's back. The burly man stumbles forward, gritting his teeth to suppress a groan.
+()<Speaker>Stone</Speaker>||:Oof...
+()<Speaker>Blackgold Operative</Speaker>||:Who are you? What do you want?
+()<Speaker></Speaker>||:The other subdued Blackgold operative remains still, offering no resistance since his hands got tied behind his back.
+()<Speaker>Commander</Speaker>||:A month ago, at the weapon factory in Northridge. What was Blackgold doing there?
+()<Speaker>Blackgold Operative</Speaker>||:Blackgold was ordered to destroy an illegal factory. Who in the Dark Zone dares question that?
+()<Speaker>Commander</Speaker>||:That's all?
+()<Speaker>Blackgold Operative</Speaker>||:What are you implying?
+()<Speaker></Speaker>||:Mityl and Kuro stand on either side of the Commander, rifles in hand, exerting pressure on the captives.
+()<Speaker></Speaker>||<SE1>Select</SE1>:Mityl raises her weapon again and walks over to the masked operative, ready to rough him up a bit.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:Suddenly, the supposedly restrained operative breaks free, catching Mityl off guard and grabbing for her gun.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:!
+()<Speaker></Speaker>||<SE1>AVG_Punch_Hit</SE1>:In a split second, the rifle is wrested from Mityl's hands, but she doesn't let go. Instead, she crashes into the kneeling man, driving her elbow into the back of his neck and rolling back to gain distance.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_XXS_kick</SE1>:The Blackgold operative, still bound at the feet, stumbles from the blow and topples sideways.
+()<Speaker></Speaker>||:Despite the fall, his training kicks in. He doesn't try to get up. Instead, lying prone, he turns the rifle toward the Commander.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_OperatingDisc_Drop</SE1>:Clank!
+()<Speaker></Speaker>||:As the two scuffle, a rectangular metal object falls from the operative's pocket and clinks against a nearby rock.
+()<Speaker>Blackgold Operative</Speaker>||<SE1>Select</SE1>:Don't move!
+()<Speaker></Speaker>||:The standoff holds in the clearing, with the Commander and Kuro aiming at the two downed operatives.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:I suggest you don't do anything rash. You should know by now how a head-on fight with us ends.
+()<Speaker></Speaker>||:Though ambushed, the two men remember how quickly they were taken down. Embarrassment flickers across their faces.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:What's this?...A dog tag?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She picks up the fallen object—an ID tag common in the Dark Zone. The engraved name is obscured by a bullet hole.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:T, H... something... S?
+()<Speaker>Commander & Kuro</Speaker>||:<size=50>Hubert?!</size>
+()<Speaker></Speaker>||:Recalling the empty dog tag chain buried outside the factory, the trio share a shocking realization.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl steps forward. The operative turns the gun toward her.
+()<Speaker>Hubert</Speaker>||:Stop!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl ignores the threat, reaching out to remove his headgear.
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:Click. The operative freezes. The gun is empty.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl pulls off the mask, revealing a head of red curls.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:It's really you!
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Phone_Crash</SE1>:Helpless, Hubert hurls the useless weapon to the ground in frustration.
+()<Speaker>Hubert</Speaker>||:Who the hell are you people?
+()<Speaker></Speaker>||:The Commander glances at Stone, who is still tied up nearby.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:Come with me. I've got some questions for you.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_amb_wilderness</SE1><BIN>1</BIN><Night><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker>休伯特</Speaker>||:委托！？
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:不知斯通在这件事中扮演了什么身份，指挥官单独与休伯特件讲述了前因后果。
-()<Speaker>休伯特</Speaker>||:是，我是休伯特。
-()<Speaker>休伯特</Speaker>||:这是一个误会。
-()<Speaker>指挥官</Speaker>||:嗯？
-()<Speaker></Speaker>||:休伯特欲言又止，似有犹豫。
-()<Speaker>指挥官</Speaker>||:你的朋友为了找你费尽心血，或许你也需要给他一个解释。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:那枚被毁掉的铭牌已经回到了他的手中，休伯特看着上面的弹孔，叹了口气。
-()<Speaker>休伯特</Speaker>||:……好吧，虽然早了一点，但也没什么影响了。
-()<Speaker>休伯特</Speaker>||<CGDelay>0.5</CGDelay>:我并没有被暗杀，我被调来这里执行秘密任务，如今任务已经完成。
-()<Speaker>休伯特</Speaker>||:你们误会黑卡蒂了。
+()<Speaker>Hubert</Speaker>||:A client?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:Still unsure of Stone's role in all this, the Commander decides to speak to Hubert privately. and explain the circumstances
+()<Speaker>Hubert</Speaker>||:Yes, I'm Hubert.
+()<Speaker>Hubert</Speaker>||:This is all a misunderstanding.
+()<Speaker>Commander</Speaker>||:Hm?
+()<Speaker></Speaker>||:Hubert hesitates, not sure if he should continue.
+()<Speaker>Commander</Speaker>||:Your friend went through hell to find you. You owe him an explanation.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The dog tag, now returned to him, rests in his palm. Hubert gazes at the bullet hole and sighs.
+()<Speaker>Hubert</Speaker>||:...Alright. Even if it's a bit early, it doesn't matter anymore. 
+()<Speaker>Hubert</Speaker>||<CGDelay>0.5</CGDelay>:I wasn't assassinated. I was transferred here for a covert mission. The mission's over now.
+()<Speaker>Hubert</Speaker>||:You misunderstood Hecate.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><SE1>Stop_AVG_loop</SE1><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<回忆><黑屏2><BGM>BGM_carmona</BGM><CGDelay>0.5</CGDelay><BIN>85</BIN>:
-()<Speaker></Speaker>||:任务圆满完成，黑金队员们回到了营地，进行复盘。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:此次行动，大多数小队都按计划完成了目标。休伯特！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休伯特正坐在众人之中，垂着头，闻言立即站起立正。
-()<Speaker>休伯特</Speaker>||:是！
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你比预计时间迟了1分20秒，原因！
-()<Speaker>休伯特</Speaker>||:报告！我按计划去破坏电力系统，但路上遭遇的敌人数量超出预期，解决起来需要更多时间。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你认为问题出在哪里？
-()<Speaker>休伯特</Speaker>||:敌人太多，比预计用时要长。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:所以是个人能力不足？
-()<Speaker>休伯特</Speaker>||:不！我一个人处理了八个敌人，只多花了1分20秒！
-()<Speaker>休伯特</Speaker>||:何况，在我抵达的时候，发现电力系统已经被破坏了，我的行动没有意义，我质疑这个安排！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:原本侧身看着作战地形图的黑卡蒂闻言微微偏头，扫了一眼情绪激动的休伯特。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:回去好好想想，明天把复盘检讨交给我。散会！
-()<Speaker></Speaker>||:黑金队员们纷纷起身，逃离作战室内令人窒息的空气。
-()<Speaker>索尔</Speaker>||:嘿。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:索尔经过时用肩膀撞了一下休伯特，示意他赶紧离开；但休伯特不为所动，依旧紧紧盯着地形图前的黑卡蒂。
-()<Speaker></Speaker>||:索尔无奈，只能和其他人一同离开。转眼间，作战室内只剩下了黑卡蒂与休伯特两个人。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:什么事？
-()<Speaker>休伯特</Speaker>||:报告！我不知道检讨书该怎么写。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:休伯特双手死死攥着拳头，可即便他的额头已经跳起了青筋，面对自己冷脸冷语的上级，也不敢有丝毫的逾矩。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你的目标是破坏电力系统，不是按计划路线抵达供电室。在发现原本的计划完成难度过高时，你至少有2个方案可以按时切断对方的供电。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:可你却无法变通，忽略自己的核心目标，没有全局意识，只知道全盘执行。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:你是没有脑子吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂终于转了过来，一双深色的眸子透过眼镜的上方，冷冷打量着眼前这个强压着情绪的新兵。
-()<Speaker></Speaker>||:休伯特无话可说，无颜再看黑卡蒂，转身想要离开，却在门口犹豫着停下了。
-()<Speaker>休伯特</Speaker>||:我没有完成任务，电力系统是被谁破坏的？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂挑眉，在作战图上画了一个红圈。
-()<Speaker>休伯特</Speaker>||:这是当时你的位置……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<CGDelay>0.5</CGDelay>:Plan B。
-()<Speaker>休伯特</Speaker>||:……我去写检讨。
-()<Speaker></Speaker>||:休伯特粗着脖子憋出了这么一句，出门时却被黑卡蒂叫住了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:休伯特！
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<CGDelay>0.5</CGDelay>:如果你还想更进一步，就要自己证明给我看。
+()<Speaker></Speaker>||:With the mission completed, the Blackgold operatives return to the camp for a debrief and operation review.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Most squads hit their objectives. Hubert!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hubert, who is seated among the group with his head hanging, jumps to attention.
+()<Speaker>Hubert</Speaker>||:Ma'am!
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:You were 1 minute and 20 seconds late. Explain.
+()<Speaker>Hubert</Speaker>||:Ma'am! I went to sabotage the power grid as planned, but enemy numbers exceeded expectations. It took more time to clean them out.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:What do you think was the problem?
+()<Speaker>Hubert</Speaker>||:There were too many enemies. I needed more time.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:So, personal incompetence?
+()<Speaker>Hubert</Speaker>||:No! I neutralized eight enemies alone in just 1 minute and 20 seconds!
+()<Speaker>Hubert</Speaker>||:And the system was already down when I arrived—my objective served no purpose. I question the operation plan!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hecate, who is standing sideways to study the tactical map, tilts her head at his outburst.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Reflect on this. Submit a written report tomorrow. Dismissed!
+()<Speaker></Speaker>||:Everyone rises and leaves the stifling ops room.
+()<Speaker>Saul</Speaker>||:Heh.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Saul bumps shoulders with Hubert as he passes, telling him to quickly make himself scarce. But Hubert doesn't budge. He keeps staring at Hecate.
+()<Speaker></Speaker>||:Saul sighs and leaves with the others. Soon, only Hecate and Hubert remain in the room.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:What is it?
+()<Speaker>Hubert</Speaker>||:Ma'am! I don't know how to write the report.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:He clenches his fists, veins pulsing on his forehead, but still he doesn't dare step out of line.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Your mission was to cut power—not follow a set route to the generator room. When you saw the original plan was too difficult, you had at least two alternate ways to achieve the same result within the time limit.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:But you failed to improvise. You ignored the objective and lacked strategic awareness.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Are you brainless?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Finally turning around, Hecate peers over her glasses and coldly scrutinizes the agitated rookie standing before her.
+()<Speaker></Speaker>||:Hubert looks away in shame. He turns to exit the room, but stops hesitantly at the door.
+()<Speaker>Hubert</Speaker>||:Since I didn't complete my mission... who sabotaged the system?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hecate raises an eyebrow and marks a red circle on the map.
+()<Speaker>Hubert</Speaker>||:That was your position...
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<CGDelay>0.5</CGDelay>:Plan B.
+()<Speaker>Hubert</Speaker>||:...I'll write the report.
+()<Speaker></Speaker>||:Hubert says curtly. Just as he steps through the door, Hecate calls out to stop him.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Hubert!
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<CGDelay>0.5</CGDelay>:If you want to advance further, you'll need to prove yourself to me.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><回忆><BIN>478</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>Rope</SE1>:山脚下，黑金队员们结束了长达40公里的负重徒步，获得了短暂的休息时间；身上沉重的背包在树下被堆了一地。
-()<Speaker></Speaker>||:更高强度的训练让休伯特此时瘫坐在这堆背包旁，喘着粗气拧开了一瓶水。
-()<Speaker>黑金队员</Speaker>||:喂！帮忙找个东西，在队长包里，一个备用电源。
-()<Speaker></Speaker>||:黑卡蒂与几个黑金队员站在远处，其中一个朝着休伯特喊话，让他就近找个东西。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休伯特认命地站起来，找到黑卡蒂的背包，拎了起来。
-()<Speaker>休伯特</Speaker>||:？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休伯特手里拎着黑卡蒂的登山包，掂了掂重量；又随手抓过另外一个包，掂了掂。
-()<Speaker>索尔</Speaker>||:怎么了，脸色这么奇怪？
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1><SE1>AVG_Zipper</SE1>:休伯特把黑卡蒂的包放到地上，打开搭扣，在里面翻找着什么。
-()<Speaker>索尔</Speaker>||:……这是什么？
-()<Speaker>休伯特</Speaker>||:是铸铁块，10公斤的。
-()<Speaker></Speaker>||:休伯特手里托着一个黝黑的铁块，正是刚刚从黑卡蒂的包里翻出来的。
-()<Speaker>索尔</Speaker>||:……
-()<Speaker>索尔</Speaker>||:你是疯了么？把自己的负重放到队长包里？
-()<Speaker>索尔</Speaker>||:就算她刁难你，你也要冷静，不要自己去找死……
-()<Speaker>黑金队员</Speaker>||:干嘛呢？快点！
-()<Speaker></Speaker>||:远处的黑金队员还在催促。休伯特迅速把铁块放了回去，从包里翻出备用电源，递给了还在小声喋喋不休的索尔。
-()<Speaker>休伯特</Speaker>||:去拿给队长。
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1><SE1>AVG_Button_Click</SE1>:索尔骂骂咧咧地走了，休伯特把背包恢复了原样，放了回去，看向远处的黑卡蒂。
-()<Speaker></Speaker>||:黑卡蒂正给两个黑金队员交待着什么，身姿挺拔，与周围三三两两瘫在地上休息的其他人不同，不见一丝的疲惫。
-()<Speaker></Speaker>||:休伯特下意识地站直了身，正了正自己的作战制服，朝黑卡蒂走去。
-()<Speaker>休伯特</Speaker>||<CGDelay>0.5</CGDelay>:报告队长……
+()<Speaker></Speaker>||<SE1>Rope</SE1>:At the foot of the mountain, the Blackgold team finishes a 40km march while carrying heavy loads. Having earned a short break, they dump their heavy packs in a pile under a tree.
+()<Speaker></Speaker>||:Having been subjected to tougher training than the rest of the team, Hubert slumps down to the ground next to the pile of packs and opens a bottle of water while trying to catch his breath.
+()<Speaker>Blackgold Operative</Speaker>||:Hey! Fetch a spare battery from the Captain's pack.
+()<Speaker></Speaker>||:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hubert drags himself off the floor with resignation and picks up Hecate's pack.
+()<Speaker>Hubert</Speaker>||:?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:He hefts it, then grabs another for comparison.
+()<Speaker>Saul</Speaker>||:What's with that look on your face?
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1><SE1>AVG_Zipper</SE1>:Hubert puts down Hecate's pack and unbuckles it, rummaging through its contents.
+()<Speaker>Saul</Speaker>||:...What is this?
+()<Speaker>Hubert</Speaker>||:A cast iron block. Ten kilos.
+()<Speaker></Speaker>||:Hubert holds up the heavy black hunk of metal that he just pulled out of Hecate's pack in disbelief.
+()<Speaker>Saul</Speaker>||:...
+()<Speaker>Saul</Speaker>||:Are you crazy? You stashed your own load in the Captain's pack?
+()<Speaker>Saul</Speaker>||:Even if she gives you hell, you need to stay calm. Don't throw yourself at the knife like this...
+()<Speaker>Blackgold Operative</Speaker>||:What's the problem? Hurry up!
+()<Speaker></Speaker>||:The operative in the distance shouts impatiently. Hubert stuffs the iron block back into the pack, retrieves the spare battery, and hands it to Saul.
+()<Speaker>Hubert</Speaker>||:Give it to her.
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1><SE1>AVG_Button_Click</SE1>:Saul grumbles as he goes. Hubert puts the pack back where it was, then looks toward Hecate.
+()<Speaker></Speaker>||:She's standing tall, instructing two teammates—unlike everyone else lying sprawled on the ground around her. Her posture betrays no trace of fatigue.
+()<Speaker></Speaker>||:Hubert straightens up subconsciously, adjusts his uniform, and walks over.
+()<Speaker>Hubert</Speaker>||<CGDelay>0.5</CGDelay>:Ma'am...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><Night><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:所以，黑卡蒂其实是在锻炼你，准备提拔你？
-()<Speaker>休伯特</Speaker>||:是的。
-()<Speaker>指挥官</Speaker>||:……虽然有点意外，但是与她记仇暗杀你相比，确实这个原因更有说服力。
-()<Speaker>休伯特</Speaker>||:听上去你们好像很熟。
-()<Speaker>指挥官</Speaker>||:一面……几面之缘罢了。
-()<Speaker>休伯特</Speaker>||:因为要带队完成保密任务，北山工厂的那次行动之后，我就离队到了这边。
-()<Speaker>休伯特</Speaker>||:能不能答应我件事？
-()<Speaker>指挥官</Speaker>||:你说。
-()<Speaker>休伯特</Speaker>||:明天上午，我升任这支小队队长的消息会在黑金公布，我的朋友自然就会知道。
-()<Speaker>休伯特</Speaker>||:希望你能帮我保密到那个时候，之后我会自己去跟他解释。
-()<Speaker>指挥官</Speaker>||:好。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休伯特用手指摩挲着铭牌上的弹孔，感受着刻印凹凸不平的触感，叹了口气。
-()<Speaker>休伯特</Speaker>||:本来需要把所有标志身份的物品全部销毁，就是你看到的埋在土里的那些，这个铭牌也是因此被斯通射穿的。
-()<Speaker>休伯特</Speaker>||<CGDelay>0.5</CGDelay>:可是因为不舍，我还是带走了它，没想到被你们追到了这儿。
-()<Speaker>休伯特</Speaker>||:我还是……远远不如她。
-()<Speaker></Speaker>||:休伯特自嘲地扯了个笑容，年轻的脸上没有不甘，眼中却透露着深深的无力。
-()<Speaker>休伯特</Speaker>||:无论我们怎样追赶，队长都在我们的前面。只是为了不被她落下，我们就已经要拼尽全力。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官不知如何安慰，只能拍了拍休伯特的肩。
-()<Speaker>指挥官</Speaker>||:走吧，他们还在那边等着。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:至少你该庆幸，她不是你的敌人。
-()||<黑点1>:
+()<Speaker>Commander</Speaker>||:So... Hecate has actually been training you and setting you up for promotion?
+()<Speaker>Hubert</Speaker>||:Yes.
+()<Speaker>Commander</Speaker>||:...Well, that's a surprise. But I guess it's more believable than her trying to kill you out of spite.
+()<Speaker>Hubert</Speaker>||:Sounds like you know her well.
+()<Speaker>Commander</Speaker>||:We met... once or twice.
+()<Speaker>Hubert</Speaker>||:After the Northridge mission, I left the team to take on this classified operation.
+()<Speaker>Hubert</Speaker>||:Can you promise me something?
+()<Speaker>Commander</Speaker>||:Go on.
+()<Speaker>Hubert</Speaker>||:My promotion to squad leader will be announced tomorrow morning. My friend will know then.
+()<Speaker>Hubert</Speaker>||:Until then, I'd appreciate your silence. I'll explain it to him myself.
+()<Speaker>Commander</Speaker>||:Alright.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hubert rubs the bullet hole on the dog tag, feeling the dent on the surface. He sighs.
+()<Speaker>Hubert</Speaker>||:Everything identifying me was supposed to be destroyed—like the buried stuff you saw. It's also why Stone shot my dog tag.
+()<Speaker>Hubert</Speaker>||<CGDelay>0.5</CGDelay>:But I couldn't bear to leave it behind, so I took it with me. Didn't expect you to track me down and chase me all this way.
+()<Speaker>Hubert</Speaker>||:I'm still... nowhere near as good as her.
+()<Speaker></Speaker>||:He smiles wanly. There is no resentment on his youthful face, but his eyes are heavy with a profound sense of helplessness.
+()<Speaker>Hubert</Speaker>||:No matter how hard we try to catch up to her... the captain's always ahead. We're already giving it our all just to avoid falling behind.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander doesn't know what to say. They simply pat Hubert on the shoulder.
+()<Speaker>Commander</Speaker>||:Come on. The others are still waiting.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:At least... be glad she's not your enemy.
+()||<黑点1>:

@@ -1,109 +1,109 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><BIN>222</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:暗区，北山，指挥官与卡萝、米蒂尔三人来到一处废弃的工厂。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:就是在这里失踪的？
-()<Speaker></Speaker>||:工厂看上去已经有一段时间没有来过人了，四处落满了灰尘，三人在里面留下了清晰的脚印。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:指挥官在空旷的厂房里走了一圈，而后蹲在门口，观察着地上薄厚不一的尘土。
-()<Speaker>指挥官</Speaker>||<SE1>Stop_AVG_loop</SE1>:委托人自称索尔。一个月前，他的队友休伯特跟着黑金一起来这里出任务，之后就没再回去，伤亡名单里也没有他。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这是什么工厂？黑金为什么要来这里？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:生产设备都被转移了，不知道之前是做什么的。
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:分开搜，看看能不能找到点线索。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:三人分散各自行动，两个少女搜查厂房内部，而指挥官来到了外面。
+()<Speaker></Speaker>||<BGM>GF_EV9_Story</BGM>:Northridge, Dark Zone. The Commander arrives with Kuro and Mityl at an abandoned factory.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:So this is where he disappeared?
+()<Speaker></Speaker>||:The factory appears to have been untouched for quite some time, with dust blanketing every surface. The three leave clear footprints as they step inside.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:The Commander makes a circuit around the empty main hall, then crouches by the entrance to examine the uneven layers of dust on the floor.
+()<Speaker>Commander</Speaker>||<SE1>Stop_AVG_loop</SE1>:The client, who calls himself Saul, claims his teammate Hubert came here with Blackgold Universal on a mission a month ago and never returned. He's not on the casualty list either.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:What kind of factory is this? Why was Blackgold even here?
+NPC-P90_AB(0)<Speaker>Commander</Speaker><同时置暗><Position>0,-50</Position>||:All the equipment has been moved out. No idea what they used to produce.
+NPC-P90_AB(0)<Speaker>Commander</Speaker><同时置暗><Position>0,-50</Position>||:Let's split up. See if we can find any clues.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The three split off in different directions. The two girls search the interior, while the Commander steps outside.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><黑屏2><BIN>1</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:厂房坐落于北山的密林中，并不与公路相通，而是开辟了一条隐秘的泥土小路，从车辙的深度来看，这里的货物分量不轻。
-()<Speaker>指挥官</Speaker>||:鬼鬼祟祟，会被黑金围剿也不奇怪。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官仔细观察着周围的环境，试图还原当时的情况。
-()<Speaker></Speaker>||:工厂的大门没有被暴力破坏的痕迹，内侧的弹痕比外面多，门前的地面上有明显的拖拽痕迹……
-()<Speaker>指挥官</Speaker>||:黑金过来时，工厂正在转移，只是没有来及。
-()<Speaker></Speaker>||:厂房外也到处留下了战斗的痕迹：散落的弹壳，树上的弹孔……
-()<Speaker>指挥官</Speaker>||:战斗至少持续了10分钟，对黑金尤其是深渊小队来说，剿灭一个工厂，用时有些长了。
-()<Speaker>指挥官</Speaker>||:没有看到任何爆炸痕迹……这里的东西怕火。
-()<Speaker></Speaker>||:已经围着工厂绕了一圈，关于为什么休伯特从这里失踪，指挥官依然一无所获。
-()<Speaker>指挥官</Speaker>||:刀？
-()<Speaker></Speaker>||:指挥官左侧的树干上，一道长约20厘米，最深处有2厘米的刀痕清晰可见。
-()<Speaker>指挥官</Speaker>||:这里为什么会有刀痕？倒像是一个……记号。
-()<Speaker></Speaker>||:刀痕的一侧较浅，指向了密林深处的一块巨石。
-()<Speaker>指挥官</Speaker>||:土被翻过……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>RunStep</SE1>:有什么发现吗？
-()<Speaker></Speaker>||:卡萝与米蒂尔结束了对工厂内部的调查，来到外面寻找指挥官。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:指挥官蹲下身来，从腰后抽出一把匕首，翻开巨石旁被动过的土。
-()<Speaker></Speaker>||:一根空荡荡的金属链子，和一枚印着章鱼的肩章。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这是黑金国际的肩章！这个链子……是用来挂铭牌的？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:看来线索找到了……休伯特的失踪确实与这次行动有关。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:是工厂的人干的？
-NPC-P90_AB(0)<Speaker>指挥官</Speaker><同时置暗><Position>0,-50</Position>||:不像……但我们没有办法直接接触黑金，还是要从工厂入手。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:哈，我们在楼里发现了这个……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>BGM_Empty</BGM>:卡萝拿出一张被烧得只剩下一半的供货单，最上面写着一个名字——“米歇尔”。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:如果运气好的话，我想这个米歇尔可能就是我认识的那个。
+()<Speaker></Speaker>||:The factory is nestled deep within the woods of Northridge, unconnected to any main road; only a hidden dirt path leads here. Judging from the deep tire tracks, heavy goods were transported regularly.
+()<Speaker>Commander</Speaker>||:Cloak-and-dagger... No wonder Blackgold raided the place.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander surveys the surroundings carefully, trying to reconstruct the events of that day.
+()<Speaker></Speaker>||:The factory gate shows no signs of forced entry. There are more bullet holes on the inside than the outside. Drag marks mar the ground just before the entrance...
+()<Speaker>Commander</Speaker>||:So Blackgold showed up mid-evacuation... and they weren't fast enough.
+()<Speaker></Speaker>||:Signs of combat are scattered everywhere—spent casings, bullet scars on tree trunks...
+()<Speaker>Commander</Speaker>||:The fight must've lasted at least ten minutes. For Blackgold, especially the Abyss Squad, that's unusually long to take down one factory.
+()<Speaker>Commander</Speaker>||:No signs of explosions either... Whatever was stored here must've been fire-sensitive.
+()<Speaker></Speaker>||:After circling the site, the Commander still finds nothing to explain Hubert's disappearance.
+()<Speaker>Commander</Speaker>||:A knife mark?
+()<Speaker></Speaker>||:On the trunk to their left is a gash about 20 centimeters long, and two centimeters deep at its deepest.
+()<Speaker>Commander</Speaker>||:A knife mark out here? Looks more like... a marker.
+()<Speaker></Speaker>||:The shallower end points toward a large boulder deep in the woods.
+()<Speaker>Commander</Speaker>||:The soil near the rock looks freshly disturbed...
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>RunStep</SE1>:Found anything?
+()<Speaker></Speaker>||:Kuro and Mityl return from their interior search.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:The Commander crouches down, draws a dagger from behind their waist, and begins to dig.
+()<Speaker></Speaker>||:Out comes an empty metal chain and a shoulder patch bearing an octopus emblem.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:This is a Blackgold insignia! And this chain... is meant for a dog tag?
+NPC-P90_AB(0)<Speaker>Commander</Speaker><同时置暗><Position>0,-50</Position>||:Looks like we've found a clue... Hubert's disappearance is definitely tied to this mission.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:You think someone at the factory did it?
+NPC-P90_AB(0)<Speaker>Commander</Speaker><同时置暗><Position>0,-50</Position>||:Doesn't seem like it... But since we can't approach Blackgold directly, we'll need to dig into the factory side.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Ha! Then you'll want to see this...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1><BGM>BGM_Empty</BGM>:Kuro holds up a half-burnt delivery receipt. At the top is a single name—Michel.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:If we're lucky, this might be the same Michel I know.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>772</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>10213</BGM>:暗区，北山东麓的某个别墅。
-()<Speaker>工厂老板</Speaker>||:你们是什么人，为什么找到我？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:米歇尔，还记得我吗？半年前，是我帮你搞定了那个硝化棉供应商。
-()<Speaker>工厂老板</Speaker>||:你是……那个特遣队员？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:没错。
-()<Speaker>工厂老板</Speaker>||:所以呢，当时的报酬已经结清了吧。隔了这么久突然找上我，想干什么？
-()<Speaker>指挥官</Speaker>||:你的工厂是不是被黑金围剿了？
-()<Speaker>工厂老板</Speaker>||:！
-()<Speaker>工厂老板</Speaker>||:黑金？你在说什么，我和黑金有什么关系。
-()<Speaker>指挥官</Speaker>||:北山里那个，掩人耳目的兵工厂。
-()<Speaker>工厂老板</Speaker>||:！
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:放心，我们不是来替黑金办事的，甚至恰恰相反，有人怀疑黑金的这次行动有问题，我们是来帮你的。
-()<Speaker>工厂老板</Speaker>||:帮我？我能和这件事撇清关系就已经很不错了。
-()<Speaker>工厂老板</Speaker>||:那是黑金的深渊小队，黑卡蒂的深渊小队！
-()<Speaker>指挥官</Speaker>||:黑卡蒂？
-()<Speaker>指挥官</Speaker>||:我们保证不透露今天的事情，绝不会把你牵扯进来。能不能给我们说说，那天究竟发生了什么？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:工厂老板胖墩墩的身子似乎终于站累了，向后瘫坐进沙发里，给自己点燃了烟斗，深深地吸了一口。
-()<Speaker>工厂老板</Speaker>||:我真不愿再回想起那天的事情……
+()<Speaker></Speaker>||<BGM>10213</BGM>:In a villa on the eastern foothills of Northridge, Dark Zone.
+()<Speaker>Factory Owner</Speaker>||:Who are you people? How did you find me?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Michel, remember me? Half a year ago, I helped you sort out that nitrocellulose supplier.
+()<Speaker>Factory Owner</Speaker>||:You're... that special operative?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:That's right.
+()<Speaker>Factory Owner</Speaker>||:So what? I paid you in full back then. Why show up now?
+()<Speaker>Commander</Speaker>||:Was your factory raided by Blackgold?
+()<Speaker>Factory Owner</Speaker>||:!
+()<Speaker>Factory Owner</Speaker>||:Blackgold? What are you talking about? I've got nothing to do with them.
+()<Speaker>Commander</Speaker>||:The factory in Northridge. The weapons plant behind the smoke and mirrors.
+()<Speaker>Factory Owner</Speaker>||:!
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Relax. We're not here for Blackgold. Quite the opposite. Someone thinks their operation wasn't clean. We're here to help you.
+()<Speaker>Factory Owner</Speaker>||:Help me? I'd be lucky just to keep my name out of it!
+()<Speaker>Factory Owner</Speaker>||:That was Blackgold's Abyss Squad. Hecate's Abyss Squad!
+()<Speaker>Commander</Speaker>||:Hecate?
+()<Speaker>Commander</Speaker>||:We swear, none of this leaves this room. We won't mention your name. So... can you tell us what happened that day?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The portly factory owner finally slumps into the sofa, exhausted. He lights a pipe and takes a long, slow drag.
+()<Speaker>Factory Owner</Speaker>||:I really didn't want to think about that day again...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><回忆><CGDelay>0.5</CGDelay>:
-()<Speaker>工厂老板</Speaker>||:<size=50>快！把剩下的机器都砸了！黑金就要到了！</size>
-()<Speaker></Speaker>||:一个月前，北山，米歇尔兵工厂。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:两辆卡车停在门口，几个工人正从厂房里把一箱箱货堆到车上。货箱上标着明显的“禁止明火”、“禁止淋雨”标志。
-()<Speaker>工厂老板</Speaker>||:还差几箱？赶紧搬上去，能不能东山再起就看这批子弹的价钱了，2分钟内必须发车！
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:树林中已经传来了隐约的枪声。
-()<Speaker>工厂老板</Speaker>||:来不及了！直接走，都开走！
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:工厂老板打开旁边的车门想要上车，却被驾驶座的司机一把推了下去。
-()<Speaker>工厂老板</Speaker>||:？
-()<Speaker></Speaker>||:司机蒙着脸，看不清面容，露出的小臂上有一道陈年的刀疤。
-()<Speaker>工厂老板</Speaker>||:你……你不是……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:神秘的司机没有理会瘫坐在地上的老板，车笛短促地鸣了两声似是暗号，两辆装满了子弹的货车扬长而去，丢下没有回过神的工厂老板与工人。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“呯——”，一发子弹擦着老板的头发打在他身后的大门上，黑金来了。
-()<Speaker>工厂老板</Speaker>||:<size=50>跑！</size>
-()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:见工人和守卫们朝外四散跑去，已经与黑金正面交火；工厂老板见无人注意到自己，转身跑回了厂房里。
+()<Speaker>Factory Owner</Speaker>||:<size=50>Move! Smash the rest of the machines! Blackgold's almost here!</size>
+()<Speaker></Speaker>||:One month ago. Inside Michel's factory, Northridge.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Two trucks are parked at the gate. Workers hustle crates out of the warehouse, piling them into the cargo beds. Labels on the boxes read "No Open Flames" and "Keep Dry".
+()<Speaker>Factory Owner</Speaker>||:How many left?! Hurry up! Whether we make it back depends on what we get for this batch of ammo. We roll out in two minutes!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Gunfire echoes faintly from the woods.
+()<Speaker>Factory Owner</Speaker>||:No time! Just go! Drive!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:Michel rushes to a truck, but the masked driver shoves him back.
+()<Speaker>Factory Owner</Speaker>||:?
+()<Speaker></Speaker>||:The driver's face is hidden, but a faded knife scar is visible on his exposed forearm.
+()<Speaker>Factory Owner</Speaker>||:You... Aren't you...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1>:The mysterious driver ignores him. He honks the horn twice—short and sharp. It's a signal. The two trucks roar off, leaving the stunned factory owner and his workers behind.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:Bang! A bullet narrowly misses Michel's head, slamming into the gate behind him. Blackgold has arrived.
+()<Speaker>Factory Owner</Speaker>||:<size=50>Run!</size>
+()<Speaker></Speaker>||<震屏3><SE2>Gunfight</SE2>:The workers and guards scatter. Crossfire erupts with Black Gold. Amidst the chaos, Michel slips back into the warehouse unnoticed.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑点2><BIN>222</BIN><回忆><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:工厂二楼，老板躲在一个货架后面，小心地听着外面的动静，直到交火声停止了，才小心地探出头查看。
-()<Speaker></Speaker>||:工厂的大门敞开着，三个身穿黑金作战服的特种兵走了进来，走在前面的女人有着一头黑发。
-()<Speaker>工厂老板</Speaker>||:黑卡蒂……深渊……
-()<Speaker></Speaker>||:工厂老板认出了为首的女子，把自己又往阴影里藏了藏，不敢暴露。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<SE1>Select</SE1>:任务完成，接下来你知道该怎么做。
-()<Speaker>男子</Speaker>||:是。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:透过两个柜子间的细缝，工厂老板窥见一个黑金队员卸下了身上所有的武器装备，整齐地放在地上，随后想要摘下右臂上的黑金肩章。
-()<Speaker></Speaker>||:黑卡蒂向一旁站立的另一个黑金队员摆头示意。接到指示，这名黑金把枪上膛，猛地推了一把前一个人。
-()<Speaker>黑金队员</Speaker>||:走吧，该上路了。
-()<Speaker></Speaker>||:卸下武器的黑金队员对黑卡蒂深深鞠了一躬，跟着持枪的黑金走了出去。
+()<Speaker></Speaker>||:On the second floor, Michel listens intently while hiding behind a shelf until the gunfire ceases. Carefully, he peeks out.
+()<Speaker></Speaker>||:The factory gate hangs wide open. Three Blackgold operatives clad in full tactical gear step inside. Leading them is a dark-haired woman.
+()<Speaker>Factory Owner</Speaker>||:Hecate... Abyss...
+()<Speaker></Speaker>||:Michel recognizes her instantly and ducks deeper into the shadows.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<SE1>Select</SE1>:Mission complete. You know what to do.
+()<Speaker>Man</Speaker>||:Yes, ma'am.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Through a gap in the shelving, Michel watches as one operative sheds all his weapons and gear, laying them neatly on the floor. He reaches for the Blackgold bedge on his right arm.
+()<Speaker></Speaker>||:Hecate glances at another operative and gives a slight nod. At the signal, the second operative chambers a round and shoves the first one forward.
+()<Speaker>Blackgold Operative</Speaker>||:Let's go. Time to move on.
+()<Speaker></Speaker>||:The unarmed operative bows deeply to Hecate, then follows the one with the gun outside.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“呯——”
-()<Speaker></Speaker>||:外面突兀的枪响让工厂老板吓了一跳。过了一阵，刚刚带人出去的黑金队员独自跑了回来。
-()<Speaker>黑金队员</Speaker>||:办好了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:把这里清理干净，走吧。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:黑卡蒂与深渊小队撤离了工厂。而老板直至夜幕低垂，才壮起胆子从躲藏地方出来，逃离了这里。
+()<Speaker></Speaker>||<黑点2><震屏3><SE1>AVG_rifle_finalshot_n</SE1>:Bang!
+()<Speaker></Speaker>||:A sudden shot rings out. Michel flinches. Moments later, the second operative returns alone.
+()<Speaker>Blackgold Operative</Speaker>||:It's done.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Clear this place. We're leaving.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:Hecate and the Abyss Squad vanish into the forest. Michel stays hidden until nightfall before finally summoning the courage to flee.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>772</BIN><关闭蒙版><CGDelay>0.5</CGDelay>:
-()<Speaker>工厂老板</Speaker>||:在这之后，我就躲回了家避风头。幸好黑金也没在意我这种小角色……
-()<Speaker>指挥官</Speaker>||:你说有一个黑金队员在那天被秘密处决了？
-()<Speaker>工厂老板</Speaker>||:是。我不知道他是谁，但处决他的人就是深渊小队的队长，黑卡蒂。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:谢谢你，可以请你描述一下他的样子吗？
-()||<黑点1>:
+()<Speaker>Factory Owner</Speaker>||:After that, I went into hiding. Luckily, Blackgold didn't care about small fry like me...
+()<Speaker>Commander</Speaker>||:You're saying one of their own was executed that day?
+()<Speaker>Factory Owner</Speaker>||:Yes. I don't know who he was, but the one who gave the order... was Hecate, the squad leader.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:Thank you. Could you describe what he looked like?
+()||<黑点1>:

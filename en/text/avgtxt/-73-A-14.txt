@@ -1,188 +1,188 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<睁眼><BGM>BGM_TK_face</BGM><BIN>2</BIN><Night><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=2%%duration=0%%</bg_move><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:不知过了多久，指挥官在岸边醒来。
+()<Speaker></Speaker>||:The Commander wakes up by the riverside, unsure of how much time has passed.
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.45%%pivot_y=0.5%%scale=2%%duration=0.5%%</bg_move><CGDelay>0.1</CGDelay>:
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.55%%pivot_y=0.5%%scale=2%%duration=0.7%%</bg_move><CGDelay>0.4</CGDelay>:
 ()||<SE1>ClothingUp</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=1%%</bg_move><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||:眼前是昏迷的卡萝和米蒂尔，白烨戈和箱子已经不见踪影。
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:醒醒，醒醒。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position><Shake>||:嗯？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker><Shake>||:呃……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:摇醒了两人，确认她们没事，指挥官松了口气，拿出水壶想递给她们；犹豫了一下，还是从包里翻出两瓶没有开封过的瓶装水递了过去。
-()<Speaker>指挥官</Speaker>||:喝点水。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:怎么回事……白烨戈？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:别提那个女人。
-()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><CGDelay>0.5</CGDelay>:指挥官带着水壶走到河边，把里面的水全都倒掉，用河水仔细清洗。
-()<Speaker>指挥官</Speaker>||:白烨戈是多斯的人，箱子被他们带走了。
-()<Speaker>指挥官</Speaker>||:看天色，我们至少昏迷了一小时。整理背包，把开封过的食品和水都扔掉，我们追过去。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:不要浪费啊……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:一个小时，这种开过封的东西，谁能保证里面有没有毒？
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这里只有我们几个。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:那之前的白烨戈呢？
+()<Speaker></Speaker>||:In front of them lie Kuro and Mityl, still unconscious. Beluga and the box are nowhere to be seen.
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:Wake up. Come on, wake up.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position><Shake>||:Mm?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker><Shake>||:Ugh...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander shakes the two awake. Once it becomes clear that the girls are unharmed, they exhale in relief. They take out their canteen to offer water, but after a moment's hesitation, they dig out two sealed bottles of water from their pack instead and hand them over.
+()<Speaker>Commander</Speaker>||:Here, drink some.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:What happened... Beluga?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Don't even mention that woman.
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1><CGDelay>0.5</CGDelay>:With the canteen in hand, the Commander walks to the river, empties the remaining water, and thoroughly washes it with river water.
+()<Speaker>Commander</Speaker>||:Beluga is with Doss. They took the box.
+()<Speaker>Commander</Speaker>||:Judging from the sky, we've been out for at least an hour. Go through your packs—throw out any opened food and water. We're going after them.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:That's such a waste...
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:One hour. Can anyone guarantee the opened stuff isn't poisoned?
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:There's just the three of us here.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:What about Beluga?
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔沉默了，叹着气，从包里找出东西来丢掉。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1><CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:卡萝将一包开封了的饼干砸到地上，用力踩了一脚，泄愤似的把它碾碎了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<BGM>BGM_carmona</BGM>:算了吧。
-NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:嗯？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:我说算了吧，这个任务。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:多斯、不知来路的特种兵、什么都不说的委托人，还有随时可能从身后射来的子弹……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:我放弃这个任务。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你别冲动，会有办法的。我去找车，我们追上去。
-()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:卡萝已经收拾好了她本就不大的挎包，向后一甩搭在身上，站了起来。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:你们呢？是去追箱子，还是跟我一起走？我们可以组队去接新的委托……
-NPC-MDR_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:现在脱身恐怕已经晚了。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:箱子已经没了，现在放弃任务，顶多信誉受损。大不了改名换姓从头再来。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:暗区每天要死那么多人，没人会记得我们……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:距离约定的时间还有18小时，还有机会——
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>可我不想了！</size>
-()<Speaker></Speaker>||:卡萝突然的大声惊了米蒂尔一跳。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我问你，你知道箱子里是什么，委托人是谁，自己为什么要送这个箱子吗？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:卡萝……
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:不知道。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:为了那些只会躲在高楼大厦里，远远操控一切的大人物。值得吗？
-()<Speaker></Speaker>||:米蒂尔蹲在地上眼巴巴地看着她，像是有话想说又不敢；指挥官没有抬头，手底下继续收拾着东西，假装自己很忙。
-()<Speaker></Speaker>||:没人回应，也不知如何回应。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:我走了。
-()<Speaker>指挥官</Speaker>||:保重。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:等等！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔从包中掏出3枚手榴弹，几个医疗包塞到卡萝手里。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:这3个进攻手榴弹你拿好，爆炸时没有碎片，不会伤到自己。医疗包也是，别嫌重就不背在身上。你这么不管不顾不找掩体的性格……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……照顾好自己。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔停下了依依不舍的嘱托，卡萝接过东西走了两步，又冲回来紧紧抱了抱米蒂尔，与指挥官点头示意。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:保重！
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:卡萝一个人离开了，河岸边只剩下了米蒂尔和指挥官。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你为什么不拦着她？
-()<Speaker>指挥官</Speaker>||:因为她说的对。
-()<Speaker></Speaker>||:指挥官停下了手上的动作，直起身看着米蒂尔。
-()<Speaker>指挥官</Speaker>||:你呢，你为什么留下？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我……我也不知道。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔抱住了膝盖。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:我只是喜欢我们四……我们三个在一起的感觉；我不喜欢一个人。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:为什么突然就变成这样了？
-()<Speaker>指挥官</Speaker>||:打起精神来，我们先去找辆车……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:指挥官带着米蒂尔朝不远处的密林走去。
-()<Speaker>指挥官</Speaker>||:现在还不算最糟的情况。
-NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<SE1>Select</SE1>:说的没错。
-()<Speaker>指挥官&米蒂尔</Speaker>||:！
-NPC-Hecate_AB(1)<Speaker>？？？</Speaker>||<BGM>GF_22W_BGM_1</BGM>:现在才是。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:一群身穿统一制服的特种兵围了上来，形容整肃，为首的是一个黑色长发的女人。
-()<Speaker>指挥官</Speaker>||:这一天被枪指着脑袋的次数比我之前一年都要多。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官双手举起，无奈地转过身来。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl falls silent. She sighs and starts discarding things from her bag.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1><CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:Kuro slams a half-open pack of hard tack to the ground and crushes it underfoot, grinding it out in frustration.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<BGM>BGM_carmona</BGM>:Forget it.
+NPC-MDR_AB(0);NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Hm?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:I say we forget about this mission.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:Doss, unidentified spec ops, a client who won't tell us anything, bullets that could hit us from behind at any moment...
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>;NPC-P90_AB(0)<Position>0,-50</Position>||:I'm done with this job.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Don't be rash. There's still a way. I'll find us a vehicle—we can still catch up.
+()<Speaker></Speaker>||<SE1>AVG_Zipper</SE1>:Kuro has already packed up her small satchel. She swings it over her shoulder and stands.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:What about you two? Are you going after the box or coming with me? We can team up on another gig...
+NPC-MDR_AB(0)<Speaker>Commander</Speaker><同时置暗>||:It's probably too late to back out now.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:The box is already gone. If we quit now, our reputation is the only thing that'll suffer. Worst case, we change names and start over.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:People die in the Dark Zone every day. No one's going to remember us...
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:There's still 18 hours until the deadline. We still have a shot—
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>AVG_Punch_Hit</SE1><震屏3>:<size=50>But I don't care anymore!</size>
+()<Speaker></Speaker>||:Kuro's sudden outburst startles Mityl.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Let me ask you—do you know what's in the box? Who the client is? Why you're delivering this thing?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Kuro...
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:We don't.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:We're risking it all for those bigwigs hiding in skyscrapers, pulling strings from afar. Is it worth it?
+()<Speaker></Speaker>||:Mityl crouches, arms around her knees, clearly wanting to speak but too timid to. The Commander keeps their head down, busily fiddling with gear, pretending to be preoccupied.
+()<Speaker></Speaker>||:No one answers. No one knows how to.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:I'm leaving.
+()<Speaker>Commander</Speaker>||:Take care.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Wait!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl pulls three grenades and several medkits from her bag and presses them into Kuro's hands.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Take these three grenades—no shrapnel, so you won't hurt yourself. Take the medkits too. Don't skip carrying them just because they're heavy. With the way you charge in without cover...
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...Take care of yourself.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl trails off, reluctant to finish. Kuro walks off a few steps, then rushes back and hugs Mityl tightly. She nods to the Commander.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Stay safe!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:Kuro heads off alone, leaving Mityl and the Commander on their own on the riverside.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Why didn't you stop her?
+()<Speaker>Commander</Speaker>||:Because she's right.
+()<Speaker></Speaker>||:The Commander stops what they're doing and straightens up to look at Mityl.
+()<Speaker>Commander</Speaker>||:What about you? Why are you staying?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I... I don't know.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl hugs her knees.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:I just liked it when the four... no, the three of us were together. I don't like being alone.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:How did things fall apart so suddenly?
+()<Speaker>Commander</Speaker>||:Come on. Let's find a car first...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:The Commander leads Mityl toward the woods not far off.
+()<Speaker>Commander</Speaker>||:It's not the worst-case scenario.
+NPC-Hecate_AB(1)<Speaker>???</Speaker>||<SE1>Select</SE1>:You're right.
+()<Speaker>Commander & Mityl</Speaker>||:!
+NPC-Hecate_AB(1)<Speaker>???</Speaker>||<BGM>GF_22W_BGM_1</BGM>:Now it is.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:A group of uniformed special forces emerges and surrounds them, formation tight. Leading them is a woman with long, black hair.
+()<Speaker>Commander</Speaker>||:I've had more guns pointed at me today than I did all of last year.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander raises their hands and turns around helplessly.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><Night><BIN>2</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:是你？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker><GradientShow>2</GradientShow>||<CGDelay>0.5</CGDelay>:
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:？你知道我是谁？
-()<Speaker>指挥官</Speaker>||:不，不……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官打量着眼前的一行人，尤其是为首的女人，她的手臂上，一个章鱼的标志格外瞩目。
-()<Speaker>指挥官</Speaker>||:黑金……
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你们是之前在码头和船上袭击我们的特种兵！
-()<Speaker></Speaker>||:米蒂尔已经认出了那把标志性的改装枪。
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:交出箱子，可以放你们一命。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:主动暴露此前遮掩了一路的身份，难道不是已经打算灭口了吗？
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:本来是这样打算的，但箱子不在这。
-NPC-Hecate_AB(0)<Speaker>？？？</Speaker>||:说出箱子在哪儿，让我们省点力气，我也无意为难你们。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:你能保证？
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:黑卡蒂说到做到。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<震屏3>:黑卡蒂……是黑金的深渊小队！
-()<Speaker></Speaker>||:被女人的名字和眼前这群人的身份惊到，米蒂尔忍不住惊呼出声。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:卡萝确实说的对……这不是一个好差事……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:考虑得怎么样了？我没有很多时间。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:如你所见，箱子不在我们手上。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:3。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:我们被人骗了，箱子被偷走了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:2。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:真的不在！
+()<Speaker>Commander</Speaker>||:...It's you?
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker><GradientShow>2</GradientShow>||<CGDelay>0.5</CGDelay>:
+NPC-Hecate_AB(0)<Speaker>???</Speaker>||:You know who I am?
+()<Speaker>Commander</Speaker>||:No, no...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander eyes the group, focusing on the woman in front. The octopus emblem on her arm is impossible to miss.
+()<Speaker>Commander</Speaker>||:Blackgold Universal...
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:You were the ones who attacked us at the port—and on the boat!
+()<Speaker></Speaker>||:Mityl recognizes the distinctive modded rifle immediately.
+NPC-Hecate_AB(0)<Speaker>???</Speaker>||:Hand over the box, and we'll let you live.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:You've revealed yourselves after hiding all this time. Doesn't that mean you were going to kill us anyway?
+NPC-Hecate_AB(0)<Speaker>???</Speaker>||:That was the plan, but the box isn't here.
+NPC-Hecate_AB(0)<Speaker>???</Speaker>||:Tell us where it is and spare us both the trouble. I have no interest in making this harder than it needs to be.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:You can guarantee that?
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Hecate keeps her word.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<震屏3>:Hecate... You're from Blackgold's Abyss Squad!
+()<Speaker></Speaker>||:Shocked by both the woman's name and the identity of the soldiers, Mityl blurts out her realization.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Kuro was right... This was a bad gig...
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:So? Thought it through yet? I don't have all day.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:As you can see, we don't have the box.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Three.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:We were tricked. The box was stolen.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Two.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:It's really not with us!
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_weapon_reload</SE1>:
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:1。
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:在多斯那里！
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:多斯？
-()<Speaker>指挥官</Speaker>||:是的，我想你已经知道了，我们原本只有三个人，但是在船上，第四人加入了我们。
-()<Speaker>指挥官</Speaker>||:她自称为白烨戈，骗取我们的信任后，在刚刚，带着多斯的人抢走了箱子。
-()<Speaker>指挥官</Speaker>||:所以，你的敌人现在是多斯，不是我们。
-()<Speaker></Speaker>||:面对周围指着自己的枪，指挥官想办法拖延着时间，分散着黑卡蒂和深渊小队的注意力。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:那第三个人呢？
-NPC-Hecate_AB(0)<Speaker>指挥官</Speaker><同时置暗>||:……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:如何证明你们说的是真的，而不是她们两个一起转移了东西。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:因为，因为……
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:呵。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:面对无法自证的两人，黑卡蒂示意旁边的手下，先处理掉米蒂尔。
-()<Speaker>指挥官</Speaker>||:等等！箱子确实不在多斯那里。
-()<Speaker>指挥官</Speaker>||:想知道在哪儿，就把枪放下，你说过会保证我们的安全。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<BGM>BGM_Empty</BGM>:刚刚你们已经拒绝了这笔交易。
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.5</CGDelay>:一个黑金队员向前一步，枪口对准了米蒂尔的头，米蒂尔闭上了眼睛。
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:“轰！！！——”
-()<Speaker></Speaker>||<BGM>BGM_arenabreakout_battle2</BGM>:巨大的爆炸声响从不远的树林后传来，而后又是一声……
-()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:“轰！！！——”
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:停。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:黑卡蒂叫停了准备射杀米蒂尔的手下，示意三个人去探查树林的情况。
-()<Speaker></Speaker>||:围着米蒂尔和指挥官的只剩下包括黑卡蒂在内的4个人。
-()<Speaker></Speaker>||:指挥官偏头看向米蒂尔，两人对视，都在对方眼中看到了一丝隐秘的惊喜。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:<size=25>是进攻式……</size>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔用眼神向左侧的山坡示意，指挥官微微点头。
-()<Speaker></Speaker>||:探查的三人已经走远，但在反方向，树林中突兀地冒起了烟雾弹的白烟，吸引了大家的视线。
-()<Speaker>指挥官</Speaker>||:现在！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Punch_Hit</SE1><震屏3>:指挥官与米蒂尔突然行动，撞开身前的黑金队员。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:黑金的子弹偏移，倾洒到了地上；
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:One.
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:Doss has it!
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Doss?
+()<Speaker>Commander</Speaker>||:Yes. I'm sure you've figured it out by now. There were originally three of us. On the boat, a fourth joined us.
+()<Speaker>Commander</Speaker>||:She called herself Beluga. She earned our trust, then brought Doss' men and stole the box.
+()<Speaker>Commander</Speaker>||:So your enemy is Doss, not us.
+()<Speaker></Speaker>||:Faced with gun barrels all around, the Commander stalls for time, trying to distract Hecate and her squad.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:And the third person?
+NPC-Hecate_AB(0)<Speaker>Commander</Speaker><同时置暗>||:...
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:How do we know you're telling the truth? Maybe the two of them just moved the box together.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Well... uh...
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Heh.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hecate eyes the pair who have no proof to back up their claims and signals a soldier beside her to kill Mityl first.
+()<Speaker>Commander</Speaker>||:Wait! You got me; the box isn't actually with Doss.
+()<Speaker>Commander</Speaker>||:You want to know where it is? Put the guns down. You said you'd guarantee our safety.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<BGM>BGM_Empty</BGM>:You just refused the deal.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1><CGDelay>0.5</CGDelay>:A Blackgold operative steps forward, his gun aiming at Mityl's head. She shuts her eyes.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:BOOM!!!
+()<Speaker></Speaker>||<BGM>BGM_arenabreakout_battle2</BGM>:A huge explosion sounds from the forest behind them. Then another...
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:BOOM!!!
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Stop.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hecate halts the execution, signaling for three subordinates to investigate the forest.
+()<Speaker></Speaker>||:Only four people—including Hecate—remain around Mityl and the Commander.
+()<Speaker></Speaker>||:The Commander glances at Mityl. They exchange a look, both catching a flicker of secret delight in the other's eyes.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:<size=25>An offensive...</size>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl gestures toward the slope on the left with her eyes. The Commander gives a subtle nod.
+()<Speaker></Speaker>||:The three operatives sent to investigate have moved far away. But suddenly, white smoke from another smoke grenade rises from the opposite side of the forest, drawing everyone's attention.
+()<Speaker>Commander</Speaker>||:Now!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Punch_Hit</SE1><震屏3>:The Commander and Mityl spring into action, ramming into the Blackgold operatives in front of them.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Gunfire sprays off-target, tearing up the ground—
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_The_Division_Burning_Stick</SE1><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:
-()<Speaker></Speaker>||:与此同时另一枚烟雾弹落在几人中间，模糊了大家的视线。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:停止射击，脱离烟雾。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:几个人的站位过近，为了避免误伤，白雾中的黑金停止了盲目的攻击，移动脱离视线盲区。
-()<Speaker></Speaker>||:与此同时，指挥官与米蒂尔已经冲向了左侧山坡。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||<SE1>Select</SE1><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:Another smoke grenade lands in their midst, clouding visibility.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Cease fire! Get out of the smoke!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Too close together and afraid of friendly fire, the Blackgold operatives stop firing blindly and reposition to regain vision.
+()<Speaker></Speaker>||:Meanwhile, the Commander and Mityl dash for the slope on the left.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||<SE1>Select</SE1><CGDelay>0.7</CGDelay>:
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:黑卡蒂抬枪，没有刻意瞄准，子弹准确地扫向指挥官脚下的地面，逼迫两人就近寻找掩体，停止了奔逃。
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay><SE1>AVG_rifle_finalshot_n</SE1>:Hecate raises her rifle. Without aiming precisely, she fires at the ground near the Commander's feet, forcing them to duck for cover and halt their escape.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><Night><BIN>1</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:还好吗？
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:可以，但是包没带过来，身上的弹药不多了。
-()<Speaker></Speaker>||:指挥官靠在一棵树后，与旁边巨石后的米蒂尔确认着情况。
-()<Speaker>指挥官</Speaker>||:有投掷物吗？
+()<Speaker>Commander</Speaker>||:You okay?
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Yeah, but I left my pack. I'm low on ammo.
+()<Speaker></Speaker>||:The Commander hides behind a tree. Mityl observes the situation from behind a nearby boulder.
+()<Speaker>Commander</Speaker>||:Got any throwables?
 ()<Speaker></Speaker>||<CGDelay>0.2</CGDelay><SE1>ClothingUp</SE1>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:2颗手雷，2枚烟雾弹。
-()<Speaker>指挥官</Speaker>||:够了。他们不敢强攻，毕竟要留活口。
-()<Speaker>指挥官</Speaker>||:5米外就是密林，只要成功进去，就有机会甩脱他们。
-()<Speaker></Speaker>||:“不咕~”、“不咕~”，突兀的鸟叫声从密林处传来。
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:……一点都不像好吧。
-()<Speaker>指挥官</Speaker>||:做好准备。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:黑金的人举枪缓步朝两人压了过来，距离越来越近，米蒂尔拔出了手榴弹的栓子。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:“呯——”，最前面的黑金队员中枪倒下了。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:树林！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_The_Division_Grenade</SE1>:这声枪响就像行动的信号，米蒂尔卡着时间将手榴弹扔了出去，两人猛然起跑，跑向刚才“布谷鸟”叫的方向。
-()<Speaker></Speaker>||:黑卡蒂瞄向指挥官扣动扳机——
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||<SE1>ClothingUp</SE1>:Two grenades, two smokes.
+()<Speaker>Commander</Speaker>||:That's enough. They won't storm us—they want us alive.
+()<Speaker>Commander</Speaker>||:We're just five meters from the woods. If we get in, we might lose them.
+()<Speaker></Speaker>||:"Cuckoo~ Cuckoo~"—a bird call sounds from the dense thicket.
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:...That sounds nothing like a real bird.
+()<Speaker>Commander</Speaker>||:Get ready.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The Blackgold operatives raise their weapons and creep forward. Mityl pulls the pin from a grenade.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1>:Bang—one of the lead Blackgold operatives drops from a gunshot.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:From the trees!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_The_Division_Grenade</SE1>:The shot acts as a signal. Mityl times it perfectly and throws her grenade. The two of them break into a sprint, heading for the "bird call".
+()<Speaker></Speaker>||:Hecate aims at the Commander and fires—
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.3</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_Bullet_Hit_Body</SE1>:第一发落空，另一发精准地击中指挥官左侧小腿。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官小腿中枪后一个踉跄，脚下一缓，眼见就要成为靶子；
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:米蒂尔停下，转身朝黑金的追兵扫射，黑金被迫寻找掩体，为指挥官赢得片刻喘息。
-()<Speaker>指挥官</Speaker>||:走！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:一起！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:米蒂尔打空了弹夹，伸手去拉指挥官，被短暂压制的黑金又已经瞄准了两人。
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:“呯——”从树林中掷出的手榴弹又阻了黑金两秒。
-()<Speaker></Speaker>||:卡萝忍不住从密林中露头催促。
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:快点！
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你的腿？
-()<Speaker>指挥官</Speaker>||:没事。
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_Bullet_Hit_Body</SE1>:The first shot misses, but the second hits the Commander's lower left leg.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:They stumble, staggered by the hit. They're about to become a sitting duck.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Mityl stops, turns, and fires at the Blackgold operatives hot on their heels, forcing them into cover and giving the Commander a breather.
+()<Speaker>Commander</Speaker>||:Go!
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:We're going together!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Mityl empties her mag and reaches out for the Commander—Blackgold has them in their sights again.
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:Bang—another grenade from the trees stalls the pursuers for two seconds.
+()<Speaker></Speaker>||:Kuro peeks out from the woods.
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:Come on!
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:How's your leg?
+()<Speaker>Commander</Speaker>||:I'm fine.
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.2</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:那发本应打断指挥官左腿的子弹似乎并没有造成严重的影响，指挥官稳住身体后重新与米蒂尔朝密林奔去。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:嗯？
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||:这边，跟我来，我找到了一辆车！
-()<Speaker></Speaker>||:夜色中的密林追击难度大，黑金投鼠忌器，不敢使用手榴弹等投掷物怕将三人全部杀死。
-()<Speaker></Speaker>||:很快，三人便找到卡萝提前准备好的车子。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The bullet that should've shattered their leg seems to have done far less damage than expected. The Commander steadies themself and runs with Mityl into the forest.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Hm?
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||:This way, follow me! I found a car!
+()<Speaker></Speaker>||:It is much harder to pursue their targets in the woods at night. The Blackgold operatives hesitate to use grenades, afraid they would kill all three.
+()<Speaker></Speaker>||:Soon, the trio finds the vehicle Kuro prepared ahead of time.
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_20Winter_Door_Car_Open</SE1>:
-NPC-MDR_AB(0)<Speaker>卡萝</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:都坐稳了吗？准备好，发射！
+NPC-MDR_AB(0)<Speaker>Kuro</Speaker>||<SE1>AVG_20Winter_Door_Car_Close</SE1>:Everyone in? Buckled up? Alright—launching!
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>AVG_engine_speedup</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2>:三人疾驰而去。黑金的人没有车，在后面徒劳地开了几枪，没有射中。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:停。
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:They speed away. The Blackgold operatives, with no vehicles of their own, fire uselessly after them. None of the shots land.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Stop.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><回忆><BIN>1</BIN><Night><CGDelay>0.5</CGDelay>:
-NPC-P90_AB(0)<Speaker>米蒂尔</Speaker><Position>0,-50</Position>||:你的腿？
-()<Speaker>指挥官</Speaker>||:没事。
+NPC-P90_AB(0)<Speaker>Mityl</Speaker><Position>0,-50</Position>||:Your leg?
+()<Speaker>Commander</Speaker>||:It's fine.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<Night><BIN>1</BIN><黑屏2>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:黑卡蒂回到之前射中指挥官左腿的地方，草丛中没有一滴鲜血。
-NPC-Hecate_AB(0)<Speaker>黑卡蒂</Speaker>||:难道是你？
-()||<黑点1>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:Hecate returns to where the Commander was shot in the leg. There isn't a single drop of blood on the grass.
+NPC-Hecate_AB(0)<Speaker>Hecate</Speaker>||:Could it be you?
+()||<黑点1>:
