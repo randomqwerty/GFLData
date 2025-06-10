@@ -235,8 +235,8 @@ function PlayGuide(guidename)
 end
 local CheckLetterText = function(self,txt)
 	self:CheckLetterText(txt);
-	local length = utf8len(self.lastText);
-	self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
+	--local length = utf8len(self.lastText);
+	--self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
 end
 local EditLetter = function(self)
 	if CS.ResCenter.CONGIGNAME == "IosResConfigData2018.txt" then
@@ -265,8 +265,8 @@ local EditLetter = function(self)
 	else
 		self:EditLetter();
 	end
-	local length = utf8len(self.letterData.content);
-	self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
+	--local length = utf8len(self.letterData.content);
+	--self.txtLimit.text = tostring(length).."/"..tostring(CS.OPSLetterListController.Instance.LetterContentLengthLimit-1);
 end
 local LeaveEditLetter = function(self)
 	if CS.ResCenter.CONGIGNAME == "IosResConfigData2018.txt" then
@@ -327,6 +327,14 @@ local SuccessJsonHandleData = function(self,jsonData)
 	CS.GameData.listLetterData:Clear();
 	self:SuccessJsonHandleData(jsonData);
 end
+local ShowNewReward = function(self)
+	self:ShowNewReward();
+	if self.EndLess.gameObject.activeInHierarchy then		
+		self.BossList.gameObject:SetActive(false);
+	end
+	local txtLock = self.transform:Find("DownBg/Node_DownBtn/btnBattle/Locked/Tex_Locked");
+	txtLock:GetComponent(typeof(CS.ExText)).resizeTextForBestFit = true;
+end
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
@@ -349,3 +357,4 @@ util.hotfix_ex(CS.OPSLetterWriteController,'LeaveEditLetter',LeaveEditLetter)
 util.hotfix_ex(CS.OPSLetterWriteController,'CheckRenderTexture',CheckRenderTexture)
 util.hotfix_ex(CS.OPSLetterLabel,'RefreshSangvisUI',RefreshSangvisUI)
 util.hotfix_ex(CS.RequsetGetAllLetterData,'SuccessJsonHandleData',SuccessJsonHandleData)
+util.hotfix_ex(CS.SpecialMissionInfoController,'ShowNewReward',ShowNewReward)

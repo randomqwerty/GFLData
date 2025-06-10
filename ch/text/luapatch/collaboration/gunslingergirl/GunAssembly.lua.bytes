@@ -4,6 +4,7 @@ xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.TweenPlay)
 xlua.private_accessible(CS.GF.Battle.BattleController)
 xlua.private_accessible(CS.BattleFieldTeamHolder)
+xlua.private_accessible(CS.DG.Tweening.TweenSettingsExtensions)
 local GunPartsData = {}
 local GunAssemblyData = {}
 
@@ -64,7 +65,17 @@ local msgbox = false
 
 local score = 0
 
-
+local TweenEase = xlua.get_generic_method(CS.DG.Tweening.TweenSettingsExtensions,"SetEase")
+local TweenDelay = xlua.get_generic_method(CS.DG.Tweening.TweenSettingsExtensions,"SetDelay")
+local TweenLoop = xlua.get_generic_method(CS.DG.Tweening.TweenSettingsExtensions,"SetLoops")
+local PlayTween = xlua.get_generic_method(CS.DG.Tweening.TweenExtensions,"Play")
+local SetEase = TweenEase(CS.DG.Tweening.Tweener)
+local SetDelay = TweenDelay(CS.DG.Tweening.Tweener)
+local SetLoops = TweenLoop(CS.DG.Tweening.Tweener)
+local PlayTweener = PlayTween(CS.DG.Tweening.Tweener)
+--CS.DG.Tweening.TweenSettingsExtensions.SetEase(tweener,(tweenplay.easeType))
+--CS.DG.Tweening.TweenSettingsExtensions.SetDelay(tweener,tweenplay.delay)
+--CS.DG.Tweening.TweenSettingsExtensions.SetLoops
 --Awake：初始化数据
 Awake = function()
 	
@@ -551,7 +562,8 @@ function AddGunParts(id)
 	--end
 end
 function DoTweenFade(image)
-	image:DOFade(0,0.3):Play()
+	local tweener = CS.DG.Tweening.ShortcutExtensions46.DOFade(image,0,0.3)
+	PlayTweener(tweener)
 end
 function DoTweenPlay(tweenplay,gameobject,isreverse)
 	if tweenplay.currentTweenMode == CS.TweenPlay.TweenMode.Alpha then
@@ -562,40 +574,60 @@ function DoTweenPlay(tweenplay,gameobject,isreverse)
 		if gameobject:GetComponent(typeof(CS.UnityEngine.CanvasGroup)) == nil then
 			gameobject:AddComponent(typeof(CS.UnityEngine.CanvasGroup))	
 		end
-		gameobject:GetComponent(typeof(CS.UnityEngine.CanvasGroup)):DOFade(value,tweenplay.duration):SetEase(tweenplay.easeType):SetDelay(tweenplay.delay):SetLoops(tweenplay.loopTime,tweenplay.loopType):Play()
-
+		local tweener = CS.DG.Tweening.ShortcutExtensions46.DOFade
+		(gameobject:GetComponent(typeof(CS.UnityEngine.CanvasGroup)),value,tweenplay.duration)
+		SetEase(tweener,(tweenplay.easeType))
+		SetDelay(tweener,tweenplay.delay)
+		SetLoops(tweener,tweenplay.loopTime,tweenplay.loopType)
+		--CS.DG.Tweening.TweenSettingsExtensions.SetUpdate(tweener,true)
+		PlayTweener(tweener)
 	end
 	if tweenplay.currentTweenMode == CS.TweenPlay.TweenMode.PositionYLocal then
 		local value = tweenplay.toOne
 		if isreverse then 
 			value = tweenplay.fromOne
 		end
-		gameobject.transform:DOLocalMoveY(value,tweenplay.duration):SetEase(tweenplay.easeType):SetDelay(tweenplay.delay):SetLoops(tweenplay.loopTime,tweenplay.loopType):Play()
-
+		local tweener = CS.DG.Tweening.ShortcutExtensions.DOLocalMoveY
+		(gameobject.transform,value,tweenplay.duration)
+		SetEase(tweener,(tweenplay.easeType))
+		SetDelay(tweener,tweenplay.delay)
+		SetLoops(tweener,tweenplay.loopTime,tweenplay.loopType)
+		
+		--CS.DG.Tweening.TweenSettingsExtensions.SetUpdate(tweener,true)
+		PlayTweener(tweener)
 	end
 	if tweenplay.currentTweenMode == CS.TweenPlay.TweenMode.PositionLocal then
 		local value = tweenplay.toThree
 		if isreverse then 
 			value = tweenplay.fromThree
 		end
-		gameobject:GetComponent(typeof(CS.UnityEngine.RectTransform)):DOAnchorPos3D(tweenplay.toThree,tweenplay.duration):SetEase(tweenplay.easeType):Play()
-
+		local tweener = CS.DG.Tweening.ShortcutExtensions46.DOAnchorPos3D
+		(gameobject:GetComponent(typeof(CS.UnityEngine.RectTransform)),tweenplay.toThree,tweenplay.duration)
+		SetEase(tweener,(tweenplay.easeType))
+		--CS.DG.Tweening.TweenSettingsExtensions.SetUpdate(tweener,true)
+		PlayTweener(tweener)
 	end
 	if tweenplay.currentTweenMode == CS.TweenPlay.TweenMode.Rotation then
 		local value = tweenplay.toThree
 		if isreverse then 
 			value = tweenplay.fromThree
 		end
-		gameobject.transform:DORotate(tweenplay.toThree,tweenplay.duration,CS.DG.Tweening.RotateMode.WorldAxisAdd):SetEase(tweenplay.easeType):Play()
-
+		local tweener = CS.DG.Tweening.ShortcutExtensions.DORotate
+		(gameobject.transform,tweenplay.toThree,tweenplay.duration,CS.DG.Tweening.RotateMode.WorldAxisAdd)
+		SetEase(tweener,(tweenplay.easeType))
+		--CS.DG.Tweening.TweenSettingsExtensions.SetUpdate(tweener,true)
+		PlayTweener(tweener)
 	end
 	if tweenplay.currentTweenMode == CS.TweenPlay.TweenMode.Scale then
 		local value = tweenplay.toThree
 		if isreverse then 
 			value = tweenplay.fromThree
 		end
-		gameobject.transform:DOScale(tweenplay.toThree,tweenplay.duration):SetEase(tweenplay.easeType):Play()
-
+		local tweener = CS.DG.Tweening.ShortcutExtensions.DOScale
+		(gameobject.transform,tweenplay.toThree,tweenplay.duration)
+		SetEase(tweener,(tweenplay.easeType))
+		--CS.DG.Tweening.TweenSettingsExtensions.SetUpdate(tweener,true)
+		PlayTweener(tweener)
 	end
 end
 function CheckAssemblyGunComplete()
@@ -697,7 +729,10 @@ function ReturnLastGunParts()
 		local tweens = AssemblyGunPartsObject:GetComponents(typeof(CS.TweenPlay))
 		for i=0,tweens.Length-1 do
 			if tweens[i].currentTweenMode == CS.TweenPlay.TweenMode.Rotation then
-				AssemblyGunPartsObject.transform:DORotate(tweens[i].toThree,tweens[i].duration,CS.DG.Tweening.RotateMode.WorldAxisAdd):SetEase(tweens[i].easeType):Play()
+				local tweener = CS.DG.Tweening.ShortcutExtensions.DORotate
+				(AssemblyGunPartsObject.transform,tweens[i].toThree,tweens[i].duration,CS.DG.Tweening.RotateMode.WorldAxisAdd)
+				SetEase(tweener,(tweens[i].easeType))
+				PlayTweener(tweener)
 			else		
 				tweens[i]:SetIsPlayBackwards(true):DoTween()
 			end
@@ -709,7 +744,10 @@ function ReturnLastGunParts()
 			for j=0,tweensShadow.Length-1 do
 				if tweensShadow[j] ~= nil then					
 					if tweensShadow[j].currentTweenMode == CS.TweenPlay.TweenMode.Rotation then
-						AssemblyGunPartsObjectShadow.transform:DORotate(tweensShadow[j].toThree,tweensShadow[j].duration,CS.DG.Tweening.RotateMode.WorldAxisAdd):SetEase(tweensShadow[j].easeType):Play()
+						local tweener = CS.DG.Tweening.ShortcutExtensions.DORotate
+						(AssemblyGunPartsObjectShadow.transform,tweensShadow[j].toThree,tweensShadow[j].duration,CS.DG.Tweening.RotateMode.WorldAxisAdd)
+						SetEase(tweener,(tweensShadow[j].easeType))
+						PlayTweener(tweener)
 					else	
 						tweensShadow[j]:SetIsPlayBackwards(true):DoTween()
 					end
@@ -859,7 +897,7 @@ function GetScore(scorenum)
 	score = score + scorenum
 	local tweenNum = TextScore:GetComponent(typeof(CS.TweenNumber))
 	tweenNum.NumberTo = score
-	tweenNum:DOKill()
+	CS.DG.Tweening.ShortcutExtensions.DOKill(tweenNum)
 	tweenNum:Play()
 end
 
@@ -877,12 +915,12 @@ function ShowResult()
 	
 	local tweenNum = TextResultTime:GetComponent(typeof(CS.TweenNumber))
 	tweenNum.NumberToString = string.format("%.2f",(countdownTimer))
-	tweenNum:DOKill()
+	CS.DG.Tweening.ShortcutExtensions.DOKill(tweenNum)
 	tweenNum:Play()
 	
 	local tweenNum2 = TextResultScore:GetComponent(typeof(CS.TweenNumber))
 	tweenNum2.NumberToString = score
-	tweenNum2:DOKill()
+	CS.DG.Tweening.ShortcutExtensions.DOKill(tweenNum2)
 	tweenNum2:Play()
 	if score >= 4600 then
 		ImgResultMedal:GetComponent(typeof(CS.ExImage)).sprite = CS.CommonController.LoadPngCreateSprite("WorldCollide/GunslingerGirl/Icon/medal_gold")

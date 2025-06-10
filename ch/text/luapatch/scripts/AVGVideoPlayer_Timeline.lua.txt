@@ -5,10 +5,14 @@ local OnVideoPlayEnd = function()
 end
 
 Start = function()
-	print('play video');
+	print('play video2');
 	if self.transform.childCount > 0 then
 		local videoCode = self.transform:GetChild(0).name;
-		CS.CommonVideoPlayer.PlayVideo(CS.CommonVideoPlayer.GetFilePathVideo(videoCode),OnVideoPlayEnd,false,true,false,false,"",false,true);
+		local avgcanvas = CS.AVGController.Instance.gameObject:GetComponent(typeof(CS.UnityEngine.Canvas));
+		CS.CommonVideoPlayer.PlayVideo(CS.CommonVideoPlayer.GetFilePathVideo(videoCode),OnVideoPlayEnd,false,true,false,false,"",false,false);
+		local vodeocanvas = CS.CommonVideoPlayer.Instance.gameObject:GetComponent(typeof(CS.UnityEngine.Canvas));
+		vodeocanvas.sortingLayerName = avgcanvas.sortingLayerName;
+		vodeocanvas.sortingOrder = avgcanvas.sortingOrder+1;
 		CS.AVGController.Instance.gameObject:GetComponent(typeof(CS.UnityEngine.UI.GraphicRaycaster)).enabled = false;
 	end
 	

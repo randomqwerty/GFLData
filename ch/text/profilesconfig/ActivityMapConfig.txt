@@ -95,6 +95,8 @@ MissionSelectionTex|missionselect_2022Summer|1|-40402
 MissionSelectionTex|missionselect_Slowshock|2|-40403
 //24.12月
 MissionSelectionTex|missionselect_202412activity|2|-74
+//25.5月
+MissionSelectionTex|missionselect_202505activity|2|-75
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -151,19 +153,21 @@ OPSPanelScene|-73|-73
 OPSPanelScene|-40402|-40402
 OPSPanelScene|-40403|-40403
 OPSPanelScene|-74|-74
+OPSPanelScene|-75|-75
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
 //OPSVideoFirst|-33|deepdive_short
 //OPSVideoFirst|-2|deepdive_short
 //OPSVideoFirst|-54|deepdive_short
-OPSVideoFirst|-68|202404ActivityPV
+OPSVideoFirst|-68|202404ActivityPV|0|1
 OPSVideoFirst|-69|202406ActivityPV
 OPSVideoFirst|-70|202407ActivityPV
 OPSVideoFirst|-71|202408ActivityPV
 OPSVideoFirst|-72|202410ActivityPV
 OPSVideoFirst|-73|ArenaBreakoutPV
-OPSVideoFirst|-74|202412ActivityPV
+OPSVideoFirst|-74|202412ActivityPV|0|1
+OPSVideoFirst|-75|202505ActivityPV|0|1
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -242,6 +246,7 @@ OPSLeftBGNormalActivity|-40401|FixedPoint_Left
 OPSLeftBGNormalActivity|-40402|2022SummerLogo
 OPSLeftBGNormalActivity|-40403|2023Spring_Left
 OPSLeftBGNormalActivity|-74|202412Activity_Left
+OPSLeftBGNormalActivity|-75|202505Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -289,6 +294,7 @@ OPSNoticeNormalActivity|-64|2024Ghost_Notice
 //OPSNoticeNormalActivity|-72|202410Activity_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
 OPSNoticeNormalActivity|-74|202412Activity_Notice
+OPSNoticeNormalActivity|-75|202505Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -330,6 +336,7 @@ OPSTimeNormalActivity|-71|202406Activity_Time
 OPSTimeNormalActivity|-72|202406Activity_Time
 OPSTimeNormalActivity|-73|202406Activity_Time
 OPSTimeNormalActivity|-74|202406Activity_Time
+OPSTimeNormalActivity|-75|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -388,6 +395,8 @@ OPSGoto|2023RougeSpring_PointExchange|2|-61|1004
 //OPSGoto|202407Activity_GotoMall|0|-73
 //24_12月活动
 OPSGoto|202412Activity_GotoMall|0|-74
+//25_05月活动
+OPSGoto|202505Activity_GotoMall|0|-75
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -449,6 +458,7 @@ OPSProgressNormalActivity|-72|202406Activity_Progress
 OPSProgressNormalActivity|-40401|Reversible_Progress
 OPSProgressNormalActivity|-73|202406Activity_Progress
 OPSProgressNormalActivity|-74|202406Activity_Progress
+OPSProgressNormalActivity|-75|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -594,6 +604,7 @@ OPSCampaignTitleButton|-71|true|202408Activity_Difficulty2Btn
 OPSCampaignTitleButton|-72|true|202410Activity_Difficulty2Btn
 OPSCampaignTitleButton|-73|true|202408Activity_Difficulty2Btn
 OPSCampaignTitleButton|-74|true|202412Activity_Difficulty2Btn
+OPSCampaignTitleButton|-75|true|202505Activity_Difficulty2Btn
 OPSCampaignTitleButton|-40403|true|2023Spring_Diffculty2Btn
 
 //剧情章节用
@@ -2266,3 +2277,42 @@ OPSCampaignDetail|-74_44|0,0|Nyto_Styx
 OPSCampaignDetail|-74_45|0,0|Morridow_2
 OPSCampaignDetail|-74_46|0,0|Punish
 OPSCampaignDetail|-74_47|0,0|202412activity_rabbithole_title
+
+//202505活动 溯源回归
+OPSCampaignDetail|-75_1|0,0|TT33
+OPSCampaignDetail|-75_2|0,0|Kalina_OL
+OPSCampaignDetail|-75_3|0,0|TT33
+OPSCampaignDetail|-75_4|0,0|TT33
+OPSCampaignDetail|-75_5|0,0|TT33
+OPSCampaignDetail|-75_6|0,0|TT33
+OPSCampaignDetail|-75_7|0,0|TT33
+OPSCampaignDetail|-75_8|0,0|Kalina_OL
+OPSCampaignDetail|-75_9|0,0|TT33
+OPSCampaignDetail|-75_10|0,0|TT33
+OPSCampaignDetail|-75_11|0,0|TT33
+OPSCampaignDetail|-75_12|0,0|Kalina_OL
+OPSCampaignDetail|-75_13|0,0|TT33
+OPSCampaignDetail|-75_14|0,0|TT33
+OPSCampaignDetail|-75_15|0,0|TT33
+OPSCampaignDetail|-75_16|0,0|Kalina_OL
+OPSCampaignDetail|-75_17|0,0|Kalina_OL
+OPSCampaignDetail|-75_18|0,0|Kalina_OL
+OPSCampaignDetail|-75_19|0,0|Kalina_OL
+OPSCampaignDetail|-75_20|0,0|TT33
+OPSCampaignDetail|-75_21|0,0|TT33
+OPSCampaignDetail|-75_22|0,0|Kalina_OL
+OPSCampaignDetail|-75_23|0,0|NPC_Kryuger
+OPSCampaignDetail|-75_24|0,0|NPC_Havel
+OPSCampaignDetail|-75_25|0,0|Kalina_OL
+OPSCampaignDetail|-75_26|0,0|TT33
+OPSCampaignDetail|-75_27|0,0|Kalina_OL
+OPSCampaignDetail|-75_28|0,0|Kalina_OL
+OPSCampaignDetail|-75_29|0,0|TT33
+OPSCampaignDetail|-75_30|0,0|Kalina_OL
+OPSCampaignDetail|-75_31|0,0|TT33
+OPSCampaignDetail|-75_32|0,0|TT33
+OPSCampaignDetail|-75_33|0,0|Kalina_OL
+OPSCampaignDetail|-75_34|0,0|UMP45_shadow
+
+
+

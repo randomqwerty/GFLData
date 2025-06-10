@@ -19,6 +19,7 @@ xlua.private_accessible(CS.GF.Battle.BattleFairyData)
 xlua.private_accessible(CS.GF.Battle.BattleFriendlyCharacterManager)
 xlua.private_accessible(CS.GF.Battle.gsEffect)
 xlua.private_accessible(CS.GF.Battle.BattleSkillData)
+xlua.private_accessible(CS.GF.Battle.BattleCharacterData)
 
 local character = nil
 local characterData
@@ -94,6 +95,7 @@ local startAnimSkillAction = 11762101
 local moveSoundInterval = 0.6
 local moveSoundFrameTimer = 4
 local FP = CS.TrueSync.FP
+local characterDie = false
 
 
 JoyStickMove = function(input)
@@ -217,6 +219,7 @@ Start = function()
 
 end
 UpdateJoyStick = function()
+	
 	if not gameStartAnimFlag then	
 		MoveFront()
 		--thisFrameJoyStick = false
@@ -226,6 +229,7 @@ UpdateJoyStick = function()
 		--thisFrameJoyStick = false
 		return 
 	end
+
 	if cannotMoveFlag then
 		if isMoving then
 			isMoving = false
@@ -255,6 +259,7 @@ Update = function()
 		--print(offset)
 		--print(CS.GF.Battle.BattleDynamicData.friendlyArmyOffset)
 	--end
+	
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
@@ -361,6 +366,14 @@ GetInputValue = function(eulerAngle)
 end
 
 HandleJoyStickMove = function(input)
+
+	if characterData == nil then
+		return
+	end
+	if characterData:IsDead() then
+		return
+	end
+
 	if input.eulerAngle >=0 + loss and input.eulerAngle < math.pi - loss then
 		if isMoving then
 			isMoving = false

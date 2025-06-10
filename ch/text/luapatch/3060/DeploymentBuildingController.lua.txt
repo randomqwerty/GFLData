@@ -104,6 +104,25 @@ local UpdateInfo = function(self)
 	end
 	self:UpdateInfo();
 end
+local CheckBattle = function(self)
+	if self:HasTeamCanTrans() then
+		CS.DeploymentController.hasTeamTraning = true;
+		self:CheckTeamTrans();
+		return;
+	end
+	CS.DeploymentController.hasTeamTraning = false;
+	self:CheckBattle();
+end
+local TriggerAVGFinishEvent = function()
+	local team = nil;
+	if CS.DeploymentController.Instance ~= nil and not CS.DeploymentController.Instance:isNull() then
+		team = CS.DeploymentController.Instance.currentSelectedTeam;
+	end
+	CS.DeploymentController.TriggerAVGFinishEvent();
+	if CS.DeploymentController.Instance ~= nil and not CS.DeploymentController.Instance:isNull() then
+		CS.DeploymentController.Instance:SelectTeam(team,true);
+	end
+end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
 util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
@@ -111,4 +130,6 @@ util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectCancelSpot',SelectCancelSpot)
 util.hotfix_ex(CS.DeploymentTeamController,'CheckTeamMoveCost',CheckTeamMoveCost)
 util.hotfix_ex(CS.DeploymentController,'AddAndPlayPlayBattleChange',AddAndPlayPlayBattleChange)
 util.hotfix_ex(CS.DeploymentController,'RequestStartMission',RequestStartMission)
+util.hotfix_ex(CS.DeploymentController,'TriggerAVGFinishEvent',TriggerAVGFinishEvent)
+util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
 util.hotfix_ex(CS.DeploymentFloatingTeamInfo,'UpdateInfo',UpdateInfo)

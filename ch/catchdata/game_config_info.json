@@ -1291,9 +1291,21 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "FriendApplicaiton",
+      "parameter_type": "int",
+      "parameter_value": "30",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "friends_coefficients",
       "parameter_type": "string",
       "parameter_value": "10,10",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "friend_apply_limit",
+      "parameter_type": "int",
+      "parameter_value": "50",
       "client_require": "1"
     },
     {
@@ -2151,7 +2163,7 @@
     {
       "parameter_name": "reply_switch",
       "parameter_type": "int",
-      "parameter_value": "0",
+      "parameter_value": "1",
       "client_require": "1"
     },
     {
@@ -2521,6 +2533,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "screenshot_global_switch",
+      "parameter_type": "string",
+      "parameter_value": "1,30",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "server_time_switch",
       "parameter_type": "int",
       "parameter_value": "0",
@@ -2776,6 +2794,12 @@
       "parameter_name": "spendpoint_max",
       "parameter_type": "string",
       "parameter_value": "1,5000;2,20000;3,-1",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "SP_return_purchase",
+      "parameter_type": "string",
+      "parameter_value": "40010,40011,40012,40013,40014,40015,40016,40017",
       "client_require": "1"
     },
     {
