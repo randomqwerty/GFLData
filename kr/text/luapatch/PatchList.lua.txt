@@ -463,6 +463,8 @@ patch3070=
 "3070/CommonBundleConfirmBoxController",
 "3070/SangvisGunStateController",
 "3070/MallController",
+"3070/HomeUserInfoNewController",
+"3070/GunStateSkinPageController",
 "3070/AdjutantGunListController",
 "3070/FormationEquipLabelController",
 "3070/FriendAddFriendController",
@@ -472,6 +474,8 @@ patch3070=
 "3070/CommonGuideController",
 "3070/CommonController",
 "3070/OPSPanelController",
+"3070/DeploymentMapDragController",
+"3070/DeploymentController",
 "3070/HomeController",
 "3070/MissionSkipController",
 "3070/DormVisitorItem",
@@ -479,6 +483,7 @@ patch3070=
 "3070/MotherBaseController",
 "3070/CommonLive2DController",
 "3070/DormConfirmBox",
+"3070/Data",
 }
 -- va11
 print("load Va11");

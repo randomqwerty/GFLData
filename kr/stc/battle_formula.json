@@ -16524,6 +16524,26 @@
     "formula": "sbuffidtier(9831)=1?1:0"
   },
   {
+    "id": 9810,
+    "formula": "sbuffidtier(9833)=1&sbuffidtier(9834)=1?1:0"
+  },
+  {
+    "id": 9811,
+    "formula": "sbuffidtier(9836)=1&sbuffidtier(9837)=1?1:0"
+  },
+  {
+    "id": 9812,
+    "formula": "sbuffidtier(301)=0?(GetChance(33)?9841:GetChance(50)?9842:9843):(GetChance(20)?9839:GetChance(25)?9840:GetChance(33)?9841:GetChance(50)?9842:9843)"
+  },
+  {
+    "id": 9813,
+    "formula": "sbuffidtier(9836)=1&sbuffidtier(9837)=1?sbuffidtier(9846)>0?0:1:0"
+  },
+  {
+    "id": 9814,
+    "formula": "sbuffidtier(9847)>0?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },

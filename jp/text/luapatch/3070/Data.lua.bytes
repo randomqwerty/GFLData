@@ -1,0 +1,45 @@
+local util = require 'xlua.util'
+xlua.private_accessible(CS.Data)
+
+local UserExistsSkin = function(package)
+	local choose = false;
+	local presentInfo = nil;
+	for i=0,CS.GameData.listPresentInfo.Count-1 do
+		local info = CS.GameData.listPresentInfo[i];
+		if info.prize_id == package.id then
+			presentInfo = info;
+		end
+	end
+	CS.NDebug.Log("id",package.id);
+	if presentInfo ~= nil and presentInfo.presentType == CS.PresentInfo.PresentType.Optional then
+		choose = true;
+	end
+	if choose and package:HasGiftPackage() then
+		local has = true;
+		CS.NDebug.Log("当前自选礼包");
+		for i=0,package.listGiftPackage.Count-1 do
+			local info = package.listGiftPackage[i].info;
+			if info ~= nil then
+				local skinId = info.id;
+				if skinId ~= 0 then
+					local e = CS.GameData.listSkin:Exists(function(g)
+						return g.info.id == skinId;
+					end) 
+					local e1 = CS.GameData.listGift:Exists(function(g)
+						return g.info.skin == skinId;
+					end)
+					if not e and not e1 then
+						CS.NDebug.Log("未拥有皮肤",skinId);
+						has = false;
+					end
+				end
+			end
+		end
+		return has;
+	else
+		return CS.Data.UserExistsSkin(package);
+	end
+end
+
+util.hotfix_ex(CS.Data,'UserExistsSkin',UserExistsSkin)
+

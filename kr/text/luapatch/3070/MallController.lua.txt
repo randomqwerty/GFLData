@@ -8,7 +8,7 @@ local mExitMailResourceLoop = function(hasMail)
 	CS.MallController.ExitMailResourceLoop(hasMail);
 	if CS.MallController.mallGoodToShip ~=nil then
 		if CS.MallController.mallGoodToShip.type == CS.GoodType.payToReturnFund and CS.PlayerReturnEventCtrl.Instance~=nil then
-		 	CS.PlayerReturnEventCtrl.Instance.fundCtrl:PayCallBack(hasMail);
+		 	CS.PlayerReturnEventCtrl.Instance:RequestData();
 		elseif CS.MallController.mallGoodToShip.type == CS.GoodType.payToReturnGiftbag and CS.PlayerReturnEventCtrl.Instance~=nil  then 
 			CS.PlayerReturnEventCtrl.Instance.shopCtrl:PayCallBack(hasMail);
 		elseif CS.MallController.mallGoodToShip.type == CS.GoodType.payToSkinBlindBox and CS.MallBlindBoxController.Instance~=nil  then 
