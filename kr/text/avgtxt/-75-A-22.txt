@@ -1,177 +1,177 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>BGM_DescartesInTheTheatre</BGM><黑屏2><BIN>840</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:夜色如墨，忙碌的医院灯火通明。穿梭于走廊内的几名医生紧锁眉头，带着过劳后特有的亢奋与焦灼彼此争论着方案。
-()<Speaker></Speaker>||:普通病房区早已人满为患，一些病患躺在简易的滑轮床上，任由疲惫的护士摆靠在过道两旁。
-()<Speaker></Speaker>||<SE1>AVG_Wheelchair</SE1>:一队物流人员推着载满物资的小车，从拥挤的过道当中挤出一条路来。随后他们打开走廊尽头的隔门，将物资运送至特殊病房区的走廊。
-()<Speaker></Speaker>||:趁着物流人员安置货物的间隙，一只半腰高的纸箱从内部划开包装胶带。托卡列夫探出头来，灵巧地翻身离开，避入监控摄像头的视野盲区当中，与黑暗融为一体。
-()<Speaker></Speaker>||<SE1>AVG_Wheelchair</SE1>:车轮滚动的声音再度响起，物流人员推车离开后，托卡列夫轻盈地穿梭于黑暗之中，直到一扇门扉前停下脚步。对此，呆板的红外摄像头全无察觉。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||<SE1>AVG_tele_connect</SE1>:格琳娜小姐，我已按照计划接近目标。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><通讯框>||:<color=#00CCFF>收到。谨慎行事，不要暴露身份。</color>
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:明白。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Metal_Break</SE1><CGDelay>0.7</CGDelay><SE1>AVG_Spanner</SE1>:
-()<Speaker></Speaker>||:托卡列夫撬开门锁，推开了沉重的铁门。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Gate_Close</SE1>:吱——呀——+铁门发出一声别扭的抗议，在寂静的走廊内回荡着。托卡列夫立即扶住铁门，静待噪音的涟漪在空气中消散。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:纤细的身体挤过缝隙，进入物资管理部，再尽量不发出一点声响地阖上铁门，她这才背靠着冰冷的金属，平息紧张感带来的情绪波动。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:第一次的潜入任务就这么刺激啊……呜呜。
-()||<黑点1><SE1>AVG_Creep</SE1>:
-()<Speaker></Speaker>||<黑点2><Night><BIN>748</BIN><CGDelay>0.5</CGDelay>:
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:明明是物资管理部的仓库，居然是这么狭小的房间呢……
-()<Speaker></Speaker>||:托卡列夫自言自语着，很快便发现房间里的物资几乎全部堆在房间四角，留出一块空旷的区域。站在门口向内看去，室内的一切饱览无余。
-()<Speaker></Speaker>||:这片狭窄的空间里，最值得注意的，便是摆在桌上的一台信息终端，用于负责登记物资出入库的状况。
-()<Speaker></Speaker>||:对人形来说破解这套系统毫无难度，托卡列夫几秒内便接入了医院的电子系统。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||<SE1>AVG_tele_connect</SE1>:报告，格琳娜小姐，我已成功骇入主控设备。+初步检阅后，这里面存着不少记录，应该有我们需要的线索。
-NPC_TT33(0);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><通讯框>||:<color=#00CCFF>优先排查药物库存情况。其余的稍后检查。</color>+<color=#00CCFF>毕竟指挥官有伤在身，排查药物情况应该能找到线索。</color>
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:明白。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:在一条一条地排查药物出入库的记录的同时，托卡列夫忽然意识到室内的布局有些特殊。
-()<Speaker></Speaker>||:她现在操作的屏幕正对着门口，椅子背对着门口，这样的模式显然含有设计因素，目的是方便其他人监视操作员的一举一动。+在当前的处境里，这个设计意味着只要有人开门，这个刻意隔出来的中央区域就会让她瞬间暴露、躲无可躲。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:为了减少暴露的可能，托卡列夫加快了手上的动作。+很快，一起医疗物资失窃事件引起了她的主意。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:医疗物资车失窃事件，优先级——+低？？
-()<Speaker></Speaker>||:托卡列夫感到难以置信。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:呜哇……这个时间段，医疗物资的开销应该很紧俏才对。+丢失了一辆物资车已经算非常严重的事态了吧？为什么优先级调到了低档？
-NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><通讯框>||:<color=#00CCFF>嗯……确实。</color>+<color=#00CCFF>不过原因应该不难猜——战争打响之后，各大战地医院都会面临人手不足的情况。</color>+<color=#00CCFF>救治伤员的压力已经很大了，就算发现物资失窃事件也很难立刻追究。</color>+<color=#00CCFF>而且这个优先级应该只是对内的排期，追缴任务应该转交给警方了。</color>+<color=#00CCFF>对了，丢的都是些什么药物？</color>
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:我看看……+分别是氨甲环酸注射液、万古霉素，以及 O型RhD阴性浓缩红细胞悬液……
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:具体数量没有记载，但数量应该不少。+这些药物主要用来治疗大出血和预防烧伤后感染，还有其他的……
-()<Speaker>？？</Speaker>||<BGM>BGM_Empty</BGM>:有人在里面吗？
-()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>GF_EV9_Story</BGM>:咚、咚、咚……+就在托卡列夫将消息回传给格琳小姐的时候，她忽然听见门扉处传来敲门声，门外也传来了人类的声音。+她环顾四周，发现周围没有任何能够藏身的地方，就连药物柜也是镂空的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她回过头去，发现仓库内既不设窗户，也没有任何通风管道！
-()<Speaker>？？？</Speaker>||:应该没人，你就直接拿钥匙开门得了……+病房那边还在等着呢。
-()<Speaker></Speaker>||:门外有两个人……不，或许更多。自己能跑吗？跑又该跑向哪里？这室内没有任何地方能让自己安全离开，甚至都没有能躲人的地方。
-()<Speaker></Speaker>||:那，自己能迅速击晕这两人吗？击晕了又该怎么办？医院现在人手吃紧，消失两人必将引起骚乱。到时候查起来她不仅没法保证自己的心智数据不被清除，甚至连格琳小姐那边也势必遭遇牵连。
-()<Speaker>？？</Speaker>||:那好吧，钥匙给我。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……！
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:就在托卡列夫飞速思考的间隙，钥匙孔传来了金属的碰撞声，那钥匙已经开始搅动起来！+托卡列的心智飞快地演算着种种情况，最终，她的心智不得已模拟出了最坏的情况与应对预案。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||<SE1>AVG_tele_connect</SE1>:格琳小姐，紧急情况！+我马上将数据回传给您，这里交给我处理，请您抓紧离开医院！+然后……然后……
-()<Speaker></Speaker>||<SE1>Rope</SE1>:托卡列夫攥住拳头，迟迟不敢下定决心……+然而门锁无情地转动着……在一番鲁莽的试探过后，门外的人显然找到了窍门，一点一点试探着……+那锁芯即将松开它内在的机械咬合！没时间留给托卡列夫了！
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:然后……我会重置我的心智数据，成为物资管理处隶属的自动人形。+这样一来，就能通过后续的心智检查了，不会拖累您……和指挥官。
-()<Speaker></Speaker>||:说出这话之后，托卡列夫反而松了口气。这是当下最好的选择。+只是，通讯对面毫无反应，格琳小姐那边全无理会。托卡列夫瞪大了双眼。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳小姐！！
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Prison_Door</SE1>:门锁已然拧开，沉重的铁门掀开一角。门外的光线折出一个令人心惊胆战的弧度。+托卡列夫凝神屏息，已然进入预备姿态，时刻准备启动重置代码——
-()<Speaker></Speaker>||<SE1>AVG_21Winter_FT_Heel</SE1>:哒、哒、哒……+一阵高跟鞋声由远及近响了起来。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||<SE1>Stop_AVG_loop</SE1>:<color=#A9A9A9>再多一人也无所谓，反正结果都是一样的……</color>
-()<Speaker></Speaker>||:在她决意按下重置代码的前一刻，她忽然听到了格琳小姐的声音。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:你们两位在做什么？+进出物资管理部门需要手续，你们带文件来了吗？
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳娜小姐？！您怎么来了？
-()<Speaker></Speaker>||:托卡列夫瞠目结舌地看向门外。格琳小姐并未回应自己，继续与门外两人交涉。
-()<Speaker>？？</Speaker>||:领、领导吗……？+我、我们是、是来——
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:看样子，你们应该是刚进院的住院医师吧？不知道最近物资管理部频繁遭窃吗？+这个时间点擅闯仓库……我很难不怀疑你们的行为举止。
-()<Speaker></Speaker>||:托卡列夫感到一阵愕然。格琳小姐这是在假扮医院领导？+转念一想，她那一身西装，看起来确实和医院领导——特别是物资管理部门的领导没什么差别。
-()<Speaker>理直气壮的住院医师</Speaker>||:报告领导，病房里的伤员已经坚持不了多久了，他很痛苦。+我们只是想让他离开得体面点，你可以说我们手续违规，但不能指控我们偷窃物资。
-()<Speaker>怯懦的住院医师</Speaker>||:喂！你快别说啦！+不要工作啦？
-()<Speaker>理直气壮的住院医师</Speaker>||:你别拉我，我又没错。+领导，既然你站在这里，我现在以我个人名义向你申请麻醉剂，手续我后面来补。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……
-()<Speaker></Speaker>||:门外一阵骚动，托卡列夫听出来其中一个住院医师开始纠缠起来。+这对她们不利，如果任由事态扩大，引来第三方的话，那么她们同样会面临身份核查。+这样一来，一切就没有意义了……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||<SE1>AVG_tele_connect</SE1>:格琳小姐，不如我们给她们药吧？+再纠缠下去我们会很被动。
-()<Speaker></Speaker>||:格琳小姐没有回答她。门外沉默片刻，随后响起格琳小姐清脆的声音。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:原来如此，我明白了。+不过，善意需要聪明的方式践行，偷开物资管理部的门锁可不是正规流程。+你们在这里等我一下，我来负责药品的出入库登记，手续你们之后补齐。
-()<Speaker>怯懦的住院医师</Speaker>||:啊——好的！谢谢领导！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳小姐将门微微推开，用自己的身体挡住门外的目光，不至于让室内的托卡列夫暴露。+透着些微的光线，托卡列夫看见了格琳小姐，打那一眼，她那刚刚松弛下来的心再度悬了起来……+格琳小姐的面容虽然镇定，但脸色一片苍白、全无血色。这也难怪，她已经拖着这疲惫的身躯奔波太久了。她的情况堪称岌岌可危……
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳小姐……
-()<Speaker></Speaker>||:托卡列夫的声音刻意压低。格琳并未作声，而是朝着她点点头，投来坚定的目光。
-()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1>:吱……+那扇厚重的铁门传来金属零件之间的挤压响声，开关门的动作刮出嘶哑的擦音。+在此时，那声音犹如来自地狱的三全音一样，令人心神不安。
-()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:格琳同样谨慎地对待着这扇铁门，她小心翼翼地将门关上，直到门锁响起门闩合靠的“啪嗒”声。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:呼……
-()<Speaker></Speaker>||:做完这一切的格琳也长出了一口气，她挺拔的身姿顷刻间憔悴不少。
-()<Speaker></Speaker>||:她转过身，朝托卡列夫疲惫地点了点头，露出一个惨淡的笑，随后抬腿朝着自己走来。
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Chains_Break</SE1>:吭！+就在格琳娜迈出第一步的时候，一声尖锐的断裂声骤然响起！
-()<Speaker></Speaker>||<BGM>10230</BGM>:托卡列夫猛地抬头，发现被自己撬开的那扇沉重的铁门，似乎因为合页撕裂的缘故，正朝着格林娜的方向摇摇欲坠。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:糟……！
-()<Speaker></Speaker>||:来不及提醒，那铁门的平衡已被合页断裂的反作用力打破，砸向格琳娜的后背。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:可恶……！
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><SE1>RunStep</SE1>:托卡列夫立刻切断与设备的连接，拼了命地冲向格琳娜。
-()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>0.7</CGDelay><SE1>AVG_Pause</SE1>:咚！
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><Night><BIN>748</BIN><CGDelay>0.4</CGDelay>:
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:诶？
-()<Speaker></Speaker>||:格琳娜回过神来，发现托卡列夫用自己的素体挡住了倾倒的铁门，这突然的一幕，让她忍不住倒吸一口凉气。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫，你没事吧？
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:嘿嘿，这种东西对我来说只是小菜一碟啦，只是现在不好再闹出大动静……格琳小姐，请让开些，我得把它轻轻放在……
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:嗞嗞——！
-NPC_TT33(3)<Speaker>托卡列夫</Speaker><Shake>||:唔呃……！
-()<Speaker></Speaker>||:好巧不巧，心智深处那股熟悉的刺痛再度袭来，原本还有余裕的托卡列夫顷刻间失去大部分动力，肩上的铁门此时仿佛变成了沉重的局势，将托卡列夫压在下面。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫！？你怎么了！？
-NPC_TT33(3)<Speaker>托卡列夫</Speaker><Shake>||:……心、心智……
-()<Speaker></Speaker>||:托卡列夫已无力回答，眼见情况不妙的格琳娜想帮忙把铁门撑起来，可虚弱的身体也在此时起不到任何作用。
-()<Speaker>怯懦的住院医师</Speaker>||:领、领导，您还好吗？里面发生了什么？
-()<Speaker></Speaker>||:门外传来了住院医师的问候，对方显然没有察觉到具体发生了什么，只是听到了些许响动。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫咬紧牙关，朝格琳摇了摇头。+后者会意，平复了一下呼吸，努力让自己的话语显得正常一些。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:没关系，只是被绊了一下，无需在意。
-()<Speaker>怯懦的住院医师</Speaker>||:啊，好的！有事您说话。
-()<Speaker></Speaker>||:门外不再有询问的声音，托卡列夫的动力也渐渐流逝。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:心智的刺痛让她单膝跪在地上，勉强依靠素体强度来硬扛那肩头的重量。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:就在自己快要支撑不住的时候，托卡列夫却突然感觉到肩上的重量减去了一些。转过头来，发现格琳娜来到自己身边，一起顶住了铁门。
-NPC_TT33(3)<Speaker>托卡列夫</Speaker>||:格琳小姐……？快、快闪开，您的身体……
-NPC_TT33(0)<Speaker>托卡列夫</Speaker><Shake>||<白屏2><SE1>AVG_whitenoise</SE1>:唔……！
-()<Speaker></Speaker>||:临到此时，来自心智的痛感依然不减。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:现在不是在乎这些的时候，坚持住，我们一起把它挪开……！
-()<Speaker></Speaker>||:不顾身体状况，格琳娜也拼尽全力，让托卡列夫的压力减轻许多。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:听我的口令……一……二……
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:格琳娜憋红了脸，与托卡列夫一起将倾斜大半的铁门慢慢扶正，随后，两人终于轻轻将铁门靠在了墙边。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<BGM>BGM_Empty</BGM>:终、终于……
-()<Speaker></Speaker>||:身上不再有重压之后，心智的刺痛也渐渐消失。
-()<Speaker></Speaker>||:托卡列夫没工夫搞清楚这莫名其妙的状况，只见耗尽体力的格琳娜双腿一软，她赶紧上前搀扶，让格琳娜慢慢坐在了地上。
-NPC_TT33(3)<Speaker>托卡列夫</Speaker>||:对不起，格琳小姐…………明明我一个人也可以……
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:嘿嘿……
-()<Speaker></Speaker>||:筋疲力尽的格琳娜依然回以那让人感到温暖的笑容。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:我们是同伴嘛……同伴遇到危险，当然要互相帮助呀……你就不要这么客气啦……
-()<Speaker></Speaker>||:缓了一缓，格琳娜总算恢复了一些。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……好了，我们还有更重要的事情要做……+刚来没来得及回复，但你找到的物资失窃记录，完美契合一份医疗预案……+那份预案是我和……指挥官在潜艇基地的时候制定的，当时指挥官也因为爆炸而受伤，是我亲自为指挥官治疗的……所以只有我们两个清楚细节……+托卡列夫，麻烦你骇入系统，追踪到那辆医疗物资车的线索……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:嗯……请放心交给我吧！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫点头，又确认了一下格琳娜的身体状况后，才起身回到电子设备前。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:她稳定了一下心智，重新骇入系统之中。+尽管自己刚才对格琳小姐夸下海口，但她很清楚自己面对的是一个庞大的数据矩阵。+战地医院的数据对于她单个人形来说浩如烟海，即便是她也有些应付不来。+她的心智模块，在反复的排查当中逐渐过热，甚至有好几回都无法集中精神。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:医务室、急诊科、检验科、药房、后勤处……+什么都没有，全都是无效信息……
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:托卡列夫短短两三分钟遍历了若干个科室内的医疗系统，但是毫无收获。
-()<Speaker></Speaker>||:她的心智数据再度泛起一阵涟漪。
-()<Speaker></Speaker>||:自己真的能帮得上忙吗？托卡列夫不知道。+之所以站在这里，是因为指挥官。格琳小姐说，指挥官来过这里。+这几天托卡列夫曾经思考，为什么在格琳小姐将自己唤醒之后，自己会毫无犹豫地选择帮助她，去追寻指挥官的步伐？+围绕在指挥官身边的优秀人形太多太多，自己只是微不足道的那一个……+甚至和指挥官单独相处的时间都极为有限。+不是没产生过自卑的心情，也不是没有过自暴自弃的时候……
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:但之所以还坚持在这里，是为什么？
-()<Speaker></Speaker>||:这时，门外传来闲谈的声音。
-()<Speaker>理直气壮的住院医师</Speaker>||:去了好久啊，还没回来？
-()<Speaker>怯懦的住院医师</Speaker>||:可能只是在翻找吧……对了，你看新闻了吗？+一个人形把坦克开进了白区，还搞出了剧烈爆炸。+不知道驾驶员能不能幸存下来……
-()<Speaker>理直气壮的住院医师</Speaker>||:哦，我也看到了。+不过，那种程度的爆炸，怎么想也不可能有人生还了吧？+要多天真，才能把战争当儿戏？痴心妄想也得有个限度。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……
-()<Speaker></Speaker>||:一片黑暗之中，托卡列夫听到了格琳逐渐沉重的呼吸声，她忍不住抬起头来偷偷瞥了一眼。+显然，门外的那些流言蜚语，同样刺在了格琳的心里。+是啊，就算这里有指挥官的行为痕迹，又能证明什么呢？+就算是指挥官开走的医疗物资车，那指挥官就一定安然无恙吗？会不会有别人代行？
-()<Speaker></Speaker>||:会不会这一切只是一场乌龙？+如果那些最坏的可能，没有从格琳小姐的口中挑明，那是不是就意味着它真的不会发生？
-()<Speaker></Speaker>||:“痴心妄想也得有个限度。”+托卡列夫的心智数据如同汹涌的乱流，她不敢再细想下去。+她惧怕自己想到最坏的那个可能，也不想看见格琳被压垮的瞬间。
-()<Speaker></Speaker>||:不……托卡列夫知道这是一句搪塞。+她更害怕的，是那个没能帮得上忙的自己……一个帮不上忙的自己，真的有资格站在这里帮助格琳小姐吗？
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:托卡列夫的手停了下来，她的心智已然过载，她的手在止不住地颤抖……
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫……你还好吗？
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:格、格琳小姐，我……我没事，我只是……
-NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:没关系的，托卡列夫，不要给自己太大的压力。+我知道骇入数据并不轻松，如果所有问题都能以不假思索的方式轻松解决，那么在这背后一定有一个用心险恶的谎言。+所以，我相信这条路是没错的，我也相信指挥官一定没事的……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:……嗯。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……+指挥官从一开始，就无条件地相信着我们。+现在，我们也应该相信指挥官……！
-()<Speaker></Speaker>||:黑暗之中，托卡列夫似乎看到一束曦暖的光芒，那是格琳小姐坚定的目光，是信任的目光。+格琳小姐的这番话，像是那光芒一样温暖，让托卡列夫颤抖的手逐渐安静下来……+她想起从前的事情……
-()||<黑屏1>:
-()<Speaker>指挥官</Speaker>||<CGDelay>0.4</CGDelay><黑屏2><BIN>96</BIN><回忆>:S09区，对我而言，不仅仅是一个军事据点。+我希望它能成为一个……或许只是临时的，但能够尽可能安全的“家”。+而在这个家里，每一个成员，无论其构造是碳基还是硅基，都应该得到应有的尊重。
-()||<黑屏1>:
-()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<Night><黑屏2><BIN>748</BIN><CGDelay>0.4</CGDelay>:
-()<Speaker></Speaker>||:原来这一切既不是痴心妄想，也不是配不配的问题。
-()<Speaker></Speaker>||:是指挥官这样的人，给了自己和像自己这样的人形们一个能被称之为家的归宿……+不分高低贵贱，不分能力高低……+在讨论谁更配站在指挥官身边这个问题之前，指挥官已经超越了这个问题本身，给了所有人形同样的尊重。+在指挥官这样的人来到S09之前，托卡列夫一直这样的事情，就是最大的痴心妄想。+但事实是，在指挥官和格琳小姐出现之后，原本那些能够格称之为痴心妄想的事情，变成了真实且能够触碰的存在。+所以，该做什么，已经无比明晰了。托卡列夫在知道这一点之后，心智逐渐恢复了稳定。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:我，我知道了，格琳小姐……+谢谢您，我知道该怎么做了。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:嗯！加油，一定没问题的。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫的手重新回到键盘上，她再度向那庞大的信息矩阵发起攻势。
-()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_keyboardtype_sci</SE1><黑屏2><BIN>9</BIN>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><Night><BIN>748</BIN><CGDelay>0.5</CGDelay>:
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:……诶？这是？
-()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:就在托卡列夫无意识地执行着一次又一次的遍历之时，她忽然注意到一个备份服务器的数据存在异样。
-()<Speaker></Speaker>||:那是一个极微小的数据波动，就算是人形也很容易忽略——但托卡列夫注意到了它。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:等下，这个备份系统……？+有其他人入侵过这里？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫抬起头，与格琳娜四目相对。显然，格琳听见了自己的低语，那对疲惫的眼睛当中亮起一丝光芒。+托卡列夫不敢怠慢，她加快了手上的动作。
-()<Speaker></Speaker>||:这名黑客的技巧十分高级，几乎完美掩盖了所有的行为痕迹，但是托卡列夫发现备份系统和主系统之间，有一条数据对不上。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:格琳小姐，我找到那辆医疗物资车了！
-NPC_TT33(0);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:车辆信息对得上吗？
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:没有。但是我从系统当中发现了一条线索。+在那辆医疗物资车出车的当晚，有另一辆医疗物资车临时接到了出车任务。+我认为有人骇入了医院的任务系统，我怀疑是在浑水摸鱼。
-NPC_TT33(0);NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:前线药品消耗剧烈，夜间出车增添补给的行为并不罕见。+多次出车可能只是单纯地执行任务，不一定是黑客行为。+托卡列夫，越是紧急的时候，越需要保持冷静。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(4)<Position>0,-90</Position>||:是的，您说得很对。出车行为本身没什么问题，但是如果没有黑客骇入的话，这条记录就没理由在主系统里删除。+如果是正常的调度的话，不应该只有备份数据保留了数据。+而且，您不觉得这个删除行为本身，就非常奇怪吗？
-NPC_TT33(0);NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:你是说……？
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:是的，我认为这和指挥官有着极为紧密的关系。
-()<Speaker></Speaker>||:说到这里，托卡列夫的眼睛闪闪发亮。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:我找到了这辆医疗物资车的GPS信号的最终定位。+它曾在法兰克福的一个停车场停留，定位我发给您。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，托卡列夫离开电子设备，清理了自己的行为痕迹。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她从仓库当中取来麻醉剂递给格琳，并将她搀扶起来。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:您刚才说得对，如果说是其他人，我或许不该期待太多。+但如果是指挥官的话，没有什么是不可能的。+格琳小姐，指挥官一定还活着，并且在某处等待着我们。
-()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:黑夜之中，她见到格琳的脸上浮现出一抹如释重负的笑容。+看着那样灿烂的笑容，托卡列夫想起指挥官和格琳小姐邀请大家加装进食模块的那个下午。+只记得那天下午的阳光和气候，像格琳小姐的笑容一样温暖，像指挥官的眼神那样平静。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_DescartesInTheTheatre</BGM><黑屏2><BIN>840</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||:칠흑 같은 밤에도 병원은 등불로 환하게 빛났다. 복도를 오가는 의사들은 이미 우거지상인 얼굴에 과로로 인한 신경질과 초조함을 띄운 채 현황과 방침을 토론했다.
+()<Speaker></Speaker>||:일반 병실은 이미 가득 찼는지, 몇몇 환자들은 복도 양쪽에 차려진 간이 병상에 방치되다시피 눕혀져 있었다.
+()<Speaker></Speaker>||<SE1>AVG_Wheelchair</SE1>:물류 인원들은 물자를 가득 실은 카트를 밀며 가뜩이나 비좁아진 복도에 길을 내며 이동해, 복도 끝의 문을 열고 의료 물자를 특수 병동의 복도로 운반했다.
+()<Speaker></Speaker>||:그리고 화물이 선반으로 옮겨지는 사이, 허리 높이인 종이 상자가 안에서부터 테이프를 끊고 열리더니 그 속에서 토카레프가 고개를 내밀고 날렵하게 빠져나왔다. 그리고 보안 카메라의 사각지대에 숨어, 어둠에 녹아들었다.
+()<Speaker></Speaker>||<SE1>AVG_Wheelchair</SE1>:다시 바퀴가 구르는 소리를 내며 물류 인원들이 떠난 후, 토카레프는 어둠 속을 신속하게 헤치고 나아가다 어느 문 앞에서 걸음을 멈췄다. 이 일련의 동작에 병원의 보안 적외선 카메라도 아무 반응도 않고 허공만 응시했다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||<SE1>AVG_tele_connect</SE1>:카리나 씨, 계획대로 목표에 접근했어요.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position><通讯框>||:<color=#00CCFF>잘했어. 신분 들키지 않도록 조심해서 움직여.</color>
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:네.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Metal_Break</SE1><CGDelay>0.7</CGDelay><SE1>AVG_Spanner</SE1>:
+()<Speaker></Speaker>||:토카레프는 자물쇠를 따고 묵직한 철문을 열었다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Gate_Close</SE1>:열리는 철문이 내는 소음이 조용한 복도에 메아리쳤다. 토카레프는 바로 문짝을 붙잡아 멈추고, 소음이 흩어지기를 기다렸다.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:그리고 가느다란 몸으로 틈새를 비집고 물자관리부의 창고로 들어가, 다시 최대한 조용히 철문을 닫았다. 문이 찰칵 소리를 내며 완전히 닫힌 뒤, 토카레프는 차가운 철문에 기댄 채 긴장으로 인한 마인드맵의 감정 파동을 가라앉혔다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:후우... 첫 잠입 임무부터 이렇게 스릴 넘쳐서야...
+()||<黑点1><SE1>AVG_Creep</SE1>:
+()<Speaker></Speaker>||<黑点2><Night><BIN>748</BIN><CGDelay>0.5</CGDelay>:
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:이렇게 좁은 방이, 정말 물자관리부의 창고가 맞을까...
+()<Speaker></Speaker>||:혼잣말로 중얼거리며, 토카레프는 우선 방을 둘러봤다. 물자는 거의 전부 귀퉁이에만 쌓여 있고, 탁상이 있는 중앙이 비워진 구조였다.
+()<Speaker></Speaker>||:이 좁은 공간에서 바로 눈에 들어온 것은, 저 중앙의 탁상에 놓인 전산 콘솔이었다. 물자의 출입고 상황을 기록하는 용도로 보였다.
+()<Speaker></Speaker>||:인형이라면 이런 콘솔로 기록하는 정보 시스템을 해독하기란 식은 죽 먹기기에, 토카레프는 단 몇 초만에 병원의 전산 시스템에 접속했다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||<SE1>AVG_tele_connect</SE1>:시스템 해킹 성공.+우선 간단히 살펴봤는데, 기록이 꽤 많네요. 우리가 찾는 단서도 있을 거 같아요.
+NPC_TT33(0);NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position><通讯框>||:<color=#00CCFF>약품 재고 상황부터 체크해. 다른 건 그 다음에.</color>+<color=#00CCFF>지휘관님은 부상을 입으셨을 테니까, 약품 재고와 사용 현황을 보면 단서가 있을 거야.</color>
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:알겠어요.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:한 줄씩 의료품 출입고 기록을 체크하면서, 토카레프는 이 방의 구조가 다소 특이한 것을 눈치챘다.
+()<Speaker></Speaker>||:그녀가 지금 조작 중인 콘솔은 화면이 문을 향하고 있고, 의자는 문을 등지는 방향이다. 이러한 배치는 당연히 의도된, 여기서 작업하는 사람의 모든 행동을 볼 수 있도록 한 배치였다.+만약 지금 이 순간 누가 문을 열고 들어온다면, 훤히 드러나 숨을 구석도 없는 중앙의 공간에 있는 토카레프는 바로 발각당한다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:들킬 위험을 피하고자, 토카레프는 작업을 서둘렀다.+그리고 때마침 한 줄의 의료 물자 도난 사건 기록이 그녀의 주의를 끌었다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:의료 물자 수송 차량 도난 사건... 우선도... 낮음?
+()<Speaker></Speaker>||:토카레프는 어이가 없어서 눈을 끔뻑였다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:지금 같은 때에 의료 물자는 하나라도 귀중할 텐데...+차량 한 대를 통째로 잃어버렸으면 엄청 큰 사건 아닌가? 왜 우선도가 낮음이지?
+NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position><通讯框>||:<color=#00CCFF>흠... 확실히 수상하게 들리네.</color>+<color=#00CCFF>하지만 나름 이유가 있을 수도 있어. 전쟁을 치른지 얼마 안 돼서, 병원마다 다 심각한 인력 부족이잖아.</color>+<color=#00CCFF>부상자 응급처치만으로도 정신 없을 텐데, 도둑맞은 물자까지 신경쓸 여유는 없을 거야.</color>+<color=#00CCFF>그리고 이 우선 순위는 그 병원의 판단일 뿐이고, 조사는 이미 경찰에게 맡겼을지도 몰라.</color>+<color=#00CCFF>참, 도난당한 약품은 뭐야?</color>
+NPC_TT33(1)<Speaker>토카레프</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:볼게요...+트린사민 주사액, 반코마이신, 그리고 Rh- O형 적혈구 농축 링거액...
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:자세한 수량은 안 적혀 있지만, 차 한 대 분량이니 많을 거예요.+주로 지혈용이랑 화상으로 인한 감염 방지용으로 쓰이는 약품에, 또――
+()<Speaker>？？</Speaker>||<BGM>BGM_Empty</BGM>:안에 누구 있나요?
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1><BGM>GF_EV9_Story</BGM>:똑똑똑, 노크 소리.+목록을 메시지로 카리나에게 보내려던 그때, 갑자기 문을 두드리는 소리와 인간의 목소리가 들려왔다.+토카레프가 황급히 주위를 두리번거렸지만, 약품 선반도 다 개방식이어서 몸을 숨길 곳이 없었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:시선을 위로 들어봐도 창문도, 환풍구도 보이지 않았다.
+()<Speaker>？？？</Speaker>||:에이, 이런 시간에 누가 있겠어. 그냥 열어.+병실에서 기다리고 있을 거라고.
+()<Speaker></Speaker>||:문 밖에 2명... 아니, 2명 이상일지도 모른다. 도망칠 수 있을까? 하지만 어디로? 이 실내는 안전하게 벗어날 곳도, 숨을 곳도 없다.
+()<Speaker></Speaker>||:그렇다면, 신속하게 저들을 기절시키는 것은 가능할까? 하지만 그 다음은? 이 병원도 지금 일손이 부족한 상황일 테니, 2명이나 갑자기 사라지면 분명 소란이 일어날 것이다. 만약 붙잡힌다면, 마인드맵 기록을 보존할 수 있을지는 차치하고 카리나까지 연루될 수 있다.
+()<Speaker>？？</Speaker>||:하긴. 열쇠 줘.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:......!
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Chains_Break</SE1>:궁리하는 사이에 열쇠가 열쇠 구멍을 들쑤시는 소리가 났다.+토카레프는 최대한 빨리 각종 상황을 시뮬레이션하고, 최악의 경우에 대한 대응책도 강구했다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||<SE1>AVG_tele_connect</SE1>:카리나 씨, 긴급 상황이에요!+데이터 지금 보내드릴 테니, 빨리 병원에서 이탈하세요.+여긴 제게 맡기세요. 제가... 제가...!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:주먹을 움켜쥐고, 토카레프는 결단을 내리길 망설였다.+하지만 그런 와중에도 문은 언제든지 열릴 수 있다. 문 밖의 사람은 저 문을 여는 데 익숙지 않은지 몇 번 헛수고를 하다, 결국 침착하게 천천히 열쇠를 돌렸다.+자물쇠가 철컥 소리를 내며 토카레프를 재촉했다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:제가... 마인드맵 데이터를 포맷해서, 물자관리부 소속인 자율인형으로 위장할게요.+그럼... 마인드맵 검사를 받더라도, 카리나 씨도 지휘관님도 연루되지 않을 거예요.
+()<Speaker></Speaker>||:말을 뱉어내고 나니 오히려 홀가분한 기분이 들었다. 이것이 지금으로선 최선의 선택이다.+그런데, 통신의 반대편에서 아무런 대답이 없었다. 카리나가 묵묵부답이자 토카레프는 다급해졌다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Prison_Door</SE1>:자물쇠는 이미 열려서, 두꺼운 철문과 문틀 사이로 간담이 서늘해지는 빛이 새어들어왔다.+토카레프는 숨을 죽이고 자세를 취해, 언제든지 포맷을 실행할 준비를 했다.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_FT_Heel</SE1>:또각, 또각, 또각...+멀리서 높은 구두 소리가 다가왔다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||<SE1>Stop_AVG_loop</SE1>:<color=#A9A9A9>1명 더 늘어도 상관 없어, 어차피 마찬가지니까...</color>
+()<Speaker></Speaker>||:포맷 명령어를 실행하려던 그때, 카리나의 목소리가 들렸다. 통신이 아니라 저 문 너머에서.
+NPC_Kalina_OL(4)<Speaker>카리나</Speaker><Position>0,-90</Position>||:두 분, 여기서 뭐하세요?+물자관리실에 출입하려면 수속 절차 거쳐야 하는 거 모르시나요? 관련 서류는 있어요?
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨!? 왜 오셨어요?!
+()<Speaker></Speaker>||:토카레프가 놀란 눈으로 문 밖의 카리나를 바라보며 통신으로 외쳤지만, 카리나는 대답하지 않고 계속해서 두 사람들과 대화했다. 
+()<Speaker>？？</Speaker>||:네? 아, 시, 실장님이신가요?+저희는, 그러니까...
+NPC_Kalina_OL(4)<Speaker>카리나</Speaker><Position>0,-90</Position>||:여기 온 지 얼마 안 된 전공의인가 보죠? 최근에 물자를 자꾸 도둑맞아서 물자관리부가 골머리 썩이는 거 아시죠?+이런 시간에 함부로 창고로 들어가려 하면... 두 분부터 의심할 수밖에 없어요.
+()<Speaker></Speaker>||:토카레프는 아연실색했다. 카리나는 지금 이 병원의 간부를 흉내내며 저들을 속이려는 걸까?+생각해 보니, 정장 차림인 카리나는 확실히 병원 임원진의 복장과 꽤 비슷했다. 특히 물자관리부의 책임자라면 충분히 그럴 듯한 모습이었다.
+()<Speaker>당당한 전공의</Speaker>||:실장님, 지금 병실에 몹시 위독한 상태의 중상 환자가 괴로워하고 있습니다.+저희는 그저, 그 환자가 최소한 편하게 갈 수 있도록 조치를 하고 싶을 뿐입니다. 절차 위반은 할 말 없지만 도둑이라니 억울하네요.
+()<Speaker>소심한 전공의</Speaker>||:아익 그걸 말하면 대놓고 말하면 어떡해!+잘리고 싶어?!
+()<Speaker>당당한 전공의</Speaker>||:말리지 마, 내가 뭐 잘못했냐고.+실장님이 오셔서 마침 잘됐네요. 기왕 이렇게 된 거, 제 명의로 마취제 반출 신청하겠습니다. 수속은 나중에 보충하겠습니다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:......
+()<Speaker></Speaker>||:문 밖이 시끄러웠다. 전공의 중 한 명이 실랑이를 벌이기 시작한 것이었다.+당장은 괜찮지만, 상황이 좋지 않았다. 이대로 일이 커져서 관계자가 더 돈다면 카리나의 신원을 들킬 수 있다.+그렇게 되면 모든 것이 허사가 되어버린다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||<SE1>AVG_tele_connect</SE1>:카리나 씨, 그냥 약을 줘서 보내는 게 어떨까요?+계속 따지면 우리만 불리해져요.
+()<Speaker></Speaker>||:이번에도 카리나는 대답하지 않았지만 문 밖이 조용해졌다. 그리고 잠시 후, 카리나의 맑은 목소리가 들렸다.
+NPC_Kalina_OL(3)<Speaker>카리나</Speaker><Position>0,-90</Position>||:그렇군요, 알겠어요.+하지만 좋은 일이라도 영리하게 해야죠. 몰래 물자관리실의 문을 열려 하다니, 절차를 어기면 어떡해요?+여기서 잠깐만 기다리세요. 제가 약품 출입고 등록을 해드릴 테니까, 나중에 반드시 수속 밟도록 하세요.
+()<Speaker>소심한 전공의</Speaker>||:아, 알겠습니다! 감사합니다!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:카리나가 일부러 문을 살짝 열면서 몸으로 바깥의 빛을 가려, 토카레프가 들키지 않도록 했다.+그 미약한 불빛에 토카레프도 카리나의 모습을 보았고, 그 순간 잠시나마 안도했던 가슴이 다시 철렁했다.+차분한 표정이지만, 카리나는 안색에 핏기가 하나도 없이 창백했다. 피로한 몸을 끌고 오랫동안 분주한 탓에 당장에라도 쓰러질 것만 같아 보였다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨...
+()<Speaker></Speaker>||:최대한 목소리를 낮춘 채로 토카레프가 그녀를 불렀고, 카리나도 입을 열지 않고 고개만 살짝 끄덕이며 굳센 눈빛을 보냈다.
+()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1>:끼이이...+두꺼운 철문에서 금속 부품끼리 짓눌리는 소리가 나고, 문이 닫히면서 처절한 마찰음이 일었다.+지금같은 분위기에서 그 소리는 마치 지옥에서 울려 퍼지는 성악처럼 듣는 이들을 불안하게 만들었다.
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:카리나는 철문을 최대한 신중하게, 조심스럽게 닫아, 문고리가 철컥 닫히는 소리를 듣고서야 손을 뗐다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:휴우...
+()<Speaker></Speaker>||:문이 닫히자 카리나도 길게 숨을 내쉬고 곧게 편 허리에서 힘을 풀었다.
+()<Speaker></Speaker>||:그리고 뒤를 돌아보며, 토카레프에게 힘겹게 미소를 짜내 고개를 끄덕였다.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_20Winter_Chains_Break</SE1>:뚝!+그런데 카리나가 한 걸음 내딛는 순간, 무언가가 끊어지는 작지만 굉음 같은 소리가 났다.
+()<Speaker></Speaker>||<BGM>10230</BGM>:토카레프가 고개를 번쩍 들어 보니, 자신이 강제로 열었던 무거운 철문의 경첩이 찢어지듯 부러져서 카리나를 향해 휘청였다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:위험――
+()<Speaker></Speaker>||:조심하라는 외침보다 먼저, 경첩은 결국 문의 흔들림을 못 이겨 완전히 끊어졌고, 육중한 문작이 카리나의 등을 덮쳤다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:이런...!
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><SE1>RunStep</SE1>:토카레프는 즉시 콘솔과의 연결을 끊고 온힘을 다해 카리나에게 달려갔다.
+()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>0.7</CGDelay><SE1>AVG_Pause</SE1>:쿠웅!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><Night><BIN>748</BIN><CGDelay>0.4</CGDelay>:
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:어?
+()<Speaker></Speaker>||:카리나가 깨달았을 땐 토카레프가 쓰러지려는 문짝을 몸으로 받아냈고, 카리나는 이를 보고 놀라 숨을 들이켰다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:토카레프, 괜찮아?!
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:헤헤... 이 정도쯤은 아무렇지도 않아요. 하지만 지금은 큰 소리를 내면 안 되니까... 카리나 씨 비켜 주시겠어요? 이걸 살살 내려놓아야――
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><白屏2>:지직!
+NPC_TT33(3)<Speaker>토카레프</Speaker><Shake>||:으윽...!
+()<Speaker></Speaker>||:공교롭게도 마인드맵 깊숙이에서 다시 따끔거림이 일어났다. 여유롭던 토카레프는 한 순간 힘이 빠져, 그대로 무거운 철문에 짓눌려버릴 것만 같았다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:토카레프?!
+NPC_TT33(3)<Speaker>토카레프</Speaker><Shake>||:...마, 마인드맵이...
+()<Speaker></Speaker>||:토카레프는 대답할 기운도 없었다. 이상을 눈치챈 카리나가 그녀를 도와 철문을 받쳐 들려 했지만, 허약한 몸으로는 전혀 도움이 되지 않았다.
+()<Speaker>소심한 전공의</Speaker>||:어... 실장님? 안에 무슨 일 있나요? 괜찮으십니까?
+()<Speaker></Speaker>||:밖에서 전공의의 목소리가 들려왔다. 다행히 약간의 기척만 느꼈을 뿐, 정확히 어떤 상황인지는 모르는 듯했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:토카레프는 이를 악물고 카리나에게 고개를 저었다.+카리나는 그 뜻을 알아듣고, 호흡을 가다듬고 최대한 차분한 목소리로 답했다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:괜찮아요, 상자에 발이 걸리는 바람에요. 신경쓰지 마세요.
+()<Speaker>소심한 전공의</Speaker>||:아, 네! 무슨 일 있으면 말씀해 주세요!
+()<Speaker></Speaker>||:전공의는 더는 묻지 않았지만, 토카레프는 그 와중에도 전점 힘을 잃어 갔다.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><震屏3>:계속되는 마인드맵의 따끔거림에 한쪽 무릎을 꿇었고, 소체의 프레임 자체의 내구도로 어깨에 가해지는 하중을 견뎌냈다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:더는 못 버틸 것 같은 그때, 갑자기 어깨가 조금 가벼워진 느낌이 들었다. 옆으로 고개를 돌려보니, 카리나가 곁에 쪼그려 앉아 함께 철문을 받쳐 주고 있었다.
+NPC_TT33(3)<Speaker>토카레프</Speaker>||:카리나 씨...?! 빠, 빨리 나가세요, 지금 몸으론...!
+NPC_TT33(0)<Speaker>토카레프</Speaker><Shake>||<白屏2><SE1>AVG_whitenoise</SE1>:윽...!
+()<Speaker></Speaker>||:마인드맵의 고통은 줄어들지 않았다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지금 그런 거 신경쓸 때야? 힘내, 함께 치우자.
+()<Speaker></Speaker>||:몸 상태도 아랑곳 않고, 카리나도 전력을 다해 토카레프의 부담을 덜어 주려고 했다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:셋 하면 밀어내는 거야, 하나... 두울... 셋!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:카리나도 숨을 참고 힘을 짜내어, 토카레프와 함께 철문을 천천히 바로세워서  벽에 기대 놓았다.
+NPC_Kalina_OL(3)<Speaker>카리나</Speaker><Position>0,-90</Position>||<BGM>BGM_Empty</BGM>:해, 해냈다...
+()<Speaker></Speaker>||:중압감이 사라지자, 토카레프의 마인드맵에서 아픔이 조금씩 가셨다.
+()<Speaker></Speaker>||:하지만 자신의 증상을 파악할 틈도 없이, 체력을 소진한 카리나가 털썩 쓰러지자 황급히 그녀를 부축해 살며시 바닥에 앉혔다.
+NPC_TT33(3)<Speaker>토카레프</Speaker>||:죄송해요, 카리나 씨... 저 혼자서 괜찮았는데...
+NPC_Kalina_OL(3)<Speaker>카리나</Speaker><Position>0,-90</Position>||:헤헤...
+()<Speaker></Speaker>||:기진맥진한데도, 카리나는 여전히 따스한 미소로 대답했다.
+NPC_Kalina_OL(3)<Speaker>카리나</Speaker><Position>0,-90</Position>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:우린 동료잖아, 동료가 위험하면 당연히 도와줘야지... 후우... 그렇게, 미안해 할 것 없어...
+()<Speaker></Speaker>||:잠시 숨을 돌리고 나니 카리나가 조금 기운을 다시 차렸다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:힘내자, 아직 중요한 일이 있잖아.+아까 말해 주지 못했는데, 네가 찾은 그 도난 기록은 그리폰의 비상 의료 매뉴얼이랑 똑같아.+우리가 그 잠수함 기지로 갈 때 지휘관님이랑 내가 구상한 건데, 그때 폭발 때문에 지휘관님이 다쳤을 때 내가 그 매뉴얼대로 치료해드렸어... 그래서, 매뉴얼의 상세 사항은 나랑 지휘관님밖에 몰라...+토카레프, 시스템을 해킹해서 그 의료 물자 수송 차량에 대한 단서를 추적해 줘.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:네, 맡겨 주세요!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:토카레프는 고개를 끄덕이고, 카리나의 상태르 다시 한 번 확인한 다음 콘솔 앞으로 돌아갔다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:그리고 마인드맵을 안정시키고, 다시 병원의 전산 시스템을 해킹했다.+카리나에게 큰소리치긴 했지만, 방대한 데이터의 배열을 상대해야 하는 일.+전시 병원의 데이터는 인형 혼자서 처리하기엔 너무나도 힘겨웠다.+그녀의 마인드맵 모듈은 점점 과열되어, 데이터를 하나씩 확인하는 와중 몇 번이고 정신이 흐트러질 뻔했다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:의무실, 응급실, 검사과, 약실, 직원실...+아무것도 없어요, 다 쓸모 없는 데이터뿐이에요...
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:여러 과의 의료 시스템을 3분도 안 걸려 전부 확인했지만, 수확은 없었다.
+()<Speaker></Speaker>||:그 사실에 마인드맵이 다시 요동쳤다.
+()<Speaker></Speaker>||:정말 자신이 도움이 될까 의심이 들었다.+지금 여기 있는 것은 지휘관을 위해, 카리나가 지휘관이 여기에 왔다 갔을 것이라고 말했기 때문이다.+이 며칠 동안, 토카레프는 고민했다. 카리나가 자신을 깨운 뒤로, 왜 자신은 아무런 망설임도 없이 그녀를 도와 지휘관의 행방을 찾으려는 것일까?+지휘관의 곁엔 우수한 인형들이 잔뜩이고, 자신은 보잘것없는 하나일 뿐인데.+하물며 지휘관과 단둘이 있어본 시간도 매우 짧았다.+주눅든 적도 있었고, 자포자기한 적도 있었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:그런데도 여기에 있는 이유는 대체 무엇일까?
+()<Speaker></Speaker>||:그때, 문 밖에서 기다리는 전공의들이 수다를 떠는 소리가 들렸다.
+()<Speaker>당당한 전공의</Speaker>||:한참 걸리네... 아직도 안 나왔어?
+()<Speaker>소심한 전공의</Speaker>||:찾는 데 시간이 걸리나 보지 뭐... 아, 그나저나 뉴스 봤어?+무슨 인형이 전차를 몰고 화이트존으로 쳐들어가서 폭발 테러까지 저질렀다는 그거.+같이 탔다던 사람은 살았을까?
+()<Speaker>당당한 전공의</Speaker>||:아, 나도 봤어.+그렇게 큰 폭발이었으니 살아남았을 리는 없겠지.+그 인형도 참, 전쟁이 무슨 장난인 줄 아나. 대체 얼마나 순진했던 거야? 망상증도 정도가 있지...
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:......
+()<Speaker></Speaker>||:어둠 속에서, 토카레프는 카리나의 숨소리가 점점 무거워지는 것을 듣고 힐끔 그녀를 살폈다.+저 문 밖의 수다가 그녀의 마음을 찌른 것이 명백했다.+여기에 지휘관의 흔적이 남아있다 한들, 무슨 증명이 될까?+지휘관이 정말로 의료 물자 차량을 훔쳤다 치더라도, 과연 무사할까? 다른 사람이 대신 했을 수도 있지 않을까?
+()<Speaker></Speaker>||:아니면, 애초부터 헛다리 짚은 것은 아닐까?+카리나가 직접 말하지 않았다고 해서, 그 최악의 가능성이 일어나지 않았다고 할 수 있을까?
+()<Speaker></Speaker>||:"망상증도 정도가 있지."+소용돌이를 일으키는 마인드맵을 멈춰서 생각을 그만두고 싶었다.+그 최악의 가능성은 상상하기도 싫다. 카리나가 무너지는 모습을 보고 싶지 않다.
+()<Speaker></Speaker>||:아니, 이는 그저 얼버무리는 것에 불과했다.+진짜 두려움은, 자신이 도움이 되지 못하는 것. 도움이 안 되는 자신이 카리나를 도울 자격이 있을까?
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:손이 멈췄다. 그리고 마인드맵이 과부하돼서, 멈춘 손이 계속 떨렸다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:토카레프...? 괜찮아?
+NPC_TT33(2)<Speaker>토카레프</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:카, 카리나 씨... 저는, 전 괜찮아요, 단지...
+NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:괜찮아, 너무 부담 갖지 마.+해킹이 어려운 일이란 거 나도 알아. 일이 계속 술술 풀리는 것처럼 느껴진다면, 그건 분명 악의가 담긴 거짓말이 숨어있기 때문이야.+그러니까, 지금 우리가 제대로 된 방향으로 가고 있다고 믿어. 지휘관님도 분명 무사하실 거라고 믿고...
+NPC_TT33(1)<Speaker>토카레프</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:...네.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:......+지휘관님은, 언제나 우리를 조건 없이 믿어 주셨어.+이젠 우리가 지휘관님을 믿어 줄 차례야!
+()<Speaker></Speaker>||:마치 어둠 속에서 따스한 빛을 본 것 같았다. 카리나의 굳세고, 신뢰로 가득한 눈빛이었다.+카리나가 해 준 말도 빛처럼 따스해서, 떨리는 손을 진정시켰다.+그리고 예전의 일이 떠올랐다.
+()||<黑屏1>:
+()<Speaker>지휘관</Speaker>||<CGDelay>0.4</CGDelay><黑屏2><BIN>96</BIN><回忆>:S09 구역은 나한텐 단순한 군사 거점이 아니야.+나는 이곳이, 비록 임시일지라도 최대한 안전한 ‘집’이 되었으면 해.+그리고 그 집 안에 있는 모든 구성원은, 그 몸이 살로 만들어졌든 쇠로 만들어졌든, 마땅히 존중받아야 한다고 생각해.
+()||<黑屏1>:
+()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<Night><黑屏2><BIN>748</BIN><CGDelay>0.4</CGDelay>:
+()<Speaker></Speaker>||:이 모든 것은 망상이 아니다. 자격이 있고 없고의 문제도 아니다.
+()<Speaker></Speaker>||:지휘관이 자신과 같은 인형들에게, "집"이라 부를 수 있는 곳을 만들어 주었기 때문이다.+신분, 능력에 관계 없는 소속감.+누가 지휘관 곁에 있을 자격이 있는지를 따지기 전에, 지휘관은 이미 그런 문제 자체를 뛰어넘어 모두를 평등하게 존중해 주었다.+지휘관 같은 사람이 오기 전까진, 지금 토카레프가 받는 대우가 바로 최대의 망상이었다.+하지만 지휘관과 카리나가 나타난 후로는 망상으로나 생각할 법한 일들이 실제로 손에 닿는 현실이 되었다.+그렇기에, 어떡해야 할지는 진작부터 정해져 있었다. 이를 깨달으니 토카레프는 마인드맵에 점차 평온을 되찾았다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:네... 알겠어요, 카리나 씨.+어떡해야 하는지, 알겠어요.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:응! 힘내자, 다 괜찮을 거야.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:토카레프는 다시 키보드에 손을 올리고, 방대한 데이터의 바다에 공세를 재개했다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_keyboardtype_sci</SE1><黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><Night><BIN>748</BIN><CGDelay>0.5</CGDelay>:
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:...응? 이건?
+()<Speaker></Speaker>||<BGM>BGM_ev2408_StungtotheMorrow</BGM>:무아지경으로 기록을 한 줄씩 살펴보던 그때, 어느 백업 서버의 데이터가 이상한 것을 눈치챘다.
+()<Speaker></Speaker>||:아주 미세한 데이터의 기복. 인형조차 쉽게 놓칠 차이였지만, 토카레프는 그걸 놓치지 않았다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:어라, 이 백업 시스템은...+누가 나보다 먼저 여길 해킹했나...?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:문득 고개를 든 토카레프의 시선이 카리나와 마주쳤다. 그녀도 토카레프의 중얼거림을 듣고 피곤한 눈이 빛이 돌아왔다.+이를 놓칠세라, 토카레프는 다시 손을 빠르게 움직였다.
+()<Speaker></Speaker>||:매우 실력 좋은 해커의 솜씨로, 모든 행적이 감쪽같이 덮어져 있었다. 하지만 토카레프는 백업 시스템과 메인 시스템 사이에 정보가 단 한 줄 어긋난 것을 발견했다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:카리나 씨! 그 도난된 차 찾았어요!
+NPC_TT33(0);NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:차량 정보 일치해?
+NPC_TT33(0)<Speaker>토카레프</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:아뇨, 그건 아니지만 시스템에서 단서를 찾았어요.+그 의료 물자 차량은 배차된 당일 밤, 다른 차량이 임시 출동 임무를 받았어요.+누군가가 병원의 임무 배정 시스템을 해킹해서 혼란을 일으킨 것 같아요.
+NPC_TT33(0);NPC_Kalina_OL(4)<Speaker>카리나</Speaker><Position>0,-90</Position>||:전선에서 의료품의 소모가 심각하니까, 야간에 배차가 늘어나는 건 정상이야.+정말 급하게 출동 명령이 떨어졌을 수도 있어.+토카레프, 급할수록 침착해야 해.
+NPC_TT33(0)<Speaker>토카레프</Speaker>;NPC_Kalina_OL(4)<Position>0,-90</Position>||:네. 이 배차 자체에는 딱히 문제가 없어요. 하지만 해커의 공작이 아니라면, 이 기록을 메인 시스템에서 삭제할 이유는 없죠.+정상적인 수정이나 삭제였다면 백업 서버에만 기록이 남아있을 이유도 없고요.+무엇보다, 하나의 기록만 삭제한 행위부터가 이상하지 않나요?
+NPC_TT33(0);NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:뭐? 그럼 설마...!
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:네, 지휘관님과 관련이 있다고 봐요.
+()<Speaker></Speaker>||:토카레프가 눈동자를 반짝였다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:이 차량의 GPS로 마지막 위치를 찾았어요.+프랑크푸르트의 어느 주차장에서 정차했던 기록이 있어요. 좌표 보낼게요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:토카레프는 전산 콘솔에서 손을 떼고 자신의 침투 흔적을 지웠다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 창고에서 마취제를 찾아 카리나에게 주고, 부축해 일으켜 세웠다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:카리나 씨 말씀이 맞아요, 만약 다른 사람이었다면 지나친 기대는 하지 않았을 거예요.+하지만 지휘관님이라면 불가능한 일은 없어요.+지휘관님은 분명히 살아계세요. 살아서, 어딘가에서 우리를 기다리고 있을 거예요.
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay>:깊은 밤의 어둠 속에서, 카리나의 얼굴에 중압감에서 풀려난 미소가 피어났다.+그 찬란하 미소를 보는 토카레프는 그녀와 지휘관이 모두에게 취식 모듈 설치를 권유하던 그날의 오후를 떠올렸다.+그날의 오후는 날씨도 햇빛도 카리나의 미소처럼 따스하고, 지휘관의 눈빛처럼 평온했다.
 ()||<黑点1>:

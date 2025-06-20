@@ -84,8 +84,13 @@ local FindBuffActionVehicle = function(self)
 		end
 	end
 end
+local Show = function(self,team)
+	self:Show(team);
+	self.transform:SetAsLastSibling();
+end
 util.hotfix_ex(CS.DeploymentFriendlyTeamController,'FindBuffAction',FindBuffActionFriendly)
 util.hotfix_ex(CS.DeploymentAllyTeamController,'FindBuffAction',FindBuffActionAlly)
 util.hotfix_ex(CS.DeploymentEnemyTeamController,'FindBuffAction',FindBuffActionEnemy)
 util.hotfix_ex(CS.DeploymentSquadTeamController,'FindBuffAction',FindBuffActionSquad)
 util.hotfix_ex(CS.DeploymentVehicleTeamController,'FindBuffAction',FindBuffActionVehicle)
+util.hotfix_ex(CS.DeploymentVehicleInfoController,'Show',Show)

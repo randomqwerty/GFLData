@@ -1,175 +1,175 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:不知道过了多久，也许是十分钟，也许只有两分钟。总之，当格琳被托卡列夫推进这扇门之后，她的耳鸣渐渐减弱。+她愕然地看向门后，然而那里已经什么也看不见了。偶有子弹的声音打在门上，传来不疼不痒的声响。
-()<Speaker></Speaker>||:这扇门之后，一切都安然无恙，她被这扇门保护得很好，只要站在这扇门前，就不会存在真正的危险。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:那这扇门外面呢？大家会变得怎么样？会被拉去重置心智？还是就地销毁？格琳不知道，她不敢继续思考。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||<回忆>:只要见到指挥官，一切问题都会迎刃而解，所有事情都会水落石出。+只要，见到指挥官。
-()<Speaker></Speaker>||<关闭蒙版>:茫然的乱象当中，她想起在那扇门关紧的最后，托卡列夫的嘴唇翕动着。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……+现在不是消沉的时候，我……我得代替大家，见到指挥官才行……+不然，一切都……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_23S_Crossroads_Warrior</BGM>:说罢，格琳强撑着身体，从地面上爬了起来。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||<SE1>ClothingUp</SE1>:唔……
-()<Speaker></Speaker>||:一阵晕眩的感觉随之而来，她差点又跌倒在地。+这也不奇怪，她这两天几乎没有合过眼，再叠加长途奔波，能站起来已经是奇迹了。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:唔……这都不重要……+指、指挥官……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳辨认了一下方向，身后再度传来爆炸声和交火声。她强忍着，没有扭过头去看。+她的目标就在前方。
-()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>RunStep</SE1><黑点2><BIN>481</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:道路越来越狭窄，格琳沿着既定路线奔跑，走廊里回响起鞋跟踏地的声音。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:她踉跄着冲过水泥通道，鞋底碾过碎石时脚踝猛地一扭。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||:嘶—
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:膝盖重重磕在渗水的墙面上，格琳失去平衡跌倒在地——她痛得差点昏迷过去。+不过，她很快听见身后有什么东西有垂垂欲坠的声音。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:于是格琳集中精神全力测滚。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE1>AVG_lifttable</SE1>:轰！
-()<Speaker></Speaker>||:巨大的声音从左耳旁响起，她回头看去，发现那是从天花板的钢筋混凝土结构当中脱落的巨大石块。+看样子是自然老化所致，这所民防设施比她想象中还要老旧。
-()<Speaker></Speaker>||:回过神来，格琳的后背早已被冷汗浸透。
-()<Speaker></Speaker>||:尽管她躲过了混凝土石块，但翻身期间，她的耳垂和脸颊被地面上的尖锐凸起划伤，鲜血汩汩流下，滴在手里，摔坠成殷红的血花。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:左肩撞上钢筋时，布料撕裂的声响太清晰。+血腥味从喉间涌了上来，她低头吐出一口带血丝的唾沫。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:没时间了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳擦了擦嘴，拖着残躯继续前行。
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>481</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||:格琳喘着粗气，她被拦在一处金属门面前。+她着那扇和外面那道几无差别的安全门，她头一次产生出一股脱力的感觉。
-()<Speaker></Speaker>||:这是最后了吗？这应该是最后了吧！
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:就算一切不是谎言，这问题也棘手得过分了……
-()<Speaker></Speaker>||:尽管嘴上说着如此，但格琳还是靠近了那道安全门。+与外面的数字门禁锁不同，这扇安全门的门锁，是一道实打实的机械密码锁。+在门锁旁边，有一个内凿的凹槽里面镶嵌着一个数字辉光管，上面赫然标注着数字“5”。
-()<Speaker></Speaker>||:显然，留给格琳娜操作的机会的只有5次。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:密码锁……真是坏心眼……如果我是坏人，直接用枪不就解决了吗……
-()<Speaker></Speaker>||:实际上格琳娜此时的确还携带着一把便携式手枪，但面对这堵厚重的安全门，似乎的确起不到什么效果。+尽管这工程已经废弃多年，但可见当年他们建造这里时的决心。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官……会用什么密码呢？
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:密码的位数，似乎刚好符合一个日期。+格琳娜思索片刻，上前输入了指挥官的生日……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:门锁没有应声启动，辉光管闪烁一瞬，跳成一个残酷的4……
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我在干什么啊……又不是电脑的开机密码……
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:格琳顶住压力，大脑飞速运转，思考了一会，又输入了自己的生日——
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:数字跳到了3。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||:<size=50>啊啊啊我是白痴吗！！</size>+可恶……
-()<Speaker></Speaker>||:联合演习的日子？指挥官的人生几乎是在那一刻改变的……
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:辉光管的数字跳到了2
-()<Speaker></Speaker>||:她还只剩下两次机会——
-()<Speaker></Speaker>||:这也不对……那会是什么？
-()<Speaker></Speaker>||:对指挥官有意义的日期，是什么？……又或者，她的思路一开始就错了，密码不是某个日期，而是别的什么东西？+格琳的脑中一片乱麻，她的手指正在发抖，她想要努力控制自己，但却抖如筛糠。
-()<Speaker></Speaker>||:她止不住地胡思乱想，脑海里满是托卡列夫最后的笑容。
-()<Speaker></Speaker>||:脑海里又在回荡着C14她们接连倒下的声音，以及那红色的警报声音，还有流弹击中人形躯干的声音……+如果自己再输错，那些人的牺牲是不是都没意义？自己一路以来所付出的努力是不是都没意义？
-()<Speaker></Speaker>||:指挥官真的还存在于这个世界上吗？如果不是，那指挥官去了哪里，为什么迟迟没有消息？
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:如果是，人又在哪里？是否安然无恙？在战斗的最后到底见到了什么？+以及，指挥官为什么不出现？+不得而知，格琳完全不得而知……
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<BGM>BGM_Empty</BGM>:别开玩笑了……
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<SE1>AVG_Door_Hit</SE1><震屏3>:<size=50>喂！！指挥官！！你听得见吗！！指挥官！！</size>
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:格琳娜用力地捶打着安全门，嘶哑的声音里也带上了一丝哭腔。+然而厚重的大门只是抖落了些许灰尘，甚至都没有发出预想中的巨响。
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:明明就在眼前了……再耽搁的话……要是指挥官已经从别的出口……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:紧接着，格琳亲眼见到那个辉光管的数字，从2跳到了1……
-()<Speaker></Speaker>||:然而自己什么也没有操作！
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:她的心扑通扑通地跳动着，大脑血液正在疯狂倒流——+格琳强行忍住眼前一黑的晕眩感，上前仔细地查看。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，她发现门锁外部边缘上了一层厚厚的锈，伸手一摸，甚至能抠掉一层锈灰。+显然，这是锁芯内部的机械结构老化所致……
-()<Speaker></Speaker>||:还来不及愤怒，格琳忽然意识到如果一切真是锁芯老化，那么在她不知道的地方，一定会有一个倒计时，在无情地默数着这枚生锈锁芯的下一次失灵……
-()<Speaker></Speaker>||:想到这里，格琳头皮发麻，她立刻上前调整门锁上的数字组合，脑海当中一片空白，连担忧“没有时间了”的空余都没有。
-()<Speaker></Speaker>||:在一片茫然当中，格琳诞生出一股抽离的感觉，她感觉自己好像在用看着别人的方式看着自己，一瞬之间的恍惚让她回到了一个气定神闲的、无风的午后……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BGM>Campaion-58-2</BGM><BIN>73</BIN><回忆><CGDelay>0.4</CGDelay>:
-()<Speaker>？？？</Speaker>||<CGDelay>0.5</CGDelay>:各位，请继续训练！不要分心！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:这是……我的声音……？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:指挥官，这里就是S09区目前的基础训练场。+条件简陋了一些，还请见谅哦。
-()<Speaker>指挥官</Speaker>||:没关系，格琳娜小姐。+重要的是大家都在努力。+看起来……士气还有提升的空间？
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳伸出手去，她想要触碰指挥官，然而在指尖即将触碰到指挥官的面颊，一切忽然闪转变换。
-()||<白屏1>:
-()<Speaker></Speaker>||<白屏2><回忆><BIN>80</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:再一愣神，她发现自己坐在旁边，而指挥官正在进食，对着路过的人形打招呼……
-()<Speaker>指挥官</Speaker>||:你们好。
-gsh18(0)<Speaker>GSh-18</Speaker>||:啊……指挥官是在跟我们说话吗！？
-M1903(0)<Speaker>春田</Speaker>||:嗯……而且是跟我们打招呼……说“你们好”……
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:怎，怎么办……我还是第一次被人类打招呼……+GSh-18你以前的职场不是会跟人类有交流吗？
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫，你还活着……？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳难以置信地从位子上站了起来，她接近着托卡列夫，想要摸摸她的脸，确认她是否平安无事。
-()<Speaker></Speaker>||:在即将触碰到她的瞬间，格琳看见托卡列夫忽然之间像是下定了某种决心一样，她穿过自己，坐到了指挥官旁边。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||<SE1>ClothingUp</SE1>:呃，指，指挥官，您好……+我们……可以吗？在这里……呃，用餐？
-()<Speaker>指挥官</Speaker>||:当然可以。为什么不行？+你们也是基地的一员，辛苦训练了那么久，当然需要好好补充能量。+快坐吧，陪我一起尝尝看这里的伙食怎么样。
-()<Speaker></Speaker>||:之后，人形和指挥官们品尝着食物，格琳细细望去，看着她们笨拙地模仿着指挥官的样子，从碗盘当中拿起勺子……
-()<Speaker></Speaker>||:虽然动作生疏，但格琳看到无论是指挥官，还是人形们，他们的眼睛当中，都在闪烁着喜悦的光彩……
-()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:而自己，也坐在指挥官的旁边，看着他们闹腾的样子，露出了发自内心的笑容。
-()<Speaker></Speaker>||:一切，都是从那一天起源的。+那是，指挥官第一次抵达S09的那天……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>481</BIN><CGDelay>0.5</CGDelay>:
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……
-()<Speaker></Speaker>||:回到现实，格琳在确认辉光管毫无变化之后屏住呼吸。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:她飞快地调整门锁密码，填入了指挥官抵达S09的时间。
-()<Speaker></Speaker>||:格琳有理由坚信，她所看到的这一切，并不是什么谎言。+那是真实存在过的事物，是指挥官和她，以及所有人形的心里，最重要的那一天。+起源之日。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:啪——+格琳听见了锁芯扭动的声音。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Gate_Close</SE1>:金属门缓缓滑开，格琳踉跄着走进一个简朴的房间。
-()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>356</BIN><黑屏2><CGDelay>0.6</CGDelay>:
-()<Speaker></Speaker>||:昏暗的灯光下，一个熟悉的身影背对着她，站在房间中央。
-()<Speaker></Speaker>||:指挥官的面前是一堵墙，上面贴满了威廉和其他政府高层的照片，彼此之间用书钉和红线相连，最终形成一副缭乱而复杂的线索图。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，那面前的人影也像是听到了身后的声音，于是缓缓转过身来。
-()<Speaker></Speaker>||:指挥官比从前消瘦了太多，但从那坚定的眼神当中，还能看出来指挥官还是那个指挥官，如假包换。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指……指挥官……
-()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:霎时，格琳的眼前一片模糊，那是泪水模糊了她的视线。+她不是没有想过在这样的场合当中自己该说些什么，但无论是那些埋怨的还是那些喜悦的，一瞬之间都变得不再重要。+只要指挥官还站在这里，那么一切都不是问题。+她想要伸出手，想要触碰指挥官，想要确信这一切是不是真的。+然而格琳忍住了，因为即便只是短短的那么一瞥，她也看见了指挥官腹部的伤口，上面的绷带还隐约地渗着血迹。
-()<Speaker></Speaker>||:良久，指挥官迟迟没有说话。格琳觉得不对劲，她下意识地看向指挥官的脸。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官，你的伤口还好吗？是不是疼得说不出来话？是枪伤还是锐器伤？
-NPC_Kalina_OL(2)<Speaker>指挥官</Speaker><同时置暗>||:我没事，格琳。+如你所见，一切都好。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:枪……对了！
-()<Speaker></Speaker>||:格琳一瞬之间想起来外面那些仍在和安保设施搏斗的人形，托卡列夫她们还在外面！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官！快关掉警报，没有敌人！来的是我们！托卡列夫她们还在和安保设施搏斗，现在还——
-()<Speaker>指挥官</Speaker>||:不——+……不是你们。+格琳，触发警报的，不是你们。+外面那些自律人形不是朝着你们去的，只是，你们刚好在那里而已。
-()<Speaker></Speaker>||:听到这话，格琳楞住片刻，一瞬之间她没有理解指挥官到底在说些什么。
-()<Speaker>指挥官</Speaker>||:看这里。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，指挥官让出一个身位，只见那是一组监视器，上面播放着大大小小的监控画面。+最中央的画面之中，格琳认出来摄像头对着的是托卡列夫她们为自己骇入的门。+而在那之中，已然见不到托卡列夫她们的身影，取而代之的是大量军方部队的士兵。
-()<Speaker></Speaker>||:格琳感到难以置信，她的眼睛转移到其他监控器的画面之中，发现不只是那一条路口里面布满了军方的士兵——+整个地下交通设施的每一处枢纽都有军方士兵的把守！他们正以极快的速度朝着这里靠近！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:哈维尔！不对，军方——
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官，快跟我走，应该还有办法！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:然而，格琳拉住指挥官，但指挥官站在原地，分毫未动。
-()<Speaker>指挥官</Speaker>||:不，格琳。我的伤已经不允许我逃走了。+没关系，这一切不是你的错……不是任何人的错。+不要放在心上。
-()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:格琳刚想说些什么，然而她听到身后传来“轰！”的一声，那声音响到传遍了整个地铁站，整个地铁站都因那爆炸而震动。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:紧接着是大量军靴的脚步声，大量士兵正在接近。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官！我们快走！
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰！！+又是一声爆响，然而那声音是从自己身后传来的！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:格琳回头看去，只见墙壁瞬间破裂，大量军方士兵如潮水般涌入房间，枪口齐刷刷地指向指挥官。+带头的是一名上校，他戴着面具，走到最前方。
-NPC-Soldier(0)<Speaker>上校</Speaker>||<SE1>Select</SE1>:不许动！你已经被包围了！放下武器！停止抵抗！
-()<Speaker></Speaker>||:格琳刚想说些什么，结果她发现无论是眼前的上校，还是身后的士兵，没有一个人的枪口是对准她的——
-()<Speaker></Speaker>||:然而这么说是不准确的，与其说这帮人没有把枪口对着她——不如说，所有人都当格琳不存在一样。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:然后，她听见身后传来一声衣服摩擦的声音，格琳回头望去，只见指挥官平静地举起双手。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:一个脚步声缓缓响起，格琳看着门口，不过片刻，哈维尔的脸庞出现在眼前。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:他的脸上挂着淡淡的微笑，风轻云淡般看了眼自己，又看了眼蹲在地上的指挥官。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，他走上前来。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:感谢你，格琳娜。没有你的协助，凭我们还真就找不到这里。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:什、什么……
-()<Speaker></Speaker>||:感谢……她？+她……她被利用了？
-()<Speaker></Speaker>||:格琳娜呆滞地站在原地。+一方面，她刚刚意识到自己被哈维尔利用，还没反应过来；另一方面，她不清楚指挥官为什么话都不说一句，就直接无条件投降了？
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官……为什么？+指挥官！指挥官！
-()<Speaker></Speaker>||:格琳娜想要冲过去，当面问问清楚。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:然而她刚刚冲到走廊当中，就被碎石绊倒，跌坐在地。
-()||<黑点1>:
-()<Speaker></Speaker>||<BIN>853</BIN><黑点2>:
-()<Speaker>格琳娜</Speaker>||:呜……
-()<Speaker></Speaker>||:膝盖的痛处加剧，格琳痛得抬起头来。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:这时，她才看清那群士兵的背影——指挥官平静地走在他们当中。+那自然的模样，就像指挥官也是他们的一员。
-()<Speaker>格琳娜</Speaker>||:诶……？
-()<Speaker></Speaker>||:就在格琳娜分不清状况的时候，哈维尔慢慢走了过来，站在她的身边。
-()<Speaker>哈维尔</Speaker>||<CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:你放心，指挥官不会有事的。+……至少我认为如此。
-()<Speaker></Speaker>||:说完这句话，哈维尔便离开了。
-()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:空荡荡的室内，徒留格琳自己。+这时，格琳才有一种如梦初醒的感觉。+她终于意识到，原来这一切，都是一个历经千辛万苦才能换来的——
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>1</CGDelay><黑屏2>:用心险恶的谎言。
-()<Speaker></Speaker>||<CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:
-()<Speaker>苍老的声音</Speaker>||:人类唯一从历史中学到的教训，就是人类从不会从历史中学会教训。+他长大了，有自己的想法了。
-()<Speaker>沉稳的声音</Speaker>||:现在的他已经握稳了手中的权力，这就是我们把底牌交出去的代价。
-()<Speaker>苍老的声音</Speaker>||:他只是和以前的我们一样，没有绝对的力量就没有真正的安全感。+不过也的确如他所想，接下来的路途会比他想得更加艰难。
-()<Speaker>沉稳的声音</Speaker>||:但是即使如此……
-()<Speaker>苍老的声音</Speaker>||:嗯，不该触碰的东西就不应该被触碰，不然历史会再次重演。+只是这重演的代价不是他所能承受的。
-()<Speaker>沉稳的声音</Speaker>||<CGDelay>0.5</CGDelay>:要动手吗？
-()<Speaker>苍老的声音</Speaker>||:这片大地的人民刚刚获得了希望的种子，谁去扑灭那点亮光谁就是历史的罪人。+我想他应该也清楚这一点。
-()<Speaker>沉稳的声音</Speaker>||:所以他才敢如此违背自己的诺言。+他骗了我们。
-()<Speaker>苍老的声音</Speaker>||:在这个世道，被骗的人才是有错的一方。+不过，我们还是有机会让他没有骗我们。
-()<Speaker>沉稳的声音</Speaker>||:您的意思是……
-()<Speaker>苍老的声音</Speaker>||<CGDelay>0.5</CGDelay>:不是有一个他看中的年轻人吗？+我想那个人一定想法是和我们一样的。
-()<Speaker>沉稳的声音</Speaker>||:……对方未必愿意。
-()<Speaker>苍老的声音</Speaker>||:那个人和我们所有人都不一样，我们要相信年轻人的良知。+而且我想我们能给出那个人无法拒绝的条件吧。
-()<Speaker>沉稳的声音</Speaker>||:…………+我明白了，我会去处理的。+不过我也会做备用方案。
-()<Speaker>苍老的声音</Speaker>||<CGDelay>1</CGDelay>:嗯，交给你了。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:【溯源回归 END】
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:얼마나 지났을까. 10분? 어쩌면 2분? 어쨌든 토카레프에게 터밀려 문 너머로 들어오고서 이명은 점차 가라앉았다.+카리나는 저 문짝을 그저 바라볼 수밖에 없었다. 문 너머가 지금 어떤지는 보이지 않았다. 이따금씩 총탄이 문에 부딪히는 소리만 가볍게 들릴 뿐이었다.
+()<Speaker></Speaker>||:문 안쪽은 전부 멀쩡했고, 문짝이 카리나를 안전하게 지켜 주었다. 여기 있으면 어떤 위험도 없다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:하지만, 저 너머는? 모두 어떻게 되는 걸까? 끌려가서 마인드맵을 포맷당할까? 아니면 그자리서 폐기될까? 카리나는 알기도, 상상하기도 싫었다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||<回忆>:지휘관님과 만나면 다 해결될 거예요. 모든 진실이 밝혀질 거예요.+그러니까, 꼭 만나야 해요.
+()<Speaker></Speaker>||<关闭蒙版>:혼돈의 도가니 속에서, 문이 닫히기 전 토카레프가 한 말을 떠올렸다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:...아니야.+지금은 좌절할 때가 아니야... 모두를 대신해서, 지휘관님을 찾아야 해...+안 그럼... 전부...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_23S_Crossroads_Warrior</BGM>:카리나는 바닥을 짚고 일어서려 했다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position><Shake>||<SE1>ClothingUp</SE1>:윽...
+()<Speaker></Speaker>||:하지만 엄습한 현기증에 다시 넘어질 뻔했다.+그도 그럴 것이, 지난 이틀간 거의 눈도 붙이질 못했다. 그런 와중 강행군을 계속했으니, 지금은 일어설 수 있는 것만으로도 기적이었다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:으으... 다 중요하지 않아...+지, 지휘관님을...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:방향을 다시 확인하는 그 순간 또 뒤에서 폭발과 총성이 들려왔다. 카리나는 이를 악물고, 고개를 돌리지 않았다.+"목표"가, 바로 저 앞에 있다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<SE1>RunStep</SE1><黑点2><BIN>481</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||:통로는 점점 좁아지고, 카리나는 하나뿐인 길을 따라 달렸다. 신발 굽이 요란한 소리를 냈다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:그렇게 급히 달리던 도중, 자갈을 밟고 발목을 접질리고 말았다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position><Shake>||:쓰읍!
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:카리나는 균형을 잃어, 무릎을 축축한 벽면에 찧으면서 넘어졌다. 쓰러지는 충격으로 인한 고통에 하마터면 기절할 뻔했다.+하지만 위에서 난 무언가 흔들거리는 소리가 그녀의 정신을 붙들었다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:카리나는 즉각 온힘을 다해 옆으로 굴렀다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE1>AVG_lifttable</SE1>:쿠웅!
+()<Speaker></Speaker>||:묵직한 충돌음이 왼쪽 귀 근처에서 고막을 때렸다. 천천히 고개를 돌려보니, 철근 콘크리트 천장의 일부가 무너져 떨어진 것이었다.+자연적인 풍화로 인해 떨어진 듯한 것이, 이 민방위 시설은 생각보다 훨씬 낡은 모양이었다.
+()<Speaker></Speaker>||:정신을 차렸을 땐 카리나의 등이 식은땀으로 흥건했다.
+()<Speaker></Speaker>||:콘크리트 덩어리는 피했지만, 몸을 굴리면서 바닥에 뾰족하게 튀어나온 부분에 뺨과 귀를 긁혀 피가 새어나왔다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:왼쪽 어깨는 철근에 스쳐서, 옷이 부욱 소리를 내며 찢어졌다.+목구멍에선 피비린내가 올라와, 피가 섞인 가래를 뱉었다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:그래도 시간이 없다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:카리는 입가를 훔치고, 만신창이인 몸을 일으켜 다시 앞으로 나아갔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>481</BIN><CGDelay>0.3</CGDelay>:
+()<Speaker></Speaker>||:잠시 후, 카리나는 거친 숨을 몰아쉬며 멈춰섰다. 길이 금속 문짝에 가로막혀서였다.+지나온 것과 거의 똑같은 보안문에 탈력감이 느껴졌다.
+()<Speaker></Speaker>||:이게 마지막일까? 마지막이겠지?
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:정말 여기 계시는 거라 해도... 퍼즐이 너무하잖아요...
+()<Speaker></Speaker>||:입으로는 푸념을 늘어놓으며, 카리나는 그 보안문으로 다가갔다.+이 문은 바깥 것처럼 자물쇠가 디지털 도어락인 게 아니라 완전히 아날로그식 비밀번호였다.+그리고 자물쇠 옆에 파인 홈에는 숫자 "5"를 표시하는 닉시관이 묻혀 있었다.
+()<Speaker></Speaker>||:즉, 카리나에게 주어진 기회의 횟수였다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:비밀번호라니, 정말 심술궂으시네... 제가 악당이었으면 이거 그냥 총으로 쏴서 땄다고요...
+()<Speaker></Speaker>||:물론 카리나도 지금 권총 한 정을 소지했다. 단지, 이 두꺼운 보안문에 별 소용이 없을 것이 분명할 뿐.+버려진지 오래된 시설이지만, 이곳이 얼마나 독한 마음으로 건설됐는지 짐작이 갔다.
+NPC_Kalina_OL(4)<Speaker>카리나</Speaker><Position>0,-90</Position>||:...뭘 비밀번호로 하셨을까.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:비밀번호의 자릿수는 날짜를 입력하기에 적당해 보였다.+카리나는 잠시 고민하다, 지휘관의 생일을 입력해보았다.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:자물쇠는 열리지 않았고, 닉시관은 매정하게 깜빡이며 숫자가 4로 변했다.
+NPC_Kalina_OL(4)<Speaker>카리나</Speaker><Position>0,-90</Position>||:뭐하는 거야, 무슨 컴퓨터 비번도 아니고...
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:카리나는 부담감을 견디며 두뇌를 최대한으로 회전시키다, 자신의 생일을 입력해보았다.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:닉시관의 숫자가 3으로 변했다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position><Shake>||:<size=50>으아아 자의식 과잉이냐고오!!</size>+젠장...
+()<Speaker></Speaker>||:그럼, 연합 훈련 날짜는? 지휘관의 인생에서 가장 큰 전환점이라면, 분명 바로 그날일 것이다.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:닉시관의 숫자가 2로 변했다.
+()<Speaker></Speaker>||:남은 기회는 앞으로 2번.
+()<Speaker></Speaker>||:이것도 아니네... 그럼 뭐지...
+()<Speaker></Speaker>||:지휘관에게 의미 깊은 날은 언제일까? ...아니, 어쩌면 처음부터 잘못 생각했을 수도 있다. 날짜가 아니라 다른 것일지도 모른다.+카리나의 머릿속은 엉키고 꼬여서, 자제하려 해도 손가락이 사시나무처럼 떨렸다.
+()<Speaker></Speaker>||:온갖 잡다한 생각이 자꾸만 떠올랐다. 토카레프가 마지막으로 보인 미소가 눈앞에 아른거렸다.
+()<Speaker></Speaker>||:C14와 모두가 쓰러지던 때의 소리, 시뻘겋게 빛나던 경보기의 소리, 인형들이 눈먼탄에 맞는 소리가, 전부 귓가에서 되울렸다.+또 잘못 입력해서 그들의 희생이 물거품이 되는 건 아닐까? 그동안 노력해온 모든 것이 헛수고가 되는 건 아닐까?
+()<Speaker></Speaker>||:지휘관이 아직 이 세상에 존재하기는 할까? 만약 이 세상에서 사라졌다면, 대체 어디로 갔을까? 왜 아무런 소식도 없을까?
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:만약 살아있다면, 어디에 있을까? 무사한 걸까? 싸움의 마지막에서, 무엇을 보았을까?+그리고, 왜 아직도 모습을 드러내지 않는 걸까?+전혀 알 수가 없었다. 카리나는 그것을 알 길이 없었다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||<BGM>BGM_Empty</BGM>:웃기지 마요...
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||<SE1>AVG_Door_Hit</SE1><震屏3>:<size=50>웃기지 말라고요 지휘관님!! 들려요!? 지휘관님!!</size>
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:보안문을 쾅쾅 두들기며, 카리나는 울먹이는 소리로 외쳤다.+하지만 두꺼운 문짝은 먼지만 흩뿌릴 뿐, 꿈쩍도 않았다.
+NPC_Kalina_OL(1)<Speaker>카리나</Speaker><Position>0,-90</Position>||:거의 다 왔는데... 여기서 꾸물거리다, 지휘관님이 다른 출구로 나가면...
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:그런데 그때, 카리나가 닉시관의 숫자가 1로 변하는 것을 보았다.
+()<Speaker></Speaker>||:아무런 조작도 안 했는데도.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:심장이 쿵쾅쿵쾅 뛰고, 온몸의 피가 머리로 치솟았다.+카리나는 눈앞이 깜깜해지는 현기증을 견디면서 어찌 된 영문인지 자세히 살펴봤다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:자물쇠는 겉표면이 손톱으로도 쉽게 긁혀질 정도로 두껍게 녹슬었다.+그렇다면 내부 구조도 사소한 일로 잔고장이 일어날 만큼 노후화됐을 터.
+()<Speaker></Speaker>||:머리로 쏠린 피처럼 성질이 치솟았지만, 정말 노후화로 인한 것이라면 카운트다운이나 다름없다. 카운트다운이 끝나면, 숫자는 0이 되어버리고 만다.
+()<Speaker></Speaker>||:진절머리가 날 지경이어서, 카리나는 곧장 다시 비밀번호 다이얼을 이리저리 굴렸다. 이젠 시간을 신경쓸 여유도 없어졌다.
+()<Speaker></Speaker>||:혼비백산하는 와중, 마치 유체이탈을 해서 자신의 모습을 등 뒤에서 바라보는 듯한 기분이 들었다. 그러다 순간 아찔한 감각과 함께, 눈앞이 어느 화창하고 바람도 없던 오후로 돌아갔다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BGM>Campaion-58-2</BGM><BIN>73</BIN><回忆><CGDelay>0.4</CGDelay>:
+()<Speaker>？？？</Speaker>||<CGDelay>0.5</CGDelay>:모두, 훈련 계속해! 한 눈 팔지 말고!
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:이건... 내 목소리...?
+NPC-Kalin(0)<Speaker>카리나</Speaker>||:지휘관님, 여기가 바로 S09 구역의 현재 기초 훈련장이에요.+시설이 조금 열악하지만 양해해 주세요.
+()<Speaker>지휘관</Speaker>||:괜찮아, 카리나.+중요한 건 모두가 열심히 하고 있다는 거니까.+그런데... 사기를 좀 더 끌어올릴 수 있어 보이는걸?
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지휘관님...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:손을 뻗어 지휘관을 만져보려 했지만, 손끝이 뺨에 닿으려는 순간 장면이 바뀌었다.
+()||<白屏1>:
+()<Speaker></Speaker>||<白屏2><回忆><BIN>80</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:눈을 깜빡이자 지휘관 옆에 앉아 있었다. 지휘관은 식사를 하면서, 지나가는 인형들에게 인사를 했다.
+()<Speaker>지휘관</Speaker>||:안녕.
+gsh18(0)<Speaker>GSh-18</Speaker>||:앗... 지금 지휘관님이 우리한테 말을 거신 건가요!?
+M1903(0)<Speaker>스프링필드</Speaker>||:네... 게다가 저희한테... "안녕"이라고 인사를 했어요...
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:어, 어쩌지... 인간한테 인사받은 건 처음인데...+GSh-18 씨, 예전 직장에서는 인간과 대화를 해보지 않았나요?
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:토카레프... 무사했어!?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:자리에서 벌떡 일어나, 토카레프에게 다가가 그녀가 무사한지 확인하려고 했다.
+()<Speaker></Speaker>||:하지만 이번에도 손끝이 닿으려는 순간, 토카레프가 각오를 다진 얼굴로 카리나의 몸을 통과해 지휘관의 옆으로 가 앉았다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||<SE1>ClothingUp</SE1>:어... 지, 지휘관님... 안녕하세요...?+저기... 저희가 정말, 여기서... 식사를 해도 되나요?
+()<Speaker>지휘관</Speaker>||:당연히 괜찮지.+너희도 기지의 일원이고, 그렇게 한참 열심히 훈련했으니 당연히 에너지를 보충해야 하지 않겠어?+어서 와서 앉으렴, 같이 여기 밥맛이 어떤지 좀 보자.
+()<Speaker></Speaker>||:그리고 인형들은 지휘관과 함께 음식을 맛보았다. 카리나는 그자리에서 우두커니, 인형들이 어설프게나마 지휘관을 따라하며 숟가락을 집는 모습을 지켜봤다.
+()<Speaker></Speaker>||:움직임은 어색했지만, 지휘관도 인형도 모두 눈빛이 즐거움으로 반짝였다.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:그리고 지휘관의 곁에 앉은 자신도, 시끌벅적한 모습을 보며 진심으로 웃고 있었다.
+()<Speaker></Speaker>||:모든 것은 그날로부터 시작됐다.+지휘관이 S09 구역에 처음 발을 디뎠던 그날.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>481</BIN><CGDelay>0.5</CGDelay>:
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:......
+()<Speaker></Speaker>||:현실로 돌아온 카리나는 닉시관의 숫자가 아직 1임을 확인하고, 숨을 죽였다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:그리고 재빨리 다이얼을 돌려, 지휘관이 S09 구역에 부임한 날짜를 입력했다.
+()<Speaker></Speaker>||:카리나는 믿었다. 자신이 보았던 것이 결코 거짓이 아님을.+실제로 있었던 일. 지휘관과 그녀, 그리고 모든 인형들에게 있어, 제일 소중한 날.+모든 것의 시작이었던 날.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:철컥.+자물쇠가 풀렸다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Gate_Close</SE1>:금속 문이 스르륵 열렸고, 카리나는 절뚝이며 간소한 방으로 들어갔다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>356</BIN><黑屏2><CGDelay>0.6</CGDelay>:
+()<Speaker></Speaker>||:어두운 등불 아래, 익숙한 형상이 그녀를 등진 채 방의 중앙에 서 있었다.
+()<Speaker></Speaker>||:그 형상의 앞에 있는 벽에는 윌리엄과 다른 정부 고위 인사들의 사진이 가득 붙었고, 압정과 붉은 실들이 얼기설기 이어져서 어지럽고 복잡한 단서 지도를 이루었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 마침내, 그 형상이 뒤에서 나는 소리를 들었는지 천천히 몸을 돌렸다.
+()<Speaker></Speaker>||:틀림없었다. 전보다 많이 야위었지만, 저 굳센 눈빛은 지휘관이 틀림없었다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지... 지휘관님...
+()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:눈앞이 흐려졌다. 눈물에 눈이 뒤덮인 것이었다.+다시 만나면 무슨 말을 할지 생각해 두긴 했지만, 정작 다시 만난 이 순간 기쁨의 말도, 원망의 말도 다 아무 상관 없어졌다.+지휘관이 여기 있는 것만으로, 다른 건 아무래도 상관없어졌다.+카리나는 손을 뻗어 지휘관에게 직접 닿아, 이것이 현실인지 확인하고 싶었다.+하지만 그 충동을 참았다. 잠깐 훑어본 것만으로도 지휘관은 복부에 붕대를 두를 만큼 큰 상처가 있고, 아직도 거기서 피가 스며나올 정도로 심각한 것이 눈에 보였으니까.
+()<Speaker></Speaker>||:한편, 지휘관은 말이 없었다. 이질감을 느낀 카리나는 지휘관의 얼굴을 바라보며 물었다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지휘관님... 다친 곳은 괜찮으세요...? 혹시, 아파서 말을 못하시는 거예요?  총상인가요? 아님 뭐에 찔렸어요?
+NPC_Kalina_OL(2)<Speaker>지휘관</Speaker><同时置暗>||:난 괜찮아, 카린.+보다시피 멀쩡해.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:총... 아 맞다!
+()<Speaker></Speaker>||:밖에서 자율인형들과 사투를 벌이는 인형들이 떠올랐다. 아직 토카레프가 밖에 있다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지휘관님! 빨리 경보 끄세요! 적이 아니에요, 저희였어요! 토카레프가, 토카레프가 지금 밖에서 보안 시스템이랑 싸우고 있어요, 아직 안 늦었을――
+()<Speaker>지휘관</Speaker>||:아니야...+너희가 아니야...+카린, 경보를 울린 건 너희가 아니야.+밖의 자율인형들을 너희를 노린 게 아니야. 너희가... 마침 거기에 있었을 뿐이지.
+()<Speaker></Speaker>||:순간, 카리나는 지휘관의 말을 이해하지 못했다.
+()<Speaker>지휘관</Speaker>||:여길 봐.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관이 옆으로 비켜 서니, 뒤로 감시 스크린이 있었다. 화면에는 여러 개의 크고 작은 감시 카메라 화면이 띄워져 있었다.+정중앙의 화면에 토카레프가 해킹했던 문이 보였다.+그런데 그 화면에 토카레프와 다른 인형들은 없고, 군 병사들만 잔뜩 보였다.
+()<Speaker></Speaker>||:두 눈을 믿을 수가 없었다. 다른 화면들도 확인해 봤지만 눈이 닿는 화면마다 군의 병사들이 보였다.+지하도의 모든 갈림길에 군 병사들이, 지금 이곳을 향해 엄청난 속도로 접근 중이었다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:하벨 씨? 아니, 군에서...?!
+NPC_Kalina_OL(1)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지휘관님, 빨리 나가요! 탈출할 방법이 있을 거예요!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:하지만 카리나가 붙잡고 끌어당겨도, 지휘관은 제자리서 움직이지 않았다.
+()<Speaker>지휘관</Speaker>||:아니. 지금 내 상처론 어디로도 도망갈 수 없어.+괜찮아 카린, 네 잘못이 아니야. 다른 누구의 잘못도 아니야.+그러니까, 너무 마음에 두지 마.
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:카리나가 뭐라 말하려던 그때, 뒤에서 굉음이 들려왔다. 폭발에 지하철역 전체가 진동하고, 폭발음이 지하철역 구석구석으로 퍼져나갔다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:뒤이어 수많은 군화의 굽소리가 들렸다. 군 병사의 무리가 오는 것이었다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지휘관님! 빨리――
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:콰앙!!+또 다시 폭발음이, 이번에는 바로 등 뒤에서 들렸다.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:카리나가 홱 고개를 돌렸을 때 벽은 이미 무너졌고, 수많은 군인들이 밀물처럼 안으로 들이닥쳐 총구를 일제히 지휘관에게 향했다.+그리고 그들을 통솔하는 듯한 대령 한 명이 마스크를 쓴 채로 앞으로 나왔다.
+NPC-Soldier(0)<Speaker>대령</Speaker>||<SE1>Select</SE1>:꼼짝 마라! 너는 포위됐다, 무기를 버리고 투항하라!
+()<Speaker></Speaker>||:카리나가 무어라 외치려 했지만, 눈앞의 이 대령도, 그 뒤의 병사들도, 아무도 총구를 그녀에게 향하고 있지 않았다.
+()<Speaker></Speaker>||:아니, 총구를 겨누지 않다기보다, 저들 모두가 카리나가 이 자리에 없다는 듯 행동했다.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:뒤에서 옷자락이 스치는 소리가 들려 다시 홱 고개를 돌리니, 지휘관이 무덤덤한 표정으로 양손을 들고 있었다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:또 발소리가, 이번엔 한 명의 굽소리가 들려서 문쪽으로 고개를 돌렸다. 다름아닌 하벨이었다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:언제나처럼 옅은 미소를 얼굴에 걸친 그는 카리나를 슬쩍 곁눈질하고, 바닥에 무릎을 꿇은 지휘관을 바라봤다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고, 앞으로 걸어나왔다.
+NPC-Havel(0)<Speaker>하벨</Speaker>||:고맙네, 카리나. 자네의 도움이 아니었으면 평생 여길 못 찾았을 게야.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:뭐...라고요...?
+()<Speaker></Speaker>||:"고맙다"?+이용당한 건가?
+()<Speaker></Speaker>||:카리나는 그자리서 굳어버렸다.+하벨에게 이용당했다는 사실이 믿겨지지 않았다. 그리고 지휘관이 아무 말도 없고, 순순히 항복했다는 것이 이해되지 않았다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:지휘관님... 어째서...+지휘관님! 지휘관님!!
+()<Speaker></Speaker>||:달려가서 직접 캐물으려 했다.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:하지만 카리나는 바닥의 자갈에 발이 걸려 넘어지고 말았다.
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>853</BIN><黑点2>:
+()<Speaker>카리나</Speaker>||:으윽...!
+()<Speaker></Speaker>||:무릎에 더욱 심해진 통증을 참으며 고개를 들었다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:이때 보인 병사들의 뒷모습은 매우 선명했다. 그리고 그 사이에 낀 지휘관은 묵묵히 발걸음을 옮겼다.+너무나도 자연스러운 광경이서, 마치 지휘관도 저들의 일원인 것처럼 보였다.
+()<Speaker>카리나</Speaker>||:어...?
+()<Speaker></Speaker>||:카리나가 아직도 상황을 파악 못하고 있을 때, 하벨이 천천히 다가와 곁에 섰다.
+()<Speaker>하벨</Speaker>||<CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:걱정 말게나, 지휘관에게는 아무 일도 없을 테니.+...적어도, 나는 그리 생각하네.
+()<Speaker></Speaker>||:그 말을 남기고 하벨은 떠났다.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:썰렁해진 방에는 카리나만 홀로 남았다.+카리나는 그제서야 꿈에서 깨어난 기분이 들었다.+그제서야 깨달았다. 이 모든 것이 전부, 천신만고 끝에 얻어낸...
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>1</CGDelay><黑屏2>:악의가 담긴 거짓말이었음을.
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:
+()<Speaker>나이든 목소리</Speaker>||:인류가 역사로부터 배운 유일한 교훈은, 인류는 역사로부터 배우지 않는다는 점이지.+그도 다 커서는 자기 주장이 확고해졌어.
+()<Speaker>차분한 목소리</Speaker>||:그는 지금 손아귀의 권력을 단단히 움켜쥐었습니다. 우리가 비장의 수를 건넨 대가죠.
+()<Speaker>나이든 목소리</Speaker>||:그는 그저, 예전의 우리와 같은 것뿐일세. 절대적인 힘이 없으면 결코 마음을 놓지 못하는 게야.+하지만 그의 생각처럼, 앞으로의 길은 분명히 그의 예상보다 훨씬 험난하겠지.
+()<Speaker>차분한 목소리</Speaker>||:하지만 그렇다 해도...
+()<Speaker>나이든 목소리</Speaker>||:그래, 건들지 말아야 할 것은 건들지 말았어야지. 그러다가는 역사가 재연되고 말아.+그리고 그 재연의 대가를, 그는 감당하지 못해.
+()<Speaker>차분한 목소리</Speaker>||<CGDelay>0.5</CGDelay>:처리합니까?
+()<Speaker>나이든 목소리</Speaker>||:이 땅의 백성들이 이제 겨우 희망의 불씨를 얻었는데, 그 불씨를 꺼뜨렸다간 역사의 죄인으로 남건만.+그도 이를 충분히 알고 있을 터거늘.
+()<Speaker>차분한 목소리</Speaker>||:충분히 알기에 스스로의 맹세를 어긴 거죠.+우리를 속인 겁니다.
+()<Speaker>나이든 목소리</Speaker>||:요즘 같은 세상엔 속는 쪽이 잘못이지.+허나, 아직은 속인 것이 아니게 할 기회는 있어.
+()<Speaker>차분한 목소리</Speaker>||:그 말씀은...?
+()<Speaker>나이든 목소리</Speaker>||<CGDelay>0.5</CGDelay>:그가 눈여겨보던 젊은이가 있잖은가.+그 사람이라면 필시 우리와 같은 생각이라 본다만.
+()<Speaker>차분한 목소리</Speaker>||:...넘어오리라고는 생각되지 않습니다만.
+()<Speaker>나이든 목소리</Speaker>||:우리 모두와는 다른 사람일세. 젊은이의 양심을 믿어보자고.+그리고, 우리는 그 젊은이가 거절할 수 없는 제안을 할 수 있지 않나.
+()<Speaker>차분한 목소리</Speaker>||:............+알겠습니다, 제가 처리하죠.+다만 예비 방안도 마련해 두겠습니다.
+()<Speaker>나이든 목소리</Speaker>||<CGDelay>1</CGDelay>:그래, 맡기겠네.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:【로슈 한계 END】
 ()||<黑点1>:

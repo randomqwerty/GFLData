@@ -1,62 +1,62 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BIN>73</BIN><黑屏2><SE1>AVG_21Winter_Fire_Alarm</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>10051</BGM>:铃声刺耳地响起，划破了训练场的寂静。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:短暂的惊愕后，人形们迅速整队集合。
-()<Speaker></Speaker>||:托卡列夫站在队列中，看到指挥官和格琳娜小姐快步走来，神情严肃。
-()<Speaker>指挥官</Speaker>||:紧急任务。所有可战斗人形，十五分钟内装备完毕，在前庭集合。
-()<Speaker></Speaker>||:训练场内立刻变得忙碌起来。+自从指挥官来到S09基地后，他们已经完成了数次清剿铁血小股部队的任务……甚至第一次出击的时候，指挥官才刚刚经历过一次训练。+在这些战斗中，指挥官展现出了非凡的战术才能，每次都能以最小伤亡完成任务。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_weapon_reload</SE1>:托卡列夫迅速检查自己的武器系统，一边听着周围的人形低声讨论。
-g43(0)<Speaker>G43</Speaker>||:又是清剿任务吗？最近铁血活动有些频繁啊。
-gsh18(0)<Speaker>GSh-18</Speaker>||:听说这次不一样，好像是救援任务。
-M1895(0)<Speaker>纳甘</Speaker>||:救援？谁需要救援？+啊！难道是蝎式？我听说她被铁血头目袭击了！
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:托卡列夫看着不远处和格琳娜交谈的指挥官，感觉到一种与以往不同的紧张气氛。
-()||<黑点1>:
-()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><黑点2><BIN>4</BIN>:格里芬S09区 前庭
-()<Speaker></Speaker>||:三十分钟后，几辆装甲车已经准备就绪，停机坪上，直升机的螺旋桨也都纷纷开始转动。+指挥官站在车前，面对集合完毕的人形部队，表情前所未有的严肃。
-()<Speaker>指挥官</Speaker>||:这次任务与以往不同。+我们接到上级紧急命令，营救一名被困在铁血控制区的特殊战术人形。+她的代号是M4A1。
-()<Speaker></Speaker>||:一阵低声交谈在人群中扩散。+托卡列夫疑惑地看向其他人形——这个代号听起来很特殊，但她从未听说过。
-()<Speaker>指挥官</Speaker>||:这名人形携带着极其重要的情报，必须安全撤离。+铁血已经派出了精锐部队搜捕她，我们必须抢在铁血之前找到她。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:格琳娜站在指挥官身边，向所有人展示了一张战术地图。
-NPC-Kalin(8)<Speaker>格琳娜</Speaker>||:根据情报，M4A1最后出现就出现在S09区的T6地带。+她已经设法隐藏了自己，但铁血的封锁线正在缩小。+我们需要在铁血头目之前找到她，然后安全撤离。
-()<Speaker>指挥官</Speaker>||:这次任务危险程度高，敌人火力强大。+如果有人想退出，现在就可以提出。+没有人会因此责备你们。
-()<Speaker></Speaker>||:托卡列夫环顾四周，没有一个人形后退或举手。+不同于以前，她们如今都清楚指挥官给予的拒绝的权利并不只是说说，但她们选择了追随。+S09区的人形不只是执行命令的工具，她们有自己的选择和决心。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官注视着每一名人形，点了点头。
-()<Speaker>指挥官</Speaker>||:谢谢你们的信任。+出发！
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
-()||<黑点1>:
-()<Speaker></Speaker>||<BIN>99</BIN><common_effect>%%code=CJ_rain%%</common_effect><SE1>AVG_amb_thunderrain</SE1><黑点2>:S09区 T6地带
-()<Speaker></Speaker>||<SE1>AVG_Thunder_Dry</SE1><白屏2>:暴雨如注，泥泞的道路让行进变得异常困难。
-()<Speaker></Speaker>||<SE1>AVG_Motorcycle</SE1>:装甲车队在接近目标区域约五公里处停下，人形们分散隐蔽。
-()<Speaker></Speaker>||:雨水拍打在托卡列夫的装甲上，她趴在一处高地，通过瞄准镜观察远处的铁血哨站。
-gsh18(0)<Speaker>GSh-18</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>铁血巡逻队，两点钟方向，五名步兵型，一名猎手型。</color>
-M1903(0)<Speaker>春田</Speaker><通讯框>||:<color=#00CCFF>确认。</color>+<color=#00CCFF>已锁定猎手型。</color>
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:指挥官的声音在通讯器中响起，冷静而沉稳。
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>托卡列夫小组，准备发起佯攻。</color>+<color=#00CCFF>春田，等我信号再开火。</color>+<color=#00CCFF>G43和纳甘，做好接应准备。</color>
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:收到。+佯攻准备就绪。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:心智云图飞速运转，托卡列夫计算着最佳进攻路线和火力配置。+不知为何，她感到一种异样的兴奋——这次行动不是为了消灭敌人，而是为了救援一名同伴。+这种感觉……很不一样。
-()<Speaker>指挥官</Speaker><通讯框>||<CGDelay>0.7</CGDelay>:<color=#00CCFF>行动！</color>
-()||<黑点1>:
-()<Speaker></Speaker>||<关闭蒙版><SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM><BIN>9</BIN><黑点2><CGDelay>0.5</CGDelay>:
-()||<黑点1>:
-()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><BIN>1</BIN><Night><黑点2>:当战斗结束，托卡列夫拖着受损的腿部装甲抵达撤离点时，她看到了一个陌生的身影站在指挥官身边——+一个有着绿色挑染的战术人形，神情冷静却警惕，双手紧握着一把突击步枪。
-()<Speaker>指挥官</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:任务完成，所有人准备撤离。+托卡列夫，你受伤了。
-()<Speaker></Speaker>||:托卡列夫摇摇头，视线却无法从那个陌生人形身上移开。+她感到一种奇怪的熟悉感，尽管她确信自己从未见过这名人形。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官向陌生的人形做了个手势。
-()<Speaker>指挥官</Speaker>||:这位是M4A1，从今天起，她将加入我们S09区。
-()<Speaker></Speaker>||:M4A1向所有人点点头，但神情依然戒备。
-M4A1(0)<Speaker>M4A1</Speaker>||:我的通用编号是M4A1，请用这个名字来称呼我。+我是格里芬的人形，隶属于AR特勤小组，因为一些原因，现在被铁血追捕。+感谢各位的救援。
-()<Speaker></Speaker>||:她的声音很轻，托卡列夫注意到她的身上有多处战斗痕迹，显然经历过长时间的逃亡。
-()<Speaker></Speaker>||E1>AVG_Applause</SE1>:格琳娜高兴地拍了拍手。
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||:太好了！任务圆满成功！+回去后我要准备特别餐点庆祝一下！
-()<Speaker>指挥官</Speaker>||:这次任务，你们每一个人都表现出色。
-()<Speaker></Speaker>||:托卡列夫站在那里，忽然明白了自己那种异样感觉的来源——“为了他人而战”的概念。
-()<Speaker></Speaker>||:不是为了命令，不是为了程序，而是为了保护某个人。+这是一种全新的体验，一种她以前从未有过的……快乐。
-()<Speaker></Speaker>||:GSh-18和其他人形围住M4A1，热情地欢迎她。+托卡列夫看着这一幕，心中充满了一种奇怪的满足感。
-()<Speaker></Speaker>||:……然而——
-()<Speaker></Speaker>||<白屏2><SE1>AVG_whitenoise</SE1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:当托卡列夫注视着M4A1与指挥官站在一起的画面时，她的心智突然开始一阵刺痛。
-()<Speaker>？？？</Speaker>||:动起来，托卡列夫。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:电流般的刺痛再次袭来，托卡列夫的视野开始闪烁、破碎。
-()||<黑点1><SE1>AVG_fall_into_water</SE1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><CGDelay>0.7</CGDelay>:她挣扎着想要抓住那些不合逻辑的记忆碎片，但黑暗如潮水般涌来，将一切淹没。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>73</BIN><黑屏2><SE1>AVG_21Winter_Fire_Alarm</SE1><CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<BGM>10051</BGM>:훈련장의 정적을 깨는 시끄러운 종소리.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:인형들은 화들짝 놀라 서둘러 집결해 대열을 이뤘다.
+()<Speaker></Speaker>||:그 속에서, 토카레프는 지휘관과 카리나가 빠른 걸음으로 다가와 진지한 표정을 짓는 것을 보았다.
+()<Speaker>지휘관</Speaker>||:모두, 긴급 임무다. 작전 가능한 모든 인형은 15분 내로 군장 착용하고 앞마당에 집합.
+()<Speaker></Speaker>||:훈련장이 바로 분주해졌다.+지휘관이 S09 기지로 온 후로, 소규모 철혈 병력을 소탕하는 임무라면 벌써 여러 차례 수행했다.+지휘관은 갓 훈련을 마치고 부임했음에도 전술지휘에 출중한 재능을 드러내, 첫 출격부터 지금까지 항상 최소한의 피해로 임무를 완수해냈다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_weapon_reload</SE1>:토카레프는 신속히 자신의 무기를 점검하면서, 주위의 동료 인형들이 목소리를 낮추고 논의하는 소리를 들었다.
+g43(0)<Speaker>G43</Speaker>||:또 소탕 임무인가? 요즘 철혈이 되게 활발하네.
+gsh18(0)<Speaker>GSh-18</Speaker>||:아뇨, 이번엔 다른 거라고 들었어요. 구조 임무인가 봐요.
+M1895(0)<Speaker>나강</Speaker>||:구조? 누군가 구하러 가는 게냐?+아, 혹시 스콜피온인가? 저번에 철혈의 두목놈에게 습격당했다 들었다만!
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:소리를 낮춰 카리나와 대화하는 지휘관을 보면서, 토카레프는 이전과는 다른 긴장감을 느꼈다.
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><黑点2><BIN>4</BIN>:30분 후, 그리폰 S09 구역 기지의 앞마당.
+()<Speaker></Speaker>||:장갑차 여러 대가 출발 대기 중이었고, 착륙장에 헬리콥터도 이미 로터를 돌리고 있었다.+차 앞에 선 지휘관은 집결한 전술인형 부대를 더없이 진지한 표정으로 마주봤다.
+()<Speaker>지휘관</Speaker>||:이번 임무는 이전 것들과 다르다.+상부의 긴급 명령을 받아, 철혈 지배 구역에 고립된 특수 전술인형을 구출하는 임무다.+구조 대상은 코드네임 M4A1.
+()<Speaker></Speaker>||:인형들 사이로 낮은 소곤거림이 퍼졌다.+토카레프도 다소 의문스러워하며 동료들과 시선을 교환했다. "M4A1"이란 이름은 특별하게는 들려도, 전혀 들어본 적 없었으니까.
+()<Speaker>지휘관</Speaker>||:이 인형은 매우 중요한 정보를 소지 중이어서, 반드시 안전하게 구출해야 해.+이미 철혈이 정예 부대를 보내 그녀를 추적 중이라니, 반드시 우리가 먼저 찾아내야 한다.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:지휘관 곁의 카리나가 모두에게 전술 지도를 펼쳐 보였다.
+NPC-Kalin(8)<Speaker>카리나</Speaker>||:정보에 따르면, 마지막으로 파악된 M4A1의 위치는 S09 구역의 T6 지대야.+지금은 어딘가에 숨었지만, 철혈이 지금도 포위망을 좁히고 있는 상황이지.+우리는 놈들보다 먼저 그녀를 찾아내서, 안전하게 철수시켜야 해.
+()<Speaker>지휘관</Speaker>||:이번 임무는, 적 철혈의 지금까지와는 차원이 다른 막강한 화력과 마주할 수도 있는 매우 위험한 임무다.+혹시 열외를 희망하는 인원이 있다면 지금 말하도록.+열외하는 인원에게 불이익이 주어지지는 않는다.
+()<Speaker></Speaker>||:토카레프가 주위를 둘러봐도 동료 인형들 중 아무도 손을 들거나 뒷걸음질 치는 이는 없었다.+이전과 달리, 지휘관이 주는 거절의 권리가 그저 말뿐이 아님을 모두가 알았다. 그럼에도 그들은 지휘관을 따르기로 결정했다.+S09 구역의 전술인형들은 더 이상 단순히 명령을 실행하기만 하는 도구가 아니다. 스스로 선택하고 결정할 수 있다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지휘관은 인형들 한 명 한 명의 얼굴을 마주보고 고개를 끄덕였다.
+()<Speaker>지휘관</Speaker>||:신뢰에 감사한다.+출발!
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<BIN>99</BIN><common_effect>%%code=CJ_rain%%</common_effect><SE1>AVG_amb_thunderrain</SE1><黑点2>:S09 구역의 T6 지대.
+()<Speaker></Speaker>||<SE1>AVG_Thunder_Dry</SE1><白屏2>:쏟아지는 소나기가 길을 진흙탕으로 만들어 행군을 방해했다.
+()<Speaker></Speaker>||<SE1>AVG_Motorcycle</SE1>:장갑차의 행렬이 목표 구역으로부터 약 5km 지점에서 멈췄고, 인형들은 차에서 내리는 즉시 산개하고 몸을 숨겼다.
+()<Speaker></Speaker>||:빗물이 방탄삽판을 때리는 소리를 들으며, 토카레프는 고지에 엎드려 스코프로 멀리 철혈 초소를 관찰했다.
+gsh18(0)<Speaker>GSh-18</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>2시 방향에 철혈 순찰대. 인형 다섯, 예거 타입 하나.</color>
+M1903(0)<Speaker>스프링필드</Speaker><通讯框>||:<color=#00CCFF>확인.</color>+<color=#00CCFF>예거 타입 조준 완료.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:지휘관의 차분한 목소리가 통신기에서 울렸다.
+()<Speaker>지휘관</Speaker>||:<color=#00CCFF>토카레프 조, 양동 작전 준비.</color>+<color=#00CCFF>스프링필드, 내 신호에 사격한다.</color>+<color=#00CCFF>G43과 나강은 목표와 접선 준비.</color>
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:명령 수신.+양동 작전 준비 완료.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:마인드맵이 빠르게 회전하며 최적의 진격 루트와 화력 배치를 계산했다.+그런데, 그러는 동안 어째선지 묘한 흥분감이 들었다. 이 작전은 적을 무찌르는 작전이 아니라, 동료를 구출하는 작전...+느낌이 무척이나 달랐다.
+()<Speaker>지휘관</Speaker><通讯框>||<CGDelay>0.7</CGDelay>:<color=#00CCFF>작전 개시!</color>
+()||<黑点1>:
+()<Speaker></Speaker>||<关闭蒙版><SE1>Stop_AVG_loop</SE1><BGM>BGM_Empty</BGM><BIN>9</BIN><黑点2><CGDelay>0.5</CGDelay>:
+()||<黑点1>:
+()<Speaker></Speaker>||<SE1>AVG_wind_grass</SE1><BIN>1</BIN><Night><黑点2>:전투가 일단락 난 후, 토카레프가 다친 다리를 끌고 철수 지점에 도착하니 지휘관의 옆에서 낯선 얼굴을 보였다.+초록색 브릿지 염색을 한 전술인형. 차분하지만 경계심 많은 표정에, M4A1 돌격소총 한 자루를 양손으로 단단히 쥐고 있었다.
+()<Speaker>지휘관</Speaker>||<BGM>BGM_23S_Crossroads_Warrior</BGM>:임무 완료다, 전원 철수 준비!+토카레프? 다쳤구나, 괜찮아?
+()<Speaker></Speaker>||:고개를 저으면서도, 토카레프는 저 낯선 인형에게서 눈길이 떨어지질 않았다.+기묘한 익숙함 때문이었다. 분명 이 인형을 본 기억이 없건만 어딘가 매우 익숙했다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:이를 아는지 모르는지, 지휘관은 그 낯선 인형을 가리키며 소개했다.
+()<Speaker>지휘관</Speaker>||:이쪽이 우리가 구출한 M4A1이야. 오늘부터 우리 S09 구역에 합류하게 됐어.
+()<Speaker></Speaker>||:여전히 경계를 풀지 않는 얼굴로, M4A1은 모두에게 가볍게 목례했다.
+M4A1(0)<Speaker>M4A1</Speaker>||:코드네임 M4A1. 이렇게 불러 주시면 됩니다.+그리폰의 AR 특수팀 소속이에요. 몇 가지 사정으로 인해 철혈에게 쫓기고 있었습니다.+여러분의 구조에 감사드려요.
+()<Speaker></Speaker>||:생각보다 가냘픈 목소리. 그녀의 몸에는 장시간의 도주를 증명하는 싸움의 흔적이 잔뜩이었다.
+()<Speaker></Speaker>||<SE1>AVG_Applause</SE1>:한편, 카리나는 신이 나서 박수를 치며 외쳤다.
+NPC-Kalin(1)<Speaker>카리나</Speaker>||:무사히 임무 성공! 정말 다행이에요!+돌아가서 식당에 특식 잔뜩 주문해야겠어요!
+()<Speaker>지휘관</Speaker>||:모두, 수고 많았다. 이번 임무에서 다들 굉장한 활약을 보여줬어.
+()<Speaker></Speaker>||:그때 토카레프는 이번 임무 중에 느꼈던 묘한 감각의 정체를 깨달았다. "누군가를 위해 싸운다"는 개념이었다.
+()<Speaker></Speaker>||:명령을 따르는 것도, 프로그램을 따르는 것도 아닌, 누군가를 지키기 위해 움직였다.+새로운 경험이자, 여태까지 겪어본 적 없는... 기쁨이었다.
+()<Speaker></Speaker>||:GSh-18을 비롯한 다른 동료 인형들은 이미 M4A1을 둘러싸고 열렬하게 환영하는 중이었다.+그 광경을 뒤에서 지켜보며, 토카레프는 모종의 만족감을 느꼈다.
+()<Speaker></Speaker>||:그러나...
+()<Speaker></Speaker>||<白屏2><SE1>AVG_whitenoise</SE1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:그녀가 M4A1과 지휘관이 함께 서 있는 것을 지켜보고 있을 때, 갑자기 마인드맵이 따끔거렸다.
+()<Speaker>？？？</Speaker>||:움직여, 토카레프.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1>:감전되는 듯한 따끔거림이 다시 닥쳤고, 시야가 점멸하며 깨졌다.
+()||<黑点1><SE1>AVG_fall_into_water</SE1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><CGDelay>0.7</CGDelay>:토카레프는 몸부림치며 로직에 어긋나는 기억 파편들을 붙잡으려 했지만, 어둠은 속절없이 밀물처럼 밀려들어 모든 것을 휩쓸었다.
 ()||<黑点1>:

@@ -1,181 +1,181 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><BIN>83</BIN><黑屏2><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:集结点，越来越多的火炮和装甲车驶入校场。+在如此近的距离与它们擦肩而过，脚下传来的震颤足以让人绷紧神经。+不过，那身材小小的人形，心思却全然不在校场上。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:HK23，你偏离队伍了哦！
-hk23(0)<Speaker>HK23</Speaker><Shake>||<SE1>ClothingUp</SE1><BGM>Campaion-34</BGM>:咦！？对、对不起！
-()<Speaker></Speaker>||:被喊到名字的HK23一个激灵，立刻把手藏到了身后。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:怎么了？你在藏什么东西？
-hk23(0)<Speaker>HK23</Speaker>||:嘘——！嘘——！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK23左右瞧了瞧，从身后拿出了一个小物件。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:草编的小兔子？好可爱啊~没想到你还会这个？
-hk23(0)<Speaker>HK23</Speaker>;NPC_TT33(2)||:也、也不是什么精致的东西啦……+但我想等这次行动结束，消灭了铁血，就在庆功宴上把它送给指挥官。+你、你可不要直接告诉指挥官哦！
-hk23(0);NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:原来是这样，你只管放心好了~！
-hk23(0)<Speaker>HK23</Speaker>;NPC_TT33(0)||:嘿嘿嘿……不过话说回来，指挥官会喜欢吗？会不会……太幼稚了呢……
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:别的人类不好说，我们的指挥官肯定会喜欢的，所以——
-()<Speaker>指挥官</Speaker>||:你们在聊什么？
-hk23(0)<同时点亮>;NPC_TT33(2)<Speaker>HK23&托卡列夫</Speaker>||:咦！？指、指挥官！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK23又一次把东西藏在了身后，同时，托卡列夫也下意识地挡在了HK23的前面。
-()<Speaker>指挥官</Speaker>||:……你们这么紧张做什么？HK23怎么了？
-hk23(0)<Speaker>HK23</Speaker><Shake>||:我我我、我没怎么……！+这里什么都没有，我们也没有讨论什么草——
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:<size=25>喂！不要自己说出来啊！</size>
-()<Speaker></Speaker>||:听到托卡列夫提醒，HK23赶紧闭上了嘴。
-()<Speaker>指挥官</Speaker>||:嗯……？既然没什么，那就快点和其他小队会合吧。+这次行动虽然只需要配合好军队来完成任务，但也必须全力以赴。+打起十二分的精神，让军方也见识一下我们的水平吧。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:是！指挥官！
-hk23(0)<Speaker>HK23</Speaker>||:明、明白！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫和HK23双双立正，向指挥官敬礼。
-()<Speaker></Speaker>||:待到指挥官点头离去后，两人对了一下眼神，噗嗤笑出了声。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:这次我们要好好表现，不能辜负了指挥官的期待。+礼物的事情，等行动结束之后再说，我们走吧~！
-hk23(0)<Speaker>HK23</Speaker>||:嗯！
-()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN><SE1>AVG_Gunfire</SE1><CGDelay>0.7</CGDelay>:
-()<Speaker>战术人形</Speaker>||:<size=50>哇啊啊啊！</size>
-()<Speaker>战术人形</Speaker>||:<size=50>快！进入掩体！快点！</size>
-()<Speaker>战术人形</Speaker>||:<size=50>指挥中心！指挥中心！我们遭到了铁血的火力覆盖！指挥中心！收到请回答！</size>
-()<Speaker>通讯</Speaker>||:<color=#00CCFF>不、不……！不是铁血！</color>+<color=#00CCFF>是友军！我们遭到了友军的攻——</color>
-()<Speaker></Speaker>||<SE1>AVG_tinnitus_0</SE1><CGDelay>0.5</CGDelay><SE1>Explode</SE1>:
-()<Speaker></Speaker>||:托卡列夫闭上眼睛，耳中轰鸣。
-()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM><睁眼><BIN>98</BIN>:
-()<Speaker></Speaker>||:当她再度睁开，她已不在军演现场。
-()<Speaker>托卡列夫</Speaker>||:校场……军演……突如其来的背叛。+那天，第一次，我们尝到了被"背叛"的滋味……+我们经历过人类的冷漠，经历过指挥官的温善……也在那一次，经历了人类的“恶意”。
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>99</BIN><SE1>AVG_Explosion</SE1>:咻——
-M1895(0)<Speaker>纳甘</Speaker>||:<size=50>撤退！撤退！导弹飞过——啊！</size>
-()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><CGDelay>0.7</CGDelay><震屏3>:轰！！
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>99</BIN>:托卡列夫声音在一望无边际的战场上回荡。
-NPC_TT33(3)<Speaker>托卡列夫</Speaker>||:MP443！C14！你们在哪！？
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:通讯中，李恩菲尔德的声音被炮火声和尖锐的风声切割得支离破碎。
-MLEMK1(0)<Speaker>李·恩菲尔德</Speaker><通讯框>||:<color=#00CCFF>来不及了！托卡列夫！立即撤到十七号防线！他们已经来了！</color>
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:不行！还有……我还有队友在……
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><CGDelay>0.4</CGDelay><SE1>AVG_Explosion</SE1><CGDelay>0.7</CGDelay>:咻————轰！！
-()||<黑屏1>:
-()<Speaker>托卡列夫</Speaker>||<黑屏2><BIN>99</BIN><CGDelay>0.4</CGDelay>:帕尔迪斯基潜艇基地……就像是对人类成语“螳臂当车”的生动化学习……+我们就像垃圾一样，被生生地碾碎在荒芜的战场上，可悲的是，我甚至不记得我被摧毁的过程。+因为无人能够为我寻回战场上的遗骸……
-()||<黑屏1>:
-()||<黑点2><BIN>15</BIN>:……距离能源损坏处还有0米。+托卡列夫用颤抖的手指紧急抢修着被剪断的能源输送线。+身后敌人的脚步声越来越近，似乎再转一个弯就能到达自己的身后……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||<SE1>AVG_tele_connect</SE1>:PPK，我就快好了！
-NPC_TT33(1);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>还有多久？</color>
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;PPK(0)<通讯框>||:37秒！
-NPC_TT33(1);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>再快一点。</color>
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;PPK(0)<通讯框>||:已经是我最快的速度了……+PPK，你的声音怎么听上去怪怪的？
-NPC_TT33(1);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>是怪迷人还是怪性感？</color>
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>;PPK(0)<通讯框>||:……+正经点，你们还好吗？怎么感觉好久没听见利贝罗勒和MP443的声音了。
-NPC_TT33(2);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>就这么不想听我说话吗？</color>
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>;PPK(0)<通讯框>||:不是！多亏有你一直和我说话……
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>;PPK(0)<通讯框>||:不然我可能早就崩溃了……
-NPC_TT33(0);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>对不起。</color>
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>;PPK(0)<通讯框>||:诶？
-NPC_TT33(2);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>我只能陪你到这里了。</color>
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:PPK，你怎么了？
-()||<SE1>AVG_Shield_Startup</SE1>:能源输送线修理完毕，电力重新恢复。
-PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>快跑吧，托卡列夫，不要回头。</color>
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:PPK？！
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>15</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>托卡列夫</Speaker>||:“不要温和地走进那个良夜。”+“白昼告终时老人该燃烧、该狂喊。”+“咆哮吧。”+“对着光明的消泯咆哮吧！！！”
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BIN>9</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>托卡列夫</Speaker>||:那是我们称之为"家"的地方……+短暂的、充满温度的日子……+在那一天，被火焰和炮火吞噬。+我们一起，目睹了那天，我们的"家"如何变成灰烬……
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:
-()<Speaker>通讯</Speaker>||<SE1>AVG_whitenoise</SE1><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>托卡列夫小队！托卡列夫小队！</color>+<color=#00CCFF>第二防线已被军方突破！立即后撤到第三防线！</color>+<color=#00CCFF>托卡列夫小队！托卡列夫小队！听到请回答！</color>
-()<Speaker>托卡列夫</Speaker>||<BGM>BGM_Truth</BGM>:……唔……！
-()<Speaker></Speaker>||:托卡列夫睁开眼睛，一块巨大的混凝土断墙正压在自己身上。
-()<Speaker></Speaker>||:感知渐渐恢复后，炮火带来的猛烈热浪立刻让托卡列夫感到浑身的不自在。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:此时的她周身动弹不得，想用力撑起断墙，素体的动力却难以支撑那原本不值一提的重量。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:咔啦……
-()<Speaker></Speaker>||:咔啦……
-()<Speaker></Speaker>||:听到有脚步声逐渐靠近，托卡列夫立刻停止动作。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:随后，她感觉到有人正在推开压着自己的断墙，她握紧了自己的枪——
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>159</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏3><BGM>BGM_Empty</BGM>:轰隆——！
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:就在断墙被推开的刹那，托卡列夫立刻撑着摇晃着身体，把枪口对准了眼前的身影。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0%%range=4</controll_shake><SE1>AVG_XXS_kick</SE1>:可随后，那个个子小小的身影却扑进了自己怀中。
-hk23(0)<Speaker>HK23</Speaker>||<BGM>BGM_ev2412_tranquility</BGM>:<size=50>托卡列夫……！</size>+太、太好了……你没事……太好了……呜呜……！
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:HK……23……
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE1>Battlefield</SE1><BIN>99</BIN><CGDelay>0.5</CGDelay>:
-hk23(0)<Speaker>HK23</Speaker>||:再、再有两公里，我们就能进入第三防线了……！+那里有我们的同伴，我还能接收到她们的信号……！
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……
-()<Speaker></Speaker>||:托卡列夫的思绪在虚幻与过往之间游走。
-()<Speaker></Speaker>||:医护人形们奔跑的身影在她眼前闪过，担架上躺着残破的战友，维修液在地面留下长长的痕迹。
-()<Speaker></Speaker>||:耳边仿佛又响起潜艇基地爆炸时的轰鸣，人形们被冲击波推向漆黑的水中，身体在压力下变形、断裂。
-()<Speaker></Speaker>||:鼻尖似乎又嗅到了格里芬基地燃烧时的焦臭，看到战友们在废墟中一声声呼喊着失踪同伴的名字。
-()<Speaker></Speaker>||:托卡列夫向前方观望，眼前目所能及的范围之内，已是一片焦土。+焦土之上，到处散落着不知是谁遗留下来的破败素体，和众多还冒着电火花的断肢。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:……+这就是军队的力量吗？
-hk23(0)<Speaker>HK23</Speaker>;NPC_TT33(2)||:……他们……他们太可恶了！+假借演习的由头，居然对我们做出这种事……！+不知道……不知道指挥官现在有没有遇到危险……呜呜……
-hk23(0);NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……不，要相信指挥官……
-hk23(0)<Speaker>HK23</Speaker>||:嗯……你说得对……！
-()<Speaker></Speaker>||:面对托卡列夫，HK23还是挤出了一丝笑容。
-hk23(0)<Speaker>HK23</Speaker>||:啊，我们有同伴在前面那座废墟里坚守，刚才我还收到了他们的加密通讯。+先到那里和她们会合吧！
-()<Speaker></Speaker>||:循着信号所标示的路径，两人进入了眼前这座尚未倒塌的废墟。
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>802</BIN>:外面的天空本就被乌云遮盖，进入废墟后，光线更是暗淡到难以看清内部。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……+HK23，她们真的在这里吗？
-hk23(0)<Speaker>HK23</Speaker>||:应该在的啊……还、还是说……
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1><BGM>BGM_Empty</BGM>:叮。
-()<Speaker></Speaker>||:HK23话未说完，两人脚下突然传来清脆的金属声，在如此阴暗逼仄的空间，她们很清楚这声音代表着什么。
-()<Speaker></Speaker>||<SE1>Explode</SE1><BGM>11335</BGM><震屏3>:轰——！
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:在跳雷起飞爆炸的瞬间，托卡列夫和HK23迅速卧倒。
-()<Speaker></Speaker>||:由爆炸飞溅而出的钢珠击穿了周围的混凝土，也有一些命中了她们。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake><SE2>Gunfight</SE2>:只是两人也没有时间查看伤势，跳雷爆炸后，很快便有埋伏在这里的军方步兵向她们发起攻击。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……可恶！
-()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:托卡列夫立刻拔枪，对着扑面而来的敌人扣动扳机。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1><CGDelay>0.1</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:咔咔！
-()<Speaker></Speaker>||:由于此前才经历过恶战，仅仅两枪，托卡列夫的弹药便已告罄。
-()<Speaker></Speaker>||:好巧不巧，两发子弹全部打在了对方腰腹部的防弹衣上。
-()<Speaker></Speaker>||<SE1>Select</SE1>:冲击力造成了一点迟滞效果，对方后退一步，很快便举起步枪对准了托卡列夫。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Gatling_gun</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake>:砰砰砰！
-()<Speaker></Speaker>||:随着一阵枪响，原本想冲上去采取肉搏的托卡列夫发现对方已如断线木偶般倒地。
-()<Speaker></Speaker>||:旁边一角，HK23侧躺在地面上，枪口的烟雾才刚刚散去。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:HK23……
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=4</controll_shake><SE1>AVG_Gunfire</SE1>:砰砰砰砰——！
-()<Speaker></Speaker>||:根本没有说话的时机，废墟周围顷刻间响起了连续的枪声。
-()<Speaker></Speaker>||:针对人形所采用的特制弹头穿破混凝土，在托卡列夫和HK23身边溅起灰白色尘土，凶猛的火力让HK23的武器也难以招架。
-()<Speaker></Speaker>||<SE1>AVG_Rocket_Gun_Truck</SE1>:更加绝望的是，两人同时探测到，废墟外有一个巨大的热源正在靠近——
-()<Speaker></Speaker>||:那是军方的坦克。
-hk23(0)<Speaker>HK23</Speaker>||:唔……这样下去会撑不住的，托卡列夫，你快走，我来拖住他们……！
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:什……不行！我留下！
-hk23(0)<Speaker>HK23</Speaker>||:别逞强了！你现在根本没有子弹，再这样下去，我们都会被……！
-()<Speaker></Speaker>||<SE1>AVG_Robots_Bomb</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM>:轰——！
-()<Speaker></Speaker>||:那是坦克发出的轰鸣，废墟瞬间便被那炽热的炮弹撕扯粉碎。
-()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><SE1>AVG_tinnitus_0</SE1>:爆炸产生的强光让托卡列夫暂时失去了视觉，混乱的声音中，她只感觉到自己被HK23拖着前行。
-()<Speaker>托卡列夫</Speaker>||<CGDelay>0.5</CGDelay>:……咳咳……HK23，你……！
-()<Speaker>HK23</Speaker>||<CGDelay>0.7</CGDelay>:……活下去……
-()<Speaker>HK23</Speaker>||:去保护……指挥官……！
-()<Speaker></Speaker>||:在杂乱的讯号干扰声中，托卡列夫依稀听到了这样一句话，再之后，坦克再次发出巨响，第二枚炮弹袭来——
-()<Speaker></Speaker>||<SE1>AVG_Robots_Bomb</SE1><CGDelay>2</CGDelay>:轰——！
-()<Speaker>？？？</Speaker>||<BGM>BGM_AuguriesofInnocence</BGM><CGDelay>0.4</CGDelay>:……托卡列夫。
-()<Speaker>？？？</Speaker>||:……托卡列夫。
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<睁眼><BIN>468</BIN><CGDelay>0.4</CGDelay>:
-TT33(1)<Speaker>托卡列夫</Speaker><Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:<size=50>HK23！！！</size>
-()<Speaker></Speaker>||:托卡列夫猛地起身，眼前模糊的身影却不似HK23那样矮小。
-M4A1Mod(4)<Speaker>？？？</Speaker>||:……
-TT33(1)<Speaker>托卡列夫</Speaker>||:……M……4……？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4没有回答，而是走近托卡列夫，把一样东西放在她的手中。
-()<Speaker></Speaker>||:那是被烧去一半的，草编的小兔子。
-TT33(1)<Speaker>托卡列夫</Speaker>||:……
-TT33(1)<Speaker>托卡列夫</Speaker>||:……这一切……简直就像是做了一场噩梦……
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:……如果，这真的是一场梦呢？
-TT33(1)<Speaker>托卡列夫</Speaker>||:诶！？
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:托卡列夫……
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.4</CGDelay>:
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:……你是否后悔选择为指挥官而战？+后悔追随指挥官，经历这一切苦难？
-M4A1Mod(4)<Speaker>M4A1</Speaker>||:你是否——
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>M4A1</Speaker>||<CGDelay>0.4</CGDelay>:怨恨过指挥官？
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<SE1>AVG_HeavyVehicle_Stop</SE1><BIN>83</BIN><黑屏2><CGDelay>0.7</CGDelay>:
+()<Speaker></Speaker>||:집결 포인트, 갈수록 많은 화포와 장갑차가 연병장에 들어섰다.+이렇게 가까이서 그것들이 옆을 지나가니, 발밑이 진동하는 것만으로도 간담이 서늘할 정도였다.+하지만 작은 몸집의 토카레프는 연병장에 전혀 관심이 없었다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:HK23, 대열을 잘 맞춰야죠!
+hk23(0)<Speaker>HK23</Speaker><Shake>||<SE1>ClothingUp</SE1><BGM>Campaion-34</BGM>:네!? 앗, 죄송해요!
+()<Speaker></Speaker>||:이름이 불린 HK23은 화들짝 놀라 손을 얼른 등 뒤로 숨겼다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:왜 그래요? 뭘 숨기고 있나요?
+hk23(0)<Speaker>HK23</Speaker>||:쉿! 쉬잇...!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK23은 주위를 두리번거리더니 등 뒤에서 작은 물건을 꺼냈다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:풀로 엮은 토끼인가요? 너무 귀엽네요~ 이런 것도 만들 줄 아셨나요?
+hk23(0)<Speaker>HK23</Speaker>;NPC_TT33(2)||:그, 그렇게 대단한 건 아니에요...+그냥 이번 작전이 끝나고 철혈을 물리치면, 축하 파티에서 지휘관님께 선물로 드리려고요.+지, 지휘관님께 말하면 안 돼요!
+hk23(0);NPC_TT33(0)<Speaker>토카레프</Speaker>||:그렇군요, 안심해요~ 비밀은 꼭 지켜줄게요~!
+hk23(0)<Speaker>HK23</Speaker>;NPC_TT33(0)||:헤헤헤... 그런데 지휘관님이 정말 좋아해주실까요...? 혹시... 너무 유치하다고 생각하시면 어쩌죠...
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:다른 인간이라면 몰라도, 우리 지휘관님은 분명 좋아하실 거예요. 그러니까...
+()<Speaker>지휘관</Speaker>||:둘이서 무슨 얘기하니?
+hk23(0)<同时点亮>;NPC_TT33(2)<Speaker>HK23 & 토카레프</Speaker>||:힉!? 지, 지휘관님!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:HK23은 다시 물건을 등 뒤로 숨겼고, 토카레프도 무의식적으로 HK23 앞을 막아섰다.
+()<Speaker>지휘관</Speaker>||:...둘이 뭘 그렇게 긴장하고 있니? 혹시 HK23한테 무슨 일이라도 있어?
+hk23(0)<Speaker>HK23</Speaker><Shake>||:저저저, 저 아무것도...!+여, 여기에는 아무것도 없어요, 무슨 풀——
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:<size=25>야! 네가 말하면 안 되지!</size>
+()<Speaker></Speaker>||:토카레프의 귀띔에 HK23은 바로 입을 다물었다.
+()<Speaker>지휘관</Speaker>||:응...? 아무 일도 없다면 얼른 다른 소대랑 합류하렴.+이번 작전은 군을 보조하는 역할이지만, 그래도 전력을 다해야 하니까.+최선을 다해서, 군이 우리를 무시하지 못하게 우리 실력을 확실히 보여주자.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:네! 지휘관님!
+hk23(0)<Speaker>HK23</Speaker>||:아, 알겠습니다!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:토카레프와 HK23은 동시에 차렷 자세를 취하고 지휘관에게 경례했다.
+()<Speaker></Speaker>||:지휘관이 고개를 끄덕이며 자리를 뜨자, 두 사람은 눈을 마주치고 피식 웃음을 터뜨렸다.
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:이번에 우리 열심히 해요. 지휘관님의 기대에 부응해야죠.+선물은 작전 끝난 다음에 말씀드려요. 어서 가요~!
+hk23(0)<Speaker>HK23</Speaker>||:네!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><黑屏2><BIN>9</BIN><SE1>AVG_Gunfire</SE1><CGDelay>0.7</CGDelay>:
+()<Speaker>전술인형</Speaker>||:<size=50>으아아악!</size>
+()<Speaker>전술인형</Speaker>||:<size=50>빨리! 빨리 엄폐해! 빨리!</size>
+()<Speaker>전술인형</Speaker>||:<size=50>지휘부! 지휘부! 현재 철혈의 포격을 받는 중이다! 지휘부! 들리면 응답하라!</size>
+()<Speaker>통신</Speaker>||:<color=#00CCFF>아니, 아니야...! 철혈이 아니야!</color>+<color=#00CCFF>아군이다! 아군이 우릴 공격 하고——</color>
+()<Speaker></Speaker>||<SE1>AVG_tinnitus_0</SE1><CGDelay>0.5</CGDelay><SE1>Explode</SE1>:
+()<Speaker></Speaker>||:토카레프는 굉음 속에서 조용히 눈을 감고 있었다.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>GF_21summer_avg_Demon</BGM><睁眼><BIN>98</BIN>:
+()<Speaker></Speaker>||:눈을 다시 떴을 때, 그녀는 이미 군사 연습 현장에 있지 않았다.
+()<Speaker>토카레프</Speaker>||:연병장... 연합훈련... 갑작스러운 배신.+그날, 처음으로, 우리는 '배신'당하는 게 어떤 기분인지 느꼈어...+인간에게 무시당해봤고, 지휘관님의 온정도 느껴봤고... 그날은 인간의 악의도 겪었어.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>99</BIN><SE1>AVG_Explosion</SE1>:슈우웅!!
+M1895(0)<Speaker>나강</Speaker>||:<size=50>후퇴! 후퇴하게! 미사일이——아앗!!</size>
+()<Speaker></Speaker>||<SE1>AVG_Explo_Close</SE1><CGDelay>0.7</CGDelay><震屏3>:콰앙!!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>99</BIN>:토카레프의 목소리가 끝없이 펼쳐진 전장을 울려 퍼졌다.
+NPC_TT33(3)<Speaker>토카레프</Speaker>||:MP443! C14! 어디 있나요!?
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:통신 속 리엔필드의 목소리는 포격음과 날카로운 바람 소리에 휘말려 갈기갈기 찢겨서 들렸다.
+MLEMK1(0)<Speaker>리엔필드</Speaker><通讯框>||:<color=#00CCFF>시간이 없다! 토카레프! 즉시 17번 방어선으로 후퇴해! 놈들이 이미 코 앞까지 왔다!</color>
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:안 돼요! 아직... 아직 동료가...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><CGDelay>0.4</CGDelay><SE1>AVG_Explosion</SE1><CGDelay>0.7</CGDelay>:슈우우.... 콰앙!!
+()||<黑屏1>:
+()<Speaker>토카레프</Speaker>||<黑屏2><BIN>99</BIN><CGDelay>0.4</CGDelay>:팔디스키 잠수함 기지... 그야말로 "당랑거철"이라는 말이 무엇인지 몸으로 배우는 것 같았다...+우리는 마치 폐품처럼 황량한 전장에서 짓밟히고 갈려나갔고, 슬프게도 나는 내가 어떻게 파괴됐는지도 기억나지 않는다.+전장에서 내 잔해를 되찾아줄 사람조차 없었으니까...
+()||<黑屏1>:
+()||<黑点2><BIN>15</BIN>:전력 차단 지점.+ 토카레프는 떨리는 손으로 끊어진 전력 공급선을 수리했다.+저 뒤에선 적의 발소리가 점점 더 가까워졌고, 당장에라도 저 모퉁이를 돌아 놈들이 튀어나올 것만 같았다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||<SE1>AVG_tele_connect</SE1>:PPK, 저 거의 다 됐어요!
+NPC_TT33(1);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>얼마나 더 걸려?</color>
+NPC_TT33(1)<Speaker>토카레프</Speaker>;PPK(0)<通讯框>||:37초요!
+NPC_TT33(1);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>더 서둘러.</color>
+NPC_TT33(1)<Speaker>토카레프</Speaker>;PPK(0)<通讯框>||:지금 이게 최대한 빨리하는 거예요!+...PPK? 목소리가 좀 이상하게 들리는데요?
+NPC_TT33(1);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>허스키하게 들려, 아님 섹시하게 들려?</color>
+NPC_TT33(2)<Speaker>토카레프</Speaker>;PPK(0)<通讯框>||:......+농담하지 말고, 정말 괜찮은 거 맞아요? 왠지 리베롤과 그라치의 목소리도 못 들은 지 꽤 된 거 같은데...
+NPC_TT33(2);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>토카레프는 나랑 얘기하기 싫어?</color>
+NPC_TT33(0)<Speaker>토카레프</Speaker>;PPK(0)<通讯框>||:아니, 그런 게 아니라요! PPK랑 계속 얘기할 수 있어서, 얼마나 다행인데요...
+NPC_TT33(0)<Speaker>토카레프</Speaker>;PPK(0)<通讯框>||:아니었으면, 저... 진작에 무너졌을 거예요...
+NPC_TT33(0);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>미안해.</color>
+NPC_TT33(2)<Speaker>토카레프</Speaker>;PPK(0)<通讯框>||:네?
+NPC_TT33(2);PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>어울려 주는 건 여기까지.</color>
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:PPK? 왜 그래요?
+()||<SE1>AVG_Shield_Startup</SE1>:전원 공급선의 수리가 끝나, 전력이 복구됐다.
+PPK(0)<Speaker>PPK</Speaker><通讯框>||:<color=#00CCFF>토카레프, 뛰어. 뒤돌아보지 말고 뛰어.</color>
+NPC_TT33(0)<Speaker>토카레프</Speaker>||:PPK?!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>15</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>토카레프</Speaker>||:"순순히 저 어두운 밤을 받아들이지 말라."+“스러져 가는 이여, 저무는 날에 맞서 소리치고 격노하라.”+“격노하라.”+“꺼저 가는 빛을 향해 격노하라!!!”
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><CGDelay>0.7</CGDelay><BIN>9</BIN><CGDelay>0.5</CGDelay>:
+()<Speaker>토카레프</Speaker>||:그곳은 우리가 "집"이라 불렀던 곳...+짧지만 따뜻했던 날들...+그날, 불꽃과 포격에 집어삼켜졌다..+우리는 함께, 그날 우리의 "집"이 어떻게 잿더미가 되는지를 지켜봤다...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:
+()<Speaker>통신</Speaker>||<SE1>AVG_whitenoise</SE1><SE1>AVG_tele_connect</SE1>:<color=#00CCFF>토카레프 팀! 토카레프 팀!</color>+<color=#00CCFF>제2방어선이 군에게 돌파당했다! 즉시 제3방어선으로 후퇴하라!</color>+<color=#00CCFF>토카레프 팀! 토카레프 팀! 들리면 응답하라!</color>
+()<Speaker>토카레프</Speaker>||<BGM>BGM_Truth</BGM>:...으윽...!
+()<Speaker></Speaker>||:토카레프가 눈을 뜨자, 커다란 콘크리트 벽이 자기를 짓누르고 있었다.
+()<Speaker></Speaker>||:감각이 서서히 돌아오자, 포격이 남긴 거센 열풍이 토카레프의 온몸을 불편하게 만들었다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:지금 그녀는 움직일 수 없었다. 무너진 벽을 억지로 들어올리려 했지만, 평소라면 가볍게 들어올릴 무게조차 힘이 나지 않았다.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:달그락...
+()<Speaker></Speaker>||:달그락...
+()<Speaker></Speaker>||:누군가 다가오는 소리가 들리자, 토카레프는 곧바로 숨을 죽였다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:곧이어 누군가가 자신을 짓누르고 있던 벽을 들어올리는 느낌이 들었고, 토카레프는 자신의 총을 꽉 움켜쥐었다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>159</BIN><CGDelay>0.3</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><震屏3><BGM>BGM_Empty</BGM>:쿵!
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:벽이 치워지는 그 순간, 토카레프는 곧바로 땅을 짚으면서 일어나 비틀거리는 자세로 총구를 눈앞의 형체에 겨눴다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0%%range=4</controll_shake><SE1>AVG_XXS_kick</SE1>:하지만, 그 작고 작은 실루엣은 토카레프의 품에 와락 뛰어들었다.
+hk23(0)<Speaker>HK23</Speaker>||<BGM>BGM_ev2412_tranquility</BGM>:<size=50>토카레프...!</size>+다, 다행이에요... 무사하셔서... 정말 다행이에요... 엉엉...
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:HK...23...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE1>Battlefield</SE1><BIN>99</BIN><CGDelay>0.5</CGDelay>:
+hk23(0)<Speaker>HK23</Speaker>||:앞, 앞으로 2km만 가면 제3방어선이에요...!+거기엔 우리 동료들이 있어요, 아직 그들의 신호가 잡혀요...!
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:......
+()<Speaker></Speaker>||:토카레프의 의식은 아득한 환각과 지나간 과거 사이를 헤맸다.
+()<Speaker></Speaker>||:의료 인형들이 바삐 달리는 모습이 눈앞을 스쳐 지나갔다. 들것 위엔 처참하게 부서진 넝마꼴이 된 전우가 누워 있었고, 수복액은 바닥에 길게 자국을 남겼다.
+()<Speaker></Speaker>||:귓가엔 다시 잠수함 기지가 폭발하던 굉음이 울리는 것 같았다. 인형들은 충격파에 떠밀려 어두운 물속으로 빨려 들어갔고, 압력에 몸이 뒤틀리고 부서졌다.
+()<Speaker></Speaker>||:코끝을 스친 건 다시 그리폰 기지가 불탈 때의 타는 냄새였고, 전우들은 폐허 속에서 실종된 동료의 이름을 애타게 불렀다.
+()<Speaker></Speaker>||:토카레프는 앞을 바라봤다. 시야에 들어오는 곳은 이미 온통 잿더미였다.+그 잿더미 위엔 누구의 것인지 모를 부서진 소체들이 잔뜩 흩어져 있었고, 끊어진 팔다리에선 여전히 스파크가 튀고 있었다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:......+이게 정규군의 실력?
+hk23(0)<Speaker>HK23</Speaker>;NPC_TT33(2)||:...그 사람들... 그 사람들 너무해요!+군사 연습을 가장해서 우리한테 이런 짓을...!+지휘관님은... 지휘관님은 지금 무사하실지... 으으...
+hk23(0);NPC_TT33(1)<Speaker>토카레프</Speaker>||:...아니에요, HK23... 지휘관님을 믿어요...
+hk23(0)<Speaker>HK23</Speaker>||:네... 그 말이 맞아요!
+()<Speaker></Speaker>||:토카레프를 보면서 HK23은 억지로라도 미소를 짜냈다.
+hk23(0)<Speaker>HK23</Speaker>||:아, 우리 동료가 앞에 있는 저 폐허에서 버티고 있대요. 방금 그쪽에서 암호화된 통신을 받았어요.+일단 저기로 가서 합류하죠!
+()<Speaker></Speaker>||:신호가 가리키는 방향을 따라서, 둘은 아직 무너지지 않은 폐허 안에 들어갔다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>802</BIN>:원래도 하늘은 먹구름으로 뒤덮여 있었고, 폐허 안으로 들어오자 빛이 거의 들지 않아 내부가 잘 보이지 않았다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:......+HK23, 여기에 있는 거 맞아요?
+hk23(0)<Speaker>HK23</Speaker>||:여기 있을 텐데... 아, 아니면 설마...
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1><BGM>BGM_Empty</BGM>:틱.
+()<Speaker></Speaker>||:HK23의 말이 채 끝나기도 전에, 두 사람의 발밑에서 가벼운 금속음이 들렸다. 이렇게 어둡고 비좁은 공간에서 그 소리가 의미하는 바를, 그녀들은 바로 알아차렸다.
+()<Speaker></Speaker>||<SE1>Explode</SE1><BGM>11335</BGM><震屏3>:퍼엉!!
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:도약지뢰가 솟구쳐 오르자마자, 토카레프와 HK23은 재빨리 몸을 숙여 엎드렸다.
+()<Speaker></Speaker>||:폭발로 튀어나온 쇠구슬들이 주변 콘크리트를 꿰뚫었고, 그중 일부는 두 인형에게도 명중했다.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake><SE2>Gunfight</SE2>:하지만 두 사람은 부상을 확인할 틈도 없었다. 지뢰가 터진 직후, 매복해 있던 군 보병들이 곧바로 공격을 시작했다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:...제기랄!
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:토카레프는 곧바로 총을 뽑아 들고, 달려드는 적을 향해 방아쇠를 당겼다.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1><CGDelay>0.1</CGDelay>:
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_button</SE1>:철컥!
+()<Speaker></Speaker>||:치열한 전투를 겪고 온 탓에, 토카레프의 총에는 탄환이 단 두 발만 남아 있었다.
+()<Speaker></Speaker>||:그리고 불행하게도 발사한 두 발 모두 적 허리춤의 방탄복에 맞았다.
+()<Speaker></Speaker>||<SE1>Select</SE1>:충격에 잠시 주춤한 적은 한 걸음 물러섰다가, 곧바로 소총을 들어 토카레프를 겨눴다.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_Gatling_gun</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake>:타타탕!
+()<Speaker></Speaker>||:총성이 울린 뒤, 육탄전을 벌이려던 토카레프는 상대가 실이 끊긴 꼭두각시처럼 쓰러지는 모습을 봤다.
+()<Speaker></Speaker>||:옆쪽 구석에서 HK23이 포복한 채, 초연이 피어오르는 총을 손에 쥐고 있었다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:HK23...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=4</controll_shake><SE1>AVG_Gunfire</SE1>:타타타타탕!!
+()<Speaker></Speaker>||:말을 주고받을 틈도 없이, 폐허 주위에서 요란하게 총성이 울렸다.
+()<Speaker></Speaker>||:대인형용 특수 탄두가 콘크리트를 꿰뚫고 들어와 토카레프와 HK23 주위에 회색 흙먼지를 일으켰다. 매서운 화력에 HK23도 제대로 반격할 수 없었다.
+()<Speaker></Speaker>||<SE1>AVG_Rocket_Gun_Truck</SE1>:더욱 절망적인 건, 폐허 바깥에서 하나의 거대한 열원이 점점 가까워지고 있다는 사실이었다.
+()<Speaker></Speaker>||:바로 군의 탱크였다.
+hk23(0)<Speaker>HK23</Speaker>||:으윽... 이대로는 버티지 못할 거예요. 토카레프, 얼른 가요! 제가 시간을 벌테니까요!
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:네...? 안 돼요! 제가 남을게요!
+hk23(0)<Speaker>HK23</Speaker>||:무리하지 마요! 지금은 총알도 없잖아요, 이대로 가면 우리 둘 다...!
+()<Speaker></Speaker>||<SE1>AVG_Robots_Bomb</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM>:콰아앙!!
+()<Speaker></Speaker>||:탱크의 포격에 둘이 숨어 있던 폐허는 순식간에 박살이 났다.
+()<Speaker></Speaker>||<SE1>AVG_whitenoise</SE1><SE1>AVG_tinnitus_0</SE1>:폭발의 섬광에 토카레프는일시적으로 감각을 잃었다. 혼란스러운 소음 속에서, 그녀는 그저 HK23이 자신을 끌고 앞으로 나아가고 있다는 것만 느낄 수 있었다.
+()<Speaker>토카레프</Speaker>||<CGDelay>0.5</CGDelay>:...콜록... HK23...!
+()<Speaker>HK23</Speaker>||<CGDelay>0.7</CGDelay>:...빨리 가요...
+()<Speaker>HK23</Speaker>||:가서... 지휘관님을 지켜요...!
+()<Speaker></Speaker>||:난잡한 노이즈 속에서 토카레프는 희미하게 그 한마디를 들었다. 그리고 곧이어 탱크의 포성이 다시 울리며 두 번째 포탄이 날아들었다.
+()<Speaker></Speaker>||<SE1>AVG_Robots_Bomb</SE1><CGDelay>2</CGDelay>:콰아앙!!
+()<Speaker>？？？</Speaker>||<BGM>BGM_AuguriesofInnocence</BGM><CGDelay>0.4</CGDelay>:...토카레프.
+()<Speaker>？？？</Speaker>||:...토카레프.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<睁眼><BIN>468</BIN><CGDelay>0.4</CGDelay>:
+TT33(1)<Speaker>토카레프</Speaker><Shake>||<SE1>AVG_Cloak_Whoosh</SE1>:<size=50>HK23!!!</size>
+()<Speaker></Speaker>||:토카레프는 벌떡 일어섰지만, 눈앞에 보이는 흐릿한 형체는 HK23에 비해 훤칠했다.
+M4A1Mod(4)<Speaker>？？？</Speaker>||:......
+TT33(1)<Speaker>토카레프</Speaker>||:...M...4...?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M4A1은 대답하지 않고, 토카레프에게 다가와 어떤 물건을 그녀의 손에 쥐여주었다.
+()<Speaker></Speaker>||:그것은 절반이 불에 타버린, 풀로 엮은 작은 토끼였다.
+TT33(1)<Speaker>토카레프</Speaker>||:......
+TT33(1)<Speaker>토카레프</Speaker>||:...이 모든 게... 마치 악몽을 꾼 것 같아요...
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:...만약, 이게 정말 꿈이라면요...?
+TT33(1)<Speaker>토카레프</Speaker>||:네!?
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:토카레프...
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.4</CGDelay>:
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:...지휘관님을 위해 싸운 걸 후회하나요?+지휘관님을 따라 이런 고통을 겪은 걸, 후회하나요?
+M4A1Mod(4)<Speaker>M4A1</Speaker>||:지휘관을...
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker>M4A1</Speaker>||<CGDelay>0.4</CGDelay>:...원망한 적 있나요?
 ()||<黑点1>:

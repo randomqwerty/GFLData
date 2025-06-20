@@ -1,75 +1,75 @@
-()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>BGM_ev2412_tranquility</BGM><黑屏2><BIN>468</BIN>:白区 警戒区外围
-()<Speaker></Speaker>||:托卡列夫和格琳娜蹲在一处断壁残垣后，仔细观察着前方的戒严现场。
-()<Speaker></Speaker>||:整个区域被临时围栏和警戒线严密封锁，每隔三十米就有一名全副武装的士兵站岗。+几辆军用车辆停在外围，士兵们三三两两地聚在一起，偶尔交谈，却没有深入现场内部的意思。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:守卫的部署很松散，他们似乎只负责阻止平民靠近，并不在意现场内部。+这很不寻常……按理说，这么重大的事件，现场应该有专业调查人员。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:也许……他们已经调查完了？+或者说……根本不想调查？
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:托卡列夫的电子眼在警戒区域快速扫描，记录下每个守卫的位置和巡逻路线。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:西侧有一段围栏靠近工地，视线被建筑材料遮挡。+东侧有两名士兵，但他们每十五分钟会交替离开岗位。+我们可以利用这个空档潜入。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜点点头，但托卡列夫注意到她的面色苍白，手指微微颤抖。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳娜小姐，您的状态……
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我没事。+我们得抓紧时间。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:这是战场，格琳娜小姐。+请遵循我的指示行动，步伐放轻，保持低姿态。+如有危险，立即趴下。
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.3</CGDelay>:
-()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>852</BIN>:成功绕过守卫后，托卡列夫和格琳娜终于进入了爆炸现场核心区域。+眼前的景象令两人震惊——
-()<Speaker></Speaker>||:这里完全是一片废墟。
-()<Speaker></Speaker>||:曾经光鲜亮丽的白区建筑如今只剩断壁残垣，地面被炸出巨大的坑洞，周围的建筑物要么倒塌，要么被烧得焦黑。
-()<Speaker></Speaker>||:爆炸的中心区域，一辆军用坦克的残骸扭曲变形地横在那里，炮塔已经被炸飞，装甲板撕裂开来，黑色的焦痕从内部蔓延到外部。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:这……这不可能是普通爆炸造成的……+范围太大了……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:可能是坦克弹药库殉爆。+但即使如此，破坏程度也超出了常规范围。
-()<Speaker></Speaker>||:格琳娜深吸一口气，努力稳住自己的身体。+托卡列夫注意到她的步伐不稳，但格琳娜依然咬着牙，一步步向着坦克残骸走去。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我们分头调查吧。+我去检查周围，你看看坦克内部。+有什么发现立刻通知我。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳娜小姐，现场可能有危险……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜摇摇头，眼神坚定。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:时间不多。+别担心我，我知道怎么保护自己。
-()<Speaker></Speaker>||:托卡列夫犹豫了一下，最终点头同意。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:托卡列夫小心地靠近坦克残骸，迅速分析着结构损伤。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:坦克的装甲被某种强大的力量从内部撕裂，但并非单纯的爆炸痕迹。+有些破损处显示出被高能武器切割的特征，像是两种不同性质的破坏混合在一起。
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>ClothingUp</SE1>:托卡列夫爬入坦克内部，狭窄的空间被炸得面目全非。
-()<Speaker></Speaker>||:就在驾驶座附近，她发现了一些闪亮的碎片——人形的结构部件。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:托卡列夫拾起一块，仔细检查。这些碎片表面有精细的电路和特殊金属结构，明显属于高级战术人形。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:<color=#A9A9A9>这就是新闻里提到的“丹德莱”的残骸？……但是格琳娜小姐说，丹德莱的素体很特殊。</color>+<color=#A9A9A9>这里的碎片……虽然很高级，但并没有什么特别之处啊……</color>
-()<Speaker></Speaker>||:但更让托卡列夫感到疑惑的是，这些碎片被随意地遗留在现场，没有被收集带走。
-()<Speaker></Speaker>||:按照军方对战术人形的严格管控，任何人形残骸都应该被彻底回收，尤其是涉及“恐怖袭击”的证物。+……简直就像是，故意留下来给人看的一样。
-()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1><SE1>AVG_Creep</SE1>:她继续搜索，很快在坦克内壁和座椅上发现了大量干涸的血迹。+血迹喷溅的模式表明，伤者至少失血超过两升——足以致命，除非立即得到救治。+但同样奇怪的是，没有任何人体组织残留。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:为什么没有清理现场？为什么没有人体组织，却留下了血迹和人形碎片？
-()<Speaker></Speaker>||:疑问堆砌在托卡列夫的心头，但她一时之间并找不到答案。+她仔细记录下所有发现，准备离开坦克残骸向格琳娜汇报。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:就在这时，托卡列夫的通讯器响起格琳娜微弱的声音。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position><通讯框>||:托卡列夫……快来这边……
-()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>852</BIN><SE1>ClothingUp</SE1>:托卡列夫迅速爬出坦克，循着信号找到了格琳娜。+格琳娜站在距离坦克约五十米的一处残垣前，一动不动。
-()<Speaker></Speaker>||:她的身体微微发抖，目光直直地盯着墙壁。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳小姐？发现什么了？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.4</CGDelay>:格琳娜没有回答，只是颤抖着抬起手，指向面前的残垣。+托卡列夫顺着她的手指望去——在那面焦黑的墙壁上，挂着一件被撕裂的外套。+那是格里芬的制服外套，袖口和领口都已经破损，布料上沾满了血迹和灰尘。但即使在这种状态下，托卡列夫依然认出了这件外套的主人。
-()<Speaker></Speaker>||:指挥官的外套。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:……
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:格琳娜的呼吸变得急促，她踉踉跄跄地向前走了几步，伸出颤抖的手，轻轻碰触那件制服。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<SE1>ClothingUp</SE1>:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她小心翼翼地将外套从墙上取下，捧在手中。制服外套的前襟几乎被血液浸透，干涸后变成了暗褐色。+袖口处有明显的灼烧痕迹，一侧衣襟被某种尖锐物体撕裂。
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||:这是……这是指挥官的……
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:格琳娜小姐，这只是——
-()||<CGDelay>1</CGDelay><BIN>9</BIN><SE1>AVG_XXS_kick</SE1><黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BGM>BGM_Wake2</BGM><BIN>850</BIN>:格琳娜突然跪倒在地，紧紧抱着那件制服，身体剧烈地颤抖着。
-()<Speaker></Speaker>||:她的眼泪无声地滑落，喉咙里发出痛苦的呜咽。
-()<Speaker>格琳娜</Speaker>||:不……不……指挥官……+你答应过的……你答应过会回来的……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫蹲下身，想要安慰格琳娜，却不知该如何开口。+人形的安慰在这种情况下显得苍白无力。+她只能静静地守在格琳娜身旁，看着这个坚强的女孩终于在压力和悲痛面前崩溃。
-()<Speaker>格琳娜</Speaker>||<CGDelay>0.3</CGDelay>:我们一起走过了那么多……那么多……为什么，为什么唯独这次……
-()<Speaker>格琳娜</Speaker>||<CGDelay>0.3</CGDelay>:你明明答应过……再也不跟我开这种恶劣的玩笑了的……
-()<Speaker>格琳娜</Speaker>||<CGDelay>0.4</CGDelay>:为什么……为什么要留下这个……+是想告诉我指挥官真的……
-()<Speaker></Speaker>||:她的声音越来越弱，眼神渐渐失去焦点。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫立刻意识到不对，迅速扶住格琳娜摇摇欲坠的身体。
-()||<黑点1>:
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||<黑屏2><BIN>852</BIN>:格琳娜小姐！
-()<Speaker></Speaker>||:格琳娜的眼皮沉重地垂下，嘴唇颤抖着想要说什么，却最终一句话也没说出口。
-()<Speaker></Speaker>||:她的身体突然软了下来，彻底失去了意识，只有手指依然紧紧攥住那件血迹斑斑的制服外套。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:托卡列夫迅速检查格琳娜的生命体征——脉搏虚弱但稳定，呼吸略显急促，面色苍白。+初步判断是身体过度疲劳加上精神刺激导致的暂时性休克。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫小心地抱起格琳娜，目光再次扫过这片满目疮痍的废墟。+远处，戒严区外的士兵似乎察觉到了什么，开始向这边移动。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……坚持住，格琳娜小姐。+我带你离开这里……
-()<Speaker></Speaker>||:格琳娜的手中仍紧握着那件制服。
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_Cloak_Whoosh</SE1>:她怀抱着昏迷的格琳娜，悄无声息地消失在废墟的阴影中。
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BGM>BGM_ev2412_tranquility</BGM><黑屏2><BIN>468</BIN>:화이트존, 차단 구역 바깥.
+()<Speaker></Speaker>||:카리나와 토카레프는 무너진 담벼락 뒤에 쪼그려 앉아, 저 앞을 관찰했다.
+()<Speaker></Speaker>||:구역은 전체가 임시 난간과 차단선으로 단단히 봉쇄된 상태에, 30m마다 완전무장한 병사가 보초를 서고 있었다.+차단 구역 바로 바깥에 군용 차량 몇 대가 주차된 위치에서 두세 명씩 모여 수다를 떠는 병사들도 보였는데, 현장으로 들어갈 생각은 없는 듯했다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:경비 배치가 엄청 허술하네요... 아무래도 일반인의 접근만 막고, 현장 내부는 딱히 신경쓰지 않는 것 같아요.+이상해요, 이렇게 중대한 사건은 보통 현장에 전문 조사팀이 있어야 하는데.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:벌써 조사가 다 끝난 건 아닐까?+아니면... 아예 조사할 생각이 없거나.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:경계 구역을 빠르게 훑어보며, 토카레프는 경계 인원들의 위치와 순찰 경로를 파악했다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:서쪽의 공사장 가까이에 난간이 있어요. 시야가 건축재로 가려져요.+동쪽에 병사 2명이 있는데, 15분마다 인수인계를 위해 자리를 벗어나네요.+그 틈을 노려서 잠입할 수 있겠어요.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:카리나가 고개를 끄덕였다. 그런데, 토카레프가 문득 돌아본 그녀는 안색이 창백하고 손끝도 덜덜 떨렸다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨...?
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:난... 괜찮아.+얼른 움직이자.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:카리나 씨, 여긴 전장이에요. 그러니 제 지시를 따라 움직여 주세요.+항시 저자세를 유지하고, 발걸음은 가볍게 해야 해요.+조금이라도 위험해지면 바로 엎드리세요.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.3</CGDelay>:
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>852</BIN>:차단선을 넘는 데 성공한 토카레프와 카리나는 폭발이 일어났던 현장으로 들어섰다.+그리고 눈앞에 펼쳐진 광경에 경악을 금치 못했다.
+()<Speaker></Speaker>||:시야가 닿는 모든 곳이 말 그대로 쑥대밭이었다.
+()<Speaker></Speaker>||:본디 화이트존의 다른 건물들처럼 말끔했을 구조물은 통째로 날아간 듯 무너진 담벼락과 엄청난 존재감을 과시하는 거대한 크레이터만 남았고, 이를 중심으로 주변의 건물들은 하나같이 무너졌거나 새까맣게 그슬린 상태였다.
+()<Speaker></Speaker>||:크레이터의 중심, 폭심지에는 뒤틀린 모양새의 군용 전차 잔해가 널브러져 있었다. 포신은 폭발로 날아갔는지 없었고, 찢어진 장갑판은 그을음이 안에서 밖으로 퍼져 있었다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||:이건... 일반적인 폭발로 인한 형태가 아니야...+범위가 너무 커...
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:탱크의 탄약고가 유폭됐을 수도 있지만...+그걸 감안하더라도 확실히 상식을 넘어선 파괴력이네요.
+()<Speaker></Speaker>||:카리나가 균형을 잃지 않으려고 한껏 숨을 들이마셨다.+토카레프도 카리나의 발걸음이 휘청이는 것을 눈치챘지만, 그녀는 이를 악물고 한 걸음씩 전차의 잔해가 있는 곳으로 걸어갔다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:...흩어져서 조사하자.+나는 이 주변을 살펴볼 테니까, 너는 전차의 내부를 조사해 줘.+뭔가 발견하면 바로 알려 주고.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨, 현장은 위험할 수도 있어요...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:카리나는 단호한 눈빛으로 고개를 저었다.
+NPC_Kalina_OL(0)<Speaker>카리나</Speaker><Position>0,-90</Position>||:시간이 없잖아.+내 걱정은 마, 나도 내 몸 하나 정도는 지킬 줄 아니까.
+()<Speaker></Speaker>||:토카레프는 잠시 망설이다 결국 고개를 끄덕였다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:......
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1>:전차의 잔해에 조심스레 접근한 토카레프가 손상된 구조를 빠르게 분석했다.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:전차의 장갑은 어떤 강력한 힘으로 인해 내부에서부터 찢어진 것이 분명하지만, 단순한 폭발의 흔적이 아니었다.+일부 파손 부위에서 고에너지 무기로 인한 절삭과 같은 특징이 보였다. 마치, 두 가지 전혀 다른성질의 파괴가 뒤섞인 듯했다.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN><SE1>ClothingUp</SE1>:전차 잔해의 내부로 들어가 보니, 비좁은 공간은 원래의 면모도 알아볼 수 없을 정도로 망가진 상태였다.
+()<Speaker></Speaker>||:운전석이었던 곳에서 무언가가 반짝였다. 인형 소체의 부품이었다.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:토카레프는 그 조각들 중 하나를 집어 자세히 살펴봤다. 세밀한 회로와 특수한 금속 구조가 드러나 있는 것으로 보아, 고급 전술인형의 것이 틀림없었다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:<color=#A9A9A9>이것이 뉴스에서 언급된 "댄들라이"의 잔해일까? 하지만, 카리나 씨가 댄들라이의 소체는 매우 특이하다고 했어...</color>+<color=#A9A9A9>이 잔해가 고급품이긴 해도, 특이한 점은 없는데...</color>
+()<Speaker></Speaker>||:그보다 의심스러운 점은, 이것이 회수되지 않고 현장에 아무렇게나 버려져 있다는 것이었다.
+()<Speaker></Speaker>||:군이 전술인형을 엄격히 관리한다는 것을 생각하면, 인형의 잔해는 한 조각도 빠짐 없이 회수되어야 정상이다. 특히나 이런 "테러 사건"의 증거물이라면 더더욱.+그런데, 이건 마치... 일부러 보여 주려고 남겨 둔 것만 같았다.
+()<Speaker></Speaker>||<SE1>AVG_Spanner</SE1><SE1>AVG_Creep</SE1>:조사를 계속하는 토카레프의 눈에 곧바로 내벽과 좌석에서 말라버린 혈흔이 들어왔다.+흩뿌려진 형태로 보건대, 부상자는 여기서 최소 2L의 혈액을 잃었다. 즉시 응급 처치를 받지 않는 한 치명적이다.+이번에도 이상한 점은, 혈흔은 있지만 다른 생체 조직이 전혀 보이지 않는다는 것.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:왜 현장을 청소하지 않았지? 왜 인형 소체의 파편도, 혈흔도 있는데 살점 같은 건 없지?
+()<Speaker></Speaker>||:점점 더 많은 의문이 토카레프의 머리에 쌓였지만, 당장으로선 해답이 보이지 않았다.+우선 발견한 모든 사항을 상세히 기록으로 남긴 후, 잔해에서 나와 카리나에게 보고하려 했다. 
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:그런데 바로 그때, 통신기에서 카리나의 미약한 목소리가 들렸다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position><通讯框>||:토카레프...... 이리 와 봐...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>852</BIN><SE1>ClothingUp</SE1>:심상찮은 예감에 황급히 전차 잔해 밖으로 나온 토카레프는 곧장 카리나를 찾았다.+그녀는 잔해에서 약 50m 떨어진 담벼락 앞에서 몸이 굳어 있었다.
+()<Speaker></Speaker>||:몸을 부들부들 떨면서, 저 벽에서 시선을 떼질 못하면서.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨? 뭔가 찾으셨나요?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><CGDelay>0.4</CGDelay>:카리나는 대답 대신 떨리는 손을 들어, 저 담벼락을 가리켰다.+그 검게 그슬린 담벼락에는 넝마짝인 외투가 걸려 있었다.+소매도 옷깃도 찢어지고 옷감은 핏자국과 먼지투성이였지만, 그럼에도 토카레프는 저것이 누구의 그리폰 제식 외투인지 단번에 알아봤다.
+()<Speaker></Speaker>||:지휘관의 외투였다.
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:......
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:카리나가 점점 가빠지는 숨으로 휘청이며 다가가, 떨리는 손으로 그걸 살짝 건드렸다.
+NPC_Kalina_OL(2)<Speaker>카리나</Speaker><Position>0,-90</Position>||<SE1>ClothingUp</SE1>:......
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:그리고 조심스레 벽에서 떼어내, 손으로 받쳐들었다.+외투의 앞섬은 흥건하게 피로 젖었다 말랐는지 갈색으로 굳었고, 소매는 탄흔이 눈에 띄었고, 한쪽 옷자락은 예리한 무언가로 찢어져 있었다.
+NPC_Kalina_OL(1)<Speaker>카리나</Speaker><Position>0,-90</Position><Shake>||:이... 이건, 지휘관님의...
+NPC_TT33(2)<Speaker>토카레프</Speaker>||:카리나 씨, 이건 그냥——
+()||<CGDelay>1</CGDelay><BIN>9</BIN><SE1>AVG_XXS_kick</SE1><黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_Wake2</BGM><BIN>850</BIN>:카리나는 그대로 털썩 주저앉고, 넝마짝을 껴안은 채 몸을 떨었다.
+()<Speaker></Speaker>||:소리 없이 눈물부터 흘러내리고, 그 다음 목에서 괴로운 울먹임이 기어나왔다.
+()<Speaker>카리나</Speaker>||:안 돼.. 안 돼요, 지휘관님...+약속하셨잖아요... 돌아오실 거라고, 약속하셨잖아요...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:몸을 숙여 카리나를 다독이고 싶었지만, 토카레프는 무슨 말을 해야 할지 생각나질 않았다.+이와 같은 상황에서 인형의 위로는 아무런 소용이 없다.+그저 조용히, 곁에 서서, 언제나 당차고 굳세던 소녀가 비통함과 압박감에 무너지는 광경을 지켜볼 수밖에 없었다.
+()<Speaker>카리나</Speaker>||<CGDelay>0.3</CGDelay>:그렇게... 그렇게 많은 일도, 함께 이겨냈는데... 왜... 왜 하필 이번엔...
+()<Speaker>카리나</Speaker>||<CGDelay>0.3</CGDelay>:약속하셨잖아요... 다시는 나쁜 장난 안 한다고...
+()<Speaker>카리나</Speaker>||<CGDelay>0.4</CGDelay>:그런데, 왜... 왜 이것만 남겼어요...?+진짜... 지휘관님이 진짜 죽었다고 알려 주려고요...?
+()<Speaker></Speaker>||:목소리가 점점 허약해지고, 눈에서 초점이 사라졌다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:상태가 심상찮음을 알아챈 토카레프가 휘청이는 카리나의 몸을 황급히 부축했다.
+()||<黑点1>:
+NPC_TT33(2)<Speaker>토카레프</Speaker>||<黑屏2><BIN>852</BIN>:카리나 씨!
+()<Speaker></Speaker>||:눈꺼풀이 감긴 카리나의 입술이 떨리며 무언가 말을 하려는 듯했지만, 결국 아무런 소리조차 내지 못했다.
+()<Speaker></Speaker>||:카리나는 피범벅인 외투를 끌어안은 채, 그대로 의식을 잃고 축 늘어졌다.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:토카레프가 즉시 진찰한 결과 맥박은 규칙적이지만 약하고, 호흡도 다소 가쁘고, 안색이 창백해졌다.+과도한 피로와 정신적으로 큰 충격이 겹쳐 일어난 쇼크 증상으로 파악됐다.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:토카레프는 기절한 카리나를 조심조심 안아들고, 폐허를 다시 한 번 훑어봤다.+멀리서 경계를 서던 병사 한 명이 기척을 느꼈는지 이쪽으로 오는 것이 보였다.
+NPC_TT33(1)<Speaker>토카레프</Speaker>||:...버티세요, 카리나 씨.+여기서 벗어날게요...
+()<Speaker></Speaker>||:정신을 잃고서도 카리나의 손은 그 외투를 단단히 쥐고 놓지 않았다.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_Cloak_Whoosh</SE1>:토카레프는 그런 카리나를 그대로 안고서, 폐허의 그늘 속으로 소리 없이 모습을 감췄다.
 ()||<黑点1>:

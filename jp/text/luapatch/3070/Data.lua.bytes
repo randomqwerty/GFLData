@@ -1,5 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.Data)
+xlua.private_accessible(CS.GameFunctionSwitch)
 
 local UserExistsSkin = function(package)
 	local choose = false;
@@ -41,5 +42,9 @@ local UserExistsSkin = function(package)
 	end
 end
 
+local Description = function(self)
+	return self:DescriptionOnSelect();
+end
 util.hotfix_ex(CS.Data,'UserExistsSkin',UserExistsSkin)
+util.hotfix_ex(CS.GameFunctionSwitch,'Description',Description)
 
