@@ -102,9 +102,53 @@ function Split(szFullString, szSeparator)
 	return nSplitArray
 end
 
+local canPlay = false;
+
+local CheckCanvasMode = function(self)
+	if not canPlay then
+		return;
+	end
+	local canvas = self.transform:GetComponent(typeof(CS.UnityEngine.Canvas));
+	canvas.renderMode = CS.UnityEngine.RenderMode.ScreenSpaceCamera;
+	self:CheckCanvasMode();
+end
+
+local LoadBackgroundVideo = function(self)
+	canPlay = true;
+	self:LoadBackgroundVideo();
+	CS.CommonController.Invoke(function()
+			self:CheckCanvasMode();
+		end,0.1,self);
+end
+
+local LoadFirstVideo = function(self)
+	canPlay = false;
+	self:LoadFirstVideo();
+end
+local RequestSetDrawEvent = function(self,data)
+	self:RequestSetDrawEvent(data);	
+	CS.CommonController.Invoke(function()
+			self:CheckCanvasMode();
+		end,0.1,self);
+end
+
+local RequestStartMissionHandle = function(self,json)
+	if CS.OPSPanelController.Instance ~= nil and not CS.OPSPanelController.Instance:isNull() then
+		local canvas = CS.OPSPanelController.Instance.transform:GetComponent(typeof(CS.UnityEngine.Canvas));
+		canvas.renderMode = CS.UnityEngine.RenderMode.ScreenSpaceCamera;
+		local glow11 = CS.OPSPanelBackGround.Instance.mainCamera:GetComponent(typeof(CS.Glow11.Glow11));
+		glow11.enabled = false;
+	end
+	self:RequestStartMissionHandle(json);
+end
 util.hotfix_ex(CS.OPSPanelController,'Start',Start)
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'Load',Load)
 util.hotfix_ex(CS.OPSPanelController,'TriggerSelectOPSSpot',TriggerSelectOPSSpot)
 util.hotfix_ex(CS.OPSPanelController,'TriggerSelectOPSMissionBase',TriggerSelectOPSMissionBase)
+util.hotfix_ex(CS.OPSPanelController,'CheckCanvasMode',CheckCanvasMode)
+util.hotfix_ex(CS.OPSPanelController,'LoadBackgroundVideo',LoadBackgroundVideo)
+util.hotfix_ex(CS.OPSPanelController,'LoadFirstVideo',LoadFirstVideo)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.SpecialMissionInfoController,'RequestStartMissionHandle',RequestStartMissionHandle)
 

@@ -455,7 +455,9 @@ patch3060=
 "3060/CommonClothesColorLabelController",
 "3050/DeploymentTeamInfoController",
 "3060/QRCodeGunFormationController",
-"3060/ReinforcementController",	
+"3060/ReinforcementController",
+"3060/ConnectionController",
+"3070/WebCameraManager",
 }
 patch3070=
 {
@@ -486,6 +488,7 @@ patch3070=
 "3070/Data",
 "3070/ExText",
 "3070/ConnectionController",
+"3070/WebCameraManager",
 }
 -- va11
 print("load Va11");

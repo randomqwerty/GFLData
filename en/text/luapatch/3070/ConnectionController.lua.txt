@@ -12,15 +12,20 @@ local EnqueueAndRequest = function(request)
 	CS.ConnectionController.EnqueueAndRequest(request);	
 end
 
-local CheckWWWError = function(self,www,silent,message)
-	local type = self:CheckWWWError(www,silent,message);
-	local index = string.find(www.text,"error:300");
-	if index ~= nil then
-		type = CS.ErrorType.retry;
-	end
-	--CS.NDebug.Log(www.text);
-	return type,message;
+local ReLogin = function()
+	CS.CommonSceneManagerController.instance.needResetBuildScene = false;
+	CS.ConnectionController.ReLogin();
 end
+--local CheckWWWError = function(self,www,silent,message)
+--	local type = self:CheckWWWError(www,silent,message);
+--	local index = string.find(www.text,"error:300");
+--	if index ~= nil then
+--		type = CS.ErrorType.retry;
+--	end
+	--CS.NDebug.Log(www.text);
+--	return type,message;
+--end
 
 util.hotfix_ex(CS.ConnectionController,'EnqueueAndRequest',EnqueueAndRequest)
-util.hotfix_ex(CS.Request,'CheckWWWError',CheckWWWError)
+util.hotfix_ex(CS.ConnectionController,'ReLogin',ReLogin)
+--util.hotfix_ex(CS.Request,'CheckWWWError',CheckWWWError)
