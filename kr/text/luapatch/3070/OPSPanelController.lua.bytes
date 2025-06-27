@@ -38,7 +38,12 @@ local Load = function(self,campaion)
 			if temp[1] == "SpotSelectShow" then
 				local info = {};
 				info[1] = tonumber(temp[2]);
-				info[2] = temp[3];
+				if temp[3] ~= nil then
+					info[2] = tonumber(temp[3]);
+				end
+				if temp[4] ~= nil then
+					info[3] = tonumber(temp[4]);
+				end				
 				table.insert(spotshowinfo,info);
 			end			
 		end
@@ -49,17 +54,23 @@ local TriggerSelectOPSMissionBase = function(self,missionBase)
 	self:TriggerSelectOPSMissionBase(missionBase);
 	for i=1,#spotshowinfo do
 		local index = spotshowinfo[i][1];
-		local path = spotshowinfo[i][2];	
+		local path = spotshowinfo[i][2];
+		local select = 	spotshowinfo[i][3];
+		local active = spotshowinfo[i][4];
 		local trans = self.transform.parent:Find(path);
 		if trans == nil then
 			CS.NDebug.LogError("未找到组件",path);
-		else			
-			if missionBase ~= nil and missionBase.order == index then
-				--CS.NDebug.Log("激活",trans);
-				trans.gameObject:SetActive(true);
-			else
-				--CS.NDebug.Log("隐藏",trans);
-				trans.gameObject:SetActive(false);
+		else		
+			if missionBase == nil then
+				if select == 0 then
+					trans.gameObject:SetActive(active==1);
+				end
+			else			
+				if 	select == 1 then
+					if missionBase.order == index then
+						trans.gameObject:SetActive(active==1);
+					end
+				end
 			end
 		end
 	end
@@ -70,16 +81,22 @@ local TriggerSelectOPSSpot = function(self,oPSPanelSpot)
 	for i=1,#spotshowinfo do
 		local index = spotshowinfo[i][1];
 		local path = spotshowinfo[i][2];
+		local select = 	spotshowinfo[i][3];
+		local active = spotshowinfo[i][4];
 		local trans = self.transform.parent:Find(path);
 		if trans == nil then
 			CS.NDebug.LogError("未找到组件",path);
 		else
-			if oPSPanelSpot ~= nil and oPSPanelSpot.missionHolderOrder == index then
-				--CS.NDebug.Log("激活",trans);
-				trans.gameObject:SetActive(true);
+			if oPSPanelSpot == nil then
+				if select == 0 then
+					trans.gameObject:SetActive(active==1);
+				end
 			else
-				--CS.NDebug.Log("隐藏",trans);
-				trans.gameObject:SetActive(false);
+				if 	select == 1 then
+					if oPSPanelSpot.missionHolderOrder == index then
+						trans.gameObject:SetActive(active==1);
+					end
+				end
 			end
 		end
 	end
@@ -102,9 +119,54 @@ function Split(szFullString, szSeparator)
 	return nSplitArray
 end
 
+local canPlay = false;
+
+local CheckCanvasMode = function(self)
+	if not canPlay then
+		return;
+	end
+	local canvas = self.transform:GetComponent(typeof(CS.UnityEngine.Canvas));
+	canvas.renderMode = CS.UnityEngine.RenderMode.ScreenSpaceCamera;
+	self:CheckCanvasMode();
+end
+
+local LoadBackgroundVideo = function(self)
+	canPlay = true;
+	self:LoadBackgroundVideo();
+	self:CheckCanvasMode();
+	--CS.CommonController.Invoke(function()
+	--		self:CheckCanvasMode();
+	--	end,0.1,self);
+end
+
+local LoadFirstVideo = function(self)
+	canPlay = false;
+	self:LoadFirstVideo();
+end
+local RequestSetDrawEvent = function(self,data)
+	self:RequestSetDrawEvent(data);	
+	CS.CommonController.Invoke(function()
+			self:CheckCanvasMode();
+		end,0.1,self);
+end
+
+local RequestStartMissionHandle = function(self,json)
+	if CS.OPSPanelController.Instance ~= nil and not CS.OPSPanelController.Instance:isNull() then
+		local canvas = CS.OPSPanelController.Instance.transform:GetComponent(typeof(CS.UnityEngine.Canvas));
+		canvas.renderMode = CS.UnityEngine.RenderMode.ScreenSpaceCamera;
+		local glow11 = CS.OPSPanelBackGround.Instance.mainCamera:GetComponent(typeof(CS.Glow11.Glow11));
+		glow11.enabled = false;
+	end
+	self:RequestStartMissionHandle(json);
+end
 util.hotfix_ex(CS.OPSPanelController,'Start',Start)
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'Load',Load)
 util.hotfix_ex(CS.OPSPanelController,'TriggerSelectOPSSpot',TriggerSelectOPSSpot)
 util.hotfix_ex(CS.OPSPanelController,'TriggerSelectOPSMissionBase',TriggerSelectOPSMissionBase)
+util.hotfix_ex(CS.OPSPanelController,'CheckCanvasMode',CheckCanvasMode)
+util.hotfix_ex(CS.OPSPanelController,'LoadBackgroundVideo',LoadBackgroundVideo)
+util.hotfix_ex(CS.OPSPanelController,'LoadFirstVideo',LoadFirstVideo)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.SpecialMissionInfoController,'RequestStartMissionHandle',RequestStartMissionHandle)
 

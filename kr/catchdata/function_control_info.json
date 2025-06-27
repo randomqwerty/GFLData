@@ -48,7 +48,7 @@
       "id": "5",
       "function_name": "enhance",
       "turn_on": "1",
-      "need_level": "0",
+      "need_level": "12",
       "pre_mission": "90004",
       "need_copper_medal": "0",
       "mall_id": "",
@@ -59,7 +59,7 @@
       "id": "6",
       "function_name": "equipCalibration",
       "turn_on": "1",
-      "need_level": "0",
+      "need_level": "12",
       "pre_mission": "90008",
       "need_copper_medal": "0",
       "mall_id": "99002",
@@ -307,6 +307,17 @@
       "mall_id": "0",
       "max_cost_id": "0",
       "description": "自动战斗"
+    },
+    {
+      "id": "32",
+      "function_name": "mission_skip",
+      "turn_on": "1",
+      "need_level": "0",
+      "pre_mission": "11",
+      "need_copper_medal": "0",
+      "mall_id": "0",
+      "max_cost_id": "0",
+      "description": "自动完成主线关卡"
     }
   ]
 }
