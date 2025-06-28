@@ -22,4 +22,10 @@ local CheckCarnivalAndBingoBadge = function(self)
 	return false;
 end
 
+local Start = function(self)
+	self:Start();
+	self.transform:Find("BonuseEffectSingle").localScale = CS.UnityEngine.Vector3.one;
+	self.transform:Find("BonuseEffectTen").localScale = CS.UnityEngine.Vector3.one;
+end
 util.hotfix_ex(CS.HomeController,'CheckCarnivalAndBingoBadge',CheckCarnivalAndBingoBadge)
+util.hotfix_ex(CS.FlightChessLobbyGashaBonusAnimController,'Start',Start)

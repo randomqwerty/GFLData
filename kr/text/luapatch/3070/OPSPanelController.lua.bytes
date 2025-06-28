@@ -38,11 +38,12 @@ local Load = function(self,campaion)
 			if temp[1] == "SpotSelectShow" then
 				local info = {};
 				info[1] = tonumber(temp[2]);
-				if temp[3] ~= nil then
-					info[2] = tonumber(temp[3]);
-				end
+				info[2] = temp[3];
 				if temp[4] ~= nil then
 					info[3] = tonumber(temp[4]);
+				end
+				if temp[5] ~= nil then
+					info[4] = tonumber(temp[5]);
 				end				
 				table.insert(spotshowinfo,info);
 			end			
@@ -57,6 +58,7 @@ local TriggerSelectOPSMissionBase = function(self,missionBase)
 		local path = spotshowinfo[i][2];
 		local select = 	spotshowinfo[i][3];
 		local active = spotshowinfo[i][4];
+		--CS.NDebug.Log(index,path,"/",select,"/",active);
 		local trans = self.transform.parent:Find(path);
 		if trans == nil then
 			CS.NDebug.LogError("未找到组件",path);
@@ -65,7 +67,8 @@ local TriggerSelectOPSMissionBase = function(self,missionBase)
 				if select == 0 then
 					trans.gameObject:SetActive(active==1);
 				end
-			else			
+			else	
+				--CS.NDebug.Log(missionBase.order);		
 				if 	select == 1 then
 					if missionBase.order == index then
 						trans.gameObject:SetActive(active==1);
