@@ -39,6 +39,12 @@ local Load = function(self,campaion)
 				local info = {};
 				info[1] = tonumber(temp[2]);
 				info[2] = temp[3];
+				if temp[4] ~= nil then
+					info[3] = tonumber(temp[4]);
+				end
+				if temp[5] ~= nil then
+					info[4] = tonumber(temp[5]);
+				end				
 				table.insert(spotshowinfo,info);
 			end			
 		end
@@ -49,17 +55,25 @@ local TriggerSelectOPSMissionBase = function(self,missionBase)
 	self:TriggerSelectOPSMissionBase(missionBase);
 	for i=1,#spotshowinfo do
 		local index = spotshowinfo[i][1];
-		local path = spotshowinfo[i][2];	
+		local path = spotshowinfo[i][2];
+		local select = 	spotshowinfo[i][3];
+		local active = spotshowinfo[i][4];
+		--CS.NDebug.Log(index,path,"/",select,"/",active);
 		local trans = self.transform.parent:Find(path);
 		if trans == nil then
 			CS.NDebug.LogError("未找到组件",path);
-		else			
-			if missionBase ~= nil and missionBase.order == index then
-				--CS.NDebug.Log("激活",trans);
-				trans.gameObject:SetActive(true);
-			else
-				--CS.NDebug.Log("隐藏",trans);
-				trans.gameObject:SetActive(false);
+		else		
+			if missionBase == nil then
+				if select == 0 then
+					trans.gameObject:SetActive(active==1);
+				end
+			else	
+				--CS.NDebug.Log(missionBase.order);		
+				if 	select == 1 then
+					if missionBase.order == index then
+						trans.gameObject:SetActive(active==1);
+					end
+				end
 			end
 		end
 	end
@@ -70,16 +84,22 @@ local TriggerSelectOPSSpot = function(self,oPSPanelSpot)
 	for i=1,#spotshowinfo do
 		local index = spotshowinfo[i][1];
 		local path = spotshowinfo[i][2];
+		local select = 	spotshowinfo[i][3];
+		local active = spotshowinfo[i][4];
 		local trans = self.transform.parent:Find(path);
 		if trans == nil then
 			CS.NDebug.LogError("未找到组件",path);
 		else
-			if oPSPanelSpot ~= nil and oPSPanelSpot.missionHolderOrder == index then
-				--CS.NDebug.Log("激活",trans);
-				trans.gameObject:SetActive(true);
+			if oPSPanelSpot == nil then
+				if select == 0 then
+					trans.gameObject:SetActive(active==1);
+				end
 			else
-				--CS.NDebug.Log("隐藏",trans);
-				trans.gameObject:SetActive(false);
+				if 	select == 1 then
+					if oPSPanelSpot.missionHolderOrder == index then
+						trans.gameObject:SetActive(active==1);
+					end
+				end
 			end
 		end
 	end
@@ -116,9 +136,10 @@ end
 local LoadBackgroundVideo = function(self)
 	canPlay = true;
 	self:LoadBackgroundVideo();
-	CS.CommonController.Invoke(function()
-			self:CheckCanvasMode();
-		end,0.1,self);
+	self:CheckCanvasMode();
+	--CS.CommonController.Invoke(function()
+	--		self:CheckCanvasMode();
+	--	end,0.1,self);
 end
 
 local LoadFirstVideo = function(self)

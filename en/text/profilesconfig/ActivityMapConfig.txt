@@ -80,6 +80,8 @@ MissionSelectionTex|missionselect_202408Activity|2|-71
 MissionSelectionTex|missionselect_202410Activity|2|-72
 //暗区联动
 MissionSelectionTex|missionselect_breakout|2|-73
+//239月试炼
+MissionSelectionTex|missionselect_2023Se|1|-62
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -252,7 +254,7 @@ OPSLeftBGNormalActivity|-72|202410Activity_Left
 //OPSNoticeNormalActivity|-58|2023Spring_Notice
 //OPSNoticeNormalActivity|-59|2023RougeSpring_Notice
 //OPSNoticeNormalActivity|-61|2023RougeSummer_Notice
-//OPSNoticeNormalActivity|-62|2023Se_Notice
+OPSNoticeNormalActivity|-62|2023Se_Notice
 //OPSNoticeNormalActivity|-64|2024Ghost_Notice
 OPSNoticeNormalActivity|-68|202404Activity_Notice
 OPSNoticeNormalActivity|-69|202406Activity_Notice
@@ -353,6 +355,7 @@ OPSGoto|202407Activity_GotoMall|0|-70
 OPSGoto|202408Activity_GotoMall|0|-71
 //暗区联动
 OPSGoto|202407Activity_GotoMall|0|-73
+OPSGoto|2023Se_GotoMall|0|-62
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -602,7 +605,7 @@ OPSCampaignTitleButton|-73|true|202408Activity_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-57|100175|60|ZLSR_Tip|1
 //OPSCampaignTitleButtonTip|-59|100169|60|2023RougeSpring_Tip|1
 OPSCampaignTitleButtonTip|-61|100193|60|2023RougeSummer_Tip|1
-//OPSCampaignTitleButtonTip|-62|100196|60|2023Se_MissionPanelTip|1
+OPSCampaignTitleButtonTip|-62|100196|60|2023Se_MissionPanelTip|1
 //OPSCampaignTitleButtonTip|-68|100214|60|202404Acticity_Tip|1
 OPSCampaignTitleButtonTip|-69|100224|60|202406Activity_Tip|1
 OPSCampaignTitleButtonTip|-70|100231|60|202407Activity_Tip|1

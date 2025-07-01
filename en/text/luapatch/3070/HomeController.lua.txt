@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.HomeController)
 xlua.private_accessible(CS.Data)
+xlua.private_accessible(CS.GFCriServerWrapper)
 
 local CheckCarnivalAndBingoBadge = function(self)
 	local exitcurrentBingo = CS.Data.GetCurrentBingo() ~= nil;
@@ -22,4 +23,26 @@ local CheckCarnivalAndBingoBadge = function(self)
 	return false;
 end
 
+local Start = function(self)
+	self:Start();
+	self.transform:Find("BonuseEffectSingle").localScale = CS.UnityEngine.Vector3.one;
+	self.transform:Find("BonuseEffectTen").localScale = CS.UnityEngine.Vector3.one;
+end
+
+local OnApplicationFocus = function(self,flag)
+	if CS.ResCenter.applicationPlatform == CS.UnityEngine.RuntimePlatform.Android then
+		CS.ConfigData.soundBackground = false;
+	end
+	self:OnApplicationFocus(flag);
+end
+
+local OnApplicationPause = function(self,flag)
+	if CS.ResCenter.applicationPlatform == CS.UnityEngine.RuntimePlatform.Android then
+		CS.ConfigData.soundBackground = false;
+	end
+	self:OnApplicationPause(flag);
+end
 util.hotfix_ex(CS.HomeController,'CheckCarnivalAndBingoBadge',CheckCarnivalAndBingoBadge)
+util.hotfix_ex(CS.FlightChessLobbyGashaBonusAnimController,'Start',Start)
+util.hotfix_ex(CS.GFCriServerWrapper,'OnApplicationFocus',OnApplicationFocus)
+util.hotfix_ex(CS.GFCriServerWrapper,'OnApplicationPause',OnApplicationPause)
