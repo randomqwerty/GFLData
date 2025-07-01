@@ -1291,9 +1291,21 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "FriendApplicaiton",
+      "parameter_type": "int",
+      "parameter_value": "30",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "friends_coefficients",
       "parameter_type": "string",
       "parameter_value": "10,10",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "friend_apply_limit",
+      "parameter_type": "int",
+      "parameter_value": "50",
       "client_require": "1"
     },
     {
@@ -2524,6 +2536,12 @@
       "parameter_name": "sangvis_team_cost",
       "parameter_type": "int",
       "parameter_value": "36",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "screenshot_global_switch",
+      "parameter_type": "string",
+      "parameter_value": "1,30",
       "client_require": "1"
     },
     {

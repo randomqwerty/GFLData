@@ -489,6 +489,11 @@ patch3070=
 "3070/ExText",
 "3070/ConnectionController",
 "3070/WebCameraManager",
+"3070/MissionData",
+"3070/Requests",
+}
+patch3071=
+{
 }
 -- va11
 print("load Va11");
