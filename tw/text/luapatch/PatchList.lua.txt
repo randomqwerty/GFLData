@@ -465,6 +465,7 @@ patch3070=
 "3070/CommonBundleConfirmBoxController",
 "3070/SangvisGunStateController",
 "3070/MallController",
+"3070/PassOrderController",
 "3070/HomeUserInfoNewController",
 "3070/GunStateSkinPageController",
 "3070/AdjutantGunListController",
@@ -489,6 +490,11 @@ patch3070=
 "3070/ExText",
 "3070/ConnectionController",
 "3070/WebCameraManager",
+"3070/MissionData",
+"3070/Requests",
+}
+patch3071=
+{
 }
 -- va11
 print("load Va11");
