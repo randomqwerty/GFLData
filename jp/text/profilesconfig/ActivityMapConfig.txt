@@ -83,6 +83,8 @@ MissionSelectionTex|missionselect_202408Activity|2|-71
 MissionSelectionTex|missionselect_202410Activity|2|-72
 //暗区联动
 MissionSelectionTex|missionselect_breakout|2|-73
+//24.12月
+MissionSelectionTex|missionselect_202412activity|2|-74
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -137,6 +139,9 @@ OPSPanelScene|-71|-71
 OPSPanelScene|-72|-72
 OPSPanelScene|-40401|-40401
 OPSPanelScene|-73|-73
+OPSPanelScene|-40402|-40402
+OPSPanelScene|-40403|-40403
+OPSPanelScene|-74|-74
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -149,6 +154,7 @@ OPSVideoFirst|-70|202407ActivityPV
 OPSVideoFirst|-71|202408ActivityPV
 OPSVideoFirst|-72|202410ActivityPV
 OPSVideoFirst|-73|ArenaBreakoutPV
+OPSVideoFirst|-74|202412ActivityPV
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -168,6 +174,9 @@ OPSReturn|202407Activity_Return|-70
 OPSReturn|202408Activity_Return|-71
 OPSReturn|202410Activity_Return|-72
 OPSReturn|202408Activity_Return|-73
+OPSReturn|2022SummerReturn|-40402
+OPSReturn|2023Spring_Return|-40403
+OPSReturn|202412Activity_Return|-74
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -221,6 +230,10 @@ OPSLeftBGNormalActivity|-67|2021Summer_Left
 OPSLeftBGNormalActivity|-70|202407Activity_Left
 OPSLeftBGNormalActivity|-71|202408Activity_Left
 OPSLeftBGNormalActivity|-72|202410Activity_Left
+OPSLeftBGNormalActivity|-40401|FixedPoint_Left
+OPSLeftBGNormalActivity|-40402|2022SummerLogo
+OPSLeftBGNormalActivity|-40403|2023Spring_Left
+OPSLeftBGNormalActivity|-74|202412Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -267,6 +280,7 @@ OPSNoticeNormalActivity|-70|202407Activity_Notice
 OPSNoticeNormalActivity|-71|202408Activity_Notice
 OPSNoticeNormalActivity|-72|202410Activity_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
+OPSNoticeNormalActivity|-74|202412Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -308,6 +322,7 @@ OPSTimeNormalActivity|-70|202407Activity_Time
 OPSTimeNormalActivity|-71|202406Activity_Time
 OPSTimeNormalActivity|-72|202406Activity_Time
 OPSTimeNormalActivity|-73|202406Activity_Time
+OPSTimeNormalActivity|-74|202406Activity_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -353,6 +368,8 @@ OPSGoto|202408Activity_GotoMall|0|-71
 OPSGoto|Continuum_PointExchange|2
 //暗区联动
 OPSGoto|202407Activity_GotoMall|0|-73
+//24_12月活动
+OPSGoto|202412Activity_GotoMall|0|-74
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -413,6 +430,7 @@ OPSProgressNormalActivity|-71|202406Activity_Progress
 OPSProgressNormalActivity|-72|202406Activity_Progress
 OPSProgressNormalActivity|-40401|Reversible_Progress
 OPSProgressNormalActivity|-73|202406Activity_Progress
+OPSProgressNormalActivity|-74|202406Activity_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -557,6 +575,8 @@ OPSCampaignTitleButton|-70|true|202407Activity_Difficulty2Btn
 OPSCampaignTitleButton|-71|true|202408Activity_Difficulty2Btn
 OPSCampaignTitleButton|-72|true|202410Activity_Difficulty2Btn
 OPSCampaignTitleButton|-73|true|202408Activity_Difficulty2Btn
+OPSCampaignTitleButton|-74|true|202412Activity_Difficulty2Btn
+OPSCampaignTitleButton|-40403|true|2023Spring_Diffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -624,6 +644,7 @@ OPSShowItemDeployment|533|2023Se_Buff_PA|11463,11466,11469,11472
 OPSShowItemDeployment|531,532,533|2023Se_All|11473,11474
 OPSShowItemDeployment|542|MirrorStageScore_DeploymentItems|11549,11549
 OPSShowItemDeploymentCheckUse|9044,9045,9046,9047|Tarot_DeploymentTarot|ddd8ddb9e233701a_draw_241024172517.jpg|11659,11660,11661,11662,11663,11664,11665,11666,11667
+OPSShowItemDeploymentCheckUse|0|202412Activity_ShowItem|bc3f3e4e1929094f_draw_250627161329.jpg|11603
 
 
 //具体章节里的头像贴图设置-位置坐标-贴图
@@ -2179,3 +2200,51 @@ OPSCampaignDetail|-73_29|0,0|Hecate
 OPSCampaignDetail|-73_30|0,0|Hecate
 OPSCampaignDetail|-73_31|0,0|Hecate
 
+//202412活动 卷积核
+OPSCampaignDetail|-74_1|0,0|NPC_Carter
+OPSCampaignDetail|-74_2|0,0|NPC_Carter
+OPSCampaignDetail|-74_3|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_4|0,0|RO635
+OPSCampaignDetail|-74_5|0,0|Nele
+OPSCampaignDetail|-74_6|0,0|NPC-Gross_0
+OPSCampaignDetail|-74_7|0,0|Nimeylan
+OPSCampaignDetail|-74_8|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_9|0,0|Nimeylan
+OPSCampaignDetail|-74_10|0,0|Shadowless
+OPSCampaignDetail|-74_11|0,0|NPC_Carter
+OPSCampaignDetail|-74_12|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_13|0,0|Nele
+OPSCampaignDetail|-74_14|0,0|Nyto_Hebe
+OPSCampaignDetail|-74_15|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_16|0,0|NPC_Keven
+OPSCampaignDetail|-74_17|0,0|Styx
+OPSCampaignDetail|-74_18|0,0|PMMod
+OPSCampaignDetail|-74_19|0,0|PMMod
+OPSCampaignDetail|-74_20|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_21|0,0|RO635
+OPSCampaignDetail|-74_22|0,0|NPC_Ulrich
+OPSCampaignDetail|-74_23|0,0|NPC_Kryuger
+OPSCampaignDetail|-74_24|0,0|Nyto_Styx
+OPSCampaignDetail|-74_25|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_26|0,0|NPC_Havel
+OPSCampaignDetail|-74_27|0,0|Nele
+OPSCampaignDetail|-74_28|0,0|Morridow_2
+OPSCampaignDetail|-74_29|0,0|Morridow_2
+OPSCampaignDetail|-74_30|0,0|NPC-NVA_0
+OPSCampaignDetail|-74_31|0,0|Lunasia2
+OPSCampaignDetail|-74_32|0,0|SCAR_H
+OPSCampaignDetail|-74_33|0,0|Lunasia2
+OPSCampaignDetail|-74_34|0,0|Lunasia2
+OPSCampaignDetail|-74_35|0,0|Punish
+OPSCampaignDetail|-74_36|0,0|Nimeylan
+OPSCampaignDetail|-74_37|0,0|Nyto_Hebe
+OPSCampaignDetail|-74_38|0,0|PMMod
+OPSCampaignDetail|-74_39|0,0|Nyto_Styx
+OPSCampaignDetail|-74_40|0,0|Morridow_2
+OPSCampaignDetail|-74_41|0,0|Nimeylan
+OPSCampaignDetail|-74_42|0,0|Nyto_Hebe
+OPSCampaignDetail|-74_43|0,0|PMMod
+OPSCampaignDetail|-74_44|0,0|Nyto_Styx
+OPSCampaignDetail|-74_45|0,0|Morridow_2
+OPSCampaignDetail|-74_46|0,0|Punish
+OPSCampaignDetail|-74_47|0,0|202412activity_rabbithole_title
