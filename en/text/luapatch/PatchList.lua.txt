@@ -465,6 +465,7 @@ patch3070=
 "3070/CommonBundleConfirmBoxController",
 "3070/SangvisGunStateController",
 "3070/MallController",
+"3070/PassOrderController",
 "3070/HomeUserInfoNewController",
 "3070/GunStateSkinPageController",
 "3070/AdjutantGunListController",
