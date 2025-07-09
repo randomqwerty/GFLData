@@ -5,7 +5,7 @@ MissionMapMinScale|0.6
 MissionMapUseMinScale|1
 MissionSpotCode|MissionPanelTitle
 MissionPathCode|MissionPanelCurve
-MissionBackgroundCode|202505Activity_Background
+MissionBackgroundCode|202507Activity_Background
 MissionBackground3dCode|202505Activity_BackgroundChapter
 MissionMoveAngle|10,10
 SelectEffectName|SelectPanelEffect
@@ -17,14 +17,16 @@ CloseAllspotsLogin|1
 MissionSecretLabel|202505Activity_Token
 MissionItemId|100270
 
-MoveXControlTimeline|-7400,7000|Canvas/MapDeco/202505Activity_Background(Clone)
+SpotSelectShow|5|Canvas/MapDeco/202507Activity_Background(Clone)/MissionBackground1|1|1
+SpotSelectShow|3|Canvas/MapDeco/202507Activity_Background(Clone)/MissionBackground2|1|1
+SpotSelectShow|1|Canvas/MapDeco/202507Activity_Background(Clone)/MissionBackground3|1|1
+SpotSelectShow|1|Canvas/MapDeco/202507Activity_Background(Clone)/MissionBackground3|0|0
 
 MissionSpot|0|11883,11883,11883|-6900,-200,0|0|storypointBG
 MissionSpot|1|11901,11901,11901|-6300,-50,0|0|storypointBG
 MissionSpot|2|11884,11884,11884|-5700,100,0|0|
 MissionSpot|3|11899,11900,11900|-5200,-100,0|0|
 MissionSpot|4|11902,11902,11902|-5200,300,0|0|storypointBG
-//MissionSpot|5|11903,11903,11903|-4600,100,0|0|storypointBG
 MissionSpot|5|11903,11903,11903|-4450,0,0|0|storypointBG
 MissionSpot|6|11885,11891,11895|-3700,-100,0|0|
 MissionSpot|7|11904,11904,11904|-3050,100,0|0|storypointBG
@@ -34,7 +36,6 @@ MissionSpot|10|11886,11886,11886|-1100,-200,0|0|
 MissionSpot|11|11907,11907,11907|-600,100,0|0|storypointBG
 MissionSpot|12|11908,11908,11908|0,0,0|0|storypointBG
 MissionSpot|13|11909,11909,11909|600,-200,0|0|storypointBG
-//MissionSpot|15|11911,11911,11911|1200,0,0|0|storypointBG
 MissionSpot|14|11887,11892,11896|1350,-50,0|0|
 MissionSpot|15|11910,11910,11910|2000,100,0|0|storypointBG
 MissionSpot|16|11911,11911,11911|2750,-100,0|0|storypointBG
