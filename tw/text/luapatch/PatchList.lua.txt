@@ -492,9 +492,15 @@ patch3070=
 "3070/WebCameraManager",
 "3070/MissionData",
 "3070/Requests",
+"3071/DormUIController",
 }
 patch3071=
 {
+"3071/HomeEventController",
+"3071/SquadTrainingExpConfirmPanelController",
+"3071/RankingSPListItem",
+"3071/CommonVideoPlayer",
+"3071/DormUIController",
 }
 -- va11
 print("load Va11");
