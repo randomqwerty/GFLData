@@ -458,6 +458,7 @@ patch3060=
 "3060/ReinforcementController",
 "3060/ConnectionController",
 "3070/WebCameraManager",
+"3071/SangvisCaptureController",
 }
 patch3070=
 {
@@ -492,6 +493,8 @@ patch3070=
 "3070/WebCameraManager",
 "3070/MissionData",
 "3070/Requests",
+"3071/DormUIController",
+"3071/SangvisCaptureController",
 }
 patch3071=
 {
@@ -499,6 +502,9 @@ patch3071=
 "3071/SquadTrainingExpConfirmPanelController",
 "3071/RankingSPListItem",
 "3071/CommonVideoPlayer",
+"3071/VehicleStatePresetListLabel",
+"3071/SangvisCaptureController",
+"3071/DormUIController",
 }
 -- va11
 print("load Va11");
