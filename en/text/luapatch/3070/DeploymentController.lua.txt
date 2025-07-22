@@ -4,7 +4,7 @@ xlua.private_accessible(CS.DeploymentAllyTeamController)
 xlua.private_accessible(CS.DeploymentEnemyTeamController)
 xlua.private_accessible(CS.DeploymentSquadTeamController)
 xlua.private_accessible(CS.DeploymentVehicleTeamController)
-
+xlua.private_accessible(CS.DeploymentBuildingController)
 local FindBuffActionFriendly = function(self)
 	if CS.GameData.missionAction == nil then
 		return;
@@ -88,9 +88,18 @@ local Show = function(self,team)
 	self:Show(team);
 	self.transform:SetAsLastSibling();
 end
+
+local InitCode = function(self,code)
+	self:InitCode(code);
+	if self.spineHolder ~= nil then
+		local pos = self.spineHolder.transform.localPosition;
+		self.spineHolder.transform.localPosition = CS.UnityEngine.Vector3(pos.x,pos.y,80);
+	end
+end
 util.hotfix_ex(CS.DeploymentFriendlyTeamController,'FindBuffAction',FindBuffActionFriendly)
 util.hotfix_ex(CS.DeploymentAllyTeamController,'FindBuffAction',FindBuffActionAlly)
 util.hotfix_ex(CS.DeploymentEnemyTeamController,'FindBuffAction',FindBuffActionEnemy)
 util.hotfix_ex(CS.DeploymentSquadTeamController,'FindBuffAction',FindBuffActionSquad)
 util.hotfix_ex(CS.DeploymentVehicleTeamController,'FindBuffAction',FindBuffActionVehicle)
 util.hotfix_ex(CS.DeploymentVehicleInfoController,'Show',Show)
+util.hotfix_ex(CS.DeploymentBuildingController,'InitCode',InitCode)
