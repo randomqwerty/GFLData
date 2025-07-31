@@ -97,6 +97,8 @@ MissionSelectionTex|missionselect_Slowshock|2|-40403
 MissionSelectionTex|missionselect_202412activity|2|-74
 //25.5月
 MissionSelectionTex|missionselect_202505activity|2|-75
+//25.7月
+MissionSelectionTex|missionselect_202507activity|2|-76
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -154,6 +156,7 @@ OPSPanelScene|-40402|-40402
 OPSPanelScene|-40403|-40403
 OPSPanelScene|-74|-74
 OPSPanelScene|-75|-75
+OPSPanelScene|-76|-76
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -247,6 +250,7 @@ OPSLeftBGNormalActivity|-40402|2022SummerLogo
 OPSLeftBGNormalActivity|-40403|2023Spring_Left
 OPSLeftBGNormalActivity|-74|202412Activity_Left
 OPSLeftBGNormalActivity|-75|202505Activity_Left
+OPSLeftBGNormalActivity|-76|202507Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -295,6 +299,7 @@ OPSNoticeNormalActivity|-64|2024Ghost_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
 OPSNoticeNormalActivity|-74|202412Activity_Notice
 OPSNoticeNormalActivity|-75|202505Activity_Notice
+OPSNoticeNormalActivity|-76|202507Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -337,6 +342,7 @@ OPSTimeNormalActivity|-72|202406Activity_Time
 OPSTimeNormalActivity|-73|202406Activity_Time
 OPSTimeNormalActivity|-74|202406Activity_Time
 OPSTimeNormalActivity|-75|Reversible_Time
+OPSTimeNormalActivity|-76|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -397,6 +403,8 @@ OPSGoto|2023RougeSpring_PointExchange|2|-61|1004
 OPSGoto|202412Activity_GotoMall|0|-74
 //25_05月活动
 OPSGoto|202505Activity_GotoMall|0|-75
+//25_07月活动
+OPSGoto|202505Activity_GotoMall|0|-76
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -459,6 +467,7 @@ OPSProgressNormalActivity|-40401|Reversible_Progress
 OPSProgressNormalActivity|-73|202406Activity_Progress
 OPSProgressNormalActivity|-74|202406Activity_Progress
 OPSProgressNormalActivity|-75|Reversible_Progress
+OPSProgressNormalActivity|-76|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -606,6 +615,7 @@ OPSCampaignTitleButton|-73|true|202408Activity_Difficulty2Btn
 OPSCampaignTitleButton|-74|true|202412Activity_Difficulty2Btn
 OPSCampaignTitleButton|-75|true|202505Activity_Difficulty2Btn
 OPSCampaignTitleButton|-40403|true|2023Spring_Diffculty2Btn
+OPSCampaignTitleButton|-76|true|202507Activity_Difficulty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -2314,5 +2324,34 @@ OPSCampaignDetail|-75_32|0,0|TT33
 OPSCampaignDetail|-75_33|0,0|Kalina_OL
 OPSCampaignDetail|-75_34|0,0|UMP45_shadow
 
-
+//202507活动 虚粒子对
+OPSCampaignDetail|-76_1|0,0|William
+OPSCampaignDetail|-76_2|0,0|William
+OPSCampaignDetail|-76_3|0,0|NytoDouble
+OPSCampaignDetail|-76_4|0,0|Eliza_boss
+OPSCampaignDetail|-76_5|0,0|Mahelian
+OPSCampaignDetail|-76_6|0,0|M16A1_Boss
+OPSCampaignDetail|-76_7|0,0|Mrsgray
+OPSCampaignDetail|-76_8|0,0|Mahelian
+OPSCampaignDetail|-76_9|0,0|Kalina_Armed
+OPSCampaignDetail|-76_10|0,0|NytoDouble
+OPSCampaignDetail|-76_11|0,0|Eliza_boss
+OPSCampaignDetail|-76_12|0,0|Mahelian
+OPSCampaignDetail|-76_13|0,0|Mrsgray
+OPSCampaignDetail|-76_14|0,0|Kalina_Armed
+OPSCampaignDetail|-76_15|0,0|NytoDouble
+OPSCampaignDetail|-76_16|0,0|Eliza_boss
+OPSCampaignDetail|-76_17|0,0|Mahelian
+OPSCampaignDetail|-76_18|0,0|Mrsgray
+OPSCampaignDetail|-76_19|0,0|Kalina_Armed
+OPSCampaignDetail|-76_20|0,0|Strelet
+OPSCampaignDetail|-76_21|0,0|Strelet
+OPSCampaignDetail|-76_22|0,0|Lunasia
+OPSCampaignDetail|-76_23|0,0|William
+OPSCampaignDetail|-76_24|0,0|Mahelian
+OPSCampaignDetail|-76_25|0,0|M16A1_Boss
+OPSCampaignDetail|-76_26|0,0|William_shadow
+OPSCampaignDetail|-76_27|0,0|Teal&Mona_shadow
+OPSCampaignDetail|-76_28|0,0|AK12_Mod3
+OPSCampaignDetail|-76_29|0,0|Kalina_Armed
 

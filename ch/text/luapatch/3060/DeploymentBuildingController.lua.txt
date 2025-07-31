@@ -123,6 +123,13 @@ local TriggerAVGFinishEvent = function()
 		CS.DeploymentController.Instance:SelectTeam(team,true);
 	end
 end
+
+local OnClickButton = function(self,Button)
+	if CS.CommonConfirmBoxControllerNew.hasOpen then
+		return;
+	end
+	self:OnClickButton(Button);
+end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
 util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
@@ -133,3 +140,4 @@ util.hotfix_ex(CS.DeploymentController,'RequestStartMission',RequestStartMission
 util.hotfix_ex(CS.DeploymentController,'TriggerAVGFinishEvent',TriggerAVGFinishEvent)
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
 util.hotfix_ex(CS.DeploymentFloatingTeamInfo,'UpdateInfo',UpdateInfo)
+util.hotfix_ex(CS.DeploymentUIController,'OnClickButton',OnClickButton)

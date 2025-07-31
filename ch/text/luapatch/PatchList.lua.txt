@@ -496,6 +496,8 @@ patch3070=
 "3071/FlightChessUserCardController",
 "3071/DormUIController",
 "3071/SangvisCaptureController",
+"3071/DailyExploreUIController",
+"3071/DormFriendUIController",
 }
 patch3071=
 {
@@ -510,6 +512,8 @@ patch3071=
 "3071/SangvisGunStateBaseInfoController",
 "3071/Data",
 "3071/DeploymentController",
+"3071/DailyExploreUIController",
+"3071/DormFriendUIController",
 }
 -- va11
 print("load Va11");
