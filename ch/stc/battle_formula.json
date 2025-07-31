@@ -16804,6 +16804,82 @@
     "formula": "sbuffidtier(6323)>0?160:150"
   },
   {
+    "id": 9880,
+    "formula": "sbuffidtier(9862)>0?0:1"
+  },
+  {
+    "id": 9881,
+    "formula": "sbuffidtier(9862)>0?120:110"
+  },
+  {
+    "id": 9882,
+    "formula": "sbuffidtier(9862)>0?121:111"
+  },
+  {
+    "id": 9883,
+    "formula": "sbuffidtier(9862)>0?122:112"
+  },
+  {
+    "id": 9884,
+    "formula": "sbuffidtier(9862)>0?123:113"
+  },
+  {
+    "id": 9885,
+    "formula": "sbuffidtier(9862)>0?124:114"
+  },
+  {
+    "id": 9886,
+    "formula": "sbuffidtier(9862)>0?126:116"
+  },
+  {
+    "id": 9887,
+    "formula": "sbuffidtier(9862)>0?127:117"
+  },
+  {
+    "id": 9888,
+    "formula": "sbuffidtier(9862)>0?128:118"
+  },
+  {
+    "id": 9889,
+    "formula": "sbuffidtier(9862)>0?129:119"
+  },
+  {
+    "id": 9890,
+    "formula": "sbuffidtier(9862)>0?130:120"
+  },
+  {
+    "id": 9891,
+    "formula": "$1*((1-@Life/@MaxLife)*3+1)"
+  },
+  {
+    "id": 9892,
+    "formula": "@Formation=1?1:0"
+  },
+  {
+    "id": 9893,
+    "formula": "$1+sbuffidtier(9872)/100*(@Life+@shield)*(1-#def/#maxdef)"
+  },
+  {
+    "id": 9894,
+    "formula": "tbuffidtier(9892)>0?0:#pow"
+  },
+  {
+    "id": 9895,
+    "formula": "tbuffidtier(9892)>0?0:#shield"
+  },
+  {
+    "id": 9896,
+    "formula": "#armor<200?$1*(1+sbuffidtier(9884)/100):$1*(0.6+sbuffidtier(9884)/100)"
+  },
+  {
+    "id": 9897,
+    "formula": "($1-599)>100?($1-899):($1-599)"
+  },
+  {
+    "id": 9898,
+    "formula": "sbuffidtier(9893)>0?1:0"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
@@ -16822,6 +16898,30 @@
   {
     "id": 13313,
     "formula": "92.5-2.5*sbuffidtier(3604)"
+  },
+  {
+    "id": 20001,
+    "formula": "10000*(1+sbuffidtier(2626))"
+  },
+  {
+    "id": 20002,
+    "formula": "1000"
+  },
+  {
+    "id": 20003,
+    "formula": "@characterstatus=1?0:1"
+  },
+  {
+    "id": 20004,
+    "formula": "10000"
+  },
+  {
+    "id": 20005,
+    "formula": "99999"
+  },
+  {
+    "id": 20006,
+    "formula": "44444"
   },
   {
     "id": 38731,
