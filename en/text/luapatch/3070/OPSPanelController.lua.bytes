@@ -8,7 +8,8 @@ local Start = function(self)
 			CS.UnityEngine.Object.DestroyImmediate(CS.CommonVideoPlayer.Instance.gameObject);
 			CS.OPSConfig.CheckVideo = false;
 		end
-	end		
+	end
+	CS.ImageBufferBlurRefraction.depthonlyCamain.cullingMask = 1 << 18;		
 end
 
 local ShowItemLimitUINew = function(self,itemids)

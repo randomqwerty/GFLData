@@ -96,6 +96,12 @@ local InitCode = function(self,code)
 		self.spineHolder.transform.localPosition = CS.UnityEngine.Vector3(pos.x,pos.y,80);
 	end
 end
+local OnClickButton = function(self,Button)
+	if CS.CommonConfirmBoxControllerNew.hasOpen then
+		return;
+	end
+	self:OnClickButton(Button);
+end
 util.hotfix_ex(CS.DeploymentFriendlyTeamController,'FindBuffAction',FindBuffActionFriendly)
 util.hotfix_ex(CS.DeploymentAllyTeamController,'FindBuffAction',FindBuffActionAlly)
 util.hotfix_ex(CS.DeploymentEnemyTeamController,'FindBuffAction',FindBuffActionEnemy)
@@ -103,3 +109,4 @@ util.hotfix_ex(CS.DeploymentSquadTeamController,'FindBuffAction',FindBuffActionS
 util.hotfix_ex(CS.DeploymentVehicleTeamController,'FindBuffAction',FindBuffActionVehicle)
 util.hotfix_ex(CS.DeploymentVehicleInfoController,'Show',Show)
 util.hotfix_ex(CS.DeploymentBuildingController,'InitCode',InitCode)
+util.hotfix_ex(CS.DeploymentUIController,'OnClickButton',OnClickButton)
