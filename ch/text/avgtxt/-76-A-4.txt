@@ -107,7 +107,9 @@ NPC-Lunasia(4)<Speaker>露尼西亚</Speaker>||:那么，现在，我们就去�
 ()||:他们只是把这里当做另一个可供交谈的聚会。
 NPC-WilliamYoung(0)<Speaker>巴拉德</Speaker>||:这不会是最后一面的……+……姐姐。
 ()||<SE1>ClothingUp</SE1>:他挥了挥手，示意身旁的侍从将棺椁抬走。
-()||:……+……
+()||:……
+()||<黑屏1>:
+()||<CGDelay>0.5</CGDelay><黑屏2><BIN>269</BIN>:
 ()<Speaker>管家</Speaker>||:……放在这里？你确定吗？少爷？+奥贝斯坦先生让我们把它送到研究所去……
 NPC-WilliamYoung(0)<Speaker>巴拉德</Speaker>||:你认为比起我，是你更了解我的父亲？
 ()<Speaker>管家</Speaker>||:不……我不是这个意思！
@@ -126,9 +128,9 @@ NPC-WilliamYoung(0)<Speaker>巴拉德</Speaker>||:……抱歉，凯恩爷爷。
 NPC-WilliamYoung(0)<Speaker>巴拉德</Speaker>||:我说的是“任何人”，凯恩爷爷。
 ()||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.5</CGDelay>:呯！+随着又一声枪响，老人震惊的目光逐渐浑浊。
 ()||<SE1>AVG_Applause</SE1>:啪啪啪。
-NPC-WilliamYoung(0)<Speaker>巴拉德</Speaker>||:……！
+NPC-WilliamYoung(2)<Speaker>巴拉德</Speaker>||:……！
 NPC-Rudolf(1)<Speaker>奥贝斯坦</Speaker>||:……你让我感到惊喜，巴拉德。
-NPC-WilliamYoung(0)<Speaker>巴拉德</Speaker>||:……父亲！？
+NPC-WilliamYoung(2)<Speaker>巴拉德</Speaker>||:……父亲！？
 ()||:伴随着缓慢而有节奏的掌声，那温厚的声音一并响起，却只让巴拉德感到一阵毛骨悚然。+原本寂静的巷子，瞬间便被身着黑服的保镖堵住了出入口。
 NPC-WilliamYoung(2)<Speaker>巴拉德</Speaker>||:你是怎么……！？
 NPC-WilliamYoung(2);NPC-Rudolf(1)<Speaker>奥贝斯坦</Speaker>||:我的确有些缺乏对你的关注，巴拉德，没想到……在我不知道的时候，我的儿子竟然已经变得如此优秀。

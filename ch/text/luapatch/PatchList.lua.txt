@@ -514,6 +514,7 @@ patch3071=
 "3071/DeploymentController",
 "3071/DailyExploreUIController",
 "3071/DormFriendUIController",
+"3071/OPSPanelController",
 }
 -- va11
 print("load Va11");
