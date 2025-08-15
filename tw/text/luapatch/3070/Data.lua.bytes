@@ -76,6 +76,40 @@ local EnterIntoList = function(self,friendType)
 		end
 	end
 end
+local engagedSpot = function()
+	local spot = CS.GameData.engagedSpot;
+	if spot == nil then
+		for i=0,CS.GameData.listSpotAction.Count-1 do
+			local spotaction = CS.GameData.listSpotAction:GetDataByIndex(i);
+			if spotaction.CannotSee then
+				local hasFriend = false;
+				local hasEnemy = false;
+				if spotaction.friendlyTeamId ~= 0 or spotaction.sangvisTeamId ~= 0 or spotaction.vehicleTeamID ~= 0 then
+					hasFriend = true;
+				end
+				if spotaction.enemyInstanceId ~= 0 or spotaction.enemyTeamId ~= 0 then
+					hasEnemy = true;
+				end
+				for j=0,spotaction.allyTeamInstanceIds.Count-1 do
+					local allyteam = CS.GameData.missionAction.listAllyTeams:GetDataById(spotaction.allyTeamInstanceIds[j]);
+					if allyteam ~= nil then
+						if allyteam.currentBelong == CS.TeamBelong.friendly then
+							hasFriend = true;
+						else
+							hasEnemy = true;
+						end
+					end
+				end
+				if hasFriend and hasEnemy then
+					CS.DeploymentController.lastEngageSpotId = spotaction.spotInfo.id;
+					return spotaction;
+				end
+			end
+		end
+	end
+	return spot;
+end
 util.hotfix_ex(CS.Data,'UserExistsSkin',UserExistsSkin)
 util.hotfix_ex(CS.GameFunctionSwitch,'Description',Description)
 util.hotfix_ex(CS.Friend,'EnterIntoList',EnterIntoList)
+util.hotfix_ex(CS.GameData,'get_engagedSpot',engagedSpot)
