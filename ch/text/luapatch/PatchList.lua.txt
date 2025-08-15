@@ -459,6 +459,8 @@ patch3060=
 "3060/ConnectionController",
 "3070/WebCameraManager",
 "3071/SangvisCaptureController",
+"3060/BattleBackgroundSortingController",
+"3060/CommonAudioController",
 }
 patch3070=
 {
@@ -498,6 +500,7 @@ patch3070=
 "3071/SangvisCaptureController",
 "3071/DailyExploreUIController",
 "3071/DormFriendUIController",
+"3060/CommonAudioController",
 }
 patch3071=
 {
@@ -515,6 +518,7 @@ patch3071=
 "3071/DailyExploreUIController",
 "3071/DormFriendUIController",
 "3071/OPSPanelController",
+"3060/CommonAudioController",
 }
 -- va11
 print("load Va11");
