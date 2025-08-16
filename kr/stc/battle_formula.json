@@ -16873,11 +16873,71 @@
   },
   {
     "id": 9897,
-    "formula": "0"
+    "formula": "($1-599)>100?($1-899):($1-599)"
   },
   {
     "id": 9898,
     "formula": "sbuffidtier(9893)>0?1:0"
+  },
+  {
+    "id": 9899,
+    "formula": "sbuffidtier(9895)=1&sbuffidtier(9896)=1?1:0"
+  },
+  {
+    "id": 9900,
+    "formula": "sbuffidtier(9898)=1&sbuffidtier(9899)=1?1:0"
+  },
+  {
+    "id": 9901,
+    "formula": "sbuffidtier(9897)>0?180:90"
+  },
+  {
+    "id": 9902,
+    "formula": "sbuffidtier(9897)>0?192:102"
+  },
+  {
+    "id": 9903,
+    "formula": "sbuffidtier(9897)>0?207:117"
+  },
+  {
+    "id": 9904,
+    "formula": "sbuffidtier(9897)>0?219:129"
+  },
+  {
+    "id": 9905,
+    "formula": "sbuffidtier(9897)>0?234:144"
+  },
+  {
+    "id": 9906,
+    "formula": "sbuffidtier(9897)>0?246:156"
+  },
+  {
+    "id": 9907,
+    "formula": "sbuffidtier(9897)>0?261:171"
+  },
+  {
+    "id": 9908,
+    "formula": "sbuffidtier(9897)>0?273:183"
+  },
+  {
+    "id": 9909,
+    "formula": "sbuffidtier(9897)>0?288:198"
+  },
+  {
+    "id": 9910,
+    "formula": "sbuffidtier(9897)>0?300:210"
+  },
+  {
+    "id": 9911,
+    "formula": "sbuffidtier(9900)>0?9908:9907"
+  },
+  {
+    "id": 9912,
+    "formula": "@battlepoint=1?100:30"
+  },
+  {
+    "id": 9913,
+    "formula": "0"
   },
   {
     "id": 13280,
@@ -16901,7 +16961,7 @@
   },
   {
     "id": 20001,
-    "formula": "10000"
+    "formula": "10000*(1+sbuffidtier(2626))"
   },
   {
     "id": 20002,
@@ -16910,6 +16970,18 @@
   {
     "id": 20003,
     "formula": "@characterstatus=1?0:1"
+  },
+  {
+    "id": 20004,
+    "formula": "10000"
+  },
+  {
+    "id": 20005,
+    "formula": "99999"
+  },
+  {
+    "id": 20006,
+    "formula": "44444"
   },
   {
     "id": 38731,
