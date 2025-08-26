@@ -21,9 +21,29 @@ local Init = function(self,data)
 		end
 	end
 end
+local needFresh = false;
+local needRefresh = function(self)
+	if needFresh then
+		return true;
+	end
+	return self.needRefresh;
+end
+
+local RequestSelfDormData = function(self,jumpAfterRequest,subJumpType)
+	needFresh = false;
+	if CS.DormConfigData.instance.currentVisitFriend ~= nil then
+		needFresh = true;
+	end
+	if jumpAfterRequest ~= nil then
+		self:RequestSelfDormData(jumpAfterRequest,subJumpType);
+	else
+		self:RequestSelfDormData();
+	end
+end
 
 xlua.hotfix(CS.DormVisitorItem,'get_textServerName',get_textServerName)
 util.hotfix_ex(CS.DormVisitorItem,'Init',Init)
-
+util.hotfix_ex(CS.DormConfigData,'get_needRefresh',needRefresh)
+util.hotfix_ex(CS.DormUIController,'RequestSelfDormData',RequestSelfDormData)
 
 
