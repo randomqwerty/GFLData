@@ -102,6 +102,12 @@ local OnClickButton = function(self,Button)
 	end
 	self:OnClickButton(Button);
 end
+local OnClickTeam = function(self,spot)
+	if CS.CommonConfirmBoxControllerNew.hasOpen then
+		return;
+	end
+	self:OnClickTeam(spot);
+end
 util.hotfix_ex(CS.DeploymentFriendlyTeamController,'FindBuffAction',FindBuffActionFriendly)
 util.hotfix_ex(CS.DeploymentAllyTeamController,'FindBuffAction',FindBuffActionAlly)
 util.hotfix_ex(CS.DeploymentEnemyTeamController,'FindBuffAction',FindBuffActionEnemy)
@@ -110,3 +116,4 @@ util.hotfix_ex(CS.DeploymentVehicleTeamController,'FindBuffAction',FindBuffActio
 util.hotfix_ex(CS.DeploymentVehicleInfoController,'Show',Show)
 util.hotfix_ex(CS.DeploymentBuildingController,'InitCode',InitCode)
 util.hotfix_ex(CS.DeploymentUIController,'OnClickButton',OnClickButton)
+util.hotfix_ex(CS.DeploymentTeamInfoController,'OnClickTeam',OnClickTeam)
