@@ -130,6 +130,12 @@ local OnClickButton = function(self,Button)
 	end
 	self:OnClickButton(Button);
 end
+local OnClickTeam = function(self,spot)
+	if CS.CommonConfirmBoxControllerNew.hasOpen then
+		return;
+	end
+	self:OnClickTeam(spot);
+end
 util.hotfix_ex(CS.DeploymentSpotController,'CurrentTeamEchelon',CurrentTeamEchelon)
 util.hotfix_ex(CS.DeploymentSangvisSkillPanelController,'ShowSangvisSelectTarget',ShowSangvisSelectTarget)
 util.hotfix_ex(CS.DeploymentUIController,'LoadItemData',LoadItemData)
@@ -141,3 +147,4 @@ util.hotfix_ex(CS.DeploymentController,'TriggerAVGFinishEvent',TriggerAVGFinishE
 util.hotfix_ex(CS.DeploymentController,'CheckBattle',CheckBattle)
 util.hotfix_ex(CS.DeploymentFloatingTeamInfo,'UpdateInfo',UpdateInfo)
 util.hotfix_ex(CS.DeploymentUIController,'OnClickButton',OnClickButton)
+util.hotfix_ex(CS.DeploymentTeamInfoController,'OnClickTeam',OnClickTeam)
