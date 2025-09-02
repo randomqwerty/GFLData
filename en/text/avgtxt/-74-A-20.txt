@@ -1,168 +1,168 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>819</BIN><BGM>BGM_ev2412_PrinceIgor</BGM>:……A661公路。+经过人形们努力清理，此时道路已经基本通畅，汽车残骸被推到路边。+道路西侧的枯草地上，死于轰炸的人类被人形们抬出来，整齐地排了两排，留待以后收殓。
-G41(0)<Speaker>G41</Speaker><Position>-180,200</Position><Shake>||:1、2、3——
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:人形们一起发力，使劲推动一辆扭曲的越野车。
-G41(0)<Speaker>G41</Speaker><Position>-180,200</Position>||:再使把劲喔，1、2、3——
-()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:滋——车子摩擦着路面，终于让开了位置。此时道路上的大块障碍物基本清理完毕，但地面碎块上混杂着许多尖锐残渣，仍不具备通行条件。
-AUG(0)<Speaker>AUG</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>路政车辆1分钟后到达，现场小队注意避让。</color>
-G41(0)<Speaker>G41</Speaker><Position>-180,200</Position>||:收到！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:人形们排成队列，向着艾莫号靠拢。
-()<Speaker></Speaker>||<白屏2><SE1>AVG_21Winter_Water_Tap</SE1>:噗噗——很快，高压水车到达现场，打开喷头，猛烈的水流将大块碎渣冲向道路两边。
+()<Speaker></Speaker>||<黑屏2><BIN>819</BIN><BGM>BGM_ev2412_PrinceIgor</BGM>:...Autobahn 661. +After the Dolls' hard work, the road is now mostly open, with wrecked cars pushed to the roadside. +On the withered grassland to the west, human corpses killed by the bombing are carried out by the Dolls and laid neatly in two rows, awaiting later collection.
+G41(0)<Speaker>Gr G41</Speaker><Position>-180,200</Position><Shake>||:One, two, three—
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The Dolls push together, straining against a twisted SUV.
+G41(0)<Speaker>Gr G41</Speaker><Position>-180,200</Position>||:One more time! One, two, three—!
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:Scrrrk— The vehicle scrapes along the surface of the road and finally shifts aside. At this point, the major obstacles are gone, but the road is still littered with sharp debris, not yet fit for passage.
+AUG(0)<Speaker>AUG</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Road maintenance vehicles arriving in one minute; on-site squads prepare to clear the way.</color>
+G41(0)<Speaker>Gr G41</Speaker><Position>-180,200</Position>||:Roger!
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1><CGDelay>0.5</CGDelay>:The Dolls form a line and move toward the Elmo.
+()<Speaker></Speaker>||<白屏2><SE1>AVG_21Winter_Water_Tap</SE1>:Pshhh— Soon, a high-pressure cleaning truck arrives, spraying torrents that blast the remaining rubble off to the sides of the road.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker></Speaker>||:指挥官正在路边观察着道路情况，忽然按下了通讯键。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_tele_connect</SE1>:等一下！
-RO635Mod(3)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>指挥官？</color>
-()<Speaker>指挥官</Speaker>||:让路政的人等等，拿防水布料过来，派4个人形。
+()<Speaker></Speaker>||:The Commander observes from the roadside, then suddenly presses the comms button.
+()<Speaker>Commander</Speaker>||<SE1>AVG_tele_connect</SE1>:Wait!
+RO635Mod(3)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>Commander?</color>
+()<Speaker>Commander</Speaker>||:Hold the waterworks. Have four Dolls bring a waterproof sheeting.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:很快SOP2带着3名人形扛着一卷巨大的防水布走过来。
-()<Speaker>指挥官</Speaker>||:给他们盖上吧。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:四名人形合作拉开防水布，像一面展开的巨幅旗帜，严严实实地盖在路边的遗体上。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Water_Tap</SE1>:高压水车继续工作，经过时，水流激起的泥点飞溅在防水布上，噼啪作响。
-()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1><CGDelay>0.5</CGDelay>:嘟——高压水车的司机按响车喇叭，像是对逝去同胞的悼念。
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Team_Running</SE1>:SOP-II quickly arrives with three others, carrying a huge roll of tarp.
+()<Speaker>Commander</Speaker>||:Cover them.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:The four Dolls pull it open, spreading it wide like a vast banner, and carefully lay it over the bodies at the roadside.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Water_Tap</SE1>:The water truck resumes, its spray splattering mud onto the tarp with sharp patters.
+()<Speaker></Speaker>||<SE1>AVG_ship_horn</SE1><CGDelay>0.5</CGDelay>:Honk— The driver sounds the horn, like a farewell salute to the fallen.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<黑点2><CGDelay>0.5</CGDelay>:
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>指挥官，无人机已经探明前方道路，没有障碍，具备通行条件。</color>
-()<Speaker>指挥官</Speaker>||:好，我们继续出发吧。
-()<Speaker></Speaker>||<SE1>AirRaidWarning</SE1>:呜——城中忽然响起防空警报，指挥官面色大变。
-()<Speaker>指挥官</Speaker>||<SE1>AVG_tele_connect</SE1>:RO635，关闭艾莫号雷达，把隐形车罩放出来！+AR-15，大厅所有人看好病患，不许乱！
-AR15Mod(0)<Speaker>AR-15</Speaker><通讯框>||:<color=#00CCFF>收到，指挥官。</color>
-RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>收到！关闭雷达，开启电磁信号屏蔽，开启红外辐射遮蔽。</color>+<color=#00CCFF>可是隐形车罩……指挥官，我们需要尽快撤离，留在原地更危险。</color>
-RO635Mod(0)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:谁说我们要留在原地？+把艾莫号上的备用车开出来。
-RO635Mod(3)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>你是说，用前后车辆拉起车罩？</color>+<color=#00CCFF>确实，我们可以将辅助车辆接入艾莫号的管理系统，当作一个整体，并行前进，再用无人机补充视野。</color>+<color=#00CCFF>好的，我这就安排人手。</color>
-RO635Mod(3)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我来打头阵，为艾莫号引路。
-RO635Mod(4)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>太危险了，指挥官！您需要留在艾莫号内。</color>
-RO635Mod(4)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……如果你们受到强电磁干扰出现意外情况呢？领头的车辆是艾莫号的眼睛和方向标，不能出问题。
-RO635Mod(4)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>但您的安危是最高优先级！</color>
-RO635Mod(4)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:没时间了，立刻执行我的命令。
-RO635Mod(2)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>是，指挥官。</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Commander, drones report the road ahead is clear and passable.</color>
+()<Speaker>Commander</Speaker>||:Good. Let's move out.
+()<Speaker></Speaker>||<SE1>AirRaidWarning</SE1>:Woo— The city alarm starts blaring all of a sudden. The Commander's face darkens.
+()<Speaker>Commander</Speaker>||<SE1>AVG_tele_connect</SE1>:RO635, shut down the Elmo's radar and deploy the stealth canopy! +AR-15, keep a close eye on all the patients in the hall, make sure no one moves!
+AR15Mod(0)<Speaker>ST AR-15</Speaker><通讯框>||:<color=#00CCFF>Understood, Commander.</color>
+RO635Mod(0)<Speaker>RO635</Speaker><通讯框>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>Roger! Shutting down radar, activating EM shielding, activating IR masking.</color> +<color=#00CCFF>But the canopy... Commander, we should evacuate, staying here is riskier.</color>
+RO635Mod(0)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Who said we're staying put? +Bring out the auxiliary vehicles.
+RO635Mod(3)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>You mean, stretch the canopy between the front and rear vehicles?</color> +<color=#00CCFF>Yes... we can sync the auxiliary vehicles to the Elmo's system, move as one, and use drones to extend visibility.</color> +<color=#00CCFF>Understood, I'll assign crews right away.</color>
+RO635Mod(3)<Speaker>Commander</Speaker><通讯框><同时置暗>||:I'll take point. I'll lead the Elmo through.
+RO635Mod(4)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>That's too dangerous, Commander! You must remain on board the Elmo.</color>
+RO635Mod(4)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...And if EM jamming cripples your systems? The lead vehicle is the Elmo's eyes and compass—it cannot fail.
+RO635Mod(4)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>But your safety is the highest priority!</color>
+RO635Mod(4)<Speaker>Commander</Speaker><通讯框><同时置暗>||:No time. Execute the order.
+RO635Mod(2)<Speaker>RO635</Speaker><通讯框>||:<color=#00CCFF>Yes, Commander.</color>
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>AVG_Moto_Run</SE1><黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_Cloak_Whoosh</SE1><BIN>846</BIN>:刷——隐形吸波材料特制的青灰色车罩扬起，将艾莫号笼罩，前后车辆像一双手，拖拽着车罩的两端。+巴掌大的迷你无人机伴飞在艾莫号两侧，为RO635提供周边的视野。
-()<Speaker></Speaker>||:防空警报停了，城市陷入另人窒息的寂静。指挥官握着方向盘，在空无一人的高速上匀速前行，虽然RO635远程接管了这辆车，但指挥官仍然随时准备行动。+风吹动车罩，勾勒出艾莫号的轮廓。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||:天空中迟迟没有响起战斗机的嗡鸣，指挥官的心反而悬了起来，不停地从后视镜里观察法兰克福的天空。
-()<Speaker></Speaker>||:指挥官忽然看到法兰克福上空出现了数道白色轨迹。
-()<Speaker>指挥官</Speaker>||:是导弹？！+太好了不是轰炸……
-()<Speaker></Speaker>||:指挥官忍不住松了一口气，目前看起来，艾莫号受到空袭的可能性大大降低了。
-()<Speaker>指挥官</Speaker>||:不，一点都不好，不出现最好。
-()<Speaker></Speaker>||:但随即指挥官又忍不住猜测导弹的目标，以及可能造成的伤亡。+想到这几天的救援现场，想到那些眼泪与鲜血，指挥官只觉得五脏六腑沉甸甸的。
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BGM>BGM_Empty</BGM>:世界陡然变得模糊起来，指挥官只觉得周围的声音越来越飘渺……
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_Cloak_Whoosh</SE1><BIN>846</BIN>:Whooshhh— A bluish-grey canopy of radar-absorbent fabric unfurls, draping over the Elmo, pulled taut at both ends by two vehicles. +Palm-sized drones buzz alongside, feeding RO635 a full perimeter view.
+()<Speaker></Speaker>||:The air-raid sirens cut off, plunging the city into a suffocating silence. The Commander grips the wheel, cruising down the empty highway. RO635 has remote control, but the Commander is ready to act. +The wind rustles the canopy, outlining the Elmo beneath the fabric.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:Still no fighter engines in the sky. The Commander's unease only deepens as they glance constantly in the mirror at the sky above Frankfurt.
+()<Speaker></Speaker>||:Suddenly, white streaks cross the skyline.
+()<Speaker>Commander</Speaker>||:Missiles?! +Good, at least it's not bombers...
+()<Speaker></Speaker>||:The Commander breathes a sigh of relief. The chance of the Elmo being struck seems far lower now.
+()<Speaker>Commander</Speaker>||:No, not good. Better if nothing came at all.
+()<Speaker></Speaker>||:But speculation creeps in—what are the targets? How many casualties? +Memories of the rescue scenes during the last few days, of tears and blood, weigh heavily in the Commander's chest.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1><BGM>BGM_Empty</BGM>:The world blurs. The sounds around the Commander grow increasingly muffled...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:世界旋转翻覆，褪色，坠入无边的黑暗……
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:The world tilts, fades, and is plunged in endless black...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<边框>2</边框><BIN>4</BIN><黑屏2><回忆>:……+军营外，指挥官假装漫不经心地路过，眼睛一直寻找着熟悉的身影到来。
-()||<BGM>BGM_23S_Winter_Night</BGM><边框>2</边框>:终于，那个人带着飒爽的笑容出现。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:小孩，怎么突然来找我了？
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:哦，也没什么大事，就是前段时间休假，突然想起你的生日快到了，就随便买了点东西。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:两个月前休假就想到我的生日了？
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:……别啰嗦，你收好就行。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:哈哈，让我猜猜是什么。+牛肉罐头？
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:你以为我是你？会把这种铁罐头当礼物送人？
-()<Speaker>海琳</Speaker>||<边框>2</边框>:那……
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:算了，你别猜了，谅你也猜不到！
-()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:指挥官将一个小小的盒子塞给了海琳。+海琳轻柔地解开盒子上的缎带，打开盖子——
-()<Speaker>海琳</Speaker>||<边框>2</边框>:是百合花的项链！
-()<Speaker></Speaker>||<边框>2</边框>:盒子里静静躺着一条雕刻成百合花的银饰吊坠的项链，海琳将它取出，细细端详。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:你竟然还记得……
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:我记性好着呢，而且你也不只说过一次。+什么百合花是你最喜欢的花，什么看见它就让你感觉内心充满安宁希望。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:谢谢你，小孩。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:这有什么？要不是我们现在条件不允许，我还可以给你搞到真正的百合花的标本！+或者那种已经仿真到无比接近本体的假花。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:……
-()<Speaker></Speaker>||<边框>2</边框>:换做平常，海琳已经笑着弹指挥官的额头了。+但在指挥官的余光，海琳只是默默摩挲着手中的项链，眼角隐隐闪着泪光。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:……干嘛啊？收到条项链就感动成这样，不至于吧？
-()<Speaker>海琳</Speaker>||<边框>2</边框>:百合花……真是好久不见了……+小孩，这条项链不便宜吧？你就这样随便用掉了你的工资？
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:反正我没有别的家人，钱也没别的地方用。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:……+以前，我妈妈还在的时候，喜欢在家里的餐桌上摆放一束百合花。+不过每个月只会摆放一次，就在她发放薪水的那天。+后来战争爆发了，妈妈工作的工厂破产了，她就再也没有买过百合花了。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:……
-()<Speaker>海琳</Speaker>||<边框>2</边框>:等我有能力买了，百合花却好像从这个世界上销声匿迹了。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:不就是束花？你要是喜欢，我下次休假给你搞一把。+军营没地方放，就放你家里，等你回家了，一打开门就是香喷喷的百合！
-()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:海琳将项链放入指挥官的手里。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:小孩，来帮我戴上。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:哦。
-()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:海琳背过身去，指挥官小心地拨开碎发，将项链伸到海琳的颈上。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:……回家吧，小孩。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:回家？我都没有家人了，哪里来的家？
-()<Speaker>海琳</Speaker>||<边框>2</边框>:没有家人，就去成为别人的家人吧。+我参军的意义就是为了让你这样的小孩……能够安稳地度过后半生。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:别老把我当小孩！
-()<Speaker>海琳</Speaker>||<边框>2</边框>:以后叫我姐姐吧。+你没有家人，我也没有。+但在这里，我们就是家人。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:……谁要叫你姐姐！
-()<Speaker></Speaker>||<边框>2</边框><SE1>Rope</SE1>:年轻的指挥官别扭地扣好了项链，手却被海琳抓住。
-()<Speaker>海琳</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:……我厌恶战争。+我比任何人，都厌恶战争。+战争让我失去了亲人，让我失去了朋友，让我失去了导师。+也即将失去更多。+但我不得不战斗。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:为了金星勋章？
-()<Speaker>海琳</Speaker>||<边框>2</边框>:……也许呢。+金星勋章的条件很苛刻，也许我终其一生都拿不到……+不过，能在我活着的时候多保卫几个像你这样的小孩的生命，也足够了。
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:有多苛刻？你拿不到的话，就乖乖回家吧。+反正我肯定会拿到的。
-()<Speaker></Speaker>||<边框>2</边框>:海琳笑着转过身来。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:哈哈哈哈哈，不愧是我认识的小孩，最勇敢的苏联人。+姐姐心中永远的英雄！
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:……别肉麻。
-()<Speaker>海琳</Speaker>||<CGDelay>0.5</CGDelay><边框>2</边框>:我要是拿不到那枚金星徽章，你一定会替我拿到……+在我心里……+你会成为……
+()<Speaker></Speaker>||<边框>2</边框><BIN>4</BIN><黑屏2><回忆>:... +Outside the barracks, the Commander pretends to stroll by idly, eyes searching for a familiar figure.
+()||<BGM>BGM_23S_Winter_Night</BGM><边框>2</边框>:She appears at last, her stride brisk, her smile radiant.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Kid, what brings you here out of the blue?
+()<Speaker>Commander</Speaker>||<边框>2</边框>:Oh, nothing big. I was on leave and remembered it'd be your birthday soon, so I bought you something.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:You thought of that while you were on leave two months ago?
+()<Speaker>Commander</Speaker>||<边框>2</边框>:...Don't make a fuss. Just take it.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Haha, let me guess. +Canned beef?
+()<Speaker>Commander</Speaker>||<边框>2</边框>:You think I'm you? I don't give tin cans as gifts.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Then...
+()<Speaker>Commander</Speaker>||<边框>2</边框>:Oh, forget it. You'll never guess!
+()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:The Commander shoves a small box into Marina's hands. +She gently unties the ribbon and opens the lid—
+()<Speaker>Marina</Speaker>||<边框>2</边框>:A lily necklace!
+()<Speaker></Speaker>||<边框>2</边框>:Inside the box lay a silver pendant, carved in the shape of a lily. She lifts it out and studies it closely.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:You remembered...
+()<Speaker>Commander</Speaker>||<边框>2</边框>:I've got a good memory. Besides, you've said it more than once. +How lilies are your favorite, how they fill you with peace and hope.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:...Thank you, kid.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:It's nothing. If conditions were better, I'd even get you a real specimen! +Or an artificial replica that's almost like the real deal.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:...
+()<Speaker></Speaker>||<边框>2</边框>:Normally, Marina would've flicked their forehead with a laugh. +But she only stroked the necklace silently, her eyes glistening faintly.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:...Seriously? A necklace makes you cry? Is it really such a big deal?
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Lily... It's been so long... +Kid, this wasn't cheap, was it? You blew your wages just like that?
+()<Speaker>Commander</Speaker>||<边框>2</边框>:I've got no family to spend it on anyway.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:... +Back when my mother was still alive, she'd place lilies on the dining table. +Only once a month—on payday. +When war broke out, the factory where she worked went under, and she never bought them again.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:...
+()<Speaker>Marina</Speaker>||<边框>2</边框>:By the time I started making a living, lilies had pretty much vanished from the world.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:They're just flowers. If you like them so much, I'll get you some next time I go on leave. +If you can't keep them at the barracks, put them in your home, they'll be the first thing you smell when you walk through the door!
+()<Speaker></Speaker>||<边框>2</边框><SE1>ClothingUp</SE1>:Marina hands the necklace back to the Commander.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Help me put it on, Kid.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:Okay.
+()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:She turns around. The Commander carefully brushes her hair aside and drapes the necklace around her neck.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:...Go home, kid.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:Home? I've got no family. What home?
+()<Speaker>Marina</Speaker>||<边框>2</边框>:No family? Then become someone's family. +That's why I enlisted—so that kids like you... can live your life in peace.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:Stop treating me like a kid!
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Then call me sister. +You've got no family, and neither do I. +But here, we're family.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:...Like hell I'd call you sister!
+()<Speaker></Speaker>||<边框>2</边框><SE1>Rope</SE1>:The young Commander awkwardly fastens the clasp, but she catches their hand.
+()<Speaker>Marina</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:...I hate war. +More than anyone. +It took my family, my friends, my mentors. +It will take more still. +But I must fight.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:For the Gold Star medal?
+()<Speaker>Marina</Speaker>||<边框>2</边框>:...Maybe. +The requirements are harsh. I may never earn it... +But if I can keep more kids like you alive, that's enough.
+()<Speaker>Commander</Speaker>||<边框>2</边框>:How harsh? If you can't get it, just go home. +I'll get it myself.
+()<Speaker></Speaker>||<边框>2</边框>:Marina laughs aloud as she turns back around.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Hahahahaha, that's the kid I know. The bravest Soviet. +Forever my hero!
+()<Speaker>Commander</Speaker>||<边框>2</边框>:...Don't get sappy.
+()<Speaker>Marina</Speaker>||<CGDelay>0.5</CGDelay><边框>2</边框>:If I can't win that medal, I'm sure you'll win it for me... +In my heart... +You will become...
 ()||<黑屏1><边框>2</边框>:
 ()<Speaker></Speaker>||<关闭蒙版><黑屏2><BIN>9</BIN>:
 ()||<黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<SE1>AVG_2023Slow_Heart_Monitor1</SE1><BIN>160</BIN><睁眼><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<BGM>BGM_ev2412_Yaroslavna</BGM>:滴、滴……监护仪器规律地低鸣。+手指和脸颊仿佛还能感受到被阳光照晒的温度，指挥官睁开眼，却看到一抹金色的夕阳，指挥官一时有些恍惚。
-M4 SOPMOD IIMod(2)<Speaker>M4 SOPMOD II</Speaker>||:哇，指挥官你醒了！
-()<Speaker>指挥官</Speaker>||<SE1>ClothingUp</SE1>:我……
-RO635Mod(2)<Speaker>RO635</Speaker>||:医生说你是过度疲劳，别的倒没什么大碍，你还有哪里不舒服吗？
-()<Speaker>指挥官</Speaker>||:等等，我睡了多久？
-RO635Mod(0)<Speaker>RO635</Speaker>||:大约1个小时。+放心，物资还没装卸完，艾莫号能源补给也还需要一会儿。+不过……
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:RO635低下头，正要说什么，却见一个穿着白大褂的医生风一般卷进来，然后呼啦啦一群人跟了进来。
-()<Speaker>布罗彻院长</Speaker>||:我是曼海姆人民医院的院长布罗彻，指挥官，感谢你搭建的医疗系统临时通讯平台，帮了大忙了！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:布罗彻院长大力与指挥官握手。
-()<Speaker>指挥官</Speaker>||:呃，谢谢……+但是我得走了，法兰克福还有很多事情等着我。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官说着就要拔掉输液管。
-()<Speaker>布罗彻院长</Speaker>||:别急，你们需要的医疗物资我正在调配，很快就会送过来，一定不耽误你们的时间。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:指挥官看向RO635，后者点点头，肯定了布罗彻院长的说法。
-()<Speaker>布罗彻院长</Speaker>||:至于圣维森的事情……我很遗憾，失去弗雷迪是所有人的损失……
-()<Speaker>指挥官</Speaker>||:什么？
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:指挥官不敢相信自己的耳朵。
-()<Speaker>布罗彻院长</Speaker>||:一个小时前，敌军的导弹袭击了美因茨儿童医院和圣维森医院……
-()<Speaker>指挥官</Speaker>||:……！
-()<Speaker></Speaker>||:一种巨大的荒诞感击中了指挥官。
-()<Speaker>指挥官</Speaker>||:不可能，我还没有转运第二批伤患！他还在等我们的支援！
-RO635Mod(2)<Speaker>RO635</Speaker>||:Px4风暴已离线……+驻守其它医院的人形证实，圣维森医院遭到袭击，已经沦为废墟。+今天敌军发起多次导弹袭击，法兰克福伤亡可能超过两千人……
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:指挥官拔掉输液管，蹭地站起来，却一阵晕眩，SOP2和RO635急忙扶住了指挥官。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>||:指挥官！你还没有完全休息好！
+()<Speaker></Speaker>||<BGM>BGM_ev2412_Yaroslavna</BGM>:Beep... Beep... The monitor hums in a steady rhythm. +The warmth of sunlight still seems to linger on their fingers and cheeks. The Commander's eyes open, but the unexpected brush of golden sunset leaves them momentarily dazed.
+M4 SOPMOD IIMod(2)<Speaker>M4 SOPMOD II</Speaker>||:Oh, Commander! You're awake!
+()<Speaker>Commander</Speaker>||<SE1>ClothingUp</SE1>:I...
+RO635Mod(2)<Speaker>RO635</Speaker>||:The doctor says it's just exhaustion, nothing else serious. Do you feel any other discomfort?
+()<Speaker>Commander</Speaker>||:Hang on... How long have I slept?
+RO635Mod(0)<Speaker>RO635</Speaker>||:About an hour. +Don't worry, the supplies aren't fully loaded yet, and it's going to take a while to refuel the Elmo. +But...
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:RO635 bows her head and is just about to speak, when a doctor in a white coat sweeps in like a gust of wind, followed by a crowd.
+()<Speaker>Director Brücher</Speaker>||:I'm Brücher, Director of Mannheim People's Hospital. Commander, thank you for setting up the temporary medical communication platform; it has helped us tremendously!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Director Brücher shakes the Commander's hand firmly.
+()<Speaker>Commander</Speaker>||:Uh, thank you... +But I need to go. I'm needed in Frankfurt for a lot of things.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander starts pulling at the IV line.
+()<Speaker>Director Brücher</Speaker>||:Don't rush. The medical supplies you require are being prepared; they'll be delivered soon. I promise we won't cause you any delay.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander glances at RO635, who nods, confirming Director Brücher's words.
+()<Speaker>Director Brücher</Speaker>||:As for St. Vincent's... I'm very sorry. Losing Fred is a loss to us all...
+()<Speaker>Commander</Speaker>||:What?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:The Commander cannot believe their ears.
+()<Speaker>Director Brücher</Speaker>||:An hour ago, enemy missiles struck the Children's Hospital of Mainz and St. Vinzenz Hospital...
+()<Speaker>Commander</Speaker>||:...!
+()<Speaker></Speaker>||:A crushing sense of absurdity hits the Commander.
+()<Speaker>Commander</Speaker>||:Impossible! I haven't transferred the second group of patients yet! He's still waiting for our aid!
+RO635Mod(2)<Speaker>RO635</Speaker>||:Px4 Storm is offline... +The Dolls stationed at other hospitals also confirmed it—St. Vinzenz Hospital was hit and reduced to rubble. +The enemy has launched multiple missile strikes today; casualties in Frankfurt may exceed 2,000...
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:The Commander tears out the IV line and springs to their feet—only to stagger from dizziness. SOP-II and RO635 rush forward to steady them.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker><Shake>||:Commander! You haven't fully recovered yet!
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:……+我们现在回法兰克福，立刻！
-RO635Mod(2)<Speaker>RO635</Speaker>||:……
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:<size=50>RO！</size>
-RO635Mod(0)<Speaker>RO635</Speaker>||:我去做准备，SOP2，保护好指挥官。
-M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:可是……好吧……
-()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:RO635起身离开，SOP2扶着指挥官慢慢向外走。
-()<Speaker>布罗彻院长</Speaker>||:指挥官，你不是德国人，也不在政府机构任职，为什么你要做这一切？
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:指挥官呆立在原地。
+()<Speaker>Commander</Speaker>||:... +We return to Frankfurt. Now!
+RO635Mod(2)<Speaker>RO635</Speaker>||:...
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:<size=50>RO!</size>
+RO635Mod(0)<Speaker>RO635</Speaker>||:I'll make the preparations. SOP-II, keep the Commander safe.
+M4 SOPMOD IIMod(3)<Speaker>M4 SOPMOD II</Speaker>||:But... Alright...
+()<Speaker></Speaker>||<SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:RO635 leaves. SOP-II props the Commander up as they slowly head outside.
+()<Speaker>Director Brücher</Speaker>||:Commander, you're not German. You don't serve in any government office. Why are you doing all this?
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:The Commander freezes in place.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>4</BIN><边框>2</边框><回忆><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:你只是一名普通军人，为什么要做这一切？
-()<Speaker>海琳</Speaker>||<边框>2</边框>:理由很重要吗？
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:很重要，我想知道。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:多换几枚勋章挂在胸前不好吗？
-()<Speaker>指挥官</Speaker>||<边框>2</边框>:你撒谎。
-()<Speaker>海琳</Speaker>||<边框>2</边框>:……+既然那些高高在上的家伙们不在意平民的死活，那么我来在乎。+这就是军人拿起枪的意义。
+()<Speaker>Commander</Speaker>||<边框>2</边框><CGDelay>0.5</CGDelay>:You're just an ordinary soldier. Why are you doing this?
+()<Speaker>Marina</Speaker>||<边框>2</边框>:Does it matter why?
+()<Speaker>Commander</Speaker>||<边框>2</边框>:It matters. I want to know.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:What's wrong with wanting more medals on my chest?
+()<Speaker>Commander</Speaker>||<边框>2</边框>:You're lying.
+()<Speaker>Marina</Speaker>||<边框>2</边框>:... +Since those lofty people don't care about civilian lives, then I will care. +That is why a soldier picks up a gun.
 ()||<黑屏1><边框>2</边框>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>160</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker>指挥官</Speaker>||:没人在意平民的死活，总得有个人站出来，做点什么吧。+这就是我拿起枪的意义。
+()<Speaker>Commander</Speaker>||:If no one cares for the civilians, someone has to stand up and do something. +That is the reason I pick up a gun.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1><黑屏2><BIN>764</BIN><Night>:……
-()<Speaker></Speaker>||:圣维森医院的废墟前。消防车扑灭了火焰，吊起一盏大灯。+民众排成一列列队伍，徒手清理着废墟上的碎块，每当发现一具遗体，便有人上前将他们抬走。
-RO635Mod(2)<Speaker>RO635</Speaker>||<SE1>ClothingUp</SE1>:指挥官……+这是Px4风暴的心智核心。+这是老院长的工牌。
-()<Speaker></Speaker>||:借着惨白的灯光，指挥官看到工牌上染着血迹，沾满灰尘。
-RO635Mod(2)<Speaker>RO635</Speaker>||:另外，我们送到隔离病房的十五位伤员，他们……都……
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:双腿好像柔软成了面团，指挥官缓缓坐在废墟上。
-RO635Mod(2)<Speaker>RO635</Speaker>||:指挥官……
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:早晨的告别犹在眼前，可现在，只有一地废墟，几百具尸体……+不过是一次太阳升起又落下的间隙，一切都变了。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:RO，我没事。+过一会儿我们去其它医院送物资……+给我一分钟……
+()<Speaker></Speaker>||<SE1>AVG_Alarm_Distance</SE1><黑屏2><BIN>764</BIN><Night>:...
+()<Speaker></Speaker>||:Outside the ruins of St. Vinzenz Hospital, fire trucks extinguish the flames and raise the floodlights. +Civilians form long lines, clearing the rubble by hand. Each time a body is found, someone steps forward to carry it away.
+RO635Mod(2)<Speaker>RO635</Speaker>||<SE1>ClothingUp</SE1>:Commander... +This is Px4 Storm's neural core. +And this is the old director's work badge.
+()<Speaker></Speaker>||:In the harsh white light, the Commander peers at the badge, bloodstained and thick with dust.
+RO635Mod(2)<Speaker>RO635</Speaker>||:Also, the 15 patients we sent to the quarantine ward... they... all...
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander's legs feel soft as dough; they sink slowly onto the rubble.
+RO635Mod(2)<Speaker>RO635</Speaker>||:Commander...
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:The farewell from this morning still echoes in their ears, but now there is only rubble, hundreds of corpses... +In the space between one sunrise and sunset, everything has changed.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:I'm fine, RO. +In a moment, we'll bring supplies to the other hospitals... +Just give me a minute...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>276</BIN><CGDelay>0.5</CGDelay><回忆>:
-()<Speaker>弗雷迪•艾德里奇</Speaker>||:民主德国人民军第一装甲师，前陆军军医弗雷迪•艾德里奇，感谢您的帮助！
+()<Speaker>Fred Erdrich</Speaker>||:Fred Erdrich, former army medic of the 1st Armored Division, Nationale Volksarmee of the German Democratic Republic, at your service. Thank you for your aid!
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<关闭蒙版><CGDelay>0.5</CGDelay>:工牌、心智核心。将两样东西捧在掌心，泪水不知不觉模糊了指挥官的双眼。
-()||<黑点1>:
+()<Speaker></Speaker>||<关闭蒙版><CGDelay>0.5</CGDelay>:The badge and the neural core. The Commander cradles them both in their palms. Tears quietly blur their vision.
+()||<黑点1>:

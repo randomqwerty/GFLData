@@ -1,113 +1,113 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>41</BIN><BGM>BGM_ev2412_2064</BGM>:……美因茨能源站。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake><SE1>AVG_Bomber_Napalm</SE1>:轰隆——+熊熊烈火灼烧着能源站的身躯，点点火星飞舞在空中。+法尔克调试好设备后，夏朵利兹快步走上前进行报道。
+()<Speaker></Speaker>||<黑屏2><BIN>41</BIN><BGM>BGM_ev2412_2064</BGM>:...Mainz Power Station.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake><SE1>AVG_Bomber_Napalm</SE1>:Boom! +Raging flames consume the station, scattering sparks through the air. +Once Falk finishes adjusting the equipment, Shadowless strides forward to begin her report.
 ()||<黑点1><SE1>AVG_tele_connect</SE1>:
 ()<Speaker></Speaker>||<common_effect>%%code=202412_LIVE%%</common_effect>:
 ()<Speaker></Speaker>||<BIN>41</BIN><黑点2><CGDelay>0.5</CGDelay>:
-NPC-Shadowless(3)<Speaker>夏朵利兹</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||:<color=#00CCFF>各位观众，我是DDR2台记者夏朵利兹，现在我正站在美因茨区的能源站前。</color>+<color=#00CCFF>大约1小时前，这里突发爆炸事故，现在整个美因茨区的能源供应已经停止。</color>+<color=#00CCFF>据这里的工作人员表示，事发时，由于能源供应紧张，他们正在里面集中加班，这也导致此次伤亡惨重……</color>+<color=#00CCFF>目前粗略统计，这场事故已经造成78人死亡，237人受伤，还有多人失踪。</color>+<color=#00CCFF>而附近的群众表示，因为通讯中断，即便他们立刻派出了代表前往警局和消防局请求援助，但无人响应，所有的工作人员似乎都在出勤状态。</color>+<color=#00CCFF>截至采访发出前，这里依旧没有抵达一名警员、消防员、医务工作者。</color>+<color=#00CCFF>这里需要援助！</color>
+NPC-Shadowless(3)<Speaker>Shadowless</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||:<color=#00CCFF>This is Shadowless from DDR2. I am standing in front of the Mainz District Power Station.</color> +<color=#00CCFF>About an hour ago, a sudden explosion erupted here. The entire Mainz District is now without power.</color> +<color=#00CCFF>According to staff on site, they were working overtime inside due to energy shortages wen the accident occurred. This has led to devastating casualties...</color> +<color=#00CCFF>Preliminary figures show 78 dead, 237 injured, with many still missing.</color> +<color=#00CCFF>Nearby residents report that because communications are down, despite immediately sending representatives to the police and fire departments to request aid, no response has come. All staff seem to be already dispatched.</color> +<color=#00CCFF>As of this broadcast, not a single police officer, firefighter, or medic has arrived at the scene.</color> +<color=#00CCFF>Help is needed here!</color>
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1><bg_move>%%pivot_x=0.47%%pivot_y=0.55%%scale=2%%duration=0.7%%</bg_move>:
-()<Speaker></Speaker>||:镜头推进，放大了夏朵利兹身后仍在燃烧的建筑。
+()<Speaker></Speaker>||:The camera pushes in, zooming in on the burning structure behind Shadowless.
 ()<Speaker></Speaker>||<bg_move>%%pivot_x=0.6%%pivot_y=0.55%%scale=2%%duration=2%%</bg_move>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><震屏3><SE1>AVG_lifttable</SE1>:一扇被高温炙烤到扭曲变形的窗框正从高层坠落……
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><震屏3><SE1>AVG_lifttable</SE1>:A window frame, warped and twisted by the heat, breaks loose and falls from the upper floors...
 ()<Speaker></Speaker>||<SE1>AVG_Camera_Focus</SE1><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0.7%%</bg_move><CGDelay>0.7</CGDelay>:
-NPC-Shadowless(3)<Speaker>夏朵利兹</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||:<color=#00CCFF>另外，部分能源站的幸存工作者还证实，爆炸并非因为空袭，而是从埋设在地底的运输管线发生。</color>+<color=#00CCFF>目前尚不清楚爆炸的原因，我们将会持续关注后续。</color>
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:法尔克点点头，关闭了录像机。
+NPC-Shadowless(3)<Speaker>Shadowless</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||:<color=#00CCFF>Additionally, surviving station workers confirm that the explosion was not caused by an air raid, but originated from the underground pipelines.</color> +<color=#00CCFF>The cause remains unclear. We will continue to follow this story.</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Falk nods and shuts off the camera.
 ()||<黑点1><SE1>AVG_tele_disconnect</SE1>:
 ()<Speaker></Speaker>||<关闭蒙版><黑点2><BIN>9</BIN>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>41</BIN><黑点2>:夏朵利兹松了口气，正准备走向法尔克，余光突然瞥见一个站在不远处的男人。+那是一张既熟悉又陌生的面庞。
-NPC-Shadowless(3)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||<CGDelay>0.5</CGDelay>:
-NPC-Shadowless(3)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:法尔克，请给我一点私人时间可以吗？
-()<Speaker></Speaker>||:法尔克看了一眼夏朵利兹的方向，体贴地没有追问，而是拿起录像机默默离开了一点。+恰好听不见又恰好能看见的位置。+不远处的男人轻轻地移动了过来。
-NPC-Keven(6)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:……好久不见，夏朵。
-NPC-Keven(6);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:……你为什么会在这里？
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:只是路过的时候，恰巧看见了你。+或者说，没想到，在这里居然能看见你。
-NPC-Keven(6);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:……我也很意外，凯文。+燃烧后的法兰克福，还有机会再次重建吗？
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:总是需要重建的，总会有人去重建的。
-NPC-Keven(6);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:……凯文，你其实不适合做特工。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:为什么？
-NPC-Keven(7);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:因为你在撒谎。+你不是恰好看见了我，你是刻意来找我。
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:……也许只是因为你对我太熟悉了。
-NPC-Keven(6);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:也许是因为我们家里出过两位斯塔西特工。
-NPC-Keven(7)<Speaker>J</Speaker>||:莱特的事情……我还一直欠你一句道歉。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:他面带歉意地别开视线。
-NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:……这是他自己选择的路。+从母亲去世的时候，我就知道，他一定会走上这条路。+就跟你一样。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:……
-NPC-Keven(7);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:如果你找我只是为了说这个，那就算了。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:我有事去找了DDR2的人，他们说你……现在在外面做战地记者。+我想……以我对局势的判断，你应该会在这种地方。
-NPC-Keven(7);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:为什么？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:能源站的话，肯定是重点目标吧。
-NPC-Keven(7);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:嗯，所有人都知道。+但还是有很多人选择继续在这里工作。+现在光是粗略统计就有78人死亡，237人受伤。+因为救援不及时，这里面的绝大部分人都会死。+死在自己的工作岗位上。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:……
-NPC-Keven(7);NPC-Shadowless(7)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:这就是那些大人物……掌握局势的大人物……想要的吗？+无数平民因为他们的一个念头付出生命和血泪。
-NPC-Shadowless(7)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:……在他们的眼中，这些只是数字，以及必须付出的代价。+现在他们忙碌的……甚至是如何内斗……以及清洗……
-NPC-Shadowless(7)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||<CGDelay>0.5</CGDelay>:而真正面临危险的人民，他们口口声声的选票拥有者。+却什么也得不到。
-NPC-Keven(11)<Speaker>J</Speaker>||:……对不起。
-NPC-Keven(11);NPC-Shadowless(7)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:我不是在骂你。+我想骂的人，也不会在意我的辱骂。
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(7)||:我知道，但我只能说一句对不起。+夏朵，好像我们之间，一直是我在说对不起，但是除了这句，我什么也说不了。
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(7)||:我和莱特小时候都很向往成为乌里希那样为了理想而献身的传奇特工。+但是这个时代……这个时代已经没有理想主义者了……
-NPC-Keven(11);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:我知道……我比谁都清楚。+现在是末法时代。所有人嘴里说着的东西，连他们自己都不信。
+()<Speaker></Speaker>||<BIN>41</BIN><黑点2>:Shadowless exhales in relief. Just as she is about to walk back toward Falk, her eyes catch a man standing not far away. +A face both familiar and estranged.
+NPC-Shadowless(3)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||<CGDelay>0.5</CGDelay>:
+NPC-Shadowless(3)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Falk, can you please give me a minute?
+()<Speaker></Speaker>||:Falk gives her a glance. He asks no questions and quietly steps aside with the camera. +He stops at a spot that's close enough to keep an eye on her, but out of earshot. +The man nearby slowly approaches.
+NPC-Keven(6)<Speaker>J</Speaker>||<SE1>ClothingUp</SE1>:...It's been a long time, Shadow.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:...Why are you here?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:I was passing by... and just so happened to see you. +I really didn't expect to see you here.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:...I'm surprised too, Kevin. +Say, do you think Frankfurt, having been razed to the ground, can ever be rebuilt?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:It's got to be rebuilt. There will always be someone to rebuild.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:...Kevin, you're really not suited to be a special agent.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:Why not?
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Because you're lying. +You didn't just "happen to see me". You came looking for me.
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:...Maybe you just know me too well.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Or maybe it's because our family has produced two Stasi agents.
+NPC-Keven(7)<Speaker>J</Speaker>||:About Light... I still owe you an apology.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:He looks away, his face laden with guilt.
+NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:...It was his choice. +From the moment our mother died, I knew he would take that path. +Just like you.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:...
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:If you came only to say this, then forget it.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:I asked around DDR2. They said you're working... as a war reporter now. +I thought, given the situation, I might find you here.
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Why?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:Because a power station is an obvious target.
+NPC-Keven(7);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:True, everyone knows that. +Yet so many still chose to stay and work here. +Already 78 dead, 237 wounded... +Most of them will die from the lack of rescue. +They'll die at their posts.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Shadowless(8)||:...
+NPC-Keven(7);NPC-Shadowless(7)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Is this what the big shots... the ones in power... want? +Countless civilians giving their lives for the whims of a few.
+NPC-Shadowless(7)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:...To them, these are just numbers. Necessary sacrifices. +Right now, they're more concerned about... winning the power struggle and purging their enemies...
+NPC-Shadowless(7)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||<CGDelay>0.5</CGDelay>:While the people truly in danger—their so-called voters... +...Get absolutely nothing.
+NPC-Keven(11)<Speaker>J</Speaker>||:...I'm sorry.
+NPC-Keven(11);NPC-Shadowless(7)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:I'm not blaming you. +The ones I'd blame wouldn't care about my words anyway.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(7)||:I know. But all I can say is sorry. +Shadow, it feels like I've only ever said sorry to you. And still, I have nothing else to give other than my apologies.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(7)||:When we were kids, Light and I dreamed of being legends like your father Ulrig—agents who died for their ideals. +But this era... this era has no place for idealists anymore...
+NPC-Keven(11);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:I know... I know that better than anyone. +This is the twilight age. People mouth empty words that even they themselves no longer believe.
 NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||<CGDelay>0.5</CGDelay>:
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||<SE1>ClothingUp</SE1>:你觉得这条路，我是不是走错了？
-NPC-Keven(11);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:凯文……你现在问我这个问题，还有意义吗？
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:那你呢？你现在的路，是自己想要走的吗？
-NPC-Keven(6);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:身为斯塔西的家属，从一出生就被监视着。+小时候我暗暗发誓，长大之后我要摆脱这一切，我也要成为监视别人的人。
-NPC-Keven(6);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:但是后来，我才知道这是多么可笑的一件事情。+媒体，也仅仅是一份工作。+这世上的绝大部分工作，仅仅是一份工作而已。+只有小时候的我们，才会误会有些工作可以改变这个世界。
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||:也许从出生那一刻就注定了，我们是没办法成为改变世界的英雄的。
-NPC-Keven(11);NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||:但是，人既然活着，就总要做点什么。+做一点自己觉得非做不可的事情。
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||:非做不可……+你有什么非做不可的事？
-NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker><Scale>0.9</Scale>||<SE1>ClothingUp</SE1>:……现在我正在做这件事。
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||<SE1>ClothingUp</SE1>:...Do you think I've chosen the wrong path?
+NPC-Keven(11);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Kevin... What's the point in asking me that now?
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-Shadowless(8)||:What about you? Are you walking a path that you chose yourself?
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:As a child born of a Stasi agent, I was watched from birth. +When I was young, I swore that one day I'd break free, that I would be the one watching others instead.
+NPC-Keven(6);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:Later, I realized how ridiculous that was. +Media is just a job. +Most jobs in this world are just jobs. +Only as children did we have the delusion that some jobs could change the world.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||:Maybe from the moment we were born, we were destined never to be heroes who reshape the world.
+NPC-Keven(11);NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||:But since we live, we've got to do something. +Something that we feel compelled to do. Something that has to be done.
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Shadowless(8)||:Something that has to be done... +What is that for you?
+NPC-Shadowless(8)<Speaker>Shadowless</Speaker><Scale>0.9</Scale>||<SE1>ClothingUp</SE1>:...What I'm doing now.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-NPC-Keven(6)<Speaker>J</Speaker>||:……我明白了。
+NPC-Keven(6)<Speaker>J</Speaker>||:...I understand.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:……指挥室。+来自加密频道的通讯响起。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||<BGM>BGM_ev2412_Yaroslavna</BGM>:<color=#00CCFF>是我，指挥官。</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:伊阿索之匣的位置已经收到，多谢你。+我会安排小队去处理。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>我只是卖一个消息而已，真正动手的人是你。</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……这时候你还能够想着把消息告诉我，才是最重要的。+我相信斯塔西应该有自己的任务。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>其实我只是觉得，有些事情，只有你才会愿意去做。</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……谢谢。
-NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>应该我谢谢你。毕竟这是我的国家，这是我的同胞。</color>
-NPC-Keven(7)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……不，J探员。+当他们在我眼底的时候，他们也是我的同胞。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>为什么？</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我想这是我活到现在的……非做不可的事情。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>非做不可吗？</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:嗯，非做不可。+其实在退役后很长时间，我都忘记了自己当年为什么拿起枪。+我遗忘了遥远的……过去的自己所许下的誓言。+原来我也曾经答应过别人。+成为英雄，然后拿到属于英雄的荣耀和徽章。
-NPC-Keven(11)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>谁小时候没说过几句傻话？我以前也说过长大要做个除恶惩奸的英雄。</color>
-NPC-Keven(11)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我觉得小时候的话不是傻话。+只是那时候的我们还有理想。+而现在……大家早就忘记了什么是理想，成年人之间似乎早就只剩下利益了。
-NPC-Keven(11)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>……</color>
-NPC-Keven(11)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:所以现在还有什么是我可以做的吗？+如果可以，我想多做一些事情。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>指挥官，你变了。</color>+<color=#00CCFF>现在的你好像没有在柏林时那么消极了。</color>+<color=#00CCFF>为什么？</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……因为我知道自己到底想要什么。
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>是吗？我明白了。</color>+<color=#00CCFF>如果你还有余力的话，可以考虑修复一下公路或者能源提供单位。</color>+<color=#00CCFF>这一轮空袭和伊阿索之匣，都是冲着这些设施去的。</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:我明白了，现在政府出动抢修队伍了吗？预计修复时间是多少？
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>政府目前派出了所有的抢修人员，但是你知道的，进度并不理想。</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:为什么？
-NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>受轰炸影响，市内的交通目前处于瘫痪状态……抢修人员只能步行抵达现场。</color>+<color=#00CCFF>而且因为之前的《人形安全临时条例》的影响，现在整个法兰克福能使用的人形并不多，可能最多的都在你们艾莫号上了。</color>
-NPC-Keven(6)<Speaker>指挥官</Speaker><通讯框><同时置暗>||:……我知道了。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:划开平板，指挥官检视目前待命的队伍。
-()<Speaker>指挥官</Speaker>||:让404找出抢修人员现在的坐标，派遣附近的小队前去支援。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:是。
-()<Speaker></Speaker>||:站在寂静的冬夜，肆意而来的寒风呼啸着包裹硝烟。
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><SE1>AVG_tele_connect</SE1>:...Command room. +A call comes through an encrypted comms channel.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||<BGM>BGM_ev2412_Yaroslavna</BGM>:<color=#00CCFF>It's me, Commander.</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:I received the possible locations of the Iaso's Boxes. Thank you. +I'll dispatch a team.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>I only passed you the information. You're the one who's doing the real work.</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...What matters is you thought to pass it to me. +I'm sure the Stasi has its own missions.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>I just thought... there are some things that only you would be willing to do.</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...Thank you.
+NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>No, thank YOU. After all, this is my country. My people.</color>
+NPC-Keven(7)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...No, Agent J. +When they're in my sight, they're my people too.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Why?</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...Because this is something... that I absolutely have to do.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>It's something that has to be done?</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Yes, absolutely. +For a long time after I left the service, I'd forgotten why I first picked up a gun all those years ago. +I forgot the distant promise... that my past self had made. +But I once promised someone... +...To become a hero, to win the medals and the glory.
+NPC-Keven(11)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Who hasn't said silly things as a child? I once said I'd grow up to punish evil and defend the weak.</color>
+NPC-Keven(11)<Speaker>Commander</Speaker><通讯框><同时置暗>||:I don't think children's words are silly. +It's just that we still had ideals back then. +But now... everyone has forgotten their ideals. In the world of grown-ups, there is only interest.
+NPC-Keven(11)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>...</color>
+NPC-Keven(11)<Speaker>Commander</Speaker><通讯框><同时置暗>||:So tell me—what else can I do? +If I can, I want to do more.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>You've changed, Commander.</color> +<color=#00CCFF>You're not as cynical as you were in Berlin.</color> +<color=#00CCFF>Why?</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...Because now I know what I truly want.
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Is that so? I see.</color> +<color=#00CCFF>If you still have the capacity, consider repairing roads or power stations.</color> +<color=#00CCFF>The air raids and the Iaso's Boxes are both targeting such infrastructure.</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:I understand. Has the government deployed repair teams? How long will the repairs take?
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>They've sent all available crews, but as you know, progress is poor.</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:Why?
+NPC-Keven(6)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>The bombing has crippled all transport in the city... Crews can only reach sites on foot.</color> +<color=#00CCFF>And because of the "Interim Regulations for Doll Security", Frankfurt has very few Dolls available—most of them are probably on board the Elmo with you.</color>
+NPC-Keven(6)<Speaker>Commander</Speaker><通讯框><同时置暗>||:...I see.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:The Commander turns on their tablet and looks through the teams currently on standby.
+()<Speaker>Commander</Speaker>||:Have 404 locate the repair crews and dispatch nearby squads to assist.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position>||:Yes, Commander.
+()<Speaker></Speaker>||:In the silent winter night, the frigid wind howls through the smoke of war.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>779</BIN><黑屏2><Night>:……法兰克福，美因茨大学地铁站。+在喧闹了一天后，人们都沉沉睡去。+狼狈地缩在草率铺垫过的地板上，发出此起彼伏的鼾声，或是低沉地小声地抽泣。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>ClothingUp</SE1>:奈乐，你也该休息了。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:嗯，我再去检查一下那几个危重病患的情况就休息。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:看着奈乐满面倦容却又两眼闪着光的样子，阿玛瑞丝想起了和她的第一次见面。+不过是几天前的事。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<黑点1>:为什么，奈乐？
-()<Speaker></Speaker>||<黑点2><BIN>813</BIN><黑点1>:奈乐没有说话，只是将自己的双手展示给阿玛瑞丝。+经过数日的劳累，这双手显得干燥枯瘦，即便经过细致的清理，指缝和掌纹间依然残留着一些污迹。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<黑点2><BIN>779</BIN><Night>:你的手怎么了？
-NPC-Nele(5)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||<CGDelay>0.5</CGDelay>:
-NPC-Nele(5)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:玛莎死前说的那些话让我很害怕。
-NPC-Nele(5);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:她是一个能蛊惑人心的女人。
-NPC-Nele(4)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:但我现在不怕了。+我听见了自己的声音，我想要去救人，去帮助更多的人。+而走在这条路上，手上一定会反反复复地染上血迹。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:阿玛瑞丝看向奈乐，她的眼里只有平静和喜悦。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||<CGDelay>0.5</CGDelay>:这就是我做这一切的原因。+因为我想要这么做，阿玛瑞丝。
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>779</BIN><黑屏2><Night>:...Johannes Gutenberg University metro station, Frankfurt. +After a day of chaos, the people slumber deeply. +They lie huddled on makeshift bedding, their snores and muffled sobs rising and falling.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>ClothingUp</SE1>:Nele, you should get some rest too.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Mm. I'll just check on the critical patients once more, then I'll rest.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:Seeing Nele's exhausted face, now lit with unwavering determination, Amaris recalls their first meeting. +It was just days ago.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<黑点1>:Why, Nele?
+()<Speaker></Speaker>||<黑点2><BIN>813</BIN><黑点1>:Nele does not answer. Instead, she holds out her hands. +After days of toil, they look dry and frail. Even after careful washing, stains linger in the lines of her palms and fingers.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<黑点2><BIN>779</BIN><Night>:What's wrong with your hands?
+NPC-Nele(5)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||<CGDelay>0.5</CGDelay>:
+NPC-Nele(5)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:Martha's last words scared me deeply.
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:She was a witch who spewed all kinds of poison.
+NPC-Nele(4)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:But I'm not scared anymore. +I can now hear my own voice. I want to save lives, to help more people. +I know that walking this path, my hands will be stained with blood again and again.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:Amaris looks at Nele. In her eyes, there is only peace and joy.
+NPC-Nele(4)<Speaker>Nele</Speaker>||<CGDelay>0.5</CGDelay>:This is why I do it, Amaris. +Because I want to.
+()||<黑点1>:

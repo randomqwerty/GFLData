@@ -1,167 +1,167 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><黑屏2><BIN>758</BIN><SE1>AVG_AMB_Wind</SE1>:……白区。+这是特工J第一次认真打量位于法兰克福的斯塔西大楼。+他的手里拿着一份刚刚领到的文件。+得到消息的时候脑子里嗡嗡的。+尽管知道这类事情很寻常，但结果还是令他不知所措。
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:他忍不住将档案从文件袋里翻出来。
-NPC-Keven(11)<Speaker>J</Speaker>||:凯恩•施瓦本因公殉职……+为什么……
-NPC-Keven(11)<Speaker>J</Speaker>||:比莱特的文件厚了几页，也许这就是正式员工的待遇？
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:这份悲伤，他甚至不知道该跟谁分享。+也不知道该摆出何种表情，毕竟……这不是第一次，也不会是最后一次。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><SE1>Stop_AVG_loop</SE1>:滴滴……+是指挥官的通讯。
-NPC-Keven(11)<Speaker>J</Speaker>||:……指挥官？
-NPC-Keven(11)<Speaker>指挥官</Speaker><同时置暗>||:<color=#00CCFF>……J，你现在在哪里？</color>+<color=#00CCFF>我需要你帮我做一件事……</color>
-NPC-Keven(7)<Speaker>J</Speaker>||:……什么事？
-()<Speaker>指挥官</Speaker>||:<color=#00CCFF>联络阿玛瑞丝……找到奈乐的位置……</color>
-()<Speaker></Speaker>||:……
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Open</SE1><黑屏2><BIN>758</BIN><SE1>AVG_AMB_Wind</SE1>:...In the White Zone. +This is the first time Agent J carefully takes in the sight of the Stasi headquarters in Frankfurt. +In his hand is a freshly issued file. +His head is still buzzing from the news. +Even though he knows this kind of thing is commonplace, it still leaves him at a loss.
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:He pulls the file out of the folder again.
+NPC-Keven(11)<Speaker>J</Speaker>||:Kain Schwaben died in the line of duty... +How could that be...?
+NPC-Keven(11)<Speaker>J</Speaker>||:The file has more pages than Light's. Perhaps because he's a formal agent?
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:He does not even know who to share this grief with. +Nor what kind of expression he should wear. After all... this is not the first time, and it will not be the last.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><SE1>Stop_AVG_loop</SE1>:Beep-beep... +A comms request from the Commander.
+NPC-Keven(11)<Speaker>J</Speaker>||:...Commander?
+NPC-Keven(11)<Speaker>Commander</Speaker><同时置暗>||:<color=#00CCFF>...J, where are you right now?</color> +<color=#00CCFF>I need a favor...</color>
+NPC-Keven(7)<Speaker>J</Speaker>||:...What is it?
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>Contact Amaris... find out where Nele is...</color>
+()<Speaker></Speaker>||:...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑点2><BIN>471</BIN><BGM>BGM_ev2412_GoTime</BGM>:
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:呯呯呯——+愤怒的子弹汹涌袭来，奈乐感觉自己身后已经用子弹壳铺就了一条轨迹。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:阿玛瑞丝！他们人太多了！
-NPC-Nele(6);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我长眼睛了！
-NPC-Nele(6)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:能看出来是哪边的人吗？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:带着奈乐在狭窄逼仄的小巷中狂奔，同时还需要阻断追凶前进的脚步，阿玛瑞丝的子弹很快见了底。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我们进前面这栋大楼！+它的内部有和其他楼的连通楼道，我们利用地形想办法甩掉他们！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……好。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:阿玛瑞丝让奈乐先进去，自己在后面断后。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:掂量了下仅剩的几个弹匣，阿玛瑞丝眉头紧皱着冲进了大楼。
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Bang-bang-bang— +Bullets come pouring in furiously; Nele glances back at the trail of shell casings behind her.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Amaris! There are too many of them!
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Yes, I have eyes!
+NPC-Nele(6)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:Can you tell which side they're from?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Having to drag Nele through narrow, cramped alleys while trying to cut off their pursuers, Amaris soon runs low on ammunition.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:We're going into that building up ahead! +Its interior is connected to other buildings. We'll use the terrain to shake them off!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...Alright.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:Amaris pushes Nele in first, then covers the rear.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Weighing the few magazines she has left, Amaris frowns and charges into the building.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>395</BIN><黑点2><SE1>RunStep</SE1>:……咚咚咚！+两人急促的脚步声在空旷的楼道内回响。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐，这边！
-NPC-Nele(6)<Speaker>奈乐</Speaker><Shake>||:……我……我第一次感觉到……体能的重要性……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我听说骨科大夫的身体素质很好。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:毕竟……骨科大夫都是一群木匠……+心电图异常，请会诊……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:不要讲这种骨科冷笑话！
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:行……我……我回头一定加强锻炼……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你走在我后面。
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:……好……好的……
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:追在身后的脚步声还很遥远，阿玛瑞丝警戒地护着奈乐前行。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:哒、哒、哒。前方传来了下楼的脚步声。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:有人来了！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:阿玛瑞丝抬起了枪，瞄准脚步声的方向。+下完最后一级台阶，来者出现在了她们面前。
+()<Speaker></Speaker>||<BIN>395</BIN><黑点2><SE1>RunStep</SE1>:...Thud-thud-thud! +Their hurried footsteps echo through the empty corridors.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Nele, this way!
+NPC-Nele(6)<Speaker>Nele</Speaker><Shake>||:...I... I feel for the first time... just how important physical stamina is...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I've heard that of all STEM people, orthopedic doctors are usually in the best shape.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Well... orthopedists are glorified carpenters... +Don't worry about me. I'm going tibia okay...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Is this really the time to be cracking orthopedic dad jokes?!
+NPC-Nele(7)<Speaker>Nele</Speaker>||:Fine... I'll... I'll start training seriously when this is over...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Stay behind me.
+NPC-Nele(7)<Speaker>Nele</Speaker>||:...O-okay...
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:The footsteps chasing them are still distant. Amaris advances cautiously while shielding Nele.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Tap, tap, tap. Footsteps sound from ahead, coming down the stairs.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Someone's coming!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:Amaris raises her gun, aiming at the sound. +As the last step is cleared, the figure appears before them.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2>:
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:J！？你怎么在这里！
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-()<Speaker></Speaker>||:J站在不远处，因为逆光，看不清他的表情。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:你怎么不说话？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐朝着J走了两步。+阿玛瑞丝立刻紧紧抓住了她。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:别去。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:为什么？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC-Keven(7)<Speaker>J</Speaker>||:因为追杀你的人里面就有斯塔西。+当然，还有别人。+毕竟你在市政厅前面的一席话……让无数人的资金心血全部打了水漂。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(7)<Speaker>J</Speaker>||:格雷的清白比你的生命还重要吗？+她早就死了，而你还活着……
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:……这是我的人生信仰。+如果一个人连自己相信的东西都不能贯彻到底，那还不如死了算了！
-NPC-Keven(12)<Speaker>J</Speaker>||:为什么？奈乐……+你出身良好，天赋卓越，人生前途无量……+就因为这一下……你可能什么都没有了，包括自己的性命！
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:……从出生开始，人就一定会死！+区别只是怎么死而已！+我们又不能选择自己的出身，只能选择自己的死亡！
-NPC-Keven(7)<Speaker>J</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:追在后面的脚步声不断逼近，而奈乐的眼睛依然明亮，不曾有过半点畏惧的阴霾。
-()<Speaker></Speaker>||:这让J想起了那场大火，几乎吞没整栋大楼的熊熊烈火。
+NPC-Nele(6)<Speaker>Nele</Speaker>||:J?! What are you doing here?!
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+()<Speaker></Speaker>||:J stands a short distance away with his back against the light. His expression is obscured by shadow.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Why aren't you saying anything?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele takes two steps toward J. +Amaris immediately grabs her tightly.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Don't go.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Why?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC-Keven(7)<Speaker>J</Speaker>||:Because the Stasi is among those hunting you... +There are others too, of course. +After all, that little speech you gave in front of Altes Rathaus... ruined many people's efforts.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:...
+NPC-Keven(7)<Speaker>J</Speaker>||:Is Gray's innocence worth more than your own life? +She's already dead, while you are still alive...
+NPC-Nele(7)<Speaker>Nele</Speaker>||:...This is about my personal belief. +If a person can't live by their own beliefs, then they may as well be dead!
+NPC-Keven(12)<Speaker>J</Speaker>||:Why? Nele... +You come from a good family. You're gifted, talented. You have a bright future ahead of you... +Because of a single decision... you could lose everything, even your life!
+NPC-Nele(7)<Speaker>Nele</Speaker>||:...From the moment we're born, we're all destined to die! +The only difference is how! +We can't choose our birth, but we can choose our death!
+NPC-Keven(7)<Speaker>J</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:The footsteps behind draw closer and closer, yet Nele's eyes remain bright, untouched by even a shadow of fear.
+()<Speaker></Speaker>||:J is reminded of that great fire, the flames that nearly consumed an entire building.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<边框>2</边框><BIN>401</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<边框>2</边框>:他站在楼前因为愧疚、痛苦、悲愤而恸哭到呕吐。
+()<Speaker></Speaker>||<边框>2</边框>:He had stood outside, weeping, retching from the guilt, the grief, the rage.
 ()||<黑屏1><边框>2</边框>:
-()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.7</CGDelay><黑屏2><BIN>399</BIN>:当他回头的那一刻，奈乐的眼睛就和现在一样明亮。+当时他只以为这是火光的映照，现在他才明白，奈乐一直用这双明亮的眼睛看着世界。
-()<Speaker></Speaker>||<边框>2</边框><BIN>9</BIN><SE1>AVG_weapon_reload</SE1><BGM>BGM_Empty</BGM>:咔哒。J打开手枪的保险。
+()<Speaker></Speaker>||<边框>2</边框><CGDelay>0.7</CGDelay><黑屏2><BIN>399</BIN>:When he looked back, Nele's eyes were as bright as they are now. +Back then, he thought it was just the reflection of the firelight. But now he realizes that Nele has always looked at the world with those clear eyes.
+()<Speaker></Speaker>||<边框>2</边框><BIN>9</BIN><SE1>AVG_weapon_reload</SE1><BGM>BGM_Empty</BGM>:Click. J flicks off the safety of his pistol.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>395</BIN><黑点2><CGDelay>0.5</CGDelay>:
-NPC-Keven(7)<Speaker>J</Speaker>||:阿玛瑞丝，你站在哪边？
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我站在身上有光的人这边。
-NPC-Keven(7)<Speaker>J</Speaker>||:……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:没办法，我的底层设定就是这样，月亮的光来自反射，我天生就喜欢身上有光的东西。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝挡在奈乐前面。+追兵已经悉数到场，从外面的动静来看，整栋大楼和所有出入口都被包围了。
-NPC-Keven(7)<Speaker>J</Speaker>||:这次他们带来的人真的很多。也不知道是哪个部的。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:恰好是我这样的战术人形的主场。
-NPC-Keven(7)<Speaker>J</Speaker>||:你为战争而生，保护平民不在你的技能列表里。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……你对我的了解太浅了。+现在是时候给你展现一下我的技术……
-()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:呯——
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:呯呯呯——+一阵枪声响起。
-()<Speaker></Speaker>||:阿玛瑞丝护着奈乐，立刻还击。+但在这没有遮挡的楼道间，想要护住一个手无寸铁的平民，比登天还难。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐！躲在我身后！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:可是后面也……
-()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1>:不知为何，在喧嚣的枪声中，奈乐清晰地听见了从身后传来的那一声枪响。
-()<Speaker></Speaker>||:像几年前按下大学录取通知查询的那一声鼠标的咔哒声，像第一次抢救成功病危患者听见的心电图恢复声，像对着拉普拉斯扣下扳机的那一声枪响……
+NPC-Keven(7)<Speaker>J</Speaker>||:Amaris, which side are you on?
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I stand with the one who carries the light.
+NPC-Keven(7)<Speaker>J</Speaker>||:...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I can't help it; it's in my fundamental makeup. The moon reflects light shone upon it—I'm just drawn to things that shine.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris plants herself in front of Nele. +The pursuers flood in, surrounding the building and every exit.
+NPC-Keven(7)<Speaker>J</Speaker>||:They've really brought the whole village this time. Hard to tell which division they're from.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:This is where a T-Doll like me comes in useful.
+NPC-Keven(7)<Speaker>J</Speaker>||:You're made for war. Protecting civilians isn't in your skillset.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...You don't know me nearly enough. +It's time I showed you what I can really do...
+()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1>:Bang!
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_2022Saros_SCARL3</SE1>:Bang-bang-bang! +Gunfire erupts.
+()<Speaker></Speaker>||:Amaris shields Nele and returns fire immediately. +But in this corridor with zero cover, keeping an unarmed civilian safe is a tall order.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Nele! Stay behind me!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:But behind us is...
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1>:For some reason, amidst the thunderous gunfire, Nele can clearly hear the single shot fired from behind.
+()<Speaker></Speaker>||:Like the click of her mouse when she opened her university admission letter, the beep of the heart monitor the first time she successfully revived a patient, the shot she fired at Laplace...
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:奈乐闭上了双眼，等待命运裁决敲下法槌的瞬间——
-()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay><BGM>GF_21summer_avg_SecretAgent</BGM>:……嘭！+奈乐感觉身体被猛地按倒在地。
-NPC-Keven(12)<Speaker>J</Speaker>||:……你真是一个喜欢找死的人……
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:Nele closes her eyes, waiting for the gavel of fate to fall—
+()<Speaker></Speaker>||<SE1>AVG_2022Saros_Gunpast</SE1><SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay><BGM>GF_21summer_avg_SecretAgent</BGM>:...Bam! +Nele feels her body slammed hard to the ground.
+NPC-Keven(12)<Speaker>J</Speaker>||:...You really do have a death wish...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<睁眼><BIN>395</BIN>:
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:J？！
-()<Speaker></Speaker>||:J扑在奈乐身上，避开了那一发子弹。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……你为什么……+你不也是斯塔西？
-NPC-Nele(6);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:别聊天了！赶紧起来躲进房间里！
-NPC-Nele(6);NPC-Keven(12)<Speaker>J</Speaker>||:走！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:好！
-()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>AVG_2022Saros_SCARL3</SE1><震屏3>:J一把拽起奈乐，在阿玛瑞丝的掩护下，跌跌撞撞冲进了拐角的房间。
+NPC-Nele(6)<Speaker>Nele</Speaker>||:J?!
+()<Speaker></Speaker>||:J has thrown himself over Nele, shielding her from that bullet.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...Why...? +Aren't you also a Stasi agent?
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:No time to chat! Get into that room, now!
+NPC-Nele(6);NPC-Keven(12)<Speaker>J</Speaker>||:Move!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Right!
+()<Speaker></Speaker>||<SE1>Rope</SE1><SE1>AVG_2022Saros_SCARL3</SE1><震屏3>:J pulls Nele up, and under Amaris' cover, they stumble into a room around the corner.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>750</BIN><黑点2><Night>:
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:……+两人一人形不停地转移自己的位置。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……奈乐，等我们逃脱成功，你一定要离J远一点。+他肯定会被斯塔西爆头。
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-SCAR-H(0)||:阿玛瑞丝，你对我意见很大？
-NPC-Keven(7);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……对啊，我从不遮掩这一点。+反正以后桥归桥路归路，我又不回斯塔西。
-NPC-Keven(9)<Speaker>J</Speaker><Shake>;NPC-SCAR-H(0)||:啊……我受伤了……+腿……我的大腿啊！
-NPC-Keven(9);NPC-Nele(6)<Speaker>奈乐</Speaker>||:是刚刚被枪击中了吗？+伤在哪，我帮你看看……
-NPC-Keven(9);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……对，给她看，再不看就自己愈合了！
-NPC-Keven(6)<Speaker>J</Speaker>||:……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐你别听他瞎说，根本没受伤好吧！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(6)||:奈乐……我在世上的最后一个朋友……没了……
-NPC-Keven(11);NPC-Nele(5)<Speaker>奈乐</Speaker>||:……我可以勉为其难做你朋友……
-NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(5)||:我搞砸了任务……我的工作也要没了……
-NPC-Keven(11);NPC-Nele(5)<Speaker>奈乐</Speaker>||:……工作不能走后门，还是要自己想办法……+但看你的样子……实在不行……我养你……
-NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(5)||:完了，万千少女的梦想终于倒下了……以后再也不能请美女喝咖啡了……
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:……
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:要不然我直接毙了他得了。
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:嘀嘀。奈乐的通讯响起。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……外祖父？
-NPC-Nele(6)<Speaker>弗伊格特</Speaker><同时置暗>||:<color=#00CCFF>在闯祸这方面，你真是比你妈还厉害。</color>
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……
-NPC-Nele(6)<Speaker>弗伊格特</Speaker><同时置暗>||<BGM>BGM_ev2408_BeeCatcher</BGM>:<color=#00CCFF>你为什么……</color>+<color=#00CCFF>不，直接告诉我，是谁指使你这么做的。</color>
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:没有人指使我做什么，这一切都是我自己想做的。
-NPC-Nele(7)<Speaker>弗伊格特</Speaker><同时置暗>||:<color=#00CCFF>……</color>
-NPC-Nele(7)<Speaker>奈乐</Speaker>||:这全然是出于我自己的理念。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:奈乐听见通讯的另一端传来一声叹气。
-()<Speaker>弗伊格特</Speaker>||:<color=#00CCFF>你的妈妈为了家庭和我决裂。</color>+<color=#00CCFF>现在，你为了理念和我决裂。</color>
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:对不起，外祖父，给你惹麻烦了。+你可以直接告诉他们，我早就和你断绝关系了。
-NPC-Nele(5)<Speaker>弗伊格特</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>……混账东西！我这么说别人这么信吗？</color>
-()<Speaker>弗伊格特</Speaker>||:<color=#00CCFF>算了，我会为你做最后一件事。</color>+<color=#00CCFF>从此以后，我们就是陌生人。</color>
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:外祖父挂断了通讯。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:……+对了，我还没有问你……你为什么会在这里？你也是接到斯塔西的任务吗？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(6)||:……其实是指挥官给我通讯，让我来保护你。+斯塔西知道我和你的关系，所以没有把这个任务给我……
-NPC-Keven(7);NPC-Nele(6)<Speaker>奈乐</Speaker>||:……那你怎么办？
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(6)||:回去写个检讨，然后准备离职。
-NPC-Keven(7);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:然后等着被灭口。
-NPC-Keven(7)<Speaker>J</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:滴滴……通讯响起。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:不是我的。
-NPC-Keven(6)<Speaker>J</Speaker>||:……哦，这次是我的。
-()<Speaker></Speaker>||:J缓慢地打开斯塔西的通讯频道。
-NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>……首先恭喜你。</color>
-NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(2)||:饭碗没了？
-NPC-Keven(6);NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>……告诉高奈莉娅•舍夫尔小姐。</color>+<color=#00CCFF>她的性命暂时保住了。</color>
-NPC-Keven(9)<Speaker>J</Speaker>;NPC-maya(2)||:啊？
-NPC-Keven(9);NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>让她一个人出大楼。</color>+<color=#00CCFF>你和阿玛瑞丝等她走后再自己离开。</color>
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(2)||:……我怎么知道你不是把她骗出去？
-NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>你的智商不足以配合我的手段。</color>
-NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(0)||:……
-NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>斯塔西已经全部撤离，现在在楼外的是法兰克福警察。</color>+<color=#00CCFF>相信我，现在对奈乐小姐最安全的地方——是普朗根海姆女子监狱。</color>
-NPC-Keven(7)<Speaker>J</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:滴——通讯被挂断。
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:... +The three of them keep shifting positions.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Nele, once we make it out, you'd better stay far from J. +The Stasi is gonna put a bullet through his head for sure.
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-SCAR-H(0)||:Amaris, you've got an issue with me or what?
+NPC-Keven(7);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Yeah, it's no secret, is it? +Doesn't matter anyway. Once this is over, you'll go your way and I'll go mine. I'm not returning to the Stasi.
+NPC-Keven(9)<Speaker>J</Speaker><Shake>;NPC-SCAR-H(0)||:Argh... I'm hurt... +My leg... +My thigh!
+NPC-Keven(9);NPC-Nele(6)<Speaker>Nele</Speaker>||:You got shot? +Where's the wound? Let me take a look...
+NPC-Keven(9);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Yeah, let her take a look before it heals on its own!
+NPC-Keven(6)<Speaker>J</Speaker>||:...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Nele, don't listen to him, he's not actually hurt!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(6)||:Nele... I've lost... the only friend I've got...
+NPC-Keven(11);NPC-Nele(5)<Speaker>Nele</Speaker>||:...I suppose I can be your friend...
+NPC-Keven(11)<Speaker>J</Speaker>;NPC-Nele(5)||:I botched my mission... I'm going to lose my job...
+NPC-Keven(11);NPC-Nele(5)<Speaker>Nele</Speaker>||:...You can't always get a job through connections; you'll need to find your own... +But considering what you're like, you'll probably have a hard time... Worst case... I'll take you in...
+NPC-Keven(10)<Speaker>J</Speaker>;NPC-Nele(5)||:It's over... There goes my dream of being a ladies' man and playing the field... Never again will I get to ask a pretty girl out for coffee...
+NPC-Nele(7)<Speaker>Nele</Speaker>||:...
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>AVG_2022Saros_SCARH1</SE1>:Maybe I should just shoot him and be done with it.
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1><BGM>BGM_Empty</BGM>:Beep-beep. Nele's communicator rings.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...Grandfather?
+NPC-Nele(6)<Speaker>Vogt</Speaker><同时置暗>||:<color=#00CCFF>When it comes to making trouble, you're even worse than your mother.</color>
+NPC-Nele(6)<Speaker>Nele</Speaker>||:...
+NPC-Nele(6)<Speaker>Vogt</Speaker><同时置暗>||<BGM>BGM_ev2408_BeeCatcher</BGM>:<color=#00CCFF>Why did you...</color> +<color=#00CCFF>No, just tell me—who put you up to this?</color>
+NPC-Nele(7)<Speaker>Nele</Speaker>||:No one. It was my idea.
+NPC-Nele(7)<Speaker>Vogt</Speaker><同时置暗>||:<color=#00CCFF>...</color>
+NPC-Nele(7)<Speaker>Nele</Speaker>||:I did it out of my own conviction.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:Nele hears a sigh from the other end.
+()<Speaker>Vogt</Speaker>||:<color=#00CCFF>Your mother broke with me for the sake of her family.</color> +<color=#00CCFF>Now, you break with me for your ideals.</color>
+NPC-Nele(5)<Speaker>Nele</Speaker>||:I'm sorry for causing you trouble, Grandfather. +You can tell them I've cut ties with you long ago.
+NPC-Nele(5)<Speaker>Vogt</Speaker><同时置暗>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>...Foolish child! As if anyone would believe that!</color>
+()<Speaker>Vogt</Speaker>||:<color=#00CCFF>Forget it. I'll do one last thing for you.</color> +<color=#00CCFF>After that, we are strangers.</color>
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_tele_disconnect</SE1>:Her grandfather cuts the line.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:... +By the way, I never did ask you... Why are you here? Did the Stasi send you too?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(6)||:...Actually, it was the Commander who called me. Told me to protect you. +The Stasi knew of my connection to you, so they didn't assign the task to me...
+NPC-Keven(7);NPC-Nele(6)<Speaker>Nele</Speaker>||:...Then what are you going to do?
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-Nele(6)||:Go back, write a review, submit my resignation.
+NPC-Keven(7);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:And wait to be silenced.
+NPC-Keven(7)<Speaker>J</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep-beep... Another incoming comms request.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:It's not mine.
+NPC-Keven(6)<Speaker>J</Speaker>||:...Oh, it's me.
+()<Speaker></Speaker>||:J slowly opens the Stasi's channel.
+NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>...First of all, congrats.</color>
+NPC-Keven(6)<Speaker>J</Speaker>;NPC-maya(2)||:Let me guess... I got fired?
+NPC-Keven(6);NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>...Tell Frau Cornelia Schaefer...</color> +<color=#00CCFF>Her life is spared for now.</color>
+NPC-Keven(9)<Speaker>J</Speaker>;NPC-maya(2)||:Huh?
+NPC-Keven(9);NPC-maya(2)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>Have her leave the building alone.</color> +<color=#00CCFF>You and Amaris can leave after she's gone.</color>
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(2)||:...How do I know you're not luring her into a trap?
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>You're not smart enough to necessitate such schemes.</color>
+NPC-Keven(7)<Speaker>J</Speaker>;NPC-maya(0)||:...
+NPC-Keven(7);NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>The Stasi have withdrawn. It's just the Frankfurt police outside.</color> +<color=#00CCFF>Trust me, the safest place for Frau Schaefer right now... is Blankenheim Women's Prison.</color>
+NPC-Keven(7)<Speaker>J</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Click. The line is dead.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>725</BIN><黑屏2><SE1>AVG_Alarm_Distance</SE1>:滴滴滴滴——+交通秩序依然恢复，警车停在大楼前，似乎只有倒塌一半的大楼还残存着法兰克福被空袭过的证据。
-()<Speaker>警员</Speaker>||:你是高奈莉娅•舍夫尔女士吗？
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:我是。
-NPC-Nele(5)<Speaker>警员</Speaker><同时置暗>||:好的，高奈莉娅女士，你非法进入太平间盗走格雷•布莱克薇尔的尸体并用于未经审核的实验。+你违反了科研伦理和法规，我现在以扰乱死者安宁罪、盗窃罪、非法进入罪等逮捕你。+请跟我走吧。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:我知道了。
-NPC-Nele(5)<Speaker>警员</Speaker><同时置暗>||:感谢你的配合，如果你需要律师，可以稍后联系。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:好的。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:……
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>725</BIN><黑屏2><SE1>AVG_Alarm_Distance</SE1>:Beep-beep-beep-beep... +Traffic has returned to normal. Police cars are parked outside the building. The only reminder of the air raid that Frankfurt has sustained is the half-collapsed buildings.
+()<Speaker>Police Officer</Speaker>||:Frau Cornelia Schaefer?
+NPC-Nele(5)<Speaker>Nele</Speaker>||:I am.
+NPC-Nele(5)<Speaker>Police Officer</Speaker><同时置暗>||:Alright, Frau Schaefer. You illegally entered the morgue, stole the body of Gray Blackwell, and used it for unapproved experiments. +You violated both scientific ethics and the law. I now arrest you on charges of disturbing the peace of the dead, theft, and unlawful entry. +Please come with me.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:I understand.
+NPC-Nele(5)<Speaker>Police Officer</Speaker><同时置暗>||:Thank you for your cooperation. If you need a lawyer, you may contact one later.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:Alright.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:...
+()||<黑点1>:

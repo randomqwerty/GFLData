@@ -1,219 +1,219 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<黑屏2><BIN>832</BIN><BGM>BGM_ev2412_2064</BGM>:……法兰克福，配电站。+数名工作人员忙碌地奔波在各个房间，通讯声此起彼伏，几乎没有消停的时候。
+()<Speaker></Speaker>||<黑屏2><BIN>832</BIN><BGM>BGM_ev2412_2064</BGM>:...At a power distribution station, Frankfurt. +Several staff members are rushing from room to room. The chatter on their comms line is constant, with not a moment of silence.
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:
-()<Speaker>工作人员</Speaker>||<SE1>RunStep</SE1>:组长，我们接到多起供电问题反馈……
-()<Speaker>组长</Speaker>||:我知道，优先解决医院那边的能源问题，然后再考虑其他的。
-()<Speaker>工作人员</Speaker>||:现在外面交通瘫痪，通讯讯号也不稳定，出发支援各个医院的小组现在都还没到达现场。
-()<Speaker>组长</Speaker>||:……
-()<Speaker></Speaker>||<SE1>AVG_Bomber_Flyby</SE1>:看向窗外灰蒙蒙的天空，组长叹了口气，正想交代手下的时候，他注意到对方惊讶地张大了嘴。+没等到他来得及问出什么——
-()<Speaker></Speaker>||<CGDelay>1</CGDelay><BIN>9</BIN><SE1>AVG_Explo_Close</SE1><SE1>AVG_lifttable</SE1>:轰！！！
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:组长浑身是血地爬到通讯器面前，用最后的气力发出呼喊。
-()<Speaker>组长</Speaker>||<SE1>AVG_tele_connect</SE1>:呼叫支援……埃施博恩区-埃特姆配电站遭到袭击，请求支援！+重复一遍，埃……
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay>:喉头涌出的热血淹没了剩余的话语，组长倒在了通讯器前。+他没能听见，对面自始至终都是忙音。
+()<Speaker>Staff Member</Speaker>||<SE1>RunStep</SE1>:Chief, we're receiving multiple reports of power supply issues...
+()<Speaker>Chief</Speaker>||:I know. Prioritize the hospitals first, then deal with the rest.
+()<Speaker>Staff Member</Speaker>||:Traffic outside is paralyzed, communications are unstable, and the teams sent out to aid the hospitals haven't even reached their destinations yet.
+()<Speaker>Chief</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_Bomber_Flyby</SE1>:The chief looks out the window at the gray sky and sighs heavily. Just as he is about to issue new orders, he notices his subordinate's eyes widening in shock. +Before he can ask what's wrong—
+()<Speaker></Speaker>||<CGDelay>1</CGDelay><BIN>9</BIN><SE1>AVG_Explo_Close</SE1><SE1>AVG_lifttable</SE1>:Boom!!!
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:The chief, covered in blood, crawls to the communicator and, with his last bit of strength, sends out a distress call.
+()<Speaker>Chief</Speaker>||<SE1>AVG_tele_connect</SE1>:Requesting support... Ettem Power Distribution Station in Eschborn District under attack, requesting support! +Repeat, Et—
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><CGDelay>0.5</CGDelay>:Hot blood surges up his throat, drowning the rest of his words. He collapses in front of the communicator. +He remains oblivious to the static on the other end of the line.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>476</BIN><黑屏2>:……配电站附近。+空气中弥漫着燃烧的浓烟，不时有小型的爆炸和坍塌在眼前的建筑残骸上进行着。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:夏朵利兹别好麦克风，整理了下因为奔波而凌乱的头发，在走向配电站前，她望向扛着摄像机的法尔克。
-NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker>||:你真的不必跟着我来的，我可以使用支架来完成拍摄。
-()<Speaker>法尔克</Speaker>||:这是我自己的意愿。+不用再多说了，赶紧开始吧，我们还有很多个点要去。
-NPC-Shadowless(8)<Speaker>夏朵利兹</Speaker>||:……
-()<Speaker></Speaker>||:面对固执的同事，夏朵利兹点点头，走向燃烧着的建筑。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:确认站位无误后，法尔克对她比出了完成手势。
+()<Speaker></Speaker>||<BIN>476</BIN><黑屏2>:...Near the distribution station. +Thick black smoke hangs in the air, while small explosions continue to erupt from time to time in the wreckages all around, causing more debris to fall.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Shadowless adjusts her microphone and smooths down her hair tousled from rushing to the scene. Before stepping toward the station, she looks back at Falk, who is carrying the camera.
+NPC-Shadowless(8)<Speaker>Shadowless</Speaker>||:You really don't have to come with me. I can use a tripod to get the footage.
+()<Speaker>Falk</Speaker>||:I'm doing this by choice. +No more discussion. Let's begin. We have many more sites to cover.
+NPC-Shadowless(8)<Speaker>Shadowless</Speaker>||:...
+()<Speaker></Speaker>||:Faced with her stubborn colleague, Shadowless can only nod. Then she walks toward the burning building.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Once the camera is in position, Falk signals that filming can begin.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<common_effect>%%code=202412_LIVE%%</common_effect><common_effect>%%code=202412_LIVE%%</common_effect>:
-NPC-Shadowless(3)<Speaker>夏朵利兹</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||<BIN>476</BIN><黑点2>:<color=#00CCFF>这里是DDR2台记者夏朵利兹，现在我们所处的位置是埃施博恩区-埃特姆配电站前。</color>+<color=#00CCFF>因为在最新一次空袭里遭到导弹命中，配电站现在已经停止运行。</color>+<color=#00CCFF>据逃出配电站的工作人员所说，配电站内部早已化作一片火海，暂时无法得知具体修复时间。</color>+<color=#00CCFF>另外，北冰洋1号输油管道和多处重要干道都遭到空袭破坏，欧罗巴塔也被炸毁，目前法兰克福市区的电力、能源供应以及通讯都陷入瘫痪状态。</color>+<color=#00CCFF>目前配电站有多名工作人员伤亡，这里急需医护人员和消防人员的援助！</color>  
-()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake>:轰隆——摇摇欲坠的建筑轰然倒下。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:夏朵利兹稍微瑟缩了下，但没有离开原地，她坚定地看向镜头。
-NPC-Shadowless(4)<Speaker>夏朵利兹</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>战争给了法兰克福太多的摧残，战火蔓延到每一位平民的身上。</color>+<color=#00CCFF>死亡和悲剧再一次离我们如此之近。</color>
+NPC-Shadowless(3)<Speaker>Shadowless</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||<BIN>476</BIN><黑点2>:<color=#00CCFF>This is Shadowless from DDR2. Right now, we are standing in front of Ettem Power Distribution Station in the Eschborn District.</color> +<color=#00CCFF>Hit by a missile in the latest air raid, the station has ceased operation entirely.</color> +<color=#00CCFF>According to workers who escaped, the inside has already turned into a sea of flames. No estimate exists for when it can be repaired.</color> +<color=#00CCFF>Additionally, the Arctic Ocean No.1 oil pipeline and several key highways were destroyed in the raid. The Europa Tower has also been leveled. Frankfurt's power, fuel supply, and communications are now in total paralysis.</color> +<color=#00CCFF>There are multiple casualties among the staff here. Medical teams and firefighters are urgently needed!</color>
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=4</controll_shake>:Crash! A collapsing structure comes crashing down.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:Shadowless flinches but holds her ground. She looks resolutely into the camera.
+NPC-Shadowless(4)<Speaker>Shadowless</Speaker><Position>0,-350</Position><Scale>1.4</Scale>||<CGDelay>0.5</CGDelay>:<color=#00CCFF>War has brought endless ruin upon Frankfurt. Its flames have touched every civilian's life.</color> +<color=#00CCFF>Death and tragedy are upon us once again.</color>
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>BGM_Empty</BGM>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>72</BIN><黑屏2>:……斯塔西特殊通讯频道。
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker><通讯框>||<BGM>GF_EV9_Story</BGM>:<color=#00CCFF>现在进行斯塔西远程会议……</color>+<color=#00CCFF>请签到。</color>
-()<Speaker>国家安全部副部长A</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>沃夫冈签到。</color>+<color=#00CCFF>十九部、二十部、E组待命中。</color>
-()<Speaker>国家安全部副部长B</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>洛特签到。</color>+<color=#00CCFF>一部、二十二部、协调管理总局待命中。</color>
-()<Speaker>国家安全部副部长C</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>迪特签到。</color>+<color=#00CCFF>三部、二十六部、总装备部待命中。</color>
-()<Speaker>国家安全部副部长D</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>海德薇签到。</color>+<color=#00CCFF>对外情报局、境外行动局、侦查总局待命中。</color>
-NPC-maya(0)<Speaker>Q</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>娜塔莎签到。</color>+<color=#00CCFF>十二部、十三部、秘密行动局待命中。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>同步情报。</color>
-()<Speaker>国家安全部副部长A</Speaker>||:<color=#00CCFF>陆军防空部队已接到国防委员会调令。</color>+<color=#00CCFF>正准备进入法兰克福，在全力彻查叛乱分子空军所在位置。</color>
-()<Speaker>国家安全部副部长C</Speaker>||:<color=#00CCFF>第十装甲师已准备进入法兰克福。</color>
-NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>确认此前编号为EDDF等一系列武器的正式名称为【伊阿索之匣】。</color>+<color=#00CCFF>目前存量主要集中在法兰克福、柏林以及莫斯科。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>……收到。现在我需要一份名单。</color>+<color=#00CCFF>以一部的名义提供给国务委员会。</color>
-()<Speaker>国家安全部副部长B</Speaker>||:<color=#00CCFF>洛特收到。</color>+<color=#00CCFF>军事反间谍部的记录已上传。</color>+<color=#00CCFF>现在授权费恩、娜塔莎查询、编辑权限。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>权限确认。</color>+<color=#00CCFF>情报分析评估中心现在进度如何？</color>
-NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>十二部已完成蜂针系统备份。</color>+<color=#00CCFF>十三部正在处理隐藏的管理权限和加密信息。</color>+<color=#00CCFF>距离第一次测试还需要大约十五天的时间。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>伊阿索之匣的事情交给秘密行动局的特工解决。</color>+<color=#00CCFF>任务目标是让一部名单和伊阿索之匣的情报完全对应上。</color>
-NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>秘密行动局收到。</color>+<color=#00CCFF>已确认军事反间谍部的记录权限，按照过往完成度，我们会保证60%以上的重合率。</color>
-NPC-Hoffmann(0)<Speaker>费恩·霍夫曼</Speaker><通讯框>||:<color=#00CCFF>可以，剩余的部分交给对外情报局。</color>+<color=#00CCFF>这部分的名单由秘密行动局提供。</color>
-()<Speaker>国家安全部副部长D</Speaker>||:<color=#00CCFF>对外情报局收到。</color>+<color=#00CCFF>我们会确保政治侦查和军事侦查的数据精准同步。</color>
-NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>秘密行动局收到。</color>
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:……
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:斯塔西特殊通讯频道关闭。
+()<Speaker></Speaker>||<BIN>72</BIN><黑屏2>:...Stasi special communications channel.
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker><通讯框>||<BGM>GF_EV9_Story</BGM>:<color=#00CCFF>Initiating remote Stasi conference...</color> +<color=#00CCFF>Please check in.</color>
+()<Speaker>Deputy Minister of State Security A</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Wolfgang present.</color> +<color=#00CCFF>Main Divisions XIX, XX, and Minister's Task Force E on standby.</color>
+()<Speaker>Deputy Minister of State Security B</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Lotte present.</color> +<color=#00CCFF>Main Divisions I, XXII, and the Central Coordination Group on standby.</color>
+()<Speaker>Deputy Minister of State Security C</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Dieter present.</color> +<color=#00CCFF>Main Division III, Section 26, and the Armament Department on standby.</color>
+()<Speaker>Deputy Minister of State Security D</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Hedwig present.</color> +<color=#00CCFF>Foreign Intelligence, External Operations, and the Main Directorate for Reconnaissance on standby.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Natasha present.</color> +<color=#00CCFF>Sections XII, XIII, and the Covert Operations Department on standby.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>Synchronizing intelligence.</color>
+()<Speaker>Deputy Minister of State Security A</Speaker>||:<color=#00CCFF>The Army's Air Defense Forces have received orders from the National Defense Council.</color> +<color=#00CCFF>They are preparing to enter Frankfurt and conduct a full sweep for rebel air units.</color>
+()<Speaker>Deputy Minister of State Security C</Speaker>||:<color=#00CCFF>The 10th Armored Division stands ready to move into Frankfurt.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>The weapons previously coded EDDF and others are officially designated "Iaso's Boxes".</color> +<color=#00CCFF>Current stockpiles are mainly located in Frankfurt, Berlin, and Moscow.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>...Acknowledged. I require a list.</color> +<color=#00CCFF>Submit it to the State Council under the authority of Main Division I.</color>
+()<Speaker>Deputy Minister of State Security B</Speaker>||:<color=#00CCFF>Lotte copies.</color> +<color=#00CCFF>Military counterintelligence records have been uploaded.</color> +<color=#00CCFF>Access rights now granted to Finn and Natasha for review and editing.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>Permissions confirmed.</color> +<color=#00CCFF>What's the status of the Central Evaluation and Information Group?</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>Section XXII has completed backup of the Bee Sting System.</color> +<color=#00CCFF>Section XIII is processing hidden administrative keys and encrypted files.</color> +<color=#00CCFF>They'll need roughly another 15 days before they can conduct the first test.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>Let the agents at Covert Operations handle the Iaso's Boxes.</color> +<color=#00CCFF>Their objective is to match Main Division I's list with the intel on said weapon.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>Covert Operations copies.</color> +<color=#00CCFF>Military counterintelligence records verified. Based on past performance, we can guarantee at least 60% correlation.</color>
+NPC-Hoffmann(0)<Speaker>Finn Hoffmann</Speaker><通讯框>||:<color=#00CCFF>That's acceptable. The remainder goes to the Foreign Intelligence.</color> +<color=#00CCFF>Use the list from Covert Operations.</color>
+()<Speaker>Deputy Minister of State Security D</Speaker>||:<color=#00CCFF>Foreign Intelligence copies.</color> +<color=#00CCFF>We will ensure precise synchronization between political and military intelligence.</color>
+NPC-maya(0)<Speaker>Q</Speaker><通讯框>||:<color=#00CCFF>Covert Operations acknowledged.</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:...
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1><CGDelay>0.5</CGDelay>:...The Stasi special communications channel closes.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>822</BIN><黑屏2>:……法兰克福，美因茨大学地铁站。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>Battlefield</SE1>:轰炸仍在继续，沉闷的轰鸣像是永远不会停下。+怀中的汉娜在高烧中昏昏沉沉，摸了摸她的额头，甚至有些烫手。+波林焦虑地咬着嘴唇，出门匆忙，她的包里仅有自己和孩子的身份证明和一些钞票。+视线在身边同样黯淡的人群中间徘徊着，她渴望找到被救赎的希望——+直到她在角落里，看见一抹白色。从黯淡中突出的白色。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:您、您好……
-()<Speaker></Speaker>||:顾不上太多，她抱起汉娜快步走到身着白大褂的女人面前。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:我看您穿着白大褂，请问您是医生吗？
-NPC-Nele(6)<Speaker>？？？</Speaker>||:我……
-NPC-People_Female(0)<Speaker>波林</Speaker>||:我的孩子一直在发烧，我本来打算今天带她去医院，但是路上碰到了这事……+她现在烧得昏睡不醒，我很担心，您能不能帮忙看看……
-NPC-Nele(6)<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:女人抬起头，那是一张疲惫的脸。+她犹豫地看了看自己，和怀中汉娜的脸，然后又一次陷入了长久的沉默。+波林的焦虑在猛烈地翻涌着。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:……您好？
-()<Speaker></Speaker>||:女人避开了她的眼神，嘴唇嗫嚅着，像是准备说些什么——
-()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:轰隆……+又是一阵沉闷的炮声。
-NPC-Nele(7)<Speaker>？？？</Speaker>||:您好，我的手有点脏，能帮我从口袋里拿一双医用手套吗？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:见对方的态度松和，波林赶紧将汉娜塞给对方。+然后替眼前的女孩从口袋里拿出了她想要的东西。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:医生，您怎么称呼？
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:……您叫我奈乐就好。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:我叫波林，谢谢您，奈乐医生！+请帮我看看汉娜吧！+我总感觉她的情况有些危险了……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐医生用手背量了量汉娜额头的温度，随后立刻打开随身的包，找出水和毛巾，尝试给汉娜降温。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:奈乐医生，您需要我做些什么吗？
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:……孩子叫汉娜对吗？麻烦您告诉我下汉娜的年龄，过敏情况，还有发烧的相关描述。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:汉娜4岁半了，没有过敏的东西。+发烧是今早起床的时候发现的，在家测过一次温度，38.5度。+本来出门的时候还能自己走，轰炸发生时我们跑了一阵，她之后就开始昏睡了……
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:是昏睡还是失去意识？
-NPC-People_Female(0)<Speaker>波林</Speaker>||:我不确定……
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:吃过退烧药了吗？
-NPC-People_Female(0)<Speaker>波林</Speaker>||:没有……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:那么我需要你找找看有没有人身上携带了乙酰氨基酚或布洛芬。+然后还需要大量的冷水给汉娜降温。+这些东西也许地铁站内的医务室会有。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:好！我去问问。
-()<Speaker></Speaker>||:波林立刻走向附近的人群。
+()<Speaker></Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>822</BIN><黑屏2>:...Johannes Gutenberg University metro station, Frankfurt.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><SE1>Battlefield</SE1>:Bombs continue to fall, their heavy thunder never ceasing. +Hanna lies weak and delirious in Pauline's arms, burning with fever, her forehead hot to the touch. +Pauline bites her lip in anxiety. In her rush to flee, she has only brought their ID papers and some cash. +Her eyes wander through the demoralized crowd, desperate for hope— +Until, in the corner, she notices a flash of white. A white coat, stark against the gloom.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:E-excuse me...
+()<Speaker></Speaker>||:She has to take the chance. Hurrying forward with Hanna, Pauline stops before the woman in the lab coat.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:I see you're wearing a white coat... Are you a doctor?
+NPC-Nele(6)<Speaker>???</Speaker>||:I...
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:My child's had a fever for days. I meant to take her to the hospital today, but then this happened... +Now she's burning up and won't wake up. I'm worried sick... Please, could you please look at her...?
+NPC-Nele(6)<Speaker>???</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The woman lifts her head. Her face is weary. +She stares back at Pauline uncertainly, glances at Hanna, then falls into long silence. +Pauline's anxiety churns.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:...Hello?
+()<Speaker></Speaker>||:The woman avoids her eyes, her lips quivering vaguely as if she is about to speak—
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:Boom... +Another shell booms overhead.
+NPC-Nele(7)<Speaker>???</Speaker>||:Yes. My hands are a bit dirty. Could you take a pair of medical gloves from my pocket for me?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Relieved, Pauline quickly passes Hanna into her arms. +Then she extracts the gloves from the woman's pocket as she has asked.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Sorry, Doctor...?
+NPC-Nele(4)<Speaker>Nele</Speaker>||:...Just call me Nele.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:My name is Pauline. Thank you, Dr. Nele! +Please, take a look at Hanna! +I feel something is very wrong...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele checks Hanna's forehead with the back of her hand, then opens her bag, producing water and a towel to cool her down.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Dr. Nele, is there anything I can do?
+NPC-Nele(4)<Speaker>Nele</Speaker>||:...Her name is Hanna, yes? Tell me her age, allergies, and details of her fever.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:She's four and a half. No allergies. +The fever started this morning, 38.5°C at home. +She could still walk when we left, but after the bombing, she collapsed and hasn't woken since...
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Unconscious, or just sleeping?
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:I'm not sure...
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Has she taken any medicine?
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:No...
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Then try to find someone with paracetamol or ibuprofen. +And you'll need a large supply of cold water. +There might be some in the station's infirmary.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Got it! I'll ask around.
+()<Speaker></Speaker>||:Pauline rushes off into the crowd.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>822</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>Rope</SE1>:奈乐将自己的毛巾用阿玛瑞丝留下的矿泉水浸湿，搭在汉娜的额头上。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:然后尽可能轻柔地，奈乐将汉娜的身体保持侧躺，确保突发呕吐不会堵住她的呼吸道。
-NPC-People_Child(2)<Speaker>汉娜</Speaker>||:……妈妈……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:妈妈去帮你找药了，汉娜，你再坚持一下。
-NPC-People_Child(2)<Speaker>汉娜</Speaker>||:你……是谁……
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:我……
-()<Speaker></Speaker>||:汉娜迷迷糊糊地睁开了眼。
-NPC-People_Child(2)<Speaker>汉娜</Speaker>||:医生姐姐……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:……嗯，你有哪里不舒服吗？
-NPC-Nele(4)<Speaker>汉娜</Speaker><同时置暗>||:晕乎乎……睡觉……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:肚子舒服吗？想不想吐？
-NPC-Nele(4)<Speaker>汉娜</Speaker><同时置暗>||:不……
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:好，那你先睡一会吧，你妈妈很快就回来了。
-NPC-People_Child(2)<Speaker>汉娜</Speaker>||:唔……嗯……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:唰——滚烫的小手握住了奈乐的手指。+突如其来的信任击穿了奈乐心底的某处。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:哒哒哒。一阵急促的脚步声。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:奈乐医生！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:找到药了吗？
-NPC-People_Female(0)<Speaker>波林</Speaker>||:我找到了好几种，但不确定哪个合适……
-()<Speaker></Speaker>||:波林放下了几盒退烧药，奈乐注意到她身后还跟着几个人，呼吸几乎是本能地紧张了起来。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:他们是……
-NPC-People_Female(0)<Speaker>波林</Speaker>||:他们听说您是医生，想过来寻求帮助。
-NPC-People_Female(4)<Speaker>奥利维亚组长</Speaker>||:我们是站内的设施维护部派过来的小组，我是组长奥利维亚。+我刚刚征求过老大的意见，可以配合医生们临时搭建一个隔离的场地给伤者们。+站内说会试试用广播找来更多的医护人员。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:奈乐不安地绞紧了手指。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:奈乐医生，您别紧张，我只是刚刚走来走去，看见了很多受伤的人。+有的人自己都头破血流的，还给我找药……+我就想着，要是有一个临时的医务站就好了。
-NPC-People_Female(4)<Speaker>奥利维亚组长</Speaker>||:我们觉得这个想法很好，太多伤员了，大家又挤在这里，情绪不好的……+我们需要一些看得见的……希望。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:<color=#A9A9A9>希望……</color>
-NPC-People_Female(4)<Speaker>奥利维亚组长</Speaker>||:奈乐医生，你也别误会，我们没有逼着你做什么的意思。+你要是愿意加入我们的话，就太好了，当然了，你要是——
-NPC-People_Female(4)<Speaker>奥利维亚组长</Speaker>||:不愿意的话，我们也完全能理解。+毕竟在医院以外的地方行医，责任是完全由自己承担的。+如果真的有什么意外，确实可能对职业生涯造成负面影响。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐低下头，看着汉娜仍然紧紧抓住自己的小手。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:<color=#A9A9A9>我已经……没有什么可以失去的了。</color>
-NPC-People_Female(4)<Speaker>奥利维亚组长</Speaker>||:您是怎么考虑的，奈乐医生？
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Nele wets her towel with the bottled water that Amaris has left her and lays it on Hanna's forehead.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Then she carefully places the child on her side, ensuring she won't choke if she vomits.
+NPC-People_Child(2)<Speaker>Hanna</Speaker>||:...Mama...
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Your mama went to find you some medicine. Hang in there, Hanna.
+NPC-People_Child(2)<Speaker>Hanna</Speaker>||:Who... are you...?
+NPC-Nele(6)<Speaker>Nele</Speaker>||:I...
+()<Speaker></Speaker>||:Hanna's eyes half-open drowsily.
+NPC-People_Child(2)<Speaker>Hanna</Speaker>||:Doctor...
+NPC-Nele(4)<Speaker>Nele</Speaker>||:...That's right. Does it hurt anywhere?
+NPC-Nele(4)<Speaker>Hanna</Speaker><同时置暗>||:Just dizzy... and sleepy...
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Does your stomach hurt? Do you feel like throwing up?
+NPC-Nele(4)<Speaker>Hanna</Speaker><同时置暗>||:No...
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Alright. Rest a while. Your mama will be back soon.
+NPC-People_Child(2)<Speaker>Hanna</Speaker>||:Mm... okay...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hanna's small, feverish hand suddenly clasps Nele's fingers. +The unexpected trust pierces something deep in Nele's heart.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Footsteps approach quickly.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Doctor Nele!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:Found anything?
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Yes, several kinds, but I don't know which...
+()<Speaker></Speaker>||:Pauline sets down several boxes of fever reducers. Nele notices more people trailing behind the woman. Her breath quickens instinctively.
+NPC-Nele(6)<Speaker>Nele</Speaker>||:They're...?
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:They heard you're a doctor and came for help.
+NPC-People_Female(4)<Speaker>Team Leader Olivia</Speaker>||:I'm Olivia, leader of the station's maintenance team. +With my superior's approval, we can set up a temporary isolation area for the injured. +The station will make a broadcast to call for more medics.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Nele wrings her fingers uneasily.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Please, don't be nervous, Dr. Nele. I just came across lots of injured people while looking for medicine. +Someone still helped me even though she was bleeding herself... +I thought it would be great if we had even a small clinic here.
+NPC-People_Female(4)<Speaker>Team Leader Olivia</Speaker>||:We believe it's a good idea. Too many are wounded. It's bad for morale when we're all stuck down here... +We need some... tangible hope.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:<color=#A9A9A9>Hope...</color>
+NPC-People_Female(4)<Speaker>Team Leader Olivia</Speaker>||:Please don't misunderstand. We aren't forcing you. +If you choose to help, wonderful. If not...
+NPC-People_Female(4)<Speaker>Team Leader Olivia</Speaker>||:We completely understand. +Practicing outside a hospital means carrying all the risk yourself. +If something goes wrong, it could damage your career.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele lowers her head. Hanna's tiny hand is still clinging to her own.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:<color=#A9A9A9>I... have nothing left to lose.</color>
+NPC-People_Female(4)<Speaker>Team Leader Olivia</Speaker>||:How do you feel about it, Dr. Nele?
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.7</CGDelay>:
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:当黑暗推开你们的窗时，记住，你们是来改变这个世界，而不是被这个世界改变的。
+NPC-MrsGray(1)<Speaker>格雷</Speaker>||:When darkness knocks on your window, remember—you are here to change the world, not to be changed by it.
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||:承认吧，解剖格雷的时候，你从中得到了知识……以及快乐。
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||:Admit it—when you dissected Gray, you gained knowledge... and joy.
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
-NPC-MrsGray(1)<Speaker>格雷</Speaker>||:不是因为正确，才去选择。+而是因为你的选择，所以才正确。
+NPC-MrsGray(1)<Speaker>格雷</Speaker>||:It's not that we choose something because it's right. +It becomes right because we chose it.
 ()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:
-NPC-Laplace(11)<Speaker>拉普拉斯</Speaker>||<CGDelay>0.5</CGDelay>:比起格雷，比起威廉，你更像我。
+NPC-Laplace(11)<Speaker>Laplace</Speaker>||<CGDelay>0.5</CGDelay>:Compared to Gray or William—you're more like me.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BIN>822</BIN><CGDelay>0.5</CGDelay><黑屏2>:
-NPC-People_Female(4)<Speaker>奥利维亚组长</Speaker>||:奈乐医生，请您不要有任何顾虑，说出您的想法就好。
-NPC-Nele(5)<Speaker>奈乐</Speaker>||:我的想法……+……+我真正的想法是……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:奈乐轻轻握住了汉娜的小手。
+NPC-People_Female(4)<Speaker>Team Leader Olivia</Speaker>||:Dr. Nele, please don't worry. Just tell us what you think.
+NPC-Nele(5)<Speaker>Nele</Speaker>||:What I think... +... +Deep down, I think...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Nele gently squeezes Hanna's small hand.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<SE1>RunStep</SE1><BIN>822</BIN><黑屏2>:数分钟后，阿玛瑞丝急匆匆地跑进地铁站，抖掉身上的尘埃。+和她离开时相比，地铁站安静有序了很多。+来不及观察他人，阿玛瑞丝快步走向安置奈乐的角落。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐，城里几家超市都被搬空了，我只捡到点……+奈乐？！
-()<Speaker></Speaker>||:奈乐却不在她应该出现的地方。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>ClothingUp</SE1>:奈乐！
-()<Speaker></Speaker>||:阿玛瑞丝焦虑地在附近寻找着，听见呼喊，一个怀抱着小孩的女人抬起头来。
-NPC-People_Female(0)<Speaker>波林</Speaker>||:你找奈乐医生？她在临时医务站那里。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐……医生？临时医务站？
-NPC-People_Female(0)<Speaker>波林</Speaker>||:就在前面那个用尼龙布临时搭建的小棚子附近。
+()<Speaker></Speaker>||<SE1>RunStep</SE1><BIN>822</BIN><黑屏2>:A few minutes later, Amaris rushes back into the metro station and dusts herself off. +Compared to when she left, the station is now much quieter and more orderly. +But Amaris has no time to spare the crowd a closer look. She strides quickly toward the corner where she has left Nele.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Nele, the grocery stores in the city are all emptied out. I only managed to pick up some— +Nele?!
+()<Speaker></Speaker>||:But Nele is not where she is supposed to be.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>ClothingUp</SE1>:Nele!
+()<Speaker></Speaker>||:Amaris searches the area frantically. Hearing her shouts, a woman holding a child raises her head.
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:Are you looking for Doctor Nele? She's at the temporary medical station.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Doctor... Nele? Temporary medical station?
+NPC-People_Female(0)<Speaker>Pauline</Speaker>||:It's just over there, near that makeshift shelter made with a nylon sheet.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>803</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝越过长长的队伍，钻进这个莫名出现在地铁站的突兀小棚。+几名医护人员正在伤员间忙碌着，阿玛瑞丝一眼认出了奈乐。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:奈乐……你在做什么？
-NPC-Nele(6)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:阿玛瑞丝！你回来了……
-NPC-Nele(6);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……我拿了一些饼干和水。
-NPC-Nele(6)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:我们建立了一个临时的医务站，为地铁站内那些受伤的人们提供一些帮助。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……你明明自己状态也很差。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:看出了阿玛瑞丝欲言又止，奈乐只是笑了笑。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你是一个好医生。
-NPC-Nele(4)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:你是一位优秀的精英人形。
-NPC-Nele(4);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:怎么？接下来是需要一番友好的互相夸赞吗？
-NPC-Nele(5)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:不是……我只是觉得，在这样的情况下，也许你应该有更重要的事情去做。+比如……站在前线。
-NPC-Nele(5);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我已经参加过很多次战争了。+而且，不是你说……+这里也是前线吗？
-NPC-Nele(5)<Speaker>奈乐</Speaker>;NPC-SCAR-H(0)||:……但是这里已经没有涅托，你在我身边，好像确实只能做一些保镖的工作……+有点浪费了。
-NPC-Nele(5);NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……浪费？+奈乐小姐，我只是一个无所事事的人形而已。
-NPC-Nele(6)<Speaker>奈乐</Speaker>||<BGM>BGM_Empty</BGM>:阿玛瑞丝……
-NPC-People_Female(3)<Speaker>玛丽护士</Speaker>||:奈乐医生，018号患者的癫痫又复发了！
-NPC-Nele(6)<Speaker>奈乐</Speaker>||:我马上去！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:阿玛瑞丝将食物递给了奈乐。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你忙。
-NPC-Nele(4)<Speaker>奈乐</Speaker>||:好，一会说。
-()<Speaker></Speaker>||<SE1>RunStep</SE1>:奈乐匆匆跑开。+看着奈乐离开的背影，鬼使神差地，她拨通了一个从来没想过的通讯。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.5</CGDelay><BGM>GF_21winter_avg_nightbar</BGM>:……喂，说话。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>阿玛瑞丝？</color>+<color=#99CC33>格雷已经回收，我们的合作结束了，你不是应该回斯塔西了吗？</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:理论是这样没错，但大概德国克我。+我现在正陪着医生小姐，做她的保镖。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>而她的保镖米娅小姐，正在这里做医护人形。</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:那你呢？你不是啥也做不了？
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>拜托，让我这样的精锐人形去做保镖和医护，也太浪费了。</color>+<color=#99CC33>上次可是AR-18反复哀求我帮你，我才勉强同意的。</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:是吗？没想到精锐人形还有空闲秒接通讯，怕是现在闲得发慌了吧。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>不对，我在这边也没有闲着好吧？我在维护网络！</color>+<color=#99CC33>倒是你，为什么这么闲？</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:做保镖是这样的。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>你身为三战老兵，不是应该现在去炸飞机吗？</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我记得你之前也在苏联军方服役过，难道不应该你现在去炸飞机？
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||<SE1>Rope</SE1>:<color=#99CC33>……这太不优雅了。</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:对，这太勤奋了。+不符合我的废物人形设定。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>你是这种设定？</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我是啊。+老妈死了，全家都死了。+总算没有人督促我上进了。+现在可以心安理得地混吃等死。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>你也太不上进了！</color>+<color=#99CC33>我妈也死了，全家都死了。</color>+<color=#99CC33>可我继承了他们的遗产，照样努力工作！</color>+<color=#99CC33>斯塔西怎么会允许你这么闲？</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:实不相瞒，斯塔西甚至都不想付我工钱。
-()<Speaker></Speaker>||<SE1>AVG_Cash_register</SE1>:叮。阿玛瑞丝的账户传来资金到账提示音。
-()<Speaker></Speaker>||:阿玛瑞丝诧异地打开，是史蒂文斯520转了一笔钱给她。
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:你干什么？
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>你这不是找我要钱吗？</color>+<color=#99CC33>艾尔玛每次要钱的时候都会这么说——“妈妈每次都不给我零花钱……”</color>
-NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>没别的事了吧？</color>
-NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:还有，我记得AR-18也是休谟的人形吧。+你上次骗了我。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>……也不是。</color>+<color=#99CC33>主要是她自己不承认。</color>+<color=#99CC33>而且……她从来不问我要钱。</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:哦，那你接下来有什么打算。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>……替艾尔玛看看指挥官的结局吧。</color>
-NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:我还以为是看AR-18呢。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>……顺便，顺便。</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:真是无聊。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>对啊，我们这种有钱又强还没有主人约束的人形。</color>+<color=#99CC33>余生最大的目标，就是抵抗无聊好吧。</color>
-NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:……啧啧，那你再给我点钱。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>我是有钱又强，不是人傻钱多。</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:卖你一个消息，刚刚J给我发了信息。+是伊阿索之匣的位置。
-()<Speaker></Speaker>||<SE1>AVG_Cash_register</SE1>:叮叮叮，阿玛瑞丝看着账户里多出来的钱笑弯了嘴角。
-NPC_Stevens520(0)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>情报呢？</color>
-NPC-SCAR-H(0)<Speaker>阿玛瑞丝</Speaker>||:哦忘记说了，这个信息本来就是要转给指挥官的。+其实是免费的。
-NPC_Stevens520(1)<Speaker>史蒂文斯520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>……</color>
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Phone_Crash</SE1><SE1>AVG_tele_disconnect</SE1><震屏3>:咚。+通讯的另一端愤怒地挂断了。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris pushes past the long line and slips into the strange little shelter that suddenly appeared out of nowhere in the station. +Several medics are busy among the wounded. Amaris immediately recognizes Nele.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Nele... what are you doing?
+NPC-Nele(6)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:Amaris! You're back...
+NPC-Nele(6);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...I've brought some cookies and water.
+NPC-Nele(6)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:We've set up a temporary medical station to give some help to the wounded here in the metro station.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...But you're in pretty bad shape yourself.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris looks like she wants to say more. Nele simply gives her a faint smile.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:You're a good doctor.
+NPC-Nele(4)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:And you're an outstanding elite Doll.
+NPC-Nele(4);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:What now, are we supposed to trade compliments?
+NPC-Nele(5)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:No... I'm just thinking... under these circumstance, you probably should be doing something more important. +Like... fighting on the frontline.
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I've fought in many wars already. +And besides, weren't you the one who said... +That this is also a frontline?
+NPC-Nele(5)<Speaker>Nele</Speaker>;NPC-SCAR-H(0)||:...But with the Nytos gone, you're only stuck doing bodyguard work by my side... +Seems like a waste.
+NPC-Nele(5);NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:A waste? +Miss Nele, I'm just an idle Doll with nothing to do.
+NPC-Nele(6)<Speaker>Nele</Speaker>||<BGM>BGM_Empty</BGM>:Amaris...
+NPC-People_Female(3)<Speaker>Nurse Marie</Speaker>||:Doctor Nele, Patient 018 is having another seizure!
+NPC-Nele(6)<Speaker>Nele</Speaker>||:I'll be right there!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Amaris hands the food to Nele.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Go on.
+NPC-Nele(4)<Speaker>Nele</Speaker>||:Okay, we'll talk later.
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:Nele hurries away. +Watching her disappear among the crowd, Amaris finds herself dialing a contact she never thought she would.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||<SE1>AVG_tele_connect</SE1><CGDelay>0.5</CGDelay><BGM>GF_21winter_avg_nightbar</BGM>:...Speak.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>Amaris?</color> +<color=#99CC33>Gray has already been retrieved. Our collaboration is over. Shouldn't you have returned to the Stasi?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:In theory, yes, but apparently Germany doesn't agree with me. +Right now, I'm with the good doctor, acting as her bodyguard.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>And her bodyguard, Miss Mia, is here working as a medic.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:And you? Weren't you the one who said you can't do anything?
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>Please. Having an elite Doll like me serve as bodyguard or medic would be such a waste.</color> +<color=#99CC33>I only agreed to help you last time because AR-18 begged me repeatedly.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Oh? I'm surprised an elite Doll has the spare time to pick up calls so quickly. Are you sure you're not bored out of your mind?
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>Hey, I'm not idle here, you know? I'm maintaining the network!</color> +<color=#99CC33>You, on the other hand—why are you twiddling your thumb, chatting on the phone with me?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Bodyguard work involves a lot of standing around doing nothing.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>As a WWIII veteran, shouldn't you be out bombing planes right now?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I recall you also served in the Soviet military. Shouldn't you also be bombing planes?
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||<SE1>Rope</SE1>:<color=#99CC33>...That's far too inelegant.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Exactly, it's too much hard work. +Doesn't match my persona as a "garbage Doll".
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>That's your persona?</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:It is. +My mother is dead, my whole family is dead. +Finally no one is pushing me to improve anymore. +Now I can idle away in peace.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>You're way too complacent!</color> +<color=#99CC33>My mother's dead too, and so is my whole family.</color> +<color=#99CC33>But I inherited their estate, and I'm still hard at work!</color> +<color=#99CC33>How could the Stasi even allow you to laze around like this?</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Truth is, the Stasi doesn't actually want to pay me.
+()<Speaker></Speaker>||<SE1>AVG_Cash_register</SE1>:Ding. Amaris's bank account pings with a transaction notification.
+()<Speaker></Speaker>||:Startled, she opens it—Stevens M520 has just transferred her a sum.
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:What is the meaning of this?
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>You're asking me for money, no?</color> +<color=#99CC33>That's what Erma would say whenever she wanted some pocket money, "Mother never gives me an allowance..."</color>
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>Anything else you want?</color>
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:One more thing. As I recall, AR-18 is also a Hume Doll, isn't she? +You lied to me last time.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>...Not exactly.</color> +<color=#99CC33>She just doesn't admit it herself.</color> +<color=#99CC33>And besides... she never asks me for money.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Heh. So what's your plan next?
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>...To see how things end for the Commander. For Erma's sake.</color>
+NPC_Stevens520(0)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I thought it was for AR-18's sake.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>...Her too, I suppose. Whatever.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Sounds boring.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>Exactly. For Dolls like us—wealthy, powerful, and without masters—</color> +<color=#99CC33>The only worthwhile goal left in life is fighting boredom.</color>
+NPC_Stevens520(1)<Position>0,60</Position>;NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:...Tut-tut. Then give me some more money.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>;NPC-SCAR-H(0)||:<color=#99CC33>I'm wealthy and powerful, not stupid and wasteful.</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:I'll sell you a tip. J just passed me some intel. +The location of the Iaso's Boxes.
+()<Speaker></Speaker>||<SE1>AVG_Cash_register</SE1>:Ding-ding-ding. Amaris smirks as she sees more money arrive in her account.
+NPC_Stevens520(0)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>And the intel?</color>
+NPC-SCAR-H(0)<Speaker>Amaris</Speaker>||:Oh, I forgot to mention—this info was going to the Commander anyway. +It's actually free.
+NPC_Stevens520(1)<Speaker>Stevens M520</Speaker><Position>0,60</Position><通讯框>||:<color=#99CC33>...</color>
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>AVG_21Winter_Phone_Crash</SE1><SE1>AVG_tele_disconnect</SE1><震屏3>:Thunk. +The other side hangs up furiously.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:……指挥室。
-()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AR-18使用通讯器，将阿玛瑞丝提供的情报转交给指挥官。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>指挥官，斯塔西那边的情报指出，这些地下防控设施可能存在伊阿索之匣。</color>+<color=#00CCFF>阿玛瑞丝可以帮助排查美因茨大学地铁站附近的部分，剩下的需要我们派遣小队排查。</color>
-AR18(2)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:……伊阿索之匣？+现在地面上的轰炸已经如此惨烈，帕拉蒂斯连地下也不肯放过吗……+我们还有可以派遣的小队吗？
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>嗯，请您过目。</color>
-AR18(2)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:让她们准备好，立刻出发。
-AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<CGDelay>0.5</CGDelay>:是。
-()||<黑点1>:
+()<Speaker></Speaker>||<BIN>202</BIN><黑屏2><BGM>GF_EV9_Story</BGM>:...Command room.
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AR-18 forwards the intel that Amaris provided to the Commander.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>Commander, intel from the Stasi indicates that these underground defense facilities may contain Iaso's Boxes.</color> +<color=#00CCFF>Amaris can help inspect the section near the Johannes Gutenberg University metro station, but we'll have to send squads to investigate the rest.</color>
+AR18(2)<Speaker>Commander</Speaker><同时置暗><通讯框>||:...Iaso's Boxes? +The bombing above is already so devastating, but Paradeus won't even spare the underground...? +Do we still have any squads available?
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||:<color=#00CCFF>Yes, please take a look.</color>
+AR18(2)<Speaker>Commander</Speaker><同时置暗><通讯框>||:Tell them to get ready and move out immediately.
+AR18(2)<Speaker>AR-18</Speaker><Position>0,100</Position><通讯框>||<CGDelay>0.5</CGDelay>:Yes, Commander.
+()||<黑点1>:
