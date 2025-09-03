@@ -150,15 +150,15 @@ NPC-Scalper(0)<Speaker>Catherine</Speaker>||:Don't worry, let me enlist a few he
 NPC-Scalper(3)<Speaker>Catherine</Speaker>||:<color=#A9A9A9>Oh, I swear if she's taken the money and made a run for it...</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Catherine could only contact a different accomplice.
 NPC-Scalper(0)<Speaker>Catherine</Speaker>||:Lil' Quimby?
-NPC-Scalper(0);NPC-Quimby(0)<Speaker>小昆比</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>...Huh? Catherine, you're alive?</color>
+NPC-Scalper(0);NPC-Quimby(0)<Speaker>Quimby</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>...Huh? Catherine, you're alive?</color>
 NPC-Scalper(0)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:Surprised, are we?+Where are you? What's happened to Maggie?
-NPC-Scalper(0);NPC-Quimby(0)<Speaker>小昆比</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>Maggie? How am I supposed to know?</color>+<color=#00CCFF>You both went radio silent after you stepped onto that train. I asked around everywhere. It was the bandits, then the rebels, then some white sons of...</color>+<color=#00CCFF>I had to just wash my hands of it all.</color>
+NPC-Scalper(0);NPC-Quimby(0)<Speaker>Quimby</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>Maggie? How am I supposed to know?</color>+<color=#00CCFF>You both went radio silent after you stepped onto that train. I asked around everywhere. It was the bandits, then the rebels, then some white sons of...</color>+<color=#00CCFF>I had to just wash my hands of it all.</color>
 NPC-Scalper(3)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:Train? Looks like it was after my backup... What else do you know?+Do you know what happened to her?
-NPC-Scalper(3);NPC-Quimby(0)<Speaker>小昆比</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>I don't, but chances are she's alive. After the incident with the train, she cleaned up all the traces of our transactions.</color>
+NPC-Scalper(3);NPC-Quimby(0)<Speaker>Quimby</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>I don't, but chances are she's alive. After the incident with the train, she cleaned up all the traces of our transactions.</color>
 NPC-Scalper(3)<Speaker>Catherine</Speaker>;NPC-Quimby(0)<Position>0,300</Position>||:...+Where are you, Quimby? Let's meet up.
-NPC-Scalper(3);NPC-Quimby(0)<Speaker>小昆比</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>Catherine, I've found a good, proper, safe job. Nine to five, stable income.</color>+<color=#00CCFF>I'm not going back to living on a knife's edge!</color>
+NPC-Scalper(3);NPC-Quimby(0)<Speaker>Quimby</Speaker><Position>0,300</Position><通讯框>||:<color=#00CCFF>Catherine, I've found a good, proper, safe job. Nine to five, stable income.</color>+<color=#00CCFF>I'm not going back to living on a knife's edge!</color>
 NPC-Scalper(3)<Speaker>Catherine</Speaker><Shake>;NPC-Quimby(0)<Position>0,300</Position>||<SE1>ClothingUp</SE1>:You're going to run away?!
-NPC-Quimby(0)<Speaker>小昆比</Speaker><Position>0,300</Position><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>I had no choice before. Now, I just want to be a good fairy.</color>
+NPC-Quimby(0)<Speaker>Quimby</Speaker><Position>0,300</Position><通讯框>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>I had no choice before. Now, I just want to be a good fairy.</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:Beep. Call ended.+Catherine holds the terminal idly, still recovering.
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:Beep beep. A call comes in, and Catherine immediately answers.
 NPC-Scalper(0)<Speaker>Catherine</Speaker>||:You've changed your mind?
