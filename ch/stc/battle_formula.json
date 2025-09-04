@@ -17000,6 +17000,18 @@
     "formula": "sbuffidtier(9910)>0?1:0"
   },
   {
+    "id": 9925,
+    "formula": "sbuffidtier(9912)=1&sbuffidtier(9913)=1?1:0"
+  },
+  {
+    "id": 9926,
+    "formula": "sbuffidtier(9915)=1&sbuffidtier(9916)=1?1:0"
+  },
+  {
+    "id": 9927,
+    "formula": "#enemytype=1?$1:sbuffidtier(9914)>0?#distancex<7?#distancex<1?999999:($1*(4-(#distancex-1)*0.5)):$1:$1"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
