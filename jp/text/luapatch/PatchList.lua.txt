@@ -501,6 +501,7 @@ patch3070=
 "3071/DailyExploreUIController",
 "3071/DormFriendUIController",
 "3060/CommonAudioController",
+"3070/UIBattleMainView",
 }
 patch3071=
 {
@@ -519,6 +520,7 @@ patch3071=
 "3071/DormFriendUIController",
 "3071/OPSPanelController",
 "3060/CommonAudioController",
+"3070/UIBattleMainView",
 }
 -- va11
 print("load Va11");
