@@ -17009,7 +17009,7 @@
   },
   {
     "id": 9927,
-    "formula": "#enemytype=1?$1:sbuffidtier(9914)>0?#distancex<7?#distancex<1?999999:($1*(4-(#distancex-1)*0.5)):$1:$1"
+    "formula": "#enemytype=1?$1:sbuffidtier(9914)>0?#distancex<7?((#distancez<1)&(#distancex<1)?999999*(1-#def/#maxdef):($1*(4-(#distancex-1)*0.5))):$1:$1"
   },
   {
     "id": 13280,

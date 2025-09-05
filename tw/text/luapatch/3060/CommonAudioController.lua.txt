@@ -2,7 +2,9 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.CommonAudioController)
 
 local PlayCharacterVoiceHandle = function(self, characterName, ...)
-	characterName = string.gsub(characterName, "ModMod", "Mod")
+	if characterName ~= nil then
+		characterName = string.gsub(characterName, "ModMod", "Mod")
+	end
 	return self:PlayCharacterVoiceHandle(characterName, ...)
 end
 
