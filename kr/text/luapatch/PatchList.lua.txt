@@ -521,6 +521,7 @@ patch3071=
 "3071/OPSPanelController",
 "3060/CommonAudioController",
 "3070/UIBattleMainView",
+"3070/MissionSkillData",
 }
 -- va11
 print("load Va11");
