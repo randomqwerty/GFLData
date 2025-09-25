@@ -1369,6 +1369,12 @@
       "client_require": "1"
     },
     {
+      "parameter_name": "guide_skip_group",
+      "parameter_type": "string",
+      "parameter_value": "4,5,6,38|7,8,9,10|11,12|13,14|15,16|25,27|28,29|",
+      "client_require": "1"
+    },
+    {
       "parameter_name": "guild_application_check_limit",
       "parameter_type": "int",
       "parameter_value": "100",
@@ -1888,6 +1894,12 @@
       "parameter_name": "normal_develop_type_T",
       "parameter_type": "string",
       "parameter_value": "1,1,1,1,1.5",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "notpermit_forcewin_missions",
+      "parameter_type": "string",
+      "parameter_value": "11002,11003,11004,11117",
       "client_require": "1"
     },
     {
@@ -2674,6 +2686,12 @@
       "parameter_name": "skin_type_txt",
       "parameter_type": "string",
       "parameter_value": "1:31899,LUNAR NEW YEAR;2:31900,NEW YEAR;3:31901,WHITEDAY;4:31902,ANNVERSARY;5:31903,CHILDREN'S DAY;6:31904,SWIMSUIT;7:31905,HALLOWEEN;8:31906,CHRISTMAS;9:31907,OTHERS;10:31915,NPC;11:31916,Collaboration",
+      "client_require": "1"
+    },
+    {
+      "parameter_name": "skip_ticket",
+      "parameter_type": "string",
+      "parameter_value": "100,100,100,100",
       "client_require": "1"
     },
     {
@@ -3483,7 +3501,7 @@
     {
       "parameter_name": "weekly_progress",
       "parameter_type": "string",
-      "parameter_value": "50:8310;100:8311;150:8312;200:8313;250:8314",
+      "parameter_value": "40:8310;80:8311;120:8312;160:8313;240:8314",
       "client_require": "1"
     },
     {
