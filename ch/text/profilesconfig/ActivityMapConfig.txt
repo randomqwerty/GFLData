@@ -99,6 +99,8 @@ MissionSelectionTex|missionselect_202412activity|2|-74
 MissionSelectionTex|missionselect_202505activity|2|-75
 //25.7月
 MissionSelectionTex|missionselect_202507activity|2|-76
+//25.9月洞
+MissionSelectionTex|missionselect_202509rabbit|2|-77
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -157,6 +159,7 @@ OPSPanelScene|-40403|-40403
 OPSPanelScene|-74|-74
 OPSPanelScene|-75|-75
 OPSPanelScene|-76|-76
+OPSPanelScene|-77|-77
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -251,6 +254,7 @@ OPSLeftBGNormalActivity|-40403|2023Spring_Left
 OPSLeftBGNormalActivity|-74|202412Activity_Left
 OPSLeftBGNormalActivity|-75|202505Activity_Left
 OPSLeftBGNormalActivity|-76|202507Activity_Left
+OPSLeftBGNormalActivity|-77|202509Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -343,6 +347,7 @@ OPSTimeNormalActivity|-73|202406Activity_Time
 OPSTimeNormalActivity|-74|202406Activity_Time
 OPSTimeNormalActivity|-75|Reversible_Time
 OPSTimeNormalActivity|-76|Reversible_Time
+OPSTimeNormalActivity|-77|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -405,6 +410,8 @@ OPSGoto|202412Activity_GotoMall|0|-74
 OPSGoto|202505Activity_GotoMall|0|-75
 //25_07月活动
 OPSGoto|202505Activity_GotoMall|0|-76
+//25_09月兔洞
+OPSGoto|202505Activity_GotoMall|2|-77
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -685,6 +692,7 @@ OPSShowItemDeployment|531,532,533|2023Se_All|11473,11474
 OPSShowItemDeployment|542|MirrorStageScore_DeploymentItems|11549,11549
 OPSShowItemDeploymentCheckUse|9044,9045,9046,9047|Tarot_DeploymentTarot|54601f4f84f4d814_draw_240611002.jpg|11659,11660,11661,11662,11663,11664,11665,11666,11667
 OPSShowItemDeploymentCheckUse|0|202412Activity_ShowItem|3b5964e84b44114c_draw_241211002.jpg|11603
+OPSShowItemDeployment|9050|202509Activity_DeploymentItems|11946
 
 
 //具体章节里的头像贴图设置-位置坐标-贴图
@@ -2355,3 +2363,5 @@ OPSCampaignDetail|-76_27|0,0|Teal&Mona_shadow
 OPSCampaignDetail|-76_28|0,0|AK12_Mod3
 OPSCampaignDetail|-76_29|0,0|Kalina_Armed
 
+//202509兔洞 静默沙盘
+OPSCampaignDetail|-77_1|0,0|William
