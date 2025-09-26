@@ -198,6 +198,19 @@ local RefreshEntranceUI = function(self)
 		self.btnSelectDiffcluty.gameObject:SetActive(true);
 	end
 end
+
+local active = true;
+local CancelMission = function(self)
+	active = self.MissionInfoController.gameObject.activeInHierarchy;
+	self:CancelMission();
+	active = true;
+end
+local CheckSelectSpotShow= function(self,selectindex,checknull)
+	if not active then
+		return;
+	end
+	self:CheckSelectSpotShow(selectindex,checknull);
+end
 util.hotfix_ex(CS.OPSPanelController,'Start',Start)
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
 util.hotfix_ex(CS.OPSPanelController,'Load',Load)
@@ -209,4 +222,5 @@ util.hotfix_ex(CS.OPSPanelController,'LoadFirstVideo',LoadFirstVideo)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.SpecialMissionInfoController,'RequestStartMissionHandle',RequestStartMissionHandle)
 util.hotfix_ex(CS.SpecialMissionInfoController,'RefreshEntranceUI',RefreshEntranceUI)
-
+util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+util.hotfix_ex(CS.OPSPanelController,'CheckSelectSpotShow',CheckSelectSpotShow)

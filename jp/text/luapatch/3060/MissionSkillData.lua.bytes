@@ -1,6 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.HurtAction)
-
+xlua.private_accessible(CS.MissionAction)
 local PlayEffect = function(self)
 	if self.Team == nil then
 		--CS.NDebug.LogError("缺少Team",self.teamType);
@@ -78,6 +78,17 @@ local ReadSangvisSkillData = function(self,id,spotid)
 		end
 	end
 end
+local isFriendFairyTeamSource = function(sourceType)
+	if sourceType == CS.SourceType.fairy then
+		return true;
+	end
+	return false;
+end
+local LoadFairySkillPerform = function(self,jsonData,readObject)
+	util.hotfix_ex(CS.MissionSkill,'isFriendTeamSource',isFriendFairyTeamSource)
+	self:LoadFairySkillPerform(jsonData,readObject);
+	xlua.hotfix(CS.MissionSkill,'isFriendTeamSource',nil)
+end
 util.hotfix_ex(CS.BuffAction,'PlayEffect',PlayEffect)
 util.hotfix_ex(CS.HurtAction,'PlayEffect',PlayHurtEffect)
 util.hotfix_ex(CS.MissionAction,'ReadFriendSkillData',ReadFriendSkillData)
@@ -86,3 +97,4 @@ util.hotfix_ex(CS.MissionAction,'ReadAllySkillData',ReadAllySkillData)
 util.hotfix_ex(CS.MissionAction,'ReadSquadSkillData',ReadSquadSkillData)
 util.hotfix_ex(CS.MissionAction,'ReadVehicleSkillData',ReadVehicleSkillData)
 util.hotfix_ex(CS.MissionAction,'ReadSangvisSkillData',ReadSangvisSkillData)
+util.hotfix_ex(CS.MissionAction,'LoadFairySkillPerform',LoadFairySkillPerform)

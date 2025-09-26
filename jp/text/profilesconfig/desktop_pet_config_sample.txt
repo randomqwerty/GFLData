@@ -1,0 +1,250 @@
+// created by jiaolian 2025/07/28 19:43
+// 这是桌宠配置的说明示例文档
+// 建议使用VSCode查看本文档，并在右下角的语言模式（Select Language Mode）处选择JSON，以获得最佳体验
+// 由于JSON格式解析不支持注释，请勿将本文件直接用于生效配置
+
+/* 枚举参考
+资源类型枚举（resource_type）
+{
+    PIC = 1,        // 立绘
+    SPINE = 2,      // Spine
+    L2D = 3,        // Live2D
+    DEFAULT = 100,  // 通用
+}
+
+数据类型枚举（data_type）
+{
+    NPC = 0,        // NPC
+    GUN = 1,        // 人形
+    FAIRY = 2,      // 妖精
+    SANGVIS = 3,    // 铁血
+    DEFAULT = 100,  // 通用
+}
+
+行为触发类型枚举（trigger_type）
+{        
+        ENTER = 101,                // 入场
+        CLICK = 102,                // 点击
+        EXIT = 103,                 // 退出
+        DRAG = 104,                 // 拖拽
+        IDLE = 105,                 // 默认
+        WAIT = 106,                 // 默认后的等待
+
+        OPERATION = 201,            // 后勤
+        AUTO_MISSION = 202,         // 自律
+        EXPLORATION_WAIT = 203,     // 前进营地等待（可能只能做成到达
+        EXPLORATION_FULL = 204,     // 前进营地已满（可能和上一项有冲突
+
+        GUN_TRAINING = 301,         // 人形训练
+        FAIRY_TRAINING = 302,       // 妖精训练
+        SANGVIS_TRAINING = 303,     // 铁血训练
+        SQUAD_TRAINING = 304,       // 重装训练
+
+        GUN_DEVELOP = 401,          // 人形建造
+        GUN_DEVELOP_SP = 402,       // 重型建造
+        EQUIP_DEVELOP = 403,        // 装备建造
+        FAIRY_DEVELOP = 404,        // 妖精建造
+}
+
+语音类型枚举（VoiceType）
+{
+    _GAIN_ = 0,//卡牌入手
+    _HELLO_ = 1,//上线打招呼
+    _FORMATION_ = 2,//队伍编成
+    _FEED_ = 3,//强化完成后的台词
+    _DIALOGUE1_ = 4,//卡片交流：1
+    _DIALOGUE2_ = 5,//卡片交流：2
+    _DIALOGUE3_ = 6,//卡片交流：3
+    _BUILDOVER_ = 7,//制造完成提示
+    _GOATTACK_ = 8,//部队出击时
+    _MEET_ = 9,//遇敌
+    _ATTACK_ = 10,//阵型改变:攻击
+    _DEFENSE_ = 11,//阵型改变:防御
+    _BREAK_ = 12, //大破
+    _WIN_ = 13,//胜利
+    _RETREAT_ = 14,//撤退
+    _NEWYEAR_ = 15,//新年
+    _VALENTINE_ = 16,//情人节
+    _TANABATA_ = 17,//七夕
+    _ALLHALLOWS_ = 18,//万圣节
+    _CHRISTMAS_ = 19,//圣诞节
+    _SKILL1_ = 20,//技能1
+    _SKILL2_ = 21,//技能2
+    _SKILL3_ = 22,//技能3
+    _OPERATIONBEGIN_ = 23,//远征开始
+    _OPERATIONOVER_ = 24,//远征结束
+    _FIX_ = 25,//修复
+    _COMBINE_ = 26,//编制扩大
+    _BLACKACTION_ = 27,//黑色行动（自律作战）
+    _SOULCONTRACT_ = 28,//灵魂契约
+    _TITLECALL_ = 29,// “少女前线”！
+    _DIALOGUEWEDDING_ = 30,//婚后台词 暂无语音
+    _PHRASE_ = 31,//口头禅
+    _MOOD1_ = 32, //语气词1 单点小人笑
+    _MOOD2_ = 33,//语气词2 拧起小人受惊
+    _LOWMOOD_ = 34,//落魄
+    _APPRECIATE_ = 35,//鼓励
+    _AGREE_ = 36,//赞同
+    _ACCEPT_ = 37,//接受
+    _FEELING_ = 38,//同感
+    _TIP_ = 39,//提示
+    _LOADING_ = 40,//载入
+    _PLACE_ = 41,//放置
+    _GAIN01_ = 42,//铁血首次入手
+    _GAIN02_ = 43,//铁血重复入手
+    _UPGRADE01_ = 44,//解析度提升
+    _UPGRADE02_ = 45,//解析度满
+    _BREAKTHROUGH01_ = 46,//升星
+    _BREAKTHROUGH02_ = 47,//升星满
+    _FORMATION01_ = 48,//队伍编成
+    _FORMATION02_ = 49,//队伍编成
+    _FORMATION03_ = 50,//队伍编成
+    _FEED01_ = 51,
+    _FEED02_ = 52,
+    _DIALOGUE01_ = 53,
+    _DIALOGUE02_ = 54,
+    _DIALOGUE03_ = 55,
+    _DEAD01_ = 56,
+    _DEAD02_ = 57,
+    _SKILL01_ = 58,
+    _SKILL02_ = 59,
+    _SKILL03_ = 60,
+    _DIALOGUE4_ = 61,
+    _DIALOGUE5_ = 62,
+    _DIALOGUE6_ = 63,
+    _DIALOGUE7_ = 64,
+    _DIALOGUE8_ = 65,
+    _DIALOGUE9_ = 66,
+    _DIALOGUE10_ = 67,
+}
+ */
+
+/* target说明
+    target值用于指定条目的应用范围。
+    大部分参数都包含target值，且都是数组结构（形似[{aaa},{bbb}...]）
+    target内部参数:
+    resource_type    资源类型枚举
+    data_type        数据类型枚举
+    specific_id      指定数据id（人形id/NPC id/妖精id/铁血id）
+    skin_id          指定皮肤id
+*/
+
+/* pet_actions的持续时间机制，可以用下列伪代码解释
+    if duration为0
+        持续时间为永久
+    else
+        if voice_type存在值且目标成功播放语音
+            持续直到语音播放结束后1秒
+        else
+            持续时间走duration
+*/
+
+/* trigger_type为105或106的机制
+    执行action到持续时间满时：
+        若该action的trigger_type为105，则尝试执行106的action；
+        若该action的trigger_type不为105，则尝试执行105的action。
+*/
+
+{
+    //行为触发
+    //支持相同的trigger_type和target配多个条目，从中随机选一条执行
+    "pet_actions": [
+        {
+            "trigger_type": 101, // 触发类型，行为触发类型枚举
+            "target": { // target值
+                "resource_type": 100,
+                "data_type": 100,
+                "specific_id": 0,
+                "skin_id": 0
+            },
+            "bubble_text_lang": "", // 顶部提示文本语言包id
+            "voice_type": [ // 语音类型枚举VoiceType
+                4,
+                5,
+                6
+            ], 
+            "bubble_use_voice_text": false, // 是否显示语音气泡
+            "animations": ["victory","victoryloop"], // spine动画序列，依次播放数组中的动画；最后一个动画为循环播放，其他不循环；会自动排除不存在的动画（如victoryloop）
+            "is_dorm_spine": false, // 是否将spine切换为宿舍状态，仅限人形spine
+            "duration": 5.0, // 持续时间（秒），时间结束后切换为默认行为（trigger_type为105）
+            "trigger_priority": 0 // 优先级，暂时没用
+        },
+        {
+            "trigger_type": 102,
+            "target": {
+                "resource_type": 100,
+                "data_type": 100,
+                "specific_id": 0,
+                "skin_id": 0
+            },
+            "bubble_text_lang": "",
+            "voice_type": [],
+            "bubble_use_voice_text": false,
+            "animations": [],
+            "is_dorm_spine": false,
+            "duration": 0.0,
+            "trigger_priority": 0
+        }
+    ],
+    // 缩放值，默认
+    "scale_groups": [
+        {
+            "target": { // target值
+                "resource_type": 100,
+                "data_type": 100,
+                "specific_id": 0,
+                "skin_id": 0
+            },
+            "scale_min": 0.1, // scale最小值
+            "scale_max": 3.0, // scale最大值
+            "scale_default": 1.0 // scale默认值
+        },
+        {
+            "target": {
+                "resource_type": 2,
+                "data_type": 100,
+                "specific_id": 0,
+                "skin_id": 0
+            },
+            "scale_min": 50.0,
+            "scale_max": 500.0,
+            "scale_default": 150.0
+        }
+    ],
+    // 气泡偏移（暂未实现
+    "bubble_offsets": [
+        {
+            "target": {
+                "resource_type": 100,
+                "data_type": 100,
+                "specific_id": 0,
+                "skin_id": 0
+            },
+            "value": { // 偏移值坐标
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ],
+    // 拖拽边界，即编辑器中的白框。拖拽时会保证此框超出屏幕范围
+    "drag_margins": [
+        {
+            "target": {
+                "resource_type": 0,
+                "data_type": 0,
+                "specific_id": 0,
+                "skin_id": 0
+            },
+            "position": { // 位置
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "size": { // 尺寸
+                "x": 512.0,
+                "y": 512.0
+            }
+        }
+    ]
+}
