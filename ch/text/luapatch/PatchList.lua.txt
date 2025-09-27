@@ -550,6 +550,7 @@ patch3080=
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
 "3070/SangvisChipDevelopUIController",
+"3080/FormationController",
 }
 -- va11
 print("load Va11");
