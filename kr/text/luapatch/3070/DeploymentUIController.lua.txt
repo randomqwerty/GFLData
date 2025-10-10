@@ -72,8 +72,27 @@ local ShowTheaterGroup = function(self)
 		end
 	end
 end
+
+local UpDateGunsEnemy = function(self)
+	self:UpDateGuns();
+	for i=0,self.enemyGuns.Count-1 do
+		local AttackPower = self.enemyGuns[i].AttackPower;
+		local DefencePower = self.enemyGuns[i].DefencePower;
+	end
+end
+local UpDateGunsAlly = function(self)
+	self:UpDateGuns();
+	if self:CurrentTeamBelong() ~= CS.TeamBelong.friendly then
+		for i=0,self.allyTeam.EnemyGuns.Count-1 do
+			local AttackPower = self.allyTeam.EnemyGuns[i].AttackPower;
+			local DefencePower = self.allyTeam.EnemyGuns[i].DefencePower;
+		end
+	end
+end
 util.hotfix_ex(CS.DeploymentUIController,'RefreshItemUI',RefreshItemUI)
 util.hotfix_ex(CS.DeploymentUIController,'canShowFightBuffUI',canShowFightBuffUI)
 util.hotfix_ex(CS.DeploymentUIController,'CheckFightBuff',CheckFightBuff)
 util.hotfix_ex(CS.DeploymentUIController,'ShowFightBuffUI',ShowFightBuffUI)
 util.hotfix_ex(CS.SpecialMissionInfoController,'ShowTheaterGroup',ShowTheaterGroup)
+util.hotfix_ex(CS.DeploymentEnemyTeamController,'UpDateGuns',UpDateGunsEnemy)
+util.hotfix_ex(CS.DeploymentAllyTeamController,'UpDateGuns',UpDateGunsAlly)

@@ -462,6 +462,7 @@ patch3060=
 "3060/BattleBackgroundSortingController",
 "3060/CommonAudioController",
 "3070/RewardBoxController",
+"3040/LoginController",
 }
 patch3070=
 {
@@ -536,6 +537,7 @@ patch3071=
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
 "3070/SangvisChipDevelopUIController",
+"3080/FactoryTopController",
 }
 patch3080=
 {
@@ -551,6 +553,8 @@ patch3080=
 "3070/OPSEventPrizeUIController",
 "3070/SangvisChipDevelopUIController",
 "3080/FormationController",
+"3080/FactoryTopController",
+"3080/DeploymentCrossController",
 }
 -- va11
 print("load Va11");
