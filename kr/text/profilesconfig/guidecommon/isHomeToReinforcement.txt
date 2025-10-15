@@ -1,0 +1,109 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [],
+    "triggerNoActivePaths": [],
+    "GuideType": "",
+    "guideTriggerDatas": [],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Main/ButtonLayout/BatAndFormatAndRepair/Btn_Repair",
+            "preafabCode": "GuideTip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": -16578344
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [
+        {
+            "buttonTrans": {
+                "instanceID": -16801336
+            },
+            "path": "Reinforcement/Canvas/Reinforcement/Team/TeamList/DTollScroll/DTollList/ReinforcementCharacterLabel(Clone)",
+            "insteadPath": "",
+            "guideSelectLabelType": 2,
+            "selectIndex": 1,
+            "selectLuaPath": "Scripts/CommonGuideStep",
+            "selectLuaContent": "Test1",
+            "canSkip": false,
+            "maskTransPath": "",
+            "guideImagePosition": 2,
+            "guideDialoguePosition": 0,
+            "guideHandPosition": 2,
+            "useMaskBtn": false,
+            "guideTargetName": "",
+            "content": "150112"
+        },
+        {
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "path": "Reinforcement/Canvas/MainController/CharacterList/Items/CharacterListLabel(Clone)",
+            "insteadPath": "",
+            "guideSelectLabelType": 1,
+            "selectIndex": 0,
+            "selectLuaPath": "Scripts/CommonGuideSelect",
+            "selectLuaContent": "",
+            "canSkip": false,
+            "maskTransPath": "Reinforcement/Canvas/MainController/CharacterList/Items",
+            "guideImagePosition": 2,
+            "guideDialoguePosition": 0,
+            "guideHandPosition": 0,
+            "useMaskBtn": false,
+            "guideTargetName": "",
+            "content": "150113"
+        },
+        {
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "path": "",
+            "insteadPath": "",
+            "guideSelectLabelType": 0,
+            "selectIndex": 0,
+            "selectLuaPath": "Scripts/CommonGuideSelect",
+            "selectLuaContent": "",
+            "canSkip": false,
+            "maskTransPath": "",
+            "guideImagePosition": 1,
+            "guideDialoguePosition": 2,
+            "guideHandPosition": 4,
+            "useMaskBtn": false,
+            "guideTargetName": "ButtonConfirm",
+            "content": "150114"
+        },
+        {
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "path": "",
+            "insteadPath": "",
+            "guideSelectLabelType": 0,
+            "selectIndex": 0,
+            "selectLuaPath": "Scripts/CommonGuideSelect",
+            "selectLuaContent": "",
+            "canSkip": false,
+            "maskTransPath": "",
+            "guideImagePosition": 1,
+            "guideDialoguePosition": 3,
+            "guideHandPosition": 0,
+            "useMaskBtn": false,
+            "guideTargetName": "Canvas",
+            "content": "150115"
+        }
+    ],
+    "dataChange": false
+}

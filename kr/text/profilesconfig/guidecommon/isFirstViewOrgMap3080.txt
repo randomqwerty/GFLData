@@ -1,0 +1,62 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [
+        "MotherBase/Canvas/OrganizationMap(Clone)"
+    ],
+    "triggerNoActivePaths": [],
+    "GuideType": "isFirstViewOrgMap3080",
+    "guideTriggerDatas": [
+        {
+            "guideTriggerType": 1,
+            "content": "fetter",
+            "luaScriptPath": "Scripts/CommonGuideCondition",
+            "id": 0
+        }
+    ],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Bottom/BottomButton/P2/btnIllust",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 15.0,
+                "y": -15.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        },
+        {
+            "path": "IllustratedBook/Canvas/MainController/Entrance/Organization/Btn_Vehicle",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 82.0,
+                "y": -225.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [],
+    "dataChange": false
+}

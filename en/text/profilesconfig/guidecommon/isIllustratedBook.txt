@@ -1,0 +1,41 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [
+        "IllustratedBook/Canvas/MainController/Entrance"
+    ],
+    "triggerNoActivePaths": [],
+    "GuideType": "isIllustratedBook",
+    "guideTriggerDatas": [
+        {
+            "guideTriggerType": 2,
+            "content": "",
+            "luaScriptPath": "Scripts/CommonGuideCondition",
+            "id": 24
+        }
+    ],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Bottom/BottomButton/P2/btnIllust",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 15.0,
+                "y": -15.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [],
+    "dataChange": false
+}

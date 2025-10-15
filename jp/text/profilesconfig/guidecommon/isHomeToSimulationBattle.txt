@@ -1,0 +1,63 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [
+        "MissionSelection/Canvas/MainController/SimCombat"
+    ],
+    "triggerNoActivePaths": [],
+    "GuideType": "isHomeToSimulationBattle",
+    "guideTriggerDatas": [],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Main/ButtonLayout/BatAndFormatAndRepair/Btn_Battle",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 15.0,
+                "y": -15.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "child": {
+                "instanceID": 0
+            },
+            "childName": "",
+            "tip": {
+                "instanceID": 0
+            }
+        },
+        {
+            "path": "MissionSelection/Canvas/MainController/SecondaryMenu/Scroll/ToggleGroup/SimCombatSelection",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 45.0,
+                "y": -27.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "child": {
+                "instanceID": 0
+            },
+            "childName": "",
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [],
+    "dataChange": false
+}

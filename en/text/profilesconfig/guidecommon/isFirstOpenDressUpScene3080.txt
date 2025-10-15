@@ -1,0 +1,41 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [
+        "UserDressup/Canvas/MainController/UserDressUpChangeClothesMain(Clone)"
+    ],
+    "triggerNoActivePaths": [],
+    "GuideType": "isFirstOpenDressUpScene3080",
+    "guideTriggerDatas": [
+        {
+            "guideTriggerType": 1,
+            "content": "commander_uniform",
+            "luaScriptPath": "Scripts/CommonGuideCondition",
+            "id": 0
+        }
+    ],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Bottom/BottomButton/P2/btnClothes",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 15.0,
+                "y": -15.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [],
+    "dataChange": false
+}

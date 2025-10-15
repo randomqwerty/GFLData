@@ -1,0 +1,51 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [],
+    "triggerNoActivePaths": [
+        "Factory/Canvas/MainController/MainPos/EqiupmentDevelopMain(Clone)"
+    ],
+    "GuideType": "isHomeToFactoryDevelopEquip",
+    "guideTriggerDatas": [],
+    "guideRedTips": [],
+    "guideCommonSteps": [
+        {
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "path": "Home/Canvas/Main/ButtonLayout/ResAndFac/Btn_Factory",
+            "insteadPath": "",
+            "guideSelectLabelType": 0,
+            "selectIndex": 0,
+            "selectLuaPath": "Scripts/CommonGuideStep",
+            "selectLuaContent": "",
+            "canSkip": false,
+            "maskTransPath": "",
+            "guideImagePosition": 1,
+            "guideDialoguePosition": 0,
+            "guideHandPosition": 4,
+            "useMaskBtn": false,
+            "guideTargetName": "",
+            "content": "150091"
+        },
+        {
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "path": "Factory/Canvas/MainController/SecondaryMenu/ToggleGroup/btnEquipmentDevelop",
+            "insteadPath": "",
+            "guideSelectLabelType": 0,
+            "selectIndex": 0,
+            "selectLuaPath": "Scripts/CommonGuideStep",
+            "selectLuaContent": "",
+            "canSkip": false,
+            "maskTransPath": "",
+            "guideImagePosition": 2,
+            "guideDialoguePosition": 2,
+            "guideHandPosition": 2,
+            "useMaskBtn": false,
+            "guideTargetName": "",
+            "content": "150037"
+        }
+    ],
+    "dataChange": false
+}

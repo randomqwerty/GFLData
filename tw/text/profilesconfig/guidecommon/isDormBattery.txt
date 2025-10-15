@@ -1,0 +1,62 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [
+        "Dorm/Canvas/InteractionArea/BatteryPanel(Clone)"
+    ],
+    "triggerNoActivePaths": [],
+    "GuideType": "isHomeToDorm3080",
+    "guideTriggerDatas": [
+        {
+            "guideTriggerType": 2,
+            "content": "",
+            "luaScriptPath": "Scripts/CommonGuideCondition",
+            "id": 24
+        }
+    ],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Main/ButtonLayout/MotherBase/Buttom",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 30.0,
+                "y": -30.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        },
+        {
+            "path": "MotherBase/terrain/UI/object0Panel/Title/MotherBaseRoomTitleNode",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": -155.0,
+                "y": 15.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [],
+    "dataChange": false
+}

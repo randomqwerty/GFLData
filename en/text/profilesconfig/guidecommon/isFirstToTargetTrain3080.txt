@@ -1,0 +1,83 @@
+{
+    "triggerWebRequestURL": "",
+    "triggerActivePaths": [
+        "MissionSelection/Canvas/MainController/SimCombat/TargettrainDungeonsView"
+    ],
+    "triggerNoActivePaths": [],
+    "GuideType": "isFirstToTargetTrain3080",
+    "guideTriggerDatas": [
+        {
+            "guideTriggerType": 1,
+            "content": "targetTrain",
+            "luaScriptPath": "Scripts/CommonGuideCondition",
+            "id": 0
+        }
+    ],
+    "guideRedTips": [
+        {
+            "path": "Home/Canvas/Main/ButtonLayout/BatAndFormatAndRepair/Btn_Battle",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 15.0,
+                "y": -15.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        },
+        {
+            "path": "MissionSelection/Canvas/MainController/SecondaryMenu/Scroll/ToggleGroup/SimCombatSelection",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 30.0,
+                "y": -30.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        },
+        {
+            "path": "MissionSelection/Canvas/MainController/Sub/SimCampaign/ToggleGroup/Coin 8",
+            "preafabCode": "Guide_Tip_1",
+            "position": {
+                "x": 30.0,
+                "y": -30.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "buttonTrans": {
+                "instanceID": 0
+            },
+            "uiPrefab": {
+                "instanceID": 0
+            },
+            "tip": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "guideCommonSteps": [],
+    "dataChange": false
+}
