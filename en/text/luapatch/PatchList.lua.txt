@@ -561,6 +561,10 @@ patch3080=
 patch3081=
 {
 "3081/AVGController",
+"3081/CommonBundleConfirmBoxController",
+"3081/DeploymentController",
+"3081/DeploymentUIController",
+"3081/Probability",
 }
 -- va11
 print("load Va11");
