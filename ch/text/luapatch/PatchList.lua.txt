@@ -539,6 +539,8 @@ patch3071=
 "3070/SangvisChipDevelopUIController",
 "3071/SunBornUserCenter",
 "3080/FactoryTopController",
+"3071/ServerInfo",
+"3071/MallController",
 }
 patch3080=
 {
@@ -565,6 +567,8 @@ patch3081=
 "3081/DeploymentController",
 "3081/DeploymentUIController",
 "3081/Probability",
+"3071/ServerInfo",
+"3071/MallController",
 }
 -- va11
 print("load Va11");
