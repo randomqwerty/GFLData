@@ -1,102 +1,102 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>9</BIN><BGM>GF_EV9_Story</BGM>:采访在一片闪光灯的海洋中结束。
+()||<黑屏2><BIN>9</BIN><BGM>GF_EV9_Story</BGM>:플래시의 세례를 받으며 인터뷰가 끝났다.
 ()||<CGDelay>0.8</CGDelay><SE1>AVG_20Winter_Door_Open</SE1>:
-()||<SE1>AVG_20Winter_Door_Close</SE1>:在爵士周密的安排下，指挥官很快又回到了那间名为“保护”，实为“软禁”的酒店套房。
+()||<SE1>AVG_20Winter_Door_Close</SE1>:훈작사의 주도면밀한 안배로, 지휘관은 곧바로 말만 "보호"지 실상은 연금인 호텔 스위트룸으로 돌아왔다.
 ()||<黑屏1>:
-()||<黑屏2><BIN>772</BIN><Night>:厚重的窗帘隔绝了法兰克福的夜色，当然也隔绝了所有明面通向自由的可能性，楼下的暗哨，门口配置的摄像头，都肆无忌惮宣告着这里是一座“牢笼”。+房间里的一切都维持着指挥官离开时的原样。
-()||<SE1>AVG_tele_connect</SE1>:桌上那台被隔绝了外部通讯的平板电脑，似乎算准了他回房的时机，屏幕同步亮起。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>哟，我们的大明星回来了？聚光灯的感觉如何？</color>
-()||:伴随着平板的声音，丹德莱也切换着符合当前情绪的表情。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>有身体就是好，可以到处风光。</color>+<color=#00CCFF>哪像我，只能蜷缩在这个只有一点点内存的古董平板里，连伸个懒腰都是奢望，真是闻者伤心，见者落泪啊。</color>
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>嘻嘻，怎么了？一张脸比我还像蓝屏报错提示。</color>+<color=#00CCFF>采访就算不顺利，不也早在你的预料之中吗？</color>
-()||<SE1>ClothingUp</SE1>:指挥官瞥了她一眼，以丹德莱的能力，恐怕在采访发生的第一秒就已经同步获取了全部信息。+现在的调侃，不过是她聊以解闷的消遣。
-()<Speaker>指挥官</Speaker>||:丹德莱，稍微安分点……
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>哎呀呀，真是官威浩荡啊。</color>+<color=#00CCFF>某人在会场上慷慨陈词、出尽风头，回到房间就要对我这个无依无靠的AI颐指气使了。</color>+<color=#00CCFF>我好委屈啊，呜呜呜呜。</color>
-()<Speaker>指挥官</Speaker>||:……要是我真能对你颐指气使就好了。
-()||:指挥官小声咕哝了一句，放弃了和丹德莱继续争论。+在无意义的口舌之争上，自己永远赢不了丹德莱。
-()||<SE1>ClothingUp</SE1>:指挥官走到窗边，从帘子的缝隙中观察着酒店外围的安保巡逻路线。+除了人类哨兵，几名斯塔西的兵蚁也正迈着整齐划一的步伐，沿着固定路线巡逻。
-()||<CGDelay>0.5</CGDelay>:指挥官的目光在其中一具信号有些接受不良，总有些掉队的兵蚁身上停留了片刻。
-()<Speaker>指挥官</Speaker>||:丹德莱，我给你找具身体，能不能消停会。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>哦？在这种地方都能找到人形素体，不愧是指挥官。</color>
-()||:平板上的光影变幻，丹德莱的表情换成了一张兴高采烈的笑脸。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>当然，我也知道现在的处境，要求不会太高，只要是军用规格以上的素体就可以了。</color>
-()<Speaker>指挥官</Speaker>||:……
-()||:指挥官一语不发，只是静静地看着平板。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>有些困难吗？</color>+<color=#00CCFF>那……其实斯塔西的战术人形素体也行，斯塔西虽然技术不怎么样，但审美还是挺在线的。</color>
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>……好吧好吧，刚才都是我在开玩笑。</color>+<color=#00CCFF>所以，您是打算找个酒店的民用服务型素体对吧？</color>+<color=#00CCFF>SSD-62F那种型号的？我也不是不能凑合。</color>
-()<Speaker>指挥官</Speaker>||:……
+()||<黑屏2><BIN>772</BIN><Night>:프랑크푸르트의 야경을 가리는 저 두꺼운 커튼을 포함해, 건물 아래의 보초들, 문마다 배치된 카메라까지. 자유로 통할지 모르는 모든 가능성이 봉쇄되어, 이곳이 일종의 감옥이라고 경고했다.+방은 모든 것이 지휘관이 나갈 때의 그 모습 그대로였지만, 그마저도 의심스러웠다.
+()||<SE1>AVG_tele_connect</SE1>:탁자 위에 놓인 외부와의 통신이 차단된 태블릿의 화면이, 지휘관이 방으로 돌아온 타이밍을 노린 듯 밝아졌다.
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>어서 돌아오세요, 슈퍼스타. 스포트라이트를 한몸에 받는 느낌은 어떠셨나요?</color>
+()||:태블릿의 화면은 목소리의 현재 감정에 맞춰 어울리는 표정을 띄웠다.
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>역시 몸은 있는 게 좋아요, 마음대로 여기저기 돌아다닐 수 있으니.</color>+<color=#00CCFF>저는 이 낡아 빠져서 메모리가 뒤주만 한 태블릿 안에 처박혀서, 허리도 제대로 펴지도 못하는데 말이에요. 아아, 불쌍한 내 신세~</color>
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>후훗, 왜 그러세요? 뇌세포에 블루스크린이 뜬 것 같은 표정을 하시고.</color>+<color=#00CCFF>인터뷰가 당신 마음대로 되지 않으리란 것쯤은 다 예상하지 않으셨어요?</color>
+()||<SE1>ClothingUp</SE1>:지휘관은 태블릿을 툭 쏘아봤다. 댄들라이의 능력상, 녀석은 인터뷰가 시작될 때부터의 모든 정보를 파악했을 것이다.+지금 저렇게 능청을 떠는 건 단순히 심심풀이다.
+()<Speaker>지휘관</Speaker>||:...댄들라이, 좀 조용히 해.
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>우와아, 위세가 굉장하시네요.</color>+<color=#00CCFF>방송에서 멋진 말을 늘어놓기만 해도 박수를 잔뜩 받으니까, 바로 저 같은 불쌍한 AI를 권위로 찍어누르시는군요?</color>+<color=#00CCFF>서러워서 어떻게 사나~ 잉잉잉~</color>
+()<Speaker>지휘관</Speaker>||:...내가 정말 너를 찍어누를 수 있다면 참으로 좋겠다.
+()||:조용히 투덜대는 것으로 지휘관은 댄들라이와의 실랑이를 관뒀다.+의미 없는 말싸움이거니와, 그런 말싸움에서 댄들라이는 평생 못 이기니까.
+()||<SE1>ClothingUp</SE1>:지휘관은 창가로 걸어가, 커튼 틈새로 바깥 "경비원"들의 순찰 경로를 관찰했다.+경비대는 인간 보초만 있는 것이 아니었다. 슈타지 소속 디너게이트 몇 기로 구성된 일종의 기동대도 나란히 줄지어 고정된 루트를 따라 순찰했다.
+()||<CGDelay>0.5</CGDelay>:그런데, 그중 신호 불량이기라도 한지 살짝 뒤처지는 디너게이트 한 기에 지휘관의 시선이 꽂혔다.
+()<Speaker>지휘관</Speaker>||:댄들라이, 몸 구해다 주면 조용히 할 거야?
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>어머나? 이런 상황에서 제게 소체를 구해다 주신다니, 역시 지휘관이시네요.</color>
+()||:태블릿의 화면이 번쩍이며 댄들라이의 표정이 함박웃음으로 변했다.
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>지금 형편이 형편이니, 큰 욕심은 안 부릴게요. 적당히 표준 군용 규격이면 돼요.</color>
+()<Speaker>지휘관</Speaker>||:......
+()||:지휘관은 말 없이 태블릿을 바라봤다.
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>역시 무린가요?</color>+<color=#00CCFF>그러엄... 슈타지의 전술인형으로 참을게요. 그쪽이 기술력은 좀 떨어져도, 비주얼은 센스가 괜찮더라고요.</color>
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>...그렇겠죠. 그냥 혹시나 해서 해본 말이에요.</color>+<color=#00CCFF>이 호텔의 민수용 서비스 인형 소체를 구해 주실 셈이시죠?</color>+<color=#00CCFF>SSD-62F 모델 정도면 저도 눈 딱 감고 참을게요.</color>
+()<Speaker>지휘관</Speaker>||:......
 ()||<CGDelay>0.5</CGDelay>:
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>是……民用服务型素体……</color>+<color=#00CCFF>……对吧？</color>+<color=#00CCFF>……您为什么不说话？</color>
-()<Speaker>指挥官</Speaker>||:注意观察走廊的监控。+一分钟后，我需要你制造一个5秒的监控真空期，同时用傀儡信号模拟小队内部通讯，确保设备在线数量不变。
-()<Speaker>指挥官</Speaker>||:做得到吗？
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>当然。</color>
-()||:丹德莱的声音恢复了自信。
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>......어...</color>+<color=#00CCFF>민간 서비스업종 모델... 맞죠?</color>+<color=#00CCFF>왜 말이 없으세요?</color>
+()<Speaker>지휘관</Speaker>||:복도 감시 카메라 확인해 봐.+정확히 1분 뒤에 감시 공백 5초 만들고, 더미 신호로 소대 내부 통신망에 온라인 유닛 수 변동 없도록 더미 신호 위장시켜.
+()<Speaker>지휘관</Speaker>||:가능하지?
+()<Speaker>댄들라이</Speaker>||:<color=#00CCFF>당연하죠.</color>
+()||:댄들라이의 목소리가 다시 밝아졌다.
 ()||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:
-()||<震屏3><SE1>AVG_Door_Hit</SE1>:指挥官深吸一口气，走到套房门口，打开一条缝隙，随后又重重关上，发出一声巨响。
+()||<震屏3><SE1>AVG_Door_Hit</SE1>:지휘관은 숨을 깊게 들이쉬고 방 문 앞으로 다가가, 문을 아주 살짝 열었다가 있는 힘껏 쾅 닫았다.
 ()||<黑点1>:
-()||<黑点2><Night>:几秒后，门外便传来了急切而嘈杂的机械脚步声。
-()||<SE1>AVG_doorknock_wood</SE1>:咚咚咚……
-()||<SE1>AVG_20Winter_Door_Open</SE1>:指挥官再次打开房门，门外整齐地站着一队巡逻兵蚁，它们似乎以速度的优势率先赶来查看情况，那只总有些掉队的兵蚁正排在队伍的最后方。
-()||<SE1>AVG_Grey_Hand_Mech</SE1>:兵蚁们的摄像镜头正在不断收缩，扫描着房间内的情况。
-()||:领头的兵蚁向房间内部迈了两步，似乎在探查是否存在异常。+指挥官故作不满地挡在了它们的面前。
-()<Speaker>指挥官</Speaker>||:我只是不小心把东西碰掉了而已，你们酒店的安保有点应激了吧？
-()||<SE1>AVG_Grey_Hand_Mech</SE1>:领头的兵蚁冰冷的电子眼再次扫描了指挥官一遍，毫不在乎的走入房内，又扫视了一圈毫无异常的房间，似乎判定为误报。
-()||<SE1>ClothingUp</SE1>:它转过身，带领小队准备离开。
-()||:就在队尾那只总是慢半拍的兵蚁与指挥官擦身而过的瞬间，楼道内所有的摄像头同一时间进入了真空期。
-()||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0%%range=3</controll_shake>:指挥官一把抓住那只兵蚁，将其留在房内，同时反脚将门踹上并反锁。
-()<Speaker>指挥官</Speaker>||:动手。
-()||<BIN>9</BIN><SE1>AVG_keyboardtype_sci</SE1>:不需要指挥官的提醒，几乎在指挥官出手的一瞬间，丹德莱的电子入侵已然完成。+兵蚁的动作瞬间僵住，光学传感器闪烁了两下便暗了下去。
-()||<BGM>BGM_Empty</BGM><SE1>AVG_NightVision_Start</SE1>:几秒后，当它再次亮起时，传来的已经是丹德莱有些无奈的声音。
+()||<黑点2><Night>:몇 초 후, 밖에서 바쁘고 어수선한 기계 발소리가 들려왔다.
+()||<SE1>AVG_doorknock_wood</SE1>:통통통.
+()||<SE1>AVG_20Winter_Door_Open</SE1>:지휘관이 다시 문을 열어보니, 일렬로 나란히 정렬한 순찰병 디너게이트들이 있었다. 뛰어난 기동력으로 먼저 도착한 이 녀석들 중, 아까 포착한 계속 뒤처지던 녀석도 대열의 가장 끝에 있었다.
+()||<SE1>AVG_Grey_Hand_Mech</SE1>:디너게이트들은 카메라 렌즈부터 깜빡이며 방 안의 상황을 스캔했다.
+()||:그리고 선두의 디너게이트가 이상 정황은 없는지 확인하려고 문턱을 넘는 순간.+지휘관이 진상 부리듯 발로 앞을 턱 막았다.
+()<Speaker>지휘관</Speaker>||:실수로 물건을 떨어뜨렸을 뿐이야. 이 호텔 보안이 너무 예민한 거 아니야?
+()||<SE1>AVG_Grey_Hand_Mech</SE1>:선두 디너게이트는 차가운 기계 눈으로 지휘관을 위아래로 훑어보고선 항의를 무시하고 방 안으로 총총 들어갔고, 나머지도 그 뒤를 따랐다. 하지만 방을 다시 살펴봐도 정말로 아무런 이상이 없자, 그제서야 오인했음을 받아들인 듯했다.
+()||<SE1>ClothingUp</SE1>:별다른 동작 없이, 녀석은 순찰대를 이끌고 떠나려 했다.
+()||:대열 가장 마지막의, 자꾸만 반응이 한 박자 늦는 디너게이트가 지휘관을 스치고 지나가려던 순간, 복도의 모든 카메라가 화면이 조작됐다.
+()||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0%%range=3</controll_shake>:지휘관도 그 디너게이트를 덥석 붙잡아 방에 가둬버리고, 문짝을 발꿈치로 밀어 닫고 자물쇠를 걸었다.
+()<Speaker>지휘관</Speaker>||:해치워.
+()||<BIN>9</BIN><SE1>AVG_keyboardtype_sci</SE1>:물론 댄들라이는 지휘관이 녀석을 붙잡는 거의 동시에 해킹을 마친 상태였다.+디너게이트는 움직임이 멎고, 광학 센서가 두 번 깜빡인 뒤 다운됐다.
+()||<BGM>BGM_Empty</BGM><SE1>AVG_NightVision_Start</SE1>:몇 초 후 빛이 다시 돌아왔을 땐, 동체에서 체념한 듯한 댄들라이의 목소리가 나왔다.
 ()||<黑屏1>:
-NPC_Dandelion(0)<Position>0,300</Position><Speaker>丹德莱</Speaker>||<Night><黑屏2><BIN>772</BIN><CGDelay>0.7</CGDelay>:
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||<BGM>Campaion-34</BGM>:我自杀算了。
-NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:……抱歉。
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:所以，您费这么大劲，就是为了给我搞一具兵蚁素体？+这也太掉我的身价了。
-NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:这种情况能有兵蚁素体用已经是最好的选择了。
-()||<SE1>ClothingUp</SE1>:丹德莱不以为意的撇撇兵蚁的前爪，似乎代替了撇嘴的表情。
-NPC_Dandelion(3)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:行吧，也就是我比较坚强独立。+如果我的心智状态再脆弱一些，怕不是真的要闹自杀了。
-()||<SE1>ClothingUp</SE1>:指挥官蹲下身，看着眼前的“新丹德莱”在原地做了个后空翻，又做了几个双腿站立的拜年姿势，似乎在测试这具躯体的极限。
-()<Speaker>指挥官</Speaker>||:伪装信号处理的怎么样？
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:当然，完美无瑕。+无论是监控画面还是设备在线数量，都不会有任何破绽。
-()||:丹德莱停下动作，开始研究如何修改这具毫无美感的兵蚁外壳
-NPC_Dandelion(2)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:不过这个造型一点特色没有……我得好好打扮一下。
-()||:指挥官不再理会开始折腾兵蚁外貌的丹德莱，而是开始思考起接下来的计划。+威廉在刚才的采访中已经表明了他并不会如爵士所想的那样老实下去——当然，自己也没想过他会放弃帕拉蒂斯的一切。
-()||:而爵士为了掌握遗迹技术，对威廉的做法一定会继续彻底纵容。+所以现在，唯一的破局点，只能寄希望于M16和格琳娜的消息……
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:对了，指挥官。+就在您上演尖峰时刻的时候，M16她们传来了新消息。
-()||:将兵蚁外貌改成自己钟意模样的丹德莱，活动着手脚跑到指挥官身边。
-()<Speaker>指挥官</Speaker>||:……我就一会没看着你，你怎么就把酒店的可视门铃拆了。
-NPC_Dandelion(2)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:怎么样，是不是很有创意？我有预感，我绘制的沟通表情或许未来会火遍整个世界哦？
-()||:指挥官感到了深深地脱力，他多希望此时露尼西亚能出场帮自己好好控制下丹德莱的奇思妙想。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.3</CGDelay><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:……行了，快说情报。
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||<Night><BGM>GF_21summer_battle_3</BGM><BIN>772</BIN><黑点2>:她们已经锁定了威廉基地的具体坐标，稍后我会投放到平板里。+——另外那个小古董虽然被我抛弃了，但依然被我改造成了性能一流的战术终端，指挥官可以留着做个念想哦？
-()||<SE1>ClothingUp</SE1>:指挥官拿起平板，看着地图上闪烁的标记点，开始做出了部署安排。
-()<Speaker>指挥官</Speaker>||:我需要所有同伴最后一次的通讯坐标。
-NPC_Dandelion(2)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:已为您标记。
-NPC_Dandelion(2)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:嗯……
+NPC_Dandelion(0)<Position>0,300</Position><Speaker>댄들라이</Speaker>||<Night><黑屏2><BIN>772</BIN><CGDelay>0.7</CGDelay>:
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||<BGM>Campaion-34</BGM>:저 그냥 죽을래요.
+NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:미안해.
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:그 난리를 치면서까지 하려던 게, 겨우 이 디너게이트 소체를 빼돌리기 위해서였어요?+제 몸값을 대체 얼마나 낮잡아보시는 건지...
+NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:상황이 이런데 디너게이트라도 쓸 수 있으면 다행인 줄 알아.
+()||<SE1>ClothingUp</SE1>:댄들라이는 삐죽 내밀 입술이 없어서 대신 앞발을 휙휙 휘둘렀다.
+NPC_Dandelion(3)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:알았어요. 제가 아량이 넓어서 망정이죠.+조금만 더 섬세했으면, 정말 죽으려고 난동을 부렸을 거예요.
+()||<SE1>ClothingUp</SE1>:지휘관은 쪼그려 앉아, "Neo 댄들라이"가 제자리 백덤블링을 하고 두 발로 서서 앞다리를 흔드는 등 소체의 한계 테스트를 하는 것을 지켜봤다.
+()<Speaker>지휘관</Speaker>||:신호 위장은 어떻게 됐어?
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:그야 물론 빈틈 없이 처리했죠.+감시 카메라도 온라인 유닛 수도, 아주 감쪽같을 거예요.
+()||:테스트를 마쳤는지 다시 네 발이 된 댄들라이가, 이번엔 전혀 다른 요소를 고민했다.
+NPC_Dandelion(2)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:그런데 이거, 전혀 특징이랄 게 없네요. 초라하기 짝이 없어요... 잠시만요, 좀 꾸며볼게요.
+()||:소녀 마음으로 외모를 신경쓰는 댄들라이를 내버려두고, 지휘관은 다음 계획을 궁리했다.+아까 인터뷰에서 윌리엄이 보인 모습은, 명백히 결코 훈작사의 뜻대로 얌전히 있을 생각이 없다는 뜻이었다. 물론 지휘관도 놈이 패러데우스를 완전히 손에서 놓을 거라고는 추호도 생각하지 않았다.
+()||:그리고, 유적 기술을 장악하기 위해서라면 훈작사는 윌리엄이 하는 짓을 철저히 방임할 터.+그러니 지금 유일한 돌파구는, M16과 카리나의 소식을 기다리는 것뿐이었다.
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:참, 지휘관님?+방금 첩보물 찍고 계실 때, M16 쪽에서 소식이 들어왔어요.
+()||:디너게이트의 외형을 자기 취향으로 개조한 댄들라이가 관절을 풀면서 지휘관 곁으로 다가왔다.
+()<Speaker>지휘관</Speaker>||:아니, 잠깐 눈 돌린 사이에 호텔 인터폰을 뜯어냈네?!
+NPC_Dandelion(2)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:어때요, 굉장한 창의력이죠? 제가 그린 이 이모티콘도, 훗날 전 세계에서 유행할 예감이 들어요.
+()||:맥이 빠지다 못해 탈력감이 든다는 것이 이런 기분일까. 지휘관은 루니샤가 강림해서 댄들라이를 좀 말려 줬으면 하는 생각마저 들었다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.3</CGDelay><BGM>BGM_Empty</BGM><CGDelay>0.5</CGDelay>:...됐으니까 빨리 소식이나 말해.
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||<Night><BGM>GF_21summer_battle_3</BGM><BIN>772</BIN><黑点2>:윌리엄의 기지의 구체적인 좌표를 특정했다고 해요. 저 태블릿으로 전송했으니 확인하세요.+지금은 제 허물인 저 골동품을 제가 최첨단 전술 단말기로 개조했답니다. 기념품으로 삼으셔도 돼요.
+()||<SE1>ClothingUp</SE1>:지휘관은 얼른 태블릿을 들어, 지도 위에 깜빡이는 지점을 살펴보며 전술 배치를 시작했다.
+()<Speaker>지휘관</Speaker>||:모든 동료들의 마지막 발신 좌표가 필요해.
+NPC_Dandelion(2)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:표시했어요.
+NPC_Dandelion(2)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:음...
 ()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1><CGDelay>0.2</CGDelay>:
 ()||<CGDelay>0.5</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:指挥官思考片刻，手指开始在战术地图上滑动，一条条红蓝箭头勾勒出大胆的作战计划。
-()<Speaker>指挥官</Speaker>||:这里的地形需要奇袭攻入，忤逆和M16的力量是不可或缺的。+叫忤逆去这个位置等我，我会亲自带队执行作战。
-()<Speaker>指挥官</Speaker>||:进入基地后，如果一切顺利，我会为你创造条件。+你要在那时和我分头行动，去接管整个基地的系统。+把它们的数据库洗掉。
-NPC_Dandelion(3)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:就让人家用这具小兵蚁吗？
-NPC_Dandelion(3)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:……到了那边，我会再给你找一具更好的。
-()<Speaker>指挥官</Speaker>||:之后也是最关键的一步。
-()||:指挥官顿了顿，眼神中闪过一丝犹豫。
-()<Speaker>指挥官</Speaker>||:…………让格琳娜和404小队一起，带上托卡列夫她们。+以基地为圆心，摧毁你找到的帕拉蒂斯所有下属工厂和有生力量。
-()<Speaker>指挥官</Speaker>||:最后的收尾工作，依旧要拜托你了，丹德莱。
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:我会销毁帕拉蒂斯的所有研究数据，然后……
-NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:然后，我就可以没有任何后顾之忧地……彻底杀死威廉。
-()||:指挥官说完，房间难得陷入了沉默。+丹德莱歪了歪兵蚁的头。
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:不错的计划，如果一切如您所推演那般，想必我一定能见识到最为精彩的落幕演出。
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:不过，您似乎忘了一个最基本的问题。
-NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:什么？
-NPC_Dandelion(1)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:第一步。+也是演出的第一幕，您要如何在斯塔西的重重监视下，离开这间酒店呢？
-()||<SE1>ClothingUp</SE1>:指挥官走到窗边，猛地拉开厚重的窗帘。+法兰克福的灯火映入眼帘，却像一座华丽的空屋将指挥官困在这里。
-()<Speaker>指挥官</Speaker>||:斯塔西就算一直监视我，也不可能知道我身边有一只超级兵蚁的存在。
-NPC_Dandelion(4)<Position>0,300</Position><Speaker>丹德莱</Speaker>||:哎呀，被指挥官这么看重还真是不好意思。+不过确实，这里我也差不多呆腻了。
-NPC_Dandelion(4)<Position>0,300</Position><同时置暗><Speaker>指挥官</Speaker>||:每座牢笼都有锁孔，丹德莱。
-()||<SE1>ClothingUp</SE1>:指挥官回过头，拍了拍丹德莱的头。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:而我，刚好有一把万能钥匙。
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:잠시 생각한 후, 지휘관은 전술 지도 위를 손가락으로 가로지르며 빨강과 파랑, 두 색상의 화살표들로 대담한 작전 계획의 윤곽을 그려 나갔다.
+()<Speaker>지휘관</Speaker>||:이곳의 지형은 기습적으로 돌입하는 게 좋겠어. 리벨리온과 M16의 힘이 꼭 필요해.+리벨리온에게, 이 위치에서 날 기다리라고 전해. 내가 현장에서 지휘할 테니까.
+()<Speaker>지휘관</Speaker>||:기지로 돌입한 후 큰 문제가 없다면, 네가 해킹으로 침투할 지점을 확보해 줄게.+그럼 너는 나와 따로 움직여서, 기지의 시스템 전체를 탈취하도록 해.+그리고 놈들의 데이터베이스를 말끔하게 포맷해 버려.
+NPC_Dandelion(3)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:디너게이트인 채로요?
+NPC_Dandelion(3)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:...거기서 더 좋은 걸로 구해 줄 테니까.
+()<Speaker>지휘관</Speaker>||:다음은 가장 중요한 단계야...
+()||:지휘관이 잠깐 망설였다.
+()<Speaker>지휘관</Speaker>||:...카린은 404, 토카레프 소대와 함께 움직이도록 시켜.+기지를 중심으로, 네가 찾아낸 패러데우스 공장과 그 예비 가동 역량을 파괴하도록.
+()<Speaker>지휘관</Speaker>||:마지막 마무리 작업도 부탁할게, 댄들라이.
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:제가 패러데우스의 모든 연구 데이터를 파괴한다면... 지휘관은요?
+NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:나는... 어떠한 후환도 남기지 않고, 윌리엄을 죽이러 갈 수 있지.
+()||:지휘관이 말을 마치자, 방이 간만에 조용해졌다.+그렇게 잠시 후, 댄들라이가 디너게이트의 머리를 살짝 갸웃하며 입을 열었다.
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:썩 괜찮은 계획이네요. 전부 당신의 계산대로 진행된다면, 분명 최고의 피날레를 감상할 수 있겠죠.
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:하지만, 아주 기본적인 문제를 하나 깜빡하셨어요.
+NPC_Dandelion(1)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:그게 뭔데?
+NPC_Dandelion(1)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:제1단계. 이 쇼의 제1막 말이에요.+슈타지가 철통 감시 중인 이 호텔을, 어떻게 빠져나갈 셈이시죠?
+()||<SE1>ClothingUp</SE1>:지휘관은 창가로 다가가, 커튼을 활짝 열어젖혔다.+프랑크푸르트의 야경이 한눈에 드러났다.
+()<Speaker>지휘관</Speaker>||:아무리 슈타지가 24시간 철통 감시 중이라도, 내 곁의 울트라 디너게이트의 존재는 모를 거 아니야.
+NPC_Dandelion(4)<Position>0,300</Position><Speaker>댄들라이</Speaker>||:어머? 저를 그렇게 비행기 태우시면 많이 부끄러운데요.+그래도, 네. 저도 여긴 이제 질렸어요.
+NPC_Dandelion(4)<Position>0,300</Position><同时置暗><Speaker>지휘관</Speaker>||:세상 어떤 감옥이든, 열쇠 구멍이 있기 마련이지.
+()||<SE1>ClothingUp</SE1>:지휘관은 고개를 돌려, 댄들라이의 머리를 톡톡 두드렸다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:다행이야, 나한테 마침 최고의 만능 열쇠가 있어서.
 ()||<黑点1>:

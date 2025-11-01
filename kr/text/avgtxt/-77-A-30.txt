@@ -1,80 +1,80 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||<BGM>10213</BGM><黑屏2><Night><BIN>742</BIN>:那就回头见，指挥官。+杀死威廉的机会让给你了。
-M16A1BOSS(5)<同时置暗><Speaker>指挥官</Speaker>||:……知道了。
-()||:指挥官与M16告别，朝着基地的更深处前进。
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||<BGM>10213</BGM><黑屏2><Night><BIN>742</BIN>:그럼, 다음에 보자, 지휘관.+윌리엄을 죽일 기회는 너한테 양보할게.
+M16A1BOSS(5)<同时置暗><Speaker>지휘관</Speaker>||:...알았어.
+()||:지휘관은 M16과 작별하고 기지 더 깊은 곳으로 전진했다.
 ()||<黑点1>:
 ()||<BIN>9</BIN><黑屏2><SE1>AVG_Team_Running</SE1>:
 ()||<黑屏1>:
 ()||<黑点2><BIN>900</BIN><Night><CGDelay>0.5</CGDelay>:
-AN94MOD(0)<Speaker>AN-94</Speaker>||:这里好像是存放实验器材的房间。
-()||:在化解了几次涅托的突袭后，一行人来到一个堆满了各种实验装置的区域。
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:指挥官，你看那里。
-NPC-AK12Mod(4)<同时置暗><Speaker>指挥官</Speaker>||:这是？
-()||:在AK-12的提示下，指挥官发现一排玻璃培养罐，里面盛满了幽蓝色的液体。而这样的设备，众人并不是第一次见到。
-()<Speaker>指挥官</Speaker>||:……
-()||<CGDelay>0.5</CGDelay>:指挥官的目光凝固在那如同湖水一般澄澈的幽蓝色的培养液上。
+AN94MOD(0)<Speaker>AN-94</Speaker>||:실험용 기자재를 보관하는 방 같았다.
+()||:니토의 기습을 몇 차례 물리치고, 일행은 온갖 실험용 설비들로 가득한 구역에 들어섰다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:지휘관, 저걸 좀 봐.
+NPC-AK12Mod(4)<同时置暗><Speaker>지휘관</Speaker>||:이건?
+()||:AK-12가 가리킨 방향에서, 지휘관은 일렬로 늘어선 유리 배양 탱크를 발견했다. 내부에 군청색 액체가 가득찬 저런 설비를, 일행이 처음 보는 것은 아니었다.
+()<Speaker>지휘관</Speaker>||:......
+()||<CGDelay>0.5</CGDelay>:지휘관의 시선이 그 호수 물처럼 맑은 푸른 배양액에 꽂혔다.
 ()||<CGDelay>0.6</CGDelay><BGM>BGM_Empty</BGM>:
-()||<白屏2><BIN>321</BIN><SE1>AVG_fall_into_water</SE1><SE1>AVG_Pause</SE1><BGM>GF_22W_SFX_chant</BGM>:他的眼前突然闪过一片模糊的幻觉，数不清的苍白手臂突然从水中伸了出来，猛烈地拍打着玻璃内壁。
-()||:那是曾在影像中见过的“死海”内的帕拉蒂斯基地的景象——无数的白骨堆积在培养液的底部，化作了威廉野心的养分。+指挥官并没有直接见到牺牲者最后的画面，但却不止一次在脑海里复现出类似的景象。
-()||<CGDelay>0.5</CGDelay><SE1>AVG_Bubble</SE1>:成百上千的异构体们在巨大的培养池中挣扎着求生，他们每一个人都在最后化为了一滴水。
+()||<白屏2><BIN>321</BIN><SE1>AVG_fall_into_water</SE1><SE1>AVG_Pause</SE1><BGM>GF_22W_SFX_chant</BGM>:눈앞에 흐릿한 환각이 스쳐 지나갔다. 무수한 창백한 손이 갑자기 수중에서 튀어나와 필사적으로 유리 내벽을 두드리는 모습.
+()||:과거 영상으로 봤던 "죽음의 바다" 안 패러데우스 본거지의 광경, 무수한 백골이 배양액 바닥에 쌓여 윌리엄이 가진 야심의 양분이 되었다.+비록 지휘관이 희생자의 마지막 순간을 직접 목격한 적은 없지만, 머릿속에서 비슷한 광경이 몇 번이나 상상됐다.
+()||<CGDelay>0.5</CGDelay><SE1>AVG_Bubble</SE1>:수백 명의 이성질체들이 거대한 배양 탱크 안에서 살기 위해 몸부림쳤지만, 모두 마지막엔 한 방울 물이 되었다.
 ()||<黑屏1>:
 ()||<黑屏2><CGDelay>0.5</CGDelay><BIN>569</BIN>:
-()||<SE1>AVG_Bubble</SE1><CGDelay>0.7</CGDelay>:水滴最终汇聚在一起，最终构成了那片深不见底的“识底之湖”。
+()||<SE1>AVG_Bubble</SE1><CGDelay>0.7</CGDelay>:물방울은 끝내 한곳에 모여 바닥이 보이지 않는 "의식의 호수"를 이루었다.
 ()||<黑屏1>:
 ()||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
 ()||<BIN>900</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>ClothingUp</SE1>:指挥官？您的脸色不太好。
-AN94MOD(0)<同时置暗><Speaker>指挥官</Speaker>||:我没事……+这些设备，和阿佛那斯的实验装置很像。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:容器内无生命迹象，实验尚未启动。这些……只是空壳。
-()||:好在除了培养液，罐子里并没有其他的东西。+指挥官松了口气，记忆中噩梦般的景象似乎还没有变为现实。
-()||:然而，这些器材的存在，也证明类似的实验正在准备中。+在穆罗梅茨行动里被终结罪恶，正在为重返人间积蓄着邪恶的力量。
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:这里的杂物太多了，要小心埋伏……
-()||:就在众人的注意力被实验装置分散时，一阵奇怪的风吹进了本该是密闭的房间里。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:小心！
-()||<白屏2><SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:嗡——
-()||:指挥官的视线中闪过一道白光。
-()||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1>:他刚想确认那是什么，熟悉的嗡鸣声便已撕裂了空气——
+AN94MOD(0)<Speaker>AN-94</Speaker>||<SE1>ClothingUp</SE1>:지휘관? 안색이 나빠 보이는데, 괜찮나?
+AN94MOD(0)<同时置暗><Speaker>지휘관</Speaker>||:난 괜찮아... 이 설비들, 아베르누스의 실험 장치와 비슷하게 생겼어.
+NPC_TT33Mod(2)<Speaker>댄들라이</Speaker>||:내부에 생명 반응 없음, 전원도 들어와 있지 않아요. 이건... 그냥 빈 껍데기네요.
+()||:배양액 말고는 아무것도 들어있지 않았다. 기억 속 악몽 같은 광경이 다시 현실이 되지 않은 것에, 지휘관은 조금 안도했다.+하지만 이런 설비는 존재 자체가 유사한 실험이 준비 중임을 의미했다.
+()||:무로메츠 작전으로 종결지었을 터였던 죄악이, 현세로 돌아오기 위해 사악한 힘을 비축하고 있었다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:여긴 잡동사니가 많으니까, 모두 매복에 주의――
+()||:모두의 주의력이 실험 장치로 분산되어 있을 때, 기이한 바람이 밀폐된 공간에 불어닥쳤다.
+NPC_TT33Mod(2)<Speaker>댄들라이</Speaker>||:조심해!
+()||<白屏2><SE1>AVG_Sword_Scope</SE1><BGM>BGM_Empty</BGM>:부웅!
+()||:지휘관의 눈앞에 하얀빛이 번뜩였다.
+()||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1>:그것이 무엇인지 알아보기도 전에 익숙한 진동음이 공기를 갈랐다.
 ()||<黑点1>:
-NPC-grig(0)<Speaker>缇</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><黑点2><BGM>GF_22W_BGM_3</BGM>:……
-()||:不知什么时候，缇已经出现在了指挥官的身后。+但在丹德莱的干涉下，她的挥刀慢了一步。
-AK15MOD(6)<Speaker>AK-15</Speaker><Shake>||<SE1>RunStep</SE1>:——！
-()||<震屏3><SE1>AVG_Punch_Hit</SE1>:而下个瞬间，AK-15像炮弹一样撞了过来，把即将克服干扰的缇强行推开。+双方猛烈碰撞的瞬间，爆发出了沉闷的巨响。
-AN94MOD(4)<Speaker>AN-94</Speaker>||<SE1>Select</SE1>:保护指挥官！
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:……这家伙又是哪冒出来的？
-NPC-AK12Mod(4)<同时置暗><Speaker>指挥官</Speaker>||:她叫缇，是个……速度很快的涅托。+好像比之前更快了，多亏了丹德莱。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:不客气，确实变快了，所以我也没注意到。
-NPC_TT33Mod(2)<同时置暗><Speaker>指挥官</Speaker>||:……？+你不是注意到了吗？
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:这不重要，重要的是……+……AK-15恐怕需要帮助。
-AK15MOD(0)<Speaker>AK-15</Speaker><Shake>||:……！
-()||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:AK-15的动作迅猛而凌厉，爆发力绝对算是顶尖。
-()||:她的速度本身就已经很快，但和那道白色的影子相比，仍显得相形见绌。
-()||<SE1>AVG_Sword_Scope</SE1>:嗡——
-NPC-grig(0)<Speaker>缇</Speaker>||:……
+NPC-grig(0)<Speaker>틸</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><黑点2><BGM>GF_22W_BGM_3</BGM>:......
+()||:어느 사이에 틸이 지휘관의 뒤에 나타났다.+하지만 댄들라이의 교란으로 칼을 휘두르는 움직임이 한 박자 느려졌다.
+AK15MOD(6)<Speaker>AK-15</Speaker><Shake>||<SE1>RunStep</SE1>:——!
+()||<震屏3><SE1>AVG_Punch_Hit</SE1>:그리고 다음 순간 AK-15가 포탄처럼 몸을 던져 교란에서 벗어나려는 틸을 밀쳐냈다.+둘이 부딪히는 순간 묵직한 굉음이 터졌다.
+AN94MOD(4)<Speaker>AN-94</Speaker>||<SE1>Select</SE1>:지휘관을 보호해야 한다!
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:...저 녀석, 어디서 튀어나온 거야?
+NPC-AK12Mod(4)<同时置暗><Speaker>지휘관</Speaker>||:틸이야... 속도가 자랑인 니토지.+예전보다 더 빨라진 것 같은데... 댄들라이 덕분에 살았어.
+NPC_TT33Mod(2)<Speaker>댄들라이</Speaker>||:천만에요. 확실히 전보다 빨라져서 저도 눈치 못 챘어요.
+NPC_TT33Mod(2)<同时置暗><Speaker>지휘관</Speaker>||:......?+방금 눈치채지 않았어?
+NPC_TT33Mod(2)<Speaker>댄들라이</Speaker>||:그건 중요하지 않잖아요, 그보다 먼저...+AK-15를 도와줘야 하지 않을까요?
+AK15MOD(0)<Speaker>AK-15</Speaker><Shake>||:......!
+()||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:AK-15은 빠르고 매서운 움직임을 가진 인형이다. 순발력도 손에 꼽을 수준이었다.
+()||:하지만 그런 그녀도 저 하얀 그림자에 비하면 다소 느려 보였다.
+()||<SE1>AVG_Sword_Scope</SE1>:부웅!
+NPC-grig(0)<Speaker>틸</Speaker>||:......
 ()||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1><CGDelay>0.3</CGDelay>:
-()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:……唯一值得欣慰的是，缇的攻击也始终无法对AK15带来实质性的伤害。
+()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:...그래도 다행히 틸의 공격도 AK-15에게 유효타를 입히지 못했다.
 ()||<SE1>RunStep</SE1><CGDelay>0.3</CGDelay>:
-()||<SE1>AVG_Cloak_Whoosh</SE1>:每次，在那削铁如泥的刀刃将要切开AK15的躯体时，AK15的反击总是如约而至，逼迫着缇不得不迅速退让。
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:……比我这具素体的速度还快，真了不起。
-AK15MOD(4)<Speaker>AK-15</Speaker>||:别过来，她还在盯着指挥官。
-()||:AK-15一个人没法击败缇，但在另外两名忤逆人形的保护下，缇也失去了刺杀指挥官的机会。+终于，她不再需求进攻，而是拉开了与AK-15的距离。攻势减缓，双方陷入对峙。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:看来这就是威廉最后的牌了，他应该就在前面。
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:丹德莱，你带指挥官先离开。+缇的攻击停下来了，趁现在。
-NPC-AK12Mod(4)<同时置暗><Speaker>指挥官</Speaker>||:等等。
-()||<SE1>ClothingUp</SE1>:指挥官主动上前了一步，此时的缇似乎已经失去了战意，没有任何反应。
-()<Speaker>指挥官</Speaker>||:……看到这里的设备了吗？+威廉应该是打算重新搭建类似于“识底深湖”的东西。
-NPC-grig(0)<Speaker>缇</Speaker>||:……
-NPC-grig(0)<同时置暗><Speaker>指挥官</Speaker>||:你知道这意味着什么。+“识底深湖”重新建立，发生在你、格雷，还有其他涅托身上的事情也将会重演。
-NPC-grig(1)<Speaker>缇</Speaker>||:……
-()||:缇的目光突然动了动。
-NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:和涅托说这些有用吗？指挥官。
-AN94MOD(6)<Speaker>AN-94</Speaker>||:指挥官，请你快走，这里交给我们
-()<Speaker>指挥官</Speaker>||:……+我保证……+我一定会摧毁威廉的野心。
-NPC-grig(1)<Speaker>缇</Speaker>||:……
-()||:指挥官最后看了缇一眼，随即转身与丹德莱一同走向了基地的更深处。+缇没有动，只是目光始终看着指挥官的背影。
-()||<CGDelay>0.5</CGDelay>:她没有阻拦。
-NPC-grig(1)<Speaker>缇</Speaker>||:……+格雷……还好吗？
-AK15MOD(0)<Speaker>AK-15</Speaker>||:……
-()||<CGDelay>0.5</CGDelay>:在场的人都听清了她的话。+AN-94在一瞬间想要说点什么，但最终还是没有开口。
-AN94MOD(4)<Speaker>AN-94</Speaker>||<SE1>AVG_weapon_reload</SE1>:……来吧。
+()||<SE1>AVG_Cloak_Whoosh</SE1>:강철조차 두부처럼 자르는 그 칼날이 AK-15의 몸을 베려고 하면, 항상 AK-15의 반격이 날아와 틸은 바로 물러서야 했다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:...지금 내 소체보다도 빨라, 대단한걸.
+AK15MOD(4)<Speaker>AK-15</Speaker>||:이쪽으로 오지 마라. 놈은 아직도 지휘관을 노리고 있다.
+()||:AK-15 혼자서는 틸을 쓰러뜨릴 수 없다. 하지만 다른 리벨리온 멤버 두 명의 엄호를 받는 지휘관을 습격할 기회는 틸에겐 이제 없었다.+결국, 그녀는 공격에 매달리지 않고, AK-15와 거리를 벌려 서로 대치했다.
+NPC_TT33Mod(2)<Speaker>댄들라이</Speaker>||:아무래도 저게 윌리엄의 마지막 카드 같네요. 녀석은 바로 앞에 있을 거예요.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:댄들라이, 너 먼저 지휘관이랑 함께 가.+틸의 공격이 멈춘 지금.
+NPC-AK12Mod(4)<同时置暗><Speaker>지휘관</Speaker>||:잠깐만.
+()||<SE1>ClothingUp</SE1>:지휘관이 스스로 한 걸음 틸에게 내디뎠다. 지금 틸은 전의를 상실했는지 아무런 반응도 없었다.
+()<Speaker>지휘관</Speaker>||:...여기에 있는 설비들 보여?+윌리엄은 또 "의식의 호수" 같은 물건을 만들 셈이야.
+NPC-grig(0)<Speaker>틸</Speaker>||:......
+NPC-grig(0)<同时置暗><Speaker>지휘관</Speaker>||:그게 무슨 뜻인지는 너도 알겠지.+"의식의 호수"가 다시 만들어지면, 너와 그레이, 다른 니토들이 겪은 일도 전부 다시 되풀이될 거야.
+NPC-grig(1)<Speaker>틸</Speaker>||:......
+()||:틸의 눈빛이 갑자기 흔들렸다.
+NPC-AK12Mod(4)<Speaker>AK-12</Speaker>||:니토한테 그런 말 한다고 소용 있어?
+AN94MOD(6)<Speaker>AN-94</Speaker>||:어서 가라, 지휘관. 여기는 우리에게 맡기고.
+()<Speaker>지휘관</Speaker>||:......+내가 반드시...+반드시 윌리엄의 야심을 무너뜨리겠어.
+NPC-grig(1)<Speaker>틸</Speaker>||:......
+()||:지휘관은 마지막으로 틸에게 눈길을 주고, 뒤돌아 댄들라이와 함께 기지 더 깊은 곳으로 걸어갔다.+틸은 움직이지 않고 그저 지휘관의 뒷모습을 지켜볼 때문이었다.
+()||<CGDelay>0.5</CGDelay>:제지하지도 않았다.
+NPC-grig(1)<Speaker>틸</Speaker>||:......+그레이는... 잘 있나?
+AK15MOD(0)<Speaker>AK-15</Speaker>||:......
+()||<CGDelay>0.5</CGDelay>:그 자리의 모두 그녀의 말을 똑똑히 들었다.+AN-94는 한순간 뭐라 대답할까 했지만 결국 입을 열지 않았다.
+AN94MOD(4)<Speaker>AN-94</Speaker>||<SE1>AVG_weapon_reload</SE1>:...와라.
 ()||<黑点1>:

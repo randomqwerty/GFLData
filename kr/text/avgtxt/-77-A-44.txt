@@ -1,148 +1,148 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>890</BIN><SE1>AVG_Lunasia_Born</SE1>:光芒收束，那些飞舞的蓝色蝴蝶尽数敛入全新的躯体。+“露尼西亚”静静地阖上双眼，而她身周，所有白涅托都已回归沉寂。
-NPC-William(18)<Speaker>威廉</Speaker>||<SE1>ClothingUp</SE1>:不……不可能……
-()||:他脸上的狂热与嘲弄凝固成了纯粹的错愕，他踉跄地后退，撞在了身后的主控台上。
-NPC-William(18)<Speaker>威廉</Speaker>||:姐姐……我的姐姐……
-()||<SE1>AVG_footsteps_woodfloor</SE1>:咚。+咚。
-()||:咚。
-()||:指挥官迈开沉重的步伐，军靴踏在地板上的声音，每一下都像是敲在威廉崩溃的神经上。+他的脸上没有任何表情，那是一种比愤怒更可怕的平静。
-NPC-William(15)<Speaker>威廉</Speaker>||<SE1>ClothingUp</SE1>:<size=50>站住！你这只臭虫……别过来！</size>
-()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:威廉歇斯底里地尖叫着，用他仅剩的手臂抄起一截断裂的金属管，毫无章法地挥了过来。
-()||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake>:嘭！
-()||:指挥官甚至没有闪避，任由管道砸在肩上，纹丝不动。
+()||<黑屏2><BIN>890</BIN><SE1>AVG_Lunasia_Born</SE1>:빛이 한줄기로 뭉치고, 흩날리는 파란 나비들은 모두 새로운 몸뚱이에 들어갔다.+"루니샤"는 조용히 두 눈을 감았고, 그녀 주위의 하얀 니토들도 모두 정적에 들었다.
+NPC-William(18)<Speaker>윌리엄</Speaker>||<SE1>ClothingUp</SE1>:이... 이럴 리가...
+()||:방금까지 열광과 조롱으로 가득했던 그의 얼굴은 순순한 경악으로 가득 찼고, 비틀거리며 뒷걸음질 치다가 뒤에 있는 메인 콘솔에 부딪혔다.
+NPC-William(18)<Speaker>윌리엄</Speaker>||:누나... 내 누나가...
+()||<SE1>AVG_footsteps_woodfloor</SE1>:쿵.+쿵.
+()||:쿵.
+()||:지휘관이 무거운 걸음을 내디뎠다. 군화가 바닥을 밟는 소리는 마치 윌리엄의 무너진 신경을 짓밟는 것 같았다.+그의 얼굴에는 어떤 표정도 없었다. 분노보다도 소름 끼치는 잠잠함만 남아있었다.
+NPC-William(15)<Speaker>윌리엄</Speaker>||<SE1>ClothingUp</SE1>:<size=50>거기 서! 이 벌레자식... 오지 말라고!</size>
+()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:윌리엄은 필사적으로 소리 지르면서, 남은 한 쪽 팔로 끊어진 파이프를 집어 들어 마구잡이로 휘둘렀다.
+()||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake>:퍽!
+()||:지휘관은 공격을 피하지도 않고, 눈 껌뻑하지 않고 어깨로 받아주었다.
 ()||<SE1>Stop_AVG_loop</SE1><CGDelay>0.1</CGDelay>:
-()||<SE1>AVG_Cloak_Whoosh</SE1>:下一秒，指挥官反手便用枪托狠狠砸在威廉的手腕上。
-()||<SE1>AVG_Dismember</SE1><SE1>AVG_Punch_Hit</SE1><震屏3><BGM>BGM_ev2408_DanceWithDeath</BGM>:咔嚓！
-NPC-William(18)<Speaker>威廉</Speaker><Shake>||:<size=50>呃啊！</size>
-()||:骨骼碎裂的脆响中，威廉发出一声悲鸣，金属管道脱手飞出。
-()||<SE1>Rope</SE1>:指挥官顺势丢开手枪，抓住威廉的衣领，一记凶狠的右勾拳结结实实地打了上去。
-()||<SE1>AVG_Punch_Hit</SE1><震屏3>:嘭！
-()||<SE1>Rope</SE1>:指挥官没有停手，揪着威廉的头发，把他的脸狠狠地撞向一旁的显示屏幕。
-()||<SE1>AVG_Door_Hit</SE1><震屏3><SE1>AVG_bigglassbreak</SE1>:砰！
-()||:屏幕应声碎裂，玻璃碴混着血迹四处飞溅。
-NPC-William(18)<Speaker>威廉</Speaker><Shake>||:为什么……咳……+为什么……你这样的人……+能做到这种地步……！
-NPC-William(18)<同时置暗><Speaker>指挥官</Speaker>||:……
-()||<SE1>Rope</SE1>:指挥官没有做出任何回答，反扭威廉的手臂将他压倒在地，然后挥起了拳头。
-()<Speaker>指挥官</Speaker>||:因为那些被你利用和抛弃的人。+因为那些被玷污的理想和被践踏的心血。
-()||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=4</controll_shake><SE1>AVG_Combat_Hits</SE1><CGDelay>0.5</CGDelay>:血肉模糊的闷响在空旷的实验室里不断回荡，威廉的咒骂逐渐变成了微弱的哀嚎。
-()||<SE1>ClothingUp</SE1>:指挥官大口地喘着粗气，胸口剧烈地起伏，缓缓站起身，捡起了地上的手枪。
-NPC-William(18)<Speaker>威廉</Speaker><Shake>||:咕……咳……
-()||:在指挥官的面前，威廉艰难地站起，他的牙齿被鲜血染红，看向指挥官的眼中充满了憎恨与怨愤。
-()<Speaker>指挥官</Speaker>||:……这次，你逃不掉了。
-NPC-William(17)<Speaker>威廉</Speaker>||:呵……呵呵呵……
-()||:威廉啐了一口，脸上是张狂的笑意。
-NPC-William(17)<Speaker>威廉</Speaker>||:逃？+哪有落幕的时候，主角不在舞台上的戏剧？
-NPC-William(17)<同时置暗><Speaker>指挥官</Speaker>||:……
-()||<SE1>AVG_weapon_reload</SE1>:咔！
-()||:清脆的机簧声响起，子弹上膛。+威廉残破的喉咙里发出“嗬嗬”的声音，眼中倒映出指挥官黑洞洞的枪口。
+()||<SE1>AVG_Cloak_Whoosh</SE1>:1초 후, 지휘관은 윌리엄의 팔을 권총 손잡이로 찍었다.
+()||<SE1>AVG_Dismember</SE1><SE1>AVG_Punch_Hit</SE1><震屏3><BGM>BGM_ev2408_DanceWithDeath</BGM>:콰득!
+NPC-William(18)<Speaker>윌리엄</Speaker><Shake>||:<size=50>끄악!</size>
+()||:뼈가 박살 나는 소리와 함께, 윌리엄이 비명을 질렀고, 파이프는 손에서 튕겨 나갔다.
+()||<SE1>Rope</SE1>:지휘관은 권총을 놓고, 윌리엄의 멱살을 붙잡고서, 무자비한 라이트훅을 꽂았다.
+()||<SE1>AVG_Punch_Hit</SE1><震屏3>:퍼억!
+()||<SE1>Rope</SE1>:지휘관은 멈추지 않고, 윌리엄의 머리채를 붙잡고, 그의 얼굴을 옆에 있던 스크린에 처박았다.
+()||<SE1>AVG_Door_Hit</SE1><震屏3><SE1>AVG_bigglassbreak</SE1>:파악!
+()||:스크린은 산산조각 나 깨지고, 피가 묻은 유리조각이 사방에 흩어졌다.
+NPC-William(18)<Speaker>윌리엄</Speaker><Shake>||:왜... 커헉...+왜... 너 같은 녀석이...+이렇게까지 할 수 있...!
+NPC-William(18)<同时置暗><Speaker>지휘관</Speaker>||:......
+()||<SE1>Rope</SE1>:지휘관은 대답하지 않고, 윌리엄의 팔을 꺾어 바닥에 짓눌러 제압하고, 주먹을 휘둘렀다.
+()<Speaker>지휘관</Speaker>||:네놈이 이용하고 버린 이들 때문에.+네놈이 더럽힌 이상과 짓밟은 심혈 때문에.
+()||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=4</controll_shake><SE1>AVG_Combat_Hits</SE1><CGDelay>0.5</CGDelay>:선혈낭자한 울림이 썰렁한 실험실에서 몇 번이고 울렸다. 윌리엄의 매도는 점점 기어들어 가는 신음으로 변했다.
+()||<SE1>ClothingUp</SE1>:지휘관은 거친 숨을 쉬었다. 가슴이 격하게 들썩였다. 그는 천천히 일어나, 바닥에 떨어뜨린 권총을 집었다.
+NPC-William(18)<Speaker>윌리엄</Speaker><Shake>||:커흑... 케헥...
+()||:지휘관 앞에서 윌리엄은 힘겹게 일어났다. 그의 이빨은 피로 새빨갛게 물들어있었고, 지휘관을 노려보는 눈에는 증오와 울분으로 가득했다.
+()<Speaker>지휘관</Speaker>||:...이번엔, 도망 못 간다.
+NPC-William(17)<Speaker>윌리엄</Speaker>||:흐... 흐흐흐흐...
+()||:윌리엄은 침을 한 줌 뱉고, 건방지게 웃었다.
+NPC-William(17)<Speaker>윌리엄</Speaker>||:도망?+도망은 무슨, 주인공이 없는 무대에 막을 내리는 연극이 어디 있어?
+NPC-William(17)<同时置暗><Speaker>지휘관</Speaker>||:......
+()||<SE1>AVG_weapon_reload</SE1>:철컥!
+()||:경쾌한 용수철 소리와 함께 총알이 장전됐다.+윌리엄은 목구멍으로 큭큭거리는 소리를 내며, 지휘관의 시커먼 총구를 눈에 담았다.
 ()||<黑屏1>:
-()||<BIN>9</BIN><黑屏2>:——面对空洞，黑暗，深邃的枪口，以及指挥官那决然的面孔，巴拉德真正意识到了。+他就要死了。
-NPC-William(19)<Speaker>威廉</Speaker><Shake>||:……混账，混账，混账……+为什么我……为什么我会……+会被你这种小人物！虫子！垃圾！逼到这种地步啊！！
+()||<BIN>9</BIN><黑屏2>:그 공허하고, 어둡고, 깊은 총구와 결연한 지휘관의 얼굴을 바라보며, 발라드는 진정으로 깨달았다.+자신은 곧 죽는다.
+NPC-William(19)<Speaker>윌리엄</Speaker><Shake>||:...제기랄, 제기랄, 제기라알...!+어째서 내가... 어째서 내가...+너 같은 잡것! 벌레! 쓰레기 따위한테! 이 지경으로 몰린 거냐고오오!!!
 ()||<hide_dialogue><ShootPanel>%%shootingCount=1%%picturename=NPC_William_live2d_2_New_Live2D%%path=AVGPicPrefabs%%bgnum=890%%manualCount=1,,%%waitMotion=-110%%shootMotion=201%%gunShootMotion=203%%gunWaitMotion=-110%%audio=AVG_Pistol-0.2,AVG_Pistol-0.6,AVG_Pistol-1,AVG_Tinnitus-1%%tween=11-0.1,11-0.4,11-0.7,12-1.55</ShootPanel>:
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-()||<BIN>9</BIN><黑屏2>:——嗅着火油，鲜血，硝烟的气味，看着巴拉德那因痛苦而扭曲的面孔，指挥官想起了很多事情。+都要结束了。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:指挥官！
-M4A1Mod(0)<Speaker>M4A1</Speaker>||:指挥官。
-AR15Mod(0)<Speaker>AR15</Speaker>||:指挥官。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMODII</Speaker>||:指挥官~！！
-RO635Mod(5)<Speaker>RO635</Speaker>||:……指挥官。
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||:干得不赖，指挥官。
-NPC-Ange(0)<Speaker>安洁莉娅</Speaker>||:……做得好。
-()<Speaker>指挥官</Speaker>||:……
-()||:恍惚中，指挥官的视觉又一次回到了眼前。+持枪的手不知何时，手心已浸透了汗水，然而，却从未如此之稳。
+()||<BIN>9</BIN><黑屏2>:기름과 피, 초연이 뒤섞인 냄새를 맡으며, 고통으로 일그러진 발라드의 얼굴을 보면서, 지휘관은 많은 일들을 떠올렸다.+이제 전부 끝난다.
+NPC-Kalin(0)<Speaker>카리나</Speaker>||:지휘관님!
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:지휘관님.
+AR15Mod(0)<Speaker>AR15</Speaker>||:지휘관.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMODII</Speaker>||:지휘과안~!!
+RO635Mod(5)<Speaker>RO635</Speaker>||:...지휘관님.
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||:제법인데, 지휘관.
+NPC-Ange(0)<Speaker>안젤리아</Speaker>||:...잘했어.
+()<Speaker>지휘관</Speaker>||:......
+()||:흐릿함 속에서 지휘관의 시각은 다시 눈앞으로 돌아왔다.+총을 쥔 손은 어느샌가 땀으로 가득 찼다. 하지만 그 어느 때보다도 흔들림이 없었다.
 ()||<CloseOldEffect><hide_dialogue><ShootPanel>%%shootingCount=1%%picturename=NPC_William_live2d_2_New_Live2D%%path=AVGPicPrefabs%%bgnum=890%%manualCount=1%%waitMotion=111%%shootMotion=202%%gunShootMotion=201%%gunWaitMotion=-110%%audio=AVG_Pistol-0.2,AVG_Pistol-0.6,AVG_Pistol-1,AVG_Tinnitus-1%%tween=13-0,11-0.1,11-0.4,11-0.7,12-1.5</ShootPanel>:
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-NPC-William(20)<Speaker>威廉</Speaker>||<BIN>9</BIN><黑屏2>:混……混账……住……住手……
+NPC-William(20)<Speaker>윌리엄</Speaker>||<BIN>9</BIN><黑屏2>:제... 젠장... 멈... 멈춰...
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||<BIN>9</BIN><黑屏2>:您只需要清理小范围的铁血就好了哦！
-()<Speaker>指挥官</Speaker>||:……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:……我们的目标，是更新世界的锋芒。
-()<Speaker>指挥官</Speaker>||:…………
-NPC-Griffin(1)<Speaker>爵士</Speaker>||:狐狸和刺猬，你想做哪一个？
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:………………
-()<Speaker>？？？？</Speaker>||:……往前走，别回头。
-()<Speaker>指挥官</Speaker>||:………………………………………………………………
+NPC-Kalin(1)<Speaker>카리나</Speaker>||<BIN>9</BIN><黑屏2>:가끔 침입해 오는 철혈 찌끄러기 정도나 쫓아내면 충분해요!
+()<Speaker>지휘관</Speaker>||:......
+NPC-Kyruger(0)<Speaker>크루거</Speaker>||:...우리의 목표는, 세상을 새로 쓸 칼날이 되는 것.
+()<Speaker>지휘관</Speaker>||:............
+NPC-Griffin(1)<Speaker>훈작사</Speaker>||:고슴도치와 여우 중, 자네는 무엇이 되고 싶나?
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:..................
+()<Speaker>？？？？</Speaker>||:...돌아보지 말고, 앞으로 나아가세요.
+()<Speaker>지휘관</Speaker>||:………………………………………………………………
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-NPC-William(20)<Speaker>威廉</Speaker><Shake>||<BIN>9</BIN><黑屏2>:……我…………怎么…………会…………
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>指挥官</Speaker>||:……再见了。+“威廉”
+NPC-William(20)<Speaker>윌리엄</Speaker><Shake>||<BIN>9</BIN><黑屏2>:...내가...... 어떻게...... 이런......
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>지휘관</Speaker>||:...잘 가라.+"윌리엄".
 ()||<CloseOldEffect><hide_dialogue><ShootPanel>%%shootingCount=1%%picturename=NPC_William_live2d_2_New_Live2D%%path=AVGPicPrefabs%%bgnum=890%%manualCount=1%%waitMotion=112%%shootMotion=203%%gunShootMotion=202%%gunWaitMotion=-110%%audio=AVG_Pistol-0.3,AVG_Pistol-1,AVG_tinnitus_0-1%%tween=13-0,11-0.1,11-0.55,12-1.5</ShootPanel>:
 ()||<黑屏1>:
 ()||<BIN>9</BIN><黑屏2>:
 ()||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><BIN>890</BIN><SE1>AVG_rifle_finalshot_h</SE1><CGDelay>0.6</CGDelay><BGM>BGM_Empty</BGM>:
-()||<CGDelay>0.5</CGDelay><SE1>AVG_Bullet_Hit_Body</SE1>:最后一发枪声炸响，子弹贯穿了威廉的额头，将他最后残存的意识彻底抹除。
-()<Speaker>指挥官</Speaker>||:……
-()||<SE1>ClothingUp</SE1>:指挥官缓步上前，蹲下身，确认倒在地上的尸体已经彻底失去了呼吸。
+()||<CGDelay>0.5</CGDelay><SE1>AVG_Bullet_Hit_Body</SE1>:마지막 총성이 울리고, 탄두가 윌리엄의 이마를 꿰뚫어 놈의 마지막 남은 의식을 지워버렸다.
+()<Speaker>지휘관</Speaker>||:......
+()||<SE1>ClothingUp</SE1>:지휘관은 천천히 다가가서 무릎을 굽히고, 바닥에 쓰러진 시체의 숨이 완전히 멎은 것을 확인했다.
 ()||<CGDelay>0.2</CGDelay><BIN>9</BIN>:
-()||<CGDelay>0.4</CGDelay><narrator>:威廉，死了。                    
+()||<CGDelay>0.4</CGDelay><narrator>:윌리엄은, 죽었다.
 ()||<黑屏1>:
-()<Speaker>丹德莱</Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>890</BIN><黑屏2><BGM>BGM_ev2412_tranquility</BGM>:满足了吗？指挥官。
-()||:清冷而熟悉的声音在身后响起，新生的丹德莱正静静地看着他。
+()<Speaker>댄들라이</Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>890</BIN><黑屏2><BGM>BGM_ev2412_tranquility</BGM>:만족하셨나요? 지휘관.
+()||:매정하고도 익숙한 목소리가 뒤에서 들렸다. 다시 태어난 댄들라이가 조용히 그를 바라보고 있었다.
 ()||<黑屏1>:
 ()||<CGDelay>0.5</CGDelay><黑屏2><BIN>898</BIN>:
-()<Speaker>指挥官</Speaker>||:……我追求的，从来不是杀死某一个人的快感。+我杀他并不是为了泄愤，而是为了……更正确的目标。
-()<Speaker>丹德莱</Speaker>||:是吗。
-()||:指挥官转身看向了“丹德莱”。
-()||:就在刚刚进入这房间的时候，眼前这个人，还是挡在自己和威廉之间最后的障碍。+而现在，不需要任何确认，指挥官轻易便能看出，她已经成为了自己的同伴。
-()||:甚至于……
+()<Speaker>지휘관</Speaker>||:...나는 어떤 카타르시스를 원해서 누굴 죽인 적 없어.+놈을 죽인 건 화풀이를 위해서가 아니라... 보다 올바른 목표를 위해서야.
+()<Speaker>댄들라이</Speaker>||:그런가요.
+()||:지휘관은 몸을 돌려 "댄들라이"를 바라봤다.
+()||:방금 이 방에 들어왔을 때 눈앞의 인물은 자신과 윌리엄 사이를 가로막는 마지막 장애물이었다.+하지만 지금은 굳이 확인하지 않아도, 지휘관은 그녀가 이미 자신의 동료가 되었음을 알아볼 수 있었다.
+()||:심지어는...
 ()||<黑屏1>:
 ()||<BIN>25</BIN><黑屏2><CGDelay>0.3</CGDelay><回忆>:
-()<Speaker>M4A1</Speaker>||<CGDelay>0.7</CGDelay>:是你吗？指挥官？
+()<Speaker>M4A1</Speaker>||<CGDelay>0.7</CGDelay>:당신인가요...지휘관?
 ()||<黑屏1>:
 ()||<BIN>898</BIN><黑屏2><CGDelay>0.3</CGDelay><关闭蒙版>:
-()<Speaker>指挥官</Speaker>||:……
-()||:或许是一切尘埃落定的实感令自己的身心都放松了下来，那一瞬间，在那张熟悉的脸上，指挥官仿佛看到了过去的影子与现实的重叠。
-()||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:下意识地，指挥官抬起了没有握枪的那只手，摸了摸自己没有压住的嘴角。
-()||<CGDelay>0.4</CGDelay>:真怀念啊。
+()<Speaker>지휘관</Speaker>||:......
+()||:모든 게 끝났다는 실감에 몸도 마음도 풀린 탓일까, 그 순간 지휘관은 익숙한 얼굴 위에 과거의 그림자가 현실이 겹쳐지는 것을 본 착각이 들었다.
+()||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:무의식적으로, 지휘관은 총을 쥐지 않는 손으로 억누르지 못한 입가를 만졌다.
+()||<CGDelay>0.4</CGDelay>:정말 그립구나.
 ()||<白屏1><SE1>AVG_Lunasia_Born</SE1>:
-()<Speaker>丹德莱</Speaker>||<BIN>902</BIN><白屏2>:……
-()||:而就在这一瞬间，在指挥官的眼前，那“影子”骤然出现了某种“变化”。
-()||:“她”身上的装具，外衣，乃至妆容都如同流沙一般开始流动，只在转瞬之间，她的面貌便产生了翻天覆地的变化，变成了指挥官更熟悉的，属于“丹德莱”的样子。
-()<Speaker>指挥官</Speaker>||:……！？
-()<Speaker>丹德莱</Speaker>||:看呆了吗？指挥官？+可惜，还是这幅样子更适合我。
-()<Speaker>指挥官</Speaker>||:你……你是怎么……
-()<Speaker>丹德莱</Speaker>||:“她”的装备都是纳米无人机构成的，不然你以为，那些蓝色的蝴蝶都是什么？+露尼西亚的幽灵吗？
-()<Speaker>指挥官</Speaker>||:……
-()||:重叠的幻影在轻佻的声音中轻易破碎，指挥官揉了揉眼，思绪又回到现实。
-()<Speaker>指挥官</Speaker>||:你……不。+你们究竟是怎么做到的？+这些事……还有之前发生的一切……所有的事都像M4说的一样发生。+这就是希岸空间的力量？……M4说的，我要付出的代价，又是什么？
-()<Speaker>丹德莱</Speaker>||:……
-()||:丹德莱微微颔首，并没有立即做出回答。+她脸上轻佻的神色也缓缓褪去，取而代之的，是自眼底溢出的肃穆。
-()<Speaker>丹德莱</Speaker>||:指挥官……
-()<Speaker>指挥官</Speaker>||:……什么？
-()<Speaker>丹德莱</Speaker>||:在回答你的问题之前。+我也有三个问题，如果你能够给予回答。+我就告诉你，这一切是怎么发生的，而真正的代价又究竟是什么。
-()<Speaker>指挥官</Speaker>||:……+你问吧。
-()<Speaker>丹德莱</Speaker>||:第一……+——“女神”是否只有一个？
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>丹德莱</Speaker>||:第二，“女神”是否全知全能？
-()<Speaker>指挥官</Speaker>||:…………
-()<Speaker>丹德莱</Speaker>||:第三……
-()<Speaker>丹德莱</Speaker>||:被“女神”改变过的世界，是否还曾经存在过？
-()<Speaker>指挥官</Speaker>||<CGDelay>0.3</CGDelay>:………………………………………………
-()||:指挥官无法回答任何一个问题。
-()<Speaker>丹德莱</Speaker>||:看来您明白了。+那么，请答应我一件事，指挥官。+永远不要去探求关于“希岸空间”的任何事。+不要去触碰，不要去理解，更不要去尝试。
-()<同时置暗><Speaker>指挥官</Speaker>||:……我答应你。
-()<Speaker>丹德莱</Speaker>||<CGDelay>0.5</CGDelay>:很好。+那么……
-()||:丹德莱向着指挥官行了一个标准的贵族礼，随即，一只手划向一侧，指引向不远处沉默的主控台。
-()<Speaker>丹德莱</Speaker>||:敬请踏上下一条道路吧。
+()<Speaker>댄들라이</Speaker>||<BIN>902</BIN><白屏2>:......
+()||:그런데 바로 그 순간, 지휘관의 눈앞에 있던 그 "그림자"에서 갑자기 변화가 일어났다.
+()||:"그녀"의 장비와 외투, 심지어 화장까지도 모래처럼 흘러내리더니, 순식간에 그녀의 모습은 완전히 달라져 지휘관이 더 익숙히 알고 있는 "댄들라이"의 모습이 되었다.
+()<Speaker>지휘관</Speaker>||:......!?
+()<Speaker>댄들라이</Speaker>||:얼이라도 나가셨나요, 지휘관?+죄송하지만, 역시 이 모습이 제게 더 잘 어울려요.
+()<Speaker>지휘관</Speaker>||:너... 너 방금 그건 어떻게...
+()<Speaker>댄들라이</Speaker>||:음, "그녀"의 장비는 전부 나노로봇으로 이루어져 있어요. 그게 아니라면, 그 파란 나비들이 뭐였을 거라고 생각하신 건가요?+혹시 루니샤의 유령이라고 생각하셨나요?
+()<Speaker>지휘관</Speaker>||:......
+()||:겹쳐 있던 환영은 가벼운 목소리와 함께 싱겁게 흩어졌다. 지휘관은 눈을 비비며 다시 현실로 생각을 되돌렸다.
+()<Speaker>지휘관</Speaker>||:너... 아니, 너희는 대체 어떻게 해낸 거야?+이 일들... 그리고 이전에 일어난 모든 일들도... 전부 M4가 말한 그대로 일어났어.+이게 시온 공간의 힘인가? ...M4가 말한 내가 치러야 할 대가란 건 또 뭐야?
+()<Speaker>댄들라이</Speaker>||:......
+()||:댄들라이는 살짝 고개를 끄덕였지만 바로 대답하지는 않았다.+그녀의 얼굴에 떠 있던 가벼운 분위기도 서서히 사라지고, 대신 눈빛 깊은 곳에서 엄숙함이 흘러나왔다.
+()<Speaker>댄들라이</Speaker>||:지휘관...
+()<Speaker>지휘관</Speaker>||:...뭔데?
+()<Speaker>댄들라이</Speaker>||:제가 당신의 질문에 대답하기 전에...+저에게도 세 가지 질문이 있으니까 한 번 대답해 보세요.+대답하실 수 있다면 이 일이 어떻게 일어난 것인지, 진정한 대가란 과연 무엇인지 알려드릴게요.
+()<Speaker>지휘관</Speaker>||:......+물어보렴.
+()<Speaker>댄들라이</Speaker>||:첫번째...+"여신"은 하나뿐인가요?
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>댄들라이</Speaker>||:두번째, "여신"은 전지전능한가요?
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>댄들라이</Speaker>||:세번째...
+()<Speaker>댄들라이</Speaker>||:“여신”에 의해 바뀐 세계는 존재했을까요?
+()<Speaker>지휘관</Speaker>||<CGDelay>0.3</CGDelay>:………………………………………………
+()||:지휘관은 그 중 어느 한 질문에도 대답할 수 없었다.
+()<Speaker>댄들라이</Speaker>||:이제 깨달으셨겠죠.+그럼, 한 가지 약속해 주세요, 지휘관.+"시온 공간"에 관한 일은 그 무엇도, 영원히 파헤치려 하지 마세요.+건들지 말고, 알려고 하지 말고, 시도조차 하지 마세요.
+()<同时置暗><Speaker>지휘관</Speaker>||:...약속할게.
+()<Speaker>댄들라이</Speaker>||<CGDelay>0.5</CGDelay>:좋아요.+그럼...
+()||:댄들라이가 지휘관을 향해 매우 표준적인 귀족식 인사를 하고서, 한 손을 옆으로 움직여 멀지 않은 곳에 있는 조용한 메인 콘솔을 가리켰다.
+()<Speaker>댄들라이</Speaker>||:이제 다음 길을 떠나시죠.
 ()||<黑屏1>:
-()||<黑屏2><BIN>890</BIN><SE1>AVG_tele_connect</SE1>:哔——哔——哔——
-()||:刺耳的通讯请求声毫无征兆地响彻整个实验室，来源正是那台染血的主控台。
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:指挥官短暂地沉默，随即迈步上前，接通了通讯。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:……是我。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>……祝贺你，指挥官。</color>
-()<Speaker>指挥官</Speaker>||:……+……我完成了承诺，米哈伊尔先生。+感谢您的帮助和支持……从今以后，不会再有帕拉蒂斯了。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>我知道，也许我比你还更早知道这个结果。</color>+<color=#00CCFF>所以我决定亲自向你表达感谢，指挥官，“盗火者”不会遗忘你的付出。</color>
-()<Speaker>指挥官</Speaker>||:……我不需要回报。
-()<Speaker>指挥官</Speaker>||:我已经得到了回报。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>别着急，指挥官，也许我们中的一些人做了令你失望的事。</color>+<color=#00CCFF>但每个人都会犯下错误，重要的是，将来。</color>
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>我们讨论过了，你需要冷静和休息。</color>+<color=#00CCFF>我们给你的车装上了足够的物资，你可以开着它，离开这里。</color>+<color=#00CCFF>永远不要再回来。</color>+<color=#00CCFF>除此之外，你的其他要求，我们也可以尽量满足。</color>
-()<Speaker>指挥官</Speaker>||:……+……我的确还有个要求。+关于我的……下属们。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>……</color>
-()||<CGDelay>0.5</CGDelay>:听完指挥官的话，老者沉默了一会。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>……这样的事情，还未曾有过前例。</color>+<color=#00CCFF>不过，没问题，我答应你。</color>
-()<Speaker>指挥官</Speaker>||:……谢谢。
-()||<CGDelay>0.5</CGDelay>:指挥官深吸了一口气。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:……再见。
+()||<黑屏2><BIN>890</BIN><SE1>AVG_tele_connect</SE1>:삐이! 삐이! 삐이!
+()||:요란한 통신 요청음이 징조도 없이 실험실에 울려 퍼졌다. 그 근원은 다름 아닌 저 피 묻은 메인 콘솔이었다.
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:지휘관은 잠깐 침묵하다 걸음을 떼서 다가가, 통신을 받았다.
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:...접니다.
+()<Speaker>나이든 목소리</Speaker>||:<color=#00CCFF>...축하하네, 지휘관.</color>
+()<Speaker>지휘관</Speaker>||:......+...약속한 일은 마쳤습니다. 미하일 씨.+당신의 도움과 지지에 감사드립니다... 앞으로, 다시는 패러데우스가 없을 겁니다.
+()<Speaker>나이든 목소리</Speaker>||:<color=#00CCFF>알고 있다네, 어쩌면 자네보다도 먼저 그 결과를 알고 있었네.</color>+<color=#00CCFF>그래서 직접 자네에게 감사를 표하기로 한 걸세. "프로메테우스"는 자네의 헌신을 잊지 않을 걸세.</color>
+()<Speaker>지휘관</Speaker>||:...보답은 필요 없습니다.
+()<Speaker>지휘관</Speaker>||:저는 이미 보답받았습니다.
+()<Speaker>나이든 목소리</Speaker>||:<color=#00CCFF>그렇게 성급하게 굴지 말게, 지휘관. 확실히 우리 중 몇 명이 자네를 실망하게 했을지도 모르지.</color>+<color=#00CCFF>하지만 누구나 잘못을 저지르는 법이네. 중요한 것은 모든 일이 끝난 이후라네.</color>
+()<Speaker>지휘관</Speaker>||:......
+()<Speaker>나이든 목소리</Speaker>||:<color=#00CCFF>우리가 토론해 본 바, 자네는 우선 진정하고 휴식할 필요가 있네.</color>+<color=#00CCFF>자네의 차에 충분한 물자를 실었으니, 그걸 타고 여길 떠나게나.</color>+<color=#00CCFF>다시는 돌아오지 말고.</color>+<color=#00CCFF>그것 외에도 우리에게 요구하고 싶은 게 있다면 최대한 들어주지.</color>
+()<Speaker>지휘관</Speaker>||:......+...확실히 한 가지 요구가 있습니다.+저의... 부하들에 관해서입니다.
+()<Speaker>나이든 목소리</Speaker>||:<color=#00CCFF>......</color>
+()||<CGDelay>0.5</CGDelay>:지휘관의 말을 끝까지 듣고, 상대방은 잠시 침묵했다.
+()<Speaker>나이든 목소리</Speaker>||:<color=#00CCFF>...그건 전례 없는 일이구만.</color>+<color=#00CCFF>그래도, 문제없네. 그 요구를 들어주지.</color>
+()<Speaker>지휘관</Speaker>||:...감사합니다.
+()||<CGDelay>0.5</CGDelay>:지휘관은 숨을 깊이 들이마셨다.
+()<Speaker>지휘관</Speaker>||<CGDelay>0.5</CGDelay>:...안녕히 계십시오.
 ()||<黑点1>:

@@ -101,6 +101,8 @@ MissionSelectionTex|missionselect_202505activity|2|-75
 MissionSelectionTex|missionselect_202507activity|2|-76
 //25.9月洞
 MissionSelectionTex|missionselect_202509rabbit|2|-77
+//25.9月
+MissionSelectionTex|missionselect_202509activity|2|-78
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -160,20 +162,22 @@ OPSPanelScene|-74|-74
 OPSPanelScene|-75|-75
 OPSPanelScene|-76|-76
 OPSPanelScene|-77|-77
+OPSPanelScene|-78|-78
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
 //OPSVideoFirst|-33|deepdive_short
 //OPSVideoFirst|-2|deepdive_short
 //OPSVideoFirst|-54|deepdive_short
-OPSVideoFirst|-68|202404ActivityPV|0|1
+OPSVideoFirst|-68|202404ActivityPV
 OPSVideoFirst|-69|202406ActivityPV
 OPSVideoFirst|-70|202407ActivityPV
 OPSVideoFirst|-71|202408ActivityPV
 OPSVideoFirst|-72|202410ActivityPV
 OPSVideoFirst|-73|ArenaBreakoutPV
 OPSVideoFirst|-74|202412ActivityPV|0|1
-OPSVideoFirst|-75|202505ActivityPV|0|1
+OPSVideoFirst|-75|202505ActivityPV
+OPSVideoFirst|-78|202509ActivityPV
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -255,6 +259,7 @@ OPSLeftBGNormalActivity|-74|202412Activity_Left
 OPSLeftBGNormalActivity|-75|202505Activity_Left
 OPSLeftBGNormalActivity|-76|202507Activity_Left
 OPSLeftBGNormalActivity|-77|202509Activity_Left
+OPSLeftBGNormalActivity|-78|202509Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -305,6 +310,7 @@ OPSNoticeNormalActivity|-74|202412Activity_Notice
 OPSNoticeNormalActivity|-75|202505Activity_Notice
 OPSNoticeNormalActivity|-76|202507Activity_Notice
 OPSNoticeNormalActivity|-77|202509Activity_Score_Notice
+OPSNoticeNormalActivity|-78|202509Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -349,6 +355,7 @@ OPSTimeNormalActivity|-74|202406Activity_Time
 OPSTimeNormalActivity|-75|Reversible_Time
 OPSTimeNormalActivity|-76|Reversible_Time
 OPSTimeNormalActivity|-77|Reversible_Time
+OPSTimeNormalActivity|-78|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -413,6 +420,8 @@ OPSGoto|202505Activity_GotoMall|0|-75
 OPSGoto|202505Activity_GotoMall|0|-76
 //25_09月兔洞
 OPSGoto|202505Activity_GotoMall|2|-77
+//25_09月活动
+OPSGoto|202505Activity_GotoMall|0|-78
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -476,6 +485,7 @@ OPSProgressNormalActivity|-73|202406Activity_Progress
 OPSProgressNormalActivity|-74|202406Activity_Progress
 OPSProgressNormalActivity|-75|Reversible_Progress
 OPSProgressNormalActivity|-76|Reversible_Progress
+OPSProgressNormalActivity|-78|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -624,6 +634,7 @@ OPSCampaignTitleButton|-74|true|202412Activity_Difficulty2Btn
 OPSCampaignTitleButton|-75|true|202505Activity_Difficulty2Btn
 OPSCampaignTitleButton|-40403|true|2023Spring_Diffculty2Btn
 OPSCampaignTitleButton|-76|true|202507Activity_Difficulty2Btn
+OPSCampaignTitleButton|-78|true|202507Activity_Difficulty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -670,8 +681,8 @@ OPSCampaignTitleButton|-76|true|202507Activity_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-62|100221|60|2023Se_MissionPanelTip|1
 //OPSCampaignTitleButtonTip|-68|100256|60|202404Acticity_Tip|1
 //OPSCampaignTitleButtonTip|-69|100261|60|202406Activity_Tip|1
-//OPSCampaignTitleButtonTip|-70|100231|60|202407Activity_Tip|1
-//OPSCampaignTitleButtonTip|-71|100235|60|202408Activity_Tip|1
+//OPSCampaignTitleButtonTip|-70|100264|60|202407Activity_Tip|1
+//OPSCampaignTitleButtonTip|-71|100267|60|202408Activity_Tip|1
 
 
 //消耗道具用
@@ -694,6 +705,7 @@ OPSShowItemDeployment|542|MirrorStageScore_DeploymentItems|11549,11549
 OPSShowItemDeploymentCheckUse|9044,9045,9046,9047|Tarot_DeploymentTarot|cfa3f295e8d781d8_draw_240619004.jpg|11659,11660,11661,11662,11663,11664,11665,11666,11667
 OPSShowItemDeploymentCheckUse|0|202412Activity_ShowItem|bdb7b32a64495bd5_draw_241219009.png|11603
 OPSShowItemDeployment|9050|202509Activity_DeploymentItems|11946
+OPSShowItemDeployment|9050|202509Activity_DeploymentItems2|11947,11948,11949,11950,11951,11952,11953,11954,11955,11956,11957,11958,11959,11960,11961,11962,11963,11964,11965
 
 
 //具体章节里的头像贴图设置-位置坐标-贴图
@@ -2365,4 +2377,46 @@ OPSCampaignDetail|-76_28|0,0|AK12_Mod3
 OPSCampaignDetail|-76_29|0,0|Kalina_Armed
 
 //202509兔洞 静默沙盘
-OPSCampaignDetail|-77_1|0,0|William
+OPSCampaignDetail|-77_1|0,0|William
+
+//202509活动 零态潮汐
+OPSCampaignDetail|-78_1|0,0|Lunasia2
+OPSCampaignDetail|-78_2|0,0|Kalina_Armed
+OPSCampaignDetail|-78_3|0,0|Ange_05
+OPSCampaignDetail|-78_4|0,0|M16A1_Boss
+OPSCampaignDetail|-78_5|0,0|Teal
+OPSCampaignDetail|-78_6|0,0|Dinergate_D
+OPSCampaignDetail|-78_7|0,0|William
+OPSCampaignDetail|-78_8|0,0|Teal
+OPSCampaignDetail|-78_9|0,0|William&Boss_Lunasia
+OPSCampaignDetail|-78_10|0,0|Ange_05
+OPSCampaignDetail|-78_11|0,0|Teal
+OPSCampaignDetail|-78_12|0,0|William
+OPSCampaignDetail|-78_13|0,0|Teal
+OPSCampaignDetail|-78_14|0,0|William&Boss_Lunasia
+OPSCampaignDetail|-78_15|0,0|Ange_05
+OPSCampaignDetail|-78_16|0,0|Teal
+OPSCampaignDetail|-78_17|0,0|William
+OPSCampaignDetail|-78_18|0,0|Teal
+OPSCampaignDetail|-78_19|0,0|William&Boss_Lunasia
+OPSCampaignDetail|-78_20|0,0|Commander
+OPSCampaignDetail|-78_21|0,0|Commander
+OPSCampaignDetail|-78_22|0,0|NPC_Havel
+OPSCampaignDetail|-78_23|0,0|Boss_Griffin
+OPSCampaignDetail|-78_24|0,0|UMP45_2
+OPSCampaignDetail|-78_25|0,0|Kalina
+OPSCampaignDetail|-78_26|0,0|Kalina_Maid
+OPSCampaignDetail|-78_27|0,0|Shadowless
+OPSCampaignDetail|-78_28|0,0|M16A1_Boss
+OPSCampaignDetail|-78_29|0,0|Nele
+OPSCampaignDetail|-78_30|0,0|Dinergate_D
+OPSCampaignDetail|-78_31|0,0|Boss_Griffin
+OPSCampaignDetail|-78_32|0,0|William
+OPSCampaignDetail|-78_33|0,0|M16A1_Boss
+OPSCampaignDetail|-78_34|0,0|TT33mod_D
+OPSCampaignDetail|-78_35|0,0|AK15&AN94mod
+OPSCampaignDetail|-78_36|0,0|Boss_Lunasia
+OPSCampaignDetail|-78_37|0,0|Boss_Lunasia_D
+OPSCampaignDetail|-78_38|0,0|Commander
+OPSCampaignDetail|-78_39|0,0|TT33mod
+OPSCampaignDetail|-78_40|0,0|William_shadow
