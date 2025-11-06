@@ -541,6 +541,7 @@ patch3071=
 "3080/FactoryTopController",
 "3071/ServerInfo",
 "3071/MallController",
+"3081/SpecialActivityController",
 }
 patch3080=
 {
@@ -569,6 +570,7 @@ patch3081=
 "3081/Probability",
 "3071/ServerInfo",
 "3071/MallController",
+"3081/SpecialActivityController",
 }
 -- va11
 print("load Va11");
