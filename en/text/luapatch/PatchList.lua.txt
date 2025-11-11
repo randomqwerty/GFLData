@@ -515,6 +515,7 @@ patch3071=
 {
 "3071/HomeEventController",
 "3071/SquadTrainingExpConfirmPanelController",
+"3071/PlayerRecallCtrl",
 "3071/RankingSPListItem",
 "3071/CommonVideoPlayer",
 "3071/VehicleStatePresetListLabel",
@@ -541,6 +542,7 @@ patch3071=
 "3080/FactoryTopController",
 "3071/ServerInfo",
 "3071/MallController",
+"3081/SpecialActivityController",
 }
 patch3080=
 {
@@ -562,13 +564,19 @@ patch3080=
 }
 patch3081=
 {
+"3070/PassOrderController",
 "3081/AVGController",
 "3081/CommonBundleConfirmBoxController",
 "3081/DeploymentController",
 "3081/DeploymentUIController",
 "3081/Probability",
 "3071/ServerInfo",
+"3081/ObtainController",
+"3081/ObtainDetailItemCtrl",
+"3081/CommonObtainMessageBoxController",
+"3081/MissionSelectionCampaignSelectButtonController",
 "3071/MallController",
+"3081/SpecialActivityController",
 }
 -- va11
 print("load Va11");
