@@ -103,6 +103,8 @@ MissionSelectionTex|missionselect_202507activity|2|-76
 MissionSelectionTex|missionselect_202509rabbit|2|-77
 //25.9月
 MissionSelectionTex|missionselect_202509activity|2|-78
+//卷积核秃洞单独配置：
+MissionSelectionTex|missionselect_202412activityExt|2|-40404
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -163,6 +165,7 @@ OPSPanelScene|-75|-75
 OPSPanelScene|-76|-76
 OPSPanelScene|-77|-77
 OPSPanelScene|-78|-78
+OPSPanelScene|-40404|-40404
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -200,6 +203,7 @@ OPSReturn|202408Activity_Return|-73
 OPSReturn|2022SummerReturn|-40402
 OPSReturn|2023Spring_Return|-40403
 OPSReturn|202412Activity_Return|-74
+OPSReturn|202412Activity_Return|-40404
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -260,6 +264,7 @@ OPSLeftBGNormalActivity|-75|202505Activity_Left
 OPSLeftBGNormalActivity|-76|202507Activity_Left
 OPSLeftBGNormalActivity|-77|202509Activity_Left
 OPSLeftBGNormalActivity|-78|202509Activity_Left
+OPSLeftBGNormalActivity|-40404|202412Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -306,7 +311,7 @@ OPSNoticeNormalActivity|-64|2024Ghost_Notice
 //OPSNoticeNormalActivity|-71|202408Activity_Notice
 //OPSNoticeNormalActivity|-72|202410Activity_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
-OPSNoticeNormalActivity|-74|202412Activity_Notice
+//OPSNoticeNormalActivity|-74|202412Activity_Notice
 OPSNoticeNormalActivity|-75|202505Activity_Notice
 OPSNoticeNormalActivity|-76|202507Activity_Notice
 OPSNoticeNormalActivity|-77|202509Activity_Score_Notice
