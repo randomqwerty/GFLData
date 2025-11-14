@@ -563,6 +563,7 @@ patch3080=
 }
 patch3081=
 {
+"3070/PassOrderController",
 "3081/AVGController",
 "3081/CommonBundleConfirmBoxController",
 "3081/DeploymentController",

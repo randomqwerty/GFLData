@@ -5,4 +5,6 @@ local mGoodLiggCallback = function(self)
 	self:GoodLiggCallback();
 	self.canClickBuybox = true;
 end
-util.hotfix_ex(CS.PassOrderController,'GoodLiggCallback',mGoodLiggCallback)
+if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw then
+	util.hotfix_ex(CS.PassOrderController,'GoodLiggCallback',mGoodLiggCallback)
+end
