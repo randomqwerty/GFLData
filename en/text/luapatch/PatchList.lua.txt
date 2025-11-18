@@ -402,6 +402,8 @@ patch3071=
 "3080/FactoryTopController",
 "3071/ServerInfo",
 "3071/MallController",
+"3071/MissionSelectionController",
+"3071/MallGoodController",
 "3081/SpecialActivityController",
 }
 patch3080=
@@ -426,6 +428,7 @@ patch3081=
 {
 "3070/PassOrderController",
 "3081/AVGController",
+"3081/IllustratedBookAchievementItemController",
 "3081/CommonBundleConfirmBoxController",
 "3081/DeploymentController",
 "3081/DeploymentUIController",
