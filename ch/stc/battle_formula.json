@@ -17592,6 +17592,22 @@
     "formula": "sbuffidtier(11040)>0?1:0"
   },
   {
+    "id": 10030,
+    "formula": "sbuffidtier(11064)=1&sbuffidtier(11065)=1?1:0"
+  },
+  {
+    "id": 10031,
+    "formula": "sbuffidtier(11067)=1&sbuffidtier(11068)=1?1:0"
+  },
+  {
+    "id": 10032,
+    "formula": "sbuffidtier(11066)>0?1:0"
+  },
+  {
+    "id": 10033,
+    "formula": "sbuffidtier(11069)>0?GetChance(30)?0:1:1"
+  },
+  {
     "id": 13280,
     "formula": "100-tbuffidtier(3560)*75"
   },
