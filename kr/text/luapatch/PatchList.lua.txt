@@ -402,6 +402,8 @@ patch3071=
 "3080/FactoryTopController",
 "3071/ServerInfo",
 "3071/MallController",
+"3071/MissionSelectionController",
+"3071/MallGoodController",
 "3081/SpecialActivityController",
 }
 patch3080=
@@ -424,6 +426,7 @@ patch3080=
 }
 patch3081=
 {
+"3081/CommonBundleIconController",
 "3070/PassOrderController",
 "3081/AVGController",
 "3081/IllustratedBookAchievementItemController",
@@ -437,6 +440,7 @@ patch3081=
 "3081/CommonObtainMessageBoxController",
 "3081/MissionSelectionCampaignSelectButtonController",
 "3071/MallController",
+"3081/WishGunEventBoxController",
 "3081/SpecialActivityController",
 }
 -- va11
