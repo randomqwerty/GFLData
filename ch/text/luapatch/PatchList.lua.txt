@@ -403,7 +403,7 @@ patch3071=
 "3071/ServerInfo",
 "3071/MallController",
 "3071/MissionSelectionController",
-"3071/MallGoodController",
+--"3071/MallGoodController",
 "3081/SpecialActivityController",
 }
 patch3080=
