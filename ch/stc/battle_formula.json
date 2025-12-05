@@ -15085,7 +15085,7 @@
   },
   {
     "id": 6515,
-    "formula": "tbuffidtier(459)>0?#def<#maxdef?#enemytype=1?$1:#enemytype=3?#life<100000?99999:$1:$1:0:$1"
+    "formula": "#def<#maxdef?#life<100000?(tbuffidtier(459)>0?#enemytype=3?99999:#enemytype=5?99999:$1:$1):$1:0"
   },
   {
     "id": 6516,
