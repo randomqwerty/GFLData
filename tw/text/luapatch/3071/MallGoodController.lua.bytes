@@ -32,6 +32,6 @@ local DoBuy = function(self)
 	end	
 	self:DoBuy();
 end
-if CS.ApplicationConfigData.PlatformChannelId == "pc" then
+if CS.ApplicationConfigData.PlatformChannelId == "pc" and CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_US then
 	util.hotfix_ex(CS.MallGoodController,'DoBuy',DoBuy)
 end

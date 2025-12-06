@@ -11,7 +11,9 @@ local PlayBgm = function()
 	CS.DeploymentController.PlayBgm()
 end
 
- 
+local CheckBattle = function()
+	CS.DeploymentController.Instance:CheckBattle();
+end
 local BuildCastSkillOnDeathHandler = function(self,data)
 	self.playBuildAnim = false;
 	local move = false;
@@ -34,11 +36,11 @@ local BuildCastSkillOnDeathHandler = function(self,data)
 				self:CheckTeamTrans();
 			end,true);
 	end
-	self:AddAndPlayPerformance(function()
-		self:CheckBattle();
-	end);
+	--print("81lua测试1")
+	self:AddAndPlayPerformance(CheckBattle);
 	self:PlayNext();
 	CS.DeploymentController.TriggerRefreshUIEvent();
+	--print("81lua测试2")
 end
 util.hotfix_ex(CS.DeploymentController,'PlayBgm',PlayBgm)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)

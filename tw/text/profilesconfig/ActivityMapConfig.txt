@@ -103,7 +103,8 @@ MissionSelectionTex|missionselect_202507activity|2|-76
 MissionSelectionTex|missionselect_202509rabbit|2|-77
 //25.9月
 MissionSelectionTex|missionselect_202509activity|2|-78
-
+//卷积核秃洞单独配置：
+MissionSelectionTex|missionselect_202412activityExt|2|-40404
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -163,6 +164,7 @@ OPSPanelScene|-75|-75
 OPSPanelScene|-76|-76
 OPSPanelScene|-77|-77
 OPSPanelScene|-78|-78
+OPSPanelScene|-40404|-40404
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -200,6 +202,7 @@ OPSReturn|202408Activity_Return|-73
 OPSReturn|2022SummerReturn|-40402
 OPSReturn|2023Spring_Return|-40403
 OPSReturn|202412Activity_Return|-74
+OPSReturn|202412Activity_Return|-40404
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -260,6 +263,7 @@ OPSLeftBGNormalActivity|-75|202505Activity_Left
 OPSLeftBGNormalActivity|-76|202507Activity_Left
 OPSLeftBGNormalActivity|-77|202509Activity_Left
 OPSLeftBGNormalActivity|-78|202509Activity_Left
+OPSLeftBGNormalActivity|-40404|202412Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -306,7 +310,7 @@ OPSNoticeNormalActivity|-64|2024Ghost_Notice
 //OPSNoticeNormalActivity|-71|202408Activity_Notice
 //OPSNoticeNormalActivity|-72|202410Activity_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
-OPSNoticeNormalActivity|-74|202412Activity_Notice
+//OPSNoticeNormalActivity|-74|202412Activity_Notice
 OPSNoticeNormalActivity|-75|202505Activity_Notice
 OPSNoticeNormalActivity|-76|202507Activity_Notice
 OPSNoticeNormalActivity|-77|202509Activity_Score_Notice
@@ -1952,8 +1956,8 @@ OPSCampaignDetail|-58_75|0,0|Punish
 OPSCampaignDetail|-58_76|0,0|Punish
 OPSCampaignDetail|-58_77|0,0|Rodelero
 OPSCampaignDetail|-58_78|0,0|Rodelero
-OPSCampaignDetail|-58_79|0,0|Sana
-OPSCampaignDetail|-58_80|0,0|Sana
+OPSCampaignDetail|-40403_1|0,0|Sana
+OPSCampaignDetail|-40403_2|0,0|Sana
 OPSCampaignDetail|-58_81|0,0|NPC_Kryuger
 OPSCampaignDetail|-58_82|0,0|NPC_Kryuger
 OPSCampaignDetail|-58_83|0,0|Nyto_mecha2_N
@@ -2307,7 +2311,7 @@ OPSCampaignDetail|-74_43|0,0|PMMod
 OPSCampaignDetail|-74_44|0,0|Nyto_Styx
 OPSCampaignDetail|-74_45|0,0|Morridow_2
 OPSCampaignDetail|-74_46|0,0|Punish
-OPSCampaignDetail|-74_47|0,0|202412activity_rabbithole_title
+OPSCampaignDetail|-40404_1|0,0|202412activity_rabbithole_title
 
 //202505活动 溯源回归
 OPSCampaignDetail|-75_1|0,0|TT33

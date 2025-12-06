@@ -21,8 +21,8 @@ local mInit = function(self,...)
 		self.textNum1.text ="A"
 		self.textNum2.text ="A"
 
-		self.textChinese1.text = CS.Data.GetLang(14)..CS.Data.GetLang(1229)
-		self.textChinese2.text = CS.Data.GetLang(14)..CS.Data.GetLang(1229)
+		self.textChinese1.text = CS.Data.GetLang(99)..CS.Data.GetLang(1229)
+		self.textChinese2.text = CS.Data.GetLang(99)..CS.Data.GetLang(1229)
 	end
 end
 local mUpdateInfo = function(self,missionSelectionController)
@@ -30,7 +30,7 @@ local mUpdateInfo = function(self,missionSelectionController)
 	if CS.MissionSelectionController.currentSelectedCampaignId==14 then
 		self.txChapterNum.text ="A"
 
-		self.txChapterName.text = CS.Data.GetLang(14)..CS.Data.GetLang(1229)
+		self.txChapterName.text = CS.Data.GetLang(99)..CS.Data.GetLang(1229)
 	end
 end
 local mShowDrawEventIcon = function(self)
