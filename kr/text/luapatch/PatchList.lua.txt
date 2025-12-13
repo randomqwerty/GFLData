@@ -405,6 +405,7 @@ patch3071=
 "3071/MissionSelectionController",
 --"3071/MallGoodController",
 "3081/SpecialActivityController",
+"3071/DeploymentBuildingController",
 }
 patch3080=
 {
