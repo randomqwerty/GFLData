@@ -1,101 +1,101 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_Moto_Run</SE1><黑屏2><BIN>480</BIN><Night>:托卡列夫看着车窗外飞速掠过的法兰克福街景，这座曾一度引发她憧憬的城市，此刻却显得如此陌生。+战争的痕迹随处可见，街道上伤痕累累，许多建筑物的墙面上都布满弹坑，有的甚至已经倒塌。
-()<Speaker></Speaker>||:原本繁忙的商业区现在空荡荡的，只有零星的行人匆匆走过。
-()<Speaker></Speaker>||:格琳娜的车驶过一座临时搭建的军事检查站，几名士兵懒洋洋地向他们挥手示意通过，从装束和素质来看，显然是临时征调的民兵部队。
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0%%range=3</controll_shake><SE1>AVG_Moto_Run</SE1><黑屏2><BIN>480</BIN><Night>:Tokarev watches the streets of Frankfurt blur past the car window. This city, once something she longed to see, feels utterly foreign now. +The traces of war are everywhere. The roads are scarred; the walls of many buildings are pockmarked with bullet holes, some have even collapsed entirely.
+()<Speaker></Speaker>||:What used to be a bustling commercial district is now empty, with only a few pedestrians hurrying through.
+()<Speaker></Speaker>||:Kalina's car passes a hastily constructed military checkpoint. A few soldiers lazily wave them through. Judging from their gear and posture, they're clearly a militia unit pressed into service at short notice.
 ()||<黑屏1>:
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||<黑屏2><BIN>730</BIN><Night>:……新苏联的驻军还在这里？
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>Rope</SE1>:格琳娜没有回答，她的双手紧握方向盘，指节泛白。
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||<黑屏2><BIN>730</BIN><Night>:...The Neo-Soviet garrison is still here?
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Kalina doesn't answer. Her hands are locked tightly on the wheel, knuckles pale.
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><BIN>159</BIN><Night><SE1>AVG_Motorcycle</SE1>:在又驶出一段距离之后，她将车子停在了一处僻静的角落，融入到法兰克福深邃的夜色中。
+()<Speaker></Speaker>||<黑屏2><BIN>159</BIN><Night><SE1>AVG_Motorcycle</SE1>:After driving a while longer, she pulls into a quiet corner, letting the car blend into Frankfurt's nightscape.
 ()||<黑屏1>:
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<BIN>730</BIN><黑屏2><Night><CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<BGM>BGM_ev2412_Yaroslavna</BGM>:……她们说指挥官死了。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker><Shake>||:……！？
-()<Speaker></Speaker>||:从离开仓库之后，始终保持着沉默的托卡列夫闻言再压抑不住。
-NPC_TT33(3)<Speaker>托卡列夫</Speaker><Shake>||:<size=50>骗人！……假的，肯定是说谎！</size>+<size=50>指挥官……指挥官怎么可能……！！</size>
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:冷静！托卡列夫！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:格琳娜攥着方向盘的手握得更紧了一些。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……我也不相信。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:但是昨晚，新闻报道了这件事。+指挥官被非法人形丹德莱挟持，驾驶军用坦克冲入白区制造恐怖袭击。+车辆在进入白区时发生爆炸，丹德莱被炸毁，而指挥官……下落不明。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:下落不明？怎么会……丹德莱又是谁！？
-NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:是M4的OGAS，抱歉，当时出于一些考虑，我们没有让她在你们面前暴露。+但……她不可能背叛指挥官，不可能背叛我们。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)||:……也就是说，新闻内容是捏造的？
-NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……我还不清楚，但肯定有奇怪的地方，比如说他们说坦克里留下了大量属于丹德莱的人形碎片。+丹德莱小姐……的身体很特别，如果留下了“碎片”……恐怕不会被认为属于人形。+我今天早上刚知道这个消息，就马不停蹄从新苏联赶过来……+连出院手续都是赫丽安小姐帮我办理的。
-NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:结果等我赶到，就看到这些莫名其妙的情况……+……指挥官莫名其妙地不见了，你们也全都被什么莫名其妙的协议关机，甚至断开了格里芬的权限……
-NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:政府明明根本拿不出尸体或任何证据，却直接宣布指挥官死亡，停止了调查。+连克鲁格先生也不愿告诉我任何事……他甚至都不同意跟我见面！
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:肯定……肯定有什么事在瞒着我……
-()<Speaker></Speaker>||:格琳娜的声音已经带上了崩溃的哭腔。+托卡列夫此时才意识到，格琳娜究竟是面临着怎样的绝望和走投无路，才会选择铤而走险，非法将自己重新启动。
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<BIN>730</BIN><黑屏2><Night><CGDelay>0.5</CGDelay><BGM>BGM_Empty</BGM>:
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<BGM>BGM_ev2412_Yaroslavna</BGM>:...They say the Commander is dead.
+NPC_TT33(2)<Speaker>Tokarev</Speaker><Shake>||:...?!
+()<Speaker></Speaker>||:Tokarev, who has been silent ever since they left the warehouse, can no longer hold herself back.
+NPC_TT33(3)<Speaker>Tokarev</Speaker><Shake>||:<size=50>Impossible! ...They're lying! This has to be a lie!</size> +<size=50>The Commander... How could the Commander possibly...?!</size>
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Calm down, Tokarev!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Kalina grips the steering wheel even harder.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:…I don't believe it either.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:But the news reported it last night. +They said the Commander was taken hostage by the rogue Doll Dandelion and forced to drive a military tank into the White Zone to carry out a terror attack. +The vehicle exploded upon entering the zone. Dandelion was destroyed, and the Commander... is missing.
+NPC_TT33(2)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:Missing? How...? And who even is Dandelion?!
+NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:M4's OGAS. I'm sorry, we kept her identity hidden from you for various reasons. +But... she would never betray the Commander. She would never betray us.
+NPC_TT33(2)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)||:...So the news is fabricated?
+NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...I don't know yet, but something is definitely off. For example, they claimed the tank was full of Doll fragments belonging to Dandelion. +But Miss Dandelion's body is... special. If she left behind "fragments", they wouldn't be mistaken for standard Doll parts. +The moment I learned about this early this morning, I rushed here non-stop from the Neo-Soviet Union... +I was in such a hurry Helian even had to handle my discharge papers for me.
+NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:When I arrived, I was confronted with this unfathomable situation... +The Commander vanished without a trace, all of you got put into a forced shutdown by some absurd protocol and even had your Griffin authorizations revoked...
+NPC_TT33(2);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:The government has no corpse, no evidence, nothing... yet they announced the Commander's death and terminated the investigation. +Even Mr. Kryuger refuses to tell me anything. He won't even meet with me!
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Something is being hidden from me. I'm sure of it...
+()<Speaker></Speaker>||:Kalina's voice breaks into a desperate, trembling sob. +Only now does Tokarev fully realize how cornered and helpless Kalina must have been, to resort to illegally reactivating her.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……所以，所以我才找到你，托卡列夫。+只有你能回答我了，昨天……到底发生了什么？+指挥官……这段时间，到底发生了什么？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:……托卡列夫闭上了眼。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……我从头跟您说起吧。
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...So I came to you, Tokarev. +You're the only one who can tell me... what on earth really happened yesterday. +And what happened to the Commander... these past days.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:...Tokarev closes her eyes.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:...Let me start from the beginning.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><CGDelay>0.5</CGDelay>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>730</BIN><Night><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3><SE1>AVG_Punch_Hit</SE1>:嘭！
-()<Speaker></Speaker>||:格琳娜用力地砸了一下方向盘。+车笛尖锐地鸣叫，惊起了被腐烂气息吸引而来的鸦雀。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:他们怎么可以这样！
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:格琳娜小姐……冷静！
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我要怎么冷静！？他们……他们居然……
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜深呼吸了一口气，平复起伏不定的胸脯。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……早知道是这样，就算是勉强，我也要跟着指挥官一起过来。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……这不是您缺席导致的结果。+就算您在场，我认为也很难改变结果。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:但是……
-()<Speaker></Speaker>||:格琳娜咬着嘴唇。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……指挥官肯定很需要有人支持……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜背靠在了座椅上，双手捂着脸，又深吸了一口气，身体颓然地陷了下去。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:在我住院的时候，居然发生了这么多事……安洁小姐居然会……这也是假的吧？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……+……我并不知道细节，但安洁小姐恐怕是真的……
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……
-()<Speaker></Speaker>||:格琳娜侧过了脸，似乎有意在回避托卡列夫的视线，但托卡列夫依然听见了抽噎的声音。
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:没办法……之前的事，你应该也只知道这么多，但是，我必须要搞明白，昨天呢？+昨天到底发生了什么？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:详细的我也不清楚，毕竟指挥官的战略会议，我并没有参与的权利。+但在协议启动之前……也就是前天，指挥官和一些大人物进行了通话，之后便召集了我们，宣告了协议启动。+为了阻止指挥官接下来的行动，IOP将在12小时内，逐步收回指挥官拥有的所有IOP人形的指挥权限。
-NPC_TT33(1);NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:行动……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:铲除帕拉蒂斯，铲除威廉。
-NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……+……之后呢？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:指挥官尊重了我们的意见，让我们自己决定去留。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:我们无一怯战。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:随后，我们跟随指挥官，协助着一路从艾莫号攻入了白区……应该。
-NPC_TT33(1);NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……应该？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(4)<Position>0,-90</Position>||:哈维尔先生的“宽容”，协议生效的时间是12小时，且“由弱及强”，为指挥官保留了最后一战的资本和可能性。+……非常抱歉，我的实力显然在格里芬并不算优秀，所以，在进入白区之前，我就已经失去意识了。+再睁眼，就是您的脸。
-NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
-NPC_TT33(1);NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:也就是说……你也不清楚进入白区之后，以及指挥官“失踪”时发生了什么事？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:非常抱歉。
-()<Speaker></Speaker>||:格琳娜陷入了沉默，仿佛最后一丝希望也被浇灭了。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:非常抱歉，格琳娜小姐。
-()<Speaker></Speaker>||:格琳娜的声音变得苦涩而空洞。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:不，不是你的错。+我只是……以为……至少能找到一个知情人。+结果……结果我还是连指挥官到底是生是死都无法确认。
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我才不在几天……就什么都变了。+我应该在的，我应该和指挥官一起面对这一切的。+哪怕……哪怕是死，我也该和指挥官在一起……
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:格琳娜小姐，您不能这样想。+如果您当时在场，军方很可能会限制您的行动，甚至将您拘留。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:反而是现在，您成了唯一能够自由行动、能够寻找真相的人。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:而且，我虽然不知道白区内的具体情况，但有一点——+如果真有爆炸，官方不论如何都会有现场调查和遗体处理记录。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:即使是最猛烈的爆炸，也应该留下DNA痕迹或其他可识别的残骸。+但官方却既拿不出遗体，也拒绝提供任何确凿证据。
-NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:你……你说得对。
-NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我们得找到证据，托卡列夫。+不管是证明指挥官死了，还是证明指挥官还活着——我都要亲眼见到真相。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:我们应该先查看现场。+官方肯定已经调查并清扫过，但总会留下些蛛丝马迹。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:而且……
-NPC_TT33(2)<Speaker>托卡列夫</Speaker><Shake>||<SE1>AVG_whitenoise</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM>:咕！
-()<Speaker></Speaker>||<BGM>BGM_AuguriesofInnocence</BGM>:就在托卡列夫专注于分析的时候，她的系统突然出现了一阵波动，视觉模块也出现了诡异的花屏。
-()<Speaker>？？？</Speaker>||:……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_whitenoise</SE1>:剧烈的疼痛如电流般穿过她的核心，让她忍不住弯下腰，双手抱住头部。
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Horn_Car</SE1><震屏3><SE1>AVG_Punch_Hit</SE1>:Bam!
+()<Speaker></Speaker>||:Kalina slams her fist against the steering wheel. +The horn blares sharply, startling a flock of crows drawn by the scent of decay.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:How could they do this?!
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Miss Kalina... please calm down!
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:How am I supposed to calm down?! They... they actually...!
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina forces a deep breath to steady her heaving chest.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...If I had known... even if I could barely stand, I would've gone with the Commander.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:...Your absence was not to blame for this outcome. +Even if you were here, I doubt it would have changed anything.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:But...
+()<Speaker></Speaker>||:Kalina bites her lip.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...The Commander must have needed someone at their side...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She slumps back into the seat, covering her face with both hands, feeling utterly defeated.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:So much happened while I was in the hospital... Miss Ange... even she... That can't be true either, right?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:... +...I don't know the details, but I'm afraid that part about Miss Ange is very much true...
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...
+()<Speaker></Speaker>||:Kalina turns her face away, maybe to hide her expression, but Tokarev still hears the quiet sobs.
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:I know... this is probably all you know about what happened earlier. But I need to figure out—what about yesterday? +What happened yesterday?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:I don't know all the details as I wasn't allowed to take part in the Commander's strategic meeting. +But before the protocol activated—meaning the day before yesterday—the Commander received a call from some important figure. After that, they summoned us and informed us about the protocol. +To prevent the Commander from carrying out their next operation, IOP would gradually revoke their command authority over all IOP Dolls within the following twelve hours.
+NPC_TT33(1);NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Operation...?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:To eliminate Paradeus and William.
+NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:... +...And then?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:The Commander let us decide whether to stay or leave.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:None of us backed down.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:After that, we followed the Commander and fought our way from the Elmo into the White Zone... or at least, we should have.
+NPC_TT33(1);NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:..."Should have"?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(4)<Position>0,-90</Position>||:In one final "charitable gesture", Mr. Havier staggered the activation of the protocol across 12 hours, with its effect spreading from the weakest Dolls to the strongest, giving the Commander strength for one final battle. +...I'm sorry, but I'm not one of Griffin's stronger Dolls. Before we even entered the White Zone, I lost consciousness. +And when I opened my eyes again... it was your face I saw.
+NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
+NPC_TT33(1);NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:In other words, you also don't know what happened inside the White Zone, or what happened when the Commander "disappeared"?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:...I'm very sorry.
+()<Speaker></Speaker>||:Kalina falls silent, as if the last glimmer of hope has been snuffed out.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:I'm so sorry, Miss Kalina.
+()<Speaker></Speaker>||:Kalina's voice sounds bitter and hollow.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:No... it's not your fault. +I just... Thought... I'd at least find someone who knew something. +But in the end... I can't even confirm whether the Commander is alive or dead.
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:I was gone for only a few days... and everything's changed. +I should've been there. I should've faced it all with the Commander. +Even... even if it meant dying, I should've been with them...
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:Miss Kalina, please don't say that. +If you had been there, the Military likely would have restricted your movement—or detained you entirely.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:Right now, you're the only one still free to seek the truth.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:Besides, even if I don't know what happened in the White Zone, we do have a lead— +If there really was an explosion, there would have been records of a formal investigation and body recovery.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(1)<Position>0,-90</Position>||:Even the fiercest blasts leave DNA traces or identifiable remains. +But the authorities have no body and refuse to provide evidence.
+NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:You... you're right.
+NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:We need to find proof, Tokarev. +Whether it proves the Commander is dead, or that they're alive—I need to see the truth for myself.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:We should inspect the site. +The authorities must have already investigated and cleaned up, but there will always be traces left behind.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Not to mention...
+NPC_TT33(2)<Speaker>Tokarev</Speaker><Shake>||<SE1>AVG_whitenoise</SE1><BIN>9</BIN><BGM>BGM_Empty</BGM>:Grrrrk!
+()<Speaker></Speaker>||<BGM>BGM_AuguriesofInnocence</BGM>:Tokarev's system suddenly wavers. Her visual module distorts into static.
+()<Speaker>???</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><SE1>AVG_whitenoise</SE1>:A sharp current of pain shoots through her core, forcing her to double over, clutching her head.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>730</BIN><Night><CGDelay>0.5</CGDelay>:
-NPC_TT33(3)<Speaker>托卡列夫</Speaker><Shake>||:呃……！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫？怎么了？！
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜迅速解开安全带，伸手扶住摇摇欲坠的托卡列夫。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫！
-NPC_TT33(3)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
-NPC_TT33(3)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:我……我没事，格琳娜小姐。+只是……系统中出现了一些奇怪的数据碎片。+可能是强制宕机的副作用。
-NPC_TT33(3);NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:你确定吗？如果是严重的系统故障，我们应该先找个地方给你做诊断。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……不必担心，已经没事了。+很快就会恢复正常。
-()<Speaker></Speaker>||:她直视格琳娜的眼睛，语气坚决。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:我……我也想知道指挥官到底发生了什么。+其他事情都可以等，这件事……对我，对您，都是分秒必争。
-()<Speaker></Speaker>||:格琳娜犹豫了一下，但看到托卡列夫决心已定的样子，最终点了点头。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:好吧。但如果情况恶化，你必须马上告诉我。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:我保证，格琳娜小姐。
+NPC_TT33(3)<Speaker>Tokarev</Speaker><Shake>||:Ugh...!
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Tokarev?! What's wrong?!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina unbuckles herself immediately and reaches out to steady the collapsing Doll.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Tokarev!
+NPC_TT33(3)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||<CGDelay>0.5</CGDelay>:
+NPC_TT33(3)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:I... I'm fine, Miss Kalina. +It's just... some strange data fragments appearing in my system. +Probably a side effect of the forced shutdown.
+NPC_TT33(3);NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Are you sure? If it's a serious system error, we should find somewhere to run diagnostics first.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:...Don't worry. It's already fading. +I'll recover soon.
+()<Speaker></Speaker>||:She looks Kalina straight in the eyes, her voice firm.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:I... I want to know what happened to the Commander too. +Everything else can wait. For both of us... every second counts when it comes to this.
+()<Speaker></Speaker>||:Kalina hesitates, but seeing Tokarev's resolve, she finally nods.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...Alright. But if your condition gets worse, you tell me immediately.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:I promise, Miss Kalina.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()||<黑点1>:
+()||<黑点1>:

@@ -1,56 +1,56 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_NightVision_Start</SE1><睁眼><BGM>BGM_ev2412_Yaroslavna</BGM><BIN>685</BIN>:
-()<Speaker></Speaker>||:托卡列夫的视觉系统缓慢重启，模糊的光点逐渐汇聚成清晰的画面。+她发现自己正躺在艾莫号指挥室的角落，身上盖着一条略显陈旧的毛毯。舱内的照明只开了应急灯，昏黄的光线让整个空间显得格外安静。
-()<Speaker></Speaker>||:不远处，格琳娜的背影出现在主控台前。指挥室的电脑屏幕散发着幽蓝的光芒，照亮了她疲惫却专注的面容。
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:格琳娜的手指在键盘上快速移动，专心致志地浏览着什么。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫尝试坐起身，关节处传来轻微的机械摩擦声。格琳娜立刻转过头，看到托卡列夫醒来，立即放下手中的工作，快步走了过来。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:你醒了！感觉怎么样？系统运行正常吗？
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:报告，系统运行正常……+只是还有些……迟滞。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:托卡列夫坐直身体，手部关节发出轻微的咔嗒声，她轻轻活动了一下手臂，确认各项机能恢复正常。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜在她身旁蹲下，脸上写满了担忧和歉意。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫，真的非常抱歉。+我不该那么鲁莽地启动你……+心智紊乱的情况又出现了对吧？这都是我的错。
-()<Speaker></Speaker>||:托卡列夫注视着格琳娜疲惫的面容，轻轻摇了摇头。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:不，格琳娜小姐，这与您的做法无关。+类似的情况在指挥官行动前就已经出现过了。+请不要自责。+我……很好。
-()<Speaker></Speaker>||:格琳娜松了口气，但眼中的担忧并未完全消散。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她伸手拨开托卡列夫额前的几缕头发，像照顾一个病中的孩子。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:如果再出现异常，一定要告诉我。+我们可以返回城里，找专业维修人员检查。
-()<Speaker></Speaker>||:托卡列夫的目光扫过指挥室，注意到各处控制台上闪烁的指示灯和运行中的屏幕。这与他们离开时艾莫号完全断电的状态明显不同。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:艾莫号的电源……我记得已经被切断了。+您是怎么重新启动系统的？
-()<Speaker></Speaker>||:格琳娜的脸上露出一丝得意的微笑，仿佛暂时忘记了疲惫。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:啊，这个嘛。+虽然主电源被远程切断了，但我检查了主控系统，发现艾莫号有紧急情况下的独立备用电源。+只要绕过远程权限，就能重新激活基本系统。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她骄傲地扬起下巴，眼中闪烁着狡黠的光芒。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:别忘了，我可是格里芬的后勤官。+这些系统，我比任何人都熟悉！
-()<Speaker></Speaker>||:托卡列夫点点头，不禁对格琳娜的能力感到赞叹。即使在这种境况下，格琳娜依然保持着令人惊讶的专业能力。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:真不愧是格琳娜小姐……+话说回来，我晕倒了多久？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳娜看了看手表。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:大约四小时。+当时你突然倒下，我真的吓坏了……+好在艾莫号有简易的人形诊断设备，我确认了你只是心智暂时过载，便让你自然休眠。
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:……四小时。+时间不多了，我们需要尽快——
-()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:格琳娜突然拉住托卡列夫的手，脸上绽放出兴奋的笑容，打断了她的话。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫！我有发现！+在你休眠的这段时间，我查阅了艾莫号的内部系统日志！
-()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_ev2408_StungtotheMorrow</BGM>:她拉着托卡列夫快步走向主控台，指向屏幕上闪烁的数据流。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:看这里——系统日志显示在我们到达之前，艾莫号的系统曾经被激活过！+而且不只是一次！
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:什么时候？
-()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:格琳娜敲击几下键盘，调出更详细的记录。
-NPC_Kalina_OL(3)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:最后一次是在昨天凌晨，也就是爆炸事件发生的几小时后。+有人绕过了主电源切断，启动了备用系统，访问了艾莫号的主数据库。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:能确定是谁吗？
-()<Speaker></Speaker>||:格琳娜摇摇头，眉头紧锁。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:访问记录被清除了，几乎没留下任何痕迹。+来访者非常熟悉艾莫号的系统架构。
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:她调出另一个屏幕，上面显示着一系列被访问过的文件目录。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:她没有删除或修改任何内容，似乎只是……在寻找什么。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……这会跟指挥官的“死亡”有关吗？
-()<Speaker></Speaker>||:格琳娜咬着嘴唇，若有所思。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:肯定有关系。+这个人可能是在寻找指挥官，或者……+确认指挥官是否留下了什么线索。+但我无法确定他们的身份或目的。+只能肯定，他们对艾莫号和指挥官都非常了解。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:这个人可能是军方的某人，或者IOP内部人员？
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:也可能是格里芬的同僚……甚至——
-()<Speaker></Speaker>||:她突然停下，眼睛微微睁大。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:甚至可能是指挥官本人！
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:假如指挥官根本没死，而是在爆炸后设法逃脱，又不想让人找到自己。+那第一件事就是销毁或者保护可能暴露指挥官行踪的信息！
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:但如果真是这样，为什么只清除访问记录？+而没有删掉任何信息？好像……起不到隐藏行踪的作用。+只会暴露指挥官曾经回来过这里。
-()<Speaker></Speaker>||:格琳娜的兴奋稍微冷却了一些。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……你说得对，是我太想当然了。
-()<Speaker></Speaker>||:两人陷入短暂的沉默。+半晌，格琳娜率先打破沉默。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……无论如何，我们都得继续调查下去。+我们要去白区，去调查爆炸现场……这才是找到指挥官的关键。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……是的。+但白区的安全检查会是个问题。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<SE1>ClothingUp</SE1>:那就去面对这个问题吧。+整备好你的武器和弹药，我们出发。
+()<Speaker></Speaker>||:Tokarev's visual module slowly reboots, the scattered blur of lights gathering bit by bit into a clear image. +She finds herself lying in the corner of the Elmo's ops room, a slightly worn blanket draped over her. Only the emergency lights are on inside the cabin, their dim amber glow making the whole space feel unusually quiet.
+()<Speaker></Speaker>||:Not far away, Kalina's silhouette sits before the main console. The monitors cast a ghostly blue light across her tired but focused face.
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:Her fingers dance rapidly across the keyboard. She seems completely absorbed in whatever she's looking through.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Tokarev tries to sit up. A faint mechanical scrape comes from her joints. Kalina instantly turns her head and, seeing Tokarev awake, drops everything she's doing and hurries over.
+NPC_Kalina_OL(3)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:You're awake! How do you feel? Is your system running normally?
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:System is functioning normally... +Just still a little... sluggish.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:Tokarev straightens herself. Her finger joints click softly as she flexes her arms, confirming all functions have returned.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina crouches beside her, worry and guilt written all over her face.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Tokarev, I'm really, really sorry. +I shouldn't have reactivated you so recklessly... +The neural cloud malfunction struck again, didn't it? This is all my fault.
+()<Speaker></Speaker>||:Tokarev studies Kalina's exhausted expression and gently shakes her head.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:No, Miss Kalina, this isn't because of anything you did. +A similar issue already occurred even before the Commander's operation. +Please don't blame yourself. +I... am fine.
+()<Speaker></Speaker>||:Kalina exhales in relief, though the worry in her eyes doesn't fully fade.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She reaches out and brushes aside a few loose strands of hair from Tokarev's forehead, like tending to a sick child.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:If anything feels off again, you must tell me. +We can go back to the city and have a professional technician look at you.
+()<Speaker></Speaker>||:Tokarev glances around the ops room, taking in the blinking indicators across the control panels and the active screens. This is a completely different sight from the Elmo's powered-down state when they left it.
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:I remember... they cut the power to the Elmo. +How did you restart the system?
+()<Speaker></Speaker>||:A hint of smug pride lifts Kalina's expression. She seems to forget her fatigue for a moment.
+NPC_Kalina_OL(3)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Ah, well. +Even though the main power was cut remotely, I checked the main control system and found that the Elmo has an independent emergency backup. +As long as you bypass the remote lockouts, you can bring the basic systems online again.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She tilts her chin up proudly, eyes sparkling with mischief.
+NPC_Kalina_OL(3)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Don't forget, I'm Griffin's Logistics Officer. +I know these systems better than anyone!
+()<Speaker></Speaker>||:Tokarev nods, genuinely impressed. Even in a situation like this, Kalina never fails to demonstrate an astounding level of professional competence.
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:You really do live up to your reputation, Miss Kalina... +By the way, how long was I out?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina checks her watch.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:About four hours. +When you suddenly collapsed, I was terrified... +Luckily the Elmo has simple Doll diagnostic tools. Once I confirmed it was just temporary neural cloud overload, I let you sleep it off.
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:...Four hours. +Then time is running short. We need to—
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:Before she can finish, Kalina grabs Tokarev's hand with sudden excitement, cutting her off.
+NPC_Kalina_OL(3)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Tokarev! I'm onto something! +While you were resting, I reviewed the Elmo's internal system logs!
+()<Speaker></Speaker>||<SE1>Rope</SE1><BGM>BGM_ev2408_StungtotheMorrow</BGM>:She pulls Tokarev toward the main console, pointing at the stream of data flickering past the screens.
+NPC_Kalina_OL(3)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Look—according to the logs, the Elmo's system was activated before we arrived! +And not just once!
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:When?
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Click_Keyboard</SE1>:Kalina taps the keyboard, bringing up a more detailed report.
+NPC_Kalina_OL(3)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:The most recent activation was early yesterday morning, just a few hours after the explosion. +Someone bypassed the main power cutoff, activated the backup system, and accessed the Elmo's main database.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Can you determine who it was?
+()<Speaker></Speaker>||:Kalina shakes her head with a frown.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:The access logs were wiped—almost nothing remains. +Whoever did it knows the Elmo's architecture extremely well.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:She opens another window showing a list of directories that were accessed.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:They didn't delete or modify anything. They seemed to be... searching for something.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:...Do you think this could be related to the Commander's "death"?
+()<Speaker></Speaker>||:Kalina bites her lip while she mulls this over.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:I bet it is. +This person was probably looking for the Commander—or... +Checking to see whether the Commander had left anything behind. +But I can't determine who they are or what their intentions were. +All I know is they understand both the Elmo and the Commander very well.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:They could be from the Military... or someone inside IOP?
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Could even be someone from Griffin... or—
+()<Speaker></Speaker>||:She pauses abruptly, eyes widening.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Or it could be the Commander themself!
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:If the Commander didn't actually die, but managed to escape after the explosion and didn't want to be found... +The first thing they'd do is destroy or secure anything that could reveal their location!
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:But if that's the case, why only erase the access logs? +Why not delete the data? That wouldn't hide their trail at all... +It would only expose the fact that the Commander came back here.
+()<Speaker></Speaker>||:Kalina's excitement dims a little.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...You're right. I'm getting ahead of myself.
+()<Speaker></Speaker>||:They fall into a brief silence. +Kalina is the first to break it.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...Regardless, we need to keep investigating. +We're heading to the White Zone to examine the blast site. That's the real key to finding the Commander.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:...Yes. +But the White Zone's security checks will be a problem.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<SE1>ClothingUp</SE1>:Then we'll just have to deal with it. +Prep your weapon and ammunition. We're moving out.
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
-()||<黑点1>:
+()||<黑点1>:

@@ -1,175 +1,175 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:不知道过了多久，也许是十分钟，也许只有两分钟。总之，当格琳被托卡列夫推进这扇门之后，她的耳鸣渐渐减弱。+她愕然地看向门后，然而那里已经什么也看不见了。偶有子弹的声音打在门上，传来不疼不痒的声响。
-()<Speaker></Speaker>||:这扇门之后，一切都安然无恙，她被这扇门保护得很好，只要站在这扇门前，就不会存在真正的危险。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:那这扇门外面呢？大家会变得怎么样？会被拉去重置心智？还是就地销毁？格琳不知道，她不敢继续思考。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||<回忆>:只要见到指挥官，一切问题都会迎刃而解，所有事情都会水落石出。+只要，见到指挥官。
-()<Speaker></Speaker>||<关闭蒙版>:茫然的乱象当中，她想起在那扇门关紧的最后，托卡列夫的嘴唇翕动着。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……+现在不是消沉的时候，我……我得代替大家，见到指挥官才行……+不然，一切都……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_23S_Crossroads_Warrior</BGM>:说罢，格琳强撑着身体，从地面上爬了起来。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||<SE1>ClothingUp</SE1>:唔……
-()<Speaker></Speaker>||:一阵晕眩的感觉随之而来，她差点又跌倒在地。+这也不奇怪，她这两天几乎没有合过眼，再叠加长途奔波，能站起来已经是奇迹了。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:唔……这都不重要……+指、指挥官……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳辨认了一下方向，身后再度传来爆炸声和交火声。她强忍着，没有扭过头去看。+她的目标就在前方。
+()<Speaker></Speaker>||:After who knows how long—maybe ten minutes, maybe only two... In any case, after Kalina is shoved through the door by Tokarev, the ringing in her ears gradually fades. +She turns back in a daze, but there is nothing left to see beyond the door. From time to time, bullets strike the metal surface, producing dull, harmless thuds.
+()<Speaker></Speaker>||:On this side of the door, everything is safe. The door shields her perfectly. So long as she remains here, there is no real danger.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:But what about outside the door? What will happen to everyone else? Will they be dragged away for a neural cloud reset? Or destroyed on the spot? Kalina doesn't know. She doesn't dare pursue that train of thought.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||<回忆>:As long as she can see the Commander, everything will fall into place. Every question will be answered. +As long as... she can see the Commander.
+()<Speaker></Speaker>||<关闭蒙版>:Amid the chaos swirling in her mind, she recalls the last moment before the door shut—Tokarev's lips moving silently.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:... +Now isn't the time to fall apart. I... I have to reach the Commander for everyone's sake... +Otherwise, everything will be...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_23S_Crossroads_Warrior</BGM>:With that thought, Kalina forces herself up from the ground.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position><Shake>||<SE1>ClothingUp</SE1>:Ugh...
+()<Speaker></Speaker>||:A wave of dizziness washes over her, and she nearly collapses again. +That's hardly surprising—she has barely slept these past two days, on top of relentless travel. The fact that she can still stand at all is a miracle.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Ugh... none of that matters... +C-Commander...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She checks her bearings. Explosions and gunfire erupt again behind her. She grits her teeth and refuses to look back. +Her goal is straight ahead.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>RunStep</SE1><黑点2><BIN>481</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:道路越来越狭窄，格琳沿着既定路线奔跑，走廊里回响起鞋跟踏地的声音。
-()<Speaker></Speaker>||<SE1>Rope</SE1>:她踉跄着冲过水泥通道，鞋底碾过碎石时脚踝猛地一扭。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||:嘶—
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:膝盖重重磕在渗水的墙面上，格琳失去平衡跌倒在地——她痛得差点昏迷过去。+不过，她很快听见身后有什么东西有垂垂欲坠的声音。
-()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:于是格琳集中精神全力侧滚。
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE1>AVG_lifttable</SE1>:轰！
-()<Speaker></Speaker>||:巨大的声音从左耳旁响起，她回头看去，发现那是从天花板的钢筋混凝土结构当中脱落的巨大石块。+看样子是自然老化所致，这所民防设施比她想象中还要老旧。
-()<Speaker></Speaker>||:回过神来，格琳的后背早已被冷汗浸透。
-()<Speaker></Speaker>||:尽管她躲过了混凝土石块，但翻身期间，她的耳垂和脸颊被地面上的尖锐凸起划伤，鲜血汩汩流下，滴在手里，摔坠成殷红的血花。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:左肩撞上钢筋时，布料撕裂的声响太清晰。+血腥味从喉间涌了上来，她低头吐出一口带血丝的唾沫。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:没时间了。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳擦了擦嘴，拖着残躯继续前行。
+()<Speaker></Speaker>||:The passage grows narrower. Kalina runs along the designated route, her heels striking the floor, the sound echoing down the corridor.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:She staggers through a concrete tunnel, her foot crushing loose gravel—and suddenly her ankle twists sharply.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position><Shake>||:Oww...
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Punch</SE1>:Her knee slams into a damp wall. She loses her balance and crashes to the ground, pain nearly knocking her unconscious. +But then she hears something behind her—an ominous, crumbling sound, as if something is about to give way.
+()<Speaker></Speaker>||<震屏3><SE1>AVG_Cloak_Whoosh</SE1>:Kalina puts all her concentration on rolling aside.
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=3</controll_shake><SE1>AVG_lifttable</SE1>:Boom!
+()<Speaker></Speaker>||:A deafening crash erupts beside her left ear. She looks back to see a massive chunk of reinforced concrete torn free from the ceiling. +It looks like simple age-related decay—this civil defense facility is even older than she imagined.
+()<Speaker></Speaker>||:By the time she regains her senses, her back is soaked in cold sweat.
+()<Speaker></Speaker>||:She managed to avoid the falling concrete, but during the roll, sharp protrusions in the ground have sliced her earlobe and cheek. Blood gushes out, pooling in her palm before splattering into dark red blossoms on the floor.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:And when her left shoulder slammed into a piece of exposed rebar, the sound of fabric tearing was painfully clear. +A metallic taste rises in her throat, and she spits out a gob of blood.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:She's running out of time.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina wipes her mouth and drags her battered body forward.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>481</BIN><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||:格琳喘着粗气，她被拦在一处金属门面前。+面对着着那扇和外面那道几无差别的安全门，她头一次产生出一股脱力的感觉。
-()<Speaker></Speaker>||:这是最后了吗？这应该是最后了吧！
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:就算一切不是谎言，这问题也棘手得过分了……
-()<Speaker></Speaker>||:尽管嘴上说着如此，但格琳还是靠近了那道安全门。+与外面的数字门禁锁不同，这扇安全门的门锁，是一道实打实的机械密码锁。+在门锁旁边，有一个内凿的凹槽里面镶嵌着一个数字辉光管，上面赫然标注着数字“5”。
-()<Speaker></Speaker>||:显然，留给格琳娜操作的机会的只有5次。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:密码锁……真是坏心眼……如果我是坏人，直接用枪不就解决了吗……
-()<Speaker></Speaker>||:实际上格琳娜此时的确还携带着一把便携式手枪，但面对这堵厚重的安全门，似乎的确起不到什么效果。+尽管这工程已经废弃多年，但可见当年他们建造这里时的决心。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官……会用什么密码呢？
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:密码的位数，似乎刚好符合一个日期。+格琳娜思索片刻，上前输入了指挥官的生日……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:门锁没有应声启动，辉光管闪烁一瞬，跳成一个残酷的4……
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:我在干什么啊……又不是电脑的开机密码……
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:格琳顶住压力，大脑飞速运转，思考了一会，又输入了自己的生日——
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:数字跳到了3。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position><Shake>||:<size=50>啊啊啊我是白痴吗！！</size>+可恶……
-()<Speaker></Speaker>||:联合演习的日子？指挥官的人生几乎是在那一刻改变的……
+()<Speaker></Speaker>||:Panting heavily, she is stopped by another metal door. +Staring at the security door—nearly identical to the one outside—she feels true exhaustion for the first time.
+()<Speaker></Speaker>||:Is this the last obstacle? This has to be the last, right?
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Even if none of this is a lie, the Commander is still making this unnecessarily difficult...
+()<Speaker></Speaker>||:Despite her grumbling, Kalina steps closer. +Unlike the electronic lock outside, this door uses a solid mechanical combination lock. +Beside it, a recessed slot holds a glowing numerical tube, clearly displaying the number "5".
+()<Speaker></Speaker>||:The message is clear. Five chances. That's all she gets.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:A combination lock... How spiteful. If I were a bad guy, I'd just shoot it...
+()<Speaker></Speaker>||:She is still carrying a compact pistol, but against such a heavy security door, it would do nothing. +Even after decades of abandonment, the determination behind its construction is obvious.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:What password would the Commander use?
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:The number of digits... it looks just like a date. +After a moment's thought, Kalina enters the Commander's birthday...
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:The lock does not yield. The tube flickers once, then coldly changes to 4.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:What am I doing...? This isn't a computer login...
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:Clenching her teeth, she forces her mind to work faster and enters her own birthday.
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:The tube now reads "3".
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position><Shake>||:<size=50>Arghhh! I'm such an idiot!!</size> +Dammit...
+()<Speaker></Speaker>||:The day of the joint exercise? That moment changed the Commander's life forever...
 ()<Speaker></Speaker>||<CGDelay>0.7</CGDelay><SE1>AVG_keyboardtype_sci</SE1>:
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:辉光管的数字跳到了2
-()<Speaker></Speaker>||:她还只剩下两次机会——
-()<Speaker></Speaker>||:这也不对……那会是什么？
-()<Speaker></Speaker>||:对指挥官有意义的日期，是什么？……又或者，她的思路一开始就错了，密码不是某个日期，而是别的什么东西？+格琳的脑中一片乱麻，她的手指正在发抖，她想要努力控制自己，但却抖如筛糠。
-()<Speaker></Speaker>||:她止不住地胡思乱想，脑海里满是托卡列夫最后的笑容。
-()<Speaker></Speaker>||:脑海里又在回荡着C14她们接连倒下的声音，以及那红色的警报声音，还有流弹击中人形躯干的声音……+如果自己再输错，那些人的牺牲是不是都没意义？自己一路以来所付出的努力是不是都没意义？
-()<Speaker></Speaker>||:指挥官真的还存在于这个世界上吗？如果不是，那指挥官去了哪里，为什么迟迟没有消息？
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:如果是，人又在哪里？是否安然无恙？在战斗的最后到底见到了什么？+以及，指挥官为什么不出现？+不得而知，格琳完全不得而知……
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<BGM>BGM_Empty</BGM>:别开玩笑了……
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||<SE1>AVG_Door_Hit</SE1><震屏3>:<size=50>喂！！指挥官！！你听得见吗！！指挥官！！</size>
-()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:格琳娜用力地捶打着安全门，嘶哑的声音里也带上了一丝哭腔。+然而厚重的大门只是抖落了些许灰尘，甚至都没有发出预想中的巨响。
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:明明就在眼前了……再耽搁的话……要是指挥官已经从别的出口……
-()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:紧接着，格琳亲眼见到那个辉光管的数字，从2跳到了1……
-()<Speaker></Speaker>||:然而自己什么也没有操作！
-()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:她的心扑通扑通地跳动着，大脑血液正在疯狂倒流——+格琳强行忍住眼前一黑的晕眩感，上前仔细地查看。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，她发现门锁外部边缘上了一层厚厚的锈，伸手一摸，甚至能抠掉一层锈灰。+显然，这是锁芯内部的机械结构老化所致……
-()<Speaker></Speaker>||:还来不及愤怒，格琳忽然意识到如果一切真是锁芯老化，那么在她不知道的地方，一定会有一个倒计时，在无情地默数着这枚生锈锁芯的下一次失灵……
-()<Speaker></Speaker>||:想到这里，格琳头皮发麻，她立刻上前调整门锁上的数字组合，脑海当中一片空白，连担忧“没有时间了”的空余都没有。
-()<Speaker></Speaker>||:在一片茫然当中，格琳诞生出一股抽离的感觉，她感觉自己好像在用看着别人的方式看着自己，一瞬之间的恍惚让她回到了一个气定神闲的、无风的午后……
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:"2."
+()<Speaker></Speaker>||:Only two chances left.
+()<Speaker></Speaker>||:That's not it either... then what is it?
+()<Speaker></Speaker>||:A date meaningful to the Commander... what could that be? ...Or was her entire premise wrong from the start—maybe it isn't a date at all? +Her thoughts tangle into chaos. Her fingers tremble uncontrollably, no matter how hard she tries to steady them.
+()<Speaker></Speaker>||:Tokarev's final smile fills her mind.
+()<Speaker></Speaker>||:She keeps hearing the sounds of C14 and the others falling one by one, of red alarms, of bullets slamming into the Dolls' bodies... +If she messes up again... was their sacrifice meaningless? Was everything she did meaningless?
+()<Speaker></Speaker>||:Is the Commander even still alive? If not, where did they go? Why has there been no word?
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:And if they do live—where are they now? Are they safe? What did they see at the end of the battle? +And why haven't they shown themself? +She doesn't know. She knows absolutely nothing...
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<BGM>BGM_Empty</BGM>:Stop messing with me...
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||<SE1>AVG_Door_Hit</SE1><震屏3>:<size=50>Hey!! Commander!! Can you hear me!? Commander!!</size>
+()<Speaker></Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:Kalina pounds on the security door, her hoarse voice cracking with tears. +The massive door only sheds a little dust. The pounding barely even made a sound.
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:It's right in front of her... If she wastes any more time... What if the Commander has already left through another exit...
+()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Error</SE1>:Suddenly, she sees the number on the glowing tube jump from "2" to "1".
+()<Speaker></Speaker>||:She hasn't even touched anything!
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:Her heart pounds violently. Blood rushes to her head. +Fighting off the darkness creeping into her vision, Kalina steps closer to inspect the lock.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:She notices that the outer edge is coated in thick rust. She scrapes it with her fingers, and the flakes come off easily. +The internal mechanism must be deteriorating...
+()<Speaker></Speaker>||:Before anger can even set in, she realizes something worse—if the lock is failing, then somewhere unseen, a silent countdown must be ticking toward the next malfunction...
+()<Speaker></Speaker>||:Her scalp prickles at the thought. Kalina lunges forward and hastily adjusts the combination. Her mind has gone completely blank. There is no room even for worrying that time has run out.
+()<Speaker></Speaker>||:She feels oddly detached from the situation, as though she is watching herself from afar. In an instant of disorientation, she finds herself back on a calm, windless afternoon...
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BGM>Campaion-58-2</BGM><BIN>73</BIN><回忆><CGDelay>0.4</CGDelay>:
-()<Speaker>？？？</Speaker>||<CGDelay>0.5</CGDelay>:各位，请继续训练！不要分心！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:这是……我的声音……？
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:指挥官，这里就是S09区目前的基础训练场。+条件简陋了一些，还请见谅哦。
-()<Speaker>指挥官</Speaker>||:没关系，格琳娜小姐。+重要的是大家都在努力。+看起来……士气还有提升的空间？
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳伸出手去，她想要触碰指挥官，然而在指尖即将触碰到指挥官的面颊，一切忽然闪转变换。
+()<Speaker>???</Speaker>||<CGDelay>0.5</CGDelay>:Please continue with your training! Stay focused!
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:That's... my voice...?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Commander, this is the basic training ground for Area S09. +The conditions are a bit rough, please excuse us.
+()<Speaker>Commander</Speaker>||:It's alright, Miss Kalina. +What matters is that everyone is making an effort. +Though it seems... morale still has room for improvement?
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Commander...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina reaches out, wanting to touch the Commander, but just as her fingers are about to brush their cheek, the world twists and shifts.
 ()||<白屏1>:
 ()<Speaker></Speaker>||<白屏2><回忆><BIN>80</BIN><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:再一愣神，她发现自己坐在旁边，而指挥官正在进食，对着路过的人形打招呼……
-()<Speaker>指挥官</Speaker>||:你们好。
-gsh18(0)<Speaker>GSh-18</Speaker>||:啊……指挥官是在跟我们说话吗！？
-M1903(0)<Speaker>春田</Speaker>||:嗯……而且是跟我们打招呼……说“你们好”……
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:怎，怎么办……我还是第一次被人类打招呼……+GSh-18你以前的职场不是会跟人类有交流吗？
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:托卡列夫，你还活着……？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:格琳难以置信地从位子上站了起来，她接近着托卡列夫，想要摸摸她的脸，确认她是否平安无事。
-()<Speaker></Speaker>||:在即将触碰到她的瞬间，格琳看见托卡列夫忽然之间像是下定了某种决心一样，她穿过自己，坐到了指挥官旁边。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||<SE1>ClothingUp</SE1>:呃，指，指挥官，您好……+我们……可以吗？在这里……呃，用餐？
-()<Speaker>指挥官</Speaker>||:当然可以。为什么不行？+你们也是基地的一员，辛苦训练了那么久，当然需要好好补充能量。+快坐吧，陪我一起尝尝看这里的伙食怎么样。
-()<Speaker></Speaker>||:之后，人形和指挥官们品尝着食物，格琳细细望去，看着她们笨拙地模仿着指挥官的样子，从碗盘当中拿起勺子……
-()<Speaker></Speaker>||:虽然动作生疏，但格琳看到无论是指挥官，还是人形们，他们的眼睛当中，都在闪烁着喜悦的光彩……
-()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:而自己，也坐在指挥官的旁边，看着他们闹腾的样子，露出了发自内心的笑容。
-()<Speaker></Speaker>||:一切，都是从那一天起源的。+那是，指挥官第一次抵达S09的那天……
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:In the next moment, she finds herself seated near the Commander, who is greeting a few passing Dolls over their lunch.
+()<Speaker>Commander</Speaker>||:Hello there.
+gsh18(0)<Speaker>GSh-18</Speaker>||:Oh... Is the Commander talking to us?!
+M1903(0)<Speaker>Springfield</Speaker>||:Um, yeah... They greeted us... and said "hello"...
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:W-what do we do...? It's the first time a human has greeted me... +GSh-18, didn't you interact with humans at your previous workplace?
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Tokarev... you're alive...?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Kalina jumps to her feet in disbelief. She approaches Tokarev, reaching out to touch her face, to make sure she's really safe.
+()<Speaker></Speaker>||:At the moment of contact, Tokarev suddenly steels herself, passes straight through Kalina, and sits down beside the Commander.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||<SE1>ClothingUp</SE1>:Uh, C-Commander, hello... +May we? Eat...here?
+()<Speaker>Commander</Speaker>||:Of course you may. Whyever not? +You're a member of the base too. After training so hard, you need to replenish your energy. +Come, take a seat. Keep me company and let's see how good the catering here is.
+()<Speaker></Speaker>||:The Dolls end up eating lunch with the Commander. Kalina watches as they awkwardly mimic the Commander, clumsily lifting spoons from their bowls...
+()<Speaker></Speaker>||:Their movements are stiff, but in the eyes of both the Commander and the Dolls, she sees a bright, genuine sparkle of joy...
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:From where she is seated near the Commander, she smiles from the heart as she watches them chatter and laugh.
+()<Speaker></Speaker>||:Everything began on that day. +The day the Commander first arrived at S09.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><关闭蒙版><BIN>9</BIN>:
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<黑屏2><BIN>481</BIN><CGDelay>0.5</CGDelay>:
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:……
-()<Speaker></Speaker>||:回到现实，格琳在确认辉光管毫无变化之后屏住呼吸。
-()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:她飞快地调整门锁密码，填入了指挥官抵达S09的时间。
-()<Speaker></Speaker>||:格琳有理由坚信，她所看到的这一切，并不是什么谎言。+那是真实存在过的事物，是指挥官和她，以及所有人形的心里，最重要的那一天。+起源之日。
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:...
+()<Speaker></Speaker>||:Back in reality, Kalina holds her breath after confirming that the glowing tube hasn't changed.
+()<Speaker></Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:She quickly adjusts the combination lock and enters the date on which the Commander arrived at S09.
+()<Speaker></Speaker>||:Kalina has every reason to believe that what she just saw was not a lie. +It is something that truly happened—something etched into the hearts of the Commander, herself, and every Doll at Griffin. The most important day of all. +The day of origin.
 ()<Speaker></Speaker>||<SE1>AVG_2023Slow_Keyboard_Correct</SE1><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:啪——+格琳听见了锁芯扭动的声音。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Gate_Close</SE1>:金属门缓缓滑开，格琳踉跄着走进一个简朴的房间。
+()<Speaker></Speaker>||<SE1>AVG_Button_Click</SE1>:Click. +She hears the lock cylinder turn.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Gate_Close</SE1>:The metal door slides open slowly, and Kalina staggers into a plainly furnished room.
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>356</BIN><黑屏2><CGDelay>0.6</CGDelay>:
-()<Speaker></Speaker>||:昏暗的灯光下，一个熟悉的身影背对着她，站在房间中央。
-()<Speaker></Speaker>||:指挥官的面前是一堵墙，上面贴满了威廉和其他政府高层的照片，彼此之间用书钉和红线相连，最终形成一副缭乱而复杂的线索图。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，那面前的人影也像是听到了身后的声音，于是缓缓转过身来。
-()<Speaker></Speaker>||:指挥官比从前消瘦了太多，但从那坚定的眼神当中，还能看出来指挥官还是那个指挥官，如假包换。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指……指挥官……
-()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:霎时，格琳的眼前一片模糊，那是泪水模糊了她的视线。+她不是没有想过在这样的场合当中自己该说些什么，但无论是那些埋怨的还是那些喜悦的，一瞬之间都变得不再重要。+只要指挥官还站在这里，那么一切都不是问题。+她想要伸出手，想要触碰指挥官，想要确信这一切是不是真的。+然而格琳忍住了，因为即便只是短短的那么一瞥，她也看见了指挥官腹部的伤口，上面的绷带还隐约地渗着血迹。
-()<Speaker></Speaker>||:良久，指挥官迟迟没有说话。格琳觉得不对劲，她下意识地看向指挥官的脸。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官，你的伤口还好吗？是不是疼得说不出来话？是枪伤还是锐器伤？
-NPC_Kalina_OL(2)<Speaker>指挥官</Speaker><同时置暗>||:我没事，格琳。+如你所见，一切都好。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:枪……对了！
-()<Speaker></Speaker>||:格琳一瞬之间想起来外面那些仍在和安保设施搏斗的人形，托卡列夫她们还在外面！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官！快关掉警报，没有敌人！来的是我们！托卡列夫她们还在和安保设施搏斗，现在还——
-()<Speaker>指挥官</Speaker>||:不——+……不是你们。+格琳，触发警报的，不是你们。+外面那些自律人形不是朝着你们去的，只是，你们刚好在那里而已。
-()<Speaker></Speaker>||:听到这话，格琳楞住片刻，一瞬之间她没有理解指挥官到底在说些什么。
-()<Speaker>指挥官</Speaker>||:看这里。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，指挥官让出一个身位，只见那是一组监视器，上面播放着大大小小的监控画面。+最中央的画面之中，格琳认出来摄像头对着的是托卡列夫她们为自己骇入的门。+而在那之中，已然见不到托卡列夫她们的身影，取而代之的是大量军方部队的士兵。
-()<Speaker></Speaker>||:格琳感到难以置信，她的眼睛转移到其他监控器的画面之中，发现不只是那一条路口里面布满了军方的士兵——+整个地下交通设施的每一处枢纽都有军方士兵的把守！他们正以极快的速度朝着这里靠近！
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:哈维尔！不对，军方——
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官，快跟我走，应该还有办法！
-()<Speaker></Speaker>||<SE1>Rope</SE1>:然而，格琳拉住指挥官，但指挥官站在原地，分毫未动。
-()<Speaker>指挥官</Speaker>||:不，格琳。我的伤已经不允许我逃走了。+没关系，这一切不是你的错……不是任何人的错。+不要放在心上。
-()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:格琳刚想说些什么，然而她听到身后传来“轰！”的一声，那声音响到传遍了整个地铁站，整个地铁站都因那爆炸而震动。
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:紧接着是大量军靴的脚步声，大量士兵正在接近。
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官！我们快走！
-()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:轰！！+又是一声爆响，然而那声音是从自己身后传来的！
-()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:格琳回头看去，只见墙壁瞬间破裂，大量军方士兵如潮水般涌入房间，枪口齐刷刷地指向指挥官。+带头的是一名上校，他戴着面具，走到最前方。
-NPC-Soldier(0)<Speaker>上校</Speaker>||<SE1>Select</SE1>:不许动！你已经被包围了！放下武器！停止抵抗！
-()<Speaker></Speaker>||:格琳刚想说些什么，结果她发现无论是眼前的上校，还是身后的士兵，没有一个人的枪口是对准她的——
-()<Speaker></Speaker>||:然而这么说是不准确的，与其说这帮人没有把枪口对着她——不如说，所有人都当格琳不存在一样。
-()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:然后，她听见身后传来一声衣服摩擦的声音，格琳回头望去，只见指挥官平静地举起双手。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:一个脚步声缓缓响起，格琳看着门口，不过片刻，哈维尔的脸庞出现在眼前。
-()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:他的脸上挂着淡淡的微笑，风轻云淡般看了眼自己，又看了眼蹲在地上的指挥官。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:随后，他走上前来。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:感谢你，格琳娜。没有你的协助，凭我们还真就找不到这里。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:什、什么……
-()<Speaker></Speaker>||:感谢……她？+她……她被利用了？
-()<Speaker></Speaker>||:格琳娜呆滞地站在原地。+一方面，她刚刚意识到自己被哈维尔利用，还没反应过来；另一方面，她不清楚指挥官为什么话都不说一句，就直接无条件投降了？
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官……为什么？+指挥官！指挥官！
-()<Speaker></Speaker>||:格琳娜想要冲过去，当面问问清楚。
-()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:然而她刚刚冲到走廊当中，就被碎石绊倒，跌坐在地。
+()<Speaker></Speaker>||:Under dim lighting, a familiar figure stands in the center of the room with their back to her.
+()<Speaker></Speaker>||:In front of the Commander is a wall covered in photographs of William and other high-ranking government officials, pinned with thumbtacks and connected with red strings, forming a tangled and intricate web of clues.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Hearing movement behind them, the figure slowly turns around.
+()<Speaker></Speaker>||:The Commander is far thinner than before, but the unwavering gaze is unmistakable. They are still the Commander. Without question.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:C...Commander...
+()<Speaker></Speaker>||<BGM>BGM_ev2408_LoveStory</BGM>:Kalina's vision blurs instantly as tears well up. +She has imagined countless times what she would say in this moment, but whatever anger, joy, or resentment she feels becomes meaningless in an instant. +As long as the Commander is standing here, nothing else matters. +She wants to reach out. She wants to touch them, to confirm that this is real. +But she stops herself. Even in that brief glance, she sees the wound on the Commander's abdomen. The bandages are still faintly stained with blood.
+()<Speaker></Speaker>||:For a long moment, the Commander says nothing. Something feels wrong. Kalina instinctively looks up at their face.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Commander... is your wound okay? Does it hurt too much to speak? Were you shot? Or was it a blade?
+NPC_Kalina_OL(2)<Speaker>Commander</Speaker><同时置暗>||:I'm fine, Kalin. +As you can see, everything is fine.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Shot... Oh, right!
+()<Speaker></Speaker>||:Kalina suddenly remembers the Dolls still fighting the security systems outside. Tokarev and the others are still out there!
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Commander! Turn off the alarm! There are no enemies! It's us! Tokarev and the others are still fighting the defenses, they're still—
+()<Speaker>Commander</Speaker>||:No. +...It wasn't you. +Kalin, you didn't trigger the alarm. +The autonomous Dolls outside weren't sent after you. You just happened to be in the way.
+()<Speaker></Speaker>||:Kalina freezes. For a moment, she doesn't understand what the Commander is saying.
+()<Speaker>Commander</Speaker>||:Look.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The Commander steps aside. A bank of monitors fills the wall, each displaying different surveillance feeds. +In the central screen, Kalina recognizes the camera pointed at the door Tokarev hacked open for her. +Tokarev and the others are gone. In their place are dozens of Military soldiers.
+()<Speaker></Speaker>||:Kalina stares in disbelief and shifts her gaze to the other screens. It isn't just that corridor. +Every junction in the underground station is occupied by military forces. They are converging here at alarming speed.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Havier! No, the Military—
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Commander, come with me! There must still be a way!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Kalina grabs the Commander's arm, but they won't budge.
+()<Speaker>Commander</Speaker>||:No, Kalin. I can't make it out with this injury. +It's alright. This wasn't your fault... It wasn't anybody's fault. +Don't blame yourself.
+()<Speaker></Speaker>||<SE1>AVG_Explo_Distance</SE1><controll_shake>%%type_id=2%%duration=5%%delay=0%%range=2</controll_shake>:Kalina is about to speak when a deafening explosion roars behind her, echoing through the entire subway station. The structure trembles violently.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Then come the sounds of marching boots—many boots. Soldiers are closing in.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Commander! We have to go!
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:BOOM!! +Another explosion—this time from directly behind her.
+()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:Kalina spins around just as the wall shatters. A flood of soldiers pour into the room, rifles raised and aimed squarely at the Commander. +At their head stands a masked colonel.
+NPC-Soldier(0)<Speaker>Colonel</Speaker>||<SE1>Select</SE1>:Don't move! You are surrounded! Drop your weapon and cease resistance!
+()<Speaker></Speaker>||:Kalina is about to intervene, but then she realizes something strange. Not a single gun is aimed at her.
+()<Speaker></Speaker>||:Or rather, it's not that they avoid aiming at her. More like... no one acknowledges her existence at all.
+()<Speaker></Speaker>||<SE1>AVG_Creep</SE1>:She hears fabric rustle behind her. Turning around, she sees the Commander calmly raising both hands.
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:Another set of footsteps approach. Kalina looks toward the doorway. A moment later, Havier's face comes into view.
+()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1>:He glances briefly at her with a faint smile, then at the Commander kneeling on the ground.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:He walks forward.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Thank you, Kalina. Without your help, we never would've found this place.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:W...what...?
+()<Speaker></Speaker>||:Thank her...? +She's... been used?
+()<Speaker></Speaker>||:Kalina stands frozen. +She has just realized she's been manipulated by Havier and hasn't even processed it yet. On top of that, she doesn't understand why the Commander is surrendering without a single word of resistance.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Commander... why? +Commander! Commander!
+()<Speaker></Speaker>||:Kalina tries to rush forward—to demand answers face to face.
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:But the moment she reaches the corridor, she trips over rubble and collapses onto the floor.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>853</BIN><黑点2>:
-()<Speaker>格琳娜</Speaker>||:呜……
-()<Speaker></Speaker>||:膝盖的痛处加剧，格琳痛得抬起头来。
-()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:这时，她才看清那群士兵的背影——指挥官平静地走在他们当中。+那自然的模样，就像指挥官也是他们的一员。
-()<Speaker>格琳娜</Speaker>||:诶……？
-()<Speaker></Speaker>||:就在格琳娜分不清状况的时候，哈维尔慢慢走了过来，站在她的身边。
-()<Speaker>哈维尔</Speaker>||<CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:你放心，指挥官不会有事的。+……至少我认为如此。
-()<Speaker></Speaker>||:说完这句话，哈维尔便离开了。
-()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:空荡荡的室内，徒留格琳自己。+这时，格琳才有一种如梦初醒的感觉。+她终于意识到，原来这一切，都是一个历经千辛万苦才能换来的——
+()<Speaker>Kalina</Speaker>||:Ugh...
+()<Speaker></Speaker>||:The pain in her knee intensifies. She lifts her head—
+()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1><SE1>AVG_footsteps_cave</SE1>:And sees the soldiers' backs. The Commander walks calmly among them. +So naturally, it's as if they're one of them.
+()<Speaker>Kalina</Speaker>||:Huh...?
+()<Speaker></Speaker>||:As Kalina struggles to make sense of it all, Havier walks over and stops beside her.
+()<Speaker>Havier</Speaker>||<CGDelay>0.7</CGDelay><SE1>Stop_AVG_loop</SE1>:Don't worry. The Commander will be fine. +...At least, that's what I believe.
+()<Speaker></Speaker>||:With that, Havier leaves.
+()<Speaker></Speaker>||<CGDelay>0.4</CGDelay>:The room is empty now—only Kalina remains. +At this moment, she feels as though she's finally waking from a dream. +She understands at last—everything she has endured, every hardship, every sacrifice...
 ()||<黑屏1>:
-()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>1</CGDelay><黑屏2>:用心险恶的谎言。
+()<Speaker></Speaker>||<BIN>9</BIN><CGDelay>1</CGDelay><黑屏2>:...Has led her straight into a carefully crafted, malicious lie.
 ()<Speaker></Speaker>||<CGDelay>1</CGDelay><BGM>BGM_Empty</BGM>:
-()<Speaker>苍老的声音</Speaker>||:人类唯一从历史中学到的教训，就是人类从不会从历史中学会教训。+他长大了，有自己的想法了。
-()<Speaker>沉稳的声音</Speaker>||:现在的他已经握稳了手中的权力，这就是我们把底牌交出去的代价。
-()<Speaker>苍老的声音</Speaker>||:他只是和以前的我们一样，没有绝对的力量就没有真正的安全感。+不过也的确如他所想，接下来的路途会比他想得更加艰难。
-()<Speaker>沉稳的声音</Speaker>||:但是即使如此……
-()<Speaker>苍老的声音</Speaker>||:嗯，不该触碰的东西就不应该被触碰，不然历史会再次重演。+只是这重演的代价不是他所能承受的。
-()<Speaker>沉稳的声音</Speaker>||<CGDelay>0.5</CGDelay>:要动手吗？
-()<Speaker>苍老的声音</Speaker>||:这片大地的人民刚刚获得了希望的种子，谁去扑灭那点亮光谁就是历史的罪人。+我想他应该也清楚这一点。
-()<Speaker>沉稳的声音</Speaker>||:所以他才敢如此违背自己的诺言。+他骗了我们。
-()<Speaker>苍老的声音</Speaker>||:在这个世道，被骗的人才是有错的一方。+不过，我们还是有机会让他没有骗我们。
-()<Speaker>沉稳的声音</Speaker>||:您的意思是……
-()<Speaker>苍老的声音</Speaker>||<CGDelay>0.5</CGDelay>:不是有一个他看中的年轻人吗？+我想那个人一定想法是和我们一样的。
-()<Speaker>沉稳的声音</Speaker>||:……对方未必愿意。
-()<Speaker>苍老的声音</Speaker>||:那个人和我们所有人都不一样，我们要相信年轻人的良知。+而且我想我们能给出那个人无法拒绝的条件吧。
-()<Speaker>沉稳的声音</Speaker>||:…………+我明白了，我会去处理的。+不过我也会做备用方案。
-()<Speaker>苍老的声音</Speaker>||<CGDelay>1</CGDelay>:嗯，交给你了。
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:【溯源回归 END】
-()||<黑点1>:
+()<Speaker>Old, Hoarse Voice</Speaker>||:The only lesson humanity ever learns from history is that humanity never learns from history. +He has grown up. He has his own ideas now.
+()<Speaker>Calm Voice</Speaker>||:He has secured power firmly in his hands. This is the price of handing over our trump cards.
+()<Speaker>Old, Hoarse Voice</Speaker>||:He is no different from how we once were. Without absolute power, there is no real sense of security. +And indeed, just as he believes, the road ahead will be even harder than he imagines.
+()<Speaker>Calm Voice</Speaker>||:Even so...
+()<Speaker>Old, Hoarse Voice</Speaker>||:Indeed, some things should never be touched. Otherwise, history will repeat itself. +Only this time, the cost will be more than he can bear.
+()<Speaker>Calm Voice</Speaker>||<CGDelay>0.5</CGDelay>:Do we intervene?
+()<Speaker>Old, Hoarse Voice</Speaker>||:The people of this land have only just been given a seed of hope. Whoever extinguishes that light becomes a criminal of history. +I think he understands that.
+()<Speaker>Calm Voice</Speaker>||:That's why he dares to break his promise so boldly. +He deceived us.
+()<Speaker>Old, Hoarse Voice</Speaker>||:One has only himself to blame for being played for a fool. +Still... we have a way to make it so that he never deceived us.
+()<Speaker>Calm Voice</Speaker>||:You mean...?
+()<Speaker>Old, Hoarse Voice</Speaker>||<CGDelay>0.5</CGDelay>:Isn't there a youngster whom he holds in high regard? +I believe this young one's ideals align with ours.
+()<Speaker>Calm Voice</Speaker>||:...They may not agree to cooperate.
+()<Speaker>Old, Hoarse Voice</Speaker>||:They're different from all of us. We must trust the conscience of the young. +Besides, I think we can offer terms that they simply can't refuse.
+()<Speaker>Calm Voice</Speaker>||:... +I understand. I'll take care of it. +But I'll prepare a contingency as well.
+()<Speaker>Old, Hoarse Voice</Speaker>||<CGDelay>1</CGDelay>:Good. I'll leave it to you.
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:[Roche Limit - END]
+()||<黑点1>:

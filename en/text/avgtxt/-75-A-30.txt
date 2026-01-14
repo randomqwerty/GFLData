@@ -1,98 +1,98 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()<Speaker></Speaker>||<BGM>GF_21winter_battle_3</BGM><黑屏2><BIN>167</BIN>:白区 法兰克福 地下区域
-()<Speaker></Speaker>||:昏暗、潮湿，空气中有股霉菌发酵的味道。格琳娜一行人按照固定顺序行走在狭长的通风管道当中。
-()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1>:周围十分安静，偶有滴水的声音和未知工控设备电机的工作声。+地面上十分泥泞，行走起来要特别小心才能不发出声音。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:……+格琳小姐……
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫轻声朝着格琳招呼着，她手指着地面。
-NPC_Kalina_OL(4)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:怎么了？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(4)<Position>0,-90</Position>||:格琳小姐您看，地上的泥水应该沉积很长时间了。但是越往里面走，地面上的泥层越薄，这不符常理。+这里面环境比较稳定，而且整体地势平坦，没有什么倾斜。+所以按理来说，这条路应该整条路都是比较泥泞的，但我们越往里面走，这条路呈现的样态就越洁净。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:你是说……地面被人清理过，脚印等痕迹被掩盖了？
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:托卡列夫点点头，她走到墙边，用手擦掉浮灰。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:您再看这里。这块的墙壁已经和我们刚进来的时候不太一样了，材质上用了强度更高的钢筋混凝土。+里面的结构，也从单层结构变成了抗钻地弹设计的分层结构——这显然不是一条通风井所需要的安全标准。
-C14(0)<Speaker>C14</Speaker>||:也就是说……？
-Six12(0)<Speaker>CPS-12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>噢~你们来看这里！</color>
-()<Speaker></Speaker>||:CPS-12似乎发现了什么，格琳与托卡列夫四目相对，两人点点头，和其他两名人形一起走了过去。
+()<Speaker></Speaker>||<BGM>GF_21winter_battle_3</BGM><黑屏2><BIN>167</BIN>:Underground Area, Frankfurt, White Zone.
+()<Speaker></Speaker>||:Dim and damp, the air carries the musty stench of mold. Kalina's group advances through the narrow ventilation shaft in a fixed order.
+()<Speaker></Speaker>||<SE1>AVG_Water_Drip</SE1>:The surroundings are eerily quiet, with only the occasional drip of water and the hum of unknown industrial-control machinery. +The ground is thick with mud; they have to move with extra care to avoid making noise.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:... +Miss Kalina...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Tokarev calls out softly, pointing at the ground.
+NPC_Kalina_OL(4)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:What is it?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(4)<Position>0,-90</Position>||:Miss Kalina, look. This muddy water must have been accumulating for a very long time. But the deeper we go, the thinner the layer of mud becomes. That doesn't make sense. +The environment in here is relatively stable, and the overall terrain is flat, with no noticeable slope. +So logically, this entire route should be uniformly muddy. Yet the farther in we go, the cleaner it gets.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:You mean... someone cleaned up? Covered up footprints and other traces?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Tokarev nods. She walks over to the wall and wipes away a layer of surface dust with her hand.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:And look here. This section of wall isn't the same as when we first came in. The material is reinforced concrete with much higher strength. +The internal structure has also changed—from a single-layer design to a layered structure resistant to bunker-busting munitions. That's clearly beyond the safety requirements of a ventilation shaft.
+C14(0)<Speaker>C14</Speaker>||:So that means...?
+Six12(0)<Speaker>Six12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Oh~ Come take a look over here!</color>
+()<Speaker></Speaker>||:Six12 seems to have discovered something. Kalina and Tokarev exchange a glance, nod to each other, and move over with the other two Dolls.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<BIN>167</BIN><黑点2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:格琳娜一行人来到CPS-12所处的位置。她手指的方向有一块被泥水污染的告示牌。
-C14(0)<Speaker>C14</Speaker>||:地铁站……入口。好难读啊，这附近的设施普遍磨损严重。+不过这里要只是一个废弃的地铁站的话，有必要修建军事防护吗？
-C14(0);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:嗯，情况应该比较清晰了。+结合托卡列夫刚才观察到的情况，这里应该是法兰克福冷战时期的民防网络通道，看样子在战争前就废弃了。+这类地下设施一般不会在现代地图上标注具体位置，找起来比较麻烦。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:地下网络设施四通八达，想要找到指挥官并不轻松呢……
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:先顺着眼前的路线排查吧，也许指挥官在前面留下了记号。
-()<Speaker></Speaker>||:托卡列夫和其他人形相视一眼，随后纷纷点头。几名人形保护着格琳逐步排查，她们向着地铁站深处走去。
+()<Speaker></Speaker>||:Kalina's group gathers where Six12 is standing. In the direction she is pointing, there is a signboard stained with muddy water.
+C14(0)<Speaker>C14</Speaker>||:A subway station... entrance. It's hard to read. The facilities around here are all heavily worn. +But if this were just an abandoned subway station, would there really be a need for military-grade fortifications?
+C14(0);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Mm. The situation is becoming fairly clear. +Combined with what Tokarev has observed earlier, this should be part of Frankfurt's Cold War–era civil defense network. It looks like it was abandoned even before the war. +Underground facilities like this usually aren't marked with precise locations on modern maps, which makes them difficult to track down.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:The underground network branches in all directions. Finding the Commander won't be easy...
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Let's follow the route ahead and check it first. Maybe the Commander left some kind of marker.
+()<Speaker></Speaker>||:Tokarev exchanges looks with the other Dolls; they all nod, then form a protective formation around Kalina as they proceed to move deeper into the subway station.
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:
 ()||<黑点1>:
 ()<Speaker></Speaker>||<Night><BIN>747</BIN><黑点2><CGDelay>0.5</CGDelay>:
-()<Speaker></Speaker>||:一路上每一位人形都打起了十二分的注意力，然而预期当中的记号并未出现。
-C14(0)<Speaker>C14</Speaker>||:越走越深了啊？指挥官真的会在这种地方吗？
-()<Speaker></Speaker>||:正如C14所言，队伍越走越深，且照明情况也随着位置的深入逐渐变差。
-Six12(0)<Speaker>CPS-12</Speaker>||<SE1>ClothingUp</SE1>:停，前面没路了。
-()<Speaker></Speaker>||:队伍应声停下，托卡列夫和CPS-12上前查看情况，这里已经几乎没有照明了，只有几盏应急灯在黑夜当中散发着幽邃的绿光。+等托卡列夫靠近之后，她才发现隔绝她们的是一扇带有数字门禁的军用级安全门。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:这是军用级安全门，钢板防护很厚，几乎没有从外面暴力破解的可能……
-()<Speaker></Speaker>||<SE2>Alarm</SE2><BGM>BGM_Empty</BGM>:呜——+托卡列夫话音刚落，一道持续而嘹亮的警报声骤然响起。
-()<Speaker></Speaker>||<BGM>BGM_ev2412_PrinceIgor</BGM><关闭蒙版><白屏2><SE1>AVG_21Winter_Open_Light</SE1>:忽然之间，整座地下通道的应急灯全部点亮，原本漆黑一片的地下空间顷刻间亮起猩红的警报灯光。+那长久的嗡鸣声，如同敲响死亡的丧钟。
-C14(0)<Speaker>C14</Speaker>||:怎么了这是！？
-()<Speaker></Speaker>||:伴随着警报声，托卡列夫听到头顶方向传来机械运作的声音。
-()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Close</SE1><震屏3>:她抬头望去，发现数道钢门从天花板猛然落下！+而下方正是格琳娜的位置！
-NPC_TT33(2)<Speaker>托卡列夫</Speaker>||:<size=50>格琳小姐！</size>
-()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:托卡列夫眼疾手快，她飞速扑向自己的左侧，抱着格琳娜飞出一段距离。
-CZ805(0)<Speaker>CZ-805</Speaker><Shake>||:呜啊！突然之间发生什么了！
-()<Speaker></Speaker>||:然而还不等CZ-805弄清楚情况，她便看见红光闪烁的室内，还有几道枪口迸发的火光。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:那是几台被改装过的自律人形！它们从墙壁的暗门之中忽然涌出，毫不犹豫地向着格琳一行人开火！
-NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:遭遇敌袭！全员就近寻找掩护！准备战斗！
+()<Speaker></Speaker>||:Every Doll keeps their eyes peeled, but none of the expected markers appear along the way.
+C14(0)<Speaker>C14</Speaker>||:We're going pretty deep, aren't we? Would the Commander really be in a place like this?
+()<Speaker></Speaker>||:C14's apprehension is understandable. The deeper the team goes, the darker the tunnel becomes.
+Six12(0)<Speaker>Six12</Speaker>||<SE1>ClothingUp</SE1>:Stop. There's no way forward.
+()<Speaker></Speaker>||:The group halts. Tokarev and Six12 move up to check. There is almost no illumination here. Only a few emergency lights glow with a deep, ghostly green in the darkness. +When Tokarev approaches, she realizes what's blocking them—a military-grade security door with a digital access lock.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:This is a military security door. The steel plating is extremely thick. There's almost no chance of forcing it open from the outside...
+()<Speaker></Speaker>||<SE2>Alarm</SE2><BGM>BGM_Empty</BGM>:Wooooo— +Before Tokarev can finish, a piercing, continuous alarm suddenly blares.
+()<Speaker></Speaker>||<BGM>BGM_ev2412_PrinceIgor</BGM><关闭蒙版><白屏2><SE1>AVG_21Winter_Open_Light</SE1>:In an instant, every emergency light in the underground passage snaps on. The pitch-black space is flooded with blood-red warning lights. +That long, droning alarm sounds like a death knell tolling.
+C14(0)<Speaker>C14</Speaker>||:What's going on?!
+()<Speaker></Speaker>||:Along with the alarm, Tokarev hears mechanical movement from above.
+()<Speaker></Speaker>||<SE1>AVG_BaseDoor_Close</SE1><震屏3>:She looks up, and several steel gates suddenly slam down from the ceiling... +Directly onto Kalina!
+NPC_TT33(2)<Speaker>Tokarev</Speaker>||:<size=50>Miss Kalina!</size>
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:Tokarev reacts in a flash, diving to her left towards Kalina, hauling her several meters away.
+CZ805(0)<Speaker>CZ-805</Speaker><Shake>||:Whoa! What just happened?!
+()<Speaker></Speaker>||:Before CZ-805 can even process the situation, she sees red warning lights flashing—and muzzle flashes erupting from several gun barrels.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:Modified autonomous Dolls pour out of hidden wall panels and open fire on Kalina's group without hesitation.
+NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Enemy contact! Find cover nearby! Prepare to engage!
 ()<Speaker></Speaker>||<震屏3><SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.1</CGDelay>:
 ()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1><CGDelay>0.3</CGDelay>:
-()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:格琳和托卡列夫躲在一处墙体后面，托卡列夫掏出手枪予以回击。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:其他人形也各自找到了自己的掩体，并依靠着扎实的战斗素养，在这场交火当中缓了口气。+然而这些自律人形就像打不完的沙袋一样，打倒一个又站起来一个。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:指挥官？指挥官为什么袭击我们？+我记得刚才没人做过什么出格的事情……为什么？
-()<Speaker></Speaker>||:唐突的现状不仅令格琳娜神经绷紧，而且极大地加深了她的疑惑。+指挥官会攻击她们，这是一件令她无论如何都无法想象的事情。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:格琳小姐！格琳小姐！+您听得到吗？
-()<Speaker></Speaker>||:意识到托卡列夫在叫自己，满脑子都在思考为什么的格琳娜转过头来，看到身后的托卡列夫。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:待会跟紧我！我护送你去安全门那里。
-NPC_TT33(1);NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:诶？你说什么？
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:这些自律人形也好，突然落下的钢门也好……这些安保系统能起到的作用也只是拖延时间，而非消灭敌人。+警报响起，指挥官一定有所察觉，再依靠这些手段拖延，也就是说……
-NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:也就是说……指挥官很可能准备了其他出口！因为不知道入侵者是我们，所以指挥官会按原计划撤离。+我们就彻底没有机会找到指挥官了！
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:所以，让我们几个为您开辟道路，由您继续前进，找到指挥官！
-NPC_TT33(1);NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:可是对面这么强的火力，你们——
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||<BGM>BGM_Empty</BGM>:CPS-12小姐！CZ-805小姐！准备回防，收缩阵型！
-()<Speaker>CPS-12&CZ805</Speaker>||<BGM>BGM_ev2408_DanceWithDeath</BGM>:收到！
-()<Speaker></Speaker>||:没等格琳说些什么，托卡列夫的声音再度响起。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:C14小姐！麻烦您掩护我们！我要骇入这道电子门了！
-C14(0)<Speaker>C14</Speaker>||:明白！
-()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Cloak_Whoosh</SE1>:随后，还不等格琳消化完情况，托卡列夫便抓住她的胳膊，趁着自律人形打空子弹之际，拉着格琳跑到了安全门面前。
-()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:其他三人纷纷团簇过来，用自己的身体保护着格琳，使她免于流弹的伤害。
-()<Speaker></Speaker>||:即便是隔着警报声和枪械击发的声音，格琳也能听到流弹打在人形素体身上发出的闷响。+每一声，都切切实实地砸在了格琳的心里。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:格琳小姐，您还记得在上面的时候，您对我说过的话吗？+“如果所有问题都能以不假思索的方式轻松解决，那么在这背后一定有一个用心险恶的谎言。”+现在到了验证这一刻的时候了，我请您一定要见到指挥官。+这不光是为了您自己，也是为了我们——为了我们这群因为协议，而没能在最后一战当中身体力行地帮助指挥官的人形们……
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:……尽管我不记得是谁，但有人问过我，问我是否后悔过为指挥官而战，是否后悔追随指挥官，经历这一切苦难？是否——
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:……怨恨过指挥官。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:我的答案是，不。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:在遇见指挥官之前，我甚至根本不懂什么是爱，什么是恨，什么是希望，什么是后悔。+在讨论这一切情感之前——我根本，没有拥有它们的资格。+是指挥官给予了我这一切，是指挥官告诉了我，我也有资格，我也有权利，拥有人格，拥有尊严，拥有情感。
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:我们不像AR小队或是忤逆小队的人形，清楚地知道自己是为什么而战。+说实在的，我们对帕拉蒂斯的了解，跟她们相比起来，算得上一无所知。+我们也并非为了什么正义或是公理而战，我甚至怀疑我是否真的理解这场战争中宏观的正义和公理到底是什么。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:我们……仅仅是为指挥官而战。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:因为指挥官，我们拿起武器，只要指挥官下达命令，我们便会前赴后继。
-NPC_TT33(1)<Speaker>托卡列夫</Speaker>||:在遇见指挥官之前，我们也会这么做，因为我们是一群服从命令的，廉价的道具。+在遇见指挥官之后，我们仍会这么做，因为我们是一群懂得何为爱，何为自己的选择……+……何为“自尊”的人形！
-NPC_TT33(0)<Speaker>托卡列夫</Speaker>||:拜托您，也将我们的心意传达给指挥官吧！
-Six12(0)<Speaker>CPS-12</Speaker>||:格琳娜小姐！要加油！
-C14(0)<Speaker>C14</Speaker>||:无论是指挥官，还是格琳，我们都想为你们做点什么。
-CZ805(0)<Speaker>CZ-805</Speaker>||:是啊！这里就交给我们，格琳只需要前进就好。+托卡列夫要说的，也是我们想要传达给指挥官的话！
-()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake><BGM>BGM_Empty</BGM>:轰！！+忽然，一枚炮弹落在格琳等人旁边，格琳被那突如其来的爆炸弄得措手不及。
-()<Speaker></Speaker>||<SE1>AVG_tinnitus_0</SE1>:在剧烈的冲击当中，她半边耳朵出现了短暂的失聪，并且伴随着经久不绝的耳鸣声。+她感到一阵恶心，头脑昏花。
-()<Speaker></Speaker>||:随后，她努力地抬起头，却看到CPS-12和CZ-805，因为替她挡住了绝大多数的冲击波，导致身上的素体出现大面积损伤。
-()<Speaker></Speaker>||:即便如此，她们两个仍然将格琳娜牢牢地护在身后。
-NPC_Kalina_OL(2)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:<size=50>CPS-12！</size>+<size=50>CZ-805！！</size>
-()<Speaker></Speaker>||:周围猩红一片，格琳什么也听不清。而她们两个，也已经无法回答格琳了。+托卡列夫回头看到了这一切，但她什么也没说，强行扭过头去，加快了手上骇入门锁的操作。
-()<Speaker></Speaker>||:之后，是C14为了保护托卡列夫和格琳，而被一只欺近身来的机械贯穿了腹腔。
-()<Speaker></Speaker>||:而C14倒下之前，将手里的狙击枪抵在那只机械的头上，随后在零距离状态下开火……
-()<Speaker></Speaker>||:格琳听不见枪声，但是看到C14扳下枪机的瞬间，狙击枪因枪口完全封闭而炸膛……
-()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0%%range=3</controll_shake>:在那爆炸之后，她们两个都倒了下去。
-NPC_Kalina_OL(1)<Speaker>格琳娜</Speaker><Position>0,-90</Position>||:%￥……！
-()<Speaker></Speaker>||:她想说些什么，但她自己也听不见自己说的话。
-()<Speaker></Speaker>||:耳鸣的声音就像恶魔重返人间，用足以逼疯任何人的低鸣折磨着格琳。+随后，格琳觉得自己被谁扶了起来，她回头看去——
-()<Speaker></Speaker>||:在最后时刻，她看见的，只有托卡列夫温柔的笑脸。+托卡列夫的嘴巴似乎呢喃着什么，格琳听不清楚，但是努力地读着她的唇语。
+()<Speaker></Speaker>||<SE1>AVG_pistol_finalshot_n</SE1>:Kalina and Tokarev take cover behind a section of wall. Tokarev draws her weapon and returns fire.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:The other Dolls each find their own cover, relying on solid combat training to stabilize the situation. +Yet these autonomous Dolls are like endless sandbags—knock one down, and another rises to take its place.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:The Commander...? Why would the Commander attack us? +I don't remember anyone doing anything out of line just now... why?
+()<Speaker></Speaker>||:The sudden turn of events puts Kalina on edge and deepens her confusion. +The idea that the Commander would attack them is something she simply cannot comprehend.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Miss Kalina! Miss Kalina! +Can you hear me?
+()<Speaker></Speaker>||:Pulled out of her thoughts by Tokarev's voice, Kalina turns and sees her standing behind.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Stay close to me! I'll escort you to the security door!
+NPC_TT33(1);NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:Huh? What did you say?
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(2)<Position>0,-90</Position>||:These autonomous Dolls and the sudden steel gates... are both only meant to delay intruders, not eliminate them. +Now that the alarm is sounding, the Commander must be aware of what's happening. Relying on these measures to stall for time means that...
+NPC_TT33(1);NPC_Kalina_OL(0)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:That... the Commander probably prepared another exit! Not knowing the intruders are us, the Commander will withdraw according to the original plan. +And then we'll completely lose our chance to find them!
+NPC_TT33(1)<Speaker>Tokarev</Speaker>;NPC_Kalina_OL(0)<Position>0,-90</Position>||:So we'll clear the way for you. You go on and find the Commander!
+NPC_TT33(1);NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:But the enemies' firepower is too strong! You—
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||<BGM>BGM_Empty</BGM>:Six12! CZ-805! Prepare to fall back and tighten the formation!
+()<Speaker>Six12 & CZ-805</Speaker>||<BGM>BGM_ev2408_DanceWithDeath</BGM>:Roger!
+()<Speaker></Speaker>||:Before Kalina can say anything more, Tokarev's voice rings out again.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Miss C14! Please cover us! I'm going to hack the electronic lock!
+C14(0)<Speaker>C14</Speaker>||:Understood!
+()<Speaker></Speaker>||<SE1>RunStep</SE1><SE1>AVG_Cloak_Whoosh</SE1>:Before Kalina can fully grasp what's happening, Tokarev grabs her arm and, seizing the moment when the autonomous Dolls run out of ammo, drags her toward the security door.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2><震屏3>:The other three Dolls cluster around them, shielding Kalina with their own bodies and protecting her from stray rounds.
+()<Speaker></Speaker>||:Even through the alarms and gunfire, Kalina can hear the dull thuds of bullets striking Doll frames. +Each sound lands heavily in her chest.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:Miss Kalina, remember what you said to me up there? +"If every problem could be solved easily, there must be a carefully crafted lie behind it all." +Now is the moment to put that to the test. I ask you—please, you must see the Commander. +Not just for yourself, but for us—for those of us who, because of protocol, couldn't stand beside the Commander in the final battle...
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:...I don't remember who asked me, but someone once did. They asked whether I ever regretted fighting for the Commander, regretted following the Commander through all this suffering. Whether I ever—
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:...resented the Commander.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:My answer was no.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:Before I met the Commander, I didn't even understand what love was, or hatred, or hope, or regret. +I wasn't even given the right to possess such emotions, let alone discuss them. +It was the Commander who gave me all of this. It was the Commander who told me that I, too, had the right—the right to a sense of self, to dignity, to emotions.
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:We're not like the AR Team or Task Force Defy, who clearly know what they're fighting for. +To be honest, our understanding of Paradeus is almost nonexistent compared to theirs. +We're not fighting for justice or lofty ideals either. I even doubt whether I truly understand what "justice" and "righteousness" mean on a grand scale in this war.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:We... fight only for the Commander.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Because of the Commander, we take up arms. As long as the Commander gives the order, we'll charge ahead without hesitation.
+NPC_TT33(1)<Speaker>Tokarev</Speaker>||:Before meeting the Commander, we would do the same—because we were cheap tools that obeyed orders. +After meeting the Commander, we still do the same—because now we understand what love is, what it means to choose for ourselves... +...and what "self-respect" means for a Doll!
+NPC_TT33(0)<Speaker>Tokarev</Speaker>||:Please... convey our feelings to the Commander as well!
+Six12(0)<Speaker>Six12</Speaker>||:Miss Kalina! Stay strong!
+C14(0)<Speaker>C14</Speaker>||:We want to do something for you—both for you and the Commander.
+CZ805(0)<Speaker>CZ-805</Speaker>||:That's right! Leave this place to us. You just need to keep moving forward. +What Tokarev wants to say is exactly what we want to tell the Commander too!
+()<Speaker></Speaker>||<SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=5</controll_shake><BGM>BGM_Empty</BGM>:Boom!! +Suddenly, a shell detonates near Kalina and the others, catching her completely off guard.
+()<Speaker></Speaker>||<SE1>AVG_tinnitus_0</SE1>:In the violent shockwave, most of her hearing cuts out, replaced by relentless ringing. +Nausea washes over her as her head starts spinning.
+()<Speaker></Speaker>||:She lifts her head with great difficulty—and sees Six12 and CZ-805, whose frames have suffered massive damage absorbing most of the blast for her.
+()<Speaker></Speaker>||:Even so, they continue to shield Kalina tightly behind them.
+NPC_Kalina_OL(2)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:<size=50>Six12!</size> +<size=50>CZ-805!!</size>
+()<Speaker></Speaker>||:Everything around her is bathed in red. Kalina can't hear anything. And they can no longer answer her. +Tokarev sees it when she looks back, but says nothing—she forcibly turns away and speeds up her hacking.
+()<Speaker></Speaker>||:Then C14, moving in to protect Tokarev and Kalina, is pierced through the abdomen by a closing mechanical unit.
+()<Speaker></Speaker>||:Before she falls, C14 presses her sniper rifle against the machine's head and fires at point-blank range...
+()<Speaker></Speaker>||:Kalina can't hear the gunshot, but she sees the instant C14 pulls the trigger, the sniper rifle explodes because the muzzle is completely blocked...
+()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0%%range=3</controll_shake>:After the blast, both of them collapse.
+NPC_Kalina_OL(1)<Speaker>Kalina</Speaker><Position>0,-90</Position>||:%￥...!
+()<Speaker></Speaker>||:She wants to say something, but she can't even hear her own voice.
+()<Speaker></Speaker>||:The ringing in her ears is like a demon unleashed in the mortal world, tormenting her with a low hum that could drive anyone mad. +Then she feels someone helping her up. She turns her head—
+()<Speaker></Speaker>||:In that final moment, all she sees is Tokarev's gentle smile. +Tokarev's lips seem to whisper something. Kalina can't hear it, but she tries desperately to read her lips.
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:在那之后，格琳就被她轻轻地推入门后，大门随之关紧。
-()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:刹那，世界一片黑暗，这里与外界毫无干系。
-()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>9</BIN>:After that, Kalina is gently pushed through the door. The heavy door closes behind her.
+()<Speaker></Speaker>||<CGDelay>0.7</CGDelay>:In an instant, the world plunges into darkness—cut off completely from everything outside.
+()||<黑点1>:
