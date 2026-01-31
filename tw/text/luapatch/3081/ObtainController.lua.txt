@@ -9,4 +9,8 @@ local mShowMissionDetail = function(self)
 		self:ShowMissionDetail()
 	end
 end
+if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw 
+	or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea 
+	or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 util.hotfix_ex(CS.ObtainController,'ShowMissionDetail',mShowMissionDetail)
+end

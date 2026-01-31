@@ -448,6 +448,7 @@ patch3081=
 "3081/Requests",
 "3081/BattleController",
 "3081/PlayerReturnItemController",
+"3081/IllustratedBookController",
 }
 -- va11
 print("load Va11");

@@ -46,7 +46,25 @@ local BuffSkillSuccessJsonHandleData = function(self,jsonData)
 					end
 				end
 			end
-
+		end
+		if json_1:Contains("after_charge_rs_change") and  self.mainskill~=nil then
+			if self.mainskill.id==770052 or self.mainskill.id==780012 then
+				local json_3= json_1:GetValue("after_charge_rs_change");
+				if json_3:Contains("ammo") then
+					local ammo=json_3:GetValue("ammo").Int;
+					CS.GameData.userInfo.ammo = CS.GameData.userInfo.ammo+ammo;
+					if CS.GameData.userInfo.ammo<=0 then
+						CS.GameData.userInfo.ammo=0;
+					end
+				end
+				if json_3:Contains("mre") then
+					local mre=json_3:GetValue("mre").Int;
+					CS.GameData.userInfo.mre = CS.GameData.userInfo.mre+mre;
+					if CS.GameData.userInfo.mre<=0 then
+						CS.GameData.userInfo.mre=0;
+					end
+				end
+			end
 		end
 	end
 	self:SuccessJsonHandleData(jsonData);
