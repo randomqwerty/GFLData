@@ -24,6 +24,26 @@ local SuccessJsonHandleData = function(self,jsonData)
 			end
 		end
 	end
+	if jsonData:Contains("fairy_skill_return") and self.mainskill~=nil and self.mainskill.id==800010 then
+		local json_1 = jsonData:GetValue("fairy_skill_return");
+		if json_1:Contains("after_charge_rs_change") then
+			local json_3= json_1:GetValue("after_charge_rs_change");
+				if json_3:Contains("ammo") then
+					local ammo=json_3:GetValue("ammo").Int;
+					CS.GameData.userInfo.ammo = CS.GameData.userInfo.ammo+ammo;
+					if CS.GameData.userInfo.ammo<=0 then
+						CS.GameData.userInfo.ammo=0;
+					end
+				end
+				if json_3:Contains("mre") then
+					local mre=json_3:GetValue("mre").Int;
+					CS.GameData.userInfo.mre = CS.GameData.userInfo.mre+mre;
+					if CS.GameData.userInfo.mre<=0 then
+						CS.GameData.userInfo.mre=0;
+					end
+				end
+		end
+	end
 	self:SuccessJsonHandleData(jsonData);
 end
 local BuffSkillSuccessJsonHandleData = function(self,jsonData)

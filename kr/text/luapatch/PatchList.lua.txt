@@ -408,6 +408,7 @@ patch3071=
 "3071/DeploymentBuildingController",
 "3081/BattleController",
 "3081/PlayerReturnItemController",
+"3081/Requests",
 }
 patch3080=
 {
