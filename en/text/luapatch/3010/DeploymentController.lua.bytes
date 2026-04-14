@@ -57,7 +57,6 @@ local RequestStartTurnHandle = function(self,json)
 	end
 	CS.DeploymentBackgroundController.Instance.listBuildingController:Clear();
 	checkUI = true;
-	self:AddAndPlayPerformance(CheckAllyDie);
 	self:RequestStartTurnHandle(json);
 	for i=1,#builds do
 		CS.DeploymentBackgroundController.Instance.listBuildingController:Add(builds[i]);
@@ -77,6 +76,9 @@ local CheckLayerFinal = function()
 end
 --修正设施延迟刷新
 local AddAllCanPlayPerformanceLayer = function(self)
+	if CS.GameData.missionAction.currentTurnBelong == CS.MissionAction.TurnBelong.SelfTurn then
+		self:AddAndPlayPerformance(CheckAllyDie);
+	end
 	local builds = {};
 	for i=0,CS.DeploymentBackgroundController.Instance.listBuildingController.Count -1 do
 		local build = CS.DeploymentBackgroundController.Instance.listBuildingController[i];
