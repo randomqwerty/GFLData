@@ -92,6 +92,8 @@ MissionSelectionTex|missionselect_202412activity|2|-74
 MissionSelectionTex|missionselect_202505activity|2|-75
 //25.7月
 MissionSelectionTex|missionselect_202507activity|2|-76
+//26.2月洞
+MissionSelectionTex|missionselect_202602activity|2|-79
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
 OPSSpecialScene|-2|-2,-3,-4
@@ -149,6 +151,10 @@ OPSPanelScene|-40403|-40403
 OPSPanelScene|-74|-74
 OPSPanelScene|-75|-75
 OPSPanelScene|-76|-76
+OPSPanelScene|-77|-77
+OPSPanelScene|-78|-78
+OPSPanelScene|-40404|-40404
+OPSPanelScene|-79|-79
 
 //视频首次进入-test数据
 //OPSVideoFirst|-16|deepdive_short
@@ -163,6 +169,7 @@ OPSVideoFirst|-72|202410ActivityPV
 OPSVideoFirst|-73|ArenaBreakoutPV
 OPSVideoFirst|-74|202412ActivityPV|0|1
 OPSVideoFirst|-75|202505ActivityPV|0|1
+OPSVideoFirst|-78|202509ActivityPV
 
 //视频 循环播放背景
 //OPSVideoBlackground|-2|BBui_IntroH264,BBui_LoopH264
@@ -243,6 +250,10 @@ OPSLeftBGNormalActivity|-40403|2023Spring_Left
 OPSLeftBGNormalActivity|-74|202412Activity_Left
 OPSLeftBGNormalActivity|-75|202505Activity_Left
 OPSLeftBGNormalActivity|-76|202507Activity_Left
+OPSLeftBGNormalActivity|-77|202509Activity_Left
+OPSLeftBGNormalActivity|-78|202509Activity_Left
+OPSLeftBGNormalActivity|-40404|202412Activity_Left
+OPSLeftBGNormalActivity|-79|202602Activity_Left
 
 //系统公告-预制物(公用)
 //OPSNotice|RabbitHunt_Notice
@@ -291,6 +302,7 @@ OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
 OPSNoticeNormalActivity|-74|202412Activity_Notice
 OPSNoticeNormalActivity|-75|202505Activity_Notice
 OPSNoticeNormalActivity|-76|202507Activity_Notice
+OPSNoticeNormalActivity|-79|202602Activity_Notice
 
 //时间公告-预制物(公用)
 OPSTime|SingTime
@@ -334,6 +346,9 @@ OPSTimeNormalActivity|-73|202406Activity_Time
 OPSTimeNormalActivity|-74|202406Activity_Time
 OPSTimeNormalActivity|-75|Reversible_Time
 OPSTimeNormalActivity|-76|Reversible_Time
+OPSTimeNormalActivity|-77|Reversible_Time
+OPSTimeNormalActivity|-78|Reversible_Time
+OPSTimeNormalActivity|-79|Reversible_Time
 
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
@@ -1692,8 +1707,8 @@ OPSCampaignDetail|-53_1|0,0|M16A1_Boss
 
 //2022夏活配置
 OPSCampaignDetail|-54_1|0,0|Susanna
-OPSCampaignDetail|-54_2|0,0|Nyto_mecha
-OPSCampaignDetail|-54_3|0,0|Ares
+OPSCampaignDetail|-40402_2|0,0|Nyto_mecha
+OPSCampaignDetail|-40402_3|0,0|Ares
 OPSCampaignDetail|-54_4|0,0|AR18_NPC
 OPSCampaignDetail|-54_5|0,0|AR18_NPC
 OPSCampaignDetail|-54_6|0,0|AR18_NPC
@@ -1927,8 +1942,8 @@ OPSCampaignDetail|-58_75|0,0|Punish
 OPSCampaignDetail|-58_76|0,0|Punish
 OPSCampaignDetail|-58_77|0,0|Rodelero
 OPSCampaignDetail|-58_78|0,0|Rodelero
-OPSCampaignDetail|-58_79|0,0|Sana
-OPSCampaignDetail|-58_80|0,0|Sana
+OPSCampaignDetail|-40403_1|0,0|Sana
+OPSCampaignDetail|-40403_2|0,0|Sana
 OPSCampaignDetail|-58_81|0,0|NPC_Kryuger
 OPSCampaignDetail|-58_82|0,0|NPC_Kryuger
 OPSCampaignDetail|-58_83|0,0|Nyto_mecha2_N
@@ -2351,4 +2366,52 @@ OPSCampaignDetail|-76_27|0,0|Teal&Mona_shadow
 OPSCampaignDetail|-76_28|0,0|AK12_Mod3
 OPSCampaignDetail|-76_29|0,0|Kalina_Armed
 
+//202509兔洞 静默沙盘
+OPSCampaignDetail|-77_1|0,0|William
 
+//202509活动 零态潮汐
+OPSCampaignDetail|-78_1|0,0|Lunasia2
+OPSCampaignDetail|-78_2|0,0|Kalina_Armed
+OPSCampaignDetail|-78_3|0,0|Ange_05
+OPSCampaignDetail|-78_4|0,0|M16A1_Boss
+OPSCampaignDetail|-78_5|0,0|Teal
+OPSCampaignDetail|-78_6|0,0|Dinergate_D
+OPSCampaignDetail|-78_7|0,0|William
+OPSCampaignDetail|-78_8|0,0|Teal
+OPSCampaignDetail|-78_9|0,0|William&Boss_Lunasia
+OPSCampaignDetail|-78_10|0,0|Ange_05
+OPSCampaignDetail|-78_11|0,0|Teal
+OPSCampaignDetail|-78_12|0,0|William
+OPSCampaignDetail|-78_13|0,0|Teal
+OPSCampaignDetail|-78_14|0,0|William&Boss_Lunasia
+OPSCampaignDetail|-78_15|0,0|Ange_05
+OPSCampaignDetail|-78_16|0,0|Teal
+OPSCampaignDetail|-78_17|0,0|William
+OPSCampaignDetail|-78_18|0,0|Teal
+OPSCampaignDetail|-78_19|0,0|William&Boss_Lunasia
+OPSCampaignDetail|-78_20|0,0|Commander
+OPSCampaignDetail|-78_21|0,0|Commander
+OPSCampaignDetail|-78_22|0,0|NPC_Havel
+OPSCampaignDetail|-78_23|0,0|Boss_Griffin
+OPSCampaignDetail|-78_24|0,0|UMP45_2
+OPSCampaignDetail|-78_25|0,0|Kalina
+OPSCampaignDetail|-78_26|0,0|Kalina_Maid
+OPSCampaignDetail|-78_27|0,0|Shadowless
+OPSCampaignDetail|-78_28|0,0|M16A1_Boss
+OPSCampaignDetail|-78_29|0,0|Nele
+OPSCampaignDetail|-78_30|0,0|Dinergate_D
+OPSCampaignDetail|-78_31|0,0|Boss_Griffin
+OPSCampaignDetail|-78_32|0,0|William
+OPSCampaignDetail|-78_33|0,0|M16A1_Boss
+OPSCampaignDetail|-78_34|0,0|TT33mod_D
+OPSCampaignDetail|-78_35|0,0|AK15&AN94mod
+OPSCampaignDetail|-78_36|0,0|Boss_Lunasia
+OPSCampaignDetail|-78_37|0,0|Boss_Lunasia_D
+OPSCampaignDetail|-78_38|0,0|Commander
+OPSCampaignDetail|-78_39|0,0|TT33mod
+OPSCampaignDetail|-78_40|0,0|William_shadow
+
+
+//202602活动 铁雨礼赞
+OPSCampaignDetail|-79_1|0,0|LightBossB06
+OPSCampaignDetail|-79_2|0,0|Ares
