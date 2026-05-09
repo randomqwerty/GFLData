@@ -203,6 +203,7 @@ OPSReturn|202408Activity_Return|-73
 OPSReturn|2022SummerReturn|-40402
 OPSReturn|2023Spring_Return|-40403
 OPSReturn|202412Activity_Return|-74
+OPSReturn|202412Activity_Return|-40404
 
 //OPS场景左侧贴图-预制物(公用)
 //OPSLeftBG|Isomer_Left
@@ -312,11 +313,11 @@ OPSLeftBGNormalActivity|-79|202602Activity_Left
 //OPSNoticeNormalActivity|-71|202408Activity_Notice
 //OPSNoticeNormalActivity|-72|202410Activity_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
-OPSNoticeNormalActivity|-74|202412Activity_Notice
-OPSNoticeNormalActivity|-75|202505Activity_Notice
-OPSNoticeNormalActivity|-76|202507Activity_Notice
-OPSNoticeNormalActivity|-77|202509Activity_Score_Notice
-OPSNoticeNormalActivity|-78|202509Activity_Notice
+//OPSNoticeNormalActivity|-74|202412Activity_Notice
+//OPSNoticeNormalActivity|-75|202505Activity_Notice
+//OPSNoticeNormalActivity|-76|202507Activity_Notice
+//OPSNoticeNormalActivity|-77|202509Activity_Score_Notice
+//OPSNoticeNormalActivity|-78|202509Activity_Notice
 OPSNoticeNormalActivity|-79|202602Activity_Notice
 
 //时间公告-预制物(公用)
@@ -411,7 +412,7 @@ OPSGoto|Continuum_PointExchange|2
 //暗区联动
 OPSGoto|202407Activity_GotoMall|0|-73
 //24_12月活动
-OPSGoto|202412Activity_GotoMall|0|-74
+//OPSGoto|202412Activity_GotoMall|0|-74
 //25_05月活动
 OPSGoto|202505Activity_GotoMall|0|-75
 //25_07月活动
@@ -685,6 +686,7 @@ OPSCampaignTitleButton|-78|true|202507Activity_Difficulty2Btn
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
 //OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
+OPSShowItem|-40401|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
 //OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
@@ -2304,7 +2306,7 @@ OPSCampaignDetail|-74_43|0,0|PMMod
 OPSCampaignDetail|-74_44|0,0|Nyto_Styx
 OPSCampaignDetail|-74_45|0,0|Morridow_2
 OPSCampaignDetail|-74_46|0,0|Punish
-OPSCampaignDetail|-74_47|0,0|202412activity_rabbithole_title
+OPSCampaignDetail|-40404_1|0,0|202412activity_rabbithole_title
 
 //202505活动 溯源回归
 OPSCampaignDetail|-75_1|0,0|TT33
