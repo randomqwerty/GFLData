@@ -92,6 +92,8 @@ MissionSelectionTex|missionselect_202412activity|2|-74
 MissionSelectionTex|missionselect_202505activity|2|-75
 //25.7月
 MissionSelectionTex|missionselect_202507activity|2|-76
+//25.9月
+MissionSelectionTex|missionselect_202509activity|2|-78
 //26.2月洞
 MissionSelectionTex|missionselect_202602activity|2|-79
 
@@ -294,14 +296,16 @@ OPSLeftBGNormalActivity|-79|202602Activity_Left
 OPSNoticeNormalActivity|-62|2023Se_Notice
 //OPSNoticeNormalActivity|-64|2024Ghost_Notice
 //OPSNoticeNormalActivity|-68|202404Activity_Notice
-OPSNoticeNormalActivity|-69|202406Activity_Notice
-OPSNoticeNormalActivity|-70|202407Activity_Notice
-OPSNoticeNormalActivity|-71|202408Activity_Notice
-OPSNoticeNormalActivity|-72|202410Activity_Notice
+//OPSNoticeNormalActivity|-69|202406Activity_Notice
+//OPSNoticeNormalActivity|-70|202407Activity_Notice
+//OPSNoticeNormalActivity|-71|202408Activity_Notice
+//OPSNoticeNormalActivity|-72|202410Activity_Notice
 OPSNoticeNormalActivity|-73|ArenaBreakout_Notice
-OPSNoticeNormalActivity|-74|202412Activity_Notice
-OPSNoticeNormalActivity|-75|202505Activity_Notice
-OPSNoticeNormalActivity|-76|202507Activity_Notice
+//OPSNoticeNormalActivity|-74|202412Activity_Notice
+//OPSNoticeNormalActivity|-75|202505Activity_Notice
+//OPSNoticeNormalActivity|-76|202507Activity_Notice
+//OPSNoticeNormalActivity|-77|202509Activity_Score_Notice
+OPSNoticeNormalActivity|-78|202509Activity_Notice
 OPSNoticeNormalActivity|-79|202602Activity_Notice
 
 //时间公告-预制物(公用)
@@ -398,21 +402,23 @@ OPSGoto|2024Ghost_GotoMall|0|-64
 OPSGoto|2023RougeSpring_PointExchange|2|-61|1004
 //OPSGoto|2023Se_GotoMall|0|-62
 //OPSGoto|2023RougeSummer_GotoMall|0|-68
-OPSGoto|202406Activity_GotoMall|0|-69
+//OPSGoto|202406Activity_GotoMall|0|-69
 //24_7月活动
-OPSGoto|202407Activity_GotoMall|0|-70
+//OPSGoto|202407Activity_GotoMall|0|-70
 //24_8月活动
-OPSGoto|202408Activity_GotoMall|0|-71
+//OPSGoto|202408Activity_GotoMall|0|-71
 //暗区联动
-OPSGoto|202407Activity_GotoMall|0|-73
+//OPSGoto|202407Activity_GotoMall|0|-73
 //秘密窝点复刻配置_积分界面跳转
 OPSGoto|Continuum_PointExchange|2
 //24_12月活动
 OPSGoto|202412Activity_GotoMall|0|-74
 //25_05月活动
-OPSGoto|202505Activity_GotoMall|0|-75
+//OPSGoto|202505Activity_GotoMall|0|-75
 //25_07月活动
 OPSGoto|202505Activity_GotoMall|0|-76
+//25_09月活动
+OPSGoto|202505Activity_GotoMall|0|-78
 
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
@@ -476,6 +482,7 @@ OPSProgressNormalActivity|-73|202406Activity_Progress
 OPSProgressNormalActivity|-74|202406Activity_Progress
 OPSProgressNormalActivity|-75|Reversible_Progress
 OPSProgressNormalActivity|-76|Reversible_Progress
+OPSProgressNormalActivity|-78|Reversible_Progress
 
 //OPS场景主背景贴图设置-大章节-天气类型（Day/Rain/Snow）-预制物(可直接拖材质设置效果)
 OPSMain|-1|Snow|Map1
@@ -672,15 +679,16 @@ OPSCampaignTitleButton|-78|true|202507Activity_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-61|100193|60|2023RougeSummer_Tip|1
 //OPSCampaignTitleButtonTip|-62|100196|60|2023Se_MissionPanelTip|1
 //OPSCampaignTitleButtonTip|-68|100214|60|202404Acticity_Tip|1
-OPSCampaignTitleButtonTip|-69|100224|60|202406Activity_Tip|1
-OPSCampaignTitleButtonTip|-70|100231|60|202407Activity_Tip|1
-OPSCampaignTitleButtonTip|-71|100235|60|202408Activity_Tip|1
+//OPSCampaignTitleButtonTip|-69|100224|60|202406Activity_Tip|1
+//OPSCampaignTitleButtonTip|-70|100231|60|202407Activity_Tip|1
+//OPSCampaignTitleButtonTip|-71|100235|60|202408Activity_Tip|1
 
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
 //OPSShowItem|-44|524|MirrorStage_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
+OPSShowItem|-40401|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
 //OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
@@ -695,6 +703,9 @@ OPSShowItemDeployment|531,532,533|2023Se_All|11473,11474
 OPSShowItemDeployment|542|MirrorStageScore_DeploymentItems|11549,11549
 OPSShowItemDeploymentCheckUse|9044,9045,9046,9047|Tarot_DeploymentTarot|b84bdb390e913b71_draw_241028180936.jpg|11659,11660,11661,11662,11663,11664,11665,11666,11667
 OPSShowItemDeploymentCheckUse|0|202412Activity_ShowItem|f6b14fdcf97aea21_draw_250902111543.jpg|11603
+OPSShowItemDeployment|9050|202509Activity_DeploymentItems|11946
+OPSShowItemDeployment|9050|202509Activity_DeploymentItems2|11947,11948,11949,11950,11951,11952,11953,11954,11955,11956,11957,11958,11959,11960,11961,11962,11963,11964,11965
+OPSShowItemDeployment|9053|202602Activity_DeploymentItems|11987,11988
 
 
 //具体章节里的头像贴图设置-位置坐标-贴图

@@ -1,148 +1,148 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<黑屏2><BIN>890</BIN><SE1>AVG_Lunasia_Born</SE1>:光芒收束，那些飞舞的蓝色蝴蝶尽数敛入全新的躯体。+“露尼西亚”静静地阖上双眼，而她身周，所有白涅托都已回归沉寂。
-NPC-William(18)<Speaker>威廉</Speaker>||<SE1>ClothingUp</SE1>:不……不可能……
-()||:他脸上的狂热与嘲弄凝固成了纯粹的错愕，他踉跄地后退，撞在了身后的主控台上。
-NPC-William(18)<Speaker>威廉</Speaker>||:姐姐……我的姐姐……
-()||<SE1>AVG_footsteps_woodfloor</SE1>:咚。+咚。
-()||:咚。
-()||:指挥官迈开沉重的步伐，军靴踏在地板上的声音，每一下都像是敲在威廉崩溃的神经上。+他的脸上没有任何表情，那是一种比愤怒更可怕的平静。
-NPC-William(15)<Speaker>威廉</Speaker>||<SE1>ClothingUp</SE1>:<size=50>站住！你这只臭虫……别过来！</size>
-()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:威廉歇斯底里地尖叫着，用他仅剩的手臂抄起一截断裂的金属管，毫无章法地挥了过来。
-()||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake>:嘭！
-()||:指挥官甚至没有闪避，任由管道砸在肩上，纹丝不动。
+()||<黑屏2><BIN>890</BIN><SE1>AVG_Lunasia_Born</SE1>:The light contracts. The fluttering blue butterflies fold inward, merging into a newly formed body. +"Lunasia" quietly closes her eyes. All the white Nyto around her grow still.
+NPC-William(18)<Speaker>William</Speaker>||<SE1>ClothingUp</SE1>:No... Impossible...
+()||:The mania and mockery on his face freeze into pure shock. He staggers backward, slamming into the main console behind him.
+NPC-William(18)<Speaker>William</Speaker>||:Sister... My sister...
+()||<SE1>AVG_footsteps_woodfloor</SE1>:Thud. +Thud.
+()||:Thud.
+()||:The Commander steps forward, each heavy footfall of their combat boots striking the ground like a blow against William's unraveling nerves. +Their face is completely expressionless—a calm more terrifying than anger.
+NPC-William(15)<Speaker>William</Speaker>||<SE1>ClothingUp</SE1>:<size=50>Stay back! You filthy vermin... Don't come any closer!</size>
+()||<SE1>AVG_20Winter_Knife_Whoosh</SE1>:William screams hysterically, grabbing a broken metal pipe with his remaining arm and swinging it wildly.
+()||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0%%range=3</controll_shake>:Bang!
+()||:The Commander does not even dodge. The pipe hits them on the shoulder, but they do not even flinch.
 ()||<SE1>Stop_AVG_loop</SE1><CGDelay>0.1</CGDelay>:
-()||<SE1>AVG_Cloak_Whoosh</SE1>:下一秒，指挥官反手便用枪托狠狠砸在威廉的手腕上。
-()||<SE1>AVG_Dismember</SE1><SE1>AVG_Punch_Hit</SE1><震屏3><BGM>BGM_ev2408_DanceWithDeath</BGM>:咔嚓！
-NPC-William(18)<Speaker>威廉</Speaker><Shake>||:<size=50>呃啊！</size>
-()||:骨骼碎裂的脆响中，威廉发出一声悲鸣，金属管道脱手飞出。
-()||<SE1>Rope</SE1>:指挥官顺势丢开手枪，抓住威廉的衣领，一记凶狠的右勾拳结结实实地打了上去。
-()||<SE1>AVG_Punch_Hit</SE1><震屏3>:嘭！
-()||<SE1>Rope</SE1>:指挥官没有停手，揪着威廉的头发，把他的脸狠狠地撞向一旁的显示屏幕。
-()||<SE1>AVG_Door_Hit</SE1><震屏3><SE1>AVG_bigglassbreak</SE1>:砰！
-()||:屏幕应声碎裂，玻璃碴混着血迹四处飞溅。
-NPC-William(18)<Speaker>威廉</Speaker><Shake>||:为什么……咳……+为什么……你这样的人……+能做到这种地步……！
-NPC-William(18)<同时置暗><Speaker>指挥官</Speaker>||:……
-()||<SE1>Rope</SE1>:指挥官没有做出任何回答，反扭威廉的手臂将他压倒在地，然后挥起了拳头。
-()<Speaker>指挥官</Speaker>||:因为那些被你利用和抛弃的人。+因为那些被玷污的理想和被践踏的心血。
-()||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=4</controll_shake><SE1>AVG_Combat_Hits</SE1><CGDelay>0.5</CGDelay>:血肉模糊的闷响在空旷的实验室里不断回荡，威廉的咒骂逐渐变成了微弱的哀嚎。
-()||<SE1>ClothingUp</SE1>:指挥官大口地喘着粗气，胸口剧烈地起伏，缓缓站起身，捡起了地上的手枪。
-NPC-William(18)<Speaker>威廉</Speaker><Shake>||:咕……咳……
-()||:在指挥官的面前，威廉艰难地站起，他的牙齿被鲜血染红，看向指挥官的眼中充满了憎恨与怨愤。
-()<Speaker>指挥官</Speaker>||:……这次，你逃不掉了。
-NPC-William(17)<Speaker>威廉</Speaker>||:呵……呵呵呵……
-()||:威廉啐了一口，脸上是张狂的笑意。
-NPC-William(17)<Speaker>威廉</Speaker>||:逃？+哪有落幕的时候，主角不在舞台上的戏剧？
-NPC-William(17)<同时置暗><Speaker>指挥官</Speaker>||:……
-()||<SE1>AVG_weapon_reload</SE1>:咔！
-()||:清脆的机簧声响起，子弹上膛。+威廉残破的喉咙里发出“嗬嗬”的声音，眼中倒映出指挥官黑洞洞的枪口。
+()||<SE1>AVG_Cloak_Whoosh</SE1>:In the next instant, the Commander slams the butt of their gun into William's wrist.
+()||<SE1>AVG_Dismember</SE1><SE1>AVG_Punch_Hit</SE1><震屏3><BGM>BGM_ev2408_DanceWithDeath</BGM>:Crack!
+NPC-William(18)<Speaker>William</Speaker><Shake>||:<size=50>Gah!</size>
+()||:The crisp sound of bone shattering echoes as William cries out, the pipe flying from his grasp.
+()||<SE1>Rope</SE1>:The Commander discards their pistol in the same motion, seizes William by the collar, and drives a brutal right hook into his face.
+()||<SE1>AVG_Punch_Hit</SE1><震屏3>:Thunk!
+()||<SE1>Rope</SE1>:They do not stop at that. Grabbing William by the hair, they smash his face into the nearby display.
+()||<SE1>AVG_Door_Hit</SE1><震屏3><SE1>AVG_bigglassbreak</SE1>:Crash!
+()||:The screen shatters, shards of glass scattering with streaks of blood.
+NPC-William(18)<Speaker>William</Speaker><Shake>||:Why... cough... +Why would... someone like you... +go this far...!
+NPC-William(18)<同时置暗><Speaker>Commander</Speaker>||:...
+()||<SE1>Rope</SE1>:The Commander gives no answer. They twist William's arm behind his back, slamming him to the ground, then raises their fist again.
+()<Speaker>Commander</Speaker>||:Because of the people you used and discarded. +Because of the ideals you defiled and the work you trampled.
+()||<controll_shake>%%type_id=2%%duration=4%%delay=0%%range=4</controll_shake><SE1>AVG_Combat_Hits</SE1><CGDelay>0.5</CGDelay>:The dull, wet impacts echo through the vast laboratory. William's curses weaken into broken groans.
+()||<SE1>ClothingUp</SE1>:The Commander breathes heavily, chest heaving, then slowly rises and picks up the pistol from the ground.
+NPC-William(18)<Speaker>William</Speaker><Shake>||:Ugh... cough...
+()||:William struggles to his feet before them, teeth stained red with blood, his eyes burning with hatred.
+()<Speaker>Commander</Speaker>||:...This time, you cannot escape.
+NPC-William(17)<Speaker>William</Speaker>||:Heh... hehehe...
+()||:William spits, a manic grin spreading across his face.
+NPC-William(17)<Speaker>William</Speaker>||:Escape? +What kind of finale has the protagonist absent from the stage?
+NPC-William(17)<同时置暗><Speaker>Commander</Speaker>||:...
+()||<SE1>AVG_weapon_reload</SE1>:Click.
+()||:The crisp sound of the mechanism echoes as the round is chambered. +A rasping sound escapes William's ruined throat. The dark muzzle of the gun is reflected in his eyes.
 ()||<黑屏1>:
-()||<BIN>9</BIN><黑屏2>:——面对空洞，黑暗，深邃的枪口，以及指挥官那决然的面孔，巴拉德真正意识到了。+他就要死了。
-NPC-William(19)<Speaker>威廉</Speaker><Shake>||:……混账，混账，混账……+为什么我……为什么我会……+会被你这种小人物！虫子！垃圾！逼到这种地步啊！！
+()||<BIN>9</BIN><黑屏2>:Facing the Commander's resolute expression and that hollow, endless darkness, Ballard finally understands. +He is about to die.
+NPC-William(19)<Speaker>William</Speaker><Shake>||:...Damn you... damn you... damn you... +How... how could I... +How could I be cornered by someone like you?! A nobody! A worm! Trash!!
 ()||<hide_dialogue><ShootPanel>%%shootingCount=1%%picturename=NPC_William_live2d_2_New_Live2D%%path=AVGPicPrefabs%%bgnum=890%%manualCount=1,,%%waitMotion=-110%%shootMotion=201%%gunShootMotion=203%%gunWaitMotion=-110%%audio=AVG_Pistol-0.2,AVG_Pistol-0.6,AVG_Pistol-1,AVG_Tinnitus-1%%tween=11-0.1,11-0.4,11-0.7,12-1.55</ShootPanel>:
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-()||<BIN>9</BIN><黑屏2>:——嗅着火油，鲜血，硝烟的气味，看着巴拉德那因痛苦而扭曲的面孔，指挥官想起了很多事情。+都要结束了。
-NPC-Kalin(0)<Speaker>格琳娜</Speaker>||:指挥官！
-M4A1Mod(0)<Speaker>M4A1</Speaker>||:指挥官。
-AR15Mod(0)<Speaker>AR15</Speaker>||:指挥官。
-M4 SOPMOD IIMod(0)<Speaker>M4 SOPMODII</Speaker>||:指挥官~！！
-RO635Mod(5)<Speaker>RO635</Speaker>||:……指挥官。
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||:干得不赖，指挥官。
-NPC-Ange(0)<Speaker>安洁莉娅</Speaker>||:……做得好。
-()<Speaker>指挥官</Speaker>||:……
-()||:恍惚中，指挥官的视觉又一次回到了眼前。+持枪的手不知何时，手心已浸透了汗水，然而，却从未如此之稳。
+()||<BIN>9</BIN><黑屏2>:The smell of fuel, blood, and gunpowder fills the air. The sight of Ballard's face, so twisted with pain, reminds the Commander of many things. +It is all coming to an end.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Commander!
+M4A1Mod(0)<Speaker>M4A1</Speaker>||:Commander.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Commander.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMODII</Speaker>||:Commander~!!
+RO635Mod(5)<Speaker>RO635</Speaker>||:...Commander.
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||:Not bad, Commander.
+NPC-Ange(0)<Speaker>Ange</Speaker>||:...Well done.
+()<Speaker>Commander</Speaker>||:...
+()||:The Commander's mind snaps back to the present. +At some point, the hand holding the gun has become slick with sweat. Yet it has never been steadier.
 ()||<CloseOldEffect><hide_dialogue><ShootPanel>%%shootingCount=1%%picturename=NPC_William_live2d_2_New_Live2D%%path=AVGPicPrefabs%%bgnum=890%%manualCount=1%%waitMotion=111%%shootMotion=202%%gunShootMotion=201%%gunWaitMotion=-110%%audio=AVG_Pistol-0.2,AVG_Pistol-0.6,AVG_Pistol-1,AVG_Tinnitus-1%%tween=13-0,11-0.1,11-0.4,11-0.7,12-1.5</ShootPanel>:
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-NPC-William(20)<Speaker>威廉</Speaker>||<BIN>9</BIN><黑屏2>:混……混账……住……住手……
+NPC-William(20)<Speaker>William</Speaker>||<BIN>9</BIN><黑屏2>:Bas... Bastard... Stop... stop it...
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-NPC-Kalin(1)<Speaker>格琳娜</Speaker>||<BIN>9</BIN><黑屏2>:您只需要清理小范围的铁血就好了哦！
-()<Speaker>指挥官</Speaker>||:……
-NPC-Kyruger(0)<Speaker>克鲁格</Speaker>||:……我们的目标，是更新世界的锋芒。
-()<Speaker>指挥官</Speaker>||:…………
-NPC-Griffin(1)<Speaker>爵士</Speaker>||:狐狸和刺猬，你想做哪一个？
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:………………
-()<Speaker>？？？？</Speaker>||:……往前走，别回头。
-()<Speaker>指挥官</Speaker>||:………………………………………………………………
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<BIN>9</BIN><黑屏2>:All you need to do is perform your duties and fend off the occasional minor attacks initiated by S.F.!
+()<Speaker>Commander</Speaker>||:...
+NPC-Kyruger(0)<Speaker>Kryuger</Speaker>||:"The shining beacon in a brave new world", do you still remember?
+()<Speaker>Commander</Speaker>||:
+NPC-Griffin(1)<Speaker>Earl</Speaker>||:Which will you be, the fox or the hedgehog?
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:...
+()<Speaker>???</Speaker>||:Head forward and don't look back.
+()<Speaker>Commander</Speaker>||:.......
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1>:
-NPC-William(20)<Speaker>威廉</Speaker><Shake>||<BIN>9</BIN><黑屏2>:……我…………怎么…………会…………
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>指挥官</Speaker>||:……再见了。+“威廉”
+NPC-William(20)<Speaker>William</Speaker><Shake>||<BIN>9</BIN><黑屏2>:...How... could I...
+()<Speaker>Commander</Speaker>||:...
+()<Speaker>Commander</Speaker>||:...Goodbye. +"William".
 ()||<CloseOldEffect><hide_dialogue><ShootPanel>%%shootingCount=1%%picturename=NPC_William_live2d_2_New_Live2D%%path=AVGPicPrefabs%%bgnum=890%%manualCount=1%%waitMotion=112%%shootMotion=203%%gunShootMotion=202%%gunWaitMotion=-110%%audio=AVG_Pistol-0.3,AVG_Pistol-1,AVG_tinnitus_0-1%%tween=13-0,11-0.1,11-0.55,12-1.5</ShootPanel>:
 ()||<黑屏1>:
 ()||<BIN>9</BIN><黑屏2>:
 ()||<controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake><BIN>890</BIN><SE1>AVG_rifle_finalshot_h</SE1><CGDelay>0.6</CGDelay><BGM>BGM_Empty</BGM>:
-()||<CGDelay>0.5</CGDelay><SE1>AVG_Bullet_Hit_Body</SE1>:最后一发枪声炸响，子弹贯穿了威廉的额头，将他最后残存的意识彻底抹除。
-()<Speaker>指挥官</Speaker>||:……
-()||<SE1>ClothingUp</SE1>:指挥官缓步上前，蹲下身，确认倒在地上的尸体已经彻底失去了呼吸。
+()||<CGDelay>0.5</CGDelay><SE1>AVG_Bullet_Hit_Body</SE1>:The final gunshot rings out. The bullet pierces William's forehead, erasing the last remnants of his consciousness.
+()<Speaker>Commander</Speaker>||:...
+()||<SE1>ClothingUp</SE1>:The Commander steps forward, squats down, and confirms that the body on the ground has completely ceased breathing.
 ()||<CGDelay>0.2</CGDelay><BIN>9</BIN>:
-()||<CGDelay>0.4</CGDelay><narrator>:威廉，死了。                    
+()||<CGDelay>0.4</CGDelay><narrator>:William is dead.
 ()||<黑屏1>:
-()<Speaker>丹德莱</Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>890</BIN><黑屏2><BGM>BGM_ev2412_tranquility</BGM>:满足了吗？指挥官。
-()||:清冷而熟悉的声音在身后响起，新生的丹德莱正静静地看着他。
+()<Speaker>Dandelion</Speaker>||<BGM>BGM_ev2412_tranquility</BGM><BIN>890</BIN><黑屏2><BGM>BGM_ev2412_tranquility</BGM>:Satisfied, Commander?
+()||:A cool, familiar voice sounds from behind them. The reborn Dandelion stands quietly, watching.
 ()||<黑屏1>:
 ()||<CGDelay>0.5</CGDelay><黑屏2><BIN>898</BIN>:
-()<Speaker>指挥官</Speaker>||:……我追求的，从来不是杀死某一个人的快感。+我杀他并不是为了泄愤，而是为了……更正确的目标。
-()<Speaker>丹德莱</Speaker>||:是吗。
-()||:指挥官转身看向了“丹德莱”。
-()||:就在刚刚进入这房间的时候，眼前这个人，还是挡在自己和威廉之间最后的障碍。+而现在，不需要任何确认，指挥官轻易便能看出，她已经成为了自己的同伴。
-()||:甚至于……
+()<Speaker>Commander</Speaker>||:...What I sought was never the thrill of killing someone. +I did not kill him for revenge, but for... a more righteous purpose.
+()<Speaker>Dandelion</Speaker>||:Is that so.
+()||:The Commander turns to look at "Dandelion".
+()||:Moments ago, she stood as the final obstacle between them and William. +Now, without any need for confirmation, they just know—she is an ally.
+()||:And more than that...
 ()||<黑屏1>:
 ()||<BIN>25</BIN><黑屏2><CGDelay>0.3</CGDelay><回忆>:
-()<Speaker>M4A1</Speaker>||<CGDelay>0.7</CGDelay>:是你吗？指挥官？
+()<Speaker>M4A1</Speaker>||<CGDelay>0.7</CGDelay>:Is it you... Commander?
 ()||<黑屏1>:
 ()||<BIN>898</BIN><黑屏2><CGDelay>0.3</CGDelay><关闭蒙版>:
-()<Speaker>指挥官</Speaker>||:……
-()||:或许是一切尘埃落定的实感令自己的身心都放松了下来，那一瞬间，在那张熟悉的脸上，指挥官仿佛看到了过去的影子与现实的重叠。
-()||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:下意识地，指挥官抬起了没有握枪的那只手，摸了摸自己没有压住的嘴角。
-()||<CGDelay>0.4</CGDelay>:真怀念啊。
+()<Speaker>Commander</Speaker>||:...
+()||:Perhaps it's the sense of relief they feel now that the dust has settled. For a fleeting moment, the past and present seem to overlap on that familiar face.
+()||<CGDelay>0.5</CGDelay><SE1>ClothingUp</SE1>:The Commander's free hand brushes the corner of their grinning lips out of reflex.
+()||<CGDelay>0.4</CGDelay>:This brings me back.
 ()||<白屏1><SE1>AVG_Lunasia_Born</SE1>:
-()<Speaker>丹德莱</Speaker>||<BIN>902</BIN><白屏2>:……
-()||:而就在这一瞬间，在指挥官的眼前，那“影子”骤然出现了某种“变化”。
-()||:“她”身上的装具，外衣，乃至妆容都如同流沙一般开始流动，只在转瞬之间，她的面貌便产生了翻天覆地的变化，变成了指挥官更熟悉的，属于“丹德莱”的样子。
-()<Speaker>指挥官</Speaker>||:……！？
-()<Speaker>丹德莱</Speaker>||:看呆了吗？指挥官？+可惜，还是这幅样子更适合我。
-()<Speaker>指挥官</Speaker>||:你……你是怎么……
-()<Speaker>丹德莱</Speaker>||:“她”的装备都是纳米无人机构成的，不然你以为，那些蓝色的蝴蝶都是什么？+露尼西亚的幽灵吗？
-()<Speaker>指挥官</Speaker>||:……
-()||:重叠的幻影在轻佻的声音中轻易破碎，指挥官揉了揉眼，思绪又回到现实。
-()<Speaker>指挥官</Speaker>||:你……不。+你们究竟是怎么做到的？+这些事……还有之前发生的一切……所有的事都像M4说的一样发生。+这就是希岸空间的力量？……M4说的，我要付出的代价，又是什么？
-()<Speaker>丹德莱</Speaker>||:……
-()||:丹德莱微微颔首，并没有立即做出回答。+她脸上轻佻的神色也缓缓褪去，取而代之的，是自眼底溢出的肃穆。
-()<Speaker>丹德莱</Speaker>||:指挥官……
-()<Speaker>指挥官</Speaker>||:……什么？
-()<Speaker>丹德莱</Speaker>||:在回答你的问题之前。+我也有三个问题，如果你能够给予回答。+我就告诉你，这一切是怎么发生的，而真正的代价又究竟是什么。
-()<Speaker>指挥官</Speaker>||:……+你问吧。
-()<Speaker>丹德莱</Speaker>||:第一……+——“女神”是否只有一个？
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>丹德莱</Speaker>||:第二，“女神”是否全知全能？
-()<Speaker>指挥官</Speaker>||:…………
-()<Speaker>丹德莱</Speaker>||:第三……
-()<Speaker>丹德莱</Speaker>||:被“女神”改变过的世界，是否还曾经存在过？
-()<Speaker>指挥官</Speaker>||<CGDelay>0.3</CGDelay>:………………………………………………
-()||:指挥官无法回答任何一个问题。
-()<Speaker>丹德莱</Speaker>||:看来您明白了。+那么，请答应我一件事，指挥官。+永远不要去探求关于“希岸空间”的任何事。+不要去触碰，不要去理解，更不要去尝试。
-()<同时置暗><Speaker>指挥官</Speaker>||:……我答应你。
-()<Speaker>丹德莱</Speaker>||<CGDelay>0.5</CGDelay>:很好。+那么……
-()||:丹德莱向着指挥官行了一个标准的贵族礼，随即，一只手划向一侧，指引向不远处沉默的主控台。
-()<Speaker>丹德莱</Speaker>||:敬请踏上下一条道路吧。
+()<Speaker>Dandelion</Speaker>||<BIN>902</BIN><白屏2>:...
+()||:And in that instant, the "shadow of the past" before them shifts.
+()||:Her gear, her coat, and even her appearance flow like sand, changing dramatically in the blink of an eye into a form far more familiar—Dandelion.
+()<Speaker>Commander</Speaker>||:...?!
+()<Speaker>Dandelion</Speaker>||:Stunned, Commander? +Unfortunately, this form suits me better.
+()<Speaker>Commander</Speaker>||:How... how did you...
+()<Speaker>Dandelion</Speaker>||:Her gear is made of nanomachines. Otherwise, what did you think those blue butterflies were? Lunasia's ghost?
+()<Speaker>Commander</Speaker>||:...
+()||:The illusion of the overlapping figures shatters with her flippant tone. The Commander rubs their eyes as they're dragged back to reality.
+()<Speaker>Commander</Speaker>||:How... +How did you... how did you do this? +Everything... everything that happened... it all unfolded exactly as M4 said. +Is this the power of Nirvana? ...And what exactly is the price she mentioned?
+()<Speaker>Dandelion</Speaker>||:...
+()||:Dandelion inclines her head slightly but does not answer immediately. +The lightness fades from her expression, replaced by solemn gravity.
+()<Speaker>Dandelion</Speaker>||:Commander...
+()<Speaker>Commander</Speaker>||:...What?
+()<Speaker>Dandelion</Speaker>||:Before I answer you... +I have three questions. If you can answer them... +I will tell you everything, as well as explain the price you'll have to pay.
+()<Speaker>Commander</Speaker>||:... +Go ahead.
+()<Speaker>Dandelion</Speaker>||:First... +Is there only one "goddess"?
+()<Speaker>Commander</Speaker>||:...
+()<Speaker>Dandelion</Speaker>||:Second, is the "goddess" omniscient and omnipotent?
+()<Speaker>Commander</Speaker>||:...
+()<Speaker>Dandelion</Speaker>||:Third...
+()<Speaker>Dandelion</Speaker>||:If a world was altered by the "goddess", did it ever truly exist?
+()<Speaker>Commander</Speaker>||<CGDelay>0.3</CGDelay>:...
+()||:The Commander cannot answer a single one of the questions.
+()<Speaker>Dandelion</Speaker>||:I see you now understand. +Then promise me one thing, Commander. +Never seek any knowledge regarding Nirvana. +Do not touch it. Do not ponder it. Do not attempt it.
+()<同时置暗><Speaker>Commander</Speaker>||:...I promise.
+()<Speaker>Dandelion</Speaker>||<CGDelay>0.5</CGDelay>:Good. +Then...
+()||:Dandelion performs a perfect curtsy, then gestures toward the silent main control terminal.
+()<Speaker>Dandelion</Speaker>||:Please embark on your next journey.
 ()||<黑屏1>:
-()||<黑屏2><BIN>890</BIN><SE1>AVG_tele_connect</SE1>:哔——哔——哔——
-()||:刺耳的通讯请求声毫无征兆地响彻整个实验室，来源正是那台染血的主控台。
-()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:指挥官短暂地沉默，随即迈步上前，接通了通讯。
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:……是我。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>……祝贺你，指挥官。</color>
-()<Speaker>指挥官</Speaker>||:……+……我完成了承诺，米哈伊尔先生。+感谢您的帮助和支持……从今以后，不会再有帕拉蒂斯了。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>我知道，也许我比你还更早知道这个结果。</color>+<color=#00CCFF>所以我决定亲自向你表达感谢，指挥官，“盗火者”不会遗忘你的付出。</color>
-()<Speaker>指挥官</Speaker>||:……我不需要回报。
-()<Speaker>指挥官</Speaker>||:我已经得到了回报。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>别着急，指挥官，也许我们中的一些人做了令你失望的事。</color>+<color=#00CCFF>但每个人都会犯下错误，重要的是，将来。</color>
-()<Speaker>指挥官</Speaker>||:……
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>我们讨论过了，你需要冷静和休息。</color>+<color=#00CCFF>我们给你的车装上了足够的物资，你可以开着它，离开这里。</color>+<color=#00CCFF>永远不要再回来。</color>+<color=#00CCFF>除此之外，你的其他要求，我们也可以尽量满足。</color>
-()<Speaker>指挥官</Speaker>||:……+……我的确还有个要求。+关于我的……下属们。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>……</color>
-()||<CGDelay>0.5</CGDelay>:听完指挥官的话，老者沉默了一会。
-()<Speaker>老者的声音</Speaker>||:<color=#00CCFF>……这样的事情，还未曾有过前例。</color>+<color=#00CCFF>不过，没问题，我答应你。</color>
-()<Speaker>指挥官</Speaker>||:……谢谢。
-()||<CGDelay>0.5</CGDelay>:指挥官深吸了一口气。
-()<Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:……再见。
-()||<黑点1>:
+()||<黑屏2><BIN>890</BIN><SE1>AVG_tele_connect</SE1>:Beep! Beep! Beep!
+()||:A harsh incoming signal suddenly echoes through the lab, coming from the bloodstained terminal.
+()||<SE1>AVG_2023Slow_Keyboard_Correct</SE1>:The Commander pauses briefly, then steps forward and answers the call.
+()<Speaker>Commander</Speaker>||:...
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:...It's me.
+()<Speaker>Elderly Voice</Speaker>||:<color=#00CCFF>...Congratulations, Commander.</color>
+()<Speaker>Commander</Speaker>||:... +...I have fulfilled my promise, Mr. Mikhail. +Thank you for your assistance and support... From now on, Paradeus is no more.
+()<Speaker>Elderly Voice</Speaker>||:<color=#00CCFF>I know. In fact, I may have known even earlier than you.</color> +<color=#00CCFF>That is why I decided to thank you personally, Commander. The Prometheans will not forget your contribution.</color>
+()<Speaker>Commander</Speaker>||:...I don't need a reward.
+()<Speaker>Commander</Speaker>||:I have already received one.
+()<Speaker>Elderly Voice</Speaker>||:<color=#00CCFF>Do not be so quick to dismiss it, Commander. Some among us may have disappointed you.</color> +<color=#00CCFF>But everyone makes mistakes. What matters is the future.</color>
+()<Speaker>Commander</Speaker>||:...
+()<Speaker>Elderly Voice</Speaker>||:<color=#00CCFF>We have discussed the matter. You need rest. Time to cool down.</color> +<color=#00CCFF>We have prepared a vehicle with sufficient supplies. You may take it and leave this place.</color> +<color=#00CCFF>Do not ever return.</color> +<color=#00CCFF>If you have any other requests, we will do our best to accommodate them.</color>
+()<Speaker>Commander</Speaker>||:... +...I do have one request. +Regarding my... subordinates.
+()<Speaker>Elderly Voice</Speaker>||:<color=#00CCFF>...</color>
+()||<CGDelay>0.5</CGDelay>:The old man falls silent for a moment.
+()<Speaker>Elderly Voice</Speaker>||:<color=#00CCFF>...There is no precedent for such a request.</color> +<color=#00CCFF>But very well. I'll allow it.</color>
+()<Speaker>Commander</Speaker>||:...Thank you.
+()||<CGDelay>0.5</CGDelay>:The Commander takes a deep breath.
+()<Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:...Goodbye.
+()||<黑点1>:

@@ -1,99 +1,99 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BIN>9</BIN><narrator><黑屏2><BGM>GF_22W_BGM_1</BGM>:所谓“涅托”，最初，是一种将人体与机械结合，制造出的“类人生物”。+她们与人形有着截然不同的结构，却有着相似的命运和结局。
-()||<narrator>:经过无数次的迭代，她们被做得越来越像人，同时，也越来越非人。
+()||<BIN>9</BIN><narrator><黑屏2><BGM>GF_22W_BGM_1</BGM>:Nytos were, at the beginning, beings created by fusing human bodies with machinery—quasi-humans. Their makeup is fundamentally different from Dolls, yet their fates are strikingly similar.
+()||<narrator>:Through countless iterations, they become more and more human-like, and at the same time, more and more inhuman.
 ()||<黑屏1>:
 ()||<BIN>899</BIN><黑屏2><CGDelay>0.5</CGDelay>:
-()<Speaker>丹德莱</Speaker>||:——我在塔林，已见过了你们的本质。
-()<Speaker>露尼西亚（？）</Speaker>||:……
-()||:一十七。+并不算狭小的空间内，十七名手持镰刀的白涅托将“露尼西亚”团团包围。
-()||:她们之间默契的配合，就像同一个人延伸出的手脚。
+()<Speaker>Dandelion</Speaker>||:I have already seen your true nature in Tallinn.
+()<Speaker>Lunasia (?)</Speaker>||:...
+()||:Seventeen. +In this moderately spacious room, Seventeen white Nytos wielding scythes have "Lunasia" completely surrounded.
+()||:Their coordination is seamless, like limbs extended from a single body.
 ()||<黑点1>:
-()<Speaker>丹德莱</Speaker>||<黑点2><BIN>903</BIN><CGDelay>0.5</CGDelay>:被我入侵，和被你的小比尔控制，你觉得哪一种，对你们而言更为可悲？
-()<Speaker>露尼西亚（？）</Speaker>||:……你真是吵闹。
-()<Speaker>丹德莱</Speaker>||:吵闹的是我，还是我意念中那些属于你同类的声音？
+()<Speaker>Dandelion</Speaker>||<黑点2><BIN>903</BIN><CGDelay>0.5</CGDelay>:Between being hacked by me and being controlled by your Little Bill, which do you think is more pitiful for you Nytos?
+()<Speaker>Lunasia (?)</Speaker>||:...Quite the chatterer, aren't you?
+()<Speaker>Dandelion</Speaker>||:Is it my chatter that bothers you, or is it those voices in my head—the voices of your own kind?
 ()||<黑点1>:
-()||<黑点2><震屏3><BIN>890</BIN><SE1>AVG_20Winter_Knife_Whoosh</SE1>:咻——！
-()||<白屏2><SE1>AVG_Bullte_Ricochet</SE1>:——噹！
-()||:挥舞的镰刀划破空气的声音被金铁的交鸣替代，自蝴蝶般的少女掌中延伸的利刃，轻巧地挡下了这开金裂石的一击。
-()||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:“针”刺入了白涅托的身躯，仅仅只是一瞬，那具肉体便干瘪下去，转瞬即逝。
-()||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:而当她背朝的其他涅托一拥而上时，她振动着双翼，瞬间自人群中脱出，再落地时，便已到了远处。
-()||:一十六。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:……晚安。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:你在浪费时间，伪劣品。+你知道的，我最后还是会抓到你。+我会拆掉你那具可笑的素体，把你抽出来，用我的方式……好好料理。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:……
-()||<SE1>AVG_weapon_reload</SE1>:丹德莱拉了一下手中的枪。+她并不经常使用武器，但并不代表她不擅长。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:不必担忧。+不必畏惧。+不必疑惑。+不必思考。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:……！
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:你只诞生了极短的时间。+短到你甚至无法认知真正的自我。+只是单纯的，在模仿和扮演那个人需要你担任的角色。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:……住口。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:——住口！
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:那我换种方式。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||<BGM>BGM_Empty</BGM>:你听——
-()||<SE1>AVG_Lunasia_Born</SE1>:白光颤动，蓝色的蝴蝶在空气里震起看不见的弦；弦声像是从塔林的雪地、从“昙花”开放的那一刻掠回——
-()<Speaker>？？</Speaker>||<BGM>BGM_ev2410_RespectedGray</BGM>:我们是污泞中的雪泥。+我们是冷风里的悲号。+我们是同一朵花的影子。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:别装神弄鬼。+这里没有花。+这里只有我和——
-()||<SE1>AVG_Bullte_Ricochet</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:——噹！
-()||:又一柄镰刀被“针”轻轻偏开。
-()||<SE1>ClothingUp</SE1>:蓝蝶贴着金属划过，发出微不可闻的嗡鸣。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:有的。+只是你看不见。+花不在土里，在心智里；瓣不是组织，是洗脑与指令。+你散发出的那束仿真的香气，是他替你喷上的伪装；+而露尼西亚——真正的露尼西亚。+她的名字被写在水上，无人在意，无人问津。+就如她自己所希望的那样。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||<SE1>Rope</SE1>:我就是露尼西亚！+<size=50>我拥有露尼西亚的全部记忆！</size>
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:你拥有的，是“他希望你拥有的记忆”。+就像蒙太奇、贴片、校色。+小比尔剪出了一段他梦中的“姐姐”，你只是他的放映机。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:别急着反驳，先回答——+当你在黑暗里第一次醒来时，你呼唤的第一个名字是谁？
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker><Shake>||:……！
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:我替你说吧……不是他。+也不是你自己。+不是任何人。+是空白。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:空白没有回音，只有他在里面塞入的“姐姐”。+这就是你的诞生。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||<SE1>RunStep</SE1>:<size=50>闭嘴！</size>
-()||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1>:——咻！
-()||<SE1>AVG_Bullte_Ricochet</SE1>:“针”与“镰”在半空擦出一串看不见的火星
-()||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:白雾被热浪掀开，十余名白涅托如同共用着一具身体，对眼前的敌人发起围剿。+蓝蝶穿行其间，像将合唱一字字拆开，又一字字缝上。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:不必担忧。+不必畏惧。+不必疑惑。+不必思考。
-()||:一十五。+一十二。
-()||:一十。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:塔林的失败品。+你把她们穿在身上，就以为自己是神？+我有他的认可。+我就是完美的——
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:完美？+你的完美就是被剪辑到“合他口味”。+真正的完美，是能说“不”的自由。+——她说过“不”。+她拒绝用神的手来改造世界，
-()||<BIN>9</BIN><SE1>AVG_Power_Down</SE1><BGM>BGM_Empty</BGM>:蓝蝶在空中停住，像在某处无形的“键”上按下了回车。+阵列里，镰刀的光一盏盏熄掉。
-()||:声场忽然静了半拍，像某个更深的频道被打开。+那道声音与其说是回忆，不如说是被花海反射回来的现实。
+()||<黑点2><震屏3><BIN>890</BIN><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Whoosh—
+()||<白屏2><SE1>AVG_Bullte_Ricochet</SE1>:Clang!
+()||:The whistling of scythes cutting through the air is followed by the clash of metal. The blade extending from the butterfly-like girl's hand intercepts the strikes with effortless precision.
+()||<震屏3><SE1>AVG_Cut_Watermelon</SE1>:The "needle" pierces through a white Nyto. That body withers in an instant, vanishing as if it never existed.
+()||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:When the others swarm from behind, she flaps her wings and slips free from the encirclement. She lands again far away.
+()||:Sixteen.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:...Goodnight.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:You are wasting time, knock-off. +You know I will catch you eventually. +I will dismantle that ridiculous body of yours and pull you out, then deal with you... personally.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:...
+()||<SE1>AVG_weapon_reload</SE1>:Dandelion racks the slide of the gun in her hand. +She does not often use weapons, but that does not mean she is unskilled.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Do not fear. +Do not hesitate. +Do not question. +Do not fret.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:...!
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:You were born only a short time ago. +You haven't even had the time to comprehend your true self. +You're merely imitating and performing the role he assigned to you.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:...Shut up.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:Shut up!
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Then let me put it another way.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||<BGM>BGM_Empty</BGM>:Listen—
+()||<SE1>AVG_Lunasia_Born</SE1>:White light quivers. The blue butterflies stir unseen strings in the air. Their resonance seems to drift back from the snowy fields of Tallinn, from the moment the Epiphyllums bloomed...
+()<Speaker>???</Speaker>||<BGM>BGM_ev2410_RespectedGray</BGM>:We are the snow amidst the sludge. +We are the wailing in the cold wind. +We are shadows of the same flower.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:Cut out the theatrics. +There are no flowers here. +There is only me and—
+()||<SE1>AVG_Bullte_Ricochet</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:Clang!
+()||:Another scythe is deflected lightly by the "needle".
+()||<SE1>ClothingUp</SE1>:A blue butterfly glides across the metal, emitting a faint hum.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:There are. +You simply cannot see them. +The flower does not grow in soil—it exists within the mind. Its petals are not flesh, but conditioning and commands. +The scent you carry is artificial, a disguise that he sprayed onto you. +And Lunasia—the real Lunasia... +Her name is written on water. Forgotten. Ignored. +Just as she herself wished.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||<SE1>Rope</SE1>:I AM Lunasia! +<size=50>I have all of Lunasia's memories!</size>
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:What you have are the memories he WANTS you to have. +Like a montage, splicing, color grading. +Little Bill edited together the "elder sister" of his dreams, and you are merely the projector.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Don't rush to deny it. Just think about this— +When you first awakened in the darkness, whose name did you call?
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker><Shake>||:...!
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Let me answer for you... Not his. +Not your own. +Not anyone's. +Your mind was blank.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Nothing echoed in the blankness. Until he planted the word "sister" into it. +That is your origin.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||<SE1>RunStep</SE1>:<size=50>Shut up!</size>
+()||<震屏3><SE1>AVG_20Winter_Knife_Whoosh</SE1>:Whoosh—
+()||<SE1>AVG_Bullte_Ricochet</SE1>:Needle and scythe collide midair, throwing up invisible sparks.
+()||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:White smoke is torn apart by heat. More than a dozen Nytos move as one, surrounding their enemy. +The blue butterflies weave through them, dismantling a chorus into single notes, then stitching them back together.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Do not fear. +Do not hesitate. +Do not question. +Do not fret.
+()||:Fifteen. +Twelve.
+()||:Ten.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:These defective rejects from Tallinn. +You wear them like garments and think yourself a god? +I have his recognition. +I am perfect—
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Perfect? +Your perfection stems from the fact that you're edited "to his taste". +True perfection is the freedom to say no. +SHE said no. +She refused to reshape the world with the hands of a god.
+()||<BIN>9</BIN><SE1>AVG_Power_Down</SE1><BGM>BGM_Empty</BGM>:The blue butterflies pause midair, as if someone has pressed an invisible key. +One by one, the scythes go dark.
+()||:The soundscape falls silent for half a beat—a hidden channel has been opened. +That voice is less memory than it is reality reflected from a field of flowers.
 ()||<BIN>205</BIN><BGM>m_avg_labyrinth</BGM><白屏2><SE1>AVG_magic_circle_start</SE1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><narrator>:我来到这里，不是为了杀死谁……+看到那些记忆之后，我察觉到了。+我的运气比较好，仅此而已。+我越是对自己了解得越深，我越是对背后的一切感到厌恶。+但是她们是的，她们和我不同……我们明明身处同一个命运的天平之上，但我们位于命运不同的两端。+所以，我想要亲手帮她终结这种悲惨的命运。然后，帮助一切因为我而走向悲惨命运的一切。+如果不这么做的话……我也无法抬头挺胸地向前迈进。
+()<Speaker></Speaker>||<CGDelay>0.6</CGDelay><narrator>:I did not come here to kill anyone... +After seeing those memories, I realized something. +I was simply more fortunate. +The more I understand myself, the more I detest what lies behind everything. +But they... they are different from me. +We stand on the same scales of fate, yet on opposite ends. +So I want to end this tragic fate for her with my own hands—and for everything else that has suffered because of me. +If I don't do this... I cannot move forward with my head held high.
 ()||<黑屏1>:
 ()||<BIN>890</BIN><黑屏2><SE1>AVG_magic_circle_start</SE1><CGDelay>0.5</CGDelay>:
-()||:七。+五。
-()||:三。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker><Shake>||:——+……你，你以为你知道什么？+你只是失格者的合影。+不过是一团粘合的噪音——
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>;NPC-Lunasia(6)||:当然。+噪音，合唱，回声，失格。+我就是由她们组成的“我们”。+也正因如此，我知道“她”的重量。+她不会用“姐姐”的身份去宽慰一个孩子气的暴君。
-NPC_TT33Mod(2);NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:不——撒谎！+你休想欺骗我！假的……是你捏造的故事！+小比尔是我的全部！没有人能阻拦在我们姐弟面前！
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:故事里最容易撒谎的是配角——尤其是被写死的那种。+可惜你连“被写死”的资格都没有。+你没有属于自己的角色，只是一副假面。
-()||<SE1>ClothingUp</SE1>:丹德莱抬起了手。
-()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:一瞬间，空气像被无形的光标选中，就像水面上的涟漪，一圈圈逐渐聚拢。
-()||<SE1>AVG_weapon_reload</SE1><SE1>Select</SE1>:白涅托们“咔”的一声统一上膛，又在同一瞬清空了弹室——不是向外，而是向内——武器的能量被反向抽离，像潮水被月亮悄悄带走。
-()||:二。+一。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:比尔！+他需要我！我是他世界里唯一的——
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:你是他用来拒绝世界的借口。+而我，是她接纳世界的回信。
+()||:Seven. +Five.
+()||:Three.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker><Shake>||:... +...W-what do you think you know? +You are nothing but a collage of failures. +An ensemble of noise—
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>;NPC-Lunasia(6)||:Of course. +Noise. Chorus. Echo. Failure. +I am made of "them". +That is precisely why I understand the weight she carried. +She would never coddle a childish tyrant under the guise of being his "sister".
+NPC_TT33Mod(2);NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:No... Lies! +You cannot deceive me! That's... a fabricated story! +Little Bill is everything to me! No one will stand between us!
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:The likeliest liars in stories are supporting characters—especially the ones destined to be killed off by the author. +Unfortunately, you do not even qualify for that. +You have no role of your own. Only a mask.
+()||<SE1>ClothingUp</SE1>:Dandelion raises her hand.
+()||<SE1>AVG_21Winter_Ink_Drop_Single</SE1>:In that instant, the air feels as if it's been selected by an invisible cursor. Ripples gather, like water drawing inward.
+()||<SE1>AVG_weapon_reload</SE1><SE1>Select</SE1>:With a single "ka-chack", the white Nytos rack the slide on their weapons in unison, then empty the chambers at the same time. Not outward, but inward. Their weapons' energy is drained, like tides quietly pulled away by the moon.
+()||:Two. +One.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:Bill! +He needs me! I am the only one in his world—
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:You are his excuse to reject the world. +And I am her reply to embrace it.
 ()||<白屏1>:
-()||<白屏2><BIN>183</BIN><SE1>AVG_Lunasia_Born</SE1>:那本属于涅托的蓝蝶纷纷飞舞，光怪陆离，仿佛脱离了物理的本质。
+()||<白屏2><BIN>183</BIN><SE1>AVG_Lunasia_Born</SE1>:The blue butterflies scatter, luminous and surreal, as if freed from the laws of physics.
 ()||<SE1>AVG_Cut_Watermelon</SE1><BGM>BGM_Empty</BGM><CGDelay>0.3</CGDelay>:
-()||<SE1>AVG_Cut_Watermelon</SE1>:每一只都在她的指尖化为了一根细线，穿过“露尼西亚（？）”的肩胛、锁骨、胸腔——没有血，只有光；光被抽成纤维，又被一缕缕卷回丹德莱的掌心。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker><Shake>||:<size=50>——啊啊啊！</size>
-()||:她发出一声尖锐的惊叫，那并非源于肉体的痛苦，而是发自灵魂深处的战栗。
-()||<SE1>AVG_fall_into_water</SE1><SE1>AVG_21Winter_Girls_Chorus</SE1>:无数陌生的低语、破碎的画面、纷乱的情感，如潮水般涌入她的心智。
+()||<SE1>AVG_Cut_Watermelon</SE1>:Each one becomes a thread at her fingertips, piercing through "Lunasia's" shoulders, collarbone, and chest. There is no blood, only light. That light is drawn out, spun into fibers, and wound back into Dandelion's palm.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker><Shake>||:<size=50>—AAAAAHHHHHH!!</size>
+()||:Her scream is not of flesh, but of the soul.
+()||<SE1>AVG_fall_into_water</SE1><SE1>AVG_21Winter_Girls_Chorus</SE1>:Countless whispers, shattered images, fragmented emotions surge into her mind like a tidal wave.
 ()||<白屏1>:
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker><Shake>||<白屏2><BGM>BGM_AuguriesofInnocence</BGM><BIN>560</BIN>:<size=50>这是什么……噪音！滚出去！从我的意识里滚出去！</size>
-()||<SE1>AVG_Cloak_Whoosh</SE1>:她惊恐地后退，双手抱住头颅，仿佛这样就能抵御那无孔不入的“声音”。+那是她从未听过的合唱，充满了悲伤、不甘、与被遗忘的痛苦。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:这不是噪音，是回声。+是你被夺走，却从未真正忘记过的，同类的回声。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:<size=50>闭嘴！我跟你们这些失败品不一样！</size>+<size=50>我是完美的！我是“露尼西亚”！</size>
-()||<SE1>AVG_tinnitus_0</SE1><SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:她嘶吼着，强行压下脑海中的共鸣，挥舞着手臂想要挣脱那些光的丝线，但一切都是徒劳。
-()||<白屏2><SE1>AVG_whitenoise</SE1>:更多的“记忆”涌了进来——并非属于“露尼西亚”的记忆，而是属于无数个“她自己”的记忆。
-()||:被废弃在冰冷的仓库、被当做实验材料分解、在无尽的黑暗中等待指令……那些被强行剥离的痛苦，此刻正通过意识的链接，清晰地传递过来。
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:……为什么……为什么我会……感受到这些……+不……这不是我的记忆！不是！
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>;NPC-Lunasia(6)||:她们的痛苦，你真的感觉不到吗？+你所谓的“完美”，就是忘记自己是谁，去扮演另一个人吗？
-NPC_TT33Mod(2);NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:<size=50>住口！你懂什么！</size>+我……我是被需要的！小比尔需要我！我的存在是有意义的！
-NPC-Lunasia(6)<Speaker>露尼西亚（？）</Speaker>||:不像你们……你们只是一群被抛弃的、毫无价值的垃圾！
-()||:这是她最后的壁垒，是她被创造以来一直坚信的真理。+然而，那片意识的海洋用更加温柔，也更加悲悯的方式回应了她。
-NPC_TT33Mod(2)<Speaker>丹德莱</Speaker>||:被“需要”，和被“爱”，是不一样的。+他需要的，只是一个名为“露尼西亚”的幻影，一个能让他心安理得的道具。+而你们——而我们，虽然曾经一无所有，但我们现在拥有了彼此。+这种联系，才是真正的归宿。
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker><Shake>||<白屏2><BGM>BGM_AuguriesofInnocence</BGM><BIN>560</BIN>:<size=50>What is this... noise?! Get out! Get out of my head!</size>
+()||<SE1>AVG_Cloak_Whoosh</SE1>:She staggers back, clutching her head, as if that could block out the overwhelming voices. +It is a chorus she has never heard before, filled with the sorrow, resentment, and pain of being forgotten.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:This is not noise. They're echoes of your own kind. +Echoes of what was taken from you, yet never truly forgotten.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:<size=50>Shut up! I am not like you failed rejects!</size> +<size=50>I am perfect! I am Lunasia!</size>
+()||<SE1>AVG_tinnitus_0</SE1><SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0%%range=3</controll_shake>:She roars, suppressing the resonance, trying to tear free from the threads of light, but it is futile.
+()||<白屏2><SE1>AVG_whitenoise</SE1>:More memories flood in—not Lunasia's, but of countless versions of herself.
+()||:Abandoned in cold warehouses. Dismantled as experimental material. Left waiting for commands to be issued in endless darkness... +The pain of being extracted by force now returns through shared consciousness.
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:...Why... why can I feel this...? +No... these aren't my memories! They're not!
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>;NPC-Lunasia(6)||:Can you truly not feel their pain? +Is your so-called "perfection" nothing more than forgetting who you are and pretending to be someone else?
+NPC_TT33Mod(2);NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:<size=50>Shut up! You know nothing!</size> +I... I am needed! Little Bill needs me! My existence has meaning!
+NPC-Lunasia(6)<Speaker>Lunasia (?)</Speaker>||:Unlike you... You are nothing but discarded, worthless trash!
+()||:This is her final defense—the one "truth" that has formed her core belief since her creation. +But the ocean of consciousness responds gently, almost compassionately.
+NPC_TT33Mod(2)<Speaker>Dandelion</Speaker>||:Being needed... and being loved... are not the same. +What he needs is only an illusion called "Lunasia"—a tool to ease his conscience. +But you—we—though we once had nothing, we now have each other. +This connection... is where we truly belong.
 ()||<黑屏1>:
 ()||<BIN>9</BIN><BGM>BGM_Empty</BGM><黑屏2>:
 ()||<黑屏1>:
-()||<黑屏2><SE1>AVG_Bubble</SE1><BIN>569</BIN><CGDelay>0.6</CGDelay>:那片意识的海洋，在此刻化为了寂静而温柔的港湾。+痛苦的记忆并未消失，但它们不再是尖锐的哀嚎，而是沉淀下来，化作了相互依偎、彼此慰藉的安详与平静。
-()||<BIN>9</BIN><CGDelay>0.5</CGDelay>:她们……找到了归宿。
-()||:那一瞬间，“露尼西亚”感觉到，自己仿佛置身于某种温暖的怀抱之中。
-()||<黑点1>:
+()||<黑屏2><SE1>AVG_Bubble</SE1><BIN>569</BIN><CGDelay>0.6</CGDelay>:That ocean of consciousness becomes a quiet, gentle harbor. +The painful memories do not vanish, but they are no longer a scream, but a calm and mellow source of mutual comfort and companionship.
+()||<BIN>9</BIN><CGDelay>0.5</CGDelay>:They... have found a place to belong.
+()||:In that moment, "Lunasia" feels as if she is being held, cradled within a warmth she has never known.
+()||<黑点1>:

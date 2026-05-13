@@ -1,64 +1,64 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BGM>GF_EV9_Story</BGM><黑屏2><BIN>772</BIN>:2064年X月X日 法兰克福 白区 酒店
-()||<SE1>AVG_Wheelchair</SE1>:各种高级的医疗仪器，被送进了酒店的豪华套房内。
-NPC-Bodyguard2(0)<Speaker>留守特工</Speaker>||:……
-NPC-Bodyguard2(0)<同时置暗><Speaker>指挥官</Speaker>||:……
-()||<SE1>AVG_2023Slow_Heart_Monitor1</SE1>:带着仪器进入房间的医生们，为指挥官安排了一系列周密的身体检查。+而在此过程中，身形高大的特工全程守在门口一步不离。
-()<Speaker>医生</Speaker>||:……奇怪，左肩的伤很新，您做了什么吗？
-()<Speaker>指挥官</Speaker>||:我活动身体的时候不小心把伤口崩开了。+自己处理了一下，不打紧。
-()||:当医生问及被涅托伤到的地方时，特工低头按住耳麦像是汇报了什么，但指挥官听不见具体的内容。
-()<Speaker>医生</Speaker>||:我必须提醒您，您现在的状态绝不适合剧烈活动。+伤口需要静养，另外，您的血压和部分转氨酶活性有点偏高，应该是疲劳所致。
-()||:指挥官默默地点头。
-()||<SE1>AVG_2023Slow_Heart_Monitor1</SE1>:在随后的检查中，无论他还是医生们都几乎一言不发，房间里只能听到仪器运作时的响动。
-()<Speaker>医生</Speaker>||:其他的方面没有问题，还请好好休息。
-()||<SE1>AVG_Wheelchair</SE1>:终于，在漫长的检查结束后，医生们将各类设备重新打包，随后有序地离开了。
-()||<SE1>ClothingUp</SE1>:守在门口的特工负责在最后检查房间，他们连床底下和窗帘后的死角都没有放过。
-()||<SE1>AVG_20Winter_Door_Close</SE1><CGDelay>0.5</CGDelay>:在确认所有区域都没异样后，特工为指挥官关上了房门。
-()<Speaker>指挥官</Speaker>||:……呼。
-()||<SE1>ClothingUp</SE1>:宽敞的套房内终于恢复了安静，指挥官松了口气，靠在沙发上闭目养神。
-()||<SE1>AVG_tele_connect</SE1>:滴。
-()||:这时，放置在房间书桌上的一台平板亮起了光。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>我们的指挥官可真是贵宾，不仅住进了全法兰克福最豪华的总统套房，还能享受全套的医疗服务。</color>+<color=#00CCFF>指挥官，你有注意到那些医生的身份吗？其中甚至有卡罗林斯卡学院的在职教授。</color>
-()<Speaker>指挥官</Speaker>||:多亏这些厉害的医生，我被袭击的事应该是被察觉到了。+计划的准备，必须抓紧。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>目前的进展还算顺利，不久前，你那位可爱的后勤官已经和404一起与M16成功汇合了。</color>
-()<Speaker>指挥官</Speaker>||:让她们暂时保持静默，等候消息。
-()||<SE1>AVG_20Winter_Doorbell</SE1><BGM>BGM_Empty</BGM>:叮！+就在这时，房间的门铃又一次不合时宜地响起。
-()<Speaker>指挥官</Speaker>||:……谁？
-()||<SE1>AVG_tele_disconnect</SE1>:在门铃响起的刹那，平板瞬间熄灭。+丹德莱的身影以及它入侵的痕迹在极短的时间内被擦除。
-()||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:指挥官走到门前，打开了通讯器。
+()||<BGM>GF_EV9_Story</BGM><黑屏2><BIN>772</BIN>:██/██/2064. At a hotel in the White Zone of Frankfurt.
+()||<SE1>AVG_Wheelchair</SE1>:All kinds of advanced medical equipment are brought into the hotel's luxury suite.
+NPC-Bodyguard2(0)<Speaker>Agent</Speaker>||:...
+NPC-Bodyguard2(0)<同时置暗><Speaker>Commander</Speaker>||:...
+()||<SE1>AVG_2023Slow_Heart_Monitor1</SE1>:The doctors who enter with the equipment conduct a thorough series of examinations on the Commander. +Throughout the entire process, a tall agent stands guard at the door, never leaving his post.
+()<Speaker>Doctor</Speaker>||:...Strange. The wound on your left shoulder is very recent. What happened?
+()<Speaker>Commander</Speaker>||:I reopened it by accident while moving my body. +I treated it myself. It's nothing serious.
+()||:When the doctor asks about the injuries inflicted by the Nytos, the agent lowers his head and presses a finger to his earpiece, as if reporting something. The Commander cannot hear what is being said.
+()<Speaker>Doctor</Speaker>||:I must remind you—strenuous activity is absolutely forbidden in your current condition. +Your wounds require rest. Also, your blood pressure and certain transaminase levels are slightly elevated, likely due to fatigue.
+()||:The Commander nods silently.
+()||<SE1>AVG_2023Slow_Heart_Monitor1</SE1>:During the rest of the examination, both the Commander and the doctors speak very little. All that can be heard is the quiet hum of medical instruments.
+()<Speaker>Doctor</Speaker>||:There are no other issues. Please make sure to get proper rest.
+()||<SE1>AVG_Wheelchair</SE1>:At last, after the long examination concludes, the doctors pack up their equipment and leave in an orderly manner.
+()||<SE1>ClothingUp</SE1>:The agent at the door conducts a final inspection of the room, checking even beneath the bed and behind the curtains.
+()||<SE1>AVG_20Winter_Door_Close</SE1><CGDelay>0.5</CGDelay>:Satisfied that nothing seems to be out of the ordinary, he closes the door behind him.
+()<Speaker>Commander</Speaker>||:...Phew.
+()||<SE1>ClothingUp</SE1>:The suite finally grows still. The Commander exhales, leans back on the sofa, and closes their eyes.
+()||<SE1>AVG_tele_connect</SE1>:Beep.
+()||:At that moment, a tablet on the desk lights up.
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>Our Commander is truly a VIP—staying in the most luxurious presidential suite in all of Frankfurt, with full medical services to boot.</color> +<color=#00CCFF>Did you notice the doctors? There's even a current professor from the Karolinska Institutet among them.</color>
+()<Speaker>Commander</Speaker>||:Thanks to such capable doctors, my injuries were probably noticed. +We need to accelerate our preparations.
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>Things are progressing smoothly so far. Not long ago, your dear logistics officer successfully rendezvoused with 404 and M16.</color>
+()<Speaker>Commander</Speaker>||:Have them maintain radio silence and await further instructions for now.
+()||<SE1>AVG_20Winter_Doorbell</SE1><BGM>BGM_Empty</BGM>:Ding! +Just then, the doorbell rings again—in a most untimely fashion.
+()<Speaker>Commander</Speaker>||:...Who is it?
+()||<SE1>AVG_tele_disconnect</SE1>:The tablet goes dark the instant the doorbell rings. +Dandelion's presence—and all traces of her intrusion—are erased in an instant.
+()||<SE1>AVG_2023Slow_Keyboard_Enter</SE1>:The Commander walks to the door and activates the intercom.
 ()||<黑屏1>:
-()<Speaker>？？？</Speaker>||<黑屏2><BIN>9</BIN>:<color=#00CCFF>开门吧，指挥官，我是专程来看你的。</color>
-()||:指挥官通过猫眼摄像头，看到哈维尔一个人站在门口，留守的特工没有和他在一起。
-()||<SE1>AVG_20Winter_Door_Open</SE1>:指挥官打开门，让哈维尔走进房间。
+()<Speaker>???</Speaker>||<黑屏2><BIN>9</BIN>:<color=#00CCFF>Open the door, Commander. I came all this way just to see you.</color>
+()||:Through the peephole camera, they can see Havier standing alone outside. The stationed agent is nowhere in sight.
+()||<SE1>AVG_20Winter_Door_Open</SE1>:The Commander opens the door and lets him in.
 ()||<黑点1>:
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||<黑点2><BIN>772</BIN><BGM>GF_EV9_Intermission</BGM>:怎么样，住在这里还习惯吗？+如果有什么不方便的地方，我们也准备了其他酒店。
-NPC-Havel(0)<同时置暗><Speaker>指挥官</Speaker>||:……不用了，这里很好。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我听医生说你的伤势拖了很久？+要保重身体啊，指挥官，你现在可是整个法兰克福的英雄。
-NPC-Havel(0)<同时置暗><Speaker>指挥官</Speaker>||:只是一点小伤，谢谢你的关心。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:关于把你强行带回来这件事，希望你不要责怪。+这既是来自爵士的委托，也是考虑到你的安全。
-NPC-Havel(0)<同时置暗><Speaker>指挥官</Speaker>||:哈维尔先生……您特意前来，应该是有更重要的事情要说吧？
-()||<SE1>ClothingUp</SE1>:哈维尔走到沙发前面坐下，像是在思考该怎样开口。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:关于你的金星勋章……+爵士希望在一个更加正式的场合正式授予。+……和其他人一起。
-NPC-Havel(0)<同时置暗><Speaker>指挥官</Speaker>||:……哼。
-()||:指挥官冷笑了一声，没有再说话。
-NPC-Havel(1)<Speaker>哈维尔</Speaker>||:我知道这对你来说是个不小的挑战。+但我想你应该也已经明白。+失去爵士的支持，你的一切行动都无法成功。+人力是无法阻挡大势的。
-NPC-Havel(1)<同时置暗><Speaker>指挥官</Speaker>||:……
-NPC-Havel(1)<Speaker>哈维尔</Speaker>||:不管是为了你自己还是身边的人，我希望你好好思考一下该怎么做。
-()||:……哈维尔本可以在通讯中传达这件让他和指挥官都显得有些难堪的事。+他之所以亲自前来，是为了展现对指挥官的……诚意。
-()||:然而，指挥官依然始终保持着沉默，目光死死地盯着窗外的白区街道。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:……房间里的那种格兰威特，我只喝过一次。+那是在爵士的撮合下，IOP与格里芬达成合作的时候。+爵士特地把它放在这里，你应该明白其中的含义吧？
-()||:窗外的街道井井有条，用全息影像所制造出的云朵，正悠闲地漂浮于蔚蓝色的天幕上。+这里是位于地下的白区，法兰克福的政商要员以及各国的要员大多住在这里。
-()||:与一片狼藉，亟待重建的地面上不同，这里的街道依旧保持着整洁有序，几乎没有在战争中遭受到多少破坏。
-()<Speaker>指挥官</Speaker>||:……哈维尔先生。+我非常感谢你之前帮我争取到的十二个小时。
-NPC-Havel(1)<Speaker>哈维尔</Speaker>||:我并不知道你在说什么，指挥官，所以恐怕没法接受你的感激。+不过……年轻人的想法，总是会和老一辈的不同，越是在变革的时代就越是如此。
-()||<SE1>ClothingUp</SE1>:哈维尔用拐杖支撑着身体站了起来。
-NPC-Havel(0)<Speaker>哈维尔</Speaker>||:我希望我们还有机会像这样坐在一起聊天，指挥官。+不管是聊什么。
-NPC-Havel(0)<同时置暗><Speaker>指挥官</Speaker>||<CGDelay>0.5</CGDelay>:……我也希望。
+NPC-Havel(0)<Speaker>Havier</Speaker>||<黑点2><BIN>772</BIN><BGM>GF_EV9_Intermission</BGM>:How is it? Comfortable staying here? +If anything's not to your liking, we've prepared other hotels.
+NPC-Havel(0)<同时置暗><Speaker>Commander</Speaker>||:...No need. This is fine.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I heard from the doctors that your injury is taking a while to heal? +Take care of yourself, Commander. You are now a hero of all Frankfurt.
+NPC-Havel(0)<同时置暗><Speaker>Commander</Speaker>||:It's nothing major. Thank you for your concern.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I hope you don't take offense at being forcibly brought back to the hotel. +It was both at the Earl's request... and for your safety.
+NPC-Havel(0)<同时置暗><Speaker>Commander</Speaker>||:Mr. Havier... you must have something more important to discuss, if you came all this way?
+()||<SE1>ClothingUp</SE1>:Havier walks to the sofa and sits down, as if considering how to begin.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:Regarding your Gold Star medal... +The Earl would like to award it to you in a more formal setting. +...In the company of other recipients.
+NPC-Havel(0)<同时置暗><Speaker>Commander</Speaker>||:...Humph.
+()||:The Commander lets out a cold chuckle and says nothing more.
+NPC-Havel(1)<Speaker>Havier</Speaker>||:I know it's asking a lot from you. +But I believe you're perfectly aware... +None of your actions will succeed without the Earl's support, . +Individuals cannot resist the tide of history.
+NPC-Havel(1)<同时置暗><Speaker>Commander</Speaker>||:...
+NPC-Havel(1)<Speaker>Havier</Speaker>||:For your own sake—and for those around you—I hope you think carefully about what to do.
+()||:...Havier could have conveyed this unpleasant message over a call. +The fact that he has come in person is meant to show... sincerity.
+()||:And yet, the Commander remains silent, their gaze still fixed on the White Zone streets outside the window.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:...I've only had that Glenlivet once before. +It was when IOP and Griffin established their partnership under the Earl's arrangement. +You understand why the Earl has the bottle placed right here, don't you?
+()||:Outside, the streets are immaculate. Artificial clouds drift leisurely across a holographic blue sky. +This is the underground White Zone, home to Frankfurt's political and business elites, as well as dignitaries from various nations.
+()||:Unlike the devastated surface still awaiting reconstruction, this place remains pristine, barely touched by the war.
+()<Speaker>Commander</Speaker>||:...Mr. Havier. +I'm very grateful for the 12 hours you bought me.
+NPC-Havel(1)<Speaker>Havier</Speaker>||:I'm afraid I don't know what you're referring to, Commander, so I can't accept your gratitude. +However... the young often have different ideas and beliefs than the older generation. Especially in times of change.
+()||<SE1>ClothingUp</SE1>:Using his cane, Havier pushes himself to his feet.
+NPC-Havel(0)<Speaker>Havier</Speaker>||:I hope we'll get to sit and talk like this again, Commander. +About anything.
+NPC-Havel(0)<同时置暗><Speaker>Commander</Speaker>||<CGDelay>0.5</CGDelay>:...So do I.
 ()||<黑点1><SE1>AVG_20Winter_Door_Open</SE1><CGDelay>0.7</CGDelay>:
 ()||<黑点2><CGDelay>0.5</CGDelay><SE1>AVG_20Winter_Door_Close</SE1>:
-()||:在哈维尔离开后，指挥官陷入了良久的沉默。+这段日子，指挥官罕见地陷入了一个难以像过去那样四处奔波的境地。
-()||:这样的境地，很益于用作思考。+安静的，沉默的，有效的……思考。
-()<Speaker>丹德莱</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>哎呀呀，你不会被那个老东西说动摇了吧？</color>
-()||:平板重新亮了起来。+指挥官没有理会丹德莱的调侃，继续在脑海里规划接下来的行动。
-()<Speaker>指挥官</Speaker>||:……丹德莱，告诉我“入侵”的进度。
-()||<黑点1>:
+()||:The Commander falls into a long silence after Havier leaves. +These days, they find themselves in an unusual position where they're unable to move freely as they once did.
+()||:And such a position is well suited for thinking. +Quiet, effective... thinking.
+()<Speaker>Dandelion</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Oh my, don't tell me that old goat actually got to you?</color>
+()||:The tablet lights up again. +The Commander ignores Dandelion's teasing, continuing to mentally map out their next steps.
+()<Speaker>Commander</Speaker>||:...Dandelion, give me an update on the progress of the "infiltration".
+()||<黑点1>:

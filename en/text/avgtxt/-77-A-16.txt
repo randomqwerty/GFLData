@@ -1,103 +1,103 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
-()||<BGM>BGM_stage11</BGM><黑屏2><BIN>207</BIN>:2064年X月X日 法兰克福 废弃工厂+在DDR2台进行采访的同时，法兰克福的某工业区。
-()||<SE1>AVG_wind_grass</SE1>:在已经废弃多年的厂房外，传来了枯枝被踩断的声音。
-()||:当这片弥漫着铁锈和腐败气息的寂静被不速之客打破，空气中粉尘也如同被惊扰的幽灵，在窗口斜射进来的光柱中狂乱地飞舞。
-UMP9Mod(2)<Speaker>UMP9</Speaker><Shake>||:哇！有蜘蛛丝，沾到我的脸上了！
-G11Mod(0)<Speaker>G11</Speaker>||:我们就像是老鼠一样，在城市废墟里搜索垃圾。+唉……当老鼠也好，但我想找个干净一点的地方睡觉……
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:既然是老鼠，就快点把爵士藏在下水道里秘密统统挖出来吧。+丹德莱，这个地点没错吗？
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>没问题，这附近应该有一道还在运行的电子安全门。</color>
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:啊，我好像找到了，但它需要认证才能打开。
-()||:格琳首先注意到了那道藏在废弃物中的合金电子门。
-()||<SE1>AVG_keyboardtype_sci</SE1>:随着控制面板上指示灯的默默闪烁，可以听到一阵微弱的低频嗡鸣。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:有丹德莱在的话，应该不用我出场了吧？
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>稍等，我这就破解。</color>
-()||:丹德莱的声音正通过格琳娜手中的通讯器中传来。+格琳娜并没有想到，她就是AK-12所说的替指挥官传达消息的“神秘人物”。
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:……
-()||:格琳娜看着屏幕上丹德莱的虚拟图像，回想起了前几天，她和托卡列夫的对话。+托卡列夫所不知道的，指挥官最后的“结局”……
-()||:她失去素体的理由，那辆坦克驶向那条道路的理由……+只有指挥官和她知道。
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:那个，丹德莱小姐……
+()||<BGM>BGM_stage11</BGM><黑屏2><BIN>207</BIN>:██/██/2064. At an abandoned factory in Frankfurt. +While the interview is taking place at the DDR2 studio, in an industrial district somewhere in Frankfurt.
+()||<SE1>AVG_wind_grass</SE1>:Outside a factory that has been abandoned for many years, the sound of dry branches snapping underfoot echoes.
+()||:As the stillness—thick with rust and decay—is disturbed by unwelcome visitors, dust rises like startled ghosts, swirling wildly in the shafts of light slanting in through the broken windows.
+UMP9Mod(2)<Speaker>UMP9</Speaker><Shake>||:Ack! I've got cobwebs stuck to my face!
+G11Mod(0)<Speaker>Gr G11</Speaker>||:We're basically like rats, rummaging through garbage in the ruins of the city. +Ugh... I don't mind being a rat, but I'd at least like a cleaner place to sleep...
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:Since we're rats, we'd better dig out all the dirty little secrets that the Earl has hidden in the sewers. +Dandelion, are you sure this is the right place?
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>Affirmative. There should be an electronic security door nearby that's still operational.</color>
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:Ah, I think I found it, but it needs authentication to open.
+()||:Kalina is the first to notice the alloy electronic door hidden among the debris.
+()||<SE1>AVG_keyboardtype_sci</SE1>:A low hum can be heard as the indicator light on the control panel blinks faintly.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:With Dandelion around, I guess I don't need to step in, right?
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>Hold on, I'm working on it.</color>
+()||:Dandelion's voice comes through the communicator in Kalina's hand. +Kalina had no idea that she is the "mysterious figure" AK-12 mentioned—the one relaying messages on the Commander's behalf.
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:...
+()||:Kalina looks at Dandelion's virtual avatar on the screen, recalling her conversation with Tokarev a few days ago. +What Tokarev doesn't know is the Commander's final "ending"...
+()||:Only the Commander and she know... +The reason Dandelion lost her body, and why that tank drove down that road.
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:Um, Miss Dandelion...
 ()||<CGDelay>0.5</CGDelay><SE1>AVG_2023Slow_Keyboard_Correct</SE1>:
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>解开了。</color>
-NPC-Kalin(11)<Speaker>格琳娜</Speaker>||:诶？
-NPC-Kalin(11)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>我说门已经破解好了。</color>
-NPC-Kalin(11)<Speaker>格琳娜</Speaker>||:好，好快……
-()||:在格琳娜想好要怎么开口搭话之前，丹德莱已经迅速完成了破解。
-()||<SE1>AVG_Card_Reader</SE1>:电子门上的指示灯变成了绿色。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>不过你好像有话想单独和我说？</color>+<color=#00CCFF>要不要假装还在破解，让45他们多等等？</color>
-NPC-Kalin(11)<Speaker>格琳娜</Speaker>||:也不是什么重要的事……
-()||:……+格琳娜深吸了一口气。
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:对不起，是很重要的事。+丹德莱小姐……指挥官还好吗？
-NPC-Kalin(9)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>指挥官很好，就在此刻，他正面对全法兰克福的市民发表一番振奋人心的演讲。</color>
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>可惜的是我们现在没法观看直播。</color>
-NPC-Kalin(11)<Speaker>格琳娜</Speaker>||:演、演讲？什么情况？
-NPC-Kalin(11)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>解释起来比较复杂，但你不用担心，我随着关注着他那边情况，不会让指挥官遇到危险的。</color>
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:……果然，丹德莱你一直都跟在指挥官身边呢。
-NPC-Kalin(9)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>我还有一个好消息要告诉你，托卡列夫小队的心智已经成功回收了。</color>+<color=#00CCFF>忤逆那边正在帮她们寻找新的素体，应该不久后就会完成重启。</color>
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:真、真的吗？谢谢你！
-NPC-Kalin(9)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>你不用谢我，这也是指挥官的命令。</color>+<color=#00CCFF>那个人一旦决定要做什么，在达成目的之前通常是不会放弃的。</color>+<color=#00CCFF>而为了完成指挥官制定的计划，我已经好久没有休息过了。</color>
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:对、对啊！指挥官一旦工作起来，就会连带着身边的人一起加班，而他自己却对此没有自觉！
-NPC-Kalin(9)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>所以真到了要撑不住的时候，先倒下的往往是指挥官。</color>
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:没错！就是这些地方让人很操心！+果然就算我不在身边时候，指挥官也一点改变都没有。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>ClothingUp</SE1>:你们话说完了吗？差不多该继续前进了吧？
-UMP45Mod(0)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>电子门破解好了，我顺便扫描了前方通道地图。</color>+<color=#00CCFF>指挥官交代的任务是潜入这座设施，我估计里面会有守卫。</color>
-UMP9Mod(6)<Speaker>UMP9</Speaker>||:守卫？在这种废弃工厂里吗？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:是不是真的废弃要进一步调查才知道。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:没错，先做好战斗的准备吧。+G11和M16担任先锋9和我担任后卫，掩护好格琳娜。
-G11Mod(0)<Speaker>G11</Speaker>||:可以的话我也想当后卫，比起担任先锋应该轻松一点。+等416回来之后我就要申请调换岗位，把加班欠下的休息补回来。
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>It's done.</color>
+NPC-Kalin(11)<Speaker>Kalina</Speaker>||:Huh?
+NPC-Kalin(11)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>The door's unlocked.</color>
+NPC-Kalin(11)<Speaker>Kalina</Speaker>||:That... that was fast...
+()||:Before Kalina can figure out how to broach the subject, Dandelion has already finished cracking the lock.
+()||<SE1>AVG_Card_Reader</SE1>:The indicator light on the door turns green.
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>You looked like you wanted to talk to me in private?</color> +<color=#00CCFF>I can pretend that the hack is still underway and keep 45 and the others waiting a bit longer if you want?</color>
+NPC-Kalin(11)<Speaker>Kalina</Speaker>||:It's not anything important...
+()||:... +Kalina takes a deep breath.
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:Sorry... It is actually important. +Miss Dandelion... is the Commander okay?
+NPC-Kalin(9)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>The Commander is fine. At this very moment, they're delivering an inspiring speech to all of Frankfurt.</color>
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>Unfortunately, we can't watch the broadcast.</color>
+NPC-Kalin(11)<Speaker>Kalina</Speaker>||:A speech? What's going on?
+NPC-Kalin(11)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>It's complicated, but don't worry. I'm monitoring their situation constantly. I won't let anything happen to them.</color>
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:...So you really have been staying by their side all along, Dandelion.
+NPC-Kalin(9)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>I have some more good news for you. The neural clouds of Tokarev's squad have been successfully recovered.</color> +<color=#00CCFF>Task Force DEFY is securing new frames for them, and they should be rebooted soon.</color>
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:R-really? Thank you!
+NPC-Kalin(9)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>No need to thank me. It's the Commander's order.</color> +<color=#00CCFF>Once they set their mind on doing something, they don't give up until it's done.</color> +<color=#00CCFF>I've been so busy doing their bidding, I haven't had any rest in quite a while.</color>
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:Th-that's right! Once the Commander gets to work, they drag everyone else into overtime—and doesn't even realize it themself!
+NPC-Kalin(9)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>Which is why, when things finally fall apart, they're usually the first to go down.</color>
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:Exactly! That's why I'm always so worried about them! +Honestly, even when I'm not around, they haven't changed at all.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||<SE1>ClothingUp</SE1>:Are you two done talking? We need to move on.
+UMP45Mod(0)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>The door's open. I've also scanned the layout ahead.</color> +<color=#00CCFF>The Commander's orders are to infiltrate this facility. I expect guards inside.</color>
+UMP9Mod(6)<Speaker>UMP9</Speaker>||:Guards? In an abandoned factory like this?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:We won't know if it's truly abandoned or not without further investigation.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Indeed. Stay ready for combat. +Gr G11 and M16 will take point. 9 and I will cover the rear. Make sure we keep Kalina safe.
+G11Mod(0)<Speaker>Gr G11</Speaker>||:If possible, I'd prefer rear guard duty too. It sounds easier than being the vanguard. +I'm definitely requesting a transfer once 416 gets back—and taking back all the rest I'm owed.
 ()||<黑屏1>:
 ()||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM><SE1>AVG_Team_Running</SE1>:
 ()||<黑屏1>:
-()||<BIN>794</BIN><黑屏2><BGM>GF_21winter_battle_3</BGM>:2064年X月X日 法兰克福 地下工厂
-()||:众人沿着狭窄的货梯前进，不久后发现了一间储存有大量原材料的仓库。
-()<Speaker>丹德莱</Speaker>||:<color=#00CCFF>小心。</color>
-NPC-Kalin(11)<Speaker>格琳娜</Speaker>||:那是……罗联的士兵？+等等，这些箱子里的是？
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:丹德莱？
-M16A1BOSS(2)<Speaker>丹德莱</Speaker><同时置暗>||:<color=#00CCFF>毫无疑问是属于帕拉蒂斯的货物。</color>+<color=#00CCFF>他们以为不打标识我就发现不了了，真天真。</color>
-NPC-Kalin(9)<Speaker>格琳娜</Speaker>||:罗联竟然真的事到如今还在和帕拉蒂斯合作……
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:这还只是其中的一处生产线。+以我们目前所掌握的情报，类似的设施在法兰克福市内还有很多。+这都是在罗联的支持下，重新开始运作的。
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:我很好奇你们是怎么找到这些被爵士完全隐藏下来的设施的。
-M16A1BOSS(4)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>当然是多亏了我们的指挥官，堡垒最容易从内部攻破，敌人的情报网也一样。</color>
-M16A1BOSS(3)<Speaker>M16A1</Speaker>||:真是有那个人风格的战术。+要是教坏其他人就不好了。
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:那么，为了不白费指挥官的牺牲，我们下一步应该怎么办？
-UMP45Mod(0)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>我想想……</color>+<color=#00CCFF>为了便于更进一步地入侵系统，你们最好能帮我制造点混乱。</color>
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||<BGM>BGM_Empty</BGM>:那很简单，先来场爆炸再说吧，反正最后也要把这里都破坏掉。
+()||<BIN>794</BIN><黑屏2><BGM>GF_21winter_battle_3</BGM>:██/██/2064. Underground factory, Frankfurt.
+()||:The group takes a narrow freight elevator and soon reaches a warehouse filled with raw materials.
+()<Speaker>Dandelion</Speaker>||:<color=#00CCFF>Careful.</color>
+NPC-Kalin(11)<Speaker>Kalina</Speaker>||:Those are... URNC soldiers? +Wait, what's in these crates?
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:Dandelion?
+M16A1BOSS(2)<Speaker>Dandelion</Speaker><同时置暗>||:<color=#00CCFF>Without a doubt, these goods belong to Paradeus.</color> +<color=#00CCFF>They thought I wouldn't notice just because there are no markings. How naïve.</color>
+NPC-Kalin(9)<Speaker>Kalina</Speaker>||:So the URNC is still colluding with Paradeus...
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:And this is just one production line. +Based on our intel, there are many more facilities like this throughout Frankfurt. +All reactivated with the URNC's support.
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:I'm curious how you even found these facilities when the Earl has gone to such great lengths to hide them.
+M16A1BOSS(4)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>It's all thanks to our Commander. Fortresses are easiest to breach from within—and so are intelligence networks.</color>
+M16A1BOSS(3)<Speaker>M16A1</Speaker>||:That does sound like their style. +Let's hope they don't set a bad example for others.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:So, what's next? We can't let their sacrifice go to waste.
+UMP45Mod(0)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>Let me think...</color> +<color=#00CCFF>If you want me to dig deeper into their system, you'll need to create a diversion.</color>
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||<BGM>BGM_Empty</BGM>:That's easy. Let's start with an explosion. We're going to destroy this place anyway.
 ()||<黑屏1>:
 ()||<BIN>9</BIN><黑屏2>:
 ()||<黑屏1>:
-()||<黑屏2><SE1>AVG_21Winter_Fire_Alarm</SE1><BIN>9</BIN><BGM>10389</BGM>:几分钟后，工厂内警铃大作。
+()||<黑屏2><SE1>AVG_21Winter_Fire_Alarm</SE1><BIN>9</BIN><BGM>10389</BGM>:A few minutes later, alarms blare throughout the factory.
 ()||<CGDelay>0.3</CGDelay><SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1><SE2>Gunfight</SE2>:
-()||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:枪声与爆炸声此起彼伏，数枚催泪弹不知从何处掷出，瞬间弥漫的烟雾吞噬了守卫们的视野。
-()<Speaker>罗联士兵</Speaker>||<SE1>AVG_tele_connect</SE1>:E区4号实验室内出现多名入侵者，数量4名，其中包含了战术人形！
-()<Speaker>罗联士兵</Speaker>||:开火！
+()||<SE1>AVG_The_Division_Flash_Bomb_Explosion</SE1>:Gunfire and explosions erupt one after another. Several tear gas grenades are thrown from unknown directions, and thick smoke engulfs the guards' vision.
+()<Speaker>URNC Soldier</Speaker>||<SE1>AVG_tele_connect</SE1>:Intruders detected in Lab E-4! Four targets, including T-Dolls!
+()<Speaker>URNC Soldier</Speaker>||:Open fire!
 ()||<CGDelay>2</CGDelay><SE1>AVG_Gunfire</SE1><controll_shake>%%type_id=2%%duration=7%%delay=0%%range=4</controll_shake><BIN>892</BIN>:
-()<Speaker>格琳娜</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:呜！好险……！
-()<Speaker>UMP9</Speaker>||:对方的火力更强，我们被压制住了。+45姐，G11的电池开关是不是在你那里，要不要把它打开？
-()<Speaker>G11</Speaker>||:诶？等等，我不要在这里冲锋啊，一定会被打成筛子的！
-()<Speaker>UMP9</Speaker>||:那也比所有人都变成筛子好吧？
-()<Speaker>UMP45</Speaker>||:别着急，在掩体后面躲好了，我们这次只是诱饵。
-()||<SE2>Gunfight</SE2><SE1>AVG_Team_Running</SE1><震屏3>:双方交火数秒后，404这边的火力逐渐变弱，罗联士兵以交替掩护战术稳步推进。+可一旦进入烟雾，他们的视线也同样遭到干扰，谁都没有注意到，一个矫健的身影已经悄无声息地绕到了他们身后。
-()<Speaker>M16A1</Speaker>||:不愧是正规军。
-()<Speaker>罗联士兵</Speaker>||<SE1>Select</SE1>:后面？什么时——
-()<Speaker>罗联士兵</Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:——唔！？
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||<BIN>9</BIN>:可惜，太嫩了！
+()<Speaker>Kalina</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1>:Oof! That was close...!
+()<Speaker>UMP9</Speaker>||:We're outgunned, and they have us pinned down. +45, don't you have Gr G11's battery switch? Should we turn it on?
+()<Speaker>Gr G11</Speaker>||:Huh? Wait, no! I don't want to charge in here! I'll get shredded!
+()<Speaker>UMP9</Speaker>||:Better one of us gets shredded than all of us, right?
+()<Speaker>UMP45</Speaker>||:Calm down. Stay behind cover. We're just the bait this time.
+()||<SE2>Gunfight</SE2><SE1>AVG_Team_Running</SE1><震屏3>:404's firepower weakens after several seconds of firefights. URNC soldiers advance steadily using alternating cover tactics. +But once they enter the smoke, their visibility drops as well. None of them notice a nimble figure silently circling behind them.
+()<Speaker>M16A1</Speaker>||:That's the Army for you.
+()<Speaker>URNC Soldier</Speaker>||<SE1>Select</SE1>:Behind us? When—
+()<Speaker>URNC Soldier</Speaker>||<震屏3><SE1>AVG_Punch_Hit</SE1>:—Ugh?!
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||<BIN>9</BIN>:Too bad. You're still green!
 ()||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
 ()||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.2</CGDelay>:
-()||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.6</CGDelay>:呯呯呯——
+()||<SE1>AVG_rifle_finalshot_n</SE1><CGDelay>0.6</CGDelay>:Bang-bang-bang!
 ()||<黑屏1>:
 ()||<BIN>794</BIN><黑屏2>:
-M16A1BOSS(5)<Speaker>M16A1</Speaker>||:这样应该足够混乱了吧。
-M16A1BOSS(5)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>这是袭击，已经超出混乱的范畴了。</color>
-M16A1BOSS(2)<Speaker>M16A1</Speaker>||:<color=#00CCFF>要找的东西找到了吗？</color>
-M16A1BOSS(2)<同时置暗><Speaker>丹德莱</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>我黑入了工厂的主控系统，发现了不少有趣的记录。</color>+<color=#00CCFF>像是这处生产线曾经在数日前短暂启动过一段时间，所生产的货物被集中送往了某个地点……</color>+<color=#00CCFF>这应该就是指挥官一直要找的地方。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:看来是中奖了，我们404总算是没有白当诱饵。+对了，不如也顺便查一下其他的工厂或是实验室？
-UMP45Mod(0)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>信息都被加密了，我需要进行一步地破解，但是……可能没有时间了。</color>
-()||<SE1>AVG_BaseDoor_Open</SE1>:丹德莱的话刚说完，众人前方的隔离门传来响动。
-()||<SE1>AVG_Sword_Scope</SE1>:嗡——
-NPC-grig(0)<Speaker>缇</Speaker><GradientShow>2</GradientShow>||<SE1>AVG_21Winter_FT_Heel</SE1>:……
-()||:伴随着熟悉的嗡鸣声，一个白色的身影出现在了朦胧的烟雾中。
-NPC-Kalin(11)<Speaker>格琳娜</Speaker>||:那，那是什么！？涅，涅托！？+还有这种的吗！？
-M16A1BOSS(4)<Speaker>M16A1</Speaker>||:是缇，她竟然也在这里。
-G11Mod(0)<Speaker>G11</Speaker>||:呜欸……我，我不想跟她打啊……
-G11Mod(0)<同时置暗><Speaker>丹德莱</Speaker>||:<color=#00CCFF>我的建议是尽快跑路，罗联的士兵也在朝你们那边赶去。</color>
-UMP45Mod(0)<Speaker>UMP45</Speaker>||:没办法了，我们不能在这里被困住，各单位准备突围，迅速撤退。
-()||<黑点1>:
+M16A1BOSS(5)<Speaker>M16A1</Speaker>||:That should be enough of a diversion, right?
+M16A1BOSS(5)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>This is more than a diversion—it's a full-on assault.</color>
+M16A1BOSS(2)<Speaker>M16A1</Speaker>||:<color=#00CCFF>Did you find what we're looking for?</color>
+M16A1BOSS(2)<同时置暗><Speaker>Dandelion</Speaker>||<SE1>AVG_keyboardtype_sci</SE1>:<color=#00CCFF>I've hacked into the factory's main system and found some interesting records.</color> +<color=#00CCFF>This production line was active for a short while a few days ago. The goods were shipped to a single location...</color> +<color=#00CCFF>This should be the place the Commander has been searching for.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Jackpot. Looks like 404 wasn't bait for nothing. +Hey, why not check the other factories and labs too?
+UMP45Mod(0)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>The data is encrypted. I'll need more time to crack it... but we may not have that luxury.</color>
+()||<SE1>AVG_BaseDoor_Open</SE1>:Just as Dandelion finishes speaking, the isolation door ahead begins to move.
+()||<SE1>AVG_Sword_Scope</SE1>:Hum...
+NPC-grig(0)<Speaker>Grig</Speaker><GradientShow>2</GradientShow>||<SE1>AVG_21Winter_FT_Heel</SE1>:...
+()||:Through the haze, accompanied by that familiar hum, a white figure emerges.
+NPC-Kalin(11)<Speaker>Kalina</Speaker>||:W-what is that?! A Nyto?! +I've never seen one like this before?!
+M16A1BOSS(4)<Speaker>M16A1</Speaker>||:It's Grig... I didn't expect her to be here.
+G11Mod(0)<Speaker>Gr G11</Speaker>||:Ugh... I don't want to fight her...
+G11Mod(0)<同时置暗><Speaker>Dandelion</Speaker>||:<color=#00CCFF>I recommend you hightail it out of there. URNC soldiers are also converging on your position.</color>
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Yeah, can't be helped. We mustn't get trapped here. All units, prepare to break through. Withdraw immediately.
+()||<黑点1>:
