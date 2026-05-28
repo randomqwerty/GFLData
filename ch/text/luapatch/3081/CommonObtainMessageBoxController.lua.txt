@@ -70,8 +70,6 @@ local mInit = function(self,obtain)
 		self:Init(obtain)
 	end
 end
-if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw 
-	or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea 
-	or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_US then
 util.hotfix_ex(CS.CommonObtainMessageBoxController,'Init',mInit)
 end

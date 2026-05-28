@@ -47,9 +47,7 @@ local mRequestMissionCombinationHandle = function(self,data)
 		itemCS.textCode.text ="A-"..self.mission.missionInfo.sub
 	end
 end
-if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw 
-	or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea 
-	or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
+if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_US then
 util.hotfix_ex(CS.MissionSelectionController,'PlayUITweens',mPlayUITweens)
 util.hotfix_ex(CS.MissionSelectionCampaignSelectButtonController,'Init',mInit)
 util.hotfix_ex(CS.MissionSelectionIntroduceController,'UpdateInfo',mUpdateInfo)
