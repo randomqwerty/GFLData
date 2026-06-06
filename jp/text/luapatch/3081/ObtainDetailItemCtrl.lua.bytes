@@ -25,8 +25,6 @@ local mGotoJump = function(self)
 		self:GotoJump()
 	end
 end
-if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_US then
 util.hotfix_ex(CS.ObtainDetailItemCtrl,'Init',mInit)
-end
 --util.hotfix_ex(CS.ObtainDetailItemCtrl,'SetClick',mSetClick)
 --util.hotfix_ex(CS.ObtainDetailItemCtrl,'GotoJump',mGotoJump)

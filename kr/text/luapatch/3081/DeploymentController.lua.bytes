@@ -4,8 +4,10 @@ local PlayBgm = function()
 	--露尼西亚战斗中avg结束时不重置bgm
 	if CS.GameData.currentSelectedMissionInfo ~= nil and CS.GameData.currentSelectedMissionInfo.campaign == -78 and CS.Utility.loadedLevelName == "Battle" then
 		local spot = CS.GameData.engagedSpot
-		if spot ~= nil and spot.spotInfo.id == 89490 then
-			return
+		if spot ~= nil then
+			if spot.spotInfo.id == 89490 or spot.spotInfo.id == 89547 or spot.spotInfo.id == 89604 then
+				return
+			end
 		end
 	end
 	CS.DeploymentController.PlayBgm()
