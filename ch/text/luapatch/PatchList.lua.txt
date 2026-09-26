@@ -452,6 +452,7 @@ patch3081=
 "3081/IllustratedBookController",
 "3081/MissionSelectionMissionDetailController",
 "3081/RewardBoxController",
+"3040/LoginController",
 }
 -- va11
 print("load Va11");
