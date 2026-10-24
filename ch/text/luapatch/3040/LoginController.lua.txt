@@ -3,6 +3,7 @@ xlua.private_accessible(CS.LoginController)
 local myStartInit = function(self)
     self:StartInit();
 	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_US then
+		self.transform:Find('AgreementGroup').gameObject:SetActive(true);
 		self.btnUserPrivacy:SetActive(true);
 	end
 end
